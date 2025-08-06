@@ -14,3 +14,5 @@ This workshop constrasts different computational approaches to the analysis of t
 Fischer, Stefan, Jörg Knappen, Katrin Menzel, and Elke Teich. 2020. “The Royal Society Corpus 6.0: Providing 300+ Years of Scientific Writing for Humanistic Study.” In Proceedings of the 12th Language Resources and Evaluation Conference, 794–802. Marseille, France: European Language Resources Association. https://www.aclweb.org/anthology/2020.lrec-1.99.
 
 Kermes, Hannah, Stefania Degaetano-Ortlieb, Ashraf Khamis, Jörg Knappen, an Elke Teich. 2016. "The Royal Society Corpus: From Uncharted Data to Corpus." In Proceedings of the Tenth International Conference on Language Resources and Evaluation, 1928–31. Portorož, Slovenia: European Language Resources Association. https://www.aclweb.org/anthology/L16-1305.
+
+Menzel, K., Knappen, J., & Teich, E. (2021). Generating linguistically relevant metadata for the Royal Society Corpus. Research in Corpus Linguistics, 9(1), 1–18. https://doi.org/10.32714/ricl.09.01.02
