@@ -1,5 +1,5 @@
 # Words & Concepts 
-#### (Wednesday, August 30, 14:00-17:00 EET)
+#### Wednesday, August 30, 14:00-17:00 EET
 
 **Description**
 
