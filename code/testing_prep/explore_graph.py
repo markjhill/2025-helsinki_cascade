@@ -55,9 +55,29 @@ doc_types = [G.nodes[n]['doc_type'] for n in pub_nodes_in_graph]
 doc_type_counts = Counter(doc_types)
 print(f"\nDocument types in network: {doc_type_counts}")
 
+
+
+
 # Basic degree statistics
 degrees = [G.degree(n) for n in G.nodes()]
 print(f"\nDegree statistics:")
 print(f"Average degree: {sum(degrees)/len(degrees):.2f}")
 print(f"Max degree: {max(degrees)}")
 print(f"Min degree: {min(degrees)}")
+
+# Explore connections
+
+# Get degree for author nodes only
+author_degrees = [(n, G.degree(n)) for n in author_nodes_in_graph]
+author_degrees.sort(key=lambda x: x[1], reverse=True)
+
+print("Most connected authors (top 10):")
+for author, degree in author_degrees[:10]:
+    print(f"{author}: {degree} connections")
+
+# Check what document types the most connected author publishes
+top_author = author_degrees[0][0]
+connected_pubs = list(G.neighbors(top_author))
+connected_doc_types = [G.nodes[pub]['doc_type'] for pub in connected_pubs]
+print(f"\n{top_author} publishes:")
+print(Counter(connected_doc_types))
