@@ -1,4 +1,5 @@
-# This repo holds code and data for the Wed (14:00-17:00) session on words & concepts
+# Words & Concepts 
+#### (Wednesday, August 30, 14:00-17:00 EET)
 
 **Description**
 
