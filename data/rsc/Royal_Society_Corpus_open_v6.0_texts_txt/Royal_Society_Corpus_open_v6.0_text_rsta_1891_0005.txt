@@ -1,0 +1,689 @@
+]\gt ; V. BAKERIAN LECTITRE.\mdash ; On Tidat Prediction .
+G. H. DARWIN , F.R.S. , Professor and Fellow of Trinity mbridge .
+Received December 1890\mdash ; Read January 29 , 1891 .
+TABLE OF CONTENTS .
+Introduction I. Analysis .\mdash ; . .
+Comparison and Discussion PAGE . . . . . .
+159 TRODUCTION .
+AT most places on the North Atlantic the prediction of high and low water is fairly easy , because there is hardly any diurnal tide .
+This abnormality makes it to have a table of the mean fortnightly inequality in the height and interval after transit , supplemented by tables of corrections for the ations and parallaxes of the disturbing bodies .
+But when there is a large diurnal inequality .
+as is commonly the case in other seas , the heights and intervals after the upper and lower lunar transits are widely different ; the two halves of each lunation differ much in t , heir characters , and the season of the year has great influence .
+Thus simple tables , such as are applicable in the absence of diurnal tide , are of no avail .
+The tidal information supplied by the Admiralty for such places , consists of rough .
+means of the rise and interval at spring and neap , modified by the important war11ing that the tide is affected by diurnal inequality .
+Information of this kind affords scarcely any indication of the time and height of high and low water on any given day , and must , I should think , be almost useless .
+is the present state of affairs at many ports of some importance , but at others a specially construc , ted tide-table for each of each year is published in advance .
+special tide-table is clearly the best sort of idormation for the sailor , but the heavy expense of prediction and publication is rarely incurred , except at ports of first rate commercial importance .
+There is not , to my knowledge , any method in use of computing a special tide-table , which does involve much work and expense .
+adinirable tide-predicting instrument of the Indian Government renders the prediction comparatively , yet the instrument cau hardly be deemed available for the whole world , and the cost of publication is so considerable , that the instrument cannot , or at least will not , be used for many minor ports at remote places .
+It is not impossible , too , that national pride may deter the naval authorities of other nations from sending to London for their predictions .
+' The object then , of the present paper , is to show how a general tide-table , applicable for all time , may be given in such a form that any one , with an elementary knowledge of the ' Nautical Almanac , ' may , in a few minutes , compute two or three tides for the days on which they are required .
+The tables will also be such that a special tide-table for any year may be computed with comparatively little trouble .
+Any tide-table necessarily depends on the tidal constants of the particular port for which it is designed , and it is here supposed that the constants are given in the harmonic system , and are derived from the reduction of tidal observations .
+Where the observation has been by tide-gauge , the process of reduction is that explained in the Report to the British Association for 1883 , but where the observations were only taken at high and lo water a different process becomes necessary .
+I have given , in a previous paper , a scheme of reduction in these cases .
+At ports not of first rate commercial importance , tidal observation has rarely been by tide-gauge , and thus it is exactly at those ports where the method of this paper may prove most useful , that we are deprived of the ordinary hods of analysis .
+On this account I regard my previous paper as to the present one , although the two are logically independent of one another .
+In the harmonic method the complete analytical expression for the height of water at any time consists of the sum of a number of heights , each multiplied by the cosine of an angle .
+Each of these angles or arguments involves some or all of the mean longitudes of moon , sun , lunar perigee , and solar perigee ; there are , also , certain corrections depending o11 the longitude of the moon 's nodes .
+The variability of height of water depends principally on the mean longitudes of moon and sun , and , to a subordinate degree , on the of lunar perigee and node\mdash ; for the perigee is sensibly fixed .
+There are , therefore , two principal variables and two subordinate ones besides the time .
+This statement suggests the construction of a table of double entry for the variability of water due to the principal variables , and of correctional tables for the subordinate ones ; and this is the plan developed below .
+It would not be appropriate to retain the mean longitudes of moon and sun as principal variables , nor the mean longitude of lunar perigee as one of the subordinate variables .
+In the final table the principal variab ] are the time of moon 's transit , and the time of year , or strictly speaking the sun 's true longitude .
+As to the sub* The instrument may be used , I believe , on the payment of certain fees .
+" " On the Harmonic Analysis of Tidal Observations of High and Water ' Roy .
+Soc. Proc , 1890 , p. 278 .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+ordinate variables , the moon 's parallax is as one , whilst the longitude of the node is retained as the other .
+Throughout the first part of the analytical development the 's true longitude , measured in the orbit , is taken as one of the principal variables .
+Transition is then made to the time of transit of a fictitious satellite whose right ascension is equal to the moon 's true longitude , and the final transition is to the Jransits of the real moon .
+This transposition of variables has no jessitated a complete development of the tidegenerating forces from the beginning , and thus the analysis of the paper is almost complete in itself , although reference is necessarily made to the harmonic method .
+Such a piece of work as the present can only be deemed complete when an example has been worked out to test the accuracy of the tidal prediction , and when rules have been drawn up for the arithmetical processes , forming a complete code of instructions to the computer .
+The example below is intended to carry out these requirements .
+I chose the port of Aden for the example , because its tides are more complex and apparently irregular than those of any other place , which , as far as I know , has been thoroughly treated .
+The tidal constants for Aden are well determined , and the annual tide-tables of the Indian Government afford the means of comparison betweeu my predictiolb and those of the tide-predicting instrument .
+The arithmetic of the example has been long , and the plan of marshalling the work has been rearranged many times .
+An ordinary computer is said to work best when he is ignorant of the meaning of his work , but in this kind of tentative work a satisfactory arrangement cannot be attained without a full comprehension of the reason of the method .
+I was , therefore , very fortunate in the enthusiastic assistance of Mr. J. W. F. , and I owe him my warm thanks for the laborious computations he has carried out .
+After computing fully half of the original table , he made a comparison for the whole of 1889 between our predictions and those of the Indian Government .
+I had hoped that tables , less elaborate than those exhibited below , might have sufficed .
+Ib appeared , however , that the changes during the lunation and with the time of year , which affect the height and interval , are so abrupt and so great , that short tables would give very inaccurate resuIts , unless used with eJaborate interpolation .
+We can clearly never expect sailors to use tables of double entry , in which interpolation to second and third differences is required ; and indeed any is objectionable .
+It is proposed , therefore , that the tables shall be made so full that terpolation will be unnecessary .
+This plan , of course , throws the whole of the interpolation on to the computer , and although exte1lsive interpolation\mdash ; even when done graphically\mdash ; is tedious , yet it is obviously best to have it done once for all , rather than piecemeal by the user of the tables .
+The first part of the paper gives the analytical development , the second containls the numerical example and rules of computation , and in the third I give some account IDCCCXCI .
+\mdash ; A. V of the comparison with other predictions and actuality , and suggestions for abridgements in cases where less accuracy shall be thought sufficient .
+The analytical formulae of the first part are much scattered , and it may not always be easy to see whither they tend ; but the second part virtually contains a summary of the first , and a comparison between these two parts will show both the reasons for the anaIysis and those for arithmetical processes .
+I have tried to make the instructions to the computer so complete that he need not be troubled with the reason for his operations ; but if there is , through any incompleteness , reference must be made to the analytical development for interpretation and instruction .
+PART I.\mdash ; ANALYSIS .
+S1 .
+Development of the Potentiat .
+Let ( fig. 1 ) be axes fixed in the earth , AB being the equator and the north pole .
+Let be respectively the radius-vectors of the moon , and of any point .
+Let be the direction cosines of the moon , and those of 1ooth referred to the axes ABC .
+Then by the usual theory the potential , of the second order of harmonics , is ( 1 ) , where is the moon 's mass , and the attractional constant .
+But since PM PM . . . .
+( 2 ) .
+Now let X , , fig. 1 , be a second set of rectangular axes , fixed in space ; be the projection of the moon in her orbit .
+Let , the obliquity of the PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+lunar orbit to the equator ; let , and , the moon 's longitude measured in her orbit from the point X. From the figure it is clear that , .
+( 3 ) .
+, Hence from ( 3 ) I cos2 cos2 , I sin2 , ( 4 ) .
+, , In order to simplify the result of the substitutions from ( 4 ) into ( 2 ) and ( 1 ) , the axes fixed in the earth may be taken as follows:\mdash ; The axis A on the .
+equa or in the meridian of the place the tides are observed , east of , and as already stated at the north pole .
+Then if be the latitude of the place of observation Hence ( 2 ) becomes PM \mdash ; ( 5 ) .
+We shall therefore only require the first and the last two of ( 4 ) , and these may be considerably simplified .
+The angle ranges between ; hence the term in which involves is negligible , and similarly that which involves in may be omitted .
+Further , it is only necessary to develop in as far as it is variable ; now as ranges from to , and back again in the course of 19 years , oscillates slightly in value about a mean .
+The " " tides of long period\ldquo ; corresponding to the term in , are , although sensible , so small that we shall take no account of them ; fortiori the variability of is negligible .
+It would be easy , however , to take account of these terms if it were desirable to do so .
+We need therefore only pay attention to the first and fourth of ( 4 ) , and the last terrn in each ma , be omitted .
+In let be the moon in her orbit , and let A be the axis A of fig. 1 fixed in the earth .
+Fig. 2 .
+Then let be the right ascension of the point I , and its longitude measured in the moon 's orbit .
+Let be the obliquity of the ecliptic , the inclination of the moon 's orbit , the longitude of the moon 's node .
+Let be the mean solar hour angle at the place and time of observation , the sun 's mean longitude , and the moon 's longitude measured in the orbit .
+Then , by the definition of and , we have IM .
+Since , and the sidereal hour angle , Thus to the degree of approximation adopted , ( 4 ) becomes cos2 Icos2 .
+Isin ( 6 ) .
+, We must now obtain approximate formulae to express the functions of , and in terms of , and .
+The inclination may be treated as so small that its square may be neglected .
+From fig. 2 we have PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+whence , , , ( 7 ) .
+, , , Again from the figure .
+Since is small , Therefore .
+' ( 8 ) . .
+2 Hence from ( 7 ) and ( 8 ) , , ( 9 ) .
+Isin , , Now ; whence Four of these are written with in the denominator for reasons given below .
+Then from ( 9 ) and ( 6 ) we have s3 ( 10 ) S 0-4 Now let be the moon 's mean distance , and let , and Then as far as concerns the moon ( 11 ) , where are given by ( 10 ) .
+In writing down the corresponding functions for the sun , we shall write a subscri accent to all the symbols , and accordingly for the sun is given by a su scrlpt ( 12 ) , where , by symmetry with ( 10 ) , .
+, PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+The masses and mean distances of the moon and sun are such that ( 14 ) .
+Strictly speaking , denotes , and , denotes ; where , are the eccentricities of the lunar and solar orbits .
+A comparison with the Report on Tides to the British Association for 1883 , will show thab , for the purpose in hand , is correct to introduce these factors involving and The whole potential may be collected from ( 10 ) , ( 11 ) , ( 12 ) , ( 13 ) , ( 14 ) .
+Since is small the factor may be treated as unity in the small terms which involve and , and we shall find it convenient to distinguish the several parts of , denoting by the principal part , by the part involving , by the part involving , and by , the part involving For brevity write ; ; .
+; .
+Then remarking that approximately , we have .
+, , .
+( 15 ) .
+The whole potential is then S2 .
+Formula for the Height Tide .
+If we had been going to consider the compJete expression for the tide in terms of a series of simple harmonic functions of the time , it would have been necessary to substitute for , their values in terms of the mean longitudes and of the two bodies , and of the eccentricities , of their orbits .
+When the potential is so expanded the principle of forced oscillations allows us to conclude that the oscillations of the sea will be of the same periods and types as the several terms of the .
+potential , but with amplitudes and phases which can only be deduced from observation .
+The oscillations of the sea will not however be necessarily of the simple harmonic form , and accordingly " " over-tides\ldquo ; of double and triple frequency have to be introduced in order to represent the motion according to FOUBIER'S method .
+This is the plan pursued in the " " harmonic anaIysis of tidal observations and each simple harmoni-C oscillation is known by an arbitrarily chosen initial letter .
+It is found in fact , as is suggested by theory , that tides of approximately the same frequency or " " speed\ldquo ; haVe amplitudes approximately proportional to their corresponding terms in the potential , and have their phases retarded by approximately the same amount .
+The notation of harmonic analysis will be adopted because it is proposed to compute the tide table from the harmonic constants .
+The mean longitudes of the sun , moon , and lunar perigee are denoted by and their hourly changes by from perigee ) ; the angular velocity of the earth 's rotation is ( from so that is per hour .
+The eccentricities of the lunar and solar orbits are In the harmonic system the tides are denominated by the arbitrarily chosen initials , Sa , Ssa , and the semi-ranges of these tides will be here denoted by the suffixes , sa , to the symbol , and the retardabions of phase by the same suffixes to the symbol .
+But the semi-ranges and retardations of the tides are denoted by , instead of conforming to the rest of the notation .
+* Then all the 's and 's are the immediate results of harmonic analysis , and are supposed to be given when the construction of a tide-table is contemplated .
+In the development ( 15 ) of , the first term corresponds with the principal lunar tide , its over-tide , parts of the elliptic tides , parts of the evectional tides , and part of the variational tide The first term of contribufes the remainder of The second term of corresponds with the luni-solar semi-diurnnl tide , and the second term of corresponds with small inequalities in , which are neglected in the harmoni analysis .
+*I adopted t , his for convenience in writing , and having got used to the notatiou shall retain it .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+The third term of corresponds with the principal solar tide , its over-tide and parts of the elliptic tides , R. The fourth term of corresponds with the lunar diurnal tide , and parts of the elliptic tides and ; the third term of corresponds with another part of and the rest of Q. The fifth term of corresponds with the luni-solar diurnal tide , and with part of the elliptic tides and ; its over-tide fuses with .
+The fourth term of corresponds with part of the elliptic tide , and the rest of J. The last term of corresponds with the solar diurnal tide , and with small inequalities neglected in the harmonic analysis .
+The whole of corresponds with those factors of augmentation and small alterations of phase , which are denoted by and functions of and in harmonic analysis .
+, corresponds with the remainder of the solar elliptic tides and with other small inequalities usually neglected in the harmonic analysis .
+The semi-annual ( Ssa ) and annual ( Sa ) tides are due to meteorological causes , and have to be introduced after we have done with astronomical considerations , so that they do not enter through the Since the terms are approximately simple harmonics , it follows that each term will correspond to an approximately simple harmonic tide , with amplitude and phase the same as that given by harmonic analysis , and to its over-tides .
+If then we write . . . . .
+( 16 ) , the height of water corresponding to is , . . . . .
+( 17 ) .
+We shall , in the developments immediately following , leave , out of consideration , and shall resume the effects of the sun 's parallax in S11 .
+In order to represent , as far as possible , the elliptic tides , it is found to be necessary to introduce certain numerical factors , and certain angles , as shown in the next formula .
+It is also practically convenient that should denote the value of , not at the time corresponding to , but some hours earlier .
+Then the height of water corresponding to is taken as COS \mdash ; .
+( 18 ) The height corresponding to is ( 19 ) .
+S3 .
+The Elliptic Tides .
+The constants , are insufficient to fully represent the harmonic tides , , and it would render the proposed method of computing a tide-table too cumbrous for practical use if additional constants were introduced .
+It is , therefore , necessary to adopt a compromise .
+The tides and of the harmonic system are given by In the present development the mean lunar tide and the elliptic tides are to be represented by It has been already remarked that it will be convenient that should refer to a time earlier than , and the time referred to is that of the moon 's transit .
+Now H. W. occurs later than moon 's transit by an interval whose mean value is , and the mean value of the interval to the preceding L. W. is .
+If , therefore , we } ) for H. W. , and for L. W. , we have approximately Se also .
+Hence the elliptic tides are represented in the present development by PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+In order that the first pair of these terms may give the tide correctly we must have , .
+And the condition that the second pair may give the tide is , .
+The condition for may be written .
+Then , since both and are small angles , we have approximately .
+Similarly the condition for gives .
+These conditions cannot be satisfied simultaneously and a compromise be adopted .
+If were zero we should have .
+Hence if be taken as greater than we are virtually making the tide negative .
+Now , it is unadvisable to take the tide as negative even if small , because , if so , we are representing the elliptic tide compounded from and as greatest when it should be smallest and vice versed .
+I therefore propose to use the condition for the tide only for the purpose of putting a superior limit to , and to the constants to be derived from the condition for the more important tide .
+In order to express the result in the form which will ultimately be required I write so that is the ratio of the " " speed\ldquo ; of the tide to that of , and is merely inbroduced for the sake of algebraic symmetry .
+Then for H. W. and for L. W. We thus have approximately , when referring to H. W. , and is equal to the smaller of and When leferring to L. W. we have in the above formula in the place of wherever occurs multiplied by a A similar argument may be followed with regard to the diurnal tides , save that the smaller tide corresponding to , has not usually been eyaluated in the harmonic analysis .
+The tide colTesponding to bears the initial , and so that and are the ratios of the " " speeds\ldquo ; of the and tides to that of Then and we find for H. and is equal to the smaller of and Since ( the factor being introduced because we shall hereafter have to divide by 19 ) ; also , and If we put then , our formulae for H. W. become ( 20 ) .
+PROFESSOR G. H. DARWIN ON TIDAL ]DICTION .
+where , and where for L. W. is to be replaced by wherever it is multiplied by a Also , if is less than If is less than ( 21 ) .
+If is greater than 8 , and If is greater than 8 , and Lastly , if the elliptic tides are unknown , S4 .
+Reference to Transit of Fictitious Moon .
+Suppose that there is a fictitious satellite whose R. A. is equal to the Moon 's longitude , and let be the R. A. of the fictitious moon and of the mean sun at noon of the day under consideration , and let be the mean solar time of the fictitious moon 's transit .
+Then at transit here q is even for upper and odd for lower transit .
+The rate of change of is , and if be the rate of change of is given by Then at time and Now occurs in the arguments of all the semi-diurnal tides , in those of the diurnal , and in those of the quater-diurnal .
+Hence we may omit the 2 in the expression for , and write provided that when is odd we change the sigus of the diurnal terms .
+Therefore we may write the diurnal terms with alternative signs , and the upper sign will be appropriate when we refer to an upper transit , and the lower sign to a lower transit .
+In the application of the formulae will be the , time for which the mean solar hour angle is , and we shall have ( 22 ) .
+The first of these terms is obviously the interval from fictitious transit to the mean lunar H. W. , and the second is the interval from lunar H. W. to the time When we wish to discuss low waters it is convenient to put equal to , and in this case we shall have ( 23 ) .
+The first of these terms is the interval from transit to the mean lunar L. W. , which precedes the H. W. given by ( 22 ) , and the second is the interval after lunar L. W. to the time We shall proceed to consider H. W. , and deduce therefrom the formulae for L. W. S5 .
+Reduction of Longitudes of Moon and Sun to time of Fictitious Transit .
+We ave seen in ( 22 ) that the interval , from fictitious moon 's transit to the time , is Now the equation of conservation of areas for the moon 's motion gives , but since , and since is small , we have , very nearly .
+Therefore , .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+Let ' and let Then if , be the moon 's and sun 's longitudes at the time of fictitious transit , we have , .
+Then neglecting the term in when multiplied by the small fraction , and introducing the , we have , , , ( 24 ) .
+, .
+We must now take the several terms of the expressions for the tide in ( 17 ) ( 18 ) ( 19 ) , and rearrange them by aid of .
+( 24 ) .
+( L ) where Now the maximum value of is about , and will not differ gely from , because will oscillate about the value zero , and might always be aken as less than , either positively or negatively .
+Hence the coefficient of this second term cannot exceed , or about013 .
+Thus the second term cannot be more than about an eightieth of the first , and may be neglected .
+This may also be safely neglected , even when is greater than where The reader who verifies the above formula will perceive the nature of the approximation adopted .
+( iv .
+) where The term may be written with a similar neglect to that involved in ( ii .
+) , but , of course , less important .
+Before using these transformations the following notation must be introduced ( 25 ) .
+So that We then write ( see ( 20 ) , S 3 ) ( see ( 20 ) , S3 ) , ( 26 ) .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+We ako require for the quater-diurnal tides . . . . .
+( 26 ) , and for the annual and semi-annual tides ( 26 ) .
+The parts of the which are independent of and will , in the example , be written , with appropriate suffix .
+The moon 's mean ] is 57 ' , then when its parallax is so that approximately .
+will be substituted for , and the numerical coefficients in will be divided by 19 or multiplied by 0526 .
+We observe then that , and We can , by aid of the transformations to and the formulae ( 26 ) , now re-write ( 17 ) ( 18 ) ( 19 ) , but some part of [ what was originally included in is tlansferred to The result is as follows oos oos . . . .
+( 27 ) .
+( 28 ) . .
+Annual and semi-annual tides . . . . .
+( 30 ) .
+Except for the solar parallactic portion to be considered later , this is the final expression for the tide .
+Apart from the slow variability of and the only variable is , for the 's are not continuous variables , change per saltum from one lunar transit to the next .
+Thus , in finding the maximum or H. W. , we may treat as the variable .
+S6 .
+The Time Height of High Apart from parallactic and nodal corrections H. W. occurs when h in ( 27 ) is a maximum , and the value of which satisfies that condition will give the estimated from the epoch when is zero .
+The value of , when reduced to time in the manner shown below , gives the inequality in the interval after moon 's transit , and will be called .
+The time from transit until is zero is the mean interval , and will be called .
+Then the interval from moon 's transit is .
+There is indeed a small parallactic correction to , which is itted in this statement , but is included below .
+I begin by considering the mean interval .
+vanishes when 2 , that is to say , at a time after moon 's transit .
+Now , as shown in S5 , therefore The first of these termoe is denoted by , so that The second term is the parallactic correction to the mean interval , and will be considered in S 8 , together with the other parallactic corrections .
+If we denote by the suffixes 2 , 1 , 4 the semi-diurnal , diurnal , and quater.diurnal terms , ( 27 ) may be written . .
+The condition for maximum is that should vanish , and the tion consists of the sum of three pairs of terms of the sin equated to zero .
+It is well known . .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+Now all the 's are , nearly unity , the 's nearly , the 's nearly 2 .
+Hence to a near approximation where is 2 , 1 , or 4 .
+The 's are so nearly equal to 1 , , 2 respectively , that the second terms are small .
+In the case of the second term of we have the factor , which is equal to even when is ; also the height of the quater-diurnal tide is small .
+Thus , both for the diurnal and quater-diurnal tides , the second term may be neglected .
+In the case of the semi-diurnal terms , indeed , the correction is so small that it may certainly be neglected if be less than or , and without much loss of accuracy even for larger values of .
+We shall in the first place these second terms entirely .
+Now let . . .
+( 32 ) , with suffixes 2 , 1 , 4 for semi-diurnal , diurnal , quater-diurnal terms .
+The constituent terms of will be written separately below , example Then the equation , leads to .
+( 33 ) .
+With regard to the additional terms referred to above , the values of the semidiurnal 's are , and hence and are both nearly equal to 072 .
+Therefore if ( 33 ) be regarded as the fundamental equation , the additional terms may be taken into accoun oy supposing that there are ) to and given by . . . .
+( 34 ) .
+The equation ( 33 ) may be solved thus : take ( 35 ) .
+'rhen if we put \ldquo ; cos2 ( 36 ) , and ( 37 ) , the solution of the equation ( 33 ) is ; and if is the value of when replaces , it is clear that .
+( 38 ) .
+The angle has to be reduced to time by division by 2 .
+As in the case of the reduction of the mean interval .
+Now the greatest value of is about , and is 038 , hence is at greatest ; but the inequality in the interval is rarely more than , and even if amounted to , the second term would only be about .
+Therefore neglect the parallactic inequality in the reduction of to time , and simply divide by The value of 2 is per hour , the reciprocal of this is 0345 , or Hence , if be given in degrees , we have to multiply by 0345 , or its equivalent , to find its value in hours .
+If any correction be given in circular measure the reduction to time is also very simple , for , or ( circ .
+meas .
+) ( 39 ) .
+Thus , we have for H. W. , ( 40 ) .
+Turning now to the expression for the height : it is expressible as the sum of three terms of the form .
+G. Ir .
+DAILWIN ON TIDAL PREDICTION .
+Let .
+If then ( 41 ) , with a to the height corresponding with ( 42 ) .
+In SS8 , 9 we shall have to consider the variations of the al and height due to variations of semi-diurnal and diurnal , G. It is clear from the preceding formulae and from ( 39 ) that ( 43 ) .
+A particular case of the application of ( 43 ) is to the computation of the corrections referred to in ( 34 ) and ( 42 ) .
+S7 .
+On anescent Tides .
+At certain of the lunation , the dinrnal tides sometimes suffice to one H. W. and one L. W. , so that there is only one tide a day , perhaps for several days running .
+If the inferior H. W. be watched as the condition of approaches , it will be seen to smaller and smaller , and to occur later and later or earlier and earlier , and the adjacent L. W. undergoes similar cbanges .
+In the limit H. W. and L. W. coalesce , in a tide the coalescence as a point of contrary Xllre with horizontal tano e this point , the reflexure is still maintained , the is not horizontal ; finally , the tangent becomes horizontal , and the double H. W. and L. W. again reappear .
+Now in the use of the method of this paper , the loss of the double tide is very inconvenient , and I therefore propose to take the point of reflexure as esenting both H. W. and L. W. during evanescence .
+If cannot vanish there is evanescence , and the point of reflexure is given by .
+The limit of the H. W. is given by simultaneously , beyond this only-dD can vanish .
+The vanishing of is taken to represent H. W. Accordingly , when cannot vanish , we proceed to make nish t As a first approximation put Then writing ( 45 ) , we have , where S ( 46 ) .
+In the rest of the calculabioh this value of is to be treated exactly as though it had been determined by the former method .
+The corrections cohsidered in succeeding sections , however , present a difficulty .
+In this case , will always be very nearly aIJd I propose to compute ( see SS8 , 9 ) , as though that were the true vaIue of But the correctional terms , defined in SS 8 , 9 , become theoretically infinite , and we are therefore compelled not to compute them , and to fill up the hiatus in the manner shown in the example below .
+The process here suggested is a makeshift , but it is sufficient for the construction of a trustworthy tide-table , since the real occurrence at these times is a long period of nearly slack water , with or without a small maximum and S8 .
+Parallachc Corrections to Time We will first consider the parallactic correction to the mean interval ; we saw at the beginning of S6 that there is a correction to the interval due to the moon 's unequal motion in longitude of Now according to ( 31 ) is , the mean interval , which we will suppose expressed in hours ; also is and is 03788 , and of is hence the correction in minutes is ( 47 ) : Now turning to the other parallactic terms:\mdash ; PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+Let us introduce the following notation , which follows the same plan as that used .
+before , viz. :\mdash ; Then a comparison of the method of S6 with ( 28 ) S5 shows that the corrections to the time and height be by applyirg corrections to the , as follows : . . .
+( 48 ) .
+Then comparing ( 47 ) ( 48 ) with ( 39 ) and we see that oos ( 49 ) , the corrections to the interval and heigbt are ( 50 ) .
+S to and Height ile of Here again , we the terIns as to , G. Let \mdash ; COS \mdash ; CO@ , COS \mdash ; COS COS \mdash ; , COS 39 ] OOS GOS \mdash ; COS , CO@ , sin , .
+( 51 ) .
+A comparison with ( 29 ) then , shows that Then putting . . .
+( 52 ) .
+\mdash ; S \mdash ; SN , ( 53 ) .
+The corrections to interval and height , as far as concerns the investigation up to the present point , are . . . .
+( 54 ) .
+S 10 .
+Reference to the 's True The intervals have been referred to the transits of a fictitious satellite whose R. A. is equal to , and we now require corrections so to refer to the mocn 's true transit .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+Let be the times of true and fictitious transits , and let be the moon 's R. Then if denotes the mean solar hour angle at time and , dropping the sulfix to , at time where is an even integer at upper , and an odd one at lower transib .
+If be the value of the moon 's R. A. at time , then its value at is ; also the of the first equation is equal to the of the second corrected by \mdash ; Hence the two equations may be written Hence It will afford a sufficiently close approximation if we replace by the moon 's mean motion , so that We have , therefore , to find excess of the moon 's longitude above her R. A. at the time of fictitious transit .
+It will be seen from fig. 2 that we have to determine the relationship between the R. A. and longitude , both measured from the intersection of the orbit and equator .
+The formula is exactly analogous with that which gives the reduction of longitudes to the ecliptic , so that sin 4 . . .
+The last of these very small and may be neglec , ted , so that By the formula ( 7 ) NDCCCXCI .
+Hence But , suppose ; and and Let us put then S S ( 55 ) .
+and we have It is now clear that , when the tide is referred to the moon 's true transit , ST must be added to , and SM , SN must be added to \mdash ; SM , \mdash ; SN as given in ( 53 ) to find Let a be the height of mean sea level above the datum adopted for the tide-table , and let . . . . .
+( 56 ) .
+Then denotes the mean interval from moon 's transit to H. W. , and the interval is ; and the height is In these formulae all the quantities are functions of ) ; now although can easily be found from the 'Nautical Almanac , ' it is not tabulated , and the difficulty of using the tide-table would be considerably augmented if it were necessa1y to compute ) for each tide .
+We shall proceed , then , to convert our formulae into others , in which there is direct reference to moon 's true transit , although there is some loss of accuracy in the process , and the amount of oomputation required to form the tabls is increased .
+We have seen that the time of fictitious transit is given by PROFESSOR G. H. DARWIN ON TIDAL DICTION .
+and that where and correspond to the time of fictitious transit .
+Now , where , is the eccentricity of the sun 's orbit , and the longitude of perigee .
+Also Hence .
+But ; also Therefore , and .
+This formula connects with , the time of moon 's transit .
+Now is a function of ) or of ; hence if be the value of for which ) , and if be the true value of 1 , ; and similarly These expressions have now to be substituted in those for the height and interval ; but in the small terms ST , \amp ; c. , we may regard as denoting In carrying out the substitutions preparations will be made for computation .
+First put S S ( 57 ) .
+Similarly , since is , we put ( 58 ) .
+Next put S .
+( 59 ) , and S , .
+( 60 ) .
+Similarly put ( 61 ) , ( 62 ) .
+Lastly put ( 63 ) ( 64 ) .
+With this notation in These are now to be substituted in the expressions for interval and height , and in doing so we may drop the ( T ) after the and I write . . . . .
+( 65 ) .
+Our formulae are designed to serve for any time of .
+and its opposite ; now since involve the sun 's longitude they change their signs in six months , and we write , and it is to be understood that the upper sign is to be used for the time of year under computation and the lower for its opposite .
+The interval is then * This will not be confused with the defined in S1 , which has been replaced by IJ .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+and the height is II ( 67 ) .
+One part of arises from a true change in the tide when the longitude of the moon 's node changes , and the remainder ( nearly equally large ) merely depends on the reference to true instead of fictitious transit .
+The quantities and depend partly o portion of the equation of time and partly on the annual tide .
+We must now explain the computation of 2 and of 2 If , .
+are cyclical values of a function , the symmetrical interpolation formula in the neighbourhood of is where and Then when . .
+' or In the present case the first term will usually suffice , but the second term may be easily computed .
+In order then to compute the required differential coefficients we arrange the 's and 's in two columns , the even entries in one column and the odd in another , and take the differences of the two columns independently uf one another .
+S11 .
+The Correction The terms depending on solar parallax arise from the potential , in ( 15 ) , but the COlTection is so small that I shall omit it from the example below .
+It is well , however , to show how it may be computed .
+The only terms of importance are those in corresponding to the tides The variability of , enters into the calculation in the form of corrections to The sun 's parallax is approximately , and hence .
+Now , is 0504 , and Then , since it follows that These must be deemed to be corrections to [ and , since they change signs in six months . .
+The Formuloe for Low Water The formulae ( 27 ) , ( 28 ) , ( 29 ) , ( 30 ) , for th height of water would ( except in one detail ) be applicable to L. W. , but they would not be convenient , because oscillates about at the L. W. which precedes the H. W. for which mean is zero .
+Hence put \mdash ; The L. W. formulae may be made exactly similar to those for H. W. by making the heights negative , and this condition is satisfied by adding to all the arguments .
+Thus the formulae for the height may be written , where A similar change may be made in the nodal terms , but the parallactic require further consideration .
+The term changes , not only because its sign is to be changed and is to be replaced by S \mdash ; , but also because , as appears in S3 , changes .
+For H. W. but for L. W. must be replaced by wherever it is multiplied by ; hence , for L. W. , must have or added to its previous value .
+Hence the term in for H. W. corresponds in the expression for L. W. , to a term involving PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+Since , the required term is , where Again the parallactic term for involves ) for H. , and treating it in the same way , the corresponding term for L. W. is found to be , where But Hence We have also Then the L. W. formulae for depths below are similar in form to those for H. W. for elevation above mean sealevel , with S in place of , and with 's in the place of The connection of 's with 's is given in the following table .
+All the 's differ from the 's by a small angle , or by an angle nearly equal to or .
+Where the ( Iifforence is small the for L. W. will be nearly equal to those for H. W. ; where the difference is nearly the for W. ] be nearly the same as those for H. W. , a quarter year rlier or later ; and .
+where the difference is nearly the for L. W. will be nearly equal and opposite to those for H. W. Hence we may set aside the change of and 180 to be satisfied by a shift of a quarter year , or by ohange of sign .
+Suppose then , that where is small , and .
+let [ A ] , [ G ] , [ F ] denote the values of L. W. , ; then , remembering that oos and that , [ G ] , [ F ] are epresented by similar formulae with in place of , we have .
+, [ F ] A. The of are given above , and those of the 's are known ; hence it is easy to compute formulae of transition from L. W. to H. W. The rules given below in the example are derived from these formulae , but the coefficients and are given in round numbers appropriate for oomputation , and are sometimes treated as zero .
+PART COMPUTATION .
+on thoe Cornputations .
+The multiplications are supposed to be done with CRELLE'S BREMIKER'S multiplication table .
+* The other tables required are tables of squares , natural tangents , circular measure , and a t , raverse table .
+BOTTOMLEY'S tables are convenient for the purpose , because they give no more than is required .
+The llautical traverse table , such as that in INMAN'S tables , or in CHAMBERS ' logarithms , is used for finding such quantities as and , for if is " " Distance is " " Lat and Hsin is " " Dep and the position of the decimal point is determined by inspection .
+For the use of table it is to have only angles with a whole number of degrees , so as to avoid cross interpolations ; the whole calculation is therefore conducted so as to avoid broken degrees .
+A- traverse table is commonly given for 'Rechentafeln , ' REIMER .
+'Four-figure Mathematicnl Tables , ' by J. T. BOTTOMLEV , F.R.S. Traverse Table is arranged so that the interpolation for a fraction of a degree is not very awkward .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+" " Distances\ldquo ; from to 300 , hence , if the " " Distance\ldquo ; involves three digits and lies between 300 and 999 , an interpolation is required , so as to use the entries between se and 99 ; this interpolation can ] be made by inspection .
+All the angles are entered so that the significant part is less than , by treating them - , with or 18 added where necessary .
+This facilitates the use of the traverse table .
+It is best to determine the signs of the cosines and sines independently from their numerical values , and , accordingly , in the example wlere is entered as the value of a sine or cosine , it has a sigu attached to it .
+I suppose the computer to be able to add up a short column of figures , where some of the entries are others - .
+This is an arithmetical process not much practised , but easily acquired .
+The sequences of angles and of cosines and sines , which occur frequently below , appertain ( except in the cases of Sa and Ssa ) to values of the excess of moon 's longitude over sun 's ( for which the symbol used is ) ) ) at intervals of , beginning with ) , and ending with ) , 24 values in all .
+But in the earlier part of the computation , the beginning of the sequence occurs at a different part of the column at different times of the year .
+Thus , a lisb of months is written in the margin , to show where we are to begin at any , cified time of year .
+Strictly speaking these months are the times when the sun 's ongitude ( for which the symbol used is ) is equal to a multiple of ; thus , when is , we have March 15th , when is , April 14th , and so on , as shown in Table VI .
+If the number of degrees in ) be reduced to time , at the rate of per hour , we have , approximately , the time of the moon 's transit , and in the later stages of the computation the time of transit is made to replace ) .
+The sequences of angles are found by adding multiples of , adding or subtracting nlultiples of , or adding multiples of ( see Table II .
+) to certain initial angles ( see Table I When the sequence has been carried so far that the next ffidition would reproduce the first angle with added to it , it is unnecessary to proceed furbher .
+In the sequences of cosines and les ofsuch angles , when we have got to this same point , it is unnecessary to proceed further , since the remainder is the same as the beginning , with the sign changed .
+In subsequent stages a constant has to.be added to a sequence , the new sequence will have double as many entries as the old , the first half being formed by addition , and the second half by subtraction ; but in repeating the new sequence the signs are not to be changed .
+This follows immediately from what has been said of the signs of sequences .
+Before proceeding with the computations I give tables and les of gen eral applicability to all ports .
+It will be best for the computer who is learning the process to pass straight to the example , and to refer back to these tables as they are required ; but I give them in the first place , because they wiJl be wanted in the case of any other port .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+and Rutes to alt Ports TABLE I.\mdash ; For finding the , the initial entries of the several sequences , for H. W. ( See ( 26 ) , S5 .
+) TABLE II.\mdash ; For finding the sequences of the 's by putting successively equal to , 1 , 2 , \amp ; c. ( See ( 26 ) , S5 .
+) N.B.\mdash ; The sequence for Sa is required under conditions which differ from those of the other PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+TABLE III.\mdash ; The numerical values of the .
+( See S 5 .
+) TABLE IV.\mdash ; For computing corrections for reference to moon 's , viz. , , SM , SN , and the sequence .
+( See ( 55 ) S 10 .
+) Repeat the sequence .
+The sequences for ST , , SN are to be repeated without change of sign .
+To find the succession of values for any month we begin with the entry opposite to that ROFESSOR G. H. DARWIN ON TIDAL month , read on down to the bottom , and then begin again at the top , For ST for July begins with , and then , after going on down , it begins again at the top with TABLE V.\mdash ; For corrections due to part of the equation of time .
+( See ( 68 ) ( 64 ) S10 .
+) The following is a table ( which .
+call ) , and of the same when the hour is unit of time ( which I call ) .
+is the longitude of sun 's perigee , and is its supplement to TABLE VI.\mdash ; Dates and Limits of Applicability of the Tide-Tables .
+This table gives the days of the year on which , or Sun 's longitude , is nearly equal to a multiple of .
+These days are used a@ headings to tide-tables .
+It is intended that the tables shall be used without an interpoIation .PROFffiSOB G. H. DARWIN ON TIDAL PREDICTION , the time of year , which ought strictly to be made .
+When the time of a particular moon 's transit , with reference to which a tide is to be calculated , falls nearly halfway between any two of the specified days , it becomes uncertain which of the two adjoining tables should be used , and the question can only bs decided by reference to the Sun 's longitude .
+A column is therefore given of the limits of applicability of the table .
+It would be easy , by means of a table of four columns referring to leap year , to give the Greenwich times at which the Sun 's longitude is , \amp ; c. , which would be accurate enough for the present purpose during some twenty-five years .
+VII.\mdash ; The Choice of Unit of Length .
+In a calculation of this kind it is advantageous to reduce the number of digits as far as possible , consistently with due accuracy , and it is convenient to omit the decimal point when we deal with heights .
+The diurnal tides are so various at different places that no general rule can be made to depend on bhem .
+It is required to express as many of the heights as possible by two digits , and it will be best to take such a unit that much of the work shall be conducted with and , but to allow a margin and not to try to bring them into the After consideration I think it is best to take such a unit that ( see below ) shall be expressed by 70 or 80 .
+Since is usually about , or say , then when is given in feet and decimals ( or any other unit ) , we are to multiply the heights by a simple factor lyin between and The rule therefore Multiply the heights by a factor lying , and omit In the example below it would have been best to multiply all the heights by 700 .
+We nhould then have and this would have made equal to 77 , The final step in the calculation would then have been to divide all the heights by 700 .
+In my example I have not followed this plan , and accordingly the decimal point is retained , and an unnecessary number of digits has been written .
+VIII.\mdash ; Rules for the Calculation of W. Table .
+It will be more convenient to state these rules as part of the example for the Port of Aden , although they are of course generally applicable to all ports .
+EXAMPLE 0F FORMATION 0F A TIDE-TAI3LE .
+TABLE of Constants for the Port of Aden .
+These are the results of four years of observation , and are the constants from which the tide-table is to be computed .
+Fornmtion of Sequences ( see Tables I. , II .
+, III .
+, and S6 ) .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+Sequences of Angles .
+Repeat the sequences for and changing the signs .
+Add to Repeat without change .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+Then write out the three sequences , he months , in extenso , each on a separate strip of paper ; place the strip opposite to the table , so that the-month for which the sequence is required falls in the first place ; , for March put , for April put , for May , for June \amp ; c. , in the first opposite of .
+Then add the and A tables together in a different way for each of the six months from March to August .
+Proceed with the strips in the same way .
+The next following table formed in this way .
+Repeat without change .
+Repeat signs .
+PROFESSOR G. H. DARWIN TTDAL PREDICTION .
+Add together the and sequences as they stand above:\mdash ; Repeat changing siglls .
+Write out the sequences in extenso with the months on the margin ( 24 entries ) , each on a separate strip of paper ; place the Ap strip opposite the able so that any chosen month in one agrees with that month on the other ; add the two tables together , making the first entry in the new sequence that opposite which the chosen month is wl.itten .
+For example the April entry in the sequence ( completed ) is , and this added to , the April entry of , gives , which is the initial entry in the diurnal sequence for corresponding to April in the following table .
+and are operated on in the same way .
+The first time the computer does this sort of work he may find it convenient to write out the sequences in extenso , so as to see exactly how the computation runs , but it will be found with a little practice that this is unnecessary .
+Semi-annual Water .
+Sequence .
+PROFESSOR G. H. DARWIN ON TIDAL PREDTCTION .
+Sequerce .
+Annual Tide .
+Mean Interval Correction to .
+( See ( 31 ) S 6 ; and ( 47 ) , S 8 .
+) 7 .
+Retainin hours , parallactic correction to N.B. is an absolute constant .
+rallactic Corrections .
+( See SS3 , 8 .
+) is greater than 8 ; therefore is greater than 8 ; therefore , B.\mdash ; When either of these inequalities is less instead of greater , put \mdash ; If the tide is unknown take ; if the tide is mknown take ( Table III .
+) ; ( Table I. ) Let ; the denominator is ; the numerator is Hence Let @ ; the denominator of the first is numerator hinge the first term is .
+The second term is .
+Hence @ ( See Tables I. , II .
+, III .
+) N.B.\mdash ; My calculations were made on a principle , now abandoned , which led to slightly values .
+I therefore now continue the calculation with PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+Sequences of Angtes .
+; , S It might suffice if the parallactic correction to were neglected , in which case .
+The labour 0 making the correct tabJe is , however , inconsiderable .
+Diurnal : Repeat these sequences , cbanging the signs .
+Corrections .
+( See ( 51 ) ( 52 ) S 9 .
+) Find by reference to preceding sequences the following nine sequences:\mdash ; viii .
+Then the semi-diurnal sequences are as follows:\mdash ; is is ( iii .
+) ; is ( iv .
+) : is is ( vii .
+) is ( ix .
+) .
+For example:\mdash ; PROFESSOR G. .
+DARWIN ON TIDAL PREDICTION .
+This , and the other semi-diurnal sequences are repeated without change of sign , and in all six of them the months run just as in this example , and denote the places at which to begin reading the sequence for the month in question .
+The diurnal sequences are obtained thus : Find , from preceding sequences , the twelve following\mdash ; , ( ii .
+) , ( viu .
+) , ( ix .
+) Then is is ( iii .
+) is is viii .
+is is ( xi .
+) .
+For example:\mdash ; This , and the other diurnal sequences , are repeated with change of sign , the months in all six of them run just as in this example , and denote the places at which to begin readin the sequence for the month in question .
+Calculation of Corrections for Month .
+( See SS7 , 8 , 9 , 10 .
+) Remarks.\mdash ; Lach column in the following computation is arranged exactly like the first , so that it is unnecessary to repeat the letters in the successive columns .
+For the month of March , which serves as an example , we refer to .
+March sequences , and enter the twelve of successively , in the top left-hand corners of twelve columns ; below these are entered the twelve values of , and the twelve values of , and on the right of the columns are put the twelve values of A similar statement is true of all the other symbols all the way down , and all the sequences are utilised up to twelve entries in each .
+The divisions and multiplications may be done by CRELLE'S table ; is found by a table of natural tangents , and S is converted into degrees by a table of circular measure or radians .
+It is necessary to take as an approximate value of the nearest even number of degrees .
+From the places where the values of are found , the left-hand side of each column corresponds to the time of moon 's transit written at the head of the column , and the right-hand side to a time of moon 's transit greater than the time specified .
+But the whole table for any month serves for its opposite , September opposite to March ) , by transposing the words right andleft in the preceding statement .
+Thus the whole computation has only to be made for six months ( up to August inclusive ) , instead of for twelve .
+The diurnal terms with suffix 1 , are written in the mal.gin , with alternative signs , and the upper sign is to be used on the left , and the lower on the right of each column .
+Thus , in finding , for example , on the right we deem the written at the head to have its sign changed .
+Thus , in the column of we have and on the right hand , ; then the required entry , on the right-hand , for is The values of ST , SM , SN are extracted from the sequences of those functions in Table IV .
+, and they are the same on each side of the column .
+The value of is taken from the sequence of the semi-annual tide and mean water , and changes only with the month .
+The parallactic correction to the mean interyal , , is introduced in computing R. is a constant of the port and is the same in all months .
+In computing the height , and its corrections , an approximate value of is used , namely , the nearest even number of degrees ; this approximate wil ] often be the same as In this table it appears to me specially important that the signs of the sines and cosines should be determined independently of their numerical values .
+Whereas in the right-hand of column we get , as a result of a second approximation , no value of , the conjectural value is adopted for the computation of , and values of are not computed .
+The table has rows marked SI , Sh , M ; all these are derived from a subsequent table of ' ' Corrections for reference to the Moon 's But it appears convenient to finish off the computation on this sheet , although we have to pause in the computation in order to calculate the said table of corrections .
+PROFESSOR G. H. DARWIN TIDAL It is concluded that as the correction in the second column is there is no H. W. A conjectural value of is used above in computing , S. * There ought in strictness to be further corrections to and , but they are of little importance Thns:\mdash ; Further correction to S and When is greater than ( say ) there are fnrther colrections , [ oh ] computed from si Thus in the column of on the left ; then compute thus:\mdash ; By successive use of Traverse table , \mdash ; Divide by or Previous S Correct Again , by successive use of Traverse table , \mdash ; ; Correct nescent q. ( See S7 .
+) The right-hand column of leads to no H. W. , and the tables of and must be completed by other formulae .
+The following calculation is very like the preceding one .
+The value will always be nearly , and in our example it is exactly The computation of is to be omitted , and that of has been included in the general calculation with a conjectural MARCH .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+Correcticns for Reference to Transit .
+See ( 57 ) S 10 .
+Of these corrections SI , Sh , MN have already been used in the preceding calculation , and we have to show how they are to be computed ; we also have to compute [ and From March " " intervals\ldquo ; and " " heights\ldquo ; we extract and , and arrange them in double columns\mdash ; the even entries in one column and the odd in another .
+The columns to afford the 12 values for to of and by means of their left hand entries , and they aflord the 12 values for to by means of their right hand entries .
+The entry for is repeated at the top and that for at the bottom , so that each column has 13 entries , and thus each provides 12 first differences .
+After finding these differences the distinction of odd and even entries is unnecessary .
+The numerical factors in the legends at the top of the columns are absolute constants .
+The 's are derived from the sequence in Table IV .
+, beginning the sequence with the month treated .
+The values of and are derived from Table V. , for the month named ; thus for March is and is The values of SI are found in columns , xi .
+, .
+of the first table , and Sh in .
+in the , ond table .
+entries opposite to were used above on the left-hand side of columns to , and the entries opposite to were used above on the right-hand side of the columns ] The quantity is not a final result , but after values of ' ( see below on Int , erpolation ) have been found , we shall add to it convpnted values of the annual tide , so as to form The arithmetical processes involved in these tables are sufficiently explai1 ed by the instructions at the head of each column .
+PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+Additional of Intervals and Heights .
+Where the intervals change largely between one column and the next , it would add much to the accuracy if additional values were calculated .
+Thus , in the calculation for March further values between or and or , and again , between or and 10 or , would be desirable .
+The like is true for August , where a column between or and 1.20o or would be useful .
+I choose this last case for my example .
+If INMAN'S traverse table be used , interpolation may be made for without much difficulty , but I think it is to interpolate for an even number of additional degrees , and to compute a column for , found by adding to It is proposed then to add a new column between the 8th and We begin by interpolating in the sequences of angles .
+In each sequence we have to find the 8th entry for August ; then , if it is eemi-diurnal , add ; if diurnal add for and , and subtract for ; and , if quater-diurnal , add In the sequence for we add , since it is similar to a semi-diurnal telm .
+The calculation runs thus : Also , as before .
+The 8th entry of is , to which we add , and find .
+With this ] of , compute ST , SM , SN .
+The interpolation amongst the sequences of angles for the parallactic terms is done in the same .
+With these new values , and with the former , Hp we now compute new , and are then in a position to compute a new column corresponding to 11 or In computing SI , Sh , , column , for intervals , or 2 , must be put equal to 2 ; and similarly , column .
+for heights , or , must be put equal to 2 .
+This interpolation would ) especially vaJuable in the case of , which change abruptly .
+Some interpolation of thekindhas been done in my example , but I do notreproduce the work .
+The Calculation of Water ( referred to in general rule This may be done almost independently of the H. W. table by replacing the by 's and usinoo the given S 12 .
+The calculation may , , be materially bridged , and I will now go over the several steps of the calculation noting the mode of transition from one case to the other .
+The new will be distinguished from the old by enclosing the new ones in square parentheses .
+Semi-diurnal These sequences are derivable directly from the old ones by the rule Diurnal The rule is here more complex:\mdash ; and in all these sequences shift list of months in the margin six places downwards , so that in the and sequences March stands where June and in the sequence March stands where December stood .
+If it be agreed to negIect the terms involving , \amp ; c. , the rule is simply to shift the months and change the signs of the sequences ; but at Aden where the diurnal tide is very large , this would lead to a sensible error .
+After the new sequences for have been found , they are combined to find just as for H. W. Quater-diurnal ; that is to say , simply change signs .
+Semi-cmnual and Tide .
+The old calculation serves again .
+Interval its llactic Correction .
+Here we subtract 1 from ] ; thus 1.633 actic correction PROFESSOR G. , DARWIN ON TIDAL DICTION .
+It may be well to warn the computer that may be negative , is to say L. W. may occur on the average earlier than moon 's transit .
+Parallactic Corrections .
+are unchanged .
+The rules are We then compute by the same rules as before .
+In the diurnal terms compute by the following rules:\mdash ; the list of months in the margin being shifted six places downwards , so that March stands where June stood .
+The values of are then computed by the same rule as before .
+Nodal Corrections .
+We may , with sufficient accuracy , take to be unchanged .
+Referring to the instructions for the computation of , \amp ; c. , bhe new rnle may be stated thus : is , is , is , ( vui .
+) \mdash ; ( vii .
+) , is , and ( xii .
+) \mdash ; ( xi .
+) , and the list of months in the margin is pushed down six places , so that March stands where June stood .
+The corrections ST , SM , SN remain unchanged .
+When the L. W. sequences have been formed the calculation follows the of H. W. calculation precisely , save in t'nree respects\mdash ; first , in the " " heights\ldquo ; is to be subtracted .
+from , and Sh is to be then ed from , instead of the corresponding additions in the H. W. ation ; ndly , the signs of are to be changed as a last step in the tion of those quantities , in order that the corrections to the heights may be additive instead of subtractive as they would be if we left off exactly as in the case of H. W. ; thirdly , after the final table for has been made , its values must be subtracted from the annual tide .
+The reader will easily understand the necessity for these changes when it is remarked that , Sh , have been estimated as ( Jepressions below mean water , whereas and the annual tide are estimated as elevations above the adopted datum ; in the result we require , of course , to estimate heights with reference to the datum .
+It may be well to warn the computer that may often be negative .
+It will be unnecessary to refer henceforth to L. W. , since the instructions for H. W. serve also for L. W. The sun 's longitude increased by is indicated by , and the months March , April , May , \amp ; c. , really mean the dates when is , \amp ; c.\mdash ; that is to say , oout the middle of the months .
+The dates which , on the average , fall the nearest to these times , are given in Table The 12 columns for any month , headed , . . .
+contain on the left the 12 values of , % , , \amp ; c. , corresponding to moon 's transit at , . . .
+and they contain on the right the 12 values for moon 's transit at , . . .
+This applies to the month named at the head of the table .
+But these values also appertain to the opposite month ( i.e. , September opposite to March , October to April , and so on ) by reading the right hand tries as appertaining to , . . .
+and the left to , . . . .
+The same is true of ( and ( see Corrections for reference to moon 's ) , except that here the values change sign in the opposite month ; thus the values of and which we have computed for March must be taken with the opposite sign when applied for September .
+Now it is required to form interpolated tables for every of , and in all the 18 tables ( of which 6 will ) originally computed and 12 interpolated ) to interpolate for every of nloon 's transit .
+These interpolations may be done graphically , and I find with millimetre-square paper a convenient scale is 1 mm. to , and for time of moon 's transit 15 mm. to .
+These will be set out horizontally as abscissae , and the ordinates will be time in treating , and height in treating A convenient time scale for is 30 mm. to the hour .
+In ] the case of % the scale must depend on the range of tide at the place \mdash ; for Aden ( with a small range ) I have found 50 mm. to the foot convenient .
+1 will begin with interpolation for ( i.e. , for time of year ) , and will only refer to , since follows the same plan .
+Write March , April , May , .
+January , February , March , at , 30 , . .
+360 mm. along a horizontal line , corresponding to the same number of degrees of .
+It may be well to repeat February before the first March , and April after the last March .
+Set off as an ordinate the left-hand entries from column for the six months March , Aprii , . .
+August , and from the right-hand entries of for the same six months set off ordinates for their opposite months , e.g. , the right-hand for March , affords of for September .
+Through PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+the tops of these ordinates draw a smooth curve of Proceed similarly to form lrves of , \amp ; c. , twelve in all .
+If the figures get confused we may have two or more , and confusion may often be avoided by drawing parts of the curve with upward or downward shift , so as to make things clear where a number of curves go through nearly the same point .
+We now start a fresh figure with time of moon 's transit as horizontal line , and as ordinate corresponding to March .
+These 24 ( computed ) values of joined by a smooth curve , enable us to read off the values of for for every of moon 's transit , i.e. , on the adopted scale , at every 5 mm. of horizontal space .
+We now set off from the previous figure the 24 ( interpolated ) values of correspondin to , of which the first 12 are found at " " March mm and the last 12 at " " September mm These 24 values beingjoined by a curve , give for , and for every of moon 's transit .
+We next set off 24 values of corresponding to , of which the first 12 are found in the preceding figure at " " March mm and the last 12 at " " September mm These are treated the same way .
+The next in the series are the computed April 's which are set off like the March ones , joined by a curve and read off to each of moon 's transit .
+We then take 24 ( interpolated ) values of from " " April mm and " " October mm to give 3 for The 24 from " " April mm and " " october mm afford for .
+Thenext is the computed May series , and we so pass on through six months , bhe last in the set being derived from " " August mm and " " February mm corresponding to If one person reads the numbers from the figure , whilst another writes , the tabulation may be done very rapidly .
+* The following rule is probably known , but I do not know where it has been sbated , except in a of my own in the ' Messenger of Mathematics .
+' I have found ib very useful in drawing good for Graphical Interpolation half-way between Computed Ordinates .
+Draw the polygon ( A ) joining the tops of a number of equidistant and draw the two polygons ( B ) joining tho tops of alternate ordinates .
+Then every ordinate has marked on it an intercept or sagitta where a side of polygon ( B ) cuts it .
+On the half-way ordinates nexb on each side of a fitta , set ofl one-fourth of the sagitta from the points where the two sides of polygon ) cut those half-way ordinates ; the set-off is to be in the direction in which the sagibba would shoot if it were an arrow .
+When all the quarter sagittas are thus set oif , every half-way ordinate ( except the or last of the series ) has two point marked on it .
+The inberpolated curve passes half-way between the , irs of marked points , except in the case of the first and last half-way ordinate , when it passes through the single marked points .
+This rule is correct to fourth differences , except in the case of the first and last , when it is correct only to third differences .
+In the cases iu the text the computed values are cyclical , and there are therefore no first or last .
+By means of proportional compasses set to 4 , the quarter sagittas may be set off rapidly , and the bisection of the pairs of marked points may be by eye .
+The same process is applied for tabulation of the .
+We should , in strictness , do the samo by NI , , but it appears unnecessary to work with so much accuracy .
+I have done of the interpolation by simply writing out the computed values of the quantity to be tabulated in a chess-board table with blanks for the interpolated values .
+If sixteen squares be considered , a computed value will stand at each corner .
+Then a great many of the interpolated values may be put in by inspection of the march of the quantity in the two directions .
+In other parts I make a pencil curve , on millimetre-square paper , of four or five adjacent values , and pass a freehand curve through them to fill in the interpolated values ; I rub out the curve when used .
+It must be remembered that close accuracy in these terms would be mere pedantry .
+are computed to the decimal of a minute , and the decimal part may be useful for drawing the pencil interpolation curves , but the result should be tabulate .
+only to the nearest minute .
+Similarly the third decimal in and may be dropped .
+The interpolation of and ' follows the same plan , but it must be borne in mind that these functions change sign in opposite months , and this consideration is important when we come to interpolate for August , and When there is an evanescent tide case March , the corrections become infinite .
+As a practical solution this is absurd , and the fact is that there may or may not be a H. W. according to the values of and .
+Again , in other parts of this and other lunations there may be no H. W. , although the tidetable predicts one .
+In all such cases there is a long period of four or five hours duration of nearly slack water , and it is accordingly almost a matter of indifference whether or not a small H. W. is predicted .
+It would necessitate very laborious computations to make correct predictions in these cases , and the result would not be worth the labour .
+I have adopted , therefore , a makeshift , and have replaced H. W. by the height of water and time when the rate of change of water level is a minimum .
+It has been proposed above that shall be computed with a conjectural , and this is better than the plan which I actually adopted in my experimental table for Aden , of which a sample is given below .
+The practical point to consider in the present instructions is the manner of treatment of about the time of evanescence .
+I propose then that the gap in the values shall be bridged by a conjectural curve , and that the values be only given in round numbers .
+For example , for March we have the following values of ( 18 ) blank \amp ; c. By } awing a curve I conjecture for the missing value at A comparison with the corresponding complete curves for February and April helps us in filling the gap .
+* Thus if any ono seeks to verify my table , he will not get exactly my values for in the neighbonrhood of PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+After the complete table for is formed we proceed to add to it the values computed in the table of the annual tide for every of , and so form a table of .
+For example , the first five values of are , 00 ( of which those marked * are computed ) , and to these we add390 , the computed annual tide for March , and obtain37 , 38 , 38 , 38 , 39 .
+The final results are then arranged in a table.-k If the L.W. were also computed I should propose that the L.W. and H.W. should be given alternately .
+The following is a sample of the table computed only for H.W. at Aden:\mdash ; PORT of Aden ; High Water Tide-Table .
+If be the moon 's parallax at moon 's transit in minutes of arc , and be the longitude of moon 's node , the interval is and the height is .
+After the table has been completed the computer should test the correctness of the prediction by computing two or three tides in each month , and comparing the results either with the observations from which the harmonic constants were originally derived , or with other known values of high water .
+* I have found that it convenient to cut the constituent tables inbo ) and paste them to .
+ether again , so as to save much copying and verification , Examples of the Use of the Tabte .
+From and after the year 1887 , the datum for the tide-tables of the Indian Government for Aden has been .
+lower than that used in my table ; as I am going to compare my results for 1889 with those of the Indian Government , ft. will be added to my heights to make the two comparable .
+( A ) The moon crossed the meridian at Aden on March 17th , , at , Aden M. T. Aden is in .
+loug .
+, and therefore this is about , March 16th , G. .
+T. ; whence from the ' Nautical Almanac ' we find the moon 's parallax at Aden transit was , and .
+The longitude of moon 's node was , and Then referring to our table and interpolating between and , and taking the upper slgns of and , we find Hence and Therefore the interval is , and the time of H. W. or , March 17th ; and the height is .
+or 7 in .
+The Indian tide-table gives as time , and as height 7 ft. 4 in .
+( B ) On September 17th , 1889 , the moon crossed the meridian at was or Interpolating in our tnble between and , and taking the lower signs of and , we find Hence and Therefore the interval is , and the time of H. W. or September 17th , i. e. , September 18th , and the height is or The Indian tide-table gives " " no inferior H. This example shows our table at its worst , for it is clear that a nominally small cor- rect on to the time which amounts to an hour and forty minutes must give unsatisfactory results .
+At this time of year mean water has a height of 3 in .
+, PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+henoe our prediction only shows a rise of 8 inches .
+AIthough there was probably in reality no maximum ( as predicted in the Indian table ) , I should expect that the water stood at about 4 fh 6 in .
+at half-past seven of the evening of September 18th , 1889 .
+PART III .
+AND DISCUSSION .
+Comparison .
+As stated in the Introduction , Mr. ALLNUTT computed a complete H. W. tidetable for 1889 for Aden in order to compare the results with the Indian tide-tables , which are made with the tide-predicting instrument .
+When this comparison was made our tables had not been brought into exactly the form given above , and Mr. ALLNUTT'S work was considerably more laborious than it would have been if undertaken later .
+The mechanical predictions were ) ably made with constants which are the meaffs of the results derived from eight years of observation , whereas the constants used in our tables are derived from only four .
+Mr. ROBERTS has supplied me with six weeks of prediction for the year 1887 , worked mechanically in duplicate , namely , with the eight-year and the four-year constants .
+In the latter case the times of H. .
+seem to run about later than in the , but the difference often rises to .
+occasionally to , and at rare intervals to .
+The two sets of constants also give a systematic difference in the heights amounting to about 2 inches , but the difference often rises to 3 inches or falls to 1 inch , and occasionally reaches 4 and zero .
+It follows , therefore , that a sensible part of the discrepancy , or error as it may be called , of our computation due to the diffel.ence of constants .
+But not nearly all of the error\ldquo ; can be set down to this cause ; it is due to a combination of causes , namely , flaws in the interpolation , imperfect representation of the elliptic tides , and partial inclusion in our method of all the lunar inequalities which are totally neglected in the machine .
+The principal cause of error however , is the imperfect correction for longitude of moon 's node and parallax about the time in each lunation when there is partial or total evanescence of the inferior H. W. Omitting , as we must do , the cases of evanescence , there were 689 H. W. computed by Mr. ALLNUTT , and he finds ' the probable errors\ldquo ; in the time and height to be and inches .
+In the of the year there were thirty-two occasions on which the time " " error\ldquo ; amounted to or more .
+All of these occur in the inferior H. W. at the times of approximate evanescence , where the nodal and parallactic corrections are large .
+At these times there is always a period of four or five hours of nearly slack water , and the time at which a small maximum occurs is of no importance from a navigational point of view .
+If these thirty-two cases be taken away the probable error falls to A cursory inspection of the table shows also that nearly all the " " errors\ldquo ; of to fall about the time of evanescence and are therefore .e unimportant .
+We are PROFESSOR : H. DARWIN ON TIDAL PREDIOTro accordingly justified in saying that our predictions do not differ from Indian tables .
+It has been already mentioned that I have six weeks of mechanical 1887 , made with the identical constants used in our tble .
+I have , therefore , taken month , or 58 H. W. , out of these six weeks , and compared them with my made without cross interpolation for date .
+I find that the errors of time are 27 to , 13 from to , 10 from to , 4 from to , one of and one of .
+These give a probable error of .
+All the large errors fall on he inferior H. W. , at the time when it is very small , and they are , therefore , practically unimportant .
+In the heights there are 16 cases of agreement , 22 errors of 1 in .
+, 15 of 2 in .
+, and 5 of 3 in .
+These give a probable error of inch .
+The errors of 3 inches all fall about the time when the moon 's parallax was small , and I also observe that this was commonly a time when the height errors rose to their greatest in 1889 .
+This is probably due to the imperfect representation of the eniptic tides , which , as shown in S3 , is inherent to our method .
+The concordance between the two is good enough , but less perfeot in the heights than I expected .
+The last comparison is between our predictions and actuality .
+The observed times and heights for part of 1884 have been furnished me by Colonel HILL , R.E. , by the direction of Colonel STRAHAN , R.E. , Deputy Surveyor-General in India .
+For the purpose of testing the present method , I have computed a H. W. tide-table from 10th March to 9th April , and again from 12th November to 12th December , In these periods , there are 117 actual and one evanescent H. W. The observation of one H. W. is missing through an accident to the tide-gauge ; there are , therefore , 117 H. W. for the purpose of comparison .
+* The following is a table of errors , regardless of signs:\mdash ; originally compared my computations with some results sent me some years ago by lone BAIRD , R.E. , but as it appeared that thsse estimates of actuality had probably been biased ouk of the Indian predicbions , I asked to have the tide-curves mensured.\mdash ; Narcb 21 , 1891 .
+] PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+0mitting the case of evanescence and assuming the errors to conform in distribution the normal exponential law ( which is not accurately the case ) , the probable error is bout 9 time , and inch in height .
+When the rise from the higher L. W. to the lower H. W. is nil there is evanescence , .
+when that rise is small there is approximate evanescence .
+I have accordingly xamined the 12 cases in which the error of time is equal to or greater than , and the following table gives the result .
+It appears that where the errors of time were and the tide was very nearly evanescent , and that the two other considerable errors of time , viz. , and pertain to very small tides .
+It has been already pointed out that in such cases a considerable error in the time is of no importance , and it is justifiable , in testing the calculations , to set aside the nine tides in which the rise is less or equal to 19 inches .
+There remain 108 H. W. , and the greatest error in the times amounts to only 23 minutes .
+In cases the error is 7 minutes or less , and in 51 cases it is 6 minutes or less ; as the haJf of 108 is 54 , it follows that the error is a little over 6 minutes .
+The Indian predictions maintain their standard of excellence fairly well through the periods of approximate evanescence , but out of 116 tides there are 59 cases with time errors of 10 minutes or ; as the half of 116 is , the probable error is about 10 minutes .
+Turning now to the heights I find that both mine and the Indian predictions present 63 out of 116 H. W. with zero errors or errors of 1 inch .
+We may take it then that the probable error for both modes of prediction is about 1 inch .
+The Indian predictions have , however , the disadvantage that several errors of 5 , 6 , 7 inches occur .
+On the other hand , the 11 cases of 4 inches of error which occur in mine have a systematic character ; they are all positive ( actuality the greater ) , and all but one affect the higher H. W. about the time when the moon 's parallax is small .
+This defect is doubtless due to the imperfect tation of the elliptic , evectional , and variational tides inherent to method .
+The slight supenority shown ovel the mechanical prediction must be the fact that I have used better values of the tidal constants than were available 1883 , when the Indian predictions must have been made .
+I learn from Colonel HILL that two independent observers reading the same tide curve will frequently differ by and sometimes by in their estimate of the time ; and by 1 and sometimes by 2 inches in the height .
+Accordingly , predictions which agree with a reading of a tide-curve with probable errors of in time and 1 inch in height may claim to possess a high order of accuracy .
+I conclude from the preceding discussion that with good values of the constants the present method leads to excellent predictions , and that they are even better than are required for nautical purposes .
+Discussio It is probable that methods may be invented by which some abridgement of the computations may be made , but I am , of course , unable to suggest such improvements .
+The last-mentioned comparison seemed to show that but little accuracy would be lost if , were entirely omitted , and if were treated as zero , so that would consist simply of the annual tide .
+Indeed , the only advantage gained by the retention of appeared to be the avoidance of a few considerable errors in the inferior H. W. about the time of approximate evanescence .
+Experience must decide whether the computation and the tables may be lightened by the omission of these quantities .
+The advantage gained from and is marked , but as these quantities arise almost entirely from the diurnal tides , I am inclined to think that , at places where the diurnal tide is not extremely large , a very fair tide-table might be made without them .
+The present method will probably be applied to ports of second rate importance , where there are not sufficient data for very accurate determination of the tidal constants .
+In such cases it will be best to omit the computation of , and to postpone that of , and perhaps also of and [ , until the simple tide-table has been tested as to its adequacy for navigational purposes .
+At most places the nnual tide is so large that b.cannot.be omitted , and it is impossible to dispense with the value of S. But it is possible that it might suffice to attribute to a constant value , *although this would certainly cause very perceptible error in the heights or the lower H. W. and higher L. W. A tide-table which only gave , and a constant would be fairly short , even if computed for every ten days in the year ; and this would be a great gain .
+The question of how far to in each case must depend on a variety of circum* I may suppose the elliptic tides unki1own , and I should then take .
+For this vould give .
+say PROFESSOR G. H. DARWIN ON TIDAL PREDICTION .
+stanoes .
+The most important consideration is , I fear , likely to be the amount of money which can be spent on computation and printing ; and .
+after this will come the trustworthiness of the tidal constants and the degree of desirability of an accurate tide-table .
+My aim has been to reduce the tables to a simple form , and if , as I imagine , the mathematical capacity of an ordinary ship 's captain will suffice for the use of the tables , whether in full or abridged , I have attained the principal object view .
+

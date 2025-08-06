@@ -1,0 +1,137 @@
+]\gt ; On the Solution of By .
+T. WHITTAKER , ( 1ecsived December ) , 1917 .
+) S1 .
+The present communication is concerned with integral-equations of Abel 's type , ( 1 ) and of Poisson 's type where is a given function called the ?
+is also given function , and is the unknown function ) be deternlined .
+The object of the work is to obtain solutions of these equations in fornls which can be made the basis of numerical calculation .
+Theoretical solutions of both these equations , in the forltl of infinite series , are well knowtl , aIJd have been fully discussed by Volterra* and others .
+But in these solutions the ?
+term of the series is a ) nltiple integral involving rations vjth variable limits : and .
+such series are valuable for the they throw on the eneral properties of the tion , it is obvious that they cannot , except in very special cases , be used in older to compute values of the solution numerically .
+The only case , so far as I am aware , in a solution of an equation of one of the above types been obtained in a form adapted for practical is Abel 's original special form of equation ( 1 ) , , for which he the solution ' Torino Atti , ' vol. 31 , pp. 311 , 400 , ) , 693 ( 1896 ) .
+For fuller refet.elIces cf. H. Batorllan , " " PXeport on the Theor ) of quations , \ldquo ; ' Brit. Assoc. Report , ' 1910 .
+uvres , , .
+( 1823 ) p. .
+The fundamental meaning of Abel 's result is most clearly seen if the integrads which occur in it are inte1preted as in the theory of generalised differe1ltiation : if written for ) , formula reduces to the simple statement that if , then ) .
+VOL. XCIV .
+) ; 368 Mr. E. T. Whittaker .
+When is given , the values of and of the integral last written may be obtained without difficulty by the ordinary processes of interpolation and numerical integration .
+* Recently , two friends , one a seismologist and the other an actuary , have enquired of me whether the integral-equations ( 1 ) and ( 2 ) , which had .
+occurred in their rehes , could be solved in such a way as to obtain numerical results when the functions and are known ( tabulated functions .
+It was under the stimulus of these enquiries that the methods of which occupy the following pages were devised .
+It will be seen that I have departed altogether from the customary methods of solution by infinite series whose terms are multiple rals , and on this account the new solutions , which are formulated in Theorems 1-5 below , and by which the unknown function may be determined numerically , may perhaps be found to be not without interest from the standpoint of pure theory .
+S2 .
+Solution of Integrol-Equations of Abel 's Type .
+Considering first the generalised Abel 's integral-equation , we need only consider the case when the nucleus becomes infinite at , for in the simpler case when the nucleus is finite at , the equation ( 1 ) may be reduced immediately , as .we shall see later , to the type ( 2 ) , and so may be dealt with by the methods which are given subsequently in the paper .
+We shall , then , suppose to be such that is finite and not zero at , where lies between and 1 .
+Now if the ] , which is supposed to be given by a numerical Table , has this character , so that it becomes infinite like at , but is finite for other values of within the range of integration , we can in general ( by use of Newton 's or some other interpolation-formula ) represent the function over the range in question by a polynomial in ; the degree of this polynomial will depend on the nature of and the order of accuracy to which the is to be carried .
+We may , then , assume for the nucleus an analytical expression of the .
+( 3 ) It is possible that the elegant solution in power-series which was given by Sonine , ' Acta Math vol. 4 , p- 171 ( 1884 ) , for his generalised form of Abel 's integral-equation , also be utilised for numerical calculation .
+On the Solution of Integral-Equations .
+Now assume*a solution of the rm , ( 4 ) where is called the solving function .
+We have on eliminating between this equation and ( 1 ) or , inverting the order of integration , Since is an arbitrary metion , this gives Writing , this becomes or where is .
+From this equation the solving function is to be determined .
+By ( 3 ) this may be written Now let be denoted by be denoted by K2 , and so on .
+Then integrating by parts we have and so on .
+Thus equation may ) written .
+( b ) * The of this may be inferred at once from Volterra 's theory .
+Now if , where is arbitrary and does not involve , we have by writing ( as ) and , since is arbitrary , this shows that , where is independent .
+Mr. E. T. Whittaker .
+Substituting in the last equation , we have and therefore Applying this result to equation ( 6 ) , we have iting y for .
+( 7 ) This is a linear differential equation in , and is that solution of it which vanishes , together with its first differential coefficients , when vanishes .
+let the polynomial be denoted by : and lef ; its 100 ( supposed for the present to be distinct ) , , .
+Then it is known from the general theory of linear differential equations that the solution of ( 7 ) which vanishes , ether with its first differential coefficients , when vanishes is ( 8 ) .
+( 9 ) the Numerical Solution of Integral-Equations .
+From 8 ) we have by sucoessive differentiation , since , since , since ince h Snbstitucing for from ( 9 ) we have , where Now ; and thus if the function ( which is well known under the name of the Incomplete Ga ?
+m7a-Funtion ) be denoted by we have .
+Combining our results , we have THEOREM l.\mdash ; The solution of -equation the nu cleus is supposed to be )erically cto hare been of innterpolation in , form 'is ( 11 ) of residues of ) at its singularities -(residue of this function ) , are the roots of algebraic equation denotes the 372 .
+E. T. Whittaker .
+, ( 12 ) This 1uay be regarded as a direct extension of Abel 's original formula , which may be derived from it by taking .
+It expresses the solution of the integral-equation in a finite form in terms of the incomplete -function .
+The incomplete -functions which occur in the solution all have the same parameter , and are , therefore , really all the same function , with different values of the argument ; its values may be tabulated from any of the expansions which were given for it by Legendre , * such as the absolutely convergent expansion or ( for large positive values of x ) the asymptotic expansion When .
+this function has been tabulated , and the algebraic equation ( 12 ) solved , the function may readily be tabulated from equation ( 11 ) , and then the required function is given at once by quadrature from equation ( 10 ) .
+In this way Theorem 1 yields a numerical solution of the generalised Abel 's equation .
+It is obvious that when the polynomial has a pair of equal roots certain modifications must bs made in the above solution , but it does not seem necessary to set these forth in detail here .
+It may be remarked that by making the of polynomial in ( 3 ) increase indefinitely , we obtain in the limit the solving-function of the equation , with an arbitrary function as nucleus , in the form of an infinite series of incomplete -functions of the same parameter .
+In connection with such a solution it would be necessary to discuss convergence , etc. , and it is not proposed to undertake this in the present paper ; but the matter seems worthy to be mentioned in passing , as series of incomplete -funcCions have not ( so far as I know ) presented themselves hitherto in ' Exerc .
+de Calc .
+Int vol. 1 , pp. 338-343 ( 1811 ) .
+For this Newton 's method will probably be found in most the most convenient , if ; or if some of the roots are complex , the Lobachevsky-Graeffe method .
+On the Numerical Solution of Integral-Equations .
+analysis .
+They may idently be regarded as an extension of Dirichlet 's semes , , series of the type which have received much attention iu recent years .
+S3 .
+Soluti of Poisson 's When the nncleus oi cquation ( 1 ) , instead of being infinite at as we have supposed hitherto , possesses a finite differential coefficient over the of integration , we have by differentiating equation ( 1 ) which is an integral equation included in Poisson 's type ( 2 ) We shall , therefore , now pass on to consider -equations of Poisson 's type , which we shall take in the form .
+( 2 ) Since the nucleus is supposed to be specified by a table of finite numerical values the range of values of considered , we may apply Prony 's method of interpolation by exponentials in ) rder to represent it analytically in the form of a sum of exponentials , ( 13 ) where constants which are chosen so as to give the closest possible representation of the iven numerical values .
+Although Prony 's method is more than century old : it not appear to be widely known or to have found ay into any text-book ; and , as his paper is perhaps not accessible to many readers , I may be justified in giving here a brief notice of it .
+Suppose that is given numerically for a certain range of values of Take any set of values of equally spaced within this rn , say , and let the corresponding values of be , Now if could be represented exactly in the form of a sum of exponentials , then would satisfy a linear ation of the form where the roots of the algebraic equation would be \mdash ; * It need scarcely be said that if vanishes we differentiate again .
+Mr. E. T. Whittaker .
+Prony 's method , which is based on this fact , is to write down a set of linear equations , where the quantities are known , since is a known tabulated function , and by the inary method of Least Squares to find the values of , which most nearly satisfy the equations ; then with these values of , to form the algebraic equation find its roots ; these roots will be , and thus , are determined .
+Knowing , , , if , we have a set of linear equations to determine the coefficients , and these also are to be solved by the method of Least Squares .
+Taking then this form ( 13 ) for the nucleus , we shall show that the integral-equation ( 2 ) may be satisfied by a solution of the form , ( 14 ) where the solving function is also a sum of exponentials , say .
+( 15 ) To prove this , we remark first that the existence-theorems establisI } by Volterra justify us in assuming for the solution the form ( 14 ) , where is now the function to be determined .
+In ( 14 ) put for : thus which gives the value of corresponding to this value of .
+Putting for in the integral , we have Comparin this with the -equation(2 ) , after replacing by in the latter , we have , therefore the pair of functions satisfy the integral-equation : that is to say , .
+( 16 ) On the Solution of Integral-Equations .
+In this equation substitute the value 13 ) for and the value ( 15 ) for .
+Thus we have Pepx Equating cients of on the two of tion , we have Similarly , coefficients of and so on : these equations show } .
+are the roots of the algebraic equation in This us to determine , Next equating coefficients of on the two sides of the equation , we have and similarly Since and are known , these equations ( 18 ) enable us to determine , , , and we see that if the constants and are determined by equations ( 17 ) and ( 18 ) , the equation ( 16 ) is satisfied by the value ( 15 ) of .
+The value of may be obtained in a more explicit form in the 376 Mr. E. T. Whittaker .
+following manner .
+If we eliminate , , , determinantly from the equations ( 15 ) , we have The determlnants which occur this equation are of the kind known as jrnants , and may be factorised by known methods .
+* Performing the factorisation , we have Combining our results we have TlIEORENI 2 , of integral-equation , where nucleus to given numerically , to have been Prony 's method of in the . .
+, ( 19 ) and where , , the roots of the algebraic in *The evaluation of alternants of this type is due to Cauchy , ' Exercices d'An .
+, ' vol. 2 , p. .
+Om the Solution of tegral-Equations .
+377 It is obvious from the last equation that if , , , are arranged in ascending order of magnitude , and , if , , , are all positive , then the lowest root is less than , the next root is between and , and so on .
+If the number of exponential terms in ( 13 ) is supposed to increase indefinitely , the representation of the ucleus becomes a Dirichlet 's series , and by ( 19 ) the solving function is then also a Dirichlet 's series , foruled with exponentiaIs , whose exponents are the roots of equation ( 17 ) , which now becomes a transcendental equation .
+A rigorous examination of convergence , etc. , in this limit-process would be necessary to establish the theorem which appears to be indicated , naulely , that in ' solution of a Poisson 's int ?
+whose a 's series , the solving-function also as a , with c ) set of expon jnts for the S 4 .
+Alternative Int Theorenl 2 above supplies what I think will be found to be in general the most convenient method of solving integral-equations of Poisson 's type numerically .
+But in certain cases the uucleus may be given as a polynomial , or it may happen , when is given in the form of a numerical table , that it is preferred for some reason to apply ordinary interpolation and as a polynomial , rather than to apply Prony 's method of interpolation and express as a sum of exponentials .
+* We shall therefore now consider the problem of integrating an integralequation of Poisson 's type ' ( 2 ) when the nucleus is expressed as a polynomial .
+The solution of this problem may be deduced as a limiting case that solved in S3 .
+For , in equation ( 13 ) , suppose that 1 ) , , , ( being in nnmber ) , each tends to zero , while , , , lncrease indefinitely in such a way that ( 20 ) / $ One great advantage of Prony 's method is that ench exponential term involves two disposable constants term involves , whereas a term of a polynomial involves only one disposable constant involves only , and therefore it is in general possible to obtain as high a degree of accuracy in approximating with texponential terms as with a polynomial of terms .
+Mr. E. T. Whittaker .
+where , , , are finite .
+from equation ( 13 ) we have the terms in higher powers of Moreover , the equation ( 17 ) , whose roots are , , , may be written which by ( 20 ) becomes the terms in powers of vanishing , so that , , , are now roots of the algebraic equation The equation ( 19 ) for the determination of the solving function becomes and thus , collecting our results , we have THEOREM solution of the int -equation , nucleu.s to , anto have been the ormcthods of olation the form , ( 21 ) , ( 22 ) On the Solution of .
+379 , are the roofs of the atqcbraic equation in .
+( 24 ) If this equation ( 24 ) has a pair of equal roots , terms of the type , will occur in , thus , if we find ) An interesting expansion is obtained by making incleasc indefinitely in this theorem .
+We then have the solving problem of the general Poisson 's integral-equation expressed in the form of a Dirichlet 's , or , at any rate , a series of exponentials with leal 0 complex arguments .
+This appears to indicate new field of analysis , in which ) present themselves naturally .
+But a thorough illvestigation of encc would be necessary for the rigorous establishment of this result , and , indeed , we can show by simple examples that the expression obtained by tend to infinity will not necessarily be a Dirichlet 's series , even , for all finite values of , it is a sum of exponentials .
+For instance , if ' so that , we see from ( 23 ) and ) that ) is equal to the sum of the residues of at its poles , which are the roots of othe than unity itself .
+This sum of residues is evidently sun ] of exponentials in , one corresponding to each pole , so as is finite , but , when crcabes indefinitel we have efficient of iu so that when the nucleus is , the function ) , which is not a series of exponentials .
+S 5 .
+A er , .
+Hitherto we have supposed the nucleus of to be by nnmclical table , to be represented , by nse of thethod of the interpolation theory , as a sum of exponentials , or as a ) .
+If , [ however , in an equation of Poisson 's typs 380 Mr. E. T. Whittaker .
+the expansion of the nucleus as a Taylor 's series is known , say shall show that the solving-function may be wntten down at once as a Taylor 's series .
+For , the solution of the integral-equation in terms of the solving-function being we have already in equation ( 16 ) shown that .
+Putting in this , we have , ( 26 ) where , K2 , , are used in to denote the values of and its successive difl'erential coefficients at Differentiating ( 16 ) , we have .
+Putting in ( 27 ) Differentiating ( 27 ) .
+( 29 ) Putting in ( 29 ) , If now the linear equations ( 26 ) , ( 28 ) , ( 30 ) , , be solved for , .
+we obtain , etc. Let us now consider the convergence of the series This series will evidently be absolutely convergent for all finite values of provided the series On the Numerical Solution of Integral-Equations .
+converges within a circle of non-zero radius .
+But the equations ( 26 ) , 30 ) , , may be comprehended in the single formal equation or and the expression on the -hand side of this equatiOn represents a holomorpluc function within a circle of radius having the origin as centre , provided the power-series within circle non-zero radius and so ] ) resents a function whose singularities and zeroes are all at a finite distance from the origin .
+Subject to this last condition , then ( which is , as a matter of fact , unnecessarily , the serips converges absolutely for all finite values of We shall assume that it converges , since the computer will not make use of this method unless the convergence of this series is so rapid as to be obvious .
+Then , combining our results , we have THEOREM of the inte .
+where t in a Taylseries For the benefit of those may find it convenient to use this solution , it may be well to add some remarks on the computation of the determinantal coefficients which occur in it .
+A numerical determinant should never , or scarcely ever , be evaluated by expanding it ; it should be evaluated by reducing it successively to determinants of lower order , without expanding .
+To do this , we first notice whether any of the elements in the determinant is unity ; if not , we reduqe one of the eIements to unity the rule is : Strike out the subtract from each of the otl situated at the feet of the column .
+Thus the above deterl and the same way we may determinant , and so on .
+If the unit element is not minant by , according as tl column-number of deleted S6 .
+A ombincttic A form of solution which bining the solution of S4 the nucleus in the par not very different thal few of the coefficients pared with those that out of the series ( 31 ) the coefficients , and , by summi1 be more readily computed : extracted part of bei in S4 .
+Suppose , for tance , tl coefficients are depend only on and a Ir .
+E. T. Whittaker .
+which contains it by that element .
+Having done thia , teduce tminant tnant esnd.ement ondand chich contain t elements the product of the elements which are leading element , must multiply the whole detersum of the row-number of the deleted row and the of the Solution of S4 with that of S5 .
+in some cases proves useful is obtained by com- , h that of S5 .
+This happens when the graph of of it which the integration takes place , is a of low degree , so that bhe first is even or odd .
+, , of preponderant importance as comthem .
+In this case it is advantageous to take er1ns which depend solely on these important them , to obtain a new for which can , as we shall now show , may be done , the in the exponential form which was obtained and are important , but the succeeding 1 evidently ( 32 ) nparatively small .
+The terms in ( 31 ) which On the Numerical Solution Now if ?
+denote the } lina rows ) we have by expanding in terms of the elements of the first row The solution of this -equation is where and the roots of the quadratic , and Aand ] } are independent of .
+lloreover , since ' we see that and therefore The expression ( 32 ) may thus be written or Thus , we have THEOREM ' formula repl wloere and are the roots of the quadrat .
+This form is preferable for purposes of computation when and are of preponderant i1nportance as } ) ared with , We may in this way replace the terms of 31 ) to any extent by exponentials , and it is evident that when the terms thus replaced are those which involve , without involving , , the exponential terms which are obtained are precisely those which would be obtained as the value of in Theorem 3 , if were the polynomial VOL. XCIV.\mdash ; A.
+

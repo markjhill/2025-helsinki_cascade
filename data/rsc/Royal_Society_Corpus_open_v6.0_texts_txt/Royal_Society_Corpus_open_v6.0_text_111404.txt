@@ -1,0 +1,52 @@
+VIII .
+" { On a Class of Dynamical Problems .
+" By ARTHUR CAYLEY , Esq. , F.R.S. Received June 18 , 1857 .
+There are a class of dynamical problems which , so far as I am aware , have not been considered in a general manner .
+The problems referred to ( which might be designated as continuous-impact problems ) are those in which the system is continually taking into connexion with itself particles of infinitesimal mass ( i. e. of a mass containing the increment of time dt as a factor ) , so as not itself to undergo any abrupt change of velocity , but to subject to abrupt changes of velocity the particles so taken into connexion .
+For instance , a problem of the sort arises when a portion of a heavy chain hangs over the edge of a table , the remainder of the chain being coiled or heaped up close to the edge of the table ; the part hanging over constitutes the moving system , and in each element of time dt , the system takes into connexion with itself , and sets in motion with a finite velocity an infinitesimal length ds of the chain ; in fact , if v be the velocity of the part which hangs over , then the length vdt is set in motion with the finite velocity v. The general equation of dynamics applied to the case in hand will be , I d 2X Ox\ ~X + ld2y _V\ ~y + dZ_ Z ) z } dm { ( S -(dtB I ) 8+I ( \dt2 gZ)t }+ ( A^u h+ Avarl + Awat i du = O , where the first line requires no explanation , in the second line , are the coordinates at the time t of the particle dp which then comes into connexion with the system ; Au , Av , Awe are the finite increments of velocity ( or , if the particle is originally at rest , then the finite velocities ) of the particle dt , the instant that it has come into connexion with the system ; 64 , rl , a4 are the virtual velocities of the same particle dp considered as having come into connexion with and forming part of the system .
+The summation extends to the several particles or to the system of particles dp , which come into connexion with the system at the time t ; of course , if there is only a single particle dp , the summatory sign 2 is to be omitted .
+The values of d4 dq dr d~ die d~ Au , Av , Awe are --u , d -v , -w , if by ' , , we underdt dt dt dt dI dt stand the velocities of dp parallel to the axes , after it has come into connexion with the system ; but it is to be observed , that considering 4 , 7 , 4 as the coordinates of the particle dp , which is continually coming into connexion with the system , then if the problem were solved and , , given as functions of t ( and , when there is more than one particle dp , of the constant parameters which determine the particular particle ) , d , &amp;c. , in the sense just explained , cannot dt be obtained by simple differentiation from such values of X , &amp;c. : in fact , , , , so given as functions of t , belong at the time t to one particle , and at the time t+dt to the next particle , but what is wanted is the increment in the interval dt of the coordinates X , n , 4 of one and the same particle .
+Suppose as usual that x , y , z , and in like manner that 4 , n , are functions of a certain number of independent variables 0 , ( , &amp;c. , and of the constant parameters which determine the particular particle dm or dp , of which x , y , z , or 4 , 7 , 4 are the coordinates , parameters , that is , which vary from one particle to another , but which are constant during the motion for one and the same particle .
+The summations are in fact of the nature of definite integrations in regard to these constant parameters , which therefore disappear altogether from the final results .
+The first line , _ , X ) L_ fie aY ) y+ d(z _Z }z dm , may be reduced in the usual manner to the form eVe ++ ... .
+where , writing as usual 0 ' , p ' , &amp;c. for d , d , &amp;c. , dvt cdt we have d ddT dT dV -=t d , -d + cT dt dOf dO dO d dT _T dV ^= t0 ' + _ &gt; : &amp; C. , dt dop dp + , d c , ( this supposes that Xdx + Ydy + Zdz is an exact differential ) ; only it is to be observed that in the problems in hand , the mass of the system is variable , or what is the same thing , the variables 0 , p , &amp;c. , are introduced into T and V through the limiting conditions of the summation or definite integration , besides entering directly into T and V in the ordinary manner .
+And in forming the differential coefficients d dT dT dV d dT ' ' , d- , &amp;c. , it is necessary to consider the variables 0 , 0 , &amp;c. , dt dTO( dI O dO in so far as they enter through the limiting conditions as exempt from differentiation , so that the expressions just given for 0 , P , &amp;c. , are , in the case in hand , rather conventional representations than actual analytical values ; this will be made clearer in the sequel by the consideration of the before-mentioned particular problem .
+Considering next the second line , or { -(d-t u+ ( d t- ) a ( dv1 S-"w ) t } Od clt dt d dt dt we have here ==a~ 0+ b +. .
+r= a ' O +b6'+. .
+, where a , b , a , &amp;c. , are functions of the variables 0 , c , &amp;c. , and of the constant parameters which determine the particular particle dp .
+The virtual velocities or increments 30 , 3 ?
+, &amp;c. , are absolutely arbitrary , and if we replace them by dO , do , &amp;c. , the actual increments of 0 , ( , &amp;c. , in the interval dt during the motion , then ~ , 6r , O4 will become d dt , dt , d dt , in the sense before attributed to dt dt dt dt drj d , dt ' dt The particle dp will contain dt as a factor , and the other factor will contain the differentials , or as the case may be , products of differentials of the constant parameters which determine the particular particle di .
+We have thus the means of expressing the second line in the proper form ; and if we write : ( a2 +a 2+at12 ) d1 Adt 62+ b 6b'2+b2 ) dpl=Bldt Z ( ab+atb ' +a"6'B ) dlCt-= dt 2 ( au a'v + a"w ) d , = -Pdt .
+Z ( bu+-b'v+6bw ) du=-Qdt .
+then the required expression of the second line will be ( A '+ H'. .
++ P ) 0+ ( El0'+ Bo. .
++ Q ) ?
++ ... which , if we put K= ( A'2 + B'2 +. .
++ 2-10 ' ?
++. .
++ 2PO + 2Q'. .
+) , = ( A , B,. .
+H,. .
+P , Q , .
+0 ' , ' , ... , 1 ) % may be more simply represented by dcK dK , 0+ d + ... Only it is to be remarked that A , B,. .
+H,. .
+P , Q,. .
+will in general contain not only 0 , ,. .
+, but also the differential coefficients o ' , dK dK ',. .
+, and that in forming the differential coefficients - , , &amp;c. , the quantities 0 ' , ',. .
+, in so far as they enter into K , not explicitly , but through the coefficients A , &amp;c. , must be considered as exempt from differentiation , so that the preceding expression for the second line by means of the function K is rather a conventional representation than an actual analytical value .
+Uniting the two lines , and equating to zero , the coefficients of 0 , 8~ , &amp;c. , we obtain finally the equations of motion in the form d dT dT dV dK dt dhO dO d+( d+ td dT dT dV dK ++W =0 , dt do ' d(f do 0 where the several symbols are to be taken in the significations before explained .
+2 In the particular problem , let z be measured vertically downwards from the plane of the table , then Z== , and repeating for the particular case the investigation ab initio , the general equation of motion is ( d2z ( ) di +d dt = 0 .
+dt gd dl =o .
+Let s be the length in motion , or , what is the same thing , the z coordinate of the lower extremity ; and suppose also that the mass of a unit of length is taken equal to unity , we have Bz = Bs , d2s dt2 dt2 ' dm=dz , and the summation or integration with respect to z is from z=O to z=s , whence d2( - ) dm ( d28 -g ) s dz= ( d2 9 )s o8 which is of the form d dT _dT +dV dt ds ' ds d8s if T=s'2 .
+s , V=-gsV , where the bar is used to denote exemption from differentiation , but ultimately s is to be replaced by s. Considering now the second term here = =0 , but 4= Os , and thence = .
+Moreover , d= dt s'dt , and thence finally the second term is s'2 , which is of the form dK if ds ' K = ?
+s ' .
+s'2 , the bar having the same signification as before , but after the differentiation s'=s ' .
+The resulting equation is dfs\ ( / _ 2 ?
+0 , dt-Ys+(d)= ?
+' which may be written in the form 8s-ddSt =gs2ds , dts d and the first integral is therefore ds / 2dt , VT. .
+, where a is the length hanging over at the commencement of the motion .
+If a=O , then the equation is ds 2 2ffdt dt , and integrating from , 2 , or finally , so and integrating from t 0 , 2 / =8 29 t , or finally s gtl , so that the motion is the same as that of a body falling under the influence of a constant force g. It is perhaps worth noticing that the differential equation may be obtained as follows:-We have , in the first instance , a mass s moving with a velocity s ' , and after the particle ds ( =s'dt ) has been set in motion , a mass s+s'dt moving say with a velocity s ' + s ' , whence neglecting for the moment the effect of gravity on the mass s , the momentum of the mass in motion will be constant , or we shall have ss'= ( s + s'dt ) ( s ' + s ' ) = ss ' + s'dt + ss ' , and therefore 3st'= --sf2dt .
+Hence , adding on the right-hand side the term gsdt arising from gravity , and substituting d-t dt for Wst , we have the equation s -2gs-t ) as before .
+

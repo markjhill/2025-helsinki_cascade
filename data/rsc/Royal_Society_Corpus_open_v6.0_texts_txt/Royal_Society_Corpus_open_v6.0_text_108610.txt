@@ -1,0 +1,318 @@
+On the Equation of LAPLACE'S Fnctions , &amp;c. By W. F. DONKIN , M.A. , F.B.S8 .
+, F.R.A.S. , Savilian Professor of Astronomy in the University of Oxford .
+Received December 3 , -Read December 11 , 1856 .
+SECTION I. THE equation d2u d2u d2u -d_1 _ Y1 _I= transformed to polar coordinates by putting x=rsin os p , y=r sin Osin , z=reos0 , becomes , as is well known , d2u du 1 d2u d2u du d0+ cot O do ?
+( sin 6)0 d-d +2r d0 , which may be written in the form { ( in d)2 ( ) +(sinMO ) ( +l)}u=O ; ... ( .
+) and if it be assumed that u=u+o--ur+lur2+ ... ... , then by substituting this value of u in either of the two equations last written , we find that u , is a function of D and p satisfying the equation { ( sin d ) + ( d ) 2+n(n+l)(sMin ... ... u= ( 2 .
+) which , under a slightly different form , is commonly called the Equation of LAPLAC: 's Functions .
+This equation was first solved in finite terms by Mr. HARGREAVE * , but in a form very inconvenient for practical applications .
+A solution free from this objection was afterwards obtained by Professor BOOLEt , by a method explained in his memoir " On a General Method in Analysis , " Philosophical Transactions , 1844 .
+Lastly , in the second volume of the Journal referred to , the same mathematician gave two more solutions , one of which however is reducible , as he states , to Mr. HARGREAVE'S form ; the other , thougit much more convenient than this , is still for most purposes probably less useful tanthan t given in the first volume , from which it differs essentially in form , as well as in the method by which it is deduced .
+In the following pages I have treated the equation ( 2 .
+) by a very simple method* .
+The result bears a general resemblance to Professor BOOLE'S first solution , and I conceive that the two forms must be capable of being identified by the assumption of a proper relation between the arbitrary functions ; but I am not able at present to show this identity .
+Some further investigations are added , which it is unnecessary to notice beforehand .
+1 .
+Putting k for d in equation ( 2 .
+) , we have { ( sindo +k+n(n+1)(sin )2 } , = .
+( 3 .
+) In the case of n=O , this becomes d 2du .
+( ( sin 0d +f o0 , or +k2o-0 ( where t=log tan ).Hence o =C , ( tan ) + ... .
+( 4 .
+) If , however , --=0 , we should have uo0=C , +C2logtan , ... ... .(5 .
+) 2 which is the complete solution of ( 2 .
+) in the particular case in which u , does not contain p , and n=0 .
+But putting d for k in ( 4 .
+) , and arbitrary functions of p instead of C , , C2 , we have -=f(+ / .log tan )+F( -+-1 logtan2. .
+( 6 .
+) instead of which we may evidently write 0=f(eO tan ) +F e(etan. .
+( 7 .
+) as well as other forms .
+Either of these is the complete value of u , , in the case of n=0 .
+2 .
+Returning to the general case , if we put for shortness ( d\2 ( sin O ) +nz(+l)(sin 4)2= , , it is evident that n= , - ; ... . . ? ?
+( 8 .
+) and also , since ( sin ?
++n cos O ) ( sin 0 -n cos )= ( sin 0 - ) +n(n+1)(sin )2n2 , d if we put a-= sin 0 d+n cos O , we have.-_+2~= , .
+, ... ... . .
+( 9 .
+) from which , changing n into -n , and observing ( 8 .
+) , we get -~ ' +n2=-- , _ ; on the other hand , changing n into n-1 in ( 9 .
+) , ZGn-1i-(Zl)2( 1 ) -nComparing the last two results , we see that the operation a , possesses the following property , namely , t_nn+e2= l_ _c(n-_l ) + ( n1)2 ... ... .
+( 10 .
+) Now the equation to be solved ( 3 .
+) , art .
+1 , is ( l_+-n+)2k=0 ?
+... ... ..( 1 .
+) Let.= , &amp; v , and let the operation za'1 be performed on each side ; assuming for the present that z , ; 10 may be put =0 without ultimate loss of generality , we obtain ( l_ , +n+k2)v=0 ; and this , by virtue of ( 10 .
+) , becomes ( _l_( , - , ) +(--1)2+k2)v= 0 ; which , compared with ( 11 .
+) , gives the relation v-=u-I , and consequently , since u.-=v , or , = ( sin , +n cos 8 ) - , MDccLYlI H This relation is true whatever be the value of n. But as we are now supposing na positive integer , it is evident that we have z= ~ni , --_1 * ... .~ *20'1X0 , ... ... . .
+( 12 .
+) where u0 is given by ( 6 .
+) or ( 7 .
+) of the last article in the general case , and by ( 5 .
+) in the case in which u , is a function of d without p. This solution contains two arbitrary functions in the former case , and two arbitrary constants in the latter .
+It is therefore , in general , the complete solution .
+( See , however , arts .
+8 , 9 , 17 , &amp;c. ) 3 .
+The operative symbol awn-1*. .
+*,21 , , written at length , is ddd ( sin d+n cos ( sin +(n-1)cos 8 ) ... .
+( sin +c ... ( 13 .
+) Now it is evident that d1d sin 0+n cos 0 i)(sin _ ) " ( the subject of operation being of course omitted on both sides ) ; and if this be put in the form ( sin ) sin 0 sin d(sin 0)- ' , it will be easily seen that the expression ( 13 .
+) is equivalent to ( sn sin sin , ... ... ... . .
+( 14 .
+) which may also be put in the less symmetrical form ( in ( ( sin )nsin d)2d ) sin 0 .
+Either of these forms has the peculiarity , as compared with ( 13 .
+) , of being intelligible without supposing na positive integer ( setting aside the difficulties of general differentiation ) .
+4 .
+The results of the preceding articles may be summed up as follows : The complete solution of the equation { ( sin )+ n(n+ l ) ( sin )2}u =0 iS u , -=(sin 0)inn 8sin dsin ( C+C2og tan ) ; ... . .
+( 15 .
+) and the complete solution of the equation { ( sin ) d)+ ( d ) +n(n+ l)(sin )2}= 0-is u , ,= ( sin ( sin 0 etsian ) } .
+( 16 .
+It may be observed that ( 15 .
+) is deducible from ( 16 .
+) by taking f(x)=C,1+C2 log , F(x)-=IC log .
+The expression ( 16 .
+) may be compared with the following result of Professor BOOLE'S first solution*:u ( =F , ( ) , where F(Q , e0 ' ) dfl I+"f n 40 i peOi 1 and p= cos 0 .
+I have stated above my impression that this form must be capable of transformation into identity with ( 16 .
+) ; but it is probable that this can only be effected by means of some not obvious theorem of differentiation .
+Examples of such theorems will be seen below ( arts .
+14 and 16 ) .
+SECTION II .
+6 .
+1 proceed to discuss some particular applications of the formulae obtained above .
+If the expression ( 1--2r cos 0+r2)be developed in the form o+ ?
+, r+p2r+. .
+, then p , satisfies the equation of LAPLACE'S functions , and does not contain p. Hence p , must be given by the expression ( 15 .
+) , art .
+4 , if the constants be properly assumed ; and since it is evident that C , must be =0 in this case , we have ( ^\n p=c~(sin )-f sin d-^ sin ).1 , where c , is a function of n. This form of p. may be independently verified , and c determined at the same time , as follows : Put r(sin )-"=e , then ( 1--2r cos O+r2 ) =i ( l+(cot 0-g)2 ) and if we put cot 0=t , this may be written 11 1/ +t ' where g is to be treated as constant till after all operations .
+Now in general , if P , Q be any symbols whatever , quantitative or operative , we know that Pf(Q)p=f(PQp ) .
+Hence it is evident that since 1+t2= i and -=(sin )2 the above expression is equivalent to psin O+ dsinOl , and therefore this is a symbolical form of ( l-2r cos d+r2 &gt; )- .
+Restoring the value of g after development , we find that the coefficient of r " is n ( sin e)-n ( sind sin ) .
+d In other words , if we put v , =(sin O)-"(sin D^ sin O ) " .
+1 , then r2 rn ( 1--2r cos -+r2)=vo+q qvl -. .
+V2 1+ ... + V ... . .
+( From this it is easy to deduce the relation vn=(2n--l)cosO.v_.(n--1)2Iv_2 by means of the known relation between the coefficients in the above series and those in the development of ( --r2)(1-2rcos +r2)- .
+) 7 .
+Adopting the notation of the last article , we have epsin8 d sin inin ).e ( sin d)i+l 1 d\ 2+1 ( sin 0+(t )2)i+1 = ( sin)i'(l 2r cos O+r2 ) 2~ Hence this theorem , which will be useful afterwards .
+The coefficient of 2n in the i+1 development of ( 1 -2r cos +r22)--2 is d ( sin )-(+i(sin 0d sin O)n(sini ... ... . .
+( 17 .
+) 8 .
+Let us next consider the development of the expression { 12r ( cos 0 cos 8+ sin 0 sin O'cos p)+r2}-~ ... . .
+( 18 .
+) Since the coefficient of r " is necessarily expressible in the form q0+qcos p+qcos 2c + ... +q cos np , and must also satisfy the equation ( 2 .
+) , art .
+1 , we find , on substitution in that equation , that qi must be a solution of the equation { ( sin d ) +n(n+l)(sin 0)2-2=O ... . .
+( 19 .
+) I proceed to consider this equation in a general manner , without reference , in the first instance , to the problem immediately in hand .
+Since the equation ( 19 .
+) only differs from ( 3 .
+) , art .
+1 , in having -i2 instead of k2 , we may apply the process used in the solution of that equation .
+We thus get U , n id 1(C , ( tanl+)i-}-Ct =(sin ( sin sin Cltan2+Ccot- ) ) ... ( 20 .
+) Now , although this expression appears to contain two arbitrary constants , it will be shown presently , that when i is an integer and not greater than n , it really contains only one .
+This is seen immediately to be the case when i=0 , and may be easily verified in other simple cases , such as i=l , n=2 , &amp;c. In fact , the process of art .
+2 gives U= -ti l--_ =.r.-2= _ ... = *t , , ... m+ .
+t-_ , i where u , _satisfies the equation na-( , ^n-m)++(^ )-)2U'-m= -0 ; and in general we can only arrive at an integrable form by taking m=n .
+But when i is an integer not greater than n , we shall get an integrable form by taking m so as to satisfy the condition ( n-m)2=i2 .
+Suppose i positive and less than n , and take m=n-i ; we then have for the solution of ( 19 .
+) , Un -r - .
+' '. .
+Z1+i where nu satisfies the equation rza_iiu=0 , or ( sind ( sin dt cos d ) ( sin a deos )ju-i= 0 : the integration of this is easy , and the result is u=C , ( sin )'+ ( sin ) C(sin ) )2i +i ; so that , in the case considered , the integral of ( 19 .
+) may be expressed in the form t , = ( sin sd ) in(sin sin O)(sin 0)(2io(C , +C2d(sin -2t1 ) ... ( 21 .
+) ( for rm , ,_ , ... n i+ , is equivalent to ( sin 0)- " ( s in o sin ( sin o ) ( see art .
+3 ) ) .
+It is evident that the expression ( 21 .
+) contains two independent arbitrary constants , whatever be the value of i. And i being supposed a positive integer , the second term will always involve a logarithmic function ; hence the form ( 20 .
+) , which involves no such function , cannot be the complete solution of the equation ( 19 .
+) , and therefore we shall not really limit its generality by putting C2==0 .
+Moreover , since the coefficient of rncos i in the development of ( 18 .
+) cannot contain any logarithmic function , it follows that , for the purpose of that development , we must put C2=0 in the expression ( 21 .
+) .
+Comparing the two forms thus obtained for the coefficient of r"cos ip , we obtain incidentally the following theorem , namely , ( sin ia sin d ( tan ( ... .in.)2i ( 22 .
+) c being a constant , of which the value will appear afterwards .
+The preceding investigation shows that the assumption s'O= O ( instead of the general value C(sin O)-n ) is liable in certain cases to limit the generality of the result .
+I shall return to this point presently , but proceed now to complete the development of the expression ( 18 .
+) .
+10 .
+Since the coefficient of rn cos ip must contain 0 and 0 ' symmetrically , and satisfy both the equation ( 19 .
+) and a similar equation in d ' , it is evident that it must be of the form f(O)f( ' ) .
+Hence , by means of the conclusions of art .
+9 , we arrive at the following d d result : put , for convenience , sin 4 -d sin d= 0 , sin 0 ' sin '= 0 ' ; then the coefficient of r " in the development of ( l2r(cos D cos d'+ sin d sin d ' cos p)+r2)-e may be expressed in either of the two forms , 1oof2 ( 0sin in 0"{8aO+a , tan , tan 2 tacos p+ ( tan tan cos 2 tan ctxnos ( sin 0 sin 01)n 2.2 2 ( 23 .
+) ( 23 .
+) + ... +a tan tan cos np ( sin0^sin ' ) { cOnOl+ '1cO-''-l(sin 4 sin 40)2 cos ( 24 .
+) + ... .
++ceO'"i(sin 0 sin ')2i cos i+ ... +c , ( sin 4 sin ')2n cos np } j and it only remains to determine the constants .
+11 .
+For this purpose we may adopt a process of which the first part is taken from LAPLACE .
+Let cos O= , cos '-=p ' , and suppose the coefficient of re cos ip in the development of ( 12r(yJ+\/ 1 ?
+2\/ 1-_~'2 .
+cos p)+r2)-I to be itself developed in a series of powers and products of p and u ' .
+It is only necessary to ascertain the term independent of , p ' , and the term containing the product ppi ; and for this end we may write the above expression thus , ( 1-.2r(p.q ?
++ cos p)+r2)- , since the terms p , p2 cannot affect the required result ; and this again may ( for the present purpose ) be considered equal to ( 1--2r coss +r2)-"+ p , L'r( 2r cos ( +r2)- ; and if we put 2 cos -=x-+1 , so that 1-2rcos p+r2= ( l-rx ) ( l + , and develope in the usual manner , we easily find the following results:1st , if n-i be even , the term independent of p , 7 ' in the coefficient of rn cos ip is 2 12.32.52 ... ( n+i-1).1.3".52 ... ( n-i1)2 1.2.3 ... ( n+i).1.2.3 ... ( n-i ) and the term containing pWp vanishes .
+2nd , if n--i be odd , the term independent of p , p/ vanishes , and the term containing p/ t is 12.32 ... ( n + i)2.12.32 ... .(n-i ) 1.2.3 ... ( n+i).1.2.3 ... ( n-i)./ ' the factor 2 to be omitted in each case when t=0 .
+12 .
+On the other hand , the coefficient of r " cos ip is ( art .
+10 ) c(sin 4 sin ))- ' -i -i(s2in O)2(sin )ai ; ... ... ( 25 .
+) and we may find the term independent of Ep , , ' , and the term involving pfp ' in the development of this , as follows : It is easily found , from the theorem of art .
+7 , that ( sin O)-ieO-i(sin i)2= .
+2 ... ( n -i)(sin 4)n X ( coefficient of r"nin the development of ( 1 -2r cos -+r2)-(+ ' ) ) ; and for our present purpose we may put sin d=1 , and ( 1 -2r cos +r2)-(i+- ) =(1+r2)-(i +(2i+ l)^r(l +r2)-(+~^ Hence it is easily found that when n-i is even , the term independent of p , p ' in ( 25 .
+) is ca.1.35 .
+52. .
+( n-i-1).(2i+ 1)2(2i+ 3).n..(+li-1 ) ; and when n--i is odd , the term involving p/ is c , .
+Jr. 232 .
+52 .
+( n-i)2 .
+( 2i+ 1)2(2i+ 3 ) ... ( +i)2 .
+If these expressions be equated to those obtained in art .
+11 , we find that whether n-i be even or odd the value of c ; is 2 .
+12132.52 ' ( 2i1)2 1.2.3 ... ( n-i ) .
+1.2 ... .(n +i ) the factor 2 being omitted when i=0 .
+13 .
+We have then the following result : The coefficient of r4 cos ip in the development of ( 1-2r(cos 0 cos O'+ sin d sin ' cos )+-~)-i is '12.49 .
+^ ... .(2i--1)2 ( sin 0 sin ')-"On-iO'(sin 0)2i(sin S)2. .
+( 26 .
+) 1.2.3 ... .
+( n-i).1.2.3 ... ( n + i ) dd where O= sin 0d sin 0 , 'sin ' sin 0 ' ; and with respect to the numerical coefficient , it is to be observed that when i=0 the factor 2 is to be omitted , and the numerator considered to become unity .
+The extreme values of i are of course 0 and n , and the term 1.2.3 ... ( n-i ) is to be taken =1 when i=n .
+14 .
+It is now easy to ascertain the values of the coefficients a0 , a , , &amp;c. in the form ( 23 .
+) , art .
+10 .
+But first it is necessary to prove that ( sin d sin O ( tan ) '1.3.5 ... ( 2n-l)(sin ... . .
+( 27 .
+) We have proved this already ( art .
+9 , equation ( 22 .
+) ) , except in so far as the numerical coefficient was left undetermined , so that we have only to establish its value .
+Now the expression on the left of the above equation may be written ( sin 0)((sin )2 dsin Otan ) ) ( ( 1 d and if we put cot 0=t , so that tan 2= / 1+t2-t , and ( sin )2ds= -dt the equation ( 27 .
+) becomes ( d( / l +t2t)~ 1.3.5 ... ( 2n-1 ) VdfJ / l+ -2+ X and since it is only the value of the coefficient that is in question , it will be enough to prove this when t=O , i. e. to show that the coefficient of tn in the development of ( t+P ) is1.3.5 ... Nwh.rtor bs / 1 + th is 1N3 5 .
+( gn1 ) .
+TNow , expanding the numerator by the binomial theorem , the above 1..3 ... n expression becomes t-+_ ntn 1 .
+t-n-2 +1l -it2 ) + ... + )+ t. 2 ) " ; and if we develope each term and collect the coefficient of t " , we find that it is n(-1 n(n-1 ) ( n-1)-2)(n-3 ) .
+n(n-l ) ... ( n-2i+ l ) 11 22 -+ 22.42 +2.4 .
+6 ?
+2.6 ... ( 2i)2 *..* a series of which the sum* is 1.3. .
+( 21 ) The truth of ( 27 .
+) is therefore established .
+1.2.3 ... n 15 .
+It follows that On tan ) =0 niii ( tan ' )=1.3 ... ( 2i-1I)on-i(sin 0)2i and consequently the coefficient of rncos ip may also be expressed in the form 1 2 .
+) ... ( n i)(in 0 sin 0')-nO8O'( tan )(tan ( 12.3 ... ( n-i ) .
+1 .
+2 .
+3 ... ( n+28 .
+) the factor 2 being omitted as before when i=O0 .
+The law of the numerical coefficients in this case is remarkable .
+For if the expression ( l+cos p)n be developed in the form AO+A , cos p+A2cos 2p+. .
++A cos np , it will be found that 2 A , =1.2.3 ... n.1.3.5 ... ( 2n-1 ) .
+( -i ) 23 ( ) ( omitting the 2 when i=0 ) , so that we may express the law of the development of ( 1 2r(cos 0 cos O ' +sin 0 sin ' cos )+r2 ) as follows : the coefficient of re is I.2.3 ... n.l ... ..(2ni ( 1sin 0)(s sin " ( s sin )(sin a sin 0 U , , where 0 0 ' / n , ms ZB(r a 0\(.2/ 0'\2 / t\n 0n Of '\ U , = AA AI cos tan tan+A2 , cos2p t tan )( +Acostan tan and Ai is the coefficient of cos ip in the development of ( 1 +cos p)n .
+Although this form of the development follows a more simple and remarkable law than that of art .
+13 , it is evident that for actual calculation it would be much less convenient , since the number of operations is much greater , and the differentiations more complex .
+But as the complete explicit form of the development is known independently , this consideration is not of much practical importance .
+1 .
+3i.(21 ) is the coefficient of x2 in the development of ( 1-2x ) - ; now ( 1-2 )-==((i_)2_-2)i=(l--l +11 )-32 +1.3 ( 1--2x)-=(-)_--=(I--)+(--+ ) +-2_4 ( 1.--5X)-+ ... ; and if each term be developed and the coefficient of x " collected , the result is the series in the text .
+The equation ( 27 .
+) probably admits of some simpler demonstration , which I have failed to perceive , Professor BOOLE , in the paper above referred to , obtains the following expression for the coefficient of r ' cos ipp ; namely , 2f(p)f(~ , ) 1.2 ... .
+( n -i ) .
+1.2 ... ( n i ) ' where f(p)=( -(1 2)f p2 -i(d 1n ) + +)( where / ( ~)-(1-2 ) ) &gt; +(l+e~-~ ... ..2. .
+( 29 .
+) Here the numerical coefficients are the same as in the form just given .
+It follows , therefore , that the expression on the right of ( 29 .
+) must be equivalent to n tn d ( sin ) In ( sin do sin 6 ) ( tan )2 This equivalence , and that expressed by equation ( 27 .
+) , art .
+14 , are instances of theorems by no means obvious or easy to verify directly .
+( See art .
+5 .
+) For actual calculation , Professor BoOLE'S form would be preferable to either of mine ; for though the number of operations is much greater than in the form ( 26 .
+) , their result may be assigned with much greater facility .
+But considered merely as an analytical expression , the form ( 26 .
+) is the simplest of the three .
+SECTION III .
+17 .
+It was shown above ( art .
+9 ) , that the expression n=(sin ) ( sin 0 sin ) ( ( tan tan fails in certain cases to represent the complete solution of the equation ( sin d ) +2n(+l)(sin d)2 2 } 0 namely , when i is an integer , and not greater than n. ( Similarly , the expression u=C , eC+C2efails to give the complete solution of ( ( )--i2)=0 , when i=O .
+) It is desirable , therefore , to investigate the solution of the equation in a more general d manner .
+Putting , as before , sin d+n cos a=- , the equation to be integrated is ( , ,_n+-_=j2 0 ... ... ... ( 30 .
+) Let un= av , then ( r , -n'+ ( n2"-i2)z')v= , and any value of v which satisfies this , will give a value of u , satisfying ( 30 .
+) .
+Now ; z-a , +n2 is identically the same as 1_-_( , ?
+_-)+(1)2 ( 10 .
+) , art 2 ; hence the equation becomes becomen-s ( n-1 ) + ( n1)2-i2)v= 0 ; similarly , putting v=w , _cw , we get nI-1(cc-2-(-_ 2 1)+(n--2)2_ 2 ) =0 , and so on , till we have , finally , U=nnT , a-l_-2 ... ... ... . .
+( 31 .
+) and _ , ... n. .
+1 , ( ..-i ) ... . .
+( 32 .
+) The point to be observed is , that every value of z which satisfies ( 32 .
+) will give a value of u , satisfying ( 30 .
+) ; hence , although the complete value of z will contain n+2 constants , it is certain that n of them will be destroyed by the n direct operations of the expression ( 31 .
+) .
+In general , the two constants left are those introduced by the inverse operation ( W_-i2)-1 ; but in the exceptional cases noticed above , one of these disappears , and one of those introduced by the other inverse operations remains instead .
+18 .
+The complete value of u* , in its most general form , is therefore ~=~ ~_ ?
+.^..~i(~-mai2)-- , - : ... , o ... .- ... .
+( 33 .
+) It was shown before that n _l ... r)-(sin sind sin 0 ; in like manner we Id -d 11 have,7r , Sl -Q(d si~j ) ( sin O ) , the latter operation being the inverse of the former .
+The expression ( a0-i2)- ' is equivalent to ( ( t ) -2 ) , if t=logtan ; and this may be resolved into either of the two following forms ; namely , Ifd Ad ( d -1 d )-1 or ( )(d_d ) *The former , omitting the useless factor 2 , gives tan 2To ) sin 20ot 2dot sitan ; ( ~ 2 / e 21n 8 ( dsinG 2 the latter , taking the lower signs , gives ( t )i ( d ( cot )ds tan Either of these expressions is to be substituted in ( 33 .
+) , and thus the complete value of un is obtained by means of n+2 integrations , and n differentiations .
+In general the n integrations implied in the expression ( sn ( sin 0 are useless , so that we may substitute 0 for this expression , as was done in the process first given , without ultimate loss of completeness .
+19 .
+If we suppose i an integer , and less than n , we may stop the process of art .
+17 at an earlier stage , thus U-efn-1 ?
+* * i+ z , and sntn-l. .
+i+ lwniZ-o-= 0 , so that we now have -= -'_..* or , reducing as before , and observing that _1 is equivalent to ( sin )i ( sin )-- ' , we have , finally , Sind dd _i\ nd)2 -I ( Sin d)-2i+ d U=(sin O)-sin sin ' ( sin )2i( ) ( ) sin n1 O. ( 34 .
+) If in this expression we put 0 for the result of all but one of the operations indicated in the last term , we reproduce the form ( 21 .
+) obtained in art .
+9 , which appears in fact to be always complete .
+The form ( 34 .
+) , however , as before remarked , will never contain superfluous constants .
+20 .
+It is an interesting question whether the forms thus obtained on the supposition that i is an integer , are not really general , inasmuch as they are expressible without reference to that supposition .
+I believe that they are ; but I doubt whether , in the existing state of analysis , it can be proved either that they are or are not ( see ?
+IV .
+) .
+21 .
+It is easy to obtain other forms analogous to those given in the preceding articles , containing inverse in place of direct operations .
+But such forms are objectionable , because they necessarily give rise to superfluous constants , the discrimination of which may be a matter of difficulty .
+SECTION IV .
+22 .
+It was observed at the beginning of this paper that the equation d2u d2u d"u d2 +d z. d2 when transformed to polar coordinates , may be written in the form { ( sin o)2+ ( )2+in )rd ( rd +l ) } O. * ( 35 .
+) I do not know whether this form has been noticed ; but it is remarkable in this respect , d that if the symbol rjbe replaced by n , it becomes identical with the equation discussed in the first section , and of which the solution was shown to be ( sin d)-(sin 0 sin m ) f(e ' tan ) +F(e tan ( 36 .
+) It is not easy to verify , by direct substitution , that this expression satisfies the differential equation of which it is the solution ; at least I have not yet succeeded in doing so ; and even if this were accomplished , it is most likely that difficulties would remain to be overcome before we could establish the legitimacy of extending this result to the case in which n is a symbol of unlimited signification .
+Still it seems worth while to try , at least as an experiment , the consequence of assuming that the form ( 36 .
+) will give the solution of ( 35 .
+) on putting r solution of ( 35 .
+) on putting rT instead of n. Omitting the second arbitrary function to save space , we should have ( observing that r must be considered to enter the arbitrary functions in an arbitrary manner ) =(siln 4d(sin do sin )r f(r , e -tan ... . .
+( 37 .
+) 23 .
+There is no difficulty in the interpretation of this expression .
+It is only necesr sary to recollect that cG X ( x)= p(ex ) , and we have the following result:-let s-n =gthen tf sin sin d , e ` vi tan ... . .
+( 38 .
+) where ?
+is to be put =si after all other operations , and the function must be supposed d0 to be developed as if the two symbols p sin dsin , e'vtan2 were commutative , the powers of the former being always prefixed to those of the latter .
+It is easy to derive from the form ( 38 .
+) , particular expressions which we already know to be solutions of ( 35 .
+) .
+For example , supplying the other arbitrary function , it is evident that if we takef(x , y)=x yi , and F(x , y ) the same , we get u-=rn(sin O)-n(sin 6d sin 0 A(tan &gt; cos i , which , we know , satisfies ( 35 .
+) .
+Again , we may take f ( x , y)= e , or p sin sinO t=e de.o 1 which has been already shown ( art .
+6 ) to represent ( 1--2r cos +r2)- .
+These verifications afford , I think , ground to believe that the form ( 37 .
+) is a true solution of the equation ( 35 .
+) .
+And here I leave the subject , hoping that it may attract the attention of some mathematician more able than myself to bring it to a satisfactory conclusion .
+Note on the last paragraph .
+Received December 6 , 1856 .
+If the expression f( sm sisin 0 , e ?
+Vtan ) be supposed to be developed and d arranged according to powers of the term g sin d0 sin 0 , each term in the result will be of the form r n(s in 0 ) ( s in d sin evtan ) -j representing a function of which the form may be considered to depend in an arbitrary manner upon the value of n. Now we know that every such term as the above satisfies the differential equation , and it may be asked , what more is required to prove the correctness of the solution ?
+I answer , that the point in question is whether.r(sin O)-(sin sin 0 Vtan)..(A .
+) is equivalent to the most general interpretation of ( sin O)-y(sin o sin drf(r , e ' tan ; and , if not , whether the most general interpretation would satisfy the Differential Equation ( 35 .
+) .
+The expression ( A. ) gives , in fact , no new result , being an evident consequence of the conclusions of the former sections .
+POSTSCRIPT ( Added May 29 , 1857 ) .
+Mr. CAYLEY has been kind enough to communicate to me direct verifications of the equation ( 27 .
+) , art .
+14 , and of the identity referred to in art .
+16 .
+Assuming a formula established in Mr. CAYLEY'S paper " On certain Formulae for Differentiation , " ' &amp;c. * , the former of the two theorems just mentioned is easily obtained , the latter not without a good deal of trouble .
+The investigations of Section II .
+may be compared with some of those in the Introduction to MURPHY'S 'Electricity ; ' but I have not at present examined the latter with a view to such comparison , and therefore merely mention the subject .
+

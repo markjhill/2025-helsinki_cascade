@@ -1,0 +1,159 @@
+]\gt ; INDEX SLIP .
+MAOMAHOIT , ( Major ) P. A.\mdash ; Memoir on the Theory of the Partitions of Numbers.\mdash ; Part III .
+Phil. Trans. , , vol. 205 , 1906 , pp. 87-59 .
+Magio Squares\mdash ; Construction of , General .
+MAcMAttoN , Major ) P. A. Phil. Trans. , , vol. 205 , 1905 , II .
+Memoir on the Theory of the Partitions of Numbers.\mdash ; Part III .
+P. A. MAOMAHON , Major R.A. , Sc. D. , F.R. Received November 21 , \mdash ; Read December 8 , 1904 .
+SINCE Part II .
+of the Memoir appeared in November , 1898 , the following papers by the author , bearing upon the Partition of Numbers , have been published:\mdash ; " " Partitions of Numbers whose Graphs possess Symmetry 'Cambridge Phil. Trans vol. XVII .
+, Part II .
+; " " Application of the Partition Analysis to the Study of the Properties of any System of Consecutive Integers ' Cambridge Phil. Trans vol. XVIII .
+; " " The Diophantine Inequality 'Cambridge Phil. Trans vol. XIX .
+" " Combinatorial Analysis .
+The Foundations of a New Theory 'Phil .
+rans .
+Roy .
+Soc. London , ' , vol. 194 , 1900 .
+In the present Part III .
+I consider problems of " " Arithmetic of Position In particular , I define a general magic square\ldquo ; composed of integers and show that for a given order of square it is possible to construct a syzygetic theory .
+Such a theory is worked out in detail for the order 3 as an iUustration .
+I further discuss the problem of the enumeration of the squares of given order associated with a given sum .
+I show that there is no difficulty in constructing a generating function for such squares even when the construction is specified in detail , and I obtain an analytical expression for the number when the sum , associated with rows , columns and diagonals , is unity or two .
+S9 .
+Art .
+124 .
+" " general magic square\ldquo ; I take to consist of integers arranged in a square in such wise that the rows , columns and diagonals contain partitions of the same number , zero and repetitions of the same integer being permissible among the An ordinary magic square I define to be a general magic square in which the integers are restricted to be the first integers of the naturaI succession .
+We may regard general magic squares as numerical magnitudes .
+To add two such magnitudes we add together the numbers in corresponding positions to form a ( 388 .
+) 30.6.06 magnitude which is obviously also a general magic square .
+We can , therefore , a linear function of magnitudes of the same order , , the coefficients being positive integers , and such linear functions denote a general magic square .
+The magnitudes , of the same given order , can be taken as the elements of a linear algebra , and since arithmetioel addition can be made to depend upon algebraical multiplication , the properties of the magnitudes can be investigated by means of a non-linear algebra .
+Art .
+125 .
+The properties of a general magic square can be exhibited by means of ' homogeneous linear Diophantine equations , and it thence immediately folows that there must be a syzygetic theory of such formations .
+'rhere exists a finite number of ground forms , corresponding to the ground solutions of the equations , and the method of investigation determines these and the syzygies which connect them .
+Generally speaking , there is a syzygetic theory associated with every system of linear homogeneous Diophantine equalities or inequalities , and it is because invariant theories depend upon such systems that they are connected with syzygetic theories .
+Art .
+126 .
+The method of investigation about to be given applies not only to magic squares of different kinds but to all arrangements of integers , which are defined by homogeneous linear Diophantine equalities or inequalities , whose properties persist after addition of corresponding numbers .
+For example , the partitions of all numbers into , or fewer parts , are defined by the linear homogeneous Diophantine inequalities and if another solution be we have and since the property persists after addition , a syzygetic theory resuIts .
+This is one of the simplest cases that could be adduced and is at the same time the true basis of the Theory of Partitions .
+Many instances of configurations of integers in plano or in solido will occur to mind as having been subjects of contemplation by mathematicians and others from the earliest times .
+These when defined by properties which persist after addition of corresponding parts fall under the present theory .
+Art .
+127 .
+There is no general magic square of the order 2 except the trivial case , but we may consider squares of order 2 in which the row and column properties , but not the diagonal properties , are in evidence .
+Let such a square be THEORY OF THE PARTITIONS OF NUMBERS .
+which must clearly have the form and we may associate with it the Diophantine equation and regard and as the unknowns .
+The syzygetic theory is obtained by forming the sum for all solutions of the equation , and the result is where is an auxiliary quantity and the meaning of the prefixed symbol is that after expansion of the algebraic fraction in ascending powers of we are to retain those terms only which are free from The expression clearly has the value The denominator factors denote the ground solutions and the absence of numerator terms shows that there are no syzygies .
+Thus the ffindamental squares are and this is otherwise evident .
+The case is trivial and is introduced only for the orderly presentation of the subject .
+Art .
+128 .
+Passing on to the general magic squares of order 3 we have the square defined by the eight Diophantine equatious We require all values of the quantities which satisfy these equations .
+To form the sum for all solutions , introduce the auxiliary quantities in association with the successive Diophantine equations .
+The sum in question may be written where after expansion retain that portion only which is free from the auxiliaries .
+Remarking that we eliminate the auxiliar and obtain Put now , and we obtain ' an artifice which reduces the number of auxiliars to be eliminated by unity .
+THEORY OF THE PARTITIONS OF NUMBERS . .
+Remarking that We eliminate A and find Eliminating from the first ffaction and from second , we have From the first fraction eliminate , from the second , and ffom third ' obtaining Eliminating from each of the three fractions , we obtain THEORY OF THE PARTTTIONS OF NUMBERS .
+Art .
+129 .
+Before proceeding to eliminate and , observe that if we now put , we obtain the generating function for the solutions of the first six of the Diophantine equations corresponding to the squares which possess row and column but not diagonal properties .
+Putting , the generating function reduces to indicating ground forms connected by the ground syzygy corresponding to the fundamental squares connected by the fundamental syzygy each side being equal to This is the complete syzygetic of these particular squares of order 3 .
+( $ 2 Art .
+130 : Resuming the discussion , we proceed to eliminate and and remark that the second fraction may be omitted as contributing no term free from Eliminating ffom the first and from the third , we have Art .
+131 .
+If the diagonal property associated with is aIone to be satisfied in addition to the row and column properties we may put .
+Observe that the second of the three ffactions cannot now be omitted .
+Simplifying we obtain Establishing the five ground products connected by the ground syzygy corresponding to the fundamental squares 1 2 2 1 TREORY OF THE PARTITIONS OF NUMBERS .
+oonnected by the ffindamental syzygy involving the complete theory of the squares in which the property of one chosen diagonal is excluded .
+Art .
+132 .
+Resuming and finally eliminating , we obtain which may be written indicating the ground products connected by the fundamental syzygies corresponding to the fundamental general magic squares connected by the fundamental syzygies Art .
+133 .
+If the sum of each row , column , and diagonal be , the number of general magic squares of order 3 that can be constructed is , from the generating function , the coefficient of in the expansion of and this is found to be Art .
+134 .
+The ordinary magic squares , the component integers being , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , are eight in number and are easily found to be , and seven others obtained from 2 1 1 2 2 1 1 2 2 1 2 Art .
+135 .
+There is no theoretical difficulty in tigate t TREORY OF THE PARTmONS OF NUMBERS .
+of higher orders , but even in the case of order 4 there is practical diffioulty in handling the generating ffinction .
+There are 20 fundamental squares , .
+:\mdash ; 1 1 010 1 1 010 1 1 1 1 1 2 2 010 ] 1010 2 2 010 1 1 1 00 1 0001 1 1 010 1 1 0011 1010 0002 0110 0110 0002 1 1 1 1 0110 2000 1 S10 .
+Art .
+136 .
+The direct enumeration of general magic squares of given order and eum of row .
+Let denote the sum of all the homogeneous products together of the magnitudes If be raised to the power and developed , the coefficient of is the number of squares that can be formed of order , so that the sum of each row and lumn is , but in which there is no diagonal property in * " " Combinatorial Analysis\mdash ; The of a New Theory 'Phil .
+Trans , vol. 194 , 1900 p. 369 et MAJOR P. A. MAoMAHON : MEMOIR ON THE In fact , if and I an operator of order obtained by raising the linear operator to the power symbolically as in TAYLOR'S theorem , then the number in question is concisely expressed by the formula a particular case of a general formula given by the author ( loc. Art .
+137 .
+To introduce the diagonal properties , proceed as follows:\mdash ; Let denote what becomes when are written for respectively , and form the product I say that the coefficient of in the development of this product is the number of general magic squares of order corresponding to the sum To see how this is take , and form a product , and observe that , in picking out the terms one factor must be taken every time from each row , column and diagonal of the matrix .
+Similarly , if , we form the product In forming the term involving regard the successive products as corresponding to the successive rows of the square , the suffix of the as denoting the column , and as corresponding to the diagonak .
+Thus picking out the factors THEORY OF THE PARTITIONS OF NUMBERS .
+we obtain the corresponding square These examples are sufficient to establish the validity of the theorem .
+Art .
+138 .
+If we wish to make any restriction in regard to the numbers that appear in the row , we have merely to strike out certain terms ffom the function B.g. , if no number is to exceed , we have merely to strike out all terms involving exponents which exceed If the rows are to be drawn from certain specified partitions of , we have merely to strike out from the functions all terms whose exponents do not involve these partitions .
+We have thus unlimited scope for particularising and specially defining the squares to be enumerated .
+Let us now consider the enumeration of the fundamental squares of order , such that the sum of each row , column and diagonal is unity .
+Observe that if the diagonal properties are not essential the number is obviously !
+Art .
+139 .
+It is convenient to consider a more general problem and then to deduce what we require at the moment as a particular case .
+I propose to determine the number of squares of given order which have one unit in each row and in each column , and specified numbers of units in the two diagonaIs .
+Consider an even order , and form the product .
+We require the complete coefficient of when the multiplication has been performed .
+Writing VOL COV .
+the product is , taking the and factors together , Observing that we only require terms which involve the quantities with unit exponents , the product of the first two complementary factors is effectively and the complete product has , on development , the form where is a linear function of products of the quantities , each term of which contains different factors , each with the exponent unity .
+Since , moreover , gives rise to the term it follows that the coefficient of in the product is obtained by putting each quantity equaI to unity and Hence , if symbolically , the symbolio expression of the coefficient is or or writing This is the complete solution of the problem for an even order For an uneven order , it is now evident that the symbolical expression of the coefficient of is , the complete solution in respect of the uneven order THEORY OF THE PARTITIONS OF NUMBERS .
+Art .
+140 .
+To find the number of ground " " general magic squares\ldquo ; corresponding to the sum unity , we have merely to pick out the coefficient of ; we thus find even order number is 8 uneven order number is 8 wherein it must be remembered that the products are to be expanded in powers of and then put equal to !
+In the general results the coefficient of gives the number of squares in which the row and column sums are unity and the dexter and sinister diagonals ' sums are respectively .
+I give the following table of values of simple products : The numbers denote the number of permutations of letters in which each letter is displaced and constitute a well-known series .
+The remaining numbers are readily calculated from these by the formula Art .
+141 .
+Another solution of the same problem yielding a more detailed result is now given .
+For the even order I directly determine the coefficient of in the product above eet forth .
+We have to pick out 's and 's and to find the associated factors , in number , which are linear functions of the quantities In any such selection of 's and 's there will be pairs of 's symmetrical about the sinister diagonals and pairs of 's symmetrical about the dexter diagonak , and the associated factors will depend upon the numerical values of and Consider then in the first place the number of ways of selecting 's in such wise that pairs are symmetrical about the sinister diagonals .
+This number is readily found to be With these 's we cannot associate any which is either in the same row or in the same column as one of the selected Each of the symmetrical pairs of 's in this way accounts for 2 , and each of the remaining 's accounts for 2 Thus we must select 's out of , i.e. , 's out of We may select these so as to involve pairs symmetrical about the dexter diagonals in ways .
+This number is obtained by writing in the first formula and for and respectively , and observe that we may do this because the selection of a symmetrical pair of 's or of one of the 's results in the rejection of a pair of 's which is symmetrical about the dexter diagonals .
+Consequently the possible places for the 's are also symmetrically arranged about the dexter diagonal .
+Hence the formula is valid .
+We have established at this point that we may pick out 's involving symmetrical pairs and 's involving symmetrical pairs in ways .
+We must now determine the nature of the associated factors , linear functions , of the quantities In the matrix of the product delete the rows and columns which contain selected and .
+We thus delete rows and columns .
+Consider the remaining rows .
+There remain in these rows at most elements , because columns have been deleted , but some of these elements THEORY OF THE PARTITIONS OF NUMBERS .
+must be rejected if they involve or as coefficients , because by hypothesis we are only concerned with 's and , and these have already been accounted for .
+Otnerve now that the columns which contain a symmetrical selected pair of 's only contain 's which are in the same rows as these , and therefore the deletion of these columns cannot delete 's appertaining to any rows except those occupied by the selected pair of .
+Observe further that the column which contains an unsymmetrical , say in the row , contains a in the row , and that therefore the disappearance of a in the row follows from the deletion of a column containing an unsymmetrical in the row .
+Hence of the rows in question rows contain elements , and thence rows contain elements .
+Accordingly if is the sum of all the elements except those which appear as coefficients of the selected 's and 's the co-factor of contains factors of type , and factors of type , or of squared factors of type since these factors occur in equal pairs .
+Hence the co-factor is wherein the quantities in number , which appear in the first product , and the quantities in number , which appear in the second product , are all different .
+Also is effectively equal to since squares of the 's may be rejected .
+Hence , by the reasoning employed in the first solution we may put the quantities equal to unity , regard as equal to symbolically , and say that the coefficient of in the product MAJOR P. A. MACMAHON : MEMOIR ON TllB has the symbolical expression or , putting we obtain for the number of squares such that\mdash ; ( 1 ) Sum associated with rows and columns is unity ; ( 2 ) There are units involving symmetrical pairs in the dexter diagonal ; ( 3 ) There are units involving symmetrical pairs in the sinister diagonal .
+Giving and all possible values we find that the complete coefficient of in the product , which we have already ascertained to have the expression may be also expressed in the form THWR THE PARTITJONS OF NUMBERS .
+Further simplification of this series cannot be effected because each term of the sum must be considered on its merits and does or does not add to the numerical result as may appear .
+Art .
+142 .
+Writing the result for even order it appears that the result for uneven order may be written For the squares of simple orders we have the results\mdash ; ORDER 2 .
+1 2 @ 1 2 @ ORDER 4 .
+1 2 3 4 @ ORDER 3 . . .
+@ ORDER 5 .
+1 2 3 4 5 { I @ MAJOR P. A. cMAHON : MEMOIR ON THE ORDER 6 .
+@ Art .
+143 .
+I now proceed to consider the enumeration of the squares of even order , such that every row and column contains two units , and the dexter and sinister diagonals and units respectively .
+I form the product where is the sum two together of the quantities and I seek the coefficient , a function of and , of in the product .
+The coefficient of in the sought function of and is the required number .
+Let be the sum and the sum two together of the quantities then whence involving powers of the second .
+THEORY OF THE PARTITIONS OF NUMBERa The product of is thus , after re-arrangement , effectively equivalent to Regarded apart from this expression is a function of ; the product is a function of , and generally the product is a function of , and all of these products are of similar form in regard to Remembering that we desire the coefficients of in the product we must distinguish between where it occurs as a multiplier of and where it occurs as a multiplier of , and make a similar distinction in respect of Put then Putting further the quantities equal to unity and regarding a product as a symbol for the coefficient of symmetric function in the development of symmetric function I say that is the symbolic expression of the required ient of VOL. COV.\mdash ; A. I This may be written where For the uneven order it is easy to show that the coefficient is symbolically It is easy to calculate the values of for small values of Some results are , omitting the obvious result !
+, THEORY OF THE PARTITIONS OF NUMBERS .
+enabling the verification of the results Hence for the even order 2 the whole coefficient is , corresponding to the only possible square and I find for the uneven order 3 .
+Art .
+144 .
+To find in general the number of squares which have two units in each diagonal we find the coefficient of and obtain for even order ; putting we find for the order 4 and the verification of this number is easy .
+For the uneven order we obtain the number The general value of may be obtained by means of the calculus of finite differences .
+There is no theoretical difficulty in finding symbolical expressions for the enumeration of general magic squares associated with higher numbers , but the method does not lead to the determination of general magic squares .
+These must be regarded as arising \amp ; om the generating function method of S9 .
+

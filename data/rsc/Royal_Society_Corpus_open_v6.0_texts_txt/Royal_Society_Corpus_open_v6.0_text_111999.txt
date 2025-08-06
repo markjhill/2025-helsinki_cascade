@@ -1,0 +1,112 @@
+" On the Equations of Rotation of a Solid Body about a Fixed Point .
+" By WILLIAM SPOTTISWOODE , M.A. , F.R.S. , &amp;c. Received March 21 , 1863.* In treating the equations of rotation of a solid body about a fixed point , it is usual to employ the principal axes of the body as the moving system of coordinates .
+Cases , however , occur in which it is advisable to employ other systems ; and the object of the present paper is to develope the funidamental formulae of transformation and integration for any system .
+Adopting the usual notation in all respects , excepting a change of sign in the quantities F , G , H , which will facilitate transformations hereafter to be made , let A=Em(y ' +z ' ) , B =m(z ' +x ' ) , C= m(X y2 ) , -F = 2nmyz , -G= 2mzx , -H= 2mxy ; and if p , q , r represent the components of the angular velocity resolved about the axes fixed in the body , then , as is well known , the equations of motion take the form A'It +H dq +G dt -F(q'-r ' ) + ( B ?
+-C)qr+rp-H pq , +H d+ B-fd +F drt =-G(r'-p')-Hqr ( C-A)rp ?
+Fpq , ( 1 ) +G JrF q+ +C dr = -H ( p'q ' ) + GqrFrp + ( A-fB)pq .
+J dt dt dt To obtain the two general integrals of this system : multiplying the equations ( 1 ) by p , q , r , respectively adding and integrating , we have for the first integral A.p2+Bq'+Cr'+2(Fqr+Grp + Hpq ) = h , ... .
+( 2 ) where A is an arbitrary constant .
+Again , multiplying ( 1 ) by Ap +Hq+Gr , Hp+Bq ?
+Fr , Gp+ Fq + Cr , respectively adding and integrating , we have for the second integral ( Ap+Hq+Gr ) ' ?
+( Ep+Bq ?
+Fr)'+ ( Gp ?
+Fq+Cr)2=k ' , .
+( 3 ) where k ' is another arbitrary constant .
+This equation may , however , be transformed into a more convenient form as follows : writing , as usual , %=BC-F , 33=CA-G ' , C=AB-H , V= AH G ?
+=GH-AF , &amp; =HF-BG , 34=FG-CH , HB F. ( 4 ) A+B+C =S , GF C and bearing in mind the inverse system , viz VA=33-Iff 2 VB=(ta-Q , VC=a33-2 , 2 VF=QTAt-a5 , VG=- ; Iff-33 &amp; , VHl=ff &amp; -C34i ( we may transform ( 3 ) into the following form:(AS-33-Q)p+ ?
+2(FS + ?
+i)qr r+ ( BS C A)q 2+ 2(GS + ( &amp; )rp ... .(6 ) + ( CS-A 33 ) ?
++2(HS ?
++ 3)pq=p k ' , j which in virtue of ( 2 ) becomes ( la -A)pa + ( 33_ q2 , +( )r2 +2(f gr + &amp; rp +3 pq ) h2 _Sh .
+( 7 ) This form of the integral is very closely allied with the inverse or reciprocal form of the first integral ( 2 ) , and is the one used below .
+In order to find the third integral , we must find two of the variables in terms of the third by means of ( 2 ) and ( 7 ) , and substitute in the corresponding equation of motion .
+The most elegant method of effecting this is to transform ( 2 ) and ( 7 ) simultaneously in to their canonical forms .
+If al pi 7 ' a2 k2 72 be the coefficients of transformation , and if Cn be the determinant formed by them , the terms iinvolving the products of the variables will be destroyed by the conditions ( A ... F* ( A. .
+3 a2r3Pi34)- , I ... 2 .
+( 8 ) ( S-A A gAfS fSXX02xy 71Y2 ) =O .
+, ( g** * The coefficient of -03 Hence ( dividing throughout by V ) ( 10 ) becomes 03+2.SO'+(S2+)+S ; V =0 ; or , what is the same thing , ( O_pS)3_S(O+S)2+4 &gt; ( O+S)_V -0 ; ..(1 ) or , as it may also be written , A-(O+S ) , H. , G =0 .
+1 , B-(O + S ) , F G , F , C-(0+S ) It will be seen by reference to ( 9 ) that the values of 0 determined by this equation are equal to the ratios of the coefficients of the squares of the new variables respectively in the equivalents of ( 2 ) and ( 7 ) .
+The coefficients of transformation are nine in number ; if therefore to the six equations of condition ( 8 ) we add three more , the system will be determinate .
+Let three new conditions be ( A ... F ... 1tt 2)21 ( A*-F*38 ... S ) F. .
+I *** ( 12 ) ( A ... F ... X l Yl , J them the variable terms of ( 2 ) will take the form of the sum of three squares , and the roots:of ( 11 ) will be the coefficients of the transformed expression for ( 7 ) .
+Or , if 0 , 02 , 0 , be the roots of ( 11 ) , ( 2 ) and ( 7 ) take the forms 2+ Yq12 + r22= , ( 13 ) Op+ ?
+Qq+0 r 2-h-St In order to determine the values of the coefficients of transformation Ca , a , a2 , we have from ( 9 ) , ( _AO3)o+ X-l0 &gt; x + ( txGO)a,2=0 ( H-0 ) ?
++ ( 33--B 0)+(JFaF0)c.(2=0 , * the expression becomes V(A+O)+Tq S &amp; -(F &amp; +Gf)lO+FGO ?
+D V4 + ( Cp +H4 ?
+)0 C010 =a1 : VE+TR =tVG+T &amp; , whence the system ca : cm a2 =V(A+o)+Ta VEI ?
+T =VG +T &amp; VH +T V(B+O)+T33 UP +Tj ( 15 ) VG +T &amp; : VF +TS V(C+0)+T J with similar expressions for 2P P ; i , ry 7r2 , obtained by writing 01 , T1 ; 0 , T , respectivly for 0 , T. Returning to the equations of motion ( 1 ) , and transforming by the forminl ip= r1+P q1+yrt1 , g-1S+ll+7lGyS * .
+* with similar expressions for the two other equations .
+Multiplying the system so formed by y , Vi ' yv respectively and adding , the coefficients of p1 ' , q'I will vanish , and that of r%l will =1 in virtue of ( 12 ) ; and as regards the right-hand side of the equation , the coefficient of p,2 Aa , + Ha + GaG a , a y HaJ+B a , +fF ax , yL Gca+Fa , + Ccz , p a.2 va which , omitting common factors , ( S+O)A+ +(S+0)0 , VA+T % +VO , VA+T29+VQ2 ( S + O)H +I .
+VH +T ?
+, VH+Tj ( S+O)G + &amp; , VG+T &amp; VG+T2A ={(S+0)0 oVH+TI VH+T2 RI +VO | Vl TT23(S+0)ll+ % VG+TQ &amp; VG+T'CT | VG+T2 &amp; ( S+O)G+eTh V02 |(S+O)H+1 VH+TY ( S+O)G+ &amp; VG+T &amp; { ( S + O)OV(T2-T ) +Vo(V -T2(S + 0 ) ) +V02(T(S + 0)-V ) } ( fi-fJG ) =V(02o){T(S +)0V}(ll H-G ) .
+But T(S+0)-V=(S+0)(02+S0+ ?
+)-V_=(S+O){(S+0)2-(S+0)+b}-V =(S+0)3_S(S+0)2+.(S+0)-V _0 .
+Hence , finally , the coefficient of p12 vanishes .
+So likewise the coefficient of q12 = A+H1+GP32 P. =O .
+HP+BP1+F13F / 31 VI GP+F P+CP2 fs And that of r21Ay+Hy7+G 7GY y0 .
+Hy +B y1+ F7+ F v1 yy Gy/ +F yl+CY2 72 72 Similarly the coefficients of q1 rl , and r , p1 will be found to vanish ; and lastly , the coefficient of p1 q1 =a .
+{ A ( 3172-271)+ llQ2y-j372)+ G(3yj-j1,7 ) } + a{l(f172-/ 271 ) +1( -32y p2 ) +F ( / 71-/ PI7 ) } + a. { G ( I31Y2 4 2r1 ) +F ( 32/ 72 ) + C(Py1-1Y)I ) } -3 { A(71a.2-y2a- , ) +H(y2a.-yM2 ) ?
+G(7a1-71a ) } -/ 31{H(ya2-y2a.1 ) +B ( y2a--va2)+F(v(LEr a ) } -2{G ( y1a.22al ) +F ( 72CX-Ya.2)+C(Ya1-y,1a .
+) } , which , by reference to ( 9 ) , may be transformed into o { ( Az+Hl + Ga)2+ ( Ea + Ba + Fac , )2+(Ga + Fax + Ca , )2 -(A13 ?
+11131+GP2)2+(1113+ B13+F132)2+(GC3+F131+C132)2 } o { ( A2 + Hp12 +C 122+ 2Fae + 2GB a+2 F1a ; C)S -(A}32 + B112+ C/ 32 + 2FO1332 + 2G/ 32 + 2H13-31)S ?
+( ( HX_2ip9 ) + ( ~3 _)(a12_12 ) + ( C)(2 2 ) + 2Jf(ala -11132 ) +2 ( aa -13213 ) + 2p(aa , -P133 )I ; in which the coefficient of S vanishes in virtue of ( 12 ) ; so that the coefficienit ofpl , qL *~~~3 ( " ) C O_ ) cc)Xp p ) } but , by ( 12 ) , Hence the coefficient in question ?
+( 0(01)*(18 ) and the equationis of motion become p1 =n ( 01 2)ql ?
+13 ) qlE= O ( -02 &gt; whence the equations of motion ( 19 ) become I= V-li(01 02)1qJ '*1 ' In order to compare these results with the ordinary known form , we must make F=O , G=O , H10 , P1=Aip , q1=B3q , r-1C r ; which values reduce ( 13 ) to the following : ( Atp )2+ ( B'q)2+ ( Cr9 , )2= ' -(B+ C)Ap'-(C+ A)Bq'2-(A+B)Cr ' =k2Sh ; which last is equivalent to ( A-S ) ( Ap ) + ( B-S(B- ) + ( CS)(Cj )2=k-Sh , or A(AIp)2 + B(B lq)2+ C(CUr)2 2 .
+Also , on the same supposition , V=ABC , 0=-(B+C ) , 01=-(C+A ) , 0 , =-(A+B ) , which , when stubstituted in the above , give Ap1'=(ABCf ) -(B-C)B2C'qr , BiPq=z .
+, .
+or Ap'=(B-C)qr , Bq'=(C-A)fp , Cr ' ( A-B)pq , as usual .
+It remains only to determine the absolute values of the coefficients of transformation , the ratios of which are given in ( 15 ) .
+For this purpose let V(A + 00 ) + To%=AO ) VF_+Toff = o0 , V(B +00 ) +T033 o0 VG +T T =O &amp; .
+ex ( 22 ) V(C +00 ) +ToC =Co V1I+To0=Po J Then , from ( 15 ) , __________ ?
+_~ = ______9 _______ Wo .
+, o __ __P _ ( A. .
+H.](Xj )= ( A ... E 0 ) ( oeoyA 2l ( A ... 3]loRIoC ) 2(A. .
+Cpo)303fo)2 ( A ... K &amp; o0Rf ; o0 ) ( A ... 11 ... ( ..io/ F= From these relations it follows that ; 0_ &amp; 02= ? .
+0 -330(5 ; = ?
+** ( 23 ) 030-No 2= O , SO &amp; O-0 CO340=0O , which relations may be also verified as follows : &amp; 0_qo_ ( 00(VG+TO &amp; )(Vll+ ?
+TO2 ) -(VA+T0 ?
++V00)(VF+Toff ) = V2J ?
+VTO(G3 +IG -A-F % ) ?
+To2VF-Vo(VF +Toff ) V{Vg-To(Sf + BF ) +TT2F-VOOF-Vj+ST , ffT } ; Since G+ F33 + CY=0 , IQ ?
++BSJ+F ?
+F ; =O , and ( 0+ S)T-V=O , or OT=V -ST .
+Hence &amp; oRIo-O-O=VFjTo2-T V0o } =VF{T0o(S + o0)-V00 } -0 .
+From these relations it follows that the first denominator , viz. ( A , B , C , F , G , -1.0(50)2 =AT 2+ B &amp; 2+ C02C02+r(FM0QO + G &amp; f+ H%Igo ) -=o{A%o+B330 +CCO+2(FfO+G &amp; o+ll0o } =-O7V{A2+B 2+C2 +2(r2+ G2+h2 ) + 3TO+ S00 } =g0V{S2-2 +3TO+ 800 } - &amp; V 30Q2+4S00+++ S ' } =-0V{(S + 00)(S + 300 ) + } .
+Hence , writing ( S ?
+00)(S+ 300 ) + S= So , we have , finally , Ct=E 71= al-OS a2=W From this we may obtain the following system : =1 _ ?
+a=G 0 00 ~~0 0 ____ _-$ with similar expressions for , / 3 ) P2 ; v ' v1 72 obtained by writing the suffixes 1 and 2 respectively for 0 .
+By means of these we may write the equations connecting the variables as follow : 1+1 1o | ?
+pI + 33 q+ S2l .
+( 25 ) _ol_ d2 C2 _Ot JPlQ ( t 1 Lastly , to complete the transformations , the values of p1 , q1 , r1 should be determined in terms of p , q , r. Now %034 + 031+ Off , =(VA +TOR+ V00)(VH + T1 ) + ( VIH +TOV)(VB +T1B + TO1 ) + ( VG+To &amp; ) ( VF+T1 &gt; ) = V2{(A + B)H+ FG } +TOT1{(a+ 3 ) ?
++ Ir } + V2H(0o + 01 ) + V3(OT2 + OITo ) = V2(SH +R ) +TOT , ( .
++ VH ) + V21H(0o + 01 ) + W ( 0OT , + oITo ) =V { V(S + 00 + 01 ) + TOT , }IH + ( V0oT , + V0OTo + 4ToTI + V2 ) =T0T1{ [ -(S + O0)(S + 01)(S + 02 ) + V]H + [ OO(S + O0 ) + 01(S + 01 ) +S+ ( S + 00)(S + 0)]RI } , since V=To(S+00)=T1(S+ 0 ) =T2(S+ 02 ) .
+Moreover by ( 11 ) we have ( S + 00 ) ( S +01 ) ( S+ 02 ) =V , and consequently the coefficient of H vanishes .
+And it may be noticed , as a useful formula for verification , that , from the relations last above written , we may at once deduce the following : TOTIT , = V2 .
+Again , the coefficient of 3I .
+may be thus written : ( S+00+02)(S+00)+(S+00 ?
+01)(S+01)S+S ( S+00)(S+01 ) ( S + 02)(S + 00)(S + 00)(S + 01 ) =-(S +0o)(S +00)-(S +02)(S +01)-(S +00)(S +02 ) +S ' =0 , F. in virtue of ( 11 ) .
+Hence the whole expression vanishes , or g%ON , + 10331+ ( 509 - ?
+... ..(26 ) and similarly Moreover , in virtue of ( 23 ) , we have %02 + Ro2 ?
++ &amp; 2= %O .
+, !
+Hence multiplying ( 25 ) first by A , , NO , rO respectively and adding , secondly by PI 331 ; fl thirdly by i2 ' o we shall obtain the iniverse system J ]1 ?
+=i_ , OP+ AOq+ GQo ?
+Y I 1g I+I &amp; ?
+j &gt; ( 2 ) , 1 &amp; 2 P +fflq+ C2 , r Returning to the integrals ( 13 ) , we derive ( 01 _O)q,2 + ( 02 -O)r12 h2_(S+ 0 )h , ( 0201)212 + ( O -0)P 2=k 2-(S + 1)k , ( 0 -O 2+( ) ?
+01_0h)q -2-2-(S+02)h .
+Let n~~~~ 2X1 , '/ ( S +Oh cosx ; then ql =2 and 2 --(S ?
+o)h 2 ' __-_($+9)k 01-0 k2-(S+02)h */ 02 0o0 02 P ( S + 0)I Sibstituting in the equatLions of m-otion ( 21 ) ( e. g. the 'first of them ) and dividing throughout by sin X,2 -(S+ 02)4 , we have dX___ _ _____ __ 01-0 k2-(S+0 ) 2V dt a t ?
+V\/ -0 I( )'X or 2_ + IX2_ ( s + O)hd 01-0 h ( S+ 02 ) / / 2 ' O1-0 k2_(S+0)h mX then x=am ( tv V7 7S+ ?
+o)Jh+f ) and p=/ '-S + Dhco$ am 2-(l/ S -( tt _sin am ( &gt; / ( V2(S + 0)ht + ) .
+rl= V Ozj~ 0)kAam VIc2 -(5+0)h/ a * ?
+f These , then , are the integrals of the equations of motion when no external forces are acting .
+The next step is to determine the variations of the arbitrary constants , due to the -action of disturbing forces , when , as in the case of nature , those forces are small .
+With a view to this , it will be con venient to change the arbitrary constants into the following , Vk2-(S+02)Ah=r Vk2I-(S+t0)h= , whence ( 0-02)A=m 2t ( 0-02)k2 ( S+ 0)2(S +02 ) 2 ; also , for brevity , let =4 ~ ~~~~~~ 00 li 02_I am(Unt+f)= , 01 02=kl Theni the equations of motion become __ / oo cos am(lnt+f ) , _1 t 6Now it is known by the theory of elliptic functions that d cos amx --sin am xA am x , dx d sin am x= cos arn XA amr , a _--k'sinmScosamx , dx Whence P1 , Q1 , R1I being the moments of the disturbing forces about the present axes , cos dm+ dt~ ~ V'0-0 .
+dm dn df )1 in d +m Co A/ 74 ?
+tUf dtX+mo ~ ) &amp; dt ~dtIJ GO tdn sin dn I cdf ) } Q1 s/ -( fl , nx 1 s1ncosXxk(tdt t - } Et-g AX -nkl sin X cos-X ( t-J -t ) From these we derive dm Tt V00 co X+101-o Q1 sin X , I"Uax It d-f + d)- , v/ fw-f &gt; Pl sin X+A/ fIT~ Q Cos X , dn n sin o cos X AXt -/ 02-0RA ?
+f , X - , c ?
+SX or dn --P1 0i-0 msinxcosx AX 01-02 ( AX)2 Vo-o , P1sinx+V0-0 QcosX } R 01-0 1 sin X cosX{ V02-QX ?
+0 -0 , ( AX)2 02Pi5inX ?
+V0i-02Qicos % } S { v/ oP1cosX+\/ " o02Q1 sinX}dt .
+And lastly , df_ dn 1 - &amp; \/ O-01 *sinXV QCOS dt tA f { &amp; / \ P1 co s x+ '0Q1 sin , X d
+

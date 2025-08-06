@@ -1,0 +1,627 @@
+]\gt ; [ 279 ] VI .
+On the Law of Distribution of Molecular Vetocities , and on.the Theory of Viscosity and Thermal Conduction , in a Non-uniform Simple Monatomic Gas .
+S. CHAPMAN , M.A. , D.Sc .
+, Fellow and Lecturer of Trinity College , Communicated by Sir JOSEPH LARMOR , F.R. Received October 5 , \mdash ; Read November 18 , \mdash ; Revised December 1 , 1915 .
+CONTENTS .
+Page .
+S1 .
+Introduction . . . . .
+279 S2 .
+Definition and preliminary consideration of the problem . . . . . .
+281 S3 .
+The equation of transfer of molecular properties . . . . .
+285 S4 .
+The effect of molecular encounters . . . . .
+289 S5 .
+The general expression for . . . . .
+295 S6 .
+The form of the function . . . . . .
+299 S7 .
+The calculation of . . . . .
+301 88 .
+The expressions for the coefficients in the velocity.distribution functions . . . . .
+311 .
+Consideration of particular molecular models . . . .
+320 S10 .
+Numerical calculations for particular molecular models . . . . .
+327 S11 .
+Viscosity and thermal conduction . . . . .
+334 S12 .
+ison of the theory with experimental data . . . .
+341 S1 .
+INTRODUCTION .
+THE kinetic theory of gases can be developed accurately only after the distribution of the molecular velocities has been determined .
+This was done by MAXWELL* in the case of a uniform gas , and by means of his well-known law of distribution the pressure and temperature can be precisely expressed in terms of the molecular data .
+His law does not however , for the investigation of diffusion , viscosity , or thermal conduction , since these occur only when the gas is not uniform in composition : mean velocity , or energy .
+An accurate theory of these phenomena must be based on the evaluation of the modified velocity-distribution function , a task which for many decades has constituted one of the classical unsolved problems of the kinetic theory .
+* MAXWELL , Scientffic Papers , ' I. , p. 377 , , p. 23 .
+The oofs were unsatisfactory , and have been improved by BOLTZNANN , JEANS , and others .
+VOL. CCXVI .
+May 26 , 1916 .
+In one special case , as MAXWELL found , the actual determination of this function proves to be unnecessary for the purpose mentioned ; this is the case of a gas composed of molecules which are point centres of force varying inversely as the fifth power of the distance .
+The reasons for the peculiarity in this instance are analytical and not physical , and unfortunately for the simplicity of the mathematical theory of gasq for such a gas do not accord with the observed \amp ; ta of actual gases .
+This particular molecular model is therefore interesting chiefly on theoretical grounds , and it is important to develop the theory for molecules of other types , which may better represent the behaviour of real molecules .
+Until recently no progress had been made towards the determination of the velocitydistribution funcbion for a non-uniform gas , beyond a theorem by BoLTZMANN , proved that the function must satisfy a certain integral equation .
+Tn 1911 , applied the method of solution by series to this equation ; he determined the form of the function , but without evaluating its coefficients , and his numerical approximations proved far from satisfactory .
+In 1912 , HILBERTS showed that if the molecules of the gas are rigid elastic spheres , BoLTZMANN'S equation may be transformed into a linear orthogonal integral equation of the second kind with a symmetrical kernel , and deduced the existence of a unique solution .
+LuNN and since removed HILBEBT'S restriction to a special type of molecule , and by means of the transformed equation PIDDUCK has worked out a numerical solution of a special problem on diffusion .
+These researches are of much importance and interest , especially from the logical standpoint of the pure mathematician .
+The use of BoLTZMANN'S equation , howevever , does not appear to be the best method of actually the formal solution ; thus PIDDUCK states that the symmetrical kernel of the transformed equation shows no special properties in the case of Maxwellian molecules , and in the numerical solution it appears to be necessary to repeat all the calculations , which are very laborious , every special case which is worked out .
+In 1911 , by the assumption of a simple form for the velocity-distribution function , I endeavoured to extend MAXWELL'S accurate theory of a gas to molecules of the most general kind compatible with spherical symmetry .
+Subsequent acquaintance with ENSKOG'S work convinced me of the approximate nature of my results , and during the last few years I have given much thought to the determination.of the general velocitydistribution function .
+By a method which is quite distinct from that based on AXWELL , Scientific Papers , ' II .
+, p. 23 .
+Molecules which are point centres of force varying inversely as the fifth power of the distance will , for the sake of brevity , be ferred to as lian molecules .
+BOLTZMANN , ' Vorlesungen uber Gastheorie , ' I. , p. 114 .
+ENSKOG , ' Physikalische Zeitschrift , 'XII .
+, 58 , 1911 .
+S HILBERT , ' Math. Annalen , ' 1912 , or ' Linearen Integralgleichungen ' Teubner ) , 1912 .
+LUNN , 'Bull .
+Amer .
+Math. Soc 19 , p. 455 , 1913 .
+PIDDUCK , ' Proc. Lond. Math. Soc ( 2 ) , 15 , p. 89 , 1915 ; cf. p. 95 for the statement quoted .
+CHAPMAN , ' Phil. Trans , vol. 211 , p. 433 , 1911 .
+OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+281 equation , viz. , by the use of the aggregate of the equations of transfer for certain infinite sequences of functions of the molecular velocities , an expression for the velocity-distribution function similar to that found by ENSKOG can be obtained , and general formulae for the coefficients can be determined .
+The present paper contains the solution for a gas in which the mean velocity and the temperature vary from point to point , the results being worked out at all completely only for the case of a simple gas ; in a later paper I hope to give the solution in the most general terms , so as to yield a complete theory of viscosity , thermal conduction , and diffusion in a composite gas formed of two kinds of spherically symmetrical molecules of any type .
+The formulae obtained by the present method lend themselves to numerical calculation , and are found to converge rapidly .
+The results for any particular molecular model can be calculated to any desired degree of accuracy ; in this paper three special types of molecule have been considered , , point centres of force varying inversely as the power of the distance , rigid elastic spheres , and rigid elastic ttracting spheres .
+It is found that , for such molecules , the errors in the approximate formulae for viscosity and thermal conduction which were given in my first paper do not exceed two or three per cent. at most .
+The detailed numerical results , and comparison with observed data , are given in SS10-12 .
+S2 .
+DEFINITION AND PRELIMINARY CONSIDERATION 0F THE PROBLEM .
+The Nature of the Gas .
+S2 ( A ) .
+The gas contemplated in our calculations is monatomic and nearly perfect , " " monatomic\ldquo ; implying nothing more than spherical symmetry of the molecules , while " " nearly perfect\ldquo ; denotes a certain state as ards density and temperature ; this state is such that the molecular paths are sensibly rectilinear for the majority of the time , being altered by mutual encounters , the duration of which is a very fraction of the average interval between two encounters .
+In these circumstances the number and effect of encounters in which more than two molecules are simultaneously engaged is negligible in comparison with the number and effect of binary encounters .
+The gas is supposed to be acted upon by external forces , and the variations of these forces , and of the density , mean velocity , and temperature of the gas , with regard to space and time , are small quantities of the first order at most .
+In the present paper the density of the gas is supposed such that the mean length of path of a molecule between collisions is small compared with the scale of the space-variation of the above quantities ; the modifications of the theory in the case of highly rarefied gases , where the mean free path becomes large , will be dealt with in a future paper .
+As we are not interested in the mass motion or acceleration of the gas as a whole , but only in the small variations with regard to space and time , it is convenient to imagine that , by the addition of a suitable uniform motion and field 282 DR. S. CHAPMAN ON THE LAW OF DtSTRIBUTION OF MOLECULAR of force to the whole gas , the mean velocity and acceleration at the and time under consideration are reduced to zero , the velocity and other points throughout the gas being small , though not actually zero .
+Notation .
+S2 ( B ) We shall denote the mass of a molecule by , the number of molecules per unit volume at the point by , the components of external force acting on a molecule at by , the components of the velocity of a typical molecule by , and the components of the mean velocity of the gas at the point by .
+The vector difference between the velocity of a typical molecule and .
+the mean velocity will be called the peculiar velocity of the molecule ; we shall denote its components by , so that ( 1 ) The Distribution of Velocities .
+S2 ( C ) The distribution of the molecular velocities may be specified by together with a function , called the velocity-distribution function , which is defined by the following property : the number of molecules contained within a volume-element dxdydz about the point which possess peculiar velocities whose three components lie respectively between and is ( 2 ) Besides being a function will depend on the mass , the absolute temperature and its space derivatives at the point , and on the space derivatives of , but not on the absolute magnitudes latter : for we may evidently impart an arbitrary additional velocity to the whole mass of gas without affecting the distribution of the peculiar velocities of the molecules at any point .
+It is therefore legitimate , and it will prove convenient , to suppose that , at the actual point under consideration , ; where occur in any expression which has to be differentiated , however , they must not be made equal to zero till after the differentiation has been performed .
+In consequence of the definition of and of must satisfy the following equations :\mdash ; ( 3 ) ( 4 ) Wf O. THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+283 If denotes any function of the velocity components of a typical molecule , while denotes its mean value at the point , we have ( 5 ) in which , for purposes of integration , would be expressed in terms of by ( 2 ) .
+In the integrals ( 3 ) to ( 5 ) , and elsewhere throughout the paper , integrations with respect to the velocity components are understood to be taken over all values of the variables , from The equations ( 4 ) may , in the notation just introduced , be expressed as follows:\mdash ; ( 6 ) The Velocity-distribution Function for Uniform Gas .
+S2 ( D ) When the gas is uniform , all the derivatives of and of are zero , and must depend only on , and .
+It has , in fact , been shown by MAXWELL and others*that ( 7 ) where ( 8 ) and is the universal gas constant in the characteristic equation of a gas : ( 9 ) The Distribution Function for Non-uniform Gas .
+S2 ( E ) When the gas is slightly non-uniform , will differ slightly from the value given by ( 7 ) , which we shall denote by : we may therefore write ( 10 ) The function will be of the same order of magnitude as the variations of temperature and velocity in the gas ; these space derivatives we shall regard as being of the first order , and as we shall neglect second order quantities throughout our work , no products of derivatives will occur in F. Hence , since vanishes when the variations in the gas are zero , it must be a linear function of the space derivatives of and , with no term independent of these derivatives .
+The coefficients will be functions of , and , W. Clearly the form of cannot depend upon any special choice of axes of reference ( these are throughout taken to be mutually perpendicular ) , so that is an invariant *Cf .
+JEANS ' ' Din amical Theory of Gases .
+' with respect to any orthogonal transformation of the co-6rdinate axes .
+This places some restriction upon the possible modes of occurrence in of and of the space derivatives of and , though not , of course , on the scalar quantities and T. It is easy to see that the most general invariant function of the quantities involved in must be compounded of the following elementary invariants:\mdash ; ( ll ) ( 12 ) , ( 13 ) ( 14 ) , together with derivatives of the last four expressions formed by operating on them any number of times by the invariant differential operators and , in the ation of ( 13 ) and ( 14 ) .
+, 191.\mdash ; Except in the case of highly rarefied gases , which were expressly excluded in S2 ( A ) , only the derivatives of the first order actually occur in , to the present degree of accuracy .
+The reasons for this will perhaps be more clearly apparent after reading S11 , but the following considerations will elucidate the point .
+derivatives are contained in must ( S11 ) appear either in the equation of pressure or the equation of energy , so that , if the ordinary equations of viscosity and thermal conduction are to hold good , only the first-order space derivatives of temperature and mean velocity can be present ; otherwise the ordinary coefficients of viscosity and conduction do not exist .
+In actual gases at normal densities the ordinary equations are shown by experiment to be valid ; they fail , however , in highly rarefied gases because the terms in which contain second-order differentials of are in this case comparable with those containing derivatives of the first order , as will be seen in detail in the future paper mentioned in S2 ( A ) .
+The coefficients of the first and second order derivatives respectively contain and , where is the mean free path of a molecule and is comparable with the scale of length within which the temperature and mean velocity vary appreciably ; except in rarefied gases can be neglected in comparison with .
+The same inferences be made also ( cf. S6 ) from the equations of transfer of S3 .
+For the present paper it is therefore sufficient ( and it is convenient ) to write down the following form of forthwith:\mdash ; ( 16 ) , THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+285 this being the only way in which the first-order derivatives can occur in , in order that may be an invariant .
+Here , , denote certain undetermined functions of , in which these variables appear only in the form or .
+The first term of is evidently of odd degree in combined , and the second and third are of even degree ; it is convenient to denote them by and , when we wish to refer to the odd or even part of separately .
+] It is easy to see that , in a uniform gas , satisfies the necessary conditions ( 3 ) , ( 4 ) .
+In the non-uniform case these conditions require to satisfy the equations ( 17 ) ( 18 ) O. Clearly the odd part of satisfies ( 17 ) , and the even part satisfies ( 18 ) , but not vice versi , so that these equations place certain restrictions on and E. S3 .
+THE EQUATION 0F TRANSFER 0F MOLECIJLAR PROPERTIES .
+S3 ( A ) The rate of change , the aggregate value of per unit volume , may be analysed into three parts , viz. , that due to molecular encounters ( which we denote by ) , that due to the passage of molecules in or out of the volume-element considered , and that due to the action of the external forces .
+The equation expressing this analysis may readily be shown*to be ( 19 ) We may define by the statement that is the change produced by molecular encounters during time the sum taken over all the molecules in the volume-element dxdydz : evidently If in ( 19 ) we make equal to unity , in which case is clearly zero , the equation becomes , which is the equation of continuity .
+Cf .
+JEANS ' ' Dynamical Theory of Gases .
+' Except under the differential sign we shall write , since we are supposing that at the point .
+The last equation consequently reduces to ( 20 ) .
+In taking mean values of functions of , as in ( 5 ) , we shall neglect the part in the velocity-distribution function , in cases where the mean value iS to be differentiated or multiplied by a small factor , since the resulting error is only of the second order .
+* Thus , in such cases , we shall write ( 21 ) ( 22 ) while , if either or is odd , ( 23 ) Since the equation of transfer involves derivatives of the first order only , it is sufficient , whenever the mean value of a function of is to be differentiated , to expand it by TAYLOR'S theorem in terms of , so far as the first degree only ; if , then , the coefficient of is of type ( 23 ) , the corresponding term may be omitted altogether .
+Case I. S3 ( B ) When , according to the principles just laid down we have *Except in gases of very low density .
+THEORY OF VISCOSITY AND THERMA CONDUCTION , IN A MONATOMIC GAS .
+287 neglecting in each case quantities of the second order .
+Since is of the first order , to the same degree of accuracy as in the above equations , we have Again , writing after differentiation , we have .
+Here we have omitted and , since when multiplied by X , which is of the first .
+order , the result is of the second order , and hence ible .
+Similarly The equation of transfer consequently takes the form ( 24 ) en , this becomes X. Now the rate of change of momentum per unit volume due to the molecular encounters , and , since action and re-action are equal and opposite , this change is zero .
+Hence we have , rememberin that ( 25 ) which is one of the equations of pressure of the gas .
+On substituting the value of X given by ( 25 ) into ( 24 ) , the latter may be written ( 26 ) where we have used the equation ( cf. 8 ) There are two equations similar to ( 26 ) giving and in terms of and CCXVI .
+Case II .
+S3 ( C ) Making approximations and ductions as in Case I. , we have The equation of transfer may therefore be written ( 27 ) When , this becomes If to this be added two similar equations giving and , on the left-hand side we have , which is the rate of change of molecular energy due to encounters ; by the principle of conservation of energy this is zero , so that by ( 20 ) , ( 28 ) .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+) On integration this gives constant , or , since , it is equivalent to constant ; this is the law of adiabatic expansion for a gas which possesses only translational energy .
+Eliminating and from ( 27 ) by means of ( 20 ) and ( 28 ) , we have ( 29 ) or ( 30 ) By transformation of axes , or otherwise , we may deduce the equation ( 31 ) .
+S4 .
+THE EFFECT 0F MOLECULAR ENCOUNTERS .
+S4 ( A ) In this paper our primary concern is with simple gases containing molecules of one kind only ; the difficulties are much enhanced when molecules of two kinds are present , especially as regards the equations of transfer , and the final determination of the coefficients of when has been calculated .
+These matters will be dealt with in a future paper , on diffusion and the general theory of composite gases .
+In the calculation of , however , there is scarcely any advantage in making the restriction to one kind of molecule only , and it is convenient to carry out the calculation for a composite gas in order that the results may be quoted without repetition in the later , more general , investigation .
+The notation of S2 may be adapted to the case of a composite gas without further change than the addition of suffixes 1 , 2 to denote to which group of molecules a symbol such as refers .
+The mean velocity of the two groups will be supposed the same , so that is the same for both , either separately or together ; similarly , their temperature or mean , and their relative densities are supposed constant .
+All the remarks made concerning and hold both for and , and and , these being functions respectively of and ; they may each now be expected to involve and in addition to the quantities mentioned in S2 .
+A further important consideration which did not arise there is that and , or and ars ; in the sense that either may be obtained from the other by interchanging the suffixes 1 , 2 .
+Notation for an Encounter .
+S4 ( B ) Before proceeding to the actual consideration of the dynamics of an encounter between two molecules , it is convenient to explain the notation to be used .
+The symbols , and are defined as follows:\mdash ; ( 32 ) ( 33 ) ( 34 ) so that ( 35 ) ( 36 ) Velocities will be represented either by their components or in vector notation .
+The components of the actual velocities of the molecules will be written , while those of other velocities , such as the velocity of the mass-centre or the relative velocity , will be written .
+The amplitude of a velocity will be denoted by , and the vector itself by the same symbol in small type with a bar beneath , The velocities of the molecules .
+and of will be distinguished by the respective suffixes 1 , 2 , , while the suffix , similarly , will indicate reference to the molecular velocities relative to or to one another .
+As regards time , square brackets enclosing a symbol , such as , will indicate reference to some particular ( arbitrary ) instant during the encounter ; a symbol without brackets but with an accent will refer to any instant after the encounter , *while when there is neither bracket nor accent it will refer to any instant before the encounter .
+Analysis of the ltIotions in an Encounter .
+S4 ( C ) In the above notation the initial and final molecular velocities are respectively and , or , and , ; also ( 37 ) That is , any instant after the molecules have separated beyond the distance ( which in actual gasoe is , at most , very small ) at which their inter-action is appreciable ; the words " " before the encounter\ldquo ; are to be interpreted a sense .
+In this sense the velocities of the molecules hfore and after the encounter are definite and THEORY OF VISCOSITY Ah'D THERMAL CONDUCTION , IN A MONATOMIC GAS .
+291 where all have the same suffix 1 , with or without an accent Similarly , the mass-centre has the velocity or , and since ( by the principle of conservation of momentum ) this remains invariable throughout the encounter , have ( 38 ) or Since , by ( 38 ) , ( 39 ) where is defined by the equation ( 40 ) we see that the momentum of the molecules , relative to , is equal in magnitude but opposite in direction in the two cases , its value being .
+The relative velocity of the two molecules is , by ( 40 ) , equal to ; this varies throughout the encounter , owing to the inter-action of the molecules ; its initial and final values are given by ( 41 ) , which are special cases of ( 40 ) .
+Equations ( 38 ) , ( 41 ) , and the reciprocal equations ( 42 ) ( 43 ) indicate that or are equivalent to or , as specifications of the initial or final velocities of the molecules .
+Hence the problem of determining the final velocities of two molecules after an encounter , in terms of the initial velocities and whatever further independent variables are necessary to define the encounter , is equivalent to the determination of in terms of and the variables of the encounter .
+Thus , in consequence of the invariability of , the velocity of the masscentre , we need only consider the motion relative to , i.e. , the motion referred to uniformly moving axes with as origin .
+* We here suppose that the effect of the external forces during the brief iIlterval of c/ lcouutel is negligible ; this is kgitimate if the gas is " " nearly perfect\ldquo ; ( cf. S2 The Motion Relative to the Mass-centre .
+S4 ( D ) Relative to these axes the molecules are initially moving along parallel lines with equal and opposite momenta , by ( 39 ) .
+The plane containing these two lines is clearly the plane in which the inter-action and motion of the molecules will take place during the encounter .
+It is parallel to , but its orientation about this direction is independent of , i.e. , it is one of the additional variables needed to specify the encounter , and , similarly , so also is the perpendicular distance between the initial lines of relative motion .
+It is convenient to measure from the plane containing and In the plane of relative motion so defined , the molecules describe orbits which are similar to one another ( the origin being the centre of similitude ) , and symmetrical about the line of apses ( i.e. , points of closest approach ) .
+Each orbit has two asymptotes , one being the initial , the other the final line of motion ; the distance between the pair of final asymptotes is clearly equal to that , , between the initial asymptotes .
+The angle between the two asymptotes of either orbit measures the deflection of the relative motion due to the encounter ; for molecules of given types it is a function of and only , the nature of the function depending on the law of inter-action between a molecule and a molecule .
+We shall find it convenient , for the sake of generality as well as of brevity , to retain as an unspecified function of and in our equations ; the special properties of the molecules under consideration are , throughout our work , involved only through the dependence of on and It is easy to see that the magnitude of the relative velocity is unaltered by the encounter , ( 44 ) : for by the equation of energy we have ( 45 ) by ( 42 ) .
+Th.e Velocities in Spherical Polar Co-ordinates .
+S4 ( E ) The above analysis of a molecular encounter may be made clearer by the following figure , in which are the points in which a unit sphere That is , on and on the of the vector THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+293 centred at is cut by radii parallel respectively to the co-ordinate axes and to and .
+Then we have ( 45A ) It is convenient also to use certain spherical polar co-ordinates , as follows , taking Ox , Oxy as initial line and plane for and , and , or for Thus we write ( 46 ) Ox , ( 47 ) Evidently we have ( 48 ) ( 49 ) ( 50 ) Expressions for the Velocities After an S4 ( F ) We have thus indicated how the final molecular velocities are to be determined ( cf. 43 ) in terms of the initial velocities ) or .
+together with ( these being the eight independent variables of an encounter ) .
+This has been done by showing how depends upon and ; it has in fact been shown that the spherical polar co-ordinates of , referred to and the plane as initial line and plane , are ( a function of and ) and .
+Hence we may at once write down the expressions for the initial and final velocities and velocity of and , as follows:\mdash ; ( 51 ) , , , ( 52 ) where we have adopted the convenient notation*defined by ( 53 ) Equations ( 51 ) to ( 53 ) are merely particular cases of ( 42 ) , ( 43 ) , expressed in terms of amplitudes and of -components ( 52 ) .
+The latter might also have been written in terms of the components of and , as , for example , ( 54 ) by ( 49 ) , writing , , for the components of Equations similar to ( 53 ) , ( 54 ) may easily be written down also for the and components of the velocities .
+The Dependence of on S4 ( G ) From ( 51 ) and ( 54 ) it is clear that any function of is a function of and , or of since is involved only through ( though is not entirely independent of the preceding six variables , since it depends upon ) .
+If be regarded as a function of , when is made equal to zero it reduces to simply : this may be seen either from ( 51 ) or , still more readily , from the figure on p. 293 , since when becomes identical with , and hence by ( 42 ) , ( 43 ) , so also does with nsformation of S4 ( H ) In S5 we require the Jacobian of transformation between the initial and final velocity components , and being constant : Since the motion during an encounter is reversible , the relation between the two sets of velocity In S7 , for the sake of brevity , we shall write respectively for , and ( eos THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+295 components is reciprocal , so that .
+It may readily be seen that the positive sign is the correct one , by considering a particular case of variation , say .
+This is equivalent to the addition of a small velocity to the whole system ; obviously this will reappear in the final velocities , so that also .
+In this case , and therefore always , have , so that ( 55 ) With a little more trouble this might also be proved analytically from the equations of this section .
+From the component equations corresponding to ( 42 ) , ( 43 ) , i.e. , from ( 56 ) ( 57 ) it is easy to prove that ( 58 ) Hence , by further transformation to polar co-ordinates , we have ( 59 ) Since is essentially positive , the negative sign on the right of ( 59 ) must be made positive , if the limits of , and in each case are taken as to to , and to respectively ; it may readily be seen that the negative sign corresponds to reversed limits of integration of one of the variables S5 .
+THE GENERAL F0R Definition of and S5 ( A ) The rate of change of due to molecular encounters , i.e. , , may be divided into the two parts due respectively to the encounters of the molecules among themselves , and those with molecules .
+Thus ( 60 ) We shall chiefly consider , whence may be obtained by changing the suffix 2 into 1 throughout .
+VOL. COXVI .
+The Expression for S5 ( B ) The number of molecules having velocity components lying between the limits and is , by our definition , equal to per unit volume .
+The number of encounters in time of any one of these , with a molecule having velocity components lying between the limits and , the variables of the encounter lying between and , is equal to the number of such molecules contained within a small cylinder of length and of sectional area , i.e. , to Thus the total number of encounters of the above type , per unit volume per unit time , is ( 61 ) At each such encounter the change in the value of is clearly ( 62 ) , or , as we shall write it for brevity .
+We shall include the effect of all possible encounters per unit volume per unit time if we integrate the product of ( 61 ) and ( 62 ) over all values of , to and , ( each from to ) .
+Such an integration will include encounters which are not binary , but our postulate that the gas is nearly perfect ( S2 ) implies that our integral would be altered only inappreciably if the upper limit of integration for were not infinity but equal to the very small distance at which two molecules cease to exercise any appreciable inter-action .
+Hence , throughout this paper , where no limits of integration are specified , it is to be under- stood that they have the above values .
+Thus we have ( 63 ) The term in the integrand may be written ( 64 ) where , in the first line , we have neglected , which is a second-order quantity , while in the second line we have made use of ( 45 ) .
+THEORY OF VISCOSITY AND THERMAL CONDUOTION , IN A MONATOMIC GAS .
+297 The unit terrn in may be omitted .
+S5 ( C ) It is easy to show that the part of ( 63 ) which arises from the unit term of in ( 64 ) is zero .
+For it may be written in the form where Now by ( 45 ) and ( 55 ) the latter is equal to ( 65 ) But the latter two integrals are equal , since they are definite integrals differing only in the symbols used to denote the variables .
+Hence ( 65 ) is zero , and the unit term in may be omitted from The same result can be seen in another way : the part of under consideration is that obtained by putting in , i.e. , .
+it is equal to the value of in a uniform gas .
+In a uniform gas , however , as we may see from the general equation of transfer ( 19 ) , , whence the result follows at once .
+If is of odd degree , the even part of contributes nothing to vice versa .
+S5 ( D ) We may now , therefore , write in the following form , transforming the variables , to , , by ( 56 ) , ( 58 ) .
+( 66 ) We here suppose the functions and expressed in terms of the new variables and ( in the case of ) and ( or ) .
+We are concerned both as regards and only with terms which are integral in the variables ; in reckoning their degree we shaU make no distinction between and , \amp ; c. , or between and , *\amp ; c. Then since the equations of transformation ( 56 ) are linear , any term in transforms into the sum of a number of terms such that This is not true in the case of , since ( by 54 ) are not rational functions of the variables , but it true of , since the integration with respect to causes an the irrational terms in to disappear .
+This may be proved quite generally , but it will be sufficient here to indicate the proof for the case being any positive integer .
+We may write where so that X is of the first degree in or , and is of even degree in the variables , , .
+The only terms in which do not vanish on integration with respect to are of the form or Now we have which is an even function of , and caIJ be included under the symbol Thus , on integration with respect to , the above expressions become ( apart from a factor not involving explicitly ) and by ( 50 ) the latter may be written Both these expressions , and consequently as a whole , are of the form in the sense above defined .
+Similarly it may be shown that is even in all three variables , , .
+* So that , for instance , and will all be regarded as even functions of The explicit occurrence of in is here referred to ; the latter may involve irrationally through THEORY OF AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+299 In the integrand of ( 66 ) , the exponential term and ( whether occurring as an explicit factor or implicitly in ) are even functions of X , , Z. Hence a term such as in will contribute nothing to unless and u fortiori are all separately even .
+In view of what has been proved above , therefore , it appears that in only the terms which are even in separately contribute anything to Hence if is odd in , only the part of which is likewise odd in need be considered , while if it is even in , only the even part of need be considered .
+Introduction of .
+S5 ( E ) We now make the final transformation of by adopting polar co-ordinates in place of , , as follows:\mdash ; ( 67 ) where ( 68 ) ( 69 ) Evidently ( cf. S4 ( G ) ) the latter is obtained when is made zero in , since is not concerned in the integrations of ( 68 ) , ( 69 ) , being a function of and only , while when we have .
+Hence , in calculating we shall concern ourselves only with until we come to the integration with respect to .
+In so doing we shall , from the outset , omit from those parts which , in accordance with S5 ( D ) , contribute nothing to the final result .
+S6 .
+THE FORM 0F THE FUNCTION .
+The two special forms of which we consider are and ; the only parts of which are relevant in these cases are respectively the part of , which is even in V and , and ; the notation here used is that of S2 , p. 283 .
+From ( 26 ) and ( 30 ) we see that ' involves the space derivatives of mean properties of the gas only in the form , while similarly involves only .
+We deduce from this that must certainly include the term ( 70 ) , and that must similarly include the term ( 71 ) , where ( 72 ) , .
+The factor of in ( 71 ) is equal to , by ( 12 ) and ( 15 ) , and is therefore an invariant with respect to an orthogonal transformation of axes .
+Further since , by ( 26 ) and ( 30 ) , no other derivatives of and occur in or , we conclude that none such appear in \mdash ; at any rate , to our degree of approximation ; thus the other terms in ( 12 ) , while they possess the ariant property , do not satisfy the other conditions which must be fulfilled by .
+We therefore conclude that is composed only of ( 70 ) and ( 71 ) to our order of accuracy , and we shall suppose that the two functions are expansible as power series in .
+Throughout this paper we shall assume that all convergency conditions necessary for the validity of our analysis are satisfied ; the justification of this assumption would offer serious difficulty , and the investigation would lead us into regions of pure mathematics which are largely unexplored , and would be unsuitable the present paper .
+In S10 we shall see that numerical approximations for the most important molecular models confirm the assumption of convergence sufficiently for our purpose .
+It is convenient to write our expression for in the form ( 73 ) In the first line , when , the factor in the denominator is to be omitted .
+The suffix 1 or 2 must be added to when we wish to distinguish between and Since , by ( 72 ) , ( 74 ) THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+301 it is easy to see that ( 18 ) is satisfied by this form of , while in order to satisfy ( 17 ) we must have ( 75 ) The products are quite definite , but and can evidently be assigned arbitrarily ; we shall decide that their values , though unspecified for the present , are alike for and The above expression for is equivalent to that obtained by ENSKOG ( S1 ) , by an entirely different method .
+But the chief difficulty of our problem , and one hitherto unsolved , lies in the determination of the coefficients and ; this is effected in the present paper by means of S7 .
+THE CALCULATION 0F S7 ( A ) In calculating we shall deal chiefly with ( cf. S5 ( A ) and ( 67 ) ) .
+The particular forms of which we shall consider are ( 76 ) ( 77 ) In accordance with S5 , the only part of which is relevant to is ( 78 ) while that which alone concerns is As to the latter , since the remainder of the integrand of ) is symmetrical with respect tV and , the parts of this integral arising from and in ( 79 ) are equal , so that can be replaced by , by ( 74 ) .
+Hence for our purpose ( 79 ) is equivalent to ( 80 ) We shall denote by the part of which arises from the term in , and by the part arising from the corresponding term of , in each case the numerical and other factors in being excluded .
+* The corresponding portions of will be denoted by I and I respectively .
+Then ( 81 ) I ( 82 ) I ( 83 ) ( 84 ) The similar quantities relating to ) will be denoted by , and , respectively , so that ( 85 ) ( 86 ) ( 87 ) ( 88 ) * We have here indvded a factor which not occur in ; this will be allowed for subsequently .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A GAS .
+303 The Integration with respect to S7 ( B ) In and it is clear from ( 48 ) to ( 53 ) that !
+does not appear at all in the integrand , while and occur only in the products respectively .
+We have , and , remembering the values of and , we have In the notation of ( 53 ) the latter two equations may be conveniently vritten as follows:\mdash ; Substituting in ( 81 ) and ( 82 ) , we thus have ( 89 ) I ( 90 ) I S7 ( C ) In the case of , we have ( 91 ) in which ( cf. the figure on p. 293 ) Ox. In the integration over the sphere , with respect to and , since are constant the triangle preserves its form , so that we may , if we please , regard as the variable point and as fixed .
+Now it may readily be proved , by the method of " " poles\ldquo ; in the theory of harmonic functions , that if are three fixed points on a unit sphere , and a variable point , then the integral over the spherical surface of PA PB PC is AB ACcos .
+VOL. CCXVI .
+Applying this result to ( 91 ) , identifying with one or more of the points , and with , we may with but little difficulty prove that Similarly we may show that so that Hence we have ( 92 ) and it may be proved in a similar manner that ( 93 ) The of in Series .
+S7 ( D ) In order to effect the integration of I and with respect to and we must have recourse to the expansion of ( 94 ) in a series of LEGENDRE'S functions .
+In a recent pape I have shown that ( 95 ) , where is the ordinary LEGENDRE'S function of , of type , and ( 96 ) , 'Quarterly Journal of Mathematics , ' p. 16 , 1916 .
+The expansion is thero not limited to integral values of , though these are alone considered in the present paper .
+The constant is necessarily a positive integer ; if ) THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A GAS .
+305 In the last equation the symbol , where is integral , is defined thus : ( 97 ) .
+From ( 53 ) it is clear that ( 98 ) , ( 99 ) , where we have written , for brevity , ( 100 ) .
+In our expressions for takes the values and , and the variable is involved only through the latter angle , which occurs in , or .
+In the expansion of the latter ( cf. 98 ) in terms of , or , by ( 48 ) , of , we shall make use of the following well-known formula in the theory of spherical harmonic functions:\mdash ; ( 101 ) . .
+Integration respect to S7 ( E ) Since the integral with respect to , between and , is zero unless , from ( 98 ) and ( 101 ) we deduce the result , ( 102 ) Now from ( 89 ) , ( 90 ) , and ( 92 ) , ( 93 ) , it is evident that as .
+as concerns integration with respect to and , we have to consider a number of terms such as ( 103 ) where may have the suffix ] or 21 , while always has the suffix 12 .
+Now ) does llot involve , so that ( 102 ) suffices for the integration with respect to , and leaves us with ( 104 ) 2 .
+in place of ( 103 ) ; in the first bracket the ambiguous sign is to be the case of , and \mdash ; in that of By the theory of LEGENDRE'S functions we have if Consequently ( 105 ) , ( 106 ) , where the upper limit of is the lesser of the two integers Applying these results to ( 89 ) , ( 90 ) , ( 92 ) , ( 93 ) , we have , therefore , ( 107 ) I , ( 108 ) I ' , ( 109 ) , ( 110 ) .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+307 The Integration respect to S7 ( F ) On referring back to equations ( 81 ) to ( 88 ) it is clear that before executing the integration with respect to , in the calculation of and , we must subtract from I and , as given by ( 107 ) to ( 110 ) , their values corresponding to .
+Now when , we have Thus where occurs alone in ( 107 ) to ( 110 ) , it must be replaced by in the expressions for and , the terms and remaining unchanged , since the corresponding terms in I and vanish .
+The variable is involved in ( rs ) and ( rs ) only through and the latter being also a function of .
+We may therefore formally execute the ratioI ) with respect to by writing ( 111 ) ( 112 ) ( 113 ) pdp .
+The nature of these functions depends on the law of inter-action between molecules at collisions , and by keeping this law unspecified we retain the utmost generality in our theory , which implies no property of the molecules save that of spherical symmetry .
+By means of the well-known equation ( 114 ) the function can be expressed in terms of , for different values of as follows:\mdash ; ( 115 ) , and by a repeated application of ( 114 ) we may obtain a similar expression ( involving for ) for .
+To avoid unnecessary formulae , we shall not write down the forms taken by and ( rs ) on substitution of the results of this section till after we have considered the next step in the integration .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+309 ( 122 ) The symbol in is defined by the equation ( 123 ) The integration with respect to in the above expressions is of a quite elementary ature , but it will not be executed in general terms owing to the complexity of the polynomials , which are integral in .
+Any individual term in the integrands of ( 119 ) to ( 122 ) is of the form ( so far as concerns x ) ( 124 ) The integration with respect to will similarly not be executed in general ; in any case , owing to the unspecified functions , this integration could be only formally completed , and until we come to consider special types of models we shall be content to leave and in the above form .
+Complete Expression S7 ( H ) On referring back to S7 ( A ) , and the definition of ) , , it is clear that we are now able to write down the complete expressions for in the two cases we have considered .
+This involves taking into account all the terms in , with their appropriate coefficients , as in ( 78 ) , ( 80 ) ; and in order tc make the expressions more symmetrical , it is convenient to change the values of slightly , by multiplying them by certain numerical factors ( cf. 26 , 30 ) .
+writing ( 125 ) ( 126 ) we have the following equations for in the two cases under consideration:\mdash ; ( 127 ) ( 128 ) The corresponding values of in the two cases are obtainable from ( 127 ) , ( 128 ) by replacing the suffix 2 by 1 throughout .
+We will write and respectively for the values taken by and when the distinction between the suffixes 2 and 1 in these expressions is abolished .
+In place of and we now write , and , while and become identical , and equal to ( 129 ) .
+to express and in terms of only , eliminating and by means of ( 115 ) and a similar equation for .
+When this is done it is found that the coefficient of vanishes for odd values of , on account of the factor in and .
+The following are the results .
+thus obtained* :\mdash ; ( 130 ) ( 131 ) * In these expressions ) is the equivalent , for an encounter between two molecules of the same kind , of for molecules of different kinds .
+Thus ( cf. 111 ) where the law connecting with and may differ fromthat for .
+Also now becomes TfflORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+311 The term corresponding to is absent in both the above cases , since is itself zero , so that is the function of lowest order in or .
+The upper limit of in the case of is equal to the integral part of the lesser of the two quantities ; this is denoted by .
+Similarly the upper limit of in the case of is the integral part of the lesser of the two quantities and , which we denote by Thus , when or We can now write down the complete expressions for , in the two cases above , as follows:\mdash ; ( 132 ) ( i33 ) In the present paper we are concerned with the application of these formulae only to simple gases , in which and hence It is convenient to write the reduced equations in the following form : ( 134 ) ( 135 ) In ( 134 ) we have substituted for in ( 132 ) , multiplied by , and used the notation given by ( 136 ) ; the first term in ( 132 ) , with factor , vanishes , since .
+Similarly in ( 135 ) we have written ( l37 ) .
+S8 .
+THE EXPRESSIONS FOR THE COEFFICIENTS 1N THE VELOCITYDISTRIBUTION FUNCTIONS .
+S8 ( A ) We have now obtained expressions for , the rate of change of a function of the molecular velocities due to encounters , in two different ways : in S3 was found from the equation of transfer , while in SS4-7 it has been determined by direct calculation .
+By comparison of ( 26 ) and ( 134)\mdash ; substituting for in the former \mdash ; and of ( 30 ) , ( 72 ) and ( 185 ) , we deduce from these different expressions for the VOL. CCXVI . .
+2 312 DR. S. CHAPMAN ON THE LAW OF DISTRIBUTION OF MOLECULAR VELOCITIffl , following linear equations connecting the unknown coefficients in the velocitydistribution function:\mdash ; ( 138 ) ( 139 ) Th. es are true for all values of from to , the coefficients .
+and being completely determined , in terms of the molecular data , by ( 130 ) , 131 , ( 137 ) .
+If we assume that certain convergency conditions are satisfied ( 138 ) and ( 139 ) lead ( in the way usual in the case of a finite system linear equations ) to the following expressions for and ( 140 ) , where and denote the infinite determinants formed from the arrays and , thus , and , denote the determinants obtained by replacing each element of column ( r ) in and respectively by unity .
+The General Expression for the yelocity Distribution Funciion .
+S8 ( B ) This completes our solution of the fundamental problem of this paper , i.e. , the determination of the velocity-distribution function for a " " nearly perfect\ldquo ; simple gas , composed of monatomic molecules of the most general type , and which is slightly non-uniform as regards temperature and mass-velocity .
+The solution will be sum marized as follows ( cf. ( 10 ) , ( 73 ) ) ( 142 ) *The suffix 1 throughout these equations may now be omitted .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+313 where \amp ; c. , are given by ( 72 ) .
+The coefficients and , for to are given by ( 140 ) , where ( cf. ( 136 ) , ( 137 ) , ( 130 ) , ( 131 ) ) , ( 143 ) ( 144 ) where ( cf. ( 123 ) ) ( 145 ) and , by .
+( 111 ) , ( 146 ) where is the usual LEGENDRE'S coefficient , and is a function of and which depends S4 on the law of inter-action between two molecules at an encounter .
+The factors and are defined by ( 125 ) , ( 126 ) , while the functions , which are integral polynomials in and , with merely numerical coefficients , are defined by ( 129 ) and ( 96 ) .
+In the upper limit of denotes the integral part of the lesser of the two quantities The factors are , as yet , arbitrary ; we now assign to them the values determined by the equations ( 147 ) This makes and each equal to multiplied into a function of , i.e. , of the absolute temperature .
+The elements and the coefficients then become functions of the temperature only .
+The coefficient is not determined by the above equations , but is given ( cf. ( 75 ) ) by ( l48 ) .
+Properties of the , .
+S8(C ) On inspection of ( 143 ) and ( 144 ) it is evident that ( 149 ) so that and are symmetrical determinants .
+In expression ( 143 ) for , the variables of integration , and , are never negative , so that cf. ( 129 ) , ( 96 ) and are essentially positive ( or zero ) for all integral values of , and ; further , since never exceeds unity , is also always positive .
+It is evident , therefore , that .
+must be essentially positive if this can be proved true of ( 150 ) .
+Now ( 151 ) every term of which is positive .
+Interchanging and in ( 151 ) , and adding the result to the latter , we obtain ( 150 ) , which , with also , in consequence , is essentially positive .
+From ( 151 ) , moreover , it is clear that the numerical coefficients in ( 151 ) or ( 150 ) increase with or , and the same is readily seen to hold good also in the case of .
+As or increases , therefore , the nulnerical coefficients and the degree ( in and y ) of the integrand of ( 143 ) , while if both and increase , new positive terms are added to the integrand .
+Hence , provided that the functions satisfy certain simple conditions , steadily increases with or , and the consideration of even a single term of ( 151 ) or the integrand of ( 143 ) shows that this increase is without limit , i.e. , .
+tends steadily to infinity with or It is easy to see that the increase with of is less rapid than that of if is or steadily increases , though less rapidly than will steadily increase with or .
+But much less restrictive conditions might be devised , e.g. , ii decreases like , the above result still holds good THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+315 I have little doubt that , with rather more trouble , .
+could be shown to share the above properties of , but I have not made any serious attempt to prove this ; from the numerical calculations in S10 ( A ) it appears probable that the increase of with is more rapid than that of Properties of the First Row or Cotumn of and .
+S8 ( D ) The numerical values of and obtained in S10 suggest that many further general properties of these elements might be determined , with sufficient trouble , and that the convergence of the determinants and might thus be demonstrated .
+Owing to the considerable algebraic difficulties involved , however , I have so far made little progress towards the proof of such properties , except for the case when or is zero , i.e. , for the elements of the first row or column of and .
+It will be shown that ( 152 ) for all values of This will be proved as a particular case of the more general result that ( 152A ) when the lesser of and is even , and where , denote the parts of .
+and respectively which are due to a particular value of in ( 143 ) , ( 144 ) , while denotes the upper limit of , as usual , i.e. , or , whichever is the less .
+Thus if we suppose that , and that is even , takes the form ( 153 ) .
+When , this value of is unity , and , , which usually form only a part of , become the whole , so that ( 152 ) is the particular case of ( 153 ) corresponding to this value of Since is zero when either is less than , some of the terms , vanish .
+In fact , as may readily be seen from ( 143 ) , we have ( 154 ) ( 155 ) From ( 96 ) it is easy to see that ( 156 ) so that ( 157 ) By putting in place of in ( 157 ) , and adding times a similar expression in which replace in ( 157 ) , we also have ( 158 ) We now substitute the expressions on the left of ( 157 ) and ( 158 ) into ( 154 ) and ( 155 ) , and integrate with respect to by means of the well-known formula ( 159 ) ; we thus obtain the equations ( 160 ) ( 161 ) or , changing the notation so as to make the lower limit of zero , and inserting the values of according to ( 125 ) , ( 126 ) , i.e. , ( 162 ) we have ( 163 ) ( 164 ) THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+317 The ratio of these two expressions is given by where A is a quantity independent of and .
+When , as we have seen , and ) become identical with and respectively .
+Hence and since and have been chosen so that , the value of A must be unity .
+Hence , when is even and , with the consequence that as a special case .
+It is convenient to introduce the notation ( 165 ) so that if had the value unity , the value of would also be unity , by ( 159 ) .
+In terms of this notation ( 163 ) and ( 164 ) may be written as follows : \mdash ; ( 166 ) ( 167 ) By writing it is evident that ( 168 ) By giving to and in ( 166 ) , ( 167 ) the value zero , we have ( 169 ) whence , remembering that ( cf. ( 147 ) ) and are so defined as to make and each equal to unity , we have ( 170 ) .
+We will substitute these values into ( 166 ) , ( 167 ) , and write , in order to obtain expressions for and as follows:\mdash ; ( 171 ) where we have written ( 172 ) so that ( 173 ) It is of interest to examine also the successive difference of or , which we shall denote by or .
+We have ( 174 ) Then , from ( 172 ) , it is easy to see that since Hence ( 175 ) Similarly the difference of which is the part of or ) which depends on being even and is equal to Symmetrical Expressions for and S8 ( E ) While and are symmetrical , the derived determinants , are necessarily lacking in symmetry , and our expressions for and when we attempt to make successive numerical approximations to their values THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+319 for particular types of molecular models ( cf. S10 ) , appear not to converge at all rapidly .
+Fortunately , in our applications of the velocity-distribution function to the theory of viscosity and thermal conductivity , we need to know not the individual values of the 's and , but only the sums and ; for these it is possible to determine symmetrical expressions which are found , in practice , to be highly convergent .
+In what follows we shall use the symbol placed before a function of the integral variables ( such as or ) to denote the successive difference of this function with respect to and respectively .
+Thus When we substitute or for in the above formal expressions , any term with a negative suffix is to be omitted as being zero .
+Since the value of a determinant is unaltered by subtracting from the elements of any one row or column the corresponding elements of any other row or column , and since this process can be repeated indefinitely often , it is clear that from ( 141 ) , by subtracting the row from the , for all values of from 1 onwards , we have* ( 176 ) .
+The same process applied to , leads to determinants identical with and respectively , save that in ffie column all the elements are zero except the one in the first row , which is unity .
+Evidently , therefore , and are the minors of determinants which are respectively identical with and , except that in each case all the elements of the first row have the value unity .
+Consequently the sums and are equal to the sums of the minors of the two determinants just described , i.e. , they are equal to these determinants themselves .
+Thus , by ( 140 ) , ( 177 ) where we have ( 178 ) , .
+* When should be replaced by VOL. CCXVI.\mdash ; A. 2 X To the above determinants we now apply the same process of differencing .
+by columns which has already been applied by rows , and we thus obtain the equations ( 179 ) The determinants and are identical save in their first rows ; all the elements of the first row of the former are zero save the first , which is unity .
+Hence is equal to the principal minor of ; we shall denote it by .
+Hence , and with a similar notation for the principal minor of , we have* All these determinants have now regained a symmetrical form .
+It is convenient , partly for the sake of elegance , and also because it imparts a highly convergent form to the elements of our determinants ( cf. S10 ) to continue this process of differencing still further , as follows .
+We repeat the whole of the above operation of differencing by rows and columns an indefinite number of times , beginning now at the second row and column ( thus leaving unchanged the values both of and its principal , and afterwards successively at the next later row and column than on the previous occasion .
+The general element thus becomes or , and we have ( 180 ) where the dash denotes the principal minor of the corresponding determinant .
+These expressions could , of course , have been obtained directly by a -arrangement of the original equations of transfer , but it seems preferable to use the latter in the more simple , natural forms chosen , and to make this transformation by differencing in relation to the determinants formed by the elements S9 .
+CONSIDERATION 0F PARTICULAR MOLECULAR MODELS .
+S9 ( A ) While , as we have seen , certain general properties of the elements can be demonstrated without the assumption of any property of the molecules save spherical symmetry , it is possible to carry our investigations much further when we represent the molecules by particular models of simple type , such as point centres of force , or rigid elastic spheres .
+This involves , primarily , the examination of the functions .
+* When or is zero , the corresponding suffix of should also be written as zero .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+321 Molecules which are Point Centres of Force v.arying as S9 ( B ) When the molecules are point centres of force varying inversely as the power of the distance , the angle in the expression S 4 ( D)\mdash ; is given by the following ( 181 ) Here is the least positive root of the equation , and is a multiple of , thus , ( 182 ) where is a constant which measures .
+the intensity of force between two molecules at unit distance .
+Hence ( cf. ( 111 ) ) ( 183 ) where is a constant depending on and , but not on or ( i.e. , not on the absolute temperature ) .
+When this value of is substituted in our expressions for and , it becomes possible to execute the integration with respect both to and to in terms of gamma-functions .
+Thus ( cf. ( 165 ) ) ( 184 ) , so that ( 185 ) *Cf .
+S14 , p. 454 , of my former memoir , 'Phil .
+Trans , vol. .
+The of the formula there given is the relative velocity of two molecules , which in our notation is wheu the gas is simple .
+and ( 186 ) Hence the values assumed by and in this special case are as follows ( cf. ( 170 ) , S8 ( 187 ) From ( 186 ) we have , in the notation of the hypergeometric function .
+It may hence be shown , without much difficulty , that and steadily increase to infinity with , the rate of increase being comparable with that of Since the functions all depend on in the same way , it is clear that , with the above values of and , the elements and consequently , also , the coefficients and in the velocity-distribution function for molecules of this type , are independent of , i.e. , they independent of temperature .
+They are , indeed , pure numbers , depending only on the mass and on the force constant of the molecules .
+It is of interest to determine the value of the elements or of the outer row or column of , in this special case .
+We have , by ( 175 ) , , in the notation of hypergeometric functions , or , in terms of gamma-functions , ( 188 ) THEORY OF SITY ND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+323 As tends to infinity , the last expression tends to zero more quickly that and also it is alternately of positive and negative sign , after the first two terms ( both and being positive ) .
+Maxwellian Molecutes : S9 ( C ) It is now easy to see what are the special properties of the fifth-power law , the law obeyed by the molecules which we term Maxwellian , which enabled MAXWELL to work out the theory on this hypothesis with such great simplicity and accuracy .
+When , we have from ( 186 ) ( 189 ) which is of .
+Hence , by ( 170 ) , ( 171 ) , ( 172 ) , ( 190 ) ; ( 191 ) ; ( 192 ) From ( 191 ) and the equation we deduce that in this case the principal minors of and are equal to these determinants themselves , i.e. , ( 193 ) ( Maxwellian molecules ) , while from ( 190 ) it appears that all the elements of the first row and column of and are unity .
+Hence in and the first column and column ( r ) are identical , so that we have ( 194 ) ( 195 ) , ( Maxwellian molecules ) , whence also , by ( 140 ) , we have ( 196 ) ( Maxwellian molecules ) , and also , by ( 148 ) , ( 197 ) ( Maxwellian molecules ) .
+In the case of molecules which obey the fifth-power law , therefore , the velocity distribution function has the simple finite form ( cf. ( 142 ) ) ( 198 ) ( Maxwellian molecules ) , where , \amp ; c. , are given by ( 72 ) , and ( cf. ( 183 ) ) ( 199 ) MAXWELL* calculated the value of the integral , the forces being repulsive , by numerical quadrature , and found that so that , for repulsive forces proportional to the inverse fifth power of the distance ( 200 ) where is the force between two molecules at unit distance .
+Molecules which are Rigid Etastic Spheres .
+S9 ( D ) We next consider molecules which behave at encounter like id elastic spheres of radius .
+This particular molecular model has been more used than any other , in researches on the kinetic theory , on account of its simphcity and concreteness , which aid the imagination in following or constructing " " descriptive\ldquo ; theories of gaseous phenomena .
+As regards the analytical development of the theory , also , it is probably the simplest case after that of Maxwellian molecules .
+The difference between the two models in this respect is , however , enormous , the rigid elastic spherical molecule requiring the infinity of terms in the velocity-distribution function , just as in the case of the most general molecular model .
+The comparative simplicity of the present model Iies in the moderately tractable expressions for to which it leads .
+Apart from the methods of the present and my former paper , * MAXWELL , ' Collected Papers , ' , p. 42 .
+His constant equals in our notation .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A.IONATOMIC GAS .
+325 however , it has no been found possible in the past to obtain any close numerical accuracy in calculations based on this molecular model , the errors resulting in previous theories ( although these have been carefully constructed and closely scrutinized ) ranging from 10 to 50 per cent. .
+It is readily seen* that in the present case ( 201 ) so that As ranges from to ranges from to , and from to 1 .
+Hence ( cf. ( 111 ) ) ( 202 ) since .
+Hence depends on only as regards the numerical factor , and the present case is , analytically , the same as that considered in S8 ( B ) if we write ( cf. ( 183 ) ) ( 203 ) , or , and We may therefore quote from the formulae of S8 ( B ) as follows without further discussion :\mdash ; ( 204 ) ( 205 ) ( 206 ) ( 207 ) ( 208 ) As in the case of molecules which are point centres of force varying inversely as Cf .
+S13 , p. 453 , oi my former paper , 'Phil .
+, 21 ( 1911 ) .
+the power of the distance , the elements and , and the coefficients , and are pure numbers , independent of the temperature .
+Molecules which are Rigid Spheres which Exert Attractive Forces .
+S9 ( E ) Experiments on the phenomena of actual gases , as , for example , on the ariation of viscosity with temperature , indicate that none of the molecular models so far discussed in this chapter gives a really adequate representation of these phenomena .
+The best of all the simple models which have been used in the kinetic theory seems to be that considered by VAN DER WAALS and SUTHERLAND , viz. , rigid elastic sphere surrounded by a weak field of attractive force .
+This agrees with the known fact of slight cohesion in gases .
+The effect of this field of force on the velocitydistribution function , or on viscosity and thermal conductivity , may be referred mainly the deflections of molecular paths for which it is responsible indirectly , through the collisions which it induces between molecules which would otherwise pass one another without mutual inter-action , rather than to its direct effect in the absence of collisions .
+The latter effect will be expressly neglected in our calculations , which will therefore be inapplicable to vapours in which the cohesion is large enough to render this neglect invalid .
+A detailed account of the dynamics of collisions in these circumstances is given in S15 of my former paper , from which the following results are quoted .
+If the potential of the force between two molecules in contact be denoted by ( reckoning this potential as zero when the separation is infinite ) , the condition that a collision may take place is ( 209 ) where since relative velocity , former paper written here denoted .
+The angle corresponding to such a collision is given by ( 210 ) The angle corresponding to larger values of , which do not correspond to actual collisions , is given by ( 181 ) if the molecular forces obey the power law , but we will here make no assumption on this point , as the deflections produced.by the intermolecular forces alone will be rejected after equation ( 211 ) .
+Consequently ( 211 ) by analogy with ( 202 ) and ( 188 ) .
+The latter term represents the negligible THEORY OF YISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+327 deflecting effect of the forces alone , as.above mentioned , and it will be omitted henceforward .
+Hence , corresponding to the equation ( 204 ) of S9 ( D ) , we have ( 212 ) !
+, where we have written ( 213 ) Similarly we have ( 214 ) , ( 215 ) ( 216 ) It will be seen later that is the well-known " " SUTHERLAND'S constant\ldquo ; .
+S10 .
+NUMERICAL CALCULATIONS F0R PARTICULAR MOLECULAR MODELS .
+Rigid Spheres .
+S10 ( A ) In the last section we determined the complete expression for the velocitydistribution function for a gas composed of Maxwellian molecules .
+In the other cases there considered we must be content to make numerical approximations , which can , of course , be carried to any desired degree of accuracy .
+We shall consider in most detail the case of rigid elastic spherical molecules , for which we shall calculate and for .
+These are chosen for the fullest treatment partly because of their simplicity , and partly as representing the limit between which , and the case of Maxwellian molecules , the molecules of actual gases appear to lie .
+In such numerical approximations the following table of expanded formulae for is useful:\mdash ; TABLE I.\mdash ; Expressions for . .
+VOL. CCXVI.\mdash ; A. 2 By taking.these determinants with one , two , three , and four columns.we get successive approximations to ( of .
+S8 ( E ) ) , and to the actual coefficients and as follows:\mdash ; TABLE II.\mdash ; Rigid Elastic Spheres .
+The determinants , are obviously much more convergent in form than , .
+Table II .
+shows that in each case these determinants converge rapidly to the value zero , but that the principal minors of the former determinants converge also to the same value in nearly constant ratios .
+These ratios , the successive approximations to which are given in the two last columns of Table II .
+, are the quantities and which we requi ; they evidently converge rapidly , the successive differences being as follows:\mdash ; We may therefore conclude that , within a small fraction per cent. , and have the following values for rigid elastic spheres : ( 225 ) It should be noticed that even the second approximations to these quantities give results which are very nearly accurate , owing to the rapid diminution of the successive diflerences . .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+331 While we may thus obtain a close approximation to the values of the series and with little difficulty , the approximations to the values of the individual coefficients and converge by no means quickly , as the following table shows : TABLE I V.\mdash ; Rigid Elastic Spheres .
+Evidently the 's and alternate in sign , and successive terms do not seem to diminish quickly , at any rate near the beginning .
+To obtain an accurate estimate of the real values of these coefficients it is clearly necessary to carry the approximation much further than we have done , but for our purpose this is not required .
+IVIolecules which are Point of Force varying as S10 ( B ) The next simplest case , analytically , to that which has just been discussed is the case of molecules which are point centres of force varying inversely as the power of the distance .
+By comparison of ( 186 ) and ( 205 ) , in conjunction with the general expressions for and , it is easy to see that the difference between the values of or in the two cases consists of a power series in , the constant term of which is zero , while the term of highest order is ) .
+Numerically the difference is small , as may easily be verified in any particular case ; it appears to be of constant sign , and .
+being greatest for molecules which are rigid elastic spheres .
+The behaviour of the determinants , or , is similar in the two cases , the convergence being slightly the more rapid in the present instance .
+Since for rigid elastic spheres the second approximation to and proved so satisfactory , we shall be content with a second approximation only , for hich are point centres of force ; this very materially the labour of numerical calculation .
+following are the expressions found for the determinants , as far as regards the first four elements:\mdash ; ( 226 ) 1 1 .
+, When is made infinite these become identical with ( 221 ) , ( 222 ) ; it is interesting to notice that the additional terms are the same in the two determinants , though whether this is true for other values of and is not clear .
+The first approximations to .are , of course , unity ; the second are found to be approximately as follows:\mdash ; ( 227 ) From S9 ( C ) , ( 196 ) , we know that when the values of and are unity , and this is also true of any approximation to their values made in the present manner .
+From S10 ( A ) , however , we know that for the second approximations are slightly too small , by and very nearly .
+In the following table , therefore , which gives the approximate values of and for various values of lying between 5 and , the results obtained from ( 227 ) have been increased by , or , as seemed most appropriate in each case .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+3.33 Rigid Elastic Attracting Spherical Molecules .
+S10 ( C ) Considering next the case of rigid elastic spherical molecules which exert attractive forces , as in S9 , we shall neglect the effect of the attractions in producing deflections without actual collisions , and , as in S10 ( B ) , we shall content ourselves with a second approximation to and .
+The difference between this case and that of rigid elastic spheres without attraction is small .
+The expressions for , as far as regards the first four elements , are as follows:\mdash ; ( 228 ) . .
+When , i.e. , when there is no attraction , these reduce to ( 221 ) , ( 223 ) .
+The second approximations to and are hence found to be as follows:\mdash ; ( 229 ) , approximately , ( 230 ) , approximately .
+Since is never negative , it is clear from ( 229 ) , ( 230 ) that the second approximations to and never less than unity .
+Their values , without any estimated correction for the error of approximation , are given in the following table , for various values of .
+The correction as estimated is appended as a suffix , and is to be added to the last digit of the corresponding number .
+334 DR S. CHAPMAN ON THE LAW OF DISTRIBUTION OF MOLECULAR rLocITIEs , In the of the actual gases for which has been determined , it has an extreme range from about 50 to 250 , while the range of absolute temperature over which experiments are usually made is from about C. to C. Thus the limits 5 and are rather extreme values of , but from the above table it appears that the variation in or their quotient hardly exceeds 1 per cent. over this range .
+The variation is especially slow in the neighbourhood of S11 .
+VISCOSITY AND THERMAL CONDUCTION .
+We now proceed to apply the expression for the velocity-distribution function S8 to the determination of the coefficients of viscosity and thermal conduction .
+We shall first obtain general formulae for these coefficients , true for any monatomic gas , afterwards considering special molecular models in conjunction with the results of SS9 , 10 .
+The Coefficient of viscosity .
+S11 ( A ) The system of pressures at any point of a gas is given by the equation ( 231 ) , \amp ; c. By means of ( 5 ) and the velocity-distribution function ( 142 ) , we find that ( 232 ) ( 233 ) Since , by ( 74 ) , we have ( 234 ) being the hydrostatic pressure as usually defined .
+By comparmg ( 232 ) , ( 233 ) with the equations giving the system of pressures in a viscous fluid having a coefficient of viscosity , viz. , with ( 235 ) , ( 236 ) TURKEY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+335 remembering meaning defined ) , it appears that the two are identical if we write ( 237 ) Hence , according to the kinetic theory , a gas behaves like an ordinary viscous fluid having a coefficient of viscosity defined in terms of the molecular data by ( 237 ) .
+By ( 170 ) , ( 173 ) we have ( 238 ) whence , also , ( 239 ) As we have seen in S8 ( B ) , and are functions of the temperature ( or h ) only , and does not appear at all in the formula-for .
+Hence , within the limits of applicability of our theory ( cf. S2 ) , the coefficient of viscosity of a gas is independent of its density , varying only with the temperature .
+The law of this variation depends on the law of -inter-action between two molecules at encounter , this being involved through .
+As this function has remained unspeified , the expression in ( 237 ) is perfectly general and valid for any nearly perfect monatomic gas .
+The Equation of Energy for a Simple Monatomic Gas .
+S11 ( B ) In the discussion of the equation of transfer in S3 , we consistently neglected such second order quantities as products of differentials , or differentials of small quantities like and so on .
+In this way we have obtained an expression for the velocity-distribution function which is correct to the first order .
+By means of this function we can now determine the values of and similar -expressions which are of the first order of small quantities , and by substitution in the equation of transfer obtain this in a form accurate to the second order .
+This we shall do for the special case , in order to get a second approximation to the equation of energy .
+From the velocity-distribution function , using the formula ( 237 ) for the coefficient of viscosity , we have ( 240 ) ( 241 ) VOL. CCXVJ .
+In finding it is convenient to write ( 243 ) and to recall ( cf. ( 170 ) ) that ( 244 ) Thus we have ( 245 ) where we have eliminated by means of ( 148 ) .
+Again , if , we have Hence , putting except in differential coefficients , we have , Also , since no energy is gained or lost in molecular encounters , THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+The equation of transfer becomes , consequently , after a little reduction , ( 246 ) which is the equation of energy .
+The Thermal Conductivity of a Gas .
+S11 ( C ) In the equation of energy which we have just obtained , the second term on the right-hand side represents the change of heat per unit volume due to the variation in density at the point considered , while the third term may be proved equal to the heat produced by internal friction .
+The first term , by comparison with FOURIER'S equation of conduction of heat being the thermal conductivity and the specific heat at constant volume ) , i.e. , with , is seen to represent the change of heat by conduction , and to indicate that the coefficient of thermal conductivity of a gas is given by ( 247 ) The value of in this well-known formula is , for a general monatomic gas , given by ( 243 ) , i.e. , 248 ) In general is a function of the temperature only .
+Formuloe for for Particular Molecular Models .
+S11 ( D ) By substitution of the values of and given in SS9 , 10 , for the particular molecular models there discussed , we obtain the following special cases of ( 237 ) and ( 248 ) :\mdash ; ( 249 ) Rigid elastic spheres , ' ( 250 ) Attracting spheres , , ( 251 ) Centres of force In these formulae denote the alues of in the cases respectively when the molecules are attracting spheres and centres of force , and and similarly denote ; their values are given in Tables V. and VI .
+, and in no case differ from unity by more than two per cent. The mode of variation of with the temperature affords a guide to the law of interaction between the molecules of actual gases .
+By comparison with experimental determinations of at various temperatures it is thus found that of the above models the one which most closely represents the behaviour of actual molecules in this respect , at ordinary temperatures , is the second , i.e. , a rigid elastic attracting sphere .
+* Comparison of the present formulae for with those of my previous paper .
+S11 ( E ) The general formulae ( 237 ) and ( 248 ) for viscosity and thermal conductivity agree with those of my former paper , except that the factors and were there omitted .
+This was in consequence of the assumption on which the analysis of that investigation was based , that is sufficiently represented by the terms of the first three degrees in , W. We have seen in S9 ( C ) that this is true for a gas composed of Maxwellian molecules , but not otherwise .
+It seems of interest to consider why the neglect of all the coefficients after led to results of such accuracy ; for the errors arising from the assumption are represented in the special cases of ( 237 ) and ( 248 ) by the factors , so that the necessary corrections to my previous formulae do not exceed one or two per cent. ENSKOG , on the other hand , after deducing formulae similar to ( 237 ) , ( 248 ) , but without evaluating the coefficients , made a first approximation by neglect of all these coefficients after , and arrived at the result for rigid elastic spheres .
+This was due to the fact that such a use of ( 287 ) , ( 248 ) , as they stand , involves not only the neglect of all the coefficients after , but also requires an assumption as to the values of themselves , as , for instance , that they are approximately the same as for Maxwellian molecules ; a comparison of ( 196 ) with Table ( p. 331 ) will show that this is far from being the case .
+It may readily be seen , however , that the method of my former paper .
+required no * At very low temperatures , however , the power centre of force is the molecular model which gives by far the best representation of the relation between and , in the case of helium ; KANERLINGII ONNES and SOPHUS WEBER , 'Comm .
+Phys. Lab .
+Leyden , ' , p. 18 , or JIANS ' 'Dynamical of Gases , ' 2nd ed. , , 407 .
+CHAPMAN , ' Phil. Trans , vol. 211 , p. 433 , seq. ENSKOG , ' Phys. Zeit XII .
+, p. 58 , 1911 .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+339 hypothesis as to the values of , 70 , which were determined from and as in this paper ; in effect , the later coefficients were neglected , while ) and were obtained from the equations ( 138 ) , ( 139 ) corresponding to Viewed otherwise , my revious formulae were equivalent to ( 237 ) , ( 248 ) divided respectively and .
+Thus the neglected , factors in and were and which evidently reduce to unity if we neglect all the and , after , without any assumption as to the values of and 70 .
+One of the main results of the former paper was that for all monatomic gases , and not only for those composed of Maxwellian molecules .
+This is now seen to require modification , but the values here found for in the special cases which have been ered in SS9 , 10 show that the correction needed to make the equation accurate is very small ; it appears probable that for all likely molecular models is very slightly greater than , and that it is nearly but not quite constant with change of temperature ( except when the molecules are elastic spheres or centres of force proportional to ) .
+Comparison of the Formuloe for and 3 with the Results of other Theories .
+S The only kinetic theory of viscosity and thermal conductivity which could hitherto lay claim to numerical accuracy ( within the limits imposed by the initial postulates ) is MAXWELL'S theory*of a gas composed of molecules of the kind dealt with in S9 ( C ) .
+The results of his theory are special cases of the general formulae of this paper .
+The theory of a gas composed of molecules which are point centres of force varying inversely as the power of the distance had not been discussed in detail , previous to my own former paper .
+RAYLEIGH , however , from considerations of dimensions alone , had deduced the law of variation of viscosity with temperature , and the same argument would also show that for such a gas is an absolute constant ( for any given value of ) .
+Nothing was known as to the value of this constant , or of the numerical coefficient in the expression for , and it is a surprising result , which could hardly have been guessed a priori , that as ranges from 5 to the value of should vary only to approximately .
+The theory for molecules which are rigid elastic spheres exerting attractive forces was equally undeveloped .
+taken an important step , however , in * MAXWELL , ' Collected Papers , ' vol. II .
+, p. 23 .
+RAYLEIGII , 'Roy .
+Soc. Proc vol. 6 , p. 68 , 1900 .
+HnRLAND , ' Phil. Mag , 1893 .
+deducing the correction to the law connecting and for molecules which are rigid elastic spheres without attraction ; he showed , without attempting numerical accuracy , but by a method which is correct in its main outlines , that the attractive.forces necessitate an additional factor , as in ( 249 ) .
+The law ' is more successful than any other in representing the otoerved relation between and over a considerable ran ge temperature , and is deservedly known as SUTHERLAND'S constant .
+The theory of a gas composed of molecules which are rigid elastic spheres , which was taken by SUTHERLAND as the basis of his modified formulae , has been developed along lines different from those of this paper by CLAUSIUS , MAXWELL , BOLTZMANN , MEYER , STEFAN , JEANS , and others .
+Their method was less analytical than the present one , and while it gave correctly the general relationships between and , its results do not possess numerical precision .
+JEANS* notably improved certain of the formulae due to earlier authors by taking into account the tendency of a molecule to persist , after a collision , in the general direction of its original course .
+For this reason his expression for the viscosity , viz. , ( 252 ) , ( JEANS ) approaches more nearly to the correct expression ( 249 ) than does the formula of any other author .
+A comparison of ( 249 ) with ( 252 ) indicates that the latter is still too small by 12 per cent. ; the error of the original formula , without JEANS ' correction , was 30 per cent. The numerical inaccuracy of the earlier prevailing theory of conductivity , which was due to MEYER , was very great .
+Its result was generally given as where but Prof. L. V. KING , of McGill University , has pointed out to me by letter that MEYER'S argument really leads to the result a numerical mistake having crept into his work which had not previously been detected .
+The correct value of for rigid elastic spheres is given in ( 249 ) , i.e. , This large error in theory indicates the difficulty of arriving at numerically accurate formulae by the older " " mean free path\ldquo ; method , and diminishes *Cf .
+JEANS ' ' Dynamical Theory of Gases .
+' Apart from that in my former paper , which was 1 6 per cent. too small .
+MEYER'S Kinetic Theory of Gases , ' 2nd English edition , ohap .
+IX .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+341 confidence in other parts of that theory where detection of error is less easy .
+Until recently MEYER'S value of ived support from experimental data for diatomic gases , to which it does not realy apply ; only lately have data for monatomic gases been obtained , which , as we shall see , give values of nearly equal to S12 .
+COMPARISON 0F THE TH .
+EoRy W1TH EXPERIMENTAL DATA .
+The Variation of viscosity with Pressure .
+S12 ( A ) The main objects of a comparison of a mathematical theory with experimental data are either to test whether the postulates underlying the theory are valid , or whether the theory is itself mathematically correct .
+The present theory being exact , within certain defined limits , our purpose in this chapter is to consider how far the hypotheses underlying the analysis are well founded .
+The general validity of the foundations of the kinetic theory is attested in many ways , one of the most striking being the independence of viscosity and pressure in a gas .
+This law , when first discovered by MAXWELL , seemed so improbable that it gave a great stimulus to experimental research on gases , and the constancy of , when is kept constant , has been verified over a range of pressure extending from a few millimetres of mercury up to more than one atmosphere .
+WARBURG and VON BABO have found that , in the case of carbon dioxide , the law begins to fail when the pressure becomes so great as 30 to 120 atmospheres , rising appreciably .
+In very rarefied gases , on the other hand , the viscosity falls below the value appropriate to the existing temperature .
+This must be referred to the failure of the postulates of our theory to represent the facts in these extreme cases , the molecules becoming too few for our statistical method to apply , on the one hand , while on the other our assumption that the molecular paths are rectilinear for the major part of the time , and our neglect of multiple encounters , become illegitimate .
+Variation of Viscosity with Temperature .
+* S12 ( B ) Over a wide range of pressure and temperature , undoubtedly , the general postulates of our theory are true for actual gases .
+We cannot discover directly , however , the nature of the molecules or their mode of collision , and it is important , therefore , to examine which molecular model yields formulae most in accordance with experimental data .
+For this purpose we naturally choose those properties which are most affected by the nature of the molecule ; the chief of these is the variation of viscosity with temperature .
+MAXWELL abandoned his theory of a gas composed of rigid elastic spherical molecules because it led to the relat , while his experiments gave the T. This caused him to develop the theory of a Maxwellian gas S9 ( , for which , but later experimenters have failed to confirm this law , and we must conclude , that the molecules of actual gases behave during encounters neither like elastic spheres nor like Maxwellian molecules .
+The observed relation * The reader may be referred with advantage to the discussion of this point by JEANS in the second edition of his ' Dynamical Theory of Gases , ' between and agrees much more closely with SUTHmRLAND'S law than with any other ; for example , SCHMITT* has ound that the law is validfoslashr hydrogen and helium from C. to 18 O. , and BARUS has shown that it holds good for air over a wide range of temperature .
+The law has not been tested , for the former gases , above C. This seems to indicate that for the kinetic theory of gases at ordinary temperatures the best molecular model is an attracting sphere , and it is interesting to notice that this model is the one used by VAN DER WAALS with such success in deducing his famous .
+Further confirmation is supplied by the excellent agreement between the values of the molecular diameters deduced on this hypothesis from the constant of VAN DER WAALS ' law and from the viscosity by means of my formula ( 250)\mdash ; cf. S12 ( F ) .
+At low temperatures SCHMITT* , BESTELMEYER , VOGEL and others have shown that the observed values of are greater than those predicted by SUTHERLAND'S law .
+This may be compared with the rise in the value of when the pressure is greatly increased , both effects probably having a like cause ; in these states , when the mean free path of the molecule is much reduced , the molecular paths may cease to be approximately rectilinear between collisions , and multiple encounters will grow in importance .
+Since our theory rules out these contingencies , its results cease to be applicable , and a modification of the theory and its postulates is necessary if a proper account of these phenomena is to be given .
+In regard to this , one point which should be noticed is that in S9 ( E ) a term in was neglected ( cf. ( 211 ) ) which , if retained , would cause the law connecting and to take the form where can be expanded in the form .
+This term is due to the effect of the attractive forces in producing deflections without the occurrence of collisions , and is probably always small ; but it may readily be seen that it is always positive , and that this correction would lead to a dirninution in the theoretical value of at low temperatures .
+Clearly , therefore , the observed discrepancies cannot be attributed to neglect of this small quantity .
+S *SCHMITT , ' Ann. .
+Phys 30 , p. 399 , 1909 .
+BESTELNEYZR , 'Munich dissertation , ' 1903 .
+VOGE4 'Berlin dissertation , ' 1914 , where full references , and an interesting discussion of low temperature work on viscosity , are given .
+S VOGEL , in his , suggests as possible causes of the failure of the theory to represent the observed variation of with at low temperatures a failure of the ordinary mechanics , such as is contemplated in PLANCK'S theory of quanta ; ( ii .
+) that the attracting sphere model no longer the molecule ; ( iii .
+) that should be replaced ( according to my suggestion in 'Phil .
+Trans vol. 211 , p. 474 , 1912 ) by .
+By the latter means a better accordance with observation is obtained , but the new term has the minus sign , and is therefore illegitimate .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+343 The Thermal Conductivity of Monatmnic Gases .
+S12 ( C ) It is convenient to discuss the thermal conductivity of gases in terms of the constant in the formula , as this eliminates the necessity for a separate discussion of the dependence of on pressure and temperature ; this is parallel with that of , and is nearly or quite independent of pressure and temperature in normal conditions .
+As we have seen in S 11 ( F ) , the value of has been a matter of some uncertainty ; so long as its value for rigid elastic spheres was supposed to be while for Maxwellian molecules it was known to be , it seemed to offer a means of testing the suitability of different molecular models .
+On the ground of the discrepancy between the theoretical and observed relation between and Maxwelian olecules were known to be unsatisfactory representations of actual molecules .
+Until about 1900 no reliable determinations of had been made for monatomic gases , and those found for diatomic gases agreed fairly well with MEYER'S value of more accurately , ; at the time this was regarded as a confirmation of the rigid elastic spherical model of the molecule , and as indicating that the internal molecular energy , which is not taken into account in these theories of a monatomic gas , is transmitted at the same rate as the .
+translational energy .
+When , in 1902 , SCHWARZE obtained the values of for argon and helium , and found them nearly equa*l to , the conclusion to be drawn was not obvioUs .
+It certainly contradicted MEYER'S theory , but left the question open as to whether the analysis , or the assumption of the rigid elastic spherical model , was at fault ; also iff indicated that the molecules are Maxwellian , the failure of the corresponding law connecting and remained unexplained .
+It should be remembered , moreover , that the law for rigid elastic spherical molecules is equally contradictory to experiment .
+These difficulties were removed by the theorem of my former paper , according to which is an invariable constant for all monatomic molecules .
+This is now seen to be incorrect as a general theorem , but the deviations found for the various particular molecular models discussed leaves little room for doubt that is very nearly equal to S in the case of all likely models .
+The fact simply is , therefore , that is very unsuitable as a means of discrimination between different models , and SCHWARZE'S observations indicate some mathematical fallacy in MEYER'S theory .
+without supporting any particular molecular model .
+The observed values of are hardly known with sufficient accuracy to enable any conclusion to be drawn from a slight divergence from the value , within the limits prescribed in ( 249 ) to ( 251 ) .
+They are important , however , as confirming the general validity of the kinetic theory , apart from any hypothesis as to the nature of the molecules .
+The following table contains all the available data concerning the value of for monatomic gases .
+Only recently has the conductivity of neon been determined , owing to the scarcity of the gas ; for krypton and xenon its value is still unknown .
+VOL. CCXVI.\mdash ; A. 3 344 DR. S. CHAPMAN ON THE LAW OF DISTRIBUTION OF MOLECULAR YELOCITIffi , TABLE VII.\mdash ; Values of for Monatomic These results for argon and neon and , to a less extent , for helium at ormal temperatures agree very well with the theoretical value of , especially since the combined experimental errors in their determination may easily exceed one per cent. at ordinary temperatures , and much more at low temperatures .
+The diminution in the value of for helium at low temperatures , if confirmed by further experiment , is very interesting and important .
+Helium is peculiar at low temperatures also in the stribng divergence of its viscosity from SUTHERLAND'S law .
+EUCKEN suggests as the explanation of the former phenomenon a partial failure of interchange of molecular energy at collision , but ( cf. Table VI .
+of his paper ) down to C. , at any rate , the value of for helium remains constant and appropriate to a gas which possesses only energy .
+A failure in interchange of translational energy would contradict the ordinary dynamical laws , and it is certainly desirable to seek some other explanation , if this be at all possible .
+The alternatives are not numerous , and will be examined in turn .
+We may rule out a numerical error in the theory , of more than one per cent. , as being quite improbable ; but though the molecular models discussed in this paper lead to values of equal to or slightly greater than , it is conceivable that for some peculiar model may have rather different values and a wider temperature range .
+I think this is unlikely , and that it is probably possible to prove that always exceeds , but this is only a speculation ; helium agrees so well at high temperatures , however , with SUTHERLAND'S law connecting and , that its molecules can hardly be supposed so different in behaviour from rigid elastic attracting spheres as to make theoretically equal to at low temperatures .
+Again , molecular aggre gation might seem to afford an explanation , since if part of the gas were polyatomic through clustering of the molecules , the value of would * SCHWARZE , ' Halle dissertation , Ann. .
+Phys ( 4 ) , 11 , p. 303 , 1903 .
+EUCKEN , 'Phys .
+Zeit 14 , p. 324 , 1913 , Tables 3 , 6 .
+EUCKEN ( footnote 4 to p. 328 ) states that SCHWARZE'S value of for helium is too large owing to a miscalculation in determining This result was kindly communicated to me by Prof. DORN , of Halle , as an extract from ' Mitt .
+Naturf .
+Ges . .
+Halle , ' 4 , 1914 .
+THEORY OF VISCOSITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+345 probab lie between and the lower values characteristic of polyatomic gases .
+In this case , however , the value of , the specific heat at constant volume , should rise to correspond with the internal energy of such molecules ; as the experiments indicate a constant value of , the suggestion must be abandoned .
+The only possible remaining hypothesis seems to be to attribute the fall in to the neglect of multiple collisions between molecules , including also the effect of the attractive forces in SuTHERLAND'S case in producing deflections without collisions ; at low temperatures the molecules may be too close together for these postulates of our theory to continue valid .
+If we determine for helium from the formula using the value of calculated from SuTHERLAND'S formula ( which is less than the observed value at low temperatures , as we have seen ) , the result is less than that observed at low temperatures .
+Hence both 9 diminish with temperature less than is predicted by SuTHERLAND'slaw , the diverge1lce being eater for than for , so that also diminishes .
+We cannot enter here into a test , .
+by calculation , of this suggested hypothesis , but some confirmation might be sought experimentally by examming whether is less than for helium at normal temperatures but under considerably increased pressure .
+The latter would bring the molecules closer together in the same way as would a diminution of temperature , and this is all that our suggestion requires .
+It is known that over a large range of pressure and are constant , but that at high pressures increases ; the independence of on pressure has usually been tested by diminishing the normal pressures , * and experiments under increased pressure might throw valuable light on the present phenomenon .
+Gases other than helium may be expected to behave similarly , though perhaps only with lower temperatures or higher pressures .
+S12 ( D ) The case of mercury vapour may also be mentioned , as it was the first monafomic gas for which was determined .
+determine for mercury vapour at C. , C. , and C. , while determined S at C. These data , together with the theoretically calculated value of , led to MEYER and others have raised objections to the determinations of because the three values show an improbable amount of variation temperature , and ( b ) because of the vitiating effect of condensed mercury on the walls of the capillary tube used in the experiments .
+VOGELS has made a -calculation of for mercury from an interesting formula which he gives , and finds that at C. absolute should ; this , combined with SCHLEIERMACHER'S result , reduces to .
+But it is desirable that more accurate experiments should be made in ordsr that a thoroughly reliable value of may be obtained .
+* EUCKEN , 'Phys .
+Zeit 12 , p. 1103 , 1911 , Table 2 .
+KOCH , 'Wied .
+Ann 19 , p. 857 ( 1883 ) .
+SCIILEIERNACHER , 'Wied .
+Ann 36 , p. 346 ( 1889 ) .
+S VOGEL , ' Berlin dissertation , ' p. 57 , 1914 .
+So given by VoGEL ; it may be a misprint for C. The Thermal Conductivity of Polyatomic Gases at Low Temperatures .
+S12 ( E ) The formula is true for polyatomic as well as for monatomic gases , being independent of pressure and temperature over a considerable range .
+Under conditions , however , its value is or less , being greatest for diatomic gases and diminishing down to about for complex molecules .
+has made the interesting and important discovery , however , that diatomic gases show an increase in at low temperatures , the conductivity varying with temperature in the sense opposite to that observed in the case of helium .
+This is apparent , to a slight extent , in nitrogen , but is most striking in the case of hydrogen .
+It is found that , simultaneously with the rise in , the specific heat progressively falls in value until at C. absolute its amount is that appropriate to a monatomic gas of the same molecular weight .
+At these low temperatures the rotatory motion of the molecules seems to fail , for some reason as yet undiscovered , so that the gas behaves in certain respects as if its molecules were of the spherically symmetrical type discussed in this paper .
+It is highly teresting and significant that this approach to monatomicity is accompanied by an upward tendency of towards the value ( approximately ) which is appropriate to monatomic gases .
+The same phenomenon may be expected in the case of the other diatomic gases , at lower temperatures corresponding to their lower boiling points .
+In the following table*the results for hydrogen alone are given ; the number in the third column represents the number of " " degrees of freedom\ldquo ; of the molecule , as calculated from the observed values of The Diameter of the Molecule .
+S12 ( F ) In my former paper tables were given showing the values of the molecular diameters for several gases , calculated on the hypothesis that the molecules are rigid spheres , with or without attractive force .
+These require a small correction to be strictly accurate , on account of the factor there omitted from the formula for .
+EUCICEN , 'Phys .
+Zeit 14 , p. 329 , 1913 , Table 6 .
+THEORY OF VlScosITY AND THERMAL CONDUCTION , IN A MONATOMIC GAS .
+347 in terms of .
+In this paper shall give only a few values , calculated from recent data and from the exact formula appropriate to attracting spherical molecules .
+The values of are determined from the variation of viscosity with temperature , is the mean molecular velocity , while is found from Table VI .
+( in all the cases here considered it is quite negligible ) .
+In the following table values of the diameters calculated from the constant of VAN DER WAALS ' law are also given for comparison .
+The agreement between the two sets of values is in most cases remarkable , and the table as a whole is a testimony to the close numerical accuracy now attained by the kinetic theory ; where there is disagreement in the table there is in most cases uncertainty as to the data .
+While exact agreement may be expected only for monatomic gases , the values for diatomic gases show that our theory gives a mean diameter , in other cases , which agrees with that found for ; the internal energy which prevents the application of our fOrmulae to the conductivity of polyatomic gases hardly affects viscosity .
+REFERENCES .
+Viscosiiy at C. absolute.\mdash ; These values are taken from the table on p. 476 of my first memoir , where full references may be found .
+They agree very well with the list given by EUCKEN ( ' Phys. Zeitschr 14 , Table 3 , 1913 ) , in which VOGEL'S determinations are included with other recent values in taking means .
+348 DR. S. CHArMAN ON THE LAW OF DISTRIBUTION OF MOLECULAB SUTHERLAND'S constant S.\mdash ; These values are those given in he same table of my former memoir ( what is called S in this paper was there , and is usually , denoted by C ) , where references to sources may be found .
+The value for krypton was there given incorrectly ; I am indebted to Dr. G. RuDORFfor the correction .
+VAN WAALS ' b.\mdash ; The values for helium ( KAMERLINGH ) , hydrogen , nitrogen , air , and carbon-dioxide ( VAN DER WAALS ' ) are taken from JEANS ' 'Dynamical Theory of Gases , ' 2nd edition , S194 .
+Those for argon , krypton , and xenon ( RAMSAY and TRAVERS ) , from RUDORF , 'Phil .
+Mag June , 1909 , p. 795 , are not direct experimental values , however , but are calculated from critical data .
+Diameter from viscosity.\mdash ; These are practically twice the values for the radii given on pp. 476 , 481 of my former memoir , where , however , errors of calculation ( here corrected ) were made in the case of argon and krypton ( as Dr. G. RuDORpkindly indicated to me ) .
+Diameter from VAN DER WAALS ' b.\mdash ; The value for oxygen , and the second values for nitrogen and carbon-dioxide ( as well as for the latter ) are from Table 7 of EUCKEN'S paper ; he does not give his authorities , but his values are probably the most recent and reliable .
+The value for hydrogen , he says , is doubtful .
+

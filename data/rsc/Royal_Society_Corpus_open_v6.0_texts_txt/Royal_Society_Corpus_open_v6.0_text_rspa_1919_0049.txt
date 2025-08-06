@@ -1,0 +1,153 @@
+]\gt ; De Saint-Venant Solution for the Flexure of Cantilevers oj Crosssection in the form of Complete and Curtate Circular Sectors , and on the Influence of the Manner of Fixing the Built-in End of the Cantilever on its Deflection .
+By MARY SEEGAR , B.Sc. and K. PEARSON , F , B.S. ( Received May 24 , 1919 .
+) ( 1 ) Hitherto , as far as we are aware , the well-known de Saint-Venant solution of the problem of flexure has been limited to a relatively few cases and in all these the cross-section of the beam possessed symmetry , there being an axis of symmetry in the plane of loading and also an axis perpendicular to this plane .
+De Saint-Venant 's view that his solution could be directly applied to asymmetrical sections arises from a misconception .
+We have recently found it possible to extend the de Saint-Venant solution to certain cases in which there is only one axis of symmetry which may be ( 1 ) to the plane of loading , or ( 2 ) in the plane of loading .
+The former case has been dealt with by , Elderton and Pearson in a memoir published last year .
+* The flexure in this case is accompanied by torsion , and the problem is not without some bearing on the torsion of aircraft propeller blades , for which , indeed , it was worked out .
+The latter case for the same sections as dealt with in that paper was then seen to be solvable , the axis of symmetry being now in and not perpendicular to the plane of loading .
+As far as we are aware no such cases of flexure with uni-axial symmetry of the cross-section have yet been published , although it is clear that a great variety of sections in actual use fall under this category .
+For the particular section we have dealt with in this paper , that of a " " trough\ldquo ; or " " gutter-pipe\ldquo ; section , represented for mathematical purposes by a curtate circular annulus loaded in its plane of symmetry , we found it needful to introduce a term of the form in addition to the ordinary Fourier solution .
+We then obtained two equations for determiniIlgC , one from either curved surface of the annulus , and were checked in the course of our investigation .
+We are very grateful to Mr. W. M. Macaulay of King 's College , Cambridge , for dispelling our difficulty by showing that the two equations could aft , er some reduction be shown to be identical .
+* On the Torsion resulting from Flexure in Prisms with Cross-sections of Uni-axial Symmetry only 'Drapers ' Company Research Memoirs , ' Technical Series , No. VII , Cambridge University Press .
+On pp. 5 and 68 de Saint-Venant 's misapprehension is discupsed .
+212 Miss M. Seegar and Prof. K. Pearson .
+De Saint-Venant \mdash ; , ( i ) and leads , as it is easy to , to : , , ( ii ) where , and are constants to be fixing .
+Solution for the Ftexure certain Cantilevers .
+The three stresses which are not zero are given by , ( iii ) where is the slide modulus .
+Finally , the boundary condition is .
+( iv ) This is the most general form that can be given on the basis of de SaintVenant 's hypothesis to the solution for the flexure of a prismatic cantilever , when the cross-section is symmetrical with regard to the plane of loading .
+* ( 3 ) We propose to illustrate this solution in the case of a cantilever of which the cross-section is a curtate circular sector as shown in the accompanying diagram .
+is the sectorial ; the co-ordinates of a in the section are and the internal and external radii are and respectively .
+The equation for will now be * See Pearson and Todhunter , 'History of Elasticity , ' vol. II , pp. 56-8 , and the memoir by Young , Elderton , and Pearson , above referred to , pp. 8-12 .
+214 Miss M. Seegar and Prof. K. Pearson .
+De A simple form of the solution of this equation is , ( vi ) where the terms in are introduced to simplify the analysis .
+We now turn to the boundary condition which provides ; ( vu ) or , transforming to polars , .
+( vui ) Hence , converting the right-hand side into multiple angles , and remembering that either or is constant at the boundary , we have for all values of , ( ix ) for all values of .
+( x ) the value of from ( vi ) , the first equation gives us for both values of : Solution the Flexure of certain ntilevers .
+this will be satisfied identically if we take being an integer .
+, ( xi ) Thus we have , ( xii ) where We now substitute this value of in ( x ) and find , ( xiii ) range being from to Multiply both these equations by and rate throughout the range , we have leading to 216 Miss M. Seegar and Prof. K. Pearson .
+De Saint-Venant It now remains to determine C. Integrate the equations ( xiii ) between limits and of , and we find : These equations at first appeared imcompatible , but if be inserted , we reach : ( xv ) from both , a value absolutely symmetrical in and Thus we obtain the following for : ' , ( xvi ) and Solution for the Ftexure of certain ntitevers .
+under the mathematical conditions of the de Saint-Venant problem its solution .
+It will be remembered that de Saint-Venant adopted as his fixing conditions ( i ) that the centroid of the terminal section should be fixed , i.e. , at that point , and also ( ii ) the direction of an elementary plane at that point should also be fixed , i.e. , .
+The conditions of the problem ( see equation ( ii ) ) make and at the centroid also .
+We propose to compare this fixing in its influence on the deflection against that obtained by fixing more widely separated points of the terminal section , as far as such points can be fixed by the de Saint-Venant solution .
+( 4 ) We turn next to the value for the deflection .
+It is needful , however , to settle what we mean by the\ldquo ; deflection Turning to the first equation of ( ii ) we may take the shift at a point on the axis of symmetry , i.e. , , at ; this is .
+( xvu ) Now , if .
+denote the difference between and .
+( xviii ) The simplest form , therefore , of the deflection will be obtained if we put , and then .
+( xix ) In this case is the de{lection of the old Euler-Bernoulli theory , and is due to bending moment , while is the deflection added by the de Saint-Venant theory , and.is the deflection due to shear .
+The ratio is the ratio , these two deflections , and it is important to ascertain the extent to which this varies with the nature of the " " fixing\ldquo ; and ( b ) the nature of the cross-seotion , i.e. , in our particular case with the values of and .
+But is not a good equation for experimental work , because the centroid of the " " fixed\ldquo ; terminal will generally be inaccessible , and the centroid of the loaded section if accessible will often , as in trough or tubular sections , not be a physical point of the material of the cantilever itself .
+For experimental purposes it is almost essential to measure the droops of the cantilever from points of the mid-plane at top or bottom of the material of the cantilever , i.e. , where or A good practical method is that applied in the memoir already cited : , 218 Miss M. Seegar and Prof. K. Pearson .
+De Saint-Venant Thus .
+Now , measure for a series of values of , and find by least squares , then will be the Euler-Bernoulli droop of the cantilever , and will give the linear term or de Saint-Venant shear term by adding the correction , which will be known as soon as we have chosen the point for measurement of our deflections .
+The ratio will , of course , depend upon the ratio of ( length of cantilever to linear dimension of cross-section)2 , and will diminish as the length is increased .
+The quantity will frequently appear ; let us call it .
+Let , where is the area of the cross-section , then is the load per unit of area of cross-section , i.e. , the mean shearing stress .
+is the radius of gyration about the horizontal axis through the centroid and for the curtate sector , if .
+( xxi ) Thus , where Hence , finally , .
+( xxii , Here is independent of the form of the section , and the ratio is what is most easily ascertainable from our formula .
+The value of does not change with the nature of the fixing , nor the ratios or Thus the ratio is a good measure of how the shear term incl.eases relative to the bending moment term with changes in the nature of the fixing .
+We will consider firs complete sector of sectorial angle , and will suppose , in de Saint-Venant 's manner , an indefinitely small area fixed the centroid , , of the terminal section .
+Hence we must have when .
+These give us by ( ii ) and or Equation ( xxiv ) will give .
+Equation ( xxiii ) will then determine whiIe Solution for the Flexure ofcertain Cantilevers .
+and will disappear from the equations .
+We [ are , ; therefore , only concerned with the determination of Clearly only the terms will occur in , not the terms , and is , and accordingly , from ( xvi ) or , remembering that , we have , , ( xxv ) where The series for is always finite , except when or 3 , i.e. , , and , in which cases we have to proceed to certain limits . .
+The terms of the series all vanish , because , except the first and third .
+For these terms Limit has finite values and dingly .
+( xxvi ) S , or .
+Hence the first term of the series becomes infinite , but for this value of the term also becomes infinite , and the two infinities are approached in the same way , and being of opposite , cancel .
+The method of obtaining the limit was to write , and 220 Miss M. Seegar and Prof. K. Pearson .
+De Saint-Venant expand in powers of .
+Since occurs in a power , a Napie.rian logarithm term arises in the limit .
+Limit ) is found to be , since the terms in cancel : .
+Hence .
+( xxvii ) , or .
+The second term of the series now becomes infinite , but so also does the term in , and proceeding as in ( b ) , have Limit Hence the limiting case of the series term will be foun\amp ; to vanish and The following Table for was then calculated from the above series , where gives this ratio for uniconstant isotropy:\mdash ; 222 Miss M. Seegar and Prof. K. Pearson .
+De prisms whose sections are isoceles triangles , and in such cases the deflection due to shear is small compared to that due to bending moment .
+Thus , for a wedge.shaped cantilever , the length of which is not more than five times its depth , the shear deflection will only be about 2 per cent. of the bending moment deflection .
+In the case of the slit cylinder , however , if the length be but five times the radius , the shear deflection is between 10 per cent. and 11 per cent. of the bending moment deflection ; the length must be ten times the radius to reduce this to between 2 per cent. and 3 per cent. ( 6 ) As the method of fixing suggested in the previous section is in practice impossible , we propose to vary it by fixing , as far as possible , the highest and lowest points of the central radius .
+If we fix the centre , we have at This leads to , or , or These equations can accordingly be satisfied by a proper choice of and and involve nothing further .
+We now try to fix by , when O. This leads to The first of these gives us , which is incompatible with the previous value for , unless .
+In this case we have , or which us as the value of the sectorial angle for which we can fix both and B. It is this sector which has its centroid at the midpoint of its axis of symmetry .
+In the case of any other sect.or we can fix , and fix in the plane OAC , but must have power of slipping aJongO B. Assuming this condition satisfied , then since Solution for the Flexure of certain Cantilevers .
+settle the value of .
+It leads to , ( xxix ) where Infinities arise , as in the previous case , for , and , and we give briefly the results obtained by proceeding to the limits .
+Limit , Limit .
+And , accordingly , .
+( xxx ) .
+The second term of the series becomes infinite , and also the term in and accordingly , ( xxxi ) .
+The first term of series becomes infinite .
+Limit : .
+Hence ( xxxii ) 224 Miss M. Seegar and Prof. K. Pearson .
+De -Venant From these ] the following Table of values for was calculated : The values are plotted in the lower curve II of .
+It will be observed that for each sectorial angle the proportion of shearing deflection to bending moment deflection is less when we separate as far as possible the fixing points of the terminal section .
+In other words , de Saint-Venant fixing hypothesis tends to exaggerate the shearing deflection beyond what is likely to arise in any practical fixing , which must tend to fix points at a considerable distance from each other on the terminal section .
+( 7 ) We now turn to the annular sector which involves a number of interesting sections up to and including the tube with a longitudinal crack .
+Although the fundamental formula can be found for the value of in special and general cases , the arithmetic is so laborious that we must content ourselves with a definite ratio of internal and external radii .
+We have taken the thickness , , of the gutter or trough section to be one-tenth the external radius or .
+The solution is there for any other ratio , but it would require the urgency of greater practical importance to work out a complete table of results corresponding to the double entry , i.e. , as well as Let us first consider the de Saint-Venant method of fixing , i.e. , the fixing of a small element at the centroid as far as this is possible .
+is theoretically possible as long as the centroid remains within the area of the cross-section .
+But when falls outside the curtate sector\mdash ; for example , in the case of a semicircular gutter pipe , we could only fix by attaching the non-material point rigidly by material to the cantilever .
+But it will then be the method by which this material attachment is made to the terminal section , and not any purely mathematical relations of the non-existent plane element at which will determine the contribution of Solution for the Flexure of certain Cantilevers .
+shear to the droop .
+The values of for the de Saint-Venant fixing would thus be purely mathematical and not practical as soon as the centroid with increasing sectorial angle passed outside the annular sector .
+* To ayoid this difficulty we have modified the de Saint-Venant 's fixing , by fixing the elementary area not at the centroid , but at the midpoint , , of the material in the axis of symmetry .
+Clearly OH for our special case .
+If the " " gutter pipe\ldquo ; has a relatively small thickness the fixing of the highest and lowest points of the actual material , and , cannot give results differing widely from the fixing of the mid-elementary area , and it does not appear profitable for reasons just stated to fix any purely mathe- matical point .
+We have accordingly varied the nature of our fixing to one of a more practically realisable character in the following section .
+We have fixed the lowest point on the external boundary of the cross-section , and the highest points on the internal boundary of the cross-section , as far as this fixing is feasible .
+The result is of interest , for it indicates that to reduce the droop due to shear the fixing of the maximum number of points on the axis of symmetry is essential .
+The fixing of laterally situated points is not effective in diminishing shearing droop .
+We now turn to the equations for fixing the element at H. We will take , so that for our special numerical case The condition for the centroid passing out of the cross-section is or , for our selected value of , leading to Miss M. Seegar and Prof. K. Pearson .
+De Saint-Venant At the de Saint-Venant " " fixing\ldquo ; gives , and accordingly , from equation ( ii ) , which equation provides the value of , and from which equation by disappears , and the value of is provided as soon as is known .
+Lastly : from which equation again disappears , and we have the requisite relation to find .
+Writing it out at length , we find : where , as before , .
+( xxxiv ) As before , infinities arise when takes the values , and .
+All the terms of the series vanish except , and Limit : ) Hence .
+One infinity comes in with the term in , and a second with the first term of the series .
+We have Limit 1- .
+Solution for the Flexure of Cantilevers .
+And accordingly ( xxxvi ) .
+One infinity comes in with the term in , and :a second with the second term of the series .
+Proceeding to the limit : .and accordingly , ( xxxvii ) From formulae xxxvii ) the following Table for has been constructed .
+It indicates that the droop due to shear is greatest for the complete tube with a longitudinal slit along the top , but is never very significant , even for this case , amounting only to about per cent. , when the length of the tube is only five times its external radius .
+For semicircular and flatter " " gutter pipe\ldquo ; sections the shearing droop is negligible .
+This is , of course , on the assumption that a small element at the mid-point of the thickness in the median plane has been fixed in the de Saint-Venant manner .
+In the present illustration such a fixing can hardly differ practically from clumping the mid-thickness in a vice .
+The values of are plotted as I ) in the accompanying Diagram 228 Miss M. Seegar and Prof. K. Pearson .
+De It will be seen that , up to the semicircular trough , there is haldly any droop due to shear .
+( 8 ) We now turn to our last illustration , that of the " " gutter pipe\ldquo ; with the lowest point of the external surface and the highest points of the internal surface fixed as far as is feasible .
+The complete fixing of these points is not within the reach of the mathematical solution .
+We shall } realise the solution by the three points represented by pins parallel to the generators of the tube or portion of a tube , each carrying a nut .
+A rigid vertical plate has now cut in it a vertical and a horizontal slot .
+The two pins of the internal boundary work in the horizontal , the pin of the external surface in the vertical slot .
+In other words , the point on the mid-line of the external surface must have vertical play , and the extreme .
+points on the internal surface need horizontal play .
+The mathematical conditions are accordingly , when , when These conditions lead to which determines .
+Further : S whioh last two equations suffice to determine and , the first of the 230 Miss M. Seegar and Prof. K. Pearson .
+De Saint-Venant being the same for either .
+Subtracting to of we find , after considerable reductions , that , ( xxxviii ) where The infinities occur as in previous cases when , or .
+Since is always positive and greater than zero , provides no infinity . .
+All the terms of the series vanish , the factor except the first and the third .
+Limit ) , Limit .
+Hen ce .
+( xxxix ) .
+The first or term becomes infinite , and we must proceed to the limit of this term in conjunction with the term in have : Limit Solution for the Flexure of certain Cantilevers .
+Hence : ( x1 ) .
+The second or term becomes infinite in ( xxxviii ) , but is balanced by the infinity of the fourth term .
+We find : Limit Hence : From formula ( xxxviii ) to ( xli ) the following Table for has been computed .
+It ind cates straight off that the fixing of points off the axis of symmetry of the cross-section is far less effective than fixing points on the axis of symmetry in reducing the droop due to shear .
+The values of are plotted as II in The droop due to shear is clearly of no importance until the sectorial angle reaches .
+Then it rapidly increases , until becomes about 18 times as large as for the element-fixing when we deal with a split tube .
+While in the case of the complete sector we have seen that there is no substantial difference in the shearing droop between the cases of fixing a entroidal element ( de Saint-Venant 's method and fixing two points on the mid-section , we see that very considerable differences arise in the case of the annular or trough section according as we fix an element on the mid-plane , or a point on the bottom and two at the top edges .
+The physical reasons for this great difference in shearing droop are not immediately obvious .
+Expenmental testing of these two methods of ing would be fairly easy , and at the same time interesting results might be obtained by fixing on the terminal a larger number of points than are compatible with de Saint-Venant 's mathematical solution .
+The ideal mathematical solution to admit any , stress over the free end of the cantilever , no stress over the generators of the prism , and any shil.ts ( including the system ) over the whole of the fixed end .
+But , so far , such very yeneral conditions have defied mathematical treatment .
+Indeed , as far as we are aware , no solution of any importance has yet been obtained for an elastic body when it is subject to given shifts over one portion and given stresses over the remainder of its surface .
+

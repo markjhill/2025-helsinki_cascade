@@ -1,0 +1,814 @@
+]\gt ; [ 101 ] III .
+On Application of the of Error to of Distribution Correlation .
+W. F. SHEPPARD , Fellow of rinity C , Cambriclcf by Professor A. R. FoRSYTH , F.R.S. Received ( undel the title : ' On the Geometrical Treatment of the 'Normal Curve ' of Statistics \amp ; c. ) October 9 , 1897 , \mdash ; Read November 25 , 1897 , \mdash ; Revised July 15 , 1898 .
+CONTENTS .
+SECTION .
+PAGE .
+Introductory . . . . . . . . . . . . .
+102 PART OF THE lIAL UltVIi AN1 ) OF NORMAL DISTltIBUTIONS .
+The Normal Curve .
+1 .
+nition of normal . . . . . . . . . . . .
+104 2 .
+ltttion o family of ) 105 '3 .
+Limitation to curves so obtained . . . .
+105 4( .
+Staudard normal curve .
+5 .
+Moment-formulae .
+106 Surface of Revolntion of the Nor Cnrve .
+6 .
+solids and surfaces 107 7 .
+Normal solid and normal surface 108 8 .
+Normal solid is projective solid . . . . . . . . .
+108 9 .
+Converse propositions . . . . . . . . . . . . .
+109 10 .
+Value of C. . . . . . . . . . . . . . . . . .
+111 11 .
+esentation of segment of normal solid by an . . . .
+111 Theorems relating to Normal Distributtions .
+12 .
+Mefin squnres and mean products of composibe measurcs 114 dent normal distributions .
+14 .
+Correlated normal distributions . . . . . . .
+117 PART \mdash ; THEORY or ERROR .
+15 .
+Distribution of linear function of errors of random 16 .
+Tend ) of distribution to become normal . . . . . .
+17 .
+able error and probable discrepancy in mean , mean square , \amp ; c. . . . . . . . . .
+124 .
+Error in class-index .
+Meun }{qoares and prodncts of in of two 126 .
+Test of indcpendence of two distributions . . . . .
+128 , NORMAL Probable rors in mean and in semi-parameter by different 130 .
+Relative accuracy of the different methods . . . . . . . . .
+132 .
+Test of hypothesis as to normal distribution . . . . . . .
+TV.\mdash ; APPLICATION To NORMAL -solid of Two Attributes .
+CoITelation-solid in general . . . . . . . . . . . .
+138 26 .
+Correlation-solid for normal distributions . . . . . . .
+139 27 .
+Determination of divergence by double median classification .
+140 28 .
+Calculation of table of double classification . . . . .
+141 29 .
+Differential relation of and . . . . . . . . . .
+146 2 .
+) Application of the Theory of Error .
+30 .
+Probable error in ergence , as obtained by different methods .
+147 31 .
+Rclative accuracy of the different methods . . . . .
+150 32 .
+Test of hypothesis as to normal correlation . . . .
+151 TABLES .
+Table I. dinate of standard normal curve in terms of abscissa . . . . .
+153 Table .
+Abscissa of standard normal curve in terms of ordinate . . . . .
+155 Table III .
+Ordinates of curves of divergence-diagram in terms of abscissa 156 Table .
+Abscissae of CUl'ves of divergence-diagram in terms of ordinate 157 Table V. Table for calculation of probable error . . . . .
+159 Table of staudard normal curve in terms ot -index 167 Introductory .
+his 'Lettres sur la orie des Probabilites ' ( 1846 ) , QUETELET has shown that in certain statistics , e.g. } in statistics of height or of chestmeasurement , the curve of frequency is approximately of the same form as the curve known to thernaticians as the ' curve of error but better described for statistical purposes as th normal curve .
+A similar conclusion has been arrived at by later observers with regard to a large number of biological measur ments .
+The general similarity thus established has been extended , by Mr. GALTON , to certain cases of statistical correlation of two or more attributes .
+It has been found ERROR TO CASES OF NORMAL ) ISTRI B ANY ) ) 10.3 in these cases that not only are the curves of frequency of the separate attributes approximately normal curves , but the frequencies of joint occurrence of different measures of these attributes follow tely ) a } ) law , corresponding to the ] of correIation of errors of observation .
+Since we can never observe more than a finite number of , it is impossible to decide with absolute certainty as to the existence , in any particular case , of this ( or any other ) law of distribution or correlation .
+But if the number of observed individuaIs is large , and if they obtained by random selection from $ " " community\ldquo ; ( practically ) an indefinitely great number of individuals , the theory of error provides us with a test for deciding whether any particular law , suggested by the given observations , may be regarded as holding for the original community .
+The object of the present memoir is to obtain formulae for testing the existence , in any particular case , of the normal distribution and norrnal correlation described above .
+As the treatment of multiple correlation pres nts some difficulty , I have restricted myself to the cases of one attribute , supposed to be normally distributed , and of two attributes , supposed to be normally correlated .
+Where the hypothesis of normal distribution or of normal correlation may be crarded as established , there different methods of tl.eating the statistical data ; and these may Iead to different results .
+I have therefore given forululae for comparing the relative accuracy of diflerent methods of calculating the frequency-constants are required .
+The application of the formulae to actual cases is postponed until certain tables are completed .
+In the absence of these tables , KRAMP'S and ENCKE'S tables ( printed at the end of MORGAN'S article on the " " heory of Probabilities\ldquo ; in the 'EncycloMetropolitana may be used for cases of a single attribute .
+For cases of correlated attributes , I have given two methods of making a rough calculation of the ' ' theoretical\ldquo ; distribution , for comparison ] with the " " observed\ldquo ; distribution .
+These methods depend on theorems which can be conveniently expressed in a form .
+As the normal curve ] ends itself to , and as the fundamental formulae in the theory of error can be obtained by the use of ordinary I have attempted to make the memoir complete in itself by starting with a simple definition of the normal curve , and adopting GALTON'S definition of normal correla ; and by deducing the necessary theorems without the direct use of the rential or integral calculus .
+The normal curve may be defined in various ways , e.g. :\mdash ; ( 1 .
+) Equation , , where ( 2 .
+) Ordinary Equation , ( 3 .
+) Equation , ( 4 .
+) eometrical E , abscissa tangent constant .
+This follows at once from ( 3 ) ; for if is the foob of the central ordinate , and if is any other ordinate , and the tangent at meets OM in , then sub-tangent MT ( 5 .
+) tistical E , where denotes the mean power of the deviation from the mean in a distribution whose curve of frequency is a normal curve ; being any positive 'this relation follows from ( 3 ) .
+Since , by the definition , , it gives in terms of for all positive integral values of ; and it may therefore be regarded as the equation to the curve , the position of the central ordinate being arbitrary .
+Of these different equations the first is in some respects the most important , as it is the direct expression of the relation on which the special property of normal distributions deperlds ; the property , that is to say , that if the measures of a number of independent attributes are normally distributed , any linear function of these measures is also normally distributed .
+The second equation is , of course , essential for any numerical calculations .
+The last two , however , have certain conveniences when an ary investigation is desired .
+I have therefore adopted the geometrical definition of the curve , and have deduced the statistical equation ; and then have used either or both of these as occasion might require .
+The memoir is divided into four parts .
+Part I. deals with elementary theorems ; most of these are well known , but it is convenient to have them collected , and established by comparatively simple methods .
+Part II .
+contains the yation of the principal formulae in the theory of error as applied to numerical statistics .
+In Part III .
+these formulae are applied to cnses of normal distribution .
+Part IV .
+deals normal correlation , and is subdivided into two portions .
+first consists of a discussion of the more important phenomena which occur when two attributes are normally correlated ; while the second contains the applications of the theory of error .
+Some of the formulae given in Parts III .
+and .
+have already been obtained by Professor KARL PEARSON , but by a different method .
+PART I.\mdash ; GENERAL PROPERTIES OF THE NORMAL CUP .
+AND OF NORMAL The Curve .
+S1 .
+Definition of .\mdash ; Let be a fixed point in a straight line and let a point move so that , if MP is the ordinate to from ) , and PT the tangent at , intersecting in , the rectangle OM .
+IsIT is and Then the path of is a norrnal curve .
+OZ be drawn at right angles to , intersecting the curve in , and let points and A be taken in , such that OA .
+Then will be *It will be seen that some of proofs are only expressions , in geometrical form , of familiar of differentiation 01 integ-ration .
+ERROR TO CASES OF NORMAL DISTRIBUTION AND CORRELATION .
+called the of the curve , the base , OH the centrat , and the parameter .
+The curve is obviously symmetrical about the median , and to the base in both directions .
+The area bounded by the curve and the base will be called a normal figure .
+S2 .
+Formation of Family of Curves by Projection.\mdash ; Let a new curve be formed by orthogonal projection of a normal curve with regard to the base in any ratio .
+Let MP and NQ be ordinates to the original curve , and and NQ ' the corresponding ordinates to the new curve ( fig. 1 ) .
+Then : : NQ : NQ ' .
+Hence PQ and will intersect on the base .
+Let move up to and cid with M. Then PQ and become the tangents at and to the two curves , and therefore these tangents meet the base in the same point T. Hence for the secon curve we have also OM .
+, and therefore this is also a normal of parameter Similarly , if the curve is projected with regard to in the ratio , the new curve will be a normal curve of parameter , having the same median .
+S3 .
+to Curues so obtained.\mdash ; Thus , by projection of a single normal curve with respect to the base ) the median , we can get an number of ormal curves of parameters and different central ordinates .
+Conversely , if and are two normal curves placed so as to have the same base and the same median , either can be got from the other by projection .
+Let the parameters be and respectively .
+Project .
+into a curve of parameter , and let 2 denote the family of projections of with regard to the base .
+Then the tangent at each point of coincides with the tangent to the particular curve of 2 which passes through this point .
+Hence is one of the curves 2 , or else is the envelope of these curves .
+But the curves have no envelope at a finite distance .
+Hence is a projection of S4 .
+Curve.\mdash ; It is , therefore , convenient to take a standard normal curve , and to consider all other normal curves as obtained from it by projection .
+VOL. For the standal.d form we take the curve whose semi-parameter is unity , and area unity .
+The central ordinate of curve will for the present be denoted by ; we shall show later that .
+It is clear that if A is the area of a curve of parameter , its central ordinate is The curve may be traced by means of Table I. ( p. 153 ) .
+The second column of that table gives the ordinate of the standard curve in terms of the abscissa ; the third gives its ratio to the central ordinate .
+Table II .
+( p. 155 ) is formed by inverting this latter table ; it gives the abscissa in terms of the ratio of the ordinate to the central ordinate .
+S 5 .
+formulae.\mdash ; Let , be any two consecutive ordinates to normal curve whose parameter is .
+Draw and perpendicular to the central ordinate OH , and let and be the intersections of and of respectively ( fig. 2 ) .
+Then , if produced cuts the base in , we have , by similar triangles , Pp ' .
+MP Hence ( 1 .
+) rectan MPp'M ' .
+Pp ' .
+MP .
+MT .
+MT ; ( 2 .
+) rectangle MPp'M ' .
+MT .
+MT rectangle ; ( 3 .
+) rectangle MPp'M ' OM .
+MT rectangle The moment of the rectangle about OH is .
+Also when MM ' becomes indefinitely smaU , OM .
+MT .
+Hence , by summation , we see that If MP and NQ are any two ordinates , the moment of the area MPQN about OH is ( MP \mdash ; NQ ) ; If Pm and are the perpendiculars from and on OH , the second moment of MPQN about OH is area n ; RROR TO CASES OF NORMAL DISTRIBUTION AND CORRELATION .
+For the complete normal figure , the mean square of deviation from the mean is ; ( iii .
+) If denote the mean power of the deviation from the mean , which is the statistical equation to the curve .
+This equation gives 1 .
+The Surface of Revolution of the Curve .
+S6 .
+Projective Solids .\mdash ; Let 2 be a surface whose equation referred to three rectangular axes OX , , OZ , is of form . .
+Then if we take sections of 2 by a system of planes parallel to OZX , and project these sections on OZX , we obtain a system of curves which are the orthogonal projections of one another with regard to their common base OX .
+Similarly if we take sections by planes parallel to ozy .
+On this account it is convenient to call such a surface a projective surface .
+If the surface is terminated in all directions by the baseplane OXY , the volume included between this plane and the surface will be called a projective solid .
+For the geometrical definition of a projective solid it is sufficient that the solid should be bounded by a plane base oxy , and that two lines OX , OY in this plane , at right angles to one another and to a line OZ , should be related to the solid in such a way that the sections of the surface by planes parallel to OZX , when projected on OZX , form a system of curves in orthogonal projection .
+If this is the case , it follows at once , from the elementary properties of projection , that the same property holds for sections by planes parallel to The sections of the solid by the two sets of planes parallel to OZX and to OZY will be called principal sections .
+The following properties of a projective solid are easily obtained from the geometrical definition .
+Let WR and MP be any two ordinates , and let the other ordinates in which the principal sections through WR and MP intersect be NQ and .
+Then WR .
+( ii .
+) In one of the principal sections through an ordinate WR , take any two ordinates NQ and ; and in the other take any two ordinates and ( fig. 3 ) .
+Draw the principal sections through these-ordinates , and let them ] with the base and the upper surface ) a volume .
+Then WR .
+area NQQ'N ' ( iii .
+) From ( ii .
+) it follows that if we lix a principal section , and take vaiiable MR. W. F. SHEPPARD ON THli APPLICATION OF THE THEORY OF ordinates NQ and , the volume of the solid bounded by the other principal sections through NQ and is proportional to the area NQQ'N ' .
+( iv .
+) From ( ii .
+) it also llows that if V is the whole volume of the solid , WR any ordinate , and A and the areas of the principal sections through , then Let OH be tlJe ordinate passing through the centre of gravity of the solid , let and be the principal sections through OH .
+Then the central ordinates of all sections parallel to ( i.e. , the ordinates through their respective centres ofgravity ) lie in , and the central ordinates of all sections parallel to lie in S. S 7 .
+Normal Solid Normal Surface.\mdash ; Let the half of a normal figure of parameter , lying on one side of the central ordinate OH , be rotated about this ordinate through four right angles .
+The solid so formed will be called a normal solid , and its surface will be called a normal surface .
+The plane traced out by the base will be called the base-plane .
+A section of the solid by a plane perpendicular to the base-plane will be called a vertical section .
+S8 .
+Normal Solid is Projective Solid.\mdash ; Let be any vertical section of the solid , and MP any ordinate in this section .
+Draw ON perpendicular to the plane of the section , and let NQ } ) the ordinate at N. Let the tangents at to the section , and to the central section through MP section through axis ) , cut the base-plane in and respectively ( fig. 4 ) .
+Since PT and PT ' are tangents to sections through , the plane PTT ' is the tangent plane to the solid at P. But the solid is a solid of revolution , and therefore this plane is perpendicular to the plane OMP .
+The base-plane is also perpendicular to the plane OMP , and therefore the intersection is perpendicular to this latter plaue .
+Hence OT'T is a right lgle , and therefore a circle goes round ONT'T , so that NM .
+MT But the section by the plane OMP is a normal figure of parameter , and thereOM . .
+Hence also NM .
+; i.e. , the section is a normal figure of parameter , having NQ for its central ordinate .
+ERROR TO CASLS OF NORMAL DISTRIBUTION AND Fig. 4 .
+Thus every vertical section of the solid is a normal figure of the same parameter , having its central ordinate in the through the axis at right angles to the plane of the section .
+It follows from S : ; that the solid is a projective solid , any two vertical sections at right angles to one another being regarded as principal sections .
+S9 .
+Propositions.\mdash ; There are two converse propositions . .
+If two principal sections of a projective solid are normal figures of equal parameter , the solid is one of revolution .
+Let this parameter be .
+From S ' it follows that every principal section is a normal figure of parameter .
+The solid will obviously have a maximum ordinate OH ; and each of the two principal sections through OH will contain the central ordinates of all sections by planes perpendicular to it .
+Take any other section through OH ; and let MP be any ordinate in this section .
+Draw planes through MP cutting the principal sections through OH in ordinates NQ and .
+Then the sections NQPM and nqPM are normal figures of parameter , having NQ and for their central ordinates .
+Let the tangents to these sections and to the section OHPM cut the respective bases in ( fig. 5 ) .
+Then PT , PT ' , all lie in the tangent plane to the surface at , and therefore is a straight line .
+Also NM .
+, so that ON : NM : : .
+Hence the triangles ONM , TM are similar , and angle MTtangle NOM ; and therefore a circle goes round NOTT ' .
+Hence OM .
+, and therefore the section OHPM is a normal figure of parameter , having OH for its central ordinate .
+Thi6 is true for every section through OH , and therefore the solid is one of revolution .
+Fig. 5 .
+( ii .
+) Tf a soIid of revolution is also a projective solid , the generating figure is a normal figure .
+Let OH be the central ordinate .
+Then every vertical section is symmetrical about the plane through perpendicular to it , and any two vertical sections , if arranged so as to have their central ordinates coincident , will be interconvertible by projection .
+Let be any section through OH , and let NQ and be any two ordinates in this section , ON being greater than ON ' .
+Let the taYlgents to at and cut ON ' in and Describe a circle in the base-plane on ON as diameter , and draw the chord NM .
+Draw the ordinate , and let .
+the tangent at to the section MPQN cut MN produced in ( fig. 6 ) .
+Then MP is the central ordinate of the section MPQN , and therefore , since this section and the section OHQ'N ' are interconvertible by projection , it follows that Since QR and QT are tangents to sections through NQ , QRT is the tangent plane at Q. The solid being a solid of revolution about OH , this tangent plane must be perpendicular to the plane OQT .
+The base-plane is also perpendicular to the plane OQT , and therefore , which is the line of intersection of the tangent plane the base-plane , is perpendicular to the plane OQT .
+Hence OTR is a right angle , and therefore a circle goes round OMTR , so that ON . .
+NR In other words , the rectangle ON .
+NT is for different positions of , and therefore the central section is a normal figure .
+the angle between them being ; let them cut in the straight lines and and let cut V in th MPQN , bounded by the ordinates MP and NQ .
+Then ; and therefore , by S 5 , the moment of the area MPQN about OH is equal to .
+Hence , by GITLDINUS ' theorem , the portion of V included between and is equal to area p. By summation , we see that area The cylinder , with the curve , may be supposed to be wrapped on a plane .
+Hence when we given the central section of the solid , a plan showing the form of 2 and its position with regard to , we are able to construct , by geometrical methods , a curve whose will give us the volume V. Take a standard line on the plan .
+Through draw a line inclined to OX at an angle whose circular measure is , and let this line cut in points and N. Take abscissae and ON along the base of the given central section , and draw the ordinates MP and NQ .
+On a line take , and draw an ordinate such that NQ .
+The different points and corresponding to rent values of will form a curve , whose can be measured ; and this area , multiplied by , is the volume required .
+If the curve 2 closes the base of the principal ordinate OH , the continuity of the boundary of will be broken when the cylinder is unwrapped .
+The locus of the points is then the top of the rectangle representing the complete cylinder , and the area to be taken is the area eerl this , the sides of the rectangle , and the curve which is the locus of .
+Similarly , if any portion of the boundary of 2 is at infinity , the corresponding part of the boundary of will lie along the base of the rectangle representing the complete cylinder .
+The area is unaltered by projecting it at right angles to in the ratio 1 : , and parallel to in the ratio .
+Thus we shall have .
+NQ , the point taken so that .
+When the solid is the standard solid , it is convenient to take , and ; the unwrapped cylinder then becomes a square whose base is unity and height unity ; the values of and are given by the third column of Table I. ( p. 153 ) .
+If , for example , we divide the standard solid into twenty equal portions by nineteen parallel vertical planes , and if the cylinder is supposed to be divided along one of the lines in which it is cut by the central plane , and then unwrapped , and projected vertically in the ratio of 1 : and horizontally in the ratio of , we *Generally , let V be a portion cut out of a solid of revolution by a closed cylinder , whose generating lines are allel to the of revolution .
+Let denote the section of the solid by a plane the axis of revolution ; and let be a curve lying in the plane of and related to it in such a that any ordinate MP ( drawn to from a base right angles to the axis of revolution ) is proportional to the moment , about the axis , of that portion of which lies beyond .
+Then , if is given eometrically , and if the section of the cylinder and its position with regard to the axis are given , we can construct a figure whose area will be proportional to the volume V. Theorems Relating to Distributions .
+S12 .
+Mean Squares Mean Producbs of Composite Measures.\mdash ; Let , . .
+be a number of attributes , all of which exist .
+in every member of a community ; and let the measures of their respective magnitudes be denoted by , . .
+, R. Let the values of , . .
+be respectively , . .
+; let the mean squares of their deviations from their respective means be , . . .
+; and let the mean product of the deviatio1ls of any two and from their respective means be denoted by .
+Then , whatever the relations amongst the dist.ributions may be , The mean value of , where , . .
+are any con , is .
+; and the mean uare of its deviation from its mean is ( ii .
+) The mean product of the deviations of .
+and from their respective means is As we shall often require to use these last two expressions , it will be found convenient to express the mean squares and mean products in the form of a table , thus :\mdash ; S 13 .
+Independent Distributions.\mdash ; lf the different values of , in the class distinguished by particular values of , . . .
+, are distributed in the same way , whatever these particular values may be , the distribution of is said to be independent of the distributions of , . .
+, R. ERROR TO CASLS OF NORMAL DISTRIBUTION AND CORRELATION .
+If the distribution of is independent of that of ; the distribution of independent of those of and ; and so on , for , . .
+: then the distribut , ions of , . . .
+may be said to be mutually independent .
+Now suppose that each distribution , taken separately , is normal ; we require to find the disbribution of . .
+, where , . .
+are any constants .
+Consider first the case of two measures and M. Let their values be and , and let their mean squares of deviation from the be and .
+Let .
+Then the values of and of are distributed normally about mean values zero with mean squares unity , and the distribution of is independent of the distribution of .
+Take two lines OX , OY at right angles to one another , and on as base-plane construct the solid of frequency of values of and , these values being measured parallel to OX and OY respectively .
+Let be drawn at right angles to oxy ; and let and be two aIses whose equations referred to OX , OY , as axes are la .
+and respectively , where and have any values .
+Then the portion of the solid lying between and includes all elements representing individuals for which la .
+lies between and ; and therefore the number of these individuals is proportional to the volume of this portion of the solid .
+Denote this volume by V. Since the distribution of is independent of the dislributio1l of , the sections of the solid of frequency by planes parallel to OZX are figures which when projected on OZX are orthogonal projections of one another with regard to OX ; in other words , the solid is a projective solid .
+Since the values of are distributed nally with mean value zero and mean square unity , it follows from ( iii .
+) of S6 that the sections by planes parallel OZX are normal figures whose semi-parameters are unity , and whose central ordinates lie in ozy ; and similarly the sections by planes parallel to are normal figures whose semi-parameters are unity and whose central ordinates lie in .
+Hence , by S9 , the solid is a normal solid ; and therefore it may be regarded as a projective solid whose principal sections are parallel and perpendicular to the planes and .
+Through OZ draw a plane at right angles to and , cutting them in ordinates and , and cutting the solid in a normal figure S. Then the volume is proportional to the area of the figure S. Also Hence the number of individuals for which lies between and is proportional to the area , comprised between ordinates at distances and from the median , of a normal figure of semi-parameter unity ; and therefore , by S2 , it is proportional to the area , comprised between ordinates at distances and from the median , of a normal figure of semi-parameter .
+In other words , the values of la .
+are distributed normally with mean square ' about a value zero , and therefore the values of are distributed normally with this mean square*about a mean value Next take the more general case .
+Since the distributions of and of are independent and normal , the distribution of is normal .
+Again , since the distribution of is independent of the distributions of and , it is independent of the distribution of ; and therefore , since the distribution of is normal , the distribution of is normal .
+Proceeding in this way .
+we see that if the distributions of , . . .
+are mutually independent , and if each distribution , taken separately , is normal , the distribution of . .
+is also normsl .
+We might have obtained this result from the statistical equation of the normal curve .
+Let , . . . .
+Also 1etS denote the mean value of . .
+and let denote the mean value of .
+Then , since the distributions are independent , .
+Also , byS5 , , and ; and similarly for , . . . .
+Hence we see that\mdash ; Every term in the expansion of must contain an odd power of one at least of the quantities , . .
+; and therefore , by taking the mean , ; ( ii .
+) ( iii .
+) mean value of . .
+( the sumination being made for all positive integral values of , . . .
+satisfying the condition . .
+) 222 . .
+; and therefore , for all positive integral values of *The expression " " mean square\ldquo ; may generally be used , confusion , to denote the of clcviation from the mean , ERROR TO CASES OF DISTRIBUTION AND CORRELATION .
+Hence the values of .
+are normally distributed ; and therefore the values of .
+are normally distributed .
+S 14 .
+Normal Distributions.\mdash ; If , .
+are the measures of coexistent attributes , . .
+; and if the values of , in every class distinguished by particular values of , . . .
+, are distributed normally with constant mean square about a mean value , where , . .
+are the respective mean values of , . .
+taken separately , and , . .
+are constants : then the distribution of is said to be correlated with the distributions of , . .
+R. If the distribution of is normal ; the distribution of correlated with that of ; the distribution of correlated with those of and ; and so on , for , .
+: then the distributions of , . .
+may be said to be mutually correlated .
+We require to find , in this case , the distribution of , where , . . .
+are any constants .
+For convenience , consider only the case of four attributes , R. From the definition , we see that is equal to where is independent of , and , and is distributed normally with mean value zero .
+Similarly is equal to where is independent of and ; and is equal to where is independent of ; the values of of being distributed normally with mean values zero .
+Since is independent of and , and is equal to , it follows that is independent of and ; and similarly is independent of , and .
+Thus the distributions of , and are mutually independent .
+Also each of the measures , is a linear function of the measures therefore is a linear function of these measures It follows , from S 13 , that the values of are normally distributed ; i.e. , the values of are normally distributed .
+The argument obviously applies to any number of correlated distributions .
+This result might also be obtained by the second of the two methods given in the last section .
+II .
+THEORY OF ERROR .
+S15 .
+Distribution of linear function of errors of random selection.\mdash ; Let the individuals comprised in an indefinitely great community be divided into any number of classes , . .
+, and let the numbers in these classes be proportional to , . . .
+, so that . . .
+Suppose a random selection of individuals to be made , and let the numbers drawn from the different classes be respectively , . .
+, so that .
+Then , .
+are the errors in , We require to investigate the distribution of the different values of .
+for different random selections of individuals , , . .
+being any constants .
+( 1 .
+) If we only require the mean ) the mean square , we can most conveniently use the formulae of S .
+Suppose an indefinitely great number of random seIections to be made .
+Then the proportion of cases in which come from A and the remaining from the other classes is Hence the mean value of is ' ; so that the mean value of is zero ; and ( ii .
+) the mean square of is ; so that the mean square of is ( iii .
+) Similarly the mean vahJe of is ; therefore the mean product of and is .
+From these three results it follows that ( iv .
+) the mean value of . .
+is zero ; the mean square is . .
+; ERROR TO CASES OF NORMAL DISTRIBUTION AND CORRELATION .
+( vi .
+) the mean product of .
+and .
+is ( 2 .
+) Let denote the mean power of The proportion of cases in which the numbers drawn from the dilfeent classes are . .
+, where , is Hence the mean power of . .
+is . . .
+coefficient of in . .
+in .
+in . .
+Denote . .
+by .
+Tben , since . . . . . . .
+Hence , writing , . .
+for , . .
+, in bhe above result , we see that coefficient of in S16 .
+Tendency of Distribution to become Normal.\mdash ; We have now to prove that , when becomes very great , the distribution of values of .
+tends to become normal .
+To do this , we can use either the geometrical or the statistical definition of the normal curve .
+Of the two methods , the latter is the simpler .
+( 1 .
+) Since the mean square of .
+varies inversely , it is more convenient to find the distribution of W. F. SHEPPARD ON APPLICATtON OF THE EORY OP Let the mean power of this last expression be denoted by , so that By expanding the expression at the end of S15 , and writing for , we see that coefficient of in where , . .
+are functions of , . .
+, , . . .
+Denote by , and expand by the binomial theorem .
+Then the highest power of contained in comes from the term involving when is even , or from the term involving when is odd .
+Hence , when is made indefinitely great , and therefore the distribution is ultimately normal .
+It follows that the distribution of values of is also normal .
+It will be noticed that , when is finite , the number of terms in or increases with , and becomes infinite when is infinite .
+Thus the approximation of the actual distribution to the ultimate normal distribution is close as regards the low moments , being supposed to be moderately great , but is not close as regards very high moments .
+The rence between the two distributions is therefore due mainly to the values of which are great in comparison with .
+But these are values which only occur very rarely ; and therefore , for practical purposes , we may regard the two distributions as identical .
+( 2 .
+) To obtain the same result from the geometrical definition of the curve , we must use S 14 .
+To find the distribution of values of , we take a series of points , . .
+, at equal distances along a straight line ; and then draw ordinates , . . .
+equal to the coefficients in the expansion of , where .
+Thus where stands for Then , if is increased indefinitely , the locus of the points , . .
+will be a curve , which will be the curve of frequency of values of .
+ERROR TO CASES OF NORMAL DISTRIBUTION AND CORRE ATION .
+To find this curve , take a second series of points , . .
+at equal distances , and in such a position with regard to the former series that and at the points , . . .
+erect ordinates ( fig. s ) equal to the coefficients in the expansion of .
+Thus These ordinates lie in the successive intervals between the nates M . .
+; and it is easily shown that ( except where it is the maximum ordinate ) is intermediate in magnitude between and .
+Also we have But : : : ; and therefore lies in .
+It follows that , in the limit , becomes the tangent at Let meet in .
+Then Hence if we choose the point so that we have * When .
+is not infinite , the relation shows that , if denote one of family of normal curves of parametel having their median at , the sides of the polygon VOL. CXCII.\mdash ; A. Now let become indefinitely great , the point remaining fixed .
+Then this relation holds all along the curve which is the limit of the polygorl , and therefore this curve is a normal curve of paralneter 2 having its central ordinate at O. The mean value of is found by putting OM , which gives Thus the values of are distributed normally with mean square about a mean zero ; and therefore the values of are distributed normally with mean square ( ii .
+) Next , consider the distxibution of values of when certain other errors , as and , have rticular values .
+This distribution is found by taking an itely great of random selections , each containing individuals , and isolating those sets in the numbers drawn from the classes and are respectively and .
+From the principles of random selection it follows that the distribution of values of in these sets is the as if we made random select of individuals from that portion of the community which does not involve and C. Of this portion of the community , the class A forms a part denuted by the fraction .
+Hence the values of , the number coming from , are distributed with mean square about a mean .
+So as and are in arison with and , this is equivalent to saying that the values of are distributed with constant mean square about a mean value , where .
+Thus the distributions of , . .
+normally correlated ; and therefore , since the separate distributions are normal , the values of .
+are normally distributed .
+Since this argument only applies when , .
+are small , the result is subject to the limitation pointed out in ( 1 ) ( above ) .
+S17 .
+Probable Error and Probable Discrepcvncy.\mdash ; Let X be any magnitude is determined by observation of the ratios , . .
+Then X can be written in the form , .
+Now } ) to be very great .
+Then the values of , . . .
+are distributed normally with mean values zero and mean squares , . .
+; and therefore it may be supposed that in ally particular case the values of , . . .
+will be very the same slope at the points as the respective curves which pass through those points .
+Professor KARL PISARSON has arrived at a different resuIt ( ' Phil. Trans , vol. 186 ( 1895 ) p. 357 ) by forming he polygon and finding the " " slope\ldquo ; at the middle points of its sides .
+There is of course no discrepancy between the two esults , since they deal with diffel'ent polygons , and with points having different reIative positions on these polygons .
+The curve found by ofessor POARSON becomes the normal ctlrve when is made indefinitely great .
+To prevent misunderstanding , it should be pointed out that , in either case , the slope of the polygon at the points in question is not the same as the slope of any one curve of the family considered .
+Professor PBARSON'S statement as to the existence of a close relation between the binomial for " " the\ldquo ; normal curve seems to some qualification , ERROR TO CASES OF NORMAL DISTRIBUTTON AND CORRELATION .
+small .
+is of the form ; and therefore , by S16 , its mean value is , and the different possible values are distributed normally about this mean value with mean square If we den ote the expression in curled brackets by , the quartile deviation from mean is , where is the deviation of the quartile ordinate the central ordinate in the standard normal curve ( approximately* ) .
+The plications are of two kinds .
+In one class of cases X is a " " frequencyconstant\ldquo ; whose value is required .
+Its observed value differs from its true value by an error due to the paucity of observations , and is then the probable error .
+In the other class of cases the theory is applied to the testing of any hypothesis with regard to numerical statistics .
+The ferenoe between the observed and the calculated values of X is a , and we test the hypothesis that this discrepancy is due to paucity of observations by comparing it with the probable discrepancy .
+If the comparison is made for several different values of X , we ought to find that for about half of them the discrepancy is than the probable discrepancy , and that , amongst values , is in no case a very large multiple of .
+The following considerations will enable us to determine whether , in any particular case , the values of are or are not reater than we might reasonably expect .
+Let the different values of a magnitude S be distributed normally , with quartile deviation , about a mean value zero ; and let values be taken at random .
+Then , if the area of the standard normal figure lying between the ordinates at the points and is , the probability of one at least of the values of S being numerically greater than is .
+If we choose so that this may be equal to , the corresponding value of may , by analogy with the " " probable error be called the probable limit of S. The following table gives the values of determined by this condition , for values of from 1 to *The value of to 20 places of decimals is 67448 74320 , and its logal'ithm to 13 places is 53543 532 .
+The successive convergents to are ' ' , . . .
+For larger values of , the value of may be taken as equal to that given by CHAUVENET'S criterion for the rejection of one out of observations .
+MR. W. { .
+PPARD ON THE APPLICATION THE OF If of X were observed , and if the discrepancies were independent , it would be an even chance that in one case at least the ratio of the discrepancy to the probable discrepancy would exceed the given by the above table .
+As a matter of fact , the discrepancies are usually related ; but .
+if we bear this in mind , the table may be used to decide whether the greatest value of the ratio is such as to negative the hypothesis under consideration .
+For calculating , in either class of cases , it will not always be necessary to express in terms of , If the of X depends solely on the values of certain frequency-constants , and if , . .
+are the errors in these frequencyconstants , then may be written in the form . .
+The errors , . .
+being of the form .
+, their mean squares and mean products can be found ; and thence the mean square of .
+can be obtained by the general formula given in S 12 .
+The expressions for the mean squaxes and mean products of the errors in frequency-constants of certain particular forms will be found in SS 18 and 19 .
+The true values of , . .
+: or of the frequency-constants on which X depends , are not ; and therefore , in , we can only use the observed values , . .
+But , being great , the mistake so introduced in is small in comparison with itself .
+In general , it is sufficient to determine within about 1 per cent. of its true value .
+It will therefore be found simplest to calculate , and then to take out the corresponding value of from Table V. ( p. 159 ) .
+This table gives , for any given value of , within from8 to 08 per .
+of its true value .
+S 18 .
+Error in Mean , Square , .\mdash ; Let the mean value of a measure ( in an indefinitely great community ) , and the power of the deviation from the mean , be denoted by and respectively .
+Also let the actual values of be , . .
+; and let the relative requencies of these values be , Thus we .
+Now let a random selection of individuals be made , and let the numbers for which has the values , . .
+, be respectively , , .
+Then ( SS15 , 16 ) the mean of . .
+is zero ; its mean square is ; the mean product of and . .
+is ; and , being to be great , the values of or of are normally distributed .
+Hence we obtain the following results:\mdash ; The calculated value of is .
+Thus the error in is .
+, and therefore this error is distributed normally with mean square ERROR TO CASES OF NORMAL DISTRIBUTION AND CORRELATION .
+( ii .
+) Denote the error in by .
+Then the value of is ; and therefore the error in is Hence this error is distributed normally with mean square In particular , the mean square of the error in is ( iii .
+) The mean product of the errors in and in is In particular , the mean product of the errors in the mean and in the mean square of deviation is ( iv .
+) The mean product of the errors in and in is .
+S 19 .
+Error in \mdash ; Let the values .
+, in S 18 , be supposed to be in order of magnitude , being least ; and let X be any possible value of , not coinciding with any one of these actual values .
+* Let the two classes for which is respectively less and greater than X be denoted by and , and let the numbers in these be in the ratio of : ; then will be called the class-index of X for classification according to values of L. Its value ranges from to If a representative selection of individuals were made , the numbers coming from the two classes would be and ; so tlJat .
+Suppose however that the selection is a random one , the errors being as in S 18 .
+Then , if we take X as between and the observed is . . .
+, and therefore the " " error\ldquo ; in is . .
+\mdash ; . . .
+Hence:\mdash ; By considering the division of the community into the two classes and we see from S 15 and ( ii .
+) that the error in is distributed normally with mean square about a mean value zero .
+*This limitation does not introduce any difficulty in the case of continuous variation , since the frequency of any single value is then nitely small .
+( Cases in which the curve of frequency has an infinite ordinate are excluded from consideration .
+) ( ii .
+) Let be another class-index .
+The lines of division corresponding to these two class-indices divide the community into three classes , whose numbers , pro- portional to quantities , where .
+From S 15 ( iii .
+) it will be seen that the mean product of the errors in and in is ( iii .
+) Let the values of for the classes and be respectively and , so that .
+Then it will be from S15 ( vi .
+) that the mere ] producb of the errors in and in is ; and that the mean product of the errors in and in is The following table shows the geIleral results obtained in this and last section ; for convenien ce , the divisor is omitted throughout .
+S 20 .
+Squares and Products of Errors in Case of Two Attributes.\mdash ; Let be the measure of a second attribute , its mean value , and the mean qth power of the deviation from the mean ; and suppose that each in S18 denotes the proportion of individuals for which and jointly have certain specified values .
+Let denote the mean value of , so that Then it will be found that the error in ( i.e. , the error produced by taking as equal to the average of , where and are the respective deviations of and from their averages for the individuals ) is of the form , and therefore is distributed normally ; its mean square being \mdash ; \mdash ; \mdash ; in is .
+For the mean squares and mean products of , we have the table\mdash ; from which it will be found that the mean square of the error in is S21.\mdash ; Test of Independence of Two Distributions.\mdash ; For an illustration of the application of the theory of error to testing statistical hypotheses , let us take the case of two independent distributions .
+The criterion of independence of the distributions of two measures and is that , if denotes the proportion of individuals , the complete community , for which lies between aIJy two values and and if denotes the proportion for which lies between any two values and then the proportion for which both these conditions are satisfied is .
+Hence , in to test the hypothesis of independence when individuals have been obtained by random selection , we must arrange them in a table of double entry , thus:\mdash ; then form a new table by each number in this table by , so as to show the proportions in the different classes ; and then consider whether the discrepancies between these proportions and the corresponding proportions in a table showing independent distribution are such as might be accounted for by random selectiou .
+ERROR TO CASES OF DISTRIBUTION AND CORRELATTON .
+Let the following table represent the proportions , in the original community , the individuals specified:\mdash ; and let be the errors in V , V ' , W Thus , If the distributions are independent , ; i.e. since , W V\fnof ; mV Hence since By S 15 it will be found that the mean square of this discrepancy is ; and therefore the " " probable discrepancy " " is .
+By calculating this expression for each number in the table , and comparing the actual discrepancies , as , with the values so obtained , we have data for deciding to the validity of the hypothesis of independence .
+The owing example of a case in which , on priori grounds , we should expect to find independence , will serve as an illustration .
+The table is compiled from a list of school-teachers who passed a celtain examination .
+By multiplying each total of a row by each total of a coJumn , and dividing each product by , we get the " " calculated\ldquo ; table VOL. CXCII.\mdash ; A. ERROR TO CASES OF NORMAL ) STRIBUTlON AND CORRELATION .
+determined when the mean value and the semi-parameter are determined .
+When the values of for individuals obtained by random selection are given , the values of and of can be found in either of two different ways .
+( 1 .
+) We can find the average and the standard deviation ( square root of average square of deviation from the ) of the individuals .
+The average will differ from by an erlor whose mean square S18 is , so that the probable error of as found in this way is ; and ( S18 ( ii .
+) ) the square of the standard deviation will differ from by an error whose mean square is ( S5 ) ; so that the probable error in will be .
+These are falniliar results .
+( 2 .
+) The other method is that which has been mainly used by Mr. GALTON Let and be any two class-indices , and let X and be the corresponding of in the complete community .
+Then , if and the abscissae ding to class-indices and in the standard normal figure ( i.e. , if ordinates at distances and from the central ordinate divide the figure into areas whose ratios are and respectively ) , we have .
+Whence ( ii .
+) .
+Now let be the errors in the observed values of X ) of ; i.e. , let be the class-indices of and in the collection of individuals .
+Then , if we deduce the values of and of from ( ii .
+) , the resulting errors are and respectively .
+Now the errors and are due to errors and in the dass-indices of X and , where and are the ordinates of the standard normal figure corresponding to abscissae and ; and therefore ( S19 ) the mean squares and mean product of and are .
+Hence the probable errors in and in found from ( ii .
+) , are respectively Q. and Q. , where * It seems convenient to use the " " standald ) viation " " in seu , as denoting which has a definite value for the particular data .
+GAL , ' Natural } ) .
+( 3 .
+) As an extension of last result , let X , , . . .
+be values of corresponding ( in the complete community ) to class-indices , . .
+, and let the corresponding abscissae in the standard figure be , . .
+Then , . . .
+; and therefore . .
+, where . .
+, . .
+are any quantities which satisfy the conditions .
+Suppose that we fix on the values of , . . .
+beforehand , and choose , . . .
+, , . . .
+to satisfy ( ii .
+) , and then observe the values of whose ndices in the collection of individuals are , . . .
+If the errors in these values are , , the resulting errors in and in will be and ; and therefore the probable errors in and in , as deduced from , are Q. and Q. , where ( iii .
+) .
+For any particular values of , . .
+, the values of , . .
+, . . .
+can be chosen so as to reduce or to a minimum .
+S23 .
+Rdative Accuracy of the Different Methods.\mdash ; Now let and be the errors in and in as obtained by the method ; i.e. , the errors due to taking them as equal to the average and the standard deviation of the individuals .
+Also let the class-index of X , in the individuals , be , the true class-index of X being .
+Then , with the notation of S 19 , the mean values of and of are respectively - and .
+But , by S5 , .
+Also the error in X is due to the error , and is equal to .
+Thus we have the following table of mean squares and mean products of errors , the divisor , as usual , being omitted:\mdash ; RROR TO CASES OF NORMAL DIST AND LATlON .
+The true value of , of course , is zero ; so that the " " exror\ldquo ; in is the difference between X as determined by direct observation of the value whose class-index is , and , as determined by calculating the average and the standard deviation .
+This error is ; and therefore , if we write , the last table shows that the mean products of and , taken in pairs , are zero .
+Hence we deduce the following conclusions:\mdash ; ( 1 .
+) The mean square of is greater than the mean square of Hence , if we fix a class-index , corresponding to abscissa in the standard normal figure , and if X denote the unknown value of whose class-index is , the probable error in X as obtained by direct observation is greater than the probable error in the value obtained by calculating the average and the standard deviation , and deducing X from the formuia .
+The following table , for instance , gives the probable errors in certain values which are often chosen for exhibiting the frequencyconstants in any particular case : * This shows that .
+Hence , if OH is th ' , central ordinate , and MP uny other ordinate , of a normal figure of parameter , and if and are the areas iuto which the figure is divided by MP , the product is greater thau .
+The l.esult , of coul.se , only holds when we know that the distribution is normal .
+When we know nothing about it , the corresponding to any rticular class-index can only be obtained by observation .
+MR. W. 1 !
+' .
+8IiLPPARD TH PPLIC A 1ON OF } ( 2 .
+) If we take as equal to the average for the , and find observing the values of whose class-indices are and respectively , the mean square of the resulting error in is where has the value given in S 22 ( 2 .
+) ; and similarly , if we take as equal to the standard deviation of the individuals , the mean square of the error in is .
+Hence and are respectively greater than and ; in other words , the probable errors in the values of and of as determined by the formulae ( ii .
+) of S22 ( 2 .
+) , are greater than the probable errors in their vffiues determined by the average-and-average-square method of S22 ( 1 .
+) .
+If , for , so that the observed values are the two quartiles , the probable error in as determined by ( ii .
+) of S22 ( 2 .
+) is , which is 11 per cent. greater than the probable error due to the average-square method ; and the probable error in is , which is nearly 65 per cent. greater than the probable error due to the average-andaverage-square method .
+If we are unable to calculate the average and the standard deviation , we should * When the quartilcs observed , it is also usuaI to observe the " " median for which .
+If wo take the al'ithmotic me of the median and the two quartiles , the probable error due to laking this as the value of is reduced to , which is less than 8 per cent. excess of the probable elror due to taking the average .
+If X and are the quartiles and the median , it may be shown that the best result from these data is obtained by giving to and weights in the ratio of 2 , and the error in the mean is then The first two convergents to the above ratio are 2 : 1 and 7 : Ci , so that is a slightly better value than I have assumed that the quattiles , \amp ; c. , are found by actual observatiou .
+But there is reason to belisve that their values are sometimes obtained by faulty methods of interpolation .
+This does not affect the magnitude of the probable orrol , but it affects the calculated values of and of RROR TO CASES OF NORMAL DISTRIBUTTON AND LATTON .
+choose and so as to make the values of and of small as possible .
+It is obvious that one of the class-indices must be positive and the other negative .
+Suppose to be negative , and equal ; it will be found from 's tables that is a minimum when are each taken a little greater than the probable error in the mean being then the probable error due to using the tiles ; clnd that is llinimuln and are each taken little less than , the probable error in the semi-parameter being then , which is about 25 per cent. less than the probable error due to using the quartiles , but nearly 24 per cent. greater than that due ) the average-and-average-square method .
+( 3 .
+) Suppose the values of the mean and of the semi-parameter to be found by the extended class-index method of S22 ( 3 .
+) .
+Then , with the notation used above , the Tors in the observed values of X , , . .
+of the form , . .
+where , . .
+are whose mean products with , and also with , are zero .
+Substituting in ( i.)of22 : } .
+, taking account of , we see that the resulting errors in and in due to this method are respectively .
+and Hence if and the mean squares of and of the mean squares of the errors in in , due to the use of the class-index method , are and ) .
+Since these are necessarily greater than and respectively , the probable errors in and in due to method are greater than the probable errors due to the average-and-average-square method .
+In other words , we cannot , by observation of the values corresponding to particular class-indices , obt.ain such good results for and as by calculating the average and the standard deviation .
+* ( 4 .
+) Generally , let be any quantity which would be known if the true mean and mean , uare of the distribution were known ; let be the value obtained by taking the mean and mean square as equal to the average and the average square for the observations , and let be the value obtained by any other method involving observation of the class-indices of any finite number of values 0 , with or without the a Professor EDGEWORTH'S contrary statement Phil , appears to be based neglect of correlation of errors .
+use of the and the average square .
+Let and be the mean squares of the errors in as determined by the two methods .
+Then it may be shown that the mean square of the involved in taking as the value of is .
+Since this must be positive .
+it follows , by taking , that must be eater than ; and therefore gives a better value of than R By taking we see that the quarti ] of is S24 .
+Test of Hypoth esis to Normal Distribution.\mdash ; To test whether any particular distribution is normal , we use the result obtained at the beginning of the last section .
+Having found the average and the standard deviation of the ?
+individuals , calculate , the value should correspond to class-index .
+The diffel.ence between this and the observed value X is a discrepancy whose mean square is , so that the probable discrepancy is ; and the actual discrepancy has to be compared , for as many values of as possible , with this probable discrepancy .
+Suppose , for instance , that we take the chest-measurements of Scotch soldiers , which QUETELET refers in the work quoted aboye:\mdash ; , to the nearest inch , of 5,732 Scotch soldiers .
+The values of the average and of the standard deviation cannot , of course , be calculated exactly ; as the most probable values we find inches , inches .
+we get the following results:\mdash ; *dinburgb Medical Journal , ' vol. 13 , pp. 260-262 .
+QUETELET made some mistakes , which I. have correcfed , in transcribing the figures .
+The formula for calculating the s deviation has been given by me in a paper " " On the Calculation of the most Probable Values Frequency .
+Constants , \ldquo ; in vol. 29 of the ' Proceedings of the London Society ' ( p. The valoes givon in the text are obtained by a first approximation .
+A second approximation might be made by assuming that the data represent the resuIt of a random selection from the normal distribution given by the first approximation ; but this correction would not alter any discrepancy shown in the table by as much as 1 per cent. , and it may therefore be omitted .
+RROR TO CAShS OF NORMAL UTION AND CORR L The extremities of the range are considered , the values of or a small when is nearly equal to , so the of normal distribution does not hold with to the errors in these values ; , moreovcl , is nging .
+rapidly , so that is not exactly proportional to .
+For the ten considered , the actual discrepancy is less than in four tses , greater in six ; for nine of them the ratio of the within the limit ( S17 ) .
+The ratio is rather large ) otherwise the appear tojustify the hypothesis of distribution *TLe showu in column correspond to tho ional valncs of ven by the , \amp ; c not to the neal'est decimal as shown in the sccolld colunlll , \amp ; c tities shown in the final columu tho tiob of ititics given in tho ilus .
+lf these taken to the fifth placc of deciulals , the last figul.e in some of the atios m be ; but it is not necessary to make such exact calculations ( S 17 ) .
+It should be remembered that when the obable discrepancy is small , the possibility of of must considen e ; thus an inaccuracy of one-hnndredth of au inch in a division of bo near 40 inches would :an apprcciable in the atio of the to the Also it ( should bo lloted in the plcsent case that the individuals came from of , so that the " " community\ldquo ; really hetcl.ogcneous ; and it is at emcnls i different } by diffcrent obscrvers , with differcnt ) tions , and not taken with as great carc would bo obsel.ved at the prcscnt .
+On othor hand , as exact mcasurements aro not given , but only the moasurements to tho ncal c values of and of fitted closely to the class-indices than they bhould be ; and obable discrepaucy should thel.efore be less than that given by the VOL. CXCII .
+\mdash ; A. .
+W. F. SHEPPARD ON THE APPLICATION OF THE THEORY OF PART \mdash ; APPLICATION To NORMAL CORRELATION .
+( 1 .
+) Correlation-Solid of Two Attributes . .
+Correlation-Solid in General.\mdash ; Let the values of and of , the measures of two coexistent attributes A and , be distributed in any ma , nner whatever .
+Let and be the means , and and the mean squares deviation from the mean .
+Then we know that the mean value of is less than ab .
+Let this mean value be ; then the angle will be called the divergence of the two distributions .
+Take two lines OX , OY , including an angle , and on as base-plane construct the solid of frequency of values of and these values being measured parallel to OX and OY respectively .
+Thus if we draw Ox at angles to oy , and Oy at right angles to OX , and if on Ox and Oy respectively we take ON ' , O and then the portion of the solid included between planes through and at right angles to and planes through and at right angles to includes all the elements representing individuals for which lies between and and between and This solid will be called the correlationsolid of the two distributiolR The ordinates are supposed to be measured on such a scale that the total volume of the solid is unity .
+Let , and let the means , mean squares of deviation , and mean product of deviation of and be respectively , and Thell ab Let WR be any ol.dinate of the correlation-solid , the ates of with to OX itnd OY being and ; and let .
+Then WR is proportional to the number of individuals which and , and therefore it is proportional to the number for which .
+Tbrough the , whose equations refelTed to OX and OY as axes are ; and draw WN parallel to OX ' in ( fig. 9 ) .
+Then ON X'OY ' ; and similarly NW .
+Hence the solid is the solid of frequency of values of and } values being measured parallel to OX ' and OY ' respectively .
+Also ERROR TO CASES OF NORMAL DISTRIBUTION AND CORRELATION .
+and therefore .
+Hence the solid is the correlation-solid of the distributions of and , OX ' and OY ' being taken as axes .
+Thus the correlation-solid of the distributions of and is the same as the correlation-solid of the distributions of and , where , on , any constants whatever .
+It may be noted that if and are the divergences of the distribution of from the distributions of and of we .
+Or , generally , if the divergence may be supposed to be either positive or negative , and if are measures connected by a linear relation , their divergences from one another are subject to the relation S26 .
+Correlation-Solid for Norrnal Distributions .
+Now suppose that the distribution of is correlated with that of , i.e. , that the values of are distributed normally with mean square , and that for any particular value of the values of are distributed normally with constant mean square about a mean value , where is a constant .
+Then we may write , where is a measure whose values are distributed normally with mean square about a mean value zero , this distribution being ndependent of that of M. Hence the mean square of is , and the mean product of and is ; so that , if is the square of , we have D. Thus for any particular valtle of the values of are distributed normally with mean must , of course , allow for the possibility of two solids , which identical , ppearing to be the " " reflexions\ldquo ; of one another .
+square unity about a mean value D. Hence the correlationsolid is a projective solid whose vertical sections by planes parallel to OX are normal ures of semi-parameter unity ; and since the values of are distributed normally with mean square unity , the sections by planes at right angles to OX are also normal figures of semi-parameter unity ; i.e. , the correlation-solid is the standard normal solid .
+( ii .
+) By taking vertical sections parallel to OY , we see that the values of are normally distributed , so that values of are normally distributed ; and that in any class distinguished by a particular value of the of are distributed normally with mean square about a mean value D. .
+In other words , if the distribution of is correlated with that of , the distribution of is correlated with that of L. ( iii .
+) Conversely , if the correlation-solid of two distributions is the standard normal solid , the distributions are normal and normally correlated .
+( iv .
+) We have already seen ( S14 ) that when the distributions of and of are normally correlated , the values of are distributed normally .
+We might obtain this result directly by the method adopted at the beginning of S13 .
+the base-plane draw the lines whose equations , referred to OX and OY as axes , are D. D. , and D. D. .
+Then the vertical planes through these lines will include between them the elements representing individuals for which lies between and .
+Draw the central vertical plane at right angles to these planes , cutting the two sections in the ordinates and .
+Then the number of these individuals is proportional to the area , i.e. , it is proportional to the area of the standard normal figure included between ordinates at distances and from the median ; and therefore the values of are distributed normally with mean square about the mean value Since ( S25 ) the correlation-sohd of the distributions of and of is also the standard normal solid , it follows ( see ( iii .
+) above ) that these two distributions are normally correlated .
+S27 .
+Determination of Divergence by Double .\mdash ; The portion of the solid which lies on the positive side of each of the two planes and OZX ( being the axis of the solid ) represents all the individuals for which and are greater than and respectively ; and the portion which lies on the negative side of OZY and the positive side of OZX represents those for which is less than and greater than .
+But , since the solid is a solid of revolution , these volumes are in the ratio of : D. , if we the whole number of individuals in fonr dasses , thns : E RROR TO CASES NORMAL DISTRIBUTION AND LATION .
+the gence is equal to S28 .
+Calculation of -Tabte of Double .\mdash ; In the base-plane Oy at right angles to OX , OY , and therefore including an D. In Ox take ON , ON ' ; and in Oy take On .
+Through these points draw vertical planes at right angles to Ox and Oy respectively ; then ( S 25 ) the volume of the portion of the standard solid included between these four planes represents t , he proportion of indiyiduals for which lies between X and X ' and between and The calculation of this requires the use of the calculus .
+For , ' rough calculation we may use either of two methods .
+( 1 .
+) The planes by which the volume is bounded will meet the base-plane in lines forming a , two of the sides of the parallelogram being at right angles to Ox , at distances and from , and the other two at right angles to Oy , at distances and from O. Now suppose that the base-plane is divided up into very small areas such that the portions of the solid lying above these areas are all equal .
+Then the ratio of the number of these areas which lie inside the parallelogram to the total number will be the proportion of individuals for which lies between X and X ' , and between and .
+For effecting this division of the base-plane into small areas we can use either of the two characteristic properties of the normal solid .
+The solid is a projective solid .
+Hence if we find the values of corresponding to , . . .
+, and if we take the corresponding points on each of two rectangular axes in the base-plane , an draw lines through these points parallel to and to respectively , the two sets of lines will divide the base into areas , corresponding to the division of the solid into equal portions .
+Fig. 10 shows the arrangement of these lines for ; thus figure contains 10,000 rectangles ( one or two of the sides of some of them being at ) , and each rectangle represents 1/ 10,000 of the whole volume of the solid .
+The centre of the figure is shown by a small circle .
+The larger circle is introduced to show the scale ; its radius is the semi-parameter of the solid , and is therefore the unit for the distances , \amp ; c. The values of corresponding to are given in Table .
+( p. 167 ) ; so that *This formula applies in any case in which the correlation-solid is solid of revolution .
+by means of this table we can divide the base into 40,000 area , , each representing 1/ 40,000 of the whole volume .
+To simplify the counting of the areas , every tenth line should be drawn in ink , the others being in pencil ; a dot should be placed in each area ) , and the pencil lines should then be erased .
+There will thus be 400 larger areas , each containing 100 dots .
+It will be found convenient to replace the circle shown in fig. 10 by a larger graduated circle ; if the radius of this circle is , and if Ox cuts the circumference of the circle in , the line at right angles to Ox at a distance .
+from will cut the circumference in points at an angular distance F. The lines Ox , Oy , \amp ; c. , may be shown on tracing-paper , instead of on the figul.e itself ; and the may then be turned round into two or three different posi- tions , so as to lninimise inaccuracies of counting .
+Or the figure may be copied on to a glass plate , and the lines , Oy , \amp ; c. , drawn on ordinary paper .
+( ii .
+) The solid is a solid of reyolution , therefore can be divided into equal pol.tions by a set of planes through the central ordinate at successive angular distances , and a set of concentric enclosing portions . .
+of the whole volume .
+Let the cylinder cut a central section in the ordinate .
+Then , if OH is the central ordinate , ( S$ 5 , 11 ) .
+Hence the radii of the successive cylinders are the abscissae of the standard curve corresponding to ordinates whose ratios to the central ordinate are respectively , . . .
+Thus for the values are given by Table II .
+( p. 155 ) .
+This method of division of the base-plane is not so convenient as the method explained in , but it may be used for testing the accuracy of a figure constructed according to that method .
+If on such a figure we draw circles with the radii given by Table II .
+, each of the rings so formed should contain one-hundredth of the total number of dots in the figure .
+Or , if we draw circles with radii , 15 , . .
+, the numbers in the successive rings should be proportional to the differences shown in the fourth column of Table I. ( 2 .
+) A more accurate method can be adopted when the values of X and X ' , and those of and , have been chosen so as to correspond to particular classindices .
+Let these be , and respectively , and let the corresponding abscissae of the standard normal figure be , and .
+Thus .
+Now if , by the method of S11 , we construct a figure representing the division of the standard solid by parallel vertical planes at distances and from OH , and also a corresponding figure for distances and , the bases of the two figures being in the same straight line , and the distance between corresponding extremities being equal to of either base , the area formed by the two pairs of curves will give the proportion of individuals for which Llies between X and X ' , and between and .
+The most important case is that in which the class-indices for each distribution separately correspond to the For practical applications of this method , it is sufficient have the single figure as shown in fig. 7 .
+The curves representing the displacement of the figure through the distan ce ) can then be traced by means of a double-barred parallel rule or an antigraph .
+But it is better to draw the curves directly from Tables III .
+and IV .
+* S29 .
+of V D.\mdash ; Let V denote the proportion of individuals for which exceeds X , and exceeds .
+Then V is the volume of the solid lying 011 the positive side of the vertical anes drawn through ( S28 ) at angles to ON and respectively .
+Let the sections of the solid by these planes intersect in the ordinate ; and let them meet the base-plane in the and respectively .
+Let denote the value which V would have if the divergence , instead of being , were , the values of ON and On being unaltered .
+This alteration in the value of V might be obtaincA by keeping ON and fixed , and rotating On and bout Oough an .
+Now suppose that is very small .
+Then bhe consecutive positions of the vertical section through will intersect close to the ordinate at ; and therefore is the volume ined by rotating the area about the ordinate at through an angle .
+Hence , for a first approximation , we have ( S 5 ) .
+We might havo obtained this result by considering the alteration , due to change of into , of the diagram constructed in the manner explained in the last section .
+The area which is equal to V is bounded by the base and by two curves at a point whose height above the base is .
+WR ; and the decreInent is obtained by shifting one curve laterally through a distance .
+Hence .
+Let the two curves , at their point of intersection , be inclined to the base at angles and .
+Then it be seen that for a second approximation we have The ordinate WR is the ordinate , for abscissa , of has been suggested that the one set of curves mi be on a board or stiff card , and the other on a thin sheet of some transparent substance ( e.g. , of talc ) , which could be slipped across face of the card .
+This , bowevel\ldquo ; might require curves to be drawn on too small a scale to be really useful .
+Table III .
+can be used for drawing the curve corl'esponding to any value of given in the table .
+If and are the abscissae of the standard curve corresponding to class-indices and , the equations to the corresponding curves of the divergence-diagram are and .
+Hence , for any particular of , we have Iog .
+The value of being given by the table , the value of may be deduced by means of an ordinary slide-rule and a pair of proportional compasses .
+The methods described in the text can be extended to the problems which occur in the theory of the in the position of a point in a plane ( as in BRAVAIS ' memoir , referred to by Professor PEARSON ) .
+Thus the condition that ffie point lies within an area limited by the curve is found by taking the curve of S 11 to be curve whose equation , referred to axes including an angle is , and then counting the dots or measuring the corresponding -area .
+ERROR TO CASES OF NORMAL DISTRIBUTION AND CORRELATION .
+the normal curve of semi-parameter unity and central ordinate area ; where Applications of the Theorrt of Error .
+S 30 .
+Probable Error in Value of Divergence , as by Difl'erent Methods.\mdash ; Let the distributions of and of be normally correlated , the means , mean squares of deviation , and mean product of deviation , being , and ab D. If a random selection of individuals is , the divergence can be found any one of several different methods .
+We require to find the probable error in , due to the use of each method .
+( 1 .
+) Suppose that we take the averages , average squares , ) average product , ss equal to the means .
+mean squares , and mean product the ] community .
+The general expression for the resulting error in has been found in S20 .
+To find the values of , 1 , and , 3 , in the case of normal correlation , we write ) ; then and are independent , and their mean squares are respectively and D. The mean fourth power of is ; and we find , D. The table in S20 becomes and hence we find that the probable error in , due to adopting this method , is ( 2 .
+) Let be determined by the method of S27 .
+Let the medians as given by the data be respectively and , and let the result of the double median classification be so that Let ; and let the classification of the observed individuals with regard to the true means of the complete communiby be Then the erroneous values and are obtained by shifting the medians so that this may present the appearance of the former table .
+Thus is shifted so as to dividuals , and is shifted so as to transfer .
+In the first case the particular individuals are in the class for which ( to a first approximation ) ; and the median of for this class is at , so that half of the are put from class ( C ) into class ( D ) , and half from ] into class ( B ) .
+Similarly half of the are put from ( A ) into ( C ) , and half from ( B ) into ( D ) .
+Hence ; and the error iu is This error is distributed.with mean square ; and therefore the probable error in as by the second method is ) probable error is of course greater than the probable error due to using the method of ( 1 since ( 3 .
+) Suppose that , instead of taking the medians , we fix on any two class-indices and , and divide the total community into four classes ( A ) , ( B ) , ( C ) , and ( D ) by a double classification with regard to the corresponding values X and of and respectively , thus : ERROR TO CASES OF NORMAL DISTRIBUTION AND CORRELATION .
+The value of V is different for different values of D. But , if and are the abscissae of the standard normal figure corresponding to the class-indices and , it is easily seen that V depends solely on , and D. Hence , if we choose and and observe V , is ( theoretically ) determined .
+Let the errors in the values of X and of be and .
+Then the observed of V is the proportion of individuals for which exceeds and exceeds .
+Let the actual nubmers coming from the four classes ( A ) , ( B ) , ( C ) , and ( D ) be , and ; thus Let the areas of the sections of the standard solid by the planes and ( S 29 ) be and , and let these areas be divided by WR in the ratios of and \mdash ; Srespectively .
+Thus and are equal to the ordinates of the standard figure corresponding to abscissae and ( class-indices and ) ; while is the class-index of in the class for which , and S is the class-index of X in the class for which , these being the class-indices corresponding to abscissae LQin D and in the standard figure .
+The erroneous values and are obtained transferring individuals from ( A ) and ( C ) to ( B ) and ( D ) , and from ( A ) and ( B ) to ( C ) and ( D ) .
+The first traosfer takes place ( to our order of approximation ) in the class for which , and the second in the class for which ; so that the proportion appearing to fall in ( A ) is . . .
+Let WR .
+Then the error in V produces ( S 29 ) an error in , and therefore the probable error in , as determined by this method , is Q. where Since , , this probable error can be expressed in terms of V , , S. But the above is the most symmetrical form , and the most convene ient for calculation .
+( 4 .
+) By a number of different values of and , and observing the corresponding values of V , we get a series of values of ; and then we can take bhe weighted mean of these , the weights being assigned in such a way as to make the probable error as small as possible .
+S31 .
+Relative Accuracy of the Different Methods.\mdash ; By means of S5 it may be shown that , with the notation of S30 ( 3 .
+) , S , 1 \mdash ; @ Thus from S20 we have the following table:\mdash ; Let the errors in , be .
+The error in V is ; if we write this , then it may be shown by the above table that the mean products of with , and are zero .
+By writing in the one case , and in the other S 1 , , we see that and are of the forms and , where the mean products of or with , and are zero ( cf. S23 ) .
+Hence we obtain the following results:\mdash ; ( 1 .
+) Suppose that we fix on definite values X and of and , and that we require the proportion of individuals for which exceeds X , and exceeds Y. If we determine , and from the averages , average squares , and average product , and then calculate the value of V , the resulting error is .
+The mean square of this error is less ERROR TO CASES OF NORMAL DISTRIBUTION AND CORRELATION .
+151 than the mean square of , the error in V as obtained by direct observation ; and therefore we obtain a better result for V by the calculation than by observation .
+( 2 .
+) Suppose that we fix on particular class-indices and , and that we require the corresponding value of V. The error in V , as determined by calculating the averages , average squares , and average product , is ; while the error for direct observation is ( S30 ( 3 .
+) ) .
+Since the Inean products of with are zero , the mean square of this last error is greater than the mean square This result , of course , is identical with ( 1 .
+) ; for if the observed class-index of X ' is , we may consider that we are observing either the class-index of X ' or the value of corresponding to class-index ( 3 .
+) If we determine by the method of S30 ( 3 .
+) , the resulting error is .
+The mean product of and \mdash ; S ' is zero ; hence the probable error due to the method of S 30 ( 3 .
+) is greater than that due to the method of S30 ( 1 .
+) .
+( 4 .
+) Similarly , if we take the weighted mean of a number of different values of as in S30 ( 4 .
+) , we shall still get an error of ) form , where the mean value of is zero .
+Hence , if the averages , average squares , and average product can be determined , the value of so obtained cannot be improved by direct observation of the values of V corresponding to selected pairs of class-indices .
+( 5 .
+) Generally , let be any quantity which would be known if the true means , mean squares , and mean product of and were known .
+Let be the value obtained by taking these as equal to the averages , average squares , average product , for the individuals ; and let R2 be the value obtained by any other method involving observation of the numbers occurring in any set of classes determined by a finite number of class-indices of and , with or without the use of the averages , average squares , and average products .
+Let and be the mean squares of the errors in as determined by the two methods .
+Then the propositions stated in S23 ( 4 .
+) hold good .
+The theorem may be extended to the case of any number of mutually correlated attributes .
+S32 .
+Test of Hypothesis as to Correlation.\mdash ; To test whether the distributions of and of , in any particular case , may be regarded as normally correlated .
+we use the method of S24 , with the necessary modifications .
+( 1 .
+) notation of S , let denote the proportion of individua]s for which exceeds X and exceeds , the values of X and being fixed beforehand .
+Then , writing B , we have *This shows that is greater than , where , .
+Cf .
+KABL PEARSON , in ' Phil. Trans , vol. 187 ( 1896 ) , p. 265 .
+MR. W. F. SHEPPARD ON THE APPLICATION OF THE THEORY OF and Thus the\ldquo ; discrepancy\ldquo ; is difference between V as calculated by finding the means , mea .
+, and mean product , and V as found by direct observation ; and the probable discrepancy is In adoptin ' this method we are testing both the normal distribution of each measure separately also the normal correlation of the two distributions ; and therefore it is not necessary to test first whether the separate distributions are normal .
+( 2 .
+) Suppose that we are satisfied that the separate distributions are normal , and that we require to test whether , on this assumption , they may be regarded as normally correlated .
+Then , in , will denote the proportion for which exceeds the value found to COlTespond to class-index , and exceeds the value found to correspond to class-index .
+The repancy is ( S30 ( 3 .
+) ) the difference between the errors and \mdash ; ( This difference , by S31 ( 2 .
+) , may be written in the form ) The mean square of the discrepancy is , where has the value given in S3tJ ; so that the probable discrepancy is Q. .
+When this method is adopted , the sum of all the discrepancies in any row or in any column of the table of double classification is zero .
+( 3 .
+) In some cases we are not able either to calculate the averages , average squares , average product , or to test whether the separate distributions are normal .
+We must then determine by some other method , and proceed as in ( 2 .
+) .
+Suppose , for instance , that is determined by the double-median-classification method of S27 .
+Then , as in ( 2 .
+) , the discrepancy is the difference between the value of V. calculated for particular class-indices and , and the observed value of V for these class-indices ; and the probable discrepancy is , where has different forms according as and are positive or negative .
+If and are both positive , it may be shown that ; having the value given in S30 ( 3 .
+) , and and denoting what V would become if we put and espectively , without altering the value of D.
+

@@ -1,0 +1,429 @@
+]\gt ; [ 339 ] XI .
+On the Foundations of the Theory of Algebraic Functions of One Variable .
+By J. C. FIELDS , Ph. D. , Associate Professor of Mathemtics in the University of Toronto .
+Communicated by A. R. , Sc. D. , .D .
+, F.R. Received June 4 , \mdash ; Read June 6 , 1912 .
+S1 .
+SOME years ago the writer published a in which he developed a new theory of the algebraic functions of a complex variable .
+The theory in question was purely algebraic in its character and perfectly general .
+The higher singularities gave rise to no specific difficulties due to their greater complexity and no exceptional cases had to be reserved for separate treatment .
+The capital result of the theory might be said to be the " " Complementary Theorem\ldquo ; \mdash ; a theorem which is considerably more general than the Riemann-Roch Theorem .
+The book , however , presents its difficulties for the reader , and , in particular , the sixth chapter would seem to have been a stumblin -block .
+For this chapter the writer has already given several comparatively simple substitutes , and the reader of the present paper will find that , among other results , those of the chapter in question foUow in very easy fashion from the representation of a rational function in the form ( 8 ) .
+The method of the " " deformation of a product which plays a conspicuous part in the earlier chapters of the book , is here dispensed with .
+The residues of what we call the principal coefficient of the reduced form of a rational function will be found to play an important which is already implied in the argument of the book and which is brought into evidence in a paper by the riter published in Vol. XXXII .
+of the 'American Journal of Mathematics ' under the title " " The Complementary Theorem In the present paper the apparatus for handling the residues in question will be greatly simplified .
+We have no need of the function defined in Chapter IX .
+of the book , and at the same time we are able to dispense with the functions and the more or less complicated formulae connected with these functions in the earlier presentation of the theory .
+Let ( 1 ) * Theory of the Algebraic ions of a Complex Variable , ' MAVER and MULI .
+ER , Berlin , 1906 .
+2 X 2 Pubhshed separately , Janwry 29 , be an equation in which we shaU uItimately suppose the coefficients , , to be rational functions of .
+For the moment , however , it will suffice to assume that these coefficients have the character of rational functions for the value , that is , that they are developable in series of integral powers of in which , at most , a finite number of terms have negative exponents .
+We say that a function has the character of a rational function of for the value if it is built up by rational operations out of and functions of which have the character of rational functions for the value .
+Here it is to be understood that the function is to have a meaning for each of the branches of the equation ( 1 ) , corresponding to the value of the variable in question\mdash ; otherwise said , that the rational operations do not involve division by a factor of .
+The equation ( 1 ) may or may not be reducible in the domain of fmlctions of rational character for the value .
+In any case , however , without detriment to the generality of our theory , we may assume that the equation does not involve a repeated factor .
+Any function possessing the character of a rational function of for the value can evidently be written in one , and only one , way in the form . . . .
+( 2 ) where the coefficients possess the character of rational functions for the value of the variable in question .
+This form we call the reduced form of the function .
+The coefficient of in the reduced form of a function of we call the principal coefficient of the function .
+The term itself we call the principal term .
+In what follows we shall take for granted that a function of is expressed in its reduced form where nothing in the context implies the contrary .
+Corresponding to the value we have a representation of the quation ( 1 ) in the form , . . . . .
+( 3 ) where , , are series in powers of with exponents , integral or fractional , of which , it may be , a finite number are negative .
+These power-series group themselves into a number , , of cycles of orders , , respectively where the series of a cycle of order proceed according to ascending integral powers of the element , or , as the case may be .
+As a general rule we have We shall speak of the order of coincidence of a function with a branch , or of the order of coincidence of the branch with the function , meanin thereby the lowest exponent in arranged according to ascending powers of .
+The order of coincidence of the branch with the product . . . . .
+( 4 ) we shall indicate by the symbol This is plainly also the order of coincidence of THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+the branch with the function .
+The order of coincidence of the branch with the factor we shall briefly refer to also as the order of coincidence of the branch with the branch , and we shall indicate this order of coincidence by the symbol .
+It is evident that .
+Furthermore , is equal to the sum of the orders of coincidence of the branch with its conjugate branches , and we therefore have . . . . . .
+( 5 ) It is readily seen that the numbers corresponding to the several branches of the same cycle are all equal . .
+numbers thus defined for the branches of the ?
+cycles we shall indicate by the symbols , , . . . . .
+( 6 ) The functions in ( 4 ) are defined by the identities , , 2 , , . . . .
+( 7 ) We can then any function , of rational character for the yalue , in the form* . . . .
+( 8 ) where , , are series in powers of involving integral or fractional exponents , of which a finite number only call be necessary sufficient colldition that the function should be represented by the expression on the right-hand side of ( 8 ) is .
+( 9 ) To see this it is only necessary to note that the functions all vanish identically on substituting in them representation of the function in the form ( 8 ) then exists and is unique .
+representation evidently also gives the function in its reduced form since is the highest power of which presents itself .
+The order of coincidence of the branch the function is plainly the same as its order of coincidence with the in ( 8 ) and is , * This form of eseIltatiou was suggested to the writer by pter XIII .
+of his book oI1 the algebraic functions , already cited .
+It may be pointed out , howevor , that the form was by CHRISTOFFEL from LAGRANGE'S interpolation formula and employed his paper , ' Algcbraischer Beweis des Satzes von der Anzahl der linearunabhangigen Integrale erster ttung , \ldquo ; } di Matematica , ' ser. II .
+, .
+X. , pp. 81-100 .
+therefore , obtained on adding the lowest exponent in the series to the order of coincidence of the function with the branch in question .
+If , then , the order of coincidence of the function with the branch is , the series .
+can involve no negative exponent .
+If the order of coincidence of the function with the branch is the lowest exponent in the series must be .
+Now the coefficient of in the reduced form of , as given in ( 8 ) , is , . . . . .
+( 10 ) a function which is evidently of rational character for the value of the variable in question .
+If , then , the orders of coincidence of the function with the branches , , are greater than the corresponding numbers in the set , , , the lowest exponent in the principal coefficient is and must therefore be , because of the rational character of the coefficient for the value .
+We shall say of a function of that it is integral with regard to the element if its expansion in powers of the element involves no negative exponents .
+The principal coefficient in a function of rational character for the value is then integral with regard to the element if the orders of coincidence of the function with the branches of the corresponding cycles are greater than the numbers , , respectively .
+Otherwise stated , the principal coefficient in a function of rational character for the value must be integral with regard to the element ( or if the orders of coincidence of the function with the branches of the several cycles do not fall short of the numbers ( 11 ) respectively .
+A set of orders of coincidence which do not fall short of the numbers given in ( 11 ) we call a set of djoint orders of coincidence , and , if a function possess such a set of orders of coincidence , we say that it is adjoint for the value of the variable in question .
+The theorem which we have just proved may then be briefly stated as follows : a function of rational character for the value ( or is adjoint for this value of the variable its principal coefficient must be integral with regard to the element .
+This theorem , so far as it has reference to the value , is evidently also embodied in the statement that the degree in of the principal term in a function of rational character for the value must be if the function is adjoint for this value of If a function of rational character for the value is conditioned for this value of the variable by a certain set of adjoint orders of coincidence , , , and if for a single one of these orders of coincidence .
+we have , the principal coefficient , already integraJ , will in the general function so THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+conditioned have a constant term which is .
+This we can readily see from the form of representation for the function given in ( 8 ) .
+If , namely , we suppose , , to be the branches of the cycle of order , the .
+series , , .
+in ( 8 ) will be conjugate series in which the lowest exponent is , and in each of which the constant term is the same and unconditioned by the orders of coincidence here in question .
+The constant term in the principal coefficient of the partial sum , . . . . .
+( 12 ) on the right-hand side of ( 8 ) , is then arbitrary , and this is , therefore , also the case for the constant term in the total sum on the right-hand side of ( 8 ) , since the series , , are determined independently of the series , , The theorem just stated , together with the theorem preceding , may be included in the one statement : the general function of rational character for the value and conditioned for this value by a set of adjoint orders of coincidence , , , the principal coefficient must be integral with regard to the element , and , furthermore , will involve an arbitrary constant term unless , , are simultaneously greater than the corresponding numbers in the set , , Let be the general function of rational character for the ] ( or , which is conditioned by a set of orders of coincidence , , , . . . . .
+( 13 ) where is a positive or negative integer or , and where , , constitute a set of adjoint orders of coincidence which , however , are not simultalleously greater than the numbers , , .
+The function , or , is then evidently the general function of rational character for the value , which is conditioned by the set of adjoint orders of coincidence , , , and its principal coefficient , by the theorem last stated , must therefore be integral in the element and involve an arbitrary constant .
+It follows that the lowest term in the principal coefficient of the general function , conditioned by the set of orders of coincidence ( 13 ) , is , or , where is an arbitrary constant .
+Evidently any set of orders of coincidence corresponding to the value ( or can be written in the form ( 13 ) , so that we may also state the last theorem as lowest term in the principal coefficient of the general function of rational character for the value , and conditioned by a given set of orders of coincidence for this value of , is , or , where is an arbitrary constant , and where is the greatest integer whose subtraction from each number of the set leaves a set of adjoint orders of ence .
+From the form ( 8 ) it is readily seen that we can construct a function of rational character for the value , which possesses an arbitrarily assigned set of orders of coincidence , , , for the branches of the corresponding cycles .
+Here , , ma , y be any integral multiples\mdash ; positive , negative , or zero\mdash ; of numbers , , respectively .
+We can write , ( 14 ) where the numbers are integral .
+In the form ( 8 ) each of the elements on the right-hand side corresponds to a different one of the branches .
+In the .
+elements corresponding to the conjugate branches of the cycle of order substitute for the coefficients corresponding conjugate series beginning with a term in , or Do this for each of the cycles and the resulting function will ave precisely the set of orders of coincidence , , here in question , and will at the same time evidently be of rational character for the value .
+Not only can we construct a function of rational character for the value , which possesses the arbitrary set of orders of coincidence , .
+but we can in particular construct a function of which possesses precisely this set of orders of coincidence for the value of the variable in question .
+To obtain such a rational function , in fact , it evidently suffices in the function , already constructed , to cut off in the series in powers of , which constitute the coefficients of the powers of , terms of order sufficiently high to be unaffected by the orders of coincidence , , , required of the function .
+Let us now suppose for the moment that the equation ( 1 ) has reference to the value , so that the coefficients , , are series in powers of involving , it may be , a finite number of positive powers of .
+The aggregate degree of the equation in we shall indicate by the letter N. Referring to the identities ( 7 ) , then , we see that the degrees of the functions can in no case exceed N-l .
+If now the function in ( 8 ) be adjoint for the value , the lowest exponents in the series must , as we have already noted , be , and the degrees in of these series must therefore all be .
+The degrees in of the elements in ( 8 ) will consequently all be , and the same will be true of the degree of the function .
+It follows that the degree of the function must be , because of the rational character of the function for the value .
+We have just proved then that a function which is of rational character for the value , and which is also adjoint for this value of the variable , must be of degree , and we had already proved that the degree of the principal term in such a function must be S2 .
+If a function , of rational character for the value , is also adjoint for this value of .
+the variable , we have seen that its principal coefficient must be integral with regard to the element or .
+We have also seen , in the case of a set of orders of coincidence corresponding to the value , of which some one at least falk short of what is requisite to adjointuess , that a THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+rational function of can be constructed possessing precisely the orders of coincidence here in question and having a principal coefficient which is not integral with regard to the element .
+We say of two sets of orders of coincidence , , , and , , , corresponding to a value , that they are complementary adjoint to each other if they satisfy the inequalities .
+( 15 ) When they satisfy the inequalities , ( 16 ) they are said to be complementary adjoint to the order .
+If the sets of orders of coincidence of two functions for a given value of the variable are complementary adjoint , we say also that the functions are complementary adjoint to each other for the value of the variable in question .
+The orders of coincidence of the product of the two functions are evidently obtained on adding the corresponding orders of coincidence of the functions .
+If the functions and are complementary adjoint for the value their product is adjoint for the value of the variable in question , and the coefficient of the principal term in the product must therefore be integral with regard to the element .
+When we speak of the principal term in a product it is , of course , to be understood that we mean the principal term in the product expressed in its reduced form .
+In order that a function of rational character for the value shall have orders of coincidence which are complementary adjoint to a given set of orders of coincidence , , , the necessary and sufficient condition is that the coefficient of the principal term in the product shall be integral with regard to the element , where represents the most general function of of rational character for the value whose orders of coincidence with the branches of the corresponding cycles do not fall short of the numbers , , respectively .
+That this is a necessary condition has been seen in what just precedes .
+That it is a sufficient condition may be proved as follows:\mdash ; Suppose to be a specific function of of rational character for the value , and suppose its orders of coincidence for this value of the variable to be , , .
+Furthermore , suppose this set of orders of coincidence not to be complementary adjoint to the set , , .
+The numbers , , , then do not constitute a set of adjoint orders of coincidence , and we can therefore construct a function of rational character for the value which possesses precisely this set of orders of coincidence and whose principal term is not integral in regard to the element .
+For the moment we shall suppose that all of the orders of coincidence , , , are CCXII .
+finite .
+The quotient is then a function of rational character for the value .
+whose orders of coincidence for this value of the variable are , , , and yet in its product by the function the principal term is not integral in character .
+If then the set of orders of coincidence , , , of the function be not complementary adjoint to the set of orders of coincidence , , , the principal term in the product of by the general function , which possesses the latter set of orders of coincidence , is not integral in character with regard to the element .
+It follows , therefore , that the sufficient , as well as the necessary condition , in order that the orders of coincidence of a function of rational character for the value shall be complementary adjoint to a given set of orders of coincidence , , , is contained in the statement that the coefficient of the principal term in the product of by is integral with regard to the element , where is the general function of rational character for the value whose orders of coincidence with the branches of the corresponding cycles do not fall short.of the numbers , , In what precedes we have assumed that the orders of coincidence , , of the function are all finite .
+Suppose now that certain of these orders of coincidence are infinite , and that nevertheless the set is not complementary adjoint to the set of orders of coincidence , , .
+As before , let be the general function of rational character for the value conditioned by the set of orders of coincidence , , .
+Construct.a function of rational character for the value which possesses for this value of the variable a set of orders of coincidence which is complementary adjoint to the set , , , all of its orders of coincidence bein at the same time finite , and each one of them different from the correspondin order of coincidence in the set , , .
+It is evident that the orders of coincidence of the function for the value of the variable in question are all finite , and that they constitute a set which is not complementary adjoint to the set , , .
+By what we have already seen , then , the principal coefficient in the product will not be integral .
+The principal coefficient in the product , however , is integral , since has orders of coincidence which are complementary adjoint to those of the set , , .
+It follows that the principal coefficient in the product is not integral .
+If then the orders of coincidence of a function of rational character for the value be not complementary adjoint to the orders of coincidence , , , it follows that in the product the principal coefficient is not integral , where is the general function of rational character for the value conditioned by the set of orders of coincidence , , .
+The necessary and sufficient condition then that a function of THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+rational character for the value should have , for this value of the variable , a set of orders of coincidence complementary adjoint to a given set of orders of coincidence , , , is that the principal coefficient in the product should be integral with regard to the element , where is the general function of rational character for the value conditioned by the set of orders of coincidence , , Without detriment to the truth of the statement just made the expression function of rational character for ) employed with reference to the functions and can , in connection with either or both of these functions , be replaced by the expression rational function of .
+If in the product of a function by the function the coefficient of the principal term is integral with regard to the element , the residue of this coefficient for the value is of course zero .
+Conversely , however , if tlJe residue of the principal coefficient for the value vanishes in the product of a function by the general function whose orders of coincidence for this value of the variable do not fall short of the numbers , , respectively , it follows that the principal coefficient in question must be integral with regard to the element For if the function is included under the general function conditioned by the orders of coincidence , , if the principal in the product actually contains a negative power , then also is the residue relative to the value in the principal coefficient of the product different from , while the function is evidently included under the general function above conditioned by the orders of coincidence , , If then the residue of the principal coefficient for the value vanishes in the product of a function by the general function , it follows that the principal coefficient in question must be integral with regard to the element We may then say , in the case of a finite value , that the necessary and sufficient condition in order that a function should be complementary adjoint to a set of orders of coincidence , , for the value of in question , is contained in the statement that the residue relative to the value in the principal coefficient of the product should vanish , where represents the most genel.al function of of rational character for whose orders of coincidence with the branches of the corresponding cycles do not fall short of the numbers , , respectively .
+In like manner for the value we may evidently say that the necessary and sufficient condition in order that a function should be complementary adjoint to a set of orders of coincidence , corresponding to the value of the variable in question , is contained in the statement that the constant coefficient of the element in the principal term of the product should vanish , where represents the most general function of of rational character for the value , whose orders of coincidence with the branches of the corresponding cycles do not fall short of the numbers , , respectively .
+The vanishing of the constant coefficient of the element in the principal term of the product then gives the condition that the function should have a set of orders of coincidence which is complementary adjoint to the set of orders of coincidence , , This , therefore , is the condition that the function should have orders of coincidence which are complementary adjoint to the order 2 to the orders of coincidence , , .
+Also the vanishing of the coefficient of the element in the principal term of the product is equivalent to the vanishing of the coefficient of the element in the principal term of the product .
+The vanishing of the residue relative to the value in the coefficient of the principal term in the product consequently gives the necessary and sufficient condition that the function should have a set of orders of coincidence for the value which is complementary adjoint to the order 2 to the set of orders of coincidence , , , where is the most general function of of rational character for the value whose orders of coincidence with the branches of the several cycles do not fall short of the numbers , , respectively .
+If then represents the most general function of of rational character for the value whose orders of coincidence with the branches of the corresponding cycles do not fall short of the numbers , , respectively , the vanishing of the residue , for the value of the variable in question , in the coefficient of the principal term in the product gives , in the case of a finite value , the necessary and sufficient condition that the orders of coincidence of the function should be complementary adjoint to the numbers , , , while , if the functions and numbers here in question have reference to the value the vanishing of the corresponding residue in the product gives the necessary and sufficient condition that the orders of coincidence of the function should be complementary adjoint to the order 2 to the numbers , , In the foregoing statement it would evidently suffice to let represent the general rational function of whose orders of coincidence for the value of in question do not fall short of the number , , respectively\mdash ; at least so long as these numbers are all finite .
+Where we are concerned with the finite value we might , without detriment to the truth of our statement , further impose on the rational function the condition that its coefficients should be integral with regard to all finite values of save only the value , with regard to which value the coefficients will or will not be integral as this is or is not required by the set of orders of coincidence , , .
+In the statement here in question the function was simply assumed to be a function of of rational character for the value , and the statement therefore holds good in particular when is a rational function of .
+The product of any two functions and can be written in the form , . . . .
+( 17 ) THEORY OF ALGEBRAIC FUNCTIONS OF ONE yARIABLE .
+where is the reduced form of the product on the left-hand side of this identity .
+The factors and of this product are also supposed to be expressed in their reduced forms , so that the degree in of the product is and the degree of 3 in as a consequence is .
+If represents the most general function of of rational character for a given value conditioned by a given set of orders of coincidence , , for this value of the variable , the vanishing of the corresponding residue in the principal coefficient of gives , in the case of a finite value , the necessa and sufficient condition that the orders of coincidence of the function for this value of should be complementary adjoint to the orders of coincidence , , , while , in the case of the value the vanishing of the corresponding residue in the principal coefficient of gives the necessary and sufficient condition that the orders of coincidence of the function for the value should be complementary adjoint to the order 2 to the orders of coincidence , , S3 .
+We shall now assume the equation ( 1 ) to be integral algebraic equation .
+The series representing the branches of the equation for any finite value will then involve no negative exponents .
+In the representation of a rational function in the form ( 8 ) corresponding to the value functions will therefore evidently be integral with regard to the element .
+If the function be adjoint for the value it is readily seen that it must be integral with regard to the element .
+For in this case the lowest exponent in each of the series in ( 8 ) is and the same is therefore true of .
+the lowest exponent in each of the coefficients of the several products .
+It follows that , in the coefficients of the rational function represented by the sum on the right-hand side of ( 8 ) , the lowest exponent is .
+A rational function , which is adjoint for the value , must then be integral with regard to the element .
+Furthermore , rational function of , which is adjoint for all finite values of the variable , must evidently be an integral rational function of .
+While a rational function must be integral with regard to the element if its orders of coincidence are to be adjoint for the value , divisibility*by is required from it by a set of orders of coincidence , , corresponding to the value when these orders of coincidence severally exceed the corresponding numbers , , \mdash ; but not otherwise .
+If , namely , the orders of coincidence of severally exceed the corresponding numbers , , , the quotient of the function by will be adjoint for the value , and must , therefore , be integral with regard to the element .
+If , however , a single one , , of the orders of coincidence which condition the rational function is not greater than the corresponding number , then in the representation of the general function in the form ( 8 ) the corre* We here find it convonient to say of a rational function of that it is divisible by the element if the function can be represented as the product of and a function of , u ) in which the coefficients of the powers of are power-series in not involving negative exponents .
+sponding conjugate series will not be divisible by and will involve an arbitrary constant term which is independent of the coefficients in the remaining .
+series In this case , then , the coefficient of the principal term in the general function contains an arbitrary constant .
+The principal term in is , therefore , not divisible by and the same is consequently true of itself .
+We see , then , that the general rational function conditioned by a certain set of orders of coincidence for the value is or is not divisible by the element according as its principal term is or is not divisible by this element , and we furthermore see that the principal term is or is not divisible by according as the orders of coincidence in question severally exceed the corresponding numbers .
+or not .
+From this it follows in particular that the general rational function conditioned by a certain set of adjoint orders of coincidence for the value is divisible by precisely the same power of the element as the coefficient of its principal term .
+We shall employ the letter A to designate the number of the independent conditions which must be imposed on the coefficients of the general integral rational function of in order that it may be adjoint for the finite value .
+Every extra coincidence over and above adjointness required from the function will impose an extra condition on its coefficients , for we have seen that we can construct a rational function which actually possesses an arbitrarily assigned set of orders of coincidence corresponding to a value , and we have also seen that an adjoint set of orders of coincidence already requires that the function be integral with regard to the element .
+The number of the independent conditions then which are imposed on the coefficients of the general integral rational function of by a set of orders of coincidence , , , adjoint for the value , is given by the sum , ( 18 ) where we still have to determine the value of A. We have seen in S2 that the necessary and sufficient conditions , in order that a may have a set of orders of coincidence complementary adjoint to a given set of orders of coincidence , , , corresponding to a finite value , are obtained on equating to the residue relative to this value of in the coefficient of the principal term in the product , where is the general rational function of conditioned by the orders of coincidence , , for the value If in this theorem we give to each of the numbers , , the value and take for the general integral rational function of , we evidently obtain the necessary and sufficient conditions which must be imposed on the coefficients of the general integral rational function in order that it may be adjoint for the value on equating to the residue relative to this value of in the coefficient of the principal term the product , where is the general rational function of , which is algebraically integral in character for the value THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+We may write in the form ( 19 ) where the notation indicates a polynomial in of degree in , and where by the notation we designate a polynomial in in which the coefficients expanded in powers of present no negative exponents .
+Here , since is to be of integral algebraic character for the value , the orders of coincidence of the function with the branches of the equation ( 1 ) , corresponding to the value , must each be .
+On assuming , as we are free to do , that is not divisible by the factor , we are forced to take for the greatest of the integers ] , , ] , for this is evidently the greatest value which we can give to without forcing the function to be divisible by the factor .
+Orders of coincidence , namely , which are simultaneously greater than the numbers , , require divisibility by The orders of coincidence which we here require from the function are adjoint , and the number of the conditions which they impose on the otherwise arbitrary constant coefficients the function is evidently obtained on substituting for each of the numbers , , in the expression ( 18 ) .
+This gives us for the number of the conditions to which we subject the coefficients of the otherwise unconditioned function ) .
+For the number of the arbitrary constants involved in the expression of the conditioned function here in question we then have , . . . . .
+( 20 ) and we can write , ( 21 ) where the quantities are arbitrary constants , and where the functions are specific linearly independent functions .
+Now we have seen that we impose on the coefficients of the general integral rational function the conditions necessary and sufficient for adjointness relative to the value on equating to the residue relative to this value in the coefficient of the principal term in the product . .
+This , however , from ( 19 ) , is evidently equivalent to equating to the residue relative to the value in the coefficient of the principal term in the product .
+We then impose on the coefficients of the function just those conditions which are necessary and sufficient for adjointness relative to the value on equating to the residue relative to this value of in the principal coefficient of each one of the products ; . . . . . .
+( 22 ) That the conditions on the coefficients of the function which we have just obtained are linearly independent of one another may readily be seen .
+For if the residues relative to the value in the principal coefficients of the products ( 22 ) were connected by a linear relation with constant multipliers , the linear expression in the functions with the like multipliers would be a function such that the residue relative to the value in the principal coefficient of the product . . . .
+( 23 ) would be , no matter what the coefficients of might happen to be .
+The function cannot vanish identically , since ) hypothesis the functions are linearly independent of one another .
+Suppose to be the highest power of which appears in the expression of the function , and suppose , furthermore , that a term actually presents itself On choosing for the function the residue of the principal coefficient in the product ( 23 ) will evidently be , and this residue is not equal to unless we have .
+There does not exist a function then such that the residue relative to the value in the product ( 23 ) is equal to independently of the values of the coefficients of .
+It follows that the equations in the coefficients of the function obtained on equating to the residues relative to the value in the principal coefficients of the products ( 22 ) are independent of one another .
+These equations , however , give the necessary and sufficient conditions for the adjointness of relative to the value , and we therefore have .
+From ( 20 ) we then derive .
+( 24 ) For the number of the independent conditions which are imposed on the coefficients of the general integral rational function by a set of orders of coincidence , , , which are adjoint for the value , we obtain from ( 18 ) and ( 24 ) the expression . . . . . .
+( 25 ) Representing in the form ( 19 ) the general rational function conditioned by a set of orders of coincidence , , for the value and equating to the THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+principal residue relative to the value in the product we obtain the necessary and sufficient conditions that the rational function may have orders of coincidence for the value which are complementary adjoint to the orders of coincidence , , .
+If is an integral rational function , these conditions are evidently all obtained on equating to the principal residue relative to the value in the product . . . . .
+( 26 ) This , however , is equivalent to equating to in this product the principal residue relative to the value , since in the principal coefficient of the product the sum of the residues must be and the only residues which could here present themselves would have to correspond to the values and .
+The necessary and sufficient conditions , then , that should have orders of coincidence for the value which are complementary adjoint to the orders of coincidence , , , are obtained on equating to the principal residue relative to the value in the product ( 26 ) .
+Supposing the integral rational function to have a definite degree , and representing the first factor of the product ( 26 ) in the form , ( 27 ) we see that , on choosing sufficiently large , the residue relative to the value of the principal coefficient in the product ( 26 ) will be the same as the residue of the principal coefficient in the product .
+( 28 ) The vanishing of the principal residue in the product ( 28 ) , independently of the values of the arbitrary parameters involved in the expression of the coefficients , then gives the necessary and sufficient conditions in order that the function may have orders of coincidence for the value which are complementary adjoint to the orders of coincidence , , , the integer being supposed to be chosen sufficiently large .
+If the orders of coincidence , , were all adjoint the index in ( 26 ) would be and the function would not exist .
+In this case the orders of coincidence of would simply have to be , or positive , in order that they might be complementary adjoint to the orders of coincidence , and that is already the case for the function since it is integral , and because we are here assuming the fundamental equation ( 1 ) to be integral .
+We might remark that where we have occasion later on in this paper to make explicit use of the results just obtained the orders of coincidence , , will be none of them positive .
+On writing VOL. CCXII.\mdash ; A. 2 the numbers will then be or positive .
+To say in this case that a rational function of is conditioned by the set of orders of coincidence , , for the value is equivalent to saying that it becomes infinite for the branches of the several cycles corresponding to the value to orders which do not exceed the numbers , , respectively .
+S4 .
+We shall now consider the connection between the form of a rational function of and its orders of coincidence for the value .
+Indicating by the number of the cycles of the equation ( 1 ) for the value and by , , the orders of these cycles , we represent by the notation ( 29 ) the orders of coincidence which define adjointness for the branches of the several cycles .
+On introducing two new variables , , where is a properly chosen integer , the equation ( 1 ) goes over into an equation , . . . . .
+( 30 ) in which the coefficients are integral rational functions of .
+Rational functions of are rational functions of , and conversely .
+The branches of the equation ( 30 ) for the value correspond individually to the branches of the equation ( 1 ) for the value and group themselves in like manner into cycles of orders , , respectively .
+Also it is evident that adjointness relative to the equation ( 30 ) for the value is defined by the orders of coincidence , ( 31 ) obtained on adding to each of the numbers given in ( 29 ) .
+The general rational function of , which is adjoint relatively to the equation ( 30 ) for the value , is integral with regard to the element since the equation is an integral algebraic equation .
+Furthermore , on referring to formulae ( 24 ) and ( 31 ) we obtain immediately the expression . . . . .
+( 32 ) for the number of the conditions which must be imposed on the coefficients of the general rational function of of integral character for the value , in order that it may be adjoint relatively to the equation ( 30 ) for this value of the variable .
+Represent the general rational function of , of integral character for the value , by the expression . . . . . . .
+( 33 ) The number of the conditions which must be imposed on its coefficients in order that THEORY OF BRAIC FUNCTIONS OF ONE VARIABLE .
+it may have the orders of coincidence indicated in ( 31 ) is given by the formula ( 32 ) .
+This same formula , then , gives the number of the conditions which must be satisfied by the coefficients in the expression . . . . .
+( 34 ) in order that it may have , for the value , the orders of coincidence indicated in ( 29 ) .
+Also the general rationaI function of , conditioned set of orders of coincidence ( 29 ) , must be included under the form ( 34 ) since the general rational function of , conditioned by the set of orders of coincidence ( 31 ) , is included under the form ( 33 ) .
+Transforming the expression ( 34 ) to terms of we see that the general rational function of , conditioned for the value by the set of orders of cidence ( 29 ) , is included under the form .
+( 35 ) Furthermore , it is obtained from this form on subjecting the coefficients to a succession of conditions whose number is given by the expression ( 32 ) .
+Let us now consider , in its reduced form , the general rational function of with its coefficients represented as series in powers of .
+The general rational function so represented , whose coefficients involve no exponent which is we shall indicate by the .
+Takin the general function will certainly include all rational functions of the form ( 35 ) and will , therefore , in particular include all rational functions of which are adjoint for the value .
+To pass from the general function to the general form given in ( 35 ) we must , for , 2 , , , reduce the degree in of the coefficient of in the function from to .
+In reducing the general function to the form ( 35 ) then we iqpose on the coefficients of the function a succession of conditions whose number is given by the sum .
+( 36 ) To this number we evidently only have to add the number given in ( 32 ) in order to obtain the total number of the conditions which we must impose on the coefficients of the general function in order that it may be adjoint for the value We therefore impose just . . . . . .
+( 37 ) conditions on the constant coefficients in the general function in order that it may be adjoint for the value * It may be noted that a suffix have the significance here attnched to only in with the letter R. It is evident that the statement just made holds not only for but also for any value of the mteger so long as it is at least as great as the greatest degree in which a coefficient of a power of in the reduced form of a rational function of can have consistently with adjointness for the value .
+We see , namely , that among the conditions whose number is given in ( 37 ) are included the conditions , which dispose of the terms of degree in the coefficients of the powers of Let us now denote by an integer which is at least as great as the greatest of the integers , , and impose on the general function the order of coincidence with each of the branches of the fundamental equation corresponding to the value .
+The orders of coincidence here in question are evidently adjoint and over and above the conditions requisite to adjointness , whose number is given in ( 37 ) , impose on the coefficients of the function further conditions , whose number is given by the sum . . . . . .
+( 38 ) The total number of the conditions here imposed on the coefficients of the general function by the orders of coincidence is therefore .
+( 39 ) We shall now assume not only that has been chosen at least as large as the greatest degree of a coefficient in a rational function which is consistent with adjointness relative to the value on the part of the function , but also , where this is not already implied , that it has been chosen at least as large as the greatest degree of a coefficient which is consistent with orders of coincidence relative to the value , which are none of them negative .
+Let us assume fiar the moment , too , that we have chosen positive\mdash ; what is not necessarily implied for all cases in what precedes .
+Now impose on the coefficients of the general function first the conditions required by a set of orders of coincidence for the value , each one of which is .
+Thereafter imposing on the coefficients the further conditions required by a set of orders of coincidence , each one of which is , we arrive at the total number of the conditions given in ( 39 ) .
+Substracting then from this number we obtain the expression . . . . .
+( 40 ) for the total number of the conditions imposed on the coefficients of the general function by a set of orders of coincidence for the value , each one of which has the value From ( 40 ) we see , where is an integer positive or negative , that the expression THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+( 39 ) gives the number of the conditions imposed on the coefficients of the general function by the orders of coincidence for all branches , so long as has been chosen at least as large as the greatest degree of a coefficient in a rational function which is consistent with the orders of coincidence here in question .
+For positive this is evident .
+For negative it is plain that the of the general function , already conditioned by the orders of coincidence for all branches , must be subjected to further conditions if we would increase its orders of coincidence to for all branches .
+These conditions are counted in the expression ( 40 ) , which gives the number of the conditions required by the orders of coincidence for all branches .
+Subtracting then from this expression , we obtain , for the number of the conditions imposed on the coefficients of the general function by the negative orders of coincidence for branches , the expression given in ( 39 ) .
+Indicate by , , any set of orders of coincidence with the branches of the cycles corresponding to the value , and take the.integer equal to or less than the least of these .
+We have in ( 39 ) an expression for the number of the conditions imposed on the coefficients of the general function by the orders of coincidence for all branches , where we assume that has been chosen at least as large as the greatest degree of a coefficient in a rational function which is consistent with the orders of coincidence here in question .
+To obtain the number of the conditions imposed on the coefficients of the general fu1lctio by the set of orders of coincidence , , , we must evidently add to the expression ( S9 ) the number represented by the sum This gives us for the number of the conditions imposed on the coefficients of the general function by the set of orders of coincidence , , , the expression . . . . . .
+( 41 ) We have derived this formula on assuming that has been chosen at least as large as the greatest degree of a coefficient in a rational function which is consistent with the orders of coincidence for all branches .
+It is now evident , however , that the formula holds so lon as is not less than the greatest degree in which a coefficient in a rational function can have consistently with the possession by the function of the orders of coincidence For among the conditions whose number is given in ( 41 ) are included the conditions which make the terms of degree in the coefficients of the powers of ?
+vanish .
+Under the general rational function , with coefficients of degree in is evidently mcluded the general rational of degree in .
+pass from the former function to the latter function we should have , for , , , to reduce the degree of the coefficient of from to .
+This would impose on the coefficients of the function in all conditions .
+Now we have seen in S1 that the degree of a rational function of , which is adjoint for the value , must be .
+Taking , formula ( 37 ) gives us for the numbel of the conditions which must be imposed on the coefficients of the general function in order that it may be adjoint for the value Among these conditions are included the conditions requisite to reduce the general function here in question to degree N-l .
+For the number of the conditions which must be imposed on the coefficients of the general reduced rational function of of degree N-l , in order that it may be adjoint for the value , we then obtain the expression . . . .
+( 42 ) More generally , on subtracting 21 from the expression given in ( 41 ) , we obtain . . . .
+( 43 ) for the number of the conditions imposed on the coefficients of the general rational function of of degree by the set of orders of coincidence , , , where is not less than the greatest degree which a rational function can have and yet possess these orders of coincidence .
+The general rational function of , whose coefficients are of degree in , we shall represent in the form , . . . .
+( 44 ) where in the first element the index ( i ) signifies that in the coefficients , arranged according to powers of , the highest power which may appear is , while in the second element the notation signifies a reduced polynomial in whose coefficients , expanded in powers of , present no negative exponents .
+Taking sufficiently large and imposing on the function the orders of coincidence , , for the value the coefficients of the second element in the sum on the right of ( 44 ) will be unaffected .
+The number of the conditions to which the coefficients of the function are thereby subjected , and therefore the number of the conditions imposed on the coefficients of the function by the orders of coincidence here in question , is given by the expression ( 41 ) on assuming THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+that has been chosen sufficiently large .
+Subtracting this expression from , the total number of the constant coefficients in the general function , we obtain the expression , . . . . .
+( 45 ) for the total number of the arbitrary constants involved in the function , conditioned by the set of orders of coincidence , , .
+Dropping the now superfluous suffix , , we may say that the expression ( 45 ) gives the number of the arbitrary constants involved in the general rational function , conditioned by the orders of coincidence , , , where the index ( i ) still implies that the coefficients of the rational function expanded in powers of involve no powers as high as In the representation . . . . .
+( 46 ) of the general rational function of conditioned by the set of orders of coincidence , , corresponding to the value we shall find it convenient to write ( 47 ) so as to bring evidence the arbitrary constants involved in the element .
+The functions are specific linearly independent functions of the form implied by the index ( i ) and possessing for the value of coinci which do not fall short of the orders of coincidence , , respectively .
+The number , it is to be borne in mind , depends not alone 011 the orders of coincidence , , here in question , but also on the particular value chosen for the integer .
+It is , also , not to be forgotten that is taken so large that terms involving powers of higher than are not conditioned* by the orders of coincidence , , .
+The general rational function of , conditioned by the orders of coincidence , , , we shall then represent in the form ( 48 ) where the number is given by the expression in ( 45 ) and where the constant coefficients in are all arbitrary .
+In order that a rational function may be complementary adjoint to the general function here in question , for the value , we know it is * When we here say that a term is not conditioned by the orders of coincidence .
+we mean that it already possesses orders of coincidence at least as great as these .
+necessary and sufficient that constant coefficient of should be in the reduced form of the product . . .
+( 49 ) with the coefficients of the powers of expanded in powers of .
+In order that the orders of coincidence of a rational function for the value may be complementary adjoint to the order 2 to the orders of coincidence , , , it is necessary and sufficient that the principal residue , relative to the value , in the product ( 49 ) , should be .
+This we have seen in S2 .
+In order , then , that the orders of coincidence of the function for the value should not fall short of the orders of coincidence , , defined by the equalities ( 50 ) it is necessary and sufficient that the principal residue in the product ( 49 ) should be .
+Among the conditions imposed on the constants in the function by the orders of coincidence here in question are included those obtained on equatin to the principal residue relative to in the product .
+( 51 ) To the function we shall now give the form .
+; ( 52 ) We shall assume that the integer has been chosen so large that terms olving and higher powers of are unconditioned by either of the sets of orders of coincidence , , , or , , .
+Furthermore , we shall assume , where this is not already implied , that has been chosen so large that a rational function of , conditioned by either of these sets of orders of coincidence , cannot involve a power of higher than .
+The function is then of the type .
+Write the product ( 51 ) in the form ( 53 ) with the constants as yet arbitrary .
+Now equate to the principal residue in this product .
+We thus subject the constants to independent conditions , that is to say , we subject these constants to as many conditions as there are arbitrary constants involved in .
+To see this we note first that the principal residue in a product ( 54 ) THEORY OF ALGFBRAIC FUNCTIONS OF ONE VARIABLE .
+cannot be independently of the values of the constants where is a specific function of the type .
+We shall suppose that actually contains a term and that is the highest power of ?
+which appears in the function , while is the highest power of which actually presents itself in the coefficient of this power of .
+For the second factor in the product ( 54 ) we shall take the single term .
+The principal residue of the product is then evidently and is not independently of the value of .
+To equate to the principal residue in a product of a type ( 54 ) then imposes a condition on the constants Represent the first factor of the product ( 53 ) in the form given in ( 47 ) and equate to the principal residue in the product for arbitrary values of the constants We thus subject the constants to conditions .
+The individual conditions are obtained on equating to the principal residues in the products ( 1 ) ; , 2 , , .
+( 55 ) That the conditions so imposed on the constants are Iinearly independent of one another is readily shown .
+For suppose that there is a linear equation connecting the principal residues of the products ( 55 ) , regarded as linear expressions in the constants , and suppose in this equation that the multipliers are , , respectively .
+Constructing the function , we see that we should have the principal residue equal to in a product of the type ( 54 ) independently of the values of the constants .
+This , however , we have seen to be impossible .
+It follows that the conditions to which we )ject the constants on equating to the principal residues in the products ( 55 ) are linearly independent of one another .
+On equating to the principal residue in the product ( 53 ) , for arbitrary values of the constants involved in the first factor , we then impose on the constants just linearly independent conditions .
+Tbese conditions are all necessary in order that the function should have orders of coincidence for the value which do not fall short of the numbers , , respectively .
+To prove that these conditions are also sufficient we only have to show that is the total number of the conditions to which we lnnst subject the constants in order that the function may have the of coincidence , , for the value VOL. CCXII . .
+3 For the number of the conditions imposed on the coefficients of the function by the set of orders of coincidence , , we derive from ( 41 ) the expression From the equalities ( 50 ) we have and by the id of this equality the expression preceding can evidently be written in the form This then is an expression for the total number of the conditions to which we must subject the coefficients in order that the function may have the orders of coincidence , , .
+This is , however , also the expression for given in ( 45 ) .
+The total number of the conditions which we must impose on the coefficients of the function in order that it may have the orders of coincidence , , is therefore and the conditions themselves are all obtained on equating to the principal residue in the product ( 51 ) for arbitrary values of the constants involved in the factor .
+The necessary and sufficient conditions then in order that the function may have for the value orders of coincidence which are complementary adjoint to the order 2 to the orders of coincidence , , are obtained on equatin to the principal residue in the product ( 51 ) , where the function is conditioned by the set of orders of coincidence , , On taking in particular for the function the integral polynomial form , ( 56 ) it must evidently still hold true that the necessary and sufficient conditions in order that the function may have for the value orders of coincidence which are complementary adjoint to the order 2 to the orders of coincidence , , are obtained on equating to the principal residue in the product ( 51 ) .
+It is to be borne in mind that throughout the preceding argument we have assumed the integer to be chosen sufficiently large for our purpose .
+We assumed , namely , that it was chosen large enough at least to ensure that the of a term involving or a higher power of was not conditioned by either of the sets of orders of coincidence , , , or , , , and at the same time we assumed that the possession of either of these sets of orders of coincidence by a function was incompatible with the presence in the function of a term involving to a higher power than .
+If is a polynomial of assigned degree in the necessary and sufficient THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+conditions that it may have the orders of coincidence , , , for the value are obtained as above on equating to the principal residue in the product ( 51 ) , where the integer is subject to the conditions already specified , but where it is well to bear in mind that the formula ( 56 ) implies that has been taken S5 .
+The number of the cycles into which the branches of the equation ( 1 ) group themselves for a finite value we shall indicate by the symbol , and the orders of these cycles we shall designate by , , respectively .
+For the corresponding numbers in connection with the value we have already employed the symbols and , , .
+So in general , numbers associated with the value will be designated by an index or suffix , and those associated with the value by an index or suffix .
+For example , adjointness relative to a value is defined by the orders of coincidence When we speak of a set of orders of coincidence for a given value of the variable it will always be understood , of course , that these are multiples of the sponding numbers , , A set of orders of coincidence corresponding to a value we shall designate by the notation , , .
+Assigning a system of sets of orders of coincidence for all values of the variable , the value included , we shall designate such system by the notation .
+We shall here understand that all but a finite number of the orders of coincidence involved in a system have the value .
+Such a system we shall call a Basis of Coincidences for the building of a rational function , or , more briefly , we shall simply refer to it as the basis .
+A rational function of we shall say is built on the basis if its orders of coincidence for the different values of in no case fall short of the corresponding orders of coincidence given by the basis .
+We shaH say of two bases and that they are complementary to each other when for finite values , the corresponding orders of coincidence furnished by the bases are connected by the relations , ( 57 ) while for the value the orders of coincidence are connected by the relations .
+( 58 ) By the notation we shall designate that part of the basis which has reference to finite values of the , and by we shall mean that part of the basis which refers to the value .
+We shall then speak of a rational function of which is conditioned by the partial basis by the partial basis DR. J. C. FIELDS ON THE FOUNDATIONS OF TliE Any rational function of can be represented in the form , ( 59 ) where is a polynomial in , where the summation is extended to a finite number of values only , and where any numerator is a polynomial in of degree in .
+The polynomials are here , of course , assumed to be reduced in We shall first assume that the basis involves no positive orders of coincidence for finite values of the variable , no such restriction , however , being made for the value .
+Writing , we may say of a function built on the basis that , for a finite value , it becomes infinite to orders which do not exceed the respective numbers of the corresponding set , , , while for the value its orders of coincidence do not fall short of the numbers , , respectively .
+Here the numbers are zero or positive , whereas the numbers may be positive , zero , or negative .
+The orders of coincidence furnished by the basis for finite values of the variable are in this case plainly all adjoint .
+Suppose in ( 59 ) to be the general rational function of conditioned by the partial basis here in question .
+The polynomial is evidently arbitrary .
+Furthermore we may , in the summation on the right-hand side of the formula , take for the greatest of the integers , 2 , , . . . . . .
+( 60 ) To show this we note that the orders of coincidence of the numerator with the branches of the respective cycles corresponding to the value must not fall short of the numbers , 2 , , . . . . .
+( 61 ) These numbers , however , would be simultaneously greater than the corresponding numbers if we should give a value greater than the greatest of the integers in ( 60 ) , and the numerator would therefore , by a theorem proved in S3 , be divisible by the factor Choosing then for the greatest of the integers in ( 60 ) , we readily see that the orders of coincidence in ( 61 ) are not simultaneously greater than the corresponding numbers , and that therefore the general numerator is not divisible by the factor .
+We see at the same time that the orders of coincidence in ( 61 ) are adjoint relatively to the value .
+As a consequence , the number of the conditions to which we must subject the otherwise unconditioned constants in the general function of the type in imposing on it the orders of coincidence THEORY OF RAIC FUNCTIONS OF ONE VARIABLE .
+given in ( 61 ) is obtained on substituting these orders of coincidence for the symbols in ( 25 ) .
+For the number of the conditions in question we thus obtain .
+( 62 ) Subtracting this number from the total number of the arbitrary constant coefficients in the unconditioned function of the form , we obtain the expression . . . . .
+( 63 ) for the number of the arbitrary constants involved in the numerator ) of an element of the summation on the right-hand side of ( 59 ) .
+This numerator then we can write in the form ( 1 ) , . . . . .
+( 64 ) where the coefficients are arbitrary constants , while the functions are linearly independent and possess orders of coincidence for the value which do not fall short of the numbers given in ( 61 ) .
+It is evident that the summation in ( 59 ) is to be extended not only to all those finite values of the variable to which negative elements in the basis correspond , but also to all those values for which the corresponding numbers ] , , ] , are not all , even if the corresponding elements in the basis are all O. In order that a rational function should be built on the basis , it is necessary and sufficient that it should be simultaneously representable in the two forms ( 48 ) and ( 59 ) .
+Identifyin the representation of the function given in ( 59 ) with the representation given in ( 48 ) , we have .
+( 65 ) Here evidently identifies itself with that part of the sum which is integral in and the conditions to which the constants are subjected , because of the identity ( 65 ) , are obtained on developing in powers of the coefficients of the several powers of on the left-hand side of the identity and equating to the aggregate coefficient of for the values , 2 , , ; , 2 , , , since is the coefficient of the term on the right-hand side of the identity .
+If for we equate the coefficient of on the left- hand side of the identity to the corresponding coefficient on the right-hand side , we so determine an otherwise unconditioned coefficient of the expression in terms of the constants .
+The coefficient of the left-hand side of the identity is an expression linear in the constants which we shall represent by the notation .
+The conditions imposed on the constants by the identity ( 65 ) are then embodied in the identity .
+( 66 ) The conditions imposed on the constants by the equations , 2 , , ; , 2 , , . . . . .
+( 67 ) may or may not be independent of one another .
+The general rational function of conditioned for the value by the orders of coincidence , , can , after the analogy of the function in formula ( 19 ) , be represented in the form ( 68 ) Furthermore , the first element in this expression can , after the analogy of formula ( 27 ) , be represented in the form .
+( 69 ) From ( 64 ) we see that the coefficients on the right-hand side of this identity are linear in terms of the arbitrary constants Taking an integral rational function of of arbitrarily assigned degree in , and equating too the principal residue relative to the value in the product , . . . . .
+( 70 ) we see , on referring to formula ( 28 ) and the related text , that we thus obta the necessary and sufficient conditions in order that may possess for the value a set of orders of coincidence which are complementary adjoint to the orders of coincidence , , , the integer being assumed to have been taken sufficiently large .
+For the degree of in we shall find it convenient to choose a definite integer , and for this definite integer it will suit our present purpose to select the greatest degree in of a rational function of which is compatible with the possession by the function of the orders of coincidence , , for the value .
+We assume , then , that has been so chosen , and at the same time we assume that the integers corresponding to the various values have all been taken sufficiently large .
+In S4 we saw that the necessary and sufficient conditions in order that an integral rational function should , for the value orders of coincidence THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+which are complementary adjoint 40 the order 2 to the orders of coincidence are obtained on equating to the principal residue relative to the value in the product . .
+Here is the general fuIlction of the form implied by the index , subject to the condition that it possess the orders of coincidence , , .
+Furthermore , the index exceeds by 2 at least the degree of in and is at the same time so large that a term involving , or a higher power of , is unconditioned by either of the sets of orders of coincidence , , or , , Writing . . . .
+( 71 ) we see that the necessary and sufficient conditions in order that may have for the value orders of coincidence which are complementary adjoint to the order 2 to the orders of coincidence , , are obtained on equating to the principal residue relative to the value in the product .
+( 72 ) Here the coefficients are linear in the arbitrary constants .
+Choosing the integer sufficiently large we shall now take this for the value also of each of the integers above .
+For the constants in ( 66 ) we evidently have ; , 2 , ; , 2 , . . .
+, , ( 73 ) where the summation with regard to is supposed to extend not only to the finite values , which appear in the double summation in ( 65 ) , hut where it is also assumed to contain the term .
+The expressions are linear in terms of the arbitrary constants corresponding to the finite values and the value On equating to independently of the values of the arbitrary constants the principal residue relative to the value in the product ( 74 ) we evidently obtain the necessary and sufficient conditions in order that the integral rational function of degree in should be built the basis complementary to the basis .
+The so obtained namely coincide with the aggregate of the conditions obtained on equating to the principal residue relative to the value in each of the products ( 70 ) and in the product ( 72 ) .
+If in the product ( 74 ) we .take for the fipction the general integral rational function of degree in , and if in this product we equate to independently of the values of the arbitrary constants the principal residue relative to the value we evidently also in this case obtain the necessary and sufficient conditions that the function may be built on the basis .
+For the conditions so arrived at include among them the conditions obtained on equating to the principal residue relative to the value in the product ( 72 ) .
+These conditions , however , are necessary and sufficient in order that , for the value , the integral rational function of degree in should have orders of coincidence which are complementary adjoint to the order 2 to the orders of coincidence , , They therefore involve the reduction of the degree of in from to M. On taking , then , for in the product ( 74 ) the general integral rational function of of degree in and equating to independently of the values of the arbitrary constants the principal residue relative to the value in the product we impose on the coefficients of the function the necessary and sufficient conditions in order that it may be built on the basis .
+The general integral rational function , of degree in , conditioned by equating to the principal residue in the product ( 74 ) , independently of the values of the arbitrary constants , is readily seen to be the most general rational function built on the basis .
+For the orders of coincidence furnished by the basis for finite values of the variable are here all adjoint , and therefore the general rational function of built on the basis must be integral .
+Also was chosen sufficiently large so that a rational function conditioned for by the orders of coincidence , , could not be of degree in greater than .
+We might here again recall the limitations imposed on our choice of the integer in the preceding argument : was taken and also so large that terms involving and higher powers of in the coefficients were not conditioned by the partial bases and .
+At the same time we required to be sufficiently large to serve for each of the integers in the products ( 70 ) , the least values eligible for these integers being severally dependent on the degree of in S6 .
+The coefficients as linear expressions in the arbitrary constants may or may not be linearly independent of one another .
+We shall suppose that just of them are linearly independent of one another , the remaining coefficients being linearly expressible in terms of these .
+Indicating such linearly independent coefficients by the notation , , , we shaU assume that ffie coefficients are all expressed linearly in terms of these coefficients .
+The principal residue relative to the value in the product ( 74 ) will then be an expression bilinear in , , and the coefficients of .
+In this expression equating to the multiplier of each of the quantities , , , we impose on the constant coefficients of conditions not greater in number than .
+The function so conditioned is built on the basis , for with so conditioned THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+the principal residue relative to in the product ( 74 ) is independently of the values of the arbitrary constants general rational function of built ) the basis must then involve at least arbitrary coefficients , since the general integral ational function of degree in has arbitrary constant coefficients .
+Indicating by the actual number of arbitrary coefficients involved in the general rational function built on the basis , we have , and therefore .
+Let us now consider the product ( 75 ) in which the coefficients are arbitrary constants , while is a specific function of degree in not greater than .
+The principal residue in this product cannot be independently of the values of the constants .
+For if be the highest power of which appears in , and if the term actually presents itseIf in the function , the principal residue in the product is evidently , which can only be for , , be linearly independent integral rational functions of degree in not greater than .
+If in each of the products , ( 76 ) we equate the principal residue to , we impose independent conditions on the constants .
+For suppose the principal residues in the products , regarded as expressions linear in the arbitrary constants , to be linearly connected , and suppose , , to be the respective multipliers in relation existing between them .
+On constructing the function , the principal residue relative to in the product ( 75 ) would be independently of the values of the constants , and this we have seen to be impossible .
+It follows that we impose independent conditions on the arbitrary constants when we equate to the principal residue relative to the value in each of the products ( 76 ) .
+If , then , in the product ( 75 ) the integral rational of degree in , involves a certain number of arbitrary coefficients , we impose this number of conditions on the constants on equating to the principal residue relative to in the product ( 75 ) .
+This means that we mect the constants by this number of independent linear equations .
+VOL. CCXII.\mdash ; A. 3 Suppose the function to be the general rational function built on the basis .
+It then involves just arbitrary coefficients .
+Equating to the principal residue relative to the value in the product ( 75 ) independently of the values of the arbitrary coefficients in , we .
+rce the constants to satisfy this many independent linear equations .
+These linear equations must then be satisfied by the coefficients in the first factor of the product ( 74 ) independently of the values of the constants .
+For independently of the values of the arbitrary constants involved in the coefficients in ( 74 ) the principal residue relative to the value in the product is when is the general rational function built on the basis .
+Regarded as linear expressions in the constants , then of the coefficients in ( 74 ) are linearly expressible in terms of the remaining coefficients .
+It follows that the number of the coefficients which are linearly independent of one another is .
+The number of these coefficients which are actually independent of one another is , however , .
+We therefore have .
+We have , however , already found .
+We derive .
+The number of the arbitrary coefficients involved in the general rational function built on the basis is then , and this is also precisely the number of the coefficients which are linearly expressible in terms of the remaining coefficients .
+Employin the notation to designate the number of the arbitrary coefficients involved in the expression of the general rational function built on the basis , the number of the coefficients which are linearly independent of one another is just .
+This , then , is precisely the number of the conditions which we impose on the arbitrary constants when we equate to the coefficients in the identity ( 66 ) .
+The subsistence of the identity ( 65 ) therefore imposes conditions on the constants , these being the conditions which are necessary and sufficient in order that a rational function representable in either of the forms ( 48 ) or ( 59 ) should at the same time be representable in the other form also , it being understood that the functions which appear in the summation in ( 59 ) have the special forms given by formula ( 64 ) .
+Referring to formulae ( 45 ) and ( 63 ) we obtain for the total number of the constants here in question the expression .
+( 77 ) since .
+Subtracting from this expression , we obtain ( 78 ) for the number of the constants which remain arbitrary after the forms ( 48 ) and ( 59 ) have been identified .
+For the moment we shall indicate the expression ( 78 ) by THEORY OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+the letter .
+In the case where the constants must all have the value .
+In this case , then , on referring to the representation given in ( 59 ) , we see that the general rational function built on the basis must reduce to the polynomial , and on referring also to the identity ( 65 ) , we furthermore see that the polynomial must be identically since its coefficients are linear in terms of the constants .
+Where then the only rational function built on the basis is the constant Where is we can select among the constants a set of arbitrary constants , , , in terms of which we can express all the other constants linearly .
+The representation of the general rational function of built on the basis will be obtained in the form ( 59 ) on replacing in the functions each of the constants by its linear expression in terms of the arbitrary constants , , , and on doing the same for each of the constants which presents itself in the coefficients of .
+The general rational function built on the basis can then be represented in the form . . . . .
+( 79 ) where , , are specific rational functions of .
+That the functions , , here in questio are linearly independent of one another we can readily show .
+For suppose , if possible , that these functions are connected by a linear relation . . . . . .
+( 80 ) We have seen that the constants must all be equal to if the function represented by the forms ( 48 ) and ( 59 ) is to be identically .
+Now the for1n ( 79 ) is obtained from the form ( 59 ) on expressing each of the remaining constants in terms of the constants , , , and the left-hand side of ( 80 ) is thereafter obtained from the form ( 79 ) by giving to the constants , , the values , , , respectively .
+The left-hand side of ( 80 ) is then obtained from the form ( 59 ) on attributing to the constants in this form certain values , including the values , , for the constants , , , respectively .
+The resulting function , however , is identically and consequently , , must all be .
+The functions , , , then , are not connected by a linear relation involving multipliers which are different from .
+The general rational function built on the basis then involves effectively arbitrary constants as we see from its representation in the form ( 79 ) .
+Employing the notation to designate the number of the arbitrary constants involved in the expression of the general rational function built on the basis , we have from ( 78 ) .
+( 81 ) In deriving this formula the sole limitation on the basis was that all of its numbers corresponding to finite values of the variable were zero or negative .
+DR. J. C. FIELDS ON THE FOUNDATIONS OF rlBIE Dropping this restriction , we shall now suppose to be any basis whatever .
+The complementary basis , as before , we indicate by .
+The most general rational functions built on these bases we shall designate by and respectively .
+On properly choosing a definite polynomial it is readily seen that , and are the most general rational functions built on bases ( t ) and which are complementary , the former basis at the same time offering no positive orders of coincidence for finite values of the variable .
+We therefore have for the bases ( t ) and the formula Here , however , we evidently have , and , so that we immediately verify the formula ( 81 ) for the more general complementary bases and here in question .
+From ( 57 ) and ( 58 ) we derive .
+( 82 ) Combining this with ( 81 ) we obtain .
+( 83 ) This is the Complernentary Theorem .
+The complementary theorem then states that the number of arbitrary constants involved in the expression of the general function built on a basis plus half the sum of all the orders of coincidence required by the basis is equal to the like number constructed with reference to the complementary basis , that is , with reference to the basis whose numbers are connected with those of the basis by the relations ( 57 ) and ( 58 ) .
+The formula ( 83 ) continues to hold good when we replace ( 57 ) and ( 58 ) by the somewhat more general relations , ( 84 ) and , ( 85 ) where , , represent the actual orders of coincidence of an arbitrarily chosen rational function with the branches of the several cycles corresponding to the THEORy OF ALGEBRAIC FUNCTIONS OF ONE VARIABLE .
+value .
+To see this it is only necessary to remember that the aggregate sum of all the orders of coincidence of any rational function is equal to and to note that the general rational function built on the basis defined with reference to the basis by the relations ( 84 ) and ( 85 ) is obtained on multiplying by , the general rational function built on the basis originally defined as complementary to the basis .
+While the complementary theorem has here been deduced on the hypothesis that the fundamental equation is an integral algebraic equation , it is easy to verify that the generalized theorem holds also when the fundamental equation is not integral .
+For more detail in connection with the theorem , and for some of its consequences , the reader is referred to Chapter XII .
+and the chapters of the book already cited .
+In the present paper it has been the object of the writer to present a more simple and elegant treatment of the theory leading up to the complementary theorem .
+

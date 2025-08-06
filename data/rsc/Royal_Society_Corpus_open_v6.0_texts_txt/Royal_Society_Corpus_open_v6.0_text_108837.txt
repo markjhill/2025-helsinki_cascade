@@ -1,0 +1,329 @@
+On a New Method of Approximation applicable to Elliptic and Ultra-elliptic Functions.-Second Memoir .
+By CIARLES W. MERRIFIELD .
+Communicated by W. SPOTTISWOODE , Esq. , F.R.S. Received March 20 , --Read April 3 , 1862 .
+SINCE my first memoir on this subject was read before the Society , Mr. SYLVESTER has published a method , more general than mine , of applying rational approximation to facilitate the computation of the integrals of irrational functions .
+This method , at which he had arrived independently , included , a majori , the one which was the subject of my memoir .
+Aided by his papers , my subsequent studies have enabled me to view the method with more generality , as well as with more precision and completeness of detail , and I am now able to present it in a sufficiently finished and practical form for the immediate use of the computer .
+I have also computed auxiliary Tables , to render its application easier in certain cases .
+Any rational formula , which gives approximately the value of a function to be integrated , may be integrated in lieu of it , and the result will in general be an approximate value of the integral sought .
+But for such a process to be of any practical utility , the convergence of the formula must be excessive , for the complexity of the integral forms is so great that the labour would be enormous , unless the terms were very few in number .
+In the discovery of formulae sufficiently convergent for the purpose , lies the success of the method .
+We are by no means restricted to functions under a square root , or even to pure radical forms at all .
+The principle applies with equal generality to functions which are given implicitly as roots of equations , and thus to a class of differential equations ; and Mr. SYLVESTER has well remarked that these formulae not only afford facilities for computation , as by a method of quadratures , but also enable us to assign superior and inferior limits to an integral , without losing its generality of form .
+I shall begin with the approximation to the square root , giving it in its general form , and explaining its exact analytical signification .
+I shall then show its application to Elliptic Functions , and how , in the ordinary cases , certain simple reductions can be effected , which greatly lessen the labour of computation ; and I shall give these reductions for the cases more commonly occurring , with some examples and working formulae .
+I shall then add a short account of the extension of the method .
+The paragraphs in the first two sections of this paper bear a consecutive number for convenience of reference .
+* For the First Memoir , see the Philosophical Transactions for 1860 , p. 223 .
+3L I.-Approximants to the Square Root .
+1 .
+Mr. SYLVESTER gives , for the approximants to the square root , the following statement:"Let r be an approximate value of / N ; then by that mode of application of NEWTON'S method of approximation to the equation x==N , which is equivalent to the use of continued fractions , we may easily establish the following theorem , viz. , that r2 " N r3+3rN r4+6r2N+N2 r5+lOr3N+5rN2 2r ' 3r2T+N ' 4r3+4rN ' 5r4l + Or2N +N2 will be successive approximations to / N. " 2 .
+Their general form is ( r + UN )(r/ N)i v.(1 Y(r , + N N)-(r " UN ) ... ... .
+( .
+) which is always rational .
+In this form the approximation to V/ N as i increases is obvious .
+The method of my previous memoir is simply the particular case of i=2ck .
+3 .
+If we wish to approximate to N-~ , we may take the reciprocal of ( 1 .
+) , or , what is simpler , we may divide ( 1 .
+) by N , thus obtaining ( r+ UN )-+(r-V N ) .
+1 z= +(rvN)i-(r-N)i ... ... . .
+N Before we can integrate these formulae , we must reduce them by means of the method of rational fractions ; the simplest and most general way is as follows:4 .
+Let 6 be an ith root of unity ; then , obviously , log ( 1--x)=log ( 1_x)+log ( 1-2x)+ ... . .
++log ( 1 ) .
+Multiplying the differential coefficient of this by ( -x ) , we obtain ixi _3Li xi 1_x xii 2xand since 11 +and -l_i 1+ 1 .
+11 i-S+-g 1-g 1* according to whether the upper or lower sign be taken .
+Now , because g is an ith root 2k7r of unity , fk+~-k'=2 cos z , and the sum of the pair reduces itself , for un , to 1 4rN 1 2rN ( r2+N)-cos(r2_N)i s+N cos 1 2rN 1 2rN ( N sin2k(r2-N ) r2 Cos k(r2_N ) For N- " we have the simpler forms , 1 4r 1 2r 2k7r i2 k/ r k7r ( r2 + N ) cos -2 ( r2_ N ) r sin +N cos2 ( 4 .
+) 1 2r 1 2r kxr 2. .
+kI.(4 .
+) N+ sin2 .
+( r2-N ) r--cos2 ( r2-N ) All that remains is to integrate these terms , and sum them .
+6 .
+Our grouping the terms in pairs has limited the value of k to range from i to 9 ( i1 ) when i is odd .
+There is an odd term which , however , presents no difficulty , being ry r simply in the case of UN , and i-N in the case of N-~ .
+When i is even , kc is limited to r2 ?
+N ___Z~r2+N range from I to 1 i-1 , and the odd term becomes +r in the case of V/ N , and iNr iNr in the case of N-~ .
+It is important to bear in mind that the term just mentioned is an odd term , and therefore not affected with the coefficient 2 , which appears in the terms composed of pairs corresponding to imaginary roots .
+7 .
+The value of i , which I consider to be most useful for general purposes , is i= 8 : in r2+N r+2 ?
+N 7NI this case the odd term becomes 8r or 8Nr and the other values of are three in number , viz. 22 ? ?
+30 ' , 450 , 67 ? ?
+30 ' .
+With proper precautions i=8 will almost always give seven or more figures correct .
+8 .
+If we now give infinite values to k and i and pass from the summation to the definite integral , we have ( putting X= ) zN 2rrdx _2N r " d ?
+, z~ P ; T-s-~L.r9 + ( N-r2 ) COS2 Axr -rxNJ0 r+ ( N-r)cos7ro 1+ Nsin r and since r* f4 d__d_ _7 1 +p.sin-4/ l+p this is an identical equation , as it ought to be .
+9 .
+This use of approximants , therefore , is simply the application of the method of 3L2 419 quadratures to a definite integral , which we substitute for the surd proposed for evaluation .
+10 .
+It would appear at first sight that a full application of the method of quadratures in the ordinary way , with the help of differences , would give better results than the mere summation of the ordinates .
+But this is not the case ; for the differences diverge immediately .
+If we use differential coefficients for the quadrature , instead of differences , we have an opposite anomaly , namely that the correction of the summation appears to be absolutely nil , inasmuch as the differential coefficients which appear in the series are all of odd order , and the numerator of each of them contains the factor sin p cos p , which vanishes at both the limits 0 and -r .
+LEGENDRE has discussed this point .
+See the Appendix to the second volume of his 'Fonctions Elliptiques , ' p. 578 .
+11 .
+The application of the method to integrations , then , lies in the substitution for ct Mdt 2Mr.dA.dt J o/ N dt of ( N )c in which , since X and t are perfectly independent of each other , we may change the order of integration , thus obtaining rir t 2Mr.dt Jo l~Jr2 + ( N r2 ) Cos2 XJr ' and the rest of the operation depends upon our being able to perform the integration in } generally , and then to determine the integral in X by quadratures .
+The great advantage of the method turns upon the easy application of the method of quadratures , in consequence of our not requiring to difference the ordinates .
+12 .
+One way of exhibiting generally the degree of convergence is as follows : N ii always lies between ( r + N)i + ( r/ N)i ( r +N ) -(r -A/ N)i '(r+ v/ N)i--(r/ N)i an ( r+v N ) + ( rN ) ' and the error of either is therefore always less than their difference , N , i 4(r2-N)i ( r + / N)-(rN)2 13 .
+There is another mode , by which , in any given case , we may see how far it is necessary to carry our work in order to obtain a given number of decimals correctly in the result .
+Let Om be determined by the equation om dOm 01 dOl cos , o , cos 01 r and let sin -r or -N7 whichever may be less than unity ; then the rnth approximant r/ N will be sVn ' This is easily seen from the general term of the approximant , since cos logsin s ) dO 1l -gsinO\ cosO8-2 log1 sin 1 A t able of meridional parts , such as is given in the books on Navigation , if carried far enough , would solve this equation .
+I have calculated an auxiliary Table for the purpose , as follows : Let cosec p-1=z , log , tan ( 4 r+2 ) =y , then Y= log , z2 log 2-log z+log 1+ -=2log 2-logz+-16-8 28 ... ... ... To bring this formula to the same unit as the common Table of meridional parts , we must multiply it by the number of minutes in the arc equal to unity , or by L=3437-74677 07849 4 , whence we have 1L log , 2=1191-43224 08243 2 , and L log , 10=3958 85223 39129 100 .
+These data give the following Table , the argument being the common logarithm of z with its sign changed ; that is , the number of places which are correct : -log .
+y. 1 5234-14859 2 9117-70966 3 1306884816 4 17026-92712 5 20985-70200 -log z. Y. 6 24944-54650 7 28903-39796 8 32862-25012 9 36821-10235 10 40779-95458 -log z. .
+11 44738-80681 12 48697-65905 13 52656-51128 14 56615-36352 15 60574-21575 v/ N 15 .
+As a simple example , letN=3 , r=2 ; -..r =sin 60 : the meridional partsfor 600=4527 ; and in order that the error may not exceed unity in the tenth place of 40780 figures , we must have m or 4527 9 ; so that we must make i=9 at least , for the 10th figure to be correct .
+16 .
+These methods of course only exhibit the degree of approximation on the surd itself .
+The proportionate approximation is generally greater on the integral than on the simple surd , because the first approximant is usually so chosen as to be identical with the surd at one of the limits , and it is only near the other limit that the discrepancy tells .
+SECTION II.--Details of Reduction and Computation .
+17 .
+The chief assistance , which can be provided a priori for the computer , consists in the exhibition and discussion , for the ordinary forms , of the integral r+ ( N_2 and of the auxiliary functions which present themselves in its reduction .
+18 .
+In applying these methods to elliptic integrals , the radical and the first approximant r must both be of a simple form , and it is advisable that r2-N or N-r2 should be 421 of a square form .
+For the common form of the elliptic radical V/ ( 1--sin2 0 .
+sin2 p ) , our choice is practically limited to ( 1 ) r=l , ( 2 ) r=cos p , ( 3 ) r=sin .
+cos , ( 4 ) r=cos 0 , ( 5 ) r=cos 0 .
+sin. And on these suppositions I now proceed to the integration of the general form of the reduced approximant for o(I--sin2 0.sin2 )-idp=--zdp .
+I omit mention of the constants of integration , because very slight changes in the function may alter them .
+The first of our three cases require , as they stand , no constant , and these are the most useful cases .
+( 1 ) r=l , r--N=sin2 0 .
+sin2 p , 2ir 1-sin2 0 .
+cos2_- .
+sin2 Skd=2 ( 1 sin2 .
+cos2 ) tan( -sin2.cos2 tan 4 ( 2 ) r=cos p , r2-N=--cos2.sin2 , 2 cos p2 cos qp cos2 &lt; + Cos2 0 .
+cos2 .
+sin2 p1 --cos2 .
+cos2 k ) .
+sin2 S , d~ C-COS ' 8 , I l+smy^l-cos2^ .
+cosk r ) J^zdp= ( l-cos2 6 .
+cos2 log , )(2'1 sin ( 1-cos2 0 .
+cos2 k ( 3 ) r=sin d. cos , r2--N= --cos2 , 2 sin 0 .
+cos p ( 1-cos2 si .
+sin 8 .
+-s in2 .
+s -Cor 0(1-cos2 0 .
+sina k ) + sin. s in l 5zkd ( 1-cos0 sin2 k ) log i(--co k. sn j_2_1~ I.cos , l. g cs1 + tan2 0 .
+cos2 .
+cos2 ( zkdP=-2 ( 1-sin2 0 .
+sin2 })-~ tan'{cos 0 .
+tan -s ( n1-sin2 .
+sin2 -- ) } .
+( 5 ) r=cos 0 sin e , r2N cos2 , 2 cos 8 .
+sin Z= ... cos. sin2 p+ cos2 - .
+cos &lt; p Szed 2 ( cos2 -os2 ) tan co s ( cos2 -c2 } cos -co 1--os0 kcos -s ( cos-cos2 - ) log co COS l\2 ( 6 ) If we make t=tan p , we obtain ( lsin2 0 .
+sin2 p))dp=2(1-2 cos 2 .
+t2+t4)dt .
+Taking r -l-t2 , the terms which we have to integrate are of the form 4(1-it ) dt ( 1_t2)2+4cos2 .
+COS2 kvr 'te)+ e+ 4 cos0820 .
+cos --$ Putting 2= 1--cos2 .
+cosa2 - , we have 1t/ 2+2t+l fzkdp-q log , t2--2qt+ 1 The same expression serves for the integral r 2dt J(1 +2 cs 2.t t4 ) ' if we put -2= 1sin2 O. cos2 - .
+19 .
+It will be observed that the first four cases , and the sixth , depend upon a radical of the form V(1--sin2 A. sin2 o ) , where w is restricted to the selected values of - .
+Assuming the modulus sin A not to vary , it would therefore in general be better to begin by computing the radical for the selected values .
+I have computed , and I append to this paper , a Table of this radical , the selected values of y being 22 ? ?
+30 ' , 45 ?
+, and 67 ? ?
+30 ' , while A ranges by whole degrees from 1 ?
+to 90 ?
+inclusive .
+Every entry but the last in the 2nd , 3rd , and 4th columns of the Table was computed by myself in duplicate with VEGA'S ten-figure logarithms , by the help of two or more of the following formule , some of which are from LEGENDRE .
+20 .
+Putting A for / ( 1--sin2 A. sin2 % ) , ( 1 ) Make sin A. sin w=sin M ; then A=cos M , log sin M=log sin A+log sin W , log A=log cos M ; or else ( 2 ) Make tan A. cos w=tan M ; then A=cos A. sec M , log tan M=log tan A+log cos o , log A-log cos A+ are .
+co .
+log cos M. Moreover , let L be the tabular angle nearest to the angle M : it is not necessary to obtain the value of M : so that we have simultaneously , log sin M=log sin L+s , log tan M=log tan L+ t , log cos M=log cos L+Pc ; 423 then we shall also have , and with great approximation , log s=log ( t. cos2 L)+(t-t .
+cos2 L ) =log ( c. cot2 L)+(c+c .
+cot2 L ) , log c=log ( s. tan2 L ) ?
+( s+s .
+tan2 L ) =log ( t. sin2 L ) ?
+( t-t .
+sin2 L ) , log t=log ( s. sec2 L)+(s-s .
+sec2 L ) =log ( c. cosec2 L ) 4 ( c-c cosec2 L ) .
+I have given the whole set of six , but my Table was computed with the pair for log c. By way of example , I add a specimen copy of one of my working sheets .
+The use of so many as ten figures is not altogether unnecessary , because otherwise , when A is nearly equal to unity , the value of log ( 1A ) or of log +cannot be had with exactness .
+21 .
+The following formulae will also be found in many cases preferable , both for exactness and facility , to the ordinary use of logarithmic tables by means of differences .
+These formula , as well as those of the previous paragraph , are but applications of TAYLoR'S theorem , reduced to a shape fit for the computer .
+Even where only seven figures are required their application is frequently much easier , and gives more exact results , than interpolation by differences .
+In what follows , x is supposed to be the nearest tabular entry .
+22 .
+To find logyfrom log tan y.-Let us assume simultaneously log y=log xl , logtany=log tan x+t .
+Putting u=log x , z=log tan x , we have du sin 2x d2u sin 2x sin 2\ -= and d2=2 ( cos 2x ; i 'X d-2x and dZ2 2 2x M being the modulus of the logarithms .
+Hence , by TAYLOR'S theorem , sin 2x / 1__Msin 2 ) l=t j , { 1+Mt nx cos 2x } nearly .
+Taking the logarithm , this becomes log/ logQ sin 2x ) t / sin 2x log l=lo(t - ) +t ( 2 -cos 2x ) 1(t .
+sin x. cos x t. sin x. cos x -=log +X -t t+2tsn x. The latter is the better shape for a working formula , because log sin x and log cos x are found in the same page and line as log tan x , while log sin 2x must be looked for elsewhere .
+The first term alone is sufficient when x is small ; but when x much exceeds 450 , cos 2x changes its sign , and even the entire formula is insufficient .
+The maximum value of the coefficient of t in the second term is 1-0631 , corresponding to x= 78 ? ?
+33 ' 26X ' 5 .
+In many cases , where the first term alone is insufficient , a rough interpolation , made at sight from the following Table , will answer the purpose ; it is a Table n2 -cos 2x ) and of its logarithm , from x=45 ?
+to r=90 ? .
+-co 45 0*63662 9'80387 50 0'73816 9-86815 55 0-83149 9'91986 60 0-91349 9-96070 65 098041 9-99141 of the value of 70 1.02910 0-01246 75 1-05658 0-02390 80 1-06216 0-02619 85 1-04334 0-01843 90 1 .
+0 The Table shows that , past 45 ?
+, the formula , log 1=log t sin x cos x ) _x is a better approximation than when the 4t is omitted .
+It is to be remarked that t is at its minimum for x-=45 ?
+, and increases both towards x-=0 and x=90 ? .
+Near the latter limit , where great accuracy is required , we must proceed as follows .
+Find the correction for the logarithm of the complement of the arc by the above process , and then find log ( 7r-y ) from log y. For this purpose , I observe that log y=log x+l is equivalent to y= x.l0 ' , hence 1 .
+17r-y= 1i7--X .
+10+fl=( 1r-X)-(101 1-1 ) .
+Now , let +A=l10--1 , whence log ( ?
+mA)=log ( ?
++l ) ?
++l-2 M12 nearly , and also [ +mAx f_+mAx log ( -7r-y)=log ( --7r-X)(:_ ) -M ( mA ) .
+2 It is not often that the third term of either formula will be required .
+I have gone into all this detail , because the inverse tangent is continually presenting itself in all these integrations , and because no book that I know shows the proper way of handling it .
+23 .
+The following constants are needed for these and similar formule:10+logm =963778 43113 00537 , 10+logl0 =824187 73675 90828 , 10+logl'=6-46372 61172 07184 , 10+logl"=4'68557 48668 23541 , logM=0-36221 56886 99463 , -logl ?
+=1-75812 26324 09172 , -logl ' =3-53627 38827 92816 , -log " =5-31442 51331 76459 .
+24 .
+As an example of finding the inverse tangent , let it be required to find logy and log ( Ist-y ) from log tany=9-902313 50437 .
+log tanx= 902303 57359 +t-9 93078 ; Here we must take. .
+x=6 ? ?
+1 ' 10"=21670 " r--xT= 302330 " log sinx90206346 log cos x= 9-9975988 log t=5-9969834 are .
+co .
+log x=0-9785662 t sin 2x log si2x =5-9937830 lo ~2a ?
+log sin2 x= 80413 log 2=-03010 log t=5-9970 log ( 2 sin2 x)=43393 2 sin2 x= 21,800 f cQ ; r at log 21670 =433585 89113 log1 " =4-68557 48668 log x=902143 37781 1= +9 85786 logy= 902153 23567 2nd correction -14 2= 985,8 log =5-9937816 1007,6 -1 +493 -t=-993,1 log 302330=5-48048 12441 logmA=5-9938309 2ndcorrection= 14,5 log 1"=4-68557 48668 log x= 9-0214338 The comma cuts off the log ( ?
+7r-x)=0'16605 61109 eighth decimal .
+are .
+co .
+log ( -rx)9-8339439 correction-70666 log correction=4-8492086 log(7r--y)=0-16604 90443 Verification.-The numbers corresponding to these logarithms of y and of 7-r-y are 0-10508 29743 and 1-46571 33525 , the sum of which , to the very last figure , is exactly 1- .
+25 .
+To find log y+ from logy.-Let log y+ l=log +p , and log y=log x+q ; then logp=log ( _ l ) IT4-g+ ' , nearly .
+This formula obviously fails where y is near unity ; in this case log Y+ cannot be had with great accuracy , unless y itself be given absolutely .
+All the cases of ba may be included in the above formula by giving proper signs to p and q. It may save trouble to remark that x must not always be taken to the extreme limit of the Table , because log(x+ 1 ) and log ( x -1 ) have also to be taken out .
+As an example , let log y=0-36290 63835 log x=0'36285 93030 x=2'306 , a+1=3-306 , x-1=1 306 q= +4 70805 log ( x+l)=051930 28492 log q=56728411 log(x-1)=0-11594 31769 are .co .
+log(x2-1)=9-3647540 sum==0-63524 60261 5-0375951 -i-=0-0001090 difference=0-40335 96723 log x=03628593 1g= 135 --= -5 02761 log 2=0-3010300 2nd corr-=0O0001225 log 040330 93962 log =0 ' 40330 93962 5-7014844 y2nd correction-1225 logp=5-7013619 This example has been so chosen as to admit of easy verification .
+In fact y =230625 , 41 ^529 and logjy l=log -==0 40330 93959 24 .
+The error is therefore only of three units in the tenth decimal place , where there was no reason to expect accuracy .
+26 .
+The only other formulae which I shall give are the following , for finding the logarithm of a number , and vice versed .
+They are indispensable where more than seven figures are required .
+Let log ( x+_h)=log x+k , then / mh\_1 mh log k-=log y+ -nearly , log h=log ( Mxk ) ?
+k nearly .
+The values of log m and log M have been given in paragraph 23 .
+27 .
+As an example of the application of the method to the evaluation of elliptic integrals of the third class , let us take the integral dp ( l--sin2O.sin2p)i for the values a=45 ?
+, d-=30 ?
+, 60 ? .
+I have selected these values because they can be obtained without reduction or interpolation from the Table of A(O , p ) which I have given , and also because sin2 a= sin 0 , and therefore the integral can be reduced to one of the first class , plus an inverse tangent , thus admitting of easy verification .
+For this case 2 ( l--sin2a .
+sin ) ( sin2 0 .
+cos2 .
+sin2 ) ?
+2 sin2 Li SZd =k.2 2 cos 1 tan- ' ( cosa.tan p ) sin 2 asin 20.cosc 2 sin2 -s.coss k(r2 2( - ; e A ( 1-sind.i.cosI s tan1 -sinn ' cos tan p sin2aSin0.cos2 _ Makingsuccessively 22 ? ?
+30 ' , 45 ?
+, 67 ? ?
+30 ' , and , for the odd term , 90 ?
+, we find , after a few obvious reductions , that eight times the value of the integral is ( 17 221 { +A/ 2 ( 450 , 67)+ A2(45 % 22i ) } cos 45-0 tan- ' { Co 45 ?
+.tan 60 ?
+} 191 -cos tan- ' { cos 30 ? .
+tan 60 ?
+} A(30 , 45 ) tan- ' { A(30 , 45 ?
+).tan 60 ?
+} _tan- ' { A(30 , 672).tan 60 ?
+}.cos2 22~ tan- ' { A(30 ?
+, 221).tan 60 ?
+t.cos267 A2(45 ?
+, 672).A(300 , 672 ) A2(450 , 22).A(30 ?
+,221 ) 32 427 As these inverse tangents range generally from 45 ?
+to 60 , I computed them by the shortened formula of paragraph 22 , namely log( sin. )c+-t ; this being sufficient to give eight figures of decimals accurately .
+I found log tan- ' cos 45 ?
+tan 60 ?
+} =9-94747 15296 , log tan- ' { cos 30 ?
+tan 60 ?
+} =9-99246 23739 , log tan-'A(300 , 450 ) tan 60 ?
+} =0-00766 92607 , log tan- ' A(30 ?
+, 671).tan 60 ?
+} =9-99727 33807 , log tan- ' tA(30 ?
+, 221).tan 60 ?
+} =0-01665 09657 .
+I hence obtained the following values : For the positive terms .
+7-10091 3039 For the n , 1-134 4-37212 6152 0-725 2-70421 6251 1-668 14-17725 5442 0-167 3-69590 9978 3-695 8)10-48134 5464 1-31016 8183 value required A more exact value of the integral , otherwise obtained , is egative terms .
+i83 2441 M39 4027 ; 39 9478 '28 4032 i90 9978 iF(30 ?
+, 6O ?
+)+tan(4 in 6 131016 8161 , which differs from the previous value by 2 units in the eighth decimal place .
+28 .
+In order to find how many places ought to have been accurately obtained , I 13 observe that the method followed gives N=- , r=1 , whence log ( v/ N ) =9-95491=log sin 64 ? ?
+20 ' 30 " .
+The corresponding meridional parts are 5086'5 , which must be multiplied by i=8 , giving 40692'0 .
+Referring to the Table in paragraph 14 , I find that this nearly corresponds to ten places correct , and therefore that the integral ought to be correct to at least that extent .
+That it is not so , is due to my having curtailed the formula for finding the logarithms of the inverse tangents .
+But my object was only to give seven decimals correct , and my going beyond that was simply because , with a ten-figure Table , putting down the additional figures gave me less trouble ( once I had to use more than seven ) than abbreviation would have done .
+This remark may at first sight seem strange to any one who has not had some practice in using large Tables .
+But the logarithmic corrections are given in the shape of arithmetical complements : with reference to the 10th figure , therefore , considered as an integer , the index is right as it stands , and we need not bestow thought on the proper placing of the correction , as we must if we use any other number of figures .
+29 .
+If we had been content with five decimals , the calculation would have been very easy , for in that case we might have used six-figure logarithms , and have made i =4 , thus omitting the terms containing 22 ?
+1 and 67 ? .
+We should get 7'10091 3039 1-13483 2441 1-86022 6468 0-72539 4027 4)5-24068 6571 1.86022 6468 1-31017 1643 value required .
+30 .
+It is worth while to notice a case which will sometimes occur , namely ( using the notation of the last example ) , that the values may be so selected as to give , for one of the values of k , sinsin.si cos , and thus each of the terms into which Szkdp was divided would become infinite .
+Of course the difficulty is only apparent ; for in this case the proper value is Sz , kdpJ(l sin2 sin2 )2 ' of which the integral may be at once sinTbp.cos found by differentiating the expression 1-sin 2asin SECTION III.-Extension of the Method .
+In respect of rapid approximation and precision of limit , the foregoing processes leave nothing to be desired , as far as concerns the radical of the square root ; but they do not go beyond that .
+Mr. SYLVESTER has given an elegant extension of the method to radicals of a higher index , by means of symmetric functions* .
+The more general problem before us is that of approximating to the integrals of irrational functions by means of rational substitutions .
+Let p and 4 be functional symbols , and ya function of z ; then , that @(z).ym and p(z ) ym should both be approximations to p(z ) , depends upon ym approaching unity as m increases .
+Assuming that ym and y , are connected by the equation y.=4i(m , y , ) , our problem is to choose ?
+so that , in the first place , the approximation shall be exceedingly rapid , and , in the next place , that p(z ) .
+y and p(z):y , shall both ( or at least one of them ) be thoroughly manageable , and easily integrable .
+In the case of the approximants already given , the equation ym=(m1n , y ) has been made j 2--=mJ Y-y2 I am acquainted with three general methods which effect the object more or less .
+The first is the obvious one afforded by the Newtonian approximation to the roots of an equation ; viz. , let a be a first approximate solution , obtained by trial , of the equation fx=0 , and call f'x the differential coefficient of fx ; then a second approximation is fa fb a-y-fi=b ; a third approximation will evidently be 6--f-=c , and so forth .
+If we apply this method to the pure equation x"=p , the convergent terms which we obtain are as follows:(n1)an +p na-n_(n1 ) ( n -l)a +p } n +n..p.an(n-l &amp; n2an- ' ( n-1)a-p } , -'1 The second method is that of the reversion of series ; it is sufficiently discussed by ARBOGAST * .
+The third method was suggested to me by Mr. CAYLEY'S remark that Mr. SYLVESTER'S third approximation is a particular case , for n=2 , of the common form ( of the books on ~ Xthe binomial theorem ) ( n + 1)N + ( n ] )an the binomial theorem ) a , / N(n)N + ( n+ 1)an a , approximately , a being a first approximation .
+In order to gain generality , and thereby symmetry , I shall pass from the particular form / -N to the more general p-'N by the following Lemma : Let N=aO+alx+x+a2x+3+ ... ... ... .
+( 1 .
+) and let x , , x2 , x , x4 ... .be determined by the system of equations , N=a(l+ao l ) = ( +a1 , ( 1 + .
+) ) ... .a2 .
+( 2 .
+) = ( 1+ a3 a(1 a+ ( 1+ ) ) ) J and so forth ; also let N--ao0=P , and 1(-ax-a2 a3X 3 ... .)(X0+X1++X2+ + * ... ) , .
+( 3 .
+) then x AI A 2_n-1 XIx~ =,1 2A 3-.3 An For , if we substitute these values in the equations ( 2 .
+) after placing them in the following form , ,u=Nao=alx A =ax23+a2x2x+ , J =ax3+S-ax3x+a-xx2x,. .
+( 4 .
+) and so forth , we obtain a1A a_alAX+a2 aXo_^alA2 Al+ + ( + ) , 3O .
+&amp; C. ( 5 .
+) which are the same equations as we should get by multiplying the two series in ( 3 .
+) and equating to zero the coefficients of x and of its powers .
+The coefficient Ao=- , obviously .
+The coefficients X may now be found in a variety of ways ; by solving equations ( 4 .
+) or ( 5 .
+) , by simple division , or by ARBOGAST'S processes * .
+The object of the preceding lemma is to connect the quantities x , with the coefficients of division and of recurring series .
+Our results in any way are , a , _ alp__ al a2Fe + al a22 + ?
+a , 2 , 'ap3 + 2a 2ap +a l3 S ap , '3 ? ?
+2a2at 2+ a213 4a4+ ( 2a3g1 + a22)p2+ 3a2a12.+ al4 ' If for a , , a , &amp;c. we substitute the coefficients of the binomial theorem , so as to make N=(a+x ) " , we obtain ( nl)an+N a+1= na .
+a , na7 , ( n1)a " + ( n + 1)N a+X2=-(n+ 1)an+ ( n1)N a , ( nS-1)a2n + ( 4n2 + 2)a"N + ( n21)N2 a+ 3-(n+ 1)(n+ 2)a2 +4(n2-)alN + ( n--1 ) ( n--2)N2 .
+a. Making n=2 , we obtain Mr. SYLVESTER'S approximants to the square root , and X , is then the coefficient of xn in the development by ascending powers of 1 ( N-a2)-2axa-x ; and so far the method agrees with the Newtonian approximation by continued fractions ; but from this point the two methods diverge .
+For n3 , X , is the coefficient of x " in the development of 1 __ ( N-a3)--3ax--3ax2~xa and the successive approximants are 2a3+ N a3 +2N 4a6+ 19a3N+4N2 5a9+45a6N+30aS3N+N3 3a3.a , 2a3-+N.a 10a6+16aN + N2 a 15a9+51a6N+l5a3N2 *a &amp;c. ; while the second approximant obtained by successive substitution is 16a9 + 51a6N + 12a6N 2+ 2Na 36a6a+36a6N + 9a3N2 a What these methods all effect is simply a rational approximation to the value of y in du the equation p ( y , z)=0 .
+Then , making y=dz , we have only to integrate in order to find the value of u. They thus constitute a means of approximately solving , in respect of u , differential equations of the form p ( , d ) = -0 ; but they do not effect the soludp U"wtOnu ; erez~e ou tion of this equation in respect of z , and still less do they solve the more general form i du\ d Btt:dz , It may suggest processes of reduction in some cases to remark , that there are many other functions of y , and p(z ) , which will approximate to p(z ) as m increases , besides the simple product or quotient of @(z ) by ym .
+There is one point about these higher approximants , of which a solution , even if accompanied with considerable restrictions , would be extremely desirable , -I mean the resolution of the denominators into factors .
+I do not suppose that the problem , in its perfectly general form , admits of a compact solution ; but any class of cases , of even moderate generality , for which it could be elegantly solved , would probably have very useful applications .
+The criterion of convergence and the measure of approximation would also have their interest .
+Specimen sheet of work for the Table .
+log sin 221= 9-58283 96605 83* log sinA = 9'93753 06316 96 log sin M= 9'52037 02922 79 log sinL = 9-52039 09944 s= -2 07021 s tan2 L= 25546 log tan2 L= 9-0913166 log s= 5-3160144 4'4073310 s+1 -233 s tan'L= log c= 4'4073077 log cos L=9-97473 27132 c= + 25545 log A=9-97473 52677 ... , log sin 45 ?
+= 9'84948 50021 68* logtan2L= 9-7781471 log cos L=9-89794 07883 log sin A= 9-93753 06316 96 logs= 4-1137763 c= 7797 log sin M= 9'78701 56338 64 3*8919234 log A=9'89794 00086 log sin L= 9-78701 43344 s+ 2s=+ 12995 stan2 L= +s tan2 L= 7821 log c= 3-8919255 log sin 67 = 9'96561 53459 21* log tan2 L= 10-2501550 log cos L=9-77806 24352 log sin A= 9-93753 06316 96 log s= 4'7816118 c= 1 07593 log sin M= 9-90314 59776 17 5-0317668 log A=9'77805 16759 log sin L= 9.90313 99296 s +168 s=+ 60480 s tan2L= J stan2L =1 07589 log c= 5-0317836 log tan22== 9'61722 43146 62* log sin2 L 8-6140815 log cos 22-=-996561 53459 21* log cosA = 9-69897 00043 36 log t= 5*5451559 log sec L =0'00911 84784 log tanM = 9-31619 43190 08 4-1591374 9-97473 38243 log tan L= 931615 92213 t-c= + 14430 +.327 t=+3 50877 t sin2L= log A=9-97473 52673 tsin2 L =14018 log c= 4-1591701 logtan45 =10'00000 00000 00* log sin2 L= 9-3009948 log cos 45 =9-84948 50021 68* log cos A= log t= 5'3429218 log sec L =0-04845 06017 log tanM = 9-69897 00043 36 4-6439166 9'89793 56039 log tanL = 9-69894 79790 t1 c= + 44049 + 176 t= +2 20253 t sin L=log A=9'89794 00082 tsin L= 44047 log c= 4-6439342 log tan 67-= 10-38277 log cos A= 969897 log tan M= 10-08174 log tan L =10-08175 t=t sinQ L 56853 38* 00043 36 56896 74 16044 59147 35075 log sin L= 9-7730722 log t= 4-7719327 45450049 tI 24 t sin L= J log c= 4-5450025 log cos 67=-9-58283 96605 83* log sec L =019521 55228 9-77805 51834 c= 5075 log A=9'77805 16759 Vote.-The entries marked * , and the whole of the letter-press , were printed on the sheets .
+The letter A en this page corresponds to 0 in the Table .
+MDCCCLXII .
+3N 433 Arc of 60 ? .
+Table of the value ovf the function log A(O , 6 ) or log V(1 -sin2 0 .
+sin ) for four values of w , viz. 220 30 ' , 450 , 67 ? ?
+30 ' , and 90 ? .
+4 .
+log A ( 8 , 22 30 ' ) .
+log A ( Q , 45 ?
+) .
+log A ( 0 , 67 ? ?
+30 ' ) .
+log cos 0. .
+9-99999 03138 9-99996 12643 9-99991 28792 9-99984 52048 9-99975 83051 9-99965 22633 9'99952 71805 9-99938 31764 9*99922 03891 9-99903 89748 9-99883 91084 9*99862 09825 9-99838 48090 9-99813 08170 9-99785 92542 9-99757 03868 9-99726 44986 9-99694 18915 9-99660 28857 9-99624 78189 9-99587 70469 9-99549 09429 9-99508 98979 9-99467 43204 9-99424 46358 9-99380 12870 9-99334 47337 9-99287 54524 9-99239 39363 9-99190 06948 9-99139 62526 9-99088 11517 9-99035 59484 9-98982 12144 9-98927 75363 9-98872 55150 9-98816 57654 9-98759 89157 9-98702 56072 9-98644 64943 9-98586 22425 9-98527 35294 9-98468 10429 9-98408 54812 9-98348 75524 9-99996 69274 9-99986 77197 9-99970 24074 9-99947 10407 9-99917 36910 9-99881 9-99838 9-99788 9-99732 9-99670 9-99601 9-99525 9*99443 9-99355 9-99260 9-99159 9-99051 9'98937 998817 9-98691 9-98558 9-98420 9'98275 9-98125 9-97968 04507 14325 67716 66254 11740 06211 51957 51515 07689 23560 02501 48183 64594 56060 27246 83197 29331 71478 15899 69297 9-97806 38852 9-97638 32245 9-97464 57677 9-97285 23905 9-97100 40265 9-96910 9-96714 9-96513 9-96308 9'96097 9-95881 9-95661 9-95437 9-95208 9-94974 16705 63813 92852 15797 45359 95031 79121 12781 12065 93945 9-94737 76364 9-94496 78273 9-94252 19663 9-94004 21611 9-93753 06317 9-99994 35386 9.99977 41349 9-99949 17311 9-99909 62308 9-99858 74990 9-99796 9-99722 9-99637 9-99541 9-99433 9'99313 9-99183 9-99041 9*98887 9-98721 9-98544 9-98354 9-98153 9-97940 9-97715 9-97478 9-97229 9-96968 9-96694 9-96408 9-96109 9-95798 9-95474 9-95137 9-94788 9-94425 9-94049 9-93660 9-93258 9'92842 9-92412 9-91969 9-91512 9-91041 9-90556 9-90057 9-89543 9-89015 9-88473 9-87916 53618 96070 99831 62004 79300 48042 64168 23213 20337 50300 07479 85857 79027 80200 82198 77462 58056 15661 41603 26837 61968 37258 42643 67741 01877 34100 53211 47788 06231 16784 67607 46797 42488 42888 36388 11640 57674 64024 20869 19193 9'99993 9-99973 9-99940 9-99894 9-99834 9-99761 9-99675 9-99575 9-99461 9-99335 9-99194 9-99040 9-98872 9-98690 9-98494 9-98284 9'98059 9*97820 9-97567 9-97298 9-97015 9-96716 9'96402 9-96073 9-95727 9-95366 9-94988 9-94593 9-94181 9-93753 9-93306 55951 9-92842 04835 9-92359 14023 9-91857 42135 9-91336 45194 9-90795 9-90234 9*89653 9-89050 9-88425 9-87777 9-87107 9-86412 9-85693 9*84948 38497 53589 44063 07898 42260 43489 07098 27754 99270 14589 65764 43940 39328 41185 37781 16370 63156 63255 00654 58164 17377 58605 60827 01625 57115 01869 08840 49269 92587 06317 0123456789 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 03456789 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 76446 86165 21441 25944 39665 98629 34581 74638 40901 50022 ( continued ) .
+I. log A ( 0 , 22 ? ?
+30 ' ) .
+log A ( , , 45 ?
+) .
+log A ( 0 , 67 ? ?
+30 ' ) .
+log cos. 0 .
+_ _ .
+, ,I9-93498 97136 9-93242 18620 9-92982 96543 9-92721 57944 9-92458 31150 9-92194 45794 9-91927 32846 9-91660 24627 9-91392 54820 9-91124 58470 9-90856 71996 9-90589 33160 9-90322 81075 9-90057 56154 9-89794 00084 9'89532 9-89273 9*89017 9-88765 9'88516 9-88272 9-88033 9-87800 9-87572 9'87350 9-87136 9-86928 9-86729 9-86538 9-86356 9-86183 9-86020 9-85867 9-85725 9-85593 55788 67330 79885 39622 93618 89739 76506 02961 18497 72689 15099 95088 61579 62846 46269 58088 43157 44678 03958 60134 9-85473 49940 9-85365 07456 9'85268 63874 9-85184 47281 9-85112 82461 9'85053 9-85007 9-84974 9-84955 9-84948 90708 89667 93212 11322 50022 9-87344 9-86758 9.86156 9-85540 9-84910 9-84264 9-83603 9'82928 9-82238 9*81534 9-80815 9-80083 9179337 9178577 9177805 9-77020 9-76224 9-75417 9-74601 9-73776 50980 09423 89166 86587 00105 30543 81532 59976 76555 46333 89399 31625 05490 51006 16759 61055 53190 74828 21530 04387 9-72943 51756 9172105 11125 9-71262 51046 9-70417 63081 9-69572 63771 9-68729 96519 9-67892 33280 9-67062 76041 9-66244 57824 9-65441 43168 9-64657 27859 9-63896 37732 9-63163 26324 9'62462 71226 -961799 68925 9-61179 28070 9-60606 61106 9-60086 74357 9-5962456795 9'59224 67793 9'58891 9-58627 9-58437 9-58322 9'58283 24439 88989 57166 48116 96696 9.84177 9'83378 9-82551 9'81694 9-80806 9-79887 9178934 9177946 9-76921 9-75859 9-74756 9-73610 9-72420 9-71183 9-69897 9-68557 9-67160 9-65704 9-64184 9-62594 9'60931 9-59187 9'57357 9-55432 9-53405 9'51264 9-48998 9-46593 9-44033 9-41299 9-38367 9-35208 9-31787 9'28059 9-23967 12731 33303 08951 29168 74967 18039 19787 30249 86852 13013 16513 87645 97077 93361 00043 12291 92909 67649 19615 82593 32999 80116 54170 91617 16846 19176 23640 53400 80750 62305 51767 80330 89102 88450 02300 9-19433 24413 9-14355 53039 908589 44712 ' 9-01923 45656 8-94029 60083 8-84358 45184 8-71880 01636 8-54281 91639 8-24185 53184 -log .
+infin .
+435 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 9'98288 9-98228 9'98168 9-98108 9'98048 9'97989 9'97929 9'97870 9'97812 9.97753 9-97696 9'97639 9'97583 9'97527 9'97473 9-97420 9'97367 9'97316 9-97265 9-97216 9'97169 9-97123 9-97078 9-97034 9'96993 9-96952 9-96914 9-96877 9'96842 9'96809 9-96778 9-96749 9-96721 9'96696 9'96673 9-96652 9.96633 9.96616 9.96602 9-96589 9*96579 9-96571 9*96566 9-96562 9-96561 79722 74657 67640 66053 77326 08943 68415 63285 01111 89457 35878 47918 33090 98869 52675 01874 53742 15478 94174 96810 30239 01175 16179 81644 03790 88643 42028 69551 76594 68303 49569 25025 99032 75670 58731 51705 57778 79819 20377 81672 65594 73697 07187 66934 53459 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 *74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90
+

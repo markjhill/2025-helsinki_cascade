@@ -1,0 +1,1195 @@
+] XXXVI .
+On the Comparison of Transcendents , with certain applications to the Theory of Definite Integrals .
+By GEORGE BOOLE , Esq. , Professor of Mathematics in the Queen 's University .
+Communicated by Professor W. F. DONKIN , F.R.S. Received March 16 , -Read May 7 , 1857 .
+1 .
+THE following objects are contemplated in this paper:1st .
+The demonstration of a fundamental theorem for the summation of integrals whose limits are determined by the roots of an algebraic equation .
+2ndly .
+The application of that theorem to the problem of the comparison of algebraic transcendents .
+The immediate object of this application will in each case be the finite expression of the value of the sum of a series of integrals , 4SXdx , the differential coefficient , X , being an algebraic function , and the values of x at the limits being determined by the roots of an algebraic equation .
+Srdly .
+The application of the same theorem in a new , and , as is conceived , more remarkable line of investigation , to the comparison of functional transcendents .
+The terms 'algebraic ' and 'functional ' are not here used by way of logical division to indicate classes of transcendents wholly distinct , but the term functional transcendent is simply employed to designate an integral SXdx in which X involves an arbitrary symbol of functionality .
+Under this third head of the comparison of functional transcendents will fall the most important special result of the entire investigation .
+A case will arise in which , without any limitation of the functional symbol , the several integrals included under the form SXdx will close up , if the expression may be allowed , into a single integral taken between the limits oo and oo .
+The result is a very remarkable theorem of definite integration , fruitful in important consequences .
+In its general form , this theorem is , I believe , entirely new .
+A particular case of it was discovered by me several years ago , and was published without demonstration in the Cambridge and Dublin Mathematical Journal* , and in LIOUVILLE'S Journal de Mathematiquest .
+A memoir by CAUCHY on integrals taken between the limits 0 and oo$ , contains also a very limited case of the same theorem .
+It appears there , however , as an isolated result , quite apart from the doctrine of the comparison of transcendents .
+In the concluding sections of this paper I shall apply the results of this part of the investigation to the extension of the theory of multiple definite integrals .
+As respects the methods and processes which will be employed in this paper , the only BOOLg ON THE COMPARISON OF TRANSCENDENTS , WITH peculiarity to which it seems necessary to direct attention , is the introduction of a symbol , differing in interpretation only by the addition of one element , from that which CAUCHY has employed in his ' Calculus of Residues .
+' Of the nature of this connexion I was not aware until my researches were nearly completed ; and I should then have abandoned my own symbol and adopted the other , already associated by the labours of its distinguished inventor with so many important discoveries in the higher departments of the integral calculus , if it had not appeared to me that the several elements combined in the interpretation of the former symbol were so allied that no one of them could without a manifest defect of completeness be omitted .
+It seemed to me also that many of CAUCIIY'S own applications of his symbol would gain in simplicity and in generality of expression , by the adoption of the more enlarged interpretation .
+2 .
+Beside the above special objects , in the attainment of which whatever claim to originality this paper may possess will consist , I have proposed to myself , as a general object , the simplification of a branch of analysis which possesses some practical and much speculative importance .
+To this object the introduction of the symbol above referred to , contributes in a very important degree .
+The necessity of simplification will , I think , be admitted by all who are acquainted with the literature of the subject .
+As presented in the writings of ABEL and of those who immediately followed in his steps , the doctrine of the comparison of transcendents is repulsive from the complexity of the formulae in which its general conclusions are embodied .
+The particular result known as ABEL'S theorem , the only one of its class which has been adopted into English works of education , will at once suggest itself in confirmation of this remark .
+Perhaps this complexity will not be thought surprising if we consider the nature of the problems involved , the discovery of finite relations among integrals which derive their very name from the circumstance that individually their finite expression transcends the powers of analysis .
+On the other hand , and this is a juster ground of inference , the theory upon which such applications rest is far from being difficult or recondite , and , considered a priori , should be capable of a simpler analytical development than it has yet received .
+I hope that I shall be able to show that this anticipation is confirmed by the results of the present inquiry .
+Simplicity , though it is not to be gained at the expense of that which is the chief object of scientific methods , the discovery of truth , is nevertheless a highly valuable quality .
+And so far from being inconsistent with generality in the processes and the results of analysis , it is sometimes an indication of the measure of our approach to completeness and unity .
+I think that this is more especially the case where , as through the labours of ABEL in the present instance , the subject matter of investigation has been clearly defined , and the entire series of methods and results foreshown to be the evolution of some one general principle or idea .
+3 .
+It will be proper , before entering upon the special investigation , to give some general account of the doctrine of the comparison of transcendents .
+In doing this , I cannot but refer to the able report of Mr. LESLIE ELLIS on the Progress of Analysis , published in the Report of the British Association for 1846 .
+It contains a most valuable summary and criticism of the chief contributions which have been made , both by English and by foreign mathematicians , to the theory of transcendental integrals in all its branches .
+I had completed my investigations on that particular branch of the theory which relates to the comparison of transcendents before I had the opportunity of studying Mr. ELLIS'S report ; but I know of but a single point , and that of no real importance , in which I should be disposed to dissent from the general views which he has expressed on this subject .
+The fundamental idea upon which the doctrine of the comparison of transcendents rests may be thus stated .
+We know that where we cannot express in finite terms the values of the roots of an algebraic equation , we can nevertheless finitely determine the values of various symmetrical functions of the roots , e. g. their sum , the sum of their squares , the sum of their binary products , &amp;c. Those values will be expressed in terms of the coefficients of the equation , or , speaking more generally , of the independent constants involved in any way in the equation .
+If we represent the equation in the form E(x , a , , a , ... .
+a , ) ( 1 .
+) E being a functional symbol , and a , a. .
+a , the independent constants , and if we represent the roots of the equation by x , x,..x , , then whatever the interpretation of the functional symbol p may be , the expression ( xj)+ )(x2)( ... ... ... .
+( 2 .
+) will denote a symmetrical function of the roots , whose value , in terms of a1 , a,..a can always be determined when ( p(x ) is a rational function of xi , and can very often be determined when p(xi ) is an irrational function of xi .
+Thus the value of the sum Zp(x ) , where the different values of x are the roots of an algebraic equation , can often be found when the values of the separate terms of which that sum is composed cannot be found .
+Now this suggests to us the question whether it is not possible in certain cases to find the value of the integral-sum ESXdx , where we cannot find the value of the separate integrals involved in that sum .
+What we usually mean by finding the value of the single integral SXdx , is the expressing of the value of that integral in terms of its superior limit , an arbitrary constant being annexed , and consists , in fact , in determining the function e(xi ) in the equation 'Xdx=pxi)+C ... ... . .
+( 3 .
+) The suggested problem is the finding of the value of the integral-sum 5Xd+ ?
+X..+5.Xdx ... ( 4 .
+) where x , , x2,. .
+x are the roots of an algebraic equation , which we will suppose to be ( 1 ) .
+Representing ( 4 .
+) by E5 Xdx , the solution of the problem will , according to the nature of the analysis employed , assume one of the two following equivalent forms , viz. either the form ^ th XXdx=P(al , a2,. .
+are )+C , ... ... ( 5 .
+) 5E2 747 a , , a,. .
+a , .
+being the independent constants in the equation ( 1 .
+) by which the limits are determined , or the form I Xdx=4(x , 2X. .
+ix)+C , ... ( 6 .
+) P(x1 , x2,. .
+x " ) being a function , and manifestly a symmetrical function , of the limits x1 , x2,. .
+x~ .
+Either of these forms may be converted into the other by means of ( 1 .
+) , but the first is the one to which we shall give the preference .
+We may remark , that if in the equation ( 1 .
+) al , a2. .
+a , vary , the values of x , determined by the solution of that equation , will vary also .
+For each set of values of a , a2,. .
+a , there will exist a simultaneous set of values of x. We may in this way consider the variables x in the several integrals under the sign 2 as always , in the course of their transition from the lower to the upper limits of integration , determined by the roots of the equation E(x , l , a2 , a. ) =0 According to this more general view , a , , a2. .
+are become a set of variables with which x is connected by the above equation , but the variation of x in each integral represents only the variation of one root of the equation .
+And the determination of the values of x at the upper or at the lower limits of integration by the solution of that equation , particular values being assigned to a1 , a,. .
+a , , is only a special case of the determination of the simultaneous values of the variable x. 4 .
+Thus the problem with which we are concerned may be more briefly expressed in this form .
+Required the value of the expression XSXdx , the simultaneous values of x in the several integrals being determined by an equation of the form E(x , al , a , ,. .
+a)=0 , ... . .
+( 7 .
+) in which al , a2,. .
+are are variable quantities , by the assigning of particular values to which in the solution of the equation , the particular values of x at the limits of integration are determined .
+The solution of the above problem is to be effected by giving to the expression IXXdx the equivalent form SXXdx , transforming 2Xdx into a complete differential with respect to the variables a , , a2,. .
+a. , and then effecting the integration .
+For this reason I shall designate ( 7 .
+) , or , as it may for convenience be written , E=0 , as the 'transforming equation , ' except when it is employed to determine the limits , in which case the designation of ' equation of the limits ' will be preferable .
+For the solution of the problem , as thus stated , it is usually necessary that the form of the function E in the transforming equation , and the form of the function X under the sign of integration , should have a certain connexion .
+The connexion implied is the following .
+The transforming equation must in general be such , that it may be possible by means of it to reduce the differential expression X under the sign of integration to a form F(x , al , a2,. .
+a. ) , which , considered as an explicit function of x and of a , , a , ,. .
+a shall be rational with respect to x. This is not a necessity a priori .
+It is a necessity founded in the limitations of the powers of analysis .
+To illustrate these remarks , let us take as an example the integral r dx J 1+ which is known to express the length of the arc of the lemniscate .
+The following would be a legitimate example of the kind of problem which it is proposed to investigate , viz. Required the value of the expression xJ v41+4 of dt the simultaneous values of x in the successive integrals being given by the roots of the equation 1+x =4 ++ ( a. .
++2)2 , ... .
+( 8 .
+) reducible to the form x+(a+-)x2+ax+a ... . .
+( 9 .
+) We shall represent these roots by x1 , x2 , X. The solution of the problem would then assume either the form J3= ?
+.)+C , ... ... . .
+( 10 .
+) C being the constant of integration and p(a ) the function to be determined , or the form iL+7= ?
+( ^X~,3)+C , X* , X. + ( 11 .
+) wherein 4 ' is to be determined .
+It will be observed that the transforming equation ( 8 .
+) is such as to enable us , in accordance with the requirement of art .
+4 , to reduce the function under the s:gn of integration to a form in which , considered as an explicit function of x and a , it is rational with respect to x. For it gives dw^ -f x dx\ JSV xJ^a+x+ ... ..2 ... .
+( 12 .
+) the second member of which fulfils the condition in question .
+It is to be remarked , however , that a and x are still connected by the equation ( 8 .
+) or ( 9 .
+) , and that we are not permitted to integrate as if a were constant , In the above problem , only one arbitrary element , a , presents itself in the transforming equation .
+There might , however , have been two or any greater number of arbitrary elements .
+Thus the equation might have been I +x4=(a+bx+ x)2 , or b2+2a 2 +a2 .
+( 13 .
+) 2b X ?
+aX ? ?
+2b =0.(13 .
+) and the solution of the problem would then have assumed one of the two following forms , viz. either the form i +x4=(a , b)+C , ... ... .
+( 14 .
+) 749 or the form jV +(x , , x )+C ... ... ... ( 15 .
+) From these solutions the corresponding solutions of the previous and less general problem would be obtained , in the one case by making b=1 , in the other by imposing upon the limits x , , x2 , x3 conditions thereto equivalent .
+6 .
+And not only the solution , but the original statement of a problem may be exhibited in the two forms above described .
+Instead of supposing the limits determined by an equation involving arbitrary quantities in its coefficients , we may suppose them directly connected by symmetrical equations , i. e. we may suppose those relations explicitly given which are only implied in the equation determining the limits , and can only thence be deduced by eliminating the arbitrary elements .
+Thus ( 9 .
+) furnishes us with the three following equations : x +x2+X3= 2a-X,12 +X23 X3X , = a. 1 -a X1X2X3 =a ---From which , eliminating the arbitrary quantity a , we have x x1 + x2 + =x,3 = x2 + x23 + X3 12 The problem first considered now assumes the following form .
+Required the value of the integral expression r dGL when the superior limits x x , x. , are connected by the explicit relations ( 16 .
+) .
+The second problem , similarly transformed , would , as there are two arbitrary elements to be eliminated , lead to a single equation between xl , x2 , x , , in place of the two equations ( 16 .
+) .
+7 .
+We may observe , from the above examples , that when the number of integrals to be added is three , the existence of two arbitrary elements in the equation of the limits involves the existence of one symmetrical equation among the limits , and the existence of one arbitrary constant in the equation of the limits involves the existence of two symmetrical equations among the limits themselves .
+And thus generally if there be n integrals to be added , the existence of r arbitrary elements in the equation of the limits will involve the existence of n-r symmetrical equations among the limits .
+The converse of this proposition is obviously true also .
+If any number r of symmetrical equations among the limits x , , 2,. .
+are given , and if we regard xl , x,. .
+x , as roots of the equation of the nth degree , x'+7P1 +p2. .
++xn-'+ ?
+= O , the symmetrical conditions referred to , will , by tlw theory of equations , establish among the coefficients p1 p2,. .
+pn ' a system of relations by means of which we can determine r of those coefficients as functions of the others deemed arbitrary , -or choosing in some other way n-r arbitrary elements , express all the coefficients by means of those elements .
+It is further seen that in the one form of the problem the greater the number of arbitrary quantities in the equation determining the limits , in the other form the smaller the number of symmetrical equations connecting the limits with each other , the more general is the statement of the problem itself .
+8 .
+The Norwegian and German mathematicians , by whom this branch of analysis has been chiefly cultivated , have almost universally followed ABEL in his mode of stating the general problem , i. e. they have regarded the limits as roots of an equation involving a greater or less number of arbitrary elements in its coefficients .
+Mr. Fox TALBOT , in his interesting papers " On the Comparison of Transcendents , " published in the Philosophical Transactions for the years 1836-37 , has in the earlier examples of his method expressed by symmetrical equations among the limits the conditions to which the latter are subject : in his later examples he adopts the more succinct notation of ABEL .
+Indeed , this mode of statement , as it replaces a system of equations by a single equation from which such systems may be considered as derived , is far better suited to general investigations , and will be adopted in this paper .
+9 .
+The complete solution of the problem of the comparison of transcendents , as above explained , involves two distinct steps , -lst , regarding the equation E=0 of ( 7 .
+) , art .
+4 , as an equation expressing the dependence of the variable x upon the variables a1 , a. .
+a9 .
+, we must seek to convert the differential expression YXclx into a complete differential relative to a1 , a2. .
+a. as independent variables , and which will therefore virtually be in the form YXdx =A da , + A2da2. .
++ A , da , , , each of the differential coefficients Al , A , ,. .
+A , being a function of a , , a2,. .
+a , .
+; 2ndly , we must integrate this expression .
+The introduction of the symbol of operation adverted to in art .
+1 will enable us to dispense with the explicit determination of the coefficients Al , A,. .
+A , .
+, and to reduce the corresponding differential expression to one involving only a single variable .
+I shall now proceed to define the symbol in question , and to investigate its chief properties .
+Definition and Properties of the Symbol 0 .
+10 .
+It is an evident consequence of TAYLOR'S theorem that we can develope any funimction of x , f(x ) , in ascending powers of x-a , provided that neither f(x ) nor any one of its differential coefficients becomes infinite when x= a. To effect this development , we have only to assume x-a-z ; then x=a+z , whence f(x ) =f(a+z)2 =f(a)+f'(a)z +f(a ) + &amp;c. ( 1 ) =f(a ) +f(a)( -a ) +ft(a ) 12 + &amp;c. 751 Now f(x ) being as above , let F(x)(f(7 where g is an integer .
+Then ( x -a)m where m is an integer .
+Then F f-(a ) +fi(a f(-(i1(a ) ] ( a ) f(M+l)(a ) x ( x-a ) ( $)(X-a ) +(^--a)m +-m , Z-aS + + &amp;c. * ( 2 ) Here we obtain , as before , a development of F(x ) in ascending powers of x-a , but the development begins with negative powers of that quantity .
+To this species of development we shall have frequent occasion to refer , and no doubt after this explanation will arise as to what is meant when we speak of the development of any function F(x ) in ascending powers of x-a .
+These things being premised , let the symbol 0 be thus defined , viz. If p(x)f(x ) be any function of x composed of two factors 0(x ) and f(x ) whereof P(x ) is rational , let O[P(s)]f(x ) denote the result obtained by successively developing the function in ascending powers of each distinct simple factor xa in the denominator of p(x ) , taking in each development the coefficient of x-1 adding together the coefficients thus obtained from the several developments , and subtracting from the result the coefficient of ' in the development of the same function p(x)f(x ) in descending powers of x. It is seen from the above that the interpretation of 0 is relative .
+It directs us to obtain certain developments , but the nature of these developments , if we except the last of them , depends upon the nature of the function within the brackets [ ] .
+Thus while in the expression O[p(x)]f(x ) the operation of the symbol 0 extends over the entire function p(x)f(x ) , the interpretation of 0 , by which the nature of that operation is defined , is derived solely from the factor p(x ) .
+Thus to take an example of some generality , let it be required to deduce an expression for X2 [ ( .-a)(_-b)2]f( ) in ascending powers of z. The development is 12 b2f(b ) d b2b b2f(b ) 1d fb ) 22 lb-a Wdb b -a.+1.2 db a aZ2 &amp; C in which the coefficient of is zd 2f(b ) ( 5 db b-a ' Lastly , the coefficient of in the development of the function x2f(x ) in descending powers of x being represented according to a familiar notation by X2f(X ) C(x-a)(x-b ) ' c , ~_^~a)(_b , ... ... ... .
+~(6 .
+) we have , on adding ( 4 .
+) and ( 5 .
+) , and subtracting ( 6 .
+) from the sum , r21 a2f(a ) d b2f(b ) x2f(x ) ( 7 i(x -a ) ( b ) f()=(a-b)2db b-aC(x-a)(x-b)2 ( 7 .
+) As a particular illustration , let f()= log ( c+ ) , and let us seek the value of the last term in the above expression .
+Now x2 1 a+ 2b ( ( b)2=l+a + &amp;c. ( x--a)(x ' b)2X$ , " { ' &amp; cX on developing in descending powers of x , and log ( c+ ) = log C+ +-C+ &amp;c. Multiplying these together , the coefficient of in the result is log c. Whence x a2log(C+ ?
+) d b21og( ?
++l ) E(x-a)(x_-b)2]g+ ) ( a-b)2 +db b-a ( in which it only remains to perform the differentiation in the second term .
+Formulae applicable to the determination of the result of the operation 0 in any case , may readily be found by the aid of TAYLOR'S theorem .
+Thus we should have , f(x ) not becoming infinite when x=a or x=b , [ ))r 112* ( da ) f( a ) da [ ( x-a)r(-b .
+) ' ( ab)A. .
+( -(9 .
+) 1 / ?
+d f ' f(cb ) f(x ) +-1.2 ... ( n-l ) db ( b-a)jm ( x-a)f(x-b ) ' an expression in which the general law of such formulae is manifest .
+If there be n distinct simple factors in the denominator of the rational fraction within the brackets , the result of the operation 0 will consist of n+ 1 terms , the first n of which PROCESSORt BOOLE ON THE COMPARISON OF TRANSCENDENTS , WITH will be determined as above by TAYLOR'S theorem .
+The n+lth term will involve the operation denoted by the symbol C1 , and it is by this term only that the interpretation of 0 differs from that of CAUCoY'S symbol , &amp; .
+WYe have in fact 0= ?
+--C , ... .
+( 10 .
+) the complete interpretation of 0 involving two distinct elements .
+It happens in certain problems that one of those elements alone presents itself , the symbol 0 becoming equivalent either to F or to C1 .
+In other problems they both appear , but I am not aware of any problems in which the vanishing of one of the elements is not due to some special circumstance of restriction or limitation affecting the interpretation of the symbol 0 in the case supposed .
+In a Note to this paper I have endeavoured to illustrate the above remark by employing the symbol 0 in certain problems , in which CAUCHY has made use of the symbol of residues , and to that Note the reader who is interested in the comparison is referred .
+11 .
+The properties of the symbol 0 are now to be considered .
+The two following are the most important of them:1st .
+The o peration is distributive as respects both the function without and the function with in the brackets , provided that those functions do not become together intfinite for any finite value of x. PRooF.-First , as respects the function without the brackets , we have the theorem O[q(x)](J ; ( l )+f2(x). .
++f , ( x))=O[P(x)]f , ( x)+O[ ( X)]f2(X). .
+++O[P(x)(]f( ) ; .
+( 1 .
+) for the coefficient of a particular term , as -- , , &amp;c. in the development of a function X-a x is equal to the sum of the coefficients of all the corresponding terms in the development of the several component functions from which the proposed function is formed by addition .
+Secondly , as respects the function within the brackets , we have the theorem 0 [ l( ) + 22(x)* +.(x)]f/ ( x)=O[1(X )]f(X)+O[e 2(X)]f( X ) +0[.(X ) ] f( .
+) ( 2 .
+) lere , it is to be observed that 1 , ( x ) , ,2(x),. .
+n(x ) represent any rational fractions into which the rational fraction ( p(x ) within the brackets [ ] is resolved .
+Thus the theorem might be written in the form O[(x)]/ f(x)e[l(x)]/ ( x)+ [ p(x ) ] f(x). .
+[ ( )]f( ... ( 3 .
+) wherein P(p ) = 1(x)+ 2( .
+) J.+ ).n(x ) To prove this theorem I shall show that it is necessarily true for each of the operations into which 0 is resolvable .
+Let one of the distinct factors of the denominator of p( .
+) be x-a , then one of the component operations in 0 consists in developing in ascending powers of --a , and taking in the development the coefficient of 1 .
+Now --* a whether this operation be performed at once upon the function i(x)f(x ) or separately upon the several functions ?
+l)(x)f( ) , ) , ( ) lf(X). .
+*(W)f(X ) of which that function is composed , and the several results then collected together , is a matter of indifference .
+If we represent this part of the operation O by R , we have therefore R )(x)=Rl()(x)x+ ) RR ( ))f(x ) +P ( x)(x ) ... .
+( 4 .
+) Now any term , IRp(x)f(x ) , in the second member of the above will either form a part of the corresponding term O[p(x)]lf(x ) in the second member of ( 3 .
+) , or will vanish .
+The former will obviously be the case if x-a is contained in the denominator of tp(x ) ; the latter will be the case if x-a is not included in the denominator of p , ( x ) , for then the function ( p(x)f(x ) not becoming infinite when x=:Sa , is developable in a series of the form A+B(x-a)+C(rx-a)2. .
+Art .
+10 , and in this series the coefficient of is 0 .
+Hence , all the terms in ( 4 .
+) are contained in ( 3 .
+) ; neither are there any terms resulting from the component part of the operation 0 denoted by R which are not contained in the second member of ( 4 .
+) .
+Hence , if we cause R to stand in succession for each of the component operations of 9 , and add the several equations thus obtained and typically represented by ( 4 .
+) together , we shall obtain the theorem ( 3 .
+) .
+which is easily verified , since the first member gives [ ( a)-f(-a)c,2 a ' =f(x ) f(x ) and the second member f(a)-f( a ) ( -C ^_a+C1a " )-{-X a an equivalent result .
+2ndly .
+If f(x ) be a rational and entire function of x , we have alvways 0[*(x)]f(X)=0 . ? ? ? ?
+, +O4j ( s , ) PRooF.-As f(x ) must be of the form Axi , i being an integer , we have O[p(x)]f(x ) = 9[((]EAxi by the last proposition .
+Thus we have to consider a series of terms of the form O[(x)]x ... . ? . .
+( 6 .
+) Again , 1p(x ) being a rational fraction may be resolved into a series of terms which will be of the form ax ' or of the form -(c Hence , availing ourselves of the distributive 5-C)2 5 F2 755 property of 0 with respect to the term within the brackets , we see that ( 6 .
+) is resolvable ultimately into a series of terms falling under the two typical forms O[X n]xi , e[ Xi .
+[ ain ] x All terms of the first form obviously vanish , since they can have no negative indices .
+It only remains , therefore , to consider terms of the second form .
+First , let i be equal to or greater than n. Then putting x-a=z , and x=a+z , the coefficient of in the development of the function ( az ) , to which ( is reduced , in ascending powers of z will be i(i-)..(i-n + 2 ) a-_+ , ' a ... ( ) a , ... ... . .
+( 7 .
+) ( 1.2..(il)a1 ... .
+X and the coefficient of in the development of the function in descending powers X ( x-a)n of x will be n(n+l)..i i n+l ' 1.2..(i-n+ ) ... ... . .
+) These expressions are equal , as may be shown by equating them and clearing of fractions .
+Hence , in this case , [ ( x-a ) ... .
+( 9 .
+) .
+Secondly , if i=n-1 , each of the above expressions ( 7 .
+) and ( 8 .
+) reducing to unity , the equation ( 9 .
+) is still true .
+Lastly , if i is less than n--1 , neither will any term containing I present itself in the ascending development , nor any term containing I in the descending development , so that the equation ( 9 .
+) remains true in this case also .
+Wherefore the theorem is proved generally .
+See Note A. General Theorem of Transformation .
+12 .
+The foregoing properties of the symbol 0 have an important bearing upon the general theorem for the transformation of integrals under the sign Y , to the demonstration of which we shall now proceed .
+THEOREM.-IfE= 0 be an equation connecting the variable x with another set of variables a , , a,. .
+ar , the function E being rational and entire with respect to x , and if F be anyfunction of x and of a , , a2,. .
+a , which is rational with respect to x , then , provided that F does not become infinite when E=0 , we have rFdx=Q[F ] , where a indicates complete differentiation with respect to the variables a1 , a,. .
+a , , and the symbol 0 directs us , according to previous definition , to develope the function F aE i ascending powers of x-h , , x-h2. .
+the distinct simple factors of the denominator of F , to take in those successive developments the coefficients of x &amp;c. , and from the sum of these coefficients to subtract the coefficient of in the development of the same function in descending powers of x. The object of this theorem will become apparent if it be compared with the statement in Art .
+4 .
+It will be observed that E stands for the rational and entire function E(x , a , , a,. .
+a. ) , and F for the rational function F(x , a , , a2. .
+a , ) in that article .
+Thus F is that rational function of x to which the differential coefficient X in the integral SXdx is supposed to be capable of being reduced by means of the equation of transformation E0 .
+DEMONSTRATION.-13 .
+First , it will be necessary to prove the following subsidiary proposition : PROPOSITION.-If p(x ) be any rational function of x , and if E=O0 be any equation rational and entire with respect to x , by which x is connected with a new set of variables a , , a2,. .
+a , , then , provided that p(x ) does not become infinite when E= 0 , we have d log E ~(x ) d[x(x ) ] d. PROOF.-As @(X ) is a rational function of x , it is capable of being resolved into a series of terms , each of which is either of the form ax , or of the form ( x_)i , a being constant , and i an integer .
+Consider then , first , the expression , axi .
+( 1 .
+) the different values of x in the several terms under the sign Z being roots of the equation E==0 .
+Representing these roots by x , , x,. .
+x. , any two or more of which may be equal , we have E=_A(x)(x-x). .
+( x-x ) , ... . .
+( 2 .
+) A being constant .
+Hence d111 log E= +-..+_ ... ... .
+( 3 .
+) 12X -x Developing the several terms of the second member in descending powers of x , the aggregate coefficient of qi+ will be x*l+t2. .
++xn , or Hence xi .
+1d lax-'= ax coefficient of x7T in the development of d log E in descending powers of x. 1= coef d= coefficient of in the development of axj log E in descending powers of x. x 757 d Id Now O[ax ] log E ==-coefficient of in the development of axi dlog E by the defiiiition of 0 , since , as the function within the brackets is entire , there will be no ascending developments .
+Hence d axi-0 [ axlog E ... ( 4 .
+) ( 'Consider , secondly , the expression a ( x_p)i Now expressing ( 3 .
+) in the form d111x log E= -p(x-P ) x-p-(z-p ) ''x-p(x-p ) and developing the several terms in the second member in ascending powers of x-p , the aggregate coefficient of ( x--p)iwill be -{)+ ( -2 ) ' + ( - ) ' ( P { ( , _p)i+ p)i`* ' ( X. ( X -l)i ' 1E~~~~~~~ d Itlence ( --pi--coefficient of ( x -p)i- ' in the development of d logE in ascending powers of x -2P =-coefficient of -_ in the development of ( - , p ) dTlogE in ascending powers of x--p ; a1ad2 -(_p =-coefficient of in the development of ( x-p)d j log E in ascending powers of x--p , But 30 dlog E= coefficient of in the development of ( _ ) dlog E in ascending powers of x-p .
+For 1st , the only distinct simple factor in the denominator of the expression within the brackets is z-p ; 2ndly , there will be no term of the form A in the development xf:-i T log E in descending powers of x , the first term of that development being na evidently + .
+Hence aa _ ) _-e[loo ( .
+gE ... ( 5 .
+) It appears from the above , that when we decompose the rational fraction P(x ) into a series of terms p , ( x ) , +p@2(x ) .
++ ( .m( ) , which are individually either of the form ca or a of the form ( - ) h , we have d logE dlog E dlog E , ( x ) -+ ( x). .
++ m , ( ))-P( [ , ) ] [ ~e[(x ) ] d..9(x)x dx -e--[Ic+(X)-q2(X ) +g(X)]dl ?
+E 7i59 by art .
+11 .
+Whence dlog E ( x ) =[ ) ] ... . .
+( 6 .
+) which is the expression of the subsidiary proposition in question .
+By this proposition , E ( x ) , when the different values of x in the terms under the sign are the roots of an equation E= 0 , is determined as a function of any independent quantities a , , a , ,. .
+a , with which x is connected by that equation .
+In order that these quantities may be independent , it is , of course , necessary that their number should not exceed the index of the degree of the equation E=-0 .
+14 .
+It may be well before continuing the demonstration to exemplify the theoreim just obtained .
+Suppose it then required to determine the value of the expression 2 -- , X--a the values of x being the roots of the algebraic equation _px2+( 1--p)x+0 .
+Here we have __ xrx 2px+ -p J.-a=3 ~ jx +( -1p ) + x.-a L-a P^+(l-)+ .
+Developing the function __ 2px+l -p _:--a px2 + ( 1 -p ) +q in ascending powers of x-a , the coefficient of will evidently be 2pa4 +1 -p --pal + ( I -p)a +q Again , developing the same function in descending powers of x , the coefficient of will be -2 .
+Hence = 2pa2+(1-p)a ( 1 --p)a 2q x-a pa-+ ( 1-p)a+q -pa+ ( 1p)a +q ' which is easily verified by the known theory of equations .
+The quantity a may be itself a function of p and q without affecting the truth of the above result .
+The reasoning by which ( 6 .
+) is established remains quite unaffected by the consideration whether the function p(x ) contains , together with x , any of the independent quantities a , , a,. .
+a , or not , provided only that if they do enter into its expression they enter determinately , e. g. that the same value which is given to any radical .
+as I/ l+a2 , in one of the functions @(x ) shall be retained in all .
+15 .
+Now let us resume the expression &gt; Fdx , in which the values of x are subject to the condition E=0 .
+As by this equation the value of x is made to depend upon the quantities a , , a2,. .
+a , .
+, we have , on differentiating with respect to all the variables at once , dE dxf dE dE dE d+ +da,.+da2-=..+.da ... ( 8 .
+) dx a_ da2 ~t Or if we appropriate the symbol b to express complete differentiation with respect to a , a2,. .
+are , dE ddx+ E=O .
+Wihence d d=-E ** .
+E(9 ) dx WVherefore FaE 2F dE= ... . .
+( 10 .
+) dx F6E Now F being a rational , and Ea rational and entire function of x , the expression dE dE dx will be rational with respect to x , whence , by the subsidiary proposition just demonstrated , FSE aE6IlogE dE dE dxdEi dxL dx j Therefore dE FF..E.I ... ( 11 .
+) dE F x , or FFdEX vrF ... ... ... . .
+( 12 .
+) dx in ascending powers of certain simple factors of the form x-p , those simple factors being , 1st , such as are found in the denominator of F ; 2ndly , such as are not found in the denominator of F , but are found in the denominator of It may be shown that W- .
+It may be shown that dE the result of that portion of the operation 0 which depends upon the latter class of factors is 0 .
+For the only factors of the form z-p which produce terms of the form b in the ascending development of ( 12 .
+) , and which are not found in the denominator of F , must be found in E. Let x--p be any such factor , then we may write Therefore _E_ ( x--p)m --mH(x--p)m-p_ ( x---p)AH--mHGp dE-( 1 ^.dH ( 13.)(a- ) +mH -BE ?
+( x-p)8 H-m H-m(x--p)a-p ( x--p ) m{ap The denominator of this expression does not contain x-p as a factor .
+Hence there will be no factor of the above description in the denominator of the fraction within the brackets , and therefore no corresponding development in the performance of 0 .
+Thus the only factors which produce any effect are those found in the denominator of F. The part of the operation 0 expressed by -C , is of course unaffected by the nature of the function within the brackets .
+On these accounts then the theorem ( 11 .
+) , seeing that its second member indicates the performance of the operation 0 on the function F , the interpretation of that operation being derived solely from the factor F , is reduced to the comparatively simple form 2Fdx=.[F ] ... ... ..(14 .
+) And in this form it constitutes the general theorem of transformation which it was required to demonstrate .
+Application of the general Theorem of Transformation to the Comparison of Algebraical Transcendents .
+16 .
+In treating of the algebraical transcendents , I shall first exemplify the direct application of the general theorem of transformation to the solution of special problems , and for this application I shall select by preference examples known and familiar .
+I shall subsequently apply the theorem to the investigation of general formulae from which the solution of all special problems may be derived .
+There is no difficulty in the direct application of the theorem to special problems .
+The following directions will meet every case .
+Let 2 SXdx be the expression whose finite value is to be found , the simultaneous values of x being determined by an equation X=F(x , a , a2..a ) , ... ... ... ( 1 .
+) a , a,. .
+a , being the new variables in terms of which the value of the integral expression is to be obtained .
+The second member , which we shall represent by F , is supposed rational with respect to x. Let also the equation ( 1 .
+) , made rational and entire with respect to x by reduction to the form poX+Pl~ +_2p ... n ... .
++p=O ... ... ( 2 .
+) be represented by E=0 .
+Then observing that X does not become infinite when E=0 , we have 4SXddx F dx =So[F]AE J ( 3 .
+) On performing the operation 0 in the second member , the function under the sign of integration will be an exact differential relatively to al , a,. .
+a , , and , being integrated , will give the value sought .
+If the number of integrals under the sign E is specified , suppose it n , the function F must be so chosen that the reduced equation E=0 may be of the nth degree .
+The algebraic sign of each of the integrals in ESXdx will be the same as the sign of the corresponding function F , which , as being rational , is not ambiguous .
+17 .
+Example 1.-The following theorem is given by a writer in the Cambridge Mathematical Journal , vol. i. p. 268 , as a generalization of a theorem of Mr. Fox TALBOT'S relating to the arcs of the equilateral hyperbola .
+The equation of any hyperbola referred a2 + b2 to its asymptotes being xy= or for simplicity , xy=m2 , we have , supposing d the angle between the asymptotes , arc j / x42m22 cos 0 m4+ .
+-1arc 2 d. Supposing then three values of x to be determined by the equation V/ x4-2m2x2 cos +~-v=x+ , + , ... ... ... .
+( 1 .
+) the sum of the corresponding arcs will be 3 m2 cos 02 +v +const ... ... ... ... ( 2 .
+) To demonstrate this theorem , it must be observed that the equation ( 1 .
+) , reduced to a rational and integral form , becomes 3-(2m2 cos0+2)x0 , ... ... ... ( 3 .
+) which occupies the place of E=0 , art .
+16 .
+By virtue of the same equation we have / XV4 2m2x2 cos 0 -m4 dx Cvx + m2 d Thus we have , 1st , to transform the expression x ... .
+( 2 .
+) 2I d,.(4 .
+) the simultaneous values of x being determined by ( 3 .
+) ; 2ndly , to integrate the result with respect to the new variable v. Applying the general theorem of transformation , art .
+12 , we have x2 ?
+2 x _3-(2m2 cos + v2)x-2m2v'* ( ) Here we must develope the function v+ m2 ( 2xv + 2m2 ) v ~2 X~X3-(2m2 cos-+v2)x-2v ... . .
+( 6 .
+) in ascending powers of x , and take therein the coefficient of From this we must subtract the coefficient of x in the development of the same function in descending powers of x. Finally , we must integrate the result relatively to v. Developing the two factors of ( 6 .
+) by ordinary division in ascending powers of x , we may express it in the form / m2 wv V2-2m2 cos , \ 2++vxV s+ &amp;c. ) .
+Whence , on multiplication of the factors , we find for the coefficient of ( 3 m2coso 8).(7 ) ( 2- ) ... ... ... ... . .
+( 7 .
+) The coefficient of1 in the descending development will evidently be 0 .
+Integrating , we x have ( 3 +m2cos ) ... ( 8 .
+) for the value sought .
+It must be observed that , in applying the theorem , the signs of the integrals under the symbol 2 , which would otherwise be ambiguous from the square root , are made determinate by the equivalent rational expression ( 4 .
+) .
+Each must be of the same sign as the corresponding value of the function vx 18 .
+In the example we have just considered , the equation of transformation connects x with but a single new variable v. In the following examples , which are intended to illustrate the doctrine of the comparison of the different orders of elliptic functions , two new variables are introduced .
+Example 2.-Required the finite value of the expression Sf dx dd JSV(l2)( -c2 ) ' ... ... ... . .
+the simultaneous values of x being determined by the equation J(1 -x-2)(l-c2x2)=l+vx+wx2 ... ... .
+( 2 .
+) By virtue of this equation ( 1 .
+) assumes the rational form dx 1 vx + wx2 ' Again , the equation ( 2 .
+) becomes rational and integral when expressed in the form ( 1 +vx+wxw2 ) ( 1-x )(1-cx)=O , ... ... .
+( 3 .
+) and occupies the place of E=0 in the general theorem .
+Hence we have r dx r 2(1 vx + wx2 ) ( xdv + Xdw ) J1 ++X W2 1+ +WX2 ( 1 +v+ W2 ) ( ] -2)(1 c2X2 ) -TT~ . ?
+/ ? ?
+2 ( xdv + x~dw ) Here the function 2 ( xdv xw ) 22 ( 1 ?
+vx wx2)2-( ( -xO2 ) ( 1 -c2XX ) is to be developed in ascending powers of the simple factors of l+vx+wx2 .
+Let x-h be one of those factors .
+Then it is evident that there cannot be a term of the form A -h in the development of the function in ascending powers of x-h , inasmuch as that 5 G2 763 factor does not exist in the term ( 1--x2)(1--cx2 ) .
+Again , there cannot be a term of A the form in the development of the function in descending powers of x. Hence the result of the operation 0 is 0 , and we have , finally , ZV2 - ) c ^=const. .
+( 4 .
+) The above constitutes in reality what is usually termed the fundamental theorem for the comparison of elliptic functions of the first order .
+The equation ( 3 .
+) , arranged according to the powers of x , gives ( w2'-c2)x +2vwx+2+ ( v+2w+c + 1)+ 2v= 0 .
+If we then represent the simultaneous values of x by x , xg , x3 , we have -2vw xT , X2~+X --w2_c2 v2+2w+2 +1 X'12 +X2X 3+3Xl w2 C2 2v XAX32 =-ce5 whence , eliminating v and w , we find ( l-1)(1cx2)(-x x)=(2-X ; x -d+ ) ... . .
+( 5 .
+) Now this is the form to which the known relation connecting the amplitudes , , o and the modulus c in the equation Fe( ) = 0Fc( , +Fc(of)= ?
+viz. the relation , cos 6=cos p cos 4 -sin p sin 1 1--C2 sin2 6 , is reduced , when we therein make sin p=x , , sin --=x2 , sin a=-x3 , and rationalize the resulting equation .
+The signs of the integrals will of course be determined by the signs of the function lI+vx , +w*2 To obtain a formula for the comparison of elliptic functions of the second order , we must deduce a finite expression for subject to the relation ( 2 .
+) .
+We have then:j/ i-c7 dx=,1+ vX + w2 dx r l~1-c 22 l 2(1 + Vx W+Z2 ) ( av + c2aw j L ?
++ v+ w2 ( + vx+ w(2 ) -( -)(l -c 22 Here , as before , the effect of that part of the operation 0 which depends upon 1-vx+wawx2 is .
+0 , so that we have simply Iz / OXd fCX(1C2 ) X 2(xaZ &lt; v+ xaw ) -J\V 1- " ( --J x+ V(X4-+ WX2)X-(l-)(1+_^2 denoting the coefficient of in the development of the function in descending powers.of x. Now developing the numerator and the denominator separately , we have 2(c2x21)(x2w+ xv)=2c2xSw +2C23xv. .
+( 1 + v+w2)2 ( 12 ) ( 1 C2 ) = ( W2-_ 2)x4+2Vx3. .
+Dividing the first of these by the second , we have a quotient 2c2w / 2c2v 4c2wSw\ W2 _C+ +W2_C ( W _c2)2 + &amp;c. Integrating the coefficient of - , which is a complete differential relatively to v and w , we have z f ' / 1-c%~ .
+( 6 .
+) 4'\/ 1 2 dx w2c+constant=-cx2xs , x ... ( 6 .
+) The signs of the three integrals under the sign 2 , are of course determined by the signs 1 -c2X of the calculated values of +X 1+ vx+ wx2 We might in the same way deduce the known formulae for the comparison of elliptic .
+functions of the third order .
+Or we might at once investigate a formula for the comparison of elliptic functions of every order .
+For the latter purpose we should have to evaluate the expression ( a+ b2 ) )dx J1 + no ) / ( 1 2 ) ( 2 C2 ) ' under which the three canonical forms of elliptic functions are comprehended , in subjection to the condition ( 2 .
+) .
+By the general theorem of transformation this value is Jb ra+ bxl2 2(1 +vx + w ' ) ( v + 23w ) j ( l + n)(Z + v1 + wx2 ) ( 1 + vx + WX2)2(1 _ 2 ) ( 1 -C2x2 ) which may be reduced at once to the form f [ a ?
+42 v+2x w ?
+2 W ( 7 .
+) jo ^ +n(le+^+w^ ) ( l )(l ' ' I v. ( ' ) The rest of the solution involves no difficulty .
+We must develope the entire function following ?
+in ascending powers of x+ I-=/ 1 and x--/ -1 successively , and II take therein the coefficients of 1 and __ .
+From their sum we must X+ -_-1 x---l V/ n Vn subtract the coefficient of in the development of the same function in descending powers of x , and integrate the result as a complete differential with respect to v and w. The above results are entirely founded upon the assumed theorem of transformnation , v/ ( lx2)(l-)C2x2)=1 +X+w X2 .
+But any other transformation which would connect x with two new variables , through 765 the medium of an equation of the third degree with reference to x , would lead to results possessing the same degree of generality .
+Thus the equation / ( 1-x2)(1-c'x2)-=+wx++Cx , which connects x with v and w , and constitutes when freed from surds an equation of the third degree with reference to x , might have been employed .
+I am not aware that the above forms have been employed before .
+LEGENDRE , in deducing the properties of Elliptic Functions from ABEL'S theorem , sets out from a different assumption , and as I think a less simple one , leading however to equivalent results .
+It is not my intention to enter here into the subject of the connexion of the different solutions which may thus be obtained .
+The theory of that connexion can however present no difficulties to those who are acquainted with the labours of JACOBI , RICHELOT and others , upon the differential equations on the integration of which the doctrine of the comparison of transcendents , as contemplated from another point of view , depends .
+19 .
+Before applying the general theorem of transformation to the investigation of general formulae for the comparison of transcendents , I will say a few words upon ABEL'S theorem , as well as upon the class of theorems to which it belongs .
+ABEL'S theorem is virtually an expression for f(x)dx:j( -a ) vq- ) ' flx ) and p(x ) being polynomials , the simultaneous values of x in the several integrals being connected by the equation v/ ( S ) = Z( ) or @(x ) ={X(S ) } X where z(x ) is not restricted to being a polynomial , but is a rational function of x , in terms of the coefficients of which the value of the integral sum is to be determined , ABEL expresses p(x ) as the product of two polynomials pl(x ) , p2(x ) , a form which is obviously given to it in order to meet the case in which a rational fraction occurs under the radical sign , since we have E _f_/ x l f(x ) I(x)dx x-a &lt; 2(X ) J ( x-a ) V 1(x ) l , ( x ) BROCII and others , including , I believe , ABEL himself , have considered very fully the more general case in which the polynomial p(x ) is raised to any fractional power whatever , and to this case may be reduced the still more general one in which a rational fraction takes the place of the polynomial .
+The reduction is however obviously far more complex than in the simpler case in which the index is 2 .
+I intend here to discuss this problem in a form sufficiently general to render all such reductions unnecessary .
+20 .
+PRoBLEM.-Required a finite expression for the integral sum ( 1 .
+) p and 4 being any rational functions of x , the simultaneous values of x in the different integrals being determined by the equation m % also denoting any rational function of x of the form * ( 2 .
+) aO + alx + a ?
+x2. .
++ amx bo +blx bX2 bx Our object is to determine ( 1 .
+) as a function of a , al,. .
+am , b , bl,. .
+b , which are arbitrary in value , whereas the coefficients in p and 4 are definite in value and are usually numerical .
+Representing p , 4 and X in the forms p. su Pq I =7 X=v Iqv O ... ( 3 .
+) p , g , s , t , u , and v being polynomials in x , the transforming equation ( 2 .
+) assumes the form m fS\ n u\t V Whence 8mn-vtm O ... ... ... .
+( 4 .
+) With this condition connecting the values ofx in the several integrals with a0 , aa,..bo , b , &amp;c. , we have to seek the value of the expression &gt; ' Up dx .
+For to this form , rational with respect to x , the expression ( 1 .
+) is reducible by virtue of the above relations .
+Consider then Pq dx subject to ( 4 .
+) .
+To apply to this the general theorem , we must qvL/ qt write therein We thus find F_qU , E=smv-tu .
+qv -pu er ~U ll(mf n ) r rpu SMvn-lv-tmull vu Z x=o FI log ( Vtmn)=no Sm v tmun ( 5 .
+) vq qv jqv smvl -tmu " We cannot in its present form integrate the second member , as the interpretation of 0 depends in part upon v , which contains some of the variables to which the integration has reference .
+As however the function which has to be developed in the performance of the operation O is a rational fraction relatively to u , viz. pu Smvn-1v--tmun-iu U qv smVn -tm ( 6 .
+) we can resolve it into partial fractions , and this resolution will , in virtue of the properties of 0 , enable us to effect the integration required .
+The partial fraction which has v for its demominator will be P - .
+Separating this , qv the entire fraction ( 6 .
+) will assume the form p U_+p smvn--aU--smuvn-2aV qvq tmu _-smvn Thus ( 5 .
+) becomes -p p ^u Sp s'vn-1Us"_mUVn-28V 2 ' -dxn uav np , ... ... ( 7.)SnEun qvqv'q tmun-smvn ( 7 .
+) O deriving its interpretation from q and v. The first term in the second member , inasmuch as we may give to it the form L qv ' vanishes by virtue of ( 5 .
+) , art .
+11 .
+The second term may be reduced to the form l SmVn u-sU_mUVn-2av ( 8 .
+i q8 tmu-n _ SmVn ... ... In proof of this , I observe that the function to which 0 is applied cannot have any of the simple factors of v in its denominator .
+No such factor is involved in q. For by supposition all the coefficients in q are definite , while those in v are arbitrary .
+Neither , again , can any of those simple factors be involved in tmun-smvt , for if so it will be involved in tmue , and therefore either in t or u. But it is not involved in t , as the constants in t are u definite ; and it is not involved in u , for if it were would not be in its lowest terms .
+v The expression ( 8 .
+) may be written in the form nL sq a()ns / vauuv 4/ m , on replacing Pt and by p , s and X Hence x 4/ lp-j ?
+" dx=neO[ ] " I Therefore zS2j4i^dx=9MnSo ] ... X ( 9 .
+) The symbols 0 and 5 in the second member are now independent and may be transposed .
+We thus have ISPj( , ndx=nO[mJ ... O ***** CEtRTAIN APPLICATIONS TO THE THEORY OF DEFINITE INTEGRALS .
+integration is effected we must write for p , 4 , and x the several rational fractions for which they stand and then perform the operation 8 , as we are directed to do by the definition of that symbol .
+On actual integration we have from ( 10 .
+) , mm/ r 2ri 2rx\ r F/ r 27rr\ m)m 2+dx=[(-FPY.z cosr/ / -lsin ) log X-( cos +V-l in ( 11 .
+) the summation in the second member extending from r=0 to r=in-1 .
+The last term m in that member is equivalent to an arbitrary constant .
+For p and An do not contain the variables a , b , , &amp;c. , which are only found in X. Hence the coefficients of terms in the mm developments of the function p4n will be determinate constants , and nO['p]n C , on account of the arbitrary factor C , will be itself an arbitrary constant .
+22 .
+We are thus led to the following theorem:m THEOREM.-The value of the expression 42jp4"ndx , where p and 4 are any rational functions of x , and the simultaneous valiues of x in the several integrals under the sign Z are m determined by the algebraic equation =X in which X is a rational function of x , will be expressed by the formula mm 2ri 2 !
+r. 2r r 2rx m 2Sj47dx-=O[P]e E2 cos n+ -l1 sin )log{(cos -+V/ sin )4n+C , the summation in the second member extending from r=0 to r=n-1 .
+23 .
+In the particular case in which m=1 , n=2 , we have S/ pV =dx=eC=[p]V log ... ... ( 12 .
+) Let us apply this theorem to the problem of Art .
+17 .
+We have p= , =x4-2m2x2cos 8+m4 , Z=vx+m2 ; ' ' VX4 M4 ?
+z2 VX+m2VX4 -2m2X2coO+m4 = ]4-2Vx4-2 ccos + mog _6O , g +vx m2+ Vx42m2x2 Coos O+ m4 First , then , we must develope the function in the second member in ascending powers of x , and seek the coefficient of 1 .
+Now x / m4,2m2X2 Cos o+x4=m2--x2 cos 0+ &amp;c. Substituting , the function becomes mez m\ vx + -x cos. .
+M--cosDOJ. .
+lo o sg. MD II .
+25 +V 2 COS But x cos0 log ( vxwxcos..)=logx+log v++ &amp;c. VXvx --x cos 0 log ( 2m2+vxcos..)= log 22+ 2m '+ &amp;c. Substituting , we have ( X , -cos d. .
+) { log x+log v-log 2m2+ ( C 22 ) .
+} wherein the coefficient of in the product is m2 cos w2 ( 13 .
+) In the second place , developing the function in descending powers of x , we have / x2mx2 cos 0+n4=x-2_~2 cos d , &amp;c. , which on substitution gives / 1 m2 cos , s -X2 ++ m2(1+ cos O ) 2 --m ' gV+ 2(1 COS ) ( m cos\0 2v =xl^_,2 ). .
+l+ .
+wherein the coefficient of is -2v .
+Hence , changing its sign and adding the result to ( 13 .
+) , we have C/ x4-2mn2x2 cosO+m 3 m2 cos C 2j 2 dx=v+--C , which agrees with ( 8 .
+) , art .
+17 .
+It is , however , very much easier in the above problem , and perhaps in most others , to apply at once the fundamental theorem of transformation , as already exemplified in its solution .
+24 .
+ABEL'S theorem is of course included in that of Art .
+23 .
+To deduce it , we must observe that its object is to determine the value of the expression f(x)dx ... X(-a ) / Mxl(2X)(x ) ' ' ' ' the simultaneous values of x being connected by the following equation , V pl( ) Co +. .
++ Cn To compare with the general theorem we must therefore write ( 1 .
+) in the form yC M./ .f(^x ) 2X -ea)f2(x ) l(x ) Hence we must make in ( 1 .
+) , f(x ) Pf2(x ) a , o+alx. .
+( --a =2(V ) 1CO ) + -o. .
+We thus find aO+ ao x.._ / 2(x ) f(x)tx f(x ) -]A Xol(x ) ?
+-~ ) f{x ?
+Ir Jx ) ( L-P 0 ?
+1(X ) log +_._ .
+J(X-a ) V( ) ( ) x(a)2(LX )/ P( ) ' ca +-acix. .
+2( ) Co + c1x .
+V &lt; ( x ) Here the function to be developed is f(x ) l ( o +a x. .
+) V1(x ) -(C+ Cl1X .
+) / 2(X ) ( X-a ) 71(xX ) ; 2(X ) ( ao + ai. .
+) v 91 ( X ) + ( cO + cIX. .
+) P2(X ) the ascending developments having reference to x-a , and to the different simple factors , x-h , , x-h2. .
+of p(x ) .
+The coefficient of 1 in the first development is evidently f(a ) 10 ( a+ ala. .
+) V/ p ( a ) ( c+ ca. .
+) V^/ 2(a ) Vp1(a)p2)(aa ) + ala. .
+) / V + ( Coo+ca. .
+) V/ 2(a ) The coefficients of -h ' -h , in the latter developments are 0 .
+Hence we have r Vf(x)dx _f ( a ) o ( a+aa. .
+) Vfp(a ) ( co+ca. .
+) V/ 2(a ) J a(2-a ) Vg , ?
+( x)-2(x / q(a ) &lt; 2(a ) ( o+ aa , .
+) P , ( a ) + ( co + ca. .
+) / ~2(a ) Cl ( x ) 1og ( ao + ai. .
+) V/ P ' ( )-(Co + Cx.).v2(X ) ( -a ) V/ fi(x)p2(x ) ( alax. .
+) P( ) ( c + cx x. .
+) V(2X ) which is ABEL'S theorem .
+There is , however , nothing gained by the peculiar form in which it supposes the integral to be expressed .
+The resolution of the polynomial under the radical into two factors,1(),5 p2(x ) is only a substitute , and an inconvenient one , for the more general hypothesis of the theorem of art .
+22 , which permits the function under the radical sign to be any rational fraction .
+25 .
+The theorem of art .
+22 is , I believe , more general than any which have been investigated with relation to the same well-marked class of transcendents .
+BROCH , JURGENSEN , and MINDING have given formulae directly applicable to the case in which 4 is a polynomial* .
+Their results agree in substance with the above , under the particular restriction supposed , but they are far more complicated in expression .
+The introduction of the symbol 0 , definite in meaning and indicating the performance of operations which are always intelligible and always possible , greatly simplifies the expression of general theorems .
+26 .
+The most general form of the problem contemplated by ABEL in his theory of the comparison of transcendents may be thus expressed .
+Required a finite expression for 4ff(x , y)dx , f(x , y ) denoting a rational function of x and y , the latter of which quantities is itself an irrational function of x given by an algebraic equation of the form poy"+ply"-+ ~y * =-0 ... ... ... ( .
+) wherein po , p , n.pn are rational and integral functions of x , the simultaneous values of x in the different integrals being determined by an equation of the form y-r , wherein r is a rational function of x , and of any new variables a , a2,. .
+a , .
+in terms of which the value ISf(x , y)dx is to be found* .
+JURGENSEN has remarked that this problem may be reduced to that of the determination of the value of the expression jSf(x)p(x , y)dx , J(x ) being a rational function of x and p(x , y ) a rational and integral function of x and y ; and under this form , adding also the restriction that po the coefficient of the highest power of y in ( 1 .
+) shall be unity , he has solved the problem .
+MINDING has investigated the solution when the above restriction is not imposed , but his analysis is in reality founded upon a transformation in which p , y takes the place of if .
+We can , both with increased generality and with that gain of simplicity which results from the employment of the symbol 0 , solve the same problem by the method of this section .
+But as the comparison of the algebraical transcendents is not the most important object of this paper , I do not propose to enter here upon the investigation in its most general form , but shall demonstrate a theorem which , while it is sufficiently general for all.practical ends , will at the same time serve to throw light upon a peculiarity in the theorem of art .
+22 already demonstrated .
+27 .
+PROBLEM.-Required , infinite terms , the value of the integral expression .
+P.(x)ydx , ... ... ... ... . .
+) p(x ) denoting a rational function of x , and y an irrational function of x determined by an equation of the mth degree , m+lyr ~ +p2ym-2 .
++pm ... ... ... ( 2 .
+) where p. .
+p. are rational and integral functions of x. We shall suppose the different simultaneous values of x under the sign 2 determined by an equation y= X , ... ... ... ... ... ( 3 .
+) X being a rational function of x of the form -v in which u and v arepolynomials .
+The value of the integral expression ( 1 .
+) is to be found in terms of the coefficients of those polynomials .
+The equation ( 3 .
+) , cleared of the radicals contained in y , and arranged with respect to the powers of X , will be PoXm+Po'-l. .
++ =0 , U or writing for X its value v , and clearing of fractions , poqm +p , u"-'. .
++ ... ... ... ( 4 .
+) This equation , on substituting for u and v their values as polynomials , is rational and integral with respect to x , and occupies the place of the equation E=0 in the general theorem of transformation .
+We shall suppose it of the nth degree .
+It may of course be exhibited in the form po(-Vy , )(U-vy , ). .
+( U-VyM)= 0 , .
+( 5 .
+) yli , / 2 .
+ym being the different values of y , as determined by giving different signs to the radicals in its expression .
+Hence we have |VJ U-YrV E\ o(x )yldx -= XS(x)dx=SO px Here , transposing the symbol &gt; , the function upon which the operation 0 , whose U 3u g y.v2 v u-y.v which may be resolved into uy v-yv v ( xuY .
+v ( 'X Yrvv ) .
+Hence : S@I()Ydx= Seo({x)7 a-Y7--V +:4o -(v_ ) ) ... ... ... . .
+( 7 .
+) We are especially to remark , that while Z in the first member has reference to the n different values of x furnished by the equation ( 3 .
+) or ( 4 .
+) , 2 in the second member has reference to the different values of y furnished by the equation ( 2 .
+) , its numerical range being from r=l to r=m .
+Now considering the term ESo0(x)y hu-yr~v , all that part of the operation O which depends upon v produces no effect .
+For none of the factors of v can enter in any way into yr , since those factors contain the variables a0 , a,. .
+a7 , from which y , .
+is wholly free .
+Again , they cannot enter into the denominator u--y , v , for then they would enter into u , and the fraction v would not be in its lowest terms .
+Hence the first term in the second member of ( 7 ) becomes sJW fc8au-y,.av We can now transpose the symbols S and 0 and integrate .
+The result is O[p(x)]2y log ( uyv ) ... ... . .
+( 8 .
+) The last term of ( 7 .
+) will , on account of the interpretation of 0 , be properly written in the form ze[(X ) ] ( y(--yV ) , which may be resolved into We cy e [ ) ] -9[ rm(ee The first term vanishes by Art .
+11 .
+The second may be reduced as follows .
+We have -e _[ =F( ) ] yrV=O e[(X ) !
+Iv Now 0 ]e[[)(x)2]P v ?
++OL(x)E ] v= O[ ( ) I p1v+ ?
+o [ ( ) ] Plv ... ( 9 .
+) L vX P ?
+L Po vi upon L upon This is evident if we collect the different parts of the interpretation of 0 from the terms in each member , observing that in all cases it is upon the same function that 0 operates .
+Now the first term in the second member vanishes by Art .
+11 .
+Hence oF4 .
+LvoL @(Z ) P_o eL Po , p , v Attaching now the symbol of integration to the second member , and integrating , since 5 and 0 are now transposable , we have 0e[P()]P logv-e e P(x)3p ' logv .
+Writing in the first term of this expression y , .
+for p ' and adding the result to ( 8 .
+) , we Po have O[(x( ) ] { Ir log ( uyv)log v}-eO [ r(x)pjlog v , or O[P()]2y log ( -- ) _ ( )P(X ) !
+] logv .
+Hence replacing v by X and adding the constant of integration , we have 2(x)ydx=9[ ( x)]2y .
+, log(x-yr)-e X ) logv+C , ... ( 10 .
+) the expression required .
+It will be observed that as 9(x ) and pare always rational functions , the operation 0 may always be performed on each term of the second member .
+As the summation Ey , log ( X-yr ) can only be effected by connecting the several terms included under I by the sign of addition , it will be most convenient to express the solution in the following form , 25P(x)ydx= 2r-= e[P(X)]y , log(x-Yr)( ) logv+C ... ( 11 .
+) 28 .
+I fp=0 , we have , S(x))ydx= r=-Fe [ m()]yr log ( X--r)+C .
+( 12 .
+) m This includes as a particular case the theorem of Art .
+22 .
+For if y=~- , we have -y m =0o , of which any root y , will be given by the formula y= ( cos --n +n/ sn J. Hence on substitution we have , since the number of values of y is n , ma m 27r7 2r7r ( r)d 2[n ) + log -cos-+-/ ----1 srv 2Sx(x)ndxr= e[l ( ) ] ( cos n sin log ( cos 7r sin which agrees with the result in question .
+We now see why it is that , although in the investigation of the latter formula we had to take distinct account of the terms u and v in the fraction X ; in the final result they are recombined , and only present themselves implicitly as component parts of X. It is due to the fact that the equation determining the irrational factor of the original integral wants a second term , i. e. that p , =0 .
+If 0=l , the term0 [ ( x)$ ' log v in ( 11 .
+) becomes O[p(x)]p , log v , or O[p(x)]y log v , whence the theorem assumes the following form , Sp(x)ydx= =I'Oe[O(x)]y,.{log ( X-yr)+ log v } =2 ; =[O(x)]y .
+og ( -y , v ) .
+We may remark in concluding this section , that all general theorems like the above for the comparison of algebraical transcendents are difficult of application , from the necessity which they impose of developing logarithmic and irrational functions .
+This difficulty we avoid by employing directly the theorem of transformation exemplified in the earlier problems of this section .
+The application of that theorem requires only the development of rational fractions , and this can always be effected by the operations of multiplication and division .
+When this form of procedure is adopted there remains , however , an integration to be performed .
+Circumstances must decide which of these methods is preferable , but generally I conceive it will be the latter one .
+I will only add , that the interest attaching to the entire subject of the comparison of algebraical transcendents appears to me to be chiefly of a speculative character .
+It is to be valued rather as affording evidence of the powers , and at the same time of the limitations of analysis , than as offering any prospect of increased command over the problems of physical science .
+Such at least seems to be the tenor of present indications .
+Application of the General Theorem of Transformation to the reduction of Functional Transcendents .
+29 .
+Let us first apply the general theorem to the reduction of the expression ESpf()/ )dx , where p and 4 .
+are any rational functions of x , and fa general functional symbol , the simultaneous values of x in the several integrals being determined by an equation , , , =v , ... ... . .
+( 1 .
+) in which v is a new variable .
+We have 4jpf(Q.)dx= -JSfv)pdx=SJf(v)dx ... ... .
+( 2 .
+) We must now seek the value of the expression:f(v)pdx , subject to the condition ( 1 .
+) , and then integrate with respect to v. 775 p Now 4 as a rational function of x may be represented under the form i , where P and Q are polynomials in x not involving v. The equation of transformation then becomes P and in its rational and integral form Qv -P=O .
+Hence by the general theorem of transformation , 2f(v)pdx= [ f(tv)p ] log ( QvP)= O[f(v)p ] Qv-p Now the factor f(v ) , inasmuch as it does not contain x , in nowise affects the interpretation of 0 .
+Hence it may be removed from within the brackets and the equation written in the form Qav _v / f(v)pdx= f(v ) 0[ ] Qv-Pf(v ) e[ ] v- .
+P on replacing p by 4 .
+Hence , replacing the first member by the expression for which it is an equivalent , and attaching the sign of integration , :j-Sf()dx= f(v)o ] ... ... . .
+( 3 .
+) To this result we may also give the form %P e dx 0 ... *-a ( 4 .
+) as the symbol 0 and the function p are both independent of the variable v. And this would in fact be the best form if we could effect generally the integration in the second member .
+For the applications to which we shall proceed ( 3 .
+) , is , however , the form to be preferred .
+We may express the results which have been arrived at in the following general theorem .
+THEOREM.-If p and 4 , are rational functions of x , and if the simutltaneous values of x in the integrals included in the expression IS f(4/ )dx are roots of an equation v being a variable quantity , then 1Spf()dx=Sf(v)E[p ] 'v .
+30 .
+Apparently this is the most general theorem which exists with relation to that class of transcendents in which a perfectly arbitrary symbol of functionality occurs under the sign of integration .
+If we specify the form of f , so as to meet the case of the particular transcendents discussed in the previous sections of this paper , we shall obtain results accordant with , but less general than , those which have been there obtained .
+But the most important feature of the theorem is , that , without restricting the generality of the functional symbol f , we may so determine the form of 4as to cause the several integrals included under the sign 2 in the first member to close up , if the expression is permitted , into a single definite integral whose actual value will then be given by that of a far more simple integral in the second member .
+Let the limits of v in the second member be p and q , and let the transforming equation =v give , , p2 ... p+i for the values of x when v=p , and qg , qg.2+ , for its corresponding values when v-= .
+Then we have f.(4 , )d+ 2f ( 4)d ++ f(L4)de f(\)or * ( 5 .
+) l JP2 dJ/ 7Pn+l P VNow let us give to 4 , the form al a_2 an X1 a -a where X , , A2,..X , are real , and u1 , a2. .
+a real and positive .
+The transforming equation is then x. -= ; ... ..(6 .
+) X-A1 X-A2 x-A2 v whence representing still the first member by 4 , d-i 1+ a+ -+ _ , )+a dn " ( a-_ , )2 ( -X A)2 ( An !
+and as this expression is always positive , it follows , --st , that , regarded as a function of x is never a maximum or minimum ; 2ndly , that whenever 4 , varies continuously while x increases , it varies by way of increase .
+From these properties , and from the form of the equation ( 6 .
+) , it readily follows that if X , , 2,..x , are arranged in the order of increasing magnitude , then whatever real value v may have , the roots of ( 6 .
+) will be real and will be disposed in the following manner , viz. one root less than 1 , , one root between X , and X2 .
+, one between X_ , and h , , and finally one between An and oo .
+To prove this in detail , let x vary from -oo to X , , then 4 , , as is evident from its form , varies from-oo to oo and it varies continuously by way of increase so as never to resume a former value .
+Once therefore in its course it will be equal to v. Wherefore one root of ( 6 .
+) lies between -oo and X , .
+Supposing x to continue to increase , the value of 4 suddenly changes when x passes over the value\^ from oo to oo , and as x varies from Aj to A2 , 4 again varies continuously , and by way of increase from -oo to oo , and therefore again becomes equal to v once in its course ; wherefore a value of x lies between X , and X2 .
+In like manner there is a value of xa between A2 and X3. .
+X_ , and , , .
+Finally , as x varies from X , to oo , 4 once more passes over the value v. Whence the proposition is manifest .
+The reality of all the roots of ( 6 .
+) may also be readily shown in the following manner .
+, Let X=2p+SqV- .
+Then substituting in ( 6 .
+) , and reducing that equation to the form --A+B 1_ =v , which entails as a necessary consequence A=v , B=0 , we find as the form of the equation B=0 , { 1+ ( p-)2 + q2+ ( q p- ) " + q2 ( pA ))2 + q.=0 .
+0 ? ?
+2^ ( p-x2)+.q2+()+Now as the function within the brackets is essentially positive , the above equation can only be satisfied by making q= 0 .
+But this indicates that all the roots are real .
+Resuming ( 5 .
+) , it is evident from what precedes , that if the lower limits of integration pi " P2 -. .
+pnr , corresponding to v=p , are arranged in the ascending order of magnitude , the upper limits q , , q2. .
+gq+ will also be ranged in the same order .
+Moreover p , and g will both be less than , ; p2 and q2 will lie between X , and 72 ; finally , pn+ and _q+1 will lie between xn and oo .
+Hence , then , the elements in the different integrals in the first member of ( 5 .
+) will be all different , the superior limit of each integral being less than the inferior limit of the integral which follows it .
+31 .
+Let us now examine the case in which the integration relative to v in the second member of ( 5 .
+) is from -oo to o0 .
+Let p =oo , and q oo , we then have Pi =-_00 , p2=1 , p3=2 *Pn+1=Xn _l=M IX q2=X2 , 3=32 ' qn=X qn 1= This is the general theorem of definite integration to which reference has been made , The remainder of this paper will be devoted to its illustration .
+The theorem is independent , as has been said , of the nature of the functional interpretation off , and , even when the factor(xAb o.-a ) becomes infinite for the limiting values Xl , X2. .
+, does not fail , but carries with it a correction for the discontinuity thence arising .
+We cannot otherwise attach a meaning to the expression b f(x)dx , when for a value x=k , included within the limits of integration , f(x ) becomes infinite , than by considering it as the limit to which the sum of the integrals f(r)d + f(x)dx tend as e and e ' tend to 0 .
+According to the nature of the function f(x ) and the modes in which e and e ' tend to the limit 0 , the integral may become , as CAUCHY has observed , finite or infinite , determinate or indeterminate .
+When e'=e , so that the approach on either side to the limiting value X is made in the same manner , i. e. by equivalent infinitesimal variations of x , the value of the integral obtained will be that which CAUCHYi terms its principal value .
+The equation ( 1 .
+) will thus give the principal value of the integral in its first member , if we suppose v to approach by the same kind of variations to the limits --o and oo ; in other words , if , representing the function under the sign of f_o integration in the second member by F(v ) , we regard F(v)dv as the limit of the value of F(v)dv , a becoming indefinitely great .
+For suppose x to be approaching the par--a ticular limit X , .
+The nearer its approach the more nearly ( vide 6 , art .
+30 ) is the following equation realized , viz.-aI whence the more nearly have we x=-v-'- ; and therefore , if v tend towards oo and -oo by equivalent variations , so also will x by equivalent variations approach from above and from below the limit xI .
+Again , the larger x becomes the more nearly do x and v approach a ratio of equality , and therefore the mode of approach of x in the first member to the limits -oo and co determines identically the mode of approach of v to -oo and oo .
+Thus we may finally give to the theorem the following rigorous statement , viz. Tew two members of the equation a ( ^^ -^ r^aa $J:-a\dfx ( a_ =5 dvf(v)O[p(x ) ] a X--X1 '-ncapproach a ratio of equality as a approaches to infnity , provided that if -xf( al5 an 25 i2 779 become infinite for the critical values X , , 2,. .
+, we suppose x to approach each critical value by equivalent infinitesimal variations .
+The most important , perhaps the only important , cases are those in which f(v ) vanishes when v is infinite .
+33 .
+I shall begin with noticing some particular deductions from the theorem , among which will be included certain known formulae of analysis .
+I shall show that it enables us to deduce from any known definite integral the values of an infinite number of other definite integrals of progressively increasing complexity .
+I shall show that when the arbitrary function under the sign of integration is regarded as discontinuous , the first member of the equation becomes resolved into a number of definite integrals of continuous functions , and that we thus arrive at the same theorem for the comparison of functional transcendents , ( 5 .
+) , art .
+30 , from which the above theorem was itself derived .
+Finally , I shall apply the theorem to the extension of the theory of definite multiple integrals .
+Special deductions may be obtained by limiting either , -1st , the form of the rational function p(x ) ; or 2ndly , the interpretation of the functional signf ; or 3rdly , the number and value of the constants in the function under the sign f. 1st .
+Let p(x)=-1 .
+Then in the second member of ( 1 .
+) , art .
+32 , dv dv [ ( ) ] al + an a , v-+..+ -------A x-An z1 x -A-n dv --C1a XZ-v al.an X -A Xn dv .
+Hence fS1 xf-Al ' ) -a ) da=-f(v)dv. .
+( 2 .
+) This was the theorem , or rather the most important case of the theorem referred to in Art .
+1 , as published in the 'Cambridge and Dublin Mathematical Journal , ' No. XIX .
+The following are special applications of it , chiefly selected from the paper in question .
+Since we have Sfx)/ S=S f(v)dv. .
+* .
+( 3 .
+) and a2 / a a2+a -=(X+2af , we shall have IfQ 2+2 ) d -x= f(v2"+2a)dv ... ... ( 4 .
+) Ilence g -+ ?
+a)d , =.-2a x s_x -2a .
+( 5 .
+) ?
+cQ X_ oox In like manner and similarly , Slcos(X2+I ) dx=S cos '(2+2a)d =cos 2a cos(2)dv-sin 2a sin(v 2 ) = ( ) ( cos 2a-sin 2a ) sin ( 2+2)dx= ( ) ( cos 2a+sin 2a ) , S:clr ~ T2 Wp2 1. .
+( 6 .
+) ... .
+( 7 .
+) which are known relations .
+We may by the same method deduce the relations dx -( +2 ) Ccos C{ ( 2+ ?
+)sin }-=-r-2acO ?
+s cos ( 2a sin 0+ .
+x acosO { ( + sin sin }r,2co ( 2a sin , .
+00~ ' " .
+( 8 .
+) .
+( 9 .
+) originally given by CAUCHY .
+All the above definite integrals are reduced by the theorem to immediate dependence on the fundamental theorem " ax2 ' iAt idx=i t00 t/ a Again , let us consider the definite integral Making x2=z , we have C dx .
+xn-i Uo ( a +bx +cx2 ) dz u=25 b+ c(b ~+ CZ2 +-2 ) SJ-{b+c(z++ A ) } f-{b+ ( v2+2/ ) } by ( 4 .
+) ^_oob +2ac+y2 dv Jo.(6 +2 Vac + cv2 ) Now from the known theorem ?
+0 dt .
+ta-l r( J0 ( + t)rin which r &gt; a , we readily deduce dv.v '1 ( p* ? ?
+m+l ml q1 ' J ( p + qv)n 2pn--2 q a)r(ra ) r(r ) ' r(m+ l)r( + 1 ) .
+( 10 .
+) r(n ) 781 whence , reducing the above expression for t , we find ' dwx.x"_.1 r1(A)r(n- ) .
+i ( a+bx+cX2)nc-(b+2V)n1( ) &gt; 1 .
+*** and hence on changing x into we find ? ? ? ?
+d. xr(lx)r( - ` ) JO(a +^ )+ b cx ) rxP(n)a'(b+ 2 V/ ac ) -1 The two last theorems were discovered independently and about the same time by Mr. CAYLEY , Professor THOMSON* and SCIILMILCHIt .
+It is to be noted that a , b , and c must be positive .
+The above examples have been selected in the first instance because they relate to known results .
+But there is not one of the results arrived at which may not be generalized to an indefinite degree .
+Thus , since we have dv_r l ) , ... . .
+( 13 .
+) we have S &gt; -i )=Ir(n ... ... ... ( 14 .
+) If n= 2 , this gives S ?
+dxi2a-(+2 f_ whence 00 D , ~= - % ... ... ... ( 15 .
+) _ 00 agreeing with ( 5 .
+) .
+But let n=4 , and we find S , -( 4+)+4at+2+)4 ) , 6a2 ... ... .
+( 16 .
+) and so on indefinitely without even proceeding to employ the more general forms of ( 2 .
+) .
+34 .
+Let us examine the definite integral =x f(-)d.X ... ... .
+( 17 .
+) By the general theorem ( 1 .
+) we have / v(v)o1 O2 ] n1+l u=J dvfv --a dv fvC , -v1 a..x ... a ( 18 .
+) x For , x2 , ' not being fractional , the interpretation of 0 is reduced simply to Ci .
+It is X2n +1 obviously desirable to express the term C-__vx-_ in a series consisting of powers of v. Now 2+1 r 1V IX e2 , 2+ I xn P t-+2 a 2+3 ; _ Z-a-^ L l{2n+l +( *( 19 ) x -o-__xa Xa 2-a)21 ( X2_a)3.r-av( ( a3 We are permitted to give this form to the expression before developing in descending powers of x , because , on thus developing the several'terms in the second member , no higher power of x will present itself than would be obtained by developing the first member in descending powers of x. The general term of ( 19 .
+) is vi x2n+i+ ( x2-_a)i+1 If i be odd , there will be no terms of the form in the development of this function in descending powers of x. Let i be even and be expressed by 2mn .
+Then we have to develope in descending powers of xa series of functions of the form V2mx2n + 2m +1 ( X--a)2m+l The coefficient of in the development of this expression is easily found to be x ( 2m+1)(2m + 2). .
+( n + m)n-v2m 1.2. .
+( nm ) Therefore ' 2n+ _ ( 2m + 1)(2m + 2). .
+( n m ) anm 2 -v-a 1.2..(nm ) the summation extending from m= 0 to m=n .
+IHence y_ f ( _ a ) c_ 07 ( 2m + 1)(2m-n+ 2). .
+( n m ) iT Ml In the particular case in which the function denoted by f is even , we have , on replacing f(x ) by f(x2 ) , Xf T( a ) 2 } =n ( 2m + l)(2m + 2)*. .
+( n + m ) a-mf ( xn --dx ( 2m+lm=nn n+m ) anm5 dvv2mn(v2). .
+( 21 .
+) J-^ '\\ ffc ) [ ax =24^ 1.2..(n-m ) a This , when a=1 , is CAUCHY'S theorem referred to in Art .
+1 .
+Some valuable illustrations of it will be found in the Corollaries to the memoir of which it forms the subject .
+We may employ ( 20 .
+) or ( 21 .
+) to generalize the results given in ( 11 .
+) and ( 12 .
+) .
+We may thus finitely determine the values of the integrals S00 ^ ?
+.^+ ?
+--i dx.dX ( a + bx + cx2)n J( ++ bx + cx i being an integer .
+For the former integral we shall have the expression r 2i ( 2i I 2m=i^+ 1.2m+2. .
+i+mm a ( )(2 ) ( 2 ):~m_ , 2m+,.2~+ 2..i+~ ( a ) T ~ .
+, + , ~ , + , X. ( 22 .
+) ^= 1.2..(i--m ) c nX2-+ 2i+1 r ( n)* ( b 0+2 / ac)n)2 c2 For the latter integral we shall only have to change in the above , a into c and c into a. The results in ( 11 .
+) and ( 12 .
+) , and the more general conclusions just obtained , are of importance in some of the more difficult problems connected with the mathematical theory of electricity .
+Its is probable that a result equivalent to ( 22 .
+) may be obtained by some formule of Mr. CAYLEY'S connected with the reduction of the integrals which occur in certain problems of this class .
+I have not , however , attempted a verification .
+34 .
+Although the list which I have given of results obtainable by other methods might be increased , it is still only in comparatively rare instances that the means of independent verification present themselves .
+We might by transformations such as CAuCoHY has employed , verify the theorem but it would not be easy by any such process to verify the theorem:r d X , __ --l + , l , a , 1a2h -c0\ ?
+CAl wAnJ a , and a , &amp;c. being any positive quantities , and x , , k , &amp;c. any real quantities whatever .
+I shall not , however , dwell any longer upon special results , but shall briefly state some of the general consequences which flow from te to the application of the primary theorem ( 1 .
+) .
+1st .
+The evaluation of any definite integral 1o --Al lAn ) a , 17 n which p(x ) is a ratironal and integral function of x , is reducible to that of the definite ial ( )fv dv ... ... * ( 1 .
+) in which +(v ) is a rational and integral function of an order not higher than the o-rder of ( x ) .
+For , by the general theorem , dXf( X X'(-a-l X_ an )-- ; ^ X-~ ' " )f( )))[)(X)]. .
+) .
+ia dx= ? ?
+advf(v)o , ( x ) ~ -a1 since @(x ) is integral .
+If we develope the fractions al , a2 , &amp;c. in descending powers of x , we shall have -a l -a xa '-l x--x~x.-X , A ' powers of x , we s ?
+hallX-KhavCe Suppose m to be the highest index of x in p(4 ) , then the development of the righthand member , in descending powers of x by division , will assume the following form , Boxm-'-+B , x-2+B2-".-B B -. .
++Bm+ &amp;c. , B , not containing v , B1 containing the first power of v , B , the first and second power , &amp;c. Hence B. , the coefficient of x- ' , will involve powers of v up to the mth .
+Let this function be represented by 4(v ) , and we have d ( )/ x(Z-,.)= ; ( v)f(v)dv,. .
+( 2 .
+) +(v)being of the same order with respect to v as p(x ) with respect to x. The following are particular examples:x..= vf(v)dv ... ... ... . .
+( 3 .
+) Jdv'P(x)fv).(6 .
+) fJ t/ dx ^.-2f x-x(A , + a)+..+aO f(v)dv ... ... .
+( 4 .
+) dx.x:f ( $. .
+e =J { v+2(a,..+a.)v+a , l,..+a~ ( v)v. .
+* ( 5 .
+) 2ndly .
+The evaluation of the definite integral r a , a.)/ ( $-c x-An ) where p(x ) is a rational fraction , is reducible to that of the definite integral dv ( v)/ ( v ) , ... ... ... ... .
+( 6 .
+) oo where 4(v)is a rational fraction of the same order as p(x ) .
+By a rational fraction of the same order , I mean one whose numerator is of the same degree , and whose denominator involves the same number of simple factors elevated to the same powers , the only difference arising from the constant coefficients .
+By the general theorem we have dx(x(..- ) ) Jd vf( ) ( ) ( 7 .
+) ] x-(7 .
+) X - ; i X-Xn in which , on account of the distributive character of the symbol 0 , we may resolve ( p(x ) into its component terms , and give to 0 in succession the respective interpretations which they afford .
+The component terms of p(x ) will be of the forms ax ' and ( i being an integer .
+( x-p ) We have just considered the effect of the first class of terms , and it only remains to consider that of the second class .
+Now a0L( -)ii 1K +a - ?
+O ~h)i^ _a_ xh-h--n acP ~d 1.:.i-)-i a , a( --h ) ( v Al -:k ) the former of the two terms in the second member being the coefficient of --h in the development of the function in ascending powers of x-h .
+It is evident that the latter of the terms in the second member vanishes ; for the first term of the development in descending powers of x being - , there will be no term of the form A Hence we have merely to consider the term aL ( 8 .
+) 1.2..(i-l ) Tdh v-H'..* ..Qo , Q1. .
+being constants whose values in terms of p , p2,..q , q. .
+can always be finitely determined .
+As particular examples of the above , we should have rXd , x -va , an -h f(v)dv x_o-hJ\ x-A , xJ v h+ .
+a , _oo h-A=1 h_ d$ 2f ( tvh A +(hx h--/ dx ( a( al aa f(v)dv , ______ J ( X_h)2f Y^ x-^ " m(h1A^)2f*__ ( a1 +_a_ 2 _0O ( hA1 ) ( ~-h , )"~r.~ ? ? ?
+?f( ?
+&gt; In the last theorem the particular case in which hA=s , the function f(v ) being at the -a same time supposed integsmall for very large values of v , is interesting .
+We see that as h approaches i l , the terms a become large in comparison with those with e( )2( -AX by ( 2 .
+) , art 32 .
+As a particular deduction from the above we shall have .
+which they are connected by addition .
+Thus the second member approaches the value a , _ f(v)dv 1 00 so that in the limit ( X ( XI ) -A al ?
+v- ; It may be worth while to verify this theorem in a particular instance .
+We have from it dx a K2 ?
+-x)~f x~ -f(v)dv .
+L ( X / A)"f( &gt; r -^ h J-oo/ Now assume in the first member -a x-Y- .
+The transformed integral is easily found to be As to the limits , when x varies from -oo to X , y varies from\ to oo ; and when x varies from X to oo , y varies from -oo to X. Thus , by mere transposition of the two portions of the integral , the limits of y become the same as those of x , and we have _)f(x--a_f=l f yy_ f(v)dv by ( 2 .
+) , art .
+32 .
+Jo ( X x-K ) a_ -CO y-A a !
+-^ As a particular deduction from the above we shall have .
+P00 dX _2^TA 1t-2 c-2a which may also be verified by differentiating ( 5 .
+) , art .
+32 , with respect to a. We are permitted thus to differentiate with respect to a , because the function under the sign of integration does not become infinite within the limits .
+This condition must be strictly attended to in all similar attempts at verification .
+3rdly .
+From the valtue of any known definite integral , we can , by the general theorem , deduce either the values of other definite integrals taken between the li'mits -oo and oo , or relations among the values of those integrals taken between other limits .
+To accomplish the first object , we have only to transform the given integral into one whose limits are -oo and oo , and then apply directly the general theorem .
+The method requires no illustration .
+To accomplish the second object , we must express the function under the sign of integration , not as a continuous function taken between the given limits , but as a discontinuous function taken between the limits -oo and co , the character of its discontinuity being such , that for all values within the given limits of integration it shall assume the form specified , and for all values without the given limits shall vanish .
+Thus leti f(v)dv be the definite integral whose value is given .
+We may extend the integration from oo to oo , provided that we regard f(v ) as vanishing when v falls without the limits p and q. We shall thus have al an q x-. .
+dx= f(v)dv f(v)dv , oo f X--h X oo a1 a. a1 an provided that fI y*-A ) vanishes whenever x-A falls without provided that f xA X -A i x-Ax -A the limits p and q. Let the roots of the equation a1 a , x ** =_-P taken in ascending order of magnitude , be p , , p,. .
++n , and the roots of a1 a= a^ __an x~_----i ' taken in the same order , be q , , q2..g + , .
+We suppose ?
+A , XA,..X2 also to be in ascending order of magnitude .
+Thus ( art .
+30 ) p1 and q , lie between -o and , , p2 and q2 between X , and X , and so on .
+Also q , is greater than i , , q2 than p , &amp;c. Hence we see that Xl may be dispensed with ; a more general conception of the nature of a function supplying their place .
+36 .
+One remarkable theorem must still be noticed .
+Since sin =xl(1 - ) ( 1-22 ) ( ir2 ) we have , on taking the logarithms of both sides and differentiating , 11111 cotx += +++++ &amp; c ( 1 .
+) x x ?
++7 x-r x+27r x-27r Hence 1l111 x-cot= x -= &amp; x. .
+&amp;c. x x+tr x-v sx+ 2w Whence , by ( 2 .
+) , art .
+32 , fdxf(x-cot x ) dvf(v ) ... ... . .
+( 2 .
+) _ oo _ oo The result may however be generalized .
+For from ( 1 .
+) , a1cot(x-x , )=a +1 ++ &amp;c. -A_ , +- , +r x3--+l- &amp; Taking the sum of any series of such terms , we shall evidently have xa cot ( x-X , )a2 cot ( X-2 ) * Application of the General Theorem to the evaluation of multiple definite integrals .
+37 .
+The form in which multiple definite integrals present themselves in the application of mathematics to natural philosophy , is usually the following .
+The value of a triple integral , SSSp(x , y , z)dxdydz , ... . .
+( 1 .
+) is required to be found , the integration extending , in some instances , to all positive values , but more generally to all values whatever of the variables x , y , z which satisfy a condition ( x , y , ... ... ... ... ( 2 .
+) The most general method of treating this class of problems is due to M. LEJEUNE DIRICHLET .
+It consists in converting p(x , y , z ) into a discontinuous function which vanishes whenever the variables x , y , z transcend the limits assigned in ( 2 .
+) , and which is equal to ( ( x , y , z ) whenever those variables satisfy the above condition .
+This transformation being effected , we are permitted to regard the integrations relatively to x , y , z as independent , and as individually taken between the limits -oo and o. From this circumstance the progress of our knowledge of multiple definite integrals must be in some degree coordinate with the extension of our command over single definite integrals taken between the limits -oo and oo .
+I propose in this section both to illustrate , by one or two examples , the theory of multiple integrals as above stated , and to show how it gains extension from the theorem of definite integration demonstrated in the preceding pages .
+There are several different forms in which the application of the principle of discontinuity to the evaluation of multiple integrals may be presented .
+The form which I shall adopt in this paper is similar to one originally given by me in the Transactions of the Royal Irish Academy ( vol. xxi .
+pt .
+1 ) , but is more convenient in application .
+It depends essentially upon the employment of FOURIER'S theorem , viz.f(x ) =I da .
+dv .
+cos ( av--xv)f(a ) .
+If we write the cosine in its exponential form , we have f(x)=2 =+ ; j dadv ( avv v-+(av- ) }a ) ... ... .
+( 3 .
+) Now by known theorems )Xdw.war(l ) .
+w 2jd ... ... .(4 .
+) Multiply the terms of ( 3 .
+) by those of ( 4 .
+) taken in the same order , and , converting the exponentials into sines and cosines , we have f( =7.r( iXX dadvdw cos ( av--xv-tw+-)wi-~f(a ) .
+( 5 .
+the theorem employed in the Irish Transactions .
+Now v remaining unchanged , let w=vs .
+Then transforming in the usual way , we have dvdw=vdvds , whence , on substitution , f(t )- , r(i ) C Cdadvds cos{(a-ts)v+ vsi-'f(a ) ... ( 6 .
+) In the application of this theorem to the reduction of multiple integrals , x and t will be replaced by functions of the variables involved in those integrals .
+Its advantages are the following .
+Like FOURIER'S theorem , from which it is derived , it enables us to express any species of discontinuity in the function f(x ) .
+Thus if f(x ) is to vanish for all values of x which lie without the limits p and q , we have only to substitute p and q for -oo and oo in the integration relative to a. At the same time the theorem presents x and t in a functional connexion , which in all the most important cases renders possible the subsequent integrations without any new transformation .
+One subsidiary theorem remains to be noticed .
+Since we have , dy cos ( a+cy)=c cos ( a+ , we have , by successive applications of this theorem , n dy , dy2. .
+dy , cos ( a ?
+).=Cos + ( .
+( 7 .
+) -1 = 2'\ *n 4 38 .
+Example 1st .
+Let it be required to evaluate the multiple definite integral v=J. .
+dA,. .
+dxn h+ ( a _ , +-_. .
+( 1 .
+) the integration extending to all values of the variables which satisfy the condition l , ax+l,22 + lnxn ... . .
+( 2 .
+) If for convenience we represent 1l , L+ , l2-x..-+ x by Elx and ( a , --xi )2+-(a2-x)2. .
++(a--_x))2 by E(ar-xr)2 , we have by the theorem ( 6 .
+) , llX , + 2l2x .
+stituting and observing that the limits of y. are oo and co , we have =t. .
+die , dy2. .
+die cos ( Ua-h2s-24-ar+ s)V+ Y+ 4 .
+} Let h2+ ... ... ... ... ... ... .
+( 3 .
+n Then T=..dy1dy. .
+die , cos { ( a-a)v+-vsy-+i }-- , , cos { ( a--)v+--t-n } , 00 47 whence n_ n V= dadvds v2s--2cos { ( a-)v+ --2 ) a)= r(i)o dsQ where Qd=d2 ) , , co dadv cos{ ( a-v a)}/ f(a ) _(d , ,- } 2 lqfoOdadv cos { ( a--)v }f(a ) ( d)i-f( ) by FOURIER'S theorem , f ( a ) vanishing when a does not fall within the limits p and q. Thus , finally , 8V r2)ds.i-__( ( d4-2 .
+r(i)~]'^'84-l(-^"-^/ M* ********* ( 4 .
+) the fully expressed value of a being L=h2s+ll +12a2. .
++lna..12(5 .
+) 4s We may remark , that as increases with s. As s varies from 0 to co , a varies from -co to o. Thus , whatever may be the values of p and q within which the variation of a is confined , there will exist corresponding positive values within which the variation of s will be confined , and those limits must take the place of 0 and oo in the expression of ( 4 .
+) .
+39 .
+In strictness there is no need of referring to the limit in the statement of general theorems like the above involving an arbitrary symbol of functionality .
+The consistent interpretation of that symbol will suffice .
+Thus the results at which we have arrived ( / ' -2 COS ( a+ +nx ) +ods s-t Ji..dxd , 2dxf(1 ... ... .
+ard - ' d ) ? ?
+, ( 6 ) 'x-l"o , { hA+ ?
+( al--CL)2+ ( a2-X2)2..+ ( an-X)2vi r(i ) 'a having the value given above .
+For if 11 , x , + 2s* + Ial is confined within given limits,.f(blyx +ui +t eox ) may be regarded as vanishing whenever 1,1d+1 ?
+2 s +f llin transcends those limits , and therefore , by consistency of interpretation , f(a ) as vanishing whenever a transcends the same limits .
+40 .
+I shall not enter into any discussion of the above solution , but shall briefly point out in what way it may be generalized by the theorem of definite integration of Art .
+32 .
+It is evident that if we change in ( 6 .
+) x , into x , b------ , *xinto eC1 C_ 2 Cm xinto x ~X ~2-- , n &amp;c. &amp;c. &amp;c. or into any of the remarkable forms thence derived , Art .
+36 , leaving dxldxz. .
+dx .
+unchanged , the actual value of the multiple integral will be unaltered .
+Thus , as a particular illustration , if we suppose.r kf 3\ x/ \ y/ v=SSSdxdydz xL y+ ( a-x+by(^ )2+ ( c } the integrations being limited only by the condition ( ) +(YY)M +n( ) we should find v0 .
+where 12+ m2 + n2 --=la+mb+nc4s ' provided that f())=-0 when o does not fall within the limits 0 and 1 .
+41 .
+Example 2nd .
+Let v=S. .
+dx , x2. .
+x , l + ) +r+ ) the integration extending to all values of the variables which satisfy the condition 1 ?
+: 2 2 ) +1.2 X2+ba , Here , after reductions similar to those which have been exemplified in the preceding problem , but more complicated , we find , r2 | d wherein =h2s l2(12 +m ls ) ( la2 + -mbs , )+. .
++2(1+ms)(la f(r ) being supposed to vanish when a transcends the limits 0 and 1 .
+This theorem admits of the same kind of generalization as the preceding one .
+It was communicated by me , some years ago , to Mr. CAYLEY , and published by him , at my desire , in LIouVILLE'S Journal , vol. xiii .
+If in the above theorem we make a , =O,. .
+a_= 0 , we have an expression for the value of the multiple integral : , ,/ l ?
++ &amp; t+2X2 ) S. .
+dxldx2 .
+dxn f b2 + +..2 ?
+l ) 2+m ( 122 ... +m 2b+n ) the integrations being extended through the mass of the ellipsoid whose equation is IlxJ + .
++ 12 &amp; 2 = .
+The following example , originally published by me , but without any intimation of its possible extension by means of the general theorem of definite integration , in the memoir already referred to in the 'Transactions of the Royal Irish Academy , ' is of great practical importance .
+42 .
+Example 3rd .
+Required the value of the multiple integral v=..d +ddx .
+l. dx { h+. .
+( 1 .
+) the integrations extending to all values of the variables which satisfy the condition 22 2. .
+1 ... ... ... ... .
+( 2 .
+) Ai h2'+h2 &lt; .
+Here V will be found by integrating with respect to x , x,..x , between the limits -o and oo the expression ~1('oo'aoo C/ 2\ ^ ffr(i , X S dadvds -isl cos { ( a-=2 -_s( h2+2 ( a9.-.)2)v+ 2 f(a ) .
+Hence changing , as before , the order of integration , V=-r(i ) , oo , o dadvds s-if(a)T , where %T-dxdx2. .
+dx cos { a-h2s(2r+sar-Xr))v + Now .
+Xr h+s(a2- ) ? ?
+44 +2 if we make x ; -^ a h.a 1 ?
+1 4,2 INTEGtRALS .
+795 Substituting and integrating with respect to Y2by..y , .
+between the limits -oo and oo , we have n( S..(1 + h.s ) 2+h whence , if we make 1h2s as-s a , / nS ( we have V hlh2 .
+, daclvds si-lvcos ( a -a- ) + ( i- ) f4(a ) V ~W~2 h1z ( 1 + .
+hn .
+C 2 .
+; ) r(i ) -Jo ( l+h(l+h+.^Jdva .
+o0 n'2h h..hn h dS s_ l7(i ) J+(l h ?
+s)1(l + hs)..(l + h2s ) .
+Here a increases continuously with s. As s varies from 0 to oo , a also varies from O to oo .
+To any positive limits of a will correspond positive limits of s , and these , as will hereafter appear , will in certain cases replace the limits 0 and oo in the expression for V. It is also deserving of note that a may be placed in the form ( a-f2 2222 2-2 al an h1 +17 -1S 2 hns ++ which only differs by a constant term from the form of the function b in the general theorem of definite integration .
+It follow sat once from this that all the values of s corresponding to a given value of a will be real and that only one of them will be 1P !
+1 1 positive , the others lying between limits expressed by -co i , are *i -h , supposing these ranged in order of ascending magnitude .
+The above example admits of the same generalization as the first which we considered .
+The value of V remains unchanged if , both in the original integral ( 1T ) and in the equation of the limits ( 2 .
+) , we substitute x , -a2 afor , , with similar but not necessarily the same transformations for x2 , x3. .
+x2 , leaving dx , d 2. .
+d2 unaltered ; or if we employ the derived transformations of Art .
+36 .
+I do not conceive that these extensions possess any kind of prospective value or importance , beyond what must attach to all real additions to our knowledge of the Integral Calculus .
+Upon such questions it is , however , almost always unsafe to specu5 i 2 late .
+We can do little more than address ourselves patiently to follow the tracks which open before us , without attempting to prescribe their direction or conjecture their end .
+The interpretation of the formulae which have been arrived at in this section is so far distinct from the general course and design of the paper , that I have thrown into a note such observations as I have to offer upon the subject .
+And I have the rather taken this course , because those observations have been to some extent anticipated in a former publication .
+See Note B. I have not attempted the further extension of the theory of multiple integrals , which would seem to be involved in the general theorem of Art .
+32 , when other values than unity are assigned to the function p(x ) .
+Neither have I attempted to extend that theorem to the case in which p(x ) is rational-a case evidently of some importance from its formal connexion with the last member of ( 5 .
+) .
+NOTE A. On the Connexion between the Symbol 0 and CAUCHY 's Symbol ?
+, employed in the Calculus of Residues .
+It has been explained that the operation denoted by the symbol &amp; is equivalent to that portion of the operation represented by 9 which depends upon the ascending developments of the subject function .
+There is , however , a difference in the mode of statement .
+X2 Thus ?
+[ ( x , a)(_b ) ] would denote , according to CAucHY 's definition , the sum of the [ ( x-a ) ^(x-b)I ( x + a ) " ( x+b)2 coefficients ofin the developments of the respective functions 2(x and ( + - ) X ( x +xra-b ) ( x+b-a)2a ?
+' in ascending powers of x. This would be the same as the sum of the coefficients of a and in the respective ascending developments of the primitive function x-a x ' b ( ._a)2w , in ascending powers of xa and x-b respectively .
+The operation 0 would add to the above the coefficient with changed sign of in the development of the same function in descending powers of x. We shall perhaps best exemplify the connexion thus established between the two symbols , by applying the new symbol 0 to the solution of some of the problems which CAUCHY has treated by the Calculus of Residues .
+I select for the purpose , -lst , the problem of the integration of linear differential equations with constant coefficients ; 2ndly , the problem of the integration of rational fractions .
+Both these applications depend on a transformation of the rational function f(v ) .
+1st .
+It follows from the subsidiary theorem ( 6 .
+) , Art .
+13 , that if we have v-x=O ... . .
+( 1 .
+) as an equation connecting x and v then ef(x)= e[f(x)]v - .
+But since from ( 1 .
+) x has only one value , viz. v , it is evident that ; f(x)=f(v ) .
+Hence f(v)=O[f(x)]v ... ... ( 2 .
+) Now let d tJ= U represent any differential equation with constant coefficients , 6 being the independent , u the dependent variable , and Ua given function of 0 .
+To secure the utmost generality , I will suppose fij ) a rational fraction .
+Thus if the equation were d2u dU -2+U=- , we should have d2 f( ) ddO Now = { f(d ) }U= [ f()- ' ] ( dx)U by ( 2 .
+) =0 [ f(x)-l ] O{e-~Ud+ i(x ) } , ( 3 .
+) 4Z(x ) being an arbitrary function of x. This is the complete solution of the differential equation proposed .
+The reader will have no difficulty in applying it to particular cases .
+The arbitrary constants have their origin in the complementary function &gt; 1(x ) .
+In the Calculus of Residues the theorem corresponding to ( 2 .
+) is the following:f ( v_= E W(x ) .
+( 4 .
+) v--E s[ v ) ... ... . .
+I ( 4)v The first term in this expression for f(v ) is equivalent to the result of the first part of the operation 0 in the second member of ( 2 .
+) , viz. that which depends upon the developments which are effected in ascending powers of the simple factors of the denominator of f(x ) .
+The second term is a transformation of the result of the second part of the operation 0 .
+It would be more conveniently expressed in the form f(X ) -Ci ~'v-x d The solution of the equation fd u-=U , furnished by ( 4 .
+) , will evidently be =E[f()-l]s{isU+ ) } , Udd ( x)S..(5 .
+) 4(x ) being an arbitrary function of x. When , as indeed is usually the case , f(d ) is a rational and integral function of the symbol d , the second member of ( 5 .
+) reduces to its first term .
+The symbols 0 and ?
+then become identical .
+2ndly .
+From the equation v x= 0 , we have , by the general theorem-of transformation , f()= e[f()]-dv If ( x)dx= 0[f(x ) ] _ .
+797 ' iY Whence , x having only one value in terms of v , dv fv)dv =0 [ f(x ) ] and integrating , Sf(v)dv= 0 [ f(x ) ] { log ( v--x)+4 ) ( ) } , ,({x ) being an arbitrary function of x. It is easily seen that 0[f(x)]4i(x ) may be represented by C , whence Jf(v)dv-o[/ x ) ] log ( v )+C ... ... .
+( 6 .
+) CAUcHY has very extensively employed the Calculus of Residues in the evaluation of definite integrals takein between the limits 0 and co .
+These applications are among the most valuable portions of his writings .
+They have no connexion , however , with the researches of this paper , and I have not even examined whether they would be in any degree generalized by the adoption of the symbol 0 .
+NOTE B. On the Interpretation of the Formule for the Evaluation of Multiple Integrals .
+The three principal formule , ( 4 .
+) art .
+38 , ( 1 .
+) art .
+41 , and ( 5 .
+) art .
+42 , evidently possess a common type .
+In each of them we recognize under the sign S , a function f(a ) which may be discontinuous within the limits of integration , and which is at the same time subject to an operation of general differentiation .
+This is a combination which is at least unusual in analysis .
+I purpose to consider here some of the questions of interpretation which it suggests .
+To some extent , indeed , these questions have been considered in my previous memoir , already referred to ; but one of the most important of them , the effect of discontinuity in the function f( ) ) upon the integral in which it is involved , admits of being presented in a more satisfactory light .
+I do not propose to enter upon a complete investigation of the latter question , but only to examine one or two special and well-marked cases , in the hope of directing the attention of others to the subject .
+When there is but one variable , and the index of differentiation is 0 , the formulae reduce in effect to ordinary integral transformations .
+And it is quite worthy of observation , that in this way the formula ( 4 .
+) , Art .
+38 , leads to known modular transformations of the elliptic functions .
+Thus if we make n=1 , h=l , i=- , a-=O and drop the suffix from x , and 10 , we have C dxf(lx ) Cds 12 + ( l. ) where , =s-and f( ) vanishes when a transcends the limits of x. But this amounts to saying that , 4 J(i1 +)*x s ' provided that =X --$--4s 1a result easily verified .
+Now let f(l)= / 1 + we have fd ds dx dr _ds ( + x2/ a)(-~ )s+ Sx ) + 1--/ s2+s4 The second member is a function of the same kind as the first , differing only in the constants .
+If we assume s-mt , we can so determine m as to reduce the equation to the form f dx dt V ( l + ) l+l 2 ) JV ( l + t)(l + L2t ) ' ( t2 .
+* We shall find 2 1i L1 ?
+ViI--1 -14+ ~/ l-- ' -1+ 4/ 1+'4the relation between x and t being t= l , ( x/ x + 1 ) .
+If in the above we make x-=tan , t=tan a , 1-12=h2 , 1_'2== , we find fC______ ?
+_ 2 .
+dO 1 -h2sin2 l+hJ V--k2sin2o ' ( 3 .
+) provided that 1= + / 1k and tan + sec ) .
+These are of course known relations .
+In the following example , which is valuable only for the sake of the principle involved , the differential coefficient of a discontinuous function occurs under the sign of integration..3 In the same equation ( 4 .
+) , Art .
+38 , let h-= , i=2 n=1 , =l1 ; then dropping the suffix from the single variable retained , we have Cadxf(x ) o2 ds d &lt; ( 4 .
+) wherein a=-a-4and fla ) vanishes whenever a transcends the limits of x. Suppose those limits 0 and 1 , and let a be greater than 1 .
+Now a and s increase together , and 111 S=4a_-Hence a=0 gives s=4- , and o-=l gives s=4 Therefore 4(a-a ' ) 4a )(a- ) S rdxf( ) 2d d ( a-x)3= -2 ds~ f(j ) ' ... ... ... ( 5 .
+) provided that f(a ) be regarded as a discontinuous function defined in the following manner , viz. From s=to s=(=().(7 .
+) 1e1 From s=0^^ to s=4oo f()=0 .
+0 ... ... ... . .
+( .
+) From s=4a to s-4aI f(o')--f * ... ( 7 ) From s= 4a 1to s=o f(a)=o ... ... ( 8 .
+) Let us now examine the corresponding values of the element ds f f(a ) under the sign of integration in ( 4 .
+) .
+1st .
+From s=0 to S= a that element is 0 by ( 6 .
+) .
+2ndly .
+At the point s=we have d dsd dd f()=sf()d ... ... . .
+( 9 .
+) d But df( ) ds is the increment off(t ) corresponding to an infinitesimal increment ds in the value of s. At the break , where s=T~ , f(a ) changes in value from 0 to f(O ) , the initial value off ( a-s ) and the increment off(a ) is f(0 ) , whatever the value of ds may be , provided only that it is infinitesimal .
+Hence at this point we have d ds ) fo)1 ( ) f( =f(0 ) = 4o ) -(0-9 , '0 h1 1 dd 3rdly .
+From s=4to s=4(a1 ) ds f(a)-dsf a-4 4(a-I)(1 ) 1d -f(1 ) 4thly .
+At the second break , where s-4(a _ ) and , =1 , we find ds djf(a)=4(a-_ 1 ) 1d 5thly .
+From s=4(a 1 ) to s=co we have ds , f(r)=0 .
+Thus on recapitulation 0 ' d ds f(o ) comprises two finite elements whose sum is f(O ) f(1 ) 4a2 4(a-(1)and a series of infinitesimal elements which give by integration S ) f ( aI 4a whence ( 5 .
+) becomes lf(x)dx 2 f(1 ) f(O ) 4(a-1- ) ; e ^a _ 2{ao fX)45 dsfa .
+) } ( 10 .
+) Now this result may be verified by integrating the first member of the equation by parts , and transforming the integral which remains by assuming x=a-jthink that this example very clearly shows , that , regarding the integral ds(d ) f(d as made up of elements some of which are finite and perfectly determinate in value , the others infinitesimal and subject to the conditions of ordinary integration , we can interpret the general theorem ( 4 .
+) , Art .
+38 , in accordance with known truth .
+In determining , as we have done , the value of the element ds f(oa ) at each break in the discontinuous function , we attach no new signification to a differential coefficient .
+We regard that element as the limiting value to which As.f(f ) approaches as As approaches to 0 .
+In the present instance this value is finite .
+Usually it is 0 .
+The following examples , which are adopted with some improvements from my previous memoir , will illustrate the more important applications of ( 5 .
+) , Art .
+42 .
+Let n=3 , i=- , h=0 , and let us substitute x , y , z for x , , x2 , x3 , and a , b , c for a , , a , a3 ; then V==l 1 ( x1 2 3 ) ( 11 ) { ( a-x)2+ ( b-y)2+ ( C-_)2}4 the limits being given by the conditions 72 2l2 123 The value of V becomes ds.sWf(T ) V=-hAW I I ... ... ... ( 12 .
+) V=---hIh2h3J ( 1 + h^)(1 + hS ) +)(l.+(hs ) 2 a2s b2s c2s wherein l --s+ 2++ hI s ( 13 .
+) IlS l+hs + Now the attraction , according to the law of nature , of the ellipsoid whose equation is X2 y2 Z2 and whose internal density is expressed by the function gf -2 + +z dV upon the point ( a , b , c ) , will be--da .
+Observing that , in the value of V given in ( 12 .
+) , a only appears as involved in a , we have dd d / d d 2as do da=da d and Ta f( ) f( )ahs dV C00 _2asf2f(o)ds whence whence e h-2 da( +hlh o ( i ++ hhIs)(1 +h s)( +s 2as s- , f(o)ds 1hMDCC I. ( 1 + hs ) s ) ( + Now f(a ) is to vanish when afalls without the limits 0 and 1 , and s as falling between the limits 0 and co is to be positive .
+But from the expression for - , it appears that when s-=O r=0 , and when s=co -=72+ 1-+h2 ; also fa increases with s ( Art .
+42 .
+) , and therefore a2 b2 cQ passes over the value 1 when 7+71+72 &gt; 1 , but reaches not that value otherwise .
+The former condition is realized when the attracted point is external .
+Representing by , the value of s for which -a=1 , we have sX 2S / ac2s 1b2s\ -a2h , ara as ile ( 14 .
+) tS ds sof d--(-h+ + daJ{ ?
+da ( +h2s)(1 + h2s)i(1+ hs)1 w being the positive root of the equation a2s b2s cOs t ths +h2s^. .
+( 15 .
+) When the attracted point is internal we have only to substitute oo for r in the upper limit of integration ; for all positive values of a then satisfy the condition &lt; 1 , and positive values only are admissible .
+Both these cases may also be derived from the more general theorem deducible from ( 5 .
+) , Art .
+42 , ds .
+s if h2 % a b2s cs d_r dxdydz d2+hhhaS +d +h2J 6 *df .
+h+ ( a--)2+(b-y)2+ ( c--z)2 } ( 1 + ls)-(l + h^s)(l +^ h)s where r is the positive root of the equation h2S-+ I+ +S+ S=..12 , , ( 17 .
+) When h approaches to O this root approaches to the positive root of the equation ( 15 .
+) if 72+h{+h2 is greater than 1 , but tends to oo if -2+72+72 is equal to or less than 1 .
+i2 h3 'lh , ,2 h,3 If(od)=l , the expressions are easily reducible to elliptic functions and agree with known results .
+Lastly , let the law of force be that of the inverse fourth power of the distance and equal to g. The expression for the attraction on an external point ( a , b , c ) is g dV 3 da where , ~ffc dxdydz 9ds.s8-f(T).t ( a -_ ) )a + ( b'_J)2 + ( C--z)a}^2 ~ } h~ ( 1 + h2.).(.1 .
+h2 ) ( l +h therefore e df(d- ) a d(o ) 2eas df(- ) 2gas ds df(o-).3 d 3da s ( d( ) -3(l +hs ) d()-3(l h2s ) ' S)~ds Therefore C ds df ) ds dV 4 dds ( 18 .
+) 7 3a U ( 1+^2)(1 38)^(1d ds Let n be the positive root of the equation a2s b2s cis _ .
++ .
++s 1 , 1 JfhS 1+ h2s i1+ 2s and let the density be uniform ; then f(o ) -= or 0 , according as s is less or greater than n. Before and after the break , therefore , ds-)= 0 .
+At the break we have , by the reasoning of a previous section , ds --ds-1 .
+We must therefore substitute this value in ( 18 .
+) , and in the rest of the expression under the integral sign change s into a. Observing doa2 b " c that this substitution converts s into ( 1 -s )2+--(l+ hs 2+(1 +-s ) and that the integral being reduced to a single finite element we may reject the integral sign , we have p dYV rpahlh2h3n2 ( 1h22+ 2 +2)2 h2)(1 +h)(I h7 ) ( i+-h2)2+ ( I +"w( + hi " ( +h~ This result is due , I believe , to Mr. CAYLEY , but was originally obtained by an entirely different analysis .
+It only remains to add , that when the index of differentiation is fractional we must revert to the first expression in ( 5 .
+) , Art .
+42 , and effect the integrations separately .
+The integration with respect to v may always be performed .
+The possibility of the two others will depend upon the nature of the problem under consideration .
+Thus writing the expression in the form AU ~ dv.v cos ( a-r-)v+ i-~ 1r(i ) S ( l +his). .
+( 1 + hs)kJ it is easily shown that , according as a is greater or less than a , V= 2h..h l da.n ds.-'fa ) ( dv.v ( os a-i)3 ( + +s)-(1 +r , s)( + This transformation , or one in effect equivalent to it , is due to Mr. CAYLEY * , who has applied it to obtain the value of a remarkable definite integral which occurs in the mathematical theory of electricity .
+a known property of the and Dublin F. atheaticalter form givesol .
+ii p 219 .
+r(i)r^\ ( 1 h-his)v + h/ ..(1 )(a )+ This transformation , or one in effect equivalent to it , is due to Mr. CAYLEY* , who has mathematical theory of electricity .
+

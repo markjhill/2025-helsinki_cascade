@@ -1,0 +1,146 @@
+170 On the New Theory of Integration .
+By W. H. Young , Sc. D. , F.R.S. , Professor of Mathematics , University of Liverpool .
+( Received November 28 , 1912 , \#151 ; Read January 16 , 1913 .
+) S 1 .
+In a paper published in the ' Proceedings of the London Mathematical Society/ * addressed to persons already acquainted with Lebesgue integration , I endeavoured to show that the method of monotone sequences enabled us to recognise intuitively the extensibility to Lebesgue integration of results known to be true for Riemann integrals .
+For this purpose I naturally employed known results in the Theory of Sets of Points ; and , of course , also pre-supposed the proofs of the classical theorems whose generalisation was in question .
+In the present communication I propose to indicate briefly how the method of monotone sequences enables us to prove , at one and the same time , these theorems and their generalisations .
+For this purpose we have only to employ a slight modification of the procedure indicated in the paper cited ; one which , however , avoids all reference to the Theory of Sets of Points , f and assumes no results whatever in the Theory of Integration .
+A careful study of the classical treatment of the theory of the integration \#166 ; of a continuous function shows that it is based on two principles , which are , however , not explicitly alluded to :\#151 ; ( 1 ) The function whose integral is required is approached as limiting function by discontinuous functions , whose integrals are already known , being in fact synonymous , if there be only one independent variable , with the sum of a finite number of rectangular areas ; these functions , which are constant in each of a finite number of stretches , by a natural and convenient choice of values at the points , necessarily finite in number , at which there is ambiguity , are , at our will , upper or lower semi-continuous functions.^ ( 2 ) The mode in which the limiting function is approached is by means of monotone sequences of these functions , and it is shown that , whatever * " On a New Method in the Theory of Integration , " ' Lond. Math. Soc. Proc./ 1910 , \#166 ; Ser. 2 , vol. 9 , pp. 15-50 .
+t It is at the request of a distinguished mathematician of the older school that I have undertaken to explain the possibility of doing this .
+I hope that the novelties in the present account will be regarded as sufficiently justifying the publication of this \#166 ; communication .
+f For the definition and properties of semi-continuous functions see my tract " On the Fundamental Theorems of the Differential Calculus , " 'Camb .
+Univ. Press , ' 1910 , pp. 6 , 7 .
+On the New Theory of Integration .
+monotone sequence of functions of the elementary type in question be employed , the limit of their integrals is necessarily the same .
+If we then turn to the work of Darboux , to whom , and not to Riemann , our theory in its most generalised form is chiefly indebted , we find that he tacitly replaces the discontinuous function of which he is desirous to define the integral by two functions , one a lower semi-continuous function not greater than the given function , and the other an upper semi-continuous function not less than the given function .
+To each of these functions he may be said to apply one half of the process employed in the classical theory in the case of a continuous function .
+The lower semi-continuous function is approached from below , and the upper semi-continuous function from above only .
+It follows , however , from the theory of such functions ; and , in particular , ^ from the fact that , if we divide an interval into a finite number of parts , and select a point in each part at which the function assumes its minimum value in that part\#151 ; supposing it to be a lower semi-continuous function\#151 ; or its maximum in that part\#151 ; supposing it to be an upper semi-continuous function\#151 ; and then subdivide each of the parts so obtained , and carry on the process indefinitely , the value of the function at every point is the unique limit of these minima , or maxima , respectively in its neighbourhood\#151 ; it follows , I say , from this fact , that the upper and lower semi-continuous functions in question are actually the limits of the discontinuous functions approaching them .
+Moreover , the mode of approach is a monotone one ; and , as Darboux virtually shows , the limit of the integrals of the auxiliary functions approaching from below , and the limit of the integrals of the auxiliary functions approaching from above , are each of them unique and independent of the particular auxiliary functions , of the types specified , chosen to approximate to the given function .
+These two limits are not , however , in general the same , and Darboux gives to them the names of integrate par dtfaut and integrate par exc\amp ; s respectively .
+It lies in the nature of things to call these integrates par dtfaut et par exces the integrals of the lower and upper semi-continuous functions respectively which the generating functions have as limits .
+Yet , as soon as we have done this , we have already taken a step into a domain which was closed to Riemann .
+If further justification for this step is needed , it is easy to give it .
+The extension to unbounded functions of the theory of integration in its most successful form , as developed by de la Vall4e Poussin , involved monotone sequences before the idea of Lebesgue integration had been mooted .
+On the other hand , if for a moment we turn to the Theory of Sets of Points , we shall find that the definition we have just given of the integral of an Prof. W. H. Young .
+[ Nov. 28 , upper semi-continuous function , for example , corresponds precisely , in the Theory of Sets of Points , to the convention by which we attach to a dosed set of points a content .
+Now , even Riemann and his disciples have , implicitly or explicitly , always admitted the logical character of this convention .
+The identity in question is evident , if we reflect that the function which is unity at every point of a closed set of points in the interval of integration , and zero elsewhere ( i.e , in the complementary intervals ) is an upper semi-continuous function , and that the definition we have given of integral is at once seen to be concomitant with that of the content of the closed set in question .
+The matter becomes still plainer if we take the internal points of any non-# overlapping set of intervals , infinite in number , and not in general abutting , and suppose a function to be defined to have the value unity at each such point , and zero elsewhere .
+The function so obtained is lower semi-continuous , and its integral , as we have defined it , is nothing more nor less than the sum of the series , necessarily convergent , of the lengths of these intervals .
+The moment , however , that our definitions of the integrals of upper and lower semi-continuous functions have been accepted , the whole theory develops itself without a hitch .
+In the first place we naturally formulate the following principle , which is perfectly general , and applies equally to bounded and unbounded functions:\#151 ; ( I ) A function is said to have an integral if it can be expressed as the limit { finite or infinite with determinate sign ) of a monotone succession of functions , belonging to a class of functions whose integrals have already been defined^ provided only that the limit of the integrals of the functions of every such succession is the samef and this limit is then called the integral of the given function .
+It is convenient to add the gloss that the integral is not regarded as existing unless it is finite .
+Denoting for brevity upper and lower semi-continuous functions by the letters u and Z , we are thus led to examine the nature of the functions generated as limits of monotone sequences of Z-functions and ^-functions .
+A descending sequence of it 's gives us an u , an ascending sequence of Vs gives us an Z , but an ascending sequence of u 's gives us a new function in general , which we call a lu , and a descending sequence of Z 's gives us a new function which we call an ul , A repetition of this process leads , on the one hand , to a re-appearance of the lu- and ^Z-functions , and on the other to two new types of functions , which we may call lul- and i6Zw-functions .
+It is clear that the process may be extended indefinitely , in such a manner , moreover , as to obtain functions for which a modified system of nomenclature is essential .
+Confining our attention in the first instance to bounded functions , we have 1912 .
+] On the New Theory of Integration .
+173 to show that all bounded functions of the classes of types obtained in the manner explained possess integrals , in accordance with our principle ( I ) .
+A theorem remarkable in itself , though intuitive in the light of recent theory , enables us to prove this once and for all , and at the same time gives us a different definition of integration , different in form , though equivalent in essence .
+The theorem follows so simply from the considerations I have exposed , that I propose to state and prove it here .
+S2 .
+We shall suppose that the definition of the integrals of id- and / ^-functions as the limit of the integrals of descending successions of / -functions , and of ascending successions of ^-functions respectively , has been shown to be in accordance with principle ( I ) , and that this proof has been further supplemented by a proof that , if a function is both an ul and a lu , its integral defined by both of these two distinct processes is the same .
+We shall also assume that term-by-term integration of monotone sequences involving functions which are lu- or ^/ -functions has been shown to be allowable .
+The proof then turns on two lemmas:\#151 ; Lemma 1.\#151 ; Given a bounded lu , we can always find an ul , nowhere less than the lu , and having the same integral , and given a bounded ul , we can always find a lu , nowhere greater than the id , and having the same integral .
+It is evident that the one half of the statement turns into the alternative half , if we change the signs of the functions .
+Let/ i(^)^/ 2(^)^ ... be a monotone ascending succession of ^-functions , whose limit is the given / ^-function f(x ) .
+Since fn { x ) is an ^-function , we may regard it as the limit of a monotone descending sequence of the elementary / -functions , and its integral as the limit of their integrals .
+We may , therefore , take an / -function bn ( x ) ^ fn ( x ) , where J bn ( x ) dx ^ |/ w ( x ) dx+ 2~n~1e , If the succession bi ( x ) , b2 ( x ) , ... is not monotone ascending , we make it so , as follows .
+Wherever bi(x)^\gt ; b2(x ) , we replace the value of b2(x ) by b\(x ) .
+Let us denote the modified function by c2{x ) .
+Then c2(x ) will still be ~ h ( x ) , also it remains an / -function .
+Moreover C2 ( x)\#151 ; f2 ( x ) - \b2 { x)\#151 ; f2(x ) ] + [ \amp ; !
+( x)\#151 ; fi ( x ) ] , whence , since both sides of this inequality represent / -functions , | [ C2 ( x)\#151 ; f2 ( x ) ] dx^e ( 2"2 + 2~3 ) \lt ; \e .
+Similarly we modify bs , b\#177 ; , ... We thus get a monotone ascending sequence of / -functions c2(x ) , c%(x ) , ... , cn(x ) , ... such that Cn(x ) \#151 ; fn { pd ) , \[cn(x)-fn(x)]^^e .
+( 1 ) [ Nov. 28 , Prof. W. H. Young .
+Since the functions cn(x ) and fn(x ) are / -functions , this gives \fn ( x)dx^\ cn ( x)dx^\e + \fn ( x ) dx .
+( 2 ) Hence , if gi ( x ) is the / -function which is the limit of the ^-succession , we get , by the definition of the integral of the / ^-function f(x ) , from ( 2 ) , \f(x ) dx^^gi(x ) dx - i\amp ; + \f ( x)dx , while , from ( 1 ) g\ { x ) -f(x ) .
+Now let us again perform the same construction , taking \e , instead of \e , and choosing each of the / -functions which we employ to be ^gi(x ) .
+We thus obtain an / -function g%(x)^f(x ) and -g\{x ) , and such that \f(x ) dx ^ |^2 ( x ) dx ^ \ e -f J/ ( x ) dx .
+Continuing thus we obtain a monotone descending sequence of / -functions , gi(x)^g2(x)\#177 ; ... ^gn(x)\gt ; each ==/ ( # ) , and such that , for each value of n , J f(x ) dx == |gn ( x)dx^ 2~ne + J f(x ) dx .
+If g ( x ) be the limiting function of the ^-sequence , then g ( x ) is ==/ ( x ) and is , by definition , an ^/ -function , and its integral , being the limit of J gn(x)dx is , as is evident from the last inequality , equal to that of f(x ) .
+This proves the theorem .
+Lemma 2.\#151 ; Given a bounded lul , we can always find an u.1 , nowhere less than the lul , and having the same integral ; and given a bounded ulu , we can always find a lu , nowhere greater than the ulu , and having the same integral .
+The argument is precisely the same as the proof of Lemma 1 , except that the functions bn ( x ) are general / -functions , instead of elementary / -functions .
+S 3 .
+We can now at once prove the theorem which I have in mind .
+Theorem.\#151 ; Given any bounded function , formed by any monotone process , such as those here described , we can find an ul-function not less than it , and a lu-function not greater than it , which have the same integral .
+Suppose , for definiteness , that the monotone succession defining the function f(x ) is an ascending one , say , / iO ) -M%)- ... .
+Then , without loss of generality , we may suppose that the theorem has been proved to be true for each function fn ( x ) of the sequence .
+Let us take a / ^-function , g n ( x ) \lt ; fn ( x ) , and having the same integral .
+Doing this for each integer n , we get a new succession , which , if not already monotone increasing , we modify as follows:\#151 ; At any point where g'i { x ) \gt ; g2 ( x ) , let us increase the value of the latter to that of the former .
+Denoting the modified function by g2 ( x ) , it is still a fe-function ; and , since g'2(x ) ^g2(x ) 1912 .
+] On the New Theory of Integration .
+175 it has the same integral as before , equal to that of f2(x ) .
+We then proceed to similarly modify g\ , and so on .
+Thus we have a monotone ascending sequence of / ^-functions gn ( x ) , whose integrals are equal to those of the functions fn ( x ) .
+The limiting function g ( # ) of this succession is an llu , that is a / ^-function , and is , of course , like every gn( % ) , not greater than f(x ) .
+Also its integral may be obtained by term-by-term integration of the ^-sequence ; and is , accordingly , the limit of J fn ( x ) dx , that is J f(x ) dx .
+Thus we have found such a / ^-function as was required .
+Again , let us take an ?
+^/ -function h'n ( # ) ^fn ( x ) , and having the same integral .
+Doing this for each integer n we get a new succession , which , if not already monotone increasing , we proceed to modify as follows:\#151 ; Let hi ( x ) be the function whose value at each point is the lower bound of h\ ( x ) , h'2(x ) , ... , h'n{x ) , ... This function is easily seen to be an ^/ -function , since it is the limit of a monotone descending sequence of ^/ -functions , got by taking the lower bound of a finite number of the functions h'n ( x ) .
+Similarly , let h2 ( x ) be the function whose value at any point is the lower bound of h'2{x ) , h'z(x ) , ... , h'n ( x ) , ... , and so on .
+We thus get a monotone ascending sequence of W-functions hn ( x ) , such that fn { x ) \#151 ; hn ( X ) \#151 ; h n ( x ) , so that the integrals of these three functions are the same .
+The limiting function h(x ) is a / ^/ -function , whose integral is , by definition , the limit of that of hn ( x ) , that is of fn ( x ) , and is therefore the same as that of f ( x ) .
+S 4 .
+We are thus able to show immediately that all the functions of the types we have introduced possess integrals in accordance with the principles we have laid down .
+This is , however , not all that the theorem just proved enables us to do .
+It gives us an entirely new definition of the concept of integration , which includes what we may , for convenience , call that of Darboux as a particular case .
+Our new definition is as follows:\#151 ; Form the integrals of all upper semi-continuoUs functions less than the given function , and take the upper bound of these integrals ; form the integrals of all the lower semi-continuous functions greater than the given function , and take the lower bound of these integrals ; then , if the upper bound of the former , and the lower bound of the latter agree , the function is said to possess an integral , and the value of the integral is the common value of that upper bound and that lower bound .
+The superiority of this definition over that of Darboux ( or that of Riemann ) consists in the fact that all bounded functions which may , in a sense easily Prof. W. H. Young .
+[ Nov. 28 , understood , be said to be expressible mathematically , possess an integral in accordance with the new definition .
+Darboux 's definition fails , in fact , because it is in general impossible to find an / -function and an ^-function having the given function between them , and possessing the same integral .
+The new definition succeeds because it is always possible , in all the .circumstances which can arise in mathematical investigations , to find a Z^-function and an ^/ -function between which the function to be considered lies ( provided only it is bounded ) having the same integral .
+S 5 .
+When we come to consider unbounded functions no fresh difficulty arises in the application of our original principle , provided always we consider separately the modulus of the function , and the excess of the modulus over the function , or , which comes to the same thing , the two positive functions / i and / 2 , whose difference is / and whose sum is the modulus of / As in the other theories non-absolutely convergent integrals require separate treatment .
+This treatment may be the same as in the older theory , except that a limitation is removed , corresponding to the restriction implied in the Riemann definition .
+In discussing unbounded functions , we may , therefore , in considering the new theory , confine our attention to positive functions , and it is clear , from what has gone before , that this is the case also with bounded functions .
+In *other words , in the proof of all our theorems in the new theory of integration we are at liberty to suppose that the functions with which we are concerned are positive , and we need not restrict them to be bounded .
+In the case of an unbounded positive function , we can no longer enclose it between an ul and a lu , we can , however , always enclose it between an unbounded lul and an unbounded lu .
+If we include infinity ( + oo ) as a possible value of the integral , we can then prove that all unbounded positive functions which can present themselves in mathematical reasoning necessarily possess an integral in accordance with both our definitions .
+S 6 .
+I have now completed my sketch of the theory , regarded from the point of view of monotone sequences .
+If the exposition may seem somewhat long , two things are to be observed:\#151 ; One is that all reference to the Theory .of Sets of Points , with the various difficulties which it presents to many .students , is avoided in it : and the second is that , if the development of the theory is tedious , it is not so with the applications of it .
+It remains to show that this is the case .
+For this it will be sufficient to consider two examples .of different types .
+I take first the theorem that change of order of integration is always allowable in the case of an unbounded positive function .
+As passage by monotone sequences is always permissible when we are dealing with positive quantities , it is at once evident that the theorem is true 1912 .
+] On the New Theory of Integration .
+always , if it is true for the simple bounded upper or lower semi-continuous functions with which our chain of monotone sequences began .
+But these functions are constant in rectangles , and their double integrals consist of the sum of the volumes of a number of rectangular parallelopipeds .
+Hence , in the case of these simple functions , the repeated integrals are both equal to the double integral .
+Hence , they must be equal in the case of any bounded , or positive unbounded function of two variables whatever .
+As another example I take Schwarz 's inequality , namely , that ( Juv dx)2 ^\v ?
+dx\v2dx .
+It is clearly sufficient to prove it for the simple functions .
+Let ai , a2 , ... , an be the values assumed by one of these simple functions u , -corresponding to a division of the interval of integration into n equal parts , each of length A ; bi , b2 , ... , bn the corresponding values of v. Then J uvdx = ( ad\gt ; \ + \amp ; 2\amp ; 2 + ... + Ctrln ) A , ju2dx = ( cti2-{-a22+ ... +an2)h , lv2dx = ( b12 + b22+ ... +bn2)h .
+Thus the theorem is shown to be nothing more nor less than the assertion in the language of integrals of the well-known algebraic inequality , )(2\amp ; !2 ) .
+S 7 .
+This is not an occasion to dwell on the usefulness of the new concept , which is sufficiently evident to anyone who has had an opportunity of consulting recent mathematical literature .
+It will suffice if I remind my readers that one of the reasons for its original introduction was that it enabled us to find the inverse differential coefficient of a bounded function in cases when the Riemann theory failed to help us .
+That any bounded sequence may be integrated term by term follows , indeed , from the fact that it can be replaced in two ways by a pair of monotone sequences , the one pair consisting of a descending one followed by an ascending one , and the remaining pair by an ascending one followed by a descending one .
+We may , therefore , in the case supposed , integrate the sequence [ f(x+h)-f(x)\/ h term by term , since the incrementary ratio and the differential coefficient have the same upper and lower bounds .
+Denoting then by F ( x ) , the indefinite integral of f(x ) , and integrating between the limits x and a , we thus get Lt / F ( # +A ) \#151 ; F ( x ) F(q + A)-F(a)\ 2 .
+* n ' Jl .
+h. h\#151 ; ?O f f(x ) dx , J a 178 Prof. W. H. Young .
+[ Dec. 19 , whence , bearing in mind that f{x ) , being continuous , is the differential coefficient of its integral , we get at once f(x)-f(a ) = [ J a Here the sign of integration refers to integration of the generalised Lebesgue type , and it will be sufficiently evident from what precedes , that this equation is only then in general true when the sign of integration is interpreted in this sense .
+It may be remarked that f(x ) is both a lu and an ul , and is , therefore , of a very elementary type in our scheme of functions .
+On the Formation of Usually Convergent Fourier Series .
+By W. H. Young , SeJD .
+, F.R.S. , Professor of Mathematics , University of Liverpool .
+( Received December 19 , 1912 , \#151 ; Read January 30 , 1913 .
+) S 1 .
+Series which converge except at a set of content zero , or , using the expression very commonly adopted , series which converge usually , possess many of the properties which appertain to series which converge everywhere .
+It becomes , therefore , of importance to devise circumstances under which we can assert the consequence that a series converges in this manner .
+The subject has recently received considerable attention .
+So far as Fourier series are concerned no result of even an approximately final character has been obtained .
+It may be supposed , indeed , that the results* of Jerosch and Weyl were at first so regarded , f but , if we examine them closely in the light of the Riesz-Fischer theorem , which was known previously to the results of these authors , it becomes evident that they are merely equivalent to the statement that the Fourier series of a function , whose square is summable , is changed into one which converges usually , if the typical coefficients an and bn are divided by the sixth root of the integer n denoting their place in the series .
+Now it is difficult to believe that the question of the usual convergence of a Fourier series can depend on the degree of the summability of the function with which it is associated , * ' Math. Ann. , ' vols .
+66 and 67 .
+t The result due to Fatou that a series of Fourier converges usually if nan and nbn converge to zero is still more special , being of course included in Jerosch 's condition .
+For Fatou 's paper , see ' Acta Mat .
+, ' vol. 30 .
+

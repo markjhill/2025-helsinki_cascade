@@ -1,0 +1,148 @@
+]\gt ; On the Order of gnitude of the Coefficienls of a Fourier Series .
+By Prof. W. H. YOUNG , Sc. D. , F.R.S. ( Received August 9 , 1916 .
+) S1 .
+Riemann 's theorem that the coefficients of a Fourier series converge to zero was shown by Lebesgne to still hold when integration is understood to be in the general sense now employed , absolutely convergent , or Lebesgue integration .
+Little progress has , however , been made in the determination of the order of magnitude of the coefficients .
+It has , indeed , been proved that , when the function has bounded variation , and are bounded functions of , and that , when the function is a continuous function of such a type as satisfies a condition of Lipschitz , and converge to zero , where is a positive number not greater than unity , depending on the particular Lipschitz condition satisfied by the function .
+As regards the second of these results , involving the satisfying of a condition of Lipschitz , it is to be remarked that , in well-known series of the type and the functions of which they are the Fourier series do not , in any interfal containing the , satisfy any condition of Lipschitz , being , indeed , unbounded .
+In the present communication I obtain a number of theorems corresponding to each of these two results , including them as particular cpses , and , at the same time , leading to the known properties of the simple sine and cosine series above referred to .
+It will be remarked that the conditions supposed to hold in the neighbourhood of the origin and the remaining part of the interval of periodicity are different ; this .
+is inevitable , if they are to be as wide as possible .
+It might be , perhaps , supposed a priori that conditions of a far more general type would be adequate ; this is not , however , the case .
+It is still more unusual for and to converge than it is for the Fourier series to converge .
+Indeed , if the Fourier series converges at the origin , and converges to zero , the Fourier series must do more than ordinarily converge , it must converge to a Cesaro order of ative unity .
+A similar statement holds good of the convergence of .
+and when multiplied by a function of of lower order of magnitude than .
+There is , however , H. Lebesgue , " " Sir la representation trigonometrique approchee des fonctions satisfaisant a un condition de Lipschitz 'Bull .
+de la Soc. Math. de France , ' pp. .
+of of the Coefficients of a Fourier Series .
+43 theory of Ce convorgence of sucoessions to that for series , where consider instead of the convergence of , the arithmetical integral , or fractional , means of these quantities .
+When this is done , more general results are possible .
+For example , if the Cesaro is of a type greater than or equal to unity , only the nature of the function in a small neighbourhood of the origin matters , equally when we consider convergence or oscillation .
+We can , however , no longer , in employing this theory , speak of the results obtained as referring to the order of magnitude of the coefficients of a Fourier series .
+I propose , however , as they have an important application in the theory of Fourier series , to consider these questions on a subsequent occasion For simplicity of expression , the theorems have been stated for functions which are either odd or even .
+It is hardly necessary point out that the results are perfectly general ; when is itself odd or even , is the even , and the odd , function which takes the place of in the theorems , and being then the coefficients of and in the Fourier series of S2 .
+For completeness the theorem about to be given and the following one are stated generally , though information as to the older of the coefficients and is only given by the latter half of each .
+* IBORBN \mdash ; If be the typical coeffic of the of functi of variation , then when convergence taken in the Cesaro manner , of any positive type wh ever ; moreover , convergence ordinary convergence if the funetion be an integral in every interval not containing the origin .
+Let be the function in question , then Case 1 .
+Let be an integral in every interval not containing the origin ; then by the Theorem of Rienlann-Lebesgue the first term of the expression just written down approaches zero .
+* It should be remarked that the second half of Theorem 1 , if we assume the known properties of a function of bounded variation , reduces to the theorem which I have that of Riemann-Lebesgue .
+It is inserted to preserve the parallelism between the Fourier series and its allied series .
+The whole of Theorem 2 breaks new ground .
+XCIIL\mdash ; A Prof. W. H. Young .
+On the Order of Case 2 .
+If be not such an integral , then the first term appro.aghe@ zero , when the convergence is taken in the CesAro manner , Witb any positive index , as is easily seen , does not do so in the ordinary manner .
+In either case we reduce to the consideration of the second term .
+This is numerically ; and therefore is as small as we please , if is continuous at the Bul even if is discontinuous at the origin , such a discontinuity could not affect this fact , since is zero at the origin .
+Therefore in all cases the second term in our expression approaches zero , which proves the theorem .
+THEOREM \mdash ; If be the typical coefficient of the Fourier series of an odd function of bounded variation , tlven ( jump at the in ) , the convergenoe is takoen in the Cesaro manner , of any positive type what ; moreover , the convergence is ordinary convergence if the totion be an infegral in every interval not containing the origin .
+Let be the odd function of bounded variation .
+Its Fourier series is unaffected by the values of at the origin and the extremities and and we may therefore with advantage suppose the value of at these points to be that given by summing the Fourier series of , namely zero , so that We then have , if be the typical Fourier coefficient of .
+Case 1 .
+Let be an integral in every interval not containing the origin ; then the first term iu the expression just obtained approaches zero as by the Theorem of Riemann-Lebesgue .
+* In fact 2 oscillates boundedly for , and therefore boundedly when .
+It follows that , if summed in the Cesaro manner , index .
+This boundul sequence can by a known theorem be then integrated with respect term-by-tenm .
+of the of a Fourier Series .
+not be suoh an integral , then the first term approaches zero , as , provided the convergence be taken in any Cesaxo manner , index Thus only the second term needs consideration .
+But this differs from by a quantity which is nuinerically ) where V ( x ) is the total variation of , by a quantity which is as small as we please , being chosen sufficiently small .
+Thus ( jump at the origin ) , the convergence being in the Cesaro or ordinary manner , according as we have to do with Case 1 or Case 2 .
+This proves the theorem .
+S4 .
+The former of the two preceding theorems enables us to prove immediately that the derived series of the Fourier series of a function of bounded variation converges ; more generally it converges with any negative Cesaro type on the positive side of .
+The latter of our theorems gives us the corresponding theorem for the convergence of the allied series , involving the usual further condition .
+The two theorems also show that , when is an integral in every interval not containing the origin , the convergence is ) .
+In the second half of Theorems 1 and we may , both in the enunciation and in the proof , avoid the concept of function of bounded variation changing the condition that the function should have bounded variation into what is in our case the equivalent condition that the differeutial coefficient of the function should possess an absolutely convergent integral .
+We divide the interval at the point .
+We then have sin , for points of the completely open interval being by hypothesis an integral .
+Indeed the right-hand side having by hypothesis a unique finite limit when , the same is true of the left- *This follows from the fact that ri oscillates boundedly for , and the rest of the algument is same as for Theorem 1 .
+See a forthcoming paper by the author .
+Cesaro summability of negative integral indices has apparently been regarded as offering difficulties of at least an inconvenient character .
+In the theory of Fourier series this concept seems to me to be as indisas that of convergence .
+far as they relate to ordinary convergence of Prof W. H. YOUDg .
+On the Order of hand side , thus exists and is finite .
+Also by the same equation approaches this limit boundedly , since the right-hand side is numericaUy Again where the last is numerically which is as small as we being chosen conveniently small .
+Hence , as before , the required results at once follow .
+S5 .
+In the next two theorems the assumptions made render an absolutely convergent in every interval not containing the The following simple lemma is used in the proofs .
+LEMMA.\mdash ; If is an absolutely convergent integral in the interval ( ) oos prow.ded in tloe latter case , e.g. , if is an odd function represented Fourier series .
+We have in fact only to integrate by parts , and use the Tlieorem of , by which has the limit zero .
+We now have the following theorem:\mdash ; THEOREM \mdash ; If is even function , in a the origin is such that a funxtion of varia , and in the remaining part of the interval is cm absdntdy ( jonvergent integral , then the coefficients of the derived series of Fourier serips of to a unique limit , , If is the typical Fourier coefficient of , we have ( no ) the nts of a Founer Series .
+sin. o is the integral of , in the interval , for in this interval , not oontaining the origin , is bounded .
+Now if we write for , we have , A is the upper bound of in .
+Therefore certainly approaches zero as approaches zero , and therefore the same is true of being for the moment fixed .
+Thus the limit on the right of reduces Using the Lemma ( S5 ) , we have therefore , by ( 1 ) ( nx ) , ( 2 ) where and is therefore a bounded function of in the whole infinite interval ) .
+Now being an absolutely convergent in any finite interval , and a function of bounded variation , we may integrate by parts and write But as , except at , where its value remains zero , and the approach of to its limit is bounded .
+Thus by a known theorem in the theory of integration with respect to a fimction of bounded variation , thus Lt which proves the theorem .
+COR.an even , such that is a function of varrdion throughout the whole , then the theorem is true .
+The integrals in are Lebesgue integrals , since has an onvergent integral from to , and is continuous .
+Prof W. H. Young .
+On the Order of S7 .
+It will be noticed that , from and after the equation , in whtclS ffi absolutely convergent integral occurs , the proof consists merely in proving that this has the unique hmit .
+Neglecting quantities which vanish when increases indefinitely , this is the expression for the sum of terms of the Fourier se.ries of ; we might , therefore , have simply quoted Dirichlet 's results here , and omitted the rest of the proof .
+I preferred , however , to what is virtually a new proof of this theorem of Dirichlet 's .
+The proof of the following theorem has been written out slightly differently from that of the theorem .
+Had we pursued the same lines , would have taken the place of in the preceding in this sense , that we should have reduced the discussion to that of the absolutely convergent integral ) , and accordingly have proved that is effectively the sum of the first terms of the allied series of the Fourier series of .
+We have , accordingly , in the course of the following proof shown incidentally that the allied series of a function ff of bounded variation converges to , provided only this limit exists .
+This result had already been obtained by me by another method .
+* S8 .
+Analogous to the theorem of S6 , we have the following:\mdash ; THEOREM \mdash ; If is an odd having a definite limit as and such that , in a certain neighbourhood surrounding a function of bounded variation , while in the remaining part of the interval , itself an absolutely convergent integral , then the coefficients of the derived series of the Fourier series of converge to a limit , namely , In fact , writing for 2 , where , like , is an integer , and .
+( 2 ) ' ' Konvergenzbedingungen fur die verwandte Reihe einer en heihe ' Munchener Bericht , ' June 10 , 1911 .
+Magnituh of the of Fourier Series .
+Also .
+since is the of in the intsrval not containing .
+the origin , for in this interval is bounded .
+Here is a function of bounded variation .
+Putting so that is an integral , we may therefore integrate the last term of ( 3 ) by parts , and write This is numerically , where is the total variation of from to , and may therefore be put , where Hence , using the Lemma ( S5 ) , the -hand side of ( 3 ) differs from by a quantity which vanishes when , and differs therefore from by a quantity which vanishes when .
+Thus by ( 1 ) , ( 2 ) , and ( 3 ) .
+remains , as , numerically .
+But may be chosen as large as we please , therefore , 3 can have no other limit except zero , when .
+This proves the theorem .
+S9 .
+Always provided that we ensure the vanishing in the limit of the portion of our expression due to the interval in the Theorems 3 and 4 , the problem of the order of magnitude thus reduces to that of determining the conditions oi convergence of the Fourier series of and of its allied series .
+Corresponding to every known theorem regarding the convergence function must accordingly possess an absolutely convergent integral in : It be immediately cognised that this is the case in the theorems given below .
+Prof H. Young .
+On the Oroler of of such series , we have accordingly theorems relating to the order of magnitude of and With regard to the coefficient , it should be remarked that the extra condition for the convergence of the allied series , namely , the existence of the limit of a , reduces in the case of the , order of magnitude problems to the condition that should have a unique limit as Thus we have the following theorems which correspond to a test due to de la Vallee Poussin for the Fourier series , and my counterpart of it for the allied series .
+\mdash ; If is an even function , and such that in a certain neighbourhood surroundin origin of variation , whilj in every interval not containing the is itsdf an absolutely convergent integral , th.en .
+HEOREM \mdash ; If an odd function satisfying the same ) , and the further oorufiiion that exists , then .
+Again , corresponding to tests due to myself , which I have recently simplified , we have the theorems : THEOREM \mdash ; If is an even function , and such that in certain neighbourhood the origin whpre is , while in the remaining part of terval is itsdf an absolutety convergent integral , then , fhis limit being supposed to exist .
+THEOREM 8.\mdash ; If is an odd function , satisfying the same conditions as in satisfying the further conditim that Gveffi a fbumer Series .
+ions .
+of evidently render an absolutely oonvergent integral in every interval not containing the origin .
+Thus all that is necessary to ensure that the argumentemployed in and 4 , and explained in S7 , is applicable is to.show that , in all the theorems of the preeent article , to zero as In the cases of Theorems 5 and 6 we have and therefore , since and are both summable in the whole interval , by hesis , has a unique finite limit as this limit cannot be other than zero , for if it were , ) would in the neighbourhood of the origin be of the order , and therefore not summable from to whereas the Fourier series considered is that of , which is accordingly summable from to In the cases of Theorems 7 and 8 , is bounded and therefore possesses an absolutely convergent integral in .
+Also from the identity [ xf ] we deduce sinoe is an integral in .
+But each of the integrals on the right exists iu the whole interval , tbererore the right-hand side of the last equation has aunique finite limit as ; hence also t has a unique limit , which , as before , must be zero .
+S10 .
+It will be noticed that , in the next theorems , bounded functions have taken the place of the functions of bounded variation in Theorems 3 and 4 .
+That we could not formerly make this more general assumption is due to the fact that there is a sudden change as reaches zero when decreasing from unity .
+Otherwise the two theorems which follow are precisely analogous to Theorems 3 and 4 , and constitute , like them , very wide generalisations of the properties of the familiar simple series of cosines or sines .
+It should also be remarked that in this and in the following theorems up to Theorem 12 , we write the generalised condition of Lipschitz briefly .
+The notation must be interpreted to mean , being a quantity which has finite bounds independent of and When is a quantity as small as we please , which occurs , for example , if the quantity employed is not the smallest at our disposal ( e.g. , when there is no smallest ) we use in place of O. Prof. W. H. Young .
+On the Order of THEOliBM \mdash ; If is an even function a neighboufhood unding the origin is such that is boltnded fun ' a um'que limit as , and in the remaining part of nterval ( itself sati fies the condition of Lipschitz , then Moreover ; if in the Lipschitz condition be replaced S Let us put ) , where in the interval and is zero elsewhere .
+Then satisfies our condition of Lipschitz hout the whole interval .
+Therefore by 's result the theorem holds when for we substitute in the enunciation .
+Hence it is only necessary to prove that the theorem is true when for we substitute Now in the interval we have , and if , in the function is bounded , therefore we have where is the bounded function hypothecated in the enunciation .
+Therefore we may write nx tdt , since , where A is the upper bound of in ) , so that , and therefore also , for fixed , vanish as Now the interval of integration at the point 2 where is the upper bound of in ) .
+Letting increase definitely this term is therefore numerically , which is we please , if is chosen conveniently large .
+Magnotude the Ooefficimts of a Foutiet Series .
+AlSo o undedly , Thus finally , letting first and then inorease indefinitely , , which proves the theorem iu both its parts .
+S11 .
+Similarly we have the following theorem:\mdash ; TnEOREM \mdash ; If is an odd function , which in a surrounding the origin is a bounded function a unique limit as in the remaining part of the itself the condition of Lipschitz , , Moreover , if in the Lripschitz condition be repfaced by , then .
+It is , in fact , only necessary to follow the reasoning of the preceding article , taking the place of S12 .
+We now proceed to give other generalisations of the properties of simple sine and co.sine series referred to at the end of S7 .
+That we have convergence to zero due to the ct that whatever power of we take , there is no index which will make this just summable .
+On the other hand , if a smaller index is used than , the example of the simple sine and cosine series shows that we must get and not O. THEOREM \mdash ; If is an even , which is such is integrable ( summable ) and in the of tlve interval itself satisfies the condition of Lipsehitz , then Moreover , if in the Lipschitz le replaced In fact , writing ) for ; and , therefore , as in the preoeding article , as Prof. W. H. Young .
+On the Order of Thus we get , as in the proof of Theorem 3 , or rather in Theorems 5 , 7 , 9 , in accordance with the remarks of S9 , that the convergence of .
+is irtually the same as .
+of We now use the theorem of S8 , p. 439 of my paper " " On the Mode of Oscillation of a Fourier Series and of its Allied Series , \ldquo ; which tells us that this latter when divided by converges to zero .
+Hence divided by converges to zero , that is THEOREM \mdash ; If is an odd Jies the same conduions as in Theorem 11 , The argument is precisely the same as that used in proving Theorem 11 , except that takes the place of Reasoning precisely analogous to that employed in the article quoted at the end of the preceding proof leads to the same order of magnitude of this integral as of the other integral , as is , indeed , pointed out in the article quoted , this integral related to the allied series as the other is to the Fourier series . .
+In the next two theorems we use , instead of the condition of Lipschitz , the condition of Lipschitz-Dini , namely , the convergence being uniform for all values of , or as we shall for brevity write it .
+THEOREM \mdash ; If is even function , which in such that is bounded , in remaining part of itself satisfies the condition of Lipschitz-Dini , , then Further , if in addition a unique limit as , then that is 'Lond .
+Math. Soc. Proc Ser. 2 , vol. 12 .
+Magnilu\amp ; the COefficients of a Fourier Series .
+55 proof : of this theorem is precisely similar to that of Theorem 9 , using corresponding result of and S 3 , p. 436 of my paper\ldquo ; On the Mode of Oscillation of a Fourier Series and of its Allied Series TnmRB)\mdash ; If is an odd function , ing the same conditions as and if , in has a unique finite limit as , then Here , again , .
+laces in the part of the integral considered due to the interval [ Added December , 1916.\mdash ; In a communication made to the Societe Helvetique , in August , entitled " " Sur les integrales multiples et les series de Fourier I remarked that I had occupied myself with the extension to multiple Fourier series of results obtained by myself and others with respect to Fourier series of a single variable , and that I had as yet not found any which did not hold mutatis mutandis in the general case .
+This is also true of the results of the present paper .
+] .
+cit. , S 1 supra .
+

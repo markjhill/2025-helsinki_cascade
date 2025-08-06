@@ -1,0 +1,114 @@
+Researches on the Partition of Numbers .
+By ARTHUR CAYLEY , Esq. Received April 14 , -Read May 3 and 10 , 1855 .
+I PROPOSE to discuss the following problem : " To find in how many ways a number q can be made up of the elements a , b , c,. .
+each element being repeatable an indefinite number of times .
+" The required number of partitions is represented by the notation P(a , b , c,..)q , and we have , as is well known , P(a , b , c,..)q =coefficient xq in ( 1-)(1_^b)(l _e). .
+where the expansion is to be effected in ascending powers of x. It may be as well to remark that each element is to be considered as a separate and distinct element , notwithstanding any equalities which may exist between the numbers a , b , c,. .
+; thus , although a=b , yet a+a+a+ &amp;c. and a+a+b+ &amp;c. are to be considered as two different partitions of the number q , and so in all similar cases .
+The solution of the problem is thus seen to depend upon the theory , to which I now proceed , of the expansion of algebraical fractions .
+Consider an algebraical fraction p , where the denominator is the product of any number of factors ( the same or different ) of the form 1--x .
+Suppose in general that [ 1 -x ] denotes the irreducible factor of 1 -- , i. e. the factor which , equated to zero , gives the prime roots of the equation 1 -x 0 .
+We have 1-xm=HI[I -xm~ ] , where m ' denotes any divisor whatever of m ( unity and the number m itself not excluded ) .
+Hence , if a represent a divisor of one or more of the indices m , and k be the number of the indices of which a is a divisor , we have fx=_H[1 xa]k Now considering apart from the others one of the multiple factors [ 1 -xa ] , we may writefx= [ 1 xa]k x. Suppose that the fraction is decomposed into simpler fractions , in the form ~x___ -I(x ) Ox OlX k-1x + ( ?
+a)l _ +I ( Xa ] -2+ ( x. .
++ _X + &amp; C. , s 2 where I(x ) denotes the integlal part , and the &amp;c. refers to the fractional terms depending upon the other multiple factors , such as [ -xa]k .
+The functions Ox are to be considered as functions with indeterminate coefficients , the degree of each such function being inferior by unity to that of the corresponding denominator ; and it is proper to remark that the number of the indetermninate coefficients in all the functions Ox together is equal to the degree of the denominatorfx .
+Ox The term ( xb')k-1 [ l _ ] may be reduced to the form [ __xa]k+ [ 1_a]k_1 + &amp; C. , the functions gx being of the same degree as Ox , and the coefficients of these functions being linearly connected with those of the function Ox. The first of the foregoing terms is the only temiii on the right-hand side which contains the denominator [ 1xa]k ; hence , multiplying by this denominator and then writing [ I -x ] =0 , we find which is true when x is any root whatever of the equation [ 1-xa ] =0 .
+Now by means of the equation [ 1 xa ] =o , Jf may be expressed in the form of a rational and integral function Gx , the degree of which is less by unity than that of L1 -xa ] .
+We have therefore Gx=gx , an equation which is satisfied by each rloot of [ 1xa]=O , and which is therefore an identical equation ; gx is thus determined , and the coefficients of Ox being linear functions of those of gx , the function Ox may be considered as determined .
+And this being so , the function f-x [ ix will be a fraction the denominator of which does not contain any power of [ 1--xa ] higher than [ 1--a]k- ' ; and therefore O1x can be found in the same way as Ox , and similarly 02x , and so on .
+And the fractional parts being determined , the integral part may be found by subtracting from fthe suhn of the fractional parts , so that the fx fraction &lt; L can by a direct process be decomposed in the above-mentioned form .
+Particular terms in the decotnposition of certain fractions may be obtained with great facility .
+Thus m being a prime number , assume 1E _J Ox ( 1 -2 ) ( 1 X3)..(1 --m ) &amp;c. + [ 1 then observing that ( l--m)-(--x)[L-m ] , we have for [ 1-x ] =O , Ox=(1--x)(1--xe). .
+( 1-xm- ' ) Now u being any quantity whatever and x being aroot of[1 -m ] =0O , we have identically [ 1 -m =-(U ) ( --2). .
+( U --xm-1 ) ; and therefore putting u-== , we have m=(l--x)(l-x2)..(l--x " ) , and therefore whence ( i-~Z~q(l--~S)~.( 1 _+rn)= &amp;c. + , [ 1-xmr ( 1-X2 ) ( 1-X). .
+Xm(1-m ) m [ 1-xa ] Again , m being as before a prime number , assume 1 Ox ( 1_x)(^l_xa)..(l_x ) + &amp; C. + 1_x we have in this case for [ 1_-x ] =O , ox= 1= ( 1-x)2(1 -2)..(1_--1 ) ' which is immediately reduced to Ox=m_ Now m 1-x ' [ 1--um ] [ 1 --U ] [ 1 --:xm ] [ I -U L* [ I [ I-(1 ]-uq U+ U--1U..-+- ' u-3)x. .
+( 1 + +"U ) x-3+x , -2 ; or putting u=i , m 1_=-m-m2x..+xm-2 ; and substituting this in the value of Ox , we find 11 ( m-l ) +(m-2)x. .
++ m-2 ( i _ ) ( _1 -_). .
+( 1 m)- ) &amp; C. +-2 t [ l xm ] The preceding decomposition of the fraction fgives very readily the expansion of the fraction in ascending powers of x. For , consider a fraction such as Ox [ l -a ] ' where the degree of the numerator is in general less by unity than that of the denominator ; we have 1x= [ 1]H[1ia ] , where a ' denotes any divisor of a ( including unity , but not including the number a itself ) .
+The fraction may therefore be written under the form OxU [ 1-X ' ] 1-x ' where the degree of the numerator is in general less by unity than that of the denominator , i. e. is equal to a-I .
+Suppose that b is any divisor of a ( including unity , but not including the number a itself ) , then 1-x6 is a divisor of ICI l--x ] , and therefore of the numerator of the fraction .
+Hence representing this numerator by Ao+Alx ... -Aa_lxa-l , and putting a=bc , we have ( corresponding to the case b= 1 ) Ao+A +A2 ... +Aa_,0 , and generally for the divisor b , AO+Ab ... +A(c_ , =0 Ai+Ab+l. .
++A(_ )bil =0 Ab+ A2b-. .
++Acb-=0 .
+Suppose now that aq denotes a circulating element to the period a , i. e. write aq=l1 q=0 ( mod .
+a ) aq=O in every other case .
+A function such as Aoaq-Alaq_l ... +A_a-aq- , will be a circulating function , or circulator to the period a , and may be represented by the notation ( A0 , A , , ... Aa_i ) circlor aq .
+In the case however where the coefficients A satisfy , for each divisor b of the number a , the above-mentioned equations , the circulating function is what I call a prime circulator , and I represent it by the notation ( Ao , A1,..Aa_ ) per a. By means of this notation we have at once Ox coefficient Xq in [ ixa ] = ( Ao , A,..Aa_ , ) pr aq , and thence also Ox coefficient X in ( xb , ) [ lt_x ] =q(Ao , Ai..A , _a ) per a , .
+fx Hence assuming that in the fiaction ff the degree of the numrnerator is less than that of the denominator ( so that there is not any integral part ) , we have coefficient Xq in =2 q"(A0 , A , ... Aa_ , ) per aq ; or , if we wish to put in evidence the non-circulating part arising from the divisor a= 1 , coefficient Xq in f A-Aqk+Bq*- ... +Lq+M -+2 : qr(A0 , A ... Aa_ , ) per a ; where k denotes the number of the factors 1 -xm in the denominator fx , a is any divisor ( unity excluded ) of one or more of the indices m ; and for each value of are extends from r-0 to r=k--l , where k denotes the number of indices m of which a is a divisor .
+The particular results previously obtained show , that m being a prime number , coefficient Xq in ( 1 _21_ ) ( _ ) &amp;c. + ( , l , -1 , 0 , ,. .
+) per q , and coefficient xq in ( 1 _)(2 ) ( 1 )= &amp;c. +--(m1 , -1. .
+) per m , .
+Suppose , as before , that the degree of px is less than that offx , and let the analytical expression above obtained for the coefficient of xq in the expansion in ascending powers of x of the fraction fbe represented by Fq , it is very remarkable that if we eff expand fw in descending powers of x , then the coefficient of zq in this new expansion ( q is here of course negative , since the expansion contains only negative powers of x ) is precisely equal to Fq ; this is in fact at once seen to be the case with respect to each of the partial fractions into which fx has been decomposed , and it is consequently the case with respect to the fraction itself .
+This gives rise to a result of some importance .
+Suppose that px andfx are respectively of the degrees N and D ; it is clear from the form offx that we havef( ) =(-)DX-DfX ; and I suppose that px is also such that @ =(+ ) )x-N~x ; then writing D--N=h , and supposing that Lx is expanded in descending powers of x , so that the coefficient of xq in the expansion is -Fq , it is in the first place clear that the expansion will commence with the term x-h , and we must therefore have Fq=0 for all values of q from q= --to q=--(h--1 ) .
+Consider next the coefficient of a term x--q , wheire q is 0 or positive ; the coefficient in question , the value of which is -F(-h--q ) , is obviously equal to the coefficient 1 of hi the expansion in ascending poes of of e.to ( X ) ( ?
+)N(-)D coefficient x"+ in -for what is the same thing , to ( ?
+)N(-)D coefficient xq in f ; and we have therefore , q being zero or positive , F(-h--q ) -(+)N(-)DFq .
+In particular , when ~x= 1 , Fq=0O * The property is a fundamental one in the general theory of developments .
+for all values of q from q-=-1 to q--(D--1 ) ; and q being 0 or positive , F(-D-q)=(--)"-DFq .
+The preceding investigations show the general form of the function P(a , b , c,..)q , viz. that P(a , b , c,..)q=Aq-+Bq.+Lq+M+ q(A , , A,. .
+A_1 ) per lq , a formula in which k denotes the number of the elements a , b , c,. .
+&amp;c. , and I is any divisor ( unity excluded ) of one or more of these eletents ; the summation in the case of eactl such divisor extends from r=O to r=kI where k is the number of the elements a , b , c , ... &amp;c. of which I is a divisor ; and the investigations indicate how the values of the coefficients A of the prime circulators are to be obtained .
+It has been moreover in effect shown , that if D=a+b+c+. .
+, then , writing for shortness P(q ) instead of P(a , b , c,..)q , we have P(q)=O for all values of q from q= 1 to q=-(D-1 ) , and that q being 0 or positive , P(-D-)_(-)D-1 P(q ) these last theorems are however uninterpretable in the theory of partitions , and they apply only to the analytical expression for P(q ) .
+I have calculated the following particular results : P(1 , 2)q =-2q+3 +(1 1 , -1 ) p eer 2 P(l ) 2 , 3)q =2{6q2+36q+47 +9(1 , -1 ) per2q +8(2 , -,1 ) pc 3q } P(1 , 2 , 3 .
+4)q =8{2q3+30q2+135q+175 +(9q+45)(1 , -1 ) per2 , +32 ( 1 , ,-1 ) per3q +36 ( 1,0 , -1,0 ) per 4q P(i , 2 , 3 , 4 , 5)q-=8 { 3Oq+900q'+9300q2+38250q+50651 +(1350q+10125 ) ( 1 , -- ) per2 , +3200 ( 2 -1 , - ) per 3q +5400 ( l , , , - , ) per4q +3456(4 , -1 , 1 , -1 , - ) per 5q } P(2)q =p{ } +(1 , -l)pecr2q 3)q =2{2q +5 +3 ( 1 , -1)per2q +4(1 , -1 , 0 ) per 3q } P(2 , 3 , 4)q =2{6q2+54q+107 +(18q+81)(1,1 ) per2 +32 ( 2 , -1,1 ) per3 +36 ( 1 , ,-1,1 ) per 4q } P(2 , 3 , 4 , 5)q =i440{2q3+42q2+267q+497 +(45q+315)(1 , --1 ) per 2 +160 ( 1 , -1 , 0 ) per 3 , + 180 ( 1,0 , -1 , 0 ) per 4q +288 ( 1 , -1 , , 000 ) per 5 , } P(2 , 3 , 4 , 5 , 6)q=17oo{10q4+400+q3+5550q2+31000q+56877 +(450q2+9000q+39075)(1 , -1 ) per 2q +3200q ( 1 , -1,0 ) per 3 , + 1600 ( 21 , -19 , -2 ) per 3 +10800 ( 1,0 , -1 , 0 ) per 4q +6912 ( 4 , -1 , -1 , -i , -1 ) perSq +4800 ( 1 , -1 , -2 , -1 , 1,2 ) per 6 , P(1 , 2 , 3 , )q = { 4q9+66q2+324q+451 +45 ( 1 , -1 ) per2q +80 ( 1 , -1 , 0 ) pr 3q + 144(1,0,0 , 0 , -1 ) per 5q , P(l , 2 22 , 3 , 4)q-=6 6q 4+144q3+1194q2+3960q+4267 +(54q +648q+ 1701)(1 , 1 ) per 2 +256 ( 2 , - , --1 ) per 3 +432 ( 1,0 , -1,0 ) peCr 4q P(8)q +1 ( 1 , -1 ) per2 +2 ( 1,0 , -1,0 ) per 4 +8(1,0 , ,0 , -1,0,0,0 ) per 8q MDCCCLVI .
+T~~~~ 133 8)q=-12{2q+43 +7 ( 1 , 1 ) pcer2 +14 ( 1 , -1 , -1 , 1 ) per4q + 16 ( 3,2 , 1,0 , , -2 , -3 ) per 7 , +56(0 , - ] , -1 , 0 , 0 , 1 , 0 ) per 8S , which are , I think , worth preserving .
+Received April 14 , -Read May 3 and 10 , 1855 .
+I proceed to discuss the following problem : " To find in how many ways a number q can be made up as a sum of m tenrs with the elements 0 , 1 , 2,..k , each element being repeatable an indefinite number of times .
+" The required number of partitions is represented by P(0 , 1 , 2,..k)mq , and the number of partitions of q less the numbeL of partitions of q-1is represented by P'(0 , 1 , 2,..k)mq .
+We have , as is well known , P(0 , 1 , 2,..k)"q= coefficient xq2m in ( _ where the expansion is to be effected in ascending powers of z. Now 1 .
+1 --xk+1 ( 1-xk+ ' ) ( 1-x"C+2 ) =1 -z+ ( _= ) Z2+ &amp; c 1 -i XL ^I ^11 ( I_ ___ 1 2 ) 2 .
+_ ( l_z(l^xz).._xkZ)-- ' 1--z(_x)(l_xr ) -+ &amp; the general term being ( 1 --xk+ )(1 _-Xk 2). .
+( 1-7+m)n ( - ) ( t-2). .
+( 1- ) z , or , what is the same thing , ( 1 -x'+l ) ( l1 -m+2). .
+( 1-Xm+k ) ( l--)(1-~2)..(l'k ) Xk and consequently ( 1-Xnm+l)(1._xm+2 ) ( _Xm+k ) P(O , 1 , 2,..k)mq= coefficient xq in ( 1x ( 1_)( _x2)(1.+ ) to transform this expression I make use of the equation ~(1--Z(1l r-2 , )..(1--xkZ ) .
+I_x(1-xk ) 3(1--xk)(l -xk-i ) ( i+ X)(i+X Z)..(l +XkZ)= ] +( + 1-Z + ( 1-)(1-~ ) + &amp; Ce .
+, where the general terrn is x~+S( ( 1 -X ) ( 1 Xk-x 1 ) .
+( 1 k-s+ 1)z .
+( i ) ( 1 --2). .
+( 1- ) , ) and the series is a finite one , the last term being that corresponding to s=k , viz. xtk(k+')zk .
+Writing -xm for z , and substituting the resulting value of ( 1 --XM+1)(1 _X+2)..(1 _xm)k ) in the formula for P(O , 1 , 2,..k)mq , we have r Xsmn+s .
+s+ 1 P(O , 1 , 2,..k)rmq= ( -)s coefficient x " in ( l_)(_).(_ S ) where the summation extends from s= 0 to s=k ; but if for any value of s between these limits sm+s(s+ 1 ) becomes greater than q , then it is clear that the summation need only be extended from s=O to the last preceding value of s , or what is the same thing , from s=0O to the greatest value ouf s , for which q-sms(s+- ) is positive or zero .
+It is obvious , that if q &gt; km , then P(0 , 1 , 2..k)mq=0 ; and moreover , that if d -1 &gt; kmn , then P(0 , 1 , 2,..k)m= P(O , 1 , 2. .
+k)m.km- , so that we may always suppose q lJ3km .
+I write therefore q=-(km--i ) where a is zero or a positive integer not greater than km , and is even or odd according as km is even or odd .
+Substituting this value of q and making a slight change in the form of the result , we have f yoa+is.se l +'I P(0 , 1 , 2..k)m ( km--)-= ( -)s coef .
+x(k-s)m in ( _-_ 2(__1 )where the summation extends from s==0 to the greatest value of s , for which ( -k-s)m-1-s(s+ - ) is positive or zero .
+But we may , if we please , consider the summation as extending , when k is even , from s=0 to s=-lk-1 , and when k is odd , from s-=0 to s= ( k-1 ) , the terms corresponding to values of s greater than the greatest value for which ( lk-s)m-1 --Ps(s+1 ) is positive or zero , being of course equal to zero .
+It may be noticed , that the fraction will be a proper one if &lt; ( ( k--s)(k-s+1 ) ; or substituting for s its greatest value , the fraction will be a proper one for all values of s , if , when k is even , &lt; k(k2 , and when k is odd aC &lt; 1(k+1)( t3 ) .
+We have in a simtilar manner , I-x P'(0 , 1 , 2 ... k)"q = coefficient xqzm iri ( 1--)(-xz)..(1-xz ) which leads to P'(0 , 1,2. .
+k)~m}(kim-- .
+) = , { ( - ) coeff. ( k-m in _ ( 1 - ) ( ) ( 1 ) where the surnmmation extends , as in the former case , from s=O to the greatest value of s , for which ( Ik-s-)m -1-s(s+ 1 ) is positive or zero , or , if we please , when k is even , from s=0 to s=^k-1 , and when s is odd , from s=0 to s=}-(k-1 ) .
+Th condition , in order that the fraction may be a proper one for all values of s , is , when k is even , +1 &lt; -k(k+2 ) , and when k is odd , c+ 1 &lt; ( k+ 1)(k+3 ) .
+T2 135 To transform the preceding expressions , I write when k is odd x2 instead of x , and I put for shortness 0 instead of lk-.s or 2(1-k-s ) , and y instead of Cv+s(s+1 ) or oS+s(s+1 ) ; we have to consider an expression of the form x ' coefficient x0 " in where Fx is the product of factors of the form I-xa .
+Suppose that a ' is the least common multiple of a and 0 , then ( 1 xa ) +(1l ) is an integral function of a , equal Zx suppose , and 1 -(1 -xa)=Zx-(1--xa ' ) .
+Making this change in all the factors of Fx which require it ( i. e. in all the factors except those in which a is a multiple of 0 ) , the general term becomes coefficient XOm in yHx , Gx where Gx is a product of factors of the form I _-xaa in which a ' is a multiple of O , i. e. Gx is a rational and integral function of xe .
+But in the numerator xvHx we may reject , as not contributing to the formation of the coefficient of XOm , all the terms in which the indices are not multiples of 0 ; the numerator is thus reduced to a rational and integral function of xe , and the general te , rm is therefore of the form coefficient x ?
+m in ( V- ) or what is the same thing , of the form coefficient x " ' in xx Where zx is the product of factors of the form 1 -x8 , and ?
+x is a rational and integral function of x , the particular value of the fraction depends on the value of s ; and uniting the different terms , we have an expression XT coefficient xmin S , ( -- ) which is equivalent to coefficient xz " in - , wherefx is a product of factors of the form 1 -a , and px is a rational and integral function of x. And it is clear that the fiaction will be a proper one when each of the fiactions in the original expression is a proper fraction , i. e. in the case of P(O , 1,2..k)ml(km-ac ) , when fork even a &lt; -k(k+2 ) , and for kodd a &lt; ( k+1)(k+3 ) ; and in the case of P'(O , 1 , 2. .
+k)m(km- ) , wthen kn for k even +1 &lt; -k(k+2 ) , and for k odd +l &lt; i(k+ 1)(k-+3 ) .
+We see , therefore , that P(O , 1,2. .
+k)m c ( kr--o ) ) , and P ( 0 , 1 , 2. .
+k)m ( km-a ) , are each of them of the form coefficient xm in f , r J^ 136 wherefx is the product of factors of the form l--x , and up to certain limiting values fx of a the fraction is a proper fraction .
+When the fraction is known , we may therefore obtain by the method employed in the former part of this Memoir , analytical expressions ( involving prime circulators ) for the functions P and P. As an example , take P(O , 1,2 , 3)"m3m , which is equal to coefficient xm in ( ( 4)(_6 ) -coefficient xmin ( 1x2)(l2)(1 4 ) The multiplier for the first fraction is ( 1--6)(1-x12 ) ( 1 -2 ) ( -4 ) which is equal to 1 +x2+2X4+x6+2x8+xlo+'Xl2 .
+Hence , rejecting in the numerator the terms the indices of which are not divisible by 3 , the first term becomes 1+ X6 + x12 coefficient xM in ( 1-x)(1 -2)(L 6 ) or what is the same thing , the first term is 1+ XI + X4 coefficient xm in ( 1 _X2)(l _X and the second term being -coefficient xm in ( 12(i 4 ) ( 1 -X2)2(1--xI ) ' 1 3-ee x4 we have P(0 , 1,2 , 3)m3m=coefficient xmin ( _)2(l_X4 ) And similarly it may be shown , that P(O , 1,2 , 3)m1(3m-1 ) =coefficient xm in ( l_)a(_4 ) As another example , take P'(O , 1 , 2 , 3 , 4 , 5)m , which is equal to coefficient x 'm in ( _x4)(_ _ ) -coefficient x3 in ( 1- ) ( 1 _4 ) ( 1 _l _8 ) 356 +coefficient xm in ( 1_X2)(1_x4)(i_X4)(1I_ 6The multiplier for the first fraction is ( 1 x0 ) ( 1 x30 ) ( 1 -40 ) ( 1X4).(1 _6 ) ( l _ x8 ) .
+137 which is a function of x of the order 36 , the coefficients of which are 1,0 , 1 , 1 , 2 , 1 , 3 , 2 , 4 , 3,4 , 4 , 6,4,6 , 5 , 7 , 5,7 , 5 , 75 , 6 , 4 , 6 , 43 , 4 , 2 , 3 , 1 2 , 11,0 , 1 , and the first part becomes therefore .
+f. 1~+e+4X4+5x6+ 78+4x10+3x12 coefficient x in 1 ?
++(_ 4 ? ?
+6)(_7 )(-4 X The multiplier for the second fraction is ( 1 6 ) ( 1 x12 ) ( 1 24 ) ( 1-:2)(1-'x ) ( 1 X-8 ) ' which is a function of x2 of the order 14 , the coefficients of which are,1 , 2,1 , 3 , 2 , 3 , 1 , 3 , 2 , 3 , 1,2 , 1 , 1 ; and the second term becomes 22 " 224 +x6+ X+8 + X10 -coefficient l in ( 1 l_)(1_x4.)(.1- ) ; X6 and the third term is coefficient xm in ( 1-2.j ( i4)2(1Now the fractions may be reduced to a common denominator ( 1_X2)(1-_X4)(1 X)(1 -x8 ) -_6 by multiplying the terms of the second fraction by ( -1 l+x+X4 ) , and the terms of the third fraction by 14(=1+ x 4 ) ; perfortming the operations and adding , the numerator and denominator of the resulting fraction will each of them contain the factor l--x2 ; and casting this out , we find P(0 , , 2 , 3,4 , 5)m5-m=coefficient x in _--Zj(1 _X6)(+ _I have calculated by this method several other particular cases , which are given in my " ' Second Memoir upon Quantics ; " the present researches were in fact made for the sake of their application to that theory .
+Received April 20 , -Read May 3 and 10 , 1855 .
+Since the preceding portions of the present Memoir were written , Mr. SYLVESTER has communicated to me a remarkable theorem which has led me to the following additional investigations* .
+Let , be a rational fraction , and let ( x-x)k be a factor of the denominator fx , f\ then if denote the portion which is made up of the simple fractions having powets of x-x , for their denomninators , we have by a known theorem txf = coefficientin ( x+z ) 1rAL , Xz X-x -z ( xl+ ) ' Now by a theorem of JAcoBI 's and CAUCHY'S , coefficient in Fz= coefficient t in F(40t)4t ; whence , writing x-+z-=xle-t , we have { x= coefficient in ' ( e T , X xI coef-fici XI -xet f(xe-t ) ' Now putting for a moment x=x , e0 , we have _1_111 -xet -X(_ o +t ) -X(1 -e ) o0 1(l -e0)+ .
+and bo=xb , whence 11t1121 xit xe -xi 1 x11 XI + ... , the general term of which is Is-l A( ) ( x3 , ) 1_Hence representing the general term of xlI(xle-t ) ( xle-t ) by %x1t-$ , so that 4l X*i(Xle-t ) xxi= coefficient in t -fP1e- ) t f(xle-t ) we find , writing down only the general term pxl ''_ ' +(1 .
+where the value of yxi depends upon that of s , and where s extends from s=1 to s=k .
+Suppose now that the denominator is made up of factors ( the same or different ) of the form 1--xm .
+And let a be any divisor of one or more of the indices m , and let k be the number of the indices of which a is a divisor .
+The denominator contains the divisor [ 1Ix]k , and consequently if g be any root of the equation [ l-x ] =0 , the denominator contains the factor ( g-x)k .
+Hence writing g for xl and taking the sum with respect to all the roots of the equation [ 1-a ] =0 , we find = ... + _ ) ... .
++ I(s-1 ) ( s a)[ ] + .
+, 1 Ox hrc i n(st i ( e ) al[ where g=coefficient in P-I t f(ge ) and as before s extends from s=l to s=k .
+We have thus the actual value of the function Ox made use of in the memoir .
+A preceding formula gives f1 I *1 ( e-t ) if= coefficient in 1et ( e- ) which is a very simple expression for the non-circulating part of the fraction f , This is , in fact , Mr. SYLVESTER'S theorem above referred to .
+

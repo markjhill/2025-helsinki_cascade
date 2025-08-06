@@ -1,0 +1,59 @@
+XIV .
+" On the Enumeration of x-edra having an ( x1)-gonal Face , and all their Summits Triedral .
+" By the Rev. THoMAS P. KIRKMAN , A.M. , Rector of Croft-with-Southworth .
+Communicated by A. CAYLEY , Esq. , F.R.S. Received June 13 , 1855 .
+The object of the paper is to enumerate the x-edra which have an ( x-l)-gonal face , and all their summits triedral ; or , what is the same thing , to find the number of the x-acra which have an ( x1)edral summit , and all their faces triangular .
+Every x-edron having an ( x-l)-gonal face has at least two triangular faces .
+Let A be an x-edron having all its summits triedral , and having about its ( x--l)-gonal face k triangular faces .
+Suppose all these triangles to become infinitely small ; there arises an ( x-k)edron B , having an ( x-k-l)-gonal face , and all its summits triedral .
+B will have k ' triangular faces , k ' being not less than two , nor greater than k. And there is no other ( x-k)-edron but B , which can arise from the vanishing of all the k triangles of A ; i. e. there is no ( x-k)-edron but B , from which A can be cut by removing k of the summits of B in such a way as to leave none of its k ' triangles untouched .
+If we next suppose the kt triangles of B to vanish , there will arise an ( x-k-kt)-edron C , having an ( x-k-k'-1)-gonal face , all its summits triedral , and k " triangular faces , klf not &lt; 2 , nor &gt; kt .
+And thus we shall at last reduce our x-edron , either to a tetraedron , or to a pentaedron having triedral summits .
+All x-edra here considered fall into six varieties , differing in the sequence of the x-1 faces that are collateral with the ( x1)-gonal lase .
+They are either irreversible , as the octaedron 6435443 , the seven faces about the base reading differently both backwards and forwards from every face ; or doubly irreversible , as the heptaedron 543543 , whose six faces about the base are a repetition of an irreversible period of three ; or triply irreversible , as the decaedron 643643643 , whose faces exhibit a thrice-repeated irreversible period ; or they are reversible , doubly reversible , or triply reversible , as the hexaedron 53443 , the enneaedron 63536353 , or the heptaedron 535353 , exhibiting a1 single , double , or triple period , all reading backwards and forwards the same .
+If P , be the number of x-edra having an ( --l)-gonal base , and all their summits triedral , P =I , , + I+ I } 3+ R-+ R2I+ R3 , the symbols on the right denoting the numbers of x-edra of the six varieties that make up P_ .
+Each variety is again subdivided according to the number of triangular faces .
+Thus , if P(x , k ) denote the number of '-edra on an ( x-l)-gonal base , having k triangular faces , and all their summits triedral , PI(x , k)=I( , k ) + I(x , k ) + 13(x , k)+ R(x , k)+ R2(x , k ) + R3(x( , k ) .
+^_ I T'he number k is not &lt; 2 , nor &gt; - , and P , = ZP(x , k ) , for all values of k. It is necessary to solve the following Problem.--To determine the number of ( ex+ k+l)-edra , none of which shall be the reflected image of another , that can be made from any , x-edron having k triangular faces , by removing k+1 of its base-summits , thus adding k+l triangular faces , so that none of its k triangular faces shall remain uncut .
+The x-edron is supposed to have an ( x-1l)-gonal face , and all its summits triedral ; no edge is to be removed , and k +l not &gt; x-l1 .
+When the x-edron , the subject of operation , is irreversible , all the resulting ( x+k+l)-edra will be irreversible .
+If it is reversible , some of them will be reversible and others irreversible ; if it is multiple , some of them will be , and others will not be , multiple .
+If the subject of operation is irreversible , the number required by the problem is take , e f , k ~ale ofanot g t-r tn the l of k and 1 ; i'e li( are , l)-^ a2-(-1 1 ) .
+2 ---1 .
+r-- ; , I --a not &lt; 0 '0 i+ o I-ala taken for all values of a not greater than the least of k and I ; i. e. k-a not &lt; 0 , 0 not &gt; l--a .
+The complete answer to the problem is expressed by the following equations , in which , of the capitals on the left , the first expresses the result , and the second the subject of operation .
+That is , IR2'( : , k , 1 ) denotes the number of irreversible ( x +k I)-edra having k-+ 1 triangular faces about the ( x.+ k-1l)-gonal base , that can be cut from any doubly reversible x-edron having k triangles about its ( xz-l)-gonal base .
+Whenever k or I in the function ii(x , k , 1 ) is not integer , the function , by a geometrical necessity , is to be considered =0 .
+Il(x , k , 1)=ii(x , k , t ) , IP2(2x 1 , 2k , 1 ) = g-{ii(2 + 1 , 2k , 1 ) -ii(x 1 , k , -I ) } , I3(3x + 1 , 3k , 1 ) = ?
+{ ii(3x +1 , 3k , 1)ii( + 1 , k , , ) } , I22(2x 1 , 2k , 1)=ii(x+ 1 , k , I1 ) , I31(3x+ 1 , 3k , 1 ) =ii(x + 1 , k , il ) ; RR(2x+ 1 , 2k , l)=ii(+ 1 , k , k/ ) , RR(2x-1 , 2+ 1 , 1)=ii(x , k , -(12 ) ) RR(2xz , 2k , 1 ) =ii(x , k , -1 ) + ii( , k , 1(11 ) ) ; IR(2x + 1 , 2k , l)=-{ii(2 +1 , 2k , 1)-ii(x + 1 , , k , J ) } , IR(2x+ 1 , 2k 1 , 1 ) ={ ii(2x + 1 , 2k+ 1 , 1 ) --ii( , k , -(12 ) ) } R2R2(4x+ 1 , 4k , 1)-iir ? ?
+1 , kJJ ) , IR(2x , 2k , 1 ) .
+)ii(2x , 2k , t)ii(x , k , I)--iix , k , ( l-1 ) ) } R2RI ( 4x+ 1 , 4k , ) =ii(x + 1 , k , 1 ) , I2R2(4 + 1 , 4k , l ) -ii(2x + 1 , 2k , 21 ) ii({ +1 , k , -Z1 ) } , RR2(4x + 1 , 4k , 1)=ii(2a+ 1 , 2k , - ) ii(x+ 1 , , k 1 ) , IR2(4+ 1 , 4k , 1)=t[ii(4 + 1 , 4k , 1)+ 2ii(x +1 k , I1 ) -3ii(2x+ 1,2k , ?
+/ ) ] ; RRa(6C + 1 , 6k , 1)=ii(x + 1 , k , 41 ) , R3R3(7 , 3 , 3)= 1 , 133W(6x + 1 , 6k , = ?
+{ ii(21x+ 1 , 2k , 11 ) ii(x+ 1 , k , 1/ )}j RR3(6x+ 1,6k , )ii(3+ 1,3k , 1)-ii(x+ 1 , k , kl ) , RR3(7,3,1)=2 , IR3(6+ 1 , k , 1)=-{ii(6x+ , 6k , 1)+3ii(x +1 , k , -1 ) -ii(2x + 1 , 2k , 1)3ii(3x+ , 3k , t ) ) , IR3(7 , 3 , 2)=IR3(7 , 3 , 1)=IR3(7 , 3 , 0)= 1 ; IRl n(x+I 1 , k , x-k)=O .
+By the aid of the above , together with the following , equations , the ( x +k+l)-edra having k+ triangular faces , an ( xk +k-1 ) gonal base and triedral summits , are successively found .
+I(x+k+l , k+)=z{I(x +k ' ) .
+II(x , kt , t)+ I2(x , k ' ) .
+I2 ( x , k ' , l ' ) + I3 ( x , k ' ) .
+II3 ( x , k^ , l1 ) +R ( x , kf ) .
+IR ( x , kt , Il ) R2(x , k ' ) .
+IR2(x , 2 , 1t ) + R3(x , k ) .
+IR3(x , k ' , t ) } ; &amp;c. &amp;c. taken for all values of +kt ' 1t k 1 .
+Similar equations are to be formed for the remaining five subdivisions of P(x +k+ l , k+ 1 ) .
+Of the products under ; , the first factors are found by the preceding part of the process , and the second are given by the equations above written as solutions of the problem .
+The factors will of course frequently be zeros .
+Finally , if x =cx k+ 1 , P k+-= P=P( ' , 2 ) + P(x ' , 3 ) + ... .+ P(x ' , I(x ' ) ) .
+Thus , to give an example , P , =P(11 , 2)+P(11 , 3 ) + P(11 , 4 ) + P(11 , 5 ) I=(11 , 2)+ 1(11 , 3 ) +1(11,4)+(1(11 , 5)=0 ) + 2(11 , 2)+ 2( 11 , 4 ) +R(l1 , 2)+ R(1 , 3)+R(11 , 4 ) +R(11 , 5 ) .
+1(11 , 2)=12(9 , 2 ) .
+I2(9 , 2 , 0)+I1(9 , 2 ) .
+11(9 , 2 , 0 ) ; I(11 , 3)=I(8 , 2).II(8 , 2 , l ) + R(8 , 2).IR(8 , 2,1 ) + ( 8 , 3).1(8,3,0 ) ; 1(11,4)=12(7 , 2 ) .
+112(7 , 2 , 2 ) +R(7 , 2 ) .
+IR(7 , 2 , 2 ) + R3(7 , 3 ) .
+IR3(7 , 3 , 1 ) ; 12(11 , 2)=1I(9 , 2 ) .
+12(9 , 2 , 0 ) ; 12(11 , 4)=12(7 , 2).122(7 , 2 , 2 ) ; R(11 , 2)=R(9 , 2 ) .
+RR(9 , 2 , 0 ) ; R(1 , 3)=R(8 , 2 ) .
+RR(8,2 , 1 ) ; R(l 1,4)=R(7 , 2 ) .
+R(7 , 2 , 2)+R3(7 , 3 ) .
+R3(7 , 3 , 1 ) ; R(1l , 5)=R(6 , 2 ) .
+RR(6 , 2 , 3 ) .
+The result is P , =I11u+I1 +R11=61 +7 + 12=80 .
+

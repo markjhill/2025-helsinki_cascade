@@ -1,0 +1,127 @@
+]\gt ; On the Area of Surfaces .
+By Prof. W. H. YOUNG , Sc. D. , F.R.S. ( Received March 18 , The necessal.y and sufficient condition that a curve should possess a length , this length being given by the usual integral formula , is well known .
+The curve being defined by the equations , the condition is that and should be expressible as with respect to It may seem scarcely credible that no corresponding theorem is known with regard to the area of a surface .
+Such is , however , the case .
+And what is more surprising , no one has hitherto succeeded in giving such a definition of the area of a curved surface as permits of a determination of a sufficient condition of a eneral nature that the surface should possess an area , this area being given by the integral formula known to hold in the simplest cases .
+The step from one dimension to two has , in this instance , as in many other parts of analysis , been found difficult to take .
+The reason seems to be in part , here also , that several generalisations , at first sight equally eligible , of the definition involved , and of the theorem to be proved , appear to be possible , while it has been difficult to perceive in what way the analytical reasoning employed in the one.dimensional case is capable of extension to higher space .
+As the length of a curve is defined as the limit of the perimeters of inscribed polygons , it was for a long time supposed sufficient to define the area of a curved surface as the limit , assumed to be necessarily unique , of the areas of inscribed polyhedra , the faces usually taken to be triangular .
+That this definition is fallacious is .
+however , easily seen , as was pointed out almost simultaneously by Peano and Schwarz , even when the surface is so simple a one as a bounded portion of a cylinder of revolurion .
+The definition only leads to a finite limit when a suitable limitation is imposed on the magnitude of the angles of the faces .
+Almost the only case , moreover , in * Absolutely convergent ( or Lebesgue ) integrals.\mdash ; L. Tonelli , 1912 , " " Sulla di una curva ' Atti di Torino , ' vol. 47 , 1908 ; ' Sulla Rettificazione dell Curve ibid. , vol. 43 .
+About 1880 .
+See Lebesgue 's Dissertation , ' Integrale , Longueur , Air 1902 , ' Annali di Mat ser. 3 , vol. 7 , p. 298 .
+Prof. W. H. Young .
+which the definition based on triangulation works ( even when such a limitation is imposed ) , is that in which the equations defining the surface are analytic , or , at any rate , the tangent plane to the surface exists everywhere , varying continuously from point to point .
+Even Lebesgue , who defines the area as the lower limit of the areas of polyhedra which themselves tend uniformly*to the surface as limit , has found it only sible to obtain the integral formula in this latter very special case .
+Thus , when the partial differential coefficients of , and are not continuous , but are bounded , he does not succeed in proving more than that the surface has an area according to his jfinition , and that this area is not greater than the double integral with which the working mathematician expects to operate .
+For the rest , Lebesgue 's definition itself is not quite so simple even as might be supposed .
+On the one hand it is only applicable to surfaces which are the uniform limits of polyhedra ; and on the other the assumption that the area is to be the least of certain limits , apart from its arbitrariness , raises a doubt as to whether the sum of the areas , so defined , of two portions into which we divide our surface is the same as the area of the whole .
+In fact , the lower limit of the sum is not in general the sum of the lower limits , and is consequently under the necessity of justifying his definition , which involves him in a somewhat and delicate discussion .
+Among the earlier definitions of area quoted by Lebesgue , those due to Peano and Minkowski are worthy of mention ; the first because it betrays real appreciation of the nature of the to be solved , and a fine sense of its difficulties , the second because of the paradoxical and even absurd results to which it may be said to lead .
+PeanoS remarks that , given a skew curve , we can , at least in simple cases , find a plane curve , whose projection on each co-ordinate plane has the same area as that of the skew curve .
+If then the given surface be supposed capable of division into portions by means of such closed contours , the area of the surface may defined in terms of the sum of the areas of * Precisely , , being the co-ordinates of a point on the ) polyhedron , ) , those of one on the surface , Lebesgue demands that and should tend uniformly to and respectively , , p. 301 .
+Lebesgue proves , toc .
+, S70 , pp. 85 and 86 , that this is the necessary and sufficient condition that every curve on the surface corresponding to a rectifiable curve in the plane should be rectifiable .
+As he remarks , such a surface may cease to possess this property when the variables are transformed .
+The property is not a property of the surface per se , but in part also of one of its parametric representations .
+' ' Tout definition omctrique qui no conduirait pas a ce nombre consacre par l'usage serait en effet rejetee Lebesgue , loc. cit. , ) .
+S 'Atti della Real Accademia dei Lincei , Bendiconti , ' 1890 .
+On the Area of the corresponding , and in Peano 's statement is the upper limit of this sum .
+Apart , however , from certain scruples felt by Lebesgue in accepting this suggestion as a satisfactory basis , it is not known under what conditions the definition is applicable , nor , I believe , has it been shown that , even when valid , it leads to the desired formula .
+Minkowski's* definition is given by Lebesgue in a footnote without criticism .
+It proceeds from the point of view that the notion of volume is essentially simpler than that of surface .
+This is , at least , open to discussion , even if we confine our attention to areas and volumes made up of positive parts .
+Minkowski then describes round every point of the surface as centre a sphere of radius , in this way tracing out a portion of space , which may be regarded as possessing a volume , and he defines the area of the surface as the limit , when it exists , of .
+In the same way he defines the length of a plane curye , by means of an area similarly formed , as the limit of : I have , however , shown that even a countably infinite set of points can be constructed to have a positive length , and even to have an infinite length , with Minkowski 's definition .
+The peculiarities which present themselves in higher space , and when the set of points is more than countably infinite , are evidently no less paradoxical .
+S2 .
+I propose in the present communication to give a brief account of a theory of the area of surfaces , which I have formulated , and which appears to me to answer to all the requisites .
+I begin by explaining the sequence of ideas which I at first followed .
+If we actually form the summation of the areas of the triangular faces polyhedron inscribed in the surface \mdash ; this surface being supposed to be in correspondence with the plane of namely , where ' ' we are naturally led to examine , with the object of clearing up our ideas , the simpler summations , such as obtained by omitting the variable This corresponds to the problem of determining the sum , without regard to , of the areas of the three-point 'Jahresbericht der deutschen Mathematiker Vereinigung , ' 1901 .
+Prof. W. H. Young .
+images in the -plane of three-points in the -plane .
+It at , once becomes evident than even in the simplest case , in which the partial differential coefficients of ?
+with respect to and exist everywhere and are continuous , a restriction on the magnitude of the angles in the triangulation , either in the or in the -plane , is necessary .
+Otherwise we might , for example , have a triangle of definite area in the -plane corresponding to three points in a straight line in the -plane .
+Suppose the partial differential coefficients are all less than a fixed finite quantity .
+Then it is easily seen that , the expression already written down for the area of the trian , in the -plane , is less than a bounded multiple of and therefore of On the other hand , the area of the corresponding triangle in the -plane may be written If , then , , which is an angle of the triangle in the -plane , lie between fixed limits , the ratio of the areas of the two triangles will be a bounded one .
+It is then easy to deduce that with this understanding , namely , that one at least of the three of each of the triangles in the ( u-v)-plane should satisfy this limitation , the triangulation method leads , when the partial differential coefficients exist and are continuous , to a satisfactory result .
+In particular , the limitation is satisfied , when one of the angles is a right angle .
+S3 .
+Further progress appearing to be attended with serious difficulties , I attempted to still further simplify the problem by confining my attention to directed areas , in the case of correspondence between two planes , not , of course , necessarily .
+The problem became , then , that of determining a directed area in the corresponding to a rectangle in the plane , and , more precisely , that of magnitude obtained by adding together triangles in the -plane taken with their proper sign , and taking the limit of their sum .
+Depending , as this limit necessarily does , only on the form of the image in the -plane of the perimeter of the fundamental -rectangle , the idea is suggested that we may define the area in terms of this curve rather than in terms of portions of the plane bounded by it .
+For details I must refer my readers to a communication made elsewhele .
+The main result I obtained in this direction was as follows:\mdash ; On the Area of I define the area of a closed curve given by the equations as the limit of the area of an inscribed polygon , whenever this limit is unique and finite for every mode of inscription , the sides being all less than a norm , which tends to zero as .
+The area of this polygon is itself defined as the sum of the moments , taken each with their proper , about any point in the plane , of forces represented in magnitude , line of action , and sense , by the sides of the polygonal figure taken in order .
+In other words , the area of the curve is defined as the limit of the moment of the couple equivalent to the forces in question .
+With this definition we may assert , for example , that every closed plane curve which is rectifiable , or , more generally , is such that one of the continuous functions and ?
+has bounded variation , has an area given by the formula So far all is easy .
+The difficulty is to transform into a ) integral the formula just written down , under certain conditions to be investigated .
+The result here obtained is the following:\mdash ; If , partial deriv ( not necessarily coefficients ) which are bounded , or more generally are such that are , except for a set of values of of content , each less , or equal to , a function of , and are , except for set of values of of content zero , each iterically less , or summable -planc which corresponds to a rectangle in the , with sides to the of and , is given by the uusual formula , the double integral being taken over the rectcmgle question .
+S4 .
+It should be noticed that the raison of the concept of area , thus defined , and the formula embodying it , lie in the very nature of things .
+They are nothing more than the generalisation for the functional relationship Prof. W. H. Young .
+between two planes , of the well-known , and in its familiarity almost trivial , concept of directed length , and of the simple formula which , in the functional relationship between two lines , expresses it .
+And as no necessary and sufficient condition in terms of the integrant is known for the truth of the latter formula , it is not surprising that the condition we have obtained in two dimensions is a sufficient and not a necessary one .
+None the less , it is only in the case of a simple Jordan curve , that is , curve defined by continuous correspondence with the circumference of a circle , and possessing accordingly the property of dividing the plane into two distinct portions , that a general sense has been hitherto given to the term " " area of a dosed \ldquo ; and , under suitable conditions , a formula obtained for it .
+S5 .
+The question at once suggests itself , whether this new concept and the formula cannot be utilised in the theory of aces .
+For this purpose we have to eneralise in a suitable manner the idea of chord , or , more precisely , the number expressing the invariant property belonging to two points .
+The chords are directed leno C , but it is the sum of their moduli that we add .
+What we now want , then , is a plane vector , and we require to sum the moduli of a nul of such vectors , just as , in the length of a curve , we add the numerical values of the distances between successive points .
+From this point of view , we have to find a plane vector whose projections on the co-ordinate planes are directed areas in those planes .
+If we start with a surface defined by the equations we shall naturally divide the fundamental -rectangle into sub-rectangles , and we shall in this way obtain small directed areas in the , and -planes , are nothing less than the projections on these planes of the portions of the sul.face corresponding to the little -sub-rectangles .
+The contour of such a portion of the surface projects precisely into the curves of which these are the directed areas .
+We are thus led to see that the generalisation of the length of the chord for a curve is , for a , the magnitude of the couple , defined as follows:\mdash ; Inscribe in the skew curve , which forms the contour of each little portion of the surface , a polygonal figure , whose sides are all less than a certain norm .
+If we suppose acting along the sides of this figure forces represented by the sides in magnitude , line of action and sense , these will be equivalent to a On the Area of Surfaces .
+couple .
+The magnitude of this couple supposed .
+have a limit as the norm tends to zero , this limit is defined to be the area of the skew curve .
+This area is , then , the generalisation for surfaces of the concept length of chord in the case of a curve .
+It will be remarked that , when , as we may for simplicity suppose , there is -correspondence between the surface and the -plane , these little contours on the surface necessarily divide it up into curvi- linear quadrilaterals without ambiguity .
+Now if we suppose the little rectangles in the -plane to be all of span less than a norm , where , are successive positive quantities with zero as unique limit , and if we form the sum of the magnitudes of the areas of the contours corresponding to the perimeters of these little rectangles , and if , as increases indefinitely , this sum has a unique limit , independent of the particular mode adopted in dividing the fundamental -rectangle by lines parallel to the axes of and , as well as of the mode in which the norm diminishes , this unique limit is called the area of the portion of surface in -correspondence with the fundamental -rectangle .
+S6 .
+We now pass to the proof of the fundamental theorem , in the theory of the area of surfaces as above defined , which may be stated as follows:\mdash ; If , and possess ( first ) partial derivates with respect to , which are , except for a set of vatues of of zero content , each less than , or equal to , absolutdintegrable ( summable ) function of if similar statements hold for their with respect to , and if , further , are ressible as integrals with respect to , and as integrats with respect to then the surface jessarily possesses an area A. Jforeover , further , Thus , in particular , tloe surface has an area , and this area is by the preceding formula if , and \mdash ; these symbols standing for partial derivates , not merely differential coefficients\mdash ; are bounded functions of S7 .
+Let us employ the well-known formulae for the resultant couple of a system of forces , typically represented by , acting at the point , and bear in mind that there is no resultant force , owing to the fact that each contour is a closed curve , and that , accordingly , the couple whose components are , is independent of the choice of origin , as well as of axes .
+We then see , not only that the area of the typical contour has for magnitude the sum of the Prof. W. H. Young .
+squares of the areas of the projections of the contour on the three coordinate planes , but also that this magnitude is , in virtue of the theorem quoted in S3 , a\amp ; nacute ; d is therefore , in virtue of a theorem in inequalities of which the proof is indicated below , where is the little which the little contour is the image , Hence the sum of the areas of all our contours , and therefore also all the limits of this sum , are Moreover , this is true whatever the process adopted for subdividing the fundamental -rectangle by lines parallel to the axes of and S8 .
+That in any one mode of proceeding by subdivision , i.e. , when all the dividing lines at one stage are retained at all subsequent , we get a unique limit is evident from the fact that the summation at each stage cannot be less than that at the preceding stage .
+In facG , in a further subdivision of any one sub-rectangle , we get contours on the surface whose resultant area is the area of the contour corresponding to the undivided subrectangle , and the sum of the areas of these contours must by repeated application of the triangle of couples be at least as great as their resultant area .
+We have still to prove , not merely that in two different modes of subdivision the two limits are equal , but also that whatever process we adopt , by which the norm tends to zero , we obtain a unique and invariable limit .
+S9 .
+Let us denote by any ( variable ) division , such as we have utilised , of the fundamental -rectangle into sub-rectangles , and let the greatest of the sides of these sub-rectangles be less than a certain norm .
+We shall use also numerically to denote the ( variable ) sum of the areas of the contours on our surface corresponding to these sub-rectangles .
+Let denote the upper bound of for all modes of division ; this is certainly a finite number , since it cannot exceed our double integral .
+On the of We may , therefore , let denote a fixed division , such that the number differs from by less than , where is a small positive quantity , chosen will .
+Then the sum of those sub-rectangles of , which we may call , each of which lies in more than one sub-rectangle of , is less than times the sum of the lengths of all the dividing lines of in the fundamental rectangle .
+Thus by choosing the norm relatively small enough , the is as small as we please .
+These sub-rectangles , , are themselves subdivided by the lines of the fixed division ; and the corresponding contours will therefore have for the sum of their areas a quantity as small as we please , since , as we saw , this is not greater than our double integral over these , that is , over If we add to these sub-sub-rectangles the lemaining sub-rectangles R2 , which with constitute the division , we get a new division of the fundamental rectangle , where accordingly , when is small enough , since But since is got by subdividing the fixed division by what was already proved .
+Thus and therefore Since this is true for all variable divisions , whose norm is sufficiently small smallness being determined fixed division , we have , if be any limit approached by the numbers , as Since is as small as we please Thus the numbers have a unique finite limit , however the process of division be performed , when the norm tends to zero in any manner , and this limit is the.upper bound of all possible numbers B. This proves the theorem enunciated in S6 .
+S10 .
+From the uniqueness of the limit two essential links in the chain of reasoning follow , namely , that this unique limit may be regarded as a function of , corresponding to the rectangle whose upper right-hand corner is the point , and that this function is monotone ascending with respect to Prof. W. H. Young .
+and monotone ascending with respect- to Its continuity with respect .
+to and with respect to , then follows once .
+by the use of the fact that , in , for example , from to , we have merely to add on the of the limit for the whole vertical strip between the values and , and therefore , by the inequality obtained in S7 , and the property of an integral , tends to zero as .
+Hence , or similarly , it follows that this function is a continuous function of , and monotonely monotone .
+It now follows that the double incremenl of this ulction , which we may call , equal to the value of the limit corresponding to the , is not less than the area of the corresponding contour , that is , it is , and and as from this by cyclical change of , and Hence any repeated derivate of is not less than the corresponding repeated limit of , that is , of But , being the double incrementary ratio of a certain double integral , has the rant for repeated limit , except for a set of values of content zero .
+Hence , except at such a set of content zero , But is monotonely monotoIle ascending with respect to , and is therefore not less than the double integral of its repeated derivates , which necessarily coincide and are finite , except at a set of content zero .
+Hence But , by S7 , is not greater than the double .
+Therefore which proves the theorem of S6 , by putting [ N.B.\mdash ; The analogy with one dimension is complete .
+The summations in each division being there also increased when we put in additional chords .
+] On the of S11 .
+We now prove the theorem on inequalities utilised above .
+Theorem .
+stands for any finite number of variables , and the integral reprcsents the corresponding le tegral .
+Note , moreover , that the theorem remains true , if there be any finite , or countably infinite , set of functions , , taken instead of only three as in the enunciation .
+The argument does not depend on the number of functions , when this is finite , and the case when it is infinite follows from the finite case , by a familiar process , whenever the limit on the right-hand side is finite , and when it is infinite the statement is equally true .
+S12 .
+To prove this theoreul it is sufficient to suppose the functions each to possess only a finite number of values , these values assumed on a finite number of rectangles , or intervals in the generalised sense .
+The result stated must then follow by the employment of the method of monotone sequences .
+It is also evidently sufficient to suppose all the functions positive .
+Let , be the intervals in which the functions and have respectively the values , , and Then the square of the left-hand side of the inequality to be proved may be written:\mdash ; ( that is The square of the right-hand side of the inequa ] may be written that is Thus the coefficients of , on the two sides of the inequality are the same , while the coefficients of on the left-hand side of the inequality is , by a known theorem in elementary algebra , less than , or equal to , the corresponding coefficient on the right-hand side .
+Hence the theorem enunciated is true .
+VOL. XCVI.\mdash ; A.
+

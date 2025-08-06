@@ -1,0 +1,78 @@
+]\gt ; On Condition that a Trigonometrical Series should have Certain Form .
+By Prof. W. RYouNG , Sc. D. , F.R.S. Received Read June S1 .
+In a recent communication to the Society I have illustrated the fact that the derived series of the Fourier series of functions of bounded variation play a definite part in the theory of Fourier series .
+Some of the more interesting theorems in that theoly can only be stated in all their generality when the coefficients of such derived series take the place of the Fourier constants of a function .
+I have also recently shown that Lebesgue 's theorem , whether in its original or in its extended form , with regard to the usual convergence of a Fourier series when summed in the Cesaro manner is equally true for the derived series of Fourier series of functions of bounded variation .
+I have also pointed out that , in considering the effect of all known convergence factors in producing usual convergence , it is immatelial whether the series considered be a Fourier series , or such a derived series .
+We are thus led to regard the derived series of the Fourier series of fuuctions of bounded variation as a kind of pseudo-Fourier series , possessing properties which are identical with or analogous to those of Fourier series , properly so-called .
+In particular we are led to ask ourselves what is the necessary and sufficient condition that a trigonometrical series should have the form in question .
+One answer is of course immediate .
+The integrated series must converge to a function of bounded variation .
+This is merely a statement in slightly different language of the property in question .
+We require a condition of a simpler formal character , one which does uot require us to solve the difficult problem as to whether an assigned trigonometrical series not only converges but also has for sum a function of bounded variation .
+I have already indicated the corresponding answer in the case when the trigonometrical series is required to be the Fourier series of a function of a particular class .
+If the class be the class of functions whose power is summable , this condition is that should be a bounded function of , where denotes the Cesaro partial summation of the series considered .
+of the Fourier series of a function of bounded variation is that ious reasons.ustrates tfunction , aboutsu Cdition tseri serived sProf .
+Young.ondition tThis reems torthy ottention oSociety forIn tresent communication Ipropose tshow tecessary a should be a bounded function of which all that we know is that it is summable , is necessarily more than merely summable , but it of itself justifies our regarding such derived series as having their definite place in our theory .
+Moreover , the method by which it is obtained has an interest of its own .
+It involves the consideration of bounded successions of integrals of positive functions , and we are led by the exigencies of the reasoning to conclude a priori the probability of such successions of integrals containing sequences .
+It was , in fact , in this way that I was led to remark that this result is immediately deducible from easoning which I had already employed .
+We have , in fact , the following theorem : the integrands of a bounded succession of are bounded below in their ensemble , there is in every sub-succession of the succession of the integrals a sequence which converges to a lower semi- continuous upper semi-integral , in other words , to an asymmetrically continuous function of bounded variation of a certain type .
+The cases in which we can assert that an oscmating succession contains a sequence are very few in Jlumber .
+Almost the only one known is that discovered by ArzelA , and which , in the extended and modified form given to it by myself , the condition of uniform and homogeneous oscillation on one side at least .
+Such successions have come to have a considerable theoretical importance in the abstract theory of sets , as well as in the applications to the theory of functions of a real variable .
+It is noteworthy that in the present instance , though this does not come out in the proof , there is uniform and homogeneous oscillation on the left .
+This follows indeed from a fact that I long ago signalised , viz. , that the non-uniformity of the oscillation of a succession of monotone continuous functions is always visible .
+With regard to the main result of the paper it will be noted that it gives us at the same time the necessary and sufficient condition that a trigonometrical series should be the Fourier series of a function of bounded variation .
+It may finally be remarked that if instead of expressing the Fourier coefficients of the Fourier series as ordinary integrals involving the function ntegrand , xpress terms oespect tndefinite integral othat function tiven tourierFourier series tifference being tunction wespect toseries identical wesponding oerived series ogonomet which the integration is to be performed is in the latter case a function of bounded variation which is not in general an integral .
+S2 .
+We first prove the theorem with respect to successions of integrals to which reference has been made .
+Theorem.\mdash ; If a of integrals of functions which ( above ) in .
+ensemble oscillates boundedly , there is in every sub-succession sequence of the integrals , converging to a lower semi-continuous uppe ( lower ) semi-integral .
+It be sufficient to prove the former of the two alternative statements in the theorem .
+Since the succession of integrals is bounded and that of the rands f is bounded below , the latter succession is semi-integrable below ; therefore all the upper functions and all the lower functions of the succession of integrals are upper semi-integrals .
+* Again , from the fact that the succession is bounded below , it follows that has no negative double limit , as and , and accordingly thab the succession of integrals oscillates uniformly and homogeneously below .
+Hence all the upper and all the lower funotions of the succession of integrals are lower semi-continuous functions .
+Now an upper semi-integral is the sum of an integral , which is a con- tinuous function , and a monotone .
+function , which , in our case , is accordingly a lower semi-continuous function , and therefore continuous the left .
+But I have proved that , if all the upper , or all the lower , functions of a succession are continuous on one side at least , the same at each point for all such upper or lower limiting functions , then a sequence of the functions can be found having an unique limiting function .
+In our case the functions are the integrals , so that , by this theorem , we can find a succession of integers , .
+such that converges , as , to an unique limiting function , which , being one of the lower and upper limiting functions of the succession of integrals , is , by what has been W. H. Young , " " Semi-integrals and Oscillating Successions of Functions 'Lond .
+Math. Soc. Proc 1910 , Ser. 2 , vol. 9 , pp. 300-301 , SS 15-16 .
+W. H. Young , " " Successions of Integrals and Fourier Series , 1912 , vol. 11 , p. 51 .
+W. H. Young , " " On Homogeneous Oscillation of Successions of Functions ibid. 1912 , vol. 8 , p. 366 , Cor. 4 .
+First , to prove the sufficiency of the condition .
+Since J is a bounded function of , the same is true of .
+The integrands of these two integrals being positive , we can apply to each of them the theorem of S2 .
+Thus we can find such a succession of integers , , that , for this succession of values of , the first of the integrals describes a sequence .
+The corresponding values of the second integral form a sub-succession to which we again apply the theorem , and find .
+succession of integers , , from among , so that as describes these values , the second describes a sequence .
+Therefore as describes the succession , , both the integrals describe sequences , and therefore their difference , namely also describes a sequence .
+By S2 , the limiting functions of the two first sequences are semi-integrals , and therefore functions of bounded variation .
+Hence the limiting function of the last sequence , say is a function of bounded variation , and we have , say , ( 2 ) where 1913 .
+] Series should have Form .
+57.3 Since , ( x ) is a bounded function of , we may integrate term by term after multiplying both sides by .
+Thus .
+( 4 ) Similarly , multiplying ( 2 ) by mx and integrating term by term .
+( 5 ) From ( 4 ) and ( 5 ) , const .
+This shows that our trigonometrical series ( 1 ) is the derived series of the Fourier series of the function of bounded variation , provided the given condition is satisfied .
+The condition is therefore sufficient .
+Next to prove that it is necessary .
+Let be the function of bounded variation , corresponding to which the series ( 1 ) is the derived series of the Fourier series .
+Since is the difference of two monotone increasing functions , and therefore , where , 1 ( x ) and , 2 ( x ) are the Cesaro partial summations of the derived series of the Fourier series of these monotone increasing functions , it is only necessary to prove the necessity of the condition when the function of bounded variation is a monotone increasing function .
+Now , when is a monotone increasing function , is positive , for Therefore , in this case is , and is given by the righthand side of ( 3 ) .
+Denoting by the Cesaro partial summation of the Fourier series of which our series is the derived series , we have , therefore , where is the upper bound of the Cesaro partial summations of the Fourier series of , which , as is known , *converges boundedly in the Cesaro manner , since has bounded variation .
+Thus the condition is necessary when is monotone increasing , and therefore also , in the general case , when ) is a function of bounded variation .
+W. H. Young , " " On the Integration of Fourier Series 'Lond .
+Math. Soc. Proc 1910 , Ser. 2 , vol. 9 , pp. , S3 .
+Series .
+S4 .
+Bearing in mind what has been said in S1 , it will be seen that the following theorem completes the set of tests of the type considered:\mdash ; Theorem.\mdash ; The no ( jessary and suffic nt condition that a given trigonometrical series should be the Fourier of a bounded is that for all values of and being a constant .
+That this condition is necessary is evident from mere inspection of the usual expression for .
+That it is sufficient follows from reasoning of a similar but simpler character to that employed in the analogous theorems .
+In fact , if is a bounded function of , the integrated series necessarily oscillates uniformly and homogeneously when summed in the Cesaro manner , index unity .
+Accordingly , a sequence of these Cesaro partial summations can be found converging to an integral , since has the unique double limit zero when .
+In other words , we have where , moreover , is a certain bounded function .
+* Multiplying both sides of this equation by , or by , and integrating term by term , we see that the rated series is a Fourier series , having for corresponding function ; that is , the rated series is the Fourier series of the integral of a bounded function , whence the theorem follows .
+' ' Successions of Integrals and Fourier Series , p. 31 .
+

@@ -1,0 +1,27 @@
+III .
+" On a Question of Compound Arrangement .
+" By J. J. SYLVESTER , M.A. , F.R.S. , Professor of Mathematics in the Royal Military Academy , Woolwich .
+Received April 27 , 1863 .
+My successful but as yet unpublished researches into the Theory of Double Determinants have involved the consideration of the following curious case of arrangements .
+There are given m+ n1 counters of n distinct colours just capable of being packed into mn urns .
+The question refers to the distribution of the counters among the urns , subject to the condition that it shall not be possible to form a closed circuit of double colours between any number of the urns chosen arbitrarily , ex. gr. we must allow no distribution of counters in which one urn contains blue and yellow , a second yellow and red , a third red and green , and a fourth green and blue , because here blue , yellow , red , and green would form a closed circuit .
+This condition , it is evident , excludes the same combination of colours from existing in any two of the urns , and also the repetition of any one colour in the same urn .
+Any distribution of counters obeying this condition may be called an excyclic distribution .
+I annex two propositions , one qualitative , the other quantitative , referring to such distributions .
+Qualitative Theorem .
+In any excyclic distribution between m urns of m +n-1 counters of n different colours , any set of counters selected at will must befewer in number than the number of distinct colours which they contain added to the number of urnsfrom which they are drawn .
+Before going on to enunciate the second proposition I must premise one or two simple definitions .
+The capacity of an urn means the number of counters it will contain , the frequency of a colour the number of counters of that colour , so that the sum of all the capacities and the sum of all the frequencies must be each equal to the number of the counters .
+Again , by the diminished capacity of any urn or diminished frequency of any colour , I mean such capacity or frequency respectively diminished by unity .
+Finally , by thepolynomial function of any set of numbers a , b , ... I , I mean the coefficient of xa .
+yb ... z. in the expansion of ( x+y+ ... )a+b+ ... +l .
+I can now enunciate the following Quantitative Theorem .
+The number of modes of excyclic distribution between m urns of m+n1 counters of n different colours is equal to the product of the polynomial function of the diminished frequencies of all the several colours multiplied by the polynomial function of the diminished capacities of all the several urns .
+Observation .
+A double determinant means the resultant of a system of ( m +n 1 ) homogeneous equations each containing mn terms , and linear in respect to each of two systems of m and n variables taken separately , but of the second order in respect to the variables of these two systems taken rn(m + n--i ) collectively .
+Any such resultant is of the degree -r(m1 ) ( --1 ) 7r(m1.)7r(n-1\ in respect of the given coefficients , and may be represented by an ordinary determinant of the ( m + n-)th order , every one of whose terms corresponds to a particular system of capacities of the in urns and of repetitions of the n colours in the question above treated .
+The total number of such systems or terms will be 7r(m+n-2 ) )2 7r(m1)7r(nl ) ' Every term in this determinant will itself be a sum of simple determinants of the ( mnl)th order , corresponding ( each to each ) with the totality of the excylcic distributions of ( mn+n--1 ) counters in respect of the particular systems of m capacities and n frequencies appertaining to that term ; so that the number of simple determinants whose sum constitutes a term in the grand total determinant is always the product of two polynomial coefficients .
+In the particular case , where one of the systems contains only two variables , one of these polynomial coefficients becomes unity , and the other sinks down to a binomial coefficient .
+The only instance of a double determinant which is believed to have been considered up to the present moment is that given by Mr. Cayley in the 'Cambridge and Dublin Mathematical Journal , ' vol. ix .
+1854 , for the case of m= 2 , n= 2 .
+

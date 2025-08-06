@@ -1,0 +1,155 @@
+]\gt ; Some Cases of Wave Jlotion due to Submerged By T. H. HAVELOCK , F.R.S. ( Received May 14 , 1917 .
+) 1 .
+As far as I am aware , only one case of wave motion caused by a submerged obstacle has been worked out in any detail , namely the twodimensional motion due to a circular cylinder ; for this case , Prof. Lamb has given a solution applicable when the cylinder is of small radius and is at a considerable depth .
+* The method can be extended to bodies of diffelent shape , and my object in this paper is to work out the simplest threedimensional case , the motion of a submerged sphere .
+The problem I have considered specially is the wave resistance of the submerged body .
+In the two-dimensional case , this is calculated by considerations of energy and work applied to the train of ular waves .
+But for a movin sphere the wave system is more complicated , like the well-known wave pattern for a point disturbance , and similar methods are not so easily applied ; I have therefore calculated directly the resultant of the fluid pressure on the sphere .
+Before working out this case , the analysis for the circular cylinder is repeated , because it is necessary to carry the approximation a stage further than in Prof. Lamb 's solution in order to verify that the resultant horizontal pressure on the cylinder is the same as the wave resistance obtained by the method of The stages in to the velocity potential may be described in terms of successive images ; the first is the image of a uniform stream in the submerged body , the second stage is the image of in the free surface , the third is the image of in the body , and so on .
+In order to keep the integrals a small frictional coefficient is introduced in the usual manner ; after the calculations have been carried out , the coefficient is made zero .
+Further , the solution for uniform motion is built up so that expressions can be found for the velocity potential at any time after the of the motion , although only the final steady state has been studied in detail .
+The wave resistance of a sphere is found to have the form const .
+, 1 , in which is , with the depth of the sphere and its velocity ; , 1 is a confluent hypergeometric function .
+In order to graph the wave resistance as a function .
+of the velocity , , expansions have been found for this particular variety of the function * H. Lamb , ' Ann. di Matematica , ' vol. 21 , p. 237 ; also ' Hydrodynamics , ' 4th ed. , p. 401 .
+Some Cases Motion due to Submerged Obstacle .
+521 ; it belongs to the arithmic case for which a general expansion is not available .
+In eneral form the graph of the resistance is very similar to that of the circular cylinder .
+2 .
+The steady state for uniform motion of the cylinder may be attacked directly , as in Prof. Lamb 's solution , but we shall adopt ) suggestion of building it up from simple oscillations .
+Take the axis of in the free surface of the water , and the axis of vertically upwards .
+A circular cylinder , of radius , is tions parallel to with velocity , the axis of the cylinder ] and perpendicular to and the mean position of the centre being the point .
+A first appproximation when the depth is sufficiently lalffl is found by the surface effect and putting ; .
+( 1 ) This satisfies the boundary condition at the stlrlacc of the cylinder .
+For the next step , add a term to the velocity potential so as to satisfy the conditions at the free surface , but ignoring the disturbance produced thereby at the surface of the cylinder .
+must be a potential function and it must satisfy the condition for deep water , nalnely , for ; conditions are lilled by ( 2 ) where is a function of to be ined .
+This form is chosen because we can satisfy the conditions at the free surface by using an equivalent form for ( 1 ) , since ; .
+( 3 ) The face elevation is expressed similarly by .
+( 4 ) In order to keep the various integrals convergent , we assulne that the liquid has a slight amount of friction proportional to velocity ; in the sequel the results are simplified by the frictional coefficient tend to zero .
+In these circumstances the pressure equation is const .
+Hence the conditions at the free surface are , the square of the velocity , const .
+; Prof T. H. Havelock .
+Some Heal is the velocity potential after ( 2 ) has been added to ( 1 ) ; thus the equations for and are ( 6 ) From these we obtain the expressions for and , namely , ( 7 ) .
+( 8 ) The expression for can be diyided into two parts .
+( 9 ) If we as the image of the oscillating cylinder in the free surface , we see from the form of the first integral in ( 9 ) that part of the is a rative doublet ab the point .
+We obtain next the velocity potential of the motion produced by a sudden small displacement of the cylinder , and we take this to bs equivalent to a momentary doublet of constant strength .
+Suppose then at a time a doublet is suddenly created , maintained constant for a time , and then annihilated .
+The velocity potential at any subsequent time is given by a Fourier synthesis of the preceding results for an oscillating cylinder , and we have , ( 10 ) where the sum of and ( 9 ) , the factol Carrying out this integration for the value of in ( 1 ) and for the first part of ( 9 ) gives simply the entary doublet at the centre of the cylinder and the negative donblet at the point .
+These doublets last for a short time ; the subsequent fluid motion is contributed by the second part of ( 9 ) .
+For this we have to evaluate the real part of ; .
+( 11 ) We obtain the value by contour egratio ; further we simplify the result by neglecting .
+We shall make zero ultimately , but we must retain it sufficiently to keep the integrals convergent ; however , ab one or two stage superfluous terms may be omitted when it is clear that the final limiting values will not be affected .
+We find for ( 11 ) the value Wave Motion clue to a Submerged Obstacle .
+writing for whenever it serves to simplify the notation .
+Hence the velocity potential of the subsequent fluid motion after the cylinder has been given a small displacement at time is .
+( 12 ) Finally we obtain the velocity potential for a cylinder in uniform motion by substituting for , noting that fter x will refer to a moving immediately over the centre of the cylinder ; we then with respect to from the start of the otion up to the instant in question .
+We could in this obtain results for aIly } of the motion , but we limit the discussion to the final steady state ; for this we take as the lower limit in rating with respect to .
+Before down the result , we must remember to introduce the effect of the momentary doublet in ( 1 ) and its which vere not included in ; these clearly add up to steady doublets .
+Hence we find for the steady state ( 13 ) where represents the doublet at the point , equal doublet at the point , and .
+( 14 ) 3 .
+Before proceeding further we may obtain the surface elevation from for comparison .
+The surface condition is now Hence we have , ( 15 ) in which .
+Further , since is to be small , we may omit irreleyant terms put .
+( 1C ) The integral in ( 15 ) can.then be written as .
+( 17 ) Prof T. H. Havelock .
+Some Cases of We transform these integrals by contour yration in the plane of a complex variable , treating separately the cases of positive and negativo ; after making zero in the final results we obtain ; ; These with Lamb 's results for the circular cylinder in a uniform stream .
+The wave resistance is derived from the fular waves in the rear , by considering the rate of increase of and taking into account the yation of energy in a regular train ; we have plitude ) .
+( 19 ) 4 .
+We have now to obtain the resistance by direct summation of the horizontal connponent of fluid pressure on the cylinder .
+It is clearly necessary to proceed to a further with yelociGy potential , since we have assumed so far that the surface eHect is ible in the hbourhood of the cylinder .
+If we write ( 13 ) as , ( 20 ) the doublet is the first approximation , satisfying the boundary conditions on the cylinder ; is the of the doubleC in the free surface , found by satisfying the conditions there .
+next is to find , the of in the cylinder , then effect of at the free surface .
+It follows that is the of in the cylinder , found as if the cylinder were at rest in a field defined by .
+Taking polar co-ordinates with the origin at the centre of the circular section of the cylinder , we have ; ; ( 21 ) also the conditions for are that it should be a potential function , the components of velocity must vanish as .
+becomes infinite , and , for .
+( 22 ) But from ( 13 ) , consists of a summation of terms of the form We obtain by replacing each term by the expressions ' and the above conditions for are then satisfied .
+This process amounts simply to inversion ; we may think of as due to a line distribution of Wave Motion due to a Submerged sources and is then a circle of sources on the inverse of this line with respect to the cylinder .
+We have now for the velocity potential to this stage .
+( 23 ) We have put for A so as to include under the ral sign the doublet previously denoted by The method could theoretically be carried on step by step ; however , stop at this because it is sufficienC for the wave resistance Ii from the pressure equation to the salve pproximation as by the energy method .
+We have ; ( 24 ) .
+( 25 ) If we write ( 23 ) as ) , and omit which obviously contribute to the value of have , when , ( 26 ) where we have used ( 22 ) and the value of D. From ( 23 ) , omitting the doublets and , which will from symmetry give no contribution to when is zero , we have A A , ( 27 ) where ( in ( 24 ) we have an expression for .
+We may now the order of ration and take first that with respect to ; we can carry this out , after sone transformation , by means of the integrals , , ( 28 ) where is a positive , odd .
+In fact the integration with respect to gives simply ; hence we have , ( 29 ) Prof. T. H. Havelock .
+Some Cases of where A and are iven by ( 14 ) , or by ( 16 ) since we suppose small .
+Thus we have Lim finite quantity , ( 30 ) which is the same as the previous expression ( 19 ) .
+Sphere .
+5 .
+A of radius is depth below the surface and is moving with uniform velocity parallel to the axis of .
+The is in the free surface , the axis of .
+drawn tically upwards .
+As before , the first approximation is a doublet given by ; .
+( 31 ) For purpose of .
+the conditions at the force surface we have .
+( 32 ) This suggests at once suitable forms for the next approximation and for the free surface ; the equations are similar to ( 6 ) of the previous case , and we obtain in the same way , ( 33 ) where is a doublet at the point and ( 34 ) The corresponding surface elevation is .
+( 35 ) The first term represents the effect of the doublets and .
+It can be verified by approximate methods that the second term includes a main part like the well-known wave patterll for ship waves .
+Since the expression in ( 35 ) gives finite and continuous values for the surface clevation , it be , of interest to examine some points in detail ; for instance , the elevation near the lines to the lines of cusps for a moving point disturbance .
+However , we pass now to the calculation of the resultant horizontal pressure TVave Iotion due to Obstacle .
+on the spbere .
+We have to lind the image of in the sphere ; for this we first put into a different by From ( 36 ) and ( 34 ) , after ont Che with respect to we obtain ( 37 ) where A and are given by ( 14 ) after for For convenience in the .
+analysis , we transfer the to the centre of the sphere , noting that in ( 37 ) we shall have exp .
+( - in place of .
+Also we use polar ; ; The conditions for are that it llust be a ) otential function , the disturbance due to it must ultimately as we ecede from the sphere , and on the sphere To avoid repetition of expressions like ( 37 ) , we take out of it a } ) ical term and write .
+We know that the function ( 40 ) satisfies the first two conditions for , bnt we find it does not fulfil ( 38 ) .
+An additional term is , and it can be found in the Suppose that on the sphere we have ( fil ) ) , ( 41 ) where the -hand side is } spherical hrlnonics .
+Then for the term ( 39 ) , all the conditions for satisfied by Suppose , similarly , that on the sphere COS COS .
+( 43 ) VOL. XCIII.\mdash ; A. ) Prof. T. H. Havelock .
+Some Cases of Then the for is ( 44 ) We have now , ( 45 ) and the pressure equation is .
+( 46 ) The wave resistance , or the resultant horizontal pressure on the sphere , is .
+( 47 ) terms which , from symmetry , will give no contribution to , we have .
+( 48 ) when , we have ; ; hence .
+( 49 ) We must now substitute ( 49 ) in ( 47 ) and use the value of iven by the sum of ( 37 ) and ( 44 ) on the ; it is clear that we may omit the doublet as it will not affect the limiting value of when is zero .
+6 .
+Consider , in the first place , the contribution of the first term in the value of yiven in ( 49 ) .
+In the repeated integrals which are obtained , we may the order of integration , and we shall carry out first the summation over the surface of the sphere .
+We notice that , when he first term in the value of in ( 44 ) equal to the value of ; the additional part of is the term involving the expansions in spherical surface harmonics .
+Choose a tern 1 from the latter part , and we find we have to evaluate , ( 50 ) taken over the surface of unit sphere .
+But this integral is equal to .
+( 51 ) Hence , the only term which a value different from zero is the term in , the surface harmonic of the second order .
+From the manner in which due to 5 29 the expansions were introduced , in ( 41 ) and ( 43 ) , it follows that ) contribution of the second term in ( 44 ) is one-thil.d of that of the term ; hence , summing up the ] so far as the firsc term of ( 49 ) is concel'ned , have { Taking the integration with respect to } find it is equal to ( siu sill sin ) , where is the Bessel function , a result which be obtained ) direct expansion and ration term by .
+For the respect to the term in A in ( 52 ) ives zero , and are left with .
+( 54 ) Here also we llay expand in verse of by term ; it can be shown that the integral of the coefficient of vanishes except the single ; thus we hnd that ( 54 ) educes to We have now to consider the terll in the value for .
+We omit this term , on boeneral , asiving no contribution to 18 ultimately when vanishes ; ior X the yeloCiCy potential for a sphere at rest in a given field .
+However , it in , and have a similar calculation .
+Taking the second integral in we find it is olJly the in which counts ; hence the contribution of this is of that of the first integral in ( 44 ) .
+there , it is the term A )which gives a value different from zero when with respect to , and instead of ( 54 ) we have which reduces to 8 .
+the various results , now a form which may be compared with the corresponding expression for the cylinder in ( 29 ) .
+Prof. T. H. Havelock .
+Some A and are iven by ( 14 ) when we replace by ; putting these in ( 55 ) , see that we may change the order of integration .
+Further , as we make vanish ultimately , we may use simplified forms of A and to ( 16 ) .
+These give To obtain the imiting value for zero we may treat this like the similar in ; or , alternatively , we put ec , and use the eneral result The appal.ent difficulty with regard to values of near is overcome by noticing with the particular functions involved in PL no extra contribution arises from such terms near the upper limits of the variables .
+Carrying out the integration in in this way , and the variable by , we obtain .
+( 56 ) The remaining integral can be expressed in terms of known functions .
+Possibly the simplcst method is to use the confluent hypergeometric function*defined , for real positive values of and for real of and for which , by .
+( 57 ) We have now the wave resistance the sphere ivsn by .
+( 58 ) 8 .
+For purposes of calculation , we require expftnsions of .
+This function belongs to the logarithmic type of confluent eometric function , and reneral expansions are not available in this case ; however , they can be obtained without difficulty for .
+In the first place , the differential equation satisfied by , 1 is .
+( 59 ) We use the ordinary methods olving by means of power series .
+The roots of the indicial equation are and - hence one of the mdamental ' *E .
+T. Whittaker , 'Bull .
+Amer .
+Math. Soc vol. 10 , p. 125 ; also Whittaker and , ' Modern Analysis , ' Chnp .
+Motion due to Obstacle .
+solutions will contain .
+logarithms .
+the ooefficients step by step , we obtain as a fundamental system / ? .
+( CO ) We know that is a linear funotion of ?
+/1 and ?
+/2 ; however , it sinlpler to obtain an expansion directly and use ( 60 ) to verify it .
+For this purpose we use the eqnivalent contour for the confluent hyper.(veonletric function , ( 61 ) where the contour has loops if necessiary .
+so that the of and those of are on opposite sides of it .
+The integral can be evaluated by the method of residues .
+poles at which the residues have to be found are nple polekq at \mdash ; ether with double poles at , The latter series to arithmic residues .
+out the .
+we obtain , ( 62 ) where is Euler 's constant .
+The coefficients may be put into alternative forms more suited for : for instance For numerical calculation we } The expansion may be confirmed b.y comparison with the fumdamental solutions of the differential equation given in ( 60 ) ; we find that ( 8/ 3 ) For large values of the general asym ) expansion is available : , and in this case we have VOL. XCIII.\mdash ; A. 532 Some of Motion due to a Submer Obstacle .
+9 .
+With ( 63 ) and ( 64 ) we can now calculate the res.istanceB from ( 58 ) .
+For a given depth , the variation of the resi tanoe wibh the velocity is shown in the following curve , for which has been calculated for various values of .
+The curve is very similar in form to the -dimensional case of a circular cylinder .
+For small veJocities , that is , if we take the term of the symptotic expansion ( 64 ) , we have which may ) compared with ( 30 ) for the cylinder .
+It is of interest to notice the similar law of variation of wave resistance with speed for the few cases of rigid bodies which have been worked out .
+The method adopted here can be applied to bodies of different forms , and it is hoped to illustrate later interference eftects .
+

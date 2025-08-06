@@ -1,0 +1,160 @@
+]\gt ; The Transmission of Electric Waves round the Earth .
+By G. N. WATSON , Sc. D. , D.Sc .
+, Professor of Mathematics in the University of Birmingham .
+( Communicated by Prof. J. W. Nicholson , F.R.S. Received January 13 , 1919 .
+) On the hypothesis that the Earth consists of an imperfectly conducting sphere surrounded by infinite homogeneous dielectric , I have recently* obtained a complete solution ( in a form adapted for numerical computation ) of the problem .
+of determining the effect at a distant point of the Earth 's surface due to a Hertzian oscillator emitting waves of a definite frequency .
+Previous investigators had obtained approximations ( some of which were incorrect ) to the dominant terms of the series which represents the effect due to the Earth , but the earlier approximations cease to be valid in the neighbourhood of the antipodes of the transmitter .
+On this hypothesis the absolute value of the Hertzian function ( with the time-factor suppressed ) is roughly proportional to , where is the wave- length measured in kilometres , and is the angular distance from the transmitter .
+When is nearly equal to , the factor has to be suppressed .
+This formula does ot agree with results obtained experimentally .
+The numerical factor is much too large , so that , as increases , the magnetic force decays much less rapidly than the theory indicates ; and it has also been suggested on experimental grounds that the actual state of affairs is represented much more closely when the factor is replaced by the factor To secure a considerable modification in the magnitude of the factor a suggestion has been put forward by various physicists to the effect that the attenuated gases in the upper atmosphere have an appreciable conductivity , and so they tend to reflect electric waves .
+This hypothesis was first made in 1900 by Heaviside , and it has been deyeloped more recently by Eccles .
+S ' Roy .
+Soc. Proc , pp. 83-99 ( 1918 ) .
+References to the more important work on the subject are to be found in my previous paper .
+A complete bibliography is given by Love , ' Phil. Trans , vol. 215 , .
+e.g. , Austin , ' Washington Bureau of Standards Bulletin ' ( October , 1911 ) , who suggests in place of S Eccles has worked out some of the mathematical consequences of the theory , ' Soc. Proc , pp. 79-99 ( 1912 ) .
+The Transmission of Electric Waves round the Earth .
+547 It therefore seems desirable to investigate the consequences Of the assumption that the Earth is surrounded by a concentric conducting layer at a considerable height .
+The height which has been suggested by Eccles is from 100 kilom .
+kilom .
+above the surface of the Earth .
+This comparatively sharply defined region of the atmosphere which plays the predominant part in signalling by night is called " " Heaviside 's layer\ldquo ; by Eccles .
+nals during the day are affected by partial ionisation ( due to sunlight ) of lower regions of the atmosphere .
+A consequence of this theory is that the disturbance produced by the oscillator is confined to the neighbourhood of the Earth ; this concentration obviously tends to increase the magnetic force at points on the Earth 's surface .
+And it will , in fact , be shown that , if the Earth be regarded as a perfect conductor surrounded by a concentric perfect reflector , the expression for the Hertzian function consists of a finite number of oscillatory terms combined with an infinite series of negative exponentials .
+If the finiteness of the conductivity of the Earth and reflector is taken into account , the character of the finite series is modified ; and it appears that the Hertzian function constructed on the reflector theory agrees quite well with the suggested by experimenters .
+In particular , it seems impossible to account for the factor on any theory of pure diffraction ; and the presence of convergent waves is necessary to produce it .
+The results of this paper therefore tend to confirm the existence of the reflecting layer .
+A consequence of its presence is that it places grave obstacles in way of communications with Mars or Venus , if the desirability of communicating with those planets should ever arise .
+2 .
+In this paper the consequences of the ionisation theory are investigated by supposing that the effect produced by the regions of the atmosphere which tend to reflect the waves may be represented by taking the Earth to be surrounded by a concentric reflector of radius ; it is at first supposed that the reflector is perfect , so that the tangential component of electric force is zero , and subsequently the theory is modified by supposing the reflector to have a finite conductivity ; this procedure removes the grave analytical difficulties which would arise if the dielectric surrounding the Earth were supposed to have a conductivity which varied continuously .
+With the exception of the novelty involved in the introduction of , the notation will be the same as in my previous paper .
+The radius of the Earth is denoted by , the distance of the transmitter from the centre of the Earth is , and of course The trans1nitter , which is taken to be on the axis of harmonics , emits waves Prof. G. N. Watson .
+of period , and the components*of the electric force and of the magnetic force are ) and ; there are two constants of the medium transmitting the waves such that the electric force and the magnetic force are determined in terms of the Hertzian function by the equations where satisfy , the wave equation in which If the Hertzian function were unaffected by the presence of the Earth and of the reflector , its value would be , where is the distance from the transmitter ; and can be expanded in the forms ( ) ( ) , , where and are expressible in terms of Bessel functions by the equations the last function being the second of the two Hankel-Nielsen functions , sometimes called Bessel functions of the third kind .
+We now take into account the presence of the Earth and of the reflector : the of in the interior of the Earth are denoted by the symbols ; and the disturbance produced in the Hertzian function in the atmosphere is , while the function in the interior of the Earth is .
+The appropriate series for and are , , where the coefficients , and are constants .
+* The time factor is supposed to be suppressed throughout .
+These constants depend also on the frequency of the waves ; their precise values are where is the conductivity , is the dielectric constant , is the permeability , and the velocity of light ; the symbol is used elsewhere to denote , where is the angular distance from transmitter , but this will cause no confusion .
+It should be noted that is positive in the case of air , but it is a complex number in the interior of the Earth .
+The Transmission of Electric Waves round the Ecvrth .
+549 The boundary conditions which express the continuity of the tangential components of electric force and magnetic force , when the reflector is taken to be a perfect conductor , are effectively , , These conditions yield the following system of equations to determine and ( ) , , On solving we find that ( kb ) ( ka ) ( ka ) ( lib ) ( kc ) ( kb ) ( ka ) ( kb ) ( kc ) ( kb ) where ( ka ) ) ( ka ) ( ka ) ( kc ) ( kc ) and hence the value of the Hertzian function just outside the surface of the Earth can be reduced ( kc ) It should be noticed that this expression does not reduce to the expression given in my former paper when is made infinite ; the reason for this is that the presence of a at infinity would produce convergent waves while the Hertzian function of the previous paper contained only divergent waves outside the sphere 3 .
+Now that the general form of the Hertzian function has been obtained , we must apply a transformation of the type introduced in my previous paper in order to render the function susceptible to numerical computation .
+With this object in view , it is desirable to obtain the corresponding formula Prof. G. N. Watson .
+for the special case in which the Earth is supposed to be a perfect conductor , and then to modify the solution by taking account of the fact that is not zero .
+4 .
+In the case of a perfect conductor , the Hertzian function is and it is to be noted that resonance occurs when any of the denominators vanish .
+As it will be found that resonance effects do not occur in the actual physical problem ( though they may occur in the ideal problem now under consideration ) , it is convenient to disregard them .
+The series which has just been obtained for is the sum of the residues of at the poles , ; and since it is assumed that there are no resonance effects , these are all simple poles .
+Now those poles of the function which are not zeros of are zeros of ( ka ) ( kc ) ( ka ) ; and it will appear in S5 that the only zeros of this function of lie on the cruciform figure , * which consists of the imaginary axis in the -plane together with that part of the real axis which joins the points We now consider the integral taken round a contour which consists of a semicircle of large radius , , with centre at the origin , on the right of the imaginary axis , together with that part of the imaginary axis which joins the points ; on the latter part of the contour , Cauchy 's principal value has to be taken , in view of the poles on the imaginary axis .
+It is readily verified that the integrand is an odd function of , and so the integral along the imaginary axis is equal to times the sum of the residues at the poles on it , the rest of the cancelling .
+On making tend to infinity through such values that the semicircle never passes through a pole , we find ( exactly as in my previous that the integral round the semicircle tends to zero .
+It follows that the sum of the residues of the integrand at all the poles on the positive half of the real axis plus half the sum of the residues at the poles on the imaginary axis * The change which the presence of the reflector produces in the topography of the poles is very remarkable .
+The Transmission of Electric Waves the .
+551 is zero ; the integrand being an odd function of , the latter term be replaced by the sum of the residues at the poles on the negative half of the imaginary axis .
+For brevity , we shall write respectively for ; and we shall denote those zeros of , which are under consideration by , .
+so that either and I , or else and I ; and we have 5 .
+We shall next prove the theorem which has just been assumed , namely , that the number of real values of is finite , that the number of purely imaginary values is infinite , and that there are no other complex values of It will also be shown that the imaginary values of are such that the series just obtained for converges very rapidly except when is quite small ; and that the convergence is uniform with respect to and X when and , where is an arbitrary small positive angle .
+It follows from these results that term-by-term differentiation with respect to is permissible , and also ( by Abel 's theorem on continuity ) that : ; , may be written in place of X to obtain the effect ue to an oscillator placed on surface of the Earth .
+The only inconvenient property of the series is the number of real values of ; there may be as many as 60 or 80 such values .
+The corresponding terms of the series are of an oscillatory character , and in this ideal problem numerical computation would be somewhat tedious .
+We now define the function by the equation and we proceed to investigate the zeros of .
+As in my previous paper , we write , and we shall also write ; further , we define and to be the ( discontinuous ) solutions of Bessel 's equation , whose asymptotic expansions ( of Debye 's type ) when and are large but not nearly equal , are given by the formulae Prof G. N. Watson .
+It follows from the Tables given in my previous paper ( p. 93 ) that except in narrow bands of the plane , in which the Hankel-Neilsen functions of and have asymptotic expansions of different types , the function of involving two functions of the type , while the function of involves only one such function .
+In these bands the expression just given for has to be modified by the insertion of terms which are negligible in comparison with the terms already present , is nearly equal to or Hence the ] zeros of in the whole plane are near the curves on which the real part of vanishes , or else they are near the points arding x and as fixed course , being complex variable ) , we write .
+It is found that and that vanishes on the cruciform figure consisting of the imaginary axis and of that part of the real axis which joins the points Also , when is large compared with and It is now easy to prove that does not vanish except on the cruciform figure .
+For if there were any curve on which anisl ) this curve would either ( i ) be closed , or ( ii ) have points at infinity , or ( iii ) terminate on the cruciform figure , or ( iv ) tenninate on the cuts from to These possibilities do not in fact occur , for ( i ) the closed curve would contain a zero of , and there is no such point except ; ( ii ) vanishes at infinity only on the imaginary axis ; ( iii ) the end points would be zeros of , and no curves on which vanishes emerge from the origin except the axes ; ( iv ) is negative on the cut from to and it is positive on the other cut .
+We shall next determine the number of zeros of in an arbitrarily large region of the plane , and we shall show that this number is the same as the number of zeros of , which lie on the cruciform figure formed by the imaginary axis and that part of the real axis which joins the points ; and it is then obvious that all the zeros of lie on this cruciform figure .
+Consider taken round a rectangle in the -plane with The nsmission of Electric Waves round the Earth .
+553 corners at the points , when is a large integer .
+When we make , the rals along the vertical sides of the rectangle tend to zero .
+Since is large , we may replace the functions by the dominant terms in their asymptotic expansions , and so the change of phase of when traverses a horizontal side of the rectangle is the same as the change of phase of , hence the total change of phase of as describes the rectangle as .
+The total number of zeros inside the rectangle is therefore Next consider the zeros of which lie on the cruciform figure formed by the ima , ginary axis and the part of the real axis joining ; on this curve is a pure imaginary .
+Also , by using Debye 's integrals , it may be shown*that , with each value of , which makes equal to an integer , is associated one and only one zero of , and this zero is .
+on the cruciform figure ; the difference between the value of , which makes ) an integer , and the corresponding zero of may be calculated by Stokes ' method when is not small .
+Now ; we take to be the greatest integer oontained in this number , and write .
+Then , as passes along the real axis to , and then along the imaginary axis to , increases from to passes through zeros .
+To show that has zeros between and , we express in terms of Bessel functions of the first and second kinds by the formula Now as decreases from to , the function , defined by the equation remains bounded , since the order of the Bessel function exceeds its argument ; but passes through an infinity for each zero of its denominator , and there is one such zero for each multiple of , which passes through ; since this function varies from to through purely imaginary values , there are such zeros .
+Also is a decreasing function of , and it may be shown ( by using Bessel 's equation ) ' that is an increasing function of when , so * The proof is substantially identical with that given in the simpler case of a single Bessel function ( of the first or second kind ) , ' Roy .
+Soc. Proc , vol. 94 , p. 193 ( 1918 ) .
+'Proc .
+Lond. Math. Soc. ' ( 2 ) , vol. 16 , p. Prof. G. N. Watson .
+that .
+Consequently the graphs of and functions of , intersect exactly times when lies between and , and each intersection is just on the left of the corresponding value of which makes a multiple of Hence there are zeros of between and ; and since is an odd function there are evidently 2 zeros in all on the cruciform figure .
+Hence all the zeros of are on the cruciform figure ; and this is the result which had to be established .
+The number of positive zeros of is the integer next less than .
+Since , we can easily construct the following Tables .
+In these Tables denotes the height of the reflector above the surface of the Earth , and denotes the wave-length , both being measured in kilometres .
+6 .
+We now consider the value of .
+When , and X are regarded as fixed , while tends to infinity through its purely imaginary values , it is easy to show that this function is bounded , and so the series for the Hertzian function converges like ; and in view of the rapid convergence of this series except near ) it follows that the series for the Hertzian function converges uniformly when The statements made at the beginning of S5 are therefore established .
+We shall consequently suppose that the transmitter is actually on the surface of the Earth ; the error produced by neglecting the height of the transmitter minute .
+Furthermore , if we use the approximations , which are valid when is not nearly equal to , we find and this is greatest when or is very small , i.e. , when is nearly The Transmission of Electric Waves round the Earth .
+equal to or .
+The residue is not really infinite when is or , because closer approximations have to be used in calculating it .
+Hence is expressed as a series which consists of a finite number of terms which oscillatory functions of combined infinite number of terms each of which is roughly proportional to an expression of the type cosec It seems unnecessary to examine this series more closely ; our next object must be to consider modifications produced in the cillatory terms by into account the imperfect conductivity of the Earth .
+7 .
+With the aid of the results contained in SS4-6 we exantine the problem in which it is supposed that the Earth consists of an imperfect conductor surrounded by a perfect reflector in the upper regions of the atmosphere .
+The contour integral to be considered is now ' where ( kc ) Now in the caso of signals over a sheet of water the high conductivity of the water ensures that the disturbance at any depth is negligible , and so the solution is the same as if the Earth consisted of a sphere of water ; and in the case of signals over dry land the part of the disturbance which does not travel more or less directly along a geodesic from the receiver to the transmitter , produces little effect on the transmitter and so the solution is the same as if the Earth consisted of a sphere whose conductivity is that of dry earth at the surface of the Earth .
+Now where is the frequency of the waves and the values of , and are given in the following Table:\mdash ; It follows that , in both cases , is large compared with the real values of , and the phase of is nearly equal to ; also VOL. XCV.\mdash ; A. ) X Prof. G. N Watson .
+and this is quite small .
+Hence the zeros of are associated with of , and in calculating the zero of which is associated with any particular real zero of , we may take Let be the zero of which is associated with the zero of .
+In estimatin the value of , we have to use different approximate formula for the various Bessel functions according as is or is not remote from and In the easy case when is not near we have approximately and hence is determine ed by the approximate equation where .
+Hence Now is a pure imaginary when lies between and ; and so I ( ) , which is our essential requirement , is given by the formula I Except near the critical points , it be shown that is the change produced in when is replaced by Hence where is the height of the reflector .
+It follows that I For simplicity of calculation we shall take the phase of to be exactly , and then we shall write We deduce that I The expression on the left increases steadily from* to as decreases from to , but its rate of change is , on the whole , quite slow .
+Thus , so long as is fairly small ( but large compared with ) , the expression is *When is not actually infinite , because our approximation then becomes inadequate ; and it turns out that in reality I(3 ) is only moderately large .
+The Transmission of Electric Waves round the Earth .
+557 nearly equal to ) ; and when it is nearly equal to .
+In the former case we have approximately ; so the phase of is , approximately .
+In the case of values of which are nearly equal to or , we have to use the appropriate expansions*for Bessel functions of large order .
+As a moderately simple case which cau be worked out in detail , we shall consider what happens if a value of is actually equal to We then have ( cc ) Also , , where has the value corresponding to , so that .
+On using these results to simplify the equation , and then eliminating the Bessel functions involving by means of the equation and making the further simplification produced by the approximate equation ( which follows at once from a formula due to Debye ) , we find that If we put and substitute for the Bessel functions their approximate values in terms of Bessel functions of orders and - , this equation may be written ; that is to say , roc .
+camb .
+Phil. Soc vol. 19 , Proc. Boy .
+Soc , vol. , p. 96 Prof G. N. Watson .
+Now if the value of given by this equation is appreciably larger* than the value previously found , does not exceed ( when the wavelength is short ) , and it is less with a greater wave-length .
+Hence , in approximating to the Bessel functions , we may safely all except the first terms of the functions of negative order , so that say ; and , to a sufficient approximation , , where and since Hence the modulus of is greater than if were given by the formula , and the phase of is less than Now the imaginary part of given by this formula is numerically greater than that given by the formula obtained when is not nearly equal to if , i.e. , if Now the greatest value of wave-lengths used in practice is 10 kilom .
+, and , since it is certain that , the zeros of , which are nearly equal to are less important than those whose real part is appreciably less than The zeros of , which are nearly equal to , may be treated in a similar manner , with the same result .
+Now , in the case of waves over dry land , is about as small a value as may be given to when the simple approximation is used ; in the case of waves oyer water , the smallest admissible value of is much greater than Hence we may infer that , in the case of waves over dry land , the bulk of the zeros of , which are in the neighbourhood of the real axis , are between the lines on which I ( S ) has the values and none being nearer than the latter line ; in the case of waves over the sea , they are clustered much more closely about the former line , except the zeros near the point ; these zeros are nearer the real axis when the wave-lengths are long ( but they are not nearer in the case of the comparatively short wave-length of kilom .
+used by Austin ; for a wave-length of 10 kilom .
+, they are not nearer if , as is probably the case ) .
+If the value were appreciably larger , the contribution to the Hertzian function of the corresponding term would be smaller .
+The Transmission of Electric Waves round the Earth .
+559 The values of corresponding to differ by the figure .
+lt should be observed that no zero of can lie on the positive half of the real axis ; for , if it could , then either ( i ) would be real with positive and complex , and this is not the case ; or else ( ii ) both and its derivate with respect to would vanish simultaneously ; this would involve ( y ) and , having a common zero , which is not the case , or else the ronskian of and would vanish , which is impossible , since its value is 8 .
+If , now , we take the integral introduced at the beginning of S7 , and evaluate it in the usual manner , we find that the transformed Hertzian function consists of three parts .
+The first part is a finite series of not more than 80 terms , corresponding to the real zeros of ; in this series the terms are of the order of magnitude of , where I ( v ) lies between and ; these terms may be taken as equivalent to cosec in absolute magnitude , except when is nearly equal to Prof G. N. Watson .
+The second part is a rapidly convergent infinite series , in which the are of the same type as in the first series , but tends to infinity in the direction of the imaginary axis , so that the Legendre functions may be replaced by negative exponentials .
+This series is igible compared with the first series .
+* The third part is the integral ( lcc ) ( kc ) Now contains as a factor ' and , as in my former paper , the presence of this factor makes the integral ( or its principal value ) negligible in comparison with the first of the two eries .
+Hence the order of magnitude of the Hertzian function is , except near the antipodes of the oscillator Now In the case of waves over dry land , this is ; in the case of waves over the sea , it is .
+The latter expression is evidently excessively small compared with the value suggested by Austin , .
+The inference is that the upper regions of the atmosphere cannot be treated as a perfect conductor .
+We shall therefore have to attack the problem of an imperfectly conducting sphere surrounded by a concentric sheIl of imperfectly conducting material , the region between sphere and the shell being filled with homogeneous dielectric .
+* There is no sharp dividing line between the end of the first series and the beginning of the second .
+Near the antipodes the factor cosec has to be suppressed .
+investigation of the terms of the function corresponding to zeros of near , and between and , has been suppressed deliberately , in order that the paper should not be overloaded with analysis .
+The Transmission of Electric Waves round the Earth .
+561 9 .
+In the problem which has now to be considered , we suppose that the constants in the upper atmosphere have the values ; since the upper atmosphere is a good conductor , the Hertzian function is inapl ) reciable when exceeds by a comparatively small amount , so that the error produced by supposing that the conductor extends to infinity is negligible .
+We take and to have the same forms as in S2 , and we suppose that the Hertzian function in the conductor is where .
+The boundary conditions are now , , , .
+The equations connecting are , , On solving these equations we find that the of the Hertzian function at the surface of the Earth is where ( ka ) ( kc ) Prof. G. N. Watson .
+The value of the Hertzian function is consequently dependent on the .
+zeros of If we denote the zero of which corresponds to the zero of by ( so that has not the si , the equation which determines 3 approximately is where and .
+On solving we find that ( v-u)$ [ cosech ] cosech v Hence consists of two terms each of which is of much the same type as the single term investigated in S8 .
+In order to obtain an expression of the form taken empirically by Austin , it is necessary that should be large compared with , and then the phase of is nearly and in the case of waves over the sea we obtain Anstin 's factor if .
+i.e. , if This equation gives Hence Austin 's factor is obtained if the reflector has a h.sight of say 100 kilom .
+and conductivity .
+A conductor with this conductivity* is a fairly good conductor so that Austin 's result seems to be quite compatible with what is known concerning the upper atmosphere .
+The factor corresponding to Austin 's number in the case of waves over dry land is .
+I am not aware of any quantitative experiments having been carried out for such waves , but the in A is quite consistent with the well-known fact that electric waves are transmitted much more easily over water than over dry land .
+The fact that has a number of zeros with the same imaginary part , so that the Hertzian function contains a number of terms of the same order of magnitude but of different phases , suggest that , in certain circumstances , interference effects may be produced ; such effects have actually been observed .
+* The measure of this conductivity in ordinary electro-magnetic units is ; the corresponding specific resistance is 6 .
+For copper the corresponding resistance is about 1600 ; for fresh water about The Transmission of Electric Waves round the Earth .
+563 10 .
+It is to be concluded that the ionisation theory which results in the upper regions of the atmosphere acting as a reflector of electric waves of long wave-length is sufficient to explain the observed facts concerning the rate of decay of electric waves transmitted over large sheets of water ; and it has been seen in my previous paper that a theory of pure diffraction is insufficient to account for these facts .
+The results contained in this paper consequently afford a confirmation of the theory put forward by Heaviside and others and modified by Eccles .
+VOL XOV .
+

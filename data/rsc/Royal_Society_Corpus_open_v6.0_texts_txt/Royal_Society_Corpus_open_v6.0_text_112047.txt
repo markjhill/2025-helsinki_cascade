@@ -1,0 +1,297 @@
+I. " On Complex Binary Quadratic Forms .
+" By H. J. STEPHEN SMITH , M.A. , F.R.S. , Savilian Professor of Geometry in the Uniiversity of Oxford .
+Received May 18 , 1864 .
+The purpose of this note is to extend to comnplex quadratic forms some important investigations of Gauss relating to real quadratic forms .
+We shall consider in order ( I. ) the definition of the Genera , ( II .
+) the theory of Composition , ( ILI .
+) the determination of the number of Ambiguous Classes , ( IV .
+) the representation of forms of the prinicipal genus by ternary quadratic forms of determinanlt 1 .
+For the comparison of the numbers of classes of different orders , we may refer to a paper by M. Lipschitz ( Crelle 's Journal , vol. liv .
+p. 193 ) ; and for the principles of the theory of complex numbers and complex quadratic forms , to Lojeune Dirichlet 's Memoir , " Recherches sir les forms quadratiques a coefficielits et a indetermin &amp; es complexes " ( Crelle , vol. xxiv .
+p. 291 ) .
+I. The Definition of the Genera .
+Let f= ( a , 6 , c ) be an uneven'* primitive form of determinant D , and m=ax+26x yy cy2 ' , m'= ax 2+ 26x'y'+ cy"2 two numbers represented by f. The generic characters off are deducible from the equation ( ax2+ 26xy + cy2 ) ( aX"2 + 26x'y'+ cy2 ) = ( aX ' + b[.y ' + 'y ] + cyy')2-D ( xy'x'y ) ' , or , as we shall write it , rnni't= DQ2 .
+Thus , supposing that p is an uneven prime dividing D , and that mn and MI are prime to p , the numbers prime to p , which are represented by f , are either all quadratic residues of p , or else all non-quadratic residues of p ; in the former case we attribute tof the character Lj =+ 1 , in the latter the character [ = -1 .
+Again , to investigate the supplementary characters relating to powers of the even prime 1 +i , let m=p+ilt ' be an uneven number , ,u and , u ' representing real iiunubers , and for brevity , let ( 8{1+ / 1 ) 3 , ( 1)N .
+=Y ) The values of the units , or characters , a , , y depenld on the residue of m for the modulus ( 1 + i)9 , as is shown in the following Tablet TABLE I. +l +1 +1 +1 +i ... ... . .
+-1 .
+3.._ ... ... _._ ... ... ... ... I I +3 . ?
+1 --1 +1 +3i +1 -1 -1 +(1-2i). .
++1 +1 ?
+( 2+i ) -I +1 -1 +(l ?
+2i ) .
+-1 -1 1 Ani inspection of the Table shows that , of the sixteen uneven residues of ( 1 + i ) ' , eight have the character w= 1 , and eight the character w= -1 , w representing any one of the seven characters a , P3 , y , O3/ , ay , aZp , / 3y .
+It will also be seen that any character of a product of two uneven factors is found by multiplying together the corresponding characters of the factors ; so that , conversely , according as any character of a product of two urneven factors is +1 or 1 , the two factors agree or differ in respect of that character .
+The next Table assigns the supplementary characters proper to any given determinant ; they depend on the residue of the determinant for the modulus ( 1+i)2 .
+TABLE IL D Characters .
+D Characters .
++ ( 0 + ) t i(3 +1 r ?
+( 3+i ) a4y +3 y + ?
+( 3-i ) .
+Y 3iM +2 .
+, ( y ?
+( 2i ) y +2i ... .y ?
+( 2+i ) y2 ( ?
++i)./ ... a/ 3 y ( 1 + 2i ) y 2(1-i).3 , y + ?
+( 2-i ) ay 4 ... o. .
+, ,y Of the eighteen propositionscontained in this Table , it will suffice to enunciate and demonstrate one .
+" If D_+ ( 3 + i ) , mod ( I + i ) ' , and f is an uneven form of determinant D , the uneven numbers represented by f , all have the character a3y= + 1 , or else all have the character ay I " .
+" In the equation P2 -DQ2=mm ' , let us suppose that m and m ' are uneveln ; then P is uneven because D is semieven ; also Q2 § 1 , § 2i , 4 or 0 , mod ( 1 + i ) ' , according as the index of the highest power of 1 +i dividing Q is 0 , 1 , 2 , or &gt; 2 .
+If Q is uneven , nm'_+ ?
+3i or ?
+( 2 +i ) , mod ( I ?
+i ) ' ; if Q is semieven , mmtm-+ ( I + 2i ) , mod ( I +i)5 ; if Q is even , mm'a I , mod ( I ?
+i)5 ; i. e. in all three cases mm ' has the character az/ 3y= I , and m and ml both have the character cqy= + 1 , or else both have the character aBy -1 .
+We add a third Table for the purpose of distinguishing between the possible and impossible genera .
+In this Table S2 is the greatest square dividing D , P is uneven and priimary* , I is the index of the highest power of l+ i dividing S , w represents an uneven prime dividing P , or an uneven prime dividing S but not P. For brevity , the symbols w and a ' are written instead of [ and f TABLE III .
+( i ) D=PS2I PE1 , mod 4 .
+1=0,1 rI ; 1=2 vi r , y , I &gt; 2 7 a ' , )y , t ; j3 .
+( ii ) D=PS2 , 1P 1 +2i , mod 4 .
+I=O , I , a ' 1=2 v , y , 1 &gt; 2 v , yaa ( iii ) D=iPS2 , P_1 , mood 4 .
+I=0 'a , a 1=1 , 2 v , a 1 &gt; 2 v , a tC.y , / 3 ( iv ) D-=iPS2 , P1+ 2i , mod 4 .
+1=0 v , ay a 1=1 , 2 i , ac , y Ia ' 1 &gt; 2 i , a , y a , f. ( v ) D=(1 +i)PS2 , P_1 , mod 4 .
+1=0 , f3 a I= 1 wi , / 3 I &gt; 1 S 13 ?
+, ,Y a. ( vi ) D= ( 1+ i ) PS2 , P=1 + 2i , mod 4 .
+1=0 v , / 3y a I_1 , ,B , y 1=1 vi,3 , y aI .
+( vii ) D=i ( 1 +i)PS2 , P-1l , mod 4 .
+I=O 1vi , I3 I= !
+2 , oa3 5 qY I1=1 vir , a , O. , / y. ( viii ) D-=(i+i)PS2 , P1 +2i , mod 4 .
+1=0 -i , 03y ia I-I v , 43 , y a ' &gt; 1 v , cW a } , / y a ' .
+The characters preceding the vertical line by which the Table is divided are not independent , but are subject to the condition ( arising from the laws of quadratic residues ) that their product must be a positive unit .
+To show that this is so , let D= i(l +i)fPS2 , where a ' and j ' are each either 0 or 1 ; also let y'=O , or 1 , according as P-n1 , or _1 +2i , mod 4 .
+If m is a number primie to ( 1 + i)D and capable of primitive representation* by ] , the congruence w2-D , mod m , is resoluble ; and its resolubility implies the condition [ jJ=[ x [ ?
+) x jjP ] =1 .
+But , by the laws of quadratic residues , [ 1 ] =a [ =I3 [ _ = -/ P [ p ] ; and the condition just written becomes a ' / 35 P/ [ pj =l , which is coincidenit with that inidicated in the Table .
+Thus ( as in the real theory ) onehalf of the whole number of assignable generic characters are impossible * ; we shall presenitly obtain a different proof of this result , and shall also show that the remaining half correspond to actually existing genera .
+For the characters of a semieven form f , it is convenient to take the characters of the numbers represented by 7 .
+; and for the characters of an even form , the characters of the numbers represented by L. The 2i following Table will serve to form the complete generic character in each case .
+For a semieven form .
+( i ) D=uPS2 , P--E1 , mod 4 .
+I=Q I ar I O. .
+( ii ) D ' PS2 , P-1I + 2i , mod 4 .
+1=0 , y J. For an even form .
+1=0 IaI a. II .
+The Theory of Composition .
+The theory of composition given in the 'lDisquisitiones Arithmeticae ' is immediately applicable to complex quadratic forms .
+There are , however , a few points to which we must direct attention .
+( 1 ) If mi , m , i , are the greatest common divisors of a , 2b , c ; a , ( 1+ i)b , c ; at , b , c , we have ( i ) n1 =m in , ,= I ( ii ) ml-rn , =(l +i)in , ( iii ) in1 =(l + i)m2 =( 1i)in3 , according as ( a , b , c ) either is , or is derived from , ( i ) an uneven , ( ii ) a semieven , ( iii ) an even primitive .
+Hence the order of a formis given when ml and i are given .
+Thus , if F is compounlded of f and f , and if M1 M , Mk3 .
+m in in3 , rnm1 ',2 '2 refer to F , f , f respectively , the order of F is 'completely determined by the two theorems , 'M -is the product of in , and is the least common multiple of 1 ? !
+and i7 ' .
+" ( Gauss 's 5th and 6th conclusions , Disq .
+Arith .
+art .
+235 .
+) It will be found that Gauiss 's proof of these theorems can be transferred to the complex theory ; only , when f and f ' are both semieven , or derived from semieven primitives , the proof of the sixth conclusion is incomplete , and , while showing that F cannot be derived from an unieven primitive , fails to show whether it is derived from a semieven or from an even primitive .
+But , in the same way in which Gauss has shown that M. is divisible by m1 x m'1 , it .
+can also be shown that M2 is divisible by im2 X iT2 ; i. e. , in , the case which we are considering , M2 is divisible by M1 , because rn , =rn1Ml m3=m1 , and in in/ =M1 .
+Therefore M2=Ml , and F is derived from a semieven primitive in accordance with our enunciation of Gauss 's sixth conclusion .
+( 2 ) In the real theory , when two or more forms are compounded , each form may be taken either directly or inversely ; bnt , however the forms are taken , the determinant of the resulting form is the same .
+In the complex theory , not only may each of the forms to be compounded be taken in either of two different ways , but also the determinant of the resulting form may receive either of two values , differing , however , only in sign ; and it is important to attend to the ambiguities which thus arise .
+If a complex rational number n be written in the form iX(l + i &gt; t Q , where X is 0 , 1 , 2 , or 3 , , is any positive or negative integer , and P , Q are primary uneven complex integers , we may term i , the sign of n. Let F , of which the determinant is D , be transformed into the product f , xf , x ... f , , by a substitution [ X , Y ] linear and homogeneous in respect of h binary sets ; we have , as in the real theory , h equations of the type dX die clX cY\ 2d f2 dx k cdy , dyk dC ) D f2 v da representing the determinant off. .
+Let ( dXdY dX die .H.f k Vdk " 'yk ( YkCltVk fk so that 2 if ifi is the sign of nk ' we shall say that fk is taken with the sign ?
+" .
+We can thus enunciate the theorem , " Forms , compounded of the same forms , taken with the same signs , are equivalent .
+" If fi , f 2 ... A are given forms which it is required to compound , the signs of d , d2 , .
+7 .
+'.dM must be all real , or else all unreal ; and the sign of ID will be real or unreal accordingly .
+The value of D ( irrespective of its signi ) is ascertained as in the real theory ; but it may receive at our option , in the * Disq .
+Arith .
+art .
+235 .
+The proof that 2(bb'+A ) and 2(bb'-A ) are divisible by X '1 ' may be employed ( mInutatis mtttandis ) to show that ( 1 +i ) ( bbi ) and ( 1 ?
+i ) ( bb'^ t ) are divisible by m2 Xm'2 .
+one case , either of the two real signs , and in the other case either of the two unreal signs .
+And whichever sign we give to D , the form fk may be taken with either of the two real signs , if the sign of dD is + 1 , and with D either of the two unreal signs , if the sign of dDis -1 .
+In the important case in which dl1 , ... all have the same sign , we shall always suppose D to have that sign , and f , , f2 ... to be all taken with the sign + 1 .
+Adopting this convention , we see that the class compounded of given classes of the same determinant , or of different determinants having the same sign , is defined without ambiguity .
+( 3 ) By the general formulae of M. Arndt ( Crelle , vol. lvi .
+p. 69 ) , which on account of their great utility we transcribe here , we can always obtain a form ( A , B , C ) compounded in any given maniner of two forms ( a , b , c ) and ( a ' , b ' , G ' ) , of which the determinants d and d ' are to one another as two squares .
+A aa FL2 an ' __ ab ' A_1FB 66nB _ aZ mod API bn ' ?
+b'n -76 ' ?
++ DBab ' '| BI C=A In these formule D is the greatest common divisor of diM'2 and d'm2 , in and m ' representing the greatest common divisors of a , 2b , c , and a ' , 2b ' c ' ; n and n ' are the square roots of d and dD ; FL is the greatest common divisor BB of a. ' , a'n , and bn'+b'n .
+The signs of D , n , and n ' are given , because the manner of the composition is supposed to be given ; to , we may attribute any sign we please , because the forms ( A , B , C ) and ( -A , B , -C ) are equivalent .
+( 4 ) If F= ( A , B , C ) is compounded of two primitive forms f and f , and if M is the highest power of 1 +i dividing A , B , C ( so that M is 1 , or 1 +i , or ( 1 +i)2 ) , the complete character of the primitive form IF is M obtained by the following rule:"If o is any character common to f and f ' , 1F will have the character w+ 1 , or w= -1 , according as f and f ' agree or differ in respect of that character .
+" In comparing the characters of f and f ' , it is to be observed that if w and 'are two supplementary characters off , and wx w ' a supplementary character off ' , ( x w ' is to be regarded as a character common to f and f. ( 5 ) Let us represent by ( 1 ) , ( a ) , and ( 2)* respectively the principal uneven , semieven , and even classes of determinant D i. e. the classes containing the forms ( 1 , 0 , -D ) , ( 1+i,1 , )and(2i , i_ .
+2 the existence of the last two classes implying the congruences D-=1 , mod 2 , Dmni , mod 4 , respectively .
+Employing the formulme of M. Arndt , we find ( f ) x ( 1 ) = ( f ) , if ( f ) is any class of determinant D ; ( f ) &gt; ( a ) -(1 +i ) ( f ) , if f is derived from a semieven or even primitive ; ( f ) x ( 2 ) =2i(f ) , if f is derived from an even primitive ; and , in particular , ( 1 ) X ( 1)-(l ) , ( C ) x ( a)-(l+)(a ) , ( 2 ) x ( 2)=2i(2 ) .
+Also , if(f ) and ( fl- ) are two opposite primitive classes , ( f ) x ( f ) =(1 ) , or ( 1 + i)(a ) , or 2i(2 ) , according as f and f -1 are uneven , semieven , or even .
+Hence the three equations ( f , ) x ( 4 ) = ( f2 ) , ( fi ) X ( )= ( i + i)(f2 ) , ( fr ) x ( 4 ) = 2i(f2 ) , in which ( f1 ) and ( f2 ) are given primitive classes , uneven in the first , semieven in the second , and even in the third , are respectively satisfied by the uneven , semieven , and even classes ( s)=(f2 ) x ( f , ) -(1 ) )x ( f1)-i l+i ( f 2)x ( fi but by no other classes whatever .
+Again , let D=A &amp; m2 and let the forms ( mp , mq , mr ) , ( [ I + i]mp , mq , [ 1 +i]mr ) , ( 2imp , mq , 2imr ) represent classes derived by the multiplier m from uneven , semieven , and even primitives of determinant A ; in all three forms we suppose p prime to 2D ; in the second and third we suppose q uneven , and A-1n , mod 2 ; in the third we suppose A __ 2Jk mod 4 .
+The formule of M. Arndt will then establish the six equations , ( m , 0 , -Am ) x ( p , mq , mn2r ) ( mp , mq , in ) , ( [ 1 ?
+m IX(p , mq , 2in'r)= ( [ I + i]mp , mq , [ I + i ] are ) , ( 2im , M )m _)x ( p , mq , -4m2 ) = ( 2iip , mq , 2imr ) , ( [ 1+imn f$ l+ )X ( [ 1 +i]_p , mq , 1 +ijm2i ) -(I + i)X([ I r+fl ?
+, Iq[ , + i]mn ) , ( 2 , im , -m )X ( [ 1 ?
+i]p , mq , 2i[l + ijmn2r ) =( I+ i ) x ( 2imp , mq , 2imr ) , ( 2im , 4jm , -m A)X ( 2ip , mq , 2imr ) = 2i x ( 2imp , mq , 2imr ) .
+From these equations , which contain a solution ( for complex numbers ) of the problem solved for real numbers in art .
+250 of the ' Disquisitiones Arithmeticoe , ' we may irnfer the following theorems ( Disq .
+Arith .
+art .
+251 and 2.53 ) " The number w of classes of any order a2 is a divisor of the number it of uneven classes of the same determinant D ; and , given any two classes n of order ?
+2 , there are always -uneven classes which compounded with one of them produce the other .
+" " If D =1 , mod 2 , and if the classes of &amp; 2 are derived from semieven or even primitives , w is a divisor of the number n ' of semieven classes of determinant D ; and , given any two classes of order ?
+2 , there are always semieveii classes which compounided with one of them produce 1+ i times the other .
+" " If D+ 1 , mod 4 , and if the classes of El are derived from even primitives , w is a divisor of the number n " of even classes of determine nant D ; and , given any two classes of order 0 , there are always even classes which compoulnded with one of them produce 2i times the other .
+" III .
+Deternzination of the number of Ambiguous Classes .
+Any form ( A , B , C ) , in which 2B 0 , mod A , is called by Gauss an ambiguous form ; but in the investigation which follows we shall for brevity understand by an ambiguous form an uneveln form of one of the four types ( i ) ( A , 0 , C ) , ( ii ) ( l ?
++ i ] B , B , C ) , ( iii ) ( 2B , B , C ) , ( iv ) ( 2i B , B , C ) .
+To determinie the number of uneven ambiguous classes of any determinant D supposed not to be a square , we shall determine , first , the number of ambiguous forms of determinant D ; and secondly the number of ambiguous forms in each ambigtuous class .
+( 1 ) Let p be the number of different uneven primes dividing D. The number of ambiguous forms of the type ( i ) is 4x 2 " , or 8x 2 " , according , as D is , or is not , uneven .
+For we may resolve D into any two relatively primile factors , and may take one of them ( with any sign we please ) for A , and the other for C. There are no ambiguouis forms of the type ( ii ) , unless D_i , mod 2 , or --0 , mod ( 1 ?
+i)3 .
+For in the equation D=B ( B-[l+i ] C ) , if B is unieven , we have D5i , mod 2 , because C must be uneven ; if B is semieven or even , we have D 0 , mod ( 1 ?
+i)3 .
+If D=-i , mod 2 , we resolve D into any two relatively prime factors X and Y , and writing B=X , B-(1 +i ) C=Y , we find C=X WY , which is integral because X and Y are uneven , ,and uneven because X is not _Y , mod 2 .
+Thus if D= i , mod 2 , there are 4x 2 " ' ambignous forms of the type ( ii ) .
+Again , if D=_O , mod ( 1 +i)3 , we may resolve D in ally way we please into two factors having I +i for their greatest common divisor ; we find in this way 8x 2 " ' ambiguous forms of the type ( ii ) .
+There are no ambiguous forms of the types ( iii ) or ( iv ) , urnless D-n1 , mod 2 , or 2 , mod 4 , or O0 , mod ( 1 +ji)5 .
+For if in the equation D=B(B-2C ) , we suppose B uneven , we find D_ 1 , mod 2 ; if B is semieven , B2_2i , and 2BC_=2(l +i ) , mod 4 , whence D=n2 , mod 4 ; lastly , if B is even , D=O , mod ( 1+i ) ' .
+The same reasoningap-plies to the equationD_B(B-2iC ) .
+If D_1 , mod 2 , we resolve D in every possible way into the product of two factors relatively prime ; let D=XxY be such a resolution , then D=iX x -iY is another ; and it will be seen that according as the last coefficient in the two forms [ 2X , X , -__ 2-]i 2X9 X , is uneven or not uneven , so the last coefficient in the two forms [ 2iX , iX , iX iY [ 2 X. ix.9 , is not , or is , ulneven ; i. e. there are 2x2 ambiguous forms of each of the types ( iii ) and ( iv ) .
+If D __ 2 , mod 4 , we resolve D in every possible way into two factors , of which 1+i is the greatest common divisor ; we thus find 4x 2 , uneven forms of each of the types ( iii ) and ( iv ) .
+Lastly , if D=0 , mod ( I +i)6 , we resolve D in every possible way into two factors of which 1 +i is the greatest common divisor , and we obtain 8x2 forms of each of the types ( iii ) and ( iv ) .
+The result of this enumeration is that if D be uneven , or semieven , or 2i , mod 4 , there are 8x 2 " ' ambiguous formis ; if D-2 , mod 4 , or =0 , mod ( l+i)3 , but not mod ( I+i)5 , there are 16x 2 " ; and if Dn=0 , mod ( 1 +i ) ' , there are 32 x 2 " .
+On comparing this result with Table III .
+, it will be seen that in every case there are four times as many ambiguous forms as there are assignable generic characters .
+( 2 ) Letf=(a , b , c ) be any form of an ambiguous class ; if ( I ) = -P is an improper automorphic off , X , p , v satisfy the equations Xa+2ib+vc=O ; . .
+( 2 ) and , conversely , if X , , v satisfy the equations ( 1 ) and ( 2 ) , ( I)| ' is an improper automorphic of f. Let a , , p , q ( of which a and y are relatively prime ) be a system of integral numbers satisfying the equations .
+I , ,--1 ) , * , *(3 ) and let 0=0 , 1-i , 1 , or -i , according as 0 , 1-i , 1 or i satisfies the congruences p+0 -O , mod 2 , q+Oy 0 , mod 2 , which are simultaneously resoluble , and admit of only one solution , because a and y are relativelyprime , while q%-py=2 .
+Then it willbefound that by the proper transformation 2(p ?
++ a ) 'Y ( q + OrY ) f is transformed into an ambiguous form 0 , which will be of the type ( i ) , ( ii ) , ( iii ) , or ( iv ) , according as 0= 0 , 1-i , I , or i. It will also be seen that , subject to the condition that a and y are relatively prime , there are always four , and only four , solutions of the system ( 3 ) , represented by the formula a , ikp i-k -kq There are thus four transformations included in the formula ( J ) , two of them transformingf into the same ambiguous form 0 , and the other two transformingf into the same form taken negatively .
+The four transformations ( J ) , and the two ambiguous forms 0 and -q , we shall term respectively the transformations and the ambiguous forms appertaining to the improper automorphic ( I ) .
+If we now form the transformations appertaining to every improper automorphic off , it can be proved ( A ) that these transformations will all be different , and ( B ) that they will include every proper transformation off into an ambiguous form .
+( A ) As the four transformations appertaining to the same improper automorphic are evidently different , it will be sufficient to show that if ( J ) and ( J ' ) appertain to the improper automorphics ( I ) and ( I ' ) , the supposition ( J ) ( J ' ) implies ( I ) ( I ' ) .
+From the equations a=ay=y ' , p ?
++Oca=pJ ?
+O at , q ?
+Ory=q ' ?
+Jfy ' ( which are equivalent to the symbolic equation ( J ) = ( J ' ) ) , combined with the system ( 3 ) , and with a similar system containing the accented letters , we find whence again ( 0-0 ' ) ( aa'2+26y+cy2)=O , by virtue of equation ( 2 ) .
+The coefficient of 0-0 ' is not zero , for D62ac is not a square ; therefore 0-0'=0 ; i.e. XX ' , = t ' , '= v ' , or ( I)=(I ' ) .
+( B ) Let |a be a proper transformation of f irnto an ambiguous form ; according as q ) is of the type ( i ) , ( ii ) , ( iii ) , or ( iv ) , let 0=0 , 1-i , 1 , or -i ; let also X=2a3-Oa2 , p=a+ ?
+y-Oa7y , v-2ya-y2 ; then | ' _X = ( I ) is an improper automorphic off ; for ~2-Xr( 3 3y)2=l , and Xa+2 , uh+ ?
+c=0 , because of the ambiguity of the form into which f is transformed by Also | ' 7 appertains to ( I ) ; for , writing p and q instead of 2j3-O , and 2a-0 we have | - ?
+p+Ga ) | Oa ( ofwhich I ( qGy I ' ' " ) c : and y are relatively prime ) being four numbers which satisfy , the system ( 3 ) ; i. eI a3 ?
+I appertains to ( I ) , an improper automorphic off .
+It follows from ( B ) that , if we calculate the ambiguous forms / and-q appertaining to every improper automorphic off , we shall obtain all the ambiguous forms to which f is equivalent ; it remains to see how many of these ambiguous forms are different from one another .
+If ( I ) I Y : zA is any given improper automorphic off , all its similar automorphics are contained in the four formule ( T2kX ( 1 ) , ( T)2k+l x(I ) , ( T)2x Xo -1 0 ( ) ( T)2i X1 x ' M , |X where k is any positive or negative number , and ( T ) =It ' jj c [ t , uj ] representing a fundamental solution of the equation t2 -Du2= 1 .
+Similarly , if ( J ) represent the four transformations , appertaining to ( I ) , by which f passes into p or -t , all the proper transformations off into 0 or are included in the formula ( T ) x ( 3 ) .
+We shall now show that the four transformations included in the formula ( T)k x ( J ) appertain to the improper automorphic ( T)27 x ( I ) .
+Writing ak =(t-buk -a eUk 7 , p= ( )pu q 7kaUka+ ( tk + buk ) , q =aukp+(k +bUk)q , 2k= ( 2E-bU2k ) X_'C2kPJ I2k(tk 2-6u2k ) t-CU2kv = au2kX+ ( t2k+ bu2)p , Vt2k = a2kt ( t2 + b20 ) P we find immediately ( T)e X ( J)y= |k ( qk + o7* Ilk ( ) ) Ms 1'k-12k Also attending to the equations ( 2 ) and ( 3 ) , and to the relations t2kt= t-DU'k , u2k=2t4uk we obtain , after substitutionl and reduction , pk a k7=22k Pk I2k = P2"qkPak=2 +1 q 2kk=V2k i. .
+( T)* x ( 3 ) appertains to ( T)2k x ( I ) , if ( J ) appertains to ( T ) It follows from this result that the ambiguous forms appertaining to ( I ) and to ( T ) x ( I ) are the same ; forf is transformed ito the sameforms by ( J ) and ( T ) x ( J ) ; and conversely , if the ambiguous forms appertaining to two different automorphics ( I ) and ( I ' ) are identical , an equation of the form ( I')=T x ( I ) will subsist ; for if ( J ) and ( J ' ) are the transformations appertaining to ( I ) and ( 1 ' ) , since by hypothesis ( J ) and ( J ' ) transform f into the same form , we mrust have an equation of the form ( J ' ) -(T)k X ( J ) ; but ( J ' ) appertains to ( I ' ) , and ( T)k x ( J ) to ( T)Sk x ( I ) ; therefore ( I)= ( T)Sk x ( I ) , by what has been shown above ( A ) .
+If then we calculate the eight ambiguous forms appertaining to the four improper automorphics ( l ) , ( 0 ' ?
+lx ( I ) , ( T ) x ( I ) , ( ?
+1X ( T ) X ( I ) .
+these eight forms will be the only ambiguous forms equivalent tof .
+Thus every uneven ambiguous class colntains eight ambiguous forms .
+Combining , this result with the preceding we obtain the Theorem , " The number of uneven ambiguous classes is one half of the whole number of assignable generic characters .
+" The number of semieven and even ambiguous classes is determined by the two following Theorems : " When D+ 1 , mod 4 , therleare as maniy even as semieven ambiguous classes .
+) ) " When D=-1 , mod 2 , there are as many semieven as uneven ambiguous classes , or only half as many , according as there are altogether as many semieven as uneven classes , or only half as many.".2k To prove the first of these theorems , let Duni , Imod 4 , and let ( =2i , i ?
+) it is evident from the principles of the composition of forms that if ( S ) is a given semieveln ambiguous class , the equation ( 1 ) x ( s ) = ( 1 + i ) x( f ) is satisfied by one and only one even ambiguous class ( f ) ; in addition to this we shall now show that , if ( f ) is a given even ambiguous class , the same equation is satisfied by one and only one semieven ambiguous class ( 0 ) ; from which two things the truth of the theorem is manifest .
+First , let the whole number of even classes be equal to the whole number of semieven classes * ; then the equation ( 2)1 X ( o ) = ( I +i ) X(T That if D+ 1 , mod 4 , there are either as many semieven as even classes , or else three times as many , is a theorem of M. Lipschitz ( Crelle , Vol. liv .
+p. 196 ) , of which it is worth while to give a proof here .
+The number of even classes is to the number of semieven classes , as unity to the number of semieven classes satisfying the equation ( E ) X ( o ) = ( I +X OX ( fi).f representing any given even form .
+To investigate the semieven classes satisfying this equation , apply to fa complete system of transformations for the modulus 1 +i , for example , the transformations I 1,0 +1+i , 1+,1 0Q1 + ?
+, 01| f,1l is satisfied by only one semieven class ( p ) ; and this class is ambiguous , for the equation is satisfied by the opposite of ( q ) as well as by ( q ) itself ; therefore ( 0 ) and its opposite are the same class , or ( s ) is an ambiguous class .
+Secondly , let the number of semieveii classes be three times the number of even classes ; then the equation ( 1 ) X ( 0 ) =( O ) ( f ) is satisfied by three and only three different classes ( + ) ; but it is also satisfied by the opposites of these classes ; therefore one of them is necessarily an ambiguous class .
+Let that class be ( 0 ) ; the other two are defined by the equations ( 1+i ) ( 00)= f1)X +o ( ) ( 02 ) = ( f)X ( 00 ) ) and cannot be ambiguous classes ; for by duplication we find ( 01 ) X ( 01)-( +i ' ) ( 0f2)1 ( 02 ) X ( 02)-( +i)(f ) whereas every semieven ambiguous class produces ( 1 + i)o( by its duplication* .
+The second theorem may be proved as follows .
+Let f=([l+i]jp , q , 1 +i]r ) be a semieven form of determinant D ; and let D11 we suppose that p is uneven .
+The equation ( co ) x ( p ) = ( f ) is satisfied by one uneven class ( s0 ) , or by two ( +0 ) and ( q0 ) , according as the forms qO=(p , q , 2ir ) , and 0 , =(2ip , q , r ) , if r is uneven , or the forms 00= ( p , q , 2ir ) , and 01= ( 2ip , [ I +i]p+q , P ?
++ [ 1-i]q+r ) , if r is even , are or are not equivalentt .
+If any one of the formsf , q0 , 0 , is ambiguious , the others are so too ; the same thing is therefore true for the classes ( f ) , ( q0 ) , ( spl .
+Thus the number of semieven ambiguous classes is equal to or and divide the resulting forms by 1 +i ; of the quotients , one , or three , will be semieven , according as D--= +1 , or +5 , mod ( 1+i)5 .
+It will be found that each of these semieven forms satisfies the equation X -(I +i ) Xf ; and , conversely , every semieven form 0 satisfying that equation is equivalent to one of these forms ; for , from any transformation of ( I+i)f into 2X p , we may ( by attributing to the indeterminates of z the values 1 , 0 ) deduce a transformation of modulus 1 +i by which f passes into ( 1+ i ) ; i. e. , 'p is equivalent to one of the forms obtained by the preceding process .
+It only remains to show that when there are three of these forms , they constitute either one or three classes , but never two .
+For this purpose it is sufficient to consider the three semieven forms o=(I+i , 1 , + ) a , and a. obtained by the preceding process from the form E. These forms satisfy the equations aoXaO=(l+i)ao , C1X1=(1+i)a2 , 72X72=(l+ti)1 , ( 1Xo2-=(1+i)G0 ; from which it follows that any one of the suppositions a , = 2 , , a=g 0 , 0= o-1 involves the other two .
+is one half of the number of uneven ambiguous classes , according as the classes ( q0 ) and ( q1 ) are identical or not ; i. e. , according as the whole number of semieven classes is equal to or is one-half of the whole number of even classes .
+The demonstration in the ' Disquisitiones Arithmeticae , ' that the number of genera of uneven forms of any determinant cannot exceed the number of uneven ambiguous classes of the same determinant , may be transferred without change to the complex theory .
+We thus obtain a proof ( independent of the law of quadratic reciprocity and of the theorems which determine the quadratic characters of i and 1 +i ) of the impossibility of one-half of the whole number of assignable generic characters ; and from that impossibility , as we shall now show , the quadratic theorems are themselves deducible .
+( 1 ) If p is an uneven prime -1 , mod 2 , there are two geniera of uneven forms of determinant p : of these one is the principal genus , and has the complete characters ) 1 , y -1 ; the other , containing the form ( i , 0 , +ip ) , has the particular character y -1 ; whence it follows that every uneveni form of determinant _p , which has the character y= + 1 , is a form of the principal genus , and has the character [ 5 ] =+ 1 .
+Again , fp_ 1 , mod 4 , the form(2i , , ?
+')is an uneven form of determinantp ; this form has the particular character y =-1 , because ia mod 2 ; it is therefore not a form .
+of the principal genus ; but it has the character ( f ) -1 , because 2i is a square ; therefore , if pn_ 1 , mod 4 , every uneven form of determinant p has the character [ 1 ] + 1 .
+( 2 ) There is but one genus of forms of determinant i , and its complete character is a= + 1 ; there is also but one genus of forms of determinant 1 ?
+i , and its complete character is 13=+ 1 .
+( 3 ) Let p and q be uneven primes of which the imaginary parts are even ; to prove the law of reciprocity , it will suffice to show that if = 1 , then [ ]1 .
+The equation [ = ] = Implies the existenice of a congruence of the type w2-p_O , mod q , and consequently of an uneven form of determinant p , and of the type ( q , w , This form has the character y= + 1 , because q 1 , mod 2 ; it therefore has the character 1 .
+; i.eil= ] ( 4 ) To prove the equation 4 ] 1(4 1)4 in which we may suppose that the uneven prime p is primary , it will suffice to show ( i ) that if [ ii]=+1 , then ( -1)4( P)_1 ; ( ii ) that if ( -1 ) =l then [ ?
+] =1 .
+( i ) Let [ = 1 ; then , if ( o'-i -O , mod p , ( w , w i ) is a form of determinant i ; it therefore has the character c= 1 , i. e. ( -l ) ( NP-)=1 ( ii ) Let ( -1)4(NP1)=l ; then p=l , mod 4 , and the form ( i , 0 , ip ) is an uneven form of determinant p ; it therefore has the character ( )+ 1 ; whence [ ?
+I_=+I .
+( 5 ) Similarly , ifp=p+ ip1 is an uneven and primary prime , to prove the equation [ 1I ?
+] ( ) 8 we shall show , ( i ) that if[1 ?
+] -1 ( po+pj)2 1 ( po+pj)2'-1 then ( -1 ) 8 =-1 ; ( ii ) that if ( -1 ) 8 =1 , then [ FL -1 .
+( i ) Let It1=1 ; then there is a form of determinant 1+i and of the type ( p , , " ' ] ) this form has the character 03= + 1 ; there(po+pl)2-1 ( Po+Pj)2-1 fore ( -1 ) 8 =+1 .
+( ii ) Let ( -1 ) 8 ?
++I ; then p is eitherm1-2i , or=-= , mod ( 1 ?
+i ) ' ; ifp= ( + i)1k+-2i , ( [ 1 +ij , 4 1-2hi ) is an uneven form of determinantp ; this form has the character ly=+ 1 , and consequently it also has the character [ I , ] - ?
+1 ; therefore [ 1 ?
+1 ] = [ ( 1 ?
+i ) ] = ?
+1 ; if p=(1+i)5k+1 , one or other of the forms ( [ l i ] ' , 1 , -k ) , and ( [ +i ] ' , ?
++ [ l i]3 , 1-/ h ) is an ineven form of determinant p , having the character [ I ] =- ; therefore in this case alo[X ?
+] [ ( i+fl ] IV .
+The representation of Binary Forms of the principal Genus by Ternary Forms of Determinant 1 .
+The solution of the general problem , " To find the representations ( if any ) of a given binary by a given ternary quadratic form , " depends , in the case of complex as of real numbers , on the solution of the problem of equivalence for ternary forms .
+Extelnding the methods of Gauss to the complex theory , we find the necessary and sufficient condition for the primitive* representation of a binary form f of determinant D by a ternary form of determinant 1 to be , that f should be a form of the principal genus ; or , if D+ 1 , mod 4 , that f should be a form either of the prinicipal genus , or else of that genus which differs from the principal genus only in having the character y= 1 , instead of y-= + 1 .
+Again , because the reduction of Lagrange is applicable to complex binary forms , the reduction of Gauss* is applicable to complex terinary forms .
+It is thus found that the number of classes of such forms of a given determiniant is finite ; and in particular that every form of deter minant 1 is equivalent to one or other of the forms -x2-y2-z2 and X2 + iy2 + iZ2 , of which the former cannot represent numl)ers-i , orl 1 +i , mod 2 ; and the latter cannot primitively represent numbers 2 , or1--2(1 +i ) , mod 4 .
+The method of reduction itself sup* If F-ax2+a'y2+a"z2+21)yz+2 ?
+v'.z+2b " .
+Tie is a ternary form of determinant A , and Aa2+A'y2+A"z2+2Byz+2B'x.z +2B " .
+vi its couitravariant , by applying the reduction of Lagrange to the form aXr2+2b " .
+vi +a'y2 , we cani render N. a § 2 UN / .
+A " ( Dirichlet in Crelle 's Journal , vol. xxiv .
+p. 348 ) ; and by applying the same redtuction to the form A'y2+2Byz+A"z2 , we can renider N.A " . ?
+2 UN .
+c. The reduction of Gauss consists in the alternate application of these two reductions until we arrive at a form in which we have simultaneously N. ct 2 V/ N. A " , N. A"/ 2V N.aA and consequently N.W &lt; 4 ~t'N .
+A , N.AA".§ 4 &amp; N.A2 If A= 1 , we have N. a4 N.A " &lt; 4 ; wlbence a and A " can onlyl have the values 0 , +1 , +i , +(1+i ) , ?
+( 1-i ) , ?
+2 , +2i ; and it will be found , on an examination of the different cases that can arise , that the reduction can always be continued until a and A " are either both units , or both zero .
+In the former case , by applying a further transformation of the type 0 , l , t 0 , 0 , 1 the coefficients b , 6 ' , b " may be made to disappear ; and we obtain a forim equivalent to F , and of the type e 2+6'y2+e"z22c , e , e ' , e " representing units of which the product is -1 .
+In the latter case the form obtained by applying the reduction of Gauss is of the type a'y2+a"z2 +2byz+2b'.vz ; whenice Ct'b'2=1 , so that b ' is a unit which we shall ca.ll e ; and the form niya +a"z92+2byzr2exay , by a transformation of the type 1 , O , ,u O , 1 , 0 , 0 , 1 is changed iito one of the fouir forms E2 &amp; y2+2c.vz , 62y2+z2+2x.z , a2y2+iZ2+2Caxz e2y2+(1+ i)z2+2exz ; of which the first two by the transformations 1j , 0 , )-1 0 , 0 , -e ei , ci , e , 6-li , o , 0 0 , -i , -1 0 , i , a2 are changed into the form _x2- ?
+2 -z2 ; the last two by the transformations 0 , -a , 0 6-i , a- ] , a-1(1-i ) -a-1 , 0 , 0 , -c , -F , ai 0 , -i_2 , '-1 0 , -1 , i are changed into ev2+iy2+ijZ2 .
+( See Disq .
+Aritl mart , 272-2T74 .
+) plies a transformationi of any given form of determinant 1 into one or other of those two forms .
+If D-i , or I +i , mod 2 , no binary form of d eterlminant D can be represented by -x2-y2--z2 , because D cannot be represented by the contravariant of that form , i. e. by the form -x2-y2-z ' itself .
+Consequently , if D2i , or 1 +i , mod 2 , the binary forms of its principal genus are certainly capable of primitive representation by 2+ iy2 + iz2 .
+If Dun I , mod 2 , no form of the principal genus can be primitively represenited by X2+iy2+iz2 .
+Let f=(a , b , c ) be such a form , and let us suppose , as we may do , that 6 is even , so that ac=n 1 , mod 2 , and a -c-=I , mod 2 ( the supposition a-u ci is admissible , because f is of the principal genlus ) ; if possible , let the prime matrix ( of which A , B , C are the determiinalnts ) transform x2+ iy2+ iz2 intof ; we have the equations a= a2+ia ii23+ ia2 , c-+i32 + j3M2 , D=A2 iB2-iC2 , from which , and from the congruences D a-c_ 1 , mod 2 , we infer the incompatible conditions a ' + iall"t J+ i/ t3 _= O , mod I+ i , A_ 1 , mod I+ i ; i. e. f is incapable of primitive representation by x2 + iy2 + iz2 .
+If , therefore , D=al , mod 2 , the forms of its principal genus are capable of primitive representation by -xa2-y2_2 .
+Z We may add that when Dn= ?
+1 , mod 4 , the forms of that genus which differs from the principal genus only in having the character y= -1 , instead of y= + 1 , are capable of primitive representation by x2+iy2 ?
+iz2 , but nOt by-x2-2z2 .
+Lastly , let D OO , miod 2 .
+If D n2 , or-22(I +i ) , mod 4 , D cannlot be primitively represented by v2y2 _ iz2 , the contravariaint of 2+ iy2 + i2 ; i. e. no form of determinant D can be primitively represented by x2+ iy2+ iz2 ; so that forms of the principal genlus are certainly capable of primitive representation by _X2 _ yl-Z2 .
+But if D-2i , orGO , mod 4 , the forms of the principal genus are capable of primitive representation by both the ternary forms _-2_yl2 _Z2 and X22+iy2+iz2 .
+For if f=(a , 6 , c ) be a form of the principal genus of any even determinant , f can only represent numbersn O , or = 1 , mod 2 ; so that a ternary form of determninant 1 and of the type f+p"_z2 + 2qyz +2q'xz will be equiivalent to -x2-y2-Z2 , or to x2 + iy2 + iz2 , according as pt0 , or-1 , mod 2 , on the one hand , or pt==i , or al i , on the other hand .
+Again , if ( k , k ' ) is a value of the expression / ( a , -b , c ) , mod D , ( in which we now suppose a uneven and 6 semieven or even ) , Qk+ D + , kA ) is aniother value of the same expression ; and it can be shown* that when Dmu2i , or 0 , mod 4 , one of the two forms of determinant 1 , and of the type f+ ?
+pl_2+ 2qy ?
++ 2q9x , v which are deducible by the method of Gauss from those two values , satisfies the condition pt===O , or-1 , mod 2 , while the other satisfies the condition p"-=i , or 1+ i , mod 2 ; that is , f is capable of primitive representation by both the forms -x2-y2-z2 and X2+iy2+isZ .
+The preceding theory supplies a solution of the problem , " C Given a form of the principal genus of forms of determinant D , to investigate a form from the duplication of which it arises .
+" Letf=(a , 6 , c ) be the given form , and let us suppose ( as we may do ) that a and c are uneven .
+When D _si , or I+i , mod 2 , let X , f att ( 3tt be a prime matrix ( of which the determinants are A , B , C ) transforming x2 + iy2+ jZ2 into ( a , -6 , c ) ; and let 0 represent the binary form ( C-iB , A , iC-B ) ; then the matrix ( Rt+iN/ !
+)p z(At lstl)),..(Z ) transforms / into qxq* ; and is a prime matrix , for its determinants C-iB , 2A , and iC-B are not simultaneously divisible by any uneven prime ( because A , B , and C are relatively prime ) , and are not simulq'2,0 , or , mod 2 , we see that p"_O , 1 , or_i , 1 i , mod 2 , according as DD 0 , 1 , a-k2D oruai , 1+-i , mod 2 .
+But a Dk ___( .
++- ) =(1-i)k+ .
+; which is congruous to 1+i , mod 2 if D=-=0 , mod .
+4 , and to i , mod 2 , if Du2i , niod 4 , since k is a -k2 evidently uneven in either case .
+From this it appears that if ; 0 , 1 , mod 2 , T_DD 2~~~~~ ( k + then 1+ -i , I +i , mod 2 ; that is , in one of the two forms f+p"z2+2qyz+ 2q'xz , p"unO , or 1 , mod 2 , and in the other p"i , or I+i , mod 2 .
+taneously divisible by 1+ i , because ( Z ) is congruous , for the modulus 1+ i , to the first or second of the matrices ( 0,1 , 1 , \ and I. O. O.,.\ ( z ) according as a=-=i , c==1 , or a--1 , c zi , mod 2 .
+Consequently 4 is a form the duplication of which produces f* When D=-u1 , orrO , moed 2 , let the prime matrix Ma , j3 transform 2 y2 2 into ( a , - , c ) .
+As we cannot have simultaneously a- , f3 a !
+=1/ 3t a !
+'/ 3 " , mod ( 1 +i ) , we may suppose that a and / 3 are incongruous , mod ( 1+ i ) .
+If O= ( B + iC , ZA , B-iC ) , the matrix t3+ii , et , id O3 , '-ij " ) ... .
+( + at , , ia , a ')..(Z transforms f into / x qi , and is a prime matrix , being congruous to one or other of the matrices ( Z ' ) for the modulus 1 +i , in consequence of the two suppositions that a and c are ineven , and that ac and d are incongruous , mod ( 1 +i ) : so that f arises from the duplication of p. From the resolubility of this problem we can infer ( precisely as Gauss has done in the real theory ) that that half of the assignable generic characters which is not impossible corresponds to actually existing genera .
+We can also deduce a demonstration of the theorem that any form of determilnant D can be transformed into any other form of the same genus , by a transformation of which the coefficients are rational fractions having denominators prime to 2D .
+For every form which arises from the duplication of an uneven primitive form-that is , every form of the principal genus-represents square numbers prime to 2D , and is therefore equivalent to a form of the type ( X2 , p , LL ?
+-D ) .
+But ( 1 , 0 -D ) is transformed into ( x2 , , by ( ; i. e. any two forms of the principal genus can be transformed into one another by transformations of the kind indicated .
+Again , if f , f2 be two forms of any other genus , a form p of the principal genus exists satisfying the equation f , =4 xf , .
+But since 4 can be transformed into the principal form , we can assign to the indeterminates of 0 rational values , having denominators prime to 2D , which shall cause 4,0 to acquire the value + 1 ; and thus , from the transformation of f , into f1 x O , we deduce a rational transformation of f , into fl , the coefficients of which have denominators prime to 2D .
+The truth of the converse proposition , " , Two forms which are transformable into one another by rational transformations having denominators prime to 2D belong to the same genus , " is evidenit from the definition of the generic characters themselves .
+The proposition itself is of some importance , as it furnishes a verificationl of the completeness of the enunmeration of generic characters contained in Table IIJ .
+

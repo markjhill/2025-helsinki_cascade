@@ -1,0 +1,327 @@
+]\gt ; 415 XVT .
+Fnnctions of Posihve and egative Type , and their Conmection with Theory ofIntegral J. MERCER , B.A. , College , by Prof. A. I FORSYTH , Sc. D. , .D .
+, F.R. Received December 21 , 1908\mdash ; Read May 13 , Introduction .
+THE present memoir is the outcome of an attempt to obtain the conditions under which a given symmetric continuous function is definite , in the sense of HILBERT.ae At an early stage , however , it was found that the class of definite functions was too restricted to allow the determination of and sufficient conditions in terms of the determinants of S10 .
+The discovery that this could be done for functions of positive or negative type , and the fact that almost all the theorems which are true of definite functions are , with slight modification , true of these , led finally to the abandonment of the original plan in favour of a discussion of the properties of functions belonging to the wider classes .
+The first part of the memoir is devoted to the definition of various terms employed , and to the -statement of the consequences which follow from ' theorem .
+In the second part , keeping the theory of quadratic forms in view , and sufficient conditions , already alluded to , are obtained .
+These conditions are applied to obtain certain general properties of functions of positive and ative type .
+Part II1 .
+is chiefly devoted to the investigation of a particular class of functions of positive type .
+In addition , it includes a theorem which shows that , in general , each function of positive type it is possible to deduce an infinite numbel of others of that type .
+Lastly , in the fourth part , it is proved that when is of positive or negative type it may be expanded as a series of products of normal functions , and that this series converges both absolutely and uniformly .
+'Gott .
+Nachr .
+' ( 1904 ) , Heft I. 456 .
+18.10.09 PART I.\mdash ; DpFINITIONS AND DEDUCTIONS FR0M HILBERT'S THEOREM .
+S1 .
+Let be a continuous symmetric function of the variables which is defined in the closed square ; and let be the class of all functions which are continuous in the closed interval .
+When the function ranges through the class , there are three possible ways in which the double integral may behave :\mdash ; ( i ) There may be two members of , say and , such that have opposite signs ; ( ii ) Each function may be such that ; ( iii ) Each function may be such that This suggests a classification of continuous symmetric functions defined in the closed square .
+We shall speak of those which have the property ( i ) as functions of mbiguous type , whilst the others will be said to be of positive or negative type , according as they satisfy ( ii ) or ( iii ) .
+S2 .
+From the point of view of integral equations this classification is of considerable importance .
+HILBERT has proved* that where , , , , , are a complete system of normal functions relating to the characteristic function of the integral equation and , , , , respectively , are the corresponding singular values .
+It follows at once from this that , when the singular values are all positive , is of positive 'Gott .
+Nachr .
+' ( 1904 ) , pp. 69-70 .
+See also SCHMIDT , 'Math .
+Ann Band 63 , pp. 462 , 453 .
+We shall refer to the result given above as HILBERT'S theorem .
+The theorem stated by HILBEItT on p. 70 of the paper referred to can be deduced by writing in the equation written above .
+AND THEIR CONNECTION WITH THE THEORy OF EQUATIONS .
+417 type in dance with the above definition .
+Conversely , we may prove that , for eyery function of positive type , the above integral equation has only positive singular values .
+For , if we multiply along the homogeneous equation by , and integrate with respect to between the limits and , we obtain Since the double integral on the left cannot be negative , and is a finite number , it appears that Thus the necessary fficient condition that a continuous function should be of positive type is the integral equation of the second of which it ?
+the characteristic function should have all its singular values positive .
+* In a manner it may be proyed that this statement remains true when we replace the word positive by negative , in both places where it occurs .
+Moreover , since a function must be of ambiguous type when it is of neither the positive nor the negative type , we conclude that the necessary and condition for continuous symmet.ic function to be of ambiguous type is the existence of both and singular values of the of second kind of which it is the characteristic function .
+S3 .
+It is easy to see that , corresponding to a function whose type is ambiguous , there exists a function which is not zero in the whole interval , and satisfies the relation .
+( A ) For , if we employ the notation of ( i ) above , and suppose that is any real constant , we shall have *It follows from these results that , unless is identically zero , we cannot have for all members of .
+We shall prove this in a different manner further on ( S , but it is useful to make the rsmark at this stage , since it shows conclusively that a function which is not identically zero cannot be both of positive and negative type .
+VOL. OCIX.\mdash ; A. 3 : FUNCTIONS OF POSITIyE AND NEGATIVE cient of on the has a sign opposite to that of the term independent of , when we equate the -hand member to zero , the resulting quadratic has its roots real .
+It follows that , if we suppose one of them to be , the function will satisfy ( A ) , and it cannot be identically because this would imply that is a constant multiple of , and hence that the two in mentioned in ( i ) have the same ) The converse of theorem , however , is not true , for there are functions both of the positive and of negative type which in this property with those of ambiguous type ; these are known as the , -def nite functions .
+The remainder are called , and have the property that ( A ) can only be satisfied by a function is at each point of .
+The two classes of functions we have just mentioned have distinctive properties in the theory of equations .
+is of positive or negative type , it is evident frolri HILBERT'S theorem that ( A ) can only hold when .
+' By a known theorem*we must , therefore , have .
+Thus : and sufficient condition a function of positive or be definxte is that it should be erfect .
+PART NATURE 0F FUNCTIONS 0F POSITIVE AND NEGATIVE TYPE .
+S4 .
+The double integral , ( 1 ) in which is an assigned symmetric and continuous function , and is any melnber of the class , may be regarded as the limit of a certain set of quadratic expressions .
+For , let , , be points of the interval , taken in such a way that the distances between consecutive members of the set of points consisting of and these are all equal .
+Then , by the theory of double integration , and in virtue of the symmetry of , ( 1 ) is precisely equal to *Cf .
+SCHMIDT , op .
+cit. , pp. 451 , 452 , AND THEIR CONNECTION WITH TH THEORy OF RAL LQUATIONS .
+419 The quantity inside the square brackets is evidently a particular value of a quadratic form whose coefficients are , , , , ; and , when ranges the class , the numbers , , , will assume all possible real values .
+It is thus suggested that we are to look upon the double integral ( 1 ) , when ranges through , as the limiting case of a quadratic form whose variables assume all possible real values .
+The function clearly takes the place of the coefficients of the form .
+Moreover , when is of positive type , the integral ( corresponds to a quadratic form which cannot take negative values for real values of the variable ; and similarly in regard to the case when is of negative type .
+Now the question , whether a quadratic form does , or does llot , take both signs , as the variables assume all real values , has been shown to depend on the of certain determinants whose elements are coefficients of the form .
+The considerations we have just indicated seem , therefore , to point to the existence of properties of the function which will decide its type , without directly considering the integral ( 1 ) .
+It is the object of the present section to show that this is actually the case .
+S5 .
+Let us , for the present , confine our attention to a function of positive type , so that for all functions belonging to We shall , in the first place , define a particular class of the .
+Let be any point of the open interval , and suppose that and are any two positive numbers which are so small that ) oints s also to the interval .
+Then the continuous function which is zero for and which is equal to unity for is a function of in the intervals , , will be denoted by .
+The values of the function in these latter interyals will be given by respectively , and will evidently be positive numbers less than unity at interior points .
+Consider now the values of the function at the various points of the square of the plane .
+In the accompanying figure this large square , which we shall denote by , is intersected by See , for example , BROMWICH , 'Quadratic Forms and their Classification by means of Invariant Factors ' ( 1907 ) , chap .
+, where necessary conditions obtained .
+It is not difficult to obtain conditions which are both necessary and sufficient .
+MR. J. : FUNCTiONS OF POSITIVE AND NEGATIVE two sets of four lines drawn parallel to the axes of and ; these are the lines respectively , and they may be identified by observing that the number at the poin where any one of them intersects an axis is the value of the corresponding variable which is constant along it .
+It will thus be seen that the square denoted by is bounded by the four lines Fig. ; while the area , which is shaded in the figure , and which will be referred to as the border of , is the part of the square bounded by , exterior to .
+A little reflection will show that , at points of which do not belong either to or to , one or other of the functions , is zero ; that , at points of , each of these functions is unity ; and , finally , that in neither function exceeds unity .
+It follows then that in in elsewhere .
+S6 .
+The integral AND THEIR CONNECTION WITH THE THEOR OF FQUATIONS .
+may be looked upon as taken over , or , as it is usually written , * ; and , from what has been said in the preceding paragraph , that portion of the latter which arises from the part of exterior to is zero , while that arising from is simply .
+We have , thersfore , .
+( 2 ) Again the total area of is , and so , if is the maximum value of in , we have ; also the remaining integral on the right-hand side of ( 2 ) can be replaced by which is evidently equal to Thus it follows from ( 2 ) that M. ( 3 ) Now let us suppose it possible for to have negative v say ; then , because is continuous , we can choose a value of so small that for all values of and whose moduli are not greater than .
+We shall therefore have Recalling our hypothesis that is of positive type , it follows from this and ( 3 ) that Cf .
+HOBSON , ' The Theory of Functions of a lteal Variable ' ( 1907 ) , p. 416 .
+MR. J. RCER : FUNCTIONS OF POSITIyE AND NEGATIVE TYPIB , for all ] of which are less than a certain positive number ( S5 ) .
+But this is eviden impossible , ecause , when tends to zero , the right-hand side tends to zero , and we arrive at the contradiction that a fixed positive quantity is less than , or equal to , zero .
+We conclude that cannot be negative when lies in the open interval ; and hence , since is continuous in the same interval when regarded as closed , we have the result that every function ) is of positire type in the , es the inequality S7 .
+This is a first condition which must be satisfied by these functions , and we may obtain a second on similar lines .
+Let and be any two distinct points of the open , and , as before , let and be two positive numbers ; the latter will now be supposed so small that the intervals , are both contained within and do not overlap .
+We now propose to consider the values of the function at points terior to , when and are any real constants .
+For this purpose we may make use of a diagram which is an obvions extension of the one employed in the } ) .
+The square is divided in this c , as not by eight , but by sixteen lines , , those whose equations are .
+By giving and all possible values in the equationsjust written , it will be seen that we obtain four sets of eight , for each of which we can distinguish a square bounded by the lines ; moreover , these squares will evidently have borders of width .
+It is not difficult to see that , in those parts of which are exterior to the borders , we have either or that in the square we have ; The reader may compare this with the fact that , when we have a quadratic form which only assumes non-negative values , and we put all the variables save one ( say ) equal to zero , we deduce lihat the coefficient of must be Both these pairs of equalities will hold in certain parts of the square , but we only require that at least one of them should be true .
+AND THEIR CONNECTION WITH THE THEORy OF INTEGRAL QUATIONS .
+423 and that in the border the last pair of equations still hold , but ; ) , are each less than , or equal to , unity .
+From this it that the function , outside the borders and that in the border its modulus is Fig. 2 . .
+Let us now write , for the sake of brevity .
+It follows from the remarks of the preceding paragraph that .
+( 4 ) Now the area of each of the borders is , and so we have .
+J. MERCER : FUNCTIONS OF POSITIVE AND NEGATIVE TYPE , moreover , it is easily proved that , in virtue of the symmetry of , can be written as , .
+( 5 ) From this and the equation ( 4 ) we finally obtain the inequality where is the integrand of ( 5 ) .
+The function is , of course , dependent on the rea ] constants and ; let us pose it possible to choose them in such a way that takes a negative value , say .
+Owing to the fact that is continuous , it is then clear that we can chose so small that for .
+From this we deduce the inequality as in the corresponding place in S6 ; and hence , as this is impossible for sufficiently small values of , it follows that , when and lie in the open interval , and and are real , is not negative .
+Accordingly , since is continuous , it is easily seen that evcry function which is of positive type in the is such , when and are any numbers , .
+The reader will now be prepared for a general theorem of which those already considel.ed are particular cases .
+After having been through the latter in detail it will be sufficient to sketch the general proof Take any distinct point , , in the open interval , and suppose that and are so small that the intervals form a non-overlapping contained within .
+Now let AND CONNECTION WITH THE THEORY OF GRAL IQUATIONS .
+where , , are any real constants ; and consider the values of the function in Q. It will be seen on consideration that in this gerleral case must be regarded as divided by lines , and that there are squares , each having a border .
+It will also seen that in , outside the borders and that in the border we have Proceeding then as the case , we obtain the inequality where ; and hence we establisl ] that is always .
+Eventua ] lie we obtain the general theorem:\mdash ; of type in must be th , , of the closed have real S10 .
+In ccordance with notation employed by FRODHOLU , let Then , by the of quadratic forms , it is known that , in virtue of which has just been obtained , we must ( 6 ) rwICH , Forms and their tion 1 of ctors ' , pp. 19 , 20 .
+VOL. CCIX .
+\mdash ; A. 3 I J. MERCLR : FUNCTIONS OF AND NEGATIVF TYPE , and this is independently of the number of points , , , and their situation in the interval .
+Conversely , by an appeal to the theory of integral equations , we may prove that any uous symmetric .
+function defined in , which satisfies this condition , is of positive type .
+For it will be emembered that , according to FREDHOLM'S theory , values of the equation are the zeros of the integral function ( 7 ) our hypothesis that ( 6 ) holds for all values of , , , it appears that the coefficient of in the series on cannot be negative ; moreover , HILBERT has proved every continuous symmetric function has its singular values all real .
+It follows , , that , if is any one of the zeros of , we shall have where the series in the square brackets on the left is not negative and that on the is positive ; and hence , that must be .
+Since we have seen that , for to be of positive type , it is sufficient that all the values of ( 7 ) should be positive , we may now state the following theorem:\mdash ; In rder that continuous symmetric function defined in the be of positive type , it is sufficient the functions .
+, , , , . . . . .
+( 8 ) should never take negative when the variables , , over the closed .
+Vide 'Acta Mathematica , ' XXyII ( 1903 ) .
+AND THEIR CONNECTION WITH TH THEORy OF INTEGRAL QUATIONS .
+427 It may remarked , as a corollary of this theorem , we have the notable fact that , if any continuous symmetric function is such that the rals , , are none of them ative , then the functions ( 8 ) have the same property .
+S11 .
+The properties of the determine nts ( 8 ) may be used to obtain some idea of nature of functions of positive ) .
+Let us suppose , in the first place , there is a point belonging to at which one of these vanishes .
+The determinant evidently reduces to ; hence , because it can never be negative , In other words , if we draw the square and the diagonal ) existence of a point on this diagonal at which vanishes involves the fact that vanishes everywhere on the lines drawn through this point parallel to the axes of and .
+In particular , we deduce from this that is of positive type , is not zero in , cannot vanish the diacyo ) More generally , let us suppose that there are points , , of the interval such that . . . . . .
+( 9 ) By considering the determinant whose elements are the minors of the four elements belon ng to the first two rows and columns of , ( 10 ) we obtain the Recalling that the first term on the vanishes in virtue of our hypothesis , and that neither of the terms in the product on the left can be negative , it is clear that we have Vide SCOTT and MATHEWS , 'Theory of Determinants ' ( 1904 ) , p. 62 .
+at each point of the interval ; and it can be proved in a similar way that the remainder of the functions ( 11 ) have the sa1ne rrain , because determinant ( 9 ) and the functions all vanish , it is easily that the funcbion ( 10 ) vanishes identically .
+, if any one of the functions ( 8 ) vanishes .
+all values of the variables , so must all those which follow it .
+lt appears , therefore , that , when is of positive type , the determinant of the integral equation ( 7 ) is either an infinite ) ower series in whose coefficients are alternately positive and negative numbers , else it is a polynomial whose coefficients obey the same law .
+Another property which is worth noticing is , if is the upper limit of the function in the interval , then in the whole of the square Q. This follows immediately from the fact that , since we have S12 .
+We have so far confined ourselves to the consideration of functions of positive type , but the reader will easily perceive that the results obtained for these functions may be made applicable to those of negative type by a simple device .
+In fact , if is of negative type in the square , and we suppose that , it is evident that is of positive type in Q. Applying then what we have said about functions of positive type to , we may deduce the analogous properties of ; for instance , necessary sufficicnt condition that tinuous syrmetric function deJined in the of negcptive type is thai the , should be when the , , , each range over the closed .
+We may remark that this result and that of S10 prove the classes of of AND CTION V\ldquo ; ITII T OF TIONS .
+429 positive and tive types to be mutually exclusive , save for the case when vanishes .
+For , if to both classes , we must have for all points of the interval ; and hence must be zero everywhere in this .
+It follows , ) made S11 , in the Q. PART III .
+CTTONS o POSTTIVE S13 .
+In the present section we to investigate certain species of functions which are of type .
+The remark made ab the end of the previous ction will make it plain that there is no loss in thus limiting ourselves , since the corresponding results for functions of type may be at once deduced the device explained .
+Let us again consider the square of the t ) plane which is bounded by the lines ; and us ) ) that it is divided two triangles by the diagonal whose equation is .
+The most method of a continuous symmetric function in is , , to define a continuous function in one of the triangles , say that in which ; and then to suppose this into the remaining pol.tion of the square by defining its value at a point ' which to be that at its image reflection in the .
+For example , if is a continuous function of in the interval , and we define to be equal to in the triangle , then the continuation of this function into the triangle is evidently .
+The theol.em of 10 may be ) ) lied to the function we have just defined , and hence the condition that it should be of positive type deduced .
+Instead of this , however , we shall consider the more general function* , where and both continuous interval .
+It will be emembered that functions of this kind occur as GREEN'S unctions of certain differe1ltial equations of second order , and that it is therefore of some interest to know when they are of positive type .
+Accordingly we shall seek necessary and sufficient conditions which will ensure that this is so .
+S14 .
+In the place , let us that and ) are any continuous functions whatever ; and let be the set of points belonging to at which neither of them vanish .
+set will evidently be dense in itself in virtue of the , ' Messengcr of ' New Scrics , 1907 , p. 93 .
+MR. J. hIERCFR : FUNCTIONS OF POSITIVE AND NEGATIVE TYPE , continuity of the functions ; but it cannot be closed , unless it contains every point of the interval .
+Moreover , it can be proved that and , its lower and upper limits respectively , do not belong to the set , unless they coincide with the end points of the interval .
+At each point of the set 2 the quotient will have a definite value , because is never zero .
+We may thel.efore define a -valued function whose domain is 2 , and whose value at any poin is that of this quotient .
+It will appear in the sequel that the properties of depend very largely on the nature of , and accordingly , in anticipation of this , we shall speak of it as the of .
+The discriminator will evidently be continuous in its domain , but it will never have the value zero .
+S15 .
+Let us now suppose that is of positive type , and is not zero everywhere in the square Q. We have proyed ( S11 ) that , under these circumstances , the function , which in the present case is simply , cannot be zero in the whole of ; also , at points where it does not vanish , we know that is positive ( SS6 , 10 ) .
+It follows that , for a function of positive type , the set 2 certainly exists , and that in it the discriminator only takes positive values .
+Again , when and are any two points of 2 , and , we have ; hence , since is a positive number , it follows by the theorem of S10 that .
+This result may be combined with the preyious one in the statement that the discriminator of is a non-decreasing function whose values are all positive .
+We have next to consider the points of at which one or both of the functions , vanish .
+These fall naturally into three sets , according as they belong to ( 1 ) the closed interval , ( 2 ) the closed interval , or ( 3 ) the open interval .
+As regards ( 1 ) , it is not difficult to show that vanishes in the whole interval .
+For , if is any point of , one at least of the numbers , must be zero ; and hence , since is zero , the function is zero at each point of ( S11 ) .
+Now when we have , and , at points of 2 , does not vanish ; we must therefore have .
+It can be proved in a similar manner that vanishes everywhere in the interval .
+Finally , we can show that , at points of the open interval which do not belong to 2 , both and vanish .
+In fact , if is any one of these points , there are AND THEIR CONNECTION WITH THE THEORY OF INTEGRAL EQUATIONS .
+431 clearly points of 2 both on its right and on its left .
+The argument we have just employed will then establish that , by reason of the former , is zero , and that , by reason of the latter , is zero .
+S16 .
+Conversely , let us suppose that is defined in terms of continuous functions , which have the properties mentioned in the preceding paragraph ; and let us consider the function , ( 12 ) where , , are varia each to the interval .
+We may remark that , as this function is symmetric , it will take all possible values in the domain .
+Thus , since we are only concerned with the sign of the function , we may always suppose the variables to satisfy these inequalities .
+stly , let us suppose that one of the variables has a value not belonging to the domain of the discriminator of .
+If such a value belongs to , the point must eyidently lie in this interval ; hence , since , and vanishes by our hypothesis , it is evident that all the elements of the first row of ( 12 ) are zero .
+In a similar manner it may be proved that , when one of the yariables has a value belonging to the interval , all the elements of the last row vanish .
+, if one of the variables , say , has a value belonging to the open interval , but not to 2 , we shall have by our hypothesis .
+It is thus easily seen that the elements of the row of ( 12 ) all vanish .
+Summing up our results so far , we conclude that the function ( 12 ) can only take values different from zero when the variables , , are each confined to the set 2 .
+S17 .
+Let us next consider the case when the variables are restricted in this manner .
+The function ( 12 ) , when expressed in terms of the functions and , is , MR. J. :FUNCTION OF AND NEGATIyE TYPE , hence , by dividing through both the row and the column of this determinant by , its value is seen to be \ldquo ; \ldquo ; The determinant just writtell can be eyaluated without difficulty , and thus we find that ( 12 ) is Now , to our hypothesis , is positive and each of the factors is positive or zero .
+It follows , then , that ( 12 ) cannot take values when the variables are ea restricted to the set 2 .
+Taking this in conjunction with was said in the previous paragraph , we see that the functions can never take rative values , when the variables , , , each over the interval , and hence , by the tbeorem of S10 , that is of positive type .
+We may , therefore , state our results in the following theorem:\mdash ; If cxnd i ) each functions defined the terval ( , the necessary sufficient conditions the betion , should be of positive iypc the of function should positive non-decreasi/ ?g its domain 2 , and ( 2 ) that , if and the lower upper limits of should ) zero in the interval , zero in the , both and zero points ofopcn interval which do not belong to As a corollary of this , by supposing that , the reader may deduce the corresponding conditions for the function defined in S13 .
+S18 .
+Let us now investigate under what circumstances a function , which satisfies the conditions stated in the enunciation of the theol.em of S17 , is definite .
+If the domain of its discriminator is not dense everywhere , it will be possible to find AND THEIR CONNECTION VITH TH THEORY OF INTEGRAL EQ[TATIONS .
+43.3 an interval , lying within , such that at each of its points the function is zero .
+We shall , therefore , have ( S11 ) ; in t ) will vanish everywhere in the square Now , if is any continuous function of in the interval , which is zero in the intervals , but does not yanish eyerywhere in , we shall have by the properties of X and .
+It follows from this that , if is definite , the domain of its discriminator must be dense everywhere in .
+Again , let us suppose that the discriminator of has a constant value throughout a certain interval .
+It will then be seen that within the square ; and hence , if is defined as before , that It .
+may be proved without difficulty that there exists a function which is not everywhere zero , and is such that O. . . . . . . . . .
+( 13 ) For , let and be any two functions which are not mere multiples of one another , and which satisfy the conditions imposed on .
+Then , if either of the ralso is zero , we shall have an obvious solution of ( 13 ) .
+On the other hand , if their respective values be different from zero , it is easily seen that satisfies ( 13 ) ; and , in virtue of our hypothesis , is not zero everywhere in .
+We conclude , therefore , ) we can always find a function which is such that VOL. CCIX.\mdash ; A. 3 4.34 MR. J. : FUNCTIONS OF POSITIVE AND NFGATIVE lt thns appears that the discriminator of a definite function of positive type cannot be constant throughout any interval .
+S19 .
+Conversely , we may show that every function of positive type , whose discriminator ( 1 ) has a domain which is dense everywhere in , and ( 2 ) has not a constant yalue in the whole of any interval , is definite .
+For , if this were not so , we would be able to find a continuous function other than zero , such that Supplyin in the value of , this equation may be written .
+( 14 ) Now , as is continuous , and is not zero everywhere , we can find an interval of within which it does not vanish ; also , as the domain of the discriminator is dense everywhere , it will be possible to find a point , and , therefore , a whole interval , belonging both to and the domain .
+The interval will thus be such that in it the functions , , do not vanish .
+It follows that in this interval the function of . . . . .
+( 15 ) has a derivative which does not vanish ; and hence , by a well-known theorem of the differential calculus , that this function cannot be zero more than once in .
+It is , therefore , evident that by contracting sufficiently we can ensure for it the additional property that ( 15 ) vanishes at no point belonging to it .
+Returning now to the equation ( 14 ) , and supposing that is confined to interval , we see that Hence , since both the numerator and the denominator on the right are differentiable , and the latter does not vanish in , the function is differentiable in this interval .
+In fact , by applying the ordinary rules , we obtain ( S ) .
+But this is impossible , because by our hypothesis cannot be constant in any interval .
+conclude , therefore , that is a definite function .
+S20 .
+It may be remarked that the conditions ( 1 ) and ( 2 ) of the preceding may be stated in another and more convenient form .
+For , if a discrimiViae S3 .
+AND CONNECTION WITH THE THEORY OF EQUATIONS .
+435 nator satisfying these conditions had the same value at two distinct points , it would necessarily have that value at all points of its domain which lie between them ( S15 ) .
+Thus , since the condition ( 1 ) and the continuity of , assure us of an interval of the domain which lies between these points , the condition ( 2 ) would be violated .
+Hence a discriminator of this kin must be a steadily increasing function ; and , conversely , a steadily increasing discriminator satisfies ( 2 ) .
+We may , therefore , combine the results of the two preceding raphs in the theorem:\mdash ; cxnd fficient condition , that function , ing of the theorem S17 , should be definite , is that its discrirninator should be incrcasing function 'puhose domain is dense eve ) in .
+As application of this theorem we may consider the function* , .
+The discriminator has the open interval its domain , and its value at any point is , which steadily increases with .
+It follows from and the theorem just stated that is a definite function of positive type .
+S21 .
+the particular class of functions with which we have been dealing , let us now pose that is any function of positive type defined in square .
+Let , , be any points of the interval which are such that the Lunctio be symmetric and continuous in the yhen the functio is expressed as a , it is easy to see that the minor obtained by } ) essing all but the of the rows and all but of the first columms is .
+This is tho generalised form of ssical function , vide ' Gott .
+Nnchr p. 227 The determinant of rows and colum1ls , whose elements are these minors , will therefore be But , by the theory of determinants , we also know that it is equal Thus , equating these two values , we find ( 16 ) Now , in virtue of hypothesis that t ) is of positive type , it follows from S10 that the quotient on the -hand side of this equation has a denominator which is positive and a numerator which is not ative .
+Hence we have ; and thus , as this is true for all values , the tlJeorem of S10 shows that is of pos type .
+S22 .
+In the light of this result , it appears that each function of positive type can be used to generate an infinite series of such functions .
+We might , therefore , expect to obtain other species of functions of positive type by taking to be of the kind considered in SS14-20 .
+For simplicity , let us consider the function , Confining our attention to the ] , it will be seen that the variables and can be related to constant by either of the ties : ( i ) ( ii ) ( iii ) The reader may find it convenient to refer to the diagram , in which Vide SCOTT and MATHEWS , op .
+, pp. 67 , 68 .
+AND THEIR CONNECTION WITH THE THEORY OF INTEGRAL EQUATIONS .
+437 the square is drawn , and the portion of the triangle which corresponds to each set of inequalities is marked with its number .
+Fig. 3 .
+By expressing in terms of the functions and , it is easily seen that at each point of region ( that in ( ii ) is everywhere zero , and that in ( iii ) In a similar way , or by a mere interchange of the variables and , the values of in the Corresp n divisions of the triangle can be obtained .
+Now , let ) , be continuous functions defined by ; , ; also let , be two others by , ; ; and , finally , let two functions t ) be defined in the square by , .
+On latter functions with , it will be seen that we have ) elsewhere ; elsewhere .
+It follows from this that we have at each point of the square in which these functions are defined .
+But it is easily seen that , as is of positive type , the functions satisfy the requirements of the theorem enunciated in S17 .
+Thus is merely the sum of two functions of the same nature as ) , and hence , as it is obyious a priori that the sum any number of functions of positive type is a function of positive type , it appears that we do not in this obtain any new species of these functions .
+The reader may convince nself in a similar manner that the same conclusion holds in to the general function considered in the preceding paragraph .
+S23 .
+the result of S21 proves to be so barren in this respect , it may be applied to obtain an interesting property of the symmetrical minors of the determinant of the equation , ( 7 ) when is of type .
+Adopting the notation and hypothesis of the referred to , let be the determinant of the aboye equation when t ) } ) laces .
+Then , since it is easily seen from ( 16 ) that ( 17 ) where and is , , a symmetrical minor of , the determinant of ( 7 ) , in accordance with FREDHOLM'S definition .
+But , as we have shown that is of positive AND CONNECTION WITH THE THEORY OF TIONS .
+439 type , the function has its zeros all real and positive .
+It follows , therefore , from ( 17 ) that all the zeros of the minor are real and positive .
+Since the minor must be identically zero if , we have thus proved the theorem:\mdash ; zeros of minors of the of an oj the second kind , whose function is of.positive type , and positive .
+In , as , the solving function of ( 7 ) , is defined by , where it appears that , when , the solving function only anishes for positive values of PART IV.\mdash ; THE EXPANSION 0F FUNCTTONS 0F POSITIVE AND NEGATIVE TYPE .
+S24 .
+It is to be remarked that HILBERT and IIDT have been able to give very little tion about the expansion of a given symmetric characteristic function in a series of products of normal functions .
+HILBERT* has indeed shown cidentally that , if the number of singular values is finite , ; ( 18 ) and SCHMIDT in his dissertation has established that this equation remains when the series on the right is uniformly convergent .
+The latter theorem is , of course , much wider than the former as regards its generality ; but it has the defect that the uniform convergence , which it postulates , is not connected with any other of the properties of .
+In the present section we shall attempt to remedy this in some measure by proving that the equality ( 18 ) certainly holds when is of positive or negative type .
+'Gott .
+1904 , p. 73 .
+Printed with additions in 'Math .
+Ann Band LXIII .
+The theorcm refcrred to will bc fonnd on pp. 449 , 450 .
+From a remark made on p. 453 I gather that it is due to S25 .
+In the paper referred to above , has proved that , if is any continuous symmetric function , the solution of is by provided that is not one of the singular values , , , ; moreover , the convergence of the series on the right is both absolute and uniform .
+Now , when we take , it is known that , in virtue of one of the characteristic relations , .
+It follows , therefore , from the above expansion and the homogeneous equations , that ( 19 ) It should be remarked that SCHMIDT'S theorem only allows us to assume that the series on the right of ( 19 ) is uniformly convergent with respect to , for each assigned value of ; and hence , by symmetry , that it is uniformly convergent with respect to , for each assigned value of .
+When is of positive type , we may establish the uniform convergence of the series in the whole of the square , as follows .
+If we write in ( 19 ) , it is clear that the ternls of the series on the right become functions of , which , with the exception of a finite number , are all of same s as ; accordingly , by DINI'S theorem , this series is uniformly convergent in the interval .
+But , in virtue of the inequality , the terms of the series on the right of ( 19 ) are never greater in absolute value than those of , 454 .
+We shall always suppose this to be the case in what follows .
+DINI , " " Fondamcnti per la teoria dell fumzioni di varial ) reali\ldquo ; ( Pisa , 1878 ) , S99 .
+Scc also YOUNG , " " On Monotonc Sequences of Continuous Functions ' Proc. Camb .
+Phil. Soc vol. , pp. 520-3 .
+AN1 ) CONNECTION WITH THE .
+441 Hence , as the latter for ) , by what has just been said , result us denote the sum of the iirst / } of the on , and the nder after these by .
+We lve ; hence , ) fixed , , since ( 19 ) can be lVl.itten , we obtain the equations ( 20 ) This eiatio holds for any ntinuous f ) , but now the limitation that the shall be of positive type .
+TheIl , since we shall have , . . . . .
+1 ) for each negative value of Let us , in the next place , investigate the values of for negative values of it being supposed , as above , that is of positive type .
+If is any continuous fullction defined in the interval , it follows from ( 19 ) and the theorem ) roved at the end of the preceding fJraph that Recalling HILBERT'S theorem , it ] be seen without difficulty that this educes to VOL. CCIX.\mdash ; A. 3 MIi .
+J. MERCER : FUNCTIONS OF POSITIVE AND NEGATIVE TYPE , Now , when is negative , the terms of the series on the right must be either zero or positive .
+We conclude , therefore , that for all functions of the class .
+In other words , t ) is of positive type for values of .
+Applying , then , the theorem proved above ( SS6 , 10 ) , we see that .
+( 22 ) S27 .
+Returning to the formula ( 20 ) and writing .
+, we obtain Accordingly , from ( 21 ) and ( 22 ) , it follows that .
+( 23 ) This is true , of course , for all values of which are sufficiently great ; and , further , when we increase we only add positive terms to the right-hand side .
+By a wellknown of the elementary theory of series , we thus see that converges for each value of in the interval ; and hence , since that the series converges absolutely for each pair of values of the variables satisfying the inequalities .
+Froln this last result it follows that the function ( 24 ) has a definite finite value when the variables are restricted in the manner just mentioned .
+In the paragraphs which follow we consider the properties of , and eventually prove that it is everywhere zero .
+It may be remarked that the inequality ( 23 ) proves the relation .
+AND THEIR CONNECTION WITH THE THEORY OF EQUATIONS .
+443 S28 .
+If is any arbitrarily assigned positive quantity , it follows from the absolute convergence of the series on the right of ( 24 ) that we can choose great enough to ensure the inequality . . . . . .
+( 25 ) And , when this is done , it is easily seen that , since ' we have .
+Again , from ( 20 ) , we see that a negative number can be chosen with so great an absolute value that , when ; while , from ( 24 ) and ( 25 ) , we deduce Adding the three inequalities just written , we obtain In other words , we have proved the theorem .
+S29 .
+It may be proved* that , if is any constant and any point of the interval , then the solving function corresponding to the characteristic function is , ( 26 ) whilst the corresponding determinant is easily seen to be *Cf .
+BATEMAN , 'Messenger of Mathematics ' ( 1908 ) , p. 184 .
+The resuIt in question follolvs from equations ( 24 ) , ( 25 ) , and ( 26 ) , by writing and observing that Now , if we write in ( 19 ) and ( 24 ) , it is easy to see that and hence that constantly increases with , so long as the latter is negative .
+Consequently , when is any positive quantity , and we take to be it follows the theorem of the preceding raph that an only vanish for positive values of , as has no negative roots , of positive type , and , therefore , in virtue of the remark at the end of S27 , .
+Using the formula ( 26 ) , it will be seen that this becomes .
+But , as may be taken as small as we please , this is evidently impossible unless , vanishes .
+It follows that , as and may each have any assigned values belonging to ) , we must have .
+We have thus shown that , in the case of a function of positive type , the series ( 27 ) has for its sum-function .
+It was shown in S27 that the convergence of this series is absolute , and , by an application of DINI'S theorem , it may be shown that the convergence is also uniform in the square .
+Hence , if , , , , sy.stem of functions to function of positive type ccnd , , , the corresponding singular values , then the serries iformly , .
+*Owing to the fact that has only positive roots .
+AND CONNECTION WITH THE THEORY OF INTEGRAL EQUATIONS .
+445 30 .
+From theorem several in ) ' results may be deduced .
+For example , lacing r ) by the in ( 19 ) , obtain , ( 28 ) series the is niforlnly convergent .
+, if we write in ( 28 ) , and integrate with respect to between the limits and , we obtain ovided that is not , the terms of the series on the ight are all positive less than those of the series which , by writing in ( 29 ) , seen to converge .
+It follows that , for the former series is uniformly convergent .
+ratino ( and where the latter is negative , and recollecting formula it is easily seen that , since .
+It now follows that , the -hand member of this equation is an integral function of we may dro the restriction .
+We have thus expressed as an infinite product .
+Finally , we may remark that if is less than the least of the numbers , , , the right-hand side of ( 29 ) may be expressed as a power series in which the coefficient is Also , by expansion for , it is easily seen that the coefficient of on the left is where in the usual notation , and .
+It follows that 31 .
+In conclusion , it may be pointed out that the theorem S29 holds also when is of negative type .
+This may be deduced from the theorem mentioned by employing the usual device , or it may be proved directly by commencing with the equation instead of that at the beginning of S27 , and proceeding by a method similar to that which we have used above .
+It may also be of interest to remark that by a very slight modification of these proofs we may show that ( 27 ) represents } , t ) when the latter has only a finite number of singular values of one sign , but an unrestricted number of the other .
+

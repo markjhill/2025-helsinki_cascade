@@ -1,0 +1,637 @@
+Second Essay on a General Method in Dynamics .
+By WILLIAM ROWAN HAMILTON , Member of several Scientfjic Societies in Great Britain and in Foreign Countries , Andrews ' Professor of Astronomy in the University of Dublin , and Royal Astronomer of Ireland .
+Communicated by Captain BEAUFORT , R.N. F.R.S. Received October 29 , 1834 , -Read January 15 , 1835 .
+Introductory Remarks .
+THE former Essay* contained a general method for reducing all the most important problems of dynamics to the study of one characteristic function , one central or radical relation .
+It was remarked at the close of that Essay , that many eliminations required by this method in its first conception , might be avoided by a general transformation , introducing the time explicitly into a part S of the whole characteristic function V ; and it is now proposed to fix the attention chiefly on this part S , and to call it the Principal Function .
+The properties of this part or function S , which were noticed briefly in the former Essay , are now more fully set forth ; and especially its uses in questions of perturbation , in which it dispenses with many laborious and circuitous processes , and enables us to express accurately the disturbed configuration of a system by the rules of undisturbed motion , if only the initial components of velocities be changed in a suitable manner .
+Another manner of extending rigorously to disturbed motion the rules of undisturbed , by the gradual variation of elements , in number double the number of the coordinates or other marks of position of the system , which was first invented by LAGRANGE , and was afterwards improved by POISSON , is considered in this Second Essay under a form perhaps a little more general ; and the general method of calculation which has already been applied to other analogous questions in optics and in dynamics by the author of the present Essay , is now applied to the integration of the equations which determine these elements .
+This general method is founded chiefly on a combination of the principles of variations with those of partial differentials , and may furnish , when it shall be matured by the labours of other analysts , a separate branch of algebra , which may be called perhaps the Calculus of Principal Functions ; because , in all the chief applications of algebra to physics , and in a very extensive class of purely mathematical questions , it reduces the determination of many mutually connected fuinctions to the search and study of one principal or central relation .
+When applied to the integration of the equations of varying elements , it suggests , as is now shown , the consideration of a certain Function of Elements , which may be variously chosen , and may either be rigorously deterimined , or at least approached to , with an indefinite accuracy , by a corollary of the general method .
+And to illustrate all these new general processes , but especially those which are connected with problems of perturbation , they are applied in this Essay to a very simple example , suggested by the motions of projectiles , the parabolic path being treated as the undisturbed .
+As a more important example , the problem of determining the motions of a ternary or multiple system , with any laws of attraction or repulsion , and with one predominant mass , which was touched upon in the former Essay , is here resumed in a new way , by forming and integrating the differential equations of a new set of varying elements , entirely distinct in theory ( though little differing in practice ) from the elements conceived by LAGRANGE , and having this advantage , that the differentials of all the new elements for both the disturbed and disturbing masses may be expressed by the coefficients of one disturbing function .
+lTransformations of the Differential Equations of Motion of an attracting or Repelling System .
+1 .
+It is well known to mathematicians , that the differential equations of motion of any system of free points , attracting or repelling one another according to any functions of their distances , and not disturbed by any foreign force , may be comprised in the following formula : .
+m ( x x+ y " y " ) U : ... ... .
+( 1 .
+) the sign of summation 2 extending to all the points of the system ; m being , for any one such point , the constant called its mass , and xyz being its rectangular coordinates ; while x"y " z " are the accelerations , or second differential coefficients taken with respect to the time , and x , y , 6z are any arbitrary infinitesimal variations of those coordinates , and U is a certainforce-function , introduced into dynamics by LAGRANGE , and involving the masses and mutual distances of the several points of the system .
+If the number of those points be ?
+t , the formula ( 1 .
+) may be decomposed into 3n ordinary differential equations of the second order , between the coordinates and the time , U sU a mu mx".= ; my= ... ... .
+( 2 .
+) -ix ; ii i ; mi -zi and to integrate these differential equations of motion of an attracting or repelling system , or some transformations of these , is the chief and perhaps ultimately the only problem of mathematical dynamics .
+2 .
+To facilitate and generalize the solution of this problem , it is useful to express previously the 3n rectangular coordinates xy z as functions of 3n other and more general marks of position 1m 2 ... , ; and then the differential equations of motion take this more general form , discovered by LAGRANGE , d 8TT uU dt 6 q , qi~ * ... * .
+in which T=M ( X'2 + yt2+ Z12 T= ~mi2 .
+qy-2+z'2 ) ... . .
+For , from the equations ( 2 .
+) or ( 1 .
+) , 6U ~my ay az d-= d m. ' m Ti yY 8Ia + i"wm , d x , d ay , d 8z\ wmhihdta , ij+Y'dtnji+ dt ?
+i ; in which IN DYNAMICS .
+97 * ... . .
+( 3 .
+) and consider T ( as we may ) as a function of the following form , T=F ( 1 , , W2 .
+'* g , 3 , ,2 ... *$ , ... .n ( 13 .
+) we see that aF 8 F(14 .
+) ^^^*1 **1 8 tree t sn ... ... ... ... .
+( 14 .
+) and aF aT aF T I-=* 3 , .
+* ... ... ... ( 15 .
+) and therefore that the general equation ( 3 .
+) may receive this new transformation , dw_ ( U F ) I ... ... ... ... .
+( 16 .
+) dt ^i If then we introduce , for abridgement , the following expression H , H=FU=F ( i , 22 , ... 3 1 , 2 , ***n ) -U ( 1 , 2 , and therefore $:S'= E(n r w^ ) , ... ... ... ... ( 21 .
+) that is , by the equations of motion ( A. ) , ( dtf.+d )=d * ; * ... ... d(22 .
+) the variation of the integral S is therefore S=2 ( , 3v p e),..e.d ... e ... ... .
+( 23 .
+) ( p and e being still initial values , ) and it decomposes itself into the following 6n expressions , when S is considered as a function of the 6 it quantities i e. , ( involving also the time , ) aS aS 1 21= , ; P2 =a e ; asas 2 , ^ 2 = ; e2 &gt; ... ' ... ... ( B. ) -TSn Sn ; P3n e= nJ which are evidently forms for the sought integrals of the 6n differential equations of motion ( A. ) , containing only one unknown function S. The difficulty of mathematical dynamics is therefore reduced to the search and study of this one function S , which may for that reason be called the PRINCIPAL FUNCTION of motion of a system .
+This function S was introduced in the first Essay under the form S =t ( T + U ) dt , the symbols T and U having in this form their recent meanings ; and it is worth observing , that when S is expressed by this definite integral , the conditions for its variation vanishing ( if the final and initial coordinates and the time be given ) are precisely the differential equations of motion ( 3 .
+) , under the forms assigned by LAGRANGE .
+The variation of this definite integral S has therefore the double property , of giving the differential eqtuations of m[notion for any transformed coordinates when the extreme positionls are iregarded as fxed , and of giving the integrals of those differential equations when the extreme positions are treated as varying .
+5 .
+Although the ftunction S seems to deserve the name here given it of Principal Function , as serving to express , in what appears the simplest way , the integrals of the equations of motion , and the differential equations themselves ; yet the same analysis conducts to other functions , which also may be used to express the integrals of the same equations .
+Thus , if we put Q=j'(Z ?
+.~ +H)+ d t , ... ... ... ... Q =J0 + ( 84 +-I ) 1 dt,.**********(24 .
+) and take the variation of this integral Q without varying t or dt , we find , by a similar process , Q=--( s'-e p ) ; ... ... ... ... .
+( 25 .
+) o2 99 so that if we consider Q as a function of the 6n quantities w. p. and of the time , we shall have 6n expressions aQ aQ = + , ei=-p , ... ... . .
+( 26 .
+) which are other forms for the integrals of the equations of motion ( A. ) , involving the function Q instead of S. We might also employ the integral V =J .
+dt= J dd ^ ... ... ... .(27 .
+) which was called the Characteristic Function in the former Essay , and of which , when considered as a function of the 6n+1 quantities ; i e. H , the variation is V= ( r-pse ) +t H ... ... ... . .
+( 28 .
+) And all these functions S , Q , V , are connected in such a way , that the forms and properties of any one may be deduced from those of any other .
+Investigation of a Pair of Partial Differential Equations of theJirst Order , which the Principal Function must satisfy .
+6 .
+In forming the variation ( 23 .
+) , or the partial differential coefficients ( B. ) , of the Principal Function S , the variation of the time was omitted ; but it is easy to calcuS late the coefficient corresponding to this variation , since the evident equation dS aS aS d dt 8+ 2t ( 29 .
+) dt aH ndt* gives , by ( 20 .
+) , and by ( A. ) , ( B. ) , aSaH =t.S 2 .
+=H ... .o ... . .
+( 30 .
+) It is evident also that this coefficient , or the quantity H , is constant , so as not to alter during the motion of the system ; because the differential equations of motion ( A. ) give dH sH dn SH d\ dLl _Ed dt ++ i dJt = ... , ... ( 31 .
+) dtdt H+a dt If , therefore , we attend to the equation ( 17 .
+) , and observe that the function F is necessarily rational and integer and homogeneous of the second dimension with respect to the quantities wt , we shall perceive that the principal function S must satisfy the two following equations between its partial differential coefficients of the first order , which offer the chief means of discovering its form : aS , / s as as I~+F S , a%,..* n.~- , * -U 3( , 2 Reciprocally , if the form of S be known , the forms of these equations ( C. ) can be deduced from it , by elimination of the quantities e or n between the expressions of its partial differential coefficients ; and thus we can return from the principal function S to the functions F and U , and consequently to the expression -I , and the equations of motion ( A. ) .
+Analogous remarks apply to the functions Q and V , which must satisfy the partial differential equations , a / Q _aQ QQ aQ_ TQ s aQ6 Qn -"-st F '1 , \ 2 , 'n , , %g,1 awe .
+= ... U , aQ_ jQ a( sQ a ^Q 'QQ s ^Q &gt; ( Q 32 .
+) -'w+ F P1P2~ , P : , , U.a , " I * P:3 atFPP -i ' -"P2 '* ' P2 ' .
+p n2 and F ( v v Iv +U ( 1 )2 1 / 1 18n , n 1 , ... 1 % , v * , a , ... % -H qUvl , 2 , n.sn )F ' 8 , " * el e2 , * * a saHd -i ' )=F=F= -= = ... .
+( i ) : , ( 38 .
+) we easily transform the first equation ( C. ) to the following , dS , 8Si , S1 +1 6 / S S1,.S1 3 )\ +SI ) ( D S2t =-+TJ ( F , , , ) .
+a.s n ) + F , wYhich gives rigorously 2 -=+6 t+U ( ( 1 ** $n ) ' ( in which H1F1 ( '1 , '2 , ' ' .
+n , Vlt , 721 , 3 J*)Ul ( , 11 , " , ) , ? .
+3 ( 41 .
+) and H F2 ( = , 2l * , %** n ) u2 ( 2 , n , .
+*I * .
+, .
+* ( 42 .
+) the functions F1 F2 U2 U2 being such that F , + F2 +F F , U +U2= U ; ... .
+( 43 .
+) the differential equations of motion ( A. ) will take this form , di iHT aHa dH8H , Id t ' a +8'~ ) dt 6 ... ( G. ) and if the part 1H and its coefficients be small , they will not differ much from these other differential equations , di _H d_I 8a H1 dtd6 i ' dt = ' ( H. ) so that the rigorous integrals of the latter system will be approximate integrals of the former .
+Whenever then , by a proper choice of the predominant term H , , a system of 6n equations such as ( H. ) has been formed and rigorously integrated , giving expressions for the 6n variables 7 mw as functions of the time t , and of their own initial values ei pi , which may be thus denoted : =i a= ( t , eV,. .
+es , p , , P2 ... p ) ... ... ... .
+t ( 44 .
+) and i -)-.i ( t , el , e2 , es n , Pl P2 , " ).P. .
+( 45 .
+) the simpler motion thus defined by the rigorous integrals of ( H. ) may be callled the undisturbed motion .
+of the prposed system of n points , and the more complex motion expressed by the rigorous integals of ( G. ) may be called by contrast the disturbed motion of that systenm ; and to pass from the one to the other , may be called a Problem of Perturbation .
+9 .
+To accomplish this passage , let us observe that the differential equations of undisturbed motion ( H. ) , being of the same form as the original equations ( A. ) , may have their integrals simiilarly expressed , that is , as follows ; Zai = 1i Pi =.n Coimparing the forms ( 44 .
+) with the second set of equations ( I. ) for the integrals of undisturbed motion , we find that the following relations between the functions , S8 must be rigorously and identically true : iti , el , e2 3,. .
+es , ' ... ( 47 .
+) and therefore , by ( K. ) , that the integrals of disturbed motion may be put under the following forms , ni = , i ( te , e2 , SnP 8+ S++ S)( We may therefore calculate rigorously the disturbed variables y , by the rules of undisturbed motion ( 44 .
+) , if without altering the time t , or the initial values ei of those variables , which determine the initial configuration , we alter ( in general ) the initial velocities and directions , by adding to the elements Pi the following perturbational terms , AP = , A P2 e2 ' A 3n : ' ... ... ... ( M. ) a remarkable result , which includes the whole theory of perturbation .
+We might deduce from it the differential coefficients ti^ , or the connected quantities 8 , which determine the disturbed directions and velocities of motion at any time t ; but a similar reasoning gives at once the general expression , +S t , e , e2 , .
+, SS Sp )'.S ( i =a +i Vt ee** Sn Pi + aen P2 + ae ... P3s X j7~ ; , accuracy ; and since the perturbations ( M. ) and ( 0 .
+) involve the disturbed coordinates i. only as they enter into the coefficients of this small disturbing function 82 , it is evidently permitted to substitute for these coordinates , at first , their undisturbed values , and then to correct the results by substituting more accurate expressions .
+11 .
+The function S , of undisturbed motion must satisfy rigorously two partial differential equations of the form ( C. ) , namely , aS1 + FI ( 1 ' *aS5 n. * .
+n ) =uU( *1 '7n)i S1 __ t+ F1 ( ee , .
+e , e ... e , n = U1 ( e , ... e3wJ and therefore , by ( D. ) , the disturbing function S2 must satisfy rigorously the following other condition : d=U2 ( n ) F3 2a a* i , Is n ) + Fl S2 a. .
+) , ( Q. ) and may , on account of the homogeneity and dimension of F , be approximately expressed as follows : SU2 { , U2 ( 1)3n ) -F2** , a Si , ) } ** *t(R .
+) or thus , by ( I. ) , tS2 ==/ { UU2 ( , .
+73 ) F2 ( ?
+i , * zgSn 01 **7 ) ) } d , ** * which enables us to transform the perturbational terms ( M. ) ( 0 .
+) into the following approximate forms : ap~ Vo =dt $^ *** -* ( U. ) and 2 SI ft a H~ Aa = e. +eio dt , ... ... ... . .
+( V. ) containing only functions and quantities which may be regarded as given , by the theory of undisturbed motion .
+12 .
+In the same order of approximation , if the variation of the expression ( 44 .
+) for an undisturbed coordinate v. be thus denoted,.t ae q. ( 'e Z , ... ... ... ( 51 .
+the perturbation of that coordinate may be expressed as follows : =i p ; ... ... ... ... ( .
+) p that is , by ( U. ) , -2 = -_ : ?
+18_ dt -2 d ti e dt '4\ ; f2 dia , ij o n ?
+1 V8^Tg^ 1e ^e jJS p , ? ?
+( 5 ? .
+)a rS1 ai ps ai _2 SI H da +( eE+ 4p8 , e,88 +a e* 8p , ; PJIes o s2 dt .
+Besides , the identical equation ( 47 .
+) gives Z= Xi 8a aS2 a Si p S , n8 82 SI 8 1pk 8 pl e8 l+ aP2 88..e .
+' ( 53 .
+) the expression ( 52 .
+) may therefore be thus abridged , a ni t6 el d ta turbed motion , provided that besides thus altering the initial velocities and directions we alter also the initial configuration , by the formula A=d ... ... .
+( Z. ) It would not be difficult to calculate , in like manner , approximate expressions for the disturbed directions and velocities at any time t ; but it is better to resume , in another way , the rigorous problem of perturbation .
+Other Rigorous Theory of Perturbation , founded on the properties of the disturbing part of the constant of living force , and giving formulac for the Variation of Elements more analogous to those already known .
+13 .
+Suppose that the theory of undisturbed motion has given the 6n constants e. pi or any combinations of these , Z , X2 ... nZ .
+as functions of the 6n variables zi w , and of the time t , which may be thus denoted : Zi= Xi ( t , 1 , , ' ' s , , ' , 25 , ** *sn5 ) ... ... .
+( 4 .
+) and which give reciprocally expressions for the variables .
+wri in terms of these eleinents and of the time , analogous to ( 44 .
+) and ( 45 .
+) , and capable of being denoted similarly , ~i = ; ^ ( tn , Z , Z2 * *X , n)- .
+% , ~ , ki ( t , X1 , -2 , * n ?
+Z la .
+) ; * ( 55 .
+) then , the total differential coefficient of every such element or function zi , taken with respect to the time , ( both as it enters explicitly and implicitly into the expressions ( 54 .
+) , ) must vanish in the undisturbed motion ; so that , by the differential equations of such motion ( H. ) , the following general relation must be rigorously and identically true : ~gi\(~a s S1 r s ; " * &lt; H1 ' xt + : X~_ H ... ... . .
+( 56 .
+) In passing to disturbed motion , if we retain the equation ( 54 .
+) as a definition of the quantity zi , that quantity will no longer be constant , but it will continue to satisfy the inverse relations ( 55 .
+) , and may be called , by analogy , a varying element of the motion ; and its total differential coefficient , taken with respect to the time , may , by the identical equation ( 56 .
+) , and by the differential equations of disturbed motion ( G. ) , be rigorously expressed as follows : d xi .
+( Si Ha Hi 8H2Al ) d. I(Al .
+) dt\ u 8 ; / ... ... ... rigorous and ordinary differential equations of the first order between those varying elements and the time .
+Expressing , therefore , the quantity H2 as a function of these latter variables , its variation HI12 takes this new form , H2= .
++t t , ... ... ... ( 57 .
+) and gives , by comparison with the form ( 48 .
+) , and by ( 54 .
+) , i H_ Nb H2 ax _a HaH2 am ( 58 .
+) rrrr and thus the general equation ( A1 .
+) is transformed to the following , dxa H , a H , aH d77 t ai , x+ ai , ++ ai , 6na ( B ) in which " i , S =_ EV __ _ - , s _ _s. .
+9F S,.* ( Cl. ) so that it only remains to eliminate the variables zr from the expressions of these latter coefficients .
+Now it is remarkable that this elimination removes the symbol t also , and leaves the coefficients ai , s expressed as functions of the elements z alone , not explicitly involving the time .
+This general theorem of dynamics , which is , perhaps , a little more extensive than the analogous results discovered by LAGRANGE and by POISSON , since it does not limit the disturbing terms in the differential equations of motion to depend on the configuration only , may be investigated in the following way .
+15 .
+The sign of summation Z in ( C1 .
+) , like the same sign in those other analogous equations in which it has already occurred without an index in this Essay , refers not to the expressed indices , such as here i , s , in the quantity to be summned , but to an index which is not expressed , and which may be here called r ; so that if we introduce for greater clearness this variable index and its limits , the expression ( C ' .
+) becoines a3n ... ... .
+( 59 .
+ai , =s 6ulr^ --^2 *****I ra &lt; r rar a.r and its total differential coefficient , taken with respect to the time , may be separated into the two following parts , d\3n / ( r3 Xi dxs xs d ax 1 dt '~ )\ is ai.__8 a_= dt~ i , s ( r)l trd 8r r &gt; r r &gt; ( 60 .
+) na f8X , d axi axi d ax + awe dt , ^H a/ dt ' ?
+( r)1 7 , rd nr J which we shall proceed to calculate separately , and then to add them together .
+By the definition ( 54 .
+) , and the differential equations of disturbed motion ( G. ) , d Xi .
+x 3ni , / ; HH -I\__ a/ 2)c / .
+nI _ H( dt a tr ( u ) In 8aw awe atWu u8 ( 61 .
+) 108 It is evident also , that these coefficients ai , , have the property as , ,= e , S ... ... ... . .
+( 67 .
+) and a= 0 ; ... ... ... ... .
+( 68 .
+) di the term proportional to --X disappears therefore from the expression ( B1 .
+) for - , ; and the term aa H2 .
+nH dxi a xi * x , ax dt destroys the term aH , H2 .
+a H2 d xs Sx , ' ' in Xs dt t when these terms are added together ; we have , therefore , r-o ... ... ... . .
+( E. ) or dH2_ H2 .
+( F1)i H dt t ( F ' .
+) that is , in taking the first total differential coefficient of the disturbing expression H2 with respect to the time , the elements may be treated as constant .
+Sirnpltfication of the differential equations which determine these gradually varying elements , in any problem of Perturbation ; and Integration of the simpljfied equations by means of certain Functions of Elements .
+16 .
+The most natural choice of these elements is that which makes them correspond , in undisturbed motion , to the initial quantities ei pi .
+These quantities , by the differential equations ( IH .
+) , may be expressed in undisturbed motion as follows , ei = vi --Jo a-i dt , Pi i +dt ... ... .
+( 69 .
+) e*="-./ ^l &lt; " * ?
+=''*+/ ti^*d-"***** ( 69 .
+) and if we suppose them found , by elimination , under the forms ei = , i +I ( t , v1I , 2,. .
+s n ; z1 , 2 , . ?
+n ) , 1 ( 70 .
+) Pi = Vi + " Yi ( t , l 1 , 2*n *12 " 1 ' t2 12 ... 3 n)7 i it is easy to see that the following equations must be rigorously and identically true , for all values of ; i ri 0 =( ( 0 ) , l , 2,. . ? ?
+7.n a. *1 , * ? ? ?
+Z3n ) , ( 71 .
+) O= ir ( o , 41i , 2,. .
+* Sn 1 , 2 , * xi == + 'Di ( t , ,~ , , ... , , 2 p , W 2 , ... .
+xi = Zi + 'i ( t , 1 , 7* -* 273n , ** 8. .
+n ) introducing 6n varying elements xi x , of which the set xi would have been represented in our recent notation as follows : Xi= .
+n +i ; ... ... ... ... ... ( 73 .
+) a X , x. a A. 0 we see that all the partial differential coefficients of the forms tin x , - , , vanish when t= 0 , except the following : flci ... ... ... - ; ... ( 74 .
+) ==_ 2 , _ 1 ... ... .
+and , therefore , that when t is made 0 , in the coefficients ai , ( 59 .
+) , all those coefficients vanish , except the following : are , snfr=l , asn+r=-1 ... ... ... . .
+I ( 75 .
+) But it has been proved that these coefficients as , when expressed as functions of the elements , do not contain the time explicitly ; and the supposition t=0 introduces no relation between those 6n elements z Xi , which still remain independent : the coefficients a , , , therefore , could not acquire the values 1 , 0 , -1 , by the supposition t= 0 , unless they had those values constantly , and independently of that supposition .
+The differential equations of the forms ( B ' .
+) , may therefore be expressed , for the present system of varying elements , in the following simpler way : d , i _H di_ aH _1 d7t 8 .
+; d-tX ; ... ... ... . .
+e D( ) and an easy verification of these expressions is offered by the formula ( E1 .
+) , which takes now this form , ,8 H , dx 6 H , dX ~S Sh ... ... ?
+... ... ( H. ) 17 .
+The initial values of the varying elements xi Xi are evidently ej pi , by the definitions ( 72 .
+) , and by the identical equations ( 71 .
+) ; the problem of integrating rigorously the equations of disturbed motion ( G. ) , between the variables 7i m and the time , or of determining these variables as functions of the time and of their own initial values ei pi , is therefore rigorously transformed into the problem of integrating the equations ( G1 .
+) , or of determining the 6n elements xi ?
+x as functions of the time and of the same initial values .
+The chief advantage of this transformation is , that if the perturbations be small , the new variables ( namely , the elements , ) alter but little : and that , since the new differential equations are of the same form as the old , they may be integrated by a similar method .
+Considering , therefore , the definite integral E =Jt ( as a function of the time and of the 6n quantities xi , 2 , ... r , el , e2 , ... 3 , , , , and observing that its variation , taken with respect to the latter quantities , may be shown by a process sinlilar to that of the fourth number of this Essay to be E= _ .
+( .
+-p p e ) , ... ... ( I1 .
+) we find that the rigorous integrals of the differential equations ( G1 .
+) may be expressed in the following manner : aE6Ei -= sx Pi ... .(K ' .
+) in which there enters only one unknown function of elements E , to the search and study of which single function the problem of perturbation is reduced by this new method .
+We might also have put C= ( -f Q. Z ?
+2+ H12 ) dt , ... ... ... .(77 .
+) and have considered this definite integral C as a function of the time and of the 6n quantities.j pi ; and then we should have found the following other forms for the integrals of the differential equations of varying elements , acc Zi= ++ e - ... ..(Li .
+) z ^i And each of these functions of elements , C and E , must satisfy a certain partial differential equation , analogous to the first equation of each pair mentioned in the sixth number of this Essay , and deduced on similar principles .
+18 .
+Thus , it is evident , by the form of the function E , and by the equations ( K1 .
+) , ( G ' .
+) , and ( 76 .
+) , that the partial differential coefficient of this function , taken with respect to the time , is aE dE aE dx t dt 't dt 2 ; ... ( M. ) and therefore that if we separate this function E into any two parts E1 +E E , ... ... ... ... ... .(N ' .
+) and if , for greater clearness , we put the expression H2 under the form H2= H2 ( t , Zl , 2 , )3n* XI x 2 ... Sn ) , .
+( 01 .
+) we shall have rigorously the partial differential equation aE , ~_~t aE~ E E1 aEE EE aE 0 s1 + s+ + 2 .
+which gives , approximately , by ( G ' .
+) and ( K1 .
+) , when the part E2 is small , and when we neglect the squares and products of its partial differential coefficients , 0 = " dE* I1 , E+ + E(t ) ... ... .
+( .
+) Hence , in the same order of approximation , if the part E1 , like the whole function E , be chosen so as to vanish with the time , we shall have E2 -= _ t{ &amp; E+ -I 2 t , zl , ... zs ' , l. * , } ( R ' .
+) and thus a first approximate expression E1 can be successively and indefinitely corrected .
+Again , by ( L1 .
+) and ( G1 .
+) , and by the definition ( 77 .
+) , aC dC 8C dh at 'dt t 8A dt 2 ; ... ... ... . .
+) the function C rmust therefore satisfy rigorously the partial differential equation , 2C _ 2( C aC 48 -51 . ? ?
+5n *l ... n ... ... t and if we put C=C+ C , ... ... ... . .
+and suppose that the part C2 is small , then the rigorous equation C1 afC 2 C1 CH C1 C+ at 2tt H t , + -tA ... S -* + BA1 ... 3n 3n3n becomes approximately , by ( G1 .
+) and ( L1 .
+) , d C2 _ Ci _1 C C1 a , ci dt t 2 , .
+" A " 3 A ' n and gives by integration , 2{ at+ -H2 ( t , , ***%h ' * Analogous formulce for the motion of a Single Point .
+19 .
+Our general method in dynamics , though intended chiefly for the study of attracting and repelling systems , is not confined to such , but may be used in all questions to which the law of living forces applies .
+And all the analysis of this Essay , but especially the theory of perturbations , may usefully be illustrated by the following analogous reasonings and results respecting the motion of a single point .
+Imagine then such a point , having for its three rectangular coordinates xy z , and moving in an orbit determined by three ordinary differential equations of the second order of forms analogous to the equations ( 2 .
+) , namely , , , _au , ,_ JU aU au x_Yy y ; *=.* ( 78 .
+) U being any given function of the coordinates not expressly involving the time : and let us establish the following definition , analogous to ( 4 .
+) , T= ( 2 + y2 + 2 ) , ... ... ... ( 79 .
+) r ' y ' z ' being the first , and x " y " z " being the second differential coefficients of the coordinates , considered as functions of the time t. If we express , for greater generality or facility , the rectangular coordinates xyz as functions of three other marks of position '1 '22 '23 , T will become a homogeneous function of the second dimension of their first differential coefficients '1l 4'22 '3 taken with respect to the time and if we put , for abridgement , aT AT sT 1~ = 7 , 2= ~2 , ~ =3,. .
+e*e ( 80 .
+) T may be considered also as a function of the form T=F ( li , 2 ' " r3 , v , ' 2 , )3 ) , ... ... ... . .
+( 81 .
+) which will be homogeneous of the second dimension with respect to r ~2 3 .
+We may also put , for abridgement , F ( 1 , 2 , 3a 12 , '22 , '3 ) U ( n '2 , 43 ) = H ; I in which e , e2 e3 PI P2 p3 are the initial values , or values at the time 0 , of 41 a2 '3 mw1 2 3 ; and S is the definite integral S = , ,q( 8H _s=j( +1 +t 3-)dt , ... ... . .
+( 85 .
+considered as a function of .
+2 13 e1 e e3 and t. The quantity H does not change in the course of the motion , and the function S must satisfy the following pair of partial differential equations of the first order , analogous to the pair ( C. ) , 8S ( 8S SS ( 86 .
+) t--+F , ; , ~'~ , a-- , 1 ' B3 - ' i =U ( J1 , n2 , 43 ) ; }.3 41 ) V-2 ( 86 .
+) 8t +F ( , 8 e , 8 , , ee2 , e3 U ( el , e2 , e3 ) .
+This iimportant function S , which may be called the principalfunction of the motion , may hence be rigorously expressed under the following form , obtained by reasonings analogous to those of the seventh number of this Essay : s -S +J +U ( 40 ; 2 ) 43)dtF a , - ' F8S _ SI S 8S BS 8S1\1 |n +/ o N1 8(1 X )e i^s 6n3d J S1 being any arbitrary function of the same quantities '1 '12 1s3 el e2 e3 t , so chosen as to vanish with the time .
+And if this arbitrary function S1 be chosen so as to be a first approximate value of the principal function S , we may neglect , in a second approximation , the second definite integral in ( 87 .
+) .
+21 .
+A first approximation of this kind can be obtained , whenever , by separating the expression H , ( 82 .
+) , into a predominant and a smaller part , H1 and H2 , and by neglecting the part H,2 we have changed the differential equations ( 83 .
+) to others , namely , d - , a Hi d2 =a H1I dq3 a I1 1 dt = 8 ?
+; 7 dt = 8j2 ) dt 8w3 I dt 81h ' dt ~8 dt 8J and have succeeded in integrating rigorously these simplified equations , belonging to a simpler motion , which may be called the undisturbed motion of the point .
+For the principal function of such undisturbed motion , namely , the definite integral S1 =Ij ( 1 l +.2 2+3 -3 8 -aH1 ) d t. .
+( 89 .
+) considered as a function of 1 r2 e e3 el t , will then be an approximate value for the original function of disturbed motion S , which original function corresponds to the more complex differential equations , Q2 115 and z1 =1 ( t , 1 ) , -29 P3 , 19 , 29 , ,3 ) , 1 a2 = ~2 ( t , l , 2 , 3 ) ' 1 ' 2 , k 3 ) , &gt; ... ... ( 104 .
+) 23 +3 ( t , X1 , X2 , X3 ) 4l 12 23 ) j and may call the quantities ' Z2 X3 1 X2 3 the 6 varyinng el ts of the motion .
+To determine these six varying elements , we may employ the six following rigorous equations in ordinary differentials of the first order , in which H2 is supposed to have been expressed by ( 103 .
+) and ( 104 .
+) as a function of the elements and of the time : dx1 ~ H2 die 9a Ha dX a H2 1 dta,1 ' dt % ' dt ( 105 .
+) dXl 8H dh _ 8H Ha .
+( 105a')H dt -l dt ~ 8x2 ' dt s and the rigorous integrals of these 6 equations may be expressed in the following manner , 8E_ 8E E1 ( 106 .
+) aE aE aE &gt; ee*E *1 Pi =P se2=8 e , P3 eJ the constants el e e3 p2 , p3 iretaining their recent meanings , and being therefore the initial values of the elements x 1s X h2 ?
+-3 h ; while the function E , which may be called thefunction of elements , because its form determines the laws of their variations is the definite integral E=ft'(xj~ A2+x2~ +a H2 )H t. .
+dt ... , ( 107 .
+) Jo VAL I+ G+ A3 S-I{a ****( 107 ) considered as depending on x , xa e3 e2 e3 and t. The integrals of the equations ( 105 .
+) tay also be expressed in this other way , t1T+ = " e2 =+ 83 =+ XsC 8 ( : 8 ( : t****Xe ( I a08 .
+) e e--_C _C el e--2 1 e,3 =C being the definite integral Ha H,2 a , H UH .
+aH 2d t , =C ( X+ 'TX2 + : X-H12 ) d t , ... .
+and aS1 _S e____ -e1 t1= S , ... .
+( 133 .
+) a S , e q-- . ?
+( a. P3 =--= t+ gut ; the latter of these two sets coinciding with ( 127 .
+) , and the former set conducting to ( 128 .
+) .
+26 .
+Returning now from this simpler motion to the more complex motion first mentioned , and denoting by S2 the disturbing part or function which must be added to S , in order to make up the whole principal function S of that more complex motion ; we have , by applying our general method , the following rigorous expression for this disturbing function , S2 =-_J H2 dt+ { ( s , + ( s\a } t , .
+( 134 .
+) in which we may , approximately , neglect the second definite integral , and calculate the first by the help of the equations of undisturbed motion .
+In this manner we find , approximately , by ( 125 .
+) ( 127 .
+) , -H2 =(el -+3 P t,2 + ( e2 + P2 t2 }g t2)2 , ( 135 .
+) and therefore , by integration , S2 = ---2 { p2 ( e12 + e22 ) + v2 e32 } t -{O2 ( el pl + e2 P2 ) + V2 e3 p3 } t2 1 3i 1 &gt; ( 136 .
+) { p2 ( p12 +P22 ) + y2 ( p32 -ge3 ) } t3+ -82P3 t4420 r2 or , by ( 133 .
+) , 82 I S. =6 ( ?
+12 + el rl + el2 -+ 22 + e2 2+ e22 ) ] Vt / 214 { 32e3 3 { 2 + , ( 3 +t2 + e3 ) +4 t4 } the error being of the fourth order , with respect to the small quantities , , v. And neglecting this small error , we can deduce , by our general method , approximate forms for the integrals of the equations of disturbed motion , from the corrected function S1 + S2 , as follows : Sl + aS 2t -el_ __t ( 1 el ) 8 SI , S1+ 812 b2 ( t 2 2 .
+( 38 aS , + aS2 , --e3 g3( +2e3 + ; jI '3-3a n3 a3t 122 and a SI6 S e , +^f 1 Pl--a el el t '-el +-4-~-V , 6 S , ~S^._)2-e o / x~t ( 1 ) , pS , _8 ^ 8S-+-3 _7e+2- , -e ( 139 .
+) P2 a ae2 e2 22 SP3 S S-3 e , 1g tv ( e3 +3+ t2 ) or , in the same order of approximation , 1= el + Pi t -~ p2 t2 el + -3Pi t 2= e2 +2t pt2(e2 +3 P2t ) , &gt; ( 140 .
+) 3= 3e3tg t2 2 t2 e3 +3 t-t g2 and 1 _= Pi P2 t(el + , plt ) , U2=P2f2t(e2 + P2 t ) , t &gt; .
+( 141 .
+) 3p3 -P-gt -vt ( e3 + -p3tPg t2 ) .
+Accordingly , if we develope the rigorous integrals of disturbed motion , ( 113 .
+) and ( 114 .
+) , as far as the squares ( inclusive ) of the small quantities p{ and V , we are conducted to these approximate integrals ; and if we develope the rigorous expression ( 120 .
+) for the principal function of such motion , to the same degree of accuracy , we obtain the sum of the two expressions ( 130 .
+) and ( 137 .
+) .
+27 .
+To illustrate still further , in the present example , our general method of successive approximation , let S3 denote the small unknown correction of the approximate expression ( 137 .
+) , so that we shall now have , rigorously , for the present disturbed motion , S= S12 + S3 ... ... ... ... .
+( 142 .
+) S1 and S2 being here determined rigorously by ( 130 .
+) and ( 137 .
+) .
+Then , substituting SI + S2 for Si in the general transformation ( 87 .
+) , we find , rigorously , in the present question , S3. .
+tl{ ( 8 Sf2 +( S2 ) + ( ( 8 2dtj { ( 8S3)2+ ( S3/ 2 )2+ a2 } dt : and if we neglect only terms of the eighth and higher dimensions with respect to the small quantities v , Y , we may confine ourselves to the first of these two definite integrals , and may employ , in calculating it , the approximate expressions ( 140 .
+) for R2 123 the coordinates of disturbed motion .
+In this manner we obtain the very approximate expression , 4t418f t KS3-t2 1+ el + ; 72 + e2 dt -iJ-t2 n -3 -+ -e3 +g t2 ) dt -= 360 ( 4 12+ 7l el +4 e2 + 42 +72e2+ 4 e2 ) ( 144 , ) V4 13 y4o 5 17 v4 g t7 ' 60 ( 4 32 +73 e3 +4 e32 ) 40 ( +3 + e3 ) 40Ot0 / x6t5 ( 92 + '81 el + el12 +,2 +2 e2 + e2 __ts +2 31 , ,2 ) gt7t( + 3 ) gf+t1 ; 945 3 +16 3e3 '+ e3 J403'20 725760 which is accordingly the sum of the terms of the fourth and sixth dimensions in the development of the rigorous expression ( 120 .
+) , and gives , by our general method , correspondingly approximate expressions for the integrals of disturbed motion , under the forms 8SS8 S3 WI= 8S +,8 + 883 aS , a S2 a S3 P 2= ' +~ ' ... ... ... ... . .
+( 145 .
+) S , 8 S2 _ Ss3 and a Si aSa Se3 PI= ae , 6el deel a. SiW S2 a. ( I 46 .
+) IS , aS2 S3 P3 a--e -a _ ^3-~ ^-3 ^3 ^^3 28 .
+To illustrate by the same example the theory of gradually varying elements , let us establish the following definitions , for the present disturbed motion , a1 = '1 t , 22~n t : 3=1 '03tv tft 2 , ~1 -'1 , ?
+'2 Y2 , 3%+g t , and let us call these six quantities z , X2 Z3 xi XA2 3 the varyzinag elements of that motion , by analogy to the six constant quantities el e2 e3 Pl P2 p3 , which may , for the undisturbed motion , be represented in a similar way , namely , by ( 127 .
+) and ( 128 .
+) , 124 e , = 21 -w t , e2 =2 -2 t , e3 =3( 14 .
+) P1-1 ) P2=g2 , p3=(3+gIt J Pi = l , 1 P2 w , P3 -= '3 +g t. J We shall then have rigorously , for the six disturbed variables v1 r2 v3 l w32 , expressions of the same forms as in the integrals ( 127 .
+) and ( 128 .
+) of undisturbed motion , but with variable instead of constant elements , namely , the following : 71 += 1+ i2 t , =3= x3 + X3 tg t2 , WlJ == hl~ W2 == " 25 Z3 -= 3-g t ; and the rigorous determination of the six varying elements z1 X2 X3 XI X3 , as functions of the time and of their own initial values el e2 e3 PI P2 p3 , depends on the integration of the 6 following equations , in ordinary differentials of the first order , of the forms ( 105 .
+) : dt=A=2t ( x2 + t ) , dx2 = -2 t ( 2 + t ) , ... ... . .
+( 150 .
+) dt 8 hg2 ' and dx j H_ _d X= H2 2 ( + X It ) , _ =a ( x3 + ?
+2 t2 ) dt == ( 2 2+ dh , i x:3 _~ H~ __ v3 qX3 tgt dta 2 , g H2 being here the expression ( 1 H2 =2 g ( Xi + !
+2 t)2}2 ( 3+ Xt t t.23 ( 152 .
+) which is obtained from ( 125 .
+) by substituting for the disturbed coordinates w1 42 83 their values ( 149 .
+) , as functions of the varying elements and of the time .
+It is not difficult to integrate rigorously this system of equations ( 150 .
+) and ( 151 .
+) ; and we shall soon have occasion to state their complete and accurate integrals : but we shall continue for a while to treat these rigorous integrals as unknown , that we may take this opportunity to exemplify our general method of indefinite approximation , for all such dynamical questions , founded on the properties of the functions of elements C and E. Of these two functions either may be employed , and we shall use here the function C. 29 .
+This function , by ( 109 .
+) and ( 152 .
+) , may rigorously be expressed as follows : 125 = o2 ( X12 t2 + X2 2_ 2 ) dt Q A2 I ( l rV + -T , { A3 t2)2 }X dj and has therefore the following for a first approximate value , obtained by treating the elements z %2 Z3 1i X2 X3 as constant and equal to their initial values e1 e2 e3 PI Ps P3 , C=2(+ e22 ) + p2 ( pl2 + p22 ) +,232 ( 154 .
+) t4 ta --82gP3 + 4v2g2 J In like manner we have , as first approximations , of the kind expressed by the general formula ( Z1 ) , the following results deduced from the equations ( 151 .
+) , Xh 32(e3t+1 p3 t2 g t3 , , and therefore , as approximations of the same kind , 1A --pl e= ---pi t -2t e2 2a f-2t ... .
+( 155 .
+) e. .
+( ( 156 .
+) 1I t2 -1 p e3 p3t +6g2 32 t Substituting these values for the initial constants e1 e2 e , in the approximate value ( 154 .
+) for the function of elements C , we obtain the following approximate expression C1 for that function , of the form supposed by our theory : c , = _{ ( XI1 l)2 + ( A2 -P2)+ ' -..P:3 ) .
+} -_t ( ( 1 P ) Pl +(2 P2 ) P2 + ( 3 -3 ) ( 3 g t ) } ( 1I 57 .
+) +4{2 ( pl2 p2 2 ) + V2p32 } J2 p+22 g2 .
+The rigorous function C must satisfy , in the present question , by the principles of the eighteenth number , the partial differential equation , aC t{cC a ) 2(ac22 ax{ I ' +F A2 + i2 t}+ 3t -2 g t2 ) ( 158 .
+) + hi+ )2+ ( ^)2 } ~(sC , and if it be put under the form ( U ' .
+) , C= Cl + C2 , C , being a first approximation , supposed to vanish with the time , then the correction C2 must satisfy rigorously the condition 126 3i I , Accordingly , these rigorous expressions for the 6 varying elements , in the present dynamical question , agree with the results obtained by the ordinary methods of integration from the 6 ordinary differential equations ( 150 .
+) and ( 151 .
+) , and with those obtained by elimination from the equations ( 113 .
+) ( 114 .
+) ( 147 .
+) .
+Remarks on the foregoing Example .
+30 .
+The example which has occupied us in the last six numbers is not aitogether ideal , but is realised to some extent by the motion of a projectile in a void .
+For if we consider the earth as a sphere , of radius R , and suppose the accelerating force of gravity to vary inversely as the square of the distance r from its centre , and to be 1 R2 =g at the surface , this force will be represented generally by and to adapt the differential equations ( 78 .
+) to the motion of a projectile in a void , it will be sufficient to make U=g R ) ... ... ... . .
+( 173 .
+) If we place the origin of rectangular coordinates at the earth 's surface , and suppose the semiaxis of +z to be directed vertically upwards , we shall have r= J(R + z)2 + y2 , ... ... ... .
+( 174 .
+) and YT-2 g +ss ^+.2 ) U= ---g g ( xi+ ... .
+a e. * ( 175 .
+) neglecting only those very small terms which have the square of the earth 's radius for a divisor : neglecting therefore such terms , the force-function U in this question is of that form ( 110 .
+) on which all the reasonings of the example have been founded ; the small constants p , v , being the real and imaginary quantities / , / -respectively .
+We may therefore apply the results of the recent numbers to the motions of projectiles in a void , by substituting these values for the constants , and altering , where necessary , trigonometrical to exponential functions .
+But besides the theoretical facility and the little practical importance of researches respecting such projectiles , the results would only be accurate as far as the first negative power ( inclusive ) of the earth 's radius , because the expression ( 110 .
+) for the force-function U is only accurate so far ; and therefore the rigorous and approximate investigations of the six preceding numbers , founded on that expression , are offered only as mathematical illustrations of a general method , extending to all problems of dynamics , at least to all those to which the law of living forces applies .
+Attracting Systems resumed : Differential Equations of internal or Relative Motion ; Integration by the Principal Function .
+31 .
+Returning now from this digression on the motion of a single point , to the more important study of an attracting or repelling system , let us resume the differential equations ( A. ) , which may be thus summed up : 130 d t2 ( dras -dS ) ; ... .
+) .
+( A2 .
+) and in order to separate the absolute motion of the whole system in space from the motions of its points among themselves , let us choose the following marks of position : X.m x 2.my.mznz / -m n.Y. 'm z m~'.* ... ( 176 .
+) and = Zi xi-n xi = Yi y , =i -y zi = -z ; . .
+( 177 .
+) that is , the 3 rectangular coordinates of the centre of gravity of the system , referred to an origin fixed in space , and the 3 n-3 rectangular coordinates of the n1 masses mI m2 ... m_ 1 , referred to the nth mass mn , as an internal and moveable origin , but to axes parallel to the former .
+We then find , as in the former Essay , T ( x ' , 2+ y ' / 2 + z ' , ,2 ) &gt; S m+ 1 .
+M ( e12 + rt2 + 2 ) { ( .
+m )2 + ( , .
+)+ ( .
+m )2 , .
+7 the sign of summation 2 , referring to the first n1 masses only ; and therefore , T -Q2m{ a(l , , ) + ( LT +2 ( }1IT / 8T\2 8ST\ 2 / ST\2_ 11 1( { / 2+\2 +T+ / am(2+ + { , 'm { g ) + ( T)2 + ( m -sT)2 } &gt; f ... ( 179* ) +_M1 " ( T ( 2 a T\2 ( aT T2 If then we put for abridgement , i1i T , Z.m ' 1 -m 8a'--~m ' y,1 ST , Z,.mq ] yI m =1 ' ( imx &gt; . .
+d ' + .
+ed+d ( 180 .
+) _ aT Z , _ m | ' 'm ~ 'm 'J we shall have the expression H= ( , r b2 + yJ 62+ z , i2 ) +2z , .
+m ( x ' 2+ y'2 + Zt,2 ) in order to form , by our general process , 6n differential equations of motion of the first order , between the 6n quantities x , ,y , z , , x ' , Y2z ' , ,w 1 ?
+^ y ' , % and the time .
+In pends only on the 3n3 internal coordinates d d , being of the form s2 131 U= m(m1f +m2f2+.+ m,1fn- ) .
+( D_2 .
+) + ml m2fl,2 + ml m3f,3 +. .
++ m , _ 2 n- , f 2 , n1 in whichfi is a function of the distance of mi from mn , and f ' , k is a function of the distance of mi from mk , such that their derived functions or first differential coefficients , taken with respect to the distances , express the laws of mutual repulsion , being negative in the case of attraction ; and then we obtain , as we desired , two separate groups of equations , for the motion of the whole system of points in space , and for the motions of those points among themselves ; namely , first , the group d x , , =x ' , d t. d x ' , , 0 , die , = y ' , , d t , d y ' , , ... ( 81 .
+) d % , = z ' , dt dzl ' =0 , and secondly the group d= ( '+i d,.m )x ' , ) d f , dx ' 1d t , nJd =.vI+ l. d , I-dt dz d. d The six differential equations of the first order , ( 181 .
+) , between x , , ' , , y ' , , zf ' , and t , contain the law of rectilinear and uniform motion of the centre of gravity of the system ; and the 6n -6 equations of the same order , ( 182 .
+) , between the 6n 6 variables T x ' , y ' , ' , and the time , are forms for the differential equations of internal or relative motion .
+We might eliminate the 3 n3 auxiliary variables x ' , y , z ' , betweenr these last equations , and so obtain the following other group of 3n3 equatios of the second order , involving only the relative coordinates and the time , ma+ mn : E IF 1aUI au 1 FU 1 Eu J L &gt; ?
+ma+ m+ El a n. but it is better for many purposes to retain them under the forms ( 182 .
+) , omitting , however , for simplicity , the lower accents of the auxiliary variables x ' , y ' , z ' , , because it is easy to prove that these auxiliary variables ( 180 .
+) are the components of centrobaric velocity , and because , in investigating the properties of internal or relative motion , we are at liberty to suppose that the centre of gravity of the system is fixed in space , at the origin of xy z. We may also , for simplicity , omit the lower accent of 2 , , understanding that the summations are to fall only on the first n1 masses , and denoting for greater distinctness the nth mass by a separate symbol M ; and then we 132 may comprise the differential equations of relative motion in the following simplified formula , dtH-= .
+m ( dx d'dx + dr y'dy'6 +d z'-dz ' .
+( E2 .
+) in which H =12_ m ( X/ 2 +y'2 + z12 ) + m{( .
+x')2 + ( .
+my')2 + ( + .
+mz')2 } U. ( F2 .
+) And the integrals of these equations of relative motion are contained ( by our general method ) in the formula S= 2.m( ~-m -a'Q+y ' sb'a+ -z'c'y),. .
+( G2 .
+) in which ( 3 y a ' b c ' denote the initial values of ?
+v a !
+y ' z ' , and S is the principal function of relative motion of the system ; that is , the former function S , simplified by the omission of the part which vanishes when the centre of gravity is fixed , and which gives in general the laws of motion of that centre , or the integrals of the equations ( 181 .
+) .
+Second Example : Case of a Ternary or Multiple System with one Predominant Mass ; Equations of the undisturbed motions of the other masses about this , in their several Binary Systems ; Differentials of all their Elements , expressed by the coefficients of one Disturbing Function .
+32 .
+Let us now suppose that the n1 masses m are small in comparison with the nth mass M ; and let us separate the expression ( F2 .
+) for H into the two following parts , HI = 2i.i ( 1+ M)(x2 + y2 +1-'2)-M .
+mf , -H2 M ( x Ix2 +y z2 Mfl 2 ) + ... 2. . ? .
+( H2 .
+) Mi mkC +-~-(x'ix'~.+y ' + ' + +z ' -MJ I)+ ... ~+ t ( ZZ + ~YiYT'Y ' + ii kM f.'+ " of which the latter is small in comparison with the former , and may be neglected in a first approximation .
+Suppressing it accordingly , we are conducted to the following 6n 6 differential equations of the 1st orlder , belonging to a simpler motion , which nay be called the undisturbed : d14 .
+1r dy ' 1 H_ 16171 1 dt mx ~6 HIr~m xl a'na= l1 +l x2 ; =M dt ~m Sy MJY dt am 6 ' * the six quantities zXv7I being constant for the undisturbed motion of any one binary system ; and therefore the six functions %(1 ) , X2 ) , X( ) , ) , X(5 ) %(6 ) , or p , , , , s , being such as to satisfy identically the following equation , ax ax H1 ix 8 HI1 H , w 8x 8 EH xI 8aH x8H 0-mn+ , g -a x x , y a ++ y -1 +an ; 2 ' a z ' 'r ( L2 .
+) with five other equations analogous , for the five other elements x , , v , v , w , in any one binary system ( n , M ) .
+33 .
+Returning now to the original multiple system , we may retain as definitions the equations ( K2 .
+) , but then we can no longer consider the elements x. X. p. u. r. .
+of the binary system ( m. , M ) as constant , because this system is now disturbed by the other masses m , ; however , the 6n 6 equations of disturbed relative motion , when put under the forms da H , aH d ' x H1 a H2 da H !
+aH d. a HI , a Ho m dtyl +ym a. ( M2 .
+) di aH , +aH2 dz ' aH , aHI m dr += ... ~Y + ~-T"_ 1 -. .
+'t dt~ z1 8T 8/ 8 " dt ~ H. ~ " 8 ' nd combined with the identical equations of the kind ( L2 .
+) , give the following simple expression for the differential of the element x , in its disturbed and variable state , dx axaH2 aXaH ax aHo axaH ax a ax aH i -_ ___ _1 _1a2 m'2 taa ~ax , a an a3y~ -sy an 1 ag -Zi a~ &lt; a* -N ) together with analogous expressions for the differentials of the other elements .
+And if we express d7a y ' z ' , and therefore H2 itself , as depending on the time and on these varying elements , we may transform the 6 n6 differential equations of the 1st order , ( M2 .
+) , between 7 !
+xy ' z ' t , into the same number of equations of the same order between the varying elements and the time ; which will be of the forms dn{z { } S } 8 HX } +{ }{ Ho , { } , 8 H,2 m dt= { z } a Xa +{ ap}^ +{}+ { a r } +{ } Id at vH8Han8HH8 2 .
+) m { , }+ { , z+ } aT + { V , I } a , + { p , } aT + { &lt; , p WIa } d8 Ht Ha}8 Ha 8 Hz , d w. H2 8a H , +a8 HH 134 if we put , for abridgement , 8x 0A ax axA +i ax ax ax8 Sa hax aA and form the other symbols { x , p } , { x , 1 , &amp;c. , from this , by interchanging the letters .
+It is evident that these symbols have the properties , { X , I } _-{ , X } , { XI } = 0 ; ... ... ... ( 184 .
+) and it results from the principles of the 15th number , that these combinations { x , } , &amp; c , , when expressed as functions of the elements , do not contain the tiIne explicitly .
+There are in general , by ( 184 .
+) , only 15 such distinct combinations for each of the n1 binary systems ; but there would thus be , in all , 15 n 15 , if they admitted of no further reductions : however , it results from the principles of the 16th number , that 12 n12 of these combinations may be made to vanish by a suitable choice of the elements .
+The following is another way of effecting as great a simplification , at least for that extensive class of cases in which the undisturbed distance between the two points of each binary system ( m , M ) admits of a minimum value .
+Siimplfication of the Differential Expressions by a suitable choice of the Elements .
+34 .
+When the undisturbed distance r of m from M admits of such a minimum q , corresponding to a time r , and satisfying at that time the conditions rOr &gt; 0 e , , ... .
+o. o ... ... ( 185 .
+) then the integrals of the group ( 12 .
+) , or the known rules of the undisturbed motion of m about M , may be presented in the following manner : = { ( iy ^82+( zy')2 +( I ; )2 } = DI+m ( X'2 +y z2 + 2'2)-Mf ( r ) ; =tan .
+' z g\/ M dr ^d ( Q20 ) r= t/ ^ V , +m d __ ) _ dr r , = P-E-s- .
+x/ +mm drd x -.v -sin-l _r , _ , um 'J , / d- 'd the minimum distance q being a function of the two elements z , p , whied must satsfy the conditions r+2Mf(g-( M ) =0 MJ72 ( q + ( 1 + Im ) x &gt; O ; ( 2and sn ) s , tan-qMt being + used ) ( 186 .
+) and sin ' s , ta n't , being used ( according to Sir JOHN HERSCHEL'S notation ) to express , not the cosecant and cotangent , but the inversefunctions corresponding to sine and cosine , or the arcs which are more commonly called arc ( sin = s ) , arc ( tan = t ) .
+dr It must also be observed that the factor , which we have introduced under the signs of integration , is not superfluous , but is designed to be taken as equal to positive or negative unity , according as dr is positive or negative ; that is , according as r is increasing or diminishing , so as to make the element under each integral sign constantly positive .
+In general , it appears to be a useful rule , though not always followed by analysts , to employ the real radical symbol J/ R only for positive quantities , unless the negative sign be expressly prefixed ; and then , will denote positive or negative unity , according as r is positive or negative .
+The arc given by its sine , in the expression of the element w , is supposed to be so chosen as to increase continually with the time .
+35 .
+After these remarks on the notation , let us apply the formula ( P2 .
+) to calculate the values of the 15 combinations such as { z , X } , of the 6 constants or elements ( Q2 .
+) .
+Since r== ( 2 + , + .
++.2 ... .
+( 187 .
+) it is easy to perceive that the six combinations of the 4 first elements are as follows : { , X}= 0 , { z , )p } 0 , { z , v } = 0 , { X)p-0 , { x ) , }= 1 , { P , v } = 0. .
+( 188 .
+) To form the 4 combinations of these 4 first elenlents with r , we may observe , that this 5th element r , as expressed in ( Q2 .
+) , involves explicitly ( besides the time ) the distance r , and the two elements z , fp ; but the combinations already determined show that these two elements may be treated as constant in forming the four combinations now sought ; we need only attend , therefore , to the variation of r , and if we interpret by the rule ( P2 .
+) the symbols { z , r } { X , r } { &amp; , r } { v , r } , and attend to the equations ( I2 .
+) , we see that dr { , r } = 0 , { ; , r } = 0 , { c , r } = -- ' { v , r } = 0 , ... ( 189 .
+) dr -d being the total differential coefficient of r in the undisturbed motion , as determined by the equations ( I2 .
+) ; and , therefore , that { z( , }= 0 , , , { v , r } = , ... . .
+( 190 .
+) and 'r dr dt dr { , }= -r dt= +=t ** in which , if e be any of the first five elements , or the distance r , Iae ae le ae { e , r } =-r ( - ' + -Y+ C a ' ) , { e }= -ez , { e , , z } = 0 , .
+( 193 .
+) and w_ Ax)\1 ax w dg w 8o a t^ ) 8r = rT^ y^= 1$ ; ... ... ... ( 194 .
+) the formula ( 192 .
+) may therefore be thus written : ae aee ?
++ tt + &gt; Y+^ ' -^'J^ 7 xl |. .
+( 195 .
+) + { e , v } + 8x { e , }+ { e , } .
+J We easily find , by this formula , that dr aow { %x , } =-1 ; { k , o } = 0 ; { ( , c } = 0 ; { r , o )= dt ... ( 196 .
+) and av 8 &lt; O Xco { ,.}.=r ?
+.8 4i= - ?
+-* ** * ... *. .
+*~..(197 .
+) The formula ( 195 .
+) extends to the combination { r , w } also ; but in calculating this last combination we are to remember that r is given by ( Q2 .
+) as a function of x , , r , such that BT dt r. .
+= -d ; *. .
+* * .
+** ( 198 .
+) and thus we see , with the help of the combinations ( 196 .
+) already determined , that { , =o } = ---= / dr+Jr dr , ... . .
+( 199 .
+) if we represent for abridgement by 0 , and Q , r the coefficients of dr under the integral signs in ( Q2 .
+) , namely , OrVM +v{2pj+2Mf(r)M ?
+r^}n J M\/ .M { 2+M _M m x } -i+J culty were not occasioned by the necessity of varying the lower limit q , which depends on those two elements , and by the circumstance that at this lower limit the coefficients 0 , C , become infinite .
+However , the relation ( 202 .
+) shows that we may express this combination ( { , w } as follows : ^='+ jfrdr j+rdr , ... ... .
+( 203 .
+) r , being an auxiliary and arbitrary quantity , which cannot really affect the result , but may be made to facilitate the calculation ; or in other words , we may assign to the distance r any arbitrary value , not varying for infinitesimal variations of z , , which may assist in calculating the value of the expression ( 199 .
+) .
+We may therefore suppose that the increase of distance rq is small , and corresponds to a small positive interval of time t r , during which the distance r and its differential coefficient r ' are constantly increasing ; and then after the first moment s , the quantity , = ... ... ... ... ... ... . .
+( 204 .
+) will be constantly finite , positive , and decreasing , during the same interval , so that its integral must be greater than if it had constantly its final value ; that is , t-'f =rdr &gt; ( r-q ) ... ... ... .(205 .
+) Hence , although @r tends to infinity , yet ( r q ) , r tends to zero , when by diminishing the interval we make r tend to q ; and therefore the following difference rr* M+nMx rM +m nr Kx x\ J lr , drM Jf d , drM= m , \-)O,.rdr , .
+( 206 .
+) will also tend to 0 , and so will also its partial differential coefficient of the first order , taken with respect to t. We find therefore the following formula for { r , w } , ( remembering that this combination has been shown to be independent of r , ) { fo } r{ ordr + dr .
+( 207 .
+) the sign implying that the limit is to be taken to which the expression tends r when r tends to q. In this last formula , as in ( 199 .
+) , the integralJf Or dr may be considered as a known function of r , q , p , , or simply of r , q , z , if pJ be eliminated by the first , condition ( 186 .
+) ; , and since it vanishes independently of X when r= q , it may be thus denoted : f"e , r -=(r , q , ) -p ( q ) , ... ... ... .
+( 208 .
+) the form of the function p depending on the law of attraction or repulsion .
+This integral therefore , when considered as depending on z and p , by depending on z and q , need not be varied with respect to z , in calculating { r , w } by ( 207 .
+) , because 138 its partial differential coefficient ( O dr ) , obtained by treating q as constant , vanishes at the limit r= q ; nor need it be varied with respect to q , because , by ( 186 .
+) , S +x +M_o= ' .
+' ... ... ... ... ... ( 209 .
+) it may therefore be treated as constant , and we find at last { , } == o ... ... ... ... ... ... ( 210 .
+) the two terms ( 199 .
+) or ( 203 .
+) both tending to infinity when r tends to q , but always destroying each other .
+36 .
+Collecting now our results , and presenting for greater clearness each combination under the two forms in which it occurs when the order of the elements is changed , we have , for each binary system , the following thirty expressions : { bX } =O , ( , } ) = 0 , { ( 0 { } =0 , { ( r , } 0 , { ( , } 10 , { , X } = o , { , , { , , r } = 0 , I , , } = , { , , { } =0 ( V , ) } = 0 , ( { r , i } =1 , { r , } I= , { { , } 0 , { }= 0 , { ~ , x ) = o , ( { , A } o , ( { , }0 ) l , ( i , Y } o , ( C , ~ } = o , J ( { } -= 1 , { c , X } = , { , , c } = 0 , { ) } = 0 , { , = } = 0 ; so that the three combinations { d,7 } { S ) , } { X , V } are each equal to positive unity ; the three inverse combinations { V ' , t } Q{X4 ) } { v , } are each equal to negative unity ; and all the others vanish .
+The six differential equations of the first order , for the 6 varying elements of any one binary system ( m , M ) , are therefore , by ( 02 .
+) , dyp l Hi dr 8l H~d_ _ , -dc _ _ .
+dt , dt-8 , m X. .
+daa Ha dYr Ha M Ay 5 H2 _ m-dr a , ( S-- ) m dt - , , 7 dt BA'J and , if we still omit the variation of t , they may all be summed up in this form for the variation of H2 , S H2 = .
+m ( ''8d +'S -+ -'8 v - ' ),. .
+( T2 .
+) which single formula enables us to derive all the 6n6 differential equations of the first order , for all the varying elements of all the binary systems , from the variation or from the partial differential coefficients of a single quantity Hz , expressed as a function of those elements .
+T2 139 If we choose to introduce into the expression ( T2 .
+) , for S H2 , the variation of the time t , we have only to change 6r to rS t , because , by ( Q2 .
+) , St enters only so accompanied ; that is , t enters only under the form ti , in the expressions of i i % 'i y ' ' as functions of the time and of the elements ; we have , therefore , a =H -S^ _ =a _ E.mf &gt; ; ? .
+, ... ... .2. .
+( 211 .
+) and since , by ( H2 .
+) , ( Q2 .
+) , HI= M , .
+m * , ( 212 .
+) we find finally , d l. ( H2 .
+) dt = at ( 2 .
+) This remarkable form for the differential of I-I , considered as a varying element , is general for all problems of dynamics .
+It may be deduced by the general method from the formulae of the 13th and 14th numbers , which give dHi allg aH l ax , f+ l8x8xr a HI a X6 na H , ax6ni dt ax1\ a a3 aiB a1 n 6\a w 6w s. _+ J i-X , 6 at , 6 E^z 6 xz 6 '1~E , 6 x , ,(213 .
+) _a H2 ax 1+a H2a X2 + H2 a6n _a H2 x , at ax2 Tt " + a6n t tJ z z2 ... 6 n being any 6n elements of a system expressed as functions of the time and of the quantities n z ; or more concisely by this special consideration , that HI + H2 is constant in the disturbed motion , and that in taking the first total differential coefficient of H2 with respect to the time , the elements may by ( F1 .
+) be treated as constant .
+It is also a remarkable corollary of the general principles just referred to , but one not difficult to verify , that the first partial differential coefficient tof any element x , , taken with respect to the time , may be expressed as a function of the elements alone , not involving the time explicitly .
+On the essential distinction between the Systems of Varying Elements considered in this Essay and those hitherto employed by mathematicians .
+37 .
+When we shall have integrated the differential equations of varying elements ( S2 .
+) , we can then calculate the varying relative coordinates a4 &amp; , for any binary system ( m , M ) , by the rules of undisturbed motion , as expressed by the equations ( I2 .
+) , ( Q2 .
+) , or by the following connected formulae : =r ( cos O+ sin(O -v ) sin , ) Xv=r ( sin 0 sin ( d-v ) cos v ) , L ... ... ... ( V2 .
+) = xr / 2 AX X2 sin ( 0 -Y ) 140 in which the distance r is determined as a function of the time t and of the elements z , Z , ( , by the 5th equation ( Q2 .
+) , and in which / M+ m dr xd r , / g , M r2 r2 V 2pr +2 Mf(r)-N~i x'( q being still the minimum of r , when the orbit is treated as constant , and being still connected with the elements z , ( , by the first equation of condition ( 186 .
+) .
+In astronomical language , M is the sun , ma planet , M ; t are the heliocentric rectangular coordinates , r is the radius vector , 0 the longitude in the orbit , w the longitude of the perihelion , v of the node , 0w is the true anomaly , 0y the argument of latitude , lp the constant part of the half square of undisturbed heliocentric velocity , diminished in the ratio of the sun 's mass ( M ) to the sum ( M + m ) of masses of sun and planet , ; is the double of the areal velocity diminished in the same ratio , x is the versed sine of the inclination of the orbit , q the perihelion distance , and r the time of perihelion passage .
+The law of attraction or repulsion is here left undetermined ; for NEWTON'S law , p , is the sun 's mass divided by the axis major of the orbit taken negatively , and z is the square root of the semiparameter , multiplied by the sun 's mass , and divided by the square root of the sum of the masses of sun and planet .
+But the varying ellipse or other orbit , which the foregoing formulae require , differs essentially ( though little ) from that hitherto employed by astronomers : because it gives correctly the heliocentric coordinates , but not the heliocentric components of velocity , without differentiating the elements in the calculation ; and therefore does not touch , but cuts , ( though under a very small angle , ) the actual heliocentric orbit , described under the influence of all the disturbing forces .
+38 .
+For it results from the foregoing theory , that if we differentiate the expressions ( V2 .
+) for the heliocentric coordinates , without differentiating the elements , and then assign to those new varying elements their values as functions of the time , obtained from the equations ( S2 .
+) , and deduce the centrobaric components of velocity by the formulae ( I2 .
+) , or by the following : _M__ , _M l_MM X'--M+ mY =M+m ' * .
+'. .
+( 214 .
+) then these centrobaric coniponents will be the same functions of the time and of the new varying elements which might be otherwise deduced by elimination from the integrals ( Q2 .
+) , and will represent rigorously ( by the extension given in the theory to those last-mentioned integrals ) the components of velocity of the disturbed planet m , relatively to the centre of gravity of the whole solar system .
+We chose , as more suitable to the general course of our method , that these centrobaric components of velocity should be the auxiliary variables to be combined with the heliocentric coordinates , and to have their disturbed values rigorously expressed by the formulae 141 of undisturbed motion ; but in making this choice it became necessary to modify these latter formulae , and to determine a varying orbit essentially distinct in theory ( though little differing in practice ) from that conceived so beautifully by LAGRANGE .
+The orbit which he imagined was more simply connected with the heliocentric motion of a single planet , since it gave , for such heliocentric motion , the velocity as well as the position ; the orbit which we have chosen is perhaps more closely combined with the conception of a multiple system , moving sibout its common centre of gravity , and influenced in every part by the actions of all the rest .
+Whichever orbit shall be hereafter adopted by astronomers , they will remember that both are equally fit to represent the celestial appearances , if the numeric elements of either set be suitably determined by observation , and the elements of the other set of orbits be deduced from these by calculation .
+Meantime mathematicians will judge , whether in sacrificing a part of the simplicity of that geometrical conception on which the theories of LAGRANGE and POISSON are founded , a simplicity of another kind has not been introduced , which was wanting in those admirable theories ; by our having succeeded in expressing rigorously the differentials of all our own new varying elements through the coefficients of a single function : whereas it has seemed necessary hitherto to employ one function for the Earth disturbed by Venus , and another function for Venus disturbed by the Earth .
+Integration of the Simpljfied Equations , which determine the new varying Elements .
+39 .
+The simplified differential equations of varying elements , ( S2 .
+) , are of the same form as the equations ( A. ) , and may be integrated in a similar manner .
+If we put , for abridgement , ( r,7 ) f{+ ( + Z+ Y )H2 d dt,. .
+( X2 .
+) and interpret similarly the symbols ( p , w , ?
+) , &amp;c. , we can easily assign the variations of the following 8 combinations , ( r , % , v ) ( p , 0 , ; ) ( p , z , v ) ( r , % , X ) ( r , , v ) ( P , z , x ) ( r , , k ) ( p. , ) , v ) namely , ( ( , z , v ) = 0 .
+m ( .
+S p0 + x0z0 o0 + v. -v0o Po ) H 12 t , 3(p , ox)E ?
+m ( p-0j0+ TO p rq-wo0 0z+ -X01)-1H2t , I ( tP ' , x ) ) = .
+m ( Po 6 To ir+z~ co 6 wo + po ~ xo Po ) H2 t , ( r , , ?
+) == 2 .
+M ( , rp ro S po + wo 6 so wy 3x + Xo h ^o xh ) H2 Y 2 ) B ( r,6/ , ) == 2 .
+m ( r^ip . ?
+^ a0 ' &lt; C o+ Xv y. Xo^o ) HI2 t , ( ( ~ , Z , , ) = E. m ( r ~ -o So +oo+o6o -x 6 ) HP S t , 6 ( , w , ^ ) -= 2 .
+m ( o +ro -r +oo -+ +oo ) H1 2 t , so o 1po Po To wo being the initial values of the varying elements XX p. vr w. If , then , we consider , for example , the first of these 8 combinations ( r , x , v ) , as a function of 142 all the 3n3 elements 'i wi i , and of their initial values po , i w , i % , iinvolving also in general the time explicitly , we shall have the following forms for the 6n6 rigorous integrals of the 6 n6 equations ( S2 .
+) : i"i -8i ( 8 , , " ) ; M no , i= --Z ( , m , T ) ; o Mi p =o , i , m -ii ) ; m ao , J-- , -nz , i Z.0 P ' , i and in like manner we can deduce forms for the same rigorous integrals , from any one of the eight combinations ( y2 .
+) .
+The determination of all the varying elements would therefore be fully accomplished , if we could find the complete expression for any one of these 8 combinations .
+40 .
+A first approximate expression for any one of them can be found from the form under which we have supposed H2 to be put , namely , as a function of the elements and of the time , which may be thus denoted : ~~~~~~~H2 ~~~~= HIt2~~~~ ( 14 1* - ?
+n ) ( A3 .
+) by changing in this function the varying elements to their initial values , and employing the following approximate integrals of the equations ( S2 .
+) , Io lt=H dt , a=oa H2 dt , =+w +o +S=zd t , o dt,. .
+( B3 .
+) 0z Imo aXmo owB 1 t^B Hdt , 1J0a mo OQ o Ao For if we denote , for example , the first of the 8 combinations ( Y2 .
+) by G , so that G= { r , , ... ... ... ... ... ... ( C3 .
+) we shall have , as a first approximate value , G1=Jo aa ?
+_o 0o 2-H jd t ; .
+( D3 .
+) and after thus expressing G as a functionof the time , and of the nd initial elements , we can eliminate the initial quantities of the forms T so up , and introduce in their stead the final quantities pw X , so as to obtain an expression for G1 of the kind supposed in ( Z2 .
+) , namely , a function of the time t , the varying elements pw X , and their initial values p Wo % .
+An approximate expression thus found may be corrected by a process of that kind , which has often been employed in this Essay for other similar purposes .
+For the function G , or the combination ( r , , v ) , must satisfy rigorously , by ( Y2 .
+) ( A3 .
+) , the following partial differential equation : 143 a I1 aG laG1 aG 1 GG ( EG - ?
+=t + H2 t , ml- , 0^ A , ' ml81 ' ( E. ) and each of the other analogous functions or combinations ( Y2 .
+) must satisfy an analogous equation : if then we change G to G1 + G2 , and neglect the squares and products of the coefficients of the small correction G2 , Gl being a first approximation such as that already found , we are conducted , as a second approximation , on principles already explained , to the following expression for this correction G2 : t aG ia GI Ia GI ia GI 1 ( .
+) -G2=-o { = G1 + H2(t mt , I t11 , d ( F31 which may be continually and indefinitely improved by a repetition of the same process of correction .
+We may therefore , theoretically , consider the problem as solved ; but it must remain for future consideration , and perhaps for actual trial , to determine which of all these various processes of successive and indefinite approximation , deduced in the present Essay and in the former , as corollaries of one general Method , and as consequences of one central Idea , is best adapted for numeric application , and for the mathematical study of phenomena .
+144
+

@@ -1,0 +1,197 @@
+]\gt ; Dr. W. H. Young .
+[ May 11 , condition of Lipschitz , which requires that for each positive value of less ihan a fixed positive quantity , less than unity , should be bounded , then these functions and are integrals , provided only that .
+This leads at once to the further conclusion that if we substitute for and for , in other words , if we employ the reverse process to that previously described , we still get series of Fourier , provided only .
+We are thus able , in particular , assert that and have in the case of a function satisfying such a generalised condition of Lipschitz the unique limit zero as increases indefinitely , provided , a conclusion which agrees with recent investigaticns on the order of magnitude of the coefficients of such a Fourier series .
+But , further , it leads to the striking result that in this case also converges and that , more generally , if , refer to another function of the type considered in which takes the place of , then the series whose general terms are respectively and necessarily converge , provided only that 2 .
+Moreover , simple expressions are found for the sums of these series .
+If is a function of mded variation , then however small may be taken , the direct process always leads to functions and which are integrals .
+From this it follows that the reverse process performed on the Fourier series of a function of bounded variation and on the allied series always lead to Fourier series , provided is less than unity .
+This includes , course , the known result that in the case of such a series , and have the unique limit zero when is less than unity .
+It also enables us to write down the sum , , and a number of similar expressions .
+The essential features of the yations consist , in fact , in the actual formation and discussion of expressions for and .
+It seems therefore not unlikely that closer scrutiny of these expressions may lead to the discovery of further properties .
+That we cannot pass , however , by the rocess described , when , from the general continuous function even to a function of bounded variation , however near be taken to unity , appears from the mere inspection of Weierstrass 's function .
+It is H. Lebesgue , " " Sur la sentation trigonometrique approchee des fonctions satisfaisant a une condition de Lipschitz ' Bull .
+de la Soc. Math. de France , ' 1910 , vol. 38 On of Generating Fourier Series .
+probable therefore that the statements just made are , as far as they go , and in their general outline , complete .
+S2 .
+We shall require the following theorem in parametric integration:\mdash ; Theorem.\mdash ; If is an integral and is a summable function in the bterval ( , is , when regarded as function of , an For by the fundamental property of an integral , as formulated by Vitali , we can fix and then find , so that , provided only we have ; here the left-hand side of the preceding inequality represents the total increment of over the set of intervals , supposed to be non- This being true for all positions of the points which permit the intervals to be constructed in accordance with these conditions , it is true when we translate each interval the same distance in the same direction , that is , it is true when for we write .
+Hence for the same systenL of quantities , we have , denoting by , ich , by Vitali 's condition , shows that is an integral .
+S3 .
+We are now able to prove the following fundamental result:\mdash ; Theorem .
+) is a Fourier series , are Moreover , th Fourier betions of these latter series are expressible in a simpte manner in terms of that of the former series .
+First , let and suppose * G. Vitali , " " Sulle funzioni integrali 'Atti di Torino , ' 1905 , vol. 40 , pp. See also my paper on " " Semi-integrals and Oscillating Successions of Functions ' Lond. Math. Soc. Proc 1910 , Series II , vol. 9 , pp. 286\mdash ; 324 .
+There is no loss of generality in assuming , as we do here , that the constant term is absent .
+See W. H. Young , " " On the Conditions that a Trigonometrical Series shoultL have the Fourier Form ' Lond. Math. Soc. Proc 1910 , Series II , vol. 9 , pp. 421\mdash ; 433 .
+418 Dr. W. H. Young .
+[ May 11 , so that where is a constant , and therefore oos nt .
+Since is an integral , and therefore a function of bounded variation , and , we may now use formula ( I ) , on p. 18 of my paper on " " The Fourier Constants of a Function , thus get , ( 1 ) where .
+Now is an integral when regarded as a function of , by the theorem of S2 .
+Also , since where we have in the repeated integral changed the order of integration , since is summable and is bounded .
+Using the Second Theorem of the Mean , the inner integral of this latter repeated integral may be written , and therefore traces out a bounded sequence as moves off to infinity , since is periodic , and exists , both when is zero , and when it is not .
+Hence , " " On a Class of Parametric S9 .
+On a Mode of Generating Fourier Series .
+419 and therefore Thus our integral between the limits of integration ( 1 , , when regarded as a function of , an integral .
+Since the same has been shown to be true between the limits , it follows that it is true between the limits , which proves that the series ( 1 ) converges to an integral , and therefore that the series is a Fourier series .
+A precisely similar argument shows that the series is a Fourier series .
+We have in We thus get , as before , where ; and it is evident that the rest of the argument is the same as before .
+If is not less than unity , it is clear that , by repeating the argument , the same zesult holds good .
+Cor.\mdash ; Thus , with the notation of the theorem , we , if , it being understood that , where the differential coefficients do not which can only be the case for a set of values of of content zero\mdash ; the value zero , or any other convenient value , is assigned to the left-hand sides .
+The corresponding formulae when easily be written down , using the formulae on p. 22 instead of those on p. 18 of the Fourier constants paper .
+Dr. W. H. Young .
+[ May 11 , S4 .
+So far has been any summable function .
+We now suppose it to be subject to some further restrictions .
+First let us suppose that , for some fixed positive quantity , not necessarily rational , the power of is summable .
+We can then at once get additional information .
+if we restrict to be greater than Moreover , the expressions just obtained for the Fourier functions take a still simpler form .
+We have in fact the theorem:\mdash ; Theorem.\mdash ; If has its power summable , and any less than , then and .
+As be.fore , the uhen can be written down .
+It will be sufficient to prove the former of these statements , as the argument in the two cases is identical .
+It depends first on the fact when we have expressed as an integral , change of order of integration can be shown to be allowable in the repeated integral thus obtained .
+Thus Now ' is summable , and is also summable , since ; hence we may by a theorem I have proved in a recent paper , * change the order of integration in the repeated integral on the right-hand side , and so Bearing in mind that , by another theorem of the same paper , the inside integral in the new repeated integral represents a continuous function of we have Similarly , Again , " " On a Class of Parametric Integrals S 10 .
+1911 .
+] On Mode of Generating Fourier Series .
+Now is bounded in the region of values here considered , and is a summable function .
+Hence change of order of integration is allowable*in the repeated integral on the right-hand side .
+Thus we have where the last step taken is allowable , since the inside in the repeated integral on the is , by the Second Theorem of the Mean , equal to that is and therefore is numerically less than a certain finite quartity , independent of , as is obvious from the fact , that is periodic .
+Thus the succession of functions of denoted by the inside for increasing values of forms a bounded and therefore an integrable sequence .
+It is , moreover , a uniformly conyergent sequence , so that the limiting function is continuous .
+Hence , finally , Bearing in miud the correspondi1lg result obtained when the limits of integration are and 1 , we at once have the required result .
+Cor. \mdash ; If for all positive values of less than some positive has its power summable , and is any greater than , then the results of the theorem still hold .
+For if be such a quantity , we can find such that so that the theorem applies .
+Cor. 2.\mdash ; Under the circumstances stated in the enunciation of the or the corollary , the Fourier functions of the series generated continuous functions .
+This has been shown in the course of the proof .
+, supra , S3 .
+Here again must be supposed if necessary so modified by the subtraction of a suitable constant , that its Fourier series is deficient of constant term .
+VOL. LXXXV.\mdash ; A. 2 Dr. W. H. Young .
+[ May 11 , Cor. 3.\mdash ; Under the same we obtain formulae for the su ms of and , whenever these series converge .
+Moreover , these series converge in the Cjsaro manner , by Cor. 2 , and we have Cesaro Cesaro S5 .
+We next suppose to be a bounded function .
+We then need to make no restriction on the positive quantity , and can still prove the same result .
+Thus we have the following theorem:\mdash ; Theorem.\mdash ; If is any bounded and is any positive quantity less than , then and .
+As before , the formutoe when can easily be written down .
+The mode'of proof is precisely the same as that adopted in the proof of the theorem of preceding article .
+The sole difference is that , in the discussion of the change of order of integration of the repeated integral which there occurs , we make use , when the limits of integration are and 1 , of different theorems from those there .
+These theorems correspond , however , precisely to their analogues .
+Cor. 1.\mdash ; Under the same circumstances the series of the theorem are the Fourier series of tinuous functions .
+This is shown in the course of the proof .
+Cor. 2.\mdash ; The formulae for and , when summed in the Cesaro way , have been already given in my paper on ( Fourier Constants They follow once more here .
+S6 .
+We have seen that the Fourier functions obtained in SS4 and 5 are continuous functions .
+If in S5 the function has bounded variation we can prove these continuous functions to be integrals .
+We shall,.for this purpose , require a special case of the following result in parametric integration:\mdash ; Theorem.\mdash ; If is positive and less than unity , and any summable 1911 .
+] On a Mode of Generating Fourier Series .
+fimction whose integral oscillates boundedly as the upper limit of integration increases without limit , then and are , when regarded as functions of , both integrals .
+* Since is summable and is an integral , we may integrate by parts .
+Thus , since the integral oscillates boundedly , so that vanishes when becomes infinite , we have ( 1 ) Here the second term on the right certainly exists and is a finite constant , since by hypothesis is bounded , and exists .
+We have , therefore , only to show that the third term on the right is an when regarded as a function of Now since ) is summable , and .
+is bounded in , we may reverse the order of integration , by a theorem already quoted , and write .
+( 2 ) By the Second Theorem of the Mean , , where .
+This is therefore a bounded function of , so that we may integrate term by term and write .
+( 3 ) By and ( 3 ) , Ths function may here be replaced by a function of a more general type .
+It will be sufficient if vanishes at infinity and has a monotone decreasing differential coefficient ) in the whole opeu infinite interval .
+424 Dr. W. H. Young .
+[ May 11 , which shows that the third term on the of ( 1 ) is an integral ; therefore the same is true of the left-hand side of ( 1 ) , when regarded as a function of This proves the theorem as far as is concerned .
+Similarly it follows for S7 .
+We shall next suppose to be of bounded variation .
+We have the following theorem:\mdash ; Theorem.\mdash ; If has bounded variation , cmd be a positive less , th is , as a function of tegral .
+Since has bounded variation , we may write , where and are monotone increasing functions of .
+Now is , since is monotone , itself a monotone increasing function of .
+Moreover , the integration by parts shows it to be an integral , when regarded as a function of , by S2 .
+Thus , as decreases , we get a 14onotone increasing sequence of functions of , each of which functions is an integral , and is further increased at each stage by a monotone function .
+We have , in fact , what I have called elsewhere*an ultra-monotone sequence of rals .
+It at once follows that the limiting function is itself an integral .
+Substituting for , and subtracting our results , this proves that the considered is a function of , which is an integral .
+Thus our theorem is true .
+Cor. , in addition , the integral of oscillates as goes off , when regarded as a function of , an integral .
+In fact , by S6 , is an integral ; hence , by addition , the required result follows .
+See 'Functions of Bounded Variation , ' S9 , p. 63 ; 'Semi-integrals and Oscillating Successions of Functions , ' S 2 , p. 288 .
+There is no difficulty in proving this theorem , which follows from S 14 , Cor. , p. 299 , of " " Semi-integraIs.\ldquo ; On Mode of Generating Fourier Series .
+425 S 8 .
+We now have the following theorem:\mdash ; Theorem.\mdash ; If in the Fourier series of a function of variation , and in its allied series , we substitute for , and for , each of the series so obtained is the Fourier series of an integral .
+This result is , in fact , an immediate consequence of the preceding corollary applied to the expressions of S S9 .
+We must now obtain another result in parametric integration .
+Theorem.\mdash ; If function\mdash ; of course continuous\mdash ; satisfying the generalised ipschitz condition that , for all of some fixed qunntity in the completely interval , being fixed quantity of or , then and are integrals , when regarded as functions of , provided only Select any quantity and less than unity , then we can choose , such that Let us replace the inferior limit of integration by , and integrate by parts .
+Then with the notation already adopted we have Subtract , and this expression plainly takes the form of which the differential coefficient with respect to is since the integrand of this last integral is bounded , so that the preceding integral may be differentiated under the integral sign .
+Using our Lipschitz condition , we see that this differential coefficient is , numerically , , , 426 Dr. W. H. Young .
+[ May 11 , since .
+Hence the differential coeffi'cients with respect to of - ( 1 ) form , as diminishes , a succession which is bounded above and below .
+Hence , * if we integrate these differential coefficients between the limits and , the upper and lower limits of the integrals are integrals .
+But , since is bounded , we know by Lebesgue 's theorem that , which converges to , when approaches zero as limit .
+This last expression is therefore , when regarded as a function of , an integral .
+Hence J is also an integral , and similarly is an integral , when regarded as a function of .
+Since has been taken to be any quantity between and unity , this proves the theorem when .
+The same arguinent , with insignificant modifications , proves the theorem when Cor.\mdash ; Under the same circumstances , provided only in addition integral of oscillates finitely , , when regarded as a function of , an integral .
+S10 .
+The result of the preceding corollary gives us at once the following theorem:\mdash ; Theorem.\mdash ; If we substitute for , and for , in the series and allied series of a function satisfying the generalised Lipschitz condition that for all values of less than , where a fixed quantity in the completely open interval , the series so obtained are the Fourier series of integrals , providpd only that This follows from the expressions , already used , giving the Fourier functions of the new Fourier series , obtained by the process described .
+* W. H. Young , " " and Oscillating Successions of Functions 'Lond .
+Math. Soc. Proc 1910 , Series II , vol. 9 , p. 301 .
+1911 .
+] On Mode of Generating Fourier Series . .
+S 11 .
+So far , in our process of generating Fourier series , we have always divided the coefficients and by positive powers of .
+We have now to examine the effect in one or two classes of cases of the process of by such a factor .
+Theorem.\mdash ; If we substitute and for and in the Fourier series of a function the generalised condition of Lipschitz , that all positive of less than afixed quantity less than unity , and , in the allied series , the series so obtained are both Fourier series , provided only less than In fact , we may suppose the process performed in two stages .
+To prove that the process performed on the Fourier series leads to another Fourier series , we start with the allied series , and , choosing any value of divide and by .
+We thus get , since , by S10 , where is an integral .
+But this is the necessary and sufficient condition* that the series should be a Fourier series .
+This , therefore , proves the required result .
+Similarly , starting with the Fourier series , we have , where is an integral .
+But this is the necessary and sufficient condition that the series should be a Fourier series .
+This proves the statement as to the allied series .
+Thus , both parts of the theorem are true .
+S12 .
+A precisely similar argument to that used in S 11 proves the corresponding result for the Fourier series of a function of bounded variation .
+Theorem.\mdash ; If in the Fourier series of a function of bounded variation , and in its allied series , we substitute for , and for , where we shall always get series of We use , in fact , the theorem of S 8 instead of that of S 10 .
+The argument of S 11 is otherwise unaltered .
+, " " On the Condition that a Trigonometrical Series should have the Fourier Form p. 423 .
+Dr. W. H. Young .
+[ May 11 , S 13 .
+We have seen that , if is a function satisfying a -Lipschitz condition , then , provided , that is , provided We then have , ( 1 ) where .
+( 2 ) But is a bounded and continuous function , and Hence , *since cannot oscillate , it must converge , and its sum is given by , ( 3 ) provided only that Hence also , if be the Fourier constants of another function satisfying a Lipschitz condition , we can , if , find and , so that .
+We then have , so that the series of which the general term is is convergent .
+Hence , by the same theorem as that used above , , ( 4 ) being given by ( 2 ) , and Similarly , , ( 5 ) where ( 6 ) and , W. H. Young , " " On the Integration of Fourier Series 'Lond .
+Math. Soc. Proc 1910 , Series II , vol. 9 , p. 456 , S 7 .
+1911 .
+] On a Mode of Generating Fourier Series .
+Bearing in mind that* and are the Fourier constants of a continuous function , and that and are the Fourier constants of a function which is summable , we the sums of the evidently convergent series 2 and Similarly , we can write down the sum of and it is clear that this process can be repeated indefinitely , as well as varied in a variety of ways .
+We have only to make use of the theorems in the three papers cited .
+S14 .
+It should be noted that our process will not change the Fourier series of a continuous function of the most general type into that of a function of bounded variation , still less into that of an integral .
+To see this , we have merely to consider the function of Weierstrass , defined as the sum of the Fourier series where is an odd , and .
+Evidently , if we write for , the series takes the form Now is greater than , however near unity may bs if is chosen suitably .
+Thus the new series belongs to the same type as the Fourier series with which we started .
+It represents accordingly a function which is nowhere differentiable , and cannot therefore be a function of bounded variation .
+In particular , then , we see that Weierstrass 's function , though continuous , does not satisfy the generalised Lipschitz condition .
+S 15 .
+We have seen in S4 that if , for some quantity , however small , is summable , the process of dividing and by ?
+, where leads to the Fourier series of a continuous function .
+It at once follows that , where , can at most only oscillate finitely , since the series converges when summed in the Cesaro * W. H. Young , " " On a Class of Paramstric Integrals , etc SS 6 and 12 .
+The two just cited , and the paper on " " Fourier Constants K. Weierstrass , 'Abh .
+aus der Funktionenlehre , ' 1886 , p. 97 , seq. See also Hobson 's ' Theory of Functions of a Real Variable .
+' Dr. G. W. C. Kaye .
+[ May 25 , way .
+Hence , as each term is positive , so that the series , cannot osciJlate , it must converge .
+Moreover , we have where , by S4 , provided only .
+It will be noticed that , for , this gives us information as regards the convergency of the series far inferior to that we already possess .
+We have , however , no reason to suppose that , if , any theorem as striking as that for holds .
+In the case in which , the above result affords us in any case a material addition to our existing knowledge .
+A Silica Standard of Length .
+By G. W. C. KAYE , D.Sc .
+, B.A. ( Communicated by R. T. Glazebrook , F.R.S. Received May 25 , \mdash ; Read June 29 , 1911 .
+) From the National Physical Laboratory .
+) CONTENTS .
+PAGE 1 .
+Materials for tandards of LeIlgth 430 Bronze 431 Platinum 431 Platinum-Iridium 431 Nickel 432 Steel 432 Invar 432 Fused 434 2 .
+Design of the Silica Metre 437 3 .
+Positions of the Points of Support 439 4 .
+Position of the Plane of the Reference Lines 441 5 .
+Use of the Silica Standard in Air or Water 441 6 .
+Platinising the End Slabs 444 7 .
+Ruling the Reference Lines 445 8 .
+Annealing the Silica Metre 446 1 .
+Materials for Standards of Length .
+The paramount qualities which must characterise a material suitable for a primary standard of length are constancy and durability .
+In addition to
+

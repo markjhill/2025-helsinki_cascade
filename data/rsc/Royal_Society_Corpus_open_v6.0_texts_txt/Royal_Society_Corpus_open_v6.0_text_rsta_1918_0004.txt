@@ -1,0 +1,268 @@
+]\gt ; IV .
+Seventh Memoir on the Partition of Numbers .
+A Detailed Study of the Enumeration of the Partitions of Multipartite Numbers .
+By Major P. A. MAcMAHON , , D.Sc .
+, Sc. D. , F.R. Received April 13 , \mdash ; Read May 11 , 1916 .
+INTRODUCTION .
+IN this paper I give the complete solution of the problem of the partition of multipartite numbers .
+This is the same subject as that named by SYLVESTER , " " Compound Denumeration Twenty-nine years have elapsed since I announced that the algebra of symmetric functions is co-extensive with the grand problems of the combinatory analysis .
+The theory of symmetric function supplies generating functions which enumerate all the combinations , while the operators of HAMMOND* are the instruments which are effective in actually evaluating the coefficients of the terms of the expanded generating functions .
+When these operators fell from the hands of HAMMOND , they were already of much service as mining tools in extracting the ore from the mine field of symmetric functions ; but they were only partially adequate .
+They required sharpening and general adaptation to the work in hand .
+The first step was to decompose an operator of given order into the sum of a number of operators in correspondence with every partition of the number which defines the order .
+Since there is a Hammond operator corresponding to every positive integer , this process resulted in there being an operator in correspondence with every partition of every integer .
+The outcome of this decomposition was that the operators were able to deal with the symmetric operands in a much more effective manner .
+The surface material of the mine could not only be removed , but the strata to a considerable depth could be dealt with .
+But this was not sufficient .
+It became necessary to effect a further decomposition by showing that every partition operator could be represented by a sum of composition operators .
+There emerged a composition operator in correspondence with every permutation of the parts of the partition of the operator .
+The operators at once became effective in dealing with the material in the lower strata of the min field .
+The operators had , in fact , been handled with particular reference to the operands with which they were to be associated .
+It was now necessary to deal with the material of the mine with particular reference to the took which had * Proc , Lond. Math. Soc 1883 , vol. , pp. 119-129 . .
+CCXVII .
+, 191 been forged .
+To evaluate the coefficients we have to operate repeatedly with the appropriate operators until a numerical result is reached .
+In order to accomplish this with facility and to establish laws we have to put the generating functions in such a form that these operations are carried out in a regular and simple manner .
+To make my meRning clear , I will instance the case of the simple operation of differentiation and exponential function .
+We have the effect of the operation being , to merely multiply the operand by the numerical magnitude Thence and we arrive at the conclusicn , that if a given operand , a function of , could be expressed as a linear function of exponential functions of , the times repeated operation of could take place with facility upon each term of the linear function , and a general law for the repeated operation of upon the operand would be obtainable .
+This reflection suggests the possibility of finding symmetric function operands in a form which will enable the repeated performance of HAMMOND'S operators in a practically effective manner .
+It is quite certain that any such operand must possess at least two properties in common with the exponential function : ( i ) its first term must be unity ; ( ii ) it must contain an infinite number of terms .
+The first step was to find a symmetric function of the elements , such that the effect of Very Hammond operator upon it is to leave it unchanged ; or , as I prefer to say , to multiply it by unity .
+is , in fact , the sum of unity and the whole of the monomial symmetric functions ( pqr. .
+It is in the partition notation ad It was then found that the effect of any Hammond operator upon any power of is merely to multiply it by a positive integer .
+It then appeared that , denoting by .
+the function Q. possesses properties of a character similar to those appertaiming to .
+The fact is that any Hammond operator when performed upon any power of , say : has the effect of merely multiplying it by an integer , which may exceptionally be zero .
+the important fact emerged that the performance of any Hammond operator upon product ' where , , may , each of them , be zero or any positive integer , is merely to multiply it by a positive integer , which may , exceptionally , be zero THE PARTITION OF NUMBERS .
+This discovery involves the complete enumerative solution of the unrestricted partition of multipartite numbers into a given number of parts .
+The reason of this is that the enumerating symmetric function generating function can be expanded in ascending powers of the functions , .
+On every term of this expansion the repeated performance of Hammond operators is practically effective successful in forcing out the sought numerical coefficients .
+When the magnitudes of the integer constituents of the multipartite parts are restricted in any there exists similarly an appropriate series of symmetric functions , the formation of which is explained in the paper , which in their properties analogous to the series , , .
+This circumstance involves the enumerative solution when the magnitudes of the constituents of the parts restricted in any manner whatever .
+SECTION I. The Partition of Numbers .
+Art .
+1 .
+One of the problems which has engaged the attention of combinatory analysis is that of enumerating the different modes of composite integer as the product of a given number of factors .
+number 30 , which is the product of three unrepeated primes , can product of two factors in the three ways , When the given composite number is a product of different primes the question very easy and is completely solved by means of the generating function .
+In the expansions the coefficient of is the number of ways of factorizin a number , which is the product of different primes , into exactly factors .
+* Generating functions of the same character have also been obtained for some simple forms of the composite number such as , denoting primes .
+It is , of course , obvious that the absolute magnitudes of ths prime factors nothing whatever to do with the question , which necessarily appertains exponents of the primes and to nothing else .
+Compare Combinatorik , ' 1901 , pp. 168 et seq. Art .
+2 .
+Writers upon the problem have not usually observed that the general question is identical with the partition of a multipartite number into a given number of parts .
+Thus the problem discussed by NETTO and others is simply the enumeration of the partitions , into exactly parts , of the multipartite number .
+when ( see the two-factor factorization of 2 above ) , we have three partitions of the multipartite 111 into exactly two parts .
+These partitions are In general the enumeration of the factorizations , involving factors , of the composite number yields the same numbsr as the enumeration of the partitions of the multipartite number into exactly ( multipartite ) parts .
+Art .
+3 .
+It is the same problem also to enumerate the separations of a given ( unipartite ) partition .
+Thus in.relation to the partition ( 321 ) of the number 6 , there is a one-to-one correspondence between the separations which involve two separates and the partitions of the multipartite number 111 , which involve exactly two parts .
+The separations are in fact In general there is a one-to-one correspondence between the separations of the partition which involve separates , and the partitions of the multipartite number which involve exactly parts .
+Art .
+4 .
+The general question of multipartite partition I have already discussed* by a method of grouping the partitions and a particular theory of distribution .
+The present investigation which depends upon other principles leads to results of a different and more general character .
+I showed many years ago that in regard to the system of infinitely numerous quantities , * ' Phil. Trans. Camb .
+Phil. Soc vol. , No. xviii .
+, pp. 467-481 , 1912 , 'Proc .
+ond .
+Math. Soc vol. , 1887 , pp. 220 et seq. THE PARTITION OF NUMBERS .
+the enumerating generating function is the symmetric function wherein if .
+denote the sum of homogeneous products of weight of the quantities , the ffactional factor of the generating function possesses a denominator factor corresponding to every separate term of .
+The function is to be developed in ascending powers of and , replacing for the moment the series , by , , we seek the coefficient of .
+We write this , usually , in the notation .
+The coefficient mentioned enumerates the partitions of the multipartite number , into or fewer parts .
+If the first fractional factor had been omitted the coefficient would have denoted the number of the partitions into exactly parts .
+The inclusion of the factor is of great importance to the in stigation and equally yields the enumerations into exactly parts , because from the coefficients of we have merely to subtract the coefficients of .
+The importance is due to the circumstance that the symmetric functions which present themselves in the expansion are in the best possible form for the performance of the Hammond operators .
+This is not the case when the factor is excluded , as then a transformation , the necessity for which is not at once clear , is needed to obtain the proper form .
+I will remind the reader that , writing , HAMKOND'S differential operator of order is ; and its cardinal property is ; and this operation does not result in unity when it is any other symmetric function .
+In order to obtain the coefficient of in the expanded function , we first of all find the complete coefficient of and then operate upon it with the Hammond combination of operators The result is an integer followed by the sum of an infinite series of symmetric functions .
+integer mentioned is the number we seek .
+Art .
+5 .
+We now expand the generating function .
+On well-known principles we can assert the coefficient of in the expansion is the homogeneous product-sum of order of unity , and of the whole of the , products which occur in the denominator factors of the generating function .
+The elements , of which we must form homogeneous product sums are , in fact , , We can orm these product-sums from the sums of the powers of these elements , because we have before us the symmetric function formula sum of the powers are readily formed ; for , calling them , it is clear that is the sum of unity and the whole of the monomial ( that is to say merely involving in the partition notation a single partition ) , symmetric functions of weights one to infinity .
+Hence ad inf .
+; THE PARTITION OF NUMBERS .
+and , regarding as .
+it is obvious that ; showing us that Thence the expansion where Art .
+6 .
+The importance of this expansion lies in the fact that the infinite series of Hammond operators on the one hand and the infinite series of functions on the other hand have very remarkable properties in relation to one another .
+The first property we notice is that from the well-known law of operation , for all values of .
+Also , or zero , ascending as is , or is not , a multiple of two .
+And generally , or zero , according as is , or is not , a multiple of When is performed upon a product of separate functions , it operates through the medium of a number of operators associated with the compositions of into parts , zero being regarded as a part and being regarded as a symbol for unity .
+Thus the compositions of the number 4 into three parts being 400 , 040 , 004 ; 310 , MAJOR P. A. MAcMAHON : SEVENTH MEMOIR ON 301 , 130 , 103 , 031 , 013 ; 220 , 202 , 022 ; 211 , 121 , 112 , the law of operation is as follows : , being unity , may be omitted but has been retained above to make the connexion with the compositions quite clear .
+This method of performing upon a product I have explained and used in previous papers during the last five and years .
+Upon this example some observations can be made .
+In the first place the operation breaks up into 15 portions because the number 4 has 15 three-part compositions .
+The result of each portion must be moreover either or zero , because is either or zero .
+Hence the result of the whole operation must be merely to multiply by some integer .
+In general the result of the operation must be merely to multiply the product by some integer equal to , or less , than the number of compositions of into .
+parts , zero always counting as a part .
+Hence also the result of the operation : must be nerely to multiply the product by an integer .
+This valuable result shows that the Hammond operators may be performed with facility upon the function which is before us .
+Art 7 .
+The determination of the result of the operation is now entered upon .
+We have to find the value of the multiplying integer THE PARTITION OF NUMBERS .
+The value is clearly equal to the number of compositions of which do not have the effect of multiplication by zero .
+Suppose that we write out the operand at length in blocks , containirl , factors respectively .
+Underneath the factors we will suppose written any composition of into parts , zero being included as a part .
+In order that the corresponding operation may result in unity and not in zero we have the conditions:\mdash ; Any number , including zero , may occur underneath any of the factors ; ( ii .
+) Zero , or any multiple of 2 , may occur underneath any of the factors ; ( iii .
+) Zero , or any multiple of 3 , may occur underneath any of the factors ; And lastly , zero , or any multiple of , may occur underneath any of the factors How many such compositions exist ?
+We have merely to find the coefficient of in the expansion of ; for this is the function which enumerates the compositions which possess these properties .
+In fact to form the composition we take a power of from each of the first factors ; then a power of from each of the next factors , observing that the exponents of are all zero or multiples of two ; then a power of from the next factors , observing that the exponents are all zero or multiples of three ; and so on , until finally in the factors we find that the exponents are all zero or multiples of Hence it follows that the operation has the effect of multiplying .
+by a number which is given by the coefficient of in the expansion of ; an elegant theorem .
+Let this coefficient be denoted by ; so that : Art .
+8 .
+Looking to the symmetric function expressions of , it will be noted that the only portion of the product . . .
+VOL. CCXVII .
+MAJOR P. A. SFVENTH MEMOIR ON which does not involvs the elements , is unity .
+Hence the portion of that is free from the elements is which is obtained directly filom the result of the operation by putting We may represent this circumstance by the convenient notation The number of partitions , of the unipartite number , into or fewer parts , is by the prese1lt investigation coefFicient of in ; the summation being for every partition of the number But we know , otherwise , that the number of partitions of , into or fewer parts , is given by the coefficients of in Hence the identity which being a known result supplies an interesting verification of our work .
+The present investigation in any case supplies one proof of it .
+Art .
+9 .
+Thore is now no difficulty in proceeding to the result . . . .
+; THE PARTITION OF NUMBERS .
+and the number of partitions of the multipartite number into or fewer parts , is . !
+This is the general solution of the problem of enumeration in the absence of any restriction upon the magnitudes of the constituents of the parts .
+* Art .
+10 .
+It will be convenient at this point to give a few results derived from the function which will be useful in the sequel .
+, , * With to the algebraical identity met with above , the reader may compare Mathematical Papers , ' vol. III .
+, p. 598 , where it is shown that for the roots of the equation the general term being the homogeneous product-sum of order is and the sum of the powers of the roots is The expression of the homogeneous product-sum of order , in terms of the sums of the powers , by the formula quoted early in this paper .
+gives the iderltity in question .
+, , , The use of the Hammond operator is convenient but not essential to this investigation .
+It is convenient from the algebraic point of view , and also because it brings into prominence properties of the operator which are in themselves important .
+The coefficient of in the product is readily obtained when we remember that and the various modifications are readily made for the allied functions The Partitions of Multipartite Numbers into Two Parts .
+Art .
+11 .
+The generating function which enumerates the partitions into two or fewer parts is ; and sinoe , from the principles just stated , ; THE PARTITION OF NUMBERS .
+we find ; and , by reason of the important properties possessed by the products in their relations with the Hammond operators , we can at once proceed to the results Thence we derive , by putting , the coefficients of the symmetric functions exponent meaning numbers respectively times repeated ) in the development of the function .
+Thence we obtain the numbers which , respectively , enumerate the ways of partitioning the tite numbers repeated times ) , repeated times ) into two or fewer parts .
+When the enumeration is concerned with exactly two parts we have clearly to subtract unity in each case .
+In fact the generating function is ; and showing that unity must be subtracted .
+The numbers then become These numbers also enumerate the ways of exhibiting the composite integers as the product of two factors .
+To obtain a general formula for the multipartite numRt MAJOR P. A. MACMAHON : SEyENTH MEMOIR ON we write . .
+then . .
+leading us to the number , as the enumerator of the partitions , into two or fewer parts , of the multipartite number .
+The reader will observe that the algebraic expressions of and will depend upon the parity of The notation has been adopted so as to save a multiplicity of formulae in certain cases .
+This of course solves the question of the factorization into two or fewer factors of the composite integer We have , therefore , solved completely the question of enumerating the bipartitions of multipartite numbers .
+What has been done as a question in the theory of distribution may bs stated as follows .
+We are given an assemblage of any numerical specification and two boxes which cannot be distinguished from one another .
+We have found the number of ways of distributing the objects between the boxes .
+The similar question when the boxes are distinguished from one another is simpler and connected with the compositions of multipartite numbers .
+Art .
+12 .
+At this point it may be appropriate to give a statement in regard to the nature of the solution given in this investigation .
+The enumeration of the partitions of a unipartite number , into or fewer parts , is formed as a linear function of certain numbers ; the linear function being where the numbers , depend only upon THE PARTITION OF NUMBERS .
+Associated with another unipartite number we have the linear function It has then been shown that the number of partitions , into or fewer parts , of the multipartite number is and in general the number of partitions , into or fewer parts , of the multipartite number is The multipartite solution is thus essentially derived from the solutions which appertain to the separate unipartite numbers whose conjunction defines the multipartite number .
+The numbers , are those well known in connexion with the expression of the homogeneous product sum in terms of the sums of the powers , , the whole question is therefore reduced to finding the numbers appertaining to the unipartite number This , as has been shown , depends upon finding the coefficient of in a function where The possibility of the solution rests upon the remarkable circumstances that the operator is performed upon the operand : its effect is to merely multiply it by an integer .
+The Partitions of Numbers into Three Parts .
+Art .
+13 .
+I will , in future , merely deal with the partitions into or fewer parts , since the result for exactly parts is at once derived by subtracting the result for or fewer parts .
+The operand is , and since the result depends upon , the divisibility of by both 2 and 3 it will be necessary to consider the operations of The investigation is therefore in six parts .
+Since we find and immediately ; and in particular ; results which establish that the partitions of the multipartite number into three or fewer parts , are enumerated by 6 ] ( ii .
+) Since we find ; and immediately ; establishing that the partitions of the multipartite number THE PARTITION OF NUMBERS .
+into three or fewer parts are enumerated by ( iii .
+) Since we , as above , derive , for the partitions of the multipartite number the enumerating number ( iv , ) Since we obtain , for the multipartite number the enumerating number Also and we obtain , for the multipartite number VOL CCXVII .
+the enumerating number ( vi .
+) Lastly , since we obtain , for number the enumerating number Finally , in the notation employed for the bipartite case , for the multipartite number we have the enumerating number Art .
+14 .
+I collect these results:\mdash ; Multipartite Numbers .
+repeated times repeated times , , , , , , , , , , Number of Partitions into three or fower parts .
+THE PARTITION OF NUMBERS .
+Multipartite .
+Number of Partitions into exactly three parts .
+repeated times repeated times , , , , , , , , , , , , , , , , As a verification , connected with unipartite partitions , we put in these last six formulae , and reach the six numbers and since these may be exhibited in the forms we verify the well-known theorem which states that the number of tripartitions of is the nearest integer to The Partitions of Multipartite Numbers into Four Parts .
+Art .
+15 .
+The operand is since the result depends upon the divisibility of by the numbers 2 , 3 and 4 , and 12 is the least common multiple of those numbers , it will be necessary to take the operator suffix to the modulus 12 , and the investigation is , therefore , in twelve parts .
+We have Utilising these results and taking as operators , in succession we find for partitions into four or fewer parts:\mdash ; Multipartite Numbers .
+Number of Partitions into four or fewer parts .
+repeated times repeated times .
+, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , THE PARTITION OF NUMBERS .
+For the unipartite case we put and find , reading by rows , the numbers which admit of easy verification .
+In the notation of this paper , for the multipartite number we have the enumerating number SECTION II .
+Art .
+16 .
+The multipartite partitions which have been under consideration above have involved multipartite parts , and the integers which are constituents of those parts .
+have been quite unrestricted in magnitude .
+We have now to consider the enumeration when these magnitudes are subject to various restrictions .
+The first restriction to come before us is that in which no integer constituent of a multipartite partition is to exceed unity .
+We form a fraction from by striking out from the latter every partition which involves a part greater than unity .
+Thus ad in .
+We now form , , , from , by doubling , trebling , multiplying .
+by , all the bracket numbers of , in the same way as we formed , from MAJOR P. A. MAoMAHON : SEVENTH MEMOIR ON Thus ad , \ldquo ; , , . . . . .
+, , We proceed in this manner because we desire the development of the generating symmetric function there being a denominator factor for every , product in which no letter is repeated .
+The expansion of this fraction involves the whole of the homogeneous product-sums of such , products ; and we form these product-sums through the medium of the sums of the powers of the products which are , in fact , , , .
+The development is where ' precisely similar to the deyelopment with A written for Q. It may at this point be worth stating that the two developments be written respectively .
+We now examine the effect of the Hammond operators upon this infinite set of A functions .
+It is clear from the well-known fundamental property of the operators that and when results of great simplicity .
+THE PARTITION OF NUMBERS .
+When operates upon any product the demonstration proceeds as with the function Writing out the A product at length and underneath it any composition of into parts , zero counting as a part , we note that if the composition operator is to have the effect of multiplying the product by unity and not by zero , every part under the first factors of the operand must be zero or unity ; every part under the next factors must be zero or 2 ; every part under the next factors must be zero or 3 ; and so on , until finally every part under the last factors must be zero or The number of compositions of which possess these properties is equal to the coefficients of in the developments of which may be written or , in CAYLEY'S notation , Let this coefficient be denoted by so that ' Looking to the symmetric function expressions of A , it will be noted the only portion of the product that is free from the elements , is unity .
+Hence the portion of that is free from the elements , is ; and we may write , as before , MAJOR P. A. MAcMAHON : SEVENTH MEMOIR ON The number of partitions of the unipartite number into or fewer parts , restricted not to exceed unity , is therefore coefficients of in the summation being for every partition of the number Now , obviously , the number we seek is also the coefficient of in Hence the formula when is 3 the identity is We have now the result . .
+' ; and the number of partitions of the multipartite number into or fewer parts , no integer constituent of the multipartite parts exceeding unity , Is .
+the general solution of the problem .
+Some examples are now given .
+For the partitions into two , or fewer parts , it is only necessary to consider the cases and , since there are no partitions of the nature examined when , THE PARTITION OF NUMBERS .
+so that , and results which show the )ultipartite number has partitions into two or fewer parts ; ( ii .
+) that the number has one partition into two or fewer parts ; ( iii .
+) that the multipartite number has partitions into two or fewer parts .
+Ex. .
+the multipartite number 2111 has the four partitions For the partitions , into three or fewer parts , we have , , to which we may add for symmetry ; gather that , , , ; and it follows that the multipartite number has partitions , into three or fewer parts , of the nature we are considering .
+VOL. CCXVII.\mdash ; A. Ex. .
+The multipartite number 3221 has the five partitions Art .
+17 .
+Again , to pass to a different restriction , if no integer constituent of a multipartite part is to exceed 2 , we strike out from the functions all partitions which iIlvve integers greater and arrive at an infinite set of functions which can be dealt with in a similar way .
+Thus ad , In regard to the Hammond operators ; while every other operator causes to vanish .
+To find the effect of upon the product we observe that operates throngl ] the compositions of into exactly parts , zero counting as a part .
+In order that a particular composition operator shall not cause the product to vanish , the factors of must only be operated upon by , and .
+Hence the number of compositions multiply the product by unity and not by zero by the coefficient of in the development of which is This establishes that the effect of upoIl the product is to multiply it by this coefficient .
+The generating function is .
+THE PARTITION OF where Thence we find ; the solution of the problem of enumeration in respect of the multipartite number If , in the function , we substitute for we obtain ' because this function enumerates unipartite parbitions whose parts are limited in number by and in magnitude by 2 .
+As an example consider partitions into three parts .
+We have the symmetrical results , , , and , yield the same results as , respectively .
+The number , not exceeding 6 , and produce upon the operand the same result .
+This symmetry naturally follows from the known property of the function which on expansion is , as regards coefficients , centrally symmetrical .
+We now at once deduce that .
+We deduce that the multipartite number has only one partition of the nature we consider , and this of course is quite obvious .
+That the multipartite numbers have each of them the multipartite numbers have each of them and the number Also the multipartite number has partitions , and various other results .
+The symmetry shown above in the case of multipartite numbers is of general application in the subject and is very remarkable .
+I do not see any other a priori proof of it at the moment of writing .
+Art .
+18 .
+In general , we consider the case in which no constituent of the multipartite parts is to exceed the integer .
+We strike out from the functions all partitions which involve numbers exceeding and reach the infinite series of functions These furlctions are operated upon in the manner ; while every other Hammond operator causes to vanish .
+By the same reasoning as was used in the special cases we find that where is equal to the coefficient of in the expansion of the function THE PARTITION OF NUMBERS .
+which , written in CAYLEY'S notation , is We have and if , in , we write for we must reach the expression otherwise written ( 1 ) ( 2 ) ( j ) ( 1 ) ( 2 ) ( k ) For the rest tho enumeration , connected with this restriction , proceeds pari passu with the special cases involving the values of , 1 , 2 , which , have been already examined .
+Art .
+19 .
+Coming now to the last stage of the investigation we have for tion the partitions of multipartite numbers in which the constituents of the multipartite parts must be drawn from the particular set of numbers The partitions involved in the first function of the infinite series must involve the numbers , , and no others .
+Thus ad ad ad Clearly ; and any other Hammond operator causes to vanish .
+Also ; and any other Hammond operator causes to vanish .
+Ws have presented to us the generating function where ( ) The effect of upon the product : is to multiply it by the coefficient of in the function which I write in the abbreviated notation If in the expression of we write for we must reach the expression which enumerates the partitions of unipartite numbers into or fewer parts , such parts bein drawn from the series .
+That is to say we must arrive at the coefficient of in the expansion of Hence this coefficient has the expression To enumerate the partitions we have Tffl PARTITION OF NUMBERS .
+where is equal to the coefficient of in .
+; and thence the number of partitions of the multipartite number : into or fewer parts , such parts being drawn exclusively from the series 1s .
+the summation being in regard to the partitions of As an example , I will consider partitions of multipartite numbers where the numbers which are constituents of the multipartite parts are limited to be either 3 , 5 , or 7 .
+For the partitions into three or fewer parts we have the function , and we have to find the coefficients of in the three functions .
+Thence , as particular cases , ; ; ; ; ; ; Thence , showing that the multipartite numbers have partitions respectively into three or fewer parts .
+Also , where the term only appears if and are both zero .
+Hence in general , if and are not both zero , the multipartite number possesses partitions of the nature considered .
+In particular the multipartite number possesses the 18 partitions Art .
+20 .
+In considering the partitions of the multipartite number the partitions of the unipartite constituents of the number have been regarded as being subject to the same conditions and restrictions .
+This , however , is not necessary except in the case of the number of parts which has been denoted by We may for choose any of the restrictions that have been denoted by the symbols , J , U. For similarly and so on .
+For instance , suppose the numbers are subject to the restrictions denoted by , and ; that is to say , the partitions of are such that no part exceeds 2 ; the partitions of are unrestricted ; the partitions of are such that the parts are drawn exclusively from specified integers , For the partitions of the multipartite number , subject to this combination of restrictions , we Take with the result ; THE PARTITION OF NUMBERS .
+( ii .
+) We change .
+the symbol into the symbol and find : .
+; ( iii .
+) Lastly we change the symbol into the symbol and find that .
+: ' : and herein putting , we reach the conclusion that the multipartite number has . ! ! . . !
+partitions of the nature we are considering
+

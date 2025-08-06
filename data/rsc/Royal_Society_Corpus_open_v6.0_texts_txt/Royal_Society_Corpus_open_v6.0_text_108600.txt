@@ -1,0 +1,373 @@
+On the Problem of Three Bodies .
+By the Rev. J. CHALLIS , M.A. , F.R.S. , F.R.A.S. , Plumian Professor of Astronomy and .
+Experimental Philosophy in the University of Cambridge .
+Received May 15 , -Read May 22 , 1856 .
+THE determination of the motions of three bodies mutually attracting according to the law of gravity being a problem too complicated for exact solution , mathematicians have employed various methods of solving it approximately .
+It is well known that of these methods the one which appears to be the most obvious and direct , introduces terms which may increase indefinitely with the time , and render the solution inapplicable to any observed case of motion .
+This difficulty occurs whether the problem be to find the perturbation of the moon 's motion by the sun , or the perturbation of the motion of one planet by another , and the necessity of meeting or evading it has very much determined the courses which the solutions of these problems have taken .
+In the theory of the moon 's motion , LAPLACE , PONTECOULANT , and others , have appealed to the results of observations of the motions of the moon 's perigee and node , to justify the assumption of a form of solution which is not attended with the above-mentioned difficulty .
+Although this way of proceeding may lead to correct results , there can be no doubt that it is an abandonment of the principle of determining by analysis alone the form of development which is appropriate to the conditions of the problem .
+Again , in the theory of the motions of the planets , recourse is had on the same account to the method of the variation of parameters , more especially for determining the secular inequalities .
+Now it will perhaps be admitted that that method , elegant and exact though it be , is yet not indispensable , and that when it succeeds , there must be some direct method which would be equally successful and conduct to the same results .
+The discovery of such a method I have long considered to be a desideratum in the theory of gravitation , and having after much labour found out one by which the forms of the expressions for the radius-vector , longitude and latitude , and both the secular and the periodic inequalities , are evolved by the analysis alone , and which is applicable as well to the lunar as the planetary motions , I thought it might deserve the attention of the Royal Society .
+I propose in this communication to enter at length into the details of the method , and then to add a few remarks on its general principle , and to explain why , in common with the method of the variation of parameters , it succeeds in determining the motion of the apses of a disturbed orbit .
+Let M represent the mass of the principal body , or its attraction at the unit of distance , m that of the body whose motion it is proposed to investigate , and m ' that of the disturbing body .
+The principal body is supposed to be at rest , and the rectangular coordinates and distances of the other two reckoned from its centre as origin , are respectively x , y , z , r and x ' , y ' , z , r ' , at the time t reckoned from a given epoch .
+Then if p be put for M+m , and R for the expression mI(xxt + yyr + zz ' ) m/ 13 ( ( , _x)2 + ( yl_y ) + ( ZI_z2)4 ) we have for determining the motion of m the known equations , d2x + lx dR dt2+r+d o ... ... ... ( i. ) dt2 r3 dyx(2 .
+) dt -0 + ... ... ... .(.y ) d^ r dR t2+r3+dz = ... ... . .
+( 3 .
+) Analogous equations apply to the motion of m ' as disturbed by m. The directions of the axes of coordinates are entirely arbitrary .
+Conceive , therefore , to be known at a given instant ( T0 ) the position of the plane passing through m in the direction of its motion at that instant , and through the centre of M , and let this plane be the plane of xy .
+Conceive also to be known at a given instant ( To ) the position of the plane passing through m ' in the direction of its motion at that instant , and through the centre of M , and let this plane make with the other the angle w. Also let the intersection of the two planes be the axis of x. 2 .
+Now since according to these suppositions , the body m would continue in the plane xy if the disturbing force of m ' ceased at the time T , , it is clear that the coordinate z at any time To+7B is a small quantity of the order of the disturbing force .
+By multiplying the equations ( 1 .
+) , ( 2 .
+) , ( 3 .
+) respectively by 2dx , 2dy , and 2dz , adding , and integrating , we obtain dxs die dzl 2~ 2~(cR ) _ dt2 +d2 +d2 _ 2+2dt+C=o,.* .
+( 4 .
+) d(R ) d-tbeing the differential coefficient of R with respect to x , y , and z considered as adtdR dz functions of the time .
+But from what is said above , and d are of the order dt dz dt of the square of the disturbing force .
+Hence as it is proposed to conduct the approximation according to the powers of the disturbing force , these terms in the first and second approximations must be omitted .
+Also , if d be the polar coordinate of m reckoned on the primitive plane of its orbit from the axis of x , and r. &amp;c. be neglected , x=r cos 0 , y=r sin 0 , r being now regarded as the projection of the distance on the plane of xy .
+Consequently 524 dx2+ dy2= dr2+ r2d0 , ( dR ) dR dO dR dr dt T dt dr 'd ' ; and the equation ( 4 .
+) becomes dr2 2dO 2_ , _ r/ dR dO dR dr\ , , .
+) d+r 2-y +2-+r dt)+C=0 ... . .
+( 5 .
+) Again , the equations ( 1 .
+) and ( 2 .
+) give d2y d2x dR dR XZ t2 -Y d2+Xdy Y c-O dO d. r d2y d2x dt .
+dR dR dR But x dt2-Y dt=dt and x dyY d= dO cdR Hence , by integrating , r2 d=h-dt , ... ... ... .
+( 6 .
+) dO7 h being an arbitrary constant .
+Consequently , by substituting for V/ in ( 5 .
+) from ( 6 .
+) , and neglecting the square of the disturbing force , dr2 h2 2p 2h CdR , rfdR dO dR drdt dt2r2r +CJ r2j ( dtd+-dt ) CdR dO dO CdR d20 / dR\ dO h But Jd t dt=dt-J Td dt , and =d nearly .
+Hence it will be seen that to the first power of the disturbing force we have dr2 2 2t fd2( / rfdR , \ R dr } dt2+r-r +C=2j idt JdOdtJ . ?
+t t ... . .
+( 7 .
+) The equations ( 6 .
+) and ( 7 .
+) are suitable for determining the forms of the developmerits of r and 0 in terms of the time .
+The function R becomes , by neglecting m'z , m'(xx + yy ) ml r13 12 ( rt + r22 ( ?
+xx + yy ' ) ) ; and reckoning 0 ' from the axis of x on the plane of the orbit of m ' in its position at the time T ' , we have to the same approximation , x'=r ' cos ' , y'=r ' sin ' cos , z'=r ' snsin sin Hence ~~~~~~~~~m'rm R= 12 ( Cos 0 Cos 0'+ sin 0 sin O'cos )w1 R=(rrcos 0 cos '+ sin 0 sin ' cos )( '+ rr ' c cos + sin 0 sin cos ) ) If powers of w above the second be neglected , the following approximate value of R is obtained : m'reos ml R=Cos(-)-( 'o -2msin sin O sins2 ( r2 ( r r22rr1 ( 0 ))3z 2:525 The foregoing prelimninaries having been gone throuoh , the order in which the approximate integration is to be effected may now be stated .
+As the approximation is to proceed according to the disturbing force , the equations ( 6 .
+) and ( 7 .
+) must first be integrated omitting the terms involving R. We shall thus obtain values of r and 0 as functions of t and arbitrary constants , just as in the case of the problem of two bodies , and these constants may be designated by the letters usually employed in that problem .
+As the exact values of the functions would be unsuitable for carrying on the approximation , they may be expanded in series proceeding according to the powers of the arbitrary constant e to as many terms as we please .
+In like manner the functions which express the values of r ' and d ' in terms of t , may be expanded according to the powers of e ' .
+When these values of r , 4 , r ' and O ' have been substituted in the right-hand side of the equation ( 7 .
+) , that side becomes a function of t and constants ; and supposing the integrations indicated to have been effected , and the result to be Q , we shall have dr 2 22p dt+r2r +C-2Q , Q being a small quantity of the order of the disturbing force .
+nhe 2,.Hence dt=dr .
+{ -+---C+2Q } =dr*( _ 2+2f + .
+) i-Qdr ( -2 Q2 &amp;c. being neglected .
+In the second term we may substitute for r in terms of t from the first approximation , which gives z ) h2 2p , di-s dt I-C-~f(t)--dt d2 Supposing , therefore , that by the first approximation 3/ =f(t ) , we obtain ( +r2 r-_ C ) This equation being integrated , a relation is found between r , t and arbitrary constants , by means of which r is to be expressed in a series proceeding primarily according to the disturbing force , and subordinately according to the quantities e , e ' and w. This value of r is next to be substituted in the equation ( 6 .
+) , which , being put under the form _ hdt / CdR , )d dO=-J-d ) r-~ , shows that the right-hand side then becomes a function of t and constants , ond that by integration 6 may be obtained in a series proceeding according to the same law of arrangement as the series for r. 526 The plane of xy has hitherto been supposed to be coincident with the plane of m 's orbit at the time To .
+On this supposition values ofr and 0 have been obtained , which fully take into account the first power of the disturbing force and the mutual inclination of the orbits .
+We are now at liberty to suppose the plane of xy to have any other position making a small angle with the planes of the orbits of m and m ' in their positions at the epochs To and To , and the equation ( 3 .
+) , viz. d2z tz dR dt2 ++d - , may be employed for finding a series for z in terms of t. In the second term of this equation the value of r given by the second approximation is to be substituted , but in the third term it is only required to substitute the values of r , 0 , r ' and O ' given by dR the first approximation .
+Also for z and z ' we may substitute in d the functions of t which express the values of these quantities on the supposition that the motions are dR undisturbed , and that they are referred to the new plane of xy .
+Thus d becomes a function of t and constants , and the above equation takes the form d2z dt2 + ( t)Z + ( t ) =o , which admits of being integrated only by successive approximations .
+The process by which it has been shown that r , 0 and z are approximated to , gives at the same time , mutatis mutandis , the values of r ' , ' and z ' to the first power of the disturbing force of m. By means of these six quantities the approximation may be carried to terms inclusive of the square of the disturbing forces .
+Having thus exhibited the general scheme of this approximate solution of the Problem of Three Bodies , I proceed to exemplify its practicability .
+First Approximation .
+4 .
+The first approximation , which omits the terms involving the disturbing force , and is therefore identical in form with the solution of the problem of two bodies , is obtained by integrating the equations 2hdt dt=dr(2+-r , C ) dO=-- .
+The first equation gives , by integration , n(t+T ) =cos-L ae-a / a ( a-r)2 where for the sake of brevity a is put for , e2 for 1-- , and n for or Let s be the constant introduced by the integration of the second equation , and in order to designate the constants in the present problem by the letters usually employed in 527 the elliptic theory , let e--r be put for nT .
+Then substituting p for nt+E-wr , we have , as is known , the following expansions of r and 6 to the third power of e : r e2 3e3 .
+1--ecosp+(1 -cos2p ) +(cosp--cos 3p ) 5e2 3 si =e+nt+2e sinp+ T sin 2p+4 sin 3p-sinp .
+These values of r and 0 ( excluding the terms involving e3 , for the sake of avoiding long calculations ) will be employed in proceeding to the second approximation .
+It is evident that C , h , v and e must be regarded as the arbitrary constants of the integration however far the approximation be carried , no other arbitrary quantities being introduced by the process .
+The quantities a and e are given functions of C and h , and at present they have no other signification .
+5 .
+Before proceeding further , an inference may be drawn from the equation ( 7 .
+) which will be useful hereafter .
+When the foregoing values of r and 0 are substituted in the right-hand side of that equation , the constant e will be a multiplier of that side , independently of any limitation of the orbit of m ' .
+Now let , if possible , e=0O h2C Then 1 =-- , and the equation ( 7 .
+) becomes dr2 1Since the relation 2=-h2C shows that C must be positive , it follows from the above equation that dt= ?
+and ==C , or that the orbit of m is a circle whose radius is equal to .
+But the orbit of m cannot be exactly a circle independently of the form and magnitude of the orbit of mn ' , unless the disturbing force be indefinitely small .
+Consequently the supposition that e=O draws with it the inference that the disturbing force vanishes .
+At the same time , the supposition that the disturbing force vanishes must leave e an arbitrary quantity , because on this supposition the problem is that of elliptic motion , and e is the eccentricity of the orbit .
+These conditions may be analytically expressed by such an equation as e=e-e2+km ' , k being positive and of fixed value , and e0 being arbitrary* .
+Second Approximation .
+6 .
+The first step towards expressing the right-hand side of the equation ( 7 .
+) as a function of t , is to expand the quantity R in a series proceeding according to cosines of multiples of the arc O-- ' .
+Let R= Ro+ R , cos ( O-')+R2 cos2( -d')+ &amp;c. =Ro+ .
+R , cos s(--I ' ) , the values of s being the integers 1 , 2 , 3 , &amp;c. Also let r=a(l +u ) , r'=a'( 1+t ) , O=nt+s+v , 0'=n't+sf+vf ; and for the sake of brevity put q for nt+--(n't'~+s ) .
+e2 e2 Then u= -e cosp+-p , cos2p u=-ecosp ' , -'=q+ v-v ' q +2e sin p-2e ' sinp ' .
+It is not necessary for our present purpose to employ expressions containing higher powers of e and e ' .
+die R 7 .
+It is next required to obtain an expression for ftdt in terms of t. Since each of the factors R , , R1 , R2 , &amp;c. is a function of r , r ' and constants , it follows that dR d. Rs sin s(d--d ' ) .
+Also , if A represent the value of R , when a is substituted for r and a ' for r ' , we have nearly R~= &amp; + dAX dau R , ,=A , + -au+ a dA , A =A8s-ae tA cosp-a'e ' deosp ' .
+Again , s sin s(O-d')=s sin s(q+v-v ' ) =s sin sq cos s(v-v ' ) +s cos sq sin s(v--v ' ) .
+Hence , by substituting the foregoing value of v-v , and retaining only the first power of e and e ' , it will be found that s sin s(d-d')= s sin sq+es2(sin ( p+sq)+ sin ( p-sq ) ) --e's(sin ( p'+sq ) +sin ( p'--s ) ) .
+By supposing s to have all negative as well as positive integer values , this equation may be more briefly written thus : s sin s(d ' ) = sin sq +es2 sin ( p+sq ) e 's sin ( p'+sq ) .
+Now observing that s sin sq cosp=s sin ( p+sq ) , because s=-+ l , +2 , -+3 &amp;c. , the following result will be obtained by multiplying the foregoing values of R , and s sin s(O-- ' ) : R^sin(-O sin)s +(A(A , ^as dA)esin(p+ ) R , s sin s(0--)-sin sq-+ A--*e sin(p+sq ) -(A a 's dA+ e ' sin ( p ' +sq ) .
+Consequently , 2S d dt= -S.Rss sin s(d-d')dt A -asdA As da = ' n-2 'cos sq .
+ns(n-n ) ecos ( p+sq ) dA Vs~A + as~ ea 's -:.-#+(_ : .
+; ) e'cos(p'+sq ) .
+dTO0 Hence , since d"2en2 sinp5en2 sin 2p , the following equation will be obtained to terms of the second order with respect to e and e':d2O CdR n2A , .
+2 te dt= -- .
+n-n e sin ( p +sq ) asdA +-n{ , ( n.+s-n ' ) ( 2s2As-as ) da e ' sin sq _ .
+n(n- ) 2(S2ASasdA ) +- ' As ) e2 sin ( 2p+sq ) 2n2 , dAs\ +{'nt +2 s(nn-n ) ( 2S2A-+ads ee sinp cos ( p'+sq ) .
+dR dr dR 8 .
+Similarly we have to express -tas a function of t. Since dr represents the partial differential coefficient of R with respect to r , dR dr dRs dr drt=dr cos s( ' ) , the values of s being 0 , 1 , 2 , 3 , &amp;c. But R A+IdAs , dAs , d2A , a 2u dA d2A8 aI 2u1 But R-=Asda+-au+t au da2* 2 +dada aauu+ -2 da ' 2 dR .
+dr du / dA , d2A , d2A8 , Hence dtd=dt a+ da ' a+dadat au du Also =dt-en sin p+e2n sin 2p nearly .
+Consequently to terms of the second order with respect to e and e ' , dR dr dAs .
+, dA , ad2A .
+, , d2AS *=aenasinp+ae da2 sin 2p-aeaen dad sinpcosp .
+Also to the first power of e and e ' , 2 cos s(d ')=2 cos sq-2 sin sq.s(v-v ' ) -=2 cos sq+2es ( cos ( p+sq ) cos ( p-sq ) ) -2e 's cos ( p ' +sq)-cos ( p sq ) ) , s being equal to 0 , 1 , 2 , 3 , &amp;c. Or , if s=+0 , +1 , ? ?
+2 , &amp;c. on the right-hand side of the equality , 2 cos s(--')=-cos sq+2es cos ( p+sq ) 2e 's cos ( p'+sq ) .
+Hence , placing the terms corresponding to s=+0 apart from the others , and observing that sin ( p+sq ) cosp ' is equivalent to sinp cos ( p'+sq ) when s= ? ?
+1 , +2 , &amp;c. , it will be found that dR &amp; ' dA o dA A/ d2Aod d2 ' dr2aen.a sin p+aeAn ( 2 da-a da-2 sin 2p-2aeae'n d sinp cosp ' da sinp --a ca / da d~A , dAo .
+aen -d sin ( p + sq ) .
+ae2ns sin sq .
+dA a2en d2A , \ + .
+ae2n(l +s ) dada s1 in ( 2p+sq ) - .
+2aeens ?
+Aaa'ee'n dadt)sin p cos ( p'+sq ) , the values of s being now ?
+1 , ?
+2 , &amp;c. 9 .
+We are now prepared to express the right-hand side of the equation ( 7 .
+) in terms of t. The results obtained in arts .
+7 and 8 give , d20 5dR dR dr 2 t-2 ^ dt ^-= daAo / A0 d2Ao\ .
+, d2Aao -2aen dsinpaen ( 2 --a da2 sin 2p+2aea en dslnp cosp ( 2-2 A8+l .
+&lt; , dA 5 nodA , yen d2Aw.e sin ( pr+sq ) { A , - ?
+an da -2.eu sin ( 2p+sq ) n , A+a n- ' 2 -X.e2(sin ( 2p+sq)-sin sq).{n+ s(nn ) ( 2sA , --as )+ans da +2-.ee ' sinp cos ( p ' +sq ) .
+n'+s -n ' +a 's ) +2ans d+aa'n dada For the sake of brevity of expression the following substitutions will be made:2n2 dA , L Aan da n5 ?
+2 dIA aOn d2A M=__iAs+anw 0M -n A , +an dAS 2 N= -n(2s2A -as da ) a+ns da Tl+s5(n-n !
+)(2dj+ ras +2ans daaan d 7a After multiplying the right-hand side of the foregoing equation by dt , integrating , and substituting in the equation ( 7 .
+) , the following will be the result:-dr h.2 2p 2+ , r -+c -= c/ cc 7 ee( )aeeos2 dsp-n2 ( n cosp cosp+sn p sn ) 2ae cos.--ne , a cos 2n d Aoy +a ) Le cos ( p + sq ) Me2 cos ( 2p+sq ) f Tos ( 2p+sq ) cos sq +* +(ns(-n ) +* 2n+s(n-W ' ) T ' No +2s(nPsr-n ) -s(-n)J --n2 ( niSs(n'_ni)7(2n cos p cos ( p'+sq)+(n'+-s(n-n ' ) ) sinp sin(p'+sq ) ) .
+Substituting Q for the sum of the terms on the right-hand side of this equation , and neglecting Q2 , &amp;c. , we have dt dr{[4 +$r-C+Q } =dr 2:+-L-_C -2d _-a2 +-C ) Q dr --d( , c ) rdr Qdt -h= --2cr--C2a 2e ( lsin( 4e cos p ) because by the first approximation dr ---C d~ enpdte dt c dt2 r1d2~ 2sinlp(Il+4ecos p ) ' Consequently a-r 1 .
+Qdt nt+S-W=cos .
+-- .
+ae(a -r)J ( 1-4e cosp ) , ... ( 8 .
+) the constants a , e , s and w having the same signification as heretofore* .
+10 .
+Before proceeding to effect the integration above indicated , it will be right to remove certain analytical difficulties presented by the form of the equation .
+First , it may be urged that as Q contains the first power of e , the coefficient of the last term might become infinite if e were indefinitely small , and the equation would no longer hold good .
+But it has already been proved ( art .
+5 .
+) that e and the disturbing force vanish together , from which it follows that the quantity , x disturbing force , may approach a finite value or zero as e diminishes .
+Again , it will be seen , if the quantity to be integrated be put under the form X(t)dt , that the factor X(t ) becomes infinite each time sinp=0 , and that the development fails for the values of t that satisfy this equation .
+But it is well known that an analytical circumstance of this kind will not prevent our obtaining in the final analysis the correct development of r , provided the integration above indicated can be effected , and that the failure must admit of some interpretation relative to the proposed problem .
+Now it is not difficult to point out the significance of the failure in this instance .
+Let us suppose that cos- ' a-e==p , Then the arc v can differ from p only by a small quantity , and we have exactly r=a(l -ecos p ) .
+Hence as the quantities a and e are absolutely constant , it would seem that the maximum and minimum values of r are a(l +e ) and a(l-e ) in every revolution of the disturbed body .
+This inference is manifestly untrue , and the reason that it has not been legitimately deduced is , that the above-mentioned failure occurs when r approaches a maximum or minimum value .
+The failure has , therefore , an important bearing on the problem , as showing that the maximum and minimum values of the radius-vector are not of constant magnitude .
+I proceed now with the integration .
+In order that our method of solution may be successful , the differential , Qdt sin ( 1 4e cos p ) , must admit of exact integration to terms inclusive of the second power of e. Now it will be seen by referring to the expression in art .
+9 for which Q was substituted , that this integration depends on the following integrals , which are exact .
+The integration can , therefore , be effected .
+ceo s p.1 4e Ji ( 1 4e cosp)dt=--n sinp +cotp+4et 2cos2p cotp t cosp cosp ' + n ' sinp sin p cosp dsin=_ p1 2 , I -n I ... -.d sm n sinap sinp reos(p+sq ) dt ccos(p+sq ) cos(p-sq)\ dt |s + .
+eJ P(.s p X_ , sn _'1 .
+CI 2eY &amp; C. J'n +s(n- ' ) 'sin2pkn +s(n -n ) -n-_s(n-n)s2p L 1 , r1 -cosq [ s=+l , ?
+2 , &amp;c. ] n-s-'(n:n)2 ' smrp r cos(p+sq ) cosdt=p f cos(p-f-s ) cos ( p-s ) cospdt l , 2 , &amp;c. J ' n+s(n-b-n ) sin2p t=J n+s(n-d)+n-S(n-l ) sinLp E1fn sin sq\ =-2 3sB(nl_sjP ( n^-n ++Cos Scot ) [ s= + 1 , ?
+2 , &amp;c. ] cos ( 2psq ) dt C cos(2p+sq ) cos(2p -sq)\ dt J. 2n+s(n-nt)'sinpJ 2n+s(n-n , ) 2n-s(n-nl ) sinp 12 &amp;c. ] 2 / 2nsin sq =-24 ' , -s2(n( ) ( _I ) +C+os sq cotp ) [ s -+ ?
+, +2 &amp;c. 4-s2(n'4n~ ' s2(n-W)[ , / cos(2p+sq ) cossq dt 2c cos ( p sq ) JL\2ns+(n-nJ ) s(n-n')j sin2 s(n-n')(2n+s(n-n ' ) ) sinp rE / \.\lcos p'+s } ) J. ( n spcosp ( '+q)+ + s(n-n ) inp sin(p+ s ) ( sinp Since the factors which multiply the two last differentials are different according as s is positive or negative , it is important to remark that these integrals have been obtained without giving to s the + and signs .
+The factors which multiply the three preceding differentials do not contain s. From the results of these integrations the following equation is readily obtained : J ( 1-4e cos p)=(F aed+A ?
+ae dA +( d ( -2 + 7e cosp ) +.da2 cosp Le cos sq n-s2(n--n )2 ' sinp +2 , , _2(LI ) ( i singsqin sqnp+cos sq cosp 4A2 533 2Me / 2n .
+1 4n 2t-_ )s2-n ) sln smq sn P+co sq cos inp 2Ne2 cos ( p +sq ) s(n-n-)(2n+s(-)nl ) ' sinp 2aa'een d2Ao cosp ' +n-n 2 'd dad ' sinp Peel cos ( p+sq ) + -(n2 +s(n-/ ))2 ' sinp Since s-=-l , ?
+2 , &amp;c. , the following equalities are true : * Ccos sq cosp= I.cos(p+sq ) sin sq sinp cos ( p+ sq ) $s Hence it will be found that the term in the above equation which involves cos ( p+sq ) i2 { ',2Le '4 ( M +N)e2 cos ( p + sq ) n'(--s(n+s(n_n- , ) ) s(2n+s(n--nr ) ) ] sinp Consequently the equation ( 8 .
+) becomes n3 dAo 1 dAtti Ao\ a , r ( " n+-*+ .
+' ) _'+-w= - ?
+-cos ar / 2_( ')2\ a da da 2n da W ae a1 'a dAo a2e d. Ao 2aa'edn d2Ao -2a2nsinp a A.W( -2+7e cos P ) + 2- .
+d2 cos P+nn .
+*-d cos pL 2Le ( N)e 22 8( ( MN)e ) 'n--s(n--Uf-)c ?
+s Snn(--n+s(n_n ' ) ) +s( + Pe n2 ( n+ s(n-))n nJ 12 .
+Before advancing to the next operation , our attention must be directed to the failure of the term containing the denominator n2--(n'+s(n--n))2 in the case of s= 1 .
+As the denominator vanishes for this value of s it is necessary to retrace out ' steps and consider that case separately .
+Referring to the equation at the beginning of art .
+9 , it will be seen that if s. 1 and P , represent the consequent value of P , the last term becomes Pee'sinp cos ( p'+q ) .
+Also , since p'+q=n't+ s'-w'+nt+s-n't-'=p+ ' , we have sinp cos ( p'+q)dt= sinp cos ( p+q-')dt =-cos ( 2p+--')-sin(w- ' ) .
+Thus the equation ( 8 .
+) will contain the term -aenJ ( --4 cos(2p+ar-r ' ) -sin ( t- ) ) , 534 which will give rise in the right-hand side of the equation at the end of art .
+11 , to the terms 1 P'cos Pt -2 1 ( cos0(at )+2ntsin ( , -'))2 c( , - ) 2a2en sinp ' 4 ( 2 4a enHence , taking these terms into account , and putting the equation under the form a=COS + ae)2 +21 1sip , ( U+eV+e'W),. .
+( 9 .
+) ae a 2a en sinp ' we shall have p/ 3 dAo 1 d2Ao Pe P-i +na da +2n 4da2 +n-a2ec ) 2a dA0 Ln da n2--s2(n--n ) os sq 7a dA7 o a2 d2Ao\ 2/ -2L M+N\ V= anda +r -da2 j cOSpf -n_ n. s(n+s(n-nt))+ s(2 s(n- ) ) os ( p , +sq ) W=~Pi(COS( +2nt 2aa'n d2A0 P W=^-e(cos(--'2nsn ( -/ ))c ?
+s 's--+ W= -_ ( U-W')+ 2nt sin ( w-'))cos P_ F _n2 dad'co pC+O * ( n ?
+)cos ( p ' , +sq ) .
+It may be remarked , that in the terms containing the disturbing force we have put p , for p and p ' for p ' , which is plainly allowable , because the ireasoning mnigzht be repeated with these values in the place of p and p ' .
+Also , it appears that the expression for which W is substituted contains a term multiplied by t. This term imight be included in p , , but it is more convenient to retain it in its present position .
+I proceed to develope r in terms of t by means of the equation ( 9 .
+) .
+13 .
+This equation must give a result of this form , a-r -1 +h , H and h representing respectively the tertns which contain , and those which do not contain , the disturbing force .
+Henrce , omitting h2 , &amp;c. , a-r 2 Hh_- .
+Nj1-()2V 1-112I/ l- .
+Consequently , putting g for the last term within the brackets of equation ( 9 .
+) , a-r_ { eTph 1 ae =cosr+ ev/ -2---H+g =cos ( p , + e/ 1-H2 ) + sin ( p , + eV 1-2 ) ( / -1 ) nearly .
+I-lence H= cos ( p , +eV/ -H2 ) and h=sin ( p , +eV/ --H2)( eHh g ) .
+By the first of these equations H may be developed in a series proceeding according to the powers of e , which will be found to be identical in form with the analogous 535 series in the elliptic theory .
+In the other equation terms involving e2X disturbing force are to be omitted , and cosp , may therefore be put for H. Hence h=sin ( p , +e sin p , ) ( eh cotp , -g ) , or , to the same approximation as before , h=-g sin p , ( 1 +2e cosp , ) .
+Thus , since r=l-e(H+-h ) , we finally obtain r =1 -eH2+ ( U+e(V+2U cosp)+eW ) ... .
+( a 242n -P .
+, )+eW)(10 .
+) It will be seen that in this process sinp , has disappeared from the denominator .
+14 .
+The expressions represented by U , V and W admit of simplifications which will render them more convenient for substitution in the equation ( 10 .
+) .
+In art .
+9 we have 2n2 dAS L ?
+-=_n AS+an da le ( 2s~AA d._ N= .
+s A(2sA-as-- ) +ans d se ( 2 n Aa( .
+dA ' s !
+2(n-nl ) Hence N=2n 2A+an(n-n ' ) =a -s(n- ' ) n+s(n- ) x 1a ?
+^mn ' ) ] n &amp; n-- ) also , =__ +a-2 =L+n--L n : n dA a % d2A 2n2 a2n dW2A Using these values , and putting s(n-n ' ) under the form ( s(n-nt)+)--n , it will be readily found that 2 .
+2L M+N\ n-n -s(n +s(n- ) ) s(2n+s(n-n ' ) ) 2 _____ 2 dAs ( s-s)(n-n')--3n 3n2 a2n d2A ( nsn-n))_-n 2n-n an da * n+s(n-n ) " 'n-n'T da Again , since A and dare hotnogeneous functions of a and a ' of the dimensions -1 and -2 respectively , by a known theorem we have t dAs dAs , d2A dAs d2A , a--A -a da a dadad-a -d By these equations the differential coefficients of A , with respect to a ' may be eliminated .
+Thus by substituting in the expression for P in art .
+9 , and reducing , the following result will be obtained:2n f/ nA .
+Ii%c\'-dAn d2A .
+P='- .
+n ) *{(22-s)A , + ( ( -2s)(n-)-n)a2 an da Hence , putting s= 1 , P , =2nA , -2nadd -a-an dA daada 536 Also , since deos sq n -i-a .
+; -.s(n-2( ) Cos- , 4ae dAo 2Le 2eU cosp , = da cos p , --~ .
+2_ _ , )r~ cos ( pC +sq ) .
+Consequently , by putting for H its known expression from the elliptic theory , subdAo d42A ?
+d2A stituting --2 --a -jfor a dada and making use of the foregoing equalities , with the values of V and W given in art .
+12 , the equation ( 10 .
+) becomes as follows:r 1 dAo e2 1 3e3 1a-a a---e cos P , + -2 cos 2p+-g(cosp-cos 3p , ) an-'A-2 dif 3e dAo e deAo e ' / dA d Acs ( _ , + ns _/ \1 +t2a + 4n2 + V2A-2Xa da2 ) COS( , -)+2sntsin(- ) )cosp , 2n dAs -..-_A2ns 6-ld tA- ?
+n n -7A , +ae -(8-')3 ( As+ awe ) co 2naQ-nn+.n n n , An-- , nn-n d-L Aa '+^~ ~~~ * ~~ ' ^ -+ ( n+ ^)3 n+d o-A s ( , / 4___ -- ; - &gt; 7 : _ .
+V:_ I * ... ... . .
+In this equation s has the values +1 , 2 , ?
++3 , &amp;c. in the terms containing cos sy and cos ( p , +sq ) , and the values ?
+0 , -1 , ?
+2 , &amp;c. in the term containing cos(p+sq ) .
+On comparing this expression for the radius-vector with that obtained by LAPLACER , terms will be found in the latter identical with all the above , with the exception of those that contain e ' cosp , ; and there are other terms to which none of the above correspond .
+These are only differences in form , arising from difference in the processes of integration .
+It is chiefly important to remark , that in the foregoing expression for r there is no term containing ent as a factor .
+The signification of that which contains ent will be presently considered .
+15 .
+Having obtained the development of the radius-vector , it is easy to infer that of the longitude ( 0 ) from the equation ( 6 .
+) , viz. dO h1 rdR dt=2-J7 dOt and from the value ofj dt in terms of t , which has been already found .
+Putting r , +rfor r , and taking Ir to represent the terms multiplied by the disturbing force , we shall have to the same approximation as before , do h 2r dR2 d d--Chd 1--)-r dCC = r2-A ( +3ecos p , )r-a 2 ( I -+2e cosj d dt ; *=+Jr dt 2h sr+J Il dR dt dt_ 6h r2 dR dt e cosp , dt .
+12 ad23 d0 C The development of the term~ dt will be of the same form as in the elliptic theory .
+An equation obtained in art .
+7 gives , 2 &lt; SA/ das 1CR d1 A , 1o 2sA-as da s a2 dt 2a2 n-n C ?
+ss 2a n+s(n-n ' ) ecos(p+sq ) 2s2As + a 's dA JP(aC y'~ d ) 1~ A $ , nq I+ 2sSA s-asdA , 1 s2s + a'ts -222 ( '+s(n- ) )sin ( p + sq ) Since the relations of the constants h , a , n and e are expressed in out problem in the same manner as in the elliptic theory , we have h=-na2V/ l -e2 .
+HIence we may put na2 for h in the terms involving the disturbing force .
+Consequently , omitting e2 , &amp;c. , 2n A dA , 6~~r cos p , dt= II dA ?
+I -~dt &amp; ( a2 d dt ) e Acosp , dt8~ ' &gt; *n cos sq cos p87 dia3 6eda 2A co cos , dt rAe dA 6e dAo 3nze n_rn+U 1 da / aa"q ( ' n-nt)(n ?
+s(n----t ) ) si n ( p , -sq ) In all these equations the values of s are 1 , +2 , ?
+3 , &amp;c. Putting now , foi the sake of brevity , D for 2AI-2a fd--a C 2dds 1 , and F , G and H fo &amp; the coefficients of cos sq , cos ( p1+sq ) , cos ( p'+sq ) respectively in the expression for 5 , e As , Ptitting notw , fo the sake of brevity , nD for 2A , -2a nA , a-A , and F , G and H foi , da daa and observing that J JStdt t sinp cosp , tdtcosp , = s. .
+n~ " { -~n a n. the following equation is readily obtained : C2h dt 2 dAo f3e -dAo e d2Ao De ' )1 .
+na da o f| any da M+2 da2-4a2n2cos()inP1 Det .
++2a2snin ( -s ' ) sin p , De ' +2an2n2sin ( P , +q ) nF 2neG 2ne'H a/ ^sin sq+ sin p , ,+ s s(q+9 ) + o/ -/ / ^ si1 ( p'T^q)- , -a2s(n-n ) sin sq a(n+s(n-nl ) ) sin ( + ) a(1 +s(n-n ) ) si ( psq ) the value s=1 being excluded from the last term .
+Substituting the results of these integrations , the following will be found to be the value of 0 : 2 o\ 5e2 .
+e3 / 13 .
+O=s+.n+ -nada t+ sin 2p , + sin 3p , -sinp fe dAo e dAo_ De ' + 2e+ d~da da~ +4 ( cos(i--')-2ntsin(@ -- ' ) ) sinp , + an2 da 2n da2 4an2 2 2(A , -a d +D ) sin ( p+q ) 12 2nF A , \ +a2 ( \s n-n ) sn-n sin s ae+ ( n'n ' ( 1)2ASg +ae 2 n+s(n-n'j [ 3n+2 ( ns(n-n ' ) ) F ( ln+s ) , n -2nG sin ( pr+sq ) a )2 n-na dA .
+el^ 1 ( 2s"--s)As--asdaa 'n s-nI ( n s(n-n ' ) ) +2nHjsin ( p , +sq ) , where s has the values +0 , --1 , 2 , ?
+3 , &amp;c. in the last term , and the values +1 , -+2 , ?
+3 , &amp;c. in the other terms , and A_ has the same value as A , .
+16 .
+The expressions for r and 0 obtained in arts .
+14 and 15 may be put under forms more compact , and more convenient for drawing inferences , by making the following substitutions : 1 dAo ae2 A a-=a .
+da~+ 2e dAo , De't E=e--nn~ ~--~sin ( --/ ) Ee da2 4a2n sin ( ) ( 1 dAo 1 d2Ao De II --na da + 2n da2 + 4na2e cO ( r- ' ) t2 dAo N -2-na da ' so that p , =Nt+--II 3e dAo Dd ' ef= 2n2 a+ 8acos ( - ' ) e ' g=-2aL ( A , --a da +D ) ?
+Thus we shall have , r=A-a(E-ef ) cos ( Nt+g--)-cos2(Nt+--H)+4 &amp;c. -2.Fcoss(Nt+s-N't ' ) + s. G cos { A(Nt +-s-Nt- ) +N t +s--II } ea +a ' .
+II cos{(s-1)(Nt+s--N't--g')+Nt+s--IT } .
+And putting F ' , CG , 11 ' for the coefficients of sinsq , sin ( p , +sq ) and sin ( p+sq ) in the development of 0 , we have 5e2 O= +Nt+2(E+ of ) sin ( Nt+s-I-)+ -sin2(Nt+Es--)+ &amp;c. + e'g sin(Nt+se-I ' ) + 2a .
+Fsin s(Nt+ -Nt-t ) +-2 5 .
+G ' sin { s(Nt+--N't--E ) +-Nt+ -I } , +2 .
+H ' sin { ( s1)(Nt+s-N't-')+Nt+e- ' } .
+17 .
+I proceed next to draw some conclusions from these values of the radiusvector and longitude .
+( 1 ) The quantity A is the non-periodic part of thie radius-vector , and being equal 1 dA0 .
+ae2 to a+oT is a function of given quantities and arbitrary constants .
+A is , therefore , invariable .
+It may also be remarked , that as the value of r may be put to the same approximation under the form a(l-dA)(l-~+- &amp;c. +periodic terms ) , i dAo the quantity a--W is approximately the mean distance .
+Thus , so far as this approximation shows , the mean distance is invariable .
+( 2 ) The mnean motion is necessarily the factor of the non-periodic term Nt in the development of 0 .
+Hence Mean motion =N=n+4 dA0 na dz For the reason just adduced , the mean motion is thus proved to be invariable .
+As the two quantities A and N are functions of a and e , they are by conseqtence functions of the arbitrary constants h and C. Hence , if the values of the nonperiodic part of the radius-vector and the mean motion be deduced from observation , the constants a and e , or h and C , become known .
+( 3 ) The quantity e , being simply an arbitrary constant , is invariable .
+Analogous considerations apply to the mean distance , mean motion , and the epoch ( S ) of the orbit of m ' as disturb ( l by m. 540 The expressions for E and 1I show that these quantities contain terms which have t for a factor , and may therefore increase indefinitely .
+This circumstance creates no difficulty with regard to II , which is always part of a circular arc affected by a sine or cosine .
+But as E appears as a coefficient , it might seem that the developments of r and 0 contain terms which admit of indefinite increase .
+It must , however , be observed , that according to the remark made at the end of art .
+12 , the function that has given rise to these tetrms is really affected by a cosine , and that they have their origin in the developmenrt of that function in terms arranged according to the disturbing force .
+The following considerations will enable us to obtain , at least approximately , the periodic functions of which II and E are partial developments .
+Whatever functions the complete values of II and E are of t , they may be expanded in series of the form a+Pt+yt2+ &amp;c. , the two first termis of which are already determined .
+I-ence dlI dE =P+2rt+ &amp;c. -dtI =+2y't+ &amp;c. Let t be indefinitely small .
+Then substituting 1 dA0 1 d2AO B for-na dao 2n da2 dfl dE we shall have strictly the values of -d and -t for the epoch at which t commences , dhI De dE I De viz. )Cos vldtB4nea~cs ( -w ) d--4 Sitl(t-n ) .
+dil dE Now if t commenced at a different epoch , we should obtain for d and d the same expressions as those above , but different in value , because by hypothesis these differential coefficients vary with the time .
+The changes of value , which in actual cases take place very slowly , are due to changes in the eccentricities , and in the longitudles of the apses , of the two orbits , and will be very approximately taken into account by substituting in the above equations for e , e ' , and t ' , the variable quandil ' dE ' tities E , E ' , II and II ' .
+Like considerations apply to the values of -d and -d .
+Thus we shall have four differential equations , by the simultaneous integration of which the four quantities may be obtained as periodic functions of the time .
+The arbitrary constants introduced by the integration are determiined by the known values of the functions when t=O .
+These periodic functions are to be substituted for E , E ' , I and II ' , wherever these quantities occur in the developments of r , r ' , 0 and e0 The four equations just mentioned are identical with those obtained by the miethod of the variation of parameters for determining the eccentricities and longitudes of the apses .
+It is worthy of remark , that in both methods the changes of the eccentricities and of the longitudes of the apses which are due to the disturbances , are taken into account in calculating the changes themselves , so that the approximation does in 4B2 541 fact extend beyond the first power of the disturbing force , so far as it relates to these two elements .
+If the approximation be made to include generally the squatre of the distutrbing force , and the values of r and d in art .
+16 , and the like valuies of r ' and 0 ' , be used for that purpose , terms may arise containing coefficients which have t2 for a factor .
+These terms may be converted into periodic functions of the time by the application of the principles exhibited above , but in that case the differential equations by which E , E ' , II and I ' are , found will be of the second order , and the periodic functions will be more completely determined .
+The inferences ( 1 ) , ( 2 ) , ( 3 ) and ( 4 ) respecting the secular variations of the elements , although obtained in a manner quite new , agree exactly with those deduced from previous solutions of the same problem .
+18 .
+Having now obtained the developments of r , 0 , r and 0 ' , inclusive of bott periodic and secular inequalities , to an extent which is sufficient for most of the applications of the Planetary Theory , I shall reserve for a future opportunity the investigation of the inequalities in latitude , and shall then take occasion to show in detail how this method adapts itself to the determination of the motions of the moon .
+At present I propose , in concluding this memoir , to make a few general remarks on the Problem of Three Bodies .
+It has been already observed , that the solution here adopted introduces no teirms containing ent in the coefficients .
+These terms are to be distinguished from those whose coefficients contain e'nt , which , as we have seen , have reference to secular variations of the eccentricity and of the motion of the apse , and would vanish with the eccentricity of the orbit of the disturbing body .
+The former relate to the motion itself of the apse , and are not peculiar to the Problem of Three Bodies , occurring in fact in cases where the force is directed to a fixed centre .
+To illustrate this remark , let us suppose the force directed to a fixed centre to be ?
+-P-r .
+Then , the differential equation for finding the orbit being dO2 lr +h2 , let this equation be integrated by successive approximations , first neglecting the last term , and then substituting in that term the value of r given by the first approximation .
+By this process a term containing t in the coefficient will be introduced , and the motion of the apse will fail of being ascertained .
+But if , instead of this process , the equation dr 2h2 2 'rd+2--I-2+C=O be obtained , and its approximate integration be conducted according to the powers of d ' , no such term will arise , and the motion of the apse will be determined .
+The latter process is-:exactly analogous to steps employed in the foregoing solution of the 542 Problem of Three Bodies .
+The difference of the analytical results of the two methods dr may be thus explained .
+The equation obtained by putting -=-0 , viz. hi-2jr+ Cr ' -- , 'r =0 , may be shown to have three positive roots if C be positive , so that aitalytically there are three apsidal distances .
+The first method , by embracing the third apsidal distance ( no step being taken to exclude it ) , applies to the other two only in an expanded form , the expansion giving rise to terms containing the factor t. The other , by commencing the approximation with the equation dr -+h2 2Ct _dt -r+ 'C=0 , restricts the application of the solution to the part of the curve which has two apsidal distances , and accordingly finds the function of t which in the other mitethod is expanded .
+The method of the variation of parameters , by the very nature of the process , restricts the analysis in the Problem of Three Bodies to two apsidal distances .
+and on this account is successful in determining the motion of the apse .
+Again , I think it important to remark that the solution of the Problem of Three Bodies , as here proposed , applies equally to the Lunar and the Planetary Theoties .
+The Problem of the Moon 's motion does not differ in the analytical treatment it requires , from that of the motion of a Planet .
+In the one case as well as the other the approximation ought to be conducted primlarily accoirding to the disturbing force , which is assumed to be small compared to the principal force , and secondarily according to the form of the orbit , which is assumed to differ little flrom a circle .
+It is not necessary to take account of the ratio of n ' to n in arranging the developments , but only in estimating the magnitude and importance of the terms resulting from the integrations .
+The possibility of effecting the integrations is the proper proof of the correctness of the process , and of its being adequate to give the development which is alone appropriate to the question , and which must result from every process that is in all respects legitimate .
+After making any assumption respecting the analytical form of the solution ( as in the Lunar Theory is done by introducing the constants c and g ) , there can be no certainty that the solution will not at some stage become empirical .
+Probably the reason that the process which succeeds for a planet has not been applied to the moon , is the difficulty of extending it to the square and higher powers of the disturbance ( which in the Lunar Theory it is necessary to take into account ) , and of embracing in the same operation both the periodic and the secular inequalities .
+The method I have exhibited in this communication appears to meet this difficulty by evolving simultaneously both kinds of inequalities by a process which obviously may be extended to higher powers of the eccentricity and the disturbing force .
+Such an extension would require nothing more than great labour in executing the analytical details .
+543 Received July 7 , 1856 .
+IT has been shown in art .
+5 from a priori considerations , that if the constant e=O , the disturbing force vanishes , and if the disturbing force vanishes , e is arbitrary .
+Hence it appears from the development of the radius-vector in art .
+16 , that the eccentricity of the disturbed orbit and the disturbing force are related in such a manner that if the eccentricity =0 , the disturbing force vanishes , and if the disturbing force =0 , the eccentricity remains arbitrary .
+The particular relation which satisfies these conditions ought plainly to result from the solution of the Problem of Three Bodies , and it may , therefore , be worth while to inquire how far such a result can be deduced from the integrations effected in the foregoing approximate solution .
+Now the expressions for the variations of the eccentricity and of the longitude of the apse obtained in art .
+17 , are identical with those given by the method of the variation of parameters .
+Hence for the present purpose I may make use of the deductions from those expressions which are usually given in treatises on the Planetary Theory .
+Referring to PRATT'S ' Mechanical Philosophy , ' art .
+385 , we have the equations , na namB ' DgS ( 2BD+CD'). .
+( .
+) Ehh= ( 2BE+CE ' ) ... ( 2 .
+) D'g= t ( 2B'D'+CD ) ... ( 3 .
+) E ' ( 2B'E'+ CE ) ... ( 4 .
+) e =D'+E'+2DEcos { ( g-h)t+k--l ... ... .
+( 5 .
+) e=D 2+E'2+2D'E ' cos { ( ( gh)t+k--1 } .
+( 6 .
+) nam'B + nlaTmBt 1 .
+gor= h= + { ( namtB-n'amB')+nnaa ... . .
+( 7 .
+) In these equations B , B ' and C are known quantities independent of the eccentricities and longitudes of the apses , e , and e , are respectively the eccentricities of the orbits of the disturbed and disturbing bodies , k and I are arbitrary quantities , and D , D ' , E , E ' are also arbitrary , excepting so far as they are connected by the first four equations .
+Let , if possible , e , =0 independently of the time .
+Then it follows from ( 5 .
+) that D=0 and E=-0 .
+Hence , since e ' does not consequently vanish , it appears by ( 6 .
+) that Dt and E ' do not on this supposition both vanish , and , therefore , by the first or second equation , that m'=0 .
+Again , let m'=O .
+Then by ( 1 .
+) and ( 2 .
+) , Dg=O and Eh=0 , and by ( 7 .
+) , one of the quantities g and h vanishes .
+Hence one of the quantities D and E vanishes and the other remains arbitrary .
+Hence also e , is arbitrary .
+These results confirm the reasoning in art .
+5 .
+544 The following method of obtaining an expression for dt equivalent to that in art .
+9 , was communicated to me by Sir JOHN LUBBOCK after the reading of my Paper , and appears to be well worthy of being recorded in connection with the prtocess of solution I have adopted , as , on a resumption of the reasoning for the purpose of carrying the approximation farther , it might considerably abbreviate the analytical details .
+" If dt=/ rdv , and v be taken for the independent variable , the equation dr_ dt rdR 2d-t ' r a+2 dr =0 becomes dA d( are ( dr and if are r ?
+) a2 R+-dr)=Q , r=a-ae cos v+ cos vQ sin vdv sin vQ cos vdv , and v= rCf___-r cos v. sin v and == os'L ae +a-e sin vdv-e Qcos vdv ence / A rdva / V rdr+ r sin vdvfQ sin vdv +r cos vdvfQ cos vdv Hence dt-\/ -rdv=\/ *PFVP { a2e"-a-r+ ( cos vfQ sin vdv-sin vfQ cos vdv)2 } Neglecting powers of Q above the first , dt ~/ a f rdr rdv ( sin vfQ sin vdv + cos v/ Q cos vdv ) / 4 ta22_(a-r)2)1 ( a2e2l-(a-r)2)2 _r(a-r)dr(cos vfQ sin vdv-sin vfQ cos vdv ) ( a2el -(a-r)2)n fa{ rdr rdv f:===A./ --rd ( sin v sin vdv+cos v Qcos vdv ) V. ae(a-r)2 ( )+aesinv ( sin Q ae sin ( coS vQ sin vdv--sin vQ cos vdv ) ( a f ar ) ?
+rf a,1 ( a2e2-(a-r)2)j}.ae $Q s in vdv } , which equation is true to all powers of the eccentricities and inclinations , v being the eccentric anomaly .
+" 545
+

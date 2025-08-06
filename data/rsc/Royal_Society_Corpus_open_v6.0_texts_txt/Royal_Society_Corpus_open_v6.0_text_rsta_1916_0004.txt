@@ -1,0 +1,505 @@
+]\gt ; [ 129 ] IV .
+On ertain Linear Differential Eqnations of Astronomical Interest .
+By Prof. H. F. BAKER , F.R. S. Received May 13 , \mdash ; Read June 17 , 1915 .
+CONTENTS .
+PART I. Page $ 1 .
+Remark as to a periodic solution of a certain linear differcntial equation of the second order with periodic coefficients . . . . .
+130 S2 .
+Calculation of characteristic exponents for a linear difforential equation of the seconld order , whose coefficients are power series in a parameter with periodic terms . . . .
+132 S3 .
+Application to the Mathieu-Hill equation in general , with an example . . . . .
+134 S4 .
+Elementary method for computation in the case of the equation for the lunar perigee 137 S6 .
+Stability of the oscillation represented by the Mathieu-Hill equation , for one case . . .
+141 S6 .
+Method for general case . . . .
+, .
+141 S7 .
+Formation and discussion of the equations for the small oscillations of three gravitating particles about the angular points of an equilateral triangle . . . . .
+144 S8 .
+Brief consideration of the solution by meatls of an finite determinant . . . . .
+149 S9 .
+Computation of solution by means of series . . . . .
+l5l S10 .
+Practical case . . . . .
+1 PART II .
+S11 .
+Question raised by POINCARE ' whether the periodicity of the coefficients in a certain differential equation is necessary for the convergcnce of the solution . . . . . . .
+154 S12 .
+Exposition of a general method for the solution of systems of linear differential equations in a form valid for an indefinitely extended region . . . . . . . . . . . . .
+1 S13 .
+Application to the particular case discussed by POINCARE . . . . . . . . .
+S14 .
+Application to equations with periodic coefficients .
+tion of LAPLACE'S go1leril method for avoiding explicit occurrence of the time . . . . . . . . . . .
+163 S15 .
+Applications of the method to the general equations of dynamics . . . . . . . .
+164 S16 .
+Same continued . . . . . . . . . . . . . . . . . . . . .
+166 S17 .
+Same continued . . . . .
+, . . . . . . . . . . .
+170 S18 .
+Simple example of the application of the method to compnting the solution of tion 171 S19 .
+Detailsd application to computing the solution and characteristic exponent for cI'itical cases of the Mathieu-Hill equation . . . . . . . . . . . . . .
+173 S20 .
+Same continued . . . . . . . . . . . . . . . . . . . . . . .
+179 S21 .
+Same continued .
+[ Conditions for stability in geIteral ] . . . . . . . . . .
+PART II1 .
+S22 .
+Remark as to ation of the results of this paper . . . . . . . . . .
+VOL. CCXVI .
+[ Published , 1916 .
+PREFACE .
+PART II .
+of the present paper was written , very much in the form in which it is now presented , in the summer of , and began with the remark in S11 , appears to disprove a statement made by POINCARt in regard to the convergence of an astronomical series .
+It was laid aside partly because a good deal of the work is only of the nature of elementary algebra , partly because the matrix notation employed does not seem to find favour in its application to differential equations .
+Various circumstances have , however , led me to take up the matter again , and my original conviction that the method of Part II .
+is of importance has been strengthened by comparing it with the less formal methods which , for the sake of introducing the subject , I have followed in Part I. I hope , therefore , that the following exposition may be thought worth while .
+Part III .
+has only the value of a concluding remark .
+The table of contents above may serve to give an idea of the scope and arrangement of the paper .
+PART I. S1 .
+Consider a linear differential equation where are power series in a small quantity , , of the forms in which each of is a linear function of denoting .
+Thus each of will contain a term independent of ; we speak of these as the absolute terms .
+It is important that contains term in ; and it is assumed that the quantity , which is independent of , is not a positive or negative integer , and that are not both zero .
+We prove that if the absolute terms in , that is the absolute terms in , be suitably determined , the differential equation possesses a solution of the form DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+wherein is a ]inear function of , , , and this is a periodic solution .
+Its period is ; we can , however , if we wish , express the same result with a period by writi1rg For the substitution of the assumed form for X requires the identity which , equating the coefficient of to zero , will be true if In particular for If herein we suppose being given constants , we obtain which is satisfied by For the condition is Writing and assuming a form the condition becomes ; equating the coefficients of to zero , we obtain which , as is not 2 or , determine , and , the last being expressible by means of the given coefficients of Proceeding similarly with the general value of , we at.once reach the conclusion stated , the absolute term in being determined in terms of the coefficients in S2 .
+Now consider an equation where , with have the forms which are periodic functions of , with period , capable of being arranged as power series in a parameter , the coefficient of being a linear function of , , In accordance with the well-known theory of linear differential equations with periodic coefficients , we substitute where is a constant , and so obtain a differential equation which , when is properly chosen , is to be satisfied by a periodic function X. That this is possible follows at once from S1 , as we now explain .
+First we can draw some inference as to the form of .
+For compare the original differential equation in with the equation obtained from it by changing the sign of in each of the series , C. It is clear that the new differential equation may equally be obtained from the original equation by change of into , which changes into ; this latter change , however , only multiplies the factor by the constant ; the factors appropriate to the two independent solutions of the new differential equation are thus the same , in their aggregate , as the factors for the original equation .
+Thus the change of the sign of changes the two factors " " appropriate to the two independent solutions of the original differential equation among themselves , either by leaving both unaltered or by interchanging them .
+Assuming that is capable of expression as a power series in DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+the case in which each is unaltered by change of the sign of is the case in which only even powers enter in this series .
+The case in which the two values of are interchanged by change of the sign of may arise when the differential equation is such that for the two values of are equal or differ by an integer ; in this case is a periodic function for , and the factors do not individualise the functions with they are associated .
+In the present case , the equation reduces when , to which , if is not zero , has the two solutions , where have the values Thus if we suppose not only that is other than zero , but also that is not zero or a positive or negative integer , we can assume Then putting where .
+is a linear function of , , the differential equation for X can .
+be compared with that of S 1 .
+In the present case there is an unknown quantity entering into the coefficient of , but it will be seen that in the equations obtained by taking the successive powers of , each unknown coefficient in in this is determined at earlier stage as entering in the coefficient , and so enters as a known coefficient .
+We have and similarly , the absolute term in the coefficient of in this being Thus , as in S1 , we put assuming , as in S1 it was assumed that ) is not an intsger , that 2 , or 2 is not zero or integral ; then the absolute term in the coefficient of determines , and hence , and the absolute term in the coefficient of similarly determines The excepted in which contains odd as well as even powers of we may leave aside at present .
+S3 .
+We may apply the preceding to the much equation When we have ths two factors , and the general case is that in which ) has not the period , , of the coefficients in the differential equation , that is , when is not an integer .
+First assume this to be so .
+Then writing we obtain Herein assume * For this differential equation the following list of references may be useful , though it is probably far from , 'Louville 's J XIII .
+( 1868 ) , , 137 ; , 'Coll .
+Math. Works , ' I. , p. 255 ( ' Acta Nfath VIII .
+( 1886 ) ) ; ADAMS , 'Coll .
+Scientific Papers , ' I. , p. 186 , II .
+, pp. 66 , 86 ; TISSERAND , ' Mec .
+Cel .
+III .
+, Ch. I. ; PoINcAltE , ' Me'th .
+Nouv .
+II .
+, Ch. XVII .
+; FORSYTH , 'Linear Differential quations ' ( 1902 ) , p. 431 ; RAYLEIGH , 'Scientific Papers , ' vol. III .
+( 1902 ) , p. 1 ; LINDEMANN , 'Math .
+Bd .
+XXII .
+( 1883 ) , p. 117 ; , 'Astr .
+Nachr ( 1883 ) ; LINDSTEDT , 'Memoires de l'Acad .
+dc .
+Petersbourg , ' , No. .
+BRUNS , 'Astr .
+Nachr 2533 , 2553 CALLANDREAU , 'Astr .
+Nachr 2547 ( 1883 ) ; LANDREAU , 'Ann .
+Paris , XXII .
+( 1896 ) ; TISSERAND , 'Bull .
+Astr .
+IX .
+( 1892 ) ; STlELTJES , 'Astr .
+Nachr 2602 , 2609 ( 1884 ) ; HARZER , ' Astr .
+Nachr 2850 , MOULTON and MACMILLAN , 'Amer .
+J XXXIII .
+( 1911 ) ; MOULTON , 'Rendic .
+Palermo , ' XXXII .
+MOULTON , Math. LXXIII .
+; WHITTAKER , ' Cambridge Congress ' ( 1912 ) , , p. 366 ; WHITTAKER , YOUNG and MILNE , 'Edinburgh Math. Soc XXXII .
+, 1913-14 ; INCE , 'MoIIthly Not Roy .
+Astr .
+Soc. , LXXV .
+( 1915 ) ; POINCARfi , 'Bull .
+Astr XVII .
+( 1900 ) .
+DIFFERENTIAL EQUATIONS OF ASTRONOMICAL REST .
+where is an integral polynomial of order in and , the quantity being denoted by .
+Then we The terms in give which , if we denote or / by ?
+, so that the result of substituting for in , leads to .
+The terms in give which , if we write leads to and By the terms in , we similarly find the coefficients in and also If we change the notation , writing , so that the equation becomes and we have It is clear that is essentially real so long as this series converges .
+As an immediate application take the equation in BROWN'S ' Lunar Theory , ' p. 107 , where Put ; then the equation becomes which is of the form above , replacing .
+We may then take Here is a small quantity and is of the order , while similarly is of the order .
+Also .
+Thus , which is easily seen to agree with the result given by BROWN , or by ADAMS , ' Coll. Works , ' I. , p. 187 , when we take account of the fact that so that , in terms of the quantity denoted by This example is chiefly useful here as calling attention to the fact that , while not exactly equal to 1 , is near to it , and consequently the factor is only small of the first order in .
+The same weakness occurs in the terms in , , in the solution .
+DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+S4 .
+In the equation considered by HILL ( Coll. Works , ' I. , p. 268 ) the ratio 4 is about , and there is a term slightly greater than arising in the terms in in the series for , in which 4 is about ; and the series fails absolutely in cases in which is an integer .
+Then the assumption that is a power series in , and the terms in X which are independent of , must be modified , for reasons above given .
+The series when is an integer has been considered by TISSERAND , ' Bull .
+Astr IX .
+, 1892 ; modifying his procedure , so as to include the case when is near to 1 as well as that in which , we may write , in accordance with the suggestion of such examples as that above quoted , and then , denoting by , consider the equation By the changes the differential equation may be replaced by the pair , where Assuming here , V in which is a constant , and .
+are polynomials in and , we find , coefficients of like powers of in which , VOL. CCXVI.\mdash ; A. In these equations , as .
+are to be polynomials in , the absolute terms , those involving , must vanish .
+For this gives We thus write , using hyperbolic functions , With these we find at once by integration the values of , save for the absolute terms in these , which we denote by respectively .
+The conditions for these are to be found by considering the absolute terms in the equations for ; and so on continually .
+In general , when we have found and have found , save for their absolute terms , , we find , on taking the absolute terms in the equations which involve and , and adding and subtracting these terms , that the two quantities are thereby expressed in terms of known quantities .
+It is at once seen that there would be no loss of generality in putting , all zero .
+Carrying out the work , and writing for , we obtain where .
+in which sha .
+DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+If from these formulae we determine and in terms and we find for where .
+This formulae is apparently unsatisfactory when is small , or nearly equal to .
+In fact , the series is of the form whose square has a form in which we can put , On squaring , we have wherein and this form is appropriate when or .
+In particular , when , but is not zero , this gives a formula reproducing the former if be put for .
+It will be seen in Part II .
+of this paper why the form of is comparatively so simple .
+Brief reference may be made to another way in which we may use the foregoing equations , regarding , not as given constants but as quantities to be determined to simplify the result ; this has been adopted by Prof. WHITTAKEB ( ' Proc. Math. Soc Edinburgh , XXXII .
+, 1913-14 ) who chooses as his condition that no terms in shall occur in , , in the expression for .
+This can be secured by taking From our present point of view a more natural procedure is to take .
+Then we obtain where we have written in place of , as this argument is now supposed to be determined , from this equation , corresponding to a given value of .
+When is so determined , is given by an equation hich does not contain in its denominator .
+With a view to the comparison of this method with the two others given in the present paper we consider two examples .
+First , for the equation for which is actually unity , we should determine so that where we have replaced by 1 .
+This gives approximately , and hence while the value for , substituted for , gives the series for .
+We may.remark that for the equation TISSERAND ( ' Bull .
+Astr IX .
+, 1892 , p. 102 ) finds As a further example take which , as will appear , is an interesting equation .
+Then is to be found from so that and hence In both these examples the value found for follows at once from the general formula above given for , of which a further deduction is found below in Part II .
+In the last example the value found for gives a solution for in a series involving .
+It will be seen in Part II .
+that when involves , it is in a very.simple way , and the case seems better treated as there expla.ined .
+The occurrence of in DIFFERENTIAL EQUATIONS OF ASTRONOMICAL the value of , in certain cases , is a particular case of POINCARE'S theorem , ' Meth .
+Nouv I. , S79 , p. 219 .
+The phenomenon presents itself , however , as a consequence of the use of elliptic functions in TISSERAND'S theory of the small planets ; see TISSERAND , ' Mec .
+Cel , p. 426 ( or ' Bull .
+Astr IV S5 .
+A very important question in regard to the differential equation under discussion is whether is real or not , since upon this depends the conventional stability of the secondary oscillation determined by the differential equation .
+We have remarked above ( S3 ) that when is not an integer , and , are small enough to render the series there obtained convergent , the value of is necessarily real .
+The cases in which is an integer and have been discussed by TISSERAND , ' Bull .
+Astr IX .
+, 1892 , who obtains the result that the motion is unstable for or , that is for the equations when is small enough , but stable for greater integer values of .
+The formula for , given in the earlier part of S4 preceding , shows that for cases in which the motion is stable provided the values of and being then both real .
+It shows further that it is stable for positive provided be small enough .
+The critical equation is thus the other sign of being obtainable by changing into S6 .
+We proceed now to the case when If in the equation in which is an integer , we put it , , , we obtain , where We may then further substitute leading to where These equations can be solved by writing where A is a constant , and , , , are polynomials in For , in particular , we find that if , the quantity A is required , and determined in the course of the work , and .
+But if is not zero , we must take , and obtain , the succeeding , being real .
+In fact , as far as which gives We know , as is shown in Part II .
+of this paper , that the form of is valid even when .
+Then we have which , when , is only positive , provided DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+The case discussed by TISSERAND is that in which .
+Then , and the quantity A in the formula for , or , is found to be 3 ] When , for the equation we find , and The question of the reality of , in cases where , is discussed by POINCARE , 'Meth .
+Nouv II .
+( 1893 ) , p. 243 , and by CALLANDREAU , ' Ann. Observe Paris , XXII .
+( 1896 ) , p. 23 .
+So far the results ( 1 ) For the equation at the bottom of p. 135 ( S3 ) is real when is not an integer , provided the series obtained ( 2 ) This condition does not however include , for instance , the case when is near to unity .
+For is imaginary , for the equation if .
+It is real if , and real if is positive and equal to .
+This has been proved here .
+( 3 ) may be real when is just greater than 2 , when , are small enough .
+This has been proved here .
+( 4 ) is real when is any integer greater than 2 , if , but imaginary when .
+This result is given by TISSERAND and CALLANDREAU , as above .
+* [ October 30 , 1915.\mdash ; It may be worth adding , in connexion with the numerical results given in S6 , that the equation in which is small , is solved by *See the note at the conclusion of S21 ( p. 184 ) .
+in which , as far as and , as far as S7 .
+We pass now to the consideration of a pair of simultaneous differential equations arising in the consideration of the stability of the motion of three particles occupying the angular points of an equilateral triangle moving under their mutual gravitation .
+The stability of this motion has been discussed by ROUTH ( ' Proc. Lond. Math. Soc VI .
+, 1875 ; 'Rigid Dynamics , ' II .
+, p. 61 ) in the case when the relative paths of the particles are circles .
+* In what follows we do not assume this .
+The three particles being , take an axis through , say , rotating with angular velocity , the line SE being supposed to coincide very nearly with Draw a perpendicular EH from to , denote EH by , and SH by , where will be considered small , their squares being neglected , but A is a variable finite quantity .
+Draw a second axes through at a constant angle with , and * The references may be of use:\mdash ; CHARLIER , 'Die Mechanik des Himmels , '.and ' Astr .
+Nachr 193 , 15 ; , 'Astron .
+557 ( 1904 ) ; LINDERS , 'Arkiv for Mat .
+' , No. 20 ; BROWN , 'Monthly Notices , R.A.S. , ' LXXI .
+( 1911 ) , pp. 439 , 492 ; HEINRICH , 'Astr , Nachr 194 , 12 ( December , 1912 ) ; BLOCK , ' Arkiv for Mat X. , 4 ( 1914 ) .
+DIFFERENTIAL EQUATIONS OF ASTRONOMICAL similarly , draw a perpendicular MK from to ; denote , KM and If , we have , with proper conventions of The accelerations of , relatively to , parallel to parallel to HE , are , respectively , ; the accelerations of , relatively to , parallel to and parallel to , are , respectively , .
+E. .
+If , then , in the equations of motion relatively to , after nding in powers , we equate the finite and the small parts , the squares of neglected , we obtain and constant , , say , where , \amp ; c. , together with VOL. CCXVI .
+in which X , respectively denote and , and also The first equations have integrals expressible by the point moving in an ellipse of eccentricity and semilatusrectum .
+With these values the other equations are much simplified if we take , instead of the time , as independent variable , as was pointed out to me by Mr. H. M. GARNER , of St. John 's College , Cambridge .
+With this change they become ' ( I. ) where and X ' together with .
+The first thing then is to solve the equations ( I. ) , after which the right side in ( II .
+) will be known .
+Considerable simplification can be introduced by change of notation ; let , , so that , HK , where ; DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+rther so that Also , whereby the equations ( I. ) become , ( .
+) ' which , \amp ; c. , and then that are both real , and , and the equations ( I. ) become in which , beside the eccentricity , there are the two constants , which are dependent upon the single number The equations ( II .
+) , by means of the changes , V , become ( II .
+) ' Consider now the equations .
+We know that the solutions are of the form where are arbitrary constants , , , are functions of period , and are definite constants .
+When , substituting the equations we obtain P-2 so that the values assumed by ) , lvhen , are the roots of the equation or Thus and four values are all imaginary when , and all real when Supposing , we find at once , from the formula for that the least possible of in order that is , but this requires to be very small ; but if be greater than , then is certainly even if .
+In our solar system the sun 's mass is more than per cent. of the mass of the whole system ; thus if in our problem were the sun , and were any two planets of the system , the condition for would be easily satisfied .
+We shall then suppose Now compare with the equations ( I. the equations ( III .
+) obtained from by change of the sign of .
+They can also be obtained from by into .
+This last change shows that the characteristic constants belonging to the equations ( III .
+) are the same as for , while the former change that the values of proper to ( III .
+) are obtained by changing the sign of in the constants appropriate .
+When is such that the values of for namely , the four values of bove , are all differenc , a change in the sign of cannot interchange the values of among themselves .
+Thus we infer that each is unaltered by changing the sign of ; for two of the values of can only be equal when the applications in view of which the question was first considered , denotes the SUlJ , denotes either Jupiter , or another planet such as Mercury , while is of negligible mass .
+When is Jupiter we have and is early unity .
+When is mercury and , nearly .
+In either case we may regard as small , and the four possible values are approximately DIFFERENTIAL EQUATIONS OF ASTRONOMICAL of which the first two correspond to a period nearly the but htly greater thau that of , and the last two correspond to a period that of F. is Jupiter , this last is : times the period of Jupitel , or nearly 150 .
+; is Mercury , this period is approximately 200 years .
+As ?
+is mately To neglect would be to neglect the ratio ; but we may remark in that if we put , the equations give , a constant , t , ogether with of which the integration can be completed in finite terms .
+For it may } ) that the equation possesses the two in , where S8 .
+We consider briefly , first of all , what vould be the application of method of infinite minants to the equations ( I. which we may now for , in the forms We should substitute and equate to zero the coefficients of the various powers of The substitution gives , if and , denoting by , we obtain for the unknown coefficients the equation If we now write which are equivalent with the equations may be replaced by ( A ) wherein that it being remembered that When we eliminate , , from the equations ( A ) , we obtam an infinite determinant , which , leaving aside questions of convergence , we may denote by The product of the diagonal determinants is here where are the four roots of , previously considered .
+In using this determinant to obtain a further approximation to it would seem DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+appropriate to use a theorem*for the expression of a determinant of rows and columns as a Pfaffian , a sum 1 .
+@ .
+terms , of which each term is a product of factors , each factor being of the form ( 12 ) where the elements are the constituents of two rows of the determinant .
+For in this case the factors ( 12 ) are easily calculated .
+But we do not pursue this method .
+S9 .
+Instead we proceed as follows .
+In the equations where , write in which , are certain functions of to be .
+Then the equations become which by the general theory are capable of periodic solution when is properly chosen .
+Put then , where is a constant ; the differential equations then take the forms denoting .
+Comparing the coefficients of like powers of and , in general , so that , , Proved in Scon-MATHEWS ' 'Determinants ' ( 1904 ) , Chap. VIII , p. 99 , .
+Also in ' Multiply-periodic Functions , ' p. 314 .
+and , in general , where are the coefficients of respectively in In particular so that and , as previously , while , if we write which are both pure imaginaries , we have PQ Next ; putting these respectively equal to , Pq , we obtain two differential equations for ) and .
+If we assume and notice that we find , writing for .
+If these give with similar equations for Proceeding similarly to equate terms in , we find , .
+DIFFERENTIAL EQUATIONS OF ASTRONOMICAL REST .
+If herein we assume and equate terms in , we obtain , , , , and , , wherein the coefficients of H-K and have for determinant , which is and is not zero .
+That should not be determinable separately is obvious a priori ; to as zero would be equivalent to dividing by a power series in with constant coefficients .
+We notice that the successive coefficients , , are all real .
+The value found for is A similar procedure can be continued .
+The differential equations for can be solved by forms the differential equations for by forms and the terms in will involve the unknown quantities , , from which is found .
+And it seryes as of the computation to see involves only in the combination , as it must in order to be determined without ambiguity .
+VOL. CCXVI .
+PROF .
+H. F. BAKER ON CERTAIN LINEAR The value found for is of the form or , say , where every one of , is a power series in with real coefficients , not generally with .
+And similarly for .
+The interesting case of the preceding solution is that corresponding to the value of given by .
+The quantity is then equal to tely , is of the order .
+When , this is of the order or ; when , it is of the order or .
+Thus a very few terms of the preceding solutions would seem to be sufficient for practical cases .
+PART Ir .
+S11 .
+A large part of the interest of POINCARE'S 'Methode 's Nouvelles de la Mecanique Celeste ' depends on his criticism of the convergence of the series used by astronomers , particularly those series in which the time enters only under trigonometrical signs .
+In .
+II .
+, p. 277 , he refers to a linear differential equation in which , for our purposes , may be supposed to have a form in which small .
+When are commensurable the equation has periodic coefficients , POINCARE makes the convergence of the series expressing the solution depend on this circumstance Meth .
+Nouv .
+Considering the case in and are incommensurable , and so not periodic , and supposing to have a small factor , he obtains formal solutions of the differential equation in sines and cosines , and says ' les series . . .
+, qu'on peut ordonmer suivant les puissances de , no sont plus convergentes\ldquo ; Meth Nouv .
+On DTFFERENTIAL LQUATIONS OF the contrary , I believe that the solution of the differential equation above , as a power series in and , converges for all finite values of these rameters , and that this is a consequence of a general theory of linear differential equations considered in papers* published by me in 1902 .
+As this is capable of application to many other differential equations , as will be illustrated ] ) by application to the equation considered by G. W. for the motion of ) 's perigee , I wish to deal with it here , repeating the argument in part .
+S12 .
+Consider any system of linear differential equations , the , being functions of .
+If these are considered only for real values of , the properties which we require to assume are that , along a certain shall suppose to include , these functions are single-valued , nited , capable of integration , the same being true of certain other functions derived from these by multiplications , further , that infinite series , which we prove to be absolutely and ' uniformly convergent , are capable of differentiation , ternl by term .
+But in the majority of practical cases the coefficients may be looked upon as the values , when is real , of functions of a complex variable .
+In we suppose a star region to be defined by lines passing to from tain pints in ths finite part of the plane , which we call the singular points ; suppose not to be a singular point , and the lines may be straight contin ions of the } joining the origin to these singular .
+Within this star region , bounded by lines in question , the functions are supposed to be -valued development by power series about eyery point , forming enic analytic fn1nctions in the usual sense .
+Taking then any region within this , we obtain solutions of the differential equations , with arbitrary values for , in ) of infinite series of functions , obtained by quadratures , which are proved to nverge absolutely and uniformly within the region taken .
+The method of forming these solutions is extremely simple , only integrations and multiplications , but the way iu which the work is arranged , often of great utility , does not seem yet to find common acceptance , and some must be given to it .
+' Proc. Lond. Math. Soc XXXIV .
+, 1902 , XXXV .
+, 1902 , p. 339 .
+Sec the same ' 2nd Series , II .
+, p. 293 , where it is explained that the same had cady been and others .
+To me the method was independently suggosted by the theory of ' Proc. Lond. Math. Soc XXXIV .
+, 190 coltclusions to the of astronomical series have been criticised G. W. HILL , ' Coll. }'Iy .
+, p. 94 ; ) the issue is different from that here .
+In connexion with { 1t mple c ) , see BRUNS , 'Astr .
+Nachr No. 2606 ( CIX .
+, 1884 ) , pp. 217 , 218 .
+Also des Fonctions ' , p. 27 ; , QuarG .
+Journ XXXVI .
+, p. 93:Proc .
+p. 441 , and the references there given .
+PROF .
+H. F. BAKER ON CERTAIN LINEAR The quantities can be arranged to form a square of rows and columns , the first suffix denoting the row , and the second suffix denoting the column in which a particular element is placed .
+This square is denoted by a single symbol , say , and called a matrix .
+The symbol , formed from the two symbols written in a definite order , denotes then another matrix whose element has the value which is formed from the elements of the row of the matrix and those of the of the matrix .
+This new matrix is called the product of and taken in this order ; it is generally different from .
+The symbol 1 , when used for a matrix of an assigned number of rows and columns , denotes the matrix of which every element is zero except those in the diagonal , all of which have the same value , unity ; it is easy to see that any matrix is unaltered by multiplication with the matrix unity of the same number of rows and columns .
+The symbol denotes the matrix such that the product is the matrix unity ; in that case is equal to ; the symbol is nugatory when the determinant formed with the elements of is zero , and only then .
+In , the determinant formed with the elements of will be oted by .
+By the sum , , of two matrices , of the same nunIber of rows and columns , is meant the matrix whose element is and , similarly , for the difference .
+Frequently we denote the aggregate of a row of quantities , , , by the single letter ; then if be a matrix of rows and columns , the symbol denotes a set of quantities of which the is By the differential coefficient of a matrix we mean the single matrix whose elements are the differential coefficients of the given one .
+In what follows , if the element of a matrix be a function of , we denote by the matrix of which the element is the integral of taken in regard to from to .
+If , for an instant this matrix be denoted by , the product matrix will be denoted by , and the matrix ( uv ) , or , will be denoted by QuQu .
+Similarly , QuQu ) will be denoted by QuQuQu , and so on .
+Now consider a matrix of which the element is the infinite series formed by the sum of the elements taken from the matrix unity ( of the same number of rows and columns as ) , the matrix , the matrix QuQu , the matrix QuQuQu , and so on .
+This will be denoted by QuQu QuQuQu and the series on the right will be said to be uniformly and absolutely convergent when this property is proved to hold for each of the infinite series which constitute its elements .
+DIFFERENTIAL EQUATIONS OF ASTRONOMICAL REST .
+Repeating now the demonstration given , 'Proc .
+Lond. Math. Soc April 10 , p. 354 , let ?
+denote the elelnent of the lnatrix is .
+, ; similarly , let denote the element of the matrix , namely , and so on .
+For the region chosen within the star region above explained , when the functions are functions of a complex variable , or for range of values of adopted when the elements are functions of a real variable , there will exist a real positive quantity not exceeded by the absolute value of for the values of involved .
+Taking a path of integration limited to such values , from the origin to , this being a rectifiable curve of length , let be an intermediate point of this path , the length of the path from the origin to being .
+Then we have , considering absolute values , and in particular Similarly , ; now if denote the matrix whose element is , the element of the matrix , formed by the product of with itself , will be which we may denote by ; thence and in particular We can continue this process .
+The next step will be Thus that each of the infinite series constituting the elements of the matrix QuQu has terms whose moduli are respectively equal to , or less than , the real positive terms of the corresponding infinite series constituting the elements of the matrix This last is , however , certainly convergent for all finite values of , whatever be the ( finite ) values of the ements of the matrix M. For the case when ths algebraic equation satisfied by has unequal roots , its sum is given by the formula of 'Proc .
+Lond. Math. Soc XXXIV .
+, February 14 , 1901 , p. 114 , which can be easily modified to meet the case of unequal roots .
+Thus each of the elements of the matrix is an absolutely and uniformly convergent series ; in the case when the elements are functions of the complex variable , as explained above , it follows that every element of the matrix is a function of the complex variable , and differentiation ( and integration ) of the series representing this element is permissible , term by term .
+For the case of real functions we introduce this as a condition .
+Hence , if denote a row of arbitrary values , , , the row of quantities denoted by is at once seen to form a set of integrals of the differential equations , reducing for to the arbitrary values , that is , reducing to .
+For if denote any matrix , of rows and columns , whose elements are differentiable functions of , if denote a row of constants , and the set of functions given by that is , we have , if denote the matrix whose elements are the differential coefficients of the elements of , we can denote by Hence the equation DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+1 5 9 gives QuQu or so that the functions satisfy the differential equations .
+By the definition , reduces to zero for ; hence reduces to its first term , the matrix unity , when ; that is , reduces to when In what follows we shall require a particular property of the matrix , given in ' Proc. Lond. Math. Soc XXXV .
+, December 11 , 1902 , p. 339 .
+If be any two matrices of rows and columns , of similar character to the considered above , the property is expressed by where is the matrix inverse to , inerl above , such that The theorem is nugatory when the determinant of is zero .
+It is only equivalent to saying that if in the system of linear differential equations that is , we introduce a set of 1lew dependent variables , denoted by , by of the equations , or then This follows at once from PROF .
+H. F. BAKER ON CERTAIN LINEAR which gives In what follows we shall generally write in place of Another property to be is that the determinant of the matrix is equal to the exponential of the sum of the integrals from to of the diagonal elements of the matrix .
+For , if denote the general element of , the equation , already remarked , is the aggregate of the equations her , the differential coefficient of a determinant of rows and columns can be written as a sum of , each of which is obtained from the original determinant by replacing the elements of one row respectively by their differential coefficients .
+Hence we at once see that , if denote the determinant of , which establishes the result in question .
+In particular , if the sum of the diagonal elements of be zero , the determinant of is independent of , and is thus equal to unity .
+This result is of frequent application .
+S13 .
+After these introductory remarks we may at once show that the equation to which reference has been made , is capable of solution as an absolutely and uniformly converging series in , whatever and may be .
+It will be as simple : and of utility for other applications we wish to make , to take the equation in which we may suppose to be an integer .
+*Cf .
+DARBOUX , ' Count .
+Rend 1880 ) , p. 526 .
+DIFFERENTIAL EQUATIONS OF ASTRONOIslICAL INTEREST .
+this last equation , put , leading to ; then we have , .
+Writing these are , or , say , ' where , as is usual , the single quantity - , written before the matrix , is to be multiplied into every element of the matrix .
+In particular , when , where denote the matrices ' Thus the solution is expressed by , where is of the form QpQp QpQq QqQp)QqQq and we have proved that this series is uniformly and absolutely convergent .
+If we assume such a form of solution it is easy by successive steps to obtain the values of the coefficients independently of the method we adopted .
+is of present importance is that we have the series to be convergent , ct appears to be denied by PoINCARh VOL. CCXVI .
+PROF .
+II .
+F. BAKER ON CERTAIN LINEAR S14 .
+aside this point , we pass on now to the application of the general method here explained to the computation of the integrals of particular differential ations with periodic coefficients , as , for instance , the equation for the motion of the lunar perigee , considered by G. W. HILL .
+It is known from the general theory that the solutions of the equations , in which , , are single-valued functions with a common period , say , can be written , in the most general case , in the forms wherein , , are arbitrary constants , , , are definite constants , and the functions are definite functions all with the period .
+In many applications it is the constants , , which it is of most importance to find ; when these are all pure imaginaries , the motion*represented by the differential equations presents , beyond the fundamental period , secondary oscillations of periods , and the motion is conventionally said to be stable .
+We show first how this form of solution naturally arises from the point of view we have adopted .
+Write in place of , and for simplicity write only two rows and columns of the matrix , though the argument is quite general .
+Make the limitation , which , as is well known , does not cover all cases , that there exists a matrix of constants , of rows and columns , whose inverse is denoted by , such that the complete matrix can be written in the form with only diagonal elements , here denoted by , in the reduced matrix .
+This will be so , in the technical phraseology , if the matrix has linear invariant factors .
+Then , from the definition of , .
+, while , as has period .
+physical examples are given by Lord RAYLEIGJI , 'Collected Works , ' III .
+, p. 1 .
+A proof of the general theorem for the reduction of a matrix , valid when this is of vanishing determinant , is given , ' Proc. .
+Phil. Soc XII .
+( 1903 ) , p. 65 .
+The litsratnre of this matter , which begins with SYLVESTER , 'Coll .
+Papers , ' I. , pp. 119 , 139 , 219 , and WEIERSTRASS , ' Ges .
+Werke , ' , p. 233 , is very wide .
+The reader may consult MUTH , ' Elementartheiler , ' Leipzig , 1899 .
+NTIAL EQUATIONS OF ASTRONOMICAL Hence .
+' and so .
+This shows that the matrix on the right has .
+Put then ' which has period , and is such that .
+The matrix can therefore be written in the form ' which is the theorem in question .
+We now compare this with the form of tion of the original differential equations by the method of successive approximation followed by LAPLACE , and others .
+We have thus where is written for , and is written for If then , as in LAPLACE , 'Mec .
+Cel .
+, ' .
+II .
+, Ch. V. , .
+I. , of ditio of L878 .
+p. 266 , we obtain the solutions of the equations in the where are certain periodic matrices , and is a row of constants , we can obtain the constants , which th most applications , by taking as ) in our nof , ation to , PROF .
+H. F. BAKER ON CERTAIN LINEAR , so obtaining , say , equal in our notation to , and then th determinantal equation whose roots .
+This process will be found to be equivalent to the eneral procedure explained by LAPLACE , in the passage above referred to , for .
+the time under signs .
+We have considered only the case of linear differential equations with periodic coefficients , and have supposed to linear invariant factors ; LAPLACE'S method , if less definite , is of much wider application .
+An interesting exposition of the method in general is given by M. O. CALLANDREAU , 'Ann .
+de Observe .
+de Paris , ' XXII .
+, 1896 , pp. 16 , 20 .
+We may notice that gives ' so that we also have and the quantities are the roots of the equation S15 .
+When the sum of the diagonal elements of the matrix is zero , the determinant of is ullity , as above remarked .
+In this case , when , the two quantities are inverses and .
+In this case the equation gives at once the value of .
+This appears , however , a less advantageous way of determining than that explained above , as requiring greater approximation in the tion of , as will be seen in examples .
+The fact that are equal and of opposite is a particular case of a well-known theorem for the variational equations arising in the general dynamical case , which is proved by POINCARE ( ' Meth .
+Nouv I. , 193 ) .
+The following proof , though longer , appears more fundamental in character .
+The general dynamical equations being DIFFERENTIAL EQUATIONS OF ASTRONO .
+IICAL where it will be sufficient to suppose ?
+to have the values 1 , 2 ; let , be .
+a solution of these equations .
+Substitute in the tial equations .
+and retain only first powers of the quantities and are supposed to be small .
+We thence obtain a system of linear differential equations of the , where is the skew-symmetrical matrix of constants given by ( so that ) , and A is a symmetrical matrix whose elements functions of We then have the theorems following:\mdash ; The roots of the determinantal equation for fall into pairs of equal roots of opposite sign ; ( b ) The determinantal equation for is a reciprocal equation , unaltered by changing into To express the proof we require alnotation for the matrix obtained from a given matrix by interchanging its rows with its columns , thus placing element in the instead of the place .
+This transposed matrix may be denoted by trs or by .
+It is easy also to trs Then is immediate from the obvious relations among determinants expressed by since .
+For ( b ) , since , trs we have following t of matrices trs trs trs and hence , writing for , the following equations among determinants which establishes the result in question .
+S16 .
+In many dynamical applications the matrix A is a sum of two matrices where is a symmetrical matrix of real constants , and a symmetrical matrix whose elements are small .
+Suppose , further , that , denoting a row of real variables , , the matrix is such that the quadratic form does not vanish unless every one of the elements of is zero , which requires that the determinant is not zero .
+Then , if this quadratic form be denoted by and if each of and be a row of real quantities , the form , has the same property .
+When this is so , it can be shown that the roots of the determinantal equation in are pure imaginaries , and that the invariant factors of the matrix are linear .
+As the proof is not long it may be giv , e here ( cf. 'Proc .
+Lond. Math. Soc XXXV .
+, December 11 , 1902 , p. 380 ) .
+Let satisfy the determinantal equation ; as the determinant is zero , cannot be zero .
+Then quantities , , whose aggregate is denoted by , can be taken to satisfy the linear equations If denote , row formed by the quantities which are the conjugate complexes of those of , we have in turn DIFFFRENTIAL UATIONS and , therefore , being the complex of Hence showing that , which proves that is pure imaginary .
+Writing for , the equations above are the as ; we prove that the invariant ctors are linear by showing*that it is not ) ossible to find a row of quantities , , such that For this would involve of which the right side is real , so that , being a pure imaginary , either of these would be equal to ; of which the last is zero in virtue of As is not zero , the assumed equation for is impossible , and the factors are linear .
+From this fact it follows that it is possible to find a lnatrix such that where are real .
+Then the tial equations , which are of the form , if transformed by the linear substitution * See , for example , 'Proc .
+Camb .
+Phil. Soc XII .
+( 1903 ) , p. 66 .
+take the forms , where denotes the matrix above written , with only diagonal elements , \amp ; c. , and is the matrix The solutions of these equations are then expressed by , where , , are the initial values .
+Now , by a previously given formula , where has the simple form the solution is thereby expressed in powers of the small quantities occurring in S. The preceding work has wide applications ; a particular case is that of oscillations of a dynamical system about a state of steady motion , for which 3 , and , is zero .
+[ October 30 , prevent misunderstanding , two remarks may be added to S16 .
+The condition that the quadratic form should be positive , though sufficient , is not necessary in order that the roots of the determinantal equation should be pure imaginaries .
+For instance , if be real positive constants , and be a quadratic form the motion about expressed by the equations is instantaneously stable if ab , the corresponding quartic equation having all its roots purely imaginary .
+This essentially is the case noticed by THOMSON and TAIT , ' Natural Philosophy : ' I. , pp. 395 , 398 , where the illustration is that of a gyrostat balanced on gimbals .
+A simple illustration is also that of the DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+oscillations about steady motion of a weight suspended by a string of which the other end is made to describe uniformly a horizontal circle , in the case in which the string intersects the vertical drawn from the centre of the circle described by its upper end .
+This otion is 1lot , however , secularly stable when there is Dissipativity ( THOMSON and TAIT , as above , p. 388 ) ; and , of course , not instantaneously stable , the roots of the corresponding quartic equation real parts of which some are positive .
+A second remark relates to the generality of the form of the differential equations used in the text .
+Equations such as where , is a function of , , capable of expression in terms of functions , , in the form are included in this form , with a slight modification due to the presence of the Dissipativity and the supposed non-conservative forces .
+For it is only necessary to take and to eliminate .
+, , , in the familiar way , from equations Then the final equations are Particular illustrations are : ( 1 ) the equations of THOMSON and TAIT ( as above ) , p. 392 , for which the coefficients are constants .
+Then we may take ) where the constant coefficients are in part arbitrary ; ( 2 ) the equations of Lord KELVIN for liquid motions of .-shaped solids , ' Collected Papers , ' IV .
+( 1910 ) , p. 106 ; ( 3 ) the equations of motion of a system relatively to a rotating frallle ( LAMB , ' Hydro- dynamics , ' third edition ( 1906 ) , p. 294 .
+Cf .
+THOMSON and , as above , S319 , p. 307 , and p. 319 ) , for which we may take , if be the co-ordinates of point of the system relatively to the rotating frame , .
+VOL. CCXVI.\mdash ; A. 2 The equation of energy in general is at once seen to be so that if be explicitly dependent of the time , the forces be absent , and be a eneous quadratic function of , , S17 .
+The simplicity of the formulation depends on the fact that the invariant factors of are linear .
+We have obtained this by assuming that the form only vanishes when every element of is zero .
+But the invariant factors may be linear when this is not so , and the roots of the determinantal equation are not pure imaginaries .
+For instance , take HILL'S equations for the motion of the moon , under certain limitations , Writing these are the same as The so-called moon of no quadratures is obtained by variation from the solution expressed by where is given by ; this is a position of relative equilibrium .
+' matrix of 1lotation used above is zero ; the matrix is In this case the quadratic form is DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+and vanishes when .
+But the roots of the determinantal equation are all different , and therefore the invariant factors are linear .
+The roots are of which only two are pure imaginaries ; thus not every disturbed orbit is periodic .
+S18 .
+We pass on now to give the details of the application of the general above explained to the computation of some particular cases .
+A very simple case may be first given , merely as an example of the notation and method , since the results , once obtained , are easily verified .
+Take the equations , These may be written , or , say , , where ' We have at once ' and therefore ' This gives Wherefore .
+Denoting this by , we find , and hence ' Thus the solution is .
+' namely , The period of the coefficients in the original equation is .
+The functions have only the period .
+To bring the result into the form given by the general theory we may write , , the so-called characteristic exponents being .
+DIFFERENTIAL EQUATIONS OF IICAL INTEREST .
+S19 .
+We now consider cases of the equations these are derivable from the equation by taking leading to .
+As we wish particularly to illustrate the method of obtaining the characteristic exponents from the present point of view , we take first a case in which explicit terms in arise early in the method of successive approximation .
+We take namely and suppose where is small , and is used to denote Denoting by , our differential equations are , where The coefficients in these equations have period ; by what we previously shown ( SS14 , 15 ) , the solution is of the form where is a matrix whose elements have the period is a llatlix of constants , and is the constant which we particularly desire to find .
+AL , this corresponds to characteristic factors ' for the original equatio11 in , whose coefficients have period .
+The quantity is to be found by determlning the terlns in in the solution of the ( X , Y ) equations , and forming from this , after putting a determinantal equation ( S14 ) .
+We are to calculate in turn \amp ; c. , and arrange the result according to powers of .
+First we have ' where ; thus , as is unaltered by changing the sig of can be obtained from by changing the sign o , and similarly from we denote by writing Then ' ' and hence QuQu ' where so is obtained from by changing the sig of throughout , and similarly from .
+In general , in passing from a term of in to involving integrations , we shall have a law expressible by and the new term , like that from which it is derived , will be of the form ' DIFFERENTIAL EQUATIONS OF ASTRONOMICAL INTEREST .
+where is derived from by change of the sign of , and similarly from Thus , when in we pick out the coefficient of , as it occurs explicitly , independently of its occurrence in , and in this coefficient put , we shall obtain a series of the form where the first of these comes from and involves terms in and higher powers , the second comes from and involves terms in and igher f , and so on .
+And the equation for will be of the form ' ' namely , Further , if the part of which is independent of explicit powers of , consisting of elements which are polynomials in and periodic with period , be denoted by , and similarly the periodic part of be denoted by \amp ; c. , then the periodic matrix above spoken of will be Proceeding to the computation , first only to terms in .
+Then , .
+Hence and is given by .
+In the case when the differential equation is that considered by HILL , this at once a very near approximation , as he remarks , being equivalent to his formula ( HILL'S ' Collect .
+Works , ' I. , p. 260 ) .
+If next we retain as far as , we have from , , Hence .
+Thus This gives { fi.2 Similarly , Forming now we ERENTIAL QUATIONS OF ASTRONOMICAL To find up to it is sufficient to take ( 1 ) ; so we obtain and hence Similarly , Picking out now the terms in , putting therein , and using the llotatio previously explained , we have , up to , .
+VOL. CCXVI.\mdash ; A. , 2 This gives as far as terms in .
+This result is for the equation wherein and and agrees with the result previously found ( S6 ) when in this last we replace respectively by , as is necessary , taking account of the difference of notation for in the two cases .
+By an independent investigation for the case when we have found ( above , p. 142 ) , which , replacing by , arises from the preceding result .
+S21 .
+Now consider the equations , where and is not 1 or 2 , but is an eager if is a periodic matrix .
+With we have , retainin only to , , DIFFERENTIAL EQUATIONS OF ASTRONOMICAL TEREST .
+which lead to so that Similarly , Thus we have , far as terms in matrix whose elements are power series in , and ) is calculated in regard to from a matrix ' ' while is a matrix of constants .
+Here , , , depend solely on the invariant factors of the matrix A. This result is obtained from the form of the matrix as expressible by powers of without reference to the question of periodicity .
+It would seem that the argument there employed is capable of modification , the integrations bein performed in regard to ( which is of the paper referred to ) , so as to lead to the general theorem here contemplated .
+

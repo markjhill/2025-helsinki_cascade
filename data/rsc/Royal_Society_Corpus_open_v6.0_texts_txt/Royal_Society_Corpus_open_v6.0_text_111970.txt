@@ -1,0 +1,104 @@
+IV .
+" On the Intensity of the Light reflected from or transmitted through a Pile of Plates .
+" By GEORGE G. STOKES , M.A. , Sec. R.S. , Lucasian Professor of Mathematics in the University of Cambridge .
+Received January 1 , 1862 .
+The frequent enmployment of a pile of plates in experiments relating to polarization suggests , as a mathematical problem of some interest , the determination of the mode in which the intensity of the reflected light , and the intensity and degree of polarization of the transmitted light , are related to the number of the plates , and , in case they be not perfectly transparent , to their defect of transparency .
+The plates are supposed to be bounded by parallel surfaces , and to be placed parallel to one another .
+They will also be supposed to be formed of the same material , and to be of equal thickness , except in the case of perfect transparency , in which case the thickness does not come into account .
+The plates themselves and the interposed plates of air will be supposed , as is usually the case , to be sufficiently thick to prevent the occurrence of the colours of thin plates , so that we shall have to deal with intensities only .
+On account of the different proportions in which light is reflected at a single surface according as the light is polarized in or perpendicularly to the plane of incidence , we must tack account separately of light polarized in these two ways .
+Also , since the rate at which light is absorbed varies with its refrangibility , we must take account separately of the different constituents of white light .
+If , however , the plates be perfectly transparent , we may treat white light as a whole , neglecting as insignificant the chromatic variations of reflecting power .
+Let p be the fraction of the incident light reflected at the first surface of a plate .
+Then Ip may be taken as the intensity of ' the transmitted light* .
+Also , siniee we know that light is reflected in the same proportion externally and internally at the two surfaces of a plate bounded by parallel surfaces , the same expressions p and 1 -p will serve to denote the fractions reflected and transmitted at the second surface .
+We may calculate p in accordance with Fresnel 's formulae from the expressions O1 sin ifcS =g si e1 =s-in ' ( i -i ' ) o=tan ' ( i -it ) ( 2 ) sin ( i+i ) io , tan2 ( +zi ) t ) according as the light is polarized in or perpendicularly to the plane of incidence .
+In the case of perfect transparency , we may in imagination make abstraction of the substance of the plates , and state the problem as follows:-There are 2m parallel surfaces ( m being the number of plates ) on which light is incident , and at each of which a given fraction p of the light incident upon it is reflected , the remainder being transmitted ; it is required to determine the intensity of the light reflected from or transmitted through the system , taking account of the reflexions , infinite in number , which can occur in all possible ways .
+This problem , the solution of which is of a simpler form than that of the general case of imperfect transparency , might be solved by a particular method .
+As , however , the solution is comprised in that of the problem which arises when the light is supposed to be partially absorbed , I shall at once pass on to the latter .
+In consequence of absorptioni , let the intensity of light traversing a plate be reduced in the proportion of 1 to 1 -qdLx in passing over the elementary distance dx within the plate .
+Let T be the thickness of a plate , and therefore T sec i ' the length of the path of the light within it .
+Then , putting for shortness e-qTsecic= , h the e edneed ( 3 ) I to g will be the proportion in which the intensity is reduced by absorption in a single transit .
+The light reflected by a plate will be made up of that which is reflected at the first surface , and that which suffers 1 , 3 , 5 , &amp;c. internal reflexions .
+If the intensity of the incident light be taken as unity , the intensities of these various portions will be p , ( _p)2pg ( i -p)2 p3 g4 , &amp;c. and if r be the intensity of the reflected light , we have , by summing a geometric series , r=p( -p ) , Pg.(4 ) Similarly , if t be the intensity of the transmitted light , t_(1 -p).(5 and we easily find r=p+gpt ; r+t= l_(I-p)(l-g9 ) 1-pg which is in general less than 1 , but becomes equal to 1 in the limiting case of perfect transparency , in which case g-1 .
+The values of p , i , and q in any case being supposed known , the formulae ( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) , ( 5 ) determine r and t , which may now therefore be supposed known .
+The problem therefore is reduced to the following:-There are m parallel plates of which each reflects and transmits given fractions r , t of the light incident upon it : light of intensity unity being incident on the system , it is required to find the intensities of the reflected and refracted light .
+Let these be denoted by +(m ) , { ( m ) .
+Consider a system of m+n plates , and imagine these grouped into two systems , of m and i plates respectively .
+The incident light being represented by unity , the light +(m ) will be reflected from the first group , and +(m ) will be transmitted .
+Of the latter the fraction +(n ) will be transmitted by the second group , and p(n ) reflected .
+Of the latter the fraction 4(m ) will be transmitted by the first group , and +(m ) reflected , and so on .
+Hence we get for the light reflected by the whole system , 0(m ) + ( 4m)20(n ) + ( 4im)20p()(m)n)2 + and for the light transmitted , +(m)+(n ) + 4(m)p ( n)4(m)4(n ) ? ?
+4 ( m)(q6n)2(+m)24(n ) + ^.* which gives , by summing the two geometric series , +(m +n)-c(rn)+ ( 4 , m)2(n ) ( 6 ) m+ )i4-(m)9(n ) ( 7 ) We get from ( 6 ) 0(n+n){1-O(m)p(n)}=O(m ) +O(n){(tPm)2-(pm)21 ; and the first member of this equation being symmetrical with respect to m and n , we get , by interchanging m and n and equating the results , +(m ) + +(n ) { ( 4m)2_(qm)2 } =0(n ) + +(m ) { ( 4fn)2_ ( On)21 or 1+ ( M)2_ 1+ ( u)2-=(n)2 , I which is therefore constant .
+Denoting this constant for convenience by 2 cos a , we have ( 4m)2 1-2 cos M. +(m ) + ( Om)2.(8 ) Squaring ( 7 ) , and eliminating the function 4 by means of ( 8 ) , we find _l1-j(m)O(n)t 2 { 1-2 cos a. *(m+n)J [ O(m +)]2t = { 1-2cosa X.(m ) + ( Om)2t { 1-2 cos..(n)+(q ?
+n)2t .
+( 9 ) From the nature of the problem , m and n are positive integers , and it is only in that case that the functions 0 , 4 , as hitherto defined , have any meaning .
+We may , however , contemplate functions q , 4 of a continuously changing variable , which are defined by the equations ( 6 ) and ( 7 ) ; and it is evident that if we can find such functions , they will in the particular case of a positive integral value of the variable be the functions which we are seeking .
+In order that equations ( 6 ) , ( 7 ) may hold good for a value zero of one of the variables , suppose n , we must have q(0)=O , 4 ( 0)= 1 .
+The former of these equations reduces ( 9 ) for n=O to an identical equation .
+Differentiating ( 9 ) with respect to n , and after differentiation putting n= 0 , we find 0p(0)0(m ) { 1-2 cos a. O(m ) + ( On)2 } +cos a. '(rn ) -q(m)M/ ( #(r ) =cosa a. t(0 ) 1 -2 cos X , ( b(m)+ ?
+))2t , or dividing out by +(m ) cos a , ( for +(m)=cos a would only lead to #P(m)=cosM=0 , +(m)=C , ) +'(m ) = -1(0 ) { 1-2 cos a +(m ) + ( , / , m)2t ... .
+( 10 ) Integrating this equation , determining the arbitrary constant by the condition that +(m ) =0 when m= 0 , and writing / 3 for sin a. o'(0 ) , we have p ( m)-sin ( * e ( ( 1 ) Substituting in ( 8 ) and reducing , we find ( +M)2 = sin2 a ( 12 ) sin ' ( q.+ m3).(12 But ( 8 ) was derived , not from ( 7 ) directly , but from ( 7 ) squared ; and on extracting the square root of both sides of ( 12 ) , we must choose that sign which shall satisfy ( 7 ) , and therefore we must take the sign + , as we see at once on putting m=n=O .
+The equation ( 12 ) on taking the proper root and ( 11 ) may be put under the form ~~(m ) 4i(m ) I. ~(13 ) sin ( 2n , / 3)si a)siii ( a+ rn/ 3 ) and to determine the arbitrary constants a , 3 we have , putting m= 1 , and +(m)= r , + ( m)=t , r _(t41 sin/ 3 sina sin ( +a* the sides represent in magnitude the intensity of the incident , reflected , and refracted light in the case of a single plate , and then , leaving the first side and the angle opposite to the third unchanged , multiply the angle opposite to the second by the number of plates ; the sides of the new triangle will represent the corresponding intensities in the case of the system of plates .
+I say quasi-geometrical , because the construction cannot actually be effected , inasmuch as the first side of our triangle is greater than the sum of the two others , and the aingles are imaginary .
+To adapt the formulam ( 13 ) , ( 14 ) to numerical calculation , it will be convenient to get rid of the imaginary quantities .
+Putting Vs { ( 1 +r+t)(l +r-t)(1 +t-r)(l -r--t ) } =A , A 15 ) we have by the common formulae of trigonometry , cos= ; sn== ; 2r Sia -2r whelnce , putting 2r(1+r-t.A)a,. .
+* * pler form .
+If r+ t differ indefinitely little from 1 , a and / 3 will be indefinitely small .
+Making a and / 3 indefinitely small in ( 13 ) and ( 14 ) , and putting 1 -r for t , we find q ?
+( m)= +(m)= 1 ... ( 19 In this case it is evident that each of the 2m reflecting surfaces might be regarded as a separate plate reflecting light in the proportion of p to 1 , and therefore we ought also to have , writing 2m for m and p for r in the deniominators of the equations ( 19 ) , o(m ) 4(m ) 1 *.(20 ) 2mp -p 1+(2m-l)p It is easy to verify that when g= 1 ( 4 ) reduces ( 19 ) to ( 20 ) .
+The following Table gives the intensity of the light reflected from or transmitted through a pile of m plates for the values 1 , 2 , 4 , 8 , 16 , 32 , and co of m , for three degrees of transpareney , and for certain selected angles of incidence .
+The assumed refractive index jU is 152 .
+B=1-eqT is the loss by absorption in a single transit of a plate at a perpendicular incidence , so that B =0 corresponds to perfect transparency .
+The most interesting angles of incidence to select appeared to be zero and the polarizing angle w =tan-1 , u ; but in the case of perfect transparency the result has also been calculated for an angle of incidence a little ( 2 ?
+) greater than the polarizing angle .
+O denotes the intensity of the reflected and 4 that of the transmitted light , the intensity of the incident light being taken at 1000 .
+For oblique incidences it was necessary to distinguish between light polarized in and light polarized perpendicularly to the plane of in dence ; the suffixes 1 , 2 refer to these two kinds respectively .
+For oblique incidences a column is added giving the ratio of 4 , to i , which may be taken as a measure of the defect of polarization of the transmitted light .
+No such column was required for 0=0 and i=w , because in this case 4 , =1000 .
+tno 0 % t.O 040 0n 00o w : : .
+to00 VI 00 0 11 I4 II to Cs tI 00 oI tH tt I I~~~~~~~~o 60 ItoH Hs to o to OO 0 % , dC '0 00 L 0~ t to~ I 1H~H tHH &gt; s 00 0 HO Q to to 0 to0 C so H0 in %O %O %O lO to 0 to~ 1 0 % %0 00 to *'aueI HI H 74 X0 DH to OH00 to to 1 &gt; .W sto to tH000 QO ' 00 0 0 % ON 0 % 000 tO 0%0 el 0 % 0 % 0+ H~~~~~~v H 00 tO 0H HCIA 00 ( ) H00 00 C *0 H0o to H+ t-n to 0 0 .
+to..1 to t , 00 , , % 0 C%i '.Hn 04e0 to 0W J9 I to *1 HHH to H0U II I Hf oo 00 % tO H0I tt~~~~~~~~ 000 0 el 0 ' o0 VO H0 0if0 't H1 oHt tt 0 0.~~0 tt 00 s0_ ~~ ~ _8 jo HHHC 00 to t The intensity of the light reflected from an infinite number of plates , as we see from ( 18 ) , is a-1 ; and since a is changed into a-1 by changing the sign of a or of A , a-I=1 ( 1 +r2_t_-)A ) ... . .
+( 21 ) 2r which is equal to 1 in the case of perfect transparency .
+Accordingly a substance which is at the same time finely divided , so as to present numerous reflecting surfaces , and which is of such a nature as to be transparent in mass , is brilliantly white by reflected light , -for example snow , and colourless substances thrown down as precipitates in chemical processes .
+The intensity of the light reflected from a pile consisting of an infinite number of similar plates falls off rapidly with the transparency of the material of which the plates are composed , especially at small incidence , Thus at a perpendicular incidence we see from the above Table that the reflected light is reduced to little more than one half when 2 per cent. is absorbed in a single transit , and to less than a quarter when 10 per cent. is absorbed .
+With imperfectly transparent plates , little is gained by multiplying the plates beyond a very limited number , if the object be to obtain light , as bright as may be , polarized by reflexion .
+Thus the Table shows that 4 plates of the less defective kind reflect 79 per cent. , and 4 plates of the more defective as much as 94 per cent. , of the light that could be reflected by a greater number , whereas 4 plates of the perfectly transparent kind reflect only 60 per cent. The Table shows that while the amount of light transmitted at the polarizing angle by a pile of a considerable number of plates is materially reduced by a defect of transparency , its state of polarization is somewhat improved .
+This result might be seen without calculation .
+For while no part of the transmitted light which is polarized perpendicularly to the plane of incidence underwent reflexion , a large part of the transmitted light polarized the other way was reflected an even number of times ; and since the length of path of the light within the absorbing medium is necessarily increased by reflexion , it follows that a defect of transparency must operate more powerfully in reducing the intensity of light polarized in , than of light polarized perpendicularly to the plane of polarization .
+But the Table also shows that a far better result can be obtained , as to the perfection of the polarizationi of the transmitted light , without any greater loss of illumination , by employing a larger number of plates of a more transparent kind .
+Let us now confine our attention to perfectly transparent plates , and consider the manner in which the degree of polarization of the transmitted light varies with the angle of incidence .
+The degree of polarization is expressed by the ratio of 4 , to 4 ' , which for brevity will be denoted by X. When X=1 there is lno polarization ; when X=O the polarization is perfect , in a plane perpendicular to the plane of incidence .
+Now 4 ( which is used to denote 4 , + or 4 , as the case may be ) is given in terms of p by one of the equations ( 20 ) , and p is given in terms of i-it and i+i ' by Fresnel 's formulae ( 2 ) .
+Put then , from ( 1 ) , di di ' dO d -* f ~~~~~=CO *f.Cos ifco idw , suppose , tai i tan i tan i-tan i tan i+ tan c whence dO = sinOd , duin= ; ... .
+( 22 ) and we see that i and w increase together from i=0 to i= 7 .
+We have also sin ' O 2sn 2 sin ' O v1-sin 0 , dp = sn l3(sin C cos OdO-sin H cos ad ) _2s ( cos 0-cos a)di ; sin u sin3 a sin a tan ' 02 taatan ( a sec2 OdO-tan 0 sec2 ?
+da ) sin2 0 COSar Cos r cos3 02 ( coscs-cosO)dwr cos 3d Now cos 0-cos a or 2 sin i sin it is positive ; and cos a is positive from i=0 to i=w , and negative from i= r to i-2 .
+But ( 20 ) shows 2 ' that 4 decreases as p increases .
+From i= 0 to i-= , pJ increases and P2 decreases , and therefore 4 , decreases and 4,3 increases , and therefore on both accounts X decreases .
+When i=V7 , dPis still positive , and di therefore Lld4 negative , but 42 has its maximum value 1 , so that on passing through the polarizing angle X still decreases , or the polarization improves .
+When the plates are very numerous , 4'2= I at the polarizing angle , and on both sides of it decreases rapidly , whereas 41 , which is always small , suffers no particular change about the polarizing angle .
+Hence in this case X must be a minimum a little beyond the polarizing angle .
+Let us then seek the angle of incidence which makes Xa minimnum in the case of an arbitrary number of plates .
+We have from ( 20 ) and ( 2 ) , sin ae-sin2 0 sin2 a COS2 0+ ( 2m-I ) sin2 0 cos2 a Xsin ' a+ ( 2m1 ) sin2O sin2 a cos2 0-sin2 0 cos2 a _si2aeros20+(2rn-l)sin20cos2er 1 I2n .
+( 23 ) sin2 a+ ( 2rn-l)sin2 0 cosec2 0+ ( 2m-1 ) cosec2 are Hence X is a minimum alolng with cosec2 0+ ( 2m1 ) cosec2 a. Differentiating , and taking account of the formulae ( 22 ) , we find , to determine the angle of maximum polarization , the very simple equation Cos 0 sin2 a+(2m-l)cos a sin20=0 ... .
+( 24 ) For any assumed value of i from w to 2 ' this equation gives at once the value of m , that is , the number of plates of which a pile must be composed in order that the assumed incidence may be that of maximum polarization of the transmitted light .
+The equation may be put under the form tanea sinor 1 tan 0 sin * / P ] .
+P2 ' Now we have seen that both P , and p2 continually increase , and therefore m continually decreases , from i=w to i=2 .
+At the first of these limits P2= 0 , and therefore m= m. At the second P2=P2= 1 , and therefore m= 1 .
+Hence with a single plate the polarization of the transmitted light continually improves up to a grazing incidence , but with a pile of plates the polarization attains a maximum at an angle of incidence which approaches indefinitely to the polarizing angle as the number of plates is indefinitely increased .
+Eliminating m from ( 23 ) and ( 24 ) , we find X=-cos 0 cos,.(25 ) which determines for any pile X , the defect of maximum polarization of the transmitted light , in terms of the angle of incidence for whicn the polarization is a maximum .
+We have , from ( 25 ) , ( 22 ) , and ( 24 ) , d%l -(sin2 0 cos a-+ sin2 acos 0 ) dz-2(m1 ) cos a sin2 0 dw , and cos a is negative .
+Hence X , decreases as w ( and therefore i ) decreases , or as m increases .
+For m=1 , i=and X , =i-'2 ; for M= ac , cos a=0 , and therefore X , =0 , or the maximum polarization tends indefinitely to become perfect as the number of plates is indefinitely increased .
+For a given number of plates the angle of maximum polarization may be readily found from ( 24 ) by the method of trial and error .
+But for merely examining the progress of the functions , instead of tabulating i for assumed values of m , it will serve equally well to tabulate rn for assumed values of i. The following Table gives for assumed angles of incidence , decreasing by 5 ?
+from 90 ?
+, the number of plates required to make these angles the angles of maximum polarization of the transmitted light , and the value ofXl , which determines the defect of polarization .
+i= 90 ? ?
+850 80 ? ?
+750 70 ' 65 ? ?
+60 ? ?
+56 ? ?
+40'(=W ) m= 1 1330 1P944 2-913 4-921 9 775 30-372 c Xi , =*433 *422 390 *337 *265
+

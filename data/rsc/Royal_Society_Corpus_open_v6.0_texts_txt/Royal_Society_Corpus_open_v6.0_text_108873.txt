@@ -1,0 +1,373 @@
+On Plane Water-Lines in two Dimensions .
+By WILLIAM JOHN MACQUORN RANKINE , C.E. , LL. D. , F.1R.SS .
+L. &amp; B. , Associate of the Institution of Naval Architects , &amp;c. Received July 28 , -Read November 26 , 1863 .
+SEcTIoN I.-Introduction , and Summary of known Principles .
+( 1 .
+) Plane Water-Lines in two Dimensions defined.-By the term " Plane Water-Line in two Dimensions " is meant a curve which a particle of liquid describes in flowing past a solid body , when such flow takes place in plane layers of uniform thickness .
+Such curves are suitable in practice for the water-lines of a ship , in those cases in which the vertical displacements of the particles of water are small compared with the dimensions of the ship ; for in such cases the assumption that the flow takes place in plane layers of uniform thickness , though not absolutely true , is sufficiently near the truth for practical purposes , so far as the determination of good forms of water-line is concerned .
+As water-line curves have at present no single word to designate them in mathematical language , it is proposed , as a convenient and significant term , to call them Neoids ( from vroc , the Ionic genitive of vav ) .
+( 2 .
+) General Principles of the Flow of a Liquid past a Solid.-The most complete exposition yet published , so far as I know , of the principles of the flow of a liquid past a solid , is contained in Professor STOKES'S paper " On the Steady Motion of an Incompressible Fluid , " published in the Transactions of the Cambridge Philosophical Society for 1842 .
+So far as those principles will be referred to in the present paper , they may be summed up as follows .
+When a liquid mass of indefinite extent flows past a solid body in such a manner that as the distance from the solid body in any direction increases without limit , the motion of the liquid particles approaches continually to uniformity in velocity and direction , the condition of perfect fluidity requires that the three components u , v , w of the velocity of a liquid particle should be the three differential coefficients of one function of the coordinates ( p ) ; viz. U=V=d ; -w= d ... ... .
+( 1 ) and the condition of constant density requires that the said function should fulfil the following condition , d+d0+d ... ... ... ( 2 ) By giving to the function pa series of different constant values , a series of surfaces are represented , to which each water-line curve is an orthogonal trajectory , so that if U= constant be the equation of a series of surfaces each containing a continuous series of water-line curves ( and one of which surfaces must be that of the solid body ) , the function U must satisfy the following condition , dU df dU dP dU d. d dx+ die die + d dz ''****d '(3 ) or if ds ' be an elementary arc of a water-line curve , and x ' , y ' z ' its coordinates , the following conditions must be satisfied , dx ' dy ' dz ' df dp dp .
+: T t. .
+* .
+90 ( 4 ) dst ' ds ' d die d** * the solid as fixed , and the infinitely distant particles of the fluid as moving uniformly with an equal speed in the contrary direction .
+Throughout the present paper , the solid will be supposed to move along the axis of x ; so that v will represent the transverse component of the velocity of a particle of liquid on either supposition .
+The longitudinal component of the velocity of a liquid particle relatively to the solid will be denoted by u ; and when that particle is at an infinite distance from the solid , by c ; so that when the infinitely distant part of the liquid is regarded as fixed , the solid is to be conceived as moving with the velocity -c ; and the longitudinal component of the velocity of a liquid particle relatively to the indefinitely distant part of the liquid will be denoted by Uc .
+It is convenient to regard the function U as equivalent to an expression of the following kind , ( 7 ) U--bc , ... ... ... ... .
+( 7 ) c being the uniform velocity of flow at an infinite distance , and b what the value of y would be for the water-line under consideration if the solid were removed ; in which case that line would become a straight line parallel to the axis of x. This enables us to substitute for equations ( 5 ) and ( 6 ) the following , in which proportionate velocities only are considered:u db v db c die ; c ... ... ( 8 ) d2b d2b y2+dS=o ... ... ... ... .
+( 4 .
+) General Characteristics of Water-Line PFznctions.-Since at an infinite distance from the solid body we have u==c , v=O , it follows that , if the origin of coordinates be taken in or near the solid body , b must be a function of such a kind that , when either x=oo , or y=oo , b=y .
+Hence in a great number of cases that function is of the form b=y+F(x , y ) ; ... ... ... .
+( 10 ) where F is a function which either vanishes or becomes constant when x or y increases indefinitely .
+It is plain that when the function b takes this form , the term F is the function for the motions of the liquid particles relatively to still water ; that is to say , u-c db dF v db dF c die die ic dx .
+d(11 ) and also that the term F fulfils the equation d2F d2F dy~+ o ... . .
+( 12 ) dye X2=O .
+'** * When the solid is symmetrical at either side of the axis of x ( as it is in all the cases that will be considered in this paper ) , the axis of x itself , so far as it lies beyond the outline of the solid , is a water-line .
+Hence it is necessary that the equation of that axis , viz. ( should be one of the solutions of the equation ... ( 13 ) =by+F( , y)=- , and consequently that F should vanish with y. The vanishing of F when y=oo , indicates that every straight line given by the equation y=b either forms part of , or is an asymptote to , a water-line curve .
+The vanishing of F when x=oo , indicates that the further the water-lines are from the generating solid , the more nearly they approximate to parallel straight lines .
+Every water-line curve is itself the outline of a solid capable of moving smoothly through a liquid .
+( 5 .
+) Water-Line Curves generated by a Circle , or Cyclogenous Neoids.-Conceive that a circular cylinder of indefinite height , and of the radius 1 , described about the axis of z , moves through the liquid along the axis of x. Then it is already known that the general equation of the water-line curves is the following , =y(1-12 + y2 * ... .
+( 14 ) giving a series of curves of the third order .
+When b=0 this equation resolves itself into two , viz. y=O ; x 2+y2= 2 ; the first of which represents the axis of x , and the second the circular outline of the cylinder .
+For each other value of b , equation ( 14 ) represents a curve having two branches : one of them is an oval , contained within the circle , and not relevant to the problem in question ; the other , being the real water-line , is convex in the middle and concave towards the ends , and has for an asymptote in both directions the straight line y=6- .
+For brevity 's sake , let x2+yz=r2 .
+Then the component velocities of a particle of water relatively to the solid are given by the equations u db 1.212Y ( y-x ) c= =dyI-+=T r44 idv dhdb 212xy ( 15 ) c dxr4 J and the square of their resultant by the equation + ' v2 ( _ ) -4y,.(16 ) e te c ad rsat vsr while the component and resultant velocities relatively to still water are given by the 372 for all values of aS between two arbitrary limits .
+Let 2a denote the distance between those limits : the most convenient position for the origin of coordinates is midway between them , so as to make the limits x= a , x=a respectively .
+Then the following is the integral sought : gd^=+a ydx ax a+ x |=-_a ( _-x)2 y2 =tan- ' + tan- ' ( 18 ) =-a ( X-X ) YYY This quantity evidently denotes the angle contained between two lines drawn from the point ( x , y ) to the points ( +a , 0 ) and ( --a , 0 ) .
+For brevity 's sake , in the sequel that angle will be occasionally denoted by 0 ; the points ( +a , 0 ) and ( --a , 0 ) will be called the foci ; and their distance a from the centre will be called the excentricity .
+Substituting this integral in the general equation ( 10 ) , we find , for the water-line curves now under consideration , the following equation , which is the general equation of oogenous neoids:b=y--f=y-f ( tan- ' a+ tan-'+ ) ... ( 19 ) y yThe coefficient f denotes an arbitrary length , which will be called the parameter .
+( 8 .
+) Geometrical Meaning of that Equation.-The equation ( 19 ) represents a curve at each point of which the excess ( y-6 ) of the ordinate ( y ) above a certain minimum value ( b ) is proportional to the angle ( 0 ) contained at that point between two straight lines drawn to the two foci .
+Except when b=0 , the curve has an asymptote at the distance b from the axis of x , and parallel to that axis .
+Since the value of b is not altered by reversing the signs of x , and is only changed from positive to negative by reversing the sign of y , it follows that each curve consists of two halves , symmetrical about the axis of y ; and that there are pairs of curves , symmetrical about the axis of x. In Plate VIII .
+fig. 1 , therefore , which represents a series of such curves , one quadrant only of the space round the origin or centre 0 is shown , the other three quadrants being symmetrical .
+A is one of the foci , at the distance OA=a from the centre ; the other focus , not shown in the figure , is at an equal distance from the centre in the opposite direction .
+BL is one quadrant of the primitive oval ; and the wave-like curves outside of it are a series of water-lines generated from it , having for their respective asymptotes the series of straight lines parallel to OX , and whose distances from OX are a series of values of b. The equation ( 19 ) embraces also a set of curves contained within the oval , and all traversing the two foci ; but as these curves are not suited for the forms of ships ' waterlines , no detailed description of them needs be given .
+( 9 .
+) Properties of Primitive Oval Neoids.-When in equation ( 19 ) 6 is made =0 , so that the equation becomes y-fd=o , ... ... ... . .
+( 20 ) there are two solutions ; one of which , viz. y= 0 , represents the axis of x , agreeably to 374 the condition stated in article 4 , equations ( 13 ) .
+The other solution represents the oval LB .
+The greater semiaxis of that oval , OL , will be called the base of the series of waterlines generated by the oval , and denoted by I ; its value is found as follows : db d/ yy a-X a+x d--1 tan- ?
+y tan- ' ++{ dy =1+fdy(tana + tan- ' a+-x =l+ ( a-x)2+y2+-(a+x)2+ye ; but at the point L we have db x-=l ; y== ; dy=0 ; and therefore O=1 +f ; whence l2=a2+2af ... .2 .
+a ... .(21 ) To find the parameter f when the base I and excentricity a are given , we have the formula 1- ? ?
+2_ a2 f= ... ( 22 ) The half-breadth , or minor semiaxis of the oval , OB=y0 , is the root of the following transcendental equation , found by making x=0 in equation ( 19 ) , yo2ftan- ' ... .
+( 23 ) which may be otherwise written as follows:tan- ... ... ... . .
+( 23 A ) 2f !
+Yo When the minor semiaxis y , and excentricity a are given , the parameterf is found by the equation f= Yo a. ( 24 ) a i ... ... ... . .
+( 24 ) 2 tan- ' Yo and thence the base I-can be computed by equation ( 21 ) .
+When the base I and half-breadth y , are given , the excentricity a is found by solving the following transcendental equation:a=0 .
+ayo-(12-a2)tan-l ... ... ... .(24 A ) An oval neoid differs from an ellipse in being fuller towards the ends and flatter at the sides ; and that difference is greater the more elongated the oval is .
+( 10 .
+) Varieties of Oval Neoids , and extreme cases.-The excentricity a may have any value , from nothing to infinity ; and the base I may bear to the half-breadth yo any proportion , from equality to infinity .
+When the excentricity a=0 , the two foci coalesce with the centre 0 ; the base I becomes equal to the half-breadth b ; the oval becomes a circle of the radius 1 ; and the water-lines generated by it become cyclogenous neoids , already described in article 5 .
+As the excentricity increases , the oval becomes more elongated .
+In Plate IX .
+fig. 3 , PL is an oval whose length is to its breadth as / 3 : 1 , its focus being at Ao .
+The oval BL in Plate VIII .
+fig. 1 is more elongated , its length being to its breadth as 17 : 6 nearly .
+When the excentricity is infinite , the centre 0 and the further focus go off to infinity , leaving only one focus .
+The parameter f becomes equal to the focal distance LA .
+The oval is converted into a curve bearing the same sort of analogy to a parabola that an oval neoid bears to an ellipse* ; but instead of spreading to an infinite breadth like a parabola , it has a pair of asymptotes parallel to the axis of x , and at the distance + ?
+rf to either side of it ; and each generated water-line has two parallel asymptotes , at the respective distances b and b+4 ; f from the axis of x. The properties of these curves may be easily investigated by placing the origin of coordinates at the focus A , and substituting , in equation ( 19 ) , tan- ' for 0 ; but as their figure is not suitable for ships ' water-lines , it is unnecessary here to discuss them in detail ; and the same may be said of a class of curves analogous to hyperbolas , whose equation is formed by putting instead of + between the two terms of the right-hand member of equation ( 18 ) .
+( 11 .
+) Graphic Construction of Oval and Oogenous Neoids.-For the sake of distinctness , the processes of drawing these curves are represented in two figures , -fig .
+2 showing the preliminary , and fig. 1 the final processes ( see Plate VIII .
+) .
+The axis OY is to be divided into equal parts of any convenient length ( which will be denoted by 6y in what follows ) , and through the divisions are to be drawn a series of straight lines parallel to OX .
+( It is convenient to print those lines from a copper-plate divided and ruled by machinery .
+) They are shown in fig. 1 only , and not in fig. 2 , to avoid confusion .
+Suppose , now , that the problem is as follows:-The base OL and excentricity OA beizg given , it is required to construct the oval neoid and the water-lines generated by it .
+Through the focus A ( Plate VIII .
+fig. 2 ) draw AD perpendicular to OX ; about O , with the radius OL , describe the circular arc LD , cutting AD in D ; from D draw DE perpendicular to OD , cutting OX in E ; then ( as equation ( 22 ) shows ) AE will be =2f , the double parameter .
+About A , with the radius AE=2f thus found , describe a circle cutting AD in F. T'hen commencing at F , lay off on that circle a series of arcs , each equal to 2Sy ( the double of the length of the equal divisions of the axis OY ) .
+Through the points of division of the circle draw a series of .
+radii , AG , AG2 , &amp;c. , cutting the axis OY in a series of points ( some of which , from G3 to G12 , are marked in fig. 2)t .
+( These radii make , with the line AD , a series of angles , , -2y &amp;c. ) 7 ' 7T ' 7 ' ?
+This curve is identical with the quadratrix of TSCHIRNHAUJSEN .
+t When the parameter is small , it is sometimes advisable to use a circle ( such as a protractor ) with a radius 376 Then about each of the points in the axis OY thus found , with the outer leg of the compasses starting from the focus A , describe a series of circles ( shown in Plate VIII .
+fig. 1 ) AC , , AC , , AC , , &amp;c. Each of those circles traverses the two foci ; and the equation of any one of them is F=f=ny ... ... ... . .
+( 25 ) where d denotes the angle made at any point of the circle by straight lines drawn to the two foci , and n has the series of values 1 , 2 , 3 , &amp;c. Since F , as explained in article 4 , is the characteristic function for the motion of the liquid particles relatively to still water , it is plain that each of the circles for which F== constant is a tangent to the directions of motion of all the particles that it traverses .
+The paper is now covered , as in fig. 1 , with a network made by a series of straight lines whose equations are of the form &amp; y=n ' y , crossed by a series of circles whose equations are of the form fj=niy .
+Consequently any curve drawn like those in Plate VIII .
+fig. 1 , diagonally through the corners of the quadrangles of that network , will have for its equation y-fd6=-(n'-n)y=t and will accordingly be an oogenous neoid , having for its asymptote the line y=b .
+The primitive oval is drawn by starting from the point L , and traversing the network diagonally .
+As many curves as are required can be drawn by the eye with great precision , and the whole process is very rapid and easy ( see Appendix ) .
+When the problem is with a given base and excentricity to draw an oogenous neoid through a given point in the axis OY , such as P , the process is modified as follows : The axis OY must be so divided that P shall be at a point of division .
+Then , up to the describing of the circle about A with the radius AE , the process is the same as before .
+Then join AP ( Plate VIII .
+fig. 2 ) , and draw Ag making the angle PAg=APO , and cutting the axis OY in a point ( such as G , , ) which will be the centre of the circle traversing A and P. Then on the circumference of the circle about A , from g towards F , lay off a , series of arcs each =-26y ; through the points of division draw radii cutting the axis OY in the points G9 , G8 , &amp;c. , and complete the process as before .
+( 12 .
+) Graphic Construction of Cyclogenous and Parabologenous Neoids.-When the excentricity vanishes and the oval becomes a circle , all the circles composing the network become tangents to OX at the point O. They pass through the points where the primitive circular water-line is cut by the equidistant parallel lines .
+Their radii are in harmonic progression ; the equation of any one of them is of the form -F-x2 + -y ... ... ( 2 6 ) which is a larger multiple of the parameter than double , the length of the divisions being increased in the same proportion ; or the points on the axis OY may be laid down by means of their distances from 0 , calculated by the formula OG= a. cotan 0 .
+32 377 n having the series of values 1 , 2 , 3 , &amp;c. ; and its radius is given by the formula n-- ... ... ... ... ... ( 26 .
+) ( 26A ) When there is but one focus , as in the infinitely long curve described in article 10 , the network of circles is changed into a set of straight lines radiating from the focus , and making with AX the series of angles given by the formula fd=ny2 ... ... .7 ) ( 13 .
+) Component and Resultant Velocities of Gliding.-The component and resultant velocities with which the liquid particles glide along the water-lines are given by the following equations , in terms of the excentricity a , the parameter f , and the coordinates:u db 1 f(a-x ) f(a +t ) v db_ fie + fie c-dy-l(a--x)2+y2(a+x)2+y2 ; c=--(a ) +y2(a+X)2+y2+ + u2+v2 db db2 2f(a--x ) 2f(a+ x ) 4f2a ( ) c2 -dy-2 +d~-l(a)2+y2 -(a+x)2 +y2 + { ( a_-)2+y2 } .
+{ ( a+X)2+y2 ' J At the point of greatest ( breadth that is , at the axis of y ) these expressions take the following values : 'O fa --1 12-a2 l2+Y2 VO .
+e ao 1+ -1+O.-a2a 7"+y - ?
+o , ... .
+( 28 A ) l+a2+y + 22y'a _2+y ' c.(a A ) These equations are applicable to a whole series of water-lines ( such as those shown in fig. 1 ) , including the generating oval , and are the best suited for solving questions relating to such a series .
+But when one particular water-line is in question , it is sometimes more convenient to use another set of equations , formed from the equations ( 28 ) by the aid of the following substitutions , in which 0 , as before , denotes Y:_4aXy .
+2{ ( a--)q+y-y " ) .
+{ ( )ax)~q-f -sin0 ; [ { ( )+y2}+{(-)a+)2+zy}= 2a2+2 2+2y2=4a2+4aycotan ; 0. .
+2+y2=a2+2aycotan ; xV{a--y+2ay cotan ; } .
+These substitutions being made in the equations ( 28 ) , give the following results:u= 1 sin2 fCos fcos 20 fsin 20 c=1+sin2 -f * cos a sin o= l1+ 2 -----y ; c ayay =ay s any ~^/ { { a2y2+2a cotan0 } sin2O ; U9~____~ ~~~~ ~,.V ( 30 ) ul +sin2 2f / 2 =1++ sin O-(f+ cos sin sina 0 _f+$ _y $ -cosOf sin 22 .
+a1+ , + , --~__Tzy0 f 378 Trajectories of Normal Displacement , and of Swiftest and Slowest Gliding.-By the " ' trajectory of normal displacement " is meant a curve traversing all the points in a series of water-lines at which the directions of motion of the liquid particles relatively to still water are perpendicular to the water-lines ; or , speaking geometrically , a curve traversing all the points at which the circles AC , , ACQ , &amp;c. of fig. 1 , Plate VIII .
+cut the water-lines at right angles .
+To find the form of that trajectory , it is sufficient to make u2++v2 U_ =O-- , ... ..(31 ) employing the values of these ratios given by the equations ( 28 ) .
+This having been done , it appears , after some simple reductions , that the equation of the trajectory of normal displacement is the following , xt2_y. .
+12 ... ... ( 32 ) being that of a rectangular hyperbola LM , fig. 1 , having its vertex at L , and its centre at 0 .
+Hence that curve is similar for all oogenous and cyclogenous neoids whatsoever , being independent of the excentricity , and is identical for all oogenous and cyclogenous neoids having the same base 1 .
+By the " trajectory of swiftest and slowest gliding " is meant a curve traversing every point in a series of water-lines at which the velocity of gliding , vA2+v2 , is a maximum or a minimum for the water-line on which that point is situated .
+To find the equation of that curve , it is necessary to solve the following equation , d ( +V2 ) ( U dvd / U2+v ) o ( 33 ) c-d/ ~ , --7 = - ?
+-.- ... . .
+( 33 ) u2 + v2 the expression employed for c2 being that given by the third of the equations ( 28 ) .
+After a tedious but not difficult process of differentiation and reduction , which it is unnecessary to give in detail , an equation is found which resolves itself into three factors , viz. =,. .
+( 34 ) being the equation of the axis OY , and vx ( 3+y ?
+5Y= ^ ... ... . .
+( 35 ) being the equations of the two branches LN and LP of a curve of the fourth order .
+This curve , too , is independent of the excentricity , and therefore similar for all oogenous and cyclogenous neoids whatsoever , and identical for those having the same base 1 .
+It has also the following properties:-The straight line joining L with P makes an angle of 30 ?
+with the axis OX ; there are a pair of straight asymptotes through 0 , making angles of 30 ?
+to either side of OX ; and the two branches of the curve cut OX in the point L , at angles of 45 ? .
+( 15 .
+) Graphic Construction of those Trajectories.--The curves described in the preceding article are easily and quickly constructed , with the aid of the series of equidistant lines parallel to OX , as follows : In fig. 2 , Plate VIII .
+, let ST be any one of.379 those lines .
+With the distance SL in the compasses , lay off SH on that line ; IH will be a point in the hyperbola LM .
+Also from S lay off , on the axis of y , SI and SJ , each equal to the same distance SL .
+About the centre 0 , with the radius 01 , draw a circular arc cutting ST in K ; this will be a point in the branch LN .
+About the centre 0 , with the radius OJ , draw a circular arc cutting ST in k ; this will be a point in the branch LP .
+( 16 .
+) Properties of the Trajectory of Swiftest and Slowest Gliding.-The branch LN traverses a series of points of slowest gliding , where the water-lines are furthest apart ; the branch LP traverses a set of points of swiftest gliding , where the water-lines are closest together ; from 0 to P the axis of y traverses points of slowest gliding , and beyond P , points of swiftest gliding .
+Hence every complete o6genous neoid which cuts the axis of y between 0 and P , contains two points of sviftest and three of slowest gliding ; and every complete o6genous or cyclogenous neoid which cuts the axis of y at or beyond P , contains only one point of swiftest and two of slowest gliding .
+( 17 .
+) Water-Lines of Snoothest Gliding , or Lissoneoids.-At the point P itself , situated at the distance 7 OP=-4- ... .
+( 36 ) from the centre , two maxima and a minimum of the velocity of gliding coalesce ; and therefore not only the first , but the second and third differential coefficients of the velocity of gliding vanish ; from which it follows that the velocity of gliding changes more gradually on those water-lines which pass through the point P , than on any other class of o6genous or cyclogenous neoids .
+It is proposed therefore to call this class of water-lines Lissoneoids ( from Xlwoc ) .
+The oval neoid whose length is to its breadth as I/ 3 : 1 is itself a lissoneoid ; and every series of water-lines generated by an oval more elongated than this contains one lissoneoid ; for example , in the series of water-lines shown in fig. 1 , the lissoneoid is marked PQ .
+The excentricity of the oval lissoneoid is computed by solving equation ( 24A ) of article 9 &amp; , when y 0/ ?
+; and it is found to be a='7321 , or nearly ( V/ 3-1)1. .
+( 36 A ) By giving the excentricity values ranging from *7321 to 1 , there are produced a series of lissoneoids ranging from the oval PL in fig. 3 , Plate IX .
+, whose focus is at A0 , to the straight line PN , whose focus coalesces with L. PQ , , PQ2 , and PQ , are specimens of the intermediate forms , having their foci respectively at A1 , A2 , and A3 .
+For a reason which will be explained in Section III .
+, those curves are not shown beyond the trajectory of slowest gliding .
+The greatest speed of gliding , for a lissoneoid , is found by making y2-3 in equation ( 28 A ) of article 13 ; that is to say , u41 .
+( 47 ) c.3a2 + t ' 380 Orbits of the Particles of Water.-The general expressions for the components of the velocity of a liquid particle relatively to still water have been given in equation ( 11 ) of article 4 ; and to apply those to the case of oogenous neoids , it is only necessary to modify the equations ( 28 ) of article 13 , by introducing the expression for instead of that for as follows : cc u-c ( 12 ).(a2 ) -x( y ) v -2(12-a92)xy c -{ ( a)2+y2 } .
+{ ( a+ )+y2 } ' ; c{ ( a)+}.{ X+ )2+yT } ; ( 38 ) ( U-C)2+_V ( 2-a)2* c -{(a-)2+y2 } { ( a+X)2+y2 } From the last of these equations it appears that the velocity of a particle relatively to still water is inversely as the product of its distances from the two foci .
+The only other investigation which will here be made respecting the orbit of a particle of water , is that of the relation between its direction and curvature at a given point , and its ordinate y. It has already been explained , in article 11 , that the direction of motion of a particle is a tangent to a circle traversing it and the two foci .
+The radius of that circle is a a. y-bsin 0 ; and if p be taken to denote the angle which the direction of the particle 's motion relatively to still water makes with the axis of x , it is easily seen that cos pr cos 0sin ... .
+( 39 ) While that angle undergoes the increment dg , the particle moves through an arc of its orbit whose length is sdy ; consequently the curvature of that orbit at the arc in question is 1 sin dq5 d.cosf 1 1\ .
+y v2 f1+a2 )e die -+ die a+fa S2o ( 40)2a For cyclogenous neoids , we obtain the value of this expression by making sin = Y=- , cos =l , substituting 12-a2 for 2fa , and then making a=0 ; the result being as follows , 1 4/ b\ e=T 2Y ) ; ***** * ?
+* the water-lines are cyclogenous , the orbit of each particle of water forms one loop of an elastic curve .
+The general appearance of such an orbit is shown in fig. 6 , Plate VIII .
+The arrow D shows the direction of motion of the solid body .
+The dotted line AC is supposed to be at the distance b from the axis of x. The particle starts from A , is at first pushed forwards , then deviates outwards and turns backwards , moving directly against the motion of the solid body as it passes the point of greatest breadth , as shown at B. The particle then turns inwards , and ends by following the body , and coming to rest at C , in advance of its original position .
+When the water-lines are oogenous , the equations ( 39 ) and ( 40 ) show that the orbit is of the same general character with the looped elastic curve in fig. 6 , but differs from it in detail to an extent which is greater the greater the excentricity a ; and the difference consists mainly in a flattening of the loop , so as to make it less sharply curved at B. When the excentricity increases without limit , the orbit approximates indefinitely to a curve of pursuit , " for which sin ... ... ... . .
+( 40B ) Sf ( 19 .
+) Trajectory of Transverse Displacement.-Of Speed of Gliding equal to Speed of Shai.-Orthogonal Trajectories.-The trajectories described in this article differ from those described in articles 14 , 15 , and 16 by being dependent upon the excentricity , and therefore not similar for all sets of oogenous neoids .
+By the " trajectory of transverse displacement " is meant the curve traversing all the points at which the liquid particles are moving at right angles to the axis OX , relatively to still water .
+It is determined from the first of the equations ( 28 ) , by making U--1=0 ; c from which is easily deduced the following equation , -y2=a ... ... . .
+( 41 ) being that of a rectangular hyperbola , with its centre at 0 and its vertex at the focus A. The trajectory of the points where the speed of gliding is equal to the speed of the solid body , is found from the third of the equations ( 28 ) , by making u +v 1-0 .
+Its equation is -y 21+..(42 ) being that of a rectangular hyperbola , with its centre at 0 and its vertex between A and L , at a distance from 0 equal to half the hypothenuse of a right-angled triangle whose other sides are equal to the base and the excentricity respectively .
+Let q= constant be the equation of one out of an indefinite number of orthogonal 382 trajectories to a set of oogenous neoids .
+The function g , as is well known , must satisfy the equation dq db dq db dr dx die die Referring to equation ( 19 ) of article 7 for the value of b , it is easily seen that this condition is fulfilled by the following function , -q=x+ hyp .
+log .
+( a + x)2 y a-x)2+y " ' ?
+which has also the following properties , dq db u dq db v d2q d"q d Ydy=c ' die x-c'x2 dy2 U * .
+( 43 ) ( 44 ) Every orthogonal trajectory has a straight asymptote parallel to the axis of y , and expressed by the equation x=qg The perpendicular distance between two consecutive orthogonal trajectories , like that between two consecutive water-lines , is inversely proportional to the velocity of gliding ; hence , if a complete set of orthogonal trajectories were drawn on fig. 1 , they would divide it into a network of small rectangles , the dimensions and area of any one of which would be expressed as follows:cdb cdq _cdbdq '-3-+ X V. 2+ 2 .
+22 A/ i2 +2 ' ' A/ U +2 2 t+ ... ( 45 ) For a series of cyclogenous neoids , the equation of the orthogonal trajectories takes the following form , .
+* .
+to be so small , compared with the dimensions of the body , as not to produce any appreciable error in the consequences of the supposition of motion in plane layers .
+( 21 .
+) Integral on which the Friction depends.-Suppose a portion of an oogenous neoid to be taken for the water-line of part of the side of a vessel , which part is of the depth 4z , and that the resistance arising from friction between the water and the vessel is to be expressed the law of that friction being , that it varies as the square of the velocity of gliding , and as the extent of rubbing surface .
+That resistance is to be found ( as already explained in a paper on Waves , published in the Philosophical Transactions for 1863 ) by determining the work performed in a second in overcoming friction , and dividing by the speed of the vessel ; for thus is taken into account not only the direct resistance caused by the longitudinal component of the friction , but the resistance caused indirectly through the increase of pressure at the bow , and diminution of pressure at the stern , assuming the vertical disturbance to be unimportant .
+Then for a part of the water-line which measures longitudinally dx , the extent of surface is z. V/ u ?
+v2 dx ; U+ the friction on the unit of surface is KW(u2 +v ) 2g where W is the weight of a unit of volume of water , and Ka coefficient of friction ; and that friction has to be overcome through the distance 2+_v2 , while the vessel advances through the distance c , giving as a factor v ' U+ Vc Those three factors being multiplied together , and the result put under the sign of integration , give the following expression for the resistance , KWc2 U2 + V2 2C R=K-C 5(* j)2 dx .
+$ ... .
+( 46 A ) Another form of expression for the same integral is obtained by putting die or fv dO instead of u dx ; and a third form by putting for the elementary area of the rubbing surface the following value , dz .
+d_q ; 4/ u+2 + V2 where dg is the distance between the asymptotes of a pair of orthogonal trajectories , as explained in article 19 .
+This gives for the resistance EL-K^ f " .
+ds ... ... ... .
+( 47 ) 384 In preparing these formulae for integration , it is necessary to express the function to be integrated in terms of constants and of the independent variable only , x , y , 0 , or , as the case may be ; for example , if y or 0 is the independent variable , the expression of the function to be integrated is to be taken from the equations ( 30 ) of article 13 .
+Owing to the great complexity of that function , its exact integration presents difficulties which have not yet been overcome , although a probable approximate formula for the resistance has been arrived at by methods partly theoretical and partly empirical , as to which some further remarks will be made in the third section of this paper* .
+There is one particular case only in which the exact integration of equation ( 46 A ) is easy , that of a complete circular water-line of the radius I ; and the result is as follows : R=2 x2 ... ... ... ... ( 48 ) ( 22 .
+) Statement of the General Problem of the Water-Line of least Friction.-It is evident that , by introducing under the sign of integration in equation ( 18 ) .
+of article 7 an arbitrary function of x ' , the integral may be made capable of representing an arbitrary function of x and y , and will still satisfy the condition of perfect liquidity ; and thus the equation yx)d -"1X =0 ( 4sA ) b=y+ ( w-a=o.* ( 48A ) may be made to represent an arbitrary form of primitive water-line .
+To find therefore , by the calculus of variations , the water-line enclosing a given area which shall have the least friction , will require the solution of the following problem : To determine the function ( x ' ) so that , with a fixed value of the integral Sxdy , the integral in equation ( 46 A ) shall be a minimum .
+( 22A .
+) Another Class of Plane Water-Line Equations.-A mode of expressing the conditions of the flow of water in plane layers past a solid , differing in form from that made use of in the preceding parts of this paper , consists in taking for independent variables , not the coordinates of the water-lines themselves , x and y , but the coordinates of their asymptotes ( b ) , and of the asymptotes of their orthogonal trajectories ( g ) .
+These new variables are connected with x and y , and with the velocity of gliding , by the following equations:u2+ve dq db dq db 1.( .
+49 ) c8 dx ' dydyd ' xdx die die dx dq db dq db It can be shown that in order to satisfy the condition of liquidity we must have db d , q ( 50 ) x=t , y= ; ... ... ( 0 ) lDR .
+W. J. MACQUORN RANKINE ON PLANE WATER-LINES .
+where b denotes a function of 6 and q , such that d-+dV_ ; ... .
+( 51 ) db2 + ... .
+and consequently that ^+^-(^ + a ... ..a ... ( 52 ) u+02 ( dbdq + 2 ) * The curves to which this method of investigation leads are inferior to oogenous neoid-s as water-lines for ships , because they have comparatively sharp curvature amidships , which causes them to have small capacity for their length and breadth , and would give rise to comparatively sudden changes in the speed of gliding .
+They will therefore not be further discussed in the present paper , except to state that the simplest of them is the well-known cissoid .
+SECTION III.--Rerarks on the Practical Use of Oogenous Water-Lines .
+( 23 .
+) Previous Systems of Water-Lines.-Owing principally to the great antiquity of the art of shipbuilding , and the immense number of practical experiments of which it has been the subject , that part of it which relates to the forms of water-lines has in many cases attained a high degree of excellence through purely empirical means .
+Excellence attained in that manner is of an uncertain and unstable kind ; for as it does not spring from a knowledge of general principles , it can be perpetuated by mere imitation only .
+The existing forms of water-lines , whose merits are known through their practical success , constitute one of the best tests of a mathematical theory of the subject ; for if that theory is a sound one , it will reproduce known good forms of water-line ; and if it is a comprehensive one , it will reproduce their numerous varieties , which differ very much from each other .
+The geometrical system of CHAPMAN for constructing water-lines is wholly empirical ; it consists in the use of parabolas of various orders , chosen so as to approximate to figures that have been found to answer in practice , and it has no connexion with any mechanical theory of the motion of the particles of water .
+The first theory of ships ' water-lines which was at once practically useful , and based on mechanical principles , was that of Mr. SCOTT RUSSEEL , explained in the first and second volumes of the Transactions of the Institution of Naval Architects .
+It consists of two parts ; the first has reference to the dimensions of water-lines intended for a given maximum speed , and prescribes a certain relation between the length of those lines and the length of a natural wave which travels with that speed ; the second part relates to the form of those lines , and prescribes for imitation the figures of certain natural waves , as being lines along which water is more easily displaced than along other lines .
+The figures thus obtained are known to be successful in practice ; but it is also well known that there are other figures which answer well in practice , differing considerably from those wave-lines ; and it is desirable that the mathematical theory of the subject should 386 embrace those figures also .
+It may further be observed that the figure of the solitary wave , as investigated experimentally by Mr. SCOTT RUSSELL ( Reports of the British Association , 1845 ) , and mathematically by Mr. EARNSHAW ( Camb .
+Trans. 1845 ) , is that of a wave propagated in a canal of small breadth and depth as compared with the dimensions of the wave , and in which particles of water originally in a plane at right angles to the direction of motion continue to be very nearly in a plane at right angles to the direction of motion , so as to have sensibly the same longitudinal velocity .
+This state of things is so different from the circumstances of the motions of the particles in the open sea , that it appears desirable to investigate the subject with special reference to a mass of water of unlimited breadth and depth , as has been done in the previous sections of this paper .
+( 24 .
+) Variety of Forms of Obgenous Neoids , and their likeness to good known Forms of Water-Iiine.-The water-lines generated from ovals which have been described in the second section of this paper , are remarkable for the great varieties of form and proportions which they present , and for the resemblance of their figures to those of the waterlines of the different varieties of existing vessels .
+There is an endless series of ovals , having all proportions of length to breadth , from equality to infinity ; and each of those ovals generates an endless series of water-lines , with all degrees of fulness or fineness , fromhehe the absolute bluffess of the oval itself to the sharpness of the knife-edge .
+Further variations may be made by taking a greater or a less length of the curve chosen .
+The ovals are figures suitable for vessels of low speed , it being only necessary , in order to make them good water-lines , that the vertical disturbance ( as explained in art .
+20 ) should be small compared with the vessel 's draught of water .
+At higher speeds the sharper water-lines , more distant from the oval , become necessary .
+The water-lines generated by a circle , or " cyclogenous neoids , " are the " leanest " for a given proportion of length to breadth ; and as the excentricity increases , the lines become " fuller .
+" The lines generated from a very much elongated oval approximate to a straight middle body with more or less sharp ends .
+In short , there is no form of water-line that has been found to answer in practice which cannot be imitated by means of o6genous neoids .
+( 25 .
+) -Discontinuity at the Bow and Stern.-Best limits of Water-Lines.-Amongst the endless variety of forms presented by oogenous water-lines , it may be well to consider whether there are any which there are reasons for preferring to the others .
+One of the questions which thus arise is the following:-Inasmuch as all the water-line curves of a series , except the primitive oval , are infinitely long and have asymptotes , there must necessarily be an abrupt change of motion at either end of the limited portion of a curve which is used as a water-line in practice , and the question of the effect of such abrupt change or discontinuity of motion is one which at present can be decided by observation and experiment only .
+Now it appears from observation and experiment , that the effect of the discontinuity of motion at the bow and stern of a vessel which has an entrance and run of ordinary sharpness and not convex , extends to ' a very thin layer of water only , and that beyond a short distance from the vessel 's side the discontinuity 387 ceases , through some slight modification of the water-lines of which the mathematical theory is not yet adequate to give an exact account* , Still , although the effect of the discontinuity in increasing resistance may not yet have been reduced to a mathematical expression , and although it may be so small that our present methods of experimenting have not yet detected it , it must have some value ; and it is desirable so to select the limits of the water-line as to make that value as small as possible .
+In order that the abrupt change of motion may take place in as small a mass of water as possible , it would seem that the limits of the water-line employed in practice should be at or near the point of slowest gliding ; that is , where the water-line curve is cut by the trajectory of slowest gliding LN , in Plate VIII .
+fig. 1 , and Plate IX .
+fig. 3 , as explained in articles 14 , 15 , and 16 ; and that conclusion is borne out by the figures of many vessels remarkable for economy of power .
+( 26 .
+) Preferable Figures of Water-Lines .
+In forming a probable opinion as to which , out of all the water-lines generated by a given oval , is to be preferred to the others , regard is to be had to the fact , that every point of maximum disturbance of the level of the water , whether upwards or downwards , that is to say , every point of maximum or minimum speed of gliding ( see article 20 ) , forms the origin of a wave , which spreads out obliquely from the vessel ( as may easily be observed in smooth water ) , and so transfers mechanical energy to distant particles of water , which energy is lost .
+Hence such points should be as few as possible ; and the changes of motion at them should be as gradual as possible ; and these conditions are fulfilled by the curves described in article 17 , by the name of " Lissoneoids , " being those which traverse the point P in the figures , and which may have any proportion of length to breadth , from ~/ 3 to infinity .
+( 27 .
+) Approximate Rulesfor Construction and Calculation.-The description of those curves , already given in article 17 , has been confined to those properties which are exactly true .
+The following rules are convenient approximations for practical purposes , when the proportion of length to breadth is not less than 4 : 1 ( see Plate IX .
+figs. 3 &amp; 4 ) .
+I. A tangent to the curve at the curve at Q the point of slowest gliding , passes very nearly through the point P of greatest breadth .
+II .
+The area PQR enclosed within the water-line is very nearly equal to the rectangle of the breadth PR and excentricity a. ( When the length is not less than six times the breadth , this rule is almost perfectly exact .
+) For the trajectory of slowest gliding , LN , there may be substituted , without practical error , a straight line cutting the axis OX in L at an angle of 45 ?
+; and when this has been done , the excentricity OA or a is almost exactly equal to the length x634( -3+ and this of course is also the ratio of the area to the circumscribed rectangle .
+The base OL or I also is very nearly equal to ( the sum of the length and breadth ) X '634 .
+IV .
+Hence the following approximate construction .
+Given , the common length QR of a set of water-lines of smoothest gliding which are to have a common termination at Q , and their breadths RPI , RP2 , RP3 , &amp;c. : required , to find their areas , bases , and foci .
+Through Q and R draw the straight lines QU and RU , making the angles RQU=45 ?
+, QRU=30 ? .
+Through their intersection U draw UV perpendicular to RQ .
+All the required foci will be in UV ; and RV will be the length of the rectangles equivalent to each of the water-line areas ; so that area P , QR1=RV X RP , , area P2 QR2=RV X RP2 , &amp;c. &amp;c. Through PI , P2 , P3 , &amp;c. draw lines parallel to RU , cutting QU in L , , L2 , L3 , &amp;c. : these points will be the ends of the bases required , through which draw the bases L , Oi , L2 O , L , 03 , &amp;c. parallel to QR , and cutting VU in A1 , A2 , A3 , &amp;c. : these will be the required foci .
+The bases and foci and the points P1 , P2 , P3 , &amp;c. being given , the water-lines are to be constructed by the rules given in article 11 .
+( 28 .
+) Lissoneoids compared with Trochoids .
+In fig. 5 , Plate IX .
+, the full line PQ is a lissoneoid , and the dotted line Pq a trochoid of the same breadth and area .
+The curves lie very near together throughout their whole course the only differences being , that the trochoid is slightly less full and more hollow than the lissoneoid , but at the same time the trochoid is the longer and has a greater frictional surface .
+Had the entrance of the trochoid consisted of a straight tangent from its point of contrary flexure ( as in the bow of the 'Lancefield , ' mentioned in the note to article 25 ) , the two curves would have lain still closer together .
+The same likeness to a trochoid is found in all lissoneoids whose length is more than about 31 times the breadth .
+( 29 .
+) Combinations of Bow and Stern.-Although there is reason to believe that water-lines of equal length and similar form at the bow and stern , such as are produced by using one neoid curve throughout , are the best on the whole , still the naval architect , should he think fit , can combine two different oogenous neoids for the bow and stern ; or , according to a frequent practice , he may adapt the figure of the stern to motion of the particles in vertical layers instead of horizontal layers ; provided he takes care in every case that the midship velocity of gliding ( u0 .
+, as given by equation ( 28 A ) of article 13 ) is the same for each bow water-line and stern water-line at their point of junction .
+389 Provisional Formula for Resistance.-Until the difficulty of integration , mentioned in article 30 , shall have been overcome , or until more exact experimental data than we have at present shall have been obtained , the following provisional formula , analogous to that which has been found to agree with the results of experiment on trochoidal and nearly trochoidal lines , as well as some others , may be considered as a probable approximation for lissoneoids , =KW ( 1 +4( )LG ; ... ... ( 53 ) where G is the mean girth of the vessel under water ; L her total length ; ut the midship velocity of gliding , found , for a Iissoneoid , by equation ( 37 ) of article 17 ; c the speed of the ship ; W the heaviness of water ; and Ka coefficient of friction ( =about ?
+0036 for a clean surface of paint ) .
+APPENDIX .
+Note to Article 11.-The general process of constructing a series of curves whose equation is 9p(x , y)+'(xv , y)= constant , by drawing lines diagonally through a network consisting of two sets of curves whose equations are respectively p(x , y ) = constant and +(x , y ) = constant , is due to Professor CLERK MAXWELL .
+SUMMARY OF THE CONTENTS .
+Section I.-Introduction , and Summary of known Principles .
+Art .
+( 1 .
+) Plane Water-Lines in two Dimensions defined .
+( 2 .
+) General Principles of the Flow of a Liquid past a Solid .
+( 3 .
+) Notation .
+( 4 .
+) General Characteristics of Water-Line Functions .
+( 5 .
+) Water-Line Curves generated by a Circle , or Cyclogenous Neoids .
+Section II.-Properties of Water-Line Carves generated from Ovals or Oogenous Neoids .
+Art .
+( 6 .
+) Derivation of other Water-Line Curves from Cyclogenous Neoids .
+( 7 .
+) General Equation of Oogenous Neoids .
+( 8 .
+) Geometrical Meaning of that Equation .
+( 9 .
+) Properties of Primitive Oval Neoids .
+( 10 .
+) Varieties of Oval Neoids , and extreme cases .
+( 11 .
+) Graphic Construction of Oval and Oogenous Neoids .
+( 12 .
+) Graphic Construction of Cyclogenous and Parabologenous Neoids .
+( 13 .
+) Component and Resultant Velocities of Glidingo ( 14 .
+) Trajectories of Normal Displacement , and of Swiftest and Slowest Gliding , 390 Art .
+( 15 .
+) Graphic Construction of those Trajectories .
+( 16 .
+) Properties of the Trajectory of Swiftest and Slowest Gliding .
+( 17 .
+) Water-Lines of Smoothest Gliding , or Lissoneoids .
+( 18 .
+) Orbits of the Particles of Water .
+( 19 .
+) Trajectory of Transverse Displacement.-Of Speed of Gliding equal to Speed of Ship.-Orthogonal Trajectories .
+( 20 .
+) Disturbances of Pressure and Level .
+( 21 .
+) Integral on which the Friction depends .
+( 22 .
+) Statement of the General Problem of the Water-Line of least Friction .
+( 22 A. ) Another Class of Plane Water-Line Equations .
+Section III.-Remarks on the Practical Use of Oogenous Water-Lines .
+( 23 .
+) Previous Systems of Water-Lines .
+( 24 .
+) Variety of Forms of Oogenous Neoids , and their likeness to good known Forms of Water-Line .
+( 25 .
+) Discontinuity at the Bow and Stern.--Best limits of Water-Lines .
+( 26 .
+) Preferable Figures of Water-Lines .
+( 27 .
+) Approximate Rules for Construction and Calculation .
+( 28 .
+) Lissoneoids compared with Trochoids .
+( 29 .
+) Combinations of Bow and Stern .
+( 30 .
+) Provisional Formula for Resistance .
+f)iYU UXflAGx~c.MDCCJCJXXIV .
+_Pb~Je V / J. RANKINE ON WATER-LINES , 1863 .
+FIG. I. I FIG. Z. SG7 S iDrawn : &gt; v.J M:H .
+FIG 6 .
+C_ A~..c .
+D J. .
+i-r( , / tA I-NT .
+M , \\\\\\ I P/ zi , 7axs .
+Iras , D CCCLXLV .
+Pitat IX : RANKINE ON PLANE WATER-LINES .
+M FIG 3 .
+s -----.^ - ; -I---.I--I.I-- ' ?
+--- ?
+-- ?
+--------5------- ?
+?---------------- ?
+-------- ?
+---------------------------------------1 ---i--------c--_ _------u\ -.e _a -x , --_----n ?
+-=c " c ?
+, -.--------r-------------r---------- ?
+F tZ= = CI _ cT , ?
+I GI ?
+-c -II -z,.._ , _ _______ ___ -___ , .
+ig ; CI '-----------------------t X L._II.- .
+I. I. __--( p E &gt; ' ) 14 A3a A , A Ao FI .
+4- .
+FIG. 5 .
+P It I DrvvW i'vWJ .
+M R. VI. .
+---_ VI R ' I y ?
+P JA b".s:r .
+t , .
+I yla7t S '
+

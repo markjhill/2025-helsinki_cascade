@@ -1,0 +1,477 @@
+]\gt ; [ 281 ] XIII .
+On the of Rigid Body in tic R. S. HEATH , B.A. , Fellow of Trinity College , Cambridge .
+Communicated by ofessor CAYLEY , Professor of in the Universt of Received January 4 , \mdash ; Read January 17 , 1884 .
+THIS paper is an attempt to work out the theory of the motion of a rigid body under the action of any forces , with the generalised ceptions of distance of the so-called non-Euclidean geometry .
+Of the three kinds of non-Euclidean space , that known as elliptic space has been chosen , because of the perfect duality and symmetry which exist in this case .
+The special features of the method employed are the extensive use of the symmetrical and homogeneous system of coordinates given by a quadrantal tetrahedron , and the use of Professor CAYLEy'S coordinates , in preference to the " " rotors\ldquo ; of Professor CLIFFORD , to represent the position of a line in space .
+The first part , SS 1-21 , is introductory ; in it the theory of plane and solid geometry is briefly worked out from the basis of Professor CAYLEY'S idea of an absolute quadric .
+By taking a quadrantal triangle ( i.e. , a triangle self-conjugate with regard to the absolute conic ) as the triangle of reference , the equations to lines , circles , and copies are found in a simple form , and some of their properties investigated .
+The geometry of any plane is proved to be the same as that of a sphere of unit radius , so that elliptic space is shown to have a uniform positive curvature .
+The theory is then extended to geometry , and the most important relations of planes and lines to each other are worked out .
+The next part treats of the kinematics of a rigid body .
+The possibility of the existence of a rigid body is shown to be implied by the constant curvature of elliptic space , and then the theory of its displacement is made to depend entirely on orthogonal transformation .
+Any displacement may be expressed as a twist about a certain screw .
+A rotation about a line is shown to be the same as an equal translation along its polar ; so that the difference between a rotation and a translation disappears , and the motion of any body is expressed in terms of six symmetrical angular velocities .
+An angular velocity , about a line whose coordinates are , is found to be capable of resolution into component angular velocities , . . .
+, about the edges of the fundamental tetrahedron .
+The theory of screws is next considered .
+A twist on a screw ) be replaced by a In kinetics , the measure of force is deduced from NEWTON'S second law of motion , and the laws of combination and resolution are proved .
+The consideration of the whole momentum of a body suggests the idea of moments of inertia , and a few of their properties are investigated .
+The general equations of motion referred to any moving axes are then found , and in a particular case they recluce to a form corresponding to EULER'S equations ; these are of the type The last part is occupied in the solution of these equations when no forces act , in terms of the theta-functions of two variables .
+A solution is obtained in the form where and is arbitrary .
+But in order that these valnes may satisfy the equations , a relation among the parameters of the theta-functions must be satisfied .
+This is The solution is not complete , because after satisfying the equations of motion only four constants remain to express the initial conditions , whereas six constants are required .
+Introduction .
+A concise review of the characteristics of the different kinds of generalised space will be found in the introduction to Professor CLIFFORD'S mathematical works by the late Professor H. J. S. SMITH ( Introduction , XXX1X together with an analysis of CLIFFORD'S numerous memoirs relating to this subject .
+Further information may be found in the following papers:\mdash ; Dr. BALL , " " On the Non-Euclidean Geometry ' Hermathena , ' vol. iii .
+Professor CAYLEY , " " A Sixth Memoir on Quantics Phil. Trans. , 1859 .
+Professor , ' Projectivische Behaudlung der Mechanik slarrer Korper Math. ] , Bd .
+vu .
+, 1874 .
+A RIGID BODY IN ELLTPTIC SPACE .
+283 Mr. HouERSHAM Cox , " " Homogeneous Coordinates in Imaginary Geometry , and their application to Systems of Forces Quarterly Journal , vol. 18 .
+For the coordinates of a line see the paper by Professor , Camb .
+Phil. Trans. , vol. xi .
+On the geometry of elliptic S 1 .
+Geometrical theorems are sometimes divided into two classes , descriptive and metrical .
+Descriptive theorems have reference to the relative positions of figures , and are unaltered by projection and linear transformation .
+Metrical theorems have reference to magnitudes , such as lengths of lines , the measures of angles , areas and volumes .
+But it has been pointed out by Professor CAYLEY that metrical theorems may always be stated as descriptive ; they are descriptive relations between geometrical figures and certain fixed geometrical forms , which he calls the Absolute .
+In ordinary plane geometry the Absolute consists of an imaginary point-pair on a real line , viz the circular points at infinity .
+The magnitude of the angle between two lines , for instance , may be expressed as a function of the anharmonic ratio of the pencil formed by the lines , and the pair oflines drawn from their intersection to the Absolute pointpair .
+In three dimensions the Absolute is the imaginary circle at infinity .
+2 .
+Professor CAYLEY generalises this idea of metrical theorems by supposing the Absolute to be the points and planes of a fixed quadric in space .
+The Absolute in any plane consists of the points and lines of a fixed conic lying in the plane , the conic being the intersection of the plane with the Absolute quadric .
+There are three different kinds of geometry of space depending on the nature of this Absolute quadric .
+These are ( 1 .
+) Elliptic geometry , in which all the elements of the Absolute are imaginary .
+( 2 .
+) Hyperbolic geometry , in which the Absolute surface is real , but contains no real straight lines , and surrounds us .
+( 3 .
+) Parabolic geometry , in which the Absolute degenerates into an imaginary conic in a real plane .
+In what follows we shall suppose all the elements of the Absolute imaginary .
+3 .
+On any line there is an Absolute point-pair , viz. , the intersections of the line with the Absolute quadric .
+The position of any point on the line will be determined when we know the ratio of its distances from the Absolute points .
+If we denote this ratio by , the distance between two points must be a function of the ratios and corresponding to the points .
+Now , the fundamental property of the distance between two points may be expressed by the relation where are three points on the same line .
+In view of this relation the distance between two points is defined to be multiplied by an arbitrary constant .
+4 4 .
+The relations between lines passing through a point and lying in a plane are exactly the same as the relations between points along a line .
+Among the lines lying in a plane and passing through a point there are two fixed lines called the Absolute pair oflines ; these are the pair of tangents that can be drawn from the point to the Absolute conic of the plane .
+The measurement of angles will thus be exactly similar to the measurement of distances .
+The angle between two lines ] ying in a plane is measured by the logarithm of the anharmonic ratio of the pencil formed by the lines and the Absolute pai of lines sing through the point , multiplied by an arbitrary constant .
+There is a special in choosing both these arbitrary constants to be , where denotes From these definitions it follows by properties of poles and polars that the distance between two points is equal to the angle between their polars , so that any theorem of distances has a reciprocal theorem relating to angles .
+5 .
+Let be the equation to the Absolute conic in any plane in the notation of Ordinary Geometry .
+If , be any two points , the coordinates of any point on the line joining them are proportional to Hence to find the Absolute point-pair we have the equation . . . . . . .
+( 1 ) with the usual notation .
+Let @ be the generalised distance between the points 1 , 2 .
+Then where are the roots of the quadratic equation ( 1 ) .
+Hence therefore that is , ( 2 ) .
+A RIGID BODY IN ELLIPTIC SPACE .
+6 .
+As the triangle of reference take any self-conjugate triangle with respect to the Absolute conic , so that the equation to the conic becomes Then , and This suggests a new system of coordinates .
+Let denote the cosines of the generalised distances from the angular points of the triangle of reference , of a point whose coordinates were in Ordinary Geometry .
+Then \amp ; c. Hence and the equation to the Absolute conic is Then if@ denote the distance between two points , Sxx ' 7 .
+If be the coordinates of any point , the equation to its polar line with respect to the Absolute conic is Here may be looked upon as the coordinates of the pole , or the tangential coordinates of the line , indifferently ; and we shall always suppose that The form of the equation shows that a point is distant one right atlgle from any point of its polar .
+From this theorem , we deduce by Reciprocation , a given line is perpendicular to any line through its pole .
+Hence the sides and angles of any selfconjugate triangle with respect to the Absolute conic are all right angles .
+Such a triangle is called a Quadrantal triangle .
+We can now give a new interpretation of the coordinates ; they are the sines of the perpendiculars from the point let on the three sides of the triangle of reference .
+8 .
+The angle between two lines is equal to the distance between their poles ; i.e. , if .
+be the angle between two lines whose poles are , To draw a perpendicular from a point to a line , we have only to join the point to the pole of the line .
+In general we can draw only one perpendicular from the point to the line , but if the point be the pole of the line , every line through it is a perpendicular to the given line .
+Let be the sine of the perpendicular from a point to a line Then denotes the cosine of the distance of the point from the pole of the line , therefore The equation to the line joining two points is The equation to a Iine drawn from a point perpendicular to a line is 9 .
+We now proceed to establish the Trigonometry of any plane .
+Let A a triangle , and , for simplicity , let be an angle of the triangle of reference , and let be the points 1 , 2 .
+Denoting the sides of this triangle by , we get Again , the equation to the absolute pair of lines through is It is easy to see that the formula A RIGID BODY IN ELLIPTIC .
+287 applicable to this case also , therefore and therefore Hence finally C. From this equation may be deduced , as in Spherical Trigonometry , the relations Hence the geometry of any plane in elliptic space is the same as the geometry of a sphere in ordinary space .
+A straight line in the plane corresponds to a great circle on the sphere .
+But further , the distance between any two points measured in the way we have indicated is periodic , the length of a complete period being .
+Hence we infer that the radius of any great circle of the sphere is unity .
+Thus any line and any plane may be supposed to have a uniform positive curvature RIEMANN , in his memoi ' On the Hypotheses which lie at the Bases of Geometry speaks of the curvature of an -fold extent at a given point and in a given surface direction ; he explains it as follows:\mdash ; Suppose that from any point the system of shortest lines going out from it be constructed .
+Any one of these geodesics is entirely determined when its initial direction is given .
+Accordingly we obtain a determinate surface if we prolong all the geodesics proceeding from the given point and lying initially in the iven surface direction ; this surface has at the given point a definite curvature , measured in the manner indicated by GAUSS .
+This curvature is the curvature of the -fold continuum at the given point in the given surface direction .
+If we construct a surface at a given point of elliptic space in any direction in the way thus indicated , the geometry of such a surface is the same as that of a sphere of unit radius in ordinary space .
+Thus for all and for all surface directions the curvature will be unity .
+Hence elliptic space is said to have a uniform positive curvature .
+10 .
+The general equation of a conic , in the notation of ordinary space , is a homogeneous equation of the second degree .
+Hence , when we pass to the new coordinates , the equation to a conic will still be homogeneous and of the second degree .
+If we choose our triangle of reference to be the self-conjugate triangle common to the conic and the Absolute , the form of the equation becomes , and make the discriminant vanish , we get three pairs of lines , which are the representatives of the asymptotes in ordinary geometry .
+If we take the form of the equation referred to the principal axes , we see that a pair of these lines passes through each angular point of the triangle .
+The asymptotes , however , no longer touch the conic , but are the six lines joining the four points of intersection of the conic with the absolute .
+11 .
+If the equation to a conic be the tangential equation becomes The tangential equation of the absolute is The foci of a conic may be defined to be the six points of intersection of the common tangents to the conic and the Absolute .
+Confocal conics are those which have the same common tangents with the Absolute .
+Hence the tangential equation of a system of confocal conics is and therefore , in point coordinates , the equation to a system of confocal copies is Thus confoca ] .
+conics have the same principal axes .
+Also it may be shown in the usual way that confocal conics cut at right angles , and that two confocals can be drawn through any point in the plane .
+12 .
+The equation to a circle whose centre is , and the cosine of whose radius is , is ; or , making it homogeneous , .
+A RIGID ) IN ELLIPTIC SPACE .
+289 The form of this equation shows that a circle is a conic having contact with the Absolute in the two points in which it is met by the polar lin of the centre of the circle .
+Many other interesting properties of conics may be worked out by means of these equations , but as they will not concern us we pass on at once to the geometry of three dimensions .
+Solid geometrlJ 13 .
+As before , we refer the Absolute quadric to a self-conjugate tetrahedron .
+Let the equation to it , in any system of plane coordinates of ordinary space , be Then , if be the distance between the points 1 , 2 , This again suggests a new system of homogeneous coordinates .
+Let denote the cosines of the distances of the point from the four angular points of the tetrahedron of reference .
+Then , \amp ; c. For any real point The equation of the Absolute quadric in these coordinates is Also if be the distance between two points we have 14 .
+If be the coordinates of a point the.equation of the polar plane with reference to the Absolute quadric is In the equation to any plane we shall suppose the coefficients such that angles .
+Such a tetrahedron is called a quadrantal tetrahedron .
+The coordinates are the sines of the perpendicular distances of a point from the four planes : of reference .
+If we put in any formula the system reduces to the same coordinates as were used in two dimensions .
+Let denote the sine of the perpendicular from any point to the plane then is the cosine of the distance between and the pole of the plane , and therefore The angle between two planes is equal to the tance between their poles , so that if be the angle between the two planes , 15 .
+A straight line may be conveniently specified by six coordinates , as shown by Professor CAYLEY .
+Let , be two points on any line , and , two planes it , so that Eliminating between the first and third equations we get Similarly , and we can obtain other equations of similar forms in the same way .
+Let denote respectively the quantities A RIGID BODY IN ELLIPTIC SPACE .
+then There is a similar set of equations obtained by writing for in these equations .
+Taking the equations and eliminating , we have Proceeding in this way , and eliminating the other letters in turn , it is easily seen that : : : : : Choose the planes , to be at right angles , and the points , to be distant a right angle ; then and similarly it may be shown that Hence and so on for all the letters , and From the forms of , it is to show that there is an identical relation between them The quantities , are thus reduced to four independent variables and are called the six coordinates of the line . .
+If we ange the letters with the letters , we get the polar line of the first .
+Hence the coordinates of the polar are The co-ordinates of the line joining two points , distant an from each other , are \amp ; c. Similarly for the line of intersection of two given planes .
+It been incidentally proved that the conditions that a line should lie in a plane , are which are equivalent to two independent relations .
+These are also the conditions that the polar line should pass through the point .
+The coordinates of a line through a point perpendicular to a plane are \amp ; .
+where is the angle between and the point , which is the pole of the plane .
+17 .
+We shall now find the length of the perpendicular from any point to a line Let be two perpendicular planes passing through the line Let be the sines of the perpendiculars from on these planes , and let be the sine of the perpendicular on the given line .
+Then by pherical Trigonometry Now A RIGID BODY IN ELLIPTIC SPACE .
+therefore -cu If we square and add these equations , the left side becomes ; hence ( bf \mdash ; ag ) .
+18 .
+Any line which meets a given line and its polar , cuts both perpendicularly , and the length of the part intercepted between them is a right angle .
+If we have two given lines in space , which do not meet , we can , in general , draw two lines cutting both perpendicularly ; these are the two lines which can be drawn meeting the two given lines and their polars .
+These two common perpendiculars are jugate to each other with reference to the absolute .
+Let , be two given non-intersecting lines , and let @ be the length of one of their common perpendiculars .
+Draw a plane through 8 and the first line , and another plane through @ and the second line , and let be the angle between these planes .
+Draw also a plane through the first line and perpendicular to the plane , and through the second line and perpendicular to the plane Then we have the following relations:\mdash ; Now , \amp ; c. , \amp ; c. Hence it follows that , it becomes Now , squaring the determinant , we get S. Hence S ' These formulae remain unchanged if we pass to the other common perpendicular , or if we take the two polar lines instead of the given lines .
+If the lines meet one another and then the angle between them is given by the equation 20 .
+The equation to a sphere , whose centre is and the cosine of whose radius is , is This may be written in the homogeneous form .
+Hence we infer.that a sphere is a quadric touching the absolute quadric along its intersection with the polar plane of the centre of the sphere .
+The polar itself is a particular case of a sphere , the adius being equal to a right angle .
+-ff A RIGID BODY IN ELLIPTIC SPACE .
+295 21 .
+The general equation of a quadric is a homogeneous equation of the second degree in .
+By an orthogonal transformation we know that we can rid the equation of the products of , and at the same time keep unchanged .
+The equation will then reduce to the form The tetrahedron of reference is the common self-conjugate tetrahedron to given quadric and the absolute .
+The six edges may be called the principal axes of the quadric .
+The equation to a system of confocal quadrics may , as before , be shown to be of the form Hence confocal quadrics cut at right angles .
+The of a rigid 22 .
+By a rigid body we mean a collection of particles so bound together that the distance between any pair of them remains the same , however the system be moved in space .
+In general , if we assume an arbitrary system of measure-relations as the basis of our definition of distance , a rigid body could not exist .
+But it is pointed out by RIEMANN in his paper ' On the Hypotheses which lie at the Bases of eometry that the special character of those centinua , whose curvature is constant , is that figures may be moved in them from one position to another without stretching .
+This may be illustrated for two dimensions , by saying that any figure traced on a spherical surface may be moved from one position to another on the surface without deformation .
+But on the othel hand , figure traced on the surface of an ellipsoid , or other surface for which the curvature is not uniform , can exist in one position only .
+Now in eIliptic space there is a uniform positive curvature ; hence we assume that , a figure which exists in one position can exist in any other position of space without changing the distance between any two of its points .
+The same result is arrived at by KLEIN , by showing the possibility of finding a linear transformation , which transforms the absolute quadric into itself 23 .
+A point is always distant a right angle from any point of its polar plane .
+Hence a point and its polar plane always move together like a rigid body .
+A displacement which leaves all the points of a given line unchanged in position , is called a rotation about that line .
+If we take any two fixed points on the line , the distance of any point of the body from each of these remains unchanged .
+Hence it follows , by Spherical Trigonometry , that the point describes a circle , whose centre the foot of the perpendicular let fall from the point to the axis of rotation , In th6 case in which the point lies on the polar line of the axis of rotation , the radius of circle is a right angle , or in other words the circle becomes a straight line , viz. , th6 polar line itself ; so that any point on the polar line of the axis of rotation remains on that polar line .
+A displacement which leaves all the planes through a given line unchanged in position is called a translation along that line .
+In such a displacement the poles of these fixed will be fixed points ; in other words , all the points of the polar line are fixed .
+Hence a translation along any line is also a rotation about the polar line .
+If we measure a translation by the distance through which any point of the line of translation is moved , and a rotation by the angle through which any plane through the axis of rotation is turned , we see that a translation along any line is exactly the same thing as an equal rotation about the polar line .
+In elliptic space a translation has a definite line associated with it , just in the same way that a rotation has a definite axis .
+A translation through four right angles brings a body back to its original position .
+24 .
+In working out the kinematics of a rigid body , we shall suppose a quadrantal tetrahedron fixed in the body , so that the whole theory will depend on orthogonal transformation .
+Let , 2 , 3 , 4 be the coordinates of the four angular points of the quadrantal tetrahedron moving with the body , referred to a fixed quadrantal tetraedron in space .
+Let be the coordinates of a point referred to the fixed tetrahedron , the coordinates of the same point referred to the other tetrahedron .
+Then If we square these equations and add them and make for all values of , we find tions among the coefficients , of the types A RIGID BODY IN ELLIPTIC SPACE .
+Again multiplying the expressions for by , respectively , and adding , we get , by of these reJations , and there are similar expressions for If we square and add the new set of equations , and make for all values of , we find another set of relations among the coefficients , of the types We may include all these equations in a scheme similar to that used for orthogonal transformation in ordinary geometry In this scheme , the sum of the squares of any row or column of the determinant is unity ; and the sums of the products of the corresponding terms in any two rows , or in any two columns , is zero .
+The square of the determinant by means of these relations reduces to unity , so that If the positive directions of the edges of the tetrahedron retain the same relative positions towards each other , so that the ] be moved into its new position , we must take .
+This may be easily verified for sirnple cases .
+This is the only case that concerns us in the motion of a rigid body .
+Comparing the equations where are the minors of , we see that each constituent in the determinant is equal to its minor .
+25 .
+Let the coordinates of the edges 23 , 81 , 12 , 14 , 24 , 34 be From the transformation of it is easily seen that .
+to six terms , that is This and similar equations give us the formulae for transforming the coordinates of a line .
+The transformation is orthogonal , and proceeding as before , we may use another transformation scheme , viz. This determinant possesses properties similar to those proved for the other determinant ; the sum of the squares of the terms in any row , or any column , is unity , and the sum of the products of corresponding terms in any two rows , or in any two columns , is zero .
+26 .
+From this scheme it follows that the coordinates of the edges of the fixed tetrahedron referred to the other will be , \amp ; c. There are other relations between the constituents of the determinant , due to the fact that opposite edges are conjugate polars with reference to the absolute quadric .
+Thus , \amp ; .
+If we square the determinant we get As before we take ; in fact , is the determinant formed out of the second minors of .
+Whence Hence if we choose we must have also .
+Each constituent of the determinant is equal to its minor .
+Also each minor of is equal to its complementary minor .
+27 .
+In any displacement of a rigid body there are always two lines which rema the same position after displacement . .
+SCOTT'S ' Determinants chap .
+, S 9 .
+A RIGID BODY IN ELLIPTIC SPACE .
+For let be the coordinates of a line which remains unchanged .
+If such a line exist , we must have .
+These equations are not independent ; they are equivalent to four independent equations only .
+We proceed to eliminate and between the equations 2 , 3 , and 4 .
+The determinants thus introduced can be simplified by virtue of the relations between .
+Thus Similarly Again Similarly .
+Hence ( finally ) By a similar process we arrive at the following equations Again , since , \amp ; c. , the last three of the original equations are the same as the first three , with written respectively for .
+Hence these three give rise to the group of equations It is not difficult to show that the first three equations of the first group , with the last of this group , contain all the rest .
+Besides these we have the equation If we substitute for , their values in terms of , it becomes similar terms This with the equation will give us a quadratic in the ratios of : Hence there are two lines which remain fixed during any displacement .
+Since the equations to find are exactly the same as those to find it follows that one of the lines will be the polar of the other .
+The above work implies that the determinant vanishes .
+I have verified by actual calculation and reduction in terms of that the determinant and all its first minors vanish ; but the work is too long to be reproduced here .
+Expressing the fact that two lines remain fixed during any displacement in kinematical language we learn that any displacement whatever of a rigid body may be produced by two rotations , about two lines which are to each other with reference to the absolute .
+Instead of rotations we might have said translations ; or , expressing one of the rotations as a translation along the polar line of its axis , we learn that any displacement of a rigid body may be effected by a rotation about a line A RIGID BODY IN ELLIPTIC SPACE .
+and a simultaneous translation along it .
+Instead of the line we might equally well have used its polar .
+28 .
+Suppose the position of any rigid body determined by the coordinates of the angular points of a quadrantal tetrahedron fixed in the body .
+Then , for a displacement of the body , we have the equations The sixteen quantities , \amp ; c. , have relations among them , and it is possible to express them all in terms of six properly chosen variables .
+These new variables are thus defined:\mdash ; Since \amp ; c. we immediately deduce six other equations by differentiation .
+These And besides these , we have the four equations From these it follows at once that In this way we arrive at following equations:\mdash ; and similar equations hold for the other suffixes .
+29 .
+Substitute these values in the equations for , and make the variable tetrahedron instantaneously coincide with the fixed tetrahedron ; then To interpret the 's suppose all except one ( say ) to vanish .
+Then vanish ; therefore the distances of the moving point from the angular points 2 and 3 are constant .
+Hence the displacement is a rotation about the axis 23 .
+If we put , we get .
+Hence is the angular velocity about the axis 23 .
+This angular velocity is from the angular point 1 , towards the angular point 4 .
+Assuming the principle of superposition of small motions , we may say that the equations giye us the rates of change of the variables , due to a motion , which is the resultant of angular velocities , about the six edges of the fixed tetrahedron , 23 , 31 , 12 , 14 , 24 , 84 respectively .
+30 .
+In exactly the same way we may express the variations of , in terms of six other variables , , defined as follows:\mdash ; A RIGID BODY IN ELLIPTIC SPACE .
+These equations give us and similar equations in , and It will be seen that - , are formed from the cocrdinates , \amp ; c. , in exactly the same way as , were formed from , \amp ; c. Hence , if we regard the variable tetrahedron as fixed , the other tetrahedron will have angular velocities relative to it .
+Hence , reversing the motion , we see that are the angular velocities of the moving tetrahedron about fixed axes instantaneously coinciding with its own .
+31 .
+By definition , Substitute the values of in terms of the ; then i. e. , Similarly for the other .
+Hence the 's can be expressed in terms of the 's by the same transformation scheme that was used for expressing , 90 , , in terms of 32 .
+This result gives us the law by which angular velocities and translations are resolved .
+For suppose all the 's zero except , then In other words , any angular velocity , about a fixed line is equivalent to component angular velocities oout the six edges cf the fundamental tetrahedron respectively .
+A translation along a line may be resolved into translations along the six edges according to the same law .
+Hence , the component angular velocity about a line of an angular velocity about is If the lines meet , this law is similar to the parallelogrammic law in ordinary space .
+find the component angular velocity about any line , we multiply the given angular velocity by the cosine of the inclination of the line to the axis of rotation .
+Also the component translational velocity along the line due to the same angular velocity , is Hence the expression denotes the along one line due to a unit angular velocity about the other .
+It is sometimes called the moment of the two lines .
+33 .
+We shall next find the rates of change of the coordinates of a line , due to the angular velocities Take two points , distant a right angle from each other .
+We already know expressions for in terms of the .
+Now and therefore Hence finally Since , \amp ; c. , correspond to , \amp ; c. , il ' we apply these formulae to the edges of the fixed tetrahedron we find A RIGID BODY IN ELLIPTIC SPACE .
+34 .
+Let , be any quantities which obey the same law of resolution as has been proved for angular velocities ; we can now find the rates of change of these quantities , referred to axes moving with the body .
+Let , . .
+, be the rates of change of these quantities .
+Now is the component of the 's in a fixed direction .
+Hence we must have . .
+Differentiate out the left side , and substitute for , .
+, in terms of the angular ve]ocities of the moving axes about fixed axes instantaneously with them , i.e. , in terms of the .
+Then . . .
+similar terms in . . .
+and there are similar equations with , . .
+substituted for .
+If we multiply these equations by , . .
+, and add , we find an expression for .
+In this way we arrive at the equations Theory of screws .
+35 .
+It has been shown that any ate of mot , ion of a rigid body may be reduced to a translation along a line and a simultaneous rotation about it .
+Such a motion is Then , may be defined to be the coordinates of the screw , and the magnitude of the twist about it .
+The quantity may be called the parameter of the screw , and will be denoted by .
+If , the coordinates are the coordinates of a line , and the motion degenerates into a rotation about the Iine represented by the coordinates .
+The locus of lines whioh have no lengthwise velocity due to a twist about the screw , is the linear complex This we shall call ( after LINDEMANN ) the Rotation Complex .
+If .
+had been translations instead of rotations , the same property would have been enjoyed by the polar complex This is called the Translation Complex .
+Any property of one complex has a corresponding property of the other .
+The trajectory of every point on a line of the rotation complex is perpendicular to the line .
+Hence the trajectory of any point whatever is normal to the plane which corresponds to the point in the complex .
+If we refer back to the expressions for , we see that and also Hence , if any line belongs to either complex , it will belong to it after receiving a small twist about the corresponding screw .
+Hence , by superimposing such small twists , it follows that both complexes are transformed into themselves by a twist about the corresponding screw .
+36 .
+The screw may be replaced by two rotations , or two translations , in an infinite number of ways ; any line may be taken as one axis of rotation or translation , the other axis being the conjugate polar of the first with respect to the Rotation Complex .
+For let the twist about the given screw be equivalent to rotations , about axes , and , respectively .
+A RIGI ] ) ELLI SPACE .
+307 Then Squaring and adding we get @ ; also @ where @ is the length of a common perpendicular to the two lines and the angle between them .
+Further , from the form of the above equations , it follows that if any line of the rotation complex meet one axis of rotation , it will meet the other .
+Hence the two axes of rotation are conjugate polars with respect to the rotation complex .
+The axes of the screw are obtained by making the second line the polar of the first .
+This gives \amp ; .
+and therefore The axes of the screw are conjugate polars with respect to both complexes ; i.e. , they are the directrices of the congruance formed by lines common to the two complexes .
+37 .
+We shall now find the surface corresponding to the Cylindroid .
+Let one twist be defined by the components , the others being zero ; and a second twist by the components , the rest being zero .
+Let the resultant motion be a rotation about a line , and a translation along it ; we have to find the surface generated by this lin .
+As before and Hence the new axis always meets the lines , , i. e. , the new axis always meets the common perpendiculars to the axes of the given screws .
+From these equations we easily deduce Hence eliminating : .
+This equation must be expressed in point coordinates .
+Since and say , and say .
+Substituting for in the expressions for , the factor divides out and the equation to the Cylindroid becomes finally .
+This is a surface of the fourth order having the common perpendiculars of the axes of the two given screws , for nodal lines .
+38 .
+To find the conditions that any number of twists about given screws may produce rest .
+The method here employed is the same as that given by SPOTTISWOODE , in the ' Comptes Rendus , ' .
+lxvi .
+Let the coordinates of the screws be .
+, there being screws ; and let the magnitudes of the twists on them be .
+Then the conditions that they will neutralise each other will be The expression is called the simultaneous invariant of the two screws and 1 , and it will be denoted by ( 01 ) .
+Similar expressions will apply to the other screws .
+The quantity ( 00 ) will be the parameter of the scre .
+By means of the equations of condition we get Multiply these out , then Here 2 implies summation from to inclusive .
+A RIGID BODY IN ELLIPTIC SPACE .
+Now let imply summation from 1 to inclusive .
+Then writing the equations of condition in the form \amp ; .
+, we can show , as before , that , i.e. , .
+Subtract this from the former equation , then In this way we deduce the equa , tions The condition that these should be simultaneously satisfied is that the determirJant should vanish ; that is , 39 .
+Since , \amp ; c. , this determinant is symmetrical .
+Let [ 0,0 ] , , 1 , .
+denote the coefficients of , , . .
+in the expansion of the determinant .
+Then Then we can solve any of the equations to find the ratios : : Suppressing the first equation we get Similarly , by suppressing the second equation , we find that and so on .
+Hence finally : : : [ 1,1 ] : [ 2,2 ] will be the moment of the lines of action of the translations or rotations , and the conditions that the system may produce rest are of the same form as before .
+Kinetics .
+40 .
+The definitions of acceleration , momentum , and kinetic energy of a particle are taken to be exactly the same as in ordinary space , and do not need further comment .
+We shall next consider the measure of force .
+To determine a force completely we require a line of action and a measure of its magnitude .
+We assume that a force may be applied at any point of ibs line of action .
+As in ordinary space we shall take NEWTON'S second law of motion as the basis of the measurement of forces .
+This law states that " " change of motion is proportional to the impressed force , and takes place in the direction in which the force acts Hence , if a force act on a particle of known mass it will cause a change of momentum in the direction of its action , and the measure of the force will be proportional to the change of momentum per unit of time .
+By the proper choice of the unit of force we may deduce the equation which gives the dynamical measure of any force .
+Since a linear acceleration along any line is exactly the same thing as an angular acceleration about the polar line , it follows that a force along any line is the same thing as a couple about the polar line .
+41 .
+NEWTON'S law further implies the physical independence of forces ; i.e. , if number of forces act on a body each produces the same effect as if it alone acted on the body .
+Hence if a number of forces act on any number of particles each force produces its own and to calculate the resultant of the forces we must calculate the resultant change of momentum per unit time ; in other words , the laws by which forces are combined are the same as those for velocities and accelerations .
+If , therefore , a force act along a given line whose coordinates are its effect is the same as if forces Pa , , . .
+acted along the edges of the tetrahedron of reference ; and the component force along any other line is A RIGID BODY IN ELLIPTIC SPACE .
+and the couple about it is 42 .
+All the theorems about compounding linear and rotational velocities apply to systems of forces and couples .
+Thus any system of forces may be reduced to two , acting along lines which are conjugate to each other with respect to a certain linear complex .
+Any system of forces may be reduced to a wrench about a certain screw .
+We can now give an interpretation to the simultaneous invariant of two screws .
+For suppose is a twist about a screw , . .
+, and a wrench about another screw , . .
+Then , . .
+are angular velocities about the six edges of the tetrahedron of reference , and , . .
+are couples about them .
+Hence if the body receive a small displacement about the first screw , while the wrench about the other screw is acting on the body , the rate of doing work will be and therefore the simultaneous invariant of two screws is the rate of doing work , when the body has a unit twist about one screw , while a unit wrench on the other screw is acting on the body .
+43 .
+The condition of equilibrium of any number of wrenches on given screws is the same as the condition that a number of twists about the screws should neutralise each other .
+If the wrenches reduce to couples or forces we have only to make , .
+The conditions , therefore , for the equilibrium of any number of forces , . .
+acting along given lines are , first , that the determinant should vanish , and further , that the forces should be proportional to the square roots of the minors of the terms of the leading diagonal of this determinant .
+44 .
+Since , if we resolve the force into the components , .
+along the edges of the fixed quadrantal tetrahedron , and if , . .
+be the components of along these edges , we have .
+Applying these equations to all the particles of the body , and usin principle , the equations of motion of the body become .
+Multiply these equations by , . . .
+and add ; then and therefore integrating , which is the equation of conservation of energy .
+45 .
+We must now express the velocities of all the particles of the body in terms of the given angular velocities Let be the line through along which this point begins to move .
+The line will therefore join the two points , u ) and .
+Hence : But and we have similar expressions for the other terms .
+Hence where is some common factor yet to be determined .
+46 .
+Square and add these expressions .
+The left side reduces on the right , the coefficients may be simplified by virtue of the .
+Thus the coefficient of is .
+Again , the coefficent of is A RIGID BODY IN ELLIPTIC SPACE .
+All the other terms may be simplified in the same way , and therefore finally zu Next multiply the equations by , . . .
+and add ; the same expression as before appears on the right , and therefore that is Hence is the velocity of the point under consideration , and the above expressions for , . .
+are the velocities of the point resolved along the six edges of the tetrahedron .
+47 .
+Multiplying them by the mass of the particle , and taking the sum for all the particles of the body , we find expressions for the l.inear momenta of the body resolved along the six edges of the tetrahedron .
+For brevity , let , \amp ; c. , and let , \amp ; c. Then if , 2,3,4,5,6 denote the angular about the edges 23 , 31 , 12 , 14 , 24 , 34 , or the linear momenta along the edges 14 , , 23 , 31 , 12 respectively , Also taking we get the kinetic energy , : \mdash ; 48 .
+The last article suggests the idea of moments of inertia .
+We may define sum of the products of the masses of all the particles of a body into the lares of the sines of the perpendicular distances from a given plane , as the moment of inertia of the body with regard to the glven plane .
+Similarly the product of inertia with regard to two planes is the sum of the masses multiplied by the product of the sines of the perpendicular distances from the planes .
+The moment of inertia about a lin may be defined in a similar way .
+The moment of inertia of a body about any plane is Thus the equation . .
+is the tangential equation of a surface of the second order , which has the property that the moment of inertia about any tangent plane is zero .
+Professor CLIFFORD this the null surface of the body .
+The property just mentioned is independent of the system of coordinates chosen .
+49 .
+By an orthogonal transformation of such an equation of the second degree we can rid the equation of the products , . . .
+, and at the same time keep unchanged .
+The surface now becomes The planes of the particular quadrantal tetrahedron chosen may be called the four principal planes of the body , and the edges the six principal axes of the body .
+The envelope of planes which give a constant moment of inertia , , is given by the equation , This is a face of the second order .
+Now is the tangential equation to the Absolute quadric .
+Hence , this surface has the same common tangent planes with the Absolute as the null-surface has .
+In other words , this surface and the null-surface stand in the same relation to each other as confocal quadrics in ordinary geometry .
+Hence the planes which give a constant moment of inertia envelope a quadric confocal with the face .
+50 .
+We next consider the moment of inertia about a line .
+Let , be the coordinates of any lin , then it was shown in S 17 , that if be the sine of the perpendicular distance from any point to the line , A RIGID BODY IN ELLIPTIC SPACE . .
+Making use of the previous notation the expression for the moment of inertia becomes .
+If we refer this to the principal tetrahedron of inertia , all the 's vanish , and it reduces to It must be noticed that the quantities are not independent ; for since we have where is the mass of the body .
+51 .
+We are now in a position to write down the most general equations of motion of a rigid body , under the action of any forces , referred to a quadrantal tetrahedron moving in space , in any manner .
+For in S 34 we obtained formulae for the rates of change of any quantities , obeying the usual law of resolution and composition , relatively to axes moving in any manner .
+Applyin these formulae we can obtain the rate of change of momentum relative to any moving axes .
+Equating the rate of change of momentum to the impressed forces , we get the equations of motion .
+Let , . .
+denote the six components of angular momentum about the six edges of the tetrahedron , and let , . .
+denote the total impressed couples about these lines .
+The expressions for , . .
+, have been given in S47 .
+The equations of motion , therefore , We may write the of the 's in the form where has the value given to it in S47 .
+52 .
+If we suppose the tetrahedron fixed in the body , we must put ; and if further , the tetrahedron be the principal tetrahedron of inertia , the will correspond to EULER'S equations .
+They then become 53 .
+If the body be moving under the action of no forces , there are two invariable complexes , viz. : and its conjugate complex .
+For since the equations of motion express the fact that the 's do not change , these complexes will be fixed in space .
+The complex whose equation has just been given is the locus of lines along which there is no linear momentum .
+If no forces act , if we multiply the equations of motion respectively by , . .
+, and add , we get by integration which is the equation of conservation of energy .
+If again we multiply the equations of motion by , . . .
+, and add , we arrive at another integral of the equations , which expresses the fact that the sum of the squares of 's is constant .
+One more integral may easily be found .
+For let .
+then and \amp ; .
+Hence the first three equations may be written in the forms A RIGID BODY IN ELLIPTIC SPACE .
+From these we immediately deduce the equation a constant .
+Solution of the equations in terms of the double theta-functions .
+54 .
+The equations of motion of a solid body under the action of no forces can be solved in terms of the theta-functions of two variables , one of the variables being a linear function of the time .
+The solution , however , is not complete , owing to a deficiency in the number of arbitrary constants .
+The notation employed will be that given by Mr. FORSYTH in his " " Memoir on the Double Theta-functions , \ldquo ; published in the Philosophical Transactions for 1882 .
+The definition of a double theta-function is expressed by the equation in which are given integers ( afterwards taken to be each either zero or unity ) and is called the characteristic ; are the variables ; are known constants , called parameters ( in our case arbitrary constants ) ; and the double summation extends to all positive and negative integral values ( including zero ) of and There are sixteen different double theta-functions distinguished by suffixes , 1 , 2 , . . .
+15 .
+These are written , , . .
+, or when the variables are easily understood , simply , .
+The characteristics of the sixteen functions are given in the following table:\mdash ; The functions , are odd functions , the rest even .
+55 .
+For denote by by , y by by for all the different suffixes .
+Also let , \amp ; .
+for all the even functions .
+Mr. FORSYTH finds formulae for the products for different values of the suffixes .
+These are given on p. 834 et seq. of his Memoi In the 13th set occur the first four of the following six formulae .
+The remaining two formulae are not in his list , but are proved in exactly the same way .
+If in each of these formulae we change the sign of , and then subtract each new formulae from that from which it is derived , we deduce the following six equations:\mdash ; 56 .
+The odd functions , . . .
+will vanish when .
+Let be the coefficient of in the expansion of , so that and so on for all the odd functions .
+Differentiate all the equations of the last set with respect to and then put We notice that : A RIGID BODY IN ELLIPTIC SPACE .
+and .
+Hence , taking the first equation , or Performing the same operations on all the equations we arrive at the following six relations :\mdash ; 57 .
+If we take the mass of the body to be unity , and notice that the equations of motion of the body under no forces may be written Assume , therefore , where in all these formulae and is arbitrary .
+The coefficients , and are arbitrary constants .
+If we substitute these values of , . . .
+in the equations of motion they give the equations Now these relations are of the same form as the relations between the , which have been proved above .
+We have only to choose the arbitrary constants so as to make these equations exactly the same as the relations between the , and then we have got a solution of the equations of motion .
+58 .
+Compare first the terms involving products ; in this way we find the relations A RIGID BODY IN ELLIPTfC SPACE .
+21 Also If we eliminate from the first three equations , by multiplication , the result takes the form This equation among the constants does not hold in general ; so we must suppose the parameters of the theta-functions so connected as to make it satisfied .
+a Again , multiplying the last three equations by f- , ' respectively , and comparing them , we see that Of these , the first equation is the same as the third of the first set .
+The second may be written Comparing this with ' first of the other set we get which is the same as before .
+Hence the six equations are consistent if this one relation holds .
+They give us That is Sinularly From the last three equations .
+These are all positive if in descending order of magnitude .
+a We have already found the ratios ' ' and therefore we know completely in terms of , and the .
+If we substitute these values in the first three equations of the last set , we are left with three relations among the constants .
+Now the 's implicitly involve the eight constants , , and the other variable , which ; perfectly arbitrary .
+Among these quantities we have seen that there are four relations imposed by the form of the equations of motion .
+Hence there are four arbitrary constants left to express the initial conditions .
+But to do this completely , we should require six constants .
+Thus the solution is not complete .
+60 .
+The relation may be ified by means of general relations between the By Mr. FORSYTH'S product theorem , we can prove that A RIGID BODY IN ELLIPTIC SPACE .
+The last two equations are given by Mr. FoRSYTH in equations ( 212 ) , ( 219 ) of his Memoir .
+Differentiate these equations with regard to and then put ; they give us . . . . . .
+Hence Hence or But we have also Multiplying this by the first of the other two equations we get If therefore we have also whence i. e. , ADDITION .
+Added March 4 , 1884 .
+) The relation between the constants may be put into another form .
+We have Hence , performing the same operations as before Whence the coefficient of in and the coefficient of in Hence coefficient of in coefficient of in Now in Mr..FoBSYTH'S notation ; therefore and finally Hence , if vanishes , we have , since ; that is , is independent of
+

@@ -1,0 +1,593 @@
+]\gt ; 95 ] IV .
+On the Discrimination of Maxima Solutions in the Cadculus of Variations .
+EDWARD P. CULVERWELL , M.A. , Fellotu Tutor , Trinity College , Dublin .
+Communicated by BENJAMIN , F.R.S. , Professor of Philosophy in the University of Dublin .
+Received June 5 , \mdash ; Read June 10 , 1886 .
+THE criteria for distinguishing between the maximum and minimum values of integrals have been investigated by many eminent mathematicians .
+* In 1786 LEGENDRE gave an imperfect discussion for the case where the function to be made a maximum is I .
+Nothing further seems to have been done till 1797 , when LAGRANGE pointed out , in his ' Theory des Fonctions Analytiques , ' published in 1797 , that LEGENDRE had supplied no means of showing that the operatlons required for his process were not invalid through some of the multipliers beco1lling zero or infinite , and he ives an example to show that LEGENDRE'S criterion , though necessary , was not sufficient .
+In 1806 BRUNACCI , an Italian mathematician , gave an investigation which has the important advantage of being short , easily comprehensible , and perfectly general in character , but which is open to the same objection as that brought against LEGENDRE'S method .
+The next advance was made in 1836 * This sketch is founded on TODnUNTER'S valuable ' History of the Calculus of Variations .
+' method may be explained as follows : Let be the function to be made a maximum , and let us denote and by and respectively .
+Thus , the hmits of being supposed fixed , . . .
+( 1 ) The first integral must be made to vanish by a relation between , o , and .
+Eliminate for the coefficients in the second integral of ( 1 ) by means of this relation , and let it be written\mdash ; . . . .
+( 2 ) Now , remark that , the limits being fixed , vanishes , whatever and may be , for 4.6.87 MR. CULVLRWELL ON DISCRIMINATION OF MAXIMA AND by the illustrious JACOBI , who treats only of functions containing one dependent and one independent variable .
+JACOBI says HUNTER , Art 219 , ) ' I have succeeded in a great deficiency in the Calculus of .
+In problems on maxima and minima which depend on this calculus no general rule is known for deciding whether solution really gives a maximum or a minimum , or neither .
+It has , indeed , been shown that the question amounts to determining whether the of a certain system of differential equations remain finite throughout the limits of the integral which is to have a maximum or a minimlim value .
+But the integrals of these differential equations were not known , nor had any other method been discovered for ascertaining whether they remain finite throughout the required interval .
+I have , however , discovered that these integrals can be immediately obtained when we have rated the rential equations which must be satisfied in order that the first variation may vanish JACOBI then proceeds to state the result of his transformation for the cases where the nction to be ated contains , and , and in this solution ) analysis appears free from all objection , though , where he proceeds to consider the general case , the estigation does not } ) to be quite satisfactory in form , inasmuch as higher and higher rential coefficients of Sy are successively introduced into the discussion ( see Art .
+5 ) .
+JACOBI'S analysis is much more complicated than BRUNACCI'S ; its advantage being that the coefficients used in the transformation could be easily determined ; hence it supplied the means of ascertaining whether they became infinite or not .
+all along this curve , and it may ; therefore , be added to the integral ( 2 ) without altering its value .
+Now , Adding this quantity to the iiltegraI , We get for the quantity under the integral sign in ( 2 ) the expression expression cannot change if \mdash ; is positive , and .
+( 3 ) We can determine and so that : ; shall be true , and hence , if be positive , the second variation will be invariable in sign .
+The objection to this method is that there is no means of ascertainin hither and and remain finite or not .
+If the region of integration be small , they can always be determined so as to satisf in general they become infinite when the integration extends er a large .
+Thus , to com let the .
+But Holution , it is necessary to have some means of finding within what ran ge ntegrat on tho criteria are of integration th sufficient .
+It was because method did not easily lend itself to the discussion of thi that devised bis far moi intricate method .
+problem MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+JACOBI did not himself give a detailed account of his process , but said that " " the analysis just indicated requires a good knowledge of the Integral Calculus Various demonstrations were subsequently given by different ematicians .
+That of DELAUNAy has been adopted by JELLETT and other English writers .
+In 1852 MAINARDI devised a method somewhat similar to that of BRUNACCI , but he endeavoured to remed .
+the omission in the latter by showing how to determine the coefficients used in the transformation , the equations for determining these coefficients being supply by JACOBI'S reasoning .
+But in this he was not successful , even in some of the simple cases which he discussed , and in the more complicated cases the equations appear to be quite unmanageable .
+In 1853 ISENLOHR extended JACOPI'S method to double integrals .
+In 1854 memoir by SPITZER was published which seems t.o have been more complete than MAINARDI'S ; but the most important advances were made a few years later when the Theory of Determinants was applied by HESSE and by CLEBSCH to simplify and extend JACOBI'S methods .
+From the foregoing sketch it will be seen that as early as 1806 the criteria had been correctly given and simply proved , with the exception of one point , namely , that there was no means of ascertaining for what range of integration ) criteria ceased to be sufficient .
+JACOBI endeavoured , by the help of a complicated analysis , to remedy this defect ; and , although all the efforts of later mathematicians have been directed to the extending or simplifying of method , the analysis is still very complicated , and requires an intimate acquaintance with branches of mathematics .
+All these methods , however , are open to the objection stated irt Art , 5 , and , furthermore , it appears to me , for the reasons briefly indicated in Art .
+12 , that , although the results arrived at by these mathematicians are undoubtedly correct , it would impossible to give a strict proof of them by any method based on transformations .
+However this may be , I cannot find that anyone has yet given a proof of them .
+JACOBI merely states the limits within which the criteria hold .
+The chief object of the present paper is to show that a rigorous discussion of the discriminating conditions can be given without introducing any analytical transformations whatever , the results being obtained by reasoning from the fundamental conceptions of the Calculus of Variations .
+In the first Part of the paper will , however , be found an analytical method leading to JACOBI'S transformation , but free from any serious difficulty .
+It is inserted chiefly on account of the historic interest of the problem .
+I had extended this method to obtain the criteria for the case of any integral whatever before I was aware that the results were not altogether new .
+It was after finding the limits up to which the criteria were sufficient that I was led to the general method given in Part II .
+For convenience , a summary of contents is given below ; the numbers refer to the 98 MR. E. P. ON DISCRIMINATION bfAXIMA AND articles .
+Those who desire to read only the general method wiJl find Part IT .
+complete in itself It was originally intended that a tolerably oomplete account of the treatment of the problem , when the limits were not all fixed , uld be mserted , but the length to which the paper has extended seems to render this PART I. Algebraic Trcm.rrnations of the Second Variation .
+1 .
+Notation .
+2 , , and 4 .
+General remarks on the problem for two variations .
+" " Synclastic\ldquo ; and stic \ldquo ; functions .
+5 and 6 .
+Examination of JACOBI'S method .
+7 and 8 .
+Comparison with algebraic method of this paper .
+9 and 10 .
+Two variables\mdash ; general case .
+11 .
+Probable ilure of the transformation if the limits widely separated .
+12 .
+Criterion given by the result of the transformation .
+The Method .
+13 and 14 .
+Conditions implied in the problem .
+15 .
+and have the same sign for small nge of integration .
+16 .
+Integration\mdash ; limits within which the property holds .
+17 .
+General remarks on the oing proof . .
+Any number of variables\mdash ; notation and lirnitations .
+19 .
+Statement of the general problem .
+20 .
+Criterion for the sign of where the " " highest fluxions\ldquo ; of any dependent variable are all of the , same order , the integration extending over a small region only , 21 .
+Limits within which the criterion is sufficient .
+22 .
+The " " highest fluxions\ldquo ; are not all of the same order .
+The result includes that of Art .
+20 . .
+The highest of all the fluxions of any dependent variable appears in the first degree only , PART I. Algebraic Transformations of thoe Second iation .
+1 . .
+the following the word " " fluxion\ldquo ; will be used instead of the long expression " " differential coefficient When there is but one independent variable , , the successive fluxions of the dependent variables will be expressed in the known notation MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+, \amp ; c. , \amp ; c. , , ( 1 ) and the partial fluxions of a function ( f ) of these quantities with respect to any of them , say , will be denoted by .
+It will often be convenient to use a acket to denote result of subtracting the value of the quantity in the bracket , when taken at the lower limit of integration , from its value for the upper limit ; thus by is meant .
+In other cases , where it is unnecessary to write out the ting terms , the letter will be used as an abbreviation for the expression " " terms depending on the limits only as in the following equations:\mdash ; I , . . . . .
+( 2 ) where , though the letter is the same in both equations , it does not necessarily denote the same quantity .
+2 .
+To obtain a clear insight into the nature of the problem before us , let us examine it in the most simple and familiar case , that in which there is but one dependent and ( one independent variable .
+Writing , . . . . . . . .
+( 3 ) let us call V.U the total variation of due to a change of form in , by which it becomes ( being always a function of ) : V. , ( 4 ) V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. V. which we may write V. where SU is the part of V. depending on the first powers of Sy and its fluxions , that depending on their second powers , on their third , and so on .
+As usual , these will be termed the first , second , and third variations of , and so on .
+3 .
+The form of having been determined so that the value of SU vanishes independently of the value of Sy , the terms which we have to examine are those of This quantity , as obtained in the first instance , is explicitly a function of , and Sy .
+But , as the value of obtained by making SU vanish is known in terms of { can be expressed in terms of and Sy .
+When so expressed , may either remain the same sign , whatever function Sy may be of , or else it may have .
+one sign when Sy is a suitably chosen function of , and the opposite sign wheri there expression is taken for St ] .
+In the former case the integral must be ei .
+there a maximum or a nJinimum ; a maximum if the sign of is constantly negative , and a minimum if it is positive .
+In the latter case the integral is neither a maximum nor a minimum ; its only characteristic is thab the first variation vanishes .
+Tt will save much useless if we use a single word to express this latter class of integral , and the word " " arlticlastic borrowed from geometry , seems a suitable one .
+It has also the advantage of another term , " " clastic for those functions which give either a maximum or a minimum .
+With explanation the problem before us is to ascertain whether the integral is synclasbic or anticlastic .
+If it be the former , a glance will enable us to determine which the result is , a maximum or a minimum .
+4 .
+We might reduce , by a real linear algebraic transformation , the part of under the integral sign to the sum of squares , and say that , if their coefficients be positive all through the integration , then , whatever be the limiting values of the arbitrary variations , the second variation must be essentially positive ( at least unless changes sign during the integration ) ; but the converse of this is not true , for it does not follow that , if the coefficients of the squares have different signs , it is possible to make the second variation change sign .
+If Sy , . . . .
+@ were all independent , this converse would be , hence one element in the problem before us is to introduce , in a suitable form , the interdependence of the quantities Sy , @ .
+Again , if the limits are not all arbitrary , there will be further limitations to the range of ' taken by Sy and its fluxions ; and the second element in the problem is to find how these limitations to Sy and its fluxions affect the sign of the second variation .
+5 .
+JACOBI'S method appears to me open to the serious objection that it is necessar to its alidity that the first fluxion of Sy should be continuous ; so that the only proves a curve AB fulfilling the synclastic condition gives a better result than any infinitely near curve fulfil the same limiting conditions , and which ?
+continuous to the .
+fluxion of .
+And it would not show that it was not possible to find other broken curves fulfilling the same limitin conditions and at our pleasure , a value to the .
+either greater or less than that given , an curve AB .
+Thus , for instance , the case of least action , it would not sh an at gven by the action the free trajectory was less than in any constrained path ( whi ow that the but only that it was .
+less than that in any path for which the tangent had but one ich it is , in fact ) , at every point .
+To show for the general case that JACOBI'S proof assumes MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+this continuity of would require a large amount of work , but it will be sufficient for our purpose to take the simple case where the function to be made synclastic contains only , and Let us apply his generat method to the integral * ; therefore SU @ ; integrating by parts , @U @ Hence @y @y @y It will save trouble if , in what follows , we use the abbreviations , and , in general , , and , in general , Then we may write @y @y , of which the part under the tegral sign is @ @ .
+( 5 ) Now let be a of the equation .
+( 6 ) JACOBI treats this case by a method not identical in form with the general method he gives .
+Multiply ( 6 ) by , and subtract it from the part under the integral : then we have for the part under the integral sign and , writing out the complete variation , we get the final expression ; from this it is eyident that , if in the course of tion , the function could not be synclastic .
+6 .
+If the variation Sy were such that Sj suddenly changed from one finite value to another , @J must be infinite at that point , and the integration would not be permis , or , at least , it would require a justification which , so far as I am aware , has never been considered necessal.y .
+Again , it will be observed that the limiting values of are introduced in the process ( though for this cas .
+it is easily seen that in the final result the terms in which they appear are identically zero ) .
+What has been shown in this case is true in general : the first fluxions of are brought in the lntegral sign , and of these the last fluxions are ot rid of by lntegration .
+Again , the limiting values of the first fluxions are introduced outside the integral , and , of these , the fluxions disa ear through their coefficients being identically zero ; but the direct proof of this in the general case would , so as I can see , require transformations of even greater len th than those usually applied to the part under the integral sign .
+7 .
+It was with the object of ining whether it was necessar the eneral gener case , to assume the continuity of the value of Sy and its fluxions that I first considered the problem ; and I communicated to the British Association ab Montreal an account of a method which was free from this objection , and had the additional advantage of a simplicit which bl ona ena to be easily extended to any number of dependent variables an ; and it Is , 10 principles , applicable to the most general case .
+8 The application of this method to the preceding case is as follows .
+Takin second variation the form on p. 99 , equation ( 4 ) , in expanding V. , we have the MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+Writing in this for Sy , where is a function of at present unknown in form , and expanding the result , we get Integrating by parts the term involving Sy , The multiplier is quite arbitrary , and can therefore be determined so that the quantity multiplying under the sign of integration shall vanish , and hence , when this value of is chosen , we have This is the same form as that in the other reduction , and it is easy to prove that is a solution of the equation ( 6 ) used in finding in JACOBI'S method .
+9 .
+We have now given examples of the simplest cases .
+The method of treating , where will now be given in its shortest form .
+Usin the notation already adopted , we may write If we transform this by writing for Sy , and expanding the fluxions , we shall get an expression which may be written , ( 7 ) where , for instance , means and contains as well as .
+This expression consists of terms in which @y itself enters , and other terms in which only its fluxions appear .
+Integrate by .
+parts the terms containing ; thus , in the previous expression @@ @ and , finally , @@ where , with the exception of the term involving , the integral involves only fluxions of Sy , and a similar reduction can , of course , be applied to any terms of the same form .
+Reducing all the terms involving in ( 7 ) , we get for an expression which we may write , in the terms un.der the double summation sign , only appears through its Juxions .
+If we determine by the equation , a differential equation of the order , we have depending on the limits and on terms involving only hrough its fluxions .
+If th expression be transformed by writing for , then , after expanding , we get an expression which we may write @2U in which the highest fluxion of is of the order .
+This expression can be reduced by the same method , and we get Determine so that for all values of , then will depend on and the fluxlons of Sw : transform this by writing , in the part under the integral sign , , and reduce in the same way , and on till we come to the last transformation but one , in which which , treated similarly , gives ; and , determining so that , we get finally MINIMA SOLUTIONS IN THE CALCULUS OF VARTATIONS .
+When we substitute for its value in terms of Sy and its fluxions , we must ] have an expression of the form ; , as it is evident that the coefficient of S is unaltered by transformations , the expression for may be written in the form where ains Sy and its up to , but not including , 10 .
+This is the same form as that in JACOBI'S method , ) it has been obtained on the supposition that integrations may be performed on Sy , , . .
+@ ; this requires that Sy .
+S should be continuous in every sense , and that S should not become infinite , but it may suddenly change from one finite value to another .
+It is very important to note this in connection with the condition determining the point at which a curve ceases to fulfil the synclastic condition .
+As yet , the equations determining the quantities , . . .
+used in the transformation have not been given , and it might be supposed that they would have to be found in order to determine the part of depending on the limits .
+It however , be seen that in this well as in every other case under the Calculus of Variations it is only necessary to use these quantities to show that the reduction can be made .
+As a matter of interest , however , a short discussion is given below .
+may be interesting , though not required for our immediate purpose , to examine the relation which the coefficients , \amp ; c. , in the transformation bear to the value for which gives the synclastic value to the integral .
+For this purpose it ] be convenient to use instead of In the first place , it is evident that , if we have any expression for as a quadratic function of and its fluxions , we shall get by taking the polar , with respect to the quadratic function , of the point whose coordinates are and so on , using the word " " point\ldquo ; in an extended sense .
+If a proof of this is desired , write for in and get and , after expanding , equate coefficients of , which is quite arbitrary .
+Hence , from equation ( 7 ) we obtain ; and , since the integral contains only fluxions of will depend only on the limits , ever be the form of provided , that is , , is constant ; and therefore is one of the values of for which is independent of the form of .
+Now , MR. E. P. CULVERWELL ON DISCRiMINATION MAXIMA AND 11 .
+It is important to observe that this transformation is only valid , provided none .
+used in the transformation vanish for any value ish for an of the quantities , .
+of passed through in going from to .
+For , suppose vanishes , then , as , the corresponding value of must be infinite .
+Now , slnce .
+and therefore ; and this can only be independent of the form of when that is to say , when satisfies the equation satisfied by , i.e. , .
+( ) If , then , the solution of ( b ) bc , that of ( a ) is obtained in the well-known form ( seo TODHIJNTrR , ' History of the Calculus of riations , ' p. 271 , or JELLETT , ' Calculus of Variations , ' p. 84 .
+( ) It follows that must be .
+\amp ; c. , or , shortly , , . . .
+being independent solutions of .
+In finding , we employ a similar process .
+Since the part of under the integral sign has been expressed in terms of the fluxions of , that of can be expressed in terms of the fluxions of and .
+Hence , if we choose , so that constant , the integral vanishes identically , and the whole variation depends only on limiting values of , and not on the general value .
+Hence , as before , must be a solution of , and evidently it must not be the solution .
+Let us denote it by ( observing that ?
+/2 , however , cannot be quite arbitrarily chosen from the remaining solutions because the equation for is only of the order , and can only have solutions ) .
+Then , since , it easily follows that .
+Similarly , when we come to the third transformation , we have , whence and , when constant , is a solution of .
+Hence , and similarly for tlJe remainder .
+As nothing hangs on the discussion of these quantities , it is 1tot worth writing out any more .
+In fact , the only application of the investigation to the present case would be to show that the transformations in Art .
+9 are always possible , provided a sufficiently short length of the curve be taken ; thal is , to show that it is always possible to choose \amp ; c. so that none of them vanish for any value of between the limits of integration .
+But it is easier to see that this is in eneral the , , genera , case from the equations obtained for , \amp ; c. , in the course of the transformations themselves .
+For being a function of and arbitrary constants , it follows that , if we put we can solve for the value of in terms of tbose arbitrary constants , and hence , by taking itable v ' for the constants , we can , in general , ensure that does not vanish for a valuo MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+are definite functions of and the arbitrary constants introduced in the solution , it is evident that , being the initial value of , there will in general be some value at which it becomes impossible to determine the arbitrary constants , so that some one at least of the solutions shall not have changed sign .
+Up to this point the transformation must hold , and the conditions for synclasticism derived from it must be sufficient and necessary .
+12 .
+Confining our attention to integrals for which the transformation does hold ( that is , integrals whose limits are not too widely separated ) , it is easy to see by the usual method that , unless retains the same sign throughout the integration , the integral cannot be synclastic .
+For the integral may then be divided into two parts , one negative and the other positive , and , as the form of Sy is arbitrary , we could make the numerical value of either of these parts exceed that of the other , and therefore would be capable of either sign .
+But the condition that remains of ] same sign throughout the integration is not sufficient to ensure that this integral shall be synclastic .
+This would be the proper place to examine the further condition if it could be derived from the preceding transformation , but it does not appear to me that we can avail ourselves of the analysis , for the following reasons :Some of the quantities used in the tranformation may vanish for some value of included in the integration , and the investigation would not apply .
+Hence we should have to give an independent discussion to discover the limits of the integration within which the transformation does apply .
+But even then we should only have proved that the function was synclastic up to those limits at least , and we should have still to discover whether it might not be * It is usually stated that , unless preserves its sign , the integral could not be synclastic ; but this is a mistake arising from the supposition that , because increases from the lower to the higher limit , it must have the same sign throughout the integration .
+But it is evident from the figure that doe may change sign for a value of between the limits , in which case there must be an even number of changes , or it may change sign an uneven number of times for values llot numel'ically between ths lower and higher limit , but yet passed through in going from the one to the other the curve .
+It would be easy , by transforming the axes , to multiply examples of the latter , and in these and will change sign together .
+synclastic for wider limits .
+For it does not seem by any means evident that the function cannot be synclastic unless the transformation valid .
+It might still be possible to reduce it to a sum of several squares , for instance , after it had ceased to be possible to reduce it to a single square term .
+At first sight this old appear not improbable , for it would mean that it was still possible to determine the first few coefficients , , . .
+\amp ; c. , so that none of them vanished , although it was impossible to determine so that it did not vanis'n ; then the integral would be reduced to the sum of squares , and the conditions would be that their coefficients were positive .
+These difficulties seemed so great that it appeared better to attempt the problem by an altogether different method , namely , that of supposing that the synclastic property does hold for a given length of the curve and then ascertaining where the property ceases to hold .
+It is evident that if this could be done it would be sufficient to find the synclastic condition for infinitely small range of integration , and this suggested the method now to be given .
+As already stated , the discussion of the further condition for bynclasticism will be postponed to Art .
+21 .
+PART II .
+The Iethod .
+13 .
+A full account will now be given of the general investigation as applied to the of two variables , and a somewhat shorter discussion of the general case will be found in Arts .
+20 , 21 .
+Consider the conditions under which the equation is valid .
+It is obtaiued by writing .
+for . .
+in . .
+expanding by TAYLOR'S Theorem and then integrating : TAYLOR'S Theorem requires that numerlcal values of the quantities Sy , \amp ; c. , shall not exceed certain limits .
+and that the values of \amp ; c. , shall not be such as to make the coefficients in the expansion infinite .
+Hence , if satisfy the 1 sa sit atter condition for every value of included in the range of integration , and if we take , \amp ; c. , small MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+enough , we can always ensure that the above expansion holds .
+So far , nothing has been said as to the continuity of Sy , , \amp ; c. , but , @/ J , \amp ; c. , being the successive fluxions a le uantit Sy , they must all be continuous functions of except ) , the tity highest fluxion , whose magnitude is not so restricted .
+For , if S changes from one finite value to another , for change of from to , its differential coefficient , S , would become infinite for that value of .
+But , as S does nct occur in , the yalidity of the expansion will not be affected by its becoming infinite , and therefore ) may change from one finite value to another .
+14 .
+Hence , if we discuss the problem of maxima and minima by the usual method , the variation we give is of necessity restricted as follows : Sy , , . .
+S must all be continuous functions of .
+S need not be continuous , but the magnitude of each fluxion must be restricted with certain limits , which will vary with the nature of the problem under discussion , but it will in all cases be sufficient to make them infinitely small .
+It will be convenient to consider Sy as , where a small numerical coefficient , is a function of such that it and any number of its fluxions may become zero , though in general they will be finite , while neither the function itself nor any of its fluxions up to and the can become infinite for any yalue of occurring in the integration .
+The coefficient must be taken sufficiently small to ensure that , when considering only the sign and not the of an expression involving it , we may neglect terms depending on or higher powers in comparison with those .
+on .
+Denoting , as usual , by SU , , \amp ; c. , the part of the expansion depending on the first , second , \amp ; c. , powers of Sy and its fluxions , we may say that SU is of the order of the order , and so on .
+Hence , in the absence of special nations of the form of Sy , , the part depending on will exceed all terms depending on and higher powers of , and then the sign of the whole variation will be the same a that of ( SU being zero when has its synclastic value ) .
+It is convenient to have a geometric representation , and the function will be taken as the ordinate of a curve of which is the abscissa , and the curve corresponding to the synclastic form for will be called the synclastic curve .
+15 .
+We may now easily prove the following proposition:\mdash ; Let being any function of .
+Let the second variation be taken , subject to the condition that Sy , Sy , . . .
+S are zero at each limit .
+Then the slgn of is the same as that of the term involving S in the integral , provided the range of the integration be sufficiently small .
+The second variation being written the proposition will be proved when it is shown that throughout the integration S , \amp ; c. , are all negligible , for then the term is obviously the most important .
+Now no constant being added , as valrishes when .
+Let the numerically greatest value of in the integration be , and that of be ; then , numerically , @ A fortiori , S , for , if be the greatest value of , S But ilarly S , and so on .
+Hence is of the order and similarly for each of the fractions .
+* It this that the only term of the order in the expression for is It follows that , if does not change sign in passing from to , neither can change sign , whatever be the form of Sy , and it is clear that is of t , he order , exactly as if the integral were taken over a finite portion of the curve ; and it should be remarked that the value of is of exactly the same order as if the limiting variations Sy .
+had not been zero\mdash ; that is , the order of is the same as if the most general variation possible had been given to although the actual variation zero , as also are all its fluxions up to , but not including , the It might possibly be objected that , as is zero at each limit , therefore is also zero .
+Hence , as may be taken to uniformly , must change sign between and ; and , as these values are very close , is everywhere very near its vanishing polnt , and is therefore everywhere very small .
+But this proceeds on the idea that must be .
+There is no difficulty when it is remembered that S may change suddenly from a positive value to a negative value .
+16 ithout any analytical transformations , it has been shown that if be positive the lntegral is a true minimum , and if be no at .
+gative it is a true maximum when the inte.gration is extended over a very range .
+We have still to consider how far the lntegration may be extended without ulling this property .
+WithdraWlng the restriction that small , let us consider the continuit of the second variation * It follows similarly that , provided , the ran of the ntegration , be not too great , the sign of is the same as that of , that of the same as that of , and so on ; and this does not in any way depend on having its synclastic value .
+MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+It is , in general , a quantity of the order ( Art .
+14 ) , and it is continuous if we call alter it by amounts infinitely small compared to .
+This is always possible .
+First let the limiting values of be unchanged ; then , writing , for Sy , , where is initely small compared to Sy or , it is evident that the change in the integral is infinitely small compared to .
+If , still keeping the same variation , we change the limits by writing , for and , the most important additional terms due to this change , are also infinitely small compared to the original integral .
+Now , as in the original expression for we may suppose Sy , Sy , . .
+S zero at each limit and , so we may suppose so determined that , .
+S , shall be zero for the values Hence , representing by the value of the second variation when the value of Sy is such that it and all its fluxions , up to the , vanish for both limits of integration and , we see that we can always alter the value of Sy so that is infinitely small .
+( Of course we might also alter it so that it should be finite .
+) It will simplify the further explanation if we represent the values of by ordinates of a curve of which is the abscissa , we will suppose that the value of at the lower limit is negative , so that the curve obtained by making SU vanish is a maximum when the upper limit is very near the lower one .
+Considering the lower limit of integration as a fixed point , and the higher one as an arbitrary point , on the curve ABC , we know from S 15 that when is sufficiently close to the integral is a maximum , i.e. , is a negative quantity of the .
+Suppose the curve first ceases to give a maximum when coincides with C. Then we may easily see that is the point to which it first is evident that what has been said about the admissibility of a variation may be expressed thus : is the diflerence between the ordinates of the new curve and old curve , and any curve is admissible , provided is nowhere infinite .
+Thus the broken curve ABC is admissible provided that at and the points of junction with AFC , it has contact of the order .
+Furthermore , the diffel'ence of the integrals taken along ABC and AFC is the same as the difference of the integrals along DBE and DFE , as is seeu at once by regarding the sign of integration as one of summation .
+maximum property would have ceased at , but by supposition it does not cease till , and therefore we have to find as being the first point for which or Now , 1st , because it vanishes independently of the form of Sy , or 2nd , because a particular form is assigned to Sy , causing it to vanish , or 3rd , because can be divided into separate parts , some of which vanish from the first cause and the rest from the others .
+The first case can only occur if vanishes identically , i.e. , if its coefficients vanish , and will not be further discussed .
+The second case will when y does not vanish between A and the point for which this will be evident presently ) .
+The third case must be investigated on the supposition that the parts which vanish independently of the form of Sy are infinitely small ( for otherwise wculd vanish ically ) , and for these parts must vamsh , for when the limits of integration are infinitely close , and the limiting values of Sy , , S zero , , and this vanishes independently of the fcrm of Sy when O. We have then only two cases to does not vanish throughout the integration , so that vanishes in consequence of a particular form being assigned to Sy throughout the integration , and ( b ) that in which does vanish .
+First .
+suppose that does not vanish .
+Then is evidently determined at the first to which a second synclastic curve can be drawn , having at each limit contact of the order with ABC .
+* *For it is evident that if valiishes in passing from ABC to ADC , and if any portion as OF of ADC were not itself synclastic , we could obtain an greater than that alon ADC and therefore reater than that along ABC , by joining OF by a synclastic curve EHF havinatong grea he order with ADC ; and therefore the preceding reasoning shows that would not be the first at and contact of the point at which a curve can be drawn so that .
+Hence must use the syncIastic curvs to get this limit .
+MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+Next suppose.that , in fig. 4 , the point represents the first intersection of a consecutive synclastic curve AB'S with ABS , and that the dotted line , through , is a line whose equation is being the value of for which ( if there is more than one value , take the first one you pass in going from A vid the curve ) .
+Then , in that figure , first becomes capable of the value zero at , where the curve meets the ordinate through T. For the second variation vanishes in passing from ABC to a curve ABC'C coincident with ABC up to , a point infinitely close to , and having at and contact of the order with ABC , since from to Sy is zero , and from to is zero .
+Hence first becomes capable of a zero value when coincides with the intersection ( S ) of a consecutive synclastic curve having contact of the order with ABC , or with the point ( T ) , given by , whichever is first from along the curve .
+It follows , rigorously , that the synclastic property cannot cease smtil the first of these points is reached .
+It does not follow that , if the integration is extended beyond this limit , the integral is anticlastic .
+Three cases arise : is nearer A than is ; or , 2nd , is nearer to han ; or , 3rd , and coincide .
+Case 1.\mdash ; In this case we can easily show ( see fig. 3 ) that , being the intersection of a consecutive synclastic curve ADC with ABCG , the synclastic property does cease at , that is , we can join A and by curves the integral along which is either greater or less than that along ABCG .
+Let ADC be a consecutive synclastic curve for which , then evidently , esentir ) by ( ABC .
+) the integral along the curve ABC , we have I ( ABC ) ( ADC ) ; add I ( CG ) , and get I ( ABCG ) ( ADCG ) which nowhere infinite ) .
+Now take two points and on ADC and CG respectively , and join them by a synclastic curve PRQ having contact of the order with ADC and and being sufficiently lose for the synclastic property to hold between them .
+Then , slnce is a maximum , I ( PRQ ) ; add I ( QG ) , and get I ( APIiQG ) ( ADCG ) , and therefore , showing the integral taken along ABCG is not a maximum , and evidently it is not a minimum , for , if it were , every part of it would have to be a minimum , and the A to , for instance , is not a minimum , but a maximum . .
+\mdash ; In this caso , if changes sign as well as vanishes , the integral becomes 'nticlastic when the is beyond ( the point where ) .
+This is obvious , as the immediately then gives a minimum value to the integral whose lower limit is , while from A to it gives a maximum value .
+If does not change sign , it is easy to see that the maximum property does hold beyond , with this nominal .
+A curve can be found the integral along which is equal to that ABCG , and being infinitely near , and being any curve having contact of the order with ABCG at and It is not difficult to see this by reasoning similar to the above , but it is shorter to observe that if we alter very slightly the value of , so as just to make it preserve its sign without vanishing , we alter the value of the integral very slightly , and , therefore , \amp ; c. Case 3.\mdash ; Very slight consideration shows that the synclastic property ceases at T. 17 .
+Before passing to the general case , it will not be amiss to add a few explanations .
+The argument is not that it is possible to pass from the original curve to any other infinitely near curve by repeating again and again for each part of the curve a * It is sometimes considered sufficient to say that , as , and , while changes sign with , the ximum property must ceasc at A. In ToDHUNThR'S " " ADAMS ' Prize Essay on the Calculus of iations\ldquo ; this reasoning is employed Art .
+24 , p. .
+But it is invalid for two reasons .
+1st and all higher variations may vanish , as in the case of great circles on a sphere ; and 2nd , it shows only that a curve can be giving an integral greater than that corresponding to ABCG by terms of the third , not of the second order .
+Now , as the second and third variations are quite independent of each other , there nothing whatever to show that when a value is given to other than that which makes this variation can be made to change sign .
+It is absolutely necessary to show this , for otherwise the integral A to would really be a true maximum , though of a very curious nature .
+\mdash ; See the remarks the end of Art .
+17 .
+MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+variation such as we have just given .
+No , if we were to do this , should last get a curve differing from the original one , and , since is the same if be the same , it seems that we should get the variations all of the same sign , and that the result could thus at once be extended to a finite length of the curve ; but , although it would be true that the sign of the second ation in passing from any one of the curves thus found to the consecutive one would have the same sign as , yet the first variation would not vanish .
+It is not difficult to see that these two alternative conditions , treated of in Cases 1 and 2 respectively , are independent .
+For , if the points obtained by the two criteria coincided , the least root of the minant equation ( a ) in the not with the least value of for which , and it seems evident that there can be no such connection .
+It may , however , be as to give an mple , to show t the condition in Case 2 may cease to be fulfilled , while that in Case 1 still holds .
+Taking for the expression , we have SU S and the equation given by the calculus is ; integrating , we get whence it is easy to that or changes sign as passes through the value zero .
+( It might be thought sufficient to say that , as cannot be the general solution obtained by making then , denoting , \amp ; c. , by , \amp ; c. , it is well known that we ve for the vadue of , to which a second curve of the species can be drawn from , so as to , at and the point we seek , contact of the order with the curve , the equation .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+' , ( a ) where ' means the value of when is substituted for .
+The least value of satisfying this , or more properly the value first reached in going from vid the curve , gives the point in question .
+this quantity must change sign with , as is constant quantity ; this , however , is a mistake : it is necessary to the nature of the curve order to be sure that does not change sign w does .
+) Hence , to the first rule , the integral will be anticlastic , should the value be included in the limits of integration .
+But , if we seek the limits within which the condition in the second proposition is fulfilled , we find that , if we start a point , a second curve of the same ccies does not intersect the original curVe until .
+It follows that , so far as ards the second condition , the integration rrIight extend from to It be well to observe that the proof given Case 1 , that when the integration is extended yond the liInits stated , i.e. , those for which can vanish , the synclastic ceases to hold , does not in any way depend on the supposition that does not vanish .
+It is shown absolutely , and without exception , that when the limit is passed , can change its sign ( S16 ) , and the values of , for those limits will only enable us to find whether the synclastic property holds the limit to it is known to hold , namely , whether it holds up to and including the limits found in Prop. 2 .
+Consider the case of a curve , and let ACB and AC'B be two consecutive curves satisfying the limits and the differential equation \mdash ; \amp ; c. ; then both the and second variations , SU , vanish in passing from the curve ACB to AC'B .
+But the third variation , in passing from A to , will not , in general , vanish , and may be expressed as a function of the coordinate of , suppose ; as A moves along the curve , will , in general , vanish at one or more points .
+Hence it follows that , in general , the synclastic property only holds between A and and does not hold for the limits A and actually , though there the difference is only of the third order ; but there be certain points for which vanishes and of the same sign as , and for th es the curye joining A and gives a truly stic value to the integral .
+If the synclastic property ceases because changes sign , it will hold up to ( and including ) the limit , and only cease as you pass beyond the limit .
+18 .
+It is often convenient to borrow a few terms from eometr when treatin of functions depending on a number of independent variables . . . .
+In th geometry en treating following paragra.phs word ' ' point\ldquo ; will be used to denote le of vluene of the independent variables , while " " re ion\ldquo ; will any slnge se va ues gon will mean a continuous collection of MINIMA SOLUTIONS IN CALCOLUS OF points whose boundarv is defined by those values of which make a certain function or functions vanish ; as , for instance , all those sets of values which satisfy the two sets of inequalities and . . .
+The dependent variables being , the word " " surface\ldquo ; will be used as an abbreviation for the term " " set of equations expressing the dependent variables terms of the independent ones Not only is there much saving in labour , both to the writer and to the reader , in the adoption of these terms , but there is the additional advantage that the same explanation is applicable alike to the most general case and to that in which conceptions enable the argument to be grasped with a clearness unattainable in reasoning of a purely analytic character .
+The reason for adopting the word ' ' surface\ldquo ; instead of " " curve\ldquo ; is that , as the explanation for the curve has been already given , it would be superfluous to repeat it , while it seems a real advantage to giye the investigation for the case of one dependent and two independent variables .
+It wilbe necessary , in the first place , to examine the conditions under which the solution supplied by the rules of the Calculus of Variations is applicable .
+Let the function to be made a minimum be , .
+where includes the fluxions of with regard to the independent variables .
+To find the variation in this expression , let us increase , . .
+to , . .
+being functions ; then the fluxions of , \amp ; c. , will be increased by the corresponding fluxions of \amp ; c. For the purpose of ascertaining the limits within which the quantities \amp ; c. , must be confined in order that our reasoning may be valid , let us write , place of \amp ; c. , \amp ; c. , where is a constant , the same for all the variables , and \amp ; c. , are finite functions of , . .
+, or , more accurately , are functions which , though they ( and their fluxions contained in the integrals ) may vanish , neither become infinite , nor give infinite values to these fluxions , for values of the independent variables included in the region of integration ; they are functions .
+If we represent by , \amp ; c. , any of the dependent variables or their fluxions , we may represent the corresponding change by .
+By TAYLOR'S theorem we may write the new value of corresponding to the new values for the dependent variables in the form . . . .
+( 8 ) such terms as . . . . . . .
+where the first part of the right-hand side depends only on limiting values .
+Applying similar reductions to all terms contain ing fluxions of variations , we get an expression of the form SU .
+( 9 ) This integration by parts depends for its validity on the supposition that no one of the quantities becomes infinite for any values of within the limits of integration .
+But it is very important to remark that the integration is legitimate , whether the variations of the highest fluxions are or are not discontinuous in the sense of suddenly changing from one ( properly , not-infinite ) value to another .
+It is to be observed that , in discussing the sign of , we introduce no itations except those already implied in the usual treatment of SU .
+Again , it is to be observed that the terms in the limiting integrals in ( 9 ) will contain the limiting values of all but the highest fluxions of the variations .
+Hence , when we say that the limits are given , we mean that the values of the dependent variables and of all but their highest fluxions are given for all oints on the boundar of the region of integration .
+Hence , if we determine the forms of the functions po on oun ary so as to satisfy the equations\mdash ; * Thus , when represents will represent MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' ( 10 ) \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+\mdash ; \amp ; c. \mdash ; . . . . . . . . . . . . . . . . . . .
+' \mdash ; \amp ; c. . . . .
+and at the same time fulfil the conditions supplied by the given limiting values of the dependent variables and of all but their highest , the difference between the integrals for the surface so determined and that for any other surface will vanish so far as regards terms involving only the first power of , provided only that the second surface can be obtained from the first by a change such that none of the variations for A become infinite when , . .
+have { he values corresponding to any point within the region of integration .
+This , indeed , is true whatever be the order of but , in order that the sign of the difference between the integrals shall be the same as that of the second variation ( the part depending on ) , it is , in general , necessary that the quantities \amp ; c. , be small .
+19 .
+To determine whether the integral is a true maximum or minimum , we have only to find whether the terms of this order in ( 8 ) will be always of the same sign when the variations are given in any values consistent with the conditions given in Art .
+18 .
+For it is evident that , if we restrict ourselves to a less general iation in examining the sign of the second variation , we could neither be sure that the conditions obtained were sufficient to ensure that the integral was synclastic , though they would be necessary ; nor that the conditions that it should be anticlastic were necessary , though they would be sufficient .
+If , on the other hand , we were to admit a more general variation , the conditions for synclasticism would be sufficient , but not necessary , and those for anticlasticism would be neither sufficient nor necessary .
+In fact , it will be found that the conditions under which we are discussing the problem are really those necessary in order that it shall have a meaning .
+For instance , in the case of least action , when we say that the action in the free path is less than in any other , we imply that there is to be no sudden change in the value of , such as would occur in a path AC .
+DB , but there may be sudden changes in , the tion of the tangent ( as in AEFB ) .
+20 .
+To facilitate the discussion , a fluxion will be to one est to be one of the " " high fluxions\ldquo ; when no fluxions of that fluxion appear in the fnnction whose integral is to be made nclastic .
+Thus , may be one of the " " highes fluxlons , although is not ; for there may be no terms which can be wrltten D , where represents any combination of , \amp ; c. , while there might be a term The supposed fixed , the following proposition can be easily proved : \mdash ; If the highest fluxions of the variable which occur be all of the same order those of of the same order , and so on , then the conditions that shall be synclastic when the integral only extended over a region are the same as those that the quantity \amp ; c. .
+shall be incapable of a change of sign , \amp ; c. , representing the highest fluxions , and X , , \amp ; c. , being any arbitrary quantities .
+The conditions for the case where the highest fluxions of any dependent variable are not all of the same order will be discussed afterwards .
+When it is said that the region of integration is small it is meant that the greatest of value of the coordinates are small .
+Thus , if the region is given by then must be small ; of { he order } ) .
+This being so , it is easy to show that we may neglect the variations of ] but the highest fluxions of the dependent variables when finding the sign of .
+For the change in in passing from a point on the boundary of to any point within it is ; and , since the total range of , . .
+the integration is of order , the order of the integral will be that of the quantities \amp ; c. , or at least it cannot be greater .
+Again , the limits being fixed , , the limiting value of must be zero unless is one of the " " highest fluxions Hence it follows that all the other fluxions are small ( of the order at least ) compared to the highest ; and that they can be omitted from the integral when all we wish to determine is its si gn .
+It is , however , necessary to show that the entire integral does not vanish , for , as the values of all but the highest fluxions , and therefore of the highest but one , are given for all points of the boundary , it is evident that MINIMA OLUTIONS IN THE CALCULUS OF VARIATIONS .
+where is one of the highest fluxions , and and are two points on the boundary for which the value of alone is those of , . .
+being the same .
+It follows from this that must change sign once at least in passing from to , and therefore , if it varied continuously , must evetywhere be itely small .
+Since , however , there is nothing to prevent , being infinite ( S18 ) , may have a finite value within the region .
+Remenlbering that the region is small , and that the order of magnitude of \amp ; c. , \amp ; c. , being " " highest fluxions does not depend in any way on that of the region of integration , we see that the sign of will be the same as that of , .
+, ( 11 ) and representing highest variations .
+As the region is small , \amp ; c. , may be considered as constants throughout the integration , a supposition which again involves neglect of small terms .
+\amp ; c. , cannot be regarded as constants , however small the region may be , for their differential coefficients may be infinite .
+) Now , the part inside the bracket can be resolved into a sum of squares , and , if the coefficient of any one ( or more ) of these squares is negative , the expression can be given either sign .
+For , although the quantities \amp ; c. , are not independent of each other to the extent that all the other square terms could be made to vanish , yet they are so to the extent that any one term may be made to exceed all the others ; for instance , if the region of be that for which or and or and being small quantities of the order , we may assume , and so on for the others .
+For these assumptions will satisfy the limiting conditions , whatever be the forms of , \amp ; c. , which may be regarded as quite arbitrary , and they will give finite values to the " " highest fluxions\ldquo ; of the dependent variables .
+If we resolve the quadratic expression in ( 11 ) into a sum of squares , and substitute for , \amp ; c. , their values in terms of , \amp ; c. , we shall , by solving a .
+P. ON DISCRIMINATION OF MAXTMA AND equation , ) to make any one of these terms larger than the sum of the others .
+It is owever , to show such an has least one real and this ) done by the method of as it is usually done for the of two iables o Thns the criterion for a maximum or minimum value of the function has been found when the region of integration is small .
+It is the same as that obtained by the methods of transformation ; but the proof now given free from the uncertainty which is connected with analytical proofs .
+21 .
+The criteria for the case where the region of integration has any finite magnitude can be derived from the preceding by considerations dependmg on the .
+Remembering that we are still treating of the case where the fixed , we may prove the owing proposition:\mdash ; If it is possible to take , around every point in a region of finite magnitude , minor region , no matter how small , such that the integral for that region is syllclastic , then the integral for the entire region will be synclastic , provided the further condition be fulfilled that it is impossible to take within the region a second synclastic surface , having at all points of its limiting intersection with the first the same values for the dependent variables and for all their { luxions , with the of th highest .
+If it be possible to find such a surface , the integral will be anticlastic for the region R. Let us consider how it could happen that became capable of either sign at pleasure when the region of integration is extended .
+Let be the region for which this change of sign first becomes possible .
+Hence ( restricting ourselves to the case where the function has a value ) , when the integration extends over region wholly contained in is positive , while , if it be extended over a region can change .
+It is clear that this can only happen if the least of is zero when the integration is extended oyer @ .
+This may be shown thus .
+The second variation being written where \amp ; c. , are finite quantities , it is evidently capable of .
+changed by an amount finitely small compared to by an itely small change in \amp ; c. , and the values of can be to satisfy limiting conditions obtained from the previous ones by infinitely changes .
+It follows hence that , ifit were possible to take such values for , \amp ; c. , that should be a negative quantity of the order when the integration extends over a region , greater than , but differing itely little from , , we could , by an itely small change in the variations , making negative of the order within the region which by the supposition is impossible , as within the integration of gives a result which is always positive .
+Tt follows that the greatest negative value of MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+for the region ] differ from zero by a quantity infinitely small compared to and therefore the least positive value of must vanish for the region S. It has now to be proved that must be capable of a negative of order when the region of integration is extended beyond the region S. It sometimes seems to be considered that this may be inferred from the fact of changing sign when .
+But , as does not represent the increment of due to extending the region of integration beyond , this is not admissible .
+If we draw an imperfect analogy from algebra , we may say that what we have to proye is that in no case does behave as if it had a square factor the value of which , after vanishing , remains of tho same sign , but that , if be a region of integration of the character supposed in Proposition 2 , for which it is possible to make zero , then for any region including it is possible to make take either sign , the limits bein in each case supposed fixed .
+To prove this , let us suppose that represenb values of the dependent variables which make the first variation vanish .
+Let , \amp ; c. , represent the variations for which that when the integration is extended over S. The limiting values of all variations , except those of the highest fluxions , are zero .
+Let be a region including , and let a , a \amp ; c. , be variations having at all points of the values , \amp ; c. , for all the variations , and having at all points of not common to it and the values zero for all the variations .
+Now take a third region wholly included in , and of which a portion is included in , and the remainder excluded from ; and let a , a , \amp ; c. , be a variation having at all points of ( representing in that way the points contained in and excluded from the values a \amp ; c. , while , over the region a , a \amp ; c. , are determined by the conditions that \amp ; c. , are the values which make a true minimum when the integration extends over the region and the limiting conditions are that , for all except the highest fluxions of the variations , over the boundary of representing , as before , any dependent variable or fluxion .
+( By taking the region small enough , these conditions can always be satisfied .
+) Then the variations represented by , and are admissible ones ( Art .
+18 ) .
+Then when the integration extends over , and , when the integration extends over , is identically equal to it , and therefore vanishes ( for the variations are zero except over , where they equal the variations ) .
+Again the variations are the same as the ones , except over ; and oyer the functions , \amp ; c. , give a smaller value to the integral than do ( because they make it an absolute minimum compared to all near values ) , and therefore is smaller than , the integration being extended over .
+But , and therefore is negative .
+But clearly may be positive , and we have now shown that it may be negative , for one value is ; hence it is capable of either sign .
+MR. E. P. CULVERWELL ON DISCRIMINATION OF MAXIMA AND It may be objected that exceptional cases might , in which and coincided over as well oyer .
+But it is directed that , of is in the part to and , and is outside S. he surface , \amp ; c. , is therefore one in which discontinuous values for the of \amp ; c. , would ) pear in the equations ( 10 ) , Art .
+18 ; and therefore that equation ca1mot be fied by these values .
+Hence is not the same operation as Observe that the whole point of the proof consists in the fact that the variations are suflicien tly continuous , notwithstanding the discontinuity in the highest fluxions .
+To complete the proof , it only remains to show that the surface , for which satisfies the equations ( 10 ) , Art .
+18 , for every point of the .
+Suppose that it did not do so for a portion of S. Take a compound surface made up of over and V ' over , where is the synclastic surface , having at all points of the boundary of the values of \amp ; c. , and all but t , heir highest fluxions , as those of the function V ' .
+This compound surface gives us an admissible variation , and the integral over it is less than that over V ' .
+But , by hypothesis , it is impossible within the region to find surface a smaller yalue to the integral than that given by V. Heilce V must be a synclastic surface , and the proposition is proved .
+Hence a function will be synclastic provided , first , that the condition given in is fulfilled for every point in the region of integration ; and seco1ld , that it is impossible , within that region , to draw another synclastic surface with the same limits .
+It will be easily seen that these conditions are independent of each other , and that , if either or both fail , the function becomes anticlastic .
+22 .
+When the highest fluxions of any dependent variable are not all of the same order of differentiation , the conditions found in Art .
+20 , although sufficient , are not all necessary .
+For , as will be proved presently , the values of the highest fluxions of the variations are not all of the same order of nitude .
+To ascertain the comparative orders of different fluxions , let us consider the equations , and so on , where , means the value at the point , or , . .
+at the point on the which has the same values for all the coordinates except , which has the value give1l by , wh 1 2 . .
+were is the equation of the boundary ; and similarly for other coordinates .
+As \amp ; c. , are everywhere of the same order , , it might appear that must each be of the order . .
+This , however , is ouly the case when \amp ; c. , do not rapidly change slgn .
+For , while it is clear must exceedl the ratio , it easily seen that the ratio may be greater if the terms in the NINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+integral change sign l.apidly .
+In fact , if the order of is unity , and its fluctuations recur at intervals of order , then the terms in the integral will cancel provided being any integer ; and so the integration } ) to any point can only contain terms of the order .
+Moreover , since , if any function is iodic with respect to any variable , all its fluxions with respect to that variable are of the same period , it follows that , if rentiation introduces a coefficient of the order , two will bring in , and so on .
+It thus appears that , if we assume , multiplied by a function whose fluctuation-periods with regard to \amp ; c. , are \amp ; c. , the order of will be that of ) ; . .
+; .
+' and , in general , that of . .
+will be .
+Now , by the conditions in Art .
+18 , none of the quantities \amp ; c. , can be infinite ; hence we must reject any values of \amp ; c. , which do not fulfil this condition .
+Thus the term considered must be rejected if it makes any of the expressions \mdash ; \amp ; .
+where , . .
+have the values to any fluxion occurring in U. And it be rejected as useless unless it makes some one , at least , of these expressions zero .
+An example will render this more intelligible .
+Suppose we consider a function in whioh , are the highest fluxions .
+Here the equations to be satisfied are ; ( ) ; ; ( d ) , together with those obtained from the lower fluxions .
+But , as the lower fluxions must be smaller than the higher in the ratio least , it is unnecessary to consider the conditions obtained from them .
+If we put , we get , from , , and it is obvious that will make ( b ) , , and ( d ) each .
+If we put and eliminate from ( 1 ) , , and , we get , as our conditions from , ; therefore , as ; from ( 3 ) , , and therefore .
+Hencc no value for , or can satisfy and the there inequalities .
+Hence we may leave out of the final condition , as it could only give terms MINIMA SOLUTIONS IN THE CALCULUS OF VARIATIONS .
+but , as vanishes , so do all the other fluxions .
+It follows that , if the boundary conditions are , and so on up to , all the fluxions whose order does not exceed must vanish at the boundary .
+For , as and , so do ] other first fluxions , and therefore : but this , with , shows that all second fluxions with in them vanish .
+Henoe any fluxion for and , and all second fluxions of vanish , and therefore , \amp ; c. It follows from the preceding that in the examples in question all fluxions up to and including those of the 7th order must vanish for points on the boundary , and if we assume for an algebraic form we must write , where is the uation of the bounding surface .
+Suppose we adapt this to the last example , the origin being taken as the point in Proposition 1 , and the bounding surface as so that the integration extends over all values of and which make the left-hand .
+Hence is to be a quantity of the order , and , to adapt the expression to the preceding formula , we must write where , however , and are to be considered as abbreviations for any fluctuating functions of periods and respectively .
+Similar assumptions can easily be when other fluxions appear .
+convenience in is now evident , though , as far as the equations were it made no difference , as only the ratios of , and entered into them .
+The limits with which the property holds are evidently given by the discussion of Art .
+21 .
+23 .
+If all the ghest of all fluxions of any of the dependent variables appear in in the first degree only , the foregoing reasoning would not hold , as the yariations of that dependent variable appearing in would then vanish at the limits , and therefore the iation when taken over a small region would be zero compared to quantities of the order .
+( When there is only one independent va , riable there must ) one highest fluxion , but in general there is a group of fluxions higher than any others , not usually identical with what have been called the\ldquo ; highest fluxions Art .
+20 , but included in them ; it is only when each member of this group vanishes that the exception occurs .
+) It is known , however , that in this case it is , in general , impossible to fulfil limiting conditions by means of the arbitrary ions arising from the solution of the partial differential equations .
+This exception is well known in the simpler cases , but I am not aware that it has been generally discussed .
+A differential equation between independent variables , .
+, and dependent variables will , in general , require for the complete detertion of , . .
+several sets of limiting conditions ; for instance , one set when , has its limiting values and , and another set when and , and so on until , finally , there is a set derived from and .
+But in the particular case in which the conditions at the limits are the values of , \amp ; c. , for a single surface the functions , .
+will be completely determined without any further limiting conditions ( provided the proper number of conditions be given ) , and when the limiting conditions are of this character there is no difficulty in finding the requisite number of conditions relative to each variable .
+The limiting equations furnished by the Calculus of Variations are not , however , so simple as this , being of the dual character above .
+But , as this does not affect the number of the conditions at the limiting values of , it will our purpose to find the number of conditions necessary in the simpler case .
+Let there be equations , represented by ( 1 ) , ( 2 ) , . . .
+, between the dependent variables , . . .
+, and let the highest order of differentiation with respect to any independent ariable in which appears in ( s ) be .
+Then , provided each dependent variable appears in each equation , it can easily be shown that the number of conditions necessary to determine the dependent variables is the greatest of the sets of numbers 2 , so chosen that in each set there is one term corresponding to each variable and one to each equation .
+For from S22 it is evident that the number of functions required is the as if there was but one dependent , for the values of the single , \amp ; c. , at the boundary determine those of all the other fluxions of .
+We may , therefore , discuss the question on the supposition that , there is but one independent variable .
+Now it is evident that , if we could determine all the successive differential coefficients of each function for each point of the bounding surface , we could , by TAYLOR'S theorem , nd the function in a series ; and we know the limiting values of the differential coefficients of the lons with regard to all variables \amp ; c. , when we know those for any variable ( Art .
+22 ) .
+Hence the problem will be solved if we show how many of the limiting values we must assume in order to determine all the rest But we can show that it is possible to find the first quantities of the series , .
+; the first quantities .
+and so o11 for 1 , an the rest , provided we assume 2 of these functions ; and \amp ; c. , bein , if necessary , indefinitely large .
+For differentiate the equation ( 1 ) , the equationg ( 2 ) times , and so on .
+Since we are not to introduce any differential coefficients of orders higher than , these being the orders of the highest fluxions in MINIMA UTlONS IN THE CALCU LATIO N , \amp ; c. , we must have , considering only fluxions of so on , one inequality fro1n each eqn , ation .
+from considering the order of differentiation of 2 , \mdash ; 1 , mud so on .
+Since every tion ives ns equation , among the quantities in lestion we get \amp ; c. equations ; hence ence between this \amp ; c. must be equal to the number of to be assumed in order to solve these equations .
+It is easy to see that the most way in which the differentiations , \amp ; c , can be disposed consistently with the inequalities to be satisfied will give the ) stated above as the least of this .
+Now ] ) pose the equations obtained in the Calculus of Variations from making the hcients of , S/ , . . .
+Sy , vanish are denoted by ( 1 ) , ( 2 ) , . . .
+, and let the [ 1 ] denote the rrhest differential coefficient of occurring in the second or in a in the function to be made stic , ] that of .
+and so on ; then it is easy to see that cannot enter into the lation ( by fluxions of order than , and that will enter into it in the order .
+Hence in this se , and we have for this case to find the set for which , is greatest .
+Now , since we are to take one index for each , in our we are to take only one from equntion , and hence ( r ) on right-hand side is to appear only once .
+Moreover , we are to take only one term from each variable , and therefore we are simply to take , where each refers to the values ( 1 ) , ( 2 ) , ( 3 ) \amp ; c. ; and hence , in all , double the sum of the order of the highest of all the fluxions of each in the expression to be made synclastic .
+Bu this is exactly umber of the conditions supplied by equating the limiting terms of SU to zero in the expressionl to be integrated , except in the case we are at present ssing ( where some of the highest of the fluxions clo not appear in the second degree , but in the first only ) ; and therefore in this case the conditions cannot be satisfied , the problem becomes , in general , incapable of solution .
+

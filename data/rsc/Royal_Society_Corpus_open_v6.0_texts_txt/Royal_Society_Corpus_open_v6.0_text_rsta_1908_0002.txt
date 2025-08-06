@@ -1,0 +1,601 @@
+]\gt ; [ 65 ] Il .
+Second Memoir on the Compositions of Numbers .
+By Mjor P. A. MAcMAHON , R.A. , D. Sc. , F. R.S. Received August 23 , \mdash ; Read December 6 , 1906 .
+PREAMBLE .
+IN a Memoir on the Theory of Compositions of Numbers , read before the Royal Society , November 24 , 1892 , and published in the 'Philosophical Transactions ' for 1893 , I discussed the compositions of multipartite numbers by a graphical method .
+The generating function produced by the method was of the form a symmetrical function of the quantities The investigation of the present paper leads , in part , to the same generating function which is subjected to a close examination .
+Moreover , the whole research has to do with the compositions of numbers , and appropriately follows the Memoir of 1893 .
+The problem under investigation , which was brought to my notice by Professor SIMON NEWCOIIB , may be stated as foUows:\mdash ; A pack of cards of any specification is taken\mdash ; say that there are cards marked 1 , cards 2 , cards 3 , and so on\mdash ; and , being shuffled , is dealt out on a table ; so long as the cards that appear have numbers that are in descending order of magnitude , they are placed in one pack together\mdash ; equality of number counting as descending order\mdash ; bnt directly the descending order is broken a fresh pack is commenced , and so on until all the cards have been dealt .
+The result of the deal will be packs containing , in order , , cards respectively , where , being the number of cards in the whole pack , is some composition of the number , the numbers of parts in the composition being We have , then , for discussion\mdash ; ( 1 ) The number of ways of arranging the cards so as to yield a given composition ( abc ) ; ( 2 ) The number of arrangements which lead to a distribution into exactly packs .
+These problems , and many others of a like nature , are solved in this paper .
+V0L .
+CCVII .
+21.1.07 66 MAJOR P. A. MAcMAHON ON THE OF NUMBERS .
+The first of the two questions has given rise to two new symmetric functions , of great interest , which supply the complete solution .
+The second gives rise to the same generating function that presented itself in the first Memoir .
+It is here attacked by the calculus of symmetric function differential operators , and a number of new resuIts obtained .
+If the whole pack be specified by the partition there is a one-to-one correspondence between the arrangements which lead to a distribution into packs and the compositions , involving essential nodes , of the multipartite number .
+Part I. is concerned with an elementary theory of the case in which the cards are all numbered differently .
+The general case , which is more difficuIt , is dealt with in Part II .
+To make what follows clear to the reader , I commence with some elementary notions concerning the connection between the partitions and compositions of numbers on the one hand , and permutations and combinations of things on the other hand , and also specify and describe the 1lomenclature and notation that I have found it convenient to adopt .
+A suitable notation is , indeed , of the first importance in this subject , as I hope to make evident as the investigation pro'ceeds .
+INTRODUCTORY .
+Art .
+1 .
+Any succession of numbers , written down from left to right at random , such as , is termed a " " composition\ldquo ; of the number which is the sum of the numbers .
+If the numbers be arranged in descending order from left to right , , the succession is termed a " " descending partition or simply a " " partition\ldquo ; of the number which is the sum of the numbers .
+Or , if we arrange in ascending order of magnitude , , the succession may ) termed an " " asoending partition Generally , in speaking of partitions , we understand that the descending order is meant ; but it is convenient sometimes to consider them as being defined by an ascending order .
+MAJOR P. A. IACMAHON ON THE COMPOSITIONS OF NUMBERS .
+There is no other method of ordering a collection of numbers which is of general application .
+We see that the same collection of numbers gives rise to only one partition , but , by permutation , to more than one composition .
+Art .
+2 .
+Both partitions and compositions have an appropriate graphical representation .
+That of a partition was first given by FERRERS , and the notion was elaborated by SYLVESTER during the time he was at the Johns Hopkins University in Baltilnore , U.S.A. It consisted merely in writing a row of nodes , or units , corresponding to eacb number ( or part ) of the partition , the left-hand nodes of the rows being placed in a tical line .
+Thus is denoted by Art .
+3 .
+A trial will show that this method is not suited to compositions .
+One method , effective for certain purposes , was given by the author .
+* To indicate it , consider the composition of the number 7 .
+We take seven segments on a line , and place nodes , * , so that the line is divided off , 4 and 2 segments respectively in order .
+The conjugate composition is reached from this by suppressing the existing nodes and placing nodes at the of division which are free from nodes .
+Thus denotes the composition .
+Art .
+4 .
+There is a more illuminating mode of representation which is here given , it is believed , for the first time ; it is akin to the method of FERRERS , and enables methods of research which SYLVESTER'S exertions have made familiar .
+It consists in taking rows of nodes in order and placing the left-hand node of any row vertically beneath the right-hand node of the previous row .
+Thus is denoted by * ' ' noir on the Theory of the Compositions of Numbers ' Phil. Trans. Roy .
+Soc 1893 .
+MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMB and 14 ?
+77 by This graph is read horizontally ; the conjugate is obtained by reading vertically , giving , or , in brief notation , We may also read the graph horizontally from bottom to top and vertically from right to left , obtaining generally four compositions from .
+the graph .
+The graph is a zig-zag one and will be , without doubt , an important instrument of research .
+PART I.\mdash ; SEOTION 1 .
+Art .
+5 .
+Consider the permutations of the first inteoerso , and for simplicity take Writing down a permutation at random , it is clear that lines can be drawn separating the numbers into compartments in such wise that in each compartment the numbers are in descending order of magnitude .
+We can then write down a succession of numbers which describe the size of the compartments , proceeding from left to right , and thus arrive.at a composition of the number 9 .
+I say that the permutation under examination has a descending specification ( 211221 ) or .
+Similarly , from the ascending character of the same permutation , I say that the ascending specification is ( 1422 ) or , where it is to be noticed that is the composition of 9 which is conjugate to , the composition which specifies the descending character , This is shown by the zig-zag graph MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+6 .
+We can now formulate the question : Of the permutations of the first numbers , how many have a descending specification denoted by a given composition the number ?
+Whatever the answer , it is clear that the same answer must , in general , be given for three other compositions , viz. , the three others associated with the zig-zag graph .
+In fact , from 314592768 of specification 211221 , we derive ; and.from these two by changing the number into 796518342 of specification 1422 , and so forth .
+In two cases there are two associated compositions instead of four , viz. :\mdash ; ( i ) When the composition reads the same as its inverse ( that is the same from left to right as from right to left ) , ( ii ) When the conjugate and the inverse are identical , as in , whose conjugate is 122 .
+*The number of self-inverse compositions of an even number and of an uneven number is The number of inverse-conjugate compositions of an uneven number is Hence , in the present theory , the number of different numbers that appear in the case of an even number is , since the whole number of compositions is , ; and , in the case of an uneven number ; viz. , it is or according as is even or uneven .
+" " Memoir on the of the positions of Numbers ' Phil : Trans. .
+Soc 1893 , MAJOR P. A. MAoMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+7 .
+Let ( abc ) denote the number of permutations of the first integers which have a descending specification denoted by the composition ( abc ) of the number Obviously To determine , , separate the integers into two groups , a left-hand group of numbers chosen at random and a -hand group of the remaining numbers .
+This can be done in different ways .
+write in a common notation ] ; now arrange each group of numbers in descending order of magnitude for each of the separations ; we thus obtain each of the permutations enumerated by and the one permutation enumerated by Hence or Again , to find ( abc ) , we separate the integers into three groups containing , and integers respectively ; this can be done in different ways ; placing the numbel'S in each group in descending order , we obtain all the permutations enumerated by .
+Hence ; leading to where Similarly we find ( abed ) where MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF Art .
+9 .
+Some simple summations are obtainable ffom elementary considerations .
+In regard to the permutations of the first integers , let ZN where , denote the sum of all numbers ( . .
+such that is the first number in the specifying composition .
+Take any of the numbers and arrange them left to right in such wise that the first numbers are in descending order and the number greater than the ; this can be done in ways ; the remaining numbers can be arranged in ways , so that , placing them to the right of the former , we arrive at the result Art .
+10 .
+denoting by the sum of all numbers of which the specifying compositions commence with exactly units , the consideration of the properties of conjugate zig-zag graphs establishes that with a single exception where e.g. .
+' , and so on .
+*No restriction is placed upon the number next to the in this case .
+Here the number following the unit must be MAJOR P. MACMAHON ON THE .
+COMPOSITIONS NUMBERS .
+Art .
+11 .
+Again , for the summation where the composition begins with at least units , we easily obtain the value The Multiplication Theorem .
+Art .
+12 .
+A fundamental property of the numbers will be established from elementary considerations ; it will , later on in the paper , be generalised .
+Let be derived from the permutations of different integers , and from the of different integers ; it is to be shown that , where on the right the reference is to the permutations of different integers .
+Out of the numbers we can select numbers in ways , and arrange each selection , so as to have a descending specification , in ways ; the remaining numbers can be arranged , to have a descending specification in ways ; placing the latter to the right of the former there appears arrangements .
+VOL. CCVIL Now , combining the two sets of numbers , we find that either there is or there is not a break in the descending order between and ; hence the number of arrangements is also .
+Q.E.D. Art .
+13 .
+Regarded as a numerical theorem , the multiplication is commutative , but in regard to form it is not commutative ; thus , by considering the multiplication , we obtain the linear relation .
+Observe also that the order of the numbers in brackets in any number can be reversed at ] easure and thus new forms of results obtained .
+As a verification : from the tables ; .
+The fact that the multiplication is not commutative formally is of great importance in the theory of these numbers .
+Art .
+14 .
+Extending the theorem to the product of three numbers , we find .
+We may , in general , give the right-hand side 8 !
+different forms corresponding to the 3 !
+permutations of the numbers on the sinister .
+If we take the product of numbers ( . .
+to form the dexter , we combine the last integer of a number with the first integer of the next following .
+number . .
+MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+0times in 1 way , 1 , , ways , , , , , , ; hence numbers present themselves on the dexter .
+Not counting reversals of order , the dexter can , in generaL be given as many different forms as there are permutations of the numbers on the sinister .
+Counting reversals , the number of different forms is further multiplied by , subject to a diminution when one or more of the numbers is self-inverse .
+Applications of the Theorem .
+Art .
+15 .
+The theorems , already arrived at above , are particular cases of multiplication .
+Thus the formulae , of which is a type , are equivalent to results , of which is representative , since That the sum of all numbers ( . .
+of given weight , is is shown by the formula ; since on the dexter occurs an corresponding to every composition of Art .
+16 .
+Suppose that it is required to find the sum of all numbers ( . .
+of given weight , which are such that each associated composition commences with a given series of numbers or , in other words , suppose we wish to make the summation indicated by ; the solution is given at once by ; for , by the multiplication procesS , the unit which termi-nates , combined with .
+gives every composition of the number Hence , since 2 . .
+Art .
+17 .
+By varying the order of the factors , on the sinister of the multiplication formula , a variety of interesting results themselves ; thus ; where after , on the dexter , occurs every composition of ; and the portion includes every composition of which terminates with a number not less than Hence , for such a summation , ( ; a formula which is independent of Art .
+18 .
+In particular from we obtain ; wherein the summation is for every composition of which terminates with a number not less than E. , for .
+Art .
+19 .
+As another example of the power of the theorem , let numbers being given ) denote a ation in regard compositions of MAJOR P. A. hIAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+placed between and ; we obtain I , , By varying the order of the factors , other summations , leading to the same numerical result , can be effected .
+Art .
+20 .
+Consider next the multiplication ; wherein , are numbers n.ot less than unity , are any numbers , zero not.excluded .
+The result of the multiplication consists of numbers ( . .
+such that there is ( i ) A composition of followed by units , succeeded by ( ii ) A composition of followed by units , succeeded by ( iii ) A composition of followed by units , succeeded by ( iv ) A composition of ; and the dexter is the sum of all such numbers ( . .
+Denoting this sum by , we find that its value is since each number occurring in the product on the sinister has unity for its value .
+Hence , in general , the remarkable theorem , ! . .
+, ; showing sum depends merely upon the numbers , . .
+, , and not at all upon the numbers Observe that and the final number of the composition may or may not be unity , and that every composition of may be written in the form If !
+; and , in particular , wherein , are non-unitary , but may or may not be unitary .
+As a simple example take so that a verification .
+Art .
+21 .
+A more general theorem is yielded by , wherein are given integers and the summation indicated on the dexter is in respect of the whole of the compositions of the numbers where and The value of the su thus , MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+which , by the multiplication theorem , may be given the form Evidently , from the above , comprehensive results can be obtained from the multiplication theorem .
+SECTION 2 .
+Art .
+22 .
+The next problem I propose to solve is that of determining the number of the permutations of the first integers , whose descending specifications contain a given number of integers , or , in other words , whose associated compositions involve a given number of parts .
+The solution is implicitly contained in a paper I wrote in the year Let denote the number of associated with compositions contaimng exactly parts .
+In the paper quoted , I had und.er view a collection of objects of any species\mdash ; say of one sort , of a second sort , of a third , and so on\mdash ; and defined the objects as to species by these numbers placed in brackets .
+I thus formed a partition ( pqr ) of the number , such partition being the species definition of the objects .
+As equalities may occur between the numbers , , I took , as a more general definition , the partition where In the case under consideration , where the integers ( or objects ) are all diffel.ent , the species definition is the partition .
+I proved , in the general case , that the number of ways of distributing the objects , into different parcels , is given by the series - .
+* ' Symmetric Functions and the Theory of Distributions ' Proc. L. ' vol. , p. 220 .
+For the case in hand , Art .
+23 .
+I shall prove that For consider the arrangements enumerated by .
+Place the compartments ( or parcels ) in order , from left to right , in any one such arrangement , and , in each compartment , place the in descending order of magnitude .
+The arrangement is obviously one of those enumerated by , or In the whole of the arrangements , enumerated by , thus treated , each arrangement enumerated by will occur once only .
+Let the illustration denote an arrangement enumerated by .
+Each segment denotes an integer , and the vertical lines separate the integers into compartments .
+By placing an extra vertical lin at one of the unoccupied points of division , we obtain an arrangement enumerated by .
+This can be done in rent ways , showing that the particular arrangement , enumerated by , is derivable by obliteration of a vertical line from different arrangements enumerated by Hence , the forms include the forms each times .
+Again , let the illustration denote an arrangement enumerated by .
+By placing extra vertical lines , at unoccupied points of division , we obtain an arrangement enumerated by .
+This can be done in different ; showing that the particular arrangement , enumerated by is derivable , by obliteration of vertical lines , from .
+different arrangements enumerated by MAJOR P. A. cMAHON ON THE COMPOSITIONS OF Hence the forms include the forms each times .
+Hence Thence it is easy to show that ; and also The relation may be verified .
+Art .
+24 .
+It follows at once , from the zig-zag graphs , that Some of the simplest results are Art .
+25 .
+here is another interesting series for Let denote the expansion of when deprived of the term which is linear in .
+and of the term independent of ; and put ; then I prove a general theorem , of which this is a particular case , later on in the paper .
+VOL. CCVII .
+MAJOR P. A. cMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+26 .
+Considering next different numbers , defined by the partition , we have , by a previous definition , ; where are each { 1 and such that I have written instead of , in order to specify the number of objects ( or numbers ) subjected to permutation .
+Art .
+27 .
+I shall now prove that where in the number of objects subjected to tion is , and the summation is in respect of all permutations such that the sum of the first numbers in the descending cification is equal to For , by Art .
+16 , ; hence ; and , by the multiplication theorem , ; so that : and since , ; whence , by summation , but since MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+so that , substituting , ; hence Art .
+28 .
+Further , summing each side with respect to ; but the sinister is of the form ( see Art .
+20 ) and thus has the value !
+; hence an interesting result .
+Art .
+29 .
+From a previous result ; hence ; and it may be observed that the numbers , included in , are the conjugates of those included in .
+Art. .
+Also since , ; and this leads to the relation E.g. , for ; verified by 3 .
+The result is convenient for the calculation of the numbers from the numbers We have also the remarkable result that the probability of obtaining a permutation , such that the sum of the first numbers of the descending specification is , is independent of , and has the value ; whenever is or less .
+Art .
+31 .
+From the definition we have in respect of the permutations of numbers I shall now show that ; the summation being for all values of such that The theorem is the outcome of the multiplication theorem of Art .
+12 .
+Observing that , for all values of we have , ; and generally , for the product since a linear function of numbers ( . .
+We may write down a similar result for every permutation of the factors of and , by addition , obtain inear function of numbers where MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+Further , we obtain a result of this nature for all values of such that ; and , by addition , we obtain linear function of numbers where We have now to determine the .
+linear function of numbers which appears on the dexter .
+If one such number be it is evident that is some composition of the number Consider the product of factors , where The process of multiplication produces numbers of different kinds .
+In the first place we throw all the units together , , one number containing parts .
+In the second place we combine a consecutive pair of factors and throw the remainder of the units together , thus producing numbers each parts , viz. , : .
+In the third place we combine two consecutive pairs ( including , of course , consecutive three ) of factors and throw the remainder of the units together , thus producing numbers each containing parts , viz. , the series of which one is .
+Notice that , if , this becomes .
+MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+We proceed in this manner until finally we combine consecutive pairs and throw the remainder of the units together , thus producing numbers , each containing parts .
+Hence the that present themselyes are included in those enumerated by We have to consider the product in all of its permutations and for every system of values of such that Hence , from considerations of symmetry , and attending to modus operandi of the multiplication theorem , we find that the whole of the compositions enumerated by present themselves .
+Hence the linear function we seek is a near function of and it remains to determine the coefficients .
+The number of products , including permutations , , which we have to consider , is equal to the numbers of compositions of into parts , , it is ; each of these produces numbers , each containing parts .
+There are thus numbers , each containing parts .
+But there are only MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+different numbers , each containing ?
+parts , because is equal to the number of compositions of into parts .
+Hence , each number , comprised in will occur times .
+Hence the required linear function is or and the final result is where PART Art .
+32 .
+In the preceding pages we have had under view the permutations of different numbers .
+As 1 am now taking in hand the general case of numbers which possess any number of similarities , I find it convenient to slightly alter the point of view .
+Let , denote numbers in descending order of magnitude , and suppose there are number equal to so that , placed in descending order , the assemblages may be written I say that the assemblage is specified by the composition ( pqr. .
+MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+As equalities may occur between the numbers , , I take , for greater generality , the specifying composition It will be seen later that the order of occurrence of the parts of this composition is immaterial , so that we may consider the parts , to be in descending order of magnitude and the specification to be denoted by a partition E. , we obtain the same results for each of the six assemblages , the specification of each assemblage being ( 321 ) .
+Every permutation has a descending specification .
+E. has the descending specification ( 231 ) .
+In the case considered in Part I. the assemblage of numbers had the specification since there were no similarities , and the numbers were expressed in terms of the coefficients obtained by the multinomial expansion E.g. , we found coefficient of symmetric function in the expansion , , , , ( ab ) , , where , in the first case , , and in the second , In a usual notation let denote the homogeneous product sums , of the successive orders , of the roots of equation ; we may say that , in Part I. , the auxiliary generating function was , being the roots of the equation .
+Art .
+33 .
+In the present case the auxiliary generating function is as will appear .
+MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+For it was shown , .
+cit. , that the number of ways of distributing the objects , as specified , into different parcels containing objects respectively is the coefficient of symmetric function in the development of the symmetric function as a sum of monomial symmetric functions .
+Let this coefficient be denoted by ( abc. .
+and let the number of arrangements of the objects , which have a descending specification ( abc. .
+be denoted by ( abc. .
+Let the whole number of objects be Then , when , clearly and when ( ab ) is the number of arrangements into two different parcels containing objects respectively , and by previous reasoning ( ab ) ; and , when , and so forth as in the simple case already considered .
+Hence , ( abc ) , ( abed ) , ) , \amp ; c. , the numbers being all expressible in terms of coefficients of the auxiliary generating function .
+Art .
+34 .
+E.g. Take objects , where are in descending order of magnitude .
+Since , VOL. CCVII .
+MAJOR P. A. cMAHON ON THE COMPOSITIONS OF NUMBERS .
+we calculate , from the above formulae , and so on .
+The five arrangements , enumerated by , are each having the descending specification ( 3 ) .
+The four arrangements , enumerated by , are each having the descending specification ( 321 ) .
+The complete results qu numbers specified by ( 321 ) are 60 being , of course , the total number of permutations of the objects .
+MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+35 .
+The method of calculation establishes that the number is unaltered by reversal of the order of the numbers in the bracket .
+Also that the results are only dependent upon the magnitudes of the parts in the specification of the assemblage and not upon the order of their occurrence .
+General Investigation of Generating Function .
+Art .
+36 .
+I have shown above that , for numbers specified by an auxiliary generating function is for , from its expansion in terms of symmetric functions , the numbers ( abc ) can be successively calculated .
+For present convenience I take the above generating function to be and recall that is equal to the coefficient of symmetric function ( abc ) in the expansion of The above linear function of the numbers is formed by adding adjacent numbers , 1 , 2 , 3 , , at a time , where the numbers , are in number .
+It thus comprises terms in general .
+Art .
+37 .
+Let this linear function be denoted by so that if we write ( abc. .
+From this system of linear relations is determined the set , where , where , where , and so on ; the law of formation of the linear functions of the numbers being similar to that which occurs in with the exception that the signs are alternately positive and negative , depending upon the numbers of integers in the brackets .
+Art .
+38 .
+Denote this linear function of the numbers by so that ( abc ) When it is necessary to put in evidence the numbers whose permutations are under examination we may write the two formulae ; SECTION 4 .
+ession on the Forms Art .
+39 .
+Define in general , so that where there are symbols , , , denotes the terms forming the series where additions take place , , 1 , 2 , , at a time between the pairs Art .
+40 .
+Similarly define to denote the terms forming the series - MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+formed according to the same law , but the successive blocks of terms having alternately positive and negative signs .
+Art .
+41 .
+I proceed to generalise the two results ( abc. .
+( abc ) By definition ; and since ( abc ) this Now the sum of these two terms is precisely because the terms involving in are the same , with opposite sign , as those involved in and therefore cancel them .
+Hence the result Art .
+42 .
+Again , , by successive use of the formula Art .
+41 above .
+MAJOR P. A. cMAHON ON THE COMPOSITIONS OF NUMBERS .
+Also , clearly , if Art .
+43 .
+Therefore , by induction , we can express any form as a form The law is well seen by a particular case , viz. , ( abed ) , ( bc ) ( cd ) ( cd ) { ( bcd ) } ( cd ) ( bc ) ( cd ) We have , in respect of the four letters , relations ; the letters always occur in the order and to obtain the form , which is equated to a form , we may make use of the zig-zag conjugate law ; , connect with ( cd ) the composition 22 ; take the zig-zag conjugate of this , viz. , 121 , and then write ( cd ) ( bc ) and ( bc ) ( cd ) ; and so in every case .
+Art .
+44 .
+In the general case of letters we obtain relations corresponding to the compositions of ; the relations are obtainable from zig-zag conjugation of such compositions and , in any relation we may interchange the form-symbols Art .
+45 .
+In the above investigation we obtained incidentally certain linear tions between the forms MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+and also between the forms which must now be set forth in a regular manner .
+The former relations are of the type ; this follows directly from the definition of the form , since ( abc ) Art .
+46 .
+The latter relations are of the type ; which also follows directly from the definition of the form , since ( abc. .
+Art .
+47 .
+We have other linear relations of the type ; In fact , the law may be taken to operate as between any of consecutive factors in and respectively , leaving the remaining factors untouched .
+Thus it is easy to verify the three relations ( of ) ( gh ) { ( abed ) ( ef)(gh ) } { ( cd ) ( efgh ) } { ( abed ) ( efgh ) } ; and the further three { ( cd ) ( ef ) ( gh ) } { ( abed ) ( ef ) ( gh ) } { ( cd ) ( efgh ) } ( cd ) ( efgh ) Art .
+48 .
+From these relations we may obtain new relations by transforming from to , or vice versed .
+Thus from relations of type , we obtain those of type ; and from those of type , we obtain others of type .
+These new expressions for ( abc ) and ( abc. .
+with an obviously analogous law to that we have frequently met with , are of great importance .
+MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+From the relation we obtain ; and there is no necessity to give further examples .
+SECTION 1 Art .
+49 .
+The differential operator , of order , that is so frequently of use in the theory of symmetric functions , viz. :\mdash ; can now be employed .
+Remembering that operating upon monomial symmetric functions , unless ; and generally that obliterates a number from the partition of a function and causes it to vanish if no such number itself , it is clear that ; and thence if we write according to a law derivable from that which defines ( see Art .
+38 ) , we find Art .
+50 .
+Observe that in the paper to which reference has been made it was shown that Two consequences flow ' from this fact .
+Firstly which is a theorem of reciprocity for the numbers .
+CCVII .
+MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF Secondly , since ; where , on the dexter , the operand is a function formed from the functions , in the same manner as is formed from the operators Hence where Art .
+51 .
+I now write ; so that ; and it appears that is the true generating function of the numbers ( abc ) for the permutations of assemblages of numbers of all speci.fications .
+In fact , .
+( pqr ) ; and the expansion of as a linear function of monomial symmetric functions gives a complete account of numbers Art .
+52 .
+Before proceeding to a rapid examination of this new and most important symmetric function never before I believe introduced into algebraic analysis , I give complete tables of the numbers as far as .
+A. ON THE COMPOSITIONS OF NUMBERS .
+The Symmetric Art .
+54 .
+These two new functions are of fundamental importance , not only in this investigation , but in the theory of symmetric functions generally .
+In regard to the algebraic equation , are the homogeneous product sums of the roots and the two sets of elements , have reciprocal properties which it is useful to briefly glance at .
+We have , , , and , in general , The two series of elements are connected in such wise that , in any relation between the elements , the symbols may be interchanged .
+Thus , from is derived As a particular case it is found that is the same function of the elements , that is of the elements , .
+If functions of the elements , be denoted by , we see that , if , so that , then ; showing that is an absolute the transformation which replaces the elements by the elements MAJOR P. A. MACMAHON ON THE COMPOSITIONS O Art .
+55 .
+With these necessary preliminary remarks I define a new function of weight , viz. :\mdash ; where is any composition of the number ; of the given weight there are such functions , one of which is clearly The complete definition is given by the multiplication law where the functions are , or are not , of the same weight .
+Art .
+56 .
+A second new function is similarly defined by the same 1 awe ; viz. , What follows applies generally to both of the new functions .
+Art .
+57 .
+Since the multiplication is commutative , we have the first important property , viz. , Art .
+58 .
+Every product of elementary functions is expressible in terms of the new functions , e.g. , ; and in general where , in , the sum of the coefficients is These relations show that Art .
+59 .
+; and in general If , moreover , we define MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+as denoting and as denoting according to the law usual in this subject ; we find . .
+; and The reader may verify that { ( ) ( ) } , have each the same value which we have denoted by Art .
+60 .
+I pass on to drag into the light some important relations connecting .
+and When the relation was umder observation just now , it will not have escaped notice that this is precisely the expansion of for ; \amp ; .
+, and by the law of formation we see that and thence The known value of is thus given by a law identical with the multiplication law of this paper , and the expression of in terms of is completely given by This new statement , of a well-known law , immediately suggests the generalization to which I proceed .
+Observe that and 1n are -zag conjugate compositions .
+From the relation is now deduced ; and , since ; and we again observe that and are zig-zag conjugate compositions .
+Hence writing and , in general , I have established ( but reserve the proof for another occasion ) that where are zig-zag conjugate compositions .
+Art .
+61 .
+The theorem has an interest of its own , but it is also of vital importance in this investigation .
+This importance consists partly in the circumstance that the functions are those which naturally arise in the present theory of permutations .
+The present theorem enables the immediate expression of them in terms of the elementary sylmetric functions and thus they may be more easily dealt with by symmetric functions differential operators .
+In fact , the homogeneous product sums can be made to disappear from the investigation ; but , an will be seen , it is sometimes advantageous to retqin them wholly or in part , MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+62 .
+To gain familiarity with the new fimctions I give without proof some of their elementary properties .
+where is the sum of the power of the roots .
+The following expression for The result of operations with , viz. , If denote the sum of the symmetric functions whose partitions contain exactly parts , we have the companion tables , in which the law is obvious .
+The fundamental properties of these new symmetric functions were communicated by me to Section A of the British Association for the Advancement of Science , at the York meeting , 1906 , August 1-8 .
+Art .
+63 .
+The generating function of is either or VOL. CCVII.\mdash ; A. MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+We can now determine the highest symmetric function , in dictionary order of the parts , which occurs in the development of This , by the known theory of symmetric functions , is obtained from the form by expressing ( abc. .
+as a partition and taking the Ferrers conjugate .
+; then we see that no symmetric function , prior in dictionary order to can appear .
+Also the highest integer in is the lower limit of the number of parts , occurring in the partition of a symmetric function , arising from the development of , since we arrange as a partition , obtaining , and taking the Ferrers conjugate from the graph we reach ( 42 ) as the highest symmetric function in dictionary order that occurs in the development of Hence ( See the table of weight 6 .
+) Numerous relations such as can be verified by the same table .
+Art , 64 .
+Before proceeding to establish the multiplication theorem , the generalization of that in Part I. , it is necessary to examine the mode of operation of the difFerential operator upon a product or It is clear that In the paper it was shown that , where denotes a composition of into two parts , zero not excluded , and the summation is for every such composition .
+MAJOR P. A. MAOMAHON ON THE COMPOSITIONS OF NUMBERS .
+Hence B. where the compositions of 4 have been taken in the order .
+In general where is a composition of into or fewer parts .
+It is to be noted that in forming the compositions zeros are parts , so that , for instance , count as different compositions .
+If the operand be since unless we need only attend to the compositions composed of units and zeros .
+Thus It is easy to show that from which ; and , particularly , from the table .
+Similar formulae can be established at pleasure .
+The Conjugate Art .
+65 .
+It has been seen ( Art .
+6 ) that , when the numbers permuted are specified by ( pq. .
+where pq. .
+( pq. .
+denote conjugate compositions .
+We write the theorem ; and we may inquire into the existence of an analogous theorem when the numbel'S permuted have any other specification .
+Consider the expression which is the generating function for the difference between ( pq ) and ( pq. .
+for all specifications of the numbers permuted .
+The generating function may be written according to the theorem proved above .
+The differential operation has the equivalent forms hence is the same function of that is of .
+It follows at once that equivalent to the known result already found .
+Art .
+66 .
+Now , considering the generating functions or must be of the form or Hence equivalent to Thus , from the table .
+MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+67 .
+Again , operating with upon we obtain a result of the form or ; hence , equivalent to ; and , particularly , from the table .
+No new result is obtained by taking as the operand .
+Art .
+68 .
+Further , has the form , reducing to equivalent to the new result ; and , particularly , from the table 18 \mdash ; 11 \mdash ; 6 .
+Art .
+69 .
+If we take here the operand to be a new result is obtained , viz. , The above is sufficient to indicate the nature of the results present themselves ; I have not attempted to generalise them .
+The question appears to be a difficult one .
+SECTION 7 .
+Generalisation of the Multipbication Theorem .
+Art .
+70 .
+I will establish the result where the summation is for all solutions of the diophantine equations , For consider Now , the summation being for all solutions of the diophantine equations Moreover , Hence ; and , by like reasoning , the theorem as enunciated follows .
+MAJOR P. A. oMAHON ON THE COMPOSITIONS OF NUMBERS .
+As examples , derived from ( 32 ) ( 1 ) ; and derived from Art .
+71 .
+The enumeration of the permutations , whose specifications contain a given largest integer , will now be investigated .
+Let denote respectively in which the highest of the integers , is or less ; ( ii .
+) , , , , , , , , or greater ; ( iii .
+) , , , , , , , , exactly ; so that , when ; and , since , , we find ; also , , , and by addition the law apparent ere obtains so long as a number appearing in , on the right-hand side , is not equal to any other number in the same bracket ; so that , when L. Hence and , the specification of the numbers permuted being ( pqr. . !
+Now ( abc ) ; thence ; or , not being less than the greatest integer in , is the generating function of the number lie ; and , not being less than the greatest integer in , is the generating function of the number Similarly , but subject now to the condition that must not be less than the greatest integer in , is the function which generates the number Subject to the conditions mentioned , we have a complete solution of the probleln , but when has other values , the solution is less simple and I see no wq of effecting it .
+MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+72 .
+I recall that the number of ways of distributin numbers ( or objects ) specified by into different parcels , is given by the series - ; and this , for brevity , I write Let denote the number of distributions , associated with a descending specification containing exactly parts , and write this when there is no risk of misunderstanding .
+Following the proof of Art .
+28 , it may be proved that ; and also ; and thence Art .
+73 .
+From this relation the following results are obtained:\mdash ; VOL. COVII.\mdash ; A. MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+and , repeating the summation times , ; so that , when Again , taking differences instead of summing , we get the series and in general These results are all given by the two formulae ; ; which become the same when Expression for Art .
+75 .
+I shall now prove that where ; where denotes the expansion of when deprived of the terms linear in , , and of the term independent of , .
+For it is easy to show that two consecutive terms may be given the form and , giving the values , 2 , 4 , , and summing and simplifying , we obtain - , which we know to be the value of Art .
+76 .
+The symmetry of the numbers will not escape the notice of the reader .
+SECTION 9 .
+Art .
+77 .
+My purpose now is to connect the preceding pages with my Memoir on the Compositions of Numbers , to which attention has already been directed .
+In the course of that investigation I had occasion to consider the permutations of the letters in with the object of determining the number of permutations containing given numbers of contacts , If we take any permutation and particularly notice all of such contacts , it is clear that the numbers of parts in the descending specification , , being numbers in descending order of MAJOR P. A. cMAHON ON THE COMPOSITIONS OF NUMBERS .
+magnitude , is necessarily one greater than the number of such contacts ; in the present instance there are 6 parts in the descending specification and 5 contacts .
+The problem of the determination of the permutations having descending specifications containing parts is identical with that which is concerned with those having contacts of the nature specified .
+Art .
+78 .
+I established in the Memoir that the letters in can be permuted in ways so as to have exactly contacts , and I further discovered that this number is the coefficient of in the development of the function Art .
+79 .
+In the same paper I showed that for this function may be substituted the function ' which does not involve , and may therefore be regarded as the general generating function of the numbers .
+Art .
+80 .
+Reserving for the present the generalizations , which were also given in the papers referred to , it is clear that the application to the present question is obtained by putting when we find that the number of permutations of which have descending specifications containing parts , is the coefficient of in the development of or of This , therefore , is the true generating function of the numbers It may be verified , for example , that the complete coefficient of is , which agrees with a previous result .
+From a previous result also the coefficient of is - , where Art .
+81 .
+Observe that the generating function is a symmetric function of verifying a previous conclusion that an number is not altered by any interchange of the letters When the numbers are equal , that is when the objects are specified by the partition , we can establish a symmetrical property of the numbers N. For coefficient in is , by writing for and for equal to coefficient of in equal to coefficient of in equal to coefficient of in Art .
+82 .
+Hence and the numbers range from to showing that is the maximum number of parts in the descending specification , when the objects are specified by the partition .
+MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+83 .
+In general , when there are different letters , the number of permutations of ' which have descending specifications containing parts , is the coefficient of in the development of ; or of This is the general generating function of the numbers Art .
+84 .
+Since it is symmetrical in regard to the value of is not by permutation of the letters Art .
+85 .
+It can be shown also , as in the simpler case , that when the coefficient of is equal to the coefficient of ; so that ; the numbers range from to ; and is the maximum number of parts in a descending specification .
+SECTION 10 .
+Art .
+86 .
+The generating function now presents itself for examination .
+Introducing the elementary functions , MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+and writing , it is written ; or whers For the present purpose we may consider to be infinite , and write Art .
+87 .
+Taking the symmetric function operators , and an auxiliary fictitious equation being an infinite number , it is necessary to remind the reader of the relations existing between the operators .
+Successive linear operations of are denoted by placing them in separate brackets , thus , but when they are multiplied , as in TAYLOR'S theorem , so as to produce a single operator of higher order , they will be placed in one bracket , thus , Art .
+88 .
+Let monomial symmetric functions of the fictitious relation be denoted by a partition in brackets with subscript , thus , Then I have shown , in a previous paper , . . .
+and , in general , !
+MAJOR P. A. MACMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+89 .
+Every symmetric function identity has corresponding to it a relation between the operators ; thus corresponding to the set ( 1 ) , ( 1 ) , ( 1 ) , we have the set , and so on .
+Art .
+90 .
+Also , corresponding to the set \amp ; c. , we have the set , and so on .
+Art .
+91 .
+For the special operand these operator relations assume a special simple form which is of great importance in the theory of the generating function .
+For ; or , qud the above operand , ; and thence , from a set of relations given above , 2 !
+, 3 !
+, ! !
+D. !
+Art .
+92 .
+By means of these we can now arrive at a most important series of relations .
+VOL. CCVII.\mdash ; A. MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+For ; ; ; and generally ; and more generally ; or , if !
+Art .
+93 .
+From the relations !
+; we find the set Art .
+94 .
+And also the set MAJOR P. A. cMAHON ON THE COMPOSITIONS OF NUMBERS .
+The Expressibility of Art .
+95 .
+The fundamental relation !
+exhibits in terms of powers of It is clear , a priori , that is expressible in terms of and powers of , e.g. , , , , , and so on , where notice , as a verification , that the sum of the numerical coefficients is the same on the two sides .
+In every case appears as a factor .
+In general the operator products , which appear on the right , are factors of which contain the factor , every weight of operator product being represented once , once only , from the weight 2 up to the weight of the single operator on the lefthand side .
+It is important to remark that is a perfect partition*of the number ; because every lower number can be composed in exactly one way by the parts of the partition .
+Art .
+96 .
+It now appear that there exists an expression for corresponding to every perfect partition that can be constructed .
+The general expression of a perfect partition is ; where , S , are any positive integers , zero excluded .
+The perfect partition is the particular case , S Messenger , ' 1890 , p. 103 .
+In every case , if be the highest figure in the perfect partition , is a factor of the expression for e.g. , taking the perfect partition we have I do not interrupt the investigation by stopping to prove the theory of expressibility depending upon perfect partitions ; its truth is intuitive .
+Art .
+97 .
+It is necessary to labour the subject of the operator relations , the special operands , because the whole theory of the numbers is involved .
+Art .
+98 .
+Perhaps the most interesting of the operator relations are those which do not involve ( or ) .
+Recalling the relation of Art .
+92 , viz. , !
+where we may also write where and , if we may eliminate , obtaining ! !
+Art .
+99 .
+The simplest formula thence obtained is found by putting , ; and this leads at once to or which also results by elimination of from , .
+Art .
+100 .
+To obtain some more relations in a simple manner , I write ; MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBERS .
+and then ; .or , as these relations may be written , ; or with the usual multiplier ( viz. , 2 ) , if either , or or Art .
+101 .
+We are led to the series ( 31 ) ( 41 ) ( 51 ) ( 61 ) ( 71 ) \amp ; .
+, and generally if be functions of the same weight and degree , viz. , ! !
+Application of the Foregoing to the CXenerating Function .
+Art .
+102 .
+It has been established that .
+We will first of all examine the result of the equivalence of operators 2 !
+( see Art .
+93 qua the operand on the right-hand side ) .
+Write the operand ; then 2 !
+, put ; verified ( from the tables ) by .
+MAJOR P. A. cMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+103 .
+Again , in the same formula , put we find We obtain , from this , a useful result by writing for for then Art .
+104 .
+Observe that ; so that by addition and subtraction we obtain or , as we may conveniently write these relations , ; ; These are the relations connecting and , the subscript analogous to those connecting the same symbols the subscript Art .
+105 .
+From any operator relation we can immediately derive a relation between the numbers by substituting for the expressions ; and this it is convenient to denote by Art .
+106 .
+Thus , corresponding to the operator relation we obtain As a particular case put so that MAJOR P. A. MAoMAHON ON THE COMPOSITIONS OF NUMBERS .
+and thence ; For , these relations can be verified by the tables for all values of Art .
+107 .
+Similarly the theorems derived from can be at once written down .
+is worth noting that this operator relation can .
+by putting , be written If !
+we can write down the corresponding relation between the numbers It will be found that is a linear function of and a linear function of ; and that the same obtains when instead of we take Art .
+108 .
+From the operator relation we find ; where , are numerical coefficients that may be determined .
+Thence is derived the relation giving a hint to put symbolically , and then symbolically .
+Art .
+109 .
+It must now be remarked that , since we obtain ; since ; and ; we obtain Art .
+110 .
+We have two alternative expressions for in terms of numbers I verify them in the case ; or agreeing with , for .
+or and , for - ; agreeing with 8 . .
+MAJO P. A. MAcMAHON ON THE COMPOSITIONS O NUMBERS .
+Art .
+111 .
+We have seen that , in general , we have two expressions for but , since we have four expressions for ' Art .
+112 .
+It is clear that the operator relations afford unlimited scope for obtaining theorems connecting the numbers Relations , so far utilised , have involved the operator but it is easy to construct them so as not to contain and generally so as not to contain , where is less than a given integer .
+E.g. , from the symmetric function relation ( 1 ) ( 1 ) , we find ; and generally the relation leads to ; or , throwing.out the factor the same relation as before .
+Moreover , the relation leads , after }ving out a power of , to precisely the same relation .
+Art .
+113 .
+This remarkable circumstance greatly limits the number of operator relations obtainable .
+It should be observed that any operator relation may be multiplied throughout by any power of and may be then used to obtain relations between the numbers VOL. CVII , MAJOR P. A. MAcMAHON ON THE COMPOSITIONS OF NUMBER8 .
+but no essentially new relations are thus obtainable ; for take a simple cas leading to true for all of If we take we are led to and if the former relation be written the latter is merely ; and further multiplication by leads to the series of which the general term is ; so that no new information is obtained .
+Art .
+114 .
+The operator relation of the form linear function of is not difficult to obtain .
+I find that ; and thence the formula for follows by taking as the operand on each side and then reducing the products by the formula for I find that .
+- ... ; MAJOR A. MAHON ON THE COMPOSITIONS OF NUMBERS .
+131 and , generally , the product of any number of operators is expressible in the required linear form .
+Art .
+115 .
+With the object of connecting this theory of the numbers with that of the numbers ( abc. .
+the generating function will now be expanded in ascending powers of .
+, the coefficients of being functions of the homogeneous product sums The point of departure is the elementary formula Remarking that I write for equivalent to writing for and for ; then suppose ; and , as before , write ; so that ; whence , solving for and ; where A is the generating function under consideration .
+Write MAJOR P. A MAcMAHON ON THE COMPOSITIONS OF NUfflEBa so that ; therefore and thence Now let functions be connected with in the same way that are connected with so that then and On the dexter the co-factor of is which has the value since is a well-known identity in the elementary theory of symmetric fhnctions .
+Hence ; or , as we may write it , MAJOR P. A. oMAHON ON THE COMPOSITIONS OF NUMBERS .
+Art .
+116 .
+The preceding pages show that the coefficient of in the expansion of is equal to the summation being for every partition ( pqr ) ; and this , from the theory of the numbers is equal to , the summation being for integer values of ; or , the same thing , for the compositions of all numbers into exactly parts .
+Hence a remarkable result .
+Art .
+117 .
+Since we find , putting , and , since !
+;
+

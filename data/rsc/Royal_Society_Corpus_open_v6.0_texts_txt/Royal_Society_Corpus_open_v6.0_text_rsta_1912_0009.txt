@@ -1,0 +1,241 @@
+]\gt ; [ 345 ] IX .
+Memoir on the Theory of the Partitions of Numbers.\mdash ; Part VI .
+Partitions in Two-dimensional Space , to which is added an Adumbration of the Theory of the Partitions in Three-dimensional Space .
+By Major P. A. MAcMAHON , , D.Sc .
+, .D .
+, F.R. Received Juns 13 , \mdash ; Read June 29 , 1911 .
+Intr.oduction .
+I RESUME the subject of Part V. this Memoir by inquiring further into the generating function of the partitions of a number when the parts are placed at the nodes of an incomplete lattice , , of a lattice which is regular but made up of unequal rows .
+Such a lattice is the graph of the line partition of a number .
+In Part V. I arrived at the expression of the generating function in respect of a row lattice when the past magnitude is unrestricted .
+This was given in Art .
+16 in the form GF I remind the reader that the determination of the generating function , when the part magnitude is unrestricted , depends upon the determination of the associated lattice function ( see Art .
+5 , .
+cit This function is assumed to be the product of an expression of known form and of another function which I termed the inner lattice function ( see Art .
+10 , .
+cit and it is on the form of this function that the interest of the investigation in large measure depends .
+All that is known about it ) is its numerical value when is put equal to unity ( Art .
+10 , .
+cit The lattice function was also exhibited as a sum of sub-lattice functions , and it was shown that the generating function , when the part magnitude is restricted , may be expressed as a linear function of them .
+These sub-lattice functions are intrinsically interesting , but it will be shown in what follows that they are not of vital importance to the investigation .
+In fact , the difficulty of constructing them has been turned by the 'Phil .
+Trans , vol. 211 , 1911 .
+VOL. CCXI . .
+2 9.9.11 formation and solution of certain functional equations which lead in the first place to the required generating functions , and in the second place to an exhibition of the forms of the sub-lattice functions .
+To previous definitions I here add the definition of the inner lattice function when there is a restriction upon the part magnitude , and it will be shown that the generating , lattice , and inner lattice functions satisfy certain functional equations both when there is not and when there is a restriction upon the part magnitude .
+There are two methods of investigation available .
+We may commence with a study of the Greek-letter successions ( Art .
+6 , et seq. , loc. cit. ) from which the lattice functions are derived , and having obtained the functional equations which they satisfy , proceed thence to those satisfied by the generating and inner lattice functions ; or we may reverse the process , and , by a prior determination of the equations appertaining to the generating functions , arrive at those satisfied by the lattice and inner lattice functions .
+Both methods have been of service .
+The results , herein achieyed , are complete so far as the lattice of unequal rows and the particular question under consideration are concerned .
+They are elegant and aJgebraically interesting .
+In proof of this , it will suffice to say that the generating function is unaltered when the lattice is changed into its conjugate .
+The subject thus swarms with algebraical relations which are established intuitively .
+Other results are obtained of a more general and extensive character which mark out the path of further inyestigation .
+Art .
+1 .
+I recall that for the lattice of two unequal rows , containing nodes respectively , the established results are Inner lattice function IL ; Lattice function ; Generating function We have yet to determine IL , , GF , where an inner lattice function , for a restricted part magnitude , is defined by the relation .
+IL THEORY OF THE PARTITIONS OF NUMBERS .
+The Functional Equations .
+Art .
+2 .
+It is convenient to begin by establishing the functional equations satisfied by the generating functions .
+Suppose the lattice to have three unequal rows of nodes respectively , and let the part magnitude be restricted by the number Subject to the parts bein in descending order of magnitude in each row and in each column , in every partition each node is either occupied by zero ( that is , is unoccupied ) or by a number greater than zero and not greater than .
+In certain partitions every node is occupied ; such partitions may be constructed by ( i ) Placing a unit at each node , ( ii ) Superposing every partition enumerated by GF .
+Hence these special , full-based partitions are clearly enumerated by GF .
+Similarly those partitions which are full-based upon a contained lattice specified by the line partition are enumerated by ; and we are led to the relation where the summation is in regard to every- lattice , specified by , which is contained in the lattice specified by .
+Art .
+3 .
+If from the partitions enumerated by GF we subtract those enumerated by , we have remaining , in the cass of three unequal rows , partitions which include those enumerated by each of the three generating functions ; and , by well-known principle of the atory analysis , are enumerated .
+Hence the functional equation GF -GF .
+In the general case of unequal rows we have the theorem for GF ; for if be a symbol such that p.GF GF , it is readily seen that GF .
+This equation is , at first sight , only true when there are no equalities between the numbers , , ; but in the sequel , when an algebraic expression of GF has been found , it will be seen to be true universally as an algebraical identity .
+Art .
+4 .
+However , the formula may be modified , in the direction of simplification , when the rows are not all unequal .
+For a given lattice we require to know how many nodes may be singly detached and yet leave a contained lattice .
+Thus in the three-row lattice illustrated above it is clear , the rows presenting no equalities , that we may detach singly either of the nodes lettered ; but in the case now given nodes nodes nodes , it is seen that we can detach either A or only , so that the resulting functional equation is GF , which is to be compared with the equation appertaining to a lattice of two unequal rows GF .
+Similarly we derive the equations GF , GF ; THEORY OF THE PARTITIONS OF NUMBERS .
+and also GF .
+The formation of the relation in any particular case presents no difficulty .
+When the lattice has singly detachable nodes , the right-hand side of the relation involves terms .
+Art .
+5 .
+When the part magnitude is unrestricted , or , the equations become GF -GF GF and the modified forms are easily written down .
+Art .
+6 .
+The next step is to deduce the corresponding relations between lattice functions .
+From the relation GF we find \ldquo ; ; ; ; ; ; ; .
+In the case of unequal rows , if we write symbolically , , ; then ( 1-X ) .
+MAJOR P. A. cMAHON : MEMOIR ON THE Art .
+7 .
+Continuing , for the present , to regard the part magnitude unrestricted , we now proceed to the equations satisfied by the inner lattice functions .
+Guided by the relation IL , ( 2 ) .
+( 1 ) we find ( 2a ) IL IL ; IL IL IL IL ; ( 3a ) IL IL ; IL IL IL IL ; IL IL IL IL ; IL IL IL IL IL , and , in general , for unequal rows , if we write symbolically , , , IL IL .
+To these may be added IL IL which can be readily generalized .
+Art .
+8 .
+I proceed at once to find an expression for the inner lattice function .
+It appears to be right to seek an expression of the function which shall show at once that the sum of the coefficients therein is that which it is otherwise known to be .
+Thus the result IL ( 1 ) shows at once that the sum of the coefficients is THEORY OF PARTITIONS OF NUMBERS .
+Since the sum of the coefficients in IL is it was at first conjectured that the expression might be but this neither satisfies the functional equation nor yerifies in simple particular cases .
+If , in the formula GF we put IL equal to the expression aboye and then put , we obtain the known result for GF , as may be readily seen by putting the expression in the form We are therefore justified in putting IL equal to the expression with an added term which contains the factor ( c ) .
+Write , therefore , IL By working out several particular cases I was led to the conjecture ; and I then found that the expression does , as a fact , satisfy the functional equation .
+Art .
+9 .
+Having thus , beyond doubt , established the forms of IL and IL , I proceed to a study of the functional equations .
+In the equation IL IL IL IL , put ; then , which is of the same form as the original equation .
+Hence , if IL be a solution of the equation , is also a solution .
+I write IL , exhibiting the new solution as the result of the performance of a certain operation upon the original one .
+Again put , in the original equation , , and we find ; so that another solution is IL .
+I write further IL IL IL ; so that , from the functional equation itself , IL ; ; and it is easy to verify that Art .
+10 .
+Since we know one solution of the equation , or more conveniently ( 1 ) ( a\mdash ; b ) , or better still , we may at once apply the operators .
+Operating times successively with , I find ; and , .
+THEORY OF THE PARTITIONS OF NUMBERS .
+We may therefore take and ( b ) as the two fundamental solutions , and clearly we may always multiply a solution by any function of which does not involve or The final expression of IL which I adopt is ' IL .
+; and we will find that , expressed thus as the quotient of two determinants , it is generalizable .
+I might now , knowing posteriori the expression for IL , proceed in a simpler manner than what follows ; but I think it better to put before the reader the actual course that the investigation took .
+Art .
+11 .
+In the functional equation satisfied by IL , which may be written IL IL IL IL IL , IL I write ; ; and thence derive the relation .
+Comparing this with the functional equation it is clear that , as defined , is a solution .
+Proceeding similarly we find six solutions which I exhibit as operations upon IL as follows:\mdash ; ; ; ; VOL. CCXI.\mdash ; A. 2 { IL IL IL ; { IL IL ; { IL IL IL IL .
+I further write { IL IL IL IL IL IL IL ; and it is easy to establish the operator relations .
+Art .
+12 .
+I now operate with these operators upon the known solution of the functional equation .
+To clear it of fractions I multiply throughout by ( 1)2 ( 2 ) .
+Operating times in succession with I obtain the result ( 1 ) .
+Whence I conclude that ( \mdash ; ) , , \mdash ; 1 ( ) , are solutions of the functional equation .
+I find that ; but new solutions are obtained by operating upon , and Ps with and THEORY OF THE PARTITIONS OF NUMBERS .
+Operating with times successively , upon I obtain and I draw the inference that \mdash ; 1 ( c ) and \mdash ; 1 ( c ) are solutions .
+Further , operating with times successively , upon , I obtain ; and it thence appears that and ( b ) are solutions .
+Again , operating with times successively , upon , I obtain ; and the conclusion is that and ( b ) are solutions .
+No other fundamental solutions are obtainable by operating with , and upon , and , and clearly we have no need to consider the other operators because of the relations between them .
+We have thus six fundamental solutions , , ( ) , ( b ) , ( \mdash ; 1 ) ( ) , \mdash ; 1 ( ) .
+Art .
+13 .
+The known solution of the functional equation from which these solutions have been derived now be expressed in terms of these .
+Since it has been found that IL we have ( 1)2 ( 2 ) IL ; and , putting in results obtained above , it appears that , , .
+whence ( 1)2 ( 2 ) IL \mdash ; 1 ( 0 ) \mdash ; 1 ( ) , or ( ) IL , ( b ) a satisfactory representation of the inner lattice function .
+Art .
+14 .
+Passing now to the consideration of the inner lattice function of the order 4 , , IL , and guided by the above results , I put , , , ( ) , ( ) ( \mdash ; 1 ) ( ) ( d ) ( d\mdash ; 1)(d ) ( d\mdash ; 1 ) ( d\mdash ; 1 ) ( d ) and I consider the twenty-four products which , to suffices 3 , 2 , 1 in descending order , involve every permutation of the letters ABCD , three at a time .
+Art .
+15 .
+I shall show that each of these products is a solution of the functional equation IL IL ; for , looking at the definition of the symbol , it is clear that , \amp ; c. Hence establishing that is a solution .
+THEORY OF THE PARTITIONS OF NUMBERS .
+In general , put and consider the product where are in fixed alphabetical order and is some permutation of 3 , 2 , 1 , We find and the effect of the symbols is to multiply by , , respectively .
+Hence since It is thus established that each of the products in question is a solution of the functional equation .
+Art .
+16 .
+Hence the determinant , which is a linear function of these products , .
+:\mdash ; \ldquo ; ; and I shall show that this determinant , divided by the determinant 1 , , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 is the actual expression of IL .
+Art .
+17 .
+I first take the test of the sum of the coefficients which we know otherwise to be .
+The denominator determinant has the value ( 1 ) ( 2 ) ( 3 ) ; diyiding numerator and denominator by ( 1 ) , and then putting equal to unity , we find and herein putting separately equal to zero , we in each case find two columns becoming identical and the determinant vanishing .
+Hence the sum of the coeffi has the proper numerical value .
+Art .
+18 .
+As a second test I will show that the quotient of determinants becomes unity on putting The numerator determinant becomes , ( a ) , \mdash ; 1 ( a ) , Transform this by taking For New First Row\mdash ; ( a ) ( a ) 1 1st Row , For New Second Row\mdash ; Row , For New Third Row\mdash ; Row , and it becomes 1 , 1 , 1 , 1 , , 1 , 1 , , 1 , 1 and thus the quotient of determinants is unity .
+This verifies numerous particular cases .
+Art .
+19 .
+A third test is to show that the quotient of determinants has the value when The proof is too long to find a place here .
+THEORY OF THE PARTITIONS OF NUMBERS .
+All of the processes employed above are obviously valid when applied to the functional equation of order and lead to the expression of as a quotient of determinants .
+Art .
+20 .
+Before proceeding further I collect together the chief results obtained above .
+IL ' ; ( 1 ) ; ( c ) ' ( b ) ' IL IL ( c ) , 1 , 1 ; ; and , not putting the denominator determinant in evidence , .
+( 1 ) .
+( 1 ) MAJOR P. A. MAcMAHON : MEMOIR ON THE In general , the determinant numerator of GF involves explicitly as exhibited in the determinant , .
+, : , , 1 the exponents of being figurate numbers of order 3 , GF The Restriction the Part IlIagnitude .
+Art .
+21 .
+I pass on to consider the case in which the part magnitude is restricted by the integer I take as my point of departure the functional equation GF GF and , by means of the relation convert it into a functional equation for the lattice function .
+For the orders 2 and 3 we have ; ; THEORY OF THE PARTITIONS OF NUMBERS .
+and in general ; wherein is the symbol of Art .
+3 , and symbolically .
+Art .
+22 .
+Also , from the relation IL , the orders 2 and 3 we have IL IL IL IL IL ; IL IL IL IL IL IL IL IL IL .
+While in general , if be a symbol such that IL IL .
+Art .
+23 .
+I propose to obtain solutions of these functional equations .
+In order to ascertain the form of the required solutions it was necessary to examine several particular cases appertaining to the order 2 ; the result was the conjecture that VOL. CCXI.\mdash ; A. 3 MAJOR P. A. MAcMAHON : MEMOIR ON THE This expression was found to satisfy the functional equation , so that certainly IL ; and then , observing that we may write IL and remembering the nature of solution when , it became clear that we should seek utions for the order 2 of the forms ; where is a function of to be determined in each case .
+I therefore substitute for IL in the functional equation and arrive at the relation ( ) ; from which I deduce , yielding for me the fundamental solution Similarly I find that another fundamental solution is ; and , in terms of these two solutions , I find Art .
+24 .
+This simple exposition for the second order clearly points out the path of investigation for the third order .
+For , guided by the six fundamental solutions when , it is natural to seek for solutions of the functiona equation of the six types ; ; ; ; ; where , is a function of to be determined in each case .
+THEORY OF THE PARTITIONS OF NUMBERS .
+Substituting the first of these for IL in the functional equation of order 3 I find ; but the solution of the equation is clearly ; so that , in the present case , ; so that I obtain a fundamental solution Art .
+25 .
+Similarly I arrive at five other fundamental solutions , ( b ) ' ' ( \mdash ; 1 ) ( ) ; and I next seek , guided by previous work , to construct the function IL , by a linear function of these six solutions .
+It is natural to write \mdash ; 1 ( ) 1 ) ( 1 ) , with a denominator , J ) MAJOR P. A. MAcMAHON : MEMOIR ON THE which , in determinant form , is , ( ) , , ( c ) divided by ( 1)2 ( 2 ) ; and it will be shown that it is , in fact , the expression of IL .
+Art .
+26 .
+In a general manner we may take the following view\mdash ; Recalling a previous notation for the orde-r 3 , , , , , ; and taking a product where denotes some permutation of the numbers 2 , 1 , , suppose substituted for IL is the functional equation .
+The result on reduction is ; and now writing ; ; and the inner lattice function IL is , to a divisor ( 1)2 ( 2 ) THEORY OF THE PARTITIONS OF NUMBERS .
+pres , equal to the determinant and this determinant is clearly Art .
+27 .
+This is evidently a perfectly general process and suffices to establish that a solution of the functional equation of order is a determinant of order / of which the constituent in the row and column is .
+; and when this determinant is divided by ( 1 ) ( 2 ) , we have , as will be proved , the expression of IL .
+Art .
+28 .
+To establish this we may apply a series of tests .
+Thus , take the expression of IL , ( b ) \mdash ; 1 ( c ) , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , divided by ( 1)8 ( 2 ) ( 3 ) .
+It clearly reduces to IL when is put equal to Moreover , it can be shown that when , the determinant involves and always in the combination ; for consider the determinant in question when is put equal to THEORY OF THE PARTITIONS OF NUMBEBS .
+MAJOR P. A. cMAHON : MEMOIR ON THE It is a remarkable fact that this elegant result appears to be valid whatsoever the may be that present themselves between the integers , The discussion of this and the interpretation of GF when , , are not in descending order must be deferred to another occasion .
+I add the general result for equal rows which has now been established GF .
+( n ) Art .
+30 .
+I recall that , in Part V. , the formula was given GF , wherein is the sub-lattice function of order derived from the lattice whose specification is .
+So far it has not been feasible to directly determine an expression for , but as we now know the expression for GF it is possible to find expressions for , , by giving the values 1 , 2 , 3 , , in succession in the resulting identity .
+One interesting result was , however , directly determined , viz. :\mdash ; ( a\mdash ; b ) ; ( 1 ) ( s ) but I do not give the proof of it at present , as the subject of the sub-lattice functions has not yet been worked out , and they are , in fact , no longer necessary for this part of the general inyestigation .
+Art .
+31 .
+Valuable information , concerning lin or one-dimensional partitions , is furnished by putting in the general formula .
+The partitions that are then enumerated are those in which every part is unity , there being not more than units in the row ; if thence we proceed to line partitions by adding the units that appear in each row we clearly get a system of line partitions such that the part is limited in magnitude ) the integer ; or the system comprises all partitions contained in or subordinate to , viz. , such that the first part } , the second } , , the } Denoting the generating function of these by GF , and , denoting by or , I find ' ; THEORY OF THE PARTITIONS OF NUMBERS .
+GF , ( ) , , ; , ' ( b ) ' ' ; ' \ldquo ; ; and the law is evident .
+Art .
+32 .
+In general , supposing the lattice to be in the plane of , that of the paper and the axis of perpendicular to the plane of the paper , if we project the partition on to the plane of , we obtain a partition at the nodes of a lattice of rows in which the part magnitude in the columns is limited by the number The general formula for GF is remarkable from the fact that GF , where , are any two conjugate line partitions .
+Adumbration of the Three-dimensional Theory .
+Art .
+33 .
+I conclude this Part by pointing out a path of future investigation into the Theory of Partitions in space of three dimensions .
+I consider a complete or incomplete lattice in three dimensions , the lines of the lattice being in the direction of three rectangular axes of respectively .
+Just as an incomplete lattice in two dimensions is defined by a oneVOL .
+CCXI . .
+3 dimensional partition whose successive parts specify the successive rows of the lattice , so an incomplete lattice in dimensions is defined by a two-dimensional partition whose successive rows specify the successive layers of the lattice .
+I shall suppose these layers to be in or parallel to the plane of which is the plane of the paper , and the axis of to be perpendicular to the plane of the paper .
+Descending order of magnitude of parts placed at the points of the lattice is to be in evidence in the three directions Ox , Oy , Oz .
+Art .
+34 .
+Consider the simplest case of a complete lattice , the points forming the summits of a cube .
+The two-dimensional lattices , in and parallel to the plane of the paper are superposed to form the three-dimensional lattice .
+Suppose that the first 8 integers are placed at the points of the lattice so that descending order of magnitude is in evidence in the directions Ox , Oy , Oz , , one of 48 such arrangements is as shown .
+I associate with the first and second rows of the first layer the letters respectively , and with the first and second rows of the second layer the letters respectively , and then from the illustrated arrangement of the first 8 numbers I derive a Greek-letter succession in the following manner : take the numbers in descending order of magnitude and write down the Greek letter with which the position of each number is associated : thus the arrangement above giyes Art .
+35 .
+In this Greek-letter succession we have to note A which is succeeded by an ( ii .
+) An which is succeeded by an with a smaller suffix , A which is succeeded by a with a smaller suffix .
+If a letter which is thus noted is the letter in the permutation I associate with the permutation the power , and taking the sum of these powers in respect of the whole of the permutations associated with and derived from the lattice I obtain the lattice function ; and , following the reasoning of Part V. , Art .
+6 , I derive the generating function for partitions at the points of the lattice , the part magnitude being unrestricted , viz. , ; 22 ; 22 THEORY OF THE PARTITIONS OF NUMBERS .
+Similarly , from the Greek-letter successions which inyolyo letters , I derive the sub-lattice function of order , and thence , by previous reasoning , arrive at the generating function when the part magnitude is restricted by the integer Art .
+36 .
+The method is generally applicable to any incomplete lattice in three dimensions .
+I work out in detail the case in which the points of the lattice form the 8 summits of a cube , in order to show that the result obtained , in .
+Part II .
+, Section 7 , in quite a different manner , is verified .
+That result , with modified notation , was Generating unction ; where I shall now show that are , in fact , the sub-lattice functions of orders to 4 which appertai to the lattice formed by the summits of a cube .
+I write down permutations of the Greek letters and over each the arrangelnent of the first 8 integers from which it is derived , the lower layer of numbers being placed to the left : THEORY OF THE PARTITIONS OF NUMBERS .
+A dividing line has been placed after each letter that has to be noted .
+Thence , by the rules given , ; 22 ; 22 ; 22 ; 22 ; 22 ; 22 ; 22 ; 22 ; 22 ; 22 supplying a complete verification of the work in Part II .
+We have , therefore , GF We have evidently , potentially , the complete solution of the problem of threedimensional partition , and it remains to work it out and bring it to the same completeness as has been secured in this Part for the problem in two dimensions .
+This will form the subject of Part VII .
+of this Memoir .
+

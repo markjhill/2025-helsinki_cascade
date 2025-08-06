@@ -1,0 +1,182 @@
+XVI.-An attempt to rectify the inaccuracy of some logarithmic formula .
+By JOHN THOMAS GRAVES , of the Inner Temple , Esq. Communicated by JOHN FREDERICK WILLIAM HERSCHEL , Esq. .
+P. Read December 18 , 1828 .
+FROM the recent researches [ Note A. ] of MM .
+POIssoN and POINSOT on angular section , and their discovery of error in trigonometrical formulae usually considered complete , my attention has been drawn to analogous incorrectness in logarithmic series .
+Accordingly , the end proposed in the present investigation is the exhibition in an amended form of two fundamental developments , as the principles employed in their establishment admit of application in expanding by different methods various similar functions , and tend to elucidate other parts of the exponential theory .
+Let ax =-. .
+rii It is proposed to exhibit correct developments ; I. Ofy in terms of a and x ; II .
+Of x in terms of a and y ; the corresponding formulae hitherto given being incomplete ; viz.* ( xvia ) " I. y= 1+ xla ... + 1.2 .
+** " II .
+x , when y is positive , = -l +y Some authors , for the case when y is negative , have provided for x mula LJ [ 2 ] [ 3 ] the forV/ -1(2i + 1)rx + lie [ la [ 4 ] la The notation above used will be adhered to , and requires to be explained .
+i denotes 0 , or any integer positive or negative , and X the ratio of the circumference of a circle to its diameter .
+1a is intended to designate the tabular Neperian logarithm of a , which logarithm is a quantity assignable only in the case when a is positive , and may then be found from the development ^ { ^ +a,..+2fl 1 ( La } .
+I l'+-a 1 1-a )+l Independently of the circumstance that neither of these formule for y and x provides for the case when a is negative or impossible , and that neither [ 3 ] nor [ 4 ] provides for the case when y is impossible , their incompleteness will appear from what follows .
+That [ 2 ] is incomplete is prim &amp; facie obvious , from the known fact that when x is a rational fraction , a has as many values as there are units in the denominator of x reduced to its lowest terms , whereas [ 2 ] never exhibits more than one value .
+Thus , el ( e being the Neperian base and 1e= 1 ) has two values , viz : +Je and --/ e , whereas ++ i ... ( ' " represents the value +.j only .
+The imperfection of [ 3 ] and [ 4 ] arises from the imperfection of [ 2 ] , of which [ 3 ] and [ 4 ] are reverted solutions .
+Thus , as one of the values of e= --^/ e , I is a Neperian logarithm of --V/ e , but yet , if in [ 4 ] -V/ e be substituted for y , and e for a , the resulting formula , viz. -2+1)X14 or --1(2i+l ) .
+e+i comprises , whatever value be given to i , only imaginary quantities , among which , of course , 2 cannot be found .
+For the purpose of developing y and x correctly , adopting the equation fG =cos + ^ " V sin 0 [ 6 ] it will be useful to possess two preliminaries ; 1st , a development of f 0 ; 2nd , a development of f -1 0 ; as it will appear that upon the form of these developments depend the desired ones of y and x. ( By f0 is to be understood , according to the notation of Mr. HERSCHEL , every such quantity q , that fq= ) .
+172 Postulates .
+To obviate the necessity of interrupting the course of the argument hereafter , it may-be satisfactory to enumerate the principal truths immediately connected with our subject and not immediately evident , which will be taken for granted in this paper .
+For their support , the authority of Dr. LARDNER'S Trigonometry , Part III .
+Sections 1 and 2 , may be referred to .
+EULER'S development of f , or 1.2 ... n. =1 .
+2 ... DE MOIVRE'S theorem , or f( 0 ) =a value of(f 0 ) [ 8 ] f- ' f= 2ir + [ 9 ] DE MOIvRE 's theorem as extended by M. POINSOT , or f{x(2i + O ) } =(f ) ' [ 11 ] f(G + h)= f..fA [ 11 ] Subsidiary division .
+1st , To possess a development of f 0 .
+The development of EULER [ 7 ] is accurate and sufficient .
+2nd , It remains to obtain a development of f~0 .
+Differentiating [ 6 ] we obtain drf -d = -1(cosO + v- " sinO ) or v-t-if [ 12 ] Substituting in [ 12 ] f- ' 8 for , we obtain ff = -_lI ff 1 ; or since ff 0 0d ; d= ~i/ .
+df-'l df-L Hence we find tn 8= ( -i o)- ' .
+[ 13 ] t is evident by13 hat when becmomes infinite , and It is evident by [ 1 3 ] , that when ~ becomes -0 , -*beoeinntead consequently it is impossible to develop f 10 according to the ascending integral powers of 0 .
+Let us then proceed to develop according to the ascending powers of 1 -0 f c ; ( c being a constant , and introduced-be it remarked in advance-on account of the power it possesses , if properly chosen , of rendering the intended development of f0 convergent .
+) To effect this purpose , let 1--Ofc=w [ 14 ] Hence O= ( 1 w ) ( fc)-1 ; or since , by [ 8 ] , ( fc ) - ' =f c ; = ( 1 w ) fc : Accordingly , after substituting in [ 13 ] ( 1 ) fc for 0 , and therefore ffed for d 0 , we find df { ( 1 -)f-c } ) dw Hence , continuing to derive the successive differential coefficients , we obtain df ( 1 ) f-c}.----l / -1 1 .
+2 ... n. ( -))dc Hence , evidently , enf-`w { ( 1--))f c}\ _1(d ( d { ^ f })=^-l.l ... ... .
+[ 15 ] ( by the notation ( d{(lw)f- } ) being designated the value which dn -I { ( 1 - ) f-acquires , when w= 0 .
+) d Also , by [ 9 ] , ( f-1 { ( l-- ) f-c } ) or f lf-c =2 ir-c [ 16 ] But , by MACLAURIN'S theorem , ( df{(1--)f-f } ) f-{( -)f= ( f- ' ( 1 )fc } ) ... + ... ... ... Substituting for the successive terms of this equation their values derived from [ 16 ] and [ 15 ] , we obtain f{(1-cf-c } = 2i5 i - ?
+^ ( c+/ o ... + -- .
+) [ 17 ] 174 Replacing , in [ 17 ] , w by 1O fc ( see [ 14 ] ) , and therefore ( 1 w ) f cby O we obtain finally the required development ; viz. f= 2i-c +^ { ( 1--Of c ) ... + ( 1--fc ) ... .
+} [ NoteB .
+] [ 18 ] Having advanced thus far , it will now be easy to fulfil our original intention .
+General division .
+I. To develop y in terms of a and x. Let a= f0 [ 19 ] Then by [ 10 ] , a ' or ( f )x = f{x ( 2 iT+ 0 } But by [ 9 ] , 2 iz + =f f or ( see [ 19 ] )fa Hence ax , or ( see [ 1 ] ) y= f(x f-a ) [ Note C. ] [ 20 ] Hence , expanding f ( x fa ) by formula [ 7 ] , we obtain , y ( '-lf1 1 a ) " , [ 21 ] a ... .
+1.2. .
+n. II .
+To develop x in terms of a and y. Solving [ 20 ] , we obtain , x f= [ Note D. ] [ 22 1a Hence , developing by formula [ 18 ] , 2i -c +v/ ( I yfc ) + n(I-yfc. .
+1 ... = ' ----'I ... ..- ... ... [ 23 ] 2i7rc+ +/ '{(1 -afc ) ... n ( 1--a fc ) ... } ( i and c are dotted underneath , to show that when rendered determinate , their individual values may differ from those of i and c. ) [ 21 ] and [ 23 ] may now be compared with [ 2 ] , [ 3 ] , and [ 4 ] .
+Remarks on the application of the preceding theory .
+From the foregoing principles many collateral deductions may be inferred .
+For instance , they present a solution of difficulties and illustrate peculiarities appertaining to the theory of the logarithms of negative quantities .
+Directed to geometry , they advance into an almost uninvestigated part of analysis , by conducing to trace the form and evolve the properties of curves ( if figures , 175 consisting generally of discontinuous points , can accurately be called curves ) , whose equations involve exponential functions .
+By their means also , various differential and other formulae usually exhibited in logarithmic treatises may be tendered complete .
+An extended pursuit of these objects would exceed the limits of the present design ; but to explain briefly the mode of procedure employed in application of the preceding general results , an Appendix is subjoined , containing a few examples .
+APPENDIX . ? ?
+1 .
+The constant c might appear to be needlessly introduced , if its necessity to insure the convergence ( and universal accuracy [ Note E. ] ) of the series [ 18 ] were not plain from what follows .
+Differentiating n terms of the series [ 18 ] there results , --1fc{l +(1 -Ofc ) ... +(l -fc ) ndO which , as is evident on multiplying by 1 ( 1 -0 fc ) , =~-fc _1-fc))d d or ( 4/ 1 1-(1-fc ) } dO [ 24 ] This expression , if the series [ 18 ] be convergent , or , carried to infinity , be numerically equivalent to f- ' , ought , as n is increased without limit , to approach indefinitely to d f0 , or ( see [ 13 ] ) ( V--i d)d ; but , on referring to [ 24 ] , it is obvious that such can be the case only where c is so assumed , that , n being supposed to increase without limit , ( 1 0f c ) shall approach indefinitely to 0 .
+Were c neglected , or , in other words , taken = 0 , and therefore ( see [ 6 ] ) fc = 1 , 0 would not always necessarily lie between such limits that ( 1 0 ) should possess this property ; but a quantity fc is , in any case , supposable , which will insure for ( 1 f c)n the required essential , whatever , at the time , be the value of 0 .
+2 .
+If aX have among its values two quantities differing only in sign , x must be a rational fraction with , in its lowest terms , an even denominator .
+[ Note F. ] By [ 20 ] all the values of a ' are expressed by f ( v f- ' a ) .
+Any determined 176 value must , therefore , be expressible by f ( x f- ' a ) , where i~1 a is a determined value of f- ' a. Moreover , by [ 9 ] , the expressions f~1 a , and 2ir+1 a , are co-extensive .
+Now a ' having two values which differ only in sign , let one of them =f ( x-1 a ) ; then ( since fr 1 ) the other will = fr .
+f ( v f1- ' a ) or ( see [ 11 ] ) f ( r + f-1 a ) .
+The supposition is that f ( r +x i-1 a ) = one of the values of a ' or f { x ( 2 i+ f-{a ) } .
+Hence , by [ 9 ] , one of the quantities 2i++v f-l a must = one of the quantities x ( 2 ir + f-l a ) .
+2i +I Hence x must = one of the quantities 2i a formula comprising all rational fractions , which , in their lowest terms , have even denominators . ? ?
+3 .
+f-l ( d h ) = f-1 ' + f-1 h [ Note G. ] .
+By [ 11 ] , f(fd + f- ' h ) = ff-l D.ffh or Oh .
+Hence , fh = f+f-l h. Q.E.D. ? ?
+4 .
+On the Neperian logarithms of positive numbers .
+Developing by [ 7 ] , it appears that f -1 -= 1+ 1. .
++ 1 .
+n =2 e the Neperian base .
+Hence , by [ 9 ] , fe=2 i -/ -l .
+Hence , by [ 22 ] , the Neperian logarithms of k2 are expressed by 2Fi7r-c-[25 ] Now , by ? ?
+3 , 2K2 f1 2+f1 K2 1 +K-1 2I -1 K 2+ Hence fi =_f -Fl 2 K~ 1 +K2 --fAnd , K2 being positive , ( in the formulae of this paper capital letters will be 2 K2 1 -K2 21 Ks used to denote real quantities ) 1 K-or I+ Kand 1+ K~ or + K2 must evidently both lie between 1 and 1 .
+2 K2 n2 Hence it is plain that ( 1--1 + K2 ) and ( 11+ K2 ) will both approach indefinitely to 0 , as n increases without limit .
+Hence , by ? ?
+1 , constants may be dispensed with in the developments ac2 K2 2 cording to formula [ 18 ] of f and fK1+ K2 1+ K " We have , therefore , fi K2 1-K I i--K22 22n -K2,2n+1f +~ =2ir tvI1 + K2 " +-2 n ( -K I ) +2 l ( 1 +K2 ) " and 2 2r I1-K2 1 -K2 2n ? ?
+1 f1 +K 2i .
+-/ +1 K2S **2n I +K2 ) + ?
+-2 n+ 11+ K ' Hence f-1 K or f-l 2 f2 i+1 +K +K 1 ( iK2 ) " =2 ( -i ) +2 4-'^{^- : ... +2 ( 1 )2+ } HIence the Neperian logarithms of K2 are 2i7r + 2 , ---1 1+2 ( +K2 ) 1+ K2 n+1i K2 2i-r-1 [ Note n. ] [ 26 ] Corollary .
+When i and i are both 0 , this expression reduces itself to 2 iK.21n +I ( 1-K2 ) .
+' which is the tabular Neperian logarithm ( see [ 5 ] ) of K2 .
+Let it be designated by 1 K2 .
+On comparing [ 25 ] and [ 26 ] , it appears , by [ 9 ] , that C/ 11 K2 is one of the values of f -1 K2 .
+Hence we have the equation f(-1 lk)= cl [ 27 ] 5 .
+To separate the real and imaginary parts of f 0 .
+O in its most general form =R+ / -1 S.-(See LACROIX " Traitd , " 8Sc .
+Introd .
+87 .
+) On inspecting a circle whose radius is supposed to be = 1 , it will be obvious that for all arcs whose magnitude lies between X and , the arc and sine at any time are either both positive or both negative .
+Suppose therefore R such an arc to have for cosine the quantity -R+ S then will its sine or ... / .i .
+RS t ?
+V/ 1 S+ = V/ S ' as long as the arc and S have the same sign .
+R2+S 178 Now let cbs - ' ( characterized , to distinguish it from any of the 4/ R2 +8 other values of cos -'1 R-+R ) be the arc , when radius = 1 , in the first V R2 +S " positive or negative semicircle , according as S is positive or negative , whose RR cosine =R+ S ; ( as R2 +S always lies between 1 and 1 , it is evident that such an arc cbs -1 ^ S+ is always assignable ) then , by what has been , V/ SA"2 8S premised , will its sine = , -q , +-^ Hence fcos-I R=R+ V-/ 1 S Cos VR S2 W ?
++S2 Again , let 1V R2 + S2 designate the tabular Neperian logarithm of V/ RI + S ; then , by [ 27 ] , will f(-11i 1+ S2)= VR2 + S2 Hence fcos 1 -R + f(1 ^V R+ tS ) or ( see [ 11 ] ) f(c6s -~ , + 11 V R2S + SV ) =R+ V/ S Hence , by [ 9 ] , f(R+ / -1 S ) or fl -=2 ir cos l , -V-ilI/ R2+ [ 28 ] in which expression the real and imaginary parts of f-1 0 are separated .
+Corollary .
+I may remark that from the ambiguity of d cos 0 , which = J1 0s d 0 , the arcs in odd positive and even negative semicircles whose cosines = 0 , a quantity between 1 and1 , will be found on development to be represented by Tr l2 .
+3s ... .(2n )2 2n+1 2i7 + -2 1.2 ... 2n.2n+ 1 .
+Similarly , the arcs in odd negative and even positive semicircles whose cosines = 0 , are represented by 2 r7 12.32 ... ( 2n )2 2n +1 2i -2 + 1.2..2 2n.2n + 1.n As 7r 1 2.32..(2n--1)2 2n+1 2 1.2 ... 2n.2n + 1 .
+is a value of cos - ' 0 , which is always less than %r ( it being recollected that 0 is a quantity between 1 and 1 ) it follows that the particular value of R ]R cos '+ Sw i ' which I denote by cos V AS r{ R 12.32. .
+( 2 n1)2 R2 )n+l [ 29 ] -4S 22 / R2 + S : " 1.2 ... 2n.2n + 1 .
+Rs + $S ' " ? ?
+6 .
+In the equation zA+ =y , to determine what real values x may possess , so that in each case a corresponding value of y may likewise be real.-[Note I. ] By [ 20 ] , y=f{(A+ V--i B)f'x } By F28 ] , f x= 2 i'r + cos / -1 v ' " x Hence = f{(A+ V-1B)(2 ir + cs -1 V-1 1V )/ X or ftAo(r i+ cos Bl)+l+ --ei [ Be ( 2i+cos )-AIl ' ] } or ( see [ 11 ] ) .
+f{A(2ii7r +c6s ' )+ B1 V/ }.f{ V7 B ( 2iv +s-l cs)-Al2 In this expression the factor f{ V-1 [ B(2 r+ c(s / ' J ) -Al 1j } is alvays real , as is evident on developing by [ 7 ] .
+Hence , that some y may be real , the other factor , viz. f{A ( 2 ir+cs1-- ) + B1V must also have some real value .
+Hence ( see [ 6 ] ) some one , at least , of the quantities sinA ( 2 ir + cs 1)+B1 must = 0 .
+180 Hence some value of sin 0 or ir must be to be found among A ( 2i7 + cos ) + Bl4 V Hence is--A(2iTr + cos1 x1 V/ e r must = some quantity - ... ) 30 ] x is either positive or negative .
+/ xZ When ax is negative , c5s 1 , _ = cbs 1 or + r. Hence and from [ 30 ] it follows , that , for y as well as x to be real , x must one of those quantities whose tabular Neperian logarithms are i--2iA B or one of the negatives of those quantities whose tabular Neperian logarithms are i-(2i 1)A B Hence x must = one of the quantities f i(vi=1 * B- ) } [ 31 ] a formula , which , as appears by [ 11 ] and [ 27 ] , comprises all the quantities that respectively fulfil the conditions above stated .
+Corollary .
+On retracing our steps under the guidance of formula [ 31 ] , it would not be difficult to prove , among others , the following theorems , viz. 1st .
+When B= 0 , for x to be negative and y real , A must be a rational fraction with , in its lowest terms , an odd denominator .
+2nd .
+When B= 0 , and A is a rational fraction , which , in its lowest terims , m= n , the number of real values of y that can correspond with a real ( x will be one or two , according as n is odd or even .
+3rd .
+In general , when A is irrational , y can have only one real value consistently with the simultaneous reality of an x. 4th .
+When B is not =0 and A is rational , y , in every case when it has one real value corresponding to a real x , has an infinite number .
+181 On the orders and ranks of logarithms .
+In [ 22 ] lety =R+ -1 S and a=A+ / f-T B ; then , by [ 28 ] , will f-ly iir + cbs- ' Li/ __ V tR2 +c6I S " R+ ^fiaor x=A -. .
+_ I ... [ 32 ] f1 aA 2i t cos A-11 / 1vAS + B2 2Zdr{CO VA2 ?
+B2 When I have thus separated respectively the real and imaginary parts of the numerator and denominator of [ 22 ] , upon assigning particular values , Z and ' , to i and i in [ 32 ] , I would indicate the order of a logarithm by the i in the denominator , and the rank it bears in that order by the Z in the numerator ; e. g. I would say of the resulting x that , in the base a , it was the Uth logarithm of y of the th order .
+By [ 20 ] , all the values of ( A +/ B ) are comprised in the formula f{ f'(A ?
++ / -I B ) } or , ( see [ 28 ] ) ffx ( 2 X+ cos I/ A !
++1 / A2B + B ) } When , in this formula , i assumes the particular value ' , I would denominate f{h ( 2ir+vcos-l 4A21 BV IA 2)}I the ith value of ( A +/ I B)x When , with respect to the base a , vx is any logarithm of y of the th order , the ith value of aX will y. Employing the mode of expression above explained , I conceive that the chief novelty of my system consists , not in showing that any assigned quantity , relatively to a given base , has an infinite number of logarithms ( which was known before ) , but in showing that it has an infinite number of orders of logarithms , and an infinite number of logarithms in each order .
+Thus , all the Neperian logarithms of 1 have been hitherto supposed to be comprised in the formula J-zi 2iE 182 whereas [ 32 ] , on supposing R= 1 , S= O , A= e , and B= 0 , gives the more general formula 2i , r 2 _- ' -i [ Note K. ] A remark necessary to prevent misconception is , that , in certain cases , a logarithm may re-appear at intervals with different ranks in different orders .
+NOTES .
+NOTE A.-My knowledge of these researches is derived not from the original Essays , but from abstracts of their contents given in the Dublin Philosophical Journal , vol. ii .
+No. 3 .
+p. 60 .
+and No , 4 , p. 219 .
+My occupations have prevented me from examining whether mathematicians have directed further attention to the extended application of the principles there promulged .
+In October 1826 I had obtained the results presented in this paper .
+NOTE B.-As long as the development [ 18 ] is not illusory , its values will be independent of the value assigned at any time to the arbitrary constant c. [ Vide infra , Notes E and K. ] NOTE C.-It is important to observe , that notwithstanding the infinite number of values of f1 a , yet where x is a real and rational quantity , y or f ( x f1 a ) will , from the form of the function , have periodical recurrences of the same values .
+NOTE D.-When this expression is required to assume particular values , there needs be no correspondence between the numerator and the denominator ; for , y being supposed for a moment given , x , by the definition of " logarithm of y , " may be any such quantity that y may be found among the values of ax or ( see [ 20 ] )f ( x f -1 a ) .
+Every value whatever of formula [ 22 ] satisfies this criterion ; #-ly for , let _ -1 be any one of its values , in which the numerator and denominator are wholly indef a -l y pendent , then will af a or f(Y fa ) possess among its values faf ( \ f-I a ) = ffy y NOTE E.-As this example seems to lead to the general consideration of diverging and illusory series , I shall endeavour to state succinctly my impressions respecting that important and delicate subject .
+Instances frequently occur to the analyst of developments , in which , upon substituting a particular value for the variable in each , there is no approximation to numerical identity between the several resulting series calculated to any number of terms , and the respective functions which they ought to represent .
+Such developments have been said to be analytically accurate , notwithstanding the numerical discrepancy in each particular case .
+" They serve , " it is argued , " to represent their functions , and by performing algebraical operations upon them , correct conclusions are attained .
+" Now , it appeared to me that there was some confusion of expression in asserting universally that equations were analytically true , which , numerically considered , were , in particular instances , palpably false .
+In ascertaining the correctness of the conclusions deduced from them , and relied upon as evidence of the truth of their premises , I observed that the formerly rejected test of numerical identity was often appealed to .
+Nay further , I was induced to ascribe , in the absence of other visible causes , to the intervention of such equations the limited results which were occasionally elicited where previous calculations would lead to the expectation of general ones , and even the conclusions absolutely and unlimitedly erroneous to which the mathematician was sometimes conducted by apparently undeviating paths .
+To account for these difficulties , upon reverting to first principles , it will be found that the theorems of development ( such as TAYLOR'S , MACLAURIN'S , &amp;c. ) are based upon hypothetic reasoning to this effect , viz. ' " if the function be developable according to certain powers , it will be developed in a certain form , " which is assigned .
+Now imagine a function of x , for instance , which for those values only of x that lie between certain limits , is capable of being developed according to the ascending integral powers of x , such a function , it would seem , evolved by MACLAURIN'S theorem , would afford an expansion which , when x transgresses those limits , would be illusory .
+In the treatment of developments thus partially true , when more than one of them come in question , the extent of their compatibility should , in my opinion , be most careftully attended to ; for , if two Such developments of a function were equated , whereof the one was applicable for values of the variable which would render the other illusory , the consequences derived from such equation might , in proportion to the extent of those values , be partly or entirely false .
+An instance of the limitation introduced by the caution here recommended is to be found in Appendix ? ?
+4 .
+To learn how far a development was applicable , it might be useful to ascertain the error committed upon calculating n terms of the series , and , then supposing n an infinitely great integer , to observe if there were any values of the variable which would prevent the expression for the error from vanishing .
+Should these reflections appear dubious or unfounded , I wish it to be fully understood that they may , in that case , be considered as operating on my results only , at most , by way of superfluous caution .
+Thus , if c be deemed unnecessary to the universal accuracy of the series [ 18 ] , it has , at all events , the merit of ensuring its convergence .
+Since writing the above , I have been informed by Professor HAMILTON that M. POIssoN has lately given examples of the danger of using diverging series , even when the final development to which they conduct is converging .
+NOTE F.-This seems to prove that the logarithms of negative numbers are not in general the same as those of their positives , as JEAN BERNOUIILLI and D'ALEMBERT thought .
+( See LACROIx , " 'Trait6 , " &amp;c. Introd .
+82 .
+) Hence also conversely by easy inference it seems to follow , that negative numbers have occasionally even real logarithmns , contrary to the opinion that they have none whatever , maintained in the Encyclopedia Metropolitana , article Algebra , 284 .
+Indeed , when 2 is admitted to be one of the values of 4 , the extension of the notion " logarithm " must be greatly abridged to deny that , relatively to the base 4 , I is a logarithm of2 .
+NOTE G.-From this theorem it does not follow that f-l 0=2f 0 ; an expression that has only half as many values as f-1 0+ f-1 0 , which admits the addition of any one value of f0 to any other .
+This instance is adapted to give notice of a very insidious species of fallacy , whose intrusion , in reasoning on subjects like the present , should be guarded against with vigilance .
+NOTE H.-As 2ir comprises exactly the same values as 2 ( i i ) t1 , and serves as well to show that the integer in the numerator of [ 26 ] may be chosen without reference to that in the denominator , it is preferred for briefness and concinnity in a general formula .
+NOTE I.-The solution of this problem assists in constructing the figure whose equation is A+ VTB M. VINCENT has inserted in the commencement of the 15th volume of the " Annals de Mathematiques , " &amp;c. published at Nismes in 1824 and 1825 , and edited by M. J. D. GERGONNE , an ingenious paper on the construction of some discontinuous transcendental curves .
+His paper is entitled " Considerations nouvelles sir la nature des courbes logarithmiques et exponentielles .
+Par M. VINCENT , Professeur de Mathematiques au College Royal de Reims , ancien eleve de l'ecole normale .
+" His general principles appear to me to be correct ; but , in my opinion , he has occasionally fallen into error .
+For instance , he seems to take it for granted when a is positive , that whatever value of aX be considered , d a ' =1aad x ; whereas , when the ith value of a ' is considered ( see Appendix ? ?
+7 .
+) daX = ( V^-1 2 zt + la ) a dx .
+To obviate some objections to my general theory , I may here observe incidentally that M. STEIN , who has occasionally written on the subject of logarithms in the same journal , would introduce a very confused and inconvenient notation by supposing ax to vary its signification according to the form in which the value of x is expressed-by supposing , for instance , that , while a ' = a , a ' would = ( a2)k ___1 or + a. Hence , by the same analogy a / 2 would = a. 1 / .
+According to the usual interpretation of ax , which I have adopted , and by which it is identical with f ( x f1 a ) , at , ad and a 42 have all the same signification .
+The following definition of a ' , derived from the characteristic property which led to the extension of the exponential notation beyond integral exponents , has been suggested to me by my friend Mr. HAMILTON , Royal Astronomer of Ireland : " are comprises every successive function px of x , which , independently of x and y , satisfies the conditions fx fie ( x + y ) 01 = a. " From this definition does not follow , in all its generality , the equation a aY =a+ y , for the product of the ith value of aX ( which I would designate by a/ ) multiplied by the ith value of ay is not necessarily among the values of a+ Y ' ; a legitimate consequence of the definition of ax is the equation aLai+Y DI i22B K.-To exemplify the agreement with which the positions we have established lead by different processes to the same conclusion , it may be mentioned that the same general formula for the Neperian logarithms of 1 would be obtained from [ 23 ] , on supposing y= 1 , c =0 , a=e and c=/ I , or , more concisely , from [ 26 ] , on supposing K2 = 1 .
+If , however , in [ 23 ] we had selected other values for c and c , consistently with the convergence of the numerator and denominator ; e. g. if c were supposed =2zt and c=2r +4 / -1 , upon making all the necessary substitutions ; formula [ 23 ] would produce 27ir--27r 2 X2 z_ vr 2i t-2 Ri T^/ -1T 2iit Now though this formula has precisely the same values as .
+* _ , yet their arrangement is different .
+In general , therefore , [ 23 ] , from its liability to alter the arrangement of its values by the alterations imparted to c and c , cannot be resorted to for the definitive computation of the orders and ranks of logarithms .
+It was from the necessity of establishing a standard ( whose only requisite is that , when once determined , it should not be varied , ) from which to commence such computation , that , in Appendix , ? ?
+5 , I fixed arbitrarily ( the consideration of superior simplicity abstracted ) on that value of -c I d1 RIR cos-~1 Vit +5 which I denote by cs l although any other defined value cos 1 'VR/ + S~ V 4/ 2 +8 R : + which would satisfy the equation .
+-1 R R+ -1 TS f cs ^/ +S R+ a S2 would have answered the same purpose .
+When R is negative and S= 0 , according as we decide to consider 0 positive or negative , RHRc --I I cos-l 4-^r= , will = either + 7r or 7r ; in every other case the value of cos 1/ s$ will be definitively fixed by [ 29 ] .
+If 1a designate the 0th Neperian logarithm of a of the 0th order , [ 32 ] may be expressed as follows : 0 4/ -1 2i + lie , -1 2iz + la 0 which may be compared with ( 3 ) and ( 4 ) ,
+

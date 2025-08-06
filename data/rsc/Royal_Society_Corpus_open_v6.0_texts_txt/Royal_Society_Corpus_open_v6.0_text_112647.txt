@@ -1,0 +1,71 @@
+I. " On a New Method of Calculating the Statical Stability of a Ship .
+" By C. W. MERRIFIELD , F.R.S. , Principal of the Royal School of Naval Architecture .
+Received January 15 , 1867 .
+The time required for the calculations of the stability of ships has practically restricted the ordinary draughtsman to the use of the metacentre .
+This implies that the locus of the centres of buoyancy cuts the transverse midship plane in a curve which may be treated as a circle ; and this is only true , in general , for very small limits of inclination .
+In some particular cases it has been felt desirable to supplement this by computing the moment of stability at some definite angle of inclination , by means of the " ins and outs , " or immersed and emersed wedges .
+But this has only been applied to one selected inclination , generally of 10 ?
+or 14 ?
+; and owing partly to this , and partly to the very scant time left available to the skilled draughtsman or calculator , this has never been a part of the ordinary work of the computation of a ship 's quantities .
+For this reason it becomes of great consequence to find some method of getting at the stability , with an amount of extra work , which should not exceed that of the ordinary sheet known as the " sheer-draught calculation"* .
+A method has occurred to me by which , as I think , this object may be attained .
+Upon conferring with some of my studentst , who have suggested and removed certain difficulties of detail , we think we see our way , by an easy calculation , to place the whole account of a ship 's statical stability in the hands of any person who understands simple equilibrium , either in an algebraical or geometrical form , as he may prefer .
+It will take some time , with my present occupations , to prepare detailed examples .
+But as the method is complete in respect of principle , I have thought it best to bring it at once before the Society .
+The findamental assumption is , that the locus of the centres of buoyancy can be sufficiently represented by a conic .
+The stability is then measured by the perpendicular , from the centre of actual weight , on the normal due to the inclination .
+The chief step , therefore , is to find the conic , of which , I may remark , we already know the vertex , and the tangent and curvature at the vertex ; for these are given by the ordinary calculation of the centre of buoyancy and the metacentre .
+Now I observe that the conic is completely determined if we can find the length of another radius of curvature corresponding to a known inclination .
+This is obtained by finding the moment of inertia about one of its principal axes ( longitudinal ) of the plane of floatation at the inclination .
+This , divided by the unaltered displacement , gives the radius of curvature required .
+But the chief practical difficulty lay in finding the means of drawing an inclined water-line across the body plan , so as to give an unaltered displacement .
+This I have at length succeeded in overcoming , as follows .
+The sheer-draft calculation gives us , inter alia , the areas of the level sections , belonging to the upright position , as rectangles .
+Now , if we make one side of each of these equal to the length of the ship , their breadths form a series of ordinates for a curve of mean section ; that is to say , the transverse section of a cylindrical body , of which the displacement at any level immersion will be the same as that of the ship .
+We then make out a scale of displacement for this section at various immersions , for a selected inclination , taking care to measure the immersions on the middle line of the original body plan .
+By this means the finding of any water-line at the selected inclination is reduced to a problem of plane geometry ; and it is obvious that the place of the water-line so found will be a very close approximation to that of the required plane of floatation in the ship .
+The calculations are as follows:1 .
+Take out the horizontal areas from the sheer-draught calculation , and divide each by the ship 's length .
+Set them off right and left from a vertical line at their present vertical interval , and draw a curve through their ends .
+2 .
+Any practised draughtsnan will have little difficulty in drawing , at sight , an inclined line of floatation which shall give an unaltered immersed area on this mean section .
+He can verify it by measuring the immersed and emersed triangles obtained by his first guess , and make the correction due to the difference , if they do not agree .
+3 .
+In strictness , the more accurate course would be this , -through each of the vertical stations draw right lines at the selected angle .
+Thence , by Simpson 's rule , form a scale of areas , ending at the highest inclined waterline .
+Use the vertical interval of the upright displacement , and neglect the cosine of the inclination .
+Then divide the upright displacement by the ship 's length and by the cosine of the inclination , and find to what immersion this displacement corresponds in the scale of inclined areas .
+But this is needless , unless the calculations have to be made for different draughts of water .
+4 .
+Use this immersion to draw the inclined plane of floatation in the body plan .
+5 .
+Calculate the area , common moment , and moment of inertia of this plane , about the longitudinal axis formed by its intersection with the original plane of floatation , upright .
+6 .
+Transfer this moment of inertia to the longitudinal axis passing through the centre of gravity of the inclined plane of floatation .
+7 .
+Divide the moment so found by the displacement .
+This will give the radius of curvature of the locus of the centres of buoyancy , corresponding to the selected inclination .
+The conic is now implicitly determined .
+It remains to show what use is to be made of these data .
+Let po be the radius of curvature , corresponding to the angle 0 , made between the normal and axis of a conic ; then ( pa(i--e2 ) .
+( 1--e2 sin2 0)2 From these we obtain 22 e2=po -Po 22P -p ' cos ) 01 -e"2 , ... ... ... ... ... ... ( b ) poPo sin2 0 Poiop scos .
+( oo _ p04p0 cos2 0 Po'-o --Pos ) eo-o= 2os 2o ; ... ... ... ... ... ... ... . .
+( ) and these afford the means of calculating all the elements of the conic .
+Now , let us take any other inclination 1 : we may calculate pi from the foregoing value of e2 by means of the formula P o-2 ... ... ... ... ... ... ... ... ( e ) ( P ( 1--e sing ) : .
+' Now , if X be the distance of the centre of gravity of the ship below the metacentre of the upright position , and p the perpendicular from the centre of gravity on the normal of the conic in the inclined position , we shall have 2 ( 2 2 ) ?
+( - ?
+; * ... ... ... ... . .
+( f ) sill p.-+( p( cos and pxD is the moment of stability , D being the displacement .
+Strictly , it is only necessary to use the formule ( a ) , ( e ) , ( f ) in actual work .
+Formula ( f ) shows clearly how an alteration in the position of the weights affects the stability .
+If X be altered , the altered value of p is obtained ( geometrically ) by a very obvious construction .
+In Mr. Scott Russell 's treatise on ' Naval Architecture , ' p. 604 , it is shown how the stability may be obtained by geometrical construction when the conic is known .
+It is worth while to remark that the condition that the conic should be a hyperbola , a parabola , or an ellipse , is po &lt; , - , or &gt; P. cos3 0 ; and whether the ellipse is referred to its major axis , becomes a circle , or is referred to its minor axis , depends upon whether Po- , = , or &gt; p ; 0 having any value whatever within the limits of continuity .
+It is to be observed that this method only applies on the supposition that there is no abrupt discontinuity .
+The immersion of the gunwale , for instance , would vitiate it .
+But in ordinary ships , experience leads to the conclusion that a conic would be a very accurate representation of the locus of centres of buoyancy within all reasonable limits .
+I have not waited to try the method throughout upon a specific example .
+But every step is separately well known ; most of the steps familiarly so , within my own experience .
+My estimate of the extra amount of work is , that it would be rather less than would be involved in making an independent calculation of the ordinary sheer-draught work .
+I shall have an immediate opportunity of verifying this in my school ; but I wished to announce the method publicly before beginning to teach it .
+

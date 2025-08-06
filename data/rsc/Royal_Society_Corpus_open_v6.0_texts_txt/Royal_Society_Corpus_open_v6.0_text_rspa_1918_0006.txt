@@ -1,0 +1,122 @@
+]\gt ; Dr. G. N. atson .
+fundamental result for the classification of -rays with ordinary radiation , at that time doubtful .
+Barkla 's other kind of secondary emission is characteristic of the secondary radiator , and is accompanied by selective absorption of the primary rays .
+He showed that each chemical element emitted more than one definite kind of secondary fluorescent radiation .
+Concentrating attention on , say , the less penetratiug kind , it was found to vary in quality by definite steps with the omic veight of the secondary radiator .
+These results have been confirmed and extended by others since the discovery of the diffraction of -rays by crystals .
+This , of course , in no way detracts from the merit of the original discoveries made without powerful assistance .
+The leros of Bessel Functions .
+By G. N. WATSON , M.A. , D.Sc .
+, Assistant Professor of Pure Mathematics at University , London .
+micated Prof. Nicholson , Received August 1 .
+Although many results are known concerning the zeros of Besse3 functions , greater number of these results are of practical importance only in the case of functions of comparatively low order .
+For example , McMahon has given a for calculating the zeros of the Bessel function , namely that , if , , are the positive zeros arranged in ascending order of magnitude , then where .
+Now , this formula is derived from Hankel 's well-known asymptotic expansion of , and the expansion is available for numerical calculations only when is large compared with ; and so McMahon 's formula fails to fulfil its purpose in the case of the smaller zeros of functions of high order , which are frequently of more importance from the physical point of view than the larger zeros of these functions .
+It is , however , possible to obtain a ber of quite eneral existence See Gray and Mathews , 'Bessel Functions , ' pp. 34-50 , ; Whittaker and Watson , ' Modern Analysis , ' Ch. XVII .
+' Annals of Math vol. 9 , pp. 23-30 ( 1894 ) .
+The of Bessel Functions .
+theorems and descriptive properties concerning Bessel functions of any order ; and these results , unlike results obtained by the more classical methods ; are of peculiar importance in connection with functions of high order .
+The theorems in question are derived by a consideration of certain contour integrals which arose*in Debye 's investigations of asymptotic expansions of Bessel functions by the method of steepest descents .
+2 .
+As it will be necessary to introduce Bessel functions of the second kind , for which various notations are employed , it is convenient to state here the relations connecting the several functions of the second kind with the fundamental functions .
+When is an integer , the limiting forms of the relations are to be taken .
+Hankel 's function is by the equation and the functions , ) are connected with it by .
+The two Hankel-Nielsen functions , , which form a fundamental pair of solutions of Bessel 's equation , sre definedS by the equations ; so that We shall only consider positive values of and ; and as it is that has no zeros when , we shall , in general , take : ; when this is the case , we shall define to be , where the principal value ( i.e. the value between and ) of the inverse cosine is to be taken ; and we shall w1ite and indifferently .
+It is to be noted that and are conjugate complex numbers when and are real .
+3 .
+We now introduce Debye 's integral in a ) suitable for our analysis ; we take the integral of Sommerfield 's type , ; 'Math .
+Ann vol. 67 , pp. ( 1910 ) .
+Hankel , 'Math .
+Ann vol. 1 , p. 472 .
+This must , of course , be distinguished from Neumann 's function , which is ) . .
+The function , which is equal to when is an integer , is employed by Gray and Mathews ; extensive tables of are published in 'Brit .
+Ass .
+Reports , S Hankel , ' Math. Ann vol. 1 , p. 472 ; Nielsen , ' Cylinderfunktionen , ' p. 17 .
+' Loud .
+lfath .
+Soc. Proc ( 2 ) , vol. 16 , pp. 153 , 166 .
+Dr. G. N. Watson .
+that ) function of ) , has stationary points at take as the contour of integration a portion of the on which I , in with the principles of the method of steepest descents .
+Next define a new complex variable by the equation , and we where .
+To rate the fornl of the contour we write ?
+for , where , are , as Cartesian co-ordinates , the equation of the contour is This curve has a double point at the origin , * and the lines asymptotes ; the branch of the curve which passes from to the origin and thence to forms a contour of the requisite type ; at any point of it and are both positive or both negative , while ' is always positive .
+As describes the contour , is real and decreases from to ( at the origin ) , and then increases to ; the value of on the contour is .
+4 .
+We can now embark on an investigation of the existence of zeros of , and obtain a rough approximation to their positions .
+Since each of the is positive , it is clear that , if we as a variable , and if we define to be a positive acute angle when , and to vary continuously with it will be a positive acute angle ; we shall call this angle , and then define the angle by the equation * This statement , together with those immediately following , is contained in Debye 's paper .
+I have proved further , ' .
+Phil. Soc. Proc vol. 19 , p. 105 , that cannot exceed From the footnote to S3 , it follows that leros of Bessel It is clear that where is positive ; the precise value is It is evident that : ( the zeros of derived* from values ) ) , , of It will be shown that , as also increases ; and so to each of the specified values of correspoll on ) of .
+Since , it is clear that by a vell korlnula .
+The last expression is posilive , and so is increasing function of it .
+Hence , as increases while remains fixed , increases steadily , and so it passes through the value ?
+once only being any one of the integers 1 , 3 , . .
+and , when has a value such that lies between and For example , taking , we get equal to , and the value of with these values of and exceeds this by a positive number less than .
+Hence has 218 zeros between 1000 and 2000 .
+5 .
+The results just obtained concerning the zeros of are derived from the theorem that is not negative .
+precise results can be obtained from the deeper theorem that is not negative ; this theorem we now proceed to prove .
+It 1s easy to show that and so the required theorem is equivalent to the theorem that * Since and , it is evident that is never zero ; and since it follows that there is a one-one correspondence between the positive and the negative zeros of ) .
+Dr. G. N. Watson .
+Now , if while is fixed , the limit of the function on the left is ; and , consequently , if we can prove that .is an increasing function of ( i.e. , that its differential coefficient is not negative ) , we obtain the desired result .
+The theorem that is an increasing function of see1ns to be of a deeper nature than might have been anticipated ; for example , the proof of it is much more elaborate than the proof of the that is a decreasing function of Take the formula iven by Nicholson whence the derivate of is a positive multiple of To provs that this is positive when , we transform it by integrating a portion twice by parts , thus ; the result has ) simplified after the first step by using the differential equation satisfied by ' Math. So Proc ( 2 ) , vol. 16 , p. 169 .
+'Quart .
+Journ. lIath vol. 42 , p. ; a complete proof of this formula req ireh an investigation similar to that given below in S8 .
+As usual , is the Bessel function of Basset 's type ; it is equal to ) , and it satisfies the differential equation The Zeros of Bessel Functions .
+Consequently we have sech sech on rating the second portion of the integral by parts .
+Now is positive , and sech sech so that the last integral has an integrand which is not negative , i.e. It follows at once that and so , from the formula given at the beginning of the section , 6 .
+It may be observed , in passing , that is a decreasing function*of , when is assigned , if ( whether be reater or less than ; it follows from Nicholson 's integral that is a decreasing function of Since is an increasing function of when it follows a fortiori that is a decreasing function of in this range ; and since * This is evident from the formula cosl ) 'London Math. Soc. Proc ( 2 ) , vol. 16 , p. 165 .
+Dr. G. N. Watson .
+, it is now evident that , is a positive decreasing function 7 .
+From the result of we can estimate bounds for when is given .
+We have and , from Hankel 's mptolic expansion , when is large , On the unents of these two expressions , we see that , when is large relnains fixed , .
+Hence Also , when x have , when } , the expression on the being a positive acute angle .
+Since is not negative , it follows that , when , we have To an idea of the nitude of the lower bound of we wlite d0W1P 's formulae , valid for ] of , namely , whence it follows that Lim We write that ; and it appears from Debye 's that , when is sufficiently large , is an increasing function of The following Table , ives the sexagesimal measure ( to the nearest halfminute ) of the angle whose circular measure is ; it exhibits the closeness of to its limit , even when n is quite small:\mdash ; .
+ot for 1 i , s l'o not the ) of ) ) is fnnclion for all positive of Of this ) roposition ) iv a proof .
+out that ) ion where of th ttive p teal on the ; it .
+and betlCC ol rend metho I ) in in I. It is , eve ) with } .
+the ' Luod . .
+Proc ) .
+) .
+uart .
+ol .
+) pp. .
+for . .
+I .
+N. 1 I I 7 rd 1 t ) Ili 1 ) ) il ' } / , ] 1 we ' tl I .
+cl int 1 ] I : ' ' : ' , it is I Tl 11 Il .
+\ldquo ; I ( ) unut : th a I I } ) th II of 1 ltfni !
+II II si I 11 , 11 ) : I / : , .
+1 : ( the } of , we llJRy it by I to li Dr. .
+N. Watson .
+, when is of the Iltonr I on is the integral ' oxp ) ) ) the the integral so btained .
+now itpproximate to 7 ' expression does not exceed , when , we haVe ( for valut not exceeding ] ) binh ) The last integral is equal to , where denotes the funcLion of 's type expl e ) in terms of : ' the Bessel with aginary aument \ldquo ; ) formula ' We shall write ( siuh ) .
+contour -functions , smadl , while , .
+hen cxp ) Nex 1 idel when the } the 0011 I on writing ) for , where is , the } odd fnnclion We now lci.nrn ) repeated of integr , three ] ions , , , , and .
+for the portion we see that the integral is .
+itth , and may be given ( positive value . .
+rans vol. 20 , pp. ) ( 1907 ) .
+1Jr .
+G. N. ) equal I. make : ) ' I ; fi nit urther , in first ] he Iimil : tsti tendh Ih Ile But is a d positive iecreaHing { uncti ) Now the ] expression liInit whel ( ' Bessel ) .
+by I I I I .
+( iullt I It 1 ; 1 I I .
+I .
+I .
+: il 1 .
+' \ldquo ; 1 1 .
+1 I $ { II I I : 11 I II lo 1 I I .
+I. : I .
+Il ) .
+ions } nd in th of .
+Watson .
+atiou with ] .
+I constructed the owing two Tables , only ] ) ) ociated , , , . .
+, on s ( .
+200- 9:$ ; I4 given by [ lbecl for alculation } when The whi contour at .
+is is is ' ince results once , hat ' I .
+, I , I lh \ldquo ; . . . .
+( ' \mdash ; 1 . .
+( t ) 1 llle a } of 1 ' ' R 1 ( I.b I I itl I given in lll I , Alter .
+in I ( I ee .
+thb I 1 ( ' : or I ins a.pply to ( no itnotl eetl ( close to rl tl .
+' 1 . !
+

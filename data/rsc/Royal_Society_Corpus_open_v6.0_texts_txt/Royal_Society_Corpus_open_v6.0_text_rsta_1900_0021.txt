@@ -1,0 +1,420 @@
+]\gt ; INDEX SLIr .
+MAOMAHON , Percy A.\mdash ; Combinatorial Analysis.\mdash ; Phe Foundations of a New Theory .
+Phil. Irans .
+, , vol. 194 , 1900 , pp. Calculus of Finite Differences.\mdash ; Applications to Analysis .
+MAcNAIION , Percy A. Phil. Trans. , , vol. 1900 , pp. 361-386 .
+ifferential Calculus .
+\mdash ; Applications to Analysis .
+MAcMAHON , Percy , A. Phil. , vol. 194 , 1900 , pp. 861-386 .
+Latin problem .
+MAoMAKON , Percy A. Phil. Trans. , , vol. 194 , 1900 , pp. } Lattices , combinations in .
+, Percy A. Phil. Trans. , , vol. 194 , 1900 , pp. 361-386 .
+Operators\mdash ; Iheory of , in Combinatorial Analysis .
+MACMAIION , Percy A. Phil. Trans. , , vol. 194 , , pp. 361-386 .
+IX . .
+The Foundations of a New Theory .
+By Major P. A. MAcMAHON , D.Sc .
+, F.R. Received lslarch 19 , \mdash ; Read Apri15 , 1900 .
+INTRODUCTION .
+IN the 'Transactions of the Cambridge Philosophical Society ' ( vol. 16 , Part IV .
+, p. 262 ) , I brought forward a new instrument of research in Combinatorial Analysis , and applied it to the complete solution of the great problem of the " " Latin Square which had proved a stumbling block to mathematicians since the time of Euler .
+The method was equally successful in dealing with a general problem of which the Latin Square was but a particular case , and also with many other questions of a similar character .
+I propose now to submit the method to a close examination , to attempt to establish it firmly , and to ascertain the nature of the questions which it may be successfully applied .
+We shall find that it is not merely an enumerating instrument but a powerful reciprocating instrument , from which a host of theorems of algebraical reciprocity can be obtained with facility .
+We will suppose that combinations defined by certain laws of combination have to be enumerated ; the method consists in designing , on the one hand , an operation and , on the other hand , a function in such manner that when the operation is performed upon the function a number results which enumerates the combinations .
+If this can be carried out we , in general , obtain far more than a single enumeration ; we arrive at the point of actualy representing graphically all the combinations under enumeration , and solve by the way many other problems which may be regarded as leading up to the problem under consideration .
+In the case of the Latin Square it was necessary to design the operation and the function the combination of which was competent to yield the solution of the problem .
+It is a much easier process , and from my present standpoint more scientific , to start by designing the operation and the function , and then to ascertain the questions which the combination is able to deal with .
+S 1 .
+Art .
+will commence by taking the simplest possible question to which the method is applicable .
+Let us inquire into the number of permutations of different letters .
+A knowledge of the result would at once lead us to design An operation .
+A function .
+VOL. CXCIV .
+A 30.7.1900 since !
+; but once we observe the way in which operates upon we require no previous knowledge of the result to aid us in the Conceive written as a product xxxxnn .
+the operation of consists in substituting unity for in all possible ways , and summing the results obtained . .
+, .
+We have , in fact , to perform operations of substitution ; let us.select one of these , say\mdash ; and denote the minor operation , by which it has been obtained , by the scheme the suffix denoting that the first operation of has resulted in the appearance of the unit .
+To obtain we have minor operations by which is replaced by unity in all possible ways .
+If one term obtained be lxlxn .
+the operations by which this has been reached may be denoted by the scheme and by proceeding in this manner we finally reach a lattice , square and of compartments , which is the diagrammatic representation of one of the !
+combinations of minor operations which results from the operation of upon .
+If we transfer the , . .
+to the top row we see that to each diagram corresponds a permutation of the different letters , . .
+Moreover suppressing the letters , . . .
+we see that we have solved the folowing problem , viz. :\mdash ; To place units in the compartments of the square of order , so that each row and each column- contains one and only one unit .
+In general we find that the problems that can be solved have some simple definition upon a lattice , as in the present instance .
+Writing , . .
+as , . .
+the suffix of the letter is given by the -row and the place in the permutation by the column , so that to standing in a permutation would correspond a unit in the row and column of the lattice .
+It may be remarked , and will afterwards appear , that in general many different designs of operation and function are appropriate to a partioular problem .
+THE FOUNDATIONS OF A NEW THEORY .
+Art .
+2.\mdash ; With the immediate object of applying the method to the general case of permutation , there being any number of identities of letters , we must first obtain another solution of the foregoing problem .
+Let .
+be a number of quantities and , . .
+their elementary symmetric functions .
+Further , let and in partition notation .
+We may take as operation and function and ( 1 ) , equivalent to and , which we had before , but more convenient as being readily generalisable .
+Let denoting an operator of order , obtained by symbolical multiplication as in Taylor 's theorem .
+Suppose the question be the enumeration of the permutations of the quantities in , where .
+I say that the operation and function are respectively .
+and ( 1 ) .
+Observe that this is merely the multinomial theorem for ( 1 ) . . . . .
+in partition notation ; and Hence .
+the result we require .
+The important operator has been discussed by the author .
+Its effect upon a monomial symmetric function is to erase a part ffom the partition expression of the function .
+Thus D. . . .
+* See HAMMOND , ' Proc. Lon\amp ; Math. Soc vol. 13 , p. 79 ; also rans .
+Camb .
+Phil. Soc loc. 7 'Messenger of Mathematics , ' vol. 14 , p. 164 .
+'American Journal of Mathematics , ' " " Third Memoir on a New Theory of Symmetric Functions vol. 13 , p. 8 et seq. , p. 34 et seq. 'Trans .
+Camb .
+Phil. Soc vol. 16 , part IV .
+, p. 262 .
+If no part presents itself in the operand , D. causes the monomial to vanish .
+Thus The compound operation .
+denotes the successive performance of the operations , . .
+of orders , .
+respectively .
+The law of operation of establishes that the component operations , .
+may be performed in order .
+Thus .
+As the order of operation is immaterial , it is found convenient in most cases to operate with .
+in the order , . .
+; this may seem at first sight at variance with the ordinary usage in the Differential Calculus , but there is a convenience in ordering the operator from left to right in agreement with the practice of ordering a partition from left to right .
+If , further , we note the result\mdash ; we have a complete account of the operator so far as it is concerned with an operand , which is merely a monomial symmetric function .
+The operation of D. upon a symmetric function product is of even greater importance in the present theory .
+It has the effect of erasing a partition of from the product , one part from each factor , in all possible ways ; the result of the operation being a sum of products , one product arising from each such erasure of a partition .
+This has been set forth at length in the papers to which reference has been given , but in deference to the suggestion of one of the Referees appointed by the Royal Society to report upon the present paper , a number of examples are given to familiarise readers with the processes which are so much employed in what follows .
+Example l.\mdash ; Consider The operand consists of factors , each ofwhich is ( 1 ) ; the operator D. is performed through the partition of the number which involves units ; this partition must be erased from ( 1 ) . .
+to factors in each of the possible ways , and the results added .
+Thus As a particular case THE FOUNDATIONS OF A NEW THEORY .
+This , the simplest example that could be taken , shows clearly the great value of the operator as an instrument in combinatorial analysis .
+Example 2.\mdash ; It follow from the first example that if . . .
+Example 3.\mdash ; Consider We are concerned with the partitions of the number 4 into 2,2 and 2,1,1 , and .
+If now we operate with we have to take account of the partitions 1,1 and 2 of the number 2 , and we find and we have the result ( 2 ) ( 1 ) . . . . . .
+as a consequence .
+Similarly , reversing the order of the operations and verifying the previous result .
+If no partition of can be picked out in this way from the partitions of the functions forming the product , the result of the operation is zero .
+Example 4 .
+\mdash ; It is important to notice here that a unit is erased from ( 1 ) in only one and that for present purposes a number of similar figures enclosed in a bracket are to be considered as the same , and not different ; we have already seen that hen the figures are similar , but in rent brackets , they are , for the purpose of selection , to be considered as different figures .
+Observe that since , we may say that ( 1 ) . . .
+, the terms to be added on the right for the lUll expression being such as do not contain a figure 2 .
+To obtain the lattice representations , suppose , . .
+to be in descending order , and thus to be an ordered partition of the number 366 MAJOR P. A. MAcMAHON ON COMBINATORIAL ANALYSIS .
+Since may be regarded as breaking up into minor operations , each of which consists in erasing of the factors ( 1 ) ( 1 ) ( 1 ) .
+( 1 ) , and lacing them by units .
+On the diagram we denote one such minor operation by ( say ) , Keeping to this term , 1.1 .
+( 1 ) . .
+( 1 ) .
+and operating with we find the operation breaking up into minor operations , each of which consists in erasing of the factors , and replacing them by units .
+Selecting one of these minor operations , we find that the corresponding term has been obtained by operations conforming to the diagram of two rows Proceeding in this manner , we finally arrive at a lattice of rows and columns , such that there is one and only one unit in each column , while the numbers of units in the 1st , 2nd .
+nth rows are , . .
+respectively .
+We have thus the associated problem on the lattice , and we obtain representations on the lattice corresponding to the permutations of the quantities in The simple introductory examples lead one to expect that the method will be found capable of dealing with questions either of a chess board character or which are concerned with rectangular lattices .
+Further , the idea of lattice rotation gives of leading to theorems of algebraic reciprocity and of reciprocity in the theory of numbers , features almost inseparable from any lattice theory .
+Art .
+3.\mdash ; The graph of partition.\mdash ; It is convenient to have before us the connexion between this theory and the -FERRERS graph of a unipartite partition .
+Consider the operation and the symmetric function ( 1 ) , being the partition conjugate to ( 431 ) .
+, the operation erasing one part , via : unity from each factor ; this we denote as usual by ; THE FOUNDATIONS OF A NEW THEORy .
+again and the two operations together give us and and the complete lattice representation iswhich is none other than the graph of the partition or of ( 431 ) according as it is read by rows or by columns .
+We might also have operated with upoI ) and , in general , if ' .
+be conjugate partitions , we obtain their graphs either by operating with . .
+upon or with . . .
+upon ( I ) Art .
+4.\mdash ; I proceed to consider some less obvious but equally interesting examples of the method .
+The diagrams obtained depend upon the law by which the operation is performed upon the function which is the operand .
+The operator in connexion with symmetric function operands is of commanding importance .
+It would be difficult to imagine an operation better adapted to research in combinatorial analysis .
+We shall find later that an analogous operation exists which can be employed when symmetric functions of several systems of quantities are taken as operands .
+As an example of diagram formation , take as operator and as function ( 3 ) ( 21 ) ( 2 ) ( 1 ) ( 1 ) the weight of operator and of function being the same .
+We have ( .
+1 ) ( 1 ) ( 1 ) ( .
+1 ) ( 2 ) ( 1 ) ( 1 ) , the eight terms arising from the partitions 31 , 22 , 211 of the number 4 .
+The dots take the place of the picked out partitions .
+Hence .
+The operation breaks up here into eight minor operations ; taking any one of these\mdash ; say that one which consists in taking 3 from the factor @ ) , and 1 from the factor ( 21 ) , we form the first row of our diagram , The term resulting from the selected minor operation is ( 2 ) ( 2 ) ( 1 ) ( 1 ) ; the operation of results in four minor operations corresponding to the four ways of picking out a 2 and a 1 from different factors ; we may select the particular minor operation which results in ( 2 ) ( 1 ) , and now we add on the second row which denotes this minor operation , and obtain the diagram of two rows .
+We can now only operate in one way with upon ( 2 ) ( 1 ) and we finally obtain the diagram of three rows:\mdash ; which possesses the property that the sums of the numbers in the successive rows are 4 , 3 , 3 , respectively , while the successive columns involve the partitions ( 3 ) , ( 21 ) , ( 2 ) , ( 1 ) , ( 1 ) respectively .
+The number of such diagrams is A where ( 3 ) ( 21 ) ( 2 ) ( 1 ) .
+, and A has the analytical expression Let us now consider the problem of placing units in the compartments of a lattice of rows and columns , not more than one unit in each compartment , in such wise that we can count units in the successive rows , and , .
+units in the sucoessive columns .
+Take As operation .
+As function . .
+and . .
+If . . . .
+THE FOUNDATIONS OF A NEW THEORY .
+and we can show that the number A enumerates the lattices under investigation. .
+The operation makes selections of every of the factors and erases a part unity ffom each ; one minor operation of therefore is denoted by units placed in compartments of the first row of a lattice of rows ; the operation adds on a second row , in which units appear in of the compartments , and so on we finally arrive at a lattice possessing the desired property as regards rows , and as obviously the column property obtains , the problem is solved .
+Ex. .
+Take ( 1 ) ( 1 ) . . . . . .
+The eight diagrams are and no others possess the desired property .
+We can now apply the method so as to be an instrument of reciprocation in algebra .
+If we transpose the diagrams so as to read by rows as they formerly did by columns , the effect is to interchange the set of numbers , . .
+with the set , . .
+, and the number of diagrams is not altered .
+Hence the reciprocal theorem .
+If . . . . . . . . .
+then ) ) . . . . . .
+a theorem known to algebraists as the Cayley-Betti Law of Symmetry in Symmetric Functions .
+The easy intuitive nature of this proof of the theorem is very remarkable .
+Art .
+5.\mdash ; In the above the magnitude of the numbers , appearing in the compartments of the lattice , has been restricted so as not to exceed unity .
+This restriction may be removed in the following manner .
+Consider the symmetric functions known as the homogeneous product sums of the quantities , . .
+, , , VOL. CXCIV.\mdash ; A. and note the result and also where is a partition of and the sum is for all such partitions , and for a particular partition is for all ways of operating upon the suffixes with the parts of the partition .
+Thus If from the result of , .
+we select the term product , the corresponding lattice will have as first row the sum of the numbers being , and if in the selected product we now operate with we can select a term product from the result , and the two minor operations may be indicated the two-row lattice , the sum of the numbers being Hence if we take as operation and as function we will obtain a of lattices of rows and columns , which possess the property that the sums of the numbers in the successive rows are , . .
+, and in the successive columns , . .
+, no restriction being placed upon the magnitude of the numbers .
+The number of such lattices is , where . .
+and now transposition of lattices shows that . .
+yielding a proof of .
+a law of symmetry discovered by the present author many years ago .
+The process involves the actual formation of the things enumerated by the number A. The secret of its success in this instance lies in the result THE FOUNDATIONS OF A NEW THEORY .
+Ex. .
+We have i.e. . . . . . .
+and we must have 18 lattices ; now eight of these , in which the compartment llumbers do not exceed unity , have been depicted above ; the remaining 10 Art .
+6.\mdash ; The next problem I will consider is that in which the magnitude of the compartment numbers has a superior limit Let denote the homogeneous product sum of order in which none of the quantities , . . .
+is raised to a higher power than .
+Ex. .
+If will be ( 21 ) , and not ( 3 ) .
+We have where and Take as operation as function , . .
+, and we will obtain a number oflattices of and columns which possess the property that the sums of the numbers in the successive rows are , . .
+, and in the successive columns , the magnitude of the compartment numbers being restricted not to exceed The number of such lattices where and by transposing the lattices .
+; establishing a law of symmetry in symmetrical algebra .
+I observe that if , the lattices associated with and enumerated by include all the row and column-magic squares connected with the natural series of numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 .
+In general if , the lattices enumerated by , where , include all the magic squares of order connected with the first numbers .
+If we could further impress the .
+condition that no compartment number is to be twice repeated , we would be successful in enumerating the magic squares divorced from the diagonal property .
+This seems to be a matter of difficulty , which is increased if an attempt be made to introduce diagonal and other conditions to which certain classes of magic squares are subject .
+It may be gathered from what has been said , that every case of symmetric function multiplication is connected with a theory of lattice combinations .
+For if we take as function . .
+and as operation where we have .
+where . . . . . . . . . . . . .
+; that is to say , we multiply together a number of monomial symmetric functions so as to exhibit it as a sum of monomial functions ; in this sum we find a particular monomial function affected with a numerical coefficient A which , as shown by the present theory , is the number which enumerates lattices of a certain clas.s easily definable .
+Thus , in the present instance , if the partition ( pqr .
+) involve parts , the lattices have columns and rows ; the operation acts , through its various partitions , upon the product of monomials , and any mode of picking out a partition of the factors of the product , one part from each factor , constitutes a minor operation which yields the first row of a lattice ; the operation is similarly responsible for all the second rows of the lattices , and finally every resulting lattice possesses a property which may be defined as under:\mdash ; The numbers in the successive rows are partitions of the numbers , . .
+respectively , and in the successive columns are the partitions , , .
+respectively .
+Such are the lattices enumerated by the number A. One is eminded somewhat of CAYLEY'S well-known algorithm for symmetric function multiplication ( invented by him for use in his researches in the THE FOUNDATIONS OF A NEW THEORY .
+theory of Invariants ) , but here the determination is representative as well as enumerative , and has moreover analytical expression .
+Ex. .
+Take as function ( 987)(654)(321 ) , and as operation ; then where ( 987 ) ( 654 ) . . . .
+One of the associated lattices iswhere observe that the numbers in the successive rows constitute partitions of the numbers 13 , 15 , 17 respectively , whilst in the successive columns the numbers constitute the partitions ( 987 ) , ( 654 ) , ( 321 ) respectively .
+The number of lattices ossessing this property , is , and A is readily found to have the value 6 .
+If we had to find an expression for the number of row and column-magic squares of order 3 , it would be necessary to write down the sum of all products ( 762 ) ( 951 ) ( 843 ) formed from the first 9 numbers in such wise that the content of each partition factor is , attention being paid to the order of the partitions , and to take as operation or in general .
+The resulting lattices will all be magic squares in which the diagonal property is not essential , and the result of the operation upon the will give the enumerating number .
+Art .
+7 .
+To resume ; in the lattice compartments we find invariably the numbers , . . .
+, . . .
+, . . .
+such numbers being subject to certain conditions for each row and each column .
+The assemblages of numbers in the successive columns do not vary from lattice to lattice , but those in the successive rows do .
+vary from lattice to lattice .
+Let . . . . . .
+; . . .
+, \amp ; c. . . .
+Then we have the following facts:\mdash ; The whole assemblage ofnumbers , , . . . . . .
+, . . .
+is unaltered lattice to lattice .
+( ii .
+) The numbers , . . .
+appertaining to the columns , and the 1lumbers , . . .
+appertaining to the rows , are unaltered from lattice to lattice .
+These conditions do not define the lattices in question , because other lattices comply with them , viz. , those in which , the whole assemblages of compartment numbers remaining unchanged , the column partitions , while satisfying the condition ( ii .
+) , are other than MAJOR P. A. cMAHON ON COMBINATORIAL ANALYSIS . .
+successively .
+Let . . . . . .
+the assemblage of dashed numbers being in some order identical with the assemblages of undashed numbers .
+The new conditions include lattices enumerated by .
+and the totality of lattices , implied by them , is enumerated by . . .
+2 . . .
+the summation being for every separation of the assemblage of numbers into partitions . .
+, . . .
+such that . . . . . .
+; or , as it is convenient to say , for every separation of the given assemblage of numbers which has the speci.fication .
+With this nomenclature we may say that the successive row partitions have a specification .
+and we may assert that the lattices under enumeration are associated with a definite assemblage of numbers and with two specifications , all three of which denote partitions of the same number , .
+We thus associate the lattice with three partitions of one number .
+There is a law of symmetry connected with these lattices the true nature of which is not at once manifest ; it is not obtained by simple transposition of the above lattices , and we are not permitted to simply exchange the partitions ( pqr . .
+) preserving the assemblage of compartment numbers with the object of obtaining identity of enumeration .
+The difficulty presents itself whenever two or more partitions , ( \amp ; c. .
+are different but have .
+the same speci.fication .
+I will obtain the true theorem by the examination of a particular case .
+Let the assemblage of numbers be 2 , 2 , 1 , 1 , and consider the two results ( 2 ) ( 1 ) . .
+THE FOUNDATIONS OF A NEW THEORY .
+connected with and ( 2)2 . . . . .
+connected with In the first case the row and column specifications are 2 , 2 , 2 , and 2 , 2 , 1 , 1 , respectively ; and in the second case 2 , 2 , 1 , 1 , and 2 , 2 , 2 , respectively .
+The first case yields the six lattices the second case the two lattices If we transpose the six lattices we obtain four lattices in addition to these two , viz. :\mdash ; The first pair of these would be derived from , and the second pair from .
+Hence it is clear that to obtain identity of enumeration we must multiply ( 2 ) ( 1 ) by a number equal to the number of ways of permuting the factors which have the same specification , , by The correspon.ding multiplier of ( 2 ) ( 1 ) is Let then an operand be ( L ) . . .
+, denoting different partitions of the same weight , \amp ; .
+, , , \amp ; c. , \amp ; c. we attach a coefficient Let any operand so multiplied be denoted by . . .
+then we have the following law of symmetry:\mdash ; From a given finite assemblage of numbers , . . .
+, , . . .
+, , . . . .
+, construct all the products which have a given specification and all the products . . .
+which have a given specification ( pqr .
+) .
+If . . .
+( pq . .
+) . .
+then . .
+the lattices being derived from . . . .
+A. This is the most refined law of symmetry that has yet come to light in the algebra of a single system of quantities ( cf. " " Memoirs on Symmetric Functions 'Amer .
+loc. cit The actual representation of the things enumerated by the number A is obtained with ease by this theory of the lattice .
+S 2 .
+Art , 8.\mdash ; So far the operations have been those of the infinitesimal calculus , and the numbers involved in the partitions of the functions have been positive integers excluding zero .
+If we admit zero as a part in the partitions , we find that we have to do with the operations of the calculus of finite differences .
+At the commencement of the paper was shown to be a combinatorial symbol , in that when operating upon a power of , the said power being positive and integral , it had the effect of summing the results obtained by substituting unity in all possible ways in the product of .
+Now the corresponding operator of the calculus of finite differences , THE FOUNDATIONS OF A NEW THEORY .
+via , operates upon a power of by striking out one , two , three \amp ; c. , in all possible ways and summing the results .
+Thus This simple fact shows that we may expect a corresponding theory of lattices , and that this is , in fact , the case is seen immediately one introduces the part zero into the partitions of the functions .
+I have introduced zero parts into partitions in the Memoirs on Symmetric Functions above alluded to , and have imported into the theory the corresponding operators and .
+It was there shown that , if be the number of quantities of which the symmetric functions are formed , and thence it appears that we have operations corresponding to the operations of the calculus of finite differences .
+Considering partitions which only involve zero parts , we have only finite difference operations ; if we have other integers , we have mixed operations drawn both from the finite and infinitesimal calculus .
+The partition is derived ffom by putting , and obviously has the value and , in the paper referred to , it has been shown that operates upon a monomial by erasing one zero part from its partition , so that , which is to be compared with the operation of , viz.:\mdash ; where . . .
+in the notation of the finite calculus .
+Further , it has been shown that operates upon a product of monomials through its partitions , 00 , 000 , 0000 , .
+which are infinite in number , viz. :\mdash ; we are to strike out one zero , two zeros , three zeros , \amp ; c. , in all possible ways ; but in any one such operation not striking out more than one zero from any monomial factor .
+the successive lines being due to the partitions , 00 , 000 respectively .
+* American Journal of Mathematics , ' vol. 12 , second memoir , 4 On a New Theory of Symmetric Functions p. 71 et .
+; and vol. 13 , third memoir , \amp ; c. , pp. 8 et seq. VOL. CXCIV .
+Compare the difference formula where is only operated upon by and by and by Art .
+9.\mdash ; Consider the lattice theory connected with the operation and part partition functions .
+Take the function , . .
+being in descending order ; if it be multiplied out , it will appear as .
+linear function of , , . . .
+( the coefficients being positive ( cf. Second Memoir , toc .
+cit. , p. 102 ) .
+To find therein the coefficient of the term we must operate with , and the sought coefficient is the resulting numerical term .
+If the ffictors be in number , we are concerned with lattices of columns and rowa The first operation of results in a first row whose compartments contain or fewer zeros placed in any manner so that not more than one zero is in each compartment ; similarly , for the successive rows and the final lattice is subject to the single condition that the numbers of zeros in the successive columns are , . .
+respectively .
+The number of such lattices is or , symbolically , ) ) We have thus the analytical solution of a distribution problem upon a lattice .
+It may be convenient to give the lattice a literal form by wnting for zero in the compartments .
+Art .
+10.\mdash ; Contrast the result obtained with that which arises from The lattices are similar to those above , with the additional condition that each row is to contain but one letter .
+Again , from arise lattices of columns and rows with the same condition as the zero lattioes , but with the additional conditions that the numbers of letters in the sucwsive rows are to be . .
+, respectively .
+This remark leads to a relationship between the coefficients in the developments of .
+and .
+respectively .
+For let . . . . . . . .
+, THE FOUNDATIONS OF A NEW THEORY .
+the terms written comprising all monomial functions whose partitions contain exactly $ parts ; and . . .
+If . . .
+denote the number of permutations of the numbers , . .
+I say that the above lattice theory establishes the relation , . . . . . . . . .
+Ex. .
+Observe the two results ( 1 ) ( 1 ) , ( 0 ) ( 0 ) , and verify that the relation given obtains between the coefficients .
+Art .
+11.\mdash ; This zero theory is really nothing more than a calculus of binomial coefficients , which enables the study of their properties by means of the powerful instruments appertaining to the Theory of Symmetric Functions .
+The Law of Symmetry established by the author in the Second Memoir ( loc. cit. ) is easily established by means of the lattice ; it may be stated in a simple form , because all the functions ( 0 ) , ( 0 ) , ( 0 ) , . .
+are to be regarded as having the same specification , viz. ( 0 ) ; further , the specification of .
+to factors is ) .
+Select an the products formed from a given number of zeros which have the same specification , and attach to each a coefficient equal to the number of permutations of which it is susceptible .
+Denote the sum of such products by . .
+Similarly , for a specification denote the sum of such products by . . . .
+Then . . . . . . . . . . . .
+the coefficient A being the same in both cases .
+Ex. .
+Verify that . . . . .
+S 3 .
+Art .
+12.\mdash ; I continue the general plan of this paper , viz. do not attempt the solution of any particular problems , unless they are suggested by the general course of the investigation , but rather start with definite operations and functions , and seek to discover the problems of which they furnish the solution .
+This is the reverse process to that employed in the 'Trans .
+Camb .
+Phil. Soc. ' ( loc. cit where I particularly investigated a number of questions more or less directly associated with MAJOR P. A. MACMAHON ON COMBINATORIAL-ANALY8I8 .
+the famous Problem of the Latin Square .
+I anticipate what follows to the tent of observing that the Latin Square again presents itself without special effort on the part of the investigator , and that a new and very simple solution of that and associated problems is obtained .
+I seek to obtain theorems which flow from a consideration of symmetric fimctions of several systems of quantities , taken in conjunction with appropriate operations .
+I ake the reference MAcMAHON , " " Memoir on the Roots of Systems of Equations ' Phil. Trans , 1890 .
+Consider the systems of quantities and write . . . .
+Denote the symmetric function by so that Ex. The quantities are the elementary symmetric ffinctions .
+The linear operator is defined by , . . .
+so that .
+' , . . .
+and then , the multiplication of operators being symbolic as in TAYLOR'S theorem , so that is an operator of the order and does not denote THE OF A THEORY .
+successive linear operations .
+The of upon a monomial symmetric function has been explained ( loc. cit It has the effect of obliterating a part .
+from the partition of the function when such a part is present , and an anmihilating effect is every other case .
+The operation upon a product has the effect of erasing a partition of .
+from the product , one part from each factor in possible ways , the result of the operation being a ' of products , one arising from each erasure of a partition .
+Ex. .
+If we have to operate with upon we have to erase the two partitions 1-1 , , and arrive at .
+Art .
+13.\mdash ; It will suffice to consider three systems of quantities as typical of the general case .
+Take the function . . . .
+and the operation . . .
+and . . .
+) being each partitions of the same tripartite number .
+If ; and we have to determine the nature of the lattices enumerated by the number A. The tripartite number has a partition of parts , ' so that , in operating with .
+upon the operand , we have to select this partition ffom the product , one part from each factor , in all possible ways ; the operation breaks up into minor .
+operations as usual , and the first row of the lattice of columns and rows will contain in of its compartments the tripartite numbers 100 , 010 , first , second , third ) in some order ; the assemblage of numbers in this row is the partition of the elementary function .
+Similarly a minor operation of produces a second row containing tripartite numbers , the assemblage of which constitutes the elementary function We finally arrive at a lattice such that the tripartites in the successive rows constitute the elementary functions , .
+, respec382 MAJOR P. A. MAcMAHON ON COMBINATORIAL We may give this case a purely literal form by writing and then we have a lattice of columns and rows , suoh that the prduA of letters in the successive rows are , . .
+tivdy , in the successive columns , .
+respectively .
+Art .
+14.\mdash ; Stated in this form the problem appears to have a olcne relationship to the problem of the Latin Square .
+It is in fact a new generalization of that problem ; for put and so that the operation is and the function .
+One lattice is then or in literal form which is a Latin Square .
+Hence the numbers of Latin Squares of order 3 is and in general of order a very simple solution of the problem .
+If reference be ma\amp ; to the solution arrived at loc. by considerations relating to a single system of quantities , it will be noticed that the peculiar difficulties intrinsically present in that solution disappear at once when systems of quantities are brought in as The Latin Square appears at the outset of this investigation , .
+and in a perfectly natural manner .
+Art .
+15.\mdash ; Now put . . .
+so that .
+We have then lattices enumerated by THE FOUNDATIONS OF A NEW THEORY .
+and , in the literal form , they are such that the product of letters in each of the rows and columns is , one letter appearing in each compartment of the lattice .
+This is the extension of the idea of the Latin Square which was successfully considered in the former paper ( loc. cit but now the enumeration is given in a simpler form and ffom simpler considerations .
+In general , it has been established above that the Latin Squares based upon the product are enumerated by the expression the simplicity of which leaves nothing to be desired .
+Art .
+16.\mdash ; Consider the particular case of the general theorem which is such that no compartment is empty ; the lattice has columns and rows . . . . . . .
+the corresponding lattices being enumerated by . .
+These , when given the literal form , possess the property that the products of letters in the successive rows are , .
+respectively , and in the successive columns , . .
+respectively .
+Ex. .
+Suppose the row products to be , and the column products and the two lattices are 384 MAJOR .
+A. MAcMAHON ON COMBINATORIAL ANALYSIS .
+, a Again , suppose the row products to be , and the column products and the lattices are Art .
+17.\mdash ; In general , we may state that the lettered lattices , which are such that the ow products are in order . . . . . . . !
+, : and the column products in order . . .
+one letter being in each compartment , are enumerated by , . . .
+4 .
+; a very interesting development of the Latin Square problem .
+; .I We have found above the nature of the lattices enumerated by the number i${ . . .
+; : any number of systems of quantities being involved , and the mere fact of the existence of the lattices indicates a law .
+of .
+symmetry which may be stated as folows : \mdash ; If . . .
+then . .
+Art .
+18.\mdash ; The next case that comes forward for examination is that connected with the homogeneous product sums .
+We require the theorem and also FOUNDATIONs OF A NEty THEORY .
+where .
+is a partition of , and the sum is for all such partitions and for a particular partition is for all ways of operating upon the suffixes with the parts of the partition .
+Ex. Taking only tripartite functions for convenience , consider the function and the operation ; we have .
+; where and being partitions of the same tripartite number , . . . .
+The operation of upon the product splits up as usual into a number of minor operations .
+' one of which , as shown above , is connected with one of its partitions operating a definite manner upon the suffixes , . . .
+Hence the first row of the lattice has in certain of its compartments the tripartite parts or some partition of ; the second row also will have in certain of its compartments the tripartite pal.ts of some partition of ; and finally we must arrive at a lattice whose rows are associated with partitions of , . .
+respectively , and whose columns are associated with partitions of respectively .
+There is no restriction on the magnitude of the constituents of the various tripartite numbers which appear in the compartments .
+The lattices thus defined are enumerated by the number A. We may give the lattice a literal form by writing for in a compartment .
+We then have a theorem which may be stated as follows:\mdash ; Monomial products of letters , may be placed in the compartments of a lattice of rows and columns in such wise that the multiplication of products in Uccessive rows produces , .
+, respectively , and in successive columns produces , , . .
+respectively in a number of ways enumerated by the number A above It is scarcely necessary to observe that and that of the literal products are independent .
+VOL. CXC1V .
+386 MAJOR P. A. cMAHON ON COMBiNATORtAL Art .
+19.\mdash ; In conclusion , it may be remarked that there is Do difficulty in evolving a mixed theory which involves the operation both of the infinitesimal calculus and of the finite calculus .
+Operations and functions may be designed which lead to lattices which are not rectangular .
+The theory may be connected with complete or incomplete lattices in three or more dimensions ; and finally one of the most promising paths of research appears to be connected with a multipartite zero .
+These matters may be the subjects of future investigation .
+For the present enough has been said to indicate the apparent scope of the new method .
+

@@ -1,0 +1,24 @@
+II .
+" On a New Method of Approximation applicable to Elliptic and Ultra-elliptic Functions."-Second Memoir .
+By CHARLES W. MERRIrIELD , Esq. Communicated by WILLIAM SPOTTIsWOODE , Esq. , F.R.S. Received March 20 , 1862 .
+( Abstract .
+) Since my first memoir on this subject was read before the Society in May 1860 , Mr. Sylvester has published a method , more general than mine , of applying rational approximation to facilitate the computation of the integrals of irrational functions .
+His process , at which he had arrived independently , included , a majori , the one which was the subject of my memoir .
+Aided by his papers , my subsequent studies have enabled me to view the method with more generality , as well as with more precision and completeness of detail , and I am now able to present it in a sufficiently finished and practical shape for the immediate use of the computer .
+I append auxiliary Tables to facilitate its use in certain cases .
+I begin with the common radical form , starting from Mr. Sylvester 's definition of the approximants .
+Then decomposing the approximant into partial fractions by means of the roots of unity , and increasing indefinitely the number of these fractions , I show that the method is in reality the application of quadratures to a definite integral which is substituted for the surd .
+The application of the process to integration in like manner rests on the substitution , for the single indefinite integral , of a double integral , definite in respect of one variable , and indefinite for the other .
+The form of this double integral is such that the indefinite integration can be performed directly ; and the application of quadratures to the definite one is facilitated by a peculiar property of functions of the form , namely , that I -tkn sin9 'm the quadrature does not require the use of differences , but is obtained simply from the mean of the ordinates .
+Legendre had previously noticed and discussed this peculiarity , which is best illustrated by effecting the quadrature by differential coefficients instead of differences .
+It will be found that these coefficients ( which are all of odd 57 1862.]~~~~~~~~~~~~~~~~~~~~ order ) each involve in their numerator the term sin 0 .
+cos ?
+, which vanishes at both the limits 0 and 90 degrees .
+It is this feature which gives success to the method .
+In a second section I have given with some detail the mode of effecting the actual computation of elliptic functions by this means .
+I have given several formulae for using trigonometrical tables with the exactness which these calculations require , and I think they will be found handier for the purpose than those usually given in the books ; at all events I find them so myself .
+Some of them are my own , and some are taken , with more or less modification , from Legendre .
+In a third section I have stated what has been done with a view to the extension of the method to radicals of a higher index than the square , and to a certain class of differential equations .
+It should be understood that these processes only enable us to find the integral from the amplitude .
+They do not enable us to find the amplitude , modulus , or parameter from a given value of the integral .
+

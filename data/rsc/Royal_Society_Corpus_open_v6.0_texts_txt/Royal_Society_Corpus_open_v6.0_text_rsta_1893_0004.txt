@@ -1,0 +1,2539 @@
+189 TV .
+On the Residues of Powers of Numbers any Composite , Real or Complex .
+By Geoffrey T. Bennett , B.A. Communicated by Professor Cayley , F. R.S. Received April 8 , \#151 ; Read May 5 , 1892 .
+The present work consists of two .
+parts , with an appendix to the second .
+Part I. deals with real numbers , Part II .
+with complex .
+In the simple cases when the modulus is a real number , which is an odd prime , a power of an odd prime , or double the power of an odd prime , we know that there exist primitive roots of the modulus ; that is , that there are numbers whose successive powers have for their residues the complete set of numbers less than and prime to the modulus .
+A primitive root may be said to generate by its successive powers the complete set of residues .
+It is also known that , in general , when the modulus is any composite number , though primitive roots do not exist , there may be laid down a set of numbers which will here be called g , the products of powers of which give the complete set of residues prime to the modulus .
+The principal object of Part I. is to investigate the relations which must subsist among any such set of generators ; to determine the most general form that they can take ; to show how to form any such set of generators , and conversely to furnish tests for the efficiency , as generators , of any given set of numbers .
+Other results which are obtained as instrumental in effecting these objects , such as the determination of the number of numbers that belong to any exponent , may also possess independent interest .
+The object of Part II .
+is to make , for complex numbers , an investigation which shall be as nearly as possible parallel to that of Part I. for real numbers .
+Much of the work of Part I. may be applied immediately to complex numbers ; of the rest some will need slight modification , and some will need replacing by propositions leading to corresponding results .
+Of those cases which thus call for independent treatment , the most noticeable is that of the modulus ( 1 + i)K , which is the complex analogue of the real modulus 2\ The work is put in the form of a series of propositions , and is started almost from first principles .
+The early part is consequently elementary , but the advantages of completeness and ease of reference may be more than sufficient to compensate for this .
+A large number of illustrative examples are given .
+These will sometimes , perhaps , 8.3.93 assist in elucidating the symbolical proofs which they follow ; in all cases they will help to maintain clearly the actual arithmetical meaning of the results arrived at , a meaning which may easily seem obscure if it be noticed only in its symbolical and generalised form .
+The Appendix contains tables of indices for complex numbers for all moduli whose norms do not exceed 100 .
+PART I.\#151 ; ON THE RESIDUES OF POWERS OF NUMBERS FOR ANY COMPOSITE REAL MODULUS .
+In what follows ( except when the contrary is explicitly stated ) we shall be treating of the residues of powers of numbers which are 'prime to the modulus with regard to which those residues are taken ; and the modulus will be taken to be any composite number whatever .
+In this first part , moreover , all the numbers dealt with are real .
+( 1 .
+) The residues ( modulus m ) of the successive powers of a number a prime to m form a recurring series of periods of terms , the first period beginning with the first term .
+Consider the series of numbers a , a2 , a3 . . .
+Since a is prime to m , therefore any power of a is prime to and therefore the residue of cis for modulus m is prime to m. Hence each term of the series of residues , a , a2 , a3 . . .
+( mod m ) , is one of the numbers less than m and prime to it .
+There are ( m ) numbers less than m and prime to it .
+Hence in the above infinite series there are only \lt ; f\gt ; ( pi ) different terms .
+Suppose that the first term which occurs for the second time is ai+s ( mod m ) , and suppose that this is congruent to as .
+Then at + s EE of ( mod m ) , where s and t are both to have as small values as possible .
+as \#151 ; 1 ) = 0 ( mod m ) , and since a* is prime to m , and so a1 \#151 ; 1 EE 0 ( mod m ) , a/ + * EE a ' ( mod m ) , for every value of a FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Hence the term which first appears a second time is the first term a ; which appears next ns at+lf t being the least number for which .
+a* = 1 ( mod Definition.\#151 ; The smallest number t which makes of == 1 ( mod m ) , where a is prime to m , is called the exponent of a for modulus rn .
+Cauchy uses the word " " in the same sense .
+He also uses " maximum indicator " to denote what will be called the highest exponent .
+Thus the infinite series of residues of a , a3 , a3 , . . .
+consists of a repetition of the period of t terms beginning from the first term .
+( 2 .
+) If t be the exponent of a and as = 1 ( mod m ) then t divides s. Let s = qt + rwhere \lt ; Then as = a^+t EE 1 ( mod m ) , ( a1)9 .
+are == 1 ( mod m ) , are = 1 ( mod m ) , whereas t is the smallest value ( not zero ) which makes a1 === 1 .
+Therefore therefore ( 3 .
+) Fermat 's Theorem .
+r = 0 , t divides s. a4\gt ; ( m ) = i ( mod m ) .
+Let \#171 ; 1 , \lt ; % , c % , . . .
+( m ) be the \lt ; f\gt ; ( in ) numbers less than rn and prime to it .
+Take any one of them a. Then since aa1}aa2 , aaz , . . .
+aa^{m ) ( mod m ) are all prime to m , and no two congruent , they must be the same set of numbers as alf a2 , . . .
+c^'(w ) ; therefore and , therefore , ai%a3 . .
+= aYa2 . . .
+a^(m ) ( mod m ) , a\lt ; Hm ) = ^ ( mod m ) .
+Corollary.\#151 ; It follows from this proposition and proposition ( 1 ) that the exponent of any number ( modulus m ) is always a divisor of \lt ; f ) ( m ) .
+The propositions which follow will determine that divisor .
+( 4 .
+) If the the exponent of a then the exponent of is r : where = and k is the G.C.M. of s and t. Let T be the exponent of as .
+We have a1 == 1 ( mod m ) , therefore aKr = 1 ( mod aK\lt ; Tr '= 1 ( mod m ) , ( a*)T = 1 ( mod m ) , therefore T divides r. ( Prop. 2 .
+) Again , ( a*)T = 1 ( mod m ) , therefore asT = 1 ( mod m ) , therefore t divides sT , therefore ktdivides ko-T , therefore r divides o\T , therefore r divides T , therefore T = r. Example.\#151 ; The exponent of 3 for modulus 308 is 30 : the residues of its successive powers are given in the following table:\#151 ; Number .
+3 9 27 81 243 113 31 93 279 221 Power of 3 .
+1 2 3 4 5 6 7 8 9 10 Exponent 30 15 10 15 6 5 30 15 10 g Number .
+47 141 115 37 111 25 75 225 59 177 Power of 3 .
+11 12 13 14 15 16 17 18 19 20 Exponent 30 5 30 15 2 15 30 5 30 3 Number . .
+223 53 159 169 199 289 251 137 103 1 Power of 3 .
+21 22 23 24 25 26 27 28 29 30 Exponent 10 15 30 5 6 15 10 15 30 1 where the exponents are all immediately deducible from the proposition .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+( 5 .
+) The exponent of a is tand of d is t ' and t and t ' are co-prime ; then the exponent of ad is ttr .
+Let T be the exponent of ad .
+Then , d EE 1 ( mod m ) a'1 ' = 1 ( mod m ) , therefore awe EE 1 ( mod m ) dw =E 1 ( mod m ) , therefore ( ad)lt ' = 1 ( mod m ) , therefore Again , therefore therefore T divides tt\(Prop .
+2 .
+) ( ad)T = 1 ( mod m ) , ( ady* = 1 ( mod m ) , = 1 ( mod m ) , ^ divides T^ ( Prop. 2 ) , t ' divides T. Similarly , t divides T , and therefore ( since t and t ' are co-prime ) , therefore tt ' divides T , T a tt\ Corollary.\#151 ; It follows that if the numbers a , , a " , . . .
+have exponents ( for modulus m ) t , t ' t " , . . .
+these exponents being all co-prime , then the exponent of ada " ... is tt't " . . .
+Example.\#151 ; The exponent of 23 mod 308 is 6 ; ( 23 .
+221 .
+155 .
+177 .
+67 .
+1 ) , and the exponent of 113 mod 308 is 5 ; ( 113 .
+141 .
+225 .
+169 .
+1 ) .
+Since 5 and 6 are co-prime , it follows that the exponent of 135 = 23 .
+113 is 30 .
+Corollary .
+Example.\#151 ; The exponent of mdcccxciii.\#151 ; a. 2 c 111 is 2 221 is 3 113 is 5 therefore the exponent of 111 .
+221 .
+113 = 3 is 30 .
+( 6 .
+) Let a have exponent t and a ' exponent t ' and suppose that t and t ' are not co-prime .
+Then , if t and t ' contain no prime factor raised to the same power in both the exponent of aa ' is the L.C.M. of t and t ' .
+Let then t = t ' = where r and r are co-prime , therefore , aK has exponent r ( Prop. 4 ) , aK has exponent ( Prop. 4 ) , ( aa'y has exponent tt ( Prop. 5 ) .
+So if aa has exponent T , then T __ tt ' K Z where tt divides T , z divides k and z is prime to tt .
+( Prop. 4 .
+) Now since t and t ' contain no prime raised to the same power in each , therefore tt contains every prime factor which occurs in t and t ' and therefore contains every prime factor which occurs in k. Hence z cannot divide k and be prime to tt unless it be unity .
+Therefore , T = ktt \#151 ; L.C.M. of t and t\ ( 7 .
+) If a has exponent t , a has exponent t\ a " \#151 ; \amp ; c. , for modulus m , and if , of the tt't " ... numbers arar , a"r " . . .
+( mod m ) formed by giving to r all values modulus t , to r all values modulus \#163 ; ' ... , no two are congruent ; and if asa !
+*'a !
+'* " . . .
+= 1 ( mod ; then we must have as = 1 , a3 ' = 1 , a"3 " = 1 , . . .
+( mod m ) .
+For suppose that at least one of these congruences is violated .
+Say =\#163 ; 1 ( mod m ) , a* 0 ( mod t ) .
+and , therefore , FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Then , because asa'g , a"s " . . .
+== 1 ( mod m ) , therefore ( multiplying by all s ) , aWa'* " . . .
+== aim~* ( mod m ) , or a'a3'a"s " . . .
+EE al~s ( mod m ) , or aPa^a"* " . . .
+\#151 ; al~s a''a " ' . . .
+( mod m ) , which is contrary to the supposition that no two numbers of the form ara'r ' . . .
+( mod m)are congruent ; for the last congruence obtained shows that if we make r = 0 t \#151 ; s ' = ... I r \#151 ; t \#151 ; 8 r ' \#151 ; 0 r ' \#151 ; 0 . . .
+J where t \#151 ; s ^0 ( mod t ) , the two numbers are congruent .
+Hence , we must have s EE 0 ( mod t ) , and , therefore , a* EE 1 ( mod t ) .
+Similarly , EE 1 ( mod \amp ; c. Definition.\#151 ; If a , a , a " . . .
+have exponents , t\ t'\ . . .
+and if no two of the tt't " . . .
+numbers that can be formed by products of their powers are congruent modulus m ( as in the last proposition ) , then these numbers , a , a ' , a !
+' , . . .
+which generate the tt't " . . .
+incongruent numbers , will be called independent generators .
+The last proposition may then be stated thus :\#151 ; If a product of powers of a set of independent generators be congruent to unity , then each of those powers is itself congruent to unity .
+( 8 .
+) If a , a ' , a " , . . .
+independent generators , have exponents t } t'f t " , . . .
+then the exponent of aaa " ... is the L.C.M. of t , t\ . .
+Let T be the L.C.M. of t , t ' , t " , . . .
+and r the required exponent of ' . . .
+therefore , at=l ( mod 'm ) , aT = 1 ( mod m ) .
+an EE 1 ( mod m ) , \amp ; c. , 2 c 2 Similarly , therefore , therefore , Again , therefore , therefore , therefore , therefore , ( ad a " . . .
+)T = 1 ( mod m ) , r divides T. ( Prop. 2 .
+) ( ada " . .
+.)7 EE 1 ( mod ra ) , aTdTa"r . . .
+= 1 ( mod m ) , r = 0 ( mod t ) t EEz0 ( mod t ' ) \gt ; ( Prop. 7 ) , r EE 0 ( mod t " ) T divides r , T = Corollary.\#151 ; If the exponents t , t\ t " , be all of them powers of the same prime , and a , a , a " , . . .
+are independent generators , then the exponent of the product ada " ... is equal to the greatest of the exponents t , t , ' 1 ?
+' . . .
+( 9 .
+) If the exponent of a for modulus m is t } and for modulus n is t\ and if m and n are co-prime , then the exponent of a for modulus ran is the L.C.M. of t and t ' .
+Let t " \#151 ; tr\#151 ; t'twhere r and tare co-prime , so that t " is the L.C.M. of t and t\ Let the exponent of a for modulus ran be T. Thus we have d = 1 ( mod m ) , and , therefore , raising to the power r , d " = 1 ( mod m ) .
+Similarly , d " = 1 ( mod n)f and , therefore ( since m and n are co-prime ) , d " = 1 ( mod ran ) , therefore T divides t'\(Prop .
+2 .
+) Again , therefore aT = 1 ( mod ran ) , aT = 1 ( mod m ) , therefore t divides T , FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Similarly , therefore Therefore t ' divides T , t " divides T. T = Corollary.\#151 ; If the exponents of a for moduli m , m " , . . .
+are respectively tie t'y t " , ... and the moduli are co-prime , then the exponent of a for modulus mm 'm " .
+is the L.C.M. of tie t\ t " . . .
+Examples.\#151 ; The exponent of 3 for mod 4 is 2 3 for mod 7 is 6 3 for mod 11 is 5 ( 3 .
+1 .
+) ( 3 .
+2 .
+6 .
+4 .
+5 .
+1 .
+) ( 3 .
+9 .
+5 .
+4 .
+1 .
+) Therefore the exponent of 3 for mod 4 .
+7 .
+11 = 308 is 30 .
+The exponent of 5 for mod 4 is 1 .
+5 for mod 7 is 6 5 for mod 11 is 5 ( 5 .
+4 .
+6 .
+2 .
+3 .
+1 .
+) ( 5 .
+3 .
+4 .
+9 .
+I. ) and , therefore , the exponent of 5 for mod 308 is 30 .
+The exponent of 9 for mod 4 is 1 .
+9 for mod 7 is 3 ( 2 .
+4 .
+1 .
+) 9 for mod 11 is 5 ( 9 .
+4 .
+3 .
+5 .
+1 .
+) and , therefore , the exponent of 9 .
+mod 308 is 15 .
+( 10 .
+) If the exponent of a is t , and t \#151 ; pqr . .
+, where p , q , r are co-prime factors of tie to express a as a product of numbers whose exponents are p , qt r . . .
+Let P EE 0 ( mod qr . . .
+) ] Q = 0 ( modpr . . .
+) EE 1 ( modp ) J =1 ( mod q ) These congruences determine one value each and one only ( mod t ) for P , Q , . . .
+a ?
+has exp p ( Prop. 4 ) , aQ " " q See .
+From the above congruences we obtain therefore , by addition , Similarly , P EE 1 ( mod p ) , Q = 0 ( mod jp ) , It = 0 ( modp ) , \amp ; c. P + Q + R+ . . .
+=1 ( mod P + Q + 'R+ ... = !
+( mod \amp ; c. , and , therefore , since p , q , . . .
+are co-prime , therefore P -p Q -)\#166 ; ^ -h . . .
+\#151 ; 1 ( mod i ) , av .
+cfi .
+aK . . .
+= a ( mod m ) .
+And so a is expressible ( in one way only ) as the product of numbers ap , whose exponents are p , q. . .
+Example.\#151 ; 3 has exponent 30 mod 308 .
+To express it as a product of 3 numbers with exponents 2 .
+3 .
+5 , therefore P EE 0 ( mod 15 ) = 1 ( mod 2 ) Q \#151 ; 0 ( mod 10 ) It EE 0 ( mod 6 ) EE 1 ( mod 3 ) EE 1 ( mod 5 ) , and , therefore , where P = 15 Q = 10 E = 6 , 3 = 315 .
+310 .
+36 EE 111 .
+221 .
+113 ( mod 308 ) 111 has exp 2 221 " 113 " Similarly 79 has exponent 30 ( mod 308 ) , and 79 = 7915 .
+7910 796 = 43 .
+177 .
+141 ( mod 308 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+where 43 has exp 2*1 177 " 3 L 141 " " 5 .
+( 11 .
+) The number of numbers that belong to any exponent t when the modulus is a prime pis \lt ; f\gt ; ( t ) .
+If there are any numbers which have exponent t , mod p , let a be one .
+Then because a* EE 1 ( mod p ) , therefore each of the t in congruent numbers a , a2 , a3 , ... a* when raised the \#163 ; th power is EE 1 .
+Hence each is a root of x ?
+= 1 ( mod p ) which has only t incongruent roots .
+Therefore every number ft which has exponent t , and which is therefore such that P == 1 is included in the above set .
+Hence every number with exponent t is to be found in the above set .
+Now , of the powers of a there are \lt ; j ) ( t ) which have their index prime to t , and which , therefore , have exponent t ( Prop. 4 ) .
+Therefore if there is one number with exponent t there are ( f\gt ; ( t ) , and no more .
+Now if tlft2 , ... , are all the divisors of p \#151 ; 1 , and , therefore , all possible exponents ( Prop. 3 , corollary ) , \lt ; l\gt ; ( h ) + \lt ; f\gt ; ( h ) + . . .
+== ^ ( p)\#187 ; Corresponding to each value t there are either \lt ; \#163 ; ( t ) numbers or none with t as exponent .
+The number of numbers altogether is \lt ; j\gt ; ( p ) .
+Hence in no case can there fail to be \lt ; f\gt ; ( t ) numbers with exponent t. Corollary.\#151 ; In particular there are \lt ; f\gt ; ( p \#151 ; 1 ) numbers with exponent p \#151 ; 1 , modulus p , i.e.y any odd prime p has ( p \#151 ; 1 ) primitive roots .
+( 12 .
+) The exponents to which a number a belongs for successive powers of a prime p as moduli .
+We suppose that a is prime to p and that 2 .
+Let the exponents to which a belongs for the moduli p , p* , pz , . . . . . .
+be tlf t2 , \#163 ; 3 , . . .
+respectively .
+Then because at\+\ = 1 ( mod pK+1 ) , therefore o/ A+1 == 1 ( mod pK ) , therefore tk divides tK+1 .
+( Prop. 2 .
+) 200 MR. Gr .
+T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS Again = 1 ( mod therefore ( raising to the pth power atK \#151 ; 1 / cpA ) 1 ( mod pA+1 ) , therefore i divides ( Prop. 2 .
+) It follows from these two results that either \#163 ; x+1 = tk or \#163 ; x+1 = ptx .
+Each exponent in the series tlft2 , ... tk , . . .
+is either equal to that immediately preceding it or is p times that value .
+We can show , however , that after the first set of equal exponents t1 = t2= comes to an end , that each exponent is p times that which immediately precedes it .
+For suppose that , if possible , after \lt ; A+1 = Pk we can have k+2 \#151 ; k+i ' We thus have ^A + 2 == k + 1 = ptA* Now = 1 ( mod pK ) = 1 + xpK \ say , where Also , apt* = a\lt ; A +2 EE 1 ( mod pK + 2 ) , therefore ( l -f- xpK -f- ypK+iy \#151 ; 1 ( mod + 2 ) 1 + xpK +1 EE 1 ( mod p 2 ) therefore x = 0 , and , therefore , = 1 -f ypK +1 = 1 ( mod pK +1 ) .
+Therefore tK +1divides tx , which is not so .
+Therefore we cannot have if and therefore we must have ^A + 2 \#151 ; .
+^A + 1 ^A + 1 = ^A + 2 == P* A + 1* FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+If , then , the exponent of a for modulus be tx = and \#151 ; 1 contain p* as the highest power of p } we have a* EE 1 ( mod ps ) , and And after these ^8+1 \#151 ; \#151 ; t\#187 ; .+ 2 := : + Ij \amp ; c. Hence the exponent of a for modulus pK is * if X i s , tpK * if X \gt ; s , where t is the exponent of a for modulus p , and ps is the greatest power of p that will divide a* \#151 ; 1 .
+Corollary.\#151 ; The greatest value that t can have is p \#151 ; 1 .
+This is so when a is congruent to a primitive root of p ( Proposition 11 , corollary ) .
+The greatest value that pK~8 can have is got by making s as small as possible , viz. , by making = l , i.e. , by taking a so that ap~x \#151 ; 1 ( though necessarily divisible by p ) is not divisible by p2 .
+Therefore the greatest possible exponent that a number can have for modulus pK is ( p \#151 ; l ) .
+pK~1i and as this is equal to \lt ; f\gt ; ( pK ) it follows that primitive roots exist for a modulus a power of a prime .
+Examples.\#151 ; Exponent of 3 for mod 56 .
+Therefore The exp of 3 for mod 5 is 4 ( 3 .
+4 .
+2 .
+1 ) .
+34 \#151 ; 1 = 80 is divisible by 51 .
+exp of 3 is 4 .
+55 ( mod 56 ) .
+Exponent of 24 for mod 56 .
+Therefore The exp of 24 for mod 5 is 2 ( t \#151 ; 2 ) .
+242 \#151 ; 1 = 575 which is divisible by 52 .
+( \#151 ; 2 ) .
+exp of 24 mod 56 = 2 .
+54 .
+( 13 .
+) The exponent to .which a number a belongs for a power of 2 as modulus .
+The number a is now to be considered odd .
+Let $j , t.2i t3 , ... tK ... be the exponents of a for moduli 2 , 22 , . . .
+2* . . .
+MDCCCXCIII.\#151 ; A. 2 D We have Therefore therefore = i ( mod 2X+1 ) .
+atK+l = x ( mod 2X ) ; tK divides tK+x .
+( Prop. 2 .
+) Again atK = 1 ( mod 2X ) = 1 + .2X + .
+2X+1 ( where = 1 or 0 ) .
+Therefore a2** = 1 ( mod 2X+1 ) , and therefore t\+i divides 2 Therefore either ^A+l = ^A or f. ^A+l = Suppose now that after *a+i = 2^ we can have ^A+2 = ^A+l* Then a\lt ; A = 1 ( mod 2X ) = 1 + 2X + 2X+1 .
+Therefore Now if A. \gt ; 2 , then and therefore a ?
+tK = 1 + x.2X+1 -p ic322x ( mod 2X+2 ) .
+2X \gt ; X + 2 , a2\lt ; A = x + cc.2x+1 ( mod 2X+2 ) .
+Now therefore Therefore ct2\lt ; A = a*A+2 = 1 ( mod 2X+2 ) , x = 0 .
+atK \#151 ; 1 + x.2K + i/ 2x+1 = 1 ( mod 2X+1 ) , therefore tk+1 divides tK , which is not so .
+Hence we have the result , when X \gt ; 2 and \#163 ; A+1 = 2tk , then \#151 ; ^tK+x .
+The first exponent tltof the series , is equal to unity .
+If this be followed by a set of l 's ( at least one ) , then by what has been proved they will be followed by the series 2 , 22 , -2s . . .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+If the second exponent be a 2 , the third may be also , and so on ; the series then continues with 22 , 23 , 24 , . . .
+Of the 2 's there are at least two ; for otherwise the first three exponents would be tx = 1 , t % = 2 , t3 = 4 , making 4 an exponent for mod 23 = 8 , which is impossible .
+Hence the series of exponents run either thus\#151 ; or thus 1 .
+1 .
+1 . . . .
+1 .
+2 .
+22 . . . .
+1 .
+2 .
+2 . . . .
+2 .
+2 .
+22 .
+23 .
+2* . . .
+These results can be expressed thus\#151 ; Let the highest power of 2 which divides a2 \#151 ; 1 be 2*+1 .
+( Since is an odd number , s is at least equal to 2 .
+) Then the exponent of a is if \\gt ; s , 2kr* f 2 if a2 = 1 ( mod 2* ) and 1 ( mod 2X ) .
+if \lt ; 1 if a EE 1 ( mod 2K ) , Corollary.\#151 ; The greatest exponent possible for mod 2X is 2X"2 ; and as \lt ; f\gt ; ( 2X ) = 2X_I , primitive roots do not exist .
+Examples.\#151 ; Exponent of 3 for mod 26 .
+Exp of 3 for mod 2 is 1 , " 22 is 2 , " " 23 is 2 , " " 24 is 4 , and therefore exp of 3 for mod 26 is 16 Exponent of 35 for mod 64 = 26 ( A = 6 ) .
+352 \#151 ; 1 = 1224 = 153.23 , therefore 2 , therefore exp of 35 is 24 .
+Exp of 41 for mod 128 = 27 ( X = 7 ) .
+412 \#151 ; 1 = 1680 = HX5.24 , 2 d 2 204 MR. Gr .
+T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS therefore therefore s = 3 , exp of 41 = 27-3 = 24 .
+( 14 .
+) The numbers which belong to exponent 2 for modulus 2 " ( k \gt ; 3 ) .
+Let a have exponent 2 , modulus 2* .
+Then a2EB 1 ( mod 2* ) and The congruence gives a 1 ( mod 2 " ) .
+a2EE 1 ( mod 2* ) ( a \#151 ; 1 ) ( a -f- l ) EE 0 ( mod 2* ) .
+Since a is odd , if 2s is the highest power of 2 that divides a \#151 ; 1 and \gt ; 1 , then the highest power of 2 that divides a + 1 is 2 , and vice versed .
+Hence either a + 1 == 0 ( mod 2 " ~1 ) , or a \#151 ; 1 EE 0 ( mod 2*-1 ) .
+Therefore ( excluding a == 1 ( modulus 2* ) ) we have three numbers whose exponents are 2 for modulus 2K , viz. , 2*-1 + l , 2K \#151 ; 1 , 2*"1 \#151 ; 1 .
+( mod 2* ) .
+The product of each pair of these is congruent to the third .
+( 2*-1 + 1 ) ( 2* \#151 ; 1 ) = 2K_1 \#151 ; 1 ( 2* \#151 ; 1 ) ( 2*-1\#151 ; 1)= \#151 ; 2*-1 + 1 = 2K ( 2* " 1 \#151 ; 1 ) ( 2* " 1 + 1 ) EE 2 " \#151 ; 1 + 1 ( mod 2* ) .
+( 15 .
+) The numbers which have exponent 2 ' for modulus 2* .
+We have already seen that s }\gt ; k \#151 ; 2 , and we have already treated ( Prop. 14 ) of the case when 5=1 .
+Let a have exponent 2s .
+The exponents to which it belongs for successive powers of 2 as moduli are given either by exp 1 .
+] .
+1 . . .
+1 2 .
+23 . . . .
+2*1 mod 2 .
+22 .
+23 . .
+2K'\ \ 2'"* + 2 . . . .
+2 " | FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+205 or by Exp 1 .
+2 .
+2 . . . .
+2 .
+2s . . . .
+Mod 2 .
+23 .
+23 . . . .
+2't~s + 1 .
+2*"* , ... 2* In either case a2 EE 1 ( mod 2* s + 1 ) a3 =\#163 ; 1 ( mod 2*-\#174 ; + 2 ) , therefore a3= 1 + 2*~*+1 ( mod 2"-s + 2 ) , and therefore a EE i 1 + 2*"3 ( mod 2K~S + * ) .
+Thus the numbers ( modulus 2* ) which have exponent 2s are the numbers given by ' dt 1 + 2K~S ( mod 2*"s + l ) .
+In particular , the numbers with the greatest exponent 2are the 2* " 2 numbers \#177 ; 1 + 23 ( mod 23 ) .
+We have seen that there is one number ( viz. , unity ) with exponent 1 .
+there are 3 numbers with exponent 2 .
+o2 o2 9 9 ^ M 9 9 n )k - 2 2*~2 .
+In all , 1 + 3 + 23 + 2s + . . .
++ 2't_2 = 2*-1 = the number of odd numbers less than 2 " , as it should be .
+( 16 .
+) If we take any number g which has exponent 2*"2 for modulus 2 " , the successive powers of g give 2*"2 incongruent numbers , one half of the complete set of odd numbers less than 2\ Of these , one and only one , has exponent 2 , Now .
+OK 3 viz. , gz g = i i 4 " 23 ( mod 23 ) squaring , / = 1 + 2s ( mod 24 ) and successively squaring = 1 + 24 ( mod 25 ) OK \#151 ; 3 _ r = 1 -f- 2*-1 ( mod 2* ) .
+So of the three numbers 2* \#151 ; 1 , 2*~1 + 1 , 2""1 \#151 ; 1 , it is always 2*"1 -f 1 to which the power 2*"3 of any number with exponent 2*"2 is congruent .
+Let / be either of the two numbers 2K \#151 ; 1 , 2'c"1\#151 ; l ; so that / K~8 ^/ ( mod 2K ) .
+Consider the 2*-1 numbers # , / , \lt ; 73 . . .
+g* 2 ^ / #\gt ; // \gt ; /#8 . . .
+/ /K"2J ( mod 2 " ) .
+Clearly no two in the first row are congruent , nor in the second .
+The supposition fgr EE gr + t ( mod 2* ) leads to gr { gt \#151 ; / ) = 0 ( mod 2* ) gl EE / ( mod 2* ) , which is contrary to the supposition that 3 , and therefore no power of g is congruent to / .
+Therefore no two of the above 2 " " 1 odd numbers are congruent mod 2** and hence they are the 2* " 1 numbers ( mod 2* ) .
+If for/ we take 2* \#151 ; 1 = \#151 ; 1 ( mod 2K ) , the 2K~1 numbers may be written dz g , \#177 ; g\ \#177 ; g* , . . .
+\#177 ; g2* 2 ( mod 2* ) .
+Whichever number be taken for/ any number ( mod 2* ) is expressible in the form a =/ */ ( mod 2K ) , where iis referred to mod 2 , j is referred to mod 2* " 2 .
+Note.\#151 ; In the last propositions relating to mod 2* , k is supposed to be \gt ; 3 .
+In the case k = 2 , when the modulus is 2s = 4 , there are two odd numbers , less than the modulus , viz. , 1 and 3 , and 3 ( having exponent 2 ) is a primitive root .
+In the case k \#151 ; 1 when the modulus is 2 , the only odd number is unity .
+We see that the case when the modulus is a power of 2 , differs very much from the case when the modulus is a power of an odd prime .
+When the mod is 2 " ( k \gt ; 3 ) .
+( i. ) The highest exponent is not \lt ; \#163 ; ( 2K ) = 2*-1 , but 2'\#163 ; " 2 , and hence there are no primitive roots .
+( ii .
+) The form of the numbers which belong to any exponent is known , and the numbers can be at once written down when k is known .
+In particular the numbers dz 1 + 23 ( mod 8 ) always belong to the highest exponent .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+When the modulus is a power of an* odd prime .
+( i. ) Primitive roots always exist .
+( ii .
+) The determination of primitive roots depends on a knowledge of those of the prime in question .
+Examples.\#151 ; For modulus 25 = 32 the numbers which belong to the different exponents are Exp 1 .
+1 .
+Exp 2 .
+15 .
+17 .
+31 .
+Exp 4 .
+7 .
+23 .
+9 .
+25 . . . . .
+( \#177 ; 1 + 8 ( mod 16 ) ) .
+Exp 8 .
+3 .
+11 .
+19 .
+27 .
+5 .
+13 .
+21 .
+29 ( \#177 ; 1 + 4 ( mod 8 ) ) .
+The residues of powers of 3 are 3 .
+9 .
+27 .
+17 .
+19 .
+25 .
+11 .
+1 .
+Multiplying each by 25 \#151 ; 1 = 31 we get 29 .
+23 .
+5 .
+15 .
+13 .
+7 .
+21 .
+31 , and , multiplying by 24 \#151 ; 1 = 15 , we get the same set .
+13 .
+7 .
+21 .
+31 .
+29 .
+23 .
+5 .
+15 , The Table of Indices for Generators 3 and 15 is\#151 ; 0 1 2 o 4 5 6 7 0 1 3 9 27 17 19 25 1 ] 1 15 13 7 21 31 29 23 5 ( Index of 15 .
+) ( Index of 3 .
+) ( 17 ) .
+From propositions ( 9 ) , ( 12 ) and ( 13 ) the exponent to which any number a belongs for modulus m = 2Kp^'A ... is readily determined .
+For by ( 9 ) the exponent is the L.C.M. of the separate exponents of a for moduli 2* , jpKt q1* , . . .
+separately .
+These exponents are separately determined by propositions ( 12 ) and ( 13 ) .
+The greatest possible separate exponents -are 2*"2 if 3 " 2 if k = 2 Vfor mod 2 " , { p \#151 ; l)^x-1 for mod \amp ; c. , 1 if k = 1 and , hence , the greatest exponent possible for modulus m is the L.C.M. of these .
+The value of \lt ; j\gt ; ( m ) is 2*"1 ( p \#151 ; 1 ) 1 ( # \#151 ; 1 ) *"1* .
+* and , since p \#151 ; 1 , q \#151 ; 1 , . . .
+are all even , the L.C.M. can only equal ( j\gt ; ( m ) when ( i. ) there is the only one odd prime present ; and ( ii .
+) k = 1 or 0 .
+Hence the only moduli which admit of primitive roots ( which exist only when the highest exponent is equal to ( j\gt ; ( m ) ) , are powers of odd primes , and double the powers of odd primes .
+Examples.\#151 ; What is the exponent of 3 for mod 100 0 0 00 = 26.56 ?
+Therefore The exp of 3 for mod 26 is 24 .
+, , " 56 is 4.55 .
+exp of 3 mod 106 = 24.55 = 50000 .
+How many decimal places are there in the period of the product of '01 and 'Oi , i.e. , what is the exponent of 10 for mod 99 X 99 = 34 .
+112 ?
+Exp of 10 for mod 3=1 .
+3s = 1 .
+, , , , 33 = 3 .
+" " 34 = 9 .
+" " 11 = 2 .
+" " 11.\#174 ; = 22 .
+Therefore exp of 10 for mod 34 .
+IT2 = 9 X 22 = 198 .
+Hence there are 198 figures in the period of ( 'Oi)3 .
+How many decimals are there in the period of ( *00i)* , i.e. , what is the exponent of 10 for mod ( 999)** = 37 " .
+33 " ?
+The exp of 10 mod 3 is 1 , and 10 \#151 ; 1 is divisible by 33 , therefore exp of 10 mod 33 ; \lt ; is 33'*"2 .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+209 and therefore therefore Exp of 10 mod 37 = 3 , 371 divides 103 \#151 ; 1 , exp of 10 mod 37w = 3.37"-1 , exp of 10 mod 3 7n.38 " = 33""3.3 the number of figures in the period .
+( 18 .
+) We will next briefly consider the residues of successive powers of a number not prime to the modulus .
+Let a be the number , m the modulus .
+Let m = pT : where p consists of powers of those primes which occur as factors of a , and P is prime to a. Consider the series of residues a. a2 .
+a8 . . .
+( mod m ) .
+Suppose that the first term which is repeated is are and suppose that are + * EE are ( mod m ) , for which we seek the smallest values of r and t. Then after the first r \#151 ; 1 terms we shall have a period of t terms constantly repeated .
+We have are ( ct* \#151 ; 1 ) EE 0 ( mod P and P is prime to a. Therefore a !
+\#151 ; 1 EE 0 ( mod P ) ... ... ... ... ... ... .(i .
+) .
+Each prime factor of pis a factor of a , therefore a* \#151 ; 1 is prime to p. Therefore arEE 0 ( mod p ) ... ... ... ... ... ... ..(ii-)* ( i. ) Shows that t is the exponent of a for modulus P. ( ii .
+) Shows that ris the least number that makes are divisible by p. Corollaries.\#151 ; ( i. ) When a EE 1 ( mod P ) = 1 and the period consists of one term only , ( ii .
+) When a is divisible by p the period starts from the first term , ( iii .
+) When both these hold good , then every power of is EE ( mod Examples.\#151 ; Ttesidues of powers of 2 mod 100 .
+100 = 52 .
+23 .
+Exp of 2 mod 5 = 4 " " 52= 20 therefore and therefore t = 20 , 23 is divided by 22 r \#151 ; 2 .
+2 .
+4 .
+8 .
+16 .
+32 .
+64 .
+28 .
+56 .
+12 .
+24 .
+48 .
+96 .
+92 .
+84 .
+68 .
+36 .
+72 .
+44 .
+88 .
+76 .
+52 , the points indicating the period .
+Powers of 5 mod 1000 = 23 .
+53 .
+5 has exp 2 mod 23 , therefore therefore t = 2 , .
+53 is divided by 53 , r \#151 ; 3 .
+5 .
+25 .
+125 .
+625 .
+Powers of 5 mod 1000000 = 26 .
+56 .
+5 has exp 24 = 16 mod 26 , t = 16 , 56 is divisible by 56 , * r \#151 ; 6 .
+therefore and therefore 5 .
+25 .
+125 .
+62c .
+3125 .
+15625 " ' 78125 390625 953125 765625 828125 140625 703125 515625 f 578125 890625 453125 265625 328125 640625 203125 Powers of 57 .
+56 = 890625 mod 1000000 .
+and therefore and Exp of 57 .
+56 mod 26 is 1 ( 890625 = 1 ( mod 26 ) ) , 57 .
+56 is divisible by 56 , t \#151 ; 1 r = 1 , and so all powers of 890625 are = 890625 ( mod 1000000 ) .
+( 19 .
+) Let m = P1P2P3 . . .
+, where pi}p2i p3 ) . . .
+are co-prime .
+Take any number a prime to m. Suppose that a = ( mod = a2(mod p = a3 ( mod p3 ) , \amp ; c. Since a is prime to m and therefore to pltit follows that is prime to p{ .
+So a3 is prime to p2 , a3 to p3 ) \amp ; c. Suppose now that , conversely , a1 % ct2 , a3 , . . .
+prime to p1 } p2 , p3 , . . .
+are given , and we wish to find a , such that it is congruent to ^(modpj ) , a2(modp2 ) , \amp ; c. Let xl be determined from \#174 ; i P*Ps . . .
+= 1 ( mod^j ) , which can be done , and in one way only , since p2pz ... is prime to px ; and when xx is found let xiPzPz . . .
+= \#163 ; L.Determine similarly \#163 ; 2 , . . .
+Then the number a is given by a = cc1il + a2f2 + a3fs + . . .
+( niod m ) .
+2 E 2 For and Therefore and similarly and therefore ?
+2 , ?
+\lt ; j\gt ; . . .
+are all congruent to zero mody^ , is congruent to unity mod a = a-i ( mody^ ) , = a2 ( mod y\gt ; 2 ) , \amp ; c. , a = -f a2 ?
+2 + a3 ?
+3 -f . . .
+( mod m ) , a formula which gives the value of a corresponding to given values of the a 's , the coefficients ?
+being independent of the as and depending only on the moduli Pi\gt ; P\#187 ; . . .
+Note.\#151 ; The principal use to be made of this proposition and the next will be for the special case when pv y\gt ; 2 , . . .
+are the powers of primes of which the modulus m is the product .
+( 20 .
+) Let us take two numbers expressed in this form , a = -f a2 ?
+2 + . . .
+( mod m ) , b = ft ?
+i -f ft ?
+3 + . . .
+( mod m ) , in which 6 = 1 ( mody)j ) ] EE 0 / mod with similar relations for ?
+2 , ?
+3 , . . .
+Let us form the product of a and b. By Proposition ( 18 ) , Corollary ( iii .
+) , all powers of ?
+A are congruent to ?
+l5 mod m , therefore \#171 ; ift ?
+i3 = aift ?
+i ( mod m ) .
+Taking any cross-term such as a1ft ?
+1 ?
+2 , since ? !
+EE 0 ( mody\gt ; 2y\gt ; 3 ..- .
+) , ?
+2 = 0 ( mod y\gt ; iy\gt ; 3 . . .
+) , therefore ? ! ?
+2 = 0 ( mod m ) .
+Hence ctb EE aift ?
+i " b a2ft ?
+2 " b aa^3^3 " b * . .
+{ mod wi ) , FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+i.e. , the multiplication of numbers expressed thus is simply effected by forming the products of the coefficients of ft , f2 . . .
+Corollary ( i. ) .
+If a = axft + a2ft + . . .
++ ( mod ra ) , then as = a/ ft + a2*ft + . . .
+( mod m ) .
+Corollary ( ii .
+) .
+If a = ajft -f a2ft + . . .
+( mod m ) , then a is congruent to the product of the numbers f \#171 ; i = \#171 ; ift + \amp ; + .
+; .
+( mod m ) , .s a* = fi.+ a2\amp ; + . . .
+( mod m ) , \amp ; c. Or , since ft + ft + . . .
+= 1 ( mod ra ) ( c/ !
+Prop. 10 ) , ax == ( \#171 ; !
+\#151 ; 1 ) ft -f- 1 ( mod ra ) , a.2 EE ( a2 \#151 ; 1 ) ft + 1 ( mod ra ) , Examples.\#151 ; To find a , modulus 308 , so that = ax ( mod 4 ) = a2 ( mod 7 ) = a3 ( mod 11 ) 7 .
+11 .
+xx = l(mod 4 ) 4 .
+3 .
+3 .
+x1 = l ( mod 4 ) iCj s 1 ( mod 4 ) ft EE 77 ( mod 308 ) and so 11 .
+x2=l ( mod 7 ) 2 .
+ce2 EE 1 ( mod 7 ) a ?
+2 EE 4 ( mod 7 ) ft =176 ( mod 308 ) 4 .
+7 .
+\#163 ; C3 EE 1 ( mod 11 ) 6 .
+cc3 EE 1 ( mod 11 ) x3 =E 2 ( mod 11 ) ft EE 56 ( mod 308 ) a = 77 ax + 176 a2 + 56 a3 ( mod 308 ) , e.g. , then a EE 3 ( mod 4 ) = 6 ( mod 7 ) EE 1 ( mod 11 ) a = 77 .
+3 + 176 .
+6 + 56 .
+1 ( mod 308 ) = 111 ( mod .
+308 ) , 214 MR. G. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS and 111 ={77.3 + 1 76 +56 ) ( 77 + 176 .
+6 + 56 ) ( 77 + 176 + 56 ) = 155 .
+265 ( mod 308 ) .
+( 21 .
+) The number of numbers which belong to a given exponent when the modulus is a power of a prime .
+I. Let the prime be an odd prime , and pK the modulus .
+In Proposition ( 12 ) , Corollary , we saw that for modjpA primitive roots exist .
+Let gbe a primitive root .
+The numbers g , g2 , g3 , . . .
+cf(pK } ( mod pA ) are congruent to the complete set of numbers less than pK and prime to it .
+The exponent to which any one of these numbers , g\ belongs is t , where ( p ' ) = Kt I and and t and cr are co-prime ( Prop. 4 ) .
+s = KC For any given value of t the value of ( pk)/ t is given .
+\lt ; t may then have any value prime to t such that i.e. , s \gt ; ( j\gt ; ( i ?
+A ) , KCT ^ Kt cr t. Hence o- may have each of the \lt ; /\gt ; ( t ) values of the numbers less than t and prime to it .
+Therefore there are ( t)numbers having t as their exponent ( mod m ) .
+II .
+Let the modulus be 2\ ( k \gt ; 3 ) .
+In this case we have seen ( Proposition 15 ) that there are 2s numbers with exponent 2* ( if s \gt ; 1 ) : and 3 numbers with exponent 2 ; and 1 number with exponent unity .
+When the modulus is 22 there is one number with exponent 2 and one with unity .
+When the modulus is 2 there is one number ( unity ) with exponent unity .
+Definition.\#151 ; When a number m is expressed in the form m = 2*P1AlP3A* . . .
+where P1 } P2 , . . .
+are different odd primes , it will be convenient to speak of 2* , PjAl , P/ s. . .
+as the principal factors of m. ( 22 .
+) The number of numbers , each of which has , as exponent , some power of a prime p , for modulus m , p being a divisor of \lt ; f\gt ; ( m ) .
+Let m \#151 ; 2'cP1AlP/ 2 , . . .
+\lt ; f\gt ; ( iy\#187 ; ) =r 2Ky . . .
+( f\gt ; ( P3a* ) == 2K*pl*qm* } .
+, .
+\amp ; c. FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Any number has for its exponent , modulus m , the L.C.M. of its separate exponents for moduli 2 ' , P/ 1 , PaA % . . .
+the principal factors of ( Proposition ( 9 ) , Corollary .
+) Hence , when the exponent , modulus m , is a power of a prime the exponent for each of the principal factors of m as moduli , must each be either unity or some power of p. Conversely , if we take a set of numbers a0 , al9 aa , . . .
+one for each of the moduli 2* , PxAl , . . .
+such that the exponent of each , for its own modulus , is unity or some power of p , then the number a == a0\#163 ; 3 + \#171 ; ifi + . . .
+( mod m ) , will have a power of as exponent , modulus m. The numbers f are given by EE 1 ( mod 2* ) , \#163 ; = 1 ( mod Pj*1 ) , = 0 ^mod , = 0 ^mod Thus , by giving to the as all possible sets of values consistently with each having unity or a power of p as exponent , we shall obtain all the numbers ( mod m ) which have ( unity or ) a power oi p as exponent .
+There are ( f ) ( p*1 ) numbers which have expy/ 1 , mod P/ 1 .
+( Prop. 21 .
+) \lt ; f\gt ; ( p1 ) , , j , , , 1 , , Hence there are ( j\gt ; ( pl1 ) + \lt ; j\gt ; ( pll~l ) + .
+, .
++ 1 \#151 ; ph numbers , mod P^1 , which have unity or a power of_p as exponent .
+Similarly , there are p1*for mod P3A* , and so on .
+Hence , in a = a0f0 -f- a1f1 + a3f3 -f . . .
+( mod m ) , we can give 1 value ( viz. , unity ) to a0 1 any one of ptl values to ol1 } ) P* \gt ; \gt ; tX'-Z \amp ; c. , \amp ; c. and then a has unity or a power of p as exponent , mod m ; moreover , in this way , all such numbers are obtained .
+We thus obtain \amp ; .+..'* \#151 ; p*1 incongruent numbers , each of which has a power of p ( or unity ) for exponent .
+In the case when p \#151 ; 2 \gt ; J for mod 2* , all 2K~1 numbers have powers of 2 as exponents , \#187 ; PA 4\gt ; O2*1 ) + $ C2*1-1 ) + ... + 1 = 2*\#187 ; have powers of 2 as exponents , " PA \lt ; f\gt ; ( 2** ) + $(2**-1 ) + ... + 1 = 2** Hence , in all , there are 2'c-1+*1+*2+ . .
+* numbers , which have unity or a power of 2 as exponent .
+Note.\#151 ; Any number a , mod m , with any exponent , must be congruent to a product of one number from each set of 2*-1+'ti+'Ca+ . . .
+numbers , with powers of 2 as exponent , with powers of p as exponent , . . .
+\amp ; c. ( Proposition 10 .
+) Hence in all we get from these ( 23 .
+) The number of numbers having exponent p\ mod m , being a divisor of the greatest exponent .
+Let a be such a number and let \amp ; c. \amp ; c. \amp ; c. 2\#171 ; -i+\#171 ; i+ ... pZiqZm % .
+, numbers , = \lt ; \#163 ; ( 2- ) ... ... ... ... ... ... ... .
+= \lt ; f\gt ; ( m ) numbers , i.e. , the complete set of numbers prime to m. = ao\amp ; + aifi + a2 ?
+2 + . . .
+( mod m ) , then the exponent of a0 mod 2* ^ a , mod P/ 1 1- a2 mod P2a* I \amp ; c. J must each be unity or some power of p , and the greatest power of p must be p ( Proposition ( 9 ) , Corollary ) ; p being an odd prime a0 is necessarily unity .
+There are \lt ; j\gt ; ( pll)numbers , mod Pj*1 with exp 4\gt ; ( p*1"1 ) " " wh~\ \amp ; c. , and therefore there are ph i ph numbers with exp a power of \lt ; ph , i-l \#166 ; \amp ; C. , \amp ; C. FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Hence if \lt ; sthere are^1 numbers , mod P/ 1 , with exp a power of and if \gt ; lx \gt ; sthere are p8 numbers , mod P^1 , with exp a power of \#174 ; J Suppose that ( Zx)s stands for sif lx \gt ; sand for lx if Zx \lt ; s , then in either case there are y\gt ; ( y* numbers , mod P1Al , whose exponents are powers of p* .
+Similarly there are p{1^ ' numbers mod P2X % whose exponents are powers of and so for P2A % \amp ; c. Giving any one of these p{ll ) ' values to alf p{h)\gt ; values to a2 , \amp ; c. , we obtain pVx ) .
++ ( W. + ... ==^\gt ; ( 20 .
+numbers , mod m , whose exponents are powers of pp* ; where in p^l ) ' each number in -j- + . . ?
+is to be replaced by s if it exceeds s. Similarly , there are pnumbers , mod m , whose exponents are powers of p*~l \amp ; c , , \amp ; c. , p^l)l numbers with exponents p or unity , and 1 number with exponent 1 .
+Hence the number of numbers whose exponent is p8 , mod m , is pm)l \#151 ; p{Xl ) , -\ which when = 1 is p(tr\gt ; 1 \#151 ; 1 .
+Corollary.\#151 ; If ps be the highest power of p which can be an exponent for mod m , i.e. , if p8is the highest power of p that divides the greatest exponent , if s is the greatest of the numbers llt Z2 , . . .
+then 1 4 .
+( pCSOx - 1 ) + ( p\#187 ; \#187 ; .
+- pM\gt ; ) + ... + -pW'-\gt ; ) = is the number of numbers having as exponent ( mod m ) a power of p ( or unity ) as exponent .
+Now since s is equal to the greatest of the quantities llt Z2 , . . .
+( or rather is not less than any ) ( %l)s = %l and therefore p{n ) ' = pn : the result which was obtained in the last proposition .
+( 23a .
+) To find the number of numbers having exponent 2* , mod m. ( It will be convenient to write now k = k + 2 , so that m = 2"'+ 2P1AlP2A2 . . .
+) .
+If a be any such number , and a = a0f0 4- a^x + . . .
+( mod m ) , the exponents of a0 mod 2* | a , mod P/ 1 h a2 mod P2X* \amp ; c. must each bo unity or a power of 2 , and the greatest power of 2 must be 2ar .
+MDCCCXCIIl.\#151 ; A. 2 F First suppose that \gt ; 3 , and so \gt ; 1 .
+Then there are , mod 2K'+2 , Hence there are 2 " ' numbers with exponent 2* ' 9*'\#151 ; l " \gt ; \gt ; 99 2*'-1 02 ^ \gt ; \gt ; 99 23 [ Q 2 \amp ; 1 number " " 1 m/ 2*'+1 numbers with exponent a power of 2 2* ' 2* ' 99 99 99 99 \gt ; 2* ' 23 99 99 99 99 \gt ; 2 1 number " " 99 a\gt ; 2 ' ( r \gt ; kthen there are 2K\gt ; +1 numbers with exponent a power of 2 ^ 2 ' , mod 2*'+ 2 , and if cr\lt ; k then " " 2 \lt ; r+ 1 ( this holds unless o \#151 ; 0 , and then there is one number ( unity ) with exponent 1 ) .
+In either case , then , there are 2(*')\lt ; r +1 numbers with powers of 2 as exponents , where*(k ) , is to be replaced by cr if k\gt ; r K \#187 ; K ^ O ' Next for mod P^1 there are 2*1 1 numbers with exponent a power of 2 2*1-1 2kx-2 \lt ; 2*1-2 ^ 9 9 9 9 9 9 99 H \amp ; c. Hence ( using the same notation ) there are 2{Kl)\lt ; r numbers ( mod P/ 1 ) having exponent a power of 2 2* .
+Thus a0 may have each of values , each of 2('Cl)\lt ; r values , \amp ; c. , and the corresponding value of a has exponent a power of 2 ( mod m ) , 2* .
+Hence the number of these is 2(S*)\lt ; r + * , where in 2k = + + k2 + . . .
+ea'h number k is to be replaced by c tif it exceeds \lt ; x. FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+219 Similarly the number of numbers whose exponent , mod m , is a power of 2 2\lt ; r " 1 is Hence the number of numbers with exponent ( mod m ) is This holds for cr \gt ; 2 .
+When cr = 1 the number of numbers with exponent 2 is 2\lt ; 2k)i+1 __ Secondly suppose that k = 2 , and so k = 0 .
+Then , if o- is \gt ; 1 , a0 may be either 1 or 3 , two values .
+Hence the number of numbers with exponent 2\lt ; r is 2\lt ; 2'\gt ; \lt ; r + 1 _ 2\amp ; *)\lt ; r -1 +1 which agrees with the above when k ' is omitted .
+If cr = 1 , the number of numbers with exponent 1 or 2 , mod 22 , is 2 .
+Therefore the number of numbers with exponent 2 , mod , is 2(2\#187 ; c)i +1 _ J which agrees with the above when k is put = 0 .
+Thirdly , let ac = 1 .
+Then a0 must be unity and the number of numbers with exponent 2* is 2^^ \#151 ; 2^'-1 where 2/ c = Kj + + . . .
+Fourthly , when ( k = 0 ) mis odd , then again the number required is 2"(s*)\lt ; r \#151 ; 2^\lt ; r~1 .
+To collect the results :\#151 ; When or m = 2'c'+2P1XlP2A\#174 ; . . .
+22P1XlP3Xs . . .
+there are \#151 ; 1 numbers with exp 2 , 2(2*)a+i \#151 ; 2(2 , c)o-i+1 numbers with exp 2 And when or m = 2P1XlP.3Xa . .
+P^P2Xa . . .
+1 there are 2^x \#151 ; 1 numbers with exp 2 , 2(2\lt ; c)o- \#151 ; 2Wo\#151 ; 1 numbers with exp 2 ' .
+( 23b .
+) The last two propositions give us the number of numbers belonging to any exponent t = 2apbqc . . .
+For the complete set of these numbers is formed by taking all possible products of a number with exponent 2a , one with exponent \amp ; c. Hence the number of numbers with exponent t is the product of the number of numbers that belong to each of its principal factors as exponent .
+2 f 2 Examples.\#151 ; The number of numbers that belong to any exponent for mod m = 24 .
+13 .
+17 .
+19 .
+The greatest exponent is the L.C.M. of 4\gt ; ( 24 ) = 23 4\gt ; ( 13 ) = 22 .
+3 4\gt ; ( 17 ) = 24 4\gt ; ( 19 ) = 2 .
+32 ( - = 24 .
+32 .
+4\gt ; ( m ) = 210 .
+33 .
+For the 2-power exponent numbers we have for the / c 's k = 2 \#151 ; 2 k2 = 4 ac3 = 1 .
+( 2*)i = ^ ( Sk)8=7 : .
+( ^)s = 8 r ( Sk)4 = 9 _ Therefore belonging to exp 24 there are 210 \#151 ; 29 numbers , , " 23 there are 29 \#151 ; 28 numbers .
+" " 22 there are 28 \#151 ; 25 numbers f ' " " 2 there are 25 \#151 ; 1 numbers J For the 3-power exponent numbers we may take = 1 , l2 = 2 , W)i = 2 , ( tl)2 = 3 .
+Belonging to exp 32 there are 33 \#151 ; 32 numbers " " 3 there are 32 \#151 ; 1 numbers The number of numbers belonging to any other exponent is at once got from these by multiplying , e.g. , the number of numbers with the greatest exponent 24 .
+32 is ( 210 - 29 ) ( 33 - 32 ) .
+( 24 .
+) We shall now establish a particular set of independent generators which generate the 4\gt ; numbers ( mod m ) prime to m. Any number a , mod m , is expressible in the form a = a0f0 + + a2f3 + . . .
+( mod m ) .
+Let FOB .
+ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+gl be a primitive root of PxAl Gi \gt ; if -^2 8 \amp ; c. \amp ; c. , and let g0 have exp 2*"2 mod 2* / be EE 2* \#151 ; 1 or 2*_1 \#151 ; 1 mod 2* ( In the case when k = 2 , / does not occur , when k = 1 or 0 , neither/ nor gQ .
+) Then and Therefore = gf ( mod P^1 ) aa = gt ( mod P2Xa ) \amp ; c. , r* say .
+ao EE 9oV*(mod 2K ) a = 9oVJio + gHi + . . .
+( mod m ) = ( / fo + fi + . .
+*y(\lt ; 7ofo + ii + . .
+-)20 to + + . . .
+) " . . .
+( mod m ) = [ ( / \#151 ; 1 ) \#163 ; o + 11 ; [ to " x ) fo + 1J8 [ to \#151 ; 1 ) fi + l}'1 . . .
+( mod m ) , where j is referred to mod 2 , i0 " " mod 2K~\ iia " mod ( j ) ( PjAl ) , \amp ; c. , and so the set of indices j , i0 , . . .
+correspond uniquely to the number a : and the numbers ( f~~ i ) fo +1\#187 ; to " i ) fo +1 \gt ; to " 1 ) \amp ; ~1 " . . .
+are a set of independent generators , with exponents 2 , 2*~2 , j( P^ ) , ... which generate completely the ( f\gt ; ( m ) numbers , mod which are prime to m. Example.\#151 ; Take the modulus m = 112 = 2\ 7 .
+4\gt ; ( m ) = ( 2s ) ( 2 .
+3 ) = 3 = 48 .
+If a = a0 ( mod 24 ) , and a EE ( mod 7 ) , ci = a0f0 + ( mod 112 ) .
+7x0 EE 1 ( mod 24 ) 24asJL EE 1 ( mod 7 ) cc0 = 7 ( mod 24 ) io EE 49 ( mod 112 ) 2cCj = 1 ( mod 7 ) EE 4 ( mod 7 ) EE 64 ( mod 112 ) , a = 49a0 -}- 64aj ( mod 112 ) .
+We will take and Then and / = 7 ( = 24 - 1 ) g0z= 3 ( having exp 23 ) , = 3 ( a primitive root of 7 ) .
+( / \#151 ; 1 ) \amp ; + 1 = 6 .
+49 + 1 = 295 = 71 ( mod 112 ) , ( \lt ; 7o T 1 ) ?
+0+ 1 = 2- + 1 = 99 ( mod 112 ) , ( gx \#151 ; 1 ) \#163 ; + 1 = 2 .
+64 + 1 = 129 = 17 ( mod 112 ) ; 71 with exp 2 99 with exp 4 17 with exp 6 generate the 48 numbers prime to 112 .
+The following table gives the indices corresponding to any number Numbers 1 .
+3 .
+5 .
+9 .
+11 .
+13 .
+15 .
+17 .
+19 .
+23 .
+25 .
+27 .
+29 .
+31 .
+33 .
+37 .
+39 .
+41 .
+43 .
+45 .
+47 .
+51 .
+53 .
+55 .
+57 .
+59 .
+Ind. of 17 0 1 5 2 4 3 0 1 5 2 4 3 0 1 5 2 4 3 0 1 5 2 4 3 0 1 lnd .
+of 99 0 1 1 2 3 3 2 0 1 0 2 3 3 2 0 1 0 2 3 3 2 1 1 0 2 3 Ind. of 71 0 0 1 0 0 1 1 0 0 1 0 0 1 1 0 1 1 0 0 1 1 0 1 1 0 0 Numbers 61 .
+65 .
+67 .
+69 .
+71 .
+73 .
+75 .
+79 .
+81 .
+83 .
+85 .
+87 .
+89 .
+93 .
+95 .
+97 .
+99 .
+101 .
+103 .
+107 .
+109 .
+111 Ind. of 17 2 4 3 0 1 5 2 4 3 0 1 5 2 4 3 0 1 5 2 4 3 Ind. of 99 3 0 1 1 0 2 3 2 0 1 1 0 2 3 2 0 1 1 0 3 3 2 Ind. of 71 1 0 0 1 1 0 0 1 0 0 1 1 0 1 1 0 0 1 1 0 1 1 We proceed now to the point we have been approaching from the beginning , viz. , the investigation of the mode of formation of and the relations among the most general set of numbers capable of generating the \lt ; f\gt ; numbers ( modulus m ) which are prime to the modulus m , FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+( 25 .
+) Suppose Gj , G2 , G3 , . . .
+with exponents tx , t2 , . .
+are capable of acting as complete generators of the \lt ; j\gt ; ( m ) numbers .
+Then ( i. ) fit . . .
+= and ( ii .
+) the generators must be independent .
+Since the numbers G generate the complete set of numbers they can generate in particular the numbers which have a power of a prime ( which is a factor of ( f\gt ; ( m ) ) as exponent .
+Suppose the highest powers of p which occur in tlt are ps % . . .
+respectively .
+Say h \#151 ; ph t2 = p*t'2 , \gt ; \amp ; c. Then we can express the numbers G thus ( Proposition 10):\#151 ; G1 = gjbx(mod m ) , G2 = g2h2 ( mod m ) , \amp ; c. , when g\#177 ; has exponent ph and hx has exponent t\ , \amp ; c. Suppose now that G^G^Gg* ... is congruent to a number with a power of p as exponent , and so ( 9\'92* . . .
+) . . .
+) , , \#187 ; \gt ; \gt ; ** glt and therefore g{1 , has a power of p as exponent ( Proposition 4 ) , and so for g2ta , \amp ; c. Therefore g^g2* . . .
+has a power of pas exponent .
+The exponent of hlt and therefore of h^1 , is prime to p , and so for h2** , . . .
+\amp ; c. Therefore the exponent of h^lh2* . . .
+which divides the L.C.M. of the exponents of hi\ h2\ ... is prime to p. Therefore the exponent of fyiVs* . . .
+) . . .
+) is f^e L.G.M. of a power of p and of a number ( the exponent of hilh2a . . .
+) prime top .
+Now the exponent is to be a power of p. Hence the exponent of h{xh2 % . . .
+must be unity .
+Therefore hfhj* . . .
+= 1 ( mod Now we can show that this cannot be unless h^1 = 1 , h2ia = 1 , . . .
+( mod m ) .
+For if not suppose that at least ^ 0 ( modulus t'^ ) .
+Then . . .
+= ( mod m ) , h^ . . .
+EE hi'1 ~** ( mod m ) .
+Let I2 EE t2 ( mod t'2 ) and the same for I3 , \amp ; c. : and EE 0 ( mod ph ) , so that J2 \lt ; t2 93h = V ' = V* then j\#187 ; ( mod m ) I2 EE \#151 ; %i(mod t\ ) 0 ( mod^ ?
+*1 ) , so that Ix \lt ; tL gi1 EE 1 ( mod m ) h^1 EE hi1"*1 ( mod m ) , G2IaG3Is . . .
+EE G^1 ( mod m ) , where li ^ 0 ( mod which is contrary to the supposition that the generators G are , and that therefore no two numbers of the txt2 . . .
+that they generate shall be congruent .
+Therefore we must have EE 0 ( mod t\ ) , h = 0 ( mod See .
+and so h^1 = 1 ( mod m ) , h2%EE 1 ( mod m ) , \amp ; c. and so Gf1 EE g-i1 ( mod m ) , \amp ; c. We have shown , then , that when a product of powers of the generators G , Gf'G^ ... is congruent to a number with a power of a prime p as exponent , then each factor , Gf1 , G2ia , . . .
+must have a power of p for its exponent .
+Thus , of the factors of the product to which Gx is congruent , each factor having a principal factor of txas exponent ( Proposition 10 ) , only one factory ( viz. , that which has , as exponent , a power of p ) is effective in any power of Gx which can be used to form a FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+number with exponent a power of p , the product of the remaining factors hx being necessarily raised to such a power ixthat h^1 \#151 ; 1 ( mod ) .
+( It will be convenient to call the numbers which have a power of p as exponent , the " p-power-exponent numbers " ) .
+Suppose then that we take the generators G , and express each as a product in the manner of Proposition 10 .
+Then take from each the factor ( if any ) which has a power of the prime p as exponent .
+Then , since the numbers G can generate all the numbers , modulus m , which have a power of p as exponent , and , since in the number G the factor g is alone effective in so doing , it follows that the set of numbers g generate completely the p-power-exponent numbers .
+If we take from each generator G the factor which has a power of any other prime q as exponent , we obtain a set of numbers g ' , which generate the ^-power-exponent numbers , and so on for each prime which divides \lt ; f\gt ; ( m ) .
+We see now , that any set of complete independent generators , G , must be formed from these special sets of generators ; the formation of each G being effected by taking one number ( which may be unity ) from each set and forming their product .
+In order to obtain the most general set of generators , G , we have now only to obtain the most general method of producing each of these subsidiary sets of generators .
+We may then combine them as products ( one from each set ) in any manner we please .
+( 26 .
+) Suppose that 1^ , r2 , . . .
+independent generators , generate completely the p-power-exponent numbers .
+The exponent of each number , T , must be some power of p. Let them be pn\ p % , . . .
+respectively .
+One condition that the numbers , T , must satisfy is that the number of numbers they generate , which belong to any power of p , ps as exponent , should agree with the number already found .
+( Proposition 23 .
+) Consider any number generated a == iyry* . . .
+( mod m ) .
+Since rl5 r2 , . . .
+are independent generators , therefore the exponent of a is the greatest of the separate exponents of Ff1 , r2S . . .
+( Proposition 8 .
+Corollary ) .
+Now V1 has exponent pWl , therefore of the numbers of the form iy* , there are pWl with exponent a power of p p"1 , P"1"1 " \#187 ; \#187 ; \gt ; Pni~\ \amp ; c. , and similarly for each of the others , r2 , r3 . . . .
+Hence the number of numbers of the form a which have , as exponent , a power of p p* , is p(Sw)* ( using the notation of Proposition 23 ) .
+226 MR. Gt .
+T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS Hence the number of numbers , with exponent p* generated by the numbers r , is and , therefore , we must have sp(%7i)$ mmmmm ] \#151 ; \#151 ; .
+mmmm for all values of s from 1 up to the greatest of the values of the numbers l. Hence we get ( ^)i = ( 2Qi\#187 ; ( ^n)2 = ( Xl)2 , ( Xn)s = ( 2l)s , \amp ; c. The first of these equations shows that the number of numbers l is the same as that of the numbers n. m The second then shows that , of each set , the number of numbers which exceed 1 is the same .
+The third then shows that , of each set , the number of numbers which exceed 2 is the same .
+And so on .
+Hence the two sets of numbers llt l2 , . . .
+and ... identical ( in some order ) term for term .
+We have , therefore , shown that the most general set of p-power-exponent generators must have as exponents the powers of p , pl\ pb9 . . .
+, which occur , one each , as a principal factor of \lt ; j\gt ; ( P^1 ) , \lt ; /\gt ; ( P2** ) . . .
+When p = 2 we have the special case of the 2-power-exponent generators .
+First suppose k \gt ; 1 , then 2(2\lt ; \#163 ; )o .
++1_2(2*)o- - i +1 = __2(Sw)\lt ; r -1 , and so " h 1 := : ( ^/ c)2 + 1 = \amp ; c. Hence the set of numbers n are identical with the set k together with unity : and so the exponents of the 2-power-exponent generators are 2 .
+2* ' .
+2K\ . . .
+Secondly , suppose k = 2 , then k = 0 , and the exponents of the generators are 2 .
+2*1 .
+2K\ . . .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Lastly , when k = 0 or 1 , we have and therefore 2(2*V____ -1 = 2(2w)\#187 ; _______2(2n)* -1 ( 2*)i = ( 2ic)a = ( S\#187 ; )2 , \amp ; c. , and so the numbers n are identical with the numbers k. Hence the exponents of the 2-power-exponent generators are 2 % 2** , 2** . . .
+We can now see the least possible number of numbers G that can generate the complete set of ( f\gt ; ( m ) numbers .
+Since each number G contains not more than one generator from each of the subsidiary sets of generators as a factor , it follows that there cannot be less generators G than the number of generators in that subsidiary set which contains most .
+Now , since ^(PxAl ) = PXl_l(P1 \#151 ; 1 ) , and Px is odd , therefore Px \#151 ; 1 is even .
+Hence kx = 1 at least .
+Therefore of the generators of the 2-power-exponent numbers there are at least as many as there are odd principal factors PxXl , P2X* , . . .
+, in m : and so the number of 2-power-exponent generators is never less than the number of generators in any other subsidiary set .
+Therefore when m = PjXl , . .
+.** ' or \gt ; the least number of generators G is the number of primes Px , when m \#151 ; 22.P1Xl , . . .
+the least number of generators G is the number of primes P1 ?
++ 1 , and when m \#151 ; 2* ' + 2P1Xl , . . .
+the least number of generators G is the number of primes Px , + 2 .
+( 27 .
+) We shall next form a set of ^)-power-exponent generators of a particular kind , similar to the complete generators of Proposition ( 24 ) .
+Let a be any p-power-exponent number a = a0f0 -f + a2f2 + . . .
+( mod m ) .
+Then we must have a0 EE 1 ( mod 2* ) with exp a power of ( or unity ) mod PxAl \#171 ; 2 \#187 ; P( ) mod P*** \amp ; C. Let yl be a number with exp plx mod PxAl y2 \#187 ; \#187 ; Ph mod P./ 2 , \amp ; c. , ( if in any case p is not a factor of \lt ; j\gt ; ( PA ) y is =1 ) .
+Then we may put = y^x ( mod PxAl ) a2 = yt ( mod P/ 2 ) , \amp ; c. , and therefore a = f0 + yf1^ + y2**f2 + . . .
+( mod m ) = ( fo + \#163 ; i + * * .
+) { So + 7i\amp ; + . .
+-Y1 ( fo + \#163 ; i + 72^ + . .
+-)'2 . . .
+( mod m ) = . . .
+( mod m ) .
+The first factor and each of the following in which the is = 1 is = 1 ( mod m ) .
+The number of factors remaining is the number of the principal factors PA which have a power of pas a factor of \lt ; f\gt ; ( PA ) .
+These factors generate the ^-power-exponent numbers : corresponding to each set of indices i is one of the numbers a and vice versed .
+These generators are only a very special kind of ^-power-exponent generators inasmuch as each is congruent to unity for each but one of the principal factors of m as modulus .
+They will be called unitary generators and will be useful for the discussion of the more general type .
+In the case when p \#151 ; 2 , let / be EE 2* - 1 or 2*_1\#151 ; 1 ( mod 2* ) y0 have exp 2K~2 ( mod 2* ) ( if k = 2 , f does not occur ; if k = 0 or 1 , neither g nor f ) , yx have exp 2*1 ( mod P/ 1 ) 72 \#187 ; 2'2 ( mod P3a ' ) , \amp ; c. , FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+and thus a = ( / ft + ft + . . .
+) ' ( Toft + ft + . .
+-)''(ft + Tift + . .
+-)'1 . . .
+( mod ra ) , and all the factors in this product ( omitting those whose is = 1 ) form a complete set of 2-power-exponent generators .
+Thus , in either case , when p is an odd prime or is equal to 2 we can form a set of p-power-exponent generators ( having the exponents found to be necessary in Proposition 26 ) , such that each is congruent to unity for all but one of the principal factors of m. Example .
+\#151 ; Let m= 308 = 23 .
+7 .
+11 .
+4b ( m ) = ( 2 ) .
+( 2 .
+3 ) ( 2 .
+5 ) .
+The highest exponent is 30 .
+There are 7 numbers with exp 2 " ] and j\gt ; ( Example Proposition 26 .
+) 1 " 1J We will form unitary generators of these eight numbers .
+Since 2 enters only in the square into m , f is not needed .
+We must take y0 = 3 ( with exp 2 mod 23 ) , yx = 6 ( with exp 2 mod 7 ) , y^ = 10 ( with exp 2 mod 11 ) .
+ft = 77 , ft = 176 , L = 56 .
+Thus \lt ; 70 = ( 3 \#151 ; 1 ) 77 + 1 = 155 ( mod 308 ) gx = ( 6 \#151 ; 1 ) 176 + 1 = 881 = 265 ( mod 308 ) = ( 10 \#151 ; 1 ) 56 + 1 = 505 = 197 ( mod 308 ) are a ( in this case the ) set of 2-power-exponent unitary generators .
+The numbers with exponent 2 are given as products of powers of these by the following table of indices .
+Numbers .
+197 .
+265 .
+155 .
+111 .
+43 .
+153 .
+307 .
+Index of 155 0 0 1 1 1 0 1 Index of 265 0 1 0 1 0 1 1 Index of 197 1 0 0 0 1 1 ] ( 28 .
+) In what follows we shall need the following lemma .
+Consider a{x + \amp ; i + + . . .
+= ( mod pa ) a2x + b + H- . . .
+== ( mod a8 x + b3y + c3z -f- . . .
+EE \amp ; 3 ( mod pa ) as many congruences as unknown quantities .
+What is necessary in order that the congruences may have one solution , for any assigned set of values of the k 's , and one only f Multiply the equations in order by the minors of the elements of the 1st column of the determinant We get al bl cY a2 ^2 C2 % ^3 C3 and add .
+otj Oj .
+kj bl Cj .
+X a2 ^2 C2 .
+\#151 ; ^2 ^2 C2 .
+a3 ^3 C3 ^3 ^3 C3 . .
+( mod pa ) .
+In order that this may have one solution , and one only , the determinant oq cx .
+a2 b2 c2 .
+a3 ^3 C3 must be prime to pa , and , therefore , prime to p. This being so , then to each set of values of the s corresponds a single set of values of x , y , z. . . .
+( 29 .
+) We have now to find the most general type of a set of y\gt ; -power-exponent generators .
+( The work is in no respect different in the case when p = 2 .
+) Let the exponents necessary for a set of generators be pl\ pl\ . . .
+pl* as determined by Proposition ( 26 ) .
+Let g1 with exp .
+plx " ] }\gt ; be a set of unitary generators* ( Proposition 27 .
+) \amp ; Suppose that r1 ; r2 , . . .
+are the most general set of \#163 ; \gt ; -power-exponent generators .
+We know already ( Proposition 27 ) that their exponents are pl\ . . .
+and we may suppose them to be so in this order .
+Since each number Y is itself a p-power-exponent number , each is expressible as a product of powers of the \lt ; /s .
+Let Ti=9iu92^9i31 . . ?
+9j*1 ( mod m ) r2=^i^2^3^ . . .
+^V2 ( mod m ) ^ . .
+( mod J { Note.\#151 ; v , \#171 ; , is the index of gr in the value of Ys .
+) Since the exponent of Yl is p\ it follows that ph is the least multiplier that makes i%iPh = 0 ( mod ph ) , %iPh = 0 ( mod p1* ) , \amp ; c. , ( Proposition 8 , Corollary ) , and similarly for pl\ \amp ; c. We may insert here a lemma , which will be useful presently .
+Lemma.\#151 ; If lr \gt ; ls , then irt is divisible by p. irs is the index of gr in the product Ps , r , = . . .
+grin . . .
+( mod m ) .
+Hence ( Proposition 8 , Corollary ) the exponent of Ys is exponent of grirs .
+Suppose , if possible , that irs can be prime to p. Then the exponent of grin is plr ( Proposition 4 ) .
+Now the exponent of Ys is pl ' , therefore pU ^ plr^ therefore Is H ' which is contrary to the supposition ls \lt ; ln and therefore cannot be prime to p. Hence , if lr \gt ; l " , then irtis divisible by p. Take any one whatever of thep-power-exponent numbers , gfgi* . . .
+g^ ( modulus m ) .
+Then , since the numbers Y are also generators of these numbers ( the p-power-exponent numbers ) , the numbers gfgf . . .
+gf* ( modulus m ) must be expressible in the form . . .
+Tf* ( modulus m ) in one way , and one way only .
+Therefore gfgf . . .
+= . . .
+r/ M ( mod m ) must lead to one value of ( mod " " ( mod ph ) , \amp ; c. Substituting the values of the T 's in terms of the gs , ( gY'gt. .
+\#166 ; g^'Y'\#166 ; \#166 ; \#166 ; gY'Y \#166 ; . .
+( g\amp ; \#166 ; \#166 ; \#166 ; \#166 ; \#166 ; s'/ " ( mod m ) , 0^11^1 + h2x2 + . .
+* + hfl xp .
+9 g^2lxl + ^22^2 + . . .
+**fji Xfl # g V1 Xl \#166 ; * " ... Um XP ' . . .
+$(mod 771^ Therefore ( Proposition 7 ) it follows that hi\#174 ; i + *ii\#174 ; 8 + . . .
++ V*\gt ; = T* ( mod Ph)\gt ; hixi + V2 + . . .
++ = 12 ( mod p*2 ) , V\#171 ; i + V** + . . .
++ V*V = ^ ( modj\gt ; V ) , and we need that these shall have one set of values of xx ( modulus pll ) } x % ( modulus p1* ) , \amp ; c. , . . .
+and only one .
+This being so the numbers T will generate completely the jo-power-exponent numbers .
+We ma , y suppose that the moduli ph , pli . . .
+are in ascending order of magnitude , so that l , \lt ; la +1 .
+Suppose that *i \#151 ; \#151 ; ... \#151 ; la\lt ; la+ i \#151 ; Za+2 \#151 ; ... \#151 ; lb+i \#151 ; 2 \#151 ; . . .
+\#151 ; c ... .
+\#151 ; l " Any one of the unknowns xt is to be found with regard to mod pl\ We can write xs in the form %* = is + isaPL + isbPh + isePU + . . .
+( mod pl , )\gt ; where is \lt ; pla isa \lt ; P^ isb \lt ; ph~l\ \amp ; c. This substitution gives in particular , x1 = ( mod ) .
+x2 = i2 ( mod pla ) . . . .
+ooa = ( mod p/ # ) .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Xa+1 = L+l + ia+haPU ( mod Xa+2 = L+2 + L+2.aPla ( mod ph ) .
+xb = \#163 ; b + \#163 ; bapL ( mod ph ) .
+xb+1 = \amp ; +1 + \#163 ; b+Mpla -f f6+1.6 ph ( mod^ ) .
+Xb+2 = " b+ 2 + ib+2.aPla + " b+2.bPh xc = \#163 ; + ( mod j/ ) .
+\amp ; c. \amp ; c. First replace each modulus which exceeds by ph , and substitute the assumed values of the as 's .
+We get the p , congruences hi^i " h hg^a . . .
+" h \#151 ; Ii ( mod ph ) , h\amp ; + %6s + . . .
++ V^ = I2 ( mod / /- ) , * ... ... .
+... ... Vifi + *\gt ; 2 ?
+2 + .
+- .
++ = I , * ( mod and we need that these shall determine a single set of values for \#163 ; lt f3 , . . .
+( mod jp/ a ) .
+The necessary and sufficient condition is that the determinant ( hi , %\gt ; h3\gt ; * . .
+Um ) should be prime to p ( Proposition 28 ) .
+Suppose that this is so , and that the numbers ^ are determined .
+When these values are substituted above , suppose that the values of the left-hand sides are Ij\#151 ; phT l9 I2\#151 ; pu I'3 , \amp ; c. . . .
+( where the negative signs are written for convenience in what follows , and I\ , F3 , . . .
+are therefore negative ) .
+Next replace each modulus which exceeds ph by pl\ and substitute the assumed values of the sc 's .
+The first a congruences are already satisfied .
+The rest give I\#171 ; +l P 1 a+l " t " P ( h+l.o+1 ^a+l.a " 1 " h+l.a+2 \#163 ; a+2"1 " . . .
+H"* h+l./ u. \#163 ; na ) == Ia+1 ( modj ?
+) .
+I\#171 ; +2 Pla F\#171 ; +2 + PL ( h+2.a+l fa+l.a + h+2.a+2 fa+2.a + . . .
++ h+2./ * Spa ) = ^a+2 ( mod ph ) .
+\ ~ PL I 'm + PU ( V\#171 ; +1 + Va+2 Sa+2.a + . . .
+V = h ( mod p1 ' ) .
+Therefore ^a+l.a+1 \#163 ; a+ l.a I ^a + l.a+2 \#163 ; a+2.a I . . .
+I ^a+l./ u. ^\gt ; p.a \#151 ; \#151 ; I a+1 ( mod ) W.\#171 ; +l-fa+l.\#171 ; + *\#171 ; +2.a+2 fa+2.a + . .
+* + \#163 ; *\#171 ; = I'\#171 ; +2 ( mod p**~* ' ) ^u..a+l ^a+l.a " + ^.0+2* ^ct+2.a + " . .
+* ^iu/ k , == 1/ a ( lUOd ) , and we need that these shall determine a single set of values of f\#171 ; +l.e , L+2.a , ( m 'd The necessary and sufficient condition is that the determinant ( ^a+l , a+l\gt ; ^a+2 , a+2j . . .
+^a/ u ) should be prime to p. Suppose that this is so , and the numbers \#163 ; a+i , a\gt ; \#163 ; *+2.a\gt ; . . .
+are determined : and suppose that when substituted above the values of the left-hand sides become r , _ v\gt ; h-laV ' , Next replace each modulus that exceeds plc by plc , and substitute again the values of x. The first b congruences are now satisfied .
+The rest give ( Ift+i ~ I'\amp ; +i Pla ) + ( Ir6+i \#151 ; I"\amp ; +i Phla)pla + Ph ( ^6+1.6+1 db+iA + ^ =lb+l ( mod ( Ift+2 \#151 ; I'b+2Pla ) + ( I'b+2 \#151 ; I"b+2Plh~la)pla + Ph(h+2.b+lfft+1.6 + . . .
+V** , \amp ; \amp ; ) =l6+2(mody* ) ( I/ x \#151 ; + ( 1/ x \#151 ; I " nPhla ) H " JPfc(V6+1 f\amp ; +i.\amp ; + . . .
+V/ x \amp ; ) = I/ x ( mod p*0 ) .
+Therefore 4+1.6+1 fel 6+1.6 V.6 + 1 6+1.6 + ^6+1.6+2 ^6+2.6 + . . .
++ %+l.M \#163 ; /*6 = ^ 6+1 ( mod ) + V.6+2 \#163 ; +2.6 + . . .
+V ^6 = ( m0d_p* ' A ) , and we need that these shall determine a single set of values of ^6+l.5\#187 ; ^6+2,6\#187 ; . . .
+^*6 ( mod lb ) .
+The necessary and sufficient condition for this is that the determinant ( ^6+1.\amp ; + 1\gt ; ^6+2,6'+2\gt ; .
+* .
+Vft ) should be prime to p. FOR ANT COMPOSITE MODULUS , REAL OR COMPLEX .
+These successive steps are to be continued until all the quantities f are determined .
+They , and therefore the numbers x will be determined uniquely , provided that the conditions that ( hi . . .
+v ) ( ^a+1 ^a+1 ) . . .
+( ^6+1 , 6+1 ) . . .
+\amp ; C. , * shall all be prime to p , are satisfied .
+When these conditions are satisfied the generators T generate the complete set of n-power-exponent numbers .
+( 30 .
+) We have not yet seen whether the conditions just found are independent or not .
+We shall find that the first condition ( tu , % , . . .
+i^ ) includes all the others ; it may , however , be replaced by others of a similar kind , but practically simpler .
+Let us write down the complete determinant and divide it into squares and rectangles thus :\#151 ; hi hi . .
+^la-1 ha ha+-l hb hi hi * .
+h. a\#151 ; 1 ha ?
+\amp ; c. h\#151 ; 1 .
+1 h-1.2 ' . .
+^a\#151 ; 1 .
+a\#151 ; 1 h\#151 ; 1 .
+a hi hi . .
+^a .
+a\#151 ; 1 ^aa ha+1 hb h+ 1.1 . . .
+^a+1 .
+a ^a+1 .
+a+1 h+ 1 .
+6 hi . . .
+^ba ^6a+l hb \amp ; c. For reference , we may name these squares and rectangles , thus :\#151 ; ( aa ) ( ah ) ( ac ) ( ba ) ( 66 ) ( 6c ) ( ca ) ( c6 ) ( cc ) \amp ; c. 2 h 2 The lemma proved in the course of the last proposition ( that if lr \gt ; la , then irs is divisible by p ) , shows that every element which is found to the left and below the determinants ( aa ) , ( bb ) , ( cc ) ... is divisible by p , i.e. , every element in ( ba ) ( ca ) ( cb ) ( da ) ( db ) ( dc ) wiim is divisible by p. \amp ; c. } The complete determinant ( in , . . .
+ij ) can be expressed as the sum of products of pairs of complementary determinants , one of these in each such product being the determinant formed by any a rows taken from ( aa ) , ( ba ) , ( ca ) . . .
+Now , any row taken from ( ba ) , ( ca ) , . . .
+has every element divisible by Hence , the only determinant formed by a rows taken from ( aa ) , ( ba ) , ( ca ) , . . .
+which is not immediately divisible by p , is the determinant ( aa ) = ( in , . . .
+iaa ) .
+Hence * * .
+Um ) =(%\gt ; .
+* * ^aa ) +1 .
+a + 1 . . .
+Um ) ( m 'd Therefore , if ( tu . . .
+i^)is prime to p , then ( iu , . . .
+ij ) and ( ia + i.a + i , . . .
+v ) are both prime to p ( and vice versed ) .
+Again , take the determinant ( ia + ha + i , . . .
+i^ ) , ( bb ) ( be ) ( cb ) ( cc ) \amp ; c. This can be expressed as a sum of products of determinants in the same way : one determinant in each product being formed by ( b \#151 ; a ) rows taken from ( bb ) , ( cb ) . . .
+Of these , only ( bb ) is not immediately divisible by p. FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Therefore ( 4+1.\lt ; i + l\gt ; . . .
+\#151 ; ( 4 + 1 .
+a + 1\gt ; . . .
+) ( ^6 + 1 .
+6+l\#187 ; . . .
+fie .f .
+) ( mod j ?
+) , and , since ( 4+i.\#171 ; +i\gt ; . . .
+w ) is prime to therefore ( 4+i.\#171 ; + i\gt ; . . .
+hb ) and ( 4+n+i , . . .
+v ) are both prime to^\gt ; , and so on .
+Hence , as stated above , the single condition ( tn , . . .
+i^ ) prime to p , includes all the other conditions found necessary in Proposition ( 29 ) , and is therefore a necessary and sufficient condition that the numbers T ( having the proper set of exponents ) may completely generate the p-power-exponent numbers .
+Also , this single condition may be replaced ( with much advantage practically ) by the equivalent set of conditions\#151 ; ( 4l\gt ; .
+* .
+4a ) ( ^a+l\gt ; 4+1 ) . . .
+^ ) ( 4+1 ) 4+1 f. . .
+4c ) \amp ; C. )\gt ; all prime to p. j ( 31 .
+) We have now a complete series of methods for ascertaining whether a given set of numbers G can act as generators of the complete system of \lt ; j ) ( m ) numbers ( modulus m ) .
+( 1 .
+) Find the exponent to which each belongs .
+( Proposition 17 .
+) ( 2 .
+) The principal factors of these exponents must be the numbers found in Proposition ( 26 ) .
+( 3 .
+) Express each number G as a product of numbers with principal factors of exponent of G as exponents .
+( Proposition 10 .
+) ( 4 .
+) Express each of these last as a product of powers of unitary generators , and thus get for each a set of indices .
+( 5 .
+) Apply the series of conditions of Proposition ( 30 ) .
+If ( 2 ) and ( 5 ) are both satisfied then the numbers G are complete generators .
+Conversely to form any set of generators\#151 ; ( 1 .
+) For each prime pin ( j\gt ; ( m ) form a set of unitary generators .
+( 2 .
+) Form from these any set of jp-power-exponent generators satisfying the conditions of Proposition 30 .
+( 3 .
+) Multiply together one generator from each of the sets just formed .
+Examples .
+Let us form a set of generators for mod 308 = 23 .
+7 .
+11 .
+m = 22 .
+7 .
+11 .
+4\gt ; ( 7 ) = 2 .
+3 .
+\lt ; f\gt ; ( 11 ) = 2 .
+5 .
+The principal factors of the exponents of the generators are 2 .
+2 .
+2 .
+3 .
+5 .
+We form first the numbers with exponent 2 to generate the 2-exponent numbers .
+These numbers expressed in terms of the unitary generators , 155 , 265 , 197 , are given by No. Ind. of 155 .
+Ind. of 265 .
+Ind. of 197 .
+197 .
+0 .
+0 .
+1 .
+265 .
+0 .
+1 .
+0 .
+155 .
+1 .
+0 .
+0 .
+111 .
+1 .
+1 .
+0 .
+43 .
+1 .
+0 .
+1 .
+153 .
+0 .
+1 .
+1 .
+307 .
+1 .
+1 .
+1 .
+Of these ( by Proposition 30 ) we can take any three such that the determinant formed by their indices is prime to 2 , i.e. , odd .
+For example , 10 1 Oil ill and so 43 , 153 , 307 may be taken as generators .
+Secondly we need a number with exponent 3 .
+Of these there are two , 177 and 221 .
+Let us take 177 .
+Lastly we need a. number with exponent 5 .
+Of these there are four , 113 , 141 , 169 , 225 .
+Let us take 113 .
+We have now 43 , 153 , 307 , independent generators with exponent 2 , 177 with exp 3 , 113 " " 5 .
+These we may combine in any manner we please as products , taking only one from each set in each product .
+Let us take 43 .
+177 .
+113 = 107 ( mod 308 ) with exponent 30 .
+We have thus obtained three generators 107 with exp 30 " 153 , , 307 , , which generate the complete set of \lt ; \#163 ; ( 308 ) numbers .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Conversely , we can verify that 107 .
+153 .
+307 are complete generators .
+First we find that 107 has exp 30 " 153 " " 307 " , , and so the exponents have the necessary principal factors .
+where 107 = 10715 .
+10710 .
+1076 ( mod 308 ) , = 43 .
+177 .
+113 ( mod 308 ) , 43 has exp 2 177 " 113 " We only need to show that 43 , 153 , 307 are independent ; and since the indices of these when referred to the unitary generators are 43 , 1 0 1 153 , Oil 307 , 111 and the determinant is prime to 2 , we see that the generators 43 .
+153 .
+307 are independent .
+Let us form generators for modulus 999 = 33 .
+37 .
+m = 33 .
+37 , \lt ; f\gt ; ( m ) = ( 3* .
+2 ) ( 32 .
+22 ) .
+The principal factors of the exponents of the generators are 2 .
+22 .
+32 .
+32 .
+If a = ax ( mod 33 ) , = a3 ( mod 37 ) , a = + a2^3 ( mod 33 .
+37 ) .
+37^ EE 1 ( mod 33 ) 27= 1 ( mod 37 ) 10# !
+= 1 ( mod 27 ) #2 EE : 11 ( mod 37 ) 19 ( mod 33 ) EE 297 ( mod 999 ) \amp ; = 37 .
+19 = 703 ( mod 999 ) and , therefore , a = 703aj + 297aa ( mod 999 ) .
+We want first any number with exponent 2 .
+Suppose we take = 26 and a2 = 36 each with exponent 2 ( for moduli 33 and 37 respectively ) .
+Then we get a = 703 .
+26 -f 297 .
+36 ( mod 999 ) EE 998 ( mod 999 ) with exp 2 .
+We want next a number with exponent 4 .
+Suppose we take and aj = 1 a2 = 6 ( with exp 4 , mod 37 ) .
+Then we get a = 703 + 297 .
+6 ( mod 999 ) EE 487 ( mod 999 ) with exp 4 .
+Lastly , we want two independent generators with exponent 33 .
+We first form unitary generators with exponents 32 aj = 4 a2 = 1 gives 112 with exp 33 , and aL = 1 a2 = 12 gives 271 with exp 32 .
+We may take for our 3-power-exponent generators any two numbers of the form 112*1 271*2 , 112*'1 271*7* , provided that Suppose we take it i ^2 .
+1 is prime to 3 .
+I 1 1 1 2 1 1 1 11 I 2 1 I and then the generators are 112 .
+271 = 382 ( mod 999 ) and 1123 .
+271 = 826 ( mod 999 ) .
+Thus we have 998 with exp 2 , 487 with exp 4 , FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+and 382 and 826 with exp 33 .
+Hence we may form , say , 998 .
+826 = 173 ( mod 999 ) with exp 2 .
+33 .
+and Thus 487 .
+382 \#151 ; 220 ( mod 999 ) with exp 23 .
+33 , 173 with exp 181 220 with exp 36 | generate completely the 2s .
+34 numbers prime to 999 .
+Indices and Tables of Indices .
+( 32 .
+) Let GT G2 . . .
+GK be a complete set of independent generators for modulus Let their exponents be tlt t2i . . .
+tK .
+Then any number a prime to m is expressible in the form where a EE Gfl G22 . . .
+G\gt ; ( mod m ) , ^ ^ ^ \amp ; c. We may thus make a table giving the set of indices iv i2 , . . .
+which correspond to any number a , and conversely the number a which corresponds to any set of indices .
+We may conveniently write a \#151 ; { i\j i. . .
+iK)\gt ; and then if d \#151 ; ( y 2\gt ; . . .
+^ k ) we shall have aa = ( ix + i\\gt ; + i'2 ) . . .
+iK + i'K ) and ds = ( i^y i2s , . . .
+iKs ) .
+With tables of this kind for every modulus we can at once solve any congruence of the form axn EE b ( mod m ) whatever m may be , if a and b are both prime to m. For suppose that a = ( \#187 ; 'j 4 b = ( i\i\. .
+, ) x = ( Ij .
+I2 , . . .
+) 242 MR. G. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS Then we must have + wli E= ( mod \#163 ; j ) h + nl2 = i'2 ( mod t2 ) , See .
+The G.C.M. of n and tlmust divide i\ \#151 ; \amp ; c. , in order that the congruences may be soluble .
+These being so we find Ilf I2 , . . .
+by reference to tables with moduli . .
+.which are ( or may be ) composite numbers .
+If v1 is the G.C.M. of n and tlf Ix will have p1 values mod tlf v2 ^ and t2i I3 ) ) ^2 \gt ; 1 \amp ; e. Hence , by reference again to the table for modulus m , we obtain at once the Vj , v2 , vz . . .
+numbers which satisfy the congruence = b ( mod m ) .
+Let us now solve the same congruence with the help only of tables of indices for powers of primes as moduli .
+If a0 is a solution of the congruence axn = b ( mod 2* ) , aj , , " " axn = b ( mod P^1 ) , then \amp ; c. , x = a0f0 + + a2f3 . . .
+( mod m ) is a solution of the congruence = b ( mod m ) .
+Hence the solution is conducted as follows :\#151 ; By means of the tables of indices find * all the values a0 which satisfy axn EE b ( mod 2K ) , \gt ; t \gt ; t )\gt ; a ( mod Pj* ) , \amp ; e. Next find the values of the f 's , Proposition ( 19 ) , each being found by the tables , lastly the values of x which satisfy axn EE b ( mod m ) must each be calculated separately by giving to each of a0 , av . . .
+one of its possible values .
+In the case of a multiple solution the labour involved in this last step may be very FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+243 great ; and consequently the saving of labour effected by the use of tables of indices for composite moduli proportionately so .
+As an example of the use of tables of indices for composite moduli let us use the table given in the example to Proposition ( 24 ) .
+Solve 9x5 = 53 ( mod 112 ) .
+53 = ( 4 .
+1 .
+1 .
+) ( written in this order the indices are referred to moduli 6 .
+4 .
+2 ) , and , therefore , If , then , and , therefore , 9 = ( 2 .
+2 .
+0 ) , x5 = ( 2 .
+3 .
+1 ) .
+x == ( a. 6 .
+c ) sc5 == ( 5a .
+5b .
+5c ) , 5a = 2 ( mod 6 ) , and , therefore , = 4 , 56 = 3 ( mod 4 ) , and , therefore , 6 = 3 , 5c == 1 ( mod 2 ) , and , therefore , c = 1 , therefore Solve therefore therefore , if x = ( 4 .
+3 .
+1 ) , x = 109 ( mod 112 ) .
+47x2 EE 55 ( mod 112 ) .
+55 = ( 3 .
+0.1 ) , 2 = ( 4 .
+2 .
+0 ) , x = ( a. 6 .
+c ) 2a EE 4 ( mod 6 ) , 26 EE 2 ( mod 4 ) , aee 2 ( mod 3 ) , 6 = 1 ( mod 2 ) , a = 2 or 5 .
+6 = 1 or 3 .
+2c EE 0 ( mod 2 ) , c = 0 or 1 Hence there are eight solutions ( 2 1 0 ) = 51 ( 5 1 0 ) = 19 ( 2 1 1 ) = 37 ( 5 1 1)= 5 ( 2 3 0 ) = 107 ( 5 3 0 ) = 75 ( 2 3 1)= 93 ( 5 3 1 ) = 61 .
+2 i 2 ( 33 .
+) The last proposition shows how , by means of tables of indices for composite moduli , to solve ( when possible ) the congruence axn EE b ( mod m ) , where m is any composite modulus and a and b are both prime to m. To complete the question of the solution of the congruence for all cases we have now to show how it is solved when a and b are not both prime to I. First , if a is not prime to m , the congruence can be at once reduced to the case in which it is so ; for if a and m have G.C.M. then k must divide , and we have fa\ b ( , m\ , ( - ) xn =- mod \#151 ; , where now - is prime to \#151 ; .
+\k ) k \ k J k k Any one solution x of this gives ( mod m ) , viz. , k solutions of the original congruence axn == b X , X -j--- , K 2m , -----X + , . . .
+X + 1 K m K II .
+We have now , therefore , only to deal with the congruence of the form axn EE b ( mod m ) , in which a is prime to and b is not prime to m. Let ac be the G.C.M. of b and m , and express k as the product of its principal factors k = prpr\gt ; J . . .
+Since k divides b and m , it divides ax11 .
+Now a is prime to m , and therefore to k ; therefore k divides xn , i.e. , prpr ' . . .
+divides xn .
+Therefore x is divisible by pppp ' . . .
+where np \gt ; r , np ^ r\ \amp ; c. Take p to be equal to r/ n if r/ n is an integer .
+If r/ n is not an integer take p equal to the integer next greater .
+Put x = gppp , p\gt ; . . .
+, then the congruence xn b ( , m\ / .
+\ a\#151 ; =- mod\#151 ; ... ... ... ... pv KK \ gives a(pnp~rpnp , ~r ' ... )\#163 ; n = -(mod\#151 ; ) ... ... ... ... ... ... ... ..(ii)* K\gt ; \ / C / If np \#151 ; r 0 ( i.e. , if r[n is not an integer ) , then the coefficient of \#163 ; n in this congruence is divisible by a power of p , and therefore , if the congruence is possible , w/ k is not ( for then b/ \#171 ; would be also , whereas tti/ k and bj\lt ; are co-prime ) .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Thus pnp -r p'np ' - v# \gt ; # jg prime to m/ ic , and , therefore , since a and b/ x are also prime to m/ x , the congruence ( ii .
+) is soluble ( if possible ) by means of the tables giving the indices of numbers prime to the modulus .
+Each solution \#163 ; of the congruence ( ii .
+) gives a single solution . .
+( mod m ) of the congruence axn = 6.(mod m ) .
+Example.\#151 ; Solve 22a ?
+5 EE 54 ( mod 672 ) .
+The congruence is 2 .
+11 .
+a ?
+5 = 2 .
+33 ( mod 25 .
+3 .
+7 ) . . . . . . . .
+( i. ) Dividing by 2 we have 11 .
+a ?
+5=E33 ( mod 24 .
+3 .
+7 ) ... ... ... ... ... ... ... .(ii .
+) and any solution x of this gives the two solutions a ?
+, + 336 of the congruence ( i. ) .
+From ( ii .
+) we get , dividing by 3 , 11^ = 9 ( mod 24 .
+7 ) .
+In congruence ( ii .
+) let x = 3f .
+Then 11 .
+34 .
+\#163 ; 5 = 9 ( mod 24 .
+7 ) 11 .
+3s .
+\#163 ; 5 EE 1 ( mod 24 .
+7 ) .
+Now ( see table , p. 222 ) 11= ( 4 .
+3 .
+0 ) , 9 = ( 2 .
+2 .
+0 ) , therefore 9 .
+11 =(0 .
+1 .
+0 ) , therefore \#163 ; 6 = ( 0 .
+3 .
+0 ) , therefore f=(0 .
+3 .
+0 ) f = 43 ( mod 24 7 ) .
+Hence ( ii .
+) has the solution a ?
+EE 129 ( mod 336 ) , and therefore the solutions of ( i. ) are xEE 129 , 465 ( mod 672 ) .
+PART II.\#151 ; ON THE RESIDUES OF POWERS OF NUMBERS FOR ANY MODULUS , COMPOSITE AND COMPLEX .
+In order to maintain as far as possible the parallelism of Parts I. and II .
+a number of facts and relations peculiar to complex numbers are noted ( most without proof ) in the following Preface to Part II .
+Preface to Part II .
+Complex primes.\#151 ; i.e. , numbers either real or complex which have no real or complex factors .
+These are of two kinds ( i. ) Real primes of the form 4k + 3 ; 3 , 11 , 19 , . . .
+( ii .
+) The factors of real primes of the form 4k + 1 , which are expressible as the sum of two squares , e.g. , 1 + 2i,2 + i3 4- 2 2 + 3 Among the last we include the factors of the real prime 2 , viz. , 1 + i. These two kinds of prime we shall call respectively and mixed , speaking of either as a complex prime .
+By a real prime we shall mean the primes ordinarily so called , real numbers which have no real factors .
+To express any number as a product of its prime factors .
+Let a + hi be the number .
+Let d be the G.O.M. of a and b , and suppose that a + bi = d(a + dis a real number and can be expressed as a product of real primes .
+Of these , those that are not complex primes can be separated each into its two factors .
+All the factors of a3 + f\amp ; are themselves expressible as the sum of two squares .
+Say a3 + { \amp ; = ( oq3 + fif(a23 + / 323 ) . . .
+Then the prime factors of a + J3i are ai db a2 \#177 ; . . .
+where , in each pair , the sign must be so chosen that a + pi = ( oq + ipY ) ( oq + ifa ) ... Example .
+60 + 105* = 15 ( 4 + 15 = 3 .
+5 = 3(2 + i ) ( 2 \#151 ; 42 + 73 = 65 = 5 .
+13 = ( 23 + l3 ) ( 33 + 23 ) FOR ANT COMPOSITE MODULUS , REAL OR COMPLEX .
+and 4 4- 7* = ( 2 + ( 3 -f 2 therefore 60 -h 105i = 3 ( 2 - ( 2 + if ( 3 + 2 The number of incongruent residues for any modulus m. The number of incongruent residues ( including zero ) is the norm of the modulus .
+Thus if m = a + f\amp ; \#187 ; the number of incongruent residues modulus m is a3 4- / 33 .
+When the modulus is a pure number , m \#151 ; p , then the number of incongruent residues is p2 .
+Set of numbers all incongruent for modulus m. Let m = d(a + fii ) where a and ft are co-prime .
+Then the N ( m ) = d2(a3 j82 ) numbers x + , where x has any one of the values 0 , 1 , 2 , . . .
+d ( a3 + / 32 ) \#151 ; 1 , and y any one of the values 0 , 1 , 2 , 3 , ... \#151 ; i , are a complete set of N ( m ) incongruent residues for mod m. We have two special cases :\#151 ; ( i. ) If m = a + fii , the residues are 0 , 1 , 2 , ... a3 + yS3 \#151 ; 1 .
+( ii .
+) If m = d , the residues are the numbers x + iy , where x and y have each any one of the values 0 , 1 , 2 , ... d \#151 ; 1 .
+For most purposes the above set of residues are most convenient .
+It is sometimes , however , a saving of arithmetical labour ( in examples ) to make use of the " absolutely least residues , " i.e.9the set of residues whose norms are not greater than half the norm of the modulus .
+We may also make use of " least positive residues , " i.e. , the set of numbers whose norms are as small as possible consistently with each number having both its parts positive .
+In what follows we shall always use the above set of residues and we shall need an expeditious method for finding to which of them any given number is congruent .
+To reduce a number to its residue .
+Let X -f* iYbe the number whose residue we wish to find for mod ( a 4- fii)\#187 ; where a and ft are co-prime .
+We have to find x and y so that X 4-^Y = x4- iy ( mod a 4- / \amp ; ) , where OC ^ ( j[/ ( 1 \gt ; and both are positive numbers .
+V \lt ; dJ Let X 4- = ( x4 " iy)4- ( f 4- if ) ( a + ffy d. Then X = X + d ( a\#163 ; \#151 ; fir ) ) Y = y + d { fig + a The second equation gives y = Y ( mod d ) , which determines y. Then fi\#163 ; +*rj = ^l , a and fi are co-prime , and therefore we can find a ' and fi ' so that a \#151 ; afi and then _ _ \gt ; where X is some integer .
+Therefore , 7 ) = \#151 ; fi X = x + d -\/ 3 ( \#171 ; \#171 ; ' + fifi ' ) + X ( a2 + \#151 ; oj + ( Y \#151 ; y ) ( aa + -f- X .
+( a2 + fi2 ) , and therefore = x - ( Y -y ) ( aa + / 3/ 3 ' ) ( mod d .
+a2 + fi2 ) , which determines x. So x and y are given by y = Y ( mod d ) XEE X \#151 ; ( Y \#151 ; i/ ) ( aa ' -f- fifi ' ) ( mod .a2 -f- / ?2 ) where aa -f- / 3/ 3 ' is a constant depending on the modulus .
+Example .
+Mod 3 ( 3 -f 2 d \#151 ; 3 .
+a = 3 a'= \#151 ; 1 j8 = 2 p = -l \gt ; \#166 ; aa ' -f- $8 ' = \#151 ; 5 .
+The reducing formulae are y EE Y ( mod 3 ) a ; = X + 5 ( Y \#151 ; \#171 ; / ) ( mod 39 ) .
+Thus to find the residues of the successive powers of 1 + i :\#151 ; FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+1 + t 2 \#151 ; 2 + 2i = 37 + 2i 35 + 39 i = 35 35 + 35i = 5 + 2 i 3 + .
+7 % 33 + t 32 + 34i EE 2 + i 1+ Si =16 16 + 1 6i= 13 + 12 + 4 i = 33 + 2 31 + 3 5i = 1 + 2 i \#151 ; 1 + Si = 14 14 + 14i ' = 35 + 2 ( mod 9 + 6i ) 33 + S7i = 18 + 17 + 19^ = 29 + i 28 + 30i = 22 22 + 22 i = 10 + i 9 + lli= 15 + 2 13 + 1 7i = 10 + 2 8 + 12i = 29 29 + 2 9i = 8 + 2i 6 + 1(H ' = 12 + i 11 + 13 i= 32 + 31 + 33 i = 1 In the two special cases ( i. ) m = a + / 3i is determined by X + iY == x(mod a + and x x = X-Y ( \#171 ; * ' + / 3/ 3 ' ) ( mod a2 + \#163 ; * ) .
+( ii .
+) m = d X + iY = cc + iy ( mod d ) and x and y are given by X ( mod d ) , Y ( mod d ) .
+Number of residues prime to any modulus .
+Let the modulus be expressed as a product of powers of its prime factors m = pa(f . . .
+then of the N ( m ) residues , \lt ; E\gt ; ( m ) = [ N ( pa ) - N ( p-1 ) ] [ N ( qfi ) - N ( g*-1 ) ] . . .
+are prime to m. In particular for a pure prime p , \lt ; E\gt ; ( ^ ?
+) = p2 \#151 ; 1 and \lt ; E\gt ; ( p " ) = p2a \#151 ; p2a-2 ; and for a mixed prime , a + hi , \lt ; 1\gt ; [ a + bi ) \#151 ; a2 + 62 \#151 ; 1 and \lt ; \#163 ; + W)* = ( a3 + \#151 ; ( \lt ; x2 + 62)a_1 .
+This value \lt ; I\gt ; , when we are dealing with complex numbers , must be distinguished from the value \lt ; f\gt ; when we are concerned only with real numbers .
+To a mixed prime ( f\gt ; is inapplicable , and to a real it has the relations cf\gt ; = \#151 ; i } ( j ) ( pa ) \#151 ; pa \#151 ; pa~l .
+Any modulus may be multiplied by \#151 ; * 1 , i , or \#151 ; i , for if the .
+modulus is a factor of any number it remains a factor on being multiplied by \#151 ; 1 , or \#151 ; i. This enables us to change any modulus into one entirely positive :\#151 ; For \#151 ; a \#151 ; = \#151 ; 1 ( a + fii ) \#151 ; / 3 + ai = i(a + ft \#151 ; ai= f- fii ) Part II.\#151 ; Residues of Powers of Numbers for any Modulus , Composite and Complex .
+\#166 ; - .
+- ' ' ' \#166 ; ' \#166 ; ' I ( i. ) a being a number prime to m each term of the series of residues a , a2 , a3 , . . .
+( mod- m ) is one of the \lt ; I\gt ; ( m ) residues , which are prime to m. Hence , as in ( Proposition l ) , we see that , if t is the smallest integer for which a/ EE 1 ( mod m ) , the infinite series of residues consists of a repetition of t terms beginning from the first term .
+The number t is called the exponent of a for the modulus m. Example.\#151 ; The series of residues of the first twenty-four powers 01 the number 2 -f - i for the modulus 9 are FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+* 251 2 + a + 2 + 2 % 2 + 6i 7 + 5i 8 i 1 -f 7i 4 + 2 + 7i 6 + 7 % 5 -f- 2 8 7 + 8 6 -f " 7 + 7* 7 + 3 2 + 4i t 8 *4 " 5 3i 7 + 2* 3 -| " 2i 4 + 7t after which the set of twenty-four terms constantly repeats itself .
+( ii .
+) The proof is identical with 2 , that if a has exponent t mod m and a* = 1 , then t divides s. ( iii .
+) The proof of Fermat 's theorem a*(m)=.l ( mod is identical with that in ( 3 ) if for " the ( j\gt ; ( m ) numbers less than m and prime to it , " we substitute " the \lt ; i\gt ; ( m ) residues of m that are prime to it .
+" Hence the corollary , that the exponent of any number , modulus m , is a divisor of \lt ; E\gt ; ( m ) .
+Example.\#151 ; Mod 9 = 32 .
+( 32 ) =3* \#151 ; 32 = 72 .
+In Proposition ( i. ) we saw that the exponent of 2 + i , mod 9 , is 24 , a divisor of 72 .
+( iv .
+) The proof is identical with that of ( 4 ) .
+If a has exponent t , mod m , then has exponent r : where t = ktand k is the G.C.M. of s and t. 252 MR. a. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS Example.\#151 ; Taking again the successive powers of 2 + i , mod 9 , we find the exponent of each of the twenty-four numbers .
+No. S. T = 6 2 + i 1 24 3 + 4 2 12 2 + 2 3 8 2 + 6i 4 6 7 + 5 24 6 4 1 + 7i 7 24 4 -f 6i 8 3 2 -f 7i 9 8 6 + 10 12 5 + 2 11 24 8 12 2 7 + 8 13 24 6 + 5i 14 12 7 + 7i 15 8 7 + Si 16 3 2 + 4 17 24 i 18 4 8 + 2i 19 24 5+3 i 20 6 7 + 2 21 8 3 + 2 22 12 4 + 7i 23 24 1 24 1 ( v. ) The proof is the same as that of ( 5 ) .
+If the exponent of a is t , and of a ' is t\ and t and t ' are co-prime , then the exponent of aa is tt ' .
+And hence the corollary , that the same is true for any number of numbers : if a , a , a " , . . .
+have exponents t , t ' } t " , . . .
+co-prime , then aa'a " . . .
+has exponent tt't " . . .
+Example.\#151 ; The exponent of 3 for mod 1 + 5 is 3 % Its successive powers have residues 3 .
+9 .
+1 .
+The exponent of 5 for mod 1 + 5i is 4 .
+Its successive powers have residues 5 .
+25 .
+21 .
+1 .
+Hence the exponent of 5 X 3 = 15 is 4 X 3 = 12 .
+The successive powers of 15 have residues 15 .
+17 .
+21 .
+3 .
+19 .
+25 .
+11 .
+9 .
+5 .
+23 .
+7 .
+1 .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Example , \#151 ; The exponent of 2 , mod 7 , is 3 .
+The residues are 2 .
+4 .
+1 .
+The exponent of 5 + 2 iis 8 .
+The residues are 5 + 2 6i , 2 + 2i , 6 , 2 + 5 + 5i , 1 .
+Hence the exponent of 10 -f- 4^ The successive residues are = 3 + 4t is 3 X 8 = 24 .
+3 + 4 Si 2 + 2 5 1 + Si i. 3 + Si 4 5 + 2 5i 1 + 6 .
+4 + Si 4 i 5 + 5 2 6 Si .
+4 + 4 3 2 + 5 2 i 6 -f Si 1 .
+( vi .
+) The proof is the same as for ( 6 ) .
+Suppose that a has exponent t , and a has- exponent t\ and that t and are not coprime .
+Then , if t and t ' contain no prime factor raised to the same power in both , the exponent of aa ' is the L.C.M. of t and t\ Example.\#151 ; The exponent of 35 for mod 9 + is 6 .
+The residues of its powers are 35 .
+16 .
+14 .
+22 .
+29 .
+1 .
+The exponent of 3 + 7ifor the same modulus is 4 .
+The residues of its powers are 3 + 7i .
+14 .
+15 + 2 1 .
+Hence the exponent of 35 ( 3 -f- 7i)is the L.C.M. of 6 and 4 = 12 .
+35 ( 3 + 7i ) = 105 -f 2451=33 + 2 ( mod 9 + The residues of its powers are 33 + 2 i29 33 + i22 2 14 .
+12 + i 16 15 + 2 i35 18 + i 1 .
+( vii .
+) The proof is the same as for ( 7 ) .
+Tf a has exponent t , a has exponent t ' , a " has exponent t ' ' , \amp ; c. for modulus m , and if of the tt't " . . .
+numbers ardr'a"r " . . .
+( modulus m ) , formed by giving to r all values modulus t , to v all values modulus t\ \amp ; c. , no two are congruent ; then if we must have a*a , f\gt ; . . .
+= 1 ( mod m ) , a9 = 1 , a'* ' = 1 , . . .
+in other words , if a product of powers of numbers that are independent generators be congruent to unity , then each of these powers is itself congruent to unity .
+( viii .
+) Proof identical with ( 8 ) .
+The exponent of the product of a number of independent generators is the L.C.M. of their exponents .
+254 MR. a. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS In particular if the separate exponents are all powers of the same prime , then the exponent is equal to the greatest of them .
+( ix .
+) Proof the same as for ( 9 ) .
+If the exponent of a for modulus mis t , and for modulus n is t\ and m and n are co-prime , then the exponent of a for modulus mn is the L.C.M. of t and Also the corollary , if the exponents of a for moduli m , m ' , m " , . . .
+are respectively t , t ' , t " , ... m , m ' , m". . .
+being co-prime , then the exponent of for modulus mm'm". .
+, is the L.C.M. of the numbers t , t\ t ' . . .
+Example .
+1 + i == 4 ( mod 2 + i ) , and the residues of its powers are 4 .
+1 .
+Hence the exponent of 1 + i for modulus 2 + i is 2 .
+1 + 1=6 ( mod 3 + 2 and the residues of its powers are 6 .
+10 .
+8 .
+9 .
+2 .
+12 .
+7 .
+3 .
+5 .
+4 .
+11 .
+1 .
+Hence the exponent of 1 + for modulus 3 + 2 iis 12 .
+The moduli 2 + i,3 + 2 iare co-prime , therefore the exponent of 1 + for modulus ( 2 + i)(3 + 2 i)is 12 .
+1 + i ee 19 ( mod 4 + and the residues of its powers are 19 .
+36 .
+34 .
+61 .
+54 .
+51 .
+59 .
+16 .
+44 .
+56 .
+24 .
+1 .
+Example .
+1 + 2 has exp 8 , mod 3 ; the residues of its powers are 1 H- 2 %.i .
+1 i. 2 .
+2 + t. 2 + 2 % .
+1 .
+1 + 2 i= 11 ( mod 3 + 2 and has exp 12 .
+; the residues of its powers are 11 .
+4 .
+5 .
+3 .
+7 .
+12 .
+2 .
+9 .
+8 .
+10 .
+6 .
+1 .
+1 + 2EE 26 ( mod 6 + 1 ) , and has exp 3 , the residues of its powers are 26 .
+10 .
+1 .
+Hence , since 3,3+ 2 i,6 + iare co-prime , 1 + 2 has for modulus 3 ( 3 + 2 ( 6 + exponent === L.C.M. of 8 , 12 , 3 , i.e. , 1 + 2 has exponent 24 for modulus 48 + 45i .
+The residues of its powers are FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+255 1 + 2 i.90 + * .
+1339 + i.692 .
+275 + 1419 + 21370 + 2i 1231 .
+1012 + 2i 291 -ft .
+1015 + 482 .
+32 + i. 540+ 2 i.827 + 2 i.211 .
+244 + 2t .
+969 + 439 + ? .
+269 .
+1043 + i.741 + 2i .
+503 + 2i .
+( x. ) Proof identical with ( 10 ) .
+If the exponent of a is t , and t = pqr. . .
+where p , q , ... are co-prime factors of t , then a can be expressed as a product of numbers whose exponents are p , q , r. . .
+Example.\#151 ; 2 + has exponent 24 for modulus 9 .
+( See example Proposition iv .
+) 24 = 3 .
+8 16 = 1 ( mod 3 ) I 9 = 1 ( mod 8 ) .
+= 0 ( mod 8 ) J =0 ( mod 3 ) .
+Hence 2 + i = ( 2 + ?
+)16 .
+( 2 + )9 ( mod 9 ) , = ( 7 + Si ) ( 2 + 7i ) ( mod 9 ) , where and 7 + 3\amp ; has exp 3 2 + 7i has exp 8 ( See example Proposition iv .
+) Example.\#151 ; 33 + 2i has exponent 12 for modulus 9 + 6 ? .
+( See example Proposition vi .
+) 12 = 3 .
+4 4 = 1 ( mod 3 ) 9 = 1 ( mod 4 ) = 0 ( mod 4 ) = 0 ( mod 3 ) .
+Therefore 33 + 2i = ( 33 + 2 if(33 + 2if ( mod 9 + 6i ) = 22 ( 15 + 2 i)(mod 9 + 6i ) , where 22 has exponent 3 , and 15 + 2 has exponent 4 .
+( xi .
+) The number of numbers with exponent t , when the modulus is a prime ( pure or mixed ) , is ( t ) .
+Any exponent tis a divisor of \lt ; E\gt ; ( p ) , p being the prime modulus ( Corollary , Proposition iii .
+) .
+Exactly as in ( 11 ) we see that if there be one number with exponent t there are ( j\gt ; ( t ) and no more .
+Now tx , to ) . .
+.being all the divisors of any real number \lt ; I\gt ; ( ) , $ ( ^i ) + ^ ( ^2 ) + . . .
+r- ^ ( p)Corresponding to each value t theve aie ( t ) numbers , or none with t as exponent .
+The number of residues altogether ( prime to the modulus is \lt ; E\gt ; ( p ) .
+Hence , in no case can there fail to be \lt ; j\gt ; ( t)numbers with exponent t , t being any divisor of 4\gt ; Corollary.\#151 ; In particular , any prime modulus p has numbers with exponents \lt ; I\gt ; i.e. , has primitive roots .
+The number of these primitive roots is ( j\gt ; [ \lt ; J\gt ; ( p ) ] .
+If pis a pure prime this is \lt ; jf\gt ; ( p2 \#151 ; 1 ) .
+If p is a mixed prime , = a -|- j3i , the number is \lt ; f\gt ; ( a2 4~ ft2 \#151 ; I ) .
+Example.\#151 ; Modulus 5 + 2 i. 10 is a primitive root with exponent 3\gt ; ( 5 + 2 i ) = ( 52 + 22 \#151 ; 1 ) = 28 .
+The residues of its powers are given in the table .
+Number 10 13 14 24 8 22 17 25 18 6 2 20 26 28 Index 1 2 3 4 5 6 7 8 9 10 11 12 13 14 Number 19 16 15 5 21 7 12 4 11 23 27 9 3 l Index 15 16 17 18 19 20 21 22 23 24 25 26 27 28 or 0 The ( j\gt ; ( 28 ) \#151 ; 12 primitive roots are 10 14 8 18 2 26 19 15 21 11 27 3 .
+Example.\#151 ; Modulus 7 .
+Primitive roots have exponent \lt ; E\gt ; ( 7 ) = 73 \#151 ; 1 = 48 .
+2 + i is a primitive root , and the residues of its powers are given in the table .
+Number 2 4-i 3 4-4 i 2 -f 4 Si 4 4- 6* 2 4- 2 2 + 6i 5 Index 1 2 3 4 5 6 7 8 Number 3 4- 1 + 6* 3 + 6i i 6 4- 2i 3 4* 3 ' ?
+' 3 -f 2 4 Index 9 10 11 12 13 14 15 16 Number 1 4- 4 5 + 2i 1 4- 2 5i 2 4* 3 1+1 1 4- 6 Index 17 18 19 20 21 22 23 24 Number 5 4- 4 4-3 i 5 + 3 4 i 3 4-i 5 + 5 5 + i 2 Index 25 26 27 28 29 30 31 32 Number 4 + 2 6 4- 4 -\- 6i 1 -f 5i 4 4- 4 4 + 5i 3 Index 33 34 35 36 37 38 39 40 Number 6 4* 3 2 + 5 6 4- 5 2i 5 4* 6 + 6i 6 4 " 4i 1 Index 41 42 43 44 45 46 47 0 FOR ANT COMPOSITE MODULUS , REAL OR COMPLEX .
+The \lt ; j\gt ; ( 48 ) =16 primitive roots are 2 + i 4 -f 6i 2 + 6\#171 ; 3 + 6 + 2 1 + 4 1 -f 2 1 -f " 3i 5 + 6i 3 -f i 5 + i 4 i 1 + 5i 6 -f- Si 6 + 6 + ( xii .
+) The exponents to which a number a belongs for successive powers of a prime as moduli .
+If we make one slight alteration the proof of ( 12 ) holds good throughout in the case of complex numbers for powers of a pure primes as moduli .
+[ In place of " x \lt ; p " read " x = one of th e p2 \#151 ; 1 residues , mody\gt ; .
+" ] The exponent of a for mod pk is t if X \lt ; tpk~s if X \gt ; where t is the exponent of a for mod p } and is the greatest power of p that divides a1 \#151 ; 1 .
+Corollary.\#151 ; The greatest value of tis p2 \#151 ; 1 .
+( Proposition xi .
+) The greatest value that px~3 can have is got by making s = 1 , i.e. , by taking a so that a/ ^1 \#151 ; 1 ( though necessarily divisible by p ) is not divisible by p2 .
+Hence the greatest exponent that a number can have for mod pK is ( p2 \#151 ; l)y\gt ; A-1 .
+Now \lt ; E\gt ; ( pK ) = piK\#151 ; ^\gt ; 2(A_1 ) = ( \#151 ; l)^2^-1 ) , which is pk~l times the highest exponent .
+Hence for a power of a pure prime as modulus primitive roots do not exist .
+Consider next the case of a mixed prime ( not 1 + i ) .
+Suppose a -J- fii is the prime .
+Then , if ( a -|- fiiy = A + B i , A and B must be co-prime , for otherwise A + Bt would be divisible by some number other than a -f- j3i .
+Hence the N ( a -}- / 3i)K = ( a3 + / ?3)A residues can be taken to be the pure numbers o , i , 2 , ... ( ** + i\amp ; y -1- Suppose that a is any one of these numbers .
+Then , if we have any congruence of the form arEE b[mod ( a + / \amp ; )* ] , are \#151 ; 6 EE 0 [ mod ( a + / \amp ; )A ] , 258 MR. G. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS it follows , since are \#151 ; bis a pure number , that are \#151 ; 6 EE 0 [ mod ( a \#151 ; / \amp ; )* ] , therefore are \#151 ; 6 EE 0 [ mod ( \lt ; *3 + y32)A ] , are = b [ mod ( a2 -f- / 32)A ] .
+Hence for the modulus ( a + fii)K the residue of any power of a number is the same as for the modulus ( a2 -f- / 32)A .
+Now a2 -f- / 32 is a real prime .
+Therefore the exponent to which a belongs for modulus ( a -j- j3i)K is if \ = s , t ( a2 -|- J32)K~S if X. \gt ; 5 , where t is the exponent of a for mod a2 -J- / 32 , and ( a2 -f- y82)* is the highest power of a2 -f- y83 that divides a1 \#151 ; 1 .
+The greatest exponent is ( a2+ \#163 ; 2 - l ) ( a24- f ?
+f-\ and ( a + / 3i)K = ( a2 + y82)A - ( a2 + yS2)^1 = ( a2 + y82 - 1 ) ( a2 + y82)A " l. Thus for powers of a mixed prime primitive roots do exist .
+( xiia .
+) We see from the last proposition that for a power of a mixed prime as modulus primitive roots exist , and any one of them generates by its powers all the residues prime to the modulus .
+But in the case of a power of a pure prime pk } the highest exponent is pk~l ( p* \#151 ; 1 ) , whereas \lt ; J\gt ; ( pk ) = p2(A-1)(p2 \#151 ; 1 ) .
+We wish now to find how all the y\gt ; 2(A-1 ) ( y\gt ; 2 \#151 ; 1 ) numbers can be generated .
+Take a number g with exp A~"1 ( p2 \#151 ; 1 ) and , , , , y , , , , p g can be expressed as a product g =f'h ( mod pk ) , where f'has exp pK 1 I \gt ; , Proposition x. h " " p2 lJ f and f ' are each= 1 ( mod | J \gt ; , Proposition xn .
+^ 1 ( modjp2 ) J FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Suppose / = !
++ ap ( mod 3 ) a =\#163 ; 0 ( mod p ) , y* ' EE 1 + aP ( mod p3 ) =\#163 ; 0 ( mod p ) .
+ThepA-1 X pA_1 ( p2 \#151 ; 1 ) numbers generated by products of powers off and g will be the p2(A-1)(p2 \#151 ; 1 ) residues prime to the modulus pA , provided that no two of them are congruent .
+We shall now show that no two can be congruent provided that is a complex and not a real number , k being determined by the congruence ka = a ( mod p ) .
+Suppose that two of the numbers generated are congruent , say f 9*fJ = 9*ff pA ) , where i ( mod pA_1p3 \#151 ; 1 ) , j =\#163 ; y ' ( mod pA-1 ) .
+This is equivalent to / ' =fj " ( mod pA ) , where i " = i \#151 ; i^ 0 ( mod pA-1 p3 \#151 ; 1 ) , j"=j \#151 ; f\#163 ; 0 ( mod j " may be divisible by a power of p. Suppose j " = / 3pAwhere / 3 is prime to p , and s may be any one of the numbers 2 , 3 .
+Then ft " has exp p*_1 .
+( Proposition iv .
+) , therefore \lt ; f ' has expp*-1 , therefore i " = ft ( p2 \#151 ; l)pA""f , where ft is prime to p. ( Proposition iv .
+) Therefore i)pk -s fPvK ~ * and , therefore , since EE/ ^a * ( mod pA ) , hpim~1 EE 1 ( mod pA ) , y^'(2\gt ; *-i)P-s ^ y^A_s ( mo(J Raise both sides to the power ps~z , then . .
+X. f'* u* - l\gt ; i\gt ; * " 2 = yV " 2 ( mod pA ) .
+2 L 2 Let determine and suppose / 3( = 1 ( mod j3 ' ( p2 \#151 ; 1 ) \#163 ; EE y ( mod p ) .
+Raise both sides to the power then f , ypx 2 EE fpK ~2 ( mod p* ) .
+1 -f ap ( mod p2 ) , fpK~ 2 EE 1 + ap* " 1 ( mod p* ) , / El f ap ( modp2 ) , J , ,ypK~2= .
+l -f 1 ( mod p* ) , Now therefore and therefore therefore therefore therefore 1 -f a'yp* " 1 EE I -f ap* " 1 ( mod p* ) , yet !
+= a ( mod p ) , yE=k ( mod p ) .
+Now i " , j " , ft , J3 ' , and , therefore , \#163 ; , and finally y , are numbers , whereas , by supposition , h is complex , therefore on this supposition g and f are complete generators .
+Example.\#151 ; Modulus 32 .
+I \lt ; f\gt ; ( 32 ) = 34 \#151 ; 32 = 72 .
+The highest exponent is 3 ( 3s \#151 ; 1 ) = 24 .
+We shall find that 2 + iand 4 -f 3i can be taken for generators .
+and Now g = 2 -f i has exp 24 mod 32 / = 4 -f 3i has exp 3 mod 32 2 + \#174 ; = ( 2 + *)16 + ^)9 ( mod 9 ) = ( 7 + 3 i)(2 -f 7i ) ( mod 9 ) , / ' = 7 + 3 has exp 3 .
+f=l + ( 1 + .
+3 ( mod 32 ) / ' = 1 -f ( 2 + i ) .
+3 ( mod 32 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+and gives k(2 -f fc ' ) = ( l + i ) ( mod 3 ) k == 2 1 which is not a real number .
+The following table gives the indices of the 72 numbers .
+0 1 2 1 2 + i 5 4- i 8 4- i 2 3 + 4 6 4- i 3 2 + 2 2 4- 5i 2 -f 8i 4 2 + 6 8 4 " 32- 5 5 7 + 5 4 + 5 1 + 5i 6 8 i 34 5i 6 + 2i 7 l + 1 + 4 1 + i 8 4 + 6i 7 1 " f " 9 2 + 7i 5 4- 7i 8 410 6 4- S + i 4i 11 5 4- 2 5 4- 5i 5 + 8t 12 8 5 + 6i 2 + 3t 13 7 4- 8 4 4-8 i 1 4- Si 14 6 4 -5 2 i 3 + 8* 15 7 4- 7 + 4t 7 4~ 16 7 4- 3 1 + 6i 4 17 2 + 4 5 4- 4 8 + 4 18 i 6 + 4i 3 4- 7i 19 8 + 2 8 4- 5 8 4- 8i 20 5 -f- 31 2 8 4* 8ft 21 7 + 2 4 4- 2$ 1 4- 2i 22 3 + 2 i 6 4~ 8t 5* 23 4 + 4 4- 4i 4 4-i 0 1 4 4 " 3* 7 4- [ The pair of indices for any number are found at the end of the row and at the head of the column in which the number is situated .
+Thus 1 + si = ( 2 + a)13 ( 4 4- ( mod 9 ) .
+] ( xiii.-xvi .
+) Propositions ( 13 ) to ( 1.6 ) are concerned with the moduli 2\ In Propositions xiii.-xvi .
+we shall investigate the moduli analogous to these in the case of complex numbers , viz. ( 1 + t)A* [ Propositions xiii.-xvi .
+will not be made to correspond individually to Propositions ( 13)\#151 ; ( 16 ) : they are intended to cover the same ground .
+] ( xiii .
+) In the case of the smaller values of X , from 1 to 7 , we shall find results , some of which , though they are really particular cases of the general results for any value of X , are not conveniently included under them .
+We shall start by a separate treatment of each of the first seven moduli , finding_ ( i. ) the numbers which belong to each exponent ; ( ii .
+) what numbers must be taken in order to generate the complete set of residues .
+Mod 1 + i. There is only one residue , viz. , 1 , whose exponent is 1 .
+Mod ( 1 + if* 0(1+ if = 2 .
+There are two numbers , viz. , and i with exp 2 ? .
+1 with exp 1 Thus , for this modulus , i is a primitive root .
+Mod ( 1 + if .
+( 1 + if = 4 .
+The four residues are\#151 ; i , 2 + i with exp 4 , 3 with exp 2 , 1 with exp 1 .
+i and 2 + iare both primitive roots .
+Mod ( 1 + if .
+\lt ; I\gt ; ( 1 + if = 8 .
+The 8 numbers with their exponents are Exp 4 , i } 3\amp ; , 2 + if 2 + Exp 2 .
+3 , 1 + 2 if3 + 2i Exp 1 .
+1 .
+The square of each of the four numbers with exponent 4 is congruent to the same number with exponent 2 , viz. 3 .
+Hence , to generate the 8 numbers , we must take any one of the four numbers with exponent 4 , and either of the two numbers with exponent 2 , viz. 1 + 2 3 + 2 Mod ( 1 + if .
+\lt ; I\gt ; ( 1 + if =\#166 ; 16 .
+The 16 numbers , with their exponents are Exp 4 .
+i3 i2 + i2 + 3^ 4 + 6 + 4 + 3 6 + Exp 2 .
+3 5 7 1 + 2 i3 + 2 5 + 2 7 + 2 Exp 1 .
+1 .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+The square of each of the 8 numbers with exponent 4 gives the same number with exponent 2 , viz. 7 .
+Also 7 = 3 .
+5 = ( 1 + 2i)(3 + 2i ) = ( 5 + 2 ( 7 + 2 .
+[ mod ( 1 + i)5 ] .
+Hence , firstly , we must take as generators and one number with exponent 4 two numbers with exponent 2 ; and , secondly , the two numbers with exponent 2 must neither of them be 7 , and they must not be a pair of the numbers as arranged above whose product is congruent to 7 .
+Mod ( 1 + ifi \lt ; 3\gt ; ( 1 + i)\amp ; \#151 ; 32 .
+The 32 numbers with their exponents are arranged below .
+Exp 1 , Exp 2 .
+Exp 4 .
+5 + 4 i 1 + 2 i 1 + 6t 3 +\#166 ; 2^ 3 ~| " 5 + 2 5 + 6i 7 2^ 7 + 6i 3 + 4 i 2 + i 2 -J~ 2 + 5i 2 + 7i 6 +i 6 + Si 6 + 5i 6 + 7i 7 3 5 1 + 4i 7 + 4i 4 + 4 4 + 3 i 4 + 5i 4 + i Si 5i 7i The 24 numbers with exponent 4 are written in three rows , and the number with exponent 2 , to which the square of any one of them is congruent , is to be found written at the end of the row .
+Moreover , the three numbers , with exponent 2 ( viz. 5 + 4i } 3 + and 7 ) , which thus appear as the squares of numbers with exponent 4 , are such that the product of any two is congruent to the third ; for 7 ( 5 + 4 i)(3 + 4 i ) = 1 [ mod ( 1 + if\ Hence , to generate the 32 numbers , we must take two numbers , with exponent 4 , not in the same row and one number , with exponent 2 , selected from 3 , 5 , 1 + 4 + 4i .
+Mod Exp 1 .
+( i + iy .
+Exp 2 .
+0(1 + = Exp 4 .
+64 .
+The 64 numbers , with their arranged below .
+exponents , are 1 7 4+2 12+2 3 i 8 + 32 5i 8 + 5t 4 + 72 12+7* 9 3 5 11 13 1 + 4 i 7+42 9 + 42 15+4* 15 i 8+2* 4+3i 12+32* 4+5 i 12+52 72 8+7* 3+4* ' 2+2 10+2* 2+3 10+32* 6 + 5 i 14 + 52 6+72 ' 14+7i 5+42* 5+2 * 7 + 22 13+22* 15+2 i 1 + 62 3 + 62 9+62 11+6* 11 + 4 ; 6+2* 14+2 6 -\~3i 14 + 32* 2 + 5t* 10+52 2 + 72 10+7* 13+4 i 1 + 2 i 3+2 2* 9+2 11+2 i 5 + 62 7 + 62 13+62 15+62 The 56 numbers with exponent 4 are arranged in rows collinearly with the numbers , with exponent 2 , to which their squares are congruent .
+The 7 numbers with exponent 2 can be arranged in 7 sets of 3 , so that of each 3 the product of any two is congruent to the third ( or the product of the three congruent to unity ) .
+Thus : 7 .
+9 .
+15 = 1 7 ( 13 + ( 3 + 42 ) = 1 7 ( 5 + 4 i)(11 + 4 = 1 9 ( 3 + 41 ) ( 11 + 42* ) = 1 9 ( 5 + U)(13 + 4 = 1 15 ( 3 + 42* ) ( 5 + 4 = l 15 ( 11 + it)(13 + 4i ) = 1 \gt ; ( mod 1 4- i)7 .
+To generate the 64 numbers , we must take three numbers each with exponent 4 .
+The product of powers of three such numbers can only be congruent to unity without each being separately congruent to unity , if the product of their squares be so .
+Hence , the three generators must be chosen , one each from three of the above rows , and the numbers , with exponent 2 found in these rows , must not have their product congruent to unity .
+( xiv .
+) The numbers which have as exponents 2 , 4 , and 8 for mod ( 1 + We shall use the results of the three following Lemmas : Lemma ( 1).\#151 ; If a2 = 1 [ mod ( 14- iY\ ( \lt ; a \#151 ; 1 ) ( a-J- 1 ) = 0 [ mod ( 1 + 2* ) " ] .
+a EE 1 [ mod ( 14- i)\#174 ; *| a4 " 1 \#151 ; 2 [ mod ( 1 + ^)3 ] = 0 [ mod ( 1 4 2*)2 ] , Now , if FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+i.e. , if a \#151 ; 1 is divisible by ( 1 + if or any higher power , then -f 1 is divisible by ( 1 + if as the highest power .
+j \#174 ; : : " Similarly , we can show that if a higher power than ( 1 + divides + 1 , then no higher power than ( 1 + if divides a \#151 ; 1 .
+Therefore , if k\gt ; 4 , either a EE 1 [ mod ( 1 -f- if""2 ] or a == \#151 ; 1 [ mod ( 1 -j-therefore , k being \gt ; 4 , the solutions of a2 EE 1 [ mod ( 1 + if ] are given by a = il [ mod ( i 4 " Lemma ( 2).\#151 ; If a2 =E \#151 ; 1 [ mod ( 1 + t)* ] ( a + i ) ( a \#151 ; i ) = 0 [ mod ( 1 + i)* ] Now , if a = i [ mod ( 1 + *)* ] a + i = 2 i[mod ( 1 + = 0 [ mod ( 1 + Thus as above , if either of a + i ) a ~~* is divisible by a power of ( 1 + above the second , then ( 1 + if , is the highest power that divides the other .
+Therefore , if / c\gt ; 4 the solutions of a2 EE \#151 ; 1 [ mod ( 1 + t)* ] are given by = zb [ mod ( 1 + t)*"*3 ] .
+Lemma ( 3 ) .
+[ mod ( 1 + if ] is impossible for any value of k\gt ; 1 .
+For if so , = [ mod ( 1 -I-or a2 =E [ mod ( 1 -j- since \#151 ; i==i [ mod ( 1 + if]\gt ; which is impossible , for and l2 ^ *[mod ( 1 -f t)2 ] , t2 ^ i[mod ( l + ^)3]* 2 M 266 MR. a. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS Numbers with exponent 2 mod ( 1 + if* ( X\gt ; 4 .
+) All these numbers , together with 1 , which has exponent 1 , satisfy the congruence a3 == 1 [ mod ( 1 + therefore a=i 1 [ mod ( 1 + if~2 ] gives ( together with unity ) the numbers which have exponent 2 , mod ( 1 + We get thus 7 numbers with exponent 2 , mod ( 1 + They are congruent to 1 .
+I \#177 ; 1 + ( 1 + i)k~* \#177 ; l + ( l+ly- | [ mod ( 1 + *)* ] .
+The product of any two of these is congruent to a third .
+If we name the 7 numbers thus\#151 ; a = \#151 ; 1 , / 3=+1+ ( 1-H)x-2 , y = - i + ( i +if-\ S = +l + ( l + *)x"l\#171 ; c = \#151 ; i + ( i + *y-1 , \gt ; ?
+= +1 + ( i + *y-2 + ( i + *)xrl , 6 = - 1 + ( 1 + + ( 1 + if-1 , then these relations may be written thus\#151 ; afiyEE 1 , as EE 1 , are )6 = 1 , fi\amp ; r ) = 1 ^ = 1 , ySO EE 1 , yerj = 1 , [ which includes a/ 3 == y , ay = ^8 , fiy = a , because a3 = 1 , / 33 = 1 , y3 = 1 ] .
+Numbers with exponent 4 , moc\#163 ; ( 1 + i')\ ( X\gt ; 6 .
+) The numbers which satisfy a4 = 1 [ mod ( 1 + i)*J FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+and which do not satisfy 1 [ mod ( 1 + ^)x]\gt ; are the numbers with exponent 4 .
+Hence Lemma ( 1 ) gives us a2 EE \#177 ; 1 [ mod ( 1 + and then Lemma ( 2 ) gives a EE db 1 , \#177 ; [ mod ( 1 + i)x"4 ] .
+If of these numbers we exclude a EE zb 1 [ mod ( 1 + i)x_2 ] , we have the numbers with exponent 4 .
+Hence the numbers with exponent 4 are and The number of these is = ~izi [ mod ( 1 + 4 ] , = \#177 ; 1 + ( 1+^-4 \#177 ; 1 + ( X+^T* ?
+mod ( 1 + i)k~2 .
+\#177 ; i + ( i+*y-4+(i+ox"8J 2N[(l + i)4 ] + 6N[(l + ^ ] = 2.2* + 2.3.22 = 25 + 3.23 = 25 + 2* + 23 = 56 .
+Numbers with exponent 8 mod ( 1 + i)\ X\gt ; 8 .
+The numbers are those that satisfy a8 = 1 [ mod ( 1 + ^)x]\gt ; excluding those that satisfy a4 EE 1 [ mod ( 1 + \#174 ; )x]Now a8 = 1 [ mod ( 1 + i)x ] gives a4 = \#177 ; 1 [ mod ( 1 + i)x_2 ] .
+Lemma ( l ) .
+a ?
+= \#177 ; 1 [ mod ( 1 -f i)x"4 ] .
+Lemmas ( 1 ) , ( 2 ) , and ( 3 ) a = \#177 ; 1 , \#177 ; i[mod ( 1 + \#171 ; )x"6 ] .
+Lemmas ( 1 ) and ( 2 ) Of these we have to exclude a = \#177 ; 1 \#177 ; h [ mod ( 1 + i)x_4 ] .
+2 M 2 ?
+Hence the numbers with exponent 8 are \#177 ; i , \#177 ; i + ( i + \#177 ; i , \#177 ; h + ( i+*t8 \#177 ; \#177 ; + ( 1 + + ( 1 + mod ( 1 + 4 .
+In number they are 4 X 3 X N ( 1 + if = 22 .
+3.24 = 26 + 27 .
+We have not specially examined the modulus ( 1 + if .
+The general results already obtained give us the numbers with exponents 2 and 4 .
+We will find the numbers with exponent 8 .
+Of the solutions of a8 = 1 [ mod ( 1 + ^)8 ] we must exclude those of gives and a4 = 1 [ mod ( 1 + fc*)8 ] .
+a8 == 1 [ mod ( 1 + ^)8 ] a4 EE i 1 [ mod ( 1 + ^)6 ] \#177 ; 1 [ mod ( 1 + fc)4 ] , and therefore a\#151 ; i , Qi , 2 d~ i , 2 + 3$ , 3 , 1 d " 2i , 3 d~ 2 ?
+/ , 1 [ mod ( l -j~ ^)41* [ See mod ( 1 d- ^)4\#187 ; ] The numbers to be excluded are y oft = 1 [ mod ( 1 d " ^)8 ] oft EE Jt 1 [ mod ( 1 + i)6 ] a = dh 1\gt ; =b * [ mod ( 1 -h ^)4]\gt ; a = 1 ; 3 , i , Si [ mod ( 1 -f* ^*)4]* Hence the numbers = 2 -f- i , 1 \#166 ; +\#166 ; 2i , 2 -f- Si , 3 d- [ mod ( 1 d~ i)^~\ have exponent 8 .
+The number of them is 4 X 24 = 26 .
+FOR ANT COMPOSITE MODULUS , REAL OR COMPLEX .
+( xv .
+) The numbers which have exponent mod ( 1 + [ \\gt ; 8 and \gt ; 3 .
+] The numbers are those which satisfy a3* = 1 [ mod ( 1 + ^)x ] , and which do not satisfy a ?
+1 EE 1 [ mod ( 1 -fThe first gives a = \#177 ; l , \#177 ; i[mod ( 1 +t)x~3 ' ] if X \#151 ; 2 , ' and the second a= \#177 ; i i}[mod ( 1 + *.)*-*\#187 ; +aj Hence the numbers with exponent 2s for mod ( 1 + ( X \#151 ; 2 2 ) , are dt 1 , \#177 ; i , + ( 1 + i \#177 ; h dz i , + ( 1 +i)k-*s+1 \#177 ; 1 , \#177 ; h + ( 1 + if + ( 1 + I mod ( 1 -fiy-Vt+z The number of them is 12 X N ( 1 -f = 23 .
+3 .
+\#151 ; 2 2*_j_ If X is odd , = 2yx -f- 1 the greatest value of is \#151 ; 1 , and then X \#151 ; \gt ; 2 .
+So there are 23'4-3 + 22m_1 numbers with exponent 2M_1 for mod ( 1 + viz. , \#177 ; 1 , \#177 ; t , + ( l +i ?
+\#177 ; 1 , \#177 ; \#187 ; , + ( l +iY \#177 ; 1 , \#177 ; i , + ( 1 + *)3 + ( 1 + if unod ( 1 + if .
+7 " f- 2 if5 " I- 2 i}6 *4 " 3^ , 6 -|- i 1 5 3 4 + 3 3 -p 2 if 1 ~p 2if2 3i , 2 *4 " ^ mod ( 1 + ^)5\#187 ; So for mod ( 1 -j- if*+1 there are 22m_1 -p 22'*"2 numbers with exp 2M"1 23**1 _p 2*s ti 9* 27 + 26 98 f 26 + 2* 4- 23 " " . .
+2* 2s + 2 + 1 \gt ; \gt ; \#187 ; 2 1 \#187 ; \gt ; i 1 making , in all , 23m = \lt ; I\gt ; ( 1 -p i)2*+1 numbers , as it should .
+If X is even and = 2/ x , then we may have = p , + 1\gt ; and in this case X \#151 ; 2s = 2 We wish , therefore , to find the numbers with exponent 2M"1 for mod ( l + We have to take the solutions of a ?
+11"1 = l [ mod ( 1 + and exclude those of of 2 EE 1 [ mod ( 1 + The first leads to a2 = 1b 1 [ mod ( 1 + if ] , and the second to a = d= 1 , \#177 ; i [ mod ( 1 + therefore a EE 1 + 2 i,2 + i,3 + 2 2 + 3^ [ mod ( 1 -f- t)4 ] .
+Hence the numbers with exponent 2'4-1 for mod ( 1 + if are EE1 " h 2 i,2 *4 " i3 " h 2 [ mod ( 1 -f- i)4J .
+The number of them is 4 X N ( 1 + i)2*-4 = 22 .
+22m"4 __ 2^-2 .
+For mod ( 1 + if there are 22/ * " " 2 numbers with exp 2M~1 22*A"8 2^-4 )\gt ; 99 " 21*-2 2\amp ; + 1 j_ 22* 99 99 " 2J 27 + 26 99 99 " 2* 25 + 24 + 2s 99 99 2s 22 + 2 + 1 99 99 j\gt ; 2 1 99 99 " 1 making , in all , 22'4"1 = 4\gt ; ( 1 + if numbers as it should .
+( xvi .
+) Generators for the modulus ( 1 + If X = 2p , + 1 , it is easy to see that in order to generate 22f* numbers , of which for each exponent there shall be the right number of numbers ( as just found ) , we must take three generators :\#151 ; two generators with exp 2M " 1 and one generator with exp 2\#174 ; FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+If X = 2/ a , we can similarly see that we must take three generators one generator with exp 2M ~ We have now to show how these may be selected , so that all the numbers generated may be incongruent , ' Any number , with exponent \gt ; 2 modulus ( 1 + has one of its powers , and one only , which has exponent 2 .
+Suppose all the numbers modulus ( 1 + i)K\gt ; arranged in 7 groups , so that all the numbers in a group may have the same number , with exponent 2 , as a power .
+We shall now prove four Lemmas with regard to these groups .
+Lemma ( i. ) .
+A power of a number belonging to any group belongs to the same group .
+Let a have exponent 2J , and belong to the group a , i.e. } a2* 1 EE a [ mod ( 1 + f)A ] , Take any power of \lt ; x , say a2\lt ; T % where i is odd .
+Its exponent is 2*_\lt ; r. ( Proposition iv .
+) Therefore ( a2\lt ; Tiys 9 1 has exp 2 , i.e. , a ?
+1{ has exp 2 , and it is EE a* , and , therefore , = a , because i is odd .
+Therefore , any power of a belongs to the same group .
+Lemma ( ii .
+) .
+If a and a ' have exponent 2s , and belong to the same group a , then For ( aa'Y 1 = 1 [ mod ( 1 + fc)* ] .
+nS I a = a. Therefore Lemma ( iii ) .
+If and then ct,2S-1 = a. ( aa'Y 1 = a2 = 1 [ mod ( 1 + a has exp 2s and belongs to group a , b " 2s " " A ab , , 2* " " where For Therefore and , therefore , Lemma ( iv .
+) .
+and then For and , therefore , Therefore Therefore a EE 1 .
+' X a = a , \amp ; *"'=/ 3 .
+( a b):* 1 = a/ 3 = y [ mod ( 1 + i)A ] , ab has exp 2s , and belongs to group y. If a has exp 2a + ff and belongs to group a , b " 2* " " / 3 , " 24 + \lt ; r " " a. oS + a* \#151 ; 1 er = a , 6* , + ' " ' = 1 .
+( a\amp ; )2*+ * ~1 = a. ab has exp 2s+ " , and belongs to group a. Now , suppose that we take these generators with the necessary exponents .
+They must be chosen so that the numbers they generate are all incongruent .
+Let \lt ; 7j , g2 , gs be the generators .
+Then , g^1 , g^ , gj* = gf ' , g%%\gt ; , g\lt ; f [ mod ( 1 + i)x ] must be impossible unless ii = ( mod exp gY ) , h = H ( mod exp h = h ' ( mod exp i.e. , g^1 , g2J\ gtf* = 1 [ mod ( 1 + ^)x ] must be possible only when ji = 0 ( mod exp gx ) , j % = 0 ( mod exp g2 ) , js = 0 ( mod exp g3 ) .
+We shall now show that to render this so , the three generators must belong to three different groups , and that those three groups must not be any one of the se.ven sets of three , such as a , j3 , y , for which a/ 3y == 1 .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Let us denote the exponents of glf g2 , gs by 2 % 2 % 2* [ When X is odd these are 2'*-1 , 2'*"1 , 22 , and when X is even , 2'*-1 , 2'*-2 , 22 .
+] First suppose that any two of the generators belong to the same group .
+Say gx and g2 both belong to the same group ; sx and s2 may be equal or unequal .
+If sx = s.2\gt ; Lemma ( ii .
+) shows that the exponent of divides 2Sl~\ therefore " * = 1 [ mod ( 1 + =1 [ mod ( 1 + *)\#187 ; ] , where 2Sl~l zjE o ( mod 2^a -1 o ( mod 252 ) , therefore glfg2 , cannot belong to the same group .
+If sx = s2 + \lt ; r , then g2 ' has exponent sl } and Lemma ( ii .
+) shows that fl , isn"1flr8S'+''"-1 = 1[mod(l where 2Sl~1 = 0 [ mod ( 1 + i)xJ , therefore gx and g2 cannot belong to the same group .
+Hence the three generators must belong to three different groups .
+Next suppose that the three generators belong to three groups , such as a , y. Then = \#171 ; /3y= 1 [ mod ( 1 + in where 2^i-i ^ o ( mod 2* ) , 2*"1 ^ 0 ( mod 2#3-i *=jz o ( mod 2* ) , and therefore the three generators must not belong to three such groups .
+Finally , we can see that if the three generators are taken from three different groups , excluding the seven sets of three groups , then g\''9ih9%h S 1 [ mod ( 1 + \#187 ; ')* ] is not possible unless j1 = 0 ( mod 2#1 ) , j2 = 0 ( mod 2 ?
+* ) , y3 = 0 ( mod 2 , s ) .
+Lemma ( i. ) shows that g^1 , gj\ g^ belong to the same groups as do gx , g2 , gz .
+Suppose that these are a , / 3 , and S. mdcccxciii.\#151 ; a. and in no case is the product congruent to unity , save when each factor is so separately .
+The result , therefore , is that for modulus ( 1 + if we have to take three generators with the exponents determined in the last proposition , and such that the product of the three numbers with exponent 2 that they separately produce shall not be congruent to unity .
+Example.\#151 ; Mod ( 1 + if .
+\lt ; I\gt ; ( 1 + if = 27 .
+The exponents of the generators are 23 , 22 , 22 .
+The 26 numbers with exp 23 are 1 + 2 2 +i , J The 25 + 24 + 23 numbers with exp 22 are 3 + 4t , 5 -f 1 + 4 -f ( mod 8 ) .
+The 22 + 2 + 1 numbers with exp 2 are 15 , 9 , 7 , 1 + Si , 15 + 9 + 7 + Si .
+If of these we take 2 -j- i with exp 8 , and 3 with exp 4 , i with exp 4 , we have ( 2 + if == 9 + 8* [ mod ( 1 + i)8 ] , 32 EE 9 [ mod ( 1 + ^)8]\gt ; and i2 = 15 [ mod ( 1 + ^)8]\gt ; and 9 + Si .
+9.15 = 15 + Si \#163 ; 1 [ mod ( 1 + t)8 ] , therefore , 2 + i } 3 , and igenerate the 27 numbers .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+275 Example.\#151 ; Mod ( 1 + ^)9 .
+( 1 + ^*)9 = 28 .
+The three generators have exponents 23 , 23 , 2* The 27 + 26 numbers with exp 23 are ( see Proposition xv.)\#151 ; ==7+2^ , 5+2 if6 + 3i , 6+i , 5 , 3 , 4+i , 3 3 + 2^ , 1+2 2 + 3^ , 2+t [ mod ( 1+t)6 ] .
+The 25 + 24 + 23 numbers with exp 22 are = + i[mod ( 1 + i)5 ] and 7 , 9 , 3 + 4i , 5 + 4^ , 11 + 4 13 + 4i [ mod ( 1 + t)7 ] .
+The 22 + 2 + 1 numbers with exp 2 , are 15 , 17 , 31 , 7 + 8t , 23 + 8 25 + 8 ?
+: , 9 + If of these we take and 2 + i with exp 8 , 3 with exp 8 , i with exp 4 , we have ( 2 +a)4 = 9 + 8r 34 = 17 y i2 =15 and 15 .
+17 .
+( 9 + Si ) 7 + 8* ^ 1 .
+Therefore 2 + i , 3 , and igenerate the 28 numbers .
+( xvii .
+) From Propositions ix .
+, xii .
+, xiii .
+, and xiv .
+the exponent of a number for any modulus ( to which it is prime ) is readily determined .
+Let the modulus be expressed as a product of powers of its prime factors , m \#151 ; { 1 + . . .
+, where Pl5 P2 , . . .
+are pure primes , and Ql5 Q2 , . . .
+are mixed primes , and equal to ai + Pih a2 + foi . . .
+Then , by Proposition ix .
+, the exponent of any number a is the L.C.M. of its separate exponents for the moduli ( 1 + i)\ Px\ .
+Qx % Q/ \#171 ; . . .
+The greatest exponent possible.\#151 ; The greatest exponent for mod ( 1 + is 1 if k = 1 , 2 if k = 2 , 4 if 2 \lt ; k \lt ; 8 , 2* ' 1 if 8 \lt ; k =s 2k or 2k + 1 .
+2 N 2 The greatest exponent for mod PxAl is ?
+2 \#151 ; 1 if Xj = lf Pi^-^Pi3 - I ) if Xx \gt ; 2 .
+The greatest exponent for mod Q^1 is a\ + A3 \#151 ; 1 if / *i = 1\#187 ; j ( \#171 ; i3 + \amp ; *)\#187 ; " 1 ( ai2 + A3 - 1 ) if / *i \gt ; 1 , and the greatest exponent for mod m is the L.C.M. of these separate greatest exponents .
+Primitive roots exist when the greatest exponent is equal to \lt ; 3 ?
+( m ) , and \lt ; I\gt ; ( m ) = \lt ; 3\gt ; ( 1 + i)K .
+\lt ; \#163 ; ( P/ ' ) .
+\lt ; I\gt ; ( P/ 2 ) . . .
+3\gt ; ( Q^ ) \lt ; I\gt ; ( Q/ 2 ) . . .
+and \#174 ; ( 1 -p 0* == 1 if K = 1 = 2*-1 if ac \gt ; 1 , \lt ; I\gt ; ( P^ ) = Pj2 \#151 ; 1 if Xx = 1 = P12^-i\gt ; ( P12~ 1 ) if Xx \gt ; 2 , * ( Ql* ) = ax3 + \amp ; 2 - 1 if ^ = 1 j = ( ai2 + A3)*"1 ( *i* + A3 \#151 ; !
+) .
+The only cases in which the greatest exponent can be equal to \lt ; I\gt ; ( m ) are those in which the separate exponents are each equal to the \lt ; 3\gt ; of the modulus they refer to and are also co-prime .
+Hence we have the following moduli possessed of primitive roots :\#151 ; ( 1 ) The moduli 1 -f i , ( 1 + if , ( l + ; ( 2 ) Any pure prime and ( 1 + i ) X any pure prime ; ( 3 ) A power of a mixed prime and ( 1 + X a power of a mixed prime .
+Example.\#151 ; To find the exponent of 3 + 2 for mod 1000 .
+1000 = 23.53 = \#151 ; ( 1 + if ( 2 + if ( 1 + 2t)8 .
+The exp of 3 + 2 for mod ( 1 + if is 4 .
+3 + 2t EE 1 ( mod 2 -f- i)f and therefore has exponent 1 .
+( 3 + 2if ^ 1 [ mod ( 2 + ^)2 ] therefore FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+3 + 2 ?
+has exp 53 for mod ( 2 + t)8 .
+3 + 2i = 2 ( mod 1 + 2 and therefore has exp 4 .
+therefore ( 3 + 2if==21 [ mod ( 1 + 2i)3 ] ?
+= 1 , 3 + has exp 4.53 for mod ( 1 + 2i)8 .
+The exponent required is the L.C.M. of 4 , 53 and 4 .
+53 = 100 .
+Therefore the exponent of 3 + 2 % for mod 1000 is 100 .
+( xviii .
+) Proof identical with ( 18 ) .
+If a be not prime to m and m = y\gt ; P where consists of powers of those primes which occur in a , and P is prime to a , then the series of residues consists of periods of t terms , the first period beginning at the rth term : where t is the exponent of a for mod P , and r is the least number that makes are divisible by p. Corollary.\#151 ; When a = 1 ( mod P ) t = 1 and the period consists of one term .
+When a is divisible by p the first period starts from the first term .
+When both these conditions hold good then every power of is = ( mod m ) .
+Example.\#151 ; Residues of powers of 2 + for mod 10 .
+a , a3 , a8,. . . .
+are , . . .
+are +t , ... ( mod m ) 10= - ( l+ i)*(2 + i)(l+2i ) , p = 2 + i , P = ( l +if(l + 2i ) , therefore r = 1 , and t is the exponent of 2 + for mod ( 1 + ( 1 + 2i ) .
+Now 2 + i = i [ mod ( 1 + i)3 ] and therefore has exp 2 and 2 4- i = 4 ( mod 1 + 2 i ) " " " 2 therefore t = 2 .
+The period consists of two terms and the first period begins at the first term 2 + i , ( 2 + if = 3 + 4 ( 2+ *7=2 + * , \amp ; c. 278 MR. G. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS Example.\#151 ; Residues of powers of ( 1 + i ) for mod 100 = ( 1 + if ( 2 + if ( l + 2 and therefore p = ( 1 + if\gt ; r = 4 , therefore P = ( 2 + if ( 1+ 2 1 -f- i has exp 4 mod 2 + 4* and ( 1 + 4*)4 ^ 1 [ mod ( 2 + l)2 ] , 1 + i has exp 20 mod ( 2 + if .
+Similarly 1 -J- has exp 4 mod 1 + 2 and ( 1 -j- if ^ 1 [ mod ( 1 + 2 i)2 ] , 4-V\#187 ; OVAmPP 1 + has exp 20 mod ( 1 + 2i)2 , and therefore The residues are 1 +i 2 i98 + 2i96 96 +96492i 8 + 92i 16 16 + 164 324 68 + 32 i36 36 + 364 724 28 + 724 5 6 5 6 + 564 1 24 88 + 124 76 76 + 764 524 48 + 52 Example.\#151 ; The residues of the powers of 688 + 7844 for mod 1000 .
+1000 = \#151 ; ( 1 + if ( 2 + if ( l + 24)3 .
+688 + 7844 = 0 [ mod ( 1 + ^)6]688 + 7844 = 688 \#151 ; 57 ( 784 ) [ mod ( 2 + 4*)3 ] .
+( See preface .
+) = 0 [ mod ( 2 + 4*)3 ] .
+and 688 -f 7844 = 688 + 57 ( 784 ) [ mod ( 1 + 24*)8 ] .
+= 1 [ mod ( 1 + Hence , r = 1 and t = 1 , and so all powers of the number 688 -J- 7844* are congruent to itself for mod 1000 .
+688 688 784 688 784 784 504 752 136 04 04 72 8 6 8 344 392 2 656 ( 688 -f 784i)2 EE ( 344 - 656 + 784(mod 1000 ) = 688 + 784t ( mod 1000 ) .
+( xix .
+and xx .
+) The proofs and results are the same as in ( 19 ) and ( 20 ) .
+Example.\#151 ; Mod 10 = 2 .
+5 = - ( 1 + ( 2 + ( 1 + 2 To find a so that a = ax [ mod ( 1 + = a2 [ mod ( 2 + = a3 [ mod ( 1 + 2t)J .
+We shall have a = " ti(i + a2{-2 + a3f3(mod 10 ) , where f2 , f3 are found thus :\#151 ; = ( 2 ' + i)(1 + 2 xx = 1 [ mod ( 1 + 5i =5 1 [ mod ( 1-4- a')2 ] , 4# !
+= 1 [ mod ( 1 + xx = i , and therefore = 5 ( mod 10 ) .
+f2 = ( 1 + if ( 1 + 2 = 1 ( mod 2 + i ) , ( 2 i \#151 ; 4 ) cc2 = 1 ( mod 2 + i ) , \#151 ; Sx2 = 1 ( mod 2 + i ) , cc2 = 3 ( mod 2 + t ) , and therefore f2 = 8 + 6i ( mod 10 ) .
+\#163 ; 3 = ( 1 + if ( 2 + i ) = 1 ( mod 1 + 2t ) , ( 4i \#151 ; 2 ) cc3 = 1 ( mod 1 + ) , \#151 ; 4a ?
+3 = 1 ( mod 1 + 2i ) , x3 = 1 ( mod 1 + 2 and therefore ^3 = 8 + 4i ( mod 10 ) .
+Hence e.# .
+, if a = 5ax + ( 8 + 6t ) a2 + ( 8 + 4i ) a3 ( mod 10 ) , ai a2 a3 1 [ mod ( 1 + i)2 ] 4 ( mod 2 + ^ 3 ( mod 1 -J- 2 J then a = 5 + ( 8 + 6i)4 + ( 8 + 4i ) .
+3 .
+( mod 10 ) , = 5 + 2 + 4\#187 ; 4- 4+ 2 ( mod 10 ) , = 1'+ Qi ( mod 10 ) .
+( xxi .
+) The number of numbers which belong to a given exponent when the modulus is a power of a prime .
+We have three cases to consider ( 1 ) When the modulus is a power of a pure prime .
+( 2 ) When the modulus is a power of a mixed prime .
+( 3 ) When the modulus is a power of 1 + \#163 ; ( 1 .
+) We saw in Proposition xiict , that for the modulus px we can generate the \lt ; E\gt ; ( px ) = p2(x_1 ) ( ^\gt ; a \#151 ; l ) residues prime to the modulus by three generators f and f each with exp px~1 ' and \gt ; h with exp p3 \#151 ; 1 .
+How many of the residues have exponent pst , where X \#151 ; 1 and t divides p3 \#151 ; 1 ?
+Of the p3 \#151 ; 1 powers of h , \lt ; f\gt ; ( t ) have exponent t. Of the px ~1 powers off } p3 have exponent a power of p p\#174 ; .
+Of the px~ 1 powers of f\ p3 have exponent a power of p p3 .
+Therefore f and f ' generate p2\#174 ; numbers with exponent p3 , and similarly p24-2 numbers with exponent p\#174 ; " \ Therefore f and f generate'p2\#174 ; \#151 ; p2\#174 ; " 2 numbers with exponent p* .
+Therefore f , f ' , and g generate ( p2\#174 ; \#151 ; p2\#174 ; ~2 ) \lt ; f\gt ; ( t ) numbers with exponent pst , i.e. , the number of numbers with exponent pst mod pA is ( p2\#174 ; \#151 ; p2\#174 ; ~2 ) \lt ; f\gt ; ( t ) .
+In particular the number of numbers with exponent p\#174 ; is p2\#174 ; \#151 ; p2\#174 ; " 2 , and the number of numbers with exponent tis rj\gt ; ( t ) if t is prime to p. ( 2 .
+) Any power of a mixed prime , ( a + has primitive roots , and hence , as in ( 21 ) , the number of numbers with exponent t [ any divisor of ( a3 + / 32)A \#151 ; ( a2 + / 32)A - J ] is ( j\gt ; ( t ) .
+( 3 .
+) The number of numbers with exponent a given power of 2 for modulus ( 1 + i)y was found completely in Propositions xiv .
+and xv .
+( xxia .
+) It will be convenient for the succeeding propositions to express the number of numbers which have a given exponent for modulus ( 1 + ?
+*)A\gt ; in terms of the exponents of the generators .
+By so doing we shall avoid the detailed discussion of the cases arising from different values of X , which was necessary in Part I. Suppose 2* , 2* ' , 2 " " are the exponents of the generators .
+The exponent of the product of any powers of the generators is equal to the highest exponent of the three ( Proposition viii .
+) .
+FOR ANT COMPOSITE MODULUS , REAL OR COMPLEX .
+281 .
+The generator with exponent 2* generates 2s numbers with exp if \gt ; 2* numbers with exp if \lt ; Suppose by ( k)s we denote that k is to be replaced by if exceeds s. Then in either case the generator with exponent 2* generates 2 ( k)* numbers with exp 2* .
+Similarly the two other generators generate respectively 2^ % numbers with exp 2s , and 2 O ' 0* numbers with exp ^ 2s , Therefore the three generators generate 2 ( k + K ' + K\gt ; f)* numbers with exp 2s , i.e. , there are , for modulus ( 1 + ?
+')\ 2(*+ *'+ *")* numbers with exp 2s .
+Similarly there are 2 ( " + K\gt ; + K")s -1 numbers with exp ^ \ Hence there are 2 ( * + *\#166 ; ' + K , f)s mmm + k ' + #\#163 ; '')$ _ l numbers with exponent 2s for modulus ( 1 4This result clearly holds good when one or two of the s is absent , as is the case when X is less than 5 .
+( xxii .
+) The number of numbers , for modulus m , each of which has as exponent some power of a prime p , p being a divisor of \lt ; E\gt ; ( m ) .
+Let m = ( l . . .
+Qi^Q/ 9 . . .
+where Pl9 P2 , . . .
+are pure primes and Ql5 Q3 , . . .
+are mixed primes .
+\lt ; I\gt ; ( m ) = \lt ; I\gt ; ( 1 + i)K .
+\lt ; E\gt ; ( P/ 1 ) .
+\lt ; E\gt ; ( Pa*2 ) . . .
+\lt ; E\gt ; ( Qf*1 ) \lt ; \amp ; ( Qa'*2 ) . . .
+^\gt ; ( 1 -J- i)* \#166 ; = .
+2k'2k''2Ko " where 2K ' , 2* ' ' , 2K'"f are the exponents of the generators for mod ( 1 and suppose that \lt ; 3\gt ; ( Pj*1 ) = ( Px2 \#151 ; 1 ) = 2KlpllqWl . . .
+\lt ; 3\gt ; ( Pa^ ) = Pa2\lt ; A2_1 ) ( P22 \#151 ; 1 ) = 2 . . .
+\amp ; c. \amp ; c. 2 o With regard to these we shall follow a convention which will be useful in simplifying the next proposition .
+Firstly , we write t2K'2Ko'2K ' ' , and not 2'Co+'t ' ' + '\#163 ; o " .
+Thus the value of ( %k)8 will be ( *0 + kq + k0 " + K\ + *2 -f . . .
+)*\gt ; aRd not ( k0 + *o + Ko " + + + . . .
+)* .
+Secondly , in 2K'phq*1. . . .
+occurs the prime Pj raised to the power 2 ( \x \#151 ; 1 ) .
+We shall suppose it written P^1-1 .
+P^1-1 , and not Pj !
+( Al_1 ) .
+For the rest of the principal factors no such arrangement is necessary .
+Let \lt ; t\gt ; ( Q^ ) = 2 " ' . . .
+\lt ; \#163 ; \gt ; ( Q/ 2 ) = 2 ^ . . .
+\amp ; c. \amp ; c. As in ( 22 ) the number of numbers which have some power of p as exponent is the product of the number of such numbers for each separate modulus ( 1 + , PxAl , \amp ; e. Now the number of numbers for mod PxAl is the power of in \lt ; J\gt ; ( P/ 1 ) " " " Ps** " " \lt ; I\gt ; ( P^ ) Prop. ( xxi .
+) .
+Qr i\gt ; ( Qr ) .
+\amp ; c. Hence the number of numbers with exponent a power of is In particular the number of numbers with exponent a power of 2 is 25( , t ) .
+( xxiii .
+) The number of numbers having a given exponent for modulus m , p* being a divisor of the greatest exponent .
+Any such number has a power of p or unity for its exponent for each of the moduli ( 1 i)K , P/ 1 , . . .
+\amp ; c. , and the greatest power of p among these exponents must be p\ As in ( 23 ) the number of numbers , modulus P/ 1 , which have as exponent a power of p not greater than p*is ( if Px is not p ) p(ll ) ' .
+In the particular case when P2 is the prime p , if K and if 1 is \gt ; s there are p2s numbers , mod PxAl with exp a power of p \gt ; pf " Xx \#151 ; 1 is \lt ; sthere are^ ?
+2(Al 1 } , , " " " In either case the number is _p(Al_1 + Al_1 ) ' .
+Now we have arranged that in \lt ; I\gt ; ( PiAl ) the power of Px ( p in this case ) shall be written plyplx , and not pztl : thereby we easily express the number of numbers with exponent a power of p }\gt ; p* for modulus PjAl , which is p ( ll ) , p { ll ) ' or p ^+ ll ) ' , but which is not p^ll\ For modulus Q/ 1 the number of numbers with exponent a power of ^ is p(llK Multiplying these numbers we get p\amp ; v\gt ; ' as the number of numbers with exponent a power of p ^ps , .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Hence the number of numbers with exponent modulus m is __ Example.\#151 ; Mod 33 ( 3 + 2i ) .
+The greatest exponent is the L.C.M. of 32(32 \#151 ; 1 ) and 12 , = 72 .
+We will find how many numbers have exponent 32 , and how many numbers have exponent 3 .
+O ( 33 ) = 23.32.32 0(3 + 2 i ) = 23.3 .
+The number of numbers with exponent 32 is g(2 + 2 + D2 \#151 ; .
+g(2 +2 + l)i = 35 - 33 .
+The number of numbers with exponent 3 is Hence g(2 + 2 + l)i __ J = 38 - 1 .
+35 \#151 ; 33 numbers have exp 32 .
+33 \#151 ; 1 numbers have exp 3 .
+and Y number has exp 1 .
+j ( xxiiict .
+) By writing O ( t + i)K in the form 2K'2K''2Ko " we are enabled to apply exactly the same method to this case as we have to the case of any odd prime p. The result we obtain is that the number of numbers with exponent 2s for mod m is 2\#174 ; *)$ \#151 ; \#151 ; i# Example.\#151 ; Mod 12 + 4i = i(1 + iy(1 + 2 Highest exponent = 23 .
+O ( m ) = 26 .
+0(1 + f)5 = 22.2.2 .
+0(1 + 2 i ) = 22 .
+The number of numbers with exponent 22 2\#169 ; + 1 + 1 + 2)2 " * ( 2 + 1 i-1 + 2)i \#151 ; 2 ' \#151 ; 24 .
+2 o 2 284 MR. G. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS The number of numbers with exponent 2 Thus there are 2\lt ; 2 +1 + 1 + 2)i _ i = 24 \#151 ; 1 .
+26 \#151 ; 24 numbers with exp 4 .
+" J .
+24 -1 " 2.1 1 M \#187 ; 1* J Corollary to xxiii .
+and xxiiia.\#151 ; The number of numbers that belong to any exponent is simply the product of the number of numbers that belong to each of its principal factors as exponents .
+Thus , for mod m , the number of numbers with exp t = ... is jj/ Sfc __ rp(^)g \#151 ; iJ [ qVm)a mmmm \#151 ; ij Example.\#151 ; Mod ( 1 + i)6.'3s ( 3 + 2 i)(4 + = \#151 ; i.(10 + lli ) .
+\lt ; \#163 ; ( 1 -h if = 2 .
+22 .
+22 .
+3\gt ; ( 32 ) = 23 .
+3 .
+3 .
+\lt ; \#163 ; ( 3 + 2i ) = 22 .
+3 .
+4\gt ; ( 4 + i ) = 24 .
+The highest exponent is 24 .
+33 .
+3\gt ; ( m ) = 214 33 .
+The numbers k are 1 .
+2 .
+2 .
+3 .
+2 .
+4 .
+( 2k)4 = 14 , ( S/ c)3 = 13 , ( 2* ) , = il , ( 2k ) , = 6 , ( 2k)o = 0 .
+Therefore 214 \#151 ; 213 numbers have exp 24 , 213 - 211 " 2n \#151 ; 26 26 - 1 " 23 , , , 22 , " 2 .
+The numbers l for the prime 3 are 1 .
+1 .
+1 .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX , ( tl ) !
+= 3 , ( tl)o = 0 , therefore 38 \#151 ; 1 numbers have exp 3 .
+From these we deauce that ( 33 \#151 ; l)(214f \#151 ; 213 ) numbers have exp 3 .
+24 , ( 33 \#151 ; 1 ) ( 218 \#151 ; 211 ) " " " 3 .
+23 , ( 3s - 1 ) ( 211 - 26 ) " " 3 .
+22 , ( 33 \#151 ; l ) ( 26 \#151 ; 1 ) " " " 3.2 .
+Including 1 which has exponent 1 , this makes the complete set of 2U .
+33 numbers , ( xxiv .
+) A special set of generators which generate the \lt ; E\gt ; ( m ) numbers , modulus m. ra= ( 1 + ?
+iXl . . .
+Qr* . . .
+Three numbers \lt ; j\gt ; , \lt ; j\gt ; , \lt ; \#163 ; " , generate the residues for modulus ( 1 + i)\ ( Propositions xiii .
+and xvi .
+) Two numbers \lt ; h\gt ; fi\gt ; generate the residues for modulus Px\ ( Proposition xiict .
+) , \amp ; c. One number g\ generates the residues for modulus Qf\ ( Proposition xii .
+) , \amp ; c. Suppose any number ci modulus wi is EE \lt ; *o [ m 'd ( 1 + ^K ) ] EE ( mod P^1 ) , \amp ; c. =a\ ( mod Qf*1 ) , \amp ; c. Then If now a = a0f0 + \#171 ; ^ + . . .
++ " 'if ' ] + . . .
+( mod m ) .
+( Proposition xix .
+) Oo = [ mod ( !
++ \#187 ; ) ' ] \#171 ; i \#151 ; ( mod P^t \amp ; C. a I = g'l1 ( mod Q/ 1)* \amp ; c. Thus a = + ffi''/ Hi + . . .
++ 9'i'Zi + . . .
+( mod m ) = Of , + fi + . . .
++ f'l + . .
++ fi + . . .
++ f'i + . .
+.]\#166 ; ' " [ +"fo + fi + . . .
++ f 1 + .
+i -T ' [ f. + + + + [ fo +/ ifi + . . . ?
+... [ fo + fi + ... + 9'if'i + . .
+.J ' . . .
+( mod m ) = [ ( * - 1 ) ^ + I]* [ ( - 1 ) fo + [ ( \lt ; #\gt ; " ~ l ) fo + iJ'0 C(^i - + 1 [ ( / , - 1 ) + ip1 . . .
+~ 1 ) + 1T \#166 ; \#166 ; \#166 ; ( mod m\gt ; - where the numbers in the square brackets are a set of generators whose exponents are , in order , k0 , k'0 , k"0 , P^1"1 ( Px2 - 1 ) , PxXl_1 , . . .
+* ( Qi* ) . . .
+whose product is equal to \lt ; 3\gt ; ( m ) .
+Example.\#151 ; Mod 10 = \#151 ; ( 1 4* if ( 2 4* i ) ( 1 4* 2a ) 1 with exp 2 generates the 2 numbers mod ( 1 + if 2 4 " 4 " 2 + a* 2 " 4 , , 4 " 1 4* 2a .
+Hence the following will generate the \lt ; I\gt ; ( 10 ) = 32 numbers , mod 10 , viz. , *ft + ft + ft ft + 2ft 4* ft f mod 10 , ft + ft + 2ft where Hence ft = 5 ft = 8 ft = 8 + 4 i.(See Example , Proposition xix , ) 5 i+ 8 4 -6a4- 8 4- 4i = 6 + 5r 5 4- 2(8 4- 6i)4- 8 4 h ' =9 4* 0i Mmod 10 ) .
+5 4- 8 4 " 6 ?
+-f 2(8 + 4i)=9 + 9 4 " with exp 4 9 4 6i , , 4 6 4- 5i " 2 generate the 32 residues .
+The indices corresponding to each of the 32 numbers are given in the following table .
+Numbers .
+Indices of Numbers .
+Indices of 6 h'l .
+9 + 6i .
+9 + 4i .
+6+ hi .
+9 + 6i .
+9 + 4fc 1 0 0 0 6 + hi 1 0 0 9 H 0 0 1 4 + 9 ?
+1 0 1 5 + 2 0 0 2 1 0 2 7 + 8 0 0 3 2 + 3i ] 0 3 9 + 6i 0 1 0 4+ 1 1 0 7 0 1 1 2 + 1 1 1 .
+3 + 8 i 0 1 2 8 + 3 i 1 1 2 5 + 4d 0 1 3 9 i 1 1 3 5 + 8 0 2 0 Si 1 2 0 3 + 21 0 2 1 8 + 7 % 1 2 1 9 0 2 2 4 + $i 1 2 2 1 + 6i 0 2 3 6 + i 1 2 3 7 + 2 i 0 3 0 2 + 7 1 * 0 5 + 6i 0 3 1 i 1 3 1 1 + 4i 0 3 .
+2 , 6 + 9 % 1 3 2 3 0 3 3 8 + hi 1 3 3 E.g. , 6 4- ?
+=(6 4* 5a ) ( 9 4* 6a)2 ( 9 -j- 4a)3 ( mod 10 ) .
+FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+( xxv .
+) Proposition ( 25 ) is completely applicable to the case of complex numbers and moduli .
+The result arrived at we may re-state as follows:\#151 ; The most general set of numbers which generate the 3\gt ; ( m ) residues for modulus must always be constructed in this manner , viz. , we must form a set of jp-power-exponent generators a set of ( j'-power-exponent generators \amp ; c. \amp ; c. q , . . .
+being the prime factors of \lt ; E\gt ; ( m ) , each generator must then be formed by taking numbers from these sets , not more than one from each , and forming their product .
+Each number , moreover , in these subsidiary sets is to appear once and once only as a factor of one of the generators that a.re thus formed .
+It remains to investigate the most general mode of formation of a set of ^-power-exponent generators .
+( xxvi .
+) The proof of Proposition ( 26 ) holds good for complex numbers and moduli .
+It shows that the exponents of any set of p\gt ; -power-exponent generators must be the same set of powers of p as those which occur in the \lt ; E\gt ; 's of the principal factors of m ; i.e. , they are what have been denoted by pl\ pl\ . . .
+p1'1 , pl\ . .
+( see Proposition xxii .
+, in which the convention stated must be strictly attended to ) .
+The convention of Proposition xxii .
+makes the treatment of the 2-power-exponent numbers uniform with that of the p-power-exponent numbers ; hence the same result is true for the 2-power-exponent numbers , viz. , that the exponents of any set of 2-power-exponent generators must be 2* ' , 2* ' ' , 2* " ' , 2*1 , . . .
+2K'1 . . .
+The least number of generators for a given modulus m. As in ( 26 ) we see that the least number of generators is equal to the number of terms of that row which contains most among the following :\#151 ; *0 K'o K"o *2 . .
+* K'l K '2 .
+* .
+H . . .
+^ l ^ 2 .
+v . . .
+m\ m2 . . .
+Consider first the set of numbers , k0 k0 k"q Ky. . .
+k l . . .
+Since Px is an odd prime , therefore 4\gt ; ( P1^ ) = P12(Xl-1)(Pi2- !
+) is even , and therefore / q always occurs .
+Similarly in \lt ; J\gt ; ( Q , \#171 ; ) = ( a,2 + ( " i2 + A2 - 0 288 MB .
+G. T. BENNETT ON THE RESIDUES OP POWERS OF NUMBERS af + ft ?
+is a real odd prime number , and therefore ( Qr ) is even , and therefore k\ always occurs .
+For the numbers , kq k0 k"q , all three occur if two occur if one occurs if none occur if k \gt ; 4 [ m = ( 1 + i)K PiXl . . .
+Qr . . .
+] , \#171 ; = 4 , K = 3 , 2 , 1 , K = 0 .
+Hence , if we denote by n the number of different prime factors , Px P2 . . .
+Qi Q2 . . .
+of m ( excluding 1 + i ) then the number of terms in the set of numbers kq k 0 Ki . . .
+k\ . . .
+is n + 3 if \gt ; 4 , n + 2 if = 4 , Ti+ l if k= 3 , 2 , 1 , 71 if AC = 0 .
+These numbers give an inferior limit to the least number of generators .
+In all but one exceptional case the least number of generators coincides with these .
+Consider next the set of numbers , lx l2 . . .
+/ / . . .
+iyoccurs if p divides 3\gt ; ( P^ ) = P12^-D(P12 - 1 ) .
+If it divides Px2- 1 it occurs once .
+If it is identical with Px then it occurs twice ( / x = Xx \#151 ; 1 ) , and the set of numbers would be written lx lx l2 . . .
+1/ . . .
+l2 occurs if p divides \#174 ; ( Q Therefore the number of terms in the set exceeds ( and is equal to + 1 ) only when m is such that ( Qi1*\gt ; )\gt ; ( Qa*2 ) , . . .
+\lt ; E\gt ; ( Pix , )\#187 ; $ ( IV2 ) . . .
+are all divisible by p and also one of the primes , Px , P2 , ... is equal to p. If this be the case when k = 0 the least number of generators is n + 1 .
+FOB- ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+The result may be stated thus :\#151 ; If n be the number of different prime factors of = ( 1 + .
+, .
+excluding ( 1 + i ) , then the least number of generators is n + 3 if k \gt ; 4 , n + 2 if k = 4 , n + 1 if k = 3 , 2 , 1 , n if k = 0 , unless one of the primes Px divides P23 \#151 ; 1 , P33 \#151 ; 1 , . . .
+and ^(Qf*1 ) , 3\gt ; ( Q/ 2 ) , ... in which case it is n + 1 .
+( xxvii .
+) The formation of a set of unitary y\gt ; -power-exponent generators for mod Let a be any ^-power-exponent number , and a EE a\lt ; )fo " h aifi " h a2^2 + . . .
++ aifi H " a 2^2 H " . . .
+( m 'd Then a0 , ax , a2 , . . .
+a'j , . . .
+must each have as exponent , for its own modulus , either unity or a power ofy\gt ; .
+Suppose first that p is not = 2 , but an odd ( real ) prime .
+Take y1 with exp p ( mod P^1 ) , y2 " " p ( mod P2*2 ) , \amp ; c. , \amp ; c. , if in any case p is not a factor of 3\gt ; ( Px ) vis = 1 .
+If for one of these , say Px , p = P1 ?
+then take also ft with exponent modulus ft*1 , as in Proposition xii .
+, so that ft and ylt each with exponent = Xj \#151 ; 1 , generate all the j9-power-exponent numbers , modulus P/ 1 .
+Take also y\ with exp p mod Q/ 1 , y 2 " .
+p * ?
+\gt ; ) Q2^2j \amp ; c. , \amp ; c. Then we have a0 = 1 [ mo(l ( !
++ *)"]* and can put ( mod P^ ) , a2 = y\lt ; t(mod p2X2 ) ; \amp ; c. , \amp ; c. , \#171 ; !Ey\x ( mod Qfl ) , a'2 = y'/ * ( mod Q/ 2 ) , \amp ; c. , 290 MR. Gr .
+T. BENNETT ON " THE RES [ DUES OF POWERS OF NUMBERS and so a = [ ( yj \#151 ; 1 ) ft + Ij1 [ ( Pi \#151 ; 1 ) ft + Ip1 [ ( yz " 1 ) \#163 ; 2 + l]'4 . . .
+1 i(y\ \#151 ; i)'\#163 ; '\ + 1J1 \#151 ; 4-1 ... ( mod The quantities in the brackets we shall denote by . . .
+Each is congruent to unity for all but one of the principal factors of m as moduli .
+Their exponents are the exponents of any set of y\gt ; -power-exponent generators ( Proposition xxvi .
+) , viz. , pl\ p\ . . .
+Next let p = 2 .
+Then take \lt ; \#163 ; , \lt ; \#163 ; ' , \lt ; j\gt ; " , generators for mod ( 1 + i)K y1 a number with exp 2*1(mod P/ 1 ) , \amp ; c. \amp ; c. y\ a number with exp 2*'1 ( mod Q^1 ) , \amp ; c. \amp ; c. Then a0 = [ mod ( 1 + i)K ] a1 = yi1 ( mod P^1 ) , \amp ; c. , a'l = y\** ( mod Q^1 ) , \amp ; c. and , therefore , \#171 ; S [ ( * -1 ) 4 + 1 y [ ( f -1 ) 4 + 1 y [ ( ?
+" \#166 ; -1 ) 4+ IF Kn -i)4 + if ... . .
+[ ( r'i \#151 ; 1 ) ? !
++ l J\gt ; . . .
+( mod m ) , and the numbers in brackets are unitary generators of the numbers , modulus m , with exponent powers of 2 .
+Each is congruent to unity for all but one of the principal factors of m , and their exponents are 2* ' 2*\#174 ; 2* " ' 2*1 2"* . . .
+2'tl 2K* . . .
+Thus , in either case , whether p is an odd prime or equal to 2 , we can form a SQt of p-power-exponent generators ( having the exponents found to be necessary in Proposition xxvi .
+) , such that each is congruent to unity for all but one of the principal factors of m [ ( 1 -f i ) , P^1 , . . .
+Q^1 . . .
+] as moduli .
+( xxviii-xxxi .
+) Propositions 28-30 are concerned with a discussion of the most general mode of formation of a set of -power-exponent generators .
+They are throughout completely applicable to the case of complex numbers and moduli .
+The result we may state as follows .
+Let glt g2 , . . .
+g^ be a set of unitary ^-power-exponent generators .
+Then r2 . . .
+( with the same set of powers of p as exponents ) as given by FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+ri - 9i"yf'g* " . . .
+\lt ; /\gt ; \#166 ; ] r2 = 9i " 9s " 9s " \#166 ; \#166 ; \#166 ; 9 ( mod m ) r " = 9i* 93* 9S* J will be independent generators provided that the determinants formed by the indices i , ( ^ll * V* *oa ) " 1 ( h+1 a + 1 . . .
+% ) [ n ^ are all prime to p. ( ... ... ... .v)J The indices i which occur in any one of these determinants , are those which occur as indices of generators g all with the same exponent ; the generators T , in which they occur , having also this same exponent .
+The summary of Proposition ( 31 ) is also true of generators for complex moduli , ( xxxii .
+and xxxiii .
+) With one modification , Propositions ( 22 ) and ( 23 ) hold good for complex numbers and primes .
+If in ax* = b ( mod m ) a and m have G.C.M k , then Each solution , x , of the second congruence gives N ( solutions of the first , viz. , all the numbers x + s \#151 ; , where s is any one of the N ( k ) incongruent residues for modulus k. The solutions of the congruences which follow are intended as examples of these propositions and also as illustrations of the Tables placed in the Appendix .
+Example 1 .
+7x3 = 3 ( mod 4 + 2 From the tables ( 0 ( 2 ) 3 = ( 3 .
+0 ) therefore 7 = ( 1 .
+0 ) , therefore xz = ( 2 .
+0 ) , a ; = ( 2 .
+0 ) x- \#151 ; 9 ( mod 4 + 2 2 P 2 Example 2 .
+From the tables therefore therefore , if therefore therefore ( 2 + i)x3 = 3 + 2i ( mod 9 ) .
+( 24 ) ( 3 ) 3 + 2 i= ( 22 .
+0 ) 2 + i = ( 1 .
+0 ) , x3 = ( 21 .
+0 ) , x EE ( a. b)\gt ; 3a = 21 ( mod 24 ) , a= 7 , 15 , 23 ( mod 24 ) 36 = 0 ( mod 3 ) , 6 = 0 , 1 , 2 ( mod 3 ) .
+There are thus nine solutions , viz. : ( 7 .
+0 ) = 1 + 7i(15 .
+0 ) = 7 + 7i ( 23.0 ) ( 7 .
+1 ) = 1 + ii ( 15 .
+1 ) = 7 + 4 ( 23 .
+1 ) ( 7 .
+2 ) = 1 + i ( 15 .
+2 ) = 7 + ( 23 .
+2 ) Example 3 .
+From the tables therefore and therefore Example 4 .
+and so Let Then 3.x3 = 3 + 2 i(mod 10 ) .
+( 4 ) ( 4 ) ( 2 ) 3+ 2iEE ( 1 .
+2 .
+0 ) 3 =(3.3.0 ) , x3 = ( 2 .
+3 .
+0 ) , x = ( 2 .
+1 .
+0 ) x EE 3 + 3x3 = 3 + 2 i(mod 30 + 20i ) , 33Ti'i-1(modl0)-x = ( 3 + 2 3 ( 3 + 2i)'z ^ = 1 ( mod 10 ) 4 + 7 4+ 4 4 + i FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Now therefore also therefore therefore therefore , if and therefore Example 5 .
+This is therefore Let Then From the tables ( 4 ) ( 4 ) ( 2 ) 3 + 2i = ( l. 2 .
+0 ) , ( 3 + 2if= ( 2 .
+0 .
+0 ) ; 3 = ( 3 .
+3 .
+0 ) , 3(3 + 2t)3 = ( l. 3 .
+0 ) , f3 = ( 3 .
+1 .
+0 ) , f = ( a. b. c ) 3a EE 3 ( mod 4 ) 36 EE 1 ( mod 4 ) = 3 3c EE 0 ( mod 2 ) ^ 0 ?
+= ( L 3 .
+0 ) = 5 + 6^ ( mod 10 ) , x = ( 3 + 2i ) ( 5 + 6i ) ( mod 10 3 + 2 = 3 + 28i = 103 + Si ( mod 10.3+ 2 4x5 = 14 + 7i(mod 15 + lOi ) .
+4x5 == 7 ( 2 + i ) ( mod 2 + i. I + 2i .
+3 + 2t ) , 4 = 7 ( mod 8 + 1 ) .
+as = ( 2 + \#187 ; ) f. 4 ( 2 + = 7 ( mod 8 + i ) .
+( 12 ) ( 4 ) ( 2 + v ) = 59 ( mod 8 + i ) , = ( 11- 3 ) , therefore ( 2 + i)* EE(8 .
+0 ) , 4 EE ( 2 .
+0 ) , therefore therefore therefore , if So ( 2 + if .
+4 EE ( 10 .
+0 ) , P = ( l. 2 ) , f =(\#171 ; .
+b ) , 5a = 1 ( mod 12 ) , a = 5 , 5b = 2 ( mod 4 ) , 6 = 2 , f = ( 5 .
+2 ) , = 58 ( mod 8 + i ) .
+x = 58 ( 2 + i ) ( mod 15 -f- 1(H* ) Example 6 .
+and therefore = 1 + 2x2 = 26 + 32 ( mod 40 ) , x2 = 13 -f* 1.6* ( mod 20 ) .
+Each solution of the latter gives four of the former , viz. , x , x-j- 20 , x + 20^ , + 20 + 20 ( mod 40 ) .
+The congruence is x2 = \#151 ; i ( 1 + 2 if(4 + i ) [ mod ( 1 + i)4 .
+( 2 * ) .
+( 1-+ 2* ) ] , therefore / vti =-i(l+ 2 i)(4 + i ) [ mod ( 1 -f ( 2 + * ) ] .
+Let Then ( 1 + 2 f2 and therefore From the tables x = ( 1 -j- 2t ) f ( mod 20 ) .
+= \#151 ; i ( 1 + 2 i)(4 -f- i ) [ mod ( 1 + if* ( 2 + * ) ] , ( 2 = \#151 ; i. ( 4 + 0 ( mod 8 + 4i ) , = 1 \#151 ; 4* ( mod 8 + 4 \#163 ; 2 = 9 ( mod 8 + 4i ) .
+( 4 ) f4 ) ( 2 ) 9 = ( 2 .
+0 .
+0 ) , and therefore \#163 ; .='(2 .
+0 .
+0 ) .
+FOB ANT COMPOSITE MODULUS , BEAL OB COMPLEX .
+This gives eight solutions f = ( l. 0 .
+0)= 17 , = ( 3 .
+0 .
+0 ) = 13 , = ( 1 .
+2 .
+0)= 7 , = ( 3 .
+2 .
+0)= 3 , = ( 1.0.1)= 1 + 2 = ( 3 .
+0 .
+1 ) = 17 + 2i , = ( ] .
+2 .
+1 ) = 11 + 2 = ( 3 .
+2 .
+1 ) = 7 + 2 Hence there are eight solutions of the congruence viz. , x2 = 13 + 164 ( mod 20 ) , 7 + 4f 17 + .
+7 + 14i 3 4 " 13 " j " 3 " f " 16i and hence there are 32 solutions of the congruence viz. , 2x2 == 26 + 32 ( mod 40 ) , 7 + 4 .27 + 4 4 7 + 244 27 + 244 3 4 " 04 23+ 64 3 + 264 23 + 264 17+ 44 37+ 44 17 + 244 37 + 244 13+ 64 33+ 64 13 + 264 33 + 264 7 + 144 27+ 144 7 + 344 27 + 344 3 + 164 23 + 164 3 + 364 23 + 364 17 + 144 13 + 164 17+ 14 37 + 144 17+ 344 37 + 344 13 + 164 33 + 164 13 + 364 33 + 364 MR. G. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS Tables op Indices for all Moduli whose Norms do not exceed 100 .
+Description of .
+The following Appendix contains Tables of Indices for all the moduli whose norms do not exceed 100 .
+For each modulus two tables are given : the first arranged so as to show readily the number that corresponds to given indices , the second to show what indices correspond to a given number .
+At the foot of any column , or the end of any row in which indices are tabulated , is placed in a bracket the exponent of the generator to which those indices refer .
+With each table are noted the formulae necessary for finding to which of the numbers in the table any given number is congruent .
+There are also given for convenience the prime factors of the modulus , the norm , the highest exponent , the value of \lt ; E\gt ; expressed in factors which show the exponents of the generators , and the generators used in the table .
+All these will be found collected in the reference table next following .
+In this are also noted , for each modulus , the least possible number of generators and the values of the numbers f of Proposition xix .
+E.g. , for the modulus 5 + 5 we read thus :\#151 ; 5 + 5i= \#151 ; i(l + ?
+) ( 2 + i)(l + 2i ) , N ( 5 + 5i ) = 50 , #(5 + = 16 = 22 .
+2* .
+Highest exponent = 4 .
+Least number of generators = 2 , those used in the table being 4 + iand 9 + 4 ? .
+Also if a EE a0 ( mod 1 + i ) EE ( mod 2 + = a2 ( mod 1 + 2 then a = 5a0 + ( 3 + i ) oc } + ( 8 + 4 a2 ( mod 5 + 5t ) .
+The reducing formulae ( see preface , Part II .
+) are y == Y ( mod 5 ) , xEE X + Y \#151 ; y ( mod 10 ) .
+The tables of indices for powers of 1 + ias moduli , up to ( 1 + if , are placed at the end .
+[ The tables have been calculated with some care , but they have not been revised .
+] FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
++ \lt ; 0 .
++ .
+CM \lt ; M CO CO iO 0^01 lO ^CO O CO ^ I\gt ; CO O *0 CO o* rH pH pH .
+rH ( N ( N ( M ^ O N O rH CO CO CM CO I\gt ; 1C 1\gt ; o o rH lO rH 0\gt ; rQ a pi a CD rd EH * co '10s co " CO + CO + CO rH CO 00 rH ^ CO iH* lO o pH co~ CO CM *o CM + 00 .\#171 ; r + CO nd \#169 ; XJl d OQ o o .c* CM **5\gt ; I V- .
+CM \gt ; \#171 ; .\#171 ; \#187 ; +\#171 ; Cl _(_ CO + 00 ^ Cl 1\gt ; * \lt ; M _J_ - V* pH CO cS + tP + .\lt ; s\gt ; CM .\#171 ; S\gt ; + .0\#171 ; \gt ; CO CO + OS .\lt ; \gt ; \gt ; S 50 .W+ 50 .
+\lt ; M\lt ; N *1 + + OS .cT + .8 * 6 S Sz ?
+610 rH rH .H rH rH 1H iH CM rH rH CM CM rH pH rH CO rH CM rH CM H CM 1\#151 ; \#187 ; r\#151 ; * CM m rH 03 00 03 CO 00 O CM 00 CO 00 CO O 00 00 O W rH iH CM pH CM rH CO Tp CM CM : .
+S CO ct CM .
+G3 CM CM JlO CO IN .
+CM CO CM CM CO CM CM JO CO CM CO 10 CM CM \#187 ; w\gt ; e .
+\#171 ; CM CM CO CM CM CM CM e** CM CM CM CO CM CM* CM* CM CM * CM CM* CM CM* CM CM* CM CM CM* CM CM* CM CO* CM CM* CM V CM CM* CM CM* CM li II II II II II II II II II II II II II II II II II II II II II II pH ( M ^ 00 \lt ; M 00 CO OQ 00 CO O CM 00 \lt ; T\gt ; CO CO CO CO 0 Cl 00 O CO r-J rH rH CM rH CM rH p\#151 ; 1 pH CO rH CO C3 rH / -N \#163 ; d *o 00 os O CO CO 00 O lO iO CO OS CM HP CO 1\gt ; \#187 ; O rH 10 OS O O iH rH rH rH rH CM CM CM CM CM CO CO CO CO HP1 JlQ S- + re 4- % x0\gt ; cc s rO \amp ; \lt ; x\gt ; H H3 o QQ cc CD Gj lO r\#151 ; I CO O ^ rH \#187 ; \#151 ; \lt ; O CM CM CO rH ^ rH *D In QO IN* CO CO rH rH CO IN* CO rH CO In ID rH rH ( M HP CM HP CO r\#151 ; I V______________/ \lt ; \#151 ; COC500I\gt ; OOCQ , ^iOlN .
+CO\lt ; MiOiHI\gt ; CO l\gt ; CO ^ rH N CO iQ ( M CJ I\gt ; ^ CD CM CO \gt ; D 00 xO iQ CD CM CD ^ \lt ; M CO rH ^ 05 CM O i\gt ; o CM 05 CM 00 iD 00 05 00 $ N 05 rH o o xO rH O O 00 00 \lt ; M xO O rH CD rH CO rH ^ CO rH CO .
+\#171 ; * 00 CM .
+co\gt ; .
+oT .
+ccT I\gt ; r oT * .
+i\gt ; T jlO * rH rH .
+* ^ .
+-tC uf rH CM CM rH CO- xO id ' rH CM + 00 vf CD 4- 00 ID .\#171 ; o CO .c\amp ; +'l ( M .
+.\#171 ; T \lt ; M CM + ; * CM\lt ; D W CO CM _j_ jnT .^ ^ + xOxO rH rH rH **T ( M - ofco\#174 ; ^ xO xo CM xO .\#171 ; * -l- *\#171 ; * ?
++ " f + WT\#187 ; CO CO a + \#171 ; \#169 ; \#166 ; + 05 + 05 6 S3 jzj \amp ; o ( M rH rH rH CO \lt ; M CM CM rH rH CO CM rH CM rH CM rH rH CM CO H.E. 12 52 % s CM rH 16 00 ( M IN* 36 24 40 16 QQ 00 00 96 48 20 Hf* CO xD CM CM CO s , CO xO Ol / H g CM CO rH I\gt ; CO CM* CM CM* CM CM CO CM N CO CM* CM 00 XO cq rH rH CO CM CO CO CM* CM I0( CM CM* CM \amp ; CM CM* CM CM CM* CM CO* CM Si ( M CM Si CM* .
+CM 00* CM CM* CM io* CM \amp ; cm ' CM* II II II II II II II II II II II II II II II II II II II II CM GO o CM 00 CM CM CM CD CM CM o 00 CM CD 99 o 22 CM xO CD CO CO CO CO CO IN .
+tF sD 00 CO 05 H1 CO CM *D CO IQ 00 xO rH ^ CD CD xO CD 00 CM CO CD l\gt ; I\gt ; IN .
+O rH ( M 00 00 00 xO 00 05 00 o 05 I\gt ; 00 o o 05 05 O o rH rH V , S + .\lt ; S\gt ; N-^ +o c+ *\lt ; r\#187 ; I\#151 ; I / '"N ./ " H .{Loo -f ( M 7 JL \#166 ; \amp ; \#163 ; .*\#171 ; 2 , c\#171 ; \lt ; D ^NV\#151 ; CM CO* .c^D4 *^"01 + + + + + 4 " + -i~ rH rH Cl rH^ CM rH rH^rH^ .\lt ; S\gt ; .\lt ; \gt ; \gt ; *\#171 ; \gt ; \gt ; *\lt ; S\gt ; t I .Ml II II II II II .
+II II II S ' isc'ft ++ZZ .+++T+5 + + + + *.+.+ 4* +.+ .
++ rH r\#151 ; i rH rH rH Cl rH^ CM rH^ .\#171 ; * .** V I I III I II II II II II II II II II II II ... ... . . . . . .
+_ .
+IIJMI II ^CDCMt^COtSiOCD .\#171 ; dOO^I\gt ; \lt ; Mdo*CDCOCOiOX\gt ; ^c2 .cad ?
+( Md ?
+CDt^'O\lt ; \#187 ; C0^^^^*^Q0 CD Tp IN C1N CO CD xO 00 00 rH IN .
+tJI 00 CM CD 00 CO IN iC QO ^ 05 C5 rH 05 OWN .
+CD 00 xO 05 CO 05 In* 00 CD O FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+m = 2 -f i N ( m ) =5 \lt ; \#163 ; ( m ) = 4 = 23 H. E = 4 sc = X + 3Y ( mod 5 ) .
+m = 1 + N ( m ) = 5 \lt ; I\gt ; ( m ) = 4 = 2s H.E = 4 sc = X + 2Y ( mod 5 ) .
+Generator 2 .
+N I 2 4 3 1 12 3 0 ( 4 ) m = 3 N ( m ) = 9 \lt ; E\gt ; ( m ) = 8 = 23 H.E=8 sc E= X ( mod 3 ) == Y ( mod 3 ) .
+Generator 1 + \#187 ; .
+i 6 2i 2 1 0 1+i 1 1 + 2 i 3 2 4 2 + * 7 2+2i 5 | j 0 1 1 1+i 2 2i 3 1 + 2i 4 2 5 2 + 2* 6 \lt ; 7 2+i ( 8 ) ( 8 ) m = 3 + i = \#151 ; i(1+ i)(1 + 2i)N ( m = 10 O ( m ) = 4 = 23 H.E = 4 sc = X + 7Y ( mod 10 ) .
+m = 1 + = ( 1+0 ( 2 + 0 N ( m ) = 10 \lt ; I\gt ; ( m ) = 4 = 23 H.E = 4 sc EE X + 3Y ( mod 10 ) .
+Generator 3 .
+N 3 9 7 1 l 2 3 0 m = 3 + 2i N ( m ) = 13 \lt ; l\gt ; ( m ) = 12 = 22.3 H.E =12 + 5Y(mod 13 ) .
+m='2+-3i N ( m ) = 13 \lt ; 3\gt ; ( rn ) = 12 = 23.3 H.E = 12 # = X + 8Y ( mod 13 ) .
+Generator 2 .
+0 1 2 3 4 5 .
+6 7 8 9 10 11 1 2 4 8 3 6 12 11 9 5 10 7 1 2 3 4 5 6 7 8 9 10 11 12 0 1 4 2 9 5 11 3 8 10 7 6 ( 12 ) ( 12 ) w = 4 + i N ( m ) = 17 3\gt ; ( m)=16 = 24 H.E = 16 # = X + 13Y ( mod 17 ) .
+m = 1 + ii N ( m ) = 17 \lt ; 1\gt ; ( m ) = 16 = 24 H.E =16 ic = X + 4Y ( mod 17 ) .
+Generator 3 .
+0 l 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1 3 9 10 13 6 15 11 16 14 8 7 4 12 2 6 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 0 14 1 L2 5 15 11 10 2 3 7 13 4 9 6 8 ( 16 ) ( 16 ) m \#151 ; 3 + 3i = ( 1 + i)3 N ( m ) =18 \lt ; E\gt ; ( m ) = 8 = 23 H.E = 8 Y(mod 3 ) a ?
+EE X + 3 ( Y \#151 ; 2/ ) ( mod 6 ) .
+Generator 1 + 2t* .
+0 i 2 1 1+2* 1 0 2 i l + 2t 1 3 4 + t 2+t 5 4 5 3 + 2 % 6 5 2 + i 4+i 3 6 3 + 2i 5 4 7 5 + 2i 5 + 2 i 1 ( 8 ) ( 8 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+301 m = 4 + 2i = \#151 ; % ( 1 + i)2 ( 2 + i ) N ( m ) =20 \lt ; E\gt ; ( m ) = 8 = 2 .
+22 H. E. = 4 y = Y ( mod 2 ) a ?
+= X -+- 3 ( Y \#151 ; ( mod 10 ) .
+Generators 7 , 8 -j- 0 0 1 i 3 1 0 1 8 + i 1 0 0 1 0 7 3 3 0 1 1 4-ft 4-ft 1 1 2 0 9 6-ft 2 1 2 1 6+t 7 1 0 3 0 3 8-ft 0 1 3 1 i 9 2 0 ( 4 ) ( 2 ) ( 4 ) ( 2 ) ra = 2 + \#151 ; t(l + t)2(l +2i ) N ( m ) = 20 \lt ; D ( m ) = 8 = 2 .
+22 H. E. = 4 y= Y ( mod 2 ) x == X + 7 ( Y \#151 ; ?
+/ ) ( mod 10 ) .
+Generators 7 , 4 + 0 0 1 i 1 1 0 1 4-ft 1 0 0 1 0 7 2-ft 2 1 1 1 i 3 3 0 2 0 9 4-ft 0 1 2 1 2+t 6-ft 3 1 3 0 3 7 1 0 3 1 6-ft 9 2 0 ( 4 ) ( 2 ) ( 4 ) ( 2 ) m = 5 = \#151 ; i ( 2 + i ) ( 1 + 2i ) N ( m ) = 25 \lt ; E\gt ; ( m ) = 16 = 22 .
+22 H. E. = 4 x == X ( mod 5 ) s= Y ( mod 5 ) .
+Generators 4 + \#163 ; * , 4 + 4^ .
+0 0 1 i 3 1 0 1 4-f 4t 21 0 2 0 2 2 i Si 2 0 0 3 2+3i 4 i 1 3 1 0 4-f t 1 0 0 1 1 2 1+t 2 3 1 2 3 +3t 1-f 4t 3 2 1 3 4i 2 1 1 2 0 3t 2 + 2t 3 0 2 1 - 3-f 2t 2 *f 3t 0 3 2 2 4 3 3 3 2 3 1-ft 8+2* 2 1 3 0 2+ 2t 3 -f 3t 1 2 3 1 i 4 2 2 3 2 l4-4t 4+t 1 0 3 3 3 4+4t 0 1 ( 4 ) ( 4 ) ( 4 ) ( 4 ) m I 1ST N I m = m = MR. G. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS = 4 + Si \#151 ; \#151 ; i(1 + 2 ifN ( m ) ' = 25 \lt ; I\gt ; ( m ) = 20 = 23 .
+5 H. E. = a ?
+= X + 7Y ( mod 25 ) .
+= 3 _j_ 4i= ( 2 + if N ( m ) =25 3\gt ; ( m ) = 20 = 23 5 H. E. = \#163 ; C = X -f 18Y ( mod 25 ) .
+Generator 2 .
+5 + i = \#151 ; t ( 1 + i)(2 + 3t ) N ( m ) = 26 \lt ; E\gt ; ( m ) = 12 = 23 .
+3 H. E x = X -f 21Y ( mod 26 ) .
+1 -L = ( 1 + i ) ( 3 + 2^ ) N ( m ) = 26 3\gt ; ( m ) = 12 = 23 .
+3 H. E cc EE X + 5Y ( mod 26 ) .
+Generator 7 .
+( 12 ) ( 12 ) ( 20 ) ( 20 ) .
+= 12 .
+= 12 FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+m = 5 + 2 iN ( m ) = 29 \lt ; D ( m ) = 28 = 22 .
+7 H. E. = 28 x = X + 12Y ( mod 29 ) .
+w = 2 + 5t N ( m ) = 29 $ ( m ) = 28 = 23 .
+7 H. E. = 28 X + 17Y ( mod 29 ) .
+Generator 2 .
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 1 2 4 8 16 3 6 12 24 19 9 18 7 14 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 27 25 21 13 26 23 17 5 10 20 11 22 15 ( 28 ) ( 28 ) N I N I 1 2 3 4 5 6 7 8 9 10 11 12 13 14 0 1 5 2 22 6 12 3 10 23 25 7 18 13 15 16 17 18 19 20 21 22 23 24 25 26 27 28 .
+27 4 21 11 9 .24 17 26 20 8 ]6 19 15 14 ( 28 ) ( 28 ) m = 5 + 3i = \#151 ; i ( 1 + i ) ( 1 + N ( m ) = 34 \lt ; I\gt ; ( m ) = 16 = 24 H. E. = 16 x= X + 21Y ( mod 34 ) .
+m=3 + 5{= ( l+ t ) ( 4 + i ) N ( m ) = 34 \#171 ; D(m)=16 = 21 H. E. = 16 x = X + 13Y ( mod 34 ) .
+Generator 3 .
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1 3 9 27 13 5 15 11 33 31 25 7 21 29 19 23 1 3 5 7 9 11 13 15 19 21 23 25 27 29 31 33 0 1 5 11 2 7 4 6 14 12 15 10 3 13 9 8 J I ( 16 ) m= 6 = \#151 ; i(l +i)\3 N ( m ) = 36 = 16 = 2 .
+H. E. = 8 x = X ( mod 6 ) = Y ( mod 6 ) .
+Generators 1 + 4 + 3i .
+0 0 1 ; 6 1 0 1 4 + 3i 5 ; 2 1 1 0 l + 4i 1 0 0 1 1 4+ ; 1+2 ; 3 0 2 0 3+2 ; 1+4 ; 1 0 2 1 6 ; 2+ ; 7 1 3 0 1+2 ; 2+3 ; 4 1 3 1 4+5 ; 2+5 ; 5 1 4 0 5 3+2 ; 2 0 4 1 2+3 ; 3+4 ; 6 0 5 0 5+2 ; 4+ ; 1 l 5 1 2+5 ; 4+3 ; 0 1 6 0 3+4 ; 4+5 ; 3 1 6 1 ; 5 4 0 7 0 5+4 ; 5+2 ; 5 0 7 1 2+ ; 5+4 ; 7 0 ( 8 ) ( 2 ) ( 8 ) ( 2 ) m = 6 + i N(m ) = 37 $(m ) = 36 = 22 .
+32 H.E. = 36 + 31Y(mod37 ) .
+m=l + 6i N(m ) = 37 3\gt ; ( m ) = 36 = 22 .
+3a H. E. = 36 6Y(mod37 ) .
+Generator 2 .
+I N 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 1 2 4 8 16 32 .
+27 17 34 31 25 13 26 15 30 23 9 18 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 35 33 29 21 5 10 20 3 6 12 24 11 22 7 14 28 19 ( 36 ) ( 36 ) N I 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 0 1 26 2 23 27 32 3 16 24 30 28 11 33 13 4 7 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 35 25 22 31 15 29 10 12 6 34 21 14 9 5 20 8 19 18 ( 36 ) ( 36 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+305 m = 6 + 2i= \#151 ; ( 1 + if ( 1 +2i ) N ( m ) =40 $ ( to ) =16 = 22 .
+22 H. E. = 4 .
+y = Y ( mod 2 ) x = X -f 7(Y \#151 ; ( mod 20 ) .
+Generators 3 , i. 6 0 1 i 0 1 0 1 i 1 0 0 0 2 19 2+i 3 1 0 3 6 + t 3 1 0 1 0 3 4+f 3 3 1 1 14+ ?
+6 + i 0 3 1 2 17 7 3 0 1 3 12 + * ' 9 2 0 2 0 9 10+t 2 3 * 2 1 16+ * 11 2 2 2 2 11 12+ % 1 3 2 3 10+ * 13 3 2 3 0 7 14+ * 1 1 3 1 2 + i 16+ * 2 1 3 2 13 * 17 1 2 3 3 4+t 19 0 2 ( 4 ) ( 4 ) ( 4 ) ( 4 ) m = 2 + 6i = \#151 ; t ( 1 + *)* ( 2 + \#171 ; ) N ( m ) = 40 ( w ) = 16 = 22 .
+2 H. E. = 4 .
+y = Y ( mod 2 ) x = X + 13 ( Y \#151 ; y ) ( mod 20 ) .
+Generators 3 , 14 + 0 0 1 i 1 0 3 0 1 14+ % 1 0 0 0 2 19 3 1 0 0 3 i 4+* 2 3 1 0 3 6 + i 1 3 l 1 8+t 7 3 0 1 2 17 8+i 1 1 1 3 6+ 9 2 0 2 0 9 10 + * 2 1 2 1 10 + i 11 2 2 2 2 11 13 3 2 2 3 4 + * 14 +i 0 1 3 q 7 16+i 3 1 3 1 16+ * 17 1 2 3 2 13 18 +i 3 3 3 * 3 18+t 19 0 2 ( 4 ) ( 4 ) ( 4 ) ( 4 ) 306 MR. a. T , BENNETT ON THE RESIDUES OF POWERS OF NUMBERS m = 5 + iiN ( m ) = 41 \lt ; J\gt ; ( pi ) = 40 = 23 .
+5 H. E. = 40 = X -J- 9Y ( mod 41 ) .
+5i N ( m ) = 41 \lt ; I\gt ; ( m ) = 40 = 23 .
+5 H. E. = 40 = X + 32Y ( mod 41 ) .
+Generator 6 .
+( 40 ) ( 40 ) ( 40 ) N ( 40 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+m = 6 + 3i = ( 2 + i ) 3 N ( m ) = 45 \lt ; I\gt ; ( m ) = 32 = 22 .
+23 H. E. = 8 y= Y ( mod 3 ) = X + 3 ( Y \#151 ; ( mod 15 ) .
+Generators 1 + i. 0 0 1 0 1 i 0 2 14 0 3 0 " I- 2* 1 0 1 + * 1 1 14+* 1 2 5+2* 1 3 7 + 2* 2 0 2 * 2 1 13 2 2 6+* 2 3 2 3 0 13 + 2* 3 1 4 + * 3 2 8+* 3 3 2 + 2i 4 0 11 4 1 12+2i 4 2 4 4 3 9+t 5 0 8+2 i 5 1 1 + 2 * 5 2 13 + i 5 3 5+i 6 0 3+i 6 1 8 6 2 3 + 2t 6 3 7 7 0 11+t 7 1 ]l + 2t * 7 2 10+2* 7 3 10+* * 0 1 2 * 2 0 1 0 0 1+t 1 0 1+2* 5 1 2 2 3 2+2* 3 3 3 + * 6 0 3 + 2* 6 2 4 4 2 4+t 3 1 5 + * 5 3 5+2* 1 2 6 + i 2 2 6+2* 0 3 7 6 3 7+2* 1 3 8 6 1 8+* 3 2 8+2* 5 0 9+* 4 3 10+t 7 3 10 + 2* 7 2 11 4 0 11+* 7 0 11 + 2* 7 1 12 + 2* 4 1 13 2 1 13+* 5 2 13 + 2* 3 0 14 0 2 14+ * 1 1 ( 8 ) ( 4 ) ( 8 ) ( 4 ) 2 n 2 m = 3 + Si = ( 1 + 2 i)3 N ( m ) = 45 \lt ; \#163 ; ( m ) = 32 = 23 .
+23 H. E. = 8 y= Y ( mod 3 ) + 12 ( Y \#151 ; ( mod 15 ) .
+Generators 10 + 2 9 + 2 i 0 3 2 i 2 2 1 0 0 1+i 1 3 2 2 3 2 + 4 5 0 2+2i 3 2 3 + 2i 4 3 4 4 2 4 + 4 7 2 4+2i 7 3 5 + 4 7 1 5 + 2i 7 0 6 + 4 4 1 7 6 3 7+t 3 0 7+2i 5 2 8 6 1 8 + 24 1 1 9 + 4 2 0 9 + 24 0 1 10 + 4 5 1 10 + 24 1 0 11 4 0 11+4 3 3 12+4 6 2 12 + 24 6 0 13 2 1 13 + 24 3 1 * 14 0 2 14 + 4 1 2 14+2i 5 3 ( 8 ) ( 4 ) ( 8 ) ( 4 ) FOR ANY COMPOSITE MODULUS , REAL OF COMPLEX .
+m = 7 N ( 7 ) = 49 0(7 ) = 48 = 2*3 .
+H. E. = 48 .
+d 7 ) 1/ EeY ( mod 7 ) .
+Generator 2 -f- i. 0 1 1 2 " h i 2 3 + 4i 3 2+4i 4 Si 5 4+6i 6 2 + 2 i 7 2 + 6t 8 5 9 3+5t 10 l + 6t 11 3+6* 12 i 13 6+2t 14 3+3t 15 3 + 2 i 16 4 17 l + 4t 18 5 + 2i 19 1 + 2* 20 5t 21 2+3* 22 1+* 23 l + 3i ( 48 ) m = 7 + i = 24 6 25 5 + 6i 26 4 +Si 27 5+3\#163 ; 28 4 i 29 3 + i 30 5 + 5 * 31 5+* 32 2 33 4+2 * 34 6 + * 35 4+* 36 6i 37 l + 5t 38 4+4 i 39 4+5* 40 3 41 6 + 3* 42 2 + 5* 43 6 + 5* 44 2 i 45 5 + 4* 46 6 + 6* 47 6 + 4* ( 48 ) i( 1 4- 0(2 + 03 * 12 3+4* 2* 44 3 + 5* 3* 4 j 3 + 6* 4* 28 4 hi 20 4 +* 6* 36 4+2* 1 0 4 + 3* 1 + * 22 4 + 4* 1 + 2* 19 4 + 5* 1 + 3* 23 4 + 6* 1 + 4* 17 5 1 + 5* 37 5+* 1 + 6* 10 5 + 2* 2 32 5+3* 2+* 1 5+4* 2+2* 6 5 + 5* 2+3* 21 5 + 6* 2+4* 3 6 2+5* 42 6 + * 2+6* 7- 6 + 2* 3 40 6 + 3* 3+* 29 6+4* 3 + 2* 15 6+5* 3 + 3* 14 6 + 6* ( 48 ) N ( m ) = 50 0 ( m ) = 20 = 22.5 H. E. \#163 ; c = X + 43Y ( mod 50 ) .
+m = 1 + 7i = \#151 ; i ( I + i ) ( 1 + 2 ifN ( m ) = 50 0 ( m ) = 20 = 23.5 H. E. a ?
+= X 4~ ( mod 50 ) .
+Generator 3 .
+I N 0 12 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 1 3 9 27 31 43 29 37 11 33 49 47 41 23 19 7 21 13 39 17 N 1 3 7 9 11 13 17 19 21 23 27 29 31 33 37 39 41 43 47 49 = 20 ( 20 ) I 0 1 15 2 8 17 19 14 16 13 3 6 4 9 7 18 12 5 11 10 ( 20 ) m = 5 + 5 i = \#151 ; i(1 + 0 ( 2 + i ) ( 1 + 2t ) N =50 3\gt ; ( n\amp ; ) = 16 = 22 .
+22 H. E. = 4 y= Y ( mod 5 ) a ?
+= X + Y \#151 ; ( mod 10 ) .
+Generators 4 + i , 9 + 4 0 0 1 i 3 1 0 1 9+4i Si 2 0 0 2 5+2i 1 0 0 0 3 2 + 3i l+4i 3 2 1 0 4+* ' 2+3i 0 3 1 1 7 3 3 3 1 2 8 " j- 3t 3+2i 2 1 1 3 5+4i 4 + i 1 0 2 0 3 5+2i 0 2 2 1 3 + 2 i 5+4* 1 3 2 2 9 * 6+* 2 3 2 3 6 + i 7 1 1 3 0 7 + 2t 7 + 2* 3 0 3 1 i 8+3* 1 2 3 2 l + 4i 9 2 2 3 3 3 9+4i 0 1 ( 4 ) ( 4 ) ( 4 ) ( 4 ) rn = 6 -f* 4t \#151 ; \#151 ; i ( 1 + if(3 + 2 i)N ( m ) =52 \lt ; 1\gt ; ( m ) = 24 = 2 .
+22 .
+3 H. E. = 12 y = Y ( mod 2 ) x = X + 5 ( Y \#151 ; y ) ( mod 26 ) .
+Generators 15 , 22 + i. 0 0 1 0 1 22+t 1 0 15 1 1 10+ * 2 0 17 2 1 12+* 3 0 21 3 1 16+* 4 0 3 4 1 24+* 5 0 19 5 1 14+* 6 0 25 jj 1 20+* 7 0 11 7 1 6+* 8 0 9 8 1 4 + * 9 0 5 9 1 * 10 0 23 10 1 18+* 11 0 7 11 1 2 + * .
+9 1 1 0 0 2 + t 11 1 3 4 0 4+* 8 1 5 9 0 6 + * 7 1 7 11 0 9 8 0 10+* 1 1 11 7 0 12 + * 2 1 14+* 5 1 15 1 0 16+* 3 1 17 2 0 18+* 10 1 19 5 0 20+* 6 1 21 3 0 22+* 0 1 23 10 0 24+* 4 1 25 6 0 ( 12 ) ( 2 ) ( 12 ) ( 2 ) FOR ANT COMPOSITE MODULUS , REAL OR COMPLEX .
+m \#151 ; 4 + 6i = \#151 ; i ( 1 + if ( 2 + 3 i)N ( m ) = 52 \lt ; I\gt ; ( m ) = 24 = 2 .
+22 .
+3 H. E. = 12 V = Y ( mod 2 ) # = X + 21 ( Y \#151 ; ( mod 26 ) .
+Generators 15 , 6 + t. 0 0 1 i 3 1 0 1 6 + i 1 0 0 1 o , 15 2+i 10 1 1 1 20+i 3 4 0 2 0 17 4 + i 6 1 2 1 22+i 5 9 0 3 0 21 6 + i 0 1 3 1 i 7 11 0 4 0 3 * 8+i 4 1 4 1 8+i 9 8 0 5 0 19 10+i 9 1 5 1 24+t 11 ' 7 0 6 0 25 12 + i 11 1 6 1 4-H 14+i 8 1 7 0 11 15 1 0 7 1 16+i 16+ i 7 1 8 0 9 17 2 0 8 1 14+t 19 5 0 9 0 5 20+i 1 1 9 1 lO+i 21 3 0 10 0 23 22+i 2 1 10 1 2 + i 23 10 0 11 0 7 24+i 5 1 11 1 12+i 25 6 0 ( 12 ) ( 2 ) ( 12 ) ( 2 ) m = 7 + 2t m = 2 -}- 7i N ( m ) \#151 ; 53 \lt ; J\gt ; ( m ) = 52 = 2s .
+13 H. E. = 52 \#163 ; C = X -j- 23Y ( mod 53 ) .
+N(m ) = 53 \lt ; E\gt ; ( m ) = 52 = 22.13 H. E. = 52 + 30Y ( mod 53 ) .
+Generator 3 .
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 1 3 9 27 28 31 40 14 42 20 7 21 10 30 37 5 15 45 29 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 34 49 41 17 51 47 35 52 50 44 26 25 22 13 39 11 33 46 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 32 43 23 1 .6 48 38 8 24 19 4 12 36 2 6 13 ( 52 ) ( 52 ) ( 52 ) m m MR. G. T. BENNETT ON THE RESIDUES OP POWERS OF NUMBERS 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 0 49 1 46 15 50 10 43 2 12 34 47 32 7 16 40 22 51 45 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 9 11 31 39 44 30 29 3 4 18 13 5 37 35 19 25 48 14 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 42 33 6 21 8 38 28 17 36 24 41 20 27 23 26 ( 52 ) ( 52 ) ( 52 ) 7 + 3 i = \#151 ; i(l + i)(2 + 5t ) N ( m ) = 58 3\gt ; ( w ) = 28 = 22.7 H. E. = 28 cc = X+ 17Y ( mod 58 ) .
+3 -f 7i = ( 1 + i ) ( 5 + 2t ) .
+N ( m ) = 58 c\#163 ; \gt ; ( m ) = 28 = 22.7 H. E. = 28 a ?
+= X + 41Y ( mod 58 ) .
+Generator 3 .
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 1 3 9 27 23 11 33 41 7 21 5 15 45 19 14 15 16 17 18 19 20 21 22 23 24 25 26 27 57 55 49 31 35 47 25 17 51 37 53 43 13 39 ( 28 ) ( 28 ) ( 28 ) ( 28 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+313 6+ 5i N(m ) = 61 = 60 = 2* 3-.5 H. E. = 60 cc = X + 11Y(mod 61 ) .
+wi=5 + 6i N(m ) = 61 $(m ) = 60 = 22.3.5 H. E. = 60 + 50Y(mod 61 ) .
+Generator 2 .
+( 60 ) ( 60 ) ( 60 ) ( 60 ) ( 60 ) ( 60 ) 2 s m = 8 + i = \#151 ; i ( 1 + 2 li)(3 + 2t ) N ( m ) = 65 3\gt ; ( m ) = 48 = 22 .
+22 .
+3 , , H. E. = 12 x = X -f 57Y ( mod 65 ) .
+m = 1 -f ' 8^ = ( 2 + i ) ( 2 + 3i ) N ( m ) = 65 \lt ; 3\gt ; ( m ) = 48 = 22 22 .
+3 H. E. = 12 x = X + 8Y ( mod 65 ) .
+m \#151 ; 7 + 4i = \#151 ; t ( 1 + ii)(2 + 3t ) N ( m ) = 65 3\gt ; ( m ) = 48 = 22 .
+22 .
+3 H. E. = 12 x = X + 47Y ( mod 65 ) .
+m = 4 4- 7i = ( 2 4- i ) ( 3 4- 2t ) N ( m ) =65 \#171 ; \gt ; ( m ) = 48 = 22 .
+22 .
+3 H. E. = 12 x = X 4 " 18Y ( mod 65 ) .
+Generators 27 , 2 .
+0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 ( 12 ) 0 1 2 3 0 1 2 3 0 1 2 3 0 1 2 3 0 1 2 3 0 1 2 3 G ) 1 27 14 53 2 54 28 41 4 43 56 17 8 21 47 34 16 42 29 3 32 19 58 6 6 6 6 6 7 7 7 7 8 8 8 8 9 9 9 9 10 10 10 10 11 11 11 11 I ( 12 ) 0 1 2 3 0 1 2 3 0 1 2 3 0 1 2 3 0 1 2 3 0 1 2 3 ( 4 ) 64 38 51 12 63 11 37 24 61 22 9 48 57 44 18 31 49 23 36 62 33 46 7 59 1 2 3 4 6 7 8 9 11 12 14 16 17 18 19 21 22 23 24 27 28 29 31 32 1 !
+' . !
+0 1 4 2 5 11 3 8 7 6 0 4 2 9 5 3 8 10 7 0 l 4 9 5 ( 12 ) 0 0 3 0 O 2 0 2 1 3 2 0 3 2 1 1 1 1 3 1 2 2 3 0 ( 4 ) 33 34 36 37 38 41 42 43 44 46 47 48 49 51 53 54 56 57 58 59 61 62 63 64 11 3 10 7 6 1 4 2 9 11 3 8 10 6 0 1 2 9 5 11 8 10 7 6 ( 12 ) 0 3 2 2 1 3 1 1 1 1 2 3 0 2 3 1 2 0 2 3 0 3 0 0 ( 4 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+m = 8 + 2t = -i(l+i)2(4 + i)N ( m ) = 68 ( m ) = 32 = 2.24 H. E. y =E Y ( mod 2 ) sc = X -j- 13 ( Y \#151 ; y ) ( mod 34 ) .
+Generators 3 , i 0 1 1 0 0 2 + i 2 1 3 1 0 5 5 0 6 + i 10 1 7 11 0 8+t 8 1 9 2 0 io+ ; 11 1 n 7 0 12 + i 6 1 13 4 0 14+\#187 ; 15 1 15 6 0 16+i 9 1 18+t 5 1 19 14 0 20 + * 4 1 21 12 0 22+i 12 1 23 15 0 24+i 13 1 25 10 0 26 + i 1 1 27 3 0 28 + i 7 1 29 13 0 30+t 14 1 31 9 0 32 + * 3 1 33 8 0 0 0 1 0 ] 4 .
+1 0 3 1 1 26 +4 2 0 9 2 1 2 + i 3 0 27 3 1 32 + \#187 ; 4 0 13 4 1 20+\#187 ; 5 0 5 5 1 18 + 4 6 0 15 6 1 12 + i 7 0 11 7 1 28+i 8 0 33 8 1 8+i 9 0 31 9 1 16+i 10 0 25 10 1 6++ 11 0 7 11 1 10+t 12 0 21 12 1 22+i 13 0 29 13 1 24+i 14 0 19 14 1 30 + i 15 0 23 15 1 14+4 ( 16 ) ( 2 ) ( 16 ) ( 2 ) 315 = 16 2 s 2 316 m = MR. G. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS 2 + Si = \#151 ; i(1 + i)2 ( 1 + 4i ) N(m ) = 68 4\gt ; ( m ) = 32 = 2 .
+24 H. E. = 16 y = Y ( mod 2 ) cc = X + 21 ( Y \#151 ; \#171 ; / ) ( mod 34 ) .
+Generators 3 , 26 + i. i 8 1 1 0 0 2 + x 11 1 3 1 0 4 + i 6 1 5 5 0 6 + i 15 1 7 11 0 8+i 9 1 9 2 0 10+i 5 1 11 7 0 12+i 4 1 13 4 0 14+i 12 1 15 6 0 16+i 13 1 18+i 1 l 19 14 0 20+i 7 1 21 12 0 22+^* 14 1 23 15 0 24 " K h 3 1 25 10 0 26+ % 0 1 27 3 0 28+t 2 1 29 13 0 31 9 0 32 + i 10 1 33 8 0 0 0 1 0 1 26 + t 1 0 3 1 1 18'+i 2 0 9 2 1 28-M 3 0 27 3 1 24+i 4 0 13 4 1 12 + t 5 0 5 5 1 io+i 6 0 15 6 1 4 + i 7 0 11 7 1 20+i 8 0 33 8 1 i 9 0 31 9 l 8+i 10 o 25 10 1 32+\#187 ; 11 0 7 11 1 2 + i 12 0 21 12 1 14+t 13 0 29 13 1 16+* 14 0 19 14 l 22+* 15 0 23 15 1 6 + i ( 16 ) ( 2 ) ( 16 ; ( 2 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+m = 6 -f = \#151 ; i ( 1 + if .
+3 N ( m ) = 72 \lt ; J\gt ; ( m ) = 32 , = 23.23 H. E. = 8 y== Y ( mod 6 ) as==X + Y \#151 ; y ( mod 12 ) .
+Generators 2 + i } i. 0 0 1 0 1 0 2 11 0 3 6+5* 1 0 2+* ] 1 11 + 2* 1 2 4+5* 1 3 7f4i 2 0 3 + 4i 2 1 8 " I- 3t 2 2 3+2* 2 3 10+3* 3 0 8+5* 3 1 1 + 2* 3 2 10+* 3 3 5 + 4* 4 0 5 4 ] 5* 4 2 7 4 3 6+* 5 0 10+5* 5 1 1+4* 5 2 8+* 5 3 5 + 2* ' 6 0 9 + 2* 6 1 4+3* 6 2 9 + 4* 6 3 2+3* 7 0 4+* 7 l 11+4* 7 2 2+5* 7 3 7 + 2* : : ' ( * 0 1 5* 4 1 l 0 0 1 + 2* 3 1 1+4* 5 1 2+* 1 0 2+3* 6 3 2+5* 7 2 3 + 2* 2 2 3+4* 2 0 4+* 7 0 4+3* 6 1 4+5* 1 2 5 4 0 5 + 2* 5 3 5 + 4* 3 3 6+* 4 3 6+5* 0 ' 3 7 4 2 7+2* 7 3 7+4* 1 3 8+* 5 2 8 + 3* 2 1 8 + 5* 3 0 9+2* 6 0 9+4* 6 2 10+* 3 2 10+3* 2 3 10+5* 5 0 11 0 2 1 ] +2* l l 11 + 4* 7 1 ( 8 ) ( 4 ) ( 8 ) ( 4 ) m m = 8 + 3i N ( m ) = 73 \lt ; \#163 ; ( m)= 72 = 23 .
+3* H.E. = 3 + 8i N ( m ) = 73 $ ( m ) = 72 = 23 .
+3* H. E. Generator 5 .
+72 \amp ; = X -f 46Y ( mod 73 ) 72 aj = X + 27Y ( mod 73 ) I N I N I N I N 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 1 5 25 52 41 59 3 15 2 10 50 31 9 45 6 30 4 20 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 27 62 18 17 12 60 8 40 54 51 36 34 24 47 16 7 35 29 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 72 68 48 21 32 14 70 58 71 63 23 42 64 28 67 43 69 53 64 65 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 46 11 55 56 61 13 65 33 19 22 37 39 49 26 57 66 38 44 ( 72 ) ( 72 ) ( 72 ) ( 72 ) N I N I N I 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 0 8 6 16 1 14 33 24 12 9 55 22 59 41 7 32 21 20 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 62 17 39 63 46 30 2 67 18 49 35 15 11 40 61 29 34 28 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 64 70 65 25 4 47 51 71 13 54 31 38 66 10 27 3 53 26 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 56 57 68 43 5 23 58 19 45 48 60 69 50 37 52 42 44 36 ( 72 ) ( 72 ) ( 72 ) ( 72 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+3i9 7 4 5i = - i(t + i)(l 4 ei ) N ( m ) = 74 3\gt ; ( m ) = 36 = 22 .
+32 H.E. = 36 x~ X -f* 43Y ( mod 74 ) 5 4\#166 ; 7t = ( 14 i ) ( 6 4 i)N ( m ) = 74 ( m ) = 36 = 22 .
+32 H. E. = 36 as = X 4 31Y ( mod 74 ) .
+Generator 5 .
+( 36 ) ( 36 ) ( 36 ) ( 36 MR. G. T. BENNETT ON THE RESIDUES OP POWERS OP NUMBERS 8 + 4i= \#151 ; ( 1 +t)4(2+i ) N(m ) = 80 \lt ; \#163 ; ( m ) = 32 = 2.23 .
+2* H.E. y = Y ( mod 4 ) cc = X -j- 3 ( Y \#151 ; ( mod 20 ) .
+Generators 17 , 8 + 5 + 2i .
+i 3 1 0 Si 2 3 0 1 0 0 0 1+2 i 1 0 1 2 + 3 i 0 3 1 3 3 2 0 3+2 ; 2 2 1 4+ 1 1 0 4+3 ; 3 3 0 5+2 ; 0 0 1 6+ 2 1 1 7 1 2 0 7+2 ; 3 2 1 8+ ; 0 1 0 8+3 ; 1 3 0 9 2 0 0 10+ .
+; 3 1 1 10+3 ; 2 3 1 n 0 2 0 11+2 ; 1 2 1 12+3 ; 0 3 0 13 3 0 0 13+2 ; 2 0 1 14+ ; 1 1 1 14+3 ; 3 3 1 15+2 ; 0 2 1 16+ ; 2 1 0 17 1 0 0 17+2 ; 3 0 1 18+ ; 0 l 1 18+3 ; 1 3 1 19 2 2 0 0 0 0 1 0 0 1 5+2 ; 0 1 0 8+ ; 0 ^ 1 1 18+ ; 0 2 0 11 0 2 1 15+2 ; 0 3 0 12+3 ; 0 3 1 2+3 ; 1 0 0 17 1 0 1 1+2 ; 1 1 0 4+ ; 1 1 1 14+ ; 1 2 0 7 1 2 1 11+2 ; 1 3 0 8+3 ; 1 3 1 18+3 ; 2 0 0 9 2 0 1 13 + 2 ; 2 1 0 16+ ; 2 1 1 6+ ; 2 2 0 19 2 2 1 3+2 ; 2 3 0 3 ; 2 3 1 10+3 ; 3 0 0 13 3 0 1 17+2 ; 3 1 0 ; 3 1 1 10+ ; 3 2 0 3 3 2 1 7+2 ; 3 3 0 4+3 ; 3 3 1 .
+14+3 ; ( 4 ) ( 4 ) ( 2 ) ( 4 ) ( 4 ) ( 2 ) EOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+m = 4 _j_ 8^ = \#151 ; ( 1 + if ( 1 + 2i ) N ( m ) = 80 3\gt ; ( m ) = 32 = 2 .
+23 .
+23 H. E. = 4 y = Y ( mod 4 ) as EE X + 17 ( Y \#151 ; y ) ( mod 20 ) .
+Generators 17 , 3 17 + 2i .
+0 0 0 1 0 0 1 17 + 2 * 0 1 0 3 * 0 1 1 10+3* 0 2 0 11 0 2 1 7 + 2* 0 3 0 4+ * 0 3 1 14+ * 1 0 0 17 1 0 1 13 + 2* 1 1 0 16 + 3* 1 1 1 6+3* 1 2 0 7 1 2 1 3 + 2* 1 3 0 * 1 3 1 10+ * 2 0 0 9 2 0 1 5+2* 2 1 0 8+3* 2 1 1 18+3* 2 2 0 19 2 2 1 15 + 2* 2 3 0 12+ * 2 3 1 2+ * 3 0 0 13 3 0 1 9+2* 3 1 0 12 + 3* 3 1 1 2 + 3* 3 2 0 3 3 2 1 19 + 2* 3 3 0 16+ * 3 3 1 .
+6+ * * .
+1 3 6 3* 0 1 0 1 0 0 0 2+ * 2 3 i 2 + 3* 3 1 i 3 3 2 0 3 + 2* 1 2 1 4+ * 0 3 0 5 + 2* 2 0 1 6+ * 3 3 1 6 + 3* 1 1 1 7 1 2 0 7 + 2* 0 2 1 8+3* 2 1 0 9 2 0 0 9+2* 3 0 1 10+ * 1 3 1 10+3* 0 1 1 11 0 2 0 12+ * 2 3 0 12 + 3* 3 1 0 13 3 0 0 13+2* 1 0 1 14+ * 0 3 1 15+2* 2 2 1 16+ * 3 3 0 16 + 3* 1 1 0 17 1 0 0 17+2* 0 0 1 18+3* 2 1 1 19 2 2 0 19 + 2* 3 2 .
+1 ( 4 ) ( 4 ) ( 2 ) ( 4 ) ( 4 ) ( 2 ) AiDCCCXCII I.\#151 ; A. m = 9 = 33 N ( m ) =81 3\gt ; ( m ) = 72 = 23 .
+3 .
+3 H. E. = 24 xEE X ( mod 9 ) ?
+/ EE Y ( mod 9 ) .
+Generators 2 -j- 4 + 3t , 0 0 1 8 0 4+6* 16 0 7 + 3i 0 1 4+3* 8 1 7 16 1 l + 6i 0 2 7 + 6* 8 2 1+3* 16 2 4 1 0 2 + * 9 0 2 + 7* 17 0 2+4 i 1 1 5 + * 9 1 5 + 7* 17 1 5+4 i 1 2 8+* 9 2 8 + 7* 17 2 8+4 i 2 0 3+4* 10 0 6+7* 18 0 i 2 1 7 * 10 1 3+* 18 1 6+4 i 2 2 6 + i 10 2 4* 18 2 3 + 7 * 3 0 2 + 2* 11 0 5+2* 19 0 8+2i o 1 .
+2 + 5* 11 1 5 + 5* 19 1 8 + 5i 3 2 2 + 8* 11 2 5 + 8* 19 2 8+8t 4 0 2 + 6* 12 0 8 20 0 5+3 i 4 1 8+3* 12 1 5+ 6* 20 1 2 4 2 5 12 2 2+3* 20 2 8 + 6i 5 0 7+5* 13 0 7+8* 21 0 7+2 i r 1 4 + 5* 13 1 4+8* 21 1 4+2t 5 2 1+5* 13 2 1+8* 21 2 l+2i 6 0 8 * 14 0 6 + 5 22 0 3 + 2 i 6 1 3+5 * 14 1 2 i 22 1 6 + 8 i 6 2 6 + 2 14 2 3+8 i 22 2 hi 7 0 1 + 7* 15 0 7 + 7 i 23 0 4+7 i 7 1 1+4* 15 1 7+4i 23 1 4+4i 7 2 .
+1+* 15 2 7+i 23 2 4+i ( 24 ) ( 3 ) ( 24 ) ( 3 ) ( 24 ) ( 3 ) i 18 0 3+i 10 1 6 + i 2 2 14 1 3 + 2* 22 0 6+2* 6 2 4* 10 2 3 + 4* 2 0 6+4* 18 1 hi 22 2 3 + 5* 6 1 6+5* .
+14 0 7 i 2 1 3 + 7* 18 2 6 + 7* 10 0 8i 6 0 3+8* 14 2 6+8* 22 i 1 0 0 4 16 2 7 8 i 1+t .
+7 2 4 + * 23 2 7+i 15 2 l + 2t 21 2 4 + 2* 21 1 7+2* 21 0 1 +3i 8 2 4 + 3* 0 1 7+3* 16 0 l+4i 7 1 4 + 4* 23 1 7+4* 15 1 l + 5t 5 2 4 + 5* 5 1 7+5* 5 0 l+6t 16 1 4 + 6* 8 0 7 + 6* 0 2 1 +7i 7 0 4 + 7* 23 0 7 + 7* 15 0 1 + 8i\gt ; 13 2 4 + 8* 13 1 7+8* 13 0 2 20 1 5 4 2 8 12 O ' 2+* 1 0 5 + * 1 1 8+* 1 2 2+2* 3 0 5+2* 11 0 8 + 2* 19 0 2 + 3* 12 2 5 + 3* 20 0 8 + 3* 4 1 2 + 4i 17 0 5+4* 17 1 8 + 4* 17 2 2 + 5t 3 1 5 + 5* 11 1 8 + 5* 19 1 2 + 6* 4 0 5 + 6* 12 1 8 + 6* 20 2 2+7* 9 0 5 + 7* 9 1 8 + 7* 9 2 2 + 8* 3 2 5 + 8* 11 2 8+8* 19 2 ( 24 ) ( 8 ) ( 24 ) ( 3 ) ( 24 ) ( 3 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+m = 9 + i = \#151 ; \#166 ; i(1 + ^ ( 4 + 5$ ) N ( m ) =82 \lt ; E\gt ; ( m ) = 40 = 2s .
+5 H. E. = 40 *eX+ 73Y ( mod 82 ) .
+m = 1 + = ( 1 + i)(5 -f- 4i ) N ( m ) = 82 \lt ; E\gt ; ( m ) = 40 = 23 .
+5 H. E. EE 40 xEE X + 9Y ( mod 82 ) .
+Generator 7 .
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 1 7 49 15 23 79 61 17 37 13 9 63 31 53 43 55 57 71 5 35 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 81 75 33 67 59 3 21 65 45 69 73 19 51 29 39 27 25 11 77 47 ( 40 ) ( 40 ) 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 0 25 18 1 10 37 9 3 7 31 26 4 36 35 33 12 22 19 8 34 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 14 28 39 2 32 13 15 16 24 6 11 27 23 29 17 30 21 38 5 20 ( 40 ) ( 40 ) m=9 + 2t = -i(24-0(i + *0 2 + 9i = ( 1 + 2 ( 4+0 7 + + i ) ( 4 + 0 or 6 + 7i=-i(l+20(l + 40 .
+For all N ( m ) =85 \lt ; D ( m ) = 64 = 23 .
+2* H.E. = 16 .
+wz = 9 + 2-i rr = X + 38Y ( mod 85 ) m = 2 + 9z a ?
+= X + 47Y ( mod 85 ) w = 7 + 6t fr = X+13Y ( mod 85 ) m=6 + a ?
+= X + 72Y ( mod 85 ) .
+Generators 3 , 52 .
+8 0 16 8 1 67 8 2 84 8 3 33 9 0 48 9 1 31 9 2 82 9 3 14 10 0 59 10 1 8 10 2 76 10 3 42 11 0 7 11 1 24 11 2 58 11 3 41 12 0 21 12 1 72 12 2 4 12 3 38 13 0 63 13 1 46 13 2 12 13 3 29 14 0 19 14 1 53 14 2 36 I 14 3 2 i 15 0 57 15 1 74 15 2 23 15 3 6 l 0 0 2 14 3 3 1 0 4 12 2 6 15 3 7 11 0 8 10 1 9 2 0 11 7 3 12 13 2 13 4 3 14 9 3 16 8 0 18 0 3 19 14 0 21 12 0 22 5 2 23 15 2 24 11 1 26 2 2 27 3 0 28 7 2 29 13 3 31 9 1 32 6 3 33 8 3 36 14 2 37 1 2 38 12 3 39 5 3 41 11 3 42 10 3 43 2 1 44 3 1 46 13 1 47 4 1 48 9 0 49 6 0 52 0 1 53 14 1 54 1 3 56 5 1 57 15 0 58 11 2 59 10 0 61 3 3 62 7 0 63 13 0 64 4 2 66 6 2 67 8 1 69 0 2 71 1 1 72 12 1 73 5 0 74 15 1 76 10 2 77 2 3 78 3 2 79 7 1 81 4 0 82 9 2 83 6 1 84 8 2 0 0 1 0 1 52 0 2 69 0 3 18 1 0 3 1 1 71 1 2 37 1 3 54 2 0 9 2 1 43 2 2 26 2 3 77 3 0 27 3 1 44 3 2 78 3 3 61 4 0 81 4 1 47 4 2 64 4 3 13 5 0 73 5 1 56 5 2 22 5 3 39 6 0 49 6 1 83 6 2 66 6 3 32 7 0 62 7 1 79 7 2 28 7 3 11 FOR ANT COMPOSITE MODULUS , REAL OR COMPLEX .
+ra = S + 5i N ( m ) = 89 \lt ; I\gt ; ( m ) \#151 ; 88 = 23.11 H. E. = 88 = X -f 34 Y ( mod 89 ) .
+m= 5+ 8i N ( m ) == 89 $ ( m ) = 88 = 23.11 H. E. = 88 aj = X + 55 Y(mod 89 ) .
+Generator 3 .
+I N I N I N I N ( 88 ) ( 88 ) ( 88 ) ( 88 ) ( 88 ) ( 88 ) ( 88 ) ( 88 ) m = 9 -f Si = \#151 ; i ( I + i)(1 + 2 i)3 N ( m ) = 90 ( m ) = 32 = 2* .
+23 H. E. = 8 y \#151 ; Y ( mod 3 ) as = X -|- 7 ( Y \#151 ; y ) ( mod 30 ) .
+Generators 2 + % 0 0 i 0 1 i 0 2 29 0 3 9 + 2 i 1 0 2+ ?
+1 1 29 + 2\#171 ; 1 2 7 + 2\#171 ; 1 3 10+t 2 0 24+i 2 1 17 2 2 15 + 2i 2 3 13 3 0 5 + 2i 3 1 19+2 ?
+; 8 2 4+t3 3 20 + t 4 0 11 4 1 3 + 2 ?
+4 2 19 4 3 6 + i 5 0 25+2 ?
+5 1 16+ ?
+5 2 14 + ?
+5 3 23 + 2 ?
+6 0 27 + 2 ?
+6 1 7 6 2 12+ ?
+6 3 23 7 0 22+ ?
+7 1 26 + ?
+7 2 17+2 ?
+7 3 1 : 13 + 2 ?
+( 8 ) ( 4 ) i 0 1 1 0 0 2+ ?
+1 0 3 + 2 ?
+4 1 4 + ?
+3 2 5 + 2 ?
+3 0 6+ ?
+4 3 7 6 1 7 + 2 ?
+1 2 9 + 2 ?
+0 3 10+ ?
+1 3 11 4 0 12+ ?
+6 2 13 2 3 13 + 2 ?
+7 3 14+ ?
+5 2 15 + 2 ?
+2 2 16+ ?
+5 1 17 2 1 17 + 2 ?
+7 2 19 4 2 19 + 2 ?
+3 1 20+ ?
+3 3 22+ ?
+' 7 0 23 6 3 23+2 ?
+5 3 24+ ?
+2 0 25 + 2 ?
+5 0 26+ ?
+7 l 27+2 ?
+6 0 29 0 2 29+2 ?
+1 1 ( 8 ) ( 4 ) / FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+= 3 + 9** = ( 1 + i)(2 + i ) 3 N ( m ) = 90 ( m ) = 32 = 23 .
+23 H.E. = 8 y = Y ( mod 3 ) x = X + 23 ( Y \#151 ; ( mod 30 ) .
+Generators 23 + 2\#187 ; , 21 + 2t .
+0 0 1 0 1 21 + 2* 0 2 29 0 3 i 1 0 23 + 2 * 1 1 20+ * 1 2 28+* 1 3 1+2* 2 0 15+2\#187 ; 2 1 17 2 2 6+i 2 3 13 3 0 26+i 3 1 10+i 3 2 25+2 \#187 ; 3 3 11 + 2* 4 0 11 4 1 24+ * 4 2 19 4 3 27 + 2* 5 0 16+ * 5 1 7 + 2* 5 2 5 + 2* 5 3 14+* 6 0 18 + * 6 1 7 6 2 3+2* 6 3 23 7 0 13 + 2* 7 1 17 + 2* 7 2 8+* 7 3 4+* * 0 3 1 0 0 1 + 2* 1 3 3+2* 6 2 4+* 7 3 5 + 2* 5 2 6 + * 2 2 7 6 1 7 + 2 * 5 1 8+* 7 2 10 + * 3 1 11 4 0 11+2* 3 3 13 2 3 13 + 2* 7 0 14+* 5 3 15 + 2* 2 0 *16+* 5 0 17 2 1 17 + 2* 7 1 18+* 6 0 19 4 2 20+ * 1 1 21 + 2* 0 1 23 6 3 23+2* 1 0 24+* 4 1 25 + 2* 3 2 26+* 3 0 27+2* 4 3 28+* 1 2 29 0 2 ( 8 ) ( 4 ) ( 8 ) ( 4 ) m = m = I N I N I N I TSt I N MR. G. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS 9 + 4i N ( m ) = 97 \lt ; P(m)=96 = 25 .
+3 H. E. = 96 = X + 22Y ( mod 97 ) .
+4 + 9^ N ( m ) = 97 \lt ; P ( m ) = 96 = 25 .
+3 H.E. = 96 = X + 75Y ( mod 97 ) .
+Generator 5 .
+0 1 2 : \lt ; 1 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 1 5 25 2S 4 ; 21 8 40 6 30 53 71 64 29 48 46 36 83 27 38 20 21 22 23 24 25 26 27 28 29 30 31 32* 33 34 35 36 37 38 93 77 94 82 22 13 65 34 73 74 79 7 35 78 2 10 50 56 86 39 40 41 42 43 .
+44 45 46 47 48 49 50 51 52 53 54 55 56 57 42 16 80 12 60 9 45 31 58 96 92 72 69 54 76 89 57 91 67 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 '44 26 33 68 49 51 61 14 70 59 4 20 3 15 75 84 32 63 24 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 23 18 90 62 19 95 GO 47 41 11 55 81 17 85 37 88 52 66 39 ( 96 ) ( 96 ) ( 96 ) ( 96 ) ( 96 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 0 34 70 ( .
+\gt ; 8 1 8 31 6 44 35 86 42 25 65 71 40 89 78 81 69 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 5 24 77 76 2 59 18 3 13 9 46 74 60 27 32 16 91 19 95 40 41 42 43 44 45 46 47 48 49 50 51 52 53 51 55 56 57 58 7 85 39 4 58 45 15 84 14 62 36 63 93 10 52 87 37 55 47 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 67 43 64 80 75 12 26 94 57 61 51 66 11 50 28 29 72 53 21 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 33 30 41 88 23 17 73 90 38 83 92 54 79 56 49 20 22 82 48 m = ; 7 + - ( 1 + i ) 7 N ( i m ) \#151 ; : 98 \lt ; E\gt ; .\gt ; = 48 3 H. E. = 4 ( 96 ) ( 96 ) ( 96 ) ( 96 ) ( 96 ) y == Y ( mod 7 ) xEE X + Y \#151 ; y ( mod 14 ) .
+Generator 2 -f0 I 1 1 2 + i 2 3+4 ; 3 9 + 4 ; 4 'Si 5 11 + 6^ 6 9+2 ; 7 9+6 ; 8 5 9 10+5 ; 10 i+6 ; 11 3+6 ; 12 ; 13 13+2 ; 14 10+3 ; 15 3+2 ; 16 11 17 1+4 ; 18 5+2 ; 19 1+2 ; 20 5 ; 21 2+3 ; 22 8+ ; 23 8+3 ; ( 48 ) 1 MDOCCXCill.\#151 ; a. 24 13 25 5+6 ; 26 4+3 ; 27 12+3 ; 28 7+4 ; 29 10+ ; 30 12+5 ; 31 12+ ; 32 9 33 11+2 ; 34 6+ ; 35 4+ ; 36 7+6 ; 37 8+5 ; 38 11+4 ; 39 4+5 ; 40 3 41 6+3 ; 42 2+5 ; 43 6+5 ; 44 7+2 ; 45 5+4 ; 46 13+6 ; 47 13-1-4 ; ( 48 ) ; 1 | 12 3 ; 4 5 ; 20 ' 1 0 1+2 ; 19 1+4 ; 17 1+6 ; 10 2+ ; 1 2+3 ; 21 2+5 ; 42 3 40 3+2 ; 15 3+4 ; 2 3+6 ; 11 4+ ; 35 4+3 ; 26 4+5 ; 39 5 8 5+2 ; 18 5+4 ; 45 5+6 ; 25 6+ ; 34 6+Si 41 6 + 5 43 ( 48 ; 7 + 2 ; 44 7+4 ; 28 7+6 ; 36 8+ ; 22 8+3 ; 23 8+5 ; 37 9 32 9+2 ; 6 9+4 ; 3 9+6 ; 7 10+ ; 29 10+3 ; 14 10+5 ; 9 11 16 11 f-2 ; 33 11 +4 ; 38 11+6 ; 5 12+ ; 31 L2 + 3 ; 27 12+5 ; 30 13 24 13 + 2 ; 13 13+4 ; 47 13+6 ; 46 ( 48 ; m = 8 + 6i = \#151 ; ( 1 4- if ( 1 + 2 ifN ( m ) = 100 \lt ; 1\gt ; ( m ) = 40 = 2.23.5 .
+H. E. = 20 y = Y ( mod 2 ) X + 7 ( Y \#151 ; y ) ( mod 50 ) .
+Generators 3 , 44 + 0 0 1 0 1 44 + \#163 ; 1 0 3 1 1 4 6 + 2 0 9 2 1 2+\#163 ; 3 0 27 3 1 20 + \#163 ; 4 0 31 4 1 24 + \#163 ; 5 0 43 5 ] 30 -p * 6 0 29 6 1 22 + \#163 ; 7 0 37 7 1 30+\#163 ; 8 0 11 8 1 4+\#163 ; 9 0 33 9 1 26+\#163 ; ( 20 ) ( 2 ) 10 0 49 10 1 42 + \#163 ; 11 0 47 11 1 40 + \#163 ; 12 0 41 1 12 1 34 + \#163 ; 13 0 23 13 1 16+\#163 ; 14 0 19 14 1 12+* ' 15 0 7 15 1 \#163 ; 16 0 21 16 1 14+\#163 ; 17 0 13 i 17 1 6 + i 18 0 39 18 1 32+ \#163 ; 19 0 17 19 1 10 + \#163 ; ( 20 ) ( 2 ) i 15 1 1 0 0 2 + \#163 ; 2 1 1 3 1 0 4+\#163 ; 8 1 6+\#163 ; 17 1 7 15 0 9 2 0 10+\#163 ; 19 1 11 8 0 12+ \#163 ; 14 1 13 17 0 14+ \#163 ; 16 1 16+\#163 ; 13 1 17 19 0 19 14 0 20 + i 3 1 21 16 0 22+ \#163 ; .
+6 1 23 13 0 ( 20 ) ( 2 ) 24 + \#163 ; 4 1 26+ \#163 ; 9 1 27 3 0 29 6 0 30 + i 7 1 31 4 0 32 + i 18 .
+1 33 9 0 34 + i 12 1 3 6 + i 5 1 37 7 0 39 18 0 S 40 +i 11 1 41 12 0 42+\#163 ; 10 1 43 5 .
+0 1 44 + \#163 ; 0 1 46+ \#163 ; 1 1 47 11 0 49 10 0 ( 20 ) ( 2 ) m = 6 + = \#151 ; i(1 -|- i)3 ( 2 -f- if N ( m ) =100 \lt ; I\gt ; ( m ) = 40 = 2.23.5 H. E. = 20 ?
+/ = Y ( mod 2 ) sceeX + 43 ( Y \#151 ; y ) ( mod 50 ) .
+Generators 0 0 1 0 l 8 + \#163 ; 1 0 3 1 1 10+\#163 ; 2 0 9 2 1 16+\#163 ; 3 0 27 3 1 .
+34 + \#163 ; 4 0 31 4 1 38+ \#163 ; 5 0 43 5 1 \#163 ; 6 0 29 6 1 36 + \#163 ; 7 0 37 7 1 44+ \#163 ; 8 0 11 8 1 18 + \#163 ; 9 0 33 9 1 40+ \#163 ; 10 0 49 10 1 6 + i 11 0 47 11 1 4+\#163 ; 12 0 41 12 1 48+ \#163 ; 13 0 23 13 1 30+ \#163 ; 14 0 19 14 1 26+ \#163 ; 15 0 7 15 1 14+\#163 ; 16 0 21 16 1 28+\#163 ; 17 0 13 17 1 20+\#163 ; 18 0 39 18 1 46+ \#163 ; 19 0 17 19 1 24+\#163 ; , 8 *+ .
+i. \#163 ; 1 5 1 26+ \#163 ; 14 1 1 1 0 0 27 3 0 3 1 0 28+ \#163 ; 16 1 4+\#163 ; 11 1 29 6 0 6+i 10 1 30+\#163 ; 13 1 7 15 0 31 4 0 8 + \#163 ; 0 1 33 9 0 9 .
+2 0 34+\#163 ; 3 1 10+ \#163 ; 1 1 36+ \#163 ; 6 1 11 8 0 37 7 0 13 17 0 38+\#163 ; 4 1 14+ \#163 ; 15 1 39 18 0 16+ \#163 ; 2 1 40+\#163 ; 9 1 17 19 0 41 12 0 18+\#163 ; 8 1 43 5 0 19 14 0 44+ \#163 ; 7 1 20 + \#163 ; 17 1 46+ \#163 ; 18 1 21 16 0 47 11 0 23 13 0 48+\#163 ; 12 1 24+\#163 ; 19 1 49 10 0 ( 20 ) ( 2 ) ( 20 ) ( 2 ) ( 20 ) ( 2 ) ( 20 ) ( 2 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+10 = -(1-H')2(1 + 2i)(2 + i ) N ( m ) = 100 \lt ; D 32 =2.22.23 .
+H.E. = 4 x = X ( mod 10 ) y = Y ( mod 10 ) .
+Generators 9 + 4 i9 + 6t , 6 + 5^* .
+0 0 0 1 0 0 1 6 + 5* 0 1 0 9+6* 0 1 1 4+ * 0 2 0 5+8* 0 2 1 3* 0 3 0 7 + 2 * 0 3 1 2 + 7* 1 0 0 9+4* 1 0 1 4+9* 1 1 0 7 1 1 1 2+5* 1 2 0 3+2* 1 2 1 8+7* 1 3 0 5 + 6* 1 3 1 * 2 0 0 5 + 2* 2 0 1 7* 2 1 0 3+8* 2 1 1 8 + 3* 2 2 0 9 2 2 1 4 + 5* 2 3 0 1 + 4* 2 3 1 6+9* 3 0 0 7 + 8* 3 0 1 2 + 3* 3 1 0 5+4* 3 1 1 9* 3 2 0 1+6* 3 2 1 6+ * 3 3 0 3 3 3 1 8 + 5* ( 4 ) ( 4 ) ( 2 ) * 1 1 3 1 3* 0 2 1 7* 2 0 1 9* 3 11 1 0 0 0 1+4* 2 3 0 1 + 6* 3 2 0 2+3* 3 0 1 2 + 5* 1 1 1 2+7* 0 3 1 3 3 3 0 3 + 2* 12 0 3 + 8* 2 10 4+ * 0 1 1 4+5* 2 2 1 4+9* l 0 1 5 + 2* 2 0 0 5+4* 3 10 5+6* l 3 0 5 + 8* 0 2 0 6+ * 3 2 1 6 + 5* 0 0 1 6 + 9* 2 3 1 7 11 0 7+2* 0 3 0 7+8* 3 0 0 8 + 3* 2 11 8+5* 3 3 l 8 + 7* 12 1 9 2 2 0 9+4* 10 0 9+6* 0 10 ( 4 ) ( 4 ) ( 2 ) Mod ( l + i).Mod ( 1 +*)2 .
+' Generator i. Mod ( 1 + if .
+Generator i. i i i 1 i 0 3 2 2+i 3 ( 2 ) 1 0 ( 4 ) Mod ( 1 + ?
+)4 Generators i , 1 -+- 2 0 0 1 1 i 1 0 \#166 ; 0 1 1 + 3 i 3 0 1 0 i 1 0 0 1 1 2+ 1 4 2 * 0 1 2 0 3 2+ i 1 1 2 1 3 + 2 i 2 + 3 i 3 1 3 0 Si 3 2 0 3 1 2 + 3 i 3 + 2* ' 2 1 ( 4 ) ( 2 ) ( 4 ) ( 2 ) Mod ( L + Generators i , 1 -j- 2 3 .
+i 1 0 0 3 ; 1 0 1 i 0 0 0 1+2 ; 0 1 0 \#166 ; 2+ ; 3 1 1 2+3 ; 1 1 1 3 0 0 1 3+2 ; 2 1 0 4+ ; 3 0 1 4+3 ; 3 0 0 5 2 0 1 5+2 ; 2 1 1 6+ ; 1 1 0 6+3 ; 3 1 0 7 2 0 0 7+2 ; 0 1 1 0 0 0 1 0 0 i 3 0 1 0 1+2 ; 0 1 1 7+2 ; 1 0 0 ; 1 0 1 3 ; 1 1 0 6+ ; 1 1 1 2+3 ; 2 0 0 7 2 0 1 5 2 1 0 3+2 ; 2 1 1 5+2 ; 3 0 0 4+3 ; 3 0 1 4+ ; 3 1 0 6 + 3 i 3 1 1 2+ i ( 4 ) ( 2 ) ( 2 ) ( 4 ) ( 2 ) ( 2 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Mod ( l + fc)6 .
+Generators i , 1 + 2i , 3 .
+0 0 0 1 1 0 0 !
+0 0 1 3 3* 1 0 l 0 1 0 1+2* 5* 3 0 l 0 1 1 3 + 6* 7* 3 0 0 0 2 0 5+4* 1 0 0 0 0 2 1 7+4* 1 + 2* 0 1 0 0 3 0 5 + 6* 1 + 4* 2 1 1 0 3 1 7 + 2* 1 + 6* 2 3 1 1 0 0 i 2+ * 3 3 1 1 0 1 3* 2 + 3* 1 1 1 1 1 0 6+ * 2 + 5* 1 3 0 1 1 1 2 +3* 2 + 7* 3 1 0 1 2 0 4+5* 3 0 0 1 1 2 1 4+7* 3+2* 2 3 0 1 3 0 2+5* 3+4* 2 2 0 1 3 1 6 + 7* 3 + 6* 0 1 1 2 0 0 7 4+ * 3 2 1 2 0 1 5 4+3* 3 2 0 2 1 0 7 + 6* 4+5* 1 2 0 2 1 1 5 + 2* 4 + 7* 1 2 1 2 2 0 3+4* 5 2 0 1 2 2 1 1+4* 5 + 2* 2 1 1 2 3 0 3+2* 5+4* 0 2 0 2 3 ' 1 1 + 6* 5+6* 0 3 0 3 0 0 7* 6+ * 1 l 0 3 0 1 5* 6+3* 3 3 0 3 1 0 2 + 7* 6+5* 3 1 1 3 1 1 6 + 5* 6 + 7* 1 3 1 3 2 0 4+3* 7 2 0 0 3 2 1 4+ * 7 + 2* 0 3 1 3 3 0 6 + 3* 7+4* 0 2 1 3 3 1 2+ * 1 7 + 6* l 2 1 0 ( 4 ) ( 4 ) ( 2 ) ( 4 ) ( 4 ) ( 2 ) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 MR. G. T. BENNETT ON THE RESIDUES OF POWERS OF NUMBERS Mod ( 1 -f i)7Generators i 3 , 1 + 2 0 0 1 2 0 0 15 0 1 1+3* 2 0 1 7 + 6* 0 2 13 + 4* 2 0 2 11 + 4* 0 3 13+6* 2 0 3 11 + 2* 1 0 3 2 1 0 13 1 1 3+6* 2 1 1 5 + 2* 1 2 15+4* 2 1 2 9 + 4* 1 3 7 + 2* 2 1 3 1 + 6* 2 0 9 ... 2 2 0 7 2 1 9 + 2* 2 2 1 15 + 6* 2 2 5+4* 2 2 2 3+4* 2 3 5 + 6* 2 2 3 3 + 2* 3 0 11 2 3 0 5 3 1 11+6* 2 3 1 13+2* 3 2 7+4* 2 3 2 1 + 4* 3 3 15 + 2* 2 3 3 9 + 6* 0 0 * 3 0 0 8+7* 0 1 14+ * 3 0 1 10+7* 0 2 4 + 5* 3 .0 2 4+3* 0 3 2 + 5* 3 0 3 6 + 3* 1 0 3* 3 1 0 8 + 5* 1 1 10+3* 3 1 1 14+5* 1 2 4+7* 3 1 2 4+ * 1 3 14 + 7* 3 1 3 10+ * 2 0 8+ * 3 2 0 7* 2 1 6+ * 3 2 1 2+7* 2 2 12 + 5* 3 2 2 12 + 3* 2 3 10+5* 3 2 3 14 + 3* 3 0 8+3* 3 3 0 5* 3 1 2+3* 3 3 1 6 + 5* 3 2 12 + 7* 3 3 2 12+ * 3 3 6 + 7* 3 3 3- 2+ * ( 4 ) ( 4 ) ( 4 ) ( 4 ) ( 4 ) * 1 0 0 8+ * 1 2 0 3* 1 1 0 8+3* 1 3 0 5* 3 3 0 8+5* 3 1 0 7* 3 2 0 8 + 7* 3 0 0 1 0 0 0 9 0 2 0 1 + 2* 0 0 1 9 + 2* 0 2 1 1+4* 2 3 2 9 + 4* 2 1 2 1 + 6* 2 1 3 9 + 6* 2 3 3 2+ * 3 3 3 10+ * 3 1 3 2+3* 1 3 1 10 + 3* 1 1 1 2 + 5* 1 0 3 10 + 5* 1 2 3 2 + 7* 3 2 1 10+7* 3 0 1 3 0 1 0 11 0 3 0 3 + 2* 2 2 3 11+2* 2 0 3 3+4* 2 2 2 11+4* 2 0 2 3 + 6* 0 1 1 11 + 6* 0 3 1 4+ * 3 1 2 12+ * 3 3 .
+2 44 3* 3 0 2 12 + 3* 3 2 2 4 + 5* 1 0 2 12 + 5* 1 2 2 4+7* 1 1 2 12 + 7* 1 3 2 5 2 3 0 13 2 1 0 5 + 2* 2 1 1 13 + 2* 2 3 1 5 44* 0 2 2 13+4* 0 0 2 5 + 6* 0 2 3 13 + 6* 0 0 3 6+ * 1 2 1 14+ * 1 0 1 6 + 3* 3 0 3 14 + 3* 3 2 3 6+5* 3 3 1 14+5* 3 1 1 6 + 7* 1 3 3 14+7* 1 1 1 3 7 2 2 0 15 2 0 0 7 + 2* 0 1 3 15 + 2* 0 3 3 7+4* 0 3 2 15 + 4* 0 1 2 7 + 6* 2 0 1 15 + 6* 1 2 2 1 ( 4 ) ( 4 ) ( 4 ) ( 4 ) ( 4 ) ( 4 ) FOR ANY COMPOSITE MODULUS , REAL OR COMPLEX .
+Mod ( l + Generators 1 -}- 2 3 , i. 0 0 1 0 1 2 0 0 13+ 4* 4 0 0 1 9+ 8* 6 0 0 5 + 12* 0 0 1 * 2 0 1 12 + 13* 4 0 1 8+ 9* 6 0 1 4+ 5* 0 0 2 15 2 0 2 3 + 12* 4 0 2 7+ 8* 6 0 2 11+ 4* 0 0 3 15 * 2 0 3 4+ 3t 4 0 3 8+ 7* 6 0 3 12 + 11* 0 1 0 3 2 1 0 7 + 12* 4 1 0 11+ 8* 6 1 0 15+ 4* 0 1 1 Si 2 1 1 4+ 7* 4 1 1 8 +lit 6 1 1 12 + 15* 1 0 1 2 13 2 1 2 9+4* 4 1 2 5+ 8* 6 1 2 1 + 12* 0 1 3 13* 2 1 3 12+ 9* 4 1 3 8 + 5t 6 1 3 4+ * 0 2 0 9 2 2 0 5+ 4* 4 2 0 1+ 8 * 6 2 0 13 + 12* 0 2 1 9 i 2 2 1 12+ 5* 4 2 1 8+ * 6 2 1 4+13* 0 2 2 7 2 2 2 11+12* 4 2 2 15+ 8* 6 2 2 3+ 4* 0 2 3 7 i 2 2 3 4+lit 4 2 3 8+15* 6 2 3 12+ 3* 0 3 0 11 2 3 0 15 + 12* 4 3 0 3+ 8* 6 3 0 7+ 4* 0 3 1 lit 2 3 l 4 + 15* 4 3 1 8 + 3* 6 3 1 12+ 7* 0 3 2 5 2 3 2 1+ 4* 4 3 2 13+8* 6 3 2 9 + 12* 0 3 3 hi 2 3 3 12+ * 4 3 3 8+13* 6 3 3 4+ 9* 1 0 0 1+ 2* 3 0 0 5 + 14* 5 0 0 9 + 10* 7 0 0 13+ 6* 1 0 1 14+ * 3 0 1 2+ 5 0 1 6+ 9* 7 0 1 10 + 13* 1 0 2 15 + 14* , 3 0 2 11+ 2* 5 0 2 7+ 6* 7 0 ' 2 3 + 10* 1 0 3 2 + 15* 3 0 3 14 +lit 5 0 3 10+ 7* 7 0 3 6+ 3* 1 1 0 3+ 6* 3 1 0 15 +10* 5 1 0 11 + 14* 7 1 0 .
+7+ 2* 1 1 1 10+ 3* 3 1 1 6 + 15* 5 1 1 2 +lit 7 1 1 14+ 7* 1 1 2 13 + 10* 3 1 2 1+6* 5 1 2 5+ 2* 7 1 2 9 +14* 1 1 3 6 + 13* 3 1 3 10+ * 1 3 14 + hi 7 1 3 2+ 9* 1 2 0 9+ 2* 3 2 0 13 + 14* 5 2 0 1 + 10* 7 2 0 5+ 6* 1 2 1 14+ 9* 3 2 1 2 +13* 5 2 1 6+ * 7 2 1 10+ 5* ] 2 2 7 + 14* 3 2 2 3 + 2t 5 2 2 15+ 6* 7 2 2 11 + 10* 1 2 3 2+ 7* 3 2 3 14+ 5 2 3 10 + 15* 7 2 8 6 + 11* I 3 0 11+ 6* 3 3 0 7+10* 5 3 0 3 + 14* 7 .
+3 0 15+ 2 * 1 3 1 10+lit 3 3 1 6+ 7* 5 3 1 2 + 3* 7 3 1 14+15* 1 3 2 5 + 10* 3 3 2 9+ 6* 5 3 2 13+ 2* 7 3 2 1 +14 i 1 3 3 6+ 5* 3 3 3 10+ 9* 5 3 3 14 + 13* l 7 3 3 2+ * ' ( 8 ) ( 4 ) ( 4 ) ( 8 ) ( 4 ) ( 4 ) ( 8 ) ( 4 ) ( 4 ) ( 8 ) ( 4 ) ( 4 ) Mod ( 1 + * 0 0 1 4+ * 6 1 3 \#166 ; 8+ * 4 2 1 12+ * 2 3 3 Si 0 1 1 4+ 3* 2 0 3 8+ 3* 4 3 1 12+ 3* 6 2 3 hi 0 3 3 4+ 5* 6 0 1 8 + 5* 4 1 3 12+ 5* 2 2 1 7 i 0 2 3 4+ 7* 2 1 1 8+ 7* 4 0 3 12+ 7* 6 3 1 9 i 0 2 1 4+ 9* 6 3 3 8+ 9* 4 0 1 12+ 9* 2 1 3 11* 0 3 1 4 + 11* 2 2 3 8 + 11* 4 1 1 12 + 11* 6 0 3 13* 0 1 3 4 + 13* 6 2 1 8 + 13* 4 3 3 12 + 13* 2 0 1 15* 0 0 3 4 + 15* 2 3 1 8 + 15* 4 2 3 12 + 15* 6 1 1 1 0 0 0 5 0 3 2 9 0 2 0 13 0 1 2 1+ 2* 1 0 0 5+ 2* 5 1 2 9+ 2* 1 2 0 13+ 2* 5 3 2 1+ 4* 2 g 2 5+ 4* 2 2 0 9 + 4* 2 1 2 13+ 4* 2 0 0 1+ 6* 3 1 2 5+ 6* 7 2 0 9+ 6* 3 3 2 13+ 6* 7 0 0 1+ 8* 4 2 0 5+ 8* 4 1 2 9+8* 4 0 0 13+ 8* 4 3 2 1 + 10* 5 2 0 5 + 10* 1 3 .2 9 + 10* 5 0 0 13+10* 1 1 2 1 + 12* 6 1 2 5 + 12* 6 0 0 9 + 12* 6 3 2 13+12* 6 2 0 1 + 14* 7 3 2 5 + 14* 3 0 0 9 + 14* 7 1 2 13 + 14* 3 2 0 2+ * 7 3 3 6+ * 5 2 1 10+ * 3 1 3 14+ * 1 0 1 2+ 5 3 1 6+ 3* 7 0 3 10+ 3* 1 1 1 14+ 3* 3 2 3 2+ hi 3 0 1 6+ 5* 1 3 3 10+ 5* 7 2 1 14+ hi 5 1 3 2+ 7* 1 2 3 6+ 7* 3 3 1 10+ 7* 5 0 3 14+ 7* 7 1 1 2+ 9* 7 1 3 6.+ 9* 5 0 1 10+ 9* 3 3 3 14+ 9* 1 2 1 2 + 11* 5 1 1 6 + 11* 7 2 3 10 + 11* 1 3 1 14 + 11* 3 0 3 2 + 13* 3 2 1 6+13* 1 1 3 10 + 13* 7 0 1 14 + 13* 5 3 3 2 + 15* 1 0 3 6 + 15* 3 1 1 10 +15* 5 2 3 14 + 15* 7 3 1 3 0 1 0 7 0 2 2 11 0 3 0 15 0 0 2 3+ 2* 3 2 2 7+ 2* 7 1 0 11+ 2* 3 0 2 15+ 2* 7 3 0 3+ 4* 6 2 2 7-t- 4* 6 3 0 11+ 4* 6 0 2 15+ 4* 6 1 0 3+ 6* 1 1 0 7+ 6* 5 0 2 11+ 6* 1 3 0 15+ 6* 5 2 2 3+ 8* 4 3 0 7+ 8* 4 0 2 11+ 8* 4 1 0 15+ 8* 4 2 2 3+10* 7 0 2 7+10* 3 3 0 11 + 10* 7 2 ' 2 15 + 10* 3 1 0 3+12* 2 0 2 7+12* 2 1 0 11 + 12* 2 2 2 15 + 12* 2 3 0 3+14* 5 3 0 7+14* 1 2 2 11 + 14* 5 1 0 15 +14* 1 0 2 ( 8 ) ( 4 ) ( 4 ) ( 8 ) ( 4 ) ( 4 ) ( B)(4 ) ( 4 ) ( 8 ) ( 4 ) ( 4 )
+

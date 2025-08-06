@@ -1,0 +1,45 @@
+Memoir on the Resultant of a System of two Equations .
+By ARTHUR CAYLEY , Esg .
+, F.R.S. Received December 18 , 1856 , -Read January 8 , 1857 , THE Resultant of two equations such as ( a , b , .
+, y)f=O , ( p , i,. .
+x , y)"=0 , is , it is well known , a function homogeneous in regard to the coefficients of each equation separately , viz. of the degree n in regard to the coefficients ( a , b,. .
+) of the first equation , and of the degree m in regard to the coefficients ( p , q,. .
+) of the second equation ; and it is natural to develope the resultant in the form kAP+kA'AP'+ &amp;c. , where A , A ' , &amp;c. are the combinations ( powers and products ) of the degree n in the coefficients ( a , b,. .
+) , P , P , &amp;c. are the combinations of the degree m in the coefficients ( p , ,. .
+) and k , k ' , &amp;c. are mere numerical coefficients .
+The object of the present memoir is to show how this may be conveniently effected , either by the method of symmetric functions , or from the known expression of the Resultant in the form of a determinant , and to exhibit the developed expressions for the resultant of two equations , the degrees of which do not exceed 4 .
+With respect to the first method , the formula in its best form , or nearly so , is given in the 'Algebra ' of MEYER HIRSCH , and the application of it is very easy when the necessary tables are calculated : as to this , see my " Memoir on the Symmetric Functions of the Roots of an Equation* .
+" But when the expression for the Resultant of two equations is to be calculated without the assistance of such tables , it is I think by far the most simple process to develope the determinant according to the second of the two methods .
+Consider first the method of symmetric functions , and to fix the .
+ideas , let the two equations be ( a , b , c , dlx , y)3=0 , ( p , q , r.x , y)= o0 Then writing ( a , b , c , aTl , z)3=-(1i-a)(1--z)(1-z ) , so that b --= ?
++I3+y -(1 ) , C +a==-3+cy+3yr=(12 ) , d the Resultant is ( p , q , r:a , l)2.(p , q , 3 , )2.(p , , ry , 1)2 , which is equal to r3+2(Ma+P+ )+rpr2(o2+32+ y2 ) +pqr(a23+a e2+22y+3yr2+rya2+ yr ) + &amp;c. Or adopting the notation for symmetric functions used in the memoir above referred to , this is { r3 the law of which is best seen by { +r2 ( 1 ) , +pr2 ( 2 ) I +2r ( 12 ) , +pqr(21 ) , +qS ( 1 ) , f +p2r ( 22 ) I +pq2 ( 212 ) , { +p2q ( 221 ) , { +p3 ( 23 ) , dividing by r3 and then writing =[l ] ?
+P =[2 ] , and similarly , r-12 ] , P-q[2 1 ] , &amp;c. ; the expression would then become 1+[1](1)+[2](2 ) + [ 12 [ 21](2)+21(21)+[13](1)+[22(22)+[212](212)+ [ 21](221 ) +23(2 where the terms within the [ ] and ( ) are simply all the partitions of the numbers 1 , 2 , 3 , 4 , 5 , 6 , the greatest part being 2 , and the greatest number of parts being 3 .
+And in like manner in the general case we have all the partitions of the numbers 1 , 2 , 3 ... mn , the greatest part being n , and the greatest number of parts being m. The symmetric functions ( 1 ) , ( 2 ) , ( l2 ) , &amp;c. are given in the Tables ( b ) of the Memoir on Symmetric Functions , but it is necessary to remark that in the Tables the first coefficient a is put equal to unity , and consequently that there is a power of the coefficient a to be restored as a factor : this is at once effected by the condition of homogeneity .
+And it is not by any means necessary to write down ( as for clearness of explanation has been done ) the preceding expression for the Resultant ; any portion of it may be taken out directly from one of the Tables ( b ) .
+For instance , the bracketed portion portion +pqr ( 21 ) , +q3 ( 1 ) , which corresponds to the partitions of the number 3 , is to be taken out of the Table III(b ) .
+as follows : a portion of this Table ( consisting as it happens of consecutive lines and columns , but this is not in general the case ) is d be ( 2I ) +3 -1 ( I3 ) -1 if in this we omit the sign = , and in the outside line write for homogeneity ad instead of d , and in the outside column first substituting q , p for 1 , 2 , then write for homogeneity pqr instead of p , we have ad bc r +3 -1 g3 -1 viz. prx ( +3ad -lbc)+3(lad ) , for the value of the portion in question ; this is equivalent to ad +3^ 1 , or as it may be more conveniently written , &gt; / be -1 in which form it constitutes a part of the expression given in the sequel for the Resultant of the two functions in question ; and similarly the remainder of the expression is at once derived from the Tables ( b ) I. to VI .
+As a specimen of a mode of verification , it may be remarked that the Resultant qua invariant ought , when operated upon by the sum of the two operations , 3aab+2bac+c6d and 2p2q+q , , to give a result zero .
+The results of the two operations are originally obtained in the forms in the first and second columns , and the first column , and the second column , with all the signs reversed , are respectively equal to the third column , and consequently the sum of the first and second columns vanishes , as it ought to do .
+Next to explain the second method , viz. the calculation of the resultant from the expression in the form of a determinant .
+Taking the same example , as before , the resultant is a , b , c , d a , b , ,c d , p , q , rP q , r which may be developed in the form +12.345 } -13.245 } +14.235 } +23 .
+145 -15.234 } -24.135J +25.134 } +34.125J -35 .
+124 } +45.123 } where 12 , 13 , &amp;c. are the terms of ( a , b , c d ) b c , d and 123 , &amp;c. are the terms of ( P , r ) p , q , r p , q , r viz. 12 is the determinant formed with the first and second columns of the upper matrix , 123 is the determinant formed with the first , second and third columns of the lower matrix , and in like manner for the analogous symbols .
+These determinants must be first calculated , and the remainder of the calculation may then be arranged as follows : X/ y\y Xx &lt; X= &lt; X X ordinary rule for the multiplicatXon of determinants-taking care to multy the dexter lines ( i. e. lines in the direction\ ) of the first square bythe sinister lines ( i. e. lines in the direction / ) of the second square in order to obtain the sinister lines of the third square .
+Thus , for instance , the figures in the square are obtained as follows , viz. the first sin i ster line ( +3 , -1 ) by ( -1 , +1 )(2 + ) 2+1-+3 ( -1 +1)(+1 , 0)=-+o=-- , and the second si nister line ( -1 , 0 ) by ( 0 , -1)(-2 , +1)=0--=-l ( 0 , -1)(+ ] , 0)=o+o= 0 .
+I have calculated the determinants required for the calculation by the preceding process , in question are useful for other purposes , I think the values are worth preserving.\I7 ' KXy .
+-Iy obtained from those in the corresponding squares of the first and second columns by the ordinary rule for the multiplication of determinants5-taking care to multiply the dexter lines ( i. e. lines in the direction\ ) of the first square by the sinister lines ( i. e. lines in the direction 7 ) of the second square in order to obtain the sinister lines of the third square .
+Thus , for instance , the figures in the square in question are useful for other purposes , I think the values are worth preserving .
+OF TWO EQUATIONS .
+707 Table of the Determinants of the Matrices , ( a , b , c , d , e ) a , b , c , d , e a , b , c , d , e a , b , c , d , e and ( p , q , r , s , t ) p , q , r , s , t p , q , r , s , t p , , , r , s , t arranged in the form adapted for the calculation of the Resultant equations ( a , b , c , d , elx , y)4=0 , and ( p , q , r , s , t5xi , y)4=0 , viz. of the twmo quartic xxi &gt; \ ~/ SYSTEM/ f OF TWO EQUATIONS .
+711 The Tables follows:of the Resultants of two equations which I have calculated are as Table ( 2 , 2 ) .
+Resultant of ( a , b , cix , y ) , ( p , a , r x , y ) .
+Table ( 3 , 2 ) .
+Resultant of ( a , b , c d(x , y)3 , ( p , q , r Ixy)2 .
+4- , , , ,l 4z2 Table ( 4 , 2 ) .
+Resultant of ( b , , X , ex , y ) ' , ( p , q , rX , y)2 , Table ( 3 , 3 ) .
+Resultant of ( a , b , , cdXx , y ) .
+, ( p , q , r , scx , y ) , Table ( 4 , 3 ) .
+j~~~~~~~~~~~~~~ " I. Resultant of ( a , b , c , d , eXx , y)4 , ( p , q , r , six , y)3 .
+Table ( 4 , 4 ) .
+Resultant of ( a , b , c , d , erx , y)4 , ( p , q , r , s , t7( , y)4 .
+

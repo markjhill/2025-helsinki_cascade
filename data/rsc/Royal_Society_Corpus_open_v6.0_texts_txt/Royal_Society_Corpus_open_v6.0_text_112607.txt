@@ -1,0 +1,53 @@
+IV .
+" Condensation of Determinants , being a new and brief Method for computing their arithmetical values .
+" By the Rev. C. L. DODGSON , M.A. , Student of Christ Church , Oxford .
+Communicated by the Rev. BARTHOLOMEW PuICE , M.A. , F.R.S. Received May 15 , 1866 .
+If it be proposed to solve a set of n simultaneous linear equations , not being all homogeneous , involving n unknowns , or to test their compatibility when all are homogeneous , by the method of determinants , in these , as well as in other cases of common occurrence , it is necessary to compute the arithmetical values of one or more determinants-such , for example , as 1 , 3 , -2 2,1 , 4 3 , 5,1 Now the only method , so far as I am aware , that has been hitherto employed for such a purpose , is that of multiplying each term of the first row or column by the determinant of its complemental minor , and affecting the products with the signs + and alternately , the determinants required in the process being , in their turn , broken up in the same manner until determinants are finally arrived at sufficiently small for mental computation .
+This process , in the above instance , would run thus:1 , 3 , --2 2,1 , 4 =1x 14 -2x 3--2 +3X -312 3:~5 , -1 5 , -1 5 , --11 1 , 4 3 , 5 , --1 i =-21-14+42=7 .
+But such a process , when the block consists of 16 , 25 , or more terms , is so tedious that the old method of elimination is much to be preferred for solving simultaneous equations ; so that the new method , excepting for equations containing 2 or 3 unknowns , is practically useless .
+The new method of computation , which I now proceed to explain , and for which " Condensation " appears to be an appropriate name , will be found , I believe , to be far shorter and simpler than any hitherto employed .
+In the following remarks I shall use the word " Block " to denote any number of terms arranged in rows and columns , and " interior of a block " to denote the block which remains when the first and last rows and columns are erased .
+The process of " Condensation " is exhibited in the following rules , in which the given block is supposed to consist of n rows and n columns:(1 ) Arrange the given block , if necessary , so that no ciphers occur in its interior .
+This may be done either by transposing rows or columns , or by adding to certain rows the several terms of other rows multiplied by certain multipliers .
+( 2 ) Compute the determinant of every minor consisting of four adjacent terms .
+These values will constitute a second block , consisting of n-rows and n-1 columns .
+( 3 ) Condense this second block in the same manner , dividing each term , when found , by the corresponding term in the interior of the first block .
+( 4 ) Repeat this process as often as may be necessary ( observing that in condensing any block of the series , the rth for example , the terms so found must be divided by the corresponding terms in the interior of the r--lth block ) , until the block is condensed to a single term , which will be the required value .
+As an instance of the foregoing rules , let us take the block -2 -1 -1 -4 -1 -2 -1 -6 -1 -1 2421 -3 -8 3 -1 2 By rule ( 2 ) this is condensed into --1 -5 8 ; this , again , by 11 -4 rule ( 3 ) , is condensed into I --26 and this , by rule ( 4 ) , into -8 , which is the required value .
+The simplest method of working this rule appears to be to arrange the series of blocks one under another , as here exhibited ; it will then be found very easy to pick out the divisors required in rules ( 3 ) and ( 4 ) .
+-2 --1 -4 -I -2 -1 -6 -1 -1 2421 -3 3 -1 2 -1 -5 811 -4 8 --2 -4 6 -8 .
+This process cannot be continued when ciphers occur in the interior of any one of the blocks , since infinite values would be introduced by employing them as divisors .
+When they occur in the given block itself , it may be rearranged as has been already mentioned ; but this cannot be done when they occur in any one of the derived blocks ; in such a case the given block must be rearranged as circumstances require , and the operation commenced anew .
+The best way of doing this is as follows : Suppose a cipher to occur in the hth row and kth column of one of the derived blocks ( reckoning both row and column from the nearest corner of the block ) ; find the term in the hth row and kth column of the given block ( reckoning from the corresponding corner ) , and transpose rows or columns cyclically until it is left in an outside row or column .
+When the necessary alterations have been made in the derived blocks , it will be found that the cipher now occurs in an outside row or column , and therefore need no longer be used as a divisor .
+The advantage of cyclical transposition is , that most of the terms in the new blocks will have been computed already , and need only be copied ; in no case will it be necessary to compute more than one new row or column for each block of the series .
+In the following instance it will be seen that in the first series of blocks a cipher occurs in the interior of the third .
+We therefore abandon the process at that point and begin again , rearranging the given block by transferring the top row to the bottom ; and the cipher , when it occurs , is now found in an exterior row .
+It will be observed that in each block of the new series , there is only one new row to be computed ; the other rows are simply copied from the work already done .
+2-1 21 -3 12 -1 2121 -1 21 -1 -2 -1 1 -1 -2 -1 -1 21 -1 -2 -1 21 -1-2 112 -1 -1 21 -2 -1 -1 22 -1 21 -3 5 -5 -3 -3 -3 33 -3 -3 -3 3333 -1 333 -1 -5 -3 -1 -5 -5 -3 -l -5 3 -5 11 -30 6 -12 0060066 -6 86 -6 8 -17 8 -4 0 12 1 18 40 36 .
+The fact that , whenever ciphers occur in the interior of a derived block , it is necessary to recommence the operation , may be thought a great obstacle to the use of this method ; but I believe it will be found in practice that , even though this should occur several times in the course of one operation , the whole amount of labour will still be much less than that involved in the old process of computation .
+I now proceed to give a proof of the validity of this process , deduced from a well-known theorem in determinants ; and in doing so , I shall use the word " adjugate " in the following sense:-if there be a square block , and if a new block be formed , such that each of its terms is the determinant of the complemental minor of the corresponding term of the first block , the second block is said to be adjugate to the first , The theorem referred to is the following : " If the determinant of a block = R , the determinant of any minor of the mth degree of the adjugate block is the product of R"- ' and the coefficient which , in R , multiplies the determinant of the corresponding minor .
+" Let us first take a block of 9 terms , al , a , ,2 a1,3 a,1 a2,2 a2,3 = ; a3,1 a3,2 a3,3 and let ao , , represent the determinant of the complemental minor of a , , , and so on .
+If we " condense " this , by the method already given , we get the block { 3 , a3 , i , and , by the theorem above cited , the determinant of this , 1,3 a , 1 viz. a3 3,1 Rx a~3'1 I ~R X ~2,2 .
+1 , 3 III 1 3,3 3,1 Hence PR= _l3 all I , which proves the rule .
+2 , 2 Secondly , let us take a block of 16 terms : al,1. .
+a.1 , 4* ==R .
+a4,1. .
+a4,4 If we " condense " this , we get a block of 9 terms ; let us denote it by , If we take a block consisting of n rows and n+ 1 columns , and " condense " it , we reduce it at last to 2 terms , the first of which is the determinant of the first n columns , the other of the last n columns .
+Hence , if we take the n simultaneous equations , al , l xl +-al,2 x2+ *** +a , ,x , +-a , n++l=0 , al , XI ... ... ... ... ... .
++ al , n+1= 0 ; and if we condense the whole block of coefficients and constants , viz. al , 1 ... .
+al , n+1 l^ * * 0 We then condense these into the column 0 , and , supplying from 23 the second block of the first series the column , we obtain -5 3010 as the last two columns of the second block of the new series ; -5 2 and proceeding thus we ultimately obtain the two terms 12 , 12 .
+Observing that the y-column has the sign + placed over it , we multiply the first 12 by + y , and so form the equation 12y= 12 , which gives y= 1 .
+The values of z , u , and v are similarly found .
+It will be seen that when once the given block has been successfully condensed , and the value of the first unknown obtained , there is no further danger of the operation being interrupted by the occurrence of ciphers .
++++2 +2y +zu +2v +2 =0 xy -2z uv -4 =0 2x +yz -2u v -6 =0 x -2y zu +2v +4 =0 2x y +2z +u -3v -8 =0 11 2 1-1 222426|2 511 2 4| 1 -1 -2 -1 -1 -1 -2 -1 -3 -1 -1 |.-.-2v=4 ... .
+v--2 2 1-1 -2-1 -6 -2 -1 -13 31 1 -2 -1--1 2426 3..3 ... . .
+12 -1 2 1-3-8 30 -1 -2 -3-3-3 3 --6 1 16 61 O06 01 12 12 1 6-6 8-2.12y2 .
+=12 ... ... ... ... ... ... =1 -17 8-4 60 12 12 18 40 -8 136-721.36 .
+--72 ... ... ... ... ... ... ... ... ... .x ... ... ... ... ... x= 24 5x +2y -3z +3 =Y 3x y -2z +7 =0 2x +-3y -12 =0 52 -3 3 1-3 81 -3 12 3 -1 -2 7 -2 101 .
+3=12 ... ... ... ... ... . .
+z4 231 -12 1-7 -14 -11 --151. .
+7y= --14 ... ... ... ... ... .
+y2 11 5 17 | -22 22..22x=22 ... ... ... ... ... ... ... ... ... . .
+1
+

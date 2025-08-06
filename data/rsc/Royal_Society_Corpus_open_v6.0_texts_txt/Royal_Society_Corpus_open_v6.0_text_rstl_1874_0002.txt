@@ -1,0 +1,479 @@
+]\gt ; II .
+Researches in the Dynamics of a Rigid Body by the aid of the Theory of Screws .
+ROBERT STAWELL BALL , .D .
+, Professor of Applied Mathematics and in the Royal College of Science for Ireland .
+Communicated by Professor CAYLEY .
+Received May 29 , \mdash ; Read June 19 , 1873 .
+CONTENTS .
+lntroduction .
+15 I. On the Virtual Coeflicient of a pair of Screws . . . . . . . . . . . . . . . . . . . .
+16 II .
+Coreciprocal Screws . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18 III .
+The Sexiant . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+- . . . . . . . . . . . . .
+21 .
+On Impulsive Screws and Instantaneous Screws . . . . . . . . . . . . . . . . . .
+24 .
+The principal Screws of Inertia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27 VI .
+Miscellaneous Propositions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32 INTRODUCTION .
+IN a paper communicated to the Royal Irish Academy The Theory of Screws\mdash ; a geometrical study of the kinematics , equilibrium , and small oscillations of a rigid body Transactions of the Royal Irish Academy , vol. .
+p. 157 ) the chief features of what the writer has ventured to call the Theory of Screws were sketched* .
+It is the object of the present paper to give some further extensions and applications of that theory .
+The chief point which it is now proposed to illustrate is the appropriateness of the method to many problems in the dynamics of a rigid body .
+This will , to some extent , appear from the analogy subsisting between the conceptions of the theory and the familiar notions to which the conceptions degrade when the rigid body degrades to a particle .
+It should also be remarked that the complete generality of the method with reference to forces and constraints gives rise to many theorems of great interest , which could hardly be enunciated without the ideas which the theory embodies .
+A screev is a straight line in space with which a definite linear magnitude termed the pitch is associated .
+The pitch may have any value from .
+A body is said to receive a twist about a screw when it is rotated about the screw , and is at the same time translated parallel to the screw through a distance equal to the product of the pitch and the angle of twist .
+A wrench about a screw consists of a force and a couple : the force is along the screw , while the axis of the couple is parallel to the screw ; and the moment of the couple is the product of the force and the pitch of the screw .
+*References to the former paper are enclosed in square brackets thus\mdash ; art .
+[ 12 ] .
+Reference to the articles of the present paper are enclosed in semicircular brackets thus\mdash ; art .
+( 12 ) .
+As a vector expresses the entire conception of the movement of a particle one position to another , so a twist expresses all that is involved in the movement of a rigid body from one position to another ( CHASLES ) .
+As a force expresses the resultant of a number of forces applied to a particle , so a wrench expresses the resultant of a number of forces applied to a rigid body ( POINSOT ) .
+If a body receive a twist about the screw , and then a twist about the screw , the resulting position could have been produced by a twist about a third screw , C. The three screws lie upon the " " cylindroid a conoidal cubic surface of which the equation is pitch of the generator which is inclined to the axis of at the angle is where is an arbitrary constant .
+I. ON THE VIRTUAL OF A PAIR OF SCREWS .
+1 .
+Definition of the virtual coefficient.\mdash ; If a body receive a twist about a screw of pitch , through a small angle , while acted upon by a wrench about the screw of pitch , the quantity of energy expended is [ art . .
+P. where is the length of the common perpendicular to A and , and is the angle between A and B. Perhaps the simplest rule to distinguish between and its supplement is the following .
+Suppose the common perpendicular to be a screw , in the ordinary sense of the word , and that there is a nut on this screw to which A is attached .
+If , then , the nut be turned so as to make A approach ( that is , to make the length of the common perpendicular diminish ) , the angle through which A has turned when it has become parallel to is the angle It is a remarkable consequence of the symmetry of this expression , that precisely the same quantity of energy is required to twist a body about , through am angle , against a wrench about the screw A. The quantity within the brackets may be called the virtual coefficient of the pair of screws .
+In the former paper considerable application was made of the case where the virtual coefficient vanished , and the screws were then said to be iprocal [ art .
+18 ] .
+We now proceed to show some results which can be derived from the reciprocal character of the expression in cases where the virtual coefficient does not vanish .
+2 .
+Analogy of the composition of rotations to the composition of forces.\mdash ; It is a matter of great interest that angular velocities are compounded like forces , and translations like couples .
+The source of the analogy in the general principles of virtual velocities has been traced by RODRIGUnS ( LIOUVILLE'S Journal , t. 5 , 1840 , p.436 ) .
+In the former paper BODY BY THE AID OF THE TIIBORY OF SCREWS .
+[ art .
+16 ] this analogy was generalized into a theorem , which asserted that twists and wrenches are compounded by the same laws .
+We can now show that this theorem is a consequence of the reciprocal character of the virtual coefficient .
+3 .
+Source of the identity of the rules for the composition of twists and the composition of wrenches.\mdash ; Let be three screws , about which wrenches X , equilibrate .
+Take any known screw ; let be the virtual coefficients of with , N. If a body receive a small twist about the quantity of energy expended must be zero , since the three acting wrenches equilibrate ; but the energy consumed is the algebraical sum of , whence we deduce ; six of the equations obtained by giving different values to will determine the values of X , , and also the conditions which must be fulfilled by the positions and pitches of the three screws , N. These conditions we know [ art .
+16 ] are only fulfilled when lie upon the same cylindroid .
+When six equations of this type are satisfied , then all similar equations must also be satisfied .
+Let it now be proposed to examine the conditions under which three small twists about the same sclews can neutralize each other ; in other words , that the last twist shall restore the body to the same position which it occupied before the first .
+The total quantity of energy expended in the three twists against a wlench on any screw must be zero ; hence the algebraical sum of the three quantities , , must be zero , or We thus see that the quantities must be proportional to X , , and that the conditions to be fulfilled by are precisely the same in both cases .
+4 .
+On the componentwrenches about six screws of reference into which any wrench may be resolved.\mdash ; The properties of the virtual coefficient enable us to calculate with facility the magnitudes of seven wrenches about seven screws which equilibrate , or , in fact , to resolve a wrench into six wrenches about six given screws*[art .
+46 ] .
+Let \amp ; c. , be the given screws , and \amp ; c. , the required wrenches .
+Let be any screw and be the virtual coefficient of and .
+If the body receive a twist a.about , the quantity of eriergy expended must be , and therefore ; six of these equations would determine the ratios of \amp ; c. , .
+Byjudicious selection of the process is greatly simplified .
+If be reciprocal to \amp ; c. , ( art .
+5 ) , then \amp ; c. , vanish , and the equation determines the ratio of and * The problem of resolving a force along six given lines , where the lines form the edges of a tetrahcdron , has been solved by MoBIUS Journal , .
+IIDCCCLXXIV .
+DR. R. S. BALL'S RESEARCHffl IN THE DYNAMICS OF A RIGID It follows , from art .
+( 3 ) , that precisely the same investigation determines seven twist velocities about seven screws which neutralize each other .
+II .
+CORECIPROCAL SCREWS .
+5 .
+On a property of five twists analogous to a property of two vectors.\mdash ; That one vector 7 can be determined , which is perpendicular to two given vectors , is a proposition to which an analogue may be found in the Theory of Screws .
+The mechanical equivalent of the simple veotor theorem just referred to expresses that a force directed along the vector is unable to disturb the equilibrium of a particle only free to be displaced parallel to and , or , in fact , to move in the plane of and We may state the result thus : a particle which has only one degree short of absolute freedom can only be in equilibrium when the force acting on the particle occupies one position .
+To the theorem expressed in this manner , we have an analogous proposition in the Theory of Screws : a rigid body which has only one degree short of absolute freedom can only be in equilibrium when the wrench acting on the body is about one determinate screw .
+This is demonstrated as follows .
+The body having only one degree short of absolute freedom must be capable of twisting about five screws [ art .
+94 ] .
+Any wrench which is unable to disturb the equilibrium of the body must be reciprocal to the five screws ; and since a screw is determined by five elements , only a finite number of wrenches fulfilling this condition are possible .
+Now , as pointed out [ art .
+451 , that number must be one ; for if there were two , then every screw on the cylindroid determined by those two would fulfil the conditions [ art .
+21 ] , and the number would be infinite .
+6 .
+Calculation of the single screw reciprocal to five given screws.\mdash ; Let one of the five given screws be typified by ( pitch ) , while the desired screw is defined by .
+( pitch ) .
+The condition of reciprocity ( art .
+1 ) produces five equations of the following type : From these five equations the relative values of the six quantities can be determined by linear solution .
+Introducing these values into the identity gives the equation which determines BODY BY THE AID OF THE .
+IIIEORT OF SCBEWS .
+To express this equation concisely we introduce two classes of subsidiary magnitudes .
+We write one magnitude of each class as a determinant .
+By cyclical interchange the two analogous functions and are defined .
+By cyclical interchange the two nalogous functions and are defined .
+The equation for 9 The reduction of this equation to the first degree is an independent proof of the important , that one screw and only one can be determined which is reciprocal to five given sccews ; being known , can be found , and also two linear equations between , whence the reciprocal screw is completely determined .
+7 .
+Corec.iprocal screws.\mdash ; A set of six screws can be chosen , so that each screw is reciprocal to the remaining five .
+For take arbitrary ; reciprocal to reciprocal to reciprocal to reciprocal to ; and reciprocal to .
+A group constructed in this way is called a set of coreciprocal screws .
+Thirty constants determine a group of six screws .
+If the group be coreciprocal , fifteen conditions must be fulfilled ; we have therefore fifteen elements still disposable , so that we are always enabled to select a coreciprocal group with special appropriateness to the problem under consideration .
+The facilities presented by rectangular axes for questions connected with the dynamics of a particle have perhaps their analogues in the conveniences which arise from referring the twist coordinates of a rigid body to a group of coreciprocal screws .
+8 .
+Resolution of a wrench along six coreciprocal screws.\mdash ; The resolution of a wrench ( or of a twist velocity ) into six ( six twist velocities ) of magnitudes \amp ; c. , along six reciprocal screws of reference \amp ; c. , is thus effected geometrically .
+Draw the cylindroid , select on this cylindroid the screw reciprocal to [ art .
+44 ] ; if a rigid body only free to twist about be acted upon by wrenches about \amp ; c. , , the only operative wrenches are those about , for all the others are reciprocal to , and are destroyed by the reaction of the constraints .
+Hence the wrench must be such as to neutralize the effect of the wrench in its efforts to disturb the equilibrium of a body only free to twist about P. Therefore the wrenches must be such as compound into a wrench about the screw on the cylindroid reciprocal to P. Thus the ratio of to is completely determined .
+9 .
+Expressions for the components about six coreciprocal screws into which any wrench may be decomposed.\mdash ; The use of the virtual coefficient will afford concise values of the components .
+Let \amp ; c. , be the coreciprocal screws , and let X be the wrench about screw which is to be decomposed .
+Let be the pitch of the screw .
+Let be virtual coefficient of and .
+Let be the component wrench about The xpended in giving a body a small twist around against the wrench X is ; this must equal the energy in giving the body the same twist in opposition to the component wrench ; for since \amp ; c. , are reciprocal to , the wrenches \amp ; c. , not affect the quantity of energy required .
+The virtual coefficient of two coincident screws reduces to the sum of the pitches , and therefore whence The analogy of this process to the resolution of a force or velocity along three rectangular axes may be noticed .
+The velocity of a point is resolved into three components parallel to the axes by multiplying the velocity into the direction cosines ; so the twist velocity of the rigid body is resolved into six twist velocities about six coreciprocal screws by multiplying the original twist velocity into six functions analogous to the cosines .
+10 .
+Relation between the square of a wrench and the squares of its components along a coreciprocal system.\mdash ; We can also detect a theorem analogous to the familiar truth that the sum of the squares of the three component velocities is equal to the square of the original velocity .
+To twist a body through a small angle about the screw , in opposition to the wrench X about the same screw , requires a quantity of energy equal to ; but this must equal the quantity of energy necessary to overcome the components , namely , , but ( art .
+9 ) ; substituting , we find BODY BY THE AID OF BIEORY OF 11 .
+Definition of the Sexiant.\mdash ; When six screws , \amp ; c. , , are reciprocal to a single screw , a certain relation must subsist between the pitches and the coefficients of \amp ; c. , .
+The function which , when equated to zero , gives the condition required , may be called the sexiant of the six screws .
+The equations of the screw are pitch The reciprocal screw , which without loss of generality we may suppose to pass the origin , is represented by ( pitch ) .
+The condition that and be reciprocal is Writing the six equations of this type , found by giving the values 1 to 6 , and eliminating the six quantities we obtain the result:\mdash ; ' By transformation to any parallel axes the value of this determinant is unaltered .
+The evanescence of the determinant is therefore a necessary condition whenever the six screws are reciprocal to a single screw .
+The sexiant is only a function of the differences \amp ; c. of the pitches ; and when the pitches are equal the evanescence of the sexiant expresses that the six lines which form the screws are in involution .
+The property possessed by six screws when their sexiant vanishes may be enunciated in different ways , which are precisely equivalent .
+( a ) The six screws all reciprocal to one screw .
+( b ) The six screws are members of a coordinate system of five degrees of freedom .
+( c ) Properly selected wrenches about the six screws equilibrate , when applied to afree rigid body .
+( d ) Properly selected twist velociti-es about the six screws neutralize , when applied to a rigid body .
+( e ) A body might receive six small twists about the six screws , so that after the last twist the body would occupy the same position which it had before the first .
+( f ) By extending the language of Professor Comptes Rendus , , we might perhaps assert that six screws are in involution when their sexiant vanishes .
+( g ) Any wrench ( or twist or twist velocity ) can be resolved into six wrenches ( or twists or twist velocities ) about six screws when the sexiant of the six screws does not vanish .
+12 .
+Application of the sexiant to the resolution of a wrench about six screws of rence.\mdash ; One of the most remarkable properties of the sexiant is enunciated in the following theorem : \mdash ; If seven wrenches ( or twists ) about seven screws equilibrate ( or neutralize ) , the magnitude of each wrench ( or twist ) must be proportional to the sexiant of the remaining six screws .
+We shall demonstrate this property for twists , the demonstration for wrenches being , of course , exactly similar .
+Let one , , of the seven screws be represented by ( pilch ) .
+Suppose be the coordinates of the foot of the perpendicular from the origin on The body receives a small twist about ; the rotation element of the twist may be transferred to a rotation about a parallel axis through the origin by the introduction of translations , whose components are .
+Each of the seven twists is thus decomposed into three translations parallel to the three axes , and three rotations about the axes .
+If the seven twists neutralize , we have the six equations : These equations will be satisfied if for each value of the sexiant of the remaining six screws be substituted .
+This will appear most satisfactorily by writing one of the equations a second time and eliminating \amp ; c. , from the seven equations .
+We then get a result which is necessarily zero .
+But it will be found that this is precisely the same result as would have been obtained by the substitution already mentioned .
+13 .
+Circumstances under which the sexiant vanishes identically.\mdash ; The sexiant vanishes if screws be members of a coordinate system of freedom ; for then a BODY BY THB AID OF THB THEORY OF SCREWS .
+screw reciprocal to screws of the system will be reciprocal to the screws [ art .
+36 ] , and therefore a screw can be chosen reciprocal to the six screws from which the sexiant is formed .
+14 .
+Use of the sexiant in resolving a wrench into components about a group of screws with which the wrench is coordinate.\mdash ; Given screws of a coordinate system of freedom of the degree [ art .
+31 ] , determine expressions for the wrenches ( or twists ) \amp ; c. , about the screws which will neutralize each other .
+Let the given screws be \amp ; c. , Take screws \amp ; c. , from the group reciprocal to the given coordinate system [ art .
+37 ] .
+If wrenches \amp ; c. , about the seven screws \amp ; c. , \amp ; c. , equilibrate , must have ( art .
+12 ) where the symbol denotes the sexiant of the six screws inside the brackets .
+The sexiants under \amp ; c. , vanish identically ( art .
+13 ) ; hence \amp ; c. , are each zero .
+The other equations determine the required quantities \amp ; c. , 15 .
+On a function analogous to the sine of the angle between two vectors.\mdash ; We have pointed out ( art .
+9 ) in what respects the virtual coefficient of a pair of screws may be considered analogous to the cosine of the angle between a pair of vectors .
+We hope the following attempt to point out a function in the theory of screws in some respects analogous to the sine of the angle between a pair of vectors will not be considered to transcend the reasonable use of mathematical metaphor .
+The determinant whose evanescence expresses that three vectors are coplanar has the sexiant for its analogue in the theory of screws .
+If the condition that three vectors , , be coplanar is satisfied for every vector , then the sine of the angle between and 6 must vanish .
+It is remarkable that the vanishing of the sine really involves two conditions , for it can only occur when the direction cosines of and are identical .
+If now the sexiant of \amp ; c. , vanish for every scl.ew , the remaining five screws must fulfil the two conditions known to be necessal.y , in order that they may constitute members of a coordinate system with four degrees of freedom .
+If , then , we can find one function , the evanescence of which will afford the two necessary conditions , such a function may be considered analogous to the sine of the angle between two vectors .
+It can hardly be objected to this analogy that , while two vectors are concerned in the one case , five screws enter into the other ; for it must be remembered that is the complete number of vectors of reference , while is the complete number of screws of reference .
+The investigation of art .
+( 11 ) indicates the function of which we are in search .
+If the five screws are really coordinate members of a lower degree of freedom , the value of must become indeterminate , and therefore 24 DR. S. BALL'S RESE nCnES IN THE DYNAMIC8 OF A RIGID We deduce from this the equations two of which , being independent , provide the two conditions required .
+16 .
+On a relation between a sexiant and a virtual coeffiaient.\mdash ; We shall first state a simple vector problem .
+Given three vectors , determine the cosine of the angle between 7 and the common perpendicular to and The required cosine is the quotient obtained by dividing the determinant whose evanescence shows to be coplanar by the sine of the angle between and The corresponding question in the theory of screws is as follows .
+Given six screws \amp ; c. , of which represents the sexiant .
+Let be the screw reciprocal to the five screws \amp ; c. , \amp ; c. , , and let be the virtual coefficient of and .
+Let denote the function computed for the five screws \amp ; c. , , A. \amp ; c. , .
+Then can only differ by a numerical factor from For must vanish if vanish , unless at the same time vanish .
+is of the third dimensions of linear magnitude and of the .
+second , so that the quotient is of the same dimensions as .
+ON IMPULSIVE SCREWS AND INSTANTANEOUS SCREWS .
+17 .
+The imputsive cylindroid and the instantaneous ndroid.\mdash ; A rigid body is at rest in a position , from which it is either partially or entirely free to move .
+If l.eceive an impulsive wrench about .
+a screw , it will commence to twist about an instantaneous screw .
+If , however , impulsive wrench had been about or ( being in either case at rest in the position P ) , the instantaneous screw would have been or .
+Then we have the following theorem:\mdash ; If lie upon a cylindroid ( whith we may call the impulsive cylindroid ) , then lie on a cylindroid ( which we may call the instantaneous cylindroid)* .
+For if the three wrenches are of suitable magnitude they may equilibrate , since they are cocylindroidal ; when this is the case the three instantaneous twist velocities must of course neutralize , but this is only possible if the instantaneous screws be cocylindroidal .
+18 .
+On an anharmonic property of the impulsive and instantaneous cylinlroids.\mdash ; If we draw a pencil of four lines through a point parallel to four generators of a cylindroid , the lines forming the pencil will lie in a plane .
+We may define the anharmonic ratio offour generators on a cylindroid to be the anharmonic ratio of the parallel pencil .
+We shall now prove the following theorem:\mdash ; The anharmonic l.atio of four screws on the impulsive cylindroid is equal to the anharmonic ratio of the four corresponding screws on the instantaneous cylindroid .
+* When three screws are contained on a cylindroid , the screws may , for brevity , be said to be oocylindroidal .
+BODY BY THE AID OF THE THEOBY OF SCREWS .
+Before commencing the proof we remark that , If an impulsive wrench acting on a rigid body about the screw X be capable of producing the unit of twist velocity about , then a wrench about X will produce a twist velocity about A. Let be four screws on the impulsive cylindroid , the wrenches appropriate to which are .
+Let the four corresponding instantaneous screws be , and the twist velocities are .
+Let be the on the impulsive cylindroid [ art .
+7 ] defining , and let be the angle on the instantaneous cylindroid defining If three impulsive wrenches equilibrate , the corresponding twist velocities neutralize : hence it must be possible for certain values of to satisfy the following equations [ art .
+] whence which proves the theorem .
+If , therefore , we are given three screws on the impulsive cylindroid and the corresponding three screws on the instantaneous cylindroid , the connexion between every other corresponding pair is geometrically determined .
+19 .
+On the impulsive wrenches which arise from the reaction of constraints.\mdash ; Whatever the constraints may be , their reaction produces an impulsive wrench upon the body at the moment when the impulsive wrench acts .
+The two wrenches and compound into a third wrench .
+If the body were free , is the impulsive wrench to which the instantaneous screw would correspond .
+Since cocylindroidal , are cocylindroidal ( art .
+17 ) , and therefore also are .
+The nine wrenches must equilibrate ; but if equilibrate , then the twist velocities about must neutralize , and therefore the wrenches about must equilibrate .
+Hence ] te , and are cocylindroidal .
+Following the same line of proof used in art .
+( 18 ) , we can show that If impulsive wrenches act about any four cocylindroidal screws upon a partially frec rigid body , the four corresponding initial reactions of the constraints also constitute wrenches about four cocylindroidal screws ; and , further , the anharmonic ratios of the two groups of four screws are equal .
+20 .
+On impulsive and instantaneous coordinate systems.\mdash ; Some of the preceding results may be generalized .
+If impulsive wrenches were to act upon a partially or entirely free rigid body about the different screws belonging to a coordinate system of freedom then the corresponding instantaneous screws , and also the wrenches produced by the initial reactions of the constraints , would each constitute a coordinate group of freedom 21 .
+On a special impulsive cylindroid.\mdash ; If the impulsive cylindroid be defined by a pair of screws along the same straight line , the surface becomes evanescent , and every screw on the straight line is contained on the cylindroid .
+We thus deduce the following theorem as a particular case of art .
+( 17 ) If a rigid body , free or constrained in any way , were to receive impulsive wrenches about screws of every pitch on a straight line , then all the corresponding instantaneous screws lie on a cylindroid .
+One of the screws of zero pitch on the instantaneous cylindroid , when the body is free , passes through the centre of inertia of the body , because this must be the instantaneous screw corresponding to infinite pitch along the impulsive screw .
+22 .
+Calculation of the specific impulsive wrenches when a sufficient number of pairs of corresponding impulsive and instantaneous screws are known.\mdash ; By the words specific impulsive wrench we are to understand an impulsive wrench which , acting on a free quiescent rigid body , will communicate to the body the unit of twist velocity about an instantaneous screw .
+Let \amp ; c. , be screws of a coordinate system of freedom , and \amp ; c. , be a set of twist velocities about \amp ; c. , which neutralize .
+Let \amp ; c. , be corresponding impulsive screws for a free body ; it is required to find the specific impulsive wrenches .
+Let the impulsive wrenches be \amp ; c. , \amp ; c. , are screws reciprocal to the system \amp ; c. , \amp ; c. , are screws reciprocal to the system \amp ; c. , Adopting the notation for sexiants employed in art .
+( 14 ) , , , we have the equations Since the body is free , the wlenches must equilibrate which could produce these velocities that neutlalize ; whence BODY BY THE AID OF THE THEORT OF SCREWS .
+Combining the two sets of equations , we have for the specific impulsive forces \amp ; c. , 23 .
+Determination of the specific impulsive wrenches when the three impulsive screws lie on a cylindroid , and the corresponding instantaneous screws are known.\mdash ; In the case where the of the last article assumes a simple for .
+Let be the angles corresponding to the instantaneous screws on the instantaneous cylindroid .
+Let be the angles corresponding to the impulsive screws on the impulsive cylindroid .
+If the following equations be true , ' then we must also have ; whence the relative values of are known .
+24 .
+Relations between the impulsive screw and th instantaneous screw in certain special cases.\mdash ; When an impulsive force acts upon a free quiescent rigid body , the directions of the force and of the instantaneous screw parallel to a pair of diameters in momental ellipsoid .
+When an impulsive wrench acting on a free rigid body produces an instantaneous rotation , the axis of the rotation must be perpendicular to the impulsive screw .
+When an impulsive force acting on a free rigid body an instantaneous lotation , the direction of the force and the axis of the rotation are parallel to the principal axes of a section of the momental ellipsoid .
+V. THE PRINCIPAL SCREWS OF INERTIA .
+25 .
+On the locus of the impulsive screw corresponding to a innstantaneous screw .
+\mdash ; If an impulsive screw be given , the corresponding instantaneous screw is determinate , whether the body be free or constrained .
+If , howevel , the instantaneous screw be iven , the impulsive screw is indeterminate , except in the case where the body is free .
+We have therefore the following problem : determine the locus ( in a generalized sense ) of an impulsive wrench which will cause a quiescent rigid body to commence to twist about a given screw .
+Let \amp ; c. , be a group of screws defining the freedom of the body .
+Let \amp ; c. , be screws reciprocal to the freedom .
+is the screw about which the body is to twist .
+Let be any impulsive wrench which would make the body commence to twist about S. Then any screw X coordinate with the screws , , \amp ; .
+, possesses the property required .
+This condition expresses the ' locus\ldquo ; of X. This is thus proved .
+An impulsive wrench about X can be decomposed into impulsive wrenches about the screws \amp ; c. , .
+All of these will be destroyed by the reactions of the constraints except the first ; but by hypothesis an impulsive wrench about will make the body twist about S. For example , if the body had five degrees of freedom , then any impulsive screw on a certain cylindroid possesses the property required .
+If the body had three degrees of freedom , then any screw reciprocal to a certain cylindroid would possess the required property .
+26 .
+Definition ofprincipal screws of inertia.\mdash ; A rigid body has degrees of freedom ; it will be shown that from the coordinate system expressing that freedom , screws may be selected such that an impulsive wrench about any one of these screws will make the body commence to twist about that screw .
+The screws possessing this property may be called the principal screws of inertia .
+We shall first demonstrate the existence of six principal screws of inertia in a perfectly free rigid body .
+Out of the thirty elements which in general determine a set of six screws , fifteen are still disposable in a set of six conjugate screws of kinetic energy .
+We are thus enabled to choose one set of conjugate screws of kinetic energy [ art .
+55 ] which are also coreciprocal ( art .
+7 ) .
+The set thus chosen manifestly possesses the property that an impulsive wrench about any one of them makes the body commence to twist about that screw .
+It can be shown that this set is in general unique .
+For let the group be represented by \amp ; c. , , and let be another screw assumed to possess the same property .
+An impulsive wrench about can be decomposed into impulsive wrenches about \amp ; c. , These wrenches will produce twist velocities about \amp ; c. , Ao .
+If these twist velocities could compound into a twist velocity about , it would follow that equal twist velocities should be produced about each of the screws \amp ; c. , by equal impulsive wrenches .
+If this were the case , then every impulsive screw would be its own instantaneous screw , which manifestly is not true .
+Hence there can be only one set of six principal screws of inertia .
+27 .
+Construction of the six principal screws of inertia for a free rigid body.\mdash ; Let OA , OB , OC be the three principal axes through the centre of inertia of the rigid body , and let be the corresponding ladii of gyration .
+Let two screws , , A be formed along OA with pitches , and let two other pairs of screws , and be similarly , formed along the other principal axes , OB and OC .
+The six screws , , are the set required .
+28 .
+Principal screovs of inertia of a constrained rigid body.\mdash ; Of the arbitrary elements in the selection of any screws from a coordinate system of freedom , half the entire number still l.emain disposable in conjugate screws of kinetic energy [ art .
+87 ] .
+The remaining disposable elements are just the number of conditions required that each of screws should be l.eciprocal to all the rest .
+We have therefore just sufficient latitude for the determination of conjugate screws of kinetic energy , which are also coreciprocal .
+We shall now that the screws thus defined possess the BODY BY THE AID OF THEORY OF SCBEWS .
+property that an impulsive wrench about each of them will make the body commence to twist about the same screw .
+We shall state the argument for three degrees of freedom , the general argument for any other degree of freedom being precisely similar .
+Let be the screws of the system which we just determined .
+are any corresponding impulsive screws .
+are any three screws reciprocal to [ art .
+37 ] .
+Any impulsive wrench about a screw coordinate with will make the body twist about ( art .
+25 ) .
+But the screws of the coordinate system containing are defined by being to and .
+Now is reciprocal to , and thelefore must be coordinate with [ art .
+89 ] .
+Therefore an impulsive wlench about will make the body twist about It can be shown , by similar reasoning to that employed in art .
+( 26 ) , screws of inertia are unique .
+29 .
+On the pitch hyperbola in the principal plane of a ?
+lindroil.\mdash ; We shall exemplify the articles by determining the plincipal screws of a body which has two degrees of freedom .
+The cylindroid expressing the freedom drawn , we shall give the construction by which the two screws on that cylindroid may be found which possess the property in question .
+To obtain , in the first place , a clear of the distribution of the pitch upon a cylindroid , we introduce a conic which is to be known as the pitch perbola .
+The cylindroid having as its equation [ art .
+7 ] , the generator in which the plane cuts the surface has a pitch The pitch hyperbola has for its equation be the radius vector of the pitch hyperbola in the direction ; hence we have the fundamental property of this conic , which is thus enunciated:\mdash ; The pitch of any generator of the cylindroid is proportional to the inverse square of the parallel diameter in the pitch hyperbola .
+Given a screw A on a cylindroid , another screw on the cylindroid leciprocal to can always be determined [ art .
+44 ] .
+We shall now show that A pair of reciprocal screws on a cylindroid are parallel to a pair of diameters in the pitch hyperbola .
+The condition of reciprocity is ( art .
+1 ) Substitute , readily deduce which proves the theorem ( SALMON , ' Comcs , ' p. 152 , 3rd edition):\mdash ; The asymptotes of the pitch hyperbola are parallel to the lines of zero pitch on the indroid .
+If the hyperbola changes into an ellipse .
+In this case there are no screws of zero pitch on the cylindroid .
+30 .
+On the ellipse of equal kinetic energy for a bodypossessing two degrees offreedom .
+\mdash ; The pitch hyperbola is of merely kinematical significance ; the ellipse now to be described involves the conceptions of kinetics .
+Let be a screw upon the cylindroid and a ) be the twist velocity about that screw ; a ) can be lesolved into twist velocities and about any selected pair of screws upon the cylindroid .
+The velocity of any element of the rigid body can therefore be expressed as a linear function of and .
+The kinetic energy of the rigid body must therefore have the form In the principal plane of the cylindroid draw through the centre two lines parallel to the generators and , and with these two lines as axes construct the ellipse If 9 be the radius vector of the ellipse parallel to ; whence the kinetic is We have thus proved that the kinetic energy due to a given twist velocity about any screw is proportional to the inverse square of the parallel diameter in the ellipse , which we may call the elli ; pse of equal kinehc energy .
+Or suppose a given quantity of energy is to be imparted by an impulsive wrench , the twist velocity that can be produced about any screw is proportional to the palallel radius vector .
+If a pair of conjugate diameters of the ellipse of equal kinetic energy had been taken as axes , the expression for the kinetic energy becomes BODY BY THE AID OF THE HEORY OF SCREWS .
+By the properties of what we have called conjugate screws of kinetic energy [ art .
+56 ] , we now see that every pair of conjugate diameters of the ellipse of equal kinetic energy are parallel to a pair of conjugate screws of kinetic energy on the cylindroid .
+31 .
+Construction of the principal screws of inertia for a rigid body with two degrees offreedom.\mdash ; Draw the pitch hyperbola and the ellipse of equal kinetic energy ; since these conics are concentric , a pair of common conjugate diameters can be drawn .
+The screws upon the cylindroid parallel to the common conjugate diametels the principal screws of kinetic energy .
+Let be the two thus determined , and let be the impulsive screws , wrenches about which , if the body were free , would make it commence to twist about .
+Let be any four screws to the cylindroid .
+An impulsive wrench about any screw coordinate with will make body twist about .
+But since the screws are conjugate screws of kinetic is reciprocal to .
+Thus is reciprocal to the five screws ; and every other screw reciprocal to will therefore be coordinate with the five screws just written .
+Since and are parallel to conjugate diameters of the pitch hyperbola , is reciprocal to , and therefore coordinate with the five screws ; an impulsive wrench about will therefore make the body commence to twist about .
+In a similar manner it can be shown that is the other principal screw of inertia .
+32 .
+Relation between a twist about a screw on a and its components along a pair of reciprocal screws.\mdash ; Let be the twist , and the components .
+The pitch hyperbola referred to axes parallel to the screws corresponding to has for equation If be the radius vector parallel to the screw appropriate to ; whence If be the pitches of , we have This result may be compared with art .
+( 10 ) .
+We easily foresee , what a little calculation will verify , that , if the virtual coefficient of , instead of vanishing , had the value , the lelation just written must be replaced by Here , again , we are reminded of the analogy between the cosine and the virtual coefficient .
+This result may be generalized into a theorem which is of considerable interest .
+Let \amp ; c. , be any screws of pitches \amp ; c. , Let be any other screw of pitch coordinate with the system just written .
+Let X be the magnitude of a wrench about which is decomposed into wrenches \amp ; c. , about the screws \amp ; c. , Giving the body a small twist about , and denoting by the virtual coefficient of , we have the following equations , art .
+( 10):\mdash ; : : But body a small twist a ) about , we have Eliminating \amp ; c. , we have , finally , For six coreciprocal screws this result of course reduces to the relation of art .
+( 10 ) .
+33 .
+Construction of the principal screws of inertia for a body with three degrees of freedom.\mdash ; We have demonstrated [ art .
+88 ] that all the screws parallel to a plane selected from the general system of three degrees of freedom lie on a cylindroid .
+section of the pitch hyperboloid drawn through the kinematic centre gives the pitch hyperbola appropriate to the cylindroid .
+We hence infer the following theorem:\mdash ; Any set of three coreciprocal screws selected from the general system ofthree degrees of freedom must be parallel to three conjugate diametels of the pitch hyperboloid .
+The principal screws of inertia must therefore be parallel to three conjugate diameters of the pitch hyperboloid ; but they must also be parallel to three conjugate diameters of the ellipsoid of equal kinetic energy [ art .
+88 ] , and hence the principal screws are completely determined .
+VI .
+MISCELLANEOUS PROPOSITIONS .
+34 .
+On the locus of the displacements of a point which can be produced by twists about the screws on a cylindroid.\mdash ; Let be a point and be any two screws on a cylindroid .
+If the body to which is attached receive a small twist about , the poin will be moved to .
+If the body received a small twist about would be moved to .
+Then , whatever be the screw on the cylindroid about which the body be twisted through a small angle , the point will still be displaced in the plane For the twist about can be resolved into two twists about A and , and therefore every displacement of must be capable of being resolved along and PP Thus , through every point in space a locus plane can be dlawn to which the small movements of that point arising from twists about the screws on a cylindroid are confined .
+The simplest construction for the locus plane is as follows :Draw through the point two planes , each containing one of the screws of zero pitch : the intersection of these planes is normal to the locus plane through P. BODY BY THE AID OF THE IHEORY OF SCREWS .
+35 .
+Property of screws of zero pitch on a cylindroid.\mdash ; The construction just given would fail if lay upon one of the screws of zero pitch .
+The movements of must then be limited , not to a plane , but to a line .
+The line is found by drawing a normal to the plane passing through and the other screw of zero pitch .
+We thus have the following curious property of the lines .
+of zero pitch , viz. that a point in the rigid body on the line of zero pitch will commence to move in the same direction whatever be the screw on the cylindroid about which the twist is imparted .
+This easily appears otherwise .
+Appropriate twists about any two screws , A and , can compound into a twist about the screw of zero pitch , but the twist about cannot disturb a point on Thelefore a twist about must be capable of moving a particle originally back to its position before it was disturbed by A. the twists about and A must move the particle in the same direction . .
+Equilibrium of a rigid body two degrees of freedom and acted by gravity.\mdash ; The cylindroid is first to be drawn which explesses the freedom enjoyed by the body .
+It must be remembered that , whatever be the mechanical contriyances by which the body is constrained in its movements , so long as the position is completely defined by two coordinates all the displacements which it is competent for the body to accept could be communicated by twists about the screws of a cylindroid .
+When a body with two deglees of freedom is in equilibrium , the wrench acting upon the body must be reciprocal to the cylindroid , but no other condition is required .
+In the case of gravity the wrench reduces to a force , or the wrench may be said to be about a screw of zero pitch passing the centre of inertia of the rigid body .
+But a screw of zero pitch cannot be reciprocal to the cylindroid , unless it intersect both the screws of zero pitch ou the cylindroid [ art .
+21 ] .
+The necessary and sufficient condition of equilibrium is , therefore , that the screws of zero pitch on the cylindroid should each intersect the vertical through the centle of inertia .
+37 .
+Equilibrium of a rigid body having three degrees of freedom and acted ) gravity.\mdash ; The vertical through the centre of inertia must be one of the screws of zero pitch belonging to the system reciprocal to the freedom .
+Draw the pitch hyperboloid appropriate to the freedom [ art .
+88 ] .
+Then all one system of generatols are the coordinate screws with zero pitch , while all the other systems of generators are the reciprocal screws with zero pitch .
+The necessary and sufficient condition of equilibrium is , therefore , that the vertical through the centre of inertia be one of the reciprocal system of generators on the pitch hyperboloid .
+38 .
+Equilibrium of a rigid body having four degrees of freedom and acted upon by gravity.\mdash ; The rigid body can then be twisted about every screw reciprocal to a certain cylindroid .
+For the body to be in equilibrium , the wrench which acts upon it must be about a screw on this cylindroid .
+It is therefore necessal.y that the vertical through the centre of inertia of the rigid body coincide with one or other of the two screws of zero pitch on the cylindroid reciprocal to the freedom of the rigid body .
+DR. R. S. BALL'S ] IN DYNAMICS ON A RIGID If , however , the two screws of zero pitch become imaginary on the cylindroid , as will be the case with certain dispositions of the constraints , it will not be possible for the body to remain in equilibrium , no matter how it may be placed .
+If the body had five degrees of freedom , it can only remain in equilibrium when acted upon by a wrench about the single screw reciprocal to the freedom .
+If the restraints were such that the pitch of this screw were zero ( which of course will not generally be the case ) , then when the vertical through the centre of inertia coincided with this line equilibrium would subsist .
+In general , however , it is impossible for a body with five degrees of freedom to be in equilibrium under the action of gravity .
+On the other hand , if the body had only one degree of freedom , through every point in space a plane can be drawn such that every line in the plane passing through the point is a direction along which , if the vertical through the centre of inertia acted , equilibrium would subsist .
+39 .
+Equilibrium offour forces applied to a rigid body.\mdash ; If the body be free , the four forces must be four wrenches about screws of zero pitch which are members of a coordinate system with three degrees of freedom .
+The forces must therefore be generators of an hyperboloid , and all belonging to the same system [ art .
+81 ] .
+The relative magnitudes of the four forces are easily determined when the positions are known .
+Draw the cylindroids and , then , the common screw of these cylindroids , makes angles with and , the sines of which angles are in the proportion of to P. Three of the forces , , being given in position , must then be a generator of the hyperboloid determined by , R. This proof of a well-known theorem is given to show the facility with which such results flow from the Theoly of Screws .
+Suppose , however , that the body have only five degrees of freedom , we shall find that somewhat more latitude exists with reference to the choice of S. Let X be the screw to the freedom of the body .
+Then for equilibrium it will only be necessary that be coordinate with the four screws , X. Now a cone of screws can be drawn through every point in space coordinate with the four screws just written , and on that cone one screw of zero pitch can always be found [ art .
+89 ] .
+Hence one line can be drawn through every point in space along which might act .
+If the body had only four degrees of freedom , the latitude in the choice of is still greater .
+Let be two screws reciprocal to the freedom , then is only restrained by the condition that it be coordinate with the five screws Any line in space when it receives the proper pitch is a screw coordinate with the five screws just written .
+Through any point in space a plane can be drawn such that every BODY BY THE AID OF THE TlfEORY OF SCREWS .
+line in the plane passing through the point with zero pitch is a coordinate screw .
+This expresses the freedom by S. Finally , if the body had only three degrees of freedom , the four equilibrating forces may be situated anywhere .
+The positions of the forces being given , their nitudes are determined ; for draw reciprocal to the freedom , and find the seven equilibrating wrenches about The last three are neutralized by the reactions of the constraints , and the four former must therefore equilibrate .
+40 .
+Equilibrinm ofJive forces applied to a rigid body.\mdash ; The five forces must , if the body be free , form a coordinate system of four degrees of freedom .
+Draw the cylindroid reciprocal to the coordinate system of freedom .
+The five forces must therefore intersect both the screws of zero pitch on the cylindroid .
+We therefore have as a necessary condition that two straight lines can be drawn which intersect all the five forces .
+Four of the forces will determine the two lines , and thelefore the fifth force may enjoy any liberty consistent with the requirement that it also intersects the two lines .
+This condition is also a sufficient one , so far as the positions of the forces are concerned .
+If be the five forces , the ratio of is thus determined .
+Let be the two screws of zero pitch upon the cylindroid .
+Let X , be two screws reciprocal to , O. Let be a screw reciprocal to , T. Construct the screw I reciprocal to the five screws X , , Z. Now the four screws X , are reciprocal to the cylindroid which is reciprocal to X , , must lie upon the cylindroid , Q. Since all reciprocal to , it follows that I , being reciprocal to , must be coordinate with , T. Hence I is coordinate with and also with , T. If , therefore , forces along equilibrate , the forces along must compound into a wrench about T. This condition determines the forces along , Q. 41 .
+Equilibrium of six forces applied to a rigid body.\mdash ; Professor SYLVESTER has shown ( ' Comptes Rendus , ' tome lii .
+p. 816 ) that when the six lines are so situated that forces acting along these lines equilibrate when applied to a free rigid body , a certain determinant must vanish .
+Using the ideas and language of the theory of screws , this determinant is simply the sexiant of the six lines , the pitches of course being zero .
+If be a point on one of the lines , the direction cosines of the same line being , the condition is therefore ' If be considered variable , all the other quantities remaining constant , we have the following theorem due to MoBIUS:\mdash ; All the lines which can be drawn through a given poin in involution with five given lines lie in a plane .
+This is in reality only a particular case of the following theorem , which appears from equating the general expression for the sexiant to zero : All the screws of given pitch which can be drawn through a point so as to be coordinate with five given screws lie in a plane .
+A single screw X must be capable of being found which is reciprocal to all the six screws , U. Suppose the rigid body were only free to twist about X , then the six forces would not only collectively be in equilibrium , but severally would be unable to stir the body only free to twist about X. In general a bodywhich was able to twist about six screws ( of any pitch ) would have perfect freedom ; but the body capable of rotating about each of the six lines , which are in involution , is not perfectly free , since we have only five disposable coordinates .
+If a rigid body were perfectly free , then a wrench about screw could move the body ; if the body be only free to rotate about the six lines in involution , then awrench about every screw ( except X ) can move it .
+The existence of the single screw X is the characteristic feature of six lines in involution which the theory of screws makes known to us .
+The conjugate axes of Professor SYLVESTER ( p. 743 ) are presented in the present system as follows :Draw any cylindroid which contains the reciprocal screw X , then the two screws of zero pitch on this cylindroid are a pair of conjugate axes .
+For a force on any transversal intersecting this pair of screws is reciprocal to the cylindroid , and is therefore in involution with the original system .
+Draw any two cylindroids , each containing the reciprocal screw , then all the screws of the cylindroids form a coordinate system with three degrees of freedom [ art .
+84 ] .
+Therefore the two pairs of conjugate axes , being four screws of zero pitch , must lie upon the same hyperboloid .
+This theorem is also due to Professor SYLVESTER .
+The cylindroid also presents in a very clear manner the solution of the problem of finding two rotations which shall bring a body from one position to any other given position .
+Find the twist which would effect the desired change .
+Draw any cylindroid BODY BY THE AID OF THE HEORY OF SCREWS .
+through the corresponding screw , then the two screws of zero pitch on the cylindroid are a pair of axes that fulfil the required conditions .
+If one of these axes were given , the cylindroid would be defined and the other axis would be determinate .
+42 .
+On a property of a body possessing four degrees offreedom.\mdash ; When a body has four degrees of freedom it is able to twist about every screw in space reciprocal to a certain cylindroid .
+Thus through any point a cone can be drawn the generators of which are perpendicular to the generators of a cylindroid ; and by assigning the proper pitch to each of the cone generators we have a reciprocal screw [ art .
+89 ] .
+If , however , the point had been selected upon the double line of the cylindroid , the cone vanishes into a line and the pitch becomes indeterminate , thus giving the following general theolem in kinematics:\mdash ; When a body has four degrees of freedom , there is always one screw about which the body can be twisted whatever be the pitch assigned to that screw .
+43 .
+point is always to be moved in a plane , determine the " " \ldquo ; ofscrews about rvhich may receive small twists.\mdash ; If the point formed a portion of a ligid body , the condition imposed on would still leave five degrees of freedom .
+There is thelefore one screw , , reciprocal to the freedom ; is to be found by the condition that a wrench about shall be unable to disturb M. The only wrench which would not disturb must be a force through normal to A. The reciprocal screw must therefore lie along this normal and have zero pitch .
+Any screw reciprocal to will fulfil the required condition .
+44 .
+A point is always to move along a line AB , determine the " " locus\ldquo ; of screws about which may receive twists.\mdash ; A rigid body attached to would have four degrees of freedom .
+The reciprocal cylindroid in this case reduces to the plane through normal to AB .
+All the screws in this plane pass through and have zero pitch .
+The " " locus\ldquo ; required is evidently that of sclews reciprocal to the cylindroid which has assumed this simple type .
+45 .
+Generalization of a theorem due to M. CHASLES.\mdash ; If a system of forces be resolved into two forces , the volume of the tetrahedron of which the two forces opposite edges is constant .
+This may be generalized into the following : a system of forces be resolved into wrenches about two screws of equal pitch , the volume of the edron of which the .
+forces are opposite edges is constant .
+Let be three cocylindroidal screws about which wrenches X , equilibrate .
+The volume of the tetrahedron formed by X , is ; but ; thence the volume reduces to . .
+B. @ .
+BALL'S RESEARCHES IN THE DYNAMICS OF A RIGID If the two screws have equal pitches ( g ) , we must have , and ; whence the expression for the volume of the tetrahedron is finally If we have M. CHASLES'S theorem .
+This generalization might have been deduced at once from the original theorem by the remark of [ art .
+82 ] , that any coordinate system of screws is still a cooldinate system when the pitches of all the screws have received a constant addition .
+POSTSCRIPT .
+Received January 27 , 1874 .
+At the time the foregoing paper was read the writer was not aware of the close connexion between the Theory of Screws and the recent geometrical researches on the Linear Complex .
+His attention was kindly directed to this point by Dr. FELIX KLEIN , at the Bradford Meeting of the British Association .
+PLUCKER , in his 'Neue Geometry des Raumes , ' p. 24 , thus introduces the word " " Dyname:\ldquo ; \mdash ; " " Durch den Ausdruck ' Dyname ' habe ich die Ursache einer beliebigen Bewegung eines starren Systems , oder , da sich die Natul dieser Ursache wie die Natur einer Kraft iiberhaupt , unserem Erkennungsvermogen entzieht , die Bewegung selbst : statt der Ursache die Wirkung , bezeichnet Although it is not very easy to see the precise meaning of this passage , yet it appears that a " " Dyname\ldquo ; may be either a twist or a wrench ( to use the language of the present paper ) .
+On page 25 ( loc. cit. ) we read:\mdash ; " " Dann entschwindet das specifisch Mechanische , und , um mich auf eine kurze Andeutung zu beschranken : es treten geometrische Gebilde auf , welche zu Dynamen in derselben Beziehung stehen , wie gerade Linien zu Kraften und Rotationen There can be little doubt that the " " geometrische Gebilde to which PLUCXER refers , are what we have called screws .
+The surface used in the ' Theory of Screws ' ( page 161 ) , and also in Phil. Mag. vol. xlii .
+p. 181 , under the name of the cylindroid , had been already described by PLUCKOB , p. 97 , .
+cit. PLUCKER arrives at this surface by the following considerations : and represent two linear complexes of the first degree , then all the complexes formed by giving different values in the expression form a system of which the axes lie on the surface .
+The parameter of any complex of which the axis makes an angle with the axis of is .
+The writer was informed by Dr. KLEIN that PLUCKER had also constructed a model of this surface ( see note to p. 98 ) .
+PLUCXER does not appear to have contemplated the mechanical and kinematical pro BODY BY THE AID OF THE THEORY OF SCREWS .
+perties of the cylindroid ; but it is worthy of remark that the distribution of pitch which is presented by physical considerations is exactly the same as the distribution of parametel upon the generators of the surface , which was fully discussed by PLUCKER in connexion with his theory of the linear complex .
+On p. 130 ( loc. cit. ) PLUCKER has arrived.at the equation This hyperboloid is the locus of lines common to three linear complexes of the first degree .
+The axes of the three complexes are directed along the coordinate axes , and the parameters of the complexes are .
+On p. 132 we have the theorem that the parameter of any complex to the " " dreigliedrigen Gruppe\ldquo ; is proportional to the inverse square of the parallel diameter of the hypelboloid .
+PLUCKER had thus shown what is geometrically equivalent to some kinematical theorems proved in the ' Theory of Screws , ' p. 203 .
+When a body has three degrees of freedom , it may be rotated about all the generators of one system on the hyperboloid , ; the body may also be twisted about three screws of pitches along the axes , and the pitch of every other screw about which it can be twisted must be to the inverse square of the parallel diameter in the pitch hyperboloid .
+The conception on which the writer had founded the cliterion of Screws ( ' Theoly of Screws , ' p. 166 ) had been previously employed by Dr. KLEIN ( Math. Ann. Band .
+p. 413 ) .
+" " Es lasst sich nun in der That ein physikalischer Zusammenhang zwischen Kraftesystemen und unendlich kleinen Bewegungen angeben , welcher es erklart , wie so die beiden Dinge mathematisch auftreten .
+Diese Beziehung ist nicht von der Art , dass sie jedem Kraftesystem eine einzelne unendlich kleine Bewegung zuordnet , sondern sie ist von anderer Art , sie ist eine lualistische .
+" " Es sei ein Kraftesystem mit den Coordinaten , und eine unendlich kleine Bewegung mit den Coordinaten gegeben , wobei man die Coordinatcn in der im besprochenen Weise absolut bestimmt haben mag .
+Dann reprasentirt , wie hier nicht weiter nachgewiesen werden soll , der usdruck das quantum von Arbeit , welche das gegebene Kraftesystem bei Eintritt der gegebenen unendlich kleinen Bewegung leistet .
+Ist insbesondere so leistet das gegebene Kraftesystem bei Eintritt der gegebenen unendlich kleinen Bewegung keine Arbeit .
+Diese Gleichung nun reprasentirt uns , indem wir , das andele Mal als veranderlich betrachten , den Zusammenhang zwischen Kraftesystemen und unendlich kleinen Bewegungen Dr. KLEIN has also shown ( Math. Ann. Band ii .
+p. 368 ) that , if the principal axes of two complexes are at a perpendicular distance , and are inclined at an , while the parameters of the complexes are and , the ' simultaneous inval.iant\ldquo ; of the two complexes is .
+If this invariant vanish , the two complexes are in " " involution The physical intei.pretation of this expression is found in what we have called the virtual coefficient of a pair of screws of which the pitches are , the perpendicular distance , and the angle .
+If the virtual coefficient vanish , the screws are reciprocal .
+Dr. KLEIN ( Math. Ann. Band ) has introduced the conception of six fundamental complexes , each pair of which are in involution .
+If the principal axes of the six complexes be regarded as screws of which the parameters of the corresponding complexes are the pitches , then these six screws will form what has been termed a corecigoup in the present paper .
+In this postscript the writer 's desire has been twofold .
+First to do justice to those authors from whose works he had found , after he had written these papers , what ought to have been ascertainedbefore , namely , that in a few points he had melelyrediscovered ( though usually from a different point of view ) what was already known .
+Second , to point out the intimate connexion which exists between the physical conceptions of the Theory of Screws and the modeln geometrical speculations on the linear complex .
+

@@ -1,0 +1,181 @@
+]\gt ; On Parametric Integrals and the Theory of Fourier Series .
+401 In conclusion , I wish to express my most sincere thanks to Prol.essor Sir J. J. Thomson , at whose suggestion this lesearch was undertaken , and who has throughout given much encouragement by a -failing interest in the progress of the work .
+On Class oj Parametric lntegrals and their Application in the Theory of By W. H. YouNG , Sc. D. , ( Received April 19 , \mdash ; Read June 29 , 1911 .
+) S1 .
+The theorem commonly known as Parseval 's Tbeorem , which , in its latest form , as extended by Fatou , *asserts that if and are two functions whose squares are summable , and whose Fourier constants are and , then the series converges absolutely and has for its sum must be regarded as one of the most important results in the whole of the theory of Fourier series .
+I have recently , in the 'Proceedings ' of this Society and elsewhere , had occasion to illustrate its usefulness , as well as that of certain results to which I have called attention .
+They may be said , indeed , to have reduced the question of the convergence of Fourier series to the second plane .
+If we know that a trigonometricnl series is a Fourier series , ib is in a great variety of cases , embracing even some of the less usual ones , as well as those which ordinarily present themselves , all that we require .
+It has seemed to me , therefore , worth while to add another to the list of these results .
+This is the main object of the present paper , in which it is shown that if one of the functions has its ) power summable and the other its power summable , where is any positive quantity , however small , then the above theorem is true with this modification , provided only the series in question is summed in the Cesaro way .
+In particular , the equality always holds in the ordinary sense whenever the series does not oscillate .
+* Fatou , ' Series Trigonometriques et Series de Taylor 'Acta Mathematica , ' 1905 , vol. 30 .
+Dr. W. H. Young .
+On of Parametric [ Apr. 19 , I have , however , treated this problem as a part of a larger one , and have shown that the cosine series whose typical coefficient is , and the sine series whose typical coefficient is are , under the circumstances stated , the Fourier series of continuous functions .
+I have also shown this to .
+be the when one of the functions is bounded and the other summable .
+When the bounded function has also bounded variation , they are the Fourier series of functions of bounded variation .
+All the previously known results , well as that above stated , follow at once as simple corollaries .
+Moreover , the question of the convergence of the series and , as well as of other series obtained by ascribing particular values to in the Fourier series in question , is made to depend on the examination of certain parametric integrals at the point in question .
+S2 .
+We first prove an auxiliary theorem in the theory of sets of points .
+Theorem.\mdash ; If is a dosed of points of positive content in the interval , and is the set got by simply the set a distance in the direction to , then the sets and have a commoJl closed set ofpoints , whose content differs from by less than an assigned quantity , provided only is less than a quantity X which can be specified .
+Suppose the black intervals of the closed set arranged in any order , Let be any chosen positive quantity less than , and let denote the sum of all but the first of the black intervals , where is the first integer for which We then take X to be the largest quantity satisfying the two inequalities , ( 2 ) .
+( 3 ) * For these results see my paper " " On the Iutegration of Fourier Series 'Lond .
+Math. Soc. Proc 1910 , Series 2 , vol. 9 , pp. 449-462 .
+The method , as has been kindly pointed out to me , is not quite new .
+A particular case of our parametric integral was employed by A. C. Dixon in 1909 , for the purpose of proving Fatou 's Theorem , in a paper entitled ' ' On a Property of a Summable Function ' Camb .
+Phil. Soc. Proc vol. 15 , pp. 210\mdash ; 6 .
+In reference to this proof it may be noted that no use is there made of the property of a Fourier series of never diverging properly , provided the Fourier function is continuous .
+In consequence the assumption has to be made that the series 2 is known to converge to a sum not greater than the quantity to which it is to be proved equal .
+I notice that in Dr. Bixon 's ingenious proof of the continuity of the parametric integral considered by him , the tacit assumption is made that Schwarz 's inequality is true of Lebesgue improper integraIs , a result which had not at that time been proved .
+1911 .
+] Integrals the Theory of .
+403 Now , by reason of the inequality ( 3 ) , when we translate the interval carrying the set and its black intervals , each of the black intervals with index not greater than , will have in common with itself , after translation , a part of length , denoting the amount of translation .
+Thus there will be at least such common parts of intervals containing no point of either before or after the translation .
+Hence , if we denote by I the content of the closed set , consisting of all the points of before and after translation , , , ( 4 ) using ( 1 ) and ( 2 ) .
+Now , if and are the content of two closed sets , I that of the set consisting of both sets , and I ' that of their common part , we have .
+( 5 ) In our case .
+Hence by ( 4 ) and ( 5 ) , I ' .
+( Q.E.D. ) Cor. true if , in above omit throughout the word " " dosed For , in this case , we can find a closed component of , say , whose content differs from by than .
+Also , by the theorem , we can determine X so that , for any value of than X , the common points of and , a fortiori the common points of and , form a set whose content differs from that of by less than , and therefore from that of by less than 8 .
+3 .
+The necessary and sufficient condition that a function should be an has been stated by Vitali in a form which it will be convenient to modify slightly for the purposes in hand .
+From Vitali 's condition we know that , if is a summable function , and a chosen positive quantity , we can find so that , if denote any set of non-overlapping intervals of content less than , which is the increment of the integral over the set of intervals , is numerically less than .
+But we also that , Young 's ' Theory of Sets of Points , ' Cambridge University Press , 1906 , p. 84 .
+See my paper on " " Semi-integrals and Oscillating Successions of Functions ' Lond. Math. Soc. Proc 1910 , Series 2 , vol. 9 , p. 291 , seq. , where also references will be found .
+it .
+, p. 291 .
+Dr. W. H. Young .
+On Class of metric [ Apr. 19 , if is a measurable set of points of content less than , we can find a sequence of sets of intervals having the points of as common poinvs , and no other common points , except possibly a set of content zero , and that is the unique limit of , when increases .
+Since the content of has that of as limit , it must be less than , when is enough : thus , by Vitali 's property , becomes eventually less than , and therefore its unique limit , is also less than .
+Thus we have the following property of a summable function , which we shall IJeed in the sequel:\mdash ; If is a summable function , and a chospositive quantity , we can find , so that the integral of over any and every set of points of content less than is less than S4 .
+Theorem.\mdash ; If is a summable function , a set of positive content , is a continuous function of For if , as in S 2 , denote the set got by translating the set a distance , and I ' denote the common part of the sets and , we have seen that the remaining components and of and have content less than , provided is less than a certain quantity X , which can be specified .
+Moreover , by the fundamental property of an integral , the quantity , here used , may be so chosen that the integral of over any and every set of content less than is numerically less than a positive quantity chosen at will .
+This being so , we have while and Hence for all values of numerically less than X. This shows that , as approaches zero , all possible limits of This theorem and that of the next article might have deduced from a theorem , to which my attention has been called , proved by Lebesgue on pp. 16 and 16 of his ' LeQons sur les Series triques .
+' 1911 .
+] the Theory .
+of Four.ier Series .
+differ from by , at most , 2 , and therefore all coincide with since may be as small as we please .
+Thus , is continuous with respect to at Writing for , the same argument proves that the is continuous at .
+Hence the integral is a continuous function of , as was to be proved .
+S 5 .
+Theorem.is a snmmable function of is a boumded function , a function of Case l.\mdash ; Let Divide the whole range of values of into equal parts , and let , , , be the corresponding sets of points , so that , for instance , is the set of points at which Also let denote the function which is zero except at the points of and at the points of that set has as value the greatest of the three quantitieq , given in the inequality ( 1 ) .
+Then at the points of the new function differs from by at most Now so that , by the preceding theorem , this is a continuous function of Hence also is a continuous function of .
+Moreover , by what was already pointed out , it is greater thaIl by at most , that is by less than , where is a fixed quantity , since is a continuous function of , and has , therefore , finite upper and lower bounds .
+Hence , as increases indefinitely , converges uniformly to as unique limiting function , and therefore that limiting function is a continuous function of V0L .
+LXXXV .
+406 Dr. W. H. Young .
+On Class of ametric [ Apr. 19 , Case 2.\mdash ; Let be sometimes positive , sometimes negative .
+Then is the difference of two positive summable functions , one of which is equal to except where is negative , where the new function is zero .
+In this way our integral can be expressed as the difference of two integrals each of which is a continuous function of , by Case 1 , so that in this case also the integral is a continuous function of Thus in every case the theorem is true .
+Cor.\mdash ; If is only bounded below ( above ) , the integral in question is a lower upper ) semi-continuous function of the extended sense , the value infinity above ( below ) being admitted , provided positive , or bounded below .
+If is negative , or bounded above , and is bounded below ( above ) , tlu integral is an upper ( lower ) semi-continuous function of For , supposing to be positive , and denoting by the function equal to wherever and elsewhere zero , we know , by the definition of the integral that the in question is the unique limit when increases indefinitely of the This latter integral is , by the above theorem , a continuous function of and it is a monotone increasing function of , so that the limiting function is a lower semi-continuous function of .
+This proves the first of the alternative theorems ; similarly the others may be proved .
+S6 .
+Theorem.\mdash ; If and are such that their squares are snmmable , then is a continuous function of Let denote the content of the set of those points at which is numerically greater than .
+Then , since the square of is summable , we can choose so large that where is any chose1J positive quantity .
+But , since the squares of and are summable , we have , by Schwarz 's inequality , 1911 .
+] Integrals and the Theory of Fourier Series .
+where is the upper bound of the continuous function of represented by Hence where , wherever it is numerically , and elsewhere so that , by the preceding theorem , is a continuous function of and is numerically This shows that converges uniformly to the integral on the left , which is therefore a continuous function of S7 .
+The preceding theorem is a special case of the following , in which represents any positive quantity ( not zero ) , rational or irrational .
+Theorem.\mdash ; If and are such that and are sumrnabte , then a continuous function of For since the arithmetic mean is not less than the geometric mean , we have , for all positive integers and .
+Putting ; this gives .
+( 1 ) Since this is true for every positive rational value of , it is also true for every positive irrational value of Hence , if and are positive functions , Integrating over any set , ( 2 ) where is the set got from by translation through a distance Now let denote the set of those points at which is numerically greater than , where is chosen so large that the content of is less than an small positive quantity ; this is possible , since is summable .
+Dr. W. H. Young .
+Class of metric [ Apr. 19 , Moreover , by the fundamental property of an integral , could be chosen so small that the rals of and over any set of content less than are less than , where is a small positive quantity chosen previous to all .
+In this way , since ) .
+the same content as , each of the integrals on the light-hand side of 2 ) is numerically less than .
+Thus Hence where is and is a continuous function of , since denotes the function wherever it is , and is zero elsewhere .
+Hence , converges uniformly as increases indefinitely to the integral under consideration , which is therefore a continuous function of This proves the theolem in the case when and are positive metions .
+Hence , .
+the sign of either or both the functions , it at once follows that the theorem is true , provided and retain their sign .
+But in the general case we have only to split up into and into in the usr1al way , where and are positive and and are ative , to express our as the sum of four integrals , each of which has already been proved continuous .
+Thus in the general case also the integral under consideration is a continuous function of , which proves the theorem .
+S8 .
+Theorem.\mdash ; If summable and is bounded , we may reverse order of repeated integration and ?
+First let be a positive function .
+Then since the repeated rals of evidently exist and are equal , we may , by a known theorem , *reverse the order of ration .
+Next let be not always positive .
+Then we can write where and are both positive functions , being equal to wherever , and being zero elsewhere .
+Expressing our as the difference of two , one involving and the other , the lequired result follows , W. H. Young , " " On Change of Order of Integration in an Improper Repeated Integral ' Camb .
+Phil. Soc. Trans 1910 , vol. 21 , p. 364 .
+1911 .
+] Integrals the of Series .
+since , by what has been already remarked , we may reverse the order of integration in each of the two auxilia17 rals .
+S9 .
+Theorem.\mdash ; If .
+and are such that are summable , then we the order of repeated integration , and write As in the proof of the theorem of S7 , ( 1 ) where , and is a bounded function of as limit when increases indefinitely .
+Since , by the theorem quoted , the left-hand side of this equation is a continuous function of , and the same is true of the the right , while is bounded , we may integrate with respect to and get Now is a bounded function , therefore , by the preceding theorem , we may reverse the order of integration in the first integral on the right in the preceding equation .
+We thus get .
+( 2 ) Letting diminish down to zero as lihit , increases without limit , so that by de la Vallee Poussin 's definition of an improper integral , has as limit .
+Thus , by ( 2 ) we get in the limit This proves the theorem .
+Cor.\mdash ; The theorems of SS8 , 9 , remain irue if we introduce into integrand bounded factor ) .
+For , in the first place , if and are positive functions , the corollary is an immediate consequence of the known theorem already quoted .
+If and are not positive functions , we may write , and where and are positive functions , while and both enjoy the same property as to summability as , and and as .
+Thus the corollary holds when the integrand is any one of the four products , Dr. W. H. Young .
+On of Parametric [ Apr. 19 , and either 1 or 2 .
+By suitable additions and subtractions it at orice follows that the corollary is true .
+S10 .
+In the following theorems the functions and are supposed to be summable , and we consider their Fourier series .
+In the integrals between the limits of integration which occur , and are supposed to be rendered periodic in the usual way , by attributing outside the interval the values in that interval periodically .
+The properties of and hypothecated as to boundedness or summability are , of course , unaffected by this convention .
+We now have , however , by a simple change of variable , so that .
+( A ) Thus , for instance , in applying the preceding theorems , the hypotheses with respect to and may be interchanged without affecting the result .
+It should also be remarked that , owing to the periodicity of the functions which occur in the integrands , the functions denoted by the integrals are themselves periodic , so that at the extremities of the interval ) their values agree .
+Thus the continuity of the integrals at these extremities has the special character so often required in the applications to Fourier series .
+S11 .
+Theorem.\mdash ; If and are such that and are summable , or if is summable and bounded , if the series of and are then nt is a series and the eorresponding function is For , in either of the cases specified , we can , as we have seen ( SS8 , 9 ) , reverse the order of integration in the repeated * In this integral and must be supposed to have been made periodic in the usual way , see S 10 .
+1911 .
+] the Theory of Fourier Series .
+Hence , denoting the function given at the end of the enunciation by , where , in the changes of variable here used , the limits of integration may still be taken to be and , by reason of the periodicity of the integrands .
+Hence the integral on the left nu nu Since J is obviously zero , this proves the theorem .
+Cor.\mdash ; The above theorem remains in all cases in which the ; the order of partial differentiation used at the beginning of the proof is ailowable .
+S12 .
+Theorem.\mdash ; If and are such that and are sumnwble , or if sunmlable and bounded , and if the Fourier constants of are , and those of are , then is a series , and the corresponding function is The proof is on precisely the same lines as that of the ] theorem .
+We merely have to interpret as the function just given , and replace the cosines by sines , and we get Since , this proves the theorem .
+Dr. W. H. Young .
+On a of metric [ Apr. 19 , S13 .
+Theorem.\mdash ; If , ( 1 ) , ( 2 ) then , ( 3 ) and , ( 4 ) for values of in each of the ( i ) is and a function of bounc\amp ; d ( ii ) the squares of and summabte functions ; for every value of for which the last series has a unique limit ( sum ) , are surnmable functions .
+For in all these cases , as has been proved , the series ( 3 ) and ( 4 ) are Fourier series , and the integrals on the left are the corresponding Fourier functions , so that the statements ( 3 ) and ( 4 ) are true if we replace the sign But the integrals on the left of ( 3 ) and ( 4 ) have been shown to be continuous functions of in all the cases here considered .
+Hence , by a known property of Fourier series , the series ( 3 ) and ( 4 ) cannot diverge properly , and they represent their Fourier functions , except at points where they oscillate .
+This proves the final statement .
+It remains to prove that , in cases ( i ) and ( ii ) , the series ( 3 ) and ( 4 ) do not oscillate .
+In case ( i ) we use the equality ( A ) of S10 , ( A ) to show that each of these functions of has bounded variation .
+For the property of being monotone is obviously preserved in parametric integration .
+Hence , the integrand of the second of the integrals in ( A ) being in our case a function of of bounded variation , that integral , and therefore also the other integral , represents a function of of bounded variation .
+But the Fourier series of a function of bounded variation always represents that function .
+This , therefore , proves the theorem in case ( i ) .
+In case ( ii ) both and are summable , therefore , putting , in the result already proved in .
+final case , and , taking and to be the same , we have , ( 5 ) 1911 .
+] Integrals and the Theory of Fourier Series .
+413 where we have introduced the sign of equality , since the series on the being a series of positive terms , cannot oscillate .
+Similarly , ( 6 ) Hence the series ( 3 ) and ( 4 ) converge for all values of , since each of the terms is numerically less than , or equal to , the sum of the terms of the convergent series ( 5 ) and ( 6 ) .
+Thus , by what was already proved for our final case , the theorem holds in case ( ii ) .
+Thus the complete theorem is proved .
+Cor. \mdash ; In arbd ( ii ) the of the cmiform .
+For the Fourier series of a continuous function of bounded variation converges uniformly , while in the above proof , in case ( ii ) , the test for the convergence is Weierstrass 's test for uniform convergence .
+Cor. \mdash ; In the final case of the preceding tlbeorem , the equalities ( 3 ) and ( 4 ) hold for alt values of , provided the of be performed the Cesaro manner , the series converge For a Fourier series converges , and uniformly , at every point at which the function is continuous , when summed in the Cesaro way .
+S14 .
+In the preceding article only a few of the consequences of the fact that the trigonometrical series whose general terms are respectively and are , under the various circumstances specified in S13 , the Fourier series of continuous functions have been deduced .
+For the purposes of application the mere fact that these series are Fourier series will often suffice , quite irrespective of whether they converge or not .
+Moreover , from the fact that the functions to which they belong are continuous it follows that their allied series , viz. , those whose general terms are nx and are Fourier series .
+In fact , if we denote for brevity the functions of which the two series first mentioned are the Fourier series by and , then the two latter series have for their Fourier functions and respectively .
+414 On metric Iand the Theory of Fourier Series .
+This is , indeed , an immediate consequence of the formula ( IV ) on p. 19 of my recent papel " " On the Fourier Constants of a Function.\ldquo ; * S15 .
+In certain cases these two new functions are also plainly continuous .
+A knowledge , however , of and alone will often suffice to determine the question of the convergence of the allied series , as well as of the series to which they themselves belong .
+It follows , in fact , from S10 of the paper just quoted , and other known results , that if , for example , has all its derivates finite , not necessarily bounded , then both the series to which it belongs and the allied series will converge everywhere ; they will , moreover , converge at an isolated point at which all the four derivates are finite .
+We may sum up all these and other facts of a similar nature by saying that the whole question as to the convergence , or other properties , of the four series , whether for all values , or for particular values , of the variable is reducible to a discussion of the properties of certain parametric integrals .
+Moreover , sufficient indications have been given as to the properties of these integrals in a large and important class of cases .
+S16 .
+Added May 15.\mdash ; So far we have only considered ordinary Fourier series .
+The method of the paper may , however , be applied to generalised Fourier series .
+We may thus , for example , obtain a second proof of the theorem of S9 of my paper quoted in S1 .
+It should be remarked that the whole question of the convergence of the series and 2 in the most general case in which the coefficients refer to ordinary Fourier series may be shown to turn on the properties of the functions and The Fourier series of these functions , which may be proved to exist except for a set of values of of content zero , are easily seen to be 2 and .
+Here and may be any .
+summable functions , and denotes 'Roy .
+Soc. Proc 1911 , , vol. 85 , pp. 14\mdash ; 24 .
+In this formula IV on p. 19 , as well as in the last five formulae on p. 21 , the factor has been omitted on the left-hand side .
+It may be noted that the result in question may also be tained by actual summation of the first terms of the allied series , and the use of a theorem of Riemann-Lebesgue .
+

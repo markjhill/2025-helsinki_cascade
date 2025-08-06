@@ -1,0 +1,79 @@
+Memoir on the Smvmetric Functions of the Roots of an Equation .
+By ARTHUR CAYLEY , Esq. , FR .
+S. Received December 18 , 1856 , -Read January 8 , 1857 .
+THERE are contained in a work , which is not , I think , so generally known as it deserves to be , the ' Algebra ' of MEYER HIRSCH , some very useful tables of the symmetric functions up to the tenth degree of the roots of an equation of any order .
+It seems desirable to join to these a set of tables , giving reciprocally the expressions of the powers and products of the coefficients in terms of the symmetric functions of the roots .
+The present memoir contains the two sets of tables , viz. the new tables distinguished by the letter ( a ) , and the tables of MEYER HIRSCH distinguished by the letter ( b ) ; the memoir contains also some remarks as to the mode of calculation of the new tables , and also as to a peculiar symmetry of the numbers in the tables of each set , a symmetry which , so far as I am aware , has not hitherto been observed , and the existence of which appears to constitute an important theorem in the subject .
+The theorem in question might , I think , be deduced from a very elegant formula of M. BORCHARDT ( referred to in the sequel ) , which gives the generating function of any symmetric function of the roots , and contains potentially a method for the calculation of the Tables ( b ) , but which , from the example I have given , would not appear to be a very convenient one for actual calculation .
+Suppose in general ( 1 , b , c..1 , x ) -=(1-x)(1--x)(l --yx ) ... so that -b6=a , +c= 3 , , -d=Yc3py , &amp;c. , and if in general ( pr..)= Y ezPpyr ... , where as usual the summation extends only to the distinct terms , so that e. g. ( p2 ) contains only half as many terms as ( pq ) , and so in all similar cases , then we have -b=(1 ) , +c=(1 ) , -d=(13 ) , &amp;c. ; and the two problems which arise are , first to express any combination bPc ... in terms of the symmetric functions ( l1mY. .
+) , and secondly , or conversely , to express any symmetric function ( 1y ... ) in terms of the combinations bP ... .
+It will conduce materially to brevity if lP2q ... be termed the partition belonging to the combination bP. .
+; and in like manner if IzY ... be termed the partition belonging to the symmetric function ( Ixm ... ) , and if the sum of the component numbers of the partition is termed the weight .
+Consider now a line of combinations corresponding to a given weight , e. g. the weight 4 , this will be e d c2 bc b4 ( line ) 4 13 22 122 14 , where I have written under each combination the partition which belongs to it , and in like manner a column of symmetric functions of the same weight , viz. ( 4 ) ( column ) ( 31 ) ( 22 ) ( 212 ) ( 14 ) , where , as the partitions are obtained by simply omitting the ( ) , I have not separately written down the partitions .
+It is at once obvious that the different combinations of the line will be made up of numerical multiples of the symmetric functions of the column ; and conversely , that the symmetric functions of the column will be made up of numerical multiples of the combinations of the line ; but this requires a further examination .
+There are certain restrictions as to the symmetric functions which enter into the expression of the combination , and conversely , as to the combinations which enter into the expression of the symmetric function .
+The nature of the first restriction is most clearly seen by the following Table : Greatest Combinations Contain Multiples of the Greatest Part Number of Parts Number of Pars .
+Part .
+with their several Symmetric Functions .
+does not exceed not less than iNurebet ' } of ~ Partitions .
+14e4 ( 14 ) , 1423 bd 13 ( 14 ) , ( 2 ) , 232 '2 eg2 ( 14 ) , ( 212 ) ( 22 ) , 223 " 2 b2 122 ( 14 ) , ( 212 ) , ( 2 ) , ( 31 ) , 32|41 b4 14 ( 14 ) , ( 212 ) , ( 2- ) , ( 31 ) , ( 4 ) 41 Thus , for instance , the combination bd ( the partition whereof is 13 ) contains multiples of the two symmetric functions ( 14 ) , ( 212 ) only .
+The number of parts in the partition 13 is 2 , and the greatest part is 3 .
+And in the partitions ( 14 ) , ( 212 ) the greatest part is 2 , and the number of parts is not less than 3 .
+The reason is obvious : each term of the developed expression of bd must contain at least as many roots as are contained in each term of d , that is 3 roots , and since the coefficients are linear functions in respect to each root , the combination bd cannot contain a power higher than 2 of any root .
+The reasoning is immediately applied to any other case , and we obtain First Restriction.-A combination bPC ... contains only those symmetric functions ( hmy. .
+) , for which the greatest part does not exceed the number of parts in the partition 1 P2. .
+, and the number of parts is not less than the greatest part in the same partition .
+Consider a partition such as 12 , then replacing each number by a line of units thus , 1 11 , 490 and summing the columns , we obtain a new partition 31 , which may be called the conjugate* of 122 .
+It is easy to see that the expression for the combination b2c ( for which the partition is 122 ) contains with the coefficient unity , the symmetric function ( 31 ) , the partition whereof is the conjugate of 122 .
+In fact b2c=(--Z)2(EI3 ) , which obviously contains the term -+lj3 , and therefore the symmetric function with its coefficient +1(31 ) ; and the reasoning is general , or Theorem .
+A combination bPqc. .
+contains the symmetric function ( partition conjugate to 1P2 " ... ) with the coefficient unity , and sign + or according as the weight is even or odd .
+Imagine the partitions arranged as in the preceding column , viz. first the partition into one part , then the partitions into two parts , then the partitions into three parts , and so on ; the partitions into the same number of parts being arranged according to the magnitude of the greatest part ( the greatest magnitude first ) , and in case of equality according to the magnitudes of the next greatest part , and so on ( for other examples , see the outside column of any one of the Tables ) .
+The order being thus completely defined , we may speak of a partition as being prior or posterior to another .
+We are now able to state a second restriction as follows .
+Second Restriction.-The combination bpcq ... contains only those symmetric functions which are of the form ( partition not prior to the conjugate of 1P2q ... ) .
+The terms excluded by the two restrictions are many of them the same , and it might at first sight appear as if the two restrictions were identical ; but this is not so : for instance , for the combination bd2 , see Table VII(a ) , the term ( 413 ) is excluded by the first restriction , but not by the second ; and on the other hand , the term ( 321 ) , which is not excluded by the first restriction , is excluded by the second restriction , as containing a partition 321 prior in order to 322 , which is the partition conjugate to 132 , the partition of bd2 .
+It is easy to see why bd2 does not contain the symmetric function ( 321 ) ; in fact , a term of ( 321 ) is ( a3/ 3y ) , which is obviously not a term of bd3=(-E)(Ea/ 3y)2 ; but I have not investigated the general proof .
+I proceed to explain the construction of the Tables ( a ) .
+The outside column contains the symmetric functions arranged in the order before explained ; the outside or top line contains the combinations of the same weight arranged as follows , viz. the partitions taken in order from right to left are respectively conjugate to the partitions in the outside column , taken in order from top to bottom ; in other words , each square of the sinister diagonal corresponds to two partitions which are conjugate to each other .
+It is to be noticed that the combinations taken in order , from left to right , are not in the order in which they would be obtained by ARBOGAST'S Method of Derivations from an operand at , a being ultimately replaced by unity .
+The squares above the sinister diagonal are empty ( i. e. the coefficients are zero ) , the greater part of them in virtue of both restrictions , and the remainder in virtue of the second restriction ; the empty squares below the sinister diagonal are empty in virtue of the second restriction ; but the property was not assumed in the calculation .
+The greater part of the numbers in the Tables ( a ) were calculated , those of each table from the numbers in the next preceding table by the following method , depending on the derivation of the expression for bP+l'c ... from the expression for bPcq ... Suppose , for example , the column ed of Table V(a ) is known , and we wish to calculate the column bcd of Table VI(a ) .
+The process is as follows : Given 221 213 15 13 10 we obtain 321 23 313 2212 14 16 13236 12 10 60 1338 22 60 where the numbers in the last line are the numbers in the column bed of Table VI(a ) .
+The partition 221 , considered as containing a part zero , gives , when the parts are successively increased by 1 , the partitions 321 , 23 , 2212 , in which the indices of the increased part ( i. e. the original part plus unity ) are 1 , 3 , 2 ; these numbers are taken as multipliers of the coefficient 1 of the partition 221 , and we thus have the new coefficients 1 , 3 , 2 of the partitions 321 , 23 , 2212 .
+In like manner the coefficient 3 of the partition 213 gives the new coefficients 3 , 6 , 12 of the partitions 313 , 2212 , 21 , and the coefficient 10 of the partition 15 gives the new coefficients 10 , 60 of the partitions 214 and 16 , and finally , the last line is obtained by addition .
+The process in fact amounts to the multiplication separately of each term of cd= 1(221 ) +3(213)+10(15 ) by b=(1 ) .
+It would perhaps have been proper to employ an analogous rule for the calculation of the combinations c2dr. .
+not containing b6 , but instead of doing so I availed myself of the existing Tables ( b ) .
+But the comparison of the last line of each Table ( a ) ( which as corresponding to a combination bp was always calculated independently of the Tables ( b ) ) with such last line as calculated from the corresponding Table ( b ) , seems to afford a complete verification of both the Tables ; and my process has in fact enabled me to detect several numerical errors in the Tables ( b ) , as given in the English translation of the work above referred to .
+It is not desirable , as regards facility of calculation and independently of the want of verification , to calculate either set of Tables wholly from the other ; the rules for the independent calculation of the Tables ( b ) are fully and clearly explained in the work referred to , and I have nothing to add upon this subject .
+The relation of symmetry , alluded to in the introductory paragraph of the present memoir , exists in each Table of either set , and is as follows : viz. the number in the Table corresponding to any two partitions in the outside column and the outside line respectively , is equal to the number corresponding to the same two partitions in the outside line and the outside column respectively .
+Or , calling the two partitions P , Q , and writing for shortness , combination ( P ) for the combination represented by the partition 492 and for greater clearness , symmetric function ( P ) ( instead of merely ( P ) ) to denote the symmetric function represented by the partition P , we have the following two theorems , viz. Theorem .
+The coefficient in combination ( P ) of symmetric function ( Q ) is equal to the coefficient in combination ( Q ) of symmetric function ( P ) ; and conversely , Theorem .
+The coefficient in symmetric function ( P ) of combination ( Q ) is equal to the coefficient in symmetric function ( Q ) of combination ( P ) .
+M. BORCHARDT'S formula , before referred to , is given in the 'Monatsbericht ' of the Berlin Academy ( March 5 , 1855)* , and may be thus stated : viz. consideringt he case of n roots , write ( 1 , b , c , ... kll , x)=-_(1 -)(l1-)..(1--_x)=f , z then ____1 l ) )_ , fxfy..fu ddd H(x , y,..u ) i-0-3y\-Ku --I ( x , y,. .
+u ) dx die . .
+du fxfy ... fu where II ( x , y,. .
+u ) denotes the product of the differences of the quantities x , y , ... , and on the left-hand side the summation extends to all the different permutations of a , 3 , ... z , or what is the same thing , of x , y,. .
+u. Suppose for a moment that there are only two roots , so that ( 1 , b , cI1 , x)2=(l-_)(l-PX ) , then the left-hand side is 11 ( 1 x ) ( 1 y ) ( 1-My)(1 x ) ' which is equal to 2+ ( a+ P)(X +y ) + ( a2 2+32)(X2 +y2)+ 2cy+ ( 3+ P3)(3 +y3)+ ( 23 +p 2)(2yy ) + &amp; and the right-hand side is I fxfy dd x-y c x-y dx die fxfy ' which is equal to ffy ( f'xfy-f'yfx +(y)f ' c --yl ( fX)2( fie )2 and therefore to c ' f~f y [ .y x--f y ?
+'fcS/ { -f'/ f$~+f xfy7 or substituting for fx , fy their values , f f'fy-f 'fx x-y becomes equal to 2cb--bc(x+y ) -2c2xy , and fxf'y is equal to 2+ 2bc(x+y ) +4cxy .
+The right-hand side is therefore equal to 2+b(x+y)+2cxy ( 1 + bx+ 2)(1 +by + cy2 ) And comparing with the value of the left-hand side , we see that this expression may be considered as the generating function of the symmetric functions of ( a , P ) , viz. the expression in question is developable in a series of the symmetric functions of ( x , y ) , the coefficients being of course functions of b and c , and these coefficients are ( to given numerical factors prs ) the symmetric functions of the roots ( c , 3 ) .
+And in general it is easy to see that the left-hand side of M. BORCHARDT'S formula is equal to [ 0 ] + 11]()(1)'+ [ 2](2)(2)'+ [ 12](12)(12 ) + &amp; .
+, where ( 1 ) , ( 2 ) , ( 12 ) , &amp;c. are the symmetric functions of the roots ( , 3 , ... z ) , ( 1 ) ' , ( 2 ) ' ( 12 ) ' , &amp;c. are the corresponding symmetric functions of ( x , y,. .
+t ) , and [ 0 ] , [ 1 ] , [ 2 ] , [ 12 ] , &amp;c. are mere numerical coefficients ; viz. [ 0 ] is equal to 1.2.3 ... n , and [ 1 ] , [ 2 ] , [ 12 ] , &amp;c. are such that the product of one of these factors into the number of terms in the correspondring symmetric function ( 1 ) , ( 2 ) , ( 12 ) , &amp;c. may be equal to 1.2.3 ... n. The righthand side of M. BORcHARDT'S formula is therefore , as in the particular case , the generating function of the symmetric functions of the roots ( a , , ... ) , and if a convenient expression of such right-hand side could be obtained , we might by means of it express all the symmetric functions of the roots in terms of the coefficients .
+Tables relating to the Symmetric Functions of the Roots of an Equation .
+The outside line of letters contains the combinations ( powers and products ) of the coefficients , the coefficients being all with the positive sign , and the coefficient of the highest power being unity ; thus in the case of a cubic equation the equation is 3 +bx2 ++d a=(x -))(x)(x-Y)= 0 .
+The outside line of numbers is obtained from that of letters merely by writing 1 , 2 , 3. .
+for b , c , d. .
+, and may be considered simply as a different notation for the combinations .
+The outside column contains the different symmetric functions in the notation above explained , viz. ( 1 ) denotes 2a , ( 2 ) denotes 2W2 , ( 12 ) denotes 3ap , and so on .
+The Tables ( a ) are to be read according to the columns ; thus Table II(a ) means b3=1(2)+2(1)2 , C=(12 ) .
+The Tables ( 6 ) are to be read according to the lines ; thus Table 11(6 ) means ( 2)=-2c+ b3 , ( 13)=-++c .
+I(a ) .
+II(a ) .
+III(a ) .
+12 12 '3J 12 13 =6 =|1 cb 11 d be | b3 ( l)l(2)I +1 ( 3 ) 1 -1 ( 12 ) +1 +2 ( 21 ) 1 -1 -3 ( 13 ) -1 I -3 I -6 I(b ) .
+11( ) .
+III(6 ) .
+12 12 3 12 l 13 =b=c b2 =d be b3 ( )-1-+I(1+(2 ) --2 +1 ( 3 ) , -3 1 +3 1 --1 ( 1)--1 -(1= ) +11 ( 21 ) +3 --1 | ( 1 ) -1 494
+

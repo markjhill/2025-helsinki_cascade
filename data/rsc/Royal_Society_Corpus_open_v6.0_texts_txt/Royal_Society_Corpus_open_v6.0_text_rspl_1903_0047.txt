@@ -1,0 +1,218 @@
+]\gt ; The dark patches were deep green , and clear parts between them were colourless .
+Fig. 29.\mdash ; Silver film on glass , annealed by at Transmitted light with green screen .
+Objective 12 mm. N.A. .
+Magnification Fig. 30.\mdash ; The same by dark ound illumination .
+( Oblique transmitted light ) .
+Objective 16 mm. N.A. .
+Magnification " " The ' Hunting ' of Alternating-Current Machines By BERTRAM HOPKINSON , M.A. Communicated by Professor J. A. EWING , F.B.S. Received June 16 , \mdash ; Read June 18 , 1903 .
+Many years ago the late Dr. John Hopkinson showed that if a pair of alternating-current dynamos , A and , mechanically separate but connected electrically in parallel , be running steadily on a constant load and with a constant driving power , and if the steady motion be slightly disturbed , say by momentarily retarding , then will do less and more than its share of the work , with the result that there lvill be a balance of force tending to accelerate A and to retard and so to restore the state of steady motion .
+In other words the two machines tend to keep in step .
+Similar considerations apply to a synchronous alternating-current motor worked from supply mains\mdash ; it tends to keep in step with the generators supplying it .
+It has been found in practice that as a general rule the paralleled alternators do keep in step , but in a not inconsiderable number of cases great trouble has been caused by a tendency in the machines to develop gradually increasing oscillations about the state of steady motion in which they ars in step with one another .
+This oscillation or " " hnnting\ldquo ; leads to violent cross magnetising currents , and sometimes the machines drop out of step altogether .
+This phenomenon has received a great deal of attention from the practical side , the object being of course to put an end to it .
+This experimental study has resulted in ical rules as to fly-wheel effect , and in the various devices or ' Amortisseurs\ldquo ; which are now largely used on alternating-current machinery and generally give satisfactory parallel running .
+Theoretical treatment of hunting bas been confined so far as I am Iag be increased to , the will be increased to , and if the external work done by the machine remains the same there will be a force or tending to accelerate the motor .
+p 's argument then is that the equation of motion of the motor is where represents on a suitable scale the moment of inertia of the motor , from which it follows that it executes simple harmonic oscillations of constant amplitude and period about the state of steady motion .
+It is easy to calculate approximately from a knowledge of the magnetic properties of the machine .
+Kapp worked out the period and found it to agree fairly well with observation in certain cases .
+He ascribed hunting to approximate equality between the period of free oscillation and that of some variation in the turning moment of the engine .
+Such equality would of course give rise to forced oscillations quite out of proportion to the cause .
+It was stated in support of this explanation that in cortain cases an increase in the fly-wheel effect of the machine\mdash ; viz. , an increase in the period of oscillation\mdash ; was found to aggravate the evil , contrary to what old at first sight be expected .
+And indeed it is probable that some cases of hunting are due to resonance .
+I believe , however , that there have been in which it has been difficuIt or impossible to discover auy external disturbing cause of approximately the same period as that of the .
+One case of the kind has come under my notice .
+A small single-phase synchronous motor , to be presently described , hunted violently under certain con- ditions when worked off the ledon supply mains .
+The period of the oscillations could be varied continuously from about to second by appropriate variation of the self-induction in series with the motor .
+Furthermore , the hunting occurred eqnally , and with the same period , with either of two diflerent generators working in the Power Station , one three times ths size of the other .
+It ' chinen fur Gleich- und Wechselstrom , ' von Gisbert KaPP , p. 401 ; also a paper by Uans Gorges , lektrotechnische Zeitschrift , ' vol. 8 , 1900 .
+1903 .
+] The ' Hunting\ldquo ; of Alternating-Current Jlachines .
+clear , therefore , that in this case at any rate the hunting not due to resonance but to some essential instability in the motion of the motor itself .
+It is easy to see how such instability could arise .
+In the gument .
+given above it has been assumed that the torque is dependent only on the relative position of motor and generator and not on their relative velocity .
+As a matter of fact there is a term in the torque dependent on the velocity , and the equation of motion is Higher differential coefficients than the second may and in fact do come in , but these are the most important terms as a rule .
+The solution of this equation is , if is small , If be the amplitude of the oscillations continually decreases .
+If , however , were negative , even though very small , the oscillations would continua.lly increase and the motion be essentially unstable .
+Most dynamical systems are affected with viscosity , in which case is positive , but systems are not unknown in which the contrary is the case .
+Watt 's Governor is such a system .
+Its oscillations about steady motion are given by a cubic equation , the two complex roots of which havs positive real parts and correspond to constantly increasing oscillations .
+There is no doubt that the motion of a synchronous motor is under certain conditions another instance of the same thing .
+Suppose for the present that the motor has a permanent magnet or saturated field , and that it is working against a constant load .
+Let be an angle defining the position of the armature in space , A the induction linked with the field coils and the armature when in position .
+In virtue of the above assumption , A is constant .
+Let be the time , and , the E.M.F. of the of supply ; the self-induction and the resistance of the armature and any conductors in series with it .
+Assuming for the moment that the motor is moving with uniform velocity , let ?
+be the current in the armature .
+The epoch of is as yet unchosen ; choose it so that in the steady motion .
+Now suppose that the state of steady motion is slightly disturbed so that the motor oscillates about it .
+Then we have in the disturbed motion : and pt , where are small quantities varying periodically with the time .
+Experience shows that in all cases the period of the variation is long Routh 's ' Rigid Dynamics , ' vol. 2 ( lS92 ) , p. 74 ; also hIaxwell 's CollecteCl Papers , vol. 2 , p. 105 .
+products of the small quantities , etc. , and separate the large terms corresponding to steady motion and the small terms corresponding to disturbed motion in the usual way .
+Thus for steady motion and for the disturbed motion ( 1 ) , .
+The torque developed by the motor is terms of period and quicker period , again neglecting products of the small quantities .
+The large part of this , , is equal to the constant resistance , the small balance is available for accelerating the motor .
+Thus the third equation is obtained : ( 3 ) .
+To solve equations ( 1 ) , ( 2 ) , and ( 3 ) , we write as usual ' , , and , and so get , after substitution and elimination of , and 1903 .
+] The\ldquo ; Hunting\ldquo ; of Alternating-C'urrent Jfachines .
+Lp Lp which reduces to The condition of stabihty of motion is , as explained in works on dynamics , that the real roots of this equation shall be negative , and that the real parts of the complex roots shall be negative .
+The criterion for this can be written down , but in this case it is simpler to proceed by approximation .
+It is known that is a small quantity , the period of the osoillation we are investigating being in any practical case at least fifteen times that of the alternating current .
+Neglect and therefore altogether in the first instance .
+Thus we obtain whence , suppose .
+so that to this order of approximation the executes simple harmonic oscillations of constant amplitude and period subject to an approximation which holds good in practical cases , is the result obtained by Kapp .
+Now , suppose that , and substitute in the original equation ( 4 ) .
+Neglect , and , but keep , etc. The result is * The condition that the real roots and the real parts of the complex roots of the biquadratic shall all be negative is that the and the coefficients shall all have the same sign ( see ltouth 's ' ?
+Dynamics ' ( 1892 ) , vol. 2 , p. 192 ) .
+In the case of the biquadratic here this condition reduces to which is equivalent to the condition found later on , if , as is the fact , first term can be neglected in comparison with the second .
+1903 .
+] The " " Hunting\ldquo ; of -Current Machines .
+241 As a rule is small compared to , so that the criterion of instability in this case is approximately , and generally fulfilled .
+The value of which will not vary greatly with load , may be determined by observing the current given by the machine when short-circuited , including , of course , in its circuit all resistances and self-induction up to the constant source of E.M.F. , which has been postulated .
+The apparent resistance under these circumstances is approximately .
+On the other hand , the value of may be approximately obtained by observing the current when the machins is at rest , and connected to the mains , the field coils being short-circuibed .
+The apparent resistance of the whole circuit under these circumstances is .
+If the motor be under-excited is positive .
+is positive for a motor and negative for a generator .
+The E.M.F. is equal to the impressed E.M.F. less that required to drive the current through the selfinduction and resistance of the circuit ; hence , unless , or , or the current , be large , is not much different from the applied .
+By reducing the exciting current is somewhat reduced , owing to the increased current ; but the reduction is far from being in proportion to the decrease in current .
+On machines large armatnre reaction and small self-inducoion , is practically constant , and equal to times the impressed E.M.F. Damping Coils .
+In practice there are , of course , many causes unconsidered in he above investigation which tend to damp out the oscillations , and which in all but exceptional eases overpower the forces making for instability , and render the motion stable .
+Air resistance and local currents in the armature give rise to forces of this , lvhich increase roughly in proportion to the velocity and so appear in the equations of motion as true viQcous terms .
+The most important damping effect , however , is that due to the variations of the field of the motor , which , as stated in the last paragraph , are generally produced by the oscillation .
+These variations give rise to periodically varying electric forces in the substance of the magnets and in the field coils , which cause currents in the former and variations of the current in the latter .
+These induced currents -act on the arm ture , producing changes in the torque which bend to damp out the oscilla- tions .
+In many machines the effect is intensifisd by putting additional damping coils of copper or " " Amortisseurs as they are called , round the field magnets .
+I propose shortly to investigate this effect .
+The general effect of the induced currents in the magnets and in Mr. B. kinson .
+[ June 16 , their surrounding coils ( whether damping coils or field coils ) is equivalenl to that of a circuit of a cel.tain resistance supposed to surround completely laminated magnets of the same size and shape magnetised by a field current .
+The induction hnked with this c.ircuit will be , taking the notation already used , I or , where is a constant .
+The current round the circuit , produced by the oscillation , is , therefore , , or- .
+This current tends to slightly demagnetise the magnets if be increasing , and its effect on induction linked with the field coils and mature may be repreda sented by a term - ' where is a positive conslant .
+The quantity is a time , it is the time in which the induction in the magnets falls to of its initial value if the field coils be suddenly short-circuited .
+If the armature be forced to make small oscillations , given by , about the state of steady motion , the induction will be as before ( p. 240 ) .
+I where now , however , ( 7 ) , while , as before .
+The E.M.F. at the terminals of the motor is pt pt We drop the terms in square brackets , and investigate the damping effect of the AmortisseuII\ldquo ; coil separately as a small effect of the is worth noting here that .
+the result , so far as damping is erned , the same whether the additional copper.is put into a short-circuited winding or into the field coils .
+In the latter it assists in reducing the ordinary losses in those coils .
+1903 .
+] ' 24 : ; same order of magnitude as the opposite effect which is dependent on those terms .
+The resnlt is : whencc These in terms of and titnting in ( 7 ) , find hence it follows that , where .
+The periodic term in the torqne , produced ) the oscillntio1l , foumd , as before , to be The of this when or is when the is in of motion , not moving the steudy , is sill hich from ( ) is to .
+The velocity : this moment is or The the of stondy motion is , therefol 8 VOL. LXXII .
+turbing causes would have to taken into ccount ( such , for mple , small changes the resistance overcome by the motor ) before an :courate ve cion of ] could bc arrived at .
+good dead of valuable information , however , ) got out of the tions as to the general effect ) onstal ) ility of running of varying the constants of the ( 1 ) incrcascs or the mping icreases with the period of the oscillation .
+eased fly-wheel effect always resuIts in elte , , damping ving to the lcreasc in the period .
+Increasing the self-induction the same effect ; it also worloe in favonr of stability ishing .
+A mere tion of without has no effect becanse it alters in the same ratio .
+( 2 ) The damping is to .
+Now the steady torque is case prftctical , in which ths nges of load can be calculated easily , is of converter .
+1903 .
+] The " " Hunting\ldquo ; of JTachines .
+A .
+Hence for a fixed field excitation the damping term is about proportional to the square of the load ; the more the machines are loaded within limits ) the better they run in parallel .
+This is in accord with experience .
+Furthermore , with constant load , is inversely proportional to a reduction of A resnlts in ) etter dmping .
+This I also found to be true on the machine with which I experimented , .
+: that if with a couslant load you diminish the field current you get more stable rullning .
+( 3 ) The co-efficient of instabiliby , or will i most cases ( for which is with to and inversely propor- to ( 4 ) If be increased from , in othel words if the resistance to the induced currents in ) the ) pieces be diminished , tho damping effect corresponding to creases to a maximum lIen d. It is possible theleforc to the application of -tmortisseurs\ldquo ; too .
+That this is so is obvious when one conside ] that a coil of esistance 1 ound the ) piece would completely destroy of lction L ] ] the damping effect hich depends on such tions .
+It old in fact COl.respond to the iirst ated of motor with fixed field , or without ture ction , howIl is ( 5 ) to the general cxpr lssion f ( equatio1l ) in which the is , it appears if ' ecomes ntivu , the damping instead of reducing the oscillations , tend to them .
+is about bo ) , where is the in the chine when standing conne ted to the illS .
+The outside which must lie in order thnt the mping coils such , and as additioual causes of stability , are ) ' very in machines of any sizc .
+Thu tter only becomes important iu the of hineb , of motors on long .
+The ) vionr of the motor with which I is coIlsiderably influenced in this ( : I in a wny firmed the results here obtained by experiment on a small ent motol ' .
+This machine is it 4-pole generiitor , made by the tVestinghouse C to give an output of about 10 ampores continuous current voIts .
+It converted into synchronous it machine by fitting slip 1ings on to it .
+1903 .
+] The " " Hunting\ldquo ; of urrent Machines .
+Rough determinations were made of the various constants of the machine ; the resistance measured in the ordinary way was found to be ohm cold .
+In normal working the resistance averaged about ohm , making a total of ohm with the resistance in the mains .
+The self-induction , or that part of the induction which is linked with the armature but not with the field coils , was measured by observing the drop of potential across the armaturs when passing an alternating current , the field coils being uted so as to the induction linked with them .
+The apparent resistance was assumed to be .
+The resuIt was that Lp varied from ohm , according io the position of the armature .
+We take ohm as the mean value of , making ohm total reactance with the reactance in the mains .
+For the determination of the machine was as a generatol on various non-inductive resistances varying from nothing up to 3 ohms .
+It was assumed that if be the open circuit potential , the in each ] and the total resistance armature , then ] .
+So determined the vcdue of was found to range from ohms in the first oase short cuit ) to ohms in the second .
+248 Mr. B. Hopkinson .
+[ June 16 , This method of measurement is only strictly accurate if , in which case the value of should appear constant for all resistances .
+For present purposes we may take the higher value ohms ( which is the more nearly accurate ) as a good enough approximation for or ohms if bhe additional reactance of the mains is included , and ohm for The power required to drive the motor unloaded against friction , hysteresis , etc. ( taken as the applied wabts less the losses in the armature ) , was found to average about 250 watts .
+This is the value of in all cases when the motor is described as unloaded .
+Finally the value of was roughly determined in the following current was passed through the field coils , the machine being at rest and the circuit of the armature open .
+The field coils were short-circuited at a definite instant of time , and the current in them was measured at various times after the short-circuit took place .
+The short-circuiting was effected by means of a long heavy pendulum which closed a switch at the lowest point of its swing .
+The pendulum carried a contact maker which at a determinate later point in the swing oonnected a resistance included in the field circuit to an electrometer .
+The fall of potential in the resistance gave the ourrent at the moment of naking contact , and the time could be calculated from the length of the pendulum swing between closing the switch and making contact .
+It was found that with sufficient accuracy for present purposes the value of the current in the field magnets was halved in second .
+Since in this case the current diminishes according to the law , it follows that is about one-tenth of a second ; varies somewhat with the temperature of the field coils , , one-tenth can be taken as its order of magnitude .
+Taking the above values of the constants , it appears that with the motor connected direct to the mains is negative .
+Furthermore , unless the machine is very much under-excited , we have amperes , roughly , taking voJts as a rough value for as ohm , and as 1 ohm , so that is also ncgative unless has a value comparable with 30 amperes .
+We should , therefore , expect this machine to be violently unstable .
+This was in fact , found to be the case ; when comlected dircct to the mains as a motor with an exciting current of thirty or more the machine very rapidly developed oscillations , and finally dropped out of step altogether .
+The oscillations occurred just the same , whether a large or small generator working at the Power Station .
+They were not affected by putting heavy rings of copper round the pole-pieces in ddition to the field winding .
+It was only by reducing the field current to and loading the machine 1903 .
+] The " " \ldquo ; of A ) chincs .
+with until the applied power was about 1800 watts that the ' ' hunting\ldquo ; could be stopped .
+[ That the mting in this case was due to the ative of was shown by the fact that it was not possible to stop tho .
+by the introduction of externa ] Ilcc .
+with mounting to ohms , with which would certainly IJO than , the motion was still thstable .
+The imossibility of tking the motion itable by puzzled me first , I not noticed the of the tive term it as a ) quantity\mdash ; 8th .
+By in the motor the of " " mting \ldquo ; could be diminished , the limc its could from bout 0 to second .
+] the duction 1 snch ] ) bout 6 ohms the motion ecame stable , the tionS sta ted pidly d. This is in ccordance with } bove , and the continnous of the period though the ontinues is proof of the esse1ttial instnbilily of the luotion .
+With self-inductio giving a reactance of ) of ohms the ) ility depended on the on tho cnrrcnt .
+The ) tions were xciting c rent , motor .
+The moti l tions if started dying slowly .
+Period of ccond .
+( b ) current to bhc ) .
+By loading the motor slightly with the " " stopped .
+Period second .
+Exciting current increased to .
+The motion with the motol nnloaded ) ccame violently ) .
+By loading the motor the power -ered to mobor ding extel l self-induetion ) nlted to 1000 watts , the ' hu1rting\ldquo ; could ) stopped .
+It ctlrions to watch the effect of the load ou the current taken the chine .
+The ammeter had such a slow period it could not follow the tionS in cnrrent due to the oscillations , the of the of the cllrreIlt .
+lVhe the chine 1 " " \ldquo ; the ammeter showed rent of ) anlpe , ( the pplied power of ) two-thirds of which were , of course , accounted ) the C-Ii losseb .
+On pntting the load on , the cnrrent as shown by the nmmetc ] diminished until tho it .
+The power by the ttmetor 1000 ttts , but this time -eighth losses .
+Tho uf expel.iments is of .
+B. Hopkinsou .
+[ June 16 , ( 2 ) Jtld ( .
+It is worth while in this case , the conditions of proxim te to those ssnmed in the theory , to deternune the order of magnitude of and The measurements were made : reactance ( Lp ) varied between ohnls , osition of ture .
+Its be constant , nd to 3 ohms without ssrious error .
+resistance ohms .
+In case ( c ) the potential across the motor is the external self-induction ) was 75 volts .
+HeIlce , is less voIts .
+On the other is times the -oircuit of the chinc with cnrrent fonnd to be 65 volts .
+Take , therefore as to 70 .
+The power i , upplied to motor the external self-induc.tion ) 1000 .
+The current , hence the loss in is 110 ture ebislitnce t ohm ) , we have itlld impet6S .
+Thus we See ) thu nlnst 1 ) ments his motor , the torm .
+The itteu with sufficient We sec. , ) ) ( the period of tion ) Honce and 1 ) 314 .
+We have This is , of course , very rough ; the most cill sserted is that positive ntity of the itme order of magnitude as , and 1903 .
+] The " " probably less than .
+The motion is only just stable with this load , however , and c be made umstable very small reduction of and I think the figures are a proof that there is an element of itlility other than a possible tive value of To get } pproximation to the value of , we note Hence nearly , and secs .
+, lvhich is the sort of magnitude one wonld expect from the rate of of the oscillations when the motor is is small or slightly ative .
+A th , 1903 .
+It is useful to the effeot of increasing the dimensions of the mnchine on the resuIts here .
+Suppose that the dimensions of every part except the field coils are increased -fold , that the speed remains the same .
+Then : A becomes , ?
+The ontput is multiplied by ) ctween ?
+and .
+To get the ctisnlion we require -times the turns in the fieldcoils .
+Henco if the number of turns in the ficld-coils and the bc kept the same , we roqnire -times the section of wire , md the wirc is -times as long .
+Since all the other } of the coils of the magnetic circuit ars incrcased -fold , it rendily follows that ( if the magnets completely nted { there no mortisscnr coils ) is -fold .
+these vnhles , we becomcs ?
+, .
+[ June 16 , Hence is urlaltered and the damping term ecomes , , assuming that corresponding values of the current are as .
+As corresponding values of the current ( that is , hich a. the same of the maximum rated output ) are in a somewhat : 1 , very little , .
+It appears , the coefficient of instability decreases very rapidly with in size , while the damping coefficient incl.eases somewhat .
+At the same time , owing to the rapid decrease of , the critical value of the at which becomes negative , rapidly ) ccomes b in tion to the output of the chine .
+It be inferl to experime1lted with but very little ) In actual the dimensions of a pair of adjacenl poles and of a COl'responding piece of in a section perpendicular to the are rarely more than two or thres times those on the machine here experimented with eve1l in ternators ; the increased is obtained by sing the ) of poles itld by tsing the length of .
+The ) of poles the of the maohine , provided the speed renldins the same , have but little on the quantities and 8 .
+In other words the performance of a machine rds hunting is delermined almost wholly ) the form and dimensions , ) a section perpendicular to the , of of poles and the corresponding ) of armature .
+The weight of corresporlding bit of fly-wheel ( if there is ) must , of , be added to that of the rmature .
+Thus it is quite con- ceivable that machines of large size , but with small armatnre and self-induction , might be constructed in which the quantity wonld ) important the llstttble , at any rate low londs , if the gnetic circuit of the machine vere similar to of the one ) erimented on which the self-induction mnturc rc pretty high ) , of its or more , motion wonld donbtcdlv 1 )
+

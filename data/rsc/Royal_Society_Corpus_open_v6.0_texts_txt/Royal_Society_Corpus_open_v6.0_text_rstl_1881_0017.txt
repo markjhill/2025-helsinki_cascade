@@ -1,0 +1,377 @@
+]\gt ; XVII .
+on ABEL'S Theorem .
+R. C. ROW , M.A. , Fellow of College , Cambridge .
+by A. CAYLEY , LL. D. , F.R.S. , Sadlerian Professor of Mathematics in thoe University of Cambridge .
+Received May 27 , \mdash ; Read June 10 , 1880 .
+THE object of this paper is to present in a sbortened and simplified form the processes and the results of ABEL'S famous memoir ' ur un propriete generale d'une class tresetendue de fonctions transcendantes , ' composed and offered to the French Institute in 1826 , but first published in the 'Memoires des Savans Etrangers ' for 1841 .
+The generality and the power of this memoir are well known , but its form is not attractive .
+BOOLE indeed in a paper on a kindred subject ( Phil. Trans. for 1857 , pp. 745-80,3 ) says : " " As presented in the writings of ABEL . . .
+the doctrine of the comparison of transcendants is repulsive , from the complexity of the formulae in which its general conclusions are embodied BOOLE'S theorems however escape this charge only with loss of the generality which makes ABEL'S valuable .
+But this complexity is rather apparent than fundamental .
+It is here attempted , by re-arrangement of parts , by separation of essential from non-essential steps , by changes of notation , in particular by the introduction of a symbol and a theorem discussed by BOOLE in the paper already referred to and by the addition of examples of the cesses and results , to reduce this part of an important subject to a shape more simple , while no less general , than the original .
+The first of the three sections into which the following paper is divided contains ( arts .
+1-10 ) the investigation of the principal theorem of ABEL'S memoir : these articles correspond to pp. 176-196 of the original , but are much simplified by the aid of BOOLE'S proposition : the theorem is written at the end of art .
+8 in the form and answers to ABEL'S equation ( 37 ) , p. 193 .
+In art .
+11 three examples are given of ABEL'S theorem .
+Those have been chosen of which the results were well known circular elliptic functions ) with a view to the comparison of this and less general methods .
+* For other methods of solution compare LIiSLIE ELLIS , .
+Reports for 1846 , p. 38 ; , ' Ell , p. 192 ; BOOLE , .
+cit. , arts .
+18 , 24 .
+In the second section ( arts .
+12-20 ) it is shown to follow from the resnlts of the first that the sum of any number of integrals of the form considered may be expressed in terms of a definite number of such integrals , and the question what is the least value of this definite number is discussed : the.result is stated at the end of art .
+20 .
+These articles correspond to pp. 211-228 in the original ; they are rendered more direct by the nomenclature of 'major terms ' and 'sets , ' the introduction of the letter , and various minor changes of notation .
+Art .
+21 contains an example of the method of this section .
+The third section contains two distinct parts : first , a generalization ( art .
+22 ) of the theorem of Section I. , showing that a similar expression to that obtained there may be found for the sum of number of such integrals each multiplied by any rational number positive or negative , integral or fractional ; secondly , an ( art .
+23 ) of the conditions necessary that the algebraic expression obtained for the sum of the integrals considered in Section I.\mdash ; i.e. , the right-hand member in the main theorem\mdash ; may reduce to a constant .
+This article corresponds to pp. 196-208 in ABEL , but the demonstration is greatly shortened and simplified by its being placed after ( instead of , with ABEL , before ) Section II .
+ABEL concludes by applying his methods to the case of integrals of the form I have succeeded in shortening the necessary work , but my process and result are so similar to those of the original as hardly to be worth reproducing here .
+An appendix contains an algebraical lenma and a list\mdash ; it is hoped complete\mdash ; of the errata in the original memoir .
+It appeared to the writer worth while to attempt to save subsequent readers the considerable inconvenience- these errata had caused himself There follows an addition from CAYLEY , wherein it is shown that the expression found in art .
+20 for the least value of the number of conditions connecting the variables of the integrals we sum is equal to the deficiency ( Geschlecht ) of the curve represented by the equation .
+That this least value is equal to the deficiency is a leading result in RIEMANN'S theory of the ] integrals ; the assumptions made in the text as to the form of the roots of the equation considered as an equation for the determination of are equivalent to the assumption that the curve has certain singularities ; and it is in , addition shown that the resulting value of the deficiency , as calculated by the formulae in Professor paper ' On the Higher Singularities of a Plane Curve , ' Quart .
+Math. Journ. , vol. ( 1866 ) , pp. 212-222 , has in fact the foregoing value .
+MR. R. C. ROW ON 71.5 SECTION I. 1 .
+The general question to which an answer is sought in what is called the Theory of the Comparison of Transcendants may be stated thus:\mdash ; Is it always possible to the for differ ) riables of the integral of an algebraic however complex , relations : the bless themselves being connected by any requisite ?
+If , for example , where X is any algebraic function of , rational or irrational , integral or fractional , is it arily possible by connecting , . .
+by any requisite ebraic laws to obtain an algebraic ( or logarithmic ) expression for the sum ?
+This question is suggested on the one hand by such well-known results as constant , where , if and where if and on the other hand by the possibility of finding algebraical expressions for mamy symmetric functions of the roots of equations though these roots may not separately be so expressible .
+It is in fact this combination of the theory of integrals and the theory of tions which furnishes the key to the problem ; enabling us to express the requisite laws very concisely by a single equation of which the bless are roots , coefficients are not independent but connected by a corresponding number of tion R 2 .
+The expression of thefvniction to be ltegrated .
+To escape the inconyenience of fractional and irrational we first introduce two new functions and a fresh variable .
+Whatever be the nature of the function X\mdash ; the subject of integration in transcendants we are considering\mdash ; it may be written where is a rational ( but not necessalily integral ) function of and , while is determined as a function of from the equation .
+the 's being rational integral functions of This is clear since any explicit irrational function is the root of an equation with integral and rational coefficients , in which , by a suitable change of variable , the highest coefficient can be made unity .
+4 .
+The shape in which it is most convenient to deal with , and in which we shall in future to be expressed , is obtained when its denominator is made the product of \mdash ; the differential coefficient of with respect to \mdash ; and a function of only .
+This can always be done ; for let being the roots of the equation and therefore functions of ; and being the root which we have before denoted by Now the product involving only symmetrical functions of the 's may be expressed as a function of only ; while , using the equations \amp ; c. and , lastly , the product can be expressed as a rational function of ; while and are rational and integral functions .
+MR. R. C. ROW ON ABEL'S THEOREM .
+So the subject of integration is reduced to the form in which it will hereafter be used .
+5 .
+The whose roots are the variof the functions This equation is clearly not arbitrary ; for if it were we could choose it linear ; and having then only a single integral , should be required to find for it an ( or logarithmic ) expression , a thing generally impossible .
+We shall find it sufficient to take , for this equation , the result of eliminating between and any other integral function of ; which , by the use of , can , of course , be made of ( at most ) the degree in Let this second function be . . .
+and let the result of elimination , viz. :\mdash ; be denoted by E. may be called the equation of condition .
+We assume to be rational integral functions of ; while any number of the coefficients in these functions are arbitrary : call them , .
+will then be a rational integral fimction of these quantities , .
+We may then either ( 1 ) take the roots of the equation , .
+being considered absolute the upper limits of our integrals ( of which alone we view these integrals as fnnctions ) ; or ( 2 ) since by a due alteration of the 's we may produce any possible simultaneous alteration of the , we may consider the variables in the different integrals as , in the passage from the lower to the higher limit , always connected by the equation , in which now , . .
+a system of variables with which the variation of has to be connected .
+The latter , as the more general and powerful hypothesis , is to be preferred .
+may be called the of the limits , or the of llation .
+6 .
+It may happen that , owing to a relation connecting the , the equation is satisfied by values of independent of these new variables .
+This relation , since one of the 's of which is the product will vanish for this value of and is linenr in the , must be a linear relation .
+We will then suppose where is independent of the ; and , the degree of being , let its roots be MR. R. C. ROWEt ON ABEL'S THEOREM .
+, . .
+; let the corresponding values of , the root of concerned , be ] , . .
+7 .
+Having expressed in a convenient shape we have next- to transform the dx of our integrals into the differentials of the new variables .
+If S denotes the operation of differentiating with regard to our new val.iables we have from the equation by which is connected with them But therefore Again therefore *As an example of these processes let A natural assumption is so that Take for the second function the form and on elimination we find Now , if we had ( a linear relation ) would be satisfied on making and we should have while and may be expressed in terms of alone .
+We should also have so that MR. R. ON ABEL'S THEOREM .
+719 Now ( using as before or indifferently for the root with which we are concerned ) , we have : whence if be any rational function SE all the other terms in 2 vanishing , if we mtroduce a set of vanishing terms .
+We have then obtained an expression for and a convenient modification of the result when the differential is multiplied by any function of and So , finally , 8 .
+From this point a symbol and theorem due to BOOLE furnish a short path to the result .
+The symbol is thus defined:\mdash ; " " If be any function of composed of two factors , , whereof is rational , let denote the result obtained by successively developing the function in ascending powers of each simple factor in the denominator of , taking in each development the coefficient of adding together the coefficients ' thus obtained and subtracting from the the coefficient of in the develop meant of the same function in descending powers of \ldquo ; BOOLE'S theorem is the following:\mdash ; " " If be any rational function of and if be any equation , rational and integral with respect to , by which is colmected with a new set of variables , .
+then , provided that does not become iniinlte when , we have the indicating summation for the various roots of the equation * Phil : Trans. for 1857 , pp. 751 , 757 .
+CAnCHY ' Calcul des Residus ' a symbol .
+diifering from BOOLE'S by not including the subtractive term last mentioned .
+Any theorem can be yitransferred from the one notation to the other .
+Assuming the truth of this theorem we may proceed with the investigation as follows:\mdash ; Since is a rational integral function of and may therefore be expressed in the form being a rational integral function of and .
+a positive integer not greater than , while is a root of the equation , we have , by a known theorem of partial We have then , by art .
+7 , By BOOLE'S theorem this For since is an integral function it contributes nothing to the interpretation of by being within the square bracket : and , if we no common factor ( which is also the case for \mdash ; which contains the a's\mdash ; and and \mdash ; which do not ) , we shall have in the sion of no term involving the reciprocal of a linear factor of , which therefore may also be brought out of the square bracket .
+The expression last obtained Under this form the sum is immediately integrable , for the new variables ( of which alone this is now a function ) occur only in the factor Integrating we find *See also note on art .
+10 , .
+MR. R. C. ROW ON ABEL'S TflEOREM .
+This is the general theorem for the summation of integrals of any form of which we were led to suspect the existence .
+It corresponds to that numbered on page 193 in ABEL'S Memoir ( and which should be called " " ABEL'S Theorem though that name is frequently given to the very narrow case of it discussed on page 255 ) , while it is more concise through the introduction of the symbol , and more ible through the absence of the letter 9 .
+In general , as has been said , the function has no factor independent of the i.e. , In this case the formula of the last article takes the simpler form As an example of the expansion of suppose We have then coefficient of in the expansion of ) , of , say , , of .
+where A is the value of corresponding to ; and\mdash ; representing by the coefficient of the descending expansion of which is identical with ABEL'S formula ( 44 ) .
+10 .
+Before proceeding to examples of the use of the general theorem one or two points in the proof and the result should be alluded to .
+A to the form of lction In choosing this function we may not make , . . .
+simultaneously : * The want of clearness spoken of is due to an fuity in the important sentence ( p. 187 ) in which ABEL implicitly defines the letter which is to appear promineutly in his enunciation of the final theorem .
+But it is hardly necessary to dwell on difficulty which the method of hc toxt voids .
+so that and this vanishes for all the values of obtained by putting , so that the righthand side of the equation is identically zero , and the whole process invalid .
+* * There is one case which the may be itimately reduced to the single term ; viz. the case when is a linear function of It is plain that , as , we have not the difficulty of repeated roots which generally vitiates the result of this assumption .
+In fact , let while Then and , as by p. 718 , we have As an example of which formula , let so that Put and we have . .
+But whence if whilc And this is the theorem ( easy to prove otherwise ) which wns assumed in the course of the general demonstration on page 719 .
+MR. R. C. ROW ON THEOREM .
+723 : ( ii .
+) The assumption ( in BOOLE'S theorem ) is not rendered infinite by the values which satisf . ?
+equation ; and the ssumption ( in art .
+8 ) that have no common factor .
+These assumptions are identical : for is rendered infinite by the vanishing of , and , since the roots of are all functions of the , they cannot satisfy the equations , into which no enters .
+If then and have no common factor , the first assumption is justified .
+We in this that is not an equation equal roots\mdash ; i.e. , that , . .
+are all unequal .
+Suppose , on the contrary , that we have equal roots\mdash ; say ' If then are the corresponding roots of we shall have for the same value of ; and therefore in the expression of we have a term of the form .
+: that due to the root , and it will be three times repeated .
+We see then the character of the difficulty introduced by the equality of roots .
+It does not altogether vitiate the solution ; it only requires that we should modify it by using , instead of the equations , the equations The manner in which ffi the steps of the analysis and the final result are affected by this change is obvions .
+11 .
+It will now be natural to give examples of the application of the general theorem , those are the results of which are well-known , as furnishing comparison between this and other methods of 1esearch among transcendants .
+The second and third are treated by BOOLE , in the paper frequently referred to , as } ) of his less general theorem .
+I. The function Let take * The reasoning will be applicable to any other ) .
+of equalities among the roots .
+MR. R. C. ROW ON ABEL'S ] so that Also let Eliminating we get as the equation of the limits .
+If are the roots of this equation we easily find The theorem then gives But , wherefore the right-hand side reduces to a constant , and we have the result that is constant if and so ; and this is , of course , the well-known theorem that if ( the angles being restricted to the first quadrant ) .
+II .
+The elliptic functions .
+As a second example take $nd let so that and * To choose the more general form leads by similar steps to a less interesting result .
+MR. R. C. ROW ON ABEL'S THEOREM .
+Also take , so that removing the factor ( see p. ) , we get by elimination of between and It is clear that , in general , no linear relation connects the coefficients of this equation , so that ; and the formula reduces to where , as usual , Therefore Now the last term in general vanishes .
+For and while in the term is and this vanishes .
+Therefore the first term of the descending expansion of 2 involves , while that of begins with ; wherefore * There is an exceptional case if , for then the expausion of begins with ; and the is not necessarily zero . .
+R. C. ROW ON ABEL'S OBEM .
+Next , the two of under the sign 2 being , or say the first two terms in the expressiol of compound into which is easily nalised , and gives which , substituting for its value Now , if be the roots of the equation , we get at once the relations MR. R. C. ROW ON ABEL'S We have then finally the following theorem .
+then , provided that connected by the single relation , we have If we write for we have the corresponding expression for the sum of three .
+of the form whose variables are connected by the relation From the rmula just proved we can deduce without difficulty the well-known theorems connecting the elliptic functions of each order whose connected by the equation sio ) which is only another form of the familiar elation cob * It is here assumed that is positive .
+If this is nut the imaglnary replaced by a real logarithm .
+exceptional in which tbere will be additionnl term not be take .
+negative in .
+ambiguity .
+For the first kind .
+Here we put This does not fall under the exceptional case ; and our formula gives For the sccond kind .
+Here we put This gives rise to the exceptional case .
+The right-hand side of the formula vanishes .
+It remains to find the value of where which , clearly , sin Therefore For the third kind .
+We have to write , and get or the corresponding logarithmic expression if is negative *CAYLEY , ' Elliptic Functions , ' art .
+132 .
+MR. R. C. ROW ON ABEL'S THEOREM .
+III .
+" " ABEL'S Theorem As a third example , consider a problem analogous to that of BOOLE , art .
+20 ; but more easily reduced by ABEL'S theorem tham by his .
+Let where is a rational integral or fractional function , is a rational integral function , while and are positive integers prime to one another .
+To this any sion containing only a single term can be reduced .
+Let while and being rational integral functions : also let Then , eliminating , and , in general , So so that , .
+Therefore But , if 1 , , . .
+are the roots of unity the values of are , . .
+So the last expression becomes ( putting for 1 ) since As a particular case of this result what is often called ABEL'S Theorem may be adduced .
+Let We have to write in the previous work for for for The right-hand side becomes The two values of Therefore the above This assumes a more symmetrical shape if , with ABEL , we write , not but ; so that With this alteration we get which is the well-known theorem referred to .
+We see it to be only a particular case of a particular case of the theorem called in this paper ABEL'S Theorem .
+MR. R. C. ROW ON ABEL'S THEOREII .
+12 .
+The expression ( in a form algebraic or logarithmic ) of the sum having been shown to exist , and having in fact been found , ABEL proceeds , in his art .
+5 , to investigate the condition that this expression should become a constant .
+Of the possibility of this we have been assured by the result of the first mple and of the first case of the second example of art .
+11 .
+This investigation , as subordinate to the main purpose , may be conveniently postponed to the second principal inquiry with which the memoir is concerned .
+This inquiry presents itself in two I. Mention was made at the outset of the " " requisite algebraical laws\ldquo ; which connect the variables when the summation desired can be effected .
+And in the case of the elliptic functions we have found that in order to express the sum of three functions it is requisite that the variables should be connected by a single relation .
+We are naturally led to investigate the number of relations ssary for the same effect in the case of more complicated forms .
+This number , it must be said , depends not at all on the of the functions we consider but only on their II .
+We may also consider the matter thus : Representing by the integral , we shown how to express , by the use of an operative symbol , the sum where , . .
+are the roots of an equation Now this equation involyes a number , , of arbitrary quantities Its roots are functions of these quantities .
+We can then find expressions for , .
+, in terms of of these roots , say ; and substituting these expressions in those which give shall have these roots determined as functions of the other The result then is an expression for the sunl of a series of functions , * This is most conveniently effected by ( 1 ) solving for , . . .
+the equations \mdash ; linear in where the equation is the factor of which supplies the to , and ( 2 ) substituting the values so obtained in , lvhich then becomes divisible by , and gives as quotient an equation of the degree whose coefficients are rational integral functions of , \amp ; c. , and whose roots are the quantities , . . .
+which it is required to determine .
+7.32 being any number of functions of the same form whose variables are themselves definite functions of the quantities , . .
+The question then arises , What is the smallest number of functions in terms of which the sum may be expressed ?
+and can the sum of any number of functions be expressed in terms of this smallest number 13 .
+Required the least vcdue of which the difference between the number of roots possessed 'equation of the limits ' and the number of constants introduced by the ' equation of condition ' is susceptible .
+This difference is by .
+We must put each term under a different form .
+For Let us express the index of the highest power of in a function , supposed rational and integral , by the symbol Then in general the number of coefficients in is ) : and as in one coefficient may without loss of generality be written unity number of coefficients in Two corrections must be introduced .
+For the existence of each linear factor of implies a linear relation between the , and diminishes the independent number by unity .
+We have on this account to subtract .
+It may happen , however , that the particular form .
+of the function renders the number of necessary relations less .
+Write then as the quantity to be subtracted .
+Suppose again that some of the constants are so chosen as to reduce the degree of E. In general and are thus equally reduced ; but it may happen that the form of the function renders necessary a less number of conditions .
+If this lessens by a number greater by than the lessening of we have to use instead of We will however for the present drop the A and , which would appear without alteration throughout the process , and replace them at its conclusion in the shape of a correction to the result .
+* In an earlier memoir ( ABEL'S works , vol. u. , xi this question is dismissed with the remark " " il n'est pas difficile de se convaincre que , quelque soit le nombre on peut toujours fair en sort que devienne independant de Here the actual value of this constant is investigated .
+For example , in tho case of p. 726 , we put , and the assumption of unity as the first term on the right reduced the resulting equation a quartic to a cubic .
+MR. R. C. ROW ON ABEL'S THEOREM .
+We have then ( ii .
+) For Since it follows that So Now and it becomes necessary to find 14 .
+We require the following Lemma .
+The quantities , . .
+, are in general in sets .
+For let ; this being a fraction in its lowest terms ( and we will take the denominator positive ) .
+Then one root of being , when expanded in descending powers of the expressions \amp ; c. where roots unity ) are also roots , and if these are we have .
+, the number equated being clearly a multiple of .
+Let it be ; and write where where \amp ; c. where and * Here means the degree of when rendered a function of by substitution for from the equation This lemma is the second of the theorems laid down by ABEL in his important memoir " " Sir la resolution algebrique des equations of which consists the last article ( it lvas never finished ) in the second volume of his works .
+Also let us write , for shortness , , . . .
+; and let these be in descending order of magnitude , so that . . .
+We have then sub-sets , each of terms , with index sub-sets each of terms , with index , and so on .
+These quantities ; \amp ; c. , can be speedily determined when is given by NEWTON'S method .
+Thus , write for in the equation , and determine by the condition that in the resulting function of the indices in two or more terms may be equal and greater than in any other term ( while the condition that the sum of these terms shall vanish will determine These conditions are obviously necessary for the existence of a root .
+: and it is easy to prove directly that we can thus determine values of the quantities unique , and in descending order .
+For suppose the indices after substitution to be ; .
+Then putting we have ; * As an example , suppose that is determined by the cubic while Writing for the exponents are .
+It is clear that the conditions are satisfied by making , i.e. , , while a quadratic is obtained for , so that there are two corresponding terms and They are also satisfied by making , i. e. , , and a simple equation is obtained for A. have , then , ; MR. R. ROW ON ABEL'S THEOREM .
+735 and if we choose so that is the greatest of the .
+, we have , determined as a unique value , what we will provisionally call Next put whence Now this value is to make or and since by interchanging and we the contradictory of this inequality , it is impossible that by putting each of these could be made Therefore the second step is also unique ; and since so that the second is less the may be called Now , resuming the process of art .
+13 , divide the terms of the ) ession into sets : calling the first of them the first set , the next the so on , the last constituting the set .
+Also call that term of the first set in which when is written for the } hest resulting index of is the largest the term of the first set , call that term of the second set in which on the substitution of the happens the ) the second set , and so on .
+Then I proceed ( i ) to show that by a proper choice of the quantities , . .
+, which are at our disposal , we can make the major of the set ftll ctbsolute major ( for the substitution ) , i. e. , fnrnish a gher index of than is furnished by any othel term ; the major term of the second set an bsolute major ( for the substitution ) , and so on , ( ii ) to show that the condition of ( i ) is necessary in order that may have the smallest value of which it is susceptible .
+( iii ) to find this value .
+The proof of ( i ) is most simply conducted by successively investigating the conditions that the major term of any ( say the ) set should furnish a higher power of ( for the substitution ) than any other term furnishes , ( b ) that this major term should nish a higher power than any other not-major term furnishes .
+In investigating ( b ) the conditions of are to be supposed to hold .
+It will only be found necessary to supply to them a slight additional restriction in order to satisfy ( b ) .
+17 .
+The condition for is that whatever values ( of course lying between and inclusive ) are given to and we should have where we have taken to be the major term of the set .
+We will write this , for brevity , in the form ( A ) so that If we make successively substitutions we the above inequality requires the following:\mdash ; If then we write we have If we use also for the abbreviation we have and it follows that . . . .
+( B ) MR. R. C. ROW ON ABEL'S THEOREM .
+The condition expressed by this equation is then necessal.y if the inequality ( A ) is to hold .
+It is also sufficient , as is easily shown .
+For from it we obtain if . . .
+if . . .
+The relation ( B ) ( in which is entirely arbitrary and the 's are ooly subject to the necessity of lying between consecutive ) expresses the necessary and sufficient condition for the satisfaction of .
+18 .
+Let us next examine ( b ) .
+The condition is expressed by the inequality where is any term of the series , 1 , . .
+which is not one of the Let belong to the set so that and let ( C ) being a positive quantity .
+We have then to make . . . .
+( D ) Now this inequality clearly holds when Again it when provided that i.e. , if But this will always be possible if i. e. , if a relation which is always true since and are both positive .
+MR. R. C. ROW ON ABEL'S Once more , it holds when if i.e. , if i. e. , if and this can , as in the last case , be shown to be always possible .
+Now if the inequality ( D ) holds , being greater than , it will hold when for we write provided that i.e. , if but therefore this relation does hold .
+But the inequality ( D ) is true when .
+It is therefore true for all larger values of It can similarly be shown that if the inequality holds , } being less than , it will hold when for we write ; and that , since it holds when , it holds for all less values of It is therefore proved uniyersally .
+We observe that , as was stated at the outset , the consideration of the case ( b ) has only introduced a restriction into the conditions of the case \mdash ; viz. : that the 's are no longer merely subject to the necessity of lying between consecutive , but must satisfy the closer conditions expressed by the inequalities ( E ) where in the first line denotes any one of the numbers of the , in the second any one of the set .
+19 .
+We have next to consider the second proposition of page 735 , viz. : The condition of ( i ) is necessary if is to have its smallest value .
+must be observed that this method of proof could not be used to deduce the case from the case ; for it would not be necessarily true that is less than MR. R. C. ROW ON ABEL'S THEOREM .
+Writing down a series of equations similar to ( C ) we have \amp ; c. Firs set } ( F ) sct \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; c. Firs set } \amp ; c. \amp ; .
+and , adding all these lines together , \amp ; c. or Now , if the condition of ( i ) were not satisfied , some at least of the signs of equality connecting the first and second vertical columns must have been replaced by the sign ; and as those between the secorld and third column would as before , the equality at the head of this page would have become an inequality\mdash ; i. the value of would have been greater than it is\mdash ; i. would have been greater .
+It remains to consider the term The smaller we can make this sum , and therefore , all the terms being positive , the smaller we can make each term , the less will be our value of Now from the general equation we see that , since and are integers , consists in general of two parts\mdash ; an integer and the proper fraction which added to will make it Now we can make the integral part vanish for every value of ; for to do so will only require a relation between the ma.jor term and the other terms of each set ; so that , given the degree in of the ma.jor term , those of the others in its set cam be written down .
+As the conditions ( i ) only connect with one another the major terms of rent sets , this last condition is independent of can always be satisfed .
+20 .
+To find the value of we must investigate the fractional parts .
+Considering any set ( say the ) , they are , with the notation of the Lemma ( p. 746 ) , of the form where takes each from to ; and But and are prime to each other .
+Therefore , by the resldt of the Lemma , the sum So then finally , giving to its least value , we have This expression .
+Now ; \amp ; c. \amp ; c. ; Substituting we obtain Now , returning to the ] of art .
+1:3 and inserting the numbers A and for the correction there explained and writing instead of its equivalent , we have the result following .
+The least number of functions in terms of which the sum of number be ressed is of everything but the form of the function consider.ed ( i.e. , the .
+equation ) , and if equation has MR. R. C. ROW ON ABEL'S THEOREM .
+roots of the form . .
+, of the form .
+, and so the number is ( G ) ( the last two terms -A\mdash ; B corresponding to a correction which is in general zero 21 .
+It may be well to render these methods and formulae plainer by applying them to an example .
+We will choose for this purpose the simple case already considered in the note on p. 734 .
+Our last formula for the value of gives , if we assume that , as in general is the case , the values of A and are zero , writing We will next find the values of , or , as we have written them , , [ 1 ] , [ 2 ] .
+We have or 1 Let us take Then , by the formulae ( F ) , ; * In the most simple case , when is completely general function and deficiency of general -tic curve .
+This is a case of the result shown by Professor CAYLEY in the Addition to be universally true .
+We might have taken with a similar result , This multiplicity of solution will and by the definition of while from the conditions ( E ) , i.e. , , i. e. , so that whence ] and so if the degree of be denoted by that of is ; and that of may be either , or We have , then , by art .
+13 ( i ) while So that , as on the last page , We have proved then that the sum of any number of integrals of the form indicated by the fact that they are rationalized by the introduction of , where can be reduced to the sum of three ; the equation of condition being where , and lies between and inclusive .
+SECTION III .
+22 .
+We have shown that the sum of any number whatever of similar functions such as are discussed in this paper can be reduced to an expression algebraical or logarithmic added to a fixed number of such functions whose variables are functions of the variables of the given functions , this fixed number depending only on the form of function considered .
+From this a more general theorem may be shown to follow , viz. : that a sir MR. R. C. ROW ON ABEL'S .
+743 expression may be found for the sum of any number of such functions each lied by any rational number positive or , integral or fractional .
+If all the rational numbers are positive and integral the theorem follows at once by supposing the ions whose sum we have shown how to express to be equal in sets .
+And this suggests the method of treating the general case when the numbers are any whatever .
+Let fixed number to which the sum of the functions has been shown to be reducible .
+Then , by previous work ( compare pp. 731 , 732 ) .
+where and are any numbers whatever ; are functions of ; and of , and are algebraical and logarithmic functions .
+Subtract : and let the last of the terms on the left-hand side of the second be ( both as to functional form and variable ) identical with those in the bracket in the first .
+Then , writing for , we have Equate all the functions on the right to zero .
+This will give relations between the 's and Now making the functions on the left equal in sets , and diyiding by any requisite integer , we have a result which may be written where the 's are similar functions , is any number whateyer , is an algcbraica ] and logarithmic function of the , which are themselves connected by relations , the 's are any numbers whatever .
+If we express of these variables as functions of the rest and call them , pubting for , we can write .
+Or making , as we may , the 's eachunity we have shown how to find the expression required .
+* The subscript ] ters attached here , and not before , to the functional symbols introduce no novelty .
+They are only intended to suggest the fact that what we have written , are really , , . . .
+; while and are not necessarily the same functions of This has not been hitherto overlooked , it is o1lly more clearly put in evidence now .
+23 .
+We the conditions necessary that the 'algebraic and logarithmic function ' often referred to already should become a constant ; in other words , that the term involving in the expression of ABEL'S theorem should disappear , and with it the arbitrary quantities We will assume for the sake of simplicity , and have therefore the formula of Art .
+9 .
+first condition is ( A ) for otherwise the terms ibuted by it to will introduce the arbitrary quantities Next , we must have or , which comes to the same effect , and since , S indicating differentiation with respect to , and consequently not altering the degree of a function in and the condition to be satisfied is when , for , any whatever of the series has been substituted .
+Now , being integral and rational , can be expanded in the form We require then that , for all values of and ?
+from , to Now whence ) so that MR. R. C. ROW ON ABEL'S THEOREM .
+Now , to write for is to change the right hand side of this inequality by ; i.e. , by .
+This is negative if vanishes if is positiye if So there is a minimum value when , and we must therefore have . . .
+Let ( and lie between and ) , then . .
+Therefore .
+( B ) If this is to be true whatever is , it must hold when we put ; wherefore where is one of the numbers , . .
+and is ] : for Now cannot be negative , therefore the smallest value assignable to is the least which makes ; i.e. , is We must then have as the highest term in .
+This condition , necessary\mdash ; and , as we see without difficulty , sufficient also ; for the values assigned by equation ( B ) to are clearly positive when is greater than zero\mdash ; can always be satisfied unless This can only happen in two cases , viz. : when or .
+In these two cases it can be easily shown that a single integral of the given form can be expressed by MR. R. C. ROWhl ON OREM .
+means of algebraic and logarithmic functions ; so that ABEL'S theorem becomes unnecessary .
+Except then in these two cases it is always possible by satisfying the conditions ( A ) and ( B ) to render the sum of the series of fUmctions equal to a constant .
+The number of arbitrary constants , being equal to the number of relations connecting the variables of the functions which we sum , will by art .
+20 ( G ) be It is not necessary thab we should assume for the correctness of the processes of the last two pages .
+Our equations will be the sam if for any other reason disappears from the general formula , and reduces it to the case of art .
+9 .
+But this will happen if in the denominator of there is no factor also occurring in ; and this will be so if do not vanish for any the of If this condicion hold the results just arrived at will remain true .
+APPENDIX .
+LEMMA .
+To find the Jalues ( of the integral parts , ( ii ) of the fractional parts , ( ui ) of the complements to the fractional parts of the series of terms ' . .
+where a positive nteger , and are integers positive or negative .
+By the integral part of a term we msan the integer next less than or equal to it ; by the fractxonal part that positive fraction ( zero included ) which added to the integral gives the number ; by the complement of the that fraction which added to the given number produces the next higher integer .
+Let these functions of the term be denoted by the symbols * A notable particular case is that in which consists of a single term , ; where is so chosen as to satisfy the condition ( B ) above , and so as to satisfy the equation ( i ) of the last page .
+* MR. R. C. ROW ON ABEL'S THEOREM .
+Then , by the theory of numbers , if and are prime , the integers will be ( in some order ) the series , 1 , 2 , ; while if and divisible by being their greatest common measure , the integers .
+, form an arithmetical progression whose common is , repeated times ; and the smallest term of this progression is the remainder when is divided into If this remainder be called we have to terms } whence and Corollary If the greatest common factor of and also divides , then , and we have the simpler forms Corollary The sum of the of any of the series etitions b ) differs the sum of the fractional of the vcllues of the terms )a is equal to zero , by an integer .
+For , if the sum of the coefficients of in the numerators of the terms be , then in the first case in the second ( the notation being obvious ) wherefore integer which is the required result .
+LIST 0F ERRATA .
+In ABEL'S Memoir the following slighter mistakes should be corrected:\mdash ; Page 184 , 11 .
+12 , 13 , for read 192 , 1 .
+4 , for read 200 , 1 .
+3 , for read 207 , 1 .
+9 , for read 231 , 1 .
+2 , for read , 1 .
+3 , for read 233 , for read throughout .
+240 , for read throughout .
+243 , 1 .
+2 , for read 252 , last line , for read 255 , last line but one , for read 2 .
+There are besides these the inaccuracies referred to by M. LIBRI ( the editor of the paper ) as occurring on pp. 226-8 .
+These are too to be otherwise than by re-writing the pages , which has therefore been done ; and they immediately follow .
+" " Alors l'equation ( 92 ) donnera les , donc , donc - , donc , donc - , donc .
+, donc , donc - , donc MR. R. C. ROW ON ABEL'S " " Pour trouver maintenant , , , , il chercher les limits de Or les quations ( , qui determinent ces limits donnent ; d'ou ; " " Il suit de la que " " On a aussi ; d'ou .
+, ; d'ou ' " " 11 suit que ; d'ou ; d'ou " " Il suit que " " Maintenant l'equation ( 97 ) donne ou est la plus petite , et la grande valeur de ; donc on , en faisant , 3 , 4 , .
+R. C. ROW ON ABEL'S THEOREM .
+donc on aura pour les valeurs suivantes:\mdash ; , 3 .
+, \mdash ; 2 .
+d'ou ; ; ; ; ' ' En exprimant donc toutes ces quantites par on voit que les fonctions , . .
+sont respectivement des degres suivants : ( 12 ) ( 11 ) ( 10 ) ( 9 ) ( 8 ) ( 7 ) ( 6 ) ( 5 ) ( 4 ) ( 3 ) ( 2 ) ( 1 ) ( 0 ) ou ( 12 ) ( 11 ) ( 9 ) ( 8 ) ( 7 ) ( 6 ) ( 5 ) ( 4 ) ( 3 ) ( 2 ) ( 1 ) ( 0 ) ou est le degre de la fonction ' ' De la suit que et c'est a dire " " La valeur de deyiendra donc comme nous avons trouve plus haut Addition to Mr. ROWE'S Memoij. .
+By Professor CAYLEY , Received May 27 , \mdash ; Read June 10 , 1880 .
+IN ABEL'S general theorem is an irrational function of determined by an equation of the order as regards : and it was shown by him that the sum of any number of the integrals considered may be reduced to a sum of integrals ; where is a determinate number depending only on the form of the equation , and given in his equation ( 62 ) p. , if ( solving the equation so as to obtain from it deyelopments of in series of powers of x ) we have series each of the iorm , , , ( so that , then is a function of ; ; Mr. ROW has expressed ABEL'S in the following * The several powers of have coetiicients : the form really is , whioh is as representing the different values of obtained by giving to the radical each of its values , and the corresponding values to the radicals which enter into the coefficients of the series : and ( so understanding it ) the meaning is that there are such series each representing values of .
+It is assumed that the series contains only the radical is , the indices after leading index are , . . .
+; a series such as , depending on the two radicals represents 15 different values , and would be written , or the values of and would be 20 and 15 respectively : in a case like this where is not in its least , the number of values of the leading coefficient is equal , not to , but to a submultiple of .
+But the case is excluded by sumI ) tion that are fractions of them in its least tcrms .
+then this expression is or what is the same thing , for writing its value where in the first sum have each of them the values 1 , 2 , . .
+, subject to the condition ; in each of the other sums , and are considered as having the suffix , which has the values 1 , 2 , . .
+It is a leading result in RIEMANN'S theory of the Abelian integrals that is the deficiency ( Geschlecht ) of the curve represented by the equation : and it must consequently be demonstrable a posteriori that the foregoing expression for is in fact deficiency of curve .
+I propose to verify this by means of the formulae given in my paper " " On the Higher Singularities of a Plane Curve Quart .
+Math. Jour .
+, vol. , pp. ( 1866 ) 212-222 .
+It is necessary to distinguish between the values of which are , and ; and to fix the ideas I assume , and each ; say ?
+; and each but it will be easily seen that the reasoning is quite general .
+I use \fnof ; m to denote a sum in regard to the first set of suffixes 1 , 2 , 3 , and to denote a sum in regard to the second set of suffixes 5 , 6 , 7 .
+The foregoing value of is thus a third coordinate for homogeneity , the equation of the curve will be . . . .
+where it is to be observed that is written to denote the product of different series each of the form .
+; these divide themselves into groups , each a product of series ; and in such the coefficients are in general PROFESSOR CAYLEY'S ADDITION TO MR. ROWE'S MEMOIR .
+values of a metion containing a radical and are thus different from each other : it is in what follows in effect assumed not only that this is so , but that all the coefficients are different from each other:the like remarks apply to the other factors .
+It applies in particular to the term , it is assumed that the coefficients A in the series , . .
+, are all of them different from each other .
+These assumptions as to the leading coefficients really imply ABEL'S assumption that , . . .
+are all of them fractions in their least terms , and in particular that is a fraction in its least terms , viz. , that : I retain however for convenience the general value , putting it ultimately In the product of the several infinite series the terms containing negative powers all disappear of themselves ; and the product is a rational and integral function of the coordinates , which on putting therein becomes .
+The equation of the curve thus is ; and the order is , .
+; viz. , if is the order of the curve , then The curve has singularities ( singular points ) at infinity , that is , on the line : viz. \mdash ; First , a singularity at , where the tangent is , and which ( writing for convenience ) is denoted by the function ; where observe that the expressed factor indicates / branches , or say partial branches } ) , that is branches with in all distinct values of ; and the like as regards the unexpressed factors with the suffixes 2 and 3 .
+Secondly , a singularity at , where the tangent is , and which ( writing for convenience ) is denoted by the function ; where observe that the expressed factor indicates branches , or say *This assumption is virtually made by ABEL , , in the expression ' alors on aura en genera ] : except qnelques cas particuliers que je me dispense de considerer : , \amp ; c. " " : viz. , the ing is that the degree of being greater than or equal to thab of theu degree of " " is equal to that of of course when bhe degrees are equal , this implies that the coefficients of the two leading tcrllIS must be unequal. .
+754PROFESSOR CAYLEY'S ADDITION TO MR. ROWE'SNIEMOIR .
+partial branches , that is branches with in distinct of : and the like as regards the unexpressed factors with the suffixes 6 and 7 .
+Thirdly , singularities at the points , A having here distinct values , at any one of which the tangent is , and which are denoted by the ftlnction : but in the case ultimately considered is ; and these are then the ordinary points at infinity , .
+According to the theory explained in my paper above referred to , these several singularities are together equivalent to a certain number of nodes and cusps , viz. , we have ' , hence and ( assuming that there are no other singularities ) the deficiency is this should be equal to the before-mentioned value of , viz. , we ought to have ( K-1 ) or , as it will be convenient to write it , which is the equation which ought to be satisfied by the values of and calculated , according to the method of my paper , for the foregoing singularities of the curve .
+We have as before The written at length , is PROFESSOR CAYLEY'S ADDITION TO MR. ROWE'S MEMOIR .
+, which is We have moreover 2\fnof ; m We next calculate .
+For the singularity each branch gives , and the value of for this singularity is , which is For the singularity ' each branch gives and the value of for this singularity is ?
+is For each of the singularities we have and the value of is : this is for the value which is ultimately attributed to The complete value of is thus Substituting all these values we have or reducing ; and it is to be shown that the two lines of this expression are in fact the values of belonging to the singularities . . .
+, and . . .
+respectively .
+We assume , and there is thus no singularity I recall that , considering the several partial branches which meet at a singular point , denotes the sum of the number of the of each partial branch by every other partial branch ( so that for each pair of partial branches the intersections are to be counted twic e ) .
+Supposing that the tangent is , and that for any two branches we have ( where are each equal to or greater than 1 ) , then if , and where not , ( an assumption which has been already made as regards the cases about to be considered , then the number of intersections is taken to be ; and if and are unequal , then taking to be the of them , the leading term of is , and the number of intersections is taken to be , in the case of unequal exponents , it is equal to the smaller exponent .
+Consider now the singularity .
+; and first the intersections of a partial branch by each of the remaining partial branches of the same set : the number of intersections with any one of these is ; and conPROFESSOR CAYLEY'S ADDITION TO MR. ROWE'S MEMOIR .
+sequently the number with all of them is .
+But we obtain this same number from each of the partial branches , and thus the whole number is Taking account of the other sets , each with itself , the whole number of such intersections is which is Observe now that , that is , and that , these being each , we thence have , that is : and we thus have Considering now the intersections of partial branches of the two sets and respectively , a partial branch gives with each branch of the other set a number ; and in this way taking each partial anch of each set , the number is ) ; and thus for all the sets the number is , which is where in the first sum the refers to each pair of values of the suffixes .
+But the intersections are to be taken twice ; the number thus is Adding the foregoing number the whole number for the singularity in question is Similarly for the singularity ; taking each set with itself , the number of intersections is which is We have here and each of these being less than 1 , we have tljat is , or ; and so Hence considering the two sets and , a partial branch of the first set gives with a partial branch of the second set intersections : and the number thus obtained is .
+For all the sets the number is or taking this twice , the number is where in the first sum the refers to each pair of suffixes .
+Adding the foregoing value the whole number for the singularity in question is and the proof is thus completed .
+Referring to the foot-note ante ( p. 753 ) , I remark that the theorem deficiency , is absolute , and applies to a curye with any singularities whatever : in a curve which has singularities not taken account of in ABEL'S theory , the ' quelques cas particuliers que je me dispense de considerer the singularities not taken account of give rise to a diminution in the deficiency of the curve , and also to an equal diminution of the value of as determined by ABEL'S formula ; and the actual deficiency will be ABEL'S such diminution , that is , it will be true value of
+

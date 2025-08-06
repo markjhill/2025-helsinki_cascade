@@ -1,0 +1,175 @@
+]\gt ; Prof. T. H. Havelock .
+and 4384 , the phase in the simple Rydberg formula being about , and the limit being approximately that of the Diffuse Series of Parhelium , but the measurements of the wave-lengths of the lines are not sufficiently accurate to establish fully their series relations .
+A number of other lines have been observed , but an investigation with higher dispersion will be required for a full elucidation of the spectrum .
+] Periodic Irrotational of Finite Height .
+By T. H. HAVELOCK , F.R.S. ( Received May 21 , 1918 .
+) 1 .
+The method of Stokes for waves of finite height on deep water consists in working upwards by successive steps from the infinitesimal wave towards highest possible wave .
+Although lacking formal proof of convergence , it is generally accepted that the method is valid , but that it does not include the highest possible wave when the crests form wedges of For the highest wave itself we have Michell 's analysis by a distinct method , also involving an infinite series whose convergence has to be assumed .
+* The theoretical position of Stokes ' method has been stated concisely by Prof. Burnside in a recent " " The complete result would be to express the co-ordinates and in terms of and in the form where are power series in " " These results have a meaning and can be used for actual approximate calculation only , if are conVergent power series when does not exceed some value , say , while for suitable values of and for real negative values of , the series for and are convergent .
+" " Until the form of the power series and have been determined , it is impossible to ] with their convergence .
+Assuming that they are convergent , it is clear from physical considerations that there must be an *J .
+H. Michell , ' Phil. Wag Ser. 6 , vol. , p. 430 ( 1893 ) .
+W. Burnside , ' Lond. Math. Soc. Proc Ser. 2 , vol. 15 , p. 26 ( 1916 ) .
+Periodic Irrotational Waves of Finite Height .
+upper limit for in order that the series for and may be convergent for negative values of , and there are no means of determining Prof. Burnside concludes that Stokes ' method cannot be used for numerical calculation as it is not known whether the corresponding value of is less than the above value In the following notes a general method is suggested , which includes waves of all possible heights , from the highest wave down to the simple infinitesimal wave .
+The method consists of a simple and direct extension of Michell 's analysis for the highest wave .
+The advantage is a theoretical one which may be expressed in this form : the parameter does not have , as in Stokes ' series , an undetermined upper limit , but it enters in the form , where may have any positive value , including zero .
+It should be stated that here , again , we have infinite processes for which no formal ) roof of convergence is given : we have to rely meantime upon a numerical study of the series .
+However , in addition , we can compare the method with that of Stokes for waves short of the highest ; in this case numerical results obtained by the two methods are the same , as might be ected .
+Extending this comparison to the highest possible wave , we get a value for the quantity referred to previously , that is , the value of the parameter for which Stokes ' series for the elevation become divergent .
+We obtain as , where has the value approximately , or we have the value for being slightly less than the true value .
+The discussion is arranged in the following order : Michell 's form for the highest wave , its generalisation by means of the surface:condition , method of approximation for the coefficients , calculation for the highest wave , the values when , comparison with Stokes ' series , determination of , further numerical examples and remarks upon the values of the coefficients .
+2 .
+It was shown by Stokes that the highest possible wave , under constant pressure at the free surface , has crests in the form of of .
+It follows directly from his argument , as a simple extension , that the crests will meet at the same angle for the highest possible wave under any assigned surface pressure provided the pressure is stationary in value over .
+the crests .
+Consider any assigned surface pressure of this character which is finite , continuous and periodic .
+To determine the form of the high possible periodic wave , we may follow Michell 's analysis for the case of constant pressure up to the stage at which the coefficients are determined from the given surface condition .
+We might then begin with the form given in ( 5 ) below , but we may recall briefly Michell 's argument .
+Take Ox horizontal , Oy vertical and Prof. T. H. Havelock .
+downwards , with at a crest .
+Let the successive crests be given by integral ; and let the upper surface be .
+If be the inclination of the wave line to the horizontal at a point , assume .
+( 2 ) This is equivalent to assuming that under the given conditions for the surface pressure , the ratio of the curvature of the wave line to the velocity is finite and continuous throughout a wave-length ; in that case can be expanded in a uniformly convergent Fourier series .
+In the numerical calculations which are needed later , the practical success of the method of approximation depends upon , being small compared with , and , in fact , upon the series converging rapidly .
+With the notation , , Michell showed that .
+( 3 ) is a function which is real over the surface , and possesses only simple poles , which are at the wave crests .
+Suppose that near a crest , say , we have , then const .
+, where is fluid velocity and is distance from the summit .
+But , since the pressure is constant in the neighbourhood of the crests , we have , and hence .
+It follows that the function ( 3 ) differs by only a constant from the quantity .
+Hence , after adjusting the onstants and integrating , we find for the form .
+( 4 ) the real root of being taken along .
+The units are such that the wave velocity , or the velocity at , and the wave-length are given by ; It is convenient to invert ( 4 ) and write .
+( 5 ) 3 .
+The coefficients , are now to be determined by the pressure condition at the free surface .
+So far , we have stipulated only that the pressure at shall be finite , continuous , periodic , and stationary at the points .
+For our present purpose we shall leave this pressure distribution undetermined , except for these conditions .
+We shall assume Periodic Irrotational Waves of Finite Height .
+that it is possible for some assigned stream-line below the surface , say the line , to be a line of constant pressure .
+Thus we shall determine , directly by applying the condition for constant pressure to ( 5 ) when .
+The surface will then be a possible free wave surface , and free waves will be given by assigning any value to in the ange zero to infinity ; thus , by working down from the highest possible wave , we include in one scheme free waves of any permissible height .
+The condition that the pressure is constant for is constant .
+( 6 ) It is convenient to use an equivalent form obtained by differentiating ( 6 ) with respect to , namely .
+( 7 ) This has to be used when .
+( 8 ) where Multiplying by the.conjugate complex and squaring , we obtain .
+( 9 ) where Differentiating ( 9 ) with respect to , we can take out a factor , and can collect the other terms into a sine series in even multiples of . .
+However , we take out also the common factor because we then have in a form which reduces directly to the proper form for the highest wave , and , in addition , we find that the numerical calculations converge more rapidly .
+After some reduction , we obtain in this way Prof. T. H. Havelock .
+where .
+3 For the other side of equation , using I to denote the imaginary part of a complex quantity , we have , ( 11 ) where To expand this in a similar to ( 10 ) , we notice that Hence we have ( 12 ) We now expand the two binomial factors after the sign of summation in series valid for the whole range of and for all positive values of .
+We can then write down the coefficient of , and so obtain , involving a series of sines of even multiples of ; as before , we take out a common factor , and obtain the result .
+( 13 ) where the 's are linear functions of the , with coefficients which are functions of .
+In practice , these can be obtained directly from ( 12 ) any required degree of approximation ; general expressions can be put in the following exact forms , , ( 14 ) where represents the hypergeometric series .
+Periodic Irrotational Waves of Finite Height .
+We can now apply the surface condition ( 7 ) by substituting the expansions 10 ) and ( 13 ) and equating coefficients of We obtain , as in Stokes ' method , an infinite series of equations of the form , from which the quantities , .
+are to be obtained in practice by successive approximation from the equations taken in order .
+Up to terms of the third order the equations are , , , .
+( 15 ) It might appear , from the quantity on the left , and from the factor in the.expressions for the 's in ( 14 ) , that there are terms in these equations which become infinitely large as increases indefinitely .
+But we have , , therefore , if we write the equations ( 15 ) as a set of equations for the coefficients , , this difficulty disappears .
+In this connection we may recall the initial assumption that the series in ( 5 ) , namely , , is absolutely convergent , otherwise the analysis has no meaning .
+The infinite set of equations , given to the third order in ( 15 ) , be treated by Stokes ' method ; that is , assuming the process to be convergent , the equations taken in succession yield approximations to , for any assigned numerical value of .
+But there is a difference between these equations and the corresponding set in Stokes ' analysis .
+In the latter , the firsc coefficient , say , is arbitrary , and the successive equations have their lowest terms of order zero , one , two , and so on , respectively ; thus and the remaining coeffioients are found as power series in .
+But in ( 15 ) , we have a term independent of the 's on the right-hand side of each equation ; thus the solution , if practicable , leads to a set of numerical values of for a definite numerical value of .
+We may notice , in passing , that for a first rough approximation ; and as does not differ much from unity for any value of , the coefficients , are of the order of magnitude of , respectively .
+4 .
+The method of approximation used in the following calculations may be described by considering first the simplest form of the equations , namely , Prof. T. H. Havelock . .
+The hypergeometric series in ( 14 ) can be summed in this case and we find The equations ( 15 ) reduce to with These are Michell 's equations for the highest wave .
+Without specifying any definite method of approximation , Michell states that sufficiently close values are given by .
+( 18 ) In order to compare results for different values of , it is desirable to adopt some consistent scheme of approximation .
+In generai , in the equations ( 15 ) , we substitute ( 19 ) For a first approximation , write down the first two equations up to terms in , and we get two equations from which to determine and .
+The first of these equations is , in fact , independent of on account of the form of ( 19 ) .
+For a second approximation , retain the value of so determined , and write down the first three equations of ( 15 ) up to the terms in , the first of the three being again independent of ; from these , we determine , and a second approximation to .
+For the third stage , using the values of , and already found , and writing down the first four equations of ( 15 ) up to terms in , we determine , and a third approximation to .
+Using ( 19 ) we obtain the corresponding values of , at any stage .
+The nth approximation to is given by an equation of the nth degree in ; but there is no difficulty in practice as to the particular root since we follow it through from the first approximation .
+The method is simple in plan , if somewhat tedious in practice ; so it is not necessary to give the details of the following calculations .
+Periodic Irrotational Waves of Finite Height .
+Taking the particular case 17 ) , we may write down one set of equations to illustrate the type .
+After the first two stages , we obtain : using these values we find for the next the equations ( 20 ) Eliminating , we get a cubic for , of which the required root is 0.0407 , the previous stages having given the values .
+Also from ( 20 ) we find .
+Collecting the results to this stage , we find .
+( 21 ) These values are rather higher than those given by Michell ( 18 ) .
+In order to determine more closely , the approximation has been carried to the fourth stage , with the result With these values , the ratio of , the height of the wave , to , the wavelength , is given by velocity at trough ) .
+( 23 ) An interesting point about the series for the highest wave is the smallness of all the coefficients , compared with the first term , namely , unity ; on the other hand , the numerical values obtained do not suggest a rapid convergence of the series after the first term .
+It appears , from the method of approximation , and from the fact that all the quantities , are positive , that successive approximations increase the values of the coefficients .
+A test for the sum of the series , compared the value of , is obtained by considering the velocity near a crest .
+Near , we have Therefore and ; and since , it follows that we should have But with the values given in ( 22 ) , this expression has the value .
+This is perhaps a severe test ; a simpler criterion is to write down the successive convergents to any one coefficient ; for example , those for the leading coefficient are , 0.0390 , , and Prof. T. H. Havelock .
+5 .
+Returning to the general equations ( 15 ) , we consider a wave short .
+of the highest and we select the case .
+We shall find that this corresponds to a value of about for Stokes ' parameter The coefficients have to be calculated from the relations ( 14 ) the hypergeometric series are , of course , convergent , and the values can be obtained to any required degree of accuracy .
+Substituting the numerical values in ( 15 ) we obtain the equations , .
+We carry out now the successive approximations described in the previous section .
+At the third stage , we find .
+( 25 ) .
+Comparing these values with those for the highest wave given in ( 21 ) , we see that the 's are much smaller ; on the other hand , there may be greater difficulty in obtaining their values accurately , because of the later stage at which the 's begin to diminish steadily in absolute value .
+We shall find this impression confirmed later when we try smaller values of To find the ratio for this wave , we have ( velocity at crest)2 ( velocity at trough)2 Taking the difference , and dividing by , we find ; and since we have .
+Stokes ' parameter is , to a first approximation , .
+; hence this wave corresponds to equal nearly .
+6 .
+We have now two methods for a wave of finite height , namely , that described above and Stokes ' method .
+The two can be shown to be in agreement in any particular case .
+From ( 8 ) , we have , on the wave surface .
+( 26 ) For any wave below the highest possible , that is provided is not zero , .
+the first factor on the of ( 26 ) can be expanded in a series valid for Periodic Irrotational Waves of Finite Hei .
+all values of ; hence , under these conditions , we have on the surface , ( 27 ) where , , .
+Now Stokes ' method gives , and , in the form of a series like ( 27 ) ; write this as From Stokes ' equations , , , are obtained as power series in these have been carried up to the tenth order by Wilton , *whose results we quote now\mdash ; in so far as they are needed here\mdash ; .
+With the units adopted here , the last expression corresponds to Further , in Stokes ' investigations the wave-length was taken as , while in the above work we have used ; the result is that in comparing the two methods by means of ( 27 ) and ( 29 ) , , correspond respectively to For the numerical calculations in the case , we use the values of , and given in ( 25 ) ; then from ( 27 ) we obtain ; ; ; ; On the other hand , if we take equal to , we get from this series in ( 29 ) ; ; ; ; ; . .
+( 31 ) J. R Wilton , ' Phil. Mag Ser. 6 , vol. 27 , p. 386 ( 1914 ) .
+Prof. T. H. Havelock .
+It is unnecessary to carry the calculation further to show the ioal agreement between the two methods for waves short of the highest. .
+It may be noticed that in the above comparison we have gone up to the coefficient of the present method ; to ootain the reement shown above , we have had to use the Stokes ' series as far as the tenth order in the parameter .
+7 .
+From the comparison between and ( 28 ) , we see that , for waves lower than the highest , we are in effect dealing with a Stokes ' series whose parameter has the value .
+If we applied Stokes ' method directly to ( 27 ) , we should obtain A2 , , , in the usual way as power series in this parameter , and the quantity would be a superfluous arbitrary parameter .
+On the other hand , the present method gives a definite value of for an value of , or theoretical ] gives a functional relation between and .
+The method definitely connects a wave of any height with the highest possible wave , and any possible wave-form is given as one of a family whose limiting curve has crests consisting of of Consider the expansion from the form ( 26 ) to the corresponding Stokes ' form ( 27 ) or ( 28 ) .
+Assuming the convergence of the series with the -coefficients , the expansion is valid over the whole range of for all positive values of , excluding zero ; it is also valid for zero , with the exception of the points integral .
+In other words , the comparison confirms the view that Stokes ' series for the elevation is valid throughout , with the exception of the actual crests of the highest possible wave .
+We can now estimate the limiting value of the Stokes ' parameter for convergence at the crests .
+To do this , we compare the series ( 27 ) for the highest wave with a Stokes ' series , for points other than the crests .
+For the highest wave , we found Hence the expansion should be a Stokes ' series with the parameter , or say .
+Making the comparison between ( 27 ) and ( 29 ) with these values , we find ; ; ; ; ; .
+( 32 ) The agreement is sufficient to justify the comparison , when we remember that the -coefficients have only been determined to the fourth stage , and further , that the Stokes ' series ( 29 ) for the -coefficients presumably converge slowly in this extreme case .
+It should be remarked that we do not gain information from this comparison about the convergence of the Stokes ' series for the separate coefficients Periodic of Finite Height .
+for values of the parameter ; the result concerns the series for the elevation .
+We find that Stokes ' series for the elevation becomes divergent at the crests when the parameter has the value .
+so far as the nuulerical calculation has been carried .
+In this connection reference may be made to Wilton , concluded that the Stokes ' series certainly for a parameter greater than , and who estimated the limiting value to be in the neighbourhood of Wilton works out in detail a numerical example with the parameter , for comparison with the hest wave .
+the present analysis , this is beyond the limiting value for ; the series should be at the crest .
+This may well be the case , notwithstanding that the coefficients , as calculated by Wilton , diminish steadily as far as the order shown ; since the series is supposed to be divergent only at the crests , one expect the divergence to become evident numerically only after calculating a large number of terms .
+The example may serve as an illustrntion of Prof. Burnside 's criticism , that it is necessary to know the value of before Stokes ' series can be used with confidence for numerical calculation .
+S. We may examine briefly the present method for waves of small height .
+It is of interest first t.o consider the exact expression We can integrate and so obtain the equation of the stream-lines in finite form , and also exact expressions for the variations of pressure any stream-line .
+To find how far ( 33 ) satisfies the condition for a free under constant pressure at a stream line , it is simpler to expand first before integrating ; we can then express and as cosine sel.ies .
+In this way we find at the wave surface , writing down the variable part only , Const. .
+( 34 ) Hence , if we take , the pressure is constant up to , and including , terms in ; and the next term is the small quantity .
+This value for is Stokes ' expression , the J. R. Wilton , cit. Periodic Waves of Finite Height .
+parameter having the value to this order .
+It is , of course , impossible to make the right-hand side of ( 34 ) zero for all values of merely by choosing a suitable metion of However , the fact that ( 33 ) satisfies approximately , to the order shown above , the conditions for a free wave of any height , explains the smallness of the coefficients even for the highest wave when is zero .
+Returning to the general equations ( 15 ) , for a numerical example of a wave of moderate height we take .
+In this case we shall only carry the approximation to the second stage , to illustrate the character of the coefficients .
+have the following numerical values : ; ; ; ; ; ; ; ; From these we obtain the comparison with a S.tokes ' series , as in the previous sections , we find The numerical values confirm the impression that while the -coefficients diminish indefinitely as the height of the wave becomes smaller , it is more difficult to obtain their values by the method of successive approximation used in dealing with the infinite set of equations for them .
+The behaviour of the -coefficients is made clearer by studying the leading terms , , on the right-hand side of equations ( 15 ) .
+Over the whole for , from zero to infinity , only varies from about to 1 ; consequently , from the first equation , is never much different from unity .
+the equations , we see that .
+form a parallel series to , , taken in order .
+It is only for the highest wave that all the terms of the latter series are positive and decrease steadily to zero from the first term ; for , the series is not quite so simple in form , although in all cases the terms ultimately to zero .
+The character of these tenns is best illustrated by numerical examples , such as are given in the Table : eriments on Effect of Vibration of Stretched .
+01 The quantities , and , in fact , all the coefficients , can be studied algebraically from the relations ( 14 ) .
+The algebraic solution of equations ( 15 ) , together with a formal study of , would be of reat interest ; meantime the numerical illustrations given in the discussion may serve to show the possibility of a general scheme which includes waves of any ible height .
+ExFe/ \eth ; O iments on the Effect of thoe of a Stretched Part of Closed Electric Circuit .
+By Admiral Sir HENRY JACKSON , G.C.B. , ( Received May 28 , 1918 .
+) In connection with some experiments involving the use of a thermomicrophone of small dimensions , I tried one of proportions , to compare its efficiency with that of the small one .
+It consisted of a loop of silver gilt , 4 feet in , stretched lightly between two glass insulators lnounted on a stiff wooden batten .
+It was joined up in a circuit with a10-volt and the primary winding of the step-up transformer of a three-valve ( low frequency ) amplifier , the secondary winding of the thild valve of the amplifier to a pair of 60-ohm Brown telephones , which were used for the effects of sound vibrations on the loop of The listencr at the telepbones was situated in a'quiet place some distance from the room in which this wire was fixed , and he could not he with his naked ears the sounds produced to test the microphonic capabilities of the warmed wire .
+The response to these sounds in the telephones was well marked , the wire evidently acting as an efficient , though weak , lnicrophone .
+Musical notes , produced by blowing organ pipes and a small siren , loud and clear ; laughing , whistling , and humming were easily differentiated , though speech was not intelligible .
+The curlent through the wire was ampore , and maintained its temperature slightly above that of the mding atmosphere .
+The voltage was then reduced in steps , and , though the intensity of the sound in the telephones also reduced , after a certain point , some sounds were still distinguishable after the battery had been mected and the cuil closed .
+The wire was now at the same temperature as that of the air .
+

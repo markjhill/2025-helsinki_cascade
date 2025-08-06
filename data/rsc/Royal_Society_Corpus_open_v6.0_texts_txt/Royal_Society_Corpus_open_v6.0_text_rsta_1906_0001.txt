@@ -1,0 +1,514 @@
+PHILOSOPHICAL TRANSACTIONS I. On the Normal Series Satisfying Linear Differential Equations .
+By E. Cunningham , B.A. , Fellow of St. Johns , Cambridge .
+Communicated by Dr. H. F. Baker , Received December 14 , 1904 , \#151 ; Read December 15 , 1904 .
+Contents .
+Section Page 1 .
+Introductory ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... .
+1 2 .
+The equations to be considered and the canonical form of a linear system of equations . .
+3 3 .
+The solution in view ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 4 4 .
+The unique determination of the determining matrix when the roots of the characteristic equation are unequal ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 5 5 .
+The completion of the solution in the same case ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 8 6 .
+The general case ; restriction on systems considered ... ... ... ... ... ... ... ... ... ... ... ... ... ..10 7 .
+The matrix x ; preliminary assumptions as to its form ... ... ... ... ... ... ... ... ... ... ... ... ... 11 8 .
+The difference equations for the coefficients ; equations of condition ... ... ... ... ... ... ... .
+11 9 .
+On certain operators Are and their application ... ... ... ... ... ... ... ... ... ... ... ... ... ... ..14 10 .
+The particular case when the roots of a certain equation are unequal ... ... ... ... ... 16 11 .
+The non-diagonal elements of x in this case ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 10 12 .
+The complete solution for p \#151 ; 1 in this case . . .
+21 13 .
+The solution for p= 1 in the general case ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 23 14 .
+Resumption of most general form ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... .25 15 .
+Application of the method to a particular equation ... ... ... ... ... ... ... ... ... ... ... ... ... 29 16 .
+On the method to be adopted when certain equations of condition are not satisfied ; subnormal forms ... ... ... ... ... ... ... ... ... ... ... ... ... .- ... ... ... ... ... .
+' .
+30 17 .
+Complete solution of a certain equation of the third order ... ... ... ... ... ... ... 34 1 .
+The present paper is suggested by that of Dr. H. F. Baker in the 'Proceedings of the London Mathematical Society , ' vol. xxxv .
+, p. 333 , " On the Integration of Linear Differential Equations .
+" In that paper a linear ordinary differential equation of order n is considered as derived from a system of n linear simultaneous differential equations = uixxx + ... + ui(i = 1 or , in abbreviated notation , dx/ dt \#151 ; ux , vol. ccv.\#151 ; a 387 .
+B 21.6.05 where uis a square matrix of n rows and columns whose elements are functions of t , and x denotes a column of n independent variables .
+A symbolic solution of this system is there given and denoted by the symbol Vl(u ) .
+This is a matrix of nrows and columns formed from as follows :\#151 ; Q ( \lt ; /\gt ; ) is the matrix of which each element is the integral from 0 to t of the corresponding element of \lt ; /\gt ; , \lt ; /\gt ; being any matrix of n rows and columns ; then il(u ) = 1 + Qu + QuQ , u+QuQuQu .
+where the operator Q affects the whole of the part following it in any term .
+Each column of this matrix n(u ) gives a set of solutions of the equations dx/ dt = ux , and since Q ( u ) = 1 for t = t0i these n sets are linearly independent , so that n(w ) may be considered as a complete solution of the system .
+Part II .
+of the same paper discusses the form of the matrix in the neighbourhood of a point at which the elements of the matrix u have poles of the first order , or in the neighbourhood of which the integrals of the original equation are all " regular .
+" It is there shown that if t = 0 be such a point , a matrix ft , c2i(t/ t0y'~\ c " 0a , C . . . .
+03 can be found , in which all elements to the left of the diagonal are zero , in which Cji = 0 unless 0*\#151 ; Ojis zero or a positive integer , such that \#163 ; l(u ) is of the form Gn((jj)G0~\ where G is a matrix whose elements are converging power series in t , and G0 is the value of G at t = t0 .
+The form of \lt ; /\gt ; is such as to put in evidence what are known as Hamburger 's subgroups of integrals associated with the fundamental equation of the singularity ; the method is , in fact , a means of analysing the matrix n( ?
+^ ) into a product of matrices , of which one is expressible in finite terms and shows the nature of the point as a singularity of the solution .
+The object of the following investigation is to see how far , under what conditions , and in what form , such an analysis can be effected for equations having poles of a higher order than unity in the elements of the matrix u. It is known that if in the neighbourhood of infinity the equation is of the form SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+pr being a polynomial of degree pr , and Pr(l a series of positive integral powers of l/ x , the equation has a set of formal solutions of the form 0 i ?
+rx9t % gvxv , r \#151 ; where is a polynomial of degree p+1 , provided a certain determinantal equation has its roots all different .
+The case in which these roots are not all different is discussed by Fabry ( ' These , Faculty des Sciences , Paris/ 1885 ) , where he introduces the so-called Subnormal Integrals , viz. , integrals of the above form in a variable 1/ A , k being a positive integer .
+The investigation carried out in the following bears the same relation to the discussion of these normal and subnormal integrals that Part II .
+of the paper quoted at the outset bears to the ordinary analysis of the integrals of an equation in the neighbourhood of a point near which all the integrals are regular .
+2 .
+Throughout the discussion the neighbourhood of the point 0 will be under consideration , the coefficient prbeing supposed to have a pole of order rsr at this point .
+Let p+ 1 be the least integer not less than the greatest of the quantities wr(r .
+The equation may then be considered as belonging to the more general type z(n ) + nt ?
+^.z(n-r ) = 0 , r=l \gt ; where Pr(\#163 ; ) is holomorphic near t \#151 ; 0 .
+This equation may be reduced to a linear system of simultaneous equations as follows ( vide ' Proc. Lond. Math. Soc./ vol. xxxv .
+, p. 344):\#151 ; Put xx \#151 ; z , x2 = tp+1z{1 ) , ... xr+l = tr(p+1)z(r\ 1 , ... , 1 .
+The n equations then satisfy the system of n equations dx dt 0 , 1 tP+v 0 , .
+0 0 , p+1 t ' 1 tp+v o , 0 0 , 0 , 2 ^+1 2 ~T~ ' _L_ o 0 Q\#187 ; -l Qn , ( n_T\ P+1 j.p+1 \gt ; \#163 ; P+ 1 ' V1 L ) i X , where Qi ... Qn are series of positive integral powers of t. This system belongs to the more general form dx dt ux / * I E\#177 ; 1 4\tp+l + ... + .\#151 ; +a0 + ^+ ... ... x , where a ; , +1..ft ... are square matrices of constants .
+The most general equation of this form will be considered .
+If ix be any matrix of constants and y = the quantities satisfy the system dx dt ux \#151 ; ( uf J ) y , or ( W Let [ x be now chosen so that fya ; , +1p , -1 ) is of canonical form as follows :\#151 ; ( i. ) It has zero everywhere save in the diagonal and the n\#151 ; 1 places immediately to the right of it ; ( ii .
+) The diagonal consists of the roots of the equation = 0 , equal roots occupying consecutive places ; ( iii .
+) The elements to the right of the diagonal consist of ( fj \#151 ; 1 ) unities , then a zero , ( e2\#151 ; 1 ) unities , a zero , and so on ( ' Proc. Lond. Math. Soc. , ' vol. xxxv .
+, p. 352 ) .
+Form now the matrices fya^p , " 1 ) ... ( pftp , -1 ) ; the equation is then replaced by an equation of exactly similar form , the matrices ap ... being still any matrices whatever , but ap+1 being of the canonical form .
+3 .
+The equation being denoted by dy/ dt \#151 ; , if rj be any solution of the equation ( A ) dy/ dt = Uy\#151 ; y^ y being an arbitrary matrix , we have |{^(x ) } = vxn(x ) + ( uv~vx)nx = uiv^(x ) } ' so that y\#163 ; l ( y ) is a matrix satisfying the equation in question .
+In what follows we are concerned with the form of a solution more than , the actual convergence and existence of the same .
+It is therefore important to notice that if y be a diverging power series formally satisfying equation ( A ) , y\#163 ; l ( y ) may be still considered as a formal solution of the original equation , the only condition necessary to secure its actual existence being the convergence of y. If y be convergent , the solution may be particularized by adding the factor \gt ; ;0_1 , i.e. , yVL ( y)i7o_1 is the solution reducing to unity at t0 .
+The main investigation to be carried out is that of a simple form for the matrix y , such that the subsidiary equation ( A ) may have a formal solution in the form of a SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+matrix whose elements are series of positive integral powers of , reducing for = 0 to the matrix unity .
+4 .
+Owing to the much greater simplicity of the case in which the equation \ap+l\#151 ; p \ = 0 has all its roots different , it will be treated first separately .
+The result obtained is as follows :\#151 ; A matrix y can be determined uniquely of the form Xp + 1 I Xp I i Xl tp+1 tp t ' where y^+i ... yi are matrices of constants in which all elements save those in the diagonal are zero , such that there is a formal solution ( x)\gt ; where the matrix rj is made up of series of positive integral powers of \#151 ; generally diverging\#151 ; and reducing for t = 0 to the matrix unity .
+Consider the equation ( B ) where 1 , ... , p+1 .
+The roots of \otp+1\#151 ; p\ = 0 being unequal , the matrix will have zero elements except in the diagonal ; the diagonal elements will be p2 , the roots of the equation .
+If the equation ( B ) is satisfied by the matrix v = ( x\gt ; ... )\gt ; where x , y , z ... denote columns of elements of the form x = xQ-\-xxt + x2 ?
+... , V \#151 ; 2/ o+2/ i t+ ... , the coefficients xr , \#171 ; /r ... being columns of constants xr ' , xr\ r2 , \amp ; c. , these constants satisfy the following equations :\#151 ; X. ( \#174 ; q\gt ; +1 @ p+i ) *^o b , ( ap+1-61p+l)xl + ( ap-0p1)xo = 0 , ( ap+1-01p+1)xp+ ... +(ai-#i1).T0 = 0 , ( a/ \gt ; +i \#151 ; ^V+i)^p+i+ ... + ( a1 \#151 ; 0\~~ l)*x1H-a0./ r0 = 0 , ( ap+X- O'p+i ) Xp+r+ ... + ( \#171 ; !
+" 0X - V ) X + a0\#171 ; r-l + 2 + . . .
++ A-1^0 = 0 , A precisely similar set of equations gives the relations connecting ; the constants y and 62p+1 ... 02 .
+The equations X just written determine uniquely set of values for and the coefficients x( ) ... .
+The first of these equations gives ( pi0WK = = 0 .
+/ 1\ Since x0 is to be equal to j : we must have = and these equations are w then satisfied .
+, .
+0\ Similarly the first of the y equations with ?
+/0 \0j gives 62p+x = p2 ; and so for the other columns .
+The second of the equations X written more fully gives *pl\#151 ; 0p = 0 , ( p=0 , r 2 , These then determine xx save for its first element , in place of which a unique value is given for 0p .
+... .
+The third equation X in full gives afx2 + ... + a pnlXxn + otnp_1 \#151 ; 6lp-x \#151 ; 0 , ( pr- pl)x2r+a.plrx11 + a.p2rx12 ... + ( ctprr\#151 ; 0p)x1r+ ... +a.pHrx1n + a}rp-l =0 , r ( 2 , n ) .
+Of these , the first gives 0lP-\ , while the following determine x2 save for its first element , but only in terms of the yet undetermined Of the next group , the first equation is ap21x2 ... + apnlx2n + ( a.np-x \#151 ; 01p-1)xl1 + a2lp_lx12+ ... +otnlp-1xln + a11p_2\#151 ; d1p_2 = 0 .
+This equation apparently involves the unknown explicitly , and also , in x2 ... x2n , implicitly .
+But the whole coefficient of xx is n / 1A \ n t*pkl( -\#166 ; %\#163 ; -)-t*pkW 2 V pk-J 2 = SafW-'iafW = 0 , so that 0lp-2 is given independently of xf SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+The remaining equations of this group give except for in terms of and x2\ Proceeding in this way as far as the ( p+l)th equation of X , are all found except for their first elements , while the first elements of these equations give 0lp+i-:Oiy 0lp+rbeing not a priori independent of hitherto unknown .
+It has been shown above , however , that the determination of 0XP-X does not require a knowledge of xx .
+In general , in fact , 0xp~r is given independently of xx ... xx .
+To prove this , the way in which xx enters into will be first considered .
+This may be stated as follows :\#151 ; The coefficient of xx in xkr+x is equal to that part of xk which is independent of , y % 1 / v\#187 ; l iLj . .
+.it/ f \#151 ; I* For r = 1 this is at once seen by writing down the equations ( p2-pi)x1k + aplk = 0 , ( pk-pi)x2'c+ nplkXxl + ... + apnkxxn + a}kp_x = 0 .
+In general the equation for xkr+x is ( Pk P^)Xr+1 \#151 ; ^ p\#151 ; r+s^s " 1 " . . .
++ ( ot p\#151 ; r+s .-f- | + Assuming the statement above to be true for 1 , 2 ... r , and that 0P , ... , 0p-r+x are independent of xx ... xxr-x\gt ; the above equation shows that the coefficient of xx in \#151 ; ( pk\#151 ; px)xkr+xis the part independent of aq1 , ... , xrl in i.e.y in r\#151 ; 1 \gt ; kp-r+x+ t { ( txkp-r+s+xxx+ ... + CLnk 5=1 i , Pk , so that under the above assumptions the statement holds for 1 , 2 ... \gt ; r+1 .
+Also , under the same assumptions , from the equation giving 0lp-r , viz. , acpxx ?
++ ... + apxxrn + ( \lt ; x.up_1 \#151 ; 01p_x)x1r-.x +a21ja_1x2r_1+ ... + a"lp_ ... -\-(a}lp_r+x \#151 ; 0xp_r+i)xx+ ... + rinlp_r+iXx+{cLnp-.r\#151 ; 6lp-r ) = 0 , we deduce that the coefficient of xx in 0lp-r is the part independent of xx in up2lx2r-.x + ... + OtpnlXnr-X + a"1p_1.x2r_2+ ... + otnlp_xx ... + cd'p-r+zxf+ ... + anlp_r+2xxn + Ctllp_r+1 - 01p-r+1 .
+This expression differs only from the left-hand member of the equation for 01p-r+i by multiples of xx ... xlr-Xyand therefore , on the assumption that this equation gives 0lP-i independently of xx ... \gt ; the part independent of these quantities in the above expression must , when 0lp-r+x is determined , vanish , so that 0lp-r is independent of Now the way in which the successive equations follow one another shows that the coefficient of x ' in 9k is equal to that of xrl in d,.+r_ Thus 91p-r+ i being independent of aq1 , 6x is independent of xal , and in general , 01p-r+k(Jc = l ... r\#151 ; 1 ) being all independent of 9lp-r does not contain \#163 ; C11 ... a ?
+1r-i .
+Thus , if the assumptions made on p. 7 are satisfied for any particular value of r less than they are satisfied for a value of r one greater than that value .
+For r \#151 ; 1 the statements have been justified , and it follows therefore that are all determined uniquely without the knowledge of aq1 , x2 ... from the first ( y\gt ; +1 ) .
+of the equations X , and by the same equations xx ... xp are found , except for their first elements , the expressions obtained containing those first elements .
+5 .
+Consider now the ( p+2)thequation X in regard to its first element .
+As before , this will be independent of xp ... X2 ; but on account of the extra term arising from die / dt , which now enters for the first time , the coefficient of xx is not zero .
+It is , in fact , \#151 ; 1 .
+Thus , the quantities 011 ... 61p+1 being now known , this equation gives xx .
+Similarly , the next group 's first member will contain the term \#151 ; 2xa but will not contain x^ ... xlp+li and will therefore give x2 after xx is found .
+Thus all the elements xk are determined successively , and returning to the expressions for \#163 ; c/ ( r\gt ; l ) in terms of these and substituting the values so found , all these are given also .
+The equations for the columns ?
+/ , 2 , \amp ; c. , being treated in the same way , give the corresponding ffs uniquely , and also the coefficients in the series of which these columns are composed .
+Thus it is shown that when the " characteristic equation " |ap+1\#151 ; 0 has its roots all different , the equation die / dt = uy , where u = + ... + -I+a0 + + ... , ap+lbeing in its canonical form , possesses a unique formal solution in the form where the elements of Xp-- X !
+110^ ^ie ffiagonal are zero , and the elements of y are power series in t , reducing for t = 0 to the matrix unity .
+The matrix O+ ... + yj can at once be written in the form \lt ; w/ \amp ; \gt ; 0 , where a\gt ; is a matrix whose non-diagonal elements are zero , and whose kth diagonal element is 6Pk g p.lT 1 ft/ and co0 is the value of co at t = SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+If the series r ) happen to be convergent , the solution which reduces to unity at t \#151 ; t0 can at once be written in the form tjohd Applied to the system formed from a particular linear ordinary equation we have at once the result referred to on p. 3 ( v. SchlesInger , ' Lin .
+Diff. -Gleichungen , ' vol. I. , pp. 341 ff.# ) .
+As a simple example of the application of the method we may take the well-known equation d2w _ a + + W i* w ' Putting Wi = w and w-\gt ; \#151 ; z2 dw/ dt dwifdt = dwojdt = + | w-2 , which in matrix notation is / 0 0^ -mc The equation ~P 1 a \#151 ; p 0 gives p = \#177 ; sfa , and the matrix / x needed to transform the first matrix to canonical form is ( ^ j ) , so that the equation is transformed to 'l + du/ dt UJoc 0 22\ 0 ~ p 1 - \amp ; ' 2 Ja 2 Ja .
+P i- p , 2 Joe 2 Ja , + y / i -i 2^11 -1 = Vu , say .
+The subsidiary equations are drt/ dt = v , - , [ t( f_ 'Jx ) i( ' +0fX ' _'1X ) ] .
+where X which give as the general relations connecting the coefficients of the first column of ?
+/ , putting = 1 4- |A , ( 1 \#151 ; 1 \#151 ; i'L \#151 ; nxn2 + qxn + \#151 ; L- \#151 ; x2n_\ ) = 0 | ' \ ... ... ... ... .a-)- - 2 Ja\amp ; n+i + pXn1 + ( q-p- n ) Xn + ( Un-1 - \#171 ; Vl ) = o j - 2 Ja , x\+ 1 + ( p + - = 0 , - 2 Ja , xn2 + ( p + n - 1 ) - Q = 0 ... ... ... ... ... ... .(ii .
+) , which with the first equation gives 2 Ja.n ( xnx-xn2 ) = ( \#174 ; Vi -x2n_i){y 1 } .
+Thus a recurrence formula is established for the quantities - xn2 in terms of which xln+\ and x\+i can be at once expressed .
+Hence and therefore * With reference to Schlesinger 's demonstration of this result , see a note by the author in the 'Messenger of Mathematics , ' January , 1905 .
+VOL. CCV.\#151 ; A. C The series for x will terminate if for any value of n y + ( q-n)(p + n-l ) = 0 , - 7 + ( \#163 ; X + ft ) ( \#163 ; A + \#187 ; - 1 ) = 0 , ( A. + 2ft - l)2 - ( 4y + 1 ) = 0 i.e. , if i.e. , if for some value of n. The series for y will similarly terminate if ( - A. + 2m - l)2 - ( 4y + 1 ) vanish for some value of ft. Both these are certainly satisfied if X = q and 4y + 1 = jp2 , where p , q are any integers of which one is odd and the other even .
+6 .
+We pass now to the case where the characteristic equation = 0 has its roots not all unequal , and the analysis becomes a good deal more intricate with the less simple canonical form of the matrix ap+1 as stated on p. 4 .
+It will be remembered that the numbers e1 } e2 ... there used are the powers of in the elementary divisors of \ap+1\#151 ; p\ with respect to the root px of this equation of multiplicity l. In the case of the system obtained on p. 4 from a single equation of order n , we may prove that ex = l , e2 = es = ... = 0 .
+For the matrix ( ap+1\#151 ; p ) is of the form The minor of the quantity " k"in the determinant of this matrix is simply ( \#151 ; p)n~\ Thus the elementary divisors are certainly merely unity with respect to any non-zero roots .
+If there be a multiple zero root , however , since the minor of " a " is unity , the elementary divisors with respect to this root are all simply Thus for such a system we have for each multiple root = e3 ... = 0 ; so that in the canonical form of ap+1 , if Pi \#151 ; pi+i\gt ; aj\gt ; +i \#151 ; 1\gt ; and if pi pi+u \lt ; 4+Vl = o. Such systems being by far the most important in practice and also considerably simpler to work out , the full discussion will be restricted to systems of this type .
+It may be pointed out that the most general system can be solved by means of the solution of systems of this more restricted type , for from the general system SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+( Jl/ 1C 'bC .
+... .
+-j- = x , where uis a power series in t , a linear equation of order n and rank Clt tf near t \#151 ; 0 can be obtained for each row of the matrix x , and this equation can be solved by the solution of a linear system of the restricted type in question .
+Of the matrix y to be used here , the following properties will be presupposed :\#151 ; ( i. ) It is to be of the form + + ... + \#151 ; \ where each of the matrices tp v Xi ... XP+i has all elements to the left of the diagonal zero .
+( ii .
+) The diagonal elements of these matrices are to be numerical constants denoted as before by 6rs ( r = 1 , , p +1 ; = 1 , ... , ( iii .
+) All the other non-zero elements of y2X3.-.Xp+i are to he constants , while the other elements of yx may contain , but only to positive integral powers ( cf.the matrix y in Dr. Baker 's paper , loc. cit. ) .
+8 .
+As before , the matrix rj , which is a formal solution of the subsidiary equation die ]fdt = will be supposed to be formed of the columns x \#151 ; X0 + Xit+ ... , y = 2/ o+2/ i*+ ... \gt ; and the equations for the coefficients xryr ... are the same as the equations X ( p. 5 ) .
+But the detailed form of these equations is quite different .
+The first of them ( ap+1\#151 ; 6lp+i ) x0 = 0 is still satisfied by / I e\ \i Supposing now p3 to be a root of multiplicity the second equation X is in full Xi+apn \#151 ; 0pl = 0 , Xi+a\#153 ; = 0 , Op1*1 = 0 , ( p\#171 ; , +i\#151 ; pi ) #iei+1+aqn+2+Op1 ' *1+1 = 0 , ( p\#171 ; 1+e-p = 0 , where Pe , + r\#151 ; ... \#151 ; ^ Pi ' These equations manifestly determine x except for its first and second elements , the second being known as soon as 0P is .
+We are also at once faced with a condition necessary for the possibility of the solution under the assumptions made as to the form of y , viz. :\#151 ; OLp*1 \#151 ; 0 .
+This condition arises from the e/ 11 equation of the set , and as , in the ensuing discussion , the exh equation of each set is most important we shall here introduce a notation for it , viz. , Xr will stand for the ex equation of the ( r+l)th set ; of the set ( \#174 ; q\gt ; +i 0 p+i ) xr-\- ... o. Tins equation will not contain any element of xr .
+A similar notation will be adopted for the equations Y , Z ... for the coefficients in the other columns of rj .
+If the second element of the first row of be the equations Y are ( ap+1 02p+i ) yo^21*^0== fi , ( a^+i\#151 ; @2p+i)2/ 1+ { ap~ @p ) yo\#151 ; Of these the first is satisfied by W p+\ P2 = Pi , provided we take c21 = 1 = corresponding element in Considering each of the columns in succession we have thus , with y0 = T Xp+l Gf'p+1* The second of the equations Y gives yx2+cLp2l-xl1 = 0 , yi + \lt ; v*2 - V " xi = '\gt ; ap2e'\#151 ; x{ ' = 0 , ( ptl+i\#151 ; pi ) 2/ iei+1 + otp2ei+l\#151 ; xxl+1 = 0 , which , when xx is known , determine yx save for its first element , and its third until Op is known .
+The exceptional equation Y1 } ap2e , \#151 ; xxei = 0 , gives us again a necessary condition for the possibility of the solution in view , *p , e ' + a/ '6 , -1 = 0 .
+SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+Similarly the equation Zx gives 0 = = OLp'^ + Ctp2'*1""1 \#151 ; a ?
+!*1-1 = OLp'e* + OLp'ei_1 + OLp ' e'~2 , and so on for the equations for each of the first ex columns of rj .
+For the ( e^ l)fch column , however , the non-diagonal term of \#151 ; 0 and the equations for this column do not contain the elements of the preceding column .
+In fact , the e2 columns beginning with the ( cj^ + l)*11 form a group related to one another in just the same manner as the first ex are .
+We obtain from them , as from the latter , the conditions ap'1+i'ei+e* = 0 , a ?
+/1+1'ei+"2_1 + ( *-pl+2 , fl+ea 0 , a ; i+1-ei+1+ ... + a ; i+f'\gt ; tl+{ !
+= 0 , and so for the columns associated with each group of equal roots .
+These and other conditions which arise in the course of the investigation will be called " equations of condition .
+" Supposing those already found to be satisfied , we may return to the solution of the equations X , and of these the following statements are to be I. The first ex\#151 ; 1 equations of the ( r+l)th set determine 1 in terms of Xi ... xlr-X and 01p+1 ... 01p-r+1 ; the equations from the ( ci+l)11 ' onwards give in terms of the same quantities .
+II .
+When the values thus found are substituted in the equation Xr+1 , the resulting left-hand member is independent of the undetermined quantities for all values of r up to ( e2\#151 ; 2 ) , but for r = ex\#151 ; 1 it is independent of all save ; in fact , the equation Xei is an algebraic equation of degree ex for 0p and contains no other undetermined quantity .
+III .
+Supposing one root of this to be chosen for the value of 0f and the equations Y to be treated in the same way , Yei_ !
+will be an equation of degree ( ci \#151 ; 1 ) in 0P2 , whose roots are exactly the remaining roots of Xei .
+IV .
+Similarly Zej_2 furnishes an equation of degree ex \#151 ; 2 for 0p'\ whose roots are the remaining roots of YCi_l5 and therefore of Xei , and so on .
+Thus 0p.,.0p ' are the roots of the equation X"i .
+Y. The values of 0P-X ... subsequently obtained in association with each of these roots will be the same in whatever order they are taken .
+Of these I. does not require proof .
+With regard to II .
+, the proof that the equations do not contain the undetermined afs follows exactly the same lines as the corresponding proof when the characteristic equation has its roots all different ( vide pp. 7-8 ) .
+The proof that they do not contain 0p ... until r = ej \#151 ; I requires considerations of a different kind involving the equations X , Y , Z ... simultaneously .
+9 .
+Consider the system of equations X1 derived from X by changing into Op and x into cc1 , viz. :\#151 ; X1 .
+( aj\#187 ; +1 0xp+fjxox = 0 , ( ap+i\#151 ; 0lp+1)x1l-\-(ap\#151 ; = 0 , and let these be treated in exactly the same way as the equations X , the undetermined elements of xx being supposed the same as those of From the two sets of equations X , X1 let a new set be formed by subtracting corresponding members of X and X1 and dividing each remainder by and let this new system be denoted by 0 .
+A , X 0x-0p2 The expressions for x1 obtained from X1 in terms of will be identical with those obtained from X in terms of the same with 0PX changed into .
+0C ' " r)C^ Let A pXdenote the expression \#151 ; '-^-2 .
+Up Up Then APX is the system of equations ?
+0 = 0 , ( aP+ i Oxp+fj ApXx x0 = 0 , ( otp+1-0Xp+1)ApX2 + ( ap-0p2)ApX1-x1 = 0 , ... ... ... ... ... ... ... ... ... ... ... .
+( ap+i-0Xp+1)ApXr+l + ( oLp-0p2)ApXr+ . .
+= 0 , Further Ap(x1 ) = |J j = y0 , and = 02p+1 .
+Thus these equations are identical in form with the equations Y , except that 02v-k is replaced by 0lp-k , \amp ; \gt ; 0 .
+Thus if from Y the s be calculated as in I. , p. 13 , and from A pX.the quantities Apx be similarly determined , the only difference between A.Tr+1 and yr will be in the substitution of for if ... and 0xp-k for 02p-ky \amp ; \gt ; 0 , and ( 0/ + 1 ) for Of .
+Thus if we substitute the values of Apx thus found in Ai , Xr+1 the result will differ from Yr only by the same substitutions .
+In a similar way , denoting by ApY the difference equations Y-Y1 Op2-o ; ' A^Y will differ from Zr_x only by the substitution of if ... for 02p-x for 03p_1 ... , and Of + 1 for Of , and so for the remainder of the first ex columns .
+SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+15 In exactly the same way if X2 denote the system derived from X by the change of 6lp_x into 62p-i , and the equations ViX X-X2 0\-r~ be formed , the quantities Ap-xxr+2 differ from yr only by the substitution of 6X for 6P\ dlp-2 for 62p-2 ... and 0xx + 2 for 62 .
+The same operator applied to the equations Y connects the columns y and 2 , and so on .
+Similarly , operators AP-2 ... A2 may be defined .
+X\#151 ; Lastly , an operator Ax may be defined so that the equation AxX is ^ ?
+where Ui \#151 ; ux X(i , ) denotes the equations X with 0X2\#151 ; psubstituted for 0X .
+Then the equation Yr will , when yx , ... are replaced by xXy ... and 0P , ... , 022 by 0/ , ... , , become the equation A^X^,. .
+Consider now the equation Zx ; it is independent of zXy ... y and therefore reduces to a simple numerical constant which must be zero ( p. 13 ) .
+But Y is a polynomial in 02.It can therefore be only of the first degree , since A^Ys is independent of 0P ; is , in fact , the same as Zx , viz. , zero , so that Y2 does not contain 62 .
+It must then , like Zu be only a constant , and must therefore vanish identically , so that Y2 = 0 gives a further " equation of condition .
+" Hence again X3 cannot contain 0pl , and the operator A^- !
+connecting it with Yx shows that it cannot contain 0XP-X .
+Thus X3 again must be a vanishing constant , giving another " equation of condition .
+" Similarly , starting with the corresponding equation of the fourth column , we find AJ5X4 = 0 , so that X4 must be independent of 0P .
+Also Ai , _1X4 will vanish identically , so that X4 is independent of 6XP-X , and similarly it is independent of 0X P~ 2Thus if ex \gt ; 4 , X4 reduces to a mere constant which , as before , must vanish .
+The process may clearly be carried on as far as the e4th column , so that the equations Xj.-.X^-i all give equations of condition , as do also Yi ... Ytj_2 , Zx ... Ze -3 , etc. Starting now from the second equation of the e^11 column , = '\gt ; where \#163 ; denotes the exthcolumn of y , it follows that the third equation from ( " 4 \#151 ; l)"1 column must be a quadratic in 0P-Xl~xy independent of \#163 ; xx , { = say } , and such that a ?
+i\#151 ; W7 , \#151 ; ap are f uf ) el 1-- el WP W P Thus if Op 1 is one root of = 0 , 0p ' is the other .
+Similarly , the fourth equation from the preceding column must give a cubic for 0pe~2 , = 0 ) , such that Thus 0pl~2 , 0 ; ~\ 0pl are the roots of \lt ; j\gt ; 3 = 0 .
+Eventually the first column gives an equation of degree for Op ( viz. , XC| ) , of which the roots in any order are a possible set of values for Calling this equation ( j\gt ; ( 0 ) = 0 , and denoting its roots in some assigned order by crl5 o-2 , ... o-ej , let us consider the values determined for 0xp-x ... by taking = \lt ; rx,. .
+and = \lt ; xei .
+10 .
+Again , as prior in order of simplicity , let the case in which the roots of ) are all different be taken first .
+It has been shown above that the equation Yr , when aq1 ... are substituted for yx ... and 0p , 0Xp-2-* .
+for 0*\gt ; #2 ?
+;_2 ... , becomes identical with Ai , _1Xr+2 .
+Now , Y"i_ !
+is merely a polynomial in 0independent of yx ... and and vanishing for 02 = cr2 , cr3 ... crei .
+Let Y"-\gt ; = Thus X6(+1 is linear in 0xp-\ the coefficient of the same being the part independent of 0XP-X contains only 0P , which is now a determinate quantity .
+If the roots of \lt ; f\gt ; ei(^p ) are unequal , \lt ; f)e-x(0pX)=^O and 0XP-X is given uniquely ; and similarly Yej = 0 is a linear equation for 02p-x in terms of 02 and 0P , Ze]-X a linear equation in 03p-x , and so on .
+It is important now to consider whether the order in which the roots crx ... crei are taken is of significance in the solution ; that is , whether the value of 0kp~x associated with a particular root ak is the same whichever column of the dependent variables this root is associated with , and whether a change in the order necessarily implies a distinct solution , because , if so , the solution would appear to be by no means unique .
+The equation Xei+1 giving 0XP-X is , we have seen , of the form \lt ; f\gt ; 1((rx)01p-x + \]j((T1 ) = 0 , where Thus a y - , \#151 ; U p-X-t - .
+crx\#151 ; cr2 crx \#151 ; a2 Now \lt ; j)x(crj ) is save for a constant factor ( o-i-cr2 ) { ( rx-(Ts). .
+, ( ax-crei ) , so that ApXei+1 is { ( o-i-er3 ) ( q- !
+-cr4). .
+.(crx\#151 ; erC ) ) + ( a2-q-3 ) ... ( cr2\#151 ; crfi ) } 0XP-X + xt\amp ; l - 0 .
+o"i cr2 But the equation Yei , which is independent of 02p-2 , ... becomes , when 0P(= crx ) is SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+substituted for 0pt the equation so that when is substituted for 6P2 in Y it becomes symmetrical in Qxv-X and 02P-\- Yfl must therefore be of the form where and Hence A(\lt ; r1 } cr2 ) 6\-i + B(o- !
+, cr2 ) ( \lt ; ru = 0 , A ( o'j , arx ) = B(o-i , o-j ) A(o- !
+, \lt ; r3 ) + B(o-1 , cr2 ) = ( o'1-o\gt ; 3 ) ... +(cra\#151 ; \lt ; r8 ) ... .
+A(cr1 , CTj ) = ( o-i-o-g ) ( o- !
+-0-4 ) ... = B(cTi , CTj ) .
+Now before the values of 0pi 6 2 are substituted in Yej the coefficient of must be a function of 0P only .
+Therefore B must he a function of cr2 independent of Hence B = ( cr2 \#151 ; \lt ; r3 ) ... ( cr2\#151 ; crei ) and A = ( o ' !
+\#151 ; o-g ) ... ^ !
+\#151 ; CTei ) .
+The equation for 62p-x is therefore { cr2-o-s ) ... ( ( r2-orfl)62p-l + ( \lt ; Tl-(r3 ) ... 61p-l + X^^-\#151 ; = 0 .
+o-i \#151 ; o-2 By virtue of the equation giving 6xp-i , therefore , we have ( o-2-O-g ) ... ( or2-q-ti ) ^- !
++ -^-^ = 0 0*2 O- !
+as the equation for 62p-x .
+But this is identically the equation that would have been obtained for O1^ if o " !
+, cr2 had been interchanged .
+Thus the value of associated with the root is unaltered by this interchange .
+We have further to see that the same permutation does not alter the for the subsequent columns .
+In just the same way as above the equation for 6SP~X is shown to be 'H'j ) _ ^(0-3 ) ( o-2\#151 ; O- , ) ( o"2 CT^ ) ... 02p\#151 ; X + ( o"3 ( T4 ) ... -f Oa O ' !
+3 1 which gives ( 0*3 0*4 ) . . .
+02p\#151 ; X " E ^((T3 ) ( o-3-O-1 ) ( o-g\#151 ; 0-2 ) 0*2 O'g = 0 independently of the order of ox and o2 .
+The same holds for 0kp-x , k \lt ; ex , and a similar proof for the interchange of any other pair of the roots cr .
+Thus supposing the roots of ( f\gt ; ( 9j ) = 0 to be all different , there is associated with each a unique determinate value of 6P~X .
+VOL. CCV , \#151 ; A. D These quantities then being determined , consider now the equation Xei+2 , YCi+1 ... and first it must be pointed out that the relations established between the equations X , Y ... through the operators A ( pp. 14-15 ) , where the quantities 0P , were considered as independent , are still valid when \amp ; c. , are determined as functions of 0P .
+The operator Ap in the first place becomes replaced in the equation X\#171 ; i+2 after that giving 0lp-xby Ap + Ap_t .
+p~ .
+But A vanishes owing to the choice of Up Up 0XP-X , so that the value of 0XP-X being substituted in X\#163 ; i+2 the operator Ap may be still applied to establish a relation with Yei+1 .
+We have further Ap-2XCi+2 = while Ap_3X.)+2 ... vanish identically because of the vanishing of Y\#163 ; )_2 , Yei_j ... .
+Thus the equation X\#163 ; |+2 is of the form \lt ; fr'l-i(0p1)-G1p-a+'H01p-i\gt ; Op ) '\gt ; in which 0Pand 0lP-x are to have tlieir determined values , so that the equation may be written \lt ; \#163 ; e1-i(o'i)01jO-2+x(o'i ) = 0 .
+Tiie operation Ap having been shown to be applicable to the equation in this form , reasoning exactly as above shows that the equation for reduces to ^-1(03 )02P-2+x((r2 ) = 0 , so that the values of 0p-2 associated with the roots crx , cr2 are independent of the order in which these roots are taken , and likewise the values of 0*p-2 ... will be unaltered by a permutation of the same .
+The same may be shown in the same way of a permutation of any other two consecutive roots , viz. , that such permutation gives rise to a corresponding permutation of the Identical reasoning leads to an identical conclusion with regard to 0P^3 ... 02 .
+Eventually we come to equations giving 0X .
+When have all been found , the equation X^+p- !
+is of the form ^\gt ; 6i_i(\lt ; t1)^11 + x(o'i ) = 0 , where , as before , the coefficient of 0X is not zero , so that 0X is determined like the rest ; while 6X ... 0XX are found respectively from Yei+p_2 ... .
+All the O 's being now determined , if we pass to the equation X , ,i+p and follow the same argument that was required to prove the preceding equations independent of xx ... , the coefficient of xx is found to be the left-hand member of Xei+p_ !
+with 1 ) substituted for 0XX , i.e. , it is simply ( f\gt ; ei_x(cr1 ) , which is not zero .
+Thus X(i+P determines the first of the undetermined elements xx ... .
+Similarly in X\#163 ; i+P+1 the coefficient of x2 is 2\lt ; ^ _1(cr1 ) , so that by this x2 is given , and so on for the succeeding equations in turn .
+SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+In order to proceed to the determination of the second column it may be noticed at once that the coefficient of yrlin any equation is exactly equal to that of in the corresponding equation from the first column with and c r2interchanged , which includes the interchange of 01p-k and 02p-k .
+In the equation Y\#163 ; i+P_l5 therefore , the coefficient of yd is identically zero , while the unknown are now all determined .
+The closer consideration of this equation is deferred for a moment .
+The coefficient of yxin Yei+P = coefficient of in X6i+P with ax and cr2 interchanged = ( \lt ; x2 crx)(cr2 cr3). .
+.(cr2 crCi ) 0 .
+Similarly the coefficient of y2 in Yei+p+1 , and in general of in Yei+p+jt_x , is not zero , while Yei+p+*_x does not contain any element for which m\gt ; \amp ; .
+For the third column the equation Zti+p_3 determines and the two equations following , Zei+p_2 , Z^+p-j , are still independent of z2 ... , while the equation Z(l+p+k-i contains zx ... zk)the coefficient of zbeing \amp ; ( cr3\#151 ; crx)(o-3\#151 ; o-2)(cr3\#151 ; In the same way , if the elements of the " xth column be denoted by f and the associated equations by O , the equation tip determines Gp+x ... Op+6i_i do not contain fi1 ... , and flp+ei contains fd only .
+11 .
+So far the matrices Xp-*-Xi have been taken to be simply diagonals .
+It will now be shown that the insertion of constants to the right of the diagonal in the first ex columns of Xp can be carried out in such a manner as to affect none of the conclusions hitherto made , while they may be chosen so that the equations Yei+p_x , Zei+p_2 , Z\#163 ; i+p_x , \amp ; c. , are all satisfied .
+Denoting by a{j a constant in the ith column and jth row , i \gt ; / , i\gt ; cu , Y equations become ( 0 ) ( o^p+x 0p+i)yo ^'o==o .
+( 1 ) ( fxp+i-Op+1)y1 + ( ap-0p)yo-x1-cc21xv=0 , ( r+1 ) ( ap+1-0p+1)yr+1 + ( ap-0p)yr ... -xr+1-a2lxr=O .
+These equations are to be treated just as they were before the constants a were introduced\#151 ; the same elements remain undetermined as before , but at each stage the quantities found presumably contain a21 .
+We see at once from equation ( 1 ) that the coefficient of a21 in yx ( the first element being excepted ) is simply y0 .
+In fact , it can be shown step by step that the coefficient of a21 in yr+1 ( the first element always excepted ) is exactly that part of yr which is independent of a21 with 0X increased by 1 ; and therefore the coefficient of a21 in Yr+1 , when the values of yr2 ... as far as they are known are substituted , is equal to that part of the left-hand member of Yr which is independent of a21 , 0X2 being increased by unity .
+Now Yx is independent of a21 and of $x2 and vanishes , thus Y2 is independent of a21 , and is therefore the same as if a21 were zero .
+It is also independent of so that Y3 again is independent of a21 .
+Thus until k is so large that Yk does not vanish independently of Y*+1 is independent of a21 , and therefore the same as was obtained in the foregoing , where a21 was neglected .
+Thus the insertion of a21 in Xp does not affect any of the equations Y1 ... Yei+p_2 , and therefore the values of 9 * ... 6* are independent of a21 .
+But in the equation Y^+p-x the coefficient of a21 is the left-hand member of Yei+P_2 with 6^+ 1 for 92 =(o-2\#151 ; cr3)(o-2 \#151 ; o-t ) ... ^ 0 .
+Thus a21 can certainly be chosen so that the equation Yej+P_ !
+is satisfied .
+Having determined a21 , it is at once seen from p. 19 that the following equations now determine yx , yg1 ... without ambiguity ; for since 9* are independent of a21 , the coefficients of yx.\amp ; c. , are those found there whether a21 be zero or not .
+In the same way for the third column , with a22 , a31 , taken into account , the equations become { ap+i 03P+iH y'= ( ap+1 - d-3p+1 ) 2i + ( - \lt ; 9/ ) 20 - ?
+/i - a32y0 - a9lx0 = 0 , and just as before the first equation in which a32 occurs with a non-vanishing coefficient is the one following the equation from which first does not vanish out identically , viz. , Zei+P_2 ; while a31 will occur first in the equation homologous to the Y equat:on in which a21 first occurred , viz. , Zei+p ; in fact , in Z"|+p_2 , a32 will occur multiplied by the left-hand member of Zfi+J , _3 with 1 put for 0* , and in Zei+P_2 , a31 will be multiplied by the left-hand member of In +P_2 with put for : both these factors are other than zero .
+Thus a32 can be chosen to satisfy Zej+P_3 , and subsequently a31 to satisfy Zf)+ ; \gt ; _2 , while the preceding equations are quite independent of them both ; just as for 3/ , then , zx ... are given in succession without ambiguity .
+Treating the remainder of the first " 1 columns in just the same way , all the elements of these columns are found in succession , and the solution is complete as far as these columns are concerned .
+The e2 columns associated with the next group of equal roots may be treated in the same way , the singular equations being in this case the ( ex-l-e2)th of each set ; constants aij will again be chosen in the matrix x f ' right of the diagonal , " i + 62 \gt ; 1 \gt ; " x +1 , " x-l-"2 \gt ; j\gt ; ex+ 1 , to satisfy certain equations as above , and so for each root in succession .
+Thus if the various equations for 9P associated with the different groups of equal roots of the characteristic equation have their roots all different , and the " equations SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+of condition " ( p. 15 ) for each root are satisfied , a formal solution of the linear system has been found in the form where the elements of rj are series of positive integral ascending powers of and Xi--*Xp-i have all elements zero save those in the diagonals , which are made up of determinate constants ; and Xp consists merely of square matrices about its diagonal of " u e2 ... rows and columns respectively , each of which has zero everywhere to the left of the diagonal and determinate constants everywhere else .
+The elements of rj are in general divergent .
+The matrix H above will be known as the " determining matrizant .
+" As occasion will be found later to discuss a more general matrizant , nothing further will be said of it here except for the case in which p = 1 , which will be worked out fully in order to make clear the march of ideas in the more general case .
+12 .
+For p \#151 ; 1 the equation Xei is an equation of degree for Yei_j is of degree ex\#151 ; 1 for 6X\ and so on .
+If 0 , then _\lt ; HV)-HV-i ) V\#151 ; V+1 so that the remaining roots are those of Yei_x diminished by unity .
+Similarly the roots of Yfi_x are those of Z6i_2 diminished by unity , and so on , so that the roots of 4\gt ; ( 0il ) = 0 are 0Xi 0X \#151 ; 1 , ... , 0il\#151 ; " x\#151 ; 1 .
+The equation Xej+1 is x11(f)(011+ 1 ) + X{0i1 ) = 0 ; Xei+2 is x./ ( j)(0 !
+1 + 2 ) + x^xfj ( 0* ) + y1 ( ^i1 ) = 0 , and so on .
+The equations for yx ... are of the same form , with 0X for 0X .
+We suppose therefore in the first place that 0Xy 0X2 ... do not differ by positive integers or by zero , so that the coefficients of the first terms in these equations are all other than zero , and all the x 's and is are determined uniquely .
+The quantities a being then determined , as above , the solution is altogether determinate .
+If p = 1 and 01 ... 011 do not differ among themselves by integers , then the solution is of the form I02\ 1 0 ... \l ( 0 ?
+a21 I 0.J2 1 0 ... 72+ i a32 ... It r)Q\lt ; i 10,1 0 ... \ , 10XX0 ... \ x / 0 1 ... ' 0 0 1 ... \ . . .
+in which aij = 0 , unless 0./ = 0j 5+ / 0 a21 .
+0 a31 .
+\ . . .
+[ 02 .
+01,72 , Til 22 MR. E. CUNNINGHAM ON THE NORMAL SERIES Now Lt(w+cr ) = YL ( w)njLT1 ( w)ad ( Dr. Baker , loc. cit. , p. 339 ) , and fl + = \#171 ; T\ where = f * t6'1 0 ... \ _\#171 ; 22 6 T t and a\gt ; ( ) is the value of at = t0 ' , so that Mil \#166 ; \#187 ; W0 I t l 0 , 0 + / II t 1 0 , \ '\#166 ; ."\#169 ; a22 | A-* , +v \ 'i Uo/ w . .
+/ J there being no exponentials in the last matrix since aij 0 , unless Oj = / Q Q\ / p\ Writing this + ~t)^\t2)'^ *s a matrix having zero in and to the left of the diagonal , so that Q ( \#151 ; 2 ) has zeros in the same places .
+\t ) ^q(^ ) therefore has zeros in and to the left of the diagonal , and also in the ( n\#151 ; 1 ) places to the right of the diagonal , and also wherever Y has a zero , and so on .
+r r .
+Thus Q-2Q^ ... vanishes after a finite number of steps .
+Further , none of these expressions contain log \#163 ; , since r contains no integral powers of Thus 1 \gt ; 721 , 731 . . .
+\ 1 , 732 . .
+./ all the places which were occupied by zeros in T being also occupied by zeros in this , and contains only a finite number of powers of , positive or negative , and no logarithms .
+We may specify a little more exactly the form of the term A typical term of Y/ t2 is fci/ A*-* , og/ A*"* + t ' j2 t2 \t , and Oj \#151 ; di is not an integer and ci ; is unity or zero .
+SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+The corresponding term in Q ( 2 ) is -f A r r It follows that in -2 Q the rt , h column is a sum of terms belonging to the indices t/ t 0X \#151 ; 9X\ where s = 1 , 2 ... r , and so for each operation Q. Thus finally we have the result\#151 ; The term in the ith row and jthcolumn of fl ( ^ ) is a sum of terms belonging to the [ O 9 \ indices 9X \#151 ; 9X , s = 1,2 ... j ; so that in the product fi + -j j the jth column i is a sum of terms belonging to the indices 9X ... 9xj .
+13 .
+Supposing still that p = 1 , let the indices cease to differ by other than integers , and likewise the other groups .
+Let them be arranged in groups differing by integers , so that their real parts are in descending order of magnitude in each group .
+Then no root of = 0 will exceed O ' by an integer , and therefore 0\#151 ; a positive integer , so that the equations Xei+1 , ... do not fail to determine If , however , 9X = 9x\#151 ; k , ( j\gt ; ( Q2+k ) = 0 ; so that the coefficient of in Y"i+a vanishes , leaving yk unknown .
+We take yk = 0 as the simplest assumption , and the following equations then give y'k+ x , \amp ; c. , all without ambiguity .
+We are , however , left with Y6 ] and YCi+a in general unsatisfied .
+Of these one can in general be satisfied without affecting the rest of the argument by an adjustment of the element y/ 1 .
+It has been seen that a constant a21 in the matrix yx occurs first with non-vanishing coefficient in Yei .
+Clearly , then , if we introduce ct ?
+Hk , it will leave all the equations to Yei+A_i unaffected , and add to Y"i+a the left-hand member of Y6i_x with 02+k+l for But Ye)_ !
+is an equation of degree \#151 ; 1 of which 92 is the greatest root , so that the multiple of a21 added to Yei+A .
+is not zero .
+Thus a proper choice of a21 satisfies Y"i+a .
+Again suppose 0* = 92\#151 ; kx = 9X'\#151 ; k-^\#151 ; k^ , \amp ; i\gt ; 0 , 0 .
+Then the equations Zei+A , Z"i+Ai+Aj fail to give zlki+kp , but a31 , a21 can again be determined so that , if a31\#163 ; * , +* % di2tkl occupy the places above 0X in yls the equations Zei+A ) , Zf|+A(+A2 are satisfied , 9X being unaffected and zlki , z'ki+ki being ta.ken zero .
+Suppose then 0x ... 0kform the first group of O^.^Op differing by integers .
+Then treating the first h columns all in the same way , the ) equations Yg| , Z " , , Z"i_i ... must be satisfied identically when the have been all determined , and must be added to the equations of condition already found .
+Suppose now 9lh'xl ... 91h+k form the next group of roots differing by integers and consider the ( h + r)th column r\lt ; L The equation giving 9x+r is that indicated by the suffix " x\#151 ; ( h+r\#151 ; l ) , and those following this up to that with the suffix ex are independent of the undetermined elements of rj .
+Further 1\#151 ; 1 of the equations subsequent to these fail to determine the appropriate element as above , on account of the quantities 61h+s\#151 ; 0lh+r being positive integers for s \#151 ; 1 , 2 ... ( r\#151 ; 1 ) .
+These ( r\#151 ; 1 ) equations are satisfied by putting terms te'h+k~dlfl+ra.h+r'h+k(Jc = l ... r\#151 ; 1 ) in yx , while of the other 1 equations constants aA+r , s(s = 1 ... A ) can be found to satisfy h. Thus ( \#151 ; 1 ) equations of condition are found from this column , and therefore ^k(k\#151 ; l from this group of roots ; and so for each group of roots .
+Assuming all the equations of condition to be satisfied , we have now the following formal solution rjQ 4- Xl t2 t where yx 18 as follows :\#151 ; The square matrices about the diagonal of k ... rows and columns respectively , corresponding to the groups of O ' ... which differ by integers , are of the form e,2 ... ... ... ... ... ... ... ... 1 rt .
+' ah , h I and all other elements , to the right of the diagonal and within the matrices of cx ... rows and columns about the diagonal corresponding to the groups of equal roots for , are numerical constants , and all others to the left and right of the diagonal are zero .
+Applying now the formula n(w+o- ) = n(w)n{n ^^crn^ ) } , the solution is put in the form in( ?
++ l !
+)nl\lt ; 10 , \ 1 1 t o , 0 , 1 + -t V ) \ ^21 G-u-'A 1 0 c32 ... ; n where in the last matrix all elements are zero that were zero in yx , and c^- is a constant if Oj\#151 ; dt is a positive integer , but otherwise is a numerical multiple of t6~e\ The expansion of the matrizant can be effected as on p. 22 , with the result that in the expanded matrix the first h elements of the first row contain log ( t/ t0 ) to the powers 0 , 1 respectively , while the rest of the row is free from logarithms ; the second row begins with zero , then unity , and the next 2 ) elements contain log ( t/ t0 ) to powers \#151 ; 2 ) respectively , and so on , the hth row being entirely free from logarithms .
+In the ( h+ l)th row in the k places beginning with the diagonal term log(t/ t0 ) occurs to powers 0 , l ... ( k-l ) , and so on .
+SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+14 .
+Returning now to the general case left out of consideration on p. 16 , in which the roots of \lt ; i\gt ; ( 0p ) = 0 are not all unequal , we suppose the roots of this equation arranged in groups , of which the members are all equal .
+If o-i = cr2 = ... = \lt ; rn i(crx ) = \lt ; \#163 ; ei_i(\lt ; r2 ) = 0 , since the roots of \lt ; \#163 ; e]-i(0 ) = 0 are 02 , ... o\gt ; ; and again , \lt ; \#163 ; e_2(cr2 ) , \lt ; f\gt ; e\lt ; ]\gt ; { e are all zero , where 2 = 0 ... \lt ; \#163 ; e_r+1 = 0 are the equations for 0/ , The equation for ( p. 16 ) reduces therefore simply to ^(o-j ) = 0 and fails to determine 01p-x ; but , crx being already known , this must be merely an " equation of condition " among the coefficients .
+Similarly in the equation Xfi+2 the coefficient of 0lp-2 vanishes , and this equation therefore is of the form ^(0\-i , 0p ) = 0 or xp(01p-x , crx ) = 0 .
+Now the operator Ap-X acting on this equation , since \#151 ; or2 , gives the equation Y6| , which , as has been seen ( p. 17 ) , is linear in 02p-x , the coefficient being \lt ; \#163 ; e , -2(o-2 ) .
+If r = 2 , this does not vanish , and therefore Xei+2 is a quadratic for of which , owing to the relation through 0lP-x,02P-X are the two roots .
+If , however , r\gt ; 2 , the equation Y\#163 ; i must become an equation of condition , since \lt ; \#163 ; " _2(cr2 ) = 0 , and therefore also Xe]+2 becomes independent of 01p-x and gives another equation of condition .
+Carrying on this reasoning step by step , we find that are all independent of 01p-x , 01p-2 ... , while Xei+r is of degree in and independent of 01p-2 ... .
+If any root of this equation be taken for the equations Yei ... Y\#163 ; i+r_3 are independent of 02p-x , 02p-2 ... )while Y\#163 ; i+r_2 is an equation of degree r\#151 ; 1 , which , since it is derived from Xn+r by the operator A^-j , has for its roots the remaining roots of X"[+r .
+Choosing one of these for 02P-X , Ze)+r_4 gives an equation of degree 2 whose roots are the remaining , and so on .
+Similarly , if crr+1 = ... = crr+s , 0p-xr+l ... 0P-Xr+S are given as the roots of an equation of degree s , and so for each group of equal roots cr .
+Consider now one such group with the values of ... 0P-Xr+S obtained .
+Let the equations of which these are the roots be \lt ; l\gt ; s(0p-xr+1 ) = 0 , \lt ; f\gt ; s-x(0p-xr+2 ) = 0 , ... , = 0 .
+Then , if the roots of \lt ; f\gt ; s be all unequal , say = tx ... ts , ^\gt ; s-i(u)=^0 , ( j\gt ; s-2 o , ... , but fa-ifa ) = '\#187 ; iThe subsequent equations are then seen by the application of A3 to be YOL .
+CCV.\#151 ; A , E MR E. CUNNINGHAM ON THE NORMAL SERIES \lt ; k-i(ri)0p\#151 ; 2r+1 + X\#171 ; ( Ti\gt ; ^i ) = 0 , ^-2(T2)^-2r+2 + X*-l(T2\#187 ; '2 , Ti , ( Ti ) = 0 , which , since the coefficients of 0p-2do not vanish , at once give the values of ; these , as in the case of 0P-X when the cr 's were unequal , can be shown , if the roots tx ... undergo a permutation , to undergo the same permutation , so that the same is associated with any particular r in whatever place this r is taken .
+If , however , the roots r fall into groups of which the members are equal to one another , these equations again resolve themselves into equations of condition owing to the vanishing of \lt ; \#163 ; s-i(tx ) , \amp ; c. ; and , as before , the quantities fall into corresponding groups given as the roots of equations of degrees equal to the numbers in the respective groups .
+The process may clearly be carried on as far as the determination of 02 by the use of the operators AP-2 ... A2 .
+A further remark should be made as to the finding of in connection with the operator Ax , which has been defined to be such that AxX^1 ) = \#151 ; X(#x2 \#151 ; ft\gt ; ) +X(^11 ) 0X \#151 ; 0x+p Suppose that 02 ... 02 are given by a set of equations O\gt ; k{021 ) = 0 , W/ c- x(022 ) = 0 , = 0 , where the affixes of the o/ s denote the degrees of the equations , and the roots of each equation are the remaining roots of the preceding after any one of them has been chosen .
+Suppose that of these 02 ... 02 are equal , so that Of = 0r2 ... = 0rh , 1 , ... 2 .
+Then cwA_1(^21 ) = 0 , ct)*_2(022 ) = 0 , ... , ojk-h+x(62 x ) = 0 , but ( i)k-h(02^j -=j= .
+0 .
+Then if the X equations following a)k be denoted successively by xcok \#151 ; 0 , 2(ok \#151 ; 0 , ... , x(ok is independent of xx , \amp ; c. , by virtue of = 0 and the preceding equations , and therefore Aj(xw/ C ) = a)k-x(02 ) = 0 , since = 0lp-x = 02p-u ... \gt ; so that x(ok is also independent of 0X and must therefore vanish identically when 02 is determined .
+Hence also 2a\gt ; k is independent of \amp ; c. , and therefore A P(2(0/ c ) = i(ok-x(021 ) .
+SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+But in the same way ^(l^A-l ) \#151 ; Wk-2^22 ) = 0 , so that icDk-i(0aa ) must also vanish when 02 is found and thus = 0 , so that is also independent of 0X .
+Ultimately we have \amp ; , A-a(^2A ) = Al { ltok-h + li^J1 \#151 ; A1Ai{2(t)k-h + 2{@2h ) } ~ ... ) = ( A^WV ) } , and ( ok-h(02h ) =/ = 0 and is independent of 6x .
+Thus h\lt ; \#187 ; k(Q\ ) is an equation of degree li for since = @3 \#151 ; #3A ... .
+Suppose its roots are vx , v2 , ... wh .
+Take 6x to be vx .
+Then h-i^k-i is an equation of degree 1 for and its roots are ( p + v2 ) ( p + v3 ) ... , as shown by effecting the operation Ax .
+Choosing one of these again to be 0X\ say is an equation for whose roots are ( 2p + v3 ) , ( 2 p + vx ) ... .Thus the quantities are vx , ( p+v2 ) , ( 2p + v3 ) ... , ( h-l)p+vH .
+In order to particularise the order of the roots , ... , they are arranged as soon as found as follows :\#151 ; Let all those roots which differ from one another by integers be grouped consecutively and let the arrangement in each group be such that \#151 ; 0 or a positive integer .
+Suppose , now , the equation = 0 is the equation X2 .
+Then the coefficient of a ?
+/ in X ?
++i is h\lt ; *\gt ; k(0\+ which , since no root of k(ok(0 ) = 0 exceeds 0xl by a positive integer , does not vanish .
+X ?
++1 is moreover independent of \#163 ; c2\ ... , owing to the equations h-x(ok = 0 , ... , being satisfied independently of \ Thus X ?
++1 determines xx .
+Similarly , X2+2 gives x2i the coefficient being and so forth .
+Of the Y equations , that determining 0X is obtained from X2 by the operator It is , in fact , Yq-P .
+The coefficient of yx in Y2_p+1 is equal to the coefficient of xx in Xg-^+i with 02 , ... , substituted for 0xl,02 , ... .
+But Xg_p+1 vanishes identically as far as 0XX is concerned and 02 , ... , are the same as 0X , ... .
+Thus Y ?
+_p+1 is independent of yx .
+Similarly , Yq-p+2. .
+.Yq_x are all independent of the undetermined elements of Suppose now 0X\#151 ; 0X = X ( a positive integer ) .
+Then ho)k(0x2+\ ) = 0 .
+The equation Y2+A ; contains yXf ... , yk , the coefficient of the last of these being h\lt ; ^k(0i2 + \amp ; ) which vanishes for k = X. If , now , in the matrix Xr(r \#151 ; p , P~~ 1 ... 2 ) the second element of the first row be c/ 1 , and in be c21tA , the constants c will , as before ( p = 1 ) , affect first the equations Yfl-p+i-.-Yg-x and Yq+K respectively , entering into these with non-vanishing coefficients .
+Let c,21 be determined then to satisfy the first I of these equations ; Yg+i ... Y2+A_j then give if ... yX\-\\gt ; Y ?
++A then fails to give but can be chosen to satisfy the equation , and yfmay be taken zero .
+The following equations then give the remaining elements in succession .
+This leaves the equation Yq in general unsatisfied , and a further equation of condition is therefore necessary .
+Similarly , if 6*\#151 ; Of = p ( an integer ) of the equations Z , we can , by proper choice of cf2 ( r = p ... 2 ) , satisfy the p\#151 ; 1 following that which determines Of , viz. , Z ?
+_2p ; and just as a proper choice of the constants 1 enabled us to satisfy Y ?
+_y+1 ... Y ?
+_1 , the constants cf1 can be chosen to satisfy Zq-p+1 ... Zq Thus two equations , Zff_y , Zg , are left unsatisfied in general .
+The two remaining constants , cf2 and cf1 , are utilised to satisfy the equations Zff+ft , Z2+A+M , in which the coefficients of zf and UA+/ X vanish respectively .
+To do this the terms and are inserted in the third column of If then the indices Of ... Of be equal , or differ from one another by integers , exactly similar treatment applies for each of the first l columns of y , the ith column furnishing ( i\#151 ; 1 ) equations of condition .
+For the ( \#163 ; +l)fch column , however , Of\#151 ; 0f+1 , ( r \lt ; /t ) is not equal to zero or a positive integer .
+Thus hojk ( Of+1 + m ) does not vanish for any value of m , and the Ip constants crI+1'*(r = jp ... l , s = l ... l ) can be determined to satisfy the Ip equations between XJq-ip and Uff+1 , U denoting an equation of the \#163 ; +lth column , and , in particular , U being the equation determining 0f+1 and Ug+1 determining For the next column , however , 0f+1\#151 ; 0f+2may be a positive integer , X1 say , so that ho)k ( 0f+2 + X1 ) = 0 , and the ( q + X1)1,11 equation , instead of determining the appropriate element of 77 , can only be satisfied at the expense of the gth , by making the element above 0f+2 in cl+2 , l+1tK\The equation then becomes a further equation of condition .
+Thus we shall obtain 1 equations of condition from the ( l+r)th column , associated with an index belonging to the second group of indices 0X differing among themselves by positive integers ; and so on through all the indices as far as Of .
+A similar treatment is now applied to the columns for which 0f+1 = 0f+2 ... = 0f+k ( r = p ... 2 ) ; 0f+l is given as the root of an equation of degree Jc ; and the minors of the determinants in whose diagonals are 0f+1 ... 0f+k , have the elements to the right of the diagonal suitably adjusted as above , while one equation of condition is furnished in connection with every difference 0f+r\#151 ; 0f+s , which is an integer .
+Supposing these equations all satisfied , consider the expansion of the matrix , which is effected in just the same way as for 1 ( p. 22 ) .
+P+1 q If w = 2 -p , where 0r is a matrix made up simply of the diagonal terms Of ... Of , the application of the equation SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+29 12 ( w+ or ) = 12 ( tv ) 12 [ 12 1 ( tv ) crQ resolves the required matrix into a product of two , of which the first , 12 ( tv ) , consists simply of diagonal terms of which the rth is e ptp ( P-tyP-1 The second matrix has zero everywhere in and to the left of the diagonal ; and , since in the matrices y the element in the rth row and sth column was zero unless 6mr = Qms(m \#151 ; _p+l , --.2 ) , it contains no exponential expressions .
+It can therefore be completely integrated in finite terms , just as was done in the case = 1 ( p. 23 ) .
+15 .
+A simple example may be appended of the application of the method to a particular system .
+Consider the equation x^y " + 2 - % ) + ( 1 - 3x + = 0 .
+Putting 7/ i= y , y2 = x2y , we have the linear system 0 , -7*2 ) ' dj dj 3i2 ''J _\gt ; +\#187 ; X K-x 1 \ 1 .
+/ 0 0\ 1 .
+/ 0 0 2lx2 ' \3 3 + The characteristic equation is Pi 1 Pi ~2 H-i9 } 0 or ( p+l)2 = 0 , giving equal roots - 1 for p. With j ) the transformed system becomes , 17-1 1 \1 , / 0 0\1 , / 0 0Y1 VL( -l)x2 + \0 0/ _T = uy say .
+Considering now the subsidiary equations -1 1 \ 1 , ( 0X X\l Vq1 Then the equations to be satisfied are x2 + \ 0 Go -1 , and let n xj Xl l/ i x.2 7/ 2 , I. X21 \#151 ; 0i = O. II .
+( 1 ) x22 - ( 1 + 0i ) xj = 0 / 2 ) ( 2 - 0Q 1 = 0 , I. and II .
+( 2 ) give ( 0X - 1)2 = 0 .
+We take 0i = 1 therefore , so that x\#163 ; = 1 and x-r = 2a ?
+!1 .
+Again III .
+( 1 ) x\#163 ; - 0i = 0 , ( 2 ) ( 1 - 0i ) \#171 ; 22 - xj = 0 , of which ( 2 ) gives xxl = 0 , so that a^2 = 0 .
+Similarly xi2 = x2z = 0 , and so on .
+The equations for the second column are I. ( 1 ) y2l-xi1-A = 0 , ( 2 ) 3-d2-xi2 = 0 , ( 2 ) gives 02 = 2 = 1 + 9X and ( 1 ) gives y2l = A. II .
+( 1 ) y22- ( 1 + #2 ) y\ 1 - \#171 ; i2 - A a : !
+1 = 0 , ( 2 ) ( 2 - 02 ) 2/ 21 - \#187 ; 22 - Aa^1 = 0 , ( 2 ) gives A = 0 and ( 1 ) gives y22 \#151 ; 2yxl and also yi1==0 .
+III .
+( 1 ) y2z - %i2 - X13 - Xxx2 = 0 , ( 2 ) ( 1 - 22 - tfi1 = 0 , so that yi1 = 0 and y22 = 0 .
+It is easily seen that all the remaining terms vanish .
+Thus the solution reducing at x =\#166 ; \#166 ; Xqto the matrix unity is where Thus HI !
+)\#171 ; { \gt ; ( V - , KC 5)}(i .
+1 " , -1 '-'W $)}-H exox0 \ ON x Xq ) / I 0\ \x 1/ \#177 ; r / I 0 exox0 '\ \#171 ; o/ 1 '\l/ ' 1 0 \#151 ; )a ; 2\0 0 1 0\\#163 ; f_\#163 ; _/ a ; 1/ A \0 T / I 0\ x ifl !
+a : ON a ; a\lt ; )/ 1 'i -Xq 1/ e^oajo \ Xq/ 0 XXq ,0 0 Xq 1 1 / I ^1 Q\exx \x 1/ T ' ' exox0 0 1 1 log- ' \#171 ; o x0 exx / I 0 V i_ exoXo \x 1 / i:T.Ilog ?
+16 .
+The number of conditions found in the course of the analysis shows that the solution in this form\#151 ; which may be called the " normal " form , by analogy with the name " normal integrals " of linear equations\#151 ; is by 110 means always possible .
+As many writers have pointed out , there is a much more general type of solution than the normal series for the ordinary linear equation , in the form of a normal series in a new independent variable xllk , k being a positive integer ( Cayley , Hamburger , Fabry , \amp ; c. ) .
+The method developed in the foregoing is peculiarly adaptable to the investigation of these integrals , inasmuch as the transformation to a new independent variable is very simply effected .
+SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+If in the linear system die dt u(t)y we put t we have without any calculation the new system for \#171 ; /asa function of 2 Suppose now = zk .
+Then the transformed system is ^ = If , then , the original system is of rank so that U{f ) \#151 ; ... +-J+\lt ; X'0 + ... 3 the new system is dy _ [ kcLp+x kap fa ~ zkp+x ^ zk{p~l)+l + ka0zk l + and is of rank kp .
+If , now , we were to put z = kx , kp .
+z1 , the form of the equation would be unchanged , while the coefficient of z1/ kp+1 in the right-hand member would become the original canonical matrix ap+1 .
+This is , however , not necessary , as the whole investigation could be carried out equally well if any constants whatever replaced the unities to the right of the diagonal in ap+1 .
+It may now well happen that though all the equations of condition found for the general system are not satisfied , those associated with the new system are all satisfied , so that the new system possesses a solution in normal form .
+If this is so , the original system will be said to admit of a solution in subnormal form .
+In fact , an integer k can always be found such that this is so , owing to the vanishing of the coefficients of z~kp+r{7- = 0 , !
+... ( \amp ; \#151 ; 2 ) } .
+In the first place , all the conditions arrived at from the equations Xx , Yx , ... will be satisfied ( p. 13 ) , for the coefficient of z~kp is identically zero ; in general , the left-hand members of Xr , Yr ... are rational integral functions of the elements of the matrices Akp , A kp-1 } ... , AAj5_r+1 , if Am stands for the matrix multiplying and contain no term independent of these elements .
+Now the conditions found on p. 13 arise from the equations X1 ... XfJ_1 , Y^.-Y^ , ... , and therefore involve the matrices Akp , ... , A^_"i+2 .
+These conditions will therefore all he satisfied if k\gt ; ex. Similarly , the analogous conditions for the second group of equal terms in the diagonal of ap+1 will be satisfied if \gt ; : e2 , and so 011 .
+Consider first , as being simplest of explanation and as containing the essential features , the case in which all the roots of the characteristic equation are equal , so that " !
+= n.It will be shown that a subnormal form satisfying the equation certainly exists if ctpn =\#163 ; 0 with Jc = n. We know from the foregoing investigation that is given as the root of an equation of degree n , and that , if the roots of this equation are all different , no more conditions than those just mentioned as satisfied are necessary to ensure the existence of the subnormal solution .
+But in this case the equation for is particularly easy to construct .
+We have , in fact , nx2\#151 ; Oxnp = 0 , CO II $ II = Xx = 0 , nx^ 0 npX\ \#151 ; 0 , ry* ^ \#151 ; \#151 ; 1 \#151 ; . . .
+= x2n \#151 ; 0 , nx2 \#151 ; 0xnpx2 \#151 ; 0xnp-xx* = 0 , II 5 ?
+II 8 II O from which at once we have nxnn-x-6\pxn-2n 1 \#151 ; - 0\pXnn-x - . . .
++ ( p_1 ) + 1 Aln -tt- n ( p\#151 ; 1)+1 0 , or m _ " nv n Thus , unless Alnw(i , _1)+1 = 0 , the values of 0lnp are all different , and a solution in subnormal form is therefore possible , as stated above , with the independent variable changed to xx , tl .
+If , however , A]\( ?
+, _1)+i = 0 , we have f)1 \#151 ; _ _ A V np \#151 ; . . .
+\#151 ; u rvp and it will be found that the same conditions are necessary between the constants Ayi[p\#151 ; 1 ) + 1 as were found previously ( p. 13 ) between the constants api A*(p_l)+l being the same as n. api e.g. , from the equations nxnn + Al'n~\(p.1)+1 = 0 , A = 0 , we have A2'\(p-i)+1 + A1 ' n~\(P-1)+1 = 0 , i.ap'n + ap'n~x = 0 , and so on .
+Consider now what happens when these conditions are not all satisfied .
+Suppose , for instance , oLp'n + ap'n~x ={= .
+0 .
+Let the original system be transformed by the change of variables x = zk , Jc 1 .
+Then from the equations Jc.zl2-6xkp - 0 , Jc .
+z2s-Blkpz ?
+= 0 , ... Jc .
+Z n-i 6 k]JZn-2 1 + A1 ' " ^(p-lj+l \#151 ; 0 ) \#151 ; ~ 0 , we obtain the equation for 6xkp * SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+A*--t(p.1)tl+A2-i(y.1)+1 ) = 0 , and since the last written coefficient is not zero , the roots of this equation are all different , and therefore the transformed system possesses normal integrals free from logarithms .
+Again , suppose ctp'n = 0 and that apl'n~1-\-ap2n also vanishes ; then the roots of this equation all become zero , and we find that the condition a/ 'w_2 + a/ , w-1 + ap3\gt ; w = 0 is also necessary .
+If this is not satisfied and the original system be transformed by x = zk , k = n\#151 ; 2 , the equation for 0lkp becomes ( t2)2 + A2'"''p(i-2)+x + A3 , " p(4-2)+1 ) = 0 , which has two zero roots and the rest all different .
+If the one condition necessitated by the equality of the two zero roots is satisfied , the solution is again found .
+If this condition is not satisfied , the transformation = \#163 ; 2 effects what is required .
+Suppose now all the conditions of p. 13 are satisfied .
+Then whatever value of k be taken , we have 6rkp \#151 ; 0 , so that , as far as we have seen , the transformation does not render the solution any nearer .
+We must , in fact , proceed to consider the further conditions for the case when the roots 0P are equal ( p. 13 ) .
+Suppose , for instance , the first of these conditions is not satisfied , then putting k = n , we shall have 0xkp = ... = 0nkp , the conditions then necessary before the deter-mination of 0kp-x will be satisfied , and we shall eventually obtain a binomial equation for 6kp-i of degree n in which the constant term does not vanish ; the roots of this equation being all different , the subnormal integral exists .
+Thus we may go through all the equations of condition in turn .
+In the more general case , where the roots of the equation for fall into more than one group of equal roots , the procedure is exactly similar .
+For example , suppose that ap1 , ti9 ap")+1 , " l+"2 , ... are all different from zero .
+Then the preceding work suggests that a solution may be found in which the first rows proceed according to powers of t11* ' , the next e2 according to powers of 2 , and so on .
+The whole would thus be of normal form with the variable thk , k being the least common multiple of el5 e2 ... .
+In fact , if we change the independent variable to thk , k having this value , the matrix AAj9_6i+1 is identically zero , and the indices 0lkp ... 6*]kp are the roots of \#151 ; ( 0kpYl + 0 = 0 .
+These roots are all equal , and the corresponding equations of condition are all satisfied owing to the vanishing of the matrices other than A*r+1 .
+If , now , we form the equation for 0xkp-x we have kx % 6 kp\#151 ; x \#151 ; 0 , kx4 0 kp\#151 ; xX2 \#151 ; 0 , ... ... ... ... ... ... ... ... . .
+0l kp-\Xn 2^-2 + Ale*Ap_2ei + 1 = 0 , F VOL. CCV.---A .
+giving Q kp- 1 \#151 ; ^ { -A-leiAp-2ei + l/ A:}ei* k . .
+If - = 2 , A1%_2ei+i = k. ap ) and therefore if 1 =jfc= 0 , the roots of this equation ei k are all different .
+If , however , - \gt ; 2 , Akp-2ei+1 again is identically zero , and the ei necessary equations of condition are again satisfied .
+Proceeding thus we find , in fact , that if ^0 , 6skp , ... , 0%-*/ " l+2 ; s \#151 ; all vanish and that # % , -*/ ei+i is the root of a binomial equation of degree whose roots are all different , and so for the other divisors of k. If , however , ctpUl 0 we have the same equations of condition again necessary , viz. , ap"l and a^,1''1-1 = 0 , \amp ; c. Assuming , then , that apUl 0 , we find , without difficulty , that all the quantities Or vanish for s = l ... ex , save those for which r is of the form \#151 ; 1 , so that the exponential arising in the first ex rows involves only t1 , " l and not The discussion of whether the solution of the subsidiary equation proceeds according to powers of tVtl only in the first ex columns will not be carried out in full here .
+It is enough to know that , provided ap1 , " ) , ap\#174 ; 1+1'\#163 ; , +'2 do not vanish , a subnormal form certainly exists satisfying the equation .
+If , however , one or more of these quantities does vanish , and one of the consequent equations of condition is not satisfied , we may , as on pp. 31-33 , find a new integer k , such that the necessary conditions for the existence of the subnormal form are satisfied .
+17 .
+As a concluding example consider the system derived from the equation of third order and rank one which with gives " / " _j_ a20^2 + + a22 " / , Ct30Z3 + \lt ; l3\Z2 + 0-322 + O33 nl _ ^ y + i* y+ ic y- " ' y\ = y , y2=#y\ ys=^ 1 0\ / 0 0 0\ / 0 0 0\ / 0 0 0\T 0 1 i+j 0 2 0 1+ 0 0 0 +2| 0 0 0 U. -\#171 ; 22 0/ \-082 -\lt ; *21 4/ \ -Osi " \#171 ; 20 0/ \ - \#171 ; 30 0 0/ J The characteristic equation is - p3 -pa22 + o33 = 0 .
+We shall confine ourselves to the case in which this equation has three equal roots .
+These must all then be zero , and o22 = 0 , a33 = 0 .
+For the equation then to possess a normal solution we must have o2i = 0 , a32 = 0 .
+Supposing these conditions not satisfied , put z \#151 ; t3\ then the equation becomes y ' = 3 0 + '\ 0 4/ 1 + y- The subsidiary equations then become 3*i2 - 03l = 0 , Xi3 = 0 ; Zx^ - - 02l = 0 , 3x23 - 03'Xl2 = 0 ; W - #3V - - ex 1=0 , 3xs3 - ojx# - 62w=o , - - e2w - =o .
+SATISFYING LINEAR DIFFERENTIAL EQUATIONS .
+The last gives -1 ( 0s1)8 - 3a32 = 0 , so that 0^= - 3 ( \lt ; 132)* , where any cube root may roots giving 032 , 033 .
+Further of which the last gives 3x42 \#151 ; 03U3-* \#151 ; \#151 ; ( 1 + 0/ 1 ) = 0 , 3x43 - 0M - 02W + ( 1 - 011 ) Z12 = 0 , - Ofxfi - 02lx23 + ( 3 - 011 ) Xi3 - 3a32*i1 - 3tt21\#171 ; i2 = 0 ; - 021 .
+f ( 031)2 - \lt ; *21031 = 0 , be taken , the other so that 021 = \#171 ; 2i/ ( \#171 ; 32)b and 022 , 023 are given by taking the other roots for ( a32)i Lastly the equation \#151 ; 0^X4 ?
+\#151 ; 6r^x$3 + ( 2 \#151 ; x23 \#151 ; 3d32^21 \#151 ; 3\#171 ; 2i\#171 ; 22 = 0 gives - 031 ( ^x23 + y \#187 ; 22 + 1 3'y \#171 ; i5 n 1 / 031 2.021 2 -021(^-\#171 ; 22 + -^-\#187 ; l2 + ( 2 \#151 ; 011 ) \#151 ; \#151 ; r\#151 ; \#151 ; 3a32x21 \#151 ; 3a2i^22 = 0 , which gives ,5(03i)2 ( 021)2^1 9 3 \#151 ; \#171 ; 21021 = 0 , so that 6il= 5 .
+Similarly , 0i2 = 0i3 = 5 , and a subnormal form exists satisfying the equation , of which the 3^ 32^ ^ 21 first column has the determining factor e 2z % '\#174 ; ***si , and the other columns have the same factor with the other cube roots of a32 .
+We may remark that this agrees with the results obtained for this equation by the ordinary methods ( Forsyth , " Linear Differential Equations , " S99 ) under the assumption that a32^0 .
+We have shown that this is a necessary condition for the existence of the subnormal form in the variable = satisfying the equation formally , unless we have also a2 1 = 0 .
+If , however , a32 = 0 and a2\ 0 , then , as we have seen above , the transformation = will give us a system admitting of 3 normal solutions ; the equation for dx is , in fact , ( 0i)3 - 4\#171 ; 2i0i = 0 , giving 0 or \#177 ; 2\#171 ; 21i- We see , in fact , that , when a32 = 0 and a2i^-O , the characteristic index of the original equation is 2 , so that there will be one regular form satisfying the equation , i.e. , an expression of the form afP ( x\ If a32\gt ; 0-21 are both zero , the equation is of Fuchsian type .
+Thus the normal or subnormal forms are found in all cases .
+r .37 i
+

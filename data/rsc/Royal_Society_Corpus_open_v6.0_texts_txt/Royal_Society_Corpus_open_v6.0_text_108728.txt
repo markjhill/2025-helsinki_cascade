@@ -1,0 +1,196 @@
+On the Calculus of Symbols , with Applications to the Theory of Differential Equations .
+By W. H. L. RUSSELL , Esq. , A.B. Communicated by ARTHUR CAYLEY , Esq. , F.R.S. Received December 20 , 1860 , -Read January 24 , 1861 , THIE calculus of generating functions , discovered by LAPLACE , was , as is well known , highly instrumental in calling the attention of mathematicians to the analogy which exists between differentials and powers .
+This analogy was perceived at length to involve an essential identity , and several analysts devoted themselves to the improvement of the new methods of calculation which were thus called into existence .
+For a long time the modes of combination assumed to exist between different classes of symbols were those of ordinary algebra ; and this sufficed for investigations respecting functions of differential coefficients and constants , and consequently for the integration of linear differential equations , with constant coefficients .
+The laws of combination of ordinary algebraical symbols may be divided into the commutative and distributive laws ; and the number of symbols in the higher branches of mathematics , which are commutative with respect to one another , is very small .
+It became then necessary to invent an algebra of non-commutative symbols .
+This important step was effected by Professor BOOLE , for certain classes of symbols , in his well-known and beautiful memoir published in the Transactions of this Society for the year 1844 , and the object of the paper which I have now the honour to lay before the Society is to perfect and develope the methods there employed .
+For this purpose I have constructed systems of multiplication and division for functions of non-commutative symbols , subject to the same laws of combination as those assumed in Professor BOOLE'S memoir , and I thus arrive at equations of great utility in the integration of linear differential equations with variable coefficients .
+I then proceed to develope certain general theorems , which will , I hope , be found interesting .
+I have applied the methods of multiplication , as just explained , to deduce theorems for non-commutative symbols analogous to the binomial and multinomial theorems of ordinary algebra .
+Lastly , I have shown how to employ the equations deduced in the earlier part of this paper in the integration of linear differential equations .
+I have , for this purpose , made use of methods closely resembling the method of divisors which has so long been used in resolving ordinary algebraical equations .
+The whole paper will , I hope , be found to be a step upwards in the important subject of which it treats .
+I shall just observe , that the symbolical combinations used in this paper may also be applied to the calculus of finite differences , as may be seen in Professor BOOLE'S memoir .
+On the Principles of Symbolical Algebra .
+Let ( g ) and ( 7r ) be two functional symbols combining according to the law fJ(7r)u =f(7r-n ) ?
+" u , where ( u ) is the subject .
+We shall suppose throughout this paper that d =xz 7-r=x Let P , Q , and R be three functions of ( 7r ) and ( g ) , such that PQ acting on any subject is equivalent to R acting on the same subject , or PQ=R .
+We shall say that P externally multiplies Q , and is an external factor of R. In like manner we shall say that Q internally multiplies P , and is an internal factor of R. We shall also say that R is externally divisible by P , internally by Q. We easily see the truth of the following symbolical equations depending on the laws of combination assumed above:(ga7)(g7%V)g = g+ ( T +a)/ Au ( ga)(ga)-1=goc-a(_ a)-- , .
+We shall commence with instances of symbolical multiplication and division , when the multipliers and divisors are monomials .
+The following is an instance of external multiplication:,7r(C +er+r )= -(7r+2 ) +g ?
+( 7+ , ) 3 +7 r ' ; the following is an instance of internal multiplication:(22~_3~g2+ ( 7r2+7 ) ) gr2= 27r23g2(7r2 + r)+ ( ++)( + 2 ) ; the following of external division : ( ~-)-I'(4(+ 2)-2 ?
+g3t(7r+ )+ 3S27r3)-=g-'-2grr+ 3r2 ; the following of internal division:(37r + 32(7+7 ) + 7r ) + 1)2)(r)'=g2+ 3r + 7 .
+We shall tlow consider cases where the multipliers and divisors are polynomials .
+The following are instances of external multiplication:+trr +-7r -(7 + 1 ) 7r - ?
+( ~+l)-~~ -e(7r+ 1)l2 , _ ?
+r(7r + 1 ) 2 -g )r2+ +1 ) +2(r+ l)'r)gr(+ l)(r 1 4+r+ 1 ) +72(i.+ 1 ) .
+70 The following are instances of internal multiplication:2g- &lt; 2_+'(+7r g2+(+1 ) ) .
+-T i ( 21 ) ( ++ 1)252 g(+ 2 ) _-+4 +r(2(+ +1 ) ^(2r+ )2(2)^^3^.^^^)^2 + g2 , ( , +1)2-2_(3 2+ +1 ) .
+The results of the four last examples may be written thus:(g-5r)(g+5)=g~-p_g ( g5-)(5r-(5 + 1 ) ) = ( g~--( .
++r +1)+ ~ ) , ( .
++1)( +.)(gY- ) g= +g3r ( g._(-r+l))(g5--5)= ( , ( -F+ ')g(a_ --.+2 ) .
++rv(5+ 1 ) .
+I shall now give some examples of external division , the divisor being a polynomial .
++ r ) ?
+3+2 2(.+ l)+g ( 2 +27)+3( ( 2+ + 7r+ r 3+ 2 ( +2 ) 25 ( +1)+(2+2r+1 ) g2(+g1)+1z g5X2 + 1,3 p ( ~+2)+g2( ~+2)2 -g( '+])g(3 +35'+l ) -_g( ?
++1)2- , ( 5r+1)3 lWe shall next consider some examples of internal division .
++ )F+g'2(2 + )+ g(22+2 ^+ )+7 ~(g +g+~ g2(7r+l)+g(27Ta+27r+l ) 2(n-+1)+ r +(7r+ 1)2+7r3 g(+)2 -L2 g7r+7rV2 ) 3r-2e27r+e +(7+e +74( g2 +l ) +2 _ g2(W-2+2)+ 2(X2+v ) 7r(7r+ 1)2+7r -7r(r+ )2 +7 The results of the four last examples may be written thus : ( +r)-l(Sg+ 2g2(7r + )+ r(2r+1 ) +7r3)= 2+ r+72 ( g7r+r2)-( 3(7r + 2)+g2(27r+3)-g(3r +37r+l)+7-)=g--g(7r+l)+7r ( 3+ g2(2a7+l ) + ( 272+27r+ l)+ +3)( + )-l=2+ r+72 ( g37 -2g27 r+g(72+r)+r4)(g+ r 2)-l= 2g(r+1 ) +7r2 .
+I now come to two propositions of great importance .
+First , to determine the condition that -1(7r)+ o(7r ) shall divide the symbolical function , n(r ) + fP-1(r)+ + -2_5-2( ) + &amp;c. + 1(7r ) + ( p , r ) internally without a remainder , 4,1( )+ o40())f ( r)++ '_n-l(r ) +S--2()+. . ?
++ ( r ) +,91( ) + po(Q ) fgnd()+g-,4_ , ( , )n( _ l ) n--e( T0)X(W[ ) ' '+(7r-1 , ) +j( ( z-1))-2( .
+&amp; )c rn--2 tp4(7 &gt; ( s )fi ( - ) +(pn ( 52 ) } + &amp;c. where the symbolical quotient is + I^^-l ) l t1 j-j ) rI0-i^ -2)^^-a ; )+ 7 t4l(r-i the required condition is found by equating the remainder to zero ; and we have ( 0 1 )O +(17o ( -1 ) Po(_ I1 ) o(ro( 2)o)(-2 ) oo(r)- ; t ; ,1Y-^ -l ) +~(~..,2)3_~(1r-.-)4s-2 ) r_)-q.l , ~ l ... .
+I2)1l(^__-3)D -3 ) -~^c .
++lq_ 'o(7r-1l)4o( 2 ) ... +o(-n+ 1 ) n_ t1 ( -l 1)+( -2)+ ( --3 ) ( ... ( ---n ) ( - ) where + , ( --)+O(- ) is an internal factor of &amp; fCn('r)+-'~_ -l(r)t-)+ &amp;c. +tq0(T ) .
+Hence we see how we may resolve the symbolical function nkr( ' ) +r- , _( )+ pPn-2( ) +..+ ' ' ( x ) + o(r ) into factors in all possible cases .
+72 Put )o( )-==A+Bot+CCo+ &amp;c. , ,(ir ) =A , +B1r+ C12r+ &amp;c. , and substitute in the above equation , and equate the resulting coefficients of r to zero .
+We shall thus be furnished with equations for determining the values of A0 , B , , &amp;c. , A , , B , , &amp;c. in all cases in which the above symbolical function is capable of resolution .
+We thus obtain the values of -0(4r ) , 4(r ) , and of the symbolical quotient .
+We next ascertain if the symbolical quotient admits of an internal factor , and repeating the process we at length resolve the above symbolical function into factors of the form ( '4 &gt; ( +)(r ) + ( )(7r))(A4)+ ( r)+ ) ) ... ( e( )+4 o( ) ) .
+To determine the condition that g4l(7r)+'0(Tr ) shall divide the symbolical function PnR ) + 1-()+ -2'-2(@ ) + &amp; C.+ 1(7 ) + P , ( ) externally without a remainder , ,(7)+ ( ) ) + ( 7 ) g+n-1 , 7(r ) + f-2p( ) )+ &amp;c. +2 )+21( ) + ( +P( ) + ) zn~ ?
+( j)+g 1~o(~r+n-_)i5X(rr ) %(_+ n1 ) / ( 7+ , +n n{I ( 7r ) qXo(7r + n-1 ) qSn(w ) Jq tn_n-2(7r ) ?
+0-)- ?
+( r ?
++ n1 ) n4 -I-'O( +p ___ ?
+d4o ?
+( )r + n%1 r)0(4 +n 2 ) )_(r + n2)+0( , r + n2 @o(~ &gt; .
+{ ( 7r)+n(1( +1- ) i 4((7r + n-2)n1(7r +n 2)tp ) + nthn-e2 +(o etn n2 ) vetgto+ n s2)uor t nc 1 ) i pwr o ( ( )nn-t o2)pw ( ) ?
+To dtrm ne e ( condinth-a)t( ) &amp; ; C. where the symbolical quotient is In- .
+n( ) +n-2( in 1(7 r)(+ -1 ) +)+ I(+n-l ) 1 l , ,(x++n-2 ) J , ( x+n-2)x2 +n-l ) ?
+nn ) n3n-3 ?
+n-z2 _ o(r +n-2 ) , o(r + n-2)to(t +n -l ) ( , ( +n -3 ) l(+r+ n- , 3 ) , l(w + n-2 ) 1-()+l( , +r+ n-3 ) ( 7r + n-2)'(r + n-i( ) + &amp; .
+The required condition is found by equating the remainder to zero : whence we have ?
+o(7r ) _ go()o(7r + 1 ) ( )0fo()~ + l)(to(r + 2 ) { o(rr)CI( ?
+) @ 1( " ) + +l ( X)+ l ) 9(T ) +1(T)+ , ( T + 1)+(if , + 2 ) q 3(1 ( + &amp; +0o( , )+o( 1+ l ) o(7 + 2).t. .
+o(fr + n_n +1 ( x)A ( 7r + 1)+o1 ( + 2 ) ... +1( + n-l ) ( r ) In the next investigation we shall suppose the symbolical function arranged in powers of ( ?
+r ) instead of powers of ( ) .
+To determine the condition that 4i(f)5-4+ ?
+o(f ) may be an internal factor of the symbolical function ( g)X + P2( ?
+) ; 2 + PI ( g ) + o(g ) .
+73 We easily see that 9r(f ) = ( f ) ?
++S dg d+d2r )= ( g)=(gp ) +2g de ~(~)+ ( 2 d)2( ) .
+Hence we shall have 3()3{4 , sr } ' = @()-l=.r ( = +2P( ) ( )g '+()( ) d ) ( 93(P ) *^ )3-^ 1 d^ )2 =P3{3(+)}2( ) ) 3 ( e ) ( + g-- ) , ( 2 ) = ( ) 3( ?
+) d(g ) }2 g ) d( 2 ) ? ? ? ? ? .
++( ) ( ~ ) .
+3+ ( g ) d+g l( )* + ' ( g ) +{( ?
+)+2 g ) ( gdg ) ^()+ )( )^ ( g ) ) dg2 G(( ) +( ) d()}.2 ?
+= 3(g ) 7~+ 2o(e)- , ( ~g ) ?
+I o( g ) ; ( __2_ ?
+{ ^ ) Then +0 ?
+( g )= r0 ?
+g ) ) Put , for the sake of simplicity , ( ?
+)=0 ( ?
+p0 ) ( ?
+g)gdg d0 .
+, ( g ) +g , ( g ^)^(g ) l , ( g ) )=B+ le(pIg ) ?
++ gJ)+O(g g + ?
+( ^ ) Hence the condition that 4-1(g ) &gt; r+4-o may be an internal factor of P4 ( g)n+ 3 ( )2( ?
++ , ( g )Z+ &lt; Po(g ) is equivalent to the equation , o(g ) ?
+o( ?
+)Oo(g ) , l(s)=o .
+Hence , substituting for w , ( ?
+) and wo( ?
+) their values , we have O0~ ?
+( )d 1_ _ dO sl(g ) , o(g)2e ( , to( ?
+))'+ 2( ?
+) , o0(g dtg A. , o( &amp; )P1( ) +O2(g)g dg o ( )= 0 ; or , again substituting for Oo( ?
+) , O , ( g ) , O2(g ) , we have Had we wished to ascertain the condition that 43()ri+t(g ) may be an internal factor of 4 , ( e)=+ 33(r )=+ P2(e)f + 1()r + P , ( ) , we must have calculated the value of r3(g ) .
+It is evident that for every increase in the degree of the highest power of ( 7r ) , the labour of the investigation becomes immensely greater , and the result far more complicated .
+It is , however , of considerable utility in the integration of differential equations , and we shall refer to it again at the close of this paper .
+75 On some General Theorems , I shall now give some theorems in general differentiation and expansion , Since ( =)( g2 ' r. to n factors , we have ( 2 - ) " 1 ( -2)( --4 ) ... ..2ns+2 ) " ' ( .W ' ; l ' ( --)-+-3).."(sr2+:1 ) ; whence we easily see that -z( ( -1)(7-)(-3 ) ... .(-2n+ 1)= +( I )"2-l( ) g~( l--12.)( r -2)1.--3 ) ... ( .--2n.3.)= r)"-( ( 1\ ( 2 % / 1\ ?
+n-1 I/ whence we shall have d2U id+ &amp; ) dX2n x dx. .
+If we equate the coefficients of zI in ( a+dz)2 " =(l+-z)r(z+l ) " , we have 2n(2n1 ) ( 2 2 ) .
+( 2 -r + ) ( n1 ) ( n2)..e ( n -r -4- ) 1.2,3 ... r 1.2.3 ... r n(n-l)(n--2 ) ... ( n-r+-2 ) n(n--l)..,.(n--r+3 ) n(n--1 ) + L.2.3 ... r--1 , _ 1.23..r-2 1 ... ? .
+2zt(2 l ) ?
+rz-2)( ... .(2^-r+-l )= =r(--1 ) ... ( ~r--r +l)+ rr(-1)(Tr2). .
+( ~r-r+ 2 ) +r x(z.l)(%-2 ) ... ( -r+3 ) x( .
+) .
+Hence , since I )r 1/ 1 ) r-l\ ) we have ( 2 ) =(- ) +( ) y ) r--1 I( '.-21 I +r --2e 2r )+ &amp;c. ; whence we find r/ d dr gU1 ( du r-l,2 dr-2 d$2 dx(-)- .
+, x +r-~ 2_ d-x+ &amp; c , " It has been pointed out to me that .
+this theorem might be more shortly proved by applying VAN7DERMONDE 's theorem to the equation ( 2D))r=(D+D ) ) , I have retained the demonstration in the text merely for the sake of the method , now come to the theorems respecting expansion , which I mentioned in the beginning of the paper as analogous to the binomial and multinomial theorems in ordinary algebra .
+To expand ( g2+ O(7r))n in powers of 7r , where 0(7r ) is a function of ( 7r ) , and ( n ) is a positive integer .
+Let us assume ( 2 +g O())n= &lt; p)(g ) + p()(g ) .
+7r+ q(2)(g )7'2+ &amp;c. , where 0 ) ( +)= A(2'2-1A2+A)2n-l+An-2+ &amp;c. ( P)g =B '2n-l ' +B( ) 2n--2+B(2 ) f2n &amp;c. ; ( o** ) _2n+2+ A(1 ) l ?
+2+l+ A2 ) 2 +f &amp;c. + 0(2n)g2+1 ++A , ')O(2n1)g2-+ &amp;c. ; ..* A =(1 =A ' ) +(2n ) , A2 ' 1=A(2)+A()(2n-1 ) ; or A()= d(2n ) , A'2= -2((2n1)2 ( 2n ) ) .
+Similarly , A ?
+( = = { O(2n2)1(Q(2n 1)V(2n ) ) } ... &amp;c. Again , we shall have C( ) I()=B( ) I2n+1l+ B(1 ) 2n B(2 ) e2sL--1+ &amp;c. -+ n+ 1 n.1_ +Ln+ = '(2n)2n + ' l +A( ''(2n1 )p2 + A(2 ) ( 2n 22 )2-. .
++B( ) 2n^1+l I B(1)g2nf+ B(2 ) 2n-l+ +BR(2n1 ) 2f +B(1)d(2n-2 ) 42n-l+ &amp;c. Consequently B( =B()+ d'(22n ) ; . ? .
+BO=2'(2n ) BO ) , =B(+)+B(O(2n-1 ) +A(d &gt; '(2n-1 ) ; . .
+B( , = 2(O(2n1)O'(2n))+ 2O'(2n -1)0o(2n2 ) ) .
+Hence we shall have ( ?
+2 + ?
+( T))n = ?
+2n +:(2n ) .
+F2n- , + V(2n-l1)2d(2n)2"-2 +:2(2n-2)2d(2n-1)E(22n)2"-3+ &amp;c. + { O'(2n)2'-l+(O2(2n1)2O'(2n)+ O'(2nl)O(2n))2-2+ &amp;c. }r+ &amp;c. When O(ir ) is a rational and entire function of ( r ) , d(2n ) , 2(d(2n-1)2(2n ) ) &amp;c. ; and 2'(2n ) &amp;c. can always be obtained in finite terms , as manifestly ought to be the case .
+In like manner we shall have ( + )DCCCL)X+ M( ) 3 DCCCLXI .
+M + z(O(n2)2z(n))n-4+ z{ ( n4)2(O(n2)2Y.(n ) ) } + &amp;c. + { ?
+'(z)~-+ ( z:'(n2)X)(n)+ O(n2)z , '(n))~4+ &amp; c , }+ &amp;c. ; and also +( ?
++.O ( Tr ) ) =g +Jor2+ ( 2n)g2,3 + 2(0(2n3)2(2n))g2"-6+ { O(2n-6 ) ( 2(0(2n3)20(2n ) ) } g2-9+ &amp;c. +{ E1'(2n ) g2 ?
++ ( l(z'(2n3 ) E(2n ) + 2E(2n3)MO'(2n))ga"-6+ &amp;c. } X+ &amp;c. If we put O(r)='2 , it is obvious that the three last theorems will give us the expansions of ( ex2 d d , d 2+d d2 , d ( dx2+ xs2 ) ( x XX++X+ ) and of in terms of x. The same methods of course will apply to all binomials included under the form ( g-+g ~(5r ) ) " .
+I have found that there is no difficulty in calculating the forms of the coefficients , beyond the labour expended in performing the finite integrations .
+To determine that part of the expansion of ( g+g-'O , l('r)+g-2 2(r*)-+-s3~3(z)+ &amp;c. ) " which is independent of r. Let us assume ( , + O1r ) +2 +-()+r + g-3(ir ) + 2 ... +P_( ) ... n where _O)(g ) = a+A +()n-l Aga2-2+A ( -3+ ... Then we shall have A()+ +AA+ A1 ?
++ ( )l(g)=-+ + AC laa+ A g+a-2+ A+3 ) a ... +g(an"+a4 A'"n+"a-(+ A(2)a+a2-2+ A(3 ) gan+a-3 + .
++ G2(a0 )g"+2(n ) + A(1)-2(a(-1 ) ) + anfa ) + o3(Oqn)par n+ -3f+ A. A(')=A1)+(oC(an ) A',32 =A2)+AI , c)L(a -1)+A2( -n( ) ) .
+3 A2= ( .2 ) A= 2(A+a2)2-O(1 )+ 2()2 -1 ) + ( n ) &amp; C. = &amp; C ; A(- ) = ( o-1)EO1Qzn)+ =2@ , fn ) +3 ( an2)Z(oan)+ 2Q , ( n1)1c(an)+ 63 , ( an ) ; and consequently the part of ( W +g ( )r ) a-2( &gt; +..)n 78 which is independent of ( r ) , is r+ so ( f)gaf+(Bzg( ?
+cn-l1)z~O(ln ) + z2(cn))g-2 +(z21 , ( @n-2)2O1(o l)2.A(csn ) + 2e(osn2)SO2(a ?
+)z + ze , ( n-1)ze(o ) + 1e3(an))f--3 +. .
+SECTION III .
+On the Solution of Linear Differential Equations with Variable Coefficients .
+The general linear differential equation druX dr'u dr-2u !
+&amp; x r+X , _ +Xr -2d + &amp;c. =X , where X. , X , , are rational and entire functions of ( x ) , may , as Professor BOOLE has shown , be always expressed in the symbolical form %( % r)M + 4'-'1 _ , ( 7 ) ... gl((7r)+Po( , ( 7r)=X , , where d g=x , and rr=xd , and n(wr ) , _ &gt; 1(7r ) , &amp;c. are rational and entire functions of ( 7r ) .
+Suppose that by using the methods explained in this paper , we are able to reduce this equation to the form ( ~1({7 ) +44 -1)())(7 ?
+-"( ' ) +2-"(~ ) ) ... ( g A ( v ) + 4'0(X))%= X* Assume ~ , , , ~ , ( 7r)M , _ + , ( ,7)_ - , =X ~ , t^-1')(7r)U_t 2+ J , pn-l)(r)~_n-2=n-I_ -2(rr ) ?
+'-"3N++0 )(7)u- , =3=U._2 &amp;c. -= &amp;c. Ul ) + , o ( 7r ) =U .
+We thus reduce the proposed differential equation to forms already treated of by Professor BOOLE .
+We may much simplify the process already explained for treating the symbolical quantity g p(r ) + &amp;c. + 0Po( ) , by remarking that '(7r ) must be sought among the divisors of &lt; ( ir ) , oi , ( r ) among the divisors of P0(Xr ) ; and we shall make use of this principle in the following application of the preceding theory to the solution of differential equations .
+We shall denominate the equation deduced in the former part of this memoir , 1o(~ ) 1 o(n)~0(~ ) , ( ) ' , ( 0r ) ( P'-1)+':( ? ?
+1)(7r2)(--2)- &amp;c. =0 , the criterion of the factor g+l()+ , o(a ' ) .
+tRUSSELL ON THE CALCULUS OP SYMBOLS .
+To integrate the differential equation , d3u d2u du x2( +1)3 dS +3x(x +1)3 d+ ( +x +4+ 3x ) d-(2x3)t= X. The symbolical form of this equation is r'3C_+ ?
+2(33+ ?
+_1)+ 3Sg( ) 1 )+1)+r-( )-=)Xx .
+The divisor of 0r3 is ?
+r only , the divisors of ?
+( ?
+2-1 ) are T--1 , r , ?
++l ; hence putting ( )=-,7 4/ or=7T--1 , we find the criterion of the symbolical quantity 4i1(r)+Q(9r ) to become ( l)-3{(-1)3+1 } +{ 3(Xr-2)+('r-2 -12 }-(r3)3=0 , an identical equation .
+Hence r +(r1 ) is an internal factor of g3 , R3 + 2(3 _ 1 ) + 3e(+ + 1)+l ( ~2-l ) ; and the equation may be written , effecting the internal division , { ?
+2(_ 1)2+g( +l)(23-3)+ T(+l)}(g ?
++(x-1))u=X ; or if g ?
++('( --1))=t , , { g2(-1)2+ Q(Z + 1)(2-3 ) +(r + l)}u =Xx .
+The only divisor of ( 7r--)2 is 7Z-1 , the divisors of r(7r+1 ) are r and 7r+1 ; and by trial it is found that the divisor g(7r ) +(7+1 ) satisfies the criterion , and is therefore an internal factor .
+Hence , effecting the internal division , ( g(r2 ) +7)((7r-l)+( + 1))Nu =X , and the differential equation becomes ( ( r-2)+ 7)(g(~r-l)+(r+ 1))(geT+(-))U=Xx , or { ( X22+X ) 2x}{(2+ ) -(x-1)}{(2+x)1}-l }=Xx .
+Hence , performing the inverse calculations , we find for the complete integral ; _ dx(f +1)2(1 df Xdx f-X+lJ 3 J1( +l 1)3 ' the three arbitrary constants being included under the signs of integration .
+In case this method does not succeed , we may sometimes resolve the symbolical function into factors by assuming u=(7r+-)v and proceeding as before , determining ( a ) from the criterion , as will be shown in the following examples : To integrate the differential equation d.u du &amp; 2(X+ 1)3 d 3+a(4X3+11 2+10f +3)d+2a9+10x2+5x-3=X .
+The symbolical form of the equation is 3(r2+ 3 +2)+g2(3r2+ 8r+10)+g(32'+ 7Tr+5)+2+ 2r3-X .
+80 tRUSSELL ON THE CALCULUS OF SYMBOLS .
+81 Let u-=(r+-)v , and the equation becomes g3(5 +l1)(zr+ 2)(r + )vg2(3-2+ 8r+ 10)(Qr+E)v +g(3r2+ 7r+ 5)(X+ )v +(Xr1)(r+ 3)(+ )v=X .
+Let / 1 , ( r)=-r+2 , / 0o(7)=-r+~ , then the criterion of g( ?
+r+2)+(r+E ) become ~ +f ( ~+2 ?
+-3)(Qr+ ) )((3s2 +~+1)(~+ 1 ) ( + )(7r + -1)(r+.-2+ q -9 ) --(+ )+ ( sr+l)(--l ) ( +-3rd3+2)(Xr+d-3 )-0 .
+Put =O0 to determine ) , and we have |=0 as one value of k , which on trial is found to satisfy the proposed .
+Hence g( ; r+2)+-r is an internal factor of the symbolical function 3x(7S+ 1)(X+2 ) + ?
+2(3 , +3+ 8s2+ 10X ) +g ( 3+X3 72+ 5)+ ( , _1)(r+ 3 ) .
+Wherefore , effecting the internal division , the equation becomes ( ?
+25+ g(2x+ 3)+n+ 3)(X7l)( ?
+( z + 2 ) +-)v=X , whence performing the inverse calculations , we have 1 c\dx(xA+1)3 CdX.x2.X d1x ( x +^ 1 ) .
+x dx .
+x2X .
+' .
+6=x~{t(X+ l)qi(+X)y 5 xt +)5 } where the arbitrary constants must be reduced to two .
+Next consider the differential equation du du ( ax+23+xa2 ) 6(x2+x ) d +6(x+2)=X ; the symbolical form of this equation is f2z(Ql)u-+2(r-1)(r3)u}+(@3)(a -4)u=X .
+Let z=(Tr+-)v , and the equation becomes 27r(7r-1)( +)v -+2g(r 1)(7r-3)(7r+ )v+(7r-3)(4)(7r+f)v=X .
+Let -,1(7r)=7r-1 , 0((7r)=7r-3 , and the criterion becomes ( 3)(7r-4)( , +E)_{2(--2)(7r-4)}(r+E-1 ) ( Wr3)(7r4 ) + -2 ) ( _3 ) { ( 7r-2)(7r-3 ) } ( r +-2)=0 .
+Putting 7r=0 in this equation , we have e=0 , and this value renders the above equation identical , &amp; ( r i)+( -3 ) is an internal factor of the symbolical function 272(_ )+2g7(r-1)(7r-3)+7(7r3)(-_ 4 ) ; wherefore , effecting the internal division , the equation becomes { g(7r-.1)(2+r(r-4 } { g(7-1)+(r-3)}=X .
+This equation may be written J( -2)( 3)(s 4)1 1 ' ( -l ) 1l X('---4 '('--2).,.(9+l ) --.I ) ' I ; I ) +(r 3))=x , in which the inverse calculations are all practicable .
+As a final example we take the differential equation d2u du ( x +4x4+5x+2x2 ) d2 +(2x4+ 3X3 + 5x2 -6 ) d+(l )2=x The symbolical form of this equation is g/ ( 7r+1)u+e(4+ 1 ) +g(52 _57+ 2 ) +( -1 )(2 -- .
+1 ) = X. If we put u-=7rv , the equation becomes ( + 1)(r-1 ) ( ( ~1)+ r)(gr +(2r1))v=X , in which the inverse calculations necessary for the solution of the equation ' are all practicable .
+In cases where the assumption u-=(r-+)v does not lead to the solution of the equation , we may assume t=(7r+~l)(7r+~2)v , and proceed as before .
+We may also treat linear differential equations by ascertaining the condition that I()T7r+4-0(g ) may be an internal factor of this symbolical expression,.( ) .
+-r +r ( ._()7r"-1+ &amp;c. + ~1()r+ o( ?
+) .
+I have shown how this is to be effected when n=2 or 3 .
+For higher degrees the investigation would be very laborious .
+In all cases in which the second member of the differential equation is zero , this internal factor , supposing it to exist , would conduct us to a particular integral .
+82
+

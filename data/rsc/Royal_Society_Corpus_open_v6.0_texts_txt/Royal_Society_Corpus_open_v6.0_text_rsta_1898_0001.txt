@@ -1,0 +1,552 @@
+]\gt ; INDEX , A. R\mdash ; Memoir on the Integration of Partial Di#erential Quattons of the Seoond Order in Three Indepeodent Va .
+when au Integral does not exist in general .
+Pbil .
+Trans. , .
+vol. 191 , pp. 1-86 .
+stic Invariant of Partial Diffelential Equations .
+OItSYTH , A. R. Phil. , 1898 , voh 191 , pp. 1-86 .
+Some new Solution3 of Laplace 's Equation and other Equations in Mathe- niatical FORSTTH , A. .
+Phil. Trans. , .
+, 1898 , , pp. 1-@6 .
+PHILOSOPHICAL I. Memoir on the Integration of Partial Equations of the Second Order in Three Independent riables when Integrad does not exist in general .
+A. R. FORSYTH , F.R.S. , Professor in the University of mbridgc .
+Received November 23 , \mdash ; Read December 16 , 1897 .
+THE general feature of most methods for the integration of differential equations in two independent variables is , in some form or other , the construction of a set of subsidiary xtions in only a single independent variable ; this applies to all orders .
+In particular , for the first order in any number of variables ( not merely in two ) , the system is a seb of ordinary equations in a independent variable , containing as many equations as dependent variables to be determined by that subsidiary system .
+For equations of the second order which possess an intermediary integral , the best methods ( that is , the most effective as giving tests of existence ) are those of BooLE , modified and developed by ISCHENETSKY , and that of GouRSAT , based upon the theory of characteristics , but subsequently brought into the form of systems of simultaneous partial equations of the first order .
+These methods are exceptions to the foregoing general statement .
+But for equations of the second order or of higher orders , which involve two independent variables and in no case possess an intermediary integral , the most general methods are that of AMPE and that 0fDARBOUX , with suct ] modifications and reconstruction as have be introduced by other writers ; and though in these developments partial differential equations of the first order are introduced , still the subsidiary system in effecb a with one independent variable expressed and the other , during the integration , playing a parametric part .
+In ] words , subsidiary system one independent variable fewer than the original equation .
+In another I have given a method for dealing with partial differential equations of the second order in three variables when they possess an intermediary integral ; and references will there be found to other writers upon the subject .
+My aim in the present paper has been to obtain a for partial differential equations of the second order in three variables when , in general , possess no intermediary integra ] .
+The natural generalisation of the idea in DARBOUX'S has been * Partial Differential Eqnations of the Second , involving Three Independent iables and possessing an Intermediary Integral Camb .
+Phil. Trans. , vol. , 1898 , pp. 191-218 .
+VOL. CXCI .
+\mdash ; A. ] 2.4.98 A 2 , adopted , viz. , the construction of subsidiary equations in which the number of expressed independent variables is less by unity than the number in the original equation ; consequently the number is two .
+The subsidiary equations thus are a set of simultaneous partial differential equations in two independent variables and a number of dependent variables .
+It then appears that such differential equations of the second order having no intermediary integral divide themselves into two classes , discriminated by the distinction that , for the one class , what I have called the characteristic invariant , viz. : can , function of and , be resolved into two linear equations , and , for the other class , the characteristic invariant is irreducible .
+The first section of this paper is devoted to the general theory of equations of the second order , so as to construct systems of equations subsidiary to the integration ; occasional paragraphs in the other sections develop the general theory in connection with particular types of equations .
+The second section is devoted to the integration of equations whose characteristic invariant is reducible : a method is devised whereby the integration can be effected in those cases where the integral can be expressed in a finite form without partial quadratures ; and various exampies are given in elucidation of detailed processes .
+The third section is devoted to the integration of equations whose characteristic invariant is irreducible ; and the method is applied with considerable detail to some of the equations that are important in mathematical physics .
+It should be added that the case of three independent variables has been selected for detailed treatment , as being that of complexity next greater than the case of two independent variables , the general theory of is fairly complete .
+An spection of the results , as well as of the processes , will make it manifest that , for many of them , generalisation to the case of independent variables is immediate .
+* SECTION I. General Theory .
+1 .
+Let the number of independent variables be , and denote them by Denote the dependent variable by , and write * See a note at the end of the paper .
+IFFEBENTIAL EQUATIONS OF THE SECOND ORDER .
+Let any general differential equation of the second order be taken in the form O. When the proper value of is substituted , this becomes an identity , so that , when differentiated with regard to .
+, in succession , the results are identities .
+Hence , writing have . .
+By CAUCHY'S theorem , a solution of exists , determined by the values of and one of ibs derivatives , assigned for a relation between .
+This implies that , at all points on the surface represented by the relation , the values of and , say , are given ; and consequently the values of and are known at all points on the surface .
+Taking now , as known on the surface , and denoting by , the derivatives of with regard to , along the surface , we have so that , as , are known everywhere on the surface , the quantities ' ' are known along the surface .
+These equations require the relation so that they determine five of the quantities , in terms of the remaining one , cqay We also have so that , in general , there are six equations to determine the six derivatives of the second order ; and if is algebraical in , there will be a limited number of sets of values of these quantities , which can therefore be regarded as known along the surface .
+In the way , the derivatives of higher order can be deduced everywhere on the surface , and so , taking any point as an initial point , we have the values of all the derivatives of known thele ; we then have a series in powers of which , in theorem , is proved a converging series when is an ordinary point in space for the equation : and consequently we infer the existence of the solution as established by CAUCHY'S theorem .
+* This conclusion is justified only , however , if the equations do actually determine sets of values of .
+In the case where sets of values are not determined , so that , e.yc .
+, the equation becomes evanescent on the substitution of the values * The most form of the theorem may be stated as follows:\mdash ; If be an ordinary relation for the equation , that is , if it is not a solution of the charaoteristic invariant equation , then a solution of the equation exists satisfying conditions :\mdash ; ( i ) is eqnal to a given arbitrary function of , everywhere along , surface ) ; ( ii ) one of the derivatives of is equal to a given function of , everywhere along the same surface ; and a soIution satisfying these conditions is uniquely determined by them .
+See also a paper , Proc. Lond. Math. Soc. , vol. xxix , 1.898 , pp. 5-13 , in particular , p. 12 .
+DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+of , the preceding inference is not justified .
+Manifestly one such condition be ; but this is , of course , only one among a number of equations .
+The method , practica ] lie contained in theorem , leads to a result only in an infinite form ; moreover , it takes no account of the alternative when conditions are not satisfied .
+We proceed , accordingly , to give another method , gested by the corresponding investigation ( due to .
+equations of the second order in two variables .
+2 .
+The principle underlying DARBOUX'S method is , in effect , similar to that which underlies AMPERE'S ; but as DARBOUX'S method most easily admits of application to equations in which the derivatives of highest order occur linearly , it is customary to form derivatives of a given in order to secure that the equations discussed shall possess this property .
+If however the equation be already in a linear form , mere generalisation of AMPERE'S method can first be tried , for the number of subsidiary equations is considerably smaller than in the other method , and consequently the integrations ( if they can be performed ) are correspondingly easier .
+* It will be sufficient .
+the present purpose to consider a particular example , say When we substitute for , we find ; the equation now must not determine the value of , and so we must have : and there is also the identical condition From the first of these , it follows that either or * A discussion of the subsidiary system , and of the relation of its to the solution of the original equation , will be found later , in SS 27-29 .
+When , then is a function of .
+Also the second equation becomes , so that is a function of .
+We infer , from the general considerations adduced , that we may take , where is an arbitrary function .
+When , then is a function of .
+Also the second equation is which , by means of the identicul condition , can be transformed to so that is a function of , and the corresponding inference is that where is an arbitrary function .
+Each hese is an intermediary integral , and the integration can be completed .
+* .
+Passing now to the generalisation of DARBOUX'S method , we chsnge the variables from , to , where is a function of , as yet undetermined , so that also is a function of , not yet determined .
+For the consequent variations of when , vary , write ; and when , are the variables , denote the variations of the other quantities by Thus * The example is discussed ( and the solution completed ) in another connection in S9 .
+DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+Derivatives of the third order will be required .
+Write .
+' ' so that dedbdgdfdh Now , from the equation , we have , on supposing a proper valuo of substituted , an identity , which thus admits of being differentiated and leading to identities .
+Thus or say and also ) Consider the forms taken by these equations when the new variables are used .
+We ' The following relations , free from derivatives of the third order and not involving derivatives with regard to , subsist among the derivatives of , viz. : Further , from those equations , we have , Other expressions are obtainable , but they are equivalent to this set in virtue of the three relations above given .
+We take the value of to be Substituting these values in the three equations , we find DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+where ; and in each of these has the above-mentioned value .
+4 .
+There are two considerations , initiaIly distinct , but found in the course of the argument to be concurrent , which enable us to obtain a certain set of subsidiary equations ; they correspond to the two modes of aining the subsidiary equations in AMPERE'S method of solving equations of the second order in two independent variables .
+According to first of them , we note that the new valiable is as yet limited by no conditions ; it has hitherto remained arbitraxy .
+it chosen so that , that is , Then the term disappears from the three equatio1ls ; and these ( after ome reductions in which is used as well as the identical relations ffecting the derivatives of , h ) take the forms ' According to the second of the considerations indicated , we assume that the new variable , which has been adopted , is an argument in an arbitrary function that occurs in the solution .
+Then will , through the term in its ] , introduce a triple differentiation with regard to beyond any differentiation that occurs in the integral equations , while no one of the other terms in any of the equations will introduce more than a corresponding double differentiation with regard to .
+Assuming the integral to be of such a form there these differentiations give rise to derivatives of the arbitrary function , it follows*that will Provided always that the numbel .
+of derivatives of the arbitrary function in question , as occurring VOL. CXCI. .
+contain a derivative with to of the rary function in question , of higher order any other term in any of the equations .
+Now the equations must be satisfied identically when the value of is substituted in them ; hence the term in must disappear in and by itself in each case , that is , we have the same conclusion as before .
+The remaining parts of the equations must also vanish ; their are already given .
+5 .
+The quantities , which have to be determined for the present trpose , are , viz. , eleven in all .
+They are functions of omitting those equations in which derivatives with regard to ?
+occur , the eleven quantities are to be functions of and .
+Constants that arise in the integration are constant because the variation of does not appear explicitly ; that is to say , the constants are functions of The equations for the determination of the eleven unknowns are artial differential equations of the first order ; their aggregate is constituted as follows : First , for the equations defining quantities , we have eight in all .
+But there are certain relations among derivatives that must be satisfied .
+We have , that is , , or , since we have in the solution , is finite .
+If the solntion is not expressible in finite terms , the inferenoe is not noces .
+sarily justified in the present connection ; we should then fall back upon the first of the two argnments .
+An example wiil be found in SS41-43 .
+DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+a relation that is satisfied identically in virtue of the defining equations .
+As it is deduced from two of these equations , and it is satisfied identically in virtue of others , the inference is that the set of equations must consequently be reduced by one in number when only those which are independent are to be retained .
+Treating the other three in the same manner , we find ' equivalent to the identities obtained in S3 .
+As these are deduced from the eight defining equations , they are satisfied in virtue of those eight ; they do not constitute any addition to the aggregate .
+Seven , therefore , is the number in this class .
+The remainder are the equations characteristic of , viz. , they are being four in all .
+It thus appears that the tale of independent partial differential equations in the system is eleven , being the same as the number of quantities to be determined .
+It is to be noted\mdash ; the verification is simple\mdash ; that the original equation is an integral of these eleven simultaneous equations .
+Hence , for their effective solution , other en integrals would be required if further considerations cannot be introduced ; but it will appear from examples that this can be done , having the effect of appreciably shortening the process of integration .
+6 .
+One generalisation is immediately suggested by the results obtained .
+In solving equations of the second order in two independent variables , the subsidiary system is composed of .
+set of simultaneous equations involving one independent variable in effect ; and the preceding investigation shows that , for equations of the order in three independent variables , a subsidiary system can be constructed in the form of a set of simultaneous equations involving two independent variables in effect .
+It is thus suggested\mdash ; and it is easy to see that the suggestion can be established definitely -that , for an equation of the second order involving independent subsidiary system can be constructed in the form of set of ential equations of the first order involving in effect n\mdash ; l independent and a number of dependent variables , this system being subsidiary to the integration of the proposed equation .
+7 .
+The of the equations , , belonging specially to the postulated equation , can be expressed in a diffelent form .
+The quantity is regarded as a function of , ?
+/ , ; and , denote the values of , respectively , when is C011sidel.ed constant .
+Let the equation connecting .
+be given ( or taken ) in the form ; then we have Substituting and , the equation oecomes .
+, after the preoeaing explanations in S4 , is an equation satisfied by an argument of an arbitrary function in the integral of the differential equation It is not difficult to prove that this equation is invariantive for all changes of the independent variables .
+For oose them changed according to the transformations , , ; and let , . .
+denote derivatives of , .
+while .
+denote derivatives of with regard to the new variables .
+Then ; and . . .
+, the terms represented being terms involving the derivatives , of the first order only .
+If , then , the differential equation becomes IONS OF SECOND ORDER .
+after these substitutions are made , we have , and so ou ; so that , if we have on substitution and collection of tion may therefore be called the characteristic of the original differential equation .
+8 .
+A method for integrating partial differential equations of the second when they possess an intermediary integral , been givenl by me elsewhere ; its aim is the actual derivation of the intermediary integral which , being of the first order , can be arded as soluble .
+The preceding method no assumption as to the existence of an intermediary integral , and indeed is entirely independent of ihat existence ; so that it can be applied not merely to that former class , but also to equations that do not satisfy the preliminary conditions for the possession of an ntermediary integral .
+SECTION II .
+Equatvons having Resolnble Invariant .
+9 .
+As a first example ( which , it will be seen , possesses intermediary integrals ) , consider the equation The characteristic equation is which can be resolved into the two equations The other three equations , deduced in tS3 , 4 , are easily found to be ; and we have the relations of identity , viz. , Take first the form showing that is any function of .
+The three deduced equations then become , , , so that , are functions of Hence , as , by the original equation , we must have we take , as integrals of the differential equations of the present type , , , , where and are arbitrary .
+Hence sJso , , .
+It therefore follows that ; DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+and consequently there exists a function , say , such that , and therefore we have , where is an arbitrary function .
+We might proceed from this equation to the primitive .
+Next , take the relation deduced from the characteristic ; this shows that is a function of .
+The three deduced equations now are ; and inserting the value in the three relations of identity , they become Combining these , we find so that , are functions of .
+Hence , as we must have by the original equation we take for an integral equation , as in the former case , , , here G and ) are arbitrary .
+But , , so that we have ; consequently there exists a function , say , such that and we then have .
+We may proceed from this equation to the primitive .
+As two distinct intermediary integrals , .
+: , , have been obtained , it is worth noticing that they can be treated simultaneously , for they verify identically the JACOBI-POISSON condition of coexistence .
+If we introduce two new functions , and defirled by the equations so that and are arbitrary functions , then the simultaneous integral is easily obtained , say by MAYER'S method , the form , which is the general primitive .
+10 .
+We next proceed to an example in which the given equation does not possess an intermediary integral .
+It is not difficult to construct differential equations * Math. Ann. , , pp. 460-466 : ' see also my 'Theory of Differential Equations , ' Part I. , SS41-43 .
+DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+of the second order in three independent variables , possessing a general primitive involving a couple of arbitrary functions of two arguments , but not an intermediary Let ' so on for higher derivatives and for her functions .
+two ; and consider the equation as one which and are to be eliminated by me ns of ivatives of } nut higher than two ; the quantities , being defined as We have second derivatives , it is unnecessary to form expressions for and , for the latter gives the only equation which contains , and the former the only one which contains , so that , when elimination is to be performed , these would be ignored .
+We therefore take VOL. CXCI.\mdash ; A. 18 .
+PROFESSOR A. R. FORSYTH ON THE INTEGRATION OF What is required is the ] imination of the functional forms from these equations , if this be possibIe .
+Manifestly all the third derivatives of and disappear in the combination ; in fact , If , by means of the expressions for , it be possible to eliminate and , we must have a relation of the form where , do not involve or order that the terms in and may disappear , we have ; those , may disappear , we have ; that those in and may disappear , we have ; and , Jally , that those in may disappear , we have These equations to be satisfied simultaneously .
+Using the last set of three , we have , on substituting in the third from the first and second , ; and similarly , from the first set of three , We accordiugly take DIFFERENTIAL EQUATIONS OF THE COND ORDER .
+With this value , the first set gives that is , .
+Since , are independent variables , this can be satisfied only if , say , so that Similarly , the second set gives leading to , say , so that The first set of equations can now be replaced by Hence , and so ; also so that Similarly , by the other set , we find , and so ; and As the values of , must be the same in the two and as the variables , are independent , we have say , whence so that It is easy to verify , when is distinct from and , there is no intermediary integral , that is , no relation between , involving only one of the arbitrary fimctions and 40 .
+We have ; and then the differential equation is It has no intermediary integral .
+Its primitive is where ; and has the above value , and is neither nor 11 .
+Now take a particular case , so as to illustrate the method of rationa .
+Let ; .
+The difierential equation is ; and it is required to obtain the primitive , .
+For the differential equation thus postulated , the cAaracteristic equation is that is , DIFFERENTIAL EQUATIONS OF THE COND O We therefore have two solutions .
+The first is leading to function of ; the second is leading to function of The other three equations , particular to the equation consideration , are that is , Taking first the case we have But and ; so that We thus recover the differential equation , which is an integral of the system ; the arbitrary function , which would arise through integration , is definite : we have , in fact , Using this integral , the second equation becomes ( on the elimination of ) Combining this with the first equation , we have so that , as , we have Since implies that is a function of , we infer that .
+fn .
+of when .
+fn .
+of ; and consequently an integral that can be associated with the original equation is given by , where is an arbitrary function .
+Taking next the case , the alternative that arises out of the characteristic equation , we have the three other equations the same as before .
+It is now necessary to take account of the three equations of identity , which , when the relation is used , are of the form , , ; so that , eliminating the terms in from the three equations , we have DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+Eliminating the term in from the second and the third of these by means of the original differential equation , we obtain the modified equations in the forms By the first of the formel and the second of the latter , we find Now , as behaves like a tant under the operation ; hence we have when Consequently .
+of .
+fn .
+of ; and we therefore that is an integral that can be associated with the original eqnation , being an arbitrary function .
+In order to proceed to the primitive , we take first , and introduce a new arbitrary function , defined by so that where is an arbitrary function of .
+Hence , where is arbitrary so far as this equation is concerned .
+Similarly , introducing a new arbitrary function , defined by the equation leads to the equation Hence , where is arbitrary so far as this equation is concerned In order that the two equations , giving the values of and respectively , may coexist , they must satisfy the PolSSON-JACOBI condition , which , when developed , gives ; so that , taking account of the arbitrary character of the functions , we have Thus , It is to verify , not merely that these equations-9oexist , but also that each of them satisfies the differential equation ; but neither an intermediary integral in the customary sense , for each of them includes two arbitrary functions of two arguments .
+The equations are of the first order ; it is easy to obtain the primitive in the form where and functions , and ) their respcctiyo iirst tiyes .
+DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+12 .
+It will be noticed that in these examples the equation ( which is of the second degree in and q ) is resoluble , so that it can be replaced by two linear equations , and that the latter have , in turn , been combined with the other equations of the system .
+Now , these equations are of LAGRANGE'S linear form , and their integral is such that some combination of variables can be an arbitrary function of some other combination .
+Further , it has appeared that the integral of the subsidiary system ( other than the original equation ) is such as to make some combination of the variable quantities a functional combination of or at the same time that and are functionally related , so that , as the functional forms are arbitrary , we infer that , where is arbitrary , is an equation that can coexist with the original equation .
+Hence it is to be inferred that when is a resoluble equation , that is , can be resolved into equations linear in and functions of two arguments occur in the most general equivalent of the original equation .
+13 .
+The converse also is true , viz. , if integral rdation involve at least one arbitrary function of couple of distinct arguments be to partial equation of the second order , and not to an equation of order lower than the second freed from arbitrary functional forms , then the characteristic invariant equation can be resolved into linear equations .
+( The number of independent variables is , of course , presumed to be three .
+) Let and be two independent functions of , so that more than one of the three quantities can vanish .
+As regards the arbitrary function of and , let it occur in the integral equation in the form where denotes the derivative of the arbitrary function of highest order in .
+Then we have .
+derivatives of of lower order , . .
+, VOL. CXCI .
+and so for the others .
+Now the integral equation is , by hypothesis , equivalent to a partial differential equation of the second order , say to ; hence when these values are substituted the equation is to be satisfied , and accordingly the terms involving the various combinations of the arbitrary functions must sappear .
+Thus the highest power of \mdash ; or what in effect is the same thing , the highest power of \mdash ; must disappeal of itself , and therefore or , with the former notation , But the term involving the highest power of , which will be of the same degree as the highest power of , must also disappear of itself ; and this gives rise to the equation ; and likewise the term involving the highest power of must disappear , leading to the equation A From these we have ; so that , squaring the last , subtracting the product of the first two , reducing , and removing the factor , we have ( Discrt .
+of ) Similarly , by taking modifications of the first equation in the form .
+, or in the form .
+, NTIAL EQUATIONS THE SECOND ORDLR .
+and removing factors and respectively , we find ( Discrt .
+of ) ( Discrt .
+of ) Now it has been seen that not more than one of the three quantities can vanish .
+Consequently Discriminant of iu other words , the equation , thab is can be resolved into two equations linear in and .
+This establishes the proposition .
+But if , instead of being a function of two arguments and , were a function of only a single argument , then instead of three equations we infer only one equation of the type and its resolubility cannot be established .
+( It is , of course , not the case that it is not resoluble in particular cases ; it is not resoluble in generaL ) Hence equation cannot be resolved into two equations , in infe ' that the rbitrary functions which occur in tloe ctions of only a ringle argument .
+14 .
+In the case when is resoluble into two linear ions , and when the other equations possess integrable combinations , a method can be constructed for obtaining those combinations .
+Thus take the example considered , where the deduction of the combinations is fortuitous in the sense that no dication of kind of combination is given .
+Let be an integrable combination ; that is , we must have .
+Either ( i ) one of them , or ( ii ) a linear cross between then ] , ( iii ) both of them , be satisfied in virtue of the set of equations .
+PROFESSOR A. R. FORS ON THE INTEGRATION or Let us consider , first , the case when so that remains arbitrary .
+Evidently will not be the equation to be satisfied ; so that the effective combination must arise in the form when .
+In other words , we must have the equation ( where the value has been inserted ) , satisfied in virtue of the system of subsidiary equations .
+The relations of identity all involve , and refore cannot be useful for the purpose .
+Hence the above equation must be a linear combination of where ; these being the equations particular to the present case when the valuc is When therefore we substitute DIFFERENTIAL EQUATIONS OF THE COND O the equation derived from , the latter should become an identity ; that is , we should have satisfied independently of the values of derivatives of , with regard to .
+It therefore follows that , if a function of the suggested type should exist , it must satisfy the system of equations and ; and the number of functionally independent solutions of these homogeneous simultaneous equations is the number of integrable combinations of ths subsidiary system .
+This system of partial differential equations of the first order must be rendered complete by associating with it the JACOBI-POISSON conditions .
+This complete system , obtained by the regular processes , is without difliculty proved to be equivalent to and the latter being the modification of last of the .
+initial equations .
+The complete system thus contains nine : it involves thirteen variables , viz , , and consequently it possesses .
+functionally PROFESSOR A. R. FORSYTH ON ] ] INTEGRATION OF independent solutions .
+These can be obtained , by any of the regular methods , in the form But the last is zero , owing to the original differential equation ; and by using this nposed restriction , the second becomes Consequently the most general solution of the system is where is arbitrary ; an equivalent of this is , where is arb.itrary .
+Similarly a new relation between derivatives of the second order can be deduced by taking the alternative solution of the characteristic equation .
+rest of the solution proceeds as before when once the system of partial differential equations satisfied by is obtained .
+Now , when , the relations of identity are .
+These can be used to eliminate the equations particular to the present case , the latter then become DIFFERENTIAL EQUATIONS OF THE SECOND ORDF , R. which hold whatever be the value ofp .
+But from we have and For our immediate purpose , ; hence , subtracting , we have which , being free from and , must be satisfied in virtue of the above three equations .
+This being the case , it must , when we substitute ' be satisfied independently of the values of Assigning the necessary conditions , we find - .
+The integration of these equations can , as already stated , be effected.in the same way as for the preceding part of the solution of the original equation ; the most general solution of the system is found to be .
+15 .
+That the method just expounded is not restricted to individual instances of equations , which is resoluble , can be seen as follows .
+We consider , more generally , the case when is resoluble into two linear equations .
+We have Let then , since we have and the equation is , that is , we have the two equations where Taking the former of the two equations , viz. , we seek to obtain combinations of the three equations of identity with the three equations particular to the present case .
+The first equations of each of these sets , as given in SS4 , 5 , are DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+Multiply the latter by , and add it to the former .
+In the resulting equation , the coefficient of is which is ; the coefficient of is But this coefficient , multiplied by ; and therefore the terms , involving derivatives of , are The terms involving derivatives of are ; and those involving derivatives of are .
+The equation is now in its simplest form .
+The other pairs may be treated in the same way ; and thus , corresponding to the equation we have a system of three subsidiary equations free from and in the form where .
+VOL. CXCI.\mdash ; A. If be an integrable combination of these equations , then we must have Multiply the latter by , and add to the former ; where and occur in the result , it is in the form and so the equation is Sb @c This must be satisfied in virtue of the three preceding equations and independently of the actual values of Sa , . .
+, .
+Substitute for @ , Sb , Sc ; then the coefficients of Sf , Sg , , and the independent of these must vanish .
+We thus obtain four linear homogeneous partial differential equations , viz. , DIFFERENTIAL EQUATIONS OF THE SECOND with .
+This system of four equations must be rendered complete by constructing the additional equations that arise out of the JACOBI-POISSON conditions .
+If , when complete , the system contains equations , then it possesses functionally independent solutions .
+Among these must be included ( i ) the original equation ; ( ii ) the two distinct integrals of ; say these are Putting these on one side , there are thus new functionally independent solutions .
+A not uncommon case is , when there is one new solution , say Then we have , where is an arbitrary functional form ; and this equat.ion coexists with the ol.iginal equation 16 .
+Thus far we have considered only one of the two equations into is resoluble .
+When we consider the other equation , viz. , the sole difference in the general ] ysis is manifestly a change in the sign of ; and we therefore obtain the corresponding system of linear homogeneous partial differential equations , determining an integral combination ( if any ) , by changing the sign of in the preceding em. The method of integration is the same as before .
+It may happen that neither of these two systems possesses a solution distinct from the differential equation .
+If , however , either ( or both ) should possess such a solution , then must be less than 10 , and certain condition s\mdash ; viz. , those in order that the system when complete should contain not more than nine equations\mdash ; must be satisfied .
+These are the conditions in order that one equation\mdash ; or two equations , if the result hold for both systems\mdash ; of the second order involving an arbitrary function of two arguments should be associable with the given equation .
+And it should be noted that the characteristic invariant of an equation associable with the given equation is satisfied by that linear equation in the characteristic invariant of the given equation which is used to derive the new equation .
+result is general , and the proof of the general result is immediate .
+17 .
+Now it may happen that the simultaneous system of equations admits of no new common solution in either case ; the inference then is that no equation of the second order containing a single arbitrary function can be associated with , or is compatible with , the given differential equation .
+But it may then be that some new equation of the third order\mdash ; new , that is , in the sense that it is not one of the immediate derivatives of the given equation\mdash ; containing an arbitrary function can be associated with the given equation ; and this may occur with each of the linear factors of .
+And so on , precisely as in DARBOUX'S method for dealing with partial differential equations in two independent variables ; we seek to obtain one equation ( or , it may be , two equations ) of finite order which are compatible with the give equation , contain one arbitrary function , and are not mere derivatives from that given equation .
+We have been proceeding on the supposition that the equation possesses no intermediary integral .
+If no other equation of finite order is compatible with the given equation , *then the method ceases to be effective .
+In that case , the only result generally attainable seems at present to be that which occurs in the establishment of CAIJCIlY'S existence-theorem ; the integral certainly contains two arbitrary functions , but its expression ( in the form of a converging series ) is not finite .
+18 .
+Suppose that the conditions for the existence of a new common solution are satisfied for neither of the systems in SS15 , 16 , so that no new equation of the secorld order , containing only a single arbitrary function , is compatible with the given equation .
+We proceed to construct the system of subsidiary equations which determine an equation ( if any ) of the third order containing only one arbitrary function , and compatible with the given equation O. On account of this equation , we have three derived equations of the third order , viz. , the former notation ; and the new equation ( if any ) must be compatible with these .
+19 .
+The process is an amplification of that used in S2 .
+When the proper value of is substituted in , the latter becomes an identity , so that , when it is *A simple stance is given by where is a positive constant other than an integer .
+DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+differentiated with regard to the independent variables , the results are identities .
+By hypothesis , no new equation is derivable when first derivatives are formed : we therefore the derivatives of the second order , being six in all ; viz. , they are equations which contain derivatives of of order 4 .
+Let these fifteen derivatives be denoted by , .
+, , their definitions being given by the scheme let ( XX ) denote the part of which is free from derivatives of the fourth order , ( XY ) the corresponding part of that of ' and so on .
+Then the six equations are ( ) ( ) ( ) As before , let the variables be changed from , to , where is a function of , as yet undetermined , whence also is a function of .
+For the consequent variations of when , vary , we write and for respectively ; and we adopt the notation of S 3 .
+The new expressions for the variations of , are given in S 3 ; those for the variations of , are given by the equations rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , rJoq , The following relations subsist among the derivatives of , . .
+, , free from derivatives of order 4 and from de1ivatives with regard to , viz. , DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+These six identical relations reduce the twenty equations in he two egoing columns to fourteen independent equations ; hence the fifteen derivatives be expressed in terms of one of them , say , and of derivatives of , .
+, ; and the value of is .
+These expressions for the other fourCeen , in terms of , are 20 .
+When these values are substituted in the six ions , and terms are collected , it appears that the terms in in the six equations are respectively . .
+reasons which , being the same as before , need not be repeated here , the term in is made to disappear each of the equations , and thus we have the characteristic invariant .
+( We hence notice that this is a particular illustration of the remark in S 16 , viz. , if two equations are compatible with one another , their characteristic invariants are either the same or , being resoluble , have at least one ctor common .
+) The six equations , after some reductions of an easy character , take the form ( XZ ) For the aggregate of differential equations in the system , we have one ; three pairs , one of which is ; six pairs , one of which is ; one characteristic equation , ; and the above six equations .
+The three equations of S18 become three integrable combinations of th6 above six with the equations in the six pairs .
+The number of quantities to be determined is 10 quantities 1 quantity , . . .
+, ; ; ; ; DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+or 21 in all .
+There are certain relations among the differential equations ; and further , four rable combinations 0 the new system are known to exist , the initial equafion and the three equations derived from it .
+What is wanted is , if ting , a new integrable combination .
+21 .
+Thus far the analysis applies whether the characteristic riant is or is not reducible to two linear equations .
+Suppose now that , as in S15 , it vanishes , in virtue of one or other of the two equations ; and consider these in , in the same manner as before .
+, by combining the equations of identity with the equations to , we have ( XZ ) ; ( ZZ ) as a modified form of the equations for ; and in this folYn .
+Let now be an integrable combination , so that we must have Multiply the first by , the second by and add ; then using equation connecting and only , we find where .
+CXCI.\mdash ; A. Now this is to be satisfied in virtue of the preceding six equations and independently of the particular values of , . .
+, , belonging to any integral of the original equation .
+Hence the equation must be expressible in the folYn where , . . .
+, , are indeterminate multipliers ; the conditions sufficient and necessary for this are and 22 .
+This system must be rendered complete by the addition of the JACOBI-POISSON DIFFERENTrAL EQUATIONS OF THE COND ORDER .
+conditions .
+If , when complete , the system contains equations , then it possesses functionally independent .
+Among these are to be included\mdash ; ( i ) The original differential equation ; ( ii ) The three derivatives of with regard to , respectively ; ( iii ) The two distinct integrals of say these are Putting these on side , there are thus new functionally independent solutions , so that must be not greater than 16 in order that the method may be effective .
+If , when , the solution is , then , where is arbitrary , is an equation of the third orde , that can be associated with the given equation .
+The same process , with corresponding results when the appropriate conlitions are satisfied , is adopted for the alternative linear equation arising out of the reducible characteristic invariant .
+23 .
+An example in which no equation of the first order involving only arbitrary function , or no equation of the second order involving only one function , can be associated with a given equation of the second order , is furnished by The general primitive is where , and the subscripts 1 , 2 , denote derivation with respect to the first and the second of the arguments in the respective cases .
+The associab]e equations are of the third order at lowest ; and they are ?
+, where and are arbitrary .
+In a similar way in part , and by induction in part , it may be proved that the integral of where I is positive , can be expressed in finite terms .
+To express the , let , where ; and denote by the operation \mdash ; , by the operation , , so that , . . .
+Then the value of is . . . . .
+24 .
+But it is necessary to take account of what has been achieved when one equation or when two equations ( say of the second order ) have been obtained compatible with the given equation and involving each one arbitrary function .
+The method adopted in S 11 to pass to the primitive has manifestly no element of generality .
+Now the three equations are not sufficient to express , in terms of , and the variables ; but they frequently will serve to express groups of combinations of , in terms of those quantities .
+Thus the three equations in S11 suggest combinations ( which are the derivatives of , and ( which are the derivatives of ) .
+This , however , is only a modification of the former method ; it , again , has no eIement of generality .
+Another plan would be to differentiate the three equations up to any order with the hope of determining all the of the highest order that occur in terms of derivatives of lower order .
+If this were possible , substitution in the equations of differential elements such as and successive integration would ultimately lead to .
+It appears in general , however , that relations of interdependence among the equations prevents them from NTIAL EQUATIONS OF SECOND ORDEII .
+being adequate for the purpose at any stage ; the relations are , in fact , satisfied conditions of compatibility .
+This method is , therefore , ineffective .
+An effective method can , however , be obtained as follows .
+Restricting ourselves for the moment to the equation of the second order with two compatib]e equations also of that order*\mdash ; the restriction is made only to simplify the explanations\mdash ; we have as expressible in terms of two arbitrary functions .
+Hence each of the quantities therefore combination , can be expressed in terms of two arbitrary functions .
+Now in one of the compatible equations we have one arbitrary function which is to be identified with of the arbitrary functions in ; hence it is to be expected that a proper combination of is an intermediary integral of that equation involving a new arbitrary function , which must be identified with the other of the arbitrary functions in Similarly for the other of the compatible equations , there is an intermediary integral involving the two arbitrary functions .
+The conditions of coexistence of the two intermediary integrals must be assigned ; it will appear that , if the conditions not satisfied identical]y , they provide the means of identification of the various arbitrary functions .
+It is to be observed that the intermediary integral or integrals thus obtained cannot be regarded as intermediary rals of the original equation in the ordinary sense of the phrase , for each of them involves two arbitrary functions .
+But they are intermediary for the respective compatible equations : each of them involves one arbitrary function more than occurs in the compatible equation .
+The result manifestly does not imply that the original equation possesses any intermediary integral ; in fact , the assumption throUghout our investigations has been that no proper intermediary integral exists .
+25 .
+A methodt has been given elsewhere for constructing the intermediary integral .
+In effect , it amounts to the use of the conditions which must be satisfied in order that the derivatives from the supposed integral shall cause the compatible equation to be satisfied without regard to the values of the differential coefficients of of * The explanations will be seen to apply , mutatis mutandis , to other cases of the second order , indeed to cases of any ordc .
+, when compatible equations are known .
+In the memoir cited in the introductory PROFESSOR A. R. FORSyTH ON THE INTEGRATION OF the second order .
+Tbese conditions are the simultaneous partial differential equations of the first order determining , dealing with the case of S11 , when the compatible equations of the second order are , , we know that the first has no intermediary integral .
+As regards an intermediary for the second , substituting for , from the derivatives of the -equation , the result nltst , equation in , be evanescent ; hence we find that is , the equations for are ; The system is a complete system ; hence it possesses four functionally independent solutions .
+Writing these four solutions can be expressed in the form and another involving , which would require either the arbitrary constant or the arbitrary functional form to which third would be equated .
+( The fourth is , in fact , a primitive of the compatible equation under discussion , though it is not necessarily the common primitive of the three simultaneous equations .
+) We thus infer that is an intermediary of the second of the equations .
+DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+it can be shown that In a similar manner , by writing is an intermediary of the third of the eqnations .
+When the conditions of coexistence of these two are assigned , they determine the arbitrary functions and in the forms ; so that we have ; and the primitive can be obtained by the customary , leading to the form , where and are arbitrary functions .
+26 .
+If one or both of the equations compatible with the original equation were of the third order , we should then seek an equation of the second order involving one arbitrary function more that equation of the third order ; and we should proceed in a manner similar to that of the preceding plan , the conditions of coexistence of the different equations furnishiug the means of identification or comparison of the arbitraly functions that occur .
+If there be no equation of the order , we should similarly proceed to obtain possible equations of the fourth order , if any ; and so on with the orders in succession .
+The is one of general application if equations of any order compatible with the original equation exist .
+SECTION III .
+Equations having irresoluble racteristic i 27 .
+The investigations contained in the preceding sections of this have referred for the most part to those equations whose characteristic invariant is resoluble into equations that are linear in .
+Those in the present section refer to equations whose characteristic invariant is irresoluble .
+Il ] the first section ( S2 ) , a generalisation of AMPkRE'S method was dealt with very iefly , partly because that method and DARBOUX'S method apply most effectively to equations in which ( with few exceptions ) the derivatives of the highest order occur linearly ; and , of the two , it is DARBOUX'S method which can be more effectively applied to other equations .
+The fact that the characteristic invariant was resoluble proved of nlaterial importance in the general theory .
+It is to be remarked , that some of the equations which occur mosi frequently in mathematical physics , for example the latter two being , for purposes of application , to depend upon the equation belong to the class which have their characteristic invariant resuluble , and at the same time are linear in the derivatives of the highest orders that occur .
+Accordingly both AMPERE'S method and DARBOUX'S method generalised can be applied to such equations .
+Moreover , the generalisation of AMPERE'S method can also be applied to equations of the form .
+where and the quantities , . . .
+, , . .
+, , do not involve derivatives of the second order .
+For , when the equation is transformed by the relations of S1 , it takes the form where is the characteristic equation ; in other words , taking account of we must associate with it as an equivalent to the postulated equation .
+DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+28 .
+We consequently begin with the generalisation of AMPE method .
+Let the variables be changed , to , where is a function of , as yet undetermined , so that z is a function of , as yet also undetermined .
+With the notation previously adopted , we have ; and therefore , from the equations involving derivatives with regard to and alone , it follows that so that we have which is the condition in order that the necessary relation be satisfied .
+When the postulated equation of the second order is such that , on the substitution of the foregoing values for , it has a linear form in , let it be Suppose that the variable function is determined so that I which , after the earlier explanations , is the charncleristic invariant ; then have also VOL. CXCI.\mdash ; A. The system of tions now is ' involving the quantities , as functions of and .
+In all the derivatives here contained , is parametric ; and consequently all the constants that arise in the integration are constants on this supposition : in words , all of them are functions of .
+Consequently , when the integrals of the system are obtained , one constant ( at choice ) can be taken to be ; all the other constants are then functions of arbitrary so far as the system is concerned ; and any arbitrary function of and that occurs is also ( possibly ) a function of .
+In order to determine the ]imitations on the arbitrary functions , the equation must also be satisfied ; this equation will usually give relations amon the arbitrary functional forms , or will determine one of them .
+29 .
+relations thus constitute of the equation .
+For suppose that in the expression for we consider eliminated in favour of ; then .
+But also whence ; and therefore , comparing these with the of the system leading to the integral form , it follows that Next , take a quantity such that DIFFERENTIAL EQUATIONS OF THB SECOND ORDER .
+Since are satisfied by the integral relations , we have , and therefore the terms in cancelling ; consequently Similarly , from we find the quantities and which occur here being those which formally occur in the derivatives of , with regard to and Again , we have whence ; and therefore , comparing with the former equations , we have ' Similarly we find Now , when we take the combination , .
+and eliminate the derivatives of , with regard to and , we have the original equation or the original equation is satisfied in virtue of the integral system .
+But : from this integral system , the value of is such that .
+; and therefore is an integral of the oial differential equation .
+We consequently have the theorem\mdash ; When an equation of the second order is transformed into by means of the and when , in the integral equivalent of the simultaneous system the arbitrary constants are functions of a parameter , and the functions of are also functions of , subject to the equation uhich , in fact , will generally determine either arbitrary function or relations among the arbitrary functions ) , then the of thus obtained an integral of tloe original equation 30 .
+The integration of the equation is thus made to depend upon the integration of a simultaneous system involving fewer independent variables , and DIFFERENTIAL EQUATIONS OF THE SECOND upon the subsequent determination of the arbitrar.y functions in the integr ' equivalent of the system .
+A question therefore arises as to how an integral equivalent can be obtained .
+At first sight it seems that , as the number of equations ( being five ) is equal to the number of unknowns , z ) to be determined , HAMBUmGER'S method* might be ] to our special instance , though not when the number of independent variables in the original equation is more than three .
+But , as a matter of fact , one of the equations of the system is a functional consequence of two others ; viz. , the equation is a functional consequence of It thus follows that there are only four equations independent of .
+one another involving the five variables ; consequently HAMBURGER'S method does not apply .
+On the other hand , the inference is that , as the equations are fewer in number by unity than the number of variables to be determined , one arbitrary element must exist in any general integral equivalent .
+This arbitrary element and other arbitrary functional forms , by the foregoing theory , are deter by means of the equation so far as they can be made determinate .
+It is therefore necessary to seek for some integral combinat.ion of the subsidiary system , apparently without at present having any perfectly general process of constructing such a solution .
+It may , however , be pointed out that , as there are foul independent equations involving five quantities , they can be used to determine four of them in terms of the remaining one or , more symmetrically when this is possible , to express all five of them in terms of some iable .
+When such expressions have been obtained , they are to be substituted in ' the full solution of the resulting form of which equation will the1 ] serve to determine the quantities .
+We proceed to consider one or two examples in connection with the foregoing theory and explanations , dealing particularly with well-known equations .
+CRELLE , , , 243-281 ; .
+xciii .
+( 1882 ) , pp. 188-214 , the nuniber of indcpen- dent val'iables being two , and the number of equations to the number of ) endent variables .
+Application to 31 .
+When the methoa ' is applied to the potential equation , which is with the present notation , the substitution of values ( say of and b ) is required to lead to a result evanescent so far as the determination of coefficients of the second order is concerned .
+The substitution gives so that we must have ; and the differentiations with regard to and to in these relations are effected on the supposition the unexpressed variable is constant .
+The subsidiary simultaneous system thus is When HAMBURGER'S method , as expounded in the second of his memoirs already quoted ( S30 ) , is applied to this system , it is found that the algebraical equations for the determination of the sidiary multipliers are inconsistent with one another unless all the multipliers are zero ; there is then a null result .
+Accordingly integrable combinations must be obtained otherwise .
+Now the general solution of the equation is given by constant , constant , constant , DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+these constants occurring in iation with ?
+constant .
+We may , therefore , assume , where and are arbitrary functions of , subject solely to the condition Because the differentiations with regard to and to are effected on the hypothesis that is constant , the other equation can be taken in the form so that a function of and ( and possibly also involving u ) exists such that Moreover , have ; consequently From the last two equations , it follows that and thence that .
+Consequently a function of and ( and possibly also involving u ) exists such that \mdash ; , whence Substituting these , we have Thus .
+account of variations regard to and to has been taken .
+But , as regards variations of , we have that is , , where denotes .
+This is the equation of ]imitation upon the form of ; if its general integral were known , the general value of could be deduced .
+2 .
+proceeding with the consideration of this result , it is worth noting the relation of the equations to the original equation .
+Because it .
+follows that where denotes so that when in substitution for is made in terms .
+From the former we have and from the latter DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+Multiplying the second of these equations by , the fourth by , and then adding all four , the function is eliminated , and we have 33 .
+Again , the general theory in a preceding Section ( see particularly S 4 ) immediately suggests that occurs as an argument of an arbitrary function .
+This being so , let the variables be considered as transformed to , where now is known , and effect the transformation directly upon the equation We have , for any function , so that We thus have whence , adding and remembering that , it follows that VOL. CXCI.\mdash ; A. I It is immediately obvious that one solution of this equation ( and therefore of the original equation ) given by equating to function of , a result that admits of simple verification .
+* 34 .
+But it is not at first sight clear how this solution connects itself with the general solution indicated in S31 ; the connection can be made.as follows .
+The general value of is ; if this is to be an arbitrary function of , say , as for the solution under consideration , we must have , and consequently , where , so far as concerns this relation , is any arbitrary function of both its arguments .
+Writing this is , so that Now $ This resuIt was published in the ' Messenger of Mathematics , ' vol. xxvii .
+, pp. 99-118 , in a short paper entitled ' ' New Solutions of some of the Partial Differential Equations of Mathematical Physics The form was altered from that in the text , so that it might be symmetric in the variables , and theorem was givon as follows:\mdash ; If , 1 , , be three arbitrary functions of such that and if be determined as a funciion of , by the equation where any ( onstant , if denote any arbiirary funchon of , then satisfies LAPLACE'S equahon ERENTIAL EQUATIONS OF .
+THE SECOND ORDER .
+so that say ; and so Consequently Now we should have that is , from which the form of is given by A and being arbitrary functions .
+The form of is , however , not so important for the present purpose as is the value of .
+We deduce and consequently being the proper values of , as given by The particular solution is thus seen to be included in the general solution defined by the equations of S31 .
+35 .
+It is worth inquiring whether , in the notation of the preceding articles , there is any solution of the potential equation which is a function of and alone , say , other than the solution function of alone .
+When the variables are taken to be , the equation to be satisfied by is where Now so that , as we have ; also ; and therefore Hence the equation becomes and therefore , where and are arbitrary functions .
+We thus have the theorem*\mdash ; * This result can also be expressed in the form symmetrical as regards the three variables .
+When thus modified , we ve the theorem\mdash ; If , be three arbitrary functions of sueh that and if be determined as a function of , by the equation where is oonstant , then , writing , where and are arbitrary functions , satisfies LAPLACE'S equation This theorem also was stated in the paper referred to ( S33 , DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+61 .
+If and denote any functions of tisfying the equation and if be defined by the equation , then whoere and are functions , tisfes LAPLACE'S equation 36 .
+The solution just obtained can , like the solution of S33 , be connected with the general solution .
+Owing to the linear form of all the equations and of the expression for , it will be sufficient , in the first instance , to take the part say ; because the term in is , in effect , identified by the preceding case .
+We thus must have the most general solution of which is , where , so far as concerns this relation , is any arbitrary function of both its arguments .
+We have ; and therefore , after some simple reductions on substituting in the expressions of S31 , we have .
+But so that ( ' ; and then .
+we have an equation to determine H. Substituting the value of in the above expressions for , we find ' which are the proper values of , as given by The value of is not required for the preceding investigation ; but it can be actually deduced from the preceding equation .
+We have ' , also so that Thus the for becomes ; DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+the term involving explicitly vanishes , as it should , and therefore we have Hence the explicit ] of , where A and are arbitrary functions ; and thus the value of is known .
+But , as already remarked , the value of is sufficient , the identification of the solution .
+37 .
+After the preceding investigation , it is natural to inquire whether a solution more general than that which is expressib]e in terms of and , and the form of which has been suggested by the theory , can be obtained directly from the original differential equation .
+When the variables are taken to be , where and being functions of , the equation becomes where Let be defined by the equation so that , are three variables functionally equivalent to and let us inquire what solutions of the form are possessed by the foregoing equation .
+We have ; so that quantities which occur in the substitution .
+Now ; similarly ; and therefore Again , so that , as we have Taking account of the values of and , it is not difficult to prove that ; consequently and the equation satisfied by becomes DIFFERENTIAL OF THE SECOND ORDER .
+60- We can at ouce infer the result of S35 as to the solutions which , being of the suggested form , explicitly involve and only ; but other solutions in a finite form do not suggest themselves .
+38 .
+It need only be remarked that , with the slightest change of notation , all the preceding results can be associated also with the equation where is a constanlt .
+Application to ) 39 .
+Consider next , but more briefly , the equation where is a constant ; in our notation , it may be written The characteristic invariant equation is the same as for .
+Substituting for and their values as given in S1 , it is seen that , on of the characteristic equation , the term in from the result ; and we have The subsidiary system thus is ' the third of which is an analytical consequence of the fourth and the .
+As in the preceding example , the general solution of is , where and are functions subject the relation ; and in the subsidiary system the differentiations with to and are partial VOL. CXCI .
+on the supposition that is the third variable : that is , in these partial differentiations in the subsidiary system , does not vary .
+Consequently is expressible in the form ; and therefore so that Operate on the first equation with , on the second with , and subtract ; then , dividing by , we have Similarly , operating on the first equation with , on the second with , subtracting , and dividing by , we have It therefore follows that some function of , and exists such that ; but , so far as the subsidiary system is concerned , is perfectly arbitrary\mdash ; a result in accordance with the general explanation of S30 , there being only four functional]y independent equations for the ])reliminary determination of five quantities .
+Also ; DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+hence no function of needing to be added , for it can be considered as accounted for in the arbitrary function But now , regarding variations of , we must have the equation satisfied ; that is , the function must satisfy the equation where denotes .
+As in the former is equation imposes the limitation upon the arbitrariness of ; when its general is known , the most general value of can be deduced .
+40 .
+It is an inference from the general theory that the quantity , determined as a function of , by the equations is an argument of the arbitrary functions that occur in the solution of the equation .
+We therefore transform the variables from , to , where now is known ; and the , obtained by analysis similar to that , is Manifestly a function of alone is not a solution of this equation ; but , on the analogy of S35 , we are led to consider what soIutions ( if any ) of the form are possessed by the equation , having its former value .
+When this value is substituted , the equation takes the form where Hence ti8 SSOR A. R. FORSYTH ON THE INTEGRATION OF so that , as is a function of on lie , we have where A and are independent of is , are arbitrary functions of .
+We thus the theorem If und denote any functions of tisfying the equation if be defned as a function of , by th .
+equation , also if denote and being arbitrary functions of , then satisfies the equation connection between this solution and the general solution indicated in S39 can be established as in the responding case of the potential equation ( SS34 , 36 ) .
+Application to 41 .
+The preceding examples have led , in each case , a solution which ( though lot the most general ) was expressible in a finite form .
+We now take one other example , viz. , which can be regarded as the equation for the variable conduction of heat in two * This result can also be essed see he paper already quoted , S33 , note ) in a symmetrical as rogards the three variables , as follows:\mdash ; If , be three arbitrfunctions of such that if be a function of ] , , by the equation , being constant , also if denoie ujhere und te arbit , , of , then satisfies the equation DIFFERENTIAL QUATIONS OF ) ORDhR .
+dimensions ; it will be seen the general solution is not expl.essible in a finite form .
+The characteristic equation is say ; and then is determined by where is trary .
+The subsidiary system is We easily ; and so we have .
+where ?
+) is function of , and .
+But we also hnve the equation satisfied ; that is , we must satisfy the equation If a general value of be deduced , then the general value of o.could constructed , and conversely .
+42 .
+Taking ] , the equation be written in the a solution of which is given by where is any arbitrary function of and .
+Now the solution , which appears to be most frequently useful , of the original equation is obtained by taking where is constant , is independent of .
+In this case , and the equation for is To identify the two forms , we must have . .
+, . .
+; consequently for all values of .
+All the conditions are satisfied in virtue of ; and consequently the general solution above obtained includes the less general solution tomarily used when the arbitrariness of is made subject to the equation This equation is of LA-PLACE'S linear form with equal invariants , which , moreover , are constants ; hence the whole series*of derived invariants is unlimited in number , and the uumber of derivatives of an arbitrary functio1l of and the number of derivatives of an arbitrary function of , that occur in the most general solution , are unlimited in each case : that is , the solution is not expressible in finite terms .
+*DAltBOUX , ' Theory Generale des Surfaces , ' DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+43 .
+To see how this solution is included in the general solution ofS 41 , it is necessary to determine a function such that say .
+Now , for the derivatives with regard to is parametric , being ; and .
+We thus fmd on integration , being arbitrary , and parametric in the integral .
+Evaluating the integral integration by parts , and dividing by the exponential factor on the left-hand side , we find say , so that is expressed in terms , and in terms of Denoting derivatives of with regard to , by S , / Ss , , respectively , we have this last change arising from the fact that every term in satisfies the transformed equation because satisfies it ; .
+Consequently Further , , so that PROFESSOR A. R. FORSYTH ON THE INTEGRATfON OF But ; and therefore Now we must have that is , and so But , because , we have ; that is , the fol.egoing value of is the -derivative .
+Further , comparing two valtles of , we find whence , A being an arbitrary function ; hence the explicit value of Next , for the value of , we have from the value of , just obtained ; and DIFFERENTIAL EQUATIONS CONlJ ORDER .
+Hence or the value of is the -derivative of Sinffiarly for the value of .
+The solution is thus seen to be included in the form given in S41 ; moreover , the value of obtained in the preceding investigation is a solution of the equation there required to be satisfied .
+44 .
+It has been seen ( S 27 ) that the equations to which the method involving derivatives of , alone can be applied\mdash ; which method has been indicated as the generalisation of AMPERE'S for the case of two independent variables\mdash ; belong to a distinctly limited class .
+Moreover , even for equations in this cla , ss , it may happen that an integrable combination of the subsidiary system cannot be constructed , or that the quasi-general process sketched in S 28 is not effective .
+sequently ib becomes necessary to have some other method ; and this is provided by what has been indicated as the generalisation of DARBOUX'S method for the case of two ndent variables .
+In the discussion , we shall consider only the case ) it loroves necessary to construct the first derivatives of an equation ; but the explanations apply , mutandis , to other cases when second derivatives of and derivatives of higher orders should be constructed .
+Examples of the latter cases , when the characteristic invariant is resoluble , have already been given in Section II .
+45 .
+The original equation is characteristic invariant is and it is supposed to be irreducible .
+tions are ; VOL. CXCI.\mdash ; A. and equations of definition and derivation are ' cp , ' cp , ' cp , ' cp , ' cp , ' cp , ' cp , ' cp , ' cp , ' cp , ' cp , So far as concerns derivatives with regard to and , there appear to be t , welve equations , , the characteristic invariant , the three subsidiary equations deduced by taking and the eight equations of definition and derivation ; and the number of quantities to be obtained from the subsidiary system is eleven , On the other hand , is an integral of the system , and it is a persistent relation ; consequently one of the set of three equations cau be regarded as depending on the other two .
+Again , from the equations we have identically satisfied in virtue of the values of , given by the other equations of the set of eight ; hence one of these can be regarded as dependent functionally on the rest , and the set of eight are therefore equivalent to seven only .
+The whole set of equations in the subsidiary system , involving derivatives with regard to and , thus contains ten independent equations ; and eleven quantities are to be obtained .
+Hence it may be possible to express ten of these in terms of one of them , or to express the whole eleven in terms of a single new quantity , arbitrary so far as the set is concerned ; its arbitrariness will then be limited so that it shall satisfy the subsidiary equations involving derivatives with regard to 46 .
+The thus obtained , as satisfying all the subsidiary equations , constitute integral of the equation .
+This result is established by an argument similar to that in S29 for the case when the subsidiary system is simpler ; accordingly here it will not } ) repeated .
+DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+Application to 47 .
+The investigations as to the potential equation , given in S31 , did not require the consideration of delivatives of but the example can be used to indicate the method of ding when such derivatives must be taken into account , as in the preceding theory .
+For the equation the special subsidiary equations involving derivatives of , with regard and , are ; to the characteristic equation is ; and the relations of identity are But the latter can be replaced by the equations of ition , together with ; it ) is , indeed , from the first two columns of these equations of definition that the relations of identity are deduced .
+In the subsidiary equations and in the relations of identity , the derivatives with regard to and framed on the supposition that is constant .
+Now the complete solution of is given , by process , in the form constant , constant , constant .
+But these constants arise when is constant ; hence we may take where and are arbitrary functions of subject to the condition From the first of the three subsidiary equations , remembering that and are now constant so far as concerns derivatives with regard to and , we have so that some function of , exists such that Also we have so that From the last we have , that is , ( pw\mdash ; ql ) so that some function of , exists such that DIFFERENTIAL EQUATIONS OF SECOND ORDER .
+or Substituting these values above , we find denoting an arbitrary function of The second of the three subsidiary equations similarly gives denoting an arbitrary function of ; and the third of the subsidiary equations gives denoting an arbitrary function .
+These three arbitrary functions are not independent of one another .
+the two values of , respectively which have been obtained , we see that some function of , exists such that ; manifestly is an arbitrary func ion of To deduce the value of so far as concerns variations of and , we have , and ; therefore , where thus far is any arbitrary function of alone .
+48 .
+As yet no account has been taken of derivatives with regard to ; but the whole of the equations are subsidiary to the construccion of an integral of the original equation .
+The part of the value of given by V ( u ) can be dropped , as it has been considered in the earher stage , or it can be regarded as absorbed in the other part of the value , all that is necessary for this purpose being that the function should have a different form .
+Assuming this done , the function must be such as , first , to satisfy the equation with the preceding notation .
+Now DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+; also ; and , as : we have : that is , behaves as a constant with to the operator required equation will therefore be satisfied if But it is necessary that the other three equations , ' should also be satisfied ; that they lea , to no new condition for can be seen as follows .
+We have ; so that On account of the equation satisfied by , this is equal to which is equal to ; and therefore - in virtue of the equation Similarly it can be ified that in virtue of this equation ; therefore it is the on lie condition to be imposed upon in order that all the equations may be satisfied .
+49 .
+Solutions of the equation have been given in SS 31-38 ; it is not difficult to verify that they are included in the preceding general form .
+Thus , taking the solution and assumiug that is , as in S48 , the function through which the term V ( u ) in is absorbed , it is first necessary to determine so that .
+This equation is easily solved ; and we have , where and are arbitrary functions , and denotes , as before .
+We have ; DIFFERENTIAL EQUATIONS OF THE SECOND ORDER .
+so that Hence But what same effect , must be such as to give so that ; consequently we have which are the proper values of , connected with .
+Similarly for the quantities And if the value of be required , it is determined by the equation the integration of which is immediate .
+Application to 50 .
+The integrable combinations of the subsidiary system in case of the potential-equation seem fortuitously obtained .
+As one other illustration , added chiefly to show that the subsidiary system can be used in the mode indicated in S39 to express all the variable quantities in terms of a single quantity , we consider the equation , which is in the notation of the present paper .
+VOL. CXCI .
+We have A Thus the characteristic invariant equation is from which we have , as before , , so that and are parametric for differentiations with regard three subsidiary equations are to and .
+The and we have the equations of definition and derivation as before .
+51 .
+One simple mode proceeding is to use the six equations involving derivatives of , with regard to and y\mdash ; they re equivalent to five independent equations \mdash ; in order to express , in terms of and those derivatives .
+These being ained in the form we substitute them in the subsidiary equations .
+The third of the latter then becomes ; the second of them , on using the first of the two values for and also the relation between and just deduced , gives ; the first of them , on using the second of the two values for and also the relation between and , gives DIFFERENTIAL EQUATIONS OF THE SECOND Let the various operators be denoted by , say ; moreover , let @ be another operator .
+Then from the relations between and and , it follows that a function exists such that ; and then , as we have From the relation between , we have 2@c or , if then We thus have , fxom the foregoing relations , the results The of be obtained by using these values of , and we find 11 these forms correspond to the respective expressions obtained in S 47 for the potential-equation .
+52 .
+Account must now be taken of derivatives with regard to , and the equations to be satisfied are Taking the first , we have so that the equation is to be Now , denoting by and so for is the same as except that and replace and , and so for \mdash ; we have ; and therefore Now @ so that @ Hence the equation in will be satisfied if 2S the condition that we may have DIFFER[NTIAL EQUATIONS ] THE SECOND ORDER .
+But operating on this equation with , we have .
+The left-hand side is The first term is ; the second , on reduction , ; and therefore the left-hand side is The right-hand side , viz. , , becomes on expansion and reduction .
+Hence , in virtue of the above equation , we have Similarly we find ; and therefore the equation determining is @\mdash ; that is , .
+When a solution of this equation is obtained , a solution of the equation for can be constructed , and conversely .
+In particular , the identification of any solution of the -equation , as being included in the general solution , can be made as in former cases .
+[ NOTE .
+Added 1 March , 1898 .
+As indicated in the introductory remarks , the theory given in this paper is applicable when the number of independent variables is greater than two , and when the order of the differential equation is higher than the ; its application is not restricted to the case of an equation of the second order in three independe variables .
+A brief sketch of the theory for an equation of order in independent variables is prefixed to a paper*which contains the integration of some differential equations of types represented by when the iteration of the differential operator is purely sylnbolical .
+] * ' On some Differential Equations in the of Symmetrical Algebra Camb .
+Phil. Trams .
+, vol. .
+( 1898 ) , pp. 291-325 .
+

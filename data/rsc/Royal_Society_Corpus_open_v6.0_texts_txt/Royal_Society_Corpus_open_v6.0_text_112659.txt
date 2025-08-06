@@ -1,0 +1,62 @@
+II .
+" On the Theory of the Maintenance of Electric Currents by MechanicalWork without the use of Permanent Magnets .
+" By J. CLERK MAXWELL , F.R.S. Received February 28 , 1867 .
+The machines lately brought before the Royal Society by Mr. Siemens and Professor Wheatstone consist essentially of a fixed and a moveable electromagnet , the coils of which are put in connexion by means of a commutator .
+The electromagnets in the actual machines have cores of soft iron , which greatly increase the magnetic eftects due to the coils ; but , in order to simplify the expression of the theory as much as possible , I shall begin by supposing the coils to have no cores , and , to fix our ideas , we may suppose them in the form of rings , the smaller revolving within the larger on a common diameter .
+The equations of the currents in two neighbouring circuits are given in my paper " On the Electromagnetic Field " c ' , and are there numbered ( 4 ) and ( 5 ) , d X=R +t ( Lx+My ) , d '-.Sy+ -(Mx + Ny ) , dt where x and y are the currents , t and ?
+the electromotive forces , and R and S the resistances in the two circuits respectively .
+L and N are the coefficients of self-induction of the two circuits , that is , their potentials on themselves when the current is unity , and M is their coefficient of mutual induction , which depends on their relative position .
+In the electromagnetic system of measurement , L , M , and N are of the nature of lines , and R and S are velocities .
+L may be metaphorically called the " electric inertia " of the first circuit , N that of the second , and L+ 2M+ N that of the combined circuit .
+Let us first take the case of the two circuits thrown into one , and the two coils relatively at rest , so that M is constant .
+Then ( R+S)x+ ( L+2M+N)x=0 , ... . .
+( 1 ) whence R+S t x=x , e L+2+N ... ... . .
+( 2 ) where xo is the initial value of the current .
+This expression shows that the current , if left to itself in a closed circuit , will gradually decay .
+If we put L+ 21M+N __ __S , .
+v. .
+* Let us next ascertain the effect of a sudden change of position in the secondary coil , which alters the value of M from M1 to M2 in a time t2-t , , during which the current changes from x to 2 .
+Integrating equation ( 1 ) with respect to t , we get ( R+S ) xdt+ ( L+2M2+N)x2-(L+2M- , +N)x1=O. .
+( 5 ) If we suppose the time so short that we may neglect the first term in comparison with the others , we find , as the effect of a suddcen change of position , ( L-+2l +N)-(L+2M , + N ) ... ... ( 6 ) This equation may be interpreted in the language of the dynamical theory , by saying that the electromagnetic momentum of the circuit remains the same after a sudden change of position .
+To ascertain the effect of the commutator , let us suppose that , at a given instant , currents x and y exist in the two coils , that the two coils are then made into one circuit , and that x ' is the current in the circuit the instant after completion ; then the same equation ( 1 ) gives ( L+2i +N)x ' ( L+M ) +(N +M)y. .
+( 7 ) This equation shows that the electromagnetic momentum of the completed circuit is equal to the sum of the electromagnetic momenta of the separate coils just before completion .
+The commutator may belong to one of four different varieties , according to the order in which the contacts are made and broken .
+If A , B be the ends of the first coil , and C , D those of the second , and if we enclose in brackets the parts in electric connexion , we may express the four varieties as in the following Table:(1 ) ( 2 ) ( 3 ) ( 4 ) ( AC ) ( BD ) ( AC ) ( BD ) ( AC ) ( BD ) ( AC ) ( BD ) ( ABCD ) ( ABC ) ( D ) ( A ) ( BCD ) ( A ) ( B ) ( C ) ( D ) ( AD ) ( BC ) ( ABCD ) ( ABCD ) ( AD ) ( BC ) ( AD ) ( BC ) ( AD ) ( BC ) In the first kind the circuit of both coils remains uninterrupted ; and when the operation is complete , two equal currents in opposite directions are combined into one .
+In this case , therefore , y=--r , and ( L 2 ?
++ N)x'= ( L-N). .
+( 8 ) When there are iron cores in the coils , or metallic circuits in which independent currents can be excited , the electrical equations are much more complicated , and contain as many independent variables as there can be independent electromagnetic quantities .
+I shall therefore , for the sake of preserving simplicity , avoid the consideration of the iron cores , except in so far as they simply increase the values of L , M , and N. I shall also suppose that the secondary coil is at first in a position in which M =0 , and that it turns into a position in which M= -M- , which will increase the current in the ratio of L+ N to L2I + N. The commutator is then reversed .
+This will diminish the current in a ratio depending on the kind of commutator .
+The secondary coil is then moved so that iM changes from M to 0 , which will increase the current in the ratio of L+ 2M+ N to L +N .
+During the whole motion the current has also been decaying at a rate which varies according to the value of L+ 2M + N ; but since M varies from +M to -- , we may , in a rough theory , suppose that in the expression for the decay of the current M= 0 .
+If the secondary coil makes a semirevolution in time T , then the ratio of the current x , after a semirevolution to the current x0 before the semirevo .
+lution , will be T jr0 where L+N = + , ... .
+: ... . .
+( 9 ) and r is a ratio depending on the kind of commutator .
+For the first kind , L-N r= L-2M+N* ** ( 10 ) By increasing the speed , T may be indefinitely diminished , so that the question of the maintenance of the current depends ultimately on whether r is greater or less than unity .
+When r is greater than 1 or less than 1 , the current may be maintained by giving a sufficient speed to the machine ; it will be always in one direction in the first case , and it will be a reciprocating current in the second .
+When r lies between +1 and --1 , no current can be maintained .
+Let there be p windings of wire in the first coil and q windings in the second , then we may write L=pp2 ' , 3=Mmpq , N=q2 ' ... .
+( li ) where 1 , mn , n are quantities depending on the shape and relative position of the coils .
+Since L-2M+ N must always be a positive quantity , being the coefficient of self-induction of the whole circuit , In--2 , and therefore LN-M must be positive .
+When the commutator is of the first kind , the ratio r is greater than unity , provided pm is greater than qn ; and when pn+ ~ ' = ( L ~~_~. .
+++e e* *. .
+( 12 ) which is the maximum value of r. When the ratio of p to q lies between that of n to m and that of m to 1 , r lies between +1 and -1 , and the current must decay ; but when pi is less than qm , a reciprocating current may be kept up , and will increase most rapidly when qm V nm and : 3-(1-an ) ... * ... *.(13 ) When the commutator is of the second kind , the first step is to close both circuits , so as to render the currents in them independent .
+The second circuit is then broken , and the current in it is thus stopped .
+This produces an effect on the first circuit by induction determined by the equation Lx+My=Lx'+My ' ... ... .
+( 14 ) In this case iM=-Mo , y=x , and y'=O , so that ( L-M)x=Lx ' ; ... ... .
+( 15 ) where x is the original , and x ' the new value of the current .
+The next step is to throw the circuits into one , M being now positive .
+If x " be the current after this operation , ( L+ M)x'=(L+2IM+N)x " ... . .
+( 16 ) The whole effect of this commutator is therefore to multiply the current by the ratio L2 _ 1\12 L._M2 L(L+2M+N ) The whole effect of the semirotation is to multiply the current by the ratio L+2M+N L-2M+N ' The total effect of a semirevolution supposed instantaneous is to multiply the current by the ratio L2 M2 L(L2M+N ) ' If p and q be the number of windings in the first and second coils respectively , the ratio r becomes r ( lp2-qr ) which is greater than 1 , provided 21np is greater than ( ln+mm)q .
+WNhen p l.9t 9\ )+ 1 / +2 3 &gt; Iqe r2\-r 2r l3 -12 we have for the maximum value of r , 2m r=l+ mI In the experiment of Professor Wheatstone , in which the ends of the primary coil were put in permanent connexion by a short wire , the equations are more complicated , as we have three currents instead of two to consider .
+The equations are a J+d ( Lx+M y)= S+ ( M +Ny ) =Qz + -K , .
+( 17 ) d+y4+=0 ... ... ... ... ... ( 18)d +y+xO ... .
+( 18 ) where Q , K , and z are the resistance , self-induction , and current in the short wire .
+The resultant equations are of the second degree ; but as they are only true when the magnetism of the cores is considered rigidly connected with the currents in the coils , an elaborate discussion of them would be out of place in what professes to be only a rough explanation of the theory of the experiments .
+Such a rough explanation appears to me to be as follows : Without the shunt , the current in the secondary coil is always in rigid connexion with that in the primary coil , except when the commutator is changing .
+With the shunt , the two currents are in some degree independent ; and the secondary coil , whose electric inertia is small compared with that of the primary , can have its current reversed and varied without being clogged by the sluggish primary coil .
+On the other hand , the primary coil loses that part of the total current which passes through the shunt ; but we know that an iron core , when highly magnetized , requires a great increase of current to increase its magnetism , whereas its magnetism can be maintained at a considerable value by a current much less powerful .
+In this way the diminution in resistance and self-induction due to the shunt may more than counterbalance the diminution of strength in the primary magnet .
+Also , since the self-induction of the shunt is very small , all instantaneous currents will run through it rather than through the electromagnetic coils , and therefore it will receive more of the heating effect of variable currents than a comparison of the resistances alone would lead us to expect .
+

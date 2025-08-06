@@ -1,0 +1,413 @@
+[ 497 ] XXII .
+On the Mechanical Performance of Logical Inference .
+By W. Stanley Jevons , M.A. ( .Lond .
+) , Professor of Logic , \amp ; c. in Owens , Manchester .
+Communicated by Professor H. E. Roscoe , F.B.S. Received October 16 , 1869 , \#151 ; Read January 20 , 1870 .
+1 .
+It is an interesting subject for reflection that from the earliest times mechanical assistance has been required in mental operations .
+The word calculation at once reminds us of the employment of pebbles for marking units , and it is asserted that the word oc is also derived from the like notion of a pebble or material sign* .
+Even in the time of Aristotle the wide extension of the decimal system of numeration had been remarked and referred to the use of the fingers in reckoning ; and there can be no doubt that the form of the most available arithmetical instrument , the human hand , has reacted upon the mind and moulded our numerical system into a form which we should not otherwise have selected as the best .
+2 .
+From early times , too , distinct mechanical instruments were devised to facilitate computation .
+The Greeks and Romans habitually employed the abacus or arithmetical board , consisting , in its most convenient form , of an oblong frame with a series of cross wires , each bearing ten sliding beads .
+The abacus thus supplied , as it were , an unlimited series of fingers , which furnished marks for successive higher units and allowed of the representation of any number .
+The Russians employ the abacus at the present day under the name of the shtshob , and the Chinese have from time immemorial made use of an almost exactly similar instrument called the schwanjyan .
+3 .
+The introduction into Europe of the Arabic system of numeration caused the abacus to be generally superseded by a far more convenient system of written signs ; but mathematicians are well aware that their science , however much it may advance , always requires a corresponding development of material symbols for relieving the memory and guiding the thoughts .
+Almost every step accomplished in the progress of the arts and sciences has produced some mechanical device for facilitating calculation or representing its result .
+I may mention astronomical clocks , mechanical globes , planetariums , slide rules , \amp ; c. The ingenious rods known as Napier 's Bones , from the name of their inventor , or the Promptuarium Multiplicationis of the same celebrated mathematician f , are curious examples of the tendency to the use of material instruments .
+* Professor De Morgan " On the word 'ApiOpus , " Proceedings of the Philological Society ( p. 9 ) .
+f Rabdologise seu numerations per virgulas libri duo : cum appendice de expeditissimo multiplicationis Promptuario .
+Quibus accessit et Arithmetics Loealis Liber TJnus .
+Authore et Inventore Joanne Nepetio , Barone Merchistonii \amp ; c. Lugduni , 1626 .
+4 .
+As early as the 17th century we find that machinery was made to perform actual arithmetical calculation .
+The arithmetical machine of Pascal was constructed in the years 1642-45 , and was an invention worthy of that great genius .
+Into the peculiarities of the machines subsequently proposed or constructed by the Marquis of Worcester , Sir Samuel Morland , Leibnitz , Gersten , Sciieutz , Donkin , and others we need not inquire ; but it is worthy of notice that M. Thomas , of Colmar , has recently manufactured an arithmetical machine so perfect in construction and so moderate in cost , that it is frequently employed with profit in mercantile , engineering , and other calculations .
+5 .
+It was reserved for the profound genius of Mr. Babbage to make the greatest advance in mechanical calculation , by embodying in a machine the principles of the calculus of deferences .
+Automatic machinery thus became capable of computing the most complicated mathematical tables* ; and in his subsequent design for an Analytical Engine Mr. Babbage has shown that material machinery is capable , in theory at least , of rivalling the labours of the most-practised mathematicians in all branches of their science .
+Mind thus seems able to impress some of its highest attributes upon matter , and to create its own rival in the wheels and levers of an insensible machine .
+6 .
+It is highly remarkable that when we turn to the kindred science of logic we meet with no real mechanical aids or devices .
+Logical works abound , it is true , with metaphorical expressions implying a consciousness that our reasoning powers require such assistance , even in the most abstract operations of thought .
+In or before the 15th century the logical works of the greatest logician came to be commonly known as the Organon or Instrument , and , for several centuries , logic itself was defined as Ars mentalisdirigens mentem nostram in cognitionem omnium When Francis Bacon exposed the futility of the ancient deductive logic , he still held that the mind is helpless without some mechanical rule , and in the second aphorism of his ' New Instrument ' he thus strikingly asserts the need:\#151 ; Nee manus nuda , nee Intellectus sibi per missus , multum valet ; et iliis res perjicitur ; guibus opus est , non minus ad , guam ad manum .
+Atgue nt instrumenta manus motum aut cient , aut regunt ita et Instrumenta , Intellects aut suggerunt aut cavent , 7 .
+In all such expressions , however , the word Instrument is used metaphorically to denote an invariable formula or rule of words , or system of procedure .
+Even when Raymond Lully put forth his futile scheme of a mechanical syllogistic , the mechanical apparatus consisted of nothing but written diagrams .
+It is rarely indeed that any invention is made without some anticipation being sooner or later discovered ; but up to the present time I am totally unaware of even a single previous attempt to devise or construct a machine which should perform the operations of logical inferencef ; and it is only I believe in the satirical writings of Swift that an allusion to an actual reasoning machine is to be found J. * See Companion to the Almanac for 1866 , p. 5 .
++ See note at the end of this paper , p. 518 .
++ In the recent Life of Sir W. Hamilton , by Professor Yeitch , is given an account and figure of a wooden instrument employed by Sir W. Hamilton in his logical lectures to represent the comparative extent and intent PERFORMANCE O LOGICAL INFERENCE .
+8 .
+The only reason which I can assign for this complete inability of logicians to devise a real logical instrument , is the great imperfection of the doctrines which they entertained .
+Until the present century logic has remained substantially as it was moulded by Aristotle 2200 years ago .
+Had the science of quantity thus remained stationary since the days of Pythagoras or Euclid , it is certain that we should not have heard of the arithmetical machine of Pascal , or the difference-engine of Babbage .
+And I venture to look upon the logical machine which I am about to describe as equally a result and indication of a profound reform and extension of logical science accomplished within the present century by a series of English writers , of whom I may specially name Jeremy Bentham , George Bentham , Professor De Morgan , Archbishop Thomson , Sir W. Hamilton , and the late distinguished Fellow of the Poyal Society , Dr. Boole .
+The result of their exertions has been to effect a breach in the supremacy of the Aristotelian logic , and to furnish us , as I shall hope to show by visible proof , with a system of logical deduction almost infinitely more general and powerful than anything to be found in the-old writers .
+The ancient syllogism was incapable of mechanical performance because of its extreme incompleteness and crudeness , and it is only when we found our system upon the fundamental laws of thought themselves that we arrive at a system of deduction which can be embodied in a machine acting by simple and uniform movements .
+9 .
+To George Boole , even more than to any of the logicians I have named , this great advance in logical doctrine is due .
+In his 'Mathematical Analysis of Logic ' ( 1847 ) , and in his most remarkable work ' Of the Laws of Thought ' ( London , 1854 ) , he first put forth the problem of logical science in its complete generality :\#151 ; Given \gt ; logical premises or conditions , to determine the description any class objects under those conditions .
+Such was the general problem of which the ancient logic had solved but a few isolated cases\#151 ; the nineteen moods of the syllogism , the sorites , the dilemma , the disjunctive syllogism , and a few other forms .
+Boole showed incontestably that it was possible , by the aid of a system of mathematical signs , to deduce the conclusions of all these ancient modes of reasoning , and an indefinite number of other conclusions .
+Any conclusion , in short , that it was possible to deduce from any set of premises or conditions , however numerous and complicated , could be calculated by his method .
+10 .
+Yet Boole 's achievement was rather to point out the extent of the problem and the possibility of solving it , than himself to give a clear and final solution .
+As readers of his logical works must be well aware , he shrouded the simplest logical processes in the mysterious operations of a mathematical calculus .
+The intricate trains of symbolic transformations , by which many of the examples in the ' Laws of Thought ' are solved , can be followed only by highly accomplished mathematical minds ; and even a mathematician would fail to find any demonstrative force in a calculus which fearlessly employs unmeaning and incomprehensible symbols , and attributes a signification to of meaning of terms ; but it was merely of an illustrative character , and does not seem to have been capable of performing any mechanical operations .
+3 y 2 them by a subsequent process of interpretation .
+It is surely sufficient to condemn the peculiar mathematical form of Boole 's method , that if it were the true form of logical deduction , only well-trained mathematicians could ever comprehend the action of those laws of thought , on the habitual use of which our existence as superior beings depends .
+11 .
+Having made Boole 's logical works a subject of study for many years past , I endeavoured to show in my work on Pure Logic* that the mysterious mathematical forms of Boole 's logic are altogether superfluous , and that in one point of great importance , the employment of exclusive instead of unexclusive alternatives , he was deeply mistaken .
+Rejecting the mathematical dress and the erroneous conditions of his symbols , we arrive at a logical method of the utmost generality and simplicity .
+In a later workf I have given a more mature and clear view of the principles of this Calculus of Logic , and of the processes of reasoning in general , and to these works I must refer readers who may be interested in the speculative or theoretical views of the subject .
+In the present paper my sole purpose is to bring forward a visible and tangible proof that a new system of logical deduction has been attained .
+The logical machine which I am about to describe is no mere model illustrative of the fixed forms of the syllogism .
+It is an analytical engine of a very simple character , which performs a complete analysis of any logical problem impressed upon it .
+By merely reading down the premises or data of an argument on a key board representing the terms , conjunctions , copula , and stops of a sentence , the machine is caused to make such a comparison of those premises that it becomes capable of returning any answer which may be logically deduced from them .
+It It is charged , as it were , with a certain amount of information which can be drawn from it again in any logical form which may be desired .
+The actual process of logical deduction is thus reduced to a purely mechanical form , and we arrive at a machine embodying the 'Laws of Thought , ' which may almost be said to fulfil in a substantial manner the vague idea of an organon or instrumental logic which has flitted during many centuries before the minds of logicians .
+12 .
+As the ordinary views of logic and the doctrine of the syllogism would give little or no assistance in comprehending the action of the machine , I find it necessary to preface the description of the machine itself with a brief and simple explanation of the principles of the indirect method of inference which is embodied in it , avoiding any reference to points of abstract or speculative interest which could not be suitably treated in the present paper .
+13 .
+Whatever be the form in which the rules of deductive logic are presented , their validity must rest ultimately upon the Three Fundamental Laws of Thought which de-velope the nature of Identity and Diversity .
+These laws are three in number .
+The first appears to give a definition of Identity by asserting that a thing is identical with * Pure Logic , or the Logic of Quality apart from Quantity : with Remarks on Boole 's System , and on the relation of Logic and Mathematics .
+London , 1864 ( Stanford , ) .
+t The Substitution of Similars , the True Principle of Reasoning : derived from a Modification of Akistotle s Dictum .
+London , 1869 ( Macmillan ) .
+PEEEOBMANCE O LOGICAL INFEEENCE .
+itself ; the second , known as the Law of Contradiction , states that thing cannot at the same time and ^lace combine contradictory or opposite attributes ; whatever A and B may be it is certain that A cannot be both B and not B. This law , then , excludes from real , or even conceivable existence , any combination of opposite attributes .
+The third law , commonly known as the Law of Excluded Middle , but which I prefer to call by the simpler title of the Law of Duality , asserts that every thing must either possess any given attribute or must not possess it .
+A must either be B or not B. It enables us to predict anterior to all particular experience the alternatives which may be asserted of any object .
+When united , these laws give us the all-sufficient means of analyzing the results of any assertion : the Law of Duality developes for us the classes of objects which may exist ; the Law of Identity allows us to substitute for any name or term that which is asserted or known to be identical with it ; while the Law of Contradiction directs us to exclude any class or alternative which is thus found to involve self-contradiction .
+14 .
+To illustrate this by the simplest possible instance , suppose we have given the assertion that A metal is an , and it is required to arrive at the description of the class of compound or bodies so far as affected by this assertion .
+The process of thought is as follows:\#151 ; By the Law of Duality I develope the class not-element into two possible parts , those which are metal and those which are not meta , thus\#151 ; What is not element is either metal or not-metal .
+The given premise , however , enables me to assert that what is metal is element ; so that if I allowed the first of these alternatives to stand there would be a not-element which is yet an element .
+The law of contradiction directs me to exclude this alternative from further consideration , and there remains the inference , commonly known as the contrapositive of the premise , that What is not element is not metal .
+Though this is a case of the utmost simplicity , the process is capable of repeated application ad infinitum , and logical problems of any degree of complication can thus be solved by the direct use of the most fundamental Laws of Thought .
+15 .
+To take an instance involving three instead of two terms , let the premises be\#151 ; Iron is a metal ... ... ... ... .(1 ) Metal is element . . . .
+( 2 ) We can , by the Law of Duality , develope any of these terms into four possible combinations .
+Thus Iron is metal , element ; ... ( cc ) or metal , not-element ; . .
+3 ) or not-metal , element ; . .
+( y ) or not-metal , not-element .
+( \lt ; $ ) But the first premise informs us that iron is a metal , and thus excludes the combinations ( y ) and ( \amp ; ) , while the second premise informs us that metal must be , and thus further excludes the combination ( ( 3).It follows that iron must be described by the first alternative ( a ) only , and that it is an element , thus proving the conclusion of the syllogistic mood Barbara .
+16 .
+In employing this method of inference , it is soon found to be tedious to write out at full length in words the combinations of terms to be considered .
+It is much better to substitute for the words single letters , A , B , C , \amp ; c. , which may stand in their place and bear in each problem a different meaning , just as x , z in algebra signify different quantities in different problems , and are really used as brief marks to be substituted for the full descriptions of those quantities .
+At the same time it is convenient to substitute for the corresponding negative terms small italic letters , a , , , \amp ; c. , thus if A denote iron , denotes what is not-iron .
+B " metal , b " " not-metal .
+C " element , o " " When these general terms are combined side by side , as in A B C , B C , they denote a term or thing combining the properties of the separate terms .
+Thus ABC denotes iron which is metal and element ; \#171 ; BC denotes metal which is element but not iron .
+These letter terms A , B , C , a , b , c , See .
+can , in short , be joined together in the mannei of adjectives and nouns .
+17 .
+I must particularly insist upon the fact , however , that there is nothing peculiar or mysterious in these letter symbols .
+They have no force or meaning but such as they derive from the nouns and adjectives for which they stand as mere abbreviations , intended to save the labour of writing , and the want of clearness and conciseness attaching to a long clause or series of words .
+In the system put forth by Boole various symbols of obscure or even incomprehensible meaning were introduced ; and it was implied that the inference came from operations different from those of common thought and common language .
+I am particularly anxious to prevent the misapprehension that the method of inference embodied in the machine is at all symbolic and dark , or differs from what the unaided human mind can perform in simple cases .
+18 .
+Great clearness and brevity are , however , gained by the use of lettei teims , or if we take A = iron , B = metal , C = element ; then the premises of the problem considered are simply Iron is metal ... A is ... ... ... ... ... ... ... .^ Metal is element . .
+B is ... ... ... ... ... ... .^ PERFORMANCE O LOGICAL INFERENCE .
+The combinations in which A may manifest itself are , according to the Laws of Thought , ABC , ... ... ... ... .
+A Be , ... ... ... ... A bC , ... ... ... ... ( y ) A be ... ... ... ... .(\amp ; ) But of these ( y ) and ( \amp ; ) are contradicted by ( 1 ) and ( ft ) by ( 2 ) .
+Hence A is identical with A B C , and this term , ABC , contains the full description of A or iron under the conditions ( 1 ) and ( 2 ) .
+Similarly , we may obtain the description of the term or class of things not-element , denoted by c. For by the Law of Duality c may be developed into its alternatives or possible combinations .
+A Be , ... ... ... ... A be , ... ... ... ... ... .
+) a Be ... ... ... ... ... ..(\#163 ; ) a b c ... ... ... ... ... ... ... ( 6 ) Of these ( ft ) and ( Q are contradicted by ( 2 ) and ( by ( 1 ) ; so that , excluding these contradictory terms , a b c alone remains as the description or equivalent of the class c. Hence what is not-element , is always not-metallic and is also not-iron .
+19 .
+In practising this process of indirect inference upon problems of even moderate complexity , it is found to be tedious in consequence of the number of alternatives which have to be written and considered time after time .
+Modes of abbreviation can , however , be readily devised .
+In the problem already considered it is evident that the same combination sometimes occurs over again , as in the cases of ( ft ) and ( ft ) ; and if we were desirous of deducing all the conclusions which could be drawn from the premises we should find the combination ( a ) occurring in all the separate classes A , A B , B , BC , AC .
+Similarly , the combination a bC occurs in the classes b , C , C , and it would be an absurd loss of labour to examine again and again whether the same combination is or is not contradicted by the premises .
+It is certain that all the combinations of the terms A , B , C , a , b , c , which are possible under the universal conditions of thought and existence are but eight in number , as follows:\#151 ; ( cc ) ABC ( ft ) ABc All the classes of things which can possibly exist will be represented by an appropriate selection from this list ; B will consist of ( a ) , ( / 3 ) , ( g ) and ( \lt ; Q ; C will consist of ( a ) , ( y ) , ( g ) and ( V ) ; B C will consist of the combinations common to these classes , as ( a ) and ( g ) ; and so on .
+If we wish , then , to effect a complete solution of a logical problem , it will save much labour to make out in the first place the complete development of combinations , to examine each of these in connexion with the premises , to eliminate the inconsistent combinations , and afterwards to select from the remaining consistent combinations such as may form any class of which we desire the description .
+Performing these processes in the case of the premises ( 1 ) and ( 2 ) , we find that of the eight conceivable combinations only four remain consistent with the premises , viz.:\#151 ; ABC ... ... ... ... ... ... .(\#171 ; ) a B C ... ... ... ... ... .(g ) a b G ... ... ... ... ... .(ri ) a b c ... ... ... ... ... .
+In this list of combinations the conditions ( 1 ) and ( 2 ) are , as it were , embodied and expressed , so that we at once learn that A according to those conditions consists of ABC only ; B consists of ( a ) or ( g ) b " " 0 ) or ( \amp ; ) c " " W \#174 ; ( *)\#187 ; 00 ( 0* 20 .
+It is easily seen that the solution of every problem which involves three terms A , B , C will consist in making a similar selection of consistent combinations from the same series of eight conceivable combinations .
+Problems involving four distinct terms would similarly require a series of sixteen conceivable combinations , and if five or six terms enter , there will be thirty-two or sixty-four of such combinations .
+These series of combinations appear to hold a position in logical science at least as important as that of the multiplication table in arithmetic or the coefficients of the binomial theorem in the higher parts of mathematics .
+I propose to call any such complete series of combinations a Logical Abecedarium , but the number of combinations increases so rapidly with the number of separate terms that I have not found it convenient to go beyond the sixty-four combinations of the six terms A , B , C , D , E , F and their negatives .
+21 .
+To a person who has once comprehended the extreme significance and utility of the Logical Abecedarium , the whole indirect process of inference becomes reduced to the repetition of a few uniform operations of classification , selection , and elimination of contradictories .
+Logical deduction becomes , in short , a matter of routine , and the amount of labour required the only impediment to the solution of any question .
+I have directed much attention , therefore , to reduce the labour required , and have in previous publications described devices which partially accomplish this purpose .
+The Logical Slate consists of the complete Abecedarium engraved upon a common writing slate , and merely PERFORMANCE OF LOGICAL INFERENCE .
+saves the labour of writing out the combinations* .
+The same purpose may be effected by having series of combinations printed ready upon separate sheets of paper , a series of proper length being selected for the solution of any problem , and the inconsistent combinations being struck out with the pen as they are discovered on examination with the premises .
+22 .
+A second step towards a mechanical logic was soon seen to be easy and desirable .
+The fixed order of the combinations in the written abecedarium renders it necessary to consider them separately , and to pick out by repeated acts of mental attention those which fall into any particular class .
+Considerable labour and risk of mistake thus arise .
+The Logical Abacus was devised to avoid these objections , and was constructed by placing the combinations of the abecedarium upon separate moveable slips of wood , which can then be easily classified , selected and arranged according to the conditions of the problem .
+The construction and use of this Abacus have , however , been sufficiently described both in the ' Proceedings of the Manchester Literary and Philosophical Society ' for 3rd April , 1866 , and more fully in my recently published work , called ' The Substitution of Similars , ' which contains a figure of the Abacus .
+I will only remark , therefore , that while the logical slate or printed abecedarium is convenient for the private study of logical problems , the abacus is peculiarly adapted for the logical class-room .
+By its use the operations of classification and selection , on which Boole 's logic , and in fact any logic must be founded , can be represented , and the clearest possible solution of any question can be shown to a class of students , each step in the solution being made distinctly apparent .
+23 .
+In proceeding to explain how the process of logical deduction by the use of the abecedarium can be reduced to a purely mechanical form , I must first point out that certain simple acts of classification are alone required for the purpose .
+If we take the eight conceivable combinations of the terms A , B , C , and compare them with a proposition of the form A is B , .
+, ... ... ... ... ... ... ... ... ... ... ... .(1 ) we find that the combinations fall apart into three distinct groups , which may be thus indicated:\#151 ; a a a a B B b b C c C D Included combinations inconsistent with premise ( 1 ) ... ... ... ... ... ... ... ... ... ... The highest group contains those combinations which are all s , and on account of * See Pure Logic , p. 68 .
+3 z A A b b C G Excluded combinations Included combinations consistent [ , ) JL5 Jl\gt ; with premise ( 1 ) ... ... ... ... . .
+the absence of A are unaffected by the statement that A 's are B 's ; they are thus excluded from the sphere of meaning of the premise , and their consistency with truth cannot be affected by that premise .
+The middle group contains A-combinations , included within the meaning of the premise , but which also are B-combinations , and therefore comply with the condition expressed in the premise .
+The lowest group consists of A-combinations also , but such as are distinguished by the absence of .
+B , and which are therefore inconsistent with the premise requiring that where A is , there B shall be likewise .
+This analysis would evidently be effected most simply by placing the eight combinations of the abecedarium in the middle rank , raising the into a higher rank , and then lowering such \#163 ; 's as remain in the middle rank into a lower rank .
+But as we only require in the solution of a problem to eliminate the inconsistent combinations , we must unite again the two upper ranks , and we then have the premise ( 1 ) fA A a a a a B B B B b b |c c C c C c Combinations inconsistent with the pre-J mise ( 1 ) ... ... ... ... ... ... ... ... ..|c A b 24 .
+Supposing we now introduce the second premise , B is C , ... ... ... ... ... ... ... ... ... ... ..(2 ) the operations will be exactly similar , with the exception that certain combinations have already been eliminated from the abecedarium by the first premise .
+These contradicted combinations may or may not be consistent with the second premise , but in any case they cannot be readmitted .
+Whatever is inconsistent with any one condition , is to ^be deemed inconsistent throughout the problem .
+Hence the analysis effected by the second premise may be thus represented:\#151 ; ( a a Combinations excluded from ( 2 ) ... ... ... ... ... ... ... .lb b C c Combinations consistent with ( 1 ) .
+-\lt ; fA Combinations included and .
+-Ic consistent with ( 2 ) a B C l Combinations inconsistent with ( 2)\lt ; B a B c fA A b Combinations inconsistent with ( 1 ) ... ... ... ... ... ... ... .^ C c To effect the above classification , we first move down to a lower rank the combinations inconsistent with ( 1 ) ; we then raise the b 's , and out of the remaining B 's lower the c s. PERFORMA NCE O LOGICAL INFERENCE .
+But as all our operations are directed only to distinguish the consistent and inconsistent combinations , we now join the highest to the second rank , and the third to the lowest , as follows:\#151 ; fA a a a Combinations consistent with ( 1 ) and ( 2 ) . .
+.\lt ; B B b b |c C C c fA A A Combinations inconsistent with ( 1 ) or ( 2 ) , or both .
+.\lt ; B B c 25 .
+The problem is now solved , and it only remains to put any question we may desire .
+Thus if we want the description of the class A , we may raise out of the consistent combinations such as are cCs , and the sole remaining combination ABC gives the description required , agreeably to our former conclusion .
+To obtain the description of B , we unite the consistent combinations again and raise the there will remain two combinations ABC and aB C , showing that B is always C , but that , so far as the conditions of the problem go , it may or may not be A. 26 .
+In considering such other kinds of propositions as might occur , we meet the case where two or more terms are combined together to form the subject or predicate , as in the example A B is C , meaning that whatever combinations contain both A and B , ought also to contain C. This case presents no difficulty ; and to obtain the included combinations it is only necessary to raise out of the whole series of combinations the and s , simultaneously or successively .
+The result , in whatever way we do it , is as follows:\#151 ; Excluded combinations Included combinations .
+fA A a a a Y b B B b c G C c C fA A .
+B B C G a b c We may then remove such of the included combinations , e. A B c only , as may be inconsistent with the premise , and proceed as before .
+27 .
+Had the predicate instead of the subject contained two terms as in A is B C , we should have required to raise the as and then lower the s and the c 's , in an exactly similar manner .
+28 .
+The only further complication to be considered arises from the occurrence of the disjunctive conjunction or in the subject or predicate , as in the case A is B or C ( or both ) .
+To investigate the proper mode of treating this condition , we may take the same series of eight conceivable combinations and raise those containing a , in order to separate the excluded combinations .
+But it is not now sufficient simply to lower such of the included combinations as contain b , and condemn these as inconsistent with the premise .
+For though these combinations do not contain B they may contain C , and may require to be admitted as consistent on account of the second alternative of the predicate .
+While the A B 's are certainly to be admitted , the A Vs must be subjected to a new process of selection .
+Now the simplest mode of preparing for this new selection is to join the A B 's to the a ?
+s or excluded combinations , to move up the A into the place last occupied by the A 's , to lower such of the A Z\#187 ; 's as do not contain C. The result will then be as follows:\#151 ; Excluded combinations and included f A A combinations consistent with lst\lt ; B B alternative ... ... ... ... ... ... ... ... .(C c Included combination inconsistent with 1st ' but consistent with 2nd alternative . .
+a B C a B G a b C Included combination inconsistent with both alter- ' natives ... ... ... ... ... ... ... ... ... ... ... ... ... . .
+It is only the lowest rank of combinations , in this case containing only Abe , which is inconsistent with the premise as a whole , and which is therefore to be condemned as contradictory ; and if we join the two higher ranks we have effected the requisite analysis .
+29 .
+It will be apparent that should the subject of the premise contain a disjunctive conjunction , as in A or B is C , a similar series of operations would have to be performed .
+We must not merely raise the as and treat them as excluded combinations , but must return them to undergo a new sifting , whereby the a B 's will be recognized as included in the meaning of the subject , and only the a Vs will be treated as excluded .
+This analysis effected , the remaining operations are exactly as before .
+30 .
+The reader will perhaps have remarked that in the case of none of the premises considered has it been requisite to separate the combinations of the abecedarium into more than four groups or ranks , and it may be added that all problems involving simple logical relations only have been sufficiently represented by the examples used .
+The task of constructing a mechanical logic is thus reduced to that of classifying a series of wooden rods representing the conceivable combinations of the abecedarium into certain definite groups distinguished by their positions , and providing such mechanical arrangements , that wherever a letter term occurs in the subject or predicate of a proposition , PERFORMANCE OF LOGICAL INFERENCE .
+or a conjunction , copula or stop intervenes , the pressure of a corresponding lever or key shall execute systematically the required movements of the combinations .
+31 .
+The principles upon which the logical machine is based will now be apparent to the reader ; and as the construction of the machine involves no mechanical difficulties of any importance , it only remains for me to give as clear a description of its component parts and movements as their somewhat perplexing character admits of .
+32 .
+The Machine , which has been actually finished , is adapted to the solution of any problems not involving more than four distinct positive terms , indicated by A , B , C , D , with , of course , their corresponding negatives , The requisite combinations of the abecedarium are , therefore , sixteen in number ( S 20 , p. 504 ) , and each combination is represented by a pair of square rods of bay wood ( Plate XXXII .
+fig. 1 ) , united by a short piece of cord and slung over two round horizontal bars of wood d , figs. 2 \amp ; 3 ) , so as to balance each other and to slide freely and perpendicularly in wooden collars ( b , figs. 2 , 3 , \amp ; 4 ) closed by plain wooden bars ( c , c ) .
+To each rod is attached a thin piece of baywood , 8S inches long and 1 inch wide ( a , a , figs. 2 \amp ; 3 ) , bearing the letters of the combination represented .
+Each letter occupies a space of ^ inch in height , but is separated from the adjoining letter by a blank space of white paper Ijr inch long .
+Both at the front and back of the machine are pierced four horizontal slits , 1^ inch apart , extending the whole width of the case , and inch in height , so placed that when the rods are in their normal position each letter shall be visible through a slit .
+The machine thus exhibits on its two sides , when the rods are in a certain position , the combinations of the abecedarium as shown in fig. 5 ; but should any of the rods be moved upwards or downwards through a certain limited distance the letters will become invisible as at ff ( Plate XXXIII .
+fig. 5 ) .
+33 .
+Externally the machine consists of a framework , seen in perpendicular section in fig. 3 ( g , g ) , and in horizontal section in fig. 4 which serves at once to support and contain the moving parts .
+It is closed at the front and back by large doors h , fig. 3 ) , in the middle panels of which are pierced the slits rendering the letters of the abecedarium visible .
+34 .
+The rods are moved upwards , and the opposite rods of each pair are thus caused to fall downwards , by a series of long flat levers seen in section at l ( figs. 2 , 3 , 6 ... 13 ) .
+These levers revolve on pivots inserted in the thicker part , and move in sockets attached to the inner side of the framework .
+Brass arms ( , figs. 3 \amp ; 13 ) , connected by copper wires ( n , n ) with the keys of the machine ( o , o ) , actuate the levers , which are caused to return , when the key is released , by spiral brass springs ( s , s ) .
+35 .
+The levers communicate motion to the rods by means of brass pins fixed in the inner side of the rods ( fig. 2 ) .
+As it is upon the peculiar arrangement of these pins that the whole action of the machine depends , the position of each of the 272 pins is shown by a dot in fig. 1 , in which are also indicated the function of each pin and the combination represented by each pair of rods .
+It is seen that certain pins are placed uniformly in all the adjoining rods , as in the rows opposite the words , Conjunction , Copula , Full Stop .
+These may be called operation pins , and must be distinguished from the letter pins* representing the terms of the combination , and varied in each pair of rods to correspond with the letters of the abecedarium .
+On examining fig. 1 , it will be apparent that the pins are distributed in a negative manner ; that is to say , it is the absence of a pin in the space A , and its presence in the space , which constitutes the rod a representative of the term A. The rods belonging to the combination A C for instance , have pins in the spaces belonging to the letters , B , c , D. 36 .
+The key board of the instrument is shown in fig. 4 , where are seen two sets of term or letter keys , marked A , a , B , b , C , e , D , separated by a key marked Copula Is .
+The letter keys on the left belong to the subject of a proposition , those on the right to the predicate , and on either side just beyond the letter keys is a Conjunction key , appropriated to the disjunctive conjunction or , according as it occurs in the subject or predicate .
+The last key on the right hand is marked Full Stop , and is to be pressed at the end of each proposition , where the full stop is properly placed , On the extreme left , lastly , is a key marked Finis , which is used to terminate one problem and prepare the machine for a new one .
+37 .
+In order to gain a clear comprehension of the action of these keys , we must now turn to fig. 2 , where all the levers are shown in position , only three of them being inserted in fig. 3 , and to figs. 6-13 ( Plate XXXIV .
+) , which represent , in the full natural size , the relative positions of each kind of lever with regard to the pins in every possible position of the rods .
+If the subject key A be pressed it actuates the lever A at the back of the machine ; and supposing all the rods to be in their proper initial positions , it moves upwards , as in fig. 6 , all the back a rods through exactly half an inch , the front rods connected with them of course falling through half an inch .
+All the a combinations are thus caused to disappear from the abecedarium ; but as the A rods have no pins opposite to the A lever , they will remain unmoved , and continue visible .
+Thus the pressure of the A key effects the selection of the class A of the conceivable combinations .
+Each subject letter key similarly acts upon a lever at the back ; and should several of them be pressed , either simultaneously or in succession , the combinations containing the corresponding letters will be selected .
+38 .
+Each predicate letter key is connected with a lever in the front of the machine , and when pressed the effect is exactly the same as that of a subject key , but in the opposite direction ( fig. 11 ) .
+If the B predicate key be pressed it raises through half an inch all the front rods which happen to have corresponding pins , and to be in the initial position .
+The back rods will at the same time fall , and the combinations containing will disappear from the abecedarium , but in the opposite direction .
+39 .
+It is now necessary to explain that each rod has four possible positions fully indicated in the figs. 6-13 .
+The first of these positions is the neutral or initial position , in which the letters are visible in the abeced , and the letter pins are opposite letter levers so as to be acted upon by them .
+The second position is that into which a lod is thrown by a subject key ; the third position lies in the opposite direction , and is that PERFORMANCE OF LOGICAL INFERENCE .
+into which a rod is thrown by a predicate key .
+The fourth position lies one half inch beyond the third .
+The four positions evidently correspond to the four classes into which combinations were classified in the previous part of the paper as follows:\#151 ; Second Position.\#151 ; Combinations excluded from the sphere of the premise .
+First Position.\#151 ; Combinations included , but consistent with the premise .
+Third Position.\#151 ; Temporary position of combinations contradicted by the premise : also temporary position of combinations excluded from some of the alternatives of a disjunctive predicate .
+Fourth Position.\#151 ; Final position of contradictory or inconsistent combinations .
+40 .
+Let us now follow out the motions produced by impressing the simple proposition A is B upon the machine , all the rods being at first in the initial or first position .
+The keys to be pressed in succession are\#151 ; First .
+The subject key , A. Second .
+The copula key .
+Third .
+The predicate key , B. Fourth .
+The full-stop key .
+The subject key A has the effect of throwing all the a rods from the first into the second position , the back rods rising and the front rods falling inch .
+The copula key will in this case have no effect , for , as seen in fig. 9 ( Plate XXXIV .
+) , it acts only on rods in the third position , of which there are at present none .
+The predicate key ( fig. 11 ) does not act upon such of the rods ( those marked a ) as are in the second position , but it acts upon those in the first position , provided they have pins opposite the lever .
+The effect thus far will be that the a rods are in the second position , the A l rods in the third , while the A B rods remain undisturbed in the first position .
+An analysis has been effected exactly similar to that explained above ( S 23 , p. 505 ) .
+41 .
+The full-stop key being now pressed has a double effect .
+It acts only on a single lever at the front of the machine ( figs. 2 \amp ; 7 ) , but the front rods all have in the space opposite to the lever two pins one inch apart ( fig. 1 ) .
+These pins we may distinguish as the a and ( 3 pins , the a pin being the uppermost .
+While a rod is in the first position the lever passes between the pins and has no effect ; but if the rod be lowered \ inch into the second position , the lever will cause the rod to return to the first position by means of the a pin ; but if the rod be raised into the third position , the / 3 pin will come into gear , and the rod will be pushed ^ inch further into the fourth position .
+Now in the case we are examining , the AB 's are in the first position and will so remain ; the a 's are in the second and will return to the first , the A5 's are in the third , and will therefore proceed onwards to the fourth .
+The reader will now see that we have effected the classification of the combinations as required into those consistent with the premise A is B , whether they be included or not in the term A , and those contradicted by the premise which have been ejected into the fourth position .
+An examination of the figures 6-13 will show that only one lever ( fig. 8 ) moved by the Finis key affects rods in the fourth position , so that any combination rod once condemned as contradictory so remains until the close of the problem , and its letters are no more seen upon the abece-darium .
+42 .
+Any other proposition , for instance , B is C , can now be impressed on the keys , and the effects are exactly similar , except that the Ab combinations are out of reach of the levers .
+The B subject key throws the b 's into the second , the C predicate key throws the Bc 's into the third , and the full stop throws the latter into the fourth , where they join the Ab 's already in that place of exclusion , while the remainder all return to the first position .
+The combinations now visible in the abecedarium will be as follows:\#151 ; A A a a a a a a B B B B b b b b C C C C C C G c D d D d D d D d They correspond exactly to those previously obtained from the same premises ( see S 24 ) , except that each combination of A , B , C , a , b , c is repeated with D and If we now want a description of the term A , we press the subject key A , and all disappear except ABCD , ABC which contain the information that A is always associated with B and with C , but that it may appear with D or without D , the conditions of the problem having given us no information on this point .
+The series of consistent combinations is restored at any time by the full-stop key , the contradictory ones remaining excluded .
+43 .
+Any other subject key or succession of subject keys being pressed gives us the description of the corresponding terms .
+Thus the key c gives us two combinations , a b c T ) , abed , informing us that the absence of C is always accompanied by the absence of A and B. Of b we get the description a a a a b b b b C C c c D d D d whence we learn that the absence of B always causes the absence of A , but that C and D are indifferently absent or present .
+44 .
+We can at any time add a new condition to the problem by pressing the full stop to bring the combinations as yet possible into the first position , and then impressing the new condition on the keys as before .
+Let this condition be Cis D. The effect will obviously be to remove such C d combinations as yet remain into the fourth position , leaving only five : PERFORMANCE OF LOGICAL INFERENCE .
+A a a a a B B b C C C D D D D d hence we learn that A , B , and C are all D ; that B , C , and D may or may not be A ; that what is not D is not A , not B and not C ; and so on .
+The conditions of this problem form what would be called a Sorites in the old logic , and we have not only obtained its conclusion A is D , but have performed a complete analysis of its conditions , and the inferences which may be drawn from those conditions .
+45 .
+The problem being supposed complete , we press the Finis key , which differs from all the others in moving two levers , one of which ( fig. 13 ) is of the ordinary character and returns any rods which may happen to be in the second position into the first , while the other ( fig. 8 ) has a much longer radius , is moved by a cord or flexible wire p , passing over a pulley q and through a perforation r in the flat board which forms the lever itself , in this case a lever of the second order .
+This broad lever sweeps the rods from the fourth position as well as any which may be in the third into the first , and together with the other lever ( fig. 13 ) it reduces the whole of the rods to the neutral position , and renders the machine , as it were , a tabula , upon which an entirely new set of conditions may be impressed independently of previous ones .
+Its office thus is to obliterate the effects of former problems .
+46 .
+When several of the letter keys on the subject side only or the predicate side only are pressed in succession , the effect is to select the combinations possessing all the letters marked on the keys .
+Thus if the keys A , B , C be pressed there will remain in the abece-darium only the combinations ABCD and ABC and if the key D be now pressed , the latter combination will disappear , and ABCD will alone remain .
+The effect will be exactly the same whatever the order in which the keys are pressed , and if they be pressed simultaneously there will be no difference in the result .
+The machine thus perfectly represents the commutative character of logical symbols which Mr. Boole has dwelt upon in pp. 29-30 of the 4 Laws of Thought .
+' What I have called the Law of Simplicity of logical symbols , expressed by the formula AA=A* , is also perfectly fulfilled in the machine ; for if the same key be pressed two or more times in succession , there will be no more effect than when it is pressed once .
+Thus the succession of keys A A C B B A C would have merely the effect of A B C. This applies also to the predicate keys , but not of course to an alternation of subject and predicate keys .
+47 .
+To impress upon the machine the condition A B is C D , or whatever combines the properties of A and B combines the properties CD , we strike in succession the subject keys A and B , the Copula , the predicate keys C and D and the Full stop .
+The subject keys throw into the second position both the a combinations * Pure Logic , p. 15 .
+Boole 's ' Laws of Thought , ' p. 31 .
+4 A and the b 's ; the predicate keys , out of the remaining A B 's , throw the and s into the third position ; and the full stop completes the separation of the consistent and contradictory combinations in the usual manner .
+48 .
+It yet remains for us to consider a proposition with a disjunctive term in subject , predicate , or both members .
+For such propositions the conjunction keys are requisite , that adjoining the subject keys ( fig. 4 ) for the subject , and the other for the predicate .
+These keys act in opposition to each other , and each is opposed , again , to its corresponding letter keys .
+Thus while the subject keys act on levers at the back of the machine ( Plate XXXIII .
+fig. 3 ) , the subject conjunction key acts on the lever r in front , while the predicate conjunction key t is at the back .
+These levers are shown in their full size in figs. 10 \amp ; 12 , and are seen to differ from all the other levers in having the edge v moving on small wire hinges u in such a way that it can exert force upwards but not downwards .
+The lever can thus raise the rods ; but in case it should strike a pin in returning , the edge yields and passes the pin without moving the rod .
+In connexion with these levers each rod has two pins ( figs. 1 \amp ; 2 ) at a distance of only \ an inch , and the peculiar effect of these pins will .be gathered from figs. 10 \amp ; 12 ( Plate XXXIV .
+) .
+Thus if we press in succession the predicate keys A B , the key A will throw the a 's into the third position .
+The conjunction key will now act upon the a pins of the As and move them into the second position , and at the same time upon the j3 pins of the a 's and return them into the first position .
+The key B now selects from the a 's those which are b 's , and puts them into the third position ready for exclusion by the full stop , which will also join to the a B 's still remaining in the first position the A 's which were temporarily put out of the way in the second position .
+Should there be , however , another alternative , as in the term A orB orC , the conjunction key would be again pressed , which gives the a b 's a new chance by returning them to the first , and the key C selects only the a b for exclusion .
+The action would be exactly similar with a fourth alternative .
+49 .
+The subject conjunction key is similar but opposite in action .
+If the subject key A be pressed it throws the as into the second position ; the conjunction key then acts upon the a pin of the a 's returning them to the first position , and also upon the ( 3 pin of the A 's , sending them to a temporary seclusion in the third position .
+The key B would now select the a b 's for the second position ; the conjunction key again pressed would return them , and add the a B 's to those in the third , and so on .
+The final result would be that those combinations excluded from all the alternatives would be found in the second position , while those included in one or more alternatives would be paitly in the first and partly in the third positions .
+In the progress of a proposition the copula key would now have to be pressed , an when the subject is a disjunctive term its action is essential .
+It has the effect ( fig. PERFORMANCE OF LOGICAL INFERENCE .
+of throwing any combinations which are in the third back into the first .
+It thus joins together all the combinations included in one or more alternatives of the subject , and prepares them for the due action of the predicate keys .
+50 .
+It must be carefully observed that any doubly universal proposition of the form all A 's are B 's , or , in another form of expression , A \#151 ; I !
+, can only be impressed upon the logical machine in the form of two ordinary propositions ; thus all A 's are B 's , and all B 's are A 's .
+The first of these excludes such A 's as may be not-B 's ; the second excludes such B 's as may be not-A 's .
+If we impress upon the keys of the machine the six propositions expressing the complete identity of A , B , C , and D , it is obvious that there would remain only the two combinations A B C D , abed , the identity of the positive terms involving the identity also of their negatives .
+The premise A or B=C or D would require to be read A or B is C or D , C or D is A or B. 51 .
+To give some notion of the degree of facility with which logical problems may be solved with the machine , I will adduce the logical problem employed by Boole to illustrate the powers of his system at p. 118 of the 1 Laws of Thought .
+' " Suppose that an analysis of the properties of a particular class of substances has led to the following general conclusions , viz. :\#151 ; " 1st .
+That wherever the properties A and B are combined , either the property C , or the property D , is present also ; but they are not jointly present .
+" 2nd .
+That wherever the properties B and C are combined , the properties A and D are either both present with them , or both absent .
+" 3rd , That wherever the properties A and B are both absent , the properties C and D are both absent also ; and vice versa , where the properties C and D are both absent , A and B are both absent also .
+" This somewhat complex problem is solved in Boole 's work by a very difficult and lengthy series of eliminations , developments , and algebraic multiplications .
+Two or three pages are required to indicate the successive stages of the solution , and the details of the algebraic work would probably occupy many more pages .
+Upon the machine the problem is worked by the successive pressure of the following keys:\#151 ; 4 a 2 1st .
+A , B , Copula , C , d , Conjunction , c , D , Full stop .
+2nd .
+B , C , Copula , A , D , Conjunction , , d , Full stop .
+3rd .
+a , b , Copula , c , d , Full stop .
+c , d , Copula , a , b , Full stop .
+There will then be found to remain in the abecedarium the following combinations : A B \lt ; ?
+D Ab GD A b C d abed A b c D On pressing the subject key A , the A combinations printed above in the left-hand column will alone remain , and on examining them they yield the same conclusion as Boole 's equation ( p. 120 ) , namely , " Wherever the property A is present , there either C is present and B absent , or C is absent .
+" Pressing the full-stop key to restore the a combinations , and then the keys b , C , we have the two combinations A 5 C D , AbCd , from which we read Boole 's conclusion , p. 120 , " Wherever the property C is present , and the property B absent , there the property A is present .
+" In a similar manner the other conclusions given by Boole in p. 129 can be drawn from the abecedarium .
+52 .
+It is to be allowed that a certain mental process of interpreting and reducing to simple terms the indications of the combinations is required , for which no mechanical provision is made in the machine as at present constructed , but an exactly similar mental process is required in the Indirect Process of Inference , as stated in my ' Pure Logic , ' pp. 44 , 45 ; and equivalent processes are necessary in Boole 's mathematical system .
+The machine does not therefore supersede the use of mental agency altogether , but it nevertheless supersedes it in most important steps of the process .
+53 .
+This mechanical process of inference proceeds by the continual selection and classification of the conceivable combinations into three or four groups .
+It should be noticed that in Boole 's system the same groups are indicated by certain quasi-mathe-matical symbols as follows:\#151 ; the coefficient S indicates an excluded combination " x " included " " x " inconsistent " " " inconsistent " It is exceedingly questionable whether there is any analogy at all between the significations of these symbols in mathematics and those which Boole imposed upon them in logic .
+In reality the symbol 1 denotes in Boole 's logic inclusion of a combination under a term , and 0 exclusion .
+Accordingly ^ indicates that the combination is included in the subject and not in the predicate , and is therefore inconsistent with the proposition , PERFORMANCE OF LOGICAL INFERENCE .
+and x indicates inclusion in the predicate and exclusion from the subject of an equational proposition or identity , from which also results inconsistency .
+Inclusion in both terms is indicated by y , and exclusion from both S , in which case the combination is consistent with the proposition .
+54 .
+To the reader of the preceding paper it will be evident that mechanism is capable of replacing for the most part the action of thought required in the performance of logical deduction .
+Having once written down the conditions or premises of an argument in a clear and logical form , we have but to press a succession of keys in the order corresponding to the terms , conjunctions , and other parts of the propositions , in order to effect a complete analysis of the argument .
+Mental agency is required only in interpreting correctly the grammatical structure of the premises , and in gathering from the letters of the abecedarium the purport of the reply .
+The intermediate process of deduction is effected in a material form .
+The parts of the machine embody the conditions of correct thinking ; the rods are just as numerous as the Law of Duality requires in order that every conceivable union of qualities may have its representative ; no rod breaks the Law of Contradiction by representing at the same time terms that are necessarily inconsistent ; and it has been pointed out that the peculiar characters of logical symbols expressed in the Laws of Simplicity and Commutativeness are also observed in the action of the keys and levers .
+The machine is thus the embodiment of a true symbolic method or Calculus .
+The representative rods must be classified , selected , or rejected by the reading of a proposition in a manner exactly answering to that in which a reasoning mind should treat its ideas .
+At every step in the progress of a problem , therefore , the abecedarium necessarily indicates the proper condition of a mind exempt from mistake .
+55 .
+I may add a few words to deprecate the notion that I attribute much practical utility to this mechanical device .
+I believe , indeed , that it may be used with much advantage in the logical class-room , for which purpose it is more convenient than the logical abacus which I have already employed in this manner .
+The logical machine may become a powerful means of instruction at some future time by presenting to a body of students a clear and visible analysis of logical problems of any degree of complexity , and rendering each step of its solution plain .
+Its employment , however , in this way must for the present be restricted , or almost entirely prevented , by the predominance of the ancient Aristotelian logic , and the almost puerile character of the current logical examples .
+56 .
+The chief importance of the machine is of a purely theoretical kind .
+It demonstrates in a convincing manner the existence of an all-embracing system of Indirect Inference , the very existence of which was hardly suspected before the appearance of Boole 's logical works .
+I have often deplored the fact that though these works were published in the years 1847 and 1854 , the current handbooks , and even the most extensive treatises on logic , have remained wholly unaffected thereby* .
+It would be possible * Professor Bain 's treatise on ' Logic , ' which has been published since this paper was written , is an exception .
+In the first Part , which treats of Deductive Logic , pp. 190-207 , he gives a description and review of Boole 's to search the works of two very different but leading thinkers , Mr. J. S. Mill and Sir W. Hamilton , without meeting the name of Dr. Boole , or the slightest hint of his great logical discoveries ; and other eminent logicians , such as Professor De Morgan or Archbishop Thomson , barely refer to his works in a few appreciative sentences .
+This unfortunate neglect is partly due to the great novelty of Boole 's views , which prevents them from fitting readily into the current logical doctrines .
+It is partly due also to the obscure , difficult , and , in many important points , the mistaken form in which Boole put forth his system ; and my object will be fully accomplished should this machine be considered to demonstrate the existence and illustrate the nature of a very simple and obvious method of Indirect Inference of which Dr. Boole was substantially the discoverer .
+Mathematical System ; but it is significant that he omits the process of mathematical deduction where it is in the least complex , and merely quotes Boole 's conclusions .
+Thus we have the anomalous result that in a treatise on Logical Deduction , the reader has to look elsewhere for processes which , according to Boole , must form the very basis of Deduction .
+Note to S 7 .
+It has been pointed out to me by Mr. White , and has also been noticed in Nature ' ( March 10th , 1870 , vol. i. p. 487 ) , that in the year 1851 , Mr. Alfred Smee , F.R.S. , the Surgeon of the Bank of England , published a work called ' The Process of Thought adapted to words and language , together with a description of the Relational and Differential Machines ' ( Longmans ) , which alludes to the mechanical performance of thought .
+After perusing this work , which was unknown to me when writing the paper , it cannot be doubted that Mr. Smee contemplated the representation by mechanism of certain mental processes .
+His ideas on this subject are characterized by much of the ingenuity which he is well known to have displayed in other branches of science .
+But it will be found on examination that his designs have no connexion with mine .
+His represent the mental states or operations of memory and judgment , whereas my machine performs logical inference .
+So far as I can ascertain from the obscure descriptions and imperfect drawings given by Mr. Smee , his Relational Machine is a kind of Mechanical Dictionary , so constructed that if one word be proposed its relations to all other words will be mechanically exhibited .
+The Differential Machine was to be employed for comparing ideas and ascertaining their agreement and difference .
+It might be roughly likened to a patent lock , the opening of which proves the agreement of the tumblers and the key .
+It does not appear , again , that the machines were ever constructed , although Mr. Smee made some attempts to reduce his designs to practice .
+Indeed he almost allows that the Relational Machine is a purely visionary existence when he mentions that it would , if constructed , occupy an area as large as London.\#151 ; October 10,1870 .
+Jevons .
+mi Trans MDCGCLXX .
+Plate , XXXK .
+j'1'r e/ .
+2 J^Ln C 6 .
+A jH ir oc ( e OL rr B l D \lt ; \#163 ; O'# Ttscft 0 71 " Or " fJ / y. 3/ eefyi Full 'S\#163 ; c ?
+yv .
+A " 8 P *8 P P P *\#171 ; P *$ p *8 P Vi .U Vi V\gt ; o o Vi O V ) v TJ O pq pq PQ PQ *1 PQ PQ PQ * 8 * $ $ \#171 ; 8 \lt ; \lt ; *\lt ; \lt ; \lt ; 1 \lt ; 1 \lt ; t r r\amp ; .s .
+J'i n t* .
+j 0*0 72 , / Ct 7t cfc 6 7* | " Or " { 2 ?
+rifs\#163 ; ct ?
+rx .
+A*/ d 3ad/ ec d. D rr C i Ct fr A " S*1 Adca/ eyt W H.Wesley litk .
+W West imp mi Trans. Ml)CCCLXT Plate XXXIII .
+WWest imp hv o ns .
+tPhil .
+Trans MDCCCLXX .Piote XXXIV .
+Predicate .
+Ip Petit Subject .
+Ftp .
+12 .
+Co njunctio ?
+i " Or in Subject .
+\/ P/ 3 ----ly Position , .
+HI Wesley 11th .
+W West imp .
+

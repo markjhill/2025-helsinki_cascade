@@ -1,0 +1,876 @@
+]\gt ; [ 63 ] IV .
+On an Approximate Solution for the Bending of a Beam of Rectangular Cross-Section under any System of Load , with Special Reference to Points of Concentrated or Discontinuous Loading .
+L. N. G. FILON , B.A. ( Cantab .
+) , , B.Sc. ( Lond. ) , 's College , Cambridge , Fellow of University College , London , xhibition Science Research Scholcu Communicated by C. CHREE , F.R. Received June 12 , \mdash ; Read June 19 , 1902 .
+LNDEX AND TABLE 0F CONTENTS .
+PART I.\mdash ; ESTABLISHMENT AND GENERAL SOLUTION or THE QUATIONS OF THE PROBLEM DISCUSSED .
+Page S 1 .
+General sketch of the problem proposed . . . .
+65 S 2 .
+Object of the investigation . . . . . .
+66 S 3 .
+Establishment of the equations . . . . .
+67 S 4 .
+General solution of the equations in arbitrary functions . . . . .
+69 S 5 .
+Solution involving hyperbolic and circular functions . . . . .
+71 S 6 .
+Determination of the arbitrary constants from the stress conditions over the faces .
+72 S 7 .
+Expressions for the displacements and stresses . . . . .
+74 S 8 .
+ditions at the two ends . . . . . .
+77 S 9 .
+Part of the solutions corresponding to the terms . . . . .
+78 PART \mdash ; DISCUSSION or THE GENERAL SOLUTION WHEN THE FORCES ON THE BEAM ARE PURELY NORMAL AND ARE SYMMETRICAL ABOUT S10 .
+Expressions for the stresses and displacements . . . . .
+79 S11 .
+Approximate values to which the expressions of S101ead when " " \ldquo ; is made very small 80 S12 .
+Analysis of the approximate essions for the displacements .
+Shearing deflection 82 S13 .
+Value of the deflection when is not small and the beam is doubly supported . . . . .
+84 S14 .
+The doubly-supported beam under central load .
+Expressions for the strains and when we remove the supports to the two extremities . . . . .
+86 S15 .
+Definite integraIs to which the expressions of the last section tend when we make " " \ldquo ; very large . . . . .
+88 ( 334 .
+) 3.4.03 ON AN SOLU T BENDING S16 .
+Consideration of the stresses in neighbourhood of the point where the concentrated load is applied . . . . . .
+90 S17 .
+Expansion in integral powers about the point of discontinuous loading . . . . . .
+93 S18 .
+Convergency of the series of the last section . . . .
+94 S19 .
+Transformed expressions for the displacements . . . . .
+96 S20 .
+Expansions about other points .
+Expansion about the origin . . . . .
+98 S21 .
+Expansions about the point . . . . . . .
+101 $ 22 .
+Effect of distributing the concentrated load over a small area instead of a line . . . .
+103 S23 .
+Case of a beam under two equal and opposite loads , or resting upon a rigid mooth plane .
+106 S24 .
+New form of exparlsion for the pressure on the rigid plane . . . . .
+108 S25 .
+Justification of the procedure employed in the last section . . . .
+112 S26 .
+Deductions as to the rapidity with } the local disturbances die out as we leave the neighbourhood of the load . . . . .
+114 PART III.\mdash ; SOLUTION F0R ICAL N : SPECIAL CA SE or Two OPPOSITE oNCEYTRATED LOADS NOT 1N T11E SAME VERTICAL STP .
+LINE . .
+Expressions for the displaccments and strcsses in se1ies . . . . .
+117 S28 .
+Integral expressions when is made infinite . . . . .
+119 S29 .
+Series in powers of . . . . . . . . .
+122 S30 .
+Distortion of the axis of the beam . . . . . . . . .
+124 S31 .
+Distortion of the cross-section and shear in that cross-sectio1l . . .
+125 S32 .
+Practical importance of this problem . . . . .
+128 TION l BEAM UPPER AND LOWER ARE ACTED UPON BY RING STRESS ONLY .
+S33 .
+Expressions for the displacements and stresses in series and integraIs . . .
+129 S34 .
+Expressions for the displacements and stresses in series of powers of the radius vector from a point . . . . .
+134 S35 .
+Distortion of the beam . . . . . . .
+136 S36 .
+Case where the shear is spread over an area instead of over a line . . . .
+139 S37 .
+Application of solutions of S33 to the case of tension produced by shearing stress applied the edges . . . . . . . . .
+142 S38 .
+Correction to be applied in this case to the stretch alon the edges as approach the points of application of the load . . . . .
+143 PART V.\mdash ; SOLUTIONS IN FIINITE TERMS ; SPECIAL APPLICATION To } CASE or A BEAM CARRYING A LOAD .
+S39 .
+Solutions in finite termS 145 340 .
+Case of . . . . . . . . . . .
+147 S41 .
+Determination of the constants for a uniformly loaded . . .
+148 S42 .
+Remarks on the above solution . . . . . .
+150 S43 .
+Historical summary : remarks and criticism . . . . . . . .
+151 S44 .
+Recapitulation of results and sion . . . . . . . . . .
+154 BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+65 PART I. ESTABLISHMENT AND GENERAL SOLUTION 0F EQUATIONS 0F THE PROBLEM DISCUSSED .
+S1 .
+General Sketch of the Problem proposed .
+THE consideration of the stresses and strains which occur in a rectangular parallelopiped of elastic material subjected to given surface forces over its six faces leads to ons of the most general , as it is one of the oldest , problems in the Theory of Elasticity .
+LAME , in his ' Legons sir l'Elasticite des Corps solides , ' published in 1852 , describes it as " " le plus difficile peut-etre de la theory mathematique de l'elasticite.\ldquo ; In spite of repeated attempts , however , the problem remains still unsolved .
+In its complete form it may be stated as follows:\mdash ; Let the origin be taken at the centre of the parallelopiped and the axes Ox , , Oz parallel to its edges .
+Let the lengths of these edges be .
+Let ' denote the displacements of any point parallel to the three axes , and , foUowing the notation of TODHUNTER and PEARSON'S 'History of Elasticity , ' let .
+denote the stress , parallel to , across an elementary area perpendicular to , then we have the six stresses ( 1 ) , where @ , and are the elastic constants of LAME .
+Also must satisfy , inside the material , the following differential equations , ( 2 ) , where , there bein no body force acting on the matter inside the block .
+It is required to find the values of at each point , subject to the condition that the stress across the outer faces shall be arbitrarily given at each point\mdash ; regard being had , of course , to the conditions of rigid equilibrium of the block .
+VOL. CCI .
+\mdash ; A. Since LAMt'S time the problem has been attacked by a large number of mathematicians , among them DE -VENANT , CLEBSCH , BOUSSINESQ , and more recently M. MATHIEU , M. RIBIERE and Mr. J. H. MICHELL .
+Although they have not been able so far to obtain the solution of the problem as stated quite generally above , they have nevertheless made great progress with various particular cases , more especially those in which some of the dimensions of the block are large compared with the rest .
+Fuller references to their work and to the results obtained by them are given in .
+the historical summary at the end of this paper .
+S2 .
+Object of the Investigation .
+The object of the present investigation is to obtain the solution for the rectangular parallelopiped under an arbitrary system of surface loading in two cases , when the problem reduces to one of two dimensions , namely : ( A ) When two of the faces of the bar are constrained to remain plane and the stress applied to the other faces is independent of .
+In this case and are functions of and .
+If the breadth of the beam be sufficiently large , we may relin the constraint along the sides altogether , and we have thus the case of a thick plate bent in a plane perpendicular to its own plane .
+When the plate is made indefinitely thick we have two-dimensional strain in an elastic solid with a plane boundary .
+( B ) When we make the assumption that and at the boundaries while is actually zero throughout .
+That this will be very near the truth if is very small is quite evident , so that in any case this condition will hold for a flat beam or girder whose height is large compared with its breadt But it seems not improbable that it may continue to hold approximately up to a fairly large value of ; we may remember that DE , in his solution for flexure , assumes both and to be zero , in the case where his beam is unstressed except at the ends , and his solution is sufficient to satisfy conditions .
+Obviously vertical p and tensions across the faces must intro important stresses , so that that part of DE hypothesis , in the generalised problem , must go .
+Still it appears reasonable to suppose , on the whole , that , even for a beam where and are of the same order , we may , as a first approximation , retain the hypothesis .
+Of course , eventually , as increases a stress must appear .
+until when is very large we reach the limiting case of problem ( A ) when this stress is sufficient to ensure the vanishing of the displacement If , however , be not too large , so that we can suppose sensibly zero throughout , *September 1 , 1902 .
+I have , since writing the above , verified that a solution for rectangular beanls does exist , which iulfils rigidly these conditions .
+It , in fact , identical with part of CLEBSCH'Ssolution for a thick plate .
+BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEISI OF LOAD .
+then the values taken across the breadth of the beam of the displacements in the plane are found to satisfy two differential equations of the same form as the equations of elasticity when the displacements are independent of and , with this change , that the elastic constant is replaced by another constant .
+The stresses in the plane of are found by differentiation from and V by similar formulae to those giving in terms of for twodimensional strain .
+Now the distribution of such mean stresses inside the beam is independent of the ratio : .
+This has been shown by Mr. J. H. MICHELL ( ' London Mathematical Society 's Proceedings , ' vol. 31 , pp. 100-124 ) .
+It had been previously pointed out by STOKES ( ' Phil. Mag Ser. Y. , vol. 32 , p. 503 ) .
+The equations being of the same form in problems ( A ) and ( B ) , there follows this curious result , that the distribution of stress , inside the beam , consequent upon a given distribution of stress upon the upper and lower faces ( this latter distribution being uniform with regard to the breadth of the beam ) is the same when this breadth is very small and when it is very large .
+S3 .
+Establishment of the Equations .
+The centre of the rectangular beam being the origin , let its axis , which is supposed horizontal , be taken as axis of .
+The axis of will be vertical and the axis of horizontal .
+The bounding surfaces of the beam are Using the notation explained in S1 , equations ( 2 ) may be written ( 3 ) , ( 4 ) , ( 5 ) .
+Integrate and ( 4 ) with regard to from to .
+Then , noting that are both zero , owing to the surface conditions at the side of the beam , and also that integration with regard to and differentiation with regard to and are independent , we find Now if we write , then are the mean values of the two tractions and of the shear in the plane xy\mdash ; taken , for any values of , across the breadth of the beam .
+These will in future be referred to as the mean stresses and often , for shortness , as the stresses .
+We obtain , therefore , the equations ( 6 ) , ( 7 ) .
+Now consider equations ( 1 ) , namely , ( 8 ) , .
+( 9 ) , ( 10 ) , ( 11 ) .
+If we integrate ( 8 ) , ( 9 ) , and ( 11 ) with regard to from to , we have ( 12 ) , , ( 13 ) , ( 14 ) , where are the mean displacements in the plane of taken across the breadth of the beam for any point .
+They will be referred to as the mean displacements .
+Besides these there is a variable which has to be eliminated somehow .
+One way of doing this is by integrating ( 10 ) in the same way .
+We obtain .
+Now if , as explained in the last section , may be treated as small , so that its mean value across the breadth of the beam may be neglected , we have . .
+Substituting for , the equations for and become BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SySTEM OF LOAD .
+( 16 ) , where .
+Putting these into ( 6 ) and ( 7 ) , we have , ( 17 ) , ( 18 ) .
+( 15 ) , ( 16 ) , ( 17 ) , and ( 18 ) are precisely of the same form as the stress-strain relations and the body equations of equilibrium for two-dimensional elastic strain , with the exception that is written for .
+They will in fact be found to be identical with the equations satisfied by the displacements of an plate under thrust in its own plane , as obviously they should be , since , when the beam is made indefinitely thin , the mean displacements coincide with the actual displacements .
+General Solution of the Equations in Functions .
+If we write , where , so that and , multiply ( 18 ) by and add to ( 17 ) , we find Multiply ( 18 ) by and subtract from ( 17 ) But , and if , then Hence From these , by simple integration , where , are arbitrary functions , whence or ( 19 ) , ( 20 ) , where , are again arbitrary functions .
+Hence and can be found almost immediately .
+Writing , , we have ( 21 ) , .
+( 22 ) , from which we obtain easily , , and these last may be put into the simpler form ( 23 ) , BEAM GULAR CCTlON U EM OF LOAD .
+( 24 ) , ( 25 ) , which have the advantage of not containing imaginaries if , are real .
+S5 .
+Solution involving Hyperbolic Circular Functions .
+Assume now for the arbitrary functions the following typical forms X sin Csin sin so that sinmy , A eosh my , mx Ccosh my , .
+Whence from ( 23 ) , ( 24 ) , ( 25 ) we get after some reductions ( 26 ) , ( 27 ) , ( 28 ) , where , and the expressions for the mean displacements come out to be mx sinh m(29 ) . .
+S6 .
+Determination the Arbitrary Constants from the Stress Conditions over the Faces We shall suppose that the mean stresses and are given arbitrarily over the top and bottom surfaces .
+Expanding these in Fourier series , we have , say : where are known constants , and where is any positive integer .
+Now , if we take expressions ( 27 ) and ( 28 ) and equate them , for , to the BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SySTEM OF LOAD .
+expressions , we obtain eight typical equations for the constants which , when combined in pairs , may be written in the simpler form : \mdash ; ( 32 ) , ( 33 ) , ( 34 ) , ( 35 ) .
+These equations solve in pairs .
+We find easily ( 36 ) , ( 37 ) , ( 38 ) , ( 39 ) , ( 40 ) , wr ( 41 ) , ( 42 ) , mb where in the above corresponds to a positive integer .
+The case where has to be investigated separately .
+VOL. CCI .
+S7 .
+Expressions for the Displacements and Stresses .
+Substituting the values of the constants found above into the equations ( 26 ) , we obtain for the mean displacements and for the mean stresses , the following values , in so far as we merely consider the terms corresponding to positive integer:\mdash ; sinh mb my mx my my mx my mb \mdash ; mb mx my ( 44 ) .
+BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY OF LOAD .
+V my my mx my my my my my ( 45 ) .
+mb\mdash ; mb my mx mb my \ldquo ; my mb-mb my my my mb my my ( 46 ) .
+mx \ldquo ; my my my mx mb my sinh my sin mx mb my my mx ( 47 ) .
+mb my my mx mb my mx my my mb-mb my mx cosh mx my my mx my ( 48 ) .
+BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SySTEM OF LOAD .
+S8 .
+Conditions at the Two Ends It is , however , impossible to satisfy fully the conditions over the two ends .
+These would require that and should have given values over these ends .
+If , however , is so large that , at a long istance from the ends , the effect of any self-equilibrating system of stress over these same ends may be neglected , then we need only consider total terminal conditions at These conditions will involve The total tension across either end .
+( ii .
+) The total shear across either end .
+( iii .
+) The bending moment across either end .
+I now propose to calculate the quantities and for that part of the solution which has been given in the last section .
+I find , after reduction , .
+( 49 ) .
+( 50 ) .
+( 51 ) .
+Now we can always adjust and so as to be zero , for the solutions for a ulliform tension and a uniform bending moment , ( 52 ) ( where and is YOUNG'S Modulus ) , produce no stress across the faces , and therefore such solutions can always be arbitrarily superimposed .
+They correspond to stresses which are nsmitted from the ends ; and we shall find that it is necessary , in various cases , to add such solutions in order to satisfy the end conditions , which are not necessarily satisfied by the series merely involving circular S 9 .
+of the Solutions Corre.sponding to the Term In the first place it is obvious , having regard to the conditions of rigid equilibrium , that if the ends are free from stress , then must .
+If we must have a shear over the two ends in order to balance the excess of the pressure on the one side over the pressure on the other side , and this will require special investigation .
+The solution arising from such conditions is discussed in SS 39-40 .
+For the present let us confine ourselves to .
+This corresponds to a uniform traction along the axis and introduces the following additional terms:\mdash ; .
+, ( 53 ) .
+Now turning to the terms in and , it is easy to verify that the additional terms ( 54 ) , and satisfy the conditions that shall have constant values over the two boundaries , these values being equal in magnitude and opposite in sign .
+The effect of these shears is balanced by the pressure and tension over the two ends , and the conditions of rigid equilibrium are satisfied .
+Finally , if we have equal shears over the boundaries , the sign being the same ( so that the external impressed forces act in opposite directions ) , the solution V ( 55 ) will satisfy ffi conditions over the boundaries , and will introduce over the boundaries a system of shear necessary to .
+maintain rigid equilibrium .
+Adding together the solutions ( 54 ) and ( 55 ) , we find that the conditions over oyer over are all satisfied .
+This completes the solution of the problem proposed , with the exception of the case , which can be reduced to the problem of a beam uniformly loaded along the top and free along the bottom , the load being taken by shears over the ends .
+BEAM OF RECTANGULAR CROSS-SECTION UNDER AN SYSTEM OF LOAI ) .
+DISCUSSION 0F THE GENERAL SOLUTION WHEN : FORCES 0N THE ARE PURELY NORMAL AND ARE SyMMETRICAL AB0UT S 10 .
+for If the forces are purely normal , and if the solution is to be even in , then the , S , terms disappear .
+Further , we have the additional condition that , over the ends ; by introducing suitable terms of the we can satisf ) this last condition , and we finally obtain mb my my sin mb ( 56 ) , V my mb my mx where is an arbitrary constant to be determined from some condition of fixing .
+It merely corresponds to a total vertical displacement of the beam .
+my ( 57 ) , my my mx my mx(57 ) .
+S11 .
+Approximate Values to which the Expressions of S10 lead ) " " \ldquo ; is made very If is very small compared with , so that , eyen for certain fairly high values of mb is still small , we may expand the coefficients in ( 56 ) and ( 57 ) in powers of and also we may expand my and my in powers of .
+This is the method which has been employed by POCHHAMMER 's Journal , .
+I have shown in a previous paper On the Elastic Equilibrium of Circular Cylinders under Certain Practical Systems of Load 'Phil .
+Trans vol. , pp. 147-233 ) , that such an approximation was valid provided that the original series and each of the approximate series obtained from the various terms in the expansion of the coefficients of ( which expansion is supposed carried out only to a limited number of terms ) are absolutely and uniformly convergent for the region considered .
+Assuming that the values of are such as to ensure that these conditions are satisfied , let us see what happens 'when , in the expressions for displacements and V , we neglect all terms of order greater than in We find mx BEAM OF CROSS-SECTION ) SYSTEM OF LOAD .
+( 58 ) .
+mx .
+( 59 ) .
+Now , where is the difference of stress on the top and bottom , in other words , the transverse load per unit length of the beam .
+where is the total shear at any section .
+where is the bending moment at any section .
+Integrating again : mx Also if is the transverse tensile stress at any section mx , and Substituting from the above values into the expressions ( 58 ) and ( 59 ) for and V , we find , remembering that and , VOL. CCI .
+\mdash ; A. ( 60 ) , dropping a constant in V. The stresses might be directly deduced from the equations ( 60 ) by differentiation .
+But here we require to be extremely careful , for , and being of different orders of magnitude , differentiation with regard to will not give a term of the same order as differentiation with regard to .
+The criterion to be used in this case is this : The series is of order in , and is therefore among the terms which we have agreed to neglect .
+Similarly for the series Q. In consequence , every time and appear owing to differentiation , they should be neglected if we keep the same order of approximation for the stresses as for the displacements .
+It will then be found that some terms disappear whose effect is felt in the displacements , as it were , by accumulation .
+Keeping this rule in mind , we obtain easily . . . .
+( 61 ) .
+Now these are the stresses we should have obtained had we treated that part of the bar as free , but subject to a bending moment and a total shear , transmitted from a distant terminal .
+Hence we see that , to a first approximation the stress at each point of a bar , whatever the manner of its transverse loading , depends only upon the total bending moment at the section and upon the total shear at the section , and will be given in terms of these by the same formulae which are valid for a free bar subjected to a given couple and shear at its extremities .
+Similar conclusions follow from the formulae found by Professor POCHHAMNER in the paper quoted previously .
+S12 .
+of the Approximate Expressions for the Displacements .
+Shearing Deflection .
+: Now if we look at the values ( 60 ) we see easily that they are composed of three parts .
+The parts \mdash ; of and of .
+V. These are what we may call the " " Euler-Bernoulli\ldquo ; terms .
+They correspo1ld to a BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SySTEM OF LOAD .
+strain in which cross-sections originally remain plane , and the curvature of the elastic line is at all points proportional to the bending moment .
+( ii .
+) The part of U. This corresponds to the lateral contraction of the material under tensions , and is the same as if each strip of thickness and height were independently stretched .
+( iii .
+) The terms - .\mdash ; of and of V. These correspond to a distortion of the cross-sections and to a parabolic distribution of shear .
+In the particular case , where the load reduces to a central isolated weight and the two symmetrical support reactions , the additional terms ( iii .
+) in V are of the form ( omitting the constant ) for and - for being the distance between the supports .
+It might have been supposed that this particular problem would have been capable of lution by .
+reeking up the eam in the middle and treating it as two inverted cantiIevers , to each of which we could apply DE SAINT-VENANT'S solution .
+This , I believe , is often done by engineers .
+Now such an attempt is , in strictness , bound to fail , because DE solution implies distortion of the cross-section at the fixed end , whereas in the present problem the central cross-section of the beam must necessarily remain plane , from symmetry .
+Moreover , we are left in doubt as to the condition of fixing to be adopted .
+Are we to suppose , with DE , the central element of the terminal crosssection to remain vertical , or , with Professor LOVE ( ' Theory of Elasticity , ' vol. 1 , pp. 179-180 ) , the elastic lin to be horizontal at the built-in end ?
+In the case of a cantilever the difference is quite immaterial , as it merely amounts to a rigid body displacement .
+But here we must remember the cantilevers are only fictitiously severed , and the above difference corresponds to an actual sharp bend of the beam in the middle .
+It is interesting to compare the true solution with those obtained in this way .
+If we assume DE fixing condition , we find , for the additional terms in V corresponding to ( iii .
+) , for , and - for The ?
+terms are therefore identical in this and in the true solution , but the first term which represents the additional deflection of the central axis of the beam , and which is sometimes spoken of as the shearing deflection , is less than in the true solution , being , that is of that given by the double cantilever solution .
+This fraction comes to be 74 for uni-constant isotropy .
+If we assume what I have called LOVE'S condition , the shearing deflection disappears entirely .
+The true solution shows us , therefore , that it is permissible in this case to use the double cantilever as an artifice to obtain the solution , provided we adopt , at the section of fictitious severance , a fixin condition intermediate between those of LOVE and DE , but nearer to the latter .
+In other words , a central isolated load does actually introduce a sharp bend .
+S13 .
+Value of the Deflection when is not the Bcam is Doubly Supported .
+Suppose the beam rests on two knife-edge supports ( fig. ) at a distance apart , and a weight is borne by another knife-edge which presses on the upper part of the beam at C. Then we have , The central deflection of the elastic line ( what DE calls " " la fleche de flexion is then given by ; substituting for 's and 's in ( 56 ) , we find BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SySTEM OF LOAD . .
+( 62 ) .
+Now the first term can be evaluated .
+It is .
+We have therefore Now let us remove the ends to infinity , that is , maks very large .
+This will transform the 2 above into a definite integral .
+It is easily seen that the term under the 2 remains finite and continuous when is made zero ; we may therefore take our limits from to .
+We then obtain , putting : or writing .
+Now is always , so that ?
+and tends to become equal to the -hand side of the last written inequality if becomes small , that is , if we make our supports close up .
+The integrals and when calculated quadratures come out to be equal to and respectively .
+We have therefore ( 64 ) .
+Now if be the Euler-Bernoulli deflection , that is , the deflection calculated in the usual way by taking the curvature proportional to the banding moment and fixing , so that the elastic line is horizontal at the origin , . . . . . . . . . .
+( 65 ) .
+Comparing ( 64 ) and ( 65 ) we see that the true deflection will certainly less than the Euler-Bernoulli deflection if ; or , , if for purposes of numerical calculation we suppose uni-constant isotropy and therefore So that if be less than about of the height of the beam , the correction to be applied to the Euler-Bernoulli deflection becomes negative .
+The critical point where , as we shorten the span , the correction passes from additive to subtractive corresponds to slightly , but only very slightly , greater than , as in the neighbourhood of this value is quite sufficiently small to make a fair approximation for all the most important part of the range of integration of the integral in ( 63 ) .
+We see therefore that when we have a beam loaded in this way , with a section of symmetry constrained to remain plane , the deflection at the centre , for all spans greater than of the height , is larger than the one indicated by the EulerBernoulli theory .
+In the limit when the span is made very large , this additive correction is found to be of the same form as that given by DE for a cantilever under special conditions of end fixing , but the coefficient is different , the correction being just under of DE 's value .
+For spans smaller than of the height the correction is negative .
+S14 .
+The pported Bunder Central Load .
+Expressions for the Strains and Stresses when we remove the Supports to the Two Extremities .
+Going to the general expressions for given in S 10 , if we have a beam as in S 13 , but we make th two supports coincide with , we have with the following values for the displacements and stresses:\mdash ; ( 66 ) .
+BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+\mdash ; \mdash ; cosh ( 67 ) , where is a constant depending on the origin from which the displacement is to be measured .
+( 68 ) .
+\mdash ; ( 69 ) .
+( 70 ) .
+a S15 .
+Definite Integrals to the expressions of the last Section tend evhen we " " \ldquo ; very large .
+If we make very large , the 's in the preceding expressions will become integrals in the limit .
+It will be found , however , that certain terms in the last found values of come infinite when is substituted for .
+In these cases the sum may not be directly tlansformed into an integral .
+The reason why this occurs is that , if be made infinite , an infinite bending moment is introduced at the centre of the beam .
+It is this moment which produces the parts of the displacements and stresses that become finite when is infinite .
+If , however , we apply at the two ends pure couples \mdash ; , we get rid of this infinite moment , and we have only the terms due to the local effect , which produces only finite stresses at a finite distance from the origin .
+Thus , ifin we add to the second 2 and to the third 2 , these 's remain finite even wheu we make .
+We have , however , to introduce negative terms to balance those that have been added .
+Remembering that and , we see that the part of the series in which becomes infinite , is \mdash ; , which , added to the other infinite in the last line of ( 66 ) , giyes for the infinite of : Similarly with V. The terms which have to be added to the second and fourth 's to make them finite in the limit are ' BEAM OF RECTANGULAR CROSS-SLCTION UNDER ANY OF LOAD .
+respectively .
+The first sum in the second of these expressions does not contain the variables , and therefore may be supposed taken from the constant B. The terms , added to the first term of the line of ( 67 ) , will give for the infinite part of V .
+Proceeding to deal in the same way with the stresses , we find that to finiteness in the limit we must add : to the third and fourth series in in each case ; a ( b ) to the third and fourth series in and a respectively ; the infinite part of is then and having no infinite parts .
+If we leave out of account the parts , which belong to a couple and which can be destroyed by introducing an equal and opposite couple , we find that , when is made infinite , the displacements and stresses tend to the following limiting values : V arbitrary constant VOL. CCI .
+\mdash ; A. MR. L. N. G. FILON ON AN APPROXIMATE SOLUTION FOR BENDING - - \mdash ; ( 72 ) .
+- \mdash ; - S 16 .
+of Stre.sse , in the Neighbourhood of the Point where the Concentrated Load is Applied .
+The integrals in the expressions ( 71 ) and ( 72 ) are finite , one-valued and continuous at every point inside the beam , such that is numerically less than by a finite quantity .
+For in this case , for large values of , the integrand is comparable with where stands for the numerical value of .
+If , however , or the point in question lies on the edges of the beam , the integrals are no longer necessarily convergent .
+In this case the expressions ( 71 ) and have to be transformed .
+Let us start with the stresses , as in their case the transformation is somewhat simpler .
+Further , let us consider instead of and the somewhat more compactly expressed quantities BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+( 73 ) .
+P\mdash ; Q and give the lines of principal stress and the principal stress-difference , gives the compression at the point considered .
+If in the values ( 73 ) and in we write ?
+so that we are referring our co-ordinates to the point ( fig. ) where the concentrated load is applied , as origin , we find , on re-arranging the terms , - - \mdash ; - \mdash ; \mdash ; .
+L. N. G. FILON ON AN SOLUTION FOR BFNDING The leading integrals in each cass can be evaluated .
+If we write so that is the distancs of the point considered from the point of application of the concentrated load and is the angle which lmakes with the vertical , then : and we have \mdash ; - ( 75 ) . ?
+( 76 ) .
+The expressions for the stresses therefore consist of two parts , namely , the integrated parts ( 77 ) , and the parts still in the form of integrals , which we may call BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+agree with the expressions found by FLAMANT ( ' Comptes Rendus , ' vol. 114 , pp. 1465-1468 ) and confirmed by BOUSSINESQ ( ' Comptes Rendus , ' vol. pp. 1510-1516 ) for the stresses in an infinite solid due to a line of load per unit length , in which case the problem is reduced to two dimensions .
+They correspond , therefore , to the stresses that would be induced in the beam by the concentrated load if the height were made infinite .
+The stresses are regular functions of and throughout the beam .
+They nowhere become discontinuous or infinite , and they tend to zero as is made large .
+They represent the correction that we have to apply to FLAMANT'S and BOUSSINESQ'S result as a consequence of the finite height of the beam .
+BOUSSINESQ , in the paper quoted above , has made an attempt to obtain such a correction , by finding the stresses given by ( 77 ) over the lower edge of the beam , superimposing equal and opposite system to annul these , and calculating the strains due to this last system as if the top boundary of the beam were removed to infinity .
+This corrective system , as he calls it , will now introduce extra stresses over the top of the beam .
+To get rid of these a corrective system of the second order is superimposed , and we may go on indefinitely in this way .
+The exity of the expressions increases enormously for each system we add , and , on finding the approximation so slowly convergent that the terms of the second order were practically as important as those of the first , SSINESQ threw up the method in despair , and fell back upon an empirical assumption , given by Sir GEORGE STOKES in a supplement to a paper by CARUS WILSON ( ' Phil. Mag Series vol. 32 , pp. 500-503 ) , namely , that the stress system introduced by the finiteness of the height of the beam was such as to annul the stresses due to ( 77 ) at the lower boundary , and varied linearly along the vertical , giving zero stress over the upper boundary .
+The functions of the present article solve the problem exactly .
+S 17 .
+Expansion in Powers about the Point of In the integrals for we may expand the quantities ' in series as follows:\mdash ; ( 78 ) , being an integer .
+Now when these values are substituted in ( 77 ) and nilar formulae , we may distribute the integral sign among the terms of the series , provided that both the original and the resulting series are absolutely and uniformly convergent .
+This is easily seen to hold good for the series ( 78 ) , and it will be shown later , in S 18 , to be true of the resulting series , providing the points considered lie inside a certain circle of convergence .
+Assuming for the moment this result , we obtain from ( 77 ) ( 79 ) , where ( so ) . .
+S 18 .
+Convergency of the Series of the last Section .
+In order to justify the distribution of the integral sign over the separate terms of the series ( 78 ) , we have to show that the series ( 79 ) are absolutely and uniformly convergent .
+Now the series are absolutely and uniformly convergent provided that the series is absolutely and uniformly convergent .
+The conyergency ratio of this latter series Now , in order to find the approximate value of , when is large , let us consider the integral write BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+Now let be chosen so large that for.all values of , where is numerically less than unity , where is a small , finite , assigned quantity .
+We then find where lies between and Now . .
+to .
+to ( 81 ) .
+Next Therefore Now , being , this tends to zero w.hen is large .
+Further , by making sufficiently large , the second term in ( 81 ) is negligible with the first .
+We then find that the most important terms in lie between and Hence when is large we may neglect \amp ; c. , compared with Now where Therefore if we neglect all but the most important terms .
+Therefore in the limit Convergency ratio bIli .
+L. N. G. FILON ON AN SOLUTION IFOR BENDING where are proper fractions .
+If we take small enough , the convergency ratio tends to The series we are dealing with are therefore absolutely and uniformly convergent inside a circle whose centre is the ) oint where the concentrated load is applied and whose radius is twice the height of the beam .
+The transformation used in the previous section was therefore justifiable for this and the expressions ( 79 ) are real arithmetical equivalents of the stresses which have to be superimposed upon FLAMANT and BOUSSINESQ'S solutions for an nite solid when we take into account the height of the beam .
+The values of first few coefficients , calculated approximately by quadratures , were found to be as follows : S 19 .
+nsformed Expressions for the If we take the expressions ( 71 ) for and , we may treat them exactly as we treated the expressions for .
+We then obtain , after some rather lengthy reductions , , where ( 82 ) .
+( 83 ) , OF ECTION U ANY LOAD .
+V ( 83 ) , where are arbitrary constants .
+The expressions agree with those found by BOUSSINESQ in the paper to above ( ' Comptes Rendus , ' vol. 114 , pp. 1500-1516 ) for the cements when is made infinite .
+We see that is indeterminate and V infinite at the point where the concentrated load acts .
+Of course such infinite and indeterminate displacements could not occur nature .
+With any real material , if it were possible to approximate to a true knife-edge , the infinite stress under the knife-edge would at once either cause the material to or else\mdash ; and this is what must almost always occur in practice\mdash ; reduce the parts in the immediate neighbourhood of the knife-edge to a plastic condition , so that in this region the equations of elasticity would no longer apply .
+Hence for practical applications we have to exclude the actual linle of of the load , , and a very thin cylinder surrounding it .
+If we do this , then all our results will be valid for points whose distance from the knife-edge is at all large compared with the radius of this thin cylinder .
+A notable point about the results ( 82 ) is that is independent of and depends only upon the angular co-ordinate of the point considered with regard to the knife-edge as origin .
+Hence all points lying on a plane through this knife-edge receive the same horizontal displacement The parts , of the displacements are finite , one-valued , and continuous throughout the beam and over the edges .
+They can be , like the stresses P expanded in series of powers of , which are absolutely and uniformly convergent within a circle of radius These expansions are easily seen to be the following : ( 84 ) .
+VOL. CCI.\mdash ; A. .
+N. G. ON AN SOLUTION FOR BENi ) is an arbitrary constant , and other 's have the same meaning hese equations represent effect of the finite height of the beam upon the displacements .
+If in them we put , we have the alteration in the displacements ovel the upper sul.face due to the finite thickness .
+This gives us , etaining only the leading terms , giving a downward curvature at the point of discontinuous load equal to and it stretch .
+The effect of the finite ickness a])peal.stherefore to be tu stifle the to its curvature under the load .
+S20 .
+nsions about Other Points .
+)about the The expressions ( 71 ) and ( 72 ) are capable of being expanded in many other ways .
+Considering only expansions in powers of the radius vector from a given point , we may write in , and we shall obtain an expansion which is valid for all points which are contained between , and which lie inside a circle with centre ( X , Y ) passing through the point .
+The coefficients of , \amp ; c. , will be integrals containing X , The only expansions worth considering are those about the origin and those about tlJe poiut , which is vertically below the load .
+The expansions about the origin are deduced immediately from and ( 72 ) .
+are ( 85 ) , ( 86 ) , BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+where , , , , constant to be adjusted from the fixing conditions .
+The series in ( 85 ) and ( 86 ) are absolutely and uniformly convergent inside a circle centre the origin radius The first few coefficients are given by 5.750 where the integrals have been obtained approximately by quadratures .
+Retaining in the expressions ( 85 ) , ( 86 ) only the most important terms , we find for the displacements of points on the -axis : , which is positive with We have therefore a horizontal stretch equal to For uni-constant , and the stretch is , or one half the stretch due to the load acting horizontally along the length of the beam , so as to produce a tension Similarly ; this gives a curvature upwards equal to , i.e. , to the curvature that would be produced by a pure couple , or ( putting ) by a couple Wb .
+The stresses at oints along the -axis are Mn .
+N. G. ON AN APPROXIMATE SOLUTION BFNDING ; we therefore at the origin a horizontal tension and vertical pressure .
+These vanish when and respectively , assuming that for these values of the first two terms are a sufficient approximation , which is certainly true for .
+, but only roughly true for , as it amounts to neglecting terlns of order about compared with .
+It will , however , be sufficient for a rough estimate .
+The actual stresses at the origin , or about of the tension due to acting along the horizontal , , or about of the pressure due to acting along the If we had used the expressions which hold for an infinite solid , we should find , at the origin , .
+If we correct the last by STOKES ' empirical rule , we have to add \mdash ; stress at bottom of beam as given by the formula for an infinite solid .
+This will give The error in the vertical stress , calculated from this amended formula , is therefore only , or only about per cent. With regard to the correction for the horizontal tension , BOUSSINESQ finds , for a span and depth where is measured from the point as before .
+The terms correspond to the bending moment which we have removed .
+We have left therefore , so that , at the origin , when , and this gives a tension which is greater than the actual one by BEAM O RECTANGULAR CROSS-SECTION UNDER ANY OF .
+101 S21 .
+Expansions the Point .
+It appears of some interest to give the values of the displacements and stresses about the point , that is , the point of the lower boundary of the beam which is vertically under the load .
+The integral expressions ( 71 ) , ( 72 ) , ( 73 ) transform as follows , if we write These integrals remain conyergent when we put .
+, but they are not conyergent their present form for If we expand now in powers of where we obtain the following series , which ean easily be shown to be uniformly and absolutely convelgent inside a circle of radius ) : ' ( 87 ) , where arbitrary constant depending upon the fixing conditions .
+OF CTION UNDER ANY ) . .
+The values of the first few odd are all we require .
+We then find , for points along the bottom edge , gives therefore a horizontal pressure at ) oint ( to , and this increases at a fairly apid rate its we nlov6 the The stress , obtained BOUSSINESQ'S calculation on STOKES ' hypothesis , gives for the same point .
+value is considerably too high .
+We gather that STOKES ' hypothesis ceases to give valid results for the points in the lower half of the beam .
+S22 .
+Effect of Distributing the Load over a small instead of a Line .
+In the above work we have supposed the load ated uponl line perpendicular to the plane of the strain .
+This has led us to expressions which make the stresses , and one displacement , infinite at the line where the load is applied , and the other displacement indeterminate .
+In practice , however , owing to the elasticity and plasticity of the inaterials both of the beam and of the -edge , contact along line is impossible , and the load always ibutes itself over an area , small but finite .
+In the present section we shall therefore consider the of a uniform distribution of load per unit area ( was formerly load per unit length ) , extending on either side of for a distance Every line element of this load at distance from the middle will produce a system of stresses and displacements , such as we have just been investigating , except that for we must write .
+The stresses and displacements due to the total load therefore denoting that is substituted for in P. Similarly for , \amp ; c. ; writing , we referrin to the stresses and displacements due to the layer .
+We can obtain in this way , at once , as many different forms for we for , V. The series for the lattel ' integr te at once , for they comlJosed of of the form const .
+cos or , or or .
+We have then I The only case this fails is when and in this case it is to that rTerms of the form and also occur .
+They can be integrated as follows:\mdash ; If we these , and if we call and .
+ii .
+the ) oints ( and , i.e. , the extremities of the layer of , and if denote the distances of any point from respectively , and if be the angles which wioh the vertical , we find , if we start with the expressions for in the form ( 77 ) , ( 79 ) , , ( 84 ) , BEAM OF RECTANGULAR CROSS-SECTION ANY OF LOAD .
+105 \mdash ; sin VOL. CCI.\mdash ; A. The expressions ( 89 ) and ( 90 ) show us that in this case the stresses and the acements are obtained as the difference of two functions taken with the extremities of the layer as origins .
+The series are everywhere uniformly and absolutely convergent inside the common part of two circles of radius described about each of these extremities as centre .
+It follows that if these series are to be valid anywhere , the length of the layer must not exceed .
+And if they are to be valid round each extremity the length of the layer must be less than .
+If these conditions be not fulfilled , then we have to fall back on the results ( 74 ) , ( 75 ) , ( 76 ) , and ( 83 ) for , V. Integrating these we obtain formulae valid over the whole beam , and these again may be expanded in powers about any point we please , as has been previously shown .
+The results are rather long and do not seem to present sufficient interest to justify the writing out of them at length .
+Assuming , so that the expressions ( 89 ) and ( 90 ) are valid over a region enclosing the layer of application of the load , we see that here no displacement is either infinite.or discontinuous .
+For in the limit , both and are zero when ; and in like manner and y'log are zero when The shear is continuous .
+The stresses however are discontinuous at the extremities of the layer .
+This indeed is obvious in the case of , since it is one of the data of the problem .
+But it is curious to note that is discontinuous at those points by precisely the same amount as S23 .
+Case Beunder B'qual and Opposite Loads , or Resting upon Rigid Smooth Plane .
+If we take the solution we have obtained , turn it upside down , as it were , and rpose it to itself , we obtain the solution of the of an infinitely long beam BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+107 gripped between two knife-edges exactly opposite each other ( fig. iii Th solution is obtained from .
+the previous one by changing the signs of and , and then adding the new to the old .
+I do not propose to write down fully the solution ; it is easily obtained in various forms by using the several expansions which have already been given for the beam under a single concentrated load only .
+The parts of the stresses and displacements which become infinite at the points of loading are of exactly the same form as in the previous case .
+Let us , however , consider the stresses .
+We easily find the following expressions : ( 91 ) .
+- The last written equation shows that over the plane .
+Further , from considerations of symmetry over this plane .
+Hence we may , if we choose , leave the lower part of the beam out of account altogether , and consider it as replaced by an infinite smooth rigid plane , against which the beam is pressed by a single weight , W. It then becomes of considerable interest to find out how this weight distributes itself , after transmission through the beam , over this rigid plane .
+The pressure \mdash ; on the plane corresponding to is given by .
+( 92 ) .
+It is easy to show that this pressure tends to zero when is large .
+Integrating by parts with regard to , we have The integral on the right-hand side is obviously not infinite , however large may be .
+Hence tends to zero as tends to infinity .
+We might repeat this process any finite number of times .
+It will be found that being an even function of , the integrated terms will in all cases vanish at both limi , and we obtain an integral which is not infinite when is large .
+Therefore we see that diminishes faster than any finite inverse power of , however high .
+This seems to snggest an exponential law .
+S24 .
+New Form of for the Pressure on the Rigid Plane .
+Consider the integral We have Substitute in I , we find Let us assume that in this we may expand in ascending powers of This will be justified later .
+whence The cases even and odd have to be treated separately .
+Consider first even and , and let and denote the first and second integrals in the last written expression for .
+Then owing to the vanishing factor we may take the 2 in as going back to , or , putting BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+109 But , and similarly .
+Now be the coefficients in the product of degree when it is expanded out , so that this product is . . .
+Then . . .
+may then be written Now if , as we have assumed , our expansion of was justifiable , we may stop at the term , leaving a remainder less than an assigned quantity , provided be taken large enough .
+It will be shown in the next article that this is the case .
+We may then , in the above , write for the upper limit of a number , large but finite .
+The series now consisting of a finite number of terms , we may distribute the integral sign , and further , we can replace by , since obviously each of the integrals of the type when allows of being differentiated under the integral sign .
+This gives us , when the several integrals are evaluated , Now writing in the above and remembering that destroys any power of , we find But , from CHRYSTAL'S ' Algebra , ' vol. 2 , sech If , therefore , in our expression for we now allow to increase indefinitely , we obtain sech BEAM OF RLCTANGULAR CROSS-SECTION UNDER ANY LOAD .
+111 where . .
+If we treat in a precisely similar way the second integral , we find sech .
+Coming now to the case where , we work out and by a similar method .
+We consider in this case the product of degree , which we denote by .
+After reductions of the same type as those used for , we find whence writirg , we obtain sech sech and since , we find that the required integral I sech . . . .
+( 93 ) .
+S25 .
+Justification of the Procedure employed in the last Section .
+We have to show that , in the case of the integral we were justified in expanding in ascending powers of BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SySTEM OF LOAD .
+113 Now Differentiate ?
+times with regard to .
+The remainder is therefore . .
+This holds for all values of however near to 1 .
+Putting and substituting in we find 1st terms of the series remainder term consisting of the sum of integrals of the form ranging from to , and the product bein replaced by unity for Now is always : hence the general integral in the remainder ( the factor multiplying in the integrand being positive throughout ) is less than i. e. , than Now always , and .
+The general remainder term is therefore less than for ranging from 1 to For the remainder term .
+Thus for every value of the VOL. value of the corresponding term in the remainder is seen to become very small of the order 1/ when is made very large , remaining finite .
+The value of the whole remainder is therefore also small of the order .
+Consequently this remainder tends to zero as we make large , and the series is therefore a true arithmetical equivalent of We have still to show that a similar result holds for the expansion found for I , namely , that the integral we have called tends to the limit zero when is indefinitely increased .
+This we can do as follows:\mdash ; is numerically less than and it is easy to show that both and continually decrease as increases .
+Hence , if we split up into , the first part is less than value of the integrand when , i.e. , .
+The second part is also less than Denoting the last integral , which is finite , by , we have numerically .
+But Therefore Now if be chosen equal to , a quantity which tends to zero when / tends to infinity .
+itself therefore tends to zero for all values of , so that the series ( 9S ) may be extended to infinity .
+S 26 .
+Deductions as to the Rapidity with which the Local Disturbances die out as we leave the neighbourhood of the If we look at ( 93 ) and perform the differentiations , then , remembering that is of degree in and are of degree in , and is of degree in , the only terms occurring in I will be of the form ( algebraic polynomial in z ) sech their differential coefficients ) .
+Now BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+115 sech and all its differential coefficients will be of order when is large .
+Similarly and its differential coefficients will be of order when is large .
+We see , therefore , that the first terms of the series for I will be of the form ( algeb.raic polynomial of degree in z ) to the first approximation when is large .
+Further we have obtained an expression for the remainder , which is small independently of , for any given large value of .
+We see therefore that , bein assigned , we may make as large as we please and I will eventually tend to zero , becoming large more rapidly than any polynomial of finite degree , if be large enough .
+Now .
+We see therefore that , if be small , the pressure , after a certain value of , decreases with extreme rapidity as we get away from the neighbourhood the concentrated load , because , being then large , even for moderate values of the influence of the exponential term will be predominant .
+On the other hand , if becomes finite , or even large , the algebraic polynomial factor will become predominant , and the decrease as we go away from the point of loading will become much less rapid .
+The expansion ( 93 ) gives us a link , as it were , between the case of a very thin beam , where the local effects die out according to a negative exponential of the distance along the axis , and that of an infinite where they decrease as an inverse power of the distance from the point ofloading .
+A diagram is given in fig. .
+showing the variation of the pressure along the base of the elastic block where it rests on the rigid plane .
+The ordinates represent the ratio of to \mdash ; that is , the integral which has been called I. The abscissae represent the quantities .
+The has been plotted from the following values of I , which have been calculated:\mdash ; For a value of equal to about the pressure vanishes , and is replaced by a tension .
+This is a very remarkable result , as it shows that an elastic block , acted upon by a ntrated load along a line of its uppel ' surface transverse to its length , cannot have its whole base in contact with a smooth rigid plane on which it rests : at a certain distance from the load the body of the beam is lifted off the plane .
+It would therefore appear as though the problem treated of above were impossible to realise in practice .
+But obviously we may superimpose any uniform pressure on the top of the beam , sufficient to make the total pressure at every point below positive .
+This may be done , in some cases , by the weight of the beam itself , if the weight be not too large .
+Further , the tensions required to keep the lower surface of the block horizontal are , as we may see from fig. , very small .
+If we leave them out of account , we do not sensibly disturb the distribution of the large pressure under the load , so that fig. .
+still gives us an approximation if we omit the negative part of the curve altogether .
+This gives a maximum pressure just below the load equal to or rather less than the pressure due to the load distributed uniformly over the vertical cross-section of the block .
+This pressure diminishes rapidly as we go away from this point , being very small at a distance from it equal to about of the height of the block .
+We cannot tell exactly , in the actual case , where the pressure will be first absolutely nil .
+We can form a rough estimate , however , of the dimensions of the area in contact by taking the area over which , in the solution obtained , the stress is always a pressure .
+This area extends to a distance of height of block , on either side of the vertical through the load .
+ml my my my my ( 94 ) .
+V my my mx , my my - - .
+( 95 ) .
+ml -my - - \mdash ; cosh BEAM OF RECTAN ULAR CROSS-SECTION UNDER ANY SySTEM OF LOAD .
+119 ( 96 ) , my sin my where A in the above is an arbitrary constant representin a rigid body rotation .
+If the conditions of fixing are that the two extremities of the horizontal axis are to remain at the same vertical height after strain , A is zero .
+If , on the other hand , we fix the beam in such a way that the shears over the ends are each allowed to produce , at the extremities of the axis , the deflection which they would produce if the bar were clamped at its middle and the deflection were calculated on the Euler-Bernoulli theory , then find .
+This appears to be the more natural method of fixing .
+We shall , therefore , in what follows , suppose A to have this value .
+S28 .
+Integral Expressions when is made InJinite .
+When we increase the length of the bar indefinitely , it is easy to show that , if we take the last given value of , the displacements remain finite at a finite distance and the stresses remain finite throughout\mdash ; excepting , of course , at the points where the concentrated loads act .
+We then obtain , as in S15 , ( 97 ) ( 97 ) .
+- - ( 98 ) .
+Now , as before , these expressions may be expanded in powers of about the origin .
+In this case they will be found to have a radius of convergence Or they may be expanded about either point of concentrated loading , when they will have a radius of convergence , or they may be split up as follows:\mdash ; BEAM OF RECTANGULAR CROSS-SECTION UNDER SYSTEM OF LOAD .
+121 Write .
+and consider separately the parts of the integrals due to the first and second terms of the right-hand sides of the above equations .
+We find , after some reductions , on writing ( 99 ) , where - ( 100 ) , .
+CCI.\mdash ; A. - ( 100 ) .
+are finite and continuous all over the beam .
+They may be expanded in powers of about the origin , the series being convergent inside a circle of radius , so that the points of concentrated loading are included .
+The parts ) which become infinite at the points where the load acts are of the same form as if the beam were an infinite plate .
+S29 .
+Series in Powers of We may here quote the expressions for in powers of .
+They are : BEAM OF RECTANGULAR fION UNDER ANY OF , LOAD .
+123 where may be broken up in like manner and the parts which remain finite and continuous everywhere can be expanded in the same way .
+We shall require also the series for in powers of , deduced directly from the expressions ( 98 ) .
+They are .
+( 101 ) , ' where .
+, 1 , 2 , . .
+( 102 ) . .
+and S30 .
+Distortion of the Axis of the If in the expression for V we write we obtain the equation of the distorted of the axis To the first approximation it is a semi-cubical parabola This bolds if be small compared with .
+If further we have small compared with , so that the two concentrated loads are applied in neal parallel lines , as in the case of material pressed between the edges of a pair of scissors ) , then we have , to the first ( see p. 99 ) , The terms of order may be dropped in the coeflicient of , the latter being already small , and we have finally BEAM OF RECTANGULAR CROSS-SECTION UNDEli ANY SYSTE OF LOAD .
+125 or putting to simplify the arithmetic The slope of the stl.ained form of the axis at the origin is therefore a maximum when , or For such a value of the approximation will not be quite valid .
+Still , it will be sufficient , even then , to give a rough idea of the values of the coefficients .
+Assuming the formula given for V to hold for this value of , we see that this greatest slope is \mdash ; .
+Now if the part of the beam between were subjected to a shear giving the same total shear across the section , then , if the sections were kept vertical , we should have V , if .
+This gives a slope nearly 3/ 2 of the preceding one .
+S31 .
+Distortion of the Gross-section in that Cross-section .
+If we work out in the same way the value of for we find lf be very small and sufficiently small for 5th and higher powers to be neglected , this gives , assuming to simplify the arithmetic , i. e. , We see , therefore , that the term is practically negligible , or , a very large range of , the mid-section remains sensibly plane .
+For the shear in this cross-seotion , we have or 8 is therefore a numerical minimum at the centre if sketched , for this case .
+It is easy to see that the centre corresponds to a maximum fnr the shear , for the next higher terms in the expansion of are \mdash ; We have therefore a numerical maximum if , and a rough numerical calculation enables us to verify that this is the case .
+The shear is therefore gl.eatest at the centre , but decreases extremely slowly and remains constant over nearly half the section .
+Another case of interest presents itself when the shear at the centre is exactly equal to its mean value over the section .
+This occurs when If we write \mdash ; .
+we find that this roughly corresponds to Measured on the diagram for on fig. vii .
+the value of corresponding to would be about .
+This latter value is probably the more correct , as for values of the above approximation for is hardly sufficient .
+In this case it is found that roughly .
+The shear is therefore a minimum at the centre .
+It increases as we proceed oubwards , but not very rapidly , and decreases down to zero at the edges .
+The curve is shown as ( b ) on fig. .
+The total area of the curve reckoned from a horizontal tangent at the middle point as base is zero , i.e. , there is as much above as below .
+Finally , curve ( d ) on fig. .
+shows the distribution of shear when the arm of the couple is indefinitely increased .
+This is the parabola .
+It is striking how very early this limiting distribution is reached .
+Fig. .
+already shows that the coefficients of the series reach their limiting values with great rapidity .
+For an arm of the couple equal to twice the height of the beam , the parabolic distribution of shear , corresponding to a long cantilever , will , at the midsection , be practically lmdisturbed .
+S 32 .
+Practical Importance of this oblem .
+The problem which has been investigated in this part of the paper is one of considerable importance in practice .
+The only way in which we can apply a shearing force to materials is by means of two opposite asymmetrically situated pressures , such as we have dealt with in this case .
+The case of material cut through by scissors , which is frequently quoted as an example of the application of shearing stress , really corresponds to a stress-distribution of this kind .
+Similarly , a rivet which fastens together two plates is subjected to stress-systems of this type whenever the compound plate undergoes strain in its own plane .
+In nearly every BEAM OF RECTANGULAR -SECTION UNDER ANY SYSTEIsI OF LOAD .
+129 modern engineering structure , such as railway bridges , \amp ; c. , cases of this kind are of constant occurrence , and the strength of the structure depends , to a very great extent , upon the strength of the individual rivets .
+It becomes therefore a problem of the very greatest practical importance to know how the distribution of shear inside such a rivet varies with the dimensions of the rivet and with the thickness of the plates .
+At present our knowledge of the subject is purely empirical ; and although the results of he present paper apply only to a rivet of rectangular section , and even then are only an approximation , yet they should furnish some indications which may be of value in other cases .
+Another point which is illustrated by these results is the manner in which DE SAINT-VENANT'S solutions are modified , when we gradually bring the terminal systems of load closer together .
+We see that the modifications introduced are practically insensible at distances from the section where the load is applied which are greater than the height of the beam .
+This is of importance , as it tells us within which limits , in any experiment , we may assume the state of a beam to be given by one of the " " uniform\ldquo ; solutions which only depend upon the total terminal conditions and which are transmitted without change of type .
+PART IV .
+SOLUTION FOR A BEAM WHOSE UPPER AND LOWER BOUNDARIES ARE ACTED LTPON BY SHEARING STRESS 0NLY .
+S33 .
+Expressions for the Displacements Stresses in Series and Integrals .
+Let us now consider a beam acted upon by stress alone , over the boundaries .
+Then , in the general solution of S7 , If further we suppose the shear to reduce to a single concentrated force at one point we have Putting in these values into ( 44 ) , ( 45 ) , ( 46 ) , ( 47 ) , ( 48 ) , ( 54 ) , and ( 55 ) we obtain ( 103 ) my VOL. CCI , mb my mx my mb my my mx my .
+mb .
+( 103 ) , sm mx , mx mb my .
+mb COR mx my mx mb \mdash ; mb \mdash ; where , and are arbitrary constants to be determined the fixing conditions .
+Now if the fixing conditions are That the displacement of the origin is to be zero ; ( ii .
+) That the extremities of the axis are to remain on the same horizontal line , then ; BEAM OF -SECTJON ANY OF LOAD .
+181 but if we put in these values and then P to make a inite , certain parts of the expressions and V do not give finite ' in the limit .
+This is due to the fact that the conditions of rigid equilibrium require ) , at the two ends ( fig. viii These shears will produce a deflection due to bending alone , which , calculated from the Euler-Bernoulli formula , comes to for , and when is very ives ( 104 ) for the bending deflection produced by the end shears large distances however , are still finite compared with .
+If , thel.efore , we allow the beam to bend freely under these end loads , in such a way that each of these produces ' bending deflection and no more , the constant A must be adjusted so that , for large values of tends to the value ( 104 ) .
+This implies that A must have an infinite part , which will exactly cancel the infinite part of V. It is easily found that the value where is finite , will introduce terms in both and which will make these quantities remain finite in the limit when is infinite .
+We then find , putting in for the value found and proceeding to the limit , dusin ' V siuh dusin ' V siuh ' dusin ' V siuh ' dusin ' V siuh ' dusin ' V siuh ' dusin ' V siuh ' dusin ' V siuh ' dusin ' V siuh ' ( 105 ) .
+Now , in V we put , we have left may be written as the sum of two others , Consider the first of these integrals , and let and its differential coefficients are finite and continuous for all values of , and vanish for itself , when and the integral is finite , denoting the absolute value of .
+It is then NGULAR CTION U OF easy to see that I tends to zero as tends to integrating by parts I But finite quantity ; hence I and therefore tends to zero as tends to infinity .
+Hence , when is large , V reduces to the second latter ) luated , and it comes to for and The first terms correspond to the bending due to the the ends .
+We should therefore try to make for of This is obviously impossible .
+But being eventually the most important the condition is approximately fulfilled by taking , This determines .
+We see that the effect of the isolated shear is to deflect the central line of beam through the distance from its line of action .
+Putting in equations ( 105 ) they give us and V. Integral expl'essions for the stresses are obtained in like manner .
+They are ( 106 ) .
+L. N. G. oN AN APPROXIMATL NDING A ( 106 ) .
+sin S34 .
+the and Scries of )of Vector from a Point .
+The expressions given above for may be exactly as in , 17 , we obtain bout the point where the shear is applied .
+the same on , we : , ( 107 ) , V BEAM OF RECTANGULAR CTION U ANY OF LOAD .
+135 ( 107 ) , where the 's are given by equations ( 80 ) and are the same as before ; and The leading terms in which precede the 's form what is left of this solution when is made infinite .
+They give therefore the displacements and stresses due to a shear acting at an edge of an infinite plate .
+They will be found to agree with the expressions obtained by BoUSSINI ] ( ' Comptes Rendus , ' vol. 114 , pp. 1465-1468 ) for an infinite solid , the strain being twodimensional ; provided that be changed into At the point of loading itself the stresses are infinite and the displacements infinite or indeterminate .
+The series in the expressions ( 107 ) are easily seen to have a radius of convergence The series for the shear reveals a very curious henomenon .
+The terms due to the infinite plate may be written .
+They give therefore a positive shear throughout , and zero shear on the axis of .
+But when the other terms are taken into account , the shear at points on the axis of is which gives a .cyative shear on the axis of , as soon as we get away from the point of loading .
+It follows that there must be , on either side of the cross-section through the load , locus of points of zero shear .
+It is easy to find the approximate of this locus in the neighbourhood of the , of loading .
+only the leading terms in the 's in the expression for the sbear , find that , or These are two circles passing through the point of loading and having their centres on the upper edge of the beam , at a distance from the point of loading equal to hese give a kind of wedge-shaped area , similar to that endosed by the cusp of a ) caustic curve , inside which the shear is negative .
+This cusp is shown in fig. ix .
+For .
+values imation will no longer hold , and the curve will deyiate from the circle .
+S35 .
+of the Beam .
+An interesting feature of a stress-system of this type is the distortion suffered by lines parallel to the axis of the beam .
+We have already seen that at a certain distance the axis itself suffered a bodily shift , being depressed in front of the acting load and raised behind it .
+BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SySTEM OF LOAD .
+137 The series for V in the neighbourhood of the load shows a similar phenomenon , points to the right of being depressed by , and points to the left raised by the same amount .
+( V ) being negative and being positiye , as we go away from the load , the effect of the series is to decrease this effect , the level of the points in front of and behind the load tending to equalise itself If we work out the series for V in the neighbourhood of the origin and of the point , we find ( y ) in the neighbourhood of origin where the 's and 's have the values given on p. 99 , except that now in neighbourhood of point where the have the value given on page 102 .
+From these expressions we obtain the following values for the traIlsvel.sedis .
+placements of points on the lines :\mdash ; .
+So that , approximately , putting in the values of the VOL. CCI.\mdash ; A. All .
+N. ON AN APPROXIMATE SOLUTION FO1 ) \mdash ; . . . . .
+in the above uni-constant isotropy has been assumed to simplify the calculations , so that The distortion , calculated from these formulae , is represented on fig. a range of etween .
+Curve shows the distorted form of the upper edge , ( b ) that of the axis , that of the lower edge .
+With regard to ( a ) the limiting case , in which V is actually discontinuous , does not occul in practice .
+In order to real case , we have to take a horizontal line whose is very small without being actually zero .
+The discontinuity is then replaced by a very rapid variation , as shown by the dotted line .
+The curves show that the depression produced in front of the load diminishes rapidly as we go away from the upper edge , and is even changed to a rise at the bottom of the beam .
+In every case , as we go away from the mid-section , the distorted lines rise to the right and fall to the left .
+BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+1.39 S36 .
+where the is an Area of a Line .
+As in , we may consider the effect of distributing the concentrated shear over an area , instead of over a lin .
+This is all the more important because , although we can , in practice , approximate to a line-distribution of pressure by means of a knife-edge , we cannot in the same way approximate to a line distribution of shear\mdash ; shear being usually transmitted by of projecting collars , which have a certain thickness .
+It is true that a thin notch might be cut into the material and an edge inserted in it which might be pulled sideways .
+But the cutting of such a notch would seriously weaken the material , besides altering the conditions so much as to render our solution inapplicable .
+If we suppose our shear spread over a length of the upper edge , and if we adhere to the notation on p. 104 , we find easily , now denoting shearing force per unit area : V . . .
+The same remarks which were made on p. 106 as to the validity of such expressions apply here .
+Assuming that , we may apply these to obtain the state of things near the layer of shear and at its extremities .
+Clearly the only terms where discontinuities in , or their differential coefficients , may be introduced are their ading terms .
+Let us therefore study these .
+It is easily seen that and are finite , continuous , and onevalued throughout , tending to at the points .
+Their differential coefficients with regard to are likewise everywhere finite , but are indeterminate at .
+They introduce , however , no discontinuity if we proceed along Similarly y'log and are everywhere continuous , finite , and and their differential coefficients with regard to give no discontinuity if we keep to BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+141 is everywhere continuous .
+Its differential coefficient with regard to is indeterminate at ; if we proceed along it increases by as we pass the point and decreases by as we pass the point .
+The same holds with regard to , and its differential coefficient with regard to Hence , as far as and V are concerned , they are both finite , continuous , and onevalued throughout the beam .
+\mdash ; are everywhere finite , but are indeterminate at .
+As we proceed along ?
+decreases abruptly as we pass and increases again by the same amount as we pass .
+Similarly decreases by as we pass , and increases by the same amount as we pass .
+The first of these results means an abrupt change in the angle at which the distorted cross-sections meet the horizontal , and the second shows that the distorted .
+forlD of the upper edge of the beam receives a sudden inflection downwards as we enter the layer of shear , and is again suddenly inflected upwards as we emerge from it .
+It has been shown in a paper by the author " " On the Equilibrium of Circular Cylinders under Certain Practical Systems of Load\ldquo ; Phil. Trans , vol. 198 , pp. 147-233 ) , that a precisely similar occurrence takes place in a circular cylinder subjected to a uniform ring of shear , over a certain length of its curved surface .
+The law that shear depresses the parts of the surface towards which it acts appears to be a general one .
+Passing on now to consider the stresses , we find that and remain everywhere finite , but are indeterminate at the points .
+If we keep to is continuously zero and changes by at , as it should .
+But not only contains a part which becomes indeterminate at , it also contains a term which becomes infinite at those points .
+This is a result for which we had no analogue in the case of a uniform layer of pressure .
+In that problem the stresses were everywhere finite .
+We now see that any finite discontinuity in the shear introduces an infinite pressure or tension in the neighbourhood of this discontinuity .
+This esult , again , has been found to hold good for circular cylinders .
+It may be laid down as an absolute rule that for an engineering structure to be safe , there should never occur any discontinuity in the shearing stress across any surface inside the material or on its boundary .
+It is true that in most cases the stress will be relieved by plastic flow and the variation of the shear will become continuous , though rapid , But such points , especially the point from which the shear starts acting , where the infinite stress is a tension , will remain points of weakness and danger , S37 .
+of Solutions of S33 to the Case of Tension Produced by Shearin .
+Stress Applied to the Edges .
+In practice test-pieces for tension are usually strained by pressure applied to projecting collars , the latter transmitting this pressure to the body of the material in the shape of shear .
+In no case can we apply tension directly to the ends of a bar .
+It is therefore important to know how far the effect of the method of application of the total pull disturbs the usual solution for a uniform tensiOn .
+Let us then consider the effect of having two concentrated shears , one as before cting at the point , and another equal and parallel to the first acting at the point .
+By superimposing on one another two solutions of the type obtained in S33 , we get the solution required .
+It will be found that this solution gives a tension over the left-hand extremity of the beam and a pressure over the right-hand end .
+If we require to have no tension over the right-hand end , and a uniform tension at the left-hand end , to balance the shears , we have to introduce the tension solution ) , , V ; we eventually find sint ] my mx V my my mx mb my my mx .
+OF CROSS-SECTION ANY LOAI ) .
+143 If made tend towards infinity , ressions : 1 siuh u \mdash ; ( 108 ) .
+\mdash ; sill S38 .
+Correction to be Applied in this Case to the Stretch the ' Edges ) approach the Points of of the Load .
+One of the most interesting points about a problem of this kind is to find out at what distance the region of the stretch allel to the axis the value it should have 011 the tension hypothesis .
+In practice all measurements of Young 's modulus bars are made by observing the stretch between two points marked on the outer surface of the bar .
+It is of importance to know the introduced as we bring these points closer to the places where the stress is ) ) lied .
+Let us therefore see how the stretch varies as we go away from the points of application of the load , keeping upon either edge of the beam .
+If we rentiate the expression ( 108 ) for with regard to and then write and transform the expression as in S 16 , we get easily Putting in this Now the last integral may be written if is positive , if is tive , then must be writte1l instead of is auy positive constant .
+Now the functio1l is such that and is finite .
+It follows therefore reasoning similar to that p. 107 that tends to zero as increases .
+Hence , if be positively increasing tends to , and if be negatively increasing tends to , as it should .
+The values of the integral , calculated for various values of the ratio , have given the following values fo.r , as compared with its value for a uniform tension BEAM OF CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+145 We see theretore that the stretch reaches its limiting value with very great rapidity .
+At a distance from the point of application of the load equal to about times the greatest breadth of the bar the error in the stretch is only 3/ 1000 .
+In fact the stretch begins to get near its limiting value at a much earlier stage than this , the error being less than 10 per cent. at a distance from the load of about half the greatest breadth .
+We find therefore that in this case also the distribution of the load becomes practically indifferent as soon as we come to distances from the load which ars of the same order of magnitude as the greatest dimension of the cross-section .
+As a practical rule , when accurate measurements are to be taken , it will be advisable to keep always a length varying from 1 to times this greatest dimension between the points where the stress-system is applied and those at which lleasurements are taken .
+PART V. SOLUTIONS 1N FlNlTE TERMS ; SPECIAL APPLICATION To THE CASE 0F A CARRYING A UNIFORM LOAD .
+S39 .
+Solntions in Finite If in ( 21 ) of pp. 70 , 71 we write ( 109 ) VOL. CCI .
+\mdash ; A. ( 109 ) , we obtain the following homogeneous solutions in .
+( 110 ) , where are the two homogeneous solutions of , thus , . . . . . .
+and We may add any number of such polynomial solutions .
+If we take of them , beginning with , and in the expressions ( 110 ) write , we find and each equal to algebraic polynomials in of degree .
+Also , since come in only in the form , they are equivalent to only two constants .
+We have therefore constants free .
+Now these are not enough to make and coincide with any two given polynomials on the upper and lower faces of the beam .
+Obviously , however , the term containing both in and is independent of and therefore cannot satisfy a perfectly general condition .
+If we make this term disappear by writing , we have now only free constants left , but our polynomials BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTEM OF LOAD .
+147 being now of the degree , we should have enough constants to be able to identify and with any two given polynomials on either face of the beam .
+As a matter of fact this is not so ; for there are solutions , namely , those for : a uniform longitudinal tension , ( ii .
+) a pure bending couple , ( iii .
+) bending with constant shear , which make and zero over both faces and yet do not annul all the free constants .
+There must therefore be relations between the equations giving the constants .
+They are not all independent and , consequently , not every system of surface stress expressible in polynomials corresponds to a solution of this type .
+S40 .
+of Let us see what surface conditions can be satisfied by the solutions of the fourth order .
+In this case , remembering and V , and we notice that , in virtue of the relation the coefficient of in goes out .
+Hence the coefficient of is the same for and .
+This alone shows that the solution is not the most general that can be got , given that the stresses on the upper and lower surfaces are quadratic functions of S41 .
+Determination of the for Uniformly Loaded .
+Here we have , over the upper surface : constant say ; over ; and over The last two conditions imply ( 111 ) .
+( 112 ) .
+( 113 ) . . . . . .
+114 .
+( 115 ) . .
+( 116 ) .
+( 11C ) and . . .
+( 117 ) , give at once ( 118 ) .
+The.conditions for give ( 119 ) .
+( 120 ) .
+- . . . . .
+( 121 ) .
+( 122 ) .
+BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SySTEM OF LOAD .
+149 . . . . . .
+( 124 ) .
+( 124 ) is identically satisfied since Also ( 122 ) , ( 118 ) , ( 113)imply ( 125 ) .
+( 119 ) , ( 120 ) , ( 112 ) lead to ( 126 ) .
+Also ( 123 ) , ( 114 ) imply . . .
+( 127 ) .
+( 121 ) , ( 115 ) are identical .
+Together with ( 111 ) they give ( 128 ) .
+Equations ( 118 ) , ( 124 ) , ( 125 ) , ( 126 ) , ( 127 ) , ( 128 ) contain the solution we require .
+If we substitute the values of the constants in the expressions for the displacements and stresses , we find , after some reductions : const .
+const .
+\mdash ; .
+In the above terms in correspond to a uniform tension along , the terms to a rigid body rotation , the terms to a solution for a pure bending couple , and the terms to a solution for bending under a uniform shear .
+These various constants can be adjusted according to the conditions at the ends If , for instance , the total pressure over the ends and the total bending moment are to be zero , the load 2 balanced by the shear at these ends , we have and we then have ( 129 ) .
+This is the solution for a beam uniformly loaded on the top over a length and held up by shears over its terminal cross-sections .
+In this way the case which occurred in the general solutio1l , and of which the consideration was postponed in namely , is seen to lead to a fairly simple solution in finite terms .
+S 42 .
+Remarks on the olution .
+The above values ( 129 ) for in the case of a beam carrying a uniform load , lead to the following remarks:\mdash ; ( 1 ) There is no " " Neutral Axis\ldquo ; properly so-called ; i.e. , although the tension vanishes for is not strictly proportional to , a cubic term being introduced .
+But if be large , which is the case for any beam whose .
+length is large compared with its height , the proportional effect of the terms introduced will be small .
+BEAM OF CROSS-SECTION ANY OF .
+LOAD .
+l5 1 ( 2 ) The stress is not zero ; that is , SAINT-VENANT'S assumptio4 that there is no stress across fibres parallel to the axis of the beam , does not hold .
+Indeed , it obvious from the beginning that it would not , seeing that there is a stress at the upper surface , by hypothesis .
+( 3 ) The distribution of shear at each cross-section is parabolic , and is given in terms of the mean shear by the same formula which holds when the shear is uniform .
+( 4 ) The curvature is therefore no longer exactly proportional to the bending moment , but contains an additional constant term .
+A similar result has been obtained by Professor KARL PEARSON and the author for beams of elliptic cross-section under their own weight Quarterly Journal Mathematics , .
+It has since been shown to hold for beams of all forms of section by Mr. J. H. Quarterly Journal Mathematics , .
+S43 .
+Historical Summary : Remarks Criticism .
+It may be of interest to give in this place a short sketch of the } ) revious works on the subject , in so far as they are at present known to me .
+E , in his ' Legons sir l'Elasticite ' ( p. 156 et seq discusses the general problem of the rectangular block , with the single restriction , that the surface stresses are purely normal and are even functions of the co-ordinates .
+He fails to determine his constants , except in the particular case where the cubical dilatation throughout the block happens to be previously known .
+As this condition is never satisfied in actual problem , the solution is of comparatively little use .
+DE , in a classical memoir ( ' Memoires des Savants Etrangers de l'Academie des Sciences de Paris , ' vol. 14 ) , has given solutions for the rectangular parallelopiped under torsion and flexure .
+These solutions correspond to the case of terminal stress-systenoe which are transmitted through an otherwise unstressed long bar .
+Numerous attempts have been made .
+to solve the problem of the rectangular elastic solid by removing one or more faces to infinity , and thus simplifying ths surface conditions .
+M. EMILE MATHIEU , in his treatise , 'Theorie de l'Elasticite des Corps Solides , ' Paris , 1890 ( see also ' Comptes Rendus , ' vol. 90 , pp. 1272-1274 ) , has given a solution of the problem when it can be reduced to two dimensions .
+His problem is therefore practically the same as that of this paper , except that he has considered only what I have called case ( A ) on p. 66 , and also , the length is not taken to be large and the distribution of stress over the faces is given .
+The solution is , however , so complex in form , and the determination of the constants , by means of long and exceedingly troublesome series , so laborious , that the results defy all attempts at interpretation .
+Dr. CHREE ( ' Roy .
+Soc. Proc vol. , and ' Roy .
+Soc. Archives ' ; also ' Quarterly Journal of Mathematics , ' vol. 22 ) has considered at length solutions of the equations of elasticity in integral powers , and has applied them to the beam problem .
+Among other results he has obtained expressions for the terms independent of of a form similar to ( 110 ) of this paper .
+Incidentally , he verifies a number of DE results ; but no further application is , I think , made of the twodimensional terms .
+Quite recently , Mr. J. H. MICHELL has investigated the theory oflong beams under uniform load ( ' Quarterly Journal of Mathematics , ' vol. , pp. 28 et seq The object appears to be to extend DE SAINT-VENANT'S researches to uniformly loaded beams .
+Mr. MICHELL deduces several interesting results applicable to beams in general and to the rectangular beam in particular , but , so far as I can see , he makes no claim to having obtained explicitly the complete solution in any case .
+The surface conditions , however , may be thinned down still further by removing four faces to infinity , leaving only an infinite plate of finite thickness .
+The problem in this form has been formally solved by LAME and CLAPEYRON Sir l'equilibre interieur des solides homogenes\ldquo ; ; 'Memoires des Savants Etrangers de l'Academie des Sciences de Paris , ' vol. 4 , pp. 548-552 ) .
+Their solution , obtained in the form of quadruple integrals , satisfies the surface stress conditions over the two infinite faces .
+The objections to this solution are two-fold .
+In the first place it is difficult of interpretation , and the integrals do not enable us to obtain a clear notion of the separate effects of the various forces applied to the plate .
+In the second place this .
+solution takes no heed of the conditions at the other four limiting faces of the plate which , we should always remember , although they have been removed to a very large distance away , have not physically disappeared .
+Given total tellsions , shears and couples , applied to the four narrow faces of the plate , will produce stresses that will be transmitted through the plate , exactly as in the case of a bent or twisted bar , and will produce a finite effect at points of the plate infinitely distant from the edges , even though the large plane surfaces should be absolutely free from stress .
+In order therefore that LAME and CLAPEYRON'S formulae may correspond to a physical reality , we must superimpose on their solution another of this transmissional type , such that the total shears and total couples due to the sum of the two solutions are all zero round the contour of the plate .
+Now the problem of the thick elastic rectangular plate , under given total shears and couples round its contour , but otherwise free from stress ( which is the analogue for plates of the ordinary tensional and flexural solutions for bars ) , is another of the unsolved problems of the theory of elasticity and , until it is solved , LAME and CLAPEYRON'S solution , unless it happens of itself to satisfy the conditions of no total force at the edge\mdash ; which will only be true in special cases\mdash ; fails .
+BEAM OF RECTANGULAR CROSS-SECTION OF LOAD .
+153 More recently the same problem has been attacked by M. C. RIBIERE in a thesis ( ' ' Sir divers Cas de la Flexion des Prisms Rectangles Bordeaux , 1889 ; see also ' Rendus , ' vol. 126 , pp. 402--404 and 1190-1192 ) in which he gives a solution in a series of circular and hyperbolic functions .
+He takes his plate of finite dimen- sions and built-in at the edge .
+By this term he understands ) the edge is constrained to remain plane and vertical , and is subject to no shearing-stress .
+For other terminal conditions the solution , as M. RIBIERE states himself , is insufficient .
+I find that , if the of the plate be removed to , his solutions degenerate into and CLAPEYRON'S integrals , of which they therefore give the true meaning .
+M. RIBIERE , in the same thesis , has also vestigated the two-dimensional case , which has been treated of in the present paper.$ I am indebted to M. for very kindly communicatin to me his thesis , with which I became acquainted after my work had been completed .
+His solutions are of the form ( 26 ) ( 27 ) ( 28 ) , and he determines his coefficients , as as I can see , by the method used here , but does not transform his expressions further .
+Like LAM6 and CHAPEyRON , he restricts his applied surface stresses to be normal and investigates only two special cases .
+M. RIBIERE takes , as I have done , , by the way , is not absolutely necessary .
+Another set of solutions might be obtained by taking When is made very large , as is the case in every one of the problems treated here , either set of solutions will lead to the same final form , provided the total terminal conditions are attended to .
+RIBI , on the contrary , in order to be able to evaluate his series , which become far more manageable when is large , treats chiefly of cases of thick beams of very short span .
+Now in this case it is no longer permissible to consider merely the total conditions over the ends , and to treat the actual stribution over these ends as unimportant .
+M. RIBIERE gets over this difficulty by supposing his beam to be , as defined above .
+The same mathematical condition of fixing is assumed by Professor POCHHAMMER ( ' Journal , ' vol. 81 ) when treating in a similar fashion of the beam of circular cross section .
+It seems doubtful whether anything of this kind does really occur at an actual built-in end of a beam .
+Celtainly and RIBIE conditions do not agree with the view taken by DE , who , in his calculation of the deflection for a cantilever , has assumed that the elastic line is not horizontal at the built-in end .
+In this case , however , LovE has pointed out that the elastic line may have any small slope at the built-in end , provided we superimpose a suitable rigid body displacement .
+But both he and DE agree to make the end * Since writing the above , find that Professor LAMB ( ' Proc. Lond. Math. Soc vol. 21 , p. 70 , paper read December , 1889 ) has worked out the same problem in form of a series of and hyperbolic functions , but he has left his resuIts in this form , without interpreting them and I cannot discoyer that he has considered end-conditions .
+VOL. CCI.\mdash ; A. X sections distorted .
+As a matter of fact , what really ppens at a built-in end is quite unknown .
+Under these conditions any solution which makes over the ends must be restricted to the case of an infinite continuous beam resting upon a series of equidistant supports , each at the same vertical height ; the load carried by the beam being exactly repeated over each span .
+A rail under its own weight and carried on sleepers is an approximate example .
+In this case POCHHAMMER and RIBIERE'S solutions are exact , and it is then legitimate to make the span as small as we please .
+In practice such conditions will but rarely occur , because , as is well known , any slight difference in the height of the supports , or in the manner in which the beam bears upon them , will upset the symmetry altogether .
+The ultimate step in the process of thinning down the boundary conditions is taken when one of the two boundaries of the infinite plate is itself removed to infinity , leaving only one plane bounding an otherwise unlimited solid .
+This problem also has been solved by LAME and CLAPEYRON ( loc. cit. ) in terms of quadruple integrals .
+In this case the limiting conditions at infinity cease to be important , because , in a solid infinite in three dimensions , finite stresses are not transmitted undiminished from infinity , as in a rod or lamina .
+The solutions , in fact , will lead to stresses that become zero at infinity .
+This has been shown by SINESQ ( ' Applications des Potentiels a l'Etude de l'Equilibre et du Mouvement des Solides Elastiques , ' Paris , , 1885 ) , who has interpreted LANE and CLAPEYRON'S results , and obtained by a new method simple expressions for the stresses in an iniinite solid , due to arbitrary surface forces applied to a bounding plane .
+The same results have been obtained by Professor CERRUTI Ricerche intorno all ' Equilibrio de Corpi Elastici Isotropi 'Reale Accademia dei Lincei , ' vol. 13 , in a different way .
+BOUSSINESQ , on p. 280 , suggests a possible application of his method to the case of two parallel planes , but he makes no attempt to follow it up .
+In two papers in the 'Comptes Rendus ' ( vol. 94 , pp. 1510-1516 , and vol. 95 , pp. 5-11 ) he has considered the case when the problem of the infinite plane may be treated as two-dimensional , and there he has tried to extend his method to two parallel planes , but had to back upon an assumption mathematically unjustifiable .
+S44 .
+Recapitulation of Results Looking back upon the results obtained , we see that the general solution given has enabled us to deal with all the most important statical problems connected with the elastic equilibrium of a long beam , of finite height , in so far as the approximation involved in treating them two-dimensionally is valid ; and it will be valid , if the horizontal dimension of the cross-section be either very small or very great .
+Incidentally the question of the effect of concentrated loads , whether in the form BEAM OF RECTANGULAR CROSS-SECTION UNDER ANY SYSTFM OF ) .
+) of pressure or of shear , has been discussed .
+In the case of a beam doubly supported and carrying a concentrated load in the middle , a convergent series has been obtained , giving the exact correction which the finite height of the beam makes it necessary to apply to BOUSSINESQ'S results for an infinite elastic solid .
+results of this part of the paper have been tested by experiments on glass beams , of which it is hoped to eventually publish an account , and they have been found to agree , on the whole , with observation .
+The effects of pressing a block of elastic material which rests on a rigid plane , and the manner in which such pressure is transmitted to the plane have also been investigated .
+It has been found that the pressure on the plane is limited to a restricted area , outside which the elastic block ceases to be in contact with the plane .
+The effects of shearing stress have next been considered , in particular the distortion which it produces in lines parallel to the axis of the beam .
+As in the case of the circular cylinder and in that of the infinite solid bounded by a plane , shear is found to depress those parts of the material towards which it acts .
+It is also found that a discontinuity in the shear applied to the surface\mdash ; although the shear finite\mdash ; involves one of the other stresses becoming infinite , and so is a source of weakness and danger .
+The behaviour of a beam under two concentrated loads , acting in opposite senses upon opposite faces of the beam , has been studied .
+The manner in which the shear across the section varies as these loads are made to approach each other has been exhibited by various diagrams .
+They show how rapidly the effects of the particular distribution of any total terminal load die out as we go away from the end .
+At a distance of the order of the height of the beam , they already begin to be negligible .
+At a lesser distance than this , however , such effects may become exceedingly important .
+The case of rivets is instanced , and it is suggested that the results obtained here may give some information which shall be useful in this connection .
+Finally a solution in finite terms is obtained for a beam which carries a uniform load .
+It is shown that the assumptions of the usual theory of flexure are in this case no longer true , but are approximately true only if the height be very small compared with the span .
+The correction to the curvature , as calculated from the usual formula , is found to be a constant .
+With regard to the numerical work , } ) arithmetic has been checked wherever possible , and it is believed that no serious error has crept in .
+The values of the integrals , however , have been obtained by the use of quadrature formulae , and these may not have given a satisfactory approximation in all cases .
+The three first decimal , nevertheless , should be correct .
+As the numerical work was undertaken chiefly to illustrate fairly large variations and to represent them by diagrams , this accuracy sufficient .
+

@@ -1,0 +1,65 @@
+II .
+" On the Integration of Simultaneous Differential Equations .
+" By GEORGE BOOLE , Esq. Received March 4 , 1862 .
+It is well known that a system of n-1 simultaneous differential equations of the first order connecting n variables always admits of n1 integrals , each of which is the form P=c , i. e. each of them is expressible by a function of the variables equated to an arbitrary constant .
+But when the number of the variables exceeds by more than by unity the number of the differential equations , no existing theory assigns the number of theoretically possible integrals , or guides us to their discovery .
+Yet cases such as this occur in problems of the greatest importance .
+The solution of partial differential equations of the second order by Monge 's method depends ultimately on the solution of a system of three ordinary differential equations of the first order between five variables .
+I wish here briefly to indicate the results of a theory which enables us in all such cases , 1st , to assign ( priori the number of possible integrals ; 2ndly , to reduce the determination of the integrals to the solution of a system of differential equations equal in number to the 1862 .
+] 13 number of the integrals , and capable of expression in the form of exact differentials .
+I will confine my observations to the case of n-2 differential equations connecting n variables .
+The general theory will be seen in the particular one .
+1 .
+The solution of n-2 differential equations of the first order connecting n variables may be reduced to the solution of a system of 2 linear partial differential equations .
+To deduce these , let P=c be any integral of the given system , and suppose x , x2..x the variables , then from dP , dP , dP dx dZ .
++ dxn=O dw , dxb dxn eliminate by means of the given system n-2 of the differentials , and equate to 0 the coefficients of the two remaining and independent ones .
+2 .
+Let the two partial differential equations thus formed be dP dP dP A1 , -+A , -. .
++A dP ... ... . .
+( I. ) dx+ 2dx dx n then representing Al +A2. .
++An by Al , ddd Bi +B2..+Bn by A , , d ?
+d ?
+dxb the equations become A P=0 , 2 P= 0 ... ... ... ... . .
+( 1 ) Form now the equation AA P-A2 Al P= 0 , or as it is permitted to express it , ( A1 A2-A2 PA ) P=O ... 4 *. .
+( 2 ) This will also prove a linear partial differential equation of the first dP order ; and if from it by means of ( I. ) and ( II .
+) we eliminate d dxn-1 dP and - , we shall obtain an equation of the form dP crP .
+dPL=. .
+( ) 1C:we qe by ' i= ... ... .
+( I2 .
+) This we shall represent by A , Ps=0 .
+The equations ( I. ) and ( II .
+) 14 may be so prepared as to lead to this equation directly .
+To effect dP this , it suffices to eliminate from one of these equations - , from the dxn dP other - , and to reduce in each the coefficient of the one which dxn-l remains to unity , and then apply the theorem ( 2 ) .
+3 .
+Between ( I. ) and ( III .
+) and between ( II .
+) and ( III .
+) the same process may be applied as between ( I. ) and ( II .
+) .
+The effect of this is to give new partial differential equations ; in fact , to generate a system which will be complete when the further application of the method gives rise to no new equations , but only to identities , or to repetitions , or combinations of the equations already obtained .
+And though any equation of the system may be combined with any other , according to the theorem , in order to form a new one , yet it may be shown that the system will be complete when no new equation arises from the combination of any with the original ones ( I. ) , ( II .
+) .
+4 .
+Suppose that in this way m partial differential equations have been obtained , including those two into which the given system of ordinary differential equtions was transformed .
+Then that system of ordinary differential equations will admit of exactly n-m integrals , i. e. the number of integrals will be equal to the number of the variables diminished by the number of partial differential equations .
+5 .
+To determine these integrals , let the complete system of partial differential equations be represented by P=- , A2 P=0,. .
+Am P=0 ; then multiplying the second by X2 , the third by X , , &amp;c. , and adding , we have A P+X\ A P. .
++x Am P=O , a single partial differential equation , which , 2 X,. .
+Am being regarded as indeterminate , will be equivalent to the system of equations from which it is formed .
+Represent this equation by dP dP dP X1 ' +X2 .
++X , X --0 , then its auxiliary system of ordinary differential equations will be dxl _ dx2 dx , X , X X , 1862 , ] 15 If from these n-equations we eliminate the m-quantities 23 * .
+Xm , we shall obtain n-m differential equations .
+These wil be capable of expression as exact differential equations , and wil , give by integration the n-m integrals before mentioned .
+The method above described admits of important applications .
+It enables us to assign beforehand the conditions of success in the application of Monge 's and of similar methods to the integration of partial differential equations of the second order , and even to determine the nature of the theoretically possible integral where its actual exhibition in a finite form is impossible .
+It also enables us to investigate by a new and perfectly rigorous method the conditions of integrability of ordinary differential expressions .
+I subjoin a single result of the former of these applications .
+It is known that the equations of the possible envelopes of any surface z=P(x , y , a , b , c ) , in which three parameters , a , b , e , vary in subjection to two conditions , f , ( a , , )=0 , f(a , b , )=0 , will satisfy a partial differential equation of the form Rr+Ss+Tt+s2-rt=V .
+The application of the above method shows that , in order that this equation may admit of an integral of the above species , i. e. an integral interpretable by the envelope of a surface in which three para .
+meters vary in subjection t ttwo connecting relations , the following conditions are necessary and sufficient , viz. S2+-4RT-4V= , ... ... ... ... ... ( 1 ) + A'm=0 , ... ... ... . .
+( 2 ) Am+A'T==0 , ... ... ... .
+( 3 ) in which m is one of the equal roots of m'-2 -SmRT-V=O , and dd d. cd A=d +p--m+ -- , die dd dq die d : Sp Cclq The first only of the above three conditions appears to have been assigned before ( Ampere , Journal de l'Ecole Polytechnique , Cahier xviii .
+) .
+16
+

@@ -1,0 +1,295 @@
+]\gt ; [ 149 ] V. A New Treatment of Optical Aberrations .
+R. A. SAMPSON , F.R. Received March 15 , \mdash ; Read May 23 , 1912 .
+THE method developed by GAUSS in his 'Dioptrische Untersuchungen ' is probably the most powerful , as well as the readiest , method in geometrical optics .
+It has in effect hitherto been restricted to systems in which the relations of original and emergent rays are strictly linear , or , in optical language , those in which the aberrations can be neglected .
+It is true that SEIDEL bases his celebrated discussion of aberrations upon GAUSS'S method , but he soon modifies it and replaces its system of -ordinates and characteristic steps by others .
+The following pages show how the method may be extended and retained throughout the discussion of the aberrations of any -axial system .
+They will be found to throw light upon the general relationships of the -known Petzval condition and Abbe Sine condition , to furnish a ready method of describing , analysing and msasuring the faults of an optical image , and to be particularly adapted to numerical calculations , to the order to which these are necessary for telescopic objectives .
+It will be convenient to state here the essentials of the method in the form in which they will be used later .
+Let Oxyz , be rectangular axes in the original and emergent media , of which the refractive indices are respectively .
+Ox , are the axes of the optical system .
+Take the equations of any ray before and after its passage through the system in the respective forms and ( l ) then , led there is a strict linear correspondence as well as symmetry about the axis , we may put ( 2 ) Published eeparately , July 27 , 1912 .
+where are constants involving the curvatures of the refracting surfaces , the distances between them and the refractive indices ; also Following SEIDEL , we shall call such systems normal systems .
+In particular , for a single refracting surface , without change of origin , the scheme as I shall call it , becomes 1 , * where*is put in place of zero .
+Or again , asimple shift of origin by a distance may be represented by the scheme If two instruments be represented by the schemes light passing throngh ( 1 ) first and then through ( 2 ) , and the emergent origin for the first being made the same as the original origin of the second , their combined effect is given by the scheme @ which may be written down by multiplying the rows of the Iater scheme into the columns of the former , as if they were determinants .
+It will be shown hereafter that this rule is remarkably well adapted for numerical calcuIation\mdash ; a fact that does not seem to have been remarked before .
+The scheme corresponding to any system , as , for example , any thick lenses , arranged at intervals along an axis , may be built up from its elements by this rule , by writing down the schemes in order belon to the successive refracting surfaces and shifts of origin , and compounding these ; if we have to compound in this manner a sequence of schemes , .
+, , . .
+MR R. A. SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+151 then , provided we do not change the order in which the schemes present themselves , the composition may be effected in such groups as may be convenient , and may be performed either from left to right or from right to left .
+* The product of the determinants of the component scheme , , gives the value of the determinant GL-HK of the compounded scheme .
+The analytical scheme corresponding to any instrument of which the cardinal points are known may be written down at sight , and conversely , by the relations OF , HF , NF ; where . . . . .
+( 4 ) and denote , as usual , the unit points , nodal points , and principal foci respectively .
+If it is desired to work geometrically , we may set the original and emergent axes across one another in a figure at any angle , and being superposed ( or eIse and finding a point with -ordinates HF , ; then any straight line through determines points , which are conjugate foci .
+The following method of compounding any two given systems may also be mentioned:\mdash ; * A geueral discussion of the linear system by the author will be found in 'Proc .
+London Math. Soc. , vol. 29 , p. 33 .
+Set the axes as shown in the figure , the distance between the points and being annulled .
+Then the lines give , the principal foci , and the line gives points which are conjugate to one another and are the nodal points of the compound system .
+We see that it is always possible to determine a geometrical system that shall correspond to any given values of .
+Thus , for example , implies that is conjugate to every point of the original system , or , what is the same thing , that every emergent ray goes through If the emergent origin is at the principal focus , If the original origin is at the principal focus , If the original and emergent origins are conjugate points , We shall now consider the case of refraction of a general ray at a symmetrical surface centred upon the -axis and shall show that a scheme may be derived for it , which shall include the aberrations ; these , repxesented by the additional terms , , will , of course , vary from point to point with the squares and products of the co-ordinates and angles of incidence upon the surface , whereas for the pure linear scheme , are the same for every ray of the beam .
+Taking rectangular axes Oxyz , let the equation of the surface separating the.region of index from that of index be .
+( 5 ) Let a ray in the original medium be transformed by refraction at the surface into where the axes are , in fact , the same but are accented to indicate the ifference of medium .
+The positive direction of the -axis is that in which the light is travelling .
+: A NEW TREATMENT OF OPTICAL ABERRATIONS .
+15@ In the diagram is the point where the original and emergent rays meet at the surface , is the original ray , the emergent ray , and are the coordinates of those of , and we shall take as those of If are the direction cosines of an original and emergent ray , those of the normal to the surface at the point of incidence , we have the known equations where are the angles made by the two rays and the normal .
+Now if we neglect higher powers of the small quantities .
+Further where and we have appro .
+Substituting above for , we have .
+But since VOL. CCXII.\mdash ; A. therefore and .
+Hence the right-hand member of this equation reads or , since and therefore , and the equation becomes or dividing by the coefficients of and writing Also Therefore ; but approximately ; therefore ; or if we write , ( 6 ) , we may put ( 7 ) MR. A. SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+155 In the same way it follows ; ( 8 ) for the case of the paraboloid sphere We shall generally write We remark that the coefficients that transform the system into are the same as those which transform into and for any surface each is expressed in terms of the two functions defined by equation ( 6 ) , in addition to the refractive index and curvature .
+These equations therefore permit us to treat rays which cross the axis with the same readiness as those which intersect it , a thing which is very troublesome in the trigonometrical discussion of the question .
+They also apply equally easily to the sphere , the paraboloid , and any intermediate form .
+Before proceeding with the discussion of these formulae I shall verify that they cover the known expression for longitudinal aberration on the axis after refraction at a single spherical surface , as it is given in the text books .
+Suppose the ray meets the axis at , so that ; then the equation connecting for the case of the sphere is or , dividing by and rearranging the terms , ; but and ; also .
+Hence the right-hand member above is equal to .
+This is one of the usual expressions ; compare HERMAN'S ' Optics , ' p. 189 , .
+After a slight transformation it leads to the Zinken-Sommer expression for the separation of the focal lines in any co-axial system , and thence , as shown ( ' Theory of Optical Instruments , ' p. 26 ) , to the theory .
+We may verify also that these expressions lead to the known results in the the parabolic mirror .
+Consider the focus for rays parallel to the axis , i.e. , when But , , so that so that the longitudinal aberration vanishes at the principal focus .
+More generally , the ray , corresponding to a general incident ray for which , say , , meets the plane in points whose co-ordinates are For the paraboloidal reflector , since ; therefore taking the focal plane , we have ( 9 ) ; these are known expressions , leading. .
+to the theory of the coma of a reflector ; cf. PLUMMER , ' Mon .
+Not .
+R. A. S LXII p. 365 , ( 9 ) , ( 10 ) .
+A. SAMPSON : A NEW TREATMENT OF oFTICAL A. ] If we oompare the scheme ( 7 ) , ( 8 ) with the equations ( 4 ) , we see the aberrational scheme is the equivalent of a linear scheme , for a single surface , for which the plane of origin , passes through the point , that is , through the actual point of incidence ; if we take the curvature as , and the refractive indices , respectively .
+As to the latter it may be noticed that the exact equation for refraction of a ray impinging the origin , and in the plane Oxy , is sin or , to our order , . .
+Hence the aberration may be described as due purely to the obliquity of the ray to the axis , and the aberration to the lateral separation from the axis , and we see that the somewhat remarkable fact that two functions suffice to express the aberrations of every ray may be stated in the form that there is no term which is produced jointly by obliquity and lateral separation .
+If in any instrument we have a number of surfaces each introducing aberrational terms , and if the schemes preceding and following the surface ( r ) be compounded so as to read , say , , then the whole may be represented by and the portions added to the general scheme in consequence of the aberrations of the surface will be and in this the schemes may be taken at their " " normal\ldquo ; values without regard to aberrations introduced by surfaces other than the surface .
+If then we write , adding the effects of all the surfaces , . . . .
+, . . . . .
+( 12 ) and if we now denote by the scheme got by compounding all the normal schemes of the instruments succession ; whether these are refractions , or mere shifts of origin from one surface to the next , we have for the relation between any original ray and the corresponding emergent ray , ( 18 ) , where are the values that would result if , were all zero ; and turning back to the expressions ( 6 ) we see that are expressed in terms of the \mdash ; upon the plane Oyz by the equations , where ; , ( 14 ) where We notice that the the scheme multiplied by each will always be zero , and that of the scheme multiplied by also , for the case of the sphere .
+This supplies a useful check .
+The numerical management of these formulae for actual systems is dealt with later .
+I shall now consider their analytical and geometrical properties .
+If and , are quadratic functions of , with the symmetries implied in the forms above , we may put ( 15 ) SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+In these expressions the values of , are not unrestricted .
+Thus , for example , the rays which originate in the point must upon emergence be normal to a surface .
+Consider the conditions that where are functions of two variables , as above , should be normal to a surface .
+If is a point upon the surface , then we have for all directions upon the surface or , since are functions of only , Also Therefore ; or , say , so that the necessary and sufficient condition is Retaining only the terms of lowest order we have ME . .
+A. SAMPSON : A NEW TREATMENT OF or , say .
+( 16 ) Also , this result remain valid if we pass the emergent..beam through any further optical system .
+This is a step that must frequently be taken , and it will ba convenient to write down generally the formulae to which it gives rise .
+If we have and if , , and ; further , , . .
+then the following formulae result:\mdash ; { ibid. } , { ibid. } { ibid. } , { ibid. } , { ibid. } ibid. { ibid. } { ibid. } , { ibid. } { ibid. } .
+These formulae with .
+A NEW TBEATMENT OF OPTICAL lABEBRATIONS .
+importance and cover all cases ; they will be quoted as ( 17 ) Apply them to the equation ( 16 ) ; we have , , ' If we write in this we have .
+In the same manner we find Compare these with ( 16 ) and remember that the two systems ( gh. .
+are arbitrary and independent of one another .
+Then we see that if for these systems then ( 18 ) where Now if we examine the case of the single surface , for which , and the conditions are fulffiled and we have ; VOL. CCXII .
+for two surfaces with refractive indices , , as in notation ; and for any sequence of surfaces whatever .
+( 19 ) This will be recognized as the expression which figures in the well-known " " Petzval condition for flatness of field It was given by PETZVAL without proof in 1843 , and it is a comment upon the difficulty which the geometrical method finds in removing a condition that may have been tacitly introduced that its proper position has so far remained obscure .
+Its general geometrical implications will be considered later .
+Besides the condition that the rays of any thin bundle should always be normal to a surface there is another general property to which they are subject in all systems .
+For normal systems in which we have stigmatic correspondence this is usualiy called the Helmholtz magnification theorem connecting the linear and angular magnifications .
+For aberrational systems it would at first appear as if both linear and angular magnifications lost their meaning , but I have succeeded in generalizing the theorem in the paper already referred t In the first place focal lines in the original system are shown to correspond one to one and not pair to pair with focal lines in the emergent system ; and which issue from any point in a focal line in a plane perpendicular to that line lie in a plane in the emergent system perpendicular to the conjugate focal line which they meet in a point .
+Such planes are called planes of correspondence .
+The behaviour of any ray may be traced through the behaviour of its projections upon the planes of correspondence .
+The separation of two parallel focal lines compared with the separation of their two conjugates preserves the idea of linear magnification and the angles in the planes of correspondence that of angular magnification .
+Then if is the separation of two focal lines which lie parallel to one another in a plane perpendicular to an original ray at any point and that of their two conjugates , and if is the angle between two rays issuing from one of these lines in a plane of correspondence perpendicular to both and the angle between the same rays on emergence , it is proved that This is completely general .
+Now return to the case of surfaces centoed u an axis .
+It is clear that for any point off the axis , the point , one of the planes of correspondence , is the meridianal plane .
+passing through the axis and the point itself .
+2 ' Proo .
+L. M. vol. 29 .
+p. 70 .
+A AMPSON : A TREATMENT OF OPTICAL ABERRATIONS .
+Now ider the substitution Then if we shift the origin in the emergent system to the first will read Choose so as to make the coefficient of zero ; then and the coefficient is the linear magnification for narrow pencils emerging in the general direction from the point in the meridianal plane .
+Again from , the angular magnification for the same is Hence is equal to the ratio of the effective refractive indices .
+But we have seen on p. 157 that the change of ray effected by an aberrational system is equivalent to the use of refractive indices , , throughout .
+So that the expression above is equal to , where may be taken as the final value of after any number of transformations ; or equal to Identifying term by term with the expression above we have the relations , . . .
+( 20 ) .
+The relations ( 20 ) may also be proved from a sequence formula out of the equation ( 17 ) ; thus , ( 21 ) ; in fact , it was by a method that I found them ; contained in the proof given above .
+We have thus found among the elve aberrational coefficients six relations which may be expressed in terms only of the focal length and other cardinal elements of the normal system , or seven , if we include the Petzval as of Let us consider next what geometrical description can be given the occurrence or absence of the twelve coefficients .
+It must be remembered that for different choice of origins .
+the coefficients do not preserve an identity .
+Thus if we shift , the original origin to the point , the new , \mdash ; is given in terms of the old , \mdash ; by writing in the equations of p. 160 .
+and ; and if , on the other hand , we shift the emergent origin to , we have , connected with , , which now figures as the old set , as if in the same equations we wrote and in the event of both these changes being made a system is transformed into .
+where ; , ( la ) of these and examine two articular cases of special namely , let us assign meanings to , : ( 1 ) where the emergent origin is the principal focus , so that , and therefore , and ( 2 ) where the original and emergent origins.are conjugate , so that , and therefore In the former the original origin may be anywhere , but may conveniently be supposed at the tangent plane to the first refracting faoe .
+The original rays are-in constant direction , so that we may take , and , say , Then if we receive the emergent ray on the plane parallel to which passes through a point slightly removed from , say at and it cuts this plane at , we have . . . . . .
+( 23 ) Let us take so that . . . . . . .
+( 24 ) These express the amounts by which the aberrations disturb the ray from its normal focus .
+Consider the lines in turn and examine their significance when the original ray traces out a circle The terms give a fixed point .
+It may be considered as adding to the focal length the terms 166 MB R. A SAMPSON : A NEW TREATMENT OF OPTICAb of which the former may be called the comatic increase of focal iengh and the distortional increase of focal length , since these are evidently theil The two terms represent an ellipse which may be varied by choosing at different values .
+If we take the ellipse becomes the primary focal lin ; if we take it becomes the secondary focal line , in advance of the primary line by the amount .
+Generally I shall call it the focal eltipse and , as a rule , shall take which gives the focal oirde situated midway between the focal lines .
+This circle is described backwards as the original circle .
+is described forwards .
+Finally the terms give another circle which I shall call the comatic circle ; its radius comatic increase of focal length , so that they vanish together .
+As the original circle .
+is described once , forward , it is described twice , forward , each point upon it corresponding to two diametrically opposite points of the original circle .
+Consider the focal circle and the comatic circle simultaneously ; we may take where ; this is a trochoidal curve , which becomes a three cusped hypocycloid for and goes through the types illustrated below for different values of .
+For a given value of all these types are present for different values of , and are described about different centres owing to the comatic increase of focal length .
+These facts are well known in particular instances , and even experimentally , but as far as I can find they have not hitherto been expressly demonstrated generally .
+The plane at which these phenomena are found is taken at , where .
+A SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+The part depending upon represents the spherical aberration ; the part depending upon , if it were present alone , would indicate that the images , if we can so call them , were found upon a sphere of curvature ; the corresponding expressions for the primary focal line in place of the focal circle would be and for the secondary focal line .
+These expressions are positive when the sphere is convex to the incident rays .
+The angular values of the radii of the focal circle and the comatic circle are respectively ( 1 ) ( 2 ) 20626 and 20626 Thus with increasing aperture ( d ) the focal radius increases with the first power and the comatic radius with the square , while with increasing breadth of field the focal radius increases with the square and the comatic radius with the first power .
+To fix ideas we may consider the case of the parabolic reflector ; here , as shown on p. 156 , Hence spherical aberration and distortion are absent .
+implies that the secondary focal line lies in the normal focal plane , while the focal circle lies upon a surface of curvature ; and for the effects of astigmatism and coma we have the following table for different apertures and *Cf .
+POOR , ' Astrophysical Journal , ' VII .
+( 1898 ) , p. 121 .
+.MR .
+: .
+SAMPSON : .
+The last two lines measure the same thing , the fourth representing in angle , and the third , and owing to the rehtion the second line contains quantities 'one-half that of the .
+Since these rrations stand uncompensated , it is clear that the statement often made that the reflector has a very mited field ia fully borne out , especially when as is often the case , the ratio of nemi-aperture to focal length is so great as 1/ 10 .
+In this case , at only the centre of the field , the light which comes from the.outermost zone of the mirror would be spread around a little ring which was nearly a circle of diameter , having its centre from the correct normal position for the image .
+Turn now to the other case which was proposed for discussion on p. 165 , namely , where the original are conjugate foci , so that and : -We have to study the delineation of any point in Oyz upon the plane or to it .
+We may take the point , and then make vary , so that , .
+the ray through the point describes a cone with parallel to Ox. Let us put and we have , .
+at the plane * Compare these with the.expressions ( 23 ) of p. 165 , and we see that they run upon exactly the same model ; but change of in which we replace by , ' , .
+R. A. SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+169 Hence it is unnecessary to work out the expressions for focal lines and the rest affesh since they can all be inferred without other change from what has already been given .
+SEIDEL'S five conditions are usually taken as the standard form for the conditions of existence of a correct normal image .
+We may follow these and express them in terms of the aberrational coefficients , proceeding pari passu with the two cases:\mdash ; incipal focus .
+conjugate foci .
+( 1 ) Absence of spherical aberration or ( 2 ) Absence of coma . . . . .
+, , ( 3 ) Absence of astigmatism . . .
+, , ( 4 ) Absence of distortion . . .
+, , ( 5 ) A flat field , when ( 2 ) and ( 3 ) are satisfied . . . . .
+, , ( 26 ) It is of interest to consider the position occupied by the well-known conditions usually quoted as " " PETZVAL'S condition for flatness of field and " " ABBE'S sine- condition PETZVAL'S condition , or , we see from ( 18 ) to imply or , what is the same thing , simply and at all distances along If we confine attention to the two cases above , we see that in the first , where the emergent origin is the principal focus , , and therefore without the intervention of , and similarly in the second , when the emergent and original origins are conjugate normal foci , , and therefore ; the interpretation of these is the same , namely , that the comatic displacement is twice the comatic radius\mdash ; " " comatic displacement\ldquo ; being used to denote the expression as on p. well-known fact , usually put in the form that in the absence of astigmatism the successive comatic circles have two common tangents inclined to one another at 60 degrees .
+The other term remains as the true content of PETZVAL'S condition .
+Its interpretation may be put in different forms ; as , apart from spherical aberration , at the normaFfocal plane of any image , the longitudinal axis of the focal ellipse is three times its transverse axis , which is an interpretation of the expressions of p. 166 , for of the first case , or the corresponding expression of the second case ; or again , the distance of the focal circle beyond the normal focal plane is the radius of the VOL. CCXII .
+focal circle .
+This shows the connection with flatness of field , but to restrict the reference to curvature of the field is a misconception of the significance of PETZVAL'S condition .
+If PETZVAL'S condition holds , the result stated above is true for all normal image planes .
+ABBE'S sine-condition for absence of coma states that if the magnification produced by rays passing between two conjugate foci through all zones is the same , the relation must hold where are the original and emergent inclinations of the ray to the axis .
+In our notation this would run ; or , if it gives ; now we have seen on p. 163 that the linear magnification is and the condition this should be constant is and this , in accordance with p. 163 , gives the conditions To make these agree with the sine-condition we must take , so as to remove from the reckoning .
+We see then that such an assumption underlies the application of the sine-condition .
+I shall next show how these formulae may be applied to the numerical calculation of lenses .
+For this they are particularly appropriate if the calculations are made with any ordinary type of multiplying machine and not with logarithms .
+To the best of my judgment they appear to require a fraction only of the work involved in the complete trigonometrical calculation and , as will be shown , they are certainly not less accurate for telescopic object glasses .
+They show with remarkable clearness the contribution of each surface to each fault of the image .
+They supply throughout their course a number of natural checks upon the computation which are searching and usually complete .
+I shall take as my example the celebrated object glass of the Fraunhofer heliometer at Konigsberg .
+This is a small lens of aperture inches and focal length 101 inches which was constructed by FRAUNHOFER .
+BESSEL , in describing the heliometer and its corrections , with his customary masterly thoroughness , calculated this lens NR R. A. SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+trigonometrically .
+* Later it -was used as an illustration by SEIDEL , who named his second condition the Fraunhofer condition , under the misapprehension that coma was effectively corrected in it .
+In 1889 , Dr. A. STEINHEIL gave a particularly thorough and instructive calculation of its field , and assigned first , the modifications of its curves necessary to remove a remaining trace of splaerical aberration , and next , to correct the coma .
+Finally , FINSTERWALDER recalculated SEIDEL'S sums for it , using the first corrected curves of STEINHEIL .
+S In the following pages I shall first of all show how the calculations will run with my formulae , and shall return to compare them with STEINHEIL'S results .
+The data given by BESSEL are in " " lines of which Bavarian foot .
+To render the arithmetical work more compact I have increased the unit to 1000lines , which brings the measures of the radii of the surfaces and the focal length of the whole to the neighbourhood of a unit .
+The radii and curvatures of the surfaces , with the spaces between them , are the following : , semi-aperture is The refractive indices he takes as We first form the normal scheme for the whole combination by writing down and combining the schemes that represent each surface and each space between two surfaces .
+To perform the step of combination \mdash ; as to which it must be remembered that light passes through to reach \mdash ; we set up the number as multiplier upon the multiplying machine , multiply it into and , and place the products as above , then set up and multiply into and , placing the products as shown ; this gives the top line of the combination completely ; then set up , multiply into and , set up and multiply it into and * Untersuchungen , ' Bd .
+I. , p. 101 .
+'Astronomische Nachrichten , ' No. 1029 , p. 325 .
+K. Bayer .
+Akad . .
+Wiss .
+, ' Sitzungberichte .
+math.-phys .
+Class , ' Bd .
+XIX .
+, Heft III .
+, 1889 .
+S K. Bayer .
+Akad .
+Wiss , Abhandlungen , ' Bd .
+XYII .
+, Abth .
+III .
+This completes the step .
+The proper way to check a sequence of such combinations is to proceed first from left to right and then from right to left ; the final results will confirm one another and check the whole calculation , and the individual schemes arrived at will give in succession the steps across the surface ( 0 ) , across the surface ( 0 ) and the space ( 1 ) , across , 1 and the surface 2 , and so on ; and in the .
+reverse order across the surface 6 , across 5 and 6 , across 4 , 5 , and 6 , and All these will be required.after .
+I shall indicate them with the signs , 01 , , 6 , 56 , .
+For the individual surfaces the values of are .
+In the following arrangement the separate schemes are written in the middle column , that corresponding to being omitted as nugatory ; the calculations forwards are written on the left and those backwards on the right .
+The latter begin at the bottom and proceed upwards .
+Every figure used is recorded .
+MR. R. A. SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+It may be well to repeat what these schemes imply .
+Take the scheme .
+If refer to any ray where it meets the tangent plane to the surface ( 0 ) after crossing that surface but before crossing the space 1 , and refer to the same ray where it meets the tangent plane to the surface ( 6 ) after crossing that surface , then the scheme states that and mutatis mutandis the same holds for We conclude , from the expressions on p. 151 , that for the whole combination the cardinal features of the normal combination are given by HF We next work out the schemes multiplied into each of the aberrational functions as given in ( 11 ) , p. 157 .
+The schemes which respectively precede and follow the surface to which refers are read at once from the computation of the normal system just completed .
+As the surfaces are supposed to be spherical , we have .
+The general arrangement is as above , and the check consists in forming the combination first forwards and then backwards .
+Again every figure is shown , but now the decimal places may be reduced to five .
+MR. R. A. SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+In the case of the first and last , the combination consisting of only two terms , the check calculation is a mere duplicate , and is , therefore , less searching than the others .
+The signs , in particular , should be examined to guard against a double error .
+We next form the corresponding schemes for the function , again in accordance with the formulae ( 11 ) .
+Owing to the occurrence of two zeroes in the scheme at the surface the calculation is somewhat simpler .
+176 MR. R. A. SAMPSON : A NEW TREATMENT OF OPTiCAL ABICRRATIONS . .
+The schemes in the middle columns which precede and follow those belonging to the surface are the same for and .
+They should be written down independently and read against one another to guard against errors of transcription .
+Now , for any surface , in accordance with ( 14 ) , where are read from the normal schemes on pp. 172 , 173 in terms of , the specification of the original ray .
+We now calculate these , noting that since run exclusively together , as do also , we need speak explicitly of the former only .
+We require to form from the original data , that is .
+There is no check upon these values and they should be examined with care like other fundamental numbers .
+Their values are shown in the table below .
+We have then as regards MR. R. A. SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+177 The best way of forming the square , e.g. , of , is to set up 99752 on the machine , multiply it into itself and into twice 392 , then set up 392 and multiply it into itself and twice 99752 , when the agreement of the middle terms is a check upon the operations .
+The last column , " " sum of coefficients in will be used below as a check for future work .
+If necessary , it may be checked by the equation , e.g. , for Next , for formation of , arrange as below:\mdash ; The last row under is the sum of the numbers above it and is introduced as a check upon the subtractions ; it is equal to .
+The addition of mixed positive and negative numbers is best done with a machine .
+We now have The multiplication by should be checked by the help of the column " " sum of coefficients It will be remembered that there is no check against setting up an erroneous multiplier for We are now ready to form \amp ; c. Referring to ( 12 ) on p. 157 and the calculations above we have , for example , the coefficient of , for example , being the figure that stands in the place of in the scheme formed on for ; and similarly for .
+It is u1mecessary to write them at length because they are shown iu a more convenient place in the following table : .
+R. A. SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+We conclude from this calculation that the aberrational terms in the emergent ray are ( 27 ) , with similar expressions for if we replace outside the brackets by We may without loss of generality put , and in what follows this shall be done .
+The twelve coefficients above are not independent .
+We have seen that they must satisfy seven relations , and we shall now verify that they do so .
+We have , from p. 161 , Term in .
+03675 - 33255 and thus 00626\mdash ; 63508 63603 Next for the relations ( 20 ) ; we have , noting that NKL 88176 The comparisons seem to point to a small accumulated error in If we transfer the origin for emergent rays to the focal plane , , we have finally ( 28 ) , R. R. A. SAMPSON : A NEW TREATMENT OF OPrICAL ABBRRATIONS .
+where the subscript ( 0 ) is dropped , is taken as zero , and as on p. 165 .
+These give the aberrations of the lens at its principal focus .
+The corresponding normal scheme is .
+( 29 ) In order to fix ideas , compare ( 28 ) with the case of a parabolic reflector of the same focal length , given on p. 167 , for which we get ; we see that there is a close resemblance , except for the value of , so that the two hardly differ in any sensible way , except in the curvatures of the fields .
+It will then use some surprise that SEIDEL concluded that the Fraunhofer glass was free from coma which is so marked in the reflector .
+It was , in fact , a misapprehension , as the diagrams given by STEINHEIL and by FINSTERWALDER sufficiently demonstrate .
+SEIDEL'S argument presents an interesting feature .
+He puts together the four components of his sum , - 1,662 and draws his conclusion from the approximate balance , within one-thirtieth , of the large positive and negative members .
+It is evident , however , that this amounts to no more than saying that the two internal surfaces nearly annul one another .
+But the point I wish to make is that these numbers are in fact the same as those found on p. 178 above .
+If we transfer to the principal focus by adding to , we have for * The connection does not appear to be so close in the case of others of SEIDEL'S sums , but it is interesting to notice this common ground .
+Let us now compare my calculations with those of STEINHEIL .
+First as to Ast .
+Nach No. 1029 , 326 .
+MR SAMPSON : A NEW MEANT OF ERRATiONS .
+181 spherical aberration .
+Take rays parallel to the axis , that is , , and consider the focus where they unite for impact upon the original plane at fractions , 1/ 3 , 2/ 3 , and 1 of the semiaperture , i.e. , for For any of these the distance of the point from the last surface ( 6 ) is or , ( 30 ) and . .
+Hence the rays meet at the following points along the axis : , p. 417 .
+Axial . . . . .
+1/ 3 semiaperture 706 706 2/ 3 , , 689 687 .
+( 31 ) In these and the following comparisons the unit of length has been brought back to 1 line by multiplying by 1000 , to preserve STEINHEIL'S numbers unchanged .
+In consequence of this residue of spherical aberration the best setting for focus at the middle of the field is not the axial focus but a point within it .
+STEINHEIL takes this point at , following presumably the theory of BESSEL , which gives a position for the greatest apparent concentration of light that is slightly within the least circle of aberration Adopting the corresponding point , which allows for the slightly smaller aberration shown by my numbers , and multiplying by to bring the units into agreement with formula ( 28 ) , we see , in accordance with p. 165 , we must include with of p. 179 the term with a corresponding term for in terms of The diameters of the image-disc in the focal plane and at this setting are respectively the corresponding extreme values of , doubled , or STEINHEIL .
+* BESSEL , lo .
+, p. 104 .
+We take next the oblique rays in a plane through the axis , that is , we take : The rays considered are taken at an angle of with the axis , folowing and STEINHEIL ; hence , and we take in succession .
+The fnal numbers given below have been multiplied by 1000 in order to compare with The central ray meets the chosen plane at a distance from the axis Giving as before the calculations in full , the formulae , supplemented by the term , give the following:\mdash ; The comma is placed between the and decimak .
+Hence we have the following , with unit 1 lin ( 32 ) There is a slight discrepancy for STEINHEIL now considers the rays which do not meet the axis .
+Fig. 6 is taken from his memoir and shows the object-glass on reduced linear scale .
+He divides the object-glass into three rings , and computes all the.rays which impinge upon it at an angle of 48 ' with the axis , at the points indicated in the figure .
+The rays 2 , 10 , 18 , 1 , 22 , 14 , 6 are those just given ; .
+of the remainder , those upon the left may be written down from symmetry from those upon the right , so that he computes in all nine independent rays which do not meet the axis .
+R. A. SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+We derive these as follows .
+We have throughout unchanged:\mdash ; For the rays ( 4 ) , ( 12 ) , ( 20 ) , ; ( 3 ) , ( 11 ) , ( 19 ) , , ( 5 ) , ( 13 ) , ( 21 ) , , , Hence the additional calculations required run as follows .
+In the calculation of the coefficients replace the columns by the following : In the rays ( 4 ) , ( 12 ) , ( 20 ) replace these by zero .
+Therefore There is a slight discrepancy in the ray ( 5 ) .
+In considering what discrepancies may be expected , we have to recall that the method developed in the preceding pages omits terms of the fifth order , which may amount to , say , coeff. Taking , for unity as coefficient , we should have an error of 4 units in the last place retained above .
+We have no means of saying what the coefficient may be , but it is clear that it may affect the last digit .
+Yet I believe that these calculations are not only very much easier , but also more correct than the trigonometrical ones , for though the formulae for the latter are exact , the number of operations they require is very large .
+Thus , for each ray which meets the axis , there are fully 50 operations of which at least one-half consist in taking out a logarithm or an antilogarithm with seven decimal places ; for each ray which does not meet the axis the work is rather more than four times as great .
+STEINHEIL has calculated seven of the former rays and nine of the latter .
+The controls that exist are of the most meagre description and give little help in locating an error .
+But , even if the whole is done in strictest accordance with the tables , at any step an error may be introduced which falls only short of half a unit in the last place .
+Thus , in the rays which do not meet the axis , an irremovable accumulated error of 10 or more units could cause no surprise , and for this reason the trigonometrical method loses any advantage over the formulae given above which it might claim from resting upon exact formulae .
+The differences under discussion are , however , minimal , since 550 units in the last decimal place only amount to 1 second of arc .
+But pursuing the question a little further I believe , in spite of the evident care with which the whole of STEINHEIL'S calculations have been carried through , that the comparison .
+above shows that a small error has crept in in respect to ray ( 5 ) .
+If we take the general agreement as showing that the trigonometrical calculation does in fact bring in no terms of the aberrations beyond the 3rd order , we can readily analyse STMNHfflL'S numbers in more than one way so as to derive the coefficients , from them .
+Take the formulae ( 24 ) ; on the outer ring , l80o , correspond respectively to the rays 2 , 3 , 4 , 5 , 6 ; thus we have . . . . .
+( 34 ) .
+R. A. SAMPSON : A NEW TREATMENT OF OPTICAL ABERRATIONS .
+From these we get at once , and and thence and Also for the case ; thus we get , and when the adopted value of is used , also , which completes the solution .
+We see that we can use the rays , 5 exclusively , or , 4 , 6 exclusively .
+Making separate determinations by these roads , . . . . . . . .
+Hence ( A. ) ( B. ) ooooo ( A. ) ( B. ) ( A. ) ( B. ) p. 179 .
+- 0730 \mdash ; 9760 \mdash ; 9891 0000 - 0060 There is no doubt , from the checks on p. 179 , that the numbers put in the last column for comparison are correct to the last digit , and we see that the numbers ( A ) which rest upon the ray ( 5 ) are decidedly less consistent with them than the numbers ( B ) which do not .
+VOL. CCXII.\mdash ; A. 2
+

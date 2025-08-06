@@ -1,0 +1,592 @@
+On the Differential Coefficients and Determinants of Lines , and their Application to Analytical Mechanics .
+By A. COHEN , Esq. Communicated by Professor STOKES , Sec. R.S. Received May 8 , -Read June 19 , 1862 .
+CHAPTER I. 1 .
+I PROPOSE in these pages to prove the principal theorems of dynamics in a manner which appears to me both simpler and more methodical than that in which they are generally proved ; and I believe that I shall be able , by applying a few conceptions which spring naturally from the principles of higher algebra and statics , to give a clear interpretation to most of the more complicated formulae in dynamics , as well as to the several analytical steps which lead to those formulae .
+2 .
+There are many reasons why the diagonal AD , which is constructed on the straight lines AB , AC , should be considered as the sum of those two lines .
+Those reasons may be found developed in DE MORGAN'S ' Double Algebra , ' in WARREN ' On Imaginary Quantities , ' and in the Tract of BENJAMIN GOMPERTZ ' On Imaginary Quantities .
+' I shall therefore call AD ( AD being the diagonal of the parallelogram constructed on AB and AC ) the complete sum of AB and AC , and the two lines AB and AC will be called the components of AD .
+Moreover , denoting AB , AC , AD by P , Q , R respectively , I shall express their relation to one another by the equation R=(P)+(Q ) .
+I shall likewise denote by ( -Q ) a line equal and opposite to Q , and define ( P)-(Q ) to be the same as ( P)+(-Q ) , calling it the complete difference of P and Q. All lines which have the same length and direction will be considered as equal to one another , so that any line is equivalent to a line through the origin having the same length and direction .
+3 .
+It evidently follows from the above definitions , that the complete sum of AB and BC is AC , and the complete difference of AB and AC is BC .
+4 .
+Suppose now Q to represent a line which varies with the time t both in length and direction .
+The complete difference of the two consecutive values of Q after an increment of time At may be called the complete increment of Q , and may be denoted by A(Q ) .
+Moreover , if we divide the length of A(Q ) by At , and take the limit of that ratio , then the line which has that limit for its length , and which has for its direction the direction of A(Q ) , when At diminishes without limit , will be called the complete differential coefficient of Q , and will be denoted by Dr(Q ) .
+5 .
+It will be sometimes found convenient to denote a line of length r , which is parallel or perpendicular to a line P , by ( r 11 to P ) or ( rlr to P ) .
+Moreover , if n represent a numerical quantity , then nP may be used to denote a line which is in the direction of P , and whose length bears to that of P the ratio of n to 1 .
+6 .
+The following Lemmas , which will be of constant use , are all but self-evident : I. If R=(P)-(Q ) , then ( R)-(P)+(Q)=0 .
+In short , the ordinary rule of signs holds good .
+II .
+( nP)+(nQ)=n{(P ) ?
+( Q ) } .
+III .
+The projection on any line or plane of the complete sum or difference of two lines is equal to the sum or difference of their respective projections on the line or plane .
+7 .
+Whenever there is no risk of any mistake , the brackets may be omitted in the above and similar formulae , and the complete sum or difference of lines may be spoken of simply as their sum or difference .
+What has been hitherto said may be of course extended to all magnitudes whatsoever which can be adequately represented by straight lines , such as forces , velocities , axes of couples , axes of rotation , and accelerations , &amp;c. 8 .
+The application which can be made in dynamics of this conception of the complete differential coefficient of a line , will become at once apparent from the following considerations .
+Suppose a particle to be moving from A to B. Let O be any fixed point .
+Then the particle 's velocity is , according to its very definition , represented in AB R7 magnitude and direction by the limit of -t .
+But AB is the com0 A plete difference of OB and 0 A , or the complete increment of the AB radius vector O A , and therefore the velocity , being the limit of.- , is the complete differential coefficient of the radius vector .
+In the next place let OA and OB in the last figure represent in magnitude and direction the successive velocities of a particle at times t and t+ At respectively .
+Then , since OB=(OA)+(AB ) , it follows that , if with the velocity OA we compound the velocity AB , we shall obtain the velocity OB , and therefore the particle 's acceleration is represented by the limit of -t , or by the complete differential coefficient of the velocity OA .
+Hence we have the following proposition : If a particle 's velocity and acceleration be represented by straight lines , the velocity will be represented by the complete differential coefficient of the radius vector drawn from a fixed point to the particle , and the acceleration will be represented by the complete differential coefficient of the velocity .
+Or more briefly , the velocity is the complete differential coefficient of the radius vector , and the acceleration is the conplete differential coefficient of the velocity , and is therefore the second complete differential coefficient of the radius vector .
+So that if R denote the radius vector , and V and F denote respectively the velocity and acceleration , we have V-D , ( R ) , F=D , ( V ) = D(R)e 470 Such then being the connexion which exists between the differential coefficient of the radius vector and the velocity and acceleration of a particle , I will proceed to prove some of the principal propositions concerning the differential coefficients of lines , and to apply them to the dynamics , or rather the kinematics of a particle .
+The first proposition is the following : If P , Q , R represent straight lines , and if we have ( P ) ?
+( Q)=R , then ID , ( P ) + D , ( Q ) = D , ( R ) .
+For let P , Q , R after an interval of time At become P ' , Q ' , Rt respectively , then we have ( P'+_ ( Q)R ' , and therefore , by Lemma I. of section 6 , it follows that { ( P')-(P)t ?
+{ ( Q')-(Q ) } =(R')-(R ) , or A(P ) + A(Q)= A(R ) .
+Therefore by Lemma II .
+of section 6 , we have A(P ) ) / A(Q ) _ A(R ) and taking the limit of both sides of this equation , we obtain D , ( P ) ?
+D , ( Q)=D , ( R ) .
+Similarly it may be shown that D , I ( P ) ( Q ) ?
+( R ) }=D , ( P ) +D(Q)+_D , ( R ) .
+Moreover , denoting the second complete differential coefficient by D ' , it follows that DJt ( P)+(Q ) ?
+=tD(P)(Q)+ ?
+D(R)D(Q)D( ) = Dt(P)+ D:(Q)+ ?
+D(R ) .
+10 .
+Suppose now a line Q to have Q , , Q , , Q , for its components parallel to the axes of coordinates Ox , Oy , Oz ; it is evident from Lemma III .
+of section 6 , that Q=(Q , )+(QY ) +(Q ) .
+It follows , therefore , from the preceding section , that D , ( Q)=Dt(Q , ,)+D , ( Qy)+D( , ) ... ... .
+( I. ) and D)(Q)=D'(Q , )+D-1(Q , )+BD(Qt ... ... .
+( II .
+) These equations are true whether the axes of coordinates'are fixed or move .
+But supposing the axes to befxed axes , let q , , gy , g be the respective lengths of Q , , Q , , Q , .
+Then it is evident that , as the direction of Qx does not vary , Dt(Q , ) is a line whose direction is that of Q , or Ox , and whose length is dq ; and similarly , DT(Q , ) is a line whose direction is that of Ox , and whose magnitude is dqSimilar results hold good for 3s2 471 Dt(Qy ) , D )(Qy ) , &amp;c. Therefore the two equations ( I. ) and ( II .
+) evidently show that the components of D1(Q ) and D2(Q ) parallel to Ox are respectively equal to dq and dd to 11 .
+It is easy to apply the above results to the velocity and acceleration of a particle .
+For let Q in the last section stand for the radius vector of a moving particle , then the components of the radius vector are respectively equal to x , y , and z ; and since the velocity is the complete differential coefficient , and the acceleration is the second complete differential coefficient of the radius vector , it follows from the last section that the components parallel to Ox of the velocity and of the acceleration are respectively equal to dx d2x t and dt2 .
+So that if v , v , , v , be the components of the velocity , and f , f f , f be the components of the acceleration , we have the elementary formula dx die dz ==dt and similarly v=-dt , Vdt ; d2X. .
+d2y d2z ---= / s , and similarlyfy-- , = , f -= dt2 12 .
+Our next proposition will arise from investigating the complete differential coefficient of a line Q , which varies both in magnitude and direction with the time t. Let Q at time t be the line 0 A , and let it become 0B at time t+-At , so that we have --A(Q)=(OB)-(OA)=AB .
+Produce OA to C , making OC=OB , and draw BC .
+Let OA and OB have for their respective lengths q and q+Ag , and let angle B0 A=oe .
+Then A(Q)=AB=(AC)+(CB ) .
+Therefore , by Lemma II .
+of section 6 , A(Q ) AC + / B ... ... ... . .
+Now diminish At indefinitely and take the limit of the last equation .
+The limit of A(P ) AC , is D , ( Q ) , the complete differential coefficient of Q. The limit of -t is evidently AC dq a line whose length is the limit of dt , or dt and whose direction is that of OA or of Q. CB Finally , since COB is an isosceles triangle , t has for its limit a line whose length is OA limit of t , and whose direction is perpendicular to OA or Q , and in the plane in which Q is moving at time t ; and if s be the rate at which the direction of Q is varying at time t , w=limit of a. Therefore , taking the limit of equation ( I. ) , we obtain Dt(Q)= ( dt 1 to Q)+( lie r to Q ) , 472 the latter line ( q jLr to Q ) being in the plane in which Q is moving at time t. This is the fundamental ptoposition concerning the differential coefficient of a line , and may be stated in the following form : The complete differential coefficient of a line Q , whose length is Q and whose direction is at time t varying with an angular velocity w , is the complete sum or is conmpounded of two lines , one being din the direction of Q , and the other being qz in a direction perpendicular to Q and in the plane in which Q is moving at time t. The former of these two lines would evidently be the complete differential coefficient of Q , if the length of Q only varied , and the latter would be its complete differential coefficient if the direction of Q only varied ; and in this sense it may therefore be said that the complete differential coefficient of a line is the complete sum of the two partial differential coefficients obtained by varying separately the length and the direction of Q. One of these partial differential coefficients may be called the length-differential coefficient , and the other the directiondifferential coefficient of Q , and the complete sum of these two constitutes the complete differential coefficient of Q. 13 .
+Let Q in the preceding section stand for the velocity of a moving particle .
+Then D , ( Q ) will be the particle 's acceleration , q will be the velocity v , and the direction of Q will be that of the tangent to the particle 's path .
+Finally , rdt will be the angle between two consecutive tangents , so that adt=-s , ds being an element of the particle 's path , and g the absolute radius of curvature .
+Therefore dt=g.s It follows then at once from the last section , that D , ( Q ) , the particle 's acceleration , is compounded of dalong the tangent , and vwr or perpendicular to the tangent and in the plane in which the radius vector is moving at time t. In other words , the resolved part of the acceleration along dv dPs v2 the tangent is d-t=dt ' and the resolved part along the absolute radius of curvature is - .
+14 .
+The same fundamental proposition of section 12 enables us to investigate D'(Q ) , the second complete differential coefficient of a line Q , if we suppose that line to move always in the same plane .
+We have , namely , Dt(Q)= Ii to Q)+(l to Q ) .
+Now , in order to find DI(Q ) , we must ascertain the complete differential coefficients of It to Q ) and of ( ylr to Q ) .
+The complete differential coefficient of the former line ( dt |i to Q ) is , by section 12 , ( dt2q o )+ dtqtoQ ) 473 Again , the complete differential coefficient of the line ( gq Jl to Q ) is similarly the complete sum of the line ( z ) 1 ' to Q ) and of a line whose length is qM2 and whose direction is perpendicular to the line ( qa _i to Q ) , and whose direction is therefore evidently opposite to that of Q. Hence D2(Q ) is the complete sum of ( dq to Qand ( t _Ir to Q ) and ( ( q )jLto Q ) and ( --q I to Q ) .
+Therefore D:(Q ) dt2 )l tfQ}+{(+ dt( ) toQ } In other words , the components of D2(Q ) parallel and perpendicular to Q are respectively t2q_22 and + dt ( qr w. 15 .
+This last result may be easily applied to the dynamics of a particle .
+For , let Q stand for the radius vector of a particle moving in a given plane .
+Let that radius vector have r for its length and a for its angular velocity ; then , since the acceleration equals the second differential coefficient of the radius vector , it follows at once from the last section , that the components of the acceleration parallel and perpendicular to the radius vector are respectively d2r d 1d t2 -rr2 and rzi+ dt ( rz ) , or dt ( r27 ) .
+16 .
+This last result is , however , but a particular instance of the connexion which exists between the actual motion of a particle , and its motion relatively to axes which move in the same plane as the particle moves .
+It will be found that that connexion may be easily deduced from the solution of the following problem:4 Supposing the axes of coordinates Ox and Oy to move about 0 in the plane of xy with an angular velocity m at time t , it is required to find the complete differential coefficient of a line Q which moves in that plane , the lengths of Q 's components along the moving axes being given .
+" Let Q have for its components Q , and Q , , and let the respective lengths of these be qg and qy .
+Then , by Lemma III .
+of section 6 , we have Q=(Q , )+(Qy ) .
+Whence it follows that Dt(Q)= Dt(Q-)+Dt(Q , ) .
+Now since Q and Qy vary in direction as well as magnitude , and since the angular velocity of their change of direction is ' , we have , by the fundamental proposition in section 12 , Dt(Q , )= ( || to Ox ) +( r to 0x),.I Dt(Q , )= ( dt to Oy )+(y i to oy ) .
+474 But since the lines ( zq Jr to Ox ) and ( , aqJ Lr to Oy ) are respectively proportional and perpendicular to Q , and Q , and since the latter lines have Q for their complete sum , it evidently follows that the former two lines have for their complete sum a line which is perpendicular to Q , and .
+whose length is rq .
+Hence Dt(Q)= ( |i to )+ ( d|LtoOy)+(m ' tQ)* ... ( II .
+) 17 .
+This last formula is true whether the axes be rectangular or oblique , and may be made the basis of all the formulae of relative motion in one plane .
+It may be observed that the line dq too ) + ( 2 toOy ) dt It to is what would be the complete differential coefficient of Q if the coordinate axes were fixed ; and it may therefore be called the complete differential coefficient relative to the moving axes , or , more briefly , the relative differential coefficient of Q. So that the above formula shows that the complete differential coefficient of Q is its relative differential coefficient together with a line ( Jq ir to Q ) , the latter line being drawn towards the direction in which the axes are revolving .
+18 .
+If the axes of coordinates be rectangular , then the line ( Jq , r _to 0x ) is evidently the same as ( qx 1 ] to Oy ) , and the line ( Msgiy ir to Oy ) is the same as ( -zwq , Ijj to Ox ) ; and therefore , looking at the equations ( I. ) in section 16 , we see that Dt(Q ) =D(Q ) +Dt(Q , ) = ( ( d-q )l| ||toO)O + ( ( +.)+ l to , ) In other words , the components of D , ( Q ) parallel to Ox and Oy are respectively dt and dq+ ... . .
+( III .
+) The same result may be also deduced from formula ( II .
+) in the same section , if we resolve the line ( uq JLr to Q ) along the rectangular axes of x and y. 19 .
+Let us apply the above formule first to the velocity of a particle .
+Suppose , then , a particle to move in a given plane , and that the rectangular axes of coordinates in that plane revolve about the origin with an angular velocity zr at time t. Let vx and vi be the components of the particle 's velocity along the moving axes .
+Then , since the velocity is the complete differential coefficient of the radius vector , and since x and y are the components of that radius vector , it follows from the formulae ( III .
+) of the last section , that dx V= dt -y dy=dt +S 475 dx If the radius vector be chosen as axis of x , then x=r , y=O ; therefore v=ddT along the radius vector , vy=rv perpendicular to the radius vector , where w is the angular velocity of the radius vector .
+20 .
+Let us now apply the same formulae ( III .
+) of section 18 to the acceleration of a particle .
+Let v , and v , , as before , denote the components of the velocity , and let f , and f denote the components of the acceleration of the particle .
+Then , since the acceleration is the complete differential coefficient of the velocity which has v , vi for its components , it follows at once from the formulae ( III .
+) , that dv dv .
+Suppose now the axis of x to be the radius vector , then we have already shown that dv v , =d- , vy=r ?
+r. Therefore by substituting these values in the last formulae , we see that d2r fx , the acceleration along the radius vector , is -2--rw2 , and f , , the acceleration perpendt dr Id dicular to the radius vector , is d ( rr)+i dt+ r dt ( ir2 ) , which is the same result as was obtained in section 15 .
+21 .
+Returning to the more general case , we have , as before , dv_v vdtYv dx and substituting in these the values already obtained for v , and vi , namely , dt--yz , t+-x , a , we find d2 X die ds f= 2t-2 2 dtx-y d - , ( IV .
+) d2y dx 21 fY= dt2+2 dt x2y addt which are the formulae for the components of the acceleration in terms of the coordinates of the particle .
+22 .
+The last formula ( IV .
+) may also be obtained in the following manner .
+Let Q , and Qy represent respectively the components of the radius vector Q along the axes of x and y. Then Q=(Q)+(Q , ) .
+Therefore D ( Q ) = D(Q X+ D Q(Qy ) .
+476 But since the axes of x and y revolve at time t with an angular velocity z , and since Q , and Qy have x and y for their respective lengths , it follows from section 14 , that d2x a~= i d~t2d 2)W)={( t-* ?
+) 2| to + ( 2)rto0 , and that DQ)={ ( ) I to ?
+, + ) jL to Oy } d2 1d( which equations are clearly the same as those obtained in the preceding section .
+We shall soon prove similar formulae for the more general case of a particle and axes of coordinates moving in any manner whatsoever in space of three dimensions , and therefore , in order to prevent needless repetition , we shall postpone the further discussion and complete interpretation of the equations ( IV .
+) or ( V. ) .
+23 .
+It is , however , interesting here to observe that all the results already obtained may be readily deduced from the principles of what Professor DE MORGAN has called " Double Algebra .
+" According to those principles , namely , the radius vector R whose length is r and whose inclination to a fixed line is 0 , is symbolically represented by r0 4-1 , so that we have R=r ?
+- .
+Therefore D , ( R)= 4( A+ r -I ) ; and the last expression represents the complete sum of ( dt toR ) and ( rC dr to ) .
+This result is the same as that arrived at in section 12 .
+Again , D:(R)=D , ( D , ( R))= , / a -1r d --d de dr do [ Pr d dd dr\ -1d2+/ -r 4dt Vt-1 t/ -1 drdt ) ) dt{ dt +( dt ) dt dt ) ) and this expression represents the complete sum of a line dr dr d dtr TO d d\ dr dT dt2-rdt II to R and a line ( r-t dt d to R This result is the same as that arrived at in section 14 .
+Finally , in order to obtain the formulae for relative motion , we have merely to put R__rs(o+a ) / --i where D is the angle made by R with the moving axis of x , and a is the angle made by that moving axis with a fixed line .
+It follows then that Dt(^R)^ ?
+^d ( n -)+r d / =1 da +a ) - .
+Now it is evident that s -a 'd rO v ) represents the relative differential coefficient of dea dat R , and rdt V/ --1 s(+a)^i represents a line rd _ ' to R. We thus obtain the same result as in section 16 .
+By differentiating again it would also be easy to deduce the result of section 20 , if we observe that so 1 [ dt2 0l ( rs ) irepresents the particle 's relative acceleration whose comd%2x d2y ponents are dt and d2CHAPTER II .
+24 .
+In order to extend the formulae which we have proved for the motion of a particle in one plane to the motion of a particle in space , it will be found very convenient to make use of a conception which presents itself in statics , as soon as the equilibrium of a solid body is treated of in that science .
+Let 0A and 0B be any two straight lines drawn from the origin 0 .
+, If then 0A represent a force P , and if we apply at Ba force -P , we shall obtain a couple .
+Let 0C be the axis of that couple .
+We know -p then from statics that , if 0A and 0B have for their projections on the axes of coordinates X , Y , Z and x , y , z , then 0C has for its projections c zY-yZ , xZ--zX , yX-xYY ... ... ... . .
+( I. ) Now the relation which the line 0C bears to the lines 0A and 0B is one which not only presents itself in statics , but which also plays a very important part in the differentiation of lines , and in the dynamics both of a particle and of a body .
+For this reason it will be proper to treat of the relation in question quite independently of statical considerations ; and since the expressions ( I. ) , which are the projections of 0 C , are evidently what are called determinants , I shall call the line 0C the determinant of 0B to OA .
+Hence we have the following definition : " The determinant of a line Q to a line P is a line which is equal to twice the area of the triangle of which the lines P and Q drawn from the origin are sides , and which is perpendicular to that area , and the line is moreover drawn in such a direction that , to 478 an eye looking along it towards the origin , the revolution of Q towards P appears to be a revolution in the positive direction .
+" The determinant of Q to P may be briefly denoted by det ( Q , P ) .
+It is evident from the above definition , that the determinant of Q to P is a line equal and opposite to the determinant of P to Q. Moreover , if the projections of P on the axes of coordinates be pj , , p , , and those of Q be q , , qy , q , then it follows from the formulae ( I. ) , that the determinant of Q to P or det ( Q , P ) has for its projections qySzPY , PZ-Zq ... -.p ... .
+( II .
+) 25 .
+The connexion which exists between the notion of a determinant of lines and the elementary conceptions of dynamics may be easily made apparent .
+For suppose a particle at the extremity B of 0B to be revolving about the line 0A with an angular velocity represented in magnitude by 0 A , then if 0C be drawn perpendicular to the plane A0 B , and equal to twice the area A0 B , it is evident that 0C will represent the linear velocity of the particle .
+But 0C is then by definition the same thing as the determinant of 0A to 0 B. Whence it follows that the determinant of 0A to 0B represents the velocity of the point B , due to a rotation whose axis and angular velocity are represented by 0 A. This result , together with the result of the preceding section , may then be recapitulated in the following manner .
+If V represent the velocity of a particle at the extremity of the radius vector R , and the particle rotates about an axis which is represented by the line i2 , then , if the angular velocity is represented by the length of 12 , we have V=det ( n , R ) .
+Secondly , if P represent a force at the origin and R represent the radius vector at the extremity of which a force -P acts , then the axis of the couple ( P , -P ) is det ( P , R ) or det ( R , -P ) ; so that det ( R , P ) is what French writers call " the moment-axis of a force P with respect to the origin .
+" 26 .
+Such , then , being the connexion between determinants and statical and dynamical conceptions , I will proceed to prove some of the more important propositions concerning the determinants of lines .
+The most important theorem concerning the determinants of lines is the following:"If P , P ' , and Q be three straight lines drawn from the origin , then det ( P , Q)+det ( P ' , Q)=det { ( P)+(P ' ) , Q } .
+" This proposition might be easily proved by geometry , but it is at once deducible from statics .
+For , consider two couples having a common arm Q , and having forces P and P ' respectively acting at the extremity of Q at the origin O. The resultant of those two couples will be a couple having the same arm Q , and having for its force acting at 0 the resultant of P and P ' , or ( P)+(P ' ) .
+Now it is proved in statics that the axis of this 3T2 479 resultant couple is the complete sum of the axes of two component couples .
+Therefore , substituting for those axes the equivalent determinants , we see that the determinant of ( P)+(P ' ) to Q is the complete sum of the determinant of P to Q , and of the determinant of P ' to Q. Thus we have det ( P , Q)+det(P ' , Q)=det { ( P)+(P ' ) , Q ... ... .
+( I. ) And it may similarly be shown that det ( P , Q)det ( P ' Q)=det { ( P)-(P ' ) , Q } ... ... ( II .
+) The same proposition follows also easily from a consideration of the linear expressions ( II .
+) in section 24 for the projections of a determinant , and is in fact equivalent to a fundamental theorem concerning algebraic determinants , which theorem may be found in SALMON'S ' Lessons on Higher Algebra , ' section 19 , page 9 .
+27 .
+The proposition proved in the last section will be found to be of constant use in explaining and shortening analytical processes in mechanics .
+One useful application can be made of it in proving " the parallelogram of angular velocities .
+" For taking Q to be the radius vector of a particle , and P and P ' to represent two axes and angular velocities of rotation then the formula ( I. ) of the last section translates itself at once by means of section 25 into the following proposition:- " The linear velocity of a particle due to a rotation whose axis and angular velocity are represented by the line P , compounded with the linear velocity due to a rotation similarly represented by the line P ' , is equivalent to the linear velocity due to a rotation represented by the complete sum of P and P. " And this is evidently the same as the proposition called " the parallelogram of angular velocities of rotation .
+" 28 .
+Let us next investigate the complete differential coefficient of det ( P , Q ) .
+We will first premise that , if m be any numerical quantity , it follows evidently from the definition of a determinant , that det ( mP , Q)=m det ( P , Q)=det ( P , mQ ) ... ... .(I .
+) Suppose now that P and Q after an interval of time At become respectively ( P)+(AP ) , ( Q)--(AQ ) , the sign + here denoting the complete sum .
+Then the complete increment of det ( P , Q ) is det ( P + AP , Q+AQ)-det ( P , Q)= 1 det ( P+ AP , Q+ AQ)-det ( P+ AP , Q)+det ( P+ AP , Q)-det ( P , Q ) .
+But it follows from formula ( II .
+) of section 26 , that det ( P+AP , Q+AQ)-det(P+AP , Q)=det ( P+AP , AQ ) ; and similarly , det ( P-+AP , Q)-det ( P , Q)=det ( AP , Q ) .
+Substitute , then , these values in the above equation ( II .
+) , and divide both sides by At by means of the above formula ( I. ) , and finally let At diminish without limit .
+We thus obtain for the complete differential coefficient of det ( P , Q ) det ( P , D , ( Q))+det ( D , ( P ) , Q ) .
+480 We have therefore the equation D , { det ( P , Q ) } =det { P , D , ( Q ) } +det { Dt(P ) , Q } .
+The same equation may also be proved by considering the algebraical determinants which represent the projections of det ( P , Q ) ; and it may in fact be easily deduced from the following identical equation , d d^ dq\y d_ A dt ( W-q-)= dtP dt ) dt Y dt 29 .
+It may be here observed that the formulae ( I. ) and ( II .
+) in section 26 , and the formulae ( I. ) and ( II .
+) in section 28 , show that there exists an intimate symbolical connexion between det ( P , Q ) and the product P , Q. In fact the only difference between their symbolical properties consists in P and Q not being commutative in the expression det ( P , Q ) , and being so in the expression for the product .
+30 .
+There is one more proposition which is often very useful in analytical dynamics .
+Let it be required to find det ( R , Q ' ) , where Q ' itself equals det ( P , Q ) .
+Let the required line det ( R , Q ' ) be denoted by U. Then , by the definition of a determinant , U is perpendicular on R and on Q ' , which last line is itself perpendicular on the plane containing P and Q. Hence it follows that U is perpendicular on R and in the plane containing P and Q. We have still to find the magnitude of U. For this purpose let the angle which R makes with the plane containing P and Q be 4 , so that 4 is the complement of the angle between R and Q ' .
+Moreover , let d be the angle between P and Q , and let the magnitudes of P , Q , QI , R be denoted by p , q , q ' , r respectively .
+Then , since U is det ( R , Q ' ) , it follows from the definition of a determinant , that the length of U equals rg ' sin ( 24 ) or ' cos 4 .
+Similarly , '-=pq sin 4 .
+Hence the length of U equals pqr sin d cos 4 .
+There are two cases especially which frequently occur in dynamics , first , when R is identical with Q , and secondly , when R is perpendicular on Q. Let us first take the case of R being identical with Q ; then 4-=0 and r=q .
+Therefore the required determinant is a line in the plane containing P and Q , and perpendicular on R or Q , and its length equals pg2 sin 4 .
+If , moreover , Q is perpendicular on P , then the required determinant is in the direction of P , and its length equals pq , since 0= .
+So that , if P is perpendicular on Q , we see that dett Q , det ( P , Q)P is a line pq2 in the direction of P ; and therefore evidently det { Q , det ( Q , P)j is a line pq2 opposite to P. Let us now take the case of R being perpendicular on Q. Then it might be easily proved by spherical trigonometry , that sin 0 cos 4 equals the cosine of the angle between R and P. But we will prove this by analysis , because in doing so we shall meet with formulae which will be of use in the sequel .
+481 Let , then , the components of P , Q , Q ' , R parallel to any three axes of coordinates be denoted by p , ,p , p , q , &amp;c. , q , &amp;c. , r , , &amp;c. Then , if we denote the components of U=det ( R , Q ' ) by uz , uy , , u , we have , by section 24 , -^-VyrV ~ ... ... ... .
+( I. ) and since Q'=det ( P , Q ) , we have q=qzpy-s-ypz , qy=qPz gpX Hence , substituting the values of q and gy in ( I. ) , we get 9 , =P px(yrY+ ZrZ ) ; ( Pie , y+p , r , .
+) Now by hypothesis R is perpendicular on Q ; hence therefore qyry+qrz =-q-r , .
+Therefore q= .
+( p , r +pyrA+-pr4 ) .
+But as q and r denote the magnitudes of P and R , it is evident that p_r +p , r+p- , r , =pr cos p , where p denotes the angle between P and R. Therefore U-prqg cos p. Similarly m=y -prqy cos p , u , = -prqg cos P. Therefore the line U of which uZ , Uy u , are the components is a line in direction opposite to Q , and whose length equals prq cos p , q being the length of Q. Hence if R be perpendicular on Q , then det ( R , det ( P , Q ) ) equals -pqr cos p in the direction of Q. It follows from the above proposition , that , if Q ' or det ( P , Q ) represent a force or acceleration which acts at the extremity of the radius vector R , and if Q be perpendicular on R , then the moment-axis of that force or acceleration about the origin is -pgr cos ( p in the direction of Q , and the moments of such force or acceleration about the coordinate axes are respectively -pr cos p g , , -p pr cos ( y , -p ; r cos P q ; and as ( is the angle between P and the radius vector R , pr cos =-xpx+ypy+zyp , if x , y , z be the coordinates of the extremity of the radius vector .
+CHAPTER III .
+31 .
+We are now in a condition to treat fully of the motion of a particle in space of three dimensions ; and it will be found that the propositions which have just been proved concerning the determinants of lines , will enable us to show how all the results 482 arrived at as to a particle 's motion in one plane may be extended to motion in space generally .
+32 .
+Suppose Q to represent a line drawn from the origin , varying both in direction and magnitude in any manner whatsoever , and let it be required to investigate Dr(Q ) the complete differential coefficient of Q. Let the length of Q be q at time t , and let the direction of Q be revolving at time t about a line whose direction is that of the line represented by Ql , and let the length of Q be the angular velocity m , with which Q 's direction is revolving at time t. It has been already shown in section 12 that Dr(Q ) is in all cases the complete sum of the two partial differential coefficients which are obtained by varying separately the length and direction of Q. Now the former partial differential coefficient is evidently ( dq || to Q , and the other partial differential coefficient is , by section 25 , equal to det ( Q , Q ) .
+Hence we have the following fundamental equation , D(Q)= d to Q)+det(Q , Q ) ... ... ... .
+( I. ) 33 .
+It is not difficult to deduce from the last equation the expression for D'(Q ) , the second complete differential coefficient of Q. In order to find that expression we must take the complete differential coefficient of each of the expressions of which the righthand member of equation ( I. ) is composed .
+For this purpose represent for a moment the line ( _t |i to Q ) by Q1 .
+Then it follows from the fundamental formula of the preceding section , that Dt(Q)=D , ( Ql)+D , ( det ( Q , Q ) ) .
+Now the formula ( I. ) of the last section gives evidently Dt(Q , )= ( dl to Q ) +det ( Q , Q , ) , or q !
+to Q ) +det ( Q , Q1 ) .
+Moreover we have , according to section 28 of the preceding Chapter , D , { det ( Q , Q ) } =det { D , ( 2 ) , Q +det ) , Q , D , ( Q ) } .
+But since Dt(Q)=(Q , )+det ( Q , Q ) , it follows from section 26 of the preceding Chapter , that det ( Q , D , ( Q))= -det ( Q , Q , )+det { Q , det ( Q , Q ) } .
+Therefore , collecting the above results , we obtain D2(Q)=-Dt(Q1)+Dt{det ( Q , Q)= d to +2det , )+det ( Dt(Q ) , Q)+detl{ , det ( Q , Q ) } .
+( dti+2e 483 The two last terms of this expression are evidently what would be DJ(Q ) if dq d2q dt were zero , that is to say , if Q did not vary in magnitude ; and ( 1I to Q ) is evidently what DI(Q ) would be if Q did not vary in direction ; so that we have the following proposition : " D ( Q ) is the complete sum of the two partial second differential coefficients obtained by varying separately the length and the direction of Q , together with 2 det ( Q , Q , ) , where Q , is the line ( d | to Q. " 34 .
+Suppose Q to be R the radius vector of a moving particle , the length of which radius vector is r , then D ( Q ) is the particle 's acceleration ; Q , is ( to R , and is therefore the velocity along the radius vector .
+If , then , we denote this by R , the equation arrived at in the last section shows that the acceleration is compounded of ( dtr 1 to R ) +2 det ( Q2 , R ) , and of what would be the particle 's acceleration if R did not vary in magnitude , that is to say , if the particle simply revolved about the origin .
+And this latter acceleration is again compounded of det ( D(Q2 ) , R ) and det { Q ?
+, det ( Q , R ) } .
+The last line is , by section 30 , a line drawn from the extremity of R , or from the particle , perpendicular to and towards Q2 , and whose magnitude is 2p , p being the length of that perpendicular .
+35 .
+The above result is , however , but a particular instance of the theory of the motion of a particle relatively to axes which revolve about the origin , a subject which we are now in a condition to treat of very simply in its utmost generality .
+That theory will be found to depend upon the solution of the following problem:"Supposing the axes of coordinates Ox , Oy , Oz to revolve round the origin O about an axis Q at time t with angular velocity m ( which is the length of Q ) , it is required to find the complete differential coefficient of a line Q , the components of Q along the coordinate axes being given .
+" Let Q have for its components Q , Qy , Q , and let the respective lengths of these be qx , , g , .
+Then evidently Q=(Qx)+(QY)+(Q , ) .
+Therefore Dt(Q ) = Dt(Q)+ D , ( Qy)+ Dt(Q , ) .
+But , by the fundamental formula of section 32 , we have D(Q(d )= q to .
+) +det ( , Q ) , Dt(Q)= ( 1id to Oy ) +det ( 2 , Q , ) , Dt(Qy)= ( l to Oz ) +det ( Q , QJ ) .
+484 Now we know , from section 26 of Chapter II .
+, that det ( Q , Q , )+det ( Q , Q , )+det ( Q , Qz ) =det { Q , ( Q)+(QY)+(Q , ) } =det ( 2 , Q ) .
+Therefore Dt(Q)= ( d to + to +| to + tOz ) +det ( , Q ) .
+This formula is true whether the axes be rectangular or oblique , and may be made the basis of all the formula of relative motion .
+It may be observed that , if the coordinate axes did not move , D , ( Q ) would be equivalent to ( dqt tol x)+(t I toGY)+(qt| 11 toOz ) .
+So that the line represented by the last expression may be called the differential coefficient of Q relatively to the moving axis , or , more briefly , the relative differential coefficient of Q. The above formula of the last section therefore shows that the complete differential coefficient of Q is the relative differential coefficient of Q together with det ( Q , Q ) .
+This proposition exactly corresponds with the proposition in section 17 of Chapter I. 36 .
+Assuming now the axes of coordinates to be rectangular , we know , from formulae ( II .
+) in section 24 of Chapter II .
+, that det ( 2 , Q ) has for its components q7y--q , s parallel to Ox , qxw--qzx parallel to Oy , qy1w-q~xy parallel to Oz .
+Therefore it follows from the preceding section , that the components of D , ( Q ) are dqx_L dqy dt + qxWz zZ dqz dt +q Mx-q , .
+These formulae are in fact simply the analytical expression of the fundamental proposition in the preceding section , and correspond exactly to the formulae in section 18 of Chapter I. 37 .
+Let us now apply the above formule to dynamics , and first to the velocity of a particle .
+Suppose , then , a particle to move in space in any manner whatsoever , and suppose that the rectangular axes of coordinates revolve about a line 2 at time t with angular velocity w , f5 being the length of Q. Let vx , vi , vz be the components of the particle 's velocity , and Cx , Wy , 'z the components of Q. Then , since the velocity is the complete differential coefficient of the radius vector R of the particle , and since x , y , z are the components of it follows at once from the formulae of the preceding section , that dx Vx=t { +ZOY-Yy ) dy V== XY -Z , dz These formulae simply express the fact , that the absolute velocity is equivalent to the relative velocity together with det ( Q , R ) .
+38 .
+Let us next apply the formulae to the acceleration of a particle .
+Let , as before , v , vy , v , be the components of the particle 's velocity V , and let f , , ff be the components of the particle 's acceleration .
+Then , since the acceleration is the complete differential coefficient of the velocity , of which vx , v , , v. are the components , it follows at once from section 36 , that dv ; f=x di-+VZY , -Vyz , dvr dtv If we substitute in the last equations the values obtained for vx , v , , v , in the preceding section , we obtain d2x dsy dz / dz dy , dt : dt Ydt +2 tpf , dtgz +(.wz and similar formulae for f , andfz .
+These are the ordinary formule .
+It would not be difficult to deduce their real meaning from their analytical form ; but it will be better first to prove the result of such interpretation in a different and more direct manner .
+39 .
+We have already seen that , if V denote the particle 's absolute velocity , and R the dx dy dz radius vector , and if V , denote the relative velocity which has dt dt ' dt for its components , then V=V , +det ( Q , R ) .
+Let then F denote the particle 's absolute acceleration , and let F1 denote the particle 's d2x d2y dz relative acceleration which has dt- , dtdfor its components ; then F= Dt(V)=D , ( V , )+D , det ( Q , R ) ... .
+( I. ) Now it follows from the fundamental proposition in section 35 , that D , ( V , )=F , +det ( Q , VI ) .
+486 Moreover we know from section 28 , that D , det ( Q , R)=det ( Dt(Q ) , R)+det ( fQ , D , ( R ) ) .
+But since D , ( R ) =V = V , + det ( Q , R ) , therefore det ( Q , D , ( R))= det ( 2 , V , )-+-det lQ , det ( Q , R ) } .
+Hence , collecting the above results , and substituting them in the equation ( I. ) , we find F=F , +2 det ( Q , V , )+det ( D , ( Q ) , R)-+ det IfQ , det ( Q , R ) } .
+It may be observed as to this formula , that if V= 0 , that is to say , if the particle had no relative motion , and moved as if rigidly connected with the axes of coordinates , then the two first terms of the last equation would vanish ; and therefore its other two terms are what the acceleration would be if the particle had no relative motion , and they represent what may therefore be conveniently termed the particle 's system-acceleration .
+French writers have given to this acceleration the name of " 'acceleration d'entrainement ; " it is the acceleration of a point which is the eeposition of the moving particle , and which is supposed to be rigidly connected with the system of moving axes , and I therefore propose to call it " system-acceleration .
+" Using then this expression , we have the following proposition:- " The acceleration of a particle is equivalent to its acceleration relatively to a system of axes revolving about a fixed point , together with the systemacceleration corresponding to the particle and together with an acceleration equal to 2 det ( Q , V , ) , V , being the particle 's relative velocity , and Q the axis about which the system is revolving at time t. " Or , more briefly , a particle 's absolute acceleration equals the complete sum of its relative acceleration and of its system-acceleration together with 2 det ( 2 , V , ) .
+Such is the brief expression of CORIOLI'S beautiful and very useful proposition concerning relative motion .
+40 .
+We have just seen that the particle 's system-acceleration is compounded of det ( D , ( 2 ) , R ) and det { Q2 , det ( Q , R ) } .
+As regards the latter line , it is clear from section 30 that it is in the direction of the line draw from the particle pre erpendicular to and towards the axis Q , and that its magnitude is w2p , p being the length of that perpendicular .
+It is therefore equal and opposite to what is usually called " i the centrifugal force .
+" As regards the other line det ( D , ( 2Q ) , R ) , it is of course at once determined as soon as D , ( Q ) is known .
+Now if vz , , w bel the components of Q , it follows from the fundamental proposition in section 35 that D , ( Q ) is equivalent to ( d 11 to ox ) + ( -1 to oy ) +( to Oz ) +det ( Q , Q ) .
+But it is clear , from the very definition of a determinant , that det ( Q , Q ) is zero .
+: Hence we see that the components of D , ( Q ) are dSY , dD- , dr .
+This is an important proposition often used in the dynamics of a rigid body , and generally proved by means of a good deal of analytical work .
+It is usually expressed in the following manner .
+If 3u2 487 be the components of w along fixed axes , and as , w , , r be its components along moving axes which coincide with the former at time t , then dld2= d d= t dt3ddz dt ddt at dti dt It is evident that this amounts to saying that D , ( Q ) has dx , die dd for its components ; dit dt Idt and we have just seen how that proposition follows at once from the fundamental theorem in section 35 , and from the self-evident fact that D , ( QJ , Q)=0 .
+41 .
+Recapitulating then the results of the two last sections , we see that a particle 's system-acceleration is equivalent to det ( D , ( Q ) , R ) minus the centrifugal force , and that the absolute acceleration of the particle is compounded of the relative acceleration of the particle , its system-acceleration , and 2 det ( Q , VI ) , V , being the particle 's relative velocity .
+If we now look back on the analytical expressions obtained in section 38 for the components of the absolute acceleration , it will be easy to see their full meaning .
+The expression dt2 is the component of the relative acceleration .
+The expression zdty dt is the component of det ( D , ( Q ) , R ) , since , as we have seen , D , ( Q2 ) has for its components dwxdy dTz di d-d , d ' dt The expression 2 ( d -/ y ) is the component of 2 det ( Q , V ) , since V , has for its components d , d- .
+Finally , it may be easily shown by analytical geometry , that the expression ( yaz -Z70 , ay ( Xaz -ZUX ) Z is the component of the line a2p drawn from the point ( x , y , z ) on the line whose direction-cosines are proportional to us , uyv , fz , p being the length of that perpendicular .
+Hence it is manifest that the analytical formulae in question merely express the proposition enunciated at the commencement of this section .
+It may , finally , be observed that the above results might also have been easily deduced from the formula in section 34 for the acceleration along the radius vector in exactly the same manner as the corresponding analytical formulae for the relative motion of a particle in one plane were deduced in section 22 from the formula for the acceleration of the particle along the radius vector .
+42 .
+If the origin of coordinates also moves , it is evident that the particle 's actual acceleration is the resultant of the acceleration of the origin and the acceleration relatively to the origin .
+Hence substituting for the latter acceleration the expression already found for it , it is easy to see that the particle 's actual acceleration is , as before , the resultant of the relative acceleration , an acceleration represented by 2 det ( Q , V1 ) , and the particle 's system-acceleration , but that the system-acceleration is now the resultant of the acceleration of the origin , and of the system-acceleration relatively to the origin , for which latter system-acceleration we have already obtained the expression .
+Now in whatever way a system moves , the motion may be decomposed into a motion of translation and a motion of rotation .
+Hence we , see that a particle 's absolute acceleration is in all cases the resultant of the relative acceleration , the system-acceleration , and an acceleration equal to 2 det ( 2 , V ) , where 2 is the axis about which the system is turning at the time , and V is the relative velocity of the particle .
+This is the most general form of CoRIoLI'S theorem .
+43 .
+One of the most important illustrations of the theory of relative motion is the motion of a heavy particle relatively to a system which revolves uniformly about a fixed axis ; for this includes the case of a falling body and the pendulum , where the earth 's motion is taken into account .
+Suppose then a particle of mass m to have for its actual weight W ' , and for its apparent weight W , so that a force -W would keep the particle in relative equilibrium or apparently at rest .
+Then evidently ( ) ( is equivalent to the particle 's systemacceleration .
+Let then the particle be acted on by a force P over and above the weight W ' , and let the particle 's actual acceleration be F , its relative acceleration F1 , its system-acceleration F2 .
+Then clearly But by CORIOLI'S theorem F=(F , )+(F2)+2 det ( Q , V ) ; and we have just seen that the system-acceleration F= ( ) ( W ) .
+Hence it follows that ( F)+2det(Q , V)= )+( ) : ... .
+( I. ) is the apparent acceleration of gravity , and is generally denoted by g. 44 .
+The above formula is quite general ; but in most cases g may be considered as constant both in magnitude and direction , its direction being the vertical direction at the point of reference or origin .
+We have then the formula F , = ( P ) +(g)-2 det ( 2 , V ) ... .
+( II .
+) This simple formula enables us to solve easily all problems concerning the motion of a heavy particle relatively to a spectator on the earth .
+The formula shows that the relative acceleration is found , just as if the earth did not move , by substituting the apparent for the actual force of gravity , and by adding on a force -2m det ( Q , V , ) .
+where V1 is the particle 's apparent velocity .
+45 .
+Let us take the vertical downwards as axis of z ; let the axis of x be the horizontal line drawn from north to south , and let the axis of y be the horizontal line drawn from XZ west to east .
+Then the equation to the earth 's axis is evidently cos sin if x denote the latitude of the spectator 's position .
+Therefore -= w cos , y=-0 , za= sin. 489 Moreover we know that the components of det ( Q , V1 ) are dz die die %dt-- ' dtz --s sin x dtt dx dz [ dx .
+dz\ dla-x -l / sin cos X , dt z dt dt dt ~-dt =s os i. Let then the force P , which , besides gravity , acts on the particle , have for its components X , Y , Z , then , as Fi , the relative acceleration , has for its components d2x die dz fol dtj , dITt -~dt , it evidently follows from equation ( II .
+) of the preceding section , by revolving along the axes , that d2x X die =- , + 2r sin. d~ d2y Y i/ dz dx *\ 1T =dt2 = m+ 2tcoS X dt sin )s , ... ... ( II .
+) d2z Z die dtm+-2 cos dt dx die dz On multiplying these equations by d , / - , drespectively , and adding , we find dxd die die dzy dz X dx Y die Z dz dz dt dt + tdt dJr dt ddt=m t+ dt+m idt dt This equation may also at once be deduced from the formula ( II .
+) if we resolve along the direction of the particle 's relative motion , and observe that det ( Q , V , ) is perpendicular on that direction which coincides with the direction of V , .
+By integrating the last equation , we see that the equation of vis viva applies to the particle 's relative motion just as if the particle 's relative motion were its actual motion , with this difference only , that for the actual force of gravity the apparent force of gravity must be substituted .
+If the particle be a free particle acted on by no forces but gravity , then -X=0 , Y=0 , Z=0 , and the equations ( III .
+) are linear , and are therefore easily integrated .
+Moreover if v , be the relative velocity , the equation of vis viva gives v2=2g(2--h ) , h being a constant .
+46 .
+If the particle be suspended by a string from a point fixed to the earth , then if that point be taken as the origin , and X , Y , Z be the components of the string 's tension , weevidently have Zy--Yz=O , Xz--Zx=0 , Yx--Xy=0 ; and substituting those values in the preceding equations ( III .
+) , we shall obtain two independent equations , which , together with the equation x2+y2+z2=a constant , will determine the particle 's relative motion .
+490 But those resulting equations can be found far more simply and directly in the following manner .
+For this purpose let us revert to the fundamental formula F , = ( +(g)-2 det ( Q , V ) ... ... ( 1 .
+) Now section 30 of Chapter II .
+shows us how to find the moment-axis with respect to the origin of det ( Q , V ) .
+If , namely , z and v be the magnitudes of Q and V , and p be the angle between Q and the radius vector , then the moment-axis of det ( Q , V ) is --ivr cos. Therefore the moment about the axis of x of --2 det ( Q , V ) is 2zr cosp - ; die and similarly , its moments about the axis of y and z are respectively 2 , r cos p Y_ and dz 2ayr cos ( P. Moreover , since p is the angle between the radius vector and Q , it is evident that irr cos p=u-%x+y+-Xz=-C(x cos k+z sin A ) , X being the latitude of the origin .
+Let us now take the moments of FI about the axes of coordinates , and equate them to the moments of those components of F1 which are given in the formula ( I. ) .
+P The moments of P about the axes are zero in this case of the pendulum .
+The moments of g about the axes of x , y , and z are respectively gy , -gx , and 0 ; and the moments of -2 det ( Q , V ) we have just found .
+Hence we obtain at once the following three equations:d2z die dx .
+, y t2-dzt gy+2 t ( x cos+ zsin X ) , d2X d2z die z -dt -x2 , q+2 ( t ( xcosX+z sin X ) , | .
+( II .
+) d2Y d5x dz d--y dt= 2t zt ( x cos X+ z sin ) .
+These are the three equations given in HANSEN'S elaborate 'Theorie der PendelBewegung , ' and which are generally obtained by means of very complicated analysis .
+One simple equation can be deduced by means of the proposition contained in section 45 ; for the principle of vis viva gives '+ + ( ) 2g(z)+a constant .
+Moreover x2+y2+z2 is a constant , and these two equations , combined with any one of the equations ( II .
+) , determine the particle 's motion .
+491 As soon as we pass from the statics or dynamics of a particle to the statics or dynamics of a system of particles or of a rigid body , we find that two forces which are equal and parallel to one another are not equivalent to one another , and that we have to take into account the position as well as the magnitude and direction of a force .
+Notwithstanding this , we are enabled by means of an elementary principle of statics to confine our operation and our notation to lines passing through one and the same point .
+For suppose a force P to act at a point m of a rigid body , and apply at the origin 0 two equal and opposite forces P and -P , then P at m is equivalent to P at 0 and the couple whose forces are P at m and -P at 0 .
+Let the axis of this couple be denoted by G ; the couple , being completely determined by G , may be called the couple G. It is extremely convenient to have a name for the line G , indicating briefly its connexion with the force P at m , and I shall adopt that given to it by French writers* , and shall call G the moment-axis about 0 of the force P at m. It has been proved in section 25 of Chapter II .
+, that the line G , being the axis of the couple whose forces are -P at 0 and P at m , is equal to det ( P , R ) , where R is the radius vector of the particle .
+Hence we have G=det ( -P , R)=det ( R , P ) .
+We thus see that the force P at m is completely represented and determined by the two lines P and G drawn from the origin , G being the moment-axis with respect to the origin of P at m , and being equal to det ( R , P ) .
+48 .
+Suppose now that we have a system of forces PI , P2 , &amp;c. acting respectively at points mn , m2 , &amp;c. of a rigid body .
+Then it is clear from statics that the given system of forces is equivalent to a force P at the origin O and a couple whose axis is G , where P is the complete sum of the forces PI , P2 , &amp;c. supposed to be collected at the origin , and G is the complete sum of the moment-axes ( GI , G2 , &amp;c. ) ( about the origin ) of the forces P , at ml , P2 at 2 , &amp;c. 49 .
+We will now apply the above considerations to dynamics .
+Since the acceleration is the complete differential coefficient of the velocity , it is evident that the line which represents the moving force of the particle is the complete differential coefficient of the line which represents the particle 's momentum ; or , more briefly , the moving force is the complete differential coefficient of the momentum .
+Let now P represent the moving force , and U the momentum of a particle m , P and U denoting straight lines ; then , if we treat the moving force and momentum as if they were statical forces , it is clear that P at m is equivalent to P at the origin O and a couple G , where G is the moment-axis about O of P at m ; and similarly , the momentum U at mn is equivalent to U at 0 and a couple of momenta whose axis is H , where H is the moment-axis about O of U at m. We have just seen that P is the complete differential coefficient of U , and we will now prove that in like manner G is the complete differential coefficient of H. If , namely , R denotes the radius vector of the particle , G=det ( R , P ) , and similarly H=det ( R , U ) .
+Now , if we differentiate the last equation , H=det ( R , U ) , we obtain , according to section 28 , D , ( H)=det ( R , D , ( U))+det ( D , ( R ) , U ) ... ... .
+( I. ) But D , ( R ) is identical with the particle 's velocity , and is therefore in the direction of the momentum U. Whence it follows , from the very definition of a determinant , that det ( D , ( R ) , U)=0 .
+Therefore the above equation ( I. ) becomes , since Dt(U)=P , D , ( H)=det ( R , D1(U))=det ( R , P)=G .
+This is an important result .
+It shows that the moment-axis about any point of the moving force of a particle is the complete differential coefficient of the momentum , and that therefore the moment of the moving force about any line is the differential coefficient of the moment of the momentum .
+The above result may also be easily deduced from the identical equation xy d2 d f/ y d\ X 2-y w--t d Tt-y Ttd 50 .
+The proposition which we have just proved may be easily extended to a system of moving forces and momenta of the particles of a rigid body .
+For , according to section 43 , the system of moving forces is reducible to a moving force at the origin 0 , and a couple G. And the system of momenta may be similarly reduced to a momentum U , and a momentum-couple whose axis is I. Now we have seen that P is the complete sum of the moving forces , and that each moving force is the complete differential coefficient of the corresponding momentum .
+It therefore evidently follows that P is the complete differential coefficient of the complete sum of the momenta , or of U. Hence P=Dr(U ) .
+Moreover we have seen that G is the complete sum of the momentaxes about O of the moving forces , and that each of these moment-axes is the complete differential coefficient of the moment-axis of the corresponding momentum .
+Hence it follows that G is the complete differential coefficient of the complete sum of the momentaxes of the momenta .
+Hence G=Dr(H ) .
+This result may be also easily proved by means of the identical equations X( d\t2 d( dx\ ( m = % ( mdx ( 2y d2\x d ' die dc\ 51 .
+The science of the dynamics of a rigid body is founded upon D'ALEJMBERT ' principle , which asserts that the moving forces of a body 's particles are together statically equivalent to the impressed forces acting on the body .
+If therefore these external forces be reduced to a force P at the origin O and a couple G , then P and G are equal respectively to what was denoted in the preceding section by P and G ; and we have therefore P=-D , ( U ) , G=D , ( H ) .
+In other words , if we treat the momenta as statical forces , and reduce the system of momenta of a body 's particles to a momentum U at 0 and a momentum-couple whose axis is G , then the external forces acting on the body are equivalent to the force D , ( U ) at O and the couple of forces whose axis is Dr(H ) .
+Since G==D , ( H ) , the resolved part of G along any fixed line will be the differential coefficient of the resolved part of H along that line ; or , in other words , the sum of the moments of the external forces about any line equals the differential coefficient of the sum of the moments of the momenta of the body 's particles .
+The above results may be easily deduced from the ordinary equations / / dx\ ( dx\ ( X ) =( -t =dt X dt ) ' &amp; C. , z(X)=~d ( m2 d2z dd dz d 4(Zy-Yz ) m ^^ die d\ tm tytz , &amp; C. But it will be generally found far better not to use those six equations at all , and simply to bear in mind the fact which they alone express , namely , that P=D-(U ) , G=D , ( H ) .
+52 .
+It will be convenient to recapitulate once for all the notation and phraseology I shall constantly use in the sequel .
+The system of momenta of a body 's particles , or what may be called the body 's momenta-system , is reducible , if we treat the momenta as forces , to a momentum at a point 0 , and a couple of momenta .
+The former I call the body 's momentum , and denote it by U ; the latter I call the body 's momentum-couple about 0 , and denote its axis by H. U and H may both be represented by straight lines through the origin 0 .
+It is to be observed that U remains the same wherever 0 be taken , but that H changes with the position of 0 .
+The components of U and H along the axes of coordinates will be denoted by U , U U. , H , , Hl , , Hy H respectively , the magnitudes of all these quantities being represented by the corresponding small letters .
+Thus h , will be equal to the resolved part of H along the axis Ox , and will therefore equal the sum of the moments of the momenta about Ox. The system of moving forces is reducible to a moving force DI(U ) at 0 , and a couple whose axis is D , ( H ) ; and it follows from D'ALEMBERT'S principle that , if the external forces be reduced to a force P at 0 and a couple G , then P=D , ( U ) , G=D , ( H ) .
+53 .
+The next step will be to investigate the expressions for U and H. In the first place , U can be easily found .
+For , let R denote the radius vector of a particle of mass m ; then , if E denote the operation of taking the complete sum of lines , we have U= 2mD(R ) =DI2(mR ) .
+494 Now , by a well-known proposition , it is evident that:(mR)=MIR , where M is the mass of the body and R is the radius of the body 's centre of gravity .
+Hence U=MD , ( R ) ; and therefore , if V denote the velocity of the centre of gravity in magnitude and direction , U=MV , or , in other words , U , the body 's momentum , is the momentum of the body 's mass collected at the body 's centre of gravity .
+54 .
+In the next place we have to find H. The investigation will be very much facilitated by the following consideration .
+A body 's motion is said to be compounded of motions c , P , y , if the velocity of each of the body 's particles may be considered as the resultant of the respective velocities due to the motions of a , 3 , y separately .
+In such case the momentum of a particle will evidently be the resultant of the momenta due to each of the motions , , separately ; and since the resultant of the mt of tomenta of all the particles will be the same in whatever way we group them together , it is evident that we have the following proposition : " The resultant of the momenta of a body 's particles , or the body 's momenta-system , is the resultant of the momenta-systems due to each of the motions c , 3 , y. " Thus a body 's motion may be decomposed into a motion of rotation and translation .
+Hence the body 's momenta-system may be found by compounding the momenta-system due to the motion of rotation with that due to the motion of translation .
+Again , a motion of rotation may be decomposed into rotations about three axes .
+Hence the momenta-system of a body which rotates about a fixed point is the resultant of the momenta-systems respectively due to the separate motions of rotation about the three axes .
+55 .
+Let us then first investigate H for a body having simply a motion of translation .
+Let v be the velocity of translation in the direction of a line AB at time t , then the momentum of a particle of mass m is my in the direction of AB .
+Hence the momentasystem consists of a number of momenta parallel to one another , and proportional to the masses of the respective particles .
+Their resultant is therefore Mv at the centre of gravity , M being the body 's mass .
+Hence the momenta-system is reducible to Mv at the centre of gravity .
+Therefore H , the axis of the body 's momentum-couple about 0 , is the moment-axis about 0 of Mv at the centre of gravity , and is zero , if the point 0 coincides with the centre of gravity .
+In the latter case , since H=0 , therefore D , ( H ) =0 , therefore G= 0 , or the moment of the external forces about any line through the centre of gravity is zero for a body which has simply a motion of translation .
+56 .
+The next simplest case is that of a body rotating about a line .
+Take that line as axis of z , and suppose the body of mass M to be revolving at time t about that line with angular velocity ? .
+It may be easily shown in the ordinary way , that the sum of the moments of the momenta about the axes of x , y , z are respectively -cSf(moZ)^X -JTZ3(my2 ) , Url(mr2 ) .
+3x2 495 So that , using the notation of section 52 , we have h= - , ( mxnz ) , 1y=4= -(myz ) h2L=Z ( mr2 ) .
+If the axis of z be a principal axis , we have ^(mxz)=O , ( , nyz)=O , therefore h=0 , hy= , h= 4(mr2 ) ; and consequently H is a line in the direction of Oz , and equal to the product of w and the moment of inertia about Oz .
+57 .
+If the axis about which the body rotates is neither a fixed line nor a principal axis , it is more convenient to express I1 , the body 's momentum-couple , in the following manner .
+The body 's rotation about the point O may be considered as compounded of motions of rotation about the principal axes at O. Let ir , , 2 , I3 be the angular velocities of those component rotations , and let A , B , C be the respective moments of inertia about the principal axes .
+We have shown in the preceding section that the body 's momentumcouples due to the three separate rotations about the principal axes would have for their respective axes lines along the principal axes and equal to AiWr , Bw2 , CrS .
+It follows , therefore , from section 54 , that H , the body 's momentum-couple , is the resultant of the three couples , whose axes are repectively An,1 Br2 , C3 .
+In other words , H , the axis of the body 's momentum-couple , has Awr , Bra2 , Cz3 for its components along the principal axes .
+58 .
+The results of the last two sections may be also proved in the following more direct manner .
+Take any rectangular axes as axes of coordinates .
+Let are , %w , r be the components , along those axes , of the body 's angular velocity of rotation .
+Let vx , vi , vz be the components of the velocity of a particle of mass m , whose coordinates are x , y , z. If then hx , h1 , hz be the components of H , we have h=Em(yvv-z-v ) .
+But VZ=y , ft-X z , y ==XF , -ZWZ .
+Therefore hc = m(y y2+z2)-y(myx ) -z(nmxz ) .
+If , then , the moments of inertia about the axes of x , y , z be denoted by A , B , C respectively , and if we denote 1(myz ) by A ' , E(mx z ) by B ' , C(myx ) by C ' , the last equation becomes hx1= AwxCy B , and similarly , hy=BS--A'z C ' , h , = CB'x--A % .
+These results are true , whatever rectangular axes of coordinates be taken ; but if they be principal axes , then A'=O , B'O , C'=O , and therefore we have , as before , hL=Aw &amp; ) hy=Bmy , h , =Cwz .
+496 We are now in a condition to solve easily the problem of the motion of a body rotating about a fixed line , or about a fixed point under the action of any forces .
+First , let us take the case of a body of mass M revolving about a fixed line .
+Take that line as axis of z , and choose for the axes of x and y any lines fixed in the body which are perpendicular to one another and to Oz .
+It was proved in section 52 that H , the axis of the body 's momentum-couple , has for its components h= -(n(mxz ) , hy=--E(mnyz ) , hz=Mk2m , ... . .
+( I. ) Mk2 standing for the moment of inertia about Oz .
+Moreover we know from section 48 that U , the body 's momentum , is MV , where V is the velocity of the centre of gravity .
+Now if x , y , z be the coordinates of the centre of gravity , V has evidently for its projections on Ox , Oy , Oz , xy , x , 0 respectively .
+Hence the components of U are equal to ux=-May , cy=Mx , z=O ; ... ... .
+( II .
+) knowing , then , the components of U and H , we can easily find the components of D , ( U ) and D , ( H ) .
+Using the notation of section 52 , P=D , ( U ) and G=D , ( H ) , and the components of P and G may be denoted by Px , Pie , Pz , and Gx , G , , Gz respectively .
+In the problem now before us , the axis of z does not move ; hence evidently dd P , =Z ( z ) and G.=d ( h ) ... ... ( III .
+) But as to the axes of x and y , they revolve about the axis of z with an angular velocity at time t. Hence by the elementary formulae of section 18 in Chapter I. , we have dt dt Similarly , ... .
+( IV .
+) Gdjhx-ha , GY=(h()+hf .
+J Zdt ( hi dt Let , then , external forces acting on the body be reduced to a force at 0 whose components are X , Y , Z , and to a couple the components of whose axis are L , M , N. Let the reactions of the fixed axis be similarly reduced to a force whose components are X ' , Y ' , Z ' , and to a couple the components of whose axis are L ' , M ' .
+Then , by D'ALEM , BERT'S principle , X+X'=P , , &amp;c. , L+L'=G , &amp;c. Therefore , substituting the values ( I. ) and ( II .
+) in equations ( III .
+) and ( IV .
+) , we obtain the following six equations : X+X'= -My ddM=2 , Y+Y'= M-dt-M-2 , Z+Z'= 0 , 497 L+L ' =(mxz ) dd-t +-a2(mnyz ) M+M'=:(myz ) t --2(mxz ) , N Mk 2w .
+These six equations are those ordinarily given in text-books , and their full import and meaning is now apparent .
+The first three have for their right-hand members the components of Dr(U ) , where U has for its components -Mwry , Mrw , 0 .
+The last three have for their right-hand members the components of D , ( H ) , where H has for its components --Vi(mxz ) , --S(myz ) , Mk2z .
+And the six equations are at once obtained by applying the elementary formulae of section 18 .
+60 .
+It is , however , in the solution of problems , far better to avoid using those six equations , and simply to remember that the body 's momentum U is Mwr in the direction of the velocity of the centre of gravity ( r being its distance from the axis ) , and that the body 's momentum-couple H has for its components --r2(mxz ) , --z:(myz ) , and MkP2z .
+Then the complete differential coefficients of U and H can be found at once according to the ordinary rules ; and those complete differential coefficients are by D'ALEMBERT'S principle respectively identical with the force and the axis of the couple to which the forces acting on the body may be reduced .
+Take for example the following well-known problem : " Under what circumstances will there be no pressure on the fixed axis , supposing no external forces to act on the body 1 " Since there are no external forces nor pressures which act on the body , it follows that Dt(U ) and Dr(H ) must each equal zero .
+Therefore U and H are lines of constant magnitude and direction .
+Now the direction of U is that of the velocity of the centre of gravity , and would therefore vary , unless the centre of gravity were at rest .
+Hence the first condition is that the fixed axis passes through the centre of gravity .
+Again , since H is a line of constant length and direction , its components along and perpendicular to the fixed axis Oz must be lines of constant length and direction .
+Hence A^=Mk2w must be constant .
+Therefore r is constant , or the body revolves with uniform angular velocity .
+Moreover the components of H perpendicular to Oz are h , = -e ( mxz ) , y= -.i-(myz ) ; and we have just seen that the resultant of these two components must be a line of constant length and direction .
+But as w is constant , it is clear that that resultant has always the same components along the variable axes of x and y , and would therefore move with the latter , unless those components were always zero .
+Hence the second condition is that ](mxz)=0 , C(minyz)=0 ; in other words , the fixed axis must be a principal axis .
+It is evident also that the two conditions are sufficient , for they make H and U constant lines , and therefore they make Dr(H ) and D , ( U ) vanish , and consequently , by D'ALEIBERT'S principle , there are no forces acting on the body .
+498 We now come to the case of a body moving about a fixed point 0 .
+Let s be , at time t , the angular velocity about the instantaneous axis , let A , B , C be the moments of inertia about the principal axes at 0 , and let , , , , a , , be the components of aalong these axes .
+H , the axis of the body 's momentum-couple about 0 , has , we have already seen , for its components h =A , yA hy_=Ba , , h_==Ca , .
+If , then , we denote by Q the instantaneous axis , we know , from the fundamental propositions in sections 35 and 36 , that D , ( H ) is equivalent to dh to Ox , dLh 1 to Oy , dt dt |I to Oz , together with the determinant of Q to H , 2 denoting the instantaneous axis ; and moreover , that this determinant has for its components hz~ffy--hy , or ( C-B)%zww parallel to Ox ; hy-z -hZw , or ( A-C)wa , w parallel to Oy ; hyx --hxy , or ( BA)ynirx parallel to Oz .
+Therefore the components of Dr(H ) are A. + ( C-B)s z , dt B die +(AC ) , J , Z , w. dtC+ d-z+ ( B --A ) , .
+But by D'ALEMBERT'S principle D , ( H ) is the same as G , the axis of the couple resulting from the external forces .
+If , therefore , L , M , N be the components of G , L , M , N must be respectively equal to the components of Dt(H ) .
+Hence we have L=A d+(C B ) , dtM=B 5 d1t+(A-C)xw , I N=C + d+(B-A ) $ , We thus see that these well-known equations of EULER are found at once by resolving D , ( H ) along the principal axes , where H is the axis of the body 's momentum-couple and has Azw , , BR , Car , for its components , and that they merely express the fact that G , the resultant of L , M , N , is identical with Dt(H ) .
+62 .
+The theory of the motion of a body about a fixed point can be more simply investigated , and the problems connected with that theory can generally be more easily solved , by merely bearing in mind that G=D , ( H ) than by using EULER'S equations , which merely express that fact in one particular form ; for that form is not always the most convenient form , and is in all cases apt to conceal the fact which it embodies .
+499 Take , for instance , the problem of a body rotating about a fixed point , no external forces acting on it .
+Here D , ( H)==0 , therefore H is a line of constant length and direction .
+The motion of the body must therefore entirely depend upon the fact that , whilst the body moves abot6t the principal axes with angular velocities si , wy , o ) , the line H1 , whose projections on those axes are respectivelSy Azr , , By , C &amp; , , remains throughout the body 's motion the same in magnitude and direction .
+The length of IH is evidently V/ A 2n+B'zr+C '2r .
+But the length of H is constant , say equal to h. Therefore A &amp; 22 + 22 =h ( I. ) Moreover , from section 35 , we see that Dt(H ) is equivalent to A d-| to Ox , dt B dt j1 to Oy , C dt J to Oz , together with det ( 2 , 1H ) ; and since the last line det ( 2 , H ) dt dt is perpendicular on the instantaneous axis Q , it follows that the resolved part of D1(H ) along the instantaneous axis equals 'rx A dvx+J BR +y'= ' C da la ddt dt v dt But this must equal zero , since D , ( HI ) equals zero , and since consequently its resolved part along any line is zero .
+Hence we have A dt d+B % .
+tie +C dto Therefore A--2 +B2+ Czw is constant , equal , say , to kl ... ( II .
+) We have already seen that HE is a line of constant direction ; and since its directioncosines are proportional to Avr , Biy , Cw .
+, it follows that the plane whose moment has direction-cosines which are proportional to the last three quantities is a fixed plane .
+This plane is the invariable plane .
+From this fact and the two equations ( I. ) and ( II .
+) , POINSOT'S celebrated illustration of the motion of a body which rotates about a fixed point may be easily deduced in the ordinary manner ; but it is unnecessary to discuss the problem further , as it must be already sufficiently apparent that the body 's motion entirely depends upon the fact that H is a line of fixed length and direction .
+63 .
+On looking at EULER'S equations , we find that , when A=B=C , they take the simple form L=A ~r " M=B , d N=L@Ad dl Moreover , when only A=B , then the third of EULER'S equations becomes N=C d. It may be interesting to trace the real meaning of these results .
+500 Let , as before , G be the resultant of L , M , N , and let H be the axis of the body 's momentum-couple about the fixed point , and let Q2 represent the instantaneous axis .
+Then G=D , ( H ) , and D , ( H ) is equivalent to A dd-t || to Ox , B dt | to Oy , C( dj to Oz , dt dt dt together with det ( Q , H ) .
+Now , if A=B=C , then H , which has for its components Awx , By , Cr , , evidently coincides in direction with Q , which has for its components sx , a , , .
+Therefore it follows , from the very definition of a determinant , that det ( Q , H)=0 .
+It is therefore because det ( Q , H ) =0 when A=B=C , that the components of D , ( H ) are simply A dx , B dvt C dt , and that EULER'S equations take so simple a form .
+dt Secondly , suppose only A=B .
+It is evident , from what has been just said , that N= C d+ the resolved part along Oz of det ( 2 , H ) .
+Now the equation to the line H is dt 'V _yzA r=B5y C r , If then A=B , the projection of H on the plane of xy evidently coincides with the projection of Q on that plane .
+Therefore the lines H , Q , and the axis of z lie in the same plane .
+Hence it follows that the line det ( Q , H ) , which by definition is perpendicular on Q and on H , is also perpendicular on the axis of z , and has therefore no component along that axis .
+We thus see that the reason why N=C , when A=B , is that in that case det ( Q , I ) is perpendicular to the axis of z. 64 .
+In those cases in which there are more sets than one of principal axes at the fixed point , it is sometimes convenient to take moments about a set of principal axes , which are not fixed in the body .
+There is no difficulty in applying the same method to such cases .
+Let r , %w , w be the angular velocities of the body about the principal axes Ox , Oy , Oz , and suppose those axes not to move with the body as if rigidly connected with it , but to move at time t about an instantaneous axis f2 ' with an angular velocity equal to the length of Q2 ' , and let the components of Q ' along the principal axes be w ' , ,Y , oz. Let H , as before , represent the body 's momentum-couple .
+We have seen that H has for its components h= : Are , I~~=B , :By , 7=:Car .
+Therefore , according to the fundamental proposition in section 35 , D , ( H ) is equivalent ddd to ( Awe ) 1| to Ox , ( B , ) |I to Oy , d ( C2 ) I[ to Oz , togetherwith det(Q , HI ) ; and looking at the formulae of section 36 , we see that det ( Q ' , H ) has for its components C rJ--Bw : parallel to Ox , A r ; --Cra , parallel to Oy , Brw --A Awe parallel to Oz .
+MDcccLxII .
+3~~x XY 501 3Y MIDCCCLXII .
+Therefore , if L be the moments of inertia of the forces about the principal axes , we have by D'ALEMBERT'S principle , It is clear that , when there is more than one set of principal axes at the fixed point , either all three or at least two of the quantities A , B , C must be equal to one another .
+Suppose then A=B , then the axis of z , O isfixed in the body , and therefore zand zy are clearly the same as %z and , .
+And the last equations , therefore , become L=A + , ( C--A ) , M=A M+tza(A ?
+-C:r ) , dt d , d If we put c =e r+-td , the above equations become the same as those which are given in RoUTa 's ' Dynamics , ' page 134 , where they are deduced from EULER'S equations .
+65 .
+To the above equations , however , the same remark applies as has already been made with regard to EULER'S equations .
+They merely express the fact that Db(H ) has L , M , N for its components ; and it is far better in most problems to start with that simple fact , and , without using those equations , to choose any axes which the nature of the problem may suggest .
+Take , for instance , the problem of the top spinning upon a perfectly rough plane .
+Let O be the fixed point , g the top 's centre of gravity .
+Take Og0 as axis of z. Draw Oa vertically , and take as axis of xa line perpendicular to Oz and in the plane so a , and take as axis of ya line perpendicular on the plane z Ox , and therefore perpendicular on 0 g. / a The axes of coordinates are evidently principal axes .
+9 The components of H , which determines the body 's momentum-couple , are Av , , By , Ci , , s , I , s , , being the angular velocities about the principal axes , and A being the moment of inertia about 0x and about 0 y , and C being the moment of inertia about 0 g. We have chosen 0g so as to be perpendicular on plane a0 x ; consequently the resolved part of H along 0a isth the rsuol pts of A , C an e the resolved parts of , C , and equals therefore , if we denote angle a0z by G , Aa .
+siin -C +t cos 0 .
+Moreover , since 0a has a fixed direction , the differential coefficient of the last expression is evidently the resolved part along 0a of DI(H ) .
+But this must equal zero by 502 DETERMIEdNATS OF LINES .
+D'ALEMBERT'S principle , since there are no forces acting on the top which have any moments about the vertical .
+Hence we have d(Czz cos 8-Av sin O)=0 ... ... .
+( I. ) Therefore C( cos D-AzX sin 0 is constant .
+Moreover , since two of the principal moments of inertia are equal to one another , it follows from section 58 that the sum of the moments of the external forces about Oz , the axis of unequal moment of inertia , is equal to C -= .
+Hence , as the forces have no moment about Oz , we have C d= 0 .
+Therefore ~ is constant .
+This relation , together with the equation ( I. ) and the equation of vis viva , solve the problem .
+We , namely , obtain the three equations C cos -D-A-rS sin 0=-h , Am+Ary+C2= -2gb cos O+c , where b=Og , and c is some constant .
+66 .
+In some few cases it may be convenient to take moments about lines which are fixed in the body but which are not principal axes .
+Let then H have for its components along the rectangular axes of coordinates h , , hy , h respectively , then we know , from section 53 , that hA=Aa-B'-C ' , where A'=(myz ) , h -=BC- , , Azz , C'=( ( myx ) .
+Therefore , if L , M , N be the moments of the forces about the axes , we have , as before , dh M= t+ha%--h , a dht dh fundamental formulra of section 36 .
+If , on the other hand the prnciples of viiva may , O are noteas fiproved in the bodybut rotate with an angular velocity whose components are 2 , , then we have , in a similar manner L=d^+hgZ ; &amp;c. The above equations are somewhat more general than those given by LIOUVILLE in his Journal of 1858 , and are , as we have just seen , at once obtained by applying the fiundamental formula eof section 36 .
+67 .
+I will now show how the principle of mts wemay be easily proved for a body 3y2 503 moving about a fixed point without assuming the principle of virtual velocities , and is in fact a very simple deduction from D'ALEMBERT'S principle .
+i Let Oi be the instantaneous axis , about which the body is rotating at time t with an angular velocity a. Letm be a particle of the body , '^ let its mass be m , its distance from 0 i , r , and its velocity v in the direction m n. o Suppose now a force P to act at m. Then , since mn is perpendicular on the plane i0 m , it is clear from statics that the moment of P about 0 is the moment of the resolved part of P along m n. It is therefore , if p be the angle which the direction of P makes with m n , equal to rP cos p , or P cos &lt; p. Suppose then P to be the moving force of the particle m. Then its resolved part dv dv along the velocity mn is of course m -t , so that P cos p=-m 7 , and therefore the moment v dv of the moving force about Oi equals mI dt .
+Consequently the sum of the moments of the moving forces about Oi equals 1Z ( my d ) .
+But this sum , by D'ALEMBERT'S principle , equals the sum of the moments of the external forces about O i. Now we have already seen that the moment of any force P about Oi is up cos p , so that , if P represent an external force acting on the body , the sum of the moments about Oi of the forces acting on the body equals E ( Pv cos H ) .
+Hence we have I ( Pvcos p)= 2(drv Therefore ( ( mv2 ) =2 dt((Pv cos. This equation embodies the principle of vis viva ; for it is evident that , if the components of P be X , Y , Z , then dIx die dz Pv cos =X , +Y +Zt 68 .
+The same result may also be obtained by analysis ; and it may be worth while to notice that each step in the analytical proof is exactly equivalent to the corresponding step in the above geometrical proof .
+This correspondence between the steps in analytical and geometrical demonstrations is one of the most striking features of modern analytical geometry , and would , as we have already attempted to show , present itself generally in analytical mechanics , if more attention were paid to the interpretation of the equations and formule which are employed .
+The analytical proof is as follows : Let X , Y , Z be the components of any one of the forces acting on the body , and suppose that force to act at a point ( x , y , z ) of mass in .
+Let w , 5 ) , a be the angular velocities 504 of rotation about the axes of coordinates , which are here supposed to be fixed in space .
+Then it is clear that dx die dz dtYy= ' dt -=x--z , - ' Therefore l( die dz Wdt Y dt+Z dt may be put into the form z(Xz--Zx ) % , +(Yx--Xy)W , +:j(Zy-Yz)X ... ... . .
+( I. ) But , by D)ALEMBERT'S principle , / [ d(x d2x ):(XzZX)=(m dz-d2 x , ( d2 d x:S(Yx-xy)=2m V d-F Y , ( Zy--Yx)= m dt2 3(Y ) ?
+Substituting these expressions in ( I. ) , we obtain / Id2 d2z I\ / die dx2\ / d 2z d2y\ WY Em Z--F tz-2x + , Mr-dt2 X-d2y ) +r , Xm4\dt2 y-2 z , which again can be put into the form n{dt ( Zfy-Y'fJ)+(dt2 Z-Xz )+ t2 Gx ) } d2d d2dy dd2z dzj -f Mtt dt tdt2 dt T dt dt Hence it follows that d ?
+die Zr dz f ( dex dx .
+d2ydy die z dzd IX +Yt-Z -- , dt +a-t+Wt-2 idt dt + dt zm dt dt W dt and therefore ( ( ) )+ ) +( i ' ) =2 ) d(Xd+Ydy+Zdz ) , which is the equation of vis viva .
+It may be observed that the same proof may be quite easily extended to a body moving freely , by decomposing the original motion into a motion of translation with the velocity of the centre of gravity and a rotation about the centre of gravity .
+69 .
+The two proofs which have just been given of the principle of vis viva are both founded on the fact that the sum of the moments of the moving forces of the body 's particles about the instantaneous axis is equal to / my dt , or to 2t ( mv2 ) .
+This.~ ~~ ~~m.pt(m1). .
+fact is the reason why the equations of vis viva can be obtained by multiplying EULER'S three equations by z , % , z , respectively , and by adding together the products so obtained ; for in performing those operations we are in reality finding the sum of the moments of the forces about the instantaneous axis whose direction-cosines are wax 'avy '3z 70 .
+If G1 be the sum of the moments of the impressed forces about the instantaneous axis , then by D'ALEMBERT'S principle G1 equals the sum of the moments of the moving forces about the instantaneous axis .
+Hence it follows from the preceding section that G1= -1 d(2 ) .
+This equation is often useful .
+For instance , since N(mv2)=E(ma2r2 ) , where r is the distance of a particle from the instantaneous axis , it follows that:(my'2)-=Iw2 if I denote the body 's moment of inertia about the instantaneous axis .
+Therefore Id dr wl dI dt 2 dt ' Now , if the instantaneous axis were fixed in space , we should evidently have dw G , =Id .
+Therefore the only cases in which we can take moments about the instantaneous axis w dI as if it were fixed in space are when 2 -=-0 , or when the moment of inertia about the instantaneous axis is constant .
+This proposition is useful in solving problems concerning rolling cones , and is usually deduced by analysis from EULER'S equations .
+71 .
+I will give two more examples of the advantage of the method I have employed in these pages .
+Let , w , y , z be the angular velocities of rotation of a body about three rectangular axes which are fixed in and move with the body , and let a , b , c be the direction-cosines with respect to those axes of a line which isfixed in space .
+Take on the latter line a point P at a unit of distance from the origin .
+The velocity of the fixed point P is zero .
+Now , as its components along the moving axes are a , , c respectively , it follows from one of our elementary propositions that da -d+cwry-b ?
+equals the component of P'S velocity along X , and therefore equals zero .
+Hence da =t-br=Ca , a formula which is generally deduced as the result of somewhat long analytical work .
+72 .
+Secondly , in order to give a striking example of the manner in which the theory of the determinants of lines explains and shortens analytical processes , I will give the following direct proof of EULER'S equations .
+Take the principal axes at the fixed point as the axes of coordinates .
+Let v % , v5 , vz be the components of the velocity V , and f , ft , fyz those of the acceleration F of a particle ( x , y , z ) of mass m. We have veseen that the fact of the acceleration being the complete differential coefficient of the velocity leads at once to the three following equations:dvx f dvy +i fy= C-+t 0 .
+VZZTi5 dv , fZ= t +vYrff-v , ay .
+( 1 .
+) Putting then for brevity 's we have sake f ' ?
+for v , a , -v , a , , f for vw.-Va , lf for v , ,-V , f , = +f dt ' dvs , f-dt+ ' ( 2 .
+) Now the sum of the moments of the moving forces about Ox equals 2m( fie ) =2( ydy z ) +( _f ) Let us first investigate the expression m ( dvt ydv ) .
+Evidently\ at Wtly Vz=y , --xv , and v= xz--zxa .
+And as the axes m~ve with the body , x , y , z do not vary with the time , fore obtain ddv , z_ dx-z d-y , dt -Y dt t Therefore. .
+( 3 .
+) and we theredvy = dvSz z dti dt dt ' m(dvz Yd8 dd\m(y2 2 ) d(mxy)(m ' z ) di dt dt md-t 2( ) 607 But as the axes of coordinate axes are principal axes , Z(mxny)=0 , :(mxz)=0 .
+Therefore dvz y-dvt ) =ddt:m(y2+Z2)= * Now the above analytical proof merely shows that the sum of the moments about the coordinate axes , of the moving forces of which n det ( D1 ) Q , R ) is the type , are respectively A dt ' , B d , C d- , and that the sum of the moments about the coordinate dt Cdt dt axes of the moving forces of which m det ( Q , V ) is the type are respectively ( CB)T , z , r ( A-Cx)z &amp; z , ( B-.A)^^ , .
+73 .
+I will next proceed to show how these results can be obtained far more briefly by applying the propositions concerning the determinants of lines .
+In the first place , if we put , for D , ( QI ) , P , and suppose P to have for its components p , , pyv , p parallel to the axes , then m det ( Dt(Q ) , R ) has for its components parallel to z and to y , m(yp-xp , y ) and m(xp--zp ) , and therefore the moment of m det ( D(Q2 ) , R ) about the axis of x equals mt , ( yp Xp)y -(XzP)SZ } =-m(z2+y2)p mtnZpymzp % .
+Therefore , if we take the sum of these for all the particles and remember that the axes are principal axes , that sum will equal pxZm(z'+y2 ) .
+Now we have already proved that px , the component parallel to the axis of x of D(Q2 ) , -d .
+Hence we see that the sum of the moments about Ox of the moving forces of which m det ( D , ( Q ) , R ) is the type is Ad - , and that this follows from the properties of principal axes , and from the fact that the component of Dr(Q2 ) parallel to the axis of x is d. In the second place , we have already seen in section 30 of Chapter II .
+that the moment about the axis of x of det ( UQ , V ) equals -rrv .
+cos p , ,v being the component of V , and ( the angle between the radius vector and V. But -rw , cos p equals evidently v(x +y-wy+rzw , ) , and v , equals zy-yrs .
+If then we observe that ( nmxv.)=0 , 2(myYv)= -2(my2 ) , , 2:(mzvX)=1(qnz2)( , it follows easily from the above that the sum of the moments about Ox of the moving forces , of which m det ( Q , V ) is the type , equals:(mz2 ) -2 V_(mMy2 ) ?
+rxg=(C-B)r .
+This last proposition may be also proved in a different manner , which will show its connexion with the proof first given of EULER'S equations .
+The moment-axis , with respect to the origin , of the acceleration det ( Q , V ) is det JR , det ( Q2 , V ) } , which , as we see from section 30 of Chapter II .
+, equals a line opposite to V and of length wr cos p ; but it follows from the same section that , since Q is perpendicular on V , det { Qi , det ( R , V ) } equals a line opposite to V and of length wr cos 'p .
+Hence we have det { R , det ( 2 , V ) } =det { Q2 , det ( R , V ) } .
+Let then X denote the operation of taking the complete sum of lines .
+Then it follows from the last equation that Em det ARE , det ( Q , V)t =:Em det { QI , det ( R , V ) } = det(Q , Em det ( R , V ) ) .
+509 3z Now 2m det ( R , V ) equals the complete sum of the moment-axes of the momenta , or is , in other words , the axis of the body 's momentum couple H whose components are Amr , Bry , CmL .
+Hence we see that ~m det ( R , det ( Q , V))=det ( Q , H ) , and therefore the sum of the moments about Ox of the moving force , of which m det ( Q , V ) is the type , is the component parallel to x of det ( Q , H ) , and equals therefore Ctzv --Bz , rv , =(CB)vr , T.
+

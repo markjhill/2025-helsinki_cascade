@@ -1,0 +1,88 @@
+]\gt ; On the Cesaro Convergence of Restricted Fourier Series .
+By W. H. YouNG , F.B.S. ( Received December 22 , 1917 .
+) S1 .
+If the coefficients of the trigonometrical series ( 1 ) satisfy the condition .
+( 2 ) Where , the series got by integrating ( 1 ) times term-by-term ( pth integrated series ) is , by the Riesz-Fischer theorem , necessarily a Fourier series if , and accordingly , if is the least integer satisfying this inequality , the integrated series will converge uniformly to an integral , the to the integral of an integral , and so on .
+One consequence is that we can write down an expression for the partial summation of the series ( 1 ) , whether this be summed in the ordinary way , or in any Cesaro manner , of index integral or fractional .
+The expression is , of course , the differential coefficient of that giving the corresponding partial summation of the Fourier series .
+On the other hand , as I have shown elsewhere , among the derived series of Fourier series , a prominent position must be given to those which are obtained by -times differentiating the Fourier series of a function which in an interval enclosing the point , or points , under consideration is a integral .
+Such a series I have called a Restricted Fourier Series of the class.* If ( 1 ) be such a series we must have accordingly .
+It might naturally be supposed that , in investigations as to the properties of Restl'icted Fourier series of the class , a special interest would be attached to those for which the relation ( 2 ) holds for positive values of less than * W. H. Young , " " On the Convergence of the Derived Series of Fourier Series ' Proc. L.M.S. , ' 1916 .
+The function associated with the series is then defined ' ' almost everywhere\ldquo ; in as the differential coefficient of that associated with the integrated series .
+W. H. Young , " " On Restricted Fourier Series and the Convergence of Power Series Presented to the London Mathematical Society , 1917 .
+W. H. Young , " " Sir les series de Legendre 1917 , ' Comptes Rendus ' ; " " On the Series of Legendre 'Roy .
+Soc. Proc. ' ; " " On the Connection between Legendre Series and Fourier Series and ' ' On Series of Bessel Functions presented to the London Mathematical Society .
+On the Cesaro Convergence of Restricted Fourier Series .
+23 the integer .
+I have shown that this is , in fact , the case when whatever may be known to be .
+We may then , indeed , always put and we have the special class of what I have called Ordinary Restricted Fourier series , or , briefly , B.F. series .
+Such series are found not only to have considerable importance in themselves , and in particular to under the same conditions as Fourier series , but they play a leading part in the discussion of expansions in series of functions , such as , or , which possess asymptotic trigonometrical expressions , and are such that their differential equations exhibit ular points .
+We thus obtain information with regard to the convergence of whole classes of series which could scarcely be obtained in any other way , at any rate by any equally general method .
+In the paper above cited , I have only indicated the further fact that , in dealing with the Cesaro convergence of such series , the more general classes of Restricted Fourier series naturally enter , and pointed out the nature of the results thus obtained .
+The consideration of the Cesaro convergence properties of series of functions has begun to occupy seriously the attention of mathematicians , and it may safely be asserted that in the not far distant future the applied mathematician , and even the physicist , will scarcely be able to avoid making use of the theory .
+In this connection it may be remarked that , not only does the existence of singular points prevent a series of functions otherwise normally constituted from converging ordinarily , even when the function to be expanded has as many differential coefficients as we please , or is even analytic in the neighbourhood of the point considered , the mere variation of the equation which determines the parameter corresponding to the place occupied by the typical term in the series will have a similar less startling effect .
+It suffices , for example , that should be determined by a Bessel equation whose order differs from by a fractional quantity , so that is no longer of the form , where is an integer , for the coefficient to fail to tend to zero , when the function associated with the series is only known to be summable .
+The series at once ceases to behave like a Fourier series , and Cesaro convergence takes in general the place of ordinary convergence .
+It has therefore seemed to me worth while to make a communication to the Society , containing virtually the solution of all such questions , so far as the behaviour of the series at points other than singular points is concerned , and whatever the behaviour of the function at the singular points may be .
+S2 .
+It is at once evident that the property of a Restricted Fourier series of class , satisfying the relation for , first mentioned in the Prof. W. H. Young .
+preceding article , is at once generalisable for higher values of .
+If is the first integer , the integrated series , being a Fourier series , has for associated function in the interval an integral , namely the differential coefficient of the to which the integrated series converges uniformly .
+Thus , if , the class of our series may be reduced from to .
+In our future discussion we may then , if we please , always sum that The second characteristic of R.F. series\mdash ; that of sharing the convergence properties of Fourier series , is in effect again a reduction due to the fact that for such series , and has once more its counterpart for greater values of .
+In my first memoir on Restricted Fourier series , I showed that the series of the class possessed all the Cesaro properties , index , of Fourier series : was , of course , here an integer .
+In the relation ( 2 ) , is not necessarily an , and it appears , from the results of the present note , that if ( 2 ) holds , the series ( 1 ) , supposed to be a Restricted Fourier series of dass , where , as we have just seen , , has all tlu Cesdro summation properties , index , of Fourier series .
+This is the direct consequence of the theorem proved below , that the upper and lower functions ( Ck ) of tke flestricted Fourier , satisfying ( 2 ) , are independent of the values of the associated function except in an arbitrary small neighbourhood enclosing the point considered , provided is an internal point of the interval of restriction .
+Whatever be the values of and , the proof given below of this theorem , for the case when , applies .
+We merely have in the argument to differentiate the right number of times in place of once .
+The fact that the associated function of the integrated series , which takes the place of , is a repeated integral justifies in fact all the steps taken .
+It immediately follows that any Restricted Fourier series of the First Class satisfying ( 2 ) behaves at each nternal point of its interval of restriction precisely like Fourier series , provided we sum for all values of where is the positive number appearing .
+In particular , therefore , such a series converges ( Cq ) to its associated function , 'if is at the point , or is the fferential cof integral , the point being any internal point of the interval of restriction , and , without any restriction on converges ( Cq ) where in the interval of restriction for all values of This gives us , by the method I have used in dealing with Legendre series , the theorem that the Legendre series of converges almost everywhere ( C4 ) in the interval , and certainly converges at the point be an internal point of ( completely open ) interval , at which is continuous , or is the different coefficient of its integral , or satisfies .
+any other similar , but more On the Cesaro Conrergence of Restricted Fourier Series .
+25 general , condition which ensures Cjsaro convergence of order in the case the Fourier series of .
+S3 .
+A similar result holds for Bessel series , but the full discussion of this theorem requires results for non-harmonic trigonometrical series , ] to those given in the present note for harmonic trigonometrical series , and is accordingly beyond the scope of the present communication .
+S4 .
+We begin then with the hypothesis that our series belongs to the first class of Restricted Fourier series .
+The first integrated series is accordingly a Fourier , whose associated function is an integral in the interval considered , and is defined almost everywhere as a periodic function which is almost everywhere equal to the differential coefficient of the sum function of the ( uniformly convergent ) second derived series .
+Our series is not an R.F. series , its individual terms do not converge to zero , but we have for some positive value of .
+The expression for the Cesaro partial summation of order of our series ( 1 ) is then , ( nu ) , ( 3 ) where is the generalised sine function .
+* We shall now show that the upper and lower functions of our series when summed ( Ck ) , that is the upper and lower metions of the succession , , , are independent of the values of outside an arbitrary neighbourhood enclosing the point , and which may be taken as small as we please .
+We have , omitting a constant factor , Expanding nu , we have expressed as the difference of two terms , which are alike except for the interchange of sine and cosine .
+It is , therefore , clearly sufficient to prove that one of these terms tends to zero .
+* W. H. Young , " " On Infinite Integrals involving a Generalisation of the Sine and Cosine Functions 1911 , ' Quart .
+Journ vol. 43 , pp. 161-177 .
+Prof. W. H. Young .
+The expression we have to consider is then Thus we have transformed our expression into the sum of three terms , say , which we shall consider separately .
+S.5 .
+We have first , another constant factor , where involves the values of in the interval , and in the intervals where these values recur periodically , and is independent of these values .
+Thus writing Now is a function which is analytical in and vanishes when .
+The expression for is , therefore , strikingly like in equation 10 ) of the paper on Restricted ourier series , the function taking the place of , and the factor being introduced .
+We can now treat it exactly as was done in that paper , the factor enabling us to use ( 2 ) in place of the corresponding condition applicable in the paper quoted .
+We have accordingly S6 .
+Next where On the Cesaro Convergence of Restricted Fourier Series .
+27 where is the integral of F. Since is an integral in , the first term vanishes when , and we are left with the integral .
+We divide this again into two parts , of which the one is independent of the values of in the neighbourhood of the point , and may be written where The first of these integrals , being divided by , vanishes when , and the second vanishes by the Theorem of Riemann-Lebesgue .
+Thus and therefore I2 , only depends , in the limit , on the values of in the neighbourhood of the point S7 .
+Again omitting a constant factor , we have where and therefore Prof. W. H. Young .
+But ' nu if is sufficiently large .
+Thus since is bounded in and is summable and periodic .
+This is numerically , which has zero as limit as .
+Thus I3 is also in the limit independent of the values of except in the neighbourhood of the point .
+S 8 .
+We have , then , shown that , and , and therefore also I ) itself , are all independent , in the limit , of values of outside the neighbourhood of the point This proves the theorem enunciated at the end of S2 in the case when our , series ( 1 ) belongs to the first class of Restricted Fourier series , and therefore generally , the argument merely requiring the slight modifications indicated in S2 .
+S 9 .
+Hence , if ( 1 ) is a Restricted Fourier series of the first class , we may give to its associated function such values outside the completely open interval of restriction , that the function ) , associated with its first integrated series , is an integral in the whole closed interval .
+This will not affect the ( Ck ) propel.ties of the series ( 1 ) at points internal to the interval of restriction .
+But the series summed ( Ck ) is in this case the Fourier series of .
+Thus we see that , as an immediate corollary to ou , theorem , we have the result that a Restricted Fourier series of the first dass , which satisfies the condition ( 2 ) for a value of less than 1 , converges ( Ck ) at any point internal to the interval of restriction , provided the associated function satisfies any condition which would make its series converge ( Ck ) , e.g. is continuous , or the differential coefficient of its integrat at point More generally , including conditions for divergence , or for oscillation of various kinds , uniform , bounded , etc. , we may sum up the properties of our series by saying : A Restricted Fourier series ( 1 ) of the firsf dass , satisfying 2 ) , possesses all the ( Ck ) properties of the Fourier series of a function agreeing On the Cesaro Convergence of Restricted Fourier Series .
+29 in the interval of restriction with its associated function , provided we are only with points of the interval of restriction .
+In particular , by S2 , these theorems hold for Restricted Fourier series of class , provided Similarly , a ted Fourier series of the second class satisfying ( 2 ) , for same value of , has all the ( Ck ) properties of a first derived series of a Fourier series , and , in particular , this the case with a Restricted Fourier series of any dass provided These results can be at once generalised for higher values of S10 .
+As an illustration of the importance of the preceding theorem in application , consider a Lge , ndre series , whose associated function is .
+We may , if , write the integrated series in the form where is the Legendre series of , and is accordingly* uniformly convergent with for sum .
+I have shown that , putting , we may write where , and are all of the same order as , and converges uniformly to an , since , without any restriction on eneralit ) of the Legendre series , .
+Therefore the trigonometrical series on the right of the last relation is a Restricted Fourier series of the first class , for which , the interval of restriction being .
+This series has accordingly all the properties of Fourier series for It follows that the Legendre series converges almost everywhere in the interval ) , and that it converges at every internal point of this interval , at which is continuous , or the differential coefficient of its integral , or isfies some other dition sufficient to ensure the convergence , for some value of , of the Fourier series of a function equal to ( cos ) a small interval containing the point considered .
+* W. H. Young , " " On the Counexion between Legendre Series and Fourier Series 1917 , ' Proc. L. M. S13 .
+, S7 .
+

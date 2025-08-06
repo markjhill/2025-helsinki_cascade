@@ -1,0 +1,52 @@
+XIV .
+" On the Differential Coefficients and Determinants of Lines , and their application to Analytical Mechanics .
+" By A. COHEN , Esq. Communicated by Professor STOKES , Sec. R.S. Received May 8 , 1862 .
+( Abstract .
+) 1 .
+The object of this paper is to develope a new method of proving and extending the formulae of analytical mechanics , and at the same time to show how the different steps themselves , in the analytical work by which those formulae are generally arrived at , exactly correspond to mechanical or geometrical facts , just as it is shown in modern geometry that the various equations of analytical geometry are capable of important interpretation .
+2 .
+If OA and OB be two straight lines drawn from the origin 0 , then for well-known reasons AB may be called " the complete difference " of OA and OB , and may be denoted by ( OB)(OA ) .
+Similarly , if OA and OB represent two successive states of a variable line P at times t and t +at , then the line whose direction is the limiting direction of AB , and whose magnitude is the limit of AB , will be at called " the complete diffeirential coefficient " of P , and will be denoted by D , ( P ) .
+3 .
+It is easy to see that the line which represents , in magnitude and direction , a particle 's velocity is the complete differential coefficient of the particle 's radius vector , and that , similarly , the line representing the particle 's acceleration is the complete differential coefficient of the line representing the velocity , and is therefore the second differential coefficient of the radius vector .
+In this case , therefore , Kinematics may be considered as the calculus of the first and second differential coefficients of lines .
+4 .
+The following is the fundamental theorem concerning the differential coefficients of lines : the differential coefficient of a line is compounded of what would be the differential coefficient if the length alone varied , and of what would be the differential coefficient if the direction alone varied .
+Supposing the line to move in one and the same plane , it is easy to deduce from that theorem the expression for a line 's differential coefficient , and by applying to the component parts of that expression the same theorem again , we arrive at the elements of which a line 's second differential coefficient is composed .
+Moreover , since those first and second differential coefficients are the representatives of a particle 's velocity and acceleration , we are led by these investigations at once to all the analytical formule for motion in one plane relatively to moving axes , and are at the same time enabled to give to those formtlae a very simple interpretation .
+5 .
+I conclude the first chapter by indicating how all the results thus obtained may be made to flow from the ordinary mode of representing lines by means of imaginary quantities .
+For instance , by differentiating the expression re ?
+0 / l twice successively , we obtain d2 , ?
+\ 2 / -1 d ( ,2di\ WF -3 Vdt Trd ( ddt ) which expression is evidently compounded of the radial and transversal accelerations of a particle .
+6 .
+On passing to the general case of a line moving in space , a new conception has to be introduced-one , however , which presents itself , more or less disguised , in almost all the ordinary formule of statics and dynamics .
+Let OA and OB be two straight lines ; draw OD perpendicular to and equal to twice the area of the triangle AOB ; then OD may be called " the determinant " of OA and OB , inasmuch as its projections on three axes of coordinates are the simplest determinants that canbe found with the coordinate projectionsofOAand OB .
+Moreover , if OD be drawn in such a direction that to an eye looking along DO the rotation from OA to OB appears a positive rotation , OD will be called the determinant of OA to OB , and may be denoted by det ( OA , OB ) .
+7 .
+The connexion of the determinant , as above defined , with the axis of a couple and with statics in general is self-evident .
+Nor is its connexion with dynamics less intimate ; for if OA represent in magnitude and direction the angular velocity with which , and the instantaneous axis about which , OB is revolving at time t , then the linear velocity of a particle at B , the extremity of OB , is represented in magnitude and direction by det ( OA , OB ) .
+8 .
+Having thus defined the determinants of lines , I proceed to prove a few fundamental propositions concerning them , which will often be found very useful in abbreviating and giving a clear meaning to complicated analytical work .
+Moreover , those propositions indi cate a remarkable symbolical resemblance between det ( P , Q ) and the product PQ .
+For instance , it may be proved that if P , P ' , Q be any three straight lines , then the resultant of det ( P , Q ) and det ( P ' , Q ) is det ( P+P ' , Q ) , where P+P ' denotes the resultant or complete sum of P and P ' .
+Again , it may be shown that the complete differential coefficient of det ( P , Q ) is exactly similar in form to the differential coefficient of the product P , Q. 9 .
+Furnished with these propositions , it is easy to extend the formule of the first chapter to lines moving in space of three dimensions .
+Let A denote the instantaneous axis about which , and the angular velocity with which , a line R , whose length at time t is r , revolves , then the complete differential coefficient of R is the resultant of d in the direction of IR , and the determinant of A to R , or Dt ( R)= -r 11 to Eu +det ( A , R ) .
+dt This is the fundamental proposition concerning the differential coefficient of a line .
+Applying it to the component parts of the last formula , we obtain a somewhat remarkable expression for the second differential coefficient of a line , and therefore also for a particle 's acceleration .
+That expression easily leads to the formulae for the acceleration of a particle relatively to any moving axes , and also to a very simple proof of Corioli 's beautiful theorem concerning relative motion .
+The use of this method is illustrated by showing how it enables us at once to write down the equations for the motion of the simple pendulum , taking the earth 's rotation into account .
+10 .
+I now pass to the dynamics of a rigid body .
+Compounding the momenta of the different particles of a body as if they were forces , they may be reduced to a single momentum at 0 and a couple of momenta .
+The former I call the body 's single momentum , and denote it by U ; the latter I call the body 's momentum couple , and denote it , or rather denote its axis , by H. If now the external forces acting on the body be similarly reduced to a force P at 0 , and a couple whose axis is G , it may be shown that D'Alembert 's principle is contained in the proposition " that P and G are respectively the complete differential coefficients of U and H. " 178 11 .
+U and H , the body 's single momentum and momentum couple , may be found without difficulty in the ordinary way .
+In the case of a rigid body moving about a fixed point 0 , if A , B , C be the moments of inertia , and w % , wy/ , w be the angular velocities of rotation about the principal axes O. , O , 0 , then H is the resultant of Awe , , Bwy , C , o. Let then A denote the instantaneous axis and angular velocity of rotation , then Dt ( H ) is , by one of our fundamental theorems , equivalent to det ( A , H ) , together with dddd ( Awx ) II to O , t ( Bw ) I to 0 , t ( Cw ) I1 to , , and by D'Alembert 's principle D , ( H ) is the axis of the resultant couple formed by transferring to O all the external forces .
+12 .
+The last theorem includes Euler 's equations , and the different extensions which those have of late received .
+I have attempted to show that , in solving mechanical problems , the above theorem will be generally found more useful than any of those equations .
+Moreover , it serves to explain the geometrical reason , independently of Euler 's equations , why the results are so much simplified in the case of two of the principal moments of inertia being equal to one another .
+13 .
+In order to illustrate how advantageously and how completely the most complicated formule of dynamics may be interpreted , I have given a direct analytical proof of Euler 's equations , and have then shown that the consideration of each step of the analytical work leads to an extremely short demonstration of the same equations by means of the theory of the differential coefficients and determinants of lines .
+

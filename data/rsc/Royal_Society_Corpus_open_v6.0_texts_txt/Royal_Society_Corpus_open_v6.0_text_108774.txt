@@ -1,0 +1,56 @@
+On the Formuilw investigated by Dr. BRINKLEY for the general Term in the Development of LAGRANGE'S Expression for the Summation of Series and for successive Integrations .
+By Sir J. F. W. HERSCHEL , Bart. , F.B.S. &amp;c. Received April 26 , -Read June 14 , 1860 .
+IN the Transactions of the Royal Society for 1807 , Dr. BRINKLEY has investigated the general value of the coefficient of any term in the development of the function i ) ' and his result is remarkable for the mode of its expression in terms of the successive differences of the powers of zero , or of the numbers comprised in the general expression Am0 " .
+Since that time , in my paper published in the Transactions of the Society for 1815 , " On the Development of Exponential Functions , " I have exhibited other , and much more simple as well as more easily calculable expressions for the same coefficient , by means of the same useful and valuable differences , and in that and other subsequent memoirs , have extended their application to a variety of interesting inquiries in the theory of differences and series .
+It is singular , however , that up to the present time it has never been shown that the formulae of Dr. BRINKLEY , and my own , though affording in all cases coincident numerical results , are analytically reconcileable with each other ; nor indeed is it at all easy to see either from the course of his investigation , which turns upon an intricate application of the combinatory analysis , or from the nature of the formula itself , how it is possible to pass from the one form of expression to the other so as to show their identity .
+This is what I now propose .
+Referring to my " Collection of Examples in the Calculus of Finite Differences* , " will be found the following relation , which enables us to pass from the differences of any one power of zero , as 0 , to those of any other , as 0"+ " , viz.{log( ( l + )}.n(A)0-x=(x-1 ) ... .
+( x-n+1).f(A)0- .
+or changing x into x+-n , { log ( l+A ) ) }.f(A)0x+n=(x+l)(x+2 ) ... .
+( x+n).f(A)0 .
+As this equation is general so long as negative indices of A do not occur , we may f(A ) change f(A ) into ( l ( 1 ) ) and it becomes f(a)log = ( A ) } ) f(A)0-=(x+l ) ... .(x+n ) .
+0 provided always that fcontains no negative powers of A. In this for f(A ) sub* Camb .
+1820 , p. 70 .
+Ex. 6 .
+2u2 stitute Ai ' " , and we have An+ , O ?
++n___-n AA Ai[x+-n ] VO 0 An-+ti 0xn= [ X l[~ ] ilog ( 1 +A ) } [ ] Ai Un ; denoting by [ x ] the continued product 1 .
+2 ... .x , by [ x+n ] , 1.2.3 ... ( x+n ) , and by V the combination of operations expressed by log( + A ) ' that is to say , making V0-= ( 13 4+ &amp;c. ) A A2 A3 =1+ 212+-24 &amp;c. ; so that if we put i=0 , we shall also have AnO-=[ ] VWnO , and [ = ... . .
+( A. ) This premised , putting Ax for the coefficient of tx in ( et ) , Dr. BRINKLEY'S general formula for Ax* is as follows:n+2.n+3 ... .n+x 1 A0x+l n+3 ... .n +x1 AQX+2 Ax=--n .
+ni2 ... ..- &amp;c. 4A n. 1.2.(x-l ) i.2 ... ( x-l ) 11.22 ... .(+- ) .
+2 ... ..(x+2)2 ) &amp; c or in our abbreviated notation , 1A[x+ n ] A0O+1 1 [ xQ-n].A20x+2 =.(n+ ) ' [ n-l].[~l ] [ + ] +1.2.(n+ 2 ) [ n-1 ] [ ?
+-2 ] t[+2 ] &amp; C which , in consequence of the equation ( A. ) , will be transformed to I [ x n]x n]2_ &amp; C. x-t-n ] 1A _=[n1 ] [ c]].[n+1 .
+2 3 ... nV-_ ] [ n+2 ] 3 4* n+ .
+( B. ) Now we have ( _v)+n=1 ~+ ( x+n)(x+n-1 ) 2 ( 1V"i ) V+--1.2 , &amp;c. ; and therefore , putting Sn for the sum of the n first terms of this series , ( 1_-V)+n._Sn+X( I)n+1{E n L7 i[x+ xn1 ] un +2 &amp; } ( 1--VJ t'-S^+i-(l Jr§§i [ X-l ' rjV -2 ] ' [ n + 2 ] ' [ n and consequently ( d ) i.(-v)-n+ ( )+ l['X+- ] 2.3 &amp;c. , [ X1 ] ' [ n§ 1 whence it appears that A =(-Y1)".[ , _ l ] d ( I ' , x-v , )+-Sn+1 , n1[x ' dV Dr. BRINKLEY'S expression is therefore now divested of its form in which successive different powers of 0 " occur , and reduced to one in which , according to the spirit of the algorithm adopted in my system , successive powers of A , or of some functions of A ( as V ) only occur , applied all to one and the same power , 0 ; and it only remains to develope the function of V we have arrived at in powers of A , bearing in mind that V=1+^--^+ &amp;c. , or 1-V=AC + ~+ &amp;c. } Now as regards the term ( 1-V)+ , it is obvious that it will take when developed the form Ax+".({-+PA+yA2+ &amp;c. } , and therefore , that when differentiated n-1 times successively with respect to A , it will have the form Al{'+pt'A+y'A2+ &amp;c. } , so that , when applied as an operative symbol to 0x , the result will be =0 .
+This term then may be simply struck out , and we have only to consider the development in A of / d n- ' -Sn ] o dV/ v Now this is equal to d ?
+( ){-(+n)+--(x+n)(nx+n-1 ) V+ I -n ] O { ( dIv ) n ?
+n+ 1.2 +..xl IV. .
+0 , R -{ ) -0+0+O ... ?
+}0 '-O -n . ?
+[ x}O " all the terms of which vanish except the first , being &gt; --1 , and the whole reduces itself to ( d Ox , or to ( -1 ) [ n VO And we therefore obtain , finally , A , -1 01 J*V+ ?
+12^-1-1 *log(1 ?
++ , ) n1 '[x]'V 1.2. .
+' AO which is identical with that given in my paper above mentioned , equation ( 6 ) , or in the " Examples , " p. 82 .
+J. F. W. HERSCHEL .
+Collingwood , April 20 , 1860 .
+Note by A. CAYLEY , M.A. , F.R.S. The above formula ( B. ) , substituting therein for A , the value V O"X , becomes I { x + rn ] 1 [ x + n}0[ V-nOx1 { [ n 1 22.3. .
+V[8.4 ... +1V &amp;c. }Ox ; V-"O =--[n-1 ] [ x-1 ] [ n+1 ] nV -2 ] [ n+ 2]1 V &amp;c. or , as this may be written , V _[n-+ ] { 1 ] [ V2_ &amp; clOx .
+[ n-1 ] '-[L ] ix](n+l ) V [ 2][x2](n+2 ) or , inserting a first term which vanishes except in the case x=O , and which is required in order that the formula may hold good for this particular value , Vnox [ x n ] f1V =[nI[o]t ] [ Cx--[1][ , l-l ]l(n+ ) V +[2][-2](+2 ) &amp;c. 0 ; where the series on the right-hand side need only be continued up to the term containing V'O , since the subsequent terms vanish .
+321 Now v-nOx , or g ( 1 + ) -0 , is equal to [ x ] X coef .
+t in ( ) , and so Vq , or ( log ( t1 a ) 05 is equal to [ x ] X coef .
+tx in ( tet-1 Hence , putting R= t , the last-mentioned formula will be true if , as regards the term which contains t " , we have R_--=+hiJ 1R_1 RD 1 R2 _ &amp; , l R n§ 1 ] |1 [ I [ n [ ] - ' 1(n+1 ) [ 2 ] [ x -2 ] ( n + 2 ) R- &amp; c the series on the right-hand side being continued up to the term in Rt. This formula et.1 is , in fact , true if R , instead of being restricted to denote -- , denotes any function whatever of the form I+ t+ct2+ &amp;c. , and it is true not only for the term in t ' , but for all the powers of t not higher than tx .
+And , moreover , R- " may denote any positive or negative integral or fractional power of R. In fact , the formula ( assuming for a moment the truth of it ) shows that the expansion of any power whatever of a series of the form in question , can be obtained by means of the expansions of the successive positive integer powers of the same series : the existence of such a formula ( at least for negative powers ) was indicated by EISENSTEIN , Crelle , t. xxxix .
+p. 181 ( 1850 ) , and the formula itself , in a slightly different form , was obtained in a very simple manner by Professor SYLVESTER in his paper , " Development of an idea of EISENSTEIN , " Quart .
+Math. Journ. t. ip .
+p. 199 ( 1855 ) ; the demonstration was in fact as follows , viz. writing R"=(1+R-1 ) 1+(-1)+ ( R-l)R. .
+1)+ &amp;c. : if we attend only to the terms involving powers of t not higher than t ?
+, the series on the right-hand side need only be continued up to the term involving ( R-1 ) , and the right side being thus converted into a rational and integral function of R , it may be developed in a series of powers of R ( the highest power being of course IR ) , and the coefficients of the several powers are finite series which admit of summation ; this gives the required formula .
+But there is an easier method ; the process shows that the series on the righthand side , continued as above up to the term involving t , is , as regards n , a rational and integral function of the degree x ; and by LAGRANGE'S interpolation formula , any rational and integral function of n of the degree x , can be at once expressed in terms of the values corresponding to ( x+1 ) particular values of n. The investigation will be as follows:-Let R denote a series of the form 1 +b ct+2+ &amp;c. , and let R " denote the development of the nth power of R , continued up to the term containing tx , the terms involving higher powers of t being rejected .
+1 ?
+, R ' , R2 , &amp;c. , and generally Rs , will in like manner denote the developments of these powers up to the term involving tX , or what is the same thing , they will be the values of RE , corresponding to n==0 , 1 , 2,..s .
+By what precedes R " is a rational and integral function of n of the degree x , and it can therefore be expressed in terms of the values R ?
+, Ri ' , 2 , ... .
+R , which correspond to n=0 , 1 , 2 , .
+x. 322 Let s have any one of the last-mentioned values , then the expression n.n-l.n-2 ... n-a1 n-s s.s-1 ... 2.1.--1.--2 ... --(X--s ) ' which , as regards n , is a rational and integral function of the degree x ( the factor n-s , which occurs in the numerator and in the denominator being of course omitted ) , vanishes for each of the values n-=0 , 1 , 2,..x , except only for the value n=s , in which case it becomes equal to unity .
+The required formula is thus seen to be l_ , , ( nn-.n.n-2 ... n-x 1 n-s s.s-1 ... 2.i.-1.-2 ... -(-(x s ) Is where the summation extends to the several values s= 0 , 1 , 2 ... x ; or , what is the same thing , it is R PIn.n-ln --2..n-x ( s &gt; \ n-s 1.2 ... s. 1.2 ... ( x-s ) R ; or changing the sign of n , it is n+s 1.2 ... s.1.2 ... $ -sR } ' or , as this may be written , -[n--1--- ] El [ s ] x--s ] ( n+ sj R } or substituting for s the values 0 , 1 , 2,. .
+x , the formula is continued1 u to r 1i n R , we nl][0 ] xl-n [ 1 ] Ix-13 ( n + 1 ) R'[2 ] [ x-2 ] ( n + 2 ) " continued up to the term involving RO , which is the theorem in question .
+

@@ -1,0 +1,494 @@
+XVII .
+On the Method of correspondent Values , &amp;c. By Edward Waring , M. D. F. R. S. and Lucasian Professor of the Mathematics at Cambridge .
+Read May 28 , 1789 .
+1 .
+1 .
+IN the year 1762 I published a method of finding when two roots of a given equation xn pxn-1 + qxn-2 rxn-3 + &amp;c. =o are equal , by finding the common divisors of the two quantities an pan-1 + qan-2 &amp;c. , and nan-1 n 1pan-2 + n 2qan-3 &amp;c. , and observed if they admitted only one simple divisor ( a A ) , then two roots were only equal ; if a quadratic ( a2 Aa +B ) , then two roots of the equation became twice equal ; if a cubic ( a3 Aa2 + Ba C ) , then two roots became thrice equal ; and so on : or , to express in more general terms what follows from the same principles , if the common divisor be a br xa cs xa dt x &amp;c. , then r+1 roots of the given equation will be b , s+1 roots will be c , t+1 will be d , &amp;c. ; and it immediately follows , from the principles delivered in the second edition of the same Book , published in 1770 , that to find when r+ 1 , v+ 1 , t+ 1 , &amp;c. roots are respectively equal requires r+s+ t , &amp;c. equations of condition , which are deducible from the well known method of finding the common divisors of two quantities in this case of an pan-1 + qan-2 &amp;c. , nan-1 n 1pan-2 +n 2qan-3 &amp;c. of the terms of their remainders , &amp;c. In the book above mentioned the equations of condition are given , which discover when two roots are equal in the equations x3 px2 + qx r= 0 , x~ + qx2 rx +s= 0 , x5 + qx8 rx2 + sx t = 0 , in the two latter equations the second term is wanting , which may easily be exterminated ; but it may as easily be restored by substituting for q , r , s , &amp;c. in the equation of condition found the quantities resulting from the common transformation of equations to destroy the second term .
+2 .
+Another rule contained in the same Book is the substitution of the roots of the equation nan 1n1 pan 2+n 2qan-3 &amp;c. =0 respectively for a in the quantity an pan-1 + qan-2 &amp;c. , and multiplication of all the quantities resulting into each other ; their content will give the equation of condition , when two roots are equal .
+Mr. HUDDE first discovered , that if the successive terms of the given equation are multiplied into an arithmetical series , the resulting equation will contain one of any two equal roots , and m of the m+1 equal roots in the given equation .
+3 .
+If 3 , 4 , 5,. .
+r roots the equation are equal , find a common divisor of 3 , 4 , 5,. .
+r of the subsequent quantities an pan-1 + qan-2 &amp;c. , nan-1 n1 pan-2 +n 2qan-3 &amp;c. , n. n1 an-2 n 1 .
+n 2pan-3 +n 2 .
+n 3qan-4 n 3 .
+n 4ran-5 + &amp;c. , n. n 1 .
+n 2an-3 n 1 .
+n 2 .
+n 3pan-4 +n 2 .
+n 3 .
+n 4qan-5 &amp;c. , ... n. n 1 .
+n 2. .
+nr+ 2an-r+1 n 1 .
+n 2. .
+nr+ 1pan-r + &amp;c. ; which will probably be best done by dividing all the preceding quantities by the quantity of the least dimension of a , and the divisor and all the remainders by that quantity which has the least dimensions amongst them ; and so on : there will result 2 , 3 , 4,. .
+r1 equations of condition ; and in this case it is observed , in the before-mentioned Book , that ( if the common divisor be ( a A ) ) it will once only admit of 3 , 4 , 5,. .
+r equal roots ; if it be a quadratic , then it will twice admit of those equal roots ; and so on .
+4 .
+If the roots of the equation of the least dimensions be substituted for a in the remaining equations , and each of the resulting values of the same equation be multiplied into each other , there will result the r1 equations of condition : and the same may be deduced also from the several equations conjointly .
+The equations of conditions found by the first method , if the divisions were not properly instituted , may admit of more rational divisors than necessary , of which some are the equations of conditions required .
+2 .
+1 .
+In the year 1776 , I published in the Meditationes Analyticae a new method of differences for the resolution of the following problem .
+Given the sums of a swiftly converging series ax+bx2+cx3 +dx4+ &amp;c. , when the values of x are respectively ~ , ~ , ~ , &amp;c. ; to find the sum of the series when x is ~ , that is , given S~=a~+b~2+c~3+d~4+ &amp; c , S~=a~b~2+c~3+ &amp;c. , S~= a~+b~2+c~3+ &amp;c. &amp;c. ; to find S~=a~+b~2+c~3+ &amp;c. To resolve this problem I multiplied the quantities , S~ , S~ , S~ , &amp;c. respectively into unknown co-efficients ~ , ~ , ~ , &amp;c. and there resulted ~~a+~~2b+~~3c+ &amp;c. ~~a+~~2b+~~3c+ &amp;c. ~~a+~~2b+~~3c+ &amp;c. &amp;c. &amp;c. &amp;c. and then made the sum of each of the terms respectively equal to its correspondent term of the quantity ~a+~2b+~3c+ &amp;c. , and consequently ~~+~~+~~+ &amp;c. =~ , ~~2+~~2+~~2+ &amp;c. =~2 , ~~3+~~3+~~3+ &amp;c. =~3 , &amp;c. I assumed as many equations of this kind as there were given values ~ , ~ , ~ , &amp;c. of x ; and consequently as many equations resulted as unknown quantities ~ , ~ , ~ , &amp;c. ; whence , by the common resolution of simple equations , or more easily from differences , can be found the unknown quantities ~ , ~ , ~ , &amp;c. , and thence the equation sought ~x S~ +~x S~ +~x S~ + &amp;c. = S~ nearly .
+3 .
+In the Meditationes are assumed for ~ , ~ , ~ , &amp;c. the quantities p , 2p , 3p , 4p , ... n 2p , n 1p , and np for ~ ; which , if substituted for their values in the preceding equations , will give ~+2~+3~+4~+ &amp;c. =n , a+4~+9~+16~+ &amp;c. =n2 , ~+8~+27~+ &amp;c. =n3 , ~+16~+81~+ &amp;c. =n4 ; and if the sums of the series ax+bx2+cx3+ &amp;c. which respectively correspond to the values p , 2p , 3p , ... n 1p of x be S1 , S2 , S3 , S4 , ... Sn 1 , and the sum of the series ax+bx2+ cx3+ &amp;c. which corresponds to n value of x be Sn ; then will Sn=nSn-1-n.n-1/ 2Sn-2+n.n-1/ 2.n-2/ 2Sn-3 ... =nS1 nearly , which equation is given in the above-mentioned Book .
+3 .
+The logarithm from the number , the arc from the sine , &amp;c. are found by serieses of the formula ax+bx2+cx3+ &amp;c. ; and consequently this equation is applicable to them .
+4 .
+In the same Book is assumed a series axr+bxr+s+cxr+2s+ dxr+3s+ &amp;c. of a more general formula than the preceding , and in it for x substituted ~ , ~ , ~ ~ , &amp;c. , m ; and S~ , S~ , S~ , S~ , &amp; c ; Sm for the resulting sums , and thence deduced Sm = mr X ms ~s .
+ms ~s .
+ms ~s .
+&amp;c. / ~r X ~s ~s .
+~s ~s .
+~s ~s .
+&amp;c. X S~ + mr X ms ~s .
+ms ~s .
+ms ~s .
+&amp;c. / ~r X ~s ~s .
+~s ~s .
+~s ~s .
+&amp;c. X S~ + mr X ms ~s .
+ms ~~ .
+ms ~s .
+&amp;c. / ~r X ~~ ~s .
+~s ~s .
+~s ~~ .
+&amp;c. X S~ + mr X ms ~s .
+ms ~s .
+ms ~s X &amp;c. / ~r X ~s ~s .
+~s ~~ .
+~s ~s .
+&amp;c. X S~ + &amp;c. nearly .
+Cor. If for r and s be assumed respectively 1 , the series becomes ax + bx2 + cx3 + &amp;c. of the same formula as the preceding : if r=0 and s= 1 , the series becomes a+ bx + cx2 + &amp;c. The latter case will be the same as the former , when one of the quantities ( ~ ) substituted for x and its correspondent sum S~ , both become = 0 , and the equation deduced in both cases the same .
+5 .
+If ~ , ~ , ~ , &amp;c. respectively denote r , r+ p , r+ 2p,. .
+~ r+n 2p , r+n 1p , and ~=r+ np ; and S , S1 , S2 , S3 , ... Sn 2 , Sn 1 , be the sums either resulting from the series ax + bx2 + cx3 + &amp;c. or the series A+ ax + bx2 + cx3 + &amp;c. , which respectively correspond to the values r , r+ p , r+ 2p , &amp;c. of x ; and Sn the sum of the same series which corresponds to the value r+ np of x ; then will Sn = nSn 1 n. n-1/ 2Sn 2+ n. n 1/ 2 .
+n 2/ 3 Sn 3 - ... ~n .
+n 1/ 2 S2 ~n S1 =S nearly ; this equation differs from the preceding by the last term S not vanishing ; in the preceding case S became = 0 , for it was the sum of the series ax + bx2 + cx3 + &amp;c. , which corresponded to x= 0 .
+6 .
+From the Meditationes it appears , that rm nXr~ pm + n. n 1/ 2r~ 2pm n. n 1/ 2 .
+n 2/ 3r ~ 3pm + &amp;c. to the end of the series = 0 , if m is less than n , and m and n are whole numbers ; but if m= n , then it will =~ 1 .
+2 .
+3 .
+4 ... n 1 .
+npm ; whence it is manifest , that for the n first terms of the series A+ ax + bx2 + &amp;c. the equations are true ; and for the n1 first terms of the series ax + bx2 + cx3 + &amp;c. and in the successive term of both the serieses they will err by a quantity nearly =~ 1 .
+2 .
+3. .
+nx pn x r-n x co-efficient of the term ; and the errors of every subsequent term ( x4+n ) will be nearly as ~m .
+m 1/ 2 .
+m 2/ 3 .
+m 3/ 4 ... mh+ 1/ h x pn x r-n x co-efficient of the term xb+n , if for r , r+ p , r+ 2p , &amp;c. be substituted 1 , 1+ p/ r , 1+ 2p/ r , &amp;c. 7 .
+Let the preceding equation Sn = nSn 1 n. n 1/ 2 Sn 2 + n. n 1/ 2 .
+n 2/ 3 .
+Sn 3 &amp;c. =nx log .
+rp n. n 1/ 2 log .
+r 2p + n. n 1/ 2 .
+nn 2/ 3 log .
+r 3p + &amp;c. = log .
+rxr 2ps xr 4ps ' xr 6ps''1 x &amp;c. / r pt r 3pt ' xr 5pt ' ' x &amp;c. = log .
+K , where s , s ' , s ' ' , &amp;c. denote the co-efficients of the alternate terms of the binomial theorem , viz. s= n. n 1/ 2 , s ' = n. n 1/ 2 .
+n 2/ 3 .
+n 3/ 4 , &amp;c. , and t= n , t ' = n. n 1/ 2 .
+n 2/ 3 , &amp;c. the co-efficients of the remaining alternate terms ; the numerator rxr 2ps xr 4ps ' x r 6ps ' ' x &amp;c. = ( if N= 2n-1 ) rN PprN-1 + Qp2rN-2 Rp3rN-3 ... Lpn-1 x rN-n+1 ~ MpnrN-n ~ &amp;c. ; and the denominator r pt xr 3pt ' xr 5pt ' ' x &amp;c. = rN PprN-1 + Qp2rN-2 1 Rp Rp3rn-3 + ... Lpn-1rN-n+1 ( ~ M+ 1 .
+2 .
+3. .
+n 1 ) pnrN-r ~ &amp;c. , whence the numerator and denominator have the n first terms the same , and the next succeeding terms differ by 1 .
+2 .
+3. .
+n 1pnrN-n ; the numerator divided by the denominator =1~ 1 .
+2 .
+3. .
+n 1/ rn pn nearly , if r be a great number in proportion to p , &amp;c. it would be + when n is an odd number , and when even .
+8 .
+The logarithm of the fraction K by the common series =K1K 12/ 2 +K 13/ 3 &amp;c. has for its first term =~ 1 .
+2 .
+3. .
+n 1/ rn x pn nearly ; for its second term the square of the first divided by 2 , &amp;c. 9 .
+The error of this equation not only depends on the logarithm of K , which may be calculated to any degree of exactness , but in the calculus on the errors of the given logarithms .
+10 .
+If r be increased or diminished by any given number , the n first terms of the numerator and denominator will still result the same , and the next succeeding terms will differ by 1 .
+2 .
+3 .
+4. .
+n1x pn x rN-n .
+11 .
+Let n. n 1/ 2 numbers be 2 , n. n 1/ 2 .
+n 2/ 3 .
+n 3/ 4 numbers be 4 , n. n 1/ 2 .
+n 2/ 3 .
+n 3/ 4 .
+n 4/ 5 .
+n 5/ 6 numbers be 6 , &amp;c. ; their sum , the sum of the products of every two , the contents of every three , four , five , &amp;c. to n1 of them will be equal to the sum , the sum of the products of every two , of the contents of every three , four , five , &amp;c. to n1 of the following numbers , viz. n numbers which are 1 , n. n 1/ 2 .
+n 2/ 3 numbers which are 3 , n. n 1/ 2 .
+n 2/ 3 .
+n 3/ 4 .
+n 4/ 5 , which are 5 , &amp;c. ; and the sum of the contents of every n of the former will be less than the sum of the contents of every n latter numbers by 1 .
+2 .
+3 .
+4. .
+n 1 .
+12 .
+The method given in Art .
+4 .
+which I name a method of correspondent values , easily deduces and demonstrates the preceding equations , which cannot , without much difficulty , be done by the preceding method of differences ; the method of correspondent values is much preferable to the method of differences , both for the facility of its deduction , and the generality of its resolution : for instance , from this method very easily can be deduced , &amp;c. the subsequent and other similar equations .
+Ex. 1 .
+Sn = nSn 1 n. n 1/ 2 Sn 2+ n. n 1/ 2 .
+n 2/ 3 Sn 3 ... ~ nS1 ~S nearly .
+Ex. 2 .
+Sn +m=m+ n. m+n 1 .
+m+n 2 ... m+ 2/ 1 .
+3. .
+n1x Sn 1n 1/ 1 xAxm+ 1/ m +2x Sn 2+n 2/ 2 xBxm+ 2/ m +3 Sn 3n 3/ 3 xCx m+ 3/ m +4x Sn 4+n 4/ 4 xDxm+ 4/ m +5x Sn 5 &amp;c. nearly , where the letters A , B , C , D , &amp;c. denote the preceding co-efficients , and the converging series is the same as in the preceding example .
+Ex. 3 .
+Let the converging series be of the formula ax + bx3 cx5 + dx7 + &amp;c. ; then will Sn = 2n 2 Sn 1 2n 1x 2n 4/ 2 Sn 2+ 2n 1x 2n 2/ 2 x 2n 6/ 3 Sn 3 2n 1 .
+2n 2/ 2 .
+2n 3/ 2 x 2n 8/ 4Sn 4+ &amp;c. nearly , of which the general term is 2n 1 .
+2n 2/ 2 .
+2n 3/ 3. .
+2n l+ 1/ l 1x 2n 2l/ l x Sn l. ~ .
+4 .
+Let the series be of the formula A+ ax2 + bx4 + cx~ + &amp;c. ; then will Sn =n 1/ n x 2n 2 Sn 1n 2/ n x 2n 1 .
+2n 4/ 2 x Sn 2+n 3/ n x 2n 1 .
+2n 2/ 2 .
+2n 6/ 3 Sn 3n 4/ n x 2n 1 .
+2n 2/ 2 .
+2n 3/ 3 x 2n 8/ 4 Sn 4+ &amp;c. nearly , of which the general term is n l/ n x 2n 1 .
+2n 2/ 3 .
+2n 3/ 3 ... 2n l+ 1/ l 1x 2n 2l/ l x Sn l. Ex. 5 .
+Let the given series be of the formula ax + bx2 + cx3 + &amp;c. , and in it for x be substituted p , p , 2p , 2p , 3p , 3p , ... , np , np and mp , and for the sums of the resulting serieses be wrote respectively S1 , S-1 , S2 , S-2 , S3 , S-3 , ... Sn , S-n , and Sm ; then will Sm = m. m2 1 .
+m2 4 .
+m2 9 .
+m2 16 ... m2 n 1~ .
+m n/ n. n2 1 .
+n2 4 .
+n2 9 .
+n2 16 ... n2 n 1~ x 2n = 1 .
+2 .
+3 .
+4. .
+2n x S-n +Axm+ n/ m n S+n 2n/ 1 xBxm n/ m +n1 S-n+1 Cxm+n 1/ m n1X Sn-1 + 2n 1/ 2 xDxmn 1/ m +n2x S-n+2 +m+n 2/ m n2xE Sn-2 2n 2/ 3 x Fxmn 2/ m +n3 S-n+3 Gxm+n 3/ m n3x Sn-3 + &amp;c. nearly , where the letters A , B , C , D , &amp;c. respectively denote the preceding co-efficients .
+In general , the co-efficients of the terms S-n+s and Sn-3 will be respectively M= 2n s+ 1/ s xLxmns+ 1/ m +ns and Mxm+n s/ m n s , where the letters L and M respectively denote their preceding co-efficients ; the co-efficients are to be taken affirmatively , or negatively , according as s is an even or odd number .
+Ex. 6 .
+If for x in the preceding series be substituted p , p , 2p , 2p , 3p , 3p , ... n 1p , n 1p , np respectively , then Sm = m. m~ 1 .
+m2 4 .
+m2 9 .
+m2 16 ... ( m2 ( n 1)2~/ 1 .
+2 .
+3 .
+4 .
+5 ... ( 2n 1 ) Sn Ax m n/ m +n1x S-n+1 2n 1/ 1 xBxm+n 1/ m n1x Sn-1 +Cxmn 1/ m +~2x S-n+2 + 2n 2/ 2 xDxm+n 2/ m n2x Sn-2 &amp;c. nearly , when A , B , C , &amp;c. denote as before the preceding co-efficients .
+The coefficients of the terms S-n+~ and Sn-~ will be respectively Lx mns+ 1/ m +ns and 2n 1/ s xMXm+n s/ m n s , L and M denoting the preceding co-efficients , which are to be taken negatively or affirmatively , as s is an even or an odd number .
+In this series when x= 0 , the correspondent sum = 0 .
+Ex. 7 .
+Let the given series be of the formula a+ bx + cx~ + dx3 + &amp;c. ; and in it for x be substituted o , p , p , 2p , 2p , 3p , 3p ... np , pp and mp , and for the sums of the resulting serieses be wrote as before S~ , S~ , S-1 , S2 , S-2 , ... Sn , S-n , and Sm ; then will Sm = m. m2 1 .
+m2 4 .
+m2 9 ... ( m2 n 12 ) xm n/ n. n2 1 .
+n2 4 .
+n2 9 ... ( n2 n 12 ) x 2n X S-n +Axm+ n/ m nx S+n 2n/ 1 xBxm n/ m +n1 S-n+1 &amp;c. this series observes the same law as the series given in Ex. 5 .
+and only differs from it by the last term So not vanishing , that is , being = 0 .
+Ex. 8 .
+Let the series be of the preceding formula a+ bx + cx2 + dx3 + &amp;c. , and in it for x be substituted 0 ; p , p ; 2p , 2p ; 3p , 3p ; ... n 1p , n 1p , np , and mp , and the sums resulting be So , S1 , S-1 , S2 , S-2,. .
+Sn-1 , S-~+1 , Sn and Sm ; then will Sm = m. m2 1 .
+m2 4. .
+m2 ( n 1)2/ 1 .
+2 .
+3 .
+4 ... 2n 1 Sn Axm n/ m +n1x S-n+1 &amp;c. the same series as in Ex. 6 .
+and differs from it only by the last term So not vanishing .
+Ex. 9 .
+Let the series be of the same formula a+ bx + cx2 + dx3 + &amp;c. and in it for x be substituted p , -p , 3p , 3p , 5p , 5p , 7p , 7p , ... np , np , np and mp ; and the sums resulting be S1 , S-1 , S3 , S-3 , S5 , S-5 , S7 , S-7 , ... Sn , S-n , and Sm ; then will Sm = m2 1 .
+m2 9 .
+m2 25 .
+m2 49 ... m2 n 22 xm+ n/ n2 1 .
+n2 9 .
+n2 25 .
+n2 49 ... n2 n 222 x 2n = 2n x 1 .
+2 .
+3 .
+4 .
+5. .
+n x Sn Axm n/ m +nx S-n n/ 1 xBxm+ n/ m n+2x Sn-2 +Cxmn+ 2/ m +n2x S-n+2 +n 1/ 2 xDxm+n 2/ m n+4x Sn-4 Exmn+ 4/ m +n4 S-n+4 n 2/ 3 F xm+n 4/ m n+6 Sn-6 +mn+ 6/ m +n6xGx S-n+6 +n 3/ 4 xHxm+n 6/ m n+8x Sn-8 &amp;c. nearly , where the letters A , B , C , D , E , &amp;c. denote the preceding co-efficients of the terms Sn , S-n , Sn-2 , S-n+2 , Sn-4 , S-n+4 , Sn-6 , &amp;c. respectively .
+The co-efficients of the terms S2n-2s and S-n+2s will be M=ns+ 1/ s xLx m+n 2s + 2/ m n+ 2s and N=Mxmn+ 2s/ m +n 2s ; where L , M , and N denote the co-efficients of the terms immediately preceding each other , that is , of the terms S-n+2s-2 , Sn-2s , and S-n+2s .
+The sign of the first co-efficient M will be + or - , according as s is even or odd ; the second term N will have a contrary sign to the first .
+These series may be made to begin from any term , which may be easily found by the method of correspondent values , and the subsequent terms from it by the given law ; its preceding terms may be deduced from the same law reversed , that is , by putting the numerators of the fractions multiplied into it for the denominators , and the denominators for the numerators .
+From these different serieses may be formed , by adding two or more terms of the given series together for a term of the required series ; which method has been applied to converging series in general in the Meditationes .
+13 .
+The method of correspondent values easily affords a resolution of the problems contained in Mr. BRIGG'S or Sir ISAAC NEWTON'S method of differences .
+Ex. 1 .
+Let the quantity be of the formula a+ bx + cx2 + dx3 + &amp;c. . .
+xn = y , and n+1 correspondent values of x and y be given , viz. p , q , r , s , &amp;c. of x ; Sp , Sq , Sr , Ss , &amp;c. of y ; then will y=x q. x r. x s. &amp;c. / p q. p r. p s. &amp;c. x Sp +x p. x r. x s. &amp;c. / q p. q r. q s. &amp;c. x Sq + x p. x q. x s. &amp;c. / r p. r q. r s. &amp;c. x Sr +x p. x q. x r. &amp;c. / s p. s q. s r. &amp;c. x Ss + &amp;c. The truth of this problem very easily appears by writing p , q , r , s , &amp;c. for x in the given series .
+All the preceding examples may be applied to this case , by writing x for m in the given series ; hence the resolutions of several cases of equi-distant ordinates by easy and not inelegant serieses , amongst which are included the two cases commonly given on this subject .
+14 .
+If a quantity be required , which proceeds according to the dimensions of x , reduce the above given value of y into a quantity proceeding according to the dimensions of x , and there results y= ( Sp/ p qp r. p s. &amp;c. =A+ Sq/ q p. q r. q s. &amp;c. =B + Sr/ r p. r - .
+r s. &amp;c. =C+ Ss/ s p. s q. s r. &amp;c. =D+ &amp;c. ) x xn ( S~ xq+r+s+ &amp;c. / A + Sq Xp+~+s+ &amp;c. / B + Sr xp+q+s+ &amp;c. / C + Ss xp+q+r+ &amp;c. / D + &amp;c. ) xn-1 + ( Sp x qr + qs + rs + &amp;c. / A + Sq x pr + ps + rs + &amp;c. / B + Sr x pq + ps + qs + &amp;c. / C + Ss x pq + pr + qr + &amp;c. / D + &amp;c. ) x xn-2 ( Sp x q~ s+ &amp;c. / A + Sq X prs + &amp;c. / B + Sr x pqs + &amp;c. / C + Ss x pqr + &amp;c. / D + &amp;c. ) xn-3 + &amp;c. The law and continuation of this series is evident to any one versant in these matters from inspection .
+These fractions may be reduced to a common denominator by substituting for Sp and A the products Sp xP and Ax P , where P=q r. q s. r s. &amp;c. ; for Sq and B the products Sq xQ and Bx Q , where Q=p r. p s. r s. &amp;c. ; for Sr and C the products Sr xR and Cx R , where R=p q. p s. q s. &amp;c. ; for Ss and D the products Ss x S ' and Cx S ' , where S ' = p q. p r. q r. &amp;c. &amp;c. The fractions , in particular cases , will often be reducible to lower terms .
+15 .
+Let y= axh + bxh+l + cxh+2l + &amp;c. , and the correspondent values of x and y be given as before , then will y= xh x x~ ql x xl rl x xl sl x &amp;c. / ph x pl ql x p~ rl x pl sl x &amp;c. x Sp + xh x x~ pl x xl rl x xl sl x &amp;c. / qh xq p~ x ql ~~ q s~ x &amp;c. x Sq + xh x xl pl x ~l ql x xl ~l x &amp;c. / rh xr p~ x rl ql ~l s~ x &amp;c. x Sr + xh x x~ pl xxqxx rl x &amp;c. / sh x sl pl x sl ql x sl rl + &amp;c. x Ss + &amp;c. This series may in the same manner as the preceding be reduced to terms , proceeding according to the dimensions of x ; and the serieses given in the examples may ( mutatis mutandis ) be predicated of it .
+16 .
+A more general method of correspondent values is given in the Meditationes , as also the subsequent y=xqx ~ .
+x s. &amp;c. / p q. p r. p s. &amp;c. x Sp +x p. x r. x s. &amp;c. / q p. q r. q s. &amp;c. x Sq +x p. x q. x s. &amp;c. / r p. r q. r s. &amp;c. x Sr + &amp;c. as in Ex. 1 .
+= Sp + ( x p ) ( 1/ p qX Sp + 1/ q px Sq ) + ( x p ) ( x q ) ( 1/ p qx 1/ p rx Sp + 1/ q px 1/ q rx Sq + 1/ r px 1/ r qx Sr ) + ( x p ) ( x q ) ( x r ) ( 1/ p q. 1/ p r. 1/ p s. x Sp + 1/ q p. 1/ q r. 1/ q s x Sq + 1/ r p. 1/ r q. 1/ r sx Sr + 1/ s p. 1/ s q. 1/ s rx Ss ) &amp;c. The equality of these two different quantities will easily appear by finding the co-efficients of both , which are multiplied into the same given value of y as Sp , Sq , Sr , &amp;c. and the same power of x ; for with very little difficulty they will in general be found equal .
+It is evident from this resolution that , giving the ordinates and their respective distances from each other , the value of any other ordinate at a given distance from the preceding , found by this method , will result the same , whatever may be the point assumed from which the absciss is made to begin .
+3 .
+1 .
+Let a series be Ax + Bx2 + Cx3 + Dx4 + &amp;c. of such a formula that if in it for x be substituted a+ b , there results a series Axa+b+Bxa+ b2 +Cxa+ b3 +Dxa+ b4 + &amp;c. = ( Aa + Ba2 + Ca3 + Da4 + &amp;c. ) x ( 1 + qb + rb2 + sb3 + tb4 + &amp;c. ) + ( 1 + qa + ra2 + sa3 + ta4 + &amp;c. ) x ( Ab + Bb2 + Cb3 + Db4 + &amp;c. ) then will the series Ax + Bx2 + Cx3 + Dx4 + &amp;c. = Ax + 2B/ 1 .
+2 x2 + 2 .
+3C/ 1 .
+2 .
+3 x3 + 24ABC 8B3/ 1 .
+2 .
+3 .
+4A2 x4 + 36C2 A2 + 24ACB2 16B4/ 1 .
+2 .
+3 .
+4 .
+5A3 x5 + 9 .
+24A2BC2 4x 24AB~C/ 1 .
+2 .
+3 .
+4 .
+5 .
+6A4 x6 + 216C3 A3 + 432A2B2C2 384ACB4 + 64B6/ 1 .
+2 .
+3 .
+4 .
+5 .
+6 .
+7A5 x7 + &amp;c. ; and the series 1+ qx + rx2 + sx3 + tx4 + &amp; c =1+ B/ A x+ 6CA 2B2/ 1 .
+2A2 x2 + 18CAB 8B3/ 1 .
+2 .
+3A3 x3 + 36C2A2 8B4/ 1 .
+2 .
+3 .
+4A4 x4 + 180C2A2B 120ACB3 + 16B5/ 1 .
+2 .
+3 .
+4 .
+5A5 x5 + 216C3A3 + 216A2C2B2 288ACB4 + 64B6/ 1 .
+2 .
+3 .
+4 .
+5 .
+6A6 ~ + &amp;c. The terms of these two serieses can easily be deduced by the subsequent method .
+Let Kxn-2 + Ln-1 + Mxn , be successive terms of the series Ax + Bx2 + Cx3 + &amp;c. , and K1xn-2 + L1xn-1 successive terms of the series 1+ qx + rx2 + sx3 + tx4 + &amp;c. ; then will M= 2A2 xBx K1 + 6CAK 2B2K/ n. n-1 x A2 and L1 =nxAxMBx xL/ A2 .
+Cor. 1 .
+Let B= 0 , and the two serieses Ax + Bx2 + Cx3 + Dx4 + &amp;c. and 1+ qx + rx2 + &amp;c. become respectively Ax + 2 .
+3/ 2 .
+3 Cx3 + 22 .
+32/ 2 .
+3 .
+4 .
+5x C2/ A x5 + 23 .
+33/ 2 .
+3 .
+4 .
+5 .
+6 .
+7x C3/ A2 x x7 + 24 .
+34/ 2 .
+3 .
+4 .
+5 .
+6 .
+7 .
+8.9 x C4/ A3 x9 + &amp;c. , and 1+ 2 .
+3/ 1 .
+2x C/ A x2 + 22 .
+32/ 1 .
+2 .
+3 .
+4x C2/ A2 x4 + 23 .
+33/ 1 .
+2 .
+3 .
+4 .
+5 .
+6x C3/ A3 x6 + &amp;c. If in these serieses for A be substituted 1 , and for C be substituted 1/ 2 .
+3 , there will result the serieses x x3/ 2 .
+3+ x5/ 2 .
+3 .
+4 .
+5 &amp;c. , and 1 x2/ 1 .
+2+ x4/ 1 .
+2 .
+3 .
+4 &amp;c. which give the sine and cosine in terms of the arc x. Cor. 2 .
+Let C= 0 , and the above-mentioned series Ax + Bx2 + &amp;c. becomes Ax + 2/ 1 .
+2 Bx2 * 23/ 1 .
+2 .
+3 .
+4x B3/ A2x4 24/ 1 .
+2 .
+3 .
+4 .
+5x B4/ A3 x5 *+ 26/ 1 .
+2 .
+3 .
+4 .
+5 .
+6 .
+7x B6/ A5 x x7 + 27/ 1 .
+2 .
+3 .
+4 ... 8x B7/ A6 x8 * 29/ 1 .
+2 .
+3 .
+4. .
+10 x B9/ A8 x10 210/ 1 .
+2 .
+3. .
+11 x B10/ A9 x11 + &amp;c. The law of this series is , first , that every third term vanishes ; and , secondly , the signs of every two successive terms change alternately from + to and to + ; and , lastly , the co-efficient of the term xn is 2n-1/ 1 .
+2 .
+3. .
+nx Bn-1/ An-2 ; and the series 1+ qx + rx2 + &amp;c. becomes 1+ B/ A x 2B2/ 1 .
+2A2 x2 23B3/ 1 .
+2 .
+3A3 x3 23B4/ 1 .
+2 .
+3 .
+4A4 x4 + 24B5/ 1 .
+2 .
+3 .
+4 .
+5A5 x5 + 26B6/ 1 .
+2 .
+3 .
+4 .
+5 .
+6A6 x6 + 26 x B7/ 1 .
+2 .
+3. .
+7A7 x7 &amp;c. In this series the signs of three successive terms alternately change from + to and to + ; and the co-efficient of the term xn is 2n x Bn/ 1 .
+2 .
+3 .
+nAn or 2n-1 x Bn/ 1 .
+2 .
+3. .
+nAn according as n is divisible by 3 or not .
+2 .
+Let a series 1+ Px + Qx2 + Rx3 + Sx4 + Tx5 + &amp;c. be of such a formula , that if in it for x be substituted a+ b , there results a series 1+Px ~a +b+Qx ~a + b2 +Rxa+ b3 +Sxa+ b4 + &amp;c. = ( 1 + Pa + Qa2 + Ra3 + Sa4 + &amp;c. ) x ( 1 + Pb + Qb2 + Rb3 + Sb4 + &amp;c. ) + ( Aa + Ba2 + Ca3 + Da4 + &amp;c. ) x ( Ab + Bb2 + Cb3 + Db4 + &amp;c. ) , then will the series Ax + Bx2 + Cx3 + Dx4 + &amp;c. = Ax + Bx2 + ( 2B2/ 3A PB/ 3 +Ax A2 + P2/ 6 ) x3 + 2B3 2PAB2 + A2 x/ 6A2 A2 + P2 x B ) x4 + &amp;c. , and the series 1+ Px + Qx2 + Rx3 + &amp;c. =1+ Px + A2 + P2/ 2 x2 + 2AB +Px A2 + P2/ 6 x3 + 4B2 + A2 + P22/ 24 x4 + &amp;c. Let Kxn-2 + Lxn-1 + Mxn be successive terms of the series Ax + Bx2 + Cx3 + &amp;c. , and K'xn-2 + L'xn-1 + M'xn successive terms of the series 1+ Px + Qx2 + Rx3 + &amp;c. ; then will AxL+Px L ' =n x M ' and BxK+Qx K ' = n. n-1/ 2 x M ' express the law of the serieses .
+Cor. Let B= 0 , then the series Ax + Bx2 + Cx3 + Dx =Ax ( x + P2 x A2/ 2 .
+3 x3 + ( P~ + A2)2/ 1 .
+2 .
+3 .
+4 .
+5 x5 + ( P2 + A2)3/ 1 .
+2 .
+3 .
+4 .
+5 .
+6 .
+7 x7 + &amp;c. ) , and the series 1+ Px + Qx2 + Rx3 + &amp;c. =1+ Px + P2 + A2/ 1 .
+2 x2 + Px P2 + A2/ 1 .
+2 .
+3 x3 + ( P2 + A2)2/ 1 .
+2 .
+3 .
+4 x4 +Px ( P2 + A2)2/ 1 .
+2 .
+3 ... 5 x5 + ( P2 + A2)3/ 1 .
+2 .
+3. .
+6 x6 + &amp;c. ; the co-efficient of the term xn will be ( P2 + A2)n/ 2 or P x ( P2 + A2 ) n-1/ 2 , according as n is even or odd .
+If in the equations before given for x be substituted a=b instead of a+ b , then in the other quantities for b substitute -b .
+3 .
+If in Case 2 .
+the difference between the two quantities ( 1 + Pa + Qa2 + &amp;c. ) x ( 1 + Pb + Qb2 + &amp;c. ) and ( Aa + Ba2 + Ca2 + &amp;c. ) x ( Ab + Bb2 + Cb2 + &amp;c. ) is assumed =1+Px ~a +b+Qx ~a + b2 + &amp;c. , then in the serieses before given for A , B , C , &amp;c. write respectively ~ 1A , ~ 1B , ~ 1C , &amp;c. , and there will result the corresponding serieses .
+The same principles may be applied to many other cases .
+4 .
+Equations of these formulae may be useful , when the sums of the serieses correspondent to a value ( a ) of x are given , and the sums of the series correspondent to a value ( a + b ) of x is required , b having a small ratio to a : for instance , let the given series be x x3/ 2 .
+3+ x5/ 2 .
+3 .
+4 .
+5 x7/ 2 .
+3. .
+7+ &amp;c. ; the equation found in the first case is a+b ( a + b)3/ 2 .
+3+ ( a + b)5/ 2 .
+3 .
+4 .
+5 &amp;c. = ( a a3/ 2 .
+3+ a5/ 2 .
+3 .
+4 .
+5 &amp;c. ) x ( 1 b2/ 1 .
+2+ b4/ 1 .
+2 .
+3 .
+4 &amp;c. ) + ( 1 a2/ 1 .
+2+ a4/ 1 .
+2 .
+3 .
+4 &amp;c. ) x ( b b3/ 2 .
+3+ b5/ 2 .
+3 .
+4 .
+5 &amp;c. ) ; but a a3/ 2 .
+3+ a5/ 2 .
+3 .
+4 .
+5 &amp; c , and 1 a2/ 1 .
+2+ a4/ 2 .
+3 .
+4 &amp;c. are the sine ( s ) and cosine ( c ) of an arc a of a circle whose radius is 1 ; and , consequently , if the sine s and cosine c of an arc a be given , the sine of an arc ( a + b ) =sx ( 1 b2/ 2 + b4/ 24 &amp;c. ) + c(b ~/ 2 .
+3+ b5/ 2 .
+3 .
+4 .
+5 &amp;c. ) , which series , if b be very small in proportion to a , converges much faster than the common series for finding the sine from the arc : it has been given from different principles in the Meditationes , and is also easily deducible from the series for finding the sine and cosine from the arc by the propositions usually given in plane ~ : the cosine of the same arc ( a + b ) =cx ( 1 b2/ 1 .
+2+ b4/ 2 .
+3 .
+4 &amp;c. ) sx ( b b3/ 1 .
+2 .
+3+ b5/ 1 .
+2. .
+5 &amp;c. ) , Ex. 2 .
+Let the series be a+b+a+ b3/ 2 .
+3+a+ b5/ 2 .
+3 .
+4 .
+5+ &amp;c. = ( a + a3/ 2 .
+3+ a5/ 2 .
+3 .
+4 .
+5+ &amp;c. x ( 1 + b2/ 1 .
+2+ b4/ 1 .
+2 .
+3 .
+4+ &amp;c. ) + ( 1 + a2/ 1 .
+2+ a4/ 1 .
+2 .
+3 .
+4+ &amp;c. ) x ( b + b3/ 1 .
+2 .
+3+ b5/ 2 .
+3 .
+4 .
+5+ &amp;c. ) ; but a+ a3/ 1 .
+2 .
+3+ &amp;c. ) = x , and 1+ a2/ 1 .
+2+ a4/ 1 .
+2 .
+3 .
+4+ &amp;c. = ~1 + x2 , if a be the hyperbolic log .
+of x+ ~1 + x2 ; therefore a+b+a+ b3/ ~ .
+3+a+ b5/ 2 .
+3 .
+4 .
+5+ &amp;c. =xx ( 1 + b2/ 2 + b4/ 2 .
+3 .
+4+ &amp;c. ) + ~1 + x2 x ( b + b3/ 2 .
+3+ &amp;c. Let b+ b3/ 2 .
+3+ b4/ 2 .
+3 .
+4 .
+5+ &amp;c. = y , and ( x + ~1 + x2 x ( y + ~1 + y2 ) = V , then will a+b+a+ b3/ 2 .
+3+a+ b5/ 2 .
+3 .
+4 .
+5+ &amp;c. = 1/ 2 V 1/ V. 5 .
+Let a quantity P be a function of x , or the fluent of a function of xx x , and the value X of it when x=a be known , and the value of it when x=a+b be required .
+Find a series of which the first term is X , and which proceeds according to the dimensions of b , if b be a very small quantity , and in general at least so small that the series from x=a to x=a+b neither becomes infinite or 0 .
+In the same manner , if an algebraical or fluxional equation or equations , expressing the relations between x , y , z , v , &amp;c. be given , find the correspondent values of y , z , v , &amp;c. to x= a , which let be Y , Z , V , &amp;c. ; then find serieses for y , z , v , &amp;c. of which the first terms let be Y , Z , V , &amp;c. respectively , and which proceed according to the dimensions of b , but subject to the same conditions as in the preceding case .
+From fluxional equations may be deduced series which express the value of y , &amp;c. in terms of x , and always diverge , or always converge , whatever may be its value , as appears from
+

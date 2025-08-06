@@ -1,0 +1,724 @@
+XXV .
+Of Cubic Equations and Infinite Series .
+By Charles Hutton , LL. D. F. R. S. Read June 1 , 1780 .
+THE following pages are not to be understood as intended to contain a complete treatise on cubic equations , with all the methods of solution that have been delivered by other writers ; but they are chiefly employed on the improvements of some properties that were before but partially known , with the discovery of several others which to me appear to be new and of no small importance : for I have only slightly mentioned such of the generally known properties as were necessary to the introduction or investigation of the many curious consequences herein deduced from them .
+Art .
+1 .
+Every equation , whose terms are expressed in simple integral powers , has as many roots as there are dimensions in the highest power .
+And when all the terms are brought to one side of the equation , and the coefficient of the first term or highest power is + 1 , then the coefficient of the second term is equal to the sum of all the roots with contrary signs ; the coefficient of the third term is equal to the sum of all the products made by multiplying every two of the roots together ; the coefficient of the fourth term , to the sum of all the products arising from the multiplication of every three of the roots together ; &amp;c. and the last term , equal to the continual product of all the roots ; the signs of all of them being supposed to be changed into the contrary signs before these multiplications are made .
+All this is evident from the generation of equations .
+And from these properties of the coefficients the following deductions are easily made .
+2 .
+If the signs of all the roots of an equation be changed , and another equation be generated from the same roots with the signs so changed ; the terms of this last equation will have the same coefficients as the former , only the signs of all the even terms will be changed , but not those of the odd terms : for the coefficients of the second , fourth , and the other even terms , are made up of products consisting each of an odd number of factors ; while those of the third , fifth , and other odd terms are composed of products having an even number of factors : and the change of the signs of all the factors produces a change in the sign of the continual product of an odd number of factors , but no change in the sign of that of an even number of factors .
+Wherefore , changing the signs of all the even terms , namely , the second , fourth , &amp;c. produces no alteration in the roots , but only in their signs , the positive roots being changed into negative , and the negative into positive .
+But by changing any or all the signs of the odd terms , the equation will no longer have the same roots as before , but will have new roots of very different magnitudes from those of the former , unless the sign of the first term or highest power is changed also ; but this term is always to be supposed to remain positive .
+3 .
+It also follows , that when any term is wanting in an equation , or the coefficient of any term equal to 0 , the sum of the negative products in the coefficient of that term is equal to the sum of the positive products in the same .
+And if it be the second term which is wanting , then the equation has both negative and positive roots , and the sum of the negative roots is equal to the sum of the positive ones .
+But if it be the last term which is wanting , then one of the roots of the equation is equal to nothing .
+And hence arises a method of transforming any equation into another which shall want the second term : and to this latter state it will be proper to transform every cubic equation before we attempt the resolution of it .
+4 .
+Let therefore x3 + px =q be such a cubic equation wanting the second term , where p and q represent any numbers , positive or negative .
+5 .
+Now from the premises it follows , that this equation has three roots ; that some are positive , and others negative ; that two of them are of one affection , and are together equal to the third of a contrary affection , namely , either two negative roots , which are together equal to the other positive , or two positive roots equal to the third negative .
+6 .
+But the signs of the three roots are easily known from the sign of the quantity q ; the sign of the greatest root being the same with the sign of q when this quantity is on the right-hand side of the equation , and the other two roots of the contrary sign .
+For when q is on the same side of the equation with the other terms , it has been observed , that it is always equal to the continual product of all the roots with their signs changed ; consequently q is equal to the product of all the roots under their own signs , when that quantity is on the other or right-hand side of the equation : but the product of the two less roots is always positive , because they are of the same affection , either both + or both - ; and therefore this product , drawn into the third or greatest root , will generate another product equal to q , and of the same affection with this root .
+7 .
+But the roots of equations of the above form are not only positive , negative , ~ nothing , but sometimes also imaginary .
+We have ~ that the greatest root is positive when q is positive , and negative when it is negative ; as also that one root is = to 0 when q is = 0 , and in this case the other two roots must be equal to each other , with contrary signs .
+But to discover the cases in which the equation has imaginary roots , as well as many other properties of the equation , it will be proper to consider the generation of it as follows .
+8 .
+The roots of equations becoming imaginary in pairs , the number of imaginary roots is always even ; and therefore the cubic equation has either two imaginary roots , or none at all ; and consequently it has at least one real root .
+Let that root be represented by r , which may be either positive or negative , and may be any one of the real roots , when none of them are imaginary : then since any one of the roots is equal to the sum of the other two with their signs changed , the other two roots may be represented by 1/ 2 r~ some other quantity , since the sum of these two , with the signs changed , is = r. Now this supplemental quantity , which is to be connected with 1/ 2 r by the signs + and to compose the other two roots , will be a real quantity when those roots are real , but an imaginary one when they are imaginary , since the other part ( 1/ 2 r ) of those two roots is real by the hypothesis .
+Let this supplemental quantity be represented by e when it is real , or e~ 1 or ~ e2 when it is imaginary : we shall use the quantity e in what follows for the real roots ; and it is evident , that by changing e for e~ 1 , or e2 for e2 , that is , by barely changing the sign of e2 wherever it is found , the expressions will become adapted to the imaginary roots .
+Hence then the three roots are represented by r , and 1/ 2r + e , and 1/ 2r e ; and consequently the three equations , from whose continual multiplication by one another the cubic equation is to be generated , will be xr= 0 , and x+ 1/ 2r e= 0 , and x+ 1/ 2r +e= 0 .
+9 .
+Let now these three equations be multiplied together , and there will be produced this general cubic equation wanting the second term , namely , x3 -3/ 4~ -e2 x r. 1/ 4r2 e2 = 0 , or x3 -3/ 4r2 -e2 x= r. 1/ 4r2 e2 , having three real roots ; and if the sign of e2 be changed from to + , it will then represent all the cases which have only one real and two imaginary roots : and from the bare inspection of this equation the following properties are easily drawn .
+10 .
+First , we hence find , that when the equation has three real roots , the sign of the second term is always - ; for the coefficient of that term , or p is = 3/ 4 r2 e2 , which is always negative when r and e are real quantities .
+And consequently when p is positive , the equation has two imaginary roots , since p includes all the cases of three real roots .
+But it does not therefore follow , that when p is negative , the three roots are always real ; and indeed there are imaginary roots not only whenever p is positive , but sometimes also when p is negative : for since p is = 3/ 4r2 e2 in all the cases of three real roots , it will be p= 3/ 4r2 + e2 for all the cases of two imaginary roots ; and it is evident , that p will be either positive or negative , according as e2 is greater or less than 3/ 4r2 .
+11 .
+But to find the cases of p when the roots are all real , and when not , will require some farther consideration ; and in order to that it must be observed , that e2 ought to be positive and less than 3/ 4r2 ; but the limit between the cases of real and imaginary roots is when e2 = 0 , or e= 0 ; and then p becomes = 3/ 4r2 , and q= 1/ 4r3 ; consequently then 1/ 3 p~3 = 1/ 4r2~3 = 1/ 64r6 , which is = 1/ 2q~2 = 1/ 8r3~2 = 1/ 64r6 , that is , when e is = 0 , then 1/ 3p~3 is = 1/ 2q~2 , and conquently when 1/ 3p~3 is less than 1/ 2q~2 , the equation has two imaginary roots , otherwise none , the sign of p being - .
+Thus then we easily perceive in all cases the nature of the roots as to real and imaginary ; namely , partly from the sign of p , and partly from the relation of p to q : for the equation has always two imaginary roots when p is positive ; it has also two imaginary roots when p is negative , and 1/ 3p~3 less than 1/ 2q~2 ; in the other case the roots are all real , namely , when p is negative and 1/ 3p~3 either equal to or greater than 1/ 2q~2 .
+12 .
+Moreover , when p is = 0 , the equation has two imaginary roots ; for this cannot happen but by e2 becoming + e2 , in the value of p , and = to 3/ 4r2 ; and then p= 3/ 4r2 + e2 = 3/ 4r2 + 3/ 4r2 = 0 , and q= r. 1/ 4r2 + e2 = r. 1/ 4r2 + 3/ 4r2 = r. r2 = r3 , and consequently the above becomes barely x3 = r3 , which therefore , besides one real general equation root x= r , has also two imaginary roots .
+13 .
+Hence also it again appears , that the greatest root is always of the same affection , in respect of positive and negative , with q on the right-hand side of the equation , they being either both positive or both negative together ; and the other two roots of the contrary sign .
+For if r be the greatest root , then is 1/ 2r greater than e , and 1/ 4r2 greater than e2 , and 1/ 4r2 e2 always positive , and consequently the product r. 1/ 4r2 e2 , or q , will have the same sign with r. But if r be one of the less roots , the contrary trary of this will happen ; for then 1/ 2r is less than e , and consequently 1/ 4r2 less than e2 , and so 1/ 4r2 e2 a negative quantity , and therefore the product r. 1/ 4r2 e2 , or q , will have the sign contrary to that of r ; that is , q and the less roots have different signs , and consequently q and the greatest root the same sign , since the sign of the greatest root is always contrary to that of the other two roots .
+14 .
+Moreover , when q or r. 1/ 4r2 e2 is positive , then r denotes the greatest root ; for then 1/ 4r2 is greater than e2 , or 1/ 2r greater than e , and r greater than either -1/ 2r +e or -1/ 2r e. But when q or r. 1/ 4r2 e2 is negative , then r represents one of the other two roots in the equation ; since then e is greater than 1/ 2r , and -1/ 2r e greater than r. Lastly , when q is between the positive and negative states , or q= 0 , then r ought to be neither the greatest nor one of the less roots , if I may so speak , that is , two of the roots are equal , and the third root = 0 , since then 1/ 4r2 must be = e2 , or 1/ 2r = e. 15 .
+Hence it appears , that the sign of p determines the nature of the roots as to real and imaginary , and the sign of q determines the affection of the roots as to positive and negative .
+Let us illustrate these rules by a few examples .
+16 .
+The equation x3 9x = 10 has all its three roots real , because p=9 is negative , and 1/ 3p~3 = 33 = 27 is greater than 1/ 2q~2 , which is = 52 = 25 ; and the greatest of the roots is positive , because q= 10 is positive ; and the two less roots negative .
+17 .
+The equation x3 9x = 10 has the same three real roots as the former , but with the contrary signs , the sign of the greatest root being now negative , because q= 10 is negative .
+18 .
+But the equation x3 + 9x =~ 10 has only one real root and two imaginary roots , because p=9 is positive ; and the sign of the real root is + or according as the sign of q or 10 is + or - .
+19 .
+The equation x3 + 6x =~ 10 has also two imaginary roots , and one real root , which is + or as it is + 10 or 10 , for the same reason as before .
+20 .
+The equation x3 6x =~ 10 has also two imaginary roots , because 1/ 3p~3 = 23 =8 is less than 1/ 2q~2 = 52 = 25 .
+21 .
+But the equation x3 12x =~ 16 has all its roots real , because 1/ 3p~3 = 43 = 64 is = 1/ 2q~2 = 82 = 64 .
+22 .
+And the equation x3 + 12x =~ 16 has only one real root , because p=+ 12 is positive .
+23 .
+Let us now consider the other properties and relations of the roots arising from certain assumed relations between e and r , and from considering e either as real , imaginary , or nothing , that is e2 as positive , negative , or nothing .
+24 .
+When e is a real quantity , the general equation is x3 -3/ 4 r2 -e2 x= r. 1/ 4r2 e2 , and all the roots are real .
+25 .
+When e is imaginary , the general equation is x3 -3/ 4 r2 + e2 x= r. 1/ 4r2 + e2 , and two of the roots are imaginary .
+26 .
+When e is between these two states , or = 0 , the equation becomes x3 3/ 4r2 x= 1/ 4r3 , and the root r=~ 4/ 3p = 3~ 4q= 3q/ p ; for in this case p= 3/ 4r2 , and q= 1/ 4r3 .
+Also the other two roots 1/ 2 r~e are each = 1/ 2r .
+27 .
+Assume now any general relation between the root r and the supplemental part e of the other two roots , as suppose r2 : e2 : : 4 : n , or e2 = n/ 4 r2 , or e= 1/ 2 r~ n , where n represents either nothing or any quantity whether positive or negative , that is , positive when e and all the three roots are real , or negative when e and two of the roots are imaginary .
+Substitute now n/ 4r2 instead of e2 in the general equation x3 3/ 4r2 -e2 x= r. 1/ 4r2 e2 , and that equation will become x3 3+ n/ 4 r2 x=1 n/ 4r3 .
+Here then p= 3+ n/ 4r2 , and q=1 n/ 4r3 , and consequently the root r= ~4 p/ 3 +n=3~4 q/ 1 n=n+ 3/ n 1 .
+q/ p expressed in three different ways .
+The other roots , the general values of which are 1/ 2r ~ e , become 1/ 2r ~~ n/ 4r2 = 1/ 2r ~ 1/ 2r ~n= 1/ 2r x1~~ n. 28 .
+Hence then in an easy and general manner we can represent any form or case of the general equation , with all the circumstances of the roots , by only taking , in these last formulae , any particular number for n , either positive or negative , integral or fractional , &amp;c. As if n= 1 ; then the equation becomes x3 r2 x= 0/ 2r3 , or = 0 , the value of e= 1/ 2r , the root r=~p=3~ 4q/ o = 4q/ op , and the other two roots = 1/ 2r .
+1~~1= 1/ 2r .
+2 and -1/ 2r .
+o=r and o. 29 .
+If n= -1 , the equation will be x3 1/ 2r2 x= 1/ 2r3 , the value of e= 1/ 2r ~ 1 , the root r= q/ p =~2p= 3~ 2 q , and the other two roots = 1/ 2r .
+1~~1 imaginary .
+30 .
+And thus , by taking several different values of n , positive and negative , the various corresponding circumstances and relations of the equation and roots will be exhibited as in the following table .
+31 .
+From the bare inspection of this table several useful and curious observations may be made .
+And first it appears , that when q is positive , as in all the forms after the 12th , r is the greatest root ; but when q is negative , or in all the cases to the 12th , r is one of the less roots .
+32 .
+In all cases before the 4th form r is the least root , because ~ 10 1/ 2 , or ~ 11 1/ 2 , &amp;c. is always greater than 1 ; and in all such forms 1/ 2q2 is less than 1/ 3 p3 ; but the former approaches nearer and nearer to an equality with the latter till the 4th form , where 1/ 2q2 is become = 1/ 3p3 , and r is then equal to one of the other roots , because ~9 1/ 2 = 2/ 2 = 1 .
+33 .
+From hence r becomes the middle root , and continues so to the 12th form , where it becomes equal to what has hitherto been the greatest root , and the other root becomes at this place = 0 ; and 1/ 2q2 has decreased from the 4th form all the way more and more in respect of 1/ 3p3 , till at this 12th form it has become = 0 , or infinitely less than 1/ 3p3 .
+34 .
+From this place r becomes the greatest root , the sign of q changes to + , and 1/ 2q3 again increases in respect of 1/ 3p~ , till at the 13th case it becomes again equal to it , and the two less roots equal to each other , like as at the 4th form .
+35 .
+From hence 1/ 2q2 becomes greater than 1/ 3p3 , and increases more and more in respect of it , till at the 16th step where p is = 0 , or 1/ 2q2 infinitely greater than 1/ 3p3 .
+36 .
+From this place the sign of p becomes + , and 1/ 2q2 continually decreases in respect of 1/ 3p3 to infinity .
+37 .
+By help of this table we may find the roots of any cubic equation x3 ~px=q whenever we can assign the relation between ~p and 3~q .
+For since one root r is always =n~ 3 .
+q/ n ~ 1 .
+p=~4 p/ n ~3=3~4 q/ n ~ 1 , and the other two roots = 1/ 2r .
+1~~~ n , it follows , that if from the equation ~ 4p/ n ~3=3~4 q/ n ~ 1 , where the two denominators under the radicals differ by 4 , we can assign the value of n , the above formula will give us the roots .
+38 .
+As if the equation be x3 18 x= 27 .
+Here p= 18 , and q= 27 ; then ~4p/ 8 =~ p/ 2 =~9= 3 , and 3~4q/ 4 = 3~ 27 =3 also ; therefore n+3= 8 , or n1= 4 , either of which gives n= 5 : consequently , r=n+ 3 .
+q/ n 1 .
+p = 8q/ 4p = 2q/ p = 54/ 18 =3 is the middle root , because 8q/ 4p is found between the 4th and 12th cases , which are the limits of the middle roots : and 1/ 2 r. 1~~n= 3/ 2 .
+1~~5= 4.854102 and 1.854102 are the greatest and least roots .
+Or , these two roots may be also found in the same manner from the table of forms , which contains all the roots of every equation , thus : by a few trials I find ~ 4p/ 20.95 =3 4q/ 1~.95 nearly , and therefore 20.95q/ 16.95p = 1.854 is the least root , because here n= 17.95 which lies far above the limit for the least roots , which is at the fourth form , where n is = 9 .
+And lastly , ~ 4p/ 3 0557 =3~ 4q/ .9143 nearly , and therefore , 3.0557q/ .9143p = 4.854 is the greatest root , because 3.0557 q/ .9143p is found between the 12th and 13th forms , which are the limits between which lies the greatest root of every equation that has all its roots real .
+39 .
+Again , let the equation be x3 + 2x = 12 .
+Here p= 2 , and q= 12 ; hence ~ 4p/ 2 =~2p=~4= 2 , and 3~4q/ 6 = 3~2/ 3 q= 3~8 =2 also ; therefore n3= 2 , or n+1= 6 , either of which gives n= 5 .
+Consequently , r=n ~ .
+q/ n + 1 .
+p=2 q/ 6 p= q/ 3p = 12/ 6 = 2 , and the other two roots are 1/ ~ r. 1~~n= 1 .
+1~~5=1~~ 5 .
+40 .
+But it is only by trials that we find out a proper value for n in such cases as these ; and this is perhaps attended with no less trouble than the searching out one of the roots by trials from the original cubic equation itself .
+This method of finding the roots would indeed be effectual and satisfactory if we had a direct method of determining the value of n from the equation ~4p/ n ~3= 3~ 4q/ n ~1 by an equation under the 3d degree ; but by reducing this equation out of radicals , there results another cubic equation of no less difficulty to resolve than the original one .
+We must therefore search for other methods of determining the roots ; and first it will be proper to treat of the rule which is called CARDAN'S .
+41 .
+Let x3 + px =q be the general equation where p and q denote any given numbers with their signs , positive or negative .
+And let z+y denote one of the roots of this equation , that is , let the root be divided into any two parts z and y. Hence then x=z+ y ; which value of x being substituted for it in the original equation x3 + px = q , that equation will become z3 + 3z2y +3 zy2 + y3 + p. z+y= q , or z3 + y3 + 3zy .
+z+y+ p. z+y= q. Now on introducing the two unknown quantities z and y , we supposed only one condition or equation , namely , z+y= x ; we are therefore yet at liberty to assume any other possible condition we please : but this other condition ought to be such as will make the equation reducible to a simple one , or to a quadratic , in order to obtain from it the value of z or y : and for this purpose there does not seem to be any other proper condition beside that which supposes 3zy to be = p ; and in consequence of this supposition , the equation becomes barely z3 + y3 = q. Now from the square of this equation let four times the cube of zy = 1/ 3p be subtracted , and there will remain z6 2 z3 y3 + y6 = q2 + 4/ 27 p3 , the square root of which is z3 y3 =~ q2 + 4/ 27 p3 ; this last being added to , and substracted from , the equation z3 + y3 = q , 2 z2 =q+~ q2 + 4/ 27 p3 =q+2~ 1/ 2q2 + 1/ 3p3 , we have 2y3 =q~ q2 + 4/ 27 p3 =q2~ 1/ 2q + 1/ 3p3 , hence dividing by 2 , and extracting the cube roots , we z= 3~1/ 2q + ~1/ 2q + 1/ 3p x1 or x1~ ~-3/ 2 have the y= 3~1/ 2q ~1/ 2q2 + 1/ 3p3 x1 or x1~ ~-3/ 2 three values of z and y ; for every quantity has three different forms of the cube root , and the cube root of 1 , is not only 1 , but also 1+ ~-3/ 2 or 1 ~-3/ 2 .
+Hence then the three values of z+y or x , or the three roots of the equation x3 + px = q , are 3~1/ 2q + ~1/ 2q2 + 1/ 3p3 x1 or x1+ ~-3/ 2 or x1 ~-3/ 2 + 3~1/ 2q ~1/ 2q2 + 1/ 3p3 x1 or x1 ~-3/ 2 or x1+ ~-3/ 2 , where the signs of ~-3 must be opposite in the values of z and y , that is , when it is 1~ ~-3/ 2 in the one , it must be 1~ ~-3/ 2 in the other , always the greatest root as it has been commonly thought to be .
+46 .
+The first root r=s+d= 3~ b+~ b2 + a3 + 3~ b~ b2 + a3 , although it be always a real quantity , yet often assumes an imaginary form when particular numbers are substituted instead of the letters a and b , or p and q. And this it is evident will happen whenever a is negative and a3 greater than b2 , or 1/ 3p~3 greater than 1/ 2q 2 ; for then ~ b2 + a3 becomes ~ b2 a3 =~ 1/ 2q~2 1/ 3p~3 the square root of a negative quantity , which is imaginary .
+And this will evidently happen whenever the equation has three real roots , but at no time else , that is in all the first 13 cases of the foregoing table , wherein 1/ 3p~3 is greater than 1/ 2q~2 , and p negative ; the 4th and 13th only excepted , when 1/ 3p~ is = 1/ 2q~2 , and therefore ~ b2 a3 = o , and two of the roots become equal , but with contrary signs .
+This root can never assume an imaginary form when a or p is positive , nor yet when p is negative and 1/ 2q greater than 1/ 3p~3 ; for in both these cases the quantity ~ b2 ~ a3 is real , or the square root of a positive quantity .
+And these take place after the first 13 cases of the table of forms , that is , in all the cases which have only one real root .
+So that this rule of CARDAN'S always gives the root in an imaginary form when the equation has no imaginary roots , but in the form of a real quantity when it has imaginary roots .
+47 .
+It may , perhaps , seem wonderful that CARDAN'S theorem should thus exhibit the root of an equation under the form of an imaginary or impossible quantity always when the equation has no imaginary roots , but at no time else ; and it may justly be demanded what can be the reason of so curious an accident .
+But this seeming paradox will be cleared up by the following consideration .
+It is plain , that this circumstance must have happened either through some impropriety in the manner of deducing the values of z and y from the two assumed equations x=z+ y , and zy = 1/ 3p , or else by some impossibility in one of these two conditions themselves ; but , on examination , the deductions are found to be all fairly drawn , and the operations rightly performed .
+The true cause must therefore lie concealed in one of these two conditions x=z+y and zy = 1/ 3p .
+In the first of them it cannot be , because it only supposes that a quantity x can be divided into two parts z and y , which is evidently a possible supposition : it can therefore no where exist but in the latter , namely , zy = 1/ 3p .
+Now this supposition is this , that the product of the two parts .
+z and y , into which the constant quantity x is divided , is equal to 1/ 3p with its sign changed .
+But this may always take place when p is positive ; for then 1/ 3p will be negative , and two numbers , the one positive and the other negative , may always be taken such that their product shall be equal to any negative number whatever , and yet their sum be equal to a given quantity x ; and this is done by taking the positive one as much greater than x as the other is negative ; for thus it is evident the positive and negative numbers may be increased without end : wherefore there is no impossibility in the supposition when p is positive ; and therefore then the formula ought to exhibit only real quantities , that is , in all the cases after the 16th in the table of forms , as we have before found .
+But the same thing cannot always happen when p is negative , or 1/ 3p = zy is positive : for that zy may be positive , the signs of the two factors z and y must be alike , either both + or both - , that is , both + when the sign of x is + , or both when that is - : but it is well known , that the greatest product which can be made of the two parts into which a constant quantity x may be divided , is when the parts are equal to each other , or each equal 1/ 2x , and therefore the greatest product is equal to 1/ 2x~~ or 1/ 4x2 : wherefore if 1/ 4x2 be equal to or greater than 1/ 3p , the condition which supposes that zy is = 1/ 3p , is possible , and the formula ought to express the root by real quantities tities only , otherwise not ; but 1/ 4x2 , or 1/ 4r2 , which is the same thing , is always less than 1/ 3p in the first thirteen cases of the table of forms ; and therefore in all these cases , which are those in which 1/ 3p~3 is greater than 1/ 2q~2 , or all those which have three real roots , the formula ought to exhibit the root with imaginary quantities , as we have before found to happen ; the 4th and 13th cases only excepted , in which 1/ 3p~3 is = 1/ 2q~2 , and therefore the quantity ~ b2 a3 vanishes , and two of the roots are equal .
+48 .
+Thus then the real cause of this circumstance is made manifest , and it is found to be the necessary consequence of the arbitrary hypothesis which was made , which is found to be possible only in certain cases .
+So that we cannot expect the formula to exhibit a real quantity in the other cases , since an impossible hypothesis must needs lead to an absurd conclusion .
+40 .
+The other two roots s+ d/ 2 ~s d/ 2 ~3 in their general state appear in an imaginary form ; but on the substitution of numbers for the letters in any example , they come out real or imaginary quantities in those cases in which they ought to be such .
+For s being =g+~~ h , and d=g~~h according as the roots are all real or only one is such ; and s+ d/ 2 =g= 1/ 2r always half the one real root , we shall have s d/ 2 =~~h according to the said two cases ; and consequently s d/ 2 ~3=~~3h a real or an imaginary quantity according as the roots are to be real or imaginary .
+50 .
+The first root r being found from the formula 3~ b+~ b2 + a3 + 3~ b~ b2 + a3 , or by any other means , the other two roots may be exhibited in several other forms besides the foregoing , as may be shown in the following manner .
+51 .
+The equation being x3 + px = q , and one root r , by substitution we have r3 + pr = q , and , by subtracting , it is x3 r3 + p.x r= o , and , dividing by x r , it becomes x2 + rx + r2 +p= o. Or this same equation may be found by barely dividing x3 + px q=o by xr= o , for the quotient is x2 + rx + r2 +p= o. And the resolution of this quadratic equation gives x= 1/ 2r ~~ -p 3/ 4r2 = 1/ 2r ~ ~~ 4p 3r2 the other two roots .
+And from hence again it appears , that these two roots are always imaginary when p in the given equation is positive ; as also when it is negative and less than 3/ 4r2 ; which again include all the cases of the table of forms after the 13th .
+52 .
+Again , since r3 + pr = q , therefore r2 +p= q/ r , and r2 =p+ q/ r , and 3r2 = 3p 3q/ r ; which being substituted in the above value of the two roots , they become 1/ 2r ~ 1/ 2 ~p 3q/ r. 53 .
+And again , if p be expelled from this last form by means of its value r2 q/ r , the same two roots will be expressed by 1/ 2r ~ 1/ 2 ~ r2 4q/ r = 1/ 2r x1~~1 4q/ r3 .
+54 .
+And farther , if r3 be expelled from this last form by means of its value q pr , the same two roots will also become 1/ 2r x1~~1 4q/ q pr = 1/ 2r x1~~ pr + 3q/ pr q. 55 .
+We might have derived the above forms in yet another manner thus .
+The first root being r , let the other two roots be v and w : then we shall have these two equations , namely , v+w= r , and vwr = q , or vw = q/ r ; from the square of the first of these subtract four times the last , so shall v2 2vw + w2 = r2 4q/ r ; the root of this is vw=~ r2 4q/ r , which being added to , and taken from v+w= r , and dividing by 2 , we have ~= 1/ 2r ~ 1/ 2 ~ r2 4q/ r = 1/ 2r x1~~1 4q/ r3 , the same with one of the formulae above given ; and then by substitution the others will be deduced .
+56 .
+To illustrate now the rules x=s+ d , or s+ d/ 2 ~s d/ 2 ~ 3 , by some examples ; suppose the Memoires de l'Acad .
+1738 .
+Also sd= 2c/ 3~b2 X : 1/ 3 + 2 .
+5c2/ 3 .
+6 .
+9b2 + 2 .
+5 .
+8 .
+11c4/ 3 .
+6 .
+9 .
+12 .
+15b4 &amp;c. Therefore , s+ d/ 2 3~b X : 1 2c2/ 3 .
+6b2 2 .
+5 .
+8c4/ 3 .
+6 .
+9 .
+12b4 &amp;c. = ~s d/ 2 ~3~c~ -3/ 3~b2 X : 1/ 3 + 2 .
+5c2/ 3 .
+6 .
+9b + 2 .
+5 .
+8 .
+11c4/ 3 .
+6 .
+9 .
+12 .
+15b4 &amp;c. for the other two roots , which were given by CLAIRAUT , in his Elemens d'Algebre .
+69 .
+Hence again it appears , that when c2 is positive , these two latter roots are imaginary ; for then the factor c~ 3/ 3~ b2 is imaginary .
+And that those roots are real when this c2 is negative ; for then this factor becomes c~ 1X~ 3/ 3~b2 = c~3/ 3~b2 , a real quantity .
+But in this last case , the sign of every second term in the two series must be changed , namely , the signs of the terms containing the odd powers of the negative quantity c2 ; for the series contain the letters as adapted to the positive sing only .
+70 .
+These series are proper for those cases only in which c2 is not greater than b2 ; for if c2 were greater than b2 , they would all diverge , and be of no use : and the series proper for the other cases , namely , in which c2 , is greater than b2 , we shall give below .
+71 .
+That c2 be less than b2 , or the foregoing series be proper to be used , a or 1/ 3p must be a negative quantity ; for if it be positive , then c2 = b2 + a3 will be greater than b2 .
+But for this purpose a cannot be any negative quantity taken at pleasure ; for if it be so taken as that a3 be greater than 2b2 , then shall c2 = a3 b2 be greater than b2 .
+And hence these series converge only in some of the cases of three real roots , and in some of those that have only one real root , namely , from the 16th form to somewhere between the 12th and 13th forms in the general table Art .
+30 .
+when b is positive , and consequently it includes some cases both with and without imaginary roots .
+But that in all the cases , the first series s+d= 23~b X : 1 2c2/ 3 .
+6b2 &amp;c. is the greatest root , as will still more fully appear by consulting Art .
+83 .
+72 .
+Now , in the first place , when a= o , or c= b , which is the limit , or 16th case in the table Art .
+30 , the equation being x3 =q= 2b , then the only real root is s= 3~b +o= 3~2b = 3~q = 3~b X : 1+ 1/ 3 2/ 3 .
+6+ &amp;c. Hence also , dividing by 3~b , we have 3~ 2=1+ 1/ 3 2/ 3 .
+6+ 2 .
+5/ 3 .
+6 .
+9 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 &amp;c. 73 .
+But in this case also the root is s+d=2 3~b X : 1 2/ 3 .
+6 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 &amp;c. And 76 .
+And by taking other values of b and c , or other relations between them , any number of infinite series may be assigned , whose sums will be given by the two equations 3~ b~c= 3~ b x : 1~ c/ 3b 2c2/ 3 .
+6b2 ~ 2 .
+5c3/ 3 .
+6 .
+9b3 &amp;c. And if b be very great in respect of c , the two first terms of the series will give the cube root true to many places of figures .
+77 .
+Hitherto is concerning one of the limits or extreme cases only , namely , when c2 = b2 , or when the equation is x3 =q= 2b .
+And it has been observed , that the first general series for the three roots converges in all the cases of the equation x3 px = q , or x3 3ax = 2b , in which a3 is not greater than 2b2 .
+But a3 may be any real quantity not greater than 2b2 , and so it may be either less than , equal to , or greater than b2 .
+78 .
+When , in this equation , a3 is less than b2 , then c2 is positive , and less than b2 , and the first series gives the only real root without any change in the signs of the terms .
+And to this belongs all cases of the equation that can fall in between the 13th and 16th formulae in the general table in Art .
+30 .
+79 .
+If a3 be = b2 , then c= 0 , and the three first series give 2 3~ b= 3~ 4q for the greatest root , and 3~ b for each of the less roots .
+The same as at the 13th form in the general table Art .
+30 .
+80 .
+When a3 is greater than b2 , c2 will be negative , and then , changing the signs of the odd powers of c2 , the three general series will give the three roots of the equation , which will always be all real .
+In this class are two cases , namely , when c2 is less than b2 , and when they are equal , which is the limit ; for when c2 becomes greater than b2 , the series diverge .
+81 .
+Now when a3 is between b2 and 2b2 , then c2 is negative and less than b2 , and the general series give all the three real roots by changing the sign of every other term .
+82 .
+And when a3 = 2b2 , then c2 = b2 , and the three roots become thus : 2 3~ b x : 1+ 2/ 3 .
+6 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 + 2 .
+5 .
+8 .
+11 .
+14/ 3 .
+6 .
+9 .
+12 .
+15 .
+18 &amp;c. the first or greatest root , 3~ b x : 1+ 2/ 3 .
+6 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 + 2 .
+5 .
+8 .
+11 .
+14/ 3 .
+6 .
+9 .
+12 .
+15 .
+18 &amp;c. and ~ 3~ bx~3 x : 1/ 3 2 .
+5/ 3 .
+6 .
+9+ 2 .
+5 .
+8 .
+11/ 3 .
+6 .
+9 .
+12 .
+15 &amp;c. the two less roots .
+83 .
+The first of these 3 is the greatest root , because 3~ b x : 1+ 2/ 3 .
+6 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 &amp;c. is greater than 3~ bx~3 x : ~/ 3 2 .
+5/ 3 .
+6 .
+9 &amp;c. for 1+ 2/ 3 .
+6 &amp;c. is greater than 1 , and ~3 x : 1/ 3 2 .
+5/ 3 .
+6 .
+9 &amp;c. =~ 1/ 3 x : 1 2 .
+5/ 6 .
+9 &amp;c. is less than 1 .
+So that in general the first series gives the greatest of the three roots .
+84 .
+But it is evident , that this case agrees with the 10th form in the table Art .
+30 ; in which the middle root r is found to be 3~4q/ 2 = 3~2q = 3~4b =2 3~1/ 2b , and the two other , or greatest and least roots , are 1/ 2r ~ ~1 ~ ~3 = 3~1/ 2b ~ ~1 ~ ~3 .
+85 .
+Hence by a comparison of these two different forms of the same roots we find ~3 +1=1+ 2/ 3.6 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 + 2 .
+5 .
+8 .
+11 .
+14/ 3 .
+6 .
+9 .
+12 .
+15 .
+18 &amp;c. = A , and ~3-1/ 23~2 = 1/ 3 2 .
+5/ 3 .
+6 .
+9+ 2 .
+5 .
+8 .
+11/ 3 .
+6 .
+9 .
+12 .
+15 &amp;c. = B. 86 .
+And by adding and subtracting these two , we find ~3/ 3~2 =1+ 1/ 3 + 2/ 3 .
+6 2 .
+5/ 3 .
+6 .
+9 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 ++ &amp;c. and 1/ 3~2 =1 1/ 3 + 2/ 3 .
+6+ 2 .
+5/ 3 .
+6 .
+9 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 ++ &amp;c. = c. 87 .
+Also , because ~3 + 1/ 23~2 ~ ~3 1/ 23~2 is = 1/ 23~4 , which is = 1/ 2 ~ 1/ 3~2~2 ; therefore the mean proportional between the two series A and B , is to the series C , as the side of a square is to its diagonal .
+88 .
+Moreover , to and from the two series A and B , adding and subtracting the two series in Art .
+74 .
+namely , 1/ 2 3~2 or 3~2/ 2 =1 2/ 3 .
+6 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 &amp;c. = 1/ 3 + 2 .
+5/ 3 .
+6 .
+9+ 2 .
+5 .
+8 .
+11/ 3 .
+6 .
+9 .
+12 .
+15 &amp;c. we obtain the 4 following series : ~3 + 3~4 + 1/ 43~2 =1 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 2 .
+5 .
+8 .
+11 .
+14 .
+17 .
+20/ 3 .
+6 .
+9 .
+12 .
+15 .
+18 .
+21 .
+24 &amp;c. ~3 + 3~4 1/ 43~2 = 1/ 3 + 2 .
+5 .
+8 .
+11/ 3 .
+6 .
+9 .
+12 .
+15 + 2 .
+5 .
+8 .
+11 .
+14 .
+17 .
+20 .
+23/ 3 .
+6 .
+9 .
+12 .
+15 .
+18 .
+21 .
+24 .
+27 &amp;c. ~3 3~4 + 1/ 43~2 = 2/ 3 .
+6+ 2 .
+5 .
+8 .
+11 .
+14/ 3 .
+6 .
+9 .
+12 .
+15 .
+18 &amp;c. ~3 3~4 1/ 43~2 = 2 .
+5/ 3 .
+6 .
+9 2 .
+5 .
+8 .
+11 .
+14 .
+17/ 3 .
+6 .
+9 .
+12 .
+15 .
+18 .
+21 &amp;c. 89 .
+It also appears , that the series 1 1/ 3 + 2/ 3 .
+6+ 2 .
+5/ 3 .
+6 .
+9 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 2 .
+5 .
+8 .
+11/ 3 .
+6 .
+9 .
+12 .
+15 &amp;c. is the reciprocal of the series 1+ 1/ 3 2/ 3 .
+6+ 2 .
+5/ 3 .
+6 .
+9 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 + 2 .
+5 .
+8 .
+11/ 3 .
+6 .
+9 .
+12 .
+15 &amp;c. where the signs of the former series are found by changing the signs of every other pair of terms in the latter ; namely , omitting the first term , change the signs of the 2d and 3d terms , then passing over the 4th and 5th terms , change the signs of the 6th and 7th ; and so on .
+For , by Art 86 .
+the former of these series is equal to 1/ 3~2 ; and , by Art .
+72 .
+the latter is equal to 3~2 .
+90 .
+Let us now consider the cases in which c2 is greater than b2 , which include all the cases not comprehended by the former , or in which c2 is not greater than b2 .
+And this , it is evident , will happen both when a is positive and when negative ; namely when a is any positive quantity whatever , or when it is any negative quantity , and a3 greater than 2 b2 .
+And in these two classes , c2 will be positive or negative , according as a is positive or negative .
+91 .
+Now the series in this class will be found the same way as in the last , by only writing here the letter c before the letter b ; for then we shall have s= 3~c + b , and d= 3~c +b= 3~c b. Then s= 3~c +b= 3~c ~ : 1+ b/ 3c 2b2/ 3 .
+6c2 + 2.5b3/ 3 .
+6 .
+9c3 &amp;c. and d= 3~c b= 3~c ~ : 1+ b/ 3c + 2b2/ 3 .
+6c2 + 2 .
+5b3/ 3 .
+6 .
+9c3 &amp;c. Hence s+d= 2b/ 3~c2 ~ : 1/ 3 + 2 .
+5b2/ 3 .
+6 .
+9c2 + 2 .
+5 .
+8 .
+11b4/ 3 .
+6 .
+9 .
+12 .
+15c4 &amp;c. = the 1st root , and was given by CLAIRAUT .
+And s+d/ 2 -b/ 3~c2 ~ : 1/ 3 + 2 .
+5b2/ 3 .
+6 .
+9c2 + 2 .
+5 .
+8 .
+11b4/ 3 .
+6 .
+9 .
+12 .
+15c &amp;c. = ~ s-d/ 2 ~-3 ~ 3~c .
+~3 ~ : 1 2b2/ 3 .
+6c2 2 .
+5 .
+8b4/ 3 .
+6 .
+9 .
+12c4 &amp;c. for the other two roots , which , I believe , are new .
+92 .
+Here it again appears , that when c2 is positive , the two latter roots are imaginary ; because then 3~ c~~3 will be imaginary .
+But if c2 be negative , those roots will be both real ; since 3~ c~~3 then becomes 3~ c. ~1~~3= 3~ c~~1~~3= 3~ c~~ 3 .
+The signs prefixed to the terms as above , take place when c2 is positive ; but when c2 shall be negative , the signs of the terms containing the odd powers of it must be changed .
+And these series include all the cases in which the former ones failed by not converging .
+So that between them they comprehend all the cases of the general cubic equation x3 ~ px = q , as they each reciprocally converge when the other diverges , but in no other case , except in the common class , in which c is = b , which happens at the two limits , namely , either when a is = 0 , or when a3 = 2b2 : and then they both give the same roots .
+But in the other cases they give the contrary roots ; namely , when c is less than b , the first series gives the greatest root ; and when c is greater than b , the latter series gives the least root .
+93 .
+Now when a is any positive quantity , the first of these series gives the only real root , without any change in the signs of the terms ; the other two being imaginary .
+And this includes all the cases after the 16th in the table in Art .
+30 .
+94 .
+When a is = 0 , or the limit between positive and negative , as in the 16th form in Art .
+30 .
+then is c= b , and the only real root , or the first series , becomes 23~ b ~ : 1/ 3 + 2 .
+5/ 3 .
+6 .
+9+ &amp;c. which is the same root as was before found in Art .
+73 .
+So that in this 16th case , both this series and the series in Art .
+67 .
+converge , and give the same and only real root .
+95 .
+When a becomes negative , then c2 becomes negative , and the roots all real .
+But in this case the series only begins to converge when a3 = 2b2 , for then c2 becomes = b2 , and then , making the proper change in the signs of the terms , the three roots become 1st .
+23~ b ~ : 1/ 3 2 .
+5/ 3 .
+6 .
+9+ 2 .
+5 .
+8 .
+11/ 3 .
+6 .
+9 .
+12 .
+15 &amp;c. the least root , and + 3~ b ~ : 1/ 3 2 .
+5/ 3 .
+6 .
+9+ 2 .
+5 .
+8 .
+11/ 3 .
+6 .
+9 .
+12 .
+15 &amp;c. ~ 3~ b. ~3 ~ : 1+ 2/ 3 .
+6 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 + 2 .
+5 .
+8 .
+11 .
+14/ 3 .
+6 .
+9 .
+12 .
+15 .
+18 &amp;c. the two greater roots .
+96 .
+I have here said , that the first of these three roots is the least of them .
+To prove which , I assert , that ~3 ~ : 1+ 2/ 3 .
+6 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 &amp;c. is greater than 3 times 1/ 3 2 .
+5/ 3 .
+6 .
+9 &amp;c. for 3 ~ : 1/ 3 2 .
+5/ 3 .
+6 .
+9 &amp;c. =1 2 .
+5/ 6 .
+9 &amp;c. is less than 1 , whereas 1+ 2/ 3 .
+6 &amp;c. is greater than 1 .
+Consequently , the less of the two latter roots , namely , 3~ b. ~3 ~ : 1+ 2/ 3 .
+6 &amp;c. 3~ b ~ : 1/ 3 2 .
+5/ 3 .
+6 .
+9 &amp;c. is greater than the first root 2 3~ b ~ : 1/ 3 2 .
+5/ 3 .
+6 .
+9 &amp;c. That is to say , here the first is the least of the three roots , while in the other class of series the first is the greatest root .
+97 .
+Hence , comparing the value of any one of the roots here found , with the value of the same root as found in Art .
+82 , we obtain the relation between the two series that are concerned in them , namely , that the series 1+ 2/ 3 .
+6 2 .
+5 .
+8/ 3 .
+6 .
+9 .
+12 + 2 .
+5 .
+8 .
+11 .
+14/ 3 .
+6 .
+9 .
+12 .
+15 .
+18 &amp;c. is to the series 1/ 3 2 .
+5/ 3 .
+6 .
+9+ 2 .
+5 .
+8 .
+11/ 3 .
+6 .
+9 .
+12 .
+15 2 .
+5 .
+8 .
+11 .
+14 .
+17/ 3 .
+6 .
+9 .
+12 .
+15 .
+~ .
+21 &amp;c. as ~3+1 is to ~3 1 , or as 2+~3 to 1 , or as 1 to 2~ 3 , which are all equal to the same ratio .
+And the same thing appears from Art .
+85 .
+98 .
+When a3 becomes greater than 2b2 .
+c2 is greater than b2 , and , by the proper change in the signs , the series for the roots in all cases of this kind become 1st .
+2b/ 3~ c2 ~ : 1/ 3 2 .
+5b2/ 3 .
+6 .
+9c2 + 2 .
+5 .
+8 .
+11b4/ 3 .
+6 .
+9 .
+12 .
+15c4 &amp;c. the least root .
++ b/ 3~ c2 ~ : 1/ 3 2 .
+5b2/ 3 .
+6 .
+9c2 + 2 .
+5 .
+8 .
+11b4/ 3 .
+6 .
+9 .
+12 .
+15c4 &amp;c. the two and greater ~ 3~ c. ~3 ~ : 1+ 2b2/ 3 .
+6c2 2 .
+5 .
+8b4/ 3 .
+6 .
+9 .
+12c4 &amp;c. roots .
+99 .
+Let us now illustrate all the foregoing series for the roots of cubic equations , by finding by means of found the roots of those equations in which that rule fails when it is applied singly , that is , in what is called the irreducible case , or that in which c2 is negative .
+And those series are found by introducing another cubic equation having the same values of b and c2 as the given equation , except that in the new equation the value of c2 is positive , while in the given one it is negative .
+For when c2 is positive , the new equation to which it belongs has only one real root , and that root is always found by CARDAN'S rule ; but the contrary takes place when c2 is negative , the equation having then three real roots , although they are not always determinable by that rule , because the radical quantities can seldom be extracted , on account of the square root of the negative quantity which is contained in them .
+125 .
+Now the general expression for the root by CARDAN'S rule being s+d= 3~ b+~ ~c2 + 3~ b-~ ~ c2 or 3~ ~~ c2 +b 3~ ~~ c2 b , if the cubic roots of each of these be extracted by the binomial theorem , as at Art .
+68 , we shall obtain these 4 forms ; 1 .
+3~ b+~+ c2 + 3~ b~+ c2 =2 3~ b X : 1 2c2/ 3 .
+6b2 &amp;c. 2 .
+3~ b+~ c2 + 3~ b~ c2 =2 3~ b x : 1+ 2c2/ 3 .
+6b2 &amp;c. 3 .
+3~ ~+ c2 +b3~~+ c2 b= 2b/ 3~c2 x : 1/ 3 + 2 .
+5b2/ 3 .
+6 .
+9c2 + &amp;c. 4 .
+3~ ~ -c2 +b 3~ ~ c2 b= 2b/ 3~c2 x : 1/ 3 + 2 .
+5b2/ 3 .
+6 .
+9c2 &amp;c. tion x3 3ax = 2b or x3 3 3~c2 + b2 .
+x= 2b , and x the only real root of the equation x3 +3 3~c2 b2 .
+x= 2b ; in which , as well as in the above series , c2 denotes a positive quantity .
+128 .
+And hence it can no longer be said that CARDAN'S rule is of no use in the solution of cubic equations that have three real roots ; since they have here been reduced to the other case in which the equation has but one real root , which case is always resolvable by that rule .
+And the first hint of such reduction I received from FRANCIS MASERES , Esq. Cursitor Baron of the Exchequer , he having done me the favour to communicate to me the second of the above four forms for the greatest root , in a letter of the 17th of July 1779 ; the investigation of which formula , together with those of the other three , nearly as above , I had the honour of sending him in a letter of the 26th of the same month ; and that learned gentleman has since communicated to the Royal Society his said formula , together with his own investigation of it , done in his usual very accurate manner .
+Since that time I have seen , in the Memoires de l ' Acad. for the year 1743 , four expressions similar to the above , given by Mr. NICOLE for the purpose of summing certain terms of a binomial raised to any power , but unaccompanied with any appearance of the idea of thus reducing the one case of the cubic equation to the other .
+129 .
+It is hardly necessary to remark , that any general series of each of the above four forms , is summed by means of the sum or difference of the roots of these two equations x3 3 3~b2 ~ c2 .
+x= 2b , and that by substituting particular numbers for b and c , we may thus sum as many series of those forms as we please .
+130 .
+Ex. 1 .
+We may now illustrate these formulas by some examples .
+And first in the equation x3 15x = 4 .
+Here 2b = 4 , and 3 3~b2 + c2 = 15 , consequently b= 2 , and c2 = 53 b2 = 125 4= 121 = 112 , and X= 3~c +b 3~c b= 3~13 3~9 =.2712508 the root of the equation x3 3 3~b2 c2 .
+x= 2b or x3 +3 3~117 .
+x= 4 .
+And as b is less than c , this equation belongs to the two series in the latter case for finding the least root .
+Hence , the terms of the two series agreeing with the positive and negative terms of the series in Art .
+106 , they will stand thus : And thus we may find the sums of as many series of these kinds as we please ; as well as the sum of any of the general series , by means of the roots of given cubic equations .
+As to the summation of other forms of series by means of the roots of equations of other orders , I shall perhaps treat of them on some future occasion .
+

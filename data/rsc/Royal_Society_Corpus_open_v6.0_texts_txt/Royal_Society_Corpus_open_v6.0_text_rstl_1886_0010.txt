@@ -1,0 +1,630 @@
+[ 331 ] IX .
+Dynamo-Electric Machinery .
+By J. Hopkinson , M.A. , D.Sc .
+, F.B.S. , and E. Hopkinson , Received April 19 , \#151 ; Read May 6 , 1886 .
+[ Plates 16-20.* ] Theoretical Construction of Characteristic Curve .
+Omitting the inductive effects of the current in the armature itself , all the properties of a dynamo machine are most conveniently deduced from a statement of the relation between the magnetic field and the magnetising force required to produce that field , or , which comes to the same thing but more frequently used in practice , the relation between the electromotive force of the machine at a stated speed and the current around the magnets .
+This relation given , it is easy to deduce what the result will be in all employments of the machine whether as a motor or to produce a current through resistance , through an electric arc , or in charging accumulators ; also the result of varying the winding of the machine whether in the armature or magnets .
+The proper independent variable to choose for discussing the effect of a dynamo machine is the current around the magnets , and the primary relation it is necessary to know concerning the machine is the relation of the electromotive force of the armature to the magnet current .
+This primary relation may be expressed by a curve ( Hopkinson , Meehan .
+Engine .
+Instit .
+Proc. , 1879 , pp. 246 et seq. , 1880 , p. 266 ) , now called the characteristic of the machine , and all consequences deduced therefrom graphically ; or it may be expressed by stating the E.M.F. as an empirical function of the magnetising current .
+Many such empirical forcradae have been proposed ; as an instance we may mention that known as Frohlich 's , according to whom , if c be the current in the magnets , E the resulting E.M.F. , E=~\#151 ; .
+For some machines this formula is said to express observed results fairly accurately , but in our experience it does not sufficiently approximate to a straight line in the part of the curve near the origin .
+The character of the error in Frohlich 's formula is apparent by reference to Sheet I. ( Plate 16 ) , which gives a series of observations on a dynamo machine , and for comparison therewith a hyperbola F , drawn as favourably as possible * Plates 19 , 20 added Aug. 17 .
+to accord with the observations.* Such empirical formulae possess no advantage over the graphical method aided by algebraic processes , and tend to mask much that is of importance .
+One purpose of the present investigation is to give an approximately complete construction of the characteristic curve of a dynamo of given form from the ordinary laws of electro-magnetism and the known properties of iron , and to compare the result of such construction with the actual characteristic of the machine .
+The laws of electromagnetism needed are simply ( Thomson , papers on ' Electrostatics and Magnetism Maxwell , 'Electricity and Magnetism , ' vol. 2 , pp. 24 , 26 , and 143 ) , ( 1 ) tha , t the line integral of magnetic force around any closed curve , whether in iron , in air , or in both , is equal to 47rac where cis the current passing through the closed curve , and n is the number of times it passes through ; ( 2 ) the solenoidal condition for magnetic induction , that is , if the lines of force or of induction be supposed drawn , then the induction through any tube of induction is the same for every section .
+Regarding the iron itself , we require to know from experiments on the material in any shape the relation between a , the induction , and a , the magnetic force at any point ; for convenience write a=f~1(a ) , or a From these premises , without any further assumption , it is easy to see that a sufficiently powerful and laborious analysis would be capable of deducing the characteristic of any dynamo to any desired degree of accuracy .
+This we do not attempt , as even , if successful , the analysis would not be likely to throw any useful light on the practical problem .
+We shall calculate the characteristic , first making certain assumptions to simplify matters .
+We shall next point out the nature of the errors introduced by these assumptions , and make certain small corrections in the method to account for these sources of error , merely proving that the amount of these corrections is probable or deducing it from a separate experiment , and again compare the theoretical and the actual characteristic .
+First approximation.\#151 ; Assume that by some miracle the tubes of magnetic induction are entirely confined to the iron excepting that they pass directly across from the bored faces of the pole-pieces to the cylindrical face of the armature core .
+This , we shall find , introduces minor sources of error , affecting different parts of the characteristic curve to a material extent .
+Let I be total induction through the armature , A1 the area of section of the iron of the armature , the mean length of lines of force in the armature ; A2 the area of each of the two spaces between core of armature and the pole-pieces of the magnets , l2 the distance between the core and the pole-piece ; [ * Added Aug. 17.\#151 ; That Frohlioh 's formula cannot be a thoroughly satisfactory expression of the characteristic of a dynamo machine is evident from the consideration that E should simply change its sign with c , that is , be an odd function of c. There should he a point of inflexion in the characteristic .
+( E c . .
+, curve at the origin .
+Another empirical formula \#151 ; = tan-1 ^ is free from this objection , but still fails to fully represent the approximation of the curve to a straight line on either side of the origin , and it is equally uninstructive with any other purely empirical formula .
+] DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+A3 the area of core of magnet , l3 the total length of the magnets .
+All the tubes of induction which pass through the armature pass through the space A3and the magnet cores , and by our assumption there are no others .
+We now assume further that these tubes are uniformly distributed over these areas .
+The induction per square centimetre is then j- in the armature core , \#151 ; in the non-magnetic spaces , \#151 ; in the magnet cores ; the corresponding magnetic forces per centimetre linear must be / ( !
+" ) , / ( fj .
+The line integral of magnetic force round a closed curve must be In this aPProximation we neglect the force required to magnetise pole-pieces and other parts not within the magnet coils to avoid complication .
+The equation of the characteristic curve is then +\#163 ; 3 f \Ai/ A3 This curve is , of course , readily constructed graphically from the magnetic property of the material expressed by the curve a ( a ) .
+In Sheet I. curve A represents x = lif(Kx ) ' the line B x='2l2~~ , curve C and curve D the calculated characteristic .
+When we compare this with an actual characteristic E , we shall see that , broadly speaking , it deviates from truth in two respects : ( 1 ) it does not rise sufficiently rapidly at first ; ( 2 ) it attains a higher maximum than is actually realised .
+Let us examine these errors in detail .
+( 1 ) The angle the characteristic makes with the axis of abscissae near the origin is mainly determined by the line B. We have in fact a very considerable extension of Fig. 1 .
+the area of the field beyond that which lies under the bored face of the pole-piece .
+The following consideration will show that the extension may be considerable .
+Imagine an infinite plane slab , and parallel with it a second slab cut off by a second plane making an angle a. We want a rough idea of the extension of the area between the plates by the spreading of the lines of induction beyond the boundary .
+We know that the actual extension of the area will be greater than we shall calculate it to be if we prescribe an arbitrary distribution of lines of force other than that which is consistent with Laplace 's equation .
+Assume , then , the lines of force to be segments of ciicles centre 0 , and stiaight lines perpendicular to OA .
+The induction along a line PQL will be V being difference of potential between the planes , and the added induction from OPB will be I* _ A_ lu " Thus if * we have for x=t , 21 , \amp ; c. J o( Tr \#151 ; a)x + t7T \#151 ; \#171 ; b t 6 X . . .
+1 , Oir\#151 ; ct)x + t los ( t . . .
+-599 2 t . .
+-904 3 t . .
+1-109 U . . .
+1-263 5 t 1-387 lOt . .
+1-792 showing that the extension of the area of the field is likely to be considerable .
+( 2 ) The failure of the actual curve to reach the maximum indicated by approximate theory is because the theory assumes that all tubes of induction passing through the magnets pass also through the armature .
+Familiar observations round the pole pieces of the magnets show that this is not the case .
+If v be the ratio of the total induction through the magnets to the induction in the armature we must , in our expression for the line integral of magnetising force , replace the term f(^j by v is not strictly a constant , as we shall see later ; it is somewhat increased as I increases owing to magnetisation of the core of the armature , and it is also affected by the current in the armature .
+For our present purpose we treat it as constant .
+There is yet another source of error which it is necessary to examine .
+Some part of the induction in the armature may pass through the shaft instead of through the iron plates .
+An idea of the amount of this disturbance may be readily obtained .
+Consider the closed curve ABCDEF , AB and FEDC are drawn along lines of force , AF and BC are orthogonal to lines of force .
+Since this closed curve has no currents passing through it , the line integral of force around it is nil ; therefore , neglecting force along ED , we have force along AB is equal to force along FE and DC .
+In the machine presently described we may safely neglect the induction through the shaft ; the error is comparable with the uncertainty as to the value of ; but in another machine , with magnets of much greater section , the effect of the shaft would become very sensible when the core is practically saturated .
+DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+The amended formula now becomes innc= lj(f ) + 2 hj+ kf[f + + / ( fj where Z4 is the mean length of lines of force in the wrought-iron yoke , A4 the area of the yoke , Z5 and A5 corresponding quantities for the pole pieces , the last two terms being introduced for the forces required to magnetise the yoke and the two polepieces .
+Fig. 2 .
+We now repeat the graphical method of construction exactly as before , the actual observations of induction in armature and current being plotted on the same diagram , Sheet II .
+( Plate 17 ) , in which curve G represents the force required to magnetise the yoke , and curve H that required to magnetise the pole pieces .
+Before discussing these curves further , and comparing the results with those of actual observation , it may be convenient to describe the machine upon which the experiments have been made , confining the description strictly to so much as is pertinent to our present inquiry .
+Description of Machine .
+The dynamo has a single magnetic circuit , consisting of two vertical limbs , extended at their lower extremities to form the pole pieces , and having their upper extremities connected by a yoke of rectangular section .
+Each limb , together with its pole-piece , is formed of a single forging of wrought iron .
+These forgings , as also that for the yoke , are built up of hammered scrap and afterwards carefully annealed , and have a magnetic permeability but little inferior to the best Swedish charcoal iron .
+The yoke is held to the limbs by two bolts , the surfaces of contact being truly planed .
+In section the limb is oblong , with the corners rounded in order to facilitate the winding of the magnetising coils .
+A zinc base , bolted to the bed-plate of the machine , supports the pole-pieces .
+33G DUS .
+J. AND E. HOPKINSON ON D YN AMO-ELECT RIO MACHINERY .
+The magnetising coils are wound directly on the limbs , and consist of 11 layers on each limb of copper wire 2'413 mms .
+diameter ( No. 13 , B.^iV .
+Gr .
+) , making 3260 convolutions in all , the total length being approximately 4570 metres .
+The pole-pieces are bored to receive the armature , leaving a gap above and below , subtending an angle of 51 ' at the centre of the fields .
+The opposing surfaces of the gap are 8 mms .
+deep .
+The following table gives the leading dimensions of the machine cms .
+Length of magnet limb ... ... ... ... ... ... ... ... Width of magnet limb ... ... ... ... ... ... ... ... .
+Breadth of magnet limb ... ... ... ... ... ... ... . .
+Length of yoke ... ... ... ... ... ... ... ... ... ... .
+Width of yoke ... ... ... ... ... ... ... ... ... ... . .
+Depth of yoke ... ... ... ... ... ... ... ... ... ... . .
+Distance between centres of limbs ... ... ... ... Bore of fields ... ... ... ... ... ... ... ... ... ... .
+Depth of pole-piece ... ... ... ... ... ... ... ... .
+Width of pole-piece measured parallel to the shaft Thickness of zinc base ... ... ... ... ... ... ... . .
+Width of gap ... ... ... ... ... ... ... ... ... ... ... = 457 = 22-1 = 44*45 = 61-6 = 48-3 = 23-2 = 38-1 = 27-5 = 25-4 = 48-3 = 12-7 = 12-7 The armature is built up of about 1000 iron plates , insulated one from another by sheets of paper , and held between two end plates , one of which is secured by a washer shrunk on to the shaft , and the other by a nut and lock-nut screwed on the shaft itself .
+The plates are cut from sheets of soft iron , having probably about the same magnetic permeability as the magnet cores .
+The shaft is of Bessemer steel , and is insulated before the plates are threaded on .
+The following table gives the leading dimensions of the armature:\#151 ; Diameter of core ... ... ... ... ... ... ... . .
+Diameter of internal hole ... ... ... ... . .
+Length of core over the end plates . . .
+Diameter of shaft ... ... ... ... ... ... ... .
+cms .
+= 24-5 = 7-62 = 50-8 = 6-985 The core is wound longitudinally according to the Hefner von Alteneck principle with 40 convolutions , each consisting of 16 strands of wire 1*753 mm. diameter , the convolutions being placed in two layers of 20 each .
+The commutator is formed ol 40 copper bars , insulated wdth mica , and the connections to the armature so made that the plane of commutation in the commutator is horizontal , when no current is passing through the armature .
+Plate 18 , fig. 3 shows a. side elevation of the dynamo ; fig. 4 a cross-section through DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY , the centres of the magnets ; fig. 5 a section of the core of the armature , in a plane through the axis of the shaft .
+The dynamo is intended for a normal output of 105 volts 320 amperes at a speed of 750 revolutions per minute .
+The resistance of the armature measured between opposite bars of the commutator is 0'009947 ohm , and of the magnet coils 16'93 ohms , both at a temperature of 13'5 ' Centigrade ; Lord Rayleigh 's determination of the ohm being assumed .
+We have now to estimate the lengths and areas required in the synthesis of the characteristic curve .
+A4 ; \#151 ; from the length of the core of the armature ( 50'8 cms .
+) must be deducted 3 '4 cms .
+for the thickness of insulating material between the plates ; the resultant area is , on the other hand , as has already been stated , slightly augmented by the presence of the steel shaft .
+A1 is taken as 8 10 sq .
+cms .
+; \#151 ; this is assumed to be 13 cms .
+: i.e. , slightly in excess of the shortest distance ( 12*6 cms .
+) between the pole-pieces .
+A2 ; \#151 ; the angle subtended by the bored face of the pole-piece at the axis is 129 ' , the breadth of the pole-piece is 48'3 cms .
+, the diameter of the bore of the field is 27'5 cms .
+, and , as already stated , the diameter of core 25*5 cms .
+, thus , the area of pole-piece is 1513 sq .
+cms .
+, and the area of 129 ' of the cylinder at the mean radius of 13*0 cms .
+is 1410 sq .
+cms ; this value is taken for A.2 in the curves drawn on Sheet I. ( Plate 16 ) .
+In Sheet II .
+( Plate 17 ) A2 is taken as 1600 , an allowance of 190 sq .
+cms .
+being made for the spreading of the field at the edges of the pole190 . .
+l-2 pieces , or \#151 ; ^=1*2 cm .
+all round the periphery , that is ^=0'8 of the distance from iron of pole-pieces to iron of core .
+Z2 is P5 cm .
+A3 is a little uncertain as the forgings are not tooled all over , it is here taken as 930 sq .
+cms .
+, but this value may be slightly too high .
+\#166 ; 7 } is 91*4 cms .
+A4 is 1120 sq .
+cms .
+Z4 is 49 cms .
+, being measured along a quadrant from the centre of the magnet , thus:\#151 ; Fig. 3 .
+A5 is 1230 sq .
+cms .
+, intermediate between the area of magnet and face of pole-picce .
+l5 is 11 cms .
+v was determined by experiment as described below , and its value is taken as 1*32 ; mdccclxxxvi .
+2 x when the magnetising current is more than 5'62 amperes its value should be a little greater .
+The function f(a ) is taken from Hopkinson , Phil. Trans. , vol. 176 ( 1885 ) , p. 455 ; the wrought iron there referred to was not procured at the same time as , and its properties may differ to a certain extent from , the wrought iron of these magnets .
+The curves now explain themselves , the abscissae in each case represent the line integral of magnetising force in the part of the magnetic circuit referred to , the ordinates , the number of lines of induction which also pass through the armature .
+The results of the actual observations on the machine are indicated , those when the magnetising force is increasing + , when it is decreasing \#169 ; .
+The measurements of the currents in the magnets which were separately excited , and of the potential difference between the brushes , the circuit being open , were made with Sir W. Thomson 's graded galvanometers , standardised at the time of use .
+The irregularities of the observations are probably due to the variation of speed , the engine being not quite perfectly governed .
+The second construction exhibits quite as close an agreement between observation and calculation as could be expected ; the deviation at high magnetising forces is probably due to three causes , increase in the value of v when the core of the armature is partially saturated , uncertainty as to the area A3 , difference in the quality of the iron .
+It is interesting to see how clearly theory predicts the difference between the ascending and descending curves of a dynamo .
+Consideration of the diagram proves that this machine is nearly perfect in its magnetic proportions .
+The core might be diminished by increasing the hole through it to a small , but very small , extent without detriment .
+Any reduction of area of magnets would be injurious , they might , indeed , be slightly increased with advantage .
+An increase in the length of the magnets would be very distinctly detrimental .
+Again , little advantage results from increasing the magnetising force beyond the point at which the permeability of the iron of the magnets begins to rapidly diminish .
+For iron of the same quality as that of the machine under consideration , a magnetising force of 2'6X103 or 28*4 per centimetre is suitable .
+To get the same induction in other parts of the circuit , the diagram shows that for the air space a magnetising force of 21 X 103 is required , for the pole-pieces O ' ] X 103 , for the armature 0'2x 103 , for the yoke O'GXlO3 , making a total force required of 24'5X103 .
+Any alteration in the length or the area of any portion of the magnetic circuit entails a corresponding alteration in the magnetising forces required for that portion , at once deducible from the diagram .
+Similar machines must have the magnetising forces proportional to the linear dimensions , and , consequently , if the electromotive force of the machines is the same , the diameter of the wire of the magnet coils must be proportional to the linear dimensions .
+If the lengths of the several portions of the magnetic circuit remain the same , but the areas are similarly altered , the section of the wire must be altered in proportion to the alteration in the periphery of the section .
+DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+Experiment to determine Around the middle of one of the magnet limbs a single coil of wire was taken , forming one complete convolution , and its ends connected to a Thomson 's mirror galvanometer rendered fairly ballistic .
+If the circuit of the field magnets , while the exciting current is passing , be suddenly short-circuited , the elongation of the galvanometer is a measure of the total induction within the core of the limbs , neglecting the residual magnetisation .
+If the short circuit be suddenly removed , so that the current again passes round the field-magnets , the elongation of the galvanometer will be equal in magnitude and opposite in direction , The readings taken wTere : Zero 71 left .
+Deflection ... ... ... ... ... ... . .
+332 " magnets made .
+" 196 right ; magnets short-circuited .
+Hence , deflection to right = 267 " left = 261 Mean deflection = 264 To determine the induction through the armature , the leads to the ballistic galvanometer were soldered to consecutive bars of the commutator , connected to that convolution of the armature , which lay in the plane of commutation .
+The readings taken were : Zero . .
+Deflection Hence , deflection to right and left left .
+, , magnets made .
+J- right ; magnets short-circuited .
+It thus appears that out of 264 lines of force passing through the cores of the magnet limbs at their centre , 200 go through the core of the armature , whence v equals 1*32 .
+The magnetising current round the fields during these experiments was 5*6 amperes .
+Experiments on Waste Field not passing through Armature .
+As in the determination of va single convolution was taken around the middle of one of the limbs , and connected to the ballistic galvanometer ; the deflections , when a current of 5*6 amperes was suddenly passed through the fields or short-circuited , were : 2x2 DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+Zero ... ... ... ... ... ... ... ... . .
+34 left Deflection ... ... ... ... ... ... .
+443 " magnets made .
+82 right ; magnets short-circuited .
+Hence , deflection to right = 116 " left = 114 Mean deflection =115 I. Four convolutions were then wound round the zinc plate and the cast-iron bed in a vertical plane , passing through the axis of the armature ; and the deflections noted : Zero .
+Deflection Zero . .
+Deflection 15 left .
+61 " magnets short-circuited .
+40 right ; magnets made .
+11 left .
+64 " magnets short-circuited .
+36 right ; magnets made .
+Hence , deflection to right =55 left = 46 and deflection to right =47 left = 53 in the two observations respectively , giving a mean =50*25 ; or , reducing to one convolution , =12*6 .
+II .
+A square wooden frame , 38 cms .
+X 38 cms .
+, on which were wound ten convolutions , was then inserted between the magnet limbs , with one side resting on the armature , and an adjacent side projecting 5 cms .
+beyond the coils on the limbs , oi about 7'6 cms .
+beyond the cores of the limbs .
+The deflections were : Zero ... ... ... ... ... ... ... ... ... .
+34 left .
+Deflection ... ... ... ... ... ... ... .
+98 " magnets made .
+... ... ... ... ... ... ... 22 right ; magnets short-circuited .
+, , ... ... ... ... ... ... .
+21 , , , , \gt ; \#187 ; ... ... ... ... ... ... ... 81 left ; magnets made .
+Hence , deflection to right =56 " left =64 and " right =55 " left = 47 in the two observations respectively , giving a mean =55 ; or , reducing to one convolution , =5'5 .
+DRS .
+J. AND B. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+341 III .
+The same frame was raised a height of 6*35 eras , above the armature in a vertical plane .
+The deflections were : Zero ... ... ... ... ... ... ... Deflection ... ... ... ... ... .
+Zero .
+... ... ... ... ... .
+Deflection ... ... ... ... ... Hence , deflection to left " right and mean deflection or , reducing to one convolution 21 left .
+98 " magnets made .
+35 left .
+8 right ; magnets short-circuited .
+- 50 = 43 = 46-5 = 4-6 .
+IV .
+The same frame was again lowered on the armature and pushed inwards so as to lie symmetrically within the space between the limbs .
+The deflections were : Zero ... ... ... ... ... ... .
+32 right .
+Deflection ... ... ... ... .112 " magnets made .
+" ... . .
+48 left ; magnets short-circuited .
+giving a mean of 80 ; or , reducing to one convolution , = 8'0 .
+Let G represent the leakage through a vertical area bounded by the armature , and a line 7'6 cms .
+above the armature , and of the same width as the pole-pieces ; let Tv be the remainder of the leakage between the limbs ; then II .
+and III .
+give iG+3R=5'5 tR=4-6 O G=l-35 R=6-9 ^(G+R)=8'0 G+R=9-6 which shows an agreement as near as might be expected considering the rough nature of the experiment , and that the leakage is assumed uniform over the areas considered .
+We take \gt ; whence Again IV .
+gives therefore G== 1 '6 11=8-0 Reducing these losses to percentages we have P6 G 115 = 7'0 33 115 And from I. the leakage through the zinc plate j- =10'3 and iron base 3 3 Hence the two gaps account for 2'8 \gt ; 3 The zinc plate and iron base account for 10*3 3.3 And the area between the limbs 7'0 33 Making a total loss accounted for .
+20T 33 Out of an observed loss of 24'24 33 The leakage through the shaft and from pole-piece to yoke , and one pole-piece to the other by exterior lines , will account for the remainder .
+Effect of the Current the Armature .
+The currents in the fixed coils around the magnets are not the only magnetising forces applied in a dynamo machine ; the currents in the moving coils of the armature have also their effect on the resultant field .
+There are in general two independent variables in a dynamo machine , the current around the magnets and the current in the armature , and the relation of E.M.F. to currents is fully represented by a surface .
+In well-constructed machines the effect of the latter is reduced to a minimum , but it can be by no means neglected .
+When a section of the armature coils is commutated it must inevitably be momentarily short-circuited , and if at the time of commutation the field in which the section is moving is other than feeble , a considerable current will arise in that section , accompanied by waste of power and destructive sparking .
+It may be well at once to give an idea of the possible magnitude of such effects .
+In the machine already described the mean E.M.F. in a section of the armature at a certain speed may be taken as 6 volts , its resistance 0'000995 ohm .
+Setting aside , then , for the moment questions of self-induction , if a section were commutated at a time when it was in a field of one-tenth part of the mean intensity of the whole field there would arise in that section , whilst short-circuited by the collecting brush , a current of 600 amperes , four times the current when the section is doing its normal work .
+The ideal adjustment of the collecting brushes is such that during the time they short-circuit the sections of the armature the magnetic forces shall just suffice to stop the current in the section , and to reverse it to the same current in the opposite direction .
+Suppose the commutation occurs at an angle X in advance of the symmetrical position between the fields , and that the total current through the armature be C , DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+reckoned positive in the direction of the resultant E.M.F. of the machine , i.e. , positive when the machine is used as a generator of electricity .
+Taking any closed line through magnets and armature , symmetrically drawn as ABODE FA ( fig. 4 ) , it is obvious that the line integral of magnetic force is diminished by the current in the armature included between angle X in front and angle X behind the plane of symmetry .
+If m be the number of convolutions of the armature , the value of this magnetising force is 4ttC----= 4\mC opposed to the magnetising force of the fixed coils on the magnets .
+2 7r Thus , if we know the lead of the brushes and the current in the armature we are at once in a position to calculate the effect on the electromotive force of the machine .
+A further effect of the current in the armature is a material disturbance in the distribution of the induction over the bored face of the pole-piece ; the force along , BC ( fig. 4 ) is by no means equal to that along DE .
+Draw the closed curve BCGHB , the line integral along CG and HB is negligible .
+Hence the difference 7/ 1 tc between force HG and BC is equal to 47rC\#151 ; \#151 ; =2/ cmC where k is the angle COG .
+Fig. 4 .
+This disturbance has no material effect upon the performance of the machine .
+But the current in the armature also distorts the arrangement of the comparatively weak field in the gap between the pole-pieces , displacing the point of zero field in the direction of rotation in a generator and opposite to .
+the direction of rotation in a motor ; and it is .
+due to this that the non-sparking point for the brushes is displaced.^ A satisfactory mathematical analysis of the displacement of the field in the gap between the pole-pieces by the current in the armature would be more troublesome than and 'priori analysis of the distribution of field in this space when the magnet current is the only magnetising force .
+Owing to the fact that the armature is divided into a finite number of sections there is a rapid diminution of the displacement of the field during the time that a section is being commutated , the diminution being recovered whilst the brush is in contact with only one bar of the commutator .
+The field thus oscillates slightly , owing to the disturbance caused by reversing the direction of the current in the successive sections of the armature .
+The number of oscillations in a Gramme armature or in a Siemens ' armature with an even number of sections will be pm , where p is the number of revolutions per second , but in a Siemens ' armature with an odd number of sections it will be 2 This oscillation of the field is only another way of expressing the effect of the self-induction of the section , but it must be remembered that if the self-induction , multiplied by change of current , is expressed as a change in the field we must omit self-induction as a separate term in our electrical equations .
+The precise lead to be given to the brushes in order to avoid sparking in any given case depends on many circumstances\#151 ; the form and extent of the pole-pieces , the number of sections in the armature , and the duration of the short circuit which the brushes cause in any section of the armature .
+The adjustment of the position of the collecting brushes is generally made by hand at the discretion of the attendant , and is in some cases fixed once for .all to suit an average condition of the machine .
+We shall , therefore , treat X the lead as an independent variable , controlled by the attendant .
+Let I be total induction through the armature , I+L total induction through the magnets , I ' being the waste field .
+Let C be current in armature , c in the magnets .
+Let gV be the line integral of magnetic force from a point on one pole-piece to a point on the other , the line being drawn external to the armature , g will be approximately constant .
+Omitting as comparatively unimportant the magnetising force in the pole-pieces and iron core of the armature we have the following equations :\#151 ; 4XmC+ \#151 ; '^r=0 \#166 ; " 8 4 XmC -j-2 12 \#151 ; +lofy ^ \#151 ; 4:True .
+i+n When C=0 we observed whence 1 21 , v \#151 ; 1 A3 [ * Added Aug. 17 .
+\#151 ; Armatures with an odd number of convolutions are open to one theoretical objection , which would be a practical one if the number of convolutions were very small .
+The +1 Convolutions constitute in themselves a closed circuit , having a resistance four times the mean actual resistance of the armature measured between the collecting brushes .
+When any one convolution is exactly in the middle of the field the E.M.F. of the other 2m convolutions exactly balance , so that there is upon the closed circuit an E.M.P. due to the single convolution somewhat in excess of Ith part of the actual E.M.P. of the machine .
+Thus there will be an alternating E.M.P. around the closed circuit of the armature capable of causing a considerable waste of power .
+This waste is materially checked by the self-induction of the circuit .
+] DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+eliminating I ' vl+ihnC^v\#151 ; l)'j+l3f j vl + 4XroC-J ( r-1)(__ imc+ 4Xm0 ^1 _ 4Xm0 V \#151 ; kirnc\#151 ; 4\mC The characteristic curve when C=0 being I=F(47mc ) we may write the above as the equation of the characteristic surface thus I+\#151 ; 4XmC ^=f( 4 moV 3 \ 4A ?
+nC\ In applying this equation it must not be forgotten that the E.M.F. of the machine cannot be determined from I unless the commutation occurs at such a time that the coil being commutated embraces all , or nearly all , the lines of induction in the armature .
+This equation enables the characteristic surface to be constructed from the KL 1 characteristic curve .
+Let OL=47mc , LM=4m\C , draw MK so that through K draw ordinate KR meeting characteristic curve in R , draw RQ parallel to OL meeting PS v-lAc ordinate QL in Q , draw QS parallel to LM ; draw QP so that a point on the characteristic surface .
+Fig. 5 .
+SQ " Then P is A very important problem is to deduce the characteristic curve of a series wound machine from the normal characteristic ; in this case C , and we have I+Vl4X-cl=F{(4\#151 ; v !
+) ' } taking PR as ordinate of any point in the normal characteristic , cut off QR equal to \#151 ; that is , draw 0Q so that v 21 % tan QOx='^4XmC^/ /4^(\#171 ; -^)c v\#151 ; 1 A3 Xw = ~V~ 97 Xm v ^7m-- then PQ will represent the induction corresponding to magnetising force Fig. 6 .
+It is noteworthy that as the current C , and therefore OR increases , PQ , the induction , will attain a maximum and afterwards diminish , vanish , and become negative .
+That in series wound machines the E.M.F. has a maximum value has been many times observed .
+The cause lies in the existence of a waste field not passing through the armature , and in the saturation of the magnet core .
+The effect of the current in the armature on the potential between the brushes o any machine is the same as that of an addition to the resistance of the armatuie pio portional to the lead of the brushes , and to the ratio of the waste field to the total field , combined with that of taking the main current times round the magnets in direction opposite to the current c. The preceding investigation tells the whole story of a dynamo machine , excepting only the relation of X to C in order that the brushes may be so placed as to avoid sparking .
+The only constant or function which has to be determined experimentally for any particular machine is v , the ratio of total to effective field , all the rest follows from the configuration of the iron and the known properties of the material .
+DRS .
+J. AND E. HOPKTNSON ON DYNAMO-ELECTRIC MACHINERY .
+347 The following illustrations of the effect of the current in the armature and the lead of the brushes are interesting .
+In both cases the magnet coils are supposed to be entirely disconnected so that c is zero .
+First , let X be negative , short circuit the brushes and drive the machine at a certain speed , a large current will be produced , the current in the armature itself forming the magnet.* Second , let X be positive , cause a current to pass through the armature , the armature will turn in the positive direction and will act as a motor capable of doing work .
+In either case , particularly the former , such use of the machine would not be practical owing to violent sparking on the commutator .
+The following is a further illustration of the formula given above .
+If we could put up with the sparking which would ensue , it would be possible to make X negative in a generator of electricity , and thereby obtain by the reactions of the armature itself all the results usually obtained by compound winding .
+j Efficiency Experiments .
+Having discussed the relations subsisting between the configuration of the magnetic circuit of a dynamo machine and the induction obtained for given magnetising forces , and having compared the results obtained by direct calculation with the results of actual observation on a particular machine , the construction of which we have described at length , it appeared of importance to determine the efficiency of the machine under consideration as a converter of energy , when used either as a generator of electricity or as a motor .
+An accurate determination of the mechanical power transmitted to a dynamo by a driving belt , or of the power given by a motor presents formidable experimental difficulties .
+Moreover , if the mechanical power absorbed in driving the dynamo be measured directly , any error in measurement will involve an error of the same magnitude in the determination of the efficiency .
+To avoid this difficulty , we employed the following device .
+Let two dynamos , approximately equal in dimensions and power , have their shafts coupled by a suitable coupling , which may serve also as a driving pulley ; and let the electrical connexions between the dynamos be made so that the one drives the other as a motor .
+If the combination be driven by a belt passing over the coupling pulley , the power transmitted by the belt is the waste in the two dynamos and the connexions [ * Added Aug. 17.\#151 ; This experiment was tried upon a dynamo machine of construction generally similar to that shown in figs. 3 , 4 , 5 , Plate 18 , but with an armature of half the length intended in normal work to give 400 amperes 50 volts at 1000 revolutions .
+The magnet coils were disconnected , and the terminals of the armature were connected through a Siemens 's electro-dynamometer , and the machine was run at 1380 revolutions .
+When the brushes were placed in the normal position ( X = 0 ) the current due to residual magnetism was 52 amperes .
+By giving the brushes a small positive lead the current was reduced to nearly zero .
+By giving the brushes a small negative lead a current of over 234 amperes , the maximum measured by the dynamometer , was obtained , and by varying the lead it was easy to maintain a steady current of any desired amount .
+] between them .
+By suitably varying the magnetic field of one of the dynamos , the power passing between the two machines can be adjusted as desired .
+If , then , the electrical power given out by the generator is measured , and also the power transmitted by the belt , the efficiency of the combination can be at once determined .
+By this arrangement the measurement , which presents experimental difficulties , viz. , the power transmitted by the belt , is of a small quantity .
+Consequently , even a considerable error in the determination has but a small effect on the ultimate result .
+On the other hand , the measurement of the large quantity involved , viz. , the electrical power passing between the two machines , can without difficulty be made with great accuracy .
+The second machine was similar in all respects to that already described , and each is intended for a normal output of 110 volts , 320 amperes , at a speed of 780 revolutions per minute .
+The power transmitted by the belt was measured by a dynamometer of the Hefner-Alteneck type , the general arrangement being as shown in the diagram , Plate 18 .
+A is the driving pulley of the engine , B the driven coupling of the dynamos ; D , D are the guide pulleys of the dynamometer carried on a double frame turning about the fulcrum C , and supported by a spiral spring , the suspension of which can be varied by a pair of differential pulley-blocks attached to a fixed support overhead .
+When a reading is made the suspension of the spring is adjusted until the index of the dynamometer comes to a fiducial mark on a fixed scale , the extension of the spring is then read by a second index attached to its upper extremity ; F , F are two fixed guide pulleys of the same diameter as the pulleys D , D , and having the same distance between their centres , in order that the two portions of the belt may be parallel and the sag as far as possible taken up .
+The normal from C to the centre line of either portion of the belt between the pulley A and the guide pulleys=31 *9 cms .
+The normal from C to the centre line of either of the parallel portions of the belt=2'4 cms .
+; and from C to the centre line of the spring=92*7 cms .
+Take moments about C ; then Tension of the belt= 92-7 34-3 X tension of spring , = 2 *7 X tension of spring .
+Also the diameter of the pulley B=33*6 cms .
+and the thickness of the belt =1*6 cm .
+Hence the velocity of the centre of the belt in centimetres per second =1*845 X revolutions of dynamo per minute , and , therefore , Power transmitted by the belt in ergs per second = 2*7 X 1*845 X 981 X tension of springX revolutions per minute , assuming the value of gto be 981 .
+DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+We may more conveniently express the power in watts ( =107 ergs per second ) , and write Power in watts = '0004887 X tension of springX revolutions per minute .
+The potential between the terminals of the generator was measured by one of Sir William Thomson 's graded galvanometers , previously standardised by a Clark 's cell , which had been compared with other Clark 's cells , of which the electromotive force was known by comparison with Lord Rayleigh 's standard .
+The current between the two machines was measured by passing it through a known resistance , the difference of potential between the ends of the resistance being determined by direct comparison with the Clark 's standard cell , according to Poggendorff 's method .
+As experiments were made with currents of large magnitude , it was important that the temperature coefficient of the resistance should be as low as possible .
+To this end we found a resistance-frame constructed of platinoid wire of great value .
+The temperature coefficient of this alloy is only 0"021 per cent , per degree Centigrade .
+( Proc. Roy .
+Soc. , vol. 38 , p. 265 ( 1885 .
+) The resistances of the armatures and magnets of the two machines are as follows:\#151 ; Generator Motor . .
+armature magnets .
+armature magnets .
+Ohms .
+0-009947 16-93 0-009947 16-44 The resistance of the leads connecting the two machines was 0*00205 ohm , and of the standard resistance 0*00586 ohm .
+In all determinations of resistance , the value of the B.A. ohm was taken as 0-9867 X 109 c.g.s. units , according to Lord Rayleigh 's determination .
+The diagram shows the electrical connexions between the two machines with the rheostat r inserted in the magnets of the motor dynamo .
+In order to ascertain the friction of bending the belt round the pulley B , and of the journals of the dynamo , a preliminary experiment was made with the dynamometer .
+The combination was run at a speed of 814 revolutions per minute with the dynamos on open circuit and the tension of the spring observed\#151 ; 9979 grammes .
+The engine was then reversed , and the dynamos run at the same speed and the tension of the spring again observed\#151 ; 3629 grammes .
+The difference of the two readings gives twice the power absorbed in friction , viz. : 1262 watts for the two machines , or 631 watts per machine .
+This is excluded entirely from the subsequent determinations of efficiency , as being a quantity dependent on such arbitrary conditions as the lubrication of the journals , the weight of the belt , and the angle it makes with the horizontal .
+Table DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY XIV .
+j Watts .
+CO C. Is- Ci Gi IN- J\gt ; - N rH O OiO^rP^OOHOOOOl . .
+CO iO Ci Oi ( N W O ( X \lt ; D . .
+1C r-T r\#151 ; T 1C rC csf cf oi o ' ZD 00 XIII .
+Watts .
+COlO\gt ; OrHl\gt ; .drHOCOOO\lt ; OrH I^ClCOO^CdCOiCiCiOO^CCO ^OOGl^^OOOOOO^^ONO rH XII .
+Watts .
+OOO^O^NOH^(MH OlNHiOOi^OOiOO^H . .
+N O O ( N . .
+-rjT o ' r-T ic so i\#151 ; T cT cT o ' zd in .
+" rHddd^^-tf^^ XI .
+Watts .
+OO^N^CNHCOOOH HCOGiOOiOOHiONOH . .
+HHdCO^OHHrHOd . .
+rH rH rH rH i\#151 ; H X. Watts .
+rHO\gt ; CiOGOrHCldOOOO 0NO1QOOOMOOHCO . .
+OOJtN .
+OOOOiC^^COCOO . .
+IX .
+Watts .
+T^iCiC^rHdOdOO^iC OOiCCOrHOdrHdrHlClC . .
+oaiaijiooNNNO^oo . .
+VIII .
+Waits .
+Od^^COI^OOl^.^ . .
+dCO^dddCOOCO . .
+rH rH rH rH rH VII .
+Watts .
+COON^HKOiOCOO^ rHl^OOOrHOCO^L^O . .
+f^COCCOCOCO^OCO . .
+rH rH rH rH d VI .
+Ohms .
+OOdddOOOOOCl COCONNNiOOJOOiON . .
+rHrHCldd^^^^^Cl * * m o a .
+\lt ; pi oooooooooooo S rHdOOrHrHOOOOOO 3 ' ( MMOXHiOO^^O^CO o * H rH Cl CO CO CO CO HP o \amp ; IV .
+Volts .
+Cl rHdOO^iCOrHOCCGOCO^C aiNib^cboooiiiojw .
+Cl d d d rH rH rH rH O O rH rH rH rH rH rH rH rH rH rH rH rH rH III .
+Watts .
+TfKMCOCO^iO^OJONOOdd dHHHClOOOOCOiCrHO COO^HH^OOCOiONhjd II .
+Grammes .
+ciococoot^o^odo o OOHCOOOOO^OrHd I\gt ; \#187 ; CO Cl r-^ HH CO 00 00 1C ic .
+rH ao aT rH o ' o ' zd inT inT zd o ' aT co " rH rH rH rH rH rH rH d I. E evolutions per minute .
+OHHOOdOO^COOO\#171 ; D(X)d^ rHOHOOOOOt^iOOOH ooooQOOQJN.r^i^t^L^r^oooooo rH rH rH rH DRS .
+J. AND B. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+351 In Table I. column I. is the speed of the dynamos ; column II .
+is the reading of the spring in grammes ; column III .
+is the power transmitted by the belt in watts ; column IY .
+is the potential at the terminals of the generator ; column Y. is the current passing in the external circuit between the two machines ; column YI .
+is the resistance introduced into the magnets of the motor by the rheostat ; column YII , is the power absorbed in the armature of the generator ; column YIII .
+is the power absorbed in the armature of the motor ; column IX .
+is the power absorbed in the magnets of the generator ; column X. is the power absorbed in the magnets of the motor ; column XI .
+is the power absorbed in the connecting leads between the two dynamos , in the rheostat resistance r , and in the standard resistance used for measuring the current ; column XII .
+is the total electrical power developed in the generator ; column XIII .
+is half the power absorbed by the combination less the known losses in the armatures , magnets , and external connexions of the two machines ; column XIY .
+is the total mechanical power given to the generator , being the sum of the powers given in columns XII .
+and XIII .
+Table II .
+I. Per cent. IT .
+Per cent. IIT .
+Per cent. IV .
+Per cent. 1 v. Per cent. VI .
+Per cent. 1 0-25 18-23 12-52 69-0 71-44 40-44 2 0-65 8-30 7-17 83-88 69-9 58-63 3 1-235 4-27 4-27 90-22 89-68 79-9 4 1-52 3-53 2-66 92-29 92-78 85-63 5 1-84 2-94 2-415 92-81 93-70 86-51 6 311 1-70 1-94 93-25 93-79 87-45 7 317 1-66 1-94 93-23 93-37 87-05 8 3-08 1-67 1-98 93-27 93-99 87-26 9 3-525 1-51 1-59 93-37 94-02 87-49 10 4-47 1-20 1-00 93-39 93-62 87-43 11 0-31 3-53 2-66 92-29 92-78 85-63 In Table II .
+the percentage losses in the armature and magnets of the generator are given , as also the sum of all other losses as obtained from column XIII .
+in the foregoing table ; also the percentage efficiency of the generator , of the motor , and of the double conversion .
+Column I. is the percentage loss in the generator armature ; column II .
+is the percentage loss in the generator magnets ; column III .
+is the percentage sum of all other losses in the generator ; column IY .
+is the percentage efficiency of the generator ; column Y. is the percentage efficiency of the motor ; column YI .
+is the percentage efficiency of the double conversion .
+In this series of experiments in all cases , from Nos. 1 to 10 inclusive , the brushes , both of the generator and motor , were set at the non-sparking point ; but in No. 11 no lead was given to the brushes of the generator , and , consequently , there was violent sparking throughout the duration of the experiment .
+In No. 12 the magnets were separately excited with a current giving 113*5 volts across their terminals .
+The power absorbed must be due entirely to local currents in the core of the armature , and the energy for the reversal of magnetisation of the core twice in every revolution of the armature .
+No. 13 gives the results of the experiments on the friction of the bearings and in bending the belt already referred to .
+It will be observed that the figures in column XIII .
+are calculated by deducting the power absorbed in the armatures and magnets , and extraneous resistances from the total power given to the combination as measured by the dynamometer .
+They must therefore include all the energy dissipated in the core of the armature , whether in local currents or in the reversal of its magnetisation ; also the energy dissipated in local currents in the pole-pieces , if such exist ; also the energy spent in reversing the direction of the current in each convolution of the armature as they are successively short circuited by the brushes .
+Further , it will include the waste in all the connexions of the machine from the commutator to its terminals and the friction of the brushes against the commutator .
+A separate experiment was made to determine the amount of this last constituent , but it was found to be too small to be capable of direct measurement by the dynamometer .
+Moreover , from the manner in which the figures in this column are deduced , any error in the dynamometric measurement will appear wholly in them .
+Since , undoubtedly , the first two components enumerated are the most important , and the conditions determining their amount are practically the same throughout the series , the close agreement of the figures in the column are a fair criterion of the accuracy of the observations .
+Probably 100 watts is the limit of error in any of the measurements .
+Such an error would affect the determination of the efficiency when the machines were working up to their full power to less than \#163 ; per cent. It has been assumed that the sum of these losses is equally divided between the two machines .
+This will not accurately represent the facts , as the intensities of the fields and the currents passing through the armatures differ to some extent in the two machines .
+The inequality , however , cannot amount to a great quantity , and if it diminishes the efficiency of the generator it will increase the efficiency of the motor by a like amount , and contrariwise .
+In No. 11 of the series the effect of the sparking at the brushes of the generator is very marked , the power wasted amounting to at least 250 watts .
+If it be assumed that the dissipation of energy is the same whether the magnetisation of the core is reversed by diminishing and increasing the intensity of magnetisation without altering its direction , or whether it is reversed by turning round its direction without reducing its amount to zero , a direct approximation may be made to the value of this component .
+( J. Hopkinson , Phil. Trans. , vol. 176 ( 1885 ) , p.455 .
+) The core has about 16,400 cubic centims. of soft iron plates , hence loss in magnetising and demagnetising when the speed is 800 revolutions per minute = 16,400 X -^X 13,356 ergs per second=292 watts .
+DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+Referring to Table II .
+it appears that the efficiency approaches a maximum when the current , passing externally between the two machines , is about 400 amperes .
+Let C be the current in the armature , p its resistance , W the power absorbed in all parts of the machine other than the armature , then , if the speed is constant , the efficiency is approximately EC\#151 ; W\#151 ; C *p EC where E is the electromotive force .
+This is a W . . . .
+maximum when \#151 ; -f-Cp is a minimum , which occurs when W=C'2p ; when the loss in the armature is equal to the sum of all other losses .
+For the machines under consideration the experimental results verify this deduction .
+But in actual practice the rate of generation of heat in the armature conductors , when a current of 400 amperes was passed for a long period , would be so great as to trench upon the margin of safety desirable in such machines .
+Of the total space , however , available for the disposition of the conductors only about one-fourth part is actually occupied by copper , the remainder being taken up with insulation , and the interstices left by the round wire .
+If the space occupied by the copper could be increased to three-fourths of the total space available , while the cooling surface remained the same , the current could be increased 75 per cent , and the efficiency increased 1*3 per cent , approximately , as all losses other than that in the armature-wires would not be materially altered .
+The loss in the magnets is also susceptible of reduction .
+It has already been shown that for a given configuration of the magnetic circuit and a given electromotive force the section of the wire of the magnet coils is determinate .
+The length is , however , arbitrary , since within limits the number of ampere convolutions is independent of the length .
+An increase in the length will cause a proportionate diminution in the power absorbed in the magnet coils .
+If the surface of the magnets is sufficient to dissipate all the heat generated , then the length of wire is properly determined by Sir William Thomson 's rule that the cost of the energy absorbed must be equal to the continuing cost of the conductor .
+Appendix .
+( Added Aug. 17 .
+) Since the reading of the present communication experiments have been tried on machines having armatures w'ound on the plan of Gramme and with differently arranged magnets , the experiments were carried out in a closely similar manner to that already described .
+Description of Machines .
+The construction of these machines is shown in Plate 20 , in which fig. 1 shows an elevation , fig. 2 a section through the magnets , fig. 3 a longitudinal section of the mdccclxxxvi .
+2 z armature .
+It will be observed that the magnetic circuit is divided .
+The pole-pieces are of cast iron and are placed above and below the armature , and are extended , laterally .
+The magnet cores are of wrought iron of circular section and fit into the extensions of the cast iron pole-pieces , so that the area of contact of the cast iron is greater than the area of section of the magnet .
+The magnetising coils consist of 2196 convolutions on each limb of copper wire , No. 17 , B.W.G. , in No. 1 machine , and .
+2232 convolutions in No. 2 machine .
+The pole-pieces are bored , to receive the armature leaving a gap on either side subtending an angle of 41 ' at the axis .
+The bearings are carried upon an extension of the lower pole-piece .
+The following table gives the principal dimensions of the magnets in No. 1 machine : \#151 ; cms .
+Length of magnet limbs between pole-pieces . .
+26'0 Diameter of magnet limb ... ... ... ... ... ... ... ... ..8'6 Bore of fields ... ... ... ... ... ... ... ... ... ... ... ... ..25*7 Width of pole-piece parallel to the shaft . . . .
+24T Width of gap between poles ... ... ... ... ... ... ... ..8'6 The armature is built up of plates as in the machine already described , and is carried from the shaft by a brass frame between the arms of which the wires pass .
+The principal dimensions are as follows :\#151 ; cms .
+Diameter of core ... ... ... ... ... ... ... ... ... .24T Diameter of hole through core ... ... ... ... ... 14*0 Length of core over end plates ... ... ... ... ..24T The core is wound on Gramme 's principle with 160 convolutions , each consisting of a single wire , No. 10 , B.W.G. , the wire lying on the outside of the armature in a single layer .
+The commutator has 40 bars .
+This dynamo is compound wound , and is intended for a normal output of 105 volts 130 amperes , at a speed of 1050 revolutions per minute .
+The resistance of the armature is 0*047 ohm , and of the magnet shunt coils 53 *7 ohms .
+There is here no yoke , and consequently A4 and do not appear in the equation .
+It is necessary to bear in mind that the magnetising force is that due to the con solutions on one limb , and that the areas are the sums of the areas of the two Limbs .
+In calculating induction from E.M.F. it is also necessary to remember that two convolutions in a Gramme count as one in a Hefner-Altenegk armature .
+A1 ; \#151 ; the section of the core is 245 sq .
+cms .
+, allowances for insulation reduce this to 220*5 sq .
+cms .
+Zx ; \#151 ; this is assumed to be 10 cms .
+, but it will be seen that an error in this value has a much more marked effect on the characteristic in this machine than in the other .
+A2 ; \#151 ; the angle subtended by the bored face of the pole-pieces is 139 ' , the mean of DRS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+the radii of the pole-pieces and the core is 12'45 cms .
+Hence the area of 139 ' of the cylinder of this radius is 768*3 sq .
+cms .
+, add to this a fringe of a width 0'8 of the distance from core to pole-pieces as already found necessary for the other machine , and we have 839'5 sq .
+cms .
+as the value of A3 .
+12 is 0*8 cm .
+A3 is 365 sq .
+cms .
+( i.e. , the area of two magnet cores ) .
+13 is 26'0 cms .
+A5 is taken to be 955 sq .
+cms .
+, viz. , double the smallest section of the pole-piece .
+Z5 is a very uncertain quantity ; it is assumed to be 15 cms .
+The expression already used requires slight modification .
+Inasmuch as the pole-pieces are of cast iron a different function must be used .
+Different constants for waste field must be used for the field , the pole-pieces and the magnet core .
+We write + 2Z2 V A , + 2Z5/ ' A the function f is taken from Hopkinson , Phil. Trans. , vol. 176 ( 1885 ) , p. 455 , Plate 52 .
+and vb were determined by experiment as described below , their values are Vo=P05 v3=1T8 iV=l-49 Comparing the curves on Plate 17 with that on Plate 19 , the most notable difference is that in the present case the armature core is more intensely magnetised than the magnet cores .
+No published experiments exist giving the magnetising force required to produce the induction here observed in the armature core , amounting to a maximum of 20,000 per sq .
+cm .
+We might , however , make use of such experiments as the present to construct roughly the curve of magnetisation of the material ; thus we find that with this particular sample of iron a force of 740 per cm .
+is required to produce induction 20,000 per sq .
+cm .
+; this conclusion must be regarded as liable to considerable uncertainty .
+The observations on the two machines are plotted together , but are distinguished from each other as indicated .
+They are unfortunately less accurate than those of Plate 17 , and are given here merely as illustrating the method of synthesis .
+Experiments to determine v2\gt ; v3 , and v~ .
+The method was essentially the same as is described on pp. 338 and 339 , and was only applied to No. 1 machine .
+Referring to fig. 7 a wire AA wTas taken four times round the middle of one limb of the magnet , a known current was suddenly passed round the magnets , the elongation of the reflecting galvanometer was observed , it was iound to be 214 scale divisions , giving 107 as the induction through the two magnet limbs in terms of an arbitrary unit .
+The coil was moved to the top of the limb as at the elongation was reduced to 206 or 103 for the two limbs .
+We take the 2 z 2 mean induction in the magnet to be 105 .
+A wire was taken three times round the whole armature in a horizontal plane as at CC ; the elongation observed was 222 divisions or 74 in terms of the same units .
+A wire was taken four times round one-half of the armature as at DD ; the elongation was 141 , or induction in the iron of the armature 70'5 , whence we have 74 , r ''2=70 ; 5 = 105It may be well to recall here that v3 is essentially dependent on the intensity of the field , strictly the line B on Plate 19 should not be straight but slightly curved .
+Four coils were taken round the upper pole-piece at EE ; the elongation was 159 , giving 79*5 on the two sides .
+Coils at FF give a higher result , 87'5 , owing to the lines of induction which pass round by the bearings of the machine , and across to Efficiency Experiments .
+The method and instruments were those already described , pp. 346 and 347 , excepting that the current was measured by a Thomson 's graded galvanometer , which had been standardised against a Clark 's cell in the position and at the time when used .
+The resistance of leading wires and galvanometer was 0'034 ohm , the series coils introduced for compounding the machines were also brought into use , and the losses due to their resistance find a place in columns XII .
+and XIII .
+of the following Table III .
+, in which column I. is lead of brushes of the dynamo , positive for the generator , negative for the motor ; column II .
+, revolutions per minute ; column III .
+, deflection of spring in grammes ; column IV .
+, watts by dynamometer ; column V. , volts at Table III .
+DBS .
+J. AND E. HOPKINSON ON DYNAMO-ELECTRIC MACHINERY .
+XVII .
+W atts .
+16,684 5,309 1,765 XVI .
+Watts .
+O* 00 00 CP ) CM C3 ( N H \gt ; .
+1 m \#163 ; 16,395 5,015 1,637 XIV .
+Watts .
+in go C3 iO ^ CO rH XIII .
+Watts .
+" H rH rH CO HF\#171 ; XII .
+Watts .
+IN .
+lO CO Ci iO XI .
+Watts .
+O GO CP ) CO o rH Tjl X. Watts .
+372 400 395 IX .
+Watts .
+1C 00 CO CP ) IN .
+00 VIII .
+Watts .
+lO lQ r\#151 ; i lO O rH 07 ) rH VII .
+Ohms .
+82 ' m \lt ; D H * a \lt ; 1 1390 41-2 7-85 V. Volts .
+100-1 103- 8 104- 7 IV .
+Watts .
+4419 1554 1083 III .
+Grammes .
+7711 2722 1814 II .
+\#166 ; Revolutions .
+1098 1094 1144 i. Degrees .
+1 LO .
+o o MOO rH H CM CO CD .3 \#163 ; Tj \lt ; 3 tT O ) W O \lt ; 3 -g o pi o 0 rg eg a .2 o .
+rH a r-P Pi O a * jr1 GO pi hH Efficiency of double conversion .
+lO IN In .
+in IN IN Efficiency of motor .
+89-0 92-0 Efficiency of generator .
+9 9 IN HH 00 GO Other losses .
+CP\gt ; iO rH lb Generator series coils .
+99 CO rH \lt ; Generator shunt coils .
+CM iO CM IN Generator armature .
+00 o lb CM rH CM terminals of generator ; column VI .
+, amperes in external circuit ; column VII .
+, rheostat resistance ; column VIII .
+, watts in generator armature ; column IX .
+, watts in motor armature ; column X. , watts in generator shunt magnet coils ; column XI .
+, watts in motor shunt ; column XII .
+, watts in generator series magnet coils ; column XIII .
+, watts in motor series ; column XIV .
+, watts in external resistances ; column XV .
+, total electrical power of generator ; column XVI .
+, half the sum of losses unaccounted for ; column XVII .
+, total mechanical power applied to generator .
+Table IV .
+gives the losses and efficiencies as percentages in exactly the same way as in Table II .
+, excepting that another column is introduced for the loss in the series coils of the magnets of the generator .
+The core of the armature contains about 6500 cub. cms .
+of iron .
+Hence energy of magnetising and demagnetising when the speed =1100 revolutions per minute = 6500X-^-X 13,356 in ergs per second =159 watts .
+] In conclusion we desire to express our indebtedness to Messrs. Mather and Platt , by whom the machines we have used were manufactured , and who , in placing the same at our disposal , together with all facilities for carrying out our experiments at their Salford Iron Works , have enabled us to put theory to the test of experiment on an engineering scale .
+ApproocimxxJje/ SyrctA\amp ; SbS of duiraxterisbixy curves .
+Phil. TrcLrvs.\\amp ; \amp ; \lt ; o. Plata 16 .
+D. DefLuuoeob cuurv\amp ; .
+A. Ar'rrbcuCujr\amp ; .
+jE .
+Obs\amp ; rv\amp ; cb re^sujits , + .
+cusoet^dfrxjg ) \#169 ; dj\amp ; s cetzxFuruj .
+F. FroKbLcF 's cujr\/ es .
+----T l\un\amp ; iruttuibal 6f rYX^nx^suig force , " W\#169 ; st , Newma-rv fc Co.11th .
+\0ophn\#163 ; om Phvl Trajrvs .
+1886 .
+Plate 17 .
+Sheet II .
+Correct Synthesis of chxurcu\#177 ; eristLO curve .
+A. Arrrwuture .
+B. Avr spcuce .
+C. Mougnute .
+D. CaLcuBcuteBb curve .
+irve \ntcgrqZ pf Molynrttsing tore West , Newman \amp ; , Co 11th .
+Fig. 5 .
+Vx/ WWWWWM for rrieoisvuruog overrent ; . .
+Mougre\amp ; b ooiJLe AAAAAAAAAAAAAAA/ 1 / WWXAAAAAAAAAAa\#151 ; C ) Terrrujruxls of moLchcruz , TerrrujrtaLs of CLcOertg cu\gt ; gpjv\amp ; reubor ruxxfajric ouetjung cus motor AAAAAAA/ WVWWNr-Q -VWVWWWVWWV Resistance ' for oudjizstzng fisLcb of motor .
+Scale , 1"- 1 Foot .
+West Newman \amp ; .
+C ' Kth Phil. Trcuns.1886 .
+Plat* 19 Syrvtth'\amp ; s~os of chsa/ roucbcrisStiUG cu/ rv\amp ; of Jdfouofofroe/ wut/ Tu Grourrvrrue currrocuttourc .
+Mcucfuroc + cuscPZLoburLg Observed results cerudrruj \lt ; g ) d^cepuduru^ .
+Dedbuuoeob curve , .
+' 9000 West .
+) Newman \amp ; Co. 11th .
+lllijjJmson , .
+Phil. Trans.1886 Platt 20 .
+Fig. 2 .
+ms m m a m SooJLe if fuJJbSIX , \amp ; .
+West , Ntwma .
+Ti5iCo.11th .
+

@@ -1,0 +1,331 @@
+XXII .
+Consideration of various Points of Analysis .
+By John F. W. Herschel , Esq. F. R. S. Read May i9 , 1814 .
+On th Calkcuus of Generatig Functions .
+IN whatever point of view we consider the theory of gene- .
+rating functions , whether as the fertile source of new discoveries , or as a medium for exhibiting , in the most comprehensive and uniform point of view , results already known ; we shall find fresh cause to admire the profound and original genius of its author .
+To the latter of these objects it is , however , more peculiarly adapted , and perhaps , in the present state of analytics , this may even be considered as the more precious advantage of the two .
+Such has been the indefatigable activity of those illustrious men , who have devoted themselves to the pursuit of mathematical science , that analysis must be considered as already adequate to every purpose to which we can reasonably hope to see it applied .
+The attention of the scientific observer must now be directed to those elevated stations , from which distinct and extended views of its arrangement as a whole can be obtained .
+The calculus of generating functions affords such a station , and commands a wider and more magnificent prospect than any which has yet been opened to the view of the speculative philosopher .
+It becomes interesting then to extend its application as far as possible int this line , and to introduce it on every occasion where there seems any probability of its coming successfully into play .
+Such have been in part the considerations which determined me to adopt it as a vehicle in laying before the Society some results of a singular and interesting nature , derived indeed originally from other principles , but which , like all the rest , flow with the utmost facility from the first elements of this calculus .
+In the following pages I have uniformly made use of the functional or characteristic notation ; together with the method of separating ( where it could conveniently be done ) the symbols of operation from those of quantity .
+This method I have , perhaps , extended and carried somewhat farther than has hitherto been customary ; but , I trust , without losing sight of its grand and ultimate object , the union of extreme generality with conciseness of expression .
+To avoid the necessity of continual explanation , I shall here set down the leading points of the system .
+I. The signs x ( ) are used to separate the symbol of opeA ration from that of the quantity operated upon , thus : f ( { ) , P : log r , 1x1 ( x ) .
+II .
+1 .
+The combination of two operations is represented by placing their symbols together in their proper order .
+Thus , p ( 4/ ( x ) ) is simply written '4 " ( x ) .
+For example , if , ( x ) i+ x , and 4^ ( x):=x2 , then , ( x ) =1 + x2 , and 4q ( x ) -(I + x ) ' .
+s. When several operations combined are considered as one , their characteristics are inclosed in parentheses ( ) .
+Thus flog q ( x ) = ( f log ( p ) x. 3 .
+The repetition of the sae operationf being denoted ( by the first rule of this article ) by , ff , ,ff , &amp;c. may be more con44x cisely represented thus , f , f3 , ... .f ; and this furnishes us with a general and very simple notation for the reverse operation of that denoted byf .
+For sinceJmfn ( x ) _fm+n ( x ) , if we make m= i , n=+ i , we findf-'Jf(x ) =j ?
+( x ) =x with the operationf no times performed , = x. ThusJ:- ' is the characteristic of that operation which must be performed onf ( x ) to reduce it to x : that is , of the reverse operation .
+This is surely a simpler and more expressive method than that of inverting the characteristic , * accentuating it on the left side , t or below ; t or other similar contrivances .
+For instance , log 'x ==+I++ &amp;c. ?
+-1 x.* T ' xS tan x T-j - &amp;c. 4 .
+If a combination of operations , as I &amp;c. be n times repeated in their order , thus ; pkp ... ?
+( x ) , it will , by the second and third rules of this article be denoted by ( ( pJ)n : x. It must be observed , however , that ( )4 ) is not the same as " I , except in some particular cases .
+III .
+i. If any number of functions of a symbol x be added , subtracted , or otherwise combined , the resulting function is expressed by the same combination of their characteristics , observing the following conditions .
+2 .
+The actual multiplication of two functions qp ( x ) and 4 ( x ) is expressed by inserting a full point between their characteristics , thus , e. 4 ( x ) =p ( x ) .
+4 ( x ) .
+$ .
+The actual elevation of a function to any power is thus ?
+LAPLACE .
+Journal de l'Ecole Polytechnique .
+No. 15 .
+t MONGE .
+Savans Etrangers .
+1773* t KNIGHT .
+Philosophical Transactions , 181 .
+Part I. expressed , { f ( x ) }"n= { f }n : , to distinguish it fromfn ( x ) , whose signification has already been explained .
+4 .
+If F ( x ) be developable in any series of the form axc + bx " + cx7 + &amp;c. the following abbreviations are used ( F : ) : x =a .
+" ( x ) b. c ( x ) + c. *P ( x ) + &amp;c. and , ( F { }):x=a .
+{ cp ( x ) } + b. ( x ) } + &amp;c. Thus ( for example ) = , die + ' d:'y I 'd Xyy+d da + &amp; C. dx lXx =x= + Ex + Ez + &amp; C. I-log .
+1 IV .
+i. D is used as the sign of derivation .
+It is , properly speaking , the sign of an operation performed , not on quantity , but on the characteristic which it immediately precedes ; by which the operation denoted by that characteristic is altered .
+For instance : D sin. = cos. ; D cos. =sin .
+But it must be observed that D log .
+= log .
+- .
+a. The sign D affects only the characteristic next following it , thus , Dqpf ( x ) = ( D():f ( x ) .
+If it be intended to affect a combination of operations , the rule II , 2 must be observed .
+Thus , D ( f ) : x , Dn ( t log.-'):log .
+x. V. Every functional characteristic is affected by all the characteristics preceding it , in the same manner as if it were a symbol of quantity .
+VI .
+Every characteristic of operation performed on quantity affects all which follows it , as if it were one symbol .
+Thus if f ( x ) = ax~ + bxf + &amp;c. ; we shall have 443 fDp ( x ) =a .
+{ D ( X ) } " + b. { D ( x ) } 3+ &amp;c. This rule does not extend to the signs D , d , A , ,f , f , according to the remark in IV .
+i. These rules will suffice to explain whatever may appear obscure or capricious in the following sheets .
+We shall now proceed to their practical application .
+If pq ( t ) be a function of t , developable in a series A_ t ? ? ? ?
++. .
+Ao + A^t + ... .
+Axt + ... A 0 ?
+( t ) is said to be the generating function of Ax , and it may be said to be taken with respect to t. To this we shall appropriate a peculiar symbol Gt , as follows : ( t ) = G{A } When only one symbol t is used , the index below the G may be understood , and our equation will be ( t ) =G { A. If p ( t , t ' ) be a function of t , t ' , developable in a double series A_ , _t ?
+.Z 0 " ... A_ , yt- .
++ ... A oo oo .
+t ' +.0 ... ... .
+* ... ... ... ... .
++ A , _ t , t'+ ... . .
+A , X , .
+tly + ... . .
+Ax , t. t ' +A , ,_ .
++. .
+t. teA , , t ... .
+A , ' t. tp ( t , ' ) is said to be the generating function of A with x , y respect to t , t ' , and may be thus expressed ; and so on , if there be any number ofsymbols t , &amp; c To and so on if there be any nttnber of symbols t , I ' , I " , &amp; c To denote the sum of all the terms of a series , we shall use the sign S , thus , q ( t ) S At } , and in like manner 4 ( t , ' ) = S^ , y Ax , y.tx .
+tie } .
+For t let ht be written , and we obtain p ( ht ) =S { Ax ( t ) }=S { A 4X .
+tx } G { Azh } Thus , if the generating function of A be ( p ( t ) , that of AxhX will be q ( ht ) .
+Let this equation be multiplied by t-r , and we get tr ( ht)=S { A hx .
+tx-r } S{A + , hX+r t } -G { Ar .
+h+r } If then the generating function of Ax be ( t ) , that of Ax+r h'+r will be t-r ( ht ) .
+Again , it is easy to see that a.G A , x +b.G { Bx + &amp;c. G { aAx + bB + &amp;c. } and thus we have ( at^- ' ++ ct+ &amp;c. ) ( ht ) =G aA .
+% h++ + bA + h+h + &amp; .
+} and , if h -= ( at-~ + bt+ &amp;c. ) .
+( t)=G aAx + , + bA+ + &amp; c } ; ( i ) .
+Let us express the function aA , x+ +bAx+g + &amp; c by the symbol VA , and let at " + btf + cty + &amp; .
+=-f ( t ) vAx then will be the same asf ( Ax ) , provided that in the developement off(A ) , A.+i be every where written for Ax } } , and to derive the generating function of vAZ from that of Ax , we have only to multiply the latter byf ( + ) , thus G { VA = ( t)f ( ) ; ... Let now V2A , V3A &amp;c. denote the respective values of the expression aA+ + bA + &amp;c. When instead of A. we write vA , v2A .
+, &amp;c. that is , v '1 A =av'Ax+ , + by Ax+ + &amp;c. and it is easy to see that we shall have G{vA}= .
+f( t ) .
+P ) ( 3 ) .
+Let us now denote by t( et ) expression l. t+ ' .
+B+ &amp; C and by 'v Ax the function formed from y ( - ) in the same manner as , we formed v Are iromf ( .
+The equation ( 3 ) then may be thus written c ; iA } ( ):f ( ( t ) } If then { f'1 ( t ) }i be developed by the ordinary methods into a series of the form 00 4 ... ... * + ... at=Sa tz } we shall obtain cl t'A4 } Szt a^ .
+z{( i}(ts).j GlVZ J. } and of course , v A , =a 'V- ' A , + ... a , P + a , 'vA + 4 ... a '*V A ... .
+( ) .
+Thus we may always develope V'Ax in a series containing only the successive orders of 'VAx , such as 'v'A , , &amp;c. If the developement of { fjf- ' ( t)}i contain no negative powers of t , we have { fS I'l oi a- ; 1.2 AA =Ax +I,.A+ , + --A '- &amp; c ; . .
+( 8 ) But to proceed .
+We have , G{xi A VS SAx tx tdt dd ... ... d*(t ) or which is the same thing , G{ }= d* d{lo dglog ogt } Now , d log : log t1 D( log ' ) : log ) : tx dlog td log td log t { D D( log- ' : log tl fV 'og t ' D2(c log ):logt and so on .
+Thus our equation becomes G{'A .
+) = D ' ( log- ' ) : log t and , iff ( x ) = ax ' + bx + &amp; c , we see that Gt A.(x ) } = ( aD + bD3 + &amp; c ) ( , p log- ' ) : log t =(f : D ) ( , log-- ) Ig t ; .g ... ..(9 ) Iff(x ) be a rational integral function of x , the second memtber of this equation will require only the ordinary rules of the differential calculus for its formation , and of course the first may be rigorously obtained .
+Conceivef ( t ) and F ( t ' ) to be developed into the two series S { ax tr } and Sy iy t ' } , and let us consider the double series S2 a Ax hxy t : t ' } -rS x , y ? ? .
+First , -r may be expressed as follows , r S= sa xt.x Sy{ .
+( hx t)Y } S , a , t. F(t h ) } But by a similar mode of reasoning , we should also find , = Sy { Ayty./ f(h^ ) } or , =S{ A , t f( thz ) } for since x and y vary through all th ir values , these two sums are identical .
+Equating then the values of aS { A t.f(thx ) }=Gt ( a , .
+F( ' ) } =(F : t hD ) ( f log-1 ) : log t Let t ' = i , and for h writing h-- , and adding or subtracting S{A.h* f(t ?
+x ... Z ) F(|-h ... .
+D ( bo ) P ( -D S{A.-:^ ( i(f log og ' log II .
+O0z Logarihn ic Transcendents .
+The equation we have just arrived at affords us a method of exhibiting , in a finite form , the sum of the series in its first member , provided we possess the means of obtaining the second ; and it appears , by what we have before remarked , that this can be performed , whenever F ( hD ) ?
+F ( h-D ) is a rational integral function of D. Tills includes among the forms of F those remarkable functions denominated by Mr. SPENCE , " Logarithmic Transcendents , " and we shall now proceed , by the help of the general property demonstrated by that authrtl in his"Essay &amp;c. " to derive from these principles the summation of one of the most extensive classes of series which has yet received discussion .
+Adopting Mr. SPENCE 's notation , we will represent the series 1 ' 2t 3 " &amp; c by the symbol rL ( i + x ) .
+The property then alluded to is as follows : 449 ?
+L ( + X ) + ( i ) .
+) ( + zi--zL ) ?
+Ltz21 ( log .
+x)t L ( 2 ) ( ; .)2 &amp; iC 2 1.2 ... .n I &gt; .2 ... ( n-2 ) continued as far as it will go without involving negative powers of log .
+x. Supposing then F ( t ) L ( i + - ) , and writing so for h we obtain S ( -( .
+xI ( ts + - ) )= f(-X ) 1(Xnz ) 2D =-f2 ? .
+D"+ L():^"i Dn-7 + &amp;c. ) ( f log-1 ) log t ; ( 11 ) A very remarkable case of this equation is when t= i , or log t= o , for then D l(f o. ' ) : o t= the coefficient of ti in 1.2. .
+1 the developement off log-(t ) or off(E ) .
+If then we suppose f(t)= a+ at+t + ... .
+t+ &amp;c. we shall have the following equation : S( ) + , ( + ( _.r= _oL ( ) .
+an + 'L ( 2 ) .
+a -2 + &amp; C. ; ( The second member being continued so long as it does not involve negative powers of 0 .
+With regard to the functions L(2 ) , 'L( ) , &amp;c. we have , as is well known 'L(s)= 1i .
+1 -1+ &amp;c. = , and 2XL(2 ) ( 221_ ) 2 , B I'2..00-0 ( Z-X ) B 2._ being the xth number of BERNOUILLI .
+The equation ( 12 ) by assigning specific forms to f(t ) affords an indefinite variety of interesting results , of which we shall only notice a few , the most remarkable .
+i. Letf(t ) = ' and for n write 2ni , and OV'-i for 0 .
+45o The usual exponential expression for tan .
+0 , reduced into two fractions , gives tan .
+0 = ... . .
+^i .
+_+ o~-t =1+_- ... ... ... ... .
+3 ) Thus , the first member of ( 1 ) becomes Lr +I tan .
+xA tan .
+0 tan .
+so tat 30 iS ( )+ .
+or , { _ .
+2t x2-lX.nIn_ I 2a3 n-1 .
+In order to obtain the coefficients a a , .
+a __ , in the second , we have , f ( E)= v-1 + , St-aO+ax*t+ t2 f(t ) =+ affa.ta t2+ &amp;c. Now f ( t ) may also be thrown into the form i-{v up _ +^+ +i { # + T2+f } which is the same as 2ta n. )+ sec. Thus the even values of az are given by the developement of sec. ( t ) and the ' odd by that of tan .
+( L= ) and hence it is easy to see that a -()X+I 22-.(Z+ ) B( ( )X 2X--I./ .
+1.2.3:. .
+: ' ( 2X ) 2x--1 ' and 7 7T _r r zx ZZ1 X+ { sx a2 ; -1 ... ( 2).2 + -I i , jr - .
+~1--- ?
+- .
+0a 1--12 ... D --* log I } Now we have D(flog- ) : t= ( V/ -+ t)z DZ ( f f log1 I ) ?
+t : '2t(V'~ +t oA.t+ A x_IA A ( I)t +.X-IA tD ( f log ) : t0 .
+In order to determine the numerator of this fraction , we shall adopt the elegant artifice used by LAPLACE OA .
+ex'tl e. fA i. ert^ { .
+Ii } .
+tt _ _I sX 3 ' I ?
+' ( Zt ' ) x " .
+j } )t rX.c .
+And after the substitution of o for t , or i for t and its powers we obtain , ( -I)x+I , ( + }+ sjja )xI.* e *-J yO Y3* O+ , *YY2O ' ( x )y2 ( 2 ( C12flZXI1 | st ( )X +1 = L(2)+Y +Y 02 + ... Y ? ?
+2 + ; ( 19 ) where ( _J )2 ( 22n-22X- , _ , -2xBa y_ _ .
+___2 1.2 ... ( ZX ) X 1.2 ... ( Zn-2 ) .
+22z 2fX-2r 22 { 2X 2x+ 1 2x I1 --1----1 ' 1+ 52 &amp; -c } - &amp; c If in this equation for 0 we write + 0 , we shall obtain the sum of the series -4 -_ -_l+ &amp; c ; . .
+( 21 I.cosQ 2n .
+Cos 20 3 .
+cos 30 And by addition , of + _-+ -.+ &amp; c ; ... . .
+( 22 ) I2 .
+cos O 321 .
+cos 30 527 .
+cos 50 .
+Letf(t ) = -_t , and let 2n be written for n and Letf ( t)\ .
++t ' V/ -- ' for 0 ; and the first member of ( 12 ) becomes $/ T.slfU)+ I x2n .
+cos xJ x , Cos A Now the developement of ---t being a+ al t+ &amp; c , that off(Et ) will be t ( e -V--.i)j ao+ a , t+ &amp; c }== ( -_1 ) + , +z+ &amp; c } .
+{ ao a , t+ &amp; c and the coefficient of t ?
+will be found equal to ax .
+I ax-2 ao ( 1 ) .
++I+ 1.2 + 1.2. .
+X Thus the application of ( 2 ) gives the following equation } = 2L()+Y Y4+. .
+SI --')"+ ' }:`L(s ) +Y 0 : 0 I. OY# xZn .
+cos z where -Y ( --I ) ( 2n-t2 t- ) 2nl-2 BX _ , -^ '-('V - ) a f. 1.2 .
+__O lo a2 aZZ_ I a0 l 2azX +1 -. .
+2 .
+1 .
+( 2X ) J Which compared with the value of Y before found ( 2o ) gives the following singular equations , a % -2 a2X--4 ao--t v/ " '--I : 2^ A.2 ^^ -r ^ i1.23 1.2 ... ( z-ij 2 'IX 2X r2 x.z ... ( zx ) ( ) The latter of these two equations affords the even values of a in terms of the odd , and hence we are enabled to express the sum of the series " + _- &amp; c = +IC( 12 ' +I 32X+1 52X1 by means of the numbers of BERNOUILLI , which EULER appears to have considered -as impracticable.t We need hardly re* See " e Essay on Logarithmic Transcendents , " page 5y I should not omit to observe that the equations in p. 69 of that work , expressing the value of the function 'C ( x ) + ( _1)n .
+" C ( x- ) when combined with our equation ( io ) by making t is F ( t ) C ( t ) = -+ &amp; c , afford a series of results , highly interesting , but In 3n which the necessary limits of this paper forbid me at present to dilate on .
+tc Per hos aultem numeros Bernouillianos secans e.vprimi non potesti , ed requirit " alios nuzmeros qui in summas potestatum reciprocarum imparium ingrediuntur , si " enim ponatur , I. II yr .
+_+ _+ &amp; c mark that the imaginary form here assumed by a is merely apparent .
+To proceed .
+Let the equation ( 17 ) , multiplied by dO , be inte , grated between the limits o and 0 , and we find after all reductions .
+11 Ygn in Y 1I In ( sec 0 ) .
+( cos 20 ) 2 .
+( sec )3 &amp;c. = logo.qY 6o { i +Y , + ... ..Yl. .
+} ; . .
+( 25 ) .
+The value of Y_ being given by the equation ( i8 ) Again , if we suppose , for the sake of brevity 2L ( 2 ) + Y+..2 4 ' ? ?
+Y2n 62 =U ( 0 ) and 2L ( 2 ) Y3 + .
+Y. nDU ( 0 ) , we shall obtain , by operating in the same manner on ( 19 ) and the equations derived from it , expressing the values of the series ( 21 ) and ( 22)* erit =i S , y5 &amp;c. ex hisqae valoribus oB tebiur sec x~+ 4_ y _+ &amp;c. " 1.2 1.2.3.4 EULER .
+Inst. Calc .
+Diff. Pars posterior .
+Cap. VIII .
+p. 542 .
+The general value of 2x + 1C ( ) as deduced from our equation ( 24 ) in terms of the numbers of BE RNoILL is as follows ; ?.Bzx-3+ ... ... ... . .
+i ) 0 ( -* l ' ' ... . .
+( 2-X)* The constant added to complete these integrals is determined by -raking 0 in which case since cot ( xO ) = i , there first members vanish when n is greater S " log cot ( 2= DU(0 ) ; . .
+( .6 ) S { 2+I .
+log cot( ) } D- ' U(.)-DU.+c ) ; ( 27 S x--izn log cot( )S I_log c1ot i ---- ?
+-*= ( 2Q-xI)Z+ I4z D- ' x{u ( ) +U ( 0)U ( + 0 ) i-L ... ... ... ..e.r .
+; ... ... ... ... I ( 28 ) .
+In the last of these equations , if we write(i +0 ) for 0 , we obtain the following equation , corresponding to ( 25 ) I zn + X{ , ni I\2 2n+ I ( tan ) .
+( cot 30 ) .
+( tan 50 ) &amp; c= e ' JD-1 U ( , D"_ U ( -2 6)D-I1 U( -26 ) log- ' 2--u =. .
+} , 29)* These are but a few of the very singular results which may be deduced from our equation ( l2 ) ; but I shall forbear to extend this paper to an unnecessary length by any farther applications of it .
+than unity ; but when n= o , the series S{ and S{ becoming infinite , they take the forms oo x log ( t ) which is altogether vague and inconclusive .
+Our equations ( 27 ) and ( 28 ) , ( z9 ) , then , are defective in this case , and we can only conclude that the function ( tan 0 ) .
+( cot 3 ) &amp;c. is independent on 0 , or constant .
+There seems reason to conclude from other principles however that this constant is a8 ' , or more generally , ( 2i ' ) i beig any integer , positive or negative .
+III .
+On Functional Eqltations .
+The determination of functions from given conditions is a point of such importance , not only in the partial differential calculus , but also in a variety of other branches , that it has occupied the attention of the most eminent Analysts , and it mnlst be confessed , not without considerable success .
+Their researches , however , have hitherto extended no farther than to such conditions as involve only the unknown function , p without any of its superior or inferior orders , ( p , 3,. .
+&amp; c , " ' , &amp;c. It is to equations of this latter kind , therefore , that we now propose to direct our attention .
+The successive orders of any function f ( x ) may be produced , either by actually writingf ( x ) for x in the expression of f ( x ) , in which case the general value of j ' ( x ) must be concluded from induction ; or more elegantly by the following method .
+AssumefZ ( x ) U= and we havef'+ ' ( x ) =uo == ZI -fJ ( UZ ) an equation of differences whose integral will be of the form =F ( , C ) C being an arbitrary quantity independent on z. Let z= o , and we have F ( o , C ) U =j ( x ) = an equation which gives C in functions of x. For example ; letJ ( x ) --= i , and we have 20=i ng --i +and integrating , uz =f i- " " +I C-2 }X2{ C+ c- } Now , if we make uo = x , we get C=+x and consequently , f ( x ) = { x( +V - ) + ( X vX~ ) } .
+If we suppose q ( x , y ) to denote any function of x and y , and conceive this expression substituted for x , as follows ; ( p ( x , y ) , y } , we shall have the second partialfjnction , taken with respect to x , which we may denote thus , 2 , ' ' ( x , y ) .
+If we repeat , or conceive repeated , this operation m times , we shall have the mth partial function with respect to x : m , ' ( X , )=p *m-y ' ( x y ) y } .
+If the mth partial function with respect to x be in like manner successively substituted n times for y in the expression q ( x , y ) , we shall obtain a result , mn(x y ) lX --.n l ( x y } and so on for more variables , z , w , &amp;c. - .
+An equation containing any number of the successive orders q ?
+( x ) = x , p ( x ) , ... .
+q ( x ) , of a function q , and from which v is to be determined , is called a functional equation of the nth order , in q. Thus the equation o= x2 ( x ) -( + b ) .
+p ( x ) + bx is a functional equation of the second order , and is satisfied by the following p ( x ) =a+ bx. An equation between any number of the partial functions m , n &amp; c ( x , y , z , &amp; c ) for determining the form of p ( x , y , z , &amp; c ) is called an equation of partial functions , and its order may be denoted in the same manner .
+Thus o= 2 " ' ( x , y).+.P " ( x , y ) ( a -+ b ) .
+( x , y ) +c is an equation of partial functions of the second order with two variables , and is satisfied by the equation q ( x , y ) ==ax + by +c Let ~ ( x ) be a function of x , and a certain number of constants a , b , c , ... And from this expression conceive $ ' ( x ) , q ( x ) &amp; c to be successively formed which will be functions also of a , b , &amp;c. If the number of these constants be n , we may thus produce n+i such functions of them , which will be respectively equal to the several orders of p which they represent .
+Thus we have n+i equations involving the n quantities a , b , c , &amp; c which may therefore be eliminated , and the resulting equation between x , ( x ) , ~ ( r ) &amp; c will therefore be independent onthem .
+As far then as regards this equation they are arbitrary , so that in reascending from a functional equation which contains n+i different orders of , ( not including po ( x ) or x ) n arbitrary constants must be introduced .
+The reasoning here made use of is sufficiently plausible , and in fact , no other than has been adduced in demonstratioh of well known and important truths .
+The conclusion too , to the extent of its literal meaning , is correct .
+But we have here to notice a paradox of a very singular nature , viz : that even in the simplest cases imaginable ( such as 2 ( x ) = x ) the general expression for t ( x ) may contain , not one or two , but an unlimited numer of arbitrary constants , nay even one or more arbitrary functions .
+A nearer attention to every step of the above reasoning will explain this paradox .
+But what has been said will serve to make us cautious in trusting implicitly to all its other applications .
+Problem I. To determine p ( x ) from the equation qp ( x ) = x. Assume za function of x , and ua functional characteristic , which shall satisfy the following conditions x=u " , ( x)=u^+ .
+X UZx ' ( ) = z+ U I ' From these , we obtain p ( x ) , that is , p ( uz ) or()u ) = u ; ... .(a ) and q2 ( x ) or q { t ( x ) } ( , ,+ , x u= ; ... .
+( b ) and , subtracting , ( , u)+I(pU ) =-(Uu+ U ) that is , A{ ( u ) + u } = o ; ... ... ... ( c ) and integrating , o= ( ( PU ) ++ C. Now by cross-multiplication of the equations ( a ) and ( b ) we find , U'a.= .
+( pu)u ) Thus the function u. ( pu)z does not vary when z changes to z -+ , and of course must be considered as constant in the integration of ( c ) .
+C therefore may be any function of u( ( u ) } and thus our equation becomes o=u+ ( pU ) f { u. ( u ) } oro= x+ cp ( s ) +f { Z. ( )}x an equation from which X ( x ) may be obtained for any asp signed form of the functionf .
+Thus iff ( x ) =a+ bx , o =a x+ ( 1 + bx ) * .
+( x ) and p ( x ) = +-i+bx which satisfies the condition proposed ; and by givingf other forms , we should obtain other values of p ( x ) .
+The subsidiary function z , and the characteristic u are not then necessary to be known but as a matter of curiosity .
+They may however be found when p is determined , by the resolution of the equation of differences p ( uZ ) =u which gives the form of the function u in z , and z is given by the equation x= u , or z= u-1 ( ) Aliter .
+Assume as before , x= ue , q ( x ) = u+ then we have p ( UZ , ) = ; ... ... ... ( d ) .
+Now , x u= therefore q ( x ) = , p ( ui ) , that is , u+ = , ( uj and for z writing z i , u= xu which being substituted in ( d ) gives P ( uZ+ , ) = ( P( ) Now this is a perfect function q on both sides , and of course , taking the inverse function p , -1 on both sides u =u %Z+i ZI whence , == C{ COS z{ + ( -+ .
+CI ' cos C2O rtC and C ' being two arbitrary functional characteristics .
+Now u= x , and consequently X =C COS c2z + ( -l ) .
+C ' COS 2 , rZ } From this conceive z found in functions of x , and call it Z ( x ) then , 4,62 U , =I@ ( Z ) C COs 2TrZ ( ) ) -()Z( .
+C cos 27rZ ( X ) .
+This method applies also to the more general equation ( x ) =-f(x ) , by the substitutionsf ( x ) -= u , ( x ) = uz but , owing to the transcendental equations it introduces , must be regarded as totally ineffectual and useless .
+Prob. II .
+Given pn ( x ) =f ( x ) .
+Required at least one satisfactory value of p ( x ) .
+Let the general expression ofj ( x ) in functions of z and x found according to the method above explained be F { z , x : I we have then n " = f , and q =Jf ' , that is ?
+P(w )f nf ( XE)= F-F { Ex. 1 .
+Letf(x ) = sz2--i , or q2 ( x ) = 2x--l , and we find ( X ) ={ ( X +^ I1)2 )Z } and of course Jn ( X ) -= ( = { ( xJ + J/ v-1 ) @(_ t " ^ / 2 } We may here observe that any one of the n values of ivt will equally afford a satisfactory value of qp ( x ) .
+Ex. 2 .
+Let ' x ) -3 =f(x ) , - .
+BS.y ( .1 ml ---^ Assume = , + , v=^2 )1A and we shall find It L4 + ( #^ ^+ %)na+ ( _ ?
+t+ ( 1 ) S fn ( x ) or ( x ) t - ' '1- ... TL ... ? .
+i hus , as , where any of the n values of un may be taken , and thus as aOa , many different values of p ( x ) be obtained .
+This example depends on the integration of an equation of differences of the form O =u zI .
+u+ A. u , +B.U +Ca particular case of which had been previously integrated by LAPLACE in the Journal de l'Ecole Polytechnique .
+Ex. 3 .
+To take an instance of the application of these equations to geometrical problems , let AM be an hyper/ bola whose axis is CP and centre C , and let it be required to find a curve am such that drawing the ordinate PMm , making Cd = _ .
+- .
+' .
+Pm and again erecting dl d"P parallel to PM , if this be repeated n times the last ordinatefk shall be equal to PM .
+Lety =x ( x ) be the equation of am and y== ( 1 e2 ) ( a2--x2 ) that of AM , then dl =p ( Cd ) qP ( Pm ) = p2 ( x ) and in like manner , fk_ q ( x)= PM , that is , n ( x ) =f ( x ) = v/ ( e2 ) ( a ?
+x2 ) ; consequently , I !
+Ifn ( X)---p(X ) { ( e2 ) x*2~ { l ) t } " Thus we see , that am is also an hyperbola , whose centre is C , and calling a ' and e ' its semiaxis and excentricity , we have 1 ez--I e'= e--1 +1 , and a'=a .
+{ e-^. .
+If AM be a right angled hyperbola , or e -= V , we shall have e ' =V ' and a ' = -=-- ; that is , am is also a right angled hyperbola , having its axis = part of that of AM .
+If e Un to ht fA~I 464 be &lt; , and n odd , we shall have e ' als &lt; 1 .
+Thus if the curve AM be an ellipse , am is also a concentric ellipse .
+T'he : qu.ations of Ex. .
+geometrically expressed afford a property of the hyperbola something similar .
+IV .
+On dffferential Equations of thefirst degree .
+Any equation of this species may be reduced to the form o-==u+ A. Du+ZA .
+DZu+ ... nA Du+X ; .
+( 1 ) u being the unknown , and 'A , ... nA , X , known functions of x. To integrate it , assume the following equations 1u + 'DaDu ( ) ' ( I ) 2 ( I ) ( 2).* + MaD )(n- ) n--'IDU(n--2 ) _ ( I ) u(-l)+ ntDu"- ] '+X= u( ) = oz From these , eliminating successively u ' ) obtain * .
+* ( ) * , k(n ) we * -I Xd r1f-_dx )d =l log j A ... ... . .
+lo .
+J wos_l dv t ' X = ' ou =n-i 'C .
+' { / /-)u^1 + - .
+Cf C. u + &amp; which by writing o for X , and adding a constant at each integration becomes , ,7og -=Dl dz _ .
+i-Ir-(dx 2'1 ( da Ito ZJ = DC .
+log-+ C. Ig ^J -------.t+ &amp;c. ( ) Now , if ( )u , ( 2)u , ... n ) be the particular integrals of o=u+ 'A .
+Du + .
+" A. D^ ; ... . .
+" D. ( 6 ) we shall have , when X= o , u= 'C .
+( I ) % + C. ( Z + 3C .
+3U+ &amp;c. And comparing this with the expression ( 5 ) , we find l^a =D log(- ; , ~= Dlog .
+( ')u .
+D ( )u D( &amp; c = g &amp; c ' .
+Suppose now that by any means whatever we can discover n-particular integrals ( ' ) , ... .
+( n"')u , of ( 6 ) , the original equation deprived of its last term : then by the help of the first n-of these equations , the values of 'a , ... .
+" ^ are given , and from these , n ' may be derived by considering that the comparison of the equations ( i ) and ( 3 ) gives .
+2 ... .
+7 .
+aM A= A , or -Ai .
+a. a ) Having obtained na,. .
+t , nothing more is requisite for obtaining a complete integral of ( i ) , than to substitute their values in equation ( 4 ) .
+The method here delivered of obtaining the known theorems respecting the equation o= u+ Adieu + ... A.Du+X appears to have the advantage in point of conciseness over any I have hitherto met with ; a sufficient apology for the revival of a subject whose theory , and whose difficulties have been so long and completely understood .
+In the case when X=o and 'A,. .
+, A are constant , the method of separating the symbols of operation from those of quantity , may be introduced with great elegance .
+Let p , q , r , &amp; c be the roots of 0n--'A nI o= D " +A Dn +..- .
++ nA nA and the equation ( 1 ) becomes o= ( D -p)(D q ) ... &amp; c : u which is satisfied by either of the equations o ( D-p ) : u , o=(Dq ) u , &amp;c. or , Du = pu , Du qu , &amp;c. Now these equations integrated give the following u= P , U =s e , U = ?
+r , &amp;c. which are the particular integrals of the proposed , and of course its complete integral will be u=C .
+t+ 2C .
+'+ 3C .
+er + &amp;c. 467 If there be m roots equal top , we have ( D-p)m : u , or ( D p)m : ux o. Now , ( D.-p ) : u. = .
+D u.{ E pXs =o .
+Therefore , integrating m times .
+-= _ ?
+C + C. + ... .
+C. m- ' and u= { ?
+C 'Cx + ... .
+m. Twx ' S/ which is the part of the integral arising from the equal rootsp .
+JOHN F. W. HERSCHEL .
+London , Jan. 29 , i8i4
+

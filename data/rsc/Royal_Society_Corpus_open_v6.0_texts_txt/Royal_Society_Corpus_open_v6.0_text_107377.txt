@@ -1,0 +1,208 @@
+XXIII .
+An essay towards the calculus of functions .
+By C. Babbage , Esq. Communicated by W. H. Wollaston , M. D. Sec. R. S. Read June 15 , 1815 .
+T1 HE term function has long been introduced into analysis with great advantage , for the purpose of designating the result of every operation that can be performed on quantity .
+This extent of signification has rendered it of essential use , but the various applications of which it admits , and the questions to which it gives rise , do not appear to have met with sufficient attention .
+I propose in the following paper to present an outline of a new calculus , which naturally results from it .
+It comprehends questions of the greatest generality and difficulty , and will probably require the invention of new methods for its improvement .
+Many of the calculations with which we are familiar , consist of two parts , a direct , and an inverse ; thus , when we consider an exponent of a quantity : to raise any number to a given power , is the direct operation : to extract a given root of any number , is the inverse method .
+The differential calculus , which is a direct method , naturally gave rise to the integral , which is its inverse : the same remark is applicable to finite differences .
+In all these cases the inverse method is by far the most difficult , and it might perhaps be added , the most useful .
+It is this inverse method with respect to functions , which I at present propose to consider .
+If an unknown quantity as x , be given by means of an equation , it becomes a question how to determine its value ; similarly if an unknown function as t4 , be given by means of any functional equation , it is required to assign its form .
+In the first case , it is quantity which is to be determined ; in the second , it is the form assumed by quantity , that becomes the subject of investigation .
+In the one case , the various powers of the unknown quantity enter into the equation ; in the other , the different orders of the function are concerned .
+Before I proceed , it will be proper to explain the meaning of the order of a functional equation , and likewise to indicate the notation made use of ; - , [ 3 , y &amp;c. are known functional characteristics ; Xi , A , 4 ' , are unknown ones .
+If in any function as 4'x , instead of x , the original function be substituted , it becomes 44x or 4q , x : this is called the second function of x. If the process be repeated , the result is , p 4Ax or 4t3 x , the third function of x ; and similarly 4 , x , denotes the ntb function of x. Suppose x4---a +x then 4 , x=a a+a x --a+x and generally 4/ x na +xA functional equation is said to be of the first order , when it contains only the first function of the unknown quantity ; as , for instance , '4 , x+ x4 x -= o(x+4 ) - ' ax+ 2 =o .
+390 If the second function enter , the equation rises to the second order : thus , ( x + tx ) + ( x &lt; .X)2= o ( , + 4 , X ) =ax A function of two variables admits of two second functions : thus 4 ( x , y ) becomes ( 4 ( x , y ) , y ) , and 4 ( x , / ( x , y ) ) or they might be thus expressed 4/ , ( x , y ) and 4 , " ( x , y ) .
+These express the second functions ; the first taken relative to x , the other relative to y. But besides these two there is another , which arises from taking the second function simultaneously relative to x , and y ; it is '4 { ( 4 , x , y ) , ( x , y ) } .
+This ought not to be written 4,22 ' ( x , y ) for it is not the second function first taken relative to x and then to y , nor is it the converse of this .
+In fact , the notation is defective ; some method is wanting of indicating the order in which the successive substitutions are made .
+I shall for the present lay aside the consideration of functional equations , involving more than one variable .
+Those of the first order have long been known , but the method in which I have treated them is , I believe , entirely new .
+Equations of the second and higher orders have never been even mentioned ; it is these which present the most interesting speculations , and which are involved in the greatest difficulties .
+I shall first give some account of the enquiries which led me to this subject , and shall then treat of the various orders of functional equations .
+Some few years since , while considering a problem mentioned by PAPPUS , relating to the inscription of a number of circles in a semicircle , the following question occurred to me .
+If in an hyperbola between its assymptotes a circle be in-scribed touching both asymptotes and the curve , and if another circle be inscribed touching the first circle , the curve , and one asymptote , and if this be continued as represented in the figure , what ratio does the area of the circles bear to that of the figure ; and conversely , if this ratio is given , what is the nature of the curve ?
+I soon perceived the great difficulty of the subject , and that these and other problems similar to the latter of them , required the application of methods totally different from any with which I was then acquainted .
+Hopeless of success , I laid aside the subject until about two years after , when the same difficulty recurred under another form .
+I had proposed to myself the following problem : What must be the nature of the curve ABC , such that if anGa tD Ct any point C be taken , and the ordinate CD , the ' ; normal CE , and subnormal DE be drawn , and if the triangle CDE be turned into such a position that CD may become the base and DE the perpendicular , if DE coincide with some new ordinate as GB , then the normal CE at the first point shall coincide with the normal BF at the second ? ?
+392 This latter question , of far less difficulty than the former , was readily solved , but I did not at first observe that they rested on similar principles ; this , however , was pointed out by Mr. HERSCHEL , to whom I had mentioned the subject .
+Such was the origin of the following enquiries .
+The question , in its most general point of view , is the solution of functional equations of all orders .
+This , however , is a generality which I do not pretend to have attained .
+In the first part of this Paper the reader will find a new method of solving all functional equations of the first order ; it depends on possessing their particular solutions .
+In the subsequent part , I have given various methods of solving functional equations of the second and higher orders : some of these possess considerable generality ; and if we consider only those in which the n't and inferior orders enter simply , such as F x , 4x4 , x , , , 4Jo'I have pointed out the means of obtaining their solutions .
+The determination of functions from given conditions most probably took its rise from the integration of equations of partial differentials ; and we accordingly fi nd that the authors of this calculus were soon engaged in the new problem to which it gave birth .
+D'ALEMJBEIT was the first who occupied himself with this subject : he was soon followed by EULEa and LAGRANGE ; but it is to MONGE that we are indebted for the most general view of the subject .
+His enquiries were directed to the determination of two functions from given conditions ; they are contained in the fifth volume of the Melanges de Turin , and in two Papers in the seventh volume of the Me .
+moires des Savans Etrangers , 1773 .
+In the first of these he explains the solution of several functional equations by means of curves of double curvature , and by curve surfaces .
+In the second Paper , the question is treated in a more analytical method , and he endeavours to reduce it to the solution of equations of differences .
+" Je me propose , " observes MONGE , c " de fair voir que la determination des fonctions arbitraires qui se trouvent dans 1 ' integrale d'une equation aux differences partielles , depend en general , dans les cas que je n'ai pas encore trait6s , de l'integrale d'une ou de plusieurs equations aux differences finties , dans lesquelles le rapport de la variable principal a sa difference finie est donne soit qu'il soit variable sok qu'il soit constant .
+" In the same volume is a paper of LAPLACE on this subject , which he views in the same light , and endeavours to reduce functional equations of the first order to those of finite differences .
+This skilful analyst first solved the functional equation F{ x , qx , xa x , }= o. The method he made use of is peculiarly elegant ; he converted it into an equation of finite differences in which the difference was constant .
+Still , however , it appeared by no means the most direct method to make use of such an expedient , nor was it even known that all equations of the first order admitted of its application .
+This latter objection was , however , removed by Mr. HERSCHEL , who in an excellent paper on functional equations , has extended the method made use of by LAPLACE to the solution of all equations of the first order ' .
+His solution is equally elegant and general ; it leaves nothing to be regretted , but the narrow limits of our knowledge respecting the integration of equations of finite differences .
+From this and other causes , I am still 394 inclined to think that the solution of functional equations must be sought by methods peculiarly their own .
+There are some other researches on this difficult subject of which I am unable to give any account , from the impossibility of procuring the works in v hich they are contained ; among these is the paper of ARBOGAST , which gained the prize of the Academy of Petersburg in the year 1790 .
+For the sake of convenience , I shall call any solution of a functional equation which contains one or more arbitrary functions , a general solution ; but if the solution of such an equation only contains arbitrary constants , I shall call it a particular solution .
+With respect to the number of arbitrary functions that may enter into any solution , I shall make some observations at the conclusion of this paper .
+PROBLEM I. Required the general solution of the functional equation , 4 , x 4s'z x supposing we are acquainted with one particular solution .
+Let the particular solution befx fo x ; then take 4 =3 , q being an arbitrary function .
+It is evident that this value of 4i will satisfy the original equation , and that is identical , becausefx =f ax Example , let the equation be A(x ) = ( x ) and the particular solution be the general solution is X Cq(x2 ) which evidently answers the conditions .
+E 395 As I shall have frequent occasion to make use of symme. .
+trical functions of two or more quantities , I shall for the sake of brevity denote this by putting a line over the functional characteristic ; thus p ( x , y ) represents a symmetrical function of x and y , which it is well known possesses the following property , , y } { y , } As we are only considering functional equations of one variable , this will be sufficient for the present purpose ; it might perhaps otherwise be more advisable to put the line over the quantities relative to which the function is symmetrical ; thus 9 { x , y , z , v } is symmetrical relative to z and v , but it is not so in respect to the other variables .
+This would possess the advantage of readily designating a function symmetrical relative to two quantities in one way , and likewise symmetrical with respect to two others , but in a different manner , * thus IIa particular case of this is v+z+axy v3 t3_ax y which is symmetrical in one sense relative to x and y , and in a different sense with respect to v and z ; but these belong to other enquiries .
+PROBLEM II .
+Required a general solution of the equation 4/ x. o x , having given a particular solution off xfox This is not a mere imaginary refinement ; I have constantly had occasion to make use of functions of many variables which were symmetrical by pairs , when ia* vestigating the nature of functional equations of more than oie variable .
+396 Assume 4x= { fxfx } then .
+it becomes I ${fxfx}== q4fj xfX } this equation will be satisfied if we determinef and f , so that the following equations may be fulfilled .
+fa xx =f x and f xfx from these resultf ' ?
+x =f ax =fx I but we have by hypothesis a particular solution of fo ' x fx therefore the general solution of , x = , x is If the function a should be of such a nature that ex =-x , or even if ax X- , fx will then become x. for example , suppose 4 , x= 4 , ( |~-).x then since z== ( x ) XaX -a -----a -I and we have x X{x .
+, -- } a particular case of this is when a= o , 4 , ( x ) =/ ( -x ) , its solution is the same as in the last Problem ; as another example take then since ax- .
+, x ==x and cx=t x , X. This affords a solution to the following question : Required the nature of a curve , such that if any two abscissa , whose rectangle is equal to a given square be taken bheir correspoinding ordinates may also be equal .
+S9.7 __ !
+MNM Let yx be the equation of the curve , also AN = x. and if AN x AM =a then the property of the curve is that PN= QM , but PN =y= 4x , and QM -= 4 ( AM ) =a , ( - ) consequently the equation from which 4 ' must be determined , is its solutios in y=4 x { x x } , if we make y=x+ 7 ' , it becomes yx _x = a , an eqLta tion to the hyperbola .
+PROBLEM III .
+Required the general solution of 4 ' x=Axx40 x ; having a particular solution , and also one of q4x s= 4e x. Assume Px =fx x &lt; p fxfx I2 making this substitution in the original equation , it becomes fx x { fx , fx }=Ax xf x tfcax , fax } makefa x= fx , and XZ ' 21 32I facx =fx , from this it results thatfx -fr2 x of which we posI 2II sess a particular solution , divide both sides by f { fxjfax ' } then we have fx = Ax xf ax ; this is nothing more than the original equation of which , and ofjfr fafx , we have by hypothesis particular solutions : II 398 therefore its general solution is , x px f x{ fxSfax } The same equation may be solved differently , if we are acquainted with particular solutions of the equations x4 a5 xo , and x= Ax xx Assume 4x -f xxp x , it becomes fx xzx =-A x xf zx xqa x ' letfx be the particular solution of the original equation , then fx=sAx xfcx , and by division but of this also we have given a particular solution , call itfx , therefore the general expression of 4 x , is , x:fx Xf x. Let us take for example the equation X. .
+_ ... ... .
+_ the particular value of , x is fx i+ , ' and the particular case of , xs==S ^ 's zis fx= I from these considerations the general solution is X =( , + X ) Xwhich will on trial be found to satisfy the equation.* As another example , take the particular solutions are , that of the equation itself X and that of 4 x. t1 is known to be q(x ?
+) , hence the general solution is XX X , which , as is readily seen ) fulfills the condition , PROBLEM IV .
+Required the general solution of x-A xx4 ox +B x , having given a particular solutionfx Assume 4 , x =fx +~ x , then 4 ' x becomesf ax+ p , w and the equation is fx +x=Ax xfc x.+A xxtx+ Bx , subtracting from this the particular solutionfx =Axx fj % xB x , which is given by hypothesis , there remains opx A= AX q6.x , this equation may be solved by Prob. III , and we thence obtain the general solution of the given equation .
+From this may readily be deduced the solution of the following equations : ?
+4( ?
+Y ) ?
+( ?
+- ) = Ay supposef is a particular solution , take { y =j 4 +x y , the equation becomes f(eY ) -f ( -"Y ) +X ( eY ) + ?
+( -Y ) = Ay , but we have from the particular solution f ( y ) ?
+f ( a ) =Ay , 4oo this subtracted from the former , leaves .
+( el ) ?
++ ( e-Y ) o. Let us first consider the upper sign , then a particular solution of X ( eY ) =_ ( , - ) , is X ( y ) =(log .
+y)zn+ i. If we take the lower sign , then a solution of x ( SY ) x( E- ) is : ( y ) =(log .
+) From these considerations it appears , that the general solutions of the given equations are 4Y =fy +{ ( log .
+y)+ } and 4y =fy 4+{ ( log .
+y ) } according as the upper or under sign is used .
+The equation just solved was not constructed as an example to this particular rule , but is selected because it has actually occurred .
+It is used by Mr. HERSCHEL in the Philosophical Transactions , 1814 , for the purpose of assigning the sums of several very curious series .
+He there observes , that when the upper sign is used 'ttL ( i +y ) , and when the lower takes place I"+ ' L ( i +y , are particular solutions , these may therefore be generalized by the introduction of all arbitrary function If 4eYy +e -Y =a rational function ofy containing only even powers , or if 4 , g-Y =a rational function of y containing only odd powers , they admit of the following solutions , in the first case , let + e-I a+ ay-=a + +ay4+ &amp;c. +ay012n assume tie A+A ( log .
+y)+ &amp;c. +A ( log .
+y ) OIn 4y becomes A +Ay + Ay4 + &amp; .
+4+ Ayje becomes+ A+ Ay + Ay &amp; .C + .
++ Ay2 oIX By comparing the co-efficients , A=-a A=sa , &amp;c. A= a. OII l. n and calling the right side of the equation F ( y0 ) , if 4 " -4 +4 -c= Fy2 , a particular solution is y=-F { ( log.y ) } and similarly if x4 " ' ~:4 ' e-y=F , ( y ) =a function containing only odd powers ofy , one particular solution is,4y =F { log .
+y } and the general solutions may be readily deduced as above .
+PRaOBLEM V. To reduce the equation x +A xxAp ax + &amp;c. Nxx'vz 4+ Xo , to one in which the last term is wanting , by means of a particular solution , Letfx be the given solution , make 4x =x+ x , and substituting this value , the equation becomes ' fx + Ax xfa x+Bx xf3 x+ &amp; fe +Nxx fvx +X o 4-x+ Axxp 4ax+Bx xxfqAx + &amp;c. +N xx Ip vx the upper line is by hypothesis equal to nothing , therefore the equation is reduced to this , xAx x+ &amp;c. *N xx x-o ( i ) and if we can discover the general solution of this latter equation , that of the former may be readily found .
+Supposing c , y , &amp; c , .
+y , were to become a , ~ , a. .
+' , the equation ( i ) would be changed into ox + Az x xs +Bxx ( pX + &amp; + &amp; Nx - ' z( 2 ) after further if x , is such a function of x , that zx x , if we are acquainted with one particular solution of ( 2 ) , we may easily determine the general one thus : Assumne qx =fxxx x 06 , x x , ,. .
+x here we must observe , that since z is symmetrical relative to all the quantities contained within the brackets , it is immaterial in what order they are placed , and from the condition that ve x= x , it follows that if we substitute ok x for x , ( k being successively equal to i , , 4 , and ni-- , we shall always have these values x , a x , a x ... *r-'x only differently arranged , from these considerations the equation ( s ) will become o= ( fx + Ax xf ax + Bxxfs9 x +f &amp;c. +Nxx Kffan ' x ) % x , c X'Xs ... ? ? ?
+?X } ; this equation may be satisfied by making the factor which multiplies X equal to nothing , and this is always the case whenf is a particular solution , hence 5x tX 2z_ ' I'X px =fx xz tx , x , c x,. .
+0 -x .
+PROBLEM VI .
+To find a function of x , such that if instead of x we successively substitute ax , x , yx , &amp;c. vX , the results shall all be equal to the original function ; or in other words , to determine qx from the equations pX =axXp &amp; Px &amp;c. ( p v X findf , so as to satisfy the equation fx =fax ( a ) take any particular value Findf , so as to satisfy the equation 1 ff fx tx -fP ff 3x ( b ) for it is known from ( a ) that f =f take some particular value , and determinef from the equation fff fff Yx =z fff x , 21 21 21 continue this as far as ff f ... fx f =f ... fv x ( n3 n7 n-#i n K-x then , being any arbitrary function p { ff -ff4 &lt; n nf-i ` s will satisfy the conditions of the problem , As an example , let it be required to find a function which shall not change , when for x we substitute x , -x , or V here x , and xs ( a ) becomesf ( x ) f ( -x ) , hencef -q{ x , x as a particular case , takefx_ =x , then ( b ) becomes f1 ^ f*J X XX 1 whose solution is f , X take the case off= yO J I then we find &lt; pff x= X-~ } which fulfils the given conditions .
+In the same manner it may be found , that the function i ax + x4 + +ax +Xi ' will remain the same , whether the variable is x , -x , or - , PROBLEM VII .
+Given any two series of functions a x , p x , &amp;c. vx and =x , / 3 x. &amp;c. vx , required the form of 4 , so that the following equations may be fulfilled , 4 ax -4 xI &amp;c. &amp;c. , x=4 Y X. Determinef from the equation fa X =fax ( a ) I take some particular case , and determinef from the equation ff a3 =ffa,3f ff ax ( b ) IIIIII take a particular case and findf from the equation Jfff2 x= fffayx= fffa37 x ( C ) 21 21 II2iI and continue this to ff ... f..V x=ff.f , are .
+VI ( n ) n n-l In --I I 405 Then will Ax= ff ... f a y , v n n-i satisfy the conditions .
+We now possess the means of solving a much more general problem than we have yet attempted , it is the general solution of any functional equation of the first order .
+PROBLEM VIII .
+Required the general solution of the equation F { x , X , ' a. x,. .
+vx having given a particular one , containing one or more arbitrary constants .
+Find from Problem VI .
+an arbitrary function , such that it shall remain the same , when cx , 3x , &amp;c. vx , are substituted for x , call this qx , and let the particular solution be X-=f { X , a , b , c , &amp; C. } As these arbitrary constants are supposed not to be contained in the given equation F{ x , x , 4 x,. .
+4v}= o , when the particular solution is substituted , they must destroy each other , whatever be their value .
+If therefore , instead of a , b , c , &amp;c. we put qx , px , qpx , x &amp; c , I2 ( which are arbitrary functions fulfillin g this condition , viz. that they remain identical when ox , Px , &amp;c. are put for x : ) it is evident that these arbitrary functions must also destroy each other , therefore Sx =-f { x , q , px , px , &amp;c. I2 is a general solution containing as many arbitrary functions as the particular solution did constant quantities 6406 Examples , let a particular solution is x= a x+ .
+x and p( { , x does not change when x becomes therefore the general solution is xx take xI=( x ' ) a particular case of this equation is x-a + bx therefore , the general solution is ?
+Px=a+4x , -7 Let ?
+( x ) x ( - ) = --f + )7 as a particular solution take I -X ax f Iax+ x4 and p qi+ ax .
++~ is a functional equation which does not change when x becomes x or , therefore the general solution is &amp; ~I _x{+aa +x 4+1 being arbitrary. .
+Given the equation 6 A(__ ; ~ =G Ax +4 ( X ) + Va particular solution is x xa +bx hence the general solution will be found to be x ( , i)+ ( + x ) 407 On the number of arbitrary functions introduced into the complete solution of afunctional equation .
+When from a functional equation of the first order , we determine the form of the unknown function , one or more constant quantities are generally introduced ; these as I have shown in a preceding Problem , may be changed into arbitrary functions of the unknown quantity which fulfil certain prescribed conditions .
+' : A question naturally arises as to the number of these arbitrary functions , and how many any given equation admits of in its most general solution .
+The-train of reasoning usually made use of to prove , that a differential equation of the nht order , requires in its complete integral n , arbitrary constants may be pursued on the present occasion , though from several reasons , it would perhaps be desirable to have a proof resting on a different principle ; as I have not been successful in discovering any other , I shall give the only one I am at present possessed of .
+Let x=F(.x , a , a,. .
+a 12 n , for x , put any number of known functions , as ax , tx , .
+VX , the results will be Ax-F{Y a. , a.*.a ( 0 ) I2 nf3 4X ax=.F{x , a , a , .
+a } ( 2 ) I2nI2n &amp;c. &amp;c. vx= F{ vxa , a , a , .
+a ( n ) 12 nl 408 From these n+ i equations we may eliminate the n arbitrary constants , and the resulting equation will be of the form o =F{x , gx , xr , .
+4 ivr } ( A ) In arriving at this equation , we have eliminated n arbitrary constants , and therefore it might possibly be inferred that the general solution of ( A ) is x=-F{ x , a , a,. .
+a } .
+I21 But this is too hasty a conclusion , for it is evident , that we should equally have arrived at equation ( A ) , if each of the constant quantities in ( o ) had been changed into a function of x so constituted that it should not alter by the substitution of ax , jx , &amp;c. vX .
+It would now appear , that putting such values for the constant quantities , the result would be the general solution of ( A ) .
+This reasoning is certainly plausible , and such a solution is undoubtedly a very general one ; still , however , there are reasons which incline me to believe , that other solutions exist of a yet more general nature .
+Onfunctional equations of the second and higher orders .
+When we consider functional equations of an order superior to the first , new difficulties present themselves ; the artifices which were used with success in the preceding part of this paper , are no longer of any avail .
+Those which we have now to consider seem to possess an entirely distinct character .
+PROBLEM IX , Required the solution of the equation 'x =x ( Subtract fx from both sides , then we have consequently , consequently , -z Afx AX ( b)again multiply ( a ) by 4 x , then we have x , X rx-xx x From 'this we learn , that ( b ) must be integrated on the hypothesis of x~x being constant , hence x= -X+ cx +f(x X ) f being an arbitrary function ' is determined from the equation 4x+ x-f(xa7 ) =o .
+Forf we may putf-f , and it becomes f(x+ 4)-f ( x x ) =o ( c ) A friend to whose valuable remarks on this subject , I am much indebted , has communicated to me the following method of obtaining the same solution .
+Assume any symmetrical function of x and u. cp ( X , u ) 0 then from the nature of the equation we have the two following equations xU and uv consequently x= -^ u xs a^ , 22 -f ^ hence +x maay be found from the equation This at first sight appears different from ( c ) , but it is not so 41o in reality , for it may easily be shown , that from the sum and product of two quantities any symmetrical function may be composed .
+As particular cases of the equation we may notice 4x==a asx b-x and ax +/ r+E x'2:~ a -. .
+_ x , '-ax ' 2 PROBLEM X. Required the solution of Vxx another solution may be found from the following principle .
+Assume X4 ' _ &amp; Q f Qx hence 'x = .
+fQ'f,.q_ = px or XX p= .
+Now this equation can be satisfied if we are acquainted with a particular solution of fw= x , this may be found from the last problem , and sincef ax = , the equation becomes -I p Qjx:x which is identical , consequently &lt; x:= : f , x some particular cases are m each otb a , ( new X( from each of these by assigning particular values to ~ , new values off may be determined , and these in their turn will furnish new forms of the function , x. Some time ago I received from the gentleman already alluded to , the following solution of the equation XX 4/ ?
+= cp(--G 7 ) 3Gs 41 and likewise the solution ?
+p ( ( -l)pZ x of the equation O4ia= x ; this first led me to the substitution of ( p fp x ; which is of such essential use in these enquiries .
+PROBLEM XI .
+Given the equation .
+xn X-x .
+Assume as before 4x -= 'f x , then mx = " fvp f.x= f3 , x , x:= ^ f ' -p ( pI J-2 tT = fj3 p X , and generally , n x= cpfn v X , hence our equation becomes ?
+J fn ?
+p x X= .
+( a ) Suppose we have one particular solution of the equation , substitute this instead off , and the equation ( a ) becomes identical , whence ?
+x=ql f qx and from this other values off may be determined , and so on ad infinitum .
+The equation we have just considered , affords a ready solution of the following Problem .
+Required the nature of a curve , such that taking any point B in the abscissa , and drawing the ordinate BP TBCF if we make AC another abscissa equal to BP the preceding ordinate , and if we continue this n times , then the nth ordinate may be equal to the first abscissa .
+If AB =x and the equation of the curve be y= 4x .
+PB ==y =x and AC PB = 4x , and QC= xx= - ' x , and generally the nth ordinate TF is equal to An x , hence 4-'n xx which is the equation whose solution has been just found .
+PROBLEM XII .
+Given the equation 41 xa x= required the form of 4 .
+Assume x=xpfpx then A x= f ' fx and cp X -z x take the function p on both sides , then this becomes f xp -=(p x. This is a functional equation of the first order relative to q , and may be solved either by the methods exhibited in the first part of this paper , or by the very elegant one of LAPLACE , f is a perfectly arbitrary function , except that neitherfx nor f ?
+x must be equal to x : from not attending to this circumstance , I was at first led into several errors ; the reason of these two restrictions is , that in the first case we at once determine Yx to be equal to x , and in the second , we in fact make ox = x , neither of which are necessarily true .
+PROBLEM XIII .
+Given the equation .
+%4n x ax This admits of a solution similar to the last , by assuming m , x 413 equal to qp f x , we find Qp f"qxp x= ax and by taking p on both sides , it becomes givef some particular value and determine a as in the last problem .
+PROBLEM XIV .
+Given the equation Assume 4x f p , f fx hence a x=qp fqfc p fp j3 II makef = , then the equation becomes I fv fzf / 3 p= f a= q3 fymV and by taking qp on both sides f"pcf 1 ASx=(pyx this is an equation of the first order relative to ( p. The equation ( n),4 ay.ny might be solved in the same manner , but they are both reducible by a simple transformation to the form ~ny =Fy PROBLEM XIV .
+Another method of solving the equation ^2 x == X Assume x = : j(p ox , then 'x = ( p / f &amp; , and we have Lety -= ( , then x=( 'y and the equation becomes qf2y ( y 414 an equation of the first order from which y may be found or thus assume : Y-x{Y f Y4 and makef4y =y , this method is much more extensive in its applcation than any of those before it .
+PROBLEM XVI .
+Required the solution of n xthe same method applies equally in this case , Assume 3x -C ( p'f cx then fn ( p = Xwfor x put C( ' it becomes pf x -x .
+Take ?
+' an arbitrary symmetrical function of cf ' fn , f , and fPn x , then x c=G { x , nx , f S f , fkn }X and determinef such that f(r+)"X =Xa particular solution is sufficient , and it is evident , this value of C will satisfy the equation .
+PROBLEM XVII .
+Given the equation 3 ( Y , Y ) =Y required the form of y. Assume Jy s ( p'f ?
+s , then it becomes fp ' f ( y , f pie ) -y , 415 take successively on each sidethe functions p , f-1 , and &lt; , the equation becomes ( Y , pf qy ) f-x pie for y put ( p ' y , then f II qfIY ( 4 y , cp'fY)= of-'Y , this is a functional equation of the first order relative to $ ' , givef any determinate value and solve the equation .
+From hence we may deduce the solution of the following question .
+Required the nature of a curve __f _ ... . .
+AB J ) such that taking any abscissa AB and drawing the ordinate CB , if with centre A and radius AC , we describe a circle cutting the abscissa in D , the ordinate ED may be equal to the first abscissa AB .
+Lety -= -x=CB AD = CA == Vx ( ' x)'4 and ED -= ( AD ) , hence which is a particular case of the preceding problem .
+PROBLEM XVIII .
+To reduce the equation F ax , 4x , A4 X , .
+*.nv ) =0 4r6 makefx equal to x , for in this ease we at once determine Ax to be equal to x , which is not always true .
+The same observation may be made with respect to making fx= x , for in this case VxAxx4 X , 3 = , = ~s ? ?
+4 x , and we in fact by assuming this value for f determine 4 from the equation F { a , , 4X , 4 9 , &amp;c. }= The same objection does not hold when we make fSx=x , though this considerably limits the generality of the solution ; apparently the most eligible mode of determiningf is from the equation fn+ x x , for in this case supposing we are acquainted with a particular solution of ( a ) containing any number of arbitrary constants , such as &amp; t xA X{ , a , b , c , &amp;c. we may substitute for each of these constants an arbitrary function , such as X { , fxI , fX , ... fx } for it is evdent this function does not change when we substitute f 'x forx .
+But this form off is not always correct , it may be inconsistent with the original equation .
+In fact , the only value we can assign to f which shall not in some measure limit the generality of the Problem , is to suppose a particular solution of the given equation , As an example of this method take the following problem .
+jO X Required the nature of the curve ADE such that taking any abscissa AB and corresponding ordinate DB : if the abscissa AC be taken , equal to DB and the ordinate EC be drawn , then the rectangle under the two ordinates shall be equal to the square of the first abscissa let the equation of the curve be y -=4 thenAB=-x DB=y =.x AC =DB , and EC = ?
+( AC ) = ( DB ) ==y the given condition is therefore making the usual substitution of Ax= p1'f x it becomes q ' f ' px x 'p fcx =x putting C ' x for x we have )f xx fx ( f x 'x ) Assume x=x ( x fj fx ) the equation then becomes / x { f f s3x fr44 x % { fxf I fx ' } [ x { % fr a } ] If now f be determined from the equation f3 x= x we havef4 = fx , and the equation becomes identical , hence ( ' and f being found , we may determine A. One of the simplest curves which satisfies the equation is y Xs a3a line of the third order , the 69th in NEWTON'S arrangement , its form is 419 PROBLEM XX .
+Required the general solution of the equation F { x , x , ^ ax , r,4. .
+An vx } =o Reduce this by Problem XVIII .
+to the form of F d , AAx , *%.x Ah } =o hi which shape it may be solved by the preceding problen .
+PROBLEM XXI .
+Given the equation F { ,4+ , i ' ( X , A ?
+X ) } =0 required its solution .
+Assume a ( x , 3x ) = ( 'f ?
+( a ) hence I , -I ( X , If w ) ( b ) In the left side of this equation , put for x the left side of ( a ) and in the right side , put instead of x the right side of ( a ) the result is ( XZ.)^ _ -I ( / X ) Xf P( ) P ) substituting this in the original equation , the result is F jc al- ' ( X , / p f ) , o-I(qlf x , ( q 'f , Q ) ) } =o which by putting ( p x for x becomes xF &amp; ?
+, o ( fx ) ' '(fx , 2( x ) } =0 this being an equation of the first order relative to ( ' may be solved as above .
+With respect to the number of arbitrary functions which enter into the complete solution of functional equations of higher orders than the first , I have little at present to offer ; the difficulty of the subject , and the wide extent of the enquiries 42W to which it would lead , induce me to postpone it until I have more time for the consideration .
+The following remarks may suffice for the present to point out some of its difficulties and the mode of enquiry .
+If J/ f { , a , b , &amp;c. } ( 1 ) Ix == { x , a , b , &amp;c. ) xi ' =f , a , , b , &amp;c. j ( 3 ) 3 &amp;c. &amp;c. 4nX =f{ , a , b , &amp;c. } ( n ) n From this by eliminating n-of the arbitrary constants a , b , &amp;c. we have an equation of the form F { x , \ , ox , x.,.A.n }x= o ( a ) and it might possibly be concluded that equation ( 1 ) containing n-1 arbitrary constants is the general solution of this last equation : but this is by no means the case .
+In the first place between the two equations ( i ) and ( 2 ) , more than one arbitrary constant may be eliminated , thus let I --bx from which we find 4/ 2 X== ; X the two quantities a and b have been eliminated , and it is possible to select a value of , x , between which and 5x an infinite number of arbitrary constants could be eliminated .
+But waving this objection let us consider the case of ( a ) which is deduced from the elimination of n-1 arbitrary functions .
+We have seen in Problem VI , that a function of the first 42I order may satisfy any number of conditions ( which are not contradictory ) simultaneously ; and there appears na reason for denying this property to those of higher orders .
+If now we consider the symmetrical function X { x , x , ) x. , 'v ax } and if Av+ &gt; x= x. It is evident this function will not change by the substitution of 4 x , A ' x , &amp;c. or 'n x and consequently that a different function similarly constituted may be substituted for each of the arbitrary quantities a , b , c , &amp;c. in ( 1 ) which is the solution of the equation F { x , ix , x4,. .
+n x } =o ( a ) The number denoted by u is arbitrary ( it may , however , become determined from some particular circumstances of the equation ( a ) .
+Thus we have introduced into an equation of the nth order , an unlimited number of arbitrary functions , each of which contains the function whose determination was sought with all its different orders to an undefined extent .
+If we take the particular case of 4x == ax t2 w _= oc u must be unity , and a general solution is 4'c2=%{x,4'}taking another solution Xx ~-i'--bx ' ~[ ?
+, ' '= i " and , _x ( x , 4 x ) -x and x'X -1 -I x ( x,4 , x ) If x= x v=Un 1 , and supposing x=f ( x , a , b , &amp;c. ) any particular solution we have for the general one 4 0-
+

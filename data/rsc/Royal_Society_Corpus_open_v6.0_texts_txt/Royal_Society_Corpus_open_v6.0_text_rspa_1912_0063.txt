@@ -1,0 +1,101 @@
+]\gt ; On a Form of the Solution of Laptace 's Equation for Problems Relating to Spheres .
+By G. B. JEFFEBY , University , London .
+( Communicated by Prof. L. N. G. Filon , F.R.S. Received April 11 , and in reyised form June 10 , \mdash ; Read June 13 , 1912 .
+) S1 .
+Introduction .
+The problems presented by the motion of two solid spheres in a perfect fluid have been attacked by various writers .
+* In each case the method has been that of approximation by successive images , and it appears that no gerieral analytical method of solution has been developed as in the case of the analogous problems for the sphere , ellipsoid and .
+In this paper a general solution of Laplace 's equation is obtained in a form suitable for problems in which the boundary conditions are given over any two spherical surfaces .
+A similar solution is obtained of the differential equation of Stokes ' current function .
+With the aid of these results it is theoretically possible to determine completely a potential function when its value is specified over any two spheres .
+The method is illustrated by an application to the electrostatic field of two charged conducting spheres .
+In this case the method leads to a simple expression for the capacity of either of the spheres .
+The co-ordinates employed are defined by rotating about the axis the system of circles , in any plane , through two fixed points on the axis and the orthogonal system of circles .
+Thus , if , are the Cartesian co-ordinates and , and the distance between the fixed points is , we have a system of orthogonal curvilinear co-ordinates , where .
+( 1 ) The surfaces constant will then be a series of coaxal spheres having a common radical plane .
+It is obvious that the and the value of can be so chosen that any two given spheres will be included in the system .
+These co-ordinates are similar to those employed by Hicks in his memoir on " " Toroidal Functions , \ldquo ; the difference being that in the present * R. A. Herman , " " On the Motion of Two Spheres in a Fluid ' Quart .
+Journ. of Maths 1887 , vol. 22 ; W. M. Hicks , " " On the Motion of Two Spheres in a Fluid ' Phil. Trans 1880 ; A. B. Basset , " " On the Motion of Two Spheres in a Liquid 'Proc .
+Lond. Math. Soc 1887 .
+' Phil. Trans 1881 , p. 609 .
+Mr. G. B. Jeffery .
+Solution 's [ June 10 , case the circles are rotated about the line the li1niting points instead of about their common radical axis .
+Further , in one case the surface conditions are given over spheres , while in the other they are given over " " tores\ldquo ; or anchor-rings .
+For these reasons , although that part of Hicks ' paper which deals with the eneral theory of curvilinear co-ordinates has been of very considerable help to the present writer , the functions obtained and methods suitable for their applications are very different in the two cases .
+The following results will be of use ; they are easily obtained from ( 1 ) and are set down here for reference:\mdash ; .
+( 2 ) .
+( 3 ) If denote the lengths of elements of the curves constant and ( 4 ) If be the radius of any sphere of the system , and the distance of its centre from the origin , .
+( 5 ) S2 .
+Solution of It is well known that if , be any system of orthogonal co-ordinates Laplace 's equation may be written in the form , ( 6 ) where In the present case , conjugate functions of and if 1912 .
+] Equation for Problems Retating to Two Spheres .
+Substituting these values in ( 6 ) , we have , as the form taken by Laplace 's equation in co-ordinates , .
+( 7 ) In order to solve this equation , write .
+We obtain which becomes , in virtue of equations ( 2 ) and ) , .
+( 8 ) After the usual manner we will seek a solution of the type where , are functions of , respectively .
+Substituting in ( 8 ) we at once obtain const .
+, say .
+Hence and Put and we obtain ally , , we have the solution of which is well known to be , where being the Legendre function of order is the corresponding functiun of " " second kind Hence and a particular solution of ( 7 ) may be expressed in the form We shall find that for physical applications it is sufficient to confine our VOL. LXXXVII.\mdash ; A. Mr. G. B. Jeffery .
+Solution of 's [ June 10 , attention to integral values of .
+Moreover , the solution corresponding to is identical in form with that corresponding to .
+It will , therefore , be sufficient to consider only positive values of , and since by the nature of the function , , we may write the solution of ( 7 ) in the form .
+( 9 ) S3 .
+Properties of the Function The function and its first differential coefficients must be finite and continuous at all points of the field except those which correspond to some special physical condition such as a source or charge .
+is finite and continuous for all real values of , but becomes infinite when or , and hence cannot occur in an expression for which is to hold throughout a region including any part of the axis of .
+It is to such cases that we confine our attention in the present paper .
+At the limiting points of the system becomes infinite , and hence the forms of appropriate to regions including the points are respectively It will be convenient for reference to have the general value of with respect to we have , omitting the terms , .
+Applying the recurrence relation , we have , after further reduction , , ( 10 ) provided that ( 9 ) may be differentiated term by term and rearranged .
+1912 .
+] Equation for Relating to Two Spheres .
+The coefficients in the function are not in all cases identical in the two regions into which the field is divided by the plane .
+Let ( 9 ) be the expl.ession for in that part of the field for which while a similar expression with accented coefficients holds throughout the other half of the field .
+In order that may be continuous across the plane while , in order that may be continuous , we must have ( provided that is given by ( 10 ) ) where and if .
+Writing ) .
+This relation holds for all values of such that .
+Hence if which at once leads to the result These forms occur whenever the field includes both limiting points together with any part of the plane , for any expression for of the form ( 9 ) which is finite at one of these points becomes infinite at the other .
+For a unit at the points the potential is riven by Thus , as in the case of spherical harmonics , the harmonic of zero order corresponds to a point charge .
+The analogy , however , extends no further ; the nth harmonic does not correspond to a charge of the nth order .
+It may be shown that , if be the radius vector from the pole where is the ordinary binomial coefficient .
+Mr. G. B. Jeffery .
+Solution of 's [ June 10 , S4 .
+of Symmetry an Axis ; Stokes ' Current Function .
+When the field is symmetrical about the axis of , we obtain the form of the function by putting in ( 9 ) .
+( 11 ) Many physical problems are more easily interpreted by means of " " lines of force or " " lines of flow than by the potential .
+In the symmetrical case there exists a function corresponding to Stokes ' current function , such that the su1faces constant are orthogonal to the equipotential surfaces , and which is connected with by the following relations* ; Transforming to co-ordinates , , By a well-known property of conjugate functions and Hence Hence , since ; .
+( 12 ) When a potential exists , and is continuous , we may write .
+( 13 ) Substituting from ( 12 ) , we obtain the differential equation satisfied by an equation which is somewhat similar in form to Laplace 's equation and * Lamb , ' Hydrodynitmics , ' p. 117 .
+1912 .
+] Equation for Problems to Two Spheres .
+which yields to an mode of treatment .
+Writing , we have which becomes in the case under consideration Assuming , as before , a solution of the form constant Hence In order to solve for , substitute .
+We obtain Now write and the equation becomes the general solution of which is As for the function , it is only necessary to consider itive i values of , and the solution of ( 13 ) which is finite on the axis is .
+( 14 ) S5 .
+Properties of the Function It is obvious that the remarks made in S3 on the continuity of the function apply equally to the function .
+Differentiating ( 14 ) with respect to and applying the recurrence relation we have .
+( 15 ) Mr. G. B. Jeffery .
+Solution 's [ June 10 , As for the coefficients must be the same on both sides of the plane , while to secure the continuity of the potential gradient we must have provided that ( 14 ) may be differentiated term by term , where , 2 , 3 , , , and adding , we have where is a constant .
+Multiplying by and again putting , 2 , , , we obtain on adding or A simple example of this form is afforded by the case of a uniform field parallel to the axis of in which Relations betwethe Coefficients in and Let siuh , be functions specifying the same field .
+The coefficients will be related in such a way as to satisfy equations ( 12 ) , which for our present purpose may be written in the form .
+( 16 ) Differentiating the expression for with respect to and applying the well-known recurrence relations we obtain Identifying this expression with the value of given by ( 15 ) , we have ( 17 ) 1912 .
+] Equation for Problems to ) It is easily verified that these are also the relations necessary and sufficient to satisfy the second of equations ( 12 ) .
+, 2 , 3 , , , and adding , we obtain ( 17 ) S6 .
+The Potcntial and of two Sphcri Condmctors .
+We will conclude the present paper by an application of this method to a classical electrostatic problem .
+Let be any two spheres such that but is unrestricted .
+The potential is constant over each of these spheres , and we can without loss of generality suppose it to be zero over the surface and over the surface .
+It is obvious that will be of the form , from which we have .
+The left-hand side may be written since Equating the coefficients of , we obtain the value of , and the potential function becomes If denote surface densities of the charges on the spheres respectively , we have , by Coulomb 's theorem , , .
+Using Maxwell 's notation we will denote the coefficients of capacity by Mr. G. B. Jeffery .
+Solution of 's [ June 10 , and the coefficient of induction by .
+To obtain these we put and integrate the surface density over the appropriate sphere .
+The following integrals will be required , and ' if From considerations of symmetry it is clear that we should obtain for the third coefficient These expressions are not those obtained by Maxwell ( ' Electricity and Magnetism 3rd ed. , vol. 1 , p. 271 ) , but it is possible to transform them into the forms there given , e.g. \mdash ; Since the double series is absolutely convergent , and we may interchange the order of summation which is Maxwell 's form .
+1912 .
+] for Problems to Two When one sphere is enclosed within the other and there are slight differences in the coefficients due to the different forms taken by the rals in these circumstances .
+We obtain For two equal spheres cosech In the case of a sphere in the presence of an infinite plane , We have tabulated below some of the more important of these functions .
+Table I.\mdash ; Capacity of Two Equal Spheres .
+120 Laplace 's Equation for Problems Relating to Two Spheres .
+Table II.\mdash ; Capacity of a Sphere in the Presence of an Infinite Conducting Plane .
+In a future paper we will show how the method can be applied to the problems of the motion of two spheres in a perfect fluid .
+In conclusion , I wish to express my deep sense of obligation to Dr. L. N. G. Filon , F.R.S. , and Mr. E. Cunningham , M.A. , for the valuable assistance they have given me , and to .
+A. W. Porter , li .
+R.S. , for his helpful interest and encouragement throughout the preparation of this paper .
+

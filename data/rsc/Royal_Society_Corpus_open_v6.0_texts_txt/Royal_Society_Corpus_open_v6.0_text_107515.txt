@@ -1,0 +1,229 @@
+III .
+On the developement of exponential functions ; together with several new theorems relating to finite differences .
+By John Frederick W. Herschel , Esq. F. R. S. Read December i , 1815 .
+NN the year 1772 , LAGRANGE , in a Memoir , published among those of the Berlin Academy , announced those celebrated theorems expressing the connection between simple exponeni tial indices , and those of differentiation and integration .
+The demonstration of those theorems , although it escaped their illustrious discoverer , has been since accomplished by many analysts , and in a great variety of ways .
+LAPLACE set the first example in two Memoirs presented to the Academy of Sciences , * and may be supposed in the course of these researches , to have caught the first hint of the Calcul des Fonctions Generatrices with which they are so intimately connected ; as , after an interval of two years , another demonstration of them , drawn solely from the principles of that calculus appeared , together with the calculus itself , in the memoirs of the Academy .
+This demonstration , involving , however , the passage from finite to infinite , is therefore ( although preferable perhaps in a systematic arrangement , where all is made to flow from one fundamental principle ) less elegant ; not on account of any confusion of ideas , or want of evidence ; but , because the ideas of finite and infinite , as such , are extraneous to symbolic language , and , if we M m. des Savans Etrangers , i773 P. 535p.Mem , de 'Acad .
+177Z .
+p. lo2 would avoid their use , much circumlocution , as well as very unwieldy formulae must be introduced .
+ARBOGAST also , in his work on derivations , has given two most ingenious demonstrations of them , and added greatly to their generality ; and lastly , Dr. BRINKLEY has made them the subject of a paper in the Transactions of this Society , * to which I shall have occasion again to refer .
+Considered as insulated truths , unconnected with any other considerable branch of analysis , the method employed by the latter author seems the most simple and elegant which could have been devised .
+It has however the great inconvenience of not making us acquainted with the bearings and dependencies of these important theorems , which , in this instance , as in many others , are far more valuable than the mere formulak .
+The theorems above referred to are comprehended in the equation .
+{ , UX } no ux ; ( a ) Antx ; E ; ... ... ... ... .
+( a ) or , more generally ( 1+A))af { ^aD}ux , ; ... ... ... ( b ) where the A applies to the variation of x , and the D to the functional characteristic u ; and where n may have any value whatever .
+Taking these theorems for granted , I shall observe , that , in their present form , they are but abridged expressions of their meaning , and that to become practically useful , their second members must be developed in a series of the powers of Ax .
+D. This part of their theory has been most beautifully and satisfactorily treated by LAPLACE in the case of n. --1 Phil. Trans. 1807 .
+I , 26 ( one of the most important ) .
+Unfortunately , his method turns upon an artifice which , although remarkably ingenious , fails to afford us any satisfaction except in this particular case ; and I am not aware that his researches have since extended beyond it .
+The essay of Dr. BRINKLEY ( the only author I have met with who has attempted the general problem ) goes to the bottom of ' the difficulty , and leads to a formula which , considering the complex nature of the subject , must be allowed to be far more simple than could have been expected .
+It is often , however , advantageous to undertake the solution of the same problem by different methods .
+The excellent geometer I have mentioned , has adopted one which appears at first sight very inartificial .
+It consists in expanding the second member of the equation ( a ) reduced to the form { L+ l+ ++ &amp;c. by the well-known theorem for raising a multinomial to the nth power .
+The difficulties and apparent obstacles which this method presents , he has overcome or eluded by a singularly acute discussion of the combinations of the various numerical coefficients and their powers .
+But it is obvious that this method , applied to the more general equation ( h ) , would lead into details of extreme complexity .
+This consideration induced me to begin with that equation , regarding the other as a particular case of it ; and I have thus arrived at a general and highly interesting formula ( equation ( 2 ) of the following pages ) hitherto , I believe , totally unnoticed , and which in the particular case of the equation ( a ) , when n is a positive integer , affords precisely the same result as Dr. BRINKLEY has given : when n , however , is negative , it yields an expresE o 27 sion widely differing from his in point of form ( though of course affording the same numerical results ) and which in the most important case , where nt=i , takes a form of greater simplicity than any I am yet aware of .
+I purpose then to consider the second member of ( b ) as developed in a series of powers of A x. D ( which for the sake of brevity we will denote by t ) .
+If then we suppose f ( et)=Ao+At +Azt2z + &amp;c. we shall have dxf(et ) x.2 ... x. dtx where t=o after the differentiations .
+Now , it is easy to see that ) will , by performing the dt operations indicated , assume the form K , t. Df(et)+ K , . ?
+Df ( e )+ &amp;c. K being a certain numerical coefficient , depending on an equation of differences Kx+t .
+, +l ( y +( ) Ko + I+Kx , Y whose complete integral is KK C.y yX1 KX , Y =Cy C_ .
++*(-1 ) - , ,C , C being an arbitrary function of y , to determine which we have only to consider that K , is always , necessarily , unity ; and consequently C.c_ lC ( x , )X+ ... ... .
+( C , .
+Now , we know that XX e_ + &amp; c = i. .
+x--x.----+ &amp;c. = ; .2 ... a8 that is , ^I.x ' ( -i)x + &amp; c = 1 ; X12..73 I..,..(-l ) .
+I whence it is plain that : nI Cy = and of course that AY ( y_ ) + , &amp; C -___ _ x , .
+2. .
+* , y where AY o denotes the first term of the ytb differences of the terms of a series ox , ,x , x , &amp;c. We have then making t=o , dXf(i ) Df( ) 0+ Dxf(I ) Ax x. ^ -r .
+I ... . .
+X If we separate the symbols of operation from those of quantity , the second member of this equation may be much more elegantly written as follows : D ( DA ) ( D ... ... ... .
+) .
+referring the D to the functional characteristicf , and the A to the o and its powers .
+-Or , we may throw it into the following form , { f-45 A " fI )lAL2$..DXf(I ) AX } OX { Df(i ) A +D f ( I )A 2+D 0 Upon this , we have to observe-first , that the addition of the termf ( 1 ) at the beginning of the series within the brackets makes no difference in the result ; adding only to it the term f ( ) x o , which vanishes of itself : and , in the next place , that we are at liberty to suppose the series continued to infnity ; as every term beyond D f( ) Ao vanishes , owing v~~~~~ ... .- &amp; " to the well-known property of the functions A+ ox A +2 o &amp;c. , each of which is equal to zero .
+Our series then becomes { f(l ) A+ &amp; ( c. }o =f( +A)ot and we have therefore / ( f )=f( 1 )+ f( A)l+1 ) o+ &amp;c. ... .
+( ) In applying this series to any particular case we have only to developef ( +A ) in powers of A : then striking out the first term , as well as all those where the exponent of A is higher than that oftt to apply each of the remaining ones immediately before the annexed power of o , and the developement is then in a form adapted to numerical computation .
+This formula may be also farther compressed into f(t ) = ( l+A ) e ; ... ... ... ... ... ... .
+, ( 3 ) by simply writing it as follows : f(t ) =f(I+A ) { + t.o+t + &amp; c } .
+I shall notice one more form in which the same result may be exhibited .
+If we continue the series ( 1 ) , as before , to infinity , and add the term i at its commencement , it becomes { ^+ +^ -+ &amp; C , } of( , ) = D.f(1 ) whence , we obtain tJ )~ 'o.()+~ AD 02( ) d ( ) =f &gt; ( )+t 90 f ( l ) + &amp;c. or , attending carefully to the application of the symbols f/ ( tl)=aD + O. + &amp; C. } _A.D+o.r(i ) ; . .
+( 4 ) We will now proceed to apply these results to the actual 30 developement of equation ( a ) .
+And , first , in the case where n is a positive integer , we have f ( t)(t )f ( )- ; ( t~(t 1 ) .
+consequently , f(+A)-=(1+A-1)A =A wherefore theequation ( 2 ) becomes ( tnt no t~ , + tn n*( l ) =-.Io a + , go , +.- &amp; xo 2+ A + &amp;c. ; ... ..(5 ) .
+of which the first n vanish of themselves .
+Let us next consider the formula ( t--1 ) ' ; -n being a negative integer .
+As this function , when developed , must evidently contain the negative powers of t , as far as t-n , we first throw it into the form t '( { }n , or its equal tn tlog .
+} supposing thenf ( e ) = log ' " }n we shall have by applying the equation ( 2 ) _t it log .
+( I + A ) no. 2 lg .
+( I +A ) ( i.I i+ I'tAA &amp;c. ; ... ... . .
+( 6 ) .
+All that now remains to be done is , to develope the function { log , ( ) } in powers of z. When n= 1 , the developement is well known to be IZ ~~3 -'t ; 3 - &amp; , Hence , if we suppose tt " t t , 1I B +B , .
++ &amp;c. we shall have QB -Iog .
+( I+A ) o =* AA f Aox AZ + OX AOX ( 7 =- ; 1-T'T+** " ' +- ; -7 ; ' " ... .(..( 7 ) .
+and in general , if }- , ' '..+ B+ B1 + &amp;c. we shall have nB log .
+( +^ ) } % ... ... ... .
+( 8 ) B - ; 8 The coefficient of Az in the function li ?
+g +n developed in powers of A , is evidently d +n .
+( log .
+t } I. 2 ... ..(x + n).dtx+n t being made -after the differentiations .
+Now we easily find , that the expression d +.(log .
+t ) dtx+n After executing the operations indicated must take the form A +1 A log .
+t+ ... . .
+' A.(log .
+t)-1 x.v-E tx+ n and the equations which determine Ax , &amp;c. are n-XA+ --+ ( x-n ) n-1IAx n-2Ax+ =I ( x+n)).n-Z Ax+ ( --1 ).nIA 0a o ?
+* ?
+* susceptible of an expression by means of those bf B : ITn fact , the odd values of B. vanishing ( except B3 ) , we have i+ ?
+-B,.+ &amp;c. { C. }= B.t + ( i + nB " + &amp;c. ) } and , comparing the coefficients of tZx+1 in the two members of this equation , we obtain B2 , X+= ( 2X +1 ) .
+Bzx Hence this remarkable theorem , s aSS)-t*.gs( 3)+ &amp; C. OZ+= ( 2x+l).B z ; .(1..-.(lo ) which may also be regarded as affording another general expression for the numbers of BERNOUILLI .
+LAPLACE has shown that the developement of the function may be derived from that of- , and that , if the coeffil cientof 't in the developemrent of the latter be represented a by a it will be in that of the former .
+Now , by the application of our equation ( 2 ) , we find that ~.}=j 7( +T+ 7Z + L ' X n"oI+ &amp;c. ... ... .( ) Making then n=1 , we fnd for the value of ax_ _2 a-2-3 ^ + ... . .
+, a^ 01 a-2 * D the co-efficient of x-P in the product PS ( x ) , we shall have x-n+iS(x ) n_ r1 I.Z.3 ... ... x and , as every value of n- ' S { } , from xn up to oo is wanted , the principal part of the work consists in calculating the first n terms of the successive products , which , ( being derived from one another ) except n is considerable , is attended with very little trouble .
+The remarkable form of our equation ( 2 ) enables us to exhibit a variety of properties of the functions comprehended under the expression A " Ox , some of the principal of which I shall now proceed to notice .
+Supposef(/ ) =a ax .
+t t+ t+ &amp;c. Then , as we have shown , f(I+-A ) )X ax = + : ... ... ..X. .
+b. ( 3 ) from which we find f(1 + A ) o= 1.2 ... ..x * x ... ... ... .
+( ( 14 ) If then the developement off ( e ) be given , we are enabled to assign the value ofjf ( 4 + A)ox in functions of x , and the converse .
+It is scarcely necessary , however , to remark , that the extent of these equations is not limited to cases in which the actual developement off(1 + A ) in powers of A is practicable , or in which the form off is known , or even dependent on analytical relations .
+Let us suppose a function F(t ) , and any two othersf ( t ) and f ' ( t ) , so related that F ( t ) =f(t ) f'(t ) Let also F ( t ) =+ AO + A. t+ A^ t+ &amp;c. a'similar notation being used , for f( ) and f ( t ) , changing only A into a and a ' .
+It is evident then , that A =-ao aa +. .
+a. +* a ' X 0 above explained .
+Pursuing this idea , let us suppose F(t ) to be decomposable into any number of factorsf( t ) , J/ ( t ) , j " ( , t &amp;c. , and by executing the same mecllanical process on the expression F ( 1 4A)ox , we resolve it into f( + A)./ o ( + -A ) .
+&amp;c. { o+o , +o+ &amp; tc .
+} .
+A moment 's attention to the method by which ( 15 ) was originally derived , will convince us that ( attending to the proper application of the symbols ) we are at liberty to develope the expression { o + o ' + o " + &amp;c. } " , and thus we have the equation F( l+ )o=f(l+ 1a+ ) '(+A ) .
+&amp; c 0o+-o'+ &amp;c. }*o( 16 ) Shouid any one of the functions f( -+A ) , &amp;c. , be of the form ( 1+ -)K any term multiplied by oi in the developement of jo + o ' + &amp;c. } will acquire the coefficient ( x 4A)0 o , which , being , by ( 14 ) , the coefficient of t1 in the developement of ( 1 +-1 )k , or et , multiplied into 1.2.3 ... ..i , is evidently ( -qual to ki .
+Now it is the same thing whether we write k1 for ( 14A )k oi after the developement , or at once strike out ( 1 +A )k , and for o write k previously to it .
+Hence we conclude that ( I+A).F('1+A)o0=f(t+A)j'( I+A ' ) .
+&amp;c. { k+o+o'+ &amp;c. } ; ... ... ( 17).where , as before , F(t ) =f(t ) f ' ( t ) .
+&amp;c. The expression f( i4 ) o " is susceptible of a somewhat varied form , deducible fro , m the identical equation The coefficient of ti in the second member of this is equal to that of " inf { ( ) ' } multiplied by In , that is , by ( 13 ) , to f ( i+A)o } ; and thus we obtain _n ' 1.22 .
+* .
+Xt1 -( A ) It0 -nxf ( 1 A ) ... ... ... ... ... ( 18 ) From this equation it is easy to derive the two following 0 { Af( +A ) +f( , - ) }o~- , ; ... ... ... ... ... .
+( 19J o ( 1 + A ) -( + , ) } ?
+; ? . ?
+e ? ?
+*x**( 30 , { ... ... ... ... .
+( o ) Let f(E ) be a rational , integral , finite function of t , and suppose it to contain the powers of t , tP , t , &amp;c. ; it is evident then that we shall have , by ( 14 ) f( + )o=o ; ... ... ... ... . .
+( 1 ) in every case except where x is equal to either of the numbers p , q , r , &amp;c. The following forms off satisfy this condition f ( t ) = ( log .
+t)n f(t ) ( t ) ( + t}L f ( t ) aL(i + t ) + ( )1 nL + } J(t)=-C(t)-(-1 ) -C } or , lastly , the sums , powers , or products of any of these forms , any how combined.* The excepted values of x , are-for the first of these forms , x nf-for the second , x and for the third and fourth , x= n , or n , n 4 , &amp;c. Also from the general theorems delivered by Mr. SPENCE , we find for the value off(i + a)on-.z(which comprehends all the excepted cases ) in the third and fourth of the above forms respectively 2xL ( ( ) and 2zx+ C( ) .
+It may not be uninteresting to descend to a few more particular applications of these general theorems .
+If we suppose f(t)-(log .
+t ) " , n being a positive integer , we havef(eg)=t and consequently , by equation ( 14 ) , { log .
+( iA )}o o ; ... ... ... ... .
+( m. in every case but where x=n , when it becomes 1 ... .
+n. If n=1 , this becomes xA 0 A1 0x .
+Ax O.-.I .
+2 + , .
+4 ?
+- ... J. +._ *( 3 ) in every case but where x=1 If we takef ( t)= -- , or f ( g)=--t , we find in the same way I=A ox A ?
+XoX ++00+A00e0o ( 24 ) d==AA &lt; o^nxlr O"+ ... ... ^A~O". . ? ? ?
+?. . ? ? ? ?
+( ?
+) ? ? ?
+Again , let f(t ) = -2 , then willf(g ) sec ( - ; ) and as the coefficient of 0'T in sec. 0 is ( as EULER has shown)* 22X+2 2X+a 7r+.* ' c(i ) , that of tI in sec. will be It C(i ) .
+'),2 2 C(+.I ... ... - ' ) X'7I'2 which , compared with the expression f( +a o2 ' gives Cc % ( 1_ 1.i +)a 22+1 which see)=s te m ... st co.pendious for n which this c.m which seems the most compendious form in which this complicated iuunction is capable of being exhibited in finite terms , as well as the most easy of computation in any insulated case .
+t If/ f t ) _ , we have ( )=tan , and I2 2X-a .
+-o 2X--I 1.z2 ... .[zXs-l ) 1+(I+A ) " Calc .
+differentialis .
+zx+ C(i ) is used to denote the series III _X- .
+n..I - &amp;c. 2zE+ I 3'x x12+ 29 But the coefficient of t2 -x in tan .
+is v-I ( -. .
+X 2 " .
+( _ 2 ( - ' B 1 .
+2 ~ ... zx 2 ) xI where B here denotes the Xth in order of the nulmb'rs o4 zx--I BERNOUILLI .
+Equating these two values , we find -B = -x 1 ( +/ - ?
+o ; ... ... . .
+IS3 BX-I 2X--I ( X_i ) 1 ( I-A .
+) ( 6 We will now proceed to consider the developement of a : , y function of the form u =f( : , g ' , Et 1 &amp;c. ) t , t ' , t " , &amp;c. being any number of independent variables .
+The coefficient of tx .
+t'y .
+t " .
+&amp;c. being denoted by Ay , , &amp;c. we have dx+Y+ &amp; C.u xJ , y , ) Z ... ... xx I ... ... .y X &amp; C. X dtX .
+dty .
+&amp; Now , regarding u as a function of { , we have dx _/ =f(I+A , E cl , .
+o &amp;c. ) ox Again , considering this as a function of E ' , we obtain d uX ==(i+ I+Al , ggj , &amp;c. ) Ox. o'0 ( the accents over the A , and o , indicating , as before , the application of the symbols)-and so on .
+Thus we find dx+Y +z+ &amp; C ' u dx+Y+Z + &amp; ' f(1 , 1--A , &amp; C. ) 0 .
+'Y .
+0"~ ! .
+&amp; C. dtx .
+dt , .
+dt " , &amp;c. J+ ) and of course,.A -(if'+A , a i4-A ' , +A " , &amp;c. ) O ' .
+O'J &amp; C. X , zY " Z % , &amp; C. I XX , ... ... ... . .
+ZX , &amp;c. LAPLACE has shown , * that , in any function Uxy c of x , y , x , &amp;c. if x be made to vary by a , y by 3 , &amp;c. simultaneously , the following equation , analogous to ( a ) will hold good ; ' Theorie Analytique des Probabilites , p. 70 .
+40 , a. a+ &amp; 3 .
++ c. , Ux , dx --4 nu ^=Ey = , y , ... ' " ( d ) Hence the function to be developed is e &amp; c 1 &amp; c -n being a positive or negative integer In the former case , the coefficient of t ' .
+t " .
+&amp;c. is I(3I + .
+( I+a)4 &amp; C. |+ &amp; .
+I } , 8o 07 &amp;c. .
+2 .
+* .
+1 .
+2 ... .
+yX &amp; &amp; that is , developing the numerator n { ( l+Al .
+( I , +A , ) " .
+&amp; C.( + A)"_ &amp; C.+ &amp; C.ol .
+oolY .
+&amp; C. .
+* ... ... eX i.2 ... .y x &amp;c. Now , ( i+A ) " oX = n ' ( i +A ' ) " o'=n , &amp;c. and thus the numerator of this expression becomes , X +y+ &amp; C. ( n. )x+++ &amp;c. + &amp;c. n -_ A ?
+XO+Y+ &amp;c. and the coefficient of tx .
+t ' .
+&amp;c. therefore becomes L~ os +y + &amp; C. n t..a cas , _ ... .e Z. Z 122 ... X 1 ... y. , &amp;c. In the latter case , where the exponent is negative ( =--n ) the function to be developed is { t +I+ &amp; D ?
+3 " } it + &amp; C. _t+ ~+ &amp; c~.p"kr .
+&amp; -7the coefficient of t " .
+t'y &amp;c. in the latter part of this expression , is log .
+{ ( I+A ) .
+( x+A ) .
+&amp;c. 1 rr O developed in a series of powers of ( -+A)(-i+A ' ) .
+&amp;c. continued both ways to infinity , ( which is evidently possible ) and let K(i+A ) .
+( i+A ' ) ' .
+&amp;c. be any term of the developement .
+The corresponding term in the above coefficient will be K( i+A)io .
+( 1+A ) .
+oy .
+&amp;c. ----that is , K. i. iy .
+&amp; c , or K. i+y+ &amp; c ' But it is plain that the performance of the same operations on { log ( i+A ) }X+ + &amp; C would have led to the same result : and we may therefore conclude that the numerator of ( e ) is rightly represented by this latter expression , whose value we have already determined ( equations 8 , and 9 ) .
+The coefficient therefore of tM .
+i'y .
+&amp;c. in the developement of { +t ' &amp; C. } is " B A. .
+( 29 x , y , &amp;c. T x ... ... ... ... ... .( 9 ' ) and the same reasoning may be applied to any function of .
+l. t lE .
+&amp;c. whatever .
+Analogous theorems to those we have deduced respecting functions of one variable may easily be deduced from the value of A , , &amp; C. given in ( 7 ) .
+Thus , since f te &amp;c. &amp; ==f = ( ct ) n , ( &amp; C , .
+we ought to have , { .(o +A ) ; ( +'I X. &amp;c. o.on .
+&amp;c. lq+-a , -p+A ' , &amp;c. o.oY .
+&amp; ... ... ... ( 30 ) which , by assigning particular values to n , n ' , &amp;c. affords an infinite number of theorems analogous to ( 19 ) and so ) .
+Similar theorems respecting the product of two or more functions of E , J ' , &amp;c. may be derived .
+For instance , if F(t , t ) F(t , t ' ) xf(t t ' ) we shall have F{ ( 1i+A ) , ( r1+A ' ) }o0X .
+oY =/ { ( l+A ) ( L+A}x xf{(l+a , ) , ( +a/ )}(+o , ).( ol , ---..* ( s1 ) .
+This , as well as other analogous theorems , flows with such facility from the principles above laid down , that it is unnecessary , as it would lead me beyond the limits I proposed , to enter into any detail respecting them .
+Let us now consider the developement of a function of the form J t(t ) f , and 4 , being functional characteristics of a given form , and '( t ) denoting the result of n-i successive substitutions of 4(t ) for t ili the expression of 4 ( t ) .
+Let us then suppose , for brevity 's sake , 4 ( log .
+( 1+t ) ) = p(t ) , and equation ( g ) will give O , t f/ ( t- ) -f -(a ) ... ... ) ... ( f ) and for f writing f4 , n- ' fj+n ( t ) =fn , -{ ( A ) }0ot again forf writingf 4 '-~ and for t , p ( A ) we get n(a ) = Jn-2 ( A ) o } ' .
+( a ) and so on to f ( A(n 3 -)J } ==f &lt; ( Z(n"-I ) ) O-/ " I1)o ( ( n-2 ) ) Collecting , now , the whole result , and , for the sake of convenience , inverting the order of the accents , we obtain , f , pn ( t ) =f p ( A))o.d(A')+o'.I(A )+ ... ..o(( ' ) ; ... ... ... ( 3 ) The second number of this equation , actually developed becomes c{j(^(A)o { ( A)}ro { ^A)}aoV pLr * , -__X____ X X ? .
+a()t 1 . ?
+: ... ... 2 ... 43 S denoting that the sum of all the possible values of the expression within the brackets is to be taken ; # , / 3 , ... .
+, , ( whose number is n ) varying through all integer values , separately , from o to oo Now the several factors which compose this expression are respectively , the coefficients of t t , ... .V t in the developements offJ ( t ) , ( t ) " , ( 4t ) , ... .
+( 4t ) , .
+Let these coefficients be represented by H , , , OK , IK , * ... .
+K , , and we shall find jf t(t ) = SH,.K ... ... } ; , ... ... .
+e , ( 33 ) If for instance , x ( t ) =_= log.-x ( t ) , we have H =f(L t)o L ?
+, --K -- , &amp;c. a 12 * ... A 1 , K &amp; C whence we obtain yiogn o^^+ a)o x t6 -$ 7 ... . .
+, .
+( t , } flog.(t)t " +. .
+i ... ... . . ? .
+( -*4)*\o To take another example , let us suppose the developement off jn ( t ) were required , where 4 ( t ) a= i. In this case equation ( f ) becomes simply f , ( t ) =f ( A)e ?
+'t and the formula in ( 3$ ) gives f tn ( t ) f(a ) ?
+*A + ?
+' A + t Xo .
+s. XA oYx ... .
+ot(6 ) ( t ) =s ... .0 x. Is 4 ... . .
+the number of the indices a , , ... . .
+e , being n--i .
+It seems hardly necessary , after what has been said , to notice that the developement of any function , such as f { 4 ( t ) " ' ( t ) , &amp;c. } in which t , I ' , &amp;c. denote any number of independent variables , 4 , , , &amp;c. , any functional characteristics , and n , n ' , &amp;c. , any indices , may be accomplished by the same means-or , more conveniently , derived from ( 33 ) in the same manner as the formula ( 27 ) was obtained from our equation ( 2 ) ; and the result included in a brief and simple expression .
+The cases however are few , where the results afforded appear , if I may so express it , in their natural form , and it would therefore be useless at present to extend our views farther in this direction .
+JOHN F. W. HERSCHEL .
+Cambridge , NVov .
+17 , 18 5 .
+45
+

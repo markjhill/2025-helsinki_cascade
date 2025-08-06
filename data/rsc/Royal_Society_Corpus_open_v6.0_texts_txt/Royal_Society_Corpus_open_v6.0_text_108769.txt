@@ -1,0 +1,70 @@
+On a new Method of Approximation applicable toElliptic and Ultra-elliptic Functions .
+By CHARLES W. MERRIFJELD .
+Commrnznicated by the Rev. H. MOSELEY , F.R.S. Received March 26 , -Read May 24 , 1860 .
+THE difficulty of finding approximate values of elliptic functions of the third kind has led me to consider a general method of approximation , which I believe to be new , at least in its application to the evaluation of integrals of irrational functions .
+It depends on the known principle that the geometric mean between two quantities is also a geometric mean between their arithmetic and harmonic means .
+If we take any two positive quantities , we may approximate to their geometric means as follows : Take the arithmetic and harmonic means of the two quantities , then again take the arithmetic and harmonic means of those means , and so on : the successive means will approximate with great rapidity to the geometric mean .
+To judge of the convergence of the method , I give , in the first two columns of the following little Table , the arithmetic and harmonic means thus derived from the numbers 1 and 2 ( which is the most unfavourable case that need present itself ) .
+The third column contains the difference of the first two , within which lies the error of either .
+341236 17 24 1 12 17 204 577 816 1 408 577 235416 665857 941664 1 470832 665857 313506783024 Either of the fourth pair would thus give the square root of 2 , correct to eleven places of decimals .
+This method finds its application in evaluating the integral Sfx./ ( Vx.dx , where fJ and )x are rational functions of x which both increase or decrease regularly , and have no singular values , within the limits of integration .
+If we find successive means , as above described , say A , and H , , between fx and fx.px , then it is clear that , since fx/ jpx always lies between A , and H. , so Sfx .
+V/ 'x .
+dx must lie between SA , .
+dx and jSH .
+dx .
+Now ARE and H , are each the product offt and a rational function of px , and are therefore themselves rational functions of x. They are therefore always integrable .
+It is not to be denied that the application of this method to the functions which call METtIOD OF APPROXIMATION for its use is cumrbrous ; but there is no other way of treating them which is not opeln to the same complaint , for , in reality , they are exceedingly complex of themselves .
+The following are the first three terms of the arithmetic means , with the corresponding harmonic means written under them , derived from x and y:x+y x ?
++ 6xy + y2,4 + 28x3y 702y2 + 28 y3 + y4 ~2 '4 ( x ?
++y ) ' 8(zs3 7x~y + 7xy2 + 3 ) 2xy 4xy(x + y ) 8xy(X + 7y + 7xy2 + y3 ) IT $e + xy + e ' + 6xy +y t+ 28y y+ 82+ 2y3 + It is convenient to use the arithmetic in preference to the harmonic series for integration , as the divisor contains one binomial factor less .
+The third arithmetic mean may be resolved into the following form:x+y I xy 1 ( 2+ V2)'y 1 ( 2V2)/ xy 8 ?
+2 x+y 2 x+(3+2V 2)y 2 x+(3-2 V2)y Note that 24 ( 2+V2)2=2(3+2V2)= 2 =-(2/ )2 ' and that log(3+2V/ 2)-=076555 13706 75726 .
+If a further approximation be thought necessary , it is possible to resolve into partial fractions the fourth arithmetic mean ; but if we go beyond this we shall have to solve a reciprocal equation of the eighth degree with all its roots real .
+The fourth arithmetic mean will have for its divisor 16(x+y)(2'+6xy +y2)(4 +28x3y+70 y2 +28y3 +4 ) : the roots of the biquadratic factor , with their signs changed , are 7 ?
++4^/ 2+ v/ ( 80+56V/ 2 ) and 7+4/ 2-V/ ( 80+56V/ 2 ) : their approximate values are 25'27414 23690 882 2*23982 88088 434 0-4464 26921 718 0'03956 61298 966 The difference betweeni any ( say the nth ) pair of means of the series has always ( x--y to the power of 2 " for its numerator , and the product of the denominators for its denominator .
+The logarithm of the error is therefore always much less than 2S log ( x-y)-(2 -1 ) log ( x +y)-n log 2 .
+I shall now indicate the mode of applying this method to the general form of an I , .
+, +-Nsin 9 df / .
+, elliptic function , l+n sin2 1sin2 S It is obvious that the nearer the ratio x : y is to unity , the less number of terms shall we require to obtain a given degree of accuracy .
+In elliptic functions which involve a radical of the form v/ 1lc2 sin2 p , this ratio may always be brought within the limits of 1212 and ; for , if c sin p should exceed ~ , we may put the radical under one of the forms cos p / l+(1 -c )tan 2 or V/ 1-C2V/ l+ tan2 , and one or other of these new radicals will always be less than / 2 .
+I should have remarked that c never exceeds unity .
+We may take u as a geometrical mean between v and v(l -c2sin2a ) , where 1 +Nsin2 c2+N I n-N 1 -(1 +n sin ) ( 1-c2sin )= c+ n 1-c sin2 1+C2 nl nsin2 ' We can put x=1 and y=l--csin2 , or vice versed , as may be convenient .
+Making either substitution , and reducing to partial fractions the mean which we select for integr~tion , we have to multiply each fraction by the second value of v , which doubles the number of fractions , and the index of their denominators ; but on again decomposing the fractions , and grouping them by their denominators , we reduce them to two more than those into which we had previously decomposed the mean .
+The two extra fractions will , of course , have 1 +n sin2 and 1-02 sin2 for their denominators .
+If we stop at the third arithmetic mean we shall thus have five partial fractions to integrate , and for the third harmonic mean , six .
+I do not actually exhibit the work or its results , because my doing so would not save labour to any one .
+Not only would the resulting formula be complicated with constants more easily managed in an arithmetical form , but it will seldom happen in practice that it will be worth while to reduce the elliptic function to the normal form given above .
+I have , however , done enough to show that my method is capable of approximately reducing any form , containing a function under the radical of the square root , to a small series of terms involving , at highest , logarithms or inverse tangents in their integrals .
+Moreover the approximation is so rapid , that , in the case of an elliptic integral of the third kind and of logarithmic form , nothing would be gained by having recourse to the interpolation of the only possible table , that of the double integral o l_c si0 o/ l-C2sin20 .
+dO2 .
+The third pair of means will give six or more places of figures correct , and the fourth arithmetic mean is capable of giving twelve places .
+With respect to the actual integration of the partial fractions ultimately obtained , there is no difficulty .
+It will easily be seen that each partial fraction will be of the form 1p sin2 .
+The integral of this with regard to p is 1 +p tan- ' / 1 Vlp .
+tan c } .
+If 1 +p is negative ( =-2 , suppose ) , this integral takes the form 1l +qtanp } 2q 1 -q tan pj It is obvious that we may approximate in the same way to the values of ultra-elliptic integrals ; but the process will be more lengthy , on account of the greater complexity of these functions .
+In the case of higher radicals than the square root , so far as concerns a first approximation only , it is clear ' that , if we insert several means between two integrable functions , any given geometric mean will be intermediate in value to the corresponding arithmetic and harmonic means ; but , inasmuch as the process affords no indication of what the second step is to be , it does not seem to have any useful application to such functions .
+But it brings all elliptic and ultra-elliptic functions within practical reach of the numerical computer .
+ADDENDUM .
+Received Mfarch 29 , -Read May 24 , 1860 .
+I have thought it advisable , upon reconsideration , to give the approximate formula for | i+1 2/ S"lo derived from the third mean of the arithmetic series:orj 1 ?
+nsin 2p V-Sii12p i l+nssin " , x/ lc sinm2^ ~11 N fl+ , l 11l 1p1 1,1 1l Ntan ( +n)a.tan 8 n'- ? ?
+8 _8 n+4 n2 +4 2+'2C\ 4 2+V 2 antan-'/ { ( l+2v ' tan 4 } 1 ?
+V2+(4 4J qan ?
+_ , C2 ) tan + cI v/ 12 'i1 1c tani +1 ... . .
+( 1 + V/ 2c~)tan- , s{ ( 1 s +/ 2c~)~ tan@ } N 2-v/ 2 2 24 -^ 2 ( i-2 4V cV2 ) tan1 42-2 ) tan }4+22 -2 tan-2 2 *)}tail 44 41 also observe that com. log 2+ / 2 =993123 06918 42 log 2-2 =9-16567 93211 66 .
+The application of this formula , in the shape given above , requires that 1+n be positive , and that c sin p shall not exceed sin 45 ?
+, If we equate n to N , we obtain for the approximate value of\ ( 1 -2 sin2 p)-Idp , or F(c ?
+p ) , 8 +8 ( 1--c2)tan-'{(l--c2 ) tan ) tan-{ ( 2 ) tan ?
+1_ 2 +/ 2 tan1-2+/ 2 ) tan 1 +4'{1 4A~/ 282- } tan-t{(1_2 +/ c)tan } 4t4I 44c tan c~ tan 4-4 4I now apply the numerical values p-= ]r , c= sin 45 ?
+, which , as has already appeared , 1 lead to the most unfavourable case for approximation .
+For p=:2 all the inverse 1 tangents become =-2r , and , by reducing the last two terms to a single radical , we easily obtain F(sin 450 , r ) =2r{ ?
++ sin 450+ ?
+sin 600+ / 6+ / 1 =rx118034 09494 53=1-85407 52150 .
+This exceeds the exact value given by LEGENDRE , 1-85407 46773 , by 0-00000 05377 .
+The logarithm of the factor of z is 0-07200 74743 , of which the error is 0-00000 01290 , in excess .
+It follows from this that the necessary error of the process , where the third mean of the arithmetic series is used , will never be more , than a unit in the seventh place , and it is evident that this error will always be in excess .
+By an arbitrary correction , of which the amount may be easily guessed in any given case , the seventh place may always be made accurate .
+2n2 227
+

@@ -1,0 +1,584 @@
+]\gt ; Remarks on Heine 's deHnition of .
+Hobson , E. W. Phil. raltS .
+vol. ) $i 'l'oroidal functions .
+Conal functions .
+Hobson , E. W. .
+Trans. A 1806 , vol. 187 , p. 623 .
+[ 443 ] XIIL On a Type of Spherical Harrnonics of Unrestricied Degree , Order , Argument .
+E. W. HOBSON , Sc. D. , Received December 23 , 1895 , \mdash ; Read January 16 , 1896 .
+INTRODUCTION .
+THE ordinary system of Spherical Harmonics or LAPLAOE'S functions is obtained from LAPLACE'S equation by choosing special values of V which satisfy this differential equation , and are of the forms , , where and are real positive integers , being expressed in terms of by means of the relations ; the function is a particular integral of a certain ordinary linear differential equation of the second order , and is known as LEGENDRE'S ated function of degree and order ; these solutions , in which is restricted to be real and to lie between the values , and in which is restricted to be less than or equal to are the solutions of LAPLACE'S equation which are required in the very important class of potential problems in which the boundary of the space ered consists of either one or two complete spheres , or of surfaces which differ only slightly from spheres .
+It appears , however , thab the functions are required for the solution of certain potential problems in which the boundaries are of other than complete spheres , and in some of these cases the values of , and are not subject to the restrictions which hold in the case of the primary potential problems in which the boundaries are complete spheres .
+In the case in which the boundary is a spheroid or two confocal spheroids , the functions of both kinds are 25.9 .
+96 required , in which , although and are still real integers , may have values which are real and greater than unity .
+The functions for which is fractional or complex are required for the solution of potential problems in which the boundary consists of coaxal circular cones and of spheres with the centre at the vertex of the cones .
+For potential problems connected with the anchor-ring functions are for which is half an odd and is greater than unity .
+For the space bounded by two spherical bowIs with a common rim , solutions in which is complex of the form \mdash ; , and is greater than unity , have been applied .
+Solutions in which is not an integer are sometimes of use , for example , in the potential problem for the portion of an anchor-ring cut off by two planes through the axis of the ring , which are inclined to one another at an angle not a sub-multiple of two right angles .
+The expressions in which represents any particulal .
+integral of the differential equation which it satisfies , and in which the degree , the order , and the argument may have any real or complex values , are a special type of Harmonics in the extended sense of the term , which applies to all solutionls of LAPLACE'S equation ; the investigation of their forms reduces to that of two particular integrals , here denoted by , , of the differential equation which satisfies .
+The forms and properties of the functions required for various potential problems have been investigated by various writers , the investigations resting usually on a more or less independent basis ; thus , for example , we possess separate theories of Toroidal functions , Conal functions , \amp ; c. It is obviously desirable that all these special functions should be treated as parts of a general theory ; thus an investigation of the forms and properties of the two functions , for unrestricted values of is required for the consolidation of the various special results which have been obtained in connection with special potential problems .
+To do this by means of the modern methods applicable to linear differential equations is the object of the present memoir .
+In the standard treatise of HEINE , the forms and of the functions are investigated for complex values of , the degree and the order being primarily real and integral ; various extensions are made to cases in which is not so restricted , but in default of a general definition of the functions for unrestricled values of and , these extensions are fragmentary , incomplete , and in some cases erroneous .
+Many of the series which satisfy the differential equation for unrestricted values of the degree and order have been given by THOMSON and TAIT , a general treatment of the series has been given by OLBRICHT , who obtains seventy-two hyper* See ' Natural Philosophy , ' vol. 1 , Part I. , Appendix B. See , ' Studien uber die Kugel- und Cylinder-fnnctionen , ' Halle , 1887 .
+OF DHiGREE , ORDER , AND ARGUMENT .
+geometric functions which satisfy the differential equation , at least half of which are convergent at any given point of the -plane .
+In order that the relations between the various particular integrals in the form of series may be exhibited , it appears to be most convenient to start from integral expressions which satisfy the differential equation ; this is the course adopted in the present memoir .
+A definition of the two functions , by means of integrals taken along complex paths , which shaJl be valid for unrestricted values of the degree and order , has been rendered possible by the introduction independently by JORDAN* and POCHHAMMER of the use of integrals with double circuits ; the use of such integrals has the great advantage over the employment of taken between limits , that the constants have to satisfy no convergency conditions , and thus that the functions may be defined by means of expressions which have a definite meaning for all values of the constants .
+In the special case , the zonal functions , can be completely by means of integrals with single circuits ; this has been done by SCHLAFLI , who bases his theory of the series which represent these functions upon such definitions .
+In the first part of the present memoir the two functions , are defined by means of integrals in such a manner that the functions are uniform over the whole -plane , which , however , has a cross-cut extending along the real axis from the point to ; these definitions so chosen that in the ordinary case of real integral values of and , the functions coincide with the wellknown functions used in ordinary Spherical Harmonic Analysis ; from these definitions various series are obtained which represent the functions in various domains of the -plane .
+Special conventions are made as to the meaning to be attached to the functions at points in the cross-cut .
+Various other integral expressions are obtained which would serve as alternative definitions of the functions .
+It is shown that all the known definite integral expressions for the functions in restricted cases due to LAPLACH } , DIRICHLET , HEINE , and MEHLER are special cases of the more general formulae .
+In the latter part of the memoir various definite integral formulae are deduced for cases in which the degree and order are subject to special restrictions .
+In conclusion , the forms of the functions required for the potential problems connected with the rin , the cone , and the bowl are deduced from the general formulae ; in particular , convergent series are obtained for the tesseral toroidal functioroe .
+As much confusion is caused by the variety of notation used by different writers , it is convenient to state here for purposes of comparison the relations between the symbols used in the most important works on the subject ; for this purpose the * See ' Course d'Analyse , ' vol. 3 .
+See various papers in volumes 35 and 36 of the ' Mathematische AnnaleIl .
+' See a tract " " Ueber die beiden Heine'schen Kugelfunctionen Bern , 1881 .
+ordinary case of integral values of and is the only one which has to be considered .
+HEINE uses the symbols ) , which are connected with the symbols , used in this memoir by the relations .
+THOMSON and TAIT use the symbols , , which are connected with HEINE'S by the relations .
+FERRERS uses for what is denoted here by , except in the case of a real lying between , in which case and are identical .
+The sian function , which is equivalent to , is used throughout the memoir .
+Definition of the functions , by of definite integrals .
+1 .
+If , in the differential equation .
+( 1 ) , is satisfied by LEGENDRE'S associated functions , we substitute then satisfies the rential equation .
+( 2 ) .
+If , in the expression on the left-hand side of ( 2 ) , we substitute we find OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+It appears thus that the differential equation ( 2 ) , is satisfied by for unrestricted values of , provided the integral is taken along a closed path , i.e. , one such that the integrand attains the same value when the path has been comp e described , as that with which it commenced .
+The integrand has , in general , the four ] points , and we shqu see that it is possible to choose two distinct closed paths , defined with reference to these singular points , which will represent the values of required for the two LEGENDRE'S associated functions .
+2 .
+If the variable , starting from a point , describes a path in which a positive ( counter-clockwise ) turn is made round the point , then a positive turn round the point 1 , then a negative turn round , and lastly a negative turn round 1 , such a path will be closed , i.e. , the integrand will have the same value at at the beginning and at the end of the path .
+In the first figure the path will be ; in the second figure it will be ( CD , , DC , CfgC , DbaD , DC , CgJC ) .
+In POCHHAMMER'S notation , the value of will be which will satisfy the equation ; it is necessary to specify precisely the values of the multiple valued functions in the integral , in order that the integral may have a definite value .
+First , to define the meaning of , let , and suppose to have moved from a point in the real axis for which , along any path up to its actual ; we shall suppose that , when is in the real axis and greater than unity , the value of at any point will then be , where are the angles the Iines joining and 1 , and \mdash ; 1 make with the real axis and must be restricted each to lie between , in order that a single value may be assigned to ; by is denoted where has its real value ; the value of has thus been uniquely specified for all values of , except those which are real and lie between and - .
+Next , in , we shall suppose the phase of to commence with the value at , where is the angle between the line joining to makes with the positive direction of the real axis ; the phase of at we shall suppose to be , where is the angle ( between ) the line joining to makes with the positive direction of the real axis ; if at , the value of will be where ( kk ' ) has its real positive value ; after the positive turn round 1 , will have become The phase of we shall choose to be such that it is zero when passes through that point of the path for which is a positive real quantity , thus the initial value of at is , where is the angle ( between ) which the line makes with the positive directi.on of the real axis , hence changes from to , in going from round the point to again , denoting , where has its real positive value .
+3 .
+Let us now consider the value of ( 3 ) , with the specifications of the phases just given , in the case in which is such that .
+We shall make the substitution ; it will be convenient to place the path so that is on the straight line joining 1 and , so that has a real value less than unity when is represented by the point C. The integral becomes where is the point col.responding to C. In this integral the initial phase of at is zero , that of is , and has the value given by the Binomial expansion .
+On performing the expansion , we obtain OF UNRESTRICTED DEGREE , ORDER , AND ] ] The expression has been denoted by POCHHAMMER by ; it has the advantage over the Eulerian integral of having a definite finite value for all values of and .
+In , the quantity has the phase initially at , so that .
+The principal properties of are the followin ( 1 ) , ( 2 , .
+( 3 ) when the real parts of are positive , denoting the Eulerian integral which is equal to By means of ( 2 ) this theorem can be extended to the case in which the real ) of are not necessarily ( 4 ) .
+We have ' 1- , 0 , hence , since , the expression ( 3 ) becomes or , where is used with the ordinary notation , for the hyper-geometric series .
+In virtue of the property ( 4 ) , we have ; and from ( 3 ) we have sip ; hence , whatever and may be , the expression ( 3 ) becomes ' .
+4 .
+4 .
+In the case , we have , sinc.e ' .
+when ; in accordance with usage we take the LEGENDRE'S function of the first kind to be given by , hence , if we choose equal to , we have ' The integral on the right-hand side defines over the whole pIane , the function represented in the domain of the point 1 by the series , being analytically continued over the whole plane .
+In order to obtain a definition of , we shall first consider the case when is a real ) ositive integer , and shall then define for general values of in such a way that the definition agrees with the usual definition for the special case in which is a real integer .
+When is a positive integer , we may define by means of the formula ; thus in this case OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+so that in this case .
+We shall choose this value of for all values of and , thus obtaining a definition of the function for all values of and real or complex ; is accordingly defined by the expression ( 4 ) for unrestricted values of and , the phases of the expressions in the integrand being assigned as in Art 2 .
+In order that this function may be a single-valued function of we must suppose that a cross-cut is made along the real axis from the point 1 , so that the phases of in are restricted to lie between , the function is then , when we take into account the remarks which we have to make in the next article , a single-valued function over the whole plane so cut , the values at points indefinitely close to one another on opposite sides of the cross-cut being in general different .
+It should be observed that the integrand in the integral for a given value of varies continuously in crossing the cross-cut which has no reference to the variable , but applies to only .
+When in such that , we have ( 5 ) .
+The formula ( 5 ) represents the fUmction over that parb of the no which is contained within a circle of radius 2 with its centre at the point ; this function can be analytically contiriued over the whole plane and ( with the cross-cut ) the function so continued is uniform , and is given by the definite integral formula ( 4 ) which affords a general definition of the function .
+When is an integer positive or negative , the expression ( 4 ) can be simplified ; in this the integrand returns to its initial value after a positive turn round each of the points and 1 , denoting the parts of the integral taken round ( fig. 1 , Art .
+2 ) by and respectively , the complete integral is or ; now is the integral taken along a curve which encloses both the points and , and is described positively , hence , in the case iu which is an integer , the formula ( 4 ) becomes ( 6 ) .
+When we have ( 7 ) which rees with the definition given by SCHLAFLI .
+The only case of failure of the formulae ( 4 ) and ( 6 ) is that in which is a negative integer ; in that case is infinite and the integral is zero , and the product can be evaluated by the rule for undetermined forms ; we have and the limiting value of is thus .
+If in ( 5 ) we change into hypergeometric series is unaltered , thus within the circle of convergence is equal to ; it follows that the same relation holds over the whole plane ; we accordingly obtain another expression for by changing into in the formula ( 4 ) , we thus have ( 8 ) .
+The formula ( 8 ) will serve equally with ( 4 ) , as a definition of it does not appear to be easy to prove directly their equivalence .
+O UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+453 As regards the formula ( 5 ) , we may remark that When is a real integer and is not so , the series is finite , and therefore is an algebraical function .
+When is a real positive integer and is not so , the formula may be written .
+( ) When and are both positive real integers , and , it falls under case ( ) , the series being however finite since the first element of the hypergeometric series is a negative integer , thus is an raical function .
+S When and are both positive , and , case shows that is zero ; in order to obtain an integral of the differelltial equation we must take II which is finite .
+5 .
+In defining the function by means of a definite integral taken round a closed path , in which turns are made round the points and 1 , but none round the point , it is necessary to specify the position of the path with reference to the point .
+The figures and ( b ) represent two distinct paths for the same value of , but the integrals obtained from them will be , in general , different in value , as one path cannot be brought by continuous deformation into coincidence with the other without crossing the point \mdash ; 1 , which is a singular point for the integrand .
+We shall consequently specify that the path by means of which is defined in ( 4 ) , is one which does not cut the real axis between \mdash ; 1 and , or is , at all events , a path which can by continuous deformation be brought , without crossing the polnt \mdash ; 1 , into a path which does not cut the real axis between \mdash ; 1 and 6 .
+Another closed path for the integrand is that in which a positive turn round the point\mdash ; l is followed by a negative turn round the point Consider thus the expression takeYl along the path as in either of the figures .
+The phase of will be measured as before ; those of , we shall take to be such that they vanish at the instant when passes in the integration through the point A of the real axis , for are both real and positive ; thus , in the second figure , the initial phrases of at are respectively .
+Let then the phases of are such that at the point where the line joining and 1 cuts the path , the phase of is the angle ( between ) the line makes with the itive direction of the real axis ; the expression becomes Suppose now that , the path of integration can then always be so placed that is everywhere less than ; expanding by the binomial theorem , the expression becomes To evaluate , we may place the path so that the two loops are exactly equal , being half-way between the points 1 and \mdash ; 1 ; it is thus seen that the integral vanishes when is odd , and that when is even and equal it is equal to ; making the substitution , we see that , or is such that its phase increases from to duriug th .
+integration , we , thus have ' OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+which can easily be shown to be equal to The expression with which we commenced is now reduced to the form II which is .
+When is a positive integer , we have in accordance with the usual ition of , ; hence , in this case , if we take we have Defining when is a positive integer , by means of the equation , we have we should consequently , when and are positive integers , choose equal to We shall now assign this value to , whatever and are ; we thus obtain the formula ' ( 9 ) , which we shall take as the definition of the function for unrestricted values of and When is represented by the expression ( 10 ) .
+The uniform function obtained by continuing the function in ( 10 ) over the whole plane , with the exception of the cross-cut along the real axis from , is represented by the expression in ( 9 ) .
+When is such that the real part of is positive , the definition ( 9 ) can be simplified , the integral being then reducible to one along alinejoining the points The path may be as in the figure ; then , since the integrals along .
+the loops round the points 1 and \mdash ; 1 become indefinitely small when the loops are made indefinitely small , we have ; hence , when has its real part positive , we may substitute for ( 9 ) the definition .
+( 11 ) .
+The integral may be taken along the real axis , denoting where the logarithm has its real value .
+It will be observed that when is a positive integer , t , he form ( 9 ) is undetermined ; we can , however , in this case use the formula ( 11 ) .
+When is a negative integer , the value of , as given by ( 9 ) , is in general finite , since ; if , however , is also a negative integer , or if is zero , the value of } ) infinite , so that the factor must be rejected if we wish to obtain a finite solution of the differential equation .
+OF UNRESTRICTED Dh'GREE , ORDER , AND ARGUMENT .
+457 Proof of a relation between and .
+7 .
+If we apply to the formula ( 10 ) the known theorem we have when .
+The expression for is obtained by writing for , in the formula ( 10 ) ; we have thus the relation ( 12 ) which must hold over the whole plane ; it is obvious that satisfies the differential equation ( 1 ) , as that equation is unaltered by changing the sign of .
+The result in ( 12 ) may also be obtained by transforminq the in ( 9 ) by means of the transformation , which is equivalent to an inversion with respect to the point .
+On making the substitution , we find Corresponding to the phase of , the phase of is ; also to the phase - of , in the case in which is real and greater than unity , the phase of is , hence , in order that in the integral on the right-hand side the phases may be measured in the same way as on the left-hand side , the factor ' , or , must be introduced ; we thus obtain and thus the result ( 12 ) is proved .
+Expression for when mod mod are less 8 .
+It will be necessary to obtain an expression for the integral analogous to the corresponding integral round the singular points , 1 , obtained in Art .
+3 .
+To define the phases of ths integrand we shall distinguish the cases in which the imaginary part of is positive , and is negative .
+suppose to move from a point in the real axis for which its value is greater than unity , up to its actual position , the path of integration being drawn as in the figures ; it will be observed that as moves froro a position on the positive side of the real axis to one on the negative side , the path cannot be displaced from its first position to the second one without the singular point , it is therefore .
+necessary to distinguish the two cases .
+In the first figure the phase of at A , and in the second figure in both cases the phase of at A is zero , and that of is measured as before .
+Put , the expression then becomes now we put or , according as the imaginary part of is positive or negative , in both cases the phase of is zero at , and then will have that value which by the expansion by the Binomial Theorem .
+We have for the integral the upper or lower sign being taken in , aocording as is above or below the real OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+axis .
+When , this expression can be evaluated exactly as in Art .
+3 , the result being obtained by writing for ; we thus find ab once ( 13 ) when is above the real axis , the exponenti ) factor being omitted when is below the real axis .
+9 .
+Let denote the values of the integral taken along loops from round the three points , 1 , respectively , in the positive directions , the phases at being as follows : of in the first figure , in the of , zero , of , where is the ( positive or negative ) angle the line oining to makes with the positive direction of the real axis .
+We have at once the phases in the integrands being measured as just stated .
+To express , in which , as in Art .
+6 , the phase of at is , and that of is , we have for the value of the integral , or \mdash ; according as is above or below the real axis .
+Tt follows that a ' or same expression ( 14 ) , according as is above or below the real axis .
+10 .
+The relation ( 14 ) enables us to find the expression in series , for values of which are such that and .
+Using the formulae ( 5 ) , ( 9 ) , ( 13 ) , we find at once ( 15 ) .
+the upper or the lower sign being taken in , according as the imaginary part of is positive or negative .
+When is zero , we have , 1 , ( 16 ) .
+The particular case ( 16 ) agrees , when is above the real axis , with the result obtained by SCHLAFLI .
+If we use the relation ( 12 ) between and , we can write ( 15 ) in the form .
+When is a positive integer , the expression ( 10 ) shows that has in general a finite value , hence we see from ( 15 ) , that in this case ; OF UNRESTRICTEI ) DEGREE , , AND ARGUMENT .
+this result is proved by HEINE* for the special case in which and are both .
+We see , therefore , that when is a positive integer , the formula ( 15 ) is undetermined , the formula ( 17 ) must in that case be used .
+When is a positive integer we must use ( 15 ) , since ( 17 ) become in this case undetermined .
+When is a negative integer , is infinite , but we can take as a solution of the differential equation .
+When and are both real integers , and is positive and , the form ( 17 ) is finite , but if both the forms ( 15 ) , ( 17 ) are undetermined , and must be modified by applying the rule for the determination of undetermined forms 0/ 0 .
+functions , are defined by OLBRICHT for the general case , by means of equations , in our notation , constant constant this definition of is , however , not consistent with the usual definition as in ( 10 ) , in the of a hypergeometric series whose fourbh element is Relation between the functions 11 .
+In the formula ( 15 ) , write for , we have then On eliminating the second hypergeometric series between this equation and ( 15 ) , we find .
+We thus obtain the formula * See ' Kugelfnnctionen , ' vol. 2 , pp. 238 , 336 .
+: ( 18 ) .
+This relation which has been proved to ] over the domain of the point , must hold over the whole plane .
+In the case , we have If is a positive real integer , we have . .
+If is a negative real integer , the relation ( 18 ) becomes , we see therefore that in this case the two functions , are not distinct .
+Changing into , in ( 18 ) , we have hence on substituting for its value given by ( 18 ) , we have \mdash ; .
+( 19 ) .
+Remembering the relation between , , we see that of the eight solutions , , , , , , , of the equation ( 1 ) , six have been expressed in terms of the other two .
+Expressions for , in terms of , .
+12 .
+Since the differential equation ( 1 ) is unaltered by substituting for it follows that , are particular integrals of the differential equation , and are therefore expressible in terms of , .
+OF UNRESTRICTED , ORDER , AND ARGUMENT .
+The phases of in being restricted to lie between , on changing in , we must , where the upper or lower sign is taken according as the imaginary part of is positive or negative ; we have therefore ' on substituting for the series its value given by ( 15 ) , we find the relation ( 20 ) .
+Again from ( 10 ) , we have since , where the sign is chosen as before , \ldquo ; . . . . .
+( 21 ) .
+In he particular case of a real , value of , we have ' . .
+Expression for in powers of , when mod 13 .
+In the formula ( 10 ) , the expression for in a series ofpowers of has been obtained for the domain of ; we shall now employ the relation ( 18 ) express in a similar manner .
+We find by changing into in ( 10 ) , .
+Hence we find ( 22 ) .
+In the particular case , we have ( 23 ) .
+It will be observed that when is a positive integer , the expression ( 20 ) reduces to its second term , but not so when is a negative integer , since is then flnite .
+HEINE gives*as the expression for , when is unrestricted , a formula which is equivalent to the second term in ( 23 ) ; his formula is , therefore , only correct when is a real integer .
+xpressions for in series of powers of , when mod .
+14 .
+It will be convenient to obtain the expansion of , first in powers of when , and afterwards to deduce the corresponding series for .
+Taking the ] Consider first the case in which the imaginary part of is positive ; the path of integration can be so chosen , as in the figure , that , for every point of it , ; the term can then be expanded in ascending powers of , and we thus find Let us now consider the integral , , 1- ) First , suppose and to be such that the real parts of are both positive , the path of integration may then be as in the second figure , the loops round * Kugelfunctionen , ' vol. 1 , p. 38 .
+OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+the points being indefinitely small , and the semi-circles round the point being so also ; the parts integral taken along the loops and semi-circles in the limit vanish , have only to consider integrals taken along the real axis .
+The integral consists of four- parts , the following:\mdash ; ( 1 .
+) From to \mdash ; 1 , phase of equal to , and the phases of equal to respectively .
+( 2 .
+) From to , phase of equal to , and the phases of equal to and respectively .
+( 3 .
+) From to 1 , phases of equal to respectively .
+( 4 .
+) From 1 to , phases of equal to respectively .
+Taking for the modulus of , we have in the first two parts of the integral , and in the other two parts ; hence , the integral is or which is equal to .
+To show that the result is the same , when the real parts of are not both positive , we find by integration by parts ' and also By successive use of these two formulae , we find .
+466 DR. E. W. HOBSON ON A TYPE SPHERICAL HARMONICS where are positive integers which we can so choose that the real parts of are both positive , in which case whence we find , as before , We have now , letting By the known traloeformation theorem , we have ' also ' OF UNRESTRICThD DEGREE , ORDER , AND ARGUMENT .
+hence the expression for becomes ( 24 ) .
+The known transformation gives us and ' also ; hence the formula ( 24 ) may be written .
+( 25 ) .
+15 .
+ext suppose the real part of is negative , the path of in the formula for may then be placed as in the figure , in which the line joining and passes through the point .
+At the phase of and that of is , so that the phase of , thus is equal to times the value given by the Binomial expansion ; we have therefore ' The value of may be found as before by first considering the case in which the real parts of and are greater than ; in the present case , the phases of in the integral from to , and from \mdash ; 1 to , and zero in the integrals from to 1 , and 1 to , hence the integral is equal to \ldquo ; or . .
+The extension of this result to the case in which one or both the quantities have their parts greater than\mdash ; l , can be made as before .
+We hus find aft.er reduction , as in the preceding case , ( .26 ) , .which is the that corresponds to ( 25 ) .
+OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+469 16 .
+In change into , we then find , after some transformation of numerical factors , .
+On substituting these values of , in the we find , after ome reduction , for the case in which the imaginary part of is positive , .
+When the imaginary parb of is negative , we obtain in a similar manner a formula which differs from ( 27 ) only in having the exponential factor ' instead of From ( 27 ) it is seen that when is an teger , only one of the two series is required to express , the first or the second according as is even or odd .
+Definition of the fnnctions for reed of less 17 .
+The functions , have been defined as uniform functions of for all points in the plane of in which a cross-cut is made along the real axis from 1 ; at points indefinitely close to one another on opposite sides of the cross-cut the values of or of will in general be different .
+We shall consider first the values , on opposite sides of the cross-cut for real values of lying between the values Referring to the expression ( 5 ) , we see that in this case hence we have the relation ' .
+It is convenient to define the function for real values of between and in such a way that its value be real for real values of and ; the definition which we give is that for such values of ' ( 29 ) .
+From ( 27 ) , we find in this as when denotes and has its real value .
+We see from ( 29 ) that when is zero , or an even integer , the values of the function on the opposite sides of the cross-cut are equal , so that in this case the cross-cut is necessary , so far as the function is concerned , only from \mdash ; 1 18 .
+Next , let us consider the values of on opposite sides of the croae-cut for values of lying between ; from ( 15 ) we have OF UNRESTRICTHiD DEGREE , ORDER , AND ARGUML'NT .
+and from these equations we find , hence we have the relation ( 30 ) , where is defined as in the last Art .
+In the- particular case , ( 30 ) reduces to HEINE'S relation .
+It is convenient to define for real values of between and \mdash ; 1 by means of the equation ' .
+( 31 ) , which gives us We have also DR. E. W. HOBSON ON A TYPE OF SPHERICAL HARMONICS In the case , ( 31 ) agrees with HEINE'S definition of the function for real values of between .
+Objections have been raised by SCHLAFLI to this definition of , on the ground that the function does not satisfy LEGENDRE'S equation .
+There does not , however , appear to be in reality any question of principle involved ; it is merely a matter of convenience to give a definition of , which shall give real values of the function in the real axis , when is real .
+It must , moreover , be remembered that although we have drawn the cross-cut alon the real axis , it might have been drawn any line we , please joining the poin , and thus the function may be regarded as satisfying the differential equation of LEGENDRE for points in or near the real axis , the surface over which the function is uniform being a different one from that which we have hitherto postulated , and the function being a linear combination of the two independent integrals of LEGENDRE'S equation which we have defined and used .
+19 .
+For values of near that part of the real axis which is between and we see from the expression ( 10 ) , that , , where here denotes , the logarithm having its real positive value ; we thus have . . .
+( 32 ) and we may define , for real values of between \mdash ; 1 and , to be equal to either of the expressions in ( 30 ) with its sign changed , thus where has the meaning given above .
+To express the relation between , ) , , is and lies between 20 .
+We have from ( 20 ) , if lies between and OF UNRESTRICTED , ORDFR , AND ARGUMENT .
+hence ' .
+\mdash ; or , hence we have .
+( 33 ) .
+It is easily verified by means of the formula in Arts .
+17 and 18 , that when , hence ( 33 ) does not involve a discontinuity in the value of , as changes from to We have , also when is between and , or ' .
+hence , by means of ( 33 ) , we obtain the relation .
+When and are real integers we have , .
+of , in powers of 21 .
+If we make , for which we shall write , the independent variable in the differential equation ( 2 ) , we find that the equation takes the form Let ; we then find , on substitution , the following differential equation for : Comparing this with the equation , which is satisfied by , we see that , the equations are identical .
+It follows that our fundamental equation ( 1 ) is satisfied by , or by , where denotes In we suppose to be measured as hitherto , so that it has a single value at every point of the -plane in which a cross-cut is made along the real axis from It will be seen that is greater than unity over the whole plane , the real part of having the as the real part of the imaginary axis is purely imaginary .
+In order to express the solutions in terms of , , it will be sufficient to compare these solutions for values of whose modulus is very large , with the expressions ( 10 ) , .
+These latter formulae show that for such values of , the principal parts of are , respectively ; for similar values of we have OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+It follows that , since must both be linear functions of , , ( 35 ) . .
+( 36 ) .
+These , ( 35 ) , ( 36 ) , are the expressions for , in series of powers of ; the series are convergent over the whole plane .
+In the particular case , we have ( 37 ) .
+( 38 ) .
+The particular cases of ( 37 ) , ( 38 ) , in which is a real integer , are given by HEINE .
+* It will be observed that the case of a real integral value of is the only one in which is represented by a single hypergeometric series .
+Exceptional cases of the four formulae will be considered below .
+A Second Class of Definite Expressions for , .
+22 .
+By using the definite integral forms which satisfy the hypergeometric equation , we see that the expressions ( A ) \mdash ; ( B ) satisfy the differential equation ( 1 ) , the integrals being taken along closed paths , such that after a complete description of such path the integrand attains its initial value .
+* See ' Kugelfunctionen , ' vol. 1 , p. 129 .
+DR. E. W. HOBSON ON A TYPHi OF SPHERICAL HARMONICS In ( A ) or ( B ) , may be changed into , and ; we thus have eight different forms which satisfy the differential equation , and as in each case two independent closed paths may be chosen , we obtain , on the whole , sixteen definite integrals which satisfy the differential equation ( 1 ) .
+We shall proceed to express these definite integrals in terms of the functions , .
+Consider the integral ( A ) , the path of integration consisting of a loop described positively round the point 1 , followed by a loop positively round , another negatively round 1 , and lastly a loop negatively round .
+When the loops are placed as in the figure , we shall suppose that the phases of initially at A are zero , and that the phase of is zero at ; when the loops are displaced into any other position the proper phases will be obtained by the principle of continuity .
+We have then ; now ' 1- , . .
+Hence ' 1- , Comparing this result with the formula ( 31 ) , we have ' .
+OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+If in this expression we put , and make the independent variable , we have ' .
+( 40 ) .
+In the particular case , we find ( 41 ) .
+Using the theorem ( 12 ) , we deduce from ( 40 ) the formula 0- ( 42 ) .
+It will be observed that in the formulae ( 40 ) , ( 41 ) , ( 42 ) , the phases of the integrand are to be measured as follows : -Draw the figure in the -plane corresponding to the figure we have drawn in the -plane ; the points correspond to the points , 1 respectively ; the initial phase of at A is to be t , he same as that of , and will therefore be zero at the first passage through ; the phase of in the product , which equals \mdash ; , will be inifially zero at , and that of 1 \mdash ; will be zero at B. When the figure is displaced in any manner the phases can be found from the foregoing specifications by means of the principle of continuity .
+23 .
+If the real parts of and are positive , the integral in ( 40 ) can be reduced to the form thus we have ( 43 ) when the real parts of are positive .
+In particular .
+( 44 ) provided the real part of is positive .
+Similarly we find from ( 42 ) ( 45 ) provided that the real parts of are positive .
+In the formulae ( 43 ) , ( 44 ) , ( 45 ) , change into , we then find ( 46 ) when the real parts of are positive .
+( 47 ) where the real part of is positive , ( 48 ) , when the real parts of , are positive .
+24 .
+Next , consider the expression Suppose that the phases of are zero , when the point A in which the path cuts the real axis between and 1 is reached , and that 1 \mdash ; has its phase zero at the point in which is real and less than unity .
+OF IINRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+479 Transform the integral by means of the equation , so that is the independent variable , we have then , or , in.this integral has the phase zero at that point of the path in which is positive and greater than unity ; this expression may be written in the form ' ; now , hence the expression becomes or or .
+If we use the known transformation , we find for our expression which can be written or , if we use the transformation , it can be written ; on referring to ( 22 ) , we see that it is equal to we thus obtain the formula , OF ESTRICTED DEGREE : ORDER , AND ARGUMENT .
+on making the substitution , this becomes or ( 50 ) .
+In this integral the phases of are to be zero at the points in which the lines joining the points , to the origin cut the path .
+In the particular case , we have which is reducible to ( 51 ) , the integral being taken along a closed path which includes both the points and excludes the point By into , we obtain the formulae ( 52 ) , ( 53 ) , the integral ( 53 ) being taken as in ( 51 ) .
+25 .
+Next consider the expression ( B ) , the path being the same as in Art .
+22 ; we find MDOCCXCVI .
+' , 1- , Now .
+hence the expression becomes .
+Comparing this with the ssion ( , for , we see that .
+26 .
+We shall now consider the expression ' , 1- , Using the transformation , the expression becomes which can be expanded into the form OF DEGREE , ] ] , AND ARGUMENT .
+483 Now ' . .
+Thus the expression becomes ' .
+sin2 siu .
+As in Art .
+21 , this expression shown to be equal to ' .
+, hence we have the formula .
+( 55 ) , and in particular when ( 56 ) .
+A third class of which represent the function } ( ) , .
+27 .
+If we put , we that the differential equation ( 2 ) becomes , when is made the independent variable , We see that this equation is the ential equation satisfied by the geometric series where ; we thus see the differential equation ( 1 ) is satisfied by either of the expressions wtlen , as in the other cases , the integrals are taken .
+along closed paths .
+We thus obtain a third class of definite , by which the functions , can be represented .
+is unnecessary to obtain the exact expressions for the functions in four of these definite integral expressions , as all the results of interest may be from the two classes which have been already considered .
+The existence of these three .
+classes of definite integrals which satisfy the funda.mental differential equation ( 1 ) is equivaleht to the result obtained by OLBRICHT , that the equation is satisfied by three distinct RIEMANN'S -functions , ' , . .
+' of , in powers of . . .
+28 .
+In the formula ' . .
+( 40 ) OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+change from to as independent variable in the integral , where ; we then have .
+' 0- , 1 ' . .
+On evaluating the definite integrals we find ' .
+, which gives an expression for in powers of , which is convergent for the part of the plane over which this expression has its modulus less than unity .
+Using the formula we firid from ( 57 ) Now by the known formula for the transformation of a hypergeometric sel.ies whose fourth element is into a linear function of series whose fourth element , we find . .
+, and thence , after some reduction .
+( 58 ) .
+This formula expresses in powers of 29 .
+Let , then remembering that , lve have Hence .
+( 59 ) ; this series represents for unrestricted values of and , provided it is convergent , which is the case when To find the corresponding expression for , we have from ( 57 ) , ' .
+Similarly we find . . .
+' .
+thence using the relation OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+we find .
+, \mdash ; .
+the convergency condition for this series is the same as for ( 59 ) .
+It may be remarked that the series ( 57 ) is convergent if is a real positive quantity greater than unity , ) provided , or ; in that case we have . . .
+( 61 ) , where The corresponding series for is not convergent .
+30 .
+The series , ( 60 ) are convergent , provided lies between and ; it will now however be shown that in case and ftte real , and are positive , a finite number of terms of the series will represent approximately the values of , when the restriction as to the value of is removed .
+To prove this , it will be necessary to estimate the remainder after any number of terms in the series ( 57 ) .
+It has been shown by DARBOUX* that if is a complex qualltity , MACLAURIN'S theorem takes the form .
+where is a proper fraction , and denotes some quantity modulus is not greater than unity .
+Applying this result to the expansion in Art .
+28 , by which ( 57 ) was obtained .
+we see that the remainder after terms of the series for is ' .
+* See 's ' ) ' Series III .
+, vol. 4 .
+where A is a quantity whose modulus is less than unity ; suppose so great that is positive , the integral may then be replaced by where the integral is now taken along the real axis .
+We have now the odulus- of this expression is , which is alwaysgreater than , and therefore always greater than ; it follows that the modulus of is always less than , hence also the modulus of is always less than ; put , where are functions of , and for all values of ; we have then in this integral the real part and the coefficient of in the imaginary part are each less than , hence the modulus of the expression is less than .
+Now the term of the series ( 57 ) is obtained by putting in the expression for the remainder after terms , it has thus been shown that , the modulus of the remainder after terms is less than times the modulus of the term , and this is true for all values of not merely for those for which the series is convergent .
+The two quantities , are conjugate complex quantities , hence the remainders after terms in the series for , are of the form when X and are each less than ; using ( 29 ) we now see that the remainder in the series for , is of the form OF UNRESTRICTED DEGRBE , ORDER , AND ARGUMENT , when denotes ; finally this remainder is numerically less than it has thus been shown that for all real values of and such that positive , the series ( 60 ) may be used to obtain an approximate value of for all values of between and ; if the first terms of the series are taken , the error is certainly less than times what we get by writing unity for the cosine in the term , being any number greater than .
+A particular case of this theorem , namely , that in which , and is an integer , has already been obtained otherwise by STIELTJES .
+* It has been shown that , it therefore follows that the series ( .59 ) for , may , under the same conditions as regards , be used to obtain pproximate values of , the error being limited in the same manner as in the case of ( 60 ) .
+Values of , when is large quantity is real .
+31 .
+It is well known that when is a large integer , is approximately equal to , it follows from ( 59 ) , ( 60 ) that the asymptotic values of ) ' for a large real integral value of are given by .
+( 62 ) .
+These expressions are generalizations of the known asymptotic values which was given by LAPLACE , and given by HEINE .
+$ Annale de la Faculte des Sciences de Toulo ' vol. 4 , in a paper entitled " " Sir les de Legendre ' Kugelfnnctionen , ' vol. 1 , p. 175 .
+To closer approximation for large values of , we the theorem we have approximately eglecting terms in hence , approximately , or \mdash ; .
+terms in .
+are neglected .
+We thus find as an approximation to , by taking the first tw.o erms in ( 59 ) , ' or ( 63 ) .
+Similarly we find In ( 63 ) , ( 64 ) , arge but not necessarily integral , and is not necessariJy integral .
+32 .
+When is real and greater than unity , let it be denoted by ; in Art .
+28 , has been expressed in terms of two hypergeometric , in of OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT : which the fourth ement is ; when , this expression for becomes approximately , when is large , except when ( supposed positive ) is haJf an integer , the f.rst term is very much less than the second : on account of the factor ; hence , or , The asymptotic value of is therefore except in the case in which is equal to half an odd integer .
+From ( 61 ) we see that approximate value of , for large values of is or ' ( 66 ) , the asymptotic value is It may be renlarked that the semi-convergent expressions for BESSEL'S functions , may be obtained from the series ( 59 ) , ( 60 ) , by putting and proceeding the limit .
+Expressions , definite infegrals taken along real paths .
+33 .
+In ( 50 ) change into , we have then ; now suppose the real part of is positive , then providod the real part of is positive the figure is as in Art .
+24 ; we may take the path of integration to be two straight lines on opposite sides of the straight line .
+the points and two indefinitely small circles round these points ; the integrals round these circles will vanish .
+If the real part of had been negative , so that the line joining , were on the left of , the path of the integral ( 50 ) must have been placed so that was on its left hand , and thus we could not have reduced the integral to along the line joining ; it is therefore essential in what follows that the real part of be supposed to be positive .
+We have now where the phases of in the integral on the right-hand side , are and respectively , we thus have Let , then since the phase of is , which is , and the phase of is ; thus ( 67 ) .
+Or , using equation ( 19 ) : we have OF UNRESTRICTED DEGREHi , ORDER , AND ARGUMENT .
+si ( 68 ) .
+This relation holds for all values of and , subject to the conditions that the real parts of are positive ; the phase of is the same as that of when In ( 68 ) change into , we then have , on using the relation ( 18 ) , after some reduction \mdash ; ' ( 69 ) .
+34 .
+From ( 68 ) , ( 69 ) it is easy to find the Aing formulae for the case in which the real part of is negative ; in this case we have The expression on the left-hand side is equal to ; hence ' , where the upper or lower sign is to be taken according as the imaginary part of is positive or negative ; ( 70 ) corresponds to ( b8 ) .
+In a similar manner we find , corresponding to ( 69 ) , ' ' ' ( 71 ) , where , as before , the upper or lowel .
+sign is taken according as the imaginary .
+part of is positive or negative .
+85 .
+When , and lies between and , the expression on the left-hand side of ( 68 ) becomes , on putting and on the right-hand side , hence ( 68 ) becomes -- .
+( 72 ) .
+Again , on putting , we find in a similar manner .
+( 73 ) .
+Again , putting in ( 55 ) , we have \mdash ; ( 74 ) .
+Next let us considel the case in which lies between and ; we find from ( 70 ) , by putting \mdash ; ( 75 ) , this corresponds to ( 72 ) , ( 73 ) ; the phase of , when , is according as the upper or the lower signs are taken in the exponentials .
+Again , corresponding to ( 74 ) , we find that when lies between and ' .
+( 76 ) , OF UNRESTRICTED DEGREI !
+ORDER , AND ARGUMENT .
+where , as before , the phase of is , when , according as the upper or lower signs are taken in the exponentials .
+36 .
+In the important case in which is a positive , we find , from ( 68 ) and ( 70 ) , thac is equal to , or siu ( 77 ) , according as the real part of is positive or negative .
+From ( 69 ) , ( 71 ) , we find in this ' when the real part of is positive , and ' ( 78 ) , when the real part of is negative , the upper or lower si gn in the exponential being taken according as the imaginary part of is positive or negative .
+When , we have in the case in which is a positive integer , .
+( 79 ) , may have any value between and Also where lies between and ( 80 ) , where lies between and S on HEINE'S definition of .
+37 .
+HEINE has proposed* to define the function for complex values of and by means of the expression It will appear from what we have shown in Arts .
+33-36 , that this definition is not a valid one , as the function given by the definite integral for values of with a negative real part is not the analytical continuation of the function given by the same definite integral for values of wibh a positive real part ; it follows that can be defined by the above expression only for values of with a positive real part .
+The fact that the definite integral is of ambiguous meaning at the imaginary axis is clear if we attend to the phases of the integrand , or being purely imaginary there is a value of between and for which vanishes , and in pa.ssing through this value of the phase of the integrand changes by a finite amount .
+The integral in Art .
+33 is taken along a path joining which has the point on the left hand side , thus for purely imaginary values of the path may be placed as in the figure , with a semi-circular portion to avoid the point ; we thus see that in the above definite integral there must be a sudden diminution of phase in the integrand as passes through the value ; ifthis be taken into account the definite integral will represent the function for pureJy imaginary values of ; there is however nothing in the definite integral itselfwhich decides apart from convention what the change of phase in the integrand shall be as it passes through its zero value .
+Next suppose to cross the imaginary axis , the integral can then be taken from to along a loop round the point , and then along a straight line to the * Kugelfunctionen Vol. 1 , p. 37 .
+OF UNRESTRICTED DEGREE , ORDER , AND point , but cannot be taken directly from to ; it thus appears that the function is no longer represented by the definite integral , but that the value of the definite integrals involves as well as ; in fact , we have shown in ( 70 ) that in this case COS \mdash ; , where the upper or lower is to be taken in the exponential according as the imaginary part of is positive or negative .
+The only case in which HEINE'S definition is valid for all values of is when is a real integer .
+HEINE deduces from his definition that for unrestricted values of , the function is represented when , by the series , this result , following from the incorrect definition , is erroneous , the correct expression being given by ( 23 ) and involving two hypergeometric series .
+It was to be expected priori that as was defined by means of an integral taken along a path contaming the singular points , but excluding\mdash ; l , the function so defined would not in general possess any kind of symmetry about the imaginary axis .
+Definite Integral Expressions for when is Real Integer : 38 .
+When is a real integer , the formula ( 4 ) for become Suppose the real part of to be positive , and the path of integration to be a circle with centre at the point , and of radius greater than and less than circle of cent , re and radius ; we must thus take to be such that , and , or Take the circle commencing at to be the path of integration ; we have Hence we have or On changing into , and remembering that we have we thus obtain the formulae UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+( 81 ) .
+If we change into , we have ( 82 ) .
+In these formulae is unrestricted , is a real integer , and is any real positive quantity less than mod , and the real part of is positive .
+Formulae corresponding to ( 81 ) , ( 82 ) have been given by HEINE in the case in which is a positive integer .
+* If in ( 81 ) , ( 82 ) we put , we have .
+( 83 ) .
+( 84 ) .
+Definite Integral Expressions for . .
+39 .
+When the real parts of are both positive , the formula reduces to on.changing the independent variable to , where , we then have ' . .
+$ See ' Kugelfunctionen , ' vol. 1 , or , on putting , this becomes ( 85 ) , where the real parts of are positive .
+If , we have ( 86 ) The particular case of ( 85 ) , when and are real integers , is given by HEINE .
+* When has real value less than un ity , we have , on using ( 31 ) , and from ( 30 ) , .
+40 .
+In the formula ( 43 ) , which holds , provided the real parts of are positivq .
+; put , then when , we have and..wtlen , , thus since , we lrave ' .
+( 87 ) , where , and the real parts of are positive .
+* See ' KugelfunctioneA , ' vol. 1 , p. 222 .
+OF UNRESTRICTED ] , ORDER , AND ARGUMENT .
+If , we have .
+( 88 ) .
+It is interesting to compare ( 87 ) with the formula obtained by changing into .
+in ( 85 ) , ( 89 ) , which holds under the same conditions as ( 87 ) .
+In ( 87 ) change m into , we have then ( 90 ) , which holds when the real parts of are positive .
+41 .
+In the formula ( 9 ) , change ?
+1 into , we then have where Place the path as in the figure ; starting from , a semicircle of centre is first , then a straight line from to , a semicircle of infinite radius , then a straight path from ' to , followed by a similar path taken negatively round the point If the real part of is positive , the integrals along the semicircles with as centre vanish when the radius is made indefinitely small .
+If the real part of is positive , the integrals along the fiuite semicircles vanish .
+We thus have , where in the integrals X commences with the phase it has at A initially .
+The phase of ab A is .
+From equation ( 8 ) , we have where the phase of in the integrand is at , and thus ; hence ' Taking the path as in the figure , we have , provided the real parts of are positive , ' .
+OF DEGREE , ORDER , AND ARGUMENT .
+50@ therefore Substituting for its value in terms of given by ( 18 ) , we have ' ' On substituting the value of in this equation , we have which holds for all values of and , such that the real parts of are both positive .
+In this formula , when is just greater than , the phase of is the same as that of , but the phase of is less by than that of , hence if we wish the phase of to be that of ] , the result must be multiplied by ; again the phase of is that at , and this is less .
+by than the phase of , hence , in order that the phase of may be that of must multiply by ; the formula now becomes ; on substituting , which gives us where is a real quantity , we have or .
+( 91 ) , where the real parts of are positive .
+In ( 91 ) , the phase of \mdash ; lcosh is equal to that of when .
+The formula ( 91 ) is a generalization of the formula given by HEINE ; * * ' Kugelfunotionen , ' vol. 1 , p. 223 .
+his formula he proves , for the case which is a real integer , by a method of transformation which cannot be applied to obtain the more general result ( 91 ) .
+42 .
+In the formula ( 11 ) , which holds , provided the real part of is positive ; let , then hence or cosb ( 92 ) .
+This formula holds for all values of and such that the real part of is positive .
+Thoe luation of a Definite Integral .
+43 .
+Suppose .
+and are such that is a real integer , and that they are otherwise unrestricted ; in this case the integral taken round a closed path which irlcludes the three singular points 1 , \mdash ; 1 , will satisfy the fundamental equation ( 2 ) , since the integrand attains its original value atter description of the closed path .
+We shall take the path to be a circle with centre at the point ; if we put , as in Art .
+, in this case we must have mod , and the integral becomes OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+505 This integral has been evaluated in Art .
+38 , when ; we proceed to evaluate it in the present case .
+We shall denote the definite integral by .
+Denote by the integrals of taken along loops from the point , round the points\mdash ; l , 1 , respectively , then Also hence or ' , we thus have ( 93 ) , MDOCCXCVI.\mdash ; A. 3 where is a real integer , and .
+It has been shown in Arb .
+11 that the expression in ( 93 ) is zero when is a negative integer .
+When and are both integers .
+( 94 ) , the right-hand side is zero when and are positive , and , since in this case Next change , in the formula ( 93 ) , the expression on the right-hand side then becomes \mdash ; or \mdash ; , which reduces to , since is a real integer ; we thus have the formula ( 95 ) , which holds for all values of and sucl ] that is a real integer ; when and are positive integers such that , we have , and the integral in ( 95 ) vanishes .
+44 .
+In ( 93 ) change into , we have then ' where is a real integer ; now , suppose and are both real integers , it is then necessary to evaluate undetermined form on the right-hand side ; to do this , suppose the modulus of is greater than unity , and substitute the series in powers of for the functions , ; the expression then becomes OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+\mdash ; S The ratio of the coefficients of the last two terms can easily be shown to be\mdash ; l , thus the result reduces to , or to .
+This result must hoid whether is greater or less than unity ; hence when and are real integers , when , and is equal to zero when The case in which and are negative would require special examination , but the result in that case may be deduced from ( 96 ) ; change into , and into , we thus find when , and is equal to zero when . . . . .
+( 97 ) .
+The results in ( 94 ) , ( 96 ) , ( 97 ) agree with those of HEINE , more general formulae ( 93 ) , ( 95 ) are not given by him .
+45 .
+Results such as those in , 43 , 44 , could be foreseen by a consideration of the fact that satisfies LAPLACE'S equation , provided are any constants such that ; this ] for complex values of , and when are not restricted to be real .
+Let , , then , since , we have * ' Kugelfunctionen , ' vol. 1 , p. 211 .
+; we should , therefore , expect that if is expanded in cosines and sines of mulbiples of , say 2 , the coefficients would be linear functions of the functions , .
+Let , we then find that If mod , one of the expressions can be expanded in positive powers , and the other in negative powers of ; if , however , mod , both expressions can be expanded in positive powers , or both in negative powers , according to the sign taken mod In this case all the powers of in the expansion are of positive or negative integral degree , thus where has all integral values .
+We have , by ( 81 ) , except that , also , hence ( 98 ) , OF UNRESTRICTED DEGREE , ORDER , ND ARGUMENT .
+this formula which holds for all real and complex values of is a generalization of a well-known formula ; namely the case in which is a positive integer , in which case the series is a finite one , since , when and are positive integers such that In this case the expansion of -lcos ( in powers of consists of powers whose indices differ from by a real integer ; thus where has the values , .
+To determine , multiply both sides of the equation by ; the1l , since , when are different real integers , we have , by ( 93 ) .
+We have thus obtained the expansion ( 99 ) , when has the values , . .
+and the expansion holds for all real or complex values ; in the special case in which is a positive integer , we have .
+( 100 ) .
+.en is a negative integer , change into ; we thus find , on using the formula ( 97 ) .
+( 101 ) , where has the values , . .
+5.10 DR. E. W. HOBSON ON A TYPE OF SPHERICAL HARMONICS eralization of 's Expressions for as Definite Integral .
+46 .
+It has been shown in Art .
+33 , that provided the real part of is positive , let , the line joining bhe points on the -plane is perpendicular to the real axis , and the path of integration be taken to be a circular arc with centre at the origin ; let , then remembering that the phase of increases from , at the lower limit to , at the upper one , we have hence ' or .
+( 102 ) .
+From Art .
+11 we find hence OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+A particular case of ( 102 ) , or.(10.3 ) is MEHLER'S form of one of DIRICHLET'S expressions for , The formula ( 103 ) holds for all values of and , real or complex , provided the real part of is positive .
+When is a real integer , we have for unrestricted values of ( 104 ) .
+47 .
+Next let us suppose the real parts of , and of to be positive ; the path of the integral can be taken as in the figure to consist of two circular arcs of unit radius , two straight portions along the real axis , and a circle of indefinitely small radius round the point ; under the above conditions as to and , the circle contributes nothing to the value of the integral .
+In the integral taken along the arc joining the points and \mdash ; 1 , the phase of is , where ; in the integral , from to , it is , where ; the two integrals together make up or In the integrals ffom to , the phase of is ; let the lower path , and , for the upper path ; these portions of the integral give us or we thus obtain the formula .
+( 105 ) , which holds provided the real parts of are positive .
+If is a positive real integer this becomes ( COf$ ) ( 106 ) .
+When and are both positive integers , and , we obtain ( 107 ) , which becomes , when ( 108 ) , which is the second expression given by MEHLER for .
+The formulae ( 105 ) , ( 106 ) , ( 107 ) therefore generalizations of the known formulae of MEHLER and DIRICHLET .
+48 .
+Next suppose the condition that the real part of is positive does not necessarily hold , but that the real part of is negative , and that of : is positive ; we may replace part of the path of integration in the Iast Art .
+by straight paths from \mdash ; 1 to along the real axis , and a circle of infinite radius .
+From to \mdash ; 1 , the phase of is , where is initially equal to ; from \mdash ; 1 to , the phase of is , where is equal to at the OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+point .
+The part of the integral for which consists of integrations along the two finite circular axes is \mdash ; S or The part of the integral which is taken along the circle of infinite ladius is and the part taken along the real axis is or we thus obtain the formula \mdash ; ( 109 ) which holds , .provided the real part of is negative , and that of is positive .
+When the real part of is between and \mdash ; 1 , and the real part of is both tdding txpressions i In the special case , we find ( 110 ) when the real part of is between and A definite integral form for , when the part of is between 49 .
+Taking the formula we see that , provided is half a real integer , and also is positive , the path may be replaced by one which consists of a single curve endosing both the points In the first figure the initial phases at A are , for for .
+In the second figure the phase of 1 \mdash ; is zero at , and that of is at D. The formula becomes Now suppose the real part of is negative , and that of is positive ; we may replace the path by one round a circle of infinite radius , straight paths along : OF tINRHiSTRICTED DGRHlE , IMENT .
+515 the real axis , and a circle round the point ; the circular paths contribute nothing to the value of the integral , and we have - this holds for all values of of which the real part is positive , provided is half an integer , and is less than , also provided the real part of is negative and of is positive ; the only value of which satisfies these conditions is ; we thus obtain the formula .
+( 111 ) , which holds , provided the real part of is between and , and that of is positive .
+Definite Integral Expressions for , when is real greater unity .
+50 .
+In the formula where the real part of is positive ; when is real and greater than unity , , then , thus putting , we obtain the formula ( 112 ) where the real parb of is positive , and in particular ( 113 ) .
+The path joining the points can be placed as in the figure , along the real axis from , except for a small semicircle round the point , then a semicircle of infinite radius , and lastly a straight path along the real axis from to .
+If the real part of lies between and \mdash ; , and if the real part of positive , and if is negative , the straight portions of the path are the only ones which contribute anything to the value of the ; in this way we find that under the onditions just specified .
+In a similar manner , we can prove , by taking the semicircles below real axis that under the same conditions , is given by the formula OF UNRESTRICTED DEGREE , , AND ARGUMENT .
+Multiply the two formulae by , and subtract them , we then have the formula , where the real of is between and-l ; and the real part of is between If , we have ( 115 ) .
+Definite Integral Formuloe for , under Special itions .
+51 .
+When the real parts of are positive , we have ' . .
+( 43 ) , take the path of integration to be from to 1 , along the real axis , then from 1 to along an arc of a circle of unit radius with its centre at the origin ; along the straight path , has the phase zero , and alon circular arc it has the same phase as , hence , writing in the .
+first part of the integral and in the second part Next take the path to be from to along the real axis , along a semicircle of : infinite radius to , from along the real axis to 1 , and from 1 along a circular arc whose centre is the origin to the point .
+If the real part of is negative , the part of the integral taken along the infinite semicircle is zero ; we have then , writing , in the first integral , , in the second integral , and , in the third integral , If the real part of lies between and if the real parts of are positive , both the formulae we have found for hold .
+Multiply the first expression by , and the second by , and then add ; we find ( 116 ) , which holds , provided the real part of lies beiween , and those of are positive .
+If , we have ( 117 ) , which holds provided the real part of is between and \mdash ; 1 .
+It is to be remembered that .
+OF STRICTED D REE , ORDER , AND ARGUMENT .
+Formula for under special conditions .
+52 .
+When is real and greater than unity , let we then have , provided the real parts of are positive , .
+Let , we have then , taking the path along the real axis , .
+If we take the path to be from to along the real axis , .
+along an infinite semicircle from to , along a straight path from to , avoiding the point by describing a small semicircle ; the along the semicircles vanish provide the real part of is negative , we then have In a similar manner , by taking the semicircles above the real axis , we can show that II Multiplying the first expression by , and the second by ) , and subtractin , we then have ; where the real part of is less than , and the real parts of are positive .
+Put , we have then , ( 119 ) where the real part of lies between and Expressions for , when is integer .
+53 .
+When is a real integer , the formula may be replaced by the path may , as in the figure , consist of a circle of infinite radius , straight paths along the real axis from to , and a small circle round the point If the real parts of are positive , the only effective parts of the integral are those along the real axis .
+The phase of , at A is ; we thus find , ; OF UNRESTRICTED , ORDER , AND RGUMENT .
+521 or ( 120 ) , where is a real integer , and the reaJ parts of are positive .
+If , we have ( 121 ) , where is a negative real integer .
+For all values of and such that is a real integer , the path may be taken to be a circle of radius unity with the origin as centre ; we obtain on putting , since , or ( 122 ) .
+Recurrent Relations for Successive Values of , .
+54 .
+Denote the integral , by , the being taken along any closed path , that is , one in which after completion the integrand returns to its initial value .
+We find ; also .
+Hence XCVI .
+' or , .
+Referring to the formula ( 40 ) , ( 50 ) for , , we see that by choosing specified closed paths for the integration in , each of the functions is of the form ; we thus obtain the formulae ( 123 ) .
+Next let V , we have then by changing into in the relation which has been found above for ; special cases of this relation are ( 124 ) , from ( 123 ) , ( 124 ) , we have at once .
+( 125 ) , these recurrent relations between the functions for different values of hold for general complex values of and 55 .
+It has been remarked in Art .
+1 , that , which is equivalent , satisfies the differential equation now , thus ; OF UNRESTRICTED , ORDER , AND ARGUMENT .
+523 referring to the formulae ( 40 ) , ( 50 ) , we see that , as special cases of this result , , the formulae ( 125 ) , ( 126 ) , are well known for the case in which and are real integers .
+If , then introducing the modification of Art .
+17 into the symbols we have .
+Toroidal Functions .
+56 .
+If are points at the extremities of a diameter of a fixed circle , and the coordinates of aIly point in a plane through AB perpendicular to the plane of the AP circle , are denoted by , where , and is the angle the plane APB makes with a fixed plane through the axis Oz which bisects A and is perpendicular to the plane of the circle , it is known* that the normal { unctions requisite for the solution of potential problems connected with the anchor ring are *See C. NEUMANN'S ' Theory der Elektricitats-uud Warme-Vertheiluug iu einem Ringe , ' Halle , 1864 .
+W. M. HICKS , " " Toroidal Functions 'Phil .
+Trans 1879 .
+A. B. BASSET , " " On Toroidal Furctions ' American Journal of Mathematics , ' vol. 15 .
+W. D. NIVEN , ' On the Ring Functions 'Proc .
+Lond. Math. Soc vol. 24 .
+The functions , , where and are positive integers , are consequently called toroidal functions .
+Various expressions for these functions may be found , as particular cases of the various definite integral expressions which have been given above for , .
+We find from ( 113 ) Also from ( 81 ) , ( 82 ) , From ( 68 ) , ( 69 ) Again from ( 92 ) , we find mw and ffom ( 122 ) , In the case in which the real part of is positive , we find from ( 90 ) and ( 91 ) , 57 .
+From ( 125 ) , ( 126 ) , we find , on writing for , the relationa OF UNRESTRICTED GREE , RDER , AND ' with a similar relation for the functions , and with a similar relation for the functions .
+Formulae similar to these have been employed by HICKS to calculate the functions successively .
+58 .
+It is important to have series for , in powers of , so that the values of the functions may be calculated approximately for considerable values of .
+The required series for is given at once by ( 35 ) ; we thus have , and in particular .
+This is the expansion in powers of , of the elliptic integral to which is reduced by means of the substitution The corresponding series for must be obtained from ( 36 ) , which requires , however , in this case modification .
+We observe that in the formula when is a positive integer ; the second series has after a finite number of terms .
+infinite coefficieuts , moreover the coefficient of the first series is infinite .
+The expression for , gives us , therefore , first a finite series . .
+which we shall denote by ; and second the undetermined form s-in where in the limit , The numerical coefficient of the second series is equal to . . .
+which is equal to Now the limiting value of the ratio when , is easily seen to be \mdash ; 1 , thus the coefficients of the two series are equal and opposite infinities .
+Evaluating the indeterminate form according to the known rule , we obtain first an expression , which we shall denote by ; this is OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+we also obtain the expression since , in the limit .
+We have now , on the whole , picking out the terms in , obtained by differentiating the exponential function ( 1 ) The finite series ( 2 ) , ( 3 ) , , in the case of the ordinary ring functions ( integral ) , the first term vanishes on account of the factor ( 4 ) Confining ourselves to the case in which is integral , we can simplify expression in ( 2 ) ; we have . .
+hence . .
+Now use the known theorem ; on taking logarithms and differentiating , and then putting , we find Taking ( 2 ) , ( 3 ) , and ( 4 ) together , we now have the expression where denotes the series . .
+and denotes the series . .
+On changing into , we now have the complete expression for the ring function , ( integral ) , OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+529 The particular case , gives as the expression for the zonal function , This particular case has been obtained by other methods by BASSET , and by W. 1 ) .
+NIVEN .
+The case in which is fractional has really been included in the above investigation ; the simplification of the coefficients in the expression ( 2 ) does not apply to the general case .
+MEHLER'S Functions for the Cone .
+59 .
+The normal ) otential functions for problems in which the boundaries are coaxal ] cones*are spherical harmonics of complex degree ; it is therefore desirable to consider the forms which the functions , take when is of this form ; will be denoted by .
+We find from ( 103 ) , ( 110 ) , ( 111 ) , ; these formulae have been proved by other methods by MEHLER and by HBINE .
+From ( 103 ) , we obtain the new formula where is any positive quantity .
+From the above formulae , we see that .
+From ( 1]7 ) , we have , * See MEHLEII'S paper in CRELLE'S ' Jonrnal , ' vol. 68 .
+See ' Kugelfnnctionen , ' vol. 2 , p. 221 .
+hence , into , and the two equations , we find , hence .
+Thus we can use , , as the two independent functions .
+It thus appears that the expressions given by MEHLER and HEINE for , , are particular cases of the general formulae we have obtained above .
+Potential Functions for the 60 .
+It has been shown by MEHLER that for potential problems in which the boundaries are spherical bowls with a common circular rim , the functions can be used , being in this case real and greater than unity , sa'y We find from ( 111 ) , that and from ( 113 ) , we find also from ( 115 ) , these formulae are all proved by HEINE* by other methods .
+From ( 112 ) we have * See ' Kugelfunctionen , ' vol. 2 , p. 220 .
+OF UNRESTRICTED DEGREE , ORDER , AND ARGUMENT .
+From ( 118 ) , we have Hence hence by means of the formula we have ( \mdash ; ccsh ) .
+It thus appears that the known expressions for these functions are immediately derivable from the general formulae obtained in the present memoir .
+

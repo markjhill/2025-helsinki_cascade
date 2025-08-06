@@ -1,0 +1,548 @@
+[ 379 ] XI .
+On certain Definite Integrals occurring in Spherical Harmonic Analysis and on the Expansion , in Series , of the Potentials of the Ellipsoid and the Ellipse .
+By W. D. Niven , AT .
+A. , Fellow of Trinity College , Cambridge .
+Communicated by J. W. L. Glaisher , M.A. , EM .
+S. Received April 3 , \#151 ; Read May 1 , 1879 .
+S The object of this paper is to explain a method of dealing with a class of results , some of which are of frequent occurrence and some of considerable importance , in the solution of Laplace 's equation in series .
+The fundamental theorem on which the method depends is expressed by the integration of over a sphere whose centre is the origin of coordinates and whose radius is It .
+This sphere we shall call the sphere of reference .
+By change of axes the above integral takes the form and its value is 27rlt( ex'V{~a'+^+y')dx j -R gR^(aa+/ 3a+ya)_g-R V(aa+/ 3a+ya\gt ; \/ ( a2+/ 92 + T3 ) or , in series , r R2 T ?
+2* l 47rR2jl + -(a2+^+y2)+ . . . . . .
+} . . .
+( 1 ) ( 2 ) It follows that if V be any function whose value may be expressed for all points within the sphere by a convergent series , according to Taylor 's theorem , or by the symbolical form then the integral JJVcZS taken over the surface of the sphere is 47J\R2X o R2\#187 ; d* .
+\lt ; F\* 1 v\dx die dz ) 0 3 C 2 ( 3 ) The corresponding theorem in two dimensions , which we will also employ , is this The integral ( eax+^ds taken round the periphery of a circle of reference , is a\gt ; 27rRf2s\lt ; T7i(aS !
++^i W Hence it follows that taken round the same periphery , is JVcfo , 27tHX * R2i Id ? .
+d ?
+V + T. V , 02Zii\ i^\dx 1 d/ y ( 5 ) The theorems expressed by ( 3 ) and ( 5 ) are employed below in a variety of cases connected with spherical harmonics .
+It is therefore necessary to specify at the outset the notation to be used .
+We denote , according to custom , the colatitude and longitude of a point referred to the axes of reference by 0 and \lt ; f\gt ; : cos 6 and sin by p. and v respectively .
+We denote the Legendre 's coefficient or zonal harmonic of the ith degree by the symbol P* so that P iis defined by the equation .1 r !
+- . .
+... ... ... ... ... ... .(6 ) According to Clerk Maxwell 's theory of poles the general expression for the harmonic of the ith degree is given by the equation i\ Y ; =(-l)v+1 dj l dhxdh % ... r ( 7 ) where \#151 ; means differentiation with regard to an axis h. CUV In the harmonic ( 7 ) the i poles are the points where the i axes of differentiation cut the sphere of reference .
+In the harmonic ( 6 ) the i poles all coincide with the point where the axis of z cuts the sphere .
+If the i poles coincide at any other point the harmonic will be denoted by Q* .
+In the tesseral and sectorial system we have ventured to depart from the usual notations by denoting them as follows :\#151 ; it ( i , \lt ; t ) = ( -1)W^ + d^\ \d % 1 di ) r . .
+( 8 ) i\ [ i , \lt ; r]=(-l ( fc \ ^i-\lt ; r dr ) Jdz s ' r ( 9 ) OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+where j=\/ \#151 ; 1 , \#163 ; =se+j\gt ; y , r]\#151 ; x\#151 ; jy .
+It will be observed that ( 8 ) is not in accordance with the general definition ( 7 ) , for if we put cr=0 we get ( t , 2P , - .
+As regards the name of Spherical Harmonic introduced by Thomson and Tait , it seems desirable that the names of Legendre and Laplace should be in some way retained in connexion with the different kinds of harmonics with which they are associated .
+From the point of view of the former writers there is perhaps some difficulty in doing this .
+We shall however continue to give the name of Laplace 's coefficient to what Thomson and Tait call the Biaxal Harmonic or the formula which expresses Q* in terms of the harmonics referred to fixed axes of reference .
+With the definitions given above , this is 02\lt ; r\#151 ; 1 .
+\ " *( Q , =P , P/ + , \amp ; c. , +v+tr , ')(h o-y+ft o-][t , erj}+ . .
+( 10 ) in which any accented function is derived from the corresponding unaccented function by the substitution of the coordinates of the pole of Q* in place of the running coordinates .
+The following are , in the first instance , the integrals to which the method of this paper will be applied ( 1 ) ( 2 ) [ [ ( 1\#151 ; ( 4 ) J]P"P ?
+P^S ( 5 ) a)fe / 3)(r\gt ; a)\_q , a+\#163 ; ]dS , \amp ; c. ( 6 ) [ [ P^P.P^S Of these cases the first three require no special comment .
+The fourth case was for the first time solved by Professor J. C. Adams , in the Proceedings of the Boyal Society , vol. xxvii .
+, pp. 63\#151 ; 71 , although the result had been independently found and published by Mr. Ferrers in his 'Treatise on Spherical Harmonics .
+' Professor Adams , as well as Mr. Ferrers , made the discovery of the value of ( 4 ) by an inductive process , and Mr. Todhtjnter showed in a subsequent number of the Proceedings how the proof could be thrown into a compact form .
+The present writer was , however , convinced that the integral could be found deductively according to the method described above , and the simple character of the result led him to hope that the same method might be applied in cases of greater complexity .
+Accordingly cases ( 5 ) and ( 6 ) have been dealt with , but they have not been solved with the completeness of case ( 4 ) , the results being practically expressed in the form of series .
+The most interesting as well as the most important applications of the present method are connected with ellipsoids and ellipses .
+We have thereby obtained in series of harmonics the potentials of ( 1 ) An ellipsoidal shell .
+( 2 ) A solid ellipsoid .
+( 3 ) An elliptic plate of uniform density .
+( 4 ) An electric current in an elliptic circuit .
+Of these cases ( 2 ) leads to the approximate determination of the forces expressing the mutual action between two solid ellipsoids or uniformly magnetized ellipsoids , and ( 4 ) in certain cases to the forces between two currents in elliptic circuits , the particular case of circular circuits being completely determinate .
+Similar results also hold for rectangular solids and circuits .
+The case ( 2 ) derives additional interest from the fact that it engaged the attention of Lagrange , who obtained the expansion as far as the first four terms .
+The same four terms have also been worked out in a very interesting paper on the potential of an ellipsoid at an external point , by Colonel A. L. Clarke ( e Philosophical Magazine/ 1877 , vol. ii .
+, pp. 458-461 ) .
+In regard to case ( 3 ) , Professor Cayley , in the ' Proceedings of the Mathematical Society ' for 1875 , has obtained the solution in the form of an integral , from which he derives interesting properties of the potential depending on certain particular positions of the attracted point .
+The expansion in harmonic series would seem , however , to be practically more useful in determining the mutual forces between two electrical circuits .
+Throughout the following investigations , the method of treating Spherical Harmonics introduced by Thomson and Tait will be almost exclusively adopted .
+S 2 .
+Taking a point A on the axis of z produced negatively at a distance a. from the origin , let us consider the result of integrating or jjs-WS over the surface of the sphere , where v is the distance of any point P from A , and u is the reciprocal of r. If we denote by the suffix 1 the fact of the operator being upon zm , and by the suffix 2 of its being upon u , then the operator OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+- _1_\#151 ; _l\#151 ; Y dx die dz ) upon the product , zmut may be written , J \#187 ; \#163 ; 1 2 die % \dzz dz1J J that is , in virtue of u satisfying Laplace 's equation , ( A+2A ay \dz1 dz2 ) Referring now to the general result ( 3 ) , and picking out the general term , we find 4,7rR2*+a i\ 2i+l\ ml %\#151 ; n\ dz1 dA dz % In order that this may lead to a value not zero , we must have or 2 i\#151 ; n=m 2i=m-\-n Substituting then this value of i , and differentiating zmu , putting x , y , 0 after the differentiations , we get m + n ( -1)* 47rR"t+"+2 m + n+1 !
+, m\#151 ; n , mi\#151 ; I 2 nm\ n\ aH+x But u can be expanded in a series of zonal harmonics , viz. : it is a __ ?
+lp _}_ Substituting this expansion in Jfzwnc\#163 ; S , and equating the coefficients of the different powers of the reciprocals of a to the values already found for them , we obtain finally , in the case where m and n are integers , _ , m + n , 2 *m !
+\#151 ; o\#151 ; J fJLmYndS = 4:7r~R ?
+m\#151 ; n } m + n +1 !
+\#151 ; 2\#151 ; ( 11 ) It is obvious from the above proof that m+n must be an even number , and that n must not be greater than m. In all other cases in which m and n are integers , the integral must be zero .
+It is obvious the same method of solution as the foregoing will apply generally towards determining where f(z ) is any function whose differential coefficients are finite at the origin .
+In fact , we find ||/ ( z)P^S=-Ir(2B)''+2 ; n\ 2n+ll dn+z dn+4 2(2w+3)4\lt ; fe " *"2.4(2\#187 ; +3)(2w+5 ) dz +\amp ; c'J/ ( 2 ; )* ( 12 ) where , after the differentiations are performed , z is to be put equal to zero .
+A result practically equivalent to the above is given by Heine ( " Kugelfunctionen , " second edition , p. 76 ) , and applied to various cases where the functions can be expanded in simple series of zonal harmonics .
+The functions are ( 1 \#151 ; /a2)4 , sin"1 / a , ( 1 \#151 ; ft2)-* Similar functions are also to be found expanded in Todhunter 's " Functions of Laplace , Lame , and Bessel , " SS 48 , 145-147 .
+We shall now discuss more general cases of some of these functions .
+JJ(l-/ X3)-P2\#187 ; dS S 3 .
+The case now indicated will be discussed only for integral values of m and n. Let us consider the integral or jj^+^-uds If we use the suffix 1 in any operator when it is upon ( x2+y2)m , and 2 when it is upon u , we have as the general term operating , 4ttR2\#187 ; +Y/ d d_\2i(AI 2i+l !
+\yfcq ' dxj yfoq or , since d d d , d , , * I " ' 1 - I ' -j- I dxx dx % d%x dt\x 2 drj2 d ._d____ .
+/ d_d_i d _ d \ dyx dy~^ dyx d^ drjJ the general term above is 47rR\#171 ; +8/ / d A \/ d d \ _gV '2i+lT\4Wi \#166 ; 1 OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+that is , in virtue of u satisfying Laplace 's equation , 4arR*+* ./ d d^.d_ d ^ d 2^ + 1 !
+\d%x dr)1 dgx drjz d % % dr)J The general term of the operator just found is 4ttR2i+2 .
+il / d % X(\#151 ; \#151 ; Y~ " 2i+V.u\ i\#151 ; uKd^drjx ) \d^ dvj It is obvious that i\#151 ; u must be even , otherwise the differentiated expressions could not but vanish when a ?
+=0 , y=0 , z\#151 ; 0 .
+We must thus have i\#151 ; u= i-\-u=2m Substituting these values in the general operator , and retaining only the middle term of the last factor , which alone in that factor will produce a result differing from zero , we get , as the expression of the effective operator , 47rR2t+3 . .
+------------4* .\#151 ; ~\#151 ; \#166 ; \#151 ; \#171 ; \#151 ; 2m + 2 ?
+\amp ; +l !
+m\#151 ; d d \m / d \\#171 ; Jdvj of which the last factor may be replaced by And now performing the operations indicated , we find as the result , v 47rR2*+2 , ml 2 1 ( \#151 ; 1)\#187 ; -------1---\#151 ; AT 2m + 2n 1 !
+m\#151 ; nl nl nl a2w+1 Since x2+y2=W and the term involving P2 " in the expansion of u in zonal harmonics is R2\#187 ; y2\#187 ; +lJr 2* we have , finally , ff _ _ ( \#151 ; 1\gt ; 4 " m + nlmlml2nl / .
+, Q\ { f ( i\#151 ; jxa)-pa.d8=4*b\#187 ; 1 m-\#187 ; i ozr . . . .
+( 13 ) If cf\gt ; ( y2 ) , any function of v2 , be expanded in the form Aq+Aj^H- . . . . . .
+then it may be shown that =(-i ) ' 2 n\ 1.3.5 . . .
+( 4^ + 1 ) ^\lt ; f\gt ; ( v2)~P2ndiA / A , M !
+9* ( n + l)\#187 ; ( \#187 ; +2)\#187 ; - \ , ^+4^+3 2A\#187 ; +i + ( 4^+3)('47l+5)i2 2 Awe +i+\amp ; aJ .
+( 14 ) In certain cases this series admits of summation .
+For example , let us examine under what circumstances JJ/ x^P^ciJS admits of being evaluated m+i 2\2 T 2+W"1 .2^ w- !
+Hence * , 2+ .A-\#187 ; +i= \#151 ; \#151 ; A* A\#187 ; +2\#151 ; 7i+l If we now write +^+1 ( w+l)(w+2 ) a\#151 ; o +n / 3\#151 ; n +1 3 y=2n+- A " , \amp ; c. we find for the integral JJ/ x *P2\#187 ; cZS , the expression ^+2)^+4 ) . . .
+( ^+2^\#151 ; 2 ) ' ' ( 2\#187 ; + l)(2n + 3)(4\#187 ; + l ) where 2=1 a/ 8 a(a+l)/ 808+l ) Y fie ( , y +1)1.2 r(y)r(7\#151 ; ff\#151 ; \#187 ; )* 'Tfy-fi)r(\lt ; y-\#171 ; ) r[ 2n+|)r( " * r(n+-)r(n+14 l-\amp ; \ ' 2 ) n+\ 2n+:t 1-k 1-k * Bertrand , * Calcul .
+Integral , ' 1870 , pp. 495\#151 ; 6 .
+occurring in spherical harmonic analysis .
+The value of the integral under discussion is accordingly / __-\#187 ; \\#171 ; fc(fc+2 ) . . .
+( fc+2 ?
+t\#151 ; 2 ) v ; ( 1\#151 ; A)(3\#151 ; A ) . . .
+and the above reasoning shows that k must be less than 1 : it may , however , have any negative value .
+\#187 ; P*dS S 4 .
+To evaluate the integral now indicated , m and n being integers , we must modify our previous solution , for otherwise we should be led to infinite values of the differential coefficients at the origin .
+Let us consider the integral If ( \#163 ; , )"-* VdS If V is a function which is symmetrical round the axis of z we may write this 2ir^p2mYds where ds is an element of arc of any section of the sphere of reference containing the axis of z , and p3+22=L3 .
+Now the expression ( 5 ) gives the form of solution in this case .
+If we put V=-f ( z+jpcos xp^dxfj TTJ o x we have , in fact , ffa , w-\#187 ; p dS=____________^________x f' 's +r** jjvl P ) -*-2* ^ 2 z\#153 ; +inm + n\m + n\Jo Expanding the quantities under the integral sign , and performing the differentiations and integrations , we obtain 27r2R22m !
+2^ !
+g 2 ?
+m+\lt ; 2nm + n\7n\n\ where * , n(m+ .
+n(n\#151 ; l)(m + j)(m + j +1 ) _ ^ S = 1-L2 h 1.2 1.2 _(n\#151 ; m\#151 ; -^)(^\#151 ; m \#151 ; g\#151 ; 1 ) . .
+: ( m 1.2 . . .
+n 3 D 2 388 * MR. W. D. NIVEN ON CERTAIN DEFINITE INTEGRALS First let n\gt ; m , case S becomes then in S we have n\#151 ; m positive and m negative factors , and in that .
+2 n\#151 ; 2m !
+2m !
+_ 1 \m________________________\#151 ; ' 2 *nn\#151 ; mlrnlnl Next , let n\lt ; m , then S becomes ( -i ) 2m !
+m\#151 ; n.____________ 22"2 m\#151 ; 2 Substituting these values of S in the expression for the integral we find ( 1 ) if n\gt ; m ( \#151 ; V)m2nr2R22m !
+2 2 2 \#151 ; 2m !
+2^m+4Mn-\-ml n\#151 ; m !
+( 2 ) If n\lt ; m ( \#151 ; l)M27r2R22m !
+2m !
+m\#151 ; 2%m+4Mm + nl 2m\#151 ; 2nl ml nl nl \#166 ; .
+( 16 ) . .
+on S 5 .
+The results for the two integrals now stated are , if a be the colatitude of the pole of Q i , 4ttR2P , ( cos a ) ... ... ... ... ... ... ... ... ... .
+( 18 ) , -rfyij 1 ).P\#187 ; ( oos a ) . .
+... ... . .
+( 19 ) where , in the second integral , j\#151 ; i must be a positive even integer .
+GENERAL THEOREMS IN DIFFERENTIATION .
+S 6 .
+Before we proceed with the remaining cases , it will be convenient to state and prove various theorems in differentiation.* Theorem i. The general operator ( 7 ) upon the reciprocal of r may be made to operate , instead , upon a homogeneous function in x , , z of the ith degree ; this effect being expressed by the relation / _________________________\#151 ; ---------------------------------------------dl-------------- ' ' dhxdhz ... dhi r r*+1 dh^dh^ . . .
+dhi ( ^Qi ) where the pole of Q , is in the direction of r. ( 20 ) * Theorems i. and ii .
+were given in a paper by the author in the i Messenger of Mathematics , No. 73 , 1877 .
+On account of the brevity of the proofs , and in order to secure completeness , it is thought best to reproduce them here .
+OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+Theorem ii .
+relates to the differentiation of the reciprocal of r2\lt ; r+1 and may be stated thus : operating on a homogeneous expression ( f\gt ; ( x , y , of the ith degree , then This theorem is obviously true , and though stated for only three quantities , x , y , z , is true for any number .
+Theorems i. and ii .
+are proved as follows : Let OP=r , QP and C\gt ; \#163 ; Q=7r\#151 ; where Q is any point near to P. Then Keeping r fixed let us perform the operation ( 7 ) on the two sides of this equation and then put p=0 , in which case OQ becomes r. It is to be observed that with a homogeneous operator like ( 7 ) , it is immaterial what point is taken for origin of coordinates .
+If then we take P for origin when we are dealing with the right hand side of the above expansion , we see that the first i terms will disappear by repeated differentiations , and the terms beyond the i+ Ith disappear in consequence of the zero value of p. The theorem stated therefore follows , the substitution of r for p making no difference in a result from which x , y , z are finally made to disappear .
+Theorem ii .
+may be proved in the same way , if instead of the expansion for the reciprocal of OQ , as above , we take the expansion for the reciprocal OQ2\lt ; r+1 , found by differentiating the above series cr times with regard to / x. S 7 .
+In several of the following investigations frequent use will be made of different forms of the zonal and tesseral harmonics .
+With the view of classifying these various forms , and of bringing the various expressions for the tesseral and sectorial system into harmony with the corresponding expressions for the zonal , a pi oof is here given which will be a direct illustration of the foregoing theorems .
+The most important forms of the zonal harmonic P* are JL__1 OQ r \#151 ; iQ*+\amp ; cDIFFERENT FORMS OF TESSERAL AND SECTORIAL HARMONICS . . .
+( A ) Now by definition 2 i , .
+f(i~l ) ._0 , 2*t !
+il^2(21-1)^ * * ' . . . .
+( B ) J^+JV*\#187 ; +\gt ; '**- \#166 ; .
+\#166 ; . . .
+( C ) p\#151 ; . . . .
+( D ) / .
+\ / -l \i ?
+'i+1 d}~ " !
+d*d'\ 1 ( l ' ^ ^ ) il dz \d^dv)x/ z* + Zv By Theorem ii .
+this is 1 dl~ ' { r-r ; 2 COS \lt ; T(by(r\#151 ; r* ' , .
+2n !
+r dzV c ?
+yu , '-/ 'cfe r2\lt ; 7+i r^QA We observe that , in this result , the axis of the harmonic Q , is the line OP , as explained in the proof of Theorem i. We must therefore change the axes of coordinates , making the new axis of z coincide with OP .
+^p .
+If * , when expanded , becomes Az*-\lt ; r\#151 ; B^-\lt ; r"2p3+ . . .
+we have to consider the effect of operating upon this with There will result that is d .
+d V-\lt ; r cos a\#151 ; \#151 ; sm a\#151 ; dz dp i\#151 ; cr !
+( A cos* 9 a\#151 ; B cos* \lt ; r""2 a sin2 a+ . . .
+) l\#151 ; !
+dp ?
+where p is now the cosine of the angle between OP and the axis of z. Hence we obtain the first and second forms of the harmonic corresponding to the forms ( A ) and ( B ) of the zonal harmonic , viz. :\#151 ; , .
+v i\#151 ; o* !
+_ , \lt ; * ' 2 008 ^d , , 21 !
+\#166 ; , / .
+\#151 ; \#151 ; \#151 ; 1 ) , =2^iUl2 008 ^ ^ ' ( a ) ( b ) Let us now consider the definite integral OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+____d\lt ; j\gt ; 1 , J o pcos2 \lt ; f\gt ; + 2 sin2 \lt ; f\gt ; 2 . .
+' ' This result will still be true if for p , q we substitute the unreal quantities c+re^ , c-\-re~0J , as may indeed be shown by direct integration .
+Let us differentiate both sides of the equation ( a ) , cr times with regard to p and cr times with regard to q. We find 9 t rf sin2\lt ; r \lt ; f\gt ; cos2 " \lt ; f\gt ; j tt f 1.3 . . .
+( 2a-\#151 ; 1 ) ] 2__________1_ ' " * J o ( p cos2 \lt ; f\gt ; + qsin2 0)2\lt ; r+1 ^ 2[ 2 ' " J Making the above substitutions for p , q we get 2q'cr !
+2ff__________________sin2\lt ; r 20________ , ,_______/ 1 1.3 . . .
+2\lt ; r\#151 ; 1 ttJo ( c + r(eei cos2 sin2 ^\gt ; )}2o'+1 * \c2 + 2cr/ t + r2/ ------1--------+(\#151 ; 1 ) 1.3 . . .
+( 2cr \#151 ; 1 ) c2\lt ; r+1\ ) ( , \c J r V- cZ'P ; the last line being derived from its predecessor by cr differentiations with regard to / * .
+And now expanding the expression under the integral sign in powers of r , and equating the coefficients of r*-\lt ; r , we find gg\lt ; _ i+\lt ; rl cos2 \lt ; A+e-* sin2 \lt ; !\gt ; )'- ' sin2 ' 2AdA difjF 2a\ i\#151 ; \lt ; r !
+ttJo On putting 2\lt ; \#163 ; =t/ / , and substituting the expression just found in equation ( a ) , we finally obtain for ( i , cr ) one of the forms corresponding to C , viz. : -U2 cos cr^-f ( / / , +^V cos i/ #)*-\lt ; rsin2\lt ; r ... ... ... ... ... ... .(c ) 2\lt ; 7l ^ !
+7Tj o There is obviously another expression , corresponding to the second form of C , which is easily written .
+It is to be found by expanding , as above , in powers of the leciprocal of r. The expansion of the binomial inside of the integral ( c ) and subsequent integration with regard to if* give the form corresponding to D , viz. : i\#177 ; f\#177 ; 2 22\lt ; rt !
+cos cr ( i \#151 ; cr)(i \#151 ; \#151 ; 1 ) 4(\lt ; r +1 ) pl 9 V3+ . .
+( d ) Integration of the Product of Two Harmonics and Laplace 's Coefficient .
+S 8 .
+Let us take two points A and B at distances a and h from the origin , A being on the axis of z and B at an angular distance ct from it .
+Let P be any point on the sphere of reference , and let us consider the integral rr ds JJap.bp By ( 3 ) we may write as the result of this - R* ( .\amp ; \amp ; \amp ; V 1 47rB2S7rrrT-t T-+T-+ o 2i +1 !
+\dx AO .
+BO If we use the suffix 1 to denote differentiation upon AP only and 2 upon BP only , the above becomes by virtue of Laplace 's equation .
+_ \#174 ; R3i .( d d d d d d\* 1 4 ?
+rB2Srt- .
+\#151 ; hv- j-H------------ ' " ----o 2i +1 !
+\ctej cIxcl dyx die % AO .
+BO or , what is the same thing , , L2* d d , _ d .
+d d V 1 4:7rR2X^rT~rM 2\#151 ; \#151 ; + 2\#151 ; ~\#151 ; \--------------1 02i+l !
+\ dgx di ?
+2 d\#163 ; 2 AO .
+BO Now on consideration of Theorem i. we will see that in expanding the operator just found , the only terms which will lead to results not zero will be those which , so far as the operator with suffix 1 is concerned , are of the form dm dm dn df ?
+i die and this by virtue of Laplace 's operator A+4_i jL=0 dz1 dgx drjx d is expressible in terms of \#151 ; only .
+Hence we conclude that the only effective terms may be found directly as those not containing a power of v in the expansion of a t\gt ; 9.\#163 ; , 2_d_ V 1 77 02i+l !
+\ V dzx AO .
+BO 47rB25(-l yo 4irB22 , i.e. , m i.e. , Rai / _d _1 d_\\#187 ; _____1 2-i+l !
+\ dzx AO .
+BO R2i 2i\ $ d* 1 Hence II v2t + l !
+i\ i\ dz^ 3AO .
+BO dS_____R2* Pi ( cos at ) AP .
+BP 7r\#177 ; 12'2^ + l OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+If now we expand the reciprocals of AP and BP in harmonics we arrive at the well-known theorems ( jp , Q , a !
+S=0 11PiQicZS=Pi(cos a ) .
+( 23 ) The last result , when properly considered , can be made to yield the integral of any two harmonics .
+For it can be easily seen from the foregoing work that if pl9 p2 are any two vectors drawn from the origin , then we have this very remarkable formula for Q i d , d\* 1 2i !
+Qi= Pi+1p2+1Z \ ~T~^_+T~ TJ\#151 ; by ~rri ' \dxy dx2 dy2 dzx On account of the operator being an invariant we may suppose the axes to be any rectangular axes whatever .
+By what has just been shown we may throw this into the form .
+_ .
+.^w ../ 1 1 2* !
+\#151 ; where v2 stands for d ' d dy2 ' dyY The general term of the value of 2 Q4 just found is / V+1p2i+1(\#151 ; 1 di+* 1 i\#151 ; 'dzl dz2 plp2 P1i+1P2i+1(\#151 ; 1 )''2^ !
+d* dr* 1 i\#151 ; cl !
+dz-y dz2 or pj^pT^il \lt ; 2 ?
+*\#151 ; \#151 ; \#151 ; \#151 ; * 1 %--C !
+i C l dlj-y d2 dZry pxp2 It is obvious a term similar to this can be obtained with only put for \#163 ; 2 and for rjx\gt ; by merely changing the sign of or in the first of the last three expressions .
+Adding the two terms and recollecting the definitions of the harmonics we may wiite the result , 2*- !
+{ ( \lt ; , \lt ; r)(i o-Ji , crj ) ( 24 ) Hence Laplace 's Coefficient as given in S 1 .
+Reverting now to equation ( 23 ) , let us take two fixed poles , and let Q* , Q\#187 ; be expanded according to Laplace 's Formula ; we shall then be at once led to the well known surface integrals of two tesseral harmonics .
+The discussion entered into in this article is necessary for the treatment of the product of three harmonics to which we now proceed .
+It may be remarked that the expansion of the operator / d d.d d. d dV 1 is , according to the above investigation , 12~^ tt+.'V .
+^ !
+t !
+dz^ dz\lt ; i ^ I d ?
+drd9 \lt ; ^V/ d d \*'"v dig d/ r)-J\ffoj dzcjj ( See also Thomson and Tait , p. 157 ) .
+General Method of Dealing with the Integral J1QPQqQr . . .
+dS .
+S 9 .
+In discussing the general method of evaluating this integral it will be convenient to confine ourselves to the case of three harmonics , though the first steps of the reasoning will apply to any number .
+Let A , B , C be any three points whose distances from the origin are a , b , c , and let P be any point on the sphere of reference .
+Then by S 1 if dS AP .
+BP.CP = 4ttB3S R2i Id3 .
+d ?
++ X.+ 2i +1 !
+\dx 1 die 1 AO .
+BO.CO where v*o stands for B2i .
+.1 =i7rR*%2i+l\2'^+tf3i+^)'ao .
+BO.CO d d d d ^ d ^ dx^ dxg die % dyz 3 dzs ' the suffixes having the same signification as in the previous article .
+The general term of 2i-\- 2 dimensions in B may therefore be written 47rR2i+2 ^ i !
+2i +1 !
+X !
+Now the general expansion of each of the operators in this expression was found in the previous article .
+If therefore we adopt a somewhat more convenient notation we may expand v33A , un in a series of terms of which the type is OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+\#151 ; i. 2\ !
+2/ a !
+\ + / !
+A\#151 ; 1\ fjL + ml/ x\#151 ; v + n\ v\#151 ; n\ / dl dl dn dn dldl \/ dm d\#153 ; idm dm ' .
+1 * \d%2 dVs d%3 d*ij\d % % dvj1 d\#163 ; r drjjKd^ dr)z d^ drjJ dn\ \lt ; p-+v~ Xdz , -n ^v+X\#151 ; n\#151 ; l ^A+|x\#151 ; l\#151 ; m dz % where the values of l , m , n range between 0 and X , [ x , v. The general operator just found we shall denote by the symbol tt ( Z , m , n ) .
+S 10 .
+If we expand each of the reciprocals of AP , BP , CP in harmonics we shall arrive at the general term of 2^+2 dimensions in R in a different form , viz. : it will be R2i ap+lftq+lcr+l JjQpQ ?
+Qr^s In order therefore that the general term as found by the work of the last article may correspond with this we must have lx+v=jo v-j- X\#151 ; q X+p=r The quantities X , p , v , as depending upon p , q\gt ; r , are therefore perfectly determinate , and the equation expressing the identity of the general terms may by Theorem i. be written [ [ QPQ , Q/ iS=~^ !
+2'^-^ !
+2227r(Z , m , n ) ( Q^r/ Q^Q/ r/ ) ... .
+( 25 ) On examining the equations determining X , / a , , we see that in order to their being positive , p-\-q-\-rmust be an even number , and no one of the three quantities^ ?
+, q , r , must be greater than the sum of the other two .
+If these conditions are not satisfied , then J J =0 for integral values of q , r , wherever the poles of the harmonics may be .
+[ [ p^P.cZS S 11 .
+Let us now suppose that the three points A , B , C are in the axis of z. Then the harmonic becomes P^ , which we will suppose expressed by the series D. In like manner P9 and Pr may be similarly expressed .
+It follows that , in selecting from the 3 { 2 general operator what terms are practically effective , and discarding those which are not , we need retain only such terms as are , for example , of the form d* dr dp-9"7 dr]i Now the terms of this form are obviously got by putting l=m=n , = \lt ; r say .
+In that case , when we omit inoperative terms , tt becomes **-**____2X !
+____________________ A + \lt ; r !
+A\#151 ; crl / a + ct !
+/ a\#151 ; crl \#151 ; crl / dd d d d d \r d*-* " drjidf*^ drjc^ d$~Q drj^J dz^ that is , in virtue of Laplace 's equation being satisfied , 2'______________ 2Ai 2/ a !
+_______________d* 2* A + c !
+A \#151 ; crl / la\#151 ; crl v + crl v\#151 ; crl dzl dz % dzs Taking all possible terms of tt , such as that just found , and performing the operation directed by them , we have for JJP^P^P^S , the expression 47rR3 2A !
+2/ a !
+2vi % 1/ pi ql rl .
+_ ___ \ 2i+l !
+A !
+/ a !
+vl\(A !
+yu . !
+' ' A + dA\#151 ; \#151 ; \#151 ; where cr ranges from 0 to the smallest of the quantities X , / a , v. Now the series within brackets is clearly the coefficient of x2K , or of af+v , yv+\ z*+tL , in ( \#151 ; 1 Y(y\#151 ; z)fL+v(z\#151 ; \#163 ; c)v+\#151 ; yY+u ' or , again , the same series is also obviously equal to rl 2A !
+2/ a !
+2vl where K is the coefficient of x^+v yv+k zK+IJ- in K ( \#151 ; 1 Y(y\#151 ; \#151 ; \#151 ; y)2v that is , in i rrv^( V\- V\T( Vl- Vf{ Vl- V~j ' If we now write herein z=xe2\lt ; t\gt ; J=yeZ6j OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+we see that K is the term not involving the cosine of an angle of the value in the expansion in such cosines of W , where W=(\#151 ; 1)* 2s* sin2*# sin2lxff\gt ; sin2 , ,(#\#151 ; \lt ; f\gt ; ) so that Now expanding sin2 , ,(#\#151 ; \lt ; f\gt ; ) in powers of sines and cosines by the binomial theorem , we observe that the odd terms in the expansion disappear on integration , so that the value of K is given by 2v\ 2n \ 2v\#151 ; 2 - sin2*+2w# cos2 " 2w# sin2M , +2 ' ' ^(f ) cos d\lt ; f\gt ; On integration and reduction this becomes that is , where ( -i){ ^ 2^ 2v !
+^ 2\2fju~\~2v \#151 ; 2n\ X + z/ !
+fjb-\-v\ X + 7i !
+/ jl + v\#151 ; n\ v\#151 ; n\ n\ ( -i y 2_2i/ 2z\gt ; !
+2X !
+2/ jl+2v\ X-j- !
+^ !
+fx\gt ; v !
+X !
+fjb-\~v\ q 1 , ( 2X+l)y .
+( 2X+l)(2X + 3)p(y \#151 ; 1 ) .
+^ " 1 2fi + 2v \#151 ; 1 ( 2fji + 2v-1 ) { 2/ x+ 2v \#151 ; 3 ) 1.2'"r This hypergeometric series is capable of summation by a method similar to that given by Bertrand , * Calcul .
+Integral/ 1870 , pp. 495-496 .
+If we put S becomes X+^=a P-+V\#151 ; i \#171 ; ( \gt ; +l ) y(y\#151 ; 1 ) \#166 ; L 'r '/ 3(yQ\#151 ; 1 ) 1.2 \amp ; c. r(\#171 ; + w ) r(ft\#151 ; n+l ) y(y\#151 ; 1 ) . . .
+( y\#151 ; n + 1 ) " I\#187 ; r08 + l ) n\ r(q + y8+l)^ + l " r(\#171 ; )r(/ 3+i)^Jo wi ( i+y)a+^+1 \#166 ; r(\#171 ; )rp8+i ) r ~ r(q)r/ 3+i)J0 ( l+y)*^4-1 rp+/ 3+i ) rp+| ) " r(/ 3+i ) o2p i ] 2Jttl+vL \ + ft !
+ft !
+2ft + 2vl 398 MR. W. D. NIVEN ON CERTAIN DEFINITE INTEGRALS On substituting this value for S in the value of K we find K=( iV 2fJbl ' r\ X !
+vl Finally , performing the operations with regard to the s , we find ffpp p , q____47rR2 il 2X !
+2fj , l 2 JJ ***9*VW* ?
+T3\lt ; +ii : 2 \l\\plplv\vl ' ' * . .
+( 26 ) This agrees with the result obtained by Professor Adams .
+S 12 .
+Before leaving this case we may remark that , so far as the foregoing proof is concerned , the poles of all the three harmonics are not necessarily coincident .
+The proof will hold when two are coincident and the third is at an angular distance , say a , from them .
+In those circumstances the value of JJP^P^Q^S will be the result found above multiplied by Pr(cos a ) .
+The same is , of course , true of the integral JJQpQ*Prc ?
+S , provided the two Q 's have the same poles .
+Now let Q , , Q ?
+be each expanded according to Laplace 's Formula .
+Then we will have the curious result that any zonal harmonic of degree r can be expanded in products of harmonics , zonal and tesseral , of degrees p and q , the quantities p , q , r being , of course , subject to the foregoing restrictions .
+If q is less thany\gt ; the number of terms in such expansion will be 2q+l jj-te a)fe S 13 .
+Be verting to the general expression for the operator ( l , m , n ) given in S 8 , let us leave out for an instant the numerical multipliers and the operators with regard to the z 's and let us multiply out those with regard to $ and rj .
+Let us suppose , m , n in descending order of magnitude , and for the sake of brevity , instead of writing the differential operators , let us write only the characteristic letter , e.o. , instead of \#151 ; \#151 ; write We find + \amp ; Vz"(\#163 ; i'+%'-"Vs+m+V M + tl ^ l+m\ % ?
+3 ) + ( zMV"((-r+"Vz*"\#163 ; a~m +V m+n\#163 ; l+n d d , ill 1 \#151 ; ~r~ can be replaced by \#151 ; - \#151 ; d^x di7j r .
+' 4 the lines just written corresponds to the sum of tesseral harmonics , in such manner Now since any product such as ^ can be replaced by we see that each of OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+that if we suppose the differentiations performed by the whole of the operator , and if one of the resulting terms is ( i\gt ; \gt ; \#163 ; )\#171 ; ( \#187 ; .\#187 ; y)\#187 ; where the suffixes indicate that the angular coordinates of A , B , C are substituted in the harmonics to which they are respectively attached , then we have in all cases one of the quantities a , / 3 , y equal to the sum of the other two .
+This we see from the expanded form of the operator just given , and it is a result which was to be expected , for supposing Q^ , Qq , Q , r severally expanded according to Laplace 's Formula we should have in the surface integral a series of terms of which the type involves the integral r2n cos a \lt ; f\gt ; cos cos y(f\gt ; d(f ) J 0 and this integral vanishes unless the above conditions be complied with , the case where a+y8+y=0 being of course out of the reckoning .
+In accordance with the explanation just given we may now put m\#151 ; n=a m-\-n=cc ~| l+n=/ 3 'r l and .* .
+J ( 27 ) If then we substitute in tt ( l , m , n ) for l and m the values and a\#151 ; n , we see that n may range in numerical value between 0 and the least of the integers X\#151 ; j3 , a , and may be positive or negative .
+The operator 7r , in fact , becomes ( _ 1 \\#187 ; o2(\#171 ; +6)\#151 ; j ________ 2A !
+2ft\ 2v\___________________ ^ ' A + y8 + % !
+A\#151 ; ft\#151 ; n\ fji + a.\#151 ; n\ jj , \#151 ; v + n\ \#151 ; n\ / da \d ?
+i ^\#163 ; 2 da+f* drja da dP da+\amp ; drji drj2 2 X dzx dzo dzs We have therefore now to consider a series in which any term is the product of ( 1 ) an invariable power of 2 , ( 2 ) an invariable operator , ( 3 ) a variable coefficient whose parameter is n. If we denote the first two of these factors by the symbol nr , then the sum of all such terms is ct-K , where \#163 ; _________ 2\ !
+2/ 4 !
+2 -yy fx-\-v\#151 ; \#171 ; !
+v + \\#151 ; and W is the coefficient of in that is , in ( \#151 ; iy(y \#151 ; z)lx+v~a(z\#151 ; - yy+*+*+6 ( \#151 ; l)i(y\#151 ; zy-a(z\#151 ; xy-fi{x\#151 ; y)r+a+li ( 28 ) The expression upon which the operator rnr has to operate may be found by expressing Op , \amp ; c.j by Laplace 's Formula , and using the series D : it is as follows :\#151 ; * O--Iai f \gt ; ?3"+s)[n " +y8J}%'-""s If we omit irrelevant terms this becomes .
+.\gt ; \#171 ; \amp ; a+\#163 ; ) ' \#151 ; ( p , \#171 ; )[ ?
+, / 3][r , a+/ 3]"\#151 ; [ p , \#171 ; ] , ,(\lt ; / , f})t [ r , \lt ; *+\#163 ; } , \#151 ; [ p , a]\#187 ; [ j , / 3]j(r , a+/ 3)"j The result of the operation is accordingly 22(a+p)~i~2pl ql r \ K{(p , / 3)b(r , a+fi)c\#151 ; \amp ; c. . . .
+} Turning now to the integral |J Q^Q^Q^S , let us expand each of the Q 's according to Laplace 's Formula .
+We thus find for the general term 24(a+p)-3 p ; p\ g\ r\ r\ p + u\ p\#151 ; cal q + / 3l q\#151 ; yd !
+r + a + yd !
+r\#151 ; a\#151 ; yd !
+xjj{(p\gt ; a)\#171 ; ( p\gt ; a)4-[\gt ; , *]}{{q , 0)t(q , fi)+q , / 3J a+/ 3 ) , ( ^ \lt ; *+\#163 ; ) +[r , a+^J}c ?
+S Now , by the formula of S 10 , when we come to equate the two results just found , we shall get 2'2(*+p)-ipj p + a.\ q-\-yd !
+r\#151 ; a\#151 ; yd !
+[ |(p , *)(q , fi)(r , a+/ 3)dS 4ttE2 i\ 2\ !
+2/ x !
+2vL .
+T 2t + I !
+A !
+/* !
+* !
+or finally a)(\amp ; \#163 ; )(**\gt ; \#171 ; +\#163 ; )dS= 4ttI13 t !
+2\ !
+2fil 2i+l !
+XI / t !
+\#187 ; !jp !
+r\#151 ; \#171 ; \#151 ; yd !
+w. ( 29 ) where W is defined above ( 28 ) as the coefficient of a term in a certain product , or as a series whose terms depend upon a single parameter .
+OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+If we denote by U the value of the expression on the right hand of the equation just found , we have further \#171 ; ){q , ftfir , a+\#163 ; ]dS=0 a)fo \#163 ; ][r\gt ; a+\#163 ; ]dS=\#151 ; U \amp ; c. j]p , p , prp.ds S 14 .
+We may remark in regard to the case which we have now to examine , that since PrP# may by the foregoing results be expanded in a series of the form A.qPr\#151 ; \#166 ; \gt ; I -^"lPr\#151 ; ^+2 I . . .
+i A I . . .
+i A^P r+s where the value of Am determined by ( 26 ) is 2r\#151 ; 2s + 4m+l r-\-m\r + m\2m !
+2r \#151 ; 2g + 2m !
+^ 2 \#151 ; 2 2r + 2m+l 2r + 2m !
+m !
+m !
+r\#151 ; s + m\ r\#151 ; s + m\ s\#151 ; m !
+s\#151 ; m !
+the above integral is reducible to the computation of a series of s terms of the form A f fp P P I I a*- r .s+%ni dS The last integral is to be found by writing in ( 26 ) 2\= \#151 ; p-\-q-\~r\#151 ; \lt ; 5 +2m 2fx=p\#151 ; q-\-r\#151 ; 5+2m 2 p=p-\-q\#151 ; r+s\#151 ; 2m We are thus led to a complete though practically laborious evaluation of JJPpP^PrP/ ^S .
+It will be observed that the result is zero unless be an even number .
+With the view of finding out how far the method of this paper is applicable in this case , and what difficulties stand in the way of its general application , we will now briefly apply it .
+It will be convenient to expand the operator in a somewhat different manner to that pursued in the case of the product of three harmonics .
+The operator was then expanded in a form which would render it useful for application in the case of the tesseral and sectorial system .
+If , however , the poles of the harmonic are all in the axis of zt a much simpler mode of expansion may be adopted .
+When the product of four harmonics is under consideration we have to discuss an operator of the form MDCCCliXXlX .
+\dx-^~dx^dx^dxj^\dyxA die % 1 efo/ 3 1 ^4/ / 1 J or , what is the same thing , { ( \amp ; .
+c ?
+, d d , d\ % ( dd d d d .
+d \"| * +3T+xr+^r +4bit+jt+tt+jj ; H\#151 ; ' dzn 1 dz % dzs 4 , \lt ; \#163 ; fi ^\#163 ; 2 ^\#163 ; 3 d%J\dr ) 1 dr)2 drjz If this operate upon the reciprocal of P1P2where these distances are measured from four points A , B , C , D on the axis of z , we have four relations of the form 7 " l-^ 707 \#151 ; 0 dz d^dr Further , on picking out the general term , we observe that , to be effectually operative , it must consist of products of the form d !
+dm dm dz dg dr } and this form of operator may , by the foregoing relation , be expressed in terms of d , \amp ; only- It is obvious , however , that the sum of the terms so modified can be found directly from the part of the expansion not containing k 's of " d^ 1 # t 1 \dz^ dz^~ dzz dzj dz^~ \ dz^~ \ dzjj or , what is the same thing , from the part of the expansion not containing Fs of d , d .
+d d d\fl d_ 1 d__ 1 d_ 1 dz^dz\lt ; ^~dz^~~dzj\ld%i^^dzs^^dzs~^~^4ldisi dz^~ dz4 that is , of rf'\#151 ; lvJY a / ^l_ a / \#166 ; kj dz1 dz % If we expand this the general term will be t !
+( \#151 ; !)'{( Vi- V^- ^ + 5 similar terms ( -1 ) X !
+fju\ v\ ll n\ x'T\#163 ; W\#163 ; f(h !
+s ; )'(bZ dz1j \JCq ( X/ ZqJ ^A/ g CLZqJ where p-\-v -\-l \#151 ; p v +X 4 -m\#151 ; I X+p .
+-\-n =r j l -\-m-\-n =s J .
+( 30 ) OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+The quantities X , / x , v , l , m , n are therefore indeterminate , and there will be a series of terms having the required indices .
+The coefficient of the operator given above may be put into another form .
+Let us consider the expansion of { a ( k2\#151 ; k3 ) + b ( k3 \#151 ; k^ ) + c ( k1\#151 ; \amp ; 3 ) -j- d ( \amp ; 4 \#151 ; + ( \amp ; 4 k % ) -\-f ( \amp ; 4 k3 ) } a* first in powers of a , b , c , . . .
+and then in powers of klt k2 , . .
+.We then see that the coefficient of kfk\#163 ; k3r k\#163 ; in ( h~k3)^ . . .
+( \amp ; 4\#151 ; \amp ; 3)2* is equal to 2\ !
+2 fjA2 v\211 22n ' jp\ q\ rl s !
+where W is the coefficient of a2x b^ c2v d21 e2m f2 " in ( _\amp ; +c\#151 ; \lt ; ^(_c+a-e)*(-a+\amp ; \#151 ; /)'(d+e+/ ) ' We have , finally , ffp^WS=(-i)i|^| 2X , !
+2/ a !
+2i\gt ; !
+2m !
+2 % !
+\#153 ; .
+XI fjb\ v\ l\ m\ where t denotes the sum of all such values of W multiplied by their respective coefficients corresponding to values of X , / x , v , , m , determined by equations ( 30 ) .
+This investigation serves to exhibit the peculiar practical difficulties which beset the problem of integrating products of harmonics over the sphere of reference , if more than three harmonics be considered .
+POTENTIALS OF ELLIPSOIDS .
+S 15 .
+Let p be the perpendicular upon the tangent plane at any point of an ellipsoid , and let us consider the integral \[er:+fSy+ygpdS taken over the surface .
+By the theory of corresponding points this integral may clearly be thrown into the form of an integral taken over the surface of a sphere of radius B , viz. .
+it is cibc f f omx !
++ b/ 3y + cyz , B dS ' the value of which , by what we have already shown in ( 3 ) is ev_e-v Zncibc\#151 ; \#151 ; \#151 ; where v*=a2\lt ; x2+b2/ 32+c2y2 .
+Now let V be any function of x , y , z , which can be expanded by Taylor 's Theorem ; then taken over the surface of the ellipsoid is \#151 ; e-v 2nabcY or , in series , / V7 2 TT 2i \ 4vabc(l+j-t + ... +^]+ . . .
+JV where O i 7 0 ^ a V="^+5 and after the differentiations are performed , x , y , z are to be put equal to zero .
+S 16 .
+If Y satisfies Laplace 's equation , then the .
+operator v2 will remain unaltered if for a3 , 63 , c3 we substitute a3+e , 63+e , c3+e .
+It follows , therefore , that the average value of V over any ellipsoid as measured by rjy^s volume of ellipsoid ( 31 ) is the same for that ellipsoid as for any ellipsoid confocal with it .
+This theorem , * which may be regarded as the anologue for ellipsoids of the corresponding theorem given by Gauss for spheres , is due to Professor Charles Niven , who also showed that , if y be due to attracting matter E inside the surface of the ellipsoid , then the expression ( 31 ) becomes Ef5 dyjr 2Jo\/ ( ^2 + ''P ' ) ( \amp ; 2 + ( c2 + yjr ) S 17 .
+As a particular case , let y=-^- where Q is any point outside of the ellipsoid .
+Then Q is the potential at Q due to matter of density p coated over the ellipsoid .
+The quantity of matter is 47t abcand the potential due to it at Q , according to a well known result is or 2 , * C\#151 ; ... ... ... ^-----------* Je \/ ( a2 + y]r)(b2 + \jrj{c2 + ty ) 2 TrabccL where a is the ellipsoidal coordinate of Q. * Mathematical Tripos Solutions for 1878 .
+OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+If P ' be any point inside the ellipsoid we then have ultimately when P ' .
+coincides with the origin \#151 ; e-v 1 a= v QP But , if / 9\gt ; hbe the coordinates of Q , qp '\#187 ; =\#166 ; ( / -*)\#187 ; + ( h-z)2 Hence d 1 1 dx QP = QF d ?
+_1__d ?
+1 dx QP'\#151 ; d/ QP ' \amp ; c. We may therefore take V 3 to stand for a3\#151 ; 4- 63\#151 ; 4- c3\#151 ; df dg dh and in that case we may put x , y , z zero before differentiating , denoted by r ; we have \#151 ; e~^ 1 or , m series , 2(i4-3]V3+ V T ^2i+l !
+V3*+ . .
+If then OQ be . . . .
+( 32 ) . . . .
+( 33 ) If we multiply a by 27 TpabcSOwe have the potential of an infinitely thin shell bounded by two similar and similarly situated ellipsoids .
+When a shell is hereafter referred to , this kind of shell will be meant , unless otherwise specified .
+S 18 .
+Since the whole ellipsoid may be divided up into shells , the potential of the ellipsoid at Q is J1R-w .
+... ... ... ... ... ... ... ... ... ... ( 34 ) where p is the density at any point in the shell whose semi-axes are ad , bO , c6 .
+It will be observed that , since pS0=0Bjp , .g an eiemen-fc 0f volume , so that ( 34 ) may be written f f f pdxdydz J J J QP If we take the series ( 33 ) we find for the potential of the ellipsoid at Q the series fapabc^l +\#163 ; v=+ . . .
+v*+\amp ; c ... .
+( 35 ) This can be integrated if pbe a function of 6 .
+In the particular case where p is constant and the mass is denoted by M , we find / O 1 Q \1 ^V + I ' 37 v3+ .
+* . . .
++21+3 2^ + 1 !
++ * ' *)r * * ' ' * ( 36 ) S 19 .
+The result just formed exhibits in a very simple manner Maclaurin 's Theorem , that the attractions of confocal ellipsoids at external points are proportional to their masses .
+For , as has been already pointed out , the operator Vs is unaltered df dg dh The series ( 35 ) also shows in what direction Maclaurin 's Theorem may be generalised .
+( i. ) Let p=f{6 ) .
+We then see that if there be two ellipsoids which would be confocal if they were coaxal , and if the matter in them were arranged in layers similar to their bounding surfaces according to any specified law depending on the parameter of the layer , then the attraction of such ellipsoids at external points whose coordinates referred to the axes of the ellipsoids are equal , are proportional to the masses of the ellipsoids .
+( ii .
+) If we multiply the value of a given in ( 33 ) by by the addition of Jc 2iTy/ ( a2 \#151 ; ( f\gt ; )(62\#151 ; ( ) ( c2 \#151 ; F ( ) d\lt ; f\gt ; and integrate between the values \lt ; f)l and \lt ; f\gt ; 2 , we find on the right hand side 47rI\lt ; , v/ ( ^-^)(^-\lt ; /\gt ; )(o2-^)F(^)#x(l+|r+ . . .
++ 2i+1 !
++ ' * )r * in which the operator is independent of \lt ; f\gt ; .
+On the left hand side we have 273.* , / ( a2\#151 ; ( f\gt ; ) ( 62\#151 ; \lt ; f\gt ; ) ( c2\#151 ; \lt ; f ) aF ( ( f ) ) d\lt ; f\gt ; 0 a where p is the perpendicular from the centre on the tangent plane at the point x , y , z to the confocal , passing through the point of parameter \lt ; /\gt ; .
+Hence , if the matter between two confocal ellipsoids be affected with a density varying as F ( \lt ; f\gt ; )p2 , ) the equipotential surfaces will be confocal ellipsoids , as may be seen from the expression ( 37 ) , which also gives the ratios of the attractions due to different shells .
+( iii .
+) The theorem is true for any value of V satisfying Laplace 's equation .
+OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+a S 20 .
+If we put a=b then V2 becomes \#151 ; ( a2\#151 ; c2)\#151 ; , and the potential of a solid ellipsoid of revolution of uniform density becomes M/ 3P2 a2-c2 3P 3P6/ a2-c2\3 r\ 3-5 r2 + 57\ r2 / 7'9\ r2 / .
+' / , . .
+( 38 ) S 21 .
+The expansion involving surface spherical harmonics of the potential of a solid ellipsoid of uniform density is easily derived from ( 36 ) .
+In virtue of Laplace 's equation , the operator v 2 becomes which we will abbreviate to Now by Theorem i. f2^___ 9 dx dz ' ( V-_/ *2\#151 ; Vr2*Oof dx 9 dz)r~~ ' ^ r2i+1\^ dz ^2* Since there is here no operator in regard to we may put 0 in the expression for QgjT\#174 ; * before differentiating .
+In that case \#163 ; =r)=x , and the expansion will take a comparatively simple form .
+Wb take , according to custom , the axis of z for the axes of the zonal and tesseral-sectorial system .
+The expansion of Q^r2* then becomes , by Laplace 's Formula 2'-)+ ' .
+' =FAa- .
+2 i\ 2a 12i\#151 ; 2a\ ( 2i , 2a-y(z2i-2\lt ; rx^ ( 2i\#151 ; 2\lt ; r)(2i\#151 ; 2\lt ; r \#151 ; 1 ) 4(2o- +1 ) r 2i-2cr"-m2\#153 ; 2\lt ; r+2 !
+\#163 ; C2\lt ; r+2_|_ .
+, .
+) + \amp ; C. The general term of the expansion of the potential of an ellipsoid may therefore be expressed thus :\#151 ; ( 2i+3)(2i+l ) -J\#151 ; ( Al\gt ; /ai+ . . .
+-j-B2\lt ; r(2i , 2 cr)'+ . . .
+) where A=sa-Js^-y\#187 ; +^=S4^4*'"y'*- *\#171 ; .
+Bto.=(\#151 ; 1 ) i\ 2 2s !
+2i\#151 ; 2\lt ; Tj ' 2 O ' izi\#163 ; " ^2*\#151 ; 2\lt ; r\#151 ; 2^2\lt ; r+2 cl i\#151 ; \lt ; r !
+V^ J 2 ( i \#151 ; cr ) ( i\#151 ; cr \#151 ; 1 ) 2\lt ; r + 3 1 ot-_2\lt ; r_ *o .
+) ( 39 ) 1.2 S 22 .
+It may be observed that the symbolical form of the operator in the case of the potential of a shell leads to a symbolical form for the potential of the ellipsoid , viz. :_ 3M v(ev + e-v)\#151 ; ev + e-v 1 2 V3 r Now let there be a second solid ellipsoid of mass M ' and of semi-axes a ' , b ' , c , and let it be placed in a position where the coordinates of its centre referred to the axes of the first ellipsoid are f\gt ; g , h , and its axes are inclined at direction cosines ( Zj m1 ( l2 ra2 n2 ) , ( l3 m3 n3 ) .
+Then if we put fn / 72 rjZ rv 2_r/ 2_ I Z/ 2__Lr'2_ Vl~a dx+ ' dy^ ' dz where d -.d d d dx-l'df+m'd^+ , hdh d 7 dd d 7~ s== 77 die .
+zdf zdg zdh dnd d d dz=Hf+m^+1hdh .
+a double application of the reasoning of SS 16\#151 ; 18 leads us to the conclusion that the exhaustion of the potential energy of the two ellipsoids due to mutual action is 9MM/ V ( eV+e~V ) ~gV + g~v ViQVl + e-vQ\#151 ; + 1 ( 40 ) 4 V3 Vi3 t where r is the distance between their centres .
+If we turn the second ellipsoid through an angle SO about the line ( X , / u , v ) passing through its centre , we have Sli = { ywi^\#151 ; fxn^SO^ .
+Sm1=(Xw1\#151 ; vl1)S0 i ... ... ... ... ... ... ... ( 41 ) =(p , ?
+1 \#151 ; Xm^SO j with similar increments for the other direction cosines .
+Hence the expansion of ( 40 ) in harmonics leads to an approximate determination of the forces and couples representing the mutual action between the two ellipsoids .
+It is obvious that a similar investigation will apply to the determination of the forces and couples between two magnets in the form of ellipsoids uniformly magnetised .
+It may be interesting to notice that the foregoing method of expansion ( 36 ) shows that for points at a considerable distance the potential due to a solid ellipsoid is the same as if its mass were distributed as follows :\#151 ; Two-fifths at the centre and one-tenth at the extremities of each of the axes .
+OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+General Remarks on Ellipsoidal Surface and Volume Integrals .
+S 23 .
+We have found for the ellipsoid that ffv^S=4ira\amp ; ( / l+ff+ . . .
+)v ff(Vdxdydz= 47ra\amp ; c^ + g + \3 Y where Y is any function of x , y , z whose differential coefficients are finite at the origin .
+It is obvious , therefore , that these two results lead to an infinite variety of definite integrals .
+For example , let us use the second result in finding the value of \\\xay2mz !
+/ndxdydzJ which is an integral evaluated by Lagrange in determining the potential due to an ellipsoid ( Todhtjnter 's ' History of the Theory of Attractions , vol. ii , p. 158 ) .
+Putting i=l-\~m-{-n ) we find at once Azirabc i\ allb^mdn dln jjjxV^%^=(2i + 3)(2i + 1)U !
+OT , -----\#151 ; ddlylmz ?
+, n = 47r\lt ; x2^+1\amp ; 2w+1c3w+1 1.3.5 . . .
+( 21 \#151 ; 1)1.3.5 . . .
+( 2m \#151 ; 1)1.3.5 . . .
+( 2^-1 ) 1.3.5 ... ( 2\#163 ; + 2m + + 3 ) If we suppose the function Y such that it satisfies the equation doc2 A* Y +\amp ; 4\#177 ; 3+\lt ; ^=\lt ; \gt ; die ( 42 ) then the surface volume integrals are the simplest possible in regard to results , but it will depend upon some other condition attached to Y what class of function we shall have succeeded in integrating .
+For example , if Y also satisfies the condition dV , dV .
+die xY+y^ , +zdz=nV dx die we should be led to a class of results similar to those obtained in the case of spherical harmonics for the sphere , and , in fact , derivable from these by the theory of corresponding points .
+As another example , let us suppose that Y , besides satisfying equation ( 42 ) , also satisfies Laplace 's equation ; then one solution for \ will be of the form We thus get F(v/ 52\#151 ; c3\#163 ; c+ \fc2\#151 ; a2y-\- V^2 [ jFpdS = 47ra\amp ; cF ( 0 ) jjjtfcdxdydz= F(0 ) ( 43 ) As a limiting case , let the ellipsoid wear down to the focal ellipse , and for the sake of brevity let the semi-axes of that ellipse be denoted by f and We find ff F(\lt ; 5 )W\gt ; P 2 ff a / 1 \#151 ; ~^ . .
+( 44 ) These results may be further simplified if the ellipse becomes a circle .
+The Potential due to an Ellipse of uniform density .
+S 24 .
+The integral je^+fypds taken round the perimeter of an ellipse of semi-axes a , h , is derivable from the corresponding case of the circle of radius It by the theory of corresponding points , and the result is ( awe ... ... ... ... ... ... ... . .
+( 45 ) If we write herein ad , bd , and recollect that p8d=dSp , then taken over the area of the ellipse is equal to [ je^+Py-jdsdd the limits of d being from 0 to 1 .
+The result of integrating this is 0 iZ( awe + b2/ 3*Y 2lra6 ?
+2*\#166 ; \#171 ; '\#187 ; !
+i+1 ! . .
+( \#171 ; ) Similar reasoning would give us \\f^+ii)er**'dxdy Confining our attention , however , to the result just found ( 46 ) , we see that the integration over the area of the ellipse of any function V of , y , having finite differential coefficients at the origin , leads to OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+Ydxdy=2'rrab % + b2 d2y ( 47 ) where , after the differentiations are performed , x , y , are to be put equal to zero .
+If we suppose the ellipse coated with matter of unit density we thus get for the potential at any outside point ( f , g , h ) , sufficiently distant , fi dxdy \gt ; /(/ \#151 ; \#166 ; W+is\#151 ; if +h* = ZTrabt(a ?
+f+62 \ ax i \lt ; p_v die ) 22i+1 i\i 1 !
+r = 27T(jib % 0 ( \#151 ; l)*2i !
+22i+1 i\i 1 !
+_ mao* 22i+1 ^ N + x I ^AP'2\#187 ; + . . .
+d"\#174 ; 2 \lt ; r(2h2cr)+ . . .
+) ( 48 ) Where A , . . .
+B2\lt ; r . . .
+are the same as in S 21 , provided we write f2=a2 \#151 ; b2 and 2 in the expansion of that article .
+We must have r\gt ; b and \gt ; */ a2\#151 ; 62 , if the above expansion is convergent .
+If a\#151 ; b or/ =0 the expansion just found reduces to the well known expansion for a circular plate of uniform thickness , given in Thomson and Tait , p. 406 .
+( Added September 23 , 1879 .
+) S 25 .
+The series given above for the potential of an ellipse may be thrown into the form of an integral .
+Writing the result for the elliptic ring in the form 2'2iil t !
+we see that this series is the part of the expansion not involving powers of h or its reciprocal of MuL+c\#177 ; \ 2vabe*'dh df e2* ' dh df ~ where c2=a2\#151 ; 52 .
+That is , the series is equal to Hence writing herein ad , b6 , multiplying by \#151 ; and integrating , we find for the potential at ( f g , h ) the expression / %2ir / %\ ab\ 1 eO6cos *dh~esin . .
+... . .
+( a ) Jo Jo The expansion of the exponential leads of course to the series ( 48 ) given above , and it is easy to find thereby the expressions for the action of an elliptic current on a magnet placed at any distance from a coil outside a certain boundary .
+In like manner , subject to a similar restriction , we might find , as in the case of two ellipsoids , the action of one elliptic current on another .
+Within the boundary referred to , the expressions we have .e obtained are no longer convergent , and in the case of the elliptic current the potential in the neighbourhood of the centre of the circuit must be found by an independent process .
+The case of the circle , however , admits of a simple and complete determination .
+Potential of Electric Currents in Circular Circuits .
+S 26 .
+Reverting to the integral ( a ) let us put c=0 ; then the potential at ( f g , h ) due to a circle of unit density is given by s%1 = " J J To integrate this in regard to 0 we observe first that Jq U Uz U* Let us next consider the integral r2w r27r pk cos \f/ ' ek cos * , or cos \ls-------Jo Jo cos T V : \amp ; a0cos +\#163 ; ^0d0d\lt Integrating by parts we find e* 003 * tan xjj " +f Jo J i 2ir rZirfc gjn2 yU -------r~\lt ; COS yr Jc cos *dxp\#151 ; f J ( 2 , rsin2 yfr COS2 yfr e*cos The first term becomes infinite when i/ /=^ and when \jj=-^- ; we may replace it by A A r2rr sec1 xfjdxfj .
+We thus find J n OCCURRING- IN SPHERICAL HARMONIC ANALYSIS .
+2ir / pk cos r glc cos yft k cos yjr A ; 2 cos2 k ?
+cos2 yfr W=|| cos 'A6*COS | sin3 xpdcos *dxf/ Combining these results , we find for the potential at ( jf , cj , K ) due to a circular plate of unit density the expression 2 [ sin3 xpeja cos ^3*- dxfj Jo \#166 ; ( b ) If we move the origin to a point at distance v on the negative side of the axis of we find 2a2 eos *+v)E-dxI/ Jo in which form the expansion of \#151 ; \#151 ; readily gives Clerk Maxwell 's expansion for the potential of unit current in the circle ( 'Electricity and Magnetism , ' vol. ii .
+, p. 301 w The result expressed by ( b ) may be written , T - f2 , r sin2 ^_________7 l _ aJ o \ZP +P + + cos i|r)2 Hence the potential due to unit current in the circle is r2ir ( % , 1l j -"1sin " sr+t+\lt ; /\gt ; +\lt ; *\#171 ; \#187 ; =^Josin +3+ 7FWW f2"- %cos \#177 ; rfil .
+J 0 \/ p +/ + ( * + aj cos yjry r\#187 ; cos \#177 ; =d j o-s/ /2+0* + O + \#171 ; / cos ^ This result shows that the potential of a circular current is the same as that of an imaginary bar in the axis of z joining the points whose distances from the origin are aj and \#151 ; aj , the density at a point xJj being \#151 ; 2 cot Now the integral ( c ) is true at all points whose distances from the origin are greater than ct .
+We can , however , determine the corresponding result for points within the radius ct by the ordinary theory of inversion .
+M^e have seen that for points outside the radius ct the potential is the same as that of a bar joining two imaginary points .
+If z be the distance of any point of this bar from the origin and z ' the corresponding inverted distance , we have \#151 ; = \#151 ; aj sec xJj \#151 ; aj sec xp tan xpdxfj and the corresponding density is \#151 ; 2 cot xb\#151 ; -----7 \#166 ; c 0 J cos yjr Hence the potential at all points inside the radius a is Cn a sec2 yjr , \#166 ; Jq \/ f2+g2 + ( h\#151 ; aj sec tie )2^ . .
+( d ) This result may also be proved from the consideration that the expression for the magnetic force is continuous as we pass from one form of potential to the other .
+S 27 .
+The results ( c ) and ( d ) give the mutual potential energy between two circular currents placed in any positions whatever , in which the smaller circle is either wholly outside or wholly inside the radius of the other .
+For the sake of simplicity we shall suppose that the axes of the two currents intersect .
+Let the radius of the larger be A and of the smaller a , and let u , v be the distances of their centres from the point of intersection , the axes being inclined at an angle cos-1 / a. Then , if unit current circulates in each , and if the smaller circle lies wholly inside the sphere of radius A containing the larger , the mutual potential energy is given by :=4aAfT JoJ 0 j cos \lt ; /\gt ; sec 2yjr \Z(u + Aj sec xjr ) + ( v + aj cos \lt ; pf\#151 ; 2 + Aj sec yjr ) ( y 4- aj cos d\lt ; f\gt ; dxjj If this series be expanded in harmonics BoPo+Bi-PiH- . . .
+we have B , =4\#171 ; A f ' p 008 f J0J0 ( u + Ajsec^)"+1 r r The series in the form of zonal harmonics is given by Clerk Maxwell ( ' Electricity and Magnetism/ vol. ii .
+, p. 303 ) .
+On comparison with his series , since .V Tf ( IP J cos 4\gt ; ( p+jv cos \lt ; f\gt ; )nd\lt ; f\gt ; = \#151 ; when we take account of the above value of Bw we deduce 'n sec2 jrdxjr________7r o(ji + vj sec tie )n+l n dfi true for integral values of , from 1 upwards .
+OCCURRING IN SPHERICAL HARMONIC ANALYSIS .
+If the smaller circle is wholly outside the sphere of radius A , the value of M given above is inapplicable , and we ought to take a double application of the formula ( c ) .
+S 28 .
+In the important case of two coaxal circular currents , if b be the distance between them , the mutual potential energy is given by :=4ctAfJ j cos sec2 yfr QJ 0 b +/ ( .A sec yfr\#151 ; a cos \lt ; f\gt ; ) d\lt ; f\gt ; dxfj ( e ) provided the sphere of radius A encloses the smaller circle .
+Performing the integration in regard to \p we find M=47TU r- Jo cos \lt ; \#163 ; ( \#171 ; \#166 ; cos \lt ; J\gt ; + .y/ A2 \#151 ; ( \#171 ; \#166 ; cos \lt ; /\gt ; + )2 ^ With the view of simplifying this let us put a cos ( f\gt ; -\-bj = A. cos so that a cos ( f\gt ; =A cos x cos yj and \#151 ; bj=A .
+sin x sin yj .
+Thus x and y are not independent , and by the substitution proposed it can readily be shown that M takes the form " ..f cos2 xsin , J y/ A2 cos4 x \#151 ; ( a2 + A3 + b % ) cos2 + a2 the limits of integration being determined as follows : When \lt ; f\gt ; =7r , x\#151 ; '- , and when \lt ; f\gt ; = 0 , A2 cos4 a ; \#151 ; ( \lt ; x2+A2+62 ) cos2 a:+a2=0 .
+The roots of the last equation are " 3_ DOSz a _A\#187 ; +a\gt ; + t\gt ; + V/ ( A\#187 ; + a^ + y)\#187 ; -4.W P \#151 ; cos ui\#151 ; 2A2 c0_2 p _k*+a*+v-^wW\#177 ; FEE^M q \#151 ; cos C72-- .
+2^2 Since p is greater than unity we must take as the value of cos 6 when \lt ; f\gt ; = 0 .
+Hence the value of M is / %7T .
+L 2 cos3 x sin x 7 8ttA\ - ; , = =\#151 ; dx \ \/ ( P2 " cos2 x)(q2\#151 ; cos2 x ) COS ^ =v/ yT^tos^ ede = 8-MI'\#174 ; -E( !
+) } ... ... ... ... ... ... .(f ) where F and E are complete elliptic integrals whose modulus is If b be small and if A \#151 ; a=c be also small , then approximately ii / \amp ; 2 + d , _ + c3 p\#151 ; l+ V and 1\#151 ; / \f and M becomes ' This result is given by Clerk Maxwell .
+S 29 .
+If the circle of radius a be outside the sphere of radius A passing through the larger circuit , the value of M is 4aA COS \lt ; f ) COS yfr Joiob +j(A cos + cos yjr ) d(f\gt ; dxjj .
+( g ) The forms ( e ) and ( g ) obtained for M are interesting from their simplicity , and would seem to be useful in calculations connected with induction coils .
+

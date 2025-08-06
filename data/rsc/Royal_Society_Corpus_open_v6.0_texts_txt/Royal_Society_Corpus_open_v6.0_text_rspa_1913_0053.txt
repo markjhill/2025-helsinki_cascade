@@ -1,0 +1,107 @@
+]\gt ; On Fourier Series Functions of Bounded Variation .
+By Prof. W. H. YouNG .
+Sc. D. , F.B.S. ( Received April 10 , \mdash ; Read June 19 , 1913 .
+) S1 .
+In a previous communication to the Society I have pointed out that the succession of constants obtained by multiplying together two suocessions of Fourier constants in the manner which naturally gests itself is a succession of Fourier constants , and I have discussed the summability of the function with which the new constants are associated .
+We may express the matter in another way by saying that I have shown that the use of the Fourier constants of an even function as convergence factors in the Fourier series of a function changes the latter series into a series which is still a Fourier series , while the summability of the function which is associated with the new series is increased .
+The use of the Fourier constants of an odd function as convergence factors , on the other hand , has the effect of changing the allied series of the Fourier series of into a Fourier series , even when the allisd series is not itself a Fourier series .
+It at once suggests itself that the former of the two statements in this form of the result is not the most that can be said .
+Indeed , the series , whose general term is , and whose coefficients are accordingly unity , may clearly take the place of the Fourier series of , although it is not a Fourier series .
+the other hand , it is the derived of the Fourier series of a function of bounded variation , which is , moreover , odd .
+We are thus led to ask ourselves whether this is not the trivial case of a general theorem .
+In the communication I propose to show , among other things , that the answer to this question is in the affirmative .
+The theorems are , in fact , true : If the coefficients of the derived series of a Fourier series of odd function of bounded variation be used as convergence factors , the Fourier series of a general summable function will remain the Fourier series of a summable function , while the degree of summability of the function will in general be unaltered .
+On the other hand , if the function of bounded variation used be even , the corresponding convergence factors obtained by its Fourier series will have the effect of ming the allied series of a Fourier series into the Fourier series of a fmlction having the same of summability as the function corresponding to the original Fourier ssries .
+These results appear to me to possess of themselves sufficient interest to justify my communicating them to the Society .
+Apart , however , from their Prof. W. H. Young .
+On Fourier [ Apr. 10 , intrinsic interest , the method by which I have been led to obtain them is , I think , at once suggestive and instructive .
+In germ this method has already been employed by Stieltjes .
+Properly handled and suitably developed , it constitutes a very effective tool in dealing with some of the finer } ctions in the Theory of Functions of a Real Variable .
+For this .
+purpose , however , we require to introduce the notion of the summability of a function with respect to a function of bounded variation , and not merely , as Stieitjes does , to employ an analytical expression , which may be interpreted as the Riemann integral of a continuous function taken with respect to a monotone function .
+Moreover , we require to have a theory of integration with respect to a function of bounded variation which shall correspond to that of integration with respect to the independent variable , such as I have exposed in a recent communication to the Society .
+* When this has been done we may integrate sequences and successions with respect to any assigned function of bounded variation , whether continuous or not , under conditions which are analogous to those in the known theory .
+particular , we have a theory of the integration of Fourier series term by term with respect to a function of bounded variation of the most general type .
+We are thus led to a variety of results of interest , and , among others , to those I have stated above .
+I have not attempted to give a complete account of the theory , but I have thought it well to take the opportunity to enunciate and give indications of proof of some of the connected results so obtained .
+Among these may be mentioned the one which states that if a series has the property that its integrated series converges everywhere boundedly , then term-by-term integration of the trigonometrical series is allowable after it has been multiplied by any function of bounded variation whatever , the sum of the latter integrated series being expressible in terms of the integral of the function of bounded variation with respect to Added June , 1913.\mdash ; In the order of ideas there indicated various slightly fferent but equivalent modes of treatment are possible .
+If we start with simple and functions and define , as we evidently may content ourselves with doing , their integraIs with respect to a monotone increasing function , special attention must be paid to the discontinuities of , unless we hypothecate that the simple functions are so chosen that none of their disco.ntinuities coincide with those of .
+We may also , if we please , start with the integral of a continuous function , using for this purpose the formula of Stieltjes ; this corresponds to the treatment suggested in my paper , ' On a New Method in the Theory of Integration cited below .
+I am , by request , writing out a systematic account of these matters , and propose to present the paper containing it to the London Mathematical Society .
+All turns on the use of monotone sequences .
+Another , but far less intuitive form of treatment , has been briefly indicated by Lebesgue .
+He employs , but evidently with great reluctance , the process of change of the independent variable .
+See H. Lebesgue , ' Comptes Rendus , ' 1909 .
+1913 .
+] Series and Functions of Bounded Variation .
+563 the function which is the sum of the integrated trigonometrical series itself .
+Again , it appears that the coefficients of the derived series of the Fourier series of respectively an odd and an even function of bounded variation , when employed as convergence factors , change the Fourier series of a continuous ction and its allied series into the Fourier series of continuous functions .
+The theory of the summability of a function with respect to a function of bounded variation is , it be noted , only part of a still larger theory .
+Even Stieltjes was led to consider integration with respect to a continuous function , owing to the necessity of formulating a theorem of integration by parts .
+In general , however , the generalisation in this direction involves difficulties of a naturs analogous to those which arise when we are dealing with non-absolutely convergent integration with respect to the independent variable .
+I do not propose , therefore , in the present communication , to enter on these matters .
+S2 .
+It will not be necessary on this occasion to enter into details with regard to the theory of ration with respect to a function , and in particular with respect to a function of bounded variation .
+It will be evident that a function which is summable may , or may not , be summable with respect to au assigned function of bounded variation , and a sequence or succession which is integrable term by term may , or may not , remain integrable term by term when the integration is with respect to a function of bounded variation .
+The rules , however , which enable us to recognise such possibilities in the general case are usually completely analogous to the known ones in the special case .
+Thus we have merely to remark that the repeated integral with respect to two monotone increasing functions of a positive function is necessarily independent of the order in which the integration is performed , to see that , if is any function of bounded variation whatever , and is any summable function , the integral of with respect to c , ertainly exists except for a set of values of of content zero .
+Using Stieltjes ' notation , and interpreting it in the extended sense above explained , we may accordingly write , ( 1 ) where is an indefinite integral of .
+We thus see that the right-hand side of ( 1 ) is an integral with respect to , and that the inside integral on the left certainly exists , except at it set of content zero , while it consbitutes a summable function of S3 .
+Again we see immediately that sequences that converge uniformly can certainly be iutegrated with respect to any function of bounded variation .
+Prof. W. H. Young .
+On Fourier [ Apr. 10 , In fact let be the general of a sequence which approaches uniformly .
+Then it is plain tb.at has , as , the unique limit zero .
+For we can find an so that is less than for all points in the interval of , and we may suppose expressed as the difference of two positive monotone functions .
+Each the corresponding integrals will then be less than a certain finite multiple of , and is therefore as small we please .
+Hence the limit of our integl.al , as , is zero .
+But , more generally , it is cient that the sequence should converge boundedly for the same to be true .
+To see this we have , in fact , merely to retrace the steps of the reasoning by which , in a recent communication to the Society , I showed that the process is allowable when integration is .
+taken in the new generalised sense there explained .
+Mutatis mutandis the whole argument applies .
+S4 .
+Let , and consider the series where , ( 3 ) being an odd function of bounded variation , so that is the typical coefficient of the trigonometrical series got by differentiating term by term the Fourier series of .
+We are about to prove that the series ( 2 ) is the Fourier series of the following function\mdash ; .
+( 4 ) We have by ( 4 ) .
+In fact , of order of integration with respect to and is permitted when the factor is omitted , and is therefore , by a theorem , analogous to a known theorem in ordinary repeated integration , allowable when is present .
+Now the inside integral on the right-hand side is evidently equal to nt .
+We can , in the further evaluation of the right-hand side of ( 5 ) , almost without leaving the realm of Stieltjes ' ideas , employ an obviously allowable generalisation of the ordinary theory of integration by parts .
+The term evidently contributes nothing to the result , since is odd ; and 1913 .
+] Series Functions of Bounded since vanishes at the limits of integration*with respect to , of the two parts involving , one vanishes identically .
+Hence ( 5 ) becomes .
+( 6 ) Similarly The equations and ( 7 ) show that the series ( 2 ) has the Fourier form , .
+and that the corresponding function is , as was stated .
+S5 .
+Next consider the series , ( 8 ) .
+where being an even function of bounded variation , so that is the typical coefficient of the trigonometrical series got by differentiating term by term the Fourier series of .
+We are about to prove that the series ( 8 ) is the Fourier series of the following function\mdash ; We have , as before , equations ( 11 ) and ( 12 ) show that the series ( 8 ) has the Fourier form , and that the corresponding function is .
+S6 .
+We may next discuss the summability of the functions and , and the mode in which this depends on the summability of .
+There is no difficulty in seeing that both these functions belong in general to the * In fact , as we suppose periodic and odd , its values when and must be both zero .
+VOL. 566 Prof. W. H. Young .
+On Fouri'er [ Apr. 10 , ) same class of functions as .
+If we consider in particular the case in which the power of is summable , we have only to use the inequality where and are any positive functions of the independent variable More generally we may use the inequality where is the indefinite integral of any positive function whose differential 'coefficient is positive This inequality may evidently be proved in a manner analogous to that used in proving the corresponding inequality when is itself the independent variable , with whose limits of integration we are concerned .
+Pntting then and equal to the total variation of , or as the case may be , and taking to be the independent variable , the required results immediately folow .
+S7 .
+It may also be remarked that the corresponding reasoning shows that the effect of integrating the Fourier series of a function of bounded variation , and its allied series , with respect to an odd function of bounded variation and an even function of bounded variation respectively is , in the former case , to preserve the character of being the Fourier series of such a function ; and , in the latter case , to transform the allied series into such a Fourier series .
+Or , as we may otherwise express it , the convergence factors and have these effects respectively .
+S8 .
+If , on the other hand , we perform the process of integration with respect to a function of bounded variation on the Fourier series of a continuous fimction , we easily prove that the following result holds good : If and are the typical coefficients of the derived series of the Fourier series of respectivdy an odd and an even of bounded variation , then the tvergence factor transforms the Fourier of a continuous function into the Fourier series of a function , whde the convergence factor jhanges the allied series of the Fourier series of such a function into the Fourier series of a continuous function .
+fact , the argument is precisely the same as that employed in SS4 and 5 , * On Classes of Summable Functions and their Fourier Series 'Roy .
+Soc. Proc 1912 , , p. 227 .
+' ' On the New Theory of Integration 'Roy .
+Soc. Proc 1912 , , vol. 88 ; see also 4 ' On a New Method in the Theory of Integration 'Lond .
+Math. Soc. Proc 1910 , , vol. 9 , pp. 16-60 .
+1913 .
+] Series and Functions of Bounded and shows that the functions with which these series , as Fourier series , are associated are respectively and , where and are respectively the odd and even functions of bounded variation .
+The theorem stated follows immediately from the known property of a continuous function of being uniformly continuous .
+may indeed find a quantity , independent of ( and of ) , such that for this and all smaller values , is less than a fixed quantity , as small as we please .
+Hence , for which , as the total variation of is finite , proves the continuity of ) .
+Similarly , is seen to be continuous .
+Or , more simply , we may remark that the sequence converges uniformly to as , whence the required result follows by S3 .
+S9 .
+Finally we shall prove the following theorem , which , it will be seen , is { of a slightly different type .
+If and are the typical Fourier constants of a function of bounded variation , and and the typical coefficients of a trigonometrical series whose integrated series converges boundedly to , then the series whose general term is ( eonverges boundedly and has for sum .
+To prove this we have only to employ the theorem to which allusion has been made in the last few lines of S3 .
+In fact , since the series whose general term is onverges boundedly to , it is the Fourier series of , and to prove the result we have merely to integrate term by term the Fourier series of with respect to .
+We shall then get the right-hand side of the equation to be proved with its sign changed onlthe right of our equation , while on the
+

@@ -1,0 +1,344 @@
+General Methods in Analysis for the resolution of Linear Equations in Finite Dfferences and Linear Diffrential Equations .
+By CHARLES JAMES HARGREAVE , Esq. , L.L.B. , F.R.S. , Professor of Jurisprudence in University College , London .
+Received March 15 , -Read March 29 , 1849 .
+Preliminary Remarks .
+1 .
+THE investigations presented in this paper consist of two parts ; the first offers a solution , in a certain qualified sense , of the general linear equation in finite differences ; and the second will be found to give an almost complete analysis of the resolution in series of the general linear differential equation with rational factors .
+The second part is deduced directly from the results of the first , although the subjects of which they respectively treat appear to be wholly independent of each other .
+With the exception of a few cases capable of solution by partial and artificial methods , there does not at present exist any mode of solving linear equations in finite differences of an order higher than the first ; and with reference to such equations of the first order , we are obliged to be content with those insufficient forms of functions which are intelligible only when the independent variable is an integer , and which may be obtained directly from the equation itself by merely giving to the independent variable its successive integer values .
+It is in this insufficient and qualified sense that the solutions here given are to be taken ; and the first part of the following investigations may be considered as an extension of this form of solution from the general equation of the first order to the general equation of the nth order .
+Linear Equations in Finite Djfferences .
+2 .
+A complete analytical theory of the general equation of the nth order , u , = Pu_ -i QXu_-2+Ru_-3+ Su_X4+. .
++Wu_-++Z~ Zu_-+ G , .
+( 1 .
+) would involve its resolution into a series of equations of the first order of the form ux .
+P =u , _ , = G !
+u -Pa-I_1=G , 7U p(n ) r , _=-G(n ) Xx 'X-1 g from which the complete solution would result , so far as known methods extend , in the formt _ =pp PI PG+ p(n)p(n ) p(n pn)p(n ) p( n ) 2y..^P , P2*,..P*+l I2* Pnt Z p(^..^p(.pn ) 1J ?
+* '1 2 " ' 2* *~+I or in an expanded form , u+=G +PxG_ , +P_ , PG_2 +P_2P_,1PG- , +.+C'PP , , ... P +G+ +P* P-Gx-2 +Px-2P-1 P -ZG_3 + ... +c ' PPm p ) ... P I G(+ p(n)G ) |p(n1 ) p+( , )f).p(n p(n ) px)(n ) Gx_ , ( n)p(n)p(n ) p(n ) +U I+v_ 1+P-n1Pn )-a22+Px-2 -1 -3 *x2 -m X--+'--1 I~g J Gm Gm+ , G2 Gx I Gx -p ... .
+pp Ggp - .
+G V+ =-(Pa ... Prn)uri+(p\ +~..p+i G which is the solution ordinarily given , though it is arrived at by a process somewhat less coarse than the above .
+By applying the same process of successive elimination to the general linear equation ( 1 .
+) , and carefully observing the law by which the entrance of the factors Px , Qx , Rx , &amp;c. is governed , it will be found that an exactly similar solution may be found in the form ux=_v{pX..P ( p ' Gpl , )+cI or u , =G , ,+PxG , _+e(PS_P +_).GX_-+2v(P , ... P , _~).GX_3+. .
+S+(PP..PPm+).G +c+(P , ... P))G where v denotes the sum of a set of distributive operations VI , V2 , V3 , ... V_ , not of a strictly algebraical character , which are capable of being performed only upon factorial expressions containing consecutive values of P , , and which have the following significations .
+Vi denotes one operation of this character , signifying that the factor Pm-_ Pm is changed into Q. as often as it occurs , any term in which it does not occur disappearing , and the sum of the terms thus obtained being the result of the operation ; so that , for example , V , ( P , _ , P )=Q , V2(P , _ , P , )= , V , ( PP_ , P_PPP)= Q_ + , P-+ P2_ , Q~ , V1(P_ , PX_ , Px , )=o , V , ( Px3 , Px_2P , _ P , ) = Qx-2Px , P+PX-3QlP +Px_3Px-_2Q , V ( P _3P_2P , 1P , )P )2Q2Q , .
+&amp; e. &amp;c. Again , V2 denotes another operation of a similar character , signifying that the factor Pm_2PM_-iP is changed into R , as often as it occurs , the result of the operation being as before the sum of the terms ; so that , for example , we have V2 , ( P_2Px_ , Px)=R , , V2 ( Px_P _2P x_ , Px ) = Rx_ , Px + Px_R , V2(P , _-4P_-3Px-2P_-1P ) = Rx-2Px-lPx+ Px~4R-lP~+Px-4P-3PR,5 V2(P , _ ... Px ) -= R_x3Px-_xP , Pl R -+ PXSR_5R_2P .
+vlP+ P_-5P_4R_ Pv-l + XP-5P_ -3 V2(px_5 , ... P)==2R , _3R , &amp;c. &amp;c. ; V , denotes the change in a similar manner of Pm-_Pm-2P_ , P into Sm ; V,2_ denotes the change in a similar manner of P-_ , , , ... Pm into Wi ; and V1_ , denotes the change in a similar manner of P , _ , +,..Pm into Zm .
+263 It might at first sight be supposed that this process , if successfiul at all , would give the complete complementary solution in the form UX-= C1 , ( P..P)+c ( P..P)+. .
+; but it will be found that in reality this introduces only one arbitrary constant .
+It now remains to place these expressions under a properly algebraic form , and to verify the result ; and in order to do this we must express the general term ev(P , ... Pp+ , ) in terms of the factors of the original equation ; and afterwards give to p , which in the first instance is regarded as a constant , the successive values required for forming the several terms of the solution .
+This may be done as follows : QL Rr Sp pW= Za TL ^_ R. _ &lt; s= = , a , z retP , --p_2p_1r----r P , _3P , _-2 , -lP_ --,1. .
+r_+ ... pw , and P_+. .
+-+l.*ZP ^ Then it is easily seen that V , ( P ... Pp+l)=Px-- ... Plqp+2+qp+3+ +qx. . +xq}P.-. .
+Pp+2+pqi , , V2(P** ... Pp+I)=-Pp+Il{rp+3-+rp+4+ -..+r.- } =P..- .
+, Pp+l:p+2rx+l , and generally v ( P ... P+ 1 ) =P ... Pp+ I{ +px , q+ , +Y q+ , r+ 1++ +3 +..-+2-2W +p ++^ + p+n-1_x+1 } To find V1 ( P..PP+1 ) , it will be convenient to proceed by steps , beginning with a small number of terms .
+Thus V , ( P , ... Px_3)= ( P , -P- ... P3)(q+qx_-I+qx-2 ) , IV ( P ... Px_ , )=P ... P_-3(q , q_2 ) 12 VI ( Pr. .
+Px-4 ) = ( Px ***P.-4 ) ( qx+ qx-1+ q-2+ qx_-3 ) 2 PV-l ( P , ... .P.-4(qx(_2+qx-3)+qx-q.-3 ) V , ( P ... Px_ , )(P ... P_)=(P P5)(qx+ -_+q-_+_-2+q-3+ qx-4 ) | V2p(P ... P._)=(P ... P_ , )(qx-2+qx3 + qx-4 ) +q+ q4 ) + q.2q4 ) &amp; c ; and generally , VI(P , ... Pp+ , ) being P ... Pp+1(+Iq , +1+ ) , we have V1 ( P , ... P =P~ P..+P , ( 2P ; , +q2+ + &gt; +qp+43 +1 ) =Ps ... Pp ?
++l23(q+l P+xL ?
++l ) .
+Similarly , it will be seen that UP &gt; ... Pp =P ... .Pp(+,2p+'(ql1p+( ' , ) ) , j and so on .
+In like manner we shall find 1v(. .
+Pp+l ) PX ... *Plp+ X+(r2+ l E+ , )l ) v(P P. .
+=P P + ; +8(r+l2+a(r +Z+2 r+l ) ) , and so on , 2 V(P. .
+Pp+l})= ( P ... Ppl+j w+ ' + mlp(r(l , p+2v+l ) , 3 x--rLm 2.3 V(Pz " .Pp+ , )=(P.."Pp+ , )2p+3m+2(vxp+i2:m +1 +i(v p+ , ; um t+ ) ) , and so on , v_ being that term of the series qir\s , , &amp;c. which corresponds to the operation Um , as q9 corresponds to V1 , rv to V2 , &amp;c. W yP P ^---2 V1V2(P ... -'Pp+l ) P- ... p+ , ISp+4(r , +1 , p+1 , x+1 ) VlVm(P* ... Pp+l)=P ... P+lp+m++l( + p+mv2+ , l ) , ( tx corresponding to V ) , VIv(P ... P. P+l)=Px** P+l M++2/ +2tIp++fil+lp+Ym V+l ) &amp;c. &amp;c. Finally , if N ' , p+N- , p+N +. .
+represent a series in which - , p , NX , p p+l q+ + 2p+2r+l *+*..p+ x-+Z+lI , and generally N ; ( a+l)_x a ( +1 , N ))+ x+ '(+N a)2)r +x+ 1( ?
+N i(a ) ?
+Nlp l-p+2a-1 ( qxly+l-l , N )+P+3a-l ( rx+N-2 , p)+p+4a-l(s+I 3 , p)+ + Zp+(f-l)a-l ( w+l , N -n+2 , p ) + p+na-I ( z , +l n+l , ,p ) then , if this series be called N , p , we shall find that c"(P ... Pp+l)=(Px ... Pp+ , )N , p. It may be here observed that the number of the terms of the series NP'+N " , +. .
+cannot exceed 2(x-p)+l when x-p is even , and 2(x-p+l ) when x-p is odd ; and since p has the successive values x-2 , x--3 , &amp;c. , it is always known whether x-p be odd or even .
+The number of terms may be less ; for if Q , be zero , the number of terms would be the next whole number above ( x--p ) , &amp;c. That the equation u==c(P , ... Pp+)Nx , p is a complementary solution of the original equation , or in other words , a solution of the original equation wanting the term Gx , may be directly verified ; for we have ux-Pxu_--=C(P. .
+Pp+ ) ( N , p N , _1 , p ) -c(Px..Pp+)AN-i P. Now ANl , p =0 , AN_ , = , p= qx+r , +s +. .
++.z , ANK-'_ , p=qxNx-2 , p+rxN-s_s , p+ , p. .
++WN-n+ , ,p+ ZxN-n , p , and generally ZN(a+l ) _.N(a ) ( a ) , ( a ) ( a ) n+1 .
+'pxN(aXTN')(a Tx(a ) Yxl l X- ' , rx-a3 , -xI -4 , + ... + -Wx+I M-n+ , pX x-n , p ) whence AN_ , ,p-=q= N_2 , p+r Nx3 , p+s xNx-4_ , p+. .
++wNx-n , + , ,p+ZN , -n_ , and u , -Px , _ = Qu_x2 + Rx + SU_4 +. .
++W , u_ +1 + +Zxu_ .
+In this part of the solution , I apprehend that it will not generally be necessary to have regard to the lower limits , since p may have any constant value , and that value may be taken which is most convenient in each case ; and if we make p=-oc , all the lower limits will have this value .
+This part of the solution would then be u , =cP , ... P1 +A , +B , -+C , -+ .
+, where and generally each term of the part within the brackets is formed from the preceding term thus : first change x into x-1- , multiply by q , + , , and effect a summation ; then change ( in such preceding term ) x into x-2 , multiply by r , + , , and effect a summation ; and so on until lastly we change x into x-n+l , multiply by zx , , and effect a summation ; and the sum of the parts thus obtained is the next term .
+The verification of the particular solution is easily derived from the above ; but it rests on the assumption that the algebraic value above given for z ( P,..Pp+1 ) is correct ; to which therefore particular attention is directed .
+The equation U , = CE(P,..Ppf ) , considered as a solution of the original equation wanting the term G , implies that SV(P-..PPp , l)=P , X(P_-l **PpI)+QXe(P_2..Pppl)+Rf ( P -3..P PP+)+.n 1 ) Now in order to verify the particular solution , ux=Gx+P , Gx - , +sv(PxPx_-)Gx,2+"(PXPX_ PZ_2)G , _ 3+..+St-(P,..P , _p+)Gx_p+- ... .
+it is only requisite that V ( PV..P+_p=)(P,.P(PV_,..P._+ ) + Q-+V(P _..P_p+)+R ( P_ PR+ , ) ( .
+and this is true , for it is identical in form with the equation last above given , notwithstanding the occurrence of x in the lowest value of P , for this lowest value remains the same throughout the expression .
+7 .
+If P , =O , the expressions e(P ... Px_ , ) reduce themselves to those terms which do not contain any value of P. It would not be difficult to determine generally what terms these are ; but probably the most convenient general method of atrriving at the solution in an algebraical form would be to make P , equal to a constant b , and to make b equal to zero in the result finally obtained .
+8 .
+The above particular solution of the original equation is in such a form that the general term of the indefinite series representing the solution is given in explicit terms ; but that general term may be represented in an implicit form , which perhaps is more convenient for practical use .
+By attending to the formation of the successive expressions sv(P ... .Pm ) , it will readily be seen that the series MoG , + M , G_1 + M , G2 + e.+MpG , +. .
+is a solution of the original equation , if M= -1 , M1-PXMo , M,2 =P-1M +QMo , M,3=P , _2M2+Q_1M1 +R , M , o MP=P.-p+IMP_1+Q-p+2Mp-2+RxQ_ p+3Mp -3+ +w n-Mp-n +lo+ , n which last is a general relation determining the coefficient of any term from the coefficients of the n preceding terms ; or from the coefficients of all the preceding ternms when the number of these preceding terms is less than n. This relation is the equation of formation , and may be regarded as universal , bearing in mind that when p is less than n some of the terms of this relation vanish .
+The solution of the original equation is therefore reduced to that of a similar equation without second member : and , by what has preceded , this solution is Mp = ( P , _p+ ... .PX ) , it being understood that M , = 1 ; and this is the value of MP before given .
+But the value of Mp may be found otherwise , thus : Make P_P+1-Pp , Q , -_p+2=Qp , &amp;c. &amp;c. Then the solution is evidently Mp -V(PP. .
+P ' ) , where the operation v has the same meaning as before , except that it is applied to the accented letters .
+Consequently Mp =(Pp. .
+P , ){ +Ap+-Bp+Cp-. .
+} , where Ap=lqp1++rI++12 .
+1+-z_ / IP B~= 3 , ( qP+1AP_I ) +I 5(r+Ap2_2 ) + ... + 2 , _ ( z'+ AP_ , + , ) , and generally the terms are formed as stated in section 5 , using p for x. 9 .
+I shall conclude this part of the subject with a few simple examples for the purpose of illustrating the processes here given .
+Ex. 1 .
+Let the equation be u= au , + b2u_-2 +G .
+That part of the solution which is independent of G , , is u =c{ax+(x-1)ax-2b2+ 2(X2)(x-3)ax4-b4+..(x-3)(-4)(x-5)a-_6b6+. .
+} ; 2~~~~~~~~~~~~2 ... 2M2 267 and since in the present case P , and Q , are constants , we have 11 MP , =+p-(p1)ap-2b2+ ( p-2)(p-3a-3)a-4b4(p-3)(p-4)(p-5 ) P6b6 ... whence the particular value of u , is a series of terms of the form G , T+aCG , + ( a2+b2)G-,2+ ( a'+2ab2)G , b3+ ( a4+3a2b2+ b4)G_4+ ( a5+4a3b2+3ab4 ) .
++ The difference in character between the solution proposed in this paper , and that which would result from a perfect analysis of the general equation , may be exemplified by the present instance .
+The perfect solution of this equation is known to be where a and 3 are the roots of t2-at-b2=-O and each E introduces a constant .
+Now if the constants be made equal , and the expression be written at length , we shall obtain the form derived above .
+The expansion of the two terms within the parenthesis gives C++ , + 2G , , +..+ +o'GI +..+Mp + and G , ~++G , +0PG_2.+.+ " +Gp+.'..+cl ; and if the difference of these be divided by a--P , we get Gx+ , G_ -G + ; *..* +~_a-G. .
++ c , which is the same in effect as the result which we have obtained .
+Ex. 2 .
+Let the equation be u , xu , _ 1 +au , ,-2 .
+Then -=cr(x+ ] ) +ax(x 1 ) +a2Z x(-t))+ -F(x+ l)1 a+ a 2(+1 -cr(Z+ 1~ x ( 1l)x2.3 ( x-2 ) ( x-1 ) +* c r(x-+1 ) arxF ( x-21 )2 ) +. .
+which may be put under the form of the definite integral u= cjt r -vdv .
+If we add a second .
+member G , , the equation for determining Mp is Mp=(x-p+l1)Mp , aMp_ ; 2 whence M'= ... ( x-p-+-1){1 --a ( _p + 1 ) ( x-p-{-a +3 ( x-p + )(x-p ) 1 ( x-+ 1 ) ( p ) 4 ... =x ... ( x-p+ : l ){-l +a ( xx-Ip + -p ) a2 ){+ ( 1 ) 1 a2\ ( ( -p +2 ) ( -p + i)-(x-1 )( -2 ) ) -(x-21 + i-2 ) ) from which the series for ux can be expressed .
+Ex. 3 .
+Let the equation be u =au , _ ] + xu_ , .
+Then 7= ca{l +2(x+ 1)+ 4Zx((x+ 1 -'(x+ 1))+ .
+= CatX+x(x+l)a-2+ ( x+ 1 ) , x(x.-1 )(x-2)a-4+2-46(x+l ) ... ( x-4)ax-6+. .
+Ex. 4 .
+Let the equation be u = , ,u -1+ C2Ux,2 .
+Then U-n(+ ){l+2ct ( +1)+ ( x(.x-+l)E(-lx+1)).+ } U_ =r(-x 1+ 4x( + -l ) + l)( .
+PF(x 1 ) 1+ ( X-1 1X ) C4 fL 3 +P4( ( x+1)(-1)(x-2)(x-3)(x-4)+ ( x+l)x(x-I ) , x-2)(x-3))+. .
+Ex. 5 .
+Let the equation be U , -P.= P , _l + xPP , _ , u , _-2+ G , .
+Here , N ' -,1 N " x(x(x+ 1 ) ( p+l)(p+2 ) X ?
+-^i p X ) , &gt; Ip22 N " __(x+1))(x-1 ) ( -2 ) ( p+2)(p+l ) ( x+l)x ( p)+4 +3)(p+3)(p+2)(p+l ) , 'p 2.4 2 2+ 2.4 , ) _(x+1)x(-1)(x-2)(x-3)(-4 ) ( P+2)(p+l ) ( x+l)x(x-1)(x-2 ) , p " 2.4.6 2 2.4 ( p+4)(p+3)(p+2)(p+1 ) ( x+l)x ( p+6)(p+5)(p+4)(p+3)(p+2)(p+ 1 ) * 2.4 2 2.4.6 N(m+2)_(+ 1)..(x-2m ) ( p+2)(p+l ) ( x+l)..(x-2m+2 ) ( p+4)..(p+l ) ( x+l)..(x-2m+4 ) , p 2.4..(2m +2 ) 2 2.4..2m 2.4 2.4. .
+( 2m2 ) .
+( p+2m)..(p+l ) ( x+ l)a ( p+2m+2)..(p+l ) " 2.4..2m .
+2 2.4.(2m +2 ) 269 The particular solution , therefore , is u-= G , +PG_l , +(1 + )PPx_ , G_2+2xPP , _lP_-2GX-_3+(x2+x -2 ) ( P..P._ )G_ , +(32 -5x2)(P,. .
+P_)GG_ , -+(x'-1 ll+6)(P,. .
+P , _)G_6+ ... .
+; and the part of the general solution found by this method is U c(P..P ) / ( + 1 ) ( +l ) ... ( -2)(+ 1 ) ... ( x-4 ) A 1 , c(P. .
+o)t+ 2 -+ 2.4 + 2.4.6 +Ex .
+6 .
+Let the equation be U , +alP , U_l + a2PxP , -_lU2+.+-a(P. .
+Px_-l , )u_-n= G , ; then the equation for determining Mp is Mp+a , P_ -P+Mp+a2P , _-p+lp-p+2Mp-2+ +a..n-+(P_p +I , P_p+)Mp_ , n0 ; or making P I=-P1 Px-p+1P M , + a , P ' Mp-_ +a , PpP'p , _Mp_ , +..+a , ( Pp-..P P_ , + , )Mp_ , O ; the solution of which is evidently the solution of Mp +alMp_ +a2Mp_2+. .
+anM-n =- , multiplied by ( P'..P ' ) .
+AB Let ( t+a , _- ' +a2t-a2+. .
++a)1+= + then Mp=(Pp..P'){c , AaP+n+c2BP+-n+. .
+} ; and taking the parts affected by each constant separately , it will be seen that the original equation reduces itself to a set of equations of the first order , v OaPv_-="-AG , , v'3Pv_ , =Pn-l'B G , so that its complete solution can be adequately represented .
+Solution of Differential Equations in Series .
+10 .
+I now proceed to point out a method by which the processes above indicated may be made to give solutions of certain general forms of linear differential equations .
+In a paper on Linear Differential Equations presented by me to the Royal Society , and which the Society has done me the honour to publish in the Philosophical Transactions ( Ptart I. for 1848 , p. 31 ) , 1 have enunciated , and so far as is material to the present purpose , demonstrated the following theorem : That if , in a linear differential expression &lt; p(x , D)u=X and its solution u=4(x , D)X , the letter x be changed into the operative symbol D and D into --x , we shall thus obtain another linear differential expression p(D , x)u=X , the solution of which will be u=- , ( D , -x)X .
+In the application of this theorem , care must be taken that the first-mentioned solution is so written that the operations included under the function , are not suppressed ; and it must also be borne in mind that the expressions obtained by this interchange of symbols will not in all cases be obviously interpretable .
+For applications of this singular analytical process I beg leave to refer to the memoir above cited , where it is employed for the solution , in finite terms , of extensive classes of linear differential equations , and equations in finite differences .
+So far as the process is legitimate , it is to be observed that it is founded on reasoning of a purely analytical character .
+It does not in any manner whatever flow from the calculus of operations , or depend for its validity upon the soundness of the logical basis on which this calculus rests .
+Now it is a remarkable property of this mechanical interchange of symbols , that it instantaneously converts a linear equation in finite differences into a linear differential equation ; so that wherever the former is soluble , the latter is soluble also , provided the result be intelligible , a condition always satisfied when the functions employed are rational algebraical functions .
+As an instance worthy of notice , let us take the example last above given ( Ex. 6 .
+) .
+Bearing in mind that u , _ , ,=s--Du , the proposed interchange gives the equation ( writing px for P , ) , u+aap(D)(~u)+-a2p(D)q(D1)(E2u)+..+a , -p(D)..p(D--n+)(s"'u)=G ; whose solution , therefore , depends upon that of v--cP(D ) ( sxv ) o-'AG , a proposition established by Mr. BOOLE by the methods of the Calculus of Operations .
+I propose , therefore , now to employ this theorem of the interchange of symbols for the purpose of converting the forms of solution , above given , of equations in finite differences into the particular solutions of some general forms of differential equations ; viz. those equations whose factors do not contain any irrational or transcendental functions of x , or contain them only in the form of series of ascending powers of x. of .
+11 .
+Mr. BOOLE , in his General Method in Analysis , has shown that expressions of this character may be placed in the form fo(D)u +f ( D ) ( ?
+u ) +f ( D ) ( 2u ) +..U , by changing the independent variable from x to its logarithm 0 , and making use of the relation , ( D being d ) , D(D--1)..(D-n+l)u=(u ' )x t. 271 Making use of this relation , we immediately convert our equation , which we assume to be in the form dnu dn-'u ( an b +f. .
++ k , xp- ' l+ , ) x.)d-n+ ( a , -_ , + b , _ , x +. .
++ kn , ,p ' + I_ , xP..)dx ; ;_i + ... .+ ( ao + box + .
++ koxp4-loXp +..)u= G , into a , ( D..(D-n+1))u+ 6 ( ( D-1 ) ... ( D-n))(.0u)+ cn((D-2 ) ... ( D-n-1))(2'uu)+ ... + nt((D-p ) ... ( D -n-+1))(QPpu)+. .
++a , -i((D-).(D-n))(un- , 1)(D -n-2)-..(D-n ))(0D-n)+b ( ( D-2 ) ( D-n-p))(s0U)+ - ... ..(D-n-))(0G)+ ... .
++a , _2((D-2 ) ... ( D-n+l)()0.)+ ... +k_-2((D-p). .
+( D-.-p+3))(sPu)+ ... n.| u+bn(D-n)+aI ( D n ) ( D -n ( )+bnf_I(D -n ) +(a , -o8 +(dD-n)(D-n-1)(D-n-2)+ c , ( D-n ) ( D-n-l)+b(n( 1DNow if in this equation we change D into d and O into -D , we obtain the equation in finite differences ( which suppose to be of the nth order ) , ,+b(O --n)-_ , Cn(O-n ) ( O-n1 ) b_1 ( 0 -n ) + an_ , -2 a^u , + -^ B Uel+ eB_ .
++ ... = --(O--1)..(--n-{-1))-~1Go_ , 01 ' fi0 f20 A3 + Uo+ -+ UO o f~_ 0e- ... ( fO)-'Go_e-n en ( suppose ) ; the solution of which , by section 8 , is of the form u=MoH0o_+M , Ho__ , +M2 , Ho_ , + .
+MmHo-n-m + ... , where Mo-= , A -o M , + Mo=--0 , fo fM(O+1 f ) 0 M2+ fo(o 1 ) M -o+ MfoO f , ( O--m+ 1)Mf2(0-m+ 2 ) Mf , -(O-m+r ) Mfo(o-_m+ l ) fo(-m+2 ) 2-.fo(-m+r ) M Restoring the symbols , and thereby converting Ho , _ into ( fo(D))-'(sG ) , which call H , we have u=MoH+ MI ( e0H)+ M , ( s20H ) +. .
++ M.(s ?
+I0H)+ ... , where Mo , MI ... denote a series of operations having the following significations and relations ; Mo=l , f fi(D ) M , -jo-( ) Mo --O , foW ' " " " M2+ fl(D-1 ) Ml ) +f2(D ) Mo=O , f0(D--1 ) f0(D ) fo(D 1 ) { fo(D ) M +{fi(D--m+l ) M f(D--m+2 ) M+ f(D-m+r ) fo(D-m+ 1 ) M~flo(D--m+2)m fo(D-m:r ) m-0 or , by passing ds , 820 , &amp;c. outside the operations by the equation ( D ) ( m0IH)I ) = w0(D + m ) H , u=u MoH+ s0M , H+2M2H +..+ MmI-. .
+M + ... ... ... ( 3 .
+) where the general law of relation is fl(D + 1 ) fa(D + 2 ) fr(D + r ) fMD+ M- , I , + 2 Mm_-2 -{ ) M7n_r =0 .
+foD+ 1 ) f o(D + ) 2 ) fo(D +D Mr ) Now the expression H , which is the subject of all the operations , contains n arbitrary constants , sincef0(D ) is of the nth order ; that is , provided a , is not zero .
+Let ( 3 / 2 ... 3 , be the roots off0t=0 ; then the complete value of H is ( fo(D))- ' ( ?
+G ) c1 ?
++c.fj+ C , I. .
++ n ; of which the first term will give us the particular solution of the original equation , and each of the other terms a complementary solution .
+Bearing in mind the equation ( ( D)(EP0)=-p.pP ?
+, we see at once that the first complementary solution is cE8l0(Ao+ Ai-+AA,1s+ +. .
+A Amo + .
+) , or c1XPl(Ao+Aix+A2 , 2+. .
++A ?
+xm+. .
+) , where A-1 , and the law of formation of the coefficients is fo(I3 , + mfi +m)Am+ ( +f2(3+ m)Am_+..f , ( PI +m)A_+( , ,+)=O ; + +)A -0 ; and the remaining complementary solutions merely require the substitution of P2 ... , , successively for Pl , with new constants .
+The reader will not fail to perceive the peculiarity of the series when a , is unity , ( which value it can always have when it is not zero ) ; for in that case the roots of f0t=O are the natural numbers from 0 to n--1 inclusive , so that the series begin respectively with the terms 1 , x , x2 , ... x"1 .
+If a , be zero , that is , if the factor of the highest differential coefficient of u do not contain an absolute ternm , then in order that the transformed equation may take the form ( 2 .
+) , it will be necessary to pass ?
+' outside the operative functions in each term , and divide by d. The initial functionf0t will then be of the form bn(t ... ( t-n + l))+an_I(t ... ( t-n+2 ) ) , and H will be ( fo(D))1 ( s(1)0G ) .
+Similarly , if in addition to a , being zero , we have also b , and a , _ , respectively equal to zero , it will be necessary to pass N20 outside the operative functions , and divide by and so on if other terms of the factors are wanting .
+Thus we can in all cases obtain the transformed equation in the required shape ; but in all the cases where coefficients thus vanish , there is the important qualification that fot is no longer necessarily of the nth order ; so that H does not necessarily contain the proper number of arbitrary constants .
+The consequences of this consideration will be afterwards developed ; in the meantime we proceed to consider what modifications the series undergo wheref t has two or more equal roots .
+12 .
+If there should be two roots offot=O equal to P3 , one series will be deficient ; and it will be supplied as follows .
+The expression H , or ( fo(D))-'(snG ) , contains in that case a term of the form k , O0l'0 ; and it is easily seen that ( D ) ( Wil ) =(D ) ( go ) ) + @'(D ) ( Sl0 , ) .
+The wanting series is , therefore , kxPl { logx(1 +A , x+A , x2+. .
+) + ( A1x+Ax 2+. .
+) } where dA , If there should be three roots offtzt=0 equal to(3I , two series will be deficient , one of which will be supplied as last mentioned ; and the other by the introduction of the series k2xYl{ ( log x)2(l +A , x+A2t2+..)+2 log x(Ax+A-.2+ .
+) +(A'x+Ax 2+. .
+) } , dSAK where dA'l= d~ &amp;c. ; for we have a term k2a0 ' ; and it is easily seen that ( D ) ( O2 " ?
+10 ) = 4 ' " ( D ) sL ?
++2 0p'(D ) ?
+'-0 + " ( D)gs , l. And generally since , where there are p+1 equal roots 3 , , we have terms cl no + kjl{l1 + k4SI ?
+E. +e kpPd1s ; and since @(D ) ( sPle ) = dP(D ) ?
+g'+pdP-l ' ( D)sg ?
++p P !
+~P-2 , '(D)P1 ?
++ ... ; the deficient series will be supplied by the following , taken with a different constant for every value of p from unity upwards : kplog)P +Ax+ + .
+) +(loglo )P- ' ( A'x+A2x2+ .
+) +pP- ' ( l 2 og x)P-(A'x+A2x+.)+p log ( Alp )x+AP)X2 +. .
+) +(A Px+A2 ( P+ ) } As a matter of convenience , when the equal roots are zero , a temporary nominal value should be given to them for the purpose of differentiating A , , &amp;c. 13 .
+Hitherto we have attended especially to the complementary solutions , or in other words , regarded G as zero .
+The operations , however , indicated in ( 3 .
+) may be readily performed when G is a rational function of x ; which we will suppose to be cleared of fractions , and so cleared to consist of a set of terms p , xp .
+Then for this term ( fo(D))-'(s"G ) =-O(fo(D ) ) -'(n+p ) = oP(fo(n+p ) ) -l'('+P)o ; and we have , as before , u= %xX(f+p')(B+Blx+-B2X2+. .
++Bx"+. .
+) , where Bo=l , and the law of formation is fo(n+p+m , )B , -+fi(n+p+m)Bm.+f2(n+p+m)B-,2+_- .
+; and the whole solution is found by taking all the values of p. This will undergo a slight alteration , as the incipient term will be of the formf0(D)(s(."r)0G ) , where r factors of ( 2 .
+) vanish by reason of some of the constant coefficients a. , &amp;c. being zero .
+In like manner it would be easy to represent the series if G contained log x and its powers ; but for most other forms it would be necessary to expand G in order to represent the series explicitly .
+The solution however is theoretically complete , since it consists solely in the performance of operations which are known explicit functions of D. 14 .
+Before proceeding further with the main subject , I shall illustrate this process by a few examples .
+Ex. 1 .
+Let the equation be d2u du ( 1 +b2x+ c2x2 ) + ( al + blx ) dx+aou= G. Referring to ( 2 .
+) , we have foD-=D(D1 ) , D=b2(D 1)(D-2 ) +a(D-1 ) , f2(D)=c2(D-2)(D-3 ) +b1(D-2 ) +a ; roots offot-=O are 0 and 1 .
+First complementary series , cl(Ao+Ax +A2x2+..+ Ax " +. .
+) , where Ao= 1 , and m(m1)Am+(b2(m 1-)(m-2 ) +a1(m-1))Am_ , +(c2(m-2)(m-3 ) +bl(m-2)+ao)A,1 , _2= is the law of formation .
+Second complementary series , c2x(Ao+Alx+A2x2+..+Amm +. .
+) , where Ao=1 , and ( m+l)mAm+(b2(m)(m-l)+alm)Am_ , +(c2(m.-l)(m-2)+bl(m-)+ao)A , n-2-0 is the law of formation .
+Particular solution , u-=o(D)H + 41 , ( D ) H+ 2/ 02 ( D)H +. .
++ sm'0m(D)H +. .
+, where H= ( )~G , , o0(D)=l , andfo(D+m)4 , n(D)+fl(D+m ) &gt; , ( , )(D)+f2(D+m)y , _2(D)=O is the law of the formation of the operative functions .
+2N2 275 The three laws of formation , which are here written down at length , are in substance the same ; for from the last the others are made by merely writing the roots successively in lieu of D in the factors .
+Ex. 2 .
+Let the equation be d2U du ( x-+ qx4 ) d+ ( x-+px25qx3 ) d+ ( P-n2+(4q r)x2)u=G .
+Referring to ( 2 .
+) , we have in the first instance , ( ( D-2n2 ) " n ) ( S20u ) p(D2 ) ( 30u ) +(q(D-4)D+4q+r)64 ?
+u=G , whence ( D -n2)u +pD ( du ) + ( qD2+ r ) ( 20u ) =20G ; roots off0t=O are n and -n .
+First complementary series , c1x"(Ao+Ajx+A2+A22+. .
++Amx+. .
+) , where Ao= 1 , and ( ( n.+m)2-n2)Am+p(n+m)Am_ , + ( q(n+m)2+r)Am_2=O is the law of formation .
+Second complementary series , c2x-(A+A1 AA2+. .
++Ax +. .
+) , where the law is , as before , changing the sign of n. Particular solution , u= 4o(D)H+s ?
+1 , ( D)H+. .
++-O ?
+m , ( D)H. .
+, where H=(D2-n2)-'(s-20G ) , Yo(D)=1 , and ( ( D+m)2-n2)4'm(D ) +p(D+m)4m_-I(D ) + ( q(D +)2+r)4 ' 2(D ) = is the law of the formation of the operative funotions .
+If p=O , q=0 , and r=1 , so that the equation becomes d2u du x d-+xd + ( x2--n2)u=0 , the law is Am-2 Am^ r m(2n+m ) whence 4.8 .
+c-{l-4 ( 1-n)-+ 48 ( l12 ( -n)(-n)(3-n ) Ex. 3 .
+Let the equation be .
+d3u d2Uu duxd +3X2 +x2 +qx=U=G .
+Referring to ( 2 .
+) , we have D3u+qs"u-=G ; fo(D)=D3 ; three roots equal to zero ; fn(D)=q ; m3Am+qAm_n=0 , law of formation .
+Hence the complementary series are , =C{q q X2 qnq qq )3 +}u 1-- ?
+C n3O ( 2n)3 ( n3 2n ) )3 ( 3n ( 3 lo(g xI\21f qq nq qqx 3n\ +c , l+og ( l-+ ( -n)3 2n ( 2n)3 ( 3 ) + ... " +6 log nn3n 2n ( 2n)3 n + ? ?
+2+n + 3n n3 3 ( 2n ) ( 3n)3 ' )f +d ( logte ( l-pa rticar s on i ' 2n =H 1qx ( D+n)-3+2 n ( 2n ) ( n)3( 2n)H- .
+6H bi log xD+(0G).+ mated , upon n 2nthat the function(D ) is of an order not lower than(3n)3 6 2and b2 were also zero .
+2 ^)+ W^ Sn+ +~ n(2n ) n3 ( 2n)3 " 22233 3\q qq 3ng ~ - " ( 2n ) ( 3n)2 n(2n ) 'n(3n ) -(2n)(3n))n ' ( 2n)3 ( sn ) and the particular solution is H being D-2)(G ) .
+15 .
+The completeness of the preceding forms ofzsolution depends , as above intimated , upon the circumstance that the functionfo(D ) is of an order not lower than the order of the original equation .
+It may however be of a lower order , as would take place in the first of the examples above given , if a , instead of being 1 were zer ?
+o and b2 were also zero .
+Let the equation then be ( Ex. 4 .
+) , C2X2 '+ ( 1 +6(+bj)-+a0u= G. Referring to ( 2 .
+) , we have , in the first instance , ( D-1)(Eu ) )+(c2(D-2)(D-3)+b(D-2)+-ao)( ) G , or Du+ ( c2(D-1)(D-2)+bl(D-l)+a1)(Ea%)=O -sG ; so thatfo(D ) is of the first order , and the root is zero .
+277 The only complementary function to be obtained is therefore u=C lI-aol I ao+ ( bl +ao)X2 -23 a(b6+ao)(1.2c2+2b+a0o)x3 + -ao(bl+ao ) ( 12c2 +2bl+ ao ) ( 2.3c2+3bl+ao)x4- ... a series which is divergent , but which , as will also be seen afterwards , is finite when the constant coefficients are connected by the formula ( pI )pc2+}pbl+a=0 , = p being any positive integer .
+Further , it may happen that the series obtained by the process , even when they afford a complete solution in respect of the number of constants , are divergent for all or for some values of x. This may evidently be the case in the solution of the second of the examiples above given ; for the law of the coefficients , as we advance in the series , approximates to A.=qA , _ , .
+In these cases , other solutions in series may be obtained by resolving the equation in finite differences in a series of terms of the form H+p instead of H_p .
+In order to effect this , all that is necessary is to write d+r for 0 , ( r being the order of the equation in finite differences ) , and to divide by the factor of the last term instead of the factor of the first term ; or in other words , we must pass ro outside the functions in ( 2 .
+) , and multiply by -rO ; so that this equation now assumes the form fr ( D)u +f/ 1 ( D ) ( e-u ) +fr -_(D ) ( --20U ) + ... =(n-r)G ; and the equation in finite differences is f.(o)u0+fr-l(o)u+l +fr-2()u+2+..-=G+7-n We have now to inquire for the roots offrt=O ; the incipient term is ( f.(D))y'(e'n''0G ) , which call H , ; and the particular solution will be found to be U=+0(D ) H1 +-0+1 ( D)H(D)H,1 +..-20 -(D)H , ++ 0m(D)H + ... , whelre,0(D)=-1 , and f , ( D--m ) , -nz ) fD(D ) +r_ , ( D-m)34 , -_(D)+..=0 is the law of the formation of the operative functions .
+The substitution of the roots off/ t successively for D gives the law of formation of the complementary series .
+Taking the last example , the transformed equation now becomes ( c2D(Dl)+b , D+ao)u+ ( D+ 1)(S- ?
+u ) =-20G .
+Let the roots offrt or c2t(tl)+blt+a=O0 , be p , and 32 .
+The first complementary series is cll ( Ao+Ax-l + .
++Amx+. .
+) , where Ao= 1 , andfr(,3i-m)AA+(Pi-m+ l)A , _l=0 is the law of formation ; the series then are el_ &amp; ~i +s 1 ... 1. .
+i-P 2 1x3 , _ 3 .
+fr ( P ) fll)fr(12 f( 1 ) f.1 -2 ) f(3 3+2{ similar function of3 ... ... ... . .
+} which is , ( sincef ( l n ) =n(n+ l)c22n3 , -nb , ) , { xrJ S,1.a1. .
+' , ts1-I1 x1_-2 t 2--21--b + 2c2-212 , -b1 2.3c--43t-2b , f1.-1 -2 31 2c-2c-bl 2.3c2 -4P,2b6 3.4c2-6--3b3** +-c{ similar filnction of / ... ... .
+} When 1P or ( 2 is a positive integer , one of these series is terminable ; and if both are positive integers , the series derived from the smaller root is terminable , and the other gives no result , the coefficients becoming infinite .
+The first of the series will then be found to give the same result as that produced from the divergent series ( which is evidently terminable in form in the case indicated ) , except that it begins at the other end .
+In this case the other complementary solution can be found in finite terms by reducing the order of the equation .
+The particular solution is D ) TD D-1u=H , --1 ( D-_1 ) H +x-"/ ;(D 1 ) f , ( D-2 ) H , - ... , H , being ( f.(D))-'(s-2G ) .
+Let us now return to example 2 , the solution of which , as above found , is in some cases divergent .
+The transformed equation now becomes ( q(D+2)2+r)u+p(D+2 ) ( ru ) + ( ( D+2)2-r2 ) ( S-2U8 ) =-46G .
+Roots Offrt=0 are -2+ .
+/ ( q ) , which call P3 and 12 .
+First complementary series , clxP ( A0q-A1 AO + In general , it will of course be understood that these researches , as to convergency and divergency , relate only to the complementary series , or in other words , to equations deprived of their second member ; nevertheless they will to a great extent , if not throughout , apply to cases in which the second member is in the form of integer powers of x or of log x. I st. When in the set of functions f0(D ) , fi(D ) , f2(D ) , ... fr-_(D ) , fr(D ) , the functionfo(D ) is of a higher dimension with regard to D than any other of the set , or is what we shall here call the dominant function , the solution of the equation can always be found in a convergent series of ascending powers of x ; and if in such a case we solve the equation in a series of descending powers of x , which we can do if we please , that series is certainly divergent .
+This is immediately apparent from the consideration of the law of the coefficients fo(Pl+m)Am+fi(p1 +m)A_- , + ... +fr(i1+m)Am-=O ; which , as m increases without limit , approaches to the form frm f0m .
+fAm o Ac A f2mA _fm mm Am=-fomm-l- ' fmAm-2-f-mAM-r_ or mA.=--a_lA_lj-bn_A_ m-*m- ... .
+, assuming that all the functions are only one degree lower than Am , which is the least favourable case for convergency .
+Therefore , if the largest of the terms of the righthand side of this equation be 4-1 , A_p , we have A clA Am 'Am-p ; and we can therefore arrive at a point in the series at which the ratio of the coefficient of xm to that of xm~diminishes without limit .
+It will also be observed that the series introduced by two or more equal roots are of the same character as the original series from which they are derived ; for , Am being dAm dAm of the form ( p,31+m ) , we have d dndm and when A , -p is of a higher order with redA~_p dA d ference to m than A , dmn is also of a higher order than d- , and so for the other differential coefficients .
+We have now merely to inquire what must be the form of the original equation that of(D ) may be the dominant function .
+Referring to ( 2 .
+) , we see that it is necessary that the factor of the highest differential coefficient of u should contain one term only .
+If this factor be 1 or x , no restriction need be imposed on the succeeding factors .
+If it be x2 , the factor of the next lower differential coefficient must not dnu^ dn-Iu contain an absolute term ; and generally , if xP be the factor of dj the factor of dj-r must begin with a term not lower than xp- , that of d , x-2 with a term not lower than xp-2 , and so on .
+dnu In short , all equations where x does not enter into the factor of x-p and all equations of the form dn , u dd-2U2 xP + ( k +l p+ Gdg ( hnzp-2+ d +..=o , where p is a positive integer , are soluble in convergent series of ascending powers of r. The third example above given is an instance of this form .
+2ndly .
+When in the set of functions fr(D ) , f/ _ , ( D ) , ... i(D ) , fo(D ) , the functionfj(D ) is the dominant function , the solution of the equation can always be found in a convergent series of descending powers of x ; and if in such a case we solve the equation in a series of ascending powers of x , that series is certainly divergent .
+This is apparent , as before , from the consideration of the law of the coefficients , fr(l -m)Am+fr_l1(~,1-)Am , + ... +of( m-m)Am_r= 0 , which , as m increases without limit , approaches to mAnm=ah_ Am_--k.n-Am_--2+ ... in the least favourable case for convergency .
+On proceeding to inquire what must be the form of the original equation , we see again that it is necessary that the factor of the highest differential coefficient of u should contain one term only .
+If this be xp , then the other restrictions are , that the factor of the next differential coefficient must stop at xp-l~ that of the next at xp-2 , and so on .
+In short , for all integer values ofp the equation XPtdnu fad-l/ u , i_d-2u xp +(an-+b_jxz +..+kx P-1 ) d +l ( -+b +.-2+ u , -+.-=0 is soluble in a convergent series of descending powers of x. The 4th example above given is an instance of this form .
+3rdly .
+When in the set of functions fo(D ) , f ( D ) , ... f~1(D ) , f7(D ) , the functions f0(D ) and f(D ) are of the same dimensions , and are both dominant over all the other functions , the solution of the equation can be found in a series of ascending powers of x , which for some values of x is convergent , and for other values of x is divergent ; and the solution can also be found in a series of descending powers of x which is divergent for all values of x for which the other series is convergent , and convergent for all values of x for which the other series is divergent .
+For in the ascending series the law of the coefficients approaches the form , ( the coefficient of the highest power of m infom being 1 , and that in fm being , , ) Am= lnAm-r and in the descending series the law approaches to InAm= +Am-r* The former series is therefore convergent for all values of x numerically less than ( I , )- , and divergent for all values of x numerically greater than this limit ; and the latter series is divergent for all values of x numerically greater than this quantity , and divergent for all values of x numerically less .
+The equations to which this rule is applicable ate of the forms , ( p ' being less than p , ) dnu dn-'u dn-2u ( *P '+InXP ) Cn+(Wn-P I'..+ -+-nlXP ) dn-I + ( gn-2XP / -2+..+h^n2XP-2 ) dn-2 +..=0 , and dnu dnu dn2u ( an+e ) dx n+(an-i + bx-X+..+kivP-1 ) d2-I + ( a , -.+..+h --2 ) dx-2 + ... =O .
+The second example above given is an instance of the first of these forms .
+4thly .
+When in the set of functions fo(D ) , f(D ) , ... fr- , ( D ) , fr(D ) , one or more of the intermediate functions is or are of the same order as the extreme functionsf0(D ) and f.(D ) , or as the highest of these two when they differ in dimensions , the series obtained by the above processes will be divergent for some values of x , and we have not as yet any method of deriving a convergent series corresponding to these values ; and if one or more of the intermediate functions be of a higher dimension than the extreme functions , the series obtained by the above processes will certainly be divergent .
+These remaining cases therefore sever into two species ; first , where some of the intermediate functions are of the same order as the highest of the extreme functions ; secondly , where one or more of the intermediate functions are dominant .
+The first of these species includes equations of the two following forms:-dpU dn"-lu ( a , xP'+ bxP+ ' + +. .
++I ) d +(a_'-'+ + .
+) _7+.+(aOXP'+ ... )u=O , in which there can be no function higher than f(D ) ; and dau dn 'u ( an +b *+ + 1 , l x ) d , + ( an-I+ bn lX+ + knlXp ) dxn-I +X .
+= O , ( a , +_b~_+..+ , x- ) +_( , -i+^+ ... +^--1 , ) in which there can be no function higher thanf , ( D ) .
+In these cases it will easily be seen that the law of the coefficients of the ascending series , as m increases without limit , approximates to a , nAm +bnAm , _+. .
++ InAm_pO , and the series therefore approaches without limit to a recurring series , in which the constants of relation are bn cn 2n an an 'a and the denominator of the rational fraction , to which the residue of the series approaches , is -(af+bnx+..+lnxP ) .
+In the descending series , the law of the coefficients approximates to InAm+knAm , -i+..+anAm-= 0 , and the series approaches without limit to a recurring series , in which the constants of relation are kn 1 bn 1 an 1 In X In XP 1 In XP and the denominator of the rational fraction , to which the residue of the series approaches , is , , ( a+ bx+. .
++ ln ) .
+Whenf0(D ) is higher thanf.(D ) , the ascending series alone can be used ; whenfr(D ) is higher than f0o(D ) , the descending series alone can be used ; and when fo(D ) and fr(D ) are of the same dimension , either may be used ; and the approximations above referred to render it probable that these series , notwithstanding that they may be divergent , are the developments of continuous algebraical expressions .
+The second of the species above referred to includes all equations which are excluded from the preceding forms ; that is , all forms which transgress both the restrictions to which the equation in the third case is subjected .
+Of these forms , the solutions , whether obtained in ascending or in descending series , are always divergent ; and the divergency appears to be of an extreme and unmanageable character .
+In this case we have an intermediate dominant function ; and the convergent solutions might , from considerations of analogy , be presumed to be series infinite in both directions , the roots of the dominant function determining the incipient terms .
+The treatment of these forms requires the solution of the equation in finite differences.*+Ru8x+3+ QbUr+2+ Puxz1 +lux+ Pux-i +Qxu-2+Ru+ .
+G , not starting from either of the two extreme terms , as is done above , but from the term u , , so as to get a result in the form u=. .
++M-2G , +2+M_ , lGxl+MoGx+M , lGx , +M2Gx2+. .
+It would probably not be difficult to show that such a solution exists ; but I have not found one in a form available for the purpose to which it is desired to be applied .
+2o2 283 Throughout the preceding investigations , the series obtained by the processes here displayed undergo a modification of form in the event of the expressionf0t or ft , as the case may be , having one or more sets of imaginary roots .
+Let there be a couple of such roots of the form oa+-_/ -1 .
+In the ascending series these roots give cixX+P -l(AO+ALx+A2X2+. .
++AmX+. .
+) c2x-V(Bo+Blx+B2x2+. .
++Bx+. .
+) , where fo0(-+n+Pm 1)Am+fi(Y+m+PJ -l I)Am-l+ ... =0 and / fo(aS m-3V--1 )Bm , fi(+--mP/ -1)B_ , + ... =0 are the respective laws of formation .
+It is apparent , therefore , that if Am be of the form P(o+JV^/ -1 ) , Bm is of the form ( --PV/ i1 ) .
+Making c2=c1 , and remembering that x Y-P +x-e-1=2 cos ( 3 log )x --x=2/ ~1 sin ( 3 logx ) , the sum of the two series gives the double series , 2cxo &lt; ( cos ( p logx ){Ao+B0+ ( A , +Bl)x-+. .
++(Am+Bm)xm+. .
+} +l 1 sin ( logx){Ao-Bo+(A , -Bl)x+..+(A m-Bm)xm+. .
+} ) ; which is necessarily real , since Am+Bm is purely real , and Am Bm is purely imaginary .
+Making now c =c , , the sum of the two series gives another double series , ( making c= --J 1 , ) 2kx( / -1 cos ( 3 log x ) { A0-B+(A-B+ )x. .
+( A-m-Bm)xm"+. .
+} + sin ( 3 log x){Ao+Bo+(A , +B1)x+. .
++ ( Am+Bm)em+. .
+} ) , which is likewise real .
+The descending series may be treated in a similar manner .
+18 .
+Most of the examples to which the preceding processes are applied have been taken from the paper in the Philosophical Transactions for 1844 , in which Mr. BOOLE developed his new General Method in Analysis , with which the subject matter of the present paper is closely connected , though the methods exhibited are distinct ; unless indeed it should prove , that the interchange of the symbol of operation and the independent variable , and the general relation exhibited by Mr. BOOLE'S fundanmental theorem of development connecting any system of linear differential equations with a corresponding system of equations in finite differences , are merely different representations of a part of some more general method or process .
+The principal difference in results , so far as concerns the solution iseries of linear differential equations , appears to be , that in this paper the law of relation of the coefficients of each series is distinct , and substantially the same in form for all ; and that it is not necessary to have rlecourse to the method of parameters in the cases of equal roots , or in the case of there being a term G on the right-hand side of the equation .
+In the case of imaginary roots , the laws of the series are in the first instance distinct from each other , and afterwards combined in couples .
+19 .
+The investigations contained in the latter part of this paper reduce the problem of the integration in finite terms of the general linear differential equation with rational coefficients , to the finding of an algebraical expression representing the development A +A , x+A , x+ ... .
++ Ax , + ' ... , where Ao= 1 , and the law of relation is fonzAm +fmA_ , +f2mA2+. .
++frmAm_ , =O ; the functions fofif2..fr being known specific functions .
+The series to be summed closely resembles a recurring series ; it differs from it in this particular , that the law of relation , instead of being constant , has a uniform and simple variation as it progresses along the series .
+If the rational coefficients should be themselves infinite series , the process still applies , the only difference being that each term would be formed from all the preceding terms , instead of being formed from the r immediately preceding terms , or from all the preceding terms when the number of them is less than r. In those cases in which the equation is soluble in finite terms by known methods , we are enabled to assign the algebraical expression for the series ; a result which may be used for the discovery of generating functions .
+Thus , taking the general equation of the first order , ( a + bx +cx2 , +. .
++ , ) + ( a + box +C +. .
++ k-')=u =0 , we see that ao + bo+ .
++ koxn-1 go al+bl+ .
++lxn d =A.o+Alx+AA2+..+Am2x + ... , where Ao= 1 , and the general law of the series is a , mA , + ( b , ( m--1)+ao)A , _ , + ( cj(m-2 ) +bo)Am_2+ ... ( tl(m--n ) +ko)A_ , =O .
+If we take the general equation of the second order , ( a2+bdu+ du + ) dU ( a , +b , x+..+ + 12 +(a+ ) ( b +kx- ' ) + ( a0+bX +. .
++ ho-u=0 , the law of the series will be a , m(m1)A-+(b2(m1)(m-2)+aj(ml))Am , -+(c2(m-2)(m-3)+bj(m2)+ao)A_-2+. .
++(41(m-n)(m--n1 ) +k , ( m-n ) +ho)Am-=-O ; and generally , in equations of the nth order , the law of relation involves the nth power of m , the number of the term sought for .
+Thus the determination of soluble 285 ( cases of linear equations resolves itself into the inquiry , in what cases can a series whose scale is of the nth order be resolved into a number of series whose scale is of the first order .
+20 .
+I have not thought it necessary here to extend these solutions in series to linear partial differential equations .
+The pr:ocess by which the extension can be made is well known , and has no peculiar relation to the methods here developed .
+

@@ -1,0 +1,63 @@
+Converging Sequences in Oscillating 3j3 In conclusion the author desires to express his sincere thanks to Prof. J E. Petavel and the authorities of the University of Manchester for the valuable facilities granted for the carrying out of the work , and also to express his gratitude to the Council of the Royal Society for a monetary grant to defray the cost of the special apparatus needed .
+Note on the Existence of Converging Sequences Certain Oscillating Successions of By Prof. W. H. Young , Sc.l ) .
+, F.R.S. ( Received August 16 , 1915.* ) 1 .
+The object of the following note , is to prove that , in a large class of important cases , a succession of functions can be shown to contain sub-sets of functions which converge .
+The interest attaching to the question is well known , and is sufficiently illustrated by the use I have made of these considerations , for example , in my paperf on the conditions that a trigonometrical series should have a certain form , as well as elsewhere .
+The first theorem on the subject is , as is there pointed out , due to Arzela .
+2 .
+Theorem 1.\#151 ; Given a function which is upper semi-continuous on the left and lower semi-continuous on the right , there is a countable set of points dense everywhere , such that the value of the function at any point not belonging to the set is the unique limit of the values of the function at points of the set in a neighbourhood of the point when that neighbourhood shrinks up to the point .
+In fact , since the limits of approach are the same on the left and on the right , except at a countable set of points , it follows that , except at a countable set of points , the function is both lower semi-continuous and upper semi-continuous ; in other words , that it is continuous , except at the points of such a set .
+Add to this set , should it not be everywhere dense , any countable everywhere dense set , and we get such a set S as that contemplated in the enunciation .
+For a point not belonging to it the value is the unique limit of values in the neighbourhood equally , whether we confine our attention to points on the countable set S or not .
+* A revision of one part of the proofs , due to Mrs. Grace Chisholm Young , was received on October 25 , 1915 , and has been incorporated in the paper .
+t Published in these ' Proceedings,5 vol. 88 .
+The theorem contained in Cor. to Theorem 4 of para .
+5 of the present communication is there utilised , but its proof is in part based on an erroneous theorem , quoted from the ' Proc. London Math. Soc. ' VOL. XCII.\#151 ; A. 2 1 ) 354 Prof. W. H. Young .
+Existence of Converging 3 .
+Theorem 2.\#151 ; At a point at v:hich all the lower functions of an oscillating succession are lower semi-continuous on the right , all the upper functions are also lower semi-continuous on the right .
+For proof see my paper on homogeneous oscillation in 4 Lond. Math. Soc. Proc. ' 4 .
+Theorem 3.\#151 ; -If all the lower functions of a succession of functions are upper semi-continuous on the left and lower semi-continuous on the right , then in any sub-succession of the functions a sequence of the functions can be found , having a unique limiting function , which is upper semi-continuous on the left and lower semi-continuous on the right .
+Take any countable set of points dense everywhere , Pi , P2 , ... , Pw , ... .
+Select any one of the limits at Pi ; suppose , for instance , it is the lower limit ; we then choose out a sub-succession of the functions , having , for the value of x corresponding to Pi , this selected limit as unique limit .
+Omitting , now , the first function , / ij2 ( x ) , of this sub-succession , let us , in like manner , choose out a sub-succession of the remaining succession , having at P2 a unique limit , which we select to be the value at P2 of the lower function of the first sub-succession .
+We then repeat this process , that is , we omit the first function , f2 , \ ( x ) , of this new succession , and determine a sub-succession of the remaining succession , having at P3 a unique limit , which we select to be the value at P3 of the lower function of the second sub-succession .
+Proceeding thus , ad infinitum , we take the succession / l , l ( \#171 ; )\#187 ; A1 ( \#187 ; ).\#166 ; .
+, f(\#171 ; )-. .
+, ( 1 ) formed by the successive omitted first members .
+As a sub-succession of the first sub-succession , this has a unique limit at Pi .
+As all but the first member belong to the second sub-succession , it has a unique limit at P2 , and so on for the remaining points P3 , ... , Pw , ... .
+But these points are dense everywhere , so that if x is any point not belonging to this countable set , and such that at x the upper and lower functions of the succession ( 1 ) are continuous , these functions will agree at x , for the value of either of them is then the unique limit of their common values at points of the countable set , when we approach x along this set .
+But , as pointed out in the proof of Theorem 1 , a function which is of the type specified for the lower function is continuous except at a countable set of points .
+Also , by Theorem 2 , the upper function is of the same type , and therefore also continuous , except at a countable set of points .
+Hence , except at a countable set of points , our sub-succession ( 1 ) has a unique limit at each point x. Sequences in Certain Oscillating Successions 355 Let the exceptional points be Qi , Q2 , ... .
+We can now form a sub-succession of ( 1 ) , having a unique limiting function .
+We only have to perform anew the process already described , substituting the sub-succession ( 1 ) for the original succession , and the points Qi , Q2 , ... , for Pi , P2 , \#151 ; Thus , we form first a sub-succession of ( 1 ) , having at Qi a unique limit ; we omit the first member , of this subsuccession , and form from the remaining members a second succession , having at Q2 a unique limit , and so on .
+The sub-succession ( 2 ) formed by the omitted first members has then a unique limiting function .
+For , as a sub-succession of ( 1 ) , it has at each point x which is not one of the points Q)t a unique limit ; and , as a sub-succession of the first subsuccession of ( 1 ) , it has at Qi a unique limit ; as a sub-succession of the next sub-succession it has at Q2 a unique limit , and so on .
+Thus , at every point , the sub-succession ( 2 ) has a unique limit , so that ( 2 ) is such a sequence of the original functions as was sought ; for the limiting function of this sub-succession , being one of the lower functions of the original succession , is upper semi-continuous on the left and lower semi-continuous on the right .
+This proves the theorem .
+Cor. The theorem is still true if infinite values he and the functions are unbounded , the word sequence then being defined in the extended sense , in which proper divergence may take the place of convergence .
+o. Theorem 4 .\#151 ; Ifall the lower functions of a succession of integrals are upper semi-integrals , there is in any sub-succession a sequence of integrals converging to an upper semi-integral .
+lor an upper semi-integral is lower semi-continuous on the right , and upper semi-continuous on the left .
+Cor .\#151 ; If a succession of integrals of function which are bounded below in their ensemble oscillates boundedly , there is in every sub-succession a sequence of the integrals converging to an upper semi-integral .
+For since the succession is bounded below , and the succession of integrals is bounded , the former is semi-integrable below and therefore all the lower functions of the succession of integrals are upper semi-integrals .
+6 .
+It may be remarked that the above theorems and corollaries give rise to other similar theorems if we interchange the words upper and lower , above and below throughout .
+It is also worthy of notice that in the Cor. of the last article the restriction that the succession of integrals oscillates boundedly is not a necessary one .
+n fact by adding a suitable constant A to the functions in the successions to 356 Converging Sequences in Oscillating Successions of Functions .
+' ' . .
+be integrated , we can secure that they are all positive at the cost only of adding Ax to their integrals .
+The integrals are now all monotone increasing , and the same is* therefore necessarily true of the upper and lower functions of the succession formed by them .
+Hence these lower ( as also the upper ) functions of the succession of integrals are lower semi-continuous on the right and upper semi-continuous on the left .
+This holds good if from these we subtract the continuous function Ax .
+Hence Cor. 2 of Theorem 3 is applicable .
+7 .
+In other words , if by a sequence we mean a succession of functions which everywhere either converges , or diverges properly , we can enunciate the ?
+following theorem .
+Theorem 5.\#151 ; If a succession of summable functions is bounded in one sense , " then the integrals of the functions form a succession such that in every subsuccession there is a sequence converging to a semi-integral , which is upper if the original succession be bounded below , and lower if it be bounded above .
+8 .
+Yet another form can be given to our results in a very particular case .
+We may consider any succession of functions of bounded variation with the single restriction that the total variations of these functions are bounded in their ensemble .
+By expressing each function as the difference of its positive and negative variations to a constant pres , we may then replace the succession by two bounded successions of monotone increasing functions of which it is the difference .
+We thus easily see that the following is true : Theorem 6.\#151 ; If a succession of functions of bounded variation has its variations bounded in their ensemble then there is in any sub-succession of the succession a sequence of the functions converging to an unique limiting function , which is ' % of course itself a function of bounded variation .
+

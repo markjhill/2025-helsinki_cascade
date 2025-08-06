@@ -1,0 +1,1051 @@
+On a General Method in 4nalysis .
+By GEORGE BOOLE , Esq. Communicated by S. HUNTER CHRISTIE , Esq. , Sec. R.S. Sfc .
+Received January 12th , -Read January 18th .
+MUCH attention has of late been paid to a method in analysis known as the calculus of operations , or as the method of the separation of symbols .
+Mr. GREGORY , in his Examples of the Differential and Integral Calculus , and in various papers published in the Catnbridge Mathematical Journal , vols .
+i. and ii .
+, has both clearly stated the principles on which the method is founded , and shown its utility by many ingenious and valuable applications .
+The names of M. SERVOIS ( Annals des Math6matiques , vol. v. p. 93 ) , Mr. R. MURPHY ( Philosophical Transactions for 18373 , Professor DE MORGAN , &amp; C. , should also be noticed in connection with the history of this branch of analysis .
+As I shall assume for granted the principles of the method , and shall have occasion to refer to various theorems established by their aid , it may be proper to make some general remarks on the subject by way of introduction .
+Mr. GREGORY lays down the fundamental principle of the method in these words : " C There are a number of theorems in ordinary algebra , which , though apparently proved to be true only for symbols representing numbers , admit of a much more extended application .
+Such theorems depend only on the laws of combination to which the symbols are subject , and are therefore true for all symbols , whatever their nature may be , which are subject to the same laws of combination .
+" The laws of combination which have hitherto been recognised are the following , r and g being symbols of operation , u and v subjects .
+1 .
+The commutative law , whose expression is Trgu=Tru .
+2 .
+The distributive law , Zr(u+v ) =-Tu+Trv .
+3 .
+The index law , rXmnu r= m+nU .
+Perhaps it might be worth while to consider whether the third law does not rather express a necessity of notation , arising from the use of general indices , than any property of the symbol r. The above laws are obviously satisfied when r and e are symbols of quantity .
+They are also satisfied when z and g represent such symbols as d , A , &amp;c. , in combination with each other , or with constant quantities .
+Thus , d ( au)=au , a( du dyv d These properties of the symbol 7 , taken in connection with the principle above enunciated , lead to the most important results that have been yet established by the calculus of operations .
+We have an early example of their application in the symbolical form of TAYLOR'S theorem , viz. d A , / t+h)= ^S fA result to which we shall often refer is the following .
+If we have a linear equation with constant coefficients of the form rnu +Al7rnlu+A2n-2u ... + Anu-=X , wherein r operates solely on u , and is therefore commutative with respect to A1 , A2 , &amp;c. , then u-={+Atr-1 +A2 , --2. .
++An } -1X =Nl(-a1)-lXX+N2(r-a2)-lX &amp;c. , N1 , N2. .
+a , a2. .
+having the same values as in the resolution of the rational fraction into a similar series of terms* .
+It is obvious that the above method is of necessity limited in its application .
+It is only in linear equations with comstant coefficients that the operative symbols combine in subjection to the law we have supposed .
+Accordingly it has been remarked , that the calculus of operations has tended rather to simplify the processes of analysis than to extend its power .
+The object of this paper is to develope a method in analysis , which , while it operates with symbols apart from their subjects , and may thus be considered as a branch of the calculus of operations , is nevertheless free from the restrictions to which we have alluded .
+The linear equation with variable coefficients , whether in differentials or in finite differences , will be treated under the form fo(r ) u+Jr+f(re2(r)U + &amp;c. = U , U being a function of the independent variable x , and X and g operative symbols , which combine in subjection to the law f(_)9 =rf(7+m)u , and which , when the subject function u is unity , further satisfy the relation A()r)mf(M)r .
+It might be expected , a priori , that a theory of linear equations founded on such a Cambridge Mathematical Journal , vol ii .
+p. 114 vol. iii .
+p. 239 .
+226 basis , wollld be of peculiar character .
+Its actual advantages I conceive to be the following:1 .
+The necessary reductions , transformations and developments are effected , for the most part , by theorems , the expression of which is independent of the forms of foo(r ) , fl(4r ) &amp;c. 2 .
+We are thus able to establish a perfectly general method for the solution of linear differential equations total and partial in series , and for the calculus of generating functions .
+3 .
+The form of the analysis affords facilities , which are believed to be peculiar to itself , for the finite integration of linear equations , and for the classification of integrable forms .
+The received theory of the solution of linear differential equations in series is given by EULER* .
+It consists in assuming uz-=amXm , and determining by substitution the relation connecting the successive values of a. , or as it is called , the scale of the equation .
+This method fails when , in seeking the first index of a development , we arrive at equal or imaginary values .
+I am not aware that any mathematician has shown how this failure is to be remedied .
+Now the method developed in this paper has no such cases of exception .
+The theory of series and of generating functions has been successively discussed by EULER and LAPLACE .
+A full account of their researches is given in LACROIX'S larger treatise on the Calculus , torn .
+iii .
+, in the chapters Thdorie des Suites and Thdorie des Fonctions Gdndratrices .
+I class these investigations together , because , although their objects are distinct , their mathematical theories are virtually the same .
+EULER proposes to determine the generating function of a series , 2umtm , when the coefficients are formed according to such a law as the following : _ am+ b)(am 4+ bl)..* * m(cm+ e)(clm+ el ) ... He shows that by successive differentiations and integrations , the factors am +b , cm+e ... may be eliminated , and the problem finally reduced to the solution of a differential equation .
+LAPLACEt , considering the unknown quantity u , in an equation of differences as the general coefficient of the expansion of a function u , proposes to determine u , and then by expansion to obtain u , .
+It is not necessary for us to consider here whether the theory of generating functions is of any importance to the solution of equations of differences .
+The discovery of the generating function of a series is in itself a problem both interesting and important .
+Those who have paid attention to the subject will , I think , admit that the theories by which EULER and LAPLACE have endeavoured to accomplish this object , labour under two defects , one arising from the tedious character of the process by which the differential equation is formed , the other from the difficulty of its integration .
+This does by no means derogate from the genius or the claims of those wonderful men ; for the value of every discovery is in some measure relative , and is to be measured by the state of contemporary science as well as by its abstract merit .
+The advantages which the method of this paper is believed to possess as respects the theory of series , are the following : 1 .
+The law of the series being known , or the equation of differences given , the differential equation is known by inspection .
+The rule is absolutely general , whatever may be the forms of the coefficients .
+2 .
+The form under which the differential equation is presented offers great facilities for its integration .
+Those facilities are chiefly owing to the circumstance , that the form of the equation permits us , as before remarked , to effect the requisite transformations by general theorems .
+That this form has a peculiar fitness for the processes of integration , is further shown by the circumstance , that the method of resolution which in the common theory leads to the solution of differential equations with constant coefficients , conducts us here to the solution of a large class of equations with variable coefficients .
+The arrangement of the subjects treated in this paper will lead us to consider,1st , linear differential equations ; 2nd , the theory of series ; 3rd , the theory of generating functions 4th , the theory of equations of finite differences .
+A. Preliminary Theorems .
+Prop. 1 .
+Let r and g be distributive symbols which combine in subjection to the law ?
+/f(=r)-.(f()u , ... ... ... .
+( 1 .
+) X being a functional symbol operating on pr , in such manner that Xf(r ) =f( , r ) ) , it is required to expandf(r+f ) in ascending powers of g. We have f( u =Xf((r)gJ2u , en ? .
+f ... .
+( . .
+) m ( fr)8u= ?
+mf( , r))muJ Let +=--vt thenf(r+ ?
+e)u=f(()u .
+Now , as a operates solely on u , it is commutative with respect to the constants in f( ) , wherefore V/ ( v)u =f9)w u. Or dropping the subject u , and writing r+for v , ( x+Sg+f(r+ ) =fQ(+ )(+x4- ) .
+Letf(r+f)u= m(-r)ruu , then , still supposing u to be understood , ( r + )f(r+ ) =zfm(r)m +f ( r)n , = 2rfm ( r)4m +sefm ( r ) , by =Ifm(%mr ) +Ifm(z)im +i by ( 2 ) .
+228 Under the first E in the second member the coefficient of gm is zfm(r ) , and under the second : the coefficient of gm is Xfm-1(r ) , wherefore the aggregate coefficient of gm in the expansion of ( +r+g)f(z+ ) is zfm ( X+fm + ( ) ... ... ... . .
+( 3 .
+) Again , we have f( +g ) ( -+ &gt; ) = 2f/ ( er)rm ( +S ) , = fm ( r)em +fm ( ))e+1 , -=:fm ( r)Thm=m"+ fm ( m ) ?
+m+l by ( 2 .
+) , wherein the aggregate coefficient of gm is fm ( )m + , fm -l( ) .
+Equating this expression with ( 3 .
+) , we have fm ( 'X)S.mr -'fm-I(-X ) = ( fm( ) + --fm -1( ) ; fm ( Tr ) f_(7r)-fm-l ( 7r ) r ---r or separating the symbols , fro(W ) ( X--l)fm 1(7r ) ( 4 , ) f()= ( ~ ) ... ... ... ( 4 ) which expresses the law of formation of the coefficients .
+The first term fo(x ) is equal to f(r ) : this may be proved by induction from the particular cases of ( zr+g ) , ( Z+g)3 , &amp;c. , but perhaps more rigidly thus .
+Let k be a symbol such that kf(r)=fO(z ) .
+Then the first term of the expansion of ( +e)f(V +g ) is krf(r ) ; but by ( 3 .
+) this term is rf0o()=rkfar ) , therefore kxf(x ) -r kf( ) ; wherefore z and k are commutative .
+It is hence evident that k can only operate as a constant multiplier , the value of which is independent of the form of f(X ) .
+Let fj[)=_r , then , sincef(r+-)=x+f , it is evident that k=1 , wherefore f0(= ) =f(z ) , and the expansion is completely determined .
+Cor. If the symbols z and g combine according to the law gf(z)u =f(r+ A)gu , Ar being any constant increment , then f(+e ) =f()A +f()/ + / fi().2+-f()1 23 ** * A whence the theorem is manifest .
+If Ayr=--1 , we find f(tr+e ) f=o(w+ ) +f ( )e + A2(-A r ) + &amp; C. , wheref0o(r ) =Jfr ) , and in generalJm( ) )=fml(r ) -f-_l(-1 ) .
+If Are vanishes the symbols sr and C are commutative , l becomes and ( L ) is reduced to TAYaR 's theorem .
+Prop. 2 .
+If p=9(x)s $ ' then x and f combine according to the law eflx)u=JX+r)su .
+For writing u , in the place of u , we have dd =A()+r ) +r &gt; .
+, =f(x+r)eu .
+d r7 Prop. 3 .
+If sr==( - ) and e=s(x)4t ?
+, then yr and g combine according to the law f-A)U=jr-1)fU , we have Af()=f( x ) .
+Now e combines with x according to the law Afr)u f+r)u ... ... ... ( 5 .
+) and f combines with f as if it were a mere symbol of quantity ; hence / ff r:f ^ ^r/ ^ Ju by Prop. 2 =f( " ?
+/ -lI)a This result may also be proved by expandingf( f-L ) in ascending powers of f by Prop. 1 , and operating with on each term of the series .
+d Pr_ r db xProp .
+4 .
+Ifr=and 61=*6 d , then rand g satisfy the following relations , r~~f os MiR .
+BOOLE ON A GENERAL METHOD IN ANALYSIS .
+f(grmu=gmf(r+m)u,.)u .
+( II .
+) f(r)m =f(m)m , ... ... ... ( II .
+) the subject u becoming unity in the second of the above equations .
+d. Xer dxX d For in the last Prop. let p(x)=x , and n=l , then r= r , =--d , and gf(")u=f({7-l)gu .
+By induction , fmf(r)u=f(rm)gmu ; f(X)gmu m-f( r+m)u , which is the first of the proposed relations .
+Now m being a constant is commutative with r , wherefore expandingf(-r+m ) in the second member by TAYLOR'S theorem , in ascending powers of r , we have f()cmu=f g ( f(m)u +f'(m)ru +f"(m)2u+ &amp;c. .
+For u write u , , then d X. dx-Tx= Ux , XU , +rSUx r which vanishes if u-= 1 .
+In like manner Ur2u , Ir3u , &amp;c. vanish under similar circumstances , wherefore f(r)g(1)=---f(m ) ( 1 ) , fA(r ) ?
+=f(m)e , which is the second of the relations in question .
+Prop. 5 .
+The same values being attributed to r and g , we shall have r(-1)..(er-n+ l)u=x(x+r)..(x+-(n-)r)( ) u , ... ( IV .
+) wherein Ax=r .
+We have =r~ '-p-lx Now d - ' -x Now g -lg'U = ( -67----*U =6 dUx X=d -r d therefore -lru-= , r , d n.-Now 1(e-1 ) =)u{ , } .
+Now ( g-2 r)2H=g-l=g-lr=g-2(5r)ru--2W(w-1 ) , and by induction , e(-lwf g-n ?
+( w 1)..(-n-+l )u , r Iwhence But d:x(x+ )..(x+ ( nl)r)nr dx ~d~ ~d r r_ l1 " ( " l )..Cr- , + )u -x(x+r)..(x+ ( nI)r ) =--x(x+r)..(x+(n-l)r ) , u =I(+t**(+ n-1)t ) A)Xf wherefore Scholium .
+In the values of r and g employed in the two last propositions , if we d expand the exponential s. , we find d. I. ds .
+1 .
+d\ dd Let r=O , then r=x , =x .
+Put c=-s , then.r=d ' , 6--= .
+For simplicity , let us d represent d by D , then by ( II .
+) , ( III .
+) , ( IV .
+) the symbols D and as satisfy the following relations : f(D)smu=g --(D+m)u ... ... ... .
+( V. ) f( D)mi"=f(m)m ... ... .
+/ ... .
+( VI .
+) D(D-I)..(D-nf ) ( ) ... ... .
+( VII .
+) These are known relations .
+With a view to the maintenance of an unbroken analogy , it has , however , been thought better to deduce them from the properties of the more general system in r and o , than to assume them as already proved .
+B. ? ?
+1 .
+Theory of Linear Diflbrential Equations .
+Prop. 1 .
+Every linear differential equation which can , with or without expansion of its coefficients , be placed in the form dllnu I IX CIX2 .
+d"-l'u ( a+bx+cx2..)j ++(da+b'x+ d. .
+) + &amp;c. =X , may be reduced to the symbolical form fo(D)u+fD(D ) u+f2(D)au ... =U,. .
+whereintf , f , f2 ... are functional symbols , and U is a function of O. .
+( VIII .
+) 232 dnu For multiplying by xz ' , and considering first the expression ( a+bx+cx2..)XdXn , let x=-w , we have ( a+bz-+cz21..)D(D )..(D n+ 1)u , -aD(DI )..(D-nl)u , +b(D- ) ( D2)..(D-n)szu , c(D2 ) ( D3)..(D ) -n-1))2Uo In like mannler may every term in the first mnember of the original equation be reduced ; also the second miember , which is a function of x , will become a function of Es ; the aggregate of these results will produce an equation of the form ( VIII .
+) , More generally , let it be supposed that we have a system of linear differential equations , total or partial , the dependent variables being ulvl. .
+the independent variables xx2". .
+whereof the second members of the equations are functions ; if we assume 1=Sg , xZ2= ?
+2. .
+the transformed equations may be so written as to satisfy the following conditions .
+1 st. Every term involving u shall be of the form p(D1 , D2..)Sr1j+r2O2u , and similarly for every term involving v. 2nd .
+The second members shall be functions of si , a , ... Let us now consider the expressionfO(D)u+fi(D)sOu+f2(D)g2u. .
+, and let us therein assume u--=umemd , then passing the symbols f0(D ) , fl(D ) ... within the sign of summation , collecting the coefficients of Em , and observing that fO(D)mO=f0o(m)asm , &amp;c. , we have fo(D)u &gt; +f(D)sOt+f2(D)20u ... -=2{((fo(m)umfi ( m)um-1 +fj(m)um_2 ... )~). .
+( IX .
+) which is a particular form of the fundamental theorem of development .
+To any aggregate of terms of the forim &lt; ( D1 , D2^.)rSj+r2..u the same analysis is applicable , whence our fundamental theorem , viz. If U= =u , nn ... Sml+". .
+then P(D1 , D2 , { ..)Er6+r2+..u--{( mn)um,.2 ... ... ( X. ) In applying this theorem to an expression consisting of many terms , the sign E must be affixed to the aggregate in the second member , as in ( IX .
+) , and not to each term separately .
+The relation which the first member of ( IX .
+) bears to the linealr differential equation , is the same as is borne by the coefficient of emO in the second member to the linear equation of finite differences .
+This analogy extends to the fundamental theorem , which may be defined as a general relation connecting any linear differential equation , or system of linear differential equations , with a corresponding equation or system of equations in finite differences .
+2i2 233 On the Solution of Linear Diferential Equations by Series .
+Since , when u=-uej ' , we have fo(D ) u+f i(D)e ( D)2u = ( f ( o ) +f ( m)Um+f it follows that the linear differential equation fo(D)u +f(D)s#u +f2(D)g uu0 ... ... ( 6 .
+) will be satisfied by the assumption u=2ummd , provided that fo(m)ut+fi(m)um-l+f2(Mn)um-2 ... = ... . .
+( 7 .
+) Let p be the lowest value of m , then since u , - , u -2 , &amp;c. vanish , we have from ( 7 .
+) fo(p ) 0 , whence the values ofp are determined .
+If p have n real values , there will be n ascending developments of the form u=upSp +up l1(P+l ) U+2 g(P+2)O ... ad infinitum , up in each development being arbitrary , and the succeeding coefficients formed according to the law ( 7 .
+) .
+This method fails when p has equal or imaginary values , but the following rule is of universal application .
+RULE.-Solve the equation f(D)u=O , and let the complete integral be U=AP+BQ+CR ... .
+, wherein A , B , C. .
+are arbitrary constants , and P , Q , R. .
+functions of 0 .
+Substitute this value of u in the original equation ( 6 .
+) , regarding A , B , C. .
+as variable parameters ; the result will be of the form A'P+B'Q+C'R.O. .
+, ... ... .
+( XI .
+) A , B ' , C'. .
+, being linear functions of A , B , C. .
+, and their dffrential coeffcients ; P , Q,. .
+, as before .
+The system of equations A'=O , B'=0 , C'=O ... being then integrated by thefundamental theorem , the values of A , B , C will be determined in the forms A= ammS , B =b2m , &amp;c. , ao bo. .
+b.ng arbitrary constants .
+The equation to be solved is fo(D)u+fi/ ( D)sdu ... +fr(D)riu= O , in which fo(D)fi(D ) , &amp;c. are rational and integral combinations of D. This equation may be put under the form 2{A ; ( D)eu}i-o0 , ... ... ( 8 .
+) the summation extending from n=0 to n=r .
+Now the solution of the equationf ( D)u=0 is of the form u=AP+BQ+CR+ &amp;c. , ... ... .(9 .
+) wherein A , B , C ... are arbitrary constants , and P , Q , R ... particular values of { ( f(D)}-10 .
+Substituting this expression in ( 8 .
+) , and regarding A , B , C ... as variable * The reader may find it advantageous to look over some of the examples in which this rule is applied before reading the demonstration .
+'234 parameters , we have 2{f , ( D)sn0(AP+BQ ... )}=o , ... .
+( 0 , .
+) to determine the general character of which let us first consider the termf , ( D)6LAP .
+Separating the factors s"A and P , if we expand the operative symbol tf(D ) , as in LEIBNITZ'S theorem , we have f , ( D)g , " AP=f , ( D)a~A X P+-f(D)asgA X DP+fl ( D)A X 1-D2P+. .
+( 10f .
+) The general value of DiP may be thus ascertained : ( D)iP= ( D ) { f0(D ) }-10 , { f0(D ) }-(D)0 , { fo(D ) } -10 , -LP+MQ+NR ... , L , M , N. .
+being arbitrary constants .
+In the present instance , as P does not involve any arbitrary constants , and as the direct operation ( D)i cannot introduce any , it is evident that L , M , N are simply numerical coefficients .
+The above expression for ( D)iP applying to every term of the second member of ( 10 ' .
+) , it is obvious thatfj(D)o0AP will be a linear function of P , Q , R. .
+, whose coefficients are of the general type ( p(D)eOA , p ( D ) ( lenoting a rational and integral combination of ( D ) .
+In like manner , f ( D)E"BQ will be a linear function of P , Q , R , the coefficients whereof will assume the form 4~(D)ze )B .
+Wherefore the equation ( 10 .
+) will become A'P+B'Q+C'R.O , ... ... .
+( 1 .
+) every coefficient A ' , B ' , &amp;c. being of the type n{~(D ) " 0A } +{ 4(D ) , B }+ &amp;c. ; and it is to be remarked , that the terms in this expression which correspond to a particular value of n , are derived from the term which answers to the same value of n in the primitive equation ( 8 .
+) .
+In order to satisfy ( 11 .
+) independently of the particular values of P , Q , R , let us assumne A'=0 , B'=-0 , C'=0 ... . .
+( 12 .
+) Each of these equations being of the general form above given , we shall have by the fundamental theorem , A=-(a , me ) , B=Z(b , ,mO ) , C= ( CmEmO ) , &amp;c. the successive values of am , b , beming connected by a system of relations of the general form , 2(~n(m)amn- ) +2(4n(m)bm_n ) ... b =0 .
+To find the lowest value or values of m in am , b , &amp;c. , , we must assume a-.I , b-il , &amp;c. to vanish , whence the last equation gives po(m)am +-io(m)bm..-O .
+Now this is the type of the system of relations derived from the term.o(D)u .
+But the equationfo(D)u=O is satisfied by the assumption u=AP+BQ ... in which A , B. , are constants , that is , by the assumption u=aoP+boQ. .
+, whence the lowest value of m in am bm. .
+is 0 , and the system ( 12 .
+) is universally satisfied .
+d2u du Ex. 1 .
+Let the primitive equation be X2 , --((a+b-1)x+qx2 ) + ( ab+cqx)u O0 Putting x=ss , we have D(Dl)u(a+b -l )Du--qdDu+(ab+-cqs)u==0 Now qDDu=q(D1)u2 by ( V. ) , hence we have { D(D1)-(a+b-)D+ab)u--(q(D1)--cq)u--=0 , or ( D-a)(D--b)uq(D-c-)S)O=0 , which is the symbolical form of the equation , whence u=-Zummo , with the relation ( m--a)(mh)ulq(m-C)u-0 , whence u'= q ( m-_a)(m-b ) ?
+The equation ( m--a)(mn--b)=0 gives m=a or b , which are consequently the lowest indices of the development .
+If , therefore , we represent the arbitrary constants ua , ut by A and B , we have a--C +l 2 ( a-.c)(a--c ?
+) u=A(xa+Il(a b+ 1 ) 1+l+ .
+12(a-b+ l)(a-.b+b2 ) x+2+ &amp; c ) q-B a~q9 b-c ( b -1c)(b " c ' - &amp;c. + .
+B^+1 ( b--a+ 1 ) t+ q+ 2 1.2(--a +)(b-a +2 ) &amp; d3z d%u du n Ex. 2 .
+Given x3 +3 X2 +qxu= , to find u. Putting x-=- , we have by ( VII .
+) , { D(D1)(D-2)+3D(D--1)+D}u+qsnu=0O , ?
+' D3ugu0 ... ... ... ... .
+( 13 .
+) Now as D represents , the equation D3u-O gives u=A+BO+C02 .
+Substituting this value in ( 13 .
+) , there results D3A + qA + ( D3B + qsB ) + 3D2B + ( D3C + q , " C ) 2+ 6D2CO+6DC 0 , Whence by the rule D3A + qsAA + 3D2B + 6D C= 0 , DJB + q-nOB 6D2C = 0 , D3C + qeC=O ; wherefore by the fundamental theorem A_-aahe , m B-=bm , B C== Icb 236 ANALYSISo .
+m3a , -qa_ , ++3m2b-+ 6mc , = , m3b+qbm_+ , -6m2c , =O , m3C.--qC , _ , = ?
+O , whence we find mam---3mbm- , + 12c.-n M--=q mt log x(bb , ,x"s ? .
+) q(log V)2(Co-+ Cf+ cx". .
+) , o , bo , Co be'ing arbitrary , and the succeed.ing coefficients determined by ( 14 .
+) .
+The solution of the linear differential , equation U=X is found by obtaining a Cm- .
+If we now substitute the preceding t values of A , BC in the equation a-A+Bl+CO , and then change # into x , into log *z , we shall have u+ ( ab+ab , +a+ .
+* ) + ( log Z)2(C0+CG +c .
+2 .
+) ao , 5 c0 being arbitrary , and the succeeding coefficients determined by ( 14 .
+) .
+The solution of the linear differential equation U=X is found by obtaining a particular integral , and adding to this the complete integral of the equation U=0 .
+A particular integral of the equation U=X will be given by the fundamental theorem whenever X is developable in ascending powers of x. If X is of the form X0+X1 log X+X2(log X)2 ... +X , ( log x ) " where X0 , X,. .
+are respectively developable in powers of x , we must assume u=A+B,..+Pf , where A , B ... P are variable parameters , to be determined by the fundamental theorem , in the forms A=:azm &lt; m B= 2bm ?
+Em , &amp;c. On the same principle we must proceed if such forms as cos ( n log ) , sin ( n log X ) , &amp;c. are found in the second member .
+Ex. 3 .
+Given s2 @ +d u +-=log ( ) .
+Putting x=-g , we have D2u+eu=O .
+Make u=A+Bd , then on reducing D2A+2DB+ A+-(D2B+s-B-I)-0 , whence , as in preceding examples , D2A+2DB+A = 0 , D2B+-B= 1 .
+This system of equations differs from those before considered , in that the second members do not both vanish .
+The fundamental theorem gives A==:am ; , B=Zbm ; , 1{ ( mza+2mbmtI , )m } &gt; 2{ ( mZbm +b , _O'}= --l,1 6237 whence m2aq+2mbm+aa_.l=O for all values of m , and m2bm+-b_-l=O for all values of m except m=0 , which gives m2bm+-b _ I , or b-=l ; also from the other equation , a_-=O .
+From these , the values of am , bm , corresponding to negative values only of n , may be determined ; whence writing x for s , and solving the above equations relatively to a , _and b^_ , , we have a*2 a,3 u=5a_+ a ; a + &amp; C. ++^+ + &amp;c. +logx ( b , + ?
++ &amp; C. ) where a_=0 , b=-i1 ; and in general a_ ( m2am+2mb .
+) , b_I= -m2bm .
+This is a particular integral ; to complete the solution we must add the general d2u du value of u given by the equation V2 ++ d +xu=O , which , as in the preceding examples , is found to be ao -a1x +a2 2. .
++ log x(bo+blx+b2 the solution whereof by the fundamental theorem , is A= ^amim ?
+, B =zbmOm , m2am+2mnbm+pmam_ +pnbl_l+ ( Yq(m2n2 ) +r)am.2+ 2qmnbm_.=0 , mn2b 2mnam+pmbm_ -pna._l + ( q(m2 -n2 ) +r)bm_ 2qmnam_2=0 .
+Whence making g=-x , and determining the values of am , bm from the two last equations , we have u=cos ( nlogx)(ao+alxx+a2x2+ &amp;c. )1 + sin ( n log x)(bo +blx+b2x2 + &amp;c. ). .
+( ) ao and bo being arbitrary , and the remaining coefficients formed on the laws p(mn2 + 2n2)a_ .
+, -pmnb_i ?
++ ( q(m2 + 3n2 ) + r)ma _2 + 2n(qni2-r)bm-2 a_ , m(m 2+ 4n ) b p(m2 + 2n2)bm_+ppmnam+ ( q(mr + 3n2 ) + r)mbm_22n(qn2-r)am-2 _.M~~ , ~~~m(m2 + 4nf2 ) If q=0 , p=O , r= 1 , we have for the primitive equation d2u du dx2^+xdx+(n+x)u-O XL2 p +Xa : X ?
++d(x 2+2)U=0 and for its complete integral , u= cos ( n log x)(o +-a2x2+a4.x4 ... ) + sin ( n log x)(bo +b2 2+ b4x4. .
+) , where in general ma a-22nb-_2 mbmQ + 2nam_2 a--m(m2+4n2 ) m(m +4n2 ) The above developments terminate in convergency for every value of x. The more general developments ( 16 .
+) from which they are derived , become , in certain cases , divergent , as is seen by making m infinite in the equations determining am , bm .
+The descending developments which are then to be employed may be thus obtained .
+We have ( D2+n2)u+pDu u+ ( qD2+r)S2u=0O .
+Multiply by s-20 and invert the order of the terms , then ( q(D + 2)2+r)u+p(D+2)-~u+ ( ( D+2)2+n2)s-2u=0 .
+Put =- , , and the above becomes ( q(D-2)2+r)u-p(D2)su + ( ( D-2)2+n2)s28 , u=0 .
+The equation ( q(D--2)2+S)u0O determines the form of the general solution , which will differ according as shall be positive , negative , or 0 .
+The process is in 1~~ ~q all respects the same as in the preceding examples , except that in the result we shall have Sg-- .
+CCCXLIV 2 r If is negative , we find , / , ( a+ q Z2 )ir( / +a2 1 2 ) qq X2V2 +I X2r If -= ) , the solution is of the form ? ?
+1{ a1 a~.oa / L 2\ u= 0 -+2 *'+ log x(bo++ b2x2 ) }r If is positive , q=r cos(n ( bo_+x2_ ... ) } .
+In all these the arbitrary constants are ao and bo , and the values of a , , bl , a , b6 are determined by equations similar to those given in the former examples .
+Objections are commonly urged against the solutions of linear differential equations in series , on the ground that the condition of convergency is fulfilled only within narrow limits of the independent variable .
+Might it not be shown that when a solution becomes divergent , there exists another which at the same limit becomes convergent , and that where no second form of solution exists none is needed ?
+In general the linear differential equation fo(D)u+f ; ( D)su ... +f.(D)n0u==0O has as many solutions in ascending series as there are simple factors info(D ) , and as many descending developments as there are factors of alike nature info(D ) .
+B. ? ?
+3 .
+On the Solution of Linear Partial Differential Equations by Series .
+Let x be one of the independent variables , u the dependent variable , and let the particular object proposed be to develope u in ascending powers of x. Put x=5E and let the equation , supposed to be wanting of a second member , be placed under the form ToUTm+T1 22+u..-r2 ... ... ..( 17 .
+) wherein To , T , T2 are rational and entire functions of D and of the remaining varid d ables x ' , x " , and of the symbols d ' d^ dd Should it then happen that To is of the form fo(D ) , not involving x ' , x". .
+d d " ' we shall assume fo(D)u=O , observing to introduce into the solution of this equation arbitrary functions of x ' , x " , in the stead of arbitrary constants , and proceed with the result as in the cases already illustrated .
+240 Should To involve x ' , x " , &amp;c. , the operations indicated may be of a kind which it is impossible in the present state of analysis to perform .
+In some such instances they may be evaded by a linear transformation , and in all cases the difficulty will be placed in the true point of view , -no slight advantage of the method .
+The theory of equations involving a second member is , mutatis mutandis , the same as explained in the preceding section .
+Ex. 1 .
+Let the equation be such , that , on assuming x-=0 , we have ( D-a , )(D--b)u+-(y , , D ) du=0 .
+Here , by the fundamental theorem , ul = NU &amp; = -lu , m ( m-a)(m-b)ur+ ?
+p(y , d , m)Uml _=O .
+The equation ( ma)(m-b)=O0 gives m=a , m= b ; and as arbitrary functions are to be written in the place of constants , we shall have u= Fa()xa +Fa( +1 ( y)XaI + F(a+2)(Y)Xa+2 .
+, -Fb@()Xb + Fb+l(y)xb+1 +Fb+2()Xb+2 ... where Fa(y ) , Fb(y ) are arbitrary , and in general for the rest Fm(y ) =(.)^(~ ~bIFm(y ) .
+d2U d%U As a particular example , let d2-=f(Y)d2 Multiply by x2 , and putting x=d , D(D--l)u--f(y)2u=O .
+f(Y)F(y ) { f((Y ) } FO(y ) " ' u=Fo(Y)+ 1.2 x2 1.2.3.4 fS(Y ) dFI- ) ) dp F(y ) +-Fl(y)x+ 1.2.3 1.2.3.4.5 d2 Fo(y)Fl(y ) being arbitrary .
+As the operation , implied by the symbolf(y)-~ , can always be performed , the above solution is universally interpretable .
+Iff(y)=a2 , we get a d2Fo(y ) la4 d4Fo(y ) 4 =r .
+dy2 1 +1.2.3.4 dy4 a d2F , ( y ) a4 d4Fl(y ) +F(y)x+1.2.3 dy2 X 1.2.3.4.5 dy4 " Put Fo(y ) =(y)+3(y ) , F((y)=u(p'(y)4'(y ) ) , and substituting , we get u=-p(y+ax)+4(y-aa ) , which verifies the solution .
+22 241 Ex. 2 .
+To integrate the equation 2d du -f(y)2 = .
+Putting x=O , we have D2 , -f(y)2=0 ... ... ... ( 18 .
+) The equation D2u=O gives u=a+BJ , which we shall substitute in ( 18 .
+) , regarding A and B as functions of 0 and y. This gives d2 D2A+ D2B+ 2DB-/ I(y)2-(2A + OS2B ) =0 , whence by the rule d2 D2B2 D2B B--/ ( y ) y 8B= 0 , applied to which , the fundamental theorem gives A= =:amsma , B= bmzsm , d2 m2am + +2m bm--f(y ) am-S-O , d2 m2bm-f(y ) bm-2=0 ; whence writing x for ?
+s , and determining am ) bm ; observing also that a , bo will be arbitrary functions of y , we have U=Po(y ) +pl(y)x+p)2(y)x2+ &amp;c. +log V( , o(y)+~l(Y)X+,2(y)x2+ &amp;c. ) , Po(y)9 , p(y ) being arbitrary , and the succeeding forms of m{(y ) , 4m(y ) determined by the equations dmd2 ( y ) -22t ?
+-2(Y ) PM(y)\y)^ydf ma Am(y ) =f(y)dyi m-2(y ) .
+Euler has exhibited in a series the integral of the equation -.u a du du b_ _ ddy +ydlidy t+ xy ) and on that result are founded tnany of the solutions of partial differential equations in Dr. PEAcocK'S 'Examples .
+' We proceed to consider a somewhat more general equation , of which we shall give two distinct solutions .
+d'2u du du Ex. 3 .
+Given dy+(x+y ) +j(x+y)+f3(x+y)uO , fJ , f2 , f3 denoting any functions whatever , to find u. Put = +yd d and transforming , we have Put x=S , x+y=t , then -=T+F/ , 3=~/ and transforming , we have 242 d2u d2u du du dd + +d +f(t)ds+(fi(t ) +A2(t))dt +f3(t)u O. Multiply by s , and put s--s , we have ( d +f i(t ) Du+ ( dt2 + ( fi(t ) +f2(t))dt +A ( t)u ) whence , by the fundamental theorem , U =-nUm=md UmXm , ( ?
+tfil(t))mum+ ( dl2 + ( f ( t ) +f2(t))d +/ 3(t))Um_=0 .
+Hence , if for Um we write Fm(t ) , the solution will assume the following form , u=Fo(t)+F , ( t)x+F2(t)2 , ... ... . .
+( 19 .
+) where FO(t ) is arbitrary , and in general ~d ( +(A(+/ ^)+-i+fy3(t))F _( ( t ) dFm(t)+fj ( t)Fm(t ) ( -d2 ( ft)(t ) Fm whence we have , as the law of derivation , Fr(t ) = dfi ( t)dt(2 + ( f ; t)(t ) +f9(t))dt Fm ( t)dt .
+To this we may add a precisely similar solution in ascending powers of y , the two together constituting the complete integral .
+We cannot , from the above , deduce EULER'S solution , because that solution is expressed in ascending powers of t , and not of x or y. If , however , for fl(t ) , f2(t ) , f3(t ) we substitute EULER'S forms of those functions , and make t=-s , we shall obtain the result in question .
+The general solution ( 19 .
+) has been given in order to illustrate the fact before adverted to , that when To of ( 17 .
+) is not simply a function of D , the derivation of the coefficients of the final series may involve operations which it is difficult to perform .
+We shall now show how , by a linear transformation , the difficulty may be evaded .
+dd ds ddt dd Assume x-y=s , x+-y=t , then dxds dT+dt dxds+-d d ds ddt_ dd and +------d ~~~and y die ds die +dt dy-dt ds ' and transforming the original equation , we find d2u d2u du du ~2~(f ~ ( t ) ( t ) )ds(f ( t ) +A2(t ) ) -f~ ( t ) = O. Multiply by s2 and make s=s- , we have , on reduction , D(D1)u(fi(t)-f ( t ) ) ( D--l )sEu-(f + ( t ) +fa(t))d+ft ( t))d u 0 , whence , by the fundamental theorem , 243 =Umm =-UmSm mM1)U ( d2 d+ ( 20 .
+) m(ml)um--(if(t)--f2(t))(ml)m_(--t2+ ( fi(t ) +f2(t)t f3(t ) ) Ur-2= 0. .
+( 20 .
+) The equation m(m1)=O gives m=O or 1 , whence uo and ul are arbitrary functions of t , which we shall represent by Fo(t ) , Fl(t ) .
+The value of um , which we shall similarly represent by Fm(t ) , is given by ( 20 .
+) , whence the complete integral will be u=Fo(t ) -F , ( t)s+F2()s2+F3(t)3 ... ad inf .
+, wherein s=x-y , t=x-+y , FO(t ) , Fl(t ) are arbitrary , and in general ( m-1l)(fi(t)-f2(t))Fm(t ) + ( dt+ ( fi(t ) +f2(t))t +f3(t ) ) Fr-2(t ) Fm(t ) = r(m-1 ) The derivation of the coefficients is thus always possible .
+B. ? ?
+4 .
+On the Integration of Linear Differential Equations in Finite Terms .
+If we affect both sides of the equation fo(D)u+fi(D)sWu ... +Jn(D)n ?
+u-=U fo(D ) f2(D ) with { o(D)}-l1 and for f(D)f..(D).write 01 , ( D ) , ,2(D). .
+, and for { ( j(D)}-'l write U , we have u+p1(D)su ... +pn(D)snu-=U ; ... .
+( 21 .
+) under which form the linear differential equation will be treated in the following investigation .
+We however premise the integrability of equations of the form F(f(x)W ) U , dd dxio for , writingf(x)d-=d , whence t &lt; =j , we have The linear equation of the first order is an example of the above class , for , writing it in the form du Pd+u=Q , dd we have only to assume P=-dt ' in order to obtain dx du t-y p , t +U= Q , ^/ ?/ i. 244 Equations of the second order comprised in the above general class are of the form dc ~du f(X)2 d +f(V)( ?
+( )(+p ) + =qu- , .
+( 22 .
+) as is found by writingf(x)dx-=d in the equation:du du t +p~ +qu =U , whence t=fd2u du The equation ( 1 ax2 ) +axd ?
+n2u-=0 is a particular case of ( 22 .
+) , and its solution is determined by the system r dx dPu z t , ~.n2_ --O .
+fJ , / ^Vl+a dt2 The symbolical form of the equation just considered is a(D-2)_2+n2 u+ D(D-- ) t. ( 23 .
+) to which we shall have occasion to refer .
+In the employment of the general symbolical form of the linear differential equation , two principal cases will be considered ; the first comprising such equations as are reducible to a system of an inferior order , by a method of resolution similar to that which is employed in the solution of linear differential equations with constant coefficients ; the second including those whose solution depends on a transformation affecting the dependent variable u. A more general method of resolution will be explained in the sequel .
+Proposition 1.-The equation u+al(D)sg^+(21(D)p(D1)I ... +ap(D)p(D1).p(D-n+ l)s"O , =U may be resolved into a system of equations of the form u-qp(D)Ou=VU , the values of q being determined by the equation -+aql--a ... +a2qO ... + ... . .
+( XII .
+) For , ( D)p(Dl)2_u= p(D)Dp(D)sOu= { p(D)s}2u , and in general q(D)p(D1)..p(D-n+ 1)su = { p(D)q}.u ; so that if we represent the symbol p(D)P by f , the equation in question becomes ( 1l +al+a2 ' ... +a , )u-=U ; u.- .
+=(1 g+a2 ... **+a ) 1U ={N , ( --ql)-'l+-N(l --q)'..-+N , ( 1 -9- , )-'l}U , 245 provided that ql , q. .
+, q , are roots of the equation qn+alqn-l ' +a2qn-2. .
++an=O , and that N1 , N2,..N .
+are of the forms nn-\y n(ql 2)( qln q3..(q , q ) ( )(n j )qnq(n , qr-j ) Let ( l-qlg)-'U=ul , ( 1-q2 ?
+) ='U=u2 , and so on , then uL-q gul= U , or u1-qlp(D)sul =U , whence u=N1lu1 +N2u ... .+N , ... ... ( 24 .
+) wherein uju2..u , are determined by the system of equations , u1 ql(D ) =ul = U , U2q2P(D)U2 = U ' &gt; e ( .25 .
+) Un-qnp(D ) " u -u.J The forms of p(D ) which render the above system integrable will hereafter be determined .
+The most important of these is obviously ap ) , D+b , ( D)-aD+b ' which reduces the proposed system of equations to the first order .
+For the particular form p(D)= ( D)-1 ' , the equation above considered will represent the general linear differential equation with constant coefficients ; for every other form of z(D ) it will represent an equation with variable coefficients .
+d2u Ex. Let the given equation be ( x2-mx +nx4 ) ddu+ 2)U=dx +(2bx+(a+b+2)mx2+(2a+4)nx3)dj+(b(b-l)+(a+l)bmx+(a+2)(a+l)nx2)u= .
+Putting x=a , and reducing to the symbolical form , we have u+D+a +(D-)(D+a- ) 2 ... ... ( 26 .
+) u+mD+b u-+n ( D+b)(D+ b-1)2U 26 .
+) Here ql , q2 are the roots of the equation q2+-mq+n=O , whence qlul qlt 2U2 qiUl-q2tz ill Qz 1g1 q1-q2 q2-q1 l-2 ul and u2 being given by the equations D+a U1-q1 D-+b D U2 =1O , U2q2 D+ U2 )d .
+246 From the former of these equations we have ( D+b)u~ q(D'+a)su =0 , ( D+b)ul-qp q(D+a+I 1)u-= ( d +b)ul-fqi(x +a+ )-0 , ( x-q2 ) dl + ( b(a+1)q)u= O , t _C_ _ e1(l-qj-1 " I Ul2(I bqix +1 x ( 1 -qg)a-^ '+(1 ) x+1 '.=x(l_q , x)-_-+(l_gx)_--+1 .
+The same process would solve the same equation with a second member X. The next class of equations to be considered comprises those which are integrable by a transformation operating on the dependent variable .
+As the theory of the general equation u+pl(D)su+fp(D)u ... -+p ( D)au= U is deducible from that of the equation u+ ( D)u=V U , we , shall first consider the simple case .
+Proposition 2.-The equation u+p(D)gWu=U will be convrted ito the fjorm v+f(D+n)srv=V , by the relations u-=v U=V ... ... ... ( XII ) For assume u=-s , and substituting in the original equation , we have e v+ ( D)s(+)Ov = U,.t v+TP4-p(D+fn)strv=U , by ( V. ) , v+p(D+nfr -Lgrv .
+Let -"U=-V , then U=8O-V , and the above becomes v+p(D+n)rv=V , as was to be shown .
+Proposition 3.-The equation u+p(D)eru=U wilt be converted into the Jfo-t v+y4(D)sr v=V , by the relations u_p t(D ) up(D ) U- .
+~ ; r ; ( nji U= %~ V , 4p(D ) , ( D ) , )(D-r ) , ( D-2r ) ... ( XV.)\ wherein P%(-deos ) td e iinite symbolical poduct ( ; ( Di( D=.- ) , ) , ( D-r ) r44D ) + D)+(D-rW+(D-2r)._ .
+For assume u=f(D)v , and substituting in the original equation , we have f(D)v+ ' ( D)sf(D)v=U,2 MR. BOOLE ON A GENERAL METHOD IN ANALYSIS. .
+% .
+f(D)v+ ( D)f(D-r)er6vb=U by ( V. ) , V+((DDr)roV { ( D)}1U. .
+( 27 .
+) V+ fAD ) f(D ) ... . .
+( 2 Comparing this with the equation v+--(D)Or6v=V , we have D(D)y(Dr ) =JD ) -= ( D ) , ?
+( D ) * .
+f(D ) = f(D-r ) ; ... ( 28 .
+) hence f(D-r ) = , ( D -r)r ) 4'(D-r ) and so on , wherefore the value off(D ) will be represented by the infinite product $(D ) &lt; ( D--r)U(D-2r ) ... D , ( D ) ( D)(D--\r)(D--2r ) - , which we shall express under the form Pr-(D ) ' in accordance with Sir JOHN HERSCHEL'S notation for the integrals of equations of finite differences of the first order , of which , in fact , ( 28 .
+) i an example .
+Hence ( 27 .
+) becomes v+ ( D)rv =V , with the relations =P ( D)V , U=P , ( D)V As the above Proposition is of great importance in the solution of differential equations , we shall devote some attention to the circumstances which attend its application .
+That the expression of Pr-)(D may be finite , it is sufficient that for every elementary factor z(D ) occurring in the numerator , there should correspond a similar factor g(D+ir ) in the denominator , i being an integer , and vice versed ; for p ( D ) _x(D)x(D -r)(D 2r ) ... rX(D + ir)-X(D + ir)x ( D + ( i -)r). .
+, x(I ) + ir)z(D + ( il)r ) X.(D +r ) which is a finite expression .
+Again , p X(D ) _ X(D)(Dr ) ... rXZ(D-ir ) -(D ir)X -D -(i + 1)r). .
+=-(D)X(D -r). .
+( D--(i--)r ) , which is also finite ; the product of any number of such expressions is finite also .
+If X(D ) is aiy elementary factor of ( p(D ) , it may be converted into %(D+ir ) ; for let ( D ) ==(D)x'(D3 ) , and let 4i(D ) =X(D ?
+ir)yl(D ) , wherein G'(D ) denotes the product of the remaining factors , then p ?
+( D ) XD ) A(D ) ) ( D ) which is finite .
+248 If ; ( D ) involves any factor of the form ( D)ir ) it may be made to disappear ; for let P(D ) =X(jD)j , x(D ) , and let , ( D)=x'(D ) , then ( D ) x ( D ) r4P(D)rX(D + ir ) ' which is finite .
+From inspection of the above it is evident that if p(D ) is in the form of a rational fraction , and it is proposed to diminish ( so to speak ) D in any factor of the numerator , or to augment D in a factor of the denominator , by a multiple of r , the process by which u will be finally deduced from v will depend upon differentiation ; but if it is proposed to augment D in a factor of the numerator , or to diminish D in a factor of the denominator , the process will involve integration .
+The former is obviously the preferable condition .
+The general proposition ( XIV .
+) amounts in reality to this , that the equation u+( ( D)r U ... ... ... ( 29 .
+) may be resolved into the system of equations , ,UPr }V U= , V ... , ( 30 .
+) V+(D)r V , ... ... ( 31 .
+) whence V , v , u are to be successively determined .
+Of these equations we shall call the two first the auxiliary ones , and ( 31 .
+) the transformed one .
+This premised , the following are the canons which regulate the determination of the constants .
+1 .
+If no factor of p(D ) disappears in 4(D ) , no arbitrary constants are to be introduced into the solutions of the auxiliary equations ; those derived from the transformed equation being necessary and sufficient .
+2 .
+Disappearing factors are in general of the form D , ab being a multiple of r. a--b Every such factor will give a system of r constants in the solution of one of the auxiliary equations ; if in that of the equation detetrmining V , those constants will be arbitrary , but one only will need to be retained ; if however in that of the equation determining u , one only will be arbitrary , and the rest will be therewith connected by the relation ur+-(m)un_,.0 , derived from the primitive equation .
+The reason why the constants connected with the disappearing factor are arbitrary in V alone , is , that V enters into no other equation than the one in whose solution those constants are found .
+If however the entire series of constants in V are retained , they will be reduced to one by the subsequent differentiations in passing to the value of u. Ex. 1 .
+To determine the general characteristic of those differential equations of dnv the nth degree , the solution of which depends on that of the equation d ?
+qnv=X .
+2 K2 249 lThe symbolical formt of this equation is V+ Sn Y " s ... ... ... ... .
+( 32 -D(D-1). .
+( D--+l ) * ( 32 .
+wherein V is the symbolical form of ( dj X , i. e. the result obtained by writing a ?
+for x in the nth integral of Xdx , no constants being added in the integration .
+From inspection of ( 32 .
+) , it is evident that the class of equations sought , must , on assuming x-=s , be reducible to the form U+(D+ ai)(D + t)(D. .
+( + ) u in which we shall suppose the quantities a , a2,. .
+a to be ranged in the order of their magnitudes .
+Put U=S-ajea then by Prop. 2 , 1 D( + a , -ala ) .
+( +a ' , , al ) 1-* * 33 ) The first factor of the denominator of p(D ) in ( 32 .
+) now corresponds with the first factor of the denominator of 4(D ) in ( 33 .
+) .
+In any of the remaining factors we may by Prop. 2 convert D into D ?
+ir , i being any integer , -hence that they may all correspond with the factors of -(D ) , we must have the quantities --a-1+l a3-a1+2 a4--a13 a -a i1 nXnn all negative integers , which are therefore the conditions sought .
+From ( 32 .
+) and ( 33 .
+) , by ( XIV .
+) , 1_p ( D ) wherein p(D ) = ?
+-D(D -). .
+( D+a , -a ' 4(D ) : D( ) )D ( D + a= 2 a , ) d2v Here al=2 , a2 -3 , n=2 ; also the equation for v is dx-+q2=O , whence v=csin(qv+cl ) ; and by ( 34 .
+) , D-1 u -2P2D_ 5v , =6-2S(D 1)(D3)v , x2 dx2 dx =x ( x2 -3x+ { 3)csin(qx+cl ) , = c{ ( 2 2 ) sin(qx +c ) qcos(qx+ c , ) } } The above example might have been treated directly by Prop. 3 , and without the aid of Prop. 2 , but the final determination of u would not have then depended on differentiation alone .
+Thus we should have had u ( D +2)(D-3)2 u=O , v +D(D1)2= V H_ qqh cPP(D ) D(D-1)D-1 Here D)=(D(D+2)(D-3 ) ' ( D)=D(D1 ) ' wence P2D ) 2(D+ 2-(D-3 ) +2 ' wherefore by ( 30 .
+) , D--I D--1 U=-D2 , oD+ 2V As no factors disappear in 4I(D ) , no constants are to be added in determining V , whence V=0 , v=csin(qx-+c ) , D-1 u=D e2v=(l-3(D+2)-I)csin(qx+cl ) , =c(1 -3s-2(D ) -l 2 ?
+)sin(qx+cl ) , 3 d=c(l--~(x ' ) x2)sin(+Cl ) , =c{sin(qx+cl),2 dxxsin(qx+c1 ) } , 3 =c ( 12)sin(qx+cl)+3cos(qv+ cl)I } d~C i(i q+ 1)c_ ) } Ex. 3 .
+Given the equation U-t+-U ?
+.h2u=O , i being a positive integer .
+This equation , under a slightly different form , has been discussed by MossoTTr in his memoir on Molecular Action .
+It has also been treated by PAOLI and by PLANA .
+The symbolical folrm of the equation is U+(D +i-ii 08 = ... ... .(35 .
+) 251 Comparing this with the general form of Ex. 1 , we have al=i , a2=-i-l , n=2 , q=h , whence D-1 d l2 D-1 v being determined by the equation dh2 .
+Now P2--1-(D1)(D-3). .
+d ( D-2i+l1 ) , and writing xxfor D , we have -( Id -)( --3 ) ( -2+ )v ... .
+( 36 .
+) The value of u may be otherwise expressed thus .
+Applied to any subject , we have D-1= Ds-O-=x xwd-= ) x( d)l fIx1 D--2i+1 =S(2i-1)g-(2i()-l)= i-(2i-1l ) Substituting these expressions in the general value of u , viz. *u=6-iS(D-1)(D-3)..(D-2i+l)v , we find _1 ( d ) 1 id\ U I1 / \d$\ ZdId ~1 [ 'x , -l(x d ' 1 __ 3d ddv I- , / t d v. lx .
+d"u i(Zi+ ) Hence the complete integral of the equation d , +hU2.=o is 1 / ( d ccos(hx ) +c , sin(lx ) XIw"-+ildxl d % du Ex. 4 .
+Given ( x2.+qr3)f + ( ( a+3)qx+(-b--i+i l)x)-+ ( ( a+ 1)qx-bi)u-X , the second member representing any function of x , and i being an integer .
+The symbolical form of the above equation is ( D+a)D u+q(P D)U , ... . .
+( 38 .
+) wherein U={(D+b)(D--i)})-X with the relation x=-a .
+Assume as the transformed equation , D+at V+ &lt; ?
+d + =V , * ... ... .
+( 39 .
+) , p(D ) D then P , D)= P D(D-1 ) ... ( D-i+i ) , wherefore u=(D)(D1)..(D-i4+ 1)v , U=-(D)(D i )..(D-il)V.J ' Now ( 39 .
+) gives ( D+b ) v+q.q(D+a+l)v=(D+b)V , dv dx +by+qx(x+a+ l)v= ( D+b)V , v =+ 3 ll--{d ? .
+( 1+ a-D+b ) * Ex. 5 .
+Given ( 1X)d + ( -(4n-p+ l)x ) -2n(2n-p)u-O .
+This equation has been discussed by POISSON .
+I am , however , unacquainted with his results .
+Passing to the symbolical form , we have ( D+ 2n-2)(D + 2n-2 --p ) ... .
+u.D(D +p ) 0 , ... ... ( 42 .
+) which is integrable in three distinct cases .
+1st .
+When p is an odd integer , by assuming as the transformed equation ( D+2n-1-p)(D+2n-2-p ) 2v v(D+p)(D+p-l ) = , then operating by ( XII .
+) .
+2nd .
+When n is an integer , by assuming D+ 2n-2-p D+p which is of the first degree .
+3rd , When 2n-p is an even integer , by assuming v 2vU =V .
+An equation similar to the above , and susceptible of an interesting physical application , will be treated at length in another part of this paper .
+We are now prepared to assign the general conditions of integrability of the equation u+p(D)eru = U. il ft otf D+m , __ In the first place , if p(D ) involves factors of the form D+n in which is an integer , they may be made to disappear as in the two last examples .
+Such factors being then rejected , let the remaining factors , if any , in the numerator of p(D ) be ( D+mnl)(D+m2)..(D+mr ) , and the remaining factors , if any , in the denominator of p(D ) be ( D+nl)(D+n ) ... ( D+nr ) .
+The conditions required are , that the quantities .
+m2--mn+l 3-mil+2 m-m 1+r-1 ... ... . .
+' ... ... ( 43 .
+) n2tn+l n--nl+2 nr-nl+r-1 rrrJ shall be all integers .
+For in such cases the proposed equation can , by ( XIV .
+) , be transformed into the following : v-+-D)f(D-l)..(fD-r+l )sv=V , ... ... ( 44 .
+) D+m1 whereinf(D ) is equal to ( D+ml ) , or to ( D+nl)-1 , or to DI , according as the factors of p(D ) , under consideration , are of the form ( D+ml)(D+m2)..(D+mn ) , 1 ( D + mI)(D + m)..(D + nm ) r ( D + i)(D + )..(D+ nr ) ' or ( D+ n)(D+ n).:(D +)* Journal de l'Ecole Polytechnique , cah .
+xvii .
+p. 614 .
+254 In each of these cases ( 44 .
+) is reducible by ( XII .
+) to a system of equations of the first degree .
+If for mnl we choose the least of the quantities m1 mn. .
+mr , and for n , the greatest of the quantities n1 n. .
+n , the final derivation of u from v will be effected by differentiation .
+The only integrable forms of the equation u+p(D)sru=U , which are not comprised in the above generalisation , are those which finally depend on a transformation affecting the independent variable .
+They are included , so far as I have been able to ascertain , in the two following general cases , viz. ( D+m)+2 q9 u+a(D+n)(Dn ) ?
+U ... ... . .
+( 4 .
+) ( 45 .
+) ( D+ ?
+)(D+ ?
+n ) ^ U+a _(D6+2+- ?
+U ... ... ( 46 .
+) wherein n-m is an even , and n--m an odd integer , positive or negative .
+If in ( 46 .
+) we assume 0=-- , then multiply by S21 , and reduce , the result will be of the general form ( 45 .
+) , which alone therefore it will suffice to consider .
+By the successive application of Propositions 2 and 3 the equation ( 45 .
+) may be reduced to the form ( D-2)2+ q2 JJ(D ) -1 ) and this equation may always be integrated by putting x in the place of s , and then .
+dx assuming 'fj= ' , " - , vide ( 23 .
+) .
+A single example will suffice .
+Ex. 6 .
+Given ( l--.x2)--(2m+l)xd--(m2r--q2)u=O , m being an integer .
+The symbolical form is ( D +m--2)u--(47 ... .~-0 ... . .
+( 4 .
+D(D-i ) 1 ) Let u=-mu-^ , then by ( XIII .
+) , Prop. 2 , ( D-2)(D -q2 Assume _ v_--(D--2 ) 20 ... . .
+( 48 .
+) Assume ( D)a ( 48 .
+) Here Zv2D(D-m1 ) Here P2 ( D)-2(D-)(D)=D(D-1). .
+( Dm+ 1 ) , whence ul=D(D-1). .
+( D-mn+l)v= .
+( d. ) v. Now ( 48 .
+) gives ( I -x2)d2 , -zd-+q2v=0 , which , integrated by the mrethod albove explained , leads to v=c ccos(q sin.v-1 ) + csin(q sin-x ) , whence finally , u= ( { clcos(qsin'+ in-l ) ( sin-s ix ) } ) ... .
+( 49 .
+) 255 2L By reasoning precisely similar to that of Prop. 3 , it may be shown that the equation u+p1(D)V'u ... +p(D)s'uM=U may be converted into the form v+- .
+, ( D)Sev ... +q-.n(D)v'=V , by the assumptions , -u=pl , ( D ) ) * ( D ) -qR , ,(D ) vPI = 2..w+ ... = v. .
+( XV .
+) p , ( , D)v ' , ,^ , ( D ) ' ' ' U.+ V ( D ) .
+, .
+That these assumptions may be realized , it is necessary that 41(D ) , 4i(D ) .
+i(D ) should be so chosen as to satisfy the conditions , Jip~~(D ) .
+` ; ; ; ~~~ ?
+31(D9)tt+)(D ) _ , a(D))._ , ,(D ) , ,(D-- ) 4 &gt; n(D ) _ , ( D ) , , ( D-1). .
+qP(U-- ) + 1 ) , ~(D)-+ , ( D)+ , ( - ) -i. .
++(D-n+ 1)- ' Tlese conditions being satisfied , the first of the equations ( XV .
+) , viz. u=Pi+iD)v will enable us to deduce u from v. It is seldom that an application of the above theorem is necessary , and a single example on the present occasion will suffice .
+Ex. 7 .
+Given ( a+^bx ) -+(f+g)d+ng=0 .
+The symbolical form of this equation is D+ J-2 b +i -g D+n ?
+--9 a+ ~ ) a+ D(D-i5)=0 .
+Assume as the transformed equation , bD +.+ .
+1 4:^Te+p , 2a V. a , D --i are , + -a D+n--1~ruV .
+Here we have * , ( D)_ pD+nP1 , ( D ) =(D+nl)(D+n2). .
+( D+1 ) , p D^ +n1)(D+n-2). .
+( D+1 ) , and these forms are identical .
+Hence u=(D+nt-l)( D+ -2)..(Dl ( 5 .
+) 0=D(D+ n-i)(D(D+n)-2 ) ... ... ... ... .
+( Dl .
+) As a factor of p(D ) has disappeared in the transformed equation , it is necessary , by the second canon , to retain an arbitrary constant in the value of V. Now the complete integral of ( 51 .
+) is V=ca-+dE-2-. .
++c-(n-1 ) , whereof we shall retain the first term in the second member .
+Hence api . ?
+( D+-f-b bg1 V+a ( D+1i ) +a D+ ?
+2-1 = Cand putting a=x and reducing , dv ( n-l )a ( f--b)+gx2 C dx T ax +6a2 v ( a + be ) ' an equation of the first degree , whence the value of v being determined , that of u is given by ( 50 .
+) .
+The methods above developed are also applicable , mutatis mutanldis , to partial and to simultaneous equations .
+C. ? ?
+2 .
+Some Illustrations of a more General Method of Resolution .
+We have , in Propositions 2 and 3 of the last section , fully considered the theory of the differential equation u+p(D)srdu=U , and have exhibited in Prop. 1a inethod of resolution by which a more extensive class of equations may be reduced to the preceding form .
+In what follows I purpose to exemplify a more general method of resolution , founded on the expansion off(tr+e ) in ( I. ) .
+This method is deserving of particular attention for two reasons ; first , because , in connexion with Propositions 2 and 3 already referred to , it enables us to integrate almost every class of linear differential equations that adtnits of integration in finite terms ; and , secondly , because a stiictly analogous method is applicable to equations of finite differences .
+I shall suppose the differential equation to be placed under the form fo(D)u +f ( D ) ( D)e(u-+f2(D)p(D)P(D1 )2'u .
+=U , where fo(D ) , fi(D ) , &amp;c. art any rational and entire functions of D , and p(D ) any function whatever of that symbol .
+Let D--np(D)e-=r and p(D)Oe=g , then by reasoning precisely similar to that of A , Prop. 3 , it is seen that r and f combine according to the law , f( Are )u=f(-rl ) u. Now p(D)'= , f , p(D)p(D--1)es=f2 , and so on .
+Wherefore the proposed equation will assume the form fo(D ) u+f((D)gu +f2(D ) ?
+2u + &amp; ... ... .
+( 52 .
+) But D=r+nf , wherefore , expanding the coefficients of the above equation by ( I. ) , we have fo(D ) =fo( % ) +nAf0ro(~)e + , ( .)2+ &amp;c. And similarly for the rest , the interpretation of ~ being f( ) =f( ) -f( r L ) .
+2Ln2 257 Substituting the expanded forms of fo ( D ) f/ ( D ) &amp;c. in ( 52 .
+) , we have a result which may be thus represented : o(~r)8u+ql( ?
+r)+(r)gg-{-+ &amp; c , =U , ... .
+( XVI .
+) o0(r ) ; p1(r ) , &amp;c. being rational and entire fuinctions of a. Several distinct cases may here occur , rendering the above equation either integrable , or reducible to a simple form .
+1st .
+It may happen that by a particular determination of n the equation ( XVI .
+) may be reduced to a single term .
+Suppose that it should give 0(r)u= U ; then if r-ql , --2 , &amp;c. are the factors of p0(r ) , we shall , by resolution , have u-=Nlu+N2u2+N3u3+ &amp;c. ( r-ql ) , u6=U ( 'q2)u2-=U .
+On replacing r by its value , D-np(D)E , the above system will assume the form u+lj(D)0u=U , .
+which has already been considered .
+2nd .
+The coefficients fp(sr ) , pl(r ) , &amp;c. may be constant .
+The equation then becomes u +ll+a.luau + &amp; C.= U , which lias been already considered .
+3rd .
+The equation ( XVI .
+) may , perhaps , be reduced to consist of a pair of terms .
+Suppose that it should give ( T)u +pl()gu== U ; this may be reduced to the general form u+ P(X)Su= U. As r and f combine according to the laws of D and s , the above equation may be treated by Prop. 2 and 3 , C. ? ?
+1 , and its integrable cases determined accordingly .
+In illustration of the above theory , we shall investigate the principal integrable cases of the equation ( lx2+m m+n,4)+(t(+x+ym'x2+n^ !
+3)+ ( l"+m1X +n"tx2)uO .
+The symbolical form of the above equation is { ID(D--1 ) +I'D+}l"u+ { t(D)(D-2)+m'(D--I)+m")s}u + { n(D-2)(D--3)+n'(D-2 ) +n"}g2u =0O .
+or , as it may be written , l(D+ a)(D+ ?
+)u+m(D+ ) ( D+')+)(D+f " ) ? ?
+6u=O , ( 53 .
+) 258 wherein lt--3+ v m/ ( l_-f)2-_411 ' _ ( -3 t2-v)a-_411,4 21 21 t__m'-3m+ v(imi-m)2-4mmIn " I , mt--3mV/ ( mI--m)2--4mm " 2m 2m:_n " -5nS+ 'v/ ( nr-'n)2-4lnnt~ l1_/ -5n_/ ( r --n)2-4nn 2n ' 2n It may happen that some of the factors , D+- , D+3 , &amp;c. , are wanting .
+This would modify the investigation .
+We shall , however , here suppose that they are all retained , and shall seek the conditions of integrability under this supposition .
+The equation is reducible to the first order , and therefore integrable , if any of the following eight conditions is satisfied : a 01 =or a or =s or .
+Thus if we have as=c"a= ' , we find / ( D+3)u +m(D +')su +n(D+P")us2u ( D + ) -10= cs- , which is an equation of the first order .
+Suppose that we have 1j , ~~~~ , ... .
+, ... ..(54 .
+) '-= =:--1.j The equation then becomes I(D+a-)(D+a1)u+m(D+oq1)(D+P')Esu+n(D+P')(D+3'1l)S2u=0 ; m D+/ 3 ' Un ( D+/ ')(D +1)2u= , or U-+T i )D+a ?
++I ( D+a)(D+-1 I ='i which has already been integrated , Ex. to Prop. 1 , C. ? ?
+1 .
+There are several other cases in which this method of reduction will apply .
+If the conditions ( 54 .
+) are not both satisfied , let it be supposed that the first is satisfied , we have ( D+ )()D+-3)u+(D +a')(D+P3')1u+ ( D +-')(D+P 3'-1)62ou=0 .
+Put ( D+P3')-=g , D=z+qe , then ( D +)(D+t)u+1(D+a')u+f e2U=-O .
+Expanding the coefficients as ( lirected in the rule , we have ( D ?
++-)(D + ?
+)=(+ -+)(+- ) q(2 ?
+-+q+P-l)g+q2-2 .
+( D+- ' ) +(-'+q ) ; the substitution of these values will give ( + , ) ( +)+ )u+ ( 2+ +g(a.+ 1)+ m gu+ ( q2+mq + 1 ) or , as we may for simplicity write , ( r+ a ) ( r +I43)-+ ( Az+B)gu+C ?
+2u=O , -,59 wherein A=2q+ , B=-q(a+3-1)+ ' , C=g2+ -q+Titis is integrable in several distinct cases .
+1st .
+Put C=O , and taking either value of q , suppose that we have A=O , B=O , then r(+a )(r+P))u=0 , which is reducible to a pair of equations of the first order , and is completely integrable .
+2nd .
+Determine q so as to satisfy the equation C=0 , then ( %r+a)(r+P)u+( Are +B)gu= o , B ' " u+ A(r +a)( + ts)t-0 .
+or u ?
+A A This is reducible to the first order whenever K differs by an integer from c or d3 .
+Thus , suppose that X -a is an integer , then assuming A +v + --~ =0 , B we have _u _ 7r(+ ) , =('l +v +B we have U=PI ; ( 7r ) =PI= +)(+ l( The equation for determining v is of the first order , and the derivation of u from v is effected by processes which involve differentiation only .
+3rd .
+Let A=O , and determining q , let B=O , then a+ o4 p 2U = 0 .
+Suppose a greater than 3 , and assume CV+ =0 , v+ ( , a + )( , ,*'l ) then u=P2 + ==(r+-)(r+-3)..(r+P+2)v .
+Here it is necessary that a and 3 should differ by an integer .
+The equation determining v is reducible to a pair of equations of the first order , and u will be found , as in the last example , by differentiation ; thus , -v= ( D-q))v= { Dq(D +P')s}V , ={D -q ( D+ '+ 1 ) } , dv = ( vc)dq('+ 1 )xv .
+If in the general equation ( 53 .
+) we assume d=-- ' , and multiply by s2 " , we find n(D ' '-c ' 2)(D:- " 2)u+rn(D ' -d-2 ) ( D'-'-2 ) ?
+'u +(D-t-2 ) ( D -2 260 Let u=s2ev , then n(D'a " ) ( D )u+ m(D ' ' ) ( D'-f3 ')'u+ I(D'--a ) ( D'-I3)S2u =O , wherein D'=d The comparison of this equation with ( 53 .
+) shows that if in the equations of condition which we have obtained , we change a into -a " , 3 into --3 " , 1 into n , and vice versed , we shall obtain a new series of conditions of integrability .
+There are probably a few cases which the above analysis would fail to discover .
+Should the attention of analysts be turned to this subject , it is not unlikely that we shall soon be able to tabulate the forms offO(D ) , fi(D ) , f2(D ) , which render integrable the equation fo(D)u +fi(D)s +j2 ( D ) 2gu= U , an object which I have endeavoured to accomplish for the case in which the first member involves only two terms .
+D. Theory of Series and of Generating Functions .
+Let u'tP+u , +la+l9 ... ?
++uxvT be the proposed series , and let the law of deriivation of the coefficients be Um +1(m)u , -1 ... + n(m)un_ , -n , ... ... ( 55 .
+) a law which we shall suppose to obtain for every set of n+1 consecutive coefficients of the series .
+This condition excludes from ( 55 .
+) all values of n from p to p+n1 , and from t+l1 to t+n , i. e. the n first values of m in the series , and the n first values of m following those in the series , because for such values of m ( 55 .
+) ceases to be a relation connecting n+l consecutive coefficients of the series proposed .
+Now by the fundamental theorem , if u=:umxm=um mt , then + , ( D)su. .
++ p.(D ) snu{ ( Um +pl()'uml .
++ ( rnM ) Un-n ) n } but by ( 55 ) , the expression um+pi(m)ur_+ &amp;c. vanishes except for the values of m above particularised , hence to those values alone of m is the summation in the second memIber to be extended .
+The result may be expressed in the following theorem .
+If U= Umm--n Um= , and if every n+ 1 consecutive coefficients of the series are connected by the relation u , + ?
+p ( nm ) Um. .
++Pn ( m ) uu = 0 , then u+ ?
+1(D)su..+-tn(D)u =2 { ( Um +-l(m)Um_..+(m)um _ ) ?
+} , .
+v ( XVII .
+) the summation 2 in the second member of the equation extending to the first n values of m in the original series , and to thefirst n values of m following those which are found in the series , every value of Um being rejected sihich is not contained in the given series .
+The following are particular deductions from the above theorem .
+Let U=UpxP+up-rP+p+r+Up+2rXP+2r. .
+, *+Utx and let the law of derivation of the coefficients be Um=p(mn)um_ , then U-(m )-r-0.( ... ... ... .
+( 56 .
+) '(DI))u =E { ?
+, ^ --p(m)urn-)gn } .
+261 Here the only values of m , whereof account is to be taken , are p and t-r .
+If m-p , we have , under the sign of summation , the expression ( up--(p)up , _)s1 ; , but Up-r not being a coefficient of the original series is to be rejected , so that we have simply upEP .
+Assuming m--t+r , we have under 2 the expression ( ut+ , -p(t+r)u , ) sIt+'r ) , from which ut+ , being rejected , leaves --(t+r)ut , wherefore up(D)_ ?
+r =up ( t + r ) Ut+ ( t.r)o Since by ( 56 .
+) , ut+r-'p(t+r)ut=0 , the above equation may be written under the somewhat simpler form , u-~( ( D)ur=uPsut +r ... ... ... ( 57 .
+) If the series is infinite , u-p(D)Eru=Ups ... ... .
+( 58 .
+) Let u=uP+up+IXP+l+upxP+2 ... +utxt , and let the law of derivation of the coefficients be um+P ( m)u_ , -+2(m)um-2-=O .
+Here by the theorem , u+p1(D)sEu+ 2(D)20U= { ( U+ ( m)Um_l + 2(m)u , ,m.2)s } , the values of m to be considered being p , p+ , -+1 , 1t2 .
+Whence the second member gives upAi+((up+ +1 ( P + 1)up)(P+l ) ( P ( t+ 1 )u+ p2(t-+)u t_ , )(t++a2(t+2)E(t+2 ) ' .
+This expression also may be simplified , as in the preceding case , for up , l +(p+ 1 )u , =-2(P + l)up_ , , l(t+ 1 )ut+2(t+ 1)Ut+1 == -Ut+lWherefore finally , u +(p(D ) u-u+2P(D)S2u=upPS-P2(P+ 1)Upl(P+ ) Ut+(t+1)0+8p2(t+ 2)ut(t+ ). .
+( 59 .
+) -n2 n2(n2 -22 ) n(n-2-2)(n2-42 ) 6 Ex. 1 .
+Let u=l 12--x2+1.2.3.4 X--1 6C 2(m-_ Q2 ) Here == U2(m-2)U , wherefore by ( 57 .
+) , ( D -2)2--n uD(D1)= d2u du .
+( 1 -x2)-~--xd+n2uO u= ccos ( n sin- ' x ) c2sin ( n sin-'x ) .
+Determining the constants by comparison with the original series , we fin(d u=cos(nw ) , wherein w is that value of sin-'x which lies between and n 21 .
+( n-1)(n2--32 ) 1 Similarly for the series x-.23 1.2.3-.4.5 5- &amp;c. , we find u= sin ( nw ) The correctness of these results will be shown by substituting POINSOT'S expansions .
+Ex. 2 .
+To sum the remainder of TAYLOR'S series , viz. d4(a ) ( .nx dn+ 4(a ) x+l &amp; dan 1.2. .
+n1 dan 1.2.t 4-1+ &amp; C ' 262 d 1d Here Um-daUm_l , or Um--Um-_l=O whence dd l'p ( a ) EnO -b(D ) -la b dan 1.2. . ?
+' du d dnc a EnO do a 'da da 1.2..n-1 ' duit du d4 ( a ) xn-l dxda da"l 1.2..n-l ' a partial differential equation of the first order , of which the complete integral is U= da((J da dn d(a ) 1.2xI )d xa ?
+Z x-.ldx dn ( a ) I.2..nI dana , ) a denoting an arbitrary function .
+Now u vanishes with x whatever may be the value of a , therefore the arbitrary function and the lower limit of the integral are each 0 ; wherefore d xu xn-I d l(a x ) ( 6 ) aXdX_ , ... ( 60 .
+) -d a1.2..-1.da 'd the symbol sa implying that after integration we are to change a into a+x .
+Series of the class f(p)XP+f(p+r)XP+r+f(p+2r)XP+2r+ &amp;c. , wherein f(m ) is a function of invariable form , may be reduced to linear equations with constant coefficients .
+We have u=f(p)xP+f(p+r)xP+r+ &amp;c. Here um=f(mn ) , Uz_-r=f(nz-r- ) , hence um =f( r ) um-r Or m-f_ ) Um-r0= wherefore AS(m-r ) MD m-Am-r ) U-f(f , )gru =f(p)SP. .
+( 61 .
+) u(D ) p f(D ) Assume v-rv=V , then P ) ( D ) --frD =(D ) , whence u =f(D)v , f(p)svP=f(D)V .
+The last equation gives V=-Ps , therefore v-= g and u =f(D ) E ... ... ( XVIII .
+) 1Er6 This remarkable result may be otherwise obtained ; thus , M -= -00 unz = f(nm)m 2:m= -(D)sr , =f(D):m=:m= =f(D ) I_.p MDcccxLIv .
+2M~=P - , 263 2M If we wish to sum a finite portion of the development , letf(p)xc be the first term of the series as before , and fp')x the first term of the remainder of the series , that is , of the portion following that which is to be reduced to a finite form , then u=f(D)_P*..(62 .
+) Ex. 3 .
+Let u= 1.2..nx+2.3..(n+ 1)2+3.4..(n+2). .
++t(t+ 1 ) ... ( t+nI)x .
+Heref(mt)=m(m1). .
+( mn+n-1 ) , therefore u=D(D+ ). .
+( D+n- ) 1 ) 1 ) ?
+X--{t dX n--X+n Ex. 4 .
+Let u-lx +2 2x S++3 ... + txt .
+HIeref(mn)=mn , whence D--(t+l)d / rd\Zx--t+x U=D " ' -i _/ .
+, -==(d Effecting the integrations , and determining the constants by comparison with the original series , we have 72_1 s1 U-=2 x~ 2x+ t X2 log( --X ) .
+When , as in the above case , the factors of the denominator off(m ) are equidifferent , the value of a may be determined by the solution of an equation of the first order , Thus : Ex. Let u f(n,3 )++ 2 ) 2+ &amp; c ad inf .
+whereinf(m ) is of the form a+bm+cn)2+ &amp;c. , being finite and not involving any negative or fractional indices .
+_f(m ) Here Um(m + l)(m+ 2)( ( m +n ) ' whence Am ) m UmA -lji Uim--1 O,.AD ) D f(o ) u ( D-1)D+n 1.2..x v--D +n= +n = , f(O ) 1 we find u=f(D)v , 1 .
+--f=(D)V , whence V=1.2 , and substituting _D IvD ) v= l2..n ' ( v1( ) , o J^ ' r(- ) ' ) r(n)f n/ x'~ / oJO u =f(D)-^ -^-^ !
+^ ) ~J r(n &gt; Vf~d~ xx)o X(-l)"dx a result always finite when n is an integer .
+The theorem ( XVIII .
+) may be extended to series involving any number of variables .
+Let u='f(Mnlm2..)xlm1X2m'2. .
+, fbeing a function of invariable form , and the summation E extending to all positive integer values of m1m2. .
+, then u=f(DlD2..)( ) *l * A s till more remarkable theorem is the following .
+Let u='(mIm2 ... mXn)m lrx2r2..xVnmn , the sunzmation extending to all positive integer values ( 0 included ) of m1m2..mn , which satisfy the condition m +m2 ... +rn---Y , then if s1=ix1 , g2=X2 , &amp;c. , u=f(Dl .
+D2 ... D+ , ) { XlvX2EY ... X % } , ... . .
+( 64 .
+) wherein _ ( n-1I ) s(n-1)42 ( I'')02 a2 = ( _2 - ) ( -:_2 -0.3 ) ( E2 , ) and so on for the rest .
+What is particularly to be noticed is , that the quantities X1 , X2..Xn are independent of Y. Lastly , if the condition under which the summation is to be effected is m +m2+mn2. .
+the rest as before , then I 1(Y+ E(Y+ 1)2 u=f(D , D2..Dn { X1 -+X2 1-e + &amp; .
+} ... .
+( 65 .
+) As an example , suppose it required to obtain a finite explession for _(mn1y .
+) subject to the condition mn+n-= y. HIere by the theorem , 0('+l)41 e(v+-1)2 Itu---a ?
+El-----s ?
+-YA------ } ' u=D1D2 { e-1-0i + 2+ } d2 xV+l--y_+l dxdOy x-y ( v ( Y 1)( --Y+ ) -I ( + l ) ( xy , -xy ) 'y-(x-y)a Thus let v=3 , we have 2x4-4 3y444y3 2y4 ( x-y)3 =2 xy +2 y2 , as it evidently should be .
+D. ? ?
+2 .
+On the Theory of Generating Functions as connected with Equations of Differences .
+The complete solution of the equation of differences ' , m 4 ( P ( m)u~-_ + ?
+2(Mn)Um-2 ... + n(m)Umn , =f(m ) , ... .
+( 66 .
+) involves n arbitrary constants .
+This implies that n successive values of rn may be regarded as indeterminate , the remaining values being thence formed according to the law of which ( 66 .
+) is the expression .
+The research of the generating function of uimplies the finding of a function u , developable in a series , u mm , of which the first index p , and the first n coefficients u , , u..uns are arbitrary , and the remaining coefficients are formed in subjection to the law ( 66 .
+) .
+266 In what follows we shall suppose that the first index p is 0 , and that the n arbitrary coefficients of the development of u corresponding to the n arbit-rary constants in the solution of the equation of differences , are uo , ul..un_1 .
+Letf(m)=tm , then umn q-~ i ( m ) U ~_ .
+**+ ?
+)n(m)ttm2_wtn-O , Let also t be the generating function of tn , as is u of umn so that 7=im=1 ( udmB)t-- ?
+&gt; ?
+-(t ?
+# ) .
+U~ m----O mm J ?
+By the fundamental theorem of development , u+q(D)gU..-4 , ( D ) ?
+s"U--= 2{(%-{+-ql(m)U , ,_ ... q-q , + , ( n)t _--)t/ ; ' } Now considering the expression in the second member under the sign 2 , let m=O , and it becomes u--to , for which as ut is arbitrary , we may write c0 , an arbitrary constant .
+Secondly , let m==1 , we have ( ul+o0(I)uo-tl)s=c1E , since u1 is arbitrary .
+In like manner may we proceed till we arrive at the assumption m=nl , which gives the term c , _sf"- ' ) .
+For all values of m greater than n--1 , the expression under 2 vanishes by ( 66 .
+) , wherefore u+ ( D ) u ... + n(D ) + U-t= co +CL .
++_i1 ; or replacing t by its value , and transposing to the second member , ut +l(D)sd. .
++- , ( D ) En u omf(m)"'+ co-CcL.+c_ .
+( XIX .
+) mn - ?
+P mm-2n--2 Ex. 1 .
+Given um+al^m l-u _ , +a2 m um_2-f(m ) to find the generating fulnction of um .
+Here by the theorem D-n-1D-2n-2ut c u+a D u+a DU=t+C+C ... . .
+( 6 .
+) wherein t=of(m)E " .
+Hence Du+a1'(D n)u+a2s2(D -2n)u= d+ cia , dt du an-++2ax u dx _ do i+a1+ax+ &lt; i2 1+xa+ax Ir ( , xI -cx : ) , M(+ alv+a2 2)na++CJ* *I ?
+7 ** * ANAlYSIS .
+this value of u involving but one arbitrary constant , the coefficient of the first term only of its development will be arbitrary , and the rest will be formed in subjection to the law proposed .
+f(mn ) aim+b , f(nm ) a2m ?
+^-b Ex. 2 .
+Let the equation be um+ +r--i1 ) amn+ bm -+m .
++ 2 ) am+ u(m ) .
+By the theorem we have +^flD ) aD + b , fa ( D+ a2D + -^ =mF()+ _ It+90u = : u:= ` c F(m)smO+ co cls# .
++f(D-1 ) aD+b uf(D--2 ) aDt-b 1=o aD+b aD+b V Assu , no u D , ^v.,3^l .
+f(D ) f(D ) _oq el Here PD_ 1)-P J(D-f(D , whence observing that f(are still arbitrary , u=-f(D)v,.atD + b , 0 !
+%D + bz , =o F(m ) Oms._ aVD+b la D+_ b _= F(m ) From the second of these equations , which is linear , and of the first order , the complete value of v will be found , whence that of u will be obtained by differentiation , or by the solution of a differential equation with constant coefficients , according as the form off(D ) may determine .
+D. ? ?
+3 .
+On the Theory of Generating Function as connected with Equations of Partial Dfferences .
+We shall confine our observations on this subject to the case of equations involving two independent variables , the most general form of such equations being p0(mn)Umn .
++Pl(mnn)Um-l.n +'2(mn)um-2 .
+, n ... 1 t+"o(mn)um.n-l+{ " l ( mn)um-l.n-l-Jr+2((mn)m-2.n-1 =f( ?
+n ) .
++%o(mn)um.n-2 +Xl(mn)um-l.-2 +X2(mn)um-2.n-2 .
+J The above equation may be placed under the form M(mn)um.-r.n-r=f(mn ) , ... ... .
+f(69 .
+) the forms of p(mn ) , and the value of r and r ' , being different in different terms of the equation , the greatest difference of the values of r we shall represent by i , and the greatest difference of the values of r ' by i ' .
+Let u be the generating function of Umn , its development ( um , nxmyn ) being arranged in ascending positive powers of the variables , the lowest index of each being 0 .
+By reasoning similar to that employed in the preceding chapter , it may be shown that the equation for determining the value of u will be { p(D , D ' , )l')s+r'u } 2 ( { f(tmn ) 8+'+ " } + O0 ( &amp; )+ -1 ( S ) * .
++ +~-i-I ( )-(i--1)0 + o(E)+ T1( ?
+8).+ &gt; l ( E s( -I)7. .
+( XX .
+) 268 wherein s=x , s=-y .
+The summation I in the second member extends from m=0 to m= o , and from n=0 to n= .
+The functions ( sB % , )o(sO ) , &amp;c. are in general , but not always , arbitrary and independent .
+Their forms are in each particular instance to be determined by the initial conditions of the problem .
+Ex. 1 .
+Let the proposed equation be u , m.-2u , m.n-2um_-.n_-=0 .
+This is one of LAPLACE'S examples .
+Applying the theorem , we have u 26'u-2s 2+ 'u==o( ' ) + To ( ) , ... ... .
+( 70 .
+) 45o(y ) + %O( ) u= *** ... ( 71 .
+) U --2y-2--xy(71 To show in what way the arbitrary functions are to be determined , let it be supposed that when y-0 , uf(x ) , a known function , and when x=O , u=f ( y ) , a known function also , then in ( 71 .
+) making successively x=0 , y=O , and x and y together =0 , we have ( Do y ) + ?
+o(0)l2y =f~(Y ) ... ... ( 72 .
+) Po0(0 ) +'( ) =fx ... ... .
+( 73 .
+) o(0 ) +wo(0)=f( ) , ... ... ... ( 74 .
+) ( 72 .
+) x ( 1 -2 ) + ( 73.)-(74 .
+) gives O ( 0y ) + Yo(x ) =f( ) + ( 1 2y)f1(y ) -f(O ) , whence f(x ) + ( 1 -2yy ( y ) -f(O ) U 1-2y-2xy mm 1 Ex. 2 .
+Let UmSn+almiUm-l.n+a2J aUm.t1-+bm+1Um.n-l n Here , by the theorem , D t1 D_ 1 ) 1u +alD + Lau +a2$ &amp; tu 6 bDD iS+tu _ ?
+=^^ t()+ sr Assume vav+ax2s Ev+aba+v=V , then P1D+ I-D1 ' whence u=(D+l)-'v=--(D ) Yv=-dxalsoV=(D+ 1)U =:+1 ( e+ ( D(+ y)+-f(x))= ( x ] )nx+y.+F(x ) +F1 ( ) , the functions F(x ) and Fl(y ) being arbitrary .
+Hence the equation determining v becomes v+alxv+a2yv +bXyv=(x + I)Fx+Y+F(x)+Fl(y ) , l( + 1)e +Y F( )F((y ) + .
+( ( y ) .
+' conditions that x=O , y=O shall respectively give u=f(x ) , and u=f1(y ) ; differentiating ( 76 .
+) and proceeding as before , we find ( l + al ) ( xd+1 )f( .
+) + ( 1 + y)fl(y)--f(O ) =y d 11I1Z I-ia2 -y+tb The general theorem ( XX .
+) applied in the two preceding examples is formed on the condition that the generating function u slhall involve in its development positive powers only of x and y. This condition introduces into the second member a greater number of arbitrary functions than would otherwise be necessary .
+If , for example , it were merely required that the indices of y in the development should be positive and ascending , the form of the second member of ( XX .
+) would simply be Sf(m , n ) m8)+ns ' + ?
+o ( ?
+) + ?
+-1 ( )~. .
++ ?
+'-1 ( ?
+) ?
+Which of the two assumptions is preferable or necessary must be determined by special considerations .
+As an example of the latter form , let us take the very simple equation m(ml)u .
+, ,_2--a2n(n-l)u8 , _2.=O .
+We have D(D)1)e2P u-a2D'(D'-1 )2u. .
+Fo0( ) +F ( a)eI , deu d2 Fo(x ) * F(.x).y ----a2--. .
+da d= ~y2 ' ?
+The solution of this equation will put us in possession of the complete value of u , the functions Fo(x ) , F , ( x ) admitting of either positive or negative indices in their developments .
+If we assume those functions to vanish , we get u= ; ( y+ax ) +4(y-ax ) , which is a particular value of the generating function .
+Many other developments and applications might be here given , were the subject of sufficient importance to justify further detail .
+E. Application of the Theory of Series to the Evaluation of certain Definite Integrals .
+Ex. 1 .
+The function ( 1I-2y cos +V2)- " being expanded in a series of the form Ao+2(A1 cos wS+A2 cos 2s+A3 cos 3co+ &amp;c. ) , it is required to determine the general coefficient A7 .
+We have ( 1-2y cos w+v2)-n= ( 1 " -')-n X ( I )-(l---i)--n -(l+ ns -l(n 4+ 1)2V1n )(t+ 2 ) , W -vl+ &amp; C. ) 1.2 1.2.3 ( 4n+ ?
+) ^-21 ?
+, / ?1n(n + 1)_(n_+2 ' ) Xand the qanty so will be te n 1)cocient of g-3 and -3SV-- &amp; 1nd tswefa1.2.3 and the quantity sought , A , will be the common coefficient of a-.V-1 and 6-rvAu-1 in 270 therefore d1 nd\-I t'+n-1 and A , .
+dt ) ( 1-t ) " wherein t= 2 , a formula of great simplicity .
+Hence then we find J drxcos rx _rd f~-ltr+no ( 1-2 cosx+ v2 ) r )dt ( 1 t)T LEGENDRE has , I believe , considered the above definite integral , quainted with the results of his analysis .
+The following expression for the value V of the definite integral .
+*. .
+( 79 .
+) ( 80 .
+) but I am not ac15~rf dx cos rx Jo ( 1 -21 cosx+ v2)'(1 -2v2cosX+ )m ... g factors is remarkable for its symmetry , t/ d ~l-1 d tml -l-m- .
+Wl tlr+-l T r4-t+-l V=r ; r(l)r(m ) ( ^t ) .
+: &lt; i_ ) &lt; -_t &gt; ..t +T2 , + &amp;c. ( 81 .
+) 1J tIA -t2Inwherein , after effecting the differentiations , we must change t , into 12 , t2 into V22 , &amp;c. , observing that T{ ( ti )2){ ( t3)2}{ ( t^ )2 .
+l t2 1 tl _ &gt; 21 V21 V3\1 Ve T Vi .
+Vi k 'e/ t3 and so on for the rest .
+Ex. 2 .
+To express by a partial differential equation the fundamental properties of the definite multiple integral u=ff..dxldx2..dxp(al--x , , a2--x2..a-- ... . .
+( 82 .
+) the integrations extending to all real values of xl2..Xn , subject to the inequality f2 X22 n2 3+ 22 **+h 2 &lt; 1 .
+" 1 " 2 hn We may consider the above integral as derived from the more general one , u-ff. .
+, dxdx2.dx(al-xjt , a2--xt ... an--xnt ) , by the assumption t= 1 .
+If we expand p(al-xlt , a2-x2t..a--xJt ) in ascending powers of t , and integrate within the proposed limits by the aid of DIRICHLET 's theorem , we find wherein u 2k1k2.o 1 ?
+X &amp; p(aja U= ( ) P=o 24..2p.n(n+2)..(n+ ?
+2p)Pt 2(a.a'"a ) , 2 " d2 d2 42=h2---2+h +2 ^ .
+2 .
+*= he + h2a2d 2+ hN2da .
+X2 .
+If we write the above series in the form u=-u , tr , then it is easily seen that Um U7X ... .2Um a0 .
+Um-m(m+n)0 Hence , if t=e , u , b(= ** ( 84 ) uI(D ?
++n ) J n ) D(D+n)uX2s2 u=O .
+Restoring t , and for x2 writing .
+d2 d2 d2 h12da-2+ h22d -2 ' + h2da , and then dividing the result by t2 , we have d2u n+ 1 du d"2u d2u d2A dt2 t dt h-h12 h22da-n2d2-=0 , ... . .
+( 85 .
+) which is the equation sought .
+Mr. GREEN* , considering a particular case of this multiple integral connected with the theory of the attractions of ellipsoids , has obtained an equation different from the above , and not involving the constants hlh2..h .
+It might be worth while to inquire whether the equation ( 85 .
+) does not more precisely define the function to be determined than Mr. GREEN'S equation does , and whether an analysis might not be founded upon it which should be more simple , and less dependent on foreign considerations .
+It would too much extend the limits of this paper to enter into the general discussion of the equation here , and I shall therefore merely observe that it is reducible whenever n is an odd integer , to the form d%u dd2u d%2u d2u d2-hlda h2 - ... ( 86 .
+) df2'-hi da22 da a na. .
+To prove this , we remark that the constant in the second member of ( 84 .
+) may be rejected , because in operating on both members with D(D+n ) it disappears .
+Writing then the equation in the form X2 u-D(D ?
+2n)u--O let us assume v-D(D_l )a2V=0 ... ... ... ( 87 .
+) By Propositions 2 and 3 , C. ? ?
+1 , we find u=-"(D1)(D-3)..(D-n+2)v =(t-)('-3)*-.(t3--n+2)v .
+Then in ( 87 .
+) making -=t , we have d2v dr-.2v = 0 , which is equivalent to ( 86 .
+) Ex. 3 .
+To evaluate the definite multiple integral V7 r*:0v d xCn dx r : i xt3 .
+v , { , ( l~ ' ) - , ( , )2-t..+(a , -x )2 } *** ( 88 ) n being an odd integer , i any quantity whatever , positive or negative , integral or fractional , and the integrations extending to all real values of the variables , suiject to the condition x2 +x..+x222 l. 1 Here p(ala2..a.)=(a2+a2a..+ a)ji .
+By induction it is easily shown that ( d2 d2 d2 p 1 .
+2i(2+2).(2i+ 2)(2i+(2i+42)(2i+ 2)2-n)(2+..(2i+2p-n ) da+ daa ( al +a+ a2= ( al2 + a2..t+j + a. T ... ... ..+P+ Hence the series ( 83 .
+) becomes on making ( a12-+a22..-+a2)*=r , 2V i 2i..(2i+2p--2)(2i+ 2-n)..(2i+ 2p-n)2 2 ... r ( j)r2)= 2.4..2pn(n+2)..(r+ ?
+2p ) nr u2 P=ou -P ( 2p + 2)(2p+ n+ 2 ) the law of the series being u - , =(2p+2i)(p+42i , f ) _ ; ( m-2)(m-n--2 ) or putting -2p=m , u(n-2i)(m-2i=+n2)ur-n 0 .
+And as the series extends to all the values of ur which can be formed in subjection to the law , we have ( D--2)(D-n-2 ) 2t u-(D-2i ) ( D-2i+n2i j =ou ... ..*. .
+( 89 .
+) To integrate this equation , assume ( D--n--)(D-n--2 ) v -(DU-2 +i=(D2--i +n-3)2 ... . .
+( 90 .
+) Then by ( XIV .
+) ( D--2)(D-2in--3 ) U P2 ( D~-n-i)(D-2t ) ?
+=(D-2)..(D--n+ 1)(D-2i+n-3)..(D-2i+2)v , =(D-2)^ 2-/ ( D-2i+n--3 ) 2V2IV wherein the index ~ 12 denotes the product of 2 factors , decreasing by a common difference 2 .
+The equation ( 90 .
+) , treated by the method of Prop. 1 , C. ? ?
+1 , gives v= ( vI1 +v2 ) D-n-1 D-n-i1 v1+D-2i+an-2v l= V2-D2li v2* Cambridge Mathematical Journal , No. XIV .
+p. 63 .
+Whence determining vI and v2 , C1(S 1)2n-2i-2 + C2(1)2n-2i-2 v'('5 -2i-2 ) i** ( ... ... I..,5~l"(n-2i-l-a 2)O .
+0(91 .
+) If we substitute this value of v in that of u , determining the constants C1 and C2 by expansion and comparison with the original series , and effect some obvious reductions , we finally get* dd dd n-\n3l ] / /3^ ( rd+2i- ) 2 '/ 2(r_-l ) 2-i2 2r d2 Ir ( r+ I )2n-2i-2-(r-l)2 l2i-2 } ( 922 ) s-a-r + ( 2i-n+ 2 , ,kr37-1 * This example is given merely for the sake of the process .
+The fullest development of the theory of definite multiple integrals will be found in the writings of M. LEJEUNE DIRICHLET and Mr. CAYLEY .
+Some results , believed to be new , are subjoined .
+1 .
+If u=ff.dxd..d dx , ,p(a1-x1 , a--xt..ax--x ) subject to the inequality ' +..+h f t , then k ?
+1 h h , ^ D(D--n ) .
+d ... ... ... ... ( a. ) where Ax=1-12 -+k " 4 , ~- , and s-=t .
+This is a better form of the theorem in Ex. 2 .
+dia da22 ada 2 .
+Let u=ff..dxldx2..dx , ,f(A ) in which A= { ( a tl-x , ). .
++(a.-x)"I } subject to the inequality x. .
++ , t- , and let ( a1,. .
++an)r=r ; it is evident that u is a function of t and r. Now ( da.+ d ) ( r)= d nd\(r)=2 !
+D'(D^n-2)( ) if =r .
+da daQ dt rr dr f*r Thus ( a. ) may be put in the form 1 .
+3 D'(D ' +n-2 ) -D(Df+n)t0 ; the complete integral of which , determined by Propositions 2 and 3 , is 1dddId -n u"=r2 ( td- ) ( tdt-3 ) " ( td-n 2 ) *(rd-1)"(rr --+4 ) { ' ( r+t)+(r--t ) } .
+In the case of n-3 , we find on determining the arbitrary functions ( t -1 ) { ( r+t)-(r-t ) } wherein p(r)=fffrf(r)dr3 .
+A similar analysis is applicable to the theory of the attractions of spheroids .
+3 .
+The evaluation of the definite integral f dx ( sin x)f(r + tcos x ) depends on a partial differential equa .
+o tion similar to the above .
+Its value is u=2.4..(n-1)(- ) I ( tt3)-.(3 -t+2 ) ( dr { f(r+t)-(r-t ) } .
+4 .
+The evaluation of the definite multiple integral ff..dx..dx , f(ca1x1 .
++a , x , )f(x. .
++x ) extending to the positive limits of the inequality x1 ... +x , , , , depends on a partial differential equation of the first order ; the result is nn-l / oh7 / f\ -n+l ( t= = -a)(al -a '(aa ) dt ?
+( t ) e-[ f(alt ) .
+A particular case of this theorem Las been obtained by Mr. LESLIE ELLIS , by means of FOURIER'S theorem .
+5 .
+By a reverse application of the method we are able to assign the complete integral of the equation d t-h *-dale d g 1 .
+Theory of Equations of Finite Differences .
+dx If we assume sr=.X. .
+g- ) d , then it is shown ( A. ? ?
+1 .
+) that the following relations are satisfied : fA u f+ ) f(f(+m)u , ... ... . .
+( 93 .
+) f(T)-f ( m)g , ( 94 .
+) and that f/ ( +f)=-f(-)+~)f( )f+-al-f ( .)~le+ &amp;c. ... . .
+( 95 .
+) AI L ?
+A the interpretation of ~ here being f()-f(x)--f(-1 ) .
+cd d If r= -1 , we have r=x--xrs d , f =x 5-d~ , and the above relations are still satisfied .
+These values of r and g we shall first employ .
+Prop. 1 .
+Every equation infinite differences of the form Xou+XSl-1 i ... + Xu---X , XoX1X2 &amp;c. being rgational and integral functions of x , may be reduced to the form to(r)u+.f ; ( )gux-+f2(xr)2u + &amp;c. = ... . .
+( 96 .
+) For multiply both sides of the equation by x(xl)..( n+ 1 ) , and in the second term of the first member for xu -l write gux in the third term for x(x1)u2-2 write 2ux , &amp;c. , we shall have a result of the form o(x)u , +q1-(`)gu+ ?
++P2(x)f2*~. .
+*-(x ) ru U ... .
+Ieveloping by this theorem the coefficients of ( 97 .
+) , the result will assume the form fo(r)u+f ( 5-)g+f2(X)2u+I &amp;c. ... .
+( XXI .
+) as was proposed to be shown .
+We shall call this the symbolical form of the equation .
+To revert from the symbolical to the common form , it is only necessary to observe that since r=.x- , and since x and g combine according to the law gu=(x-I)gu , , we have f()=f( ) a , ( )g+ 2f()- &amp;c. ... ( XXII .
+) wherein Ax= -1 , and consequently A-f(X ) =f(x ) -f(-1 ) .
+Developing by this theorem the coefficients , and writing for gmux its value x(x1 ) ... ( --m4+ l)ux_ , the required reversion will be effected .
+F. ? ?
+2 .
+On the Solution of Equations of Finite Differences in Series .
+In the equation fo())u-fi+ ( T ) u ... +fr , ( r ) fu =-0 , assume u , V=umTm then precisely as in the case of differential equations , fo(m)um+fi(m)um-1 ... . .
+( )u , .
+( XXIII .
+) The initial values of m are determined by the equation jf(m)=O0 .
+For every such value um is an arbitrary constant , for all other values it is successively determined by ( XXIII .
+) Ex. 1 .
+Given ( x-a)u(2x--al)u + ( 1 -q2)(x--1)-2=0 .
+The operation at length stands thus : Multiply by x , we have x(xv-a)u -(2x-a-l)xux+(1q2)a(vl))ux2-2=0 ... ( 99 .
+) Or ( -a)t x-(2x-a-1)u +( I-q2 ) = ... ... .
+( 00 .
+) Now developing the coefficients by ( 98 .
+) , we find vr(xr-a)=T(--a)+(2z--al1)g+-2 , 2xa-=2 &lt; r--a--1+2g , whence substituting in ( 100 .
+) r(r a)uxq22u = 0 , wherefore u=2 aram , with the relation m(m-a)am--q2am2= , 2am2 q%m-2 or am-.e(m-a ) The equation m(m-a ) =O gives 0 and a for the lowest values of m , wherefore , finally , __(1 ( x_ __(-1)-)(x-)((-3+ &amp;c. ) u=(1 )2.2-a +-2.4(2-a)(4-a ) + &amp; ' +C/ ( x(1---l)..(P--a-1)q(x-1)"(x-a-1 ) q4x(x-1)..(x-a-3 ) ) +C , i^ -l)..(^-a+l)+ ---2(2+a ) + 2.4(2a)(4+a ) --+ &amp; , * 277 We have here two distinct series .
+Either of these is an integral of the equation ( 99 .
+) , but I apprehend that the second series only can be regarded as an integral of the original equation .
+The first series appears to have reference only to the irrelevant factor x. As I am not aware that this distinction has been before observed , and as it appears to affect the validity of the canon which assigns to the integral of an equation of differences just so many arbitrary constants as there are units in the index of its order , I shall make no apology for adducing another illustration .
+Let us take the equation,2 O.0 ... ... .
+( 101 .
+) We find as the symbolical form , ( T+6)u=O ; whence ux , =lai with the relation mam+am_-=O , or a-= am1 the lowest value of m being 0 , whence C x(x-1 ) x(x_I)(x-2)+ &amp; c ).c(lC+(I -+ &amp; c 1 ) 1.2 =C(1- .
+=cou This is obviotusly a true integral of ( 101 .
+) for all values of x from 0 to c ; for when , v=0 it gives ux=C , and when x is any positive quantity , u=0O , precisely as it ought to do .
+Moreover it involves an arbitrary constant C ; but ( 101 .
+) being of the Oth order , there should , according to the received canon , be no arbitrary constant in its integral .
+For the solution of the equation x(21)u =0 , we similarly find u , ,=a0+alx+a2x(r -I ) +a3 ( l)(x--2)+ &amp;c. , wherein a0 , a , are arbitrary constants , and in general 2(m)a_ , + am_2 mmn= -m(m--1 ) this gives u=a0+ao"2al + aO 1)+3a2 13)(x-2 ) &amp;c. For the values x=0 , x-l1 , the above series is reduced to an arbitrary constant ; for all other positive values of x it vanishes .
+Here then we obtain for an equation of the Oth degree , a solution involving two arbitrary constants , and derived from the two irrelevant factors x and x1 .
+It would be interesting to inquire whether an equation of differences admits of integration by series when fo(m ) has equal or imaginary factors .
+After paying some attention to this question , I am disposed to think that such cases are not comprehended in any theory analogous to that which I have given for the corresponding class of differential equations .
+On the subject of this section the reader may consult a paper by Mr. BRONWIN in the Cambridge Mathematical Journal , vol. iii .
+278 On the Solution of Equations of Differences in Finite Terms .
+dd We have in the preceding section supposed r=.v-xs , d==x- , and have thus satisfied the relations ( 93 .
+) , ( 94 .
+) .
+We shall , in the following section , with greater generality assume ( A. Prop. 3 .
+) , dd 7r=X-n &lt; )(X)g dX p== &lt; ( X)s dSe The condition ( 93 .
+) will still be satisfied , and the expansion of f(r+g ) will remain unchanged .
+We shall suppose the equation to be placed , as in all ordinary cases it may , under the form f0o(x)ux+fi(x)(x)u_ f.2(V)p(V)(x--1)u_-2+- &amp;c. . .
+( 102 ) fo(x ) , fi(x ) , &amp;c. being rational and integral functions of x , or at least susceptible of expansion in ascending powers of x , and p(x ) any function whatever .
+dd Since ( x)s -= , we have j(x)(x-1)-2i-=g2 , and so on ; wherefore , writing u for ux , we have fo ( )u-+fi(cV)e +f2(x)g2u + &amp;c. =U .
+Now since r= .
+, -ng , we have x=4r+ no , and expanding the coefficients fo(x)f1(x ) , &amp;c. by ( I. ) , the equation will assume the form &gt; + ( 5)+ 2(5)d-+ &amp;c. =U ... ... ( XXIV .
+) This equation is integrable in several cases : 1st .
+If by any determination of n the equation should be reducible to a single term .
+Suppose that it should give 0o(e])U = U , ... ... ... .
+( 103 .
+) then resolving ( @r ) into its factors , we shall have a system of equations each being of the form ( ra)u=U ; or ( x-a)u-nnp(x)u= U , which is completely integrable .
+This method enables us to integrate all equations of the form ( 102 .
+) , in which h fm(x)=-(fi(X)-fn , -1( I- ) ) ) ... ... ( 104 .
+) dh being any constant .
+We should find n=-h , r=x+h-(x)s(d , and fo(r)u=U .
+I am not aware that this general class of equations has been considered before .
+A method of integrating equations of the form x , ( x- .
+)..(x--n-+ 1l ) , _ , .
++alx(x-1)..(x--n +2 ) A~u+ , _ , +1+ &amp;c. 0 , was communicated to me by Mr. GREGORY* .
+In reality however they constitute ad particular case of the above , the value of r being x--xs-X .
+2nd .
+If the coefficients po(r ) , l(r ) , &amp;c. are constant quantities .
+This happens in the well-known class of equations ?
+u+ al(x)ul , +at(x)~(xI)u_-2+ &amp;c. = U , which becomes ( 1 +alf+a2+2+ &amp;c. )u , =U , and is integrable by resolution of the operating factor , as in equations with constant coefficients .
+It may be worth while to note that this class of equations , when of the nth degree , involves one arbitrary function p(x ) , and n arbitrary constants , a1..a , ; but the preceding class under the same circumstances involves one arbitrary function with n+ I arbitrary constants , viz. h with n constants in fo(x ) .
+It is therefore the more general of the two .
+3rd .
+If the equation should consist of only two terms .
+Suppose that it should be reducible to the form ~o(o)u+pl()u= U , which may be put under the form +(r)=U ... ... ... .
+( 105 .
+) Proceeding as in the corresponding case of C. 2 2 , it may in all cases be determined whether the equation is integrable or not .
+In general the equation u+(r)pnu=U can be reduced to the form v+-C('r)v=V by the relations u"-Pn()v , U=-P()V , .
+( 10 .
+) precisely as in differential equations .
+Thus , to pursue the analogy , the equation ( 'r + a , ) ( +a ) ... 7(=+r an- ) in which ala2. .
+an are in the order of magnitude , can be reduced to the form v+(- ) .
+n+ 1 ) and then integrated by resolution into a system of equations of the first order , provided that the quantities al-a--1 a --a-a-a4-a , a3+ nnnn are all integers .
+Ex. Given ( x2+ax +b)ux+(2x-a)h'(p(x)ux-+(-hI -q2 ) ( x)p( l)uX -2=0 dc d Let =--x--n(x)s-t , =(x)s- , then ( x2+ax+b)u+(2.r-a--.1 )heu+(a2-q2 ) 2u= Now x=r+n ?
+, therefore x2+ax+b=t'r2+a &lt; r+b+ ( 2 ; r--a-l l ) no +n2f2 , 2x -a-l1 =2r--a-1+2nf , 280 and substituting , we have ( z2+arb)u+(2-7a1)(n+h)u+(n2+2nh^ h2 q2)u =0 .
+To take away the second term , let n---h , then ( 02+ are +b)uq2g2u=0 .
+Let r+al , --+a2 be the factors of r2+ are +b , then q 2-0 .
+u-(x+aj)(r+a , )u-0 To integrate this equation , assume v(a)I .
+, -I l =0 , , ... . .
+( 107 .
+) then +a-=(+'-alj-l)(sr+al-3). .
+( +-a2-2)v , then U==Pf ' ( r+2)2av ) which is only finite when al-a2 is an odd integer .
+From ( 107 .
+) we have v =2 ( sI+6 ) s+ -al : O q -+ig eta=o ; from the first of which equations , ( @+al)s--qsx=O0 , d\ d. ' .
+( x ifhx ( Sdx)s+als-+a(-qp(ax)0-s~dsSx=0 .
+Or ( x+a1)s +(h-q)p(x)s-l=0 , =C1(q-h ) PIn like manner,.4-h]OWp(x ) =C2(q+h)xPj X3-+ax ; and as the constants C1 , C2 are arbitrary , v=-{C(qh).xl+C2(q+h)xl}P-x ?
+( ) v{C1(q.It-)C2(q + h)xPa ) ' u-==(r+a-1 -)(rx+al-3). .
+( r+a2+2){Cl(q-h)x+C2(q +h ) }P x to interpret which we have only to observe that ff(x ) =xf(x ) +h ( x)f(x1 ) .
+2o 2 This solution may be put under the form C(q h)x + C2(q + h ) u{Pp(x)}(rl+a1 1-l)(z1+aI-3 ) .
+( wl+a2+2 ) { 1(--)C(q+ ) ) } } the interpretation of 1being lIf(x ) =xf(x ) +hf(x-1 ) .
+The method of this section will , I believe , be found to succeed in every known integrable case , while it includes some unknown before , one of which is the most general yet discovered .
+POSTSCRIPT .
+The general rule for the integration of linear differential equations in series , B. Q 2 , requires in a particular case to be slightly modified .
+If f0(D ) involves a pair of factors such as &lt; ( D ) , p(D+r ) , r being a multiple of the common difference of the values of m , we must in the equation of fo(D)u=O write { p(D)}2 in place of p(D)((D+r ) , and similarly when there are more such factors .
+Thus , in the equation D(D+2)u-q2s2Ou=O , the form of the assumption for u will be determined by the equation D2u=O , and not by D(D+r)u=0 .
+A slight change of expression would make the rule as general as the principle on which it is founded , and reduce to its dominion every case in which a linear differential equation can be integrated by ascending or descending developments .
+The theory of series infinite in both directions still remains to be examined .
+Fearful of extending this paper beyond its due limits , I have abstained from introducing any researches not essential to the development of that general method in analysis which it was proposed to exhibit .
+It may however be remarked that the principles on which the method is founded have a much wider range .
+They may be applied to the solution of functional equations , to the theory of expansions , and , to a certain extent , to the integration of non-linear differential equations .
+The position which I am most anxious to establistl is , that any great advance in the higher analysis must be sought for by an increased attention to the laws of the combinations of symbols .
+The value of this principle can scarcely be overrated ; and I only regret that in the absence of books , and under circumstances unfavourable for mathematical investigation , I have not been able to do that justice to it in this essay which its importance detnands .
+Lincoln,.August 31 , 1844 .
+282
+

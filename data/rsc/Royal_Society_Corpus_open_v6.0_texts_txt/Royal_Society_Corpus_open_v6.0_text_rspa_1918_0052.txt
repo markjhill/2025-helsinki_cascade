@@ -1,0 +1,109 @@
+]\gt ; Prof. H. H. Jeffcott .
+reduced , but the break-up of the jet occurs further from the orifice , and for the lowest pressure not until after the lip of the oscillator or pipe has.been passed .
+In this case , as was before mentioned , only a small amplitude of vibration is maintained , and the effect of the dynamic stiffness of the jet preponderates .
+Thus the fact that low wind or water pressure depresses the pitch , while higher pressures raise it , is accounted for , although it is impossible to calculate the amount from purely dynamical data ( viz. , velocity , pressure , density , and viscosity ) , as no theory is at present capable of dealing with the formation of eddies or the final result of fluid instability .
+The Periods of Vibration of Shafts.\mdash ; The Rational Derivation of Dunkerley 's Empirical Rule for Determining Whirling Speeds .
+By H. H. JEFFCOTT , , B.A.I. , Professor of Engineering , Royal College of Science for Ireland .
+Communicated Prof. Received June The calculation of the whirling speeds of loaded shafts of turbines and turbine-driven machinery is usually rendered complex by reason of the varying distribution of the load along the length of the shaft , as well as by variations from place to place in the shaft 's diameter .
+Of the several methods in use for the estimation of the first whirling speed in such cases , probably the best known is that based on the Dunkerley hypothesis .
+This method , was put forward by unkerley in 1893* and illustrated by him many applications , consists dividing the load into a convenient number of parts acting at appropriate positions along the shaft , and determining by means of simple formulae the speed for each such part of the mass regarded as acting alone .
+It is then assumed that the sum of the squares of the reciprocals of these partial whirling speeds is equal to the square of the reciprocal of the first whirling speed for the whole load .
+Expressed algebraically , if , etc. , be the whirling speeds of the shaft loaded in turn with the separate masses regarded as alone , and 'Phil .
+Trans , vol. 185 , pp. 279-360 ( 1894 ) , especially SS28 , 61 , 62 .
+The Periods of Lateral Vibration of Loaded Shafts .
+be the first whirling speed of the loaded shaft , then Dunkerley 's empirical rule consists in the assumption that In many cases this method gives excellent results , and , having regard to the uncertainty the data and the purposes for which the calculation is required , quite sufficient accuracy is often obtained .
+But the method is not invariably safe , and in certain applications may give results very seriously in error .
+That the empirical rule is subject to such limitations was known to Dunkerley , who , in the paper referred to , proposed , in certain cases in which the calculated result did not agree with experiment , to substitute a formula of the type ( for two loads ) where has a value less than unity .
+* The need for such modification in certain cases was also pointed out by Chree .
+It is not , , clear beforehand what cases require modification , or the extent of the modification , i.e. the value to give It is proposed in the following note to show how Dunkerley 's empirical rule may be derived rationally , and as a consequence to show its limitations , and how it may be extended to give more accurate results in any application .
+It is to be noted that the method used below is of general application , but to fix the ideas and render the argument clearer , the case will be taken of a uniform and light shaft freely supported by bearings at its ends , and loaded with a number of discrete masses , .
+, of negligible moment of inertia at definite points along its length .
+As above , let ) , , , be the whirling speeds corresponding to each of the masses , m2 , , , acting alone ; and let , , , be the first , second , etc. , whirling speeds of the loaded shaft with all loads in position , corresponding to the different possible types of vibration .
+In any assumed possible type of lateral bending of the shaft under the action of centrifugal forces and subject to the end restraints , let , .
+, be bhe lateral displacements from the straight form at the points where the masses ? ?
+, are fixed .
+In the first instance , consider the shaft subjected simply to a force acting at right angles to its length at a point distant from one end .
+Let * Dunkerley , ibid. , SS30 , 33 , 44 .
+'Phil .
+Mag May , 1904 , p. 641 .
+1.08 Prof H. H. Jeffcott .
+be Young 's modulus for the shaft and I its moment of inertia of crosssection about a diameter .
+Then , following the Bernoulli-Eulerian method , since is the displacement at the point parallel to X , we have , for the shaft from to -EI where X ' is the force exerted at the bearing at Similarly for the portion of the shaft to we have , where X\ldquo ; is the force exerted at the bearing at Integrating we obtain and , where is the value of at .
+Now , neglecting " " the deflection due to shearing the curves have a common tangent at .
+Hence But X ' , and Hence , and .
+These equations give the displacement at any point along the shaft consequent on the action of the force at If now a number ( n ) of such forces X act at several points along the shaft , the deflection at any point will be the sum of the separate deflections at that point due to each of the forces acting separately .
+we obtain where the first summation includes all the forces on the shaft from to and the second summation includes all those from to If , now , the forces , etc. , be due to the centrifugal action of the masses , etc. , when the shaft is rotating with uniform angular velocity in a deflected form , , being the corresponding displacements , then , etc. If the shaft is not rotating , when determining the speed of lateral vibration we put in the same way , where is now the speed of lateral vibration .
+The Periods of Lateral Vibration of Slmfts .
+Substituting we obtain where the first summation extends to each of the masses up to and including towards one end of the shaft , and the second summation to those masses beyond towards the other end .
+Putting , the above equation may be written in the more conveuient form where the coefficients , f2 , etc. , are functions of the magnitudes and positions of the masses , etc. , and Taking ) to be each of the masses , , , in turn , we have the equations It is worthy of note that the coefficients are related to one another in a symmetrical manner , viz. , etc. , a result to be expected from the well known theorem that the displacement at a point A of a beam due to a load at another point , is equal to the displacement at due to the same load acting at A. * Eliminating , , , we obtain the determinant The roots of this equation in give the whirling speeds of the shaft loaded with the masses , m2 , , , all on together , , .
+This is not the ordinary determinant which gives the periods of vibration of a connected system of masses .
+The present determinant involves instead of as in the ordinary one , from which the same result may be * Rayleigh , ' Collected Papers , ' vol. 6 , p. 170 .
+VOL. XCV .
+Prof. H. H. Jeffcott .
+obtained .
+The present form , however , is more convenient for the numerical computation of whirling speeds .
+Expanding the determinant in powers of we obtain we find for the sum of the roots If , we have , etc. Next let us consider each mass acting alone .
+We find , either directly , or from the above general equations on equating each of the remaining masses to zero , , etc. Hence , etc. Also , etc. We thus see that i.e. Thus the sum of the squares of the reciprocals of the several whirling speeds of a shaft carrying a number of loads is equal the sum of the squares of the reciprocals of the whirling speed of each mass regarded as acting alone .
+Now , , , , being the several whirling speeds of the loaded shaft , are an increasing of numerical values .
+If , etc. , are considerably greater than , we may to a first approximation neglect the sum of , etc. , compared with .
+We then have , approximately , provided we are justified in the omission of , etc. , This is Dunkerley 's empirical rule .
+Its degree of approximation then clearly depends on the values of the second and higher whirling speeds of the loaded shaft relatively to the first .
+Necessarily , it gives too low a value for the first whirling speed .
+To obtain a numerical idea of the degree of approximation , it be convenient to consider the case of a uniformly loaded and uniform shaft , in The Periods of Lateral Vibration of Shafts .
+which the equations $iving the several whirling speeds under different conditions of support are well known .
+Let stand for the latio A. Taking first the case of a shaft fixed in direction at one end and free at the other .
+Then*the natural frequencies must satisfy where in our application is proportional to Accordingly , the frequencies of the tones or the values of the sevel'al whirling speeds are proportional to 1 , , etc. the expansion of the equation in leads to so that But is or Hence B. Consider next the case in which the shaft is simply supported at each end .
+the natural frequencies must satisfy Thus the frequencies of the tones or the values of the several whirling speeds are proportional to 1 , 4 , 9 , 16 , etc. Also in this case the expansion of the equation in is so that ; therefore 2 But Therefore C. If the shaft be fixed in direction at one end and supported at the other , the equation for isS which on expansion gives .
+The frequencies are proportional to 1 , , 11.56 , etc. * See Bayleigh , ' Theory of Sound , ' vol. 1 , S173 , and Dunkerley , ibid. , S9 .
+Rayleigh , ibid. , S176 .
+Rayleigh , ibid. , S181 ; Dunkerley , ibid. , S10 .
+S Rayleigh , ibid. , SS180 , ; Dunkerley , ibid. , S14 .
+Prof. H. H. Jeffcott .
+Also and so that Therefore ) D. Shaft fixed in direction at each end .
+The equation for which reduces to The frequencies are proportional to 1 , Hence 2 But Therefore E. Finally take the case of a shaft simply supported in three bearings , the spans being of equal length .
+musb satisfy either , or The frequencies are proportional to 1 , , 4 , , etc. In the former case , as in ( B ) above ; for the latter 1/ 210 , as in ( C ) .
+For both sets of frequencies , therefore , we have But Hence Summing up these results , we see that the values of obtained by omitting the higher whirling speeds are thus too low , in the following ratios : Thus in some of these cases the reement is good ; in the last it is quite insufficient , and this is not necessarily the worst case that may arise .
+These results may also be obtained otherwise , since we know for these several systems of support the whirling speed of a massless shaft carrying an isolated mass at any point along its length .
+A uniformly loaded shaft may be * Rayleigh , ibid. , S172 ; Dunkerley , ibid. , S17 .
+Rayleigh , ibid. , S174 .
+Dunkerley , ibid. , S16 .
+Periods of Lateral of Loaded Shafts .
+considered made up of an infinite number of elements of mass spread along the shaft , and we can , therefore , by integration obtain the value of , and compare it with the exact value of in each case .
+To obtain a better approximation in cases where is not much reater than , and where in consequence the Dunkerley rule is not sufficiently exact , the preceding determinant is to be expanded to a further power of thus where stands for the determinant As before , the sum of the roots is equal to Also the sum of the products of the roots taken two at a time .
+But , and as before .
+Also is the product of the first and second whirling speeds of and acting together , but.with the other masses omitted and so on .
+We thus find that and where are the first and second whirling speeds when the masses are taken as acting two at a time .
+If now we may neglect , and the higher whirling speeds we have and from these two equations a more exact value of may be deduced , together with an approximate value of In this case it becomes necessary to determine the whirling speeds for each of the masses regarded acting alone , and also the first and second whirling speeds for the masses acting two at a time in all possible pairs .
+Dunkerley 's empirical method may thus be extended to the rule :\mdash ; Find the whirling speed for each load acting separately ; and the first and second whirling speeds for each combination of two loads The Periods of Lateral Vibration of Shafts .
+acting without any of the others .
+Then if and are the first and second whirlin speeds for the whole system , they are given by If we expand the determinantal equation to further powers of we will find in the same manner that the sum of the squares of the reciprocals of the products of the whirling speeds taken at a time is equal to the sum of the squares of the reciprocals of the products of the speeds for each set of masses , the other masses being supposed reduced to zero .
+Further , as a similar determinantal equation will obviously be obtained in any eneral case in which linear displacement equations of the preceding type apply , we may express with greater generality the results arrived at .
+Thus the sum of the squares of the reciprocals of the products of the of vibration taken at a time of masses connected elastically , is equal to the sum of the squares of the reciprocals of the products of the / speeds of vibration for each set of masses , the other masses being supposed to be obliterated .
+The particular case when is perhaps the most interesting .
+The sum of the squares of the reciprocals of the speeds of vibration of the system of masses is equal to the sum of the squares of the leciprocals of the speeds of vibration of each of the masses regarded as acting alone .
+Further , if the masses be divided into any number of groups the sum of the squares of the reciprocals of all the speeds of vibration of each of the groups , taken for all the groups , is equal to the sum of the squares of the reciprocals of the speeds of vibration for all the masses acting together .
+The theorem admits of other generalisations .
+In general , then , the whirling speeds are the roots of the determinantal equation obtained above .
+In any particular application numerical values may be substituted for the masses , their positions , and the elastic constants of the shaft .
+The roots of the resulting numerical determinantal equation may be evaluated by successive approximation .
+Usually not more than the first two or possibly three speeds are required .
+This determinantal method , although tedious when the number of isolated masses is great , is straightforward and exact .
+It may be made to take , of variations of shaft diameter , and also of the moments of inertia of the loads , and of different bearing conditions .
+It is quite general and makes no assumption of an approximate displacement curve of gravitational or other bype .
+On the Spectrum of Cadnlium in the In cases where with sufficient accuracy whirling speeds higher than the second may be neglected we have , in the foregoing notation , and ; i.e. the sum of all the second order determinants about the principal diagonal .
+and may theuce be determined .
+On the Spectrurn of the Inactive Gases .
+J. N. COLLIE , F.R.S. , and H. E. WATSON , D.Sc .
+( Received June 21 , 1918 .
+) uling the last few years some attention has been paid to the spectrum of gases in the onrhood of the cathode discharge , and , therefore , it is to be worth while putting on record some experiments that were made about ten ears ago , but were not considered at the time to be of sufficient importance to be published , as they led to no definite conclusion .
+One of the authors*had noticed that , in a vacuum tube containing helium and mercury vapour .
+the orange mercury line 6152 appeared very brightly , although it is not usually seen at all in a tube containing a diatomic gas .
+Continuing this line of research , other metals were experimented on , with those metalfi as electrodes .
+It was at once noted that in many cases , at comparatively high pressures and low current densities , lines in the spectrum of the metals composing the electrodes were visible in the neighbourhood of the cathode , and often in other parts of the tube as well .
+The following experiments were made , with the view of studying more thoroughly this effect .
+Cadmium was the metal chosen , on account of the ease with which the metallic spectrum was produced , and also because the cadmium bright lines extend over a considerable portion of the visible spectrum .
+Other metals that behave in a similar manner are zinc , magnesium , lead , bismuth .
+The gases experiinented with were helium , neon , argon , and xenon .
+'Roy .
+Soc. Proc vol. 71 , p. 25 .
+

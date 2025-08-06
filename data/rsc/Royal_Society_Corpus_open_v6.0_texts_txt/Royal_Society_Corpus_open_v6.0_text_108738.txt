@@ -1,0 +1,583 @@
+On Systems of Linear Indeterminate Equations and Congruences .
+By HENRY J. STEPHEN SMITH , 2i.AA .
+, Fellow and Mathematical Lecturer of Balliol College , Oxford .
+Communicated by J. J. SYLVESTER , Esq. , F.R.S. Received January 17 , -Read January 31 , 1861 .
+THE theory of the solution , in positive or negative integral numbers , of systems of linear indeterminate equations , requires the consideration of rectangular matrices , the constituents of which are integral numbers .
+It will therefore be convenient to explain the meaning which we shall attach to certain phrases and symbols relating to such matrices .
+A matrix containing p constituents in every horizontal row , and q in every vertical column , is a matrix of the type qXp .
+We shall employ the symbol I XIP , or ( when it is not necessary that the type of the matrix should be indicated in its symbol ) the simpler symbol I[A[I to represent the matrix -A , l , A1,2,2 ... . .
+Ai , p A2 , , A2 , ... .
+A2 , p Aq , , Aq , ... .
+Aq , p If IlAII and ||BI| be two matrices of the same type , the equation JA B|=J|BI| indicates that the constituents of lAllj are respectively equal to the constituents of [ lB|l ; whereas the equation IAI=IBI will merely express that the determinants of IAll are equal to the corresponding determinants of IIBI ] .
+The determinants of a matrix are , of course , the determinants of the greatest square matrices contained in it ; similarly , its minor determinants of order i are the determinants of the square matrices of the type iXi that are contained in it .
+Matrices of the types nX ( m+n ) and mX ( m-+2n ) are said to be of complementary types ; if I|AII and IIBI| be two such matrices , we Thall employ the equation IAI = IBI to express that each determinant of IIAII is equal to that determinant of IBj ] , by which it is multiplied in the development of the determinant of the square matrix .
+BII When m and n are both uneven numbers , the signs of the determinants A and B are different : this occasions a certain ambiguity of sign in the interpretation of the equation A !
+==IBI , which , however , will occasion no inconvenience .
+If m-=n , the matrices IjtAi and IjB|L are at once of the same , and of complementary types ; so that , in this case , the equation Al=I]Bi may stand for either of two very different sets of equations ; but this also is an imperfection of the notation here employed , which it is sufficient to have pointed out .
+If ic denote any quantity whatever , it is hardly necessary to state that the equality IAl=k X IBg implies that the determinants of j[AII are respectively k times the corresponlding determinants of JIBi ! .
+Let IIPj[ be a square matrix of the type nX n , and |jQIj a matrix of the type nX ( n+Tm ) ( where mnO ) , we shall understand by the matrix compounded of IIPII and |IQjl , the matrix |IX|l of the same type as IIQII , the constituents of which are defined by the equation Xi , = , Pi , 21 Q2 , j+. .
+* Let I|A|I be a given prime matrix of the type nX ( n + n ) , IjKl a given matrix of the same type connected with IJAlI by the equation IKI=kX]AI , ... ... ... . .
+( 1 .
+) which implies that k is the greatest divisor of !
+KII ; then the symbolic equation Ki=|llkll x IIA , ... ... ... .
+( 2 .
+) in which\llkI denotes a square matrix of the type it X n , will admit of one solution , and one only .
+For , to determine kc , 1c , , .
+2. .
+7 , r , , the constituents of the rth horizontal row of llkll , we have the redundant system K , =-A , , i k , 1+A2 , i k , , 2+ ... +An , ,i kn , n(3 i=1 , 2 , 3 , ... n+m J( which is involved in the symbolic equation ( 2 .
+) .
+The matrix of this system is the prime matrix IIAIl ; and the determinants of its augmented matrix are all equal to zero ; for , by virtue of equation ( 1 .
+) , they are equal to the determinants Kr , 19 Kr , 29 a* * .
+r , n+m KXi , 2 , K , , ... .
+K2 , n+m K2 , X 1 K2 , 2 2 , n+m Kn , , Kl , 2.* the same type as IK[|I , and in which the constituents of ||A[| and llkll are the unknown numbers .
+We shall first obtain a particular solution of this equation , and then show how from any particular solution the complete solution may be deduced .
+We may suppose that the constituents of any horizontal row of jJKjj admit of no common divisor but unity ; for if 1 , , , ... 3 be the greatest common divisors of the constituents of the horizontal rows of |IKIt , we find liKI=1- , , 5 ) .
+l|X||KI ? ?
+... ... I ( 5 .
+) IIK 'll denoting a matrix the constituents of which are derived from those of jIKII by the relation K = ' , K. s , = ; ... ... ... . .
+( 6 .
+) so that the solution of equation ( 4 .
+) depends on the solution of a similar equation for the matrix IIK'Ij , in which the constituents of each horizontal row are relatively prime .
+Let then the matrix iK+ ) i. e. the matrix K1,1 , K12 .
+K1 , nf K , 1 , 2 * which evidently implies that A , |=|A- ; ... ... ... ... .
+( 10 .
+) whence , by the theorem of the last article , IIAll-||=I|x I||Ao , || , ... ( 11 .
+) IaI1l denoting a unit-matrix .
+Combining ( 9 .
+) and ( 11 .
+) , we find Illk , l xlX IAol = Ilkoi lX IA , l , ... ... .
+( 12 .
+) whence , by the same theorem , it follows that Ilk , 11 x || lko ; ... ... ... . .
+( 13 ) or , which is the same thing , lli=l=li oll x il- , ... . . ?
+( 14 .
+) iJj11- ' denoting the matrix reciprocal to Ia[ll .
+The complete solution of equation ( 4 .
+) is therefore contained in the formule =|A|H |x||AO |~j -.(15 .
+) IIA 11 = Ill 11 x |Aol l IlKll=llKKo1ixi1M II-'J. .
+)ll denoting an arbitrary unit-matrix of the type nX z , and IIAo| , \lko11 being any two matrices that satisfy the equation .
+In this , as in the preceding article , we have for simplicity excluded the case in which m=_0 , and the matrices IIKII and IA|I are squares .
+But it is readily seen that no exception is presented by this particular case .
+Art .
+4 .
+Let A , i x , +A , 2 x2+ ... +Ai , n+m Xn+m-0 , 1 =-1 , 2 , 3,.(16 .
+) represent a system of indeterminate equations of which the matrix is I[AIl .
+We shall suppose that the determinants of ItA[I are not all equal to zero , i. e. that the system is independent ; so that its index of indeterminateness ( or the excess of the number of indeterminates above the number of really independent equations ) is m. If we take r solutions of the system , for example the solutions xs , 1 , xs , , xs , 3 ... Xs , +WI , ] xs,3 ( 17 .
+) s-= , 2,3,..r j it is evident that if r &gt; m , the determinants of the matrix l|xll are all equal to zero .
+If r &lt; m , and if the determinants of the matrix |I|x| be not all equal to zero , the solutions ( 17 .
+) are said to form a set of r independent solutions ; if r=m , they form a complete set of independent solutions .
+A set of relatively prime solutions is an independent set of which the matrix is prime ; a complete set of relatively prime solutions may be called , for a reason which will presently appear , a fundamental set of solutions .
+It is always possible , in an infinite number of ways , to assign complete sets of independent solutions of a system of equations of the form ( 16 .
+) .
+Among the methods by which this may be accomplished , we shall select one which depends on the following principle:297 If r +r ) represent any matrix of the type rX ( m+r ) , the determinants of which are not all equal to zero , and if x , , , ... X+ , .
+be integers which satisfy the equations =12 C*i , k leo0,1 018 .
+) i=l , 2 , 3 ... rJ while a,.+i , i , ,.+ , 2a.+ 1,3 ** ... .
++i , m+r , are integers satisfying the inequality k=n a+ , , , x O , ... ... .
+( 19 .
+) k= r+ } C , I &lt; ?
+the determinants of the matrix ( r+l ) X ( m+r ) are not all equal to zero .
+F ?
+or if L= a , ?
++ , k xk0 , it is evident that by combining this equation with the equations ( 18 .
+) , we may express each of the determinants OX r X((+r)| in succession as a ?
+S linear function of the determinants of [ ( r+l ) X ( I r)i .
+If , therefore , the former determlinants do not all vanish , neither can the latter .
+Let , then , ac , , , am,2 ... Ca , ,+M represent any particular solution ( other , of course , than that in which every indeterminate is equal to zero ) of the system ( 16 .
+) ; and let A , ,+ , , , A A+1 , , ... A+ , , +m be integral numbers satisfying the inequality -n+mA + a , ; ... ( 20 .
+) 2k=1 , / * can always be done , either by trial , or by other obvious and not unsymmetrical expedients .
+Art .
+5 .
+If llall represent the matrix of a complete set of independent solutions of the proposed system ( 16 .
+) , and llb[l be any matrix of the same type as Ilall , and connected with Ilal by the equation bll=kIX x ll , ... ... ... .
+( 22 .
+) in which llkll denotes a square matrix of which the determinant is not zero , it is evident that the constituents of llbll are also a complete set of independent solutions .
+And , conversely , if llbll be the matrix of a complete set of independent solutions , Ilall is also the matrix of a similar set .
+For if ||KII be the matrix composed of the first minors of |[lk| , so that IIKII x lkl=lk , k , ... .11 , we have from ( 22 .
+) , IIKI[ x llbl=llk , , ... k , kl ; x IIlal ; from which it appears that |lk , k , ... |X lall , and therefore |lafl itself , is the matrix of an independent set of solutions .
+This observation enables us to obtain a complete set of relatively prime solutions , as soon as we have obtained an independent set .
+If 6llbl be the matrix of the independent set , we have only to determine , by the method of art .
+3 , a square matrix llkIl , and an oblong prime matrix fiall , satisfying the equation IIblf= Ik aX IIa11 ; the constituents of lal| are then the terms of a set of fundamental solutions .
+Or again , if in art .
+4 we employ , instead of the inequality ( 19 .
+) , the equation _=n a,.+m , k ... ... ... ( 23 .
+) it is easily shown that if rX( +$ ) be a prime matrix , ( r1)x( I++m ) ] is also a prime matrix ; so that , by following the method of that article , we may obtain directly a set of findamental solutions of any proposed system .
+Only , it will be observed , that in this mode of obtaining such a set , we suppose that we can assign particular solutions , not only of systems of the form ( 16 .
+) , but also of equations of the form ( 23 .
+) .
+Art .
+6 .
+The importance of fundamental sets of solutions in the theory of linear indeterminate equations is evident from the following proposition:"If Ilall represent a set of fundamental solutions of the system ( 16 .
+) , the complete solution of that system is contained in the formula Xi-zk=l k ( gk , } ^==2 ^ j^ , ?
+... ... ( 24 .
+) i=1 , 2 , 3 , ... n+m .
+in which a1 , , ... , , are absolutely indeterminate integral numbers .
+" For it is evident that every set of numbers included in ( 24 .
+) satisfies ( 16 .
+) ; and , conversely , if a+ , , 1 , am+i,2 , ... .
+am+ , n+m be any solution of ( 16 .
+) , the determinants of the 299 matrix ( m+1 ) ( n+m ) are all zero , while the matrix mx ( .
++m is prime ; whence , by a principle employed in art .
+2 , the system Cam+ , 1 k= k 4k ak , i =1 , 2 , 3 , ... .n+m is satisfied by one , and only one system of integral values of r , ,5 ... ; or , which is the same thing , the numbers a.+,1 , m+12 , , 2 .
+Am+ln+m are included in the formula ( 24 .
+) .
+It may be added , that no fractional values of 3i , , ... , m can give integral values to x , , x,2. .
+xn+m ; and that the same values of x , , x , ,,. .
+xn+m cannot arise from different values of , ,,. .
+'m .
+The converse of the proposition just established is also true ; i. e. " If the formula sxi-=2tk , c , ... ... ... .
+( 24 .
+) represent every solution of an indeterminate system of equations , the matrix alcil is a prime matrix .
+" For if llbil represent a set of fundamental solutions of the indeterminate system , we may express the constituents of ljbil as linear functions of the constituents of lail , by means of the equations ( 24 .
+) , so as to obtain an equation of the form i6bi=ia ii x aidl , -(lj denoting a square matrix ; whence it immediately appears that [ lal is a prime matrix , and alu a unit-matrix .
+Thus , if we apply EULEB'S method for the resolution of indeterminate equations to the system ( 16 .
+) , we obtain , as the final result of the process , a system of equations of the form ( 24 .
+) ; and as it is demonstrable , from the nature of the method itself , that these final equations contain the complete solution of the proposed system , their matrix is a prime matrix .
+If llall and fJb6l be any two sets of fundamental solutions cf the same system , we shall have the equation j -li=jl )l x iJa ) , |M ) denoting a unit-matrix .
+The matrices , therefore , of all sets of fundamental solutions are deducible , by premultiplication with unit-matrices , from the matrix of any given set of such solutions .
+Art .
+7 .
+If lall and liblj represent two complete sets of independent solutions of the same system , the determinants of f11af and ijjbl are evidently connected by the relation x3 x a1= ?
+X b|x , M and 13 denoting the greatest divisors of lajl and llbll respectively .
+A similar relation subsists between the matrix of the system and the matrix of any complete set of independent solutions of it .
+Let fJA ) ) and flall represent those matrices respectively , K and k their greatest divisors ; 300 the relation in question is expressed by the formula k XIAI-=KXlal , ( 25 .
+) where it is to be remembered that the types of the matrices I|Ai| and\lall are complementary ; so that , as has been already observed ( see art .
+1 ) , there is an ambiguity of sign in the equation ( 25 .
+) .
+To obtain its demonstration , let Q and q denote the sums of the squares of the determinants of IJAlI and llal respectively , and consider the determinant Aa .
+This determinant is certainly not zero , for multiplying it by itself , we find =Q ... ... ... .(26 .
+) A Let , then , be multiplied by any determinant of IIAI ; for example , by 4+A1 , , A2 , ... An , , .
+Observing that +A1 , , , A2 , 2 ... An , , may assume the form Al , II , I ... An , 1O 01 0 , , , A1 , , , A , , A , ... A , , 0,0 , ... . .
+0 A,2 , A2,2 , ... A,2 , 0 , ... ... 0 1 , A2 , n , nn,0,0 .
+0 A , ,n , A2 , , ... A , n , , 0 , 0 ... ... A , ,+ , , A , +. .
+An n+ 10 , j ... ... Al , n+m , A , +~ .
+A , ~2 , n , ) ... ... 1 we obtain the equation Aax +A , , , A2 , ... An , n =Q x ?
++a1 , + , a22 , ... am+ , .
+( 27 .
+) in which we may permute the second set of indices in any manner consistent with the condition that should not change its sign ; so that we may write lx |A|=Qxa , ... ... ... ( 28 .
+) the correspondence of the determinants in IAl and lal being fixed by the matrix A The equation ( 25 .
+) is an immediate consequence of this result ; and if in that equation we suppose the correspondence of the determinants to be still fixed by the matrix IA , we shall have to write k XIAI= Kx al , or kx IA[=-KX al , according as is a positive or negative number .
+Art .
+8 .
+From the preceding principles we may deduce the solution of the following problem , which admits of important applications in other parts of arithmetic:"To find all the matrices of a given type , of which the determinants have given values , not all equal to zero .
+" Two particular cases of this problem ( those in which the matrix is of the type 2X3 and 2X 4 ) occur in the ' Disquisitiones Arithmeticae ' ( see arts .
+279 and 236 ) .
+In both places GAUSS has suppressed the analysis of the problem , and has only given a synthetical demonstration that its conditions are satisfied by the solution he assigns .
+This , indeed , in art .
+279 , he expressly observes .
+He has also suppressed his method of deducing the complete solution from any particular solution , -an omission , however , which may probably be supplied by a comparison of art .
+234 with art .
+213 , I. The very general and most important case , of a matrix of the type n x(n+l ) , has been subsequently treated of by M. HERMIT * .
+Let llxll denote a matrix of the type nx ( n+m ) , of which the constituents are absoH(n+m ) lutely indeterminate quantities ; writing X for n.II m ' we shall represent its determinants by X , , X , ... .
+X. .
+Ifn m &gt; 1 , these determinants are not all independent , but are connected by certain identities of the form D(X , , X2 ... .X)=0 , ... .(29 .
+) ( P denoting a rational and integral homogeneous function with numerical coefficients .
+If , therefore , C , , C2 , ... C , be a given set of integral numbers , which can be represented as the determinants of a matrix of the type nX ( n+m ) , these numbers will satisfy every relation of the form ( 29 .
+) ; so that the identity ( D(X , X , ... X)=0 will involve also the numerical equation a'(C , C , , ... C)= ... ... ( 30 .
+) To obtain a convenient notation for C1 , C2 , ... C. , let us imagine that we have formed a square matrix of the type ( n +m ) X ( n +nm ) by the addition of mn horizontal rows to the matrix llxll ; if , in the development of the determinant of this matrix , the coefficient of Xi be the determinant r=l , 2 , 3 , ... m xn+r , , s-=1 , 2 , 3 , ... m ( iJ , P , ... P^ denoting m of the numbers 1 , 2 , ... n+rn ) , we may represent Xi and Ci by the symbols [ jc , , 2 ; ... / ]ml and ( p , P ... mr ) respectively ; observing , however , that if two of the numbers,2 , , ... are equal , the value zero is to be attributed to each of these symbols .
+If r denote one of the numbers 1 , 2 , 3 , ... n , the determinants of the matrix obtained by adding the horizontal row xr , ,1 Xr , 2 , ** n+ , m to the matrix n X(n+m)| are identically equal to zero .
+We thus obtain ?
+X +equations of the form , =M , n+ [ i , P=I *2 * ] X* i= *(3 S^r^^i= l^ ** *^m-l]^r , ?
+==0 , ... ... .
+( 31 .
+) Pi , ( -('2 , ... pim- , representing any combination of m--1 of the numbers 1 , 2 , 3 , ... m+n .
+In connexion with these equations , consider also the similarly formed system , ii ' " ( i , , 1 ( 1 2 ... y-=o ... ( 32 .
+) This system , which is in appearance redundant ( containing X Xn+ equations , and only m+n indeterminates ) , is in reality defective , and is equivalent to m independent equations .
+For if ( k , , k , , ... k , , ) be one of the given numbers C which is not equal to zero , the partial system of m equations j=1 , 2 , 3 , ... m ** ( 33 .
+) is certainly an independent system , because the determinant of the coefficients of Yl , Y* , ... yk .
+is ( k , , k2 , ... kcm)m , and is therefore different from zero .
+Again , every equation of ( 32 .
+) which is not already comprised in ( 33 .
+) , may be obtained by linearly combining the equations of that partial system .
+To verify this assertion , let I[i , pi , P..,. .
+m- , ]Xr , = o r-l , 2 , 3 , ... * n 3 ... ( be the system of n equations obtained by attributing to r the n values of which it is susceptible in any one of the equations ( 31 .
+) .
+Eliminating from this system those n-1 determinants [ i , pl , , p ... m-1 ] in which i has a value not included in a set of m+1 numbers v , v2 ... Um +l , arbitrarily selected from the series 1 , 2 , 3 , ... n+ , -m we obtain a relation , which may be expressed in the form it_M( )[ In m-1 [ V z , * order , by the determinants ( -l)(k h , h2 , ... hn- , ) and add the results , we obtain ( k , k , ... km ) .
++( , , h , a2 * 1)y =0 i. e. since ( k , k2 , , ... k ) is not zero , i= ; n+m ( i , h ) , h2. .
+}_)Y-0 The system ( 32 .
+) is therefore equivalent to a system of m independent equations .
+Let mX ( m+n ) represent the matrix of ( 33 .
+) , or of any other independent system equivalent to ( 32 .
+) ( the determinants of all such matrices are proportional ) ; let rl , ' , ... r , be the determinants of 11[y1 ; 1i'|| and 2 ' , I , ... E , the matrix and determinants of the system similarly derived from ( 31 .
+) .
+By the theorem of art .
+7 , we have EX I^S= S^Mxt , ... ... .
+( 37 .
+) or observing that -== .
+X , and that ( 37 ) is an identity of the form &gt; =O,0.rC X =r xcl , ... ... ... .
+( 38 .
+) where ICI symbolizes the numbers Cl , C , , ... C , which correspond to the determinants of I|yj in the same inverse order in which in equation ( 37 .
+) the determinants of 1jl correspond to those of iH- .
+But if l &gt; X ( m+n ) ; represent a system of fundamental solutions of ( 32 .
+) or ( 33 .
+) , we have also lx y=lIX2 ... . .
+( 39 .
+) whence , combining ( 38 .
+) and ( 39 .
+) , and representing the greatest common divisor of C , , C2 , ... C , by c , we find cX j l= IC..(40 .
+) If , then , llell denote any square matrix of determinant c , and of the type nX n , the formula ijcF !
+x I011 contains the complete solution of the problem .
+If y represent the greatest divisor of 11ryl , we infer from ( 38 .
+) Cxy , =yrx Cl , ... ... ( 41 .
+) whence , if ry'lj be a prime matrix of the type mX ( Wr+n ) satisfying the equation f|y| =x Iy ' ( see art .
+3 ) , we find ICI= xc X ... ... ... . .
+( 42 .
+) The preceding analysis enables us therefore to obtain simultaneously the representation of the determinants ICI as the determinants of two complementary matrices , of the types nx ( m+n ) and mX ( me+n ) respectively .
+We have thus two distinct methods of arriving at the solution of the problem , of which one requires the determination of a set of fundamental solutions of a system of linear equations ; the other the reduction ( by the method of art .
+3 ) of a given matrix to a prime matrix .
+The greatest divisor of iir ! !
+304 which we have represented by , is evidently ( k , , kj,. .
+k )t -x c. If , therefore , C , one of the given numbers C , C , ... C , , bea unit , we have only to take C for ( k1 , kI ... l ) , and we shall immediately obtain a matrix 11y71 of the type m x(mw+n ) satisfying the equation Ir|= 101 .
+And similaxly might a matrix of the type nx ( nt+- ) , satisfying the same equation be written down without calculation , Art , 9 , The importance of the case , in which m=l , is so grat , that we may be allowed to point out the identity of the solution obtained by the preceding method with that already given by M. HEBMITE .
+Let , then , 0 , C , * .
+C , + represent the determinants of a matrix of the type nx ( n+l ) taken in their natural order ( i. e so taken that if th matrix be completed by n additional row of constituents , C1 , C2 , ... *C+ .
+, the value of its deteminant would be +2+303c , C ++%+ ... .
+++ ) .
+VWe have then to obtain a set of fundamental solutions of the equation C , y +C +y js++ C -3 +0 +..+ , , , + .
+( 43* .
+) Such a set may alays be obtained by the following particular method .
+Supposing that C , is not zeo , consider the equations O=C , yI+C2Y#-y 0=0+ --v e 0t01*+O.24 +G. .
+- .
+( 44 .
+) O-CY+QY+QC + *. .
+, +Cn+ ?
+g and take a particular solution of each of them , assigning to the last indetierminate in each , the least value ( zero excepted ) of which it is susceptible .
+If we deote by Ak the greatest common divisor of C , C , so that Al=C , , A , + , = c , it is evident that the value of y+ , in the equation C , y+cy+2..* +ck+,1yk=0 will be and if in the same equation we represent the values of y , , , ... k by irk , rk , 2s rk , *3. .
+r , k the matrix I r^ 0 , 0 * ... .
+0 will represent a set of fundamental solutions of ( 43 .
+) .
+For , in the first place , it represents a set of independent solutions ; because its first determinant is -X 2X ... " 1 L~~~~~1~~A2 A3 A+ or , , , or c1 ; therefore its determinants are proportional to C , , C , ... &amp;c. ; or since A+1 cC the first of them is - , they are respectively equal to the numbers CG C2 C3 Cn +1 CCcC which admit of no common divisor .
+To obtain a set of values for the constituents ri , j , which occur in the matrix ( 45 .
+) , we may form the series of equations x , C2+P1A1-A2 24 C3+t2A2=A3 ( A4 .
+* , * , +~ , a2 Then , if [ lull represent any unit-matrix of the type nX n , and X , , X2,. .
+X , absolutely indeterminate integers , the complete solution of the problem is contained in the formula lill x Il , ,+X , fj ll i=1 , 2 3 ... n ... ... ... .
+( 50 .
+) i=l , 2 , 3. .
+n+l For if 1111 be any one of the matrices contained in that formula , it is readily seen that |= I=C , Y+cI-c + c. .
++ ?
+C"+ 1=i .
+Conversely , if Ix1i1 be a matrix satisfying the equation 1f=1i , 11 is included in the formula ( 50 .
+) .
+To show this , we observe that the complete solution of equation ( 48 .
+) is contained in the formula.j=G+Z : : i , Xi , ij=l , 2,. .
+n+1 ... . .
+( 51 .
+) in which liOj is any set of fundamental solutions of the equation C , yl+Cy2+ ... C , + , y , + , =O ... . .
+( 52 .
+) and X , ,,. .
+X. are indeterminate integers .
+The complete solution of the same equation ( 48 .
+) is therefore supplied by the determinants of the matrix llyi , j+ki , CjI .
+Forthose determinants may be represented by the formula j+ =n[i , j]xi , J= l , 2 , 3,. .
+l+l , in which [ ij ] symbolizes a first minor of the determinant , so that [ i , j]=dyi , But the numbers [ i , 1 ] , [ i , 2 ] , ... [ i , n+1 ] satisfy ( 52 .
+) for every value of i ; and , since N=1 , the determinants of the matrix i==1 , 2 , 3,. .
+n++l [ ] [ i ' J~[j=l , 2 , 3 , l } 1 ... ... ... .
+( 53 ' ) are the numbers C , C , ... C+ , , and are therefore relatively prime .
+It follows from this that ( 53 .
+) represents a set of fundamental solutions of ( 52 .
+) ; i. e. that the complete solution of ( 48 .
+) is represented by the determinants of il^i , j+xACj If then 1xll be a matrix satisfying the equation 1 , since the determinants of Ilxj evidently satisfy ( 48 .
+) , values can be assigned to X , , ... X which shall verify the equation whence it follows that 11=llxll =x I ; iy , ,ij+.xlI , rull denoting a unit-matrix , i e. |11| is one of the matrices included in the formula ( 50 .
+) .
+The result incidentally obtained in the foregoing analysis , that the complete solution 307 of an equation of the form C , + CA+ ... . .
++ Cfx , n+ , 1 can be exhibited in the determinantal form ( 50 .
+) , is occasionally useful .
+The preceding problem is a particular case of the following more general enunciation : " Given a prime matrix IICII of the type nX ( m+nq ) , to find all the matrices llx[[ of the type nX ( m-nn ) which satisfy the equation c=1 .
+" ... .
+( 5 4 .
+) Let iyri be a matrix which satisfies ( 54 .
+) , let the numbers , j represent absolute indeterminates , and IluI any unit-matrix ; the complete solution of the problem is contained in the formula Mlxll=Hluii x|iyr+ ~C|li , ... ? ? ? ? ? ? ? ?
+~(55 .
+) where lly+ [ ZCl1 represents the matrix , ,E= : C0 , j j=-1 , 2 , 3 , ... n+ For if Hllx be a matrix satisfying the equation ( 54 .
+) , we have and consequently xI =-llvll xli [ vll denoting a unit of the type ( m+n ) X ( m+n ) .
+But because the first m horizontal rows in Ci and C are identical , it is evident that =:1 , 2 , 3 , ... m+n , l , 2 , 3,7 ... rM+n except when i=j , in which case Vl , 1=-V2 , 2=* * ' Um , m=1 .
+The unit-matrix llvll therefore arises from the composition of two unit-matrices of the:forms 1,0,0,..0,0,0,..0 0 , , 1,0 .
+0,0,0..0 o,0,1,..0,0,0,..0 i. .
+, ,1 , 019 1 , 2 1 , , m 19 0 .
+0 2 , 1 , 2,2 k~2,3 * and 1 , 0 0 , 0,0,. .
+0 , 1 , 0,. .
+0,0,..0 0 , 0 , 1,..0,0,..0 0 , 0 , 0,. .
+i 1 , 1 Il , 2,. .
+1 , 0 ) , 0 , 102 , *,. .
+( 2 , 0 , 0 , 0o .
+, Uo , ,n , ,..n , |Ji ] denoting a matrix of the type nXm of which the constituents may be any numbers whatever , and lluzl a unit-matrix of the type nX n. If for 11X11 we substitute the matrix it is readily seen that we may invert the order of the factors in the expression of 1v14 ; so that , using an abbreviated notation , the signification of which is evident , we may write either Inll x 1| 0x0 , i ' 1111 1f 1 l , I or Ilvil-| i , x|I Substituting the latter expression of llvil in the equation lx= livll xi ] , we immediately infer |1X11 = 1|1 xi ||+ x c ?
+c. Every matrix satisfying the equation C=1 is therefore comprised in the formula ( 55 .
+) ; and since it is evident , conversely , that every matrix comprised in ( 55 .
+) satisfies the equation , that formula contains the complete solution of the question .
+A particular solution of the problem ( which may be taken for I|y|| ) can be obtained as follows:--Complete the matrix ||C|| by any In horizontal rows of constituents which do not cause the determinant of the resulting matrix to vanish .
+From this matrix a prime ( i. e. a unit ) matrix of the same type is to be deduced by the method of art .
+3 , a reduction which can always be effected without changing the prime matrix ICIl ] .
+Art .
+11 .
+The consideration of sets of fundamental solutions of linear systems is also of use in the theory of indeterminate systems containing terms not affected by any indeterminate .
+Let Ai , o+Ai , ,x , +A , 2X2+ ... +Ai , n+ , =o ( 56 .
+) t=1 , 2 , 3 , ... n represent such a system ; its general solution will assume the form Xk= ak+ 'oZ=1 ( " k0 Ok , \ k=l , 2 , 3 , ... n+mJ where a , a,2 ... a , + is a particular solution of ( 56.)9 , 1 2 ... pm indeterminate numbers , and Ijail a set of fundamental solutions of the system Ai , 1 x+A,22+ ... .+Ai , n+mX 0+m l ( 58 .
+) i=1 , 2 , 3 , ... ~ J ' Whenever , therefore , the proposed system is resoluble , its complete solution involves n indeterminates ; but in order that it should be resoluble , a certain condition must be satisfied by its coefficients .
+This condition is , " that the greatest divisors of its augmented and unaugmented matrices must be equal * .
+" We shall call these divisors D and Do respectively , representing the matrices themselves by IA]I and I|Ao|| .
+That the condition is necessary may be seen by eliminating in turn every combination of n-1 indeterminates from ( 56 ) .
+We thus find that every determinant of I]A[| is divisible by Do , i. e. that D is divisible by Do ; but evidently D divides Do , so that Do-D .
+To show that the condition is sufficient , as well as necessary , consider the system Ai , o xox+Ai , i - , +Ai2 X2+ ... .
+Ai , +n X " + 0. .
+( 5 .
+) i=1 , 2 , 3 , ... 1n and let ( m+ -1 ) X ( n+n+ 1 ) represent a set of its fundamental solutions .
+To say that ( 56 .
+) is resoluble , is the same thing as to say that ( 59 .
+) admits of solutions in which the value of x0 is unity ; and ( 59 .
+) will not , or will admit of such solutions according as 0,0 , 0 2 , 0** * .
+m , do , or do not admit of any common divisor beside unity .
+But , by the theorem of art .
+7 , those determinants of 0itll into which the column 0e 2 , ... enters , are equal to the determinants of [ IAoll , taken in a proper order and divided by D. If D)=DO , the determinants of IhAo| , l divided by D , are relatively prime , and consequently those determinants of 11011 which contain 01 , o0 02 , 0w a m , oa re latively prime ; a conclusion which implies that ~0 , 02 , 0,. .
+, , , o are themselves relatively prime , i. e. that the system ( 56 .
+) is resoluble .
+This criterion is not immediately applicable if the system ( 56 .
+) be not independent , i. e. if the determinants of its augmented matrix IA| be all equal to zero .
+But it may be applied to any independent system , equivalent to the proposed system , and deduced linearly from it .
+If we represent by Dk the greatest divisor of the matrix , deduced from the matrix of ( 59 .
+) by omitting from it the column A , k , A2 , ... A , k , we may enunciate the following proposition:"In every solution of the system ( 59 .
+) , the value of x , is divisible by - ; and , conversely , a solution of that system can always be assigned in which xk shall have any given value divisible by -* It will be seen that the solution of ( 56 .
+) depends , first , on the solution of ( 59 .
+) , and , secondly , on that of the indeterminate equation 1 , 0 1+02 , 0 2. .
++0m+1 , 0X 1n+i-l .
+( 60 .
+) If we represent the values of the indeterminates in this equation as the determinants of the matrix i=1 , 2 , 3 , ... m j=l , 2 , ... m+l ( see art .
+10 ) , we may express the most general values of the indeterminates which satisfy ( 56 .
+) in the determinantal form 1l , k 02 , k Om+1 , Xk= 71 , 1 +(I , 0 71,2 +l 2,05 ** 71 , l , +l +P1 m+l , 0 72 , , 1 +~2 01 , 0 72 , 2 +(^2 02 , 0 *. .
+** , mn+l +2 , m+1 , 0 ( 61 .
+) 7m , l+ lm O , , 7ym,2+P4 02,0o * * where iiC|[ is a prime matrix , it is clear that every minor of IIAI[ is a linear function of the minors formed from the same horizontal rows of |JBIj ; so that if a and b be the greatest common divisors of any corresponding horizontal rows of minors in those two matrices , a is divisible by b. But again , if 0 be any one of the determinants of IlC|l , and s be the order of the minors under consideration , any minor of ( IB|l , after multiplication by 0s , may be expressed as 'a linear function of a certain group of the minors taken from the same horizontal rows of IA'I .
+Consequently OXb is divisible by a ; or , since 0 may have any one of a series of values which are relatively prime , b is divisible by a , i. e. b=a .
+By combining these results we obtain the theorem .
+" If V V1n-l , Vn-2 ) ** V1 represent the greatest common divisors of all the minors of order n , n-1 , ... 1 , respectively which can be formed out of a given square matrix , these numbers will remain unchanged , when the given matrix is premultiplied by any unitmatrix , and post-multiplied by any prime matrix whatsoever .
+" Art .
+13 .
+Let 0 , the determinant of the square matrix | X , be a positive number , a different from zero .
+It may be shown that by post-multiplication with a properly assumed unit arll , ixa cn red t the matrix canbe reduced to the form p1G rl , 2 , r1,3 ... rl , 0p * , r2,3* * * .
+0,0 , ... .3. .
+( 62 .
+) where 11 , ,2 ... p are positive numbers , such that XU2 X. .
+Xi= , and the constituents ri , k satisfy the inequalities 0_ ... ... ... ... ( 63 .
+) This was first observed by GAUss for the case n=2 ; by SEEBER for nZ=3 ; and the general theorem has been enunciated by M. HERMIT * .
+Its precise statement is " Every matrix of the type nXn is equivalent ( by post-multiplication ) to one , and only one , of the reduced matrices included in the formula ( 62 .
+) .
+" To show this , let v1 , 1 V , 1 ... v,1 be the integral and relatively prime numbers which satisfy the equations ai , , v , I+ a2 , v , ,+ ... ai , , v,1=O}.(64 i=2 , 3 , ... n6 and the inequality a1 , 15 V1 , l -1+,1 , 2v , , +t.a , , 1+v , , &gt; ?
+0 .
+Then it is evident that , if llvll be a unit-matrix of which v , , v2 , , ... n , 1 form the first column , the matrix lall X ivll will assume the form bl,29 bl,3 ) ... bl , 0 b2,2 2 , b3)* b2 , n 0 , 3,2 b3,3 , ... b3 , ... ... ... ( 65 .
+) 0 ) b,2,3 , *.* bn , n where l=aal , i , vl , l , +al , , V2 , +. .
+a , , , , v1 , , .
+If this matrix be post-multiplied by the unit , 1 , k2 , k3,. .
+k , 0 , 1 , 0 , ... 0 0 , 0 , 1 , ... 0 0 , 0 , 0 , ... 1 the constituents b , i will be changed into b , , i+/ plk , , while all the other constituents will remain unaltered ; so that by assigning proper .
+values to the numbers k2 ... kn , we may bring the given matrix Ilall into the form Pil rl , 2 rl , 3 * i. e. that only one post-multiplying unit can be assigned by which a given matrix can be reduced to the form ( 62 .
+) .
+If instead of reducing the given matrix ijall by post-multiplication we employ a premultiplying unit , we obtain the following theorem : " Every matrix of the type nXn and of determinant d is equivalent ( by pre-multiplication ) to one , and only one of the matrices included in the formula ( 62 .
+) , in which il , ... are positive , p , 2*. .
+, =0 , and rt , satisfies the inequality 0 r , k &lt; .
+" ... e ... ( 66 .
+) Art .
+14* .
+The transformation to which we have referred in art .
+12 is obtained by employing simultaneously a pre-multiplying and a post-multiplying unit-matrix .
+It is expressed by the equation Ia ll= V n-1 V1-I. .
+J3ll ... ... ( 67 .
+) |Vn-i Vn-2 Vo in whilch jalal is a given square matrix of the type nX n , I|Il and li3l are unit-matrices , and V7 , Vn-15 Vn-25 so on ; i. e. since we can assign to the indeterminates values simultaneously satisfying all these congruential conditions , we can give to U1 , U2 , ... U , values the greatest common divisor of which is prime to M. Let D , be the greatest divisor of IhAil , D , , , the greatest common divisor of the first minors of |jAj } ; and let C1 , C , ... C. be a set of simultaneous values of U1 , U2 , ... U , , having a greatest common divisor c , which is prime to DnSince the equations Ai , lli+Ai , 22 , .
++Ai , n+m , n+n Ci , i=1 , 2 , 3 , ... n are resoluble , it will follow from the condition of resolubility ( see art .
+11 ) , that the determinants of its augmented matrix , and in particular those which contain the column C , , C , ... CQ , are divisible by D , .
+Let 0 XcX D_ , be the greatest common divisor of these last determinants ; then 0X cX D_ is divisible by D , , i. e. d is divisible by D , .
+It appears from this , that the condition of resolubility is satisfied by the system A , 1Ai , 1,2+ ... +A,2Ai n4-nXn+m i=1 , 2 , 3 , ... , that is to say , it is possible to obtain a simultaneous system of relatively prime values for U1 , U2 , ... Un .
+To apply this principle to the transformation of the matrix 1ajj , let [ a , ,]=* ... ... ( 69 .
+) Vn-i dai , j ' The constituents of the matrix 11 [ a ] 1 do not admit of any common divisor ; consequently , in the system [ ai , bl , 1+[a2 , i , 2,1+ i ' * ; ' +[a , i]b , i , ' 1 .
+( 70 .
+) i=1 , 2,3 , ... n(7 we can assign values to b6 , , 62 , ... bn , I , which shall render u1 , , u1 , t ... e , relatively prime .
+Let llu|l denote a unit-matrix of which the first column is u , , u , ,. .
+* * , , and lljl6 a square matrix of which the first column is b , ,i , b , ,1 ... b , , 1 , and of which the remaining constituents are defined by the equations bi , j= ai^w1 li+ ai , 22 , +** +ai , ,NU , j i=l , 2 , 3 , ... n. ( 71 .
+) j= 2 , 3 , ... . .
+Observing that the systems ( 69 .
+) and ( 70 .
+) involve the inverse system , ai , r11,11 +ai , 22 , 1+ ***+ ai , nun , 1 --b , 16 ( 72 ) Un ... * in which V1 , 1,. .
+denotes a matrix of the type nXn .
+It follows from ( 73 .
+) that V_ , is the determinant of ifbj ; let that matrix be reduced by premultiplication with a unit-matrix ; and let lb=1 x11x ilv , l| , ... ... ... ... ) where llvll is the reducing unit , and Iv4- , ll the reduced matrix , 01 1 , ,2 rl,3*. .
+r*l , n ?
+P2 7 r23 *** r2 , n 0 , 0 , ... r ' .
+( 75 .
+) 0,0,0 ... so that ( 73 .
+) assumes the form ll=iivI x lv - , llx , 1 , ... x|i ... .
+( 76 .
+) It may be proved that in ( 75 .
+) p , =1 , r , 2=0 , r , ,=0. .
+r , ,=0 .
+For since the matrix lvb-liiX | !
+: -1 , 1 .
+is derived from jlail by multiplication with unit-matrices , V.-i is the greatest common divisor of the first minors of |li IX |-Vn 11 , ... Therefore v , - .
+Vw-I divides p , X p3 X. .
+X p , which is one of those minors ; but also V- , =I Xp .
+* .
+X hn ; i e. p , I=1 , p2X/ P3X X. .
+X , =V , - , , and the product |lv- , lIx 7 I,1,1,. .
+assumes the form V~~n~\ r~ V -1 r1,2 ) r193 , 3. .
+, ?
+0 , 2 2,3~ ** .
+r2 , 0 , 0 , P3 , ... r3 , n,0,0 , ... ?
+* One of the minors of this matrix is r,2 X x ... X E , which cannot be divisible by vior AiJ2 X.3 X ... *X n , unless r , 2 is a multiple of fJ ; but r , &lt; P2 , because [ |vn-Ill is reduced , therefore r , , 2O .
+Similarly , it may successively be shown that r , , =0 ... rl , =0 .
+Now if the matrix / 2 , r23 a,. .
+* r , -0 O s3 ... r3 , n ( 77 .
+) in which Vn-2 Vn-3 * ... represent the greatest common divisors of the minors of ( 77 .
+) , we may replace jIv-lljj by the matrix 10 ?
+x , -Vn-11 Vn-2 Vi 10 V Vn-2 ' V-3 ' Vo where 10 V and 0 ?
+denote unit-matrices of the type X n , the forms of which are 0 v ' and sufficiently indicated by the symbols themselves .
+Hence , observing that ?
+|y I XV , I1 | , 11. .
+0x and that 1vn-vn-2 Vi Vx Un VV-I Vi l_ 1 .
+1 , = .
+Vn-2 Vn-3 Vo VnVn-1I Vn--2 'Vol we obtain , from ( 76 .
+) , 1 ?
+Un V ?
+=i VI 11 1 11i-iMI V ' 1 l^ v1 Vn-11 Un _-2 X ? ?
+11 or more simply , V1 2 VnV " V X Vn-I ' Vn-21 ... VOllo It has , however , still to be shown that vn-2 , Vn-3 ?
+.* which have been defined with reference to the matrix ( 77 .
+) are the greatest common divisors of the successive systems of minors of Ilall .
+These greatest common divisors are the same for the given matrix l\all an ftri VI{{ and for the matrix Vn- , ,-i ... vl which is derived from it by multiplication with Vn-Il V -2 Vol unit-matrices ; consequently v._1 divides every first minor of [ V~ , v"-,.vl , and , !
+|Vn-i Vn-'2 Vo " in particular , it divides V Xv-X X ... x -V V-2 ; .
+ie ve .
+divides V ' V-i Vn-s Vn-4 Vo Vn-i V , -2 V-'-1 Again , Vn-1i Vn-2 ) ' eV1i Vo which are the determinant and greatest common divisors of the minors of ( 77 .
+) , are also the determinant and greatest common divisors of the minors of the matrix Vn-i Vn-2 Vi ( 78 .
+) Vn-2 Vn-3 Vo. .
+so that if s_ n-2 , v , divides every minor of order s in ( 78 .
+) , and , consequently , the minor V XvX V3X X. ; or vdivides + It thus appears that in the series of Vs vs-2 Vs-3 V3 VVnumbers Vn Vn-i V2 Vi Vn-i Vn-2 Vi Vo each term is divisible by that which comes after it .
+Every product of s terms of that series is therefore divisible by the product Vs X VX ... X =Vs ; or , which is the Vs-1\s-2 Vo I same thing , v , is the greatest common divisor of the minors of order s in the reduced matrix ( 78 .
+) , and therefore in the given matrix Ilall .
+Art .
+15 .
+If the proposed matrix Ilall be not square , but of the type nX ( n+m ) , let Iiall = ViXiX iia'j( , where |la'|| is a prime matrix of the same type as hail , and [ lvnlI a square matrix , of which the determinant is V , , the greatest divisor of llall .
+Then if liv11 be expressed in the form lvllX V , Vn-,. .
+l , ,Vn-1 Vn-2 'Vo and if , for brevity , we write IIV1I for luI X aIll , | we obtain for jlall the expression = x^.jaj=jvV2X | * .
+nanlts ; 'i the greatest common divisor of those first minors in ljill which do not contain the constituents of its uppermost row , so that is integral ; lastly , let w be the quotient obtained by dividing the determinant Un , Vi ... ... ... ( 81 .
+) Vn-1 Vn-2 Vo by the greatest common divisor of its first minors , so that w is the greatest common divisor of x , , W2 ... .
+Now the greatest common divisor of the first minors of ( 81 .
+) is evidently divisible by v_-1 , and divides vn-1 X 41 ; ( because v7n-i is the greatest common divisor of one of its rows of minors ) .
+Consequently wi divides V , i Vn-_1 , and is divisible by VnO + V , -4i .
+Therefore vis a common divisor of certain numbers respectively dividing the numbers w , , w , ... , viz. the numbers Un -i4 ; it is also ( because , , 2 ... are\ ; n2-1 3/ i ) relatively prime ) the greatest common divisor of the numbers V , n 6 , in which the same Va-i numbers wi are respectively contained ; i. e. -rLn is the greatest common divisor of the Un Vn-1 By the aid of this particular case of the theorem the general proposition itself may be proved as follows : If in any rectangular matrix of the type nX ( m+n ) we propose to determine fl , , the greatest common divisor of the quotients obtained by dividing each minor determinant of order s , by the greatest common divisor of its own first minors , we may begin by selecting any s vertical columns [ s &lt; n ] , and forming the proper quotient for each determinant of order s , contained in this partial matrix of the type^n X s. Let ki denote the greatest common divisor of these quotients ; then , as we have just seen , X , is the greatest common divisor of all the determinants of the partial matrix , divided by the greatest common divisor of all its first minors .
+Hence ( by art .
+12 ) Xi will remain unchanged when the given matrix is premultiplied by a unit-matrix .
+But l , is the greatest common divisor of all the divisors X , , X2 ... corresponding to every group of s vertical columns ; therefore f , is itself unchanged by premultiplication .
+Similarly , if a square matrix be post-multiplied by a rectangular prime matrix , it may be shown that Qs is the same for the given square matrix , and for the resulting rectangular matrix .
+Hence if , as before , A=II = lllli ... V v xllV V~nVo fl and v , are the same for VVn , Vn- , ... Vl and for IlAII .
+But in the matrix VslVn-1 Vn-2 Vo Un ... Vli it is evident that vSand lS coincide ; therefore in any rectangular matrix !
+1-1 Vo Vs-1 Vs Vs-I 2x2 319 From the definition of -VS as a greatest common divisor , which we have now obtained , we infer that if |IDij be any matrix containing another matrix |v[ll and if Ds , Ds* * and M , 0 , 0,.0 , A , ,. .
+A , ,+1 0 , M , 0 , .
+0 , A2 , , , ... A2 , ,+ 0,0 , M , .
+0 , A , , ... A3 , + ... .
+( 84 .
+) 0 , 0 , 0 , .
+M , An , , ... A , n+ are to be equal to one another .
+Now the first of those greatest common divisors is evidently the greatest common divisor of Mn , Mn-l V1 , Mn-2 V2 , ... M Vn-i , V , ; which , for brevity , we shall represent by the symbol [ Mn , M-1I v , Mml-22 v * ... vnM , v ] ... ... ( 85 .
+) Let M=P X QX R. .
+, P , Q , R , ... denoting powers of different primes ; we may then , in ( 85 .
+) , replace M by P , Q , R , ... successively , since [ Mn , M- ' v , ... M V-l , vn ] = [ P1 , Pn-1 , ... .
+P vn-1 , v ] x [ Qn , Q-1 v ... v ] x. If P divide any one of the numbers V- ... .
+let vs be the least of them that it divides ; iVs-i Vs-i also let Pi= P , Vi- ; so that Pi=P , if i &gt; s. Then [ PA pn- ' V1 , ... .
+P vn-,1 p Xr_ pn-1 iV pn-2V2 in Pi ' P ' P ... .
+=P X pn"-1 , pn-2 V2 pn-3 V V1t ] L _ , l1 l ' VI ... .V1j observing that I is prime to P [ if s &gt; 1 ] , and that we may therefore divide the last a PP numbers by - ; and may then omit p " , which is divisible by P"n- .
+Continuing this process , we find [ P[ , pn1 v,. .
+PVn-_ , Vi ] __p\/ p p/ \/ P r I-8+1 pn-t Vs pn--lVs+I Un j -P , xx x ... x_P " + P"- , I_ p , ' _ V , __+ or , since vL_ is divisible by P , and Vs+ Vs+k X Vs+kX -v by Pk+ 6Vs-i VsVs+k-i Vs+kc-2 Vs-i [ Pn , P-I V , P'n-2 V2. .
+P Vn-1 , Vn ] =P X P2X Xx PSX Pn"_s = nt .
+P , .
+But bi=P , X Qi X Ri X ... ; and consequently the greatest common divisor of the determinants of ( 83 .
+) is X , X , X ... X , or a. Similarly , the greatest divisor of ( 84 .
+) is , X d , X ... X dn or d. The necessary and sufficient condition for the resolubility of the proposed system of congruences is therefore contained in the formula It should , however , be observed that , since D-divides ( art .
+16 ) , d5 divides 6 , , and therefore the equation d= involves the coexistence of the n equations d1= d2= , ... - , , ... ... .
+( 86 .
+) To investigate the number of solutions of the system ( 82 .
+) , supposed to be resoluble , let |I ] } ] and |I|31 be two unit-matrices satisfying the equation Ila~l x IllAI x 1i/ 11= 7- , ; .
+, ... I. ]I V2 ( 87.)v V also let Xi=Pi , 1 VI +Pi , a V2+ * Pi* , n.z , V i= , 2 , 3 , ... n J ci= , i , I A , n+ I+ Ci , , A , l , ++ Art .
+18* .
+Let the proposed system of congruences be the defective system Ai , 1i +A , X 2x2+ ... +A , + , +x , ,+ Ai , , , + + mod .
+M,1 ( 89 .
+i=1 , 2 , 3,. .
+( 89 .
+) and let the notation of the last Article be retained .
+It is easily seen that the condition of resolubility of the system ( 89 .
+) is , as before , -=d .
+But the number of its incongruous solutions , when that condition is satisfied , is not b , but X Mm .
+For we have seen that we can find a unit-matrix Ilai , and a prime matrix IA'jII of the type nx ( n+rm ) , satisfying the equation lxAllx-1V ?
+' " 'X IIA'11 ; o=VnI Vn- , VI7 Vo we may therefore replace the system ( 89 .
+) by a system of the form V : ?
+, Uj _C , mod .
+M , ... .
+( 90 .
+) Vn-i ' in which Ui='= , A , x1+ Al 2x2+ ... .
++ At , +m x+m and Ci= ; i , A1 , n+m+1 +ti , A2 , +m++ , ** i , n nAn , ,A+m+1 .
+If the system ( 89 .
+) is resoluble , the system ( 90 .
+) will be so too , and will give d or ; different systems of values for Ul , U2 ... U , any one of which may be represented by the formula Ui=u , mod .
+M , j. i6 o ... ..(91 .
+) i=,1 2 , 3 , ... J n Let us replace the modulus M by P , the highest power of one of its prime divisors .
+Since ( A 'll is a prime matrix , one at least of its determinants , for example , the determinant + AI , , A2 2 ... A , , , is prime to P. It will follow from this that , whatever values we attribute to x , ,+ , x , , ... + , , , each of the 6 systems represented by ( 91 .
+) is resoluble for the modulus P , and gives , for any assumed values of x.+ , , xn+2 , ... x , +m , only one set of values of xl , 2 , ... x , .
+Each of those 8 systems admits , therefore , of Pn solutions for the modulus P , i. e. of M ' for the modulus M. The system ( 89 .
+) will consequently admit of 8X Mm solutions .
+Let us also consider the rediudant system of congruences , Ai , , j+A +i,2 + ... .
+-+AA~ , x s-A , ,+ , , mod .
+M , I i=1 , 2 , 3 , ... n+m , J. and let D+ , , denote the greatest divisor of its augmented matrix .
+Let p represent a prime divisor of M , and let p0 , ps , pis be the highest powers of p , which divide M , D , , respectively .
+The condition of resolubility of art .
+11 , applied to the system ( 92 .
+) , considered with respect to the modulus p0 , becomes , after division by p(1)0 , [ pin+1 pln+O pn +2 .
+p(t+l)O ] [ pj , z , io~.*0 , 2 , * ' ?
+, ... . .
+* , ] }0 i , +20 p(t+i)0]. .
+9*3.( ) And this equation is impossible , if &gt; T , ,+-I1 .
+For I8+--I_Is--I , _ , because -D is divisible by D- ; the inequality , I+ , &lt; I.+0 , involves , therefore , the inequalities IR-F~ &lt; I ?
+B-6^+X~ 1 ... ... ... ... **(94 .
+) s--l , 2 , 3 , ... n+1 , ( and these , again , imply the corresponding inequalities I+ , &lt; ... ... ( 95 .
+) ==1 , 2 , 3 , ... n+l , J. because I_s+ &lt; _i_ n-s+ .
+From ( 94 .
+) it appears that the value of [ pn+1 , p +0 , ... p(+l ) ] is p'n+i , and from ( 95 .
+) , that the value of [ pn+oin-12 , p_ ... 1(n+l ) is a power of p superior to p'n+i ; i. e. the equation ( 93 .
+) is impossible .
+We thus obtain , as a first condition for the resolubility of the proposed system ( 92 .
+) , the congruence D+-o0 , mod. .
+M ... .
+( 96 .
+) When this condition is satisfied , we obtain from ( 93 .
+) , omitting the term p'n+ ' ( because I +6 + I , +- ) , and dividing by p , the equation of condition , [ n , In_l- , I n-2+20 , ... p. ] Ep ? . .
+p , -1 XP n_+8 I which leads us ( as in the last article ) to the simple formula This equation , therefore , and the congruence ( 96 .
+) , express the necessary and sufficient conditions for the resolubility of the proposed redundant system .
+When these two conditions are simultaneously satisfied , the number of incongruous solutions is F. For , if we again consider the proposed system of congruences with respect to the modulus p0 , and select from it a partial system of n congruences such that the determinants of its augmented matrix , which are necessarily divisible by pIn , are not divisible by any higher power of p , it is readily seen that every set of values of the indeterminates xl , x2 , ... x , , which satisfies the partial system , will also ( by virtue of the inequality 0 I , + 1 .
+) satisfy the remaining congruences of the proposed system .
+The number of solutions of the proposed system is therefore the same as that of the partial system .
+And because pIn the highest power of p which divides every determinant of order n in the augmented matrix of the proposed system is also the highest power of p which divides the augmented matrix of the partial system , it follows from the last theorem of art .
+16 , that p'n-l , p'n-2 , ... . .
+are the highest powers of p which divide the corresponding orders of determinants in the latter , as well as in the former matrix .
+The number of solutions of the partial system ( and consequently of the proposed system ) , considered with respect to the modulus p0 , is therefore expressed by the formula [ p'I , pIn-+ ... ... .n ] ; 324 or , finally , the number of solutions of the proposed system , considered with respect to M as modulus , is d or 6 .
+Art .
+19 .
+We shall terminate this paper with an elementary theorem relating to linear systems of equations , which admits of frequent application in other parts of the theory of numbers .
+Resuming the notation of art .
+11 , we may see from the theorem of that article , that if the system ( 56 .
+) be resoluble for any given values of the numbers A1,0 , A2 , 0 ... An o , it is also resoluble for any other values of those numbers , respectively congruous , for the modulus D , to the given values ; so that the resolubility or irresolubility of the system depends exclusively on the residues of the numbers At 0 , mod .
+D. There are D " possible combinations of these residues , and we shall now show that for D"-1 of them the system is resoluble , while for the remaining D"- ' ( D -l ) it isirresoluble .
+For this purpose let XlAll xl D , ' ' ... XA , ... . .
+( 97 .
+) l|all denoting a unit-matrix , and IIA 'll a prime matrix of the same type as [ A.jj , while D. , D , _ , D1 , D , are of course the greatest common divisors of the determinants and minors of IIAll .
+Let also -C , =Al , o ai , l+A2,0 i , 2+ .
++An , o 0i , n the given system is then exactly equivalent to the system Dm- ?
+[ Ai , i , +xInA ' ... cj D_i+ , , x+A2 x2+ .
++A , , X+ , + ] = i. ( 98 .
+) iz-1,2,3 , ... n. For the resolubility of this system it is requisite that Ci should be divisible by Dn-i+l and this condition is sufficient as well as necessary , because IIA'I\ is a prime matrix .
+Now of the D or Di values , incongruous for the modulus D , which may be attributed to Ci , x Di are divisible by _-i+ ; whence it is evident that of the D " systems of values which Dn-i+l Dn-i are divisible by ; , _D wec may be attributed to C , , C , ... .
+C. , D -+ D '.D2'.D3.in i. e. D^ ' render the system ( 98 .
+) resoluble .
+Consequently the given system is also resoluble for D"n- , and no more , of the systems of values that can be attributed ( mod .
+D ) to A , , , A2 , 01. .
+An , 0 Art .
+20 .
+The methods employed in the present paper are without exception such as to be immediately applicable to any species of complex numbers which admit of resolution into actual or ideal prime factors .
+And the greater part of the results at which we have arrived may be transferred , mutatis mutandis , to the theories of such numbers .
+For example , if in the equations ( 56 .
+) we suppose the constituents of |JJA| to represent complex numbers , it will be found that the criterion for the resolubility or irresolubility of the system , which we have demonstrated in the case of ordinary integers , applies equally in the case of complex numbers ; and again , the condition of resolubility of a system of congruences of which the modulus as well as the coefficients are complex numbers , is MNDCCCLXI .
+2Y 325 precisely the same as in the case of common whole numbers ; while the expression for the number of the solutions ( when the condition of resolubility is satisfied ) is simply the norm of m. But without entering into the developments which this extension of the subject of this paper would require , we shall confine ourselves to an application of the result of the last article to a demonstration of the fundamental principle in the arithmetical theory of complex numbers , that the number of incongruous residues for any complex modulus is represented by the norm of the modulus .
+Let a be one of the roots a , , c , ... c , of the equation F , ,(x)=0 , which is supposed to be of n dimensions , to be irreducible , and to have all its coefficients integral , and that of its first term unity ; Let also -_ , ( ( a ) be the complex modulus under consideration ; its norm , which we shall symbolize by N , is defined by the equation N=N .
+&lt; p , _(a3-n ; lp f-l(n ) .
+Consider the N2 , l residues ( incongruous mod .
+N ) which are included in the formula ER2f-( , ) * , * ... .
+v *
+

@@ -1,0 +1,675 @@
+]\gt ; [ 619 ] XVI .
+Memoir on the Theory of the rtition of Number .\mdash ; Part I. By Major P. A. MAcMAHON , , F.R.S. Received December 31 , 1895 , \mdash ; Read January 16 , 1896 .
+S 1 .
+Art .
+1 .
+I have under consideration multipartite numbel.s as defined in a former paper .
+* I recall that the multipartite number .
+, may be regarded as specifying things , of one sort , of a second , 7 of a third , and so forth .
+If the things be of different sorts the number is said to be multipartite of order or briefly an -partite number .
+It is convenient to call , . . .
+the first , second , third . .
+, figures of the multipartite number .
+If such a number be divided into parts each part is regarded as being -partite ; if the order in which the parts are written from left to right is essential we obtain a composition of the multipartite number ; whereas if the parts themselves are alone specified , and not the order of arrangement , we have a partition of the multipartite number .
+This , an much more , is explained in the paper quoted , which is concerned only with the compositions of multipartite numbers .
+Art .
+2 .
+The far more difficult subject of partitions is taken up in the present paper .
+The compositions admitted of easy treatment by a graphical process .
+An -partite reticulation or lattice is taken to be the graph of an -parbite number , and on this graph every composition can be satisfactorily depicted .
+A suitable graphical representation of the partitions appears to be difficult of attainment .
+As the Memoir proceeds , the extent to which the difficulties have been overcome will appear .
+There are several boJlds of connection between partitions and compositions ; in general , these do not exist between -partite partitions and -partite compositions , but arise from a general survey of the partitions and compo- sitions of multipartite numbers of all orders .
+These bonds are of considerable service in the gradual evolution of a theory of partitions .
+Two bonds have already been made known ( loc. cit They both have ' ' Memoir on the Theory of the Composition of Numbers ' Phil. Trans R.S. of London , vol. 184 , pp. 835-901 .
+9.1.97 ' reference to the perfect partitions of unipartite numbers .
+Firstly , there is a one-to-one correspondence between the compositions of the multipartite , and the partitions of the unipartite . .
+; , . .
+being any different primes .
+Secondly , there is a one-to-one correspondence between the compositions of the unipartite number and the perfect partitions , comprising parts , of the whole assemblage of unipartite numbers .
+These bonds are interesting but , for present purposes , trivial .
+We require some correspondence concerning partitions are not subject to the restriction of being perfect .
+Art .
+3 .
+I first proceed to explain an important link connecting unipartite with multipartite partitions arising from the notion of the separation of the partition of a number ( whether unipartite or multipartite ) into separates ; a notion which leads to a theory of the separations of a partition of a number which was partially set forth in the series of Memoirs referred to in the foot-note .
+The theory of separations arises in a perfectly natural manner in the evolution of the theory of symmetrical algebra , and is , I venture to think , of considerable algebraical importance .
+Up to the present time the theory has been worked out as it was required for algebraical purposes ; the various definitions and theorems are scattered about several Memoirs in a manner which is inconvenient for reference , and it therefore will be proper , while explaining the connection with compositions , to brin the salient features of the theory together under the eye of the reader .
+It suffices for the most part to deal with unipartite numbers .
+THE THEORY 0F SHiPARATIONS .
+Definitions .
+Art .
+4 .
+A number is partitioned into parts by writing down a set of positive numbers ( it is convement , but not necessary to assume positive parts , and occasionally to regard zero as a possible part ) which , when added together , reproduce the original number .
+The constituent numbers , termed parts , are written in descending numerical order from left to right and are enclosed in a bracket .
+This succession of * See also " " The Perfect Partitions of Numbers and the Compositions of Multipartite Numbers The Author , ' Messenger of Nathematics , ' New Series , No. 235 , November , 1890 .
+THEORY OF THE PARTITION OF NUMBERS .
+numbers is termed a partition of the original number ; and this number , partitions , is termed by SYLVESTER the partible number .
+A parti tion of a number is separated into separates by writing down a set of partitions , each in its own brackets ; such that when all the parts of the partitions are assembled in a single bracket and arranged in order , the partition which is separated is reproduced .
+The constituent partitions , which are the separates , are written down from left to right in descending numerical order as regards the weights of the partitions .
+N.B. The partition ( pqr ) is said to have a weight The partition separated may be termed the sepalable partition .
+as separable partition , two separations are , , and there are many others .
+If the successive weights of the separates be , . .
+, the separation is said to have a specification ; the specification being denoted by a partition of the weight of the separab]e partition .
+The degree of a separation is the sum of the highest parts of the several separates .
+If the separation be the multiplicity of the separation is defined by the succession of indices .
+The characteristics of a separation are The weight .
+( ii .
+) The separable partition .
+( iii .
+) The specification .
+( iv .
+) The degree .
+The number of separates .
+The multiplicity .
+Art .
+5 .
+The separations of a given partition may 1oe grouped in a manner which is independent of their specifications .
+Consider separable partition , which is itself to be regarded as one amongst its own separations .
+Viewed thus , it has partition a multiplicity ( 32 ) .
+Write down any one of its separations , say .
+rfhis separation may be regarded as being compounded of the two separations of and of .
+Three other separations enjoy the same property , viz. , , ; for ; on suppressing in each , we are left with ; and on suppressing there lemains These fonr separations Set { ( 21 ) , ( 1 ) } , ( 2 ) form a set which is defined by two partitions , one appertai1Ung to each of the two numbers which define the multiplicity of the separable partition .
+Thus the first number 8 of the multiplicity occurs in each separation of the group in the partition ( 21 ) , and the second number 2 in the partition ( 1 ) .
+There are as many sets of separations as there are combinations of a partition of 3 with a partition of 2 .
+THEORY OF THE PARTITION OF NUMBERS .
+In the present instance there are six sets , viz. , , ( 2 ) ( 2 ) { ( 21 ) , ( 1 ) } , , ( 2 ) In general , if be the separable partition , the multiplicity is ; and if the unipartite possess , partitions , the separations can be arranged in . . .
+sets .
+I observe that the notion of sets of separations enters in a fundamental manner the theory of symmetric functions .
+Art .
+6 .
+One of the first problems encountered in the arithmetical theory is the enumeration of the separations of a given partition .
+I shall that the number of separations of the partition is identical with the number of partitions of the multipartite number formed from the multiplicity of the separable partition .
+* If we separate so that one separate of the separation is . .
+it is clear that we can partition the multipartite in such wise that one part of the partition is * Note that the rule distinguishes a multipartite number from a partition of a uniartite number .
+It is also manifest that to each separate of the separation corresponds a rt of the partition , and that we obtain a partition of the multipartite in correspondence with each separation . . . . . . .
+of the partition . .
+There is , therefore , idelltity of enumeration .
+Also , the enumeration of the separations into separates is identical with that of the partitions into parts .
+Ex. the subjoined correspondence:\mdash ; Separations .
+Partitions .
+, , , , , , , .
+Art .
+7 .
+It is important to take note of the fact that the subject of the separations of partitions of unipartite numbers necessitates the consideration of the partitions of multipartite numbers .
+The parbitions of a ' number are divisible into sets in the same manner as the separations of unipartite number .
+In the case of there are sets , where , is the number of partitions of the unipartite THEORY OF THE PARTITION OF NUMBERS .
+The same succession of numbers may be employed to denote either a multipartite number or the partition of a unipartite number , so that we naturally find great similarity between the the ries of unipartite parl , itions and of multipartite 1lumbers .
+We see above that the separations of partitions of unipartites are in co-relation with the partitions of multipartites .
+Art .
+8 .
+In a natural manner the separations of a partition of a multipartite present themselves for consideration .
+In correspondence we find what may be termed a double separation of a partition of a unipartite .
+Ex. .
+Consider the partition ) of the multipartite , which is corelated to the tion ( of the of the unipartite Of this partition we find a separation in correspondence with a double separation of the partition .
+Hence the enumeration of } ) separations of a multipartite partition is identical that of double separations of a unipartite partition .
+In general -tuple separations of unipartite numbers correspond one-to-one with -tuple separations of multipartite For the present I leave the subject of separations , merely remarking that the theory was made the basis of ] the memoirs on symmetric functions to which reference has been given , and that algebraically considered they are of extraordinal.y interest .
+S2 .
+THE GRAPHICAL REPRESENTATION OF PARTITIONS .
+Art .
+9 .
+In an important contribution to the theory of unipartite partitions SyLVESTER* ) a graphical method which threw great light on the subject , and was fruitful in algebraical results .
+The method consisted in rows of nodes , each row corresponding to a part of the partition and containing as many nodes as the number expressing the magnitude of the part .
+Ex. , the partition as the graph * ' ' A Constructive Theory of Partitions by J. J. sYLyEsTIlIf , with insertions by Dr. F. FRANKLIN , American Journal of Mathematics , ' vol. 5 .
+XDCCCXCVI.\mdash ; A. 4 This method cannot be simply extended to the case of multipartite partitions , though some progress can be made in this direction as will be shown .
+Art .
+10 .
+SYLVESTER'S graphs naturally present themselves in the graphical representation of the compositions of bipartite numbers .
+As the graph of a bipartite we take lines parallel and at equal distances apart and cut them by other lines at equal distances apart and at right angles to the former ; right angle essential , thus forming a reticulation or lattice .
+The figure represents the reticulation of the bipartite .
+I recall that are the initial and final points of the graph , and that the remaining intersections are termed the " " points\ldquo ; of the graph .
+The lines of the graph have either the direction AK ( called the direction ) or the direction AJ ( called the direction ) .
+Each line is made up of segments , and we speak of -segments and of -segments , indicating that the lives , on which lie the segments , are in the and directions .
+If the bipartite have a composition . .
+the composition is delineated upon the graph , as follows:\mdash ; Starting from the point A we pass over -segments and then over -segments , and place a node at the point arrived at .
+Starting again from thi@ node , we pass over -segments and -segments , and place a second node at the point then reached ; we proceed similarly with the other parts of the composition uutil finally the poin is reached .
+At this point it is not necessary to place a node .
+In this manner the composition containing parts is represented by nodes placed at different " " points\ldquo ; of the graph .
+The segments , passed over in tracing the composition , form a line of route through the reticulation .
+In general many compositions have the same line of route .
+Along every line of route there are " " points which be nodes .
+A certain THEORY OF THE PARTITION OF NUMBERS .
+number of these points must be nodes .
+These occur at all points where there is a change from the to the direction .
+They are termed " " essential node In the line of route t , raced in the figure the points are essential nodes .
+Along a line of route there is a composition which is depicted by the essential nodes alone .
+This is termed the " " principal composition along the line of route In the figure the principal composition is .
+I have shown ( loc. cit. ) that the number of lines of route which possess essential nodes is ; and that the total number of lines of route is .
+We remark that the lin of route divides the reticulation into two portions , an upper portion AJBDC , and a lower portion CKD .
+Placing a Sylvester-node in each square of the lower portion , we recognise at once SYLVBSTER'S regularised graph of the partition of the unipartite number 8 .
+Similarly , from the upper portion , we obtain SYLVESTER'S regularised graph of the partition ( 7654 ) , of the unipartite number 34 ( thirty-four ) .
+Whatever be the line of route , we simultaneously exhibit two of SYLVESTER'S regularised graphs , of a partition of the unipartite , and one of a partition of the uniparcite The two partitions may be termed tarry in respect of the unipartite number Art .
+11 .
+This interesting bond between the partitions of unipartites and the compositions of bipartites , I propose to submit to a detailed examination .
+The with which we are concerned , are limited in magnitude of part to , and in number of parts Moreover ( as in bipartite ) , we may suppose the numbers , to be interchanged .
+This would simply amount to rotating the reticulation through a right angle .
+The line of route partitions the reticulation into two parts , each of which may be regarded as a partition of a unipartite .
+In fact , a line of route graphically represents a pair of paltitions .
+These partitions can be ] depicted by the essential nodes only that occur along the line of route .
+It will be more convenient , for some purposes , to take the line of route , and not merely the essential nodes , to be the graphical representation .
+Attention for the present will be limited to the partition lying to the North-West of the line of route towards point .
+A line of route involves bends , termed " " left-bends , \ldquo ; and bends , termed " " right-bends.\ldquo ; Lssential nodes occur at the angular points of the latter .
+The North-West pal'tition has as many different parts as there are left-bends on the line of route .
+The number of lines of route which have -bends is equal to the number which have right-bends .
+This may be seen by rotating the reticulation through two right angles .
+This number is ( loc. cit. , Art .
+22 ) .
+ence : " " The number of partitions of all numbers into ifferen parts limited in magnitude to and in number to is Arb .
+12 .
+The number of different partitions is equal to the number of lines of route , and this is Hence :\mdash ; " " The number of partitions , all numbers , into parts limited in magnitude to and in number to is Art .
+13 .
+A line of route , with left-bends , has.either or right-bends .
+If it commences by tracing an -segment and ends by tracing a -segment , the number is .
+If it commences by tracing -segment and ends by tracing an -segment , the number is .
+If a -segment begins and a -segment ends the line of route , the number is , and if a -segment begins and an -segment ends , the number is If au -segment begins the line , the North-West partition has exactly parts .
+If an -segment ends , the highest part is less than .
+If a -segment begins , the number of parts is less than , and if a -segment ends , the highest part is equal to Inspection of the Memoir cited shows that the enumeration of the lines of route possessing left-bends and right-bends respectively are given by THEORY OF THE PARTITION OF NUMBERS .
+; ence :\mdash ; " " The number of partitions of all numbers which have exactly parts , a highest part equal to , and different parts is \ldquo ; The number of partitions of all numbers which have exactly parts , a highest part less than , and different parts , or which have less than parts , a highest part eqnal to , and different parts is " " The number of partitions of all numbers which have less than parts , a highest part less than , and different parts is Ex. .
+If the partitions enumerated by these three theorems are ( 31 ) ( 31 ) , , ( 32 ) , ( 21 ) respectively .
+Art .
+14 .
+It is clear that all identical relations between binomial coefficients yield results in this theory of partitions .
+Ex. , such relations as admit of immediate retation .
+Art .
+15 .
+A line of route in general right and left bends .
+The whole number of bends may be even or uneven .
+To determine the number of lines , with a given number of bends , we must separate the two cases .
+If the bends be in number , must be right and left and the enumeration gives If the bends be in number we may have right-bends and left-bends or right and left , .
+The enumeration gives Hence the number of pairs of complementary partitions which have each different parts is ; and the number of pairs in which the partitions have and different parts respectively , is .
+Adding the number of lines of route with bends to the number with bends we obtain the number Hence the identity , ; or .
+; may be established independently .
+Art .
+16 .
+Consider the lines of route which pass through a particular point of the graph , say the point distant -segments and -segments .
+In the reticulation AP we may draw any line of route , and any line also in the reticulation .
+In AB we can thus obtain lines of route passing through P. the associated North-West parti.tions , the highest part and the number of parts Put , and we obtain the theorem : \mdash ; THEORY OF THE PARTITION OF NUMBERS .
+631 " " Of the partitions whose parts are limited in magnitude to and in number to there are , such that the highest part { and number of parts In particular , if or the number is ; which enumerates the lines of route with left-bends .
+There is thus a one-toone correspondence between the lines of route passing through the point for which , and the lines of route with left-bends , and hence also between the partitions under consideration and those which involve parts of different kinds .
+Art .
+17 .
+A line of route is a graphical representation of a principal composition of the bipartite .
+Such a composition being , the numbers . .
+are all superior to zero .
+A posibive number of the bipart is adjacent to a positive number of the bipart , and we may assert of the composition that all its contacts are positive-positive ( see Art . .
+cit Each line of route represents a composition with positive-positive contacts , and there is a ) correspondence .
+Hence : " " There is a one-to-one correspondence between the compositions , with positivepositive contacts , of the bipartite and the partitions of all unipartite numbers into parts limited in magnitude by and in number by Further , there are as many such compositions with parts as there are such partitions which involve different parts .
+Art .
+18 .
+Every line of route through the reticulation of may be represented by a permutation of the letters in .
+We have merely to write down the and segments as they occur along the line of route to obtain such a permutation .
+The composition . .
+, gives the permutation From what has gone before it will be seen that every permutation of corresponds to a partition of a unipartite number into parts limited in magnitude to and in number to .
+Every theorem in permutations of two different letters will thus yield a theorem in partitions of unipartite numbers .
+The North-West partition associated with the above-written permutation is easily seen to be ( writing the parts in ascending order regards magnitude , viz. : in SyLVESTER'S regularised orders reversed ) . . .
+This is a partition of the unipartite . . .
+into parts , the highest part being If be zero there will be less than parts .
+If be zero the highest part will be less than .
+On the other hand if be not zero there are exactly parts , and if be not zero the highest part is Art .
+19 .
+Observe that we have a fourfold correspondence , viz. , between ( 1 .
+) The lines of route in the reticulation of the bipartite ( 2 .
+) The compositions , with positive-positive contacts , of the bipartite number ( 3 .
+) The permutations of the letters forming the product ( 4 .
+) The partitions of all unipartite numbers into parts limited in magnitude to and in number to And also , in particular , between\mdash ; ( 1 .
+) The lines of route with right-bends or with -bends .
+The compositions into parts .
+( 3 .
+) with or with contacts .
+( 4 .
+) The partitions involving different parts .
+Art .
+20 .
+The generating function for the number of lines of route through the reticulation which possess left-bends is which is the coefficient of in the product ; , THEORY OF THE PARTJTION OF NUMBERS .
+and is the coefficient of in the development of the fraction ; ( see " " Memoir on a Certain Class of Gen erating Functions in the Theory of Numbers 'Phil .
+Trans Roy .
+Soc. of London , vol. 185 ( 1894 ) , , pp. 111-160 ) , and this fraction may be written Hence is the genelating function for the lines of route in all bipartite reticulations which sess s left-bends or right-bends , and for the other entities respondence therewith .
+In particular it enumerates all unipartite partitions into different parts limited , in any desired manner , in regard to number and magnitude .
+Art .
+21 .
+Various theorems in algebra are derivable from the foregoing theolems .
+The generating function for the partitions of all unipartite numbers into parts limited in magnitude to and in number to is ; the enumeration being given by the coefficients of in the cending expansion .
+The G.F. is redundant as .
+we are only concerned with that portion , of the expanded form , which proceeds by powers of The foregoing theory enables us to isolate this portion , inasmuch as we know it to have the expression which may be written As a verification of the .
+simplest cases we find the identities a simple inspection of which demonstrates the validity of the theorem in these cases To obtain a general formula write ; then and we have in succession ; and , in general , Hence , ; a valuable expansion .
+Simple inspection of this formula shows that represents that portion uf the G.F. whi is a function of only .
+THEORY OF THE PARTITION OF NUMBERS .
+Art .
+22 .
+Again , the partitions of all unipartite numbers into fferent parts , limited in magnitude to and in number to , are enumerated by the coefficient of in the development of the product ; or by the coefficient of in where , . . .
+are any different numbers drawn from the natural series ; and the summation is in respect of all such selections .
+This is the cient of in Taking the former of these two expressions ; inasmuch as we know from the reticulation theory thaf , the coefficient of is , we find that the effective portion of the generating function is .
+inf .
+, which is ; viz. , we have succeeded in isolating that portion of the generating function which proceeds by powers of only .
+The latter expression of the generating function also , is seen to have an effective portion The isolations thus effected would , I believe , be difficult to accomplish algebraically .
+Art . .
+Again , regarding and as constant and as variable , we that the coefficient of in the oduct . .
+, is ; calling this expression , the effective portion of the generating function is written ad Art .
+24 .
+I recall now the generating function which onumerates the partitions of unipartite numbers into parts limited in magnitude by and in number by viz. :\mdash ; The coefficient of in this development is well known to be .
+Hence the coefficient of in the former is the same the coefficient of in the latter .
+This we know to have the value . .
+Art .
+25 .
+Numerous theorems of isolation , in the senses in which the word is employed in this paper , may be obtained from the reticulation theorems .
+I proceed to give some of those which present features of interest .
+A previous result was to the effect that the number of partitions of all numbers which exactly parts , a highest parb equal to and different parts is enumerated by Hence , without specification of , the number is enumeration is also given by the coefficient of in the function THEORY OF THE PARTITION OF NUMBERS .
+Hence we can isolate that portion of the generating function which contains only powers of .
+It is ; or .
+This fact leads as before to an expansion theorem .
+Putting , then of course , and we find in succession ' and in general The simplest cases , omitting the trivial one corresponding to , are ; ; The fi.acbions , in the brackets , may be united in batches , but I prefer to leave them as written , as the law of development is shown the better .
+Also the fraction may be cancelled if desired .
+I have not done so , in order to keep in touch with the arithmetic .
+Inspection of these expansions estabiishes the isolation therein independently , Art .
+26 .
+In the function the coefficient of is , as is well known , Hence the coefficient of in the former is equal to the coefficient of in the latter ; i.e. , to the coefficient of in which we know to be , verifying our result .
+For a given value of the partitions are enumerated by the coefficient of in the product ; or , the same thing , by the coefficient of in the function wherein , . . .
+denote arly selection of different drawn from the natural series 1 , 2 , 3 , . .
+This coefficient , from previous work , has the value THEORY OF THE PARTITION OF NUMBERS .
+639 hence the of this function which consists only of powers of is or Hence also from the function we can isolate the portion .
+for 2 we can verify that can be isolated from Art .
+27 .
+Before generalising the foregoing it will be proper to give another correspondence between the compositions and partitions of unipartite numbers which leads readily to theorems concerning the generating functions of partitions when the parts are unrepeated .
+Writing down any composition of the unipartite , viz. : , we can at once construct a regularised partition , viz. :\mdash ; of the number The correspondence is between the compositions of into parts and the partitions of all unipartite numbers into unequal parts limited in magnitude to and possessing a part The numbers whose partitions appear are the natural series extending from , to For the enumeration we must take the coefficient of in the development of the generating function . . .
+; or the coefficient of iu . .
+But the number of compositions of into parts is , and thence we see that a term in the development of is ; and , giving successive values , we can isolate , this product , a portion . .
+; or symbolically , where after expansion is to be replaced by Art .
+28 .
+By leaving unspecified we can readily reach a theorem concerning the product , . .
+It is easy to show that the coefficient of , in the development , is .
+We may say that the nulnber of partitions of and all lower numbers into unrepeated parts not exceeding in magnitude is .
+For these partitions are : 42 21 32 , 16 in number .
+Art .
+29 .
+It is obvious that , by the same process , we can obtain a correspondence THEORY OF THE PARTITION OF NUMBERS .
+between the compositions and partitions of multipartite numbers .
+In the bipartite case we pass from any composition . .
+to the regularised partition of a certain bipartite number .
+The correspondence is between the compositions of into parts and the partitions of all bipartite numbers into unrepeated biparts , the parts of the biparts being limited in magnitude to and respectively , and the highest biparb being Or , we may strike out the highest bipart , and then the partition is into uurepeated biparts , the parts of the biparts being limited as before .
+The are subject to the further restriction that they are regularised in the sense that the unipartite partitions of and , that appear in the bipartition , axe separately regularised .
+Art .
+30 .
+Instead of insisting upon this two-fold regularisation , we may , starting from the composition proceed to the singly regularised partition .
+There are , in fact , various ways of forming connecting links between compositions and partitions of multipartite nunlbers whatever the order of multiplicity .
+These methods may be pursued at pleasure so as to obtain results of more or less interest .
+Art .
+31 .
+The correspondence set forth between unipartite partitions and bipartite compositions naturally suggests the possibility of a similar correspondence between bipartite parbitions and tripartite compositions , and generaJly between -partite partitions and -partite compositions .
+For the graph of the tripartite number , we take similar graphs of the bipartite , and place them similarly with corresponding lines parallel , and likc points lying straight lines ; the graph is completed by drawing these straight which are in a new direction , say the 7 direction .
+There are three directions through each point of the graph ( see loc. cit. , Art .
+31 ) .
+There are lines of route along which the tripartite compositions are * This notation explains and so in similar cases , depicted , one live of route for each permutation of the symbols in the product A study of permutations shows the connection with a certain of artite partitions .
+onsider a permutation which is the most general permutation , but such that , in regard to any section of the permutation ( 1 .
+) must be superior to zero except when ( 2 .
+) may be either , but not both , zero , except when The permutation has and contacts , but no contact .
+In the reticulation corresponding thereto , we have lines of route with and bends but not with bends .
+All the lines of route with bends are excluded from consideration .
+From the permutation we can form a bipartite partition .
+, whioh is rised in the sense that the partitions of the unipartites , that appear are each separately regularised .
+The bwo parts of the bipartite number thus partitioned are .
+, . . .
+The associated composition is .
+As , consider the contacts , \amp ; c. .
+Looking at the whole of the principal compositions , observe that a contact in the permutation yields a contact in the composition in which and are both superior to zero , say a positive-positive contact .
+A contact yields a positive-zero contact and a COIJtact a zero-positive contact .
+Hence the present spondence is only- concerned with compositions which possess positive-positive and positive-zero contacts , and not with those which involve contacts of other natures .
+The bipartite partitions are those of all bipartite numbers into biparts whose parts are limited to and respectively in magnitude and whose biparts are limited to in number .
+THEORY OF THE PARTITION OF Art .
+32 .
+We have then a one-to-one correspondence .
+Each bipartite partition of the ature considered is represented graphically by a line of route in a tripartite reticulation .
+If we please we may regard a pair of bipartite partitions as represerlted by a line of route , for from the permutation we are led to the complementary partition , in which may be both zero .
+Art .
+33 .
+It has been shown that the number of lines of route which possess bends , , , is and that this number is the coefficient of in the development of Here , and the number in question becomes whilst the generating function becomes In this the coefficient of is equal to the coefficient of the same term in the expansion of the fraction which is ' and the verification is readily carried out .
+* ' Phil. Trans vol. 184 .
+cit Arts .
+34 , et seq. hlAJOR P. A. IsIACMAHON ON THE Art .
+34 .
+The number of lines of route which possess exactly bends and no bends is or or Also , by putting in the generating function , we find that the number of lines of route which have and bends but no bend is given by the coefficient in Art .
+.35 .
+It ) will be convenient to give the complete correspondence in the case of some simple tripartite number , say , * Permutation .
+Composition .
+Partition .
+Number partitioned .
+THEORY OF THE PARTITION OF NUMBERS .
+645 Permutation .
+Compositioxl .
+Partition .
+Number There are 36 partitions .
+The first two columns show the nature of the permutation in regard to and contacts and the ature of the composition in regard to positive-positive and positivezero contacts .
+The partitions are into two parts , zero not excluded , and have regard to bipartite numbers extending from to .
+They are doubly regularised by ascending magnitude , and the figures of the parts do not exceed 2 , 2 the first two figures of the tripartite .
+If we write down the partitions of 4 into two parts , zeros not excluded , limited not to exceed 2 in magnitude , viz. :\mdash ; , the ascending order of part magnitude being adhered to , we can obtain one of the 36 partitions by combining any one of these partitions with itself or any other of the 6 .
+Thus the fourth of the above partitions is by combining the unipartite partitions , and from any two unipartite partitions - .
+C46 MAJOR P. A. MACMAHON ON THE we proceed to the bipartite partition .
+The thus shown to be Art .
+36 .
+In general , when the tripartite is , the partitions are into parts , zeros not excluded , the first and second figures of the biparts being limited to and respectively .
+The bipartite numbers partitioned extend from to The partitions are doubly regularised and may be enumerated by observing that we have to combine every partition of and lower unipartite numbers into parts , zeros not excluded , and no part in magnitude , with every partition of and lower numbers into parts , zeros not excluded , and no parb exceeding in magnitude .
+Hence ( see ante , Art .
+12 ) the number of partitions is This expression also enumerates ( 1 ) the compositions which have only positivepositive and positive-zero contacts ; ( 2 ) the lines of route in the tripartite reticulation which are without bends ; ( 3 ) the permutations of ' which are without contacts .
+Art .
+37 .
+The truth of the theorem may be seen also as follows :Suppose a solid reticulation and take the directions as axes of , and meeting at the origin of the lines of route .
+The face of the solid the plane is a bipartite reticulation in which lines of route may be drawn ; similarly of may be drawn in the bipartite reticulation which lies in the plane .
+One of the former lines of route is an orthogonal projection of a tripartite line of route on the plane ; one of the latter is an orthogonal projection on the pJaue y ; any one of the former may be associated with any one of the latter , and such a pair uniquely determines a tripartite line of route which does l ) possess bends .
+This may be clearly seen by considering the permutation . .
+; suppression alternately of the letters and yields two permutations , viz. :\mdash ; THEORY OF THE PARTITION OF NUMBERS .
+which express the bipartite lines of route which are the projections on the planes respectively .
+Since the ipartite permutation involves no contacts , we see that these two permutations uniquely the permutation .
+Hence the number of lines of route in question is Art .
+38 .
+Hence also the interesting summation formula Observe that the expression further enumerates the lines of route with bends in the reticulation of the bipartite A generating function which enumerates these partitions is in which the coefficient of ' must be sought .
+The compositions that appear are bhe principal ones along lines of route which have no bends .
+We may strike out the last part of the composition whenever its last figure is zero , and then the compositions are not of the single tripartite , but of the 9 tripartites extending from to , the ] figure being 2 , and the first two figures not exceeding 2 , 2 respectively .
+The compositions are into 2 , or fewer parts .
+Generally the compositions appear of the triparbites extending from to , the last figure being , and the first two figures not exceeding respeclively .
+The compositions are into , or fewer parts , no part having the last figure zero .
+The partitions present themselves in complementary pairs .
+To every partition corresponds another the numbers partitioned being respectively and Ex. , the complementary partitions , of the bipartites Certain partitions are self-complementary .
+The number partitioned is Art 39 .
+We may enumerate the partitions which , excluding zero , involve rent parts .
+Let ] ) resent the number of and contracts in a permutation .
+If , the corresponding partition possesses rent parts other than zero .
+The lines of route are such as have no bends , bends and bends .
+Reversing the permutation we have a similar number of lines of route which have no bends , bends , and .
+bends .
+Now interchange and and replace the reticulation of tripartite by that of .
+fn this new reticulation we have the same number of lines of route which have no bends , bends , and bends .
+This number has been shown to be Art .
+40 .
+Hence the bipartite partitions possessing different parts other than zero are enumerated by Theorem.\mdash ; Having under consideration the doubly-regularised partitions of all bipartite numbers into parts , zero parts included , such that the figures of the parts are limited in magnitude to and respectively , the number of partitions which possess exactly different parts , other than zero , is assuming all compatible values .
+This result may be verified in the case of the tripartite from the table given above .
+As an additional verification , consider the tripartite .
+For , we have Permutations .
+Compositions .
+Partitions .
+THEORY OF THE PARTITION OF NUMBERS .
+649 Permutations .
+Compositions .
+Partitions .
+0-1 21 partitions ; while for the enumeration , giving the values , 1 , 2 in succession with The foregoing particular theory of the correspondence that exists between tripartite compositions and bipartite partitions is , for present purposes , sufficiently indicative of the general correspondence between -partite compositions and a certain regularised class -partite partitions .
+S 4 .
+CONSTRUCTIVE THrOBY .
+Art .
+41 .
+Given a line of route in a bipartite reticulation it may be necessary to enumerate the lines of route which lie altogether on either side of it .
+Thus in respect of the line of route delineated in the reticulation AB , lines of route exist which , throughout their entire course , are either coincident with it , XCVI .
+or lie on the side of it towards J. Such lines of route may be termed inferior or subjacent to the given line of route .
+Similarly those lines of route which , everywhere , are either coincident with the given line , or on the side remote from , may be termed superior or superjacent lines of route in respect of the given line .
+All lines are thus accounted for with the exception of those which cross the given line passing from the side towards to the side remote from , or vice versed ; these may be termed transverse lines in respect of the given line .
+Art .
+42 .
+I am concerned , at present , with those lines which are subjacent to a given line , though it will be remarked that the superjacent and transverse lines also suggest questions of interest .
+A given line of route defines a bipartite principal composition unipartite -easterly partition The bipartite compositions and the unipartite partitions , defined by the subjacent lines of route , are termed subjacent to the given composition and the given partition respectively .
+We may draw a number oflines of route , each of which is subjacent to the given line and not transverse to any other of the number .
+We thus obtain what may be termed a subjacent succession of lines giving rise to a subjacent succession of unipartite partitions .
+These regularised partitions may be . . . . . .
+and they are such that the partitions .
+are also regularised .
+It is clear also that the subjacent succession of lines represents the multipartite partition .
+, of the multipartite numbers This partition may be termed ' graphically regularised\ldquo ; by reason of its originatioo THEORY OF THE PARTITION OF NUMBERS .
+in a cQubjacent succession of lines in the bipartite .
+This species of tion is the natural extension to three dimensions of SYLVESTER'S graphical method in two dimensions .
+Art .
+43 .
+SyLVESTER represents the partition . .
+of a unipartite number by the graph the lines containing nodes successively .
+The same is , viz. , SYLVESTER'S theory is , in fact , not only a theory of the partitions of a number but also a theory of the multipartite numbers whose content is A. For purpose of generalization I prefer to regard it from the latter point of view .
+If we consider the graphically regularised partition .
+, .
+, .
+, of the multipartite number and write down the Sylvester-graphs of the partite numbers which are the parts of the partition it is clear that we may pile upon , and then upon , \amp ; c. , and thus lorm a three-dimensional graph of the partition which is regularised in three-dimensions just as the Sylvester.graphs are regularised in two .
+MAJOR P. A. blACMAHON ON THE Tbis representation is only possible when the subjacent succession of lines is insisted upon .
+Art .
+44 .
+Every in two dimensions is representative of two lmipartite partitions ; it may , in fact , be read by lines or by columns , and when the two readings are the graph is said to be self conjugate .
+In this enlarged theory every graph denotes 3 !
+graphically-regularised multipartite partitions ; of the same total content , but not , as a rule , appertaining to the same multipartite number .
+Take coordinate axes as shown , the axis of being perpendicular to the plane of the paper .
+We read as follows:\mdash ; Planes parallel to the plane and in direction Ox .
+Planes parallel to plane and in direction Oy .
+Planes parallel to plane and in direction Oy .
+Planes parallel to plane and in direction Oz .
+Planes parallel to plane and in direction Oz .
+Planes parallel to plane and in direction Ox , the multipartite numbers , of which these are partitions , being , , content 13 , 11 , 6 ) , 30 , , .
+THEORY OF THE PARTITION OF NUMBERS .
+The graph is therefore representative of three multipartite numbers and of two of each .
+Art .
+45 .
+A multipartite number has two characteristics .
+It may be -partite , i.e. , it may consist of .
+figures , and its highest figure may be .
+A multipartite partition has three characteristics .
+Each part 1nay be -partite ; the highest figure may be ; the number of parts may be .
+If the raph be formed of a multipartite partition with characteristics the five other readings yield partitions with characteristics:\mdash ; The six partitions correspond to the six permutations of three symbols The two partitions which are -partite appertain to the multipartite number ; similarly for the pairs which are -partite and ) artite respectively .
+Hence the t.hree multipartite numbers involved correspond to the three pairs of permutations so formed that in any pair the commencing symbol of each permutaticn is the same .
+Art .
+46 .
+The consideration of graphs formed with a given number of nodes now leads to the theorem : " " The enumeration of the graphically regularised -partite partitions , into parts and having for the highest figure , gives the same number for each of the six ways in which the numbers may be permuted Also the theorem:\mdash ; " " The enumeration of the graphically ] arised partitions which at most -partite , into or fewer parts , the highest figure not exceeding , gives the same number for each of the six ways in which the numbers may be permuted The first theorem is concerned with fixed values of , and ; the second with restricted values of numbers .
+It is also clear that we may fix one or two of the numbers and leave the remaining two or one restricted .
+Observe that this six-fold conjugation obtains even though equalities exist between the numbers ; ihey must bs regarded always as different numbers .
+Some- times , as we shall see , the correspondence is less than six-fold , but this does not depend soIely upon the assignment of the numbers If we regard the multipartite number appertaining to a partition and not merely the total content , we fin that the partitions occur in pairs .
+Qud a given multipartite number , a partition which parts and a highest figure is in association with one which has parts and a highest figure Thus of the multipartite number we have the partitions derived from the above written graph .
+Art .
+47 .
+It is interesting to vie the two-dimensional Sylvester-graphs from the three-dimensional standpoint .
+Consider the graph which , following , denotes the partition ( 3211 ) of the unipartite number 7 .
+In this paper , the graph , read Sylvester-wise in the plane and in direction Ox , denotes the multipartite number of content 7 .
+SyLVESTER'S conjugate reading , plane and direction Oy , gives the partition ( 421 ) but here denotes the multipartite number .
+There are four other readings in this theory .
+The six readings are Plane Direction Ox , , Oy , , Oy O , , Oz ( 3211 ) , , .
+The three multipartite numbers ( 7 ) , each in two partitions .
+In general we establish , in regard to Sylvester-graphs , the six-fold correspondence between ( 1 ) -partite partitions , contaimng 1 part and a highest figure ( 2 ) -partite partitions , containing 1 part and a bighest figure THEORY OF THE PARTITION OF NUMBERS .
+( 3 ) unipartite partitions , containing parts and a highest figure ( 4 ) -partite partitions , containing parts and a highest figure ( 5 ) unipartite partitions , containing parts and a hest figure ( 6 ) -partite partitions , containing parts and a highest figure 1 .
+In this enunciation we may substitute for or or for both , the phrases " " not exceeding \ldquo ; " " not exceeding Art .
+48 .
+For a given number of nodes , in the simplest cases , it will be suitable to view the graphs of the graphically regularised partitions .
+omitting the trivial case of a single node , we have Number 2 .
+( 2 ) ( 11 ) Number 3 .
+( 3 ) ( 21 ) ( 111 ) Number 4 .
+( 4 ) ( 31 ) ( 22 ) ( lll ) ( 1111 ) The table is continued in an obvious manner .
+The essentially distinct graphs are for the Number 2 .
+Number 4 .
+and the whole of the partitions are obtainable by reading in the various way1s above explained .
+Art .
+49 .
+It will be convenient to adopt in future another notation for the graphs ; the number will denote a vertical column of nodes piled upon one another .
+The 13 graphs appertaining to the number 4 are written ( 4 ) ( 31 ) ( 22 ) ( 211 ) ( 22 ) ( 1111 ) .
+The essentially distinct graphs with the partitions appertaining to them are ( 31 ) ( 1111 ) ( 2 ] .
+1 ) ( 22 ) Art .
+50 .
+Such graphs are either symmetrical , quasi-symmetrical , or unsymmetrical .
+The graphs have three dimensional symmetry , and yield only one partition each .
+The quasi-symmetrical have two-dimensional symmetry and yield three partitions each .
+The unsymmetrical yield each six partitions .
+If be the enumerating generating function to a given content , we may write , *The interesting question arises as to the enumeration of the essentially distinct graphs of given content .
+THEORY OF THE PARTITION OF NUMBERS .
+bein the generating functions for the essentially distinct graphs which are symmetrical , quasi-symmetrical , and unsymmetrical respectively .
+Also we may write , where , , are the generating functions of the partitions of the three natures .
+The present theory is really the solidification of theory given in the ' American Journal of Mathematics ' ( loc. cit Already we have seen that the Sylvester-graphs are susceptible of a far wider interpretation than was at first anticipated .
+If we view these graphs from a two-dimensional standpoint , every graph is either symmetrical or unsymmetrical , the symmetrical class comprising all graphs which are self-conjugate .
+If , however , our standpoint be three-dimensional , there are no longer any symmetrical graphs .
+The two classes are the quasi-symmetrical and the unsymmetrical .
+A single exception to the above occurs where the graph is of unity .
+Moreover , the classes now do not comprise the same members .
+Certain graphs which were unsymmetrical from the first standpoint appear as quasi-symmetrical from the second .
+omitting the trivial symmetrical of unity every two-dimensional graph can be read either in three or six ways .
+The quasi-symmetrical class giving three readings , comprises the self-conjugate graphs and also those which consist of either a single line or a single column of nodes .
+The remaining graphs give six readings .
+Ex. .
+The graph yields the three partitions ( 5 ) , , { 11111 ) being quasi-symmetrical from the three-dimensional standpoint although it unsymmetrical in SYLVESTER'S theory .
+Also the self-conjugate graph yields the three partitions , ( 311 ) , .
+Such a graph as being unsymmetrical in both theories yields six partitions , ( 33 ) , , ( 222 ) , , .
+Art .
+51 .
+The enumeration of the three-dimensional graphs that can be formed with NDCCCXCYI , a given number of nodes , corresponding to the regularised partitions of all multipartite numbers of given content , is a weighty problem .
+I have verified a high order that the generating function of the complete system is inf .
+, and , so as my investigations have proceeded , everything tends to confirm the truth of this conjecture .
+I observe that , to negative signs pres , the exponents are 1 , 2 , 3 , 4 , 5 , . . .
+viz. , the figurate numbers of order 2 .
+The generating function which enumerates the two-dimensional graphs , is . . .
+where ( notice ) the exponents are 1 , 1 , 1 , 1 , 1 , . .
+the figurate numbers of order 1 .
+Proceeding further back , we find that one-dimensional graphs are enumerated by . .
+the numbers .
+bein the figurate numbers of order zero .
+Going forward again it is easy to verify up to a certain point that four-dimensional graphs ( which it is quite easy to graphically realise in two dimensions ) are enumerated by where the exponents involve the figurate numbers of order 3 .
+The law of enumeration appears , conjecturally , to involve the successive series of figurate numbers .
+Art .
+52 .
+Before proceeding to establish certain results , it may be proper , as illustrating the method pursued in this difficult investigation , to give other results which , at first mere conjectures , are gradually having the mark of truth stamped upon them .
+Consider graphs in which only the numbers 1 and 2 appear .
+These are two-layer titions .
+The enumeration to a high order is given by the generating function IHIBORY OF OF NUMBERS .
+where the notation is employed to represent the generating function of partitions whose graphs are limited in height , breadth , and length by respectively .
+Similarly we shall find : . . . .
+if be not greater than ; with an equivalent .
+if be greater than ; and finally . . .
+a result which can be shown to be symmetrical in and , as ought , of course , to be the case .
+This expression for can be exhibited in a more suggestive form , viz. :\mdash ; Writing .
+to factors or factors , according as or is the greater . .
+In attempting to establish these results , it is easy to construct a generating function which contains implicitly the complete solution of the problems .
+The problem itself may be enunciated in another manner which has points of great interest .
+A two-dimensional graph of SYLVESTER may be supposed formed by pushing a number of cubes into a flat rectangular corner in such wise that the arrange- meant is immovable under the action of forces applied in the directions It is clear that the number of such arrangements of cubes is the number of twodimensional graphs of , or the number of partitions of the unipartite number Similarly , we may push a number of cubes into a three-dimensional rectangular corner , piling of cubes permissible , and such that the arrangement is immovable for forces applied in the three directions .
+The enumeration of these arrangements is the same as that in the problem under discussion .
+Art .
+54 .
+First consider arrangements limited in the manner .
+We have such a graph as 2 .
+obtained by writing a column of nodes , and over it another column of nodes , not exceeding the former in number .
+We may take , as the generating function , ( 1 \mdash ; ax ) ' in which we are only concerned with that portion of the expansion which is integral as regards .
+The function is , iu fact , redundant since it involves terms which are superfluous , and we obtain the reduced or condensed generating function putting ( il equal to unity in the portion we retain .
+Since THEORY OF THE PARTITION OF NUMBERS .
+the reduced generating function is and this is obviously correct , because from the form of the graph we have merely to enumerate the ways of partitioning numbers with the parts 1 and 2 .
+Art .
+55 .
+Again if , we have graphs like We are led to construct the function in the expansion of which all terms involving negative powers of and have to be rejected .
+Isolating the integral portion and putting , we find the duced generating function a result which , unlike the previous one , is not obvious .
+For the case we introduce additional denominator factors and with increasing labour of algebraical performance we arrive at the reduced generating function Art .
+56 .
+In general for the case the generating function is the reciprocal of the product of the factors We have to expand this fraction in ascending powers of , reject all terms containing negative powers of , . . .
+, and then obtain the rednced generating function by puttin . .
+in the portion retained .
+This has proved a difficult algebraical problem .
+1 am indebted to Professor FoRSYTH for a beautiful solution which he will publish elsewhere .
+* He establishes that reduced generating function is a result which agrees with the prediction .
+His method is that of selective summation .
+He forms the general term of the expansion and performs the enumeration . . . .
+for all values of , . . .
+which make each of the expressions not less than zero .
+The case is thus completely solved by a method which * ' Proc. L.M.S. , ' vol. 27 .
+THEORY OF THE PARTITION OF NUMBERS .
+appears to be of general application if the difficulties presented by the algebra can be surmounted .
+Art .
+5 At his point we may enquire into the meaning of the reduced generating function which has been so happily and ingeniously established .
+We may write it the product of two fractions:\mdash ; the indication being thab every two-layer arrangement is derivable from a combination of two ordinary single-layer partitions whose parts are drawn from the two series of numbers , 1 , 2 , 3 , . . .
+2 , 3 , . . .
+respectively .
+Otherwise we may say that a number possesses as many two-layer partitions as there are modes of partitionment employing the parts , . .
+Ex. 4 and , the graphs are 9 in number and oying parts we can form 9 partitions , viz. :\mdash ; ( 1 ) Art .
+58 .
+The problem is therefore reduced to establishing a one-to-one correspondence , between the graphs and the pal.titions of the kind indicated , of general application .
+I will in part establish this correspondence , which is not very simple in character , later on .
+At present it is convenient to take a further survey of the general problems in order to obtain ideas concerning the difficulties that confront us .
+I form a tableau of algebraic factors .
+solution thus shows that the two-layer graphs may be exhibited as a one-layer graph by nodes of two colours , say black and red ; nodes of different colours not appearing iu any single line .
+, . . .
+, \ldquo ; , \ldquo ; \ldquo ; , .
+forming a rectangle of rows and columns , the , . .
+, in number , each occurring with different suffixes .
+I say that forming a fraction with unit numerator , having the product of these factors for denominator , we obtain a generating function for the arrangements defined by .
+The number of layers is restricted to less ) , and the breadth to ( i.e. , or less ) , but the graphs are otherwise unrestricted .
+Reasoning of the same nature as that employed in the simple case of two layers , enables us readily to construct this function .
+The function is redundant , as we only require that portion of the expansion whose terms are altogether integral .
+In this portion we put the letters , . . .
+all equal to unity , and thus arrive at the reduced generating function .
+I recall that the predicted result is the reciprocal of . . . . . . . . . . . . . . . . . . . .
+Professor FORSYTH has not yet succeeded in obtaining this result from his powerful method of selective summation .
+I hear from him that he has verified it in numerous particular cases , but that , so far , he has not been able to surmount the algebraic difficulties presented by the general case .
+As regards the final result , the tableau of factors possesses row and column symmetry .
+Simple rotation of the graphs through a right angle in the plane establishes this intuitively .
+HEORY OF THE PARTITION OF NUMBERS .
+We get the same result from rows and columns as from rows and columns .
+Taking only the first row , we find that the fraction leads to the same reduced generating function as the fraction and this is obviously .
+If the result predicted be the true result we should be able to establish it by means of a one-to-one correspondence between the graphs and partitions of a certain kind .
+This presents difficulties to which I will advert in a moment .
+Finally I construct the generating function for the case , the graphs being restricted in all three dimensions .
+The numerator is unity and the denominator the product of the factors exhibited in the subjoined tableau:\mdash ; . . . . .
+\ldquo ; \ldquo ; . .
+, , ' \ldquo ; \ldquo ; . .
+in which the occurrence of the symbol in the first column will be noticed .
+We have as usual to neglect all terms in the expansion which involve 1legative powers of symbols and in addition we must now neglect all terms which involve raised to a greater power than This construction prevents the lower layer of the graph from having a greater extent than in the direction Oy , and thus the whole graph is similarly restricted .
+The reduced generating functions can be shown in simple instances to agree with the predicted results . .
+take ; the fraction is We have to retain the integral portion of ; selecting this and putting , we obtain which is As in simpler cases I have not been able to overcome the a]gebraic difficulties , it is perhaps needless to say that in this most general case I cannot establish the form of the reduced generat.ing function .
+Art .
+60 .
+I return to cider various particular points of the problem .
+When the number of layers of nodes is restricted to two , we have seen that the generating function which enumerates the graphs that can be formed with a given number of nodes is In correspondence we have the regularised bipartitions ( including uni-partitions ) of multipartite numbers of given content .
+Also if the breadth of the graph do not exceed or the multipartite numbers be not more than -partite the generating function is I propose to give another proof of these results based upon a certain mode of dis- section of the graph .
+In the notation that has been used , a graph may be written THEORY OF THE PARTITION OF NUMBERS .
+where .
+and also .
+are in descending order of magnitude .
+A line of the gTaph has a certain weight .
+Any number of lines may be identical and consequently of the same weight , but no two different lines may have the same weight in the same graph .
+Let us form a graph , beginning at the lowest line , taken to be of weight unity , and proceeding upwards through every superior weight .
+will find that such a graph may have a variety of forms .
+Construct the subjoined scheme of graph lines .
+In each column every graph line has the same eight .
+In each line every graph line has the same number of twos .
+From any graph line , say , of weight , we can pass to a graph line of weight in two ways ; viz. , by taking by horizontal progression or by diagonal progression .
+From we can only pass to by horizontal progression .
+In jordance with these laws we can form a graph consisting of graph lines of all weights , from unity upwards , in a definite number of ways , depending upon the weight of the highest graph line .
+For example , we can select the graph whose successive lines are The progression from graph line to graph line is either horizontal or diagonal , which we can denote by A and respectively .
+Then the raph may be denoted by BAABABBAA .
+The specification of the selected graph may be taken to be a collection of line graphs , each of which is reached by diagonal progression , and which proceeds by horizontal progression .
+Thus , in the particular case before us , the specification is To find the of the graph between any two graph lines , say , we have merely to proceed ards horizontally from and backwards diagonally from till ajunction is effected in the manner In the notation the specification is given by the position of the BA contacts .
+BAABABBAA .
+graph that can be selected has its own specification , To enumerate the graphs we must enumerate the specifications .
+We must discover the properties of the succession of graph lines which are able to constitute a specification .
+If be a graph line in a specification , must be greater than zero since the lower line of the scheme cannot be reached by diagonal succession .
+Also may be followed by a graph line so long as and ; and may be preceded by a graph line so long as These iaws may be gathered by simple inspection of the scheme .
+Hence we may form the graph lines of the specification into a graph of the specificaviz.:\mdash ; which has the simple properties\mdash ; ( i ) . .
+( ii ) ( iii ) The lowest graph line contains , at least , one 2 .
+Art .
+61 .
+Any selected graph has a certain specification graph .
+From the formel we may suppose any graph lines , which do not also belong to the specification , to be absent , and thus obtain a number of graphs which all have the same specification , and may be considered to follow the same line of route through the scheme .
+urther , the graph lines , whether belonging to ] ) specification or no , may occur any number of times , repeated without the graph of the specification being changed .
+Finally , we may associate any partition of a unipartite number with any specification graph whatever , so as to form a two-layer graph .
+The partition of the unipartite must be interpreted upon that line of route through the scheme which is associated with the given specification graph .
+THEORY OF PARTITION OF NUMBERS .
+Ex. .
+Suppose the specification graph to be and the unipartite partition to be ( 9776554322 ) .
+Interpreted on the line of route concerned , which is that marked upon the scheme above , we obtain in which the specification graph lines , marked , have been interpolated .
+Hence , if be the generating function which enumerates speci{ication graphs , inf .
+will be the generating function of all two-layer graphs\mdash ; that is of forms specified by .
+We have next to determine the form of .
+Art .
+62 .
+A specification graph may contain no graph lines ; this will be the case when the line of route through the scheme is the lowest horizontal line .
+There is only one such graph ; generating function 1 .
+If it contains one line , this line must be of the form , and the number of such graphs is given by the generating function We may also take the following view of the matter .
+Let be the generating ction for the number of two-layer graphs in which the number of rows is limited to unity ; that is , of the graphs by 2 ; 1 ; .
+The graph either does not or does contain a specification graph line .
+The former are enumerated by ; the latter by .
+Hence , ; or and the number of specification graphs containing one graph line is or Next let denote the number of two-layer graphs in which the umber of rows is restricted to two .
+If it contain no specification graph line it must be of the form For these the generating funotion is If it contain specification graph line it must be of the form and these are enumerated by If it contain twc specification graph lines its form must be THEORY OF THE PARTITION OF NUh[BERS .
+where and These are enumerated by .
+Hence .
+Therefore and the number of specification graphs containing two graph lines is or Similarly we find that is composed of four parts corresponding to occurrence of , 1 , 2 , or 3 specification graph lines .
+The first three are readily seen to be by generating functions ; ' ' When three specification graph lines occur , the form must be and and the generating function .
+Hence , and we can show that and the specification graphs containing three graph lines are given by or \mdash ; In general we obtain the relation . .
+, and also where the numerator is the generating function for specification graphs of given content .
+Art .
+63 .
+We can now establish that is the expression ; for assume the law true for values of equal and inferior to ; substitute in the foregoing identity and writing , ( 1 ) ( 2 ) . .
+( m ) . .
+( 1 ) ( 2 ) Recalling the well-known identity . .
+and putting therein , we find . .
+LORY OF THE PARTITION OF NUMBERS .
+Hence ( 1)(2 ) . . .
+Therefore Hence , by induction , it has been ablished that has this expression for all values of Therefore the result agreeing with that obtained in a totally different manner by FORSYTm .
+I hope to continue the theory , adumbrated in this paper , in a future mication to the Royal Society .
+

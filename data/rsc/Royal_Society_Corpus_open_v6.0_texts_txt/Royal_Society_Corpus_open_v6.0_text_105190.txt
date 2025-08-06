@@ -1,0 +1,100 @@
+An Investigation of some Theorems which suggest some remarkable Properties of the Circle , and are of Use in resolving Fractions , whose Denominators are certain Multinomials , into more simple ones .
+By Mr. John Landen .
+THAT the principal theorems , below investigated , will be of considerable use in the doctrine of fluxions , by rendering , in many cases , the business of computing fluents more easy , will , on perusal , be obvious to every one acquainted with that branch of science .
+Therefore , as the facilitating computations in that doctrine ( which affords us wonderful assistance in many physical enquiries ) may be a means of extending our knowledge in philosophy ; it is presumed , that this paper will not be thought unworthy the notice of the Royal Society .
+Read May 2 , 1754 .
+I. Supposing n x/ ~x2-1 = y/ ~y2-1 , where x and y denote the fluxions of the variable quantities x and y respectively , and n an invariable quantity ; it is proposed to find , in terms of y and z , the equation of which z is a root , and z2 2xz+1= 0 , a divisor .
+Taking the fluents of the given fluxionary equation , we have , supposing x=1 when y is = 1 , hyp .
+log .
+of n/ x +~ x2-1 = hyp .
+log .
+of y+~ y2-1 , or n/ x +~ x2-1 =y+~ y2-1 : Whence , by substituting for x its value z2+1/ 2z ( found by the equation z2 2xz+1= 0 ) , we have zn =y+~ y2-1 : Therefore zn y is =~ y2 1 ; and , squaring both sides , z2n 2y zn + y2 = y2 1 .
+Consequently z2n 2y zn +1 is = 0 ; which , supposing na positive integer , is the equation sought .
+Now it is obvious , n being such an integer , that this equation will have as many trinomial divisors , of the form z2 2xz+ 1 , as there are values of x corresponding to a given value of y : Which values of x , when y is not greater than I , nor less than I ( the only case I purpose to consider ) , will not be readily obtained from the equation n/ x +~ x2 1=y+~ y2-1 found above : But , if we multiply the given fluxionary equation by 1/ ~-1 , we get nx/ ~1-x2 = y/ ~1-y2 ; of which the equation of the fluents is nx circ .
+arc rad .
+I. cosine x= circ .
+arc rad .
+I. cosine y ; where x is =I when y is = I , agreeable to the supposition we made above when we took the fluents of the given fluxionary equation by logarithms .
+Therefore if A be put for the least arc whose cosine is y , and C for the whole circumference , radius being I ; y being the cosine of A , A+ C , A+2 C , A+3 C , &amp;c. x will be the cosine of A/ n , A+C/ n , A+2C/ n , &amp;c. ... .
+to A+ n-1~ x C/ n. Consequently , expressing the last-mention 'd cosines , or the several values of x , by p , q , r , s , &amp;c. z2n 2y zn +I will be =~ z2 2pz+1x ~ z2 2qz+1x~ z2 2rz+ 1 , &amp;c. ( n ) , when n is a positive integer ( as we shall always suppose it to be ) , let z be what it will .
+Hence may be easily deduced a demonstration of that remarkable property of the circle first discovered by Mr. Cotes : But as that property has already been demonstrated by several mathematicians , I shall omit taking any farther notice of it , and proceed in the investigation of some other useful theorems which I do not find have ever yet been published .
+II .
+If y be = I ; then , A being = o ; p , q , r , &amp;c. will be the cosines of 0/ n , C/ n , 2C/ n , 3C/ n , &amp;c. ( n ) respectively : Therefore p will be = I ; and , if n be an even number , one of the cosines q , r , s , &amp;c. will be = I , one of the arcs C/ n , 2C/ n , 3C/ n , &amp;c. being then = C/ 2 .
+If y be = I ; then , A being = C/ 2 ; p , q , r , s , &amp;c. will be the cosines of C/ 2n , 3C/ 2n , 5C/ 2n , &amp;c. ( n ) respectively : Therefore , if n be an odd number , one of those arcs will be C/ 2 , whose cosine is I. IV .
+If in the equations z2n 2y zn +1= 0 , and z2 2xz+1= 0 , we substitute v-I for z , they become v-1 ~2n 2yxv1 ~n +1= 0 , and v1 ~~ 2x~ v-1 ~+1= v2 2+ 2x~v ~+2+2x= 0 .
+Consequently v2n 2 nv2n-1 + ... .
++ an x 2n-1/ 2 v2 2nv+1 ... .
+~2ynxn-1/ 2v2~2ynv~2y = +1 ~ v2 2+2p~xv+2+2px v2 2+ 2q xv+2+ 2qx ~ v2 2+2r~xv+2+2rx &amp;c. ( n ) ; where , of the two signs prefixed to the terms where y is a factor , the upper or lower takes place , according as n is an even or an odd number .
+Whence , by the nature of equations , it follows , that ~2+2px~2+2qx~2+2 r , &amp;c. is =2~2 y. But this equation vanishing when y is =1 and n an even number , or when y is =1 and n an odd number , it will be proper to consider those two cases more particularly .
+V. First , Let us suppose y= 1 , and n an even number : Then p being = 1 , and one of the other cosines q , r , s , &amp;c. =1 ( Art .
+II .
+) ; we shall have v2n 2n v2n-1/ v2 4v+4 + ... .
++ n2 v2 = v2 +o x/ v2 4v+4x v2 2+2qxv+2+2qx v2 2+2rxv+2+2 r , &amp;c. Therefore dividing by v2 , v2n-2 2n v2n-3+ ... .
++ n2 = v2 4v+4 x/ v2 2+2qxv+2+2 qxv2 2+2 rxv +2+2 r , &amp;c. that factor in which the value of the consine q , or r , &amp;c. is 1 , being expunged .
+Consequently n2 is =4x2+2qx2+2rx2+2 s , &amp;c. when the factor , whose value is nothing , is expunged .
+VI .
+Let us now suppose y= 1 , and n an odd number : Then one of the cosines p , q , r , &amp;c. being =1 ( Art .
+III .
+) , v2n 2n v2n-1 + ... .
++ n2 v2 will be = v2 +o x v2 2+2pxv+2+ 2p x v2 2+2qxv+2+2 q , &amp;c. Therefore , dividing by v2 , v2n-2 2n v2n-3 + ... . .
++ n2 will be = v2 2+2pxv+2+2px v2 2+2qxv+2+2 q , &amp;c. and consequently n2 =2+2px2+2qx2+2 r , &amp;c. when the factor , whose value is nothing , is expunged .
+VII .
+VII .
+Substituting in the equations Z2n 2y Zn +1= o , and Z2 2xz+1= o , a+~a~ instead of z , we have a+ ~/ a ~ 2n 2yxa+ ~/ a ~n+1 =a+~ 2n 2yxa+~nxa~n+a~ 2n = o , and a~ 2n a+ ~/ a ~22Xxa+ ~/ a ~+1 =a+~22Xxa+~xa~+a~2 a~2 2+2Xx ~2 +1 X/ 1 +x a2/ a ~2= o. Consequently a+w 2n 2yxa+~nxa~n+a~ 2n will be = 2+2px2+2qx2+2 r , &amp;c. x ~2 +1 p/ 1 +p a2 x ~2 +1 q/ 1 +q a2 x ~2 +1 r/ 1 +r a2 , &amp;c. But , by Art .
+IV .
+2+2px2+2qx2+2 r , &amp;c. is =2+2 y , the upper or lower of the two signs prefixed to y taking place according as n is an even or an odd number .
+Therefore a+w 2n2 yxa+ ~n xa ~n +a~n is = 2+2yx ~2 +1 p/ 1 +p a2 x ~2 +1 q/ 1 +q a2 x ~2 +1 r/ 1 +r a2 , &amp;c. Now p being the cosine of any number of degrees , radius being 1 , 1 p/ 1 +p a2 will be the square of the tangent of half so many degrees , radius being a : Therefore , denoting that tangent by b ; and the tangents of half the arcs described with the radius a , whose cosines , when the radius is 1 , are q , r , s , &amp;c. being denoted by c , d , e , &amp;c. respectively ; we have a+ ~2n 2yxa+ ~n xa ~n +a ~2n =2+2yx ~2 + b2 x ~2 + c2 x ~2 + d2 , &amp;c. But when y is = 1 , and n an even number ; or y= 1 , and n an odd number ; 2+2y being = o ; nothing can be determined from that equation : Wherefore , in those cases , recourse must be had to what is done above .
+VIII .
+Let us suppose y= 1 , and n an even number : Then the equation a+ ~2n 2yxa+ ~n xa ~n +a ~2n =2+2px2+2qx2+2 r , &amp;c. x ~2 +1 p/ 1 +p a2 x ~2 +1 q/ 1 +q a2 x ~2 +1 r/ 1 +r a2 , &amp;c. -2n -n -n -2n becomes a+w2xa+wxaw+aw=4 1-q 1-r x2+2qx2+ 2r , &amp;c. w2 x w2 + a2 x w2 + a2 , 1+q 1+r 1-p &amp;c. p being =1 ( Art .
+II .
+) and a2 ( = b2 ) = 0 .
+1+p Moreover , one of the other cosines q , r , s , &amp;c. being =1 ( Art .
+II .
+) , some one of the factors 2+2 q , 2+2 r , 2+2 s , &amp;c. will vanish : Which factor being expunged from the product 4x2+2qx2+2 r , 1q &amp;c. and restored to the divisor w2 + a2 , or 1+q 1r w2 + a2 , &amp;c. from which it was taken , that di1 +r visor will become 4 a2 ; and the product 4x2+2q x2+2 r , &amp;c. will then ( by Art .
+V. ) be = n2 .
+-2n -n -n -2n Consequently a+w 2x a+w x a-w + a-w , will be = n2 x w2 x4 a2 x w2 + c2 x w2 + d2 , &amp;c. where the factor 4 a2 takes place instead of w2 + sq .
+of the tang .
+of 90~ .
+If y be = 1 , and n an odd number , p will be = 1 , and b= 0 ; but no one of the cosines q , r , s , &amp;c. will be = 1 , as when n is an even number .
+There-2n -n fore , in this case , the equation a+w2yxa+w -n -2n x a-w + a-w =2+ 2y x w2 + b2 x w2 + c2 , &amp;c. -2n -n -n -n becomes a+w 2x a+w xaw+aw= 4x w2 x w2 + c2 x w2 + d2 , &amp;c. IX .
+-2n -n By taking the square root of a+w2xa+w -n -2n x a-w + a-w , and of its two values just now found , -n -n we have , when n is an even number , a+w a-w =2anwx~ w2 + c2 x~ w2 + d2 , &amp;c. 2a taking place instead of ~ w2 + sq .
+of the tang .
+of 90~ .
+-n -n And , when n is an odd number , a+w a-w =2wx~ w2 + c2 x~ w2 + d2 , &amp;c. Whence the following construction is inferred .
+X. Describe about the centre C ( Plate XX .
+fig. 1 .
+and 2 .
+) , with the radius a , the circle P A ' A ' ' A ' ' ' , &amp;c. ; draw the diameter PC Q , and the tangent B ' ' ' P B5 ; divide the semicircumference P A ' Q into as many equal parts P A ' , A ' A ' ' , A ' ' A ' ' ' , &amp;c. as there are units in the integer n ; draw the secants C A ' B ' , C A ' ' B ' ' , &amp;c. and , taking on CQ any point O , draw K ' ' ' O K5 parallel to B ' ' ' P B5 ; likewise draw B ' K ' , B ' ' K ' ' , B ' ' ' K ' ' ' , &amp;c. parallel to P Q ; and call C O , w. Then will q be the cosine of twice the angle PC A ' r the cosine of twice PC A ' ' , s the cosine of twice PC A ' ' ' , &amp;c. if the radius be 1 .
+Therefore P B ' =O K ' will be = c , P B ' ' =O K ' ' = d , &amp;c. and C K ' =~ w2 + c2 , C K ' ' =~ w2 + d2 , -n &amp;c. Consequently O Pn O Qn being =a+w -n a-w , and nxPQxCOxC K ' xC K ' ' , &amp;c. = 2anwx~ w2 + c2 x~ w2 + d2 , &amp;c. when n is an even number ; O Pn O Qn will then be =nxPQ xCOxC K ' xC K ' ' , &amp;c. where the diameter PQ n/ 2 takes place instead of the infinite quantity C K. But if n be an odd number , O Pn O Qn will be =2xCOxC K ' xC K ' ' xC K ' ' ' , &amp;c. XI .
+It is evident that , of the factors C K ' , C K ' ' , C K ' ' ' , &amp;c. the first and last , the second and last but one , &amp;c. are respectively equal to each other .
+Therefore , omitting the squares of the factors below P Q , and the squares of their values , O Pn O Qn is =nxPQxCOxC K'2 xC K''2 x -n -n C K'''2 , &amp;c. and a+waw=2anwx w2 + c2 x w2 + ~2 , &amp;c. when n is an even number ; or O Pn O Qn is =2xCOxC K'2 xC K''2 , x CK'''2 , -n -n &amp;c. and a+waw=2wx w2 + c2 x w2 + d2 , &amp;c. when n is an odd number .
+XII .
+If we suppose y= 1 , and n an odd number , it will appear , by proceeding much in the same manner -2n -n -n as in Art .
+VIII .
+that a+w+2xa+wxaw+ -2n a-w is = n2 x 4a2 x w2 + b2 x w2 + c2 x w2 + d2 , &amp;c. where the factor 4 a2 takes place instead of wz + sq .
+of the tang .
+of 90~ .
+If y be = 1 , and n an even number , a+ w2n + 2~a+ wn ~a wn + a-w2n is =4~ w2 + b2 ~ w2 + c2 , &amp;c. Whence , by extracting the square root of both sides of those equations , we have , when n is an odd number , a+ wn +a wn =2an~~ w2 + b2 ~ ~ w2 + c2 , &amp;c. 2a taking place instead of ~ w2 + sq .
+of the tang .
+of 90~ : And , when n is an even number , a+ wn +a wn =2~~ w2 + b2 ~ ~ w2 + c2 , &amp;c. Hence we infer this construction .
+XIII .
+Having described about the centre C ( fig. 3 .
+and 4 .
+) , with the radius a , the circle P a ' A ' a ' ' A ' ' , &amp;c. draw the diameter PC Q , and the tangent b ' ' P b4 ; divide the semicircumference P a ' Q into as many equal parts P a'~ a ' A ' , A ' a ' ' , &amp;c. as there are units in 2 n ; draw the secants C a ' b ' , C a ' ' b ' ' , &amp;c. and , thro ' any point ( O ) in C Q , draw k ' ' O k4 parallel to b ' ' P b4 ; likewise draw b ' k ' , b ' ' k ' ' , &amp;c. parallel to P Q ; and call C O , w. Then , if the radius be 1 , p will be the cosine of twice the angse PC a ' , q the cosine of twice PC a ' ' , &amp;c. therefore P b ' =O k ' will be = b , P b ' ' =O k ' ' = c , &amp;c. and C k ' =~ w2 + b2 , C k ' ' =~ w2 + c2 , &amp;c. Consequently O P~ +O Qn being = a+wn + a-wn , and n~PQ~C k ' ~C k ' ' , &amp;c. = 2an ~~ w2 + b2 ~~ w2 + c2 , &amp;c. when n is an odd number ; O Pn + O Qn will then be =n~PQ~C k ' ~C k ' ' , &amp;c. where the diameter PQ takes place instead of the infinite n+ 1/ 2 quantity C k. But if n be an even number , O Pn +O Qn will be =2~C k ' ~C k ' ' , &amp;c. XIV .
+It is obvious that , of the factors C k ' , C k ' ' , &amp;c. the first and last , the second and last but one , &amp;c. are respectively equal to each other : Therefore the squares of the factors below P Q , and the squares of their values , being omitted , O Pn +O Qn is =n~PQ~C k~2 ~C k~2 , &amp;c. and a~ + wn +a wn =2an~ w2 + b2 ~ w2 + c2 , &amp;c. when n is an odd number ; or O Pn +O Qn is =2~C k~2 ~C k~2 , &amp;c. and a+ wn +a wn =2~ w2 + b2 ~ w2 + c2 , &amp;c. when n is an even number .
+XV .
+Writing in the equation a+w2n 2y~a+w~ a wn +a w2n =2~2y~ w2 + b2 ~ w2 + c2 , &amp;c. ( found by Art .
+VII .
+) au for w , the same becomes 2a u2n 2y un ~2a un + u2n =2~2y~ u2 2 au + a2 + b2 ~ u2 2au+ a2 + c2 , &amp;c. =2~2y~ u2 2au+ ~2 ~ u2 2au+ ~2 ~ u2 2au+ ~2 , &amp;c. if instead of ~ a2 + b2 , ~ a2 + c2 , &amp;c. ( the secants of the arcs of which b , c , d , &amp;c. are tangents ) , we put ~ , ~ , ~ , &amp;c. And , by a like substitution in the equations in Art .
+XI .
+and XIV .
+it appears , that 2a un un is =2an~au~ u2 2au+ ~2 ~u2 2au+ ~2 , &amp;c. or 2~au~ u2 2au+ ~2 ~u2 2au+ ~2 , &amp;c. according as n is an even or an odd number : And that 2a un + un is =2an ~ u2 2au+ ~2 ~ n2 2au+ ~2 , &amp;c. or 2~ u2 2au+ ~2 ~ u2 2au+ ~2 , &amp;c. according as n is an odd or an even number .
+From what is done above , I might now deduce many corollaries ; and , by means of other substitutions , investigate other theorems ; but want of leisure obliges me to desist .
+Philos. Trans. Vol. XLVIII .
+TAB. XX~ p. 578 .
+B~ K~ n/ 2 b~ k~ B~ A~ A A5 K~ A~ n+1/ 2 A~ A~ A6 A~ a~ a a4 A4 B~ A~ K~ A7 b~ a~ k~ a5 Fig. 1 .
+PCOQ Fig. 3 .
+PCQ B7 K7 b5 k5 B6 K6 b4 k4 B5 K5 B~ K~ b~ k~ B~ K~ n/ 2 A~ A~ A4 A5 A~ a~ A a~ A~ B~ A~ K~ A6 b~ a~ k~ a4 Fig. 2 .
+PCOQ Fig. 4 .
+PCOQ B6 K6 b4 k4 B5 K5 b3 k3 B4 K4
+

@@ -1,0 +1,102 @@
+]\gt ; Parallel Cylindrical Conductors in Electrical oblems .
+465 a small change in current produces a large change of the same sign in the wave-length .
+This property could be applied , for example , to give modulation of wave-length , such as is sought in wireless telephony , or to form the basis of a new method of amplification .
+In this case the electrical stimulus to be amplified would be introduced into the filament circuit by means of a transformer .
+The consequent change in would be the index showing the receipt of the stimulus .
+\mdash ; Parallel Cylindrical Conductors in Problems .
+By F. J. W. WHIPPLE , M.A. ( Communicated by Dr. C. Chree , F.R.S. Received June 16 , 1919 .
+) In a recent paper* Dr. Alexander Russell has called attention to the practical importance of the electrostatic problem of determining the distribution of charge and of potential when parallel cylindrical conductors are electrified .
+Russell points out that the same analysis will serve for the calculation of the current density and the magnetic flux when currents of high frequency pass along the parallel conductors .
+The solution he tgives for the case of equal and opposite charges ( or currents ) iu the two conductors is exact , but in the general case a more elaborate investigation is necessary .
+In the present paper the problem is solved by the method of conjugate functions .
+For the most part , the results are given in forms convenient for numerical calculation .
+The investigation is confined to the case in which the two cylinders are of the same size ; for case ordinary Jacobian elliptic functions suffice though in general theta-functions are required and the algebra is rather heavy .
+It is hardly to be supposed that a problem of such a simple character in a favourite field of investigation has not been solved before .
+It is desirable , however , to the solution in an accessible form .
+2 .
+Notation.\mdash ; The problem to be considered is virtually in two dimensions , the cylinders being represented by circular sections .
+Let be the radius of either circle , the distance between the centres , the distance between the limiting points and Take the origin midway between the centres and the axis of X along the * Electrical Theorems in connection with Parallel Cylindrical Conductors Phys. Soc. Proc vol. 31 , p. 111 ( 1919 ) .
+Mr. F. J. W. Whipple .
+Equal Parallel line joining them .
+The position of a point may be defined by curvilinear co-ordinates and such that the angle , and , which relations are equivalent to the equation or to ( 2 ) with ( 3 ) The two conducting circles are given by where satisfies the equations cosech ( 4 ) .
+and .
+( 5 ) 3 .
+Equal Cylinders with Equal Charges.\mdash ; The potential function and the conjugate function suggested for consideration are determined by the equation , ( 6 ) in which is the charge per unit length of either cylinder , is the real quarter-period of the elliptic function , and is an bitrary constant .
+The form of the function on the right is such that is a periodic function of with period .
+The condition that the potential may be constant over the surfaces is , ( 7 ) where 2 is the imaginary period of the function To prove this we have sn and therefore so that , if ( 7 ) holds good , ( 6 ) gives when .
+( 8 ) The fimction has no poles in the finite part of the plane outside the cylinders , and as it has the same constant value over the two cylinders it represents the potential when they carry equal charges .
+Cylindrical onductors in Electrrical Problems .
+It is of interest to notice that , where , defined as , is the quantity usually denoted by that letter in the theory of elliptic functions .
+4 .
+Potential at a Great Distance ( charges ) potential at a great distance from the conductors is determined by the asymptotic equation , ( 9 ) where is the radius vector from the origin .
+If the zero of potential is on , it follows from ( 8 ) that On this convention the potential at a great distance is given by , ( 10 ) and is therefore asymptotic to that due to a total charge per unit length distributed over a cylinder of radius , where $K .
+( 11 ) This equivalent radius is given in Table II .
+Table I.\mdash ; Dimensions .
+Table II.\mdash ; Potential and Force .
+Mr. F. J. W. Whipple .
+Equal rallel 5 .
+Distribution of Lines of Force , etc.\mdash ; To determine the distribution of the charge on either cylinder , a knowledge of the variation in is necessary .
+Equation ( 6 ) may be written ( 12 ) where On writing it is that at points on the cylinder as before , whilst sd ( 13 ) where is an integer .
+In passing round the cylinder increases continually , and so does the first inverse tangent , but the second one oscillates about zero .
+If we take , the formula gives when ; when ; when 6 .
+Density of the Charge.\mdash ; To find , the density of charge , Equation 12 may be differentiated .
+Since , where is the arc on the circumference of the cylinder and is the element of the normal , it follows that cn .
+( 14 ) The mean surface density is given by .
+( 15 ) It follows that , the density at the points of either cylinder furthest from the other , and , the density at the points which are nearest , are related to by the equations ( 16 ) and ( 17 ) respectively .
+The ratio of these densities is given by ( 18 ) where The ratios and are tabulated in Table III .
+They are graphed as functions of in fig. 1 .
+Cylindrical Conductors in Blectrical Problems .
+Table III.\mdash ; Concentration of Charge .
+FI l.\mdash ; Surface densities at points on a common diameter of cylinders carrying equal charges .
+( Mean density over a cylinder unity .
+) Mr. F. J. W. Whipple .
+Equal Paratlel between axes ( imeCer of eiCher cylinder ) FIO .
+2.\mdash ; Surface densities at points on a common diameter of two cylinders , one charged , the other uncharged .
+( Mean density on charged cylinder unity .
+) 7 .
+Potentinon the Axes.\mdash ; The way in which the potential varies along the axes is of interest:\mdash ; ( a ) For , i.e. , for the continuation of a common diameter of the cylinders , the equation gives ; , ( 19 ) where the dash is to indicate that the complementary modulus is used .
+( b ) On the part of the common diameter intercepted between the cylinders , and therefore ; .
+( 20 ) ( c ) On the axis of , and therefore ; .
+( 21 ) 8 .
+Potential on the Orthogomxl Cirde.\mdash ; As an additional guide for drawing the equipotentials and lines of force , their intersections with the circle , which cuts the conductors orthogonally and symmetrically , are required .
+The circle is specified by Over this circle and are given by , ( 22 ) and which may be derived from ( 12 ) .
+Cylindrical Conductors in Etectrical Problems .
+9 .
+Repulsion between Cylinders Carrying Equal Charges.\mdash ; The repulsion per unit length is where ( 23 ) the integral being taken round the circumference .
+On substitution it is found that cn .
+( 24 ) On integration this equation reduces to where , ( 25 ) being the second elliptic The formula ( 25 ) has been used in computing the repulsion in Table II .
+The results are shown graphically in fig. 3 .
+It will be seen that for cylinders whose distance is large compared with their radii , On the other hand when the cylinders are very close so that the repulsion between equal cylinders in contact carrying equal is the same as that between line charges at a distance equal to three radii , a result which can be veritied by independent analysis of this important special case .
+* 10 .
+Equat ; Any Charges.\mdash ; By combining the foregoing solution for equal positive with the well-known one for equal and opposite charges , viz. , , the distribution of potential in the general case can be found .
+If the charges are on and on , and if the zero of potential is at the origin , then sn .
+( 26 ) The potentials of the two cylinders are given by , ( 27 ) * The solution depends on the equation Mr. F. J. W. Whipple .
+Equal Parallel whilst the potential at a great distance is given by .
+The of the charge on the cylinder can be computed from the formula , ( 29 ) and the repulsion between the cylinders is determined by ( 30 ) , where A is defined by ( 25 ) .
+The force is negative , i.e. , there is an attraction when is large compared with .
+The condition for the force to vanish is .
+( 31 ) When one of the cylinders is uncharged , so that there is an attraction weeT .
+Diameber of either cylinder ) FIG. 3.\mdash ; The force between two cylinders .
+For the case the surface densities at the points where and are tabulated in Table III and shown graphically in flg .
+2 .
+Cytindrical Conductors in Electrical Problems .
+11 .
+Potential and Capacity \mdash ; In the ordinary treatment of potential in three-dimensional problems , it is taken as zero at a great distance from the conductors under consideration .
+When dealing with cylinders which are regarded for the purpose of analysis as infinite , the difference of potential between them and an object at a great distance increases as the arithm of the distance and this distance must appear 'explicitly in the formulae .
+In the present problem we are tually compelled to complete our system of two cylinders with charges QI and , by supposing them to be surrounded by a very large cylinder , which may be supposed to have a radius , and to be symmetrically placed with regard to them , and to have zero potential .
+It carries on its inner surface the charge .
+The potential of the first cylinder is now given by so that if ( 34 ) we have and ( 35 ) being written for , ( 36 ) 'or in the notation of S4 for Numerical values of the coefficients , are set out in Table II and shown graphically in fig. 4 .
+The charges can be written down in terms of the potentials in the form where the capacity coefficients are given by the relations .
+( 37 ) It will be noticed that as the capacity coefficients remain finite ; Mr. F. J. W. Whipple .
+rallel of FIG. 4.\mdash ; Potential coefficients .
+These relations are not of direct service however : they merely indicate that , as long as is small compared with , the total charge on the two cylinders is negligible and that approximately .
+It is of interest to compare the potential coefficient with that of a single isolated cylinder of radius , which is .
+The difference is equal to and , therefore , independent of .
+This indicates that bringing another conducting cylinder to the neighbourhood of a charged cylinder changes the potential of the latter by a finite amount .
+Calculation shows that as long as the distance is considerable the effect is small .
+When the gap between the cylinders is equal to the diameter of either , the difference is only 11 .
+cent. of its value when the gap is infinitesimal .
+12 .
+The electrostatic energy of the system per unit length is where .
+( 38 )
+

@@ -1,0 +1,325 @@
+]\gt ; 323 ] VIII .
+On ABEL'S Theorem and Abelian Functions .
+A. R. FORSYTH , , Fellow of Trinity College , mbridge , Professor of in University College , Liverp ool .
+Communicated by Professor CAYLEY , F.R.S. Received October 28 , \mdash ; Read November 23 , 1882 .
+THE present paper is divided into two sections .
+The object of Sec.tion I. is to obtain an expression for an integral more general than , but intimately connected with , that occurring in theorem .
+The latter , as enunciated by Professor ROW in his memoir in the Phil. Trans. , 1881 , is as follows : be a rational algebraical equation between and , then an expression can always be found for where is a function of only , a rational algebraical integral function of and and the upper limits of the series of integrals are the roots of the eliminant with regard to of and a function .
+In the case here considered two equations respectively of the degrees and between three variables are given ( these alone being considered , as subsequent generalisation to the case of equations between dependent variables and one independent variable is obvious ) ; and an expression is obtained for the upper limits of the integrals being given by the roots of the equation arrived at by eliminating and between and an arbitrary equation or , what is the same thing , by the co-ordinates of the points of intersection of the hree surfaces represented by Some preliminary considerations ( in connexion with SS92 .
+of SALKON'S ' Algebra ' ) are adduced in reference to the eliminants of the three equations in each of the variables ; thus if X be the equation in obtained by eliminating and , it is expressed in the form which afterwards proves useful .
+Then the ordinary case ( above referred to ) of ABEL'EI theorem is treated on the lines laid down in CLEBSCH and GORDAN'S ' Treatise on the Abelian Functions ; ' and under the guidance of this the more general form is investigated with the result being the symbol introduced by BOOLE .
+The remainder of this section is occupied with the discussion of two examples of this theorem .
+In the first , expressions are obtained for and , and II being the second and third elliptic integrals ; and in the second example is considered .
+In Section II .
+the addition-theorem for the functions presented in WEIEBSTRASS'S memoir CreUe , , p. 285 ) is investigated .
+[ It may be pointed out that the fundamental equations occur as natural examples of the more general form of ABEL'S theorem proved in Section I. ; but the equations which are obtained almost immediately are identical with those used by WEIERSTRASS , and so this case does not belong distinctively to the form of ABEL'S theorem for the curve of double curvature .
+] For the purpose of the section use is made of the ' ' integral-function , \ldquo ; the partial differential coefficients of which with respect to the amplitudes give the squares of the Abelian functions .
+The theory is worked out at some length , and the necessary formulae are deduced from the fundamental equations in a manner somewhat different from that of WEIERSTRASS .
+From the form first obtained for the sum of three integral-fimctions an important theorem is deduced in S 21 , and a verification of this is afterwards furnished by the expansion of the two sides of the equation .
+It is then applied , as already mentioned , to obtain the addition-theorem for the functions .
+In SS25 , 26 is given the discussion of a particular case of the above , , when the functions are of the order 2 , the fifteen functions being the quotients of all but one of the double theta-functions by that one .
+This has already formed the subject of a paper by CAYLEy in ' CreUe , ' .
+lxxxviu .
+( 18 is ) , p. 74 .
+SECrION 1 .
+Before proceeding to the consideration of the theorem it is necessary to indicate the form in which the eliminant of three equations in three variables ( or in gwed of equations in variables ) will be used .
+THEOREM AND ABELIAN FUNCTIONS .
+325 If we consider two equations in two variables say . . . . . .
+and if X be the eliminant of and with regard to , then we have Now X being of degTee mn in , A must be of degree mn-n and of ; while it is sufficient that the highest power of in A be the and in the .
+Write then Substitute in X ; since X is explicitly free from all the coefficients of powers of in the result must be zero .
+This then gives equations to determine the ratios of the quantities , B. Let . . . . . . . . . . . . . . . . . . . . . . .
+Then bears to the minor of in the same ratio as bears to the minor of in : thus But the diagonal term in is and is therefore of the degree , i.e. , of the same degree in .
+X ae obviously of the same degree in ; hence is merely an.arithmetical constant , we may write 2 .
+When we come to apply this method to the formation of the eliminant with regard to and of three equations in three variables the result .
+though of similar form , viz. : can in general be obtained neither so directly nor without the help of the tions in SALMON'S ' Higher Algebra , ' SS92 , .
+If the three equations be each of the degree 2 , the method will apply exactly as in the preceding paragraph and we obtain where ; but if the equations be not of this degree , then the following is our rule .
+be of the degrees respectively : then we form all possible equations , which the variables satisfy , of degree not higher than : thus we multiply by , .
+, , .
+, , .
+and so on ; and so we obtain equations from which to eliminate quantities .
+But these equations are not all independent , being by a number of identities of the form where , of which there are there are of the form where and where and thus we have the proper number of equations .
+To find the eliminant X we writ down the coefficients which course , functions in equations ; and reduce them to the form of a determinant by adding the coefficients in ABEL'S THEOREM AND ABELIAN FUNCTIONS . .
+equations ; then the eliminant is the quotient of the determinant formed by any rows of the set first written down by the determinant formed from the second set after the elision of these rows .
+3 .
+To show how this can be brought into the desired form the easiest plan will be to consider an example .
+Let where the coefficient of the highest powers of and are constants and those of other powers are functions of such as make the order of the highest expression in the term of the same order as the equation ; thus , for instance and so on .
+Then we have , since To find the eliminant we choose any 15 rows ( leaving out say the and form a determinant , and then divide by .328 PROFESSOR A. R. FORSYTH ON ( As the object is to illustrate the general case and not merely to get the resuIt in this particular case we have not selected those rows which leave the minator in the simplest form .
+) In the determinant of constituents multiply each column by the quantity which stands at the head of it , add the results horizontally along the rows , and replace the constituents of the last column by these new constituents which are , in order , so that if we expand we have the numerator of our eliminant in the form where the 's are determinants differing from the initial determinants in the last column alone ; hae for its constituents there the coefficients of so long as occurs in the later form and then zeros ; those of where it occurs and else .
+where zeros ; those of where it occurs and elsewhere zeros .
+Moreover ; we know that our eliminant is an integral function of not extending in an infinite series ; hence each of the coefficients must be divisible by .
+If not , one of the 's ( say ) must be divisible ; since is a function of only it follows that .
+, when whatever and may be .
+We shall assume that such factors are removed before the investigation begins as they are useless for the purposes for which the functions are required ; and hence we obtain our eliminant in the form Similar remarks of course ] to and , the eliminants with regard to and and 4 .
+We may also obtain the result as follows : Between eliminate and denote the eliminant by ; then , as we already seen , can be expressed in the form Between eliminate and denote this elimina , nt by ; then Now are both functions of and nating ybetween .
+and denoting the eliminant by X we have ABEL'S THEOREM AND ABELIAN FUNCTIONS .
+of the same form as before .
+method of expressing an eliminant obviously admits of generalisation to the case of equations in .
+variables .
+5 .
+The preceding method enables us to the eliminants of the equations with regard to the different variables in a particular form which is useful in the proof of the general theorem in S7 ; but when the object is merely to obtain the equation giving the roots which are to form the upper limits of our integrals we should arrive at the result more easily as follows .
+Obviously where constitute one of the pairs of roots of the equations regarded as giving in terms of ; and the product is taken over all these pairs .
+Now the coefficients on the right-hand side will be symmetric functions of and , and these can be evaluated ( by the method given in SALMON'S 'Higher Algebra , ' S 74 ) in terms of ; and there will be obtained the required equation in ABEL'S 6 .
+Let . . . . . . . .
+( i ) be an equation of the degree which ives y in terms of ; and let denote a function of of degree m\mdash ; reducible to degree at most in by means of ( i)\mdash ; the coefficients of in which are functions of and contain any number of arbitrary constants .
+Treating as two equations to determine the values of the variables , .
+these arbitrary constants will enter into the expressions for the of , and will therefore vary when the latter vftry .
+Let such a variation take place , so that ( ii ) 8 operating only on the co1lstants in .
+Moreover we have from ( i ) or writing -- the equation ( ii ) becomes or and therefore S. ( iii ) where is any rational function of and , and the summation is taken over all the roots of the equation obtained by the elimination of between and Let X , respectively denote the eliminants of with regard to ; then we can express X , in the form ( iv ) and we write Now whatever the function may be it can be written in the form ; for it must be expressible as that is , which by means of the equation is at once reduced to the above form ; thus ' ABEL'S THEOREM AND ABELIAN FUNCTIONS .
+331 Each of the equations has mn roots ; if be a pair which make and both vanish , these may be called congruous ; but if , do not make and both vanish then for these while for congruous values does not vanish .
+Moreover , for congruous values of and we at once have the congruous values being substituted for the variables , so that Now in ( v ) the summation is for all the 's and for one of the , say , which may be regarded in the folowing way .
+When the equation is solved for in terms of , there will be roots ; take one of these and denote it by , which is therefore a function of .
+Substitute in turn , . . .
+, ; then we obtain for a series of values , but all derived from the single root of .
+Thus since we have as the congruous roots .
+Moreover for roots other than these so that we may add on a number of vanishing terms to the right-hand side , and the removal of the restriction now gives where .
+Moreover from ( iv ) \mdash ; BY and therefore the term corresponding to a rential of X disappearing ' and the others vanishing virtue of the values assigned to the two variables ; thus our expression becomes But the coefficient of in the expansion of in descending powers of and therefore the foregoing @ the 2 referring to the values of from the equation ( i ) , and the expansion being in the factors of X .
+But since we are substituting for from ( i ) we always zero in this , and therefore Taking now into account the expansion for the factor , we have finally the summation in each of bhe terms on the right-hand side being for the values of Now on the introduction of BOOLE'S symbol Phil. Trans. , the right-hand side is merely the definition of Let be a root of , and in ( v ) expand in a series of partial fractions corresponding to the roots ; then expressions of the form are obtained .
+Moreover , frolIl the nature of the preceding fractions and the definition of the symbol in connexion with them , it is obviously a distributive symbol ; thus we have ABEL'S THEOREM AND ABELIAN FUNCTIONS .
+333 where the summation on the left-hand side is over the roots of the equation while on the right-hand side it is over the of the equation .
+The variables on the right-hand side being the arbitrary constants in which occur only in the factor we may integrate , and we have as the result agreeing with the given in Professor Rowp 's memoir Phil. rans . .
+7 .
+In the generalisation of the theorem we shall consider only two dependent variables and one independent variable ; it will be seen that the work would apply , mutatis , to dependent variables and one independent .
+Let the variables and be given as functions of by the equations of the degrees and respectively .
+Let be a function of and the coefhcients of and in which are functions of with any number of arbitrary constants ; so as in the case when and vary the constants also vary .
+Using tl.e same notation as before we have Therefore and so that dw .
+J and therefore ( ) .
+Let and be the eliminants of and respectively with regard to and and and ; then as explained in S3 we may write ach of the equations , has solutions ; let those values ( mnp in all ) which make , and vanish simultaneously be called congruous .
+Write so that for non-congruOus values is zero .
+Now whatever be the value of it can be put into the form where and art1 , rational integral algebraical tions of and ; and this can be expressed as where is an integral function of and and is a function of only .
+For it is where are a pair of values of and which satisfy the equations ABEL'S THEOREM AND ABELIAN FUNCTIONS .
+Now the denominator will consist of symmetric functions of the 's and , the coefficients in its different terms involving .
+These can be expressed in terms of alonwhile the new term in the numerator can be expressed in terms of symmetric functions of the 's and 's and of and , and thus is rednced to the form and therefore ( ii ) .
+Let be any root of ; then , as before , we consider that is , the summation being for the values of ; and a definite value of and one of are to be substituted in terms of before the summation is effected .
+Having these definite values of and obtained from if in them we substitute in turn the values of , we shall have congruous values and therefore all the congruous values .
+For these , as we easily see , and therefore ( iii ) the summation on each side being the same .
+But for all values not included in this summation we have , and therefore the restrictions on the right-hand side may be removed without altering its value , and we shall consider the summation to extend over all the roots of considered as equations in and and over all the roots Let denote the minor of that of that of ( in each case with the same suffix ) in .
+Then we have *Cf .
+SALMON ' ' Higher ebra , ' S Differentiating the first two of these with respect to and separately inserting the ] of and as they now occur on the right-hand .
+side of : we die and therefore by a known theorem in determinants ; thus ( iii ) becomes .
+Now expanding in partial fractions we have therefore the right-hand side becomes considered as expanded for the factors of X alone or , including in the expansion term arising from , it is equal to whelein the implies summation for all of and in terms of derived from the equations and .
+Since these values are to be substituted we have ABEL'S THEO R AND ABELIAN FUNCTIONS .
+and therefore substituting this in the above which will replace the right-hand side of ( ui ) and inserbing the value of the equation becomes by the use of BOOLE'S symbol as before .
+The summation on the left-hand side is of course over the roots ; on the right-hand side it is over the roots and in terms of of the equations and .
+We may obviously integrate as before ; and using the distributive property of we obtain as our result .
+8 .
+The general theorem will proceed on lines not widely different from the above , and may be enunciated as , Let be equations , of degrees , . .
+, respectively , giving , . .
+, in terms of ; and let be a function of these variables , the coefficients of which are functions of containing any number of arbitrary constants .
+Form the eliminant of all the 's so that we shall obtain the set of roots by equating to zero ; and denote by any algebraical rational integral function of , .
+, . .
+Tben the summation on the left-hand side being taken over the roots of the equation , whid ] are assumed as the upper limits of the integrals , while on the right-hand side the summation is over all the roots of , . .
+, considered as simultaneous equations giving , , in terms of 9 .
+Returning now to ( iv ) the conditions that the right-hand side should reduce to a constant : That , or be a factor of ; and : which will be satisfied by Now is of the order in , and therefore the order of may not be greater .than m. In this case the number of terms in it will be But if the integrals be formed they are not all independent for where and are arbitrary functions of the orders and respectively , and contain .
+terms .
+Hence the number of independent integrals in the ca.se when the right-hand side reduces to a constant or to zero is This assumes that the surfaces and are the most general of the and respectively and so possess no special singularities .
+10 .
+ABEL'S theorem in the more simple case applies to the intersection of plano curves .
+There is a fixed curve given by ABEL'S THEOREM ABELIAN and integrals connected with this curve are taken , the upper limits assigned being the abscissae of its points of intersection with another curve , the equation to which contains a number of variable parameters and therefore a variable curve .
+But the more general form of the theorem extends the application to curves in space .
+We take the curve which is the intersection of two surfaces ( and which will , as a rule , be a tortuous curve ) , and forming corresponding integrals we assign as the upper limits of these the ordinates of the points of intersection of this tortuous curve with a surface the equation to which containing a number of variable parameters represents a variable surface .
+The discussion of this geometrical interpretation and of the deductions to which it leads has been carried out in a memoir by CLEBSCH Crelle , lxiii .
+, wherein he proceeds from the theorems which are the forms of ( iv ) and ( v ) when the right-hand sides are zero .
+Example I. which follows was suggested by an analogous geometrical illustration which Professor CAYLEY gave in one of his lectures at Cambridge in the Michaelmas Term , 1881 , wherein he pointed out how to obtain from the analytical expression for the co-planarity of the four points of intersection of an arbitrary plane ( corresponding to ) with a fixed tortuous curve in space which was the intersection of a circular cylinder and an elliptic cylinder respectively corresponding to and We now proceed to consider two examples of ( iv ) .
+11 .
+Example I. Let 1 !
+The eliminant X is obviously II denoting the product of the four expressions which the above includes owing to the two double signs .
+It is evidently of the fourth degree in ; let the roots be .
+As there are three arbitrary constants there will be one relation between these four roots , and this can be exhibited in the form If we choose and one of the two , and , to be unity and the other zero reduces to and we may therefore take zero as the lower limits of all our integrals .
+Let then are the roots of those of .
+We have and therefore by our formula ( iv ) in which the 2 on the right-hand side implies summation for the expressions obtained by the substitutions and Let ; then the right-hand side vanishes and we have where Thus the preceding determinantal relation will give , which is in terms of the elliptic functions of ( ii .
+) Let ; then we have ABEL'S THEOREM AND ABELIAN FUNCTIONS .
+Expanding the logarithms on the right-hand side the term gives . .
+after a slight reduction and writing Hence the whole coefficient as derived from all the terms in the expansion is . .
+and this is the value of .
+Writing respectively for , clnu , the yalues of and aoe by the equations or writing we have S and then As a verification of our formula assume so that since the equation has three equal roots , the values of and for our case will obviously be giveby ; for if we write for in the first , the ooefficient of must vaDish , which condition gives the second equation ; and similarly for the third .
+These last two equations give ABEL'S THEOREM AND ABELIAN .
+343 and substituting in the first we find From these we have at once ( dropping subscripts ) Hence nd we therefore have to verify that Now the addition formula for is so that and hence .
+But or writing for the denominator Moreover sn2 so that * vcrifying the formula as In a similar way if we write that we shall obtain the values of being those which occur in the general case in .
+Let so as to introduce the third elliptic integral in the form used by JACOBI ; then and the form of the theorem is now obviously as follows:\mdash ; where stand respectively for 12 .
+Example II .
+Take and as in example I. , but now let in effect the most general quadric relation .
+The eliminant X will be of the degree 8 , and as there are seven arbitrary constants there will be only a single relation between the roots , . .
+, , which can be express .in the form 1 ABEL'S THEOREM AND ABELIAN FUNCTIONS .
+345 Moreover , if we choose the equation is of the form and we can therefore take zero for the lower limit in all our integrals .
+Hence we shall have where and the above relation will give in terms of the elliptic functions of , . .
+, Let us now find ; write ; ; ; then the right-hand side of the equation is On expansion , the term gives So far as the result is concerned , the expression within the inner bracket is . . .
+Now Say ; say ; say .
+Thus the term gives . . .
+denoting .
+Hence summing up all the terms and reducing we have the whole coefficient equal to and the values of are determined by the seven equations ; and therefore the above is the value of ABEL'S THEOREM AND ABELIAN FUNCTIONS .
+expressed in telms of the functions of the The evaluation of the corresponding expression for the sum of the third elliptic integrals presents no difficulty .
+SECTION A bel ian functions , after WEIERSTRASS .
+13 .
+The theory of these functions is detailed in a paper by WEIERSTRASS in CRELLE'S Journal , .
+lii .
+, but such formulae as may be necessary in what follows will be proved .
+Let . . .
+( 1 ) and . . . . . . . .
+( 2 ) where is of the degree in of ; say ( 3 ) .
+Then the equation for the roots being is of the degree .
+and involves arbitrary constants ; thus there must be relations among the roots .
+Let these roots be denoted by , . .
+, , . .
+, ; , . .
+, ; so that we may consider the 's as given in terms of the 's and 's by the relations which might be exhibited in a determinantal form .
+Write and let ( 4 ) in which has in succession the values 1 , 2 , . .
+, as also in ( 5 ) and in ( 6 ) .
+Now the constants in and can be so chosen that the roots of the equation shall be , . .
+, each occurring thrice ; for the conditions are that any one , say , shall satisfy the three equations where are functions of .
+In order that may satisfy the first of these when ; that it may satisfy the second the additional condition is that and therefore will contain as a factor .
+Moreover , contains as a factor and therefore in we shall have raised to the third power ; and therefore if we expand in ascending powers of the first term is of the order Hence has as its first term and so vanishes when .
+But this is the additional condition that should satisfy the third equation , and being satisfied it proves that may occur as a triple root provided when .
+That is to say , two conditions are necessary for each root , or in all ; but as there are disposable constants these can all be satisfied and so the truth of the proposition is established .
+But as is only of the degree in , while it has to vanish for values , it must be identically zero ; and we choose , so that the equation is which is obvious beforehand .
+14 .
+Applying now the general theorem from S6 we constant ABEL'S THEOREM AND ABKLIAN FUNCTIONS .
+since is an integral function of , and when is expanded in descending powers of the highest index of is - .
+We have shown that , . . .
+, may be regarded as triple roots of the equation for the roots , and thus we may take as the constant Hence or . . .
+( 7 ) .
+Now , by WEIERSTRASS'S theory , given values of , .
+, imply unique values of , . .
+, which are , in fact , the roots of an equation of the degree whose coefficients are single-valued functions of , , .
+Every symmetrical function of , . .
+, can therefore be expressed as a function , .
+, but in particular being integers is the perfect square of such a function .
+Write . . . .
+( 8 ) .
+( 9 ) then WEIPRSTRASS defines .
+( 10 ) for all values of .
+included in 1 , 2 , . .
+, .
+It is easy to verify that , . .
+, are the roots of . . . . . . . .
+( 11 ) for there are obviously roots , and in order that may be one of these we must have By a known theorem of ABEL'S we have or 1 , according as or , the summation being extended over the roota ; and therefore if Thus the left-hand side of ( A ) all the terms disappearing except the first and so verifying ( A ) and proving that , . .
+, are the roots of ( 11 ) .
+15 .
+Taking now our set of integrals we have ( 12 ) .
+Multiply these respectively by , and add ; then , in virtue of equation ( 11 ) , so that if we write .
+( 13 ) we have ( 14 ) .
+is obviously a symmetric function of the , and is therefore a function of the ABEL'S THEOREM AND ABELIAN FUNCTIONS .
+16 .
+Again solving the equations ( 12 ) regarded as giving for different values of , we have* ( 15 ) .
+Therefore by ( 11 ) and ( 16 ) where may be any of the integers 1 , 2 , . .
+, Writing . . .
+( 17 ) so that ( 16 ) becomes ( 16 ) WEIERSTRASS defines ( 18 ) where must be different from each other , but otherwise may be any of the integers *Cf .
+Scorr 's ' Determinants , ' , SS 11 , 12 .
+1 , 2 , .
+, .
+Evidently , and there are therefore these , together wunctions aions oThey aourse , ndependent ; ystem o them may be found in the fifth section of the first chapter of the memoir already quoted .
+) Further and ( 19 ) in which may have any value 1 , 2 , .
+, , , , , 1 , 2 , .
+, but may not be equal .
+If , this serves as a verification of ( 14 ) .
+Again , since , . .
+, are the roots of ( 11 ) , In this write ; then ( 20 ) which expresses functions each in terms of the functions , . .
+, By ( 20 ) and ( 14 ) we have : ( 21 ) .
+[ 17 .
+A simpler form can be given to this equation by the introduction of a series of new variables provisionally given by THEOREM AND ABELIAN FUNCTIONS .
+These new 's are not fully determined : as the remaining equation necessary to determine them assume When substitution is made in for , .
+, will be a function of , . .
+, ; and we shall have and from the equation giving the new 's Then by the principle of indeterminate multipliers for all the values of .
+Multiply these equations by , . .
+res } ) tively and add ; then Let the part of which is of the order in the be denoted by ; then when expressed in terms of the 's it stiU remains the term of order , so that and summing up for the terms of ] orders and therefore from the above equivalent to one of the two equations or The latter , taken with the equation implies that there is a homogeneous relation between the quantities ; this we may reject .
+The former leaves arbitrary or non-existent , and so there would be only equations to determine quantities , .
+a difficulty , however , obviable at a.ny time by assigning some new equation to make up the requisite number ; but simplifies the resulting equations in which it occurs , and therefore this is selected .
+Let us assume as our new equation .
+where is a quantity which may have a definite value assigned to it at any time , if .
+desired .
+Thus we have and therefore ( 14 ) similar in form to ( 14 ) .
+18 .
+Let us obtain the new 's explicitly ffom the above equations .
+Writing we have* . .
+Now make infinite , so that the assumed equation takes the and *Cf .
+Scorr 's ' Determinants , ' l.c. ABEL'S THEOREM AND AB LIAN FUNCTIONS .
+355 that As a verification of these values we may deduce ( 14 ) from ( 14 ) as follows:\mdash ; Now the quantities Su , @v are independent ; hence we must have Taking the second of these , we have and therefore by the theorem already quoted in the verification of equation ( 11 ) .
+For the first summation we have The first term inside the bracket is the expansion in partial fractions of and is therefore zero since ; the second is by definition so that the equation with which we began leads to that is , to equation ( 14 ) .
+] 19 .
+Now let so that V stands to the 's and to the 's in exactly the same relation as to the Applying now the theorem in S6 we have The term in this series gives higher powers of so that nothing is contributed except by the first term , and we have . . . .
+( 22 ) .
+The quantities , . .
+, , . .
+, are determined by the equation ABEL'S THEOREM AND ABELIAN FUNOTIONS .
+which is satisfied by the values of , viz. : , . .
+, , . .
+, and therefore , . . .
+, , . . .
+, , . . .
+, , . . .
+, , . .
+, , . .
+, , . . .
+, , . . .
+, , . . .
+, , .
+, 20 .
+As an example of ( 22 ) and ( 23 ) consider the elliptic functions , i.e. , the case in which ; then ( dropping suffixes ) , or that is ; and Let ; then Let denote elliptic functions of , , i.e. , Then ' and therefore and so With the ordinary notation for the second elliptic integral we have and since this gives that is agreeing with the case when of ( 22 ) .
+21 .
+The evaluation of .
+in terms of the- functions can be obtained in the general case as follows .
+Since , % .
+, , . .
+, , . .
+, are the roots of we have .
+In this write , where : then that is and therefore .
+Hence ABEL'STHEOREM AND ABELiAN CTIONS .
+But , . .
+are the roots of and therefore as before and so and therefore On the expansion of each side in terms of the 's and as is done below , it is at once seen that the lower sign is the correct one ; and therefore This may be called the addition theorem for the integral-function ; by putting and referring to the example worked out in the last section , it is at once seen to be the addition theorem for elliptic integrals of the second order .
+22 .
+In the expansion of the two sides in terms of 's and 's the first term is sufficient to indicate the correct sign in the above ; but it is not uninteresting to see the agreement for terms of a higher order , and the expansion is carried on as far as the order seven in the magnitudes Proceeding therefore to form the expansion of in terms of the , write , with ( 24 ) so that and Let ( 25 ) so that ; then .
+ROFESSOR A. R. FORSyTH ON Substituting we have .
+and therefore say , . . . . .
+( 26 ) correct to the fifth order .
+Moreover \mdash ; or ( 27 ) correct to the seventh order .
+Further and which with the help of ( 26 ) gives where 2 ' denotes that may receive all values between 1 and except .
+Thus ( 28 ) correct to the fifth order ; and as is of the order this expansion will be sufficient for the expansion of in ( 27 ) accurately to the seventh order .
+The equation holds for , 2 , . .
+, ABEL'S THEOREM AND ABELIAN FUNCTIONS .
+Inverting it in order to obtain in terms of 's we find that to the fifth order ( 29 ) where implies summation for all values of from 1 to except , and for all values of from 1 to .
+Substituting this in ( 27 ) we obtain ( 30 ) correct to the seventh order .
+In the last term inside the bracket and may take the same value ; the double summation is in fact Again ( the term involving not occurring in the brackets ) where implies summation for all values 1 , 2 , . .
+, of and except , and and not have the same values .
+Extracting the square root we find ( 31 ) .
+Let refer to , to , so that to the first order PROFESSOR A. R. FORSYTH ON and regard and as being of the same order as .
+Then accurately to the venth order ( 32 ) where the summation in the last terln in is exactly as in the last term in ( 30 ) .
+To express this in terms of and we must substitute the value of in terms of 's as given by ( 29 ) and for and respectively corresponding values of and .
+Let these values be inserted , both sides multiplied by and the summation taken for the values to and compare this expression , which is ( B ) , with the value of Firstly , they agree in the third order of quantities ; for since Secondly , consider in each the terms of the order five .
+That in which has for its coefficient is hile in ( B ) it is these are obviously equal .
+The term in which ' or ' : ABEL'S THEOREM AND ABELIAN FUNCTIONS .
+for coefficient is while in it is Adding the latter up in columns , it is for first .
+for second for third and therefore , to the order five , ( B ) and are equal .
+Thirdly , consider in the order seven the term in which has for coefficient ; it is while in the term of order seven which is free from all the a 's and is multiplied by is and again these terms are I have verified the exact agreement of the two expressions for one or two others ( but not for all , owing to the labour involved ) of the terms of the seventh ; and this exact agreement leads us to infer the truth of the equation a direct proof of which has already been obtained .
+23 .
+Combining ( 22 ) and ( 33 ) we have .
+Therefore But by ( 7 ) so that substituting for the Sw 's and remembering that the 's and independent we have ( 34 ) By the first of these and therefore by ( 7 ) Similarly ( :35 , from which we see that satisfies the senes of differential equations '1 of which there are in all .
+ABEL'S THEOREM AND ABELIAN FUNCTIONS . .
+Returning now to ( 34 ) and using ( 1.4 ) we have * ( 37 ) and from these by subtraction and noticing that we have .
+Now if be different from but this no longer holds when are the same since is not a function .
+We proceed as follows to obtain differentiate both sides of ( 20 ) respect to so that where implies that the value is not to be included in the summation .
+The equation quoted above ( holding for all values of from 1 to ) when substituted in the last gives , on division by , and ( 38 ) may now be written in the form ( 39 ) PROFESSOR A. R. FORSrTH ON This equation fiolds for the values 1 , 2 , . . .
+, of and these ] the functions for values 1 , . .
+, of terms of functions of and Moreover , is any one of the numbers ] , 2 , . .
+, so that these eqnations can have a large variety of forms .
+We may thus consider the functions as known ; the functions are given in terms of them and therefore ultimately in terms of functions of and by the equation Treating ( 36 ) in the same manner as ( 38 ) it will yield equations involving the double-suffix functions of ; this system , together with the relations between them ( to which reference has already been made ) , will furnish the complete solution of the addition theorem for these functions .
+Abelian fnnctions of order 2 .
+25 .
+Consider the particular case of the preceding for which .
+We now have .
+Write .
+( 1 ) .
+Also respectively ( 2 ) .
+Then , ( 3 ) for , 2 , 3 , 4 , 5 ; and ( 4 ) ABEL'S THEOREM AND ABELIAN CTIONS .
+367 the suffixes being added to the a 's and b 's under the radical sign so as to have 1 , 2 , 3 , 4 , 5 for the complete system under any one root-sign .
+Then and therefore . . .
+( 5 ) .
+Again and therefore in which , , ; may be any of the numbers 1 , 2 , 3 , 4 , 5 .
+26 .
+Writing , equation of the last example gives two equations which determine , .
+Assuming these known we have Th equation applied to this case is ' and when it is A particular case of ( 5 ) is These three equations will suffice to determine ; after which the other functions may be successively obtained from the equations ( 6 ) . . . .
+( 5 ) . . . . . . . . .
+( 6 ) .
+( 5 ) . . . .
+( 5 ) . . .
+( 5 ) the figure at the end of each line denoting from which of the equations ( 5 ) and ( 6 ) the particular line has been derived .
+This case has been added and all the necessary equations have been written down as ajustification of statement made at the end of S24 .
+

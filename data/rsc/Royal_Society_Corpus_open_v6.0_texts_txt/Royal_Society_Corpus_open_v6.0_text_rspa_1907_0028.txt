@@ -1,0 +1,164 @@
+]\gt ; On the Theory of for any Number of treated by New System of Notation .
+By G. UDNY YULE , Newmarch Lecturer on Statistics , University College , London .
+Communicated by Professor O. Henrici , F.RS .
+Received January 26 , \mdash ; Read February 28 , 1907 .
+) 1 .
+The systems of notation hitherto used by writers on the theory of correlation are somewhat unsatisfactory when many variables are involved .
+In the present paper a new notation is proposed which is simple , definite , and quite general , thus very greatly facilitating the treatment of the subject .
+The majority of the results given in the sequel were , in fact , first suggested by the notation ] 2 .
+Let denote deviations in the values of the variables from their respective arithmetic means .
+Then the regression equation may be written:\mdash ; .
+( 1 ) In this notation the suffix of each regression coefficient completely defines it .
+The-first subscript gives the dependent variable , the second the variable of which the iven regression is the coeflicient , and the subscripts after the period show the independent variables which enter into the equation .
+It is convenient to distinguish the subscripts before and after the period as " " primary\ldquo ; and " " secondary\ldquo ; subscripts respectively .
+The order in which the secondary subscripts are arranged is indifferent , but the order of the two primary subscripts is material ; e.g. , and denote two quite distinct coefficients .
+A coefficient with secondary subscripts may be termed a regression of the order , the total } ressions b , etc. , being thus regarded as of order zero .
+3 .
+The correlation-coefficients may be distinguished by subscripts in precisely same ma1mer .
+Thus the correlation is defined by the relation .
+( 2 ) In the case of the correlations , the order of both primary and secondary subscripts is .
+A correlation with secondary subscripts may be termed a correlation of order , the total correlations , etc. , being regarded as of order zero .
+4 .
+If the ressions in equation ( 1 ) be determined as usual by the nlethod Theory of Correlation for Number of , etc. 183 of least squares , the difference between and the expression on the , for any observed set of values of , may be denoted by : that is .
+( 3 ) Such a residual , or deviation , denoted by a symbol with secondary subscripts may be termed a deviation of the order , oarded as deyiations of order zero .
+5 .
+Finally , the standal.d deviation is defined as boiven the relation N. , ( 4 ) being the number of observations .
+If the standard deviation be denoted by a symbol with secondary subscripts , it is of the pffi order , the total ; tandard deviations being regarded as of order zero .
+6 .
+In terms of this notation , the normal equations from which the ressions determined may be very bl'iefly written , in the form .
+( 5 ) That is to say , we have the general theorem : " " The product-sum of any leviation of order zero with any deyiation of higher order is zero , provided -he subscript of the former occur amongst the secondary subscripts of the atter 7 .
+It follows that the product-sum of any two deviations of the same order , Nith the same secondary suffixes , is unaltered by omitting any or all of the secondary subscripts of either and , conversely , the product-sum of any leviation of order with a deviation of order , the being the ; am in each case , is unaltered by adding to secondary subscripts of the former any or all of the additional subscripts of the latter , for we have by S6:\mdash ; .
+Similarly , and so on .
+Therefore , quite enerally , .
+( G ) 8 .
+It follows from S7 as a corollary from S6 that the product-sum ) any two deviations is zero if all the ipts of the one 1 contained the secondary scripts of the other .
+These theorems ( SS6\mdash ; 8 ) ) the key to sirnple deductious of eslllts in the theory of correlation .
+3 , 184 Mr. G. U. yule .
+Theory of for [ Jan. 25 , 9 .
+We have from the last section and S7 , ( -terms in to ) That is .
+( 7 ) But this is the value that would have been obtained by taking a regression equation of the form and determining by the method of least squares .
+That is to say , may be regarded , quite generally and without any reference to the form of the frequency distribution , as the regression of on .
+It follows at once from the definition ( 3 ) that may be regarded as the correlation between and , and from ( 4 ) that we may write \mdash ; .
+All the relations , in fact , that hold good between deviation-sums , standard deviations , regressions and correlations of order zero , are also valid between deviation-sums , standard deviations , ressions and correlations of any high order .
+10 .
+This result is of some importance as regards the interpretation of partial correlations ) regressions .
+In the case of normal correlation there is no difficulty in assigning a meaning to these constants , as the regression is strictly linear , and the partial correlations and ressions are the same for all types of the variables .
+But in the general case this is not so , and although I showed , in a previous discussion of the question , *that the values assigned the partial regressions on the assumption of normal correlation are the\ldquo ; least square\ldquo ; values and , consequently , that the partial correlation retains am " " average significance I could not prove that it remains an actual correlation between determinate variables .
+The above theorem completes the work in this respect .
+If , with three variables , and , for example , the two regressions and be determined in the ordinary way , and then the residuals be calculated for all sets of observations , etc. , the correlation between and is similar interpretation holds for any greater number of variables .
+* ' Roy .
+Soc. Proc vol. 60 ( 1897 ) , p. 477 ; 'Roy .
+Stat. Soc. Journ vol. 60 ( 1897 ) , .
+812 .
+1907 .
+] by System of Notation .
+Such a relation would not , of course , afford a practical method of calculating the partial coefficients , as the arithmetic would be extremely 11 .
+Any standard deviation of order may be expressed in terms of a standard deviation of order and a correlation of order .
+For we have , using the theorems of SS6 and 7 , ( terms in to ) ; or , dividing through by the number of observations , .
+( 9 ) The form of this relation is the same as that of the familiar relation between a standard deviation of the first order and a standard deviation of order zero , with the secondary subscripts added throughout .
+It is clear from ( 9 ) that cannot be numerically greater than unity .
+It also follows at once that if we have been estimating from will not increase the accuracy of estimate unless ( not ) differ from zero .
+* 12 .
+In equation ( 9 ) the subscript is eliminated from the suffix of and it is obvious that any other subscript can be eliminated in the same way .
+Therefore we must have .
+( 10 ) Further , we have , and so on ; so that .
+( 11 ) This is an extremely convenient expression for arithmetical use , as illustrated later .
+A complete check on the arithmetic is obtained by eliminating the secondary subscripts in a different , say the inverse , order , by using the result\mdash ; .
+( 12 ) *Cf .
+proofs for cases of 3 and 4 variables previously given ( .
+cit. in previous note ) .
+186 Mr. G. U. yule .
+Theory of Correlation for [ Jan. 13 .
+Any regression of order may be )ressed in terms of regressions of order .
+For we have ( terms in to ) .
+1 That is , replacing by Therefore , by equation ( 9 ) , But this is simply the expression for in terms of , and , with the subscripts added throughout .
+Iherefore may be regarded as the partial ression of on being given .
+As any other secondary subscript have been eliminated in lieu of , we can also it as the partial regression of , on being yiven , and so on .
+14 .
+Equation ( 13 ) may be written in terms of the correlations:\mdash ; Hence , writing down the similar expression for , and taking the square root of the product , This is , similarly , the expression for in terms of , and , with the secondary subscripts added throughout , and accordingly may be regarded as the partial correlation between and being given , and so on , as for the regression . .
+It is clear that equations ( 13 ) and ( 14 ) imply a series of relations between correlations or sions of orders less than with variables , for all the expressions obtained by eliminating in turn from the secondary subscripts of the constant on the left must be equal to each other .
+Further , every coefficient of the order can be expressed in terms of the coefficients of the order in different ways , by eliminating each of the secondary subscripts in turn .
+Thio enables an absolute check to be kept on the arithmetic by calculating each coefficient in at least two distinct ways .
+16 .
+By the use of equation ( 14 ) , the work of correlation coefficients of orders is rendered quite simple and straightforward .
+The use of equation ( 13 ) for calculating the regressions is comparatively 1907 .
+] by a New System of clumsy , however : when the correlations have been foumd , it is best to work out the standard deviations by equation ( 11 ) , and then the ressions are given at once by ( 8 ) .
+The following data , taken from a discussion of pauperism , *will serve as an arithmetical illustration , the variables being the percentage during a decade in the poor-law unions of in : ( 1 ) the percentage of the population in receipt of poor-law relief ; ( 2 ) the ratio of the numbers iven relief out-doors to one indoors ( in the workhouse ) ; ( 3 ) the proportion of ( over 60 ) in the population ; ( 4 ) the population itself .
+The values of the correlations of order zero are given in TablgI , and the of , required in the calculations , are entered in the third column .
+These coefficients are next grouped in sets of three , one set to each possible group of three variables , as in the second of Table II , and the coefficients of the first order are then calculated from ( 14 ) .
+For convenience in the coefficients of the second order , the values of a again entered in the last column .
+Table I. IT .
+) .
+'Roy .
+Stat. Soc. Journ vol. 62 ( 1899 ) , p. 249 .
+Mr. G. U. Yule .
+Theory of Correlation for [ Jan. 25 , Table III .
+The first order coefficients , from Table II , are then rouped according to the same primary subscripts as in Table I , and the work repeated precisely as before , as in Table III , but each coefficient of the second order is automatically calculated by this process in two ways and the work thus checked .
+Small errors introduced by the non-retention of insignificant figures may , of course , prevent complete agreement to the last place of decimals , and for this reason the coefficients of the first order were evaluated to four figures , although only three were required for the final result .
+In order to obtain the regression equation between changes in pauperism and changes in the three variables , we require the three regressions , and and , , must obtain the six standard deviations , These are readily calculated and checked by means of the equations of the form\mdash ; given ; and the values found Hence , from the equations of the form we have 1907 .
+] Variables , treated by a New System of Notation .
+That is , the ression equation between changes in pauperism and changes in the other factors considered is To complete the work , we may calculate , the standard error made in estimating from , and by the above equation .
+The value is 17 .
+If , in accordance with the notation used for elementary cases in the paper already referred to , and that in a recent note by Mr. R. H. Hooker and myself , write , ( 15 ) may be regarded .
+as a coefficient of correlation between and the expression .
+( 16 ) The value of is accordingly a useful datum , as indicating how closely can be expressed in terms of a linear function of .
+It may be readily calculated either direct from the equation or from the value of and , if previously obtained .
+It is obvious from ( 17 ) that , since every bracket on the right is not greater than unity , Hence cannot be numerically less than .
+For the same reason , rewriting ( 17 ) in every possible form , cannot be numerically less than , any one of the possible constituent coefficients of order zero .
+Further , for similar reasons , cannot be numerically less than any possible constituent coefficient of any higher order .
+That is to say , is not less than the greatest of all the possible constituent coefficients of all orders , and is usually , though not always , markedly reater .
+Thus in the illustration of S16 , the value of is , and the greatest correlation coefficient is .
+The sign of is necessarily positive , for a positive increment in obviously corresponds on the average to a positive increment in .
+More definitely , the standard deviation of is , and the regression of on is therefore -qeeing that , and that is a minimum , we may , alternatively , regard the values of the regressions as determined by the 'Roy .
+Stat. Soc. Journal , ' vol. 59 ( 1906 ) , p. 197 .
+VOL. LXXIX.\mdash ; A. Mr. G. U. Yule .
+Theory of Correlation for [ Jan. 25 , condition that the correlation between and , viz. , , shall be a maximum .
+18 .
+It is obvious that equations ( 13 ) and ( 14 ) imply relations of an inverse kind , expressing coefficients of a lower order in terms of those of a higher order .
+Using the same method of expansion as in previous cases , we have .
+That is But by interchanging the suffixes , viz. , 1 for and for 1 , Substituting this value of in the first equation and simplifying , .
+( 18 ) This is the required equation for the regressions .
+The similar equation for the correlations is obtained at once by writing down the corresponding expression for and taking the square root ( 19 ) 19 .
+The general principle that any equation subsisting between such statistical constants as correlations , regressions , and standard deviations holds good for all secondary subscripts , applies also to the equation ( 3 ) , which expresses the individual deviation of order in terms of deviations of order zero .
+That is to say , we have , quite generally , being any subscript or collection of subscripts , .
+( 20 ) For , if be any one of the subscripts included under , and if denote the remaining subscripts , on expanding both sides of the equation in terms of deviations of order zero , the coefficients of are the same .
+The coefficients of are equal if But , replacing the regressions by product sums , this reduces to 1907 .
+] riables , treated by a New System of Notation .
+which is true by S8 , whether denote a single subscript or an aggregate , or is absent , and equation ( 20 ) is accordingly correct .
+Remembering that the equation may also be written in the useful form\mdash ; .
+( 21 ) 20 .
+In all the preceding sections no assumption of any kind has been made with respect to the form of the distribution of frequency , but the results may , of course , be applied to the special case of the normal distribution .
+Let denote the value of the normal function for the combination of deviations , % and the value of the function when all deviations are zero , then we may write , ( 22 ) the form of the function being determined by the fact that the distribution of every array must be normal , and that the mean of the array of any one variable associated with given types of the others must be the linear function of those types given by the eneral regression equation of the form ( 1 ) .
+We must have , accordingly .
+( 23 ) But this expression may be thrown into several different forms .
+Thus , replacing the correlated variables , , by the independent variables , , we have the very useful form .
+( 24 ) This expression may be shown to be identical with ( 23 ) by expanding in terms of deviations of order zero , and educing the coefficients of the square terms by means of the equation and those of the product terms by an equation derived at once from ( 19 ) , Mr. G. U. Yule .
+Theory of for [ Jan. 25 , 21 .
+Several important results follow at once from the form of the expression for the exponent .
+Since the variables are independent , the central value of the normal function , , must be given by the product of the well-known expressions for the single variables , i.e. , we must have 22 .
+Again , if we integrate the normal function in the form ( 24 ) with respect to , treating the remaining variables , , etc. , as constants of integration , is eliminated from and from , and all the remaining variables in the exponent contain the secondary suffix 1 .
+If are then replaced by may be written in the form ( 23 ) for these variables .
+Similarly , if we integrate again with respect to is removed from and from and all the remaining variables in the exponent contain both secondary suffixes 1 and 2 .
+If are then replaced by may be written in the form ( 23 ) for these variables .
+Clearly the process may be continued on the same lines .
+The correlation between all sets of deviations , of any one order , with the same secondary suffixes , is therefore normal correlation .
+23 .
+It follows that we may generalise at once the known formulae for the probable errors of the constants of a normal distribution .
+omitting the factor have , standard error of a Standard deviation Correlation coefficient Regression coefficient The first is a well-known result ; the last two are cited from the valuable memoir by Professor Karl Pearson and Mr. L. N. G. Filon .
+* But since is the standard deviation of the normally distributed variable the correlation between the normally distributed variables and , and the regression of on must have , quite generally , denoting as before either a single subscript or an aggregate , standard error of a Standard deviation Correlation coefficient Regression coefficient . . .
+( 26 ) The last .
+result may be readily verified against the formula arrived at by Professor Pearson and Mr. Filon , for the case of three variables , after pages of the most laborious work .
+The first may be checked for the case of two ' Phil. Trans ( 1898 ) , vol. 191 , p. 229 . .
+cit. , equation xxxviii , p. 260 .
+1907 .
+] , treated by New System of Notation .
+variables , remembering the result of the same writers , *that the correlation between errors in and in is ; for we have ; Or , squaring both sides of the equation and summing , using to denote the standard error of 23 .
+The question of errors of sampling in the case of the coefficient of -fold correlation , , is not so simple , owing to the fact that the of the coefficient is essentially positive and , consequently , it is subject to biased error .
+If , for instance , a series of variables are strictly independent , but values are found for , etc. , equal to then If the 's are sufficiently small to enable us to neglect terms of the fourth order as compared with those of the second order , then we may write to the first approximation , Or , summing for a number of samplings and substituting for in each case , the root-mean-square value of when the variables are strictly independent is , ( 27 ) being the number of es and the number of observations .
+cannot be held with certainty to be of definite significance if not markedly greater than this , and if the number of observations be small compared with the number of variables , the critical value is rather unpleasantly large .
+Thus in the case of a recent investigation by Mr. R. H. Hooker into the relation between the weather and the crops , , consequently ( the value cited by him on my authority ) .
+Clearly , if the number of observations be small , it is not worth while dealing with a large number of variables . .
+cit. , equation xviii , p. 242 .
+'Roy .
+Stat. Soc. Journ vol. 70 ( 1907 ) , p. 7 .
+

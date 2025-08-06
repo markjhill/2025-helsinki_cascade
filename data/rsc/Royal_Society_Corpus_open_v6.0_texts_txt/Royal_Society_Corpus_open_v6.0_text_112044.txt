@@ -1,0 +1,332 @@
+" On the degree of uncertainty which Local Attraction , if not allowed for , occasions in the Map of a Couintry , and in the Mean Figure of the Earth as deterimiined by Geodesy ; a Method of obtaining the Mean Figure free from ambiguity by a comparison of the Anglo-Gallic , IRussian , and Indian Arcs ; and Speculations on the Constitutioni of the Earth 's Crust .
+" By the Venerable J. H. PRATT , Archdeacon of Calcutta .
+Communicated by Prof. G. G. STOKES , Sec. R.S. Received October 5 , 1863* .
+1 .
+In former communications to the Royal Society I have shown that Local Attraction , owing to the amount it in soine places attains , is a more troublesome element to deal with in geodetical operations than had generally been supposed .
+The Mountains and the Oceanwere shown to combine to make the deviation of the plumb-line as much as 22 " 71 , 17"`23 , 21"`05 , 34"1G16 ( or quantities not differing materially from them ) in the fouir principal stations of the Great Arc of India between Cape Comorin and the Himmalayas-viz .
+at Punnce ( 8§ 9 ' 31 " ) , Damargida ( 18§ 3 ' 15 ' ) , Kalianpur ( 24§ 7 ' 11 " ) , Kaliana ( 29§ 30 ' 48 " ) ; and how much these might be increased or lessened by the effect of variations of density in the crust below t was difficult to say .
+Deviations amouinting to at least such quantities as 7"`61 and 7 " 87 were shown to exist in the stations of the Indian Are , arising from this last cause ( see Phil. Trans. 1861 , p. 593 ( 4 ) and ( 5 ) ) .
+M. Otto Struve has lately called attention to similarly important deflections caused by local attraction in Russia-and especially to a remarkable difference of deflection at two stations near Moscow , only about eighteen miles apart , amounting to as much as 18 " , which is attributed to an invisilble unknown cause in the strata below ( see Monthly Notices of the Royal Astronomical Society , April 1862 ) .
+2 .
+It is therefore an important inquiry , What degree of uncertainty does Local Attraction , if not allowed for , introduce into the two problems of geodesy , viz. ( 1 ) obtaining correct Maps of a country , and ( 2 ) determining the Mean Figure of the Earth .
+I have pointed out the effect on mapping in India , as far as determining the latitudes is concerned , in a -former paper .
+I propose now to consider the subject generally with reference to .
+any country , and taking , into account the longitudes as well as the latitudes .
+The effect upon the determination of the mean figure of the earth I discuss at greater length .
+Bv a change , I venture to call it a correction , of Bessel 's method of applying the principle of least squares to the problem , I obtain formulae for the semiaxes and ellipticity of the Mean Figure involving expressions for the unknown local deflections of the plumb-line at the standardor reference-stations of the several arcs made use of in the calculation .
+These formulm at once show the great degree of uncertainty which an ignorance of the amount of local attraction must introduce inlto the determi* Read 'November 26 , 1863 .
+See Abstract , vol. xiii .
+p. 18 .
+nation of the meani figure .
+After this I obtain formule for the mean figures of the Anglo-Gallic , Russian , and Indian Arcs by the same method , each involving the expression for the unknown local deflection of the plumbline at the reference-station of the arc concernaed .
+I then show that values of these three unknown deflections can be found which will make the three ellipses which represent the three great arcs almost precisely the same .
+These deflections are not extravagant quantities , but quite the contrary , being small .
+I infer , then , that the mean of these three ellipses is in fact the Mean Figure of the Earth , and in this way surmount what was the apparently'insuperable difficulty which our ignorance of the amount of local attraction threw in the way of the solution of the problem .
+The paper concludes with some speculations on the constitution of the earth 's crust flowing from the foregoing calculations .
+§ 1 .
+Effect of Local Attraction on Miapping a Country .
+3 .
+In determining differenices of latitude and longitude between places by means of the measured lengths which geodesy furnishes , the method of geodesists is to substitute these lengths and the observed middle latitudes in the known trigonometrical formulo , using the axes of the MEAN FIGURE of the earth .
+It might at first sight appear likely that this would lead to incorrect results , as the actual length measured may lie along a curve dif .
+ferent to that of the mean form .
+I propose now to show that no sensible error is introduced by following this course , either in latitude or longitude , if the arc does not exceed twelve degrees and a half of latitude , or fifteen degrees of longitude in extent .
+4 .
+First .
+An arc of Latitude.-Suppose an ellipse drawn in the plane of the meridian through the two stations , a and 6 being its semiaxes ; c the chord joining the stations ; s the length of the arc ; r and 0 , r ' and 0 ' polar coordinates to the extremities of the arc from the centre of the ellipse ; I and 1 ' their observed latitudes ; X the amplitude of the arc ; m its middle latitude : then we have the following formulae , neglecting the square of the ellipticity ( e ) , 8= 2 ( a+b)\-2 ( a-6 ) sinXcos2m , r=a(l-e sin2 1 ) , r'=a(l-c sin2 1 ' ) , tan 0=(I -2e ) tan 1 , tan O ' = ( 12e ) tan 1 ' .
+Now c2=2 ?
++r'2-2rr ' cos ( 0-0 ' ) =2rr '{ cos ( 0-0 ' ) }+ ( r-r')2 =2rr'{ l-cos ( 0-0 ' ) } .
+By expanding the formule for tan 0 and tan 0 ' , we have 0=l -e sin 21 , 0'=lt-E sin 21',..0-0'= l-l'-e ( sin 21sin 21')=l-l ' -2e sin ( I-Il')cos ( 1 ?
+1 ' ) =X-2e sin X cos 2m ; 1-cos ( 0-0')=l1-cosX-2e sin2 X cos 2m =2 sin2X { 1-2e(l + cos X ) cos 2m } .
+Also rr'=a2{1 e(sin2l+ sin'el ) } ) a2 { 1(2cos 21cos 2 ?
+' ) } =a2{ I e(I -cos X cos 2m ) c2=4a2 sin I{1-e{l +(2+cos X ) cos2n } } ; .
+si2 =2a { + { l+(2+cosX)cos2rn } } ; sin 2=x 2a + -{1 + ( 2+ cos C ) cos 2mn C -sinj1 2 +2{1+(2+cosX)cos2m } tau2 .
+Hence by the first formula , s8=a ( 1-2))-3 ae sin X cos 2m =a(2-e ) sin1c + ac{ l+ ( 2 + cos X ) cos 2m } tan X -_ ae sinXcos2m 2a 22= ( a+6b ) sinl-12 + ( a-b ) { l§ 2(l1cos\ ) cos 2rn } tan 2 .
+Taking the variation of s with respect to a and 6 , considering c as constant , and A and m also constant , occurring as they do only in small terms , we shall have the differenice in length of two arcs joining the stations and belonging to different ellipses , only having their axes parallel .
+Hence c a ?
+6 c~at as =(aa+ ab ) sin-l 2e_1 rb^ 2a a V4a2_C2 + ( ab6 ) + 2(-cos X ) cos2 } tan .
+Since the terms are small , we may use the first approximate value for c and b ; &amp; =(M+ab)X_2tan72a ( aa-){ 1+ 2(1-cosX ) cos2m } ta =(aa+c06 ) ( 2-tan X+ ( a-A)-tan X ( 1-cos X ) cos 2m =(a + 36)P+ ( aa-cOb ) Q cos 2ni , where P_ -X-tan -X , and Q=tan I -(1-cos X ) 2222 =(P+Qcos 2m)3a ?
+( P-Qcos 2m)b6 .
+I will find the values of 3a and ab which will satisfy this equation and make Wa'+ W6 ' a minimum .
+2+aS(P ?
+Qcos 2m)3\* mnmm ea 2+ ?
+~P--Qcos 2m )= a/ minimum { ( P-Q cos 2m)2+(P+Q cos 2m)2 } &amp; z= ( P ?
+Q cos 2rn)as ; .Ba P+ Qcos2m Zs nb P-Qcos2m as P2 + Q2 cos22m 2 ' P2 + Q2 Cos2 2m 2 aa 2 ?
+b2P2+ Q2 COS2 2m 2 This is least when m= 0 and 90 ?
+; then 2a= P2P+Q 2P as , ab= Q2 .
+Let one of the two ellipses be equal to the mean ellipse of the earth 's figure , a and 6 being the semiaxes , and Ba and Mb the excess ( or defect , if negative ) of the semiaxes of the other ellipse .
+The first ellipse is not necessarily the mean ellipse itself , but is only equal to it in dimensions , and parallel to it in position ; for the actual are may lie above or below the mean ellipse .
+The result of this is , that the arc of the mean ellipse which corresponds with s of the actual arc will not necessarily have precisely the same middle latitude , although the chord c is of the same length .
+But as the middle latitude will differ only by a quantity of ibhe order of the ellipticity , this difference will not appear in the result , because we neglect the square of the ellipticity .
+I will now make the extravagant supposition that the ellipse to which the are actually belongs deviates from the form of the meani ellipse so much that aa 6b_ 13 miles , the whole compression of the earth 's figure .
+On this supposition I will find how large the arc may be so as not to produce a difference in length greater than 1"t .
+Put 3a --'613 , Us=l"=0 0193 mile ( 1 ?
+being o69*5 miles ) , * ( P2+Q2 ) case , the differences of latitudes calculated from the measured arcs of meridian with the mean axes , as is done in the Survey operations , will come out free from any effects which local attraction can produce , as that attraction can never be capable of causing so great a distortion in the measured arcs as I have supposed for the sake of calculation .
+The absolute latitude , however , of the station which fixes the arc on the map will be unknown to the extent of the deviation of the plumb-line caused by local attraction at that place .
+5 .
+Second .
+An Arc of Longitude.-Let S be the length of the arc , I the latitude , L the longitudinal amplitude or the difference of the longituides of its extremities , c the chord .
+Theni S=Lcosl{a+(a-6 ) sin2I } , c=2 cos l{a + ( a-6 ) sin2 1 } sin I L. When a and 6 vary , c and I remain constant , but S and L vary .
+Hence 3S = ZL cos I { a + ( a-6 ) sin2 1 } +L cos I { Ba+ ( 8a-Ob ) sin2 1 } 0= { a+ ( a-6 ) sin2 1 } cos ItL+ 2{1a + ( ~a ) sin2 1 } sinL .
+By eliminating 1L from these , S= ( L-2 tan2 L ) cosI{aa+(3a-_6)sian2 } ; ( L-2 tan 2 L ) cosI ' pp I will , as before , find the values of Ma and U6 which satisfy this equation , and make Ba2 + 362 a minimum .
+sin ' I aa2+ { ( l + sin2 I)Oa-n}2= a minimum ; .{sin4 l+ ( 1 + sin2 1)2}1a=n(l + sin2 1 ) ; Oa : sin +i 2 ) 6= sin 21.n sin ' I+ ( I + lsin_ , 2 1)2g )a sin4 I+ ( 1 + sin2 1)2 Oa_ a+ 36 n__ sin4 1+ ( 1 + sin2 1)2 cos2l{sin'l+ ( I + sin2l)2}{L-2tan 'L}2 This is least when COS2 1 { sin4 1+ ( 1 + sin2 1)2 } is greatest , or when l=0 then Ba=n , 3b=0 , Ba-a6=n= L~-2 tan IL ' Now put a -06=13 miles , 3S= arc 1"l of a great circle =0 0193 mile ; L-2tan L=0 0193 .
+13=0*0015 .
+This shows that L must be small : expanding , we have L3= 0-018 , L=0-262 ( in arc ) =0 262 x 570 3 ( in degrees)= 150 .
+We can reasoni from this , as before , that the differelnces of longitudes will be accurately found by using the measured arcs of longitude and the mean axes , if the arcs are not longer than 150 .
+Now arcs of this length , and of the length determined in paragraph 4 for latitudes , are never used in survey operations : the great arcs are always divided into much smaller portions .
+EIence the maps constructed from geodetic operations will always be relatively correct in themselves ; but the precise position of the map on the terrestrial spheroid will be unknown by the amount of the unknown deflection of the plumb-line in latitude and longitude at the place which fixes the map .
+In India the effect of the Hirmnalaya Mountains and the Ocean , taken alone , would throw out the map by nearly half a mile .
+The calculations , however , which I give in the next two sections of this paper , show that the effect of variations in the density of the crust below almost entirely counteracts that of the mountains and ocean at Damargida in latitude 18§ 3 ' 15 " , and the displacement of the map is almost insensible if fixed by that station .
+If fixed by the observed latitude of any other station , the map will be out of its place by the local deflection of the plumb-line at that station .
+This , in the Indialn Great Arc , does not exceed one-thirteenth of a mile at any of the stations where the latitude has been observed .
+It appears also from those calculations , that , except in places evidently situated in most disadvantageous positions , the local attraction is rarely of any considerable amount .
+§ 2 .
+Effect of Local Attraction on the Determination of the Mean Figure of the Earth .
+6 .
+The mean radius of the earth is nearly 20890000 feet , the ellipticity is nearly 3-0 , and it is found colnvenient to put the semiaxes of the earth 's figure under the form +1= I(1-i 0 20890000=20890000-2089 it feet , a-I , uv +a6 ?
+-20890000= .
++417800 v ; 2 600 10000 50 !
+600 24u and v are quantities to be determined , and the squares and product of these may be neglected .
+Also , ellipticity = a-_ =1 ( 1 f The arcs which are actually measured in geodesy do not necessarily belong to precisely the same ellipse : in fact those arcs may not precisely belong to any ellipse .
+Suppose one of these measured arcs is laid along the ellipse of which the axes are given above , and that , small corrections x and xv being added to the observed latitudes of its extremities , the arc with its corrected latitudes exactly fits this ellipse .
+Then x'-x may be expressed in the form rn ?
+cu+3v , where m , a , and 3 are functions of the measured length , the observed latitudes , and numerical quantities .
+Let this be done for all the arcs which have been measured and their subdivisions .
+I shall take the eight arcs used in the chapter on the Figure of the Earth in the Volume of the British Ordnance Survey ; viz. the Anglo-Gallic , Russian , Indian II .
+( or Great Arc ) , Indian I. , Prussian , Peruvian , Hanoverian , and Danish Arcs .
+Suppose ml+c01u+ p3v+ *x 1 , m ' , 1+ '1u ?
+J3+'v+ X , are the corrections of the latitudes of the extremities of the subdivisions of the Anglo-Gallic Arc , x , being the correction for the standard or reference station in this Arc. Similarly , let m2+ca2u+i2v+ r2V 'n'2+ '2 ?
+t+I3'2V+X2 , * m3 + 3U+/ 3v+x3 , m 3+ a'3u+ P3'3V+X3 , , dent variables , but are functions of u and v , and of the deflections produced by local attraction .
+In the preceding diagram the plane of the paper is the plane of the meridian in which the arc , of which AB is one sectioni , has been geodetically measured .
+A is the reference-station of the several portions of the whole arc .
+AZ is the vertical at A in which the plumbline hangs .
+The two curves , of which A'B ' and ab are portions , are a variable ellipse and the mean ellipse having the same centre 0 and their axes in the same lines , the mean ellipse being what the variable ellipse becomes when the values are substituted for u and v which make the sum of the squares of the errors a minimum : Z'A A'N ' and zAaN are normals through A to these two ellipses ; A D , A 'm ' , am are perpendicular to OD .
+Now , if the earth had its mean form , a plumb-line at A would hang in the normnal zA to the mean ellipse ; but it hangs actually in ZA .
+Hence ZAz is the deflection ( northward in the diagram ) which the plumb-line suffers from the local attraction arising from the derangement of the figure and mass of the earth from the mean .
+This angle is some constant but unknown quantity t , t being reckoned positive when the deflection is northward .
+This qualntity t is part of the correction ZAZ ' , or x , added to the observed latitude of A before applying the principle of least squares .
+The other part is zAZ ' , which I will niow calculate : it is the angle between the two nlormals drawn through A to the variable and the mean ellipses .
+By the property of an ellipse of which the ellipticity is small , ON=2e .
+m , and ON'=2e ' .
+Om ' .
+Also as Om , Om ' , OD differ only by quantities of the order of the ellipticities , they may be put equal to each other in small terms , because we neglect the square of the ellipticities .
+- .
+LzAZ'= KNAN'= LAN'DLAND cot AND-cot AN'D ( ND-N'D)AD 1-cot AND'cot AND -tan( +ND .
+N'D ( ON'-ON)AD t 2(e-e)OD .
+AD -tan- ' AD2+DO2 =tanAD2+DO2 =tan-l(e'-e ) sin 21 1 " ( e'-e ) Sin 21 sin i , , I being the observed latitude of A. Suppose that v and V are the values of v for the variable and the mean ellipses .
+Then by the third of the formule ( 1 ) , LzA Z'= sin 21 zZ=1000 sinl 1 " ( w ) 13 " , 75 sin 21(v-V)-=( w ) suppose. .
+( 2 ) .
+Hence x= t--+n(V-V ) .
+Therefore the sum of the squares of errors , which is to be differentiated with respect to u and v to obtain a minimum , is ( n1(V-V ) + ti)2+ ( ml + a1U +[31v + n#(v-V ) + t1)2 + ( r'1+ct'u+13'1v+n1(v-V ) +t1)2+ .
+( n2(V-V ) + t2)2 + ( m2 + 2U + 2V + V2(V-V ) + t2)2 + ( Mr'2+ a'2u+ P'2v+ n2(v-V ) + t2 )2+ + ... . .
+a minimum .
+Let U and V be the values of u and v which belong to the mean ellipse .
+These values , then , must be put for u and v in the two equations produced by differentiating the above with respect to u and v , We have al(mr + a1U +j31V+ tl ) +a '(m ' , + az'1U+ 3'1V+ tl ) + ... + a2(Mrn+ ca2U + / 32V + t2 ) + X'2(M'2 + a'2U + '2V + t2 ) + * .
++ ... . .
+v. .
+=0 ; and n1t1 + ( p31 + n1)(Ml + alU + 13V + tl ) + ( i31+ n ) ( m'1 + a'U +O'lv+ tl ) + ... n2t2 + ( P2 + n2 ) ( m2 + 12U + 32V + t2 ) + ( 0 2+ n , ) ( m'2 + a'2U + j'2V+ t2 ) + ... +. .
+= 0 .
+Let ( m ) be a symbol representing the sum of all the m 's appertaining to the divisions of the same Arc ; and let M(m ) represent the sum of all these sums for all the Arcs ; and similarly for other quantities besides m. Then the above equations become I(ma ) +X(a2 ) U+M(a43 ) V+Mt(a ) =0 and + , n(mP ) +I ( aO ) } V+jt(1 )}o , + In ( m ) + 2n(a ) J i2n ( B ) +2n Itn Ii being the number of stations on the representative Arc. The numerical quantities involved in the first two lines of these equations have been already calculated in the article on the Figure of the Earth in the British Ordnance Survey Volume , from which I borrow the results in Table II .
+on the following page .
+The quantities involving n are calculated in Table I. , and the results inserted in Table II .
+with the others .
+( X ) cc.-i 17-. .
+1 : .
+Cl ccJ-00 0 .
+-ccC .
+-.occco co C9 C.0 00 -.14 mm o'cc o. 11 00:7.c c 17 .
+-q 'Cc coi . !
+:v cc -m ... .1 1~ CO C --q 0cc cc cc I t~~~~~~~~ ~~~~ C1 cc 0 O~~~~~~~~~~~~~~~~~~c -'.0a 00 0m0 Cc cq 0 cc cc iom Iq i ~~~~I10 C-I -~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~ .
+v I &gt; C-IN I hr~~~~~~~~~~~~~~~~~~~~~~~~t -l qc l , C ItCM mC " -I C~ m --'c-qc J cc C~~~~~~~~~~~ '~~~~ oo cc '~ ~~ ~~~~~~~~o o 01-.m lii ~~~~jCC-CC cc ~~~~~~~~~~~~~~~~~~~~~~~~~~~~0~~cq o. !
+vC.-k0MX 0I C"IA"I cq C C1.c +In " -I .
+" o-I l~ oo CD A1P CO-. .
+qC.0 '--0C.-4C-I 10-I C-.14 rI cca Cc q on 1 C ?
+117-.JC ) XE to_ ?
++ ?
+++++I 0--4 ccoioCoC cr ~ " lqI cc ii o ' .
+~~~~ cc '~~s c- ' km cc t0 ' Zj I. cI00-.0 C-Il 4 oc o'CI'c ?
++ ?
++++++ + N. C. .
+Ckm mMc f)..~ ' AI~C0~ ?
+-.17- .
+cc ~ I~ A 00f)coCco C &gt; .o'~ccc_Ci_joo a.c 0 +.0 17.00 1- .
+cc cc C ? .
+0cco -cC'-c 0 1 ?
+)C ' C4 CI 1. .
+1 -..~qr- , z4 toC'.7.c C0 cc -.1400Cicc C01 ' C ' .
+C ' 'l cCI C-I.r c. .
+C. .
+C 'I___ &gt; ~C tt~-i ccC0 Ot 1114 ~q P-4 o 11'I ?
+§ 1 km 00o cc 00 C-i I-OtoC &gt; --oIci cC c-il.o Ica Ccc co r cc mIrClAlAIAiIq r nz I 0o N " too I : .
+I7~ C ' Ci o C ) I " 01f)-iO , ~~~ C-I.0 c-i c-i t~~~~~~~~~~~~~~~~~~~~~~~~~~Ln o 17-..c , c)c , c -~~~ I 017-OCCC-IC-1~~~~~-4 0 cc-cll CCC'.C " 00.q-C 4~'0 O cc ~ 114-C'.ci4cC-IOC-i P X , 4 9t n ot t~o ) -4a Ir:4 mqCb ( = ) " ' m : " 0 '7 0 q~ c ( ?
+a C-I.0 IF tn -oo~~~~O Cl ( = &gt; &lt; :~~~ ) '4000~ 1 ) mmCN 0 .
+00 000 Il -ci m0 __ m ccZELO + &gt; mminCo i 11:4 11:4 cl~ m " ). .
+I.~~~~ -C~~ ~~ ; O~~"fr~~02 U ) C4 km cli cli .
+0 , Lo mI CO XI. .
+0-5 r04 C Oa CD " 17--04 40 CO. 04 40 CO C-I 'I-4 04 0-1 04~ t0 &gt; to in1 '-4 mc0 to -q 0vGo0D le 104 40 -km0-qPI 04 *4 : CO0 CO 004 '-4 04 *,4 '40~ 04 004 '-4 CO CO X17 0= 04 04 1. .
+cq N km .
+0-40C k r44 4 CO~m CO~t C1 CO CO *4 *4 05CO Cn CO*C &gt; 0404I.4=,00 0 040C &gt; M P-i0C *4 010-00000to.0 CO 0 40~~~~~~ 0 1- .
+04 10 1'-4 04 Ic c~ i CS CO*4CO0~~~~~~-SCO0C.0 01-.'-4 c CO. O 055 toE4 040*4O05 V04 " !
+V.C &gt; 04 to 04 ~~s &amp; 5AJ~~~~~~AIAA~~~~~.4 CO 0-50CO0440*4~~~~~~~~~k C~ o CO !
+: 04I * -4 c41 0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~c 4 1 ?
+-ti CO CO. '1 '0 I0 km C km - . !
+v o 004044 00 to_________ C ) 04 17-- .
+CO CO 17- .
+~~~~~~~~~~~~~~COCO ~~~~ 40 04 CO 171740 CO 0 CO , 0-cO17 07-.km 04COc 0CO-4t 4004-4OC *4 W4 004 CO 040 40 CO 00 C 1- .
+C- .
+COtt-.-- , ; -4.4 m ?
+--It= t9 r.4 1704 40 17- .
+CO 0 -1 4.04 CO 0-I CO 04~~~~~ &lt; 016 0 &amp; 4- .
+CO o4 W ) 04-4 O'-0-,4 cE=4 0-1 COO'to7-- .
+0405C O.~~~~~~~~~~~~~00-IC O +CO~~~~~~~~~~~~~~0 0-5 *4 COO t.-0o4040'-4Lo -.*4 4-k .
+'IO COt--.40 COCO 40 COC 7.M 4 r4CO4 -CI4 1CO00 ; 4 0- , ~I &amp; 4 17.4 04COO'44 'I O0 C4O .
+in " 8 .
+I will now apply the formule just obtained to determine the Mean Figure of the Earth from the data afforded by the eight arcs .
+For convenience I shall use the well-known symbol ( 2696 1987 ) to mean the number of which 2-6961987 is the logarithm ; and so of other numbers .
+By substitution from the Table , the formulae give ( 2-6961987 ) + ( 217323262)U-(2 0404588)V+ ( 1 4873505)tI +(1*7363431)t2-(0 1996455)t3+(1F7556462)t4+(1P8579353)t5 ?
+( 0o0501090)t6+ ( 1 8610562)t7+ ( 1 7413092)t8=0 , : ( 3-2469417)+(3 0309997)U-(2 5186555)V+(2-6515733)t1 + ( 2 2115282)t4+ ( 17938874)t3+ ( 1-0599608)t4+ ( 1 5898592)1t +(0r6093596)t , +(144249273)t7 ?
+( P4176941)t8=0 .
+Multiplying by the coefficients of V crosswise , and subtracting so as to eliminate V , we have ( 5-2148542 ) + ( 5i2509817)U+ ( 4i0060060)tl+ ( 4 2549986)t2 ( 217183010 ) ?
+t -(5'2874005)(5-0714585)U-(4 6920321)tl-(4-2519870)t4 ( 3 834362)t3 +(2 2743017)t4+ ( 2-2765908)t5 + ( 2 5687645)t6 ?
++(2-3797117)4t ; + ( 2 2599647)t8 -(3 1004196)t4-(3 6303180)t , -(2-6498184)t6-(3 4653861)t7 -(3A4581529)t8=0 .
+Putting numbers in the place of logarithms , 164004+178230U+ 10139t+ ?
+17989t2523t,3 -193821-117885U49208t4-17864t2-68294t3 29817+ 60345U39069t , + 125t2-7352t3 + 188t4+ 238t5+370t , ,+ 240t7 + 182t , -1260t4-4269t5-446t6-2920t7-287248 -1072t4-4031ta76t43-2680t7-2690t8=0 .
+Putting logarithms in the place of numbers , -(4 4744639 ) + ( 4-7806413)U-(4 5918323)tl+ ( 2 0969100)t4 -(3-8664055)t3-(3-0301948)t4(36054128)t4-(1P8808136)tr -(3A428 1348)t7(34297523)t8=0 .
+, Transposing and dividing by the coefficient of U , U= ( 1P6938226 ) + ( 1P8111910)tl-(3 3162687)t ?
++ ( 1P0857642)t3 + ( 2'2495535)t4+ ( 2-8247715)4t ?
++(3l1001723)4t ?
++('26474 !
+933)t7 + ( 2'6491 1 O)t .
+Now 2089=(3-3199384 ) , 2089U=(3 0137610 ) + ( 3131 1294)t , -(06362071 )t2 +(2-4057026)t3 +(1P5694919)t4+(2-1447099)t5+(0-4201107)t6 + ( 1967431 9)t7+ ( 19690494)t8 = 1032-2+ 1352 4t -4-3t2+254-5t +37-1t4+ 139 5tr , +2 6t + 92 8t7+ 93I1t8 .
+Transposing the term in V in the first equation of this paragraph and dividing by its coefficient , we have V=(0O6557399)+(06918674)U+(14468917)tl+ ?
+( I 6958843)t2 -.(21591867)t3+ ( 37151874)t4 + ( 38174765)t5 + ( 2 0096502)t6 + ( 38205974)t7+(317008504)t8 =(0655 7399 ) + ( 14468917)tl+ ( 1I6958843)t2(21591867)t3+(317151874)t4 +(038a6900)+ ( 05030584)tl1(20081361)t2 ?
+( 17776316)t3+ ( 29414209)t4 + ( 3 &amp; 8174765)t5 + ( 20096502)t6 + ( 3 8205974)t7 ?
++ ( 317008504)t8 + ( -5166389)t5 + ( 37920397)t6 +(1-3393609)t7+(1P3409784)t8 .
+Now 417800=(5-6209684 ) , 417800V =(6 2767083 ) + ( 5.0678601)tl +(533168527)t2 ( 3.7801551)t3 + ( 33361558)t4 +(6 0066584 ) + ( 6.1240268)tl(3.6291045)t2 ?
+( 53986000)t3 +(4'5623893)tI + ( 34384449)t5 + ( 3.6306186)t , ?
+( 3*4415658)t7 +(33218188)t8 + ( 5-1376073)t5 + ( 3.4130081)t ?
+( 4'9602293)t7 +(49619468)t8 =1891073+ 116912t1+207421t26028t3+ 2168t4 +1015450+1330537t14257t2 +250380t3+36508t4 +2906523 + 1447449t , + 203164t2+244352t3 +38676t4 + 2744t5 +4272to+ 2764t7+ 2098t8 § 137280t5 +2588t6+91249t7+ 91611t8 + 142024t5 + 6860t6+ 94013t7+ 93709t8 Substituting the values of 2089 U and 417800 V above deduced in the formulm ( 1 ) of paragraph 6 , we have a+ b= 20888968 1352A4t , + 4-3t2 254-5ts-37 I t4139-5tr 2-6t , 2 92-8t7-93 It8 , a-b 1 fa ?
+6 2600 { a+ +417800 V= 600 { 23795491 + 1446097t , +203168t2+244098t3+38639t4 + 139884t5 + 6857t6 + 93920t7+ 93616t8 } =39659 + 2410,2t , + 3386t2+406 8t , + 644t4+2331+1114 + 156 5t7+ 156 0t8 ; a=-20928627+1057 8t1+342 9t,2+152 3t3+27 3t4+93 6t , +8 8t6 +63 &amp; 7t7+62 9t8 , 6=20849309-3762 6t1-334-3t , -661l3t3-1015t1`4-372 6ts -140t6 -249 3t7-2491t8 .
+From these we may easily deduce the ellipticity e 2639 { .
+) 1+ 00608t1+0 0085t2+0 0103t + 00016t4+ 00059t5 +00003t6+0 0039t7+ 0001639t8 } .
+These formulae for the semiaxes and ellipticity of the mean figure of the earth show us that the effect of local attraction upon the final numerical results may be very considerable : for example , a deflection of the plumbline of only 5 " at the standard station ( St. Agnes ) of the Anglo-Gallic are would introduce a correction of about one mile to the length of the semimajor axis , and more than three miles to the semi-minor axis , If the deflection at the standard stationi ( Damargida ) of the Indian Great Arc be what the mountains and ocean make it ( withouit allowing any compensating effect from variations in density in the crust below , which no doubt exist , but which are altogether unknown ) , viz. about 17"-24 , the semiaxes will be subject to a correction , arising from this cause alone , of half a mile and two miles .
+This is sufficient to show how great a degree of uncertainty local attraction , if not allowed for , introduces into the determination of the mean figure .
+As long as we have no means of ascertaining the amount of local attraction at the several standard-stations of the arcs employed in the calculation , this uncertainty regarding the mean figure , as determined by geodesy , must remain .
+§ 3 .
+Comparison of the Anglo-Gallic , Russian , and Indian Jrcs , with a view to deduce the MIean Figure of the Earth .
+9 .
+The first three of the eight arcs which have been used in the calculation , viz. the Anglo-Gallic , Russian , and Indian , are of considerable length ; and as the a priori probability appears to be that the earth nowhere departs much from its mean form , it seems not unlikely that by the following device we may overcome the difficulty pointed out in the last paragraph .
+I will deduce expressions for the semiaxes of the mean figure of each of these three arcs by the method there given .
+If reasonable values can be assigned to the expressions for the deflection of the plumb-lilne from the normals to these three ellipses such as will make the axes the same , we shall have a very strong argument in favour of those being the actual deflections in nature , and of the figure thus deduced , as common to the three arcs , being in fact the mean figure of the earth .
+10 .
+In the previous calculation t has represented the angle which the plumb-line makes , in the plane of the meridian , with the normal to the mean ellipse of the earth .
+I shall now use T as the angle which the plumbline makes , in the plane of the meridian , with the normal to the mean ellipse of the particular arc under consideration .
+I shall begin with the Anglo-Gallic arc .
+Proceeding precisely as in paragraph 8 , we have ( 2 0752575 ) + ( 2 1905197)U ( 1 5506429)V1+ ( 1 4873505)T1=0 , ( 2 9341091)+ ( 2 5805290)U -(2'1951856)V1+(2 6515733)T1=O , ( 4 2704431 ) + ( 4 3857053)U1 + ( 3 6825361)T1 -(4 4847520)-(4 1311719)U1-(4 2022162)T1=O , 18640+24306U1+ 4814T , -30532-13526 U -15930T1 -11892+10780 U1-11116T1=0 , or -(4 0752549)+(4 0326188)U1-(4'0459485)T1=O ; . .
+U1=(0 0426361)+(0 0133297)T1 , 2089=(3 3199384 ) , 2089U =(3 3625745 ) + ( 3 3332681)T , =2304.5 + 2154 1 Ti .
+By the first of the equations in V1 , we have Vl=(0'5246146)+(0 6398768)U1+(V*9367076)TI =(0 5246146)+(1P9367076)T1 +(0 6825129)+(0 6532065)TI , 417800=(5h6209684 ) ) ; . .
+417800YV=(6 &amp; 1455830)+(6 3034813)+ { ( 5 5576760))+(62741749)}TI = 1398244 + 2011320+ { 361 140 + 1880074}T , =3409564+2241214 T ; By the first of the equations in V2 , we have V2= ( 0 5372260)+(0 4759649)U2+(1f6865743)T2 =(0 5372260)-(0 8021776 ) { ( U6865743)-(0-3571054)}T , 417800=(5-6209684 ) ; * ) 417800V =(6 1581944)-(6.4231460 ) ?
++{(53075427)-(5.9780738)}T2 = 1439443-2649391 + { 203022-950766}T2 =-1209948-747-744 T2 ; a2+b =20894427+1588'8T a2 2 2-60 I 119684479-7461-5 Ta =32807-1243 6 T , a -c 22 26 OP ~ a2=20927234+345-2T2 , b2=20861620+2832-4T2a 3189 ( 100379 T2 ) .
+12 .
+The following is the calculation for the Indian arc:-(I 1055647 ) +(1P6681529)U3 +(15646471)V3-(0 1996455)T , = 0 , ( 0 5798179)+ ( 1V377851)U3+(0 9140680)V3+(F7938874)T3=0 , -(2-0196327 ) + ( 2 5822209)U3-(h t 1137135)T3 -(2 1444650)-(2 9424322)U3-(3 3585345)T3=0 , -105+382U313'T3 -139-876 U3 -2283 T3 -244-494 U -2296 T3 =0 , or -(2 3873898)-(2 6937269)U3-(3 3609719)T3=0 ; a3 + b3 = 20891032 + 9,09 2 T3 , 2 a32 -6-O { 21298106 +2492183T3 } =35497+4 153 6 T3 ; a3=20926529+13862,8 T3 , b3=20855535+5555-6 T3 , e3 8 ( 1+0-1170T3 ) 294-8 13 .
+I have now , if possible , to find values of T , , T2 , T , which will make these three ellipses , which measure the Anglo-Gallic , the Russian , and the Indian arcs , the same ; that is , a1=a2=a3 , b , b=26 b 3 .
+These give the four following equations:157777T , -345-2T2+ 956= 0 , ) ( 3'1980244)T , -(2 5380708)T2+(2 9804579 ) =0 588599T , + 28324T2+14420= or ( 3 7698129)T1+(3 4521546)T2+(4-1589653 ) 0 , 1577 7 T , 13862 8T3+ 1661=OJ j ( 31980244)T1 -(4 1418509)T3+(3'2203696)0 , 58859 Tr+ 55556 T3-+ 8335 = 0 , ( 3 7698129)T1+(37447310)T3+(3*9209056 ) =0 , The most likely solutions of these four equations connecting the three quantities T1 , T , , T3 which we are seeking are found by the method of least squares .
+This leads to the three following equations:2(63960488 ) T1(5 7360952 ) T2(7 3398753 ) T3+(6 1784823 ) +(6 4183940 ) +2(7-5396258 ) I +(7 2219675 ) +(75145439 ) +(79287782)+(7 6907185)=0 .
+( 5-7360952 ) T , ( 5'0761416 ) T2+(5 5185287 ) +(7-2219675 ) i +(6 9043092 ) J +(7-6111199)-0 , ( 73398753 ) Tl(8 2837018 ) Ta+(7 3622205 ) +(7-5145439 ) J +(74894620)j + ( 76656366 ) = 0 , or 2X 2489 545 -21871 + 1508 + 2621 +2 x 34644 +16671 +32700 +84875 +49059 74266 T1 +16126 T2 +10829T3 +138063 -0 ( 48707900 ) ( 4 2075267 ) ( 4 0345884 ) ( 5-1400773 ) 545 119 + 330 21871 -192177 +23026 +16671 +8022 +40843 +32700 + 30865 ?
+46306 17216T1 +7903T2 +41173=0 , 54571T1 161312T3 +69332=0 ( 4-2359323 ) ( 3 8977920 ) ( 4-6146125 ) ( 4*7369619 ) ( 5 2076667 ) ( 4'8409337 ) ; T2 =(0 &amp; 3381403)T1-(017168205 ) , T3 = ( f5292952)T1+(1U6332670 ) ; 16126T2= ( 4-5456670)T1 ( 4-9243472 ) , 10829T8= ( 3-5638836)T1+(3-6678554 ) = 35129T1 84013 , =3663T1+4654 ; { 74266-35129+3663}T1+138063-84013+4654=0 , 42800TI+58704 = 0 , T1 = 1"'37 , T2=218T1-5-21 = +299-5-21 =-2"22 , T3=0338T1+0 430 = -0'463+0-430= -0 " 033 .
+When these are substituted in the semiaxes , they give a1=20928190-2161 = 20926029 , a2 =20927234766=20926468 , a3=20926529-457= 20926072 , b1 _20847200+8064 = 20855264 , b2 = 20861620-6288 = 20855332 , bs=20855535183=20855352 .
+These three results are remarkably near each other ; they differ from their average , 20926189 and 20855316 , in no case by so much as 300 feet , and in most cases by much less .
+I think , then , that we may safely infer that this average ellipse is in fact the mean figure of the earth .
+This being the case , T1 , T2 , T3 are the same as t , t2 , t3 ; and therefore the deflections of the plumb-line in the meridian at the standard stations of the AngloGallic , Russian , and Indian arcs are l1 " 37 , 2"1 22 , 0"1 033 , all in the southern directiol .
+14 .
+The values , then , which I would assign to the semiaxes and ellipticity of the Mean Figure of the Earth are as follows : a=20926180 , 6=20855316 feet , e3 If these are substituted in the formulm ( 1 ) of paragraph ( 6 ) , we have U=-0 3581 and V=0-8819 .
+§ 4 .
+Speculations regarding the constitution of the Earth 's Crust .
+15 .
+If the reasoning in the last section , which has led to so satisfactory a result , be correct , I think we may draw some useful inferences regarding the constitution of the earth 's crust .
+By substituting the values of U , V , tl , t2 , t3 in the formulm similar to m+ aU + 3V +t for the fifty-five stations of the eight arcs , which will be found at p. 766 of the Ordnance Survey Volume , every one of the results will be small .
+These results are the corrections of the latitudes of the stations in referring them to the mean ellipse ; that is , they are the deflections of the plumb-line in the meridian at those stations owing to local attraction , or the attraction arising from the departure of the actual figure of the earth from the mean figure .
+Fifteen of these formule I here select , adding one new one for Dehra about 56 miles to the north of Kaliana , the northern extremity of the Indian arc .
+They are as follows:* The numerical calculations in paragraphs 7 to 13 inclusive have been tested at the Government Trigonometrical Survey Office in Calcutta .
+From the Anglo-Gallic Arc. DeflecCalculated Deflections tin.attractions .
+to be actions , attractions .
+counted for .
+( 1 ) Barcelona ... +1X440-3X0644 U+0 0553 V-1-37= +2X22 ( 2 ) Dunkirk ... +0X767+0X4115 U-0 0765V-1X37=3 -0 84 ( 3 ) High Port Cliff .
++1-778+0-2532U-0 0450V-1P37= +1-28 +3 29 -2-01 ( 4 ) Week Down +1-747+002539 U-000452 V+ +025 +1'98 -1 73 ( 5 ) Boniface Down +1 967+0 2559 U-0 0455 V-1 37= +0 46 +2 42 -1-96 ( 6 ) Dunnose..-0499+002613 U-0 0466 V-137-2 00 -0 54 -1-46 ( 7 ) Blackdown +4 279+ 02859 U-0'0513 V1 237= ?
+276 ( 8 ) Burleigh Moor .
+-1 814+1 6845 U-0-4137 V1-37= -4 15 -4 55 +040 ( 9 ) Cowhythe..-6915+28048 U-0 8340 V-1-37= -9 31 -5 50 ?
+-3-81 ( 10 ) Beni Hutig ++0 095+3 1173U-0 9708V-137= -3 25 -2-01 -1 24 ( 1 1 ) Saxavord..+4403+3 9370 U13699 V1-37 = +0-41 From the Russian Are c. ( 12 ) Tornea ... ... ... +11 826+7 3799 U-2-5821 V-2-22= +469 ( 13 ) Fuglences ... ... + 10 008 + 9'1231 U-3-8418 V-2 22 = +1-13 From the Indian Arc. ( 14 ) Punnce ... ... .
++ 0-625-3 5622U-3-1853V-0 033= -0 94 +22-71 -23-65 ( 15 ) Kaliana ... ... .
++0 403+4 1251U+2 7756V-0 033= +1-34 +34-16 -32-82 ( 16 ) Dehra* ... ... .
++53 796+4 4215U-0 1010V-0 033= +52 09 I have inserted the formula of Cowhythe from p. 771 of the Ordnance Survey Volume .
+I have also added two columns , in one of which are given the deflections of the plumb-line arising from attraction at those of the stations for which it has been calculated .
+For those of the Anglo-Gallic Arc , I refer to the Ordnance Survey Volume , sect. xi .
+p. 625 ; and for those of the Indian Arc to my paper in the Philosophical Transactions for 1861 , p. 593 .
+I would observe that not only in the two stations of the Indian Arc , but in those I have selected from the Anglo-Gallic Arc ( all of which are near the sea-shore ) , allowance is made for deficiency of density and attraction of sea-water .
+In the stations ( 3 ) , ( 4 ) , ( 5 ) , ( 6 ) the effect of the sea for about 9 miles south of the coast is taken and estimated at +Off-27 ( see Ordnance Survey Volume , p. 631 ) ; in station ( 8 ) for 36 miles north , and estimated at -0 " ' 39 ( p. 642 ) ; in station ( 9 ) for 50 miles north , and estimated at -0 " 70 ( p. 664 ) ; in station ( 10 ) for 50 miles north , and estimated at -0 " 64 ( p. 662 ) .
+It is of importance to bear this in mind .
+For stations ( 14 ) and ( 15 ) the effect of the sea the whole way to the south pole is taken , and estimated at +1 9"71 and + 6 " 18 , the effect of the mountain mass on the north being +3"1 00 and 27"1 98 .
+16 .
+The first thing I observe in the results given in the last paragraph is the very small amount of the resultant deflections at the two extremities of the Indian Arc-Punnce close to Cape Comorin , and Kaliana the nearest station to the Himmalaya Mountains ; whereas the effect of the Ocean and the Mountains has been shown to be very large .
+This shows that the effect of variations of density in the crust must be very great , in order to bring about this near compensation .
+In fact the density of the crust beneath the mountains must be less than that below the plains , and still less than that below the ocean-bed .
+If solidification from the fluid state commenced at the surface , the amount of contraction in the solid parts beneath the mountain-region has been less thain in the parts beneath the sea .
+In fact , it is this uniequal contraction which appears to have caused the hollows in the external surface which have become the basins into which the waters have flowed to form the ocean .
+As the waters flowed into the hollows thus created , the pressure on the ocean-bed would be increased , and the crust , so long as it was sufficiently thin to be influenced by hydrostatic principles of floatation , would so acljust itself that the pressure on any couch de niveau of the fluid shceld remain the same .
+At the time that the crust first became sufficiently thick to resist fracture under the straini produced by a change in its density-that is , when it first ceased to depend for the elevation or depression of its several parts upon the principles of floatation , the total amount of matter in any vertical prism , drawn down into the fluid below to a given distance from the earth 's centre , had been the same through all the previous changes .
+After this , any further conitraction or any expansion in the solid crust would not alter the amount of matter in the vertical prism , except where there was an ocean ; in the case of greater contraction under an ocean than elsewhere , the ocean would become deeper and the amount of matter greater , and in case of a less contraction or of an expansion of the crust under an ocean , the ocean would become shallower , or the amount of matter in the vertical prism less than before .
+It is not likely that expansion and conitraction in the solid crust would affect the arrangement of matter in any other way .
+That changes of level do take place , by the rising and sinking of the surface , is a well-established fact , which rather favours these theoretical considerations .
+But they receive , I think , great support from the other fact , that the large effect of the ocean at Punnce and of the mountains at Kaliana almost entirely disappear from the resultant deflections brought out by the calculations .
+The formulae of paragraph 15 show that when we get close to the mountain-mass , as at Dehra , which is at the foot of the mountains where they first rise rapidly above the plains , the resultant deflection is very great ; the less density of the crust down below the sea-level drawn under the mountain-mass has here a very trifling inifluence .
+This is as it should be , if the depth of this less density is considerable ; whereas at Kaliana , and stations still further off , the attraction of the mountain-mass above the sea-level , and the deficiency of attraction from the crust below that level , would nearly counterbalance each other , Thus , if the thickness of the crust below the plains is 100 miles , and the amount of matter in the crust under the plains equals that of the crust and moulntains together in the mountain-region , then the deflectionis at Kaliana , Kalianpur , and DIamargida , instead of being 27 " 98 , 12`'05 , 6"'79 , arising from the mountains alone , are reduced to 1"54 , -0"'06 , -0"'06 ( see Philosophical Transactions for 1858 , p. 759 ) , which are all insignificant compared with the large deflections caused by the mountains alone .
+This theory , that the wide ocean has been collected on parts of the earth 's surface where hollows have been made by the contraction and therefore increased density of the crust below , is well illustrated by the existence of a whole hemisphere of water , of which New Zealand is the pole , in stable equilibrium .
+Were the crust beneath only of the same density as that beneath the surrounding continents , the water would be drawn off by attraction and not allowed to stand in the undisturbed position it now occupies .
+17 .
+I have , in what goes before , supposed that , in solidifying , the crust contracts and grows denser , as this appears to be most natural , though , after the solid mass is formed , it may either expand or contract , according as anaccession or diminution of heat may take place .
+If , however , in the process of solidifying , the mass becomes lighter , the same conclusion will follow the mountains being formed by a greater degree of expansion of the crust beneath them , and not by a less contraction , than in the other parts of the crust .
+It may seem at first difficult to conceive how a cri'st could be formed at all , if in the act of solidification it becomes heavier than the fluid on which it rests ; for the equilibrium of the heavy crust floating on a lighter fluid would be unstable , and the crust would sooner or later be broken through , and would sink down into the fluid , which wotuld overflow it .
+If , however , this process went on perpetually , the descending crust , which was originally formed by a loss of heat radiated from the suirface into space , would reduce the heat of the fluid into which it sank , and after a time a thicker crust would be formed than before , and the difficulty of its being broken through would become greater every time a new one was formed .
+Perhaps the tremendous dislocation of stratified rocks in huge masses with which a traveller in the mountains , especially in the interior of the Himmalaya region , is familiar , may have been brought about in this way .
+The catastrophes , too , which geology seems to teach have at certain epochs destroyed whole species of living creatures , may have been thus caused , at the same time breaking up the strata in which those species had for ages before been deposited as the strata were formed .
+These phenomena must now long have ceased to occur , at any rate on a very extensive scale , as Mr. Hopkins 's investigations on Precession appear to prove that the crust is very thick , at least 800 or 1000 miles ; and this result , I understand , has been recently confirmed by Professor W. Thomson in a paper " On the Rigidity of the Earth .
+" 18 .
+These theoretical considerations receive , I think , some confirmation from an examination of the calculated deflection of the plumb-line at stations near the sea-shore .
+It is for this reason that I have collected the thirteen examples from the Anglo-Gallic and Russian Arcs in paragraph 15 , all of which are near the coast .
+The evidence they furniish , however , is not to be compared in weight with that of the Indian Arc , already considered .
+In some instances the local attraction of the surrounding country and of the ocean for a certain distance has been calculated , as already stated .
+These results I will take into account , except the allowances for the ocean as noted at the end of paragraph 15 , which I deduct in the following arrangement of the stations .
+The Stations at which the Deflection is towards the Land .
+Deflection .
+It ( 1 ) Barcelona , lat. 41 23 , S.E. coast of Spain , ... ... ... . .
++222 ( 2 ) Dunkirk , , , 51 2 , N.N.W. France , ... ... ... ... -0 84 ( 7 ) Blackdown , , , 50 41 , S. , , Dorset , .
++276 ( 9 ) Cowhythe , , , 57 41 , N. , , Banff , -3 81 ?
++070_-311 ( 10 ) BeniHutig , , , 58 33 , N. , , Sutherland , -1 24+0 640 60 ( 12 ) Tornea , , , 65 50 , S. , , Lapland , 4 ... + 69 The Stations at which the Deflection is towards the Seat .
+Deflection .
+( 3 ) High Port Cliff , 503 6 , S. coast of Isle of Wight , -2 O 1-O 27= -2 28 ( 4 ) Week Down , 50 36 , , , -l173-0 27=-2-00 ( 5 ) BonifaceDown,50 36 , , , , -l196-0 27=-2-23 ( 6 ) Dunnose , 50 37 , , , , , -146-0 27=-1-73 ( 8 ) BurleighMoor , 54 34 , N. coast of Yorkshire , +0 40+0 39= +0 79 ( 11 ) Saxavord , 60 50 , N. , , Unst , ... ... ... ... +041 ( 13 ) Fuglences , 70 40 , N. , , Finmark , ... ... ..+1l13 The theory I have proposed , that contraction of the crust has formed the basins in which the sea has settled , can hardly be expected to apply so completely to such confined sheets of water as the Mediterranean south of Spain , and the Gulf of Bothnia .
+Here there may be an actual deficiency of attracting matter in the water , not altogether compensated for by increased density of the crust below .
+These hollows may have been formed during the breaking up of the crust and subsequent removal of portions by currents , and not chiefly by the contraction of the crust .
+Thus the deflections at the stations ( 1 ) and ( 12 ) towards the land may be sufficiently accounted for , even if the land about Barcelona and Tornea does not rise sufficiently high to produce them .
+The deflection at station ( 2 ) is small .
+It seems probable that even if the North Sea has been produced according to the theory of contraction of the crust , the parts near Dunkirk may have been somewhat hollowed out by the scouring of the tide through the Straits of Dover , so as to give the land , low as it is , every advantage in deflecting the plumb-line south .
+I have no means of knowing the character of the ground north of station ( 7 ) on the coast of Dorset .
+There is no difficulty , however , in accounting for the north deflection at that place , and even for a greater deflection , if the attraction of the country north of it is as much as the attraction of the land on Burleigh Moor on the north coast of Yorkshire .
+To this station I shall revert .
+With regard to stations ( 9 ) and ( 10 ) , I gather the following information from the Ordnanlce Survey Volume .
+" At present there are no sufficient data for calculating exactly the disturbance " at Cowhythe ( p. 662 ) .
+It is supposed not to exceed 6"t ( p. 664 ) ; but the calculatio'n is not made for any part of the mountains further south than 50 miles .
+The south deflection to be aecounted for , viz. 33 11 , may in part be thus explained ; or , even if , as before , the North Sea is supposed to have been formed by the contraction of the crust , the confined portion between the north coast of Aberdeen and the Orkney Islands may have been formed by the removal of the superficial strata by currents so as to produce a deficiency of attracting matter .
+So with respect to the other station , Ben Hutig , the unaccounted-for deflection , which is much smaller , viz. -0-60 , may be easily explained , as the effect of the land has not been calculated further off than about 3 miles ( pp. 660 , 661 ) .
+Thus , on the whole , the deflections at those coast-stations , where it is towards the land , can be pretty well accounted for , without calling in aid the deficiency of attraction of water and supposing that the crust below the ocean is not condensed .
+The seven coast-stations of the second list , where the deflection is towards the sea , seem to bear inidividual testimony to the truth of the theory , that the crust below the ocean must have undergone greater contraction than other parts of the crust .
+The four stations ( 3 ) , ( 4 ) , ( 5 ) , ( 6 ) on the south coast of the Isle of Wight all have deflections southwards ; and their magnitudes diminish in the order that the distances from the sea increase , -that order being ( 3 ) High Port Cliff , ( 5 ) Boniface Down , ( 4 ) Week Down , ( 6 ) Dunnose ( see the Contour Map of Isle of Wight in the volume of Plates accompanying the Ordnance Survey Volume ) .
+The amounts of the deflection seem almost to prove too much for the theory .
+Still they are all in the direction of the ocean , and seem certainly to indicate that there is a redundance of matter , and not a deficienicy , in that direction .
+Blackdowin ( 7 ) is somewhat further inland than Dunnose is .
+If , then , the ocean and crust together do really produce the outstanding deflection southward at Dunniose , we shall have to suppose that the north deflection at Blackdown in the first list of coast-stations , arising from the land , is not much less than 2 76 +1§ 73=4 49 , which is a little less than the calculated deflection at Burleigh Moor on the coast of Yorkshire , and is therefore not an unlikely amount .
+The other three coast- , stations , ( 8 ) , ( 11 ) , ( 13 ) , all bear out the theory : though the three deflections are all small , they are towards the sea , the largest of them being at Fuglences , which is very near to the North Cape , and has a large expanse of ocean above it .
+19 .
+The least that can be gathered from the deflections of these coaststationis is , that they present no obstacle to the theory so remarkably suggested by the facts brought to light in India , viz. that mountain-regions and oceans on a large scale have been produced by the contraction of the materials , as the surface of the earth has passed from a fluid state to a con .
+, ditioni of solidity the amount of contraction beneath the mountain-region having been less than that beneath the ordinary surface , and still less than that beneath the ocean-bed , by which process the hollows have been produced into which the ocean has flowed .
+In fact the testimony of these coaststations is in some degree directly in favour of the theory , as they seem to indicate , by excess of attraction towards the sea , that the contraction of the crust beneath the ocean has gone on increasing in some instances still further since the crust became too thick to be influenced by the principles of floatation , and that an additional flow of water into the increasing hollow has increased the amount of attraction upon stations on its shores .
+Murree , Punjab , August 20 , 1863 .
+

@@ -1,0 +1,263 @@
+]\gt ; [ 117 ] V. On the Conduction of Heat in Ellipsoids of C. NIVEN , M.A. , Professor of Mathematics in Queen 's College , Cork .
+Communicated by J. W. L. GLAISHER , F.R. Received May 7\mdash ; Read May 29 , 1879 .
+THE object of the present paper is to investigate the expressions which present themselves in the solution of the problem of the conduction of heat in an ellipsoid of revolution .
+For although the question of the stationary temperature of ellipsoids in general has been completely solved by means of the functions introduced by GREEN and LAME ' , the corresponding problem of conduction has not been so successfully dealt with .
+M. MATHIEU , indeed , in his 'Cours de Physique Mathematique,2 has shown how to reduce the solution to ordinaYy differential equations , and for the special case of an ellipsoid of revolution has shown how to approximate to solutions .
+His method , which is novel and remarkable , enables him to calculate a few terms of the expressions , but does not afford a view of their general constitution and properties .
+In the present paper the question is treated in a more direct and general manner .
+Choosing with M. MATHIEU , as coordinates of a point , the azimuth of the meridional section through it and the parameters and of the ellipsoid and hyperboloid confocal to the surface which intersect in the point , it is first shown how to transform the general equation of conduction to these coordinates .
+This equation is then satisfied by a series of terms of the form , in which is determined by an equation whose roots are infinite in number .
+The function is expanded in what Mr. TODHUNTER , translating HEINE'S term , calls associated functions of , and we shall also follow HEINE in denoting by the expression The language of harmonic analysis has been greatly benefited by Professor MAXWELL'S introduction of the words type and degree into the specification of a tesseral harmonic , though we prefer to replace the term type by order .
+We shall therefore call the product the tesseral harmonic of the order and degree , and the factor the associated function of the order and degree .
+The expansion of the function will then consist of a series of associated functions of the order .
+It is shown that the roots of the equation in fall into two classes , and that the corresponding expressions for take different forms .
+, for one of which the rence between the degree and order of the associated fUnctions involved is an even and for the other odd .
+The values of divide themselves in like manner into two classes .
+These values are expanded , in the first instance , in terms of the minor axis of the confocal e]lipsoid , and afterwards in terms of the major axis , the former series proceeding by functions which satisfy the differential equation Of the two solutions of this equation , which are both finite in form , one is finite when , while the othel becomes infinite .
+The expression plays for spheres the same part that BESSEL'S function plays for circular cylinders , and as HEINE has employed the term cylinder-function for the latter , it would seem consistent with analogy to use the term spherical-function for .
+When is expressed in terms of the major axis of the confocal ellipsoid two expansions are given , one in terms of spherical functions and the other in terms of associated functions , and it is shown that each of these series possesses special advantages in relation to particular points which arise in the problem of the conduction of heat .
+The properties of these functions are afterwards further considered .
+The above expansions being found , I have next discussed the system of equations which determine , following more or less closely the analysis which HEINE has given of a similar system , and it is proved that the values of are all real and definite in position , and that for these values the expansions of and converge rapidly when a sufficiently large number of terms is taken .
+I then show how to express , by successive approximation , the roots of the equation in in powers of a quantity which depends on the eccentricity , and entered with some fulness of detail into the numerical calculation of a few of the smaller roots and of the corresponding coefficients of the functions and , more especially in the case of the first of the two classes into which they fall .
+Besides these particular values , however , the general formulae are given , which will furnish them to a certain degree of approximation for all values of and for any value of With regard to the special problem of the conduction of heat , the boundary condition is supposed to be either that the surface is kept at a constant temperature , or that the body is cooling by radiation .
+The former is mathematically the simpler , and we might imagine it realised in the case of a body kept in the midst of an infinite fluid after a sufficient time has elapsed for the surface to take the temperature of the fluid .
+With this assumption the different values of might be found from the equation ; and the roots of are investigated up to .
+The general condition of radiation is next considered , and it is shown how it may be brought theoreticaly within the range of analysis .
+I have not , however , thought it necessary to do more in this direction than indicate how the successive approximations may be found .
+Although the calculations were undertaken in the first instance for the case of an OF HEAT LLlPSOIDS OF VOLUTION , ellipsoid whose major axis is that of revolution , it is proved that the expressions and results may be easily transfelred to the case of a planetary ellipsoid .
+And as the chief object of the paper is to examine the forms and properties of the functions which present themselves in the mathematical treatment of the subject , I have not thought it necessary to enter on the discussion of the movement of heat in a shell bounded by two confocal ellipsoids , or in an infinite solid from which an ellipsoidal cavity has been taken\mdash ; questions , however , which might be easily treated by introducing the functions as well as .
+The analysis would seem also to be applicable to other physical problems relating to ellipsoids of revolution .
+Perhaps I should explain that if I have entered somewhat minutely into points which are not new , I have done so for the purpose of rendering the argument clearer and more coherent .
+2 .
+When a solid body is heated in any manner and left to cool , the equations which have to be satisfied are , first , the general equation of conduction ( 1 ) wherein V is the temperature at any point , the " " thermal diffusivity\ldquo ; of the body ; the boundary condition , which we shall suppose to be one or other of the forms or ( 2 ) wherein being the direction cosines of the normal to the surface measured outwards , and is a constant .
+The first of these conditions corresponds to the case where the sul.face of the body is maintained everywhere at umform temperature , for we may suppose the zero of temperature so chosen as to coincide with the given temperature , whatever it may be .
+The second is the usual condition of radiation according to NEWTON'S law of cooling .
+We have also a third condition , that which gives the initial state of the body : , when . . . . .
+( 3 ) The general course of solution , whatever the solid may be , is to put . . . . .
+( 4 ) where is a function of , so chosen as to satisfy the equation ( 5 ) and the boundary condition ( 6 ) When the appropriate functions have been found , in general triply infinite in number , to satisfy ( 5 ) and ( 6 ) , the constants A may be determined from condition ( 3 ) .
+Now it is obvious from the nature of the case that any solution of the equations which satisfies ( 1 ) and ( 2 ) and reproduces ( 3 ) when , will be the solution sought , and the same conclusion can be readily demonstrated by analysis .
+With regard to equation ( 6 ) , it serves two purposes : first in enabling us to select the priate form of , and secondly in furnishing the values of , which determine the types of heat-movement which take place .
+POISSON has shown , in a very elegant way , that the values of are always real , and as his results are of importance as showing also how the constants are to be found , I shall here reproduce them .
+Let and be two functions of satisfying the equations ( 5 ) and ( 6 ) , and let stand for , then dxdydz being an element of the surface ; hence , if either form of ( 6 ) be true , .
+( 7 ) It follows from this equation that he equation in cannot have imaginary roots ; for , being always a function of , if , there will be another root , and the corresponding values of will be respectively and .
+Equation ( 7 ) now becomes which is dearly impossible .
+We may also employ ( 7 ) to find , for dxdydz ( 8 ) in which the integration is extended throughout the whole of the solid .
+OF HEAT IN ELLIPSOIDS OF REVOLUTION .
+3 .
+For the case of a solid sphere whose radius , these equations become , in polar coordinates , or , when , , where The general type of the solution is . . . .
+( 9 ) in which may have all integral values from up to is the tesseral harmonic of the order and degree , and satisfies the equation ( 10 ) The two particular solutions of this equation are ( as will be presently shown ) , of which the former only is appropriate to the case of a solid sphere , the other becoming infinite at the centre .
+We have therefore to choose With regard to the integer , it must be at least as great as , but have any value from up to .
+The form of the solution being now ascertained , the values of may be found from the condition that at the boundary or when and the arbitrary constants .
+may be found from the initial distribution .
+4 .
+We shall now determine the appropriate transformations of ( 1 ) nd ( 2 ) for an ellipsoid of revolution , and shall confine ourselves in the first instance to the of an ovoid ellipsoid , reserving that of a planetary ellipsoid for subsequent treatment .
+The axis of being that of revolution , put ; equations ( 1 ) and ( 2 ) become in which are here the direction cosines of the normal to a meridian section .
+Let us now replace and by . . . .
+( 11 ) where and are the thermometric parameters of the confocal system which includes the principal elliptic section of the bounding surface which , and whose axes are therefore Since and are conjugate functions of Moreover whence and By the help of these formulae we may transform the general equation of conduction into ( 12 ) In a similar , the equation to be satisfied at the boundary becomes or , when .
+( 13 ) We must also find the space element , OF HEAT IN ELLIPSOIDS OF REVOLUTION .
+and finally , ( 14 ) 5 .
+We proceed to find the solution of ( 12 ) which is appropriate .
+We may satisfy it by putting , where and both satisfy And with regard to , it must be observed that it cannot be other than a whole number , since the value of V must repeat itself in going round the surface of the ellipsoid in the -direction ; that is to say , , 1 , . . . . .
+( 15 ) We may also put .
+( 16 ) where and nre lncti o of alone and nlone ectively , determined from the equations wherein is a constant , as yet undetermined .
+In the sequel it will appear that has an infinite number of values for a given value of and a given value of , and one of the objects of the present investigation is to furnish the equation which determines it , and to approximate to its different values when the eccentricity of the ellipsoid is small .
+In this respect the present problem differs essentially from the corresponding one for a sphere in which is independent of ; it is then given by , where , . . . . .
+( 17 ) If we put , the equation in may be written and , if we write } , the equation in or , more conveniently , ( 19 ) It will be observed that these transformations are suggested by the consideration that , when , the equations in and should reproduce the corresponding equations in and for a sphere ; is the semi-axis minor of the confocal ellipse , and we shall use to denote in like manner the semi-axis major .
+6 .
+I shall now show how equation ( 18 ) may be satisfied by a series of associated functions of the order .
+If we compare the functions , in which the constant pliers are so chosen as to make the coefficient of the highest.power of in their ratlonal factors unity , it is known that and hence ( 20 ) It appears from this that the last term will vanish both when and when , the theorem reducing then to and to It is clear , generally , that can be expanded in a series of associated functions of an even or odd degree , according as is even or odd .
+Bearing in mind that we can obviously satisfy ( 18 ) by the expression OF HEAT IN ELLIPSOIDS OF REVOLUTION .
+or by the expression in which I. II .
+wherein ( 22 ) The arbitrary constants and are introduced that there may be no loss of generality when we put one of the series .
+equal to unity , or one of the series .
+The two sets of formulae I. and II .
+above are precisely identical , making allowance for the difference in the values to be assigned for , and therefore the conclusions drawn from I. will be in general true also for II .
+; and on this account we shall confine ourselves more especially to the former of these two systems .
+We must first examine somewhat more closely the sense in which the series ( 21 , a ) satisfies ( 18 ) .
+If we stop at the term in forming the expression it is not precisely zero , but equal to ; hence it is only when and are either zero or indefinitely small that the differential equation is satisfied .
+We have , therefore , to show that , for certain values of which are definite in position , tends to zero as becomes infinitely great .
+In other words , the values of are the roots of the equation ( 23 ) ESSOR C. NIyEN ON THE CONDUCTION milarly , when is odd , the values of are the roots of , . . . . . . . . . .
+( 24 ) and we have to show that these roots converge to fixed values .
+But before entering on this discussion it will be convenient to take up the consideration of equation ( 19 ) , and show that it can be satisfied by a definite series of known fUnctions corresponding to the same values of to doing so , I shall digress briefly into the solutions of the equation My reason for doing so is that , for the transformations which follow , a connected view of the properties of these solutions is necessary .
+7 .
+If we write , the equation may be written We shall now show that the equation is atisfied by or by ( 25 ) If we write , we find If we differentiate this equation , we may readily put the result into the form ' and , comparing this with the former equation , we find .
+, ( 26 ) We thus obtain , generally , And it is easily seen that is ) , OF HEAT IN ELLIPSOIDS or siu The two values of are therefore those given by ( 25 ) .
+We may readily find these values as expansions in powers of , by putting for and expanding and ( 27 ) Since the differential equation is unaltered by replacing by it follows also solutions of it ; in fact it is , in terms , that the constants , introduced by integration in , being so adjusted as to make the first terms agree ; no constants are to be oduced in determining The form also the function , quoted by Lord AYLEIGH , so The finite expansions of and are .
+( 28 ) in which stands for , .
+Lord RAYLEIGH has given another form for in terms of differential coefficients with regard to only , but what we are principally concerned with here are the expressions ( 27 ) which show that alone is finite at the centre , and with equation ( 26 ) which gives rise to the foUowing formulae of reduction .
+8 .
+Replacing in ( 26 ) by , we find successively If we substitute these expressions in the equation which satisfies , we find Whence ; and finally , ( 29 ) We have to substitute these values in , which may also be written If we now write ( 30 ) OF IN ELLIPSOIDS OF VOLUTlON .
+If we now turn to equation ( 19 ) , and compare the result just obtained with ( 20 ) , we see that we can satisfy the equation ( 19 ) by . . . . . .
+Where .
+are connected by the same relations as before\mdash ; namely , I. of ( 22 ) , and the values of are still , as before , the roots of It will be observed that this result depellds on the identity of the forms of the right-hand members of ( 31 ) and ( 20 ) .
+But the transformation ( 30 ) depends essentially on the hypothesis that is even .
+For the values of which depend on odd , and give rise to the second class of expressions for , this method fails completely ; in other words , distlibutions of heat which are not symmetrical about the equator of the ellipsoid cannot be represented by -functions of the type we have just found .
+I was led however to expect , from other expressions which will be given presently , that the true form in this case was to be discovered by putting ( 32 ) After substitution and reductions , we obtain Now the value of the expression by ( 29 ) If we put where is an odd number , we find It appears therefore that can be expanded in a serles of the form . . . . . .
+PROFESSOR C. NIVEN ON THE CONDTiCTION 9 .
+But we may also express as a function of , the major semi-axis of the confocal ellipsoid .
+And , if we turn to the original equation in and put therein , we find .
+( 19 ) We shall first replace by , where , the equation becoming after substitution and reduction , If we now replace by where , we find after reduction .
+and we can satisfy this equation by a series of -functions .
+Before doing so , we calculate the value of the expression , by ( 29 ) .
+Putting .
+( 34 ) whether be even or odd , we obtain The equation in may , therefore , be satisfied by either of the forms and ( 35 ) OF HEAT IN ELLTPSOIDS OF REVOLUTION .
+.31 It was the consideration of these formulae , including as they do both the cases of even and odd , which suggested the transformation ( 32 ) .
+10 .
+We shall now sum up the results of the last two articles and shall replace , in doing so , the symbols 2 , by S. Neglecting unnecessary constants , we obtain ( 1 ) even , distribution symmetrical on opposite sides of the equator , ( 36 ) ( 2 ) odd , distribution equal and opposite on opposite sides of the equator , . .
+It will be observed that all these expressions for , notwithstanding the factors in the denominators , are finite at the centre .
+The first equation of last article suggests yet another form for which we shall find of service in calculating the coefficients .
+Putting , that equation may be written ; and a comparison of this equation with the corresponding one ( 18 ) in shows that we satisfy it by or by ( 38 ) according as is even or odd .
+The function may be written } and we know that and This relation enables us to find the constant factor by which differs from .
+For when is infinitely near to unity , , even , odd , while then reduces to even 1.3 . . .
+' odd , terms above being neglected in both sets of formulae .
+Hence if ( 39 ) ( 40 ) OF HEAT IN ELLIPSOIDS OF REVOLUTION .
+11 .
+We now return to the consideration of equations ( 22 ) , confining ourselves in the first instance to the first system which , for the sake of convenience we shall rewrite , in which : We are to endeavour to discover the nature of the convergence of the series , . .
+and the nature and position of the roots of the equation similal system of equations has been discussed by HEINE in his 'Handbuch der Kugelfunctionen , ' second ed. , p. 406 , and the following investigations are mainly modelled on the principles which he has used .
+( 1 ) Treating the constant throughout as positive , we observe that the series are all positive when , and alternatively positive and negative when .
+Moreover , as in SIURM'S functions , no change of sign is lost or gained by the passage of any of the intermediate members of the series through zero ; and since the whole series gain changes of si gn as passes from to , it follows that all the roots of are real .
+( 2 ) We shall now show that all the roots of lie below ; but , previous to doing so , we must inquire more closely into the values of .
+and .
+; hence lies below ( neglecting the case of ) and ( 41 ) and , as the present discussion turns upon having this quantity greater than we must assure ourselves that this is the case .
+Now , since is not always necessarily small , and need not be large , this expression is not always ; but by choosing / and therefore large enough we can ensure that this is the case whatever value may have , and the present proof will commence with such values of as certainly give .
+When this is true it follows , fortiori , that , .
+, are all greater than Let us also suppose , for the sake of clearness , that is even ; then , if we substitute in the equations , are alternately positive and negative and each is less than of the one after it ; we have , in fact , , \amp ; .
+; and since when will also be negative .
+But , in the same manner , when we substitute .
+or any greater quantity , the series are alternately positive and negative , and remain so as changes from to .
+We infer , therefore , that all the roots of below and that one root between and ( c ) Moreover , only one root of lies between and .
+For when the series have changes of sign and retain these ever afterwards as increases ; therefore the subsequent changes of can introduce only one more change of sign into the series ( d ) When , one of the roots of expressions . . .
+are all positive and greater than ; and , for this value of ; thus have all the same signs and each is less than of the one after it , and these signs are opposite to that of .
+But as increases from one root to the next of must have undergone one change of sign ; hence .
+must have each undergone one change of sign .
+In other words , each of the equations .
+has one root between each pair of ( e ) It is clear , therefore .
+that each of the functions vanishes once for values of lying in the intervals between , .
+and but once .
+Let us therefore conceive these lengths cut off on the , and construct the curves , , .
+When ultimately when becomes very great ; and when and have like signs and therefore becomes indefinitely small compared to , and reference to equations ( 22 ) shows that then is indefinitely small compared to . .
+The points , therefore , in which the curve cuts the axis converge to fixed points as becomes infinitely OF HEAT IN ELLIPSOIDS OF REVOLUTION .
+great ; and , in the neighbourhood of these points , the functions .
+converge with great rapidity .
+The reality of the roots of is thus proved , and the convergency , for them , the series of coefficients .
+Similar considerations will apply to the roots of and the corresponding series of -coefficients .
+We proceed to approximate to the values of in series ascending by powers of 12 .
+Although the existence and reality of the roots of are thus established , it is a hopeless task to attempt to find them generally .
+But if we suppose the ellipsoid of small ecce tricity , and confine to those values of which are not very great , we may treat or as being a small quantity ; and , if we conceive the roots expanded in ascending powers of , a few terms of the series will be sufficient .
+When we know from the corresponding solution in the case of the sphere that the values of are given by , where , 1 , 2 , 3 ; we are theretore to expect that the new roots will consist of series of the form .
+, where are numerical coefficients .
+And here it may perhaps be proper to anticipate a difficulty which may occur to the reader .
+The roots , as given above , are expressed in powers of , which are themselves as yet unknown , being determined by the conditions to be satisfied at the surface of the ellipsoid .
+And the values of depend again upon the particular root selected .
+Thus an apparent indeterminateness presents itself , which however is only apparent ; and it will be seen , a little further on , that the roots form a perfectly regular series , and that we can always choose the pairs of values of and which correspond to each other .
+For the present therefore we shall assume to be known , and proceed to calculate the various roots of the equation in If we instead of , and calculate successively we find And , in general , ( 42 ) Wherein is the sum of the quantities ' ' the sum of the products of every two terms of this series , the sum of the products of every three non-acljucent terms , and so on .
+The effect of having only terms is that no occurs in a higher degree than the first , as would otherwise be the case .
+The equation which determines is therefore . . . . .
+( 43 ) If we neglect altogether , the several factors reproduce simply the values of given by , , 1 Before proceeding to approximate more closely to these roots , I shall state two properties of these sums which will present themselves in the reductions , the proof of which ; so simple that it is scarcely necessary to dwell on it\mdash ; These properties will be of great service in proceeding to a second approximation , and in calculating the coefficients .
+Let us concentrate our attention on the root , for which an approximate value is given by ( 44 ) The equation may be written in full it being observed that no two consecutive 's can occur in the products .
+Multiplying the equation by , it becomes We see from this that up to the value of will be ( 45 ) Wherein and represent what and become when we substitute for its first approximate value ( 44 ) .
+OF HEAT IN ELLIPSOIDS OF REVOLUTION .
+To obtain a third approximation , we must substitute this value of in the above equation ( 43 ) .
+The third series of terms may be arranged . . .
+, while the coefficient of in the second series is , On putting , therefore , the value of given in these terms , we see that we shall have . . . . .
+( 46 ) where , in we have to substitute the value of given by the second approximation .
+This gives as far as I proceed to find its value up to Having we shall put ; and , for a first approximation , obtain ; for a second approximation , ( 47 ) and , as a third , ( 4S ) This formula becomes simplified for the first of the series of roots corresponding to a given value of , that , namely , for which ; in the above expression , and the value of is .
+To reduce these expressions we observe that , , .
+Furthermore , since , Wherein , as before , We may also in factors as follows :\mdash ; Putting in these we find , for the first root of the series , .
+( 49 ) and , in general , .
+( 50 ) where OF HEAT IN LLIPSOIDS OF ] ION . .
+The roots of the equation in being thus approximately found , I proceed to show how to calculate the coefficients .
+When we consider that series for reduces to its first term when , and to the term , when and we suppose the ellipsoid to become a sphel.e , it is clear that , for the first root , must be the leading coefficient , and that for the root the coefficient must be the leading one of the series .
+Taking the general case first , we observe that , since none of the expressions fo .
+( contains , it follows that contains no terms lower than none lower than . .
+and none lower than , it being understood that is finite and of the degree .
+It is also , as we shall see , although it is not so evident at first sight , that is at least of the degree of and so on .
+We shall work out the first three coefficients on either side as far as ; though in the subsequent reductions the cients of in and are too complicated to be worked out fully in general .
+We have seen that . . . . . . . . . . . . .
+But we have also proved that ' ; and that , up to ; hence , putting in this value in the expression for ; and hence , dividing by the , expression for , we find , up to ( 51 ) In a similar manner . . . . . . . . .
+( 52 ) But and Putting these values into the series on the light-hand side of ( 52 ) it becomes , up to ' and finally and therefore ( 53 ) The series for can be easily found ; for and therefore , , Expanding these expressions in powers of , we obtain OF HEAT IN ELLIPSOIDS OF REVOLUTION .
+' .
+' .
+' .
+' .
+' .
+' .
+' .
+( 54 ) The determination of the ratios of the remaining coefficients is thus reduced to algebraical manipulation : the last terms , however , of and are Yery complicated , and I have not succeeded in giving them a simple form , but they may , of course , be found in any case where assigned numbers are given for and For the others we obtain , on substitution , .
+14 .
+We proceed now to the numerical calculation of several of the roots and coefficients .
+I. Let ( 1 ) Let is here the leading coefficient and we may put it .
+( 2 ) Let the leading term put equal to unity . . .
+( 8 ) Let , leading term put equal to unity , II .
+Let ( 1 ) For , leading term put equal to unity .
+OF HEAT IN ELLTPSOIDS OF REVOLUTION .
+( 2 ) , leading term put equal to unity .
+( 3 ) Let III .
+Let ( 1 ) If , leading term put equal to unity . .
+( 2 ) When ( 3 ) When 15 .
+The fimctions with which we have just been dealing belong to the first of the two classes of .
+There is , however , a second class in which is of the form The investigation of these functions will proceed on the same lines as those we have already treated , and the general formulae for the roots and coefficients will still hold true , with the modification that we must here put , where , 1 , For a given value of , the first root of each senes is ( 55 ) As the mode of formation of the coefficients has been already sufficiently illustrated , I shall confine myself to writing down a few.of the smaller roots of this class .
+When , , . .
+\ldquo ; The larger and become the more nearly will the firsb few terms of the series represent the value of the root .
+16 .
+We shall now show how to find the types of heat-movement which take place when the surface of the ellipsoid is maintained at a constant temperature zero .
+The general equation of conduction is satisfied by any expression of the form ; and , in order that the temperature may be constantly zero at the surface , we must have . . . . .
+( 56 ) or , more .
+fully , in which the leading term is , where For given values of and this equation has an infinite number of roots ; the total number of values of is therefore , apparently , triply infinite .
+Now , in the corresponding problem for the sphere , the equation is , the number being doubly infinite ; and there is no theoretical difficulty in using this solution to approximate to OF HEAT IN IPSOIDS OF REVOLUTION .
+the roots of , where the eccentricity of the ellipsoid is .
+The precise mamler in which each of the roots of the first problem resolves itself into several in the second is interesting .
+We observe that may be the leading term of , either as the first term of , the second of , the third of , . .
+We infer therefore that each root of or of corresponds to one for the ellipsoid , each root of or to , each of or to three ; and , in general , that each root of , or of corresponds to roots of the equation in for the ellipsoid .
+If , therefore , the total number of values of in the case of the be , the total number for the ellipsoid is N. All the roots of be foumd without difficulty by the general processes given by Professor STOKES Camb .
+Phil. Trans. and by Lord RAYLEIGn Proc. Math. ; and , therefore , those of can be expanded in powers of .
+We shall confine ourselves to mining those of Employing the expression for and putting have . . . . .
+( 57 ) If we neglect this equation reduces to , whose roots by Let the full value of be , being the eccentricity of the ellipsoid .
+The elements of the subsequent briefly as follows:- . . . . . .
+Substituting in the aboVe equatio1l , equal the of and , we obtain finally . . .
+5 8 17 .
+When the ellipsoid cools by radiation , the equation to be fulfilled at the boundary is , when or .
+( 59 ) observing that In its present shape .
+the of satisfying this condition is complicated .
+If , however , we neglect the condition then becomes The appropriate form of solution in this case is being given by , when .
+( 60 ) If , as before , we neglect , this equation becomes simply the same equation as found for the case of a sphere .
+It is , therefore , only when we do not neglect in the expression , that we obtain results belonging specially to the ellipsoid .
+We must accordingly indicate how the problem in its more general form is to be dealt with .
+To do so we require various general propertieS of the -functions , to the discussion of which we now proceed .
+It should be understood that these properties are of a purely mathematica ] character , and have nothing to do with the special series of values which the physical conditions of the problem may ascribe to .
+We have seen that for given values of and , the different values of are perfectly definite , and it may facilitate the apprehension of these values to bear in mind the approximations which have been given for them in powers of The following theorems are well known:\mdash ; , say , ( 61 ) OF HEAT IN LLIPSOIDS OF REVOLUTION .
+and if we denote by , or shortly by ( 27 , we obtain the following : ( 62 ) It may be easily shown that not . . . . .
+( 63 ) for the differential equations satisfied by are ( 64 ) and therefore From this result we infer that any function may be expanded in a series of -functions ; and , first of all , we nuay the series which expresses -functions of the -group .
+This is manifest algebraically ; for if we solve the equations for in terms of , we obtain for any one of the 's the following:\mdash ; , where ( 65 ) Now we may assume that any metion of ( at least any series of powers of commencing with ) may be expressed in one or other of the three forms , and therefore in -functions of the -group , -group , or a combination of these .
+In particular .
+will give rise to -fimctions of the same type as , and .
+to functions of the opposite type In general , if ( 66 ) The expansion of may be obtained without difficulty ; for if we combine the first of equations ( 64 ) with we obtain in which denotes any even integer .
+But , hence , remembering equation ( 63 ) , ( 67 ) say .
+The expansion of therefore becomes ( 68 ) 18 .
+These investigations and developments place us in a position to deal with the boundaly condition due to radiation ; we may always put .
+( 69 ) and all the 's may be expanded in ascending powers of , beginning with , except , which commences with .
+The general equation of conduction is to be satisfied in this case by the series .
+( 70 ) in which the same occurs throughout .
+At the boundary , where . . . . . . .
+\amp ; c. OF HEAT IN ELLIPSOIDS OF REVOLUTION .
+These the equations which determine the different values of and the corresponding ratios : .
+When we neglect powers of beyond , the equation determining is not ; . . . . .
+( 71 ) If the first power of alone is retained , this equation breaks up into , \amp ; c. ( 72 ) The solutions of these equations may be easily found the corresponding results the sphel.e , and the quantities .
+have been already found .
+19 .
+We shall not pursue this inquiry further , but shall now show how the arbitrary constants introduced into the solution may be determined .
+As already explained in Art .
+2 of this paper , when the solution is represented by , A is to be found from and what we have to find is , therefore , .
+( 73 ) If the surface is kept at a constant temperature zero , or if we adopt the simple law of radiation , we may take as the type of solution : the above integral may then be resolved into the components a ; and of these the two former have been already found .
+For the accurate solution of the problem of radiation we must take for an expression of the form , in which . .
+are known constants , one of which is to be put equal to unity .
+When we substitute this expression for we perceive that we have still another integral to evaluate , namely , To effect the integrations it will be most convenient to suppose expanded in terms of in the form ( Art .
+10 ) .
+But , as is well known , ( 74 ) and may be readily evaluated ; the result we shall denote by We thus find may be found by putting , a\fnof ; m For the remaining integral , combine the equations ; whence ( 76 ) But Taking these together , we arrive at the value of 20 .
+The preceding investigations have related to the laws which govern the movement of heat in an ovoid ellipsoid .
+For a planetary ellipsoid , we must take sin. . . . . .
+( 77 ) The equation which V satisfies is to satisfy which we must put . . .
+( 78 ) OF HEAT IN ELLIPSOIDS OF RE]VOLUTION .
+where and are determined by the equations ( 79 ) talA The latter of these equations , on putting , beco1nes converted into ( 80 ) These two equations ( 79 ) and ( 80 ) are of precisely the same form as and ( 19 ) which we have been discussing , and differ from them only in having instead of .
+The subsequent formulae will , therefore , be the same almost in every instance , and the investigation need not therefore be repeated .
+

@@ -1,0 +1,285 @@
+On the Differential Equations of Dynamics .
+A sequtel to a Paper on Simultaneous IDifferential Equations .
+By GEORGE BOOLE , F.R.S. , Professor of Mathematics in Quteen 's College , Cork .
+Received December 22 , 1862 , -Read January 22 , 1863 .
+JACOBI , in a posthumous memoir* which has only this year appeared , has developed two remarkable methods ( agreeing in their general character , but differing in details ) of solving non-linear partial differential equations of the first order , and has applied them in connexion with that theory of the Differential Equations of Dynamics which was established by Sir W. R. HAMILTON in the Philosophical Transactions for 1834-35 .
+The knowledge , indeed , that the solution of the equations of a dynamical problem is involved in the discovery of a single central function , defined by a single partial differential equation of the first order , does not appear to have been hitherto ( perhaps it will never be ) very fruitful in practical results .
+But in the order of those speculative truths which enable us to perceive unity where it was unperceived before , its place is a high and enduring one .
+Given a system of dynamical equations , it is possible , as JACOBI had shown , to construct a partial differential equation such that from any complete primitive of that equation , i. e. from any solution of it involving a number of constants equal to the number of the independent variables , all the integrals of the dynamical equations can be deduced by processes of differentiation .
+Hitherto , however , the discovery of the complete primitive of a partial differential equation has been supposed to require a previous knowledge of the integrals of a certain auxiliary system of ordinary differential equations ; and in the case under consideration that auxiliary system consisted of the dynamical equations themselves .
+JACOBI'S new methods do not require the preliminary integration of the auxiliary system .
+They require , instead of this , the solution of certain systems of simultaneous linear partial differential equations .
+To this object therefore the method developed in my recent paper on Simultaneous Differential Equationst might be applied .
+But the systems of equations in question are of a peculiar form .
+They admit , in consequence of this , of a peculiar analysis .
+And JAcoBI'S methods of solving them are in fact different from the one given by me , though connected with it by remarkable relations .
+He does indeed refer to the general problem of the solution of simultaneous partial differential equations , and this in language which does not even suppose the condition of linearity .
+He says , " Non ego hice immorabor quaestioni generali quando et quomodo duabus compluribusve aequationibus differentialibus partialibus una eademque functione satisfieri possit , sed ad casum propositum investigationem restringam .
+Quippe quo praeclaris uti licet artificiis ad integrationem expediendam commodis .
+" But he does not , as far as I have been able to discover , discuss any systems of equations more general than those which arise in the immediate problem before him .
+It is only very lately that I have come to understand the naturedof the relation between the general method of solving simultaneous partial differential equations , published in my recent memoir , and the particular methods of JACOBI .
+But in arriving at this knowledge I have been led to perceive how by a combination of my own method with one of those of JACOBI , the problem may be solved in a new and perhaps better , certainly a remarkable way .
+This new way forms the subject of the present paper* .
+Before proceeding to explain it , it will be necessary to describe JACOBI'S methods , to refer to my own already published , and to point out the nature of the connexion between them .
+The system of linear partial differential equations being given , and it being required to find a simultaneous solution of them , JAcoBI , according to his first method , transforms these equations by a change of variables ; he directs that an integral of the first equation of the system be found ; he shows that , in virtue of the form of the equations and the relation which connects the first and second of them , other integrals of the first equation may be derived by mere processes of differentiation from the integral already found ; and he shows how , by means of such integrals of the first equation , a common integral of the first and second equations of the system may be found .
+This common integral is a function of the above integrals of the first equation , and of certain variables , and its form is obtained by the solution of a differential equation between two variables-a differential equation which is in general non-linear , and of an order equal to the total number of integrals previously found .
+An integral of the first two equations of the given system having been obtained , JACOBI shows that by a second process of derivation , followed by the solution of a second differential equation , an integral which will satisfy simultaneously the first three equa .
+tions of the system may be found ; and thus he proceeds by alternate processes of derin vation and integration till an integral satisfying all the equations of the given system together is obtained .
+In these alternations , it is the function of the processes of derivation to give new integrals of the equations already satisfied ; it is the function of the pi-ocesses of integration to determine the functional forms by which the remaining equations may in their turn be satisfied .
+JACOBI'S second method does not require a preliminary transformation of the equations ; but the process of derivation , by which from an integral of the first equation other integrals are derived by virtue of the relation connecting the first and second &lt; It was stated by me , but without demonstration , at the Meeting of the British Association in Cambridge in October of the present year ( 1862 ) .
+equations , is carried further than in his first method .
+It is indeed carried on until no new integrals arise .
+The difference of result is , that the common integral of the first and second partial differential equations is determined as a function solely of the integrals known , and not as a mixed function of integrals and variables .
+But its form is determined , as before , by the solution of a differential equation .
+All the subsequent processes of derivation and integration are of a similar nature .
+On the other hand , the method of my former paper applied to the same problem leads , by a certain process of derivation , to a system of ordinary differential equations equal in number to the number of possible integrals , and , without being individually exact , susceptible of combination into exact differential equations .
+The integration of these would give all the common integrals of the given system .
+All these methods possess , with reference to the requirements of the actual case , a ' superfluous generality .
+A single common integral of the system is all that is required .
+Now the chief result to be established in this paper is the following : If , with JACOBI , according to his second method , we suppose one integral of the untransformed first partial differential equation to be found , if by means of this we construct according to a certain type a new partial differential equation , if to the system thus increased we apply the process of my former paper , continually deriving new partial differential equations until , no more arising , the system is complete , then , under a certain condition hereafter to be explained , a common integral of all the equations of the complete system , and therefore of the original system which is contained init , may be found by the integration of a single differential equation susceptible of being made integrable by means of a factor .
+When the condition referred to is not satisfied , the results obtained may be applied to the transforming of the original system of equations into an equivalent system of the same character , but containing one equation less than before .
+To this system we may apply the same process as to the former , and shall arrive at the same final alternation , viz. either the satisfying of the system by a function determined by the solution of a , single differential equation susceptible of being made exact by a factor , or the power of reducing it to an equivalent system containing still one equation less .
+In the most unfavourable case the common integral sought will be ultimately given by the solution of a single final partial differential equation .
+The condition in question is grounded on the theoretical connexion which exists between the process of derivation of partial differential equations developed in my former paper , and the process of derivation of integrals involved in JACOBI'S methods .
+, In the actual problem , and in virtue of the peculiar form of the partial differential equations employed , these two processes are coordinate , and it may even be said equivalent .
+The equations of that problem , if expressed in the symbolical form A , P=0 , A2P=0,. .
+A , P=o , satisfy identically the condition ( AA-AA3)P=3 Each of the given equations is moreover of the form dH dP dHI dP ) x dCi dpidpi d =i0J H being a given function of the independent variables x , x2,. .
+x , p1 , ,..pnIt is usual to represent the first member of the above equation in the form [ H , P ] .
+If we adopt this notation , the entire system of equations may be expressed in the form [ H1 , P]=0 , [ 2H , P]=0,. .
+[ Hm , , P]=0 .
+Lastly , though this is not a new condition , being already implied in the former ones , the functions Hi , H,. .
+Hm are all common integrals of the system .
+It is the object of the problem to find a new common integral .
+With reference to such a system the connexion above referred to is as follows:-If we obtain a new integral K of the first equation of the system , and , associating this with the functions H , form with it a new equation of the same type as the former ones , so that , corresponding to the series of integrals of the first equation Hi , H,. .
+HM ) Kg we have the series of partial differential equations [ H , , P]=0 , [ H2 , P]=0,. .
+[ H , l , P]=O , [ K , P]=O , and then if to the former series we apply JACOBI'S process for the derivation of integrals , to the latter the process of derivation of partial differential equations of my last paper , carrying each to its fullest extent , the result will be that to each new partial differential equation arising from the one will correspond a new integral ( of the first partial differential equation ) arising from the other .
+The theory now to be developed is founded upon the inquiry whether it is possible to satisfy the completed system of partial differential equations by a function of the completed system of the Jacobian integrals , i. e. to determine a common integral of the completed series of equations as a function of the completed series of integrals of the first equation .
+The reader is reminded that by the completed series of integrals is meant , not all the integrals of the first partial differential equations that exist , but all that arise from a certain root integral by a certain process of derivation , together with the root integral itself .
+Now the answer here to be established to this inquiry is the following .
+The first of the partial differential equations necessarily will , and others may , be satisfied by the proposed function irrespectively of its form .
+If the number of equations of the completed system which is not thus satisfied be odd ( this is the condition in question ) , the form of the function which will satisfy all is determinable by the solution of a single differential equation of the first order , capable of being made integrable by means of a factor .
+I have entered into some details upon the history of the problem , partly because I believe the theory of simultaneous partial differential equations to be an important one , but partly also in order that I might render that just tribute to the great German mathematician which I was unable to pay before * .
+JACOBI certainly originated the theory of systems in which the condition ( AiAjAjA)P= is satisfied .
+I learn from his distinguished pupil Dr. BORCHARDT , that this subject was fully discussed by him in lectures delivered at K6nigsberg in 1842-43 , my informant having been one of the auditors .
+The present memoir is but a contribution to that theory .
+And though it does not appear that JACOBI has discussed the theory of systems not satisfying the above conditions , it is just to observe that the more general theory is at least to this extent contained in the particular one , that the recognition of the above equation as the condition of a mode of integration naturally suggests the inquiry how that equation is to be interpreted when not satisfied as a condition ; and in the answer to this question the general theory is contained .
+PROPOSITION I. The solution of any non-linear partial differential equation of the first order may be made to depend upon that of certain linear systems of partial differential equations of the first order .
+Although what is contained in this proposition is already known , it is presented here for the sake of unity and to avoid inconvenient references .
+First , the solution of any partial differential equation is -reducible to that of one in which the dependent variable does not explicitly appear .
+For let z be the dependent variable , xI , x,. .
+x , , the independent ones , andpl , p2,..pn the differential coefficients of z with respect to these .
+Represent the given equation by f(i , , X,..x , Z , ,p2,..n ) = , ... ... . .
+( 1 .
+) and let ( x , ,,. .
+x , z)=O ... ... ... ... .
+( 2 .
+) be any relation between the primitive variables which satisfies the given equation .
+Differentiating with respect to xI , x2,. .
+x , C respectively , and representing the first member of ( 2 .
+) by &lt; , we have dx+P d= *dz( dx ddz= .
+Hence determining pi,. .
+p , and substituting in ( 1 .
+) , we have dz dz a partial differential of the first order in which p is the dependent variable , and al , x2,. .
+xi , z the independent ones .
+Here p does not explicitly appear .
+It will suffice , therefore , to develope the theory of the solution of partial differential equations not explicitly involving the dependent variable .
+The general form Qf such an equation is f(li , xll. .
+xe X8 pl p. .
+)= 0 .
+Now , to solve this equation , we must find values of pi , P32,. .
+as functions of xi ) , x2. .
+Ae which , while satisfying it , will make the equation dz-p x-pdx2. .
+-p , 0.dx ... ( 4 .
+) admit of a single integral containing n arbitrary constants .
+This integral will constitute a complete primitive , a form of solution from which all other forms can be derived .
+Let Hi=O represent the given equation , and Hi=0 , H=c2,. .
+H-=c the system of equations from which p , p _p2. .
+p. are to be thus found .
+Their values will contain the n-i arbitrary constants c , , c , ,. .
+c , ; and the remaining constant will be introduced by the integration of ( 4 .
+) .
+Let U and V represent any two of the functions H , , H2,. .
+Hn .
+Then differentiating the corresponding equations with respect to any one of the independent variables xi , explicitly as it appears , and implicitly as involved in pD , p2,. .
+p , , we have dU dU dpj =0 , dVx die dp ( 6 .
+) dx+idpj dxi ... o. the summations extending frommj=l toj=n .
+Multiply the first of these equations by dV , and sum the result from i= to i=n .
+Then dU dV dU dV dYp dx dp i dp dp , dx dpj dpi or , since dx dx .
+' dUdV dU dV dpi dxi dpi + p. dpj dxj Interchange in the second term i and j , since the limits of summation are the same with respect to both , then dU dV dU dV dp dxi dpi dPi i pjw e05 dx dUp dV dpi U dpj dx~ whence , reducing the second term by ( 6 .
+) , dU dV dU dV\ dx di dp7dPt dxI wx Representing the first member of this equation in the form [ U , V ] , it appears that the functions Hi , H,. .
+H1 must satisfy mutually the ( nequations of which the type is [ Hi , H , ]=0 ; and by these conditions H2 , H3 , ,. .
+H. must be deduced from H , , which is known* .
+Now all these conditions will be satisfied if we determine H2 to satisfy the single linear partial differential equation [ H1 , H112]=0 , then H3 to satisfy the binary system [ H , H113]=0 , [ H2 , H3]=O , then H4 to satisfy the ternary system [ H1 , H4]=-0 , [ H112 , H4]=0 , [ H3 , H4]=0 , and finally , H , to satisfy the system of n1 equations [ H Hn ] = O , [ H , Hn ] =0,.* [ H , H. ] 0 .
+All these are cases of the general problem of determining a function P to satisfy the simultaneous equations [ H1 , P]=0 , [ 2 , P]O,..[H , , P=0 , ... ... ( 7 .
+) Hi , H,2. .
+Hm being known functions mutually satisfying the conditions [ H , B Hy=0 , for each P thus determined gives the succeeding function H1m+i , and so on till all are found .
+This is the problem with which we are concerned .
+But before proceeding to its solution we must notice certain properties of the symbolic combination [ U , V ] .
+Properties of [ U , V ] .
+lst .
+It is evident from the definition that [ U , V]=-[V , U ] , ... ... ... ( 8 .
+) [ U , U]=0 ... ... ... ... ( 9 .
+) 2nd .
+The case sometimes arises in which one of the functions under the symbol [ ] is itself a function of several other functions of the independent variables .
+Suppose V to be a function of v1 , v , ,. .
+Vq , then it may be shown that dV die W. [ U , V]=[U , VI ] lV+[U , 2 .
+] dv.2 +[U , VU * .
+* ( 10 .
+) a theorem of especial use in transformations .
+For [ EU V]I i(dUdY dU dV di , dpt dpi dxi dU / dV dvl dV dv +dV dvq dU / dV dv1 dV dv dV dVvq , :=jidtd dv dPi dv +dv dYV .
+dV =dv [ U , v]+dv [ U , v2 ] + dv [ U , v ] .
+In like manner , if U be a function of u1 , u , b ... U , , which are themselves functions of the independent variables , then dU dU dU [ U , V]=[l , V ] dU+[U2 V ] du.+[I , V ] dUq *(11 .
+) 3rd .
+The important theorem [ U , [ V , W]]+[V , [ W , U]]+[W , [ U , V]]= ... .
+( 12 .
+) is implicitly contained in the results of the following Proposition .
+All these are known relations .
+PROPOSITION I. To determine the resultof the application of the genercal theorem of derivation to any system ofpartial differential equations of the form [ l , P]=O , [ t P ] =0 , ... [ , P]=0 ... .
+( 1 .
+) Ul U2b ... UM being given functions of the indepeindent variables x1 V21 ... Xi , p2 , p2 ... p:n .
+We adopt in the expression of this proposition u , , u , ,. .
+u , , in the place of Hl , H2,. .
+II , r because we suppose the functions given to be unrestrained by connecting conditions .
+If we represent any two equations of the system by [ U , P]=O , [ V , P]=0 , and then give to these the symbolical forms A , P = , AjP=0 , we shall have A ( dU d dU d A= ztdxr dpr dpr dr ZdV d dV d\ A= s\d dps ddws , w 's the summations with respect to r and s extending in each case from 1 to n inclusive .
+Hence collecting into separate groups the terms which contain differential coefficients of P with respect to p , , p , , and with respect to x , , x , , we have A-AdU d2P dP dU d2V dP die d2U dP dV d2U dP1 ( a , i*j j ) =v r ^doydxr dprdxs dpr d$ds dps ds dpsd$ dpr+ dxsdxr dprJ , ,fdU d2V dP dU d2V dP dV d2U dP dV d2U dP ] -rvsldr dprdps dws dp .
+dedeps dxjsd dpsp dprd , r dp dr +p Now this expression will not be affected if in any of its terms we interchange s and r. If dP we do this in the terms involving dp , the first aggregate will become dU d2V dP dU d2V dP dV &amp; 2U dP dV d2U dP } Xr[dVsT -dpsdxcr dpr dps dxsdxr dpr dxs dpsdxr dpr+ dsd dpr dP d / dU dV dU dV\ dP d[U , V ] --dpr dXr s\d$w s dp8 s dxs rdpr dxr In a similar way the second aggregate of terms will reduce to dS d[U , V ] Hence ( z\ a-/ a / \/ )P= ( d[U V ] dP d[U , V3 dP ) Arkdxy , dp , dpr .
+dxx Therefore ( AA-AzA1)P=[[U , v ] , P* ... ... ... ... ( 2 .
+) Thus the theorem of derivation applied to the two equations [ U , P]=O , [ V , P]=O , gives [ [ U , V ] , P]=0 , an equation of the same general form as the equations from which it was derived .
+Apply this to the separate pairs of equations in the given system [ ib^ , P]=0 , [ 2 P]= [ P]= O=XU , P 0 , and to the equations thus generated , and so on in succession till no new equations arise , and the result will be a system of the form , P]=0 , [ 2 , P]-,..[ , , P]=O , ... 7m ... . .
+( 3 .
+) This constitutes the completed system , and it possesses , in accordance with the doctrine of my former paper , the property that , if we form the equation dP dP dP dP 1x* dg - , d d dp , dpn , = eliminate thence q of the differential coefficients of P , and equate to 0 the coefficients of the 2n-q which remain , we shall obtain a system of 2n-q ordinary differential equations susceptible of reduction to the exact form , and yielding by integration the common integrals of the system given .
+The completed system is one of independent equations in which P is brought into successive relations with a series of functions u1 , u2,. .
+U , .
+It is important to show that the independence of the equations involves the independence of the functions , as also that if the equations were dependent the functions would be so too .
+1st .
+The independence of the equations involves the independence of the functions .
+FQr suppose the equations independent and the functions not independent , so that one of them , Ug , could be expressed as a function of the others , UD , u2,. .
+u , Then by ( 11 .
+) , Prop. 1 , [ , P]=[U,5 P ] du +[u2 , P ] dU. .
++[Ijq- , P ] dUq.i which would imply that the equation [ FU , q P]=O was not independent of the other equations of the system , as by hypothesis it is .
+Hence the functions are independent .
+2ndly .
+If the equations of a system of the form ( 3 .
+) are algebraically dependent , then are the functions u1 , U2,. .
+Uq .
+dependent .
+The algebraic dependence of the equations implies , in consequence of the linearity of their developed forms , the existence of at least one relation of the form [ Uq , P ] =1[1[ , P]+2[ &amp; 2 , P]. .
++X-i[Uq-i , P1 .
+( 4 .
+) X1 , *. .
+X ?
+qi being , on the most general supposition , functions of the independent variables .
+Now the functions tz , t2,. .
+tq_ are either dependent or independent .
+If dependent , dP the proposition is granted ; if independent , then equating the coefficients of in the developed members of ( 4 .
+) , we have duq dq u duq2 duq-i dpi =x1 dp2 +x2 dpi ** +A-l dp , ; dP and equating the coefficients of dp in the same equation , we have duq d__ d2 duq1 dxi 1I di 2 dxx * while for all values of i greater than q-1 it becomes du , / duq x\ du / duq\ duql I dUg\ duq yj\diu , dyi d\u/ x2 + dyi qdu ... .
+dyi* From the system of --l linear equations of the first type ( 5 .
+) , we find duq du'q duq ( 7 du , u-A= , ... ... ..dI-k-= ( 72 ) unless the determinant du , du2 dUq1 dy4 ' die , die , dul du2 duqi dy2 ' dy2 ' dy2 du , du2 duqi dyqil ' dyq-l -dyl-- .
+vanish identically .
+But this would , by the known property of determinants , imply that U1 U21 ... Uq2are not as functions of y , , y , , ... y , _s independent , which we have seen that they are .
+Hence the system ( 7 .
+) is true .
+Reducing by it the system represented by ( 6 .
+) , we have -du duq _ duqo dyq ' dyq +l din It results therefore that ztq will be simply a function of U1 , , U2 ... Uq-i .
+From these conclusions united we see that , if from any system of equations of the form orm , , P]=O , [ U2 , P]=O , ... [ Um , P1]= we separate the functions U1 , , U , ... urn derive from these all possible independent functions of the form [ tti , uj ] , and representing these by Um+l , U+2 , &amp;c. continue with the aid of these the process of derivation until no new functions can be formed , then if we represent the completed series of functions by u , , U2 * ... Ug , the corresponding system of equations [ of equation P]= , [ U2 , , P]= 0 , ... [ Uq P]=0 will be precisely that system to which the theorem of derivation of my former paper , applied to the given system of equations , would lead .
+PROPOSITION III .
+To integrate the system of simultaneous partial differenttial equations [ H9 , P]=0 , [ H2 , P]=0 , ... [ H , , P]=0 , it being given as a condition that HI , H , , ... H , satisfy mutually all relations of the form [ Hi , H]=0 .
+This we have seen to be the general problem upon the solution of which the integration of any non-linear partial differential equation depends .
+3x 2 We learn by the last proposition that the system of equations given is already a complete system .
+For , applying the theorem of derivation to any two equations contained in it , we have a result of the form [ [ H , H , ]P]=0 ; but this is identically satisfied by virtue of the connected condition .
+Instead , however , of solving the equation as a complete system , let us , with JACOBI , deduce a new integral of the first partial differential equation of the system , i. e. an integral distinct from H , ,1H2 , ... Hm , which , in virtue of the condition given , are already integrals of that equation-in fact , common integrals of the system .
+For if we make P=Hi in any of the equations , that equation will be identically satisfied .
+Represent by u= C this new integral .
+It may happen that it proves on trial to satisfy all the other equations .
+In that case a common integral is found and the problem is solved .
+Suppose , however , the new integral of the first equation not to be a common integral , and , constructing the equation [ fu , P]=0 , inrcorporate it with the given system of equations so as to form the larger system [ H , , P]=0 , [ 2 , P]0 , ... [ H , , P]=0 , u , P]=0.(1 .
+) Ally common integral of this system will be also a common integral of the given system which is contained in this one .
+Such common integral , if it exist , we propose to seek .
+First let us complete the system just formed by the last proposition .
+The completed system will be of the form [ u1 ) P]0 , [ u2 , P]=0 , ... [ u , P]=0 , ... . .
+( 2 .
+) in which ut , 2 , ... uml are for symmetry employed to represent H , , H2 , ** Hm , u , and iUm+2 , Um+3 , , ... u are new functions .
+Now all the functions u , , u2 , ... Uq are integrals of the first partial differential equation of the system ; for , the system ( 2 .
+) being a formal consequence of the system ( 1 .
+) , if we substitute H , for P , the system [ ID H 0 , ]=0 , [ ,2 HJ , ]=0 , ... [ T , ) Hl]=0 will be seen to be a consequence of the system [ H1 , , H , ]=0 , [ H , , H , ]=O , ... f[ , H , ]=0 .
+But the latter system is true , therefore the former ; therefore , since E[fu , Hj ] =-[HE , ,i ] the system [ H1 , , zl]= , [ H , ,1 u]= [ [ H11 u2]=0 ... ... J ( 3 .
+) is true ; therefore u , , U2 ... are integrals of the first equation of the system .
+They are independent , Prop. II .
+And as the process by which such of them as are new have been formed is identical in character with that which JACOBI makes use of , differ* ing only in the extent to which it is here applied , I shall speak of them as Jacobian integrals , or Jacobian functions .
+Let us inquire whether it is possible to satisfy the completed system of equations ( 2 .
+) by a function of the completed series of Jacobian integrals of the first equation of the system .
+Suppose , then , Pa function of u , , u ... Uq .
+The equation [ ui , P]=0 , which is the type of the equations of the system to be integrated , assumes , by ( 10 .
+) Prop. I. , the forms dP dP dP [ tdi , du , ] , U +[Zb ; , %]dUS[8i ?
+g ] dUp- ?
+' ( du ) Hence since by ( 3 .
+) [ H1 , , ]=1=[ &gt; n &lt; |l=O , the first equation of the system is identically satisfied , as it ought to be .
+Let us , to make the problem more definite , suppose for the present that none of the other equations are identically satisfied .
+Then , giving to i the successive values 2 , 3 , ... q , and observing that always0 , No , ,il=0 , Em , l , ^]==0 , we see that the system of equations represented by ( 4 .
+) will be dP dP dP dP * +[u , +i jd+U[ 2d , Uu4 ] [ +[U2 , j U ] [ = ?
+' , dP dP dP *K &lt; ]^ ; + +[u^4 ] + [ 3 , Uq ] =0 , dP dP dP * ( 5 .
+) 22 ] , +[u4 , O OU3 ] j *+[4 , j]du=0 , dP dPdP lug)U2 +[u , + u ] d uu+ [ 3 , U ] 4.d derived from it will be simply what the corresponding equations derived from ( 2 .
+) , when x. , ... x , , pl ... p are the independent variables , would become under the limitation that P is a function of u , l u62 ... U6 .
+They are therefore not new equations , but combinations of the old ones .
+It follows , therefore , that if from the equation dP dP dP du , du2d , duq , = ( 6 ) we eliminate , by means of the system ( 5 .
+) , as many as possible of the differential coefficients of P , and equate to 0 the coefficients of the remaining ones , we shall obtain a system of differential equations of the first order , reducible to the exact form , and giving on integration all the common integrals of the original system which are expressible as functions of u1 , u2 , ... Uq .
+First let us suppose the number of equations in the system ( 5 .
+) to be odd .
+Then are those equations not independent .
+For the determinant of the system is * [ j5z32 ] , [ U2 , U4 ] U2** jq ] [ U3 , U21 [ N3 , U4\. .
+[ N3 , Uj ] [ U4 UI,2 ] [ U4 , u3 ] *. .
+[ j4 , q ] IN2 , U2 ] QU[ , u3 ] [ U23 u4 ] * a common integral already known .
+The second equation being reducible by means of the first to the exact form , it follows that , if in that equation we tegard 8u as constant , it will admit of an integral of the form fU1 , , uO *. .
+)=const .
+; and this is the new common integral sought .
+We supposed that only the first of the differential equations of the system ( 2 .
+) was satisfied independently of the form of P as a function of u1 , u , , .
+U2q .
+Suppose , however , that any number of equations [ ta , P]=O0 , [ , , P]=O,. .
+are identically satisfied , independently of the form of P. Then UaC = , CIU= C',. .
+are common integrals of the system ; and if any one of these be not contained in the series of known common integrals , tbl = C1 : Ul=CO M * , =CM1 , it will be a new common integral , and the problem is solved .
+But whether such is or is not the case , if the number of equations [ u , yP]=O , [ LuP]=O , ... not identically satisfied be odd , we shall , proceeding as before , arrive at an equation dP dP dLP 1 , dCua+ ^d .
++xdu U ( UadUcx+Uu *.)=O , resolvable therefore into d==0 , db^=0 , ... Uadxa+UpdUp , =0 Then obtaining from the first line of this system the already known integrals we shall be able to reduce by these the equation of the second line to an integrable form , and thence obtain the common integral sought .
+Generally , then , when the number of equations of the completed system [ nil P]=0O , [ ,2 P]=O,. .
+[ U , P]= 0 which , on the supposition that P is a function of u , , uz,. .
+u2 , is not satisfied independently of the form of that function is odd , ; the form which will satisfy all is determinable by the solution of a single differential equation of the first order* .
+June 27 , 1863 .
+Secondly , suppose the enuiber of equations of the above system not satisfied independently of the form of P as a function of u , , u25. .
+uq to be even .
+In this case no form can generally be assigned to that function that will cause all the equations of the system to be satisfied .
+But neither is it required that all should be satisfied .
+It is only necessary to satisfy the original system , [ &gt; i , P]=O ) , [ ,2 P ] =0,..[m , ,P ] =0 , which is also a complete system .
+If in this system we make Pa function of vu , u,. .
+; , we get , dP. .
+, dP dP *7 +[ ] g+[u U ] * *+. .
++ [ , d ] =d0 , )dP dP dP dP dP )U m , U2]du^.+* [ ^ ] du=0 , in which the coefficients [ ti , 8u ] are all functions of it , , u2,. .
+u2 and in the integration of which 'u is to be regarded as a constant .
+I shall prove that to this system of m--1 partial differential equations , the same treatment may be applied as to the original system of m partial differential equations .
+Let v be any new integral of the first equation of the above system .
+As such , v will be a function of u , , N,. .
+iUtq and will therefore be also an integral of the prior equation [ jl1 P]=O .
+Forming the equation [ v , , P]=O , incorporate it with the original system , so as to form the larger system [ H , , P]=O , [ H , , P]=O , ... , [ H , , P]=O , [ v , , P]=Q , and , expressing HI , Hg,. .
+Hm , v , as functions of the original variables , complete the system by the theorem of derivation .
+Let theresult be [ Vl , P]=O , [ V2 , p]=O,. .
+* [ v , P]= O in which v , , q , ... Um , , are identical with Hi , H2 , , .
+H , v , , and let it be sought to satisfy this system by regarding P as a function v1 , 2,. .
+Vr .
+The two first equations will be satisfied identically ; the others will take the form * +[V3 [ v4 ] d4 +[V3 ) vI ] dr0 , [ v41 v3dP * .
++[V4 , V ] dP=0 , dP dP .
+v3 , V3v+[v ]dv In solving that equation vl , v2 are to be regarded as constant .
+If the number be even , we must proceed as before , and we shall thus reduce the originul system to a system of the same character , but possessing only mn-2 equations .
+In the most unfavourable case , the emerging systems being always odd , the common integral will ultimately be found by the solution of a single final partial differential equation .
+I have supposed that , of the symmetrical equations which arise from the introduction of the Jacobian integrals as independent variables , only one is dependent when the number of equations is odd , and none when even .
+But exceptions may conceivably arise from the splitting of the determinant into component factors each of the skew-symmetrical form , .
+and the corresponding resolution of the system of equations into partial systems each complete in itself .
+To such partial systems , and not to the general systenm , the law is to be applied .
+The connexion of the common integral with the odd skew determinant does not suffer exception even in those cases in which the integral is obtained without a final integration , or is primarily given .
+Thus for each of the common integrals u , , u2,. .
+u , the determinant reduces to a single vanishing term on the diagonal .
+The possibility of cases of real exception seems to be a subject well worthy of inquiry , POSTSCRIPT.-September 24 , 1863 .
+Since communicating the above I have discovered that the number of independent equations of the final symmetrical system ( 5 .
+) is necessarily even .
+This confirms the foregoing observations .
+It follows that whether we tale all or some of the Jacobian functions it , , qu,. .
+uq if there exist one common integral of the system expressible by means of those functions , the determinant of the system will either be or will contain as a component factor an odd symmetrical skew determinant .
+

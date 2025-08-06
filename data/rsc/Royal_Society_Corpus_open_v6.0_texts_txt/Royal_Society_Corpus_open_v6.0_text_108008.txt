@@ -1,0 +1,269 @@
+XXIV.-On the development of the disturbing Function , upon which depend the inequalities of the motions of the Planets , caused by their mutual attraction .
+By JAMES IVORY , K.H. , M.A. , F.R.S. , Instit .
+Reg. Sc. Paris .
+Corresp .
+et Reg. Sc. Gottin .
+Corresp .
+Received May 30 , -Read June 20 , 1833 .
+THE perturbations of the planets caused by their mutual attraction depend chiefly upon one algebraic expression , from the development of which all the inequalities of their motions are derived .
+This function is very complicated , and requires much labour and many tedious operations to expand it in a series of parts which can be separately computed according to the occasions of the astronomer .
+The progress of physical astronomy has undoubtedly been retarded by the excessive length and irksomeness attending the arithmetical calculation of the inequalities .
+On this subject astronomers generally and continually complain ; and that their complaints are well founded , is very aptly illustrated by a paper contained in the last year 's Transactions of this Society .
+The disturbing function is usually expanded in parts arranged according to the powers and products of the excentricities and the inclinations of the orbits to the ecliptic ; and , as these elements are always small , the resulting series decreases in every case with great rapidity .
+No difficulty would therefore be found in this research , if an inequality depended solely on the quantity of the coefficient of its argument in the expanded function ; because the terms of the series decrease so fast , that all of them , except those of the first order , or , at most , those of the first and second orders , might be safely neglected , as producing no sensible variation in the planet 's motion .
+But the magnitude of an inequality depends upon the length of its period , as well as upon the coefficient of its argument .
+When the former embraces a course of many years , the latter , although almost evanescent in the differential equation , acquires a great multiplier in the process of integration , and thus comes to have a sensible effect on the place of the planet .
+Such is the origin of some of the most remarkable 4c2 of the planetary irregularities , and in particular , of the great equations in the mean motions of Jupiter and Saturn , the discovery of which does so much honour to the sagacity of LAPLACE .
+It is not , therefore , enough to calculate the terms of the first order , or of the first and second orders , in the expansion of the disturbing function .
+This is already done in most of the books that treat of physical astronomy with all the care and fulness which the importance of the subject demands , leaving little room for further improvement .
+In the present state of the theory of the planetary motions , it is requisite that the astronomer have it in his power to compute any term in the expansion of the disturbing function below the sixth order ; since it has been found that there are inequalities depending upon terms of the fifth order , which have a sensible effect on the motions of some of the planets .
+A research that has for its object the lessening of the difficulty attending the expansion of the disturbing function , and the bringing of that expression more under the power of the astronomer , is one of considerable interest , and of some moment to the progress of physical astronomy .
+But the question is not to exhibit separately every individual argument with its coefficient , which would be of little utility in practice , since , although their number be infinite , very few of them are of any account in computing the place of a planet .
+The end to be aimed at , is to give the function such a form that the astronomer may have it in his power to select any inequality he may wish to examine , and to compute the coefficient of its argument by an arithmetical process of moderate length .
+The present Paper is an attempt of this kind .
+The investigation comprehends every argument not passing the fifth order ; but , as the formulas are regular , the method may be extended indefinitely to any order .
+1 .
+Let x , y , z , represent the rectangular coordinates of the disturbed planet , z being perpendicular to a fixed plane passing through the sun 's centre , at which point the origin of the coordinates is placed : in like manner let ' , y ' , z ' be the coordinates of the disturbing planet ; and put m ' for the proportion of the mass of this planet to the sum of the masses of the sun and the disturbed planet ; then , R denoting the disturbing function , we shall have , { , ~r 21 xx ' 4- , Jy +z 2 ) I Rf r and r ' denote the distancs of te disur and dg p++ ns If r and r ' denote the distances of the disturbed and disturbing planets from 560 the sun 's centre ; w , their angular distance seen at the same point ; and ?
+, their rectilinear distance from one another , then , = r22 rr ' cos w+ r'2 R1r cos mI = r'2 * It appears , therefore , that the function to be expanded consists of two parts , of which- , the reciprocal of the distance of the two planets , is common to the disturbing functions of both ; but this is not the case with the other part , in which r and r ' do not enter alike .
+For this reason it will contribute to distinctness to expand the two parts separately .
+But , previously , it is necessary to express cos s in terms of the angular motions of the planets in their respective orbits .
+If v represent the angular distance of the disturbed planet in its orbit from a fixed origin , and P the place of the node , that is , of the intersection of the orbit with the immovable plane of xy , P being reckoned in the same plane and from the same origin as Y , then up will be the angular distance of the planet from the node .
+Further , if A be the celestial arc between the node and the intersection of the orbits of the two planets , the distance of the planet from the same intersection will be equal to v -PA .
+If the foregoing symbols be accented and transferred with like significations to the disturbing planet , the celestial arc between that planet and the intersection of the orbits will be equal to v ' -P'-A ' .
+Now vPA and ' P ' A ' are two sides of a triangle of which the arc o is the third side ; wherefore if I be the inclination of the two orbits , we shall have cos = cos ( v P A ) cos ( 'P'A ' ) + cos I sin ( v P A ) sin ( v ' P ' A ' ) , or , which is the same thing , cos = cos2 I.cos ( vo'P + P'A + A ' ) + sin2 I.cos ( v + u-PP P -A ) .
+561 Let N be the place of the node of the disturbed planet reckoned in the imnoveable plane of x y , and i the inclination of the orbit to the same plane : then , if v represent the longitude of the intersection of the orbits of the two planets , A will be the hypothenuse of a right-angled triangle , of which i is one angle , and un the side adjacent to i ; wherefore tan ( v N ) tanA= cs ... cosi and , by the usual methods , A=vN+ tan2 sin 2 ( v N ) + tan2 sin 4 ( v N ) , &amp;c. and if we put tan2 sin 2 ( v N ) + tan2 sin4 ( -N ) , &amp;c. , we shall have P+A=v+P-N+ .
+Let [ PN ] be the value of PN at some given epoch : then the differentials of N and P being dN and cos i. dN , we shall have generally , PN = [ PN ] -fdN +cosi.dN = [ P-N]2fsin2 dN , the integral being taken for the time elapsed from the epoch .
+It thus appears that P -Nmay be considered as an invariable arc , or as one subject to an almost insensible secular equation .
+In order to abridge expressions , let us now put = [ PN ] 2fsin2 dN + E ; then Y A= v. If the symbols which stand for the elements of the disturbed planet be assumed , when accented , to represent the like elements of the disturbing planet , we shall have similarly , [ PN ' ] 2fsin2 i dN ' + ' , v'--P ' A'-A '-'-- .
+562 The value of cos w will now be thus expressed , cos w= cos2 CO I. cos ( v ' + os ' ) + sin2 I. cos ( + ~ ' ' -2 v ) .
+It remains to determine I , the inclination of the orbits , and v , the longitude of their intersection .
+Now I is the vertical angle of a triangle of which N N ' is the base , and i and i ' the adjacent angles , one being interior and the other exterior to the triangle : wherefore cos I= cos i cos i ' + sin i sin i ' cos ( N N ' ) .
+In the same triangle , a perpendicular being let fall upon the base from the vertical angle , un and v N ' are the arcs between the perpendicular and the extremities of the base ; and hence , ot( N+ N'\ sin(i-i ' ) N-N ' cot y ) sin ( i + i ) cot In the method here followed , the expression of cos w is as simple and as little troublesome in calculation , as it would be if one of the orbits were adopted for the immovable plane .
+2 .
+Let 5 , s , e , z represent the mean motion , the epoch , the excentricity , and the place of the perihelion , of the disturbed planet at the time for which we are computing : if this time be near the epoch for which the elements have been assigned , the values at the epoch may be taken as the true values ; and if a great interval has elapsed , the values at the epoch may be corrected by their secular equations .
+Further , put p for the mean anomaly , o for the equation of the centre , a for the mean distance , and a ( 1s ) for the radius vector : then , v=C +s + , f+ == s+i w , =a ( 1 s ) And the values of s and s , found by the solution of KEPLER'S problem , are expressed by the usual series , viz. 563 = e. 2 sin , i s=-e cos , 5 sin2 2 cosQ1 +e2 e2 +e2 .
+e 13 sin 3 .
+sin p. 3 cos 33 cos +e .
+eQ 8+ 103 sin4 44 sin cos 4 cos 2_ +e4 '9 e4 ' 1097 sin 5p 645 sin 3t+ 50 sin f+ 125 cos 5 13c5 cos S P+ 10 cospt + e5 ' ' 960 -1 * 384 Using always the same symbols which stand for the elements of the disturbed planet , when accented , to represent the like elements of the disturbing planet , and introducing the new characters &lt; and p ' in order to shorten expressions , we shall have , v a-= '+c+ o'= + 'a V -c =I+r_ aI ' + _ ' = , '+ r ' .
+If these values , as well the values of r and r ' , be substituted in that part of the disturbing function which is more easily dealt with , we shall obtain , r cos wa91s r2-= * , , .
+cos2I .
+Cos ( -+ S ) + sin2 I.os( +++ --2 ) .
+or , r cos ca1 ( 1 -s)cos ( T ' ) rc2 -a2Sc8 2 I.os _ .
+( 1s ' ) Co 12* sinp rf ( I ) sin(oco ' ) __ L sin^ ) -(1 s )2 .
++ sinc2 1 .
+cos ( +2 - ) .
+( P sY ) .
+01 s ) sin ( ( r -+o ' ) sin2 I. cos ( -+ 2 , ) .
+--( ) ( will not vary : wherefore the expansion of the part multiplied by sin2 II will be obtained from the expansion of the other part , merely by making y ' negative , and writing &lt; + p ' 2v in place of f p ' in all the arguments .
+We have therefore only to expand the two first lines of the expression , for which purpose they may be thus written : f/ Ia-~ , .
+C~-csxcos a(sin a- ' ) cos ( *').{ ( 1 C s ) cos ( X ( 1 s ) sin ao + ( 1i ' ) / ^f y , \ * cos Tr , ( sin d- ) + sin ( p - ' ) .
+( 1 s ) sin X c( ( 1 ) cos X(_ ) Neglecting quantities above the fifth order with respect to the excentricities , we have , a'2 s0-2 $-4 s -4 ( 1 s ) cos a1 s+ + 244 ' ( 1 s ) sin And , by proceeding similarly , COS a ( 0 ) ( 1 ) ' ( e2 ) a((.5 ( 1s)2 =a +a e cos +aec 2. .
+o5p sin ')r ( 2 ) esin 2. .
+) * S : *1 sin + bds sin 2 ... .
+2+ b. e5 sn 5p ( 0 ) e1 e et4 a 12-a g3 e ( 3 ) _1 53 a(4 ) 1603 a~_ _o9 ( 5 ) _ 149 a 12 b( " _3 55 e l4 =13 41 b( !
+) =is 41 e'( ) 31 161 ( 6 24 7 7,4 ) _761 96 b(5 ) 2827 240 ' We can now assign any term of the expansion we are considering .
+Let i and i ' be any two positive numbers , zero included , of which the sum does not exceed 5 : the part of the expansion multiplied by e e'i ' cos2 I will be , ( f ) { A0 ( i ) -i f0 B ?
+b ?
+izI ' } cos ( p ) .
+Aa cosi ?
+cos i ' +B i sn sini p ' } + sain( ) { a sinipcos pt +b A sini ' cos i tp : and , by reduction , Aa+Bb B. .
+, _ A. 43 ^ -.cos ( B &lt; p-i ) zco+ ( ( ( +\ 4 4*( 38 ( i@ t4 fit + ( A(i ) a(t )B ) A+ B( ( ' ) b ( i)\ A(i ) i ) B(i ) b(i ) ( A aa Ba --b A( + , , )* .
++_4 cos(- ' t-t ) 4 ' -4 ... ..].cos ( +- ' + 4i ' ) .
+5'66 The other part of the expansion , that multiplied by e(i ) e'( ' ) sin2 1 I , will be different in no respect from the part just computed except in the arguments of the cosines , which must be changed according to the rule already laid down ; so that , instead of the four cosines above , these which follow must be substituted respectively , cos ( p + p ' 2vi i ' ) cos ( p + p'2 Y+i~+i ~ ' ) cos ( ( p +(2 i , + ?
+-i ' ' ) cos ( p +'2v+ i( i ' ' ) .
+Every part of the expansion being comprehended in the formula , it follows that all the arguments will contain the mean motions of the planets , excepting the particular case when i= 1 , i'= 1 : for , in this case , p and p ' -are independent of the mean motions ; and the first cosines of the two parts multiplied by e e ' will be , cos ( sz 'a+ a ' ) cos ( w +z2v ' ) .
+These cosines have the same coefficient , viz. A a(1 + B(1 ) B(1 ) a( ) +A 1 ) 4 -~ 4 And this will be found equal to zero , when the values of the symbols are substituted I. It thus appears , as far as the calculation has been carried , that r COS co there are no terms in the expansion of r-except such -as contain the mean motions and are periodical .
+3 .
+We next proceed to the expansion of , which is the ore difficult part of the problem .
+The value of cos w , already investigated , may be thus written , cos C= cos ( ( ( '+ a C ' ) sin2 I. cos((-'-'+-')cos(qp+(p'++a-'-2v ) }* The coefficient is equal to zero , because a(i ) = ) : and for the same reason the coefficient A( ) a(1 ) B(1 ) b(l ) B(z ) a( ) _ b( ) A(1 ) 4+4 is equal to zero .
+4D2 567 wherefore , D2 = r2 + r ' 2rr cos ( &lt; p 'p d ) , q= cos ( p 'p +o ' ) cos ( ( p + p ' +a+ a ' 2 ) , 2= r2 + r2 2 rr ' cos we = D2 +2 sin2 I I. r r ' q consequently , p---D sin2 2 I. p q+ sin4 I.Dr 2 and the three parts ofmust be expanded separately , Expansion of -D .
+By substituting a ( 1 s ) and a ' ( 1 s ' ) for r and r ' we get 11D= ~ja2 ( s)2 + a'2 ( 1 aa '(1S)( s ' ) cos ( '+ -( - ) ' and it will be found that the following equation , in partial differentials , is true , viz. d. d.1Dds ( 1-s ) ' ( 1-s ) D-^^+OdsAll the possible values of in this equation are comprehended in the formula , D -=G X F ; provided F and G verify these equations , dG dG dF d( sFo = s7 ?
+dS* ( 1o-s ) + cs2 ( -s ' ) .
+We may adopt for G any particular expression which verifies its proper equation ; and then F will be determined by the nature of the quantity sought .
+Any function of ( 1 s ) and ( 1 s ' ) of 1 dimension will verify the equation for G ; and , taking the most simple case , G =1 -_ , we shall have D-1 l -D , = l =F .
+568 Now let Do = ^a2 +a !
+2 2a a'cos(+a ) then first , if we suppose s= 0 , s ' = O , we get D -= Do ; and again , if we suppose s= s ' , the result will be , ___ _i 111 D ' 1 -s I)o and thus we learn that F= Do ' both when s= 0 , s ' = 0 , and when s s ' .
+From its equation we know that F must be a function of no dimensions with respect to ( 1 s ) and ( 1 s ' ) ; and this condition , as well as what has been shown to take place on the two foregoing suppositions , will be fulfilled by making Fa function of ( _ ) = 1 : wherefore the expression of i will be as follows : D l--\lIs s J1 .
+1 _/ s_--s 1 ts ' -s when 1 -0 .
+0 , 1 ?
+-s Since s and s ' are small quantities , the expression of D may be expanded .
+By neglecting quantities above the fifth order with respect to s and s , ( 0 ) 1I B( ?
+( 1 ) s ' ( 2 ) ( S -S)2 ( 5 ) ( / S ) D 1s +Bs+ B. ( s ' -s ) * nageable form , every separate term may be resolved into a series of the powers and products of s and s ' : which being done , and the quantities of the same order classed together , we shall find , ]1 ( 0 ) ( 1 ) ( 2 ) ( 3),3 T^B ' .
++B +Bs2s +B13 3 + &amp;c. B(O)+B ?
+( ) ( ( 2 ) ( ( )s + &amp;c. ; ( B()-B(s ) ) , -(B2-B(2))2ss ' -(B( )-B().3 s2S + ( B( -2B(s +B(e)s ( B()-s 2B(2)+ ( 1)).3 ' ( ( 3B( ) -B(2 ) ) ( 0 ) B 3B +3B -B Or , in the usual notation of finite differences , -B( ?
+) ) ( 2)B( ) ( 3 ) s( B4B &amp; cs .
+; B +B -.- ' +B(2 +B()s " +B4 +s &amp; .
+; -AB.s-AB(.2ss'-AB.3s 's --AB.4d3s 0 ( 1 ) + ( 2 ) + A2 B. l +A2 B3 s'se B( )6 s2B s2 A-B ?
+s -AX B(1 ) 4 s'3 + La 4B( ?
+) .
+s. The value of j seems now to be reduced to its most simple form as far as s and s ' are concerned .
+If it be observed that , in every term , the exponent of the power of s ' is the same with the numeral affix of B , and the exponent of s the same with the index of A , it will appear that the whole expansion is conmprehended in the formula , AB s ' s , it i VA " i/ being the coefficient of s ' s in ( s ' s ) , and i ' , i , representing the several positive numbers , zero included , of which the sum ( i ' + i ) does not exceed 5 , when the expansion is limited to quantities of the fifth order .
+4 .
+The values of the quantities B , B , &amp;c. , are next to be investigated .
+If , for the sake of abridging , we put , Q a'( 1 s ' ) a a ' ( 1 s ) cos ( a ' + ' ) , 570 we shall get by repeated differentiations , DQ ds -D3 ' DId31 ds2 dsQ ' D " +3 1.2 * dS'2 2* dsi* D3ds ' 2 ' Q2 Ds5 d3 1.2 .
+3* dst ' 2* 2ds ' Q5 Q3 *D -P D " , d1 1i D3 1.2.3.4 * ds'4 8 dQ\2 I 15 dQ ( ds * Dr5+ 47 * ds Q2 35q Q* * D7 + 8 o D5 IR .
+IVORY ON THE DEVELOPMENT '2-f +4 Do q4e 1)os ( 3 ) 5 ( i f8\ 9 6h ( Df fa f =B + ~oo'+ -I'+ D~+ ( 4 ) 35 28 fD*\ 203 15f +fB= 128 Do ++ to3 + Do7 6 ha -48 +51 f2 64* Do5 ( 5 ) 63 1+\)+ 175-140A / \ 30h-150h+135 fD 3B -25U tDo Dol J+2 B6\Do3 D"+ 8 Do + 1*DoT7 Td dd These quantities have been deduced from the differentials d ~ , I D~ ? .
+--- ' I d &amp; c If the differentials &amp;c. If the differentials ds ?
+ds1 dd I. ds , &amp;c. , be used , the same results will be found , with this difference , that f and h , retaining the same numerical values , will both change their signs .
+If we write 4 for ( qp P ' +a - ) and differentiate the formula , 1d Do1 a a ' sin+ d , -r wil n , + 2d f^ Do ' the result will be , dd Do_ a a ' cos 4$ a+ a2 ' sin~ 4 d2=-n Dn+2 +nn.n+ D2 .
+now , af ' + a " Do a cs +a Do2 aa'cos=-_ 3 '2 _2 Do4 a , a+ ae ( a'.ad ' ) a ' a2 sin2 %= _ -2ae+ 2 Do2 wherefore , 1 .
+ddDon_ nl d,2 4--4 1 n.n+ n0 a ' + a2 n.n +2 ( a ' -a')2 Dn+2 4* Don + 4 whence we deduce fD + Don+44 n.n +2 dd-Doa n1 2(n + 1 ) d -2 n Do ?
++ n+ I2 .
+f D0+2 In this formula put n successively equal to 1 , 3 , 5 , 7 ; then fP 44 Do 11 4h f Do5 = 3 ?
+d,2 3* Do +3 Do3 f8 4_ _ ?
+Do7 15 *0 dd f D03 3f8h f2 ddfsi 4 Do , 35 'd tP 5 f2 1h d3 7 ' Do7 +7* Do7 ' By means of the two first of these last formulas , we can exterinate an from the values of ( 2 ) ( )done , l find ^F from the values of B and B ; which being done , we shall find B ( 2 ) .
+( 4'I1 dd 2+hf Do2 * d ?
++4* Do-3 19+ 2h * Do 1 dd ) ( 42+9.+9 D* 4h / +\ 24 +t ?
+d 4P Q And , in like manner , by means of all the four formulas , we may exterminate f2 f3 f4 ( 4 ) ( 5 ) f5 , Ef7 Df and Df , from the expressions of B and B ) ; and thus are obtained these values , obtained these values , ( 4 ) 3h+8 h-7 96 I 1Q12 + 32Q + 77 96 MDCCCXXXIII .
+1 Sh38 + 82 +h+6f )o 24 * 0-3 dd Do *UA ( I j,2 dd f1 dd I~6 d4 ~ 32 4E f4 0 f5 4 DoI"I -63 ddfa Do 7 1f3 I 6h f4 h3 + 75 h2 + 9Q2 h 55 1 96 hk + 300hP +341 h2 + 00Oh + 159 f -u ' '^ ^ 960 * Do 960 * Do dd I dd f 96h3 + 300 h " + 368 75 1D 2 lQ h2+21 D_ 960 *d"9 60 * d2 ddf2 25 4d Do5 32,0 d* d4 3 ddJ 64 ' d , J If we take the second differentials relatively to '4 in the first two of the same f2 dd !
+, four formulas , we shall obtain these values of d ?
+dd vf i ~and iI viz. acd +2 ) dd D54 d 1_5 d2 --3 d , " -~ 1.5 *d43 ' D3 !
+32k D 15 de4 5 1 !
+Do 4hf dd f0dII D8 h 3_d Do ~2 _9* d4 15* diP2 d 15 e which being substituted , the expressions of B4 ) and B(5 ) will be as follow : l4L ( 4 ) 3 +8sh--7 1 3sh+8 7 19 -D 1 D1 B. .
+" 9 ' Do , 4 d-4 + 4 ' d d,4 3h .
+Ih+ 8h +6fA+4 +.k.Ae4. .
+2k'* Do3 24 * dd f d " 'd d,2 24 hA + 75 hk + 92 55 1 960 *D 2o'+4 h Do 240 f and -D , and the second and fourth differentials of the same two quantities , the coefficients being of easy computation , and depending solely on the mean distances of the two planets .
+5 .
+The problem to be solved is , to expand Din a series of terms arranged according to the cosines of the arc 4 , or ( '+a - ' , and its successive 1f multiples .
+Now as the quantities D and 3and their differentials , are all susceptible of a like development , what is required will be accomplished merely by substituting in B ) , B( , &amp;c. , the parts of D D3 , and their differentials , multiplied by the cosine of the same multiple of x4/ , instead of the quantities themselves .
+The coefficients of the cosines in the developments in a at question are functions of ai or aand , for the sake of convergency , we must choose that one of the two fractions which is less than unit .
+Supposing that a ' is greater than a , and that n represents any odd number , we have , n--1 tz-1 / , -1\a-fXE2\ 2 a. .
+Do ' a ?
+a a1 + -cos 2 Wherefore , assuming as usual , 21 a , _ -= C+C ( )cos , +C ( 2)COS 2C cos 2 , ... + C(k)cos k,. .
+, + 2-cos 2 the part of D- , and of its second and fourth differentials , which are multiplied by cos k 4 ' , will be respectively , cos^ k ( ) cos C ( ) ) ccs kI ( &lt; k ) aX Cj1 , a ' x k2C C , X K : and the like parts of f and its differentials , will be , a-9 a9 a/ 1I~~~~-1 1a ( i C3 _(i ) a aX C3 Cos k , aX -k C3 cos k ?
+, fx Pk C3 cos k. 4E2 4r.2 575 It remains then to substitute these values in B ) , B( ) , &amp;c. , in place of D , and their differentials : but , in order to obtain the formulas most convenient for calculation , it will be requisite to express the coefficient of the development of s by means of those of the development of D If we write a for - , and put V= J1 +C2 2a cos , we have this formula , d. dV a sin P , d--~ -V ; and if we substitute the expansions of V and V &gt; and equate the coefficients of sin k %4 , the result will be 2k C1k = C3 C Cg We have likewise this identical expression , 1V 1+ o2 Qa cos tt V Vs V Vs and by substituting the expansions of V and vI , and equating the coefficients of cos k k , we get ( k ) ( k ) ( k I ) ( k + 1 ) C= ( 1 + 2)C3 C3 C3 By combining the two formulas , we deduce 2C 3(k+l ) == ( 1 + 02 ) C3k ) ( 2 k+ l ) C1 2aC =a ( 1 + 2 ) C3 ( 2 k ) Cl Change k for k1 in the first of these formulas , and for k+1 in the second " and the two following formulas will be obtained , 2 C3 = ( 1 + M2 ) C3(2 k1 ) C( 2C C3 ) ( 1 + 02 ) C3(+ ) +(2 + ) C1 By combining the four last formulas in different ways , different vales of C3 ) will be found , which may be used at pleasure , viz. 576 2)C(k ) = ( 2 k+ 1 ) .
+{ C,1 1 , } C)~~1 3k 1 ) ?
+C+ C(k ) ( 2 )C ' = ( 2k1).{ C , 1 ' )4k I oCl ( I-c2 ) c_(k ) = 4k W^ 1 ( c1* 1l Ck+ ) .
+In order to shorten expressions , and to bring the formulas to a form convenient for calculation , let -a = tan 2 0 ; then , I+t1Q sin 0 1 ?
+a2 -= h hsin O : =cos '1 cos 0 further , assume the new symbol a(k ) , the value of which may be calculated by any one of these formulas , viz. a(k ) ( k + 1 ) ( Clk Si + C1 ) ) a=(2k-+l).(Cin-sin)C ) ) ( k ) 4 -C(k ) a ) = ( 2 k-1 ) .
+( sin 0 Ck 1 ) , a( ) _4 ' 1.sin -(Cl---C 4l ) ; then , ( 1 -2 ) C3(k ) h. a(k ) Using this value , the parts of 4d and its differentials , multiplied by cos kA will be cosk Xh a(k ) , cos kJ h2 ( k ) ch 4a These , as well as the like parts of Do and its differentials , must be substituted in B( ?
+) , B( ) , &amp;c. As there is no longer occasion to refer to any development but one , C may be written for C1 ) In substituting we omit the common cos k 4 ' factor a , and put bo(k ) b(k ) b2(k ) b(k ) b0 b1,2 .
+5 for the expressions into which B(0 1 ) B ( 2 ) ... ( 5 are changed , so that , bo C b , ( k)1 C ) h a(4 ( )= C+ k ) C(k )+ ( k ) )4 =\+962 + .
+k3 h4+6 9r+ h. 2 ( k ) h 4h 2 ) ( k ) + ( .$24 + 24 .
+k.a 1 ( ~ ) ( 24h ++ 75ha2+9h-5 24 3+ 75 +9k 17 b== 960 42 40. .
+25 + 43\ )(k + 240 .
+4 ) *C ( 96 a5+3 00h4 341 h3+ 200 t2 19 73+252 h+ 53 2 hk4 ( k ) 960 " 240 " + 4/ a , And , these symbols being established , the part of D7 we are in search of , that is , the part multiplied by cos k( p ' +a ' ) , will be thus expressed , cos k ( p ( + a-a at ... ... - .
+X{ bo + bl By the foregoing analysis the problem is reduced to a series of terms comprehended in the formula , +A b ) x P3s si cos k(+ - ) it and i representing all positive numbers , zero included , of which the sum i ' +i does not exceed 5 ; / 3 standing for the coefficient of s'si in ( s ' + s ) ii ; and the upper or lower sign taking place according as the index of A is even or odd .
+Although all the coefficients are supposed to be deduced from six of them , for which alone direct expressions are given , it is nevertheless obvious that an independent formula may be found by which any proposed coefficient may be ( k ) ( k ) separately computed : namely , by substituting the values of bo , , &amp;c. , in the expressions of the several finite differences .
+Although there can be no difficulty in applying the formulas , it may not be improper , for the sake of illustration , to take an example .
+We shall choose the instance of Venus and the Earth .
+In this case a ' will represent the mean distance of the Earth , and a that of Venus : wherefore , a aa =_ 0'7323332 = tan 0 , 0 71 ? ?
+45 ' 32 " , h -cs -31947202 , log .
+sin = 9'9776083 .
+The method likewise requires that there be previously calculated a sufficient number of the first coefficients in the expansion , C+ -C( ?
+) cC os+C cos 2+ C(.)cos 2 k ... .os VI+ a 2crz 2a C ?
+)cos k. .
+which is accomplished by rules amply detailed in all the treatises on Physical Astrionomy .
+We next deduce the value of a(k ) , viz. )= ( 2 k+ 1 ) ( C(/ ) sin + 579 and , with the numbers thus found , we have generally for any proposed value of k , ( k ) ( k ) b , ( k ) C(k ) +-159736 .
+a(k b ( k ) / ( + ) C( ) + 4*148919 .
+a(k ) 2+ -i- ) .
+C+ 414891 b3 = { 0'008113 + 1'282453 .
+k2 } .
+C(k ) + { 10-459698 + 0-266227 k2 } .
+a(k b4= { 0'512255 + 3'132352 k2 + 4 } .
+C( ( k ) + { 28'09035 + 0'957713 k2 } .
+a b5( ) = { -1-861383 + 8'390554 k+ 0'157412 k4 } .
+C ( k ) + { 80'06813 + 2-719660 k2 -+ 0133113 I } .
+a Nothing can be more easy than the computation of these six quantities for any assigned value of k. The other quantities , being the several orders of the finite differences of the first six , will be known when these have been computed : but it will be convenient and will often save much calculation to have an independent formula for every coefficient separately .
+0A --2C -159736 .
+a(k ) ( k ) ( 1 V(k ) ( kc ) -Ab ) _( ) C( 2-551559 .
+aA b2 = { 0'258113 0-782453 k2 } .
+C ( k ) { 631078 + 0-266227 k2 } .
+aA b3(k { 0504142 1'849899 k2-_4 c 34 C(F ) { 17'63065 + 0'691486 k. a(k ) 580 A b4 { 1'34913 5-258202 k2 0.115745 k } C( { 51-97778 + 1761947 k2 + 0133113 k4}.a( ) A2 b0 = ( b +)C+ 0-954199 .
+a( A2 bl { -*008113 + 282453 k2 } .
+C( + { 3-75922 + -266227 k2 } .
+a( ) A2 b(k ) { -24603 + 1'067446 k2 + -041667 k4 } .
+C( ( k ) + { 11 31987 + 0-425259 k2 } .
+a A2 b(k)= { 84499 + 3'408303 k2 + '074078 k4 } .
+C( ) + { 34-34714 + 1-070461 k2 + -0133113 a4 } a ) A3 bo(k ) .
+{ 0(25811 + -217547 k2 } .
+C( ) ( k ) { 2-80502 + -266227 k2 } .
+a( As b ( k ) { '23792 '784993 k2 041667 4 } .
+C( ) { 756065 + '159032 k2 } .
+a( ) Asb2( ){'59896 2-340857 k2 '032411 k4 } .
+C { 23-02727 + -645158 k2 +013113 k4 } .
+a( ) A4 bo = { '020197 + 1-002540 k2+ -041667 k4 } Ck ) ( 'c ) + { 4'75563 -107195 k2 } .
+a A4 b( ) = { '36104 + 1*555864 k2 -009256 k4 } .
+C(k ) ( k ) + { 15-46662 + -486126 k2 + -0133113 k}.a( ) A5 bo ( ) = 38124 '553324 k2 + -050923 4 C(k ) ( k ) { 10'71099 + -593321 k2 + -0133113 M } .
+a. According to these formulas the calculation of any of the coefficienlts is an easy arithmetical process .
+In order to be able to compute , in any term of the expansion of D , the part of any proposed order with respect to e and e , nothing more is wanting than a method for reducing ~ , i , s ' s cos '+f ) to a series of simple cosines .
+On this point some observations will be offered below : but , without proceeding further , there is no difficulty in this respect , when we confine our views to quantities not passing the second or third order , which comprehends all the perturbations useful in astronomy , except the inequalities of very long periods .
+If we combine the planets two and two , as is done in the sixth chapter of the sixth book of the M6canique C6leste , and for every two planets construct a formula such as is exhibited above for Venus and the Earth , limiiting the extent of the calculation according to the nature of the case , the theory of the planetary disturbances would be rendered more accessible , and would be freed from the tedious and disgusting labour which has rendered astronomers averse from cultivating this branch of their science .
+6 .
+The expression , / s cos k ( + o ' ) may be reduced to this form , cos k ( p ' ) .
+{ ( s cos k ) ( s ' cos k d ) + ( s sin k ) ( s/ sin k a ' ) -sin k ( p - ' ) .
+{ ( s sink ) co k o ) ( cos k ) ( s ' sin k a ) Here the quantities within the brackets are serieses , of which each contains the mean anomaly of only one planet , and comes under one or other of eleven different forms , namely , the six , cos k , scos k a , s2coska , ... .
+5coska , and the five , sin k a , s sin k , s2 sin k a , ... ... .
+sin k a , the quantity s5 sin k a , which is of the sixth order , being omitted .
+None of these serieses , when carried to quantities of the fifth order inclusively , and arranged according to the sines and cosines of the multiples of the mean anomaly , contain more than six terms , and they thus afford a ready way of calculating the part of sI cos k ( + f -a ) of any proposed order with respect to e and e ' .
+These serieses are as follow : Cos k=(l-k2e2 k2e4+ -e ) 5 k2 e2 + k2 e4y k4 4).e os 4 ?
+re ( 4 k4 e2 ( k2 k2--e2.e2cos 2 +( 7 , e2 ) e4cos4 i / 51c 283 +(24+ e cos54.eo + t4 + 4_co)s e2s5 n2 4 4 ?
+/ 1 ck 43 ks 307 IP et A e4\ -+ y , ,4 e-6 -4 k e22-3sin3 10 e3 sin 3 [ .
++(+ k3 ) .
+e4 sin 4+ ( -6k + 1k3+ 6).e5sin54 ^ e " k1 e4 s cos =+/ 3 es 5 e4 ks es 37 P e4 k4 e4 + -8 + lt-2-+ 96 +i.eos2 ( ,1 _42 e e2 cos2:/ + 3 45e2 ka 183 .
+kP e 4e\.ce +8 8+ 128 8 e3cos3 +(+ t~ ) e4 cos 4p / 1 25 475,2\4 + ( \4 + 4 : k2 +_ ) .
+e cos 5t^ sin k , :e2 3Z e4 e sine 3 ?
+] e4 s2 +k ( lk2--e2 2k9 115.e 35k8 e.e3 sina3 8k -6 48 +( Ik + -+ ) .
+e4 sin 43 +( k(+9 k ) .
+e5 sin 5( eQ ?
+k/ e4 $2 cos =k : k--4 / e2 e4 k e4\ 2 4.+ 8e cos tO + ( Il -- ) e2cos2 'r 1_ -e 7 ke2e2s + ( il + - ) .
+e4 cos 4 / , / 25 9+ is + cos. c0spi s2 sin k e4 kS e4 2$ no )8 " - .
+e2 sin 2 si + 16 sl + ( T +e sin 5s cos kr = e4 + ( 4 e2 -1 + k2 e4 ) ecosp ( 4 32 9* P\ 2 +(+( + ' )cos 33+8 e4 cos 4p+(+ ) cos 5p 7ke4 ce e2 3en ke ss3 .
+esin k+ -sin2 .
+e+ sin 3p +-k.e1 sin4 +.e5sn5 3 e4 e2 eCkae cs 2os2 e3cosk cos cos2 cos3 + .
+p+ cos 4 .
+e5 cos 5 ssinkk e4 .
+Ske I s4 sin kr -4- .
+e sin p+ e. e3 sin 3p + .
+e5 sin 55 e4 5 e2 iS cos k0 ---k .
+e cos + --6 .
+e3 cos 3p+ -6 e cos 5p The use of these serieses is obvious .
+If we wish to determine all the arguments of the order ee in the term multiplied by cos k ( p '+ i ' ) , of the development of , x and x ' representing two positive integer numbers , zero included , of which the sum does not exceed 5 ; we first set aside all the parts of the expression in which i is greater than x , or i ' greater than x , for these contain no quantities of the order e e ' .
+Let A b( X s3 s ' cos k(+i i ' ) be one of the remaining parts , in which i is not greater than x , nor i ' greater zx than ' ; in the serieses s cos k &lt; and s sin k a , take the terms Ae cos xp and 'i i ' xI Be sin x t ; and , in s cos k a ' and s ' sin k e , take the terms A ' e ' cos x ' and B ' e ' sin x ' ; then all the arguments of the order e e ' will be contained in the formula i ( k ) xvA b. X 3e e ' X cos k( ' ) .
+{ A Acos Acos x Fb cos X ' p+B B ' in sin sin x ' } sin k ( p { ' ) .
+{ A ' B sin xp cos x ' AB'cos xp sin x'pJ ' } And thus are computed all the quantities of the order ex e ' in any term of the development of D. The procedure is exactly the same with that followed in the expansion of the first part of the disturbing function in ? ?
+2 .
+All the arguments of the order e " e ' " are only four , comprehended in the formula k( x_ ) 4+ x'_ , which represents all the different ways of combining xp and x ' p ' by addition and subtraction , with k ( p p ' ) .
+Hence it is easy to ascertain the orders of the same argument , or the relative magnitude of its coefficients , as it recurs in different terms of the development of A. 7 .
+We have next to consider the parts of the disturbing function which depend on the inclination of the orbits .
+1 rr ' Development of sin2 r , I. -D3 .
+Omitting quantities above the third order with respect to s and s in the expression of Dfound in ? ?
+3 , we have + ( 3 ) 1B= Bs ' + B1 ' '2 +B s'B ( 0 ) ( 1 ) ( 2 ) -A Bs AB 2ss'AB 3s '2 ( 0 ) ( 1 ) + A2 B ( ?
+)2 + A2 B3 s2 ' ( 0 ) -A3 B s3 .
+( 0 ) ( I ) As the values of B , B , &amp;c. , contain -o and its powers , they may be regarded as functions of cos 4 : taking the differentials with regard to this variable , we get , ( o ) dB( a ac a at fa af ( 0 ) xTxB ' d ( cos 4 ) --DJ Dof dB _ aat j3 f( ) d(cos 1)f j* D+ *D45= ' XBo ' dB( at3f6h f2 15 f3\ a / ( 2 ) d(cos+ ) -Do , 4D8 dBe aa ' 5f7 18 h.f2 45 30h f 35 f4 d ( cos 4 ) fX+ 16 ' D-o6 1 16 D + The values of B'( ) B ' ) &amp;c. , may be reduced to expressions that contain only f Dand -fand their second and fourth differentials , by the same process that was applied to B , B , &amp;c. , in ? ?
+4 : and in this manner we obtain , B , ( ) f 'D03 B _..2 1d_ 3 42 Df =4 Do(3 h* +2 D , --+(31-+'h-+ ) +f i __ tained bysubstituting in BB &amp;c. , thepartsof and their diffe entials , multiplied by the same cosine .
+Let I 1 , ( , ' ) _ 4hk+ Q7h+ 1I 48h ? ? ?
+?+54h +1 dI )o 1D 9hcosk + dO h cSb hSddf 936 10oS2 23 Jt 33 f lOh +9 Do +B B B , Bd o The term multiplied by cos k , in the expansion of Dr , will now be ob 1f tained by substituting in B ' ( ) , B ' &amp; ) , &amp;c. , the parts of- , fo and their differthe expansion of sin multiplied by the same cos will be thus exopressed , ) cos k a ' X , a a ' denote the expressions into which B , ( ?
+) , B , ( 1 ) , B , ( 2 ) , B , ( s ) , are changed by the substitutions mentioned ; the quantity sought , or the part of the expansion of sin2 - } IX q multiplied by cos k , , will be thus expressed , sin2 I.cosk( ( - ' --+ -tr xq a ' X b. ' b , b+ V2( sr82+ b+ Sf3 ( )(c)( ( i ) -Alb ' s-A bA 2ss ' 6 ' 3ss2 +Ab)+ l , b ' ( ) 3 ss2 S , ( k ) A3bt 53 : ( li ) ( ic ) and the values of b ' , b'( , &amp;c. , will be as follow : b ' , , f 4h2 + 27 h+1 48 1z2 + 54 A1kC b'[ ?
+3 -4 h+ 2 ) +h ( k ) -+ 2 +}.+ formula may be found for calculating each of the six separately .
+The expansion of this part of the disturbing function is therefore reduced to the expressing of 3s ' s cosk+ 3 +2'h+- ) q in a series of simple cosines , i ' and i being any positive numbers , zero included , the sum of which , i ' +i , does not exceed 3 , and 3 being the coefficient of s ' s i( +7 in ( s ' + s ) .
+By substituting what q stands for , we have , ii s ' s cosk ( + ' ) Xq Vi i+ 2S S COS ( k 1 ) ( c ( ' -+ a ' ) MDCCCXXXlI .
+4G s s cos ( k 1.k 1.'2v+ k.-k + 1 .
+' ) s/ Jcos ( k + 1 .
+-1.'--2y + vl-k k21 .
+, k ' ) .
+As the argulments in the expansions of these four terms are different , each terIn must be computed separately , for which purpose the method in ? ?
+6 may be used .
+Thus s ' s cos ( k. -k+ l. p'--2+k-1.r k+ -I.~ ) -=cos -(kl.-~ +1 .
+-2 ( cos ( k- , l).1 )( cos ( k +l ) )+ ( s'sin ( k1 ) ) .
+( ssin ( k+ 1 ) } ) } -sin(k--.-I k+l.'-2 p{ ( ssin(kl ) ).(s cos k+ 1 ) ' ( si cos ( k ) ) .
+( .-/ sin ( k +l ) ' ) } ; and the quantities within the brackets being known serieses , the part of the expansion of any order e e ' , is readily obtained .
+8 .
+One part of the disturbing function yet rerains to be considered .
+Expansion of sin4 I X. .
+X q2rrt In the expression of-found in ? ?
+7 , leave out quantities of the second and third order with respect to s and d " , and we shall have , r ra tan .
+f B , ( ?
+) B ' , ( 1 ) , os i =4 t Xa { iB'0+ +iB'.e'cosy 0 AB'e , ecos .
+Now let ( d B(o ) a. a't B"( ?
+) ( 1 ) I 1dB'wtt _-aa !
+( It fg f1 , and differentiate ( cos f Dthe5 +4 Datively to the vriable cos and differentiate the formula for i. r relatively to the variable cos , introducing the new symbols , and observing that a-=- , the result will be , -r ?
+2 tan2 x0 B " +Be cos t , D4 X'cos B ' e cos p. ( 0 ) ( 1 ) 1 The quantities B " ' and B " , when expressed as before in terms of D and Df and their differentials , will be as follow : B(O ) fa _1 dd 1B_.Do 5 '=--2 d Do + 2h .
+D0.f/ 15 f3 , B , ,(~ ) ; +_11 dd fdd ' JJ 4* DoD +4* Do7 3 -(8 h i.y++ ) +(8h+h- ) .
+Proceeding as before , let cos k_ , _ ( an ) cos k ( k ) aX b"o , andX b2 represent the expressions into which B"( ?
+)and B"(1 ) f are changed , when we substitute , instead of and 3 and their differentials , the parts of these quantities multiplied by cos k ' : then the part multiplied by cos k4 in the expansion of sin4 2IX3 D5 X q , will be thus expressed : sin4 Ix cos k('+ c-- ' ) x q2 The coefficients for any proposed value of k may now be readily computed ; and nothing is wanting in this part of the problem but to reduce the factor , cos k ( -p +{+ ' ) os ( +++ Gr -2 ) } , to the form , WM + M ' Xe sin P+ M " X e ' sin t ' , and then to multiply by it , retaining in the product only quantities of the first order relative to e and e ' .
+Now in this there is no difficulty : but the complete development of the expressiol would be bulky , and would contain many arguaiments , the greater part of which are insignificant and useless , although somile of them deserve attention in particular !
+researches .
+Leaving astronomers to select from the general expression the arguments which may suit their purpose , we shall here close what we had to offer respecting the development of the disturbing function , without adding to the length of this paper by any application of what we have written.:May 30 , 1833 .
+592
+

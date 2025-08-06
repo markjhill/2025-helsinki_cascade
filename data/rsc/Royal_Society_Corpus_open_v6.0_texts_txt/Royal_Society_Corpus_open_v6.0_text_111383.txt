@@ -1,0 +1,80 @@
+V. " On Determinants , better called Eliminants .
+" By Professor FRANCIS NEWMAAN , M.A. Communicated by Dr. BOOTH , F.R.S. &amp;c. Received March 6 , 1857 .
+( Abstract .
+) 1 .
+This paper aimed at recommending the introduction into elementary treatises of the doctrine of Determinants ; which , following Professor Boole , it called Eliminants .
+It exemplified the great aid to the memory which the notation afords .
+It undertook to show , that if only so much of new notation be used , as is needed in elementary applications , the subject becomes full as easy as the second part of algebra .
+The method of proceeding recommended may be understood by the following concise statement .
+If n linear eqq .
+are given , connecting n unknown quantities ; and every eq. is represented by A,.x + B.x2 , + C,.x3 + * ?
++ N,.X , = P , .
+( where r is 1 , 2 , 3 ... n in the several eqq .
+) , then , solving for any one of the unknowns , we of course obtain a result of the form nmx-a .
+Very simple considerations then show , that m and a will be integer functions of the coeficients : namely , it is easy to prove , that if this is true for one number n , it must needs be true also for the number ( n 1 ) ; and consequently is generally true .
+Next , the same analysis exhibits , that m= 0 , is the result obtained , when P P2 P3 ... P ?
+all vanish : moreover , that if the system presented for solution be the ( n-1 ) eqq .
+Bv+B2v2+B3v3 , +. . ?
++B=01 +By + B*v + Bv ... In adapting the theory to the proof of elementary propositions , as , in forming the Product of two Eliminants , the paper urged the utility of the principle , that every Eliminant is a linearfunction of any one of its columns , and also , of any one of its rows ; -which principle may often be so applied as to show by inspection , a priori , that certain constituents are excluded from this and that function , and thus enable us to obtain its value by assuming arbitrary values for such constituents .
+It deprecated ( at least for elementary uses ) the notations used by Mr. Spottiswoode * and others , not only as involving needless novelty to learners , but because no page can be broad enough to afford to write ( 1 , 2)(1 , 1)'+ ( 2 , 2)(1 , 2)'+(3 , 2)(1 , 3 ) ' instead of BX+6Y+ iZ , and because accents , so related , are hard to see in a full page , and the general aspect of every element is so like that of every other element , that the fatigue of reading soon becomes confusing and intolerable .
+2 .
+But the main topic of the paper was to advocate the use of Eliminants in Geometry of three dimensions , especially in every systematic treatise on Surfaces of the Second Degree .
+Various illustrations and results were given , which the writer believed to be new ; on which account , some of them may be briefly noticed here .
+Problem .
+" To find the length of a perpendicular p , dropped from a given point ( a b e ) , on to a given plane lx+ my + nz+p= ; when the axes are oblique , and the cosines of the angles ( xy ) ( xz ) ( yz ) are given ; viz. =D , E , F. " Result .
+Take G and H to represent the eliminants 1DE1DEID1F -m G= D1F andH= OF 1-n Imn0 then p is known from the eq. p VtlI ( la m+ mbn +p ) )VG .
+When p is given , this eq. determines the relations between Im np , which are the test , that the plane may touch a sphere given in position .
+Problem .
+To analyse the forms assumed by the locus of the general eq. AX2+ By2 + Cz2+ 2A2x+2By+ 2C2z + 2Dxy + 2Exz + 2Fyz + G=0 ( axes oblique ) .
+DEAD A , AE BF B Result .
+Let V= DBF and W= ; then in EE FC C , A2 B , C , G the common treatises ( only without this notation ) it is shown that when V is finite , the surface ( if real ) has a centre .
+It is here added , that when W is negative , the curvature is everywhere towards the same side of the tangent plane ; when W vanishes , the tangent plane coincides with the surface in one straight line ; but when W is positive , the surface is cut by the tangent plane in two intersecting straight lines , and the curvature bends partly towards one side of the tangent plane , partly towards the other .
+Hence it appears that we have different sorts of surfaces , by combining V=0 or V=finite , with W=0 or W=positive , or W=negative .
+The locus is imaginary , if W is &gt; 0 , A and B finite , CG--C2 &gt; , O AE A2 andC EC C2 &gt; 0 .
+A2 C2 G The locus is degenerate , if of ABC one at least ( as C ) be finite , AE AS BF B2 andifV=O , EC C2 0 , FC C2 =0 : or if ABC all A2 Cs G B2 C2 G vanish , and if at the same time D-O , and E : F : C2=2A : 2B2 : G Problem .
+To investigate the nature of the plane intersections of the surface .
+Result .
+If the cutting plane be lx+my--ns+p=0 , the section is ADEIa hyperbola , parabola or ellipse , according as E FC is posiI m r2 o tive , zero , or negative .
+ADE A2 , I DBFBm The intersection degenerates , if IEFC C2 n =0 .
+i A.2B.CG pmnpo In a non-centric surface , where V=0 , we readily find that the former of these eliminants has the same sign as ( D2-AB ) ; and consequently , that non-centric surfaces cannot have sections of opposite species .
+It also appears , that to determine in a non-centric surface the parabolic sections , we must take Imn such as to verify one of the three eqq .
+ADEADEImnDBF =0 , Imn ==0 , DBF =0 .
+I mn EEC OF C Problem .
+To determine the circular sections , when they exist .
+Result .
+Take the larger question , of ascertaining when two surfaces of the second degree intersect in a plane curve .
+Denote the coefficients of the second surface by accents .
+Put a-Ap-A ' ; t/ =Bp-B ' ; y=Cp-C ' ; &amp;c. and determine p by the eq. a/ 3 p =0 ; ey which involves p in the third degree .
+Then Imn will be determined ( when the surds are real ) by the proportion I : , n : = / ( E2-ay)+e : V/ ( 92-py ) + : yTo apply this to the problem of circular sections , it is only necessary to suppose the second surface to be a sphere .
+The surface becomes one of Revolution , if ( with oblique axes ) either system of three eqq .
+is fillfilled : ( 1 ) aP/ 3=2 , ay= , 2 PY= 2 , ( 2 ) ap = ze , / 3e= P , y=CP .
+If out of each triplet we eliminate p2 and p , ( for it seems easiest to treat these as independent variables , ) the result is two eqq .
+( expressible by eliminants ) , which are the two general conditions for a surface of revolution .
+Problem .
+To find the system of rectangular conjugates .
+This of course is cardinal , and is treated everywhere : but is made far easier by Eliminants , as follows .
+Let us inquire after that diameter , common to two given concentric surfaces , which shall have its conjugate planes the samefor both .
+Take the centre for the origin , and x=mz , y=nz for the common diameter sought .
+Then the central planes conjugate to it in the two surfaces are ( Am+ Dn+E)x+(Dm+ Bn+ F)y+(Ew+Fn+ C)z=0 ( A , i + D , n + E')x + ( DIm + B'n + F')y + ( Em +F+ C+ = .
+To identify these two planes , let Amn+Dn+E Dm+1Bn3+F Em+Fn+C I A 'm + Dn+ E'~ Dm+ Bn + Fl E'lm+ Fln + Cfp or amn +e =m n+ =em+ n+ y=0 .
+Eliminate m , n , and you find that p is to be determined by the very same eq. as in the preceding ; and since its eq. is of the third degree , it has always one real value .
+Next , let the second surface be a sphere , and you find at least one diameter of the first surface perpendicular to its conjugate plane .
+Make this diameter the axis of x , and take for the axes of y and z the two principal diameters of the section in the conjugate plane .
+Then D=0 , E=-O , F-=0 ; so that the general eq. is reduced to Ax-+ By2 + Cz ' +G= O. Moreover , the system of axes is now rectangular : hence the axis of y , and that of z , equally with that of x , are each perpendicular to its conjugate plane , and the eq. for p must have three real roots , corresponding to these three axes .
+We might similarly investigate " the conditions of contact for two concentric surfaces ; " which , when one of them is a sphere , gives the cubic whose roots are a ' , 2 , c2 , principal axes of an Ellipsoid .
+Problem .
+To discuss the results ; of Tangential Co-ordinates .
+[ This expression is employed as by Dr. James Booth in an original tract on the subject .
+] Put P=Ax+ Die +Ez+A2 R=-Ex+ Fie +Cz+C2 QDx +By+ F+B2 S-=A2+B2+Cz-+G Then Px + Qy + Rz S=0 is the eq. to the surface , and Pxt + Qyr l-Rz+'-S=O is the eq. to the tangent plane at ( xyz ) .
+Hence if x !
+y'z ' are the three tangential co-ordinates ( or intercepts cut from the co-ordinate axes by the tangent plane ) we have Pzx +S -0 , Qy ' +S =0 Rz'+S=-0 .
+Let 5qz be the reciprocals of x y ' z. Then P+S=0 , Q+ IS=0 , Rl+ S=0 ; and the eq. to the surface becomes 4-+ liy + 4z1 = 0 .
+Restore for PQR their equivalents ; then eliminating xyzS you get ADE A2 DBF B2 rl EFC C2 =0 ; A2 B2 C2 G-1 4--1 0 general eq. to the surface , with axes oblique .
+If the last eq. ( developed ) be represented by a2+br2-2+ c42+ 2a2+ 262N +2c24 + 2d4+ 2e+4 + 2f -+g=0 , it is not difficult to obtain a system of eqq .
+in which abc ... r4r ' play the same part , as just before did ABC ... yz .
+Whence again we have ade as xdbf b , yef c2 z =0 ; a2 b2 c2 g-1 xy z-1 0 which is the original eq. of the surface under the form of an Eliminant .
+The most arduous problems ( as Dr. James Booth has shown ) are often facilitated by these co-ordinates ; but without Eliminants , the eqq .
+cannot be treated generally and simply .
+The paper likewise contained the application of Eliminants to tangential co-ordinates in Curves of the Second Degree ; and urged that eliminants ought to be introduced into the general treatment of these curves also , if only in order to accustom the learner to their use and gain uniformity of method .
+Thus , if the general eq. be Ax2+ By2 + C+ 2Ex+ 2Fy+ G=0 , then V=O is the test of degeneracy .
+

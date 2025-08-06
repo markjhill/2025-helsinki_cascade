@@ -1,0 +1,134 @@
+On a New Auxiliary Equation in the Theory of Equations of the Fifth Order .
+By ARTHUR CAYLEY , Esq. , F.R.S. Received February 20 , -Read March 7 , 1861 .
+CONSIDERIN the equation of the fifth order , or quintic equation , ( *0V , 1)5= ( v-X1)(v-X2)(v-X4)(vX)(v-x5)=o , and putting as usual fJ = x1 +2+ 3+ + W4X , where v is an imaginary fifth root of unity , then , according to LAGRANGE'S general theory for the solution of equations , fw is the root of an equation of the order 24 , called the Resolvent Equation , but the solution whereof depends ultimately on an equation of the sixth order , viz. ( fVw ) , ( f02)5 , ( fCi3)5 , ( fO4)5 are the roots of an equation of the fourth order , each coefficient whereof is determined by an equation of the sixth order ; and moreover the other coefficients can be all of them rationally expressed in terms of any one coefficient assumed to be known ; the solution thus depends on a single equation of the sixth order .
+In particular the last coefficient , or ( fi -fi fci3.f/ 4)5 % is determined by an equation of the sixth order ; and not only so , but its fifth root , or f fJ2.fW3.f .
+4 ( which is a rational function of the roots , and is the function called by Mr. COCKLE the Resolvent Product ) , is also determined by an equation of the sixth order : this equation may be called the Resolvent-Product Equation .
+But the recent researches of Mr. COCLLE and Mr. HARLEY* show that the solution of an equation of the fifth order may be made to depend on an equation of the sixth order , originating indeed in , and closely connected with , the resolvent-product equation , but of a far more simple form ; this is the auxiliary equation referred to in the title of the present memoir .
+The connexion of the two equations , and the considerations which led to the new one , will be pointed out in the sequel ; but I will here state synthetically the construction of the auxiliary equation .
+Representing for shortness the roots ( x , , x2 , x , , X4 , x ) of the given quintic equation by 1 , 2 , 3 , 4 , 5 , and putting moreover 12345=12+23+34+45+51 , &amp;c. ( where on the right-hand side 12 , 23 , &amp;c. stand for x , x , , x2x3 , &amp;c. ) , then the auxiliary equation , say ( *Pk , 1)6= 0 , has for its roots p1=12345-24135 , ~4=21435-13245 , p2=13425-32145 , 5= 31245-14325 , 3= 14235-43125 , p6=41325-12435 , and , it follows therefrom , is of the form ( 1 , 0 C , O , E , F , G l , 1)6=0 , where C , E , G are rational and integral functions of the coefficients of the given equation , being in fact seminvariants , and F is a mere numerical multiple of the square root of the discriminant .
+The roots of the given quintic equation are each of them rational functions of the roots of the auxiliary equation , so that the theory of the solution of an equation of the fifth order appears to be now carried to its extreme limit .
+We have in fact 1,6+~2,4+~,5~=(*Xx , 1)49 P1P2+ 93P4+ P5P6= ( *2X2 1)45 1,54 + P23 + 46 ( *XX3 , 1)4 , P1I3 + I6 + P3-(*X$ , , ) )4 , 1 , 4+2 P5 + P3,6=(*X,5 I)4 , where ( *Xx , , 1)4 , &amp;c. are the values , corresponding to the roots x , , &amp;c. of the given equation , of a given quartic function .
+And combining these equations respectively with the quintic equations satisfied by the roots xl , &amp;c. respectively , it follows that , conversely , the roots x , , x , , &amp;c. are rational functions of the combinations P , i6+,2+a-%5 , ,p%-+p%+ , -6 , &amp;c. respectively , of the roots of the auxiliary equation .
+It is proper to notice that , combining together in every possible manner the six roots of the auxiliary equation , there are in all fifteen combinations of the form 1yP2+O3P4+ 5'6 .
+But the combinations occurring in the above-mentioned equations are a completely determinate set of five combinations : the equation of the order 15 , whereon depend the combinations , p-P2+3p4+P56 , is not rationally decomposable into three quintic equations , but only into a quintic equation having for its roots the above-mentioned five combinations , and into an equation of the tenth order , having for its roots the other ten combinations , and being an irreducible equation .
+Suppose that the auxiliary equation and its roots are known ; the method of ascertaining what combinations of roots correspond to the roots of the quintic equation would be to find the rational quintic factor of the equation of the fifth order , and observe what combinations of the roots of the auxiliary equation are also roots of this quintic factor .
+The direct calculation of the auxiliary equation by the method of symmetric functions would , I imagine , be very laborious .
+But the coefficients are seminvariants , and the process explained in my 264 memoir on the Equation of Differences was therefore applicable , and by means of it , the equation , it will be seen , is readily obtained .
+The auxiliary equation gives rise to a corresponding covariant equation , which is given at the conclusion of the memoir .
+1 .
+I will commence by referring to some of the results obtained by Mr. COCKLE and Mr. HARLEY .
+In the paper " Researches on the Higher Algebra , " Mr. COCKLE , dealing with the quintic equation v--5Qv+E=O , obtains for the Resolvent Product 0(=fwfc2fwf c4 ) the equation 06+ 2QE55D0+ 2Q4573j+ Q2E251002(5 8Q5 -E3)E0+ 514Q8= 0 ; and he remarks that this equation may be written ( 0 ' + 55QE0 + 57Q4)2 = 510(108Q5EE4)0 , so that / is determined by an equation of the sixth order , involving the quadratic radical V/ E(E3-- !
+i08Q5 ) , which is in fact the square root of the discriminant of the quintic equation .
+2 .
+, Mr. HARLEY , in his paper " On the Symmetric Product , &amp;c. , " makes use of the functions r =xIx2+X2-x,3+ -xx4+x4~X5+X5x~(=12345 ) , - " = x , x , + x , x +4 x , x , + x~~ + x , x , ( ( = 2 4135 ) , 1= 3l43+X3X5 +X52+X2X4+X4X(=24135 ) , and he obtains for the form v5--5Qv+-E=O , the relation 0=5rr ' , which , since here +r'=-0 , gives 0= -5r2 .
+Hence r(= =/ is the root of an equation of the sixth order involving the radical v/ E(E-108Q5 ) , and which is in fact ( t= --= =/ - ) the equation t5+ 5QEt2f+/ E(E -1085)t5Q4= 0 , given in Mr. HARLEY'S paper " On the Theory of Quintics .
+" 3 .
+And in the same paper there is given a system of equations t , lt3+ + t4 , +t,6-=x(a"Q--x ) , &amp;c. , connecting the five roots of the given quintic equation with the combinations tlt3 + t2t5+ t , t &amp;c. of the roots of the equation in t. 4 .
+I quote also , with a slight change of notation , the following results from the paper " On the Symmetric Product , &amp;c. , " viz. considering the quintic equation under the form ( a , b , c , c , d , e , f.cv , 1)5=0 , we have fwf 4= 4 +r 7(w +C4 ) + r7t(J2+ W ' ) fa2fV3==2c+ ( ' + 3)+cc(x + ) , where --2_ =XI-+ XI +XIt3 + X5--(b_ 2ac ) , Sa'^^+^+a:4+ri+r^ ( 222ac ) , / ?~C Ca~lga and thence , observing also that r+ ' , l=-a4O( = a4Jf 2r43 f4 ) = 6a2c15ab2c+ +A b+ La4r ' , r or as this equation may also be written , 4a4= ( 5a -2b)2-_5a4( -)2 ; and hence the Resolvent Product d(_ =WfW2fWfff4 ) being determined by an equation of the sixth order , this is also the case with the function ( r--r')2 .
+5. .
+But the twelve functions -(r--r ) can be divided into two sets of six functions each , so that each set is determined by an equation of the sixth order involving a single quadratic radical .
+This was in fact suggested to me by Mr. HARLEY'S equation in t ; for in the case considered t+t ' was -=0 , or 2t=t-t ' , and the equation in t was presumably the particular form of the equation for I(t--t ' ) in the general case .
+But it will presently appear in yhat manner the conclusion should have been arrived at &amp; priori .
+6 .
+The Ipreceding remarks show the connexion between the function t(--=r-r ' ) to which belongs the new auxiliary equation , and the Resolvent Product 0(=fwfcfMfw24 ) .
+The relation was given for the denumerate form of the quintic ; but taking , instead , the standard form ( a , b , c , d , e , f)v , 1)5=0 , it becomes 4a ==2500(ac -b2-5a .
+7 .
+The foregoing equation shows that ; is a seminvariantive function of the roots .
+In fact f= , = -x , + ( X2X2 5 ) + )2(x3-X5 ) + c3(X -x 5 ) is seminvariantive , and JfA2 , fAW3 fiT4 ' being in like manner seminvariantive , the product 6(=fWfW2fofIff4 ) is also seminvariantive ; ac-b2 and a are seminvariants , and therefore p is a seminvariantive function .
+8 .
+But it is easy to show this directly .
+For representing , as before , the roots by 1 , 2 , 3 , 4 , 5 , we have ( 15)(2-5)+(2-5)(3-5)+(3-5)(4-5)=12+23+34-5(1+22 +23+4)+ 352 , ( 25)(4-5)+(4-5)(1 -5 ) + ( 1-5)(3-5)=24-f-41+13-5(2+24+21 + 3)+ 352 and the difference of the right-hand sides is 12+23+34-5(2+ 3 ) -24-41-13+5(4+1 ) , which is =12345-24135 .
+So that p , =(1--5)(2--5)+(2-5)(3-5)+(3-5)(4-5)-[(2-5)(4-5)+(4-5)(1-5)+(1--5)(35 ) , is a function of the differences of the roots , that is , it is a seminvariantive function , 9 .
+To account for the division of the twelve values of +(7r-r ' ) into two sets as above , 266 and to explain the formation of a set , consider the symbols 1 , 2 , 3 , 4 , 5 as belonging to five points .
+We may with these five points form in all ( '.1.2.3.4=)12 pentagons , and the symbol 12345 of any pentagon may of course be read backwards or forwards from any point ( 12345 = 23451 = &amp;c. = 15432= &amp;c. ) without alteration of its meaning .
+Now attaching to each arrangement of the five numbers a sign , + or - , according to the ordinary rule of signs , 12345 being as usual positive , the arrangements 12345 , 23451 , &amp;c. . .
+15432 , &amp;c. , which belong to the same pentagon , have all of them the same sign ; and we may consequently connect with each pentagon the sign + or - ; there are , in fact , six pentagons with the sign + and six with the sign - ; and to each positive pentagon there corresponds a negative pentagon , which is derived from it by stellation , viz. to the positive pentagon 12345 there corresponds the negative one 24135 , and so for the other positive pentagons .
+The above-mentioned system of equations ==12345-24135 , P= 21435-13245 , P= 13425--32145 , 5= 3124514325 , p,3= 14235-43125 , p-=41325-12435 , in fact exhibits the six positive pentagons , each accompanied by its stellated negative pentagon , and the formation of the system of equations is thus completely explained ; the order of arrangement of the pairs inter se ( or , what comes to the same thing , the order of arrangement of the suffixes of the p 's ) is wholly immaterial .
+10 .
+The six pairs of pentagons , or , what is the same thing , the p 's , correspond to each other in pairs in a fivefold manner , quoad the numbers 1 , 2 , 3 , 4 , 5 respectively ; thus , quoad 5 , the pairs are p , and P4 , P2 and 59 , P3 and p6 , or say 1 and 4 , 2 and 5 , 3 and 6 .
+The relation is best seen by means of the positive pentagons ; thus , quoad 5 , in the pentagons 12345 and 21435 , the points adjacent to 5 in the one of them are the points 2 , 3 , and in the other of them the complementary points 1 , 4 ; and so in the other cases .
+The fivefold correspondence is shown by the symbolical equations 1=16 , 24 , 35 , 2=12 , 34 , 56 , 3=15 , 23 , 46 , 4=13 , 26 , 35 , 5=14 , 25 , 36 , which , in fact , indicate the combinations of the p 's which correspond to the several roots of the quintic .
+11 .
+It is proper to notice that the right-hand sides of the last-mentioned equations contain all the duads formed with the six numbers 1 , 2 , 3 , 4 , 5 , 6 , each duad once , and once only .
+There are in all six such synthemes of duads , viz. 2o2 267 , i.25.36 14.23.56 14.26.35 15.23.46 15.24.36 15.23.46 16.24.35 16.25.34 16.25.34 which is act the theorem whereon depends the existence , for six letters , of a 6-valued function not symmetrical in respect of five letters .
+There is not any peculiarity in the syntheme of duads which above presented itself ; the occurrence of this particular syntheme , instead of any other , arises merely from the arbitrary selection of the suffixes of the p 's .
+12 .
+It is hardly necessary to remark that if the pentagon 12345 had been assumed negative instead of positive , the only difference would be that the p 's would have their signs reversed .
+13 .
+I proceed now to the calculation of the Auxiliary Equation .
+As the working is rather easier for that form , I shall in the first instance take for the given quintic the denumerate form ( a , b , c , d , e , f Xv , 1)5=0 .
+Representing , as before , the roots x , , x , , , x , x , of this equation by 1 , 2 , 3 , 4 , 5 , and writing 12345=12+23+34+45+51 , &amp;c. ( where on the right-hanld side 12 , 23 , &amp;c. stand for x , ,2 x2x , , &amp;c. ) , we have to find the equation ( *k , 1)6=0 , the roots whereof are , =12345-24135 , p4=21435-13245 , p2-13425-32145 , -5=31245-14325 , p3=14235-43125 , p6=41325--12435 .
+As already remarked , the coefficients are seminvariants , and if the equation is in the first instance calculated for the particular case f 0 , the terms inf can be separately determined .
+But putting f=0 , one of the roots , say 5 , becomes =00 , and the remaining roots 1 , 2 , 3 , 4 are the roots of the quartic equation ( a , b , c , d , e(v , 1)4=0 .
+14 .
+Writing for shortness 1234=12+23+34 , &amp;c. , and putting also A=12+ 34 , B =13+42 , C=14+23 , 268 then we have P , =1234-2413=12+23+34-24-41-13 -A-B +23-14 , 2= 1342-321413+34+4232-21-14=B -C + 34-12 , 3= 1423-4312=14+42+2343-31-12C -A+42-13 , p4=2143-1324 2 1+14+43--1332-24=A 23+14 , -3124-1423=31+12+24-14-4223=B-C -34+12 , p6=4132-1243=41+13+32-12-24-43=C-A-42+13 .
+15 .
+We have then ( -I)(P-P4)=(P-A+B)2-(14-23)2 =(--A+B)2_C2 4- .
+1234 , where 1234 denotes the product of the four roots ; the functions A , B , C , and the product 1234 , are each of the degree zero in the coefficients ( a , b , c , d , e ) ; and if we put b= c , c=-4ae +bd , d= 4ace-ad2 be , then we in fact have a 2A =-b , a2EAB = c , a3ABC =-d , a.1234= e. But on the understanding that p is ultimately to be changed into ap , it is allowable , and it will be convenient to write 2A =-b , * AB= c , ABC= -d , 1234= ae .
+16 .
+I assume also B +C -A=a , C+A-B=13 , A+B -C=y .
+And we have thus ( --p , )(q--i4)-=(Q-+a)(q--3)+4ae , and .
+' .
+also ( -P2)(QP5)( + -3)( 7 )+ 4ae , ( -P3)(-r6)=(p+ r)( -a )+ 4ae , so that the equation in p is [ ( -+ &gt; )(~Y)+ 4ae[( + )(--a ) + 4ae[( + ))( 3)+ 4 ] = 0 .
+269 To obtain the symmetrical functiols of cs , y , r it is only necessary to remark , that if in the identical equation ( 1 , b , c , djO , 1)--(-)(--B)(0-C ) , we put +( +A+B C ) , =(z-b ) , in the place of 0 , the equation becomes ( 1 , b , c , dlX--b , 2)3--(X+)(z+P)(%+y ) , so that we have a ---b = c , 2ac b2+4c =16ae +4bd -c , 0=y b3-4bc+8d= 16ace8ad2862e+4bcd-c3 .
+18 , The developed expression for the equation in p is easily found to be p6 7 + &lt; P4.-2a2+ 12ae +z2 .
+a23P2 4ae(Ea2+ a3)+48a2e2 &gt; -0 .
++ 2e/ 3y2 +4aeo3yOa16a2e223 + 64a3e3 19 .
+In this equation the coefficient of p is -4 ae .
+8(B-A)(C-B)(A-C ) 32ae ( A-B)(B-C)(C-A ) ; or , neglecting the multiplier a , it is --32.1.2.3 .
+4(1-2)(1-3)(1-4)(2-3)(24)(3-4),.which is the value for 5=0 , of 32(1-2)(1 3)(1.-4)(1--5)(2-3)(2 -4)(2-5)(3 4)(3-5)(45 ) , i. e. the coefficient in question is 32.25V a/ v 4+ &amp;c. = 800^/ 5/ a44f+ &amp;c. , where af'4+ &amp;c. denotes the discriminant of the denumerate form ( a , b , c , d , e , fjv , 1 ) .
+20 .
+The remaining coefficients are rational functions of a , b , c , d , e , which have to be completed by the introduction of the terms inf .
+We have Coeff .
+p4 Coeff .
+' =(2a)2 + 22ca +12ae ( I4P)2 2apy2cra 4ae(Zca)2 + 4ae(2ap3 ) +48a2e2 +2(-16ae +4d-c2 ) +12ae .
+= ( 16ae+4bd-c)2 2c(16ace8ad2.8ble+ 4bedc3 ) 4ac2e 4ae(16ae + 4bdc2 ) + 48a2e .
+270 Coeff .
+p ?
+C=o_ 2P232 --(16ace8ad2-8b2e+4bcd-c3)2 + 4aeCa3rpyc +4ace(16ace--8ad--8b2e+ 4bcd3 ) -1 6a2e2et 16a2e2(16ae+ 4bd-c2 ) + 64a3e3 .
++ 64a3e 3 .
+21 .
+Effecting the developments , these are -32 ae +240 ae2 +320 ase3 +8 bd -112 a6bde 64 a2hbde 3c8 ac2e -176 aSc2e2 + 16 acd2 +224 a2cd2e + 16 b2ce 64 a2d4 + 16 b22 +-224 ab2ce ' 16 be2d -128 ab2d2e +3 C4 -112 abe2de + 64 abcd3 + 28 ac4e 16 ac3d* 64 b4e2 + 64 b3cde 16 62c3e 16 b2c2d2 +8 bc4d 1 c6 the first of which is in fact complete ; the others being completed , the equatio ] found to be 22 .
+For the denumerate form ( a , b , c , d , e , fTv , 1)5=0 , the equation in p is ax a4X a2X { -800v/ 5a2V/ r x , 1mA o/ J. .
+~_ 4A1n r,2,7 _1 I.A( 3flfl a3ef ( i-tU --0 aeC tu j -a u+8 bd +240 a2e2 3 c2 -240 abef -112 abde 8 ace + 16 acd2 64 b3 + 16 b2ce + 16 b2d2 16 bc2d + 34 ' -2-.wv , .
+, Vj -1600 a3def + 320 a3e3 -1600 a2b2f2 640 a2bcef + 640 abd2f 64 a26de2 80 a2c2df 176 a22e2 + 224 a2rcce 64a2d4 + 384 ab3ef 192 ab2cdf + 224 ab2ce 128 a62d2e + 48 abcef 112 abe2de + 64 abed3 + 28ac4e 16 ac3dS 64 b4e2 + 64 b3cde 16 bc3e 16 b2ce2d 48be4d 1c X'p~ 1)61 O , where 2 , a4f4+ &amp;c. , denotes the discriminant for the denumerate form .
+n in p is 271 proceed now to form the expression for ?
+, Pp4+ &lt; -2P5+P3P6 .
+23 .
+Writing for convenience x in the place of the root 5 , we have,1=A-B+{23-14+x(1+4-2--3 ) } p4=A-B{23-14+x(1+4-2-3 ) } , or P , P-4=(A-B)2{23-14+x(1+4-2-3))}2 The terms without x are , as before , ( AB ) 2-C2+4.1234 , or -ap+4.1234 , and we have 14p , ----3+4.1234 +-2x(1+4-2-3)(14-23 ) -x2(1+-4-2-3)2 ; and in like manner P2 , P=--3y+4.1234 +2x(1 2-3-4)(12--34 ) -x2(1+2-34 ) , and 3p-6= --ys+4.1234 +2ax(1+ 3-4-2)(1342 ) -x(l+3-4_2)2 .
+24 .
+The roots 1 , 2 , 3 , 4 , contained in these expressions explicitly , and in a , y , y , are the roots of the equation v(a , b , c , d , , fe v , 1)-=0 or , what is the same thing , ( a ' , I ' , c ' , d ' , e'Jv , 1)4=0 , where a ' ==a , b'-=a +b , c'-ax+bx +c , d'ax3+bX2'+cx + d , e'= ax4 + bx3 + cx + dx+ e. Omitting , as before , a power of a , which is ultimately restored , we have P1IP4+ 2 ?
+P5+ 3P6= -p + 12de ' +2xl(1+4-2 3)(1423 ) -x:(l 4-23)2 , where the I 's in the second and third lines denote each of them the sum of the three terms obtained by the cyclical permutations of 2 , 3 , 4 .
+The first line is ( 16 ae'-4 d'+c'2)+ 12a'e ' = 28a'e ' 4Ud + 1c'2 .
+The second line is 2x into 11223123 , --(bl- ' + 3a'd')+ 3ad ' ; 272 or it is = 2x(6a'd'l'c ' ) ; and the third line is -x2 into 3212-2212 , =3(b'2 --2ac')2a'c ' ; or it is =x2(8a'c'3 ' ) .
+Hence , combining the three terms , 01P + p'5 +d 'p+6= 28a'e ' -4b 'd I c'2 + ( 12a'd'-2'c ' ) +x 2(8ac'-3b'2 ) , or substituting for ( a ' , b ' , c ' , d ' , e ' ) their values , the right-hand side is =(40a2 , 32ab , 28ac-8b62 , 44ad-8bc , 28ae--4bd+lc2Xx , 1)4 , nhere x stands for x , and on the left-hand side the factor aL is to be restored .
+25 .
+Writing for shortness ( *Ix , 1)4=(40a2 , 32ab , 28ac--8b2 , 44ad--8bc , 28ae-4bd+lc2x , 1 ) % , the equation is a 2(p I4+ 4A5 + 3cP9)31(6* ) 51 1)4 ; and the system of equations to which this belongs is a( ?
+p , ?
+, + 52d-4+P35 ) ?
+= ( *)x , , 1 ) , at 2(1+ 1 p32p,3 + 4,6)=(*Xl2^ 1 )4 , a 2( 1 p3 + 263+ 36)= ( *IX3 , 1)4 : a*2(p , A+ 02,6 + p356)= ( JSX4 , 1)4 ; so that the roots x , x2 , , x,5 will be rational functions of the combinations,1P6+-O24+- !
+30- , &amp;c. respectively , of the equation in p. AUXILIsRY EQUATION IN 26 .
+Passing now to the standard form ( a , b , c , d , effXv , 1)5=0 , the equation in p is -100 a4X 0 -+1 e -4 bd +3 c2 0 2000 aX -800 2V5v5/ x 40000x --"hC--_ Y ' C. hi 2 ( 2f(l +1 +4 1 a3cf +3 a2e2 2 ca3ef +6 cabc + a1 e3 -14 abde 1 a22f2 a2 e4 a2cef +8 c , d2 +8 a6sbd7f 4 by 2 a"bde2 4+10 bce c a2 cSf +20 b'd2 11 c 2e2 -40 bcd + 28 a2edSe +15 c4 16 a2d4 +6 ab'e ' 12 ab2ctZf ( -+ 35 , ab2ce2 40 ab2dde:+ 6 abcef 70 abc2de + 80 abed3 35 ac4e I40 ac3d2 25 b4e ~I 4F~-+100 6bcde I 50 b2ce -100 btcd2 +100 bc4d 25 c6 where U , = a4f"4+ &amp;c. , denotes the Discriminant for the Standard form .
+27 .
+And if we put ( * , x , 1)4=20(2a2 , Sab , 22ac--lOb , 18ad-lObc , 7ae-Obd+5c2xr , 1)4 , then we have a\(P(@2 + P3P4 + I+ ) ( *X21 1)41 a2(l5+ 23A+ 5P6)= ( *T , 1 ) , a 2(p IP32 + paP4+ 3P65)-(*IX4 , 1)4 , a2('QlP4 +2+ 34 6)(*XX5 1 ) which lead to rational expressions for the roots x , , x. , IX , x , in terms of the combinations ( pip-+ 0`q20+4 &amp;c. respectively .
+28 .
+Consider now the quintic function U=(a , b , c , d , e , f J , y)'-=a(x-ay)(x-3.y)(x-)(x-as)(x-sy ) ; and treating the numbers 1 , 2 , 3 , 4 , 5 as corresponding to a , P , , s respectively , write q)=12345-24135 , where 12345=12+23+34+45+51 , &amp;c. , in which 12 , &amp;c. denote respectively y1 *I-y &amp; C. y x-ay x-py a6X +1( I , 1)6=o , 274 Then we have cD= U [ ; S-X Y ] : where -=12345 -24135 , and 12345=12 +23+ 34+45+51 =ap +y+y-+e-+s- , 24135=24+441+13+35 3+52=-3+-+ay+ is +s3 , and where X=(12345)-(24135 ) , and ( 12345)= 123 +234+ 345+451 +512 =:y+-ys+ySS+ec-+eaj3 , ( 24135)=241+413+135+352+524 -=c3+ay+ays+y7sp+Ep .
+29 .
+In fact , a -=((12345)--(24135 ) , where._ , _ ( 12345)=123+234+345+451+512 , ( 24135)=241 +413 +135+352 +524 , where 123 , &amp;c. denote respectively ( X-n ay)( x-ty)(x-y Y ) , &amp;c. , and ( 12345)--(24135 ) thus presents itself as a cubic fiunction divided by y2 .
+But in this cubic function the coefficients of x3 , x2y vanish .
+For the coefficient of any power of x will be 123+234+345+451 +512-241-413-135-352-524 , where , first , for x3 , 123 , &amp;c. denote respectively unity ; the coefficient of x3 therefore vanishes .
+Next , for x2y , 123 , &amp;c. denote respectively -(1+2+3 ) , &amp;c. ( =-c+P+y ) , and the coefficient of x2y also vanishes .
+But foir xy2 , 123 , &amp;c. denote respectively 12-+23+ 31(=Ca3+ Pie +ya ) , &amp;c. respectively ; the positive terms are ( 12+23 431)+(23+34+42)+(34+45+53)+(45+51+14)+(51+12+25 ) , which are 2(12+23+34+ 45 +51)-(24+41+13+35+52 ) =2 .
+12345+24153 ; and the negative terms , taken positively , are ( 24+41+12)+(41+13+ 34)+(13+35 +51)+(35+52+23)+ ( 52 + 24+ 45 ) , which are = ( 12+23+34+45 +51)+2(24+41+13+ 35+52 ) =12345+2 .
+24135 ; so that the difference , or coefficient of xy , is =12345-24135 , which is -=P .
+And for y3 , 123 , &amp;c. denote respectively -123(=-ap3y ) , &amp;c. , so that the coefficient of y3 is = 2X 2 22 275 The cubic function is therefore =Pxy2-y3 ; and dividing by y2 , we have , CD ( xy ) cP is thus a fractional covariantive function , the leading coefficient whereof is p , and the equation for the determination of &lt; is conrsequently that deduced from the equation for p , by replacing therein the seminvariants by the corresponding covariants .
+The equation is F U6 , E 0 , -100 U4 Tab. No. 14 , &lt; o , ( q , l)6-0 , +o2000U[6(Tab .
+No. 14)-4 Tab. No. 20 ] , --800 U2V/ 5V/ disct .
+=Tab .
+No. 26 , L ( 1 , 3s , ?
+, ID , ( y)6 .
+J where the Tables referred to are those of my Second Memoir on Quantics ; the coefficients are in regard to ( x , y ) of the orders 30 , - , 22 , - , 14 , 10 , 6 respectively .
+The last coefficient , being of the degree 6 in the coefficients ( a , b , c , d , e , f ) , is not given in the Tables ; it is therefore merely indicated by ( , 33 , , ?
+, 0 , I , Jx , y)6 , the leading coefficient 2 being of course the last coefficient in the equation for &lt; P , to the standard form .
+I refrain from at present entering into the consideration of the values of the expressions ( , ryP4+ a2Pq5+OP~3 , &amp;c. 276
+

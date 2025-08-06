@@ -1,0 +1,436 @@
+]\gt ; 504 On a llfeteoric Stone .
+Operators in ematics .
+Feb. 2 , ' ' On a Meteoric Stone found at Makariwa , near Invercargill , New ealand.\ldquo ; By G. H. F. ULRICH , F.G. , Professor of Mining and Mineralogy in the University of Dunedin , N.Z. Communicated by Professor J. W. F.R.S. Received December 14 , 1892 .
+( Abstract .
+) The specimen described in memoir was found in the year in a bed of clay which was cut through in a railway at Invercargill , near southern end of the Middle Island of New Zealand .
+Originally meteorite appears to have been about the size of a man 's fist , and to have weighed 4 or , but it was broken up , and only a few small have been preserved .
+The stone evidently consisted originally of an intimate admixture of metallic matter ( nickel iron ) and of stony material , but much of the metallic portion has undergone oxidation .
+Microscopic examination of thin sections shows that the stony portion , which is beautifully chondritic in structure , contains olivine , enstatite , a glass , and probably also magnetite , and through these stony materials the nickel iron and troilite are distributed .
+The specific gravity of portions of the stons was found to vary between and , owing to the unequal distribution of metallic particles .
+Apartial chemical examination of this meteorite was made by the author and Mr. James Allen , but the complete analysis has been undertaken by Mr. L. Fletcher , F.R.S. , of British Museum .
+The analysis , when finished will be communicated to this Society , has gone so far as to show that the percentage mineral composition of the Makariwa meteorite may } ) expressed approximateIy by the numbers : nickel iron 1 , oxides of nickel and iron 10 , oilite 6 , enstatite 39 , olivine 44 . .
+" " On Operators in Physical Mathematics .
+Part I By OLlVER HEAVISIDE , F.E.S. Received December 15 , 1892 .
+Connexion between a Flux and a Force through an Operator .
+1 .
+In the investigation of physical questions we often have to answer such a question as this : Given a force , a function of the time , acting at one place in a connected system , find the effect , of some given type , produced by the force at its own or some other place .
+Or it may be that it is not an impressed force that is given , but splacement of some kind .
+Or , in order to produce mathe1893 .
+] On Operators in Physical Mathematics .
+501- ) matical simplicity , we may have a space-distribution of force or of displacement given , whose effect is required .
+To answer the question , we may investigate the general differential equation of the system , find its solution ( series , integrals , \amp ; c and then introduce special values of constants or of to limit the generality of the problem , and bring the solution to satisfy the required conditions .
+Details may differ according to circumstances , but this may serve to describe the usual process .
+2 .
+There is , however , a somewhat different way of egarding the question .
+We may say that we have no special concern with the general solution which would express the disturbance anywhere due to initial energy throughout the system ; but that we have simply connected system , a given point ( for example ) of which is subjected to impressed force , communicating energy to the system , and only want to know the effects due to this force itself .
+Since , therefore , the connexions are definite , we must have some connexion between the " " flux " " and the " " force\ldquo ; , say , ( 1 ) where is a .
+of some kind , a function of the time-differentiator , for instance , when the collnexions are of a linear nature .
+Here is some given function of the time , and indicates the performance upon of operations , whose resuIt be to produce the required function F. 3 .
+An important point to be noted here is that there is , or should be , no indefiniteness about the above equation .
+The operator should be so determined as to fully eliminate all indeterminateness , and so that the equation contains in itseIf the full expression of the connexion between the force and the flux , without any auxiliary conditions , or subsequent limitations , except what may be implicitly involved in the equation itseIf .
+Dcferminateness of a through the Operator .
+4 .
+But as soon as we come to distinctJy nize this determinateness of connexion , another point of important significance presenk itself .
+It should be possible to find completely from through the operator without and without external assistance .
+That is to say , an equation of the form ( 1 ) not only expresses a problem , but its solution .
+It may , indeed , not bc immediately interpretable , but require conversion to some other form before its resultant can be seen .
+But it is , for all that , a particular form of the solution , usually a condensed form , though sometimes it may be of far greater complexity than the full ordinary solution .
+In this respect the nature of the function is of controlling importance .
+506 Mr. O. Heaviside .
+[ Feb. 2 , We need not assert that the determinateness of from equation ( 1 ) is true for all forms of the function that may be written down arbitrarily ; but that it is true in the forms presenting themselves in dynamical problems seems to be necessitated .
+5 .
+We have , therefore , presented to us the problem of solving this equation for any particular form of that occurs .
+This may be very easy and obvious , or it may bs essively difficult and obscure .
+In the latter case it may be so merely because we do not know how to do it .
+Then we should find out .
+As our argument is that fiods from definitely , there should be definits rules for the manipulation of the operator , or of the expression , for its conversion to the form of an ordinary mathematical function , which will be the solution in the usual sense , freed from differentiating operations .
+We may find how to work by experiment .
+For , if wo different methods lead to different results , one of which we find to be oorrect by independent tests , we can safely assert that one of the methods was partly wrong , whilst the other may have been whoJly correct .
+So by practice we may come to know something about it .
+6 .
+Again , the funcbion , regarded as an algebraical funcbion , may admit of dffierent forms of expression .
+These are algebraically equivalent , but to what extent they may be equivalent in their anaIytical aspects\mdash ; for instance , one involving differentiations equivalent to another involving integrations , and leading to ] which are either identical or equivalent\mdash ; cannot be safely said beforehand .
+It is , in its generality , a rather difficult and obscure matter .
+In special cases I find that forms of which are algebraically equivalent are also analytically equivalent ; but I have not succeeded in determining the amount of iitude that is permissible in the treatment of operators .
+No doubt there are definite limitations , but they have to be found .
+I have , however , extensively employed the algebraical treatment experimentally , ject to independent tests for guidance .
+It proved itself to be a powerful ( if somewhat uncerbain ) kind of mathematical machinery .
+We may , for example , do in a line or two , work whose verification by ordinary methods may be very lengthy .
+On the other , the vsry reverse may be the case .
+I have , however , inced myself that the subject is one that deserves to be examined and elaborated by mathematicians , so that the method may be brought into general use in mathematical physics , not to suppIant ordinary methods , but to suppleuxent them ; in short , to be used when it is found to be useful .
+As regards theory of the subje , it is interesting in an unusual degree , and the interest is heightened by the mystery that envelops certain parts of it .
+* The reader will find examples in my ' Electrical Papers , ' vol. 2 , of the trealment of irrational as well as rational operators .
+On rators in ical matics .
+7 .
+Perhaps the best way of beginning the subject , to obtain a good idea of the nature of the operators and the advantages attending their use , is through the theory of a connected system of linear electrical conductors .
+For the electrical equations seem to be peculiarly fitted for the illusfration of abstract dynamical properties in a clear manner , even when quite electromagnetic arrangements are concerned .
+We know that we may , by the application of Ohm 's law to every conductor ( or to circuits of conductors ) , express the steady current in a conductor due to an impressed force in a conductor by an equation , ( 2 ) here Y is some aJgebraical function of the resistances of the conductors\mdash ; usually of all the resistances , although in special cases it may become independent of the values of some of them .
+Now , suppose ib is not the steady current that is wanted , but the variable current when varies .
+The allswer is obviously given by the same equation when the function involves only resistances ; that is , when there is no storage of electric or netic , energy , so tha is a constant not involving .
+Then the flux and force keep pace together , and their ratio does not vary .
+It is , however , less obvious that the sams equation should persist , in a generalized form , when every branch of the system is made to be any electronlagnetic arrangement we please which would , in the ) sense of its connexions with the rest of the system , be a self-contained ement .
+To obtain the generalized form of we have merely to substitute for the resistances concerned the equivalent resisbance operators .
+That is , instead of , where is voltage , rent , and resistance , we have an equation in general for conductor , whereZ is the resistance operator appropriate to the natul.e of the conductor , which may be constructed from the electrical pal.ticulars .
+These 's substituted in in place of the 's make equation ( 2 ) fully express the new connexion between the fiux and the force .
+There is much advantage in working with resistance operators becauss they combine and are manipulated like simple resistances .
+Of course ( 2 ) is really a differential equation , though not in the form usually given .
+To make it an ordinary diiferential equation we should clear of fractions , by performing such operations upon both sides of ( 2 ) as shall remove denominatol .
+S and all inverse operations .
+It is then spread out hor.izontally to a grcat length ( usually ) and becomes very unmanageable .
+Also , we losc of the essential structure of the operator Y. 8 .
+By arrangements of coils and condensel 's in our lillear system 508 Mr. O. Heaviside .
+[ Feb. 2 , may construct an infinite variety of istance operators , and of conductance operators , such as above .
+They are , however , always algebraical functions of , and are finite .
+If expanded , equation ( 2 ) always becomes an ordinary linear equation of a finite number of terms .
+But if we allow conduction in masses , or dielectric displacement in masses ( with allowance for propagation in time ) , the finite series we were previously concerned with become infinite series .
+, at first , appears a complication , but it may be quite the reverse , for an infinite series following an easily recognized law may be more manageable than a finite series .
+Still , however , the alence to ordinary differential equations persists , provided our arrangement is bounded .
+But when we remove this restriction , and permit free dissipation of energy in space ( or equivalently ) , another kind of operators comes into vlew .
+The complexity of the previous , due to reaction of the boundaries , is removed ; simpler forms of operators result , and they do not necessarily admit of the equations taking the form of ordinary d#erential equations , as they may be of an irrational nature .
+This brings us necessarily to the study of generalized diiferentiation , concerning which , more presently .
+Ope.ators admitting of 9 .
+In the meantims , notice briefly some of the ideas and devices that occur generally in the treatment of operators .
+First of all , we may obtain the steady state of due to steady , when bhere can be a steady state of , by simply putting in the operator connecting them , meaning when there is no resuItant steady state of the flux , as when reflections a boundary continue for ever , the term has its proper place and significance .
+Next , we may notice that if the form of should involve more han separate differentiations , as in then all we have to do is to execute the differentiations to obtain from .
+When is a continuous function , this presents nothing special .
+When discontinuous , however , a special treatment may be needed .
+In a similar manner , there may be only separate integrations or inverse differentiations indicated in , as when .
+( 4 ) Since is a definite function of the time , so are its successive timeintegrals .
+In this case , may be discontinuous , and ye present no 1893 .
+] On Operators in Physical Mathematics .
+) !
+) .
+Suppose it is zero before and constant after the monlcnt .
+Then we shall have , \amp ; c. , A combination of direct and inverse operations , which filequently occurs in the theory of waves , is exemplified in Here we may perform the rations first , tlJe 1 say , and then let the exponential operate , :iving , by Taylor 's theorem , .
+( 7 ) Or we may let the exponential operator work hrst , and then the integrations .
+This may be less easy to manage , on account of the changed limits .
+Two important fundamental cases , constitute nulae , are with unit operand , that is , before and constant after Here we may expand in inverse powers of , getting , in the first case and in the second case .
+The latter expresses the effect of unit impulse in a system having one degree of froedom , with as when an impuIsive voltage acts upon a coil .
+Solutc for Simple Harmonic , Impulsive , and Continued Forces . .
+A very important case , admitting of simple treatment , when the force is simple periodic , or a sinusoidal fnnction of time .
+It may happeu that the resulting state of is also sinusoidal .
+For this to occur , there must be dissipation of energy , to allow the initial departure from the simple periodic state to subside .
+We then have applied to as well as , where is the frequency ; so that the substitution of for in brings equation ( 1 ) to the form where and are functions of .
+We now find by a direct operation .
+This case is important because its application 510 Mr. C. Heaviside .
+is so general , and its execution usually presents no difficulties , whilst the interpretation of the result may be valuable and instructive physically .
+A continued constant force of unit strength , commencing when , may be represented by , ( 11 ) using a well-known integral .
+We may apply this to equation ( 1 ) , if desired , and obtain a particular form of solution .
+And from ( 11 ) we see that a unit impulse is represented by ( 12 ) acting at the moment .
+This is , of course , the basis of 's theorem .
+But , instead of the application of the fully developed Fourier 's theorem , it is more convenient to use ( 12 ) itself .
+Thus , lvhen is an impulse acting when , we have the equation representing the force .
+So , by ( 12 ) , .
+( 13 ) gives us a particular form of the solution arising from an impulse .
+Take in to conwert the quantity to be integrated to an algebraical form .
+Since a continuously varying force may be represented by a succession of esimal impulses , we see that a time-integration applied to ( 13 ) , being then a function of the time , gives us a form of solution of the equation , for any kind of and that can occur .
+It is , however , a theoretical rather than a practical form of ution .
+it usually happens that the definite integral is quite unamenable to evaluation .
+The same may be often said of the solution ( 13 ) for an impulse , and in such cases it may be questioned whether the form itself is not just as plain and intelligible .
+In fact , in certain cases , a very good way to solve ( or evaluate ) solution in the form of a definite is to undo it , or convert it to the symbolical form then solve it by any way that may be feasible .
+Nevertheless , it is interesting to know that we may have a full solution , and the definite integrals are sometimes practically { vorkable , or may be transformed to easier kinds .
+1893 .
+] On Operators in Physical Mathemaiics .
+Partial Fractions and Normal Solutions .
+11 .
+There is also the method of partial frac ions .
+It is nob always applicable , and is inapplicable when the removal of boundaries ( hives the roots of the determinantal equation into contiguity .
+But the application is very wide , nevertheless .
+Put ; then the solution of , when is constant , startin when , is , ( 14 ) where is the steady , got by taking in , and the summation ranges over the roots of the equation , considered as an algebraical equation in .
+That is , is entirely algebraical in ( 14 ) .
+Similarly , the effect of an impuIse is represented by and from this again , by time-integration , we can obtain an expression for the effect due to any varying , which may ) quite as un- manageable as the previous definite inlegral for the same .
+On the other hand , ( 14 ) and ( 15 ) furnish the most direct $nd practical way of investigatiug certain kinds of problems , whether there be but a few or an infinite number of degrees of freedom .
+This is the real foundation of all formlae for the expansion of arbitrary functions in series of normal functions .
+For , find the essed forcive that would keep up the arbitrary state .
+We may then apply the above to elemenof the forcive to find its effect , and by integration throughout the stem geb the functions expanded in normal funcbions .
+Or , without reference to impressed orce , find the differeIltial equation connecting any element of the initial state and the effect it later .
+It will be of a form similar to our , and it may be similarly solved by a series , which contains ) sion of the expansion of the initial sfate in the proper functions .
+Or we may investigate the normal functions themselves , and employ their proper conjugate property to obtain the expansion representing any initial state .
+But this method does not apply very naturally to equations of the form we are Decomposition of an Operator into a Series oj Oper 12 .
+There is also there method which contrasts remal.kably with the previous , , to decompose the operator into a series of other operators of a certain type expressing the propagation of waves .
+This is best illustrated by an example .
+Suppose the question is , given an .
+O. Heaviside .
+[ Feb. 2 .
+impressed force acting at one part of a long telegraph circuit , find the effect .
+One way would be to first find the effect due to a simple periodic force ; from this the eifect of an impulse follows ; and from the latter the effect due to any .
+A second way is by means of the normaI functions , either through the conjugate property or by partial actions .
+Lastly , we may decompose the operator into operators of the form which would exist were the circuit infinitely long , so that the effect of terminal reflections and absorptions does not appear .
+Say we have .
+( 16 ) will represent the initial wave from the source whilst the rest will express the succeeding reflected waves from the terminations of the circuit .
+The operators , \amp ; c. , may be all of the type , so that it suffices to solve , that is , convert it to an ordinary algebraic functional form , to obtain that form of the complete solution which has the greatest physical meaning , inasmuch as it shows in detail the whole march of in tsrms of .
+So does the solution in terms of normal functions , but not immediately , because the successive waves are expressed in the form of au infinite series of vibrating systems .
+Their resultant effect cannot be seen at once .
+We might , indeed , almost say that the form of solution in successive ( or simultaneous ) waves was the solution , being of the most explicit nature .
+Should , ever , the impressed force be of a distributed natut.e , of the type suggested by a normal fnnction , for example , then clearly it is the expression in terms of waves that becomes complex and tlnnatural .
+We also see that , although a direct transformation from one form of solution to another may be wholly impracticable algebraically , yet it may be readily carried out through the function as intermediary .
+Tr.eatment of an Irrational Operator .
+Solutions in Aseending Series .
+13 .
+The above gcmeral remarks are necessarily very sketchy .
+Some of the matters mentioned may be returned to , but the object of the eceding is merely to prepare the mind of the reader for the more transcendental matter to follow .
+Let us now consider how to treat irrational operators , without the assistance of definite integrals .
+The first form that presented itself to me was that exhibited by , ( 17 ) where is and are constants .
+It occurs in the theory of a submarine cable or other telegraph circuit , and in other problems .
+1893 .
+] On Operators athematicsd .
+are themselves operators of complicated form in , or , more strictly , is a resistance operator , of very complex form .
+But it is quite suffici-ent to take the form , whele is the effective resistance and the length of circuit .
+and mean the and leakage conductance per unit length .
+Now we may readily obtain the simple periodic solution out of ( 17 ) , by the before-mentioned substibution ; and in so we may use the operator for that will then assume the form .
+From this solution a wholly uninterpretable definite be derived to express the effect of an impulss or of a steady impressed force .
+The question was , how to obtain a plain undel.standable solution from ( 17 ) itself to show the effect of a steady force .
+To strate , we may here take merely the case in which K , whilst and are constants , because the inclusion of ( to be don later ) cousiderably complicates the results .
+We have to , ( 18 ) where is a constant and ) erand is undelstood to be uuity , that is , before and after .
+It is needless to write unit operands , and it facilitates the working to omit them .
+Now , the first obvious suggestion is to employ the binomial theorem to expand the operator .
+This may be done either in rising or descending powers of .
+Try first descending powers , since by experience with rational operators know that that way works .
+( 19 ) The integrations , being separated from one another , can be immediately carried out through , giving the esult , ( 20 ) or , which is the same , where is the well-known cylinder function .
+Now , that this sult is correcb may be tested independently , , by its correctly satisfying the differential equation concerned and the imposed conditions .
+We therefore obtain some confidence in the of the process employed .
+514 Mr. O. Heaviside . .
+In a precisely similar manner we may show that .
+( 22 ) [ Feb. 2 , rther modifications are confirmatory .
+Thus , by making use of , ( 23 ) we can shift and similar functions back and forth .
+Also using the stock formulae we have the following transformations , .
+( 24 ) In this we may use the result ( 22 ) , and so come round to ( 21 ) again .
+From the above we see that ; ( 25 ) and furbher , by shifting the exponentials to the right , to make them the operands ( instead of ) , ; ( 26 ) and now further again , by in place of the exponentiaIs , we obtain , ( 27 ) which is an entireIy different kind of operator , since the square of occurs under the radical sign , instead of the first power .
+But may be readily tested and found to be not wanting .
+For expand by the binomial theorem , thus , ( 28 ) This may be immediately integrated , giving as result the series ( 29 ) 1893 .
+] On Operators ]sical illathematics .
+the wcll-known formula for in rising powers of the square of the variable , as Transformation to Descending Series .
+14 .
+There is such a perfect harmony in all the above transformations , without a single hitch , that you are tempted at first to you may do whatever you like with the operators in the wity of algeansformation .
+There is a considel.able amount of truth in this , but it is not wholly true .
+I shall show later some ' more comprehensive and surprising transformations effected by simple means .
+At the same time I should emphasize the necessity of caution and of frequent vel.ification , for no matter how vectly the algebraical treatment of operators may work { , ometimes , it is subject aother times ( to our ignorance ) to the most failuros .
+But in the above we only utilized one way of effecting the binomial expansion .
+There is a seoond way , viz. , in powers of the differentiator .
+The two forms are ] gebraically equivalenb so far as the ency allows , but we have , so far , no eason to that they are analytically equivalent .
+ut on exalllination find that they are .
+Thus , using the first of and , we get ( 30 ) Here the operand is or unity .
+Or we may make it if we please .
+If we know its value , as a function of , the rest of the work is easy , as it merely of differentiations .
+But nothing that gone before gives any information as to the meaning of : let :done its value .
+We may , , find it indirectly .
+We may prove independently that when is Yery big , tends to be represented by we conclude that the value of must be .
+Then ( 30 ) becomes and performing the rest of .
+the differenbiations , we art'ive at ( 31 ) which , on test , is found be equivalent to ascending .
+Of course only the convergent of the series can be utilized for Mr. O. Heaviside .
+[ Feb. 2 , calculating the value of the function .
+It is , however , the series for practical use when is enough to make calculation by the convergent ascending series very leugthy .
+Stop when the convergency of ( 31 ) ceases .
+The result will be too big .
+Leave out the last counted term , and the result is too small .
+Counting only half the last convergent term , the result is ] right , being a little too big .
+There seems no possible way of hitting the exact value .
+But still , when is big , we can get quite close enough , to four or more figures , or any other number we please when is sufficiently increased .
+Fractional Differentiation .
+15 .
+Knowing in the above manner , the values of , \amp ; c. , follow by complete differentiations .
+But although , on the basis of the above , a considerable amount of work may be done , and extensions made , yet it is desirable to stop for a moment .
+For the whole question of generalized diiferentiation is raised .
+The operator presents itseIf in analogous problems , along wibh \amp ; c. We want a general method of treating , when is not confined to be integl.al .
+Notice , bowever , in a remarkable rity of the above investigation .
+If we had put in ( 17 ) , as well as , we should have had the to consider at the beginning , with no evident means of treating it .
+By taking , on the other hand , a more general case , as we did , we avoided the fractional differentiation altogether , and easily obtained a convergent solution , , ( 21 ) , through ( 1S ) , ( 19 ) , and ( 20 ) .
+It is not always that we simpIify by generalizing .
+The stlm total of the whole information in my mathematical library on the subject of generalized differentiation is contained in the remark made on p. 197 of the second part of Thomson and Tait 's 'Natural Philosophy , ' paragraph ) , relating to the process by which spherical harmonics of any degree may be derived from the reciprocal of a distance:\mdash ; ' ' The investigation of ttJis generalized differentiation presents difficulties which are confined to the evaluation of , and which have formed the subject of interesting mathematical investigations by Liouville , Gregory , Kelland , and others I was somewhat struck with this remark when I first read it , in trying to plougb my way the fertile though rather heavy field of Thomson and Tait , but as the subject was no sooner ioned than it was dropped , it passed out of mind .
+Nor did the absence of any reference to the subject in other mathematical works , and in papers concerning mathematical physics generalIy , tend to preserve my recollection of the remark .
+Only when the subject was forced upon my nttention in the above manner did I begin to investigate it , and not having access to the authorities quoted , I was compelled to work it out On Operators in sicat ]fathematics .
+myseIf .
+I cannot say that my results are quite same , though there must , I think .
+be a general likeness .
+I can , however , say that it is a interesting subject , and deserves to be treated in works on the Integral Calculus , not merely as a matter concerning differentiation , because it casts light upon theory generally , even upon the eleme]lts thereof .
+And as regards the following .
+) sketch , however imperfect it may be , it has at least the recommendation of having been worked out in a mind uncontaminated by the prejudices engendered by prior knowledge acquireci at second hand .
+I do not say it is the better for that , however .
+Dnfferentiation 16 .
+The question is , what is the meaning of , if nify d when bas any is , no doubt , partly a matter of con vention ; but apart from all conventions , there must be fundamPntal laws involved .
+Now observe that the effect of a differentiation upon the function is to lower ttJe degree by applies universally when is not integral .
+When it is integral , seem to be exceptions .
+But we can scarcely suppose that there is a real breach of continuity in the property .
+We also ) serve that a whole differentiation mulbiplies by the index , making ; and there are appal.ent exceptions .
+Now the first thing to do is to get rid of the exceptions .
+Next , the obvious conclusion from one lowering the index by unity , by two , and so on , is that the degree times , whether be integral or fractional .
+there , since ' ( 32 ) when is positively integral , and is the factorial function 1 .
+2 .
+; and , similarly , , ( 33 ) whatever positive integer may be , it is in reement with the previotls to define generalized differentiation by the last equation , for all values of , provided we simultaneously define to be given by , ( 34 ) for all values of from -co to , and to with the factorinl function when is integral , that is , \amp ; c. We shal ] still call the factorial function , and the erse factorial .
+Mr. O. Heaviside .
+[ Feb. 2 , , by the above ' ( 35 ) if be positive , as we shall suppose throughout .
+We conclude that Further differentiations give , , \amp ; c. ( 86 ) We , therefore , conclude that , \amp ; c. , or that the inverse factorial function vanishes for all integral negative values of .
+We therefore know the value of the inverse factorial for all integral values of the variable , and a rough curve can be readily druwn .
+Say ' ( 87 ) the ordinate , and the abscissa .
+It has evidently a hump between and , is positive for allvalnes of , asymptotically tending to the axis as is increased , and is oscillatory on the other side of the .
+This is not demoustrative , but only highly probable so The Inverse Factorio:l Function .
+17 .
+Now seek an algebraical function with equidistantly spaced roots ou ons side ( either side ) ] of the origin .
+The function ( 38 ) vanishes at , 2 , 3 , \amp ; c. , up to .
+It has no other roots , and is positive when is negative .
+Also , its value at is 1 .
+Similarly the functiou ( 39 ) vanishes at , \amp ; c. , up to ; is unity at , and is positive whsil is positive .
+These functions are identically the same as ( 40 ) and On rators in Physical Mathematics .
+where ( 40 ) corresponds to ( 38 ) ( 41 ) to ( 39 ) .
+At first therefore , these functions might represent the inverse factorial , positive or negative , on infinite , for the value at the is correct , and the VtLnishing points are equidistantly spaced with unit step all the to infinity on one side only of the origin .
+But something else happens when is made inite .
+The value of ( 3S ) , by ( 40 ) , becomes , meaning the binomial expansion in rising powers of the second 1 .
+It is , therefore , for all positive and for all negative values of .
+Similarly , ( 39 ) becomes which is for all negative and intinity for all positivo values of .
+Tbat is , from vanishing at detached points , the functions all the way between them as well .
+Besides , apart from we cannob have the value of correct when is integral .
+We may , however , readily set the matter right .
+To get rid of infinity on one side and vallishing all over on side of origin , multiply the functions ( S8 ) , ( 40 ) by and ( 39 ) , ( 41 ) by Take ( 4.1 ) We now satisfy all the requirements of the case , and when is infinite make the inverse factorial curve ( 37 ) be a continllols curv from \mdash ; co to , subject to ( 34 ) , in reement with the known values when is positively integral , and harmonising with the generalized differentiation in ( 33 ) .
+Multiplying ( 42 ) and ( 43 ) ether , we obtain ( 4t ) The multiplication therefore brings all the equidistant roots into play , on both sides of the origin .
+This gives ns the value of in : terms of Only ths values of to need be calcnlated , since ( 34 ) 0 ( 44 ) gives all the rest .
+But if we take in we obtain the a fundamental reRult .
+We now know the of lvhe]l any integer .
+and this .
+the matter down to the dete ] minatio of from to , for which a may be used .
+Mr. O. Heaviside .
+[ Feb. 2 , Interpretation of hing Differential Coefficients .
+18 .
+It should be noted that when we say that ( 46 ) for all valnes of , ths right member is really , and means on the left , and 1 on the right side of the origin of .
+That is , it is the limiting form of the.function , when is infinitely small posihve .
+It is convenient in the treatment of equations of the form to have the function zero up to a certain point , with consequently also zero , and then begin to act .
+Similarly , the expression , or or although it has the value zero for all positive values of , is infinite at the origin .
+But ils total amount is finite , , 1 .
+Imagine the unit amount of a antity spread along an infinitely long line to become all massed at the .
+Its linear density will , in the Iimit , be represented by , as ( 12 ) is derived from ( 11 ) , .
+( 47 ) -It is zero except at .
+But its integral is still , being or 1 .
+If we draw the curve infinitely small , consisting of two straight ]ines , with a ronnded corner , the curve derived from it by one tion will nearly represent the tion , being nearly all heaped up close to the origin , and of integral am .
+Similarly means a double inIinite point , a triple point , and so on .
+But it is the function that is most useful in connexion with differentiating operations , whilst the others are less prominent .
+But when is taken to be infinitely small negative in then drops from oo to 1 near ths origin , or the corner is turned the other way .
+That is , the function is uYlstable when is zero .
+It is tloe differenc ' , of the curves with infinitely small positive , same with infinitely small negative , that makes Iogarithmic function when infinitely magniiied .
+But we shouId try to keep away from the logarithm in the algebraical treatment of operators .
+nexion between the Factorial and Gamma Functions . .
+It will be seen by ( 42 ) that our factorial function is the gamma function of Euler somewhat modified and extended .
+Thus , whem is greater than -1 we have , ( 48 ) 1893 .
+] On Operators in Physical and this is also expressed by the definite integral .
+( 49 ) But when is less than we have the oscillatory curve of inverse factorial , given by ( 44 ) .
+We cannob use the definite integral to express when is less than .
+The one-sided reckoning of the gamma function expressed in is so exceedingly inconvenient generalized differentiation that the factorial function had better be used constantly .
+For completeness and reference , we may add tho generaI formula .
+Take the ) of ( 42 ) and arrangs the terms suitably , and we obtain , ( 50 ) where , ( 51 ) and ; ( 52 ) it being understood in ( 42 ) and ( 52 ) that is made infini From ( 50 ) we may obtain a series for the inverse factorial in powers of .
+Thus , . .
+As before remarked , only the value of from to needs to be calculated .
+Any number of special formulae for may be obtained from algebraical expansions involving this function .
+A Suggested Cosine Split .
+19 .
+The above split of the function into and , suggests other similar splits .
+In passing , one may be briefly noticed , the cosine split .
+Thus , take , ( 54 ) and let be the same with the sign of changed .
+) , we shall have Mr. O. Heaviside .
+[ Feb. 2 By changing n to we find that , ( 56 ) so that when co , or .
+( 58 ) When , ( 54 ) gives .
+Then ( 58 ) gives for any integral .
+Thus , \amp ; c. And on the negative side we have \amp ; c. The curve is similar to that of the inverse factorial , but with a much bigger hump on the positive side , near .
+But I have not found any use for this cosine split , and we may now return to the other one .
+The Exponential Theorem Generalized .
+20 .
+we cannot , owing to its limited applicability , nse Euler 's integral to express generally , we may employ it when found convenient , within its own range , and supplement the information it gives by other means .
+Thus , we know that when is over - Now the indefinite integrnl may be exhibited in two different ways , say , ( 60 ) in ascending powers of multiplied by the exponential function , and by These are true for all values of .
+Subtracting ( 61 ) ffim ( 60 ) we see that the function , or say , must have the same value at any two finite limits we may choose for the integral .
+That is , the value of is independent of the value of Or we may proceed tbus , and determine the value .
+Iaet be greater than -1 , and divide the integral ( 59 ) into two , one going 1893 .
+] On rators in Physical Mathemaiics .
+523 to , the other from to .
+For the first use ( 60 ) , since when ; and for the second use ( 61 ) , since when .
+We then get , by ( 59 ) , , ( 62 ) or , which is the same , .
+( 6.3 ) This proved when is horeater than .
+But tlJe change of to in the series on the right of ( 63 ) no alteration .
+We conclude that the series expresses for all values of When or any integer , positive or negative , we have the usual stopping series for .
+When is fractional , we obtain semi-convergent series .
+Of course we obbain the whole series of forms by king pass from to 1 .
+The most interesting case is that of .
+This gives , ( 64 ) where the value of we know to be , by ( 45 ) .
+By means of this series we may pass from one to the other of the two forms of evaluation of Fresnel 's integrals , due to Knocbenbauer and to Cauchy respectively , which are given in works on Physical Optics .
+21 .
+The function called above we may obtain in a series of rising powers of without the exponential factor in the following manner : \mdash ; which is immediately integrable by the binomial expansion ; hus .
+( 66 ) Mr. O. Heaviside .
+[ Feb. 2 , To orroborate the method of getting ( 65 ) we may use ( 60 ) .
+For this glves ( 67 ) again , as in ( 65 ) .
+Now if we endeavour to express in a similar manner , we .
+find that it will llot work .
+direct multiplication of ths series 1n the brackets in ( 61 ) by the usual expansion of glves , ( 68 ) or , which is the same , ( 69 ) Now the last line we know to express .
+Therefore , by ( 62 ) , we get ( 70 ) and this is the result we shall obtain by multiplying the series the of ( 63 ) by the usual expansion of .
+But ) is only a special form of a more general formuIa that wiIl appear ater .
+We may use ( 44 ) to convert ( 70 ) to circular functions .
+A Bessel Function Generalized .
+22 .
+The generalized expansion of may be at once applied to genel.alize oGher formulae .
+Thus , we know that the solution of .
+1893 .
+] On Operators in Physical Mathematics .
+in rising powers of is ( 72 ) Put , and it becomes Let differentiator be called .
+Then ( 73 ) may be at once written .
+( 74 ) There is nothing hypothetical about this .
+What is , however , entirely speculative in the absence of trial is whether it is itimate to substitute the generalized exponential for the ordinary , therefore generalized for complete entiations .
+But on it will be fonnd to work .
+Thus , using ( 63 ) with in place of , we cunvel.t ( 74 ) to writing for the result ; or , which means the same , , ( 76 ) where , as before , in connexion with the Bessel fuuction .
+Or ' if .
+We have for all values of , and .
+To test the validity wheu is fractional , take or ?
+then , by ( 77 ) , we obtain .
+This will by numerical calculation be found to give the same value as the series ( 72 ) for .
+When is as large as 10 the values to the fourth place by the convergent eries in ( 78 ) aloue , the semiconvergent series in ( 78 ) having a relatively small value .
+The value 526 Mr. O. Heaviside .
+[ Feb. 2 , I make to be by the ordinary formula , and by ( 78 ) , incIuding the semi-convergent part .
+But the last two figures are probably wrong , as there is a good deal of figuring involved in the calculation of both ( 72 ) and the convergent serics in ( 78 ) .
+When smaller vaIues of are taken , the numerical agreement persists as far as the initial convergency of the descending series permits , as the case of the series ( 31 ) , for example .
+Later on I will coordinate ( 78 ) and ( 72 ) with the descending formula ( 31 ) .
+The companion formula to ( 78 ) is .
+( 79 ) We might expect this to be a form of the oscillatory function .
+it is not .
+It represents the oscillatory companion to , say , which may be exhibited in an ascending series of the whols powers of together with a logarithm , so standardized as to vanish at infimty .
+This funcbion will appear later .
+The double series ( 79 ) occurs in Lord Rayleigh 's ' Sound .
+series ( 78 ) I have not come across , The Binomial Theorem Generahzed .
+23 .
+Let us next generalize the binomial theorem in a similar manner .
+We have ( 80 ) in ascending powers of .
+Or .
+( 8 ] ) But in descending powers of , which is the only other form generally known , we have .
+( 82 ) That we may use the generalized exponential we might infer from the two forms ( 80 ) and ( 82 ) being equivalent , combined with previous * See p. 154 , vol. 2 .
+That ( 79 ) is is not shown there , but may be deduced .
+1893 .
+] On Operotors in sical naticS .
+experience relating to the Bessel function .
+Using it in ( S2 ) we find , ( S3 ) which by immediate integration , ( S4 ) for all values of The case or any is thab of ( 82 ) , and is of ( 80 ) .
+The whole series of forms ran .
+between and because they .
+When ?
+we have ( 85 ) If in this we take , we find that the terms call be arl.ang.ed in pairs , thus ( 86 ) , which is the same , The best of is obviously 1 .
+Whon two variables and are used in the binomial , we have , using for and for ( 88 ) We may use any of these forms .
+Selecting the last but one , and using the generalized exponential , we have ; ( 89 ) therefore Mr. O. Heaviside .
+[ Feb. 2 , where may have any value , and may be exchanged .
+Taylor 's Theorem Genera lized .
+24 .
+We may also apply the generalized exponential to Taylor 's theorem for the expansion of a function in powers of the variable .
+For this theorem is expl'essed by , ( 91 ) and , if this be true enerally , irrespective of the ] eness of the differentiations , we must have .
+( 92 ) Whether this is true for any function , with the usual limitations , I cannot say .
+There are probably other necessary limitations .
+As examples , take .
+Then we obtain ( 9.3 ) Here put the1J , by using ( 44 ) , we have the result where is to be positive .
+When , this reduces to , ( 95 ) where is written for .
+It is obviously right when The formula ( 70 ) may be derived from ( 94 ) by the use of ( 44 ) .
+Rpecial Formuloe for Factorials .
+25 .
+The binomial g before given is , of course , a specia ] oase of ( 92 ) , namely , It will be observed that the eries 1803 .
+] On Operators in Physical JIathematics .
+529 it gives may be convergent .
+Thus we may obtain convergent special formulae for .
+Thus , take in ( 84 ) .
+We obtain ( 96 ) and when ] , we have the series . .
+( 97 ) Similarly , , gives ; ( 98 ) and so on .
+the Generalized Exponential .
+26 .
+Notice tlJat the operation performed upon the generalir , reprodnces it en is integral , but gives equivalent series when is fractional .
+If , then , we take the special form of the stopping series for to work upon , we require to imagine that the zero terms are in their places , thus , ( 99 ) All terms before the 1 are zero , but not their rates of variation with in the generalized sense , if we are to have harmony with the behaviour of the general form of .
+This is transcendental : and there is much that is transcendental in mathematics .
+The above generalizations are somewhat on one side of our subject of the treatment of operators , though suggested thereby .
+I propose to continue the main subject in a second paper .
+

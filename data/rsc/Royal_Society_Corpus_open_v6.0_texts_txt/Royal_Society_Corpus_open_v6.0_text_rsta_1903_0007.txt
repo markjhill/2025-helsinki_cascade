@@ -1,0 +1,866 @@
+[ 251 ] VII .
+The Stability of the Pear-Shaped Figure of Equilibrium of a Rotating Mass of Liquid .
+By G. H. Darwin , F.R.S. , Plumian Professor and Fellow of Trinity College , in the University of Cambridge .
+Received June 19 , \#151 ; Read June 19 , 1902 .
+Introduction Table of Contents .
+Page Part I.\#151 ; Analytical Investigation .
+S 1 .
+Method of procedure ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 253 S 2 .
+The lost energy of the system ... ... ... ... ... ... ... ... ... ... ... ... ... ... ..254 S 3 .
+Expression for the element of volume ... ... ... ... ... ... ... ... ... ... ... ... .256 S 4 .
+Determination of k ; definition of symbols for integrals ... ... ... ... ... ... 260 S 5 .
+The energies \JJ and JR ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ..262 S 6 .
+Surface density of concentration C ; energy CR ... ... ... ... ... ... ... .264 S 7 .
+The energy \CC ; result for \JJ - JR + CR - \\CC ... ... ... ... ... ... ... 267 S 8 .
+The term w2 ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 268 S 9 .
+Double layers ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... .268 S 10 .
+Determination of e and \ ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 274 S 11 .
+The energy S7rp2Je3(l - \e)dxr ... ... ... ... ... ... ... ... ... ... ... ... ... ... 275 S 12 .
+The energy |-p je2 ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ..276 S 13 .
+Terms in the energy depending on the moment of inertia ... ... ... ... ... ... 279 S 14 .
+The lost energy of the system ; solution of the problem ... ... ... ... ... ... 282 Part II.\#151 ; Numerical Calculation .
+S 15 .
+Determination of certain integrals ... ... ... ... ... ... ... ... ... ... ... ... ... .
+284 S16 .
+The integrals \lt ; r2 , o-4 , \#163 ; 4 ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... .290 S17 .
+The integrals \lt ; *\gt ; / , pf , ( j\gt ; f ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ..291 S 18 .
+The integrals SHU* , 1$/ ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 294 S19 .
+Synthesis of numerical results ; stability of the pear ... ... ... ... ... ... ... ... .296 S 20 .
+Second approximation to the form of the pear ... ... ... ... ... ... ... ... ... ... 301 Summary .
+( 327 .
+) Part III .
+Introduction .
+By aid of the methods of a paper on " Ellipsoidal Harmonic Analysis " ( ' Phil. Trans. , A , vol. 197 , pp. 461-557 ) , I here resume the subject of a previous paper ( ' Phil. Trans. , ' A , vol. 198 , pp. 301-331 ) .
+These papers will be referred to hereafter by the abridged titles of " Harmonics " and " The Pear-shaped Figure .
+" At the end of the latter of these it was stated that the stability of the figure could not he proved definitely without approximation of a higher order of accuracy .
+After some correspondence with M. Poincare during the course of my work , I made an attempt to carry out this further approximation , but found that the expression for a certain portion of the energy entirely foiled me .
+Meanwhile he had turned his attention to the subject , and he has shown ( 'Phil .
+Trans. , 'A , vol. 198 , pp. 333-373 ) by a method of the greatest ingenuity and skill how the problem may be solved .
+He has not , however , pursued the arduous task of converting his analytical results into numbers , so that he left the question as to the stability of the pear still unanswered .
+M. Poincare was so kind as to allow me to detain his manuscript on its way to the Royal Society lor two or three days , and I devoted that time almost entirely to understanding the method of his attack on the key of the position\#151 ; namely , the method of double layers , expounded in my own language in S 9 below .
+Being thus furnished with the means , I was able to resume my attempt under favourable conditions , and this paper is the result .
+The substance of the analysis of this paper is , of course , essentially the same as his , but the arrangement and notation are so different that the two present but little superficial resemblance .
+This difference arises partly from the fact that I desired to use my own notation for the ellipsoidal harmonics , and partly because during the time that I was working at the analysis his paper was still imprinted and therefore inaccessible to me .
+But it is , perhaps , well that the two investigations of so complicated a subject should be nearly independent of one another .
+It is rather unfortunate that I did not feel myself sufficiently expert in the use of the methods of Weierstrass and Schwarz to evaluate the elliptic integrals after the methods suggested by M. Poincare , but every exertion has been taken to insure correctness in the arithmetical results , on which the proof of stability depends .
+My choice of antiquated methods of computation leaves the way open for some one else to verify the conclusions by wholly independent and more elegant calculations .
+It is highly desirable that such a verification should be made .
+As the body of this paper will hardly be studied by any one unless they should be actually working at the subject , I give a summary at the end .
+Even the mathematician who desires to study the subject in detail may find it advantageous to read the summary before looking at the analytical investigation .
+FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+Analytical Investigation .
+S 1 .
+Method of Procedure .
+The pear-shaped figure is a deformation ot the critical Jacobian ellipsoid , and to the first order of small quantities it is expressed by the third zonal harmonic with respect to the longest axis of the ellipsoid .
+In the higher approximation a number of other harmonic terms will arise , and the coefficients of these new terms will be oi the second order of small quantities .
+The mass of an harmonic inequality vanishes only to the first order , and it can no longer be assumed that the centre of inertia of the pear coincides with the centre of the ellipsoid .
+In order to define the pear , I describe an ellipsoid similar to and concentric with the original critical Jacobian ; this new ellipsoid is taken to be sufficiently large to enclose the whole of the pear .
+It is clearly itself a critical Jacobian , and 1 adopt it as the ellipsoid of reference , and call it J. I call the region between and the pear R. The pear may then be defined by density + p throughout J , and density \#151 ; p throughout R. If k is the parameter which defines its axes are expressed in the notation of Harmonics " by kv0 , k { vf \#151 ; l ) % k ( vf \#151 ; j ^ j ; or in the notation of the " Pearshaped Figure " by hjsin ft , k cos / 3/ sin / 3 , k cos y/ sin / 3 , where sin / 3 = sin y. Now let Sf denote any surface harmonic , so that is the same thing as [ Jh* ( jx ) or P/ ( / x ) ] X [ Cf ( \lt ; /\gt ; ) or C , ' ( \lt ; /\gt ; ) ] .
+The third zonal harmonic deformation will then be eS3 or e]dr\gt ; ( jx ) C3 ( \lt ; /\gt ; ) , where e is of the first order of small quantities .
+On account of the symmetry of the figure , the new terms cannot involve the sine functions or S , and moreover , the rank s must necessarily be even .
+Suppose that the new terms are expressed by %/ fSf for all values of from 1 to infinity , and with s equal to 0 , 2 , 4 . . .
+ior \#151 ; 1 .
+Then all the s are of order e3 , excepting f .
+which is zero .
+We have seen in " Harmonics , " S II , that if denotes the perpendicular from the centre of the ellipsoid v0 on to the tangent plane at / x , \lt ; /\gt ; , the equation to a harmonic deformation of the ellipsoid is - .Vs ) = 2 LJ 0 Since this equation may be written in the lorm v- + + \#171 ; 2 1 + S\ ^ W i ) = 1 + 2 eSf , .254 PROFESSOR G. H. DARWIN ON THE STABILITY OF THE PEAR-SHAPED it is clear that if 2eSf is a constant , say c , the surface defined is an ellipsoid similar to the surface of reference , with semi-axes augmented in the proportion of ( 1 + cf to unity .
+I now replace the variable v by a new one , namely , r= ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... w The negative sign is taken because the points to be specified will lie inside J. Then r = c , a constant , defines an interior ellipsoid similar to and concentric with J. The equation to the pear may now be written t \#151 ; c \#151 ; eS ?
+i \#151 ; Th only condition which has been imposed on c is that it shall be great enough to make r always positive .
+In order to solve our problem it is necessary to determine the energy lost in the process of concentration from a condition of infinite dispersion into the final configuration .
+This involves the use of the formula for the gravity of J , inclusive of rotation .
+It is well known that this formula is simple for the inside of J and more complicated for the outside .
+Since the whole region lies inside J there is no necessity in the present case to use the more complicated formula .
+The final expression for the lost energy cannot involve the size of J , the exterior ellipsoid of reference , and therefore the arbitrary constant c must ultimately disappear .
+It is therefore legitimate to make c zero from the beginning .
+It is clear that we might with equal justice have discussed the problem by means of an ellipsoid which should lie entirely inside the pear , the region between the pear and the ellipsoid would then have been filled with positive density , and the formula for external gravity would have been needed .
+The same argument as before would then have justified our putting the constant c equal to zero .
+We thus arrive at the same conclusion as does M. Poincare , namely , that it is immaterial whether the formula for external or internal gravity he used .
+I now revert to my first hypothesis of the enveloping ellipsoid , but put c , equal to zero from the first .
+In order , however , to afford clearness to our conceptions , I shall continue to discuss the problem as though c were not zero and as though enclosed the whole pear .
+With this explanation , we may write the equation to the pear in the form S 2 .
+The Lost Energy of the System .
+If the negative density in R is transported along tubes formed by a family ot orthogonal curves and deposited as surface density on J. we .
+may refer to such a FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+condensation as \#151 ; C.I do not suppose the condensation actually effected , but imagine the surface of J to be coated with equal and opposite condensations + C and \#151 ; C. The system of masses forming the pear may then be considered as being as follows:\#151 ; Density + p throughout J , say -f- J. Negative condensation on ./ , say \#151 ; C. Positive condensation + C on J and negative volume density \#151 ; p throughout This last forms a double system of zero mass , say D , and = Let Vj , V , be the potentials of + J and -f- R , and Vj_r the potential of the pear .
+An element of volume being written do , let j dv , dv , do denote integrations % ' j Jr J j\#151 ; r throughout J , R and the pear respectively .
+Let d be the distance along the z axis from the centre of the ellipsoid as origin to the centre of inertia of the pear ; let co be the angular velocity of the critical Jacobian about the axis x , so that co2/ 2irp = T4200 ; and let oj3 -(- Sod be the square of the angular velocity of the pear .
+Lastly , let M be the mass of the pear .
+Then the lost energy E is given by E = if Vj.rpdv + i ( \#187 ; " - + S\amp ; r ) f [ / + ( 2 - \lt ; ( )s ] Jj-r Jj-r Now f zpdv \#151 ; Md , so that f ( \#151 ; 2 = \#151 ; Jj-r *j\#151 ; t Again , since Vj-r = V - V " f = f. - f .
+f. V , pdv = f Vjpdv , Jj\#151 ; r J j Jr J t Jr we have LI Vj_rpdv = | j Vjpdv \#151 ; | Vjpdv + j Also ^ ( o\gt ; 3 + 8w3 ) | [ y3 + ( z \#151 ; oi)3 ] pdv = 4\lt ; w31 ( y3 + pdv \#151 ; j ( 3 + %* ) pdv J- iSw3 [ ( y3 + pdv \#151 ; | ( \amp ; \gt ; 3 + So Jj-r Hence E = h f [ Vj + CO* ( 7/ + z* ) ] pdv - [ [ Vj + ( y* + z* ) ] pdv + Vrpdv + TSo\gt ; 3 f ( y3 + pdv \#151 ; i ( \amp ; \#187 ; 3 + Sw3 ) Md2 , Jj-r As the several terms* will be considered separately , it will be convenient to have an abridged notation to specify them .
+I may denote the lost energy of J , inclusive of rotation , by \JJ ; the mutual lost energy of J and of the region considered as filled with positive density , by JR ; the lost energy of the region R by IRE .
+The moment of inertia of the pear is A , and it is equal to Aj \#151 ; A , , the moment of inertia of J less that of E. If hDD denotes the lost energy of the double system described above , we clearly have E = \JJ - JR+CR- \CG + \#177 ; DD + t ( A , - - Are ) So.2 - . .
+( 3 ) .
+The parameter / 3 of " Harmonics " is connected with k of the " Pear-shaped Figure !
+by the equations Then and where E = \JJ - JR + %RR + | ( Aj- Are ) 3 -i(co2 + M JR \#151 ; f [ F# + ^W + z^pdv , J r Aj = [ ( y~ + z2 ) pdv , A , .
+= ( f + pdv , \RR = f Vrpdv .
+r \RR \#151 ; \ ( C \#151 ; R ) ( C \#151 ; R ) A- CR \#151 ; \#177 ; CC = \DD + CR - \CC .
+We require to evaluate E to the fourth order ; now d is at least of the second order and d2 of the fourth order ; hence .
+Sod is at least of the fifth order and negligible .
+Hence , finally , to the required degree of approximation It will appear below that d is not even of the second order , so that the last term will , in fact , entirely disappear , although we cannot see at the present stage that this will be so .
+S 3 .
+Expression for the Element of Volume .
+\#166 ; l -t- p ' -1 + k*r + k* .
+r \#151 ; p i + There will , I think , be no confusion if I also use A i11 a second sense , defining it by the equations sin A \#151 ; Ksin y , cos3 / 3 = 1 \#151 ; sin2 y. FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID 257 It has already been remarked above that the squares of the semi-axes of J are \amp ; 2v03 = sin3 / 3 ' I ?
+cos2 sin^/ 3 * P ( v2 1 + 6 k3 cos3 7 sin3 / 3 * The mass of J is then inpkz 7 .
+r sm3 / 3 I now take the mass M of the pear to be Thus kQ is a constant which specifies the volume of liquid in the pear , and the mass of J is M ( k/ k0f .
+It will be convenient to introduce certain new symbols , namely , A3 = 1 \#151 ; / c2 sin2 8 , T2 = 1 \#151 ; k'3 cos3 ( f\gt ; , Ax3 \#151 ; I \#151 ; k3 sin3 y sin2 6 , Fp \#151 ; cos3 y + k'2 sin2 y cos2 \lt ; /\gt ; , where sin 6 is the p , of " Harmonics .
+" The roots of the fundamental cubic were and -\#151 ; and in the new notation they are v~ , sin3 0 , -\#151 ; s !
+nce " .* = we now have Ax2 2 _ 2 _ _~L_ 0 ^ sin2 ' vo ~ 1\#151 ; 0 cos 2(f\gt ; _____________ Tj2 1-/ 3 sin2 ' The expression for p0 , the perpendicular from the centre on to the tangent plane at 0 , ( f\gt ; , is given in ( 49 ) of " Harmonics , " namely , VJ IV v\lt ; ?
+W - H ( V 0 ) cos3 ft cos3 7 1 Oo2 - J ) I V 1 \#151 ; / 3cos 2(f ) 1-/ 8 .
+sin2 / 3 Aj2 Tj2 ' ' * ( 4 ) .
+Also by ( 50 ) of " Harmonics " the element of surface of the ellipsoid is given by cos 2(p Vo dcr dO d(f ) = k\W-()'(.\gt ; \lt ; ?
+~\+l ) ' 1-/ 3 - J 1-/ 3/ / l - 0 cos 2\lt ; /\gt ; y / 1_+_ o 1-0 1-0 Passing to the new notation this may be written p0 da- _ 3 M/ k\s 1 \#151 ; / c2 sin2 0 \#151 ; J cos2 \lt ; ]E\gt ; _ 3 / k \3 A,2r,2_ / 1__1_ d(j ) ~ 4tr/ \gt ; \A0/ Are _ 47T/ 3 \ \amp ; " / ' AT sin2 7 \rx2 Ax2 VOL. CC.\#151 ; A. 2 L The new independent variable r is to replace v ; it was defined in ( l ) by T = w - O. and in accordance with ( 2 ) the equation to the surface of the pear is t = \#151 ; eS3 \#151 ; 1 From ( 4 ) 2 2 " Po " t / ' =v ' ~lf7 = ^ ~ 2t cos2 5 cos2 7\ .y* 2 ' = ^0 For brevity I now write 2 t cos2 / 3 cos2 7 , , , D =---------------- * S0 that V2 = \#151 ; U ( 1 - Tj ) , J/ 2 - 1 = ( 1 - T , sec2 / 3 ) , V2 - 1^1 = ( 1 - TX sec2 y ) , sin2 / ?
+/ ?
+sin2 / 3 9 2 / 1 Ti ^8 i1 " V/ ' 2 1 \#151 ; ft COS 2\lt ; fr _ r,2 / _Ti \ 1 - / 3 " sin2 1 , " iy/ 1 \#151 ; y3 cos 2\lt ; \#163 ; 2___1 \#151 ; / c2 sin2 0 \#151 ; k'2 cos2 \lt ; \#163 ; _A12ri2 / I 1 \ 1 \#151 ; y3 ^ k~ sin2 y3 \ri2 Aj2/ Therefore ( r2-1 'v-vi'-i-zifr A12r12 _D T1 Fp sin / 3 cos / 3 cos 7 ( 1 \#151 ; Tj)* ( 1 \#151 ; tx sec2 / 3f ( 1 \#151 ; tx sec2 7 ) " If we write G = I ( 1 + sec2 / 3 -f sec2 y ) 17 = | ( 1 + sec4 ' / 5 + sec4 y ) + i ( sec2 is + sec2 y + sec2 is sec2 y ) , this expression , when expanded as far as t,2 , becomes Ai2ri !
+_ sin is cos y3 cos 7 n2 Aj2rj2 1 -f \#151 ; Ax2 T Fj2 \#151 ; II The arcs of the three orthogonal curves were denoted in " Harmonics , " where dn was the outward normal .
+Since in the present case we are measuring r inwards , the element of volume dv must be taken as \#151 ; dn df .
+The equations ( 50 ) of " Harmonics " give FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+\#151 ; cos 0 v dv d0 dcf\gt ; = F ( v " \#151 ; p ?
+) ( \#151 ; 1 \#151 ; / 3 cos 2 \lt ; f)\/ I \#151 ; y3 cos 2\lt ; j ) 1-/ 3 1-/ 3 ~ F v ( ir \#151 ; l)5 ( v~ 1 + / 3\a \#171 ; /l + / 3 \#151 ; fi)^{rzrp - r \ h / I \#151 ; / 3cos 2(f\gt ; \h * 1-/ 3 y1 But 7 cos3 / 3 cos3 7 cZt t p \#151 ; v dv \#151 ; -------\#151 ; \#151 ; .
+t ... . .
+, and therefore sin3 / 3 * A ^ 2 ' cos/ 3 cos 7 A^l^3 / I ' 1 '* sin3 / 3 sin2 7 AT \jV " A , ' dr d6 d\lt ; / ) 1 - T ' ( i ?
++ i^ / 1 \ ApFp " *\#166 ; ^ ( ax2 + rp7 7/ j_ Ou comparing this with the expression for we see that dv , -F=pQd(r 1 " Ti f a 2 + Fi \#151 ; d ) \#151 ; Ti2 ( \#151 ; r + \amp ; fxi + in ' ) \#151 ; II Ap 1 IV Aprp \V 1 17 ( 5 ) .
+Another form , which will he more generally useful , is found by substituting for r : its value ; it is 3 M/ *y r A,2 - Fp _ cos2 ft cos2 7 c/ r c/ 0 d(f\gt ; iirp \k{ sin2 7 \#151 ; 4r3 cos4 ft cos4 7 f sin2 7 L \ri6Ap rpAf + G sin2 7 1 1 _ J_ rp " Ap 1 ' FpAp FpAf -II 1 ?
+Aft , rpAft rpAp , I11 order to express this more succinctly let 7T Are sin3 7 9 ^ ____ 6 cos3 ft cos3 7 7r sin3 7 ___ 6 cos4 / 3 cos4 7 7r sin3 7 ' 1 J_ JY ~ Ai4 1 s( r , \gt ; ~ a , VJ _i_ AF ' rpAp rpAft , 1 + \lt ; ?
+FftAft rftAft rftAft FftAft/ _ ( 6 ) We note that p0J* M/ k_\\#187 ; _ C/ 0 d(}\gt ; 8 ye \*0/ ' IF = COS2 ft COS3 y ( iTJ 4 " rp 1 Ap Aprx 3 .
+Then c/ o _ , M/ ky dr d0 d\lt ; f\gt ; ~ 8 U0 [ cl\gt ; ~ 2UF - 4r2G ] ( 6 ) .
+( G ) .
+The surface r = constant is an ellipsoid similar to J with squares of semi-axes reduced in the proportion 1 \#151 ; 2r to unity .
+Therefore the volume enclosed between the two ellipsoids is f* = ?
+( \#163 ; )'[1 -(l - *\#166 ; \#187 ; =f ( \#163 ; ) [ 3t - ** ~ But taking the limits of 6 and \lt ; /\gt ; as tto 0 , so that we integrate through one octant and multiply the result by 8 , we have another expression for the same thing , namely , .
+fob ' = jj [ \lt ; f\gt ; T ~\#166 ; 4Et2 \#151 ; |Dr3 ] ( 16 df .
+Therefore equating coefficients of powers of r in the two expressions , jj\lt ; t\gt ; d$ d(j\gt ; = 3 , jj'P dd d(f ) \#151 ; -f , dd d(p \#166 ; = ( 7 ) .
+The first of these will be of use hereafter , and all three afford formulae of verification in the numerical work .
+S 4 .
+Determination of 1c ; Definition of Symbols for Integrals .
+The pear being defined by t = \#151 ; eS3 \#151 ; ftwith all the s of order e3 , excepting f which is zero , we have at the surface of the pear to the fourth order T* = e3 ( S3)3 + 2 tefi^S + T* =-e* ( S , y - Stefs ( StfSf , r In all the integrations which follow , and especially in the present instance in the determination of the volume of the region D , it is important to note that \lt ; P , T , II are even functions of the angular co-ordinates , and that therefore the integral of any odd function of those co-ordinates multiplied by any of these functions will vanish .
+When the odd functions are omitted we may integrate throughout the octant defined by the limits -|-7r to 0 for 0 and \lt ; /\gt ; , and multiply the result by 8 .
+Then , only retaining terms as far as e3 , we may in finding the volume R take r = \#151 ; tfi'S ?
+, i only even , r3 = e3 ( S.f1 + 2te2fsS:ff , i only odd , T3 = 0 .
+To the cubes of small quantities we have , therefore , FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+261 r M / k \3 f f j * = 7 \k )I !
+[ _ ^ w + 2Ses/ '-s3s .
+' ) ] cie ihe first term vanishes because \gt ; S/ is a surface harmonic and is proportional to ptflcr .
+Thus we are left with f * = - j(jrJ ff * l\gt ; 2 W + 2 W1 # .
+I now introduce symbols for certain integrals , and in order to bring all the definitions together I also define several others which will only occur later .
+Let ( f\gt ; is = || \lt ; f ?
+( Sfd(f\gt ; ( of = || Mr ( SsySis dd d(f\gt ; ... ... ... ... ... .(8 ) .
+cos2 / 3 cos2 7 sin/ 3 All these integrals vanish unless i is even .
+For immediate use I also introduce xpis = || 'P/ S3/ Sis dd d(f\gt ; .
+The Q/ integrals vanish unless i is odd , but it will appear later that they are not actually required .
+I further write = \[v ( S3y dd d\lt ; f\gt ; , f f a ( S3y dd or a = \#151 ; 6 cos3 / 3 cos3 7 sin / 3 sin2 7 ffjvViy A^r,2 ) ; jG ( a^t , * \^l_ ddd(f\gt ; ( 8 ) .
+With this notation we have at once to cubes of small quantities , k V , f pdv = \#151 ; Mf\#151 ; j [ eV3 + 2tefisxpis ] ( 9 ) .
+But before using this I wil ] obtain another integral to the fourth order .
+It is f rp dv = M ( ~j3 ff [ e2 ( Ssy + 2 te + ( S/ ^)2 ] + i* [ \gt ; 3 ( S3)3 + 3 W# ' ] - ( S , )1 } dd d\lt ; p. Omitting terms which vanish , amongst which are integrals of the type we have ^Tpdv = iM(~J + + . .
+( 10 ) .
+Returning now to the determination of the mass of + R , and observing that the mass of the pear is equal to that of J \#151 ; R , we have M= M [ 1 + eV3 + 2 tefrWl Therefore ( it)3 = 1 + e*a~+ +e4SA term e4S of the fourth order has been introduced , but it will appear that it is unnecessary to evaluate it .
+There will be frequent occasion to express in terms of kj Now ( U =1-1 [ eVa + 22 ef + e*8 - fe ' ( \lt ; rs)3 ] .
+But this will only be needed explicitly as far as e3 , and to that order ( I ; )5 =1 ~ ... ... ... ... ... ... ... ... CO. It is , however , necessary to determine f ( ^ j \#151 ; | ( Jpj to the fourth order .
+Now i ( \#163 ; f = I { 1 - I [ eS + 22e/ W + e'S - f e* ( a , )3 ] } , t ( jrj = t { 1 \#151 ; I [ \#171 ; V2 + 22 + - |e*(o- .
+, )3]J .
+Hence to the fourth order It will be observed that the rp integrals and S have both disappeared .
+5 .
+The Energies \JJ and Jit .
+R cq , / \gt ; j , c , are the semi-axes of a Jacobian ellipsoid of mass and angular velocity co , its lost energy , inclusive of rotation , i-o-Mj2 where is the usual auxiliary function .
+\v .
+h2 , + ; 1 + a ; " FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+The equations to be satisfied by the ellipsoid afford expressions for odfq2 and aPcf in terms of differentials of 'SF .
+If these expressions are added together , ad may be eliminated , and the expression becomes \#165 ; + \#171 ; 1 ( NT clax In reverting to the notation adopted here , I remark that |J/ , will be used to denote those functions when the variable is v0 , and the variable will only be inserted explicitly when it has any other value .
+In the present case Mv the mass of the Jacobian ellipsoid , is M and it was shown in " the Pear-shaped Figure " that 9 .
+2 * = \#171 ; .\#163 ; =- fP.'Qi1- \#166 ; Hence iJJ = Are ( rfii\#187 ; i P/ Qi1 ] ... ... ... .(12)h 0 \ A'0 / It was shown in the same paper that the internal potential of the Jacobian inclusive of rotation , is Wi T , 'F + ^ Therefore in the present case Vj + W ( if + \#171 ; 3 ) = f { #"\#174 ; o - | P , 'Q , ' sin3 0 ( *3 sec3 y sec3 0 + z3)j .
+But the equation to an inequality on the ellipsoid defined by r is in our new notation sin3 / 3 ( ad sec3 y + y2sec3 / 3 + z2 ) = F ( 1 \#151 ; 2r ) ; Mt k V therefore Vj + W ( f + * .
+) = f K \ / { ( *"\#171 ; \#187 ; - P.'Q,1 ) + 2rP , lQ1 ' ! .
+Let us divide this potential into two parts , say U ) U'\ of which the first is constant and the second a constant multiplied by t. Also let ( JR ) ) ( JR ) " be the two corresponding portions of the energy JR .
+In order to find ( JR)f we have simply to multiply Uf by the mass of R considered as consisting of positive density .
+The volume of R is the excess of the volume of J above that of the pear ; hence the mass of R is M ii ) - \#166 ; Therefore ( JR ) ' = | K 7A\5 _ \K Jfe\* 1 h \#187 ; \#171 ; \#169 ; \#187 ; Pi'Qi1)Subtracting this from \JJ as given in ( 12 ) , \jj - ( jay = o\lt ; \amp ; o - Pi'Qi1 ) 2 ' h An 4T But the latter factor was found in ( 11 ) as equal to ( oq)2 .
+The term ^ only contributes a constant to the whole energy and may therefore be dropped .
+Accordingly , \jj - ( , jry = f Mf { - ( f0\#174 ; o - Pi'Qi1 ) . . .
+A0 For the other portion ( ./ / ?
+) " we have Z7 " = 3 ?
+( ?
+YtP^QA ( 13 ) .
+A \hv Then by means of ( 10 ) Pi'Qi1 { e^3 + 2 + *te*fiw ~ 2e % } .
+( 14 ) .
+In the terms of the fourth order we may put ( k/ k0f equal to unity .
+Therefore combining ( 13 ) and ( 14 ) M ' Pi'QiVs+i T P.'Qi1)W+ePi'Q.'U / h0 -4Pl\gt ; Q,1Se\#187 ; /W - WWW ( W S 6 .
+Surface Density of Concentration C ; Energy CR .
+The region i ?
+being filled with positive volume density p , is concentrated along orthogonal tubes on to J , and there gives surface density 8 .
+To the first order , by ( 5 ) , civ ( It p0d(r \#163 ; l - 2r cos2 fi cos2 7/ I ApTq2 \ Of + Integrating with respect to r from the pear to J , we have as far as squares of small quantities 8 = ~ PoP \#187 ; 2 .
+cos3 / 3 cos3 7 \#151 ; -f 1 \#151 ; \ 2 1 " n 2 *1 ri3 FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+It is now necessary to express 8 / p0in surface harmonics .
+The first two tenns are already in the required form ; for the remainder let tra'S ?
+= 0 + 1 . .
+A^2 \A* 1 rx2 Multiplying both sides by S ; s\lt ; t\gt ; dd d and integrating , we have + A - G)(s3ysi'd0d\lt ; t , \#151 ; j| V ( Say Sf dd d\lt ; f\gt ; = Therefore 17/ = and vanishes unless i is even .
+w , \lt ; /\gt ; 0 When i = 0 , rj0 = and since by ( 7 ) 0 = 3 , and jj.'F(S.tfddd\lt ; f\gt ; = we have \#151 ; ^\lt ; r2 .
+Hence we have e$S + 2 + ?
+( e* q + f* ) S = \#151 ; PoP This is expressed in surface harmonics , the middle term being of order zero .
+By ( 51 ) of " Harmonics " the internal potential of 8 is M i\* k0 \ K = - 3 T ( T ) ( - ) W S , + ieV2f0ffl0 M SI cof We have *,.\lt ; \#187 ; ) = * , .
+- ^ = ft* - r ^ * .
+But before proceeding to use this I will introduce a new abridgment , and let = t/ a/ ^j/ 0 337 = a/ ( 16 ) .
+Then v , = -3 % Jf / 7u \* \ *b + Ae3cr2^0 + S C3 cof + 3 M ( lc \3 cos2 / ?
+cos2 7 *o \ A0 / T sin \#163 ; 4\gt ; f eI3 : , At2W + A ( ^ + 33/ Ai3I1[2 In order to find the energy CR we multiply H by the element of mass p dv = ( fV [ 'B - 2rTQ dr dd d\lt ; f\gt ; , and integrate throughout R. VOL. CC.\#151 ; A , Now Bm=-1C ( il{**++ 2 ( e21+fi ) *.* } +1 ~ ( jf)'r +iev , a0'P + s ( \#171 ; * * +/ .
+) arts ; " M ?
+( lz\5 cos3# cos27 f .
+#3 , ^ / 2 \#174 ; is , + 1\#151 ; 1 \#151 ; ) T .T7W- 1 \lt ; ^3 + 2 ( .1^ +/ \lt ; j AAF.2 r 8 h sin / 3 Ai2r,2 Let us integrate these three lines separately .
+First integral = 3C(inf + i\#171 ; Vs3o\#174 ; + t if3 .
+f k ' V \ *o .
+i/ 2 , fie ' V \ h , \lt ; ?
+A + fi)WS\gt ; S ; J \cSt + SftS ?
+} did* '\gt ; f ; t. + ( fif \lt ; pf mi Second integral =3 f [ r]ff W* + + s ( \#171 ; \#166 ; %+fi ) { e2 ( S3)2 + 2 tefiSd\lt ; f\gt ; if3 I f k ' h ' Third integral \#151 ; A M2 f k \5 cos3 ft cos2 7 f f [ \k0 ) sin/ 3 JJ { 2 k dS 0 \ A/ 0 / 3 a/ t# + 2 +\gt ; ?')\#187 ; .
+'s , ' ' VI ? .
+{ e3 ( S3)3 + 2 $ef *Szdd d\lt ; j\gt ; = i~(f T { *(\lt ; .\#163 ; + \#171 ; !/ / ) / \gt ; , *\#187 ; / + ZS^awl .
+*b V ^0 All the terms , excepting the first of the first integral , are of the fourth order , and in them we may put ( k/ k{))b equal to unity .
+Therefore CR i/ 2 , f k V V V / + fT { e4 Tt^o ( O2 + 2 ( 28\gt ; / + 23/ p/ ) + $e2f ' [ 4 ( \amp ; / + \amp ; 3)\lt ; + ( 23/ + 23S3 ) p/ ] + 22 { ftfmt } . . .
+( 17 ) .
+FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+'267 S 7 .
+The Energy \CC ; Result for \JJ - JR + CR - \CC .
+From the last section it appears that the potential of C at the surface , where 7 = 0 , is = \#151 ; 3\#151 ; j('%3S3 + | 2 \#151 ; | .
+For the mass of an element of the surface density we have p0Sd\lt ; r = - pf ( JY* { eS3 + + s(e2 " j +/ , .
+) S ; } dedf .
+These are to be multiplied together and half the product is to be integrated .
+Then bearing in mind that jj dd d\lt ; f\gt ; = 3 , we have Mfk\5 [ ' ?
+cc=*fL / n0 \A( \lt ; *w\#187 ; +(o-s ) % + s m In the terms of the fourth order we put ( )5 equal to unity ; thus \#177 ; CC- e-m + \#165 ; ( ^a)2 + 2 Ze2fMW+Z(ffmt\Combining this with ( 17 ) M \5 CR - \oc = ! !
+QJ + iI _ , y~ \#166 ; J9\#187 ; ( ^)3 + 2(a.V + M.V)^.j + +(#.*+2*w*i+u/ raw \#166 ; ( i8\gt ; !
+We are in a position to collect together all the results obtained up to this point .
+Now \JJ \#151 ; JR , as given in ( 15 ) , contains P^Qi1 , \#187 ; the latter of these is Avhat is now written ^[0 , and since the ellipsoid is critical = 1P3\#169 ; 3 = 'sly Collecting terms we find that the terms of the second order disappear , and that yj - JR + CR - $\lt ; 7(7 = \lt ; r3)a + 2 \#163 ; , ) + \#163 ; ( \amp ; \gt ; / +33/ p/ ) ( 0[ + Se2ft [ 2:\amp ; \gt ; / + ( B/ + 2333 ) p/ ] - t ( ft)2 ( % - \#187 ; / ) 4\gt ; l } \#166 ; ( 19 ) .
+The reader will recognise that the last term involves the coefficient of stability for the deformation St It is important to note that if St is of odd order there is no term with coefficient eft S 8 .
+The Term - fMcPoT .
+In the Jacobian ellipsoid fr 2 i c 2 1 + 1 ^ = ^ + 1^ d9 daj In the present notation this is i-v / i + eo"\gt ; a = * ( ?
+A _ |PilQil ) = 2 ( a fa)3 if V sin2 # ; Hence - i MdV = -1 ( Mdfi=- ( a - We)\lt ; J/ , \lt ; )S 1 + cos2# I now make the following definition = sin ( 1 \#151 ; cos2 \lt ; \#163 ; )* , so that Then 2 = kSv Md zpdv \#151 ; \ zpdv \#151 ; zp dv = \#151 ; \ zp dv Jj-r J ; .
+J/ - Jr = \#151 ; M ( ~Jkfj ] [ \lt ; h - 2DP ] dr dd = M ( ~Jkjf [ \lt ; t\gt ; ( e$3 + $fisS + 'Pe3 ( S3)2 ] dd = Mi^kfy Therefore to the required order iw = --\#151 ; ^(a - lax/ i^r .
+/ n0 1 + COS3 / ?
+( 20 ) .
+We again note that this term in the energy does not introduce any term with a coefficient e~fY .
+Hence thus far the whole energy for harmonic deformations of odd order is of the form Le4 + M ( ft)2 .
+S 9 .
+Double .
+It remains to determine the value of \DD in the energy , and for this purpose we must consider double layers , according to the ingenious method devised hy M. Poincare .
+Let a closed surface S he intersected at every point by a member of a family of FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+269 curves , and let a be the angle between the curve and the outward normal at any point .
+At every point of S measure along the curve an infinitesimal arc t , and let r be a function of the two co-ordinates which determine position on S. The extremities of these arcs define a second surface S ' , and every element of area of S has its corresponding element da on S ' .
+Suppose that S is coated with surface density 8 , and that S ' is coated with surface density \#151 ; S ' , where 8 da = S ' da ' .
+The system SS ' may then he called a double layer , and its total mass is zero .
+We are to discuss the potential of such a system .
+Let U ( -L ) and U ( \#151 ; ) be the external and internal potentials of density 8 on S , and U0their common value at a point P of S. At P take a system of rectangular axes , n being along the outward normal , and s and t mutually at right angles in the tangent plane .
+In the neighbourhood of P \#166 ; U(+)=U0+nd\#163 ; ( + ) + SdV(+ ) + td\#163 ; ( + ) ... F\lt ; -)=v0 + tlf(- ) + sf(- ) + *f ( - ) ... In the first of these nis necessarily positive , in the second negative .
+Now ( + ) = -j- ( \#151 ; ) = -y ; and the like holds for the differentials with respect to t. Also by Poisson 's equation \#163 ; ( -\gt ; -\#163 ; ( +\gt ; =**\#166 ; Let PP ' be one of the family of curves whereby the double layer is defined , and let P ' lie on S\ so that PP ' is r. By the definition of a the normal elevation of S ' above S is r cos a. Let v9 v ' be the potentials of the double layer at P and at P ' .
+The potential of S ' at P ' differs infinitely little in magnitude , but is of the opposite sign from that of S at P ; it is therefore \#151 ; U0 .
+The point P ' lies on the positive side of S at a point whose co-ordinates may be taken to be n \#151 ; r cos a , s = r sin a , t \#151 ; 0 .
+Therefore the potential of S at P ' is cr\#187 ; +tcos " \#163 ; ( +)+ .
+dU T Sill a \#151 ; .
+as Therefore Again the potential of S at P is U0 , and since P lies on the negative side of S ' and has co-ordinates relatively to the n , s , t axes at given by n = \#151 ; tcos a , s = \#151 ; t sin a , = 0 ; since further the density on S ' is negative , we have dU .
+N , .
+v \#151 ; t COS a \#151 ; ( \#151 ; ) + r sin a .
+Therefore V \#151 ; V \#151 ; T COS a YdU _ ' dn ' ' = 47ttS cos The differential with respect to n of the potential of S falls abruptly by 47tS as we cross S normally from the negative to the positive side ; and the differential of the potential of S ' rises abruptly by the same amount as we pass on across It follows that dv/ dnon the inside of S is continuous with its value on the outside of The surface S to which this theorem is to be applied is a slightly deformed ellipsoid , and the curves are the intersection of the two quadrics confocal with the ellipsoid which is deformed .
+The curves start normally to the ellipsoid , and where they meet S the angle a will be proportional to the deformation whereby S is derived from the ellipsoid .
+It follows that cos a will only differ from unity by a term proportional to the square of the deformation , and as it is only necessary to retain terms of the order of the first power of the deformation , we may treat cos a as unity .
+We thus have the result v \#151 ; v ' \#151 ; 47rrS .
+Suppose the curve PP ' produced both ways , and that Afc , T/ i are two points on it either both on the same side or on opposite sides of the double layer .
+Let M(iM1 be equal to \#163 ; , let \#163 ; be measured in the same direction as n , and let \#163 ; be a small quantity whose first power is to be retained in the results .
+Let v{ ) , v | be the potential of the double layer at and Mx respectively .
+When \#163 ; does not cut the layer we have , .
+dv and when it does cut the layer V0 \#151 ; V1 = 47T7-S \#151 ; \#163 ; dv dn In the application which I shall make of this result the surface S ' will actually be inside S.then v0 will denote the potential at any point not lying in the infinitely small space between S and S ' , and t\ is the potential at a point more towards the inside of the ellipsoid by a distance \#163 ; ; S is the surface density on the external surface S and t is measured inwards .
+If then we still choose to measure n outwards , as I shall do , our formula becomes y dv 1 _ v0 \#151 ; v1 \#151 ; \#163 ; \#151 ; = 4-7ttS or 0 , according as \#163 ; does or does not cut the double layer .
+It may be well to remark that v being proportional to to , \#163 ; is small compared with 4t7t3 .
+It is also important to notice that the term 477x8 is independent of the form of the surface , and that dv/ dn will be the same to the first order of small quantities for a slightly deformed ellipsoid as for the ellipsoid itself .
+We have now to apply these results to our problem .
+The position of a point in the region R may be defined by the distance measured inwards from J along one of the curves orthogonal to J. The surface of the pear as defined in this way is given by e , a function of 6 and ( f\gt ; .
+Any point on a curve may then be defined by se , where s is a proper fraction .
+If is the same at every point the surface s is a deformed ellipsoid ; s = 1 gives the pear and = 0 the ellipsoid J. If dcr is an element of area of J , the corresponding element on the surface will be ( 1 \#151 ; \es ) dcr .
+The value of X will be determined hereafter , and it is only necessary to remark that it is positive because the areas must decrease as we travel inwards .
+Let s and s + ds be two adjacent surfaces ; then the mass of negative density enclosed between them in the tube of which ( 1 \#151 ; Xe.sj dcr and ( 1 \#151 ; Xe ( .s -j- ds ) ) da are the ends is \#151 ; pe ( 1 \#151 ; Xes ) da ds .
+If this element of mass be regarded as surface density on s , that surface density is clearly \#151 ; pe ds .
+If the same element of mass were carried along the orthogonal tube and deposited as surface density on that surface density would be \#151 ; pe(1 \#151 ; Xe.sj .
+The sum for all values of s of all such transportals would constitute the condensation \#151 ; C already considered .
+The double system D consists of the volume density \#151 ; p in R , and the positive condensation + Con J , the total mass being zero .
+Let z , a proper fraction , define a surface between J and the pear .
+Consider one of the orthogonal curves , and let V0 be the potential of D at the point P where the curve leaves J and Vz the potential at the point Q where it cuts z. Then I require to find V0 \#151 ; Vz .
+( I Since s denotes a surface intermediate between J and the pear , \#151 ; ( V0 \#151 ; Vz ) ds is the excess of the potential at P above that at Q of surface density \#151 ; pe ds on s and surface density + pe ( 1 \#151 ; Xes ) ds on J. Such a system is a double layer , but there is a finite distance between the two surfaces , and the form of ^ ( F0 \#151 ; Vg ) will clearly be different according as z is greater or less than s. The arc es may be equally divided by a large number of surfaces , and we may take t to define any one of them .
+Now we may clothe each intermediate surface t with equal and opposite surface densities i pe [ 1 \#151 ; Xe ( s \#151 ; \#163 ; ) ] dt .
+The density + pe[1 \#151 ; Xe ( s \#151 ; \#163 ; ) ] dton t , together with \#151 ; pe[1 \#151 ; \e(s \#151 ; t\#151 ; dt on t -f dt , constitute an infinitesimal double layer ; and since the positive density on each t surface may be coupled with the negative density on the next interior surface , the finite double layer may be built up from a number of infinitesimal double layers .
+Hence ( F0 \#151 ; F ) dt dt is the excess of the potential at P above that at Q of an CVS CiV infinitesimal double layer of thickness edt , and with surface density pe [ 1 \#151 ; Xe \#151 ; \#163 ; ) ] dt on its exterior surface .
+( Iv .
+We may now apply the result r{ ) \#151 ; v1 \#151 ; \#151 ; 4 77-87- or 0 , according as \#163 ; does or does not cut the double layer , and it is clear that d ?
+ds dt \#151 ; inpe2 [ 1 \#151 ; X e \#151 ; \#163 ; ) ] or 0 , according as zis greater or less than t. In the next place , we must integrate this from = to t \#151 ; 0 , and the result will have two forms .
+First , suppose z \gt ; s ; then for all the values of t , z \gt ; t , and the first alternative holds good .
+Therefore Secondly , suppose z \lt ; .s ' ; then from t = sto = \lt ; and the second alternative holds , while from t = z to t \#151 ; 0 , z\gt ; tand the first holds .
+Therefore Is ( F ' - V* ~ ez= i7TPe~ Ez " ( sz ~ a22 ) ] .
+We have now to integrate again from s \#151 ; 1 to 5 = 0 .
+From s = 1 to s \#151 ; z , z \lt ; 1 s and the second form is applicable ; from s = z to .s = 0 , z \gt ; s and the first form applies .
+Therefore ^T- eZ ( jv \#151 ; 47rpe3 j [ z \#151 ; Xe ( sz \#151 ; ^2 ) ] ds -j- 47rpe2 [ [ 5 \#151 ; ^-Xes2 ] = 4t rpd\z ( 1 - z ) - Xe [ \amp ; ( 1 - 7 } ) - ( 1 - + - \#177 ; \ez* } = 2npe2 { 2 z \#151 ; z2 \#151 ; Xe ( z \#151 ; # + i^3 ) } .
+Finally , we have to multiply \#151 ; 5 ( F0 \#151 ; If ) by an element of negative mass at the point defined by z and integrate throughout R. The physical meaning of this integral will be considered subsequently .
+We have already seen that such an element of mass is given by FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+273 \#151 ; p dv = \#151 ; pe(1 \#151 ; dz and the limits of integration are z = 1 to z = 0 .
+Therefore if ( F0-r , )P\lt ; to J = tt[j~ ||e3 ( 1 \#151 ; Xez ) ( 2z \#151 ; z'2 \#151 ; Xe ( z \#151 ; z2 -f jZ3 ) } dz + ip [ je2z ( 1 \#151 ; Xez ) dz da .
+, dV In this expression we neglect terms of the order e5 and note that e3z2-- is ot that order .
+Thus \ j"( F0 \#151 ; I7- ) pdv=vp2^e3 [ 2 z\#151 ; z3\#151 ; Xe(z+z3 \#151 ; dzda 1 to 0 ) , = IV2 feS(l \#151 ; da + ip fe'2 , the integrals being taken all over the surface of the ellipsoid .
+We must now consider the meaning of the integral i f ( Vq ~ ^~ ) pdv .
+Let Pbe a point on J and Q a point in R on the same orthogonal curve .
+Let \#151 ; TJbe the potential at Q of the density \#151 ; p throughout R , and \#151 ; U0 its value at P. Let S be the surface density of the positive concentration on J , its potential at Q , and W0 its value at P. The lost energy of the double system consisting of \#151 ; throughout It , and 8 on J is ^ j Up dv -(- o | W0 8 da \#151 ; 8 da \#151 ; | Wp dv .
+This is equal to -W)pdv -%\(l\-W\#187 ; )8da .
+Consider the triple integral j ' j"| ( U0 \#151 ; IF0 ) pdv .
+Here = e ( 1 \#151 ; Xes ) da ds ; also U0\#151 ; WQ is not a function of s , and the limits of s are 1 to zero .
+Therefore W0)p dv = ])(U( ) - W0 ) \#163 ; e ( 1 - Xes ) p ds da .
+But fe ( I \#151 ; Xes ) p ds is equal to 8 the surface density of concentration .
+Therefore Jo j][C0 - 1F0 ] 8 da = fj]( - P dv .
+VOL. CC.\#151 ; A. '274 PROFESSOR G. H. DARWIN ON THE STABILITY OF THE PEAR-SHAPED We may now revert to the Gaussian notation with single integral sign , and see that the lost energy of the system is we u0)-(w-uy3Pdv .
+But W \#151 ; Uis the potential of the double system at Q , and is therefore V , ; and W0 \#151 ; U0 is the potential of the double system at P , and is therefore V0 .
+Accordingly the lost energy \DD = |f(F0 -Ve)pdv = IV f(e3 - )dcr + \p [ e2 ... ... ... ... ... ... ... ( 21 ) .
+S 10 .
+Determination of e and e is the arc of the orthogonal curve from J to the pear .
+The arc of outward normal is connected with and our variable r by the equation It follows that - dn= \#151 ; \#151 ; vdv P \#151 ; Poj " ~ dr , integrated from J to the pear . .
+By ( 50 ) of " Harmonics , " with the notation of S 3 of this paper 1 \#151 ; IS COS 2 ( f)\i ( ir \#151 ; ( v3 1-/ 3 sin / 3 p v _ 1)1 ( vt _ 1 + COS yS cos 7 ( 1 \#151 ; T])i ( 1 \#151 ; 71 sec2 / 9)s ( 1 \#151 ; rx sec2 7)* 1-/ 9 Therefore Po P Ji A12 1 _ Zi rls ( 1 \#151 ; Tj)l ( 1 \#151 ; tx sec2 / 3)* ( 1 \#151 ; 7i sec2 7)^ ^ ; -'Tl ( ax2 rx2 = 1 \#151 ; T COS2 / S COS2 7/ 1 + r.2 \#151 ; .
+A12r12 \ax2 1 rx2 Integrating this from J to the pear - Po eSs + N fiS* -f |c 3 cos2 / 3 cos2 7 / A^G2 \AX2 1 rx + Pit~ ( 22 ) .
+We have , moreover , by the formula before integration FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+dn = p0 ' cos2 / 3 cos2 7/ I , 1 1 _ T " A.T , * + IV " 20 dr .
+Also to the order , zero \#151 ; n = p0T .
+Since \#151 ; nis what was denoted in S 9 by the element of volume is - ( 1 + hi ) dndcr , and this is equal to Po [ 1 \#151 ; Vz ] 1 cos2 { 3cos2 7 / 1,1 9rX !
+-t A.TV Uv + f ?
+- / ] Vo da dr , da da .
+But by ( 5 ) the element of volume is T COS2 V COS2 7/ 2 2 Po + FTi \#151 ; 2G Ax2rx2 \ax2 ' rx2 Equating coefficients of r in the two expressions we find cos2 ( 3 cos2 7/ I .
+1 ' X \#151 ; . .
+I t~ + p0Ax2rx2 \AX2 1 rx2/ .
+( 23 ) .
+S 11 .
+The Energy S7r/ r | e3 ( 1 \#151 ; Xe ) da .
+From ( 22 ) and ( 23 ) we have e3 = eW + 3 WiStfS !
++ I + rx2 " 2G\#163 ; )W Xe , = ^v^A(^ + J_)(S !
+) , So that .*(1 - X\#171 ; ) = - ft3 [ \#171 ; W + 3Se^- W\#171 ; * + e* VV { 3 ( i V + 1 ?
+) " 8 } ( Ss)'Again from ( 6 ) Therefore Sirp2e3 ( 1 \#151 ; Xe ) da = \#151 ; V 77 cos cos y sin / 3 ^0 W Ax2rx2 \lt ; b(Ws 4- .^ry 4 cos2/ 3 cos2 7 r5/ l L !
+\ 0/ 7 + c " AVV PU5 + hV dddcf ) .
+When this is integrated we may put ( k/ kvf equal to unity .
+In the integral the i .
+.\gt ; A/ 2 sin2/ 3 .
+9 , r i first term vanishes , and the second term gives \#151 ; in the third term we substitute for \lt ; 3 ?
+its value and have 3 M'2cos3 / 3cos3 7 sin ft 4f f 1 / J-_3_\Js/ 1 _l jL " it K sin2 y ej ] A[2IV \I\2A/ /\*\f* ^ A,2 ( W d\lt ; j\gt ; AT ' which is equal to 1 M%4 6 cos3/ 3 cos3 7 sin/ 3 If [ 5 / 1_ 1 1 _ J______\\ddd\lt ; f\gt ; sin2 7 JJ l2 Vr/ Aj2 Tfbj ) dT/ A/ J AF By the definition ( 8 ) this is equal to \#151 ; c4cr4 .
+Hence the required term in the energy is 3il/ 2 sin2 / 3 cos / 3 cos 7 2e2/ \gt ; ; \#151 ; \#163 ; eV4 ( 24 ) .
+S 12 .
+The Energy | e2 It is first necessary to determine dV/ dn .
+Suppose that the ellipsoid J is coated with surface density S , and that a second surface is drawn inside J at an infinitesimal distance r , and coated with negative surface density \#151 ; S ' , so that the two form a double layer .
+Then rS being a function of the two angular co-ordinates on the ellipsoid may be expanded in surface harmonics ; suppose then that rS = i 0 Consider the two functions Ve = 2 47r/ i/ ( r03 \#151 ; l)1 ^02 \#151 ; | ^ j ^ ( " ) $*\gt ; f'r exIernal space , V{ = ... ... ... ... ... ... ... ... ... ... ... ..p/ ( r ) ' , v ' : for internal space .
+av0 Since these functions are solid harmonics , the matter of which Ve and Vi are the potentials is entirely confined to the surface of the ellipsoid , and since they are not continuous with one another , the ellipsoid must be a double layer .
+N ow \#169 ; \lt ; \#166 ; \#171 ; =\#187 ; \lt ; *(- ) dv i + / ?y and therefore \#169 ; .
+' H ) K ) -\#174 ; ''(l'o ) dvo Hence at the surface of the ellipsoid dv0 ye \#151 ; y\gt ; \#151 ; 2 in 477tS .
+But this is the law found in S 9 for the change of potential in crossing a double layer , and hence Ve , Vi are the external and internal potentials of the double layer tS .
+Since d __ p d dn vdv ' dVe dF ] dV dn dn dn Z 4wyo 0 k\ ( v \#151 ; l)1 ( \gt ; 'o !
+\#151 ; 1+1)* am1 \#151 ; pj dvo 'ai/ 0 ( 25 ) .
+This result will hold good to the first order of small quantities if the surface be a slightly deformed ellipsoid , such as was the surface defined by t in S 9 .
+In the elementary double layer t the density was [ 1 \#151 ; \e ( s \#151 ; dt , and the thickness was e dt , so that the thickness multiplied by the density was pe2 [ l \#151 ; Xe ( s \#151 ; \#163 ; ) ] dt dt .
+Since , however , we only need this to the first order , we may take it as pe2 dt dt .
+It will now be convenient to change the meaning of h/ to some extent , and to write co ^ e2 = 2 0 Thus for the elementary double layer we have TS = p dt dt2 0 dV It follows that in applying the formula ( 25 ) to determine ^ system D , we may say that _ i+w h.m^iST .
+for the double d\gt ; dV _ Z^ToP/ \#171 ; _ , ) !
+/\#171 ; dsdt dn 7* Vvq ' ' dv0 dv o Since the right-hand side does not contain t , we have only to consider the integral f ( dsdt =\ s ds = Jo Jo Jo Thus , for the system D , dV dn \#166 ; .
+( 26)This result may also be obtained as follows To the first order we may concentrate the negative density in the region R on a surface bisecting that region .
+We may then consider the positive concentration C on and the negative concen tration on the bisecting surface as an infinitesimal double layer of thickness |e .
+We have seen that the surface density + ( 7 is \#151 ; ppeS3 , and that e = \#151 ; peSz ( in both cases to the first order only ) .
+Thus the density 8 of + Cis pe , and the thickness r of our layer is ; the product therefore rS is ipe3 .
+oo Hence tS = ^pe1 = \p % hpSp , and thus we arrive at the same result as before .
+0 I now introduce an abridged notation analogous to that used previously , and write 20 ; civ0 dv0 ' We then have by ( 26 ) on the last page ( lv y 2W cos/ 3 cos 7 , , \#171 ; ; dn ~7 F gin \amp ; where e3 = S h'S ' .
+By ( 22 ) to the first order Assume then r = nvW = e**\gt ; .
+cos3 / 3 cos3 7 ( S ' .
+, )2 sin / 3 ApTp Multiplying by \lt ; E\gt ; S ' and integrating , we have Hence e2F " e2 = \#151 ; \#151 ; - % S ' , and therefore h ' = c2k2 sin / 3 0 \lt ; /\gt ; / sin / 3 \lt ; f\gt ; f Substituting in ( 26 ) OO M n 8 = s 9 jz e*Posin ft a ; 20/ aS/ .
+sin2 / 3 \lt ; \#163 ; / pL ( 26 ) , 0 0 FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+Since on integration the terms involving products of unlike harmonics will disappear , we have , as far as material , dV dn o M .
+t % cPo 2 / i0 pi y 4\gt ; iJ D ; s { Now ipPo dar \#151 ; dO d\lt ; f\gt ; .
+Since the term which is being determined is of the fourth order in we may put k/ kQ = 1 , and we have tf-Vifl Y P1 ) J dn 8 ^0 0 Jj 1V \lt ; #.\#171 ; \#166 ; / \#169 ; /\lt ; \#163 ; ( N/ )2 d\lt ; }\gt ; A0 0 9 ; ( 27 ) .
+Since f0 W = 1 ) IPo ( v ) \#151 ; 0 and 290 = 0 , the term in 2 corresponding to i = 0 vanishes .
+S 13 .
+Terms in the Energy Depending the Moment of Inertia .
+We have to determine Are , the moment of inertia of the region R considered as filled with positive density .
+In order to obtain this result , we must express y~ + in terms of surface harmonics .
+This was done in S 12 of " Harmonics , " but as a different definition of S2 and SI was adopted there from that which I shall use here , it is easier to proceed ab initio .
+Let D2 \#151 ; 1 \#151 ; k2/ 2 , and W = i(l+^-D ) , ( 4 , )\#187 ; = * ( 1 + k* + D ) .
+For both the suffixes 0 and 2 , we have + = 1 , and 2 2 2 -K~ = \lt ; 1 YD21 ' , \#163 ; \gt ; 1 \#151 ; 3 q2 , *=vi\#151 ; 2 ?
+\gt ; 020'2 \#151 ; n'Z _ = 1 1 \#151 ; ?
+K i _ 2 In accordance with equation ( 10 ) of " The Pear-shaped Figure " I define the harmonics as follows :\#151 ; S2 = ( k2 sin2 0 \#151 ; qp ) ( q'l \#151 ; cos2 \lt ; )\gt ; ) , SI = ( fc2 sin2 6 \#151 ; ql ) ( fl \#151 ; K2 cos2 \lt ; [ \gt ; ) .
+Now y2 = Id ( v2 \#151 ; 1 ) cos2 6 sin2 , = lc2v2sin2 6(1 \#151 ; cos2 f ) , and , 1 _ r , .
+2t cos3 ft cos2 7 = iwp.where T'=\#151 ; w .
+Thus sin2 ( y~ + z2 ) = cos2 ft \#151 ; r , + sin2 ft sin2 0 \#151 ; ( cos2 ft \#151 ; tx ) cos + ( cos2 ft \#151 ; \#151 ; kVj ) sin2# cos2\lt ; /\gt ; .
+Let us assume , as we know to be justifiable , sin2 ft f , ( f + * ) = as ; + bsj + c = - [ A\amp ; Yo* + BfeV,2 - C ] + [ A , / " !
++ B , / / ] sin2 6 + [ Ar/ ( J2 -f B of]/ c'2 cos2 \#151 ; [ A + B ] / cV2 sin2 # cos2 ( j ) .
+If we equate the coefficients of sin2 6 and cos2 ( j ) in these two expressions , we have Aq'f + BqV2 = sin2 ft a _ 9 . .
+-n , , 2.___ T\ ~ cos2 ft K2 ' AqJ + B The solution of these equations may be written A = 2%/ cos2 ft T\ D + Ky 2 ' B= \#151 ; 2 Rqd 1 + COS2 ft + Ti D - K7 1 2IJq ' i _ _ .
+( 72 2 The simplest way of finding C is to put sin2 0 = -- , cos2 \lt ; /\gt ; = ~ , so that / C- K S2 \#151 ; $22 = 0 ; we thus find C = i(l + cos2 ft ) \#151 ; fiq .
+Now for brevity write sin ft 4:Dql cos ft cos 7 We then have / ^ cos2 ft \ \ ~ R + K2/ ' M sin ft 4:Dql cos ft cos 7 \ J ) \#151 ; K2/ ' 1 + cos2 / 3 \ A \#151 ; 2 cos / 3 cos}y ' 2 ' sin / 3 0 Hence , substituting for t1 its value , B = - 2 M + r , sin / 3 204 ?
+' t\#177 ; l = 2 ( \#163 ; Ss _ A/ S/ ) + 1 f\gt ; 3 sin2 ft cos2 ft cos2 7 / 1 N3 1 No3 4 T / j , o l 2 a an 2 s Tsm T I D Now D sin2 ft V/ tf Ai21\2 / '32 A^rd ^ A^iy/ ' = i *($\lt ; .*-**)\#166 ; Therefore FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+Qf + 22 ) p dr dd I ML \#151 ; 4 T COS / 3 cos 7 sin3 / 3 cos3 / 3 cos3 7/ I ^80 { IKS , -MVS , *)- 2ri^2\lt ; F 3 sin3 / 3 L 1 M , 47 ) * \1 Dsin2 / 9 \2V ( ii " 1~ 3 A13ri3/ J .
+When we integrate throughout the region A the limits of r are \#151 ; e$3 \#151 ; S/ 4S'/ to zero .
+Accordingly Ar \#151 ; \#151 ; ML + ii\\ sin3 / 3 e'5'3 + 2 SSgf* ( \#187 ; * - M*8J ) + * + cos3 / 3 cos3 7 2 D sin3 / 3 1 $\#163 ; 3 1 \lt ; M92 , 4 ^ 4\gt ; " r 3 1 L2V A^3 q'fAfTf -r 3 ViyJ ( S3)4 d6 d\lt ; f\gt ; = -mlh~ ) i( !
+i\5J 2cos/ 3cos7 2 COS/ 3 COS 7 .
+, 1 + cos2/ 3 3sin3/ 3 " + e3 ( jh .
+_ 2D sin / 3 ^ Wo* 2 ?
+The moment of inertia of the ellipsoid J is Also 1 + cos2 / 3 sin2 / 3 = Mkf 1 + cos2/ 3 5 sin3 / 3 " 1 + cos2 / 3 3 sin2 / 3 3J * M2 MV = , 3 sin3 / 3 4:7rp cos / 3 cos 7 3 AT3 1 sin3 / 3 2k0 ' 27rp ' cos / 3 cos 7 ' Lastly , to the required order we may put ( k/ k0Y equal to unity in the expression for Ar .
+Then 2 ( A/ \#151 ; A 3 m gw3 2\amp ; 0 27rp ( 1 + cos3 / 3 ) sin / 3 10 cos ft cos 7 + \amp ; + e^(02 ) " + C36\gt ; 22 ) 1 / I 7 sin3,8 ( A-4+ia\gt ; , 4D cos / 3 cos 7 \/ /03 qf2 ( 28 ) .
+This completes the expression for the lost energy E of the system , which may now be collected from ( 19 ) , ( 20 ) , ( 24 ) , ( 27 ) , and ( 28 ) .
+vol , cc.\#151 ; a. 2 o S 14 .
+The Lost Energy of the System ; Solution of the Problem .
+If the several contributions to the energy he examined , it will be seen that if i , the order of harmonics in fSt , is odd , there is no term with coefficient in this follows from the fact that the \lt ; u and p integrals vanish for the odd harmonics .
+Hence , as far as concerns the odd harmonics , E involves fs only in the form ( ff .
+The condition that the pear shall be a level surface is that E shall be stationary for variations of the fa and of e. It follows that when i is odd fi is zero .
+We may therefore drop all the odd harmonics , inclusive of f , and it is clear that the term \#151 ; \Mdray1 in E ( given in ( 20 ) ) vanishes to our order of approximation .
+For the sake of brevity , I adopt a single symbol for the coefficients of the several kinds of terms in E Therefore let o ' qo ( p s^ A = a\#187 ; [ I Ms + 2\#163 ; J + S ( \#187 ; \gt ; / + Wp- ) \#163 ; to + if f \#187 ; A si n2 ( 3 2 b ; = 2a.v + ( \#187 ; , - + 2\#187 ; , ) p !
+- Pt , V ' = ( a3 - a , 'i ( 1 + cos2 / 3 ) sin / 3 10 cos ( 3 cos 7 J a = l\ = La)2 \#151 ; Mg)22 + c = L(j\gt ; 3 , sh3 ft____ / L______\amp ; L i 4 \ 2 4 Dcos / 3 cos 7 \q'02 of 3 ^'/ ' * = " *f\gt ; where w = \#187 ; \#166 ; = \#187 ; \#166 ; = With this notation M2 f , f\gt ; \#187 ; \#163 ; ,.,2 JS-txl Ae* + 2S B\amp ; fi - t C ; ( f-f + ( a + fc\#187 ; + tf , - \#187 ; / , Let us now make E stationary for variations of e and f. First , by the variation of any f excepting and ff we have y = f\gt ; ... ... ... ... ... ... ... ... ... ... ... ... ... ... .\lt ; 29\gt ; On eliminating all these we have J/ 2 E = S _ 2 X ' Ao -40 + S W)3\ ~\lt ; v y + 2B , e % + 2 B\amp ; f , \gt ; + A , ( a + lit'2 + tfs \#151 ; h.ff ) } FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+By the variations of f " , and e3 , we have + f + = 0 , - dff -~t = 0 .
+A + t ( f ) e ?
++ BJ % + + A i = 0 \#166 ; hay c ; J But from the first two of these equations 4:7T p ( Af 8w2 c W)* Therefore 47T/ 3 C " ' Of 8w3 A/ ti 47 Tp - 0 . .
+( 30 ) .
+When 8co2 has been found , jf2 and are determined from B0 o .
+c 47T p Go A = cl + f 2 _ A^ \#174 ; ./ S \#151 ; 4r7Tp Cf* ( 31 ) .
+A consideration of these formulae shows that it is immaterial what definition is adopted for any one of the harmonics , provided , of course , that the same definition is maintained throughout .
+In order to evaluate A0 , we must eliminate 30/ .
+Since = $/ \lt ; \amp ; / , 23/ = \lt ; \#174 ; ./ \#174 ; , 30/ = l and dv0 ' 1 dv0 dv0 we see that Hence dv0 dvQ cos / 3 cos 7 ' B , .
+= ( \#171 ; , *- " " A \ cos / 3 cos 7/ ^/ , \#171 ; )s l " a \#187 ; l7\gt ; / , 1 B\#171 ; * ( p/ )2 _ 1 / \#171 ; a. , a I 13j } a. , U ] 0 / oo ) + 23 ; X# +4 TT \#151 ; au .
+( \#187 ; * \#174 ; \lt ; + 223 ; Pi ) " 4 nna A~ " " ffl , , J. a .
+h ' ~i h ' 4 \amp ; ' 2"\lt ; rt/ 4cos/ ?cos7a , * h If for brevity we denote this last expression by [ f , s ] , we have +o \#151 ; Ci ( o'i)3 + 2 Cl ] \#151 ; iPU + - [ h A ' ] . .
+B ?
+= ( a*\#174 ; / + 4-23 , \gt ; ) + ( 23:i - 2 cog 7 67 = ( \#171 ; 3 - a/ ) 4\gt ; i ... ... ... ... ... ... ... ... ... ... ... .
+Pi 7 . . . .
+( 32 ) .
+We have now the complete analytical expressions necessary for the solution of the problem .
+2 o 2 PART II .
+Numerical Calculation .
+S15 .
+Determination of Certain Integrals .
+The integrals \amp ; \gt ; / , p- , \lt ; j\gt ; - , depend on certain others , namely\#151 ; ( S3 ) .
+After a large part of the work had been done , I found that these integrals tend to give the required results in the form of the difference between two large numbers , and that it would have been more advantageous to consider the integrals It will he shown hereafter how the group ( 34 ) may easily be found from the group ( 33 ) , and it may be mentioned that most of the results were determined in duplicate from both forms .
+I proceed then to consider the H , T integrals .
+Since A , = 1 \#151 ; k2 sin2 y sin2 0 , F'j \#151 ; cos2 y + K'~ sin2 y cos2 sin2 / 3 sin2 y , we have ( 34 ) .
+Tt2/ i / t-i2 ?
+i\#151 ; 2 tt2r\#151 ; 2 \ iA2m g^n2 p V112m il2m-2/ T21 \#151 ; \#151 ; \ cot2 y Tf\#163 ; -2 + ~ sin2 y T ; / c / c I \2n-2 2m \#151 ; 2 ( 35 ) .
+I now write ( 36 ) .
+FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+285 It will be found from Legendre 's tables that for 69 ' 49'-0 , k \#151 ; sin 73 ' 54'-2 log F = -4317642 , log E - '0355145 log F ' \#151 ; -2047610 , -1875655 log F(y ) = -2117987 , log = 9-9856045 _ By integration by parts - 3 2 n \#151 ; 1 2 2 ( n \#151 ; 1 ) 1 + *'3 2n _ 2 O - 0 1 + \#171 ; * n2\#187 ; -2 _ rr\2n\#151 ; 2 A0 nf = rvV2(/ i _ 10 \#151 ; ( 2n - 1 ) k3 2n \#151 ; 3 rp iAo 2 % \#151 ; 4 ( 37 ) .
+J 2n-l \#171 ; '3 * ' ( 2rc , -l)/ c'2 0 Now write , G = ^ ( 1 + sec3 / 3 + sec3 y ) , IF = ^ ( sec3 / 3 + sec3 y -j- sec3 / 3 sec3 y ) .
+The values of ft and y are 64 ' 23'"712 , 69 ' 49'"0 ; whence log -8679015 , log H ' \#151 ; D4678555 .
+Also we require hereafter log II = 17182664 ( see S 3 ) .
+By differentiation d A sin6 cos6 2ncos3/ 3 cos2y 2 ( 2n \#151 ; l)G cos2/ 3cos'27 2 ) A7 cos2/ 8 cos2y 2n \#151 ; 2 dd Aj3 " A12fl+2 A Whence , by integration , Aj2b A + Aj2\#187 ; -2 A " " 2n \#151 ; 1 .
+2n \#151 ; 2 TT , " n \#151 ; 3 , _ . .
+nL+2 =----------#11^ ... ... ... . .
+II -f \#151 ; \#151 ; sec-jg sec3 y IE 2w-4 . .
+( 38 ) .
+On writing \#151 ; 1 tan y for sin y , we find that exactly the same formula holds good for the T 's .
+To apply this to the determination of Hq , Tq , we note that nS_.2 = cos3 y + sin3 y E , T'_2 = F ' \#151 ; sin3 y E. . . .
+( 39 ) .
+Also n l=\#177 ; ( F = \#151 ; E ' ) . . . . . .
+( 40 ) .
+From the formulae given in Cayley 's ' Elliptic Integrals ' it appears that \#166 ; .
+TS = F ' + sin 7 cos / 3 cos 7 [ F'E(y)-F'F(y ) + E'F(y ) ] \#166 ; ( 41 ) .
+Now nS = F , nlis given in ( 40 ) , and IIo'1 for = 2 , 3 , 4 . . .
+are then given successively by ( 37 ) .
+Again , II " is given by ( 41 ) , and the successive nf are given by the general formula ( 37 ) .
+Again ( 38 ) and ( 39 ) give n2 = GtoS 2 cos2 / 3 cos2 7 H ' = |Gn " - H'n % + ( cos2 if + sin2 yE ) , I F ; 4 cos3 / 3 cos3 7 and by successive applications of the formula ( 37 ) we find the successive values of Ilf , Ilf .
+It is convenient also to have the series of H_3 , T_2 integrals .
+These are to be found from nf2 = nf - sin2 / 3nf+2 , Tf2 = Kn sin2 yTf+2 + cos2 yrf . .
+( 42 ) .
+The T integrals may apparently be derived by a similar set of formulae , but since at each step we divide by k'2 , a small quantity , all accuracy is rapidly dissipated .
+Although we may safely derive one series of T integrals from a preceding one , we cannot so derive a succession of series , and it becomes necessary to find new formulae .
+In order to determine the T integrals , consider the group of integrals U 2k 2m If we write \#163 ; \#151 ; cos 7 tan \lt ; /\gt ; cos / 3 ' cos 7 n , a \#151 ; \#151 ; - , we mid cos y3 IT0 u 2m \#151 ; ___1______r ( a* + g3)"*-1 COS y8 cos3\#153 ; " " 1 7 J o ( 1 + whence , by some easy integrations , JJO = 17_____9 2 2 cos is cos 7 ' di u ' = 4 cos S\lt ; ;\#187 ; , ( sec3/ 3 + A 3 7J " U'e = 16 cos \#163 ; cos 7 tSec+ ^ + se'4 y + t ( sec ' P + sec2 y + sec2 \#163 ; sec2 y ) + 1 ] .
+On expanding ^ in powers of k we see that it , = vi ; + + ~ vir + ... .
+W hen m = 0 the U integrals are easily determined .
+FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+The relationship between the successive U integrals is clearly 2 m I now write for brevity x \#151 ; cos / 3 , = cos z = sm y X = It appears that we may put 1 + 1 To 2.4 ... 2n + X .
+1 +* ' 1.3 2w + 1.2n + 3 P x + y 2 27i + 2 2.4 2a + 2.2ti + 4 k'4+ .
+'7r2 ^ i 7r 1.3 ... 2w \#151 ; If 1 2 ?
+i +1 / 0 1.3 +1.2 ?
+j + 3 , , 2 \#151 ; 2-7/ ^- ' ' 2(1 + .
+: .
+) 2.4 ... 2m " l " " + 2.4 2m +-2.2m 4 }\#166 ; TTZ 7T 1.3 . . .
+2n \#151 ; 1 J 7 1 \#151 ; 4+y 2n + 2(1 + z ) 2.4 .
+, .2 , / 6,1 .
+b. _ 07T ?
+^ 7T 1.3 .
+2\#187 ; \#151 ; 1 Te \#151 ; lSxip2n2(1 + .2.4 ... 2n ~ jC ' '2 c4 } .
+By considering in detail the cases where = 0 , I find +o \#151 ; 1 ) i ; 1+i\#187 ; + 5=1 + .CI ( l-2p + 2p\gt ; ) , 6"=l-lx ; ( - C'= * + ?
++ + i + f)+ 1 = 1 + ^ + V ) + + -bV " \#165 ; /\gt ; 3 + ip4 ) , c0 \#151 ; 1 \#151 ; iX + +^s- By some rather tedious analysis , it may be proved , by considering the manner which each T is derivable from the preceding ones , that i2 / 1.3 ... 2\#187 ; \#151 ; 3 .
+\ 1.3 ... 2w-3 + A2n_21 + 2.4 ... 2 \#151 ; 2 a______E 2n l \#151 ; 2p\2.4 : ... 2n-2 a2n \#151 ; 1 + ^ 2X2 2n \#151 ; 1 ^2n-2 J ?
+Bin= K = r a , _ , +2 + \#163 ; 2 4\#187 ; _s+ " ; i ; ; ; ; | " i-2+1 - / \gt ; ) ( 1 \#151 ; X)2 a2 .
+X2 2rik2 2^\#151 ; 1 ''2 ?
+i\#151 ; 2 l ) a. ac2 2 n\1 !
+A s\\#187 ; i 2nX* C2\gt ; l - 1 _ 2\ [ ( X^ ' hn 2 - 1 C'2\gt ; , -2_ successive applications , starting from the values for n \#151 ; 0 , I find 1.3 1 , A.2 = p , Ai = ^p(l + p ) , A6=\#151 ; -p ( l + p + sP~ ) , 2.41 p0 4- p 4- ip : 4- tp3)- ^io = 2T77S4p2 + 4p ' + Ap4)5 2TTTT0 p(l + P + ip ' : + %P + Ap4 + Ap " ) ' 1 .
+az= 1 + X , a4 = 1 + X + SX.2 , ae 1 4 " ^ + fA cis \#151 ; 1 4 " ^ 4 " 4 " 4J 4* A*4 ) .
+1 + X + S\2 + + TT^4 4AX'1 + ^ ^ ^ - P 4 ^ -#4 \#151 ; ip j^1 + P 4- r , ( 1 \#151 ; ip ) \#151 ; + \#151 ; aP T / 1.3 2.4^ 1 4- p 4- |p2 4- ^ ( 1 + p \#151 ; p2)J\gt ; ~l + P + V24-fp34-51|(l+p4-ip2-p3 ) } p j l 4- p 4- fp ' 4- yps 4- Ap4 4- ( 1 4-p + fp ' \#151 ; ip ' \#151 ; fp4 ) , 2 10 P L1 + P + \#174 ; P + *P ' Ap4+AP 4- ^Ti(l + p 4* tp2 4- ip \#151 ; Mp'\#151 ; 4pf)J\gt ; 1 - IX .
+6 , = 1 + X - X2 , = 1 + X + TX2 - X3 , 1 + x + fx2 - ix3 - i\\ \amp ; 8 = 1 + x 4- fx2 4- 7X3 \#151 ; m - 4A 1.3.5 2.4.6 p 1. . .
+7 2. .
+.8 * + * + * / \#151 ; + a ?
++ J/ 2 ) + ly P4-- + \#151 ; + H 3 - 2 T 3*V ^ :/ 4 ' fcfn-p + ^O ~ip)+^ } 2~4 ^ L1 + P 4- |p : 4- H ( 1 4- p - p2 ) 4- ^ ( l \#151 ; |p 4 ip2)JC -hl '8 2.4.6^ _ 1 ... 7 lu ~ 2 ... 8 P 1 + P + Vs + V + kj(l + p + V - + p'+W 1 + p + V + v + Ap4 + ~(i + P + fp3 - ip3 - Ip4 ) + 35aAl + P + 'XP3-V + P4 ) , C12 = ?
+c0 = 1 - |-X + |X3 , c2 = 1 -f X \#151 ; 2X3 + fX3 , c4 = 1 + X + 0 X X3 - 2X3 + X4 , c6 = 7 + X + |X3 - |X3 - |X4 + X8 , c8 = 1 4 X 4 yX3 - |X3 - f|X4 - |XB + fX\#171 ; .
+By means of these formulae I then formed a table of the n , T integrals , corresponding to the critical Jacobian for which y \#151 ; 69'49/ -0 , k \#151 ; sin 73'54'-2 .
+A little consideration will show that if rioK , nfU\n . . .
+are a series of n integrals , the A integrals as defined in ( 34 ) are as follows :\#151 ; Kn = Hi , AL = - Mil , A l = A2nL , AS , = - A3nL \amp ; c. Hence by differencing the n integrals we find the A integrals , and similarly the differences of the T integrals give the ft integrals .
+The converse is also true , and by differencing A , ft we return to II , T. In this way I obtain a series of values of the required integrals .
+It may be that the last decimal place is erroneous in some cases , but the results given in the following table are sufficiently accurate for our purpose .
+Table of Logarithms of A and ft Integrals .
+n. log A " 2 .
+log A0n .
+log A2 ?
+l. log A4n .
+log A(Jn .
+0 .1064412 .4317642 .9049643 1-4848513 2-1218296 2 9-8518424 9-9779679 .1696589 .4573383 .8543000 4 9-7422028 9-8168606 9*9187709 .0641097 .2747811 6 9-6704204 9-7230801 9*7896484 9-8771928 9-9969099 8 9-6167543 9-6573681 9-7062560 9-7667474 9-8443343 10 9-5738269 9-6068642 9*6454046 9-6909753 9-7467821 12 9-5380322 9-5658708 9-5977435 9-6339429 9-6770135 n. log Q. % .
+log fl0n .
+log 122n .
+log 124n .
+log fl6\#187 ; .
+' 0 9-3901374 .2047610 1-0302812 1-8667636 2-7138342 2 90333614 9-8993680 .7715371 1-6492556 2-5319082 4 8-8883413 9-7729763 .6613027 1-5528790 2-4473548 6 8-7988101 9-6930495 .5898109 1-4886133 2-3893878 8 8-7344878 9-6345770 .5366725 1-4398972 2-3245748 10 8-6844351 9-5884555 .4944045 1-4005018 2-2861489 12 8-6435159 9-5503544 .4594781 1-3669609 2-2533269 VOL. CC.--A .
+S 16 .
+The Integrals cr2 , cr4 , \#163 ; 4 In accordance with equation ( 14 ) of the " Pear-shaped Figure " the third zonal harmonic is defined by where = sin 6 ( k~sin2 6 \#151 ; q ' ) ( \lt ; p \#151 ; 2 cos3 \lt ; /\gt ; ) , y/ ( 1 \#151 ; cos3 \lt ; f\gt ; ) , \lt ; f = f [ i + K3 - ( l - A3 + kJI 1 - 2* .
+The numerical values for the critical Jacobian are k2 = -9231276 , ( f = -5746473 .
+Writing p2 \#151 ; k3 \#151 ; ^3 , we have = ( p2 \#151 ; k2 cos3 d ) y/ ( l \#151 ; cos3 6 ) ( p3 + k 3 sin3 \lt ; ^)v/ ( k3 -f- k'3 sin3 \lt ; /\gt ; ) .
+Now let a = _p4 , / 3 = 2p3/ c3 + p ' , y = + 2piKi , 8 \#151 ; k4 , a !
+\#151 ; p'k\ ft = 2j33K3/ \lt ; /3 + p'k1 , k3k/ 4 -f- 2'p2K'1 , o ' = k/ 6 , and we have ( $3)3 = ( a \#151 ; / 3 cos3 # -f- y cos4 0 \#151 ; 8 cos0 6 ) ( a ' -(- ft sin3 \lt ; f\gt ; -(- sin4 \lt ; /\gt ; -f- sin6 \lt ; /\gt ; ) .
+rfhe numerical values of the logarithms of the coefficients are log a = 9-0843568 , log a ' = 9'0496186 , log j8 - 9-8835606 , log ft 87693310 , logy = -1748006 , log = 7-9810798 , log 8 = 9-9305236 , log 8 ' = 6'6573112 .
+Let j ( A2\#171 ; ) \#151 ; \#151 ; / 3A .\gt ; " + yA4 8a\#174 ; for n = 0 , 1 , 2 .
+J ( B2 , t ) \#151 ; a'ft\#174 ; * + / 3/ T4y\gt ; -|- y'ft4 , , + 8 ft|"j The definition of \lt ; x2 in ( 8 ) then shows that = lC"7aC"-{/ ( A.)/ ( \#171 ; t ) - / ( A4)/ ( \#171 ; o ) - \lt ; ?
+[ / ( A0)/ ( na ) - / ( As)/ ( !
+i0 ) ] } .
+In order to find cr4 and \#163 ; 4 , S3 must be raised to the fourth power , and we now define , for n = 1 , 2 , 3 , j ( Wi ) \#151 ; \#171 ; X. \#151 ; 2\#171 ; /3.\.l , , 4- ( 2ay -f- / 32 ) A2w \#151 ; ( 2\#171 ; S -}- 2/ 3y ) A|w + ( 2/ 38 -j- 7 ' ) A-L \#151 ; 2ySAi " + S-A*2 , , FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+/ ( ft2n ) = + 2a ft til + ( 2 a !
+y ' + ft1 ) ft4 , , + ( 2a ' S ' + 2ft y ' ) ft|\#187 ; + ( 2ft 8 ' + ft ? .
++ 8'ft " + S'2ft ] ?
+( .
+From the definitions of cr4 , \#163 ; 4 in ( 8 ) , we see that \#163 ; * = l cat\#163 ; ft'U-[/ ( A , )/ ( a\#171 ; ) -/ ( A , )/ ( \#171 ; , ) ] + G[/ ( A2)/ ( fte ) -/ ( A6)/ ( fi2 ) ] - rj[f(A2)/ ( fl4 ) -/ ( A , )/ ^ ) ] } , cos3 / 3 cos3 7 sin / 3 sin2 7 { f[/ ( As)/ ( a , .
+, ) -/ ( n")/ ( As ) ] The computations ( which were in this case actually made from the corresponding* formulae involving the II , T integrals ) gave \lt ; r " = -0136866 , \#163 ; 4 = -00009246 , \lt ; r4 \#151 ; -00176135 .
+These have to be used in a formula which also involves ft : , .
+Now ft , denotes P3\#169 ; 3 , or what should be the same thing , P , Q0 .
+The formulae in the " Pear-shaped Figure " with y = 69 ' 49'"0 , k = sin 73 ' 54 , -2 , give P,1Q11 = -351697 , $8\lt ; \#174 ; 3 = -351744 .
+Thus the two functions , which should be identical in value , differ by '000047 .
+I think that if I had taken y \#151 ; 69 ' 48'"997 , k \#151 ; sin 73 ' 54'"225 ( the actual numerical solution for the critical Jacobian , although not fully stated in the " Pear-shaped Figure " ) this small discrepancy would have been removed .
+However , the difference is quite unimportant , and as ft , generally means P/ Q^ , I take the former value and put log ft3 \#166 ; = 9-54617 .
+With this value I find the required result , namely ^3 ft ft ?
+)3 + - K = - *00050012 ... ... ... ..(43 ) .
+S 17 .
+The Integrals co/ , p/ , \lt ; f\gt ; ' .
+Any harmonic aS* , where i and s are both even , whether in the approximate form of " Harmonics " or in the rigorous form , may be written S* = ( a \#151 ; h cos2 6 + c cos4 6 \#151 ; d cos6 d + . . .
+) ( d + b ' sin2 ( f\gt ; -\-d sin4 \lt ; f\gt ; + d sin6 + . . .
+) .
+Each series is , of course , terminable , the number of terms in each of the two factors being \i + 1 .
+For the determination of the o\gt ; , p integrals this must be multiplied by ( a$3)\ It 2 P 2 can be seen , without actually writing down the product , how the coefficients will occur ; I write therefore those coefficients as follows :\#151 ; \#166 ; .
+l0 = aa , \#151 ; a/ 3 + ha , Z4 = ay + 5/ 3 + ca , = aS + c/ 3 + da , \amp ; c. m0 = a'a ' , mz = a'/ 3 ' -f m4 = \#171 ; 'y ' + ^7 ?
+' + m6 = a'8 ' + + c'ft + dW , \amp ; c. Next let f ( A2 , i ) = ZoA.2\#187 ; \#151 ; 52A2jt + kMn . . .
+f ( ft2- , i ) " " b " b Wl4n2n ~b . . .
+Then it follows from the definitions of co/ , in ( 8 ) that for n \#151 ; 0 , 1 , 2 .
+= 6cos8 !
+3rA j/ ( A0)/ ( fl. ) -/ ( A , )/ ( n " ) - \lt ; ?[/ ( A0)/ ( n2 ) \#151 ; /(As)/ ( n " ) ] } , 7T smH 7 Pi = ~6 J { / ( a.)/ ( o , ) -/ ( A2)/ ( a")j .
+sin3 y sin / 3 It is , of course , necessary to reduce the two factors of S ' to the required forms .
+The harmonics of the second order are S2s = ( k2 sin2 9 \#151 ; q ?
+) ( q ?
+\#151 ; k'2 cos2 \lt ; /\gt ; ) , = 0 , 2 ) , and I find q02 = '3197540 , q2 = '9623311 ; whence we may find b , a ' , for these harmonics .
+For the harmonics of the fourth and sixth orders I take the formulae of " Harmonics , " and attributing to the parameter / 3 its value '0399726 ( or more shortly '04 in the terms of the sixth order ) , 1 reduce ( ft ) , ( \#163 ; / ( \lt ; /\gt ; ) to the required forms and determine a , b , c , \amp ; c. , a ' , b ' , c ' , \amp ; c. The numerical values of these coefficients are given in the tables of S 20 hereafter .
+It may be well to remark that p0 is needed ( but not \amp ; )0 ) , and in this case = 1 , so that a = a ' = 1 .
+It seems useless to go in detail through the tedious operations involved in carrying out this process in the several cases .
+Approximate formulae are given for the \lt ; /\gt ; / integrals in S 22 of " Harmonics .
+" The | p0 derof that paper is the same as fir/ c3 ' " C of the present one , and the factor there written M is Id 7 _ Hence it follows that 47tM sin3 / 3 | ( P/ C/ )'2p dcr of " Harmonics .
+" In order to apply this to the harmonics of the second degree , it must be borne in mind that a different definition of Sz(s = 0 , 2 ) is being used here .
+If [ \lt ; /\gt ; 2 ] , [ \lt ; /\gt ; 32 ] be the values which would be found from " Harmonics " without this correction , and if \lt ; /\gt ; .
+, , ( f\gt ; p are the required values , it appears that 7*2 \#151 ; Wl ] kV4 Ae2 : W = M \#171 ; V4 where a , e , a ' , e are the coefficients specified in S 12 of " Harmonics .
+" The approximate values found in this way for all the \lt ; /\gt ; integrals are very near to the more correct values , and might have been adopted throughout without material error .
+But as there was not much certainty that the approximation was a good one \#151 ; and indeed for S6 was probably bad\#151 ; I also found all these integrals , excepting \lt ; f\gt ; g3 , \lt ; /\gt ; G4 , by the method now to be described .
+From ( 6 ) and ( 8 ) it appears that .
+sin3 \lt ; if ax-2 i ' , \#166 ; ) are \#174 ; ^* If , therefore , we write / ( A2il ) = a2A2a \#151 ; 2a8A|B + ( 2 ac + 62 ) \#151 ; ( 2 + 2 A ?
+in + . . .
+_ / ( ft2il ) = a,2nl + 2ab'nlH + ( 2a c ' + 6'2 ) ft4 " + ( 2 + 26 V)+ . . .
+' we have H = -/ ( Ao)/ ( Q- .
+) ] .
+The following table gives the results for all the \lt ; y/ , p/ , ( / \gt ; / integrals:\#151 ; Table of Logarithms of \lt ; /\gt ; , w , p Integrals .
+1 .
+s. log \lt ; /\gt ; f\ Approximate log \lt ; /vs from " Harmonics.5 ' log w/ + 10 .
+log pf+ 10 .
+0 0 \#151 ; \#151 ; \#151 ; 7-63099 2 0 9-00516-10 9-00515-10 7-67371 7-02716 2 2 7-03970-10 7-03973- 10 ( - ) 5-68193 ( - ) 5-05256 4 0 9*69080- 10 9*69323 - 10 8*03358 7-35625 4 2 1*72664 1*72729 ( - ) 8*33367 ( - ) 7-59132 4 4 3*81541 3*81612 8*29058 7-37446 6 0 9-71219-10 9*69305- 10 7-97301 7-32602 6 2 \#151 ; 2*20562 ( - ) 8-72778 ( - ) 7.94094 6 4 \#151 ; 5*29999 9-10094 8-13161 S 18 .
+The Integrals B/ .
+Adopting the notation of the last section we have fj/ ( v ) = a + h(i/ 2 - 1 ) + c ( ?
+/ \#151 ; l)2 + d ( v2 \#151 ; l)3 + . . .
+Let v = - ... ... ... ... ... ... .
+, and k sin K. Sill y\r sin x , so that at the surface of the ellipsoid where i/ j = y , we have x \#151 ; fiThen Now $/ ( v ) = a + hcot2 X + 0 cot4 X + . . .
+( v0 ) = a + hcot2 cot4 / 3 + . . .
+dv n ( v " \#151 ; 1)1 ( V2 l + / 3\*= K 1 difr 0 and a* = [ * , \#166 ; .
+wi \#171 ; L/ V \/ ( 1 \#151 ; k1 sin3 yfr ) dv c/ C sec x dxp Hence \lt ; U/ = k { a-f- hcot2 + c cot4 / 3 + . . .
+)21 sec x die ( f o [ a + cot2 x + c cot1 x- .
+02 * We have , in S 4 of the " Pear-shaped Figure , " the rigorous expression of this integral for harmonics of the second order , viz. : \#151 ; __ k(1 \#151 ; 2 q,3)(1 \#151 ; q,3sin2 y)2 J E ( y ) ( 7 ) sin 7 cos 7 cos / 3 1 2V sin17 j 9/ 2/ 9 ?
+( 1 \#151 ; sin2 7 ) J s = 0 , 2 .
+The values of q03 , '/ 23 have been already given , and thus all the quantities involved are known .
+The two factors of \amp ; / ( viz. , 11/ and \lt ; J|J/ ) are given in approximate forms in " Harmonics , " and therefore , if we made allowance for the different definition of ( \#163 ; f/ adopted in that paper , we might calculate \lt ; 3/ .
+The computations I made showed that the results obtained in that way would have been sufficiently exact , but as it was clear that the approximation to the \#169 ; functions was not very close , and as the computation is tedious , it seemed better to find the by quadratures .
+In order to do this I divided y or 69 ' 49 ' by 12 , and took 5 ' 49'-^ as the common difference , say 8 .
+I then computed sec + b cot2 x + c cot4 x + . . .
+, and sec x H- ( a + h cot2 x + c cot4 X . .
+-)2 f'r values of 0 , 8 , 28 , * . .
+128 or y. As a fact the first five or six values need not be computed because the early values of the functions to be integrated are practically zero .
+The ordinary formula } of FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+295 quadratures are inappropriate for these integrations , because the function , say to he integrated increases so very rapidly .
+I therefore take an empirical and integrable function , say v " , which is such that vl2 = uizvn = u1L ; the quadratures may then be applied to u " \#151 ; v " , and the result applied as a correction to J In fact this correction is always very small , and we might well be satisfied to use j v dip , which is very easy to calculate .
+The empirical function v is given by v \#151 ; e 5 un Then when xp = y , v = ulz ; when \#151 ; and Jo log.\#151 ; ' un In all the cases I have to consider the exponential term is negligible , and the ^12 ^ integral is ^ %3 . .
+e un For the quadratures we have un \#151 ; un\gt ; un \#151 ; vio = viz _ .
+/ V'3 % , / ' 1,9 " Un Cl , \amp ; c. , and the equidistant values of the function , to be integrated ( arranged backwards ) , are 0 , 0 , Ui0 ^12 ( ) ?
+^9 ^12 u\\ un , m/ 8 uJ , \amp ; c. The first two are zero , the next three or four are found to be sensible , and the rest are insensible ; hence the quadrature is very easy .
+The 33/ integrals are found thus :\#151 ; v\gt ; _ \#187 ; 1 fLg \gt ; ( v \_ 2\amp ; L cot2 ^ + 3 ^ cot4 / 3 4 ; ; IP/ ( vq ) dv01 V 0/ sin a + b cot2 / 3 + c cot ' The following table gives the %/ , 33/ integrals .
+Table of Logarithms of the % , B integrals .
+i. s. log 21/ +10 .
+log J3is .
+2 0 9-69312 .09295 2 2 9-33300 .40665 3 0 9-54617 .20467 4 0 9-44928 *28206 4 2 9-25987 .41239 4 4 9-06489 *44858 6 0 9-24383 .35876 6 2 9-16199 .41249 6 4 9-02369 .44195 S19 .
+Synthesis of Numerical Results ; Stability of the Pear .
+In the following tables and remarks I collect together some of the results which occur in the course of the work .
+The final places of decimals as given have , perhaps , in many cases but little significance :\#151 ; ( i. ) ( 2 .
+) ( 3 .
+) ( 3 ) + ( 4 ) .
+i. s. \lt ; a3 - log ( %\#166 ; - 21 , :* ) \lt ; /\gt ; , ; * = log 6y .
+/ * , sin2/ ?
+\_a ( 3 2cos/ S cosy/ ^ ' Bf .
+2 0 --141617 ( - ) 8-1562926- 10 .0029865 - -0011976 .0017889 2 2 .136417 6-1745705- 10 - -0000247 .0000127 - -0000120 4 0 .07033 8-53794 -10 .005214 - -002555 .002659 4 2 .16978 .95653 - *008965 .004390 - -004575 4 4 .23558 3-18755 .005594 - -002664 .002930 6 0 .17638 8-95864 -10 .004067 - *002384 .001684 6 2 .20649 1-52052 - -019041 .009820 - -009221 6 4 .24609 4-69108 .032054 - *015232 .016822 For all harmonics higher than those of the second degree is the coefficient of stability .
+Since in all these cases this expression is positive , the ellipsoid is stable for all such deformations .
+If U-f- 8 Ube the energy function for the pear , whose variations for constant moment of momentum are considered by M. Poincare , we have in our notation U + 8 U = \#151 ; i ( + i ( Aj - A , ) ( \#187 ; s + \amp ; \#187 ; * ) .
+j -zy12 FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+It is easy to show from our analysis that for the deformation/ 2$3 , ^ u \#151 ; 2k0 { ( ^3_ + 27rp a j 5 and that the corresponding expression with tr in place of c3 holds good for the deformation / AS/ .
+Forestalling the results obtained below , it may be stated that for fzS.z and for / AS'/ O 1/ 2 W = { --01433 + -03959 } ; Q 1/ 2 hu= ~{fif { -00015 + -00002 } .
+Thus in both cases hUis positive , and this shows that the Jacobian ellipsoid is also stable for the ellipsoidal deformations .
+The fact , that SE ( the variation of my function of energy for constant angular velocity ) is negative for the deformation illustrates the truth of M. Poincare 's remark ( 'Acta Math. , ' 7 , p. 365 ) : " Si au contraire la rotation de la mass fluide etait determinee par celle d'un axe rigide ( comme dans les experiences de Plateau par exemple ) , tout deplacement produirait un resistance passive et l'ellipsoide de Jacobi serait toujours instable .
+" I have in ( 32 ) written [ *\#166 ; * ] = \#171 ; ?# ?
+{ ( *-* + WfV - #\#171 ; W } .
+The following table then gives further stages in the work : \#151 ; i. s. [ * , * .
+] 2 0 *00014032 2 2 .00000072 4 0 .00009937 4 2 .00000276 4 4 .00000001 6 0 .00002835 6 2 *00000403 6 4 *00000002 2 [ i , s ] = .00027558 ^3 ( ''2)2 + 2\#163 ; 4 ] ~ ^4 = - -00050012 Ao = - -00022454 * Cf " +-00001861 Numerator . .
+- *00020593 .00022329 + *00000097 .00020486 .00000231 .00000001 .00003118 .00000256 .00000001 BtlCf .
+.00024190 -*00022329 +-00024190 + *00001861 - *12482 - *08059 *07705 - *000506 *0000019 *01852 - *000278 * 00000034 YOL .
+CC.\#151 ; A. The next step is to find sin / 3 ( r _ \#151 ; -________ .
+i _ cof\#163 ; _\ ------sin#-----/ 1 + S'*\#163 ; Jj 4 Dq/ cos / 3 cos 7 \ I ) + *2/ ' 4 Zty22 cos / 3 cos 7 \ D \#151 ; \#171 ; 2 where D2 = I \#151 ; / c3/ c'2 .
+The numerical values are logD = 9'9840165 , log L '6454565 , log M = '9591960 .
+From'these we obtain c = L\lt ; f\gt ; 2 , ti = M\lt ; f\gt ; 23 ; whence II II II - -055837 .000804 .031701 Denominator = - *023332 So)2 In accordance with ( 32 ) the Numerator divided by the Denominator is \#151 ; ^ 2 , and I thus find , 8\amp ; )2 lo\#171 ; 4^ = ( - ) 7-94578 .
+It was found in S 7 of the " Pear-shaped Figure " that the angular velocity of the ... .
+to2 .
+critical Jacobian was given by -\#151 ; = T4200 .
+Accordingly , the square of the angular velocity of the pear being or + So/ , we have co2 + gw2 = ft\gt ; 3[l \#151 ; -124314c2 ] .
+From the formulae ( 31)1 then find = '15068e3 , / 32 = -50839e2 .
+p The other fs are equal to , ; s e3 , and are given in the preceding table .
+From ( 28 ) and the definitions of a , b , C , ti it appears that the moment of inertia of the pear is 31f2a Aj Are ~ 27rpIC( ) With log a = 9-8559758 , I find 1 + i e* + \#187 ; f* ~ \#187 ; t a \#166 ; 0 a- 4 - [ 1 +-isicnc* ] .
+The angular velocity of the pear is \#166 ; v/ ( o)2 + 8ft)3 ) = w [ 1 \#151 ; -062157e3 ] .
+FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+Multiplying these last two expressions together , we have the moment of momentum of the pear ; it is 3 M'aa\gt ; 2iTpk0 [ 1 + -068854e2 ] .
+It follows that , whilst the angular velocity of the pear is less than that of the critical Jacobian , the moment of momentum is greater .
+This result would afford a rigorous proof of the stability of the pear if the numbers were based on a complete solution of the problem .
+But as we have not determined an infinite series of new harmonic terms , it becomes necessary to consider how the result might differ if the hitherto uncomputed terms were added .
+If e denotes the uncomputed portion of the infinite series 2 j s ] + ( BIT Of and if A denotes the addition to be made on that account to any of the results as already computed , we have ee3 / 8ta3 \_____________ \4lttp ) '023332 ' and A / 8ft)2\ \ \#174 ; / 2ee3 .023332 x T42 ' Whence Since 8ft)2 A IVK + S*\gt ; 2 ) ] = \#163 ; \#171 ; A = 0 ) [ 301"8346ee2 ] 8ft ) " c i\gt ; '3 f \#151 ; -ZlI 2- f'2 \#151 ; Ui_ 2 \#151 ; ( 7 ^ ' A^2 2_ 4trp C " C2 SaS ft 47rp C22 Are , = yA = - 103 " , 42 C2 4t rp \#151 ; a2 4vp io : 3*4563848 Then A ( Aj Are ) 3i\#165 ; 2a 2iTpk0 ZMH 2irpk0 \ 46 a/ 23 3ii2a 27rp [ _ 8337892 + 397472]ec2 ( _ 794-0420 ) ec2 .
+Therefore ^/ ( ft,3 + So\gt ; 3 ) = \#169 ; [ I \#151 ; -0621568e3 + 301-8346ee2 ] Ay \#151 ; Are = + -13101068e2 \#151 ; 794"0420ee2 ] 2irpk0 L By multiplication we find that the moment of momentum is 3M*U(0 2irpk0 [ 1 + -0688539e2 \#151 ; 492-2074e2e ] , The coefficient of e2 is positive and the pear is stable , provided that 492*2074e \lt ; *0688539 , or e \lt ; *00014 .
+Inspection of the table of numerical results shows that the zonal harmonic terms contribute by very far the larger portion of the sum .
+Now the sixth zonal term was [ 6 , 0 ] + = *00002835 + *00003118 = *00005953 .
+This is about 2 of the critical total *00014 .
+The pear is then stable unless the residue of the apparently highly convergent series shall amount to 2j times the contribution of the sixth zonal term .
+Such an hypothesis appears profoundly improbable , but I have thought it expedient to make a rough determination of the contribution of the eighth zonal harmonic to the sum .
+If we take k as equal to unity , Ss = $8 ( p ) C8 ( ) = P8 ( p ) , and we easily see that the formulae ( 8 ) reduce to w8 = Ps \#151 ; 3 ( Dj* !
+* ( 1 + sin3y sin3 0 ) cos 0 / c , v9CY Jn 7 , 7cos i 'll IT-7(s\#187 ; \gt ; de^ 6 cos97f*'rf*\gt ; cosfl IC1^ Jo Jo 1 - sill27sin2 0 ^ ^ 7r sin y In these integrals only enters through ( S3)'2 or [ $3 ( p)]2 [ C3 ( \lt ; \#163 ; )]2 .
+Now l''[03(^)]2# = [ \#171 ; ' + i/ s ' + I3I / + S ' = ^7 where K \#151 ; *1452 .
+Hence Ps sin 7 In these integrals ?
+8 ( f* ) = T28 [ 6435 sin8 9 \#151 ; 12012 sin6 -f 6930 sin4 \#151 ; 1260 sin2 + 35 ] [ $3 ( p)J \#151 ; ( *\#166 ; \#151 ; \amp ; cos2 0 + y cos4 9 \#151 ; 8 cos6 9 , where a , \#163 ; , y , 8 have known numerical values .
+1 he integrations may of course be effected rigorously , but it seemed far easier to determine them by quadratures .
+I therefore computed the values of the functions to FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+be integrated for 6 \#151 ; 0 , 15 ' , 30 ' , 45 ' , 60 ' , 75 ' , 90 ' , drew curves on squared paper , and counted the squares on the positive and negative sides of the axis .
+In this way I find log w8 = 6765 , log ps = 5'653 .
+The integral ( f\gt ; s is found at once from S 22 of " Harmonics " with / 3 0 .
+This gives \lt ; f\gt ; 8 \#151 ; -j \#151 ; f , or log \lt ; ^\gt ; 8 \#151 ; 9'247 .
+If P8 f/ x ) be expressed in terms of cosines of 6 we have P8 ( / x ) = a \#151 ; b cos2 6 c cos4 6 \#151 ; cosG 4* cos8 6 , where a = 1 , b = 18 , c = 74'25 , d \#151 ; 107'25 , e = 50'273 .
+Then we may , as in S 18 , put u " = P8 ( v ) = a + beot2 x + c cot4 x + d cot0 x + e cot8 y As was done in that section , I then computed un and and so found the integral of the empirical function .
+The result gave log \amp ; 8 = 9*191 ; whence logjjg = '370 .
+It may be admitted that the determination of $f8 , B8 is not wholly consistent with that of the previous integrals , since I oidy assume k to be unity in as far as the values of a , b , c , d , e are affected .
+Applying these values as before , I find ^3 \#151 ; ^[s='197 , log C8=8'540 , P8='000092 , 1 ] .
+~ = *0027 , and ( B Y2 .
+[ 8 , 0 ] = '00000051 , 7^- = '00000025 .
+Hence that part of " ( the uncomputed residue of the series ) which depends on the eight zonal harmonic is only about *0000008 .
+The contribution is so insignificant Compared with the critical total *00014 , that I have not thought it worth while to make estimates for the tenth and twelfth harmonics .
+It may then be confidently asserted that the pear is stable .
+JB In the course of this estimate we have also found e3 \#151 ; '0027e~ .
+S 20 .
+Second Approximation to the Form of the Pear .
+Extracting the numerical values of the s from our results , we find that the inequality of the critical Jacobian ellipsoid is eS3 + e3 [ 75068 S2 + '50839 Sf + '07705 S\#177 ; - '000506 Sf + '00000019 + -01852 Sa \#151 ; '000278 Sf + '00000034 Sa* \#151 ; ?
+SUG -f '0027 Ss \#151 ; . . .
+] .
+In order to give this expression a clear meaning , it is well to define the several s. = ( k3 sin3 6 \#151 ; q3 sin 6 ) ( q'2 \#151 ; cos3 \lt ; f\gt ; ) y/ ( 1 \#151 ; k'2 cos3 \lt ; \#163 ; ) , where k2 = '923128 , q2 = '574647 k'2 = '076872 , '425353 .
+For the other harmonics we have S* = ( a \#151 ; b cos3 0 + ccos4 6 \#151 ; d cos6 6 + . . .
+) -f- b ' sin3 \lt ; \#163 ; -f- d sin4 sin6 f- . . .
+) , where the values of a , b , \amp ; c. , a ' , V , \amp ; c. are as given in the following table :\#151 ; .
+i. s. a. b. c. d. e. 2 0 2 2 .603374 - -039203 *923128 .923128 4 0 4 2 4 4 1 - 1*7988 *0839 5*450 36*006 -7*975 4-901 44-805 95-574 6 0 6 2 6 4 1 -8*4 3*78 12-6 121-8 -338*312 29-984 439-425 3680-303 18-834 320-523 4482-844 8 0 1 18 74-25 107-25 50-273 i. s. cd .
+V. c ' .
+d ' .
+e ' .
+2 0 2 2 .603374 - -039203 .076872 .076872 4 0 4 2 4 4 .8036 -1-0666 1-0136 .3718 1-8135 -8-0266 .0280 *1865 8* 6 0 6 2 6 4 .5989 -1-1408 1-0305 *6888 1-5349 -7-704 .1512 .4404 6-944 .oooo .0264 704 8 0 1 0 0 0 0 The sui face of the pear is determined by measuring a certain length along the arc of curves orthogonal to the surface of the ellipsoid .
+By equation ( 22 ) it appears that that length measured in the direction of the positive normal is 2\gt ; o [ eS3 + 2 m + ie* ( A 2 + xy \#151 ; 2G ) ( s3y In order to construct a figure it will be convenient to adopt as unit ol length c , the greatest axis of the ellipsoid which is deformed .
+We know that h 7 Tin kcos 7 J1 7 ~ c = g*n 5 ^ ^ co"t p , \#151 ; sin ' so ^ = G cos A ci \#151 ; c cos y , and the mass oi the ellipsoid is f 7rpc3 cos / 3 cos y. But since the mass of the pear is jnpk(f where Jc0s = k3 ( 1 + e2cr2 ) , it follows that it is cos / 3 cos 7 sin3 / 3 f7rpc3 cos / 3 cos y ( 1 + .0136866c3 ) .
+Hence the mass of the pear is a little greater than that of the ellipsoid whose deformations we shall draw , and the protuberances above the surface slightly exceed in volume the depressions below it .
+We have Po = c cos / 3 cos y c cos ( 3 cos 7 ( 1 \#151 ; sin2 / 3 sin2 Of ( cos2 y + k'2 sin2 y cos2 \lt ; pf ' and the expression for the orthogonal arc , measured from the ellipsoid to the pear , is therefore P o eS3 + r ... ... ._..i________ , ________________i___________ \ c ) [ 2 ( 1 \#151 ; sin2yS sin2 0)2 ( cos2 y + k.'2 sin2 cos2 \#151 ; i ( 1 + sec3 ( 3 + sec3 y ) | + tfiS{ . .
+It appears to me that it will afford a sufficient idea of the corrected form of surface if I draw two principal sections , namely , first , a section through the axis of rotation and the longest axis of the ellipsoid , and , secondly , a section at right angles to the axis of rotation .
+It is not worth while to consider the third section drawn through the axis of rotation and the mean axis of the ellipsoid , since it will hardly differ sensibly from the uppermost figure shown in the " Pear-shaped Figure .
+" For the sake of brevity I will call the first and second sections the meridian and the equator .
+The three ellipsoidal co-ordinates v , 6 , \lt ; f\gt ; of any point are connected with by the relationships cc = c sin y. ( kV \#151 ; 1)j ( 1 \#151 ; k3 sin3 Of cos \lt ; j\gt ; , y \#151 ; csin y. k ( v3 \#151 ; 1)* cos 6 sin , z = csin y. kvsin 0(1 \#151 ; k1 cos3 \lt ; ff .
+The equation to the surface of the ellipsoid is = ^ ^= g-n ^ ' The equation to the meridian plane in rectangular co-ordinates is simply 0 , that to the equator is x = 0 .
+In ellipsoidal co-ordinates the equation to the equator is simply but the equation to the meridian is peculiar , for it is in part represented by 0 = \tt and in part by cf\gt ; \#151 ; 0 .
+The curve 8 = -j -rr , ( f ) \#151 ; 0 , which defines the limit between the two regions where the equation to the plane has different forms , is clearly the hyperbola / y\gt ; 3 z3 \#151 ; \#151 ; c3 sin3 y. In the region from z = co and x small down to this hyperbola the equation is 0 \#151 ; ; and between the origin and the hyperbola it is \lt ; /\gt ; = 0 .
+If we follow the arc of the ellipse from the extremity of the c axis we begin with 8 \#151 ; -^tt , ffj = I77- , and 8 remains constant whilst \lt ; f\gt ; falls to zero .
+Then maintains a constant zero value whilst 8 falls from to zero .
+On the side of the origin where zis negative , 8 is of course negative and undergoes parallel changes .
+The hyperbola 8 = \tt , \lt ; f\gt ; = 0 cuts the ellipsoid so near to the extremities of the c axis that an adequate idea of the deformation may be derived from the two extreme values of \lt ; f\gt ; , namely , -^77 and 0 .
+I have also thought it sufficient to compute the deformations for 8=0 , 30 ' , 60 ' , 90 ' .
+We thus obtain the following scheme of values of 8 , \lt ; f\gt ; , together with the corresponding rectangular co-ordinates ( with c taken as unity ) , at which to compute the deformation :\#151 ; Meridian ( y \#151 ; 0 ) .
+Equator ( x = 0 ) .
+8 = 90 ' , 4 \#151 ; 90 ' ; z= 1 , X \#151 ; 0 8 = 90 ' , ( f\gt ; = 90 ' ; 2=1 , O II O II O ~ O Ci II z= -961 , X \#151 ; .096 8= 60 ' , ( f\gt ; = 90 ' ; z= -866 , 0 oq 11 8 = 60 ' , rf\gt ; = 0 ; 2 = *832 , X = T91 8 = 30 ' , = 90 ' ; 2 = -5 , y = -374 8 = 30 ' , 4\gt ; = 0 ; z= .480 , X = .303 8 = 0 ' , \lt ; f\gt ; = 90 ' ; 2 = 0 , y = '432 II O ~e- II 0 2 \#151 ; 0 , X = .345 It did not seem to be worth while to compute the deformations due to the eighth zonal harmonic , since it would be quite impossible to show them on a drawing of any reasonable scale .
+In order to exhibit the magnitudes of the contributions of the harmonics of the several orders , I give the normal departures Sn at the points s = -j- l , x = 0 , y = 0 .
+FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+Term of first order . . .
+S3 \#177 ; .148227c Terms of second order proportional to e2 . . . .
+( SsY - -010986 S-2 .061844 s2* .000751 s4 .092715 Si* .000849 s44 .000000 sa .026647 -V .002011 ^o4 .000001 '184067 - -011737 - -011737 .17233O02 The following are then the results for the normal departures at the several points whose rectangular co-ordinates are specified :\#151 ; Meridian { y = 0 ) .
+% s= \#177 ; 1 , x \#151 ; 0 , rb '1482c -f -1723c2 .
+z = \#177 ; -961 , x \#151 ; -096 , Bn = \#177 ; -0932c + -0858c2 .
+z = \#177 ; -832 , x = -191 , \#177 ; -0189e + -0103c2 .
+z = \#177 ; -480 , * = -303 , = T '0223c - -0033c2 .
+\#171 ; = 0 , x \#151 ; -345 , Sn \#151 ; + *0046e2 .
+Equator ( x = 0 ) .
+z = 1 , y \#151 ; 0 , i *1482e + *1723e3 .
+z = \#177 ; -866 , y = -216 , Sn = \#177 ; -0300c + -1265c2 .
+z = \#177 ; \#166 ; 5 , y \#151 ; -374 , Sn = T -0354c - -0220c3 .
+2 = 0 , y\#151 ; -432 , Sn = - -0095e2 .
+In order to draw a figure I take e = -J- .
+Throughout most of the arc of the ellipsoid the approximation is probably good , but at the vertices , which are just the points of most interest , it is pretty clear that we are using a somewhat extreme value for e. The results are VOL. CC.\#151 ; A. Meridian { y \#151 ; 0 ) .
+Equator ( x = 0 ) .
+z = 1 , x = 0 , Sn = + *117 .
+z = V y = o , Sn \#151 ; + *117 .
+z = .96 , x = *096 , Sn = + -068 .
+z = .866 , y = -216 , Sn = + -047 .
+z = .83 , x = *19 , Sn + -012 .
+Z \#151 ; JLn ii CO Sn = - -014 .
+z = .48 , 8 II CO JO Sn = \#151 ; -on .
+z = O II CO qo Sn = \#151 ; -002 .
+z \#151 ; 0 , x \#151 ; '345 , Sn = + -ooi .
+z = \#151 ; .5 , y = -374 , Sn = + -003 .
+z = \#151 ; -48 , x \#151 ; '30 , Sn + -010 .
+z = \#151 ; .866 , y = '216 , Sn + *017 .
+z = \#151 ; '83 , x = '19 , Sn \#151 ; -007 .
+z = \#151 ; i\#187 ; y = o. Sn = \#151 ; -031 .
+z = \#151 ; '96 , x \#151 ; '096 , Sn \#151 ; \#151 ; '025 .
+N.B.\#151 ; -For z = \#177 ; *866 , Sn in both z = - 1 , x = 0 , Sn \#151 ; -031 .
+cases positive .
+These numbers are set out graphically in the annexed figure .
+It will be noticed that whereas the protuberance at the positive end of the z axis is great , the B A Second approximation to Pear-shaped Figure .
+Upper section " equatorial , " lower " meridional .
+deficiency at the negative end is almost filled up .
+We may describe the general effect by saying that the Jacobian ellipsoid is very little changed , excepting at one end of its longest axis , where it shoots forth a protuberance .
+Summary .
+If a mass of liquid be rotating like a rigid body with uniform angular velocity , the determination of the figure of equilibrium may be treated as a statical problem , if the mass be subjected to a rotation potential .
+The energy , say IT , lost in the concentration of a body from a condition of infinite dispersion is equal to the potential of the body in its final configuration at the position of each molecule , multiplied by the mass of the molecule and summed throughout the body .
+In the system , as rendered statical , it is necessary to add the rotation-potential to the gravitation potential before effecting the summation .
+That portion , say T , of the whole lost energy which arises from the rotation-potential is simply the same thing as the kinetic energy of the mass , when the system is regarded as a dynamical one .
+If we replace W-|- T by E to denote the whole lost energy of the statical system , the condition that the surface shall be in equilibrium is that the variations of E for constant angular velocity shall be stationary .
+E must then be a maximum or a minimum , or a maximum for some variations and a minimum for others .
+_ It might appear at first sight that the condition for the secular stability of the figure is that E should be a maximum for all variations , and this is so if certain constraints are introduced ; but in the absence of such constraints the figure may be stable although Eis a minimax .
+It has been shown by M. Poincare that the stability must be determined from the variations , subject to constancy of angular momentum , of the total energy of the system , both kinetic and potential .
+The two portions of the total energy , say U , are again W and T ; but whereas E involves the lost energy W of the system under the action of the gravitation potential , U involves the potential energy which is equal to \#151 ; W. Thus U is equal to \#151 ; W + T. The variation of U with constant angular momentum leads to results for the determination of the figure identical with those found from the variation of E with constant angular velocity .
+But there is this important difference , that to insure secular stability U must be an absolute minimum .
+It appears , in fact , that , in the case of the pear-shaped figure , while E is actually a maximum for all the deformations but one , it is a minimum for that one , which consists of an ellipsoidal strain of the critical Jacobian ellipsoid from which the pear-shaped figures bifurcate ( S 19 ) .
+But M. Poincare has adduced another consideration which enables us to determine the stability of the pear by means of the function E , without a direct proof that U is a minimum for all variations .
+For he has shown that if for given angular momentum slightly less than that of the critical Jacobian ellipsoid , the only possible figure is the Jacobian , and if for slightly greater angular momentum there are two figures ( namely , the Jacobian and the pear # ) , then exchange of stability between the two series must occur at the bifurcation .
+If , on the other hand , the smaller momentum corresponds with the two figures and the larger with only one , one of the two coalescent series must be stable and the other unstable .
+Now it has been proved that the less elongated Jacobian ellipsoids are stable , so that if the first alternative holds the stability must pass from the Jacobian series to the pear series ; and if the second alternative holds the pear series must be unstable throughout .
+The question * For the sake of simplicity we may speak of a single pear , instead of two similar pears in azimuths 180 ' apart .
+of stability is then completely determined by means of the angular momentum of the pear ; if it is greater than that of the critical Jacobian the pear is stable , and , if less , unstable .
+It suffices then to determine the figure by means of the variations of E with constant angular velocity , and afterwards to evaluate the angular momentum .
+It was proved by M. Poincare , and repeated by me in my previous paper , that the first approximation to the pear-shaped figure is given by the third zonal harmonic inequality of the critical Jacobian ellipsoid\#151 ; zonal with respect to its longest axis .
+In proceeding to the higher approximation I suppose that the amplitude of the third zonal harmonic is measured by a parameter e , which is to be regarded as a quantity of the first order .
+We must now also suppose the ellipsoid to be deformed by all and any other harmonics , but with amplitudes of order e2 .
+In the first approximation the lost energy W is proportional to e3 , but it now becomes necessary to determine TV as far as the order e* .
+A change in the sign of e means that the figure of equilibrium is rotated in azimuth through 180 ' .
+Such a rotation cannot affect the value of the energy , and it thus becomes obvious that the odd powers of e must be absent from the expression for TV .
+We have further to find the moment of inertia of the body as far as the terms of order e3 , and thence to find the kinetic energy T. The function E is equal to TV + T. In order to attain the requisite degree of accuracy , it is convenient to regard the pear as being built up in an artificial manner .
+I construct an ellipsoid similar to and concentric with the critical Jacobian , and therefore itself possessing the same character .
+The size of this new Jacobian , which I call is undefined , and is subject only to the condition that it shall be large enough to enclose the whole pear .
+The regions between J and the pear being called I suppose the pear to consist of positive density throughout J and negative density throughout ( S 1 ) .
+The lost energy of the pear consists of that of J with itself , say \JJ ; of J with R , which is filled with negative density , say \#151 ; JR ; and of R with itself , say This last contribution to the energy must be broken into several portions .
+It was the evaluation of \RRwhich baffled me , until M. Poincare 's solution came to my help .
+If we imagine the ellipsoid J to be intersected by a family of orthogonal quadrics , and if we suppose for the moment that the region R is filled with positive density , we may further imagine the matter lying inside any orthogonal tube to be transported along the tube , and to be deposited on the surface of J in the form of a concentration of positive surface density + C. The mass of C is equal to that of + It , but it is differently arranged .
+In the actual system R is filled with negative volume density , and we may clearly add to this two equal and opposite surface densities + C and - Con J. Thus the matter lying in the region R may be regarded as consisting of negative surface density \#151 ; C on J , together with a double system , namely negative volume FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+309 density \#151 ; R in conjunction with equal and opposite surface density -f This double system , say D , is therefore C \#151 ; R.The lost energy \RR may be considered as consisting of three parts ; first the energy of \#151 ; with itself , say \CC\ secondly that of D with itself , say %DD ; thirdly that of \#151 ; with I ) .
+This third item is obviously equal to \#151 ; \lt ; 7(7 + OR , and therefore | is equal to \#151 ; \CC + CR + \BB .
+It follows that the gravitational lost energy of the pear may be written symbolically in the form \JJ - JR + CR -i\lt ; 7\lt ; 7 + \BD .
+In this discussion no attention has as yet been paid to the rotation , but fortunately happens that the introduction of this consideration actually simplifies the problem , for if we suppose f ./ J and JR to mean the lost energies of J with itself and with R on the supposition that the mass is rotating with the angular velocity of the critical Jacobian , the formulae become much more tractable than would have been the case otherwise .
+The inclusion of part of the angular velocity in this portion of the function only leaves outstanding the excess of the kinetic energy of the pear above the kinetic energy , which it would have if it rotated with the angular velocity of the critical Jacobian .
+If w denotes the latter angular velocity , and { or + Sco2)* the actual angular velocity of the pear ; if Aj be the moment of inertia of J , and Are that of R considered as filled with positive density , we have E -\JJ - JR + CR - \CC + + { Aj - A , ) So\gt ; 9 .
+In this statement I have omitted a term which arises from the displacement of the centre of inertia from the centre of the ellipsoid ; it is duly considered in the paper , but is shown to vanish to the requisite order of approximation ( SS 2 , 14 ) .
+The co-ordinates of points are determined by reference to the ellipsoid J , which envelopes the whole pear , and the formula for the internal gravitation of J , inclusive of the rotation a\gt ; , is of a simple character .
+The size of J is indeterminate , and therefore the formulae must involve an arbitrary constant expressive of the size of But the final result E cannot in any way depend on the size of the ellipsoid which is chosen as a basis for measurement , and therefore this arbitrary constant must ultimately disappear .
+Hence it is justifiable to treat it as zero from the beginning .
+It appears then that we are justified in using the formula for internal gravity throughout the investigation .
+If the artifice of the enveloping ellipsoid had not been adopted , it would have been necessary to take note of the fact that the pear is in part protuberant above and in part depressed below the ellipsoid of reference .
+M. Poincaius did follow this last plan , and then proceeded to prove the justifiability of using the formula for internal gravity throughout , The argument adduced above seems , however , sufficient to prove the point .
+Although the constant expressive of the size of is put equal to zero\#151 ; which means that the pear is really partly protuberant above the ellipsoid\#151 ; -I have found that a considerable amount of mental convenience results from always discussing the subject as though the constant were not zero , so that the ellipsoid envelopes the pear , and I shall continue to do so here .
+When an ellipsoid is deformed by an harmonic inequality , the volume of the deformed body is only equal to that of the ellipsoid to the first order of small quantities .
+In the case of the pear , all the inequalities , excepting the third zonal one , are of the second order , and as far as concerns them the volumes of J and of the pear are the same .
+But it is otherwise as regards the third zonal harmonic term , and the first task is to find the volume of such an inequality as far as e1 .
+When this is done we can express the volume of J in terms of that of the pear , which is , of course , a constant ( SS 3 , 4 ) .
+By aid of ellipsoidal harmonic analysis we may now express the first four terms of E in terms of the mass of the pear , and of certain definite integrals which depend on the shape of the critical Jacobian ellipsoid ( SS 5 , 6 , 7 ) .
+The energy ^ ED presents much more difficulty , and it is especially in this that M. PoincarE 's insight and skill have been shown .
+The system D consists of a layer of negative volume density , coated on its outer surface with a layer of surface density of equal and opposite mass .
+Two surfaces , infinitely near to one another , coated with equal and opposite surface densities , form together a magnetic layer or a layer of doublets .
+The change of potential in crossing such a layer is 4-n- times the magnetic moment at the point of crossing , and is independent of the form of surface .
+To find the difference between the potential at two points at a finite distance apart , one being on one side and the other on the other side of the layer , we have to add to the preceding difference a term equal to the force on either side of the magnetic layer multiplied by the distance between the two points .
+This additional term is small compared with that involving the magnetic moment , provided that the distance is small .
+If the magnetic layer coincided with the surface of an ellipsoid the force in question would be exactly calculable , and if it lies on the surface of a slightly deformed ellipsoid the force remains unchanged by the deformation as a first approximation .
+Thus it follows that it is possible to calculate the difference of potential at two points lying on a curve orthogonal to an ellipsoid , when one point is on one side and the othei on the other side of a magnetic layer residing on a deformation of the ellipsoid .
+Further , if the two points lie on the same side of the magnetic layer the term dependent on magnetic moment ( which would represent the crossing of the layer ) disappears , and only the term dependent on the force remains .
+lwo equal and opposite layers of matter at a finite distance apart may be built up from an infinite number of magnetic layers interposed between the two surfaces .
+Hence by the integration of the result for a magnetic layer we may find the change FIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+of potential in passing from any one point to any other lying on the same orthogonal curve in the neighbourhood of a finite double layer .
+Again , the system D , consisting of \#151 ; R and + C , may be built up by an infinite number of finite double layers .
+Hence by a second integration we may find the difference between the potential of D at any point inside R and the point lying on J where the orthogonal curve through the first point cuts the surface of J. Finally , it may be proved that the lost energy \DD is equal to half the difference of potentials just determined multiplied by the density and integrated throughout the region R. The required expression of this portion of the energy is found to consist of two parts , of which one depends on magnetic moment and the other on the force ( S 9 ) .
+The reduction of this part of the energy to calculable forms is not very simple ; it is carried out in |S11 , 12 .
+The calculation of the moment of inertia of the pear is comparatively easy , since it only involves those harmonic inequalities of J which are expressible by harmonics of the second degree ( S 13 ) .
+On multiplying the moment of inertia by JSco3 , we obtain the last contribution to the expression for The energy function cannot involve e3 , since the vanishing of the coefficient of that term is the condition whence the critical Jacobian was determined .
+If f denotes the coefficient of any harmonic inequality other than the third zonal one , the part of E independent of Sw3 is found to contain terms in e3 , e}f and ( / )3 .
+The coefficient of 8\lt ; u3 consists of a constant term , a term in e3 and terms in f and where these f 's denote the coefficients of the second zonal and sectorial harmonics .
+This last part does not contain the coefficient of any harmonic of odd degree , and in the first part the coefficient of the term in e2f for all such harmonics is found to vanish .
+The condition for the figure of equilibrium is that the variations of E for variations of e3 and of ' each f shall vanish .
+On differentiating E with respect to the f of any harmonic of odd degree and equating the result to zero , we see that that f must vanish .
+Hence it follows that the pear cannot involve any odd harmonic excepting the third zonal one .
+Again ' , the symmetry of the figure negatives the existence of any even functions involving sine-functions of the quasi-longitude measured from the prime meridian ( as I may call it ) of symmetry through the axis of rotation .
+The same consideration negatives the existence of even functions involving cosine functions of odd rank .
+Accordingly the only functions to be considered are the even ones of even rank , involving the cosine functions of the longitude .
+The equation to zero of the variations of E for all the excepting f " , f.f gives at once all those f 's in terms of e2 .
+The equations to zero of the variations for e2 , f , f2 give three equations for the determination of Sa\gt ; '2 , f , f2 as multiples of e3 .
+W e thus have the means of finding the angular velocity and all the in terms of the parameter e , which measures the amount of departure of the pear from the critical Jacobian ellipsoid ( S 14 ) .
+It seems unnecessary to give here any explanation of the methods adopted for reducing the analytical results to numbers , and it may suffice to say that the task proved to be a very laborious one .
+The harmonic terms included in the computation were those of degree 2 and ranks 0 and 2 , of degree 4 and ranks 0 , 2 , 4 , and of degree 6 and ranks 0 , 2 , 4 .
+The sixth sectorial harmonic was omitted because its contribution would certainly prove negligible .
+The expression for Sco2 was found in the form of a fraction , of which the denominator is determinate and the numerator consists of the sum of an infinite series .
+Nine terms of this series were computed , namely , a constant term and the contribution of the eight harmonic terms specified above .
+I found , in fact , that it would only change the numerator by about one-twentieth part of itself , if all the harmonics excepting the zonal ones of degrees 2 , 4 , 6 had been dropped .
+The result shows that the square of the angular velocity of the pear is less than that of the critical Jacobian ellipsoid in about the proportion to 1 \#151 ; -J-e2 to 1 .
+On the other hand the angular momentum of the pear is greater than that of the ellipsoid in about the proportion of 1 + -x-5-c2 to 1 .
+If this last result were based on a rigorous summation of the infinite series , it would , in accordance with the principle explained above , absolutely prove the stability of the pear .
+The inclusion of the uncomputed residue of the series would undoubtedly tend in the direction of reducing the coefficient given in round numbers as -y-5- , and if it were to reduce it to a negative quantity , we should conclude that the pear was unstable after all .
+The apparently rapid convergence of the series seemed to render it almost incredible that the inclusion of the residue could bring about such a reversal of our conclusion , yet I thought it advisable to make a rough estimate of the amount of change which would arise from the contribution of the eighth zonal harmonic .
+The contribution of the sixth zonal harmonic to the series above referred to was about 00006 , and I find that if the contribution of the uncomputed residue should amount to 00014 , the apparent stability of the pear would be just reversed .
+Now my estimate of the contribution of the eighth zonal harmonic to the same sum is '0000008 , or only yyyth of the critical amount .
+Since the convergency of the series is obviously very rapid , it is wholly incredible that the inclusion of the uncomputed residue could materially alter , much less reverse our result .
+1 regard it then as proved , but by something short of an absolute algebraic argument , that the pear-shaped figure is stable .
+The numbers obtained in the course of the determination of the stability afford the means of giving a second approximation to the form of the pear .
+The result is shown graphically in the figure of S 20 , where the largest value of e is adopted which seemed to secure a fair degree of approximation in the result .
+I originally called the figure pear-shaped , " because M. Poincare 's conjectural sketch in the Acta Mathematica was very like a pear .
+In the first approximation , shown in my foimer papei , the resemblance to a pear was not striking , and it needs some imaginaFIGURE OF EQUILIBRIUM OF A ROTATING MASS OF LIQUID .
+tion to recognise the pear shape in the second approximation shown here ; but a distinctive name is so convenient that we may as well continue to call it by that name .
+The effects of the new terms now added are almost entirely concentrated at the two ends .
+All these terms , excepting a very small one arising from the second sectorial harmonic , tend to augment the protuberance at the stalk and to fill up the depression at the blunt end .
+It is true that there is a small term , arising from the square of the third zonal harmonic , which diminishes the protuberance and increases the depression , but this cannot be regarded as a new term , since it only represents the effect of the fundamental harmonic carried to the second order of small quantities .
+The new zonal harmonics furnish by far the most important contributions .
+The second zonal harmonic denotes that the ellipsoid most nearly resembling the pear is longer and less broad than the Jacobian .
+The largest contribution of all is that due to the fourth zonal harmonic , and this may be regarded as the octave of the second zonal term .
+A rough estimate shows that the eighth harmonic , or the double octave of the second , is still sensible .
+The sixth harmonic is the octave of the fundamental third zonal harmonic , and is the last of the three important terms .
+The general effect is that the protuberance at the stalk of the pear is much increased , and the depression at the other end nearly filled up .
+Over the greater part of the whole surface the depressions and protuberances are less conspicuous than they were .
+The nodal lines where the surface of the pear cuts that of the ellipsoid are entirely shifted from their former positions .
+It did not seem worth while to attempt to specify their new positions , because the choice of the ellipsoid to which we refer influences the result so largely .
+The ellipsoid on which these figures are constructed is that which is called J in this summary .
+Its volume is a little less than that of the pear , so that the protuberances are a little greater in volume than the depressions .
+I think it is hardly too much to say , that in a well-developed " pear the Jacobian ellipsoid has nearly regained its primitive figure , but subject to a small tidal distortion due to the attraction of a protuberance which it shoots forth at one end .
+I venture to give here a conjectural sketch of a further stage of the development .
+Conjectural Sketch .
+If we look at this figure and at those drawn by Mr. Jeans in his striking investigation of the parallel changes in the shape of an infinite rotating cylinder VOL. CC.\#151 ; A. 2 S ( s pra , p. 67 ) , we can hardly fail to be reminded of some such phenomenon as the protrusion of a filament of protoplasm from a mass of living matter .
+Notwithstanding the caveat which M. PoincarE enters as to the dangers of applying these results to heterogeneous masses and to cosmogony , 1 cannot restrain myself from joining him in seeing in this almost life-like process a counterpart to at least one form of the birth of double stars , planets , and satellites .
+Note .
+Erratumm u Ellipsoidal Harmonic Analysis , Phil. Tians .
+, A , vol. 197 , p. 512 , line 4 from foot .
+The first term inside the bracket should be negative .
+The mistake runs on and the same correction should be made in equations ( 62 ) , ( 63 ) , and ( 64 ) , and in line 9 on the following page .
+

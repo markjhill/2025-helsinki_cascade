@@ -1,0 +1,709 @@
+[ 91 ] III .
+On the Theory of Consistence of Logical , and its Geometrical R By G. Udny Yule , formerly Assistant Professor of Applied Mathematics University College , London .
+Communicated by Professor K. Pearson , Received February 9 , \#151 ; Read February 28 , 1901 .
+Contents .
+Introductory\#151 ; Definitions ... ... ... ... ... ... Congruence of the Third Degree ... ... ... ... " " Fourth " ... ... ... ... ... ... ... General Theory ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... .
+Geometrical Representation of the Conditions of ConsistenceCongruence of Third Degree ... ... ... ... ... ... ... ... ... . .
+" Fourth " ... ... ... ... ... ... ... ... . .
+Limits to Associations given by Conditions of Consistence . .
+S l-S 3 .
+S 4-S 5 .
+S 6-S 8 .
+S 9-S 10 .
+S ll-S 14 .
+S 15-S 25 .
+S 26\#151 ; S 31 .
+S32 .
+S 1 .
+In the ordinary treatment of logic the field of discussion is strictly limited to premises of a non-numerical character , numerically definite data being rigidly excluded .
+The statistician obtains no help from ordinary logic towards solving even the simplest problems , e.g. , the deduction of inferences from data of the type " per cent , of A 's are B , y per cent , of A 's are C , " or the inferring of association between B and C from known associations of A with B and with C. It is now more than half a century since De Morgan , in the chapter " On the Numerically Definite Syllogism , " of his ' Formal Logic ' ( 1847 ) , laid the foundations of a theory of strictly quantitative logic .
+Substituting the modified notation of Jevons , employed by me in a recent paper , * for De Morgan 's own notation , his Theorem may be expressed in the form " if ( AB ) fi- ( AC ) \gt ; ( A ) , ( BC ) must be at least equal to the difference ( AB ) + ( AC ) \#151 ; ( A ) .
+" For if , e.g. , we imagine ( A ) boxes , into which * " On the Association of Attributes in Statistics , " \amp ; c. , ' Phil. Trans. , ' A , 1900 , vol. 194 , p. 257 .
+The notation is essentially that of Jevons , save that small Greek letters have been substituted for his italics .
+2^ 2i 3.8.1901 we deal a certain number ( viz. , ( AB ) ) of cards marked ( B ) , one into each box , leaving only ( A ) \#151 ; ( AB ) unoccupied boxes , and then proceed to deal into the remaining boxes cards marked C , one into each ; some of these must fall into boxes already occupied by a B if their number exceed ( A ) \#151 ; ( AB ) .
+From similar simple reasoning De Morgan derived the complete conditions of consistence for ( AB ) , ( AC ) , and ( BC).# He does not , however , consider the case of more than three attributes , and the whole discussion is rendered very lengthy owing to his standpoint being still that of the older logicians .
+The theory of numerical logic was carried somewhat further by Boole in Chapter 19 of the 'Laws of Thought ' ( 1854 ) , entitled " Of Statistical Conditions .
+" After taking a series of propositions for finding the major and minor limits to class-frequencies or sums of frequencies of any order , in terms of the first-order frequencies and the total frequency only , he proceeds to the general problem " given the respective numbers of individuals comprised in any classes , s , t , \amp ; c. , logically defined , to deduce a system of numerical limits of any other class w also logically defined .
+" I must confess myself unable to follow the physical meaning of the processes symbolically developed in Boole 's general theorem , and this chapter has not , to my knowledge , been discussed by subsequent logicians .
+One naturally turns to the " Symbolic Logic " of Dr. Venn , whose lucid treatment clears up many difficulties of the " Laws of Thought , " hut he does not appear to deal with the problems " of statistical conditions .
+" In the following memoir I have endeavoured to deal with the general theory of logical consistence , as I prefer to term it , from a standpoint slightly different to that of Boole , f S 2 .
+Let ( U ) he the total frequency in some defined universe , and let ( A ) ( B ) ( C ) . . .
+( AB ) ( AC ) . . .
+( ABC ) . . .
+\amp ; c. , he the frequencies of the positive groups ( classes ) up to , say , groups of the order , the number of attributes specified being m \gt ; It will be remembered that all other group-frequencies can be expressed in terms of those of the positive groups , so that no others need be considered .
+Boole , in his general theorem , quoted above , supposes certain of these frequencies to be known , and requires to find the resulting limits to some one other .
+I propose instead to make , at the outset , no supposition as to the frequencies that are known , but simply to discuss what conditions must hold if the whole set of frequencies is to be self-consistent .
+By proceeding in this way symmetrical systems of conditions are obtained of great interest and generality .
+They may be applied at once to such cases of limit-inference as are dealt with by * See S 5 below .
+t I may perhaps state that this work was not directly suggested by De Morgan 's or by Boole 's writings .
+Difficulties had arisen in the invention of numerical examples to illustrate certain points of theory , and I was driven to working out the theory of consistence in order to clear up these difficulties .
+OF LOGICAL CLASS-FREQUENCIES , ETC .
+Boole , while exhibiting in a clearer light the data that are necessary for any inference , and the limitations of inference caused by assigned limitations of data .
+The whole of the conditions of consistence are derived from one source , or one condition only , viz. , that no frequency can be less than zero .
+But as it is evident that if all the frequencies of any order be greater than zero , the frequencies of all lower orders must , d fortiori , be greater than zero , we may limit the above statement by saying that all the conditions of consistence are covered by the dictum that no ultimate frequency* can be less than zero .
+If , however , we are dealing with groups of the nth and lower orders only in m specified attributes , it is convenient to divide the conditions into two classes\#151 ; ( 1 ) the " inferior conditions of consistence , " which may be derived from the fact that no nth order frequency can be less than zero ; ( 2 ) the " superior conditions of consistence " which can only be derived from the consideration that frequencies of order greater than n cannot be less than zero .
+A distinction of this sort is , it may be noted , made by De Morgan .
+Inferences drawn from the inferior conditions of consistence for second order groups he terms spurious inferences ; t they do not really follow from given premises ( i.e. , given values of ( AB ) and ( AC ) or ( AB ) and ( BC ) , \amp ; c. ) , but are " true by the constitution of the universe .
+S 3 .
+It will be convenient to use the following terms in addition to those defined in my previous memoir .
+A set of frequencies formed by taking the frequency of any positive group ABCD . . .
+N , together with the frequencies of all possible groups of the same order formed by substituting the contraries / 3 y 8 . . .
+v for one or more of the attributes ABCD . . .
+N , will be called an " aggregate " of frequencies .
+Any one aggregate contains only one positive group which may be used to denote the aggregate , so that one may speak of the AB aggregate or the ABCD aggregate .
+The order of an aggregate may be defined as the order of the groups contained in it .
+An aggregate of order n contains 2 " groups .
+The sum of the frequencies of these 2* groups of the aggregate , is evidently equal to the total frequency or number of observations ( U ) .
+If m attributes be specified , the number of positive groups of the nth order that can be formed from them is m(m \#151 ; 1 ) ( m \#151 ; 2 ) ... ( m \#151 ; 1 ) ( w ) !
+The complete set of consistent aggregates corresponding to these positive groups will he termed a congruence of aggregates or simply a congruence .
+The number * The frequency of a group specified by all the mattributes noted .
+" On the Association of Attributes , " \amp ; c. , loc. cit.y p. 259 .
+t ' Formal Logic , ' p. 153 .
+| Note on same page .
+of attributes specified , m , will be termed the degree of the congruence , its order being the order of the component aggregates.* A congruence of degree m and order n may be regarded as built up of a series of congruences of degree lower than m. Thus the congruence of the fourth degree and second order containing the aggregates AB , AC , AD , BC , BD , CD , may be split up into four congruences of the third degree only , viz. , those containing the aggregates ( AB , AC , BC ) ( AB , AD , BD ) ( AC , AD , CD ) and ( BC , BD , CD ) respectively .
+In general , any congruence of the mth degree may be divided into m(m \#151 ; 1 ) . . .
+( m \#151 ; r -f 1 ) r !
+congruences of the rth degree , one to each positive group of the rth order that can be formed from the m attributes .
+These component congruences evidently , as in the above example , overlap : any one aggregate occurs in two or more congruences .
+In the following sections ( S 4-S 10 ) I proceed to the discussion of congruences of the third , fourth , and fifth degrees ; SS 11\#151 ; 13 deal with the general case , and the remainder of the paper consists of a discussion of the geometrical representation , by means of polyhedra , of the conditions of consistence , together with a few numerical illustrations .
+Congruence of the Third Degree .
+S 4 .
+In terms of the definition S 2 , p. 93 , the inferior conditions of consistence are given at once by expanding all second-order frequencies in terms of the positive groups only , and putting the resulting expression \lt ; 0 .
+Thus , retaining for convenience the second-order terms only on the left of the inequality , we must have ( AB ) \lt ; 0 or \lt ; ( A ) + ( B ) - ( U ) or \gt ; ( A ) or \gt ; ( B ) or Similar conditions hold of course for ( AC ) S 5 .
+To find the superior conditions of consistence again the definition ) , write down the inferior conditions for the ( ABC ) aggregate .
+These are of course given similarly by expanding the third-order frequencies in terms of the positive groups , and putting the resulting expansion \lt ; } : 0 .
+Thus\#151 ; ( AB ) will he negative ( a/ 3 ) it ii ( A/ 3 ) ( aB ) and ( BC ) .
+* In any systematic tabulation of frequencies I think the grouping should be made by aggregates .
+Such an arrangement would be distinctly better than that adopted by me in the sample table on p. 318 of my paper on " Association , " loc. cit. OF LOGICAL CLASS-FREQUENCIES , ETC .
+( ABC ) \lt ; \lt ; \lt ; \lt ; \gt ; \gt ; \gt ; \gt ; 0 ... ... ... ... ... ... ... ... ... ... ... ... ... ... ( AB ) + ( AC ) - ( A ) ... ... ... ... ... ... ... ... . .
+( AB ) + ( BC ) -(B ) ... ... ... ... ... ... ... ... . .
+( AC ) + ( BC ) -(C ) ... ... ... ... ... ... ... ... . .
+( AB ) ... ... ... ... ... ... ... ... ... ... ... ... .
+( AG ) ... ... ... ... ... ... ... ... ... ... ... ... ... ( BC ) ... ... ... ... ... ... ... ... ... ... ... ... ... ( AB ) + ( AC ) + ( BC ) - ( A ) - ( B ) - ( C ) + ( U ) .
+Or the frequency given below will be negative . .
+( ABC ) [ i ] .
+( Aj8y ) [ 2 ] .
+( " By ) [ 3 ] \#166 ; ( \#171 ; /3C ) [ 4 ] ( ABy ) [ 5 ] \#166 ; ( A/ 3C ) [ 6 ] .
+( oBC ) [ 7 ] .
+( afiy ) [ 8 ] II .
+Now evidently , any third-order aggregate whatever is impossible if one of the minor limits[l]-[4 ] be greater than any one of the major limits [ 5]-[8 ] .
+If the second-order frequencies be such as to create this condition they must be impossible within one and the same universe , i.e. , they are inconsistent or incongruent .
+There are sixteen comparisons to be made , taking each of the major limits in turn with each of the minor limits , but the majority of these comparisons , viz. , 12 , only lead back to the inferior conditions .
+The four comparisons of expansions due to contrary frequencies alone lead to new conditions\#151 ; II .
+[ lj [ 8 ] II .
+[ 2 ] [ 7 ] II .
+[ 3 ] [ 6 ] II .
+[ 4 ] [ 5 ] ( AB ) + ( AC ) 4- ( BC ) \#171 ; ( A ) + ( B ) + ( C ) - ( U ) ( AB ) + ( AC ) + ( BC ) \gt ; ( C ) ... ... ... ... ... . .
+( AB ) - ( AC ) + ( BC ) \gt ; ( B ) ... ... ... ... ... . .
+( AB ) + ( AC ) - ( BC ) \gt ; ( A ) ... ... ... ... ... . .
+[ 1 ] [ 2 ] [ 3 ] [ 4 ] III .
+These are the four superior conditions of consistence for the congruence of the third degree .
+In order that the second-order frequencies may be consistent with each other and with the given frequencies of the first order , they must fulfil all the conditions of type I. and the conditions of type III .
+These inequalities are highly interesting ; but discussion is best deferred till after we have obtained the similar conditions for the congruences of higher degree .
+Congruence of the Fourth Degree .
+S 6 .
+Two congruences of this degree are possible , viz. , those of the second and third orders .
+The third-order congruence will be taken first , as the conditions of consistence for the second-order congruence may be obtained directly from the third-order conditions .
+The inferior conditions need not be written down as they have been given already ( II .
+of S 5 ) ; similar conditions hold of course for all four groups ( ABC ) , ( ABD ) , ( ACD ) , ( BCD ) .
+S 7 .
+To obtain the superior conditions , the fourth-order groups must he expanded ( cf. S 5 ) , and the expansions again put \lt ; 0 , thus giving the systems of limits for ( A.BCD ) as below .
+Or the frequency given below will be negative .
+( ABCD ) \lt ; 0 ... ... ... ... ... ... ... ... ... ... ... ... ... \lt ; ( ACD ) + ( BCD ) - ( CD ) ... ... ... ... ... ... ... ..(a/ 3CD ) \lt ; ( ABD ) + ( BCD ) - ( BD ) ... ... ... ... ... ... \lt ; ( ABC ) + ( BCD ) - ( BC ) ... ... ... ... ... ... \lt ; ( ABD ) + ( ACD ) - ( AD ) ... ... ... ... ... ... \lt ; ( ABC ) + ( ACD ) - ( AC ) ... ... ... ... ... ... \lt ; ( ABC ) + ( ABD ) - ( AB ) ... ... ... ... ... ... \lt ; K ( ABC ) + ( ABD ) + ( ACD ) + ( BCD ) - ( AB ) - ( AC ) - ( AD ) - ( BC ) - ( BD ) - ( CD ) + ( A ) pa/ 3r8 ) + ( B ) + ( C ) + ( D ) - ( U ) ... ... ... ... . .
+\gt ; ( ABC ) ... ... ... ... ... ... ... ... ... ... ... ... ..(Aeuo ; LyJ ) jy \gt ; ( ABD ) ... ... ... ... ... ... ... ... ... ... ... ... ..(AByD ) [ 10 ] ' \gt ; ( ACD ) ... ... ... ... ... ... ... ... ... ... .
+\gt ; ( BCD ) ... ... ... ... ... ... ... ... ... ... ... ... ..(aBCD ) [ 12 ] \gt ; ( ABD ) + ( ACD ) + ( BCD ) - ( AD ) - ( BD ) - ( CD ) + ( D ) ... ... ... ... ... ... ... ... \#187 ; ( ABC ) + ( ACD ) + ( BCD ) - ( AC ) - ( BC ) - ( CD ) + ( C ) ... ... ... ... ... ... ... . .
+\gt ; ( ABC ) + ( ABD ) + ( BCD ) - ( AB ) - ( BC ) - ( BD ) + ( B ) ... ... ... ... ... ... ... . .
+\gt ; ( ABC ) + ( ABD ) + ( ACD ) - ( AB ) - ( AC ) - ( AD ) + ( A ) ... ... ... ... ... ... ... . . .
+( ABCD ) [ 1 ] .
+( a/ 3CD ) [ 2 ] ( \lt ; xByD ) [ 3 ] .
+( aBCS ) [ 4 ] \#166 ; ( A/ 3yD ) [ 5 ] .
+( A/ 3CS ) [ 6 ] .
+( AByS ) [ 7 ] ) |*(a^rs ) [ 8 ] .
+( ABCS ) [ 9 ] .
+( AByD ) [ 10 ] .
+( A/ 3CD ) [ 11 ] .
+( aBCD ) [ 12 ] | ( a/ 3yD ) [ 13 ] } ( a/ 3CS ) [ 14 ] } ( aByS ) [ 15 ] ]-(A/ jyS ) [ 16 ] Any fourth-order aggregate will be impossible if any one of the minor limits to ( ABCD ) be greater than any one of the major limits .
+There are eight of each , or sixty-four comparisons to be made ; but thirty-two of these lead only to the already known inferior conditions of consistence .
+The remaining thirty-two , involving comparisons of pairs of groups that are contrary as regards three attributes ( as in S 5 ) , give new conditions all obtainable by cyclic substitution from the eight given in V. below .
+There are four third-order positive groups to be formed from four attributes , and therefore four possible sets of three , giving four sets of the eight inequalities V. The remaining three sets may be at once written down by substituting A , B , or C for D ( and conversely ) in the set given below .
+OF LOGICAL CLASS-FREQUENCIES , ETC .
+( ABD ) + ( ACD ) + ( BCD ) \gt ; ( AB ) + ( AC ) + ( AD ) + ( BC ) + ( BD)-| + ( CD ) - ( A ) - ( B ) - - ( C ) - ( DU [ 1 ] + ( U ) .
+J \lt ; ( AD ) + ( BD ) + ( CD ) - ( D ) . .
+[ 2 ] ( ABD ) + ( ACD ) - ( BCD ) \gt ; ( AD ) .
+[ 3 ] \lt ; ( AB ) + ( AC ) + ( AD ) - ( BC ) - ( A ) [ 4 ] ( ABD ) - ( ACD ) + ( BCD ) \gt ; ( BD ) .
+[ 5 ] \lt ; ( AB ) - ( AC ) + ( BO ) + ( BD ) - ( B ) [ 6 ] -(ABD ) + ( ACD ) + ( BCD ) A ( CD ) [ 7 ] \lt ; - ( AB ) + ( AC ) + ( BC ) + ( CD ) - - ( C ) [ 3 ] S 8 .
+The superior conditions of consistence for the .second-order congruence of the fourth degree may be at once obtained from V. For in order that the congruence of the third order may be self-consistent , it is clearly necessary that the congruence of the second order should he so ; if this condition do not hold the conditions of consistence V. will prove themselves impossible .
+But the limits V. only become impossible if , in either of the four pairs of limits ( [ 1 ] [ 2 ] , [ 3 ] [ 4 ] \amp ; e. ) , the minor limit be greater than the major .
+If we express the condition that each minor limit must be the less we have , from Y [ 1 ] [ 2 ] ( AB ) + ( AC ) + ( BC ) \gt ; ( A ) + ( B ) + ( C ) - ( IT ) .
+[ 3 ] [ 4 ] ( AB ) + ( AC ) - ( BC ) \lt ; ( A ) .
+[ 5 ] [ 6 ] ( AB ) - ( AC ) + ( BC ) \lt ; ( B ) .
+[ 7 ] [ 8 ] - ( AB ) + ( AC ) + ( BC ) \lt ; ( C ) .
+But these are simply the conditions III .
+of S 5 , the superior conditions of consistence for the second-order congruence of the third degree .
+Similar conditions for the aggregates ABD , A CD , BCD , will of course be derived from the unwritten sets of inequalities corresponding to ( V. ) .
+The theorem therefore holds\#151 ; " A congruence of the fourth degree and second order is self-consistent , if each of the three congruences of ' the third degree , into which it can be resolved , is self-consistent .
+" Congruence of the Fifth Degree .
+S 9 .
+Congruences of the fifth degree may be of either the second , third , or fourth order .
+The congruence of the fourth order may be taken first and the others derived from it .
+The inferior conditions of consistence for fourth-order groups have been already given in S 7 , IV .
+The similar conditions for fifth-order groups , obtained of course in precisely the same way , are as follows :\#151 ; VOL. CXCVIf.\#151 ; A. O ( ABODE ) \lt ; 0 ... ... ... ... ... ... . .
+\lt ; ( ACDE ) + ( BODE ) - ( ODE ) .
+" \lt ; ( ABDE ) 4 ( BODE ) - ( BDE ) .
+" \lt ; ( ABCE)4 ( BODE ) - ( BOE ) .
+" \#166 ; \lt ; ( ABCD ) 4 ( BCDE ) - ( BCD ) .
+" \lt ; ( ABDE ) + ( ACDE ) - ( ADE ) .
+" \lt ; ( ABCE ) + ( ACDE ) - ( ACE ) .
+\lt ; ABCD ) 4 ( ACDE ) - ( ACD ) .
+" \lt ; ( ABCE ) + ( ABDE ) - ( ABE ) .
+" .
+\lt ; ( ABCD ) + ( ABDE ) - ( ABD ) .
+4 ( AB .
+CD ) + ( ABCE ) - ( ABC ) .
+" \lt ; ( ABCE ) + ( ABDE ) + ( ACDE ) 4 ( BCDE ) - ( ABE ) - ( ACE ) - ( ADE ) - ( BCE ) - ( BDE ) - ( CDE ) + ( AE ) + ( BE ) " \lt ; ( ABCD ) + ( ABDE ) + ( ACDE ) + ( BCDE ) - ( ABD ) - ( ACD ) - ( ADE ) - ( BCD ) - ( BDE ) - ( CDE ) + ( AD ) + ( BD ) + ( CD ) + ( DE ) - ( D ) . .
+" \lt ; ( ABCD ) + ABCE ) + ( ACDE ) - ( BCD ) -(BCE ) - ( CDE ) 4 ( AC ) 4 ( BC ) 4 ( CD ) 4 ( CE ) - ( C ) . . . .
+" \lt ; ( ABCD ) 4 ( ABCE ) 4 ( ABDE ) - ( BCD ) - ( BCE ) - ( BDE ) 4 ( AB ) + ( BC ) 4 ( BD ) 4 ( BE ) -(B ) ... " \lt ; ( ABCD ) 4 ( ABCE ) 4 ( ABDE ) - ( ACD ) - ( ACE ) - ( ADE ) 4 ( AB ) 4 ( AC ) 4 ( AD ) 4 ( AE ) - ( A ) . . .
+\gt ; ( BCDE ) ... ... ... ... ... ... ... ... \gt ; ( ACDE ) ... ... ... ... ... ... ... ... \gt ; ( ABDE ) ... ... ... ... ... ... ... ... \gt ; ( ABCE ) ... ... ... ... ... ... ... ... \gt ; ( ABCD ) ... ... ... ... ... ... ... ... \gt ; ( ABDE ) 4 ( ACDE ) 4 ( BCDE ) - ( ADE ) - ( BDE ) - ( CDE ) 4 ( DE ) . . .
+\#166 ; Or the frequency given below is negative .
+( ABODE ) [ I ] ( \#171 ; /3CDE ) [ 2 ] ( abide ) [ 3 ] ( aBCSE ) [ 4 ] ( aBCDe ) [ 5 ] ( AjSyDE ) [ 6 ] ( A/ 3CSE ) [ 7 ] ( AySCDe ) [ 8 ] ( ABySE ) [ 9 ] ( abide ) [ 10 ] ( ABCSc ) ) [ 11 ] ' ( a.SySE ) | J [ 12 ] 1 r ( aySyDe ) ) [ 13 ] ) 1* ( a/ 3CSe ) j [ 14 ] 1 '}\#166 ; ( \#171 ; BySe ) [ 15 ] 1 y(AfiySe ) [ 16 ] I ( aBCDE ) [ 17 ] ( AySCDE ) [ 18 ] ( abide ) [ 19 ] ( ABCSE ) [ 20 ] ( ABCDe ) [ 21 ] \gt ; \#166 ; ( a/ 3yDE ) [ 22 ] 1V1 .
+OF LOGICAL CLASS-FREQUENCIES , ETC .
+( aBySE ) [ 25 ] [ 26 ] Or the frequency given below is negative .
+( ABODE ) \gt ; ( ABCE ) + ( ACDE ) + ( BODE ) - ( ACE ) \gt ; - ( BCE ) - ( CDE ) + ( CE ) . . .
+J L2tJ . .
+\gt ; ( ABCD ) + ( ACDE ) + ( BODE ) - ( ACD ) i - ( BCD ) - ( CDE ) + ( CD ) ... ... ... .J ' ' L2 J " \gt ; ( ABCE ) + ( ABDE ) + ( BCDE ) - ( ABE ) - ( BCE ) - ( BDE ) + ( BE ) ... .
+, .
+\gt ; ( ABCD ) + ( ABDE ) + ( BCDE ) - ( ABD ) 1 - ( BCD ) - ( BDE ) + ( BD ) .
+... j ( aLyi , e\gt ; \gt ; ( ABCD ) + ( ABCE ) + ( BCDE ) - ( ABC ) i - ( BCD ) - ( BCE ) + ( BC ) . . . . .
+j ' ' L"'J " \#187 ; ( ABCE ) + ( ABDE ) + ( ACDE ) - ( ABEV - ( ACE ) - ( ADE ) + ( AE ) . . .
+, j(AWE\gt ; ^ . .
+\gt ; ( ABCD ) + ( ABDE ) + ( ACDE ) - ( ABD ) 1 - ( ACD ) - ( ADE ) + ( AD ) . . . .
+UA/ W [ 291 " \gt ; ( ABCD ) + ( ABCE ) + ( ACDE ) - ( ABC ) 1 - ( ACD ) - ( ACE ) + ( AC ) . . . . .
+\gt ; ( ABCD ) + ( ABCE ) + ( ABDE ) - ( ABC)l - ( ABD ) - ( ABE ) + ( AB ) . . .
+.|(AByS\#163 ; ) [ 81 ] " \gt ; ( ABCD ) + ( ABCE ) + ( ABDE ) + ( ACDE ) + ( BCDE ) - ( ABC ) - ( ABD ) - ( ABE ) - ( ACD ) - ( ACE ) - ( ADE ) - ( BCD ) - ( BCE ) - ( BDE ) - ( CDE ) + ( AB ) + ( AC ) + ( AD ) + ( AE ) + ( BC ) + ( BD ) + ( BE ) + ( CD ) + ( CE ) + ( DE ) - ( A ) - ( B ) - ( C ) - ( D ) --E ) + ( U ) . .
+VI .
+) ( a/ 3ySf ) [ 32 ] Any fifth-order aggregate will be impossible if any one of the minor limits to ( ABODE ) be greater than any one of the major limits .
+Since there are sixteen of each , there are 256 comparisons to be made .
+Eighty of these lead only to the already known inferior conditions .
+Of the remaining 176 , 160 may be obtained by cyclic substitution from the sixteen conditions involving only three fourth-order groups each , as given in VII .
+below , the remaining sixteen , each involving all five fourth-order positive groups , being given in VIII .
+( ABBE ) + ( ACDE ) + BODE ) \gt ; ( ABE ) + ( ACE ) + ( ADE ) + ( BCE ) + ( BDE ) + ( CDE ) - ( AE ) - ( BE ) - ( CE ) - ( DE ) + ( E ) ... i\#151 ; i I\#151 ; H I------------------1 L- cq co rH r-H P \lt ; 1 P P O P P p , A P ^ + t ^P P P P ^ A , !
+A P , _o II YP A p , S ' i cq A , A POO O P w P \#151 ; + i p O P pq .
+j p p p p p p Y P .
+A !
++ o ' Y a p o I \lt ; 1 ^ \#151 ; pq A A S ' i O \lt ; 1 P v*\#151 ; /\#151 ; v A O A A a p p p o I\#151 ; H O P P P A A P \lt ; 1 P P P P^pq A I \amp ; i S ' A V \#165 ; P o p p o _ p^ -tj P p ^ n o m w Q hH ' J -tj A A A 29 S ' p 0 3 0 0 A , pq P is- p Y o \lt ; 1 i p p P P A A O + A \lt ; 1 P P A P P o o A \lt ; j \#151 ; pq A A A A P p !
+p p p P P P P p " A " A " A A P P P P , A S ' o 0-m + + P P P P A I j !
+P P S P o P S p A , pq P. ~ ' A + S ' ft o o p S A + . .
+p P p A o o _ o P S o ^ A I ^ A A ^P A A. S ' i p A A , A , I i .
+p P p p p p A A O A A S ' p o p p p o A A P P P A \#165 ; \#165 ; A A \#165 ; \#165 ; A A P P o PQ , A S ' p o A P P P A P P o PQ , A S ' p o -\lt ; j A S ' p p A \#165 ; \#165 ; ( ABD ) -(ABE ) + ( ACD ) + ( ACE ) + ( BCD ) + ( BCE ) + ( CDE ) j f + ( AB ) - ( AC ) - ( BC ) - ( CD ) - ( CE ) + ( 0).J L ( ABE ) + ( ACE ) + ( BCE ) + ( CDE ) - ( CE).[15 ] ( ABD ) + ( ACD ) + ( BCD ) + ( CDE ) - ( CD).[16 ] OF LOGICAL CLASS-FREQUENCIES , ETC .
+i\#151 ; i H-1 h-H A oo g p O p \lt ; 1 P P o ^ a ' + S p a p !
+a JL + SA S 1 JL ^ o ' P \#166 ; ^ + P O y + S o y + S ' P y + S P y A o P \lt ; 1 A o 1 S ' P P " ay V i g A g H + sis + jyi H g a. g a + a + h + ^a |Si Us .
+Sp i A o ^ ^P P P \#151 ; g o 4 .
+S p y S| i p p ^ yy p o + p Q \amp ; + S ' p a + s p a A a p y A S y g s p p ' " Ills 1 I + s S i S | p ^ p 1 2 p 2 p y a a p p o p + p o p. + s o a + s o A o p a A P rP P S s + +f p I p 1 q S ' io p p p , + p o s p a A p o a A s p a A P _i_ o ^ as + a S ' !
+p ^ o P \lt ; j o p p p + s o p _l_ s p a + s o a + s p a A s s p y o A p ^ y p + p S i ft a \lt ; 1 o p p p p o , + s p a + s p a + a p p o p p o. + s o p p p p p p p p o p p o p p o A p P o o p \lt ; tj p \lt ; i p g p a p o p p p p + I p o + a p g s P a \lt ; 4+ !
++ a w S 9 p s p p O O p A p Q + a a + + + + p o + a p o p p f ?
+\lt ; 1 p a p i \lt ; i i a p p \lt ; p o a a S ' p \lt ; !
+S g o o p p P o \lt ; 1 \lt ; J A 1 + p p p p o o p p \lt ; \lt ; 1 wvvvvvvv p p o p p p p P o o p p p p p p o o p p p p P 9 o o p p p p p p o o p p A A + !
+A + I + I P P o \lt ; 1 p p p p o o \lt ; j \lt ; j p p p p o o \lt ; j \lt ; 1 p g p p o o ^ \lt ; 1 p p p p q o \lt ; 1 \lt ; 1 + I l|+l+i+l++l+4l + !
++ P o p \lt ; \ pa a i + s p ^ O I pa y as S o P pq p a a !
++ s sa Si ap 4 P .
+P P ^ p a \lt ; i p p p p p " \lt ; i !
+a -f a P -\#151 ; - pp p 1 p i as ap 4p , p \#171 ; 0 P p P P P \#151 ; a 1 + s '\#151 ; - -\lt ; j p a ' 1 p 1 a s 4-\#171 ; + o p p p p p p p p p \lt ; 1 \lt ; 1 p p p p p p \lt ; 1 \lt ; 1 p p p p p p \lt ; j \lt ; j p p p p p p \lt ; 1 \lt ; 1 + I + + I + + I p o p p p o o p p \lt ; j \lt ; j p p p 000 p p p ^ ^ \lt ; 1 p p p 000 p p p \lt ; d \lt ; j \lt ; J | | | i + + P a 1 0 ^ 1 -P a O ^ P 4 0 ^ P 4 O ^ P 4 O ^ P 4 0 ^ P O P O P P P P P P P P \lt ; \lt ; \gt ; 1 \lt ; 1 \lt ; \lt ; !
+A P P P OOO P P P \lt ; !\lt ; !\lt ; !
+P P P OOO P P P ^ \lt ; 1 \lt ; 1 ( ABCD ) + ( ABCE ) -\-(ABDE ) \#151 ; ( ACDE ) \#151 ; ( BODE ) \lt ; L ( ABC ) A ( ABD ) A ( ABE ) \#151 ; ( CDE ) \#151 ; ( AB ) .
+[ 16 ] 102 MR. G. UDNY YULE ON THE THEORY O CONSISTENCE S 10 .
+The conditions of superior congruence given in VII .
+only become impossible if either of the minor limits for any one set of fourth-order frequencies be greater than either of the major limits ( c.g. , [ 3 ] or [ 4 ] greater than [ 1 ] or [ 2 ] ) .
+But on expressing the condition that each minor limit must be less than the major , we see we are simply led back to limits of the form V. , S 7 .
+That is to say\#151 ; " A congruence of the fifth degree and third order is self-consistent , if each of the five congruences of the fourth degree , into which it can be resolved , is self-consistent .
+" But we have seen that comparison of the minor and major limits of conditions V. again leads back simply to conditions III .
+Therefore we must have also\#151 ; " A congruence of the fifth degree and second order is self-consistent , if each of the ten congruences of the third degree , into which it can be resolved , is self-consistent .
+" The conditions of consistence for the congruence of any degree are then , so far as we have gone at all events , thrown back on the conditions for the simple congruence , the degree of which only exceeds its order by unity .
+Remarks on the Preceding Sections .
+General Solution .
+S 11 .
+The elementary method employed in the preceding sections is the one best adapted for exhibiting clearly the physical meaning of the conditions of consistence .
+It is perfectly adapted for finding the conditions for a congruence of any degree , though the number of comparisons of limits to be made appears at first sight to make the work extremely lengthy .
+A few considerations , however , rapidly reduce the number of necessary comparisons .
+Thus all comparisons of expansions due to two groups that are contrary to each other in one term only give inferior conditions .
+Again , all comparisons of expansions due to groups that are contrary to each other in three terms , give conditions simply derivable from those of the congruence of the third degree .
+Take for instance the first condition of S 5 , III .
+( AB ) -f- ( AC ) + ( BC ) \lt ; ( A ) -j- ( B ) -f- ( C ) \#151 ; ( U ) .
+The universe in which this inequality is to hold good is not specified at all .
+Let it be a universe in which all things are D. Then the condition becomes ( ABD ) + ( ACD ) + ( BCD ) \lt ; ( AD ) + ( BD ) + ( CD ) - ( D ) .
+But this is simply the second condition of superior consistence for a congruence of the fourth degree ( V. , S 7 ) .
+Again let the universe be not D , but 3 .
+Then the condition becomes ( AB8 ) + ( ACS ) + ( BOS ) \lt ; ( AS ) + ( BS ) + ( CS ) - ( S ) OF LOGICAL CLASS-FREQUENCIES , ETC .
+getting rid of the negative terms by expansion , that is ( ABD ) -fi ( ACD ) -j- ( BCD ) \gt ; \gt ; ( AB ) -f- ( AC ) -f- AD ) -f- ( BC ) -f- ( BD ) -J- ( CD ) - ( A - ( B ) - ( C ) - ( D ) + ( U ) .
+But this is again simply the first condition of V. , S 7 .
+The whole of the conditions V. for the congruence of fourth degree may in fact be derived by writing down the conditions III .
+for each aggregate ABC , ABD , ACD , BCD , inserting the universes D or S in the first case , C or y in the second , and so on .
+Evidently this will give the right number of conditions , there being four aggregates arid four conditions for each , while each condition must hold good in two universes , total 4X4X2 \#151 ; 32 .
+A precisely similar theorem holds good for the 160 conditions of S 9 , VII .
+, for the congruence of the fifth degree .
+The congruence of second order and fifth degree may be resolved into ten congruences of the third degree .
+The four conditions of III .
+must hold good for each of these congruences in universes , e.g. , for the aggregate ABC , the universes DE , De , o , Se .
+The whole number of conditions so derived is 10 X 4 X 4 , or 160 .
+The sixteen conditions of VIII .
+, S 9 , cannot be so derived ; they involve five , not three , fifth-order frequencies each , and are quite new conditions derived from the comparison of expansions of groups contrary to each other in five attributes .
+The results suggest , however , that to obtain the new conditions for a congruence of degree 2m + 1 , order 2m , we have only to consider the 2'2m possible comparisons of contraries .
+A congruence of even degree , say 2m , is subject to no conditions beyond those immediately derivable from the congruence of degree \#151 ; 1 .
+But this result is only suggested , not proved , by the few cases taken ; nor are the general theorems corresponding to those given at the end of S 8 and S 10 demonstrable from the mere particular cases .
+S 12 .
+By slightly changing the point of view , and remembering that any frequency may be expanded by considering A , B , C , U , \amp ; c. , as " elective operators , " subject to the ordinary laws of multiplication , and to the special laws U.A = A A " = A , the conditions of congruence may be obtained in a simple general form .
+Referring back to the earlier sections ( S 5 , S 7 , or S 9 ) , it will be seen that in considering the congruence of degree m order \#151 ; 1 , all the groups of the mth order , containing an even number of negative terms ( or attributes ) , were first taken and expanded , and the expansion put not less than zero , thus giving a system of minor limits for ( ABCD . .
+M ) .
+The remaining groups , containing an odd number of negatives , were similarly expanded , giving a system of major limits .
+The expansions in the two cases were of the forms + ( ABCD . . .
+M ) \#151 ; ( terms of lower order than \#151 ; ( ABCD . .
+M ) -f ( terms of lower order than m)2 .
+We took this in the previous sections as giving ( ABCD . . .
+M ) \lt ; ( terms of lower order than ( ABCD . . .
+M ) \gt ; ( terms of lower order than m)2 , and deduced ( terms of lower order than m)2 \lt ; ( terms of lower order than m)x .
+But precisely the same result is arrived at by adding the two expansions and putting the sum not less than zero , # and this is a much more convenient conception from which to obtain the general conditions .
+Let the two groups contain positive attributes KXK2 . . .
+and negative attributes \{k2 . .
+\q in common ; positive attributes MiM2 . . .
+M , in the one , with their negatives [ x]/ j2 . . .
+/ xrin the other ; and negative attributes . .
+v3 in the one , with their positives N1N2 . .
+N , in the other .
+Using the symbol TJ to denote " the continued operator-product of all quantities like ... " the expansions of the two frequencies may be written i7[KJ *~77[U-LJ ' / 7[Mr ] '"/ /[U - NJ ]i \#151 ; 1 q = 1 r = 1 s \#151 ; 1 ^77[KJ 5"/ 7[U-L ?
+] '/ /[U-M , ] '"/ 7[NJ .
+p =z 1 q = 1 r = 1 5 \#151 ; 1 In these expressions it must be remembered that as the one group is to contain an even , the other an odd , number of negatives , if + r be odd -f- s must be even , and vice versd .
+Hence r-f- smust in any case be odd , i.e. , the two groups must be contrary as regards an odd number of attributes , for if q s \#151 ; 2x q-f r \#151 ; 2y + 1 r + 5 = 2(x 4- y \#151 ; q ) 4 L which is necessarily odd .
+The general condition of consistence for a congruence of degree m = p-{- q4~ + s , * Every frequency must be greater than zero , and fortiori the sum of any two .
+But it is only by taking the sum of two frequencies , the one containing an even , and the other an odd , number of negatives that an expression is obtained from which the mth-order term is eliminated .
+OF LOGICAL CLASS-FREQUENCIES , ETC .
+and order ( m \#151 ; 1 ) may then be written i7[KJ 77 [ U - Ljj77[MJ i7[U - NJ -f 77[U - M , ] 77[Njl \lt ; 0 .
+( 1 ) .
+ii Li i i i J All the conditions of consistence , whether inferior or superior , given in the preceding sections may be readily verified from this general expression.* S 13 .
+If the two groups compared he contrary in c terms ( c = -f the expansions will give rise to c terms of the ( m \#151 ; l)th order , viz. , from the first term , and r from the second term within the curly bracket .
+Thus the conditions VII .
+, S 9 , with three fourth-order frequencies on the left , were all obtained by comparison of expansions of fifth-order frequencies contrary in three attributes ; the conditions VIII .
+on the other hand by comparison of expansions due to fifth-order frequencies contrary in all five attributes .
+The term outside the bracket in ( l ) may be regarded as a mere specification of the universe within which the simple condition i7[MJ 7/ [ IT - NJ + 77[U - MJ 77[NJ \lt ; 0 ... ... ... ... ... ... ..(2 ) , ii i i is to hold good .
+For consider the conditions of the general form ( 1 ) in which the contrary terms ( those within the bracket ) are the same , but in which the universe-terms outside the bracket are contrary as regards one attribute , say KT , , .
+Then the universes are specified by k/ .
+77[KJ .
+n[U - L , ] .
+[ U - KJ P 77[KJ .
+77[U - L J , 1 I and if the corresponding conditions ( 1 ) be added , the term in Ky ; goes out , leaving a condition of one degree lower .
+By addition of successive pairs of conditions in this way it is evident that the universe-terms may be entirely eliminated , and only condition ( 2 ) left .
+By the converse process of specification of the universe the conditions involving c terms of the ( m \#151 ; l)th order may always be obtained from .
+the conditions for the congruence of the cth degree and ( c \#151 ; l)th order , a property on which we have remarked while considering the congruences of low orders investigated in S 4\#151 ; S 10 ; the conditions ( 2 ) merely require to be specified for all possible universes .
+If instead of proceeding to the entire elimination of the universe-terms we stop short at conditions of degree n(n \lt ; \#163 ; c ) , the whole series of conditions so obtained may be grouped into sets arranged according to the attributes that have been * They were actually first obtained by the method there described .
+VOL. CXGVII.\#151 ; A. P 106 MR. G. UDNY YULE ON THE THEORY OF CONSISTENCE eliminated , one such set corresponding to each possible congruence of the nth degree and ( n \#151 ; l)th order .
+Hence the general theorem\#151 ; " A congruence of the ( n \#151 ; l)th order and mth degree is self-consistent if all the possible congruences of the nth degree , into which it may be resolved , are self-consistent .
+ibis is the generalisation of the theorems given in S 8 and S 10 .
+S 14 .
+The number of conditions to which any congruence of the mth degree is subject is readily obtained .
+Consider first the congruence of order ( m \#151 ; 1 ) .
+The number of combinations of c ( positive ) attributes that can be selected from is m(m \#151 ; 1 ) . . .
+( m \#151 ; 1 ) ( \#171 ; ) !
+From each of these combinations can be generated 2C_1 contrary pairs , by negativing one or more of the attributes : e.g. , from ( ABC ) can be formed the four contrary pairs ABCl a(3yj aBC-1 A/ 3C1 ABy| A/ 3yJ aBy J a/ 3C J From the remaining ( p + g)or ( m \#151 ; c ) attributes can be formed 2m~c different universes .
+Hence the number of conditions involving c terms of the ( m \#151 ; J )th order is om-1 m(m ~ 1 ) . .
+O ~ \#163 ; _ + 0 The whole number of such conditions ( including those of inferior congruence ) will be given by inserting all possible values of c in the above expression ( viz. , all odd numbers not greater than m ) , and summing .
+That is i ( m(m \#151 ; ' 1 )(m \#151 ; 2 ) ( m(m \#151 ; l \#151 ; 2)( ?
+n \#151 ; 3 \#151 ; 4)(m \#151 ; 5 ) ( ij ( 7)1/ \#151 ; p ~ ~-j- n ~ " i .
+\gt ; .
+1.2.3 1.2.3.4.5 or , substituting 1 + m \#151 ; 1 for m and rearranging .
+/ , / .
+\ , ( m \#151 ; l)(m \#151 ; 2 ) ( \#151 ; 1 \#151 ; 2)(m \#151 ; 3 ) \ .
+2m"Ml + ( m - 1 ) + -------j2----- ' + -----12a----------1 + ... ).= 22\lt ; " The number of conditions is thus quadrupled for every unit rise in the degree of the congruence , and grows with extreme rapidity .
+The actual numbers , up to the congruence of ninth degree and eighth order are given in Table I. below .
+For more than five or six attributes the actual arithmetic discussion of any particular case seems to pass the bounds of practical possibilities .
+OF LOGICAL CLASS-FREQUENCIES , ETC .
+Table T.\#151 ; Number of Conditions of Consistence for a Congruence of the with degree and ( m \#151 ; l)th order ; specifying separately the number involving 3 , 5 , 7 , or 9 ( m \#151 ; l)th order terms .
+Terms involved ( = c ) .
+Deg ree of congruence = : m. 3 .
+4 .
+5 .
+6 .
+7 .
+8 .
+9 Inferior congruence , 1 12 32 80 192 448 1024 2304 3 4 32 160 640 2240 7168 21504 5 \#151 ; \#151 ; 16 192 1344 7168 32256 7 -\#151 ; \#151 ; \#151 ; \#166 ; \#151 ; 64 1024 9216 9 \#151 ; \#151 ; \#151 ; \#151 ; \#151 ; \#151 ; 256 Total superior congruence only .
+4 32 176 832 3648 15360 63232 Grand total 16 64 256 1024 4096 16384 65536 The whole number of conditions for a congruence of the order and with degree is m( in \#151 ; l)(m \#151 ; 2 ) . . .
+( m \#151 ; n ) 22n .
+( n + 1 ) !
+viz. , the number of conditions for a congruence of order degree ( n +1 ) , multiplied by the number of ( n-f- l)th degree congruences into which the with-degree congruence can be resolved .
+The actual figures are\#151 ; Table II.\#151 ; Whole Number of Conditions of Consistence for a Congruence of degree morder n. Order of congruence = 1 Deg ree of congruence = m. 3 .
+4 .
+5 .
+6 .
+7 .
+8 .
+9 .
+2 16 64 160 320 560 896 1344 3 64 320 960 2240 4480 8064 4 256 1536 5376 14336 32256 5 1024 7168 28672 86016 1 6 4096 32768 147456 7 16384 147456 8 65536 Geometrical Representation of the Conditions of Consistence .
+Congruence of the Third Degree .
+S 15 .
+Since the conditions of consistence for a congruence of the third degree only involve three second-order frequencies each , it is possible to construct geometrical models to represent them , the first-order terms being treated as constants .
+These models exhibit in such a beautiful manner the nature of the conditions , and the limiting character of the cases dealt with in ordinary logic , that it is worth while to treat a few special cases at length as illustrations .
+It will be convenient to use for the present the abbreviated notation * = ( AB)/ ( U ) .
+y = ( AC)/ ( U ) .
+\lt ; = ( BC)/ ( U ) .
+Pi = ( A)/ ( U ) .
+p2 = ( B)/ ( U ) .
+Ps = ( C)/ ( U ) .
+Then , treating x , y , z as rectangular co-ordinates , all sets of consistent values ot x , y , z must determine points within the space bounded by planes ( S 4 and S 5 ) .
+x \#151 ; 0 or X \#151 ; Pi \#166 ; T P-2 1 , X \#151 ; plor X P 2 y ~~o y \#151 ; P\ + Ps~ T y= Pi\#187 ; y= Ps z = 0 z \#151 ; Ih + Ps ~ i , \#171 ; = P\lt ; 2 55 2 \#151 ; Ps X + y + Z \#151 ; Pi + Ps + Ps \#151 ; 1 ( a ) X + y \#151 ; z = Pi iP ) X \#151 ; y + z = P-2 ( y ) \#151 ; X + y + z = Ps ( \#171 ; ) , ( A ) .
+( B ) .
+It is convenient to regard the equilateral tetrahedron bounded by the four planes ( a ) \#151 ; ( 8 ) , representing the superior conditions of consistence , as the fundamental " congruence surface , " its edges being truncated more or less by the planes ( A ) .
+Only six of the planes ( A ) at most can of course come into account at one time , the remaining six lying outside the surface .
+The lines ( a/ 3 ) , ( ay ) , ( aS ) , \amp ; c. , in which the planes a , / 3 , y , S meet , are all parallel to one or other of the co-ordinate planes : thus we have for ( a/ 3 ) ^ = i ( ]h + Ps ~ 1 ) ( ay ) y = i(Pi - 1 ) ( aS ) X = i ( p + p\#187 ; - I ) ( ( / 3y ) X ~J ( jpx + p2 ) ^ m y -i- ( Pi + ih ) ( is ) Z = i ( p2 + p8 ) OF LOGICAL CLASS-FREQUENCIES , ETC .
+The plan and elevation of the complete tetrahedron are thus both squares of side " 0'5 .
+But , comparing equations ( C ) with ( A ) , the edge ( a/ 3 ) ( ay ) ( aS ) ( \#163 ; y ) m ( sr ) is truncated unless + Pz 55 \gt ; 5 Pi + == 1* \#187 ; Pi + P3 = ! .
+fS " Ih \#151 ; Pfr 35 55 Pi = 55 = 5 S 16 .
+Case ( 1 ) .
+Pi ~ P2 == Pa = ^'5 .
+In this case the congruence-surface reduces to the fundamental tetrahedron , fig. la*the planes ( A ) only passing through its edges and not truncating them .
+The form is more clearly shown by fig. lb , which is drawn from a photograph of an actual Fig. la .
+Fig. 16 .
+* This and the similar following figures are drawn in orthographic projection .
+The picture-plane is parallel to the axis of and its trace on the plane of makes an angle of 30 ' with the x axis .
+The generators lie in planes perpendicular tathe picture-plane and the plane of xy , but make an angle of 45 with the latter plane .
+The observer must therefore imagine himself to be looking down on the model .
+no ME .
+G. UDNY YULE ON THE THEOEY OF CONSISTENCE model .
+The contours shown in this figure and in do not at present concern us .
+the subsequent figs. 2b , 4b , and 4c , The bounding planes are + -T 2 = 0*5 ( a ) x + y \#151 ; z \#151 ; 0*5 ( V x \#151 ; y + z \#151 ; 0*5 M \#151 ; x + -f- z 0*5 ( S ) .
+If the ordinate z corresponding to given values of x and y be drawn , it will in general cut the surface in two points .
+These determine the upper and lower limits to values of z consistent with the given values of x and y. If however and y determine a point on the plan of one of the edges of the tetrahedron , z only cuts the surface in one point , and its value can be inferred .
+Thus we have the following cases of logical inference Given .
+Inferred .
+X = 0 y \#151 ; 0*5 \#151 ; 2 x \#151 ; 0*5 y = 2 y = 0 z \#151 ; 0*5 \#151 ; x y = o-5 z = X z = 0 1 lO O il 8 z 0*5 x = y. Each of these cases corresponds , it will be noticed , to a single-infinity of special inferences from two data\#151 ; one to every point on each edge .
+It is the only instance in which six such infinite series of possible inferences occur , that is , six series of exact inferences\#151 ; inferences of a " universal affirmative " or " universal negative , " to use the logical terms .
+S 17 .
+The limits to x , y , or 2 given for this case by equations ( a)-(8 ) at the beginning of last section , are precisely those deducible from quite different considerations for the quadrant frequencies ( above and below average ) in the case of normal correlation .
+In that case , if rn , r13 , r23 be the three correlation coefficients , we have for the limits to r23# / }\#166 ; \#187 ; I / 1 I rv* 2 ___ / j. 2 __ / y\#187 ; 2 ' 12 ' 13 \#177 ; V 1 \ 1 12 ' 13 ' 12 13 .
+But by the theorem due to Mr. W. F. Sheppard !
+r12 \#151 ; \#151 ; cos 2xtt r13 = \#151 ; cos r23 = \#151 ; cos * ' Eoy .
+Soc. Proc. , ' 1897 , vol. 60 , p. 486 .
+In the first line of the table on p. 486 , for " 0 " on the right read \#177 ; 1 .
+A similar correction is to be made in the ' Journal of the Eoy .
+Stat. Soc. , ' vol. 60 , p. 834 .
+t 'Phil .
+Trans. , ' A , 1898 , vol. 162 , p. 101 .
+OF LOGICAL CLASS-FREQUENCIES , ETC .
+] II Therefore the limits to \#151 ; cos 2ztt are cos 2xn .
+cos 2 ?
+/7t dz \/ l d- cos " 2xitcos'2 2 \#151 ; cos2 2^tt \#151 ; cos3 2/ /7r \#151 ; cos 2a ?
+7r .
+cos 2jjn dz sin 2xit sin \#151 ; cos ( ic dz y ) 27r .
+Also \#151 ; cos 2^77- = cos ( 2 db i ) 2tt .
+Therefore the limiting values to 2 are given by \#177 ; i \#177 ; ( X \#177 ; ?
+/ ) .
+Here we need not take all three signs positive , for by the inferior conditions z cannot be greater than ( F5 ; nor all three negative , for x cannot be less than zero .
+Hence the limits given are 0-5 -j- .x \#151 ; y 1 o-5 \#151 ; xd- f 0"5 \#151 ; x \#151 ; 0'5 -f- x -f- { These are precisely the limits given by the conditions of consistence stated at the commencement of S 16 .
+Thus the limits to one correlation coefficient in terms of the two others are most simply regarded as functions of the limits to the quadrant frequencies .
+The table below gives the limits to z for different values of x and y ; the table is of course symmetrical with regard to x and y. Table showing the limits to z in terms of x and ( AB)/ ( U ) , y \#151 ; ( AC)/ ( U ) , z = ( BC)/ ( U ) , for the.case of Equality of Contraries .
+Value of y. Value of x. 0 .
+o-i .
+0-2 .
+0-3 .
+0-4 .
+0-5 .
+0 0-5 0-4 0-3 0-2 o-i 0 o-i 0-4 0-5 0-3 0-4 0-2 0-3 o-i 0-2 0 o-i 0-2 0-3 O O 0*5 o-i 0-4 0 O O H\#151 ; 4 OC 0-2 0-3 0-2 CO r\#151 ; 1 !
+O O 0-4 0 0-5 o-i ^F OI O O 0-3 0-4 0-1 0-2 0 0-3 o-i 0-4 0-2 0-5 0-3 0-4 0-5 0 o-i 0-2 0-3 0-4 0-5 MR. G. UDNY YULE ON THE THEORY O CONSISTENCE S18 .
+Case ( 2 ) .
+Pi = P = Pz 0*4 .
+The equations to the bounding planes are x \#151 ; 0 y \#151 ; 0 z = 0 .
+X + y + z \#151 ; 0-2 ( a ) x + y \#151 ; z -0-4 ( 0 ) x \#151 ; y + z = 0*4 ( r ) - + 2/ + 2 = 0-4 ( 8 ) .
+The surface is shown in fig. 2a below , and in fig. from a photograph of a model .
+Fig. exact inferences occurring in the last case are left , viz. , Given .
+x \#151 ; 0*4 y \#151 ; 0'4 2 = 0'4 Inferred .
+y = z z = x x = y. OF LOGICAL CLASS-FREQUENCIES , ETC .
+It should be noticed that from x = 0 y \#166 ; = 0 we can in present , infer z \gt ; 0-2 , i.e. , from " no A 's are B " and " no A 's are C " infer " some ( at least half ) of the B 's are C. " But the reason why the ordinary rule of logic , " from two negative premises no conclusion can he drawn , " comes into play is , however , fairly obvious .
+If Pi + Pa + \lt ; 1 the plane a disappears behind the origin of co-ordinates , and the rear of the surface is bounded solely by the co-ordinate planes .
+The value of z may then be anywhere between zero and px or p2 at the point x = 0 = 0 , i.e. , there is , , no inference .
+I do not propose to enter into the discussion of numerically indefinite inferences \#151 ; i.e. , the " particular affirmative " and " particular negative " conclusions of the ordinary syllogistic treatment .
+1 would , however , suggest that such numerically indefinite inferences may be regarded as mere degradations , owing to the truncation of the tetrahedron , of the series of exact or definite inferences possible in the last case .
+S 19 .
+Case ( 3 ) .
+Pi = 0*45 P = 0*4 .
+The equations to the bounding planes are x = 0 y = 0 z = 0 8 II o o ii z 0'4 x + y + z \#151 ; 0-25 ( " ) x + y \#151 ; z = 0-45 08 ) x - y + 2j = 0-4 ( r ) \#151 ; x + y + z = 0-4 ( 8 ) .
+The form of the surface is shown in fig. 3 .
+Only one edge of the primitive tetrahedron is now untruncated , viz. , GK oryS .
+Hence only one of the original six series of definite inferences is left , viz.\#151 ; Given .
+Inferred .
+z = 0-4 In addition to this infinite series there are , however , two special cases of inference corresponding respectively to the points H and M of the figure .
+VOL. CXCVII.----A .
+O Given .
+Inferred .
+x = 0 .
+y = 0*4 2 = 0 x = 0*4 .
+y =0 2 = 0 .
+These are " universal-negative " conclusions of the ordinary syllogistic type All C 's are A , No A 's are B , No C 's are B. All B 's are A , No A 's are C , .
+No B 's are C. S20 .
+Case ( 4 ) .
+A type of the most general case possible .
+'p1 = 0*35 : 2 = 0*4 : p3 = 0*45 .
+The equations to the bounding planes are x = 0 y \#151 ; 0 2 = 0 x \#151 ; 0*35 y \#151 ; 0*35 2 = 0*4 x + y + 2 = 0*20 ( a ) cc + y -2 = 0 35 ( / 3 ) x \#151 ; y + 2 = 0*40 ( y ) x + y + 2 = 0*45 ( 8 ) .
+The form of the surface is shown in fig. 4 opposite , and in figs. 4 and 4c from photographs of a model .
+All the edges of the tetrahedron are now truncated by planes representing the conditions of inferior congruence .
+No infinite series of definite inferences are left , but only four special KEGF of the figure :\#151 ; cases corresponding to the points Given .
+Inferred .
+( 1 ) X = 0*35 .
+2 = 0*4 y = 0*35 ( 2 ) y = 0*35 2 = 0 x = 0 ( 3 ) y \#151 ; 0 2 = 0*4 x \#151 ; 0 ( 4 ) x \#151 ; 0*35 2 = 0 y = 0 .
+The corresponding syllogisms are\#151 ; ( 1 .
+) All A 's are B , all B 's are C , .* .
+all A 's are C. ( 2 .
+) All A 's are C , no C 's are B , .* .
+no A 's are B. ( 3 .
+) All B 's are C , no C 's are A , .
+' .
+no B 's are A. ( 4 .
+) All A 's are B , no B 's are C , .* .
+no A 's are C. S21 .
+In extreme cases the congruence-surface presents the appearance of a right six-face with its corners truncated rather than a tetrahedron with its edges cut down .
+OF LOGICAL CLASS-FREQUENCIES , ETC .
+Fig. 4r .
+Q 2 MR. G. UDNY YULE ON THE THEORY OF CONSISTENCE Illustrations of such surfaces will be found in figs. 16-23 ( S 36 , p. 130-131 ) .
+The inferior instead of the superior conditions then predominate in importance .
+Two of the planes of superior congruence\#151 ; but not more than two\#151 ; may simultaneously pass outside the planes of inferior congruence and so disappear .
+Thus to determine the planes of inferior congruence suppose Pi \lt ; p3 \lt ; p3ancl Pi \lt ; ''5 ' Pi \lt ; ''5 ' \lt ; ''5The plane a vanishes if Pi + Pz + P3\lt ; The plane / 3 cuts the plane z \#151 ; 0 in the line x + y = Pi ; the limiting values of x and y being x = px , = it cannot disappear .
+The plane y cuts the plane z \#151 ; p3 ( the limiting plane ) in the line x \#151 ; y = o , and therefore it also cannot disappear .
+Finally , the plane 8 cuts the plane z \#151 ; p in the line y - X ^ P-2 , P2But the greatest possible value of y \#151 ; xis Therefore the plane 8 disappears if Ps~Pi\gt ; Pv An illustration of a surface of this character will be found in fig 19 , S 36 , p. 130 .
+In any case there are four " syllogism points " ( like KEGF of fig. 4 ) to the surface .
+S 22 .
+In all the preceding examples of figs. ( l)-(4 ) the values assigned to p{ , p2 , and pz have been less than 0'5 , so that the edges a/ 3 , ay , a8 of the primitive tetrahedron were truncated , if truncated at all , by the co-ordinate planes .
+If Pi + Pi \gt ; 1 Pi + ^3 \gt ; 1 Ps + Pi \gt ; 1 this ceases to be the case ( videequations A S 15 ) , the truncating planes then move inwards , and the congruence-surface stands clear of the co-ordinate planes .
+A little consideration will show , however , that no new features are introduced into the surface itself .
+Thus suppose that pl5p2 , p3 are all less than 0'5 , but that we then substitute ( 1\#151 ; p3 ) for p\lt ; 6 so as to make one ratio greater than 0'5 .
+Flow is the original surface altered ?
+Substituting ( 1 \#151 ; y\gt ; 3 ) for amounts to substituting y for C. Then if xv , yL , z1 be the original co-ordinates , x2 , y2 , z2 the co-ordinates after the substitution , we must have OF LOGICAL CLASS-FREQUENCIES , ETC .
+rv* \#151 ; \#151 ; rv* tA ; \#163 ; ) \#166 ; \#151 ; \#166 ; tAj Vi = Pi\#151 ; zz = Ih - Zj , S1I1C0 ( Are ) = ( A ) - ( AC ) .
+( By ) = ( B ) - ( BC ) .
+The first surface is therefore changed into the second by a simple transformation of co-ordinates , i.e. , if we are dealing with an actual model of the surface , by turning it over and shifting it .
+Fig. 5 is drawn to illustrate the nature of an actual transformation .
+It is drawn for the values pl \#151 ; 0'35 p2 = 0'4 = 0'55 , substituting ( 1 \#151 ; 0'45 ) for the 0'45 assigned to in fig. 4a , p. 115 .
+The two figures are similarly lettered .
+The model of fig. 4 has been turned over , round an axis parallel to the axis of x , through a half revolution .
+Fig. 5 .
+S 23 .
+If ( 1 \#151 ; y\gt ; 3 ) , ( 1 \#151 ; p2 ) , ( 1 \#151 ; pi ) be successively substituted for p3 , P % , Pi the transformations are as follows :\#151 ; ( 1 .
+) Substituting ( 1 \#151 ; p3 ) for p3 \#151 ; - Xy y2 = Pi - yi % ~ P'2 ~ Z\ I L8 MR. G. UDNY YULE ON THE THEORY OF CONSISTENCE ( 2 .
+) Substituting ( 1\#151 ; p2)for p2 xs = Pi " = - X1 Vz = y* = - h = 1 - Pz " % = 1 - - + zv ( 3 .
+) Substituting ( 1\#151 ; pj ) foryq x4 = 1 -p2 - x3 = 1 - Pi - p2 + aq y* = 1 - Pz - Vs = - - + *4 = Z3 = 1 ~ ~ PZ + ZlThe second and third cases are obtained , like the first , by simply expanding .
+Thus % = { Ml(u)\gt ; and ( M = M - ( By ) - ( U ) - ( C ) - ( By ) - ( U ) - ( B ) - ( C ) + ( BC ) or , dividing by ( U ) *3 = 1 " Pz ~ zz = 1 ~ ~ Pz + as above .
+S 24 .
+The correctness of the transformations given may , of course , be verified directly .
+Thus suppose Pi \lt ; Pz \lt ; Pz \lt ; ''5 then the equations to the bounding planes of the congruence-surface are x = 0 V \#151 ; 0 z 0 x =\#166 ; Pi y = Piz = Pz X + y + 2 = Pi + Pi + Pz \#151 ; 1 x + y \#151 ; 2 = Pi x \#151 ; y + Z = p2 \#151 ; X + y + z = Pz If ( 1 \#151 ; p2)be substituted for p2 , and ( 1 \#151 ; for then Pi \lt ; 1 " Pz \lt ; 1 " Pz\gt ; and the equations must be x = o y \#151 ; 0 \#151 ; x = Pi y = Pi\#171 ; =i X + y + 2 = Pl - 1 x + y \#151 ; z = 'Pi x - y + z = 1 - 2h \#151 ; x + y + z\#151 ; p3 OF LOGICAL CLASS-FREQUENCIES , ETC .
+The set of equations II .
+may be obtained from the set I. by the transformations ( 2 ) above , thus affording the verification The fact that the model for any values of plt p2 , and p3 can always be transformed into a model for the casejtq \lt ; 0'5 , p.z \lt ; jp3\lt ; 0'5 justifies our terming case ( 4 ) , S 20 , " a type of the most general case .
+" The geometrical transformations here suggested would seem to correspond to " reductions " of the syllogisms .
+Thus in fig. 5 the point F stands where the point K stood in fig. 4 But the point F of fig. 4a corresponds to a syllogism in Celarent , Cesare , or ; F in fig. 5 to a syllogism in Barbara .
+The transformation of co-ordinates corresponds to a reduction of either of the first four forms to the last .
+S 25 .
+In case any of those who read this memoir should care to construct models of the congruence-surfaces illustrated in figs. 1-4 , I give dimensioned sketches of their developments below , figs. 6\#151 ; 9 .
+These developments are on half the scale of the projections shown in the preceding figures .
+An angle with one arc across it is an angle of 60 ' , with two arcs 45 ' or 135 ' ; an angle blocked in is a right angle .
+707- \#166 ; *--3-66----\#171 ; Congruence of the Fourth Degree .
+S 26 .
+The conditions of consistence for the congruence of the fourth degree in general require space of four dimensions for their direct representation ( cf V. , S 7 ) .
+Since , however , each of the bounding hyper-planes is parallel to one or other of the axes , four surfaces in three dimensions may be substituted for the hyper-surface in four dimensions .
+If we denote ( ABC)/ ( w ) , ( ABD)/ ( ti ) , ( ACD)/ ( \#171 ; ) , ( BCD)/ ( u ) , by x , y , z , w , then the surfaces representing the consistence of [ 1 ] , [ 2 ] [ 3 ] xzw , [ 4 ] yzw , respectively , for given values of the frequencies of lower orders , will in general differ from each other .
+If we desire to find the limits to values of w for given values of x , y , z , we must first see that the values of x , z are consistent from surface [ 1 ] , then find the three pairs of major and minor limits to w given by surfaces [ 2 ] , [ 3 ] , and [ 4 ] .
+The lowest of the major limits and highest of the minor limits so given are the true limits to w. We may take as examples of fourth-degree congruence-surfaces three of the very simplest cases , in which ( l ) equality of contraries subsists for the first and second-order frequencies , and ( 2 ) actual equality subsists between all the second order frequencies , i.e. , ( AB ) = ( AC ) = ( AD ) = ( BC ) = \amp ; c. These are highly specialised examples , but are of some interest for their bearing on the theory of normal or quasinormal correlation .
+It must be remembered that in a normal distribution of frequency , where the divisions between A and a , B and / 3 , \amp ; c. , are taken at the means , the frequencies of all orders are definitely determined by the second-order frequencies , and complete equality of contraries subsists for frequencies of all orders .
+This is not the case where the only datum is that equality of contraries subsists for frequencies of the first and , therefore , also of the second order .
+The equality of contraries need not , as shown in my previous memoir , * spread to the frequencies of the third order , hut if it he assumed to do so the latter become determinate as in the " normal " case .
+S 27 .
+For the simple type of cases considered , the equations to the bounding-planes of the congruence-surfaces reduce to the forms given below .
+The four component surfaces for xyz , xyiv , \amp ; c. , are , of course , all identical , so it is only necessary to consider one in each case .
+The first conditions given are those of inferior congruence ( cf. S 5 ) , and for brevity we have written ( AB)/ ( w ) = ( AC)/ ( w ) = \amp ; c. = q x = 0 = 2q \#151 ; 0'5 x = q = 3 q- 0-5 y = 0 =2 q \#151 ; 0-5 y = q = 3q - 0-5 z = 0 =2 q \#151 ; ( P5 = 2 = 3 q \#151 ; 0-5 * " On the Association of Attributes in Statistics , " ' Phil. Trans. , ' A , vol. 194 , pp. 263 et OF LOGICAL CLASS-FREQUENCIES , ETC .
+I 21 xV + 2 = 3g \#151 ; 0'5 ( a ) X + y - z = ( \#163 ; ) x y + z = q ( y ) \#151 ; X 4- y + z = ( 8 ) tc + y + z \#151 ; 6(/ \#151 ; CO ( e ) x y \#151 ; z = 2q \#151 ; 0'5 ( \#163 ; ) \#187 ; + V + ^ \#151 ; 2g - 0-5 ( t ?
+) \#151 ; x + y 4- 2 = 2q - 0-5 ( 0 ) .
+S 28 .
+Case ( 1)\#151 ; ( AB ) ( u ) = ( BC ) = \amp ; c. = g \#151 ; 0'25 All the attributes ABCD are independent and pair .
+The conditions of inferior congruence are x \#151 ; 0 -- 0 z ~ 0 x = 0'25 y \#151 ; 0'25 2 = 0'25 , Fig. 10 .
+but do not come into account , the planes they represent only passing through the angles ABCDEF ( fig. 10)# of the equilateral octahedron bounded by the planes\#151 ; * Figs. 10 , 11 , 12 are drawn to twice the scale of figures 1-5 .
+VOL. CXCVII.\#151 ; A. It x + y + z = 0'25 ( a ) x -f y \#151 ; z = 0'25 08 ) x \#151 ; y -J- 2 = 0'25 ( y ) \#151 ; x 4- y + z = 0'25 ( S ) x -4* y + z \#151 ; b'5 ( c ) x + y \#151 ; z = 0 ( 0 x + y -f z = 0 ( v ) \#151 ; x -j- y + z = 0 ( e ) .
+There are twelve somewhat interesting infinite series of definite inferences corresponding to the twelve sides of the octahedron .
+They may be grouped in three divisions following the contours EBCF , EDCA , BDFA , viz.:\#151 ; Given .
+x \#151 ; y \#151 ; 0T25 or y \#151 ; x \#151 ; 0T25 ( or x -f- y = 0T25 j or x + y = 0-375 j for the contour EBCF , and the two similar systems that may be written down by cyclical substitution .
+These are all , it will be seen , inferences of independence h = i X | X v\gt ; \#151 ; .S- ) , and therefore somewhat strikingly different to the usual definite inferences which are all inferences of complete association ( all A 's are B \#151 ; no A 's are B ) .
+From the same values of x and y we could , of course , infer w = '125 , so the theorem may be expressed in words thus\#151 ; " In any case where cross-equality # and independence both subsist for the second-order frequencies , independence must subsist for two at least of the four positive third-order frequencies if either ( 1 ) the sum of the remaining two is equal to |-th or |ths of the total frequency ; or ( 2 ) the difference between the remaining two is equal to |th of the total frequency .
+" I should , perhaps , note that in the present case the fact that the criterion of independence holds for the positive fourth-order class necessitates its holding for all the remaining classes of the aggregate .
+This is not so in general .
+It may further be remarked that the independence of the attributes , pair and pair in the second-order classes , does not connote independence for the groups of the third order .
+I hope to return to the logic of independence on a future occasion .
+S 29 .
+Case ( 2)\#151 ; ( AB)/ ( U ) = ( BC)/ ( U ) = \amp ; c. = = 0 20 .
+The pairs of attributes are now all negatively associated .
+* I propose to use this term in lieu of the more lengthy " equality of contraries Inferred .
+z = 0*125 OF LOGICAL CLASS-FREQUENCIES , ETC .
+The planes representing conditions of inferior congruence are x \#151 ; o y \#151 ; o z o x \#151 ; OT y \#151 ; OT = OT .
+The conditions of superior congruence are represented by planes x -f y -j- 2 \#151 ; OT ( a ) x -\- y \#151 ; z \#151 ; x \#151 ; .y-J- z \#151 ; ~ 0*2 ( / 3 , 8 ) x -f- y-f- ^ = 0*2 ( e ) x + y \#151 ; z = x \#151 ; y + z = \#151 ; x + y + z = \#151 ; OT 0 ) , but on drawing the figure ( fig. 11 ) it will be seen that the planes ( / 3 , y , 8 , \#163 ; , y , 6 ) do not come into account , the surface being an octahedron bounded by ( a ) ( e ) and the six planes representing conditions of inferior congruence .
+D Fig. 11 .
+There are no infinite series of definite inferences but only six special cases , corresponding to the points ABCDEF .
+They are all of the form Given .
+Inferred .
+x \#151 ; 0 y = 0 1 x \#151 ; 0 T y \#151 ; 0 T J R 2 or z \#151 ; OT .
+It must be noted that in the type of cases at present under discussion cannot be less than \#163 ; th , or 0'166 . . .
+, for , by the third-degree conditions of consistence , ( AB ) + ( AC ) + ( BC ) \lt ; ( A ) + ( B ) + ( C ) - ( U ) that is it ( AB ) = ( AC ) = ( BC ) = q .
+( U ) ( A ) = ( B ) = ( C ) = * .
+( U ) 3(1 \lt ; i , \lt ; 7 For this value of q the planes ( a ) and ( e ) fall together into the origin ; the whole surface , so to speak , closes up .
+S 30 .
+Case ( 3)\#151 ; ( AB)/ ( U ) = ( BC)/ ( U ) = \amp ; c. = 0-3 .
+In this case the pairs of attributes are all positively associated .
+The first case is therefore intermediate between the second case and the present one .
+The planes representing the conditions of inferior congruence are x \#151 ; on y \#151 ; 0T z o .
+1 x \#151 ; 0'3 y \#151 ; 0'3 z \#151 ; 0'3 , but , as in Case ( 1 ) , these do not actually come into account , only passing through the edges AC , BP , GD , and FM of the octahedron bounded by planes x + y + z \#151 ; 0*4 ( a ) x y \#151 ; z \#151 ; x \#151 ; y z \#151 ; \#151 ; 0'3 , y , S ) x + y = z = 0*8 ( e ) x + y \#151 ; z \#151 ; x \#151 ; y + z = \#151 ; + + % \#151 ; 0'1 .
+( C , y , 6 ) .
+The surface is represented in fig. 12 below .
+To facilitate identification , but avoid overcrowding the small-scale figure with lettering , the planes may be stated to be a .
+ABC e .
+EDF .
+P \#166 ; . .
+GDFMH P \#166 ; . .
+PQBCB .
+y . . .
+QBMFE y \#166 ; . .
+PBAHG .
+s . . .
+PQEDG e . . .
+CRMHA .
+There are eighteen infinite series of definite inferences corresponding to the eighteen edges , all reducible to one or other of the types Given .
+\#177 ; ( x \#151 ; y ) \#151 ; ot x \#151 ; 0'3 x-(- y 0*25 x-f- y 0'55 Inferred .
+Z = 0'2 z = y z = 0U5 2 = 0 25 .
+OF LOGICAL CLASS-FREQUENCIES , ETC .
+Fig. 12 .
+S 31 .
+For the benefit of those who would like to construct actual models of the surfaces shown in figs. 10 , 11 , 12 , I again give below sketches of their developments , p(Tg _____gg These sketches are drawn to half the scale of the preceding projections ; the notation for the angles is the same as in figs. 6-9 .
+Fig. 13 .
+Fig. 15 .
+The Limits to Associations given by Conditions of Consistence .
+S 32\#151 ; S 37 .
+S 32 .
+The general conditions of consistence give limits to the frequencies of any one aggregate in terms of the frequencies of two or more given aggregates of the same congruence .
+Hence they give limits also to the possible associations between attributes in the unknown aggregate .
+Thus , to take an imaginary example , suppose we have ( AB ) 11 ( AG ) 8 ( A/ 3 ) 22 ( Ay ) 25 ( \#171 ; B ) 39 ( aC ) 52 ( \#171 ; fi ) 28 ( are ) 15 100 100 .
+Required the limiting values of the BC aggregate .
+From the conditions of consistence , S 5 , we have ( BC ) \lt ; 33 + 50 + 60 - 100 - 11 -8 \lt ; 24 \lt ; 11 + 8 - 33 \lt ; - 14 \gt ; 60 + 11 \#151 ; 8 \gt ; 63 \gt ; 50 \#151 ; 11 + 8 \gt ; 47 .
+Therefore the limiting values to ( BC ) are 24 and 47 .
+But we know ( B ) \#151 ; - 50 , ( C ) = 60 , ( U ) \#151 ; 100 , therefore the limiting values to the frequencies of the aggregate are ( BC ) 24 47 ( fir ) 26 3 ( fiO ) 36 13 ( fir ) 14 100 37 100 .
+Hence we may calculate , if desired , the limiting values to the association j BC | .
+For the association coefficient suggested in my previous memoir the values are \#151 ; 0'47 and \#151 ; 0'96 .
+The values of | AB j and | AC | are \#151 ; 0'47 and \#151 ; 0'83 respectively .
+For the great majority of cases occurring in practice the limits thus inferred from known associations are , as in the imaginary example , pretty wide .
+Very high values must be assigned to the two given associations before it is possible to infer even the sign of the third .
+Arguments of the vague type , " so many A 's are B , and so many A 's are also C , that clearly we must expect to find B and C frequently occurring OF LOGICAL CLASS-FREQUENCIES , ETC .
+together , " are not uncommon , but the speaker seldom has any conception of the limits to ( BC ) actually implied by given values of ( AB ) and ( AC ) .
+S 33 .
+To enforce the danger of rashly inferring , we take some figures from the illustrations of my previous memoir borrowed from the material of the Childhood Society .
+The following are the proportions , * per 10,000 cases observed , of those with given defects and given combinations of defects , for hoys and girls of all ages .
+A = development defects , B \#151 ; nerve signs , C = low nutrition , D \#151 ; mental dullness .
+Boys .
+Girls .
+( U ) .
+10,000 10,000 ( A ) 878 682 ( B ) 1,085 850 ( C ) 285 325 ( D ) 789 689 ( AB ) . . . .
+296 248 ( AC ) ... .
+142 180 ( AD ) ... .
+296 307 ( BC ) . . . .
+134 141 ( BD ) . . . .
+455 363 ( CD ) . . . .
+123 132 ( ABC ) ... .
+57 66 ( ABD ) ... .
+153 128 ( ACD ) ... .
+179 80 ( BCD ) ... .
+64 63 ( ABCD ) . . .
+30 33 These figures give the following values for the associations !
+\#151 ; Boys .
+Girls .
+|AB| . . .
+0750 0-784 |AC| . . .
+0-848 0-9L6 |AD| . . .
+0*846 0-900 1BC| . . .
+0-783 0-814 1BD| . . .
+0-897 0-905 I CD| . . .
+, 0-823 0-835 A hasty arguer might think he was safe in inferring from the values , c.p. , of j BC | and | AC | that at least some A 's must he B , if not that A and B were * " On the Association of Attributes in Statistics , " \amp ; c. , 'Phil , lrans .
+, A , vol. 194 .
+Table on p. 31b , but the figures reduced to proportion per 10,000 cases observed , t Pages 306-307 of the same memoir .
+positively associated .
+Either inference would be quite incorrect .
+Let us proceed to discuss the conditions of consistence .
+S 34 .
+We have shown ( S 8 ) that a congruence of the fourth degree and second order is self-consistent when the conditions of consistence hold for each of the four congruences of the third degree into which it may he resolved .
+These conditions are as follows in the present instance ; writing for brevity Xy = ( AB)/ ( ?
+z ) x , = ( AO)/ ( \#171 ; ) *3 = ( AD)/ ( \#171 ; ) ^ = \#163 ; BCj/ ( \#171 ; ) = ( BD)/ ( \#171 ; ) x6 = ( CD)/ ( \#171 ; ) .
+Congruence .
+I. Boys .
+ABC aq o II o I !
+o II 8 = 0*0878 aq = 0*0285 aq =0*0285 ( aq + x.2 + x4i = \#151 ; 07752 ) xi + \#151 ; aq = 0 0878 xi ~~ xz + x4\gt ; \#151 ; 0*1085 \#151 ; x1 + x2 + aq 0*0285 ABE xl \#151 ; 0 0 = 0 x1 \#151 ; 0-0878 aq = 0-0789 xB = 0*0789 ( aq -f xs d~ x5 = \#151 ; 0"7248 ) aq + aq \#151 ; x5 =--0'0878 xi ~ xs d~ xb 0*1085 \#151 ; aq -J- a*3 -J- X5 \#151 ; = 0 0789 ACE x2 \#151 ; 0 0 x6 \#151 ; 0 aq = 0-0285 aq = 0*0789 aq 0*0285 ( 'aqd~ aq -j- aq \#151 ; 0*8051 ) aq-j- aq \#151 ; x6 0*0875 aq \#151 ; aq-f aq = 0*0285 \#151 ; aq d- aq d~ aq 0*0789 BCE aq == 0 aq = 0 aq \#151 ; 0 aq \#151 ; 0*0285 aq = 0*0789 aq'= 0*0285 ( aq d- aq d- aq ~ \#151 ; 0*7841 ) ( by -j- aq \#151 ; aq \#151 ; 0 1085 ) - x5 -f aq \#151 ; 0*0285 \#151 ; aq .
+-f- aq d~ aq = 0*0789 .
+Congruence .
+II .
+Girls .
+ABC aq = 0 aq = 0 aq = 0 aq = 0*0682 aq = 0*0325 aq = 0*0325 ( aq + + a:4 = \#151 ; 0*8142 ) a ? !
+d- x2 \#151 ; aq \#151 ; 0*0682 aq \#151 ; x2 -f- aq = 0*0850 \#151 ; aq db aq d- aq \#151 ; 0 0325 OF LOGICAL CLASS-FREQUENCIES , ETC .
+Congruence .
+II .
+Girls .
+ABD II o CO = 0 X5 = 0 xl = 0*0682 = 0*0682 cc5 = 0*0689 ( X1 X3 - 0*7779 ) X1 + ^3 + ^5 \#151 ; 0*0682 II 8 + CO 1 0-0850 \#151 ; Xl + \#163 ; T3 + X5 \#151 ; 0-0689 ACD 8 to II o 8 CO = 0 x6 = 0 x2 = 0*0325 x3 = 0*0682 x6 ~ 0*0325 ( x2 + xz + - 0*8304 ) X2 X3 == 0-0682 ry* __ ry* .
+I ry* ttU'g 0-0325 x2 " b X3"h ~~ 0*0689 BCD x4 =0 X3 = 0 o 1 !
+x4 = 0*0325 x5 = 0*0689 x6 = 0*0325 ( X4 + #5 + *6 = - 0*8136 ) ry* 1 ai .
+ry* *^4 \#151 ; 0*0850 ^4 ^5 1 *^6 \#151 ; 0*0325 \#151 ; x4 + x5 -f- Xf .
+= 0-0689 .
+S 35 .
+If the limits to each class frequency given by these relations be worked out it will be found that the lower limit to every class , in terms of the others , is zero without exception .
+That is to say , any pair whatever of the given defects might exhibit complete " disassociation " ( association coefficient = \#151 ; 1 ) , without this being in any way inconsistent with the high associations exhibited by other pairs .
+In two cases for the boys and three for the girls upper limits could , however , be inferred , as given below .
+Group .
+Limit given by congruence .
+Limits .
+Corresponding associations .
+Boys .
+Girls .
+Boys .
+Girls .
+( AB ) . .
+ABC 870 643 0-9996 0-9972 ( AD ) . .
+ABD 630 574 0-9861 0-9953 j ) . .
+ACD \#151 ; 634 \#151 ; 0-9991 ( BD ) . .
+ABD \#151 ; 630 \#151 ; 0-9955 ; Thus our imaginary " hasty arguer , " if he attempted to infer from the given values of ( BC ) and ( AC ) that " some A 's must be B " or , worse still , that " A and B must be VOL. CXCVII.--A .
+S positively associated , " would be inferring almost the direct contrary of the truth .
+The real inference is " some A 's are not B , " or " A and B are not completely associated .
+" Similarly from the given values of ( AB ) and ( BD ) , or of ( AC ) and ( CD ) in the case of the girls , he could only infer " some D 's are not A " ; and from ( AB ) and ( BD ) in the case of the girls again , " some D 's are not B. " S 36 .
+In order to illustrate the case completely I give sketches of the congruence-surfaces in figures 16\#151 ; 19 for the boys and 20\#151 ; 23 for the girls , # and have marked in each figure the co-ordinates corresponding to the actual values of ( AB)/ ( w ) , \amp ; c. A ( BD)/ ao Fig. 16 .
+Fig. 17 .
+Fig. 19 .
+Note that the figures are on a much larger scale than those previously given .
+In figs. 21 and 22 the width of the narrow strip cut off on the plane ( AD)/ ( a ) = -0682 has been somewhat exaggerated .
+OF LOGICAL CLASS-FREQUENCIES , ETC .
+Only in the case of figs. 17 and 21 does the general appearance of the surface resemble that shown in fig. 4 ; in all the other cases the greater part of the surface is given by the conditions of inferior congruence .
+Mere inspection of the figures shows Fig. 21 .
+Fig. 20 .
+( CD)/ ( u\gt ; that while , e.g. , a very slight alteration of the actual values of ( BC ) and ( AC ) would lead to a lower limit for ( AB ) ( cf figs. 16 and 20 ) the associations between A and B and A and C would have to be very largely increased indeed before we could infer ( BC ) \gt ; 0 .
+A study of such figures as these would , I think , lead to a good deal more caution in statistical inference .
+S 37 .
+It may be remarked that while the conditions of inferior congruence for second-order groups always give the limits i 1 to the corresponding associations , s 2 the inferior conditions for the groups of third or higher orders only assign these extreme values to some , but not all , of the partial coefficients .
+Thus , for example , take the figures of S 32 .
+Applying the inferior conditions of consistence ( S 5 , II .
+) we find as limits to ( ACD ) for the boys 0 and 123 .
+The remaining frequencies of the aggregate must then be\#151 ; ( ACD ) . . . . .
+0 123 ( ACS ) . .
+, 142 19 ( aid ) . . . .
+296 173 ( aCD ) . . . . .
+123 0 ( aid ) . . .
+, .
+370 493 ( aCS ) . .
+, .
+20 143 ( AyS ) . . .
+440 563 ( ayS ) . . . .
+8609 8486 .
+The aggregate corresponding to the minimum value of ( ACD ) will evidently give minimum values to the partial associations in positive universes like | AC | D | , but maximum values to those in negative universes I AC | 8 j , AD | yj , \amp ; c. Then inspection will show that only for | AC | D | and | AD | C | are the limits fit 1J for the remaining associations the limits are\#151 ; |CD|A| \#151 ; 1 + -91 | AC | S | -fi -33 + '99 |AD|7| + -68 + -88 | CD [ a | \#151 ; 1 + -99 .
+In the discussion of the Childhood Society 's material in my previous memoir I remarked on the fact that all the partial coefficients of association between defects in positive universes were small , while those in negative universes were large and positive .
+I at first thought that this might he a logical consequence of the given values of the second-order groups , but this is not the case .
+The values of the associations like | AC | D | , j AD | C | , \amp ; c. , are almost indeterminate ; certain of the coefficients with negative universes ( | AC | | , | AD j y| ) are necessarily positive , but others ( | CD | a | ) may fall to the extreme limit \#151 ; 1 .
+S 38 .
+It may be useful to remark that if two associations | AB| and JACJ , in a third-order congruence , are both equal to zero , the limits to the third association |BC| are necessarily Jc 1 , whatever the values of pie , p.2 , p3 .
+If we write p1 p2 for ( AB)/ ( U ) or x , pl p3 for ( AC)/ ( U ) or y , the limits to ( BC)/ ( U ) or z are Z \lt ; ( 1 \#151 ; Pi ) ( Pi + \#151 ; !
+) ( 1 ) \lt ; Pi ( Pi +.Ps ~ 1 ) ( 2 ) \gt ; Pi + Pi ( Ps - ( 3 ) \gt ; Pi + Pi ( ~ Ps ) ( 0- OF LOGICAL CLASS-FREQUENCIES , ETC .
+Now if 2^2 + Ps\gt ; 1 the lower limit to z is , by the inferior conditions of consistence , p2 + Pz \#151 ; 1* But ( 1 ) and ( 2 ) both give lower limits still , and therefore do not come into account .
+Again , if p2-f- p.6\lt ; 1 , the lower limit to z , by the inferior conditions , is zero .
+But ( 1 ) and ( 2 ) give negative limits , and therefore again do not come into account .
+As regards the major limits , z must not , by the inferior conditions , be greater than the least of p2 and p ? .
+But if p2be the less ( 3 ) and ( 4 ) both give limits greater than p2 ; if \#163 ; \gt ; 3 be the less ( 3 ) and ( 4 ) both give limits greater than In neither case then do they come into account .
+We have therefore proved the theorem .
+

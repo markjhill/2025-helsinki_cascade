@@ -1,0 +1,2224 @@
+]\gt ; [ 22.3 ] VIII .
+Quaternions and Geometry .
+CHARLES JASPER JoLy , Royal Astronomcr of ROBERT , F. Reeeived November 27 , \mdash ; Read December 11 , 1902 .
+TNTRODUCTION .
+A QUATERNION adequately represents a point to which a determinate weight is attributed , and , conversely , when the point and its weight are given , the ernion is defined without ambiguity .
+This is evident from the identity ( A ) , in which is as a placed at the extremity of the ( B ) , drawn from any assumed origin .
+It is sometimes convenient to employ capitals concurrently with italics to represent the same point , it being understood that ( C ) .
+Thus represents the point affected with a unit weight .
+The point may be called the point , for we have . . . . . . .
+( D ) .
+In order to develop the method , it becomes necessary to employ certain special symbols .
+With one exception these are found in Art .
+of ' Hamilton 's of Quaternions , ' though in quite a different connection .
+We write VaVl ) . . . . .
+; and in particular for points of unit weight , these become .VA . . . .
+( F ) .
+Thus ( ab ) is the product of the weights into the vector connecting the points : and [ ab ] is the product of the weights into the moment of the vector connecting the points with respect to the scalar point .
+The two functions ) and )etely define the line ab .
+20.6.03 HAMTLTON writes SVaVbVc .
+( G ) ; if we replace by , where and are the vectolB from the scalar point to three points and , we have ; . . .
+( ) .
+Hence it appears that ) ] is the symbol of the plane ; for -V is the reciprocal of the vector perpendicular from the scalar point on that plane .
+Also is the sextupled volume of the tetrahedron OABC .
+Again , fILTON writes for four quaternions . . . . . . . .
+( ) ; in terms of the vectors this is seen to be the products of the weights into the sextupled volume of the pyramid ( ABCD ) .
+Other notations may of course be employed for these five combinatorial functions of two , three , or four quaternions or points , but HAMILTON'S use of the brackets seems to be quite satisfactory .
+In the same article HAMrLTON gives two most useful identities connecting any five quaterllions .
+These are .
+( J ) , and de .
+( K ) , which enable us to express any point in terms of any four given points , or in terms of any four given planes .
+The equation of a plane may be written in the form . . . . . . .
+( L ) ; and thus , any quaternion whatever , may be regarded as the symbol of a plane as well as of a point .
+On the whole , it seems most convenient to take as the auxiliary quadric the sphere of unit radius S. . . . . . . . . .
+( M ) , vbose centre is the scalar point .
+With this convention the plane is the polar of the point with respect to the auxiliary quadric ; or the plane is the reciprocal of the point .
+Thus the principle of duality occupies a prominent position .
+The of reciprocation ( abed ) .
+( N ) connecting any four quaternions are worthy of notice , and are easily proved by PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE .
+225 replacing the quaternions by , and respectively .
+In complicated relations it may be safer to separate the quaternions as in these by semi-colons , but generally the commas or semi-colons may be omitted without cansing any ambiguity .
+These new interpretations are not in the least inconsistent with any principle of the culus of quaternions .
+We are still at liberty to regard a quaternion as the separable sum of a vector and a scalar , or as the ratio or product of two ectors , or as an operator , as well as a symbol of a point or of a plane .
+In particular , in addition to HAMILTON'S definition of a vector as a ight line of given direction and of given magnitude , and in addition to his quent interpretations of a vector as the ratio or product of two mutually rectangular vectors , or as a yersor , we may now consider a vector as denoting the point at infinity in its directio1 ] , or the plane through the centre of reciprocation .
+For the vector of equation ( B ) becomes infinitely long if , and the plane passes through the scalar point if .
+We may also observe that the difference of two unit points is the vector from one point to the other , and this again is in agreement with the opening sections of the " " Lectures Additional illustrations xamples may be found in a paper on " " tation of a aternion as a Point-symbol , \ldquo ; 'Trans .
+Roy .
+Irish Acad. , ' vol. 32 , The only other symbols peculiar to this method are the symbols for quaternion arrays .
+The five functio1Js ( ab ) , [ ab ] , [ abc ] , ( abc ) , and are particular of arrays , being , in fact , arrays of one row .
+In general the array of rows and columns . . . . .
+( O ) may be efined as a function of mn quaternion constituents , which vanishes if , and only if , the groups of the constituents composing the rows were connected by linear relations with the same set of scalar multipliers .
+In other words , the array vanishes if scalars can be found to satisfy the equations The expansion of arrays is considered in a paper on " " Quaternion \ldquo ; 'Trans .
+Roy .
+Irish Acad. , ' vol. , pp. 17-30 .
+VOL. PROFLSSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE GEOMETRY .
+SECTION I. GEOMETRICAL PROPERTIES 0F A LINEAR QUATERNION FUNCTION .
+Art .
+Page 1 .
+Definition of a linear quaternion function . . . . .
+226 2 .
+The linear transformation effected by a linear function . . . . .
+226 3 .
+pecification of a function by four quaternions or five points and their deriveds . . .
+227 4 .
+The mation of planes effected by the inverse of the coniugate function . . .
+227 5 .
+Gcometrical interpretation of HAMILTON'S method of irlversion . . . . .
+227 6 .
+Geometrical illustration of the relations HAMILTON'S auxiliary functions 228 7 .
+The united points of a linear transformation . . . . . .
+229 8 .
+Relations connecting the united points of a function with those of its coniugate 230 9 .
+lntroduction of the functions , . . . . . .
+231 10 .
+and Sqf , represent the general quadric surface and the general linear complex . . . .
+231 11 .
+The pole of a plane to the uadric is aJld the point of concourse of lines of the complex in the plane is . . . . . .
+232 12 .
+The united points of , form a quadrilateral on the sphere of reciprocation . . . .
+232 1 .
+The quaternion equation . . . . .
+( 1 ) , may be regarded as a definition of the nature of a linear quaternion function , the quaternions and being perfectly arbitrary .
+As a corollary , if is any scalar , . . . . .
+( 2 ) , and on resolving in terms of any four arbitrary quaternions , we must have an expression of the form . . . . .
+( 3 ) , because the coefficients of the four quaternions must be scalar and distributiye functions of .
+Sixteen constants enter into the composition of the function , being four for each of the quaternions 2 .
+When a quaternion is regarded as the symbol of a point , the operation of the function produces a linear transformation of the most general kind .
+The equations show that the right line is converted into the right line fa , , and the plane containing three points into the plane containing their correspondents , fa , and The raphic character of the transformation is also clearly exhibited .
+PROFESSOR C. J. JOLY ON NIONS AND PROJECTIVE .
+227 .
+In order to specify a function of this kind it is necessary to know the qu ternions into which any set of four unconnected quaternions , converted .
+Thus , from the identical relation . . .
+( 5 ) , connecting one arbitrary quaternion with the four given quaternions , is deduced the equation . . .
+, which determines the result of operating by on Whelt we are merely concerned with the geometrical transformation of points , the absolute of the representative quaternions cease to be of importance , and the function BCDq CDqA)DqAB)qABC ) .
+( 7 ) , which involves four arbitrary scalars , converts the four points into four others , .
+Given a fifth point and its correspondent , the four scalars are determinate to a common factor , and subject to scalar multiplier , the function which produces the transformation is BCDq CDqA ) .
+DqAB ) .
+CDEA DEAB qABC ) ( 8 ) .
+It is only necessary to replace by in order to verify this esult .
+4 .
+A linear quaternion as a of , the inverse of its the bding any two quaternions , and if . . .
+( 9 ) .
+Hence any plane , in which the quaternion represents the current point , transforms into the plane , and the proposition is proved .
+Thus , when symbols of points ( q ) are ansformed by the operation of , symbols of planes ( p ) , or of points reciprocal to the planes , are transformed by the ) eration of 5 .
+HAMILTON'S beautiful method of inversion of a linear quatel.nio function receives a geometrical interpretation the results of the last al.ticle .
+* In accordance with the notation proposed Trans. Irish Acad , lcttcrs are used in this article concurrently with small letters to denote the same ) the weights for the capital symbols are unity ; thus The symbol of the plane containing three points , may be written in the . . . . .
+( 10 ) ; on matio this becomes [ abc ] . . . . .
+( 11 ) , where is ) certain scalar and where is an auxiliary function .
+fact , the first equation sums up the last article ; in the second a new function is introduced , and in the fourth equation ( 9 ) is utilized .
+Since , is quite arbitrary ( ] 1 ) may be replaced by the symbolical equations . . .
+( 12 ) , an quaternion being understood as the subject of the operations .
+over , because . . . . .
+( 18 ) , where and are arbitrary quaternions and where is the conjugate of , it appears that . . . . .
+( 14 ) .
+And any three arbitrary quaternions . . . . .
+( 15 ) as appeal .
+S from symmetry , or , anew ically , by considering a point as the intersection of three planes .
+Operating on the last equation by Sf 'd we find , since fafbfcfd ) . . . . . .
+( 16 ) .
+The is a function of and proves that / is an iant , or that it is quite independent of any particular set of quaternions , This iance is , however , established by the form of the equations ( 12 ) and ( 14 ) .
+6 .
+Replacing by , where is an arbitrary scalar , HANILTON .
+denotes and the auxiliary function and the invariant which bear the same relations to that } bear to By ( 15 ) and ( 16 ) , and are of the forms . . . .
+( 17 ) , where and are llew auxiliary functions ; and . . . . .
+( 18 ) , where ?
+are new invariants .
+PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE EOMETRY .
+229 He then equates the coefficients of the arbitrary scalar ' in the symbolical equation , . . . . .
+, and obtains the symbolical equations . . .
+( 20 ) , which will be found to be of great importance in the geometrical theory .
+Tn virtue of ( 19 ) , all these functions are commutative , in order of operation .
+These equations establish certain collineations which illustrated in the annexed figure .
+From the relations ( 20 ) HAMILTON deduces .
+; ( 21 ) , and the symbolic quartic satisfied by or ( 22 ) , if are the roots of the quartic . . . . . . .
+( 23 ) , or the latent roots of the function It appears by ( 12 ) and ( 14 ) that exactly similar equations are valid the conugate function , it being only necessary to replace and by their conjugates and , as the invariants and are the same in both cases .
+7 .
+The united points of the transformation are represented by the quaternions and , which satisfy the equations . . .
+( 24 ) ; and they are determined by operating on an arbitrary quaternion by the fullction obtained by omitting one factor of the second form of .
+In like manner by omitting two or three factors of the same quartic , the equations of the lines joining two , and of the planes through three , of the united points are obtained by operating on a yariable quaternion .
+Thus and . . . .
+( 25 ) are respectively the equation of the line through the points and of the plane through the points .
+These results are obvious when the arbitrarily variable point is referred to the united points as points of reference , or when we write . . . . .
+( 26 ) .
+8 .
+The united points of .
+its conjugate form reciprocal tetrahedra to the unit sphere For when the roots are all unequal . . . . .
+( 27 ) , if ( and , are the united points of the conjugate .
+Thus the points and are conjugate with respect to the sphere .
+plane contains the points , the weights may be chosen so that ( 28 ) ; and these relations imply* . . . . .
+( 29 ) ; and from symmetry ( 30 ) .
+To these relations may be added the quaternion identities . . .
+( 31 ) , ( 32 ) , which are probably more elegant than important .
+The second shows that the centre of the sphere is the centre of mass of the weights placed at the vertices of eithel of the tetrahedra , and that the sum of their weights is unity .
+From these identities we deduce the vector equations ( 33 ) , which express that equilibratin forces can be placed along the lines joining corresponding vertices , or that any line which meets three of these lines meets the fourth , that the lines are generators of a quadric .
+* Writing , , equations ( 29 ) give .
+Hence the product of the weights is the reciprocal of the product of the perpendiculars from the centre of the sphere and from the point ( or ) on the opposite face of the tetrahedron .
+Observe that only the products have been assig1led , not and rately .
+In the notation of the last note ( 33 ) becomes .
+The equilibrating forces are proportional to the distances between the vertices divided by the products of perpendiculars mentioned in the note cited .
+PROFESSOR C. J. JOLY OA7 QUATERNIONS AND PROJECTIyE GEOMFTRY .
+231 It is also possible to obtain relations pairs of the points , \mdash ; . . . . .
+( 34 ) , from which we learn that ( 35 ) ; and we are at liberty to write separately on further selection of the ( fnr the products of the weights alone have assigned ) , . . . . .
+( 36 ) , with corresponding simplifications in the formulae .
+When the function is self-conjugate , the tetrahedron of united points is selfreciprocal to the unit sphere .
+9 .
+Introducing two new functions defined by the equations or . . . .
+( 37 ) , it is obvious that for any two quaternions , and ( 38 ) , or symbolically . . .
+( 39 ) , and is , and , is the negative of its conjugate .
+10 .
+The equation . . . .
+( 40 ) is the general equation of a quadric surface , and . . . . .
+( 41 ) is that of a linear complex , and being both variable points .
+In fact ( 40 ) is the most general scalar quadratic function homogeneous in , and the surface represented meets the arbitrary line ) in the points determined by the roots of the quadratic . . . . .
+( 42 ) .
+like manner ( 41 ) is the most general scalar function linear in two quaternionls and combinatorial with respect to both , for by ( 38 ) . . . . . . . . .
+( 43 ) whatever quaternion may be .
+It is therefore immaterial if we replace and in ( 41 ) by any other points on their line , provided the two points are not coincident , and the equation therefore imposes a single linear restriction on the line , and represents a linear complex .
+In terms of vectors , putting , and using the expression in the ' Elements ' ( Art .
+364 , XII .
+) for a linear quaternion function , we have ; ( 44 ) ; where the equations of the quadric and linear complex assume well-known forms . . .
+( 45 ) .
+11 .
+The equation of the polar plane of a point with respect to the quadric nlpare ( is . . . . .
+( 46 ) , and is the pole of this plane with respect to the unit sphere .
+Thus is the symbol of the polar plane of the point With respect to the the pole of the . . . . .
+( 47 ) , and the reciprocal of the quadric has for its equation . . . . .
+( 48 ) .
+The lines of the complex through a given point lie in the plane . . . . .
+( 49 ) , while the point of concourse of the lines in the plane is ( 50 ) , and ( 51 ) is the equation of the reciprocal of the complex .
+12 .
+The nature of the united points of the function , is easily ascertained .
+Since the function is the negative of its conjugate , its symbolic quartic ( 22 ) must be of the form , or ( 52 ) .
+And if ( 53 ) , it follows in the first place ( 43 ) that the united points all lie on the unit sphere , and in the second by ( 27 ) that PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE GEOMETRY .
+233 . . . . .
+( 54 ) .
+Hence in this order is a quadrilateral situated on the unit sphere .
+These results may be verified the vector form ( 44 ) .
+Actually solving we see that , and therefore , , so that operating by , the result is the quartic in . . . . .
+( 55 ) ; and for a real function two roots of this quartic are always real and two are inary .
+Two of the united points are consequently real ( Art .
+7 ) and two are imaginary .
+SECTION II .
+THE CLASSIFICATION OF LINEAR QUATERNION FUNCTIONS .
+Art .
+Page 13 .
+Table of types and auxiliary formulae . . .
+233 14 .
+Standard forms . . . . .
+234 .
+Solution of the equation for functions of the first class 235 16 .
+Case of functions of the second class . . . . .
+) 17 .
+Functions of the third class . . . . .
+238 18 .
+metions of the fourth class . . . . . . . . . . .
+238 19 .
+Self-conjugate functions . . . . .
+239 20 .
+The classes of self-coniugate functions . . . . . .
+239 21 .
+If a function converts a tetrahedron into its reciprocal , it is jngave 240 2 Geometrical meaning of adding a scalar to a function . . . . .
+241 13 .
+Linear quaternion functions may be classified according to the nature of the united points :\mdash ; I. The first class consists of those functions which have no line or plane locus of united points , and it is divisible into sub-class , the four united points distinct .
+, two united points coincident .
+I3 , three united points coincident .
+, all four coincident .
+, two distinct pairs of coincident united points .
+VOL. CCI.\mdash ; A. 2 II .
+The second class consists of functions a line locus of united points , with the following sub-classes:\mdash ; , the two remaining united points distinct .
+, the two remaining united points coincident .
+, one of the remaining united points on the line locus .
+, the two remaining points coincident and on the lin locus .
+III .
+The third class consists of functions having a plane locus of united points , and there are two sub-classes:\mdash ; , the remaining united point is not in the plane .
+, the remaimng united point is in the plane .
+IV .
+The functions of the fourth class have two line loci of united points .
+It is to be noticed that any peculiarity in a function is exactly reproduced in its conjugate .
+This will appear clearly from the following discussion , but the proposition is virtually proved in the concluding remarks of Art .
+6 .
+To assist in the examination of the different cases , it is convenient to repeat HAMILTON'S relations ( 20 ) and ( 21 ) , and in addition to obtain the symbolic quartics for the function , and .
+These quartics are deducible from the relations ( 20 ) or ( 21 ) without much trouble .
+The group of formulae is thus : ; ; . . . . .
+( 56 ) .
+14 .
+For the sake of vity in discussin the various classes , one root of the scalar quartic is supposed to be reduced to zero by replacing the function by one of the four functions of Art .
+6 ; and whenever there is a multiple root , it is the multiple root which is reduced to zero .
+I. One , " " is educed to zero by the operation of the function .
+Remembering that the conjugate also reduces a quaternion to zero , it follows if . . . . .
+( 57 ) that the locus of the transforlned points , , is a fixed plane , Sp .
+( 58 ) , PROFESSOR C. J. JOLy ON QUATERNIONS AND PROJECTIyE GEOMETJff .
+235 because .
+Every plane through the point is reduced to a line ; every line through the point becomes a point ; the scalar is zero ; the function reduces every point to and destl.oys every point in the fixed plane ( 58 ) .
+The quadrinomial ( 3 ) must reduce to a trinomial , for cannot destroy a quaternion unless there is a relation between , or else between ) .
+The type of functions of this kind is .
+II .
+The junction destroys two distinct points .
+If ; ( 60 ) the line is destroyed .
+The locus of the transformed points is the line of intersection of the planes . . . . .
+( 61 ) .
+Every plane and every line through the line is reduced to a point .
+The function is reducible to the binomial type . . . .
+( 62 ) , when and are quite arbitrary , and it is evident ( 15 ) that the function vanishes identically .
+III .
+The function destroys three non-collinear point .
+Q. . . . .
+( 63 ) , and every point is reduced to a fixed point , the intersection of the planes , or . . . .
+( 64 ) .
+Hence the function is a monomial , . . .
+( 65 ) , and the function vanishes identically .
+IV .
+The destroy two and alters the ghts of others , and , in the same ratio , but these points unc The type is . . . . .
+( 66 ) .
+15 .
+In order to illustrate the nature of the solution of the equation . . .
+( 67 ) in the different cases , we employ relations ( 56 ) , which give the solution on substitution .
+latent zero .
+In this case ; ? . . . . .
+( 68 ) , because educes every qunternion to the fixed quaternion multiplied by a scalar Here is provided the condition is satisfied ; the point lies in the fixed plane ( 58 ) ; and may be any point on the line joining this poin to or in other words , this line is the 6olution of the equation ( 67 ) .
+If the condition is not satisfied , the scalar must be infinite , so that in the limit may have a component at the point , which escapes destruction by .
+The solution is simply the point affected with an infinite weight .
+When , it appears from HAMILTON'S relations that satisfies the depressed equation , . . . . .
+( 69 ) , and the etation is , reduces an arbitrary quaternion to destroys .
+Two roots are zero .
+Here ; ; ( 70 ) , and must be allowed the full extent of arbitrariness consistent with the conditions .
+that the relations ( 56 ) now giye . . . . .
+( 71 ) it appears that the double operation of destroys the result of operating on any quaternion by , and that destroys .
+Hence , , where . . . . .
+( 72 ) .
+The scalar is determinate for . . . . .
+( 73 ) , but is al.bitrary , and the solution is any point on the line , . . . . . .
+( 74 ) .
+As before , if is not zero , the solution is multiplied by an infinite scalar .
+The character of the function has now completely changed .
+It now destroys a line , and because , or , and also , the symbolic equations of and are degraded , and are . . . . .
+( 75 ) . .
+The solution in this case is ; ( 76 ) PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJLCTIVI GEOMETRy .
+237 The symbolic equations now give ( 77 ) .
+and where .
+The thus takes the more explicit form , ; ; , and alone is arbitrary .
+If the last condition is not fulfilled , is infinite . .
+Again , where , the solution is any point on the line , variable , ( 80 ) .
+symbolical equations satisfied by and are now . . . . .
+( 81 ) .
+Although the forms of the equations for and are identical , the nature of these functions are widely different ; reduces an arbitrary point to line which is destroyed by a there application of the same function ; ' reduces an arbitrary point at once to the point , which is destroyed by a successive operation .
+The type of a function of this class is . . .
+( 82 ) , in which and are arbitrary quaternions .
+The function , . . .
+( S3 ) belongs to the sub-class I5 .
+16 . .
+A function of the second class destroys two points , and , and in virtue of the distributive property it destroys the line Since the locus of is a line ( 61 ) , the function vanishes identically ( 15 ) , and likewise the invariant as well as HAMILTON'S relations become , ; ; ( 84 ) and the symbolic equations for and degrade into ; . . . .
+( 85 ) .
+The function destroys the lin , which is consequently the locus of For the solution of the equation , the relations ( 84 ) give 238 SSOlt C. J. JOLY ON QUATERNIONS AND OJECTIVE GEOMETRY .
+; . . . . .
+( 86 ) ; and ce may be point on the line , the locus of is plane Hp , If is not satisfied , the solution is an arbitrary point on the line cted with an infinite weight .
+If , the solution is ; ( 87 ) , and ( 88 ) , whence if ( 89 ) . .
+If further , , the solution is ( 90 ) ; and the general function of this type is . . . .
+( 91 ) , and the function of is of this sub-class .
+17 . .
+The third class is that in which destroys three points , which are not situated on a common lin Here ; ; ( 92 ) , and the solution is where . . . . .
+( 93 ) . .
+rf where ( 94 ) .
+The type of the function is . . . . . . . .
+( 95 ) , to which the function of belongs .
+18 .
+IV .
+The fourth class is that in which two lines and are destroyed .
+( 96 ) and the symbolic equations are ; ( 97 ) .
+The function ( abed ) ( abcq ) ( 98 ) is of this type .
+destroys the line and reduces an arbitrary point to ; destroys and reduces an point to PROFESSOR C. J. JOLY ON RNIONS AN1 ) GEOMETRy .
+239 19 .
+As the theory of the self-conjugate linear vector function diffel .
+S in various details from that of the self-conjugate quaternion function , it is necessary to devote a few remarks to the latter .
+The four united points of a self-conjugate fullction form a tetrahedron selfconjugate to the unit sphere , for in this case the two of Art .
+8 coincide .
+If two united points coincide , they must coincide with a point the } , and the scalar quartic has a pair of equal roots .
+But in the case of real self-conjugate vector function when two latent roots are equal , the function has an infinite number of axes in a certain plane , and not a single axis from the coalescence of a pair ; and the reason is simply that a real vector cannot be perpendicular to itself , while each axis of a njugate vector function must be perpendicular to two others .
+For a quaternion function , on the other hand , a real point may be its own conjugate with ] respect to the unit sphere , and there may be in this case coincidence of united points without a locus of united points and consequent degradation of the symbolic quartic .
+Again , the roots and axes of a self-conjugate vector function must be real , because two conjugate imaginary vectors , , cannot be at right angles to one another , since the condition is , while is essentially negative .
+But two united points of a real self-conjugate quaternion function may be conjugate imaginaries , the condition .
+, .
+( 99 ) , merely showing that the real points and are situated one inside and one outside the unit sphere .
+20 .
+On account of the importance of the self-conjugate function , it may not be superfluous to illustrate cases of coalesced united points .
+Writing for the general self-conjugate function , ( 100 ) , the latent quartic is . . . . .
+( 101 ) .
+The quadric surface has its centre at the extremity of the vector or say at the point One root is zero if . . . . . . . .
+( 102 ) , and the quadric is a cone with its vertex at the point .
+A second J is zero if , or if ( 103 ) ; that is , if the vertex is on the unit sphere .
+240 SSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE GEOMETRy .
+A third root is zero if , or if ( 104 ) , requires to be parallel to a generator of the cone , and perpendicular to the vector to its vertex .
+This generator touches the sphere .
+condition that root may vanish reduces to . . . . .
+( 105 ) , and requires for a real function , and in this case the cone breaks into a pair of planes , and the symbolic quartic degrades .
+Admitting that ( for an imaginary function ) , it appears that the generator is common to the quadric and the sphere when four roots are zero .
+preceding analysis blishes the fact that a real self-conjugate function may belong to the classes , but not to A real self-conjugate function cannot belong to if its two united points are , for certain of the conditions of self-conjugation of the tetrahedron in the limit require , or must be a generator of the sphere ; and are not changed when we assume and to be conjugate imaginaries .
+We conclude therefore that no self-conjugate function belongs to Since self-conjugate functions of the type exist , fortiori they will exist for the less restricted types Self-conjugate functions may belong to the types .
+and to type IV , the lines being now conjugate with respect to the sphere ( compare the following Article ) .
+21 .
+If converts tetrahedro to its reciprocal , it self-conjugate .
+Here if ( 106 ) , the function producing the transformation is ( abed ) [ bcd ] [ abd ] ( 107 ) , which is manifestly self-conjugate .
+This includes as a particular case the deduction from Art .
+8 .
+The following theorems may be stated here If a function has a scalar for a principal solution , its conjugate has three vector principal solutions .
+If a function has a line or a plane locus of united points , it has a vector or a linear system of vector principal solutions .
+The nature of the function , which is the negatiye of its conjugate , has been sufficiently considered in Art .
+12 .
+PROFESSOR C. J. JOLY ON AND PfiOJECTIVE GEOMETRY .
+241 22 .
+It may be as well to show the geometrical meanin of changing from a function to another in Art .
+14 .
+Writing . . . . .
+( 108 ) ; it is obvious that is some point on the line .
+To determine the point , let and be the points ' and with unit weights , then ( 109 ) ; and we have the ratio of segments ( 110 ) , or its ratio is directly proportional to the perpendicular from the point on the plane , which is projected to infinity by the transformation .
+Hence it is easy to form a geometrical conception of the nature of a transformation by reducing it to some simpler type , as in Art .
+14 ; the point for instance may always supposed to lie in a fixed , while in the case of functions of the classes II and III it may be supposed to lie on a fixed line or to be a fixed point .
+SECTION III .
+SCA INVARIANTS .
+Art .
+23 .
+Tho extent of the . . . . .
+211 24 .
+The sum of tho lntcnt roots is . . . . . .
+24 25 .
+The sum of fractional powers of the roots is zero . . . . .
+26 .
+Tctrahcdron inscribed to one qu and unscril ) to nothcr 2 27 .
+The sum of the products of the . . . . . . . . .
+28 .
+The snm of the roots and the ) their reciprocnls . . . .
+) AD 29 .
+-torm triants . . . . . . . . . .
+) 23 .
+From the results of Arts .
+5 and 6 , it appears that ( abed ) is identically true , no matter what the value of may be or what quaterllionS , and may represent .
+In this sense the four scalars and arc invariants , and every relation connecting them some peculiarity in the geometrical tral sformation produced by * In , if , the ratio is if is the of the voL . .
+21 SSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE GEOMETRY .
+there is a wider sense in which these four scalars are invariants .
+If and are the fourth invariants any two functions and , the relation , ( bcd ) ( 112 ) is evidently true or may be verified at once by repeated application of ( 16 ) .
+Thus any relation ying a ) peculiarity of the function and depending on its four invariants , lies also a corresponding peculiarity in the mutual relations of the functions and , that is , of any two functions and decomposible in the manner indicated .
+In particular , if in ( 112 ) is replaced by , it is evident that the invariants of are identical with those of .
+And , moreover , the functions may be replaced by their conjugates without altering the invariants .
+We now propose to examine the meaning of a few invariants , bearing in mind the remarks of this article , and remembering also that the invariants are more general than those of quadrics , for the function is not supposed to be self-conjugate .
+24 .
+For brevity , replacing by , we have ( abed ) . . . .
+( 113 ) .
+If vanishes , it is possible to determine an finite number of so that the corners of derived tetrahedron lie on the of the original .
+For taking any three points , and their deriveds , three planes are found , ( ab'cd ) , ( abc 'd ) . . . . .
+( 114 ) , whose common point enjoys the property of having its derived in the plane of , and if , and only if , Conversely , if this is true for any tetrahedron and its derived , the invariant vanishes , the propel .
+tie is true for infinite number of tetrahedra .
+ring the words and , we have the corresponding of the yanishing of More ally , when vanishes , an infinite number of tetrahedra exists , so that the pairs derived from them by the operations of the functions and are related in the manner described .
+Analogous extensions will be understood in the sequel .
+21 Again , suppose that the sum of the squares of the roots of is zero , or that . . . . .
+( 115 ) .
+In this case , tetrahedra may be found related to their correspondents in such a manner that the deriveds of these correspondents have their corners on the faces of the originals .
+PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE ETRY .
+243 Of greater interest , however , is the case in which the sum of the squal.e roots of the roots of is zero , or when . . . . .
+( 116 ) .
+Here the invariant of one of the square roots ) the function ( compal'e Art .
+36 ) vanishes , so that by the operation of this square root , it is possible , from a suitably selected tetrahedron ( one of an infinite number ) , to derive a second , and again a third , so that the second has its corners on the faces of the first , while its faces contain the ners of the third .
+But directly by operation of the third tetrahedron is transformed from the first , and these are so related that it is possible to inscribe to the first a tetrahedron circumscribed to the third .
+Similarly , we can interpret invariants arising from relations such as . . . . . .
+( 117 ) , where is the ratio of two integers , and where , and are the htent roots of 26 .
+passing on to invariants of a rather different type , we shall consider the relation connecting two quadric surfaces when an infinite numbel of tetrahedra can be inscribed to one and circumscribed to another .
+Let the equations of the quadrics be . . . . .
+let the be inscribed to the first , and let its faces touch the second at the points ; let the function derive the tetrad of points of contact from the corresponding vertices .
+Then there four equations of inscription to the first quadric . . .
+( 119 ) ; twelve equations of conjugation of the points , \amp ; c. , to the second quadric or . . .
+( 120 ) ; and four equations of contact such as The equations of conjugation require the function to be self-conjugate , so that . . . . .
+( 121 ) , and the conditions of contact may therefore be replaced by four equations such as . . . . . . .
+An infinite lumber of tetrahedra may consequently be respectively inscribed and circumscribed to drics , the condition is satisfied when the of vanishes ; and if this is likewise possible for the given , we must F. , , or , or . . .
+( 124 ) .
+sum of oots of the latent roots of function F must consequently ] ) , the of this function is zero .
+It been ) incidentally in this article if a tetrahedron circumscribed to is self-conjugate to , that the invariant of the function is zero ; and if the edron is self-conjugate to and inscribed to the same invariant of the function is zero .
+Here It must be carefully obsel.ved that in dealing with quadrics extent of the invariance is limited .
+If and are self-conjugate , the functions and must be self-conjugate before theorems can be extended from the quadrics determined by the simpler to those determined by the more complex functions .
+27 .
+The invariant / vanishes if ( 125 ) .
+To save vel.biage in the interpretation , the edges and may be called the edges of a tetrahedron and its derived .
+If each edge of intersects the opposite edge of , the invariant will manifestly vanish .
+for term will be To display the nature of the conditions requisite for determining a tetrahedron possessing this property , when , let and be assumed fixed , and then five of the terms may be written in forms . . . .
+( 126 ) , where is one of five linear quaternion functions .
+Three equations give . . . . . . .
+( 127 ) , and substitution in the fourth and fifth require the point to be on the curve of the quartic surfaces . . .
+( 128 ) , *This condition to nswer in every the condition ( compare of Quaternions , ' Ncw Ed. , vol. ii .
+, p. 377 ) triangle be scribed to o1le conic and cumscribed to notbcr however , Three Dimonsions , Note .
+PROFESSOR O. J. JOLY ON RNIONS AND PROJECTIVE GLOMETRy .
+245 which is ntary to the sextic curve ( compare Art .
+64 ) , . . . . .
+( 129 ) .
+Selecting any poin on this complementary curve of the tenth order , is determined by ( 127 ) , and the sixth condition must be satisfied .
+Hence it appears that any two vertics may be assumed at random , and a plane locus for the third .
+Ten points lie in this plane , and ten tetrahedra satisfy the conditions .
+Generally , also , if the sum of the products of the square roots of the latent roots of the function vanishes , an infinite number of tetrahedra may be found related to their correspondents , so that corresponding edges , are intersected by opposite edges of intermediate tetrahedra .
+( Compare Art .
+25 .
+) 28 .
+The which the two invariants and vanish simultaneously is of considerable importance in the theory of the linear function .
+These conditions are always satisfied for the functions ; and also for functions of a more general type ; in fact , for functions whose squares satisfy a depressed equation , or ( 130 ) .
+It appears from Art .
+24 that two systems of tetrahedra exist , one set having correspondents inscribed to them , the other set being inscribed to their correspondents .
+We shall prove that one syste , of exists which are at inscribed and scribed to their correspondents .
+Let and be the united points of for the roots , and and for the roots .
+Take any lin whatever variable ) . . . .
+( 131 ) , intersecting the lines and The function converts this line into the line . . . . .
+( 132 ) , which intersects the connectors of the united points in the harmonic conjugates of the points of intersection of the original line .
+Repeating the operation , the line is restored to In other words , when and vanish , lines cut the connectors of the united povnts ; or it transforms a certain congenency oflines into itself Take any tetrahedron having opposite edges , and , on two conjugate lines of this congenency ; tfle corresponding tetrahedron has the two edges and respectively on those two lines , and either tetrahedron may be said to be at one and the same time inscribed and circumscribed to the other .
+, C. J. JOLY ON QTJATERNIONS AND PROJECTIyE GEOMETRY .
+If the line intersects the connectors in the points and and if intersects them in ( compare ( 131 ) , ( 132 ) ) , we may write ; ; ; ; ; and the nharmonics of the ranges and a'b'cd are a pair of quadrics ( 118 ) a quadrilateral on one determines a self-conjugate tetrahedron with respect to the other if and of the function vanish .
+Moreover , in this case the quadrics intersect in a common quadrilateral .
+29 .
+It may be worth while drawing attention to a rule for obtaining in a convenient form certain scalar invariants of linear functions .
+These invariants are the coefficients of powers and products of , \amp ; c. , in the latent quartic of the function and the rule is to distinguish by accents or suffixes the symbols in just as if this expression had been differentiated .
+For instance , there is the twelve-term invariant ( abed ) where stands for , and for It would appear that when a twelve-term invariant vanishes , every term will vanish provided the tetrahedron is suitably inscribed to a definite curve .
+Suppose eleven terms vanish .
+Let three be solved for , and substitution in the remaining eight leaves eight equations in and .
+From three of these find and five are left in and ; and on elimination of , two equations in remain , which represent a definite curve .
+From symmetry the remaining three vertices trace out a curve or curves .
+These curves are covariant with the functions .
+PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE IETRY .
+247 SECTION IV .
+THE LATIONS OF A PAIR OF QUADBICS , , WHICIJ PEND ON THE OF FUNCTION Art .
+Page 30 .
+The self-coniugate tetrahedron . . . . .
+247 31 .
+Coincidence of two of its vertices . . . . .
+247 32 .
+Coincidence of three vertices . . . . . .
+248 33 .
+The tetrahedron becomes a point . . . . .
+248 34 .
+The function has a locus of united points . . . . .
+249 35 .
+Scheme of the nature of section of the quadrics according to the type of the function . . . . .
+250 30 .
+We shall briefly consider relations of a pair of quadrics which depend on the peculiarities of the function , where . . . . .
+( 133 ) are the equations of the two quadrics .
+If the polar plane of the point is the same with respect to the two quadrics , . . . . .
+( 134 ) , where is a scalar , because ( Art .
+11 ) the symbols the polar planes are and .
+Here is a latent root of the function and is a united point .
+If l ) is a second united point answering to the latent root , we have , on account of the self-conjugate character of the functions and . . . . .
+( 135 ) , provided the latent roots are distinct .
+Thus the polar plane of contains the points , and ; and the tetrahedron is self-conjugate to both quadrics .
+The function belongs to the general type , in which all the united points are distinct ( Art .
+13 ) .
+Sl .
+Let two united points and approach coincidence .
+The relation ( 135 ) remains true up to the limit , and ultimately . . . .
+( 136 ) ; and the coalesced point is situated on the curve of intersection of the surface .
+By ( 134 ) the symbols of the tangent planes to the two surfaces are identical , and the two surfaces touch .
+If then belongs to the type , the surfaces touch , and conversely ; and if the quadrics touch in two distinct points the type of the function is I5 , and the intersection is a line and a cubic .
+Let and be the remaining united points .
+By ( 135 ) the line lies in the common tangent plane ; so in order to determine the generators of the two quadrics in the , it is only necessary to determine the points in which the quadrics meet the line .
+For the first and second quadrics , the equations determining the are respectively ( 134 ) ; . . .
+( 137 ) .
+The quadrics consequently have distinct generators unless , and unless the oints c and are distinct .
+For quadrics having a pair of common co-planar generators , is of the type , and conversely .
+32 .
+In the next place , let three roots be equal , so that is the union of three united points of .
+The poin of Art .
+15 ( 78 ) is now in the common , because it has been derived by the operation of from another point In fact we have . . . .
+( 138 ) ; and the first of these it is obvious that , while the second may be written in the form ( 139 ) .
+This equation shows that the polar plane of the point with respec to the first quadric is identical with the polar plane of with respect to the second ; and because lies in the tangent , in the limit where becomes infinitesimally small , the two points become identical to the first order of , and the common polar plane becomes a consecutive tangent plane to both quadrics .
+The quadrics have , therefore , stationary contact , and their function is of the class The generators in the tangent plane are now found by expressing that is on one of the quadrics ; the equations may be written in the form ( 140 ) , where the equation for the first quadric has been reduced by of ( 138 ) , in order that it may be compared with that for the second quadric .
+The generators are common if , and only if , , and the function is then of the type 33 .
+When the four united points coincide , the point as well as lies in the common tangeIlt plane , having been derived , as was in the last article , from a third point From the three equations PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE GEOMETRY .
+249 ; ; ( 141 ) , we see that , in to the conditions that the points should lie in the tangent plane , we have ; , and ( 142 ) , as appears from operating on the third by and usin this result in operating on the second by , and finally operating on the third by .
+The line is consequently a generator of both quadrics , and the function belongs the class The remaining generators , determined by the point in which meets the surfaces again , are deducible from the equations ; ( 143 ) .
+If these remaining generators are common to both quadrics we must have , and then they coincide of necessity with the other generator , and the quadrics become a pair of cones touching along a generator .
+84 .
+Suppose the function to have a line locus of united points , so ; . . . . .
+( 144 ) ; it immediately follows that one quadric meets the line in two points common to the other , and the quadrics touch at these two points .
+Substituting in the equations of the quadrics . . . . .
+( 145 ) , ' the equations become , . . . .
+( 146 ) , and for a constant value of these represent the sections by an arbitrary plane through the line .
+These sections ars identical if . . . . .
+( 147 ) , and as this is a quadratic in , the quadrics have two plane sections common .
+The function is of the type II .
+The case of coincidence of the points has occul.red in Art .
+31 , one of the conics breaking up ( type ) .
+If , while is llot situated on , the quadrics have two coincident plane sections , or ring-contact .
+The type of the fullction is If , but not coincident with , the function is of the class IV .
+, and ] quadrics intersect in common points on the line .
+Let meet the quadrics in and in , then it is very easy to see that is a quadrilateral common to both surfaces .
+VOL. CCI . .
+2 250 C. J. JOLY ON QUATERNIONS AND PROJECTIyE GEOMETRy .
+When coincides with a point on the line , let be the point for which ( Art .
+15 ) . . . .
+( 148 ) , then , and , and the line touches the two quadrics at .
+The conics in the common plane sections touch ( type ) .
+If , further , coincides with the point ( type ) , the point is derived by the operation of .
+from some other point ( Art .
+32 ) , and therefore ; and ( 149 ) .
+Hence it appears that the line meets the two quadrics in the same two points , and the lines from to these points are common generators .
+The intersection of the quadrics consists , therefore , of a pair of lines and a conic passing through their common point ( type ) .
+Finally , it remains to notice the case of a plane locus of united points with the fourth poin in the plane .
+It may be proved that in this case the coincident plane sections consist of a pair oflines along which the quadrics touch .
+35 .
+Summing up , the intersection of two quadrics according to the types of the function , is , a twisted quartic with two apparent double points ; , a twisted quartic with three apparent double points ; , a twisted quartic with two apparent and one real double point ; a right line and a cubic touching it ; , a right line and a cubic ; , two conics ; , a pair oflines and a conic ; , two conics in contact ; , a pair oflines and a conic through their intersection ; , the surfaces touch along a conic ; , the surfaces touch along two generators ; IV , the intersection is a quadrilateral .
+SECTION V. THE SQUARE ROOT 0F A LINEAR QUATERNION FUNCTION .
+Art .
+Page 36 .
+The sixteen Qquare roots of the general function . . . . .
+250 37 .
+Case of a function with loci of united points . . . . . .
+251 38 .
+useful formulae . . . . .
+252 39 A square root of the coniugate is the conjugate of a squarc root . .
+, . .
+252 36 .
+When the same effect produced by the twice-repeated operation of one linear quaternion function and by the single operation of another , the former may be said to be a square root of the latter .
+PROFESSOR C. J. JOLY ON NIONS AND CTIVE GIETItY .
+251 TAIT first extracted the square root of a linear vector function , and pointed out the great utility of the conception .
+We now proceed to examine some of the ) ties of a square root of a quaternion function , and to illustrate their arlng on certain geometrical investigations .
+united points of root are also united points of fmfction .
+If , then . . . .
+( 150 ) .
+The converse does not hold , for it may happen that loci of united points exist for the primitive and not for the square root .
+For example , if ; then . . . .
+( 151 ) , and though every point on the line is a united point for the primitive , this is not generally true for its square roots .
+( Compare Art .
+13 .
+) When there is no locus of united points , the square roots have the same foul united points as the primitive , and their latent roots are sets of the square roots . . . . . . .
+( 152 ) of the latent roots of the primitive .
+Thus in the general case a function has sixteen square roots .
+37 .
+When the primitive has a line locus of united points , on the line be ssumed as united points of the root .
+By the last article it may be seen that the square root must united points on the .
+Assume these to be , then ; ( 153 ) , and the square root satisfies the condition that its twice repeated opel.ation is equivalent to the operation of .
+If the signs are alike and and distinct , the square root has a locus of united points ; otherwise it has not .
+If root has coatesced points , so hos the primitive .
+If ; ; then ; , and therefore the repeated operation of is required to destroy and the primitive has a coalesced united point .
+The root of function plane locns ( united point , at least line locu , of united points .
+The only escape is the assumption that the square root has a united point coalesced from three points , and this has just been shown to involve a coalesced for the primitive , contrary to hypothesis .
+When the primitive has coalesced points but no loci of united points , tloe of roots is limited .
+This follows from ( 154 ) .
+252 PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE GEOMETRY .
+38 .
+Except ?
+the which the ) has of united points , the square roots are ) one iother the imitive , for they possess a common system of united points .
+* Moreover , for a definite square root , . . . .
+( 155 ) , with liberty to change the order of the factors .
+This follows most easily by operating on the united points .
+In general also , for any two functions and , and a definite square root , . . . .
+( 156 ) , because .
+( 157 ) ; and in particular a relation which is occasionally useful is . . . . . .
+( 158 ) .
+39 .
+It is evident from the foregoin that the square roots of a function and of its conjugate are conjugate when they have the same latent roots .
+Thus we may write . . . . . . . .
+( 159 ) , to signify that the conjugate of a square root is the corresponding square root of the conjugate function .
+In particular , taking the conjugate of ( 158 ) , . . . .
+( 160 ) .
+SECTION VI .
+THE OF A FUNCTION IN RELATION TO THE GEOMETRY OF QUADRICS .
+Art .
+Page 40 .
+The quaternion equation of generalized confocals , 252 41 .
+The general case of quadrics inscribed to a common developable . . . . .
+253 42 .
+The quaternion tion q of the intersection of two ladrics .
+254 40 .
+The transformation ( 161 ) converts the quadric into the unit sphere being a self-conjugate function .
+Compare ' Elements of Quaternions , ' New Ed. , vol. Appendix , PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVh IETRY .
+253 This suggests a quaternion equation such as ( 162 ) , where is some constant quaternion , as equivalent to the equation of a system of generalized confocals . . . . . . . .
+( 163 ) .
+On substitution in the scalar from the quaternion equation the result is Se . . . . .
+( 164 ) , and and disappear , provided is chosen to be one of the eight points satisfying . . . . . . .
+( 165 ) .
+Thus is one of the intersections of three known quadrics .
+It is not necessary to dwell on HAMILTON'S theory of the umbilicar generatrices , as the subject will be resumed in an extended form.ae Accordingly it is sufficient to mark that the equation of such a generator is ( 166 ) , where is variable ; and the form of this equation shows that when varies the generator sweeps out the developable of which the cuspidal edge is the curve . . . . . . . .
+( 167 ) .
+41 .
+More generally , starting from any two quadrics , . . . . .
+; the equation of the system of quadrics inscribed to their common ibing deyelopable ( compare Art .
+I 1 ) is . . . . .
+( 169 ) .
+This by the principles of Art .
+38 may be replaced by . . . . .
+( 170 ) ; and on comparison with and ( 162 ) it is manifestly equivalent to the quaternion equation . . .
+( 171 ) ; or , by an application of ( 158 ) , to . . . .
+( 172 ) , *Compare Arts .
+41 and 71 .
+where .
+By ( 165 ) it is seen that the quaternion of this formula satisfies the three equations ( 173 ) , and is therefore one of the intersections of three quadrics .
+42 .
+In particular the equation of the curve of intersection of the original quadrics ( 168 ) is , where .
+( 174 ) , as ma be proved by direct transformation from the general result ( 172 ) , or perhaps more shortly by assuming the form and determining , or by verification .
+remembering ( 158 ) .
+Hence the equation . . . . .
+( 175 ) determines the eight points of intersection of the three quadrics SECTION THE FAMILY 0F AND THE1R DEyELOPABLES .
+Art .
+Pags 43 .
+Some members of the family . . . . . .
+' .
+254 44 .
+The tangent line and the developable . . . . .
+254 45 .
+The osculating plane . . . . .
+255 46 .
+The intsrsections of the curve with the osculating plane .
+256 43 .
+Instead of writing down and discussing the equations of the circumscribing developable and of its cuspidal edge of the quadrics ( 169 ) , which are in fact of the same form as ( 166 ) and ( 167 ) , except that is not self-conjugate , we shall devote a few remarks to the family of curves . . . . .
+( 176 ) and their developables , being a scalar , a constant quaternion , a scalar variable , and an arbitrary linear quaternion function .
+This family includes the right line , the conic , the twisted cubic , the quartic intersection of two quadrics , the quartic which is not the intersection of two quadrics , and the cuspidal edge of the developable circumscribed to two quadrics ; the corresponding values of , 2 , or 3 , 4 and 44 .
+The equation of a tangent to the curve ( 176 ) is . . . . .
+( 177 ) , PROFESSOR C. J. JOLY ON QUATERNIONS AND OMETRY .
+255 when the scalar parameter alone varies .
+When and both vary the equation is that of the developable of the tangent lines .
+If for suitable weights of the united points , we write . . . . . . .
+( 178 ) , the equation of the developable becomes ( 179 ) .
+When is positive , the result of putting is . .
+( 180 ) ; and this represents a certain number of right lines in the united plane , the number being determined by the nature of , being as we know 4 when the developable is circumscribed to a pair of quadrics , or when The remaining part of the intersection in the united is obtained by putting equal to , and its equation is .
+( 181 ) ; or more simply , where .
+( 182 ) .
+The plane curye is likewise included in the famiJy ( 176 ) , and for is a quartic ( 174 ) , or rather a conic counted twice , ( 183 ) , as we see from ( 181 ) on putting In case is negative it is necessary first to multiply ( 179 ) by the product before putting equal to a latent root .
+Then , on making we find only the point , which shows there are no right lines in the plane and which indicates multiplicity of the curve at the united points .
+45 .
+Just as the equation of the tangent line was obtained in the last article from that of the curve , the equation of the osculating plane may be written in form . . . .
+( 184 ) ; where is supposed to remain constant , while and vary together .
+It is easy to verify that this plane contains two consecutive tangents to the curve .
+The reciprocal of the plane is the point ( compare Art .
+1 . . . .
+( 185 ) ; and consequently the cuspidal edges of the reciprocals of curves of the family ( 176 ) belong to a similar family obtained by altering into and into its conjugate .
+Also the sum of the exponents for a curve and the cuspidal edge of its reciprocal is equal to 2 .
+The developable formed by tangents to the new cuspidal edge is . . . . .
+( 186 ) ; and it may be worth while to verify directly that lines of this reciprocal developable are reciprocal to the corresponding lines of ( 179 ) .
+Also lines in a united plane reciprocate into lines through a united point of the conjugate function ; so that we can assert that the number of lines of the developable of a curve whose exponent which lie in a united rJlane is the number of lines of the developable of a curve whose exponent is which pass through a united point .
+46 .
+The points ( s ) in which an osculating plane ( 184 ) at ( t ) cuts the curve again are found by combining this equation with and putting ( 187 ) .
+In , when we use the expression ( 178 ) for and when we observe ( 185 ) that . . . .
+( 188 ) , equation ( 187 ) becomes The points at which the plane meets the curve four times are determined by SECTION VIII .
+THE DISSECTION 0F A LINEAR FTJNCTION .
+Art .
+Page 47 .
+when . . . . . . . . . . .
+256 48 , Condition for the reduction when . . . .
+257 49 .
+Reduction of to GR when . . . . .
+2'o 8 50 .
+of an arbitrary function . . . . . .
+258 51 .
+Reduction of a function to a product of self-conjugate functions 258 47 .
+In addition to the decomposition of a function into its self-conjugate and non-conjugate parts by addition and subtraction , there is another very useful resolution by multiplication and division analogous to TAIT'S resolution of a linear PROFESSOR C. J. JOLY ON NIONS AND PROJECTIyE .
+257 vector function into a function , a pure strain following or followed by a rotation .
+Multiply any function into its conjugate , and . . . . .
+( 191 ) , where is the self-conjugate function whose double operation is equivalent to the operation of the self-conjugate function ( Art .
+S6 ) .
+Introducing a new linear function and its conjugate defined by the relations or ( 192 ) , it appears that this function is the inverse of its conjugate , for ( 193 ) is a consequence of the equations of definition .
+The geometrical property of this new function is , that points to the umit sphere conjugate For if , then SgpcJq ( 194 ) .
+In particular the unit sphere is converted into itself by the ansformation .
+This transformation is , points and planes being transformed by the same function ( Art .
+4 ) .
+48 .
+On counting the constants , it appears that an arbitrary function cannot be reduced to the product of a seli-conjugate function and a conical rotator .
+( 195 ) , there being sixteen constants in , ten in , and three in R. In order to determine the conditions , observe that by the last article if , and ( 196 ) .
+Now I say that if a remains the ) of , the a conical : For then ( 197 ) , and therefore or remainls a vector whatever vector may be ; and , lnoreover , the angle between any two vectors is unaltered by the transformation .
+* Thus the condition required is simply , where ( 198 ) ; and when the reduction is possible it is gsnerally determinate .
+Compare the Appendix to the New Edition of fIAlfILTOh'S ' Elements , ' .
+ii .
+, p. 366 .
+VOL. CCI.\mdash ; A. 2 49 .
+A which \ldquo ; of its conjugate is in , genered reducible in infinite variety of ?
+to th ) product of a self-conjugate function a Because in the notation of Art .
+47 , the conditions ( 198 ) that should be reducible are , where . . . . .
+( 199 ) , for simplicity writing ( 1 ) . . . . .
+( 200 ) ; it is evident from the last equation that , Gb . . . .
+( 201 ) ; so and are united points of , and conjugate with respect to the unit sphere .
+Take any point in the polar plane of , and any point in the polar line of ; and assume . . . .
+( 202 ) ; then the function determined by the four relations ( 201 ) and ( 202 ) is self-conjugate , and its symbolic equation is .
+By the construction it follows that . . . . .
+( 203 ) , , and the function is consequently self-conjugate .
+We have now determined a self-conjugate function , one of an infinite number , which satisfies ( 199 ) , and the proposition is proved .
+The rotator corresponding to is of course . . . . .
+( 204 ) .
+50 .
+The results of recent articles establish the possibility of reducing an arbitrary function to the form . . . . .
+( 205 ) ; where , and satisfy the equations , . . .
+( 206 ) ; and by analogous processes the function may also be reduced to other forms such as , but on these we need not delay .
+51 .
+An function be reduced to a quotient or prodnct of selfconjugate functions .
+Assuming . . . . . . .
+( 207 ) , it appears that the united points of ( compare Art .
+30 ) satisfy the equations ; ; ; ( 208 ) ; SSOR C. J. JOLY ON QUATERNIONS AND OJECTIVE GEOMETRY : 259 but on the supposition that and are self-conjugate , it follows ( 135 ) that these united points form a tetrahedron self-conjugate to the two quadrics .
+Take therefore any quadric to which this tetrahedron is self-conjugate ; is determined and follows .
+Otherwise the function .
+( abed ) ( abcq ) ( 209 ) is self-conjugate ( Art .
+21 ) when is the tetrahedron reciprocal to ( abed ) ; and on comparison with ( 208 ) the function may be written down .
+The four scalars are arbitrary , as might have been expected , since each self-conjugate function involves ten constants , while involves sixteen .
+If two functions can be simultaneously reduced to the forms . . . . .
+( 210 ) , the united points of must form self-conjugate to a common quadric , , \amp ; c. , \amp ; c. ( 211 ) .
+In this case the eight united points are so related any quadric . . . . . . .
+( 212 ) which passes through seven , passes also ough the eighth .
+The condition that the poin should be on the quadric may be written . . .
+, and if , and are likewise on the quadric , it follows ( Art .
+24 ) that the first invariant of the function vanishes .
+Hence if the points are also on the quadric , the point must lie on the quadric too .
+Thus one of the united points is fixed with respect to the others , arjd the functions and must satisfy three conditions , which reduce the number of their constants to 29 , and this is precisely the number involved in the two quotients *Comi are Appendix to dition of the ' of Quateruions , vol. , p. 364 .
+260 PROFESSOR C. J. JOLY ON QUATERNIONS AND PItOJECTIyE GMETRY , SECTION IX .
+THE DETERMINATION 0F TRANSFORMATIONS WH1CH SAT1SFY CERTAIN CONDITIONS .
+Arb .
+Page 5 tionS converting one given quadric into another . . . . .
+260 53 .
+The transformations of a quadric and a linear complex into themsclves . . . . . .
+260 51 .
+The conditions it may be possible to transform simultaneously a given quadric and a complex inbo another given quadric and a linear complcx . . . . .
+261 tions converting one conic into another given conic . . . . . . .
+262 .
+The condition for simultaneous transformation of two conics into others . . . .
+262 67 .
+One isted cubic may be converted into another with arbitrary correspondencs of the points . . . . .
+263 58 .
+The condition for the conversion of one unioursal quartic into another . . . . . .
+264 52 .
+The results of Art .
+47 afford a simple solution of such problems as to find a tran , sformation shall convert into another .
+Symbolically this problem amounts to solving the equation ( 214 ) which connects two known self-conjugate functions and with an unknown functicn and its conjugate .
+The first quadric is reduced to the unit sphere by the transformation , so that . . . . .
+( 215 ) .
+The unit sphere is converted into itself by the transformation ( Art .
+47 ) , so that if ( 216 ) ; and finally the sphere is converted into the second quadric by the transformation , so that . . .
+( 217 ) .
+Thus the transformation ( 218 ) convel.ts the first quadric into the second ; and evidently this is the most general transformation fulfilling the conditions .
+53 .
+To an function \ldquo ; into itsclf , obserye that the transfurmation must belong to the group ( compare ( 218 ) ) , ; where ( 219 ) , which converts the self-conjugate part of the function into itself PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIYE GEOMETEY .
+261 The problem therefore reduces to the determination of from the equation ( compare ( 214 ) ) . . . . .
+( 220 ) .
+The form of this equation suggests the new function . . . . .
+( 221 ) ; and the equation ( 220 ) educes to or . . . . .
+( 222 ) ; and the problem reduces to determination of a function tive with the known function The function possess the same*united as ; or must be of the form ( compare ( 221 ) ) ; ( 223 ) .
+Actually multiplying these expressions we find ( 219 ) . . . . .
+( 224 ) ; and as this equation must be equivalent to the latent quartic of the function it must vanish when for are substituted its latent roots .
+Now ( Art .
+23 ) the latent roots of are identical with those of , and the latent roots of the latter function ( Art .
+12 ) are of the form Substituting and reducing , we find in terms of the two invariants and , of , two equations . . .
+( 225 ) connecting the four scalars and .
+Hence , reverting to the original functions , the transformation .
+( 226 ) the function into itself ; in other words , it converts the quadric and the linear complex . . .
+( 227 ) into themselves .
+54 .
+Passing on to the general case , let us consider the relations which must be satisfied when one function can be converted into another ; or the conditions that a quadric and a complex can be simultaneously converted into another given quadric and another given complex .
+Compare Art .
+38 , and the Appendix to Elements , ' vol. ii .
+, p. 364 .
+262 PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE GEOMETRY The first quadric is converted into the second by the transformation ( 218 ) , and this converts the first complex into . . . . .
+( 228 ) ; and , on comparison with the second complex , it appear that we must have , or . . . . .
+( 229 ) , where we have introduced two new symbols for greater convenience .
+Equation requires the functions and to have the same latent roots ( Art .
+23 ) ; or again , , and must have the same latent roots , and this is the sufficient condition , for it appears , on substituting a united point of in ( 229 ) , that the function must convert the united points of , into those of ; and it is always possible to find a function capable of doing this , because ( Art .
+12 ) the united points of the two functions are quadrilaterals upon the unit sphere , and a function always converts this sphere into itself .
+Thus , given two quadrics and two linear complexes , it is possible to simultaneously one into the other and one complex into the other whenever the latent roots of the functions and proportional .
+55 .
+To find transformation nJhich shall convert one conic into another .
+The essentials of the problem are contained in the equation . . . .
+( 230 ) .
+In order that the right-hand number may be a quadratic function of , it is necessary to have , . . . . .
+( 231 ) ; so that on equating powers of we obtain , in the usual notation for binary quantics , ; . . .
+( 282 ) .
+These relations are not sufficient to determine the function ; we may arbitrarily assume two quaternions and and write ( Art .
+3 ) .
+The function thus determined involves eleyen arbitrary constants , the four which regulate the correspondence of point to point on the conics , and the seven ( eight less one ) involved in the two quaternions and , for multiplying these by a common factor is without effect .
+56 .
+In order to transform multaneously two give , conics into two other conics , sinqle relation must connecting the conics .
+Affixing numeral suffixes , 1 , 2 , to the Various symbols in ( 232 ) , we obtain the system of six equations which the function must satisfy .
+Any six quaternions are connected by two relations , and the equations PROFESSOR C. J. JOLY ON QUATLRNIONS AND PROJ EOMETRY .
+263 ( 233 ) ; in which .
+are arbitrary , but the other scalars given may be taken as determining the two pairs of relations connecting the two sets of six quaternions .
+When the left-hand members of the equations analogous to ( 232 ) are multiplied by \amp ; c. , and added , the sum is zero ; and the sum of the right-hand members is ( with an obvious abbreviation ) ( 234 ) , or , for simplicity , .
+( 235 ) where is a quadratic in , and its successive polars to .
+This relation connecting the six quaternions must be equivalent to the second equation ( 233 ) , so we may equate corresponding coefficients of quaternions , when we shall obtain six equations linear in .
+Let and be eliminated from them .
+The result is the system of determinants , which is equivalent to four equations .
+But and .
+are arbitrary ; consequently this system of determinants breaks up into two independent systems , equivalent to eight equations among the eight scalars .
+The eight scalars enter homogeneously into the equations , and may be eliminated , leaving a single condition connecting the four comics , in order that it may be possible to find a transformation which shall convert two of them into the remaining two .
+57 .
+A cubic be transformed into nother tcubic with arbitrary correspondence of the points .
+The equation of transformation of one arbitrary twisted cubic into another is ( compare Art .
+43 ) . . . . .
+( 237 ) .
+Hence equating coefficients of , four equations are obtained which serve to deterPROFLSSOR C. J. JOLY ON AND PROJECTIVE GEOhIETRY .
+mine for arbitrary values of ( Art .
+3 ) .
+These four scalars may be selected in any way we please .
+58 .
+A single } connects of the second it is possible to nsform one into the other .
+The equation of transformation is .
+( 238 ) , and equations of condition may be written down analogous to ( 232 ) .
+Let the relations connecting the sets of fiye quaternions be ( 239 ) ; then , as in Art .
+56 ( 234 ) , we obtain the equation ( 240 ) , where . . . .
+( 241 ) , and where , and are its successive polars to On comparison of ( 240 ) and ( 239 ) the equality of ratios ( 242 ) is seen to be necessary .
+This is equiyalent to four quartic equations in the homogeneous variables , and the resultant of these four equations equated to zero is the single condition in question .
+SECTION X. COVARIANCE 0F FUNCTIONS .
+Art .
+Page 59 .
+The eight types of covariance . . . . . .
+264 60 .
+Special cases in which the types coalesce . . . . .
+265 61 .
+Second general method of obtaining covariant fmlctions . . . . . .
+266 62 .
+The tamiltonian invariants and the method of arrays . . . . .
+266 59 .
+The subject of covariance naturally arises in connection with the various transformations lately considered , but as the principles laid down in the note on Invariants of Linear Vector Functions printed in the Appendix to the new edition of ' Hamilton 's Elements ' apply with but slight modification to the more general case of quaternion functions , it does not seem desirable to go into any great detail .
+A quartic of the second class is the partial interssction of cubic quadric surface , and only ono quadric be drawn through PROFESSOli C. J. JOLY ON ANY ) ETltY .
+We propose to obtain functions from given functions , \amp ; c. , which fall into certain classes connected by invariantal relations .
+We denote two arbitrary functions by the Roman capitals X , , and we consider the transformations effected by multiplying a given function by X and into This transf'ormation changes the series of functions , . .
+, . . . . . .
+( 243 ) inbo the series , . .
+, .
+( 244 ) ; and we shall speak of this as the class .
+The series , .
+, .
+( 245 ) becomes , . . .
+, . . . . .
+( 24G ) , and this is the class .
+The ries , . . . .
+( 247 ) is the class , ming into the series X , . . .
+X . . . .
+( 248 ) ; and finally the series , . .
+forms the class , as it orms into , . . . .
+( 250 ) .
+Inverse functions of the ( XY ) class belong to the class , and conversely ; inverse functions of the classes or belong to their own class , and so also do products and quotients of functions of these classes .
+The product of an function into function is an function , and so on .
+In like manner there are four classes for the conjugate functions , as appears on taking the conjugates of a typical function .
+The annexed scheme exhibits the eight classes , the conjugates being printed under their correspondents : \mdash ; ( XY ) , , ( 251 ) .
+60 .
+When we deal with quadrics or complexes , or when the condition is imposed that self-conjugate functions remain self-conjugate , the classes of the conjugate type VOL. CCI . .
+2 C. J. JOLY ON NIONS AND GEOMETRY .
+coincide with those originally found , but in a erent order .
+In this case is the te of X , and the scheme ( 251 ) becomes ( XX ' ) . . . .
+( 252 ) .
+In this case the conjugate of a transformed function is the transformed function of the conjugate .
+Again , in the general case , when , the types of the upper row ( 251 ) merge in the single type , and the conjugates in the type .
+Finally , all types unite in the single class when X is the inverse of its conjugate ( Art .
+47 ) .
+61 .
+Covariant functions may be derived by the following general process , as well by multiplication and division .
+For arbitrary scalars , , \amp ; c. , . . .
+( 253 ) , where is the fourth invariant of , and where . . . . .
+( 254 ) , the summation in this last equation referring to permutation of the suffixes .
+These functions belong to the class , because [ abc ] ( 255 ) , and being the fourth invariants of X and In like manner functions of the class are obtainable in the form . . .
+( 256 ) .
+62 .
+Although rather foreign to the subject of this paper , it may be as well to indicate the nature of the Hamiltonian quaternion invariants of a system of functions .
+It was stated in a paper on Quaternion Array that these invariants are included iu the quotient . . . .
+( 257 ) , a formed by dividing a four-column array by ( abed ) , each row of the array consisting of the results of operation by a single function on four quaternions .
+Briefly , .
+Roy .
+Acad vol. 32 , p. 30 .
+PROFESSOR C. J. ON QUATERNIONS AND PEOJECTIVL .
+267 a quaternion array may be defined as a fun ction which vanishes if , and only if , the constituents of every row can be linearly connected by the same set of scalar multipliers .
+It is multiplied by a scalar if every constituent in a column is multiplied by that scalar ; and the sign of the array is changed if contiguous columns are transposed .
+These laws are precisely the laws which govern the function , which is in fact a one-row array , so that if in ( 257 ) we replace any one of the four quaternions by any quaternion , the quotient remains .
+The quotient is therefore an inyariant in the Hamiltonian sense ; it remains unchanged when the four quaternions are operated on by the function If we regard the lowest row as consisting of the results of operating by the special linear function unity on and , and if we replace .
+by , . .
+and unity in the last row by ; to a factor , , the quotient becomes the corresponding quotient for the system of functions , . .
+SECTION XI .
+THE NUMERICAL CHARACTERISTICS 0F CERTAIN CulivLs AND 0F POINTS .
+Art .
+63 .
+The number of points represented by being ( nion function of of order . . . . .
+267 64 .
+The order and rank of the curve . . . . .
+267 65 .
+The order and raItk of the curve . . . .
+269 66 .
+The mber of points represented by 270 67 .
+Conditionf ; for the vanishing of the system 270 63 .
+In order to facilitate future investigations , we shall determine the llumerical characteristics of certain curves and systems of points which frequently occur .
+Using the symbol to denote a homogeneous quaternion function of of the order , it appears from SALMON'S chapter on the " " Order of Restricted Systems of Equations\ldquo ; in his ' Modern HiglJer Algebra , ' that , . . . . .
+( 258 ) represents a system of points whose number is . . . . .
+( 259 ) .
+64 .
+In like manner the chapter cited enables us to write down the order of the curve represented by , . . . .
+( 260 ) ; but as it is to determine also its rank and the number of its apparent double points , we shall adopt a different method .
+The quaternions and being arbitrary , the identity ( 261 ) , shows that the two surfaces . . . . .
+( 262 ) intersect in the curve ( 260 ) , and also in a complementary curve common to the three surfaces . . . .
+( 263 ) ; for when ( 262 ) is satisfied , the identity shows that either ( 260 ) or ( 263 ) must be satisfied .
+Let denote the order of the curve ( 260 ) ; then the order of the complementary is . . . . .
+( 264 ) , the orders of the two surfaces ( 262 ) being Again , considering the intersection of the second and third surfaces ( 263 ) , it follows from the identity that they intersect in the complementary curve and in the new ( 265 ) ; and because the orders of the surfaces are and , the order , of this new curve is connected with by the relation . . . . .
+( 266 ) .
+Again , writing down the identity ( abcq ) in which is the variable quaternion , while and are constants , it appears exactly as before that the surfaces . . . . .
+( 268 ) , of orders and , intersect in the curve and in a complementary which is obviously the complete intersection of the surfaces ( abcq ) . . . . .
+( 269 ) ; that is , a plane and a surface of order Now the relations* SALNON'S ' of Thrce ions , 346 .
+PROFESSOR C. J. JOLY ON AND PROJECTIyE GEOMETRy .
+) connect the number cf apparent double points ( h ) and the rank ( 7 ) of a curve with those of its complementary in the intersection of two surfaces of orders and .
+But we know the characteristics of ths plane curve ( 269 ) to be , . . .
+( 271 ) ; and hence we find the characteristics of its complementary ) , ; and these in turn give the characteristics for the curve ; ; ( 273 ) , and , finally , for the original curve ( 260 ) we have ; ; ( 274 ) , where and 23 are the sum , the sum of the products in pairs , and the product of the three quantities .
+and As examples , for the twisted cubic . . . . . .
+( 275 ) , , and , so that For the ourve . . . .
+( 276 ) , ; and These numbers admit of course of simple verification .
+* 65 .
+In like manner proceeding one step further we calculate the characteristics of the curve common to the five surfaces obtained by equating to zero the coefficients in the identity .
+( 277 ) to be \mdash ; . . .
+( 278 ) ; this curve being the complementary of ( 260 ) for the fourth and fifth surfaces .
+The curve common to the five surfaces may be conveniently designated by the equation in double brackets expression for the rank of a curve , 'Modern Highcr Algobra , ' rt .
+, seems to require modification .
+270 SSOR C. J. ON RNIONS AND PROJECTIyE GEOMETRY . . . . . . . . .
+( 279 ) which is intended to denote that every set of four of the included quaternions is linearly connected .
+66 .
+the number of points common to the surfaces whose equations are obtained by deleting two of the quaternions included in triple . . . . .
+( 280 ) , SALMON'S mula ( ' Modern Higher Algebra ' ) gives . . . . . .
+( 281 ) .
+67 .
+To complete the scheme , we may regard the equation . . . . .
+( 282 ) , as requiring the four quaternions to be collinear ; or the four curves ( 260 ) , obtained by omitting one quaternion , to have common points .
+If these points exist they satisfy the equation ( compare ( 279 ) ) . . . . .
+( 283 ) , or lie on the complementary common to the five surfaces .
+A curve meets its complementary ( ' Geometry of Three Dimensions , ' Art .
+346 ) in . . . .
+( 284 ) points , and in particular the curve the two surfaces , we find the number to be ( compare ( 274 ) ) . . . . .
+( 285 ) .
+These points are generally variable with the arbitrary quaternion Again , the surface . . . .
+( 286 ) intersects in , and in the complementary corresponding to .
+When we seek the intersection of the curve with its complex complementary on this surface , the number of points is found to be 2 , and these can all be accounted for by ( 285 ) and ( 259 ) .
+We can also in this manner determine the points common to the two complementaries ( 283 ) answering to and to be , employing the characteristics ( 278 ) , and putting C. J. JOLY QUATERNIONS AND OMETRY .
+271 SECTION XII .
+ON THE GEOMETRICAL RELATIONS DEPEND1NG 0N Two FUNCTIONS AND 0N THE FOUR Art .
+68 .
+Relations of the quadric and the complex Spf , to the linear transformation produced by the metion f . . . . .
+271 69 .
+The quadrilateral common to the quadric and the linear complex . . . . . .
+272 70 .
+The quadratic complex of connectors of points and their correspondents . . . . .
+272 71 .
+The extension of HAMILTON'S theory of the " " umbilicar generatrices\ldquo ; . . . . .
+273 72 .
+The locus of the united points of fimctions of the system is the twisted sextic . . . . .
+274 73 .
+The case in which and are replaced by arbitrary functions .
+The sextic intersects a united plane of the system in three residual collinear points . . . . . .
+274 74 .
+The numerical characteristics of the sextic . . . . . . . . .
+275 75 .
+The surface generated by its triple chords . . . . .
+275 76 .
+The satellite of a , and the quadratic complex of satellites 276 77 .
+Satellites and triple chords of the sextic . . . . .
+276 78 .
+An arbitrary plane contains one point and its satellite . . . . .
+277 79 .
+The focus of a plane .
+Case of a united plane . . . . .
+277 80 .
+Special case for the functions and , . . . .
+278 68 .
+We devote this section to the study of the geometrical relations connecting a function with its conjugate , its self-conjugate part and its non-conjugate part ( Art .
+9 ) , and to the relations connecting a pair of arbitrary functions and The quadric . . . . . .
+( 287 ) is the locus of a point which is conjugate with respect to the unit sphere to its correspondent in each of the transformations due to and The linear complex , or , or Spf'q Sqf'p . . . .
+( 288 ) , may be written in the form ( compare p. 223 ) . . . . . .
+( 289 ) , which expresses that the product of the perpendiculars from , the derived of one point , and from the centre of reciprocation on the polar plane of another point with respect to the unit sphere , multiplied by the perpendicular from on the plane which is projected to infinity by the transformation , is equal to the corresponding product of three perpendiculars found by interchanging and Q. This property is also true when is replaced by its conjugate C. J. JOLY ON ) AND OJLCTIVE GIETRY .
+The equation of the complex may also regarded as representing the of lines convel.ted by , into conj vines with respect to the unit sphere .
+69 .
+In order to determine the four lines common to the quadric and the linear complex , observe that the point of contact of a plane with the quadric must also point of concourse of the lines of the complex in that plane , in order that the plane may contain lines common to the two assemblages .
+Therefore the points in which the pairs of common lines intersect satisfy the equations , or . . . . .
+( 290 ) .
+Thus four points are determined , the united points of the function It appears , as in Art .
+12 , that the latent roots of this function are equal and opposite , and that the united points form a quadrilateral on the quadric .
+Otherwise , the invariants of and of are identical ( Art .
+23 ) , and these functions satisfy the same symbolic quartic ; and because their conjuoateso , and likewise satisfy the same quartic , it must be of the form , or ( 291 ) .
+lines in question are determined solution of a quadratic equation .
+When these four points are taken as points of reference , that ( 292 ) the equations of the quadric and complex may by the aid of ( 290 ) ( compare again Art .
+12 ) be reduced to the forms .
+( 293 ) .
+70 .
+The locus of points whose correspondents are in perspective with a fixed point is the twisted cubic , and the locus of lines which pass through a fixed point and connect a point and its correspondent is the cone or . . .
+( 295 ) .
+*Obsve that these four points arc the only points for which the signs being used to denote equalily when the quaternions are multiplicl by a suitable factor .
+For vector functions only whsn is the spin.vector , PROFESSOR C. J. JOLY ON AND PROJhCTIVE ) The complex of lines connecting points their espon its equation ( 296 ) ; and the locus of points whose connectors to spondents intersect a fixed line is the quadric surface . . . .
+( 297 ) .
+The reciprocal of the complex is the complex of the con.iugate ; \amp ; for the line is reciprocal to the line if which requires to be coplanar .
+The formulae 01 this article comprise many theorems with respect to of confocal quadrics .
+It may also be observed that the complex is unchangeCl when is replaced by 71 .
+An qucldrlc eigl , tgcncrctbo } and it ; correspondent in an arbitrclr. .
+This is the extension of celebrated theory of the umbilical generators .
+( Compare Art .
+40 .
+) The conditions that the line should be a generator of the arbitrary quadric surface . . . .
+( 299 ) are . . . .
+( 300 ) ; @o that we can termine eight points as the ctions of three known quadrics , and the lines joining these points to their correspondents are the common generators of the complex and the quadric .
+of , of one system of the four of th other system .
+Four of the lines must belong to one system of .
+Let be determined by the points .
+The condition that the line should mect the line is or ( 301 ) ; and because any lin which meets three of these four likewise meets the fourth , we must have for proper selection of the weights .
+* When we refer and to the united points of , the equation of this complex takes the forms wh A vector equation may also be employed , for if put , the equation of the complex bc replaced by , or when we by separating the scalar and parts ffer inlyersion of VOL. CCI .
+PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE GEOMETRY .
+Hence the eight points common to three of the quadrics . . . . .
+( 303 ) are likewise commo1l to the fourth .
+But four of these points are the united points of the function , while the remaining four determine ( 297 ) four lines of the complex ( 296 ) which meet the four generators .
+These four lines are common to the quadric and the complex , and make up with the other four the complete system of eight lines .
+In accordance with ( 302 ) we may write for the two sets of four lines* . . . .
+( 304 ) , and it may be remarked that a direct interpretation of ( 302 ) is that four equilibrating forces can be placed along the lines of either set , for the first equation ( 302 ) expressed that the resultant of four forces vanishes , and the second requires their moment with respect to the centre of reciprocation to be zero ( see ( 33 ) , p. 230 ) .
+7 The locus of the united points of all functions of the system ( 305 ) is the curve [ fqf'qq ] . . . .
+( 306 ) ; and this curve ( 276 ) is a sextic whose rank is 16 , and the number of whose apparent double points is 7 .
+If is a united point of a function ( 305 ) and the corresponding latent root , we obviously have ( 307 ) , whence ( 306 ) follows immediately .
+The sextic curve is evidently the locus of united points of the conjugates of functions , but it is not the locus of united points of conjugates of functions of the general type ( 305 ) .
+In the following articles we shall consider some part of the theory of two arbitrary functions and , as it is partially applicable to the subject under discussion .
+73 .
+The loci of the united points of all functions of the two systems and are respectively the sextic curves . . . . .
+( 309 ) .
+These two curves unite in the special case of .
+The first is the locus of the united points of the system , and the second is the corresponding locus for the conjugate system .
+*In the notation of arrays implies If , the equations ( 302 ) become PROFESSOR C. J. JOLY ON QUATERNIONS AND OJECTIVE t. 275 The locus of the united planes of the is of the sextic .
+By the conjugate sextic we mean the second curve ( 309 ) , and the proposition is obvious when we reflect that a united plane of a function is the reciprocal of the corresponding united point of its conjugate ( Art .
+8 ) .
+The united of a function of the system the scxtic in mited points in three other The equation of a united plane of the function is , where is a united point of the conjugate .
+Writing the equation of the sextic in the form . . . . .
+( 310 ) , and .
+that lies in the plane , the result is Sq ( 311 ) , where is arbitrary , because Hence either , and ( 1 is a united point of the function , or else . . . . .
+( 312 ) ; and the three remaining points are collinear .
+In paxticular for the functions , the polar plane with respect to the quadric and the plane of of the complex , esponding to the reciprocal of a united plane of the , intersect in that united plane ; and their connmon line a three-point chord of the sextic ( 306 ) .
+74 .
+Knowing the rank and number of apparent double points of the sextic , its characteristics are ( 31.3 ) , as may be verified by the formulae printed in Arts .
+326-7 of SALMON'S 'Geometry of Three Dimensions .
+' Also the deficiency of the curve is These numbers apply reciprocally to the developable of the last article generated by the united planes .
+Thus the order of its cuspidal curve is 30 , and six united planes pass through an arbitrary point , while sixteen pass through a line .
+Through a umted point the six united planes consist of the three planes which are united planes of the function possessing the united point , and three other planes intersecting in a common line ( compare ( 312 ) which is the reciprocal of a three-point chord of the second sextic .
+75 .
+The trvple chcrds of the.sextic a of the eighth order .
+The three-point chords of a curve generate a surface of order ( : Three Dimensions , ' Art .
+471 ) . . . . .
+( 314 ) , and this reduces to 8 in the present case .
+The characteristics of the cone , whose vertex is a point on the sextic and which contains the sextic , are deducible from the data of Art .
+330 of the ' Geometry of Dimensions .
+' The cone has double edges , and consequently three triple chords pass an point on the sextic .
+The sextic is thus a triple curve on the ulus of triple chords , and the surface has no other multiple line .
+76 .
+There yet another quadratic complex of importance in the study of a pair of fullctions .
+A point is transformed into by the of and as and , the locus of the point is a line which we shall call the satellite of The satellites generate the complex . . . . .
+( 315 ) , and the form of this equation should be compared with ( 296 ) and .
+There is the complex of conjugate satellites obtained by replacing and by their conjugates , but when the functions are self-conjugate , or when one is the conjugate of the other , the two complexes combine into one .
+For the functions and this is . . . .
+( 316 ) .
+The four points fa , form a armonic range on the satellite of the point There are also harmonic properties connecting pencils of planes ; and it may be verified that these four planes intersect in a satellite for the inverse functions .
+This shall prove for the general case .
+The reciprocal of the complex of satellites the of the ) for the inverse fmlctions .
+If and are any two points on the reciprocal of the satellite of ( [ , , and on taking conjugates we see that the four points are co-planar , so that . . . .
+( 318 ) .
+The locus of ) oints whose satellites meet the line is quadric surface ( compare ( 297 ) ) . . . . . . .
+( 319 ) .
+77 .
+The tellite of a } ) oint which describes a line constructs one system of generators of the quadric . . . . .
+( 320 ) , but the gulus degrades into a system of lines enveloping a conic whenever . . . .
+( 321 ) , that is , whenever the line belongs to the reciprocal of the complex of conjugate satellites ( 318 ) .
+The conic is co-planar with the line when the further conditions . . . . . . .
+( 322 ) , are satisfied .
+PROFESSOR C. J. JOLY AND PROJ CTIyE GEOMETRY .
+277 But when are given , as here , a series of to a conic eraphic with a series of points on a line in its plane , in three cases a tangent passes through its corresponding point ; and evidently when a poin lies on its satellite , it also lies on the sextic ; so the line under discussion is a triple chord of the sextic .
+It seems worth while nof , icing ( compare Art .
+66 ) the remarkabIe equation . . .
+( 323 ) of the of tripl chords of the sextic , for this equation is equivalent to ( 321 ) and ( 322 ) .
+78 .
+Again , in an arbitrary plane , it is generally possible to find one point whose satellite lies in the plane .
+The conditions are , so . . .
+( 324 ) ; and the point is determinate unless the reciprocal of the plane lies on the conjugate sextic , or , in other words , unless the plane is a united plane for some function of the system .
+In this case ( compare ( 312 ) ) there exists a line locus for points whose satellites lie in the plane .
+This is precisely the case of last article , so when the envelope of satellitss is a conic co-planar with the line , the plane is a united plane .
+79 .
+For an arbitrary plane , the of points whose deriveds by remain in the plane is the line of intersection of or with the given plane .
+All these lines pass through the point , which may be called the focus of the plane .
+Assuming an arbitrary point to be a focus , the plane of which it is the focus is ( compare ( 324 ) ) the reciprocal of the point . . . . .
+( 325 ) .
+The relation between a focus the reciprocal of the plane is of the same nature as the correspondence discussed in Section XIX .
+( compare ( 526 ) with ( 324 ) ) .
+The points whose satellites pass through a given point lie on a visted cubic and the locus of points whose satellites lie in a plane is a right line .
+The satellite of a point and the plane pierces the plane in the point . . . . . .
+( 326 ) , and from this quadratic transformation connecting the points and , it that describes a conic when , ( or q ) descl.ibes a right line .
+In the former case the conics pass through the focus of the plane .
+Thus again an arbitrary line meets the satellites of two points on the line ( compare ( 320 ) ) .
+It would take too long to explain the ious g relations in the plane , but subjects such as that just mentioned may be readily investigated by writin where and are any three points in the plane .
+Then the array if ( 327 ) and , if Hence ( compare ( 301 ) and ( 296 ) ) the line joins a point to its correspondent in the transformation produced by if . . . .
+( 329 ) .
+This equation may be regarded as the tangential equation of a conic involving a parameter quadratically .
+For six values of the equation represents a pair of points\mdash ; one point of each pair being one of the six points in which the plane meets the sextic , and the second point being the intersection of the plane with the line into which the plane is transformed by the function which destroys the aforesaid point ( compare Art .
+14 , I ) .
+In a united plane , the theory is simpler .
+Let be the united points in the plane , united points of .
+Then ( 327 ) and ( 328 ) become { qq ' } { ab } , ( 330 ) ; and we get the conics ( 331 ) .
+In this case the system of conics is inscribed to a common quadrilateral .
+The conic enveloped by the satellites is or ( 332 ) .
+80 .
+More particularly for the functions , in a united plane of , the united points ) , form a triangle ( I ) in perspective with the triangle ( II ) of the traces of the united planes of the conjugate ; for these planes are . . . . .
+( 333 ) ; and the centre of perspective is given by SqaSbc . . . . .
+( 334 ) ; PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE OMETRY .
+27 while corresponding sides intersect in the points . . . .
+( 335 ) .
+The point of concourse of lines of the linear complex in the plane is , [ abc ] , or , oSbc . . . .
+, since this poin is the intersection of the planes , for which the united points are points of concourse .
+This point lies on the axis of perspective ( 335 ) , and the equation of that axis may be written in the form . . . .
+( 338 ) .
+The three lines of the complex which pass through the united points intersect sides of the triangle ( I ) in a triangle ( III ) in perspective .with ( , and through the vertices of this third triangle pass the polars of the united points with respect to the quadric , and the traces of these planes form a triangle ( IV ) likewise in perspective with ( I ) .
+SECTION XIII .
+THE SYSTEM OF QUADBICS Sq , AND SOME QUESTIONS RELATING TO POLES AND POLARS .
+Art .
+Page 81 .
+General properties of the system .
+, . . .
+279 82 .
+The intersection of two quadrics of the system , and the analogies for confocal and concyclic systems . . . . .
+280 83 .
+The poles of tangent planes two quadrics with respect to a . . . . .
+280 84 .
+The condition that three quadrics be polar quadrics of a cubic surface . . . .
+281 81 .
+In this section we shall notice some properties of the system of quadrics .
+The self-conjugate function in this homographic system may be supposed reduced to the type noticed in Art .
+28 , for by a linear transformation the symbolic quartic may be reduced in three ways to the form . . . . .
+( 340 ) .
+The system ( 339 ) is its own reciprocal , and it includes confocal and concyclic systems .
+If is the pole of the plane with respect to one of the quadrics , and are connected by the equation , or , or ( 341 ) .
+Giyen ) , the locus of is a twisted cubic if alone yaries , a right line if is constant , and a quadric . . . . .
+( 342 ) when and are both yariable .
+( Compare Art , 70 .
+) The points of contact of the plane with quadrics of the system are by adding the condition , when we find three points , one point or a conic locus .
+A generalized normal joins a point to the reciprocal of its tangent plane , thus for variable , , when ( 343 ) is the ized normal at the ; or deleting the condition and allowing and to vary , we have the equation of the assemblage of normals through the point , and when itself varies , we see that ( 342 ) represents the complex of normals to the system .
+82 .
+In , two quadrics and intersect in a curve through which no third quadric of the system can pass , but when , an infinite number of the quadrics in the curve .
+This follows from the consideration that ( 344 ) is the general equation of a quadric the curve ; and a factor will not cancel unless If is any point on the curve of intel.section , the poles of the tangent planes at that point with respect to third quadric of the systeJn will be conjugate to that quadric . . . .
+( 345 ) .
+In order that this may be the case for every point on the curve , the factor must cancel .
+Thus we must have equal or .
+But further , on comparison with ( 344 ) , it appears that the third quadric must coincide with one of the others , or else that and This theory embraces the laws of confocals , their orthogonal section , and the property that the pole of the tangent plane to one , at a point of intersection with a second , taken with respect to the second , lies in its tangent plane at the point .
+83 .
+More generally , given any three quadrics PROFESSOR C. J. JOLY ON OJECTIVE GJETRY .
+281 ( 346 ) ; take the polar planes of a point with respect to the first and cond , and the poles of these planes with respect to the reciprocal of the third ; these poles are conjugate to that reciprocal provided the point lies upon.the quadric ( 347 ) .
+If the quadrics have a common self-conjugate tetrahedron with the quadric of reciprocation , the three functions have the same united points , and are consequently commutative ; and the three surfaces ( 347 ) obtainable for different selections of the quadrics ( 346 ) are identical .
+84 .
+Before leaving this subject , it may be of interest to show how the iant condition that three quadrics should be polar quadrics of a cubic presents itself We have , if the quadrics are polars of the cubic ( aqq ) , , ( cqq ) ( 348 ) , if are the poles .
+Hence ( 349 ) ; and on identifying the planes ; ( 350 ) ; so that ( 351 ) ; and the function must have one latent root equal to unity .
+SECTION XIV .
+* PROPEnTIES 0F THE GENERAL SURFACE .
+Art .
+Page 85 .
+The principle of reciprocity , . . . . .
+281 86 .
+The self-conjugate function defined by ( dq ) . . . . .
+282 87 .
+The reciprocal relation , where . . . . .
+282 88 .
+The relations of reciprocity , -Sdpdq . . . . .
+283 89 .
+reciprocal of an asymptotic tangent is an asymptotic tangent to the reciprocal .
+283 90 .
+Generalized normals and centres of curvature . . . . . . . . .
+283 91 .
+The osculating quadric and its confocals .
+284 92 .
+The quadratic equation of the principal curvatures 285 93 .
+Generalized geodesics . . . . .
+285 85 .
+If is a homogeneous and scalar function of a variable quaternion of order , the equation . . . . .
+( 352 ) VOL. CCL\mdash ; A. 2 represents a surface .
+We shall write generally for any differential dq . . . . . .
+( 353 ) , where is a homogeneous quaternion function of and of the order .
+Since is a determinate function of may be regarded as a function of ; and using EULER'S theorem for homogeneous functions we have . . . . .
+( 354 ) where is the function of into which transforms .
+86 .
+Again , we shall write generally for the differential of the quaternion regarded as a function of . . . . .
+( 355 ) where is a linear function of , involving homogeneously in the order This function is self-conjugate , for taking two successive and independent differentials of S. S. . . . . .
+( 356 ) ; and because the differentials are independent , , and therefore Sdqf ( 357 ) , consequently the function is self-conjugate , for and are quite arbitrary .
+87 .
+Differentiating ( 3.54 ) we find on comparison with ( 353 ) dp , where . . . .
+( 358 ) , and it is easy to yerify that is the order in which is involved in P. Ako introducing a new linear function , we write dp . . . . .
+( 359 ) , and , as in the last article , is self-conjugate and involves in the order in its constitution .
+Thus for any differential by ( 355 ) and ( 359 ) ( 360 ) ; or symbolically . . . . . .
+( 361 ) , and one function produces on an arbitrary quaternion the same effect as the inverse of the other .
+In particular , employing EULER'S theorem in ( 355 ) and ( 359 ) we have ; . . . . . .
+( 362 ) .
+PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE .
+283 88 .
+When , instead of being perfectly arbitrary , satisfies or Sp , where . . .
+( 363 ) , represents some point in the tangent plane at to the surface .
+The poin is the reciprocal of the tangent plane with respect to the unit sphere ; and the surface is the reciprocal of the given surface .
+The relations of reciprocity are clearly exhibited by the equations ( compare ( 354 ) ) Sp if . . .
+( 364 ) ; if also ( 365 ) .
+89 .
+For the asymptotic Jlines , in addition to ( 364 ) and ( 365 ) , the new relatio1l dp . . . . . .
+( 366 ) ; and thus for arbitrary scalars and . . . . .
+( 367 ) , or the reciprocal of an asymptotic tangent is the asymptotic tangent to the reciprocal surface at the corresponding poin .
+Hence also , if corresponding tangents are reciprocal they touch asymptotic lines .
+The tangents to the asymptotic lines of the original surface are also represented by che equations . . . . .
+( 368 ) ; and those of the reciprocal surface by . . . . . .
+( 369 ) ; being allowed to vary arbitrarily , but and being kept constant .
+These lines are , in fact , the generators of the reciprocal quadrics or , and or ( 370 ) , ( compare ( 862 ) ) which lie in the corresponding tangent planes .
+90 .
+The generalized normal to a surface at any point is the line joining that point to the pole of the tangent plane with respect to the quadric of reciprocation .
+But as there is practically no additional labour involved in the following discussion when the auxiliary quadric is arbitrarily selected , we assume it to be . . . . .
+( 371 ) ; and then the equation of the normal at to the surface is .
+( 372 ) .
+If is a centre of generalized curvature , or a point at which consecutive normals intersect , we have for intersecting normals .
+( 373 ) , where is some small scalar , and , because on the hypothesis that consecutive normals intersect in and represent the same point and differ only in weight .
+On elimination of , ( 373 ) becomes ( 374 ) ; and as this may be written , or ( 375 ) , we find , on operating by or , the equation .
+( 376 ) .
+On inversion of the function this becomes a quadratic in whose roots determine the two centres of curvature .
+91 .
+This equation may be thrown into the more suggestive form* ( 377 ) , which shows that the roots are the parameters of two of the quadrics of the singly infinite system , which pass through the point .
+The third quadric of the system through that point is of course , which corresponds to .
+The quadric is the auxiliary ( 371 ) .
+The two centres of curvature ( 373 ) are ( and bein the roots of ( 377 ) ) ( 378 ) ; and the form of these equations shows that the points are the poles of the tangent plane with respect to the two quadrics and The equation of the tangent to a line of curvature , may by ( 375 ) be thrown into the form ( 379 ) , where or , and the form of this equation shows that the tangents are the generalized normals to the quadrics and The first form of ( 379 ) shows that the tangent touches the quadric , for ( 380 ) , as appears on replacing the middle function by Becauce PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE GEOMFTRY .
+285 . . . .
+( 381 ) ; and , moreover ' .
+the lines of curvature form a conjugate ?
+on the surface , for ( 380 ) gives if .
+( 382 ) , ( compare ( 379 ) ) .
+The other usual properties analogous to those for confocals may be easily obtained , but it must suffice to state that the centres of curvature for the quadric are ( 383 ) .
+92 .
+To reduce the equation ( 377 ) to a quadratic , let the symbolic quartic of be ; then on multiplying by ' and dividing by , the result is . . . . .
+Obserying that the coefficient of on the left is \mdash ; or , the equation ( 376 ) becomes . . .
+( 386 ) ; and this immediately reduces to . . .
+( 387 ) , when we replace by , and discard the extraneous factor If and are the fourth invariants of and ; and it is easy to see that is the result of substituting in the equation of the Hessian of the surface if is an integral as well as a homogeneous function of .
+Thus one root is infinite in either of two cases , if the point is on the Hessian , and if it is on the auxiliary quadric ; in either case the centre of curvature is the pole of the tangent plane with respect to the auxiliary .
+A root is zero if , and in this case the tangent plane touches the auxiliary , and a centre of curvature is the point itself These special cases depend on two distinct conditions , the relation of the auxiliary quadric to the surface , and the relation of the Hessian to the surface .
+93 .
+A curve is a generalized geodesic when tangents are coplanar with the pole of the tangent plane with respect to the auxiliary quadric ; or , symbolically , , or ( 388 ) is the equation of a geodesic .
+Operate with , Shdq and by ( 364 ) , ( 365 ) , ; ySdp dzSdp d ; ; ( 389 ) .
+Introducing the function and eliminating the scalars xyzw , we find ( 390 ) ; and this , when the surface is a quadric so that is constant , immediately integrates , and gives ( SqhqS dqh dq \mdash ; ( Sqh ) ) . . .
+( 391 ) , where is the constant of integration .
+SECTION XV .
+THE ANALOGUE 0F HAMILTON'S OPERATOR Art .
+Page 94 .
+The operator D. If Spdq , then .
+Symbolical equation of definition involving four arbitrary differentials . . . . .
+286 95 .
+The form of the operator in special cases . . . . . .
+287 96 .
+Examples of the effect of the operator and analogues of LAPLACE'S equation . . . .
+287 97 .
+Method of forming polars and analogy to ARONHOLD'S notation . . . . .
+288 94 .
+In applications of quaternions to projective geometry an operator analogous to HAMILTON'S is occasionally useful .
+I define it by the equation ( compare Art .
+85 ) DQ when Spdq . . . . .
+( 392 ) .
+To render this operator available for use , take any four independent differentials of and write down the identity ( 393 ) , which suggests the symbolical equation ( 394 ) , where the summation refers to the four symbols PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE GEOMETRY .
+287 95 .
+Otherwise , if the quaternion variable is a function of four parameters , , we may replace the arbitrary differentials in terms of the deriveds of with respect to these parameters , and then ( 394 ) becomes ( 395 ) , where ' ' ( 396 ) .
+In particular , if these four deriveds satisfy the six equations . . .
+( 397 ) , it easily appears that the symbolic equation ( 395 ) reduces to ( 398 ) .
+More particularly if is referred to the vertices of a tetrahedron self-conjugate to the unit sphere , so that , and if ( 399 ) for suitable selection of the weights of these four points , the operator takes its simplest form . . . . .
+( 400 ) , while . . . . .
+( 401 ) .
+If , on the other hand , . . . . .
+( 402 ) , the operator reduces to ( 403 ) .
+96 .
+It may be useful to collect a few fo1mulae which may serve as examples of the application of the operator .
+We therefore give the following : ; DSq ; :DTq2 ( Vq)2 ; ; DSqfq To these we may add ; And again ( S. ; and on taking the of both sides .
+( .
+these results follow certain analogues of LAPLACE'S equation ( 404 ) ; and ( 405 ) .
+Moreover , the general expression for the operator in terms of arbitrary differentials of enables us to write down a number of invariants and identities .
+For instance , operating on , we find D. fd ( 406 ) .
+Other examples relating to integration will be found in a paper in 'Proc .
+Roy .
+Irish Acad vol. 24 , Sect. , pp. 6-20 .
+97 .
+So far as projective geometry is concerned , the use we make of the operator is to form successive polars of a point with respect to a surface and to show that it leads directly to ARONHOLD'S notation .
+The polar of a point with respect to a surface of order is . . . . .
+( 407 ) .
+If , the operator simply multiplies by a numerical factor and changes the quaternion involved from : Thus we may write the equation of the surface in the form , or . . . . .
+where is a symbolic quaternion devoid of meaning unless it enters into a term homogeneous in to order .
+This is equivalent to ARONHOLD'S method .
+SECTION XVI .
+THE QUATERNION FUNCTION .
+Art .
+Page 98 .
+Definition of the bilinear function ( pq ) . . . . . .
+289 99 .
+The permutate of a bilinear function ( qp ) ; and permutable functions ( pq ) . . . . . .
+289 100 .
+Combinatorial bilinear functions ) , ( pq ) . . . . .
+289 101 .
+The first and second coniugates of a bilinear function . . . . . . . . . .
+289 102 .
+Successive conjugates and permutates .
+The six fundamental functions . . . . .
+289 103 .
+The invariants and the invariants . . . . . .
+290 104 .
+The first and , econd Jacobian surfaces ; the Jacobian correspondence , . . . . . .
+290 105 .
+The second and third Jacobian correspondences , and . . .
+291 106 .
+The third Jacobian surface .
+The and the Kcobian correspondences 291 PROFESSOR C. J. ON QUATERNIONS AND IETRY .
+2 98 .
+We shall now explain a method which promises to be of considerable in the application of quaternions to A bi-linear quaternion function is a function of two quaternions and ( f ) distributive with respect to both .
+It may be reduced to the . . . .
+, , a are any four quaternions where linear quaternion functions .
+The bilinear function inyolyes sixty-foul constants , sixteen ' each of foul ' functions .
+99 .
+Writing generally all quaternions and . . . . .
+( I I O ) , we 1nay call the fimction , the ) of the ) .
+When a function is unaltered ) of the , it be a mutable function . . . . . .
+is a permutable function , the of A permutable lulction -es constants , the functions } of ( 409 ) then selfconjugate .
+100 .
+When a bilinear function changes sig with transposition of its quaternions , it may be called a combinatorial function .
+Thus ( pq ) \mdash ; . . . . .
+( 412 ) is combinatorial .
+It vanishes for , and , regarded , it not to a pair of points , but to the line joining the points .
+A bilinear function is thus reducible to the form ; ( 413 ) ; and is uniquely resoluble into its permutable and combinatorial 101 .
+Writing generally for any three quaternions , , and . . . . .
+( 414 ) , we shall call the new functions , the first second of .
+In fact is the conjugate when first quaternion alone yaries , is the conjugate when the second 102 .
+As the accents to denote the and the first and second conjugates are not commutative in order of application , it is safer to use brackets in the rare cases in which double accents are necessary .
+Thus , VOL. .
+2 because the first conjugate of the first conjugate of ( pq ) is simply the function itself When the successive accents are different , the laws connecting the various functions are deducible from the relations ( compare ( 414 ) ) ( 416 ) , in which 1 ) , .
+arbitrary .
+These relations show that , , ( qp ) . . . .
+( 417 ) ; and thus any multiply accented function may be educed to one or other of six fundamental functions , the function and its two conjugates and the permutates of these three functions .
+103 .
+Exactly as in and 6 , the equations ( 418 ) , ( 419 ) identities for all quaternions and , and for every value of the scalar The first is obtained on the ) that ( pq ) is a function of , and the second on the supposition it is a function of ( 1 .
+Dividing each of the identities by ( abed ) , we obtain the tics . . . . .
+; and , ( q ) , of the fourth , third , second and first order respectively in , are the invariants of considered as a tunction of .
+Equating these biquadratics to zero , we obtain the equations whose roots are the latent roots of as a function of and as a function of It is evident from ( 418 ) and ( 419 ) that these relations are equivalent when the function is permutable , and then \amp ; c. 104 .
+The quartic surfaces . . . .
+( 421 ) C. J. ON .
+291 we shall call respectively the first second Jacobians .
+Whenever a of quaternions satisfies the equation . . . . .
+( 422 ) , the point f ) must lie on the surface and must lie on ; for , a linear function of , has then one zero latent root , and has also a zero latent root .
+On reference to ( 409 ) , it appears that ( 422 ) is equivalent to . . . . .
+; and in the particular case when the function is permutable , the four linear functions are self-conjugate , and the equations assert that the polar planes of one point ( p ) intersect in the other ( q ) .
+In this case the surfaces ( 421 ) coincide with one another and with the Jacobian of the four quadrics ; and although it does not appear that in general the surfaces are the Jacobians of four quadrics , we have retained the name as being convenient and suggestive .
+Two points related as in ( 422 ) will be called ] ) , or more particularly Jacobian correspondents .
+105 .
+When a function has a zero latent root , so has its conjugate .
+Consequently , whenever and are Jacobian correspondents , or whenever ( 422 ) is satisfied , it must , be possible to find two other points and so that . . . . .
+( 424 ) .
+There are thus two new types of Jacobian correspondence ; and the argument of Art .
+102 shows that there can be no more , for the conditions ( 422 ) and ( 424 ) may be ritten in the form , . . .
+( 425 ) , without altering the signification of the equations , and we have now exhausted the six fundamental functions of the article cited .
+106 .
+The points " " " " " " " " of the second third Jacobian ) } lie upon the third Jacobian .
+A latent root of considered as a function of is zero , and therefore satisfies the equation , in the second number of which the function of has been replaced its But ( 417 ) the second number is equivalent to . . . . .
+and consequently lvhich satisfies ( 427 ) , satisfies also ( 426 ) , or upon same quartic surface .
+As in Art .
+103 , we deduce the identity ( 428 ) ; the result of by ( abed ) may be written in the form . . .
+( 429 ) , and latent ( or ( fnnctions of q ) is obtained by equating this to zero .
+The scheme of the Jacobians is now complete , the six fundamental functions of Art .
+1 .
+02 ving been employed .
+The points ( 1 of ( 424 ) may be said to be .
+Jacobinn corresl ) onrlents , ' and are correspondents .
+When ) is permutative , the anrl types unite and coincides with ; when.f is self-conjugate with respect to 1 ) , coincides with , and the and correspondences coalesce .
+It readily appears from ( 416 ) that when the function is doubly self-conjugate it is also perlnutable , and when it is permutable and self-con.iugate to ons element it is self-conjugate to the other .
+In this case the three Jacobians coincide with the ian of the cubic surface . . . . . . . . . .
+XVII .
+LINEA PUNCTIONS .
+of Use the Art .
+107 .
+Icthod of employing the bilinear function .
+metion detetmined ) a point . .
+) arbitrary point ( q ) is nnited point of 2 ) ' determinate fnnction , provided it does not lie on a critical curve , of the tenth order . . . .
+) 109 .
+When , the point is a united point of a two-system of 110 .
+The conjugate system and reciprocal propcrties . . . .
+294 111 .
+The tetrads of united The qnartic transformation 112 .
+he point describes a line , the point escril ) a rtic o. . .
+113 .
+A right line breaks off this qnartic for every intetsection of the line and the ] cnrYe . . . .
+114 .
+The various ways in which the lnctious of a five-system may combine to line point by point .
+The twenty singnlar fimctions of a four-system . . . . .
+115 .
+The sextic surface described by lies in a plano . . . .
+116 .
+The double curve of the sextic snrface . . . . .
+296 117 .
+The triple point on the . . . . . .
+207 PROFESSOR C. J. JOLY ON AND CTIV GEOMETRY .
+2 Art .
+Page 118 .
+The three tangent planes at bhis ) oint . . . .
+297 119 .
+Analogies with a STEINRR quartic . . . . .
+298 120 .
+The lines in the hich transform into plane ) in tho ' space . .
+Lines in the 1 ' space transform into twisted sextics which tonch the tical C in ten points . . . .
+122 .
+he locus of Jacol ) correspondents of points on the criticed cnrve is of the teIlth order , and every Jacobian quartic contains tetl lines . . . . . .
+.300 123 .
+The relations connecting the orders of a lrfnce , the complement the surface in the space into which both transform . . . . .
+300 124 .
+The corresponding ordors for curve . . . . . . . .
+001 1 The cnrve of interscction of two sextic snrfaces . . . . . . . .
+) .
+Connectors of pairs of united points form a complex of the fourth . . . .
+302 127 .
+The locns of the united poin ts of fimotions having a zero root . . . . .
+) ) 128 .
+The loci of lnited points corresponding to double and triple latent oots . . .
+129 .
+The united points to quadruple latent roots , clnd their ) 303 130 .
+The locus of united points of fnnctions hose latent quartics are 107 .
+When one of the quaternions in a bilinear function is regarded as a quaternion parameter , the function represents a triply-infinite system of linear functions , or a fonr-sysfem of linear functions , to borrow a convenient ) hrasefi.om Sir BALL'S ' Theory of Screws .
+' Thus .
+where ) ) ( 4.31 ) is a linear inatio of four linear functions .
+, the quaternions supl)osed given while the scalars are val'iable .
+It equently of to use the notation . . . . .
+, when the bilinear function is regarded as a function of ( 1 or as a function of 108 .
+An arbitrary point ?
+a united ) ointoJ a definife of it not critical of the tenth order .
+If is assumed to be a united point of a function determined by , , : and solutionl of the equation in its third form is , . . . .
+, where is auxiliary function corresponding to where is the fourth invariant of ( Art .
+( ] 03 TlIis solution is definite ( Art .
+15 ) , provided does not lie upon the critical curve .
+IONS To exhibit the nature of this curve , observe that .
+( 436 ) for all quaternions \amp ; c. ; or , in the notation of Art .
+65 , . . . . .
+( 437 ) , whenever ( 435 ) is satisfied .
+But we have seen that ( 437 ) represents a curve of order rank , which is common to all the quartic surfaces obtained by deleting one quaternion within the double brackets ( 436 ) .
+The solution may be expressed in a more explicit form by means of the identity ( 438 ) , so that we may write ( 434 ) in the form ; ( 439 ) .
+109 .
+When the point on the critical is ) point of fnnction of a determinate , two-.systera .
+In this case the solution of ( 433 ) is ( Art .
+15 ) . . . .
+( 440 ) ; or ( 441 ) .
+Thus may be any point on the line joining the point to \mdash ; the Jacobian correspondent of ; and consequently a determinate two-system exists , every function of which has for a united point ( compare Art .
+123 ) .
+110 .
+Similarly for the conjugate four-system , a point is a united point of a definite function , unless it happens to lie upon the conjugate critical curve . . . . .
+( 442 ) , where is the auxiliary function of ( 1 ) ) , but we must observe that is not the conjugate of Now the reciprocal of a united point of ) ( the conjugate to of ) is a united phne of the original four-system .
+And thus an arbitrary plane is the united plane of some definite function , but if the plane belongs to the developable ( 442 ) it is a common united plane of a definite two-system of functions determined by . . . . .
+( 443 ) .
+Ten these singular planes pass through an arbitrary point ; the order of developable surface is ; and the order of the cuspidal curve* is * ' Three Dimensions , ' Art .
+327 .
+PROFESSOR C. J. JOLY ON AND EOMETRY .
+295 111 .
+It is obvious this theory that the united points of functions of this system compose definite tetrads , so that one point of a tetrad being give the remaining three generally deternunate .
+In fact ( 434 ) is a quartic transformation connecting united points with the auxiliary points , so that one point corresponds to one point , while four points ( 1 correspond to one point .
+For a given poin , these four points are by ( 434 ) the intersections of the quartic surfaces , for arbitrary quaternions ( 444 ) .
+But these surfaces have a common curve ( 435 ) ; and three surfaces having a mon curve intersect in . . . . .
+( 445 ) points not on the common curve , and this number is 4 when , as in the present case .
+112 .
+The locus of points " " \ldquo ; determining functions , of lvhich united point a given line , is a unicursal twisted quartic .
+When we replace by in the second of write . . . . .
+, and the form of the equation establishes the proposition .
+In like manner we have ( 447 ) .
+113 .
+For every intersection of the line with the critical curve , the quartic If is the value of the scalar for a point on the critical curve , and both vanish , or \ldquo ; 1 . . . .
+( 448 ) .
+We may employ these equations to eliminate and inld ( 417 ) ; and discarding the factor , we find . . . .
+( 449 ) .
+The locus of is nowa twisted cubic , and the discarded factor corresponds to a lin of the nature of those of Art .
+109 .
+When the line meets the critical curve twice , the locus is conic and ) of lines .
+If the line is a triple chord , the locus is one line of a new type three lines of the type already mentioned .
+Finally , ) a quadruple chord , the quartic reduces to a point and four lines , as we shall see immediately .
+But first we notice that the arguments of ) , so that may write down the equation of the quartic curve whose points determine functions , each 29 SSOIi C. J. JOLY ) ' AND PROJECTIVI GEOMETRY .
+which has a united plane through a given line .
+If the line lies in one or more of the planes of the developable ( 442 ) , the quartic degrades in the manner explained .
+114 .
+Otberwise we say that ( 446 ) and ( 447 ) determine a system of functions .
+which destroys the line point by point .
+Or counting unity as function , it be said that a five-systenl is equired to destroy a linle poin by point .
+However , when the line intel'sects the curve once , twice , 01 ' thrice , it can be destroyed iatim by a four- , , or two-system of functions .
+) , in the of triple sectio we llay write ; ; , going one stel ) ful .
+there , in the case of a chord . . . . .
+Thus of is line of uniled a function .
+And because the numbel of uple chords of curye is Three imeIlsions , , or 20 for learn that of the } } have line loci ] of ' the critical cu rve .
+The mula ( gives 80 as the order of the surface of triple chords .
+115 .
+locus a point determines united point in a is a sextic The functions and being HAMILTON'S auxiliary functions for , the relations ; ; . . .
+( 453 ) are satisfied , provided is a united point of , and suitable scalars .
+If lies iu a given plane , these equations , with that of the given plane , the relations ( 454 ) , linear in essing that common we the equation of the sextic surface . . . . .
+( 455 ) .
+116 .
+sextic surface has a double of th enth order a of united ) in the plane .
+If the first , second and third of equations ( 454 ) as planes in intersect in a common line , the fourth plane will also pass through that line .
+The condition for common line is . . .
+( 456 ) , C. J. where and eo are cel.tain scalars .
+this by we have by Art .
+( 457 ) , remembering ( Art .
+108 ) that 1 ( p ) , , and are the invariants of .
+But this relation gives linearly in terms of and there r , as asserted , the fourth plane will also pass through the common lin Hence it appears that ( 45G ) , or its equivalent , Il ( l ) , . . . . .
+, represents a double curve on the sextic ( 455 ) ; for if is any point this only will ( 455 ) be satisfied , but the equation of the tangent plane at that point will also vanish , since every set of three quaternions included in the brackets of ( 455 ) is then linearly connected .
+The order of this curve is 7 , by Art .
+Moreover , ( 456 ) expresses that a united line of the function passcs the point , or , reciprocally , that a united line of the function lies in the plane 117 .
+point ( the function for rvhich ) is a a on the scxtic .
+If is this point , and if are the roots of the function answeJ i to the united points in the plane , it follows from the fun damental properties of the auxiliary functions that ( 459 ) ; and consequently the tangent plane and the polar quadric of the ) to the surface ( 455 ) vanish identically .
+The point is therefore a triple paint .
+118 .
+It may be noticed that in of , any three points in the plane , the triple point is . . . . .
+( 460 ) ; also in terms of these three points , if II , , . . .
+( 46i ) .
+-Consequently if , we may replace the system of equations ( 454 ) by .
+( 462 ) , where ; , ( ) ; ( 463 ) ; and and may be written down from symmetry .
+VOL. CCI.\mdash ; A. 2 AND CTIVE G Moreover , when we specially select the points as the united points of the function , and when we form successive polars of with respect to and , we find ( Art .
+97 ) in terms of the latent roots corresponding to and ( 464 ) , becanhe ( pb ) , . . . . .
+( 465 ) , and similarly in the other cases .
+Thus the equation of the sextic may be written in the form ( 466 ) , and the third polar of the point is . . .
+( 467 ) .
+Thus the tangent cone at the triple point breaks up into three planes .
+In the same notation the double curve is represented by \mdash ; .
+( 468 ) ; and forming the polars , the point is seen to be triple and ( 469 ) represents the system of tangents at the triple points\mdash ; the lines of intersection of the planes and We may add that the equation of the cone , vertex on the curve is . . .
+( 470 ) .
+119 .
+This surface resembles a SrEINER'S quartic in many particulars , but it is a degraded case of the general surface . . . .
+( 471 ) , where ( xyz)4 is the general quaternion function of three homogeneous scalar parameters .
+The general surface is of the 16th order .
+The STEINER quartic may be written , a general quaternion quadratic function of Surfaces of this type arise from the general transformation . . .
+( 472 ) of the order , being the transformations of planes .
+PROFESSOR C. J. JOLY ON RNIONS ANY ) Y. ) The twisted quartics of Art .
+112 correspond to the conics on the quartic .
+The sextic surface contains ten lines corresponding to the ten points in which the plane intersects the critical curve of the tenth order , for to every point on that curve corresponds a two-system of functions or a lin in the space ( Art .
+109 ) .
+Again , the sextic an infinite number of twisted cubics corresponding to the lines in the plane which pass through one of these ten points ( Art .
+113 ) ; and it likewise contains conics answering to the connectors of these points .
+More generally ( Art .
+113 ) a conic through five of these points transforms into a twisted cubic , and similarly other cases .
+120 .
+When we express that the twisted cubic ( 449 ) is plane , the condition . . . . .
+( 473 ) is of the tenth order in and .
+of the sixth in , which latter point we may suppose to be on the critical curve .
+This condition will then represent a cone of the tenth order of the lines through the point which transform into plane curves in the space .
+But this cone must consist in part of the cone of the ninth order containing the critical curve .
+The remaining part is a plane , and every line in this plane through transforms into a plane cubic .
+In particular , an arbitrary plane cuts the critical curve in ten points and intersects ten planes of the type just mentioned in lines which into plane cubics on the sextic surface .
+Here again is a point of similarity with the STEINER quartic , for the plane containing one of these cubics cuts the sextic again in another cubic .
+121 .
+Corresponding to plane in the space there is a Jacobian qual.tic . . . . .
+( 474 ) in the space , the locus of united points of functions of the three-system detel'mined by points in the plane .
+All these quartics intersect in the critical curve ( 437 ) .
+In like manner to a line in the space corresponds the twisted sextic curve . . . .
+( 475 ) , the locus of united points of a two-systenl .
+The locus of Jacobian correspondents of points in the plane is the sextic curve . . . . . .
+( 476 ) .
+Now any one of these sextics is the residual of the critical curve in the intersection of a pair of Jacobian quartics , and a curve meets its residual in points , where . . . . . .
+( 477 ) .
+fn particular for ?
+, we ; so there twenty intersections , but I propose to show that these reality correspond to ten contacts .
+Take , curve , and let a point of intersection and take to be the Jacobian correspondent of that ( 1 ) .
+Tben the tangent to the C is . . .
+( 478 ) .
+But this tangent lies in tangent ) lanes at the same point to the system of quartics ( ] ( 2 ) , where is as these contain the critical curve , the sextics touch this curve where they meet it .
+122 .
+Hence , Tocus of the ondents of points on the curve a of the tenth ; for in the plane there are ten points which are Jacobian correspondents of points on the critical curve .
+cobian qtic of plcme lines .
+The tangent plane to the Jacobian at a point on the critical curve , corresponding to one of the ten points just mentioned , intersects the plane of Art .
+120 in a line which transforms into a plane cubic on the sextic surface into which the tangent plane to the quartic transforms , But the quartic transforms into a tangent plane to this sextic , and therefore contains the cubic , consequently the quartic contains the line . .
+We shall now consider the orders of the surfaces and curves into which given surfaces and curves are transformed by the relation connecting and .
+With an arbitrary surface in the space is associated a complementary , so that the points of the two surfaces compose tetrads of united points of functions of the four-system .
+These two surfaces , of orders and respectively , into a common surface of order An arbitrary line in the space cuts the surface in points , and to these correspond points in the space situated on a sextic curve ( 475 ) .
+This curve cuts the surface in points , and these are generally united points of distinct nctions , because the surface is arbitrary .
+Hence Again , the sextic cuts the surface in 6 points , but these fall into triads of united points complementary to the points .
+Hence ; and we have the let formula . . . .
+( 479 ) .
+More generally , if the surface is wholly composed of sets of united points , ( 480 ) .
+here is a case of exception a Jacobian transforms into a plane and not a surface of the sixth degree as ( 480 ) would for .
+But here the sextic curye cuts the quartic in 4 points and PROFESSOR C. J. JOLY ON QUATERNIONS AND CTIVE GIFTIiY .
+301 touches it in 10 points on the critical curve ( Art .
+121 ) , and the four points correspond to the intersection of the line with the plane in the ) , while to the ten points correspond lines of the type mentioned in Art .
+109 .
+We learn , therefore , that an right line in the space ten of these lines , and that they compose a critical surface of the tenth .
+This is otherwise justified the consideration that an quartic nation c into a surface of the sixteenth and the fact that a plane into d ) sextic shows that critical surface of the order has been The equation of the of the Jacobiau will be Art .
+127 .
+124 .
+In like manner , taking an curve in the of order , let its complementary be of order , and let both into a curve of order N. The curve , being , will not intersect the critical curye , and the in which it cuts the quartic , transformed from an al.bitral.y plane in the ] ) space , will correspond point for pomt to the points in which the transformed curve cuts the plane .
+Thus onsider further the intersections of the and its complementary with an bitrary surface and its complementary .
+The curve meets the complementary of the surface in points , and the complementary of the curve meets the surface in .
+In general , each point of one set corresponds to one point of the other set , and the two sets compose pairs of united points .
+Thus by ( 479 ) ; and we have the coml ) let formula ( 481 ) .
+The whole set of ) oints of intersectio of the curve and .
+complementaries is al.ranged as \mdash ; The points unite with of the points in Mm tetrads .
+The points and unite with 2 of the points to tetrads , and thus by ( 481 ) and(479 ) all the points are exhausted ; and there are but .
+But the curve ( N ) intersects the ( n ) in Nn points , and consequently there emain over 20 Mm points , which are critical points the transformed curve and surface .
+These points evidently must lie on the critical surface of Art .
+123 .
+When a curve is wholly composed of pairs of united points , the order of the transformed curve is , and the order of the complementary is An arbitrary surface and its complementary do not intersect in a wholly composed of pairs of united points , though of course the curve of rsection will contain all the pairs of united points which lie on the surface .
+It does not seem to be easy to assign any general elation connecting the orde of a of this nature with that of its transformed curve .
+Thus the order of the curve transfol'med from the cubic intersection of a plane with its complementary ( Art .
+116 ) .
+302 PROFESSOR C. J. ON fFRNION AN1 ) PROJECTIVE 125 .
+We may account for the of intersection of the pair of sextics derived from two arbitrary planes in the following manner .
+Call the two planes and , and their complementary cubics and .
+The complementary of the line ( PP ' ) forms part of the intersection the cubics and and this curve is a cubic ( 481 ) .
+There remains , therefore , a sextic as part of the intersection of and .
+The complementary of the cubic curve ( PC ' ) is a curve of the ninth order , part being the cubic , and the remaining part the residual sextic on and .
+This sextic is wholly composed of pairs of united points .
+The line and its complementary cubic transform into a common quartic .
+The cubic ( PC ' ) , the cubic and the residual sextic transform into a common curve of order ( compare the last article ) .
+Thus we can only account for a curve of order 16 , and the sextics consequently intersect in a singular curve of order 20 . .
+The complex lines pairs of is of th fourth order : If , and are any two points on a line joining united points , . . . . .
+( 482 ) , where determines the function .
+The theory of quaternion arrays allows us to write the condition that these two equations should be simultaneously satisfied in the form* ( 483 ) where are arbitrary quaternions ; and by the rules of expansion of arrays , this equation is equivalent to . . .
+( 484 ) , where the signs follow the rules of determinants .
+As this is of fourth order in and ) , and also combinatorial with respect to both , it represents a complex of the fourth order .
+127 .
+By ( 433 ) and ( 434 ) we have , . . . . .
+( 485 ) ; and throughout this article we shall suppose expressed as a quartic function of One root of the latent quartic of ( pq ) is thus equal to , so that when we substitute in the equation of that quartic ( Art .
+103 ( 420 ) ) , we have identically ( 486 ) .
+The equations of the various ageq of chords of Art .
+113 lllay ) discuss , d by the .
+of arrays .
+PROFESSOR C. J. JOI ON AND GEOMETRY .
+The direct interpretation of this identity is that the transformation converts the Jacobian into two , one the Jacobian and the other the surface of the twelfth order . . .
+( 487 ) .
+This surface is the locus of three of the united points of functions which have a zero latent root , the fourth united point lying on the Jacobian The critical curve is triple upon this surface , and the surface meets the Jacobian again in a residual curve of the eighteenth order , which is the locus of united points corresponding to a double zero root .
+128 .
+Making the substitution in the latent quartic of the function the equation reduces to ( 488 ) .
+A second root of the original quartic is equal to if . . .
+( 489 ) , and this is the locus of united ) correspond to double latent .
+This surface is of the twelfth order , the critical curve is a triple curve upon it , and it meets the Jacobian in the same curves as ( 487 ) .
+The locus of united points corresponding to triple latent roots is the curve of intersection of this surface with the surface of the eighth order . . . .
+( 490 ) .
+But the critical curve is double ou ; surface , and accordingly it counts six times in the ection , so that the locus oftriple points is a curve of order 129 .
+Further , quadruple united points are the points common to the surfaces ( 489 ) , ( 490 ) , and . . . . .
+( 491 ) , which do not lie upon the common critical curve .
+In order to calculate the number of these quadruple points it is necessary to find the number of points common to the critical curve and the curve locus of triple points .
+Now 24 functions have triple zero roots , this being the number of points common to the surfaces in the / ) space ; and the curve locus of triple points being of the order meets in 144 points .
+Subtracting 24 , there remain 120 points on the critical curve .
+The triple curve therefore intersects ( 491 ) in 24 quadruple united points , and in C. J. .J points the critical curve ; and thus } ) of the system harc eq ' and coalesced united points .
+, suppose that two roots of ( 488 ) are zero and that the remaining two arc equal .
+In this case ( 492 ) ; and this equation , combined with ( 489 ) , gives a curve locus of order 36 , of . ?
+ohose reots We have now outlined the theory of the four-system , but in a later section some Snpp .
+will on this )ject .
+SECTION XVIII .
+' HE ADRATIC T OF IN of th Use .
+the Itil , ea 2 Art .
+Page 131 .
+The quadratic transformntion .
+The cctads of points . . . . .
+304 13 A line transforms generally into a , but into line if it is a connector of points of an octad , or ( what is cquivalcnt ) of correspondents Harmonic pl'operties . . . . .
+305 133 .
+The into which Jacobian correspondents transform . . . . .
+305 134 .
+The arrangement of ectors and Jacobian correspondents in a plane . . . . .
+306 135 .
+The points of an octad and the twenty-eight connector . . . .
+306 136 .
+A planc transforms into quartic . . . . .
+307 1.37 .
+Geometrical relations .
+The conics of . . . . .
+307 138 .
+The focal points on a ray of the lency of . . . . .
+308 139 .
+The of complementary ioci and of the loci in to which they t..ansform . . .
+309 140 .
+The complementary of the Jacobian is the focal surface of the congruency of connectors . . . . . .
+The focal suvfacc of the transformed tecbors is the transformed Jacobian and the reciprocal of a symmetrical ) . . . . . .
+310 142 .
+The rical characteristics of the two congruencies 311 131 .
+The general quadratic transformation in space is represented by the equation ( 493 ) , in it is obviously permissible to regard the bilinear function as , or the four linear functions ( 409 ) as self-conjugate .
+The transformation involves 40 constants .
+C. J. JOLY ON QUATERNIONS AND PROJECTIVE GEOMETRY .
+305 .
+To a plane in the space corresponds a quadric , or ( 494 ) transform one into the other ; and thus to one point correspond eight points the intersections of three quadrics\mdash ; and to one point corresponds in general one point We use the word octad to denote group of eight points corresponding to 132 .
+The right line transforms into the conic ( bb ) ( 495 ) , and and ) are two points on the conic , while ( ab ) is the pole of their chord .
+The condition for the collinearity of these three points is , , ( 496 ) ; and this equation may be replaced by , or ( 497 ) ; and this expresses that the original line joins Jacobian correspondents .
+Thus times joining correspondents trcm.sform into lines .
+In this case ( Art .
+104 ) of the permutable function , if . . . . .
+( 498 ) , the points and are conjugate to every quadric of the system ( 494 ) .
+We may replace ( 498 ) by ( 499 ) , or points harmonically conjngcvte to nsform into single pcint .
+Thus we may speak of the rays of the assemblage of lines represented by ( 496 ) as connectors , ( 1 ) of a pair of Jacobian correspondents , ( 2 ) of a pair of points of an octad , ( 3 ) of an infinite number of pairs of points of octads .
+It is eyident that when two points of an octad coincide , they unite on the Jacobian ; and that eyery point on the Jacobian is the union of a pair of points of an octad .
+133 .
+The correspondents transform into limiting points , separating the points derived from real from those derived from points .
+The points on the transformed connector .
+500 VOL. CCI.\mdash ; A. 2 306 PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE GEOMETRy .
+are transformed from the points ; these latter are real if is positive ; otherwise they are imaginary .
+To discriminate between the outer and the inner region on the line ( 500 ) , observe that the vectors from the centre of reciprocation to the limiting points are and that the vector to the point is ( 501 ) ; ( 502 ) .
+The point lies on the inner region if ( rr ) and are of like sign ; and the region corresponds to real points if the points and are either both inside or both outside the quadric . . . . . .
+This quadric is the locus of points projected to infinity ; it may of course be imaginary , so that ( rr ) and are essentially one-signed if and are real .
+In this case the region is always inner .
+If the quadric is real , the points and ( if real ) cannot both lie inside , for they are conjugate to it .
+The nature of the intersection of a lin with this quadric controls the nature of the conic into which it is ansformed .
+134 , The of the Jacobian correspondents of points in a plane is a sextic curve , and for the permutable function this sextic cuts an arbitrary plane in points which correspond in pairs .
+There are therefore three connectors in a plane .
+The vertices of the triangle of belong to the same octad ; for if is one vertex and and the points , one on each of the connectors through , which Art .
+belong to the same octad as , then and belong to a common octad , and their line is a connector\mdash ; the third connector in the plane .
+We may suppose the weights of the points and chosen so that the Jacobian correspondents are . . . . .
+( 604 ) , the vertices of the triangle being ( Art .
+132 ) harmonically conjugate to these points in pairs .
+135 .
+Let the eight quaternions which represent points of an octad have their weights chosen so that* \amp ; c. . . .
+It follows from Art .
+132 , that this convention is the same as that mado at the end of the last article .
+PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVL GEOMETRY .
+307 and let the twenty-eight points be denoted by , \amp ; c. . . . . .
+( 506 ) .
+It may be remarked that these relations lead to . . .
+( 507 ) ; so that the points ( 506 ) , although real , if the points of the octad are real , have been from imaginary points , and consequently do not lie in the same region ( Art .
+133 ) as the point The Jacobian correspondents transform into , \amp ; c. 136 .
+A plane transforms STEINER'S Tn the notation of the last article , the plane . . . .
+( 508 ) transforms into the surface ( 509 ) ; and if we write the identity connecting the five quaternions in the form . . . . .
+( 510 ) , comparison with ( 509 ) gives . . . . . .
+( 511 ) on elimination of the parameters .
+This is the scalar equation of the surface , and the existence of the three intersecting double lines , which characterize a STEINER'S quartic , is manifest .
+Evidently the three connectors transform into the double lines ; and the points the lines into regions intersected by a pair of real and a pair of imaginary sheets of the surface .
+137 .
+The nature of the surface into which a plane transforms may be established from purely geometrical considerations .
+A tangent plane to the surface transforms back into a quadric touching the plane , that is , cutting it in a pair of lines .
+These lines transform back into conics in the tangent plane and on the surface .
+One poin of intersection of these conics corresponds to the point of intersection of the lines .
+The other three points must result from the union of pairs of points of octads , and therefore the lines must cut the sides of the triangle in points harmonically conjugate to the Jacobian correspondents .
+The conics consequently intersect the lines into which the three connectors transform , and these three lines must be double .
+In terms * It is easy to verify this by dstermining the groatest and least value of for real values of and .
+Compare ( 609 ) .
+of the parameters , the equations of a pair of lines transforming into conics in a common plane must be .
+( 512 ) ; this is a consequence of the harmonic section .
+Two lines thus related may be said to be conjugate , and there exist four self-conjugate lines ( 513 ) , any one of which transforms into a conic having ring-contact with the quartic .
+The planes of these four conics transform back into cones , touching the plane along the self-conjugate lines .
+The self-conjugate lines join triads of non-corresponding Jacobian points , such as It is easy to see that the four conics are inscribed to the faces of a tetrahedron , and that each touches the other three .
+Consider , for example , the conics transformed from the sides of the triangle , .
+The equation of one conic is ( 514 ) ; and this shows that the conic passes through a limiting point on each of two of the double lines ; and as the pole of the chord is symmetrical with respect to the suffixes , it is likewise the pole of corresponding chords for the conics into which the other sides of the triangle transform .
+It is not difficult to prove that every line in the plane through one of the six points transforms into a conic having a fixed .
+The tangent for the point is ( 515 ) .
+138 .
+Let a connector meet the in the points and and bemg correspondents so that ; let and be the correspondents of and ; and consider the points of an octad in the plane .
+The two connectors and bb ' in this plane intersect in the point , and as is its own harmonic conjugate with respect to and , two sides of the triangle of Art .
+134 unite in the line .
+Let , be the harmonic conjugate of with respect to and , then , is a vertex of the infinitely slender triangle , the remaining two being the point counted twice .
+( Compare Arts .
+and 134 .
+) The point , being the intersection of the connector with a consecutive connector , is a point on the ray of the congruency ( 496 ) ; and similarly the harmonic conjugate of to and , is the second focal point ; and by HAMILTON'S theory the ray touches the focal surface at these two point *This theorem of construction of the focal points is an extsnsion of Mr. RuSSELL'S theorem tho lency of lines joining corresponding points on the Hessian of a cubic surface .
+RUSSELL , " " Geometr of Surfaces derived from Cubics ' Proc. Roy .
+Irish Acad vol. , p. 464 .
+PROFESSOR C. J. JOLY ON AND PROJECTIVE GEOMETRy .
+309 In this case the plane transforms into the surface ( , ) ( 516 ) , and if we take ( as we may ) , the scalar equation of the surface takes the form , where ( 517 ) .
+On comparison with we see that two of the of the STETNER'S quartic have united ; for we have the counted four times .
+139 .
+By a process similar to that of Arts .
+123 and 124 , but much simpler , we caIl determine the order of the complementary of a surface of order , and the order of the surface into which both transform .
+The formula is ( 518 ) , where is the number of points of octads of which the surface is wholly composed .
+* And this formula is proved without trouble , .
+that a line in the space transforms into a twisted quartic\mdash ; the intersection of two quadric surfaces .
+In like manner for a curve ( M ) , its complementary ( M ) and its transformed ( N ) , ( 519 ) .
+Thus the complementary of a connector is a twisted cubic ; the complementary of a plane is a surface of the seyenth order , which cuts the plane in the triangle of connectors and in a quartic\mdash ; probably the four lines of Art .
+137 .
+The formulae of this article are not directly applicable to the Jacobian , which is a critical surface of the transformation .
+The twisted quartic into which a line in the space transforms , cuts the Jacobian in 16 points and does not in general touch it .
+For if it did the twisted quartic would have a double point .
+Consequently , the Jacobian transforms into a surface of the sixteenth order .
+very point on the *For the general transformation of order , the rslation is For a transformation of order For example , , where is the equation of the twisted cubic six points and it is not difficult to verify that this cve and the line transform a common line ) if the form an .310 PROFFSSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE GEOMETRy .
+Jacobian is the union of a pair of points of an octad ( Art .
+132 ) , and therefore the complementary surface is composed of hexads of points of octads , and its order is consequently 24 , or six that of the Jacobian , because the quartic cuts it in a hexad for every point of intersection with the Jacobian .
+140 .
+of the is the focal of the congruenc.of When two points of a set transforming into a common point approach coincidence , they close in on the Jacobian , and simultaneously the remaining points of the set reach the complementary surface .
+Through any one of these remaining points two consecutive connectors pass ; and therefore , by HAMILTON'S beautiful theory , the points are focal points on the rays connecting them to the coincident points .
+very ray touches the focal surface in two points \mdash ; the two focal points on the ray ; and for a quadratic transformation it cuts that surface in twenty other points .
+These points are harmonically conjugate thoe the harmonic conjugate of any one of the points belongs to the same octad as that poin ; but the focal surface is complementary and is wholly composed of hexads of points of octads , and therefore the harmonic conjugate is also on the focal surface .
+141 .
+The of the trcmsforrned mectors is the Jacobian .
+On transformation the harmonic conjugates on a connector unite .
+In the of Art .
+138 , the point and the focal point , unite in a focal point of the transformed connector , for through pass two consecutive connectors which transform into consecutive connectors through .
+arly the points and , transform into the second focal point and the transformed Jacobian is consequently the focal surface .
+The twenty points of the last article transform into ten points .
+The Jacobian correspondents and transform into limiting points ( Art .
+133 ) .
+Thus we accounted for the sixteen points in which transformed connector meets its ocal surface .
+The of the trcmsformed Jacobian ? .
+In the space draw a plane through an arbitrary line to touch the surface .
+This plane contains a pair of consecutive transformed connectors , and on passing back to the space it becomes a quadric containing consecutive intersecting connectors .
+This quadric is therefore a cone .
+The system of planes through the arbitrary line transforms into a system of quadrics through a twisted quartic , and four of these quadrics are cones .
+To these four cones COl.respond four tangent planes to the focal surface through the arbitrary line .
+Hence we may write down the equation of the reciprocal of the transformed Jacobian .
+The condition that the quadric should be a cone is This theorem is true for the connectors of a set of points to a coincident pair of the set for all transformations .
+If , then PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE GEOMETRY .
+311 . . . . . . .
+( 520 ) , where is the vertex , for the tangent plane must vanish identically .
+Hence the foul.th invariant of must vanish , or . . .
+( 521 ) , and this is the equation of the reciprocal of the surface .
+Thus the transformed Jacobian is the reciprocal of a Jacobian surface , but one of less generality than those previously considered .
+We may replace ( 520 ) by four equations ( 522 ) ; and because is a permutable fun.ction , on replacing by and eliminating and , we obtain the symmetrical determinant , , , , , , , , , , , , ( 523 ) .
+But ( ' Three Dimensions , ' Art .
+528 ) a surface , whose equation is a determinant with constituents linear in the variables , has ten double points .
+This accounts for the class of the surface being 16 instead of 36 .
+In the case in which the function is self-conjugate as ] as pel'mutable , that is when and may be transposed in ( qr ) in any manner , we have the theory of the corresponding points on the Hessiau of the general cubic surface and Mr. RUSSELL'S paper may be referred to for various examples .
+142 .
+The characteristics of congruenc , ies are found thus .
+The order of the congruency of connectors is obviously , as seven conmectors can be draw1 ] fro1ll an arbitrary point to the remaining points of the octad to which the point belongs .
+The class is , for three connectors lie in a plane .
+The order of the focal surfacc Art .
+is .
+Tts class is This follows from the relation ( ' Three Dimensions , ' Art .
+510 ) . . . .
+( 524 ) ; or ntly by Mr. RUSSELL'S elegant method* which is applicable in this general case .
+For the transformed congruency , the order is Art .
+, the order of the focal surface is , and its class is ( Arts .
+139 , 141 ) ; and therefore ( 524 ) the class of the congruency is Proc. Roy .
+Acad vol. 5 , p. 473 .
+312 PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE GEOMETRy .
+Consequently twenty-two connectors are generators of a quadric ; and in particular the polar adric of a point with respect to a cubic surface contains 22 generatorsjoining corresl ) onding points on the Hessian .
+SECTION XIX .
+APHY OF POINTS IN SPACE .
+The of the Use of the Bilinear Function .
+Art .
+Pago 143 .
+The relation establishes a one-to-one correspondence between the points and when is fixed . . . .
+: . . . . .
+312 144 .
+The homograph of a line is a twisted cubic .
+A line breaks off for every intersection with a critical twisted sextic . . . . .
+312 145 .
+The homograph of a plane is a cubic surface intersecbing the Jacobian in a critical sextic and a residual . . . . .
+313 146 .
+The lines on the cubic surface .
+The schemes of the double-sixes and triple tangent planes . . . . .
+314 147 .
+Points on a critical sexbic and their line homographs . . . . .
+314 148 .
+The complex of connectors of points with their , and the congruency of -connectors . . . . .
+315 149 .
+The uoncy of Jacobian connectors for the general bilinear function . . . . .
+316 143 .
+Writing generally , and regardin ) .
+as a constant quaternion , a one-to-one relation is established between the points and , so that one may be said to be the homograph of the other .
+This is equivalent to three relations of the form ( 526 ) ; and accordingly the bilinear function is not utilized to its full extent , but it seems to be the most convenient instrument for investigating the subject .
+144 .
+We have generally in the notation of Arts .
+107 , 108 , , . . . . .
+( 527 ) , and thus the critical cul.ves of the transformation are and ( 528 ) respectively ; or ( compare ( 437 ) ) and .
+C. J. JOLr ON QUATERNIONS AND PROJECTIVL These curves are sextics , and because ( 528 ) may be replaced by ( 530 ) , where , they may be described as the locus of Jacobian co1Tespondents of points in the plane reciprocal to the point .
+As in Art .
+109 , when a point ( q ) is on the critical curve , its raph is a line , . . . . .
+( 531 ) , and not a point ; and as in Art .
+112 the raph of a line ( ] is a twisted cubic . . . . .
+( 532 ) ; and a line of the type ( 5.31 ) breaks off the cubic for evcry intersection with the critical curve .
+Thus , when the line is a chord of the critical , its honlograph is also a line , so that , Symmetry shows that must be a chord of the second critical curye .
+If of a is plane , it ost the condition of planarity ( compare Art .
+120 ) . . . . .
+( 534 ) is of the sixth order in and in , and this equation represents a complex of the sixth order .
+But this complex include nothing except intersectors of the critical sextic , for the cone of intersectors from the arbitrary point is of the sixth order .
+The ruled surface of triple chords } been noticed in .
+The homograph of a plane . . . . .
+, a general cubic surface through the critical curve .
+This cubic surface also passes through the sextic . . . . . .
+, and it intersects the Jacobian in this sextic in the critical curve .
+The equation of the Jacobian may be written in the forms . . . . .
+( 537 ) , and for and both variable , the curves generate the Jacobian in a manner analogous to the double generation of a quadric .
+Since the rank of the sextic is ( Art .
+64 ) , the two curves intersect in 14 points ( 477 ) .
+VOL. CCI .
+\mdash ; A. 2 146 .
+It may be of interest to show how we can fully account for the lines on the cubic surface ( 535 ) .
+Let the six points in which the critical curve cuts the plane be denoted by the symbols 1 , 2 , 3 , 4 , ) , 6 ; and let ( 12 ) , ( 23 ) , \amp ; c. , denote the fifteen connectors of these points .
+Further let [ 1 ] , [ 2 ] , . .
+[ 6 ] denote the six conics that can be drawn through all but one of the six points .
+The curves points represented by these 27 ymbols tinto the lines on the cubic .
+By and ( 533 ) we account for the lines and the points .
+In general a unicursal curve transforms into a curve of thrice the order , but for every intersection with the critical curve a line breaks off .
+Thus the six conics likewise transform into lines .
+Any pair of these loci , which intersect in a point which is not critical , continue to intersect after transformation , and this consideration enables us to write down the full scheme of double-sixes on the cubic surface .
+These fall into three types:\mdash ; . . . .
+III .
+In these schemes , every line represented by a symbol in one row intersects every lin in the other row , except that denoted by the symbol in the same column .
+There are thus 36 double-sixes ; one of the first type , twenty of the second , fifteen of the third .
+The schemes are easily obtained by taking two non-intersecting lines , say 1 and [ 1 ] , when we have 1 intersects ( 12 ) , ( 13 ) , ( 14 ) , ( 1.5 ) , ( 16 ) , [ 2 ] , [ 3 ] , [ 4 ] , [ 5 ] , [ 6 ] , [ 1 ] , , ( 12 ) , ( 13 ) , ( 14 ) , ( 15 ) , ( 16 ) , 2 , 3 , 4 , 5 , 6 , and , discarding the common lines , the double-six is found .
+In like manner the 45 triple tangent planes belong to one or other of the types ( 1 , [ 2 ] , ( 12 ) ) or ( 34 ) ( 56 ) .
+147 .
+One or two relations respecting a point on a critical curve and its line homograph may be mentioned .
+Since the line ( 531 ) has a point for its homograph , it must be a triple chord of the sextic .
+It meets this sextic in three points , , and intersects the Jacobian in a fourth point or .
+To the three points correspond the three triple chords of the sextic which pass through ; and the homograph of every plane through the line is a cubic PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE GEOMETRY .
+having as a double point and containing the three triple chords which pass through The cubic homograph of any plane contains the critical sextic which counts thrice in its intersection with the octic surface of triple chords , and the remainder of the intersection consists of the six line-homographs of the critical points in the plane .
+The homograph of the surface of chords of the sextic , which meet the line is the cone whose vertex is and which contains the sextic .
+The homograph of one sextic is the surface of triple chords of the other .
+One chord can be drawn to meet two non-intersecting triple chords in points not on the sextic .
+Its homograph is the line joining the homographs of these chords .
+The locus of the points , the Jacobian correspondents of points on the critical curve , is a curve of the fourteenth order .
+For the octic surface intersects the Jacobian in the second critical curve counted thrice , and in a residual curve of order 14 .
+148 .
+Connectors of points with their homographs compose the complex of the sixth order ( pq ) , ( qq ) , r ( 538 ) , as appears on elimination of and from . . . . . .
+( 539 ) .
+Or in other words , this is the assemblage of lines which meet their twisted cubic homographs .
+The condition that two pairs of homographs should be on the same line is . . . . .
+( 540 ) , for if two sets of values of satisfy ( 539 ) , the five quaternions included in ( 540 ) must be co-planar .
+Now ( 540 ) imposes two conditions on the line , and therefore represents a congruency of lines ; and from the conditions implied in ( 540 ) we can select but two combinatorial functio1ls with respect to and .
+These are ( 541 ) ; and the congruency is therefore common to two complexes of the fourth and third orders respectively .
+But these complexes contain the congruency . . . . .
+( 542 ) , and this is foreign to the question , being , in fact , the congruency ( 496 ) of Art .
+132 of connectors for the permutable function .
+When this is rejected , there remains the congruency of connectors of two pairs of raphs , and its order and C. J. IOLY AND PROJECTIVE IETRY .
+class are , .
+for the ruency ( been shown to be of the seventh order and third class .
+tions ( satisfied , they are equivalent to . . .
+( 543 ) ; the first by and adding it to the second , we find that must satisfy quadratic . . .
+( 544 ) , if the sum can be luCed to the form ( 539 ) .
+The roots of this equation lead to the determination of the two pairs of homographs .
+bi-connectors of raphs which pass through a point are double edges of the cone of connectors of raphs , and those which lie in a plane are bi-tangents to the curve enveloped by ] connectors .
+This appears from the forms of the and ( 540 ) .
+149 .
+The congruency of connectors of Jacobian correspondents is intimately connected with the theory of the last article .
+We have already considered the case in which the function is permutable , but matters now are much more complicated .
+The may be expressed by . . . .
+, and it is obvious that it is included in the quartic complex , the first of ( 541 ) , and it is easy to verify that it is also included in the sextic complex ( 538 ) and that matter what on be .
+Replacing by in ( 545 ) and substituting in the equations of these two complexes we find that either , or else the lines must belong to the congruency ( 540 ) .
+In other words , the congruency of this article is complementary to the ruency of the last as regards the two complexes .
+But the rays of the former congruency count double as edges of cones or as tangents in planes .
+Hence the order and class of the ruency under discussion are , .
+These numbers are exactly double the corresponding numbers for the pel.mutable function , and as regards the class there is no difficulty in seeing how this arises .
+In general there are two sextic loci of Jacobian correspondents of points in a plane ( 528 ) , and the connectors in the plane join the six points of one to the corresponding six points of the other .
+For the permutable function the two loci coalesce , and the number of connectors is halved .
+Again , we may say that the lines of this new congruency through a point are fixed .
+of cone ( 5.38 ) , and the lines in a plane fixed ents to a sextic curve , SSOR C. J. JOLY ON NIONS AfETRY .
+:317 because they are independent of ; the lines of ruency are double edges and tangents .
+We proceed to determine the class of the focal surface .
+The equations . . . . .
+( 546 ) require a ray to intersect the fixed line , the equation of the locus of is , or ( 547 ) ; and this ( 274 ) is a curve of order and rank .
+But this curve is a complex curve consisting of the Iine and a residual which intersects it in four points on the Jacobian .
+The order and rank of the residual are ] the rank diminished by twice the number of intersections .
+The number ( r ) of tangent planes through to this curve minus twice the number of intersecions gives the number of planes consecutive .
+Thus the class of the focal is , and its order ( 524 ) is one of these numbers is double the corresponding number obtained in Art .
+142 for the permutable function .
+For the sake of completeness we wish to show the nature of the assemblage of lines common to the and the second complex , as we have already completely considered the lines common to the remaining two pairs .
+Evidently the congruency of -connectors belongs to these two ilexes and is counted twice among their common lines .
+There remains an assemblage of es of order , and of class .
+It is easy to prove by the method of this article that these lines join an arbitrary point to the eight correspondents of .
+in the quadratic transformation SECTION THE METHOD 0F Applications to n-S ?
+/ stems of Functions .
+Art .
+Page 150 .
+The expansion of arrays and the determinatio.n of the scalar coefficients . . . . .
+318 151 .
+Conditions that a function of an -system should convert quaternions into others 319 152 .
+Conditions for the conversion of points into others . . . . .
+319 153 .
+Conversion of lines and planes into others . . . . . . . .
+320 154 .
+Relations connecting points with their transformeds when conditions must be satisfied .
+The three types . . . . . . . . . . . . . .
+320 .
+The critical systems for fimctions of an -system .
+The four types . . . . . .
+321 156 .
+Conditions that a line may be destroyed by a single function of an systcm . . .
+322 157 .
+Conditions that a line may be destroyed point by point by an included -system .
+The various methods of destroying a plane .
+The destruction of a hvperboloid generator by generator . . . . . . . . . . . . . . .
+323 .
+We shall illustrate the method of quaternion arrays*by a few examples on systems of linear functions .
+These functions may be supposed to be of the most general kind , functions of a point in space of dimensions , but we pay particular attention to the case of three dimensions .
+An array of rows and columns vanishes if , and only if , the constituents in the rows are connected by the same set of scalar coefficients .
+Thus . . . . . . . . .
+( 548 ) , . . .
+when .
+It is proved in the memoir that the expansion of the array is of the form . . .
+; and we take definitely where ?
+, 1 , 2 or 3 .
+The number of equivalent scalar conditions is for the vanishing of a quate1nion array , and for an array of points in dimensions .
+The scalars , \amp ; c. , are determined when ( 548 ) is satisfied by the system of arrays of columns and rows , of which this array , . . .
+( 551 ) . . .
+is a type .
+' Trans. Roy .
+Irish Acad vol. 32 , pp. 17-30 .
+Every must be represented in the expansion , and ib may be gathered from the Memoir how to expand if one row involves only four constituents .
+In this case the general method fails .
+OFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE IETRY .
+If all the minor arrays formed by omitting one column of ( 548 ) vanish , we take any two of these minors , and forming second minors corresponding to ( 551 ) we obtain sets of relations ( 549 ) , and so on in general .
+151 .
+In order to find the conditions that a linear function of an -system should convert given points , . .
+into others , , we write down the array in rows and columns , ( 552 ) , whose vanishing requires . . .
+( 553 ) .
+The vanishing of this requires equations to be satisfied .
+If then , the array vanishes without restriction , single condition must be satisfied for the vanishing of the arrays , such as ( 551 ) , , \amp ; c. ( 554 ) , .
+and these determine the coefficients without ambiguity .
+Thus from a given -system can be found one function which shall convert given weighted points into other given weighted points .
+( Compare Art .
+3 .
+) 152 .
+When the weights are disregarded , the equations of condition are , . . . . . .
+( 555 ) ; and these furnish the array . . . . . .
+( 556 ) , . . .
+of columns and rows .
+Its vanishing requires conditions to be satisfied , and the vanishing of the minor arrays such as ( 551 ) requires a single condition if , and these definitely determine the function .
+Thus from -system can be found one function which converts points to others when the weights are neglected .
+In particular , a linear transformation can be found ( out of the whole sixteen-system ) to convert five points into five others ( Art .
+.3 ) .
+PROFESSOR C. J. JOLY ON AND PROJECTIVE ETBY .
+153 .
+When lines are to be converted into lines , the conditions are , and the array . . .
+00 00 . . .
+0000 . . . . . .
+00 of columns and of rows must vanish .
+The number of conditions is \mdash ; .
+Thus a function of a seven-system and of a -system respectively converts one and two lines into one and two In like manner , when planes are to be converted into planes , the array is of columns and of rows , and conditions for its vanishing .
+In neral for space of ensions a function of an -system is completely defined if . . . .
+( 559 ) , which given points , ?
+, lines , planes , \amp ; c. , into other given points , lines and planes , \amp ; c. 154 .
+We shall now suppose that the array ( 556 ) does not vanish without conditions restricting the generality of the points .
+all the points except and be given .
+lt is sufficient to consider the cases in which the number of conditions does not exceed three .
+By the expansion ( 550 ) we have , if , so that conditions must be satisfied , or if , . . . . . .
+( 560 ) .
+For it is obviously no use retaining any term , in which a not enter , as the minor array of this term has a column of zeros and vanishes .
+We thus have three types of conditions for , 2 or 3 , and these are of the forms , the functions linear , 1 .
+; II .
+; III . . . . .
+( 561 ) .
+PltOFESSOR C. J. JOLY ON QUATERNIONS AND .
+321 In type , if is given , lies in a ) plane ; and lies on a general cubic surface if is given .
+In type II , if is given , may be any point on a lin ; and if is given , may be any point on a twisted cubic .
+In the third , and either point is determined if the other is given .
+There is no difficulty in applying this method to the case of Art .
+153 .
+We must , however , include the case of four conditions being requisite .
+The last line must belong to a complex , a ) a ruled surface , or be one of a definite numbel of lines .
+155 .
+We shall now consider the critical cases when eYery first minor of ( 552 ) vanishes .
+The obtained by omitting the last colunm expands into .
+Here , as in the last article , we have the types .
+; IT .
+; 1II .
+; . . . . . .
+( 563 ) responding to , and Ncw , from the nature of arrays , though it does not appear directly from the form of the expansion , these conditions are all combinatorial functions of the points I. In the first place , for the type I we have for the Jacobian of a foursystem .
+Next , for we have a nditioned assemblage of lines of the fourth order , or a complex of the fourth order .
+These are the lines which can be destroyed by single functions of the system .
+For , ( 562 ) represents a one-conditioned assemblage of planes , and these planes envelope a surface of the fourth class , and each can be destroyed by a corresponding definite function of the system .
+For , the same equation represents a constant multiplied by the volume of the tetrahedron to the fourth power .
+II .
+Again , , and more particularly for , we have the critical sextic . . . . .
+( 564 ) , of three functions ; and for seven functions a ruency of lines common to a set of quartic complexes ; while for eleven functions we have a two-conditioned of planes , or a developable of planes enveloping certain surfaces of the fourth class .
+III .
+For ) ?
+there is first the system of united points of for a of functions , or .
+Secondly , a ruled surface of lines destroyed by functions of a six-system ; and thirdly , a determinate number of planes destroyed by V0L .
+functions of a ten-system .
+For a fourteen-system it requires an invariant relation to vanish .
+IV .
+This case requires a single function to destroy a.point ; it gives the lines destroyed by functions of a five-system ( of these there are 20 , compare Art .
+114 ) ; and it imposes a condition on a nine-system of functions , so that some function of the system may be capable of destroying a plane .
+For a thirteen-system an invariant relation must vanish if a critical case arises for non-coplanar points .
+I calculate the order of the Kummer surface of the quartic complex for the eightsystem to be 72 , and the order and class of the congruency of the double lines to be 24 .
+The lines of this congruency would seem to be capable of being destroyed by two-systems of functions selected from the eight-system .
+156 .
+More particularly , if the line can be destroyed by a single function of an -system , .
+( 565 ) ; and the array .
+( 566 ) must vanish .
+number of conditions is now , so that from a nine-system one function can be found to destroy an arbitrary line .
+For , we have the complex . . . .
+( 567 ) .
+If the plane can be destroyed by a single function ( 568 ) , and this requires conditions .
+For we have the surface enveloped by the plane ( compare the last article ) ( 569 ) .
+157 .
+When a line can be destroyed point by point by functions of a two-system selected from an -system , 2 , or ( 570 ) ; and the array ( 571 ) must vanish , or --2n conditions must be satisfied when the line is arbitrary .
+The ESSOR C. JOLY ON QUATEI[NIONS AND PROJECTIVF GEOMETRy .
+functions must satisfy conditions , as the line may be made to satisfy four .
+For a four-system one condition must be satisfied for the existence of a line of this nature , but for a five-system ( compare Art .
+114 ) a ruled surface of such lines exists , triple chords of a curve of the tenth order .
+If the line can be destroyed by functions of a three-system we have ( compare Art .
+114 ) and the resulting array is of 4 rows and columns , and vanishes if conditions are satisfied .
+Finally , if the line is destroyed seriatim by functions of an included four-system , conditions must be satisfied .
+We may state that the number of conditions required to determine an -system included in an -system is . . . . .
+( 573 ) .
+158 .
+As regards the destruction of planes , a plane may be destroyed en bloc , as in ( 568 ) , or line by line , or point by point .
+In the second case , or 2 ( 574 ) , with the condition O. Thus the array is . .
+( 575 ) . . .
+of 6 rows and columns , requiring conditions when we disregard This is the case in which function can destroy generator by generator .
+The same number of conditions must be satisfied even when the four points are supposed co-planar .
+Finally , the case in which the points are destroyed seriatim gives an array of columns and 6 rows , requiring conditions for its vanishing .
+From these articles we can clearly trace the way in which a of four functions may degrade , one of the most interesting being where it breaks up into a pair of quadrics , one of which is destroyed generator by generator by a twosystem .
+*In the paper on the interpretation of a quaternion as a point symbol , the equation i considered .
+It represents a ruled quadric and exhibits the dua ] generation .
+C. .I .
+JOLY ON RNIONS A ) PROJECTIVE GEOMETRY .
+SECTION XXI .
+THE ExTH : NSION OF METHOD TO Art .
+159 .
+The equation of a in terms of parameters . . .
+324 160 .
+The combinatorial equation of a flat . . . . . . .
+324 161 .
+The reciprocal of a flat . . . . . . . .
+325 162 .
+The symbol of a flat . . . . . . . .
+326 163 .
+The symbol of the reciprocal flat . . . . . . . .
+326 159 .
+Exactly as in quaternions we may regard the sum of a scalar and a line yecor in space of dimensions as the symbol of a weighted point .
+If ( 576 ) ; is the symbol of the point to which a weight is attributed .
+The poin represented by a sum of point symbols is the centre of mass of the weighted points , and the weight attributable to that point is the sum of the weights .
+The equation ( 577 ) , in which is a variable scalar , is the equation of the line The most general homographic divisions on two lines and are represented by ( 578 ) , in which the weights have suitably selecbed .
+The equation . . . .
+represents the plane of the points ; and more generally . . . .
+( 580 ) is the equation of the -flat containing the points I believe it is more convenient to call generally a plane space of dimensions an m-flat , and to retain the name for its ordinary signification\mdash ; a two-flat .
+160 .
+accordance with notation ( ' Elements , ' Art .
+365 ) we propose to write , .
+( 581 ) ; or iefly ; as the symbol of the -flat containing the points .
+PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIVE GEOMETRY .
+325 In order to justify this proposal , we obserye that the array ) changes sign whenever two contiguous elements are transposed .
+It consequently vanishes whenever one element is a scalar multiple of another , or whenever any group of elements is linearly connected by scalar coefficients ; and it does not vanish under any other conditions .
+It is equivalent to the most general one-row array that can be formed from the symbols because , according to the principles laid down on the subject of quaternion arrays , the general one-row array must be of the form . . . .
+; and the separable parts and of afford all the information contained in the general array with indeterminate scalars and The equation of the flat containing points may be written in the form . .
+( 5@4 ) , as this plies ( . .
+in which . .
+are variable scalars .
+161 .
+Returning to the relation ( 582 ) it is evident that is equal to the product of a scalar and a set of mutually unit vectors . .
+, in the -flat containing the points also apparent that is the product of a set of mutually rectangular unit vectors in the m-flat containing the origin and the points multiplied by a scalar .
+We may take this product of vector units to be . . .
+Thus we have . .
+( 585 ) , where , and where and are certain scalars .
+( Compare CLIFFORD'S ' Mathematical Papers , ' p. 398 .
+) From this we find the symbol of a definite point ( 586 ) ; and verify at once that this point is a conjugate of all the points with respect to the quadric .
+, because for any one of these points we have , as appears on reference to the equation ( 581 ) .
+S26 PROFESSOR C. J. JOLY ) QUATERNIONS AND PROJECTIVE GEOMETRY .
+In other words , is the reciprocal in the m-flat which contains the origin and the points of the -flat which contains the points For example , in three dimensions , ( 589 ) is the point in the plane which is reciprocal to the line 162 .
+A comparison of the equations ( 581 ) and ( 585 ) shows that the points . . . . .
+( 590 ) which infinity ) may be taken as defining the flat containing the points Hence , conversely , if is any function satisfying the equations of condition ; ( 591 ) , it is the symbol of an -flat .
+In fact , we can reduce this function to the form ( 585 ) and the proposition is evident by ( 590 ) .
+163 .
+The symbol of the flat reciprocal to with respect to the quadric ( 587 ) , S. , in an is . . . . . . . . .
+( 592 ) , where is the product of\ldquo ; \ldquo ; vector units in the -space , or . . . . .
+( 593 ) .
+In fact , from we obtain . . . . . .
+( 594 ) ; and defining points of this new -flat are ( 590 ) . . . . .
+( 595 ) .
+But all these points are conjugates , with respect to the auxiliary quadric , of the points ( 590 ) ; and therefore the flat is the reciprocal of the More symbolically , we have the relations ; ( 596 ) , and in particular for three dimensions we deduce the relations ; . . . .
+( 597 ) , connecting a line and its reciprocal ( compare p. 224 ) .
+PROFESSOR C. J. JOLY ON QUATERNIONS AND PROJECTIyE GEOMETRY .
+327 For odd spaces , if or , the flat and its reciprocal , and , are of the same order .
+This is the case for a line in three dimensions , and we recover from the general form.ulae ; relations which I have elsewhere given connecting the symbols of reciprocal lines .
+We are now prepared with all the necessary machinery for the geometry of flats and of their reciprocals .
+TABLE CONTENTS .
+Page Introduction . . . . .
+223 Section I. Fundamental geometrical propertles of alinear quaternion function 226 II .
+The classification of linear quaternion functions . . . . . .
+233 III .
+Scalar invariants . . . . .
+241 IV .
+The tions of a pair of quadrics , depend on the nature of the function . . . . .
+247 .
+The square root of a linear quaternion function . . . . . .
+250 VI .
+The square root of a fumction in relation to the geometry of quadrics . . . . . . . . .
+252 VII .
+The family of curves and their developables . . .
+254 VIII .
+The dissection of a lirlear function . . . . .
+256 IX .
+The determination of linear transformations which satisfy certain conditions . . . . . . . .
+, . . . . .
+260 X. Covariance of functions . . . . . .
+264 XI .
+The numerical characteristics of certain curves and assemblages of points . . . . . . . . .
+267 XII .
+On the geometrical relations depending on two functions and on the four functions and . . . . .
+271 , , XIII .
+The system of quadrics Sq ' and some lestions relating to poles and polars . . . . . . . . . .
+279 XIV .
+Properties of the general surface . . . . .
+281 XV .
+The analogue of HAMILTON'S operator . . . . .
+286 XVI .
+The bilinear quaternion function . . . . .
+288 XVII .
+The four-system of linear functions . . . . .
+292 XyIII .
+The quadratic transformation of points in space . . . . .
+304 XIX .
+Homography of points in space . . . . . . . . .
+312 .
+The method of arrays . . . . . . . . . . . . . . .
+317 XXI .
+The extension of the method to hyper-space . . . . . . . .
+324
+

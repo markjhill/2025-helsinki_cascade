@@ -1,0 +1,124 @@
+I. " On Tangential Coordinates .
+" By the Rev. JAMES BOOTH , LL. D. , F.R.S. Received March 20 , 1858 .
+Many years ago , after I had taken my degree , I was much interested in the study of the original memoirs on reciprocal curves and curved surfaces , published in the 'Annales Mathematiques ' of Gergonne , and in the works of such accomplished geometers as Monge , Dupin , Poncelet , and Chasles .
+In the course of my own researches , it occurred to me that there ought to be some some way of expressing by common algebra the properties of such reciprocal curves and surfaces , some method which would , on inspection , show the relations existing between the original and derived surfaces .
+I was then led to the discovery of a simple method and compact notation from the following considerations .
+But before I state them , it is proper to mention that I published the discovery in a little tract which I printed at the time , of which the title was , On the Application of a New Analytic Method to the Theory of Curves and Curved Surfaces .
+' This little tract , which is now out of print , as only a few copies were printed , excited but little attention .
+Nor is this to be wondered at .
+Mathematical researches , and , indeed , I might add , scientific pursuits in general , command but small attention in this country , unless they promise to pay .
+The obscurity of the author , and the remoteness of a provincial press , still further account for the little notice it obtained .
+Besides , it must in fairness be added , that the materials were hastily and crudely thrown together ; that to save space , the demonstrations were for the most part omitted , and that the principles on which the method rests were not so clearly explained as to enable an ordinary reader , -who had to incorporate with his own thinking the notions of another , to pursue the train of argument , or the successive steps of a proof with facility and conviction .
+This may to some extent also explain why the method has hitherto received so little countenance as not to be admitted into any elementary work on the application of the principles and notation of algebra to the investigation and discussion of the properties of space .
+But the addition of a new method of investigation to those already in use , the development of its principles , with illustrations of the mode of its application , are surely not of less value to a philosophical appreciation of what that is in which mathematical knowledge truly consists , than the giving of problems , which , while they embody no general principle , are yet often difficult to solve ; and when solved , frequently afford no clue by which the solution may be rendered available in other cases .
+The radical vice in mathematical instruction in this country and in our time would seem to be , that knowledge of principles and familiarity with methods of investigation are subordinated to nimble dexterity in the manipulation of symbols , and to cramming the memory with long formula and tabular expressions .
+Again , it often happens that an investigation , which , if pursued by one method , would prove barren of results or altogether impracticable , when followed out from a different point of view and by the help of another method , not unfrequently leads by a few easy steps to the discovery of important truths , or to the consideration of others under a novel aspect .
+Hence the multiplication of methods of investigation tends widely to enlarge the boundaries of science .
+My object in the following paper will be to show that problems of great difficulty , some of which have not hitherto been solved , while others by the ordinary methods admit only of complicated and tedious modes of proof , may by this method be treated with singular brevity and remarkable simplicity .
+I will first premise a few simple principles .
+Wlben two figures in the same plane , or more generally in space , are so related that one is the reciprocal polar of the other , then to every point in the one corresponds a plane in the other ; to every right line in the one a right line also in the other ; to any number of points in the same right line in the one , as many planes all intersecting in the same right line in the other ; to any number of points in the same plane in the one , as many planes all meeting in the same point in the other .
+I might easily proceed to any lengtl with this enumeration of the reciprocal properties of curves and curved surfaces .
+Hence given a series of points , lines , and planes , we may construct a series of as many planes , lines , and points , according to a fixed and simple law .
+Now we know that in the application of algebra to geometry by the method of coordinates , a point is determined in position by its projections on three coordinate planes , or by three equations , that is by three conditions .
+A right line may in like manner be determined when we are given the positions of two points in it ; and a plane is determined by one condition , which is called its equation .
+But in the inverse method , a point should be determined by one condition , a right line by two , and a plane by three .
+Again , a right line enay be determined by considering it as joining two fixed points , or as the common intersection of two fixed planes .
+Now all these conditions may be expressed by taking as a new system of coordinates the segments of the common axes of coordinates between the origin and the points in which they are met by a moveable plane .
+Thus if these segments be designated by the symbols X , Y , Z , the three equations which determine a plane are X= constant , Y= constant , Z= constant .
+Again , the equation in ( x , y , z ) of a plane passing through a point of which the coordinates are xyz , and which cuts off from the axes of coordinates the segments X , Y , Z , is -z 1 .
+Now this is the projective , or common equation of the plane , if we make x , y , and z vary , and consider X , Y , Z as constant .
+But we may invert these conditions , and consider x , y , z constant , while X , Y , and Z vary .
+And the equation now , instead of being the common equation of a fixed plane , becomes the inverse or tangential equation of a fixed point .
+In this latter case let a , / 3 , and y be put for x , y , and z , and 1 - , for X , Y , Z ; then the equation may be written o+/ u+4-= 1 , which may be called the tangential equation of a point .
+Moreover , as the continuous motion of a point , in a plane suppose , subjected to move in accordance with certain fixed conditions expressed by a certain relation between x and y may be conceived to describe a curve , so the successive positions of a straight line cutting o off segments from the axes of coordinates , having a certain relation to each other , may be imagined to wrap round or envelope a certain curve , just as we may see a curve described on paper by the successive intersections of a series of straight lines .
+Hence there are two distinct modes according to which we may conceive all curves to be generated , namely by the motion of a tracing-point , or the successive intersections of straight lines ; by a pencil or straight edge , as a joiner would say .
+These conceptions are the logical basis of the methods by which the principles and notation of common algebra are generalized from the discussion of the properties of abstract number to those of pure space .
+The former view gave rise to the method of projective coordinates , the latter suggests the method of tangential coordinates , a term which I was the first , I believe , to invent and apply .
+It is sometimes very easy to express both the projection and tangential equations of the same curve or curved surface ; it is frequently a matter of extreme difficulty .
+Thus , if the projective equation of an ellipsoid be x2 y , z " awe +2+ 2-c its tangential equation will be a22 + b2v2+c C2= 1 , a , b , e being , as in the preceding equation , the semiaxes .
+Again , if we take the evolute of the ellipse whose equation is y-+ nx =m3 , the tangential equation of the same curve is 42 + nu32= mn2422 .
+I shall not attempt to introduce into this abstract the formul1e for the transformation of coordinates , or the several elementary expressions which belong to this system , and which must be investigated and known before the method can be used as an instrument of investigation or analogy .
+My object is rather to give a specimen of the method in the solution of some very difficult problems , and to show how it may be made a powerful instrument of analytical investigation .
+On the Sucface of the Centres of Curvature of an Ellipsoid .
+It is well known to geometers that the lines of greatest and least curvature at any point on the surface of an ellipsoid are at right angles to each other , and that they may be constructed by the intersections of two confocal hyperbolas , a single-sheet one and a doublesheet one .
+It is also known that these three surfaces are reciprocally orthogonal , or that any two of them cut the third along its lines of curvature where the three intersect in a point .
+If we fix on the ellipsoid as the surface whose lines of curvature are in question , and normals be drawn to the surface of the ellipsoid along any given line of curvature , the radii of curvature will not only lie on these normals at the successive points , but they will all , taken indefinitely near to each other , constitute a developable surface , and the line of centres of curvature will constitute its edge of regression .
+Hence if we draw tangent planes to the two hyperboloids at this point , they will intersect in the normal to the ellipsoid , and will also be tangent planes to the above developable surface .
+Let the equation of the ellipsoid be 1x2 y2 12 a2+ +2 + T2or as the surfaces are confocal , we may put a2--b2=h2 , a2-c2=k2 .
+Hence this equation may be written x2 2 , a-2 2+ a2 1+a I. ?
+... .
+( 1 ) a a-2_n2 a2-k 2 Let o be the transverse axe of the hyperboloid passing through the point x'yfz ' , and we shall have XN2 y12 2 a2 +2 h2 r a2 k2 ( 2 ) Now the tangential equation of this hyperboloid is 22422 +( 2_h2)v2 + ( a2k2 ) 2= .
+( 3 ) But the equation of the tangent plane to the hyperboloid at the point ( x'y'z ' ) is xxt yy1 zz ' 2+ ( -h)+ a2k2- ; s* ( 4 ) and as the planes which touch the ellipsoid and hyperboloid at the common point ( x ' , y ' , z ' ) are at right angles to each other , we have , moreover , xl+ y1v z 0 .
++ a,2h2 + a2-k2= -= .
+( 5 ) Hence eliminating xf , y1 , z1 , and a , we shall have , finally , ( + V2 + 2)2[ +t ](a2 62V2 + C2-1)i ) .
+( ) ) This is the tangential equation of the " surface of centres of curvac ture , " or as it may for brevity be called , the surface of centres .
+This surface in general consists of two sheets , one generated by one centre of curvature , the second sheet by the other centre .
+Let a perpendicular P on a tangent plane to the surface of centres make the angles X , p , v with the axes of coordinates , then P-= cos X , Pv= cos p , P &lt; = cos v , and the last equation may be written 1 =Cos2 X cos2 tl COS ] ( a2cos2X + 6cos2 + ccos2 P2 ) .
+( 7 ) La +2+c( Now the first member of this equation represents _- , the inverse semidiameter squared of the original ellipsoid , making the angles X , p , v with the axes , and a2 cos2X + 62 cos2 + c2 cos2 =2 is the square of the perpendicular on a tangent plane to the ellipsoid parallel to the tangent plane to the surface of centres .
+Hence P2= P2 ... ... . .
+( 8 ) Whence we have this remarkable property of the surface of centres : Any two parallel tangent planes being drawn to the surface of centres and to the ellipsoid , the difference of the squares of the coincident perlpendiculars let fall upon them from the centre is always equal to the square of the coinciding semidiameter of the ellipsoid .
+We may reduce the original equation ( 6 ) to the form b2c22 + a2c2v2 " a2b22 62c2)2a22v2 2 ( a2--)2c242v2 + ( a22)26242 2 ... ... ... .
+( 9 ) By giving to a set of constant values , we might determine the tangential equations of the sections made in the plane of xy by the cone whose vertex is in the axis of z , and which envelopes the surface of centres .
+But it will be better to determine the sections of the surface made by the principal planes , and this may be effected by putting X , v , 4 successively equal to oo and 0 .
+Hence we shall have in the planes of yz , xz , and xy , the sections whose tangential equations are ( a2-_ 2)2c22 + ( a2)2b2= in th an o , ( C2Vcs2)2a2p2 _62)2c242=a2 in the plane of xz , ( z T c2)2a2 &lt; 2+ ( a2-62)2c2Y2=a2c2 lane of xz a2+2 2=2 22 2)22 &lt; 2 the ( a -c2)262 + -(62 2)2a2C ^ )2 v 22 +a"2 ( 2 2)2 2 in the plane of xy .
+b^^ra ^.^ -P^v^ } Hence the sections of the surface of centres in the principal planes are two in each ; one an ellipse , the other the evolute of an ellipse .
+On the umbilical lines of Curvature .
+Among the French mathematicians there has been much difference of opinion as to the nature of the lines of curvature which pass through the umbilicus of the ellipsoid .
+Some hold with Monge and Dupin , that the two lines of curvature which everywhere else on the surface are at right angles to each other , here merge into one .
+This is such a violation of the law of continuity , that others adhere to the opinion of Poisson and Leroy , to the effect that at the umbilicus the radii of curvature are all equal , and that there is an infinite number of rectangular systems of lines of equal curvature all passing through the umbilicus .
+An examination of the surface of centres will demonstratively show that the latter opinion is the correct one .
+For this purpose let a tangent plane to the surface of centres be drawn through the umbilical normal .
+Now theprojective coordinates of the umbilicus are x'=aV/ _yY , z-C c/ b2 C ( 10 ) Va -C 2V a --C2 and the segments of the axes of x and z cut bff by the normal are ( b2--c ( 2-c2 ) ( _ V(a2-c2)(a2-b- ) ( 1 ) Z. .
+, ( -0ll ca Hence the tangential equations of the normal in the plane of xz are ?
+2 a2 22= 52= .
+( ll ) = ( a2_ c2)(b2 - ) ' c2 ( a2 2)(a2 ) ( 11 ) Now substituting these values of 4 and 4 in the equation ( 9 ) of the surface of centres , we shall have for the value of v2 the following expression:[(a2-b2 ) + ( 2C2 ) + ( c2-_a2)]v2= a2b2c2(ab 2_ ) + ( b2c2 ) ?
+( c2-a2 ) ] , rv .
+( 12 ) i of t-2)a2-n)gt pe ma b Hence an infinite number of tangent planes may be drawn through the umbilical normal to the surface of centres .
+The principal sections of the surface of centres in the mean plane , or in the plane of z , the plane of the greatest and least axe , possess some very curious properties .
+The tangential equations of these sections are c242 + a242= ( a2C2)22422 ( 13 ) ( a2 b2)2c242+ ( b2c2)a24 = a2C2 Now the former of these is the tangential equation of the evolute of an ellipse , while the other is that of an ellipse whose semiaxes are the radii of curvature at the extremities of a and c in the planes of xy and zy diminished by a and c. It is easy to show , that if through the four umbilici of the ellipsoid normals to the surface be drawn , they will lie in the plane of xz , they will touch the evolute internally and the ellipse externally in the same points , so that the lozenge formed by the four normals will be inscribed in the evolute and circumscribed to the ellipse , and the distance b63 of the point of contact to the umbilicus will be equal to ac The respective areas of the lozenge , of the inscribed ellipse , and of the circumscribed evolute , are connected by relations independent of the axes of the ellipsoid .
+It is in these four points , and in these four points only , that the two sheets of the surface of centres touch each other .
+We should find on investigation , that the points of intersection of the sections of the surface of curvatures in the other principal planes are the one set real , while the other are imaginary , as in the subjoined figure .
+It may easily be shown , as in the preceding figure , that in the principal planes of the surface of the centres of curvature , the vertices of the diameters of the evolute and ellipse are the vertices of the ellipse and evolute in the adjoining plane .
+Thus the semiaxes OX , Oa of the evolute and ellipse in the plane of XZ are the semiaxes of the ellipse and evolute in the plane of XY .
+There are many other curious properties of this surface which will be developed in the memoir .
+Before passing from this surface , I would mention that the fundamental property of the surface of centres suggests a simple property of the evolute of an ellipse .
+Parallel tangents being drawn to an ellipse and its evolute , and perpendiculars from the centre let fall upon them , the difference of the squares of these ppeendiculars is equal to the square of the semidiameter of the ellipse which coincides with the perpendiculars .
+I will proceed with a few other applications of the method .
+For example , A surface of the second order touches seven given planes , to find the locus of its centre .
+Let the tangential equation of the given surface be 42 + v,2+ a , + 2v/ 3 4 2IP32 + 20 &amp; + 2y + 2yv + 2yl,4= 1 , and let the twenty-one coordinates of the seven given planes be 4 , vf , Vz ; .
+, v " , '"f ; V4 , vff,.u , t &amp;c. Substituting these values successively in the preceding equation , we shall have seven linear equations by which we may eliminate the six quantities a , a ' , a " ; / 3 , ff , 3 " The resulting equation will also be linear , and of the form Lie +My + Ny +1 =0 , which is the equation of a plane .
+Now y , ' , , and , , , as may be shown , are the projective coordinates of the centre of the surface .
+Hence the centre of the surface moves along a plane .
+When there are eight planes , we may then eliminate y or y/ , and the two resulting equations will become Lie +Myj 1-=0 , L'yNy,1 0 , or the centre will move along a right line .
+Again , perpendiculars are let fall from n points on a plane , the sum of the squares of which is constant , the plane will envelope an ellipsoid .
+Should the sums of the squares be varied , the successive surfaces will all be confocal ellipsoids .
+To show that if two surfaces of the second order are enveloped by a cone , they may also be enveloped by a second cone .
+Let the vertex of the cone be taken as the origin of coordinates , and let their tangential equations be a42 + aM 2+ aj2 + 2/ v + 214t + 2t , ,4v + 2yt + 2y7v + 2y,4 i , a42 + a , v2 + aJ42 2 +2v 2b , + 2b,4v + 2c v+ 2c v+2 2c , ,= 1 ; and as the common tangent planes must pass through the origin , , v5 are the same in the equations of the two surfaces ; but at the 111 origin =0 , --=0 , =0 .
+At this point let 4= v , v=--4 .
+Sub4t v4 stituting these values in the preceding equations and dividingby 4= oo , to2 + o%J2 + % , + 234h + 2Fj3 + / , -=-0 } aq~2 + a,2 + a , l + 2b4 + 2b6 , + 26bj+ 2b , = J and as these equations represent the same tangent plane , they must be identical .
+Hence we shall have , introducing an equalizing factor X , a=Xa , al=X , , a , ,}=Xc , b=Xj3 , bj , =X\ , b , ,=/ 3 , .
+Making these substitutions in the preceding equations , they become a42 + Xv2 + 2 , ,22 +2 +2v _ 2 , -+ 2)+v + 2y 2yv + 2yjj= 1 , \A42 + Xa v2 + Xac 42 + 2X/ I3v + 2XfjI4 + 2X13 , Iv + 2c4 + 2cv+ 2c , =4 1 .
+Multiplying the former equation by X , and subtracting from it the latter , we get ( Xy-c)4+ ( X , , ) + ( Xyl c , ,)v= x1 , the tangential equation of a point which is the vertex of the second enveloping cone .
+Now the projective coordinates or the xyz of this point are Xy-c\Xy--cj XZ __-c_ X --1 X --Again : as at the beginning of this abstract we assumed the wellknown property that three confocal surfaces of the second order which meet in a point intersect each other at right angles , so if a tangent plane be drawn to three concyclic surfaces , the three points of contact , two by two , will subtend right angles at the centre .
+The proof of this is very simple .
+Let the tangential equations of two concyclic surfaces be a242 + 62 , V2 + c242 1 , a,242 + B2v2 +e C24 1 .
+Subtract these equations one from the other , and we shall have ( aa,2 ) 2+ ( 2 6 +2 ) + ( c2-_ 0)42= 0 .
+And as these surfaces are concyclic , a-a2 12 b2 T2= k2 ' C2 c2 k Making these substitutions , 2a 242 + &amp; b2^,2v + c2c 2420 ; and if A , u , v are the angles which a semidiameter r through one of the points of contact makes with the axes , x a24 62b c24 cos = -=- , cos u '-- , cosy= - .
+rrrr Similarly , for another point of contact and semidiameter r ' , we have COS X* a25 2v f C(2 cos X= -/ , cos u ' , ' cos Ov -Ir r r ' whence cos X cos XI +os cos cos + cos v cos v=-0 , or r and r1 are at right angles .
+But facility of proof is not the sole advantage of this method .
+It enables us to bring prominently into view that great principle of duality which is involved in all our geometrical investigations .
+This principle may be familiarly stated in the form , that every geometrical theorem or mathematical truth has its double .
+As an illustration of this , let us take the tangential equation of the surface of curvature , ( 42 + 2)2= +2++ ](a V+ v+ - ) , and instead of 4 , v , 4 , write down x , y , z , introducing the constant r to render the equation homogeneous , and it becomes F yX2 +2 z 2_(+b1 y.+- ) ) .
+( 14 ) ( x2+ y+z2)2=[ + +j(a2+ y2+c-4 ) face , and let x , y , z be the projective coordinates of the point of contact of the tangent plane ; then di da dv d4 d_ d~ d d~ d dv d+ dI d\ -7 ?
+S+ -Jv. . ?
+, ? ? ? ? ? ? ?
+( 15 ) d= dt dv d+ By the help of these three equations and the original equation = p( , v , v)= 0 , we may eliminate 4 , v , ~ , and obtain the final equation in x , y , z. Again , let F=f(x , y , z)=0 be the projective equation of a curved surface .
+The tangential coordinates i , v , r of the tangent plane drawn through the point ( xyz ) may be found from the following expressions:dF g dx dF dF dF x+-y+ -Z dx die dz dF die d , ( 16 ) dF dF dF ( _j_y+TZ dF dz dF dF dF -X+Z+dx die d7 As an application of this method , let it be required to find the expressions for the projective coordinates of the surface of the centres of curvature .
+If we apply the general expressions ( 15 ) to the particular eqlation ( 9 ) , we shall have =_(a b)2 a c\ 12j = -42 V2 42 a( 62 + c ) Y2 v22 ( 17 ) ___ __ a2 6c 42 v2 42 2+ c+ a2 22 The foregoing propositions will give some idea of the fertility of this method , and of the ease and simplicity of its application .
+I propose to develope it systematically in the memoir , of which this is merely a specimen .
+Many other systems of coordinates may be imagined , such as the parallel system of Chasles , or the curvilinear ordinates of Lame ; but it may be questioned whether there is any system so directly reciprocal to the Cartesian method as this of Tangential Coordinates .
+Note .
+Since the above abstract was written , my attention has been drawn to the results of an elaborate investigation of the projective equation of the surface of the centres of curvature , by the Rev. Go Salmon , Fellow of Trinity College , Dublin , and published in the Quarterly Journal of Pure and Applied Mathematics of Feb. 1858 .
+Although this surface has been familiarly known to the continental mathematicians since the time of Monge , none of them have ventured to grapple with the enormous difficulties which stand in the way of exhibiting its projective equation , or its equation in xyz .
+These difficulties have been surmounted by Mr. Salmon ; and the resulting equation , which is of the twelfth degree , contains no fewer than eighty-three terms .
+

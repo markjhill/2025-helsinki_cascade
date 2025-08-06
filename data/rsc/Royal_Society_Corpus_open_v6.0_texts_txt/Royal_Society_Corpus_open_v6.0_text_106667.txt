@@ -1,0 +1,87 @@
+XXIV .
+Some Properties of the Sum of the Divisors of Numbers .
+By Edward Waring , M. D. F. R. S. Read May 29 , 1788 .
+1 .
+LET the equation x 1 .
+x2 1 .
+x3 1 .
+~ 1 .
+x5 1 .
+... xn 1= xb pxb-1 + qxb-2 rxb-3 + sxb-4 &amp;c. = xb xb-1 xb-2 + xb-5+xb-7 xb-12 xb-15 + xb-22 + xb-26 xb-35 xb-40 + xb-51 + xb-57 &amp;c. ... xb-n ~ &amp;c. =A= 0 .
+The signs + and proceed alternately by pairs unto the termxb-n .
+The co-efficients of all the terms to the above mentioned ( xb-n ) will be + 1 , 1 or 0 ; they will be + 1 , when multiplied into xb-v , where v= 3z2 + z/ 2 or = 3z2 z/ 2 , and z an even number ; but 1 , if z be an uneven number ; in all other cases they will be = 0 .
+The numbers 1 , 2 , 5 , 7 , 12 , 15 , 22 , 26 , 35 , 40 , &amp;c. subtracted from h may be collected from the addition of the numbers 1 , 1 , 3 , 2 , 5 , 3 , 7 , 4 , 9 , 5 , 11 , 6 , &amp;c. which consist of two arithmetical serieses 1 , 3 , 5 , 7 , 9 , 11 , &amp;c. 1 , 2 , 3 , 4 , 5 , 6 , 7 , &amp;c. intermixed .
+2 .
+The sum of any power ( m ) of each of the roots in the equation A=0 will be S ( m ) , where S ( m ) denotes the sum of all the divisors of the number m , if m be not greater than n. Cor. Hence ( by the rule for finding the sum of ( m ) powers of each of the roots from the sum of the inferior powers and co-efficients of the given equation ) may be deduced S ( m ) = pS ( m 1 ) qS ( m 2 ) + rS ( m 3 ) sS ( m 4 ) + tS ( m 5 ) &amp;c. =S ( m 1 ) +S ( m 2 ) S ( m 5 ) S ( m 7 ) +S ( m 12 ) +S ( m 15 ) S ( m 22 ) S ( m 26 ) + &amp;c. which is the property of the sum of divisors invented by the late M. EULER .
+Cor. By substituting for S ( m 1 ) , S ( m 2 ) , &amp;c. their values S ( m 2 ) +S ( m 3 ) S ( m 6 ) S ( m 8 ) + &amp;c. , S ( m 3 ) +S ( m 4 ) S ( m 7 ) S ( m 9 ) + &amp;c. &amp;c. in the given equation S ( m ) =S ( m 1 ) +S ( m 2 ) S ( m 5 ) S ( m 7 ) + &amp;c. may be acquired an expression for the sum S ( m ) in terms of the sums of the divisors of numbers less than m 1 , m 2 , &amp;c. the same method may be used for a similar purpose in some of the following propositions .
+Cor. By the rule for finding the sum of the contents of every ( m ) roots from the sums of the powers of each of the roots may be deduced the equation ~ 1 .
+2 .
+3 .
+4 ... m , or o=1 m. m-1/ 2 S(2 ) + m. m 1 .
+m-2/ 3 S ( 3 ) m. m 1 .
+m 2 .
+m-3/ 4 S ( 4 ) + &amp;c. + m. m 1 .
+m-2/ 2 .
+m-3/ 22 S ( ( 2))2 &amp;c. in which the sum of the divisors of any number m is expressed by the sums of the divisors of the inferior numbers m 1 , m 2 , &amp;c. and their powers .
+If v be an even number , then ~ 1 .
+2 .
+3. .
+m will have the same sign as the co efficient ; if uneven , the contrary ; but if the co-efficient = 0 , then will the content 1 .
+2 .
+3. .
+m vanish .
+The law of this series is given in the Meditationes Algebraicae .
+3 .
+Let H be the number of different ways by which the sum of any two numbers 1 , 2 , 3 , 4 , ... m 2 , m 1 , can become = m ; H ' the number of ways by which the sum of any three of the above-mentioned numbers can make m ; H ' ' , H ' ' ' , H ' ' ' ' , &amp;c. the number of ways by which the sum of any four , five , six , &amp;c. of the above-mentioned numbers is =m respectively ; then will 1H+ H ' H ' ' + H ' ' ' &amp;c. =~1 or 0 .
+Let m= 3z2~z/ 2 , and it will be +1 or 1 , according as z is an odd or even number , in all other cases it will be = 0 .
+PART II .
+1 .
+Let the equation be x 1 .
+x2 1 .
+x3 1 .
+x5 1 .
+x7 1 .
+x11 1 .
+x13 1 .
+x17 1 ... xn 1 .
+&amp;c. = xb pxb-1 + qxb-2 rxb'-3 + sxb'-4 &amp;c. = xb ' xb'-1 xb'-2 + xb'-4 + xb'-8 xb'-10 -xb'-11 + xb'-12 + xb'-16 xb'-17 xb'-19 + xb'-20 xb'-23 +2 xb'-24 -xb'-26 xb'-27 + xb'-28 , &amp;c. = A ' = 0 ; the sum of any power ( m ) of each of the roots in the equation A ' =0 will be S ' ( m ) , where S ' ( m ) denotes the sum of all the prime divisors of the number m , and m is not greater than n. Cor. Hence , by the rule before-mentioned S ' ( m ) = S ' ( m 1 ) + S ' ( m 2 ) S ' ( m 4 ) S ' ( m 8 ) + S ' ( m 10 ) + S ' ( m 11 ) S ' ( m 12 ) S ' ( m 16 ) + S ' ( m 17 ) + S ' ( m 19 ) S ' ( m 20 ) + S ' ( m 23 ) 2S ' ( m 24 ) + S ' ( m 26 ) + S ' ( m 27 ) S ' ( m 28 ) + S ' ( m 29 ) , &amp;c. If in this , or the preceding , or subsequent analogous cases S ( m r ) , or S ' ( m r ) , or Sl ( m r ) , becomes S ( o ) , or S ' ( o ) , or Sl ( o ) ; for S ( o ) , or S ' ( o ) , or Sl ( o ) , always substitute r. Cor. Let L be the co-efficient of the term xb'-m ; then , by the above-mentioned series contained in the Meditationes Algebraicae , will 1 .
+2 .
+3 .
+4 ... .
+mxL=1 m. m-1/ 2 S ' ( 2 ) + m. m 1 .
+m-2/ 3 x S ' ( 3 ) m. m 1 .
+m 2 .
+m-3/ 4 x S ' ( 4 ) + &amp;c. + m. m 1 .
+m 2 .
+m-3/ 8 x S ' ( ( 2))2 &amp;c. be an equation , which expresses a relation between the prime divisors of the numbers 1 , 2 , 3 , 4 ... m 1 , m , and their powers .
+Cor. The co-efficient L= the difference between the two respective numbers of different ways that m can be formed adding the prime numbers 1 , 2 , 3 , 5 , 7 , 11 , 13 , 19 , &amp;c. the one with , and the other without , 2 .
+PART III .
+1 .
+Let an equation x~ 1 .
+x~ 1 .
+x~ 1 .
+x~ 1x &amp;c. = xh pxh-1 + qxh-2 rxh-3 + &amp;c. = 0 ; then will the sum of the ( m ) powers of each of its roots be the sum of all the divisors of m , that can be found amongst the numbers ~ , ~ , ~ , ~ , &amp;c. 2 .
+The co-efficient of the term xh-m will be the difference between the two respective numbers of different ways , that the number ( m ) can be formed from the addition of the numbers ~ , ~ , ~ , ~ , &amp;c. ; the one containing in it an odd number of the even numbers contained in ~ , ~ , ~ , ~ , &amp;c. ; the other not .
+PART IV .
+1 .
+Let xl 1 .
+x2l 1 .
+x3l 1 .
+x4l 1 ... . .
+xnl 1 .
+&amp;c. = xh pxh-1 + qxh-2l rxh-3l + &amp;c. = xh xh-1 xh-2l + xh-5l + xh-7l xh-12l xh-15l + &amp;c. =B= o , of which equation all the coefficients are the same as in case the first , and consequently =1 or 0 to the term ( xh-nl ) .
+2 .
+The sum of any power lxm of each of the roots of the equation B=0 will be Sl ( m ) , where Sl ( m ) denotes the sum of the divisors of m , which are divisible by l. Cor. Hence Sl ( m ) = Sl ( m l ) + Sl ( m 2l ) Sl ( m 5l ) Sl ( m 7l ) + Sl ( m 12l ) + Sl ( m 15l ) Sl ( m 22l ) Sl ( m 26l ) + &amp;c. ; the law of the series has been given in Case 1 .
+Cor. The sum of all the divisors of m not divisible by l= S ( m ) Sl ( m ) =S ( m 1 ) Sl ( m l ) + ( S ( m 2 ) Sl ( m 2l ) ) ( S ( m 5 ) Sl ( m 5l ) ) ( S ( m 7 ) Sl ( m 7l ) ) + &amp;c. A similar rule may be predicated of the sum of the divisors not divisible by the numbers a , b , c , d , &amp; c : for the sum of the divisors of the number ( m ) divisible by a , b , c , d , e , &amp;c. , where a , b , c , d , e , &amp;c. are prime to each other = ( Sa ( m ) + Sb ( m ) + Sc ( m ) + Sd ( m ) + Se ( m ) + &amp;c. ) ) ( ( S~xb ( m ) + S~xc ( m Sbxc ( m ) + Saxd ( m ) + Sbxd ( m ) + Scxd ( m ) + Saxe ( m ) + &amp; c ) ) + ( Saxbxc ( m ) Saxbxd ( m ) + Saxbxd ( m ) + S~xcxd ( m ) + Sa+b+c ( m ) + &amp;c. ) ) ( ( Sa+~+~+d ( m ) + Sa+b+c+e ( m ) + &amp;c. ) ) + ( ( Sa+b+c+d+ ( m ) + &amp;c. ) ) &amp;c. =l= the sum of all the divisors of m ... .
+divisible by a , b , c , d , e , &amp;c. respectively added together , the sum of all the divisors of m divisible by the products ( ab , ac , bc , &amp;c. ) of any two of the quantities a , b , c , d , &amp;c. + the sum of all the divisors of m divisible by the contents ( abc , abd , acd , bcd , &amp;c. ) of every three of the quantities a , b , c , d , &amp;c. the sum of all the divisors of m divisible by the contents of every four of the abovementioned quantities a , b , c , d , &amp;c. + and so on , and consequently S ( m ) C is the sum required .
+The principles given in the former parts may be applied to this , and extended to equations of which the factors have the formula xa~k ; and from the sum of the inferior powers of each of the roots , and the co-efficients may be collected the sum of the superior ; the same may be performed by the coefficients only , &amp;c. PART V. 1 .
+S ( ~ x ~ ) =~xS ( ~ ) + sum of all the divisors of ~ not divisible by ~=~xS ( ~ ) + sum of all the divisors of ~ not divisible by ~ .
+2 .
+Sl ( ~ x ~ ) =~x Sl ( ~ ) + sum of all the divisors of ~ divisible by l but not by ~= &amp;c. 3 .
+S ( ~ x~x~x~x &amp;c. ) =~xS ( ~ x~x~x ~ , &amp;c. ) + sum of all the divisors of ~x~x~x ~ , &amp;c. not divisible by ~= ~x~xS ( ~ x~x ~ , &amp;c. ) + sum of all the divisors of ~x~x~ x ~ , &amp;c. not divisible by ~+~x sum of all the divisors of ~x~x ~ , &amp;c. not divisible by ~=~x~x~xS ( ~ x ~ , &amp;c. ) + sum of all the divisors of ~x~x~x ~ , &amp;c. not divisible by ~+~x sum of all the divisors of ~x~x ~ , &amp;c. not divisible by ~+~x~x sum of all the divisors of ~x ~ , &amp;c. not divisible by ~=~x~x~x~xS ( ~ .
+&amp;c. ) + sum of all the divisors of ~x~x~x ~ , &amp;c. not divisible by ~+~x sum of all the divisors of ~~~ , &amp;c. not divisible by ~+~x~x sum of all the divisors of ~~ , &amp; c not divisible by ~+~x~x~x sum of all the divisors of ~ , &amp;c. not divisible by ~= &amp;c. The law of the series is manifest .
+The letters ~ , ~ , ~ , ~ , &amp;c. which are not contained between the parentheses , denote prime numbers .
+Cor. If some of the letters ~ , ~ , ~ , ~ , &amp;c. be substituted for others , and others for them , the equations resulting will be just , and consequently many new equations may be deduced .
+If in the preceding equations for S be wrote Sl , and for the sum of all the divisors of a certain quantity not divisible by a prime number ( ~ , or ~ , or ~ , &amp;c. ) be wrote the sum of all the divisors of that quantity not divisible by the same prime number , but divisible by l ; the propositions resulting will be true .
+These equations may be applied to the equations given in the preceding parts , and from thence many others deduced .
+

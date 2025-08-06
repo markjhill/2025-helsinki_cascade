@@ -1,0 +1,1057 @@
+[ 603 ] XIX .
+A Tenth Memoir on By A. Cayley , F.R.S. , Sadlerian Professor of Pure Mathematics in the University of Cambridge .
+Received June 12 , \#151 ; Read June 20 , 1878 .
+The present Memoir , which relates to the binary qnintic ( * fx , has been in hand for a considerable time : the chief subject-matter was intended to be the theory of a canonical form discovered by myself and which is briefly noticed in Salmon s 'Higher Algebra , ' 3rd Ed. ( 1876 ) , pp. 217 , 218 ; writing a , c , . . .
+u , v , w to denote the 23 covariants of the quintic , then a , b , c , d , f are connected by the relation/ 2= _ a ?
+d-f- ( Pbc\#151 ; 4c3 ; and the form contains these covariants thus connected together , and also e ; it , in fact , is ( 1 , 0 , c , / , aQb-3c\ ah-Zcffx , if .
+But the whole plan of the Memoir was changed by Sylvester 's discovery of what I term the Numerical Generating Function ( N.G.F. ) of the covariants of the quintic , and my own subsequent establishment of the Beal Generating Function ( B.G.F. ) of the same covariants .
+The effect of this was to enable me to establish for any given degree in the coefficients and order in the variables , or as it is convenient to express it , for any given deg-order whatever , a selected system of powers and products of the covariants , say a system of " segregates : " these are asyzygetic , that is , not connected together by any linear equation with numerical coefficients ; and they are also such that every other combination of co variants of the same deg-order , say every " congregate " of the same deg-order , can be expressed ( and that , obviously , in one way only ) as a linear function , with numerical coefficients , of the segregates of that deg-order .
+The number of congregates of a given deg-order is precisely equal to the number of the independent syzygies of the same deg-order , so that these syzygies give in effect the congregates in terms of the segregates : and the proper form in which to exhibit the syzygies is thus to make each of them give a single congregate in terms of the segregates : viz. , the left hand side can always be taken to be a monomial congregate aab^ . . .
+or , to avoid fractions , a numerical multiple of such form ; and the right hand side will then be a linear function , with numerical coefficients , of the segregates of the same deg-order .
+Supposing such a system of syzygies obtained for a given deg-order , any covariant function ( rational and integral function of co variants ) is at ' once expressible as a linear function of the segregates of that deg-order : it is in fact only necessary to substitute therein for every monomial congregate its value as a linear function of the segregates .
+Using the word co variant G04 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+in its most general sense , the conclusion thus is that every covariant can be expressed , and that in one way only , as a linear function of segregates , or say in the segregate form .
+Reverting to the theory of the canonical form , and attending to the relation p=\#151 ; a ?
+d-\-a2bc \#151 ; ^ , it thereby appears that every covariant multiplied by a power of the quintic itself a , can be expressed , and that in one way only , as a rational and integral function of the covariants a , b , c , d , e , f , linear as regards f : say every covariant multiplied by a power of a can be expressed , and that in one way only , in the " standard " form : as an illustration take Conversely an expression of the standard form , that is , a rational and integral function of a , b , c , d , e , f , linear as regards f not explicitly divisible by a , may very well be really divisible by a power of a ( the expression of the quotient of course containing one or more of the higher covariants g , h , \amp ; c. ) , and we say that in this case the expression is divisible , and has for its divided form the quotient expressed as a rational and integral function of covariants .
+Observe that in general the divided form is not perfectly definite , only becoming so when expressed in the before-mentioned segregate form , and that this further reduction ought to be made : there is occasion , however , to consider these divided forms , whether or not thus further reduced , and moreover it sometimes happens that the non-segregate form presents itself , or can be expressed , with integer numerical coefficients , while the coefficients of the corresponding segregate form are fractional .
+The canonical form is peculiarly convenient for obtaining the expressions of the several derivatives ( Gordan 's Uebereinanderschiebungen ) ( a , b)1 , ( , \amp ; c. ( or as I propose to write them ab 1 , ab2 , \amp ; c. ) , which can be formed with two covariants , the same or different , as rational and integral functions of the several covariants .
+It will be recollected that in Gordan 's theory these derivatives are used in order to establish the system of the 23 covariants : but it seems preferable to have the system of covariants , and by means of them to obtain the theory of the derivatives .
+I mention at the end of the Memoir two expressions ( one or both of them due to Sylvester ) for the N.G.F. of a binary sextic .
+The several points above adverted to are considered in the Memoir ; the paragraphs are numbered consecutively with those of the former Memoirs upon Quantics .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+The Numerical and Real Generating Functions.\#151 ; Article Nos. 366 to 374 , and * Table No. 96 .
+366 .
+I have in my Ninth Memoir ( 1871 ) given what may be called the Numerical Generating Function ( N.G.F. ) of the covariants of a quartic ; this was . .
+1\#151 ; a6*12 ' 1\#151 ; ax\ 1\#151 ; aV .
+1\#151 ; a2 .
+1\#151 ; a3 .
+1\#151 ; asx6 ' the meaning being that the number of asyzygetic covariants , of the degree 0 in the coefficients and order p , in the variables , or say of the deg-order O.g. is equal to the coefficient of aeaF in the development of this function .
+And I remarked that the formula indicated that the covariants were made- up of ( ax41 , a3cc4 , a3 , a3cc6 ) the quartic itself , the Hessian , the quadrinvariant , the cubinvariant , and the cubicovariant , these being connected by a syzygy a6#13 of the degree 6 and order 12 .
+Calling these covariants a , b , c , d , e , so that these italic small letters stand for co variants , Deg-order .
+1.4 a 2.0 b 2.4 0 3.0 d 3.6 e then it is natural to consider what may be called the Beal Generating Function ( B.G.F. ) : this is 1\#151 ; e2 1 -a .
+1 -b .
+1 \#151 ; c .
+1 -d .
+' the development of this contains , as it is easy to see , only terms of the form and aalfcydse , each with the coefficient +1 , so that the number of terms of a given deg-order 6 .
+[ a is equal to the coefficient of a6xf in the first-mentioned function : and these terms of a given deg-order represent the asyzygetic covariants of that deg-order : any other covariant of the same deg-order is expressible as a linear function of them .
+For instance , deg-order 6.12 , the terms of the B.G.F. are c3 : there is one more term e3 of the same deg-order ; hence e3 must be a linear function of these : and in fact e3=\#151 ; a3d-j-azbc\#151 ; 4c3 , viz. , this is the equation \lt ; \#163 ; 3=\#151 ; U3J+U3IH\#151 ; 4H3 .
+606 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+367 .
+Sylvester obtained an expression for the N.GJF .
+of the quintic : this is a0 .
+1 + a3 .
+#3H-cc5+ ; r9 +a4 .
+x^-\-x6 +a5 .
+rp 1 rpo 1 rpl _____ rp *Aj | tAj | \Aj +a6 .
+a ?
+3+ic4 +a7 .
+rp 1 rp5 ___ rp9 %Aj | cA/ tAj +a8 .
+cc3+^4 4-a9 .
+xz-\-x\gt ; \#151 ; + 010 .
+rp\amp ; 1 / y\#187 ; 4 ____ ^y*10 %Aj 1 tAj tAj + an .
+rp 1 ry\#187 ; 3 _____ ^y\#187 ; 9 iAj | iL tAy +a13 .
+o " 8 1 00 8 1 8 +a13 .
+8 1 H , 1 +a14 .
+00 8 1 CD 8 1 15 +a15 .
+r/ t / y.9 *Aj iAy +a16 .
+rp2/ _____ rp6 _____ / y\#187 ; 10 tAy tAj tAy +a17 .
+1 1 -j-a18 .
+1\#151 ; \#171 ; ' 1 1 1 8 +a19 .
+- rpt ) ... . .
+rpt iAy tAj + a30 .
+00 8 1 CD 8 1 8 1 + a33 .
+-cc11 1 \#151 ; ax5 .
+1 \#151 ; cdx2 .
+1 \#151 ; ate6 .
+1\#151 ; at 1\#151 ; a8 .
+1\#151 ; a13 viz. , expanding this function in ascending powers of x , then if a term is this means that there are precisely N asyzygetic covariants of the deg-order O.fi .
+368 .
+It is known that the number of the irreducible covariants of the binary quintic is = 23 ; representing these by the letters a , b , c , d , e , f , g , h , i , j , Jc , , n , o , q , r , s , t , u , v , w ( a the quintic itself ) , the deg-orders of these , and the references to the tables which give them are PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Deg-order .
+Tab. Mem. 1.5 2.2 a b 13 2 , ,.6 c 14 " 3.3 d 15 " , ,.5 e 16 " 9 f 17 " 4.0 9 18 " h 19 " " .-6 i 20 " 5.1 i 21 " , ,.3 k 22 " i 23 " 6.2 m 83 8 " -4 n 84 " 7.1 o 90 9 | 91 " 8.0 1 25 J " -2 r 92 " 9.3 | 3511.1 t 94 9 12.0 u 29 3 13.1 V 95 9 18.0 w 29a 5 \#166 ; Starting from the foregoing expression of the N.G.F. of the quintic , we can , instead of each term aV , introduce a covariant or product of covariants of the proper deg-order 0.p : the mode of doing this depends of course on the different admissible partitions of 6 , p , and it is for some of the terms very indeterminate : for instance , a5x11 is ai , bf , or ce .
+I found it possible to perform the whole process so as to satisfy a condition which will be presently referred to ; and I found * * See end of Memoir .
+The S of Table 98 has the value \#151 ; 96(D , M ) + l6 BO \#151 ; 7GK , but it is better to use the simple value \#151 ; ( D , M ) ; and the S of the present Memoir has this value , say S= \#151 ; ( d , wi ) .
+008 PROFESSOR CAYLEY'S TENTH MEMOIR ON QU ANTICS .
+R.G.F. of quin tic= Deg-orders .
+1 .
+1-W 0.0 \#151 ; 10.10 d 1 \#151 ; ag2 3.3 \#151 ; 12 .
+8 HVe 1 -b2 3.5\#151 ; 7 .
+9 +/ \#166 ; 1 -b 3.9- 5.11 +h .
+1 \#151 ; ag2 C* CO H 1 1 \#151 ; b2g 4.6 \#151 ; 12.10 +j .
+1 \#151 ; ag2 5.1 \#151 ; 14 .
+6 +h .
+1 \#151 ; b2 5.3- 9 .
+7 ~\-l .
+1\#151 ; bg 5.7 \#151 ; 11 .
+9 +m .
+1 \#151 ; ag2 6.2-15 .
+7 -\-n .
+1 \#151 ; b2g 6.4 \#151 ; 14 .
+8 +o .
+l-b3 7.1 \#151 ; 13 .
+7 +p .
+1 \#151 ; b2g 7.5 \#151 ; 15 .
+9 -J-r .
+1 \#151 ; b2g 8.2 \#151 ; 16 .
+6 + dj .
+1 \#151 ; ag2 8.4\#151 ; 17 .
+9 " M .
+1 \#151 ; abg 9.3 \#151 ; 16.10 +hj .
+1 \#151 ; ag2 9.5 \#151 ; 18.10 +/ .
+1 \#151 ; ag2 10.2 \#151 ; 19 .
+7 +jk .
+1 \#151 ; b2g 10.4 \#151 ; 18 .
+8 1 11.1 \#151 ; 17 .
+7 +jm .
+1 \#151 ; ag2 11.3 \#151 ; 20 .
+8 +jo .
+1\#151 ; bg 12.2 \#151 ; 18 .
+4 l-V 13.1 \#151 ; 23.11 +js .
+1\#151 ; bg 14.4\#151 ; 20 .
+6 +jt .
+1~9 16.2 \#151 ; 20 .
+2 + w .
+1 \#151 ; a 18.0 \#151 ; 19 .
+5 I\#151 ; a .
+1\#151 ; b. 1 \#151 ; c. l\#151 ; g .
+l\#151 ; q .
+1 \#151 ; where observe that each negative term of the numerator is equal to a positive term into a power or product of terms a , b , g , contained in the denominator : this is the condition above referred to .
+The expansion thus consists only of terms each with the coefficient +1 ; for instance , a part of the function is s ( 1\#151 ; abg ) s 1 \#151 ; __ 1 \#151 ; cl. 1\#151 ; b .
+1\#151 ; c .
+1\#151 ; g .
+1\#151 ; q .
+1\#151 ; u 1\#151 ; c .
+1\#151 ; q .
+1\#151 ; * 1\#151 ; a .
+1\#151 ; b .
+1 \#151 ; g where the first factor is the entire series of terms and the second factor is the series of terms aab^gy omitting only those terms which are divisible by abg : and in the product of the two factors the terms are all distinct , so thett the coefficients are still each \#151 ; 1 .
+The same thing is true for every other pair of numerator terms : and ( since PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+609 the terms arising from each such pair are distinct from each other ) in the expansion of the entire function the coefficients are each = + 1 .
+Hence ( as in the case of the quartic ) for any given deg-order , the terms in the expansion of the R.G.F. may be taken for the asyzygetic covariants of that deg-order ; and if there are any other terms of the same deg-order , each of these must be a linear function , with numerical coefficients , of these asyzygetic covariants : thus deg-order 6.11 , the expansion contains only the terms a2h , acd , be2 ; there is besides a term of the same deg-order , of which is not a term of the expansion , and hence of must be a linear function of a2h , acd , be2 ; we in fact have of \#151 ; a2h\#151 ; 6acd\#151 ; 46c3 .
+The terms in the expansion of the F.G.F. may be called " segregates , " and the terms not in the expansion " congregates ; " the theorem thus is : every congregate is a linear function , with determinate numerical coefficients , of the segregates of the same deg-order .
+369 .
+I stop to remark that the numerator of the E-.G.F .
+may be written in the more compendious form + ( 1 - ag2 ) ( d-\-h+j+m+dj+hj+f+jm ) + ( 1 \#151 ; bg){l+jo+js ) .
+-f ( 1 - b2g)(i+n+p+jk ) + ( 1 \#151 ; abg)s +0--g)jt + ( 1 \#151 ; a)w I but the first-mentioned form is , I think , the more convenient one .
+370 .
+It is to be noticed that the positive terms of the numerator are unity , the seventeen covariants d , e , f h , i , j , k , l , m , p , and the products into ( d , h , j , k , m , o , s , t ) where j2is reckoned as a product ; in all , 26 terms .
+Disregarding the negative terms of the numerator the expansion would consist of these 26 terms , each multiplied by every combination whatever aab^cygsqe of the denominator terms a , b , c , g , q , u ( which for this reason might be called " reiterative " ) : the effect of the negative terms of the numerator is to remove from the expansion certain of the terms in question , thereby diminishing the number of the segregates : thus as regards the terms belonging to unity , any one of these which contains the factor 5 is not a segregate but a congregate : and so as regards the terms belonging to d , any one of these which contains the factor ag2 is a congregate : and the like in other cases .
+For a given deg-order we have a certain number of segregates and a certain number of congregates : and the number of independent syzygies of that deg-order is precisely equal to the number of congregates : viz. , each such syzygy may be regarded as giving a congregate in terms of the segregates : we have on the left hand side a congregate , 4 i 2 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+or , to avoid fractions , a numerical multiple of the congregate , and on the right hand side a linear function , with numerical coefficients , of the segregates .
+371 .
+The syzygy is irreducible or reducible ; and in the latter case it is , or is not , simply divisible : viz. , if the congregate on the left hand side contains any congregate factor ( the other factor being literal ) then the syzygy is reducible : it is , in fact , obtainable from the syzygy ( of a lower deg-order ) which gives the value of such congregate factor .
+But there are here two cases ; multiplying the lower syzygy by the proper factor , the right hand side may still contain segregates only , and then no further step is required : the original syzygy is nothing else than this lower syzygy , each side multiplied by the factor in question , and it is accordingly said to be simply divisible ( S.D. ) .
+But contrariwise , the right hand side , as multiplied , may contain congregates which have to be replaced by their values in terms of the segregates of the same deg-order : the resulting expression is then no longer explicitly divisible by the introduced factor : and the original syzygy , although arising as above from a lower syzygy , is not this- lower syzygy each side multiplied by a factor : viz. , it is in this case not simply divisible .
+For example ( see the subsequent Table No. 96 , under the indicated deg-orders ) ( 6.6 ) , from the syzygy 9 d2 \#151 ; aj\#151 ; b^-{-2bh\#151 ; we deduce ( 7.11 ) the syzygy 9 ad2=a2j\#151 ; ab ?
+\gt ; -f-2abh\#151 ; aeg , which ( all the terms on the right hand being segregates ) requires no further reduction : it is a reducible and simply divisible syzygy .
+But we have ( 6.8 ) a syzygy giving de , and also ( 6.10 ) a syzygy giving multiplying the former of these by e or the latter of them by d , we obtain a value of de2 , but in each case the right hand side contain terms which are not segregates , and have thus to be further'reduced ; the final formula ( 9.13 ) is 3 de2= \#151 ; 4 a2bj-\-3a2dg-\-iab^\#151 ; 8 \#151 ; 12 which is not divisible by any factor : the syzygy is thus reducible , but not simply divisible .
+A syzygy which is not in the sense explained reducible , is said to be irreducible .
+372 .
+The number of irreducible syzygies is obviously finite : it has , however , the large value 179 as appears from the annexed diagram , showing the congregates determined by these several syzygies , and the deg-orders of the syzygies :\#151 ; PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+^ CD S $ 1ft co CM IN .
+IN o CO s*\lt ; e 3\gt ; 2 0* cP^id rO pH IN CO lO CO CO lO Ci ri H H 03 CM C3 o H"* CO rH CO CO CO H H H O CO p-J HP ^ -Tp rH rH rH CO ^ CO oi 03 CM CM iO IN in in rH rH 1C IN iO %Q rH rH CO iO lO lO CO rH rH rH CO InI \gt ; o\gt ; CO oi rH rH CM rHCO^CM^rH^OCMCOrHr-jp cdcded^^id^cdjNloirHcd \lt ; MCMCMCMCM\lt ; MCM\lt ; MGC1CMCOCO ( M'^JQ0COpO3pC0^O3O3 ooodoocidoOH d^cd rH rH rH rH rH CM CM rH rH rH rH CM CM CM CM ^ 00 CO p CM p CO ^ \lt ; M o cdcoNNoooocJdci ^03 rH rH rH rH rH rH rH 03 03 CO 00 CM CM rH rH lO IN .
+rH rH rH rH O N Ci COCDHiON^OOiOCO cd cd HP^*did$d\#171 ; djNo6 rH rH r*o 03 rH rH rH rH rH rH rH rH CS rH m c* ^ rO Oi O 00 rH .
+rH O O O rH rH rH O HP CO rH O O O rH rH rH CO N Ci H d ci Ci JO JN rH ci oi Oi O CM SO rH rH rH 00 00 00 03 CO 00 H 00 00 00 CO 00 03 03 p H WiOOHCOCONH cd cd cd ^ *d *d cd rH rH rH rH rH rH rH rH 03 O CO 00 H N Ci CO H 03 03 CM CO CO ^ rH rH rH rH rH p-i rH iO IN rj ] rp 00 CO p 03 rH rH ^Q0 03 03 CO CO H rH rH '-C- rH rH rH rH rH rH o 00 rH O O rH rH CO 00 O O rH rH JO N H CO 00 rH rH rH 03 03 rH rH rH rH rH 00 JO Ci H| r^O rH rH 03 ; 03 rH rH rH \#171 ; N\gt ; \#171 ; \lt ; \#187 ; H S"*3 00 00 rH CO O ^ rH rH 00 r-J r\#151 ; Oi Oi o o o rH rH rH N Gi 00 p d Ci cP*00 O rH rH O rH IN rs00 Oi cP\gt ; 03 rH geo rH ' .
+\#171 ; rH O o o rH *0\gt ; Oi rH rH IN IN 1\gt ; I CO IN rH N JN N 03 ^ 00 rH rH rH cd CO CO 00 S cd cd co .
+\lt ; cd I S 2 00 00 co p p cd cd cd \amp ; l V. Tp CO -rp rt CO N ^ ^ rH 1C W CO H H O dddcOCCNNOOCiHCOCO ' H H H \lt ; D \lt ; D rd ^ 43 43 .a \#174 ; 5 \#163 ; M * ( D S J O pO \lt ; D .a i \#166 ; \#171 ; a \#171 ; \ .
+iH n n3 .p g t ii =jT Is $ I I . .
+r2 O K Ph \#169 ; \amp ; i | r\#174 ; O I * 1 r-H .H .
+c8 d \#174 ; * ^ \#163 ; *3 \lt ; D \#171 ; +H d O 11 j ?
+\#166 ; ^ \lt ; D Id S\gt ; ?
+s-i n3 \lt ; D S , f Jg o be d rd S H a \amp ; rl I q 1 -S 8 .2 J 9 d 63 , rH f-t OQ So -P 1| Oi d " B ^ I 3 S " a s 3 ^ I g PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Observe as regards the foregoing diagram , that is irreducible ( since neither nor j2is segregate ) and similarly j~h , j'\ \amp ; c. , are irreducible : we have thus the last or j2 column of the diagram .
+The simply divisible syzygies are infinite in number , as are also the reducible syzygies not simply divisible .
+There is obviously no use in writing down a simply divisible syzygy ; but as regards the reducible syzygies not simply divisible , these require a calculation , and it is proper to give them as far as they have been obtained .
+373 .
+The following Table , No. 96 , replaces Tables 88 and 89 of my Ninth Memoir .
+The arrangement is according to deg-orders , and the table is complete up to the deg-order 8.40 : it shows for each deg-order the segregate covariants , and also the congregate covariants ( if any ) , and the syzygies which are the expressions of these in terms of the segregates .
+When there are only segregates these are given in the same horizontal line with the deg-order ; for instance , | 5.9 | ah , cd , shows that for the deg-order 5.9 the only co variants are the segregates ah , cd ; but when there are also congregates , the segregates are arranged in the same horizontal line with the deg-order , and the congregates , each in its own horizontal line , together with its ex5 11 .
+Ct % C(j pression as a linear function of the segregates : thus ' 7/ \#151 ; T+T ^ie segregates are ai , ce , and there is a congregate bf which is a linear function of these , =\#151 ; ai-\-ce .
+The table gives the irreducible syzygies and also the reducible syzygies which are not simply divisible , but the simply divisible syzygies are indicated each by a reference to the divided syzygy which occurs previously in the table .
+374 .
+Any syzygy might of course be directly verified by substituting for the several co variants contained therein their expressions in terms of the coefficients and facients of the quintic .
+But it is to be remarked that among the syzygies , or easily deducible from them , we have ( 6.18 ) the before-mentioned equation fz=\#151 ; \#151 ; 4c3 , and also a set of 17 syzygies , the left hand sides of which are the covariants . . .
+u , v , w , each multiplied by a or a2 , and which lead ultimately to the standard expressions of these covariants respectively , viz. , each covariant multiplied by a proper power of a can be expressed as a rational and integral function of a , b , c , d , e , f , linear as regards f : supposing them thus expressed , a far more simple verification of any syzygy would consist in substituting therein for the several covariants their expressions in the standard form , reducing if necessary by the equation \#151 ; \#151 ; 4c3 : but of course , as to the syzygies used for obtaining the standard forms , this is only a verification if the standard forms have been otherwise obtained , or are assumed to be correct .
+The 17 syzygies above referred to are PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Deg-ord .
+6.10 a*g= 12 abd + 4 b2c + e2 , 6.14 a2h= 6acd-\-4:bc2-\-ef , 5.11 ai = \#151 ; bf+ce , 6.6 aj = 63\#151 ; 2 bh-\-cg-\-9 d2t 6.8 ak = ~~2ibz~\~ 3 d\amp ; } 6.12 al = 2 ci\#151 ; 3 df 7.7 am\#151 ; ~~ 2 b2d eg ~J " Bdh , 7.9 an = b2e\#151 ; 6bl\#151 ; 2 ck\#151 ; fg , 8.6 ao == 2 bn+ej , 8.10 ap = \#151 ; 2cn\#151 ; fj , 9.5 aq = \#151 ; 2 b2j-\- bdg \#151 ; 12dm+hj , 9.7 are \#151 ; b2k -\-bp\#151 ; co-f- hk , 10.8 .
+as = Bbdk-\- Bdp-\- 2 im , 12.6 at = bjk-\-jp\#151 ; 2 mn , 13.5 18 au= 2 agq-\-b2gj + Gbmj\#151 ; 6dj2\#151 ; ghj-\-no , 14.6 3 av= 2 b3q\#151 ; 8 b2j2\#151 ; 2b2gm-\- Qbdgj \#151 ; 126m3+ Bet , 19.5 18 aw= Bb2gt-\- b2qo\#151 ; 4 bj2o\#151 ; bgm o-\-\Bbmt-\-B dgj o the last four of these being , however , beyond the limits of the table : the expressions of g , h , i are here in the standard form : the standard forms of the other covariants j , k . . .
+u , v , w , will be given further on .
+Table No. 96 ( Segregates , Congregates , and Syzygies ) . .
+1 Deg ord. Congs .
+Segregates .
+i. i j i 3 5 a 2 .
+0 2 b 4 6 0 8 10 a2 3 .
+1 3 d 5 e 7 it\#174 ; 9 / 11 ao .
+, 13 15 1 a3 614 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTTCS .
+Table No. 96 ( continued ) .
+Deg-ord .
+1 | Congs .
+Segregates .
+4 .
+0 9 2 4 b2 , h 6 i 8 ad , he 10 ae 12 a~b , c2 14 af 16 asc 18 20 a5 5 .
+1 ^ ' .
+: '\#187 ; 3 k 5 ag , bd 7 be , l ' 9 .
+ah'2 , ah , cd 11 * ai , ce \#165 ; -1 +1 13 a2d , abc 15 a2e , cf 17 a % , ac2 19 a3/ 21 a3c 23 25 a5 6 .
+0 2 4 n 6 * aj , bh , eg d2.9 + 1 -1 +2 -1 8 * ak , bi de .
+3 + 1 +2 10 * a2g , abd , b2c , ch e2 + 1 -12 -4 .
+12 abe , al , ci d/ .
+3 .
+-1 +2 14 * a2b2 , a2h , acd , be2 \#165 ; + 1 -6 -4 16 * a2i , ace alf S.D. 5.11 , If PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+615 Table No. 96 ( continued ) .
+Deg-ord .
+Congs .
+Segregates .
+6.18 i a3d , a%c , c3 p -1 +1 jjjj 20 a3e9 acf 22 a%9 a ?
+\lt ; ?
+24 a3/ 26 a4c 28 30 a\#171 ; 7 .
+1 0 3 fie , dg 5 bh , eg , p 7 * abg9 am9 b^d , cj dh.3 0 +1 +2 jjjj 9 * an , bl , ck , fg b2e + 1 +6 +2 +1 di .
+S 0 +1 +1 eh 0 +4 +2 +1 11 * a ?
+j , db3 , abh , acg , bed ad ? . .
+S.D. 6.6 , 2 ei -1 +1 -6 13 * a ?
+k , abij bee , cl ade S.D. 6.8 , de W S.D. 5.11 , fh.s -1 -2 +3 -6 15 * a3g , a ?
+bd , ab2c , ach , c\l ae2 * S.D. 6.10 , e2 fi + 1 -1 +1 -6 17 * a%e , aH , aci c2e adf S D. 6.12 , df bcf- S.D. 5.11 , bf 19 * a3b % , a3h , a ?
+cd , abc ?
+aef S.D. 6.14 , 21 * aH| a ?
+ce , c2/ a%f S.D. 5.11 , bf 23 * a4d , asbcf ac3 a/ 2 . .
+S.D. , 6.18 , / 2 1 ____ .
+616 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 96 ( continued ) .
+Deg-ord .
+Congs .
+Segregates .
+25 a4e , a2cf 2 7 a5b , cfic2 29 \lt ; *4/ 31 a5c 33 35 aJ 8 .
+0 9* , 9 2 r 4 bfl , bm , dj , gh 6 * ao , bn , gi dk.'3 +1 -3 -1 ej + 1 -2 8 * abj , adg , 64 , 52/ i , beg , cm bd ?
+ek \#151 ; 4 +3 +4 \#151 ; 6 +2 W. 3 + 4 _3 _4 +8 -1 +12 10 * able , aeg , ap , b\ cn bde S.D. 6.8 , de dl .
+9 +2 .
++3 +1 +3 fj .
+-1 -2 hi .
+3 +1 .
++2 -3 12 * a%g , a2m , ab2d , acj , b3c , bch , $g adh S.D. 7.7 , be3 S.D. 6.10 , e2 cd3 el -1 -2 +1 -2 +2 + 1 .
+-1 +4 -6 +2 i3 -1 .
++1 -2 +1 14 * a2 ? ?
+, abl , ack , afg , bci ab2e S.D. 7.9 , 62e adi S.D. 7.9 , di aeh S.D. 7.9 , eh bdf S.D. 6.12 , cde S.D. 6.8 , de 16 * a3j , a2b3 , a%h , a"1 eg , abed , b2c2 , a2d ?
+S.D. 6.6 , 2 aei S.D. 7.11 , ei bef S D. 6.14 , of ce3 S.D. 6.10 , e2 / Z.3 + 1 -1 +2 -1 -3 -6 +6 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 96 ( continued ) .
+Deg-ord .
+Congs .
+Segregates .
+8.18 * aice , acl , cH aPde ... . . . . . .
+S.D. 6.8 , d !
+e abj . . . .
+S.D. 5.11 , afh S.D. 7.13 , cdf S.D. 6.12 , df 20 * cfig , a ?
+bd , aPb^c , a ?
+ch , ac^d , \amp ; c3 a2e2 . . .
+S.D. 6.10 , e2 afi ' S.D. 7.15 , bf S.D. 6.18 , cef S.D. 6.14 , 22 * a%e , aH , abcf , ac*e cftdf S.D. 6.12 , df 24 * a4\amp ; 2 , a^h , a ?
+cd , aPb2#* , c4 a ?
+of . .
+' S.D. 6.14 , ef ' CP ' .
+S.D. 6.18 , 26 * aH , aPce , acf aPbf 28 * aPd , aPbc , aPcs .
+S.D. 6.18 , 30 aPe , aPcf 32 aPb , aP\lt ; ?
+34 .
+oPf 36 aPc 38 40 a8 9 .
+1 93 3 bo , gk , s 5 # ag* , aq , b*j , bdg , hj dm .
+12 .
+-1 -2 +1 +1 7 * are , beg , co , gl Vh .
+3 + 1 .
+\#151 ; 5 -1 +1 dn .
+S -1 .
+-1 -1 em. 3 +2 .
++2 +1 -1 hh .
+3 + 2 .
++2 +4 -1 i 1 +1 +1 9 * cdfig , abm .
+adj , agh , ffid , bcj , cdg +1 . . . .
++2 +1 d*.27 + 2 +3 .
++1 +2-3 en + 1 +6 .
+-1 .
++2 ik -1 .
+-3 +3 .
+: ' \#166 ; . . .
+' - \ \#166 ; . .
+\#166 ; : j 4 k 2 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 96 ( continued ) .
+Deg-ord .
+Congs .
+Segregates .
+9.11 * a2o , abn , agi , bH , bch , ceg , cp adh aej bse + 1 -1 +6 +2+1 bdi beh -1 +4 +2 +1 kfg d^e.9 + 1 \#151 ; 3 \#151 ; 1 + 2 + 2 fm .
+S + 1 +3 +1 .
+-3 .
+-3 hl.d + 1 -3 -1 +2 +5 .
+-6 13 * a%j , a ?
+dg , ab4 , a\amp ; 2A , abcg , acm , b^cd , c ?
+j abd2 aeJc ah2 bei cdh delS -4 +3 +4 -8 +4 .
+-12 fn -2 +1 +2 -3 +1 -2 .
++2 il -1 .
++1 -2 +1 -3 - 3 +3 10 .
+0 2 bg % bq , gm , f 4 * br , gn , jk do .
+3 + 2 -1 6 * agj , Wg , Wm , bdj , bgh , eg2 , cq cT-g S.D. 6.6 , d2 eo + 1 +2 +12 -12 -2 hm .
+3 -1+1+6 +12 -2 +1 -3 + 1 -1 - 4 -12 +2 -1 8 * abo , agJc , as , bhi , bgi , cr bdlc S.D. 8.6 , dh bej . . . .
+S.D. 8.6 , ej deg S.D. 6.8 , de dp .
+9 -5 .
++3 +15 +5-6 hn .
+S -6 +1 .
++18 +5 -12 im. S +1 . .
+- 3 -1 + 3 jl .
+S \#151 ; 5 .
+-f~ 3 +15 +5 \#151 ; 12 10 * a2\lt ; 72 , a ?
+q , ab^j , abdg , ahj , bsh , b^cg , bem , cdj , cgh .
+adm bl 8 + 1 +10 -9 +3 +12 .
++32 -12 - 4 W.72 -1-2 +9 -3+4 -8 -32 +12 + 4 beh.2 .
++1+2 \#151 ; 3 +3 .
++4 +32 \#151 ; 12 4 bW.6 -1-2 +3 \#151 ; 3+4 -2 - 8 +12 - 4 dVi.27 -1-2+3 .
++1-2-8 +12 + 1 ezg S.D. 6.10 , e2 ep -1 .
+-2 -12 + 6 + 2 fo.2 + 1 + 2 -3 +7 .
++4 +24 -24 - 4 inA -1-2 +3 -5 . . .
++12 UA .
++1 + 2 \#151 ; 1 \#151 ; 1 \lt ; .
++16 +12 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 96 ( concluded ) .
+Deg.-ord .
+Congs .
+Segregates .
+n. i 3 5 go , t bgj , dg3 , dq , jm 1 dr , 18 ho .
+3 jn.l km.6 b\ bgk , bs , eg\ eg , , gp \#151 ; 2 + 5 \#151 ; 6 .
+\#151 ; 3 + 3 \#151 ; 2 -I-11 \#151 ; 24 .
+\#151 ; 3 4 " 6 + 1 - 3 + 6 .
++1-2 -2+5 -12 .
+-3 +3 12 .
+0 2 4 H g*g , | gr , jo * Jco m3.12 \amp ; V\gt ; \amp ; i2\gt ; s2/ i\gt ; % -2 -2 -4 +3 + 2 +1 +4 \#151 ; 3 .
+-3 13 .
+1 3 g*j , is , \#171 ; jr-2 mo .
+2 jjji |j |j| jjj Ji .
+-2 .
++1 -1 .
+_4 .
++1 _1 14 .
+0 2 4 bgq , bu , g\#174 ; m , gjz , mq , o3 * dgo dt .
+18 mr .
+12 \amp ; Sr\gt ; bjo , g*n , gjk , js , nq S.D. 10.4 , do + T +2 .
+^1 +6 +3 + 1 +2 .
+\#151 ; 1 .
++3 Theory of the Canonical Form.\#151 ; Article Nos. 375 to 381 , and Tables Nos. 97 and 98 .
+375 .
+As the small italic letters have been used to represent the covariants , different letters are required for the coefficients of the quintic , and ( using also new letters for the facients ) I take the quintic to be ( a , b , c , d , e , fX\#163 ; 1 ?
+)5- Considering a linear transformation of j- ( a , b , c , d , e , f rj)5 , viz. \ ( a , b , c , d , e , f 'ArlY this is PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTiCS .
+\#163 ; 5 bd'y io^v 5\#163 ; v* r\gt ; * 1 \#151 ; b + b2 - b3 + b4 ~ b5 ) +b ( 1 \#151 ; 2b + 3b2 \#151 ; 4b3 + 5 b4 ) + ac ( 1 \#151 ; 3b + 6b2 -10b3 ) +a2d ( 1 \#151 ; 4b + 10b2 ) -|-a3e ( 1 \#151 ; 5b ) +a4f ( i ) which is 1 0 ac \#151 ; ( -1 a2d ~fl a3e +1 a4f + 1 b2 -1 abc \#151 ; 3 a2bd \#151 ; 4 a3be \#151 ; 5 b3 +2 ab3c +6 a2b2d +10 b4 \#151 ; 3 ab3c \#151 ; 10 b5 +4 X\#163 ; The values of a , b , c , d , e , f considered for a moment as denoting the leading coefficients of the several covariants ultimately represented by these letters respectively , are abed e a +1 ae + 1 ac " b 1 ace + 1 a2f + 1 a3d + 1 bd \#151 ; 4 b2 -1 ad2 \#151 ; 1 abe + 5 abc -3 c2 + 3 b2e \#151 ; 1 acd + 2 b3 \#151 ; 2 bed + 2 b2d + 8 c3 \#151 ; 1 be3 L0 satisfying , as they should do , the relation f~\#151 ; \#151 ; \#151 ; 4c3 .
+Hence forming the values of odb\#151 ; 3c3 and a~e \#151 ; 2 it appears that the value of the last-mentioned quintic function is ( 1 , 0 , c , / , a2b\#151 ; 3c2 , a2e\#151 ; 2cfX " , .
+Writing herein x , y in place of y , and now using a , , c , d , e , f to denote , not the leading coefficients but the covariants themselves the original quintic , with \#163 ; rj as facients ) , we have the form A , =(1 , 0 , c , f , cdb\#151 ; Sc3 , y)5 , a new quintic , which is the canonical form in question : the covariants hereof ( reckoning the quintic itself as a covariant ) will be written A , B , C . . .
+V , W ; and will be spoken of as capital covariants .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+376 .
+The fundamental property is : Every capital covariant , say I , has for its leading coefficient the corresponding covariant i multiplied into a power of a : and this follows as an immediate consequence of the foregoing genesis of A. The covariant of the form ~ ( a\gt ; b , c , d , e , { %\#163 ; , 17)5 has a leading coefficient =^4 ( a3cf\#151 ; a3de+\amp ; c. ) which , when a , b , c , d , i denote leading coefficients , is \#151 ; i into a power of a : and upon substituting for the quintic the linear transformation thereof ( 1,0 , c , / , a36\#151 ; 3c3 , a3e\#151 ; 2c/ \#163 ; \#163 ; rj)h , ( observing that in the transformation r\ into \#163 ; \#151 ; ai ?
+the determinant of substitution is =a ) , the value is still \#151 ; i into a power of a ; or using the relation a , say the value is \#151 ; i into a power of a. Now the covariant i is the same function of the covariants a , b , c , d , e\gt ; fthat the leading coefficient i is of the leading coefficients a , b , c , d , e , f\ hence the italic letters now denoting covariants the leading coefficient still is =i into a power of a : which is the above-mentioned theorem .
+377 .
+To show how the transformation is carried out , consider , for example , the covariant B : this is obtained from the corresponding covariant of ( a , b , c , d , e , fX\#163 ; 17)5 that is by changing the variables , and for the coefficients a , b , c , d , e , f writing 1 , 0 , c , f , a % \#151 ; 3c3 , a2e\#151 ; 2 ; thus the coefficients are First .
+Second .
+Third .
+1 ( azb\#151 ; 3c3 ) l(a3e\#151 ; 2 \#151 ; 4 c(azb\#151 ; 3c3 ) + 3c3 + 2 cf + 3/ 3 = a % = a3e = \#151 ; 4a36c+12c3 +3 ( \#151 ; asd -\-azbc\#151 ; 4c3 ) = a3(\#151 ; 3 \#151 ; be ) and we have thus the expression of B ( see the Table No. 97 ) ; and similarly for the other capital covariants C , D . . .
+V , W : in every case the coefficients are obtained in the standard form ; that is , as rational and integral functions of , b , c , d , e , f , linear as regards f. 378 .
+It will be observed that there is in each case a certain power of a which explicitly divides all the coefficients and is consequently written as an exterior factor ; ae 1 af 1 bf 1 bd \#151 ; 4 be \#151 ; 3 ce \#151 ; 4 c3 +1 cd +1 d3 + 3 622 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICs !
+disregarding these exterior factors , the leading coefficients for B , C , D , E , F are b , c , ad , e , f respectively ; that for G is 12a5\lt ; i+453c + e2 , which must be into a power of a , and ( in Table 97 ) is given as =a2g , similarly that for H is Gaed+Abrf+ef , which must be =h into a power of a , and is given as =a^h : and so in the other cases .
+The index of a is at once obtained by means of the deg-order , which is in each case inserted at the foot of the coefficient .
+For A , B , C , E , F there is no power of a as an interior factor , and for the invariants G , Q , U we may imagine the interior factor thrown together with the exterior factor , ( G=ang , See .
+) : whence disregarding the exterior factors , we may say that for A , B , C , E , F , G , Q , U the standard forms are also " divided " forms .
+But take any other covariant\#151 ; for instance , D : the leading coefficient is ad , having the interior factor a ; and this being so it is found that all the following coefficients will divide by a ( the quotients being of course expressible only in terms of the covariants subsequent to f ) : thus the second coefficient of D is \#151 ; bf-\-ce , and ( 5.11 ) we have or the coefficient divided by a is \#151 ; i ; and so for the other coefficients of D ; or throwing out the factor a , we obtain for D an expression of the form ( d , i , . .
+l[x , y)s , see the Table 98 : this is the " divided " form of D : and we have similarly a divided form for every other capital covariant .
+All that has been required is that each coefficient of the divided form shall be expressed as a rational and integral function of the covariants a , b , c. . .
+v , w : and the form is not hereby made definite : to render it so the coefficient must be expressed in the segregate form .
+But there is frequently the disadvantage that we thus introduce fractions ; for instance , the last coefficient of D is =\#151 ; ci-\-df , where to get rid of the congregate term df we have ( 6.12 ) , 3 df=\#151 ; al-\-2ci , and the segregate form of the coefficient is 379 .
+We have in regard to the Canonical form a differential operator which is analogous to the two differential operators xdy\#151 ; { } , ydx\#151 ; \ydx\ considered in the Introductory Memoir ( 1854 ) .
+Let S denote a differentiation in regard to the constants under the conditions Sa= 0 , Sb = e , Sc = 3/ , M= l( \#151 ; hf+Ge)\gt ; ( =*)\gt ; Se =\#151 ; Gad\#151 ; 10\amp ; c , Sf = 2 a2b\#151 ; 18c2 , which ( as at once verified ) are consistent with the fundamental relation f2= \#151 ; ascl-\-a ?
+bc \#151 ; 4c3 ; ( 4~4c^_S)a==0 ; then it is easy to verify that PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+and this being so , any other co variant whatever , expressed in the like standard form , is reduced to zero by the operator d " A \#171 ; die and we have thus the means of calculating the covariant when the leading coefficient is known .
+Thus , considering the covariant B , the expression of which has just been obtained , = ( B0 , Bj , B z'ftx , yY , suppose : the equation to be satisfied is x(B1sc+2B2 ?
+/ ) \#151 ; 4 cy( 2B0x-\-Bly ) \#151 ; \#163 ; c3SB0 \#151 ; xyhBx\#151 ; B2 =0 , viz. , we have B : -SB0=0 , 2B3 \#151 ; ScB0\#151 ; SBX=0 , \#151 ; 4cBx\#151 ; SB3=0 ; which ( omitting , as we may do , the outside factor a3 ) are satisfied by the foregoing values B0 , Bl5 B 2=b , e , \#151 ; dad\#151 ; be .
+And if we assume only B0\#151 ; b , then the first equation gives at once the value B1=e , the second equation then gives ; and the third equation is satisfied identically , viz. , the equation is \#151 ; 4ce+S(3 ad + = 0 , that is \#151 ; 4ce = \#151 ; 4ce = -\-chb + o .
+e -\-bhe + b. 3/ + 3aSc\#163 ; +H- \#166 ; bf+ce ) which is right .
+Of course every invariant must be reduced to zero by the operation S : thus we have Table No. 97 , a9g= 12 abd + 4 b9c .+ 1 e3 , and thence ode by bee ( l2ad-\-8bc)hb , = ( l86c ) = + 12 + 8 + 4\amp ; 3 .Sc + 463 .
+3/ + 12 + 12 db .8 d + 12 b(\#151 ; bf+ce ) \#151 ; 12 + 12 + 2e he +2e(\#151 ; 6ad \#151 ; 106c ) \#151 ; 12 \#151 ; 20 " which is =0 , as it should be .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+380 .
+As already remarked , the leading coefficients of H , I , J , \amp ; c. , are each of them equal to a power of a into the corresponding covariant hence , supposing these leading coefficients , or , what is the same thing , the standard expressions of the covariants h , i , j ... v , wto be known , we can calculate the values of 8 Sj , . . .
+Sv , Sw ( =0 , since w is an invariant ) : and the operation 8 instead of being applicable only to the forms containing a , b , c , d , e , f'becomes applicable to forms containing any of the covariants .
+The values of 8a , Sb , . . .
+Sv , Sw can , it is clear , be expressed in terms of segregates ; and this is obviously the proper form : but for Sr , St , and Sv , for which the segregate forms are fractional , I have given also forms with integer coefficients .
+The entire series is Deg-order .
+2.8 Sa o , 3.5 Sb = e , 3.9 Sc \#151 ; 3/ , 4.6 8 d= i 4.8 Se = - \#151 ; 6ad \#151 ; 10bc , 4.12 \#165 ; = 2 a2b\#151 ; 18 c3 , 5.3 89= 0 , 5.7 Sh = 2 be\#151 ; 4d , 5.9 8 i = \#166 ; \#151 ; 2ab2-\-2ah\#151 ; 18 cd , 6.4 8i =\#166 ; -n , 6.6 8 lc =- \#151 ; 2 aj + 663\#151 ; 9bh-{-3cg , 6.10 U = .
+\#151 ; 3 ctbd\#151 ; 7 6~c\#151 ; ( ~ 7 ch , 7.5 Sm \#151 ; - 1 -O 1 7.7 Sn = 4c ?
+, 8.4 So = b2g-\-6bm\#151 ; 6dj\#151 ; gh , 8.8 Sp= 8 abj\#151 ; 5 adg\#151 ; 1064-f-1563/ ^\#151 ; 5bcg-\-10 cm , 9.3 8 q o , 9.5 Sr = 6b2j\#151 ; 5 bdg \#151 ; jh ) , 2bdg \#151 ; 6 dm , 10.6 Ss = \#151 ; 2 agj + 2 b^g+3 b2m +21 bdj \#151 ; 4 + 2 \#151 ; 3c^ , 12.4 St = \{bgm + 4 bj2 \#151 ; 3 dgj \#151 ; hq ) , = \#151 ; b2q -\-hq-\- 6m2 , 13.3 8 u o , 14.4 Sv =z \#151 ; 5 bgr \#151 ; 10 kjo-\-5gjk \#151 ; 1 2j \#151 ; 9 , = \#151 ; 6dt \#151 ; + nq .
+19.3 Sw \#151 ; 0 .
+It is obvious that for every co variant whatever written in the denumerate form ( I0 , I1 . .
+.]\#163 ; x , yY , the second coefficient is equal to the first coefficient operated upon by 8 ; so that the foregoing formulae give , in fact , the second coefficients of the several covariants .
+381 .
+It is worth noticing how very much the formulae of Table No. 97 simplify PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+625 themselves , if one of the covariants 6 , c , d , e vanishes , in particular if b vanishes .
+Suppose 6=0 ; writing also ( although this makes but little difference ) a\#151 ; 1 , we have a = 1 , 6=0 , c = c , d = d , e = e , f2 = \#151 ; d\#151 ; 4c3 , 9 = e2 , h = 6cc ?
++ ef , i = ce , j = 9c\#163 ; 2+ce2 , \amp ; = 3c ?
+e , ?
+=\#151 ; Zdf-\-2c2e } m = 9 cd2-{-Zdef\#151 ; c2e2 , n =\#151 ; 6cc ?
+e\#151 ; e2f , o = 9c ?
+3e+ce3 , p =\#151 ; 9c ?
+y+12c2\lt ; ie+ce^ 5 = \#151 ; 54cc ?
+3\#151 ; 2 7 d2ef-\-18 c2de2-f-ce^ , r = 9cc ?
+2e+3c ?
+e^\#151 ; c2e3 , ,9 = \#151 ; 27dsf-\~ 5 4c2c ?
+2e4- 9cde2f\#151 ; 2c3e3 , t = \#151 ; 81 d*f\#151 ; 6c ?
+2e3+216c3c ?
+3e+54cc ?
+3ey\#151 ; 2Acsd\#151 ; c2e^fy u = \#151 ; 27c ?
+5\#151 ; 18 cdse2\#151 ; 4c ?
+2ey+ c2c ?
+e4 , v \#151 ; \#151 ; 81 d*ef\#151 ; 6c ?
+2e4+ 216c2c ?
+3c2+ 54cc ?
+3ey\#151 ; 24c3c ?
+e4\#151 ; w ( not calculated ) .
+These values are very convenient for the verification of syzygies , \amp ; c. : take , for instance , the before-mentioned relation Sv\#151 ; \#151 ; 6dt \#151 ; 6mr-\-nq , that is , if y ) , then V1=\#151 ; 6dt\#151 ; 6mr-\-nq : calculating the three products on the right hand side , observing that f2 when it occurs is to be replaced by its value \#151 ; d\#151 ; 4c3 , and taking their sum , the figures are as follows :\#151 ; 4 l 2 626 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+\#151 ; 6dt \#151 ; 6mr + d*f 4- 486 + 486 ( Pe\gt ; + 36 + 54 - 27 + 63 $d4e -1296 -486 + 324 -1458 cdPe^f ede5 - 324 -324 + 216 + 1 - 432 + 1 \lt ; Pd ?
+\lt ; P + 144 + 324 -216 + 252 cPde^f c%5 + 6 + 36 - 6 \#151 ; 24 + 4 + 18 - 2 where the last column is , in fact , what Y1 becomes on writing therein a=l , 0 .
+The verification would not of course apply to terms which contain b ; thus ( 13.3 ) a derived syzygy is jr=bt-\-mo)and the foregoing values give , as they should do , jr=mo : we might for the verification of most of the terms in b use values a , b , c , d. e , =1 , b , 0 , d , e , \#151 ; d : the only failure would be for terms containing be .
+Table No 97 ( Covariants of A , in the af- or standard forms : W is not given ) .
+The several covariants are\#151 ; A=( 1 0 c + 10 / +10 a2b+ 5 a2e +1 c2 \#151 ; 15 of-2 0.0 1.3 2.6 3.Q 4.12 5.15 \x , y ) B=ct2( b +1 e +1 ad \#151 ; 3 be -1 2.2 3.5 4.8 3\gt ; .
+y ) c+1 / +1 a ?
+b + 3 c2 -15 a2e+ 1 of-10 a^d + 6 aPbe\#151 ; 3 c3 +15 a ?
+bf\#151 ; 3 , , ce + 3 a'c/ + 3 a4 W-1 aPcd + 2 a26c2+4 \#187 ; of +1 a'c4 \#151 ; 1 2.6 3.9 4.12 5.15 6.18 7.21 8.24 D=a2( ad + 1 bf - 1 a262 \#151 ; 1 adf + 1 ce + 1 acd + 3 a'bcf+ 1 a'bc2 + 4 " c2e\#151 ; 1 .
+of + 1 lx\gt ; y ) 5.11 6.14 7.17 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 97 ( continued ) .
+E=a2( .
+e + 1 ad \#151 ; 6 a'5c\#151 ; 10 6/ -12 C6+ 2 .
+a262 \#151 ; 8 acd \#151 ; 36 a'fcc2+12 ~ 2 a ?
+be \#151 ; 5 adf \#151 ; 24 aPbcf\#151 ; 4 " c2e + 2 a36d !
+\#151 ; 6 a2\amp ; 2c\#151 ; 2 _ i a$d +18 a'bcs + 6 " ce/ + 2 3.5 4.8 5.11 6.14 7.17 8.20 lx\gt ; =( / \#171 ; \#166 ; 1 a2\amp ; + 2 a^c2\#151 ; 18 #2e + 1 aPcf\#151 ; 36 a3\lt ; 2 4- 34 a2fo \#151 ; 42 a'e3 4-168 a25/ " \#151 ; 40 " ce + 5 cflcpf\#151 ; 126 awe - 16 a3cd 4- 6 a ?
+bc* +134 " \#171 ; /- 5 a'c4 -252 a4be \#151 ; 7 a3d/ * + 8 a ?
+bcf+ 8 + 55 cP\lt ; ?f- 84 + 6 a452c \#151 ; 22 e2 \#151 ; 1 a ?
+( ?
+d + 54 cfibc* + 66 , , ccf 4* 38 aoco + 72 a ?
+de \#151 ; 12 a4foe +11 " 62/ - 9 aPcdf + 24 cfibcf + 32 " c ?
+e \#151 ; 45 a'\lt ; ?y + 9 aPb3 - 2 aPbed + 6 a4i2c2 +12 " 5e/ " + 3 " ce2 - 1 a ?
+csd -14 a25c4 \#151 ; 16 " c2ef\#151 ; 5 a'c6 - 2 3.9 4.12 5.15 6.18 7.21 8.24 9.27 10.30 11.33 12.36 \x , yY G=a4 abd + 12 a%^c + 4 " \lt ; ?
++ i = 0*9 6.10 H=a2( acd + 6 a ?
+be + 2 aP6c2 + 4 adf + 12 \#187 ; \#187 ; \#171 ; / + 1 a%cf " c2e \#151 ; 8 8 -a ?
+h aPb^c + 4 " e2 + 1 a$d \#151 ; 36 a%$ \#151 ; 24 " cef \#151 ; 6 aP.de + 2 a458 + 2 4 " d2 + 6 6 a8Z\gt ; cd - 2 12 a2\amp ; 2c2 r- 8 , 8 " 6e/ \#151 ; 3 8 " ce2 + 1 ac8d + 6 a'\amp ; c4 + 4 " c2e/ + 1 I=a3( 5.11 6.14 7.17 8.20 9.23 10.26 11.29 S\gt ; , yY 6.14 7.17 8.20 9.23 10.26 6/ \#151 ; 1 ce+1 \#151 ; ai aPV* \#151 ; 2 acd \#151 ; 6 a'6c2 + 8 \#187 ; \#187 ; \#171 ; /\#151 ; 2 ad/ -15 a%cf+ 5 " c2e\#151 ; 5 a ?
+bd-20 ae2d + 60 a3d5e \#151 ; 5 aPb^f + 5 " 6ce\#151 ; 5 acdf +30 a'bc9 , f+ 5 " c3e \#151 ; 5 a463 + 2 " \lt ; Z2 \#151 ; 12 aPbed \#151 ; 2 a2fe2c2\#151 ; 6 " ce2 \#151 ; 2 ac3^ \#151 ; 30 a'6c4 \#151 ; 8 " c2e/ \#151 ; 2 a4\amp ; 2e + 1 aPbdf + 3 " cde\#151 ; 5 a2fe2c/ + 1 " bc^e\#151 ; 5 " e2/ \#151 ; 1 acPdf \#151 ; 3 aPbcPf\#151 ; 1 " e*e + 1 lx\gt ; yY PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 97 ( continued ) .
+J=a4( a253 + 1 a252e \#151 ; , , d ?
+4- 9 a5c\#163 ; / \#151 ; a'52c2 \#151 ; 4 " cde + " bef - 2 a'62c/ \#151 ; " ce2 + 1 " 5c2e+ " e2/ + = a3j 8.16 9.19 y ) ' K = a4( 7.13 8.16 9.19 10.22 ade + 3 ft263 + 4 a262e + 1 a%H + 6 ' a'62/ + 2 " cZ2 - 18 a.M/ + 6 a263c + 2 , , 6ce\#151 ; 2 a5c\lt ; i \#151 ; 18 aede \#151 ; 15 , , cc\#163 ; 2 \#151 ; 18 a.'62c2 \#151 ; 16 a'52c/ \#151 ; 2 ab$d \#151 ; 30 " bef - 5 , , 6c2e \#151 ; 2 adef \#151 ; 9 =azk " ce2 + 1 , \#187 ; e3/ \#151 ; 1 aP62c3 \#151 ; g " beef\#151 ; 5 " c2e2 + 3 ac ?
+/* \#151 ; 3 3 a3de \#151 ; 12 a4b3 \#151 ; 6 a4b2e - 1 a ?
+b2d + 15 abbde \#151 ; 7 a664 - 2 aPbcf\#151 ; 2 fl2i'-'c \#151 ; 7 a252/ - 9 " d2 - 39 a3bcd + 40 cfibdf + 39 a463c \#151 ; 9 a46y - 7 " 6d2 + 3 " c2e + 2 ac3d + 42 " Ice + 9 " ede \#151 ; 14 " cd2 + 18 " b2ce +14 abb2cd +10 a'ic3 + 28 aedf +63 awe + 59 a2b2cf + 16 a3bc2d \#151 ; 33 +12 a ?
+bedf + 23 j , de2 + 2 awe +13 \#187 ; cef 7 a"hcf + 42 " bef + 7 " bc2e \#151 ; 12 " dtf \#151 ; 3 a2b2c3 + 15 " c3e \#151 ; 42 " ce2 - 1 . .
+e2/ + 1 " c2de \#151 ; 26 " b2ef + 4 ac3ci \#151 ; 210 ac2df \#151 ; 105 " beef+ 21 a2b2c2f +25 " See2 \#151 ; 2 a'6c4 \#151 ; 140 a%c ?
+f- 70 " c2e2 - 12 " Sc3e \#151 ; 53 " c2e\#163 ; 2 \#151 ; 15 eo 1 V % " c4e + 70 ac4d +126 " - 7 a3bc3d \#151 ; 28 a'bc5 + 84 #c3c\#163 ; /* + 21 " cdef- 7 " .*V + 21 a'6c4/ +14 a2S2c4 \#151 ; 19 = d2l " c5e \#151 ; 14 " ^v-io " 6'3\#163 ; 2 + 5 ac5c^ \#151 ; 6 aPbc6 \#151 ; 4 1 7.17 8.20 9.23 10.26 11.29 12.32 13.35 14.38 II gs 4( efityd - \#151 ; 2 a35de \#151 ; 1 a454 - 1 2/ )2 L=a3( , , cd ?
+-|- 9 ab$d + 12 " def + 3 a'52c3 + 4 " beef + 2 , , c2e2 \#151 ; 1 = a4m a253/ , , bhe + d ?
+f + abedf + 12 " $de - 12 a'62c2/ + 4 , , beie \#151 ; 8 " ce2/ \#151 ; 1 " bd2 + asb2cd + , , cZe2 + a353c2 + \#187 ; \amp ; V + , , 5ce2 \#151 ; " c2d2 \#151 ; c3cZ \#151 ; , , edef \#151 ; 3 a'62c4 \#151 ; 4 " bc^ef \#151 ; 2 , , c3e2 + 1 S\gt ; .
+2/ )7 10.22 11.25 12.28 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 97 ( continued ) .
+/ a262e + 1 a2fe3c + 4 a ?
+bde +12 a454 + 4 + 6 " cd ?
++ 36 a'52c3 \#151 ; 16 a ?
+bsf + 6 " M2 + 12 " c\lt ; Ze \#151 ; 6 , , 52ce \#151 ; 6 a362c\lt ; Z + 8 a'bzcf + 4 " 6ee/ \#151 ; 8 " d*f + 54 " \lt ; Ze2 + 4 , , 6c2e \#151 ; 8 " e2/ \#151 ; 1 = a ?
+n " c2e2 + 4 abcdf + 36 " fide \#151 ; 36 awe \#151 ; 12 " \amp ; V - 4 " c2d2 -108 a5c3cZ \#151 ; 96 , , cdef \#151 ; 24 a'52c4 _ 16 " b\amp ; of \#151 ; 8 " c3^ + 4 a463e + 2 " \lt ; 22e + 9 a*b*df + 6 " bed \#151 ; 10 a ?
+bbf\#151 ; 2 " 52c2e\#151 ; 11 \#187 ; C( ?
++ 1 abcHf- 18 \lt ; Pde + 18 a'52c3/ \#151 ; 4 5c4e + 8 .
+cezf + 1 9.19 10.22 11.25 12.28 13.31 0=\lt ; X6( a ?
+b^e + 3 a%U 6 " d ?
+e + 9 n\amp ; \#151 ; 54 db^df + 12 aPb^c \#151 ; 2 " bed \#151 ; 12 " 62e2 + 1 ' a%scf + 8 ' " bcdP \#151 ; 18 " 62c2e \#151 ; 20 db^d + 24 " \#163 ; e2/ \#151 ; 4 , , bdef + 18 " ce3 + 1 " cde9 .
+\#151 ; 12 a'bscs + 8 " b % \#151 ; 8 , , bc \#151 ; 10 = ff4o ^e3/ 1 11.21 12.24 asbde \#151 ; 2 a464 \#151 ; 2 a453e \#151 ; 5 a%U - 8 aPb^de + 6 a665 + 2 a263/ - 1 + 12 " d ?
+e \#151 ; 9 \#151 ; 72 a464/ + 5 % , 62\lt ; Z2 +12 a563c\lt ; 2 - 2 " d*f - 9 aPb^cd\#151 ; 10 a ?
+b^df\#151 ; 24 a454c + 4 " 63ce \#151 ; 13 abcdf \#151 ; 12 " de2 \#151 ; 5 a,263c2 \#151 ; 2 " bed + 44 " 52e2 - 1 nW +21 ^de2 - 3 " c^de +12 a ?
+bscf- 6 " bcd ?
+- 24 a362cd+ 52 " cd ?
+e \#151 ; 21 " cd3 -36 aPb^fif \#151 ; 4 , ,\amp ; 2e2/ \#151 ; 1 " 62c2e+ 36 aPb^cdf \#151 ; 4 a4i4c2 -12 " 6c3e + 8 " beez + 3 " 6e2f+ 6 " bdef+ 10 " bc*de +10 " 63e/ \#151 ; 5 " \lt ; **/ + 1 =a4p " c2\lt ; Z2 + 90 .abc^d +120 " cdef + 30 a'52c4 + 40 " bc* of + 20 " c3e2 \#151 ; 10 " cdj+ 90 C"p \#151 ; abc*df+120 " c^e -120 \#171 ; , '62c3/ + 40 " fec4e \#151 ; 80 \#187 ; c2e ?
+f\#151 ; 10 " cd\amp ; * + 8 + 4 " ft2^\#151 ; 2 " 6c2e2+ 2 " c3^2 \#151 ; 180 \#187 ; + 1 a bc^d \#151 ; 240 " c*def\#151 ; 60 a\lt ; W - 80 , , bc^ef\#151 ; 40 " c4e2 + 20 ^N^cOiO^OOOOiO r-l rH ^ CO CO 05 ^ +1++111+1+1 " 62ce2 + 4 " 6c2c ?
+2 \#151 ; 66 " d2e/ -18 asb^csd \#151 ; 10 " bedef\#151 ; 4 " c2c ?
+e2 + 1 a263c4 +14 " 62c2ef+ll " 5c3e2 -11 " c4^2 +18 jjce3/ \#151 ; 1 abc*d +26 " csdef + 6 a'52c6 + 8 " 5c4e/ + 4 " c6e2 - 2 11.25 12.28 13.31 14.34 15.37 16.40 $\gt ; \gt ; 2/ )4 I\#174 ; \#187 ; 2/ )5 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 97 ( continued ) .
+Q=aC)( S=\#171 ; 6( a%5 2 R=ot6( cfibde \#151 ; 1 a4b5 + 2 a4/ Ae 4- 1 " b\l2 + 18 a2b4f + 1 " b + 6 a%Hf + 3 aPb3cd + 22 " b \#151 ; 3 a3bsed \#151 ; 2 , , b2cde \#151 ; 11 , , b + 3 " M2/ \#151 ; 9 " bde2 \#151 ; 2 \#187 ; - 27 , , cd3 \#151 ; 54 " c + 9 " cd3 \#151 ; 54 , , de3 \#151 ; 1 a2\amp ; 4c2 + 12 a b \#151 ; 12 a2b4c2 \#151 ; 8 a2b4cf + 1 " \amp ; 3e/ + 5 , , b + 24 \#151 ; 4 " b3c2 \#151 ; 7 " \amp ; 2ce2 \#151 ; 4 " d#f + 3 " b2ce2 + 2 j\gt ; \amp ; 2e2/ \#151 ; 2 , , b 108 a'bsc2f \#151 ; 4 " \amp ; c2d2 \#151 ; 72 " bcd2f - 45 " d \#151 ; 27 , , 52c3e + 12 d \#151 ; 18 " 5ce3 + 1 a b2cH \#151 ; 72 " b + 3 ab3c3d \#151 ; 24 " c2d2e + 45 " b \#151 ; 36 .
+" c \#151 ; 1 " bedef \#151 ; 12 a b2c2 24 , , c2de2 + 18 " c2de2 + 6 " bc3d + 48 a'bsc4 \#151 ; 16 a'b3cf \#151 ; 4 " b2c2ef \#151 ; 12 , , b2c4 + 12 " b + 12 " bc2e2f + 3 " ce3/ + 1 , , c3e ?
+\#151 ; 1 = a6q = a5r 1%\gt ; yY 14.30 13.27 14.30 15.33 a%d2e + 9 a5b4d + 15 \lt ; :db3de \#151 ; 6 aeb6 - 2 a%3df 4* 7 " bd3- 27 " d3e - 27 " bsd2 + 9 " b2cde \#151 ; 12 a4b5c + 3 a%f - 3 " d4- 27 " d3/ - 27 " b2cd2 - 99 " b4ce + 9 a^b4cd 4- 18 a2b4cf + 2 " d2e2 - 18 " b2d2f - 9 " b2de2 + 6 " b3c2e \#151 ; 6 a3b3c2d \#151 ; 114 " bcd2e- 18 " bed3 - 54 " bcd2f \#151 ; 54 " b2def- 33 a3b3cdf - 9 awe + 15 , , o2d2e + 54 , , bede2 4- 12 * " b2c2de 4- 24 \#187 ; + 6 a b2c2df \#151 ; 36 " c2d3 + 162 " bde2/ + 3 " b3c2d2 \#151 ; 36 " bc3de + 72 a2b4c2 \#151 ; 24 " cd3/ 4- 81 " 63ce2 \#151 ; 6 " cde2f + 9 " b3cef - 9 , , cde3 \#151 ; 3 " 62c2^2 - 27 a%3c3f - 8 " b2c2e2 4- 9 a2b4c2f 4- 6 , , bd2ef \#151 ; 9 " b2c4e + 24 " bc3d2 + 324 " b3c3e \#151 ; 18 " cd2e2 \#151 ; 9 " bc2e2f + 6 " cd2ef 4- 69 " b2ce2f \#151 ; 9 a%3c3d \#151 ; 54 " ( ^e3 \#151 ; 2 ab2c4d 4- 216 " bc2def4- 120 " c3de2 \#151 ; 54 " bc2d2f + 162 , , bc2e3 4- 3 " c3d2e - 162 " b2cdef \#151 ; 27 " bc2de24- 3 , , cH3 \#151 ; 54 = a6s a'b3c5 + 48 " b2c3ef + 36 " 5c4e3 - 36 " oVf - 3 a b2c ?
+df + 108 " bcWe - 216 " c2de2f- 27 a%3c4f 4* 24 , , b2c5e \#151 ; 72 " bc3e2f \#151 ; 18 " c4\amp ; 4- 6 " de3/ \#151 ; 2 a2b4c4 \#151 ; 24 " b3ce2f \#151 ; 21 , , b2c3e2 4- 21 " bc4d2 - 108 " 6ce3/ 4- 2 " c2d2ef \#151 ; 27 a b2c5d- 72 " bc3def \#151 ; 36 " c4de2 4- 18 of'53c6 \#151 ; 16 " b2c4ef \#151 ; 12 " bc5e2 + 12 " ^e3/ + 1 $\gt ; \gt ; y)1 15.33 16.36 17.39 18.42 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 97 ( continued ) .
+T=( aPb^de + 7 8 ?
++ 2 7j " bd$e + 27 " 6W + aWf + 1 aPb^cd \#151 ; 10 " b5e \#151 ; 2 " Tfld# ~ 8 " b3(P + 24 " 52c\lt ; 23 \#151 ; 54 " IflcdPe ~ 54 " dse % \#151 ; 27 r , \#151 ; 81 a%6c ?
+\#151 ; 14 " \lt ; Pe \#151 ; 6 " b5ef \#151 ; 7 aPb^cdf + 16 " 64ce3 + 9 1 bsc*de \#151 ; 76 " 63c3c ?
+2 \#151 ; 84 " bH \#151 ; 12 " 62#e/ ~ 2n " 6c#/ \#151 ; 216 " 6c#e2 + 9 " bcd$ + 5 " fid4* + 162 " c2d + 216 a ?
+bS'3d \#151 ; 8 a2b4c ?
+e \#151 ; 8 " bscdef + 4 " b % \#151 ; 216 , ,b^flde^ + 18 " 62c2e3 + 2 " besds + 432 " 6c3#e + 432 " bd + 3 " c#e2/ + 54 " cd3 + 108 a b3c3df \#151 ; 96 " cde4 \#151 ; 1 " 62c4(Ze + 288 a265c4 + 16 " bcUeH + 72 " 64c3e/ + 20 " c^e3 24 " 63c3e2 \#151 ; 24 a , '64cy \#151 ; 16 " 62c4# + 432 " 63c5e + , .
+64 " 62ce3/ \#151 ; 5 i " \amp ; 3c3e2/ + 24 , , 6c2#e/ + 216 1 * " 5c4e3 \#151 ; 16 " fcc3e4 + 1 " c2e4/ =aH 1 , , c-3#e3 \#151 ; a 63c5\lt ; Z + " 62c3\lt ; Ze/ + " 6c4\lt ; Ze2 \#151 ; " a*d$f \#151 ; #64c6 + " bsc4ef + " 62c5e2 \#151 ; " 6c3e3/ \#151 ; " eM .
++ 108 192 144 144 12 32 32 48 8 2 if 19.41 20.44 awe \#151 ; 3 " bsds + 14 1 d\gt ; \#151 ; 27 cfiWo \#151 ; 1 " 64cc ?
+3 + 34 " \amp ; 3eZ3e3 + 11 " 6ccZ4 \#151 ; 81 a365c3cZ + 32 " 64de/ + 10 " 63cde3 \#151 ; 6 " 63c3# \#151 ; 144 " 6#e/ \#151 ; 18 " cc ?
+3e3 18 a346c3 * + 8 " 66ce/ + 4 " 64c3e3 \#151 ; 6 " b^$d* \#151 ; 152 " b2cd^ef \#151 ; 60 " bcUW + " d ?
+e ?
+f \#151 ; a b^d \#151 ; 80 " bWdef - 56 " b*$de % + 48 " bedePf + 2 " fide4* + 1 aPTfics* \#151 ; 16 " tfifief + 16 " 63c4e3 + 24 " + 4 " 6c3e4 + 1 = a ?
+u 21*45 M DCCCLXX VIII .
+\lt ; x\gt ; tP PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 97 ( concluded ) .
+( a6bs 4 aPWe 2 " b5 \#151 ; 12 " b \#151 ; 48 a5b6cd + 20 " bd'le \#151 ; 162 " bW + 23 cfib6df \#151 ; 6 " b3 + 108 " b^cde + 8 " bd + 81 " 53#/ \#151 ; 144 + 28 , , b + 8 \#187 ; ^6e/ + 15 " W + 324 " 55ce3 \#151 ; 20 " d*f + 486 " \amp ; W + 168 " ^e3 + 63 " + 78 a4Wcf \#151 ; 2 , , 52ccZ3e2 \#151 ; 72 " 56c2e + 18 , , 5c2# \#151 ; 324 \#187 ; 55e3/ + 7 i " d* of \#151 ; 81 " Ifa\amp ; f \#151 ; 144 \ " d3e4 \#151 ; 6 , , b \#151 ; 9 | a3b5c3d + 16 , , b3c2d2e + 648 1 " b4c + 8 " }r*d ?
+e ?
+f + 99 i " 53c2#3 \#151 ; 112 " bc + 1458 " 6W \#151 ; 864 " bcd^e3 \#151 ; 27 " b^dePf \#151 ; 18 " c2#e \#151 ; 1458 " bc \#151 ; 432 a3b5$df \#151 ; 32 " 5c#4 + 7 " b4c3de + 208 " c2#e2 + 216 " 53c#2/ + 20 a256c4 \#151 ; 32 , , 53c2#/ + 1728 \#187 ; \#151 ; 40 , , b^c^de3 \#151 ; 40 " 54c3e2 + 40 " b$d3e \#151 ; 3456 , , 53c4cZ3 \#151 ; 864 " bd \#151 ; 3 " 63ce3/ + 10 " c#e3/ \#151 ; 432 , , 53c2#e/ \#151 ; 648 , , cde5 + 1 " 5c3#e2 + 648 a.364c3e2/ \#151 ; 20 " c#e3/ + 54 " 53c3#/ + 1008 a \amp ; 4c5cZ \#151 ; 384 , , b3c3e3 + 20 , , b3c \#151 ; 384 " 52c4#e \#151 ; 3024 " We + 576 \#187 ; 53ce4/ + 5 , , bcMe3f + 96 , , 5c2\lt ; i2e2/ \#151 ; 756 " fide4* \#151 ; 24 " fcc3e5 \#151 ; 1 awe \#151 ; 64 " c3#e3 + 252 " b4c4ef \#151 ; 80 a b4cMf + 288 " b3c3 + 160 " b3c5de \#151 ; 1152 , , 53c3e3/ + 40 " b^c3de2f \#151 ; 432 " 5c4e4 \#151 ; 20 " bci3 + 288 \#187 ; c3e5/ \#151 ; 1 " c3#4/ + 18 a'b5cf + 32 " 54c6e \#151 ; 160 63c4e2/ \#151 ; 80 " 63c5e3 + 80 \#187 ; \amp ; c3e4/ + 10 = a9v ( " c4e5 \#151 ; 2 !
+x\gt ; if 22.46 23.49 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 98 .
+Covariants of A , divided and ( except as to a few coefficients ) segregate .
+A and B as given in Table 97 were divided and segregate .
+C was divided but not segregate : the divided and segregate form is C=( 6 + 1 / +3 a % + 3 aPc ?
+\#151 ; 15 a ?
+e + 1 a'cf \#151 ; 10 aPd + 6 a'bc- 3 " cP +15 aH + 3 aPc2/ + 3 a4Z\gt ; 2 - 55 ^ + a ?
+cd \#151 ; a'c4 \#151 ; i i 4 1 2.6 3.9 4.12 5.15 6.18 7.21 8.24 D divided and segregate is -j-3 r )=a3( d + ] i +1 - 1 " h + 1 aPcd \#151 ; 3 al \#151 ; 1 a 'd \#151 ; 1 !
+x\gt ; y)s\gt ; 3.3 4.6 5.9 6.12 $\gt ; , 3 an integer non-segregate form of the fractional coefficient is ci \#151 ; 1 df + 1 E was divided but not segregate : the divided and segregate form is .
+E=( e + 1 ad \#151 ; 6 ai +12 a ?
+b* - 8 a%e \#151 ; 5 cfig \#151 ; 1 a%c -10 a'ce \#151 ; ID " h - 2 acd \#151 ; 24 a%$ + 20 55 ^ + 8 aci \#151 ; 12 aP$e + 5 a%d + 6 + 2 j , ch + 2 a$d + 6 a'6c3- 2 3.5 4.8 5.11 6.14 7.17 8.20 3\gt ; , yfF was divided but not segregate : the divided and segregate form is -r-3 / +1 a % + 2 aPe + 1 a ?
+d + 34 aH + 40 a*b2 - 16 a*be - 21 - 1 a6k \#151 ; 4 awe - 2 aPc2\#151 ; 18 aPcf\#151 ; 36 a2bc \#151 ; 42 d2ce \#151 ; 35 " h - 5 a ?
+cd + 46 aH - 8 abbd + 18 a5bi + 1 , , bh + 3 aPc3 +168 a'c2f+126 , , ci \#151 ; 16 a'-c1e +189 a4b2c \#151 ; 18 aAbce + 2 5 , eg - 1 cfibc2 +155 , , ch + 38 " cl - 8 offie2 + 4 a'c4 +252 aPc3f-2b2 cP\amp ; d \#151 ; 174 a3( ?
+i -16 " \lt ; ?h - 5 a^bc2 \#151 ; 86 a2c ?
+e \#151 ; 13 a3c3d +16 a'c5 + 72 a'cAf + 9 a ?
+bc4 + 4 a'c6 - 2 y)\ 3.9 4.12 5.15 6.18 7.21 8.24 9.27 10.30 11.33 12.36 where for an integer non-segregate value of the fractional coefficient , see the original form of F. 4 m 2 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 98 ( continued ) .
+G as an invariant was divided and segregate , G=a6 g 4.0 H divided and segregate is -4-3 4-3 h + 1 be + 2 a ?
+g + 1 a*k + 2 cfij + 2 ' l -4 abd -12 obi \#151 ; 8 a.%3 + 4 ci'ch \#151 ; 6 a%ce\#151 ; 6 " bh \#151 ; 5 , , cl +12 \#187 ; c9 +1 abed +12 a'c2h + 3 4.4 5.7 6.10 7.13 8.16 where the fractional coefficients are = ade + 2 \#187 ; a253 + 2 a'52/ + 4 " d* +6 , , bee \#151 ; 6 abed \#151 ; 2 jj cl + 4 aPbW - 8 " bef \#151 ; 3 " \lt ; ?h + 1 " ce2 + 1 I divided and segregate is I=a3( 4-3 4-3 4-3 i + 1 a\amp ; 2 \#151 ; 2 " h +2 aPcd \#151 ; 18 al + 5 aPci \#151 ; 15 a ?
+bd -20 a\lt ; W + 60 aPlc \#151 ; 5 a ?
+bi-25 acl \#151 ; 30 a'cH +45 a4j \#151 ; 4 a%3 +10 " bh \#151 ; 8 " cg +4 aPbed \#151 ; 6 abtP \#151 ; 18 , , c % \#151 ; 6 oPc^d \#151 ; 54 aPb^e + 3 " bl +9 " eh \#151 ; 5 \#187 ; f9m ~ 3 aPbei \#151 ; 8 ab2cf \#151 ; 9 , , bc2e \#151 ; 15 , , cH + 3 a'cH \#151 ; 3 4.6 5.9 6.12 7.15 8.18 9.21 10.24 2\gt ; , if \gt ; a^de \#151 ; 5 aPb* + 2 oPb^e + 1 ab2f + 5 " \lt ; 22 -12 aPbdf + 3 " bee \#151 ; 5 orbed \#151 ; 2 " ede \#151 ; 5 a'c2i \#151 ; 5 abr( ?
+\#151 ; 6 ab^cf + 1 , , cdf + 30 " cVi - 2 " ce2 \#151 ; 2 aPcH -18 " 5c2e \#151 ; 5 \#187 ; e2/ - 1 a'cH + 1 " cHf \#151 ; 3 where the fractional coefficients are= PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 98 ( continued ) .
+J divided and segregate is J= a7 ( j , \#151 ; njx , 5.6 6.4 K divided and segregate is yf- 5.3 6.6 7.9 8.12 h + 1 aj 2 QLYl 1 a ?
+m \#151 ; 3 aPtf + 6 a'ek- 3 acj + 1 " bh- 9 a'\amp ; 3c \#151 ; 2 " eg + 3 , ,6cA+ 3 " ^g\#151 ; i L divided and ( as to first six coefficients ) segregate is 3 -f-3 t + 1 .
+\#151 ; 3 a2\amp ; \#151 ; 4 a3j - 13 a ?
+n \#151 ; 3 a4m - 1 !
+cfibde \#151 ; 7 efib* - 2 aPb2c \#151 ; .
+7 a\amp ; i + 1 awe - 5 a2bl - 45 adb2d + 13 | a2b*f - 7 | id ?
+a ?
+b2cd + 3 , , c ?
+^- + 7 a'cl -21 " b - 5 " cJc \#151 ; 20 " oj + 3 !
+" b2ce +14 + 10 \#187 ; cg + 10 a\amp ; ci \#151 ; 10 a2b'sc \gt ; -13 | " d2f +12 " dei f 2 abed + 30 a'cH + 105 " bch + 29 abedf + 23 a2b*c2 + 13 aPb2o " +105 \#187 ; \lt ; ?g -16 | " c2de \#151 ; 24 \#187 ; \amp ; of + 4 99 -105 abc2d - 3 aPb2cf + 25 " bee2 .- 2 a'b2cB -21 1 " beze \#151 ; 55 " c2d2 -15 " cih + 21 !
+" cH - 3 abcPd -28 L\lt ; *j\#187 ; .+ 2 " edef - 7 j , ce*f - 7 aPb2c4 -19 " Jc2^* -10 " C4A - 1 9 ) + 5 5.7 6.10 7.13 8.16 9.19 10.22 11.25 12.28 where the fractional coefficients are \#151 ; a2b* - 6 | a2b2e - 1 " d2 + 3 abdf + 39 abed + 26 " cde \#151 ; 22 a'b2c2 + 31 a%2cf +16 , , ief + 7 " bc*e \#151 ; 4 " c*h - 7 " c2l +19 " ce2 - 1 " cfh \#151 ; 8 -14 + i the last two coefficients have not been reduced to the segregate form .
+M divided and segregate is 00 $ II m + 1 bk - 1 abj \#151 ; i p \#151 ; 1 adg + i , ,'cm \#151 ; i Xx\gt ; 6.2 7.5 8.8 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 98 ( continued ) .
+N divided and segregate is 8 II \#163 ; 5 n + 1 cj 4 4 ap \#151 ; 6 a ?
+bj \#151 ; 4 aPo 4 1 cn \#151 ; 6 , , dg 4 4 a ?
+bn \#151 ; 1 a54 4 8 acp 4- 2 " Wh- 12 " bcg+ 4 " cm \#151 ; 8 a'#j \#151 ; 4 a'c2\#171 ; + 1 6.4 7.7 8.10 9.13 10.16 0 divided and segregate is O=\#171 ; 10( o + l V + 1 bm + 6 df \#151 ; 6 gh \#151 ; 1 7.1 P divided and ( as to first three coefficients ) segregate is p + 1 abj 4 8 a ?
+o 4 7 a ?
+bm 4 8 cPWk - 3 a3\amp ; 2y 4 2 , , dg 5 abn \#151 ; 2 " dj 4 3 " bp \#151 ; 3 " bdg \#151 ; 2 a'64 -14 a'cp \#151 ; 14 absd 4 9 " em 4 2 d ?
+hcm 4 2 " 62A415 | " bcj 413 alPde 4 3 , , bek \#151 ; 1 " beg\#151 ; 5 " bdh \#151 ; 9 " bdl4 3 " ep \#151 ; 1 " cm410 " cdg \#151 ; 12 5 Mi + 8 aZ\gt ; 3ccZ 424 " ds -81 " dH .
+-27 " bc*j \#151 ; 6 a'54c \#151 ; 5 " deh \#151 ; 3 " bedh\#151 ; %3 " \amp ; 2c/ i- 8 " dfg \#151 ; 8 ^ c^dg 415 " 62e3 - 1 a'bsce \#151 ; 7 " ccZ3 \#151 ; 54 " bc*g \#151 ; 1 " 63cZ 4 1 - 9 " bed ?
+\#151 ; 9 " bezk 4 9 a'64c3 4 8 " bel \#151 ; 1 " bedi \#151 ; 9 , , \amp ; 2c%-ll " bfk 4 1 , , beeh 410 " Z\gt ; c3\#163 ; 4 3 " c^m \#151 ; 12 " $eg \#151 ; 3 " Z\gt ; c3cZ2\#151 ; 18 , , dei 4 9 " c2p 4 9 " befk\#151 ; 1 " e^h 4 1 " ccZ2e 418 , , c3m \#151 ; 6 \#187 ; fP ~ 2 " cfm 4 4 + 2 !
+\#166 ; " efk 4 3 7.5 8.8 9.11 10.14 11.17 10.20 y)\ the last three coefficients have not been reduced to the segregate form .
+Q as an invariant was divided and segregate , Q\#151 ; a13 q 8.0 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 98 ( continued ) .
+R divided and segregate is -f-2 -4*3 R=an( r + 1 aq + 1 abo \#151 ; 1 aPb^j + 6 \#151 ; 1 " bdg \#151 ; 5 " s + 3 \#151 ; 1 aPer \#151 ; 3 !
+x\gt ; y ) 8.2 9.5 10.8 where the fractional coefficients are \#151 ; by + 2 bdk + 3 bdg \#151 ; 2 bej + 1 dm \#151 ; 6 cr + 1 deg \#151 ; 1 dp + 3 S divided and ( as to the first three coefficients ) segregate is a%q + 4 ab3j + 4 " bHg- 4 " bdm\#151 ; 31 - 3 a%6 + 4 " 63eZ2 + 16 " bd*h- 24 " den + 4 " / \#187 ; \#151 ; 1 9.3 10.6 11.9 12.12 but the last coefficient is neither segregate nor integer .
+S=a12( 8 + 1 m \#151 ; 2 abr - i aPbsg + 2 " do - i " b^m + 3 aPcs - 3 + 21 " bgh \#151 ; 4 \#187 ; \lt ; #2 + 2 \#187 ; c ?
+~ 3 T divided and segregate is T=a16( -h2 t + 1 bgm + i bf + 4 dgj \#151 ; 3 hg \#151 ; 1 11.1 12.4 j\amp ; \gt ; , y)l\gt ; where the fractional coefficient is == b*q - 1 hq + 1 m2 + 6 yY\gt ; PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 98 ( concluded ) .
+U as an invariant was divided and segregate , TJ=a18 u 12.0 V divided and segregate is 4-6 rH + bgr \#151 ; 5 bjo - 10 gft + 5 p - 12 nq \#151 ; 9 13.1 14.4 where the fractional coefficient is = dt \#151 ; 6 mr \#151 ; 6 nq + 1 W as an invariant was divided and segregate , W=a2 ' w 18.0 Derivatives.\#151 ; Article Nos. 382 to 384 , and Tables Nos. 99 and 100 .
+382 .
+I call to mind that any two covariants a , the same or different , give rise to a set of derivatives ( a , b)1 , ( a , b)2 , ( a , 6)3 , \amp ; c. , or , as I propose to write them , 1 , ab3 , \amp ; c. , viz. : ah\=d* a. dyb\#151 ; dya .
+d:ib ab2=d/ a .
+dyb\#151 ; 2 dxdya .
+dxdy b-\~ d2a .
+d2b ab'3=d , r5a .
+dyzb\#151 ; 3 dj*dya .
+dxdyb+3dxdya .
+\#151 ; d/ a .
+d.rsb \amp ; c. or , as these are symbolically written , abl = l2a1b2 , ab2=l22a1b2 , aZ\gt ; 3 = 123a1 ?
+\gt ; 2 , \amp ; c. , where 12=^-^ , =\#163 ; \#166 ; A \#177 ; the differentiations A \#177 ; applying to the a , and the applying to the b2 .
+but the suffixes being ultimately omitted : hence ( -'h ( bh ' t if 0 be the index of derivation , the derivative is thus a linear function of the diffeiential coefficients of the order 0 of the two covariants a and b respectively : and we have the general property that any such derivative , if not identically vanishing , is a covariant .
+If the a and the b are one and the same covariant , then obviously every odd derivative is =0 ; so that in this case the only derivatives to be considered aie the even derivatives aa2 , act4 , \amp ; c. : moreover , if the index of derivation 0 exceeds the PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+639 order of either of the component covariants , then also the derivative is =0 : in particular neither of the covariants must be an invariant .
+The degree of the derivative is evidently equal to the sum of the degrees of the component covariants ; the order is equal to the sum of the orders less twice the index of derivation .
+383 .
+It was by means of the theory of derivatives that Gordan proved ( for a binary quantic of any order ) that the number of covariants was finite , and in the particular case of the quintic , established the system of the 23 co variants .
+Starting from the quantic itself a , then the system of derivatives aa2 , aa4 , \amp ; c. , must include among itself all the covariants of the second degree , and if the entire system of these is , suppose , b , c , then the derivatives abl , abd , \amp ; c. , acl , ac2 , \amp ; c. , must include among them all the covariants of the third degree , and so on for the higher degrees ; and in this way limiting by general reasoning the number of the independent covariants of each degree obtained by the successive steps , the foregoing conclusion is arrived at .
+But returning to the quintic , and supposing the system of the 23 covariants established , then knowing the deg-order of a derivative we know that it must be a linear function of the segregates of that deg-order ; and we thus confirm , d posteriori , the results of the derivation theory .
+I annex the following Table No. 99 , which shows all the derivatives which present themselves , and for each of them the covariants as well congregate as segregate of the same deg-order : the congregates are distinguished each by two prefixed dots , . .
+bf , \amp ; c. No further explanation of the arrangement is , I think , required .
+We see from the table in what manner the different covariants present themselves in connexion with the derivation-theory .
+Thus starting with the quintic itself a , we have the two derivatives 4 , cta2 , which are in fact the covariants of the second degree ( deg-orders 2.2 and 2.6 respectively ) b and c. For the third degree we have the derivatives ab2 , 4 , ac3 , ac2 , acl : the deg-order of ac5 is 3*1 , and there being no covariants of this deg-order , ac5 must , it is clear , vanish identically : ab2 and ac4 are each of them of the deg-order 3.3 , but for this deg-order we have only the covariant d , and hence ab2 and ac4 must be each of them a numerical multiple of d ; similarly , deg-order 3.5 , abl and oc3 must be each of them a numerical multiple of e ; deg-order 3.7 , ac2 must be a numerical multiple of ab ; and deg-order 3.9 , acl must be a numerical multiple of / : the 7 derivatives , which might give , each of them , a covariant of the third degree , thus give in fact only the 3 covariants d , e , f\ and in order to show according to the theory of derivations that this is so , it is necessary t0 pr0ve_io , that ac5=0 ; 2 ' , that ac4 and ab2 differ only by a numerical factor ; 3 ' , that abl and ac3 differ only by a numerical factor ; 4 ' , that oc2 is a numerical multiple of ab : which being so we have the 3 new covariants .
+The table shows that for degrees 2,3 .
+4 , 1\gt ; , 6 , 7 , 8 , 9f 10 , 11 , 12 , 13 , 14 , 16 , lg , 17 , 18 , 19 , 20 , 21 , 22 , 28 , 24 No. of derivatives= 2 , 7 , 19 , 29 , 41 , 46 , 62 , 46 , 44 , 35 , 26 , 19 , 17 , .12 , 13 , 6 , 6 , 3 , 3 , 1 , 1\gt ; 0 , so that the whole number of derivatives is 429 , giving the 22 co variants b , c ... w. PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANT1CS .
+While it is very remarkable that ( by general reasoning , as already mentioned , and with a very small amount of calculation ) Gordan should have been able in effect to show this , the great excess of the number of derivatives over that of the covariants seems a reason why the derivations ought not to be made a basis of the theory .
+It is to be remarked that we may consider derivatives \amp ; c. , where , instead of being simple covariants are powers or products of covariants ; but that these may be made to depend upon the derivatives formed with the simple co variants .
+( As to this see my paper .
+" On the Derivatives of Three Binary Quantics , " Quart .
+Math. Journal , t. xv .
+( 1877 ) pp. 157-168 .
+) Table No. 99 ( Index Table of Derivatives ) .
+2 3 0 2 4 6 1 3 5 7 9 b c d e ab f aa 4 2 ab 2 1 ac 5 4 3 2 1 2 derivs .
+7 derivs .
+Deg .
+Ord .
+4 5 0 2 4 6 8 10 12 1 3 5 7 9 11 13 g V* i ae h be c2 j k ag be 2 ai a ?
+d bd l ah . .
+bf abc cd ce i ad 3 2 1 ae 5 4 3 2 1 af 5 4 3 2 1 bb 2 be 2 1 cc 6 4 2 ah 4 3 2 1 ai 5 4 3 2 1 bd 2 1 be 2 1 bf 2 1 cd 3 2 1 ce 5 4 3 2 1 cf G 5 4 3 2 1 19 derivs .
+29 derivs .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 99 ( continued ) .
+Deg .
+Ord .
+6 0 2 4 6 8 10 12 14 h9 a ?
+ah a ?
+g a\amp ; e a2\amp ; 2 m bs bi abd al a2/ * bh .
+.'cZe b2c ci acd % ch ..df b\lt ; ? . .
+d3 . .
+e2 . .
+'0 1 ah 3 2 1 al 5 4 3 2 i bh 2 1 hi 1 2 1 ch 4 3 2 1 ci 6 5 4 3 2 i dd 2 de 3 2 1 df 3 2 i ee 4 2 of 5 4 3 2 1 f 8 6 4 2 41 derivs .
+* Deg .
+Ord .
+7 i 3 5 7 9 11 13 0 \amp ; bh abg an a ?
+j a ?
+h dg eg am . .
+\amp ; 2e ab3 abi P bH bl abh . .
+\amp ; cZe 4 ch acg . .
+\amp ; 2/ . .
+dh . .
+di . .
+\amp ; cZ2 bee . .
+eh bed cl fg .
+, ei ..fh_ am 2 i an 4 3 2 1 M 1 bk 2 1 bl 2 1 1 ch g 2 1 cl 6 5 4 3 2 i dh 3 2 1 di 3 2 1 eh 4 3 2 1 ei 5 4 3 2 1 fh 4 3 2 i fi \ 6 5 4 3 2 1 46 derivs .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 99 ( continued ) .
+Deg .
+Ord .
+0 2 4 6 8 10 12 14 r % as abj able a%g ahi \lt ; i bm bn adg aeg atm . .
+ab^e dj . .
+ap ab^d abl ( jh . .
+ej bVi hH acj ack T- beg . .
+bde . .
+adh . .
+adi . .
+M3 cn IPc . .
+aeh cm .
+.dl bch afg . .
+e\amp ; .
+-fl . .
+be* bci * . .
+^3 . .
+hi c*g ..bdf . .
+c3 . .
+ede .
+.el ..fk . .
+ft ao 1 ap 5 4 3 2 1 bm 2 1 bn 2 1 cm 2 1 cn 4 3 2 1 dj 1 dh 3 2 1 dl 3 2 1 ej 1 ek 3 2 1 el 5 4 3 2 1 fj 1 fk 3 2 1 fl 7 6 5 4 3 2 1 hh 4 2 hi 4 3 2 1 a 6 4 2 52 derivs .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 99 ( continued ) .
+9 1 3 5 7 9 11 gj bo ag* are aJfig 0 ?
+0 gh aq ... bVc abm abn 8 b*j leg adj . .
+adk bdg bp agh . .
+aej . .
+dm CO bH agi . .
+dn bcj .
+fe3e . .
+em . .
+bdh m gl cdg bck .0 hk . .
+ds . .
+bdi . .
+V . .
+en . .
+bell .
+, ih . .
+bfg ceg cp . .
+d*e . . .
+.hi are 2 i bo i bp 2 i CO i cp 5 4 3 2 1 dm 2 ] dn 3 2 1 'em 2 1 en 4 3 2 1 fm 2 1 fn 4 3 2 1 H 1 hk 3 2 1 U 4 3 2 1 ij 1 ih 3 2 1 il 6 5 4 3 2 1 4G derivs .
+044 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Deg .
+Ord .
+Table No. 99 ( continued ) .
+0 2 4 6 8 10 12 bg2 hr ati abo a2g2 a2r bq . .
+Vg agJc a2q . .
+ab2 gm gn b2m as ab2j abeg f jh bdj b2n abdg abp \gt ; bgh . .
+bdJi . .
+adm aco eg3 ahj . .
+adn CCL " bgi . .
+65 . .
+aem . .
+d cr b*h agl . .
+eo . .
+deg b2cg . .
+ahh . .
+Jim . .
+dp . .
+b . .
+aij . .
+A:2 . .
+h beon bH . .
+i . .
+beh . .
+b2de ..jl . .
+b ben cdj . .
+bdl cgh . .
+hfj . .
+d . .
+b hi \#166 ; \#166 ; \lt ; ? . .
+cdJc . .
+ep . .
+ce/ . .
+fo cgi . .
+in . .
+dH . .
+hi . .
+deh . .
+dfg as 3 2 1 br 2 1 cr 2 1 do 1 dp 3 2 1 eo 1 ep 5 4 3 2 f ' fP 5 4 hm 2 1 hn 4 3 2 1 im 2 1 in 4 3 2 jh 1 jl 1 JcJc 2 Id 3 2 ll 6 4 44 derivs .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 99 ( continued ) . . .
+bdm . .
+bem 35 derivs .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Deg .
+Ord .
+Table No. 99 ( continued ) .
+0 2 4 6 8 10 gr ago abgj atfo \#163 ; /9 jo b^q at . .
+adgr2 abgk u bgm Irr adq abs y . .
+bdo ajm . .
+adr d9J bgn Vg aegz gVi bjh bhn aeq hq . .
+bUj agp . . . .
+ds b*gh . .
+a7io . .
+TO2 . .
+ogj beg2 . .
+ajn gH beq . .
+akm . .
+/ ir . .
+\amp ; d2\lt ; / b^n iq . .
+\amp ; eo . .
+bUk .
+- ip . . . .
+b^ej . .
+mn . .
+b . .
+\amp ; 2^-i cgm ber cf . .
+dhn . .
+bdp . .
+dhj . .
+bhn . . . .
+him . .
+es \#166 ; \#166 ; bjl \#166 ; \#166 ; . .
+cdo . .
+ir cgn . .
+k cjk . .
+lo . .
+d ?
+n . .
+r . .
+dem . .
+d . .
+d . .
+d . .
+e . .
+fgj . .
+ghi at 1 ds 3 2 1 es 3 2 1 fs 3 hr 2 1 ir 2 1 jo 1 jp 1 ko 1 kp 3 2 1 lo 1 Ip 5 4 3 26 derivs .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 99 ( continued ) .
+i. dgm . .
+bhm 19 derivs .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 99 ( continued ) .
+Deg .
+Ord .
+m cu .
+d2j/ 2 .
+d2 .
+djm .
+ego .
+et .
+ghm \#166 ; jk3 .
+V .
+hs .
+nr .
+OJ9 . .
+begj bgH . .
+Mr big . .
+bj . .
+cgr cjo . .
+d2r . .
+de^3 . .
+de\lt ; / . .
+dg . .
+dlio . .
+djw . .
+dhm . .
+e/ m . .
+ghn . .
+gim . .
+gfl . .
+hj . .
+^'2 dt 1 et 1 fl 1 Js 1 hs 3 2 1 Is 3 2 1 mr 2 1 nr 2 1 op 1 pp 4 2 14 15 0 2 4 6 8 1 3 5 bgs bgr . .
+ag-j abgo g*o Wi . .
+b^go bgg bjo ajg abt gt bjg bH bu . .
+dgo av ag % og by bg*k ghn . .
+d\#163 ; 68(/ 3 ags CO bgs at* g^n bsg . .
+a/ r dgg . .
+bjr mq gjk b^qm ahg . .
+d % bhq . .
+o2 js by . .
+arao gjm . .
+bmo . .
+mr bdgj 68r . .
+dgr nq bgVi . .
+62do . .
+or . .
+d/ o bhq . .
+63gw egz . .
+6/ co by egg . .
+6m2 . .
+6dg\amp ; . .
+ew eg3 . .
+6ds g2p .
+0\amp ; O . .
+qh .
+m pg by i cv 1 hft 1 it 1 ms 2 1 ns 3 2 1 or 1 pr 2 1 17 derivs .
+12 derivs .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QtJANTICS .
+Table No. 99 ( continued ) .
+Deg .
+Ord .
+16 0 2 4 6 8 Col. 8 concl .
+94 A ag^o . .
+\lt ; %2i 1 S'3 ?
+Wgq agt dbjq . .
+ekq $N* $ b^u aoq abv . .
+emo 23 qr bg^m . .
+\amp ; 2\lt ; /r . .
+ad#3 . .
+g't'Jfi igf b^jo .adgq . .
+gir ' bmq . .
+6%o . .
+adieu . . . . .
+6o2 . .
+bdt agjm . .
+glo \lt ; ^a2i bg^n . .
+# . .
+gn* djq bgjh . .
+aor . .
+Jfiq . .
+bjs \amp ; y . .
+hko $\#187 ; * * ? .
+bmr b^q . .
+7im2 ' dM . .
+bnq b^gm . .
+J8 ..gko . .
+c ?
+gr2\amp ; vf * r. .
+jkn ' o .
+gm ? . .
+dgs bHgj ; .
+\amp ; 2ra . .
+hue . .
+djr byh .
+.It . .
+d\amp ; g ' b2hq . .
+ps . . . .
+dmo . .
+\amp ; a7co . .
+os . .
+e$f2i . .
+\amp ; 2m2 . .
+r2 * .
+e93 begs . .
+ev begq l gH bcu . .
+glnr . .
+bd ?
+g* ' m . . . .
+aip . .
+bdjm . .
+gmn . .
+bego . .
+fy'o . . . .
+iu . .
+bghm .
+.j % . .
+\amp ; $\amp ; 2 . .
+jkm . . ?
+%'2 , . . .
+Zmr , .
+6op cg^m cgf cmq . .
+oo3 . .
+d^gm . .
+d^j* . . . .
+dkr \#171 ; .
+c ?
+/ ?
+o . .
+0#2\amp ; * .
+egs . .
+i dv i ev i fa i ft 1 m i It .
+i op i OS i pp 4 2 \lt ; ps 3 2 1 13 derivs .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 99 ( continued ) . . .
+doq . .
+gmo . .
+gmr . .
+gor . .
+bor . .
+bdv . .
+dmq . .
+bgko my 1 . .
+gno . .
+bht . .
+bos 6 derivs .
+6 derivs .
+3 derivs .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 99 ( concluded ) .
+20 21 22 24 0 2 4 1 0 2 0 g* bw b^g4* gSq gSr b^g^q g%u g^jo W'gu g\lt ; f. .
+gfi ^g\ qu gqr bgzm . .
+jog . .
+ov bgmq rn . .
+bgo % bpq .
+M bmu . .
+hot dgsq dgjq . .
+dgv dju g*K g*hq . .
+g^lco , .
+\lt ; /3m3 ghu . .
+gpm . .
+ght . .
+gos .\#187 ; 3 hq ' . .
+JOT . .
+koq 1 .
+w ?
+q . .
+mo3 - .
+st g4j g*h g'2v gj\#171 ; 0 jr qv TO 1 gw bg5 bg*u bgq3 bqu gSn gY g^mq . .
+\lt ; /3o3 93*2 .
+\#166 ; .
+gjv gmu . .
+got pu mq % . . . .
+^ SV 1 .
+g*u S'3 ?
+2 gqu qs \#166 ; V ?
+tv 1 ov 1 pv 1 sv 1 3 derivs .
+1 deriv .
+1 deriy .
+1 deriv .
+384 .
+The Canonical form ( using the divided expressions , Table No. 98 ) is peculiarly convenient for the calculation of the derivatives .
+Some attention is required in regard to the numerical determination : it will be observed that A is given in the standard form ( A0 , Alf A3 , A3 , A* , A.hJx , y)5 , while the other covariants are given in the denumerate forms B=(B0 , B1 } By)3 \amp ; c. : these must be converted into the other form B=(B0 , iBlf B\amp ; x , y)\ C=(C0 , JC* *C3 , *b8 , *C8 , \amp ; c. , the numerical coefficients being of course the reciprocals of the binomial coefficients .
+We thus have , for instance , the leading coefficients , l.c. of AC2=A0.t^-Cj \#151 ; 2 .
+A^Ci -f- A3.C0 , but " " BO2=B0.-1igO3 \#151 ; 2.\#163 ; B1.-gC1 + B3.C0 .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Moreover , as regards the covariants AA2 , AA4 , \amp ; c. , we take what are properly the half-values , l.c. of AA2=A0 A2\#151 ; Aj3 ( instead of A0A2\#151 ; 2A1A1+A2A0 ) , " " AA4=A0A4\#151 ; 4A1A3+3A22 ( instead of A0A4\#151 ; 4A1A3+6A2A2-4A3A1\#151 ; A4A0 ) , \amp ; c. , and similarly l.c.of BB2=B0B2 - ( IB^2 " " CC2=C0.-i-C2-(iC1)3 \amp ; c. Any one of these leading coefficients , for instance l.c. of A.C2 , is equal to the corresponding covariant derivative , multiplied , it may be , by a power of a the index of this power being at once found by comparing the deg-orders , these in fact differing by a multiple of 1.5 the deg-order of a. Thus oc\amp ; 2 , A0A2\#151 ; Aj3 deg-orders are 2.6 , 2.6 or aa4 , AqA^-\#166 ; 4A2A3\#151 ; |-3A23 , deg-orders are 2*2 , 4T2 or aa4 = ^(A0A4\#151 ; 4A1A3-j-3A22 ) ; we have in fact A0A3\#151 ; A13=l.c\#151 ; 03=c : and A0A4\#151 ; TAjAg+SA/ ^ 1 .
+( a2b\#151 ; 3c2 ) \#151 ; 4 .
+0 .
+, / +3 .
+: and As another instance , and for the purpose of showing how the calculation is actually effected , consider the derivative ch2 , which is to be calculated from the leading coefficient of CH2 , =C0.-JH2 \#151 ; 2.-JC1.^H1+^5-C2.H0 : this is = c(jra2g\#151 ; 2 \#151 ; ch ) ~2 .
+A/ ( A bc + ( - \a2b\#151 ; c2)h =column next written down ; but this column contains congregate terms which have to be replaced by their segregate values ( see Table No. 96 , deg-order 8T6 ) ; and we thus obtain \a2b +Wcg \#151 ; 2 ab -\bef \#151 ; 2 c2h + fl a\j a263 efibh a ?
+cg abed b2c* edi +1 +A -2 -i 4-3 +2 \#151 ; 2 i -i +t -i -1 -2 4-2 i -i +ii~h 0 0 0 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+viz. , the terms other than those divisible by all disappear : we may either abbreviate the calculation by omitting them ab initi , or retain them for the sake of the verification afforded by their disappearance .
+The factor divides out , and the final result is ch2=\aj \#151 ; %bs-\-j$j ; bh\#151 ; %cg , which is the proper segregate expression of the derivative : of course , we have deg-order CH2 = 8.16 , deg-order ch2\#151 ; 6.6 , and the difference is 2.10 , the double of 1.5 , so that the factor a2 is as it ought to be .
+Table 100 ( The Derivatives up to the Sixth Order ) .
+Degree 2 .
+2.2 6 2.6 c aa4\lt ; + 1 aa2 +i Degree 3 .
+3.1 3.3 d 3.5 e 3.7 ab 3.9 1 f oc5 0 ab2 -3 abl + i ac2 +i acl l+i oc4 +V ' ae 3 + -TO Degree 4 .
+4.0 9 4.2 4.4 62 .
+h 4.6 i ae 5 -2 ad 3 0 ad2 -i + T adl + i 662 ae4 0 ae 3 -f 6 .
+ae 2 +f cc 6 ~To afh +n -u a/ 4 + 'fff be 2 +i -i 6ol + 2 ce 4 + A ~To 4.8 ad be 4.10 ae 4.12 a2 6 c2 ae 1 -i -2 a/ 2 +i a/ 1 \lt ; M 1 ci|a\#187 ; + a/ 3 +fi -* cc 2 + ?
+\#151 ; Tb 654 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table No. 100 ( concluded ) .
+Degree 5 .
+5.1 3 5.3 h 5.5 ag bd 5.7 be z ah 4 + 2 ah3 + * ah2 + i -2 aM -2 -4 ai 5 ai 4 +i ai 8 + 0 -2 ai2 0 + i Z\gt ; cZ2 -i Ml -i 5e 1 2 +\#165 ; - 2 \#151 ; Te + 1 ce 5 \#151 ; 1 be 2 -f cd2 0 XT cd1 0 + 1 cdS + a ?
+o ce 3 1 2"0 ce 2 i 2 5 .
+ce 4 + / s df 5 1 y-2 + 683 \lt ; 2/ 4 \#165 ; 0 4-_A_3__ '315 c/ 6 \#151 ; 5.9 ah2 ah cd 5.11 ai ce 5.13 a2d abc ai 1 1 3 +i + 3 \lt ; 2/ 2 " h tV Tso \lt ; 2/ 1 +i -1 \#165 ; i +f -* + 3 ce 1 0 -i +1 .
+\#165 ; 3 + TT \#151 ; tVo \#151 ; ffb Degree 6 .
+6.2 bg m 6.4 n 6.6 aj bh eg ah 3 0 -4 ajl -1 a 1 -1 + 2 -3 + 1 aZ5 0 +-V0 ' ak2 +i al 3 \#151 ; if +f 5 7 + 1 \amp ; A2 1 3 -2 dl 4 i 3 5 hi 1 -i + 1 1 2 0 c\amp ; 4 1 1 0 -I b + 2 ch2 +i -i +n 1 6 ci 5 0 + 1 M2 + i ci 3 -i \#151 ; sV +'V- + TO dd2 0 +i ch3 + To cZel " A +tV + TT \#151 ; 1 de 3 0 -i ci 4 + tV \#165 ; 3 + 3VV -nt +w 13 9 7 5 IT ee 4 -1 \#151 ; i1 de 2 -i ee 2 \#151 ; +a 3 8 2 5 + 285 / /8 5 3 2 4 - 5668T e/ 5 64 6 3 e/ 4 + \#171 ; * \#151 ; tIt + \#165 ; 3 7 1 10 5 / /6 \#151 ; bill 12 8 7 3 '7 9 3 8 L 3 5 3 3 ' 1 5 8 T 6 5 5 9 1 3 17 5 2 6.8 ah bi 6.10 a2g abd Me ch al 2 " TT + IT al 1 0 3 T -1 + 1 chi +* + * Ci 1 0 1 2 +1 \#151 ; i ci 2 + i d/ i 0 1 9 +1 -i df2 ' iVs \#151 ; \#171 ; / 2 +n + 1 1 9 4 5 -b e/ 3 + 33TV + 3V5 / /4 " t irba 5 3 _L __8_9_ TW T 756 -A 6.12 abe aZ ci 6.14 a%2 a ?
+h acd \#165 ; 1 2 -1- " I / / 2 4 8 1 \#151 ; 3 6 + 1 -f which is complete to the sixth degree .
+I had calculated the derivatives up to the tenth degree , but the results were not in the segregate form .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+On the form of the Numerical Generating Functions the N.G.F. of a Sextic .
+Article Nos. 385 , 386 .
+385 .
+It is to be remarked that the R.G.F. is derived not from the fraction in its least terms , which is algebraically the most simple form of the N.G.F. , but from a form which contains common factors in the numerator and denominator : thus for the quadric , the cubic , and the quartic , writing down the two forms ( identical in the case of the quadric ) these are\#151 ; Quadric N.G.F. =-----------1 \#151 ; ax2 .
+1 \#151 ; a ?
+Cubic ~_ .
+l\#151 ; ax N.G.F. =----------------\#151 ; 1\#151 ; a4 .
+1\#151 ; 1 \#151 ; ax Quartic N G F =------------------------1\#151 ; a2 .
+1\#151 ; a3 .
+1\#151 ; ace4 .
+1\#151 ; ax2 1 \#151 ; afix6 1\#151 ; a4 .
+1 \#151 ; akc3 .
+1\#151 ; aV .
+1\#151 ; a ?
+a ? .
+1 \#151 ; a6*12 1\#151 ; a3 .
+1\#151 ; a3 .
+1 \#151 ; acfl.1\#151 ; a3*6 .
+For the quintic the two forms are , N.G.F. = ( 1 -a6 + a12)a ?
+0 +(-l + a4 + 2 a6 \#151 ; a12 ) cue1 +( -a8 + a10)*3 + ( -i + a4 + a6 + a8 -a10 \#151 ; al2)axs +(+l + a3 \#151 ; \amp ; 4 -a6 -a8 + a13 ) ( fix4* +( -a ?
++ a4 -a10 )a3#5 + \lt ; +l -2a6 -a8 + a13 ) a3*6 + ( -l + \amp ; 6 \#151 ; al2)asx7 divided by 1\#151 ; a.4 .
+1\#151 ; a6 .
+1\#151 ; a8 .
+1 1\#151 ; axs .
+1 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+and ( 1 .
+-f a18)*0 ( a.4 + a6 + a10 + a12 )ax ( a4 + a6 + a8 + a10 + a14 \#151 ; a18 ) a2*2 ( 1 + a3 4-a4 + a8 )a3#3 ( 1 + a2 + a4 \#166 ; + a6 Fa10 \#151 ; a14 )a4*4 ( 1 + a4 + a6 -a16 )a3ic5 ( a2 -a13 \#151 ; a14 )a3a ?
+6 ( a4 \#151 ; a8 -a13 \#151 ; a14 \#151 ; a16 \#151 ; a18 ) a*7 ( -a10 -a12 -a14 \#151 ; a16 \#151 ; a18 ) a2#8 ( \#151 ; a4 -a8 -a10 -a12 .
+-a14 ) a3sc9 ( \#151 ; a6 -a8 -a12 \#151 ; a14 )a4a ; 10 ( -1 1 e_ , 00 -o .
+divided by 1\#151 ; a4 .
+1\#151 ; a8 .
+1 \#151 ; a13 .
+1\#151 ; a\#187 ; 5 .
+1\#151 ; a3^3 .
+1 \#151 ; a2\#174 ; 6 this last being in fact equivalent to that used for the determination of the It .
+G.F. 386 .
+For the sextic the forms are , N.G.F. = ( 1 " h \amp ; \#151 ; as \#151 ; a4 -a5 -fa7 -fa8)*0 ( -1 \#151 ; a + a3 + 2a3 -f 2a4 + a5 -a7 \#151 ; a8 ) ax ?
+( -1 + a2 -fa3 -)-a4 + a5 -a7 \#151 ; a8 ) a*4 ( 1 -fa -a3 \#151 ; ( I4 -a3 \#151 ; a6 -fa8 ) a2*6 ( 1 a -a3 \#151 ; 2a4 -2a5 \#151 ; a6 -fa7 -fa8 ) a3*8 ( -1 \#151 ; a -fa3 -fa4 -fa5 -a7 \#151 ; a8 ) a3*10 divided by 1 + a. 1 \#151 ; a3 .
+1\#151 ; a3 .
+1\#151 ; a4 .
+1\#151 ; a5 .
+1\#151 ; ax6 .
+1 \#151 ; arc4 .
+1\#151 ; PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+and 1 + a15 )x ' +( 1 + a2 + a* + a5 + \#171 ; ?
++ a9 )a3x2 + ( + a2 + + a4 + a5 + a6 + al + a8 + a9 + a* )a2x4 +( 1 + a + 2 as + a5 + tf6 + a8 -a13 )a3x6 + ( + a .5 + a 2-5 + a 4-5 \#151 ; a 10-5 \#151 ; a 12*5 \#151 ; a 14.5 : )^2.5^8 + ( + a2 -d ) \#151 ; a9 -a1** -2a12 -a14 \#151 ; a15 )a2x10 +( -a* -a6 -a ?
+-a8 -a9 \#151 ; a10 -all \#151 ; a12 \#151 ; a13 ?
+)a3x12 + ( -a6 \#151 ; a8 -a\#153 ; \#151 ; all \#151 ; a13 -a15 ) a2xu + ( -i \#151 ; a15 )a6x16 divided by 1 \#151 ; a2 .
+1 \#151 ; a4 .
+1 \#151 ; a6 .
+1 \#151 ; a10 .
+1 \#151 ; ax6 .
+1 \#151 ; a2#4 .
+1 \#151 ; a2#8 where observe that in the middle term , although for symmetry a*5 ( has been introduced into the expression , the coefficient is really rational , viz. , the term is ( a3+a5+a7\#151 ; a.13\#151 ; a15\#151 ; a17)#8 .
+The second form or one equivalent to it is due to Sylvester : I do not know whether he divided out the common factors so as to obtain the first form .
+I assume that it would be possible from this second form to obtain a R.G.F. , and thence to establish for the 26 covariants of the sextic a theory such as has been given for the 23 covariants of the quintic , but I have not entered upon this question .
+4 p 2 PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+Table 93 bis ( The covariant S , adopted form = \#151 ; ( D , M ) ) .
+In this Table , a , b , c , d , e , / denote , as in the tables of former memoirs , the coefficients of the quintic form ( a , b , c , d , e , x , ?
+/)5 .
+{ a ?
+b'c3p \#151 ; 2 a3b'c2df3 - 3 d3b3cd/ 3 + 3 aWp + 2 c2dep + 15 + 3 cde/ 2 - 6 dde/ 2 - 6 c2e3f \#151 ; 9 cddep + 24 ce4/ + 3 de4f + 6 Cc73/ 3 \#151 ; 9 cde3/ - 42 ddep - 3 e6 - 2 cd2e/ \#151 ; 6 ce5 + 18 dde/ + 6 cdb cd/ 3 - 15 cde4 + 9 dp2 - 18 deb - 3 cde2/ 2 + 30 d4ef + 9 d3e/ + 33 adb2d2f - 3 ce4/ - 15 dde3 \#151 ; 7 d2e4 - 15 de2p + 6 dde/ 2 + 15 + 6 a%2cdf + 6 e - 3 dde3/ - 30 cdep \#151 ; 30 ce2p - 6 " b ( dd/ 3 - 24 deb + 15 cesf + 18 ddep - 24 c2e2/ 3 + 24 " Wdd + 9 + 9 de/ + 42 cdde/ 2 + 78 de/ 2 - 9 dde/ + 6 e5 - 18 cde3/ -108 c2d2e/ 2 - 21 de4 \#151 ; 9 " b c3/ 3 + 3 ce5 + 30 ddd/ + 15 " b \#151 ; 15 \lt ; ddep - 78 ay* - 24 c2e5 + 6 + 21 c2e3/ + 69 dded/ + 24 cd/ 2 + 3 c2de/ \#151 ; 6 cd3/ 2 + 93 " \amp ; 'c4/ 3 + 18 cdde2/ + 21 + 18 cdde/ - 51 ( dde/ 2 - 93 c4 - 24 cddef + 30 cde4 - 33 d + 21 ddef - 9 cdde3 \#151 ; 51 d4ef - 57 c + 36 d4e3 + 9 \#151 ; 36 dde3 + 54 c2d2e/ + 123 a IMP + 9 d4e2 + 39 " 6'c4e/ 2 + 24 d4 - 51 de2p - 18 " b'c4df \#151 ; 3 c3d2/ 2 - 36 cdde/ -111 e4/ + 9 c4e/ + 45 ( dde2/ - 9 cddd + 39 " iMdp + 6 ( ?
+d ?
+ef \#151 ; 84 c3e4 - 54 dj + 27 cdep - 6 3 \#151 ; 63 cddde/ + 24 dde2 - 9 cddep + 6 c2d4f + 45 c2d2e3 + 129 a b3cd/ + 42 cde3/ - 24 c3#e2 + 150 cd/ + 9 cep - 42 ce5 + 18 cdbe 117 cd4e2 -114 ddef2 - 69 d/ 2 - 45 dd + 27 d3e + 27 dd/ + 96 d3e2f + 96 cdb*cf \#151 ; 6 alb4d/ 3 - 3 e5 - 27 d2e4 - 51 def + 15 e2f2 + 3 " b2df - 33 " b c4P - 9 pf \#151 ; 9 " 63c2/ 3 - 6 c2dep + 51 csdef2 - 30 " 53c2e/ 2 + 30 cde/ 2 + 108 c2e3/ + 48 c3e3/ + 66 2 \#151 ; 15 ce3f - 96 cddp + 9 c2#/ 2 + 84 cde/ + 24 d3f - 21 c -147 c2d2e2f - 36 ce4 \#151 ; 45 d2e/ - 48 cde4 + 39 c2de4 -102 d*ef \#151 ; 66 de4 + 63 d4ef + 78 cdief -174 dde3 + 72 , , b2c3e - 24 d3 - 45 cd5es + 210 " b2c3 \#151 ; 21 c2d/ -123 " \amp ; c + 57 d + 63 c3e/ \#151 ; 96 c2de/ + 147 dd/ 2 - 24 d'e2 - 72 ( ?
+d2ef + 36 c2e4 + 66- dde/ - 78 " \amp ; 'c5e/ 3 + 36 3 + 213 cdde/ + 78 c3e4 - 60 c4cZ3/ 2 - 45 c#/ + 120 3 -186 cd + 36 Me/ -120 2 \#151 ; 303 d5f + 51 ddde3 + 108 c4e4 - 6 dbe + 51 d4e2 - 9 cd/ - 24 csdsef + 204 " \amp ; c5/ 3 + 9 " 5 c4cZ/ 3 + 111 c2 - 6 c3d2e3 + 120 c4def + 174 c4e/ - 78 d6e - 9 M/ - 66 c4e3 \#151 ; 36 c3dde/ - 36 , , b'c5d - 9 c2d4e2 -240 c3d3f \#151 ; 204 c3de3 - 54 de/ - 51 cd6e + 144 \lt ; dd ?
+e ?
+\#151 ; 174 c2d4/ - 96 c4d2e/ + 96 d8 - 27 \lt ; dd4e + 330 c2d3e2 + 150 c3 + 111 a%4cdf3 - 9 cd3 \#151 ; 99 cd5e + 30 dd/ - 27 ce2/ 2 + 9 ( continued on next page .
+) PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+( continued from last page .
+) alb'cQef - 63 alb d7 \#151 ; 27 alb0$ds\amp ; * -234 a'b4d2ef2 - 18 + 66 " 6'c6/ 2 \#151 ; 27 c2cZ5e + 141 d*f + 45 .
+c*de2 + 99 d*def + 24 cd7 - 27 e5 \#151 ; 27 c^dPe \#151 ; 147 + 54 a'b^dfs - 18 " 63c3/ 3 + 7 \lt ; ?d5 + 45 cV5/ + 27 e2/ 2 + 18 c2def2 + \#163 ; L aPJ6/ 3 + 2 c4c ?
+2e2 - 93 " 6V/ 3 + 15 c2e3/ \#151 ; 72 b^cef* - 15 c3cZ4e + 6 cde/ % + 33 ctZ3/ 2 + 63 - 6 + 9 c\#163 ; f - 63 cd2e2f \#151 ; 213 d\amp ; *f - 18 a'b5cfs + 3 cZ3/ 2 + 54 cde4 + 171 e4 + 27 def2 - 30 d^\amp ; tf - 66 d* of + 36 " WcHf + 24 e8/ + 27 de4 + 27 dses \#151 ; 43 c2e2/ + 51 " 64cc ?
+2/ 2 + 51 \amp ; 3c3e/ 2 - 54 " 62c4e/ 2 - 39 cd2ef + 102 cde^f - 39 c2^2/ 2 -129 c3cZ2/ 2 -150 cd$ -171 ce4 - 27 fide^f + 186 c3cZe2/ + 303 d*f + 6 dhf + 60 c2e4 + 45 c3e4 - 18 dse ?
++ 18 cPV - 45 cd ?
+of + 54 $d ?
+of + 174 " Z^c4/ 2 - 9 " 63c3c ?
+/2 - 39 cd2e^ - 96 $d ?
+$ \#151 ; 345 $def -210 cV/ + 45 d*f - 54 cd*f \#151 ; 99 c3e3 + 43 c^d^ef -108 d4e* + 48 cd4e % +192 c2cZ3/ -120 \lt ; ?d\amp ; + 96 " b2c4dp + 114 d*e \#151 ; 18 ( ?
+d ?
+$ ' + 345 cd^f -111 c4e2/ + 9 " 6 c5\lt ; Z/ 2 + 117 cd^e .
+- 87 cd ?
+e % + 147 $d ?
+of -150 c5e2/ \#151 ; 51 d6 - 2 d5e - 30 c3cZe3 \#151 ; 147 c4d ?
+of -330 " \amp ; 2c5e/ + 72 " 6V/ 2 + 9 c2cZ4/ + 93 c4d\amp ; \gt ; + 87 ' c4tZ2/ + 240 c^def + 6 c2#e2 + 150 $d4f + 147 c4cZe2 -192 cV - 48 cd*e - 87 c3cZ3e2 +186 c3cZ3e -186 c3#/ +234 d7 + 18 c2cZ5e \#151 ; 201 c2cZ5 + 96 c3fi2e2 -150 " \amp ; C6/ 2 - 27 cd ?
++ 45 " b c6df -144 c2c ?
+4e -108 c5def - 30 " 6V/ 2 \#151 ; 27 c6e2 + 18 ed6 + 57 cV + 30 cPdef + 99 c5cZ2e + 201 " b + 9 c4^3/ - 6 + 2 c^d4 - 87 c ?
+d ?
+f -141 c4\lt ; 22e2 + 108 c^d^f \#151 ; 45 " b'csf + 27 c5de2 + 87 c3#e - 96 c^d*\amp ; * \#151 ; 96 c ?
+de - 45 c4c ?
+3e + 96 c2\lt ; 26 + 21 c4d4e + 87 c6# + 20 c3cZ5 - 51 " 60C7e/ + 27 c3cZ6 \#151 ; 20 " b'c7df + 27 cQd2f - 9 - 18 c^de2 - 57 $d ?
+e - 21 $d ?
+e + 51 i c5# + 12 c4d* - 12 1 1 I remark that I calculated the first two coefficients S0 , S15 and deduced the other two S2 from S1 } and S3 from S0 , by reversing the order of the letters ( or which is the same thing , interchanging a and f , b and e , c and d ) and reversing also the signs of the numerical coefficients .
+This process for S2 , S3 is to a very great extent a verification of the values of S0 , Sx .
+For , as presently mentioned , the terms of S0 form sub- divisions such that in each subdivision the sum of the numerical coefficients is =0 : in passing by the reversal process to the value of S3 , the terms are distributed into an entirely new set of subdivisions , and then in each of these subdivisions the sum of the numerical coefficients is found to be =0 ; and the like as regards and S3 .
+If in the expressions for S0 , Sl5 S2 , S3 we first write d\#151 ; e\#151 ; f\#151 ; 1 , thus in effect combining the numerical coefficients for the terms which contain the same powers m a , b , c , we find PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+S0= a3(\#151 ; 2 c3+6c2\#151 ; 6c+2 ) -|-j62(6c3\#151 ; 12c \#151 ; 6)+6( \#151 ; 15c3+33c- 21c-j- 3 ) + 6'(42c4\#151 ; 147c3+195c3\#151 ; ll7c+27 ) } +ct { b\0+63(30c3\#151 ; 36c+6 ) + ^2(\#151 ; 1I7c3+249c3\#151 ; 183c+51 ) +6(9c5+138c4\#151 ; 378c3+330c3\#151 ; 99c)+6'(\#151 ; 63c6+165c5\#151 ; 147c4+45c3 ) } +a'.{66 .
+2 + 65(-15c+3)+64(75c3-69c + 24 ) + 63(-9c4-167c3+225c3-87c-2 ) + 63(72c5+48c4\#151 ; 186c3+96c3 ) + 6(\#151 ; 126c6+201c5\#151 ; 87c4 ) + 6'(27c8\#151 ; 4oc7+20c6 ) } which for c = 1 becomes = 266\#151 ; 1265 + 3064\#151 ; 4063+3062\#151 ; 126+2 , that is 2(6-l)6 .
+and for 6=1 , becomes =0 .
+Sg\#151 ; a3(0c3+0c+0 ) +a2{62(0c+0)+6(3c3\#151 ; 9c3+9c \#151 ; 3)+6'(24c4~99c3H-153c3-105c+27 ) } -\-a { 64 0 + 63(\#151 ; 6c3+12c\#151 ; 6 ) + 63(\#151 ; 24c3-f-90c3\#151 ; 108c+42 ) + 6(33c4-90c3+54c2+30c\#151 ; 27 ) + 6'.(-27c6+78c5-66c4+6c3+9c3 ) } +a'{65(3c\#151 ; 3)+64(\#151 ; 15c+15)+63(6c3\#151 ; 12c2+36e\#151 ; 30 ) +63(9c5\#151 ; 42c4+84c3\#151 ; 108c2+57c)+6(9c6\#151 ; 54c5+96c4\#151 ; 51c3 ) +6'(9c7-9c6 ) } which for c=l becomes =0 .
+S3= a3(0c+0 ) -fa2{63 .
+0 + 6(0c3+0c + 0)+6'(18c4\#151 ; 72c3+108c3\#151 ; 72c+18 ) } +a { 63(0c+0)+62'( \#151 ; 33c3+99c2\#151 ; 99c+33)+6(57c4\#151 ; 162c3+144c3\#151 ; 30c\#151 ; 9 ) + 6'(\#151 ; 60c5+207c4\#151 ; 261c3+141c3\#151 ; 27c ) } +a'{65 .
+0+64(15c3\#151 ; 30c+15)+63(\#151 ; 54c3+102c3\#151 ; 42c\#151 ; 6 ) + 62(123c4\#151 ; 297c3 + 243c3\#151 ; 87c+18)+6(\#151 ; 27cG+102c4\#151 ; 96c3+21c3 ) +6'(27c7\#151 ; 66cf , +51c5\#151 ; 12c4 ) } which for c=l becomes =0 .
+PROFESSOR CAYLEY'S TENTH MEMOIR ON QUANTICS .
+S4= a8 .
+0 +a2{6(0c+0)+6'(0c3+0c2+0c+0 ) } +a { 63.0+63(0c2+0c+0)+6(\#151 ; 9c4+36c3\#151 ; 54c2+36c\#151 ; 9 ) +6'(36c5\#151 ; 171c4+324c3\#151 ; 306c2+144c\#151 ; 27 ) } +a'{64(0c+0)+63(7c3\#151 ; 21c3+21c\#151 ; 7)+62(\#151 ; 39c4+135c3\#151 ; -17lc2+93c\#151 ; 18 ) +6(66o5\#151 ; 243c4+333c3\#151 ; 201c3+45c ) +6'(\#151 ; 27c7+101c6--141c5+87c4\#151 ; 20c3 ) } which for c=l becomes =0 .
+It follows that for c\#151 ; d\#151 ; e\#151 ; f\#151 ; \ , the value of the covariant S is =2(6\#151 ; l)6\#163 ; c3 , which might be easily verified .
+

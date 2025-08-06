@@ -1,0 +1,872 @@
+]\gt ; iouvitle Series of Normat Functions in th Infegral Equations .
+J. MERCER , .
+( Cantab .
+) , D.Sc .
+pool , Felloxo of College , Carnbridge .
+by Proj .
+A. R. FoRSYTH , Sc. D. , .D .
+, Received Janunry 20 , in revised form Deccmbcr 16 , , 1910 .
+Introdnction .
+ONE of the most important branches of the of integral tiollS is connected with the problem of representing a function as a sel.ies of normal functions , and SCHMIDT , who made the earliest contributions , have been able to obtain sufficient conditions undel which an assigned function may be nded in terms of a system of normal fullctions belon ging to a symmetric characteristic function .
+These conditions are narrow in respect to the nature of the function which may be expanded , but have of .
+to very general systems of normal functions .
+They apply , in ) al.ticular , to the expansion of a function in both the sin and cosine of JRIER .
+It is in the of our knowledge of the properties of the latter series that the narrowness above referred to becomes evident .
+In point of fact , the Hilbert-Schmidt theory is only applicable to series corresponding to a function which has a continuous second diflerential coefficient in , and which furthermol.e satisfies certain boundary conditions at the end points of the interval .
+For example , in case of the sine series , the function nrust vanish at both end .
+It would appear , that the wide generality to the system of functions is obtained at cost of the generality of the function which it is desired to represent .
+Later memoirs by KNESER and have made it abundantly cleal , by restricting the of the system of normal functions , esults may be obtained in regard to representation of wider classes of functions than ) year Got .
+Nnchr .
+' ( 1904 ) , pp. Iath .
+Ann vol. 63 , pp. 451-4.53 .
+also C. DIXON , ' Proc. .
+hIath .
+' serios 2 , vol. 3 , ( 474 .
+) 8.5.11 contemplated by HILBERT and SCHMIDT .
+paper* is of importance as marking the first step in this direction , but his results are far less general than those obtained by HOBSON and published last year in the 'Proceedings of the London Mathematical Society .
+' As one of many interesting applications of a general convergence theorem , the latter been able to show that any Sturm-Liouville series corresponding to an assigned function converges at a point , provided that the function has a Lebesgue integral in the interval of representation , and is of limited total fluctuation in an arbitrarily small neighbourhood of the point in question .
+Taken in conjunction with other results of a similar kind , this cannot fail to suggest the possibility of extending most of the well-known theorems on FOURIER'S series to the whole class of Sturm-Liouville expansions .
+It is the purpose of this memoir to show that all the more important theorems are capable of this extension .
+It will not be necessary to give here a detailed account of the results obtained , seeing that those of importance have from time to time been summarised as formal theorems printed in italics .
+It may , however , be useful to say a few words as to the plan on which the memoir has been written .
+The first section is devoted to the proof of two theorems of convergence which find repeated applications in the sequel .
+In S4 of the second , a theorem relative to the expansion of a function as a series of normal functions is established .
+The theorem has reference to a very wide class of expansions .
+The only obstacle which can hinder its application in any given case is the difficulty of determining an asymptotic formula for the solving function , when is negative and numerically large .
+At the commencement of the third section a formula of this kind is obtained which makes it possible to apply the theorem to what I have called canonical Sturm-Liouville series ( III .
+, S20 ) .
+The latter portion of the section is devoted to this application .
+The results obtained are extended so as to apply to the most general form of Sturm-Liouville series .
+The fourth , and remaining , section is given up to a discussion of questions of convergence .
+It is here that the properties of orthogonal functions , proved in the latter half of the second section , find their application .
+In conclusion , I may say that in later memoirs I hope to further develop the ideas which have here been made use of .
+With such modifications as are necessary from the fact that the characteristic function is no longer limited , I hope especially to apply them to expansions in LEGENDRE'S and in BESSEL'S functions .
+I.\mdash ; THE THEORENS 0F CONVERGENCE .
+S1 .
+In the following pages we shall find it necessary to make uent use of two theorems of convergence .
+These properly belong to the general theory of series ( or * Math. vol. 63 , pp. 477-524 .
+Series 2 , vol. 6 , ; Pp .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+1]3 sequences ) , and , apart from their applications , have no connection with the theory developed below .
+It will , therefore , be convenient to enunciate and prove them at the outset .
+The ffist theorem Let be a functio defined for all of in the , for a set of of which have for improper limiting point .
+Let this ' be such that ( 1 ) the upper limit of is finite number , and ( 2 ) exists a Lebesgue integral for vcdue of .
+Let be to a function , , defined in in such either point of or those points of oohich do not belong to certain set of .
+Then , if is any function )possesses a Lebesgue in , we To prove this , Jet us take any positive nber .
+Let us denote by the set of points of at which and by the set complementary to .
+Then we have The numerical value of the first integral is evidently 11ot greater than where is the upper limit of in , and the numerical value of the second is not greater than which is not greater than We thus have the inequality * It should be observed that , in virtue of its relation to the functions , is summable , and is therefore measurable .
+VOL. CCXI.\mdash ; A. Now , if is an arbitrarily assigned positive number , we can choose so small that Further , the measure of tends to zero when increases indefinitely , in virtue of our hypothesis as to the relation between and ; hence We can , therefore , find a number such that for all values of .
+It follows that , for which establishes the theorem .
+S2 .
+A theorem corresponding to that of the preceding paragraph holds for functions of two or more independent variables .
+The proof in each case follows the same lines as that which has just been given .
+It will , therefore , be sufficient to state the theorem for two independent variables:\mdash ; Let be function defined at points of the square , , which consists of the points for which for set of values of which have for an improper limiting point .
+Let the function be such that ( 1 ) the upper limit is finite number exists as a Lebesgue integral for each value of Let be related to a.limited function defined in in such way that either each point of , or at those points of it which do not belong to certain set of zero measure .
+Then , iff function which possesses Lebesgue integrat in , we have .
+If possesses a Lebesgue integral in , possesses a Lebesgue integral in Q. It follows that , with the hypothesis of the theorem just enunciated , .
+FUNCTIONS IN THE THEORy OF INTEGRAL EQUATIONS .
+S3 .
+The second theorem , to which reference was made Let be a function defined at all points of the , which consists of the points for which for a set of ) of which have for an improper limiting point .
+Let this function be such that ( 1 ) the upper limit of is a finite number exists as integral for values of and .
+Let be related to a limited function defined in in such a that , as tends to converges uniformly to either in the )of , or , .
+each positive , in those of it which correspond to , where the numbers , , are finite .
+, if is unction has integral , cone erqes uniformly to for , tends to In the first place , let us assume that converges uniformly to in the whole of R. When any positive number is assigned , we can then choose great enough to ensure that at each point of for all values of ? .
+From this we see at once that that is to say , for , and .
+The theorem is thus proved for this case .
+More generally , let us suppose that , for each positive number converges uniformly to in those parts of which correspond to ; . . .
+( 1 ) then , selecting any value of , for each pair of values of and the points of which do not satisfy all the inequalities .
+written lie iu a set of intervals*whose number does not exceed M. Let be the greatest of the values of in the various intervals .
+Clearly we have where is the upper limit of in the rectangle R. Hence , if .
+is portion of the interval which is not covered by one or other of the intervals j ( 2 ) Now a Lebesgue integral is a continuous function of its upper limit ; hence , if is an arbitrarily assigned positive number , we can choose so small that the Lebesgue integral of in any interval of length , which lies in , is less than With this choice of we have for all values of in and of in , since is the value of in an interval oflength not greater than Again , in virtue of our hypothesis as to the uniform convergence of , we can find a number great enough to ensure that : for all values of and satisfying ( 1 ) , and for all values of .
+Since the points of satisfy ( 1 ) for each pair of values of and , we have which is for all values of in , of in , and of .
+It follows from ( 2 ) that , for these values of , and which establishes the general theorem .
+* These intervals may , of course , overlap .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+As a corollary to this theorem it should be noticed that , with the same hypotheses , converges uniformly to for values of in , as tends to S4 .
+The theorem we have just proved , like that of S1 , admits of generalisation .
+On account of its importance in what follows , we state the theorem:\mdash ; Let be a function deJined at all points of the rectangular rallelopiped , , which consists of the points , and for a.set of values of ?
+have for .
+limitin point .
+Let thi , ?
+function be such that ( 1 ) the upper limit of is finite , ( 2 ) exists as a Lebes.que for of , and .
+Let be related to limited function.in the whole of in such a that , as tends to uniformly to .
+, in the of or , for positive number , in those parts of it correspond to , where the numbers are .
+Then , iff is any function uhich has Lebesgue integral in , conver.to for to In particular , we see that converges uniformly to in the rectangle Again , let us suppose that ; then , writing , we see that , as tends to converges uniformly to for .
+Also it will be seen , without difficulty , that converges uniformly to for these values of and Retaining the hypothesis that , it is evident that being equal to converges uniformly to for .
+It follows at once that , as tends to converges uniformly to for THEOREMS RELATIVE To THE EXPANSION 0F AN ARBITRARY FUNCTION As A 0F NORMAL FUNCTIONS .
+FUNDAMENTAL PROPERTIES 0F SYSTEMS or NORMAL FUNCTIONS .
+S1 .
+Let be a function of positive type defined in the square .
+Let , , , , , be a complete system of normal functions of , corresponding to singular values , , , It has been shown*that the series is absolutely and uniformly convergent , and that its sum function is .
+More generally , the series . . .
+( 1 ) * ' Functions of Positive and Negative Type and their Connection with the Theory of Integral Equations ' Phil. Trans. Roy .
+Soc , vol. 209 , pp. 439-446 .
+NCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+converges absolutely and uniformly , and has for sum function , the solving function of .
+Let be a function which has a Lebesgue integral in .
+Since ( 1 ) is uniformly convergent in the square , it is clear that the function satisfies the requirements of the theorem of I. , S3 , for these values of and .
+We deduce that , . . . . .
+( 2 ) and that the series on the right converges uniformly for values of in .
+It is easy to show directly that the series on the right of ( 2 ) is absolutely convergent .
+The result , however , follows at once from the fact that we have throughout left the order of the terms of the series arbitrary , which would otherwise have been impossible , by RIEMANN'S theorem on derangement .
+S2 .
+We may here digress to prove a slight extension of the Hilbert-Schmidt expansion theorem , * applicable when has the properties mentioned above .
+Writing in ( 2 ) we have .
+( 3 ) Now , the function has a Lebesgue integral in the square ; further , the repeated integrals have a meaning .
+It follows from a known theorem that the latter are equal ; and hence that , as Supplying in ( 3 ) we see that where *HlLBERT , ' Got .
+Nachr 1904 , pp. .
+SCHMIDT , ' Math. Ann vol. 63 , pp. HOBSON , ' The Theory of Functions oi a Real Variable ' ( Cambridge , , p. 582 .
+which is the result referred to .
+The series on the right is , of course , both absolutely and uniformly convergent .
+It will be recalled that a direct application of SCHMIDT'S method of proof imposes narrower .
+restrictions upon ; it breaks down , for instance , if is not integrable in .
+S3 .
+Returning to the formula ( 2 ) , it is evident that .
+( 4 ) This relation is true for all values of , other than the singular values of , but in what follows it will not be necessary to consider values of which are positive or zero .
+As the nption that is always negative will make our work somewhat simpler we shall adopt it throughout this section .
+We proceed to investigate the behaviour of the right-hand er of this equality as tends .
+For this purpose we shall suppose that the order of the numbers , , , , is that of non-decreasing magnitude .
+Thus far this order has not been material , but it will appear that the result obtained below turns upon the hypothesis stated .
+Let be the sum of the first terms of the series .
+( 5 ) The sum of the first terms of the series on the right-hand side of ( 4 ) is which is .
+( 6 ) Now , suppose that we can choose a positive integer such that for all values of .
+If , the function of may be written Since the coefficients of the numbers are all positive when is negative , we thus see that ( 6 ) is less than ; * We here employ ABEL'S classical transformation .
+' Proc. Lond. Math. Soc. ' ( 1908 ) , p. 59 .
+For the method of this paragraph , of .
+BRONWICK , FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+that is to say , less than When any positive number is assigned , we can clearly choose a negative number , whose numerical value is so great that the first term is less than for values of , and the second term is clearly less than , for all values of .
+Observing that our choice of is quite independent of , we deduce the inequality , which , in virtue of ( 4 ) , may be written .
+In a similar way , it may be shown that , if for all values of , there exists a negative number such that for all values of S4 .
+Let and be the upper and lower limits of indeterminacy of the series ( 5 ) , it being supposed that , if necessary , these may have either of the improper values .
+In the first place , let us assume that is a finite number .
+Corresponding to any positive number , we can then find a positive integer such that for all values of .
+It follows from what was said in the preceding paragraph that we can choose a negative number in such a way that .
+Thus we have . . .
+( 7 ) Again , if , this inequality is obviously true , provided that we interpret " " " " as " " is a finite number , or has the improper value Further , if , it is easily shown , by an argument similar to that just employed , that VOL. CCXI.\mdash ; A. It appears , therefore , that with the convention we have explained ( 7 ) is true in all cases ; and in the same way it may be shown that , with a corresponding convention as to the meaning of .
+Adopting the hypotheses in S1 , we may sum up these results in the theorem:\mdash ; If , , , , are a complete system of normal functions of , arranged in such that the onding singular values are in non-decreasing order of magnitude , and if , are respectively the upper lower limits of indeterminacy of the series , ( 5 ) then .
+In particular it is clear that , if the series ( 5 ) converges , its sum is ; ( 8 ) while , if the series is non-oscillatory and divergent , ( 8 ) is , or , according as the series diverges to , or to S5 .
+Let us now suppose that , , , , , is a set of functions which are continuous in the interval , and such that , .
+For brevity , we shall refer to the set as stem of normal functions for .
+We proceed to obtain two theorems which have important applications in the sequel .
+Let be any function whose square has a Lebesgue integral in .
+The functions have then the same property in virtue of the continuity of the functions .
+We deduce at once that , for all values of FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+As the left-hand member is not negative , it follows that , for all values of and hence that the series is convergent .
+S6 .
+Since the term of a convergent series tends to zero , as increases indefinitely , it follows from the result obtained in the preceding paragraph that .
+( 9 ) Recalling the hypothesis in regard to , it is clear that this relation is true for all limited functions which have a Lebesgue integral in .
+When it is possible to find a number which , for all values of , is greater than the upper limit of in , we may show that ( 9 ) is also true for all unlimited functions which possess a Lebesgue integral in .
+For , assuming that is unlimited , let us select a positive number , and define a function in by the rule N. If is any assigned positive number , it is known that may be chosen great enough to ensure that Hence , with this choice of , we have Again , since is limited , we can find a positive integer such that , for this and all greater values of , the numerical value of is less than .
+For these values of we therefore have .
+* This is sometimes called BESSEL'S inequality , vide the footnote on p. 66 of BoCHER'S tract , 'An Introduction to the Study of Integral Equations ' ( 1909 ) .
+We have thus established the theorem:\mdash ; If the system of functions , , , , is such that the upper in is less than fixed number , for all positive integral values of , then provided has a Lebesgue integral in .
+It will be seen at once that particular systems of normal functions for the interval are defined by ( i ) , , ( ii ) , ( iii ) , ( iv ) ns As each system satisfies the requirement of the theorem stated , we see that :\mdash ; If is a function which has Lebesgue integral in , then tends to the limit zero as the positive integer indefinitely .
+By applying this to the function which is equal to in an interval of , and is zero elsewhere , we see that provided that has a Lebesgue integral in S7 .
+Using the notation of SS 3 , 4 , let us suppose that the normal functions of *Cf .
+IV .
+, SS9 , 11 , The limitations that should be within , and that should be integral may be removed without difficulty , but the theorem enunciated is sufficient for our purposes .
+An alternative proof of the theorem in its most general form will be found in HOBSON'S 'Theory of Functions of a Real Variable , ' ( 1907 ) , pp. 674-5 .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+satisfy the requirement of the theorem of the preceding paragraph .
+Then , for any fixed value of belonging to , we have It is easily proved from this that the numbers are everywhere dense in the interval We can therefore find a sequence of these numbers which has any given number belonging to the closed interval for its limit .
+Referring to the theorem of S4 , we see that:\mdash ; If , in addition to the hypotheses of the theorem of S4 , it is assumed that the upper limit in is less fixed number for all of , then , by thoe introduction of suitable , the series may be made to converge to either of the limits provided that this limit is finite .
+S8 .
+Returning to the system of normal functions of S5 , let us suppose it to be such that for each limited function which has a Lebesgue integral in .
+By considering the function which is identical with in an interval of and is zero elsewhere , we see that provided that is limited and has a Lebesgue integral in .
+Let us now suppose to be a function , defined for all values of , which has a Lebesgue integral in any finite interval .
+Let be a limited function which has a Lebesgue integral with respect to in , for each value of in a tain closed interval ; further , let us suppose that is a uniformly continuous function of in , for values of belonging to .
+In virtue of the latter condition , *Cf .
+HOBSON , ' The Theory of Functions of a Real Variable , ' p. 712 .
+when any positive number is assigned , we can choose a positiye number smau enough to ensure that for all values of in and for all pairs of points belonging to for which .
+Taking any fixed value of , it follows from this that ; and hence that at each point of .
+In the first place , let us suppose that is a limited function ; then is a limited function of and has a Lebesgue integral in for each value of in .
+We therefore have , ( 10 ) for .
+The right-hand member of this equation and each of the terms of the series on the left may be shown to be continuous functions of in the interval .
+For , supposing as above that and both belong to , we have .
+( 11 ) The first term on the right is not greater than where is the upper limit of ; and the integral just written is not greater than FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+where is the upper limit of in the rectangle .
+It follows ffom the remark made above that ( 12 ) at each point of .
+Again , the second term on the right of ( 11 ) is not greater than ; and the integral just written tends to zero with , by a theorem due to Thus we have at each point of Taking this conjunction with , we see from ( 11 ) that is a continuous function of in .
+It may be proved in the same way that each of the terms is continuous in this interval .
+It has now been shown that the positive series on the left of ( 10 ) has terms which are continuous in , and a sum function which is also continuous in this interval .
+It follows from DINI'S theorem that the series is uniformly convergent in ; and hence that , as tends to ( 13 ) converges to zero uniformly for S9 .
+Let us next suppose to be an unlimited function .
+We may show that ( 13 ) converges uniformly to zero , provided that the normal functions satisfy the requirement of S6 .
+For , let us define a limited function by the rule ; ' Leqons les ries Trigonometriques ' ( 1906 ) , pp. 15 , 16 .
+DINI , ' Fondamente per la teoria dell funzioni di iabili reali ' Pisa , , S99 .
+See also YOUNG , " " On Monotone Sequences of Continuous Functions 'Proc .
+Camb .
+Phil. Soc vol. , pp. 520-523 .
+proof of the theorem will be found in HOBSON'S ' Theory of Functions of a Real Variable , ' pp. 478-479 .
+and , assuming an arbitrarily small positive , , to be assigned , let be chosen great enough to ensure that Then we have which is certainly less than , for all values of in .
+Again , since is limited , we can choose a positive integer such that for and .
+It follows that , for these values of and , we have ; and hence that converges uniformly to zero in .
+It may be proved in the same way that each of the other integrals has this property .
+Hence the theorem:\mdash ; Let the system of normal functions , , , , be such that ( 1 ) the upper limit in is less fixed number , for atl positive integral of for each limited function which has Lebesgue integral in .
+Let be a function , dejined for of , which has Lebesgue integral in any finite interval .
+Let be a limited function which , for each value of in an interval , a Lebesgue integral with respect to in an interval ; let be a uniformly continuous function of in for values of belonging to .
+Then , as tends to , each of the four converges uniformly to zero in the interval .
+The theorem we have just enunciated is of very general character , and may be FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+stated in a variety of particular forms .
+Without exhausting all possibilities , we shall mention two corollaries which will be of use in the sequel .
+It has already been pointed out that the four systems of normal functions defined in S6 satisfy the condition ( 1 ) of the above theorem ; and it will be shown , in a paper to be published shortly , *that the condition ( 2 ) is also satisfied .
+Further , a function , which has a Lebesgue integral in an interval , may be regarded as a uniformly continuous function of in any interval whatever , for values of belonging to .
+We have thus the first of the corollaries mentioned:\mdash ; Let be a function , defined for of ) integral in any finite let be limited function tohich a Lebesgue integral in an interval .
+, as the positive increases indefinitely , of the eight integrals converges uniformly to zero in finite interval .
+A sufficient condition that may be a uniformly continuous function of in values belonging is that should be a continuous function of the two variables and in the rectangle sS ' , tS .
+Hence we have the second corollary:\mdash ; Let be function , defined for all values of , which has a Lebesgue intcgrcll any finife interval ; let be a of the In this paper I shall prove the following theorem:\mdash ; be any function whwse square has a .
+Let , the complete of functions which , for , of ] rjntial and an assigned pair of boundary conditions at the end points of ( Then is wnvergent and its is in all cases .
+We shall see below that the four systems of normal functions each satisfy the ments of this theorem .
+In the meantime the reader will be able to deduce the ticular cases here required from a result obtained by A. C. DIXON On a Property of Summable Functions ' Proc. .
+Phil. Soc vol. pp. 211-216 ) .
+The limitation that should be integral may be removed without ulty .
+proved the equivalent of this corollary for the case in which has limited total in , ' " " On the Uniform Convergence of FOURIER'S Series 'Proc .
+Lond. .
+Soc ser. 2 , vol. 5 , pp. ; The Theory of Functions of a Real Variable ' ( 1907 ) , pp. 683-687 .
+VOL. CCXI .
+\mdash ; A. and in the rectangle , tS .
+Then , as the positive integer increases indefinitely , each of the eight integrals converges uniformly to zero in , S S10 .
+From the first corollary of the preceding paragraph , it is possible to deduce a theorem which we shall have to employ below .
+This theorem depends upon the following lemma : Let be limited function defined for all values of in interval , and for all positive integral values of ; also let this function converge to , as increases indejinitely , uniformly in .
+Then , increases indefinitely , the arithmetic ?
+nean converges uniformly to .
+To prove this , we observe that , when any positive number is assigned , a positive integer may be chosen great enough to ensure that for all values of , and of in .
+It follows at once that we have As is limited , it is clearly possible to choose a positive integer in such a way that the first term on the right is less than , for all values of , and of in .
+Hence we see that , when is not less than the greater of and for all values of in .
+The lemma is therefore.established .
+With the notation of the previous paragraph , let us write Clearly 9 satisfies the requirements of the above lemma , the function 9 ( s ) being everywhere zero , and any finite interval whatever .
+Since Cf .
+HARDY , 'Proc .
+Lond. Math. Soc ser. 2 , vol. 4 , p. 257 .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+it follows from the Iemma just established that converges uniformly to zero in any finite interval .
+The same remarks being applicable when is replaced by either of the functions , , , we have the theorem:\mdash ; With the hypotheses of the jirst corollary of S10 , each of the four functions to zero for of in the positive integer indefinitely .
+It will be clear that a variety of results may be obtained from the corollary referred to by a similar process .
+III.\mdash ; A METHOD 0F REPRESENTING AN ARBITRARY FUNCTION 1N TERMS 0F SOLUTIONS 0F A ouvI L EQUATION .
+GENERAL THEOREMS 0N THE BEHAVIOUR 0F STUBM-LIOUVILLE SERIES .
+S1 .
+We proceed to apply the foregoing results to the theory of Sturm-Liouville series .
+With this in view , we shall commence by considering those solutions of the differential equation . . . . . . . . .
+( 1 ) which , by a suitable choice of the parameter , can be made to satisfy a certain pair of boundary conditions at the ends of an interval .
+In what follows it will be assumed that in the closed interval is a continuous function of , ( 2 ) 9 and are continuous functions of which never vanish , ( 3 ) possesses a continuous differential coefficient , and ( 4 ) has a continuous derivative of the second order .
+The pair of boundary conditions above referred to will be supposed to be one of the following four : ( i ) ab ( ii ) at The constants and will be supposed real , but will be otherwise unrestricted .
+In the sequel we shall employ the symbols to denote the pairs of boundary conditions numbered ( i ) , ( ii ) , ( iii ) , ( iv ) , respectively .
+It be observed that the letters which stand to the left of indicate the end points at which the boundary condition is S2 .
+With hypotheses of the preceding paragraph , we may transform ( 1 ) by means of the substitution where is the constant The differential equation then becomes , ( 2 ) where , and being the functions and respectively , expressed as functions of .
+In virtue of our hypotheses , it will be clear that is a continuous function of Corresponding to the interval we have the interval , and to each pair of boundary conditions for the former interval there corresponds a pair for the latter ; these we shall denote by respectively .
+The reader will find that the pair of boundary conditions is at where and are real constants whose values depend upon and respectively ; he will also find that the pair is at The pairs of boundary conditions will then be obvious .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+S3 .
+In what follows we shall consider in detail only the case ) the pair of boundary conditions for is B. A slight modification of the method developed below is necessary to obtain a formal proof when the pair of conditions is or , but the nature of this modification is so obvious that we shall content ourselves with a statement of the responding results .
+After what has been said in the previous paragraph , it is clear that the problem of determining the solutions of ( 1 ) which satisfy is equivalent to that of determining the solutions of ( 2 ) which , for suitable values of , satisfy It may happen that certain of these values of are not all positive .
+If so , we can choose a number which is less than the least of them .
+The equation is then such that the values of for which there exist solutions satisfying are all positive , and clearly the aggregate of these solutions is identical with the aggregate of the solutions of ( 2 ) which satisfy .
+It follows that , without loss of generality , we may suppose the values of for which exist solutions of ( 2 ) satisfying to be all positive .
+It has been shown by that the GRLEN'S function*of ( 3 ) for the pair of boundary conditions is , where satisfies ( 31 , and the boundary condition at satisfies ( 3 ) and the boundary condition at and the two functions are chosen in such a way that *For the theory of GREEN'S functions , see , ' Got .
+Nachr .
+' ( 1904 ) , pp. 214-234 , and KNESER , ' Math. Ann vol. 63 , pp. 482-486 .
+From a theorem on linear differential tions it is known th , as is nous , these solutions exist and have sccond derivations in tho interval ( PICAID , d'Analyse , ' tome III .
+( 1896 ) , p. 92 ) .
+DR. J. MERCER : STURhI-LIOUVILLE SERIES OF NORMAL The values of , say , , , , for which there exist solutions of ( 2 ) satisfying are to be the roots of the determinant of .
+Further , if , , , , respectively are these solutions , chosen in such a way that it is known that they are the complete system of normal functions of .
+Recalling that , , , are all positive , it follows from the theorem quoted that .
+( 4 ) S4 .
+Consider now the effect of replacing by in ( 2 ) , where is a negative number .
+The values of for which there exist solutions of satisfying are clearly , , , , and the solutions corresponding to these are , , , , , respectively .
+It follows from ( 4 ) that the GREEN'S function of . . . .
+is i.e. , , the solving function corresponding to .
+But , by KNESER'S theorem , the GREEN'S function of ( 5 ) for the pair of boundary conditions is the function defined by , where satisfies the equation ( 5 ) and the boundary condition at and satisfies this equation and the boundary condition at *II .
+, S1 .
+For our immediate purpose this restriction may be replaced by the wider one that is not equal to one of the singular values , As the condition that should be negative is forced upon us in the following paragraph , and we shall not need to consider values , we shall continue to suppose that is negative ( vide II .
+, S3 ) .
+FUNCTIONS IN THE THEORy OF INTEGRAL QUATIONS .
+the two functions being such that Writing we thus see that .
+( 6 ) where is the solution of ( 5 ) defined by the conditionls is the solution defined by , and S is the value of , which is known to be independent of S5 .
+The result just stated may be employed to obtain an asymptotic formula for , when is negative and numerically large .
+For this purpose it will be convenient to write , where is supposed real and positive .
+If we denote by the operator , the equation ( 2 ) then becomes The complete primitive of this is where and are constants , and are what become when is substituted for If , the conditions give Accordingly we have .
+( 7 ) lf we write , . . .
+( 8 ) this equation becomes .
+( 9 ) Now at all points of the closed interval ; and , whatever value belonging to the interval may have , if is a point of the closed interval .
+Hence , if be the greatest value of in , we see from ( 9 ) that which may be written It follows that is limited for values of that are greater than a certain positive number , and of that lie in the closed interval .
+S G. It will be in what follows to use as a shorthand symbol for the phrase " " a function of and which is limited for values of that are greater than a certain number , and of that lie in the closed interval With this convention it follows from the result obtained in the preceding paragraph , that ( 9 ) may be written , . . . . .
+( 10 ) whence , in virtue of ( 8 ) , we obtain the formula .
+( 11 ) In order to obtain an asymptotic formula for , we turn back to the equation ( 7 ) .
+Differentiatin with respect to , we obtain Using ( 11 ) this becomes Since .
+( 12 ) FUNCTIONS IN THE THEORy OF INTEGRAL EQUATIONS .
+S7 for all values of which belong to the interval , it appears that the third term on the right-hand side of ( 12 ) is of the form ; and it is evident that the fourth is of the same form .
+Thus ( 12 ) gives Proceeding in a similar manner , we may obtain analogous formulae for and .
+It is , however , more expeditious to deduce these from the formula already obtained for and by a device which we proceed to explain .
+Putting in eyidence the argument of , let be the solution of in the interval , which satisfies the conditions , at Clearly is the solution of in this interval which satisfies the conditions , at .
+Recalling that the asymptotic formula ( 11 ) is valid for all values of and for all continuous functions , we deduce from it the formula ; and similarly , in virtue of the relation , we obtain from the formula given for .
+S7 .
+Supplyin the formulae of the preceding paragraph in @ , we obtain @ , where it must be borne in mind that the various symbols do not necessarily refer to the same function On multiplying this out it appears that the terms which VOL. CCXI : DR. J. MERCER : STURM-LIOUVILLE SERIES OF NORMAL do not involve give ; and each of the remaining terms is easily to be of the form Recalling that S is independent of , we thus see that @ sin , where , in analogy with the notation explained in S 6 , is a shorthand symbol for ' ' a function of which is limited for values of the argument that are greater than a certain fixed positive number If , in a similar way , we use to denote " " a function of and which is limited for values of that are greater than a certain positive number , and of and that lie both in the closed interval the formulae of this and the preceding paragraph , when supplied in the expressions for obtained in S4 , give , . . . . .
+where .
+S8 .
+be any function which has a Lebesgue integral in the interval .
+Then from ( 13 ) we obtain Now when we have ; hence , recalling that is a symmetric function of and , we see that for Since , considered as a function of , is limited in any range which does not include points within an arbitrarily small distance from the origin , it appears that , for , and for all values of greater than any assigned positive number , is limited .
+same remark therefore applies to the function .
+Again we have .
+FUNCTIONS IN THE THEORY OF INTFGRAL EQUATIONS It follows that , for unequal values of and Applying the theorem of I , S1 , we deduce that , as tends to tends to zero , for all values of in .
+In what follows we shall express the resultjust obtained by the notation the symbol between the left-and right-hand members indicating that ) difference tends to zero , as A tends to S9 .
+Let us now consider The value of this is evidently .
+( 14 ) Now , whatever value may have in the closed , ; hence we see that ( 16 ) converges to zero , as tends to .
+It follows that Since a corresponding result applies to second member of ( 14 ) , we finally obtain .
+( 17 ) S10 .
+Let us now suppose that If is an arbitrarily assigned positive number less than , or equal to , , the first term of the right-hand member of ( 17 ) may be written Since it is clear that ( 18 ) converges to zero , as tends to Again , by a simple substitution , it is easily seen that ; and evidently .
+( 19 ) We thus prove that .
+( 20 ) The restriction may now be removed , provided that the function is defined for values of outside in any manner consistent with the condition , that should have a Lebesgue integral in every finite interval .
+For if we have and the right-hand member of this has been shown to differ from the left-hand member of ( 20 ) by a number which tends to zero , as tends to By the same method and with the same convention it may be shown that .
+( 21 ) Hence , from ( 17 ) and ( 20 ) we see that for all positive values of , and for all values of which belong to the open interval .
+In the paragraphs which immediately follow we shall obtain a more general form for the right-hand member .
+FUNCTIONS IN THE THEORy OF INTEGRAL EQUATIONS .
+S11 .
+Let be a function of defined in an interval which possesses a limited derivative of the second order ; further , let the function be such that .
+We propose to proye that .
+( 22 ) In the first place , we obserye that , if is any positive number less than unity and Since the right-hand member converges to zero as tends to , it follows that .
+( 23 ) Again , by a known theorem of the differential calculus , , where is a poin of the interval .
+Denoting by the upper limit of in we see that Hence we have dt .
+Since for all values of and which are not negative , the right-hand member is not greater than ; and this , by a known property of Lebesgue integrals , zero as tends to .
+Referring to ( 23 ) we thus see that For values of which are sufficiently great , , ( 24 ) where .
+When increases indefinitely clearly converges to ; and therefore the right-hand member of ( 24 ) converges to zero .
+It follows that Substituting in the right-hand member , and then replacing by , we see that this may be written king this in conjunction with the result previously obtained , we see that ( 22 ) will be established when it has been proved that .
+( 25 ) S12 .
+We have .
+( 26 ) Now , by a known theorem of the differential calculus , , where , as aboye , is a point of the interval .
+From this we see that ; an hence that .
+Thus the right-hand member of ( 26 ) is where .
+FUNCTIONS IN THE THEORy OF INTEGRAL EQUATIONS .
+S13 .
+Let us now suppose ; then , for values of in , it is possible to find a positive number such that , for all values of which are greater than it , is less than unity .
+For these values of and we have and so Since for values of and which are not negative , we see from this that , for values of in , is less than a fixed positive number independent of .
+We therefore have As the -hand member converges to zero when increases indefinitely , it follows that the relation ( 25 ) is true ; and hence that .
+( 22 ) It may be shown in a similar way that , ( 27 ) where is any function which has a limited second derivation in , and is such that .
+It follows from the result obtained in S10 that .
+( 28 ) Let us denote where is a fixed point of the open interval , by ; and let us suppose , for the moment , that is finite .
+Then , if is an arbitrarily assigned positive number , we can choose so small that for all values of in the interval .
+We have therefore Since we see from this that ; or , as is arbitrarily small , .
+( 29 ) This inequality is obviously true when has the improper value provided that we interpret it as suggested in II .
+, S4 ; and the reader will be able to prove that it also holds when is .
+It follows that the inequality as written above holds in all cases .
+It may be shown in a similar way that .
+( 30 ) The function X ( t ) depends upon , , and so ) may have different values when we replace these functions by thers satisfying the requirements of SS 11 , 12 .
+Let us denote by the lower limit of the set of values of obtained by taking all possible pairs of functions , ; and let be the upper limit of the corresponding values of X .
+We shall speak of as the upper bilateral limit of at the point , and of as the lower limit of at this point .
+When is equal to , the common value will be referred to as the bilateral timit of at the point , and will be denoted by .
+It will be obvious from ( 29 ) and ( 30 ) that .
+( 31 ) In particular , it will be clear that , when the bilateral limit of at the point exists , . . . .
+( 32 ) exists , and is equal to it .
+From the inequality just written , and the definitions given above , we have . . . . .
+( 33 ) FUNCTIONS IN THE THEORY OF TEGRAL EQUATIONS .
+It follows that , if , can be chosen in such a way that exists , then the bilateral limit of at the point exists , and is equal to it .
+In particular , the bilateral limit of exists at the point , when eyer exists .
+S14 .
+In the preceding paragraphs we have developed the theory of upper and lower bilateral limits in a form which is adapted to our immediate requirements , but , on reviewing SS 11-13 , the reader will find that , so far as concerns the definition of these numbers and the fundamental inequality ( 33 ) , may be any function which has a integral in an interval , and any point lying within this interval .
+The definitions given are clearly applicable to the more general case , as also are the relations ( 22 ) and ( 27 ) .
+Choosing a fixed positive number A such that , the reader will easily prove that Hence ( 28 ) may be adapted for the more general case by substituting in place of the left-hand member .
+Proceeding as aboye , we then obtain ( 34 ) in place of ( 31 ) .
+It now follows that the fundamental inequality ( S3 ) is valid at each point of the open interval .
+We may deduce from ( 33 ) an important property of functions which are integrable in in accordance with the definition of LEBESGUE .
+For , from it , it will be clear that when exists at point of the open interval , it independent of , namely , the bilateral limit of at It is not consonant with the plan of the present memoir to pursue this topic further .
+S15 .
+We have now to consider the behaviour of VOL. CCXI .
+\mdash ; A. as tends to , when is one of the end points of ; let us suppose , in the first place , that .
+From the results obtained in SS8 , 9 , we see that The right-hand member is where is any positive number less than , or equal to , .
+Proceeding as in S 10 , it may be shown that and that Hence we obtain the result From this it follows that ; and , in particular , that , whenever the right-hand member exists .
+It may be shown in a similar way that .
+It will be observed that so far we have been concerned with the limit ( 32 ) for a fixed value of , and that , in consequence , the question of uniform convergence has been left aside .
+We now proceed to prove that : If the set of points at which is continuous includes a closed ) lying wholly within , then , as tends to converges uniformly to in this interval .
+* It is evident that the restriction may be removed , if we adopt the convention of S10 in regard to the definition of outside .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+We commence with the equation It was shown in S8 that is limited , and that , as tends to , its limit is zero for unequal values of and .
+The function will therefore satisfy the requirements of the theorem of I. , S3 , if it can be proved that converges uniformly to zero , for values of and such that is not less than an arbitrarily assigned positive number .
+That this is so follows at once from the inequality , which the reader will establish without difficulty .
+We deduce that , as tends to converges uniformly to zero in .
+Let us now suppose that is any positiye number less than the least of Referring to the equation ( 15 ) , it is evident that the left-hand member is less than for all values of lying in .
+It follows that ( 16 ) convel.ges uniformly to zero in .
+In the same manner it may be shown that ( 18 ) and the diflerence between the left- and right-hand members of ( 19 ) both converge uniformly to zero in this interval , for a fixed value of Hence it appears that the difference between and converges uniformly to zero in , as tends to .
+Finally , since the same may be proved of the difference between and we deduce that the difference between and converges uniformly to zero in , as tends to We assume Now we have ( 35 ) ; and , in virtue of our hypothesis as to the continuity of it is easily shown that may be chosen small enough to ensure that for all values of in , and for all values of in , the number being positive and arbitrarily assigned .
+With this choice of the numerical value of the right-hand member of ( 35 ) is less than where is the greatest value of in the interval .
+Hence , since this is less than for all values of which are greater than a certain positive number , we see that the left-hand member of ( 35 ) converges uniformly to zero , as tends to .
+It follows from what was said above that , as tends to converges uniformly to in .
+S17 .
+Using the notation of S3 , we have ( vide II .
+, 4 ) It will be observed that the coefficient of on the right-hand side of this equation involves the corresponding singular value , and that , in consequence , its value depends upon the function and the constants The following lemma will enable us to replace the coefficient by another which is independent of both the factors mentioned .
+If , , are in order of magnitude , the difference between ( 36 ) , ( 37 ) converges uniformly to zero , as tends to , for all of values of lying in the square * To prevent misunderstanding , it may.be stated that is continuous in and in addition , .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+For , with the hypothesis stated , there exists a finite number such that , . . . .
+( 38 ) for all values The ratio of the numerical values of the corresponding terms of ( 36 ) and ( 37 ) thus tends to unity as is increased indefinitely .
+It follows that ( 37 ) is absolutely convergent .
+Again ( 39 ) .
+For negative values of the numerical values of the terms of the series on the right are less than the corresponding terms of Since we have it is thus clear that , as tends to , the left-hand member of ( 39 ) will converge uniformly to zero , if has this property .
+But , and therefore steadily diminishes to zero as tends to It from DINI'S theorem that converges unifol.lnly to zero , for values of in .
+Hence the left-hand member of ( S9 ) uniformly to zero in the square , and the lemma is established .
+S18 .
+From this it appears that the between ( 36 ) and ( 37 ) satisfies the requirements of the theorem of I. , S3 .
+Hence the difference between and ( 40 ) converges to zero , as tends to , uniformly for values of in .
+It follows that the results obtained in SS13 , 15 , 16 , remain true is replaced by ( 40 ) .
+We have thus established the theorem:\mdash ; *Vide , S5 .
+" " Functions of Positive and Negative Type and their Connection with the Theory of Integral Equations 'Phil . .
+Roy .
+Soc , vol. 209 , pp. 443 , 444 .
+Let be function which Lebesgue integral in the interval .
+Let , , , , , be the complete system of normal functions which , values of , satisfy the differential equation thoe conditions at at ; further , let the ngement of these functions be such that the corresponding of with .
+Then , as tends to ( 40 ) converges to the limit of af point of the open where this limit exists as finite number ; moreover , at point where the bilateral limit has one of the improper , it diverges to this value and is non-oscillatory .
+If the set of points at is continuous includes closed interval lying within , then ( 40 ) in this interval .
+At the end point ' ( 40 ) to this limit exists as finite number ; further , when either of these limits has one of the values , ( 40 ) diverges to this value , non-oscillatory at the corresponding end point .
+As a corollary to this theorem it should be observed that , when exists as fnite ?
+at a point of the open , ( 40 ) converges to this number ( vide S13 ) .
+The reader will recall that the system of normal functions , , , , is unaltered when ( 2 ) is replaced by ( vide S3 ) .
+There is therefore no necessity to suppose that the values of referred to in the enunciation of the above theorem are all positive .
+S19 .
+It will be convenient to state here how far the preceding results remain true when the pair of boundary conditions for is one of the three , and hence that for is one of the three .
+In each case the asymptotic FUNCTIONS IN THE THEORy OF INTEGRAL EQUATIONS .
+formula for is of the same character as that obtained in S7 .
+Thus , when the pair of conditions for is , we have , . . . . .
+( 41 ) where is the symmetric function of and which is such that .
+When the pair of conditions is , the function in ( 41 ) must be replaced by , where is the symmetric function such that Finally , when the pair of boundary conditions is , it be seen that must be replaced by , where the latter function is symmetric and such that .
+From these formulae it may be deduced that the results obtained in SS13 , 16 are still applicable .
+At the end point , it will be found that the first of the inequalities of S 15 is applicable when the boundary condition at this point is When the boundary condition is , we have , and the inequality is no longer true , save under special circumstances .
+Qponding remarks apply to the end point The result obtained in S17 also equires modification .
+Using the same notation , when the pair of boundary conditions is either , or , the inequality ( 38 ) must be replaced by From this it may be shown that , in both cases , the difference between , ( 36 ) and * The reader will ceive that this result may at once be deduced from the former one ( cf. S6 ) .
+converges uniformly to zero , as tends to , for all pairs of values of and lying in the square When the pair of boundary conditions is , ( 38 ) must be replaced by ; hence , in this case , the difference between ( 36 ) and converges uniformly to zero .
+The reader will observe thab corresponding changes must be made in the enunciation of the theorem of S18 .
+S20 .
+Let , , , , be a complete set of normal functions which satisfy the differential equation and any one of the pairs of boundary conditions ; further , let the order of these functions be such that the corresponding singular values increase with Then , if is any function which has a Lebesgue integral in , the terms of the series ( 42 ) will have a definite order , and the coefficients will each have a meaning .
+We shall refer to ( 42 ) as canonical Sturm-Liouville series responding to .
+Let be any point of the open interval .
+Denoting by and the upper and lower limits of indeterminacy of the series ( 42 ) , the general theorem of II .
+, S4 , shows that .
+Also , by the results of SS13 , 19 we have By supposing that , we obtain the theorem:\mdash ; I. If are the upper and lower limits of at the point of one of the canonical Sturm-Liouville series corresponding to , then , each point where , the bilateral limit of , By supposing that , we see that : FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+IL The sum of a canonical Sturm-Lnouvilte series corresponding to at point ovhere it converges lies between the upper lower limits of at the point .
+Again , by taking the case in which , ) , and the commonl value is in each case finite , we have III .
+At any point the bilateral limit of exists as finite number , canonical -Liouville series corresponding to be convergent have its sum from bilateral limit .
+In partic nlar , no canonical Sturm-Liouville series corresponding to converge have its sum fferent from at a point where this limit exists .
+This theorem may , of course , be regarded as included in I. or II .
+Another particular case which is worthy of remark is that in which Since we can only have at a point of discontinuity of , we see that IV .
+A canonical Stnrm-Liouville series corresponding to can diverge to , or be at point of infinite discontinuity .
+Lastly , it is known*that is less than a fixed positive number for all values of and .
+From the result of II .
+, S7 , we deduce that V. At any point where the bilateral limit of exists as finite , each canonical Sturm-Liouville series corl.esponding to be to to this limit by the introduction of suitable Different systems of bracketing may have to be employed at the various points of , but , in virtue of results obtained later , it will be seen that , at any particular point , the same system will suffice for each canonical Sturm-Liouville series .
+It will be observed that the above theorems have been stated only for values of in the open interval .
+After what has been said in SS15 , 19 , there will be no difficulty in supplying the results which correspond to I.-V .
+when is an end point of the interval .
+It will be found that , if the boundary condition which is satisfied by the normal function of the series is not , all the above results ] good for , provided that we replace ) by by , and by wherever necessary ; for example , corresponding to I. , we have the inequality , when is such that exists .
+It is unnecessary to consider the case when *Cf .
+IV .
+, S6 .
+It is shown in the following section that , as tends to , the difference between the sums of the first terms of any two callonical Sturm-Liouville series converges to zero at each point of the ) interval .
+VOL. CCXI .
+X the normal functions of the series satisfy the boundary condition at , for we then have whatever be the nature of .
+Similar remarks apply when has the value S21 .
+The theorems of the preceding paragraph apply to FOURIER'S sine and cosine series , since the latter are particular Sturm-Liouville series .
+It is not difficult to extend them to the FOURIER'S series corresponding to a function which has a Lebesgue integral in , The series just written is clearly nt ns Let us in the first place suppose that is a point of the open interval .
+It is known*that the difference between the sums of the first terms of FOURIER'S sine and cosine series corresponding to converges to zero , as is increased indefinitely .
+Hence the limits of indeterminacy of ( 43 ) are identical with those of ; and , therefore , in virtue of the fact that the term converges to zero as tends to , with those of Referring to the first inequality of S20 , we deduce from this that and , the upper and lower limits of indeterminacy of ( 43 ) , satisfy the inequality ; , SS13-15 .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+which may be written , ( 44 ) where is any positive number ( S10 ) .
+It is here supposed that is defined outside in such a way that it has a Lebesgue integral in any finite interval .
+In what follows we shall secure this by the rule , as in the theory of FOURIER'S series .
+Again , when lies in the open interval , we have being a point of the open interval .
+Proceeding as before , we now find that the limits of indeterminacy of ( 43 ) are identical with those of ; and hence with those of nt , .
+It follows that , when lies in the open interyal , , whence it appears that ( 44 ) is valid for these values of Lastly , at either of the points , it is evident that the limits of indeterminacy of ( 43 ) are identical with those of Since ( S15 ) , we at once deduce that ( 44 ) is valid when .
+Recalling that is periodic , the reader will be able to prove that it is also valid when has either of the values Now , if and ) are the upper and lower bilateral limits of at any point , we have ( S14 ) .
+Further , as it has been shown to hold for all values of in the closed interval , ( 44 ) holds for any value of whatever .
+We are thus in a position to state theorems , analogous to those numbered I.-V .
+in the preceding paragraph , on the behaviour of the FOURIER'S series ( 43 ) .
+For example , corresponding to III .
+, we have the theorem At any point where the bilateral limit of exists as finite number , the FOURIER'S series responding to , if it converges , this limit for its sum .
+In , if the series converges at a point uhere exists , then this limit is its sum .
+We leave the reader to enunciate the other four theorems , merely remarking that each of them is valid for unrestricted values of S22 .
+From results which have been obtained above we may deduce theorems concerned with the expansion of a function , which has a Lebesgue integral in , as an infinite series of the type , ( 45 ) where is the solution of which , for , satisfies one of the pairs of boundary conditions .
+It is assumed that the functions are made definite imposing upon them the conditions ( 46 ) * These theorems are , of course , more general thaIl those obtained by the methods of and BESGUE ( vide HOBSON , The Theory of Fumctions of a Real Variable , ' pp. It was explained in S1 that is a function of ; we employ ) to denote the same function with the argument instead of There is an ambiguity of sign which , however , is of no consequence .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+and that their order of arrangement is that in which increases with .
+With this understanding we shall call ( 45 ) a Sturm-Liouville series corresponding to .
+Applying the transformation of S2 , we see that , when expressed in ternoe of , becomes a function , say , which satisfies the equation . . . . . . . . .
+( 2 ) and he pair of boundary conditions which corresponds to the pair satisfied by : the appropriate value of is evidently .
+Since ( 46 ) leads to it is thus evident that , , , , is the complete system of normal functions satisfying ( 2 ) and these boundary The series ( 45 ) becomes , ( 47 ) where is expressed as a function of , and has the meaning attached to it in S'2 .
+S23 .
+Let and be the upper and lower limits of indeterminacy of the series ( 45 ) at the point .
+These numbers are obviously the upper and lower limits of indeterminacy of the series ( 47 ) at the corresponding point of .
+From the results of II , S4 , we therefore have , where has the signification of S 4 .
+Let us suppose for the moment that is a poin of the open interval .
+After what was said in SS10 , 11 , 19 , it will be clear that Further , where is the upper limit of in .
+Hence Since it can be proved in the same way that we see that that is to say .
+( 48 ) .
+We have hitherto supposed that is not one of the end points of .
+When this is so , the reader will be able to prove in a similar manner from the formulae of SS 15 , 19 , that the result stated still holds .
+It follows that , for all values of in , .
+( 49 ) S24 .
+Let us again suppose that is a point of the open interval .
+We propose to show that the upper and lower bilateral limits of at are the same as the upper and lower bilateral limits of at the corresponding point .
+For , since it follows that , if , are the functions defined in SS11 , 12 , we have , ( 50 ) where , and the functions , , ( y ) are defined by .
+( 51 ) Since the functions and are always positive and possess continuous derivatives in , it is evident that these relations define and as functions of possessing limited second derivatives in a certain interval .
+Further , we have .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+Denoting by and the upper and lower bilateral limits of at the point , and employing the notation of S13 , it follows from that .
+Again , if we commence with two functions , having the properties above mentioned , it is easily seen that the relations ( 51 ) together with define , as functions of satisfying the requirements laid down in SS11 , 12 .
+We now deduce from ( 50 ) the relations .
+It follows that we must have .
+S25 .
+From this result , and the inequalities established in S13 , we infer that at any point of the open interval .
+Taken in conjunction with the inequalities ( 49 ) , these at once lead to theorems on the convergence of the general SturmLiouville series , corresponding exactly to those numbered I.-V .
+in S20 .
+We shall therefore content ourselves with the enunciation of that corresponding to .
+This reads as follows:\mdash ; At any point where the bilateral limit of exists as finite number , no SturmLriouville series correspondin.to be convergent its sum differ.ent from this bilateral limit .
+In particular , no Sturm-Liouville series corresponding to can converge have its sum different from at a point where this limit exists .
+As regards the end points of , we clearly have , .
+Hence , referring to the results of SS15 , 19 , we see that , when the boundary condition at is ; and that when the boundary condition at is From these inequalities , together with ( 49 ) , we obtain theorems of the usual kind relative to the behaviour of the general Sturm-Liouville series at an end point of .
+Thus , for example , when exists as a finite number , and the boundary condition satisfied by the functions at is not , it will be found that , if the Sturm-Liouville series converges at , its sum must be .
+When the boundary condition satisfied by the functions at is , the terms of the series all vanish and no discussion of the convergence of the series at this point is necessary .
+Similar remarks apply at the end point S26 .
+In conclusion , it should be observed that the theorem enunciated in S18 may be stated in a form applicable to the general Sturm-Liouville series .
+Let us suppose that the satisfy the pair of boundary conditions , and , consequently , that the normal functions satisfy .
+By employing the transformation of S2 ( cf. S22 ) , the reader will be able to establish that .
+( 52 ) is equal to - .
+( 53 ) Recalling the relation ( 48 ) , it follows from the inequalities of the preceding paragraph that , as tends to , ( 52 ) converges to at each point of the open interval , that at the end point it converges to , and that at it converges to ; it being assumed in each case that the limit mentioned exists as a finite number .
+Moreover , when any one of the limits , , has an improper value , it is plain that ( 52 ) diverges to this value and is non-oscillatory at the corresponding point of .
+Again , if the set of points at which is continuous includes an interval lying within , the set of points at which is continuous includes the corresponding interval of .
+It follows at once from the theorem of S16 , that ( 53 ) converges uniformly to in the latter interval ; and therefore that ( 52 ) converges uniformly to in .
+We have thus established the theorem:\mdash ; Let be function cvhich a Lebesgue integral in the interval .
+Let , , , be the solutions of FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+which , for of the .
+of boundary conditions at at Moreover , let solutions be by on them the conditions ; and let the gement of them be such that thoe esponding values of increase with .
+Then , tends to ( 52 ) converges to the limit of , at point of the open interval where this limit exists as a finite nennber ; further , point where the bilateral has one of the improper values , it to this ( is non-oscillatory If the set of points is continuous include a closed lying ?
+lJithin , then ( 52 ) converges uniformly to in this interval .
+At the end point converges to ' )hentln.s limit exists finite ? .
+further , when either of these limits one of improper values , ( 52 ) diverges to this is non-oscillatory the corresponding end point .
+From this we deduce the COl.ollary that , when exists as a finite number at a point of the open interval , ( 52 ) converges to this number .
+After what was said in S25 there will be no difficulty in perceiving how the results just stated must be modified when the pair of boundary conditions satisfied by the functions CONVERGENCE 0F SERIES .
+S1 .
+In this section it is proposed to investigate the convergence of Sturm-Liouville series .
+It will be recalled that with the notation of III .
+, SS2 , 3 , is a solution of , ( 1 ) which , for , satisfies the pair of boundary conditions , i.e. , at , and at .
+( 2 ) , ( 3 ) CCXI .
+DR. J. MERCER : STURM-LIOUVILLE SERIES OF NORMAL Throughout this section we shall assume that the normal functions have such an order the corresponding values increase continually with We proceed , in the first place , to obtain asymptotic formulae for and , when is large .
+Let be the solution of ( 1 ) which satisfies the conditions at , when has the positive value .
+Since satisfies the equation it is evident that where and are constants .
+Proceeding as in III .
+, S5 , we thus see that sin where are what become when is substituted for ; and it is easily shown that the conditions satisfied by and at give as the appropriate values of the constants .
+It follows that .
+( 4 ) Denoting by the upper limit of in the interval , we deduce from this the inequality which may be written It follows that for values of whose lower limit is greater than is less than a fixed positive number .
+Using the notation of III .
+, S6 , we deduce from ( 4 ) the formula . . . . . .
+( 5 ) The equation ( 4 ) may be written .
+Supplying the value of given by ( 5 ) on the right-hand side , we obtain .
+( 6 ) FUNCTiONS IN THE THEORY OF INTEGRAL EQUATIONS .
+S2 .
+The solution satisfies the boundary condition ( 2 ) by its definition .
+It is easily seen from ( 4 ) that it will also satisfy the boundary condition ( 3 ) if where , and Using the formula ( 5 ) , we see that Hence the equation ( 7 ) may be written It is easily seen from this that the positive roots of ( 7 ) are of the form , ( 8 ) where is a positive integer .
+It will be clear that a positive integer may be chosen great enough to ensure that , for , the numbers are roots of ( 7 ) increase continually with .
+Thus , since ( 7 ) is the condition that there should be solutions of ( 1 ) satisfying are corresponding singular values arranged in increasing order of magnitude .
+It follows that , for values of which are not less than a certain positive integer , , . . . . .
+( 9 ) where is a positive or negative integer , or zero .
+The raphs which immediately follow will be devoted to the determination of S3 .
+Referring to SS5 , 6 of the previous section , it will be seen that , by using ( 9 ) and ( 10 ) we obtain Since , and we have Hence .
+Supplying this value of in the formula it is easily shown that By employing the device of III .
+, S6 , it may be deduced from these results that and that .
+It follows from these formulae that @ ; hence @ .
+Again we have Since the integrals of the fourth and fifth terms between the limits and are both of the form we see from this that \mdash ; , FUNCTIONS IN THE THEORy OF INTEGRAL EQUATIONS .
+which leads to .
+S4 .
+Let be the determinant of , the GREEN'S function of for the boundary conditions .
+Then , in accordance with FREDHOLM'S theory , we have Recalling that , we see from the equations ( III .
+, 6 ) that ; hence , applying the formulae of the preceding paragraph , Now let be the determinant of the GREEN'S function of , ( 10 ) for the boundary conditions at at .
+( 11 ) From the result obtained above we see that Thus we have If is any negative number , we obtain from this , by integration , formula Since the integral tends to a finite limit as tends to , we thus see that , tends to , the quotient tends to finite limit which is not zero .
+* The function is evidently integrable .
+S5 .
+The singular values of ( III .
+, S3 ) being , , , , we have which may be written , where has the signification of S2 , and is any positive integer greater than which is such that ( 9 ) holds for .
+Again , the singular values of the GREEN'S function of ( 10 ) , for the boundary conditions ( 11 ) , are the values of for which there exist solutions of satisfying these boundary conditions ; they are therefore , , , Hence .
+It follows that , ( 12 ) where .
+( 13 ) Now from ( 8 ) we see that there exists a positive number such that for all values of .
+From this it is easily seen that and are both convergent .
+Further , recalling that is negative , we have .
+( 14 ) * ' Functions of Positive and Negative Type and their Connection with the Theory of Integral Equations ' Phil. Trans. Society , ' Series , vol. 209 , p. 445 .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+Since the product is convergent , we may choose a positive integer , reater than is such that and therefore that for all negative values of Also it is clear that we may choose a negative number , whose numerical value is so great that for .
+Hence , for these values of , we have It follows from ( 14 ) that ; and therefore from ( 13 ) that , as tends to tends to a finite different from zero .
+Since and both tend to finite limits different from zero , as tends to , it is obvious from ( 12 ) that must be finite and different from zero .
+As this can only be the case when the number of factors in the numerator is equal to the number in the denominator , it is evident that Hence from ( 9 ) we have . . . . . .
+( 15 ) As a corollary we deduce from ( 8 ) the inequality which was employed in III .
+, S17 .
+This is primarily true for greater than 71 , but , by a suitable choice of , it is evidently valid for all values of Previous investigators seem to have overlooked the fact that the value of is not obvious .
+Thoy have all tacitly assumed S6 .
+It follows from ( 8 ) and ( 15 ) that the large singular values of may be calculated from the asymptotic formula We proceed to obtain an asymptotic formula for , the normal function corresponding to Let denote the function which ( S1 ) becomes when is substituted for ; then , from the definition of , it is clear that satisfies the pair of boundary conditions The normal function must therefore be a constant multiple of ; hence , since , we must have .
+( 16 ) Now , from ( 6 ) , while from ( 8 ) we see that ns with an analogous formula for .
+It follows that ns From the formula just written we see that Integrating between the limits and , it will be found that this leads to .
+( 17 ) The function 2 ns is of the form where and are functions of and whose derivatives with respect to FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+are both of the form in .
+By an application of the rule of integration by parts , it is easily seen that Thus we have which , taken in conjunction with ( 17 ) , leads to Substituting the positive square root of this value of , and the value of obtained above , in the right-hand member of ( 16 ) , we eventually obtain the formula* , ( 18 ) where and Putting in evidence the argument of as in III .
+, S6 , the reader wiIl see that is the normal function which , for , satisfies the equation and the boundary conditions at at It follows that should remain unaltered when we interchange and , and at the same time substitute for for ; also that .
+should merely change sign .
+We have expressed , , in designed to show that they possess these properties .
+It should be observed that there is an ambiguity of signirl the of each normal function ( vide III .
+, S3 ) .
+By substituting the positive value of in ( 16 ) we obtain the asymptotic formula for that determination of ) which is positive for .
+Substituting the negative value of the square root in we obtain the formula for the other det , ; rmination .
+This would have servod our purposo just as well as ( 18 ) .
+VOL. CCXI.\mdash ; A. DR. J. MERCER : STURM-LIOtIVILLE SERIES OF NORMAL S7 .
+The formula ( 18 ) is true for all values of which are greater than , or equal to , a certain positive integer , say N. Let denote the sum ; then we see from ( 18 ) that Now the sum is known*to be limited for all values of and all positive integral values of ; further , as tends to , this sum converges uniformly for values of lying in the closed intervals complementary to the set where is any assigned positive number .
+It follows at once that the sum being equal to is limited for ; and that , as tends to , it converges uniformly in those parts of the square , which correspond to .
+It is easily seen that has the same property .
+Again , ( 19 ) .
+may be written , ( 20 ) where * For a full discussion , see HOBSON , The Theory of Functions of a Real Variable , ' pp. FUNCTIONS THEORY OF INTEGRAL EQUATiONS .
+Evidently From the remarks made above , it will be seen that is limited for , and ; moreover , if , converges uniformly for those values of , which satisfy the conditions and Applying a result obtained in I. , S4 , we see that , as tends to , ( 20 ) converges uniformly for ; and hence that ( 19 ) converges uniformly for these values of and .
+It may be proved in a similar way that converges uniformly for S8 .
+We have , where It is easily seen that , like , satisfies the requirements of the theorem of I. , S4 ; and hence , from the made at the end of this paragraph , that the left-hand member of ( 21 ) ) verges uniformly for .
+It may be shown in a similar way that has the same property .
+Lastly , it is at once evident that , as tends to converges uniformly for As a result of the investigations of this paragraph , we now see that is limited for ; and that , as tends to , it converges uniformly in those parts of the square , which correspond to Consider the function .
+For values of , it differs from by . .
+We conclude that is limited for ; and that , as tends to , it converges uniformly in those .
+parts of the square which correspond to .
+We proceed now to show that , when S9 .
+The normal functions which satisfy the differential equation and the boundary conditions at at ( 11 ) are clearly , , ns , , the corresponding values of being Thus ( III , , S3 ) the GREEN'S function of the equation , ( 22 ) which corresponds to the boundary conditions ( 11 ) is - ns nt .
+FU IN THE THEORY OF INTEGRAL EQUATIONS .
+Again the solution of ( 22 ) which satisfies the conditions , at is ; and the solution which satisfies the conditions , at is .
+It follows ( cf. III .
+, S4 ) that the GREEN'S function of ( 22 ) which corresponds to the boundary conditions ( 11 ) is .
+Comparing this with the formula obtained in III .
+, S7 , we see that , as , the GREEN'S function is .
+Thus we have From the lemma of III .
+, S17 , we see that , or .
+Hence , using the result obtained above , .
+( 23 ) ow , when , the series has been shown to be convergent ( S8 ) .
+It follows by an argument similar to that employed in II .
+, SS3 , 4 , that , as tends to , the right-hand member of ( 23 ) converges to the sum of this series , that is to say to .
+Further , the left-hand member is , which , for unequal values of and , has been shown to converge to the limit zero , as tends to ( III .
+, S8 ) .
+It follows that .
+S10 .
+Let be any function which possesses a Lebesgue integral in .
+Recalling the properties of which have been proved in the preceding paragraphs , we see from the theorem of I. , S3 , that , as tends to converges uniformly to zero for all values of in .
+Denoting.by sum of the first terms of the series , ( 24 ) and by the sum of the first terms of , ( 25 ) it follows that , as tends to converges uniformly to zero , for all values of in .
+If is any limiting point of the set , ( 26 ) we can select an increasing sequence of integers , , , , in such a way that the sequence , tends to the limit .
+It follows from the result obtained above that the sequence , also tends to the limit .
+We have thus proved that each limiting point of the set ( 26 ) is also a limiting point of the set ; in particular , the upper and lower limits of indeterminacy of the two series are identical .
+It should be observed that this includes the result that , if either of the series ( 24 ) , ( 25 ) is convergent , so also is the other .
+Since converges uniformly to zero in the whole of , we see that , if either of the series * This is , of course , FOURIER'S cosine series corresponding to FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+( 24 ) , ( 25 ) converges uniformly in a certain set of points belonging to the interval , so also does the other .
+S11 .
+Let us next suppose that the pair of boundary conditions the interval is .
+In this case it may be shown that ( 27 ) ls limited for , and all positive values of ; and that , as tends to , it converges uniformly in those parts of the square , which correspond to It will be found that the normal functions which satisfy the differential equation and the boundary conditions at at , ( 28 ) are , the corresponding values of being .
+The GREEN'S function of , ( 22 ) for the boundary conditions ( 28 ) , will found to be .
+Hence It follows from this and the result quoted in III .
+, S19 , that .
+Since the results quoted in that paragraph may be shown tu lead to we prove from this , by the method employed in S9 , that , for unequal values of and ( 27 ) converges to the limit zero , as tends to with the signification of the preceding paragraph , and denoting by the sum of the first terms of the series , ( 29 ) we deduce at once that , as tends to converges uniformly to zero on the whole of .
+The corollaries to this result are of the same nature as those stated in S10 , the only difference is that replaces , and ( 29 ) the series ( 25 ) .
+S12 .
+We shall state the corresponding results when the pair of boundary conditions is , or , more briefly .
+In the case of the pair it will be found that ( 27 ) must be replaced by . . . . .
+( 30 ) Replacing the boundary conditions ( 28 ) by at at it may be established that ; whence , in virtue of the results quoted in III .
+, S19 , it may be shown that ( 30 ) converges .
+to zero , for unequal values of and , if is employed to denote the sum of the first terms of the series , ( 31 ) we obtain the result that , as tends to converges uniformly to zero in the interval .
+* This may be deduced from the corresponding result obtained in the preceding paragraph .
+For , if is the normal functio1l which , for , satisfies and the pair of boundary condition , then , for the same value oi satisfies this equation and a pair of boundary conditions of the same type as FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+When the pair of boundary conditions for , ( 27 ) must be replaced by .
+( 32 ) The GREEN'S function of ( 22 ) for the boundary conditions at at will be found to be .
+from which it is easily proved that , as tends to , ( 32 ) converges to zero for unequal values of and .
+We deduce that , if is the sum of the first terms of the series ns , ( 33 ) then , as tends to converges uniformly to zero in the interval .
+S13 .
+We proceed to investigate the behaviour of the differences between the various pairs of sums which we have denoted by , , , , as tends to .
+The reader will easily prove that these sums are Let us define a function for all values of by the rules , ; and a function by the rules , .
+*This is , of course , FOURIER'S sine series corresponding to .
+VOL. CCXI . .
+2 Let denote the value of for integral values of .
+It is seen that Substituting , and then replacing by , we obtain which , owing to the periodicity of , leads to ; hence we have In a similar way it may be proved that .
+( 34 ) Let us now suppose that is a point of an interval lying wholly within ; and let be a positive number less than both and .
+We have .
+Thus Since , by a known theorem , right-hand member converges uniformly to zero as tends to , it follows that converges uniformly to zero in the interval .
+It may be shown in a similar way , by using ( 34 ) , that has the same property .
+S14 .
+Let be the value of , S6 .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+By employing the method of the preceding paragraph , and using the substitution instead of , it may be shown that With the same convention as to the values of and , it is easily shown that .
+Hence The first integral on the right-hand side of this equation is which may be written ; hence , applying the first corollary of II .
+, S 9 , we see that it converges uniformly to zero , for values of in .
+Since the two other integrals have this property in virtue of the same corollary , we conclude that , as tends to converges uniformly to zero , for values of in .
+As a corollary we deduce that has the same property .
+S15 .
+Referring to the formulae of S13 , it is evident that Hence As each of the three terms within the bracket has been shown to converge uniformly to zero in , it follows that , as tends to , the difference converges uniformly to zero for values of in .
+It may be shown in the same way that each of the differences , has the same property .
+Since is any interval lying within , it follows that , as tends to , the difference between any two of the sums , , , , converges to zero at each point of the open interval .
+It remains to consider the end points of the interval .
+At we have and , of course , From the first two formulae we obtain As both and possess Lebesgue integrals in , the integrals on the right converge to zero , as tends to We thus see that In a similar way it may be shown that whilst for all values of After what was said in the corresponding case dealt with in Slo , the reader will perceive the bearing of the results of this paragraph upon the convergence of the four trigonometric series ( 25 ) , ( 29 ) , ( 31 ) , and ( 33 ) . .
+The reader is now asked to review the results which have been obtained above .
+It was shown in SS10-12 that the limits of indeterminacy of any canonical , S6 .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+Sturm-Liouville series corresponding to are identical with those of one of the four series , ( 25 ) , ( 29 ) , ( 31 ) , ( 33 ) at each point of the closed interval .
+It was then shown in SS13-15 that , at each point of the open interval , each of these four series has the same limits of indeterminacy .
+We have therefore established the following theorem:\mdash ; I. At point of the open interval each of the canonical Sturm-Liouoille series corresponding to an assigned function mhich is integrable in in with LEBESGUE'S the same limits of indeterminacy .
+In particular we have:\mdash ; IL If any one of the canonical Sturm-Liouville series correspondin to the function converges at point of the open interval , then all of them converge at this point , and all have the same sum .
+It was shown in SS10 , 12 , that , at the end point , all canonical Sturm-Liouville series whose normal functions satisfy have the same limits of indeterminacy as ( 25 ) , and that those whose normal functions satisfy have the same limits of indeterminacy as ( 31 ) at this point .
+Then , in S15 , we proved that ( 25 ) and ( 31 ) have the same limits of indeterminacy at .
+Since similar remarks ) to the end point , we have the theorem:\mdash ; III .
+All those Sturm-Liouville series to the normal functions do nob the boundary condition at , the scnne limits of indeterminacy at In particular , the reader will observe that , if one of the series mentioned converges at an end point , all do so .
+Lastly , if the reader will examine the results obtained in SS 10-15 , he will find that we have established the theorem:\mdash ; IV .
+If one of the canonical Sturm-Liouville series to the assirJconverryes tiformly in set of points which , together its limitin.points , is contained within , then all of these series converge in the set .
+The results obtained in SS10-13 show that , if any one of the canonical Liouville series corresponding to the function converges uniformly in any set of points of , then all of the series whose normal functions satisfy a pair of boundary conditions of the same category as the first-mentioned series converge uniformly in the set .
+S17 .
+As usual , let be any function which has a Lebesgue integral in .
+From theorem I of the preceding paragraph it appears that , at a point of the open interval , all canonical Sturm-Liouville series corresponding to have the same limits of indeterminacy as FOURIER'S cosine series corresponding to ; these limits are therefore .
+From the results obtained in SS13 , 14 , it is evident that they are Now , if is any positive number less than , we have by the last corollary of II .
+, S6 .
+It follows that , at a point of the open interval , the limits of indeterminacy of the canonical Sturm-Liouville series corresponding to are Recalling that is arbitrarily small , we have thus established the theorem:\mdash ; At any particular point of the open the limits of indeterminacy of the canonical Sturm-Liouville series corresponding to assigned function depend upon the assumed by the function in an arbitrarily small neighbourhood of the point .
+Let us next consider the case when is an end point of , It follows from theorem III that the limits of indeterminacy of those canonical Sturm-Liouville series whose normal functions do not all vanish at an end point are the values of * Since the theorems of this paragraph cf. HOBSON'S paper cited in Introduction .
+HOBSON , it will be recalled , assumes that has limited total fluctuation in FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+at this point .
+It may be proved , from the formula that , at , these limits are ; and it will be found that , at , they are the numbers being positive and arbitrarily small in each case .
+Hence we have the theorem:\mdash ; At an end point of the limits of of all canonical SturmLn.ouville series corresponding to an assigned function , those whwse normal functions satisfy the boundary condition there , depend only upon the ssumed by the fnnction in an small neighbourhood to the right , or left , of the point , the case may be .
+Again , from theorem IV , it appears that , if one of the Fourier 's series , say the cosine series , corresponding to converges uniformly in an interval contained within , then all canonical Sturm-Liouville series corresponding to converge uniformly in .
+It was shown in S13 that converges uniformly to zero for values of in , as increases indefinitely .
+Since both the integrals converge uniformly to zero , for these values of and since ( 35 ) * This is clearly .
+In virtue of the first corollary of II , S9 .
+result follows from the fact that and that by the last corollary of II .
+, S6 .
+it is thus clear that the canonical Sturm-Liouville series will converge uniformly to in , when converges uniformly to zero in this interval .
+We have thus proyed the theorem:\mdash ; The answer to the question the canonical Sturm-Liouville series correspondin.to an assigned function all conver.qe uniformly , or not , in interval contained within depends only upon the values assumed by the function in interval enclosinq in its interior , exceeding it in length by an arbitrarily small amount .
+It is evidently a necessary condition for uniform convergence that the function should be continuous in .
+S18 .
+After what was said in the preceding paragraph , it will be clear that , when exists as a finite number at a point of the open interval , all the canonical Sturm-Liouville series corresponding to converge at this point , and have the value of this limit for their common sum .
+We may employ this fact to obtain conditions under which these series converge .
+Let , the bilateral limit of at the point , exist as a finite number .
+In virtue of ( 35 ) , it is easily seen that .
+( 36 ) Let us now suppose that , as diminishes indefinitely , the integral converges uniformly to zero for positive integral values of .
+When any positive number is assigned , we may then choose in such a way that the numerical value of the right-hand member of ( 36 ) is less than for these values of .
+Further , being fixed , a positive integer may be chosen great enough to ensure that the difference between the left-and right-hand members is numerically less than , for .
+Thus we have for ; and therefore .
+\mdash ; We have now established the theorem:\mdash ; At point of the open , , the bilateral limit of , exist.finite , a fficient condition that the canonical Sturvn-Lioum7le FUNCTIONS IN THE THEORY OF EQUATiONS .
+corresponding to may converge , and therefore have for their common sum , that , as hes indefinitely , should ) uniformly to zero , for positive integral values of We proceed to verify that this condition is satisfied when has nited total fluctuation in an arbitrarily small neighbourhood of the point .
+Since a function which has limited total fluctuation is the difference of two monotone functions , we may confine ourselves to the case in which is monotone in the neighbourhood .
+Observing that , and that , for sufficiently small values of may be replaced by , it is plainly sufficient to show that each of the integrals converges uniformly to zero , as diminishes indefinitely .
+For , the first integral is where , in accordance with the second mean value theorem , .
+It will therefore have this property , if is ited , for values of and in , and for positive integral values of .
+Now we have .
+Hence , by integration , from which it is evident that the left-hand member is limited for the stated values of , and .
+As similar remarks apply to the second integral , we have the theorem : has limited total fluctuation in arbitrarily of a * Obtain ed by HOBSON for the case which has limited total fluctuation in , vide the cited in the Introduction .
+The same remark apphes to the corresponding theorems of SS19 , 20 .
+VOL. CCXI .
+\mdash ; A. 2 DR. J. Is[ERCER : STURM-LIOUVILLE SERIES OF NORMAL point ( s ) belonging to the open interval , then the canonical Sturvn-Liouville series corresponding to converge , have the sum at this point .
+Again , it is easy to see that the above condition is satisfied when has a Lebesgue integral with respect to in an interval .
+For , in this case , also has a Lebesgue integral in the interval , so that where , by a known property of Lebesgue integrals , the right-hand member tends to zero with Since may be replaced by for values of which are sufficiently small , we have thus established the theorem:\mdash ; At point of the open , where , the bilateral limit of , exists as finite number , sufficient condition that all the canonical Sturm-Liouville series corresponding to may converge , therefore for their common sum , that should have a Lebesgue with respect to in an interval .
+In particular we have the following corollary:\mdash ; At any point of the open interval , where exist as finite numbers , sufficient condition that all the canonical Sturm-Liouville series corresponding to converge , and therefore have for their common sum , is that should both possess Lebesgue integrals in an intervat S19 .
+Consider next the case in which has the value zero .
+It follows from what was said in S 17 that , with the exception of those whose normal functions satisfy the boundary condition at this point , all canonical -Liouville series * For an amplificatio1l of these theorems .
+HOBSON , ' The Theory of Functions of a Real ' pp. 6S FUNCTIONS IN THE THEORY OF GRAL EQUATIONS .
+corresponding to will converge at , and have for their common sum , provided that this limit exists and is finite .
+Let us suppose that exists and is finite .
+Then it is easily seen that It follows from this , by a proof similar to that employed above , that the series mentioned will all converge to , if , as diminishes indefinitely , the integral converges uniformly to zero , for positive integral values of .
+The reader will be able to show that this condition is satisfied when has limited total fluctuation in an arbitrarily small neighbourhood to the right of ; and also when possesses a Lebesgue integral in an interval .
+As corresponding remarks apply at the end point , we have the theorems:\mdash ; If has limited total fluctuation in an arbitrarily neighbourhood to the right of left of ' then those canonical Sturm-Liouville scries to , whose normal functions do not satisfy the condition at ' converge have the sum at this point .
+If exists as a finite number , integr.al with respect to in interval , then those canonical -Liouville series corresponding to , whose noi'mal fUnctions do not satisfy the condition at , converge and have the sum ) )point .
+S20 .
+We saw in S17 that all canonical Sturm-Liouville series COl.res } ) onding to will converge uniformly in , if converges uniformly to zero in this interval .
+After what was said in S18 , the reader will have no difficulty in showing that a sufficient condition for this is that , as diminishes indefinitely , should converge uniformly to zero , for values of in , and for positive integral values of Let us suppose that the closed interval belongs to the set of points of at which is continuous .
+It may be shown that the sufficient condition just stated is satisfied when has limited total fluctuation in an interval enclosing in its interior .
+In doing so , we may evidently confine ourselves to the case in which is monotone ; for , in the most general case , is the difference of two functions , each of which is monotone in points for points of continuity .
+For values of which are not greater than a certain positive number , we have ( 37 ) at each point of , where , as in S 18 , we have .
+The integral on tho right has been shown to be limited , for values of and in and for all positive integral values of 77 .
+Further , as diminishes indefinitely , converges uniformly to zero , for values of in ; this follows from our hypothesis as to the continuity of .
+We conclude , therefore , that the integral on the left of ( 37 ) converges to zero , as diminishes indefinitely , uniformly for values of in , and for positive integral of .
+As the integral may be shown to have the same property , it will be now clear that we have established the theorem : \mdash ; If the set of points at is continuous includes closed interval lying , and if has limited total fluctuation in an interval enclosing in its interior , then all the canonical Sturm-Liourille series corresponding to converge iformfy in .
+Again , let us suppose that , for each value of in , has a Lebesgue integral with respect to in an interval .
+Then clearly We at once deduce the theorem:\mdash ; FUNCTIONS THE THEORY OF INTEGRAL EQUATIONS .
+A sufficient condition all the Sturm-Liouville series to converge uniformly in an interval within is should exist as a of in , and as diminishes indefinitely , it should conrerge to zero in .
+In particular , it is fficient t should both exist , conrerge ]to zero .
+S21 .
+Let be a point belonging to any interval which is contained within .
+Let be the sum of the first 71 terms of any canonical Sturm-Liouville series at the point , and let have the signification of S10 .
+It follows from the results obtained in SS , as increases indefinitely , converges uniformly to zero in .
+Hence , in virtue of the lemma of II .
+, , we see that converges uniformly to zero in this interval .
+In particular , since is any interval contained within , we see that this difference converges to zero at each point of the open interval .
+It will be seen from the results of SS10-15 that this is also true at an end point , provided that the normal functions of the Sturm-Liouville series do not all vanish there .
+Now we have d , where ) Hence we obtain It is well known that , as increases indefinitely , the integral converges uniformly to zero for values of in , if , as diminishes indefinitely , converges uniformly to zero iu au containing in its interior ( vide HOBSON , The Theory of Functions of a Real Variable , ' pp. 691-694 ) .
+This gives another condition for the umiform of -Liouville scries .
+The formal statement of it is left to the roador .
+Since each of the four functions converges un iformly to zero in any finite interval* ( II .
+, S10 ) , we see from this that , for any positive value of less than ( 38 ) converges uniformly to zero in , as the positive integer increases indefinitely .
+Let us suppose that is a fixed point of the closed interval at which has a finite value .
+When any positive number is assigned , we may then choose small enough to ensure that at all points of .
+With this choice of , we have which , since and is arbitrarily small , leads to The reader will have no difficulty in seeing that this inequality is valid when has one of the improper values ( cf. III .
+, S13 ) .
+It may be proved in the same way that .
+From these inequalities it is evident that , at any point of where exists , exists and is equal to it .
+Moreover , in virtue of our definition of will be seen that at a point of the open interval is ; that at it is ; and that at it is .
+This seems to have escaped notice hitherto .
+The simplest method of obtaining this result is to apply theorem to ( 36 ) above , S13 .
+FUNCTIONS IN THE THEORY OF INTEGRAL EQUATIONS .
+Again , let us suppose that the set of points at which is continuous includes a closed interval lying within .
+Then , supposing and -S , we have ( S ) .
+It follows from our hypothesis as to the continuity of that , when any positive number is assigned , we may choose so small that for these values of and .
+Hence , observing that we obtain The second term on the right is not greater than , and , since we can clearly find a positive integer great enough to ensure that the first is not greater than , for all values of , and of in .
+Again , we can choose a positive integer in such a way that the numerical value of the difference ( 38 ) is less than , for all values of , and of in .
+It follows at once that , for values of which are not less than the of and , we have for all values of in .
+In other words , we have shown that , as increases indefinitely , converges uniformly to for these values of We may summarise the results obtained in this paragraph in the theorems:\mdash ; The arithmetic mecm of the sums of canonical Sturm-Liouville series corresponding to converges to indefinitdy , at point of the opelb interval this exists finite number ; moreover , at a point where this limit has one of the improper values , it diverges to this and is non-oscillatory .
+If the set of points at which continuous includes closed interval uvithin , then the arithmetic mean converges to uniformly in this interval .
+If the normal functions of Sturm-Liouville do not the boundary condition at , then , as increases indefinitely , the arithmetic mean of the first surns of the series converges at to , whenever this limit exists as a finite number ; moreover , when this limit has one of the improper values , the arithmetic mean diverges to this ralue and is non-oscillatory .
+S22 .
+We proceed to apply the foregoing results to the more general Sturm-Liouville series .
+( 39 ) We saw above ( III .
+, S22 ) that the terms of this series are identical with those of , ( 40 ) where is the point of corresponding to the point of .
+In connection with the series just written , let us consider the series ( 41 ) This latter is a canonical Sturm-Liouville series corresponding to ; and , it will be recalled , is expressed as a function of shall refer to ( 41 ) the canonical -Liouville series related to the general Sturm-Liouville series ( 39 ) .
+Let be the sum of the first terms of the series ( 41 ) ; and let be the sum of the first terms of the series ( 40 ) .
+We proceed to show that , as increases indefinitely , converges to zero uniformly in the whole of .
+In the first place , let us suppose that the pair of boundary conditions satisfied by the functions .
+is ; the normal functions will therefore satisfy .
+By the result obtained in S 10 , it is known that , as increases indefinitely , converges uniformly to zero in ; and by the results obtained in SS13 , 14 ( cf. S21 ) FUNCTIONS IN THE THEORy OF INTEGRAL EQUATIONS .
+Thus we see that converges uniformly to zero in .
+It may be shown in a similar way that has the same property , the function being defined for all values of by the rules , , .
+It follows at once that , in order to establish the result stated , it will be sufficient to show that , as increases indefinitely , each of the four integrals . . . . .
+( 42 ) converges uniformly to zero in .
+S23 .
+The function is defined in the interval only , and , by the hypothesis of III .
+, S 1 , has a continuous differential coefficient in this interval .
+Let us it for values of in in any manner consistent with the conditions ( 1 ) that in it shall be always positive , ( 2 ) that it shall have a continuous rential coefficient in , and ( 3 ) that , ) then let us define it for values of outside by the rule The function defined in this way assumes only positive values , and has a differential coefficient which is everywhere continuous .
+Also , on referring to the definitions of the functions , , it will be seen that , for all values of * One method of doing this is as follows : Let be the ( possibly , a ) rational integral cubic function oi whose coefficients are such that , , , ) .
+Since and are both positive , we can clearly choose a number great enough to ensure that is positive in the whole of .
+The conditions ( 1 ) , ( 2 ) and ( 3 ) will all be satisfied if we definle to be equal to in .
+VOL. CCXI .
+\mdash ; A. 2 Consider now the integral It is equal to ; and this in turn is equal to , . . .
+( 43 ) where .
+Recalling that is never zero , it is evident that will be a continuous function of and in the square , if the function , is everywhere continuous .
+The only points at which there can be any doubt as to the continuity of are those which lie on ; and it is not very difficult to see that the function is continuous at these points also .
+For , when , we have , where , by the mean value theorem , .
+Since is continuous we see at once that , which proves that is a continuous function of and at points on the line .
+It is therefore clear that is continuous in the square ; and hence , in virtue of the second corollary of Ir .
+, S9 , that ( 43 ) converges uniformly to zero in , as increases indefinitely .
+It follows that converges uniformly to zero in .
+It may be shown in the same way that each of the other integrals ( 42 ) has this property .
+As we have already seen , this is sufficient to establish that converges uniformly to zero in .
+UNCTiONS IN THE THEORY OF INTEGRAL QUATIO S. Hitherto it has been assumed that the functions satisfy the pair of boundary conditions B. By using the results of SS11 , 12 , and following the line of proof indicated above , it will be found that the final result is unaffected when the pair of boundary conditions happens to be either , or .
+Hence , as is the sum of the first terms of the series ( 39 ) , we have the theorem:\mdash ; The limits of indeterminacy of -Liouville series at any point are the same as the limits of indeterminacy of the canonical Sturm-Liouville to it at the corresponding point of .
+Further , if the former converges uniformly in any set of points , the canonical series related to it converges in the corresponding set of points of .
+S24 .
+The theorem of the preceding paragraph enables us to translate the theorems of SS17-21 into theorems on the convergence of the Sturm-Liouville series .
+( 39 ) As a preliminary we recall that , if is the point of which corresponds to of , It follows that the point of corresponds to .
+, where , replacing by for convenience of notation , is the function of and ined by ; further , the point of corresponds to the point , where The functions evidently have positive values for positive values of , and tend to zero with Referring now to the results of S17 , it will be evident that the limits of indeterminacy of the series ( 41 ) , at a point of the open interval , are for values of which are sufficiently small .
+Since is expressed as a function of , it follows that the limits of indeterminaoy of ( S9 ) at the corresponding point of are Hence the theorem:\mdash ; At any particular point of the open interval the limits of of the -Liouville senes ( 39 ) depend only upon the values assumed by and in an small neighbourhood of the point .
+In a similar way it may be shown that : At an end-point of , where the functions do not the boundary condition , the limits of indeterrninacy of the Sturm-Liouville series ( 39 ) depend only the values assumed by and in an arbitrarily small neighbourhood to the right , left , of the point , as the case be .
+The statement of the theorem which corresponds to the third of S17 is left to the reader .
+S25 .
+When is of limited total fluctuation in an interval of , the function is of limited total fluctuation in the corresponding interval of ; also , if is any point of the former interval , and is the corresponding point of the latter , we have .
+It follows at once , from the second theorem of S18 , that : If limited total fluctuation , an small neighbourhood of a point belonging to the open interval , the Sturm-Liouville series ( 39 ) converges , and has the sum this point .
+Again , we see from III .
+, S24 , that when exists , exists and is equal to it .
+Hence , from the third theorem of S18 , we see that : At any point of thoe open interval , where , the limit of , exists as jinite ?
+, a sufficient condition that the Sturm-Liouville series ( 39 ) may converge , and therefore have for its sum , is that should Lebesgue espect to in an interval .
+The corollary to this theorem which corresponds to that of S is of interest , since it may be stated without the intervention of the functions and .
+It will be found to read as follows:\mdash ; At any point of the open interval , where exist IN THE THEORY OF INTEGRAL EQUATIONS .
+finite numbers , a suffict condition series may converge , and therefore for its snm , is that should both Lebesgue integrals with respect to in an ) .
+There is no necessity to give the analogues of the theorems of SS19 , 20 , for their statement can present no difficulty .
+The reader should observe , howevel , that , correspondmg to the particular case mentioned in the enunciation of the last theorem of S20 , we have a criterion of uniform convergence which does not involve the functions and .
+It is , as follows:\mdash ; A sufficient condition that the Sturm-Liouville in lying within shosdd exist as Lebesgue each value of in , and that , as diminishes indefinitely , both should erge uniformly to zero in S26 .
+We saw in S23 that the difference converges uniformly to zero in the whole of .
+From the lemma of II .
+, S10 , it follows that the difference between the arithmetic mean of the first partial sums of the series ( 40 ) and the arithmetic mean of the first partial sums of ( 41 ) converges uniformly to zero , as increases indefinitely .
+Recalling that the terms of ( 40 ) are equal to the corresponding terms of , ( 39 ) and applying results proved above ( S21 ) in regard to the convergence of the arithmetic mean of the first partial sums of ( 41 ) , we obtain the theorems:\mdash ; The rithmetic mof the first sums of the Sturm-Liouville 198 DR. J. MERCER : STURM-LIOUVILLE SERiES OF NORMAL FUNCTIONS , BTC .
+converges to , as increases indefinitely , at each point of the open interval where this limit exists a finite number ; moreover , point where this limit has one of the improper values , it diverges to this value and is non-oscillatory .
+If the set of points at which is continuous includes a closed interval lying within , then the arithmetic converges to uniformly in this interval .
+If the functions do not satisfy the boundary condition at , then , as increases indefinitdy , the arithmetic of the Jirst partial sums of the Sturm-Liouville series ( 39 ) converges at to , whenever this limit exists as finite number ; moreover , uhen this limit one of the improper values the rithmetic mean diverges to this and non-oscillatory .
+

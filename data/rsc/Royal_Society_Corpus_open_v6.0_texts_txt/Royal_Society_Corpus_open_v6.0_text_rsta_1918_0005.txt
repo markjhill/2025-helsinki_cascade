@@ -1,0 +1,844 @@
+]\gt ; 115 V. On the Kinetic Theor .
+of .
+Part omposite z : Conduction .
+S. CHAPMAN , .A .
+, , Fellow and Lecturer of by Si ?
+JOSEPH LARMOR , Rcceived May 19 , \mdash ; Read Junc 29 , 1916 .
+CONTENTS .
+Page .
+S1 .
+Analysis of dynamical state of a composite gas . . . .
+118 S The equation of transfer of molecular properties . . . . .
+123 S3 .
+The velocity-distribution function . . . . . .
+128 S4 .
+Completion of the equations of transfer . . . . .
+131 S5 .
+The symbolic solution for the coefficients in . . . . .
+136 S6 .
+The complete solution for Maxwellian molecules .
+, . . . .
+144 S7 .
+The general solution when is very Jarge . . . . .
+146 S8 .
+The general solution for the case of similar molecules . . . . .
+149 S9 .
+First and second approximations in the general case . . . . .
+151 S10 .
+The equation of diffusion . . . . .
+S11 .
+The equation of viscosity . . . . .
+159 S12 .
+The equation of energy . . . . . . .
+160 S13 .
+The coefficient of diffusion . . . . . .
+: . . . . .
+165 S14 .
+The coefficient of thermal diffusion . . . . .
+181 $15 .
+The coefficient of pressure diffusion . . . .
+186 S16 .
+The steady state without diffusion . . . . .
+186 S17 .
+The coefficient of viscosity . . . . .
+189 S18 .
+The coefficient of thermal conduction . . . . .
+190 S19 .
+The specific energy of diffusion . . . . .
+191 S20 .
+Appendix on the inequality of temperature between the component gases . . . . .
+192 INTRODUCTION .
+* THE present memoir was originally intended to deal only with the theory of diffusion , which still remains its chief subject .
+During the course of the work , however , it became clear that the theory of viscosity and thermal conduction could also be incorporated by a slight extension of the analysis .
+This has been done , and the paper now affords an account of all these three : ' ordinary\ldquo ; -path phenomena of a composite gas .
+The treatment of viscosity and conduction is brief , partly because the theory for a composite gas is so much more complex and less important than that for * See Note , p. 197 .
+VOL. CCXVII .
+June , 1917 , 1 .
+16 DR. S. CHAPMAN ON THE KINETIC THEORY OF A COMPOSITE a simple gas .
+* For the same reason the results are not carried to a higher degree of approximation than that attained , in regard to the same phenomena , in an earlier memoir .
+The present method , however , enables the approximation to be carried to any degree of accuracy , which was not formerly possible .
+Also a certain mistake in the previous investigation of the conductivity of a composite gas is indicated and corrected ( cf. S18 ) .
+By its very nature , the problem of diffusion requires the consideration of molecules of two kinds , a complication which is unnecessary in the construction of a theory of viscosity and conduction .
+Perhaps this circumstance largely explains the greater progress which had hitherto been made in the latter theory , as compared with the theory of diffusion .
+Until recently the only accurate expression which had been obtained for the coefficient of diffusion was that deduced by MAXWELL in his second great memoir on the dynamical theory ; it referred exclusively to a gas whose molecules inter-act according to the inverse fifth-power law of force .
+The best available value of for molecules of other kinds was due to LANGEVIN , S but the formula , unlike MAXWELL'S , was only approximate .
+It was determined on the assumption that the distribution of velocities in each group of molecules , relative to the mean velocity of the group , was according to MAXWELL'S well-known law appropriate to a gas in the uniform steady state .
+The amount of error ( if any ) introduced by this assumption was unknown .
+In the present paper the true law of distribution is determined , and an exact expression is obtained for which is applicable to the most general case of a composite monatomic gas .
+It is found on comparison that the error of the above approximate formula is as great as 13 per cent. in extreme cases S13 .
+A particular case of LANGEVIN'S formula , relating to rigid elastic spherical molecules , had previously been deduced by STEFAN in 1871 .
+The theories of and LANGEVIN , and my own earlier theory , all agreed in predicting no change in with the relative proportion of the two sets of molecules .
+Another theory , originated by MEYER , asserted that there old be a lar ge variation in as the proportion of either component varied from to 1 .
+This has been deaIt with in detail in my cent memoir , ' Phil. Trans , vol. 216 , pp. 279-348 , 1915 .
+'Phil .
+Trans , vol. 211 , ) .
+, 1911 .
+MAXWELL , 'Collected Works , ' ii .
+, p. 27 .
+His formuh for is a special case of the general resuIt of this paper .
+S LANGIIVIN , 'Ann .
+de Chimie et de Physique , ' ( 8 ) , , 246 .
+also ENSKOG , 'Phys .
+Zeit .
+The same result was independently discovered by the present vriter , 'Phil .
+Trans vol. 211 , p. 499 ( 1911 ) .
+MAXWELL , ' Collected Works , ' , p. 392 ; , p. 57 , p. 345 .
+STEFAN , ' Wien .
+Sitzb 63 , ( 2 ) , p. 63 , 1871 ; 65 , p. 323 , 1872 .
+BOLTZMANN , } Vein .
+Sitzb 66 , p. 324 , 1872 ; 78 , p. 733 , 1878 ; 86 , p. 63 , 1882 ; 88 , p. 835 , 1883 , also Vorlesungen , ' , p. 96 .
+MEYnR , ' Kinetic Theory of Gases , ' p. 255 ( English ed. ) also GROSS , ' Wied .
+Ann 40 , p. 424 , 1890 .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+117 The experimental data which were determined in to test the point confirmed neither conclusion ; a variation in was observed , but it was so much smaller than that SuggeSted by MEYER'S fl that the of Were numerical agreement with a constant expression than with MEYER'S highly variable result .
+Recently has modified MEYER'S theory by taking into account the tendency of a molecule to persist in its original direction after collision , the imp0rtanCe of WhiCh WaS brought prominenCe by in connection with the elastic-sphere theory of viscosity .
+As a result of this revision MEYER'S theory is brought much more closely into accord with experiment S13 ( , thou the discrepancies still exceed those between the observed values of and a suitable constant mean .
+In S13 ( i ) the observations of relating to the above vari are compared also with the results of the present theory , which affords a formula similar to that of LANGEVIN but multiplied by a correction factor which is a function of the relative proportions of the component gases .
+The agreement with experiment , while not exact , is perhaps as close as the degree of experimental errors , and the uncertainty as to the best molecular model , entitle us to expect .
+The present theory of diffusion is compared also , in two particular cases , with exact results obtained theoretically by other writers .
+These cases are that of a gas formed of two sets of molecules which are identical in their dynamical properties ( as in the problem of the self diffusion of a gas ) , and ( b ) that of a gas in which the molecules of one kind are infinitesimal in size and mass compared with those of the other kind ( as in electronic diffusion in gases ) .
+These problems have been dealt with respectively by PIDDUCK LORENTZS ; the corresponding special forms of the general expressions here deduced are in satisfactory accordance with their results S13 ( .
+Certain other phenomena connected with diffusion are also discussed which do not seem to have been investigated in any detail hitherto .
+In SS10 , 14 , 15 it is shown that diffusion may be produced by a gradient of pressure or temperature independently of the presence of a concentration gradient or of external forces ; in SS14 , 15 the amount of this effect is considered , with numerical illustrations relating to particular pairs of gases .
+rsely , the absence of diffusion in a composite gas in which the temperature is non-uniform ( the pressure being uniform and there being no external forces ) implies the existence of a corresponding variation in the relative concentration of the two gases .
+This latter variation ( cf. S16 ) appears to be so large in amount *KUENEN , ' Supp. No. 8 to the Communications from the Leyden Physical Laboratory , ' Jnnuary , 1913 ; also ' Amsterdam Acad. Proc 16 , p. 1162 , 1914 .
+JEANS , 'Dynamical Theory of Gases ' ed pp. 276 , 292 , 328 .
+PIDDUCK , 'Proc .
+Lond. Math. Soc. ' ( 2 ) , 15 , p. 89 , 1915 .
+S LORENTZ , 'Archives Neerlandaises , '10 , p. 336 , 1905 ; 'Theory of Electrons , ' p. 268 .
+More general results obtained by JEANS , using LoRENTZ'S method , are given in his Dynamical Theory of Gases , ' 2nd ed. , , et seq. Cf .
+also PIDDUCK , , p. 112 .
+as to suggest a doubt whether some compensating influence has not been overlooked in the theory , and it is desirable that the matter should be put to the test of experiment Note .
+In SS12 , 19 , it is shown that diffusion is necessarily accompanied by a transfer of thermal energy , and a new physical constant , the " " specific energy of diffusion is introduced and discussed .
+The method used to determine the velocity-distribution function is similar to that published in my recent memoir on a simple gas ; the details of the work are , of course , more complicated in the present case .
+The formulation of the equations of diffusion and energy for a composite gas , executed in SS 10 and 12 , embodies certain features which seem to be novel .
+We may remark also upon some by-products of the analysis which suggest interesting developments in the field of pure mathematics .
+The comparison of LORENTZ'S solution of the problem of electronic diffusion with my own has led to expressions for and of an altogether new form .
+LORENTZ used BOLTZMANN'S integral equation for the velocity-distribution function , and obtained a solution in finite terms involving ; the solution arrived at in this paper is determined by the use of the aggregate of the equations of transfer ( S2 ) , which is really equivalent to BOLTZMANN'S equation .
+The result is expressed , however , in terms of the quotient of a symmetrical infinite determinant by its principal minor , and formulae of this kind are hence found for ( and also for sin ) .
+The elements of the determinant are expressible simply , in terms of gamma .
+A further study of the subject from the analytical point of view would probably be fruitful in results of interest and importance Note .
+I hope later to apply the present methods to the examination of the problems offered by rarefied gases .
+So far , however , as concerns the mean-free-path phenomena in monatomic gases under normal conditions , the investigation imperfectly attempted in my memoir of 1911 is completed by this and the second paper already referred to Phil. Trans. .
+It is a pleasure here to make grateful acknowledgment of my indebtedness to Sir JOSEPH LARMOR throughout these investigations , which were started under his influence , and would hardly have been carried to this stage but for the inspiration rded by his continued encouragement and interest .
+S 1 .
+OF THE DYNAMICAL STATE OF A COMPOSITE GAS .
+Notation .
+* The gas considered in this paper is one composed of molecules of two kinds , each having the property of spherical symmetry ( or , in brief , each being " " monatomic * In numbering the equations I have adopted the decimal method introduced by PEANO .
+The number to the left of the decimal point is the number of the section , and within any section the numbers to the right , if read as decimals , in numerical order .
+With this method it is possible , by the introduction of a third or even fourth figure , to number equations inserted between others already numbersd , without to alter the references to all succeeding equations .
+MONATOMTC AS : DIFFTTSION , VTSCOSITY , AND THERMAL CONDUCTION .
+119 The density of the gas is supposed to be such that the mean free path of a molecule is laroeb with the distance at which lecules appreciably affect one another 's trajectories : this we express concisely by the gas " " nearly perfect Similar quantities relating to the two groups of molecules will be represented by similar symbols , with distinguishing suffixes 1 , 2 ; it is convenient to adopt the convention that the first gas is that which has the greater molecular mass .
+The molecular masses will be denoted by , while the notation for various other characteristics of the gas at is explained by the following list : number of molecules of the first and second kinds per unit volume .
+the proportion of molecules of each kind at .
+densities of the constituent gases .
+external forces ( in vector notation ) acting on eacb molecule , same forces in Cartesian notation .
+or , mean velocities of the two groups of molecules in vector or Cartesian notation .
+We define further quantities of the same nature , in terms of the above , as follows : , so that , so that .
+Now we have ( 104 ) so that , by and , ( 105 ) .
+Also , in vector notation , we shall write ( 106 ) .
+*I.e .
+, at the point and at time The corresponding component equations , involving or with appropriate suffixes , are similar and wil ] not be written down here .
+By inverting the above equations we obtain the following expressions for the original in terms of the derived quantities:\mdash ; ( 108 ) ( 109 ) ( b ) The Interpretation of the Derived Quantities .
+Corresponding to and , the motion of the gas can be analysed into a steady motion of the composite gas as a whole with velocity , together with ( b ) motion of interdiffusion in which the mean velocities of the two streams are respectively and .
+In this latter motion equal numbers of molecules are transferred per unit time in each direction , the number ( per unit area normal to the direction of the vector ) being , since by ( 110 ) The momentum of the common motion is clearly per unit volume , while that of the motion of interdiffusion is or , by , ; in general this is not zero , owing to the inequality of mass of the molecules , although the diffusing streams convey equal numbers of them in any interval of time .
+This analysis of momentum corresponds to the equation ( 111 ) The equations differ from the others by involving the molecular masses as well as and .
+This resolution of the forces and may be considered as follows : the first terms cf. and , viz. , on and on , represent forces which will impart a common acceleration to each group of molecules ( we may regard this variation as affecting their common velocity of streaming , ) ; the remaining components , on and on , when summed up over the molecules of the corresponding groups , afford equal and opposite total forces .
+In connection with this we may remember that two such interdiffising groups of molecules as we have considered will exert equal and opposite actions on one another , and that equal and opposite forces must be applied to the two groups if their motion of interdiffusion is to be maintained , or modified without imparting any common velocity to them .
+MONATOMIC GAS : DFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+121 As regards , this is useful for the purpose of impalting a symmetrical form to some of our equations ; if denotes a differential operator of any kind with respect to , since we have , by , ( 112 ) ( c ) The " " Peculiar\ldquo ; Motions of the Molecules .
+So far we have been concerned with the mean velocities of the constituents of the gas , without considering the actual motions of individualmolecules .
+We shall denote the velocities of typical molecules of the two kinds by or , when referred to the co-ordinate axes , or , when referred to axes moving with the vel.ocity appropriate to the point and time iu question , by or , .
+Thus ( 113 ) The velocities will be called the " " peculiar\ldquo ; velocities of the molecules .
+We have no means of determining the individual values of for the molecules near , but for a given state of the gas , as specified by its composition , mean motions , pressures , and temperature ( these are expressible in terms of mean values of functions of C ) , there will be a certain frequency law , or function representing the distribution of various values of the velocity among the molecules .
+The determination of this velocity-distribution function is fundamental in the method of this paper .
+It will clearly involve or its components as independent variables , together with certain parameters ( e.g. , pressures or mean velocities ) which are dependent on .
+The mean value of any function of the molecular velocities will be denoted by placing a bar over the expression representing the function .
+Thus , for instance ( cf. 107 ) , ( 114 ) It is convenient at this stage to modify the of our symbols , which have so far represented vector quantities ; henceforward they will denote not the vectors themselves , but their amplitudes .
+These , of course , are essentially positive , scalar quantities .
+Thus The mean energy of peculiar motion per molecule is , and we shall write ( 116 ) where is the " " universal gas constant These equations define and ; we shall call the absolute temperatures of the component gases .
+Accordin to the theorem equipartition of energy , in the uniform steady state of a gas they are equal .
+In the disturbed states which we shall consider , the differences will be small .
+* We further define , the mean hydrostatic pressures of the separate components of the gas , and of the total gas , by the equations ( 117 ) ( 118 ) The last equation also defines and ; the latter will be called the absolute temperature of the composite gas .
+Clearly shall define by the equations ( 1 l82 ) , ( 1183 ) , ( 1184 ) The following equations are inverse to the above:\mdash ; ( 1185 ) , .
+[ In the paper as originally communicated , no was taken of these differe11ces , a preliminary examination having indic th they do not materially affect the theory of diffusion .
+The distinction etween T and has been -introduced at the suggestion of a referee , in order that its influence , if any , 011 the phenomenon of diffusion might be made clenr .
+It will appear that is a small multiple of the rate of of ( or ) with , so that in steady states of the gas it is a small of the second order in , the phenomenon dealt with in S16 is unaffected .
+Throughout the paper , wherever a distinction is made between and and T or wherever ( equation ) appears , this has been inIiroduced on revision ( June , 1916 ) .
+The original form of the equations may be found making the difference zero .
+An appendix has also been added on acconnt of this extension .
+\mdash ; June 2 , 1916 .
+] MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+123 ( d ) Some Convenient mitations of the Problem .
+Our immediate aim is to determine functions , which define the distribution of the peculiar velocities of the molecules , i.e. , which are such that the number of molecules of the group considered ( the appropriate suffix 1 or 2 being added throughout ) , the components of whose velocities lie between and respectively , is per unit volume .
+Besides the independent variables , V , , these functions will also involve such quantities as and their derivatives , all of which are functions of .
+The distribution of the peculiar velocities is , clearly unaffected by the absolute magnitude of the mean velocity ( though the same is not true of the derivatives of ) .
+We may , therefore , legitimately make the simplifyin convention that at the particular point and time under consideration .
+This merely amounts to a particular choice of uniformly moving axes of reference , a choice which the laws of dynamics leave quite unrestricted .
+Our concern being with problems of molecular rather than mass motion , we shall suppose that the acceleration of the gas as a whole is of the first order only , which requires that the resultant force on unit mass of the gas , , shall be small .
+We shall also suppose throughout that the velocity of interdiffusion , and the derivatives , with respect to space and time , of , are all of the first order , at ; consequently , since in this paper we shall neglect second order quantities , products and derivatives of any of the small quantities just mentioned will be omitted from our analysis .
+S2 .
+THE EQUATION 0F TRANSFER 0F MOLECULAR PROPERTIES .
+The Equation of Continuity .
+The general equation of transfer for a function of the velocity components of a molecule of the first kind isT ( 201 ) where denotes the rate of change of at produced by the encounter of the molscules of the first kind with others of the same or the other kind .
+[ And likewiss we are considering unsteady states in which 1916 .
+] Cf .
+Chapter IX .
+of JEANS ' ' Treatise ' also , details reduction and , ' Phil. Trans , vol. 216 , p. 285 .
+VOL. CCXVII.\mdash ; A. If we write , since , and , the equation of transfer reduces to which is the equation of continuity for the first component of the composite gas .
+By adding to this the corresponding equation for the second component , we obtain the equation of continuity for the gas as a whole , in the form or If at the point under consideration the mean velocity of the gas is zero , the last equation may be written ( ) If in the equation of transfer we assign to the value , and omit all terms which in a gas of ordinary density are of the second order , we find that ( 202 ) We have here used the convention that at this particular point and time , so that and are .
+identical , and , except in differential coefficients , can be neglected .
+If we multiply both sides of by , and add the corresponding equation for the second group of molecules , in the case when we obtain the result ( 203 ) MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+125 by .
+In this equation the left-hand side is the rate of change of the momentum per unit volume of the whole gas at which is produced by encounters between the molecules .
+Since , however , an encounter between two molecules leaves their combined momentum unchanged , is zero , and consequently ( 204 ) This and the two similar equations in and are the equations of mean motion of the gas .
+We will now apply to the elimination of from .
+At the same time we shall neglect the difference between and and in products or derivatives , since our equations are to be carried only to the first order of accuracy .
+Then becomes ( 205 ) Thus , if we write the equation and the corresponding equation for the second set of molecules become ( 207 ) ( 208 ) To this order of approximation , therefore , these equations do not involve When , the- equation of transfer takes the form ( cf. S 3 ( C ) of my second paper , .
+cit. ) ( 2.09 ) .
+Now by , where also we have used the notation indicated by ( 211 ) Evidently we have ( 212 ) By substitution from into , we find that ( 213 ) If we divide both sides of this equation by 10 .
+assign the zero value to it becomes ( 214 ) On adding to this the corresponding and equations , the result is ( 215 ) There is a similar equation for the second set of molecules , and by addition of the two we get ( 216 ) -S , the left-hand side being zero , since energy is conserved throughout molecular MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+127 encounters .
+The integration of the last equation gives us the equation of state of the gas , viz. , ( 2 l7 ) constant , or constant .
+We will now return to the general case of ; on neglecting the difference between and and , in derivatives and products , the equation becomes ( 219 ) by .
+The similar equat.ion for the second set of molecules is ( 220 ) From , by transformation of rectangular co-ordinates , or by direct calculation , the equations of transfer in this case may readily be shown to have the form ( 221 ) where .
+( e ) By the addition of the , and equations corresponding to , , and by changing to , we may obtain the following simple equations:\mdash ; ( 2.23 ) S3 .
+THE FUNCTION .
+( a ) The Form of the Function .
+In the uniform undisturbed state of a gas , in which are constant , while are zero , the velocity-distribution functions assume MAXWELL'S well-known form ( 301 ) ' The suffix appended to and is to indicate the special state to which these equations refer .
+They clearly satisfy the necessary conditions , and similar equations with suffix 2 .
+In the general slightly disturbed state considered in this paper , will differ from by an amount of the first order .
+From the equations of transfer ( S2 ) it may be deduced* that may be expressed as follows:\mdash ; - The constants , and the functions , , , remain to be determined .
+The latter involve only through the occurrence * The argument is given in my second paper , , 6 , and will not be repeated here .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+129 of and ( but not their derivatives ) as factors .
+We suppose them to be capable of expansion in power series as follows* Note ( 305 ) ( 307 ) ( 3071 ) The dash after the sign of summation in is used to signify that the factor in the denominator of the numerical coefficient is to be omitted in the first term .
+The choice of the notation and for the suffixes has a convenience which will become apparent later ; we may remark , in passing , that for this purpose a distinction must be maintained between and In and the constants can be chosen arbitrarily , but when this has been done , the remaining constants all become perfectly definite .
+( b ) Relations between the Coefficients .
+The velocity-distribution functions must satisfy the three conditions expressed by the equations ( with appropriate suffixes 1 or 2 throughout ) , , and throughout the remainder of the paper , where and appear without any suffix , thoy are to be read as and \mdash ; June 2 , 1916 .
+] These yield the equations ( 3101 ) ( 3102 ) ( 3103 ) ( 312 ) In each of the pairs we will multiply the first equation by and the second by respectively , and add .
+We may separately equate the coefficients of and ( in the second resulting equation ) to zero , since these quantities are quite independent of one another , and of their coefficients .
+We thus obtain the conditions or , by , , ( 313 ) ( 314 ) where also we have introduced a convenient notation for the separate sums involved .
+Expressed in terms of this are equivalent to ( 315 ) , ( 3151 ) [ Throughout the remainder of the paper we shall neglect , i. e. , we shall practically assume that the ratio of mixture is not varying with respect to time .
+The values MONATOMIC GAS : DIFFUSION , VISCOSITy , AND THERMAL CONDUCTION .
+131 of determined in the succeeding sections will , however , hold good also in the general case ; the determination of the 's will be found.in the Appendix .
+All the corrections to are of the first order , and hence are separately deducible ; the complete value is obtained by adding to the series in , calculated in the body of the paper , the series in , determined in the Appendix.\mdash ; June 2 , 191 ] .
+COMPLETION OF THE EQUATIONS OF The Values of We may now complete the equations of transfer by the insertion of the values of , calculated in terms of the constants in the expressions for given in S3 .
+The calculation of is a lengthy and elaborate operation which will not be described here , since a full account of it is to be found in my second memoir Phil. Trans .
+It appears that only those terms in which are of odd degree in contribute to the resulting expression for , and only the even terms , similarly , contribute to .
+The following results will be quoted forthwith:\mdash ; ( 401 ) ( 402 ) ( 403 ) ( b ) Explanation of the Notation .
+In the above equations and may take all positive integral values , including zero .
+We shall presently alter our notation so as to consider also negative integral values , but in the following definitions of , the positive numerical values of and are in every case to be used on the right-hand side : ( 405 ) In the case of , the factor is to be omitted from the denominator when ; when , the.value of in which form occurs in , , is to be taken VOL. CCXVII .
+as .
+The meaning of the symbols will be understood from the following definition , where is a positive integer and any number whatsoever : ( 406 ) , We shall have frequent occasion to use this factorial symbol .
+The following are the expressions found for ( rs ) and ( rs ) in the various cases :\mdash ; ( 407 ) ' ( 409 ) ' ( 410 ) ' MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+133 ( 411 ) ( 412 ) There are also six other equations , similar to the above , except that the suffixes 1 and 2 are interchanged ; these need not be written down here .
+The limits of integration of and throughout the above expressions are and The upper limits of the summations are in each case indicated by two numbers , which are not necessarily integers ; the upper limit is to be taken equal to the greatest integer which does not exceed either of these two numbers .
+The suffixes 1212 or 2112 on the right-hand of the main square brackets of , , , are there placed only for convenience in printing : they should really be appended to each of the symbols contained within the brackets .
+These symbols are defined by the following equations:\mdash ; , , where is a polynomial in powers of defined thus : ( 414 ) When is zero .
+Also , have the following values:\mdash ; ( 415 ) , , so that ( 416 ) Finally we must define the functions , , ; these are the only quantities in the expressions for and which depend on the law of interaction between molecules .
+If two molecules encounter one another , the direction of their relative velocity will be changed through a certain angle in a plane parallel to the initial relative velocity and to the perpendicular ( of length ) between their initial and final lines of undisturbed rectilinear motion ; denoting the magnitude of the initial or final relative velocity by will be a function of and , the nature of the function being determined by the mode of inter-action between molecules in proximity to one another .
+Then we have ( 417 ) ( 4 18 ) ( 4 19 ) where denotes , as usual , the Legendre function of of order .
+By changing the suffix 1 or 2 hout into 2 respectively , we obtain the corresponding expressions for or , and so on ; mere interchange of the suffixes does not affect the functions .
+By means of the recurrence formula for the Legendre functions , viz. , we may express and in terms of the function .
+Thus for we have ( 421 ) .
+In this way we may prove that ( 422 ) , , .
+From the symmetry , with respect to and , of the expressions on the right hand of equations , , , it is clear that ( 423 ) , , , .
+( c ) Special Values of and .
+To facilitate the exposition of subsequent parts of the work it is convenient at this stage to write down certain special cases of the equations ( 407)-(412 ) , after executing the integrations with respect to and .
+Owing to the generality of the functions MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+135 depending functional relation between the integration with respect to can only be made formally , however , and for this purpose we shall use the notation ( 424 ) The suffix 11 , 12 , or 22 is to be appended to to correspond with the suffix of on the right .
+The notation is chosen so as to make equal to when this is independent of , as in the case of molecules which obey MAXWELL'S fifth-power law .
+* For small values of and it is convenient to simplify our formulae by writing also ( 425 ) In terms of the above notation we may now give the following results:\mdash ; ' - ( 4 33 ) , ( 434 ) *Cf .
+' Phil. Trans , vol. 216 , S9 ( C ) , p. 323 .
+It may readily deduced from the above equations that ( 435 ) , , ( 436 ) , .
+Also , in the case of Maxwellian molecules , for which and ( whatever the value of t ) we shall have ( 437 ) , ( 438 ) .
+S5 .
+THE SYMBOLIC SOLUTION THE COEFFICIENTS 1N .
+( a ) The Linear for We now refer back to the two corresponding sets of equations and .
+For the two members of each pair of corresponding equations the lefthand side is the same , so that we may equate the -hand sides .
+Also , as regards the first two pairs , we may separately equate the parts which contain as factors the independent quantities and Thus we have ( 501 ) to , ( 503 ) , ( 504 ) , ( 505 ) , ( 5.06 ) , ( 507 ) .
+By virtue of and the equations and are identical when , while and then assume the same special form : we may MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+187 recall that in S4 ( b ) the value of was defined to be when ( or when is also zero ) .
+Moreover , from and , it is clear that in the ratio of the factors of and , or of and has the constant value Consequently , the above equations do not enable us to determine the separate values of and , or and , but only of and , which form single unknowns .
+When these and all the other values of and have been determined , the separate coefficients may be deduced with the aid of and .
+In order to simplify the notation of our formal solutions for the coefficients it is convenient to re-write in the form including , excluding , range from .
+In obtaining , from we have eliminated and by means of , and in order to preserve symmetry we ve subtracted or times the equation from or respectively .
+The new symbols are defined as follows:\mdash ; , ( 513 ) , , ( 515 ) , ( 516 ) , ( 517 ) 138 ' DR S. CHAPMAN ON THE KINETIC THEORY OF A COMPOSITE ( 518 ) ( 519 ) ( 520 ) On the right-hand sides of the above equations the positive numerical values of and are to be used ( whatever their signs on the left-hand side ) except when they are suffixed to or ( b ) The Formal Solution of the Equations for If we may solve the linear equations , each containing an infinite numb .
+of unknowns , as if they were finite , we arrive at the results excluding , ( 5 21 ) excluding , including .
+In these equations , , denote the determinants which have as their general element ; in the two latter , range from to , there being also a central row and a central column in which are not enumerated by or .
+In the values of and are not distinct from one another , so that this also has a central column and central row has not got either of these , since correspond to different rows or columns .
+The determinant denotes that obtained from the corresponding by replacing all the elements of the column by unity or , in the case only of the central element of the column of , by zero .
+It may be remarked that all these determinants and are infinite in both directions , covering the whole plane .
+In two quadrants both positive both negative ) the determinants possess symmetry ( cf. ( 423 ) ) .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+139 In order to make this investigation complete , from a purely mathematical standpoint , it would clearly be necessary to supplement the above formal solution by a discussion of the questions of convergence raised in the course of our analysis .
+The complexity of the problem , however , and the rudimentary condition of the theory of infinite determinants , may well absolve the author from an attempt at such a task , for the present .
+From the standpoint of mathematical physics there is , fortunately , sufficient numerical evidence ( cf. S , and ' Phil. Trans , vol. 216 , p. 380 , Table III .
+) to afford reasonable assurance that our expressions converge satisfactorily ; this is especially so in regard to the formulae actually used in the applications of , i.e. , .
+( c ) On Certain Combinations of the Coefficients For the purpose of the theory of diffusion , viscosity , and thermal conduction in composite gases , we require only certain combinations of , and never their individual values .
+The following expressions comprise all those we shall find necessary in this paper ; in connection with them we may refer back to , , and the formulae , for ( 522 ) , ( 523 ) , ( 525 ) We therefore desire to obtain concise expressions for the following quantities:\mdash ; ( 5 26 ) , ( 527 ) , .
+The denominators in the expressions for ars independent of .
+Hence our problem consists in the combination of the eterminants for an infinite number of values of VOL. CCXVJI .
+( d ) Difference-Transformations of Infinite It is convenient at this stage to describe certain operations , by the application of which we are enabled to preserve the symmetry and increase the convenience of our determinantal formulae .
+These operations will be termed " " continued differencing\ldquo ; by rows , by columns , or by rows and columns , and we shall denote the corresponding symbolic operators by , or respectively .
+We shall first define them in relation to infinite determinants which cover only a quadrant of the infinite plane , and afterwards in relation to the more complicated type which occurs in this paper .
+The operation of continued differencing by rows or by columns , applied to the determinant , where , transforms it into the determinant or respectively , where ( 528 ) We may effect the operation as follows : from each element of row we subtract the corresponding element of row , for every row from onwards : this done , we repeat the operation on the transformed determinant , except that we now begin at : and this process is continued without end , beginning each time with the row next after the initial row on the previous occasion .
+It may readily be seen that the result is as we have already stated , and that the value of the determinant is unaffected by the operation .
+Continued differencing by columns is strictly analogous , and need not be separately described .
+Continued differencing by rows and columns is performed by applying the two separate operations successively , the order being immaterial .
+Without alteration in value , the determinant is thus changed in form from to , where ( 529 ) In the case of determinants which are infinite in both directions , the operation of continued differencing by rows and columns is effected by applying the process described above to each separate quadrant ; thus the differencing by rows is performed by differencing outwards from the centre row in both directions ( above and below ) , and likewise , by columns , both to right and left of the centre column .
+Neither of these partial operations , nor the complete process , alters the value of the determinant , a fact which we may express by the equation ( 530 ) , where the notation is similar to that used in the former case .
+There , however , and consequently also , were necessarily positive or zero , while our convenient notation for determinants of the present type involves also negative values of and MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+141 In order to make the former definitions of applicable to this case , we must adopt certain conventions as to the interpretation of , , to allow for negative quantities .
+These conventions are ( a ) that in the numerical values of and and are to be used in all cases : and ( b ) that and retain the same signs as and respectively even when .
+The latter rule preserves , in relation to , the distinction between and which in certain cases we desire to maintain .
+( e ) A Symmetrical Expression for .
+In discussing it is convement to change our notation for writing it in the form ) to denote the determinant whose element is .
+If we define by the equations , we make ) identical with as defined in S5 ( b ) , and therefore , by , ' ( 532 ) .
+By applying the operation of continued differencing by rows to ) we transform it into , where is defined by ( putting , and making no distinction between and .
+the third equation of ) .
+Now it is readily evident that , , so that , and consequently , also , , is equal to , this being defined as identical with except that in the column the central element is unity , while all the others are zero .
+Hence is clearly equal to the minor of the element of the central row in .
+If we replace the elements of this central row by or , and denote the result by , we may evidently write ( 534 ) by ( 530 ) .
+We next apply to and the operation of continued differencing by columns , so as to transform them into and .
+We make one slight difference of rule here , as compared with the former differencing by rows : that is , in we shall preserve the distinction between and , writing * The signs of are the same , of course , as those of respectively .
+for the elements of the central column in or , and defining as equal to This means , in effect , that the elements of the central column are to be reversed in , for the purpose of differencing on the left in Now , by definition , differs from only in the central row , for which , , and ako so that if Hence , when transformed into , it differs from only in the central row , all the elements of which are zero except the central one , which is unity .
+In other words , is the principal minor of , and the expression for , ( 535 ) been reduced to a concise symmetrical form .
+( f ) A Symmetrical Expression for It appears from that where is the same as , except that all the elements of the central column are unity save the central one , which is zero .
+If we transform and by the operations described in S5 ( d ) , differencing by columns with ( for the right ) and ( for the left ) as starting points , and similarly for the rows , we leave the central column ( not enumerated by ) untouched as regards the first part of the operation , and the central row untouched by the second part .
+Thus we obtain the result ( 536 ) where is the determinant whose general element is ranging from to ) , and which has a central column , a central row , and as the central element .
+From this determinant we obtain by substituting zero for all the elements of the central column except those next to the centre on either slde which are replaced by unity .
+* We may note that the elements of the central column are the coefficients oi in , while the eloments reversed in sign are the coefficients of MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+14.3 ( g ) Symmetrical Expressions for , , As in S5 ( e ) we may prove that where is identical with except in the central row , the elements of which are equal to or , the positive numerical value of being taken in both cases .
+On applying the operation of continued differencing by columrls we obtain the result ( 537 ) where differs from only in the central row , all the elements of which are zero save those on either side the centre and , which are respectively equal to and .
+This follows from the fact that .
+Again , from , we may prove in the usual way that where and are the same , except that in the column of all the elements are zero save those on either side the centre which are unity .
+If in and we add half of each of the rows to the centre row , and subtract this new centre row from the rows becomes transformed into , where , except when , while .
+Similarly , becomes transformed into , identical with , except that in the column all the elements are zero save the central one , which is unity .
+Consequently we may write where is the same as except that in the central row all the elements on the right of the centre are equal to , all those to the left are equal to while the central element is zero .
+We now " " difference\ldquo ; by columns , with the result ( 539 ) The general element of is or , which are the same except when ; the general elements of these two rows are , the general elements of the central row and column respectively are and , while the central element is .
+From this we obtain if we replace all the elements of the central row by zero , except the two on either side the centre , which are and .
+Finally , we may prove that ( 540 ) where is defined as usual ranging from , while in all the elements are equal to the corresponding elements of except in the two central rows .
+In the row all the elements are zero except the central two , which are and .
+In the row the general element is S6 .
+THE COMPLETE SOLUTION F0R MAXWELLIAN MOLECULES .
+In the case of Maxwellian molecules , i. e. , molecules which are point .
+centres of force varying inversely as the fifth power of the distance , the solution reduces to finite terms .
+This arises from the fact ( cf. S9 ( C ) , ' Phil. Trans , vol. 216 , p. 323 ) that for such a law of inter-action the functions ( 1 ) , are independent of , with the result that for all values of we have and consequently , ( 602 ) From and , , with the aid of , we deduce that , independently of the value of or .
+From and we consequently have ( 604 ) , Again , from and , we conclude that for all values of from to .
+Hence , by , or more simply from \mdash ; since in all the elements of the central column are zero , instead of all except one , the central element , as in \mdash ; we have ( 605 ) MONATOMIC GAS : DIFFUSION , VISCOSIK , AND THERMAL CONDUCTION .
+145 Also in and we may in this case omit the central row and column , all the elements of which are zero except the central element , which is the same in each ( b ) ; we suppose that this is done , so that and become determinants which possess no single central row or column , just as with .
+We will consider the two central columns of and corresponding to .
+We have , by , , and , ( 607 ) , , , All these quantities , it be noticed , are independent of ; thus we see that in and the elements of the two centre columns take only four distinct values , all the elements of these columns which are in the same quadrant having the same value .
+By using the method of differencing by rows it is easy to prove , as a consequence of the property of and which we have just established , that , , while , ( 615 ) ( 616 ) Consequently , in the case of Maxwellian molecules , and each reduce to their first terms , while reduces to two terms only , the solution being quite finite .
+S7 .
+THE GENERAL SOLUTION WHEN : 1s VERY LARGE .
+When the mass of the heavier molecules is very large compared with that of the lighter molecules , so that may be supposed zero , an exact general solution may be obtained in simple terms .
+This was first proved by LORENTZ , connection with the theory of electrons .
+His method is much simpler than that of this paper , from which however , his results may , with little difficulty , be deduced as a very special case .
+The deduction will be described in some detail , since the knowledge of the exact solution throws valuable light on the convergence of our successive approximations ; it also leads to an expression for .
+which is of interest , as being in which ] , so far as my knowledge goes , is new .
+We pose that the effect of collisions between the molecules is negligible , so may be omitted from our calculations ; if the molecules are rigid elastic spheres of radii , this amounts to the neglect of ( cf. S9 ( f ) ) or , in general , to It may readily be seen from , that if the value of , with whatever suffix , is zero except when , and that ( 701 ) We also require to the first order in , as follows:\mdash ; ( 702 ) From these , by means of ( 407)-(412 ) we deduce the following expressions for .
+retaining only the terms of highest order:\mdash ; ( 7.03 ) , ( 704 ) ( 7.05 ) chives Necrlandaises , ' 10 , p. 336 , 1905 ; 'Theory of Electrons , ' p. 268 .
+A more geIlcral form of theory is given in JEANS ' ' Dynamical Theory of Gases , ' 2nd ed. , $314 , et seq. 1 indcbted to .
+JEANS for pointing out the interest of a detailed comparison of theory with this special case of my , and in consequence I have ewritten S7 with greater fuilness than first .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+147 ( 706 ) , ( 707 ) , ( 708 ) , ( 710 ) , ( 0 ) .
+For the particular values of and there dealt with , the expressions reduce to the above in the present special case , as may readily be verified .
+We now substitute from in , retaining only the terms of highest order , and neglecting quantities of order ' : ; the result is as follows:\mdash ; ( 711 ) , ( 7.12 ) , , ( 714 ) , , ( 715 ) , , ( 716 ) , , .
+( 717 ) , , , ( 7.18 ) , ( 719 ) , .
+Since , by , , is independent of , and is independent of , it is readily evident that in the alternate quadrants of the determinants and all the elements vanish .
+Hence each becomes VOL. CCXVII.\mdash ; A. equal to the product of the two remaining quadrants ; in the positive quadrant the determinants are the same .
+Consequently in this case becomes ( 720 ) where is the determinant whose general element is ( 721 ) and is its principal minor .
+Similarly , it follows from and that can be likewise expressed as the quotient by an infinite determinant ( covering only a quadrant of the infinite plane ) of its second minor , as follows:\mdash ; ( 722 ) Here is the determinant whose general element .
+is given by ( 723 ) ( 724 ) Thus it is the same as the determinant of except that the row and column are divided throughout by .
+The determinant is the second minor of , i.e. , the minor of the next element to the centre in the first row or column .
+Again , from , ws may prove that ( 725 ) where is the second minor of just as is of .
+It is easy to see that* ( 726 ) Likewise , from , we have ( 727 ) .
+the footnote on ting tha is , quite generally , mere multiple of MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+149 where is the determinant which is identical with except in its first two rows ( for which cf. ) , while is the minor of the second element in the first row of S8 .
+THE GENERAL SOLUTION F0R THE CASE 0F SIMILAR MOLECULES .
+Another instructive and specially simple particular case is that of a gas composed of two sets of molecules whose mechanical properties\mdash ; mass and mode of inter-action during encounter\mdash ; are identical .
+In this case all the symbols which we have distinguished by the suffixes 1 or 2 , to indicate reference to one or other molecular group , now have the same value for either suffix , with the exception of or which denote the numbers or proportions of the two molecular groups .
+Moreover ( cf. , or , for a simpler and more general explanation , ' Phil. Trans , vol. 216 , S7 ( H ) , p. 309 ) , we have ( 801 ) , , , ( 804 ) , where and are defined by and .
+By means of these relations we may reduce the expressions for and to a much simpler form .
+Our operations may be performed on the actual determinants which express the general solution , but they could , of course , be equally well described as transformations of the general equations .
+First considering , we add to the column on the right the corresponding column on the left of the centre ; the new element on the right is now given by the equations ( 805 ) , We next add times the row to the row ; the elements of the negative rows thus acquire the following values:\mdash ; ( 807 ) , .
+These transformations do not alter the value of , nor of when applied to this determinant , which continues to be identical with the principal minor of in its new form .
+Since in each of these determinants the elements of one entire quadrant are all zero , they may be expressed as the product of the two simply infinite determinants formed by the quadrants and .
+The former quadrant , however , is the same for and , so that may be written ( after a little reduction* ) in the form ( 8U9 ) where is the principal minor of , the general elements of which is given by the equations ( 810 ) so that ( 811 ) Here , since , the equation takes the special form ( 812 ) whence it is clear that , and consequently also , is independent of the ratio occur only form .
+It may readily be verified that a corresponding calculation in the case of leads to the result ( 813 ) In the same way we may determine the particular forms assumed by , , and in this special case .
+This reduction chiefly consists in cancelling out factors common to all the of corresponding rows of and MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+151 S9 .
+EYRST AND SECOND APPROXIMATIONS 1N GENERAL CASE .
+( a ) General Remarks .
+In the general case there are no such simplifications as have been described in bS7-9 , and for practical numerical purposes we have to be content with successive approxi- mations to the complete solution .
+The approximate formulae become increasingly complicated with each successive step , however , so that it is fortunate that a first or second approximation generally gives a close approach to accuracy .
+In the theory of viscosity and conduction in a simple gas Trans it was found that a first approximation gave a result not more thaIl 2 or 3 per cent. too small , while the error after a second approximation was negligible .
+In the present theory of a composite gas the error of the first approximation may be much larger ( up to 13 per cent. ) in extreme cases where the masses , densities , or diameters of the two sets of molecules differ widely ( cf. S7 ) .
+Such a case is worked out to a fifth approximation in S13 , and as this is one in which an exact solution is possible by another method , the results there obtained throw much light on the general character of the convergence of our analysis .
+It would seem that ( as in the previous memoir just cited ) the successive approximations form a monatomic sequence , the first and second members of which give a good indication of the accurate limiting value .
+If the difference between these two members is about 2 per cent. , the additional correction due to all further approximations is about per cent. , while if the difference is so much per cent. , the further correction is about 4 per cent. , the additional correction being in an increasing ratio to the first difference as the value of the latter rises .
+In this paper we shall not go beyond a first approximation in the general case , except in regard to , where we shall stop at the second approximation .
+( b ) First to If in our set of equations we neglect all save the central , and consider only the central term of that , we get the equation ( 901 ) , or By and we have ( 902 ) It is convenient to choose ( which is quite arbitrary as yet ) so as to make so that and so that the equation for the first approximation to becomes ( with this value of ( 903 ) ( c ) Second Approximation to We may conveniently obtain our second approximation by means of , taking the three rows and columns of and which contain in the centre .
+From it is easy to see that the elements have the following values ( when ( 904 ) ( 905 ) ( 906 ) ( 907 ) Consequently , the third-order determinant for is given by ( 9.08 ) and its principal minor by ( 9081 ) .
+It is easy to prove that , where ( 909 ) ( 910 ) ( 911 ) MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+153 Also ( 912 ) , where , Consequently , if we write ( 914 ) we have , as our second approximation to by , ( 915 ) We may note that ( 9 16 ) where ( 9161 ) ( 9162 ) The determinant of is , to the same order of approximation as for in ( 9.08 ) , ( 9164 ) where ( 917 ) .
+Hence we have , as a first approximation , ( 918 ) ( d ) First Approximation to and .
+In this case , owing to the fact that the central element in the numerator determinants of and is zero , we have to deal with the third order determinant in order to obtain a first approximation .
+From it is easy to see that may be obtained from , each being limited to the three central rows and columns , if we replace by , and divide the top and bottom rows respectively by and .
+Consequently the third order determinant obtained from is equal to .
+The value of is similarly ( cf. S5 ( f ) for the definition of this determinant ) , ( 919 ) 1 by .
+Hence , by , we have ( 920 ) by ( 918 ) .
+Again , the determinant defined in S5 ( g ) has the form ( 921 ) *This last equation , here proved true only by comparing the first approximations to and , may easily be shown to be strictly accur.ate , by comparing the general expressions for these quantities .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+155 where and are given by , and by ( 922 ) Consequently , by , to this order of approximation we have ( 923 ) ( e ) The First Approximation to .
+The two central terms of the two central equations of type are ( 924 ) ( 925 ) which lead to the result ( equivalent to that obtained as a first approximation from ) , ( 926 ) where , ( 929 ) , ( 930 ) A second approximation would replace the right-han .
+factor in , by the quotient of one quartic homogeneous polynomial in by another , and similarly each further approximation would increase the degree of both numerator and denominator by 2 .
+( f ) Values of for Particular Molecular Jfodels .
+In connection with the above approximate formulae , and their subsequent applications , it is convenient here to write down the values taken by and the other constants , when certain particular characteristics are attributed to the moleculea VOL. CCXVII . .
+Z. When the molecules are regarded as rigid elastic spheres of radii and , it may readily be shown Phil. that ( 931 ) ( 932 ) When the molecules are poin centres of force proportional to the inverse power of the distance , the force at unit distance being , it may be shown* that ( 933 ) , where ( 934 ) .
+a and ( 935 ) being the root of the following equation in : ( 936 ) where Also ( 939 ) where are the force constants appropriate to a pair of molecules of the first or second kind respectively ; we here assume that the law of variation of force with distance is the same whether the molecules are like or unlike\mdash ; if this be not so , must *Cf .
+' Phil. Trans , vol. 216 , S9 , p. 320 , or ' ' Dynamical Theory of Gases ( 2nd edit $ 305 et seq. I have adopted the notation of the abovo equations in order to facilitate comparison with the corresponding equations in JEANS ' treatise .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+157 also have suffixes 11 , 12 , or 22 , and the formulae will need to be modified in a manner sufficiently obvious .
+When , i.e. , when the molecules are Maxwellian , it is clear that ( 940 ) ( 941 ) S10 .
+THE EQUATION 0F DIFFUSION .
+( a ) Definitions of the Various Coefficients of Diffusion .
+In our analysis of molecular motions ( S1 ) the rate of inter-diffusion was expressed in terms of , which is defined by the equations .
+Further , by and , we have , as the equation of diffusion , Hence it appears that the agents effective in causing diffusion are ( taking the terms of this equation in order ) a concentration-gradient or variation in the relative proportions of the two component gases , external forces of unequal amounts per unit mass of the two gases , and variations in the total pressure or the temperature of the composite gas .
+When the pressure and temperature are uniform , and the external forces are such as to make zero , diffusion can take place only if there is a variation in the relative concentration of the component gases .
+In this case we may compare which now has the special form ( 1003 ) with the ordinary equation of diffusion where is the coefficient of diffusion .
+By comparison we have When the pressure , temperature , and composition of the gas are uniform , a steady motion of diffusion may be produced by equal and opposite forces per unit volume on the two components .
+This win be termed forced diffusion , and we define the coefficient of forced diffusion by the equation so that , by comparison with , ( 1007 ) From it is clear that diffusion will occur also when the relative proportion of the two gaseous components is uniform , and in the absence of external forces such as might produce diffision , provided that the pressure or temperature varies .
+If we define coefficients of thermal diffusion and of pressure diffusion by the equation we have , by comparison with ( 1009 ) ( b ) The Equation of Diffusion .
+If we now substitute the various coefficients of diffusion in the equation of diffusion , this becomes In later sections , when we consider in detail the values of the four coefficients of diffusion , we shall see that they are all positive ( the molecules 1 being the heavier\mdash ; cf. S1 Hence from we deduce that the direction of diffusion of the heavier component of a gas is ( a ) opposite to the direction of increasing concentration ( b ) in the direction of the diffusion-component of the external force ( c ) in the direction of increasing mean pressure and ( d ) opposite to the direction of increasing temperature .
+* This is fairly evident as regards ( a ) and ( b ) .
+In case , the sign of is the same as that of ( cf. being always positive ) , which is a multiple of ; physical reason is also not difficult to grasp\mdash ; under the influence of a difference of pressure both components will tend to flow in the direction of diminishing pressure , so as to render the pressure uniform .
+The lighter molecules will travel *This statement is modified , with regard to , in Note , p. 197 .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+159 faster than the heavier , however , so that relative to the mean motion the heavier gas will be diffusing in the direction of increasing pressure .
+Such a process must go on , to some extent , during the passage of sound-waves in air or any mixed gas , and will influence the propagation of the disturbance to a degree which is probably comparable with that of the effects due to viscosity and thermal conduction .
+The effects of these latter have been examined by STOKES , KIRCHHOFF , and RAYLEIGH .
+* It ' is rather more difficult to perceive , either analytically or physicaly , that must be positive if the molecules 1 are the heavier Note .
+A discussion of this coefficient will be found in S14 .
+If in we assign to the value zero , we get the equation of condition for a state without diffusion .
+Some special cases of this equation will be considered in S16 , after the relative magnitudes of the various coefficients of diffusion have been determined .
+S11 .
+THE EQUATION 0F VISCOSITY .
+The various pressure components , et cetera , for the composite gas are given by the following and similar equations:\mdash ; A reference to or to our expressions for in S3 hence enables us to deduce that , ( 1103 ) , may compare these with the equations of pressure of a gas whose coefficient of viscosity is ( cf. and for the values of and ) ( 1104 ) It thus becomes evident that the composite gas behaves like a viscous fluid whose coefficient of given by .
+*STOKE ' Cambridge Transactions , ' 8 , p. 287 , 1845 ; KIRCHHOFF , ' Pogg .
+Ann 134 , p. 177 , 1868 ; RAYLEIGII , ' Phil. Trans 175 , p. 188$ , Theory of Sound , ' II .
+, S12 .
+THE EQUATION OF ENERGY .
+( a ) The Deduction of the In order to obtain the equation of energy we return to the consideration of the equation of transfer .
+Having determined the form of the velocity distribution function correct to the first order of small quantities , we can now make the equations of transfer accurate so far as the second order , and this is necessary in connection with the equation of energy .
+Also we need no longer suppose that the mean motion of the gas at the point considered is zero .
+We add to the corresponding equat.ion for the molecuJes of the second kind , with the result .
+In this equation we substitute in turn , and thus obtaining the equations of density , momentum , and energy .
+Since all three of these quantities are conserved unchanged during the molecular encounters , we have in each case .
+The first equation takes the form where we have made use of the notation of S1 .
+We will denote the operator by , commonly known as the " " mobile operator\ldquo ; ; if is any function of denotes the rate of change , with respect to time , if the value of at a point which moves with the mean velocity of the gas .
+Then the equation of continuity may also be written in the form ( 1203 ) The second equation , the equation of momentum , may be written as ( 12.04 ) MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+161 or ( cf. S1 and ) as .
+In deducing the third equation , the equation of energy , it is convenient , first of all , to write out the following equations giving the appropriate special values of the various quantities which occur in , .
+On substitution of these values in , this becomes This equation can be simplified by eliminating thus from we deduce that by means of which we may transform into In this equation we substitute the values of from , et cetera .
+Also we divide throughout by , the mechanical equivalent of heat , and replace by , the specific heat of the gas at constant volume .
+* After a little reduction we obtain the equation of energy in the following form : .
+( b ) The of the Equation of Energy .
+We will now consider significance of the various terms in the equation of energy .
+The terms on the right depend on diffusion , viscosity , and thermal conduction ( as will be made clearer later ) .
+If we neglect the small changes of energy produced by these means , as a ffist approximation may be written ( 1213 ) where we have omitted the right-hand side of , and divided the left hand by *The specific heat of a simple gas at constant volume is , if is the molecular mass ( cf. JEANS ' ' Dynamical Theory of Gasos , ' 2nd edit .
+, S261 , ( 512 ) ) .
+Hence for a composite gas we havo and consequently MONATOMIC GAS : DIFFUSION , VISCOSITY , ) THERMAL CONDUCTION .
+163 By the equation of continuity , the last equation is equivalent to ( 1214 ) or to ( 1215 ) Since we are neglecting diffusion , is invariable , and expresses the adiabatic law of expansion of a monatomic gas as a given element is followed throughout its motion , viz. , Thus may be regarded as giving the correction to this law owing to diffusion , viscosity , and conduction .
+The left-hand side represents the net rate of increase of energy of molecular agitation , being the increase corresponding to the risin temperature after allowing for the change of heat energy produced by adiabatic expansion or compression .
+The right-hand side indicates that this is due to the following causes:\mdash ; We are considering the fluid contained in a volume element which moves with the mean motion of the fluid ; but in addition to this motion there is one of interdiffusion within the element , there being a stream of molecules per unit time per unit volume in opposite directions .
+The -components of the effective forces on each of these molecules are and respectively , the second term depending on being present , since we are throughout concerned with the energy relative to the mean motion .
+The work done on the fluid by these forces is expressed , in thermal units , by the first right-hand term of .
+Owing to the motion of diffusion there will be an increase in the number of molecules and an equal decrease in the number of molecules , at the rate of per unit time per unit volume .
+The mean energy of peculiar motion is the same for molecules and , so that this change affects only the energy of mean motion , which is for a molecule , and for a molecule .
+The increase of energy due to this cause is represented by the second right-hand term of .
+( y ) The third term gives the heat generated by the viscous forces acting in the gas , bemg , fact , twice the " " dissipation function " " of the viscous motion .
+* *Cf .
+LAMB , ' Hydrodynamics , ' p. 518 .
+VOL. CCXVII .
+\mdash ; A. 2 The fourth term represents the increase of heat which ordinary physics regards as due to conduction , together with a term due to diffusion which has not , so far as I know , been hitherto recognised in either ordinary physics or the kinetic theory .
+These two terms are discussed in detail in the next section of this chapter .
+( c ) Conduction of Heat and the Thermal filux of Diffusion .
+If there is no mass motion the equation of energy takes the form ( 1217 ) , and in the last term we will now substitute from , with the result ( l218 ) It is convenient to eliminate by means of , and on so doing becomes transformed into ( 1219 ) If we suppose that no diffusion is taking place , so that are all zero , and compare with FOIJRIER'S equation of conduction of heat in a gas at rest , i.e. , with , we obtain the following equation for the coefficient of thermal conduction From we perceive also that the motion of inter-diflusion is accompanied by a flow of heat , which is proportional to the velocity of diffusion , and also depends on the temperature and the molecular densities , but is independent of the other characteristics of the gas .
+We shall term this process the thermal flux of diffusion ; MONATOMIC GAS : DFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+165 in the absence of thermal conduction and of external forces we shall have as the equation of energy , where is defined by the equation ( 1223 ) , and is termed the specific energy of diffusion .
+We now proceed to consider in detail the various coefficients of sion , conduction , viscosity , and specific energy of diffusion for which we have obtained general formulae .
+S13 .
+THE COEFFICIENT 0F DIFFUSION The General Formula .
+The general formula for the coefficient of diffusion is obtainable in terms of the molecular data by substitution in of the value of given by , thus So far as S9 , had remained quite arbitrary , only the product of into the coefficients being definite .
+We there defined as having such a value as to make equal to umty .
+We now substitute that value , viz. , ( 1302 ) in , with the result that ' where is the principal minor of ( b ) The Case of Maxwdlian Jfolecules .
+In the case of Maxwellian molecules it is readily evident from that all the elements of the first row and column of , save the initial element , are zero .
+Hence in this case is equal to , i.e. , ( 1304 ) in view of the convention in S as to the value of .
+Hence , by , we have as the exact value of when the molecules are Maxwellian .
+The same result follows readily also from , , and .
+It is the same , except as regards the notation , as the formula deduced by MAXWELL in his second great memoir on the dynamical theory of gases .
+* ( c ) A First Approximation to the Coefficient of Diffusion .
+Only in the case just considered does our general formula for reduce to a simple finite form : usually we must , for practical purposes , be content to make approximations to the exact result .
+As in S9 , this may be effected by taking successive finite convergents to our infinite determinants , which is equivalent to neglecting all terms in the expansion of after the first one , two or more at the beginning .
+Thus for a first approximation , taking only the central element of , it is clear that is equal to or unity simply .
+Hence we have ( 1st approximation ) , a result which also follows from and .
+This , it will be noticed , is the same as , showing that what is in general only a first approximation to is in the case of Maxwellian molecules a strictly accurate result .
+The formula is not new ; it was first given by LANGEVIN , and subsequently by myselfindependently .
+In all these cases , and also in MAXWELL'S investigation the method used was an approximate one which involves the assumption that the peculiar velocities of the molecules of the two constituent gases are distributed about the separate mean velocities according to MAXWELL'S law for the steady state of a as .
+The method of the present paper is based on an actual determination of the law of distribution .
+The assumed law just mentioned , if expressed in the manner adopted in S3 , would involve no -coefficient beyond ( neglecting squares or higher powers of the velocity of diffusion ) .
+This coincides with the true law only in the case of Maxwellian molecules ( S6 ) , so that only in that case is exact : MAXWELL himself did not prove this rigorously , though he obtained the MAXWELL , ' Phil. Trans vol. 157 ( 1866 ) ; or ' Scientific Papers , ' , p. 27 .
+GEVIN , 'Ann .
+de Chimie et de Physique ' ( 8 ) , , 245 , 1906 : cf. also ENSKOG , ' Phys. Zeit xii .
+, 1911 .
+'Phil .
+rans .
+, vol. 211 , p. 499(35 ) , 1911 .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+167 accurate expression .
+In the general case is an approximation only , and the method used by MAXWELL and the other writers just named does not afford a ready means of estimating the error involved .
+The present investigation makes it clear that in extreme cases this is far from small .
+( d ) A Second Approximation to the Coefficient of Diffusion .
+Passing now to a second approximation , by means of and we obtain the result ( 2nd approximation ) .
+The correction to consists of a factor being given by and ; since for Maxwellian molecules , it follows from that in their case .
+In order to estimate the importance of in other cases we must consider some special typical molecular models , and determine the numerical values of for such gases .
+The most important models are those for which , , etc. , are given in S9 ( f ) .
+In paragraph ( g ) of this section we shall consider in detail the range in the values of calculated from these numbers , for various ratios of the molecular masses and diameters .
+Since only affords a second approximation to , however , and not the exact value , it is convenient first of all to examine certain particular cases of our formulae ( cf. SS7 , 8 ) which throw some light on ths accuracy of a second approximation in general .
+( e ) The Coefficient of Diffusion when and are Very Large .
+In the special case when the mass and size of a molecule of the first kind are so great , compared with that of a molecule of the second kind , that is negligible ( cf. S7 ) , we obtain from , and the result where is a determinant ( occupying only a quadrant of the infinite plane ) whose general element is given by , while is its principal minor .
+As usual , for Maxwelian molecules .
+We proceed to make successive numerical approximations to in the case of molecules of other types .
+For molecules which are rigid elastic spheres we have seen that ( 1310 ) MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+169 effective in the particular case before us ; this solution is ue to LORENTZ , and may be expressed in our notation ( 1313 ) This is identical with our own solution if ( 1314 ) and our approximations to show how this numerical value is approached by the successive convergents to our infinite-determinantal solution .
+Incidentally , we may notice that affords an expression for of a kind which , so far as I am aware , is quite new .
+If the molecules are power centres of force ( cf. S9 ( f ) ) , our general formula becomes ( when is negligible ) ( 1315 ) and the general term of the determinant is given by ( 1316 ) With this we may compare the exact formula obtained by JEANS ( loc. cit. ) , using the method of LORENTZ , *Cf .
+LORENTZ , ' Archives N6er1andaises , ' 10 , p. 336 , 1905 ; 'Theory of Electrons , ' p. 268 .
+Also , for a more general theory along the same linoe , cf. JpANS ' ' DynaInical Theory of Gases ' 2nd ed S ' 333 or S450 ( 890 ) .
+PIDDUCK , ' Proc. Lond. Math. Soc. ' ( 2 ) , 15 , p. 112 , 1915 , has also deduced LORENTZ'S result as a spccial case of the general method of solution by integral equations .
+[ I have now obtained a rigorous proof of this equation and of \mdash ; February ] .
+the footnote to page 171 .
+These are equivalent , so that by a well-known formula in the theory of gamma functions .
+When ( the case of Maxwellian molecules ) , the last equation gives , as it should do .
+When , corresponding to the case of rigid elastic spheres , , as before .
+It is of interest to consider one or two intermediate values of in order to see with what rapidity our determinantal expression for converges to the value given by ; we shall not go beyond a third approximation .
+The determinant , as far as the third row and column , is as follows , where has been written in place of ( 1319 ) 1 In the following table are given the first three approximations to for a few typical values of , together with the exact values calculated from MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+171 This table well illustrates the general remarks on the convergence*of our formulae which were made in S9 .
+( f ) The Coefficient of Self-Diffusio7b of a Gas .
+The next simplest case of a general character which we shall consider is that in which the two sets of molecules are alike in mass and dyna1nical properties ; a special case of this is that of a simple gas , the two sets of molecules being identical\mdash ; the corresponding coefficient of diffusion will be written termed the coefficient of self-diffusion .
+From , and , the latter equation being the one appropriate to the case before us , we find that ( 1320 ) where we may now omit the distinguishing suffixes 1 , 2 ; is the principal minor of , whose general element is given by .
+We may note that the factor is independent and ( S8 ) .
+As far as the first two rows and columns , has the following form : 1 The first and second approximations to for a few typical molecular models are given in the subjoined table : the model chosen is the power centre of force , which is equivalent to a rigid elastic sphere when In calculating the approximations to for and we have adopted the values and respectively for ; it would be very troublesome June 2 , 1916.\mdash ; It is interesting to notice that in all the cases in Table II .
+the error of the third approximation to is equal ( to the order of accuracy of one unit in the last figure given ) to the difference between the second and third approximations .
+After each step in the approximation ratio of successive increments seems to become progressively larger , and from Table I. it would be difficult to judge whether converges to 1 12 or 1 13 , if we did not know the correct value to be 11317 .
+] VOL. CCXVII.\mdash ; A. 2 to calculate the exact values of these functions , but fortunately the present calculation does not require them to be known with any great accuracy .
+When we have , and when the value is ( cf. JEANS ' treatise , 2nd ed. , S33 ) , so that the assumed values when and cannot be materially in error .
+The value of is in all the cases considered very nearly equal to unity , the correction introduced by a second approximation being so small that further approximations are not likely to lead to any but a negligible increase in accuracy .
+Thus the exact value of in the case of rigid elastic spherical molecules , for instance , is not likely to differ from ( slightly greater than ) by more than one part in a thousand .
+The exact expression for corresponding to molecules of the type just mentioned is consequently given by the following equation:\mdash ; ( 1322 ) ( 1324 ) where in the last line we have made use of the formula for the coefficient of viscosity for a simple gas , which has already been given by the author ( ' Phil. Trans vol. 216 , S , p. 337 , ( 1325 ) In my first paper on the kinetic theory Phil. Trans the formulae were given as above except for the omission of the factors and in the first and last , which resulted in taking the place of in .
+The expression for agrees almost exactly also with a result obtained by PIDDUCK* for the same quantity , by an entirely different method .
+Mr. PIDDUCK'S work is based on HILBERT'S transformation of BOLTZMANN'S integral equation for the velocity-distribution function .
+His formula for ( loc. cit. , p. 101 , 41 ) is the same as except that the numerical constant , there given only to three places of decimals , is *PIDDUCK , ' Proc. Lond. Math. Soc 2 ) , 15 , p. , 1915 .
+lath .
+Ann 7 p. 562 , 1912 ; BOLTZMANN , ' Vorlesungen uber Gastheorie , ' I. MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+17:3 We may also compare with the result obtained from the simple mean-freepath theory ( first introduced by ) with ' correction for the persistence of velocities , ( in our notation ) ( 1326 ) This is therefore about 10 per cent. larger than the exact value .
+( g ) The of uith the Relative Concentration of the Component In the course of the development of the kinetic theory perhaps no branch has been the subject of more dispute than that dealing with diffusion .
+The point of greatest difference was the effect on the rate of diffusio1l of the relative concentration of the diffusing gases .
+MEYER'S elementary mean-free-path theory led to a formula for according to which the coefficient of diffusion should vary with the proportions of the mixture over the extreme range indicated by the equation Thus , when the molecular masses are very unequal , the range in the value of should be very great .
+No such large variation is found to exist , bowever , according to the results of experiment .
+MEYER'S theory took no account of the tendency of a molecule to persist in motion along its original direction after collision : as JENSS has shown in connection with viscosity , however , " " persistence of velocities\ldquo ; is a very important fact , the neglect of which leads to grave error in the mearl-free-path theory .
+KUENEN has shown that when taken account of in the theory of diffusio1l , it largely removes .
+discrepancy between the small observed variations of and the variations theoretically calculated by the method referred to .
+An earlier modification of MEYER'S theory by may also be mentioned .
+This predicts variations of amount similar to those observed , but geIterally of the wrong sign ; its merits are not such as to demand more than this brief historical reference .
+* MAXWELL , 'Scientific Papcrs , ' , p. 377 , or ' Phil. ' 1860 , JaIlu -Jnly .
+JEANS ' ) ynamical Theory of Gases , ' p. 273 .
+The whole of the chapte ] oil lsion ( .
+in the second edition ) is of great interest , and a referonco may bc made it for comparison both of theory and experiment with the results of this MEYER , ' Kinetic Theory of Gases ' ( English edition ) , p. 255 .
+S ' ' Dynamical Theory of Gases , ' pp. 276 , 292 .
+KUENEN , ' Supp. No. 8 to the Communications from the Leydcn Physicnl tory , ' January , 1913 .
+Cf .
+also JEANS ' treatisc , .
+xiii .
+( 2nd ed p. 328 .
+GROSS , 'Wied .
+Ann 40 , p. 424 , 1890 ; the grcement of GROSS'S theory with experiment has been dicated by , ' Ann. .
+Phys 29 , p. 664 , 1909 .
+DR. .
+CHAPNIAN ON THE THEORy OF A COMPOSITE In sharp distinction from MEYER'S theory , STEFAN* and MAXWELL put forward a theory ) led to the result that is entirely independent of the ratio , the involving only the sum or .
+STEFAN'S theory was based 011 the hypothesis of rigid elastic spherical molecules , and agrees with the corresponding form of our first approximation to ; the same result was sequently otained by LANGEVIN and the present authorS on the most general molecular hypotbesis , in the form .
+MAXWELL'S first formula related to the elastic sphere , and was greater than that of STEFAN by one-third , bein considerably in error : his second formula related to Maxwellian molecules , and was identical with the exact formula for such molecules in S13 ( b ) .
+All these results share the property that they are independent : , and as the present theory shows , all of them are in error in this respect , except MAXWELL'S second formula .
+They require to be multiplied by the correcting ctor of : this factor is unity in the case of Maxwellian molecules , so that for a mixture of two sets of such molecules is independent of their numerical proportions .
+This is one of the few operties of a gas which depends in its very nature ( i.e. , not merely in absolute magnitude ) on a particular molecular model : another such property will .
+be noticed in S14 .
+The fact that the absence of variation is in disagreement with experimental results confirms the conclusion drawn from other sources of evidence that Maxwellian molecules are unsatisfactory representations of actual molecules .
+The only other general case of independence of or : is that in which the dy1la1nical properties of the two sets of molecules are alike , as in the case of selfdiffusion S13 .
+Hence we may speak of the coefficient of self-diffusion of a gas without specifying the ratio in contemplation ; in general , on the contrary , is defined only when the value is assigned .
+Tn the case when ?
+) is negligible S13 the mutual encounters of the light lnolecules are neglected , with the result that in this case also depends only on This , however , is perhaps hardly to be regarded as an additional exception to the general rule .
+The error in the formulae of STEFAN and the other authors mentioned arose from the neglect of the difference between the actual law of distribution of the peculiar yelocities of the molecules and the assumed Maxwellian law .
+This is taken account of in the present paper , and leads to ) correction factor in ; we will now proceed to consider how this factor varies with the ratio : by studying the variation of the second approximation to it , i.e. , this we may readily STEFAN , ' Wien .
+itzb .
+' 63 ( 2 ) , p. 63 , 1871 ; , p. 323 , 1872 .
+MAXWELL , ' Scientific Papers , ' , p. 392 ; , p. 67 and p. 345 . .
+also BoLTZAIANN , ' Wien .
+Sitzb b6 ( 2 ) , p. 324 , 1872 ; 78 , p. 733 , 1878 ; 86 , p. 63 , 1882 ; 88 , p. 835 , 1883 .
+Also Vorlesungon uber , p. 96 .
+LANGEVIN , loc. cit. any . .
+Trans , vol. 211 , p. 449 .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+175 infer the character of the variation of itself , in view of our knowledge of the mode of convergence of the successive approximations as indicated in S13 .
+( h ) The Variation of with So far as regards our detailed discussion , we shall confine ourselves to the case of rigid elastic spherical molecules ; for Maxwellian molecules is identically zero , while for power centres of force is intermediate between and the value appropriate to rigid elastic spheres ( cf. Tables II .
+, IIT .
+, S13 ) , the character of its variations being similar in the two cases .
+From S9 we have ( 1328 ) and in the case of rigid elastic spherical molecules ( cf. S 9 ( c ) and S9 ( f ) ) we may write ( 1330 ) so that Since the suffix 1 refers to the heavier molecules , we have and ( 1333 ) condition that shall exceed is readily proved to be ( 1334 ) and it is found that , for the admissible values of , is positive and steadily diminishes as increases ; its least value is consequently , which is equal to .
+Since never exceeds unity , , and hence , ) that ( 1335 ) The sign of equality correspond .
+to the limiting case , i.e. , to the case of self-diffusion , in which instance , therefore , being independent , as we have ah.eady seen S13 .
+We cannot unconditionally make the further statement that , since the necessary condition for this , viz. , , is not always fulfilled ; but it is easy to prove that if .
+When , the last condition becomes , so that if we have , as before , ; if and , then .
+The condition may be roughly expressed by saying that the more equal the molecular masses , the more equal , also , must be the molecular radii in order that shall exceed ; or , conversely , the more unequal the masses , the more unequal , also , may be radii , consistently with the truth of .
+Clearly , if is satisfied , and steadily increases as the proportion of the heavier gas varies from to 1 , and consequently , also , steadily increases .
+If , however , is n.ot satisfied , and will first increase to a maximum and then diminish slightly , as the ratio increases from to 1 .
+As regards the actual value of , the range ( corresponding to all possible ratios of molecular mass or radius ) is from the imum value of , which is clearly zero ( when and , i.e. , when the heavier molecules are infinitesimal in number the lighter molecules are infinitesimal in mass ) to the maximum value of , which is , ( when and ) .
+The maximum value of , which lies between the above limits .
+The corresponding range of , the correction factor to the first approximation to which is introduced on makin a second approximation , is consequently from 1 to .
+Hence , in conjunction with S13 , we may conclude that for rigid elastic spherical molecules the total possible range in the complete correction factor to the first approximation to is from 1 to or .
+It would not be difficult to construct a table showing the values of for various typical pairs of gases , but owing to the fact that there are three variables concerned it would need to be somewhat complicated , and MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+177 probably little more knowledge would be gained from it than may be deduced from the above discussion and from Table .
+of S13 ( i ) .
+( i ) Variation of with with xperiment .
+In view of the conflicting theories arding the relation between and several , series of experiments to test the question were made at the years 1904-1909 , under the direction of Prof. E. DOBN .
+* The gases used were helium\mdash ; argon by SCHMIDr and LONIUS , oxygen\mdash ; hydrogen by and JACKMANN , carbon dioxide\mdash ; hydrogen and oxygen\mdash ; nitrogen by JACKMANN .
+In JACKMANN'S summary of the experiments it is pointed out that the observed variations in though far from negligible , are small compared with those predicted by MEYER'S theory , while GROSS'S theory ( cf. S13 ( g ) ) is equally unsuccessful in that it predicts variations of the right order but in the wrong direction .
+JEANS compares these observations both with MEYER'S theory and with the corrected form of MEYER'S theory after allowing for the persistence of velocities ( cf. S13 ( g ) .
+The following table is taken from S446 of his treatise ( 2nd edition ) , and relates to the pair of gases , argon : In this table the values of have been multiplied by a factor in order to make the value corresponding to equal to unity , for convenience of comparison .
+remarks , a propos of the above table , that the observed variations of are insignificant compared with those predicted by MEYER'S theory , being small even compared with those predicted by the corrected theory , and that MAXWELL'S simpler formula ( according to which is independent of ) is after all the most accurate numerically .
+We shall see , however , that the present theory , with its correction to the usual first approximation to , gives results which are in much closer accordance with the observed phenomena .
+* SCHMIDT , 'Halls Dissertation ' ( 1904 ) , and 'Ann . .
+Phys 14 , p. 801 , 1904 ; DEUTSCH , 'Halle , ' 1907 ; JACKMANN , 'Halle , ' 1906 ; LONIUS , 'Halle , ' 1909 , and ' Ann. .
+Phys 29 , p. 664 , 1909 , where the results of the whole series of experiments are summarised and discussed .
+JBANS ' ' Dynamical Theory of Gases ' ( 2nd ed S446 .
+MONATOMIC GAS : DIFFUSION , VISCOSITy , AND THERMAL CONDUCTION .
+179 We may conclude from the above table that the calculated values of are in very satisfactory agreement with the observed data , the differences between the two being not greater than the experimental errors would render probable , if we may judge of these errors from the internal accordance of the observed results .
+It should also be remembered that the molecular model chosen for calculation is not the best representation of an actual gas molecule , though it is sufficiently good for the purpose , especially in view of its simplicity for numerical work .
+( j ) The Absolute Magnitude of We next consider the absolute magnitude of the coefficient of diffusion .
+comparison of a theoretical expression for with the corresponding observed value involves not only the accuracy of the theory and experiment , but also the suitability of the molecular model adopted as the basis of the theory .
+If we choose the rigid elastic sphere as model ( and for many purposes this very simple model is fairly satisfactory ) we may deduce from the observed value of for a specified gasmixture the corresponding value of cf. and .
+By doing this for pairs of gases , B-C , C-A we can obviously determine from the resulting values of the individual molecular radii By taking different sets of pairs we may obtain more than one determination of each molecular radius , and the mutual accordance of these affords some sort of check on the theory \mdash ; mainly , I think , relating to the suitability of the molecular model .
+But we cannot in this way test whether the theoretical formula is in error by a factor which is nearly or quite constant , since this would merely alter the deduced values of the radii in a common ratio .
+[ Revised June 2 , 1916.\mdash ; By another method , as follows , we can to some extent check the absolute magnitude of the theoretical results .
+Having determined values of in the above manner , we can use ( the radius for a particular gas ) to calculate by the formula which expresses in the case of dissimilar molecules , putting .
+In this way , practically by interpolation , we obtain a virtually experimental value of ( which cannot be measured directly ) .
+But the theoretical expression for can also be written in the form and being respectively the viscosity and density of the gas , while is a numerical constant .
+If the correct theoretical expression for is used here , the theoretical value of should agree with the experimentally measured value .
+The former depends , of course , on the molecular hypothesis adopted , varying from for rigid elastic spheres to for Maxwellian molecules .
+The following table gives several experimental values of ( taken from JH : ANS ' treatiss ) , which all lie between the This method is due to Lord KELVIN , ' Baltimore Lectures , ' p. 295 .
+Cf .
+JEANS ' 'Dynamical Theory of Gases , ' 2nd ed. , SS447 , 448 .
+The value of deduced from the corrected MEYER'S theory is 1 34 as against the value 20 given by the present theory ( 13 24 ) .
+The formula for there used is that in my second .oir , VOL. CCXVII \mdash ; A. 2 values here theoretically deduced .
+The values of , calculated from the variation of viscosity with temperature , on the hypothesis that the molecules are the power centres of force , are given alongside .
+The formula of interpolation used to obtain from is based on the theory of rigid elastic spherical molecules , and this , together with the rather early date of the diffusion constants used ( they were determined by LOSCHMIDT ) , may prevent us from expecting a very close agreement with theory .
+I have not calculated the theoretical values of for values of between 5 and since they depend on certain integrals which must be evaluated by quadratures ; but it would be interesting to have these quantities determined .
+] Perhaps the most satisfactory comparison between theory and experiment is provided by calculating both from the coefficient of diffusion , as above , and also in some other way as , e.g. , from the coefficient of viscosity .
+Assuming that the experimental data and the molecular representation underlying the theory are satisfactory , the accordance of the two values of affords a complete check on the theory of , and jointly .
+Such a comparison was made in my first memoir ( ' Phil. Trans , vol. 211 , p. 480 ) , using the approximate formulae for and there given ; the confirmation of the theory thus provided was perhaps as good as the accuracy of the data might allow one to expect .
+The table in that paper requires revision , because of the corrections to my original formulae which have been deduced in the present and my second memoir .
+Until more modern and accurate data for the coefficient of diffusion are available , however ( and of such there is need ) , this revision is hardly worth while in view of the smallness of the corrections mentioned .
+In connection with this matter , finally , it may be pointed out that in tables giving values of intended for accurate theoretical purposes it is necessary to specify the ratio by volumes of the diffusing gases , since the theoretical expression for , in general , involves this ratio This practice has not usually been adopted hitherto .
+( k ) The Variation of with Pressure Temperature .
+Since the theoretical expression for , on whatever molecular hypothesis , contains at least one quantity ( molecular diameter or force constant ) which is not directly lneasurable , two or more values of , corresponding to different temperatures or MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+181 pressures , are necessary in order to obtain evidence from diffusion as to the best molecular model .
+It is , therefore , of some importance to consider the variation of with pressure ( or density ) and temperature .
+The first approximation to varies as in the case of molecules which are power centres of force , the case corresponding to rigid elastic spheres Phil. Trans .
+Tt may readily be seen that the correction factor in is independent of or for these particular molecular models Phil. Trans. ( B ) , p. 321 ) .
+Another molecular model , considered in my two previous memoirs , is the rigid elastic sphere surrounded by a field of attractive force ( the SUTHERLAND molecule ) .
+The first approximation to in this varies as , where is known as SUTHERLAND'S constant of diffusion .
+* It may be proved without difficulty , as in the case of the coefficient of viscosity for a simple gas ( cf. my second memoir , SS9-11 ) that the correction is usually intermediate between unity and the value corresponding to rigid elastic spheres without attraction .
+The correction factor in the case of SUTHERLAND'S molecules also depends upon the temperature , but the variation is so very slight as to be negligible .
+As regards variation with density , the first approximation to varies inversely as the total density of the gas mixture , and is independent of the relative proportions of the two gases .
+The correction factor in has been seen to vary with the relative proportions , but if is fixed , the factor may readily be shown not to vary with the total density S14 .
+THE COEFFICIENT 0F THERMAL DIFFUSION .
+The General Formula for The coefficient of thermal diffusion was defined in S10 by the equation and was found to be given by In the case of Maxwellian molecules it was found that vanishes , that for a gas composed of such molecules is zero , and the enomenon of thermal diffusion is non-existent .
+This , together with the absence of variation of with ( cf. S 13 ( g ) ) , is one of the few properties of a which essentially on *Cf .
+SUTHERLAND , ' Phil. Mag. ' ( 5 ) , 38 , p. 1 , 1894 , and my first mcmoir , p. 479 .
+the particular characteristics of the molecules .
+We shall see later that the phenomenon is also differential , i.e. , it occurs only when the masses or diameters of the molecules are not the same for the two kinds .
+Thus when they are alike in mass and dynamical properties ( and consequently also ) is exactly zero ; this is true whatever the nature of the molecules .
+( b ) The First to The first approximation to is obtained by substituting the value of .
+given , to this degree of accuracy , by , viz. , ( 1403 ) We shall not beyond a first approximation in the general case , but ( as in S13 ( e ) with regard to ) we shall briefly examine the order of magnitude of the corrections introduced by further approximations , by a consideration of the special case when are very small ( S7 ) .
+( c ) The Value of when and are very large .
+In this instance the value of is given by , and ( 1404 ) When the molecules are rigid elastic spheres of radii , this assumes the form ( 1405 ) or the same expression except that replaces .
+In each case the suffix 1 to or denotes the second minor of the corresponding determinant .
+We have already given the value of as far as the fourth row and column S13 .
+From this we find that the first three approximations to are , with their successive differences equal to MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+183 These indicate the magnitude of sufficiently for our purpose , though for an accuracy of ( say ) 1 per cent. it might perhaps be necessary to carry the calculation two or three steps further .
+If we take the limit of these approximations as we have ( cf. ( l313 ) ) In this case , therefore , is comparable with , though it may be remarked that if is too nearly equal to unity , our assumption ( S7 ) that the of collisions among the lighter molecules is igible may require revision .
+It may , indeed , be readily seen from the general expression for that this always vanishes if either or becomes zero .
+We may briefly examine the case also of power centres of force by means of .
+Considering only a first approximation , the following results are obtained for various values of First to 5 , exactly .
+7 , approximately .
+9 The general formula for the first approximation to is readily seen to be .
+The last table shows that a very slight excess of over its value for Maxwellian molecules suffices to raise to a considerable proportion of its magnitude corresponding to ( rigid elastic spheres ) .
+The ' phenomenon of thermal diffusion clearly disappears only Under conditions which must be fulfilled with great nicety .
+As an instance of the correction introduced by a second approximation in the case of a finite value of , it may be noticed that the result of a second approximation for is DR. S. CHAPMAN ON TH KINETIC THEORy OF A COMPOSITE ( d ) The Approximate of when and ' is very large .
+The case considered in the last sub-section is realised physically in a metal or gas , among the molecules of which are found free electrons .
+Another case of physical importance is that in which the molecules are similar except in mass , being large ; the diameters of ordinary molecules do not differ greatly , while their masses may bc widely different .
+Thus the diameters of the oxygen and hydrogen molecules approximately and respectively , the ratio of their masses being 16 .
+If in our first approximation to given by we insert the of , \amp ; c. , appropriate to rigid elastic spherical molecules , and write , the result is approximately .
+The corresponding value of is , so that , approximately , and , approximately .
+Thus when becomes , which is nearly equal to the maximum value for this particular gas .
+When or vanishes , so also does another instance of the general theorem on which remark has already been made .
+( e ) General Remarks and Numerical Values .
+It is now evident , from the special cases treated in the preceding sub-sections , that the importance of the phenomenon of thermal diffusion , as compared with ordinary diffusio1l , is greater or less according as the difference between the molecular masses and diameters is large or small .
+If the mass and diameter of the one set of molecules are very large compared with those for the other set , rises to about ; if there is a large inequality in mass , but no difference in size , is about at ; if mass and diameter are both the same for the different molecules , , which is also its limiting value when or tends to zero , and its invariable value when the molecules are Maxwellian .
+The following are a few values of corresponding to typical pairs of actual See Note ( p. for the case of nearly equal masses and very u1lcqual sizcs .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+185 gases , and are obtained by comparing the approximations to and contained in and ; calling their ratio , we have where The values used in calculatin the results in the following table are taken from the table on p. 476 of my first memoir .
+TABLE VI.\mdash ; Comparison of We may remark , finally , on the direction of thermal diffusion : since has been found to be a positive quantity shows that the heavier gas tends to diffuse towards regions of lower temperature , while the lighter gas tends to diffuse towards those of higher temperature .
+* *Cf .
+, however , Note DR. S. CHAPMAN ON THE KINETIC THEORy OF A COMPOSITE S15 .
+THE COEFFICIENT 0F PRESSURE DIFFUSION .
+In S10 we saw that , among other causes , a pressure gradient is an agent in producing diffusion , according to the law , ( 1501 ) where , .
+( 1502 ) if ( 1503 ) The phenomenon depends essentially on the difference of mass of the molecules , and we may note also that , like thermal diffusion , it tends to zero with or .
+If is very large , clearly has the value , except when is very nearly equal to 1 .
+It is interesting to compare the degree diffusion produced by equal gradients of lo and T. This is equivalent to comparing and .
+When is very large , or approximately 2 , if is also large , or if , save when is small .
+The factor , unlike is not dependent on the relative size of the molecules .
+In Table .
+are given the values of corresponding to the three typical pairs of gases considered in S14 .
+It appears that is of thrice or four times the magnitude of for such gases .
+S16 .
+THE STATE WITHOUT DIFIUSION .
+We will now briefly consider the steady state , without diffusion , of a gas subject to the influence of external forces or ( b ) boundary conditions which maintain a constant non-uniform distribution of temperature .
+If we write zero in place of in , and divide by , we have as the equation of state .
+It is more convenient to express the middle term as in the following equations ( substituting for from being zero , since the state MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+187 of the gas is steady\mdash ; and expressing the in terms of and instead of and Since ( 1604 ) we may re-write or in the form or If the temperature and external forces are uniform , from and the two similar and equations we may deduce the integral which is a well-known result directly deducible from the statistical theory of distribution of density in a gas .
+* If the external forces are gravitational , the axis being vertically upwards , and , if be regarded as constant , we have The heavier gas , naturally , is relatively denser in the lower strata , the amount of the effect being greater the greater the inequality of mass and the smaller the temperature .
+In the case of the atmosphere , since the molecular masses of oxygen and nitrogen are nearly equal , the magnitude of this imperfection of diffusion is but small .
+It is found that the change in the value of would amount only to about cent. per kilometre .
+Cf .
+JEANS ' ' Dynamical Theory oi Gases ' .
+Cf .
+JEANS ' treatise , S369 .
+VOL. CCXVII.\mdash ; A. 2 The variation of relative density in the atmosphere due to the temperature gradient ( which is about C. per kilometre ) is still smaller , and in the opposite direction .
+Thus , taking for oxygen and nitrogen as 1 : 3 roughly , and as C. approximately , the equation giving the variation of near the earth 's surface ( independently of the effect of the difference in mass ) is By Table VI .
+, , while if we adopt one kilometre as ths unit of length , writing and as , the change in per unit length is found to be or per cent. per kilometre .
+This variation is of one-sixth the magnitude of the gravity variation , which it tends to neutralise , since the heavier gas tends to rise owing to the temperature gradient .
+These changes are masked , however , by the effects of convection currents ; it has been found that the proportions of nitrogen and oxygen in our atmosphere are the same for all altitudes up to 10 kilometres , and , indeed , above this height , right into the isothermal layer or stratosphere .
+As another instance of the phenomenon of a concentration gradient due to temperature , we may consider the case of a mixture of equal parts ( by volume of oxygen and hydrogen , or argon and helium , placed between two plates which are maintained at freezing and boiling points respectively .
+Neglecting the small variation in , as far as the integration with respect to is concerned , in the equation we may conclude that , independently of the distance between the plates , change in the value is 30 .
+where we have taken ( cf. Table which is approximately the case either for Ar-He or O-H .
+Thus near the hot plate there will be approximately 48 per cent. of the heavier gas to 52 per cent. of the lighter , and versed near the cool plate .
+This remarkable result is independent of the pressure of the gas , assuming this to be uniform between the two plates , as will be the case in the * To the order of accuracy according to which may be regarded as constant .
+MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+absence of external forces ; the density , on the other hand , will vary inversely as the temperature .
+These numbers are based on the hypothesis that the molecules are rigid elastic spheres ; for power centres of force the effect would be somewhat less , vanishing altogether if .
+It seems very desirable that the theory should be experimentally tested ; the effect predicted is of easily measurable amount , and could be further magnified by taking a greater temperature range .
+The magnitude of the concentration gradient is so large as to seem improbable , and it is possible that some circumstance has been overlooked which would modify the theory , but I have been unable to detect any such flaw .
+It is difficult to say how long a time it would take to reach the steady state , or what influence the constant flow of heat through the gas , from the hot plate to the cold , would have upon the phenomenon .
+( See Note p. 196 .
+) S17 .
+THE COEFFICIENT 0F VISCOSITY .
+The general expression for the coefficient of viscosity is ( 1701 ) We shall not trouble here to go beyond a first approximation to this expression , even this being somewhat complicated .
+Referring to , we obtain the following result as our first approximation:\mdash ; ( 1702 ) The values of are defined by .
+The equation is identical , except as regards notation , with given in my ffist memoir on the kinetic theorJ ( loc. cit. , p. 451 ) .
+When , the formula reduces to which is the first approximation to the coeflicient of viscosity of a simple gas composed entirely of molecules of first kind .
+Some idea of the accuracy of as a first approximation may be gained from the fact that for a simple gas the error amounts to only per cent. for rigid elastic spherical molecules , and less for power centres of force second memoir , , the first approximation being too small .
+How the error varies with cannot be stated without carrying the calculation further , but it is probable that it is always of the same order of magnitude , 1 or 2 per cent. A second approximation to would replace the last factor of by the quotient of one homogeneous quartic polynomial in by another , reducing , when , to the second approximation to , the coefficient of viscosity of a simple gas .
+The present importance of such a second approximation to does not seem to render the complicated calculation worth while .
+In my first memoir a comparison of with experimental data is given , which suggests that the formula satisfactorily represents the behaviour of actual gases in respect of the variation with When the molecules are rigid elastic spheres , has the special form where we have quoted from S9 ( f ) .
+The special forms appropriate to molecules of other particular types may likewise easily be written down .
+S COEFFICIENT 0F THERMAL CONDUCTION .
+In S12 the following expression for the coefficient of thermal conduction 3 was found :\mdash ; Owing to the complexity of even a first approximation , we shall not go further than this in the present paper ; in making the approximation , we use the results of S9 , which lead to the equation If we put in this expression it becomes by ; this agrees with the first approximation to 3 for a simple gas which was given in my two previous memoirs ( loc. cit. , p. 462 , p. 337 , respectively ) .
+The * In particular , the theory there given indicates that the viscosity of a gas mixture may rise to a maximum ( for a certain value of ) which exceeds the viscosity of either component separately .
+This had already been proved by MAXWELL for the particular type of gas dealt with in his second paper .
+KUENRN has ntly shown that the ordinary elastic-sphere theory leads to a similar result , when allowance is made for the persistence of velocities after collision ( ' Amsterdam Acad. Proc 16 , p. 1162 , MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+1 expression in for a composite gas does not , however , agree with the corresponding first approximation in my original memoir ( ' Phil. , vol. 211 , p. 452 , cf. 40 and 41 ) .
+This is because it was there assumed ( S2 ) that thermal conduction was independent of diffusion , whereas we have seen that a temperature gradient is inseparable from either diffusion or a conceIltration gradient ; this invalidates the equations ( 24 ) of that paper .
+The second term within the square bracket of especially arises from the terms in the velocity-distribution function which represent the diffusion effect , although the first term is also affected .
+vidently even the first approximation to 3 involves the quotient of a homogeneous quartic in by the product of two homogeneous quadratics , a complexity which makes it hardly worth while to compare the result with the scanty experimental data at present available .
+A brief discussion of my earlier formula , which may be expected to differ only slightly from in numerical magnitude , is given in S18 of my first memoir .
+S19 .
+THE CIFIC ENERGY 0F DIFFUSION .
+In S12 ( c ) we saw that in a gas which is at rest and at a uniform temperature , so that no conduction of heat is taking place , there may yet be a continual rise in temperature if diffusion is goin .
+The gas being at rest as a whole , no gain of thermal energy accrues through the medium of internal friction , and the thermal flux of diffusion may proceed also in the absence of external forces , i.e. , solely as a result of variations of concentration .
+However the diffusion is produced , in the latter or any of the other ways described in S10 , the equation of energy will contain a term equivalent to that on the right of the following equation:\mdash ; ( 1901 ) .
+This is identical with , and assumes that only the thermal flux of diffusion is operating to increase the heat energy of the gas .
+By we have the following expression for , which we have termed the specific energy of diffusion :\mdash ; RT 1 ( 1902 ) by and , .
+Since , the cific heat at constant yolume composite gas , is givell by ( 1903 ) 1 .
+DR. S. CHAPMAN ON THE KINETIC THEORY OF A COMPOSITE we have , writing for , as in S14 , ( 1904 ) Thus we may write in the form ( 1905 ) We may notice that there is an interesting analogy between this equation and the ordinary equation of continuity , which refers the rate of concentration of matter in a volume element to the differential rate of transfer of matter across its extent .
+In the case of diffusion , the opposing inter-diffusing streams carry equal numbers of molecules in opposite directions , but while the energy of molecular agitation is the same for either group of molecules , the kinetic energy of diffusion is different , owing to the different masses with the sanoe velocity of diffusion .
+It is , I imagine , to this cause that the thermal flux of diffusion is due , though the suggestion is only tentative and does not affect the accuracy of one way or the other .
+It is clear , however , that if the velocity of diffusion is such as to cause a concentration of the more massive molecules in any region , at the expense of the lighter molecules ( since the total number is not affected by diffusion ) , the temperature of the region will rise , being positive ( S14 ) ; this readily follows from a comparison of and .
+From our discussion of the magnitude of in S14 , it appears that the specific energy of diffusion is reater the greater the difference in mass and size between the molecules , as we should expect .
+S20 .
+APPENDIX 0N THE INEQUALITY or TEMPERATURE BETWEEN THE ComPONIlNT [ Added June 2 , 1916 .
+] Up to the end of S3 the equations of this paper take account of the possibihty of a difference of temperature ( as defined in S1 ) between the component gases .
+After that point it is virtually assumed that is zero .
+We will now briefly consider what must be made in order to cover the general case .
+It is clear from that the component gases ave different temperatures only when the ratio of the two gases , by volume , is changing with time .
+Consequently in MONATOMIC GAS : DIFFUSION , VISCOSITY , AND THERMAL CONDUCTION .
+193 all steady states the temperatures are the same , although the gas may be non-uniform in temperature , velocity , or composition ; in this case SS4-19 give a complete account of the first-order phenomena of the gas .
+When the relative ) rtions of the component gas are varying , so that the temperatures are unequal , the determination of the coefficients in SS4-9 is unaffected , but we must examine how far the physical equations of the succeeding sections remain valid .
+It is immediately evident that all the phenomena grouped under the general term " " diffusion\ldquo ; ( cf. S10 and SS 13-16 ) are uninfluenced by the presence or absence of the temperature difference , because the former depend solely on the terms in which are of odd degree in ( cf. S3 ) , while the terms relating to or are of even degree .
+Further , it is readily manifest that the equations of viscosity are likewise unmodified .
+The mean hydrostatic pressures of the component gases are indeed altered , but their sum remains constant with the value defined in terms of and by .
+Since the series of S3 is symmetrical in , the partial pressures are all affected equally with , and similarly for the corresponding pressures for the second component gas .
+The differences are therefore independent of , and it is clear from , that this is true also of .
+Hence the equations of viscous stress given in S 11 are applicable both to steady and unsteady states of the gas .
+Finaly , it may be seen on inspection that the equation of energy , deduced in S 12 , is true independently of the existence of a temperature difference between the component gases .
+The equations , , on which the equation of energy is based , remain true in all cases , if is taken to be .
+Also the presence of the even power series in the expression for does not affect the value of so that the expressions of S12 ( c ) for the coefficient of thermal conduction and the specific energy of diffusion are universally true .
+It remains only to form an estimate of the magnitude of by determining approximately the coefficients in .
+For this purpose it is simplest to make use of equation , viz. , Then it may readily be proved , after the manner of SS6 , 7 of my second paper ( toc .
+cit and as a consequence of the expressions , for , that where ( 2005 ) There are similar equations in which the suffixes 1 , 2 are interchanged , which need not be written down .
+From a comparison of with .
+we obtain the following equations for In these equations ranges from 1 to ( that the zero value is excluded may be readily seen from S2 , ) .
+Similarly effectively ranges over the same values , since it is clear from that in all cases .
+* Hence the equations , do not enable us to determine and , which are given by , in terms of the remaining .
+Indeed , to obtain in terms of , by means of , we need only to calculate or .
+Symmetrical determinantal expressions for these can be deduced as in S5 , if desired , but we shall be content here to determine to a first approximation only .
+The two central terms of the two central equations of type , are and it may readily be seen that , ( 2013 ) * When or is zero , , and ) .
+Cf . .
+MONATOMIC GAS : DFFUSION , YISCOSITY , THERMAL CONDUCTION .
+195 Hence , if we assign to ( which has so far been arbitrary ) the value given by ( 2014 ) we may write the equations , as follows:\mdash ; ( 2015 ) We have here introduced the notation ( 2017 ) From we deduce the following equation for .
+The first approximation to this is found , from , , to be given by ( 2019 ) Hence , by and we have where is the first approximation to the coefficient of diffusion , while is a new quantity , defined by the last equation , which we may term the anisothermal diffusion constant .
+We may easily gain some idea of the order of magnitude of if we consider two gases of similar dynamical properties , i.e. , such that , and .
+The VOL. CCXVII . .
+2 last factor in is nearly equal to unity , so that we shall neglect it in our approximate calculations .
+In this case , therefore , For the value of is approximately ( cf. JEANS ' treatise , p. 335 ) , while .
+Hence approximately .
+Thus if the density-ratio of the two gases is changing by 1 per cent. per second , the rence of temperature , if they are equally mixed , is approxi- mately one thousand-millionth of a degree centigrade .
+* The hotter gas is the one which is diminishing in relative concentration .
+In fact , we may perhaps regard the slightly excess speed of the molecules of this gas as the cause of its relative expansion and consequent rarefaction .
+It is clear from these figures , however , that the is likely to be of very minute dimensions in ordinary cases .
+* Thus , so that approximately .
+Note .
+( To p. 118 , line 3 .
+) [ Since this paper was commuIlicated to the Royal Socioty , this part of the theory has been tally tested and confirmed , at least qualitatively .
+An ccount of the preliminary qualitative experiments , made by Dr. F. W. DOOTSON , will be found in the 'Philosopbical Magazine , ' xxxui , p. \mdash ; Note ] Note B. ( To p. 118 , middls .
+) [ Recently I have succeeded in proving the identity of and with the determinants referred to , using elementary algebraical methods .
+The construction of a formal justification of the analytical methods used in the present paper is also being proceeded with , and I hope to be able later to deal with the questions of convergence ised here , and to bring the present theory into satisfactory relation with that based on BOLTZMANN'S equation.\mdash ; Note added , 1917 .
+] Note C. ( To p. 129 , line 2 .
+) [ In a 1 paper it will be shown that considerations of convergence require a -grouping of the terms in theso expansions , so that they become scries of polynomials in .
+The expansions are really used in this form in the present paper , the -grouping of the terms being effected by means of the differencetransformations described in S5 axfded ] Note D. To p. 189 , line 12 .
+) [ Since the above was written ths indicated result has been qualitatively confirmed in the case of three pairs of gases .
+The time taken to attain the steady state was only a few hours in the experiments referred to ; they are describsd in a Note by Dr. F. W. DOOTSON and the author in the ' Philosophical Magazin xxxiii , p. 248 , -Note added , 1917 .
+] MONATOMIC GAS : DIFFUSION , VISCOSITY , AND CONDUCTION .
+197 Note E. [ In a note recently communicated to the ' Philosophical fagazine , ' I have considered thermal diffusion in the case of two molecules nearly or quite equal in mass , very unequal in size .
+If the difference of mass is sufficiently small , the larger molecules lvill tend the cooler regions .
+, 1917 .
+] NotF .
+( To p. 1 [ In his ' Inaugural Dissertation , ' Upsala , ( received iust before the final revision of the proofs of this paper ) , D. ENSKOG gives a tical theory of simple and compositc monatomic gases , based upon BoLTZlIANN'S integral equation for the velocity-distril ) ution fimction .
+The method of solution is , howover , different from that of his 1912 paper .
+The numerical other resuIts , ] uding those relating to thermal diffusion , are in agreement with those of this ) , though not always identical in form .
+Whilc perhaps less developed from the physical standpoint , Dr. ' work is mathematically much the more complete .
+His elegant and accurate proofs will materitdly lighten the task of oving my work to be in conformity with BOLTZMANN'S equation.\mdash ; April SO , 1917 .
+]
+

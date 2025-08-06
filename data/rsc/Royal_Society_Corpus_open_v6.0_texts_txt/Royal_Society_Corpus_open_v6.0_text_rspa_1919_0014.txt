@@ -1,0 +1,155 @@
+]\gt ; Wave : Some Cases of Three-dimensional Fluid Motion .
+By T. H. HAVELOCK , F.R.S. ( Received November 27 , 1918 .
+) 1 .
+Calculations of wave resistance , corresponding to a pressure system travelling over the surface , have hitherto been limited to two-dimensional fluid motion ; in those cases , the distribution of pressure on the surface is one-dimensional , and the regular waves produced have straight , parallel crests .
+The object of the owing paper is to work out some cases when the surface pressure is two-dimensional and the wave pattern is like that produced by a ship .
+A certain pressure system symmetrical about a point is first examined , and more general distributions are obtained by superposition .
+By combining two simple systems of equal magnitude , one in rear of the other , we obtain results which show interesting interference effects .
+In similar calculations with line pressure systems , at certain .
+speeds the waves due to one system cancel out those due to the other , and the wave resistance is zero ; the corresponding ideal form of ship has been called a wave-free pontoon .
+Such cases of perfect interference do not occur in three-dimensional problems ; graph showing the variation of wave resistance with velocity has the humps and hollows which are characteristic of the resistance curves of ship models .
+Although the main object is to show how to calculate the wave resistance for assigned surface pressures of considerable generality , it is of interest to interpret some of the results in terms of a certain related problem .
+With certain limitations , the waves produced by a travelling surface pressure are such as would be caused by a submerged body of suitable form .
+The expression for the wave resistance of a submerged sphere , given in a previous paper , is confirmed by the following analysis .
+It is also shown how to extend the method to a submerged body whose form is derived from stream lines obtained by combining sources and siuks with a uniform stream ; in particular , an expression is given for the wave resistanoe of a prolate spheroid in the direction of its axis .
+2 .
+Take axes Ox and Oy in the undisturbed horizontal surface of deep water , and Oz vertically upwards , and let be the surface elevation .
+For an initial symmetrical about the origin , that is for initial data ; ; S , the velocity potential of the subsequent fluid motion , and the surface elevation are given , ( 1 ) , ( 2 ) iw where , and .
+( 3 ) We have assumed that it is permissible to use the integral theorem .
+( 4 ) We obtain the effect of a pressure system moving over the surface with uniform velocity in the direction Ox by integrating ( 1 ) ) after suitable modifications .
+We replace by and by integrate with respect to over the time during which the system has been in motion .
+We shall limit the present discussion to the case when the system has been in motion for a long time , so that if we take an origin moving with the .a system a steady relative condition has been attained .
+In this case , with a moving origin , we replace by and by in ( 1 ) and ( 2 ) , and obtain the required , ( 5 ) , ( 6 ) where is obtained from the assigned pressure distribution by means of ( 3 ) .
+The introduction of the factor is familiar in ) problems and needs only a brief explanation .
+It may be regarded as an artifice to keep the integrals determinate , it being understood that ultimately is to be made infinitesimal .
+Or , again , it ensures that the solution is the fluid motion which would establish itself eventually under the action of dissipative forces , however small .
+In the steady motion with which we are concerned , we may imagine a rigid cover fitting the water surface everywhere and moving forward with uniform velocity .
+The assigned pressure system is applied to the * Lamb , ' Hydrodynamics , ' p. 426 .
+' Roy .
+Soc. Proc , vol. 81 , p. 417 ( 1908 ) .
+Prof. T. H. Havelock .
+Wave : Some water surface by means of this cover ; hence the corresponding wave resistance is simply the total resolved pressure in the direction Ox.* With the usual limitation that slope of the surface is everywhere small , this leads to taken over the whole surface .
+The evaluation of the steady wave resistance for an assigned pressure is to be carried out by means of ( 3 ) , ( 5 ) , ( 6 ) , and ( 7 ) .
+However , we may obtain simpler expressions before applying them to particular cases .
+3 .
+For this purpose we analyse the wave disturbance ( 5 ) into simple constituents , in fact into one-dimensional disturbances ranged at all possible angles round Ox , the line of advance .
+We have Substitute in ( 5 ) and we can now carry out the ration with respect to for we have We simplify this expression further by using the fact that was introduced only to keep the integrals determinate , and is eventually to be made infinitesimal ; we can therefore reject terms in which are superfluous for this purpose .
+The process receives its justification in the course of the analysis .
+This being understood , we can use , instead of the right-hand side of ( 9 ) , the expression where .
+Using these results in ( 6 ) , and making a slight transformation , we can express the surface elevation in the form .
+( 11 ) In ( 11 ) we have the surface elevation analysed into plane wave constituents , each element moving in a line making an angle with Ox. Carrying out the integration with pect to , we can express each constituent 'Roy .
+Soc. Proc , vol. 93 , p. 244 Cases of Fluid Motion .
+in terms of a simple harmonic wave in rear of the line together with a disturbance symmetrical with respect to this line .
+We might continue the discussion for general types of pressure distribution , provided the functions are such that certain transformations may be used ; however , it is simpler to study in detail a few cases for which the conditions are all satisfied .
+4 .
+At this stage it is convenient to specify the system where A and are constants .
+Using ( 3 ) for this case , we have Returning to the expression ( 11 ) for the elevation , we consider the element making an angle with Ox. We change to axes Ox ' , given by .
+The integral with respect to then becomes A .
+( 13 ) This integral can be ) rnled by contour inteobration ; as it is of a type familiar in plane wave problems*we wtite down the resul t when these have been simplified by making zero after the transformation has been carried out .
+We have for the value of ( 13 ) , , for ; , for .
+( 14 ) From ( 11 ) and ( 14 ) we could now write down the elevation as the sum of the constituents for all values of in the range from to .
+The Srst term in ( 14 ) represents simple waves in the rear of the corresponding wave front ; hence the integration of this term ; would only extend over elements for which the assigned point was in the rear of the wave front .
+The other terms in ( 14 ) represent a disturbance symmetrical with respect to the wave front , and diminishing with increasing distance from it .
+We shall not write down the expressions , as do not intend to examine the wave pattern detail .
+From the definition in ( 7 ) , it follows that we can evaluate the wave resistance by first a simple constituent of the elevation and then summing with respeot to Since the pressure system is symnletrical respect to tho origin , the ymmetrical local disturbance in ( 14 ) gives no resultant contribution to ; * Compare , for example , ' Roy .
+Soc. Proc , vol. 93 , p. 524 ( 1917 ) .
+We may express in terms of known functions in two convenient forms .
+If is the confluent hypergeometric function defined , under certain conditions , , ( 17 ) and if is the Bessel function for which , ( 18 ) we find , after some reduction , that ( 19 ) , ( 20 ) where In a previous paper , same function of velocity , except for the constant factors , was found for the wave resistance of a submerged sphere ; the result was given in the form ( 19 ) , and a graph was drawn to show as a function of .
+The resistance rises to a maximum in the neighbourhood of , and then falls asymptotically to zero .
+Although there are iew tables available for the functions in general , and are given in ' Funktionentafeln ' ( Jahnke .
+Emde ) under the form of ( ix ) and ( ix ) respectively .
+5 .
+Reference has been made to the wave resistance of a sphere submerged at a depth compared with the radius this was calculated directly as the resultant horizontal pressure on the sphere .
+The connection with the present analysis is easily shown .
+In the paper referred to , the approximate solution for a submerged body was found directly , following Prof. Lamb 's method for a cylinder .
+It is conWhittaker and Watson , ' Modern Analysis , ' p. 334 .
+Grey and Mathews , ' Bessel Functions , ' p. 90 .
+'Roy .
+Soc. Proc , vol. 93 , p. 630 ( 1917 ) .
+Cases of Fluid Motion .
+venient to repeat here the expressions for the velocity potential and surface elevation due to a cylinder and to a sphere , putting them into the same notation for purposes of comparison .
+We have , for a cylinder , ( 21 ) , ( 22 ) and for a sphere , ( 23 ) .
+( 24 ) These expressions satisfy the conditions at the free surface , namely , and , when is made infinitesimal .
+Opportunity has been taken to correct an obvious mistake in sign in the expressions for the sphere ; in the former paper , the last terms in ( 23 ) and ( 24 ) were given as positive instead of negative .
+Returning to the comparison with S4 , consider the expression ( 24 ) for the surface elevation due to a submerged sphere .
+The first part represents a disturbance sy1umetrical about the , due a doublet at the centre of the sphere , together with an equal opposite doublet at a point a height above the free surface .
+Compare now the second term in ( 24 ) with the surface elevation given by ( 6 ) when the pressure system is , so that .
+The two expressions are identical , with a suitable relation between the constants ; we must have , or the corresponding moment of the doublet is .
+We have then two related problems .
+For the sphere the pressure is constant at the free surface , and the surface elevation consists of the two parts in ( 24 ) ; the wave resistance depends upon the supply of energy needed to maintain the waves contained in the second part of ( 24 ) , and this energy is supplied through the work of the pressure at the surface of the sphere .
+On the other hand , for the travelling surface pressure , Prof T. H. Havelock .
+Resistance : Some the surface elevation is the same as the second part of ( 24 ) ; hence the samo supply of energy is needed , and is obtained in this case from the work of tho applied pressure .
+Thus we may assume that the wave resistance is the same in the two problems .
+From ( 19 ) and ( 25 ) we have , ( 26 ) which agrees with the value for the sphere given in the previous paper .
+The ction between the wave patterns of a submerged body and of a certain surface pressure has been pointed out by Dr. G. Green in a recent paper , which the correspondence is developed from a different point of view .
+In the following analysis we deal onIy with combinations of simple pressure systems ( 12 ) , and the corresponding submerged body can be found from a similar combination of doublets , as in the preceding case .
+6 .
+The foregoing results can be generalised for other symmetrical forms of local pressure distribution , provided transformations such as are used in ( 4 ) and ( 14 ) are applicable .
+Assuming this , it appears , from the analysis of S3 and S4 , that for a pressure system we have , ( 27 ) where is given by ( 3 ) .
+7 .
+Some points of interest in the theory of wave resistance can be illustrated by combinations of the simple type ( 12 ) .
+We consider first two equal systems , at a distance 2 apart , and advancing in the direction of the line of centres ; that is , where and Writiug , for the moment , and for the two component systems , and for the surface elevations which would be caused by these systems acting separately , the waves due to the combination are given by , since we neglect , as usual , the squares of the fluid velocities .
+It follows from the definition in ( 7 ) that the wave resistance is the sum of four parts , and .
+Here is the resistance due to the pressure acting on the waves produced by is that due to operating on the waves caused by , and similarly for and It follows from S4 , that , ( 29 ) * G. Green , ' Phil. Mag vol. 36 , p. 48 ( 1918 ) .
+Cases of Three-dimensional Fluid Motion .
+The terms and represent the interference effects .
+Let and be the centres of the two systems and .
+To calculate , consider a constituent plane wave-front through ; take this line as a new axis and a perpendicular line through B2 for the axis , as in fig. 1 .
+Then , corresponding to the expression ( 15 ) in S4 , we have as an element of the quantity .
+( 30 ) The similar element in the value of is the expression ( 30 ) when we have replaced by ?
+the two ele1nents and carrying out the integration with respect to , we have , as an element of .
+( 31 ) Replacing from ( 11 ) the proper factor and integrating with respect to we have .
+( 32 ) Finally , from ( 29 ) and ( 32 ) , the total wave resistance is given by .
+( 33 ) We can express in series of known functions by expanding either in powers of , or in Bessel functions ; however , as these series involve either or , they are of no use for numerical calculations .
+It is not difficult to calculate numerical values directly from the ( 33 ) for given values of the constants .
+To obtain graph showing the 362 Prof. T. H. Havelock .
+Wave Resistance : Some variation of the resistance with the velocity , the following method is sufficiently accurate , at least for illustrating the main features .
+arious v The can be obtained without much trouble , and it was found sufficient to calculate its value at intervals of throughout the range from to ; the mean vaIue was found from half the sum of the initial and final values ether with the sum of the intermediate ones .
+In the course of these calculations , we have material for obtaining the value of by the same method ; but this integral is equal to and we can find its value also from the tables of and mentioned in S4 .
+By comparing results we obtain some idea of the accuracy of this method of numerical integration .
+The calculations can be lightened for present purposes by choosing , from general principles , values of which correspond to important points on the graph .
+By this method we obtain values of for different values of , for this particular case .
+The result is shown in the full curve in fig. 2 ; the scale for is arbitrary , the unit for is the velocity .
+The dotte ( icurYe is a mean curve , and is equal to in the notation of this section ; that is , it represents the sum of the resistances due to the two systems , ignoring any interference efl.ects .
+The graph is of interest its exhibition of the typical humps and hollows , occurring in general when is a sub-multiple of .
+The Cases Three-dimensional Fluid Motion .
+prominence of the interference effects depends upon the relative nitudes of the constants and ; the example we have chosen shows a protoullced effect due to the final maximum of interference being near the maximum of the mean curve .
+8 .
+We may note brietly the interpretation in terms of a submerged body The surface of the body is one formed of stream-lines due bo the two equal doublets in a uniform stream ; the axes of the doublets are in the same horizontal line at a depth , which must be compared with , at least , the vertical dimensions of the body .
+For instance , with suitable relations between the constants , the result would give the wave resistance of two small bodies , of nearly spherical shape , one behind the other at a distance large compared with their dinlensions .
+9 .
+By combining simple symmetrical pressure systems , we may ooeneralise the previous results ; this seems an easier process than the direct discussion of unsymmetrical systems .
+We shall assume that the component simple systems are all of the type ( 12 ) and have the constant of the same value , and that the centres of the systems all lie on the axis In the first place we must extend the analysis of S8 to two components of unequal magnitudes A and , with their centres at the points and respectively .
+From the argument expressed in ( 29 ) ) , it is easily shown that the value ( 33 ) for the wave resistance must be altered by replacing by .
+( 34 ) Suppose further that the pressure system iven as a continuous line distribution of components along Ox in a range from to , the nitude of the element with its centre at being proportional to some function ; in other words , suppose the surface pressure is viven by the function being such that the transformations used in the preceding analysis are permissible .
+For the system ( 35 ) we have to sum ( 34 ) for all possible pairs of elements ; this is performed by taking the double summation .
+( 36 ) The wave resistance for the system ( 32 ) can be completed now from ( 33 ) and 36 ; we have .
+( 37 ) V0L .
+364 Prof. T. H. Havelock .
+: Some 10 .
+Consider as an example the case when is constant , so that the surface pressure is .
+( 38 ) This may be regarded as the combination of two equal systems of opposite sign , with their centres at the points and but not symmetrical round these points .
+In this case , after carrying out the rations with respect to and ( 37 ) gives .
+( 39 ) The integral may be treated similarly to ( 33 ) .
+One of the main differences lies in the factor instead of ; this is because we have now two equal positive and negative systems instead of two positive systems , and in consequence the series of humps and hollows on the resistance curve will be interchanged .
+We have chosen this case partly because of the corresponding problem in the motion of a submerged body at depth .
+Integrating a line of doublets of constant strength results in a simple source at one end of the line and an equal sink at the other .
+Hence , the submerged body is one of the shaped surfaces of revolution formed by combining a source and sink with a uniform stream ; it follows that , as in S5 , the strength of the source is .
+It may be noted that the coefficient A in ( 39 ) has different dimensions from that in ( 33 ) , agreeing with its introduction in ( 38 ) .
+By making small in ( 39 ) we regain the former result for a sphere .
+11 .
+If a prolate spheroid of semi-axis and eccentricity is moving in an infinite liquid with velocity in the direction of its axis of symmetry , it can be shown thab the velocity potential may be written in the form Cases .
+Three-dimensional Fluid reverting to axes with the origin in the free surface .
+It should be noticec{ that , as in S5 , the surface pressure ( 41 ) does not give the same surface elevation as the moving spheroid ; the surface condition in the latter case is that the pressure should be constant at the free surface .
+But ( 41 ) does yiye the same wave formation as the spheroid , and that is the part of the surface effect upon which the wave resistance depends .
+The complete surface elevation can be easily written down by direct methods as in the case of the submerged sphere .
+Using ( 41 ) now as an example of(35 ) , we find the wave resistance of the spheroid from ( 37 ) ; after integrating with respect to and , the result is .
+( 42 ) It can be verified that this gives the result for the sphere by making zero .
+For a given relation between and , the value of can be obtained approximately by the numerical methods used in the previous examples ; judging from rough calculations , it appears that the resistance curve does not show prominent humps and hollows .
+This might be anticipated from the surface pressure ( 41 ) , which can be evaluated in simple form ; if we represent the pressure distribution by a surface with , and ?
+co-ordinates , then ( 41 ) gives a single oval-shaped peak with its longer axis in the direction Ox. On the other hand , the pressure distribution ( 28 ) represents two distinct peaks .
+We may compare in this respect the bellaviour of ships ' models ; it depends upon the shape of bow and stern , and relation between them , whether the resistance curve has marked interference effects or is a continuously ascending curve .
+12 .
+We have limited the previous cases to combinations of simple pressure systems along the axis Ox. The method can obviously be extended to systems with their centres on Oy ; or again , for systems situated in the plane , a four-fold summation in the manner of ( 36 ) would give further generality .
+For the corresponding problem of the motion of a body , one could obtain the wave resistance of any body whose surface is formed of stream lines due to the combustiou of sources and sinks with a uniform stream .
+

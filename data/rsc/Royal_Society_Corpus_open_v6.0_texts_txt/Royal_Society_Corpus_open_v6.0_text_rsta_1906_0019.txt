@@ -1,0 +1,596 @@
+]\gt ; 249 ] V. The Asymptotic Expansion of Integral Functions defined by TAYLOR'S Series .
+E. W. BARNES , M.A. , Fellow of Trinity College , Cambridge . .
+A. R. FOBSYTH , Sc. D. , .D .
+, F.R. Received May 9 , \mdash ; Read June 8 , \mdash ; Received in condensed form March 1906 .
+CONTENTS .
+Page S1 .
+Introduction . . . .
+250 S2 .
+Object of th paper . . . . .
+252 SS3-4 .
+Preliminary definitions . . . . .
+253 S5 .
+A general theorem . . . . .
+254 PART I. The function 256 PART II .
+The metion g , when 257 PART III .
+The function ) 258 PART The function , when 272 PART The function , when is regular at the origin .
+273 The function 279 VOL. CCVI .
+29.6.06 W. BARNES ON ' IPTOTIC EXPANSION OF PART Page function , when 282 PART The function 283 The fnnction 283 The function 284 ' Possibility of further extensions 284 PART VIII .
+The function 285 The function ) 289 PART IX .
+Notation of generalised hypergeometric integral functions . . . . . .
+292 function and the properties of the allied function . . . . .
+292 PART X. The .
+The asymptotic expansion of for complex tlues of and . . . . . .
+294 PART XI .
+General theoren ) on hypergeometric integral functions . . . . . .
+295 INTRODUCTION .
+S1 .
+functions can be either by TAYLOR'S series or Weierstrassian products .
+lVhen the zcros are simplc functions of their order number , the latter method is , as rule , most simple .
+Whon the zeros , however , transcendental functions of the order number , those integral functions which so far have occurred in anal sis have been defined by series .
+[ Definitions by definite integrals have usuaIly been reducible to one of the preceding forms .
+] Whatever be the of its definition , an intsgral function has a single essential singularity at infinity , and the behaviour near this ] serves to classify the function .
+By studying this behaviour we may hope to find connecting links between the two modes of definition .
+The behaviour at intinity is determined by asymptotic expansions .
+The first )sion of function was derived from approximation to ! .
+This led naturally expressions for when is large and real .
+Differentialis , ' 1730 .
+FUNCTIONS DEFINED BY TAYLOR'S SERIES .
+Such were considered by , among others , CAUCHY,1 BINET,2 and Other references to tho history of the subject will bs in the " " idie der Mathematischen Wissenschaften.\ldquo ; 4 But the behaviour of a function defined by a Weierstrassian product , when considered only for real values of the variable near infinity , affords little knowledge of the essential singularity .
+STIELTJES5 first proved the asymptotic expansion for to be valid for all values of .
+His result was subsequently obtained by MELLIN .
+Immediately afterwards the author,7 from an idea suggested by one of MELLIN'S earlier papers and due originally to IEMANN,8 extended the result to the multiple gamma functions .
+Then , simultaneously , and the authorl discovered the asymptotic expansions for classes of integral functions defined by Weierstrassian products .
+Such investigations have been developed by the author in a series of papers.11 It is natural to expect that similar results can be obtained for functions defined by TAYLOR'S series .
+An asymptotic expansion for BESSEL'S function was first given for real values of by POISSON.12 The result wns extended to other integral values of , that is to say , .
+to functions , where is an integer , by JACOBI.13 Then , in a noteworthy , HANKEL14 extended the resuIt to complex valnos both of the parameter and the vttriable and though his statement of his results merited the criticism of HURWITZ,15 it deserves recognition as a valuable discovery .
+The question has since been considered , among others , by WEBER16 and NIELSENl7 .
+Further references will be found in the ' Encyklopadi and in NIELSEN'S text book.17 In this connection mention may be made of a similar estigation by in the theory of LEGENDRE'S functions .
+Closely allied to BESSEL'S are integral functions defined by generalised hypergeometric 1 CAUCHY , 'Exercices d'Analyse , ' tome 2 , p. 386 .
+2 BINET , de ] ' Ecole Polytechnique , ' tome 27 , p. 220 .
+3 RAABE , 'Crelle , ' vol. 25 , p. 147 ; vol. 28 , p. 10 .
+4 BRUNEL , .
+cit. , vol. 2 , , p. 166 .
+, 'Liouville , ' se'r .
+4 , vol. 5 , p. 425 .
+6 MELLIN , ' Acta Societatis ' tome 24 , No. 10 .
+7 BARNES , 'Phil .
+Trans. Roy .
+Soc , vol. 196 , p. 265 .
+RIEIIANN , ' ( Euvres , ' 1898 , p. 165 .
+9 MELLIN , ' Acta Societatis Scientiarum Fennicae , ' tome 29 , No. 4 .
+10 BARNES , 'Phil .
+Trans. Roy .
+Soc , ' , vol. 199 , pp. 411-500 .
+BARNIIS , mbridge Phil. Trans vol. 19 , pp. 322-355 ; pp. 426-429 ; 'Proc .
+Lond. Math. Soc. , ser. 2 , vol. 3 , pp. 253-272 , and pp. 273-295 .
+12 POISSON , 'Journal de Ecole Polytechnique , ' tome 19 , p. 349 .
+13 JACOBI , ' Gesammelte ' vol. 7 , p. 174 .
+, ' Mathematische Annalen , ' vol. 1 , pp. 467-501 .
+[ One of the referees has pointed out that I had omitted to mention the )rilliaIltinvestigti of remained long to continental mathematicians .
+STOKES ) ined tsymptolic nsions of the solutions of BESSEL'S equation for complex values of the ) in two papers in 1857 and 1868 respectively ( ' Cambridge PhilosophicaI Transactious , ' vol. 10 , p. 105 ; vol. 11 , p. 412 ) .
+The reader may also notice STOKES ' ' Cambridge Philosophical Proceedings , ' vol. 6 , p. 362 , ' Act Mathematica , ' vol. 26 , pp. 393-397 .
+] 15 HURWITZ , 'Mathematische Annalen , ' vol. 33 , p. 246 .
+16 WEBER , 'Mathemalische Annalen , ' vol. 6 , p. 148 .
+17 NIELSEN , ' Handbuch der Cylinderfuncliorlen , ' 1904 , pp. 156 , \amp ; c. 18 WANGERIN , ' Encyklopadie der Mathematischen Wissenschaften , ' Band 2 , , p. 748 .
+19 HOBSON , ' Phil. Trans , vol. 187 , pp. 443-531 .
+MR. E. -tRNES ON THE ASYMPTOTIC EXPANSION OF functions .
+Here for real values of the variable first gave asymptotic expansions , and ORR2 has recently extended his results to general complex values of the argument .
+Quite recently has constructed the new function and investigated its asymptotic behaviour .
+It , however , in the theory of linear differential equations that POINCARE4 first pointed out the use of divergent series as solutions in the neighbourhood of infinity , and laid the foundation of a rigorous theory of such series .
+The tion of his investigations has been the subject of many researches , notably by KNESER and HORN .
+references in this connection I may refer the reader to FORSYTH'S ' Theory of Differential Equation Another connected series of invcstigations may be mentioned .
+HADAMARD6 first gave a remarkable theorem as to the maximum value of the modulus of an integral function defined by TAYLOR'S series on a circle of large radius .
+Other theorems of similar typc are due to and BOUTROUX.8 Valuable , however , such theorems are on account of their gensrality ) we need complete asymptotic expansions before we can adequately classify integral functions .
+Further references will be found in text , book .
+There is a close connection between the asymptotic expansions of certain types of integraI functions and what has called the associated functions defined by series of finite radius of convergence .
+This connection enables us to investigate the singularities of many types of such TAYLOR'S series , and thus connects the theory with a whole series of investigations .
+Reference may be made to the work of FABRY,11 LE LINDELo and LEAU.14 A very complete bibliography of this branch of modern mathematics is given } ) HADAMAR S2 .
+In the present paper the author attempts to give unity to the investigations of asymptotic expansions of integral functions defined by TAYLOR'S series by taking various standard types of such functions and applying new methods of contour integration so as to get , as simply and elegantly as possible , complete asymptotic expansions .
+For each fuuction investigated we find the nature of the behaviour at infinity .
+The investigation may be regarded as preliminary to the formation of a classified table : it is complementary to that previously carried out for functions defined as products .
+It is hardly necessary , perhaps , to say that no methods , however powerful , will apply to every function that can be constructed by a TAYLOR'S series .
+Just as , in general , a TAYLOR'S series admits its circle of co1lvergence as a line of singularity , so the general integral function , which we may define by a series , will not admit the same dominant asymptotic expansion for any range of values , of however small .
+1 STOKES , ' Cambridge Phil. Soc. Proc vol. 6 , pp. 362-366 .
+2 ORR , ' Cambridge Phil. Soc. Trans vol. 17 , pp. 171-200 ; pp. 283-290 .
+LEFFLER , ' Comptes ReIldus , ' vol. 137 , pp. 554-558 ; 'Acta Mathematica , ' vol. 29 .
+PorNCAR , 'Acta Mathematica , ' tome 8 , pp. 5 FORSYTH , .
+cit. , Part III .
+, vol. 4 , 1902 , p. 341 .
+6 HADAMARD , ' Liouville , ' ser. 4 , vol. 9 , pp. 7 BOREL , 'Acta Mathematica , ' vol. 20 , pp. 357-396 .
+BOUTROUX , ' Acta Mathematica , ' vol. 28 , pp. 1-128 .
+9 BOREL , ' sir les Fonctions Entieres , ' 1900 .
+10 In the memoir just cited .
+11 FABRY , males de Ecole Normale Supe'rieure , ' ser. 3 , tome 13 , pp. 367-399 ; 'Acta Mathematica , ' tome 22 , pp. 65-87 ; 'Liouville , ' ser. 5 , tome 4 , pp. 317-358 .
+12 LE , 'Annales de la Faculte des Sciences de Toulouse , ' ser. 2 , tome 2 ( 1900 ) .
+13 LINDELoF , ' Acta Societatis Scientiarum Fennicae , ' , No. 7 .
+14 LEAU , ' Lionville , ' ser. 5 , tome 5 , pp. 365-425 .
+HADANIAIID , " " La Serie de Taylor et son prolongement analytique\ldquo ; ( ' Scientia , ' 1901 ) .
+INTFGRAL FUNCTIONS BY TAYLOR'S In conclusion , I mnst mention a paper of in which he obtains some of the present results .
+He led to question asymptotic behaviour by a desire to tions for the large zeros of integral functio1ls , one of the subsidiary problems which a general owledge of intogral functions will solve .
+His paper was sent to me in August , 1904 , in the city of referee to the London Mathematical Society .
+He obtained the first terms of the asymptotic forms of the functiort which 1 call in the case where and ar ' real .
+In my reply I said that I ready obtained complete expansions for general complcx lues of and .
+Such results Mr. HARDY has since published in tho revised form of his paper .
+The reader will find it instructive to compare our respective discussions of the question .
+, 1906.\mdash ; The Council of the Royal Society snggested that the paper in its form contained so ma1ly developments that it was more of the nature of a trcatisc of paper to be published in their Transactions .
+In consequence it has been co1lsiderably compressed , and tements of results have been in many cases given in lieu of detailed vcstigations .
+Develo})ments of such a will , I hope , with my subsidiary investigations , be suitable for tiou elsewhere .
+compressing the paper , certain changes have at times been made in the mode of .
+Whsnever sucl ] tlgc has been made , or whenever a result has been stated which not been originally } , the number of the corresponding ragraph is placed in squarc brackets [ Definitions corems .
+S3 .
+The function is said to admit the asymptotic expansion for a given range of values of , when is large , if the following condition is satisfied .
+We put it must be possible , assigned value of , to find a value X such that , whenever where is any arbitrarily assigned small positive quantity .
+The solution of linear differential equations often gives rise to series of which the simplest type is the series within the brackets being divergent .
+We say that is asymptotically represented by such a series any or range of values of under the following conditions .
+Put 1 HARDY , " " On the Zeros of Classes of TAYLOR'S Series II .
+, ' Proc. Lond Math. Soc ser. 2 , , pp. 401-431 .
+Then for any assigned value of it is possible to find a value X for such that , whenever where is an arbitrarily assigned positive quantity .
+It is evidently possible that an asymptotic expansion may hold for some values of and not for others .
+S4 .
+The following definitions give precision to subsequent statements .
+When we say of a quantity that , for any assigned yalue or range of values of , it is of order less than is large , we mean that for any assigned value of it is possible to find a value X of such that , when being defined as before .
+When we say that tends exponentially to zero with , we mean that it is such that , wheIl and being a definite finite positive quantity .
+S5 .
+Our fundamental procedure is based upon the following theorem .
+Suppose that , when is large , we wish to find an asymptotic expansion for the integral The integral is taken round a gamma-function contour which encloses the origin and embraces an axis from the origin to infinity along which ( xz ) is positive .
+In the subject of integration is a function which , for values of , admits the convergent expansion Further , is such that the integral I is convergent .
+This conditio1l , of course , limits the behaviour of al infinity along the axis P. Suppose that the plane of the complex variable is dissected by lines passing away from the poles of to infinity in a direction away from the origin .
+We assume that the contour does not contain or cut any of these lines .
+Then the integral I admits the asymptotic expansion Divide up the contour into two parts and M. lies wholly within the circle FUNCTIONS BY SERIIES .
+of convergence of and , on , where and is a positive quantity as small as we please .
+forms the remainder of the contour .
+We have ( say ) , where is the integral taken along the contour and the sum of the integrals along the two parts of the contour M. In the first integral put and let be the transformed contour .
+The .
+becomes For any assigned finite value of , however large , This series is absolutely convergent and independent of or .
+We may therefore say that where is independent of or , and is finite when is finite .
+Hellae Thus can be made as small as we please by taking sufficiently large .
+Consider in the next place the integral If the original contour cut none of the lines of dissection of the plane , it may be closed up as in the figure .
+For , as we pass over no poles of the subject of integration , by CAUCHY'S theorem we do not alter its value .
+The contour integral can therefore be replaced by a line integral taken from the point along the axis to infinity .
+If we put , we get and the integral taken along a line for which is positive .
+-k1R . .
+W. BARNES ON THE ASYMPTOTIC XPANSION OF By our original hypothesis the integral is convergent .
+It is finite for any assigned finite value of , and when is very large it tends to a finite limit .
+Hence tends exponentially to zero with Therefore for all finite values of however large we may take so large that tends to zero as increases .
+Therefore I admits the asymptotic expansion .
+Inasmuch as admits , as a summable divergent series on the dissected plane , we may say that , for our process for deriving an asymptotic expansion from an integral of the specified type to be possible , the contour must be such that for all points on and within it must be representable by the summable divergent series .
+PART I. Thoe Function S6 .
+The function is a particular case of the function which will be considered in Part III .
+It can be discussed by more simple methods than are used in the more general case , and some of the formulae can only be deduced from the latter by employing the calculus of limits .
+I give here a brief summary of results and refer the reader elsewhere*for detailed analysis .
+We assume that 6 is not zero or a negative integer .
+I. By considering the contour integral we can prove that .
+II .
+If where the line of integration is straight , tends to infinity in the positive half of the -plane , does not cut the negative half of the real axis , and avoids the origin .
+* See ' Quarterly Journal of Mathematics , ' 1906 , vol. 37 , pp. 289-313 .
+GRAL FUNCTIONS DEFINED BY TAYLOR'S SERIES .
+III .
+If , we have the asymptotic expansion When is very small , we have the asymptotic expansion These expansions are truly asymptotic in the sense of S3 .
+IV .
+The large zeros of occur near the positive or negative directions of the imaginary axis .
+PART II .
+The Function defined , ) , by the TAYLOR'S series S7 .
+This function is , in BOREL'S language , the function associated with .
+It is a particular case of the more general function considered in Part IV .
+The detailed analysis is given in the paper to which reference was made in Part I. I. The function can , for all values of except those which lie on the real axis between 1 and ( the limits included ) , be represented by the system of integrals ( xz ; ) where is a contour which encloses the origin and embraces some line in the positive half of the -plane along which the integral is finite , and where is real when is real and negative and has a cross cut along this line .
+II .
+We deduce that the only finite singularities of must lie on the real axis between and ( the limits included ) .
+III .
+By using I. , coupled with the asymptotic expansion of , we can show that , if , and This formula gives the nature of the singularity of at , and shows that has no other singularities in the finite part of the plane .
+IV .
+The function xg satisfies the differential equation VOL. CCVI .
+MR. E. W. BARNES ON THE ASyMPTOTIC EXPANSION OF By considering this equation we may again deduce the expansion , valid when V. We may equally show that , when is sufficiently small , !
+, where is the simple Bernoullian function of of parameter unity .
+VI .
+When is not a positive or negative integer or zero , we have , if , and This formula gives the asymptotic value of when is very large .
+PART III .
+The Function S8 .
+This function is the generalisation of that considered in Part I. We assume that is not zero or a negative integer , and further that wherein the absolute value of the imaginary part of is less than If be real and negative , this convention fails to define for those terms for which .
+In these cases we may assume that the imaginary part of is equal to S9 .
+Suppose in the first place that .
+Then we have the following If , the integral vanishes when taken along any part of the great circle at infinity for which , where is any finite positive quantity , provided the circle pass between the points being a positive integer .
+The same integral is finite when taken along any parallel to the imaginary axis in the finite part of the plane , which does not pass through finite singularities of the subject of integration .
+* With this theorem the reader may compare the method used by the author to obtain the asymptotic cxpnnsion of the multiple gamma function .
+'Cambridge Philosophical Transactions , ' vol. 19 , SS INTEGRAL FUNCTIONS BY ) ) The second part of the theorem is true , since when and is very large , behaves like The first part follows from this fact in combination with the asymptotic expansion of for complex values of S10 .
+If be a contour parallel to the imaginary axis and cutting the real axis between and , the contour , if necessary , , a loop to ensure that is to its left as in the figure , then For by the lemma we may bend the contour round until it becomes the contour of the figure .
+The residue of the subject of integration at is Hence by theorem we have the proposition stated .
+S11 .
+Let be a contour parallel to the imaginary axis ( except for a loop round which cuts the real axis in between and , then This follows from CAUCHY'S theorem combined with the second part of the S 12 .
+The integral along the straight parts of the contour may be denoted by It is evident that tends to zero as tends to infinity for any finite value of In the remaining part of the integral put and we find the integral being taken round a contour , which encloses the origin and embraces the positive half of the real axis up to the point .
+The poles of are at the points , 1 , 2 , Hence , within a circle of radius equal to the minimum value of , it admits the convergent expansion I will show that admits the asymptotic expansion the rals being taken round a gamma-function contour which encloses the origin , embraces the axis , and passes from positive infinity to positive infinity again .
+This expansion may evidently be written We have , if be a finite positive integer , , the latter integrals being taken along the positive half of the real axis .
+If we denote the sum of these integrals by , we readily see that , for any finite value of , we can by taking sufficiently large make as small as we please .
+S 13 .
+We have now to consider the first integral in ( 1 ) .
+Let be a poin on the positive half of the real axis just within the circle of convergence of , so that the minimum value of , 1 , 2 , Then the first integral in question can be split up into two others , and ( say ) .
+We denote by the integral ound a contour ( say ) , enclosin the origin and passin from the point to this point again , being on the cross-cut which renders the subject of integration uniform .
+The remaining integral will be equal to INTEGRAL FUNCTIONS DEFINED BY TAYLOR'S SERIES .
+be the maximum value of on this lin , we shall have * Thus for all finite values of and , however large , we can take so large that , where and as small as we please , tends to zero as nearly as we please .
+Finally the integral By the substitution , we see exactly as in S5 that can be made as small as we please by taking sufficiently large .
+Hence can for any finite value of be made as small as we please by taking sufficiently large .
+Therefore , provided and is not real and negative , we have the asymptotic expansion the principal value of , which is real when is real and negative , being taken .
+S14 .
+We proceed now to obtain the asymptotic expansion of !
+in the case in which We will assume that is not real and negative .
+In this case the points , lie within an angle , vertex the origin , which is less than Let the bisector of this angle be the line , and let be the image of this line in the real axis .
+The figure is drawn for the case in which the imaginary part of is positive .
+Suppose now that when the logarithm is rendered one-valued by a cross-cut along the axis , and is such that it is real when is real and negative .
+Then* when the integral is taken along a contour , as in the figure , embracin the axis and the logarithm being rendered one-valued by a cross-cut along the negative direction of the axis of , and being real when is real and positive .
+It is a value of so defined which we suppose to intervene in the fundamental series by which is defined .
+[ Vide S 8 .
+] We now have S 15 .
+We may deform the original contour till it has the position of the figure .
+It thus consists of a small curcuit round the origin , the real axis from described both ways and a line from to parallel to the original direction of the 'M .
+G. p. 388 .
+[ In this manner reference will be made to the paper cited in S9 .
+] INTEGRAL FUNCTIONS BY TAYLOR'S SERIES .
+axis of the contour which is also described both ways .
+We suppose that the crosscut which renders uniform has been deformed with the contour .
+The value of the integral in the two directions along the final line is , putting the principal value of , which has a cross-cut along the ative h of real axis , being taken .
+The integral is a line integral along P. On this line .
+Hence the maximum value of the real part of is , where is a finite quantity independent of and Hence The last in is convergent and tends to a definite finite value as increases .
+When is large let us take .
+Then When will obviously tend to zero as tends to infinity , and this is of for all values of which are not real and negative , if S16 .
+We have now to consider the value of the original integral along the contour which consists of the small circuit round the origin and the real axis described both ways from R. We denote this integral by .
+Make the transformation .
+Then corresponding to the original modified contour we have a new contour as in the figure .
+This consists of a small circuit round the origin and the real axis described both ways from , where .
+The former line from to becomes an infinite spiral from round the point 1 up to this point , whole spiral being contained within a circle.of radius We now have the integral being taken round the origin from back to .
+The many-valued functions which intervene in the subject of integration are such that , when ( 1 ) , MR. E. W. BARNES ON THE ASyMPTOTIC EXPANSION OF the principal value of , which is real when is real and negative and has a cross-cut along the line joining and 1 , being taken .
+Evidently .
+For the evaluation of the other coefficients of the expansion the reader may refer to a paper by FERAND .
+* Now ?
+where is a gamma-function contour enclosing the origin and embracing the positive half of the real axis and the second line integral is taken along the real axis .
+Therefore where , and is a finite positive quantity for all finite values of Hence But as in S 5 we see that can be made as small as we please for any assigned value of by taking suffioiently large .
+Hence , when admits the asymptotic expansion Reverting to the value which we.obtained as the quantity greater than , we see that admits , when , the same asymptotic expansion .
+S1.7 .
+In the foregoing investigation may have any finite value while not real and negative ( zero included ) .
+But the expansion is valid even if be real and negative , provided it be not a negative integer .
+RAND , " " Bordeaux Process Verbaux 1896-97 , pp. 93-97 ; quoted in the ortschritte dsr Mathem ' vol. 29 , p. 375 .
+INTEGRAL FUNCTIONS DEFINED BY TAYLOR'S SERIES .
+For if lie between and , being a positive integer , we consider .
+By the theorem just proved , admits an asymptotic expansion .
+Also Hence , since by a theorem due to POINCARt , we may integrate an asymptotic series , the general result follows .
+* Finally we see that , if , and be not zero ' a negative integer , tho function admits the asymptotic expansion The coefficients are determined by the expansion , valid where S18 .
+But when , we have also obtained an asymptotic expansion , and the restriction that shall not be real and negative can be replaced by the tion that shall not be zero or a negative integer .
+Combining the two results we see that , when is large and not zero or a negative integer , the behaviour of is given by the sum of the two asymptotic expansions ( A ) .
+This double expansion is valid for all values of between and , except possibly those for which .
+It is , as we shall see later , true even in these cases .
+$ 19 .
+When , the function reduces to was previously considered .
+The 's are now determined by the expansion Therefore !
+The asymptotic formula ( A ) therefore reduces to , which was the result previously obtained ( S6 , III * The matter does not seom of sufficient importance for an elaborate proof .
+I may , howevor , refcr the reader to Mr. HARDY'S paper , p. 419 ( loc. cit. , S2 ) .
+VOL. CCVI.\mdash ; A. 2 MR. E. W. BARNES ON THE ASYMPTOTIC EXPANSION OF S20 .
+We have obtained the asymptotic expansion of in the two cases when and when by separate methods .
+By this , however , we are left in doubt as to the behaviour of the function on the imaginary axis .
+We proceed now to obtain the two expansions simultaneously .
+We shall limit ourselves to the case , as the result can then be extended to all values of , except those which are zero or a negative integer .
+As previously , we have where now , since , the contour can be taken to embrace the positive half of the real axis .
+Hence The first integral is taken round a circle of radius surrounding the origin , and ending on the positive half of the real axis , which is a cross-cut to render uniform .
+The second integral is taken along the real axis .
+If , the first integral vanishes as approaches zero .
+For simplicity we consider only this case .
+The limitation simplifies the statement of the proof : its absence does not affect the argument .
+By the substitution , we now obtain the integral being taken along the straight line from , the origin , to , the point now integral INTEGRAL FUNCTIONS DEFINED BY TAYLOR'S SERIES .
+round the contour of the figure .
+This contour consists of the real axis from to , the origin , the line , a circular arc of radius round as centre , and the line which passes to infinity parallel to OA .
+If we take throughout that value of which is onevalued on the plane dissected by a cross-cut drawn away from the origin from to infinity , and which is therefore represented in this region by the series ( summable and divergent when ) , we may use CAUCHy'S theorem .
+We thus see that The integral is the round the arc .
+It vanishes in the limit when , since .
+The two line integrals are taken along OA and respectively parallel to the positive half of the real axis .
+In the second integral we have made the substitution The first integral by the general theorem of S 5 admits the asymptotic expansion S21 .
+We proceed to consider the second integral .
+We have to seek to find on BD the value of which on OB admitted the expansion and which is represented by the continuation of this summable divergent series .
+Let , so that , its principal value being taken , being the angle of the figure .
+Let , so that is the angle given in the figure .
+We assume that is large , and consider the shaded area bounded by and When is real and positive , being less than is real .
+We will show that , for values of on within the shaded area , must take ( 2 ) , where , within the shaded area , the final logarithm is such that 2 ( i8 MR. E. W. BARNES ON THE ASYMPTOTIC EXPANSION OF admits the expansion Evidently the only trouble which arises is with the specification of the imaginary parts of the logarithms .
+Now when is large and , the imaginary part of is , the principal value of the inverse tangent which lies between and being taken .
+The imaginary part of is similarly , the inverse tangent again lying between and Also the imaginary part of when the value is taken which is represented within the shaded area by the series is also negative and lies between and When is large and is just greater than unity , all three imaginary parts are very small .
+The equality ( 2 ) is therefore established .
+S22 .
+We see then that within that part of BD which is within the shaded area the principal values of and being taken .
+And on the remainder of BD between and the expansion continues to hold as one which is divergent but summable .
+[ An exceptional case occurs when is real and negative , whgn a slight modification of the contour must be taken to avoid the point O. ] Therefore , by the fundamental theorem of S5 , we hay , when , for the expansion of the second integral , Finally , therefore , if , we have represented by the sum of the two asymptotic expansions This result is valid for all values of , with the assigned prescription for .
+GRAL FUNCTIONS DEFINED BY TAYLOR'S .
+SERIES .
+The Asymptotic of , when tends to Infinity .
+S23 .
+The previous asymptotic expansions give us no indication of the behaviour of when rows indefinitely , and .
+For although we have seen that , so long as is finite , , where tends to a definite finite limit when grows indefinitely , yet as tends to infinity it is possible that will also grow indefinitely .
+This possibility must now be examined .
+S24 .
+We base our investigation on the properties of the function The series is convergent if .
+For , if , the general term is equal to where to zero and tends to infinity .
+Thus , however large the imaginary part of may be ( even if it is infinite ) , the series will be absolutely convergent provided , that is to say , provided The following argument would have been more simple ; it would not however have brought out so clearly that the imaginary part of may be infinite .
+If denote the nth term of the series , Hence , by a known theorem , the series is convergent if S25 .
+We will now show that , if the integration being the positive half of the Let Then , if , and , and , as before , Now tends to a definite finite limit as tends to infinity .
+Let be its maximum value when N. Then , where tends to zero as tends to infinity .
+Hence , if , if , where is a definite finite quantity independent of and Hence , if Thus tends to zero as tends to infinity if and Now if Make now tend to infinity , and we see that , if and But both sides of this equality are continuous and finite except for the poles of , if and .
+Therefore the ] holds under this limitation .
+INTEGRAL FUNCTIONS DEFINED BY TAYLOR'S SERILS .
+S26 .
+We will next show , if , when is , where is finite dependent of For , if where is a definite finite quantity independent of But , when tends to infinity , tends to a definite finite limit .
+We therefore have the given theorem if When } , we can , if be finite , find a finite number such that .
+We can write down a modified integral which shall express all but the first terms of .
+The argument used above will hold for the modified integral ; the proposition to be proved is evidently true for the first terms of .
+And therefore we may establish that the theorem is true under the sole limitation not being zero or a negative integer . .
+We will next show that , if be contour in the finite part of the parallel to the cutting the real axis in point for which , if In the first place we see that this integral is finite .
+For the series for is convergent if , and as tends to infinity , Thus the subject of integration tends exponentially to zero if Let now be a contour embracing the positive half of the real axis and cutting this axis in the same point as .
+As we are ultimately to make very large , we shall assume that includes the origin .
+Evidently by CAUCHY'S theory of residues Hence denote the sum of the first terms of the series by which is defined , Now , if tends exponentially to zero as tends to infinity if finite negative quantity , and if be not in the neighbourhood of the poles of .
+Therefore the previous integral will vanish when taken round an infinite contour for which finite negative quantity .
+Hence Suppose now that tends to infinity .
+Each side of the equality tends to a definite finite limit , and we have the given theorem .
+S28 .
+We will now show that , if be a positive quantity such that , if be any finite quantity , however large , such that , where , where can be made as small as we please , for values of large , by sufficiently For we have We take the straight contour to cut the real axis in the point , where Putting , the integral becomes ( say ) .
+From this integral we can show that can be made as small as we please by taking sufficiently large .
+And as increases indefinitely can be made as small as we please .
+We thus have the theorem enunciated .
+It is evident that by studyin the singularities of the function ) we could obtain anew the asymptotic expansion of when .
+This problem I reserve for a future occasion .
+PART IV .
+The Singularities of .
+S29 .
+The function defined when by series can be studied by the methods previously developed .
+We assume that is not zero or a negative integer , and that is not equal to zero or a positive integer .
+When , the function becomes previously considered in Part II .
+When is a positive integer , the function can be derived from the case by differentiation with regard to On account of the length of this paper I give some theorems relating to this function , leaving the development of the theory for publication elsewhere .
+* I. The function has a single singularity in the finite part of the no .
+This singularity occurs at and is not an essential singularity .
+Near is many-valued .
+II .
+The function has no singularities in the finite part of the plane , except the singularity due to at the origin , and if , it admits the expansion where is the simple Riemann -function of parameter unity .
+* See a forthcoming paper in the ' Proceedings of the London Mathematical Society .
+' INTEGRAL FUNCTIONS INED BY TAYLOR'S SERIES .
+m-- .
+The function is one-valued near in the vicinity of this point admits the convergent expansion , where denotes the ple Riemalm -function of equal parameters unity .
+IV .
+If be not real , the function the negative or positive sign being taken as I is or , is o1le-valued near , and has no singularity at this point .
+V. If be not zero or a positive or negative integer , admits , when is very large , the asymptotic expansion This theorem is true when is a positive integer , in which case the final series is a finite series of terms .
+When is a positive integer , a modification of the formula can be deduced .
+When and is a positive integer , we obtain SPENCE'S formula.$ VI .
+Similar analysis holds for the more general function defined when by PART V. The Function S30 .
+We proceed now to use the previous asymptotic expansions to obtain similar expansions for very general types of integral functions .
+Let be a function of which outside a circle of radius admits the expansion , so that for values of greater than an assignable quantity where Suppose further that the points all lie outside this circle , and that the modulus of the least of them is taken to be * DE MORGAN , 'Differential and Integral Calculus , ' 1842 , p. 659 .
+VOL. CCVI.\mdash ; A. 2 AhlI E. W. BARNES THE EXPANSION OF We proceed to show that the function may be written as the sum of functions , and to obtain its asymptotic expansion when We have at once If then , we have where is the minimum value of The modulus of the series is therefore less than , since Hence where Hence tends to zero as tends to infinity , since .
+We therefore have , the series being absolutely convergent for all finite values of S31 .
+We will next show that , ) where tends to zero as tends to infinity .
+The given by the expansion , when GRAL FUNCTIONS INED BY TAYLOR'S We have .
+Consider the second series .
+Howeyer large .
+may be , put where , by ( ' , can be made as small as we please by taking sufficiently large .
+Hence where can be made as small as we please by taking sufficiently large .
+For we have only to take so large that the quantities form an absolutely convergent series .
+Again , by the asymptotic expansion , when , we have where the are defined as in the enunciation of the present proposition , and where can be made as small as we please by taking sufficiently We therefore have ( A ) , where and can be made as small as we please by taking sufficiently large .
+If , now , we take and combine the two results just obtained , we have the proposition stated .
+S32 .
+The reader will notice the far-reaching generality of the function whose asymptotic expansion has been obtained .
+He will also notice that we have shown that from the asymptotic expansion of each of a convergent series of functions we have derived an asymptotic expansion for the function represented by the series of functions .
+S 33 .
+Let us now consider the symptotic expansion of We have seen that . . . . . .
+( 1 ) .
+Also , when , we have the asymptotic equality where tends to zero as tends to finity .
+By the previous investigation this equality is seen to hold good for all values of however large .
+Let denote the sum of the first terms of the series ( 1 ) .
+Then , asymptotically , It is at once evident that any attempt to make tend positively to infinity will introduce .
+series in ascending powers of .
+This series ca1mot be asymptotic : it may be convergent , or it may be divergent but summable .
+In order to investigate its nature , we shall limit ourselves to the case where is a positive integer .
+In this case the series proceeding in descending powers of will be finite , and if we take is less than , when is large , however large may be .
+We have then The double series may be written Thus .
+S34 .
+Suppose now that tends to infinity .
+The series can , even when multiplied by finite positive power of , be made as small as we please by taking sufficiently large .
+The series is absolutely convergent .
+For if be the minimum value of , so that is the distance of from the nearest of the points , , we have , if 'herefore rhus , , the series i9 absolutely convergent , since INTEGRAL FUNCTIONS FINED BY TAYLOR'S SERIES .
+Again , where is sufficiently large , , where ; and therefore where is finite and independent of all of wever 1 , provided Hence , when ends to infinity , where is finite ; and thus the series is convergent provided is finite .
+We therefore have the asymptotic equality ( B ) .
+This equality is valid provided .
+The function is such that its modulus , even when multiplied by , however large the finite quantity may be , can be made as small as we please by taking sufficiently large .
+And denotes the integral function ( say ) .
+The quantity is such that the modulus of its imaginary part is less than We see then that the process which we have employed , even in the case where is an integer , makes the asymptotic expansion of , when , depend on that of the integral function of which we have written S35 .
+We proceed now to apply the tloeo of contour integratio to problem .
+We have and admits the expansion outside a circle of finite radius We may represent by the contour integral taken round a contour embracing the positive half of the real axis and enclosing , 1 , 2 , , but no other poles of the subject of integration .
+If , 1 , 2 , , the whole circle of convergence of , i.e. , a circle of radius centre , lies outside the contour .
+If inequality does not hold , the contour , bas to be indented to include , 1 , 2 , , but no singularities of .
+This is always possible if is not infinite for any positive integral ( including zero ) value of Suppose now .
+Then the integral will vanish along any part of an infinite contour for which is greater ttJan a finite negative quanity ( say ) .
+Hence , if taken a contour which consists of the infinite line , and a loop from a point on this line which includes the singularities of , but none of those of .
+Hence if we neglect terms of order , we see that , when is large and , we have .
+( 1 ) taken round a contour which encloses within its bulb the singularities of , but none of the points , , and which embraces the half of the real axis .
+In this integral the principal value of , which is real when is real and negative , must be taken .
+It is by evaluating this integral for assigned values of that we can obtain the asymptotic expansion of when S S6 .
+Consider the case when is an integer , positive or negative .
+In this case subject of integration is one-valued .
+The integral can therefore be taken along a finite contour which encloses the singularities of , but not the poles of .
+The residues at the latter points will give rise to a finite number of algebraical terms , i.e. , terms which involve algebraical powers of , if there are any such points within the circle of convergence of .
+Making due allowance for such terms , we may take the integral round a circle just larger than this circle of convergence .
+This integral when is large will be at most of order .
+The same is true of the general when is not .
+We thus get a superior limit to the asymptotic value of when and is or is not integral .
+Further progress must be made by a detailed examination of the singularities of within its circle of convergence .
+INTEGRAL CTIONS DEFINED BY The Function 537 .
+To the theory which jnst bee developed , we will discuss tloe function in which or integer .
+With our previous notation we have !
+, and may be taken as nall as we please .
+Hence , when , we have where tends to zero as tends to infinity , and where Now the coefficients , are given by the expansion , valid when Hence is the coefficient of in the expansion of in ascendin powers of when The reader will notice the connection between the sel.ies in the square brackets and , where is BESSEL'S function of zero order .
+When , we have now obtained the asymptotic expansion S38 .
+Consider next the when Then , if , we see that is equal to provided we neglect terms whose modulus when multiplied by , where has any MR. E. W. BARNES ON THE ASyMPTOTIC EXPANSION OF finite value , can be made as small as we please by taking sufficiently large .
+The integral is taken in the positive direction round a small circle enclosing The integral is equal to where is the coefficient of in the expansion of We therefore have Hence , when , where for any finite value of tends to zero as tends to infinii , The double series obviously represents an integral function of , and may be written , where .
+Using the notation for the series the double series may be written .
+( Compare Part X. ) S39 .
+We proceed now to obtain asymptotic expansion for this function of For this purpose we shall anticipate the asymptotic expansions of the hypergeometric series , which will be subsequently developed .
+We shall show that asymptotically wherein and denotes the positiye value of the square root when is real and positiye .
+The series The modulus of the error which results from stopping at any term of the given series is less than that of the last term retained when is very large .
+INTEGRAL FUNCTIONS DEFINED BY TAYLOR'S SERIES .
+We shall also show that howeyer large may be , if be any finite quantity , we may put ' where , by taking sufficiently large , we may make as small as we please ; and where tends to a finite limit as tends to infinity , remaining constant .
+We now put The first series in which the summation is taken from to is equal to where denotes that the sum of the first terms of the series in ascendin powers of is to be taken .
+The modulus of can be made as small as we please by taking sufficiently large .
+The second series is equal to ' where for all values of can be made as small as we please by sufficiently increasing Since is absolutely convergent , we see that the second series may be written ' when tends to zero as tends to infinity .
+Finally , therefore , if and admits the asymptotic equality where can be made as small as we please by taking sufficiently large .
+S40 .
+Ws have therefore obtained the nature of the asymptotic expansion of for the two cases when and when integral which was employed in S 35 showed us that in the latter case when is very large is of order less than the order of when We readily see that this is in agreement with the preceding result .
+VOL. CCVI . .
+2 The investigation just concluded has emphasised the fact that the asymptotic expansion of the more general function considered at the beginning of this Part of the memoir demands , when , a knowledge of the nature of the finite singularities of .
+PART VI .
+The Function , when S 41 .
+The function is defined when by the series where outside a circle of radius , where is the least of the quantities , 1 , 2 , admits the absolutely convergent expansion The following propositions may be established:\mdash ; I. When can be written in the form .
+II .
+The function has a single singularity in the finite part of the plane .
+This singularity occurs at , and is a multiform point .
+III .
+Near behaves like if be not a positive or negative integer ( zero included ) .
+In fact , the difference between and this expression can , when , be expanded in the absolutely convergent series .
+This theorem I first prove for the case when , by means of contour similar to those employed throughout this memoir , and then extend to all values of such that , by means of the difference formulae for multiple Riemann functions .
+IV .
+Whether be integral or not , in fact , for all values of of finite modulus , provided the points , 1 , 2 , all lie outside the circle of convergence of , INTEGRAL FUNCTIONS DEFINED BY TAYLOR'S SLRIES .
+where is a contour which embraces the positive half of the real axis and includes within its bulb the circle of convergence of .
+V. When is very large , the final in the equality just written is equal to , where , if tends to zero as tends to infinity .
+We thus obtain a superior limit to the asymptotic value of when is large .
+The problem of actually obtainin an asymptotic expansion depends upon a knowledge of the singularities of within its circle of convergence .
+PART VII .
+The Functions .
+S42 .
+The asymptotic expansions of these two functions are connected with one another .
+The functions do not belong to the categories previously considered ; their functions have not finite radius of convergence .
+We give the results which may be obtained for these two functions , rring the reader elsewhere for the detailed analysis .
+I. If , we have , if the integration being taken along the positive half of the real axis .
+Hence , if , we have the asymptotic expansion the principal value of , which is real when is real and negative , and which has a cross-cut along the positive half of the real axis , being taken .
+II .
+When and , we have By the substitution we deduce the asymptotic expansion the 's being definite constants .
+* See a paper which will shortly appear in ' Cambridge Philosophical Transactions , ' vol. 20 .
+MR. E. W. BARNES ON THE ASyMPTOTIC EXPANSION OF III .
+When , we may obtain the same expansion as in Case I. IV .
+The expansions of Cases I. and III .
+may also be obtained by considering the contour integral V. When , we obtain the asymptotic expansion valid for all values of , if when VI .
+If denote the function , we have ' Hence , if the 's being definite constants .
+VII .
+We can deduce this result from the result of I. by means of the contour integral VIII .
+By considering the contour integral , we can show that , when Thus , when needs two asymptotic series for its expression .
+IX .
+The previous result can also be obtained by combining the results of III .
+and VII .
+X. Similar analysis can be applied to series of the type where , and is an integer .
+INTEGRAL FUNCTIONS DEFINED BY SERIES .
+The Function S 43 .
+After the previous investigations it is natural to consider the function This function has been denoted by by MITTAG-LEFFLE .
+has discussed its asymptotic behaviour .
+A reference to his papers will show how differently the methods of this memoir lead us to attack the problem which hc has solved .
+We will first consider the results which MITTAG-LEFFLER has obtained for the case .
+He shows that 1 .
+approaches zero when , where 2 .
+When approaches 3 .
+diminishes indefinitely when It is evident that , where , and that , when is an asymptotic series .
+We assume then It is evident that we may write where the integral is taken along a contour which encloses the points , 1 , but no other poles of the subject of integration and which embraces the positive half of the real axis .
+Now when and is large , behaves like .
+Therefore the integral vanishes when taken along any part of an infinite contour for which , where is a finite positive quantity , if .
+In order that this equality may have a meaning , we assume Hence , under these restrictions , where is of order less than when is large .
+Changing into , we see that , if , we have the asymptotic equality ( ) , when -LEFFLER , ' Comptes Rendus , ' tome 137 , pp. 554-558 , 1903 .
+MR. E. W. BARNES ON THE ASyMPTOTIC EXPANSION OF S44 .
+We consider next the asymptotic expansion of for other values of For this purpose we investigate the contour integral which is taken along a contour which embraces the positive half of the real axis and encloses the poles of and the points , 1 , 2 , , but no other poles of the subject of integration .
+It is equal to .
+Now when and is very large , the subject of integration tends exponentially to zero if If , this condition gives ; and if , we must have If these conditions are satisfied , the integral vanishes round that part of the circle at infinity for which , where is a finite positive quantity .
+We may deform the contour in the usual way , and we see that the integral is equal to where denotes the integral along a line parallel to the imaginary axis cutting the real axis between and .
+Thus , when is large , is of order less than Under the assigned conditions , we therefore have the asymptotic equality ( B ) , in which we have at most neglected terms of order lower than any algebraical power , when is large .
+The conditions show that , when , the expansion is valid over the whole plane at infinity .
+When we see that the expansion is valid over all the area at infinity not covered by the condition of the previous paragraph as well as over part of that area .
+In the investigation of the present paragraph we may have .
+If INTEGRAL FUNCTIONS DEFINED BY TAYLOR'S SERIES .
+where , the asymptotic expansion ( B ) has only been proved to be valid over the area given by S45 .
+It is at once evident from the expansion ( B ) that , if , we have , when when Therefore behaves like In thus finding the complete asymptotic expansions for , when , we have incidentally verified all results .
+S46 .
+We proceed next to consider the asymptotic of when In this case MITTAG-LEFFLER shows that:\mdash ; 1 .
+If diminishes indefinitely as increases , the summation embracing all real numbers such that 2 .
+If wherein diminishes indefinitely as increases .
+S47 .
+To obtain the complete asymptotic expansions which correspond to these results , we consider the contour integral wherein is an odd positive integer equal to ( say ) , and the contour of the integral embraces the positive half of the real axis , and encloses the poles of and the points , 1 , 2 , , but no other poles of the subject of integration .
+By CAUCHY'S Theorem of Residues the integral is equal to Now , if , we have Hence the integral is equal to Now , if , the integral will tend exponentially to zero when is large if - . . . . . .
+( 1 ) .
+We suppose in the integral that , and we take that value of which is such that If now , we obtain from the condition ( 1 ) and this will hold for all values of which are , provided On the other hand , if , we must have and this will hold for all values of which are if The contour integral will therefore vanish , when taken around that part of the circle at infinity bounded by , when is a finite positive quantity , for all values of which are if we take such that either or In either case therefore the integral will be equal to where , when is large , is oflower order than We therefore have ( C ) .
+This asymptotic equality is valid for all values of between ( the limits included ) if be so chosen that either or INTEGRAL FUNCTIONS ) EFINED BY TAYLOR'S SERIES .
+28 !
+) Apparently , then , the expansion is not unique .
+But this indeterminateness is illusory , for it only corresponds to terms of the sum for which does not lie between If we neglect these terms , which may be absorbed in , we may say that admits the asymptotic expansion wherein takes all integral values ( positive , negative , or zero ) such that any value between , these limits included .
+This is equivalent to ' results .
+Tl , Function S 48 .
+It is evident that the results just obtained admit of many extensions .
+As typical of these we may consider the function wherein and is not equal to zero or a negatiye integer .
+We see at once that the integral being taken round a contour which embraces the positive half of the real axis and includes the points , 1 , 2 , , but no other poles of the subject of integration .
+We assume that , and that the logarithm has its principal value whose argument lies between .
+We also assume that and that if be not real , the logarithm has its principal value with respect to a cross-cut drawn from , parallel to the negative direction of the real axis .
+If were ] , we should slightly deform this cross-cut .
+We omit the consideration of this particular case in the following investigation .
+We assume in the first place that .
+Then if , the integral vanishes along that part of a great circle at infinity for which CCVI .
+We therefore have the latter integral embracing the positive half of the real axis and including the origin , but no other singularity of the subject of integration .
+Since the zeros of lie outside the contour , we may employ the summable divergent series under the of integration .
+The integral will then be represented asymptotically by If then , we have the asymptotic expansion Therefore when , and , we have .
+In this formula the principal value of , whose imaginary part lies between , is to be taken , and is defined with reference to the cross-cut previously taken .
+S49 .
+To obtain the asymptotic expansion of for other values of when , and for all values of when , we consider the contour integral round a contour which embraces the positive half of the real axis and includes the poles of and the points , 1 , 2 , , but no other singularities of the subject of integration .
+In the subject of integration is an odd positive integer equal to ( say ) , and and are defined as in the previous section .
+The integral is evidently equal to The first series is equal to INTEGRAL FUNCEIONS DEFINED BY SERIES .
+where Now we have obtained the asymptotic expansion ( S22 ) where the 's are defined by the expansion , valid when If , we see , as before , that it is sufficient to take such that , or , in order that the integral may vanish for an infinite contour for which When , we may take .
+And when , we may take provided Under these conditions the integral is asymptotically equal to The contour of the integral embraces the positive half of the real axis and contains no singularities of the subject of integration except the origin .
+The terms neglecied in the equality are of order less than any algebraical power of , when is large .
+To obtain an asymptotic expansion for the integral , we may , under the integral sign , employ the summable divergent expansion The integral is then represented by All these asymptotic expansions are negligible compared with the dominant terms of Hence when , and , we have asymptotically where is given by the expansion valid when ARNES ON THE ASyMPTOTIC OF And when , we have asymptotically for all values of wherein takes all integral values , positive , negative , or zero , such that PART IX .
+The Function S50 .
+Generalised hypergeometric functions form a wide class of integral functions whose asymptotic expansions are closely connected with the theory of linear differential equations .
+The general type of such series is wherein This series we shall denote by or briefly by The series satisfies the differential equation , . .
+( 1 ) , where .
+The equation is of order , and the other solutions are given by and similar functions .
+I give here some of the results which I have obtained by applying integrals of the types used to the theory of these series .
+For detailed investigations I refer to a forthcoming paper .
+* I. The series satisfies the equation Caml)ridge Philosophical Transactions , ' vol. 20 .
+INTEGRAL FUNCTIONS BY TAYLOB'S SERIES .
+An independent solution of this equation is .
+II .
+By coloeidering the contour integral \mdash ; , we may show that This result is valid for all values of .
+It been otherwise obtained by ORB .
+III .
+By considering the contour integral we may show that , when admits the asymptotic expansion IV .
+Combining II .
+and III .
+, we show that , when , 1F1 admits the asymptotic expansion V. The combination of III .
+and IV .
+gives us the complete asymptotic expansion of This I have verified by means of integrals taken round double loop contours of POCHHAMMER'S type .
+VI .
+It is possible to take such a linear combination of the two solutions and as will admit all round the single asymptotic expansion By considering the contour integral we can , in fact , prove that , when This theorem is equivalent to two different results when .
+By this means we can obtain III .
+anew .
+MR. W. BARNES ON THE rOTlC EXPANSION OF VII .
+Similarly , when , we have VIII .
+If we put , we obtain the function .
+For this function we obtain , when , the asymptotic equality This result can be otherwise obtained from the equality PART X. The Function S 51 .
+I. The function , wherein may have any value which is not zero or a negative integer , satisfies the equation A second independent solution is .
+Evidently the function is substantially BESSEL'S function .
+We have II .
+By considering the contour integral , we prove that This result is valid for all values of , and for the case of real variables was first established by KUMMER .
+By means of this theorem we deduce the theory of the function from the theory of the function developed in Part IX .
+INTEGRAL FUNCTIONS DEFINED BY TAYLOR'S SERIES .
+III .
+For all values of we have the asymptotic expansion We take that value of which is equal to , the logarithm being real when is real and positive and having a cross-cut along the negative half of the real axis .
+Similarly is equal to when the logarithm is real , when is real and negative and has a cross-cut along the positive half of the real axis .
+IV .
+We may deduce the asymptotic behaviour of BESSEL'S function .
+The theorem , though its expression is more concise , is equivalent to the esults obtained by STOKES .
+V. By considering the integral - we may prove that , if PART XI .
+The Hypergeometric Functions .
+S 52 .
+When , the generalised geometric functions are integral functions .
+We limit ourselves to this case .
+I. By considering the contour integral we may show that linear combination of functions , other terms similar to the last , admits the asymptotic expansion , , ; , , ; provided There are evidently relations similar to the one just written , each corresponding to an asymptotic solution of the differential equation ( 1 ) of in the neighbourhood of .
+There are other asymptotic solutions near will be asymptotic expansions of other linear combinations of the fundamental hypergeometric functions .
+[ II .
+] The linear combination of hypergeometric functions ; can be expressed by the contour integral and provided , this integral may be taken along a line in the finite part of the plane parallel to the imaginary axis .
+If , we obtain where when INTEGRAL FUNCTIONS DEFINED BY TAYLOR'S SERIES .
+We can infer that asymptotically , when is large , , where tends to unity as tends to infinity .
+The complete asymptotic expansion is thus made to depend upon the determination of the singularities of .
+The relation obtained holds when , and is thus equivalent to independent relations .
+In this way the asymptotic expansions of ) differential equation for the generalised hypergeometric equation are connected with the solutions which are integral functions in the finite part of the plane .
+The results agree with those of ORR ; the methods , however , which have been suggested enable us to dispense entirely with his elaborate analysis .
+VOL. CCVI.\mdash ; A. 2
+

@@ -1,0 +1,259 @@
+]\gt ; [ 279 ] VII .
+A Theory of Asymptotic Series .
+G. N. WATSON , M.A. , Fellow of Trinity College , Cambridge .
+by G. H. HARDY , f'.R.S .
+December 5 , \mdash ; Read March 23 , 1911 .
+CONTENTS .
+Page Introduction and historical summary . . . . .
+279 PART I.\mdash ; THE CHARACTERISTICS 0F ASYMPTOTIC SERIES .
+1 .
+The definition of characteristics .
+Theorem I. . . . . . .
+282 2 .
+The products of asymptotic series . . . . .
+284 3 .
+The exponential of an asymptotic series . . . . .
+288 4 .
+Three general theorems .
+Theorem II . . . . . .
+290 5 .
+Theorem III . . . . . . . . .
+292 6 .
+Theorem . . . . . . . . . .
+293 PART \mdash ; ANALYTIC FUNCTIONS DEFINED BY AsYlIPTOTIC SERIES .
+7 .
+Lemma .
+An extension of PHRAGMEN'S theorems . . . . . .
+295 8 .
+Theorem V. The uniqueness of a function defined by an asymptotic series 300 9 .
+Conditions for the " " summability\ldquo ; of a function . . . . .
+302 10 .
+Properties of a function duced from its associated function . . . . . .
+310 11 .
+The characteristics of the " " li\ldquo ; function . . . . .
+311 12 .
+Conclusion . . . . .
+313 Introduction and IN their efforts to place mathematical analysis on the firmest possible foundations , ABEL and CAUCHY found it necessary to banish non-convergent series from their work ; from that time until a quarter of a century ago the theory of divergent series was , in general , neglected by mathematicians .
+A consistent theory of divergent series was , however , developed by POINCARt in 1886 , and , ten years later , BOREL ciated his theory of summability in connection with oscillating series .
+far as diverging power series are concerned , the theory of BOREL is .
+more precise than that of POINCARE .
+VOL. CCXI .
+19.7 .
+11 Since the paper of appeared , researches have been published by a host of mathematicians .
+It is sufficient to mention the names of CoeARo , LB ROY , VAN VLECK , STIELTJES , MELLIN , , BARNES , HARDY , and LITTLEWOOD as investigators , either of the general theory of oscillating and asymptotic series , or of the asymptotic expansions of particular classes of functions .
+Complete bibliographies are to be found in BROMWICH'S 'Theory of Series , ' and BARNES ' ' Memoir on Integral Functions .
+' * The former work contains an exceUent history of the subject .
+It might be considered that , when the theories of POINCARE ' and BOREL had been discussed with such vigour , there would be comparatively little room for further general developments of the subject .
+In this memoir , however , I propose to iscuss an aspect of the theory which has hitherto remained unnoticed , and which promises to have many useful applications .
+In fact , I have already found it to be of importance in connection with the of expanding an arbitrary function in a series of inverse factorials , and it is highly probable that the theory can be employed with advantage in particular cases of the problem of expanding an arbitrary function in a series of normal functions .
+A simpler application is that of determining an upper limit to the number of terms that should be taken in a given asymptotic series in order that , for a given value of the variable , the difference between the asymptotic expansion and the analytic function represented by the expansion should be as small as possible .
+It is convenient here to specify precisely the meaning of certain expressions used in the sequel:\mdash ; ( i ) If be a real variable , the statement means that some positive number ( independent of x ) exists , such that .
+Thu.s it might be convenient to take ( ii ) A function , of a complex variable , is said to be analytic in the region when the function has no singularities in the interior of the region , although it may have singularities on the boundary We say that the function is analytic in the region when some positive number exists such that the function is analytic in the region ( iii ) A function is said to be analytic in the sector when , if be any singularity of in the finite part of the plane , is not within the sector , and the distance of from the boundary of the sector is at least equal to .
+The statement does moean that is " " regular about the point i.e. , that can be expanded in a convergent series of negative integer powers of if be sufficiently large .
+( iv ) When a region is specified by means of two inequalities e.g. , ) we mean the region in which both the inequalities are satisfied , unless an explicit statement is made to the contrary .
+( v ) It is necessary to make use of the ideas of ' ' Orders of Infinity\ldquo ; so frequently that attention is rarely directed to their use .
+Thus , if we have where is finite , and is any integer , no matter how large , we should , if necessary , say at once that !
+where is finite .
+Before proceeding , it is desirable to summarize the chief points of the theories of POINCARt and BOREL:\mdash ; 'Phil .
+Trans , vol. 199 , pp. 411-500 , 1900 .
+HARDY , " " Orders of Infinity\ldquo ; ( ' Cambridge Tracts in Mathomatics , ' No. 12 ) .
+G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+( i ) A function is said to possess an asymptotic expansion ( in the sense of POINCARf ) for large values of and for a certain range of values of , if , for such values of , the function can be expressed in the form where when The quantity is finite , is any assigned finite integer , and is a finite depending on and , but not on ( ii ) BOREL'S theory is an attempt to associate with the series a quantity , , which shall be equal to the sum of the series if the series happens to be convergent , and which shall have a definite meaning if the series be divergent .
+Putting , BOREL defines by the equation ; when the integral converges , the original series is said to be summable This theory requires some knowledge of the singularities of the function .
+Such .
+a requirement is a defect of the theory , so far as many applications to asymptotic expansions are concerned , for it will often happen that , when we are given a function , we can obtain an asymptotic expansion of POINCARt'S type with some knowledge of the values ( or the upper limits of the values ) of , , ; we may be able thence to deduce the radius of convergence*of the series for the function , and yet have no knowledge of the singularities of outside the circle of convergence of the series for .
+By this lack of knowledge BOREL'S theory is robbed of a great deal of its usefulness .
+Some severe strictures have been passed by upon BOREL'S theory for other reasons .
+After these preliminary statements , we summarize the objects of this paper .
+In Part I. we define certain quantities called cteristics , which bear much the same relation to an asymptotic series as the radius of convergence bears to a convergent series .
+The definition is a natural consequence of an attempt to impart more precision * Which may be finite , as in the case when See , e.g. , the assumptions made in S104 of BROMWICH'S ' Theory of Infinite Series .
+' At the Fourth International Congress of Mathematicians See the 'Bulletin of the American Mathematical Society , ' vol. .
+( ser. 2 ) , p. 485 .
+VOL. CCXI.\mdash ; A. 2 to 's theory by making use of some of BOREL'S ideas , use of any of the properties of BOREL'S associated function , ) , so the singularities of this function outside its circle of convergence are concernecL Mr defining the characteristics of a series , we proceed to prove a number of simple theorems concerning the characteristics of series derived in various manners from a series with given characteristics .
+So far the analysis would not appear to have any practical importance .
+To justify existence we investigate , in Part II .
+, the circumstances in which an analytic function , known to possess an asymptotic expansion with assigned characteristics , determined uniquely by its asymptotic expansion .
+* It is then possible to determine circumstances in which an asymptotic expansion , with given characteristics , is " " summable\ldquo ; by the method of BOREL .
+Finally we investigate the characteristics of the asymptotic expansion of a function derived from the " " logarithmic-integral\ldquo ; function , as a simple example .
+Further examples , namely , of the gamma function and of MITTAG-LEJi'FLER'S function , , are contained in another paper by the writer .
+It should be mentioned here that the theory described in this memoir does not cover the investigation of those functions for which BOREL'S associated function , , has a sequence of singularities at the points , , such that ; such an associated function would be , e.g. , , which singularities at the points ( any integer ) .
+It seems , however , that non of the ordinary functions of analysis possess associated functions of this nature .
+PART I.\mdash ; THE CHARACTERISTICS 0F ASYMPTOTIC SERIEa 1 .
+The type of function , , which we shall discuss , is subject to the condition that , when where given finite quantities ) , it can be expressed in the form , ( ) where .
+( 1A ) . . . . . .
+( 1B ) The number is any integer , and the quantities are independent of It is known that an asymptotic expansion of POINCARt'S type does not determine an analytic function uniquely ; thus and .
+have the same asymptotic expansion , when is large and To be published shortly in the 'Quarterly Journal of Mathematics .
+' Throughout Part of the paper the functions are not restricted so as be MR G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+The novelty introduced in these assumptions lies in the fact that we consider and ( or , more precisely , the moduli of these quantities ) as functions of for all values of , no matter how large .
+It will be convenient to give names to the quantities ; we shall call characteristics of the series ( 1 ) ; will be called a grade , an outer grade , a radius , an outer rudius of the expansion .
+The quantities A and will be called constants of the expansion .
+If an inequality of the form ( 1A ) can exist when , but not when , we might , for greater precision , call the principal grade of the series ; and the smallest possible value of associated with might , in like manner , be called the rincipal radius ; similarly we could define the ' principal outer grade and the principal outer radius .
+But it is found that this additional precision is unnecessary , and we will accordingly prove all our propositions for any possible characteristics ; and , further , it may be stated that the characteristics , determined for particular series ( such as the asymptotic expansion of the gamma function ) by the ordinary processes of analysis , are of such a magnitude that , although they may not be principal characteristics , we could not expect to obtain any additional knowledge of the functions investigated by knowing the actual values of the principal characteristics .
+Examples ( i ) Let , where as , and is real and positive .
+The principal grade is The radius is ( by asymptotic expansion of the gamma fumction ) provided that the upper limit of , as , is not If the upper limit of is , the quantity is a possibl radius , where is an arbitrary positive quantity , but not zero .
+( ii ) Let where and are real and positive .
+The quantity is a possible ; and is a possible radius ; and being arbitrary positive quantities , but not zero .
+( iii ) The reader may prove that , if ) be defined by ( 1 ) , then has the same characteristics when and , where the path of integration is the straight line which , when produced backwards , passes through the origin .
+Theorem I.\mdash ; If possible characteristics of an expansion , then , if we regard and as being given , we assume that the quantities and such ( i ) ; ( ii ) if For from equation ( 1 ) we have so that i. e. , Now , for all values of , where .
+may be taken to be a finite number independent of Therefore , since .
+assuming that is not zero , we have Comparing this equation with ( 1A ) , we see that is a possible grade ; in other words , if we are given a number as an outer grade , and a number , greater than , as a grade , we may take as a new possible grade .
+We also see that if , and we are given as an outer radius , and a number greater than as a radius , we may take as a new possible radius. .
+2 .
+Let us now consider the product of two functions , whose expansions ( valid over a common range of values of ) , are Let possible constants and characteristics of these expansions be ; respectively .
+We shall show that , for the range of values of for which both these oxpansions are valid , the product can be represented by an asymptotic series of which possible characteristics are ; where denote the greater of the numbers respectively .
+By direct multiplication where , so that Now , when* is positive and decreases a.s increases till ; when increases with and when * DE MORGAN'S Differential and gral Calculus ' , p. 690 .
+MR. G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+Also , say .
+So that if ; and if , further , .
+Returning to the definition of , we get from these results where if and and if either or both of the conditions are satisfied .
+Now consider function of a continuous real variable .
+If denote the logarithmic derivate of the gamma function , we have But , since , we see that increases with Hence is negative when ; and therefore , in the summation the terms decrease until the middle term ( or terms ) and then increase , terms equidistant from the beginning and end of the summation being equal .
+Two distinct cases now come under our consideration , ( I. ) when , ( IL ) when In the first case , using the equality we have , from the result just proved , , From this we deduce*that .
+( 2 ) In the second case , let be the greatest integer such that When , we have , as in the first case , than oqual tnity .
+, so that , , we deduce from the inequality on the preceding page : .
+Lastly , when , we have since when , and the largest terms of the summation are the first and last .
+But , when ; and hence since , and consequently , in the second case , for all values of , we have : ( 2A ) We see at once that this formula covers the first case also ( being then zero ) * This is only proved when ; but it is obviously true when MR. G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+We have thus proved that possesses asymptotic expansion of which is grade and is radius , and possible constant is where is the greatest integer such that , and is defined as above .
+We now wish to determine an outer grade and an outer radius .
+We have seen that , so that* .
+Let us suppose that , so that ; then , since , we get , as in the work , where m is the greatest integer , such that if and ( otherwise ) , if and otherwise .
+We consequently get always , where if if That is to say , is an outer grade , an outer radius , is possible outer constant of the asymptotic expansion of .
+We have thus obtained the results stated at the beginning of the section .
+We deduce that if two functions , both have asymptotic expansions with as a set of characteristics , and possible constants being respectively , then the product has an asymptotic expansion with the same characteristics , the constants being , where , * The quantity is defined in connection with equation ( 1 ) .
+MR. G. N. WATSON : A THEORy OF where are the greatest integers , such that and if if Also , by induction , we deduce that if have an asymptotic expansion with as characteristics , has an asymptotic expansion with the same characteristics , being any finite positive integer .
+Let us , however , examine the series for in greater detail when is a positive integer .
+Changing the notation slightly , let be possible constants and characteristics of ; we may therefore take as constants and characteristics of , where This follows from ( 3A ) and ( 3B ) combined with the identity : we have written for , and we have also written for the of ( 3A ) and ( 3B ) .
+We see at once that Dividing through ( 4B ) by , putting , 3 , and adding the results , we get without difficulty From equation ( 4B ) we see that we should get a rather larger value of than is given by that equation if we put for both and , where , so that , since The result is so much simpler that we shall do so ; and the result we get is that is a possible outer constant of where , ( 5 ) 3 .
+We shall now prove that , if has an asymptotic expansion with as characteristics , then possesses an asymptotic expansion with the same characteristics .
+MR. G.-N .
+WATSON : A THEORY OF ASYMPTOTIC SERIES .
+Let be possible constants of ; from the definition of we have , with the usual notation , Now , by the work of the preceding section , we can expand in an asymptotic series with characteristics ; and the expansion will be of the form , ( 6 ) where , by ( 4A ) and ( 5 ) , and We may consequently write where and Consequently , if i.e. , , ( 7A ) and Further , ' VOL. CCXI .
+\mdash ; A. 2 so that .
+Now , by the asymptotic expansion of the gamma function , it follows that for all integer values of , where is finite and independent of , so that Combining the equations ( 7A ) and ( 7B ) , we see from ( 7 ) that possesses an asymptotic expansion of which are characteristics .
+4 .
+We shall conclude this part of the paper by proving three general theorems .
+Theorem II.\mdash ; Let possess an asymptotic expansion with characteristics , and constants , B. Then , if be a function of which is regular* inside circle of radius greater , the centre of the cirde being at ( and haring their usual significations ) , then possesses an asymptotic expansion with cteristics k , which is valid for the range of values of as the expansion off .
+Let be expansible in the series Then and hence where is finite and independent of stringent condition be satisfied .
+] Now , , so that [ These statements are true if the less this series being convergent since * This condition may be replaced by the slightly less stringent condition that the series for should be )solutely convergent when G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+Using the expansion ( 6 ) and keeping the notation of that equation , we find that , ( 8 ) where , , are now defined by the equations and , when Consequently , if i. e. , . . . .
+( 8A ) Also i.e. , But , from the asymptotic expansion of the gamma function , where is finite and independent of Hence .
+( 8B ) Comparing ( 8A ) and with ( 8 ) , we see that possesses an asymptotic expansion with characteristics , valid for the range of values of stated in the enunciation .
+292 MR. G. N. WATSON : A TIiEORY OF In particular , we notice that this theorem is true if an The result of the last section concerning is , of a the theorem .
+5 .
+Theorem III.\mdash ; Let possess asymptotic expansion with constants and racteristics A , valid for a certain range of of .
+Then , if be a function of which is egular when , where ( its usual signi.fication ) , then , when is greater than the two ntities and possesses an asymptotic expansion , valid for the same range of values of as the expansion for , with cteristics , where is thoe of tloe ) , where is the larger of the quantities Let the expansion of , when be ; since this series is absolutely convergent when , we have where is finite and independent of Since , we may expand into the series provided Since , the expansion will be valid when and Substituting for , , as in Theorem II .
+, we get , ( 9 ) where and when The quantities are the same as those which occur in equation ( 6 ) .
+* If , where is an arbitrary positive quantity as small we MR G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+Consequently , if .
+( 9A ) If , we From this result , combined with ( 9A ) , we see that , if , we take , the inner radius of , to be the smaller of the quantities If , we have and if , we have , where is a finite quantity depending on and 8 , but not on .
+That is to say , if , S is a possible radius of and is a possible Further , i. e. , Using the inequalities , and ( where is independent of ) , we get a formula of the form , where is independent of .
+That is to say , and , defined as above , are a possible outer grade and a possible outer radius of 6 .
+Theorem .\mdash ; Suppose that for certain range of values of , possesses an asymptotic expansion in negative powers of when with constants characteristics .
+Then for the same range of vcdues of , possesses an asymptotic expansion in negative powers of valid when with cteristics k , where and is the greater of the quantities and greatest possible values respectively for the values of under consideration .
+It is easily shown that Differentiating times with respect to , we get where But , by LEIBNIZ ' theorem , the quantities , being the binomial coefficients .
+Consequently so that Now possesses an expansion of the form where , .
+Substituting for the negative powers of from ( 10 ) , we get where MR G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+and so that C Now , where if if Consequently i. e. , . . . . .
+( 10A ) Also And for the values of under consideration ( since ) , .
+Therefore i. e. , . . . . . . . .
+( 10B ) From ( 10A ) and ( 10B ) we see that are characteristics of the expansion of in descending powers of We have now proved all the theorems which seem to be of importance concerning asymptotic series in general .
+We proceed to discuss properties of analytic functions of which asymptotic expansions are given .
+PART \mdash ; ANALYTIC FUNCTIONS DEFINED BY ASYMPTOTIC SERIES .
+7 .
+We first propose to consider the question of the uniqueness of an analytic function which is defined by means of an asymptotic expansion possessing given characteristics .
+The discussion will be based on the result of the following important lemma , of which we shall give a proof before proceeding further:\mdash ; Lemma.\mdash ; Let be function of.which is in the sector deJined by * See ( iii .
+) on p. 280 .
+the inequality where ; and let the in cvhich u. anatytic be extended to all points ( outside the sector ) whose distance fiotrn the boundary of the sector does not exceed , where Let be such that , throughout the sector this region adjacento- , .
+the sector , there exists an inequality of the form where A is a constant independent of Then the function is identically zero .
+* Let be any point within or on the boundary of the region Then round an appropriate contour .
+Since any singularity of is , at a distance , greater than or equal to from we may take the contour to be a circle of radius with as centre .
+We then get , without difficulty , where is the greatest value of on the contour , and denotes the differential coefficient But on the contour That is to say , if since ! .
+A .
+( 11 ) Let us denote the integral of a function taken along a line ffom the origin to infinity , inclined at an angle to the real axis , by the Consider the function defined by the equation ( ) . .
+( 12 ) The function is analytic in the interior of the region given by ( but possibly it is not analytic on the bounda of the region ) .
+proof of the lemma is suggested by a paper by PKRAGXXN , Acta Mathematioa , ' vol. 28 , pp. 351-368 .
+His paper , however , deals with integral functions , whereas we know nothing at all ut the behaviour of outside a certain sector of the plane .
+The condition given by WICII , ' Theory of Inflnite Series , ' p. 438 , is satisfied by defining his function by the equation MR. G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+We shall show that is a constant , independent of If , we have ( ) ; for , by CAUCHY'S theorem , the difference between these two integrals is ( tie ) taken along the arc of an indefinitely great circle terminated by the lines .
+on this arc we have it follows , without difficulty , that the integral along the arc is zero .
+( tie ) is uniformly convergent over the interior of the region Consequently the of over the of the is given by the equation ( ) .
+( 12A ) In like manner , the analytic continuation of over the interior of the is given by the equation ( ) ( 12B ) Also ; and we may show , by using equations ( 12A ) and , that when ) proaches the origin by any path which does not go outside the sector , or which does not go outside the sector Now , if we can show that is function of , the only possible singularities of will be at the points and ; and the only possible branch point of in the finite part of the plane is at ; accordingly , to prove the uniformity of , it is sufficient to prove that , when starts from any point in an assigned region of non-zero area ( not including the origin ) and describes a closed circuit round the origin , the initial and final values of are the same .
+Let be any quantity such that ; we proceed to prove that .
+* The integrals and uniformly convergent when lies within or on the boundary of the respective sectors , by WEIERSTRASS ' test for the uniform convsrger } of infinite integraIs [ BROMWICH , ' Theory of Infinite Series , ' p. 434 ; we replace BROMWICH'S function by ] If two analytic functions are equal at all points of a region of 1lon-zero area they the same braIlch of the same function ; in the case under conoeideration the functions are , .
+VOL. CCXI.\mdash ; A. 2 MR. G. N. WATSON : A rHEORY OF ASYMPTOTIC Suppose that starts from and describes a circle of radius and centre at the origin , ending at the point We have Making the point move from to round the circle , we get Now , when Consequently I taken round an arc of a circle of radius terminated by the points tends to zero as therefore , CAUCHY'S theorem , we may deform the path of integration get Now make move from to , and we get Writing for , we get Consequently .
+( 13 ) Now consider taken round an arc of a circle of radius terminated by the points Nexp On this arc , which we call Consequently on , since .
+; and this expression tends to zero as MR G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+Consequently , CAUCHY'S theorem , the right-hand side of equation ( 13 ) nishes ; for the integrand has no singularities between and the rays In other words , ; that is to say , is uniform function of Furthermore , never exceeds a finite quantity independent of For* ( ) We have thus proved that is a uniform function 01 whose modulus never exceeds a finite quantity independent of , no matter how large or how small may be .
+Therefore by LIOUVILLE'S theorem is a pure constant .
+The proof that is zero is now immediate .
+For the equation is true provided the integral on the right converges uuiformly and the integral on the is convergent Now by ( 11 ) when Since is convergent , we know ( tie ) .
+converges uniformly when Therefore ' when Put , and we get , since is a constant , If the imaginary part of is positive or zero , we may take , and the upper sign is to be taken in the ambiguity ; if the part of is negative or zero , we may take we take the lower sign ; we have already discussed what happens when BROMWICH , 'Theory of Infinite Series , ' p. 437 .
+, p. 434 .
+In like manner , since is convergent , we may show that , when is any finite integer , when and denotes the differential coefficient of Putting , we get , . .
+, Therefore is analytic when and all the differential coefficients of vanish when ; that is to say , is a pure constant , which we will call L. Furthermore , by the definition of when , for all values of , no matter how large ; since as , we infer that We have thus proved the lemma , that 8 .
+We are now in a position to discuss the uniqueness of an analytic function possessin an asymptotic expansion with given characteristics for a certain range of values of the argument of the variable .
+The theorem , stated precisely , is as follows : Theorem V.\mdash ; Let there be two functions , , which are analytic in the region defined by the inequalities ; and let them be such that in this region theypossess the asymptotic nsions cvhere , for values of Then , if .
+Let region in which is permitted to lie be called the region C. Since MR. G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+we have for all values of , provided lie in the region C. Now choose to depend on in such a way that so that we may put where Now let be the greater of the two quantities and ; and let the region in which be called the region When lies in the region , we have But when , by the asymptotic expansion of the gamma function , where does not exceed a finite quantity independent of .
+Consequently , when lies in the region where is a finite quantity independent of and Substituting for in terms of , we get Putting , we want to show that if is analytic in the region and subject to the inequality then Let us and .
+Theu is analytic in the region , in which and is subject to the inequality ( when lies in If , we see at once that in . . . . . . . .
+( 14 ) where is a finite constant depending on and is singularity of this transformation ; but see on p. 280 .
+Also decreases when if Let be the greater of the quantities Calling the region in which , the region , we see lrom ( 14 ) and this result that in the region , whether be greater than or less than $ , we have an inequality of the form , and is analytic in the region Now , define a such that , and put where ; and let .
+Then is certainly analytic in the sector , and at .
+all points at a distance not greater than from the mdary of the sector ; for when lies in the region just specified , certainly lies in the region Also , in the region specified for Therefore , by the lemma , But ; and therefore we have proved that , when and are subject to the conditions stated at the beginning of the section .
+The reader might be inclined to think , at first sight , that if , we could infer that is identically zero on account of the theorem that " " a non-convergent series cannot represent asymptotically the same one-valued analytic function for all arguments of \ldquo ; This theorem is not applicablj , because may not be analytic inside the circle multiform function may have an asymptotic expansion valid for a range of values of greater than Thus , the generalised hypergeometric function formula is valid when 9 .
+We can now show that if an analytic function , , possesses an asymptotic expansion for large values of with a grade and an outer grade equal to unity , the range of values of over which the expansion is valid bei-ng greater than , the function is absolutely summable by the method of BOREL for a range of values of just less than the range over which the expansion is valid , S provided that BOREL'S integral be taken along an appropriate path from to , not necessarily the real axis .
+*The definition is possible since BROMWICH , ' Theory of Infinite Series , ' p. 335 .
+See BARNES , ' Cambridge Philosophical Transactions , ' vol. 20 , p. 260 .
+S The range of validity being taken less than 21 ' .
+MR G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+Let us suppose that the expansion is valid when and , where and Putting and , we see that possesses asymptotic expansion of the form* where ! !
+when and We notice that where Let the region in which the asymptotic expansion of is valid be called the region D. Let be a contour formed by the following lines:\mdash ; ( i ) The portion of the ray for which being an arbitrary quantity , as small as we please , such that ( ii ) The major arc of the circle terminated by the points ( iii ) The portion of the ray for which Let us consider the function defined by the equation .
+, where We erve that when is at any point on the contour lies within or on the boundary of the region D. Now let us functions , , , , by the system of equations ( 15 ) The path of integration is supposed to be taken along the ray from to finity which , when produced backwards , passes through the point ; we deduce by continued integration that the asymptotic expansion of is where provided that lies within the region or on its boundary .
+* This function will not be confused with the of Sectiou 7 .
+Also , we notice that , by CAUCHY'S theorem , residue of at the origin By making use of the equations ( 15 ) in conjunction with this last result we get in succession on integrating by parts : . . . . .
+, .
+, ( 16 ) each of the ternoe in square brackets vanishing both ends of the contour .
+We shall now estimate the value of for any value of At all points on we have For brevity we put On the arc of the circle we have and where varies from to MR. G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+Consequently , for the integral round the arc , On the ray , we put where varies from 1 to ; so that for the integral along this ray , .
+; and we get the same inequality for the integral along the other ray of L. Combining our results we get ( 16A ) .
+Remembering that , we see from this formula that , if , then uniformly as That is to say , when and , we may expand the in the form where as Tn other words , when and , the integral represents BOREL'S associated function defined by the series converging when ; so that BOREL'S associated function is analytic when Now the integral VOL. CCXI.\mdash ; A. 2 converges when ; and by putting , we find that the analytic function*of in the region That is to say , BOREL'S associated function is analytie in the region also in the region We shall require an upper limit for when To obtain this upper limit we consider the integral We may show that it can be expanded in the form when , by replacing in the work immediately preceding by Therefore , by the theory of analytic continuation , we have for all values of in the interior of the region Now , so that \mdash ; B. .
+Making the substitutions made in obtaining ( 16A ) , we find that K. !
+( 17 ) where are finite quantities independent of and *This follows , without difficulty , from an obvious modification of the theorem stated by BROMWIOH ' Theory of Infinite Series , ' p. 438 .
+MR. G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+We use the formulae ( 17 ) when is greater than , say , When , since the series for converges when and , we have where is finite and independent of Also when ) we have whele is finite and independent of Accordingly , when , we use the formula the contour of integration being a circle of radius Hence we get , when ! . .
+these results with ( 17 ) , we see that for all values of such that either or we have ( 17A ) where , are finite and independent of Consequently , if , and is any assigned integer , if ; and the function is analytic in the region in which either of the inequalities , ( ii .
+) is satisfied .
+Now let us study the function .
+The function is an analytic function of when where If also , we can see that ( 18 ) where is any quantity such that Equation ( 1S ) gives the analytic continuation of over the whole of the area for which Let be a small quantity such that Then is certainly analytic in the region ( see figure ) in which both the inequalities are satisfied .
+In like manner , when we have , and we can deduce that .
+is analytic in the region in which both the inequalities are satisfied .
+That is to say , is analytic in the region in which the inequalities are satisfied .
+Now consider the function in the region in which We may define in this region by the equation where the upper sign may be taken if , and the lower sign if By repeated integration by parts we get From the results ( 17A ) all the integrated parts vanish at the upper limit ; and we have where MR. G. N. WATSON : A THEORy OF ASYMPTOTIC SERIES .
+Now ; and hence from ( 17A ) ! ! .
+and is independent of But we have ; so that , applying the formula just obtained to , we get ! .
+But we can find a finite quantity when is a positive integer ; and fortiori ; therefore , since !
+, say .
+That is to say , if cosec , we have asymptotic expansions of the form . . . . .
+( 19 ) where . . . .
+( 19A ) Taking , and writing for in Theorem V. , we conclude , since tlJe expansions ( 19 ) are valid when , for a range of values of greater than ) , that .
+That is to say , in the region , , we have proved that But is an analytic function of when , where is any quantity greater than ; hence , by the theory of analytic continuation , we have ; and more generally , , we have* , provided is analytic along the ray Now draw the circle ; and draw the tangents to this cirole at in the directions of the rays respectively .
+If be any point to the right of the curve formed by these tangents and the arc of the circle joining their extremities ( see figure ) , we can find a real quantity such that , and such that For such a value of we have " " summed\ldquo ; by the equation which we have just proved , viz. : In other words , we have shown that is by means of integral of the nature as BOREL'S integral .
+* Returning to the equations at the beginning of the section , , we see that is summable by an integral of the same nature as BOREL'S integral ; the formal result is hardly worth writing down , since it usually happens that , so that 10 .
+We may also show , by the methods of Section 9 , that if we are given a function defined by the series where , and if have no singularities in the region , and if when , where is a constant , then the function defined by the equation has an asymptotic expansion in powers of valid when ( where , provided that be sufficiently large ; and that unity is a grade and outer grade of the expansion , and is a radius .
+For , when , we have the contour being a circle radius , where ; assuming that , we find without difficulty that *From the results proved concerning it follows that is " " absolutely summable.\ldquo ; MR. G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+Now suppose that we can find a real quantity such that ; then we may write ; and , on integrating by parts , we get i. e. , where i. e. , , where is finite .
+Now so that If , we have where K are finite and independent of Therefore That is to say , for values of such that where is less than or equal to has an asymptotic expansion with grades equal to unity , a radius , and an outer radius , where is any quantity greater than .
+This is , effectively , the result stated at the beginning of the section .
+11 .
+We shall conclude by investigating the characteristics of the asymptotic expansion of a function connected with the " " logarithmic integral or li\ldquo ; function , defined by the equation li When is real and positive it is known that* where !
+Thus , when is real and positive , li has an asymptotic expansion of which characteristics are Suppose that is complex , but not a real negative quantity .
+Then we may prove that so that where If , on the path of integration If , then Thus , if Whereas , if we have so that Thus , if , the function li possesses an asymptotic expansion of which haracteristics and constants are or the value unity being taken for if WIIITTAKER , ' Modern Analysis , ' S87 .
+MR G. N. WATSON : A THEORY OF ASYMPTOTIC SERIES .
+Other functions which may be investigated in a similar manner are to be found in ' Theory of Infinite Series , ' pp. 351-352 .
+The investigation of the characteristics of asymptotic series representing functions defined by integrals of types essentially different from BOREL'S type is to be found in the paper by the writer , cited on p. 282 .
+12 .
+Finally , it may be stated that it is possible to conceive a function which has an asymptotic expansion wherein , as increases more rapidly than any expression of the form ; such an expansion would be obtained by taking where is BARNES ' -function .
+But such series have not yet occurred in analysis , and they do not appear to possess the interesting properties of series with finite characteristics .
+VOL. CCXI.\mdash ; A. 2
+

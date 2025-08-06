@@ -1,0 +1,633 @@
+]\gt ; [ 439 ] XIV .
+Some Applications of Conformal Transformation to Problems in Hydrodynamics .
+J. G. LEATHEM , M.A. , D.Sc .
+Communicated JOSF , PH LARMOR , M.P. , F.R. Received May 13 , 1915 .
+SS Page 1-3 .
+Introduction . . . . . .
+439 4-12 .
+Conformal curve-factors . . . . . . . . . .
+441 13-20 .
+Hydrodynamical . . . . . . . . . .
+447 21-22 .
+Inflexional curve-factors . . . . . . . . . .
+456 23-26 .
+Curve-factors of semi-infinite linear range . . . . . .
+458 27-29 .
+Double curve-factors . . . . . . . . .
+461 30-33 .
+Synthesis of curve-factors from mentarv types 463 34-41 .
+Liquid motions with free stre -lines . . . .
+467 42-43 .
+General remarks on curve.factors . . . . .
+475 44-48 .
+Curve-factors regarded as the of products of Schwarzian factors . . . . .
+477 49-51 .
+Transformations involving both variables expli itly . . . . . .
+481 .
+Supplementary note on curve-factors . . . .
+485 INTRODUCTION .
+1 .
+THE problem of the conformal representation of the part of the plane of a variable which is bounded by a rectilineal polygon , upon the half-plane of a variable bounded by the real axis , is solved save for an integl.ation ) by the well-known transformation of SCHWARZ where \amp ; c. , are real constants , and , \amp ; c. , are the internal angles of the rectilineal polygon .
+A more difficult problem is that of the conformal representation upon the half-plane of of a region in the plane whose boundary is partly curved ; it is with this problem that the present paper is concerned , always however with a view to interpretation of results in terms of the two-dimensional flow of liquid in regions having particular types of boundary .
+VOL. CCXV . .
+3 [ Published September 22 , 1915 .
+At the outset something of a suggestion might seem to be found in consideration of the fact that , if the intrinsic equation of a curve in the plane is , the vectorial element of arc is the same as or , where as usual represents .
+From this it appears that the transformation where and are functions having real values for all real values of their arguments , makes the real axis in the plane correspond to a curve in the plane whose intrinsic equation is , the relation between and being , where is an arbitrary function .
+But transformations of this type , though they settle the correspondence of prescribed boundaries , offer no uarantee against zeros , infinities or singularities at points where is not real , and so do not necessarily give conformal representation .
+The geometrical idea of the transformations is nevertheless useful .
+2 .
+Some problems of conformal transformation with partially curvilinear boundaries were worked out by Mr. W. M. PAGE in a paper* published by the London Mathematical Society a few years ago .
+Mr. PAGE definitely rejects , on account of an apparent indeterminateness , the method of treating a curve as the limit of a rectilineal polygon and seeking the limit of the product of the corresponding Schwarzian factors .
+Instead he has recourse to the empirical but useful device of writing down the Schwarz transformation as it would be for a rectilineal polygon having the same angles as the prescribed curvilinear one , and then introducing into the expression for a further factor which has the effect of making the relevant side of the polygon curvilinear while leaving the other sides straight .
+There is no question of prescribing the form of the curve in the plane , one simply takes such conformal transformations as one can succeed in formulating in the above manner and tries to find out what sorts of curve they yield .
+Mr. PAGE , acknowledging a suggestion by Mr. H. W. RICHMOND , takes factors which occur in well-known problems , and by associating them with new sets of Schwarzian factors obtains a new series of results .
+The familiar case of a semi- circular boss on a straight line , namely , . . . . .
+( 1 ) supplies the factor , and the case of a semi-elliptic boss on a straight line , namely , . . . .
+( 2 ) supplies the factor .
+These two factors and their square roots are the factors which Mr. PAGE associates with other factors of the Schwarzian type in order to obtain new results .
+" " Some Two Dimensional Problems in Electrostatics and Hydrodynamics 'Proc .
+Lond. Math. Soc. , Ser. 2 , vol. XI .
+, 1912-13 , p. 313 .
+CONFORIsIAL TRANSFORMATION TO IN HYDRODYNAMICS .
+3 .
+One object of the present paper is to try to extend the range of transformations available for the conformal representation upon a half-plane of a region bounded by a polygon some of whose sides are straight and some curvilinear .
+Aspects of the subject will be discussed which have the theoretical advantage of bein to some extent free from the empirical character of Mr. PAGE'S method , but the application of these to particular cases presents great practical difficulty .
+It is therefore proposed to begin by studying those functions of which , when introduced as factors into formulae of transformation which are otherwise of the Schwarzian type , lead to conformal representations of the required general character .
+Every increase in the range of such functions made available , and every advance in knowledge of the theory of such functions , diminishes the empirical element in their employment for the solution of particular problems .
+The main object of the paper is the extension of the of solvable problems in two-dimensional liquid motion , and cases of such motion will be used as illustrations of the pure mathematical theory .
+CONFORMAL 4 .
+Definition and Characteristics.\mdash ; Consider a transformation , . . . . . . .
+wherein , are real , real constants in ascending order of magnitude , and a function of .
+If were absent this would be a Schwarzian transformation giving a conformal representation upon the half-plane of of the region in the plane bounded by a rectilineal polygon of external angles Suppose to be such that the transformation as it stands gives a conformal representation upon the half-plane of of the region in the plane bounded by a polygon having the external angles , as before , all its sides but one straight , and that one side ( say the side corresponding to ) curvilinear .
+A function of having this property may be called a conformal curve-factor , \ldquo ; or , for brevity , " " curve-factor.\ldquo ; In view of the possibility of our having to consider functions which , when thus introduced into a Schwarzian transformation hout spoiling its conformal character , replace the rectilineal polygon by a polygon having the same angles and not one only but several curved sides , it may be well to distinguish between " " simple " " double " " triple \amp ; c. conformal curve-factors , according to the number of curved sides which they introduce into the polygon .
+If a function of is a simple conformal curve-factor it must satisfy the following requirements:\mdash ; The vector angle of the complex must have a constant value for all real values of greater than , and a constant value for all real values of less than .
+For real values of intermediate between and the vector angle of must change continuously with ( ii .
+) must not be zero or infinite for any definite value of which is real , or for any definite complex value of corresponding to a point on the relevant ( positive ) side of the axis of real .
+Such zeros or infinities would destroy the conformal character of the transformation , and would , if occurring on the boundary , interfere with the prescribed arrangement of corners .
+The word " " definite\ldquo ; is here used so that the restriction may be understood not to apply to infinite .
+Certain singularities at definite points might be capable of interesting interpretations in the application to hydrodynamics , but it seems best at present to exclude them .
+( iii .
+) must not have any definite branch points on the relevant side of the axis of real .
+It may however have branch points on the axis of real , since this axis serves as a barrier preventing such circulation round a branch point in it as would make the function many-valued .
+The form of for infinite must conform to conditions depending on the nature of the particular problem to which the transformation is to be )plied .
+5 .
+and Angular Ranges.\mdash ; The range on the axis of ] corresponding to values of for which the vector angle of is variable may be called the " " linear range\ldquo ; of the curve-factor .
+The difference between the vector angles at the extremities of the linear range may be called the " " angular range\ldquo ; of the curve- factor , this being reckoned as positive when the greater angle corresponds to the smaller value of In the case of a simple -factor the linear range consists of the real values of between those typified by and , and the angular ran ge is.the angle between the tangents at the extremities of the corresponding curved side of the polygon , the standard case being that of convexity towards the relevant region .
+A curve-factor may of course have its angular range zero ; in that cass there will be an inflexion on the corresponding curved side of the polygon .
+It is readily seen that if be a curve-factor , and if be a constant , then also is a curve-factor , having the same linear range as , but its angular range equal to times that of .
+It is important to notice that this statement is valid even if is negative , for as has no zeros or infinities in the relevant region ( except possibly for infinite ) , the raising of to a negative power does not introduce any fresh infinities or zeros .
+But if has a positive angular range and if is negative the angular range of is negative .
+Thus , if gives a curve which is everywhere convex to the relevant region , positive powers of give curves having the same characteristic , but negative powers of give curves which are concave to the relevant region .
+In connexion with requirement ( iv .
+) above , the form of for infinite is sometimes important .
+If , for where is a constant , it will be convenient to speak of as the " " order at infinity\ldquo ; of the curve-factor .
+Clearly CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+there may be curve-factors which do not possess an order at in this sense .
+It is important to bear in mind that the form of the curved side of the polygon which corresponds to a particular curve-factor depends not merely on the analytical form of the curve-factor , but also on the Schwarzian or other factors which appear in the formula of transformation .
+Thus the same curve-factor leads to different curves in different transformations .
+But these curves will have some features in common , provided the linear range with which the particular curve-factor is associated is not also in whole or in part included in the range of some other curve-factor ; for example if in any such connexion represents a curve everywhere convex to the relevant region , then in other such connexions both and positive powers of will always represent curves convex to the relevant region .
+This appears from consideration of the vector angle of , which , when added to the vector angles of the other factors , tho latter being constants for the linear range of , gives the angle of direction of the tangent to the curve .
+6 .
+Convention as to Fractional Powers.\mdash ; In the course of the work expressions involving square roots and other fractional powers of quadratic expressions in will occur frequently .
+The convention must therefore be made at the outset that when is fractional an expression such as shall be interpreted as having a positive real value for real values of greater than , and for other values of corresponding to points on the relevant ( positive ) side of the axis of real such value as corresponds to continuous passage from a point where no is real and greater than without departure from the relevant half-plane , the branch point being avoided when necessary by a detour in the relevant region .
+With this convention an expression such as will be free from ambiguity , and in particular the passage round the point from a real value greater than to a real value less than will lead to the form for real values of less than 7 .
+the Curve-factor of Semi-circular Type.\mdash ; It is natural to expect that the study of the two curve-factors employed by Mr. PAGE may lead to suggestions for the construction of other curve-factors .
+That which occurs in the transformation ( 1 ) above may be called the curve-factor of semi-circular type ; it is , . . . . . . . . . .
+( 4 ) and has linear range from to , and angular range It is to be noted that the vector angle of , when , is and it is only because the denominator of the fraction in the square bracket vanishes for a point in the linear range that the angular range is instead of being zero .
+The reason why satisfies the requirement of having no zero is easy to see .
+Let be the surd conjugate to , that is .
+Every zero of must -(since has no infinities ) be a zero of the product , but and has no zeros , therefore has no zeros .
+If the attempt be made to construct other curve-factors of the type of a rational function plus a square root , it appears that for a simple curve-factor the root sign must cover only a quadratic in , with real factors .
+Other factors , if imaginary , would introduce branch-points ; if real they would introduce fresh corners of angle and so effectively yield a multiple curve-factor instead of a simple one .
+Thus the type must be where and are rational functions .
+If this is to be free from zeros in virtue of neither it nor its conjugate surd having zeros , it is necessary that const .
+If is of the first order the rationality of requires to be simply and then the curve-factor is , .
+which has the angular range .
+This is not really a new result , for Similarly , if be assumed of the second order , the rationality of restricts to the form , ( 6 ) which is not a new result , since It seems therefore safe to conclude that the semi-circular curve-factor is a very special type which does not admit of generalisation .
+8 .
+The Curvefactor of Semi-elliptic Type.\mdash ; The factor which occurs in transformation ( 2 ) above may be called the curve-factor of semi-elliptic type .
+It is . . . . .
+( 7 ) This has , for , the vector angle , and its angular range is because the rational part of vanishes and changes sign at a point in the linear range .
+is free from zeros , but the reason of this is different from that which holds in the case of .
+Denoting the surd conjugate to by , it is seen that , . . . . . . .
+( 8 ) and this has two real zeros .
+It has to be shown that both these zeros belong to so that has none .
+For real has three different forms , namely CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAhlICS .
+The first of these is the sum of two real positive quantities , and so cannot vanish ; the second is a complex whose real and imaginary parts have no common factor , and so cannot vanish ; the third , because the real part has changed sign in the linear range , is the sum of two real negative quantities , and so cannot .
+Thus has no real zeros , and accordingly , as no imaginary zeros are possible , has no zeros at all .
+The change of sign of the real part of is an important element in the argument .
+9 .
+Modified Semi-elliptic Semi-circular Types.\mdash ; Within the limits of those properties by which the freedom of from zeros is secured , namely that the product of the curve-factor and its ugate surd has only real roots and that both terms of the curve-factor have the same sign for real values of outside the linear range , there is room for modification of the type by the introduction of an additional parameter .
+Considering , . . . . .
+( 9 ) it is seen that , provided , both terms of are positive for real values of u ) greater than , and both negative for real values of less than ; thus cannot vanish for any real value of .
+If the conjugate surd be , . . . . .
+( 10 ) which has only real zeros .
+Hence has no zeros , and is a curve-factor .
+Its angular range is .
+On the other hand , if is positive for and negative for , so it must have a zero and is not a curve-factor .
+The same applies when , since then is negative for and positive for Similarly may be modified to the form . . . . .
+( 11 ) with the restriction .
+Th only zeros that might be possible are those of , . . . . .
+( 12 ) and this has only one zero , which is real .
+Thus has no zeros , and is a curve-factor of angular range It may be noted that . . . . .
+( 13 ) The utility of the adjustable parameter will be seen in the working of particular examples .
+Dlt .
+J. G. LEATHEM ON SOME APPLICATIONS OF 10 .
+The form of suggests another possible curve-factor , . . . . . . .
+( 14 ) Any zeros which this may have must be zeros of . . . . . .
+( 15 ) If , the zeros of are both real , and if cannot have real zeros .
+Hence is a curve-factor if If , which involves fortiori that , then has imaginary zeros , and the question arises whether can have any imaginary zeros at points on the relevant side of the axis of real .
+This may be tested by means of the theorem that , if a function be free from infinities in a given region , the sum of the orders of all its zeros in that region is equal to taken round the boundary ; a simpler enunciation of the theorem is that the sum of the orders of all the zeros of ( ov ) in the region is , where is the algebraic sum of all the changes , abrupt or gradual , which take place in the vector angle of as makes a complete circuit of the boundary in the positive sense .
+In the present application is put for , the region is the half-plane of on the positive side of the real axis , and the boundary consists , in the main , of the whole of the real axis and a semi-circle of radius which tends to indefinite greatness .
+The points , being branch points , have to be avoided by semi-circular detours of infinitesimal radius on the positive side of the axis .
+If there were zeros on the axis they would have to be avoided by similar detours , but in this case there are none .
+The points not being zeros or infinities , the detours round them do not result in any alteration in the vector angle of .
+From to this vector angle is ; from to it continually diminishes ( because ) from to zero ; from to it is zero ; along the semi-circle from round to it increases from zero to .
+Hence , and so has no zeros in the relevant half-plane .
+Therefore , if is a curve-factor .
+11 .
+Relation Angular and Order at Infinity.\mdash ; In the test for the presence or absence of imaginary zeros employed in the previous article it will be noticed that the sum is made up of two parts , one corresponding to the linear range and equal to minus the angular range , the other corresponding to the infinite semi-circle and equal to multiplied by the order at infinity of the curve-factor .
+From this it is seen that if an expression of the type . . . . . . . . .
+( 16 ) is free from infinities and real zeros , and has its angular range equal to times its order at infinity , it will also be free from imaginary zeros in the relevant region , and is a conformal curve-factor .
+CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+For example consider , . . . . .
+( 17 ) where For real .and greater than , or for real and less than consists of the sum of two positive quantities .
+Hence has no real zeros .
+The angular range of is , the vector angle being zero for , increasing , as diminishes , to for , then to for , then to for , then to for , and remaining at for .
+The order at infinity is 2 , so that .
+Hence has no zeros in the relevant half-plane , and is a conformal curve-factor .
+If the angular range were different from .
+times the order at finity would not be zero , and the function would not be free from zeros .
+Thus if in the order of magnitude of the constants were the angular range would be zero and would not be a curve-factor .
+It may therefore be taken as an established theorem for all curve-factors having a definite order at infinity that the angular range is equal to times the order at infinity .
+12 .
+havlng Points of Unequal Orders the Extremities oftloe .\mdash ; Consider the function , . . . . . .
+( 18 ) where , and For eo real and greater than this is real ; for real and between and it takes the form , . . . . .
+( 19 ) having a vector angle which is zero for and increases to for ; for real and less than it takes the form . . . . . . .
+( 20 ) Thus if is a curve-factor it has linear range to , and angular range .
+Since both terms of ( 18 ) are positive , both terms of ( 20 ) negative , and the terms of ( 19 ) one real and one complex , has not any real zeros .
+Since the angular range is and the order at infinity unity , the theorem of the previous article shows that has no imaginary zeros in the relevant half-plane .
+Hence is a conformal curve-factor .
+HYDRODYNAMICAL 13 .
+The utility of the conformal curve-factors so far considered ay be exemplified by employing them in the specification of some cases of two-dimenslonal liquid motion .
+In such applications the interpretation of will be that implied by the relation ( 21 ) VOL. CCXV .
+where ) and are the velocity-potential and stream-function of the liquid motion , so that the velocity components are when . . . . .
+( 22 ) With this interpretation it is known that , . . . . .
+( 23 ) where is the resultant velocity , and the angle which its direction makes with the axis of When a transformation is such that for real and tending to there is a definite limit for , it will be convenient to denote this limit by .
+This means that the limiting velocity at points indefinitely distant in the direction of the axis of is a velocity V parallel to the negative direction of that axis .
+The interpretation of other constants in the transformation formulae might be emphasised by explicitly indicating a factor V in every constant which is associated with by addition or subtraction ; for example might be replaced by , where has the dimensions of a length and depends only on the geometrical configuration in the plane .
+But , in order to avoid an u1mecessary appearance of heaviness in the formulae , this device for emphasis will not be employed ; it will be easy and sufficient to remember that the velocity of flow corresponding to a given transformation can be altered everywhere in the ratio of V ' to V , without changing the geometrical configuration , by replacing V where it occurs explicitly by V ' , and , in an expression such as , by 14 .
+Flow round a Semi-infinite Barrier in the Form of a Wedge with Smoothly Rounded Apex.\mdash ; A transformation in which a curve-factor is not accompanied by any Schwarziarl factor is typified by ( 24 ) where is a constant and a curve-factor of definite linear range ( say to c ) and definite angular range .
+For example may be any one of the cu.rve-factors already enumerated .
+The boundary in the plane corresponding to real is free from corners .
+As the point moves along the negative direction of its real axis the point moves backwards parallel to the axis of until reaches the value ; then describes a curve whose tangent ( with the direction corresponding to increasing ) makes a continually increasing angle with the axis of until that angle attains the value ; after that , for still decreasing , the boundary is straight .
+The configuration is of the general CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+character , wherein the arrows indicate the direction of , and the relevant region is that on the left of the arrows .
+The angle must be positive since that is times the order at infinity , and a negative order at infinity would imply infinite velocity at infinity ; the must not exceed .
+as otherwise the boundary would intersect itself The form and dimensions of the curved part of the boundary depend on the form of and on the constants and .
+By equating and respectively to the real and the imaginary parts of , when is real and between and , the problem of expressing and in terms of a real parameter is reduced to one of quadrature .
+The degree of arbitrarin in the form of the curve corresponds to the extent of the range of known forms of and the adjustable parameters which these contain .
+A simple case is got by taking , and giving to a form representative of and ; this leads to , ( 25 ) where , and The boundary in the plane consists of two parallel lines extending to infinity on the right , and smoothly joined by a curve on the left , as in fig. 2 , the relevant region being to the left of the arrows .
+Here can be integrated , and if the origin of be taken at the point on the boundary where , the result is , ( 26 ) whence , for points on the curved part of the boundary , ( 27 ) The co-ordinates of the extremities of the curve are readily deduced , and it is seen that the distance between the straight parts of the boundary is If be the velocity of the liquid at the point is the value of for .
+Hence , and the distance between the straight parts of the boundary may be expressed in the form .
+In checking the dimensions of this expression it should be remembered that and are both of the dimensions of a length multiplied by a velocity .
+, however , S42 , infra .
+15 .
+Longitudinal Motion of Ship with Curved Sides terminating in Pointed Bow Stern.\mdash ; The problem now to be considered is that of the disturbance produced in a liquid stream , which if undisturbed would be uniform , by a stationary object which is bounded by two curves and is symmetrical about a line parallel to the stream .
+The curves meet at one end at an angle and at the other end at an angle and being each less than a half .
+The configuration .
+in the lane .
+of the general character indicated in fig. 3 .
+As there is a line of symmetry which is obviously a stream line , only half the configuration need be dealt with , and a transformation is required which will make the boundary shown by a thick line in the diagram correspond to the axis of real , and conformally represent the region to the left of the arrows .
+The angles in the boundary must be taken account of by Schwarzian factors in the transformation ; if and be the values assigned to at the corners , these factors are and .
+The curved side must be represented by a curve-factor of linear range to Let the angular range of a transformation be defined as the angle between the limiting directions of the vector for real and for real measured in the positive sense from the former to the latter .
+In the present instance the angular ran ge of the transformation is clearly zero .
+But , if be the angular range of the curve-factor , the angular range of the transformation is made up of contributed by one Schwarzian factor , .
+contributed by the other , and contributed by the curve-factor .
+Hence , and the curve-factor must have an angular range of .
+This can be secured by taking the power of a curve-factor of angular ran ge .
+Thus the type of transformation is , . . . . . . .
+( 28 ) where has the linear range to , and an angular range Of the curve-factors so far considered the most general is .
+The use of this , in a slightly modified form , leads to the transformation , ( 29 ) V where , and it has been arranged that for CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+It must be remembered , however , that this transformation has been constructed solely with a view to the angular configuration , and that it affords no guarantee that the stream-lines corresponding respectively to and will not be early parallel instead of being in the same straight line .
+There is , in fact , the possibility of a configuration of the character indicated in fig. 4 , and it must now be shown that this possibility can be provided against by a suitable adjustment of the parameter 16 .
+of the Terms in of ) for Values of .\mdash ; If in a transformation such as thal of formula ( 29 ) the yariable supposed to have its modulus large , and an expansion be made in .
+negative powers of , the result is a formula of the type , . . . . . . .
+( 30 ) where negative powers of beyond the second are ected , and are constants .
+omitting in the first instance the term in , it is seen that the first approximation to is , and that to next degree of approximation the formula is equivalsnt to whence .
+( 31 ) In this expression for the first term represents ullifolm flow V in negative direction of the real axis , and the second term represents a source of strength at the origin .
+If there be superposed a uniform motion V in the positive sense of the real axis there results a liquid motion due to the uniform motion of the internal boundary with velocity , the liquid being ' at rest at \ldquo ; ; and the first approximation to this motion , for great , corresponds to a complex velocity and stream function consisting of a " " source-term , \ldquo ; namely , . . . . .
+( 32 ) Now times the strength of the source represented by the " " source-term\ldquo ; must equal the rate at which liquid is being displaced by the intrusion of internal boundary , and if the boundary is of the character shown in fig. 4 the rate of displacement is is the breadth of the semi-infinite straight portion on the left .
+Accordingly . . . . .
+: . . .
+( 3s ) If the boundary is as in fig. 3 , and so ; it is in any case clear that the motion of a finite rigid internal boundary cannot rise to a " " source-term\ldquo ; in the expansion of for great .
+Thus in order to secure that the transformation ( 29 ) shall correspond to a configuration like that of fig. 3 , the constants must be arranged so as to make zero .
+17 .
+The Doublet-Term , and the Coefficient of Inertia.\mdash ; If is zero the formula ( 30 ) takes the form which is equivalent , to the same degree of approximation , to and so to .
+( 34 ) When by superposition the liquid is brought to " " rest at infinity\ldquo ; and the internal boundary is moving to the right with velocity V , the first approximation to the motion at great distance consists of a " " doublet-term , \ldquo ; namely , . . . . . .
+( 35 ) Considering for a moment the translational motion , with velocity V parallel to the axis of , of a finite solid or " " ship\ldquo ; which is not necessarily symmetrical about a line in the direction of motion , it is seen that the fun expression , in terms of polar co-ordinates , for the velocity-potential of the surrounding liquid may be written in the form ( 36 ) Let GREEN'S theorem be applied to the functions and in the region bounded internally by the solid moving boundary , the " " ship and externa ] lie by any curve .
+It then appears that where is the element of arc , and the element of outward drawn normal , has the same value for the internal solid boundary as for any surrounding curve .
+In particular the surrounding curve may be taken to be a circle whose radius tends to indefinite greatness , and for this it is seen that the terms of type make no contribution to the value of the integral , so that the total value is CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODyNAMICS .
+At the inner boundary , if be the cosine of the outward normal , ; so the integral is equivalent to If A be the area of the section of the ship , and there results the equality .
+( 37 ) If be the density of the liquid , and the impulsive pressure required to generate the motion of the liquid instantaneously from rest , ; consequently .
+( 38 ) where is the component of the resultant impulsive pressure exerted by the ship on the surrounding liquid at the instant when the motion was set up .
+If the mass of the ship be equal to that of the liquid which it displaces , as would llormally be the case , .
+Hence ( 37 ) is equivalent to . . . . . . . . .
+( 39 ) Now if ( X , Y ) be the impulse required to set up the whole motion , both the motion of the ship and the motion of the liquid , ; consequently ( S9 ) may be written in the form . . . . . . . . .
+( 40 ) By using instead of in the application of GREEN'S theorem it may be shown similarly that Thus the components of the doublet represented by the doublet-terms in the expansion of or at great distance are proportional to the components of the total impulse which would generate the motion from rest .
+* In the case of a ship which is symmetrical about the line of motion and are zero , and the effective inertia of the system for longitudinal is or The corresponding theorem in three dimcn sions givcn by the writer in a paper entitled ' ' On Doublet Distributions in Potential Theory 'Proc .
+Royal Irish Academy , ' vol. XXXII , Sec. , No. 4 , 1914 , S14 .
+I8 .
+If the transformation ( 29 ) be reduced to the approximate form ( 30 ) it appears that , . . . .
+( 41 ) ( 42 ) Thus the condition for the absence of the source-term is and the ctive inertia of the ship ( being zero ) is .
+( 44 ) The values of the parameters must of course be Such that , and it is clear that there is a wide range of values of , and which permit of this being true .
+It may be well , in connexion with ( 44 ) , to recall the fact that is of the dimensions of a multiplied by a velocity , and that for a give configuration in the plane is indepe1tdent of V. Though the formula ( 44 ) does actually contain the law of the dependence of the inertia of the ship ( having a certain type of shape ) upon the angles and at bow and stern , it must not be assumed that the functional law corresponds to the explicit appearance of and in the formula .
+The other parameters are to be regarded not as data , but as functions of what ought properly to be the data , for example the length and breadth or the length and area of the ship .
+If and were expressed in terms of such data the formula would show explicitly the required law , and would probably be a much more complicated function of and The specification of the shape of the ship can without difficulty be reduced to quadratures by putting real on the right-hand side of formula ( 29 ) , and equating the real and imaginary parts respectively to and .
+This gives and as integrals of certain functions of a ] parameter , but the functions are generally so complicated as to make evaluation of the integrals difficult .
+In the special case of , if be equivalent to for real , it is seen that so that , if the radius of curvature be ( 45 ) CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+This formula shows that when the value of for is zero .
+It also shows that in the neighbourhood of the point where the curve can be made as flat as may be desired by taking sufficiently small .
+19 .
+It is natural to expect that the parameter of the transformation ( 29 ) will particularly affect the shape of the curve at the extremities of the linear In order to study the form of the curve in the immediate hbourhood of the point it is convenient to put where is the value of for ; this makes and co-ordinates referred to the point as origin , the axis of being tangential to the curve in the direction of decreasing .
+In the expression on the right-hand side of the transformation oo is put equal to , and an approximation made on the supposition that is small .
+This leads to , where K. Integration gives sin , ( 46 ) so that in the immediate neighbourhood of the corner . . . . . . . . . .
+( 47 ) The velocity of slip near the corner is , and consequently is proportional to the power of 20 .
+Notion of Ship with Pointed Bow Flat Stern.\mdash ; When the internal boundary in the plane is symmetrical about a line in the direction of flow , and consists on either side of a curve departing from the lin of symmetry at an angle and rounding smoothly into a straight line which cuts the line of symmetry at right angles , the configuration has the general character of fig. 5 .
+VOL. CCXV.\mdash ; A. The transformation must have angular range zero , and if a suitable type is ' ( 48 ) where is curve-factor of linear range to , and angular range .
+For example if be adopted the transformation is ( 49 ) V When this is expanded , for great , in the form it is found that and VD As must vanish , the value of must be - , . . . . . . . .
+( 50 ) and the other constants must be such that this is between and The inertia-coefficient , for longitudinal motio1 of the system consisting of the ship in liquid at rest at infinity , is .
+( 51 ) INFLEXIONAL CURVE-FACT0RS .
+21 .
+In seeking for curve-factors whose angular range shall be zero it will be observed that as decreases through real values from to the vector angle of the complex , . . . . .
+( 52 ) wherein , will increase from zero through to , or will change from zero to as a maximum or minimum and then relapse to the value zero , according as does or does not change sign for a value of in the linear range .
+Hitherto the angular range has been secured by postulating ; it may now be enquired whether , when , the function can constitute or help to constitute a conformal -factor .
+CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+The product of and its conjugate surd is a quadratic expression obviously possessed of real zeros , and so the only zeros for which need be tested are real ones .
+If the case of be first considered , it is seen that , , are negative , while and are positive .
+Hence has just one zero , namely , between and , the corresponding value of being ; . . . . .
+( 53 ) the quantity derived from this by changing the sign of the square root is a zero of the expression conjugate to .
+If , say , it is seen that and are negative , while , , and are positive .
+Thus has just one zero , namely , between and , and its value is given by ; . . . . .
+( 54 ) the quantity derived from this by changing the sign of the square root is a zero of the expression conjugate to .
+In each of these cases the zero of is of the first order .
+Hence if in the alternative cases attention be directed to and respectively , it is seen that these are functions free from zeros and infinities in the relevant region .
+for , and .
+( 55 ) , ( 56 ) are conformal curve-factors .
+In each case the linear range is to , the angular range is zero , and the order at infinity is zero .
+Within the linear range the modulus of is and that of is .
+It is to be noticsd that , if and ; if and Any power of or is a curve-factor of inflexional character , and the greater the power the more pronounced is the variation in the direction of the tangent at different points of the curve .
+corresponds to a curve which , as decreases from to , is first concave and afterwards convex to the relevant region ; corresponds to a curve which is first convex and afterwards concave .
+But any negative power of either corresponds to a curve in which , as compared with the original , the order of convexity and concavity is reversed .
+22 .
+Hydrodynamical \mdash ; The specification of a liquid stream disturbed by the presence of a pear-shaped body of the general character shown in fig. 6 may be got by combining a Schwarzian factor , a curve-factor of angular range for the curve , a power of for the inflexional curve .
+Such a transformation would be ( - ) ( 57 ) V where .
+The condition for the second straight stream-line being in the production of the first is .
+( 58 ) -FACTORS OF SEMI-INFINITE LINEAR 23 .
+For a range extending from to the simplest type of curve- factor is , . . . . .
+( 59 ) where .
+Its angular range is and its order at is .
+The transformation . . . . . . . . .
+( 60 ) gives a boundary consisting of a straight line and a curve intersecting it at an angle .
+In the special case of the curve is a semi-parabola .
+It may be noted that when is negative 24 .
+If a more general expression be considered , namely , . . . . . . . .
+( 61 ) where , it is found that a distinction has to be drawn between the case when and the case when CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODyNAMICS .
+Let , and let be the surd conjugate to .
+Then which is positive for , negative for , and positive for .
+Hence has real roots , of which one ( g ) is between and , and the other is greater than .
+The . . . . . .
+( 62 ) Now is negative for , positive for and for .
+Hence has one zero , which must be .
+But , ( 63 ) wherein , has no is a conformaJ curve-factor .
+Its order at infinity is zero , and therefore its angular range ought to be zero .
+This is readily verified , for if be the vector angle of when is real and negative As increases from zero the denominator of this expression diminisbes from to a minimum value corresponding to , namely , and then increases again to infinity .
+Hence diminishes from zero to a minimum valu , and then increases again to zero .
+When is negative the modulus of is When let it equal ; then takes the form . . . . . .
+( 64 ) This can have no real zeros , since the two terms when both real are also both positive .
+can be no imaginary zeros in the relevant region because the vector angle is which increases from zero for through for to for and so gives an angular ran ge , while the order at infinity is unity .
+Thus is a conformal curve-factor .
+When is negative which has real or imaginary factors according as is greater or less than .
+Tn the former case may be put equal to 4 , so that akes the form , . . . .
+( 65 ) and it appears that when is negative . . . . . . . . .
+( 66 ) The , utility of a knowledge of the moduli of curve-factors will be exemplified later .
+actors involving Powers other than the Root.\mdash ; A more general type of curve-factor having semi-infinite range is obtainable as follows .
+Consider , . . . . .
+( 67 ) where , and both and are positive .
+This has no real zeros , since both terms are positive when .
+The linear range of curvilinearity is from zero to , and on this range is represented by , so that the vector angle of is The denominator in this expression cannot vanish , so , as decreases from zero , increases to ; thus the angular range is .
+The order at infinity is , so there are no inary zeros in the relevant region .
+Hence is a curve-factor .
+The case of has been excluded because it would give an angular range and so introduce imaginary zeros into 25 .
+Consider also , . . . . .
+( 68 ) where , and both and are positive .
+This has no real zeros since all the terms are positive when .
+On the range of curvilinearity the vector angle is The denominator in this expression is negative for and positive for and , and so has a zero for a value less than .
+Therefore as decreases from zero increases through to , and the angular range is .
+The order at infinity is unity , so there are no imaginary zeros in the relevant region .
+Hence is a conformal curve-factor .
+26 .
+The function , ( 69 ) wherein , and are all positive , is real for real and positive .
+For it has the vector angle and for the vector angle CONFORMAL TRANSFORMATION TO PROBLEMS IN llYDRODYNAMICS .
+so that it has an angular range corresponding to the linear range to .
+The order at infinity.being unity there are no imaginary zeros in the relevant and so is a conformal curve-factor .
+It has something of the character of a double curve-factor .
+DOUBLE CURVE-FACT0RS .
+27 .
+An example of a double curve-factor is afforded by the function , . . . .
+( 70 ) where .
+The form of this must be considered for different parts of the axis of real .
+For the function is real ; moreover is positive , so has no zero in this part of the axis of real .
+For the form is of which the real part changes from positive to negative as ?
+diminishes through the value ) .
+The vector angle accordingly ranges from zero to For the form is of which both terms are real and negative .
+For the form is of which the first term changes from negative to positive as ?
+shes through the value .
+The vector angle increases from to For the form is of which both terms are Thus the factor corresponds to two ourves separated by a straight line , and over the whole range from to the angular amplitude is .
+The order at infinity is 2 , so there are no imaginary zeros in the relevant .
+It appears therefore that is a curve-factor .
+28 .
+It is interesting to enquire what sort of a configuration is givell by a trans- formation which involves and also Schwarziall factors corners at the points .
+Such a transformation is , . . . . . .
+( 71 ) and it gives a configuration of the character indicated in fig. 7 , the second and third straight lines being inclined to the first at angles and respectively .
+In order that the three lines should be parallel it would be necessary to have . . . .
+( 72 ) If it were further desired that the first and last lines should be parts of the same straight line the constants would have to be so adjusted as to make the term in vanish in the expansion of for great .
+This condition is equivalent to which , when combined with ( 72 ) , gives .
+( 73 ) Hence the transformation , ( 74 ) gives a configuration of the character of the thick line in fig. 8 , which , in the hydrodynamical application , may be duplicated by reflexion .
+The particular case of gives a dumb-bell shaped boundary as in fig. 9 , and the case of gives a ship with straight sides and pointed ends , as in fig. 10 .
+29 .
+A double curve-factor containing a greater number of arbitrary parameters than is , ( 75 ) where is positive , and are real constants in descending order of magnitude .
+The use of this factor instead of in the applications of the previous article would give greater variety in the possible shapes of boundary .
+The constants could probably be adjusted so as to make all three straight portions of the boundary CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+parts of one line , and so Jead to a specification of liquid flow past two objects of oval form .
+Another double curve-factor , corresponding to two curves separated by a straight line , is , . . . . .
+( 76 ) where , and .
+It has a total ) gular range of , made up of from each of the two curved portions .
+It would be interesting to know whether a double curve-factor is necessarily the product or other simple function of simple curve-factors .
+SYNTHESIS 0F CUBVE-FACT0RS FB0M ELEMENTARY TypES .
+30 .
+A simple function which has not yet been considered as a possible curve-factor is The product of this and its conjugate surd has only one zero , a real one , so need only be tested for real zeros .
+It is to be noticed that which is negative both for real , positive and greater than , and for real , negative and less than , due regard being paid to the of the square root .
+Thus is positive for real and greater than , and continually decreases as increases , having the limit zero for ; for ) real and less than is negative and continually increases to the limit value zero as .
+It follows that has no stationary values for 10 real and ; the values of for , and , are , and VOL. CCXV.\mdash ; A. 3 .
+J. G. LEATHEM ON SOME APPLICATIONS OF respectively .
+The signs of these four values of are all positive if and all rative if .
+Bnt if the signs are , and if are , lJns , if changes sign either between and or between and ; accordingly has a zero and is not a curve-factor .
+But , if does not on either of the above-named ranges of , and so no zeros .
+Thus for there is a curve-factor . . . . .
+( 77 ) the linear range to , the angular range zero , and the order at infinity zero .
+31 .
+On examination it will be found that some of the curve-factors already discussed are resolvable into factors of simpler type .
+If in the parameter be replaced by the introduction of , such that , it is readily verified that , ( 78 ) so that is equivalent to the product of two factors , one of the type of , the other of the type of if in a parameter be introduced such that , it appears that , ( 79 ) so that is equivalent to the product of two factors , one of the type of , the other of the type of and , reclassified according as is greater or less than unity , are equivalent to ( 80 ) in which , and ( 81 ) CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMTCS .
+in which .
+It can be readily verified that , ( 82 ) .
+( 83 ) Consequently both these types of curve-factors are oquivalent to simple fractions having curve-factors of the type in numerator and denominator .
+In the case of a semi-infinite linear range it is seen that , . . .
+( 84 ) so that is equivalent to the product of two curve-factors of typ of .
+Also ( with the notation of article 24 ) , ( 85 ) in which fraction both numerator and denominator are of the type of 32 .
+Of the curve-factors which have been studied some are such , for real values of which render them complex , the squares of their moduli have real factors ; others have not this property .
+To the latter class the theorems of the previous article do not apply , but as regards the former class the results gest a useful method of generalisation .
+Within the limits of this class of curve-factors it seems possible to regard the types , and as fundamental for the finite lineal range to , and the type for the semi-infinite range to .
+Bearing in mind that any power of a curve-factor , whether positive or negative , is itself a curve-factor , one may take any number of curve-factors of the types and , raise each to ) power , and multiply all together , so producing a resultant curve-factor for the assigned finite linear range .
+In the same way one may take the product of powers of any number of curve-factors of the type , so getting a resultant curvefactor for the assigned semi-infinite range .
+These curve-factors have a quite arbitrary number of adjustable parameters , and so correspond to an endless multiplicity of curves in the plane of If , for example , the ship problem already discussed in article 15 be considered , it is legitimate to take a set of parameters , , intermediate in value between and , and a set of corresponding indices , , ; also a set of parameters , , greater than or less than , and a set of corresponding indices , , .
+These combine to give the curve-factor , . . . .
+( 86 ) leading to the transformation .
+( 87 ) The parameters must comply with the condition for zero angular range , namely and with the condition for the vanishing of the source-term in .
+Subject to these , the constants are arbitrary and are in theory adjustable to meet a corresponding number of possible requirements .
+The range of adjustable parameters in seems , however , to be unexpectedly and embarrassingly great , and there suggests itself a doubt whether the degree of generality of the formula can be really so high as it appears to be .
+It is noticeable that the parameters do not enter into the condition for zero angular range , and it seems worth while to study the type of curve-factor more closely .
+When is real and which is not formally a product or quotient of rational integral functions of .
+So far as this is true , could not be expressed as the product or quotient of curvefactors the squares of whose moduli are rational integral functions of .
+But it must not be forgotten that there is a curve-factor , namely , whose modulus is a constant .
+The use of this gives a fractionalisation of , for it is readily verified that wherein , as , so that is a fraction whose numerator is of the type of and whose denominator is .
+Moreover , it is to be noticed that is only a particular case of There is therefore no loss of generality in discarding from the category of fundamental types , and in forming new curve-factors by combinin arbitrary powers of different forms of only .
+Thus the curve-factor . . . . .
+( 88 ) is no less general than .
+It may be substituted for in the transformation ( 87 ) for the problem of the doubly pointed ship , with the same condition for zero angular range .
+33 .
+The formula just obtained obviously suggests the further step of establishing a functional relation between and , and letting range over all real values subject to the limitation CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+The process would be take a real variable representing and to put for being a real function not involvin .
+It would generally be legitimate to replace the limit of the product in formula ( 88 ) by the exponential of the limit of the sum of the logarithms of the various factors , which last limit is an integral .
+There results the very general curve-factor , ( 89 ) in which there is no a priori restriction of to continuity , beyond the exclusion of such infinities as would prevent convergence of the formula .
+There may , for example , be such infinities , for particular of , as would make include as factors definite powers of the corresponding forms of For values of on the linear range the modulus of is and the vector angle The angular range is LIQUID MOTIONS W1TH FREE STREAM-L1NES .
+34 .
+In a liquid motion the characteristic of a stream-line which is free , or is a possible line of discontinuity in the motion , is that along it the resultant velocity is constant .
+Now , and therefore a transformation of the type win give as part of the boundary a possible free stream-line if there is a part of the range real for which is constant .
+The simplest example of this is presented by the curve-factor ; since the modulus of this , within its linear range , is const , ant , a transformation in which consists solely of a power of gives a free stream-line as part of the boundary .
+In fact , the transformation . . . . .
+( 90 ) gives a configuration of the general character indicated by fig. 1 , with this special feature that on the curved part of the boundary there indicated the velocity is constant .
+Thus , so far as the ordinary theory of discontinuous fluid motion is concerned , the curved part of the boundary may be a free stream-line .
+35 .
+Other cases of free stream-lines across finite gaps in boundaries which are otherwise rectilineal may be built up from curve-factors of the types and These being taken in the forms it is seen that their respective moduli ( on the linear range ) are and and it is to be remembered that the angular range of is zero .
+Thus the transformation , . . . . .
+( 91 ) representing a configuration of the kind indicated in fig. 11 , gives alon the curved part of the boundary , so that curve may be a free stream-line along which the velocity is U. If be taken equal to the angular range of the whole transformation is zero , so that the first and last straight stream-lines are parallel .
+The extension to boundaries with a greater number of corners is obvious .
+36 .
+Another simple example , leading to well-known results , is afforded by the use of .
+As the modulus of for negative is , the combination of a power of with a Schwarzian factor consisting of a suitable power of will give a free stream-line .
+In fact , the transformation . . . . .
+( 92 ) gives a liquid flow of the character indicated in fig. 12 , there being a fixed obstacle consisting of two planes meeting at an angle , and stream-lines extending to infinity and tending to parallelism with the undisturbed stream .
+The case of is that of an obstacle consisting of a single-plane wall at riglt angles to the stream .
+37 .
+The previous transformation suggests a method of building up a transformation applicable to symmetrical flow past an obstacle in the form of an open polygon .
+The method consists in employing for the range of negative , ( the range which is to An equivalent form of this transformation CONFORMAL TRANSFORMATION TO PROBLEMS IN HyDRODYNAMICS .
+correspond to a free stream-line ) , the product of powers of a number of curve-factors of the type of , with different parameters .
+Suppose the configuration of liquid flow , ( halved by the line of symmetry ) , to be of the character indicated in fig. 1.3 , the fixed being polygonal with corners , and corresponding external angles .
+Let values be assigned to at , these being in descending order of magnitude , and let the value of at the end of the polygon be zero .
+Consider the transformation ( 93 ) this gives all the corners as specified , and has a constant modulus for negative .
+Hence the curve DE is a free stream-line .
+The parameters are adjustable so as to make the dimensions of the polygon such as be desired .
+It need hardly be said that a reentrant angle of the polygon would , through the Schwarzian factor , lead to a zero of , and so to an infinite velocity .
+In such a case some different transformation would apply , namely one which would include a free stream-line starting from the reentrant corner , at least one of the subsequent corners being in the region of still water .
+38 .
+Free -lines when the Fixed includes Curves.\mdash ; The method of the previou article suggests a step towards generalisation which consists in taking part of the polygonal fixed boundary to have an indefinitely large number of corners eaeh of indefinitely small external angle , introducing a suitable curve-factor and Schwarzian factor for each corner , and taking the limit of the product .
+The parameters , are replaced by a real variable which ranges between the values assigned to at the extremities of the curved part of the fixed boundary , and the indices , of the corresponding Schwarzian factors are represented by where is the angle between the tangent , drawn in the sense of increasing , and a fixed direction .
+Thus there is obtained the resultant curve-factor Lim II which is generally equivalent to the integration being extended over a suitable range of real values of For example if a liquid flow be interrupted by a symmetrical and symmetrically placed obstacle consisting of finite curves CA , AB meeting at A at an angle , and the values of at and A be taken as zero and respectively , the transformation would be of the form , . . .
+( 95 ) CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODyNAMICS .
+where is a real constant , and .
+( 96 ) Clearly the formula ( 96 ) does not become definite until a functional reiation is specified between and .
+There are two ways in which the attempt may be made to utilise the formula .
+One is the purely empirical device of assigning arbitrarily such relations between and as would make the definite integral susceptible of precise evaluation , and then ascertaining the corresponding configurations of fixed and free boundaries .
+The other is to seek the particular functional relation which shall correspond to an arbitrarily assigned form of fixed boundary .
+If , takes the form , ( 97 ) wherein it may be noted that the logarithmic infinity , which would correspond to in the particular case of real , does not destroy the convergence of the integral .
+On substitution of this in ( 95 ) , being represented by , it appears that when is real and between zero and , being taken equal to , and Suppose the intrinsic equation to the curved part of the fixed boundary to be prescribed , so that where is a prescribed function .
+Then it appears that .
+( 98 ) This relation specifies the property which ths unknown function is required to satisfy .
+It is an integral equation in , of by no means encouraging appearance .
+39 .
+It is clear that the practically useful method of applying formula ( 97 ) is to assign a convenient form to and to enquire what sort of problems can thereby be solved .
+To this end it is convenient to separate or in the first instance from any transformation such as ( 95 ) and to study it as a double curve-factor having two contiguous linear ranges , namely from to , and from to , with the special property that on the former of these ranges it its modulus independent of VOL. CCXV.\mdash ; A. It is convenient to remove the logarithm from the integral by integration by parts , thus .
+( 99 ) By way of illustration , let , then indicating the particular case by a fresh suffix , and . . . .
+( 100 ) For real and greater than is clearly real .
+For it takes the form , and its vector angle ranges from zero for to for For real and less than zero it takes the form which has modulus unity , and vector angle which ranges from for to zero for The assigning of different values to the parameter is equivalent to taking different powers of the factor corresponding to If be employed in the transformation ( 95 ) the form of the curved part of the fixed boundary depends on both the parameters and 40 .
+There is another method , slightly different from that just discussed , of building up a product whose limit is a curve-factor of a type suitable for dealing with problems of the class represented by fig. 14 .
+In S38 important factors of the product were curve-factors having all the same semi-infinite linear range of curvilinearity but different moduli ; in the present instance curve-factors having different.semi-infinite linear ranges , but the same modulus , are multiplied together .
+CONFORMAL TRANSFORMATION TO PROBLEMS IN HyDRODYNAMICS .
+A type of is which has the linear range , angular range , and modulus , in the range , Thus has angular range and modulus It follows that has a double range of curvilinearity consisting of ( i ) , on which the modulus is Lim , and ( ii ) , on which the modulus has a less simple form .
+The angular ran ge is Lim In general the limit form is , ( 101 ) with angular range and modulus If an angular ran ge be desired must be chosen so that The transformation . . . . .
+( 102 ) would give a configuration different from fig. 14 in this respect that the fixed boundary would be straight from to , and would then round smoothly into a curve from to It is to be remarked that is not a curve-factor for , though it is so for any positive value of however small .
+This might seem to preclude the putting of in formula ( 101 ) .
+However there is no real difficulty , for the subject of integration has no discontinuity at , provided due precautions have been taken in the choice of ; and in any case the integral with lower limit zero is concerned with ( amongst others ) vanishingly small values of , but not with the actual value .
+If the form of for be denoted by , the transformation . . . .
+( 103 ) gives a configuration like that of fig. 14 .
+A simple example is afforded by giving to the value .
+It is readily verified that so that , denoting this particular case of by ( 104 ) By way of checking this result it is to be noticed that , for real and takes the form in which the vector angle is and increases from zero to as diminishes from to zero .
+For real and negative the form of is whose modulus is , and vector angle , where ; it is readily seen that , as decreases from zero to passes from to the limit value Thus is a double curve-factor of angular range equally divided between the two parts of its linear range to , and to On the former part of the linear range the modulus is , so that the transformation . . . . .
+( 105 ) gives a as in fig. 14 , with a free stream-line tending to parallelism with the undisturbed stream .
+In general An example , simpler than the former , is got by putting , so that This makes the integral with lower limit zero equal to and gives the curve-factor , . . .
+( 106 ) with the same sort of properties as CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+is really the product of two simpler curve-factors , one of the now familiar type of , the other , . . . . .
+( 107 ) a double curve-factor whose linear ranges are and ving total ular range zero , and modulus unity for The formula of integration by parts suggests that other forms of could bc factorised in a corresponding manner .
+41 .
+A collfiguration of the type of fig. 15 is given by the transformation , ( 108 ) where is arbitrary , and are the angles indicated in the The boundary corresponding to ative is a free stream-line .
+Greater generality can be obtained by introducing factors of the type , where GENERAL REMARKS 0N CURVE-FACT0RS .
+42 .
+Note on the Relation It has been already shown that the angular range of a curve-factor is times its order at infinity ; the same is obvious ] true for a Schwarzian factor .
+Hence all the trans- formations which have been considered are characterised by the property that the total angular range is times the order at infinity .
+Thus if the .
+range be , where , the first approximation to the form of the lnation for values of having very great modulus is where A is a real constant , and the form of the boundary consists of lines constituting the arms of an angle Integration leads to the approximate relations where and are real constants .
+Now.if be expressible , for great values of , as a series of terms of the type since has to be real for real , must be real ; and since has to be real for of the form ] , it is necessary that , where is a positive or negative integer .
+Thus the admissible terms in the expansion are of the type .
+When the expansion may also include a term in , but it must be remembered that , when great , is of a higher order of greatness than The real part of being represented by , it is known that taken over any area in the plane is equal to ) taken round the boundary , representing an element of outward normal .
+If the boundary be made up of the locus of real and an arc of a circle with centre at the origin and radius , the subject of the line-integration is zero on the former part of the boundary .
+On the latter part and ; thus where as is increased indefinitely .
+If the area-integral is to cover the .
+whole of the relevant region the limit of the right-hand side must be taken for A term in would give in the limit of the line-integral a and this tends to zero if is negative and to infinity if is positive .
+If the area- integral vanishes must be constant throughout the region .
+Hence , for an assigned value of , there can be no of aIry significance unless the most important term in for great has a positive index ( or , as a possible alternative in the case of is a multiple of log ) .
+For this condition the least admissible value of is unity .
+Thus generally the transformations made up of curve-factors and Schwarzian factors are such that the most important term in , for great , is of the least possible order of magnitude that is consistent with being other than a mere constant .
+It is true that , in the case of is infinite for infinite , but the conditions of the problem do not then admit of any free from this objection .
+In the hydrodynamical applications it may be said that the transformation gives , for any specified region in the an irrotational continuous motion which is as free from singularity at infinity as the nature of the geometrical configuration allows .
+CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+Adverting for example to S14 , it is seen now that the provisional exclusion of a negative value of was an unnecessary piece of caution .
+For negative the flow would take place in a region like that on the left of the arrows in fig. 16 .
+It is true that in this flow the velocity at infinity would be infinite , but then there is no irrotational continuous flow possible in the region which does not have infinite velocity at infinity .
+The flow is , in fact , no more impossible than is the region in which it is supposed to take place .
+43 .
+-factors not ) definite order at infinity.\mdash ; An example of a curve-factor of a kind not likely to be directly useful in physical applications is , . . . . .
+( 109 ) where and are rational algebraical functions , or any functions hich have no infinities other than for infinite .
+The vector angle , on the linear range is , and the angular range has usually no definite order at infinity , and so the proposition does not apply to it .
+The possibility , however , of a definite order at finity l be illustrated by an example which is in one espect a little more general than namely , . . . . .
+( 110 ) For great this tends to the limit , so the .
+at infinity is zero .
+Of somewhat similar character are the cnrve-factors , . . .
+( 111 ) .
+( 112 ) ACTORS REGARDED As THE LIMITS 0F PRODUCTS 0F 44 .
+The Schwarz-Christoffel transformation being so widely known and of proved utility , the most natural way of to obtain a the conformal representation of a region whose boundary is partly cnrv i}onld seem to be to treat the curve as the limit of a rectilineal and to seek the corresponding limit of the product of the Schwarzian factors appropriate to corners that have to be smoothed out into a continuous curve . .
+J. G. LEATHEM ON SOME APPLICATIONS OF If be , as usual , the angle between the axis of real and the tangent at any point of curve corresponding to real , the sense of the tangent being that of , the external angle of the polygon whose limit is to be the curve may be taken to be , so that , if be the value of at the corner , the Schwarzian faotor is .
+The parameter varies continuously along the curve , and the curvefactor Jim can generally be replaced by the expression , ( 113 ) the exteIJding over the whole curve .
+It is to be noticed that in this expression there may be an infinity in the subject of integration at a point corresponding to a real value of .
+This infinity , being less powerful than an infinity of the type , does not interfere with absolute convergence of the integral .
+Formal proof of this statement is considered unnecessary here , being of a character readily suggested by familiar treatments of convergence tests .
+It may be illustrated , in the hydro-dynamical application , by the fact that , while a convex angle in the boundary gives rise to an infinite velocity , a convex smooth curve does not .
+But , while there is no divergence of the integral , the formula ( 113 ) is nevertheless indefinite in the absence of any specified functional relation between the variables and .
+The Schwarz transformation takes account only of the angles of the configuration to which it is applied , and leaves adjustments of all lengths to be dealt with after transformation by the assigning of suitable values to the various parameters associated with in the factors .
+It is therefore not surprising that a transformation containing only Schwarzian factors and limits of products of such factors should ensure only that the directional and angular aspects of the configuration are properly dealt with , leaving all settlement of correct linear dimensions to be adjusted subsequently by the assigning of suitable values to isolated parameters and suitable functional relations to parameters which vary continuously .
+It is therefore proper to assume a functional relation between and , say , with the reservation that the nature of the function is determined by the configuration which is bein dealt with , and depends not merely on the curve to which corresponds but on the whole angular and linear ration of the prescribed boundary .
+45 .
+Before attempting to formulate the condition which must satisfy in order that in a transformation of suitable type may represent a curve of assigned form , it is to note the usefulness of an alternative method of applying formula ( 113 ) which consists in assigning such arbitrary forms to as lead to simple CONFORMAL TRANSFORMATION TO PROBLEMS IN integrations , and so generating curve-factors whose geometrical significance in typical transformations can be examined .
+As the geometrical interpretation has to do with real values of , it is to be remarked that for real and , ( 114 ) so that the vector angle of is and its modulus A simple example is got by taking , where and are constants , so that .
+The argument of the exponential in the curve-factor is After omission of a constant factor this yields the curve-factor . . . . . . . .
+( 115 ) It is readily seen that the angular range of is , and that for great it approximates to the form , so that there is a definite order at infinity , namely .
+The curve-factor does not tend to zero as approaches or By putting one gets the curve-factor , . . . . .
+( 116 ) with angular range and order at infinity .
+There would probably be little difficulty in finding a considerable number of forms of , which would permit of evaluation of the integral in formula ( 113 ) and so yield types of curve-factor .
+46 .
+The problem of formulating the condition which must satisfy , in order that the resulting curve-factor ( in combination with suitable Schwarzian factors ) may be applicable to a prescribed curve , may be exemplified by taking the case of the doubly-pointed ship .
+Suppose a configuration like fig. 3 has to be dealt with , the form of the curve in the linear range being prescribed .
+The transformation will be of the form .
+( 117 ) and the question is is required of in order that the curve corresponding to may be as prescribed .
+CCXY .
+It seems simplest to deal with the curvature of the curve .
+When is put equal to , it appears that , for real and between and , ( 118 ) the assumption being equivalent to the previously implied assumption that the curve-factor of the type has no latent Schwarzian singularity at either end of the range , so that the transformation would give a boundary without corners .
+It appears also that , ( 119 ) so that ( 120 ) Now on the prescribed curve is a known function of , say ; hence must satisfy , . . . .
+( 121 ) which can be regarded as an integral equation in A less complicated-looking form of the condition can be got by taking logarithms of both sides of ( 121 ) and differentiating with respect to .
+In carrying out this operation it is useful to note that the differentiation of the definite integral is effected by differentiation under the sign of integration and taking the Cauchy principal value ( indicated by ) of the resulting integral ; proof of this is omitted as the result is probably well known .
+The resulting expression of the condition which must satisfy is .
+( 122 ) 47 .
+Transformation for any Prescribed Boundary.\mdash ; Instead of confining the application of the method of S44 to a single curved portion of the boundary of the region which is to be represented conformally on the half-plane of , it is legitimate to deal with the whole boundary in a single formula , namely , ( 123 ) where ranges from to , and there is an unknown and possibly discontinuous , but definite , functional relation between and .
+A straight part of the boundary , along which is zero , makes no contribution to the formula .
+CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAMICS .
+corner , where undergoes finite change , say , while is at a standstill say at contributes to the integral an amount , and so leads to the ordinary Schwarzian or corner factor .
+The curved portions of the boundary contribute distinct curve-factors of the type For any one continuously curved stretch of the boundary , say , let be the suitable expression for , and let be the modulus of all that part of the right-hand side of formula ( 123 ) which corresponds to values of outside the range .
+Then the condition that has to satisfy is of the type .
+( 124 ) To other curved parts of the boundary correspond other functions , , , \amp ; c. , which satisfy similar conditions involving \amp ; c. , but depends on , , and depends on , , so that the complete expression of the conditions which the 's must satisfy is a complicated set of simultaneous integral equations with the function as kernel .
+48 .
+Free \mdash ; As an alternative to the formulation of the previous article it may be assumed that along the curve , and , where is the unknown function .
+Then so that , ( 125 ) an integral equation ( or equations ) in The characteristic property of a free stream-line is that along it the velocity is constant , say unity , so that and .
+Thus if one portion of the boundary , instead of being of prescribed shape , is to be a free stream-line , the corresponding function must satisfy the condition , ( 126 ) an integral equation in with kernel The solution of this equation for the case in which the fixed boundary is a rectilineal polygon is derivable from the results of S37 .
+TRANSFORMATIONS INVOLVING BOTH VARIABLES EXPLICITLY 49 .
+The study of conformal representation by means of transformations of the type would obviously present even greater difficulty than the kind of transformation hitherto considered ; but in connexion with the problem typified in fig. 3 , the problem namely of obtaining shapes of doubly-pointed ships whose hydrodynamical effect in longitudinal motion can be exactly specified , something can be done with the more general transformation .
+It is easy to verify that the transformation for a semi-circle and the productions of a diameter , namely is equivalent to ; . . . .
+( 127 ) and that the transformation for a semi-ellipse , , and the productions of its principal diameter , namely is equivalent to , ( 128 ) an intermediate variable being convenience introduced in each case .
+In these forms it is to be noticed : ( i ) that the factors in the denominators on the left-hand side do not lead to zeros of or to corners because the points in the plane where they have zeros are not in the relevant region , and ( ii ) that the only factors left on the right-hand side are the Schwarzian or corner factors .
+Thus the effect of the transformation is to straighten out the curved part of the boundary without alteration of the corner-angles , and the effect of the transformation is to smooth out the corners .
+In both cases the transformation is of the Scbwarzian type , making the axis of real correspond to a rectilineal open polygon in the plane , but these polygons do not .
+constitute the boundaries of the regions which are relevant to the present problem .
+A straight line joining points in the first and last arms of the open polygon in the plane screens off all the original corners from the relevant region , as it were short-circuiting a part boundary including all the corners ; and the corresponding line in the plane is a curved line which screens off from the evant region all those points on the real axis which corresponded to the corners of the Schwarzian transformation .
+This aspect of the transformation suggests generalisation by the introduction of any number of corners on the broken line in the plane which corresponds to the part of the axis of real which is screen off from the relevant region .
+The desired configuration in the plane being as shown in fig. 17 , the values .
+of the marked angles being prescribed , and the values being assigned to at CONFORMAL TRANSFORMATION TO PROBLEMS IN lIICS .
+48.3 the ends of the curve , any number of real parameters may be taken , subject only to the condition and another set of parameters , associated with them , subject to the condition . . . . . .
+( 129 ) Then the transformation ( 130 ) makes the axis of real correspond to an open polygon in the plane such as that in fig. 18 .
+The external angles , , so that the angle between the directions of the arrows on the first and last sides is .
+The straight line in the plane joining the points must correspond to a convex curve in the plane .
+The representation of the configuration upon the half plane of is of the Schwarzian type , taking account of the corners in the boundary of the relevant region .
+Thus if be the values of corresponding to the corners , the full transformation is ' . . .
+( 131 ) subject to the condition ( 129 ) .
+Still further generalisation can be secured by making some of the screened-off sides of the polygon in the plane curved .
+This can be done by introducing curve-factors ( expressed now in terms of z ) into the left side of the transformation .
+For example if one factor of linear range to and angular range were introduced , the transformation would be of the type .
+( 132 ) with the condition . . . . . . . . .
+( 133 ) A practical inconvenience of the present method of constructing transformations applicable to the ship problem lies in the fact that , while the condition ( 129 ) or alternatively ( 133 ) secures that the angles and shall have any prescribed sum , it does not suffice to secure prescribed separate values for these angles .
+When this is desired there is a further condition to be satisfied in the form of a relation between the parameters , , .
+What is wanted is that the vector angle of the complex shall be , and this is equivalent to Vector angle of Generally the fulfilment of this condition cannot be arranged for without previous evaluation of the indefinite integral of .
+Thus the problem of integration , which must inevitably be faced in any case in the detailed interpretation of a transformation , presents itself here at an earlier stage .
+50 .
+The method of the previous article may be further modified by associating with such Schwarzian factors , powers of , as shall remove the corners at and make the first and last portions of the boundary productions of the straight line that corresponds to the curve in the plane .
+In this case there are no Schwarzian factors to be associated with , so and become identical save for a constant multiplier , and the configuration in the plane is as shown in fig. 19 , the mark angles being called and .
+The transformation is of the form In comparing the and configurations as represented by figs. 17 and 19 , it is to be noted that corresponding angles at , though not equal , are proportional .
+Hence CONFORMAL TRANSFORMATION TO PROBLEMS IN AMICS .
+, so that ; similarly .
+Thus the transformation is ( 134 ) with the conditions , ( 135 ) and , ( 136 ) the latter being the condition that the transformation havs zero angular range .
+In the application to ships there must also be the condition for vanishing of the source term in the expansion of for great .
+Clearly it is possible , with obvious precautions , to introduce on the left-hand side of ( 134 ) curve-factors in having a linear range inside the range to , due account being taken of their angular range in ( 136 ) .
+A particular example ( as regards the configuration rather a limit case ) of the transformation ( 134 ) is got by putting This gives , . . . . . .
+( 137 ) wherein .
+The curves in the plane corresponding to this transformation are RANKINE'S " " oval neoids.\ldquo ; * 51 .
+The transformation for the semi-ellipse and the productions of its minor axis , written in the form , ( 138 ) exemplifies the possible presence in the denominator on the left-hand side of ( i ) function having imaginary zeros which are not in the relevant region , ( ii ) a function entirely free from zeros , and possessed of branch points outside the relevant region .
+Doubtless it would be possible to effect some generalisation of a formula including these features .
+SUPPLEMENTARY NOTE 0N CURVE-FACT0RS .
+( Added 15th June , 1915 .
+) 52 .
+It should be noticed that the product of two curve-factors , of which the linear range of one is contained in the linear range of the other , is itself a curve-factor for the greater linear range .
+The resultant curve-factor is not , however , simple in the sense specified in S4 , for though a curve represented by the curve-factor in any RANKINF .
+, " " On Plane Water-Lines in Two Dimensions ' Scientific Papers , ' p. 495 .
+transformation might have no discontinuity of direction in the full linear range there would be discontinuities in the analytical form of the equation to the curve at the extremities of the inner range .
+This illustrates the fact that a curve-factor , which , for its total linear range of curvilinearity , is not necessarily simple , may have branch-points not only at the extremities of the linear range but also at points within the range .
+If the general character of the types already chiefly considered is to be maintained in such a multiple curve-factor , the net effect of proceeding along the real axis of with a suitable detour round each branch-point must be simply a change of sign when the whole range has been traversed .
+Thus the formula .
+( 138A ) where , gives a curve-factor provided all the indices are positive , and . . . . . .
+( 139 ) The function has no real zeros , there can be no imaginary zeros in the relevant region unless the angular range is different from .
+On writing down the expression for the tangent of the vector angle in any sub-ran ge to it can be verified that , except in the case of , infinities of , if they occur at all , must occur in pairs which are not separated by a zero .
+Thus all the sub-ranges have zero angular ranges , except one whose angular range is , and so the total angular range is The complete curve corresponding , in any transformation , to a factor consists of two undulatory curves of zero angular range extending from to and from to , joined by a curve of angular range corresponding to the interval to Of course no one of the 's may be equal to , as if were a factor of there would be a corner at 53 .
+The multiple character of the curve-factor arises from the discrete distribution along the linear range of branch-points of definite order .
+This feature can be eliminated by substituting a continuous distribution of branch-points , each factor having an infinitesimal index except the factors at the ends of the range .
+Thus to the factor is assigned the index , and the limit is taken for vanishing of in each case .
+The form thus suggested is .
+( 140 ) So long as is free from infinities in the linear range , the second term of this expression has no zeros in that range , and it will be supposed that is thus restricted .
+An infinity of at might introduce a power of as a factor in and so introduce a corner ; infinities of at other points of the range , if their effect were to introduce factors of the type into the second term , would leave still a curve-factor but not a simple curve-factor .
+CONFORMAL TRANSFORMATION TO PROBLEMS IN HYDRODYNAhlICiS .
+The undulations which characterise do not appear in curves represented by The relation corresponding in this case to formula ( 139 ) is .
+( 141 ) An example of , got by putting equal to a constant , is , ( 142 ) subject to . . . . .
+( 143 ) 54 .
+A gweralisatio of is \ldquo ; , ( 144 ) where the 's lie between and but do not coincide with any of the , the 's are all positive , and . . . . . .
+( 145 ) It is readily verified that , for real values of between and , the imaginary part of does not vanish , while the real part vanishes an odd number of tinles .
+Hence the angular amplitude is Treatment on the lines of article 53leads to the form , ( 146 ) where and are functions of free from infinities between and 55 .
+The forms obtained in the last three articles suggest the possibility that the addition of Schwarzian factors or the products of Schwarzian factors to one another , or of curve-factors to one another , or of members of the one class to members of the other class , may generally lead to results which are themselves curve-factors , provided all the terms so added have the same angular range .
+Probably further limitations would have to be introduced into the enunciation of such a theorem to make it valid , but it seems clear that the method of addition is a useful means of obtaining fresh forms of curve-factor .
+The following examples suggest themselves:\mdash ; , . . .
+( 147 ) where , and ; and , ( 148 ) where is positive for values of between and VOL. CCXV.\mdash ; A. 3
+

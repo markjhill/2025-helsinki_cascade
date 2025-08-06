@@ -1,0 +1,364 @@
+3^8 Mr. A. J. Ellis .
+On Potential Radix [ Feb. 3 it follows that the number of decimal places in the quotient Jc+l will be two less than in the given logarithm .
+Moreover , as the last decimal place is always approximate , it follows that the number e cannot be found with certainty to more than three decimal places less than the number of decimal places in the given tab .
+logarithm .
+Hence , in the present case , although tab .
+log e is known to eighteen places of decimals , e is known with certainty only to fifteen places of decimals ( and sixteen digits ) .
+But the error in the next place ( or digit ) will not probably exceed one unit .
+Having found e , we have to multiply it in succession by the numbers corresponding to the logarithms subtracted in the preparations in this example , 1-014 , T9 , and 1011 .
+This is most readily done in the way sufficiently explained by the notes in the example .
+The resulting number is accidentally correct to seventeen digits , but only sixteen can be used with certainty .
+Hence , if we use this bimodular method of finding logarithms and anti-logarithms , we should always find the logarithms to two or three places of decimals more than we require digits in the final number to be found .
+Y. " On the Potential Radix as a Means of Calculating Logarithms to any Required Number of Decimal Places , with a Summary of all Preceding Methods Chronologically Arranged/ ' By Alexander J. Ellis , B.A. , F.R.S. , F.S.A. Received January 17 , 1881 .
+In the tables attached to my paper " On an Improved Bimodular Method of Computing Logarithms , \amp ; c. " ( " Proc. Roy .
+Soc. , " vol. 31 , p. 381 ) , the logarithms used were all taken direct , or immediately calculated , from the tables of Wolframm and Gray .
+But a complete method of calculating logarithms should be independent of extraneous aid and be applicable to the first construction of tables of logarithms .
+I shall here show that my improved bimodular method is capable of furnishing a practical means of calculating natural logarithms , and hence logarithms to any base and to any number of places of decimals .
+By the term positive numerical radix I shall understand a table of the numbers r , l'r , 1 -f- '0mr , with their corresponding natural logarithms , where r varies from 1 to 9 , 0m means a series of m zeroes , and m varies from 1 to any required number .
+The word Radix in this sense is adopted from R. Flower , 1771 , mentioned below .
+By the term negative numerical radix I mean a similar table of 1 \#151 ; '0 and the negatives of their corresponding logarithms .
+When these radixes ( forming an English plural , as radices would be misleading ) have been 1881 .
+] as a Means of Calculating Logarithms , Sfc .
+399 constructed to the requisite number of decimal places , logarithms and anti-logarithms can be calculated by various methods .
+The improved bimodular method requires a much less extended radix for the same number of decimal places than any other method .
+Thus , to find tab .
+log 11=6 tab .
+log 76=tab .
+log 192 699 928 576 , the example used in my former paper .
+The requisite radix logarithms are assumed from Gray* and Thoman .
+The details of division and multiplication are omitted for brevity .
+First with the positive numerical radix , 1 -92 699 928 576 a=N-r-10n 9 ) -63 499 642 880 b = 5a 1 -07)055 515 875 555 555 555 556 c=b-h9 1 -000 5)18 839 958 463 136 033 d=c -4-1 " 07 16 364 179 999 652 896 e=2M(c\#163 ; \#151 ; 1 *0005 ) 2 -001 0 18 839 958 463 136 033 f-d+1 -0005 o-ooo 0 08 177 924 001 951 217 Ou 241 645 h=correction .ooo 217 092 972 230 208 282 =tab .
+log 1 -0005 .029 383 777 685 209 640 835 =tab .
+log 1 *07 .301 029 995 663 981 195 214- l=compt .
+tab .
+log 5 .954 242 509 439 324 874 590 =tab .
+log 9 11 0 =tab .
+log 1011 11 -284 881 553 684 748 111 783 sum=tab .
+log N For the details of the method see my former paper .
+The preparation is here carried a step further than there , before the interpolation .
+We first multiply by 5 and then divide by 9 , as in Ex. 2 of my former paper , but the division by 9 is now carried to twenty-three places of decimals , and then 1'07 , a number in the radix , is separated off as a new divisor of c , giving where T0005 is separated off as the next less number in the radix .
+But we might have used it as a divisor , and should have then found TOO 001 833 078 307 160 0 . . .
+from which still more decimal places could be obtained in the final result .
+But stopping at d , we form the dividend e and divisor/ 1 , and then find the quotient g. The correction is obtained from the formula in my former paper , Table II , No. 5 .
+But as these corrections involve the use of other tables , they would be illegitimate in first constructions , which would give only fourteen decimal places correct in place of twenty .
+The rest is as usual .
+The disadvantage of this method by the positive numerical radix , is 400 Mr. A. J. Ellis .
+On Potential Radix [ Feb. 3 the necessity for frequent divisions , as by 1'07 , 1'0005 , 1*00001 , \amp ; c very simple , it is true , but rather lengthy .
+These are avoided by the use of the negative numerical radix .
+Taking the preparation a , b , c as before , we begin with c , and instead of dividing out by 1'07 , we only see how often 1*07 will go in the three first significant figures 705 , and finding it to be 6 , we multiply c by 0*6 , producing d , and subtracting this from c , " we obtain d\#151 ; 1 \#151 ; '06 .
+After this the number of times that 1006 goes in 6321 is 6 , the first significant four places of decimals .
+Hence we multiply e by '026 , subtract the result f from e , and obtain ex ( 1 \#151 ; *026 ) .
+It is evident that by this process the number of zeroes with which the decimal fraction commences can be increased by at least one at every multiplication by ( 1 \#151 ; 'O^r ) a number in the negative radix .
+We stop when sufficient zeroes are obtained to apply the improved bi-modular method for a sufficient number of places .
+We might , how1 -07 055 515 875 555 555 555 5(55 c 6 423 330 952 533 333 333 333 d=cx *06 1-00 632 184 923 022 222 222(222 603 793 109 538 133 333 333 1 -00 028 391 813 484 088 88(8 888 2 00 016 386 135 121 392 071 111 e\#151 ; c\#151 ; d=c X ( 1\#151 ; *06 ) f\#151 ; ex *026 g=e\#151 ; f\#151 ; ex ( 1\#151 ; *026 ) h=gX *032 Jc=g \#151 ; h=gX ( 1\#151 ; -032 ) .Z=2M(Jfc-l *048 ) m=Jc+ 1 *048 .000 001 676 826 111 397 547 6 *017 2 083 1 correction .954 242 509 439 324 874 590 1 tab .
+log 9 .301 029 995 663 981 195 213 7-1 comp .
+tab .
+log 5 .026 872 146 400 301 340 372 0 -tab .
+Jog ( 1- '06 ) .002 613 615 602 686 687 981 2 -tab .
+log ( 1- -026 ) .000 086 867 583 428 580 794 6 -tab .
+log ( 1 - -0S2 ) *000 034 742 168 884 033 200 5 tab .
+log 1 *048 11 *0 tab .
+log 1011 11*284 881 553 684 748 111 782 8 sum=tab .
+log N ever , have continued the process till the number of zeroes were half of the decimal places , and then the " divisor " would be practically 2 , and hence the rule of multiplying the difference ( which would be the remaining significant figures ) by the bimodulus and dividing by the as a Means of Calculating , fyc .
+1881 .
+] sum ( in this case 2 ) would amount to multiplying the significant figures by the modulus only , which is Thoman 's rule .
+In that case there would be no correction .
+The completion consisting of adding the logarithms of the divisors and subtracting those of the multipliers , is the usual one , but as the negative radix gives \#151 ; tab .
+log ( 1\#151 ; *0mr ) direct , there is no occasion for using arithmetical complements .
+W e might , also , have continued the process till all the decimal places were zero , and then have made the whole work one of completion .
+The last half of the process need not be gone through , as the multipliers in the negative radix can be taken from it at sight .
+This is the process of Mr. Weddle , the inventor of the negative radix .
+The number may be recovered from the logarithms in various ways from the positive radix , and , among others , by my improved bi-modular method , or in Mr. Weddle 's method , from the negative radix .
+Hence the problem is reduced to finding a simple way of calculating the positive and negative radixes .
+Before explaining the method proposed in this paper , however , it will be best to prefix a chronological summary of the methods actually proposed for calculating logarithms with or without a radix , and with or without an annexed indication of the means employed for calculating the radix.* Chronological Summary of Methods .
+1624 .
+*Briggs , H. " Arithmetica Logarithmica , " p. 32 , contains the first positive numerical radix , under the name of S " Tabella inventioni Logarithmorum inserviens , " giving r , 1 *r , T0mr from r=l to r=9 , and m=l to m=8 with their tabular logarithms to fifteen places of decimals .
+The fifteenth place is often more than one unit wrong , and two other errors occur , namely , tab .
+log 4= *60205 9991 . . . .
+for *60205 9990 . . .
+, corrected in the chiliads , and tab .
+log 1*035 = *0321 700 . . .
+for *0321 709 . . .
+, which last error is reproduced in the chiliads .
+Briggs does not explain how he calculated this table .
+He uses it to interpolate in his chiliads , and finds the logarithm by means of a series of divisions with a continually augmented divisor , which is in fact the product of the successive factors into which the number is gradually resolved , but he does not explain this contrivance .
+He finds the number corresponding to the logarithm by subtracting the next less logarithms successively and multiplying by the corresponding numbers , a method generally adopted .
+* The works marked * are in the library of the Royal Society , the originals of those marked + , and transcripts of the whole of the necessary portions of those marked S , were given to the Royal Society by the author of this paper when it was read , so as to put a tolerably complete collection of all the papers bearing upon the subject in the possession of the Royal Society .
+402 Mr. A. J. Ellis .
+On Potential Radix [ Feb. 3 , 1628 .
+*Vlacq , A. In bis second edition of Briggs , 1628 , and not in those printed later , gives Briggs 's S Radix to ten places only , but repeats the two internal errors mentioned above , correcting both of them , however , in his chiliads .
+There is no notice of this radix in *Vega 's edition of Ylacq , under the name of " Thesaurus Logarith-morum , " 1794 .
+1714 .
+*Long , J. " Philosophical Transactions , " vol. 29 , 1717 No. 339 , pp. 62\#151 ; 54 .
+A radix of logarithms of the form *r , *0OTr from r=l to r=9 , and m=l to ni\#151 ; 7 , and their corresponding natural numbers , intermediates being found by continual divisions .
+He finds the numbers by " one extraction of the fifth or sursolid root for each class , " and for a method of performing that extraction refers to Halley 's paper on finding the roots of equations , in * " Phil. Trans , " vol. 18 , for 1694 , pp. 136\#151 ; 148 .
+1742 .
+f Gardiner , W. Tables of Logarithms .
+He gives a table of logarithms to twenty places of decimals for the numbers 1 to 1143 , 101000 to 101139 , and 00000 to 00139 ( the two last with the first , second , and third differences ) , and a rule whence , by the help of these tables , the logarithm to any number is found to twenty places of decimals .
+No explanations .
+1771 .
+SFlower , Robert .
+" The Radix , a new way of making Logarithms .
+" Flower introduces the word Radix , here preserved in memoriam .
+He apparently used it because he considered all numbers between 1 and 10 to be roots of 10 .
+He applies the term to several tables .
+First , " the cube radix of 10 , " a series of cube roots , 10 , V10 , 3 V3 a/ 10 , \amp ; c. , each expressed as decimals to ten places , ending at l'092=r , and then each term is again expressed as a series of cubes of r. He shows how to find the tabular logarithms of any number from this table , and actually finds tab .
+log 2 to ten places of decimals in two different ways .
+He next calculates " the square Radix of 10 , " a series of square roots , 10 , v^lO , \amp ; c. , with indices of the powers of the last , T092=r .
+By this he proved the work with the cube radix .
+But finding the labour much lessened by the smaller intervals between these square roots , and still more so when the two radixes were combined , he was led ( p. 9 ) to the " classical radix , " which is so called because of the " classes " into which the numbers l'0\#187 ; r were divided by the different values of m , corresponding to my positive numerical radix , the number of the class being m+1 .
+This he calculated , apparently from the two first radixes separately , or " both ways , " as he says , to ten decimal places , to 1091 .
+He subsequently enlarged his " square radix , " under the name of the square-square radix , and added another , called the cube-square radix , of the form 10 , 3\/ 10 , \/ 3 \/ 10 , v/ 3v/ 10 , \amp ; c. , and from these he calculated his classical radix up to 10nl and twenty-three places of decimals , of which he believed as a Means of Calculating Logarithms , fyc .
+1881 .
+] twenty-two to be correct , as was actually the case , except for tab .
+logs of 1*4 , 1'045 , and 1*089 , for which only twenty-one places were correct .
+To use this radix he gave three rules , all original , called the " direct , " the " reverse , " and the " reflected " rules .
+It is the last one which is most valuable , and which he mainly exemplifies .
+This rule consists in preparing the number by reducing it to a decimal fraction having 0 as its whole number , and then multiplying it in succession by numbers of the form l'0OTr till the result is unity , then the sum of the complements of the logarithms of these numbers ( given in the radix ) will be the logarithm of the reduced number .
+This was at the time an entirely original conception , and the method of working it out , which was totally different from Briggs 's , gave the simplest means for finding tabular logarithms to twenty places .
+I give these details because Raper and Horsley , as well as Hutton ( who reports their opinions , in the * first edition only , 1785 , of his mathematical tables , p. 72 , foot note ) , who had evidently very insufficiently studied Flower 's work , considered his process to be merely " a large exemplification " of Briggs 's .
+Although Flower 's method of finding the number from the logarithm agrees with Briggs , and although he speaks of Vlacq , I believe that he never saw either Briggs 's or Vlacq 's works containing the radix , which were expensive and difficult to procure .
+He seems to have known of them chiefly from *Sherwin 's tables .
+Robert Flower was an obscure writing-master at Bishop 's Stortford , where he was buried , aged 63 years and unmarried , on the 23rd of February , 1774 , just three years after his book , " printed for the author , " was published .
+It consequently rapidly disappeared .
+It is not mentioned in Mr. Glaisher 's catalogue ( Rep. Br .
+As .
+, 1873 ) , it is not in De Morgan 's catalogue ; I found no copy at the British Museum , at Oxford , or Cambridge , or at the Royal Society .
+But there were two copies in Mr. Graves 's collection at University College , London , one of which , at my suggestion , has been presented to the British Museum .
+1802 .
+Leonelli , Z. " Supplement Logarithmique , " Bordeaux , An. XI ( 1802\#151 ; 3 ) .
+Leonelli re-discovered Briggs 's method , and having fortunately obtained a copy of Flower 's book from M. Eveque , who bought it in London , reproduced his radix for tabular logarithms to 1'0101 and up to twenty places only , added another radix for natural logarithms to the same extent , and gave Flower 's rule , with his name .
+This work was translated into German by *Leonhardi in 1806 , with numerous changes .
+Only one copy of the original work was known to exist , presented by the author to the city library of Bordeaux , from which it was freprinted , with a preface , in 1876 , by M. Houel , who had already given from it an account of Flower 's rule , with a radix , name , and date , in his + " Tables de Logarithmes a Cinq Decimales , " Table V , where he styles it " la methode la plus simple de toutes celle3 Mr. A. J. Ellis .
+On the Potential Radix [ Feb. 3 qui out ete proposees pour le meme objet .
+" From this work an account of Flower 's method was introduced into an appendix to Don Vicente Vazquez Queipo 's " Tablas de los Logarithm os Vulgares , " from the tFrench edition of which I first heard of Flower 's rule-Queipo added a twenty-first place from Thoman .
+Schron gives Flower 's radix to sixteen places , tabular and natural , with the rule , in his " Interpolations-Tafel , " 1861 , p. 76 , probably from Leonhardi , but does not mention Flower 's name , and the same omission occurs in fHouel 's translation of the same .
+1806 .
+*SManning , Thomas .
+" New Method of Computing Loga- rithms , " " Phil. Trans. , " 1806 , p. 327 .
+Manning was evidently unacquainted with Briggs , Flower , and Leonelli .
+His table is essentially a potential negative radix for natural logarithms , and as such was partly an anticipation of my conception , explained below .
+But he did not form the powers of 1 \#151 ; -0ml , he merely tabulated \#151 ; r log ( 1\#151 ; '0ml ) from r=l to r\#151 ; 9 and m=1 to m 8 , conceived only as log 10"8 He therefore performed the division by the values of the powers of 1 \#151 ; '0ml , by means of a continual multiplication by *0\#187 ; 1 and subtraction , which makes his process simple , but very lengthy .
+It is , however , entirely original .
+He did not apply his method to the discovery of the number from the logarithm .
+1845 .
+*SWeddle .
+" Computation of Logarithms and Anti-Logarithms , " in " The Mathematician , " November , 1845 , pp. 17\#151 ; 25 .
+He says his method was discovered in 1838 , and gives it as a modification of Manning 's .
+But it consists , in fact , of a complete negative numerical radix for both tabular and natural logarithms for sixteen decimal places down to \#151 ; log ( 1 \#151 ; '061 ) , calculated by the usual series for \#151 ; log ( 1\#151 ; ) , and applied , not only to finding the logarithms to numbers , but to finding numbers from logarithms .
+It is , therefore , really an original method , completely worked out , and the most important since Flower 's .
+Extended tables were given by Shortrede , 1849 .
+1846 .
+SGray , Peter .
+" A Practical Method of Forming Logarithms and Anti-Logarithms , " 8th December , 1846 , reprinted from the " Mechanics ' Magazine " for October and November , 1846 , contains a re-arrangement of Weddle 's plan , with improved tables .
+1847 .
+*SHearn , Professor .
+" Practical Method of Forming Logarithms and Anti-Logarithms , independently of extensive Tables , " in " The Mathematician " for March , 1847 , pp. 249\#151 ; 252 .
+This was an independent discovery of Weddle 's method for finding logarithms by the negative nnmerical radix , but for finding numbers from logarithms he used the positive numerical radix .
+He gives tables to ten places of decimals , down to \#151 ; tab .
+log ( 1 \#151 ; '091 ) , but does not mention how they were calculated .
+Extended tables were given by Shortrede , 1849 .
+as a Means of Calculating Logarithms , 8fc .
+1881 .
+] 1848 .
+%Oray , Peter .
+" A Table for the Easy Formation of Anti-ijjogarithms , with its Application to the Converse Problem of the Formation of Logarithms , " in the " Mechanics ' Magazine " for the 12th land 26th February , 1848 .
+This was founded on Hearn 's paper , whence fMr .
+Gray obtained his first knowledge of a positive numerical radix , never having seen Briggs 's or Flower 's , and it contained the first of his ienlarged positive numerical radixes for twelve decimal places , containing log r from r=l to r=9 , log l*r , and logl O^r , from m=1 to m=5 , anc[ r=01 to r\#151 ; 99 .
+This he used only as an anti-logarithm process , ? !
+proposing , for the discovery of logarithms , a continually augmenting divisor , which was , like Leonelli 's , an independent discovery of Briggs 's method , proceeding , however , by periods of two places instead of one .
+1 1848 .
+S Orchard , W. , in the " Mechanics ' Magazine " for 26th February , 1848 , referring to Hearn 's positive arithmetical radix , showed how it might be applied to finding the logarithm by a process amounting in fact to an independent re-discovery of Flower 's reflected rule , using , however , Mr. Gray 's tables of the 12th February , 1848 , just mentioned .
+He also -suggested another method derived from Manning 's , by using factors of the form H-'0*1 , which would amount to an anticipation of my potential positive radix described below , but it was differently conceived , and was worked out by the binomial theorem .
+1849 .
+f Byrne , Oliver .
+" Practical , Short , and Direct Method of Calculating the Logarithm of any Given Number , and the Number corresponding to any Given Logarithm , " London ( Appleton ) , 1849 .
+This is an independent method .
+Mr. Byrne finds ten numbers between 1 and 1010 , the tab .
+logarithms of which , including the index , contain the same digits as the numbers themselves , to sixteen digits ( except one which holds only for fourteen digits ) .
+Then , taking these as constants , he multiplies any number up to one of these numbers , by successive powers of l*0ml , using binomial coefficients , and subtracts the tab .
+logs of these powers from the tab .
+log of the constant .
+He finds the number from the logarithm by a similar process .
+1851 .
+f KoraleJc , Philippe .
+" Methode Nouvelle pour calculer les Logarithmes des Nombres , " Paris .
+This is a bimodular method , depending upon series ( 4 ) in my former paper ( supra , p. 392 ) .
+By a series of multipliers , he reduces all numbers to others lying between 800 and 1000 , for which the first term of the series gives him seven places accurately , without corrections .
+He then calculates the succeeding terms of the series by a somewhat laborious process , and finds logarithms to twenty-seven places .
+His process differs entirely from mine , except in being originally bimodular .
+1865 .
+f Steinhauser , A. " Kurze Hilfstafel zur bequemen Rechnung fiinfzehnstelliger Logarithmen zu gegebenen Zahlen , und umgekehrt , ' Mr. A. J. Ellis .
+On Potential Radix [ Feb. 3 Vienna .
+This is an extended positive numerical radix of the form r and 1 + '0 3mr , where r varies from 001 to 999 , and m from 1 to 2 .
+The rule is one of continual division by the three , six , and nine first places respectively , similar to the first example in this paper , and , after nine figures are obtained , by a table of proportional parts .
+1865 .
+Gray , Peter .
+" Tables for the formation of Logarithms and Anti-Logarithms to twelve places , with explanatory introduction .
+" This is an abridged anticipation of Mr. Gray 's great tables to twenty-four places , calculated in 1856 , and not published till 1876 .
+It consists of an extended positive numerical radix for tabular logarithms , consisting of the tab .
+logs and complements of tab .
+logs of 1 to 9 , and of the tab .
+logs of l r , l + 'C^r , from r=001 to r=999 and m=l to ra=3 .
+The process is the same as in the paper of 1848 , but with periods of three digits .
+1867 .
+*Thoman , Fedor .
+" Tables de Logarithmes a 27 Decimales pour les Calculs de precision , " Paris .
+These consist essentially of a positive and negative numerical radix , the first used for finding antilogarithms by a process resembling Flower 's and Hearn 's , and the second to find logarithms by a process resembling Weddle 's .
+Hip principal novelty consists in his table for preparation .
+After the result is reduced to the form 1*0 mrwhere r consists of m digits , Thoman completes by adding M X '0mr , for which he gives a special table .
+The positive radix extends to 1'0131 , and the negative to 1\#151 ; *0131 , both calculated to twenty-seven places by an undescribed process .
+He makes no references to former writers ; but one of his examples makes it probable that he knew Gray , 1865 .
+1871 .
+Pineto , S. " Tables de Logarithmes vulgairesa 10 Decimales , construites d'apres un nouveau mode , approuvees par l'Academie Imperiale des Sciences de S. Petersbourg , " St. Petersburgh .
+An auxiliary table gives opposite the first four figures ( or next least first four figures ) of a number , a multiplier of at most three digits ( with the complement of its logarithm , which will reduce the number to one between 1000 and 1010 , and for all such reduced numbers tables are given , by which their logarithms can be readily found to ten places .
+The process of finding both logarithms and anti-logarithms by these tables ( extending only to 56 pages octavo ) , is much simpler than by Vega 's Thesaurius .
+But no new process of calculating logarithms originally is involved .
+1873 .
+f Wace , Rev. Henry .
+** On the Calculation of Logarithm " in the " Messenger of Mathematics , " Hew Series , Ho. 29 , 1873 .
+The tables consist of a positive and negative numerical radix to l + '010l , and to twenty places of decimals for both tabular and natural logarithms .
+The tabular were taken partly from Shortrede , and read with Callet , and partly from H. M. Parkhurst 's astronomical calculations .
+The natural logarithms were calculated independently , with a few 1881 .
+] as a Means of Calculating Logarithms , fyc .
+exceptions , which were taken from Callet .
+The process is essentially the same as Weddle 's and Hearn 's , hut was discovered independently .
+1876 .
+*Gray , Peter .
+" Tables , \amp ; c. , to Twenty-four Places , with explanatory introduction and historical preface .
+" See above , 1865 .
+The .tables are an extended positive numerical radix , containing Pr , 1*0 from r=001 to r=999 , and m\#151 ; 1 tom=4 , and by inference to J and twenty-four places of decimals .
+The tables were calculated to twenty-seven places , and verified to twenty-four by laborious processes fully described , bat as far as possible , Abraham Sharpe 's and Wolframm 's tables were employed .
+The process is that of 1848 , adapted to periods of three digits .
+Mr. Thomas Warner , who assisted Mr. Gray to publish these tables , showed how they might be applied to Flower 's rule in periods of three figures by means of *Crelle 's Bechentafelnfor the multiplication by three digits .
+This is the latest simplification of Flower 's rule .
+I have been much indebted to Mr. Gray 's historical preface , and to the loans of papers and books from him in the compilation of this list , but I have personally examined every process I have described .
+1876 .
+t Hoppe , Professor Dr. Reinhold .
+" Tafeln sir dreissigstellig-en logarithmischen Rechnung , " Leipzig .
+For natural logarithms and anti-logarithms to thirty places of decimals , the tables giving thirty-three places , independently calculated and verified .
+This is a most ingenious transformation of the positive numerical radix effected by subtracting the logarithmic series from its first term , so that instead of placing not .
+log l'0mr against the number l*0mr in the radix , Professor Hoppe places -0mr\#151 ; not .
+log l'0OTr against it .
+This transformed radix is calculated from r=l to 9 , and 1 to m=15 to thirty-three places .
+The calculation is consequently an alteration of Flower 's reflected rule , adapted to natural logarithms , by which many figures are saved .
+It is probably , therefore , the shortest rule yet discovered .
+A reversed process gives the number .
+Table IV gives a multiplier of at most two digits , or a divisor of at most one digit , by which any number can be reduced to the form *9 . . .
+, which overcomes the principal difficulty in the use of Flower 's reflected rule .
+1877 .
+Namur , A. " Tables de Logarithmes a 12 Decimales jusqu'a 434 milliards , avec preuves , " Brussels .
+This is for tabular logarithms only , and depends upon the properties of logarithms nearly equal to the modulus , to which all others are reduced by appropriate factors .
+After this reduction the work is simple , no division being required , but I find the tables complicated , and very likely to produce error in consultation .
+The process is adapted only to tabular logarithms .
+From this list it will be clear that the improved bimodular method of my former paper , and the potential radix which follows , have not been previously proposed .
+2 o VOL. XXXI .
+408 Mr. A. J. Ellis .
+On the Potential Radix [ Feb. 3 , By the positive potential radix of natural logarithms , I mean a table containing 10r , 2r , ( l*l)r , ( l'0ml)r and their natural logarithms generally from r= 1 to r=10 , but for 2r it suffices to go to r=3 , and for ( l'l)r to r=8 , and from m\#151 ; \ to m\#151 ; any required amount .
+By the negative potential radix of natural logarithms , I mean a table containing the numbers ( 1 \#151 ; '0ml)r within the same limits , and the negatives of their natural logarithms .
+If the improved bimodular method of my former paper be used , the number of places which can be determined from 'QmX as a quotient without correction is 3m+ 3 .
+By any other method we cannot secure more.than 2m places .
+I was led to the construction of a potential radix by the bimodular method .
+In the case of the numerical radix , the ratio of any two consecutive numbers 1 " 0mr for a constant m and variable r , continually diminishes , but sufficient was gained for the action of the method , if the ratio remained constant , that is , if the consecutive numbers were the consecutive powers ( l'0OTl)r , having the constant ratio l'0ml .
+Again , as such a power is very nearly equal to a number 1*0 in the numerical radix , that is , as 1+ rX *0OT1 + 0\#151 ; 1 ) X ( .0OT1)2+ . . .
+is very nearly =l+rX '0OTl , it became easy by the action of the method to obtain the numerical from the potential radix .
+The same is true for the negative radixes .
+Although from a potential radix the logarithm of a number could be obtained with the same accuracy as from a numerical radix , yet the process is much longer with the former , and hence it appears that the real use of the potential radix is to calculate the numerical radix .
+This is still more the case for the negative potential radix , which does not succeed in diminishing the work at all , and is here simply introduced for calculating the very useful negative numerical radix .
+The calculation of\#151 ; nat .
+log ( 1 + '0ml ) = -0\#187 ; \#187 ; 1\#151 ; X 'O2W+1I " i- 3 " X '03\#187 ; t+2l \#151 ; - .
+\gt ; \#151 ; nat .
+log ( 1 \#151 ; '0ml ) \#151 ; '0m\ +|- x *02m+il + 3 x *0sm+.2l + * \#166 ; .
+is very easy , even when m= 0 , that is for 1 + '1 , although in .
+that case tedious , and is easier the larger m is .
+It is better to calculate these logarithms as checks for all values of m required , but it is actually not necessary to calculate more than that for the largest value of m to the requisite number of places .
+Thus , to fifty-two places ( a subscript number denoting the number of times that the digit to which it is appended has to be repeated)\#151 ; f nat .
+log r04l = -05 95 504 35 0 833 534 164 809 52s 52 9534 920 54 \ -nat .
+log ( l--04l ) = -04 105 504 35 5838 504 142 7 583 928 682 5407 f nat .
+log T014l = " 0j5 94q 50^4 3^ L \#151 ; nat .
+log ( 1 \#151 ; ,0141 ) = -014 1015 5014 37 .
+as a Means of Calculating , Sfc .
+1881 .
+] The first pair would give a potential radix determining logarithms to at least twelve decimal places without correction .
+The second pair would give one determining logarithm with at least forty-two places correct , and generally many more .
+Having found not .
+log ( 1 + -0OT1 ) for the extreme value of m , proceed thus:\#151 ; Form ( l + 0*ml)r up to r=10 , and the corresponding logarithms .
+Both operations are performed by simple addition or subtraction .
+Then find not .
+log ( l + '0OT_il ) either direct from the series or by the improved bimodular method from the next least ( l + 'Ornl)9 and next greater ( l + 'O^l)10 , of which the latter will give more places , or by both methods , to check the work .
+Then find the numerical radix for the stage 1 + '0mr from the potential radix to this extent .
+Next proceed with the potential radix for the stage ( 1+~0W 11)r whence derive the numerical radix for this stage , and so on till we obtain ( PI)8 , which is just a little larger than 2 , and from which not .
+log of 2 and its powers may be found , which will include any number , however great .
+In order to make this clear , I give a short positive and negative potential radix to twenty-one places of decimals up to P031 , which with corrections ( obtained from a table of cubes , like Barlow 's , of numbers of four digits , from the formula 12c=cc3 where is the quotient to four significant places , and c is calculated also to four significant places ) will give fourteen decimal places at least , and sometimes more .
+I then show the mode of calculating the numerical radix from it .
+It must be remembered that the not .
+log .
+1001 is approximate , the digits after the eighteenth are 16681 in place of 167 .
+Hence the tenth multiple will not have after the eighteenth place 670 , but 668 , and similarly in other cases .
+The three last places are given to avoid such errors and make eighteen places perfectly correct .
+Here we may suppose that not .
+logs of 1'031 , l'Ol , l'l , and 1 \#151 ; '031 , 1 \#151 ; *01 , have been calculated directly from the formula .
+Then the powers of these numbers , and the multiples of their logarithms are obtained by simple addition and subtraction , and the potential radix is constituted except as regards 2 and 10 .
+The calculation of not .
+logs of 2 , 3 , 5 , 7 , 10 and 1 -4- not .
+log 10 to upwards of 260 decimal places , by independent methods , by Professor J. C. Adams ( " Proceedings , " vol. 27 , p. 92 , for 7th February , 1878 ) obviates any necessity for the separate calculation of them by the present or any other method , but they could be calculated by this method , if it were necessary .
+The next step is to calculate the numerical radix , or not .
+log ( l + '0wr ) .
+Take for example P004 , which is very slightly less than ( P001)4 of which the not .
+log is known .
+Then my improved bimodular method , suppressing the details of the division , gives\#151 ; 2 g 2 Mr. A. J. Ellis .
+On the Potential Radix [ Feb. 3 Positive Potential Radix .
+No. Powers of 1 *001 .
+Their natural logarithms .
+1 I *001 .000 999 500 333 083 533 167 2 1002 001 .001 999 000 666 167 066 334 3 1003 003 001 .002 998 500 999 250 599 501 4 1 004 006 004 001 003 998 001 332 334 132 668 5 1 005 010 010 005 001 .004 997 501 665 417 665 835 6 1 -006 015 020 015 006 001 .005 997 001 998 501 199 002 7 1 007 021 035 035 021 007 001 .006 996 502 331 584 732 169 8 1 -008 028 056 070 056 028 008 .007 996 002 664 668 265 336 9 1-009 036 084 126 126 084 036 .008 995 502 997 751 798 503 10 1-010 045 120 210 252 210 120 .009 995 003 330 835 331 670 No. Powers of 1 '01 .
+Their natural logarithms .
+1 101 .009 950 330 853 168 082 848- ' 2 1 020 1 019 900 661 706 336 165 696 1 3 1 030 301 .029 850 992 559 504 248 544 4 1 -040 604 01 .039 801 323 412 672 331 392 5 1 051 010 050 1 049 751 654 265 840 414 240 6 L061 520 150 601 .059 701 985 119 008 497 088 7 1-072 135 352 107 01 .069 652 315 972 176 579 936 8 1 082 856 705 628 080 1 .079 602 646 825 344 662 784 9 1D93 685 272 684 360 901 .089 552 977 678 512 745 632 , 10 1104 622 125 401 204 510 01 .099 503 308 581 680 828 480 No. Powers of 1 *1 .
+Their natural logarithms .
+1 1 i-i .095 310 179 804 324 860 044 2 1-21 .190 620 359 608 649 720 088 3 1-331 .285 930 539 412 974 580 132 4 1 -464 1 .381 240 719 217 2P9 440 176 5 1-610 51 .476 550 899 021 624 300 220 6 1-771 561 .571 861 078 825 949 160 264 7 1 948 717 1 .667 171 258 630 274 020 308 8 2 143 588 81 .762 481 438 434 598 880 352 1881 .
+] as a Means of Calculating Logarithms , fyc .
+Negative Potential Radix .
+i No. Powers of 1\#151 ; '001 .
+Negatives of their natural logarithms .
+1 .999 001 000 500 333 583 533 500 2 .998 001 002 001 000 667 167 067 000 3 .997 002 999 .003 001 501 000 750 600 500 4 .996 005 996 001 004 002 001 334 334 134 000 5 .995 009 990 004 999 005 002 501 667 917 667 500 6 .994 014 980 014 994 001 .006 003 002 001 501 201 000 7 .993 020 965 034 979 006 999 .007 003 502 335 084 734 500 8 .992 027 944 069 944 027 992 .008 004 002 668 668 268 000 9 .991 035 916 125 874 083 964 *009 004 503 002 251 801 500 10 .990 044 880 209 748 209 880 .010 005 003 335 835 335 000 No. Powers of 1 \#151 ; *01 .
+Negatives of their natural logarithms .
+1 .99 010 050 335 853 501 441 184 2 .980 1 .020 100 671 707 002 882 368 3 .970 299 .030 151 007 560 504 323 552 ' 4 .960 596 01 .040 201 343 414 005 764 736 5 .950 990 049 9 *050 251 679 267 507 205 920 6 .941 480 149 401 .060 302 015 121 008 647 104 7 \#166 ; 932 065 347 906 99 070 352 350 974 510 088 288 8 .922 744 694 427 920 1 .080 402 686 828 011 529 472 9 .913 517 247 483 640 899 090 453 022 681 512 970 656 10 .904 382 075 008 804 490 01 100 503 358 535 014 411 840 No. Powers of 2 .
+Their natural logarithms .
+1 2 .693 147 180 559 945 309 417 2 4 1 -386 294 361 119 890 618 834 3 8 2 079 441 541 679 835 928 252 No. Powers of 10 .
+Their natural logarithms .
+1 10 2 -302 585 092 994 C45 684 018 2 100 4-605 170 185 988 091 368 036 3 1000 6 907 755 278 982 137 052 054 4 10000 9 210 340 371 976 182 736 072 \amp ; c. \amp ; c. \amp ; c , 412 Mr. A. J. Ellis .
+On th Potential Radix , Sfc .
+[ Feb. 3 1 -004 006 004 001 2 -008 006 004 001 .000 005 980 062 796 661 85 .On .000 005 980 062 796 679 67 .003 998 001 332 334 132 67 .003 992 021 269 537 453 00 6=(1 .001)4 , next greater b + a , divisor 2(6\#151 ; a ) , dividend 2(6\#151 ; a.)-f-(6 + a ) , quotient correction=T1T x ( *055980)3 log 6\#151 ; log a log 6 log a\#151 ; log 6 \#151 ; ( log 6 \#151 ; log ) The result is correct to the last or twentieth place .
+If we had formed log a from the next less or ( l'OOl)3 , the difference between the numbers would have been so large that the result would have been correct to thirteen places only , and we should have required higher stages in the radix to obtain twenty places .
+Hence the nearest number should always be selected .
+To find \#151 ; not .
+log ( 1 \#151 ; -004 ) = \#151 ; not .
+log '996 , we should deduce it from\#151 ; not .
+log .
+( 1\#151 ; '001)4 , and as the difference in this case , which is always the approximate quotient , and hence logarithm , is less than .0b6 , and x ( '0'56)3= -01618 , we should obtain sixteen places without correction , and four with correction , or twenty places in all .
+We thus proceed to form the whole of this stage of the numerical radix , but we cannot obtain twenty places in all cases .
+Thus for T009 , the difference from ( l-00l)9 is .0436084 , the quotient is .043508 , and the correction =iV x ( '043508)s=-0143594 , so that we should obtain only eighteen places , that is to say , although the potential radix is calculated to twenty-one places , it will not furnish a numerical radix of more than eighteen places when we begin with the stage 1"021 , and hence will not give logarithms of general numbers to more than sixteen places certain .
+In the stage l'Ol the radix of that stage will not furnish so many places , and we have to reduce to the preceding stage , which is now supposed to be fully calculated for both the positive and negative numerical radixes .
+Thus for not .
+log T04 as derived from 4 not .
+log 101 , the difference is '036040 , giving correction '0^1836 , and hence fourteen places .
+But on dividing by 1*04 we obtain l-0358 ... and the difference from 1*036 , of which the natural logarithm in a preceding stage is known , is '042 . . .
+, the logarithm of which can be found to eighteen places .
+If more still were required we should divide by I*0$5 , obtaining 1'048 ... of which we can find the logarithm through that of 1'048 , to twenty places at least .
+Hence if the potential radix has been commenced at a sufficiently high stage and to a sufficient number of decimal places , a numerical radix for natural logarithms can be calculated to any number of places , and from it the natural logarithm 1881 .
+] On the Musical Pitch of Harmonium Reeds .
+of any number , such as the modulus of any other system of logarithms can be found , and its reciprocal , whence the radix for that system can be calculated by simple multiplication .
+This is sufficient to show the practicability of the present method , and generally the comparatively small trouble which it would occasion for the first construction of logarithmic tables .
+VI .
+" On the Influence of Temperature on the Musical Pitch of Harmonium Reeds .
+, \gt ; By Alexander J. Ellis , B.A. , F.R.S. , F.S.A. Received January 17 , 1881 .
+In my " Notes of Observations on Musical Beats , " I stated ( " Proc. Roy .
+Soc. , " vol. 30 , p. 532 ) that the influence of temperature on harmonium reeds was , so far as I was aware , unknown .
+Since then I have made some observations which at least approximately determine it , but there are so many sources of small errors ( stated below ) that still more uncertainty must attach to the results , than to the determination of the influence of temperature on the pitch of tuning-forks { ibid. , p. 523 ) .
+Roughly we may say that the pitch of harmonium reeds is affected in the same direction as that of tuning-forks ( heat flattening and cold sharpening ) , and very nearly to twice the amount , that is , by about 1 in 10,000 vibrations for each degree Fahrenheit .
+The following is the process pursued with the exact figures obtained:\#151 ; Towards the end of November , 1879 , in the South Kensington Museum , with artificial temperatures ( observed in each case ) varying from 53 ' to 60 ' F. on different days , I determined the beats which all the reeds of Appunn 's treble tonometer ( ibid. , p. 527 ) made with Scheibler 's forks ( ibid. , p. 525 ) .
+On 1st September , 1880 , and again on 3rd September , 1880 , at constant natural temperatures of 73 ' and 79 ' F. respectively , I took the beats of twelve of the reeds ( the same on each occasion ) with the same forks of Scheibler with which I had measured those reeds in November , 1879 .
+It is , of course , impossible to say whether either forks or reeds were precisely of the same temperature as the air .
+The reeds were enclosed in the wooden chest of the tonometer , which had been reposing in a glass wall-case in the same room during he night , and might not have fully acquired the general steady temperature of the room .
+The beats for each reed were counted 10 times each for 10 seconds , with each of two , and sometimes three forks , and the mean of each set of beats was employed .
+The known pitch of the forks at 59 F. ( ibid. , p. 525 ) was then reduced to the temperature of the observation on the supposition that the number of vibrations altered by 1 in 20,000 for
+

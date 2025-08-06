@@ -1,0 +1,47 @@
+6 .
+" On the Solution of Linear Differential Equations , " By Charles James Hargreave , Esq. , B.L. , F.R.S. , Professor of Jurisprudence in University College , London .
+1 .
+By the aid of two simple theorems expressing the laws under which the operations of differentiation combine with operations denoted by factors , functions of the independent variable , the author arrives at a principle extensively applicable to the solution of equations , which may be stated as follows:- " if any linear equation p(x , D).u-=X have for its solution u=(x , D).X , this solution being so written that the operations included under the function t are not performed or suppressed , then 9(D , --x).u=X has for its solution u=- , ( D , -x).X .
+" The solution thus obtained may not be , and often is not , interpretable , at least in finite terms ; but if by any transformation a meaning can be attached to this form , it will be found to represent a true result .
+An important solution immediately deducible from this principle is given by Mr. Boole in the Philosophical Magazine for February 1847 , and is extensively employed in the present paper .
+It is immediately obtained by making the conversion above proposed in the general equation of the first order and its solution .
+2 .
+By the use of this theorem and the general theorems above referred to , the solution of the equation D2u + 2Q.Du+ ( c2 +Q+ Qm( + I ) P is found in the form u=XmE-fQdx(D ?
++C)m-1 { x-'(D2+c2)-mn(x-(m-1 ) .
+EfQd .
+P ) } ; of which various particular cases and transformations are given and discussed ; including the well-known forms 2mDZ D2u + -Du+c ?
+=u=P , D2u+ bDu+ P , dfl ( __c\ -4n adz k2^n-1J z u=O , and extensions of these forms .
+The application of the process to equations of the third and higher orders gives rise to solutions of analogous forms ; and in particular the equation ( a , +bn)Dnu+ ... +(a , +b , )Du+(a0o + bo)u=X is solved in the form bit u=(aD , +. .
++ aD +a )-~a , D(D-a)A(D -3)B. .
+( -1 { E-a , ( Da o ( D / 3 ) ... X } ) , bnZ9 " +bZ nZ1+ ... bzA I3 where bZ +-z +B lanzn+an-jzn--l .
++ ... a , , x--a x " and by the application of the theorems first referred to , a still more general form is solved .
+The solutions above-mentioned are subject to the important restriction that m , A , B , &amp;c. ( denoting the number of timres that the operations are to be repeated ) must be integer ; but in the subsequent part of the paper , a mode is suggested of instantaneously converting these solutions into definite integrals not affected by the restriction .
+S. The interchange of symbols above suggested frequently renders available forms of solution which otherwise would not be interpretable in finite terms .
+The operation ( pD)m is not intelligible if m be a fraction ; but if by any legitimate process this be changed into the factor ( ( --x))m , the restriction ceases to operate .
+By the application of this principle , solutions of a simple character are obtained for ( b being integer ) , ( x + c-)Dt 2axDu b(2a-b+ 1 )u= P , deu b(b+l ) dt2 cos " t cdu 1 --)(b+ 2 ) 1U =P , dtI ( I to)c xx .
+D2u + 4/ x.Du + ( 'x-.'"x)u= P. 4 .
+The advantages of the forms above given in this particular , that the number and order of the operations in the solution are expressed generally , and not by a series of substitutions involving changes of the variable as in the ordinary mode of solving Riccati 's equation , appear more clearly in the application to partial linear differential equations .
+Thus , the equation d%u 2n du / n2 _ d2u_ n du m(m-1 ) .
+, -1+1l __. .
+-^ y ) ' a dx + ady\ 2 dye x 2dy which may be solved by m successive substitutions , receives its solution in the general form u= XmElog.* D'(DQ -_l))m{x-1(Do2-Ak2D')-nm{ -C--( l ?
+nlog.'DE'(x , y ) } } ; which exhibits at a glance all the successive processes to be performed upon 4r(x , y ) in order to arrive at the result .
+It will be observed that the process -)x.D ' performed upon / ry denotes P(y + x ) .
+Among other results worthy of notice on this branch of the subject may be noticed the solution of dCu a fz d du a(-1)-m(mn-1 ) dpdq p q\dp + ( p+ q)9 = ( P , ) ( solved by Euler in a series when there is no second term ) ; viz. u=x-DD-D'2)~nl { x-l()D't)- ?
+{ , a- ?
+-+lA(x , y ) } } } .
+' + being determined from p by the equations s=x+y ; and the solution of ( ax + b)b , d+(a , -l x+ bn-,1 ) d+'. .
+$ ( ax + bo)d = -(x , Y ) dx " dxn-Idy die n which is readily deduced from the solution of the corresponding form in ordinary equations .
+5 .
+The character of most of the solutions may be described as follows : they consist in the performance ( repeated m times ) of operations of the form fD upon the second side X ; multiplication by the factor x-1 ; and the performance ( repeated m-1 times ) of the inverse operation ( OD)-1 ; and it will be seen that , in all cases where X=O , it is sufficient to perform the direct operation 9D a single time .
+It is a remarkable phenomenon connected with the solutions last mentioned , that they are instantaneously convertible into definite integrals by changing pD into z , multiplying by sZ , changing x-1 into D'- ' ( D ' lenoting differentiation with regard to z ) , and assigning proper limits for the integral .
+In this manner defilite integrals are immediately found for D 4u+2Q.Du+ ( Q+Q'-m(m1))U Dn+ -==0 , x D"u+x.u0 , ( a , x + b , )Dnu +. .
++ ( ax + bo)u = 0 , and other forms .
+6 .
+The application of the principle above stated to equations of finite differences gives solutions for the equations ( a , x + bn)uxr+n +.* + ( ax + b , )u+ + ( a , o + bo)u= Qx , ( a , x + bn)Au^+ ... .
++ ( a , l + b , )A , + ( a , x + bo)u =Q ; and where the number of operations to be performed is denoted by a fraction , solutions are found in the form of definite integrals .
+The solution of the first when Qx=0 is + , = coj(a( " +. .
+a+ ao)-~Vo( , , -a )Al(~v_ )A2 ... + &amp;c. ; and that of the second is somewhat similaro From some investigations effected by interchanging the symbols x and D in the solution of the general linear equation in finite differences of the first order , it would seem that definite summations may be used to represent the solutions of certain forms of equations .
+Thus a partial solution of E-`.U-DnTu=c is cE(rz)nszx from zc to z =0 .
+7 .
+In attempting the solution of some equations by means of successive operations , not consisting exclusively of D combined with constants , but involving also functions of x , the only result which appeared to the author worthy of notice is the solution of D2u+bDu+c2u-n(n+1)co X ; from a particular case of which , the general solution of Laplace 's equation , d f , \\du\ 1 d2u d ( ( 1 Ftd ) 1 p,2 ddtbny ) 1 ) uO may be found in the simple form -1 d tan ( ) die ( d )n ( la)n ( y-a ' v-1 ) ) } , with a similar function using 4-1 for V/ -l .
+

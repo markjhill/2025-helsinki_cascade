@@ -1,0 +1,1234 @@
+]\gt ; XV .
+On Systens of Circles R. , Fellow of College , tbridge .
+Conwnunicated by A. CAYLEY , .D .
+, , Sadlerian of in the University of Received February 23 , \mdash ; Read March 11 , 1886 .
+INTRODUCTION .
+THIS Memoir is divided into three Parts : Part I. treats of systems of circles in one plane ; Part II .
+treats of systems of circles on the surface of a sphere ; and Part III .
+of systems of spheres ; the method of treatment being that indicated in two papers among CLIFFORD'S 'Mathematical Papers , ' , " " On Power-Coordinates\ldquo ; and " " On the Powers of Spheres\ldquo ; .
+These two papers oably contain the notes of a paper which was read by CLIFFORD to the London Mathematical Society , Feb. 27 , 1868 , " " On Circles and Spheres which was not published ( ' Lond. Math. Soc. Proc vol. , p. 61 ) .
+The method of treatment indicated in these papers of was successfully applied by the author to prove some theorems given by him in a paper " " On the Properties of a Triangle fonned by Coplanar Circles\ldquo ; ( 1885 ) ( ' Quarterly Journal of Mathematics , ' vol. 21 ) , and then to the extension of those theorems to the case of spheres .
+But as CLIFFORD'S papers contained some suggestioIJs as to the application of the same method to the treatment of Bi-circular Quartics , he was induced to develop these ideas and extend the results to the case of the analogous curves on spheres\mdash ; called by Professor CAYLEY Spheri-quadrics\mdash ; and also of cyclides .
+It is sible to say whether , if at all , CLIFFORD was indebted to DARBOUX for any of the ideas contained in the two papers cited above ; but it is noticeable that coincide in a great measure with those expressed by DARBOUX in several published during the years 1869-1872 .
+In Part I. ( SS 1-124 ) of this Memoir a general relation is first shown to subsist between the powers of any two groups of five circles ; the definiticn of the power of two circles , as the xtension- of S'TE1NER'S ' power of a point and a circle being due to DARBOUX , but the definition is here slightly modified so as to include the case when the radius of either ( or each ) circle is infinite .
+In Chapter II .
+extension of the definition so as to apply to a certain system of conics is given ; this is practically adapted from Chapter II .
+in Professor CASEY'S Memoir " " On =rticb \ldquo ; ( 1867 ) ( ' Irish Acad. Trans vol. 24 ) .
+In pter III .
+the general theorem is applied to several interesting cases of circles ; some of the results of this chapter are believed to be new .
+In Chapter Iy .
+the problem of drawing a circle to cut three given circles at given angles is considered , and the circles connected with , triangle formed by three circles , which are analogous to the circumcircle , the inscribed and escribed , and the nine-points circle of an ordinary triangle are discussed .
+The results are the same , with one or two exceptions which may be new , as arrived at , but in a different manner , in the , paper by the author in the ' Quarterly Journal ' ( vol. 21 ) .
+In Chapter .
+the power-coordinates of a point ( or circle ) are defined , and the equations of circles , \amp ; c. , discussed ; and it is shown that there are two simple coordinate systems of reference ; one consisting of four orthogonal circles , mentioned by CLIFFORD ( CASEy and DARBOUX consider five .
+spheres ) , the other consisting of two orthogonal circles and their two points of intersection , which seems to have been indicated for the first time by .
+HOMERSHAM Cox in a paper " " On Systems of Circles and Bicircular Quartics\ldquo ; Quarterly Journal , .
+In Chapter VI .
+the general equation of the second degree in power-coordinates is discussed , and in Chapter VII .
+Bi-circular Quartics are classified according to the number of principal circles which they possess .
+In Chapter VIII .
+the connexion between Bi-circular Quartics and their focal conics is briefly indicated , the circle of curvature is found , and an expression for the radius of curvature at any ) oint of a bi-circular quartic is investigated .
+In these last three chapters the results are probably all old , but as the method employed is different from any previously used to discuss these curves in detail , it may not be without interest .
+In Part II .
+( SS 125-198 ) almost all the results given in Part I. are extended , with occasionally some slight modifications , to the case of small circles on a sphere and spheri-quadrics .
+In Part ( SS 199-287 ) the same order is followed as in Part I. ; most of the results in Chapter III .
+, Part I. , are extended to the analogous systems of spheles .
+In Chapter III .
+, however , it is shown that though there is a group of spheres corresponding to the circum-sphere of a tetrahedro1l , and though several analogous theorems are true for ) correspond to the inscribed and escribed spheres , yet there is no analogy to FEUERBACH'S theorem .
+Chapter IV .
+co1Tesponds exactly to Chapter .
+in Part I. , and in apter V. the general equation of the second degree in power-coordinates is shown to represent a cyclide , and the equation is discussed in the same manner as in Part T. , Chapter VI .
+The reduction , however , of the general equation to its simplest form presents some difficulty .
+In Chapter .
+cyclides are briefly classified in the order in which they present themselves in reducing the general equation , and in pter V. a few miscellaneous propositions are discussed , as , for instance , the determination of the locus of the centres of the bitangent spheres , i.e. , the Focal Quadrics .
+It may be convenient to state here the Memoirs consulted:\mdash ; MR. R. LACHLAN ON SYSTEMS OF CIRCLEiS AND SPHERES .
+" " On Bicircular Quartics ' ' ( 1867 ) , 'Irish Acad. Trans vol. 24 .
+On Cyclides and Sphero-Quartics " " ( 1871 ) , ' Phil. Trans vol. , pp. CLIFFORD .
+* On the PowelB of Spheres\ldquo ; ( 1868 ) , ' Mathematical ) ' 1882 .
+Pp .
+" " Of Power-Coordinates in general " " ( 1866 ) , 'Mathematical Papers .
+' 1882 .
+( Appendix .
+) Cox , H. " " On Systems of Circles and Bicircular Quartics ' Quart .
+Journ. Math vol. 19 , 1883 , pp. 74-124 .
+DARBOUX .
+" " Sir les Relations entre les groups de Points , de Cercles et de Spheres dans le plan et dans l'espace , \ldquo ; ' Annals de cole Normale rieure , , 1872 , pp. 323-392 .
+' Sir un Class remarquable de Courbes et de Surfaces Algebriques .
+' Paris , 1873 .
+SALMON .
+' Higher Plane Curves .
+' 3rd edition , 1879 , pp. 240-253 .
+' Geometry of Three Dimensions .
+' 4th edition , 1882 , pp. 527-536 .
+PART T.\mdash ; SYSTEMS OF CIRCLES IN PLANE .
+CHAPTER I.\mdash ; GENERAL SYSTEMS CIRCLES .
+Dejinitions .
+SS 1-5 .
+1 .
+The powe ?
+of two circles ( or of one circle with respect to the other ) is the square of the distance between the centres of the circles , less the sum of the squares of their radii .
+Thus denoting the power of two circles whose radii are by : if be the distance between their centres , we have or if be the angle at which the circles intersect we have 2 .
+If one of the circles reduces to a point , then becomes equal to the square of the tangent from the point to the circle .
+In this case the definition agrees with STEINER'S definition of the power of a point with respect to a circle ( ' CRELLE , Jourll .
+Math vol. 1 , 1826 , p. 164 ) .
+The use of the word power is of great antiquity\mdash ; the probable date of these papers is given as 1866 and 1868 respe( , tivcly . .
+Prcface to ' bIath .
+Papers , ' pp. , xxii ; and also note on page 332.\mdash ; October , 1886 .
+] MR. R. LACHLAN ON SySTEMS OF CIRCLES AND SPHERES .
+of the parallelogram formed by joining the points , in which two parallel tangents to hyperbola meet the asymptotes , was called the " " Power of the Hyperbola\ldquo ; \mdash ; and th name was borrowed by STEINER , in the paper quoted above , which was written in 1826 , to express the constant rectangle of the segments of any chord of a circle through a point , and this rectangle he called the power of the point with respect to the circle .
+STEINER also extended his definition thus : if be one of the centres of similitude of two circles whose centres are : and if a chord through ut the circles in and respectively , but so that , BQ are .e not parallel , then he proposed to call the OP , OQ the power of the two circles with respect to O. DARBOUX seems to have been the first to give the definition of the power of two circles , as used in this memoir , in a paper written in 1872 and published in the 'Annales de l'Ecole male Superieure , ' vol. 1 .
+CLIFFORD also gives the same definition in a paper , the probable date of which is said to be 1866 , given in the Appendix to his 'Mathematical Papers ' ( 1882 ) ; but the paper itself does not seem to have ever been published .
+Mr. HOMERSHAM Cox , in a paper published in the ' Quarterly Journal of Mathematics ' ( vol. 19 , 1883 ) , has shown that the power of two circles may also be defined as the product of two circles .
+3 .
+If the equations of two circles be , . . . . .
+( 1 ) , ( 2 ) we have .
+( 3 ) 4 .
+It will be convenient to define the power of a straight line and a circle as twice the from the centre of the circle on the line ; and the power of two straight lines as twice the cosine of the angle between them .
+Thus the power of ( 1 ) and the straight line , ( 4 ) is given by .
+( 5 ) Thus regarding ( 4 ) as a degenerate form of ( 2 ) , ( 5 ) may be considered as a particular case of ( 3 ) .
+can easily show that these definitions are included in that given in S 1 .
+Thus , considering a straight line as a circle of infinite radius , say , the power of a circle , radius , with respect to it , in the limit , being the perpendicular from the centre of the circle on the straight line .
+Similarly the power of two straight lines , inclined at an angle .
+Consequently , as we are going to deduce onr results from a certain symmetrical determinant , we may ignore these factors , and define these powers as in October , 1886 .
+] MR. R. LACHLAN ON SYSTEMS OF CIRCLLt S AND SPHERES .
+Again , the power of ( 4 ) and is given by ; which may also be considered as a particular case of ( 3 ) .
+The equation to the line at infinity may be written Hence , denoting this line by the symbol , we shall have , if denote any circle , or point , and , if denote any straight line , and , of course .
+5 .
+It will be convenient to observe here , that if denote the power of the two circles which are respectively the inverse curves of ( 1 ) and ( 2 ) with respect to any circle , whose centre is the origin and radius ; then i.e. , denoting the circles by , and the circles inverse to them by , since ' and the formula is still true if either or both circles degenerate into straight lines .
+Thus if denote any circles , straight lines , or points , the expresssion is unaltered if the circles be inyerted with respect to any circle whose centre is O. Theorems .
+SS6-8 .
+6 .
+If we have given a system of five circles , their powers with respect to any five other circles are connected by identical relation , which may be expressed in the umbral notation by The word ' ' circle\ldquo ; being intended to include a point , a straight line , or the Jine at infinity .
+This is easily proved by multiplying together the two matrices 1 , 1 , 1 , 1 , and we obtain at once the equation , 1 , 1 , 1 , 1 , 1 , . . . . . .
+( 6 ) ' which may be conveniently Wl.itten .
+( 7 ) 7 .
+An important particular case is when is a member of both systems : then we have , . . . . .
+( S ) or Whence , denoting the angle of intersection of the two circles by , we have , provided none of the circles reduce to points , .
+( 9 ) MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+This is true if any of the circles are replaced by straight lines .
+If we take the two systems , as coincident , we have an equation which gives us the radii of the two circles which cut ) given circles at given angles .
+if three given circles , ladii cut at angles , the radii of the circles which cut them at angles respectively , are the roots of the equation .
+( 10 ) ' 8 .
+Another important theorem is easily deduced by the method employed in S6 , thus 1 , hence we have at once , 1 , 1 , 1 , 1 ( 11 ) CHAPTER II .
+\mdash ; EXTENSION RESULTS 0F CHAPTER I. Preliminary \mdash ; SS 9-12 .
+9 .
+Dr. CASEY has shown in his memoir ' On Bicircular Quartics , ' that any two conics whose equations- can be put in the form , and , possess a pair of angles which he calls their anharmonic angles , and which he shows to be analogous to the angle of intersection of two circles .
+Thus , if denote the results of substituting the coordinates of the poles of respectively in , and the result of substituting the coordinates of the pole of in , then the anharmonic angles of the two conics are defined A proof of a theorem simiJar to that given in S6 of the present memoir is to be found in SALMON'S ' Conics , ' p. 366 .
+10 .
+Let us take as the equations of the three conics Then following the method used in CASEY'S paper ( S126 ) , we form the discriminant of ; and we obtain ; and so , if we take where ; we have for the tactinvariant of the conics , \fnof ; ; or 11 .
+Again , forming the discriminant of we obtain for the variant , , where 12 .
+Either of these expressions , , might be defined as the power of the two conics .
+For if , it is evident , as CASEY has shown , that the pencil formed by the lines , and the chords of contact of the two line pairs which be drawn to touch from the points of intersection of with , is harmonic ; and so is the condition corresponding to the case of two circles cuttirIg orthogonally .
+In this the power vanishes .
+MR. R. LACHLAN ON SYSTEMS OF AND Let us define , then , the power of the two conics } ) expression , and let us denote this by .
+Thus ; the conic being supposed reduced to its standard form , and being the coordinates of the pole of with respect to S. Th eorem .
+13 .
+If we have two systems of conics , say , inscribed in the same conic , the powers of the conics of one system with respect to the conics of the other system are connected by the relation , ( 12 ) i.e. , the same equation as in ) .
+Thus taking the same equations as in S 10 , by multiplying the matrices we have at once the relation , 90 , , 8 . . . . . .
+( 13 ) 14 .
+This equation has been proved for two systems of conics inseribed ] the ) conic .
+The result is also true if any of the conics be replaced by straight lines , provided that we define the power of a straight line and a conic of the system to be the power of the straight line and the chord of contact of the conic and the conic ; the power of two straight lines being defi11ed as ths perpendicular distance from pole of one line with respect to to the other line .
+Thus let any conic of the system be and any straight line ; then the power of the line and conic is , and the power of this straight line and the line is Again , we must define the power of and to be , and the power of and to be zero ; the power of with respect to to be unity .
+15 .
+Exactly as in S8 we can show that for any two systems of four conics inscribed in CHAPTER III.\mdash ; SPECIAL TEMS 0F CIRCLES .
+Circles Touching three Lines.\mdash ; SS 16 , 17 .
+lo .
+Denoting the four circles which touch the.sides of a triangle by , and the sides of the triangle by , we have , if denote any other circle , i.e. , , 1 , 1 , 1 , ; and since , \amp ; c. , we have at once This theorem will be subsequently extended .
+17 .
+Again let denote the nine-points circle of the triangle , the inscribed circle , and let denote the mid-points of the sides ; then since ; ; ; ; MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+the equation gives us ; ' whence we have or the circle which passes through the mid-points of the sides of a triangle touches the inscribed circle .
+Similarly it can be proved to touch the escribed circles .
+Circle Cutting three Circles .\mdash ; SS 18-20 .
+18 .
+Let the circle cutting the system orthogonally be denoted by : then since ; we have . .
+( 14 ) But 1 , 1 , and if the quations- of the circles be where ; i3 , 1 we have at once 1 , , 1 , 1 , 1 ; . . . . . . . . . . .
+( 15 ) where denotes the area of the triangle formed by the centres of the circles .
+Hence by ( 14 ) we see that , if .
+denote the radius of the circle which cuts orthogonally , \mdash ; 1 , , 3 , \mdash ; 1 , or ; ( 16 ) being the angles of intersection of the circles , and being equal to 19 .
+Since any point on a circle may be considered as a circle of infinitely small radius cutting the circle orthogonally , it follows that if three ciroles meet in a point , the radius of their orthogonal circle must vanish .
+the condition that three circles meet in a point is .
+( 17 ) 20 .
+The radius of the orthogonal circle of the system is infinite when , i.e. , when the centres of the circles lie on a straight line ; in which case the orthogonal circle degenerates into the straight line through their centres .
+circles Common Orthogonal Circte.\mdash ; SS21-24 .
+21 .
+Suppose that the system a common orthogonal circle , say ; then since ; MR. R. LACHLAN ON OF CIRCLES AND SPHERES .
+we have ; whence , ( 18 ) which is the condition that the system has a comnlon orthogonal circle .
+22 .
+It is evident also that being any other system of circles , we must have , since .
+( 19 ) It follows by symmetry that this result must be true if either of the two systems or have a common orthogonal circle .
+Hence we must have 23 .
+We may notice that any three circles , whose centres lie on a straight line , may be considered as having , with the line at infinity , a common orthogonal circle .
+24 .
+The system having common orthogonal circle , and being any other system of circles , we have ; and , as in 88 , we may prove that ( 20 ) As a particular case , we have ; whence MR R. LACHLAN ON OF CIRCLES AND SfflERES .
+Hence by ( 20 ) But if .
+be the radius of the common orthogonal circle , we have by ( 16 ) , Therefore . . .
+( 21 ) if any four circles have a common orthogonal circle , and the areal coordinates of the centre of one of them referred to the triangle formed by joining the centres of the other three be : then the powers of any other circle with respect to these four circles are connected by the relation , 3 . . . . . .
+( 22 ) As a case we obtain the well-known theorem that if be the centres of any three circles , any point on the circle which cuts these orthogonally , and any other point , then ; where are the areal coordinates of referred to the triangle ABC .
+Orthogonal .\mdash ; SS25-29 .
+25 .
+Four circles may be said to form an orthogonal system if they cut one another orthogonally : it is clear that the centre of any one of them is the orthocentre of the triangle formed by the other three .
+If the system be denoted by then being any other circles , the equation becomes ; MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+i.e. , .
+( 23 ) As particular cases , we have , since , \amp ; c. , ; ( 24 ) according as denotes a circle or a straight line .
+If represents a circle , radius , we ( 25 ) And if represent a straight line , so that , we have ( 26 ) Again , since , we have ; ( 27 ) whence it appears that one at least of the three circles must be imaginary , and one least real .
+26 .
+By equation ( 16 ) we have Hence ; . . . . .
+( 28 ) and we can easily find that , if be the radius of the nine-points circle of the triangle formed by the centres of three of the circles , .
+( 29 ) 27 .
+If the circles be any system not having a common orthogonal we may find four other circles , say , each of which is orthogonal to three of the former .
+Two such systems are connected by several interesting formulae , and one system may be called the ' orthogonal system\ldquo ; of the other .
+Thus , and denoting aIly two circles , we have , since the relation ' ; which may be written ; ( 30 ) whence as particular cases , we denoting circle whose radius is , ( 31 ) .
+( 32 ) If denote any straight line , we have , ( 33 ) , ( 34 ) and ( 35 ) 28 .
+This last result gives us an interesting theorem\mdash ; in the case when the given system consists of four points ; then is equal to the square of the tangent from ) point ( 1 ) to the circle passing through the points , and so on ; thus the sum of the reciprocals of the powers of each of four given points with respect to the circle passing through the remaining is zero .
+One of these quantities must be negative , so that one of the four points must lie within the corresponding circle .
+Also by ( 31 ) the sum of the powers of these points with respect to any other circle , divided respectively by their powers with respect to the orthogonal system , is equal to unity .
+And by ( :33 ) the sum of the quotients of the perpendiculars from each point on any straight line , divided by the power of that point with respect to the circle which does not pass through it , is zero .
+29 .
+There is another special system of circles which is closely allied to the ol'thogonal MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+system discussed in S25 ; which is of some importance .
+Thus , let be any two circles cutting orthogonally , and let be their two points of intersection ; the equation becomes ; which may be written , if we put ) , .
+( 36 ) a particular case of which is Circles touching one another.\mdash ; SS 30-34 .
+30 .
+Two circles may be said to touch externally , or internally , according as their angle of intersection or , i.e. , if we denote the circles by , then touch externally if , and nternally if If the four circles touch externally , we have at once , from the equation ; \mdash ; 1 , 1 , 1 , 1 ' 1 , \mdash ; 1 , 1 , 1 1 , 1 , \mdash ; 1 , 1 ' , 1 , 1 , 1 , \mdash ; 1 MD(iCCLXXXVI .
+3 Whence ; or if be known , ( 38 ) 31 .
+This formula is given by STEINER Journ. Math , in a paper , in which several interesting cases of series of circles touching one another are discussed : two cases may be noticed here .
+Let two circles , radii , be described touching each other externally and touching another circle , radius , internally , whose centre lies on the common diameter of the other two .
+Now let a circle be described touching the two former externally and the latter internally , and let a series of circles , \amp ; c. , be described , all touching , as well as the preceding one in the series .
+Let their radii be \amp ; c. Clearly are the roots of the equation therefore And we easily find that . . . . . . .
+( 39 ) If , however , be drawn touching externally , and also the line joining their centres , we shall have , if be the circle of this second series .
+( 40 ) 32 .
+If the system of circles have a common tangent circle , say , the equation may be written 1 , ; . . .
+( 41 ) .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+where the positive sign is to be taken with the radicals for external contact , and the negative for internal contact .
+Now if denote the direct common tangent of the circles we have ; and if denote the transverse common tangent , then We can then deduce at once from ( 41 ) or , 2 .
+; which is Dr. CASEY'S well-known formula .
+S3 .
+When the condition in the last article is satisfied , we can find the radius of the tangent circle by equation ( 31 ) .
+Thus , let the system be the syst , em orthogonal to the system , then we have Thus if ( x ) touch each of the circles externally , we have .
+( 42 ) 34 .
+If the system be such that four other circles can be drawn touch them all , symmetrically : say each of the latter touches of the former externally and one internally : then the equation becomes \ldquo ; If the circle ( x ) touches the circles 2 ) in opposite senses .
+then , must be replaced by in this formula.\mdash ; October , 1886 .
+] whence as a particular case .
+( 48 ) CHAPTER \mdash ; CIRCLES W1TH A TRIANGLE .
+The properties of several of these circles have been discussed in detail by the author in a paper published in the ' Quarterly Journal of Mathematics ' ( vol. 21 , 1885 ) .
+It is only proposed to discuss here some of the more general cases , which can be deduced at once from the general equation in S6 , and which by this method admit of immediate extension .
+The first case considered , viz. , the circles which cut three given circles at given angles , is discussed by DARBOUX ( ' Annals de l'Ecole Normale , ' vol. 1 , 1872 ) .
+By triangle is meant the general case of a triangle by three circles .
+Circles cutting Three Given Circles at Given Angles .
+S5 .
+Let denote any given system of three circles , which cut at angles .
+If then be any circle which cuts them at angles , we have at once by S \mdash ; denoting the radius by .
+( 44 ) ' ' Thus we obtain a quadratic for ; and two circles can in general be drawn cutting he given circles the given angles .
+Now let either of these circles cut the orthogonal circle of the system , at the angle the orthogonal circle by the symbol 4 , and its radius by ; the equation MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+becomes ; , -1 , , -1 , or - , -1 , , -1 ( 45 ) It thus appears that each of the circles , which can be drawn to cut the system at angles , cuts the orthogonal circle at one of the angles or It is otherwise evident that these two circles are such that one is the inverse of the other with respect to the circle which cuts the system orthogonally .
+Let us denote the two circles by , and their radii by .
+We have by the equation ' ' ; ( 46 ) , -1 , and we also get a similar equation for It appears , then , that the circle , which is the inverse of , cuts the orthogonal circle at the angle .
+It may happen , however , that the roots of equation ( 44 ) are of opposite sign ; in this case , the circle evidently cuts the given system at angles , and the circle orthogonal to these at the angle and being the roots of ( 44 ) , we have at once by ( 46 ) , ( 47 ) i. e. , Hence the two circles are real , coincident , or imaginary , according as is positive , zero , or negative .
+But by S18 the sign of is the same as the sign of Hence , by ( 45 ) , are real , coincident , or imaginary , according as -1 , is negative , zero , or positive , i.e. , according as is negative , zero , or positive .
+36 .
+It is clear that four pairs of cles can be drawn to cut the given system at angles equal to , or their supplements .
+The radii of these eight circles are connected by a remarkable relation .
+Let them be denoted by ; .
+By equation ( 46 ) we have or ; ( 48 ) similarly , we shall have , Hence .
+( 49 ) MR. B. LACHLAN ON SYSTEMS CIRCLES AND SPHERES .
+37 .
+We also obtain some interesting results by considering another group of circles allied to the pair considered in S 35 .
+Thus let ; let be the radii of the pair of circles cutting the system at angles ; let be the radii of the pair cutting the system at angles ; and the radii of the pair cutting the system at angles As in , we have Hence , by addition , ; ( 50 ) where are the radii of the circles which touch the given ] externally .
+Similarly cos ; where are the radii of the circles which touch the circle ( 1 ) internally and the circles externally .
+38 .
+The problem of drawing a circle to cut four given circles at equal angles has been discussed by DARBOUX , in his paper cited above , who makes the solution depend on that of drawing a circle to cut three given circles at given angles .
+Given four circles , say , we can easily find the angle at which a circle can cut them , and the radius of the circle .
+For let this angle be , then , if we denote the circle by , we have MR. R. LACHLAN ON SYSTEMS OF CIRCLES ANY ) ] whence ; where \amp ; c. , are the angles of intersection of the system .
+We have then to , the equation , 1 , 1 , 1 , 1 , . . .
+( 51 ) Also since we obtain at once , if be the radius of the circle , ( 52 ) 1 , We thus see that only one circle can be drawn ; ( 51 ) the angle at which this circle cuts the given system .
+For instance , if the four given circles cut orthogonally , we have This circle will be imaginary , since one of the four is so .
+MR. .
+R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+Circles which.pass through three of the points intersection of three SS 39 .
+Let the given systems of be denoted by , and their orthogonal circle by the symbol ( 4 ) .
+Let be the six points of intersection of the three circles , the points being situated within the triangle formed by the centres of the circles .
+Let be the circle which passes through the points , R. We have , then , Hence we have by a theorem of determinants ( 53 ) But since we have ; or .
+( 54 ) and since .
+( 55 ) But by S18 , hence by means of ( 53 ) , ( 54 ) becomes But Thus we may write this equation ; or ( 56 ) where is the angle of intersection of and the orthogonal circle of the system , and are the radii of the circles .
+This formula is easily adapted for the circles , \amp ; c. , by taking the area of the triangle as of opposite sign to .
+Again , if \amp ; c. denote the minors of , 1 , \amp ; c. in ; and if , 1 , , \amp ; c. denote the minors of , \amp ; c. in , we shall have from ( 55 ) But by Therefore ( 57 ) But ; and MR. R. LACHLAN ON SYSTEMS OF CIRCLHiS AND SPHERES .
+So that we may write the above equation , ( 58 ) Similarly we can find for the circles \amp ; c. 40 .
+If the given system intersect at angles , equation ( 57 ) reduces easily to . .
+, . . .
+( 59 ) where Also for circle ( P'QR ) we shall find . . .
+41 .
+It may be noticed that the system is the orthogonal system to ( 1 , 2 , 3 , S)\mdash ; ( see S 27 ) .
+We have at once from equation ( 35 ) .
+( 60 ) If be the circle through we have But by ( 47 ) , since is the inverse of with respect to the circle ( 4 ) , Hence we have ; ( 61 ) or the sum of the reciprocals of the squares of the tangents , from the points of intersection of three circles to the circles , is equal to the reciprocal of the square of the radius of the circle which cuts the circles orthogonally .
+, from equation ( 31 ) , we shall have , ( 62 ) , if cut the system ( 1 , 2 , S ) at angles , this may be written ( 63 ) This with equation ( 60 ) is sufficient to determine and .
+Also by drawing a figure we shall see at once that So that , if .
+The uhich touch three given Circles.\mdash ; SS42-46 .
+42 .
+Let be the given system , and let ( 4 ) denote the orthogonal circle of the system : then if be the circle which touches all the circles externally , and its angle of intersection with ( 4 ) , we shall have , since , \amp ; .
+, and ; ( 64 ) By giving the expressions \amp ; c. , different signs , we obtain the values of for the other pairs of tangent circles ; and it is clear that there are four pairs of such 43 .
+If be the angles of intersection of the system , and the angles of intersection of the four pairs of tangent circles with the orthogonal circle of the system , we can easily deduce from the formulae MR. R. LACHLAN ON SYSTHiMS OF AND S. ( 65 ) where 44 .
+The radii of the circles are given at once by the formula Thus , if be the radius of circle touching the system externally , we have or , 1 , \mdash ; 1 , , \mdash ; 1 .
+( 66 ) -1 , If we denote the radii of the pairs of tangent circles by , we have , by ( 49 ) a theorem first given by Mr. Cox Quart .
+Journ. Math vol. , 1883 , p. 99 .
+) 45 .
+Let denote a system of circles formed by taking one of each pair of tangent circles of the system .
+This can be done in sixteen ways : may show that eight of these sixteen groups are touched respectively by eight other circles .
+Let be the circle which touches the group ( 5 , 6 , 7 , s ) : let touch 5 internally and externally ; then , since we have , giving the successive values 4 , 1 , 2 , 3:\mdash ; ' 4 where But we also have Therefore oos Hence we must have which may be written Referrin to ( 65 ) we see that this equation is satisfied , provided we choose the groups of circles so that is positive .
+Thus if we denote the tangent circles of the system by the symbols , where correspond to the positive values of \amp ; c. , as given by ( 65 ) , then we see that the groups MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+are touched by circles .
+Also each of these circles , say , touches internally and the others externally ; and if touch the group and the group , then is the inverse of with respect to the orthogonal circle of the system .
+These circles are usually called Dr. circles .
+46 .
+We can easily deduce from formulae ( 66 ) that cut at angles .
+, , , , Also , if the angles of intersection with the orthogonal circle of of the pairs \amp ; c. , be , we shall have Referring to S40 we see that if the given circles intersect in the points , and the circle cut the orthogonal circle to at the angle , then Hence , if be the radii of the circles , and the radii of the circles , , then . . . . . . . . .
+( 68 ) Similarly each pair of Dr. HART'S circles is connected with a corresponding pair of the circles which can be drawn through the points by a formula which is analogous to that which connects the radius of the nine points circle of a plane triangle with the radius of the circum-circle .
+Three circles produce , as may be seen by drawing a figure , four pairs of triangles , each pair consisting of a triangle , and its inverse with respect to the orthogonal circle .
+Thus , supposing are the angles of the triangle , the angles of the triangle are either or else .
+Again , the angles of are .
+Hence , having obtained the formulae for the radius of any circle connected with a particular triangle , we can easily obtain the formulae for the other circles .
+It is also evident that there must be eight circles corresponding to the circum-circle , and eight circles corresponding to the nine-points circle of a plane triangle .
+CHAPTER V. -COORDINATES .
+Definition .
+47 .
+We have already seen that any circle ( straight line or point ) is completely detcrmined when its powers are known with respect to any four circles which have not a common orthogonal circle .
+Hence , given four such circles , which may be called the system of reference , any multiples , the same or different , of the powers of a circle ( straight line or point ) with respect to them , may be defined as its power-coordinates .
+We shall find it convenient bo denote the coordinates of any circle by ; the coordinates of any point by xyzw ; and coordinates of any straight line by If be the Cartesian coordinates of the centre of any circle whose powercoordinate with respect to a circle be ; if be the Cartesian coordinates of the centre of the latter ; and be the radii of the two circles : we shall have ; so that the power-coordinates of any circle are quadric functions of a particular form of the Cartesian coordinates of the centre of the circle .
+Similarly , if be the power-coordinate of a point whose Cartesian coordinates are : ; or the power-coordinates of a point are quadric functions of a particular form of the Cartesian coordinates of the point .
+In the case of a straight lin , whose Cartesian equation is we shall have Thus the power-coordinates of a are linear functions of a particular form of what may be called the Cartesian coordinates of the straight line .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+48 .
+If denote as previously the line at infinity , and the system of refererlce be denoted by , then being any point ; LQince , we see that the coordinates of must satisfy:\mdash ; .
+a homogeneous quadric relation , ; .
+a non-homogeneous relation , Let us suppose that xyzw , the coordinates of , are given by ; then xyzw must the ] ation , which is called the absolute : .
+( 69 ) ' ' ' Then the relation ( ii ) may be written or ( 70 ) ; where is some constant .
+49 .
+Similarly if denote any circle , since , we see that its must satisfy the linear relation or we write , then we shall ve , \amp ; c.\mdash ; October , 1886 .
+] 50 .
+Again if denote any straight line , since , and ; we see that its coordinates must satisfy , ( i ) the homogeneous linear relation , or ; ( 72 ) and ( ii ) the non-homogeneous quadric relation , or .
+( 73 ) The Circle .
+\mdash ; SS51-55 .
+51 .
+Let be any point on a circle , then ; hence the equation leads to .
+( 74 ) Thus the equation of a circle is of the first degree .
+It follows that the general equation of the first degree represents in general a circle , whose coordinates are given by , , ( 75 ) by equation ( 71 ) .
+52 .
+Given any two circles whose coordinates are , ; bheir power is given by or ( 76 ) MR. R. LACHLAN ON SYSTEMS OF AND PHERES .
+In particular the radius of the circle is given by or .
+( 77 ) 53 .
+Hence the radius of the circle is given by ; .
+( 78 ) re and , 1 , \amp ; c. , are the coefficients in the equation to the absolute , so that 54 .
+Again the power of the circle with respect to the circle is clearly given by ( 79 ) 55 .
+And again the power of the two circles is given by ; where .
+( 80 ) Whence , if the two circles cut at an angle , we have ; ( 81 ) where The straight Line.\mdash ; SS56-58 .
+56 .
+Proceeding as in S51 , we see that the equation to the straight line , whose coordinates are , is . . . . . . .
+( 82 ) But by equation ( 72 ) hence the equation will represent a straight line , provided that ; ( 83 ) and if this condition be satisfied the coordinates of the lines are given by , ; ( 84 ) where and denotes the same expression as in S55 .
+MR. R. LACHLAN ON SySTEMS OF CIRCLES AND 57 .
+The power of the straight line and the circle is given by , ( 85 ) And the loci represented by the equations intersect at the angle , given by .
+( 86 ) 58 .
+The coordinates of the lin at infinity are ; hence the equation to the line at infinity is The Point.\mdash ; SS59-61 .
+59 .
+The power of the point ( xyzw ) with respect to the circle is But if the equation represents a straight line , then we see that the perpendicular on it from the point . . . . . .
+( 87 ) 60 .
+The power of the two points ( xyzw ) , ( x'y'z'w ' ) is by equation ( 76 ) MR. R. LACHLAN ON SYSTEMS OF CIROLES AND SPHERES .
+Hence , if . .
+; the distance S between the points is given by , . . . . . . .
+( 88 ) Thus , if Ss be a small element of arc , we shall have .(Ss)2{Sx , Sy , Sz , Sw } . .
+( 89 ) 61 .
+If be any three points , then by equation ( 15 ) we have for the area of the triangle ; and by S8 Hence if , , be the coordinates of the points referred to any system of circles we shall have ; ( 90 ) where , Coordinate Systems of Reference.\mdash ; SS62-66 .
+62 .
+There are two systems of circles which are convenient as systems of reference\mdash ; a system consisting of four circles cutting one another orthogonally , *(u .
+) a system of two circles cutting orthogonally , and their two points of intersection .
+The former has been called the " " orthogonal\ldquo ; system , and was first used by DARBOUX , ' Sir un Class remarquable de Courbes et de Surfaces ] briques ' ( Note X. , 1873 ) .
+The latter system might be called the ' semi-orthogonal\ldquo ; system ; it is mentioned by M HOMERSHAM Cox in the paper ' On Systems of Circles and Bicircular Quartics\ldquo ; ( ' Quart .
+Journ. Math vol. 19 , 1883 , p. 116 ) .
+CASEY uses five orthogonal spheres\mdash ; " " Cyclides ' , p. 600 .
+But the first use of four mutually orthotomic circles was , I believe , by CLIFFOI } in a series of questions proposed by him in the ' Educa .
+tional Times ' for 1865-6 .
+See Reprint , vol. 6.\mdash ; October , 1886 .
+] MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+63 .
+In the case of the orthogonal system it is most convenient to take the constants equal to the reciprocals of the four radii , so that the equation to the absolute is and . . .
+( 91 ) 64 .
+In the case of the semi-orthogonal system ( see S29 ) , if be the radii of the circles , the distance between their points of intersection , it is convenient to take We shall have . . . . .
+( 92 ) 65 .
+Thus the angle at which the loci intersect , is given by or ; according as the system of ence is the " " orthogonal\ldquo ; or the " " semi-orthogonal\ldquo ; system .
+66 .
+asionally it may not be convenient to take for system of reference either of the systems just considered .
+In some cases , however , the equations may be simplified by referring the coordinates of a point to one system of circles , and the coordinates of any line or circle to the system cutting the former system orthogonally .
+Thus , if the system of reference be , and denote the system orthogonal to this , then taking equal to unity , the equation of the circle ( or line ) , whose coordinates referred to are , referred to the system is The equation wiIl represent a circle whose coordinates are .
+; unless , in whict ) case the equation represents a straight line .
+Inversion .
+, 68 .
+67 .
+Let xyzw be the power-coordinates of any point with respect to the system of circles ; let be the inverse of with respect to any point ; then since by S3 , is unaltered by inversion , it follows that , if XYZW be the coordinates of referred to the system which is the inverse of , we must have where , S are some constants .
+Thus if the equation in power-coordinates of any curve be , the equation to the inverse curve will be 68 .
+The system consisting two rectangular axes , the point of intersection , and the line at infinity , is early the inverse of a system of two orthogonal circles , and their two points of intersection , the centre of inversion being one of these points .
+For instance , the equation of a parabola expressed in power-coordinates is clearly Hence the equation to the inverse of a parabola is of the having reference to the orthogonal circles , to their two points of intersection .
+Similarly the equation to the inverse of a central conic must be of the form having ) or different signs according as the conic is an ellipse or hyperbola .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES ND SPHERES .
+521 .
+CHAPTER \mdash ; GENERAL EQUATION OF THE SECOND DEGREE IN POWERCOORDINATES .
+of th .
+Curve.\mdash ; SS69 , 70 .
+69 .
+The most general equation of the second degree in power-coordinates may be written , ( 9.3 ) ( xyzw ) being the coordinates of a point on the curve , referred to some system of circles , and therefore satisfying the equation of the absolute , which is also of the second degree .
+Consequently the form ( 93 ) contains only eigt arbitrary constants .
+Now xyzw may be expressed as linear functions of ) , X , , 1 ; ( X , Y ) being the Cartesian coordinates of the point ; and substituting , it is easily seen that ( 93 ) may be expressed in the form , . . . . .
+( 94 ) being of the first and second degree ; this equation contains eight constants , and since ( 94 ) represents a curve having nodes at each of the circular points at infinity , it appears that ( 93 ) is a form to which every bicircular quartic can be reduced .
+70 .
+It is otherwise evident that , since the equation of a straight line is of ) first degree , every straight line cuts in four points , unless is satisfied by the coordinates of the line at infinity ; for these coordinates satisfy the equation of every straight line , and therefore in this case must represent a circular cubic ) the line at infinity .
+Equation to Tangent at any \mdash ; SS71 , 72 .
+71 .
+Let be the coordinates of any circle touching the curve at the point ( x'y'z'w ' ) .
+We must have , by equation ( 74 ) and since this passes through the point we must have ; also Hence we must have ( 95 ) and every circle whose coordinates satisfy these equations must touch the curve at the point ( x'y'z'w ' ) .
+72 .
+Let be the coordinates of the tangent at the point ( x'y'z'w ' ) , then we must have ( 96 ) but , by S56 , we must have ' where are the coordinates of the line at infinity ; hence , if be determined by the equation ; .
+( 97 ) then the coordinates of the tangent to the curve are given by ( 96 ) , and the equation to it is or MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+Bitangent Circles.\mdash ; SS73-75 .
+73 .
+A circle will clearly touch ) curve at the point if , if satisfy the equation , ( 99 ) where denotes the Hessian of Since this equation is of the fourth degree in , we infer that there are in general four systems of bitangent circles , circle belonging to any system cutting a certain fixed circle orthogonally , the coordinates of this circle being proportional to the minors of the constituents of any row of the determinant .
+74 .
+If the coordinates of a bitangent circle satisfy the condition which must be satisfied by coordinates of any straight line , the corresponding equation will the double tangents from the centre of bhe corresponding circle .
+In general , then , there are eight double tangents .
+75 .
+It is clear that , if by any linear transformation of coordinates the equations become respectively , then the same value of must satisfy both and Hence the coefficients of the powers of in equation ( 99 ) are invariants .
+Equation to at any Point.\mdash ; SS76-79 .
+76 .
+Let be the coordinates of any circle which cuts the curve orthogonally at the point ( x'y'z'w ' ) , then by equation ( 75 ) we must have , ( 100 ) for all values 77 .
+It follows that if be the coordinates of the normal at ( x'y'z'w ' ) we must have and ; being the coordinates of the line at infinity .
+Hence the equation to the normal is o. . . . .
+( 101 ) ' ' ' ' ' ' ' ' ' 78 .
+We can easily deduce from equation ( 11 ) ) that normals can be drawn from the point ( x'y'z'w ' ) to the curve , at its points of intersection with the curve .
+( 102 ) ' ' ' ' ' ' This curve is clearly of the second degree , but since is satisfied by the coordinates of the line at infinity , it represents a circular cubic .
+Hence , in general , eight normals can be drawn from any given point to the curve .
+79 .
+In the of a circle cutting the , normally at the point ( x'y'z'w ' ) , we shall have MR. B. LACHLAN ON OF CIRCLES AND SPHERES .
+If then be chosen so that say , the circle will cut the curve orthogonally in four points , and we see at once , that must satisfy the equation ; and then are proportional to the minors of the constituents of any row in the determinant Thus it appears there are four circles which cut the curve orthogonally : and these circles are identical with the four which are mentioned in S 73 , as being orthogonal respectively to the four systems of bitangent circles .
+The ncipal Circles.\mdash ; SS80-82 .
+80 .
+The four circles considered in S79 have been called by MOUTARD the principal circles of the curve .
+And the curve ) be considered as the envelope of a system of circles , which cut one of these principal circles orthogona ] lie : it follows then that the curve is its own inverse with respect to any one of the principal circles ( hence the principal circles must cut orthogonally ; also the four points in which any principal circle cuts the curve must be cyclic points ; so that there are in general sixteen cyclic points .
+81 .
+We may prove independently that the principal circles cut orthogonally , thus ; taking for our system of reference an orthogonal system : so that the equation of the absolute is ; then the coordinates of any principal circle being we must have , if ; ( 103 ) where is a root of the equation Let now be the coordinates of the principal cilcle corresponding to another root of this equation ; then multiplying equations ( 102 ) respectively by and adding , we obtain at once Hence , if be unequal , the two circles must cut orthogonally .
+82 .
+If the curve have four principal circles\mdash ; i.e. , if the roots of the discriminatin quartic all different , the curve cannot a third double point\mdash ; for , inverting with respect to any principal circle , the inverse must also be a double point , unless the point lies on the principal circle ; since then a quartic curve can have but three double points , in the case of a bicircular quartic , the third double point must lie on each incipal circle .
+Hence two of the roots of the discriminatin quartic must be equal , and there are only two principal circles .
+Similarly , if this third double point be a cusp , it is easy to see , by invert , with respect to a principal circle , that any circle touching the tangent to the cusp at the cusp must touch the principal circle ; and hence there is only one principal circle , and the discriminating quartic must have three equal roots .
+Reduction of General Equation.\mdash ; SS 83 , 84 .
+83 .
+If one of the principal circles be a circle of reference say , then it is clear that the terms involving , must be absent from the equation .
+Supposing , then , that the equation has all its roots unequal , then there are four principal circles , and takin these for circles of reference the equation must reduce to the form Suppose , now , that two of the roots of the discriminant are equal ; then taking the circles corresponding to the unequal roots , and two circles cutting them orthogonally as circles of reference , the equation will be of the form ; and the system of reference being orthogonal we have for the absolute ; MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+and , therefore , the discriminant is which can only have equal roots when If be real this can only be satisfied by But of our four circles of reference one must be imaginary ; if one of the circles is imaginary will be real , and our equation will reduce to which represents a pair of lrcles , and need not be considered .
+If both circles are real , then it is simplest to take as system of reference , these circles and their two points of intersection .
+So that the absolute is of the form and the discriminant becomes ; and , then , if this has equal roots , either or ; and the equation takes the form which , by means of the absolute , may be written Let us suppose now that three of the roots of the discriminant are equal ; referring our coordinates to the circle corresponding to the unequal root , and any three circles cutting it and one another orthogonal]y , the equation of the curve will reduce to ; and the discriminating cubic is which we can easily prove can only have three equal roots when ; provided that are all real , in which case the circle is imaginary .
+In this case the curve takes the form which represents a point .
+If , however , be real , we may take as system of reference this circle , a circle cutting it orthogonally , and their two points of intersection ; then , since the absolute is of the form the discriminant becomes ; which can only have three equal roots when ; in which case the equation of the curve takes the form and by taking instead of , the circle , which clearly cuts orthogonally , we can get rid of the term .
+And since this equation can be further reduced to the form 84 .
+Thus we see that the equation of a bi-circular quartic can be reduced to one of three forms:\mdash ; ( A. ) in which case there are four principal circles , the equation of the absolute being ( B. ) equation of the absolute bein in which case there are two principal circles , which must be rea ] , and a node which is one of the points of intersection of these circles .
+( C. ) the equation of the absolute being In this case there is only one principal circle ; the curve passes through the two common points of , and the point is a cusp on the curve .
+It is also clear that circular cubics can be reduced to one of these three forms : since we have seen that the equation of the second degree represents a cubic when it is satisfied by the coordinates of the line at infinity .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+CHAPTER VII.\mdash ; CLASSIFICATION OF BICIRCULAR QUARTICS . .
+Method .
+\mdash ; S85 .
+85 .
+It will be convenient to take as the basis of our classification the nature of the roots of the discriminating we shall thus have three species , each of which may be subdivided into two\mdash ; according as the double points at infinity are nodes or cusps .
+We shall then have three similar species of circular cubics .
+Using the notation employed by SALMON ( ' Higher Plane Curves , ' S82 ) , we shall denote the characteristics of a curve by , and we see that we shall have the following cases:\mdash ; .
+4 8 2 8 .
+4 6 1 iu 4634 .
+4 4 1 1 .
+4 5 2 2 vi .
+4 3 00 .
+3 6 viii .
+3 4 1 .
+3 3 IName .
+12 2 8 Cartesian 6 2 2 Limacon 3 Cardioid 9 3 may be called the general bicircular quartic ; ( iu .
+) is the general inverse of a conic ; is the inverse of a parabola ; ( vii .
+) may be called the general circular cubic ; ( viii .
+) is the inverse of a conic with respect to a point on the curve ; and ( ix .
+) is the inverse of a parabola with respect to a point on the curve .
+General Quartic.\mdash ; SS86-92 .
+86 .
+The equation of the'curve may be written ; and if we write the absolute the coordinates of the line at infinity will be , i. e. , the reciprocals of the radu of the principal circles .
+87 .
+The coordinates of any tangent circle at the point will be proportional to The equation to the tangent at the point is , by equation ( 98 ) , . .
+( 104 ) The equation to the normal at the point ( x'y'z'co ' ) is , by equation ( 101 ) , ' .
+( 105 ) , by ' , 88 .
+The coordinates of any bitangent circle being we must have Hence we must have .
+( 106 ) 89 .
+The pair of double tangents which belong to this system of bitangent circles are given by where If be the angle between them , we can deduce at once from S65 , remembering that ; 90 .
+Since the foci may be considered as bitangent circles whose radii are indefinitely .
+R. LLACHLAN ON SYSTEMS OF CIRCLES AND SPHERE small , the coordinates of tfle four foci belonging to the system , given by equation ( 106 ) , will be given by and ; whence ( 108 ) 91 .
+From the form of these equations it follows , that all curves whose equations are of the form , . . . . .
+( 109 ) and , ( 110 ) will have the same foci .
+Subtracting these equations , we have Hence the circles whose coordinates are respective ] proportional to ; ; must cut orthogonally ; but these circles touch the curves given by ( 109 ) , ( 110 ) at their common points ; hence confocal cular quartics cut orthogonally .
+Through any point , two quartics can be drawn confocal with a given bicircular quartic , since the equation ( 109 ) is a quadratic in .
+We see , too , that two circular cubics can be drawn confocal with a given bicircular quartic .
+92 .
+Let be the coordinates of any circle ; this will cut orthogonally one of the bitangent circles , at the point ( x'y'z'w ' ) on the curve if It follows that two bitangent circles belonging to this system can be drawn to cut orthogonally ; and their four points of contact lie on the circle Thia circle intersects in points lying on the circle Hence , given any circle , four pairs of bitangenlt circles can be drawn to any bicircular quartic , cutting orthogonally ; and their points of contact lie on four circles , which have with a common radical axis .
+Oval.\mdash ; SS93 , 94 . .
+If one of the principal circles has its radius infinite , the curve will be symmetrical with respect to the axis , which will pass through the centres of the other three principal circles .
+If the foci which lie on this axis coincide with these centres , the curve must have cusps.at the circular points at infinity .
+Let us suppose the circle , whose radius was in S86 , to become the axis ; then by S90 , the coordinates of the foci on the axis will be If these points are the centres of the principal circles we must have ; . . .
+( 111 ) which is equivalent to only one relation between the coefficients , viz.:\mdash ; since Again the double tangents at right angles to the axis are given by which are clearly satisfied by taking ; thus one of them coincides with the line at infinity , and so there is but one proper double tangent .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND @PHERES .
+53@ 94 .
+There are two finite foci on each principal circle , their coordinates being respectively proportional to But they are all imaginary . .
+Bicircular Quartics Third Node.\mdash ; SS95-102 .
+95 .
+The equation of the curve may be reduced ( by S83 ) to the form the equation of the absolute being ; and if are the radii of the two principal circles , the distance between their points of intersection , then the coordinates of the line at infinity are 96 .
+The coordinates of any circle touching the curve at the point ) must be proportional to , where ; ( 112 ) and , by S72 , the equation to the tangent line at ( x'y'z'w ' ) will be ; ( 113 ) also the equation to the normal at the point ( x'y'z'w ' ) will be , by equation ( 101 ) , . . . . . .
+( 114 ) , by ' , 97 .
+The circle given by ( 112 ) will be a bitangent circle , if or In the former case we have 5.34 MR. R. .
+LACHLAN ON SYSTEMS OF CIRCLES AND Hence 98 .
+The double tangents which belong to this system of bitangent circles are given by and If be the angle between them , we shall have , since ( 116 ) Hence these double tangents cannot coincide unless in which case , the double tangents from the centre of the other principal circle coincide also ; but this equation is the condition that the curve should be a cubic .
+99 .
+If in ( 112 ) we take , we have a series of tangent circles passing through the node , two of these circles will reduce to straight lines , which will be the tangents from the node ; in this case we shall have whence ; where ; and the angle between them is given by These also coincide if the curve is a cubic . .
+R. LACHLAN ON SYSTEMS CIRCLES AND SPHERES .
+100 .
+The foci corresponding to the principal circle are given by and Hence we have ( 117 ) Similarly the coordinates of the two foci on the circle , may be written down .
+101 .
+From the form of equations ( 117 ) , it appears that all curves given by the equation are confocal with the curve Subtracting , we have Hence the circles whose coordinates are respectively proportional to ; ; must cut orthogonally , but these circles touch the curves at their common points ; hence confocal curves cut orthogonally .
+Since we have a quadratic to determine when are given , through any point two curves can be drawn confocal with a given curve ; and two nodal circular cubics can also be drawn with the same node and confocal with a given nodal bicircular quartic .
+102 .
+The equation represents in general a nodal bicircular quartic , and by inverting with respect to the node , we see that it is the inverse curve of an ellipse or hyperbola , according as and have the same or opposite signs , with respect to some point in the same plane .
+Such a curve then has two principal circles , with two single foci on each : it has also four double tangents , two from the centre of each principal circle .
+If one of the principal circles becomes a straight line , it divides the curve symmetrically ; corresponding , in faci , to the case where a conic inverted on a poin in one of its axes .
+If the radii of both principal circles are infinite the centre of is } of the conic : e.g. , the lemniscate , whose equation would be of the form . .
+The \mdash ; S 103 .
+103 .
+If one of the principal circles , in the last section , becomes a straight line , and one of the two foci coincide with the centre of principal circle , the nodes at infinity become cusps .
+This case corresponds to inversion of a conic on a focus .
+Suppose that is infinite in S95 , then the condition that the curve should be a Limacon is , from equation ( 117 ) , ; which , since we must have becomes . . . .
+( 11S ) The double tangents perpendicular to the axis are given by and ; which equations are satisfied by : so that there is only one double tangent . .
+Bicircular Quartic having a Cusp.\mdash ; SS104-109 .
+104 .
+The of the curve may be reduced ( by S83 ) to the form The system of reference being the principal circle ; the circle passing through the cusp , and the other point in which the curve cuts the principalcircle ; the cusp ; and the other point common to the curve and principal circle .
+Let be the radii of two circles , the distance between their points of MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+intersection ; the coordinates of the line at infinity ; then the equation to the absolute will be The curve is clearly the inverse of a parabola .
+105 .
+If be the coordinates of any circle touching the curve at the point , we must have . . . .
+( 119 ) The equation to the tangent line at the point ( x'y'z'w ' ) will be , by S 72 , ; .
+( 120 ) the equation to the normal being . . . . . .
+( 121 ) , -ay ' , 106 .
+The circle will be a bitangent circle , if , in which case ; whence . . . . .
+( 122 ) 107 .
+The two double tangents are given by ; the angle ) between them being given by $ These can only coincide if ; in which case the curve is a circular cubic .
+Taking k in ( 119 ) , we have a series of circles passing through the cusp ; to the tangents from the cusp to the curve we shall have whence ; The angle between these is given by 109 .
+The focus of the curve is given by ( y\mdash ; az)2 whence .
+( 124 ) vi .
+Thoe Cardioid.\mdash ; S110 .
+110 .
+If the radius of the principal circle of curve become infinite , the curve is symmetrical with respect to the axis ; and if the single focus on this axis is at an infinite distance , the curve has cusps at infinity , and is called the cardioid ; being the inverse of a parabola with respect to its focus .
+Referring to equation ( 124 ) , we see that the condition is ; so that the equation to a cardioid is ( 125 ) MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+vii .
+General Circular Cubic .
+S 111 , 112 .
+111 .
+We have already seen that the equation represents a circular cubic when , ( 126 ) where are the radii of the four principal circles .
+The curve also passes through the centre of each of these reles .
+By equation ( 104 ) we see that the equation to the asymptote ( i.e. , tangent , at the point is .
+; . . . . . .
+( 127 ) the equation to the tangent at the centre of the circle being ' which is clearly parallel to the asymptote .
+Hence the tangents to the curve at the centres of the principal circles are all parallel to the asymptote .
+112 .
+As in the case of the general bicircular quartic , there will be four systems of bitangent circles , and on each principal circle there will be four single foci .
+There are clearly no double tangents .
+And if one of the principal circles degenerates into a straight line , the asymptote is perpendicular to it .
+viii .
+Circular Cubic.\mdash ; S 113 .
+The equation considered in S95 , is a circular cubic , when This curve is the inverse of a conic with respect to a point on the curve .
+The curve passes through the centres of the principal circles , the tangents being respectively , by equation ( 118 ) , ; which are parallel to the straight line which is the line joining the node to the point in which the line at infinity cuts the curve , so that these three lines are parallel to the asymptote .
+As in the case of the nodal bicircular quartic there will be two single foci on each principal circle , and two corresponding systems of bitangent circles .
+Circular Cubic.\mdash ; S114 .
+114 .
+The equation represents a circular cubic , having the point for a cusp , when ; being the radius of its principal circle , that of a circle cutting this orthogonally , and passing through the cusp , and the other point common to the curve and its principal circle .
+The curve clearly passes through the centre of its principal circle , the tangent at the point being which is parallel to the line joining the cusp to the third point in which the curve cuts the line at infinity ; hence these are parallel to the asymptote .
+The curve has one syttem of bitangent circles , and one focus which lies on the principal circle .
+MR. R. LACHLAN ON ] ] OF CIRCLES AND SPJIBRES .
+541 .
+CHAPTER VIII.\mdash ; MISCELLANEOUS THEOREMS .
+Equation of an referred to Three Circles to the Principal Circle.\mdash ; SS115-121 .
+115 .
+If the system of circles be such that ( 4 ) is orthogonal to , the equation of the absolute must be of the form ; also if ( 4 ) be a principal circle of an anallagmatic curve , its equation must be of the same form ; by subtraction we see that the equation , , . . . . .
+( 128 ) may be considered as the general equation of such a curve referred to any three circles cutting one of its principal circles orthogonally .
+Thus , for any theorem proved in the case of conics we can easily derive an analogous theorem for bicircular quartics or circular cubics .
+116 .
+Any bitangent circle of the system which cuts the given principal circle orthogonally , must have for its equation , . . . . .
+( 129 ) and since it touches ( 128 ) , we shall have . . . . . .
+( 130 ) Referring to S24 , equation ( 22 ) , we see .
+that are proportional to the areal coordinates of the centre of the circle ( 129 ) referred to the triangle formed by joimng the centres of the circles , provided that are proportional to the powers of a point with respect to these circles .
+We see , then , by equation ( 130 ) , that the locus of the centres of all bitangent circles of the same system is a conic which is called by Dr. CASEY the focal conic of the system .
+117 .
+Suppose now the circles to be the other principal circles , then the equation to the curve must be of the form and the corresponding focal conic is And we see that the focal conic corresponding to one principal circle is -conjugate with respect to the triangle formed by the centres of the other three .
+118 .
+Or , again , in the case of a nodal curve ; let denote the other principal circle , and its two points of intersection with ( 4 ) ; the equation of the curve is of the form ; and the corresponding focal comc which also passes through the node .
+119 .
+If the system of reference be three bitangent circles , the equation to the curve must be of the form ; . . . . .
+and in that case the focal conic is In particular we see that if be three foci on the same principal circle of the quartic , or cubic , and any point on the curve , we must have . . . . .
+( 132 ) 120 .
+Suppose that the curve is a Cartesian , having cusps at infinity , then the focal conics become circles .
+It follows that equation ( 131 ) will represent a Cartesian if are proportional to the sides of the triangle formed by the centres of the three bitangent circles ( xyz ) .
+Thus we have the theorem that , the sum of the products of the tangents , from any point on a Cartesian to any three bitangent circles of the same system , into the corresponding sides of the triangle , formed by the centres of the circles , is zero .
+121 .
+Let the circles be any two bitangent circles , and let ( 1 ) be the circle passing through their four points of contact with the curve ; then the equation of the quartic must take the form and then the focal conic is If be foci , ( x ) might be called their ; and we see that the product of the distances of any point on a bicircular quartic from two foci on the same principal circle , is proportional to the square of the tangent from the point to their directrix .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+Again , if ( yz ) denote the double tangents from the centre of the principal circle of the system , we see that the centre of the focal conic coincides with the centre of the polar circle of the centre of the principal circle , and the asyrnptotes of the focal conic are perpendicular to the double tangents .
+It follows , then , that the focal conic is an hyperbola or ellipse , according as these tangents are real or imaginary .
+It follows , also , that the focal conic of a circular cubic is a parabola , whose axis is perpendicular to the asymptote of the cubic .
+Circle of Curvature at of ) AnallagnvJtic .\mdash ; SS122-124 .
+122 .
+Let the equation to the circle of curvature at the point ( x'y'z'w ' ) be Then we must have , proportionffi to the minors of , in the determinant Sx ' , , Sz ' , And as we are merely concerned with the ratios of the coordinates we may take qtant ; so we shall have 123 .
+If the equation of the curve referred to its principal circles be where the equation to the absolute is ; we shall have axSxby@yczSz0 , xSxy@yzSz0 ; whence say ; MR. R. LACHLAN ON SYSTEMS OF LHlS .
+AND SPHERES .
+hence , , ; so that ; or since Hence So that the equation of the circle of curvature at the point ( x'y'z'w ' ) on the curve is ' ; . . .
+( 133 ) and the points of inflexion of the curve lie on the tricircular sextic , .
+( 134 ) 124 .
+If be the radius of curvature at the point ( x\fnof ; y'z'w ' ) of the curve we shall have MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+And it may be easily verified that ; so that PART \mdash ; SYSTEMS OF CIRCLES ON THE SURFACE OF A SPHERE .
+.\mdash ; GENERAL SySTEMS 0F CIRCLES .
+The Equation of a Circle on Sphere.\mdash ; SS , 126 .
+125 .
+Let ABC be a spherical triangle , having all its angles right angJes : then , if we denote the sines of the perpendiculars from any point on the sides of the triangle by , we have at once ; and again , if ( xyz ) , ( dy'z ' ) be any two points , the angular distance between them , So that the equation of a small circle is of the form the coordinates of its centre , and its radius , being given by ; and if ( xyz ) be any point , whose angular distance from the centre of the circle is , we lave It follows from this that , if the angle of intersection of the circles ax be , and the distance between the centres , then . . .
+( 136 ) The equation of a great circle will be of the form ; and the angle of intersection of this with the circle will be giyen by ; . . . . .
+and for two great circles we shall have .
+The Power of Circles on Sphere.\mdash ; SS 127 , 128 .
+127 .
+If be the angular radii of two small circles on a sphere , the angular distance between their poles , and their angle of intersection , then either of the expressions ?
+may be defined as the power of the circles .
+Denotin the power by ( or if are any circles by we see that if the circles cut at right angles , and if they touch .
+In the case of apair of poinls where is the distance between them .
+It will be convenient to define the power of a great circle , with respect to a small circle , as the product of the tangent of the radius of the small circle and the cosine of the angle of intersection : thus ; and the power of two great circles , as the cosine of the angle between them .
+128 .
+If be the pole of a small circle , radius , and any point on the sphere , then if be taken in the arc OP so that OQ MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+may be called the inverse point of with respect to the circle whose radius is , or simply the inverse of with respect to O. It may be easily Qhown , if be any two small circles , by forming the equations of the inverse circles respect to A. ( S125 ) , that the expression is invariable .
+Theorems.\mdash ; SS129-132 .
+129 .
+If , denote any two systems of circles on the surface of a sphere , the powers of the former are connected with those of the latter by the identical relation This is at once proved by multiplying together the matrices , 1 , 1 , 1 , 1 , 1 , 1 , Whence we get .
+( 138 ) 130 .
+It is evident that this result is true if one , more , of the circles are great circles , provided that we interpreted the meaning of the symbol in accordance with the definition in S127 .
+Again , it is true , if the radius of any of the circles is zero .
+And we also see it is true if any circle of either system 18 such bhat the coordinates of its centre are zero ; i.e. , any circles of either system may be replaced by the MR. R. LACHLAN ON SThMS OF CIRCLES AND SPHERES .
+imaginary circle at infinity , which we will denote by ; and we see that we must take , and if be any small circle , if be any point , if be any great circle .
+131 .
+If then be the angle of intersection of the circles we may deduce at once from equation 1 , . . . .
+( 139 ) cob 1.32 .
+Exactly as in S8 , we can prove that .
+( 140 ) CHAPTER SPECIAL SYSTEMS 0F CIRCLES .
+rele Cutting Three Circles Orthogonally.\mdash ; SS 133 , 134 .
+133 .
+Let the circle cutting the system be denoted by , then since II we have ; and if the equations of the circles be of the form we have at once ; ( 141 ) MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+where is the radius of the sphere , and denotes the volume of the tetrahedron formed by the centre of the sphere and the poles of the circles .
+Hence the radius of the orthogonal circle of the system is given by \mdash ; 1 , , 2 , , 1 , \mdash ; 1 , , 3 ( 142 ) , 1 , , 2 , \mdash ; 1 184 .
+If the three circles meet in a point , must be zero , hence Circles Common or Orthogonal Circle .
+S 135 , 136 .
+135 .
+Let ( x ) denote the common circle of the system , then , since it follows that we must have .
+( 143 ) This is clearly the necessary and sufficient condition that the system may have a common orthogonal circle .
+136 .
+If be any other system of circles , we must also have ( 144 ) As a particular case , we have where ( x ) denotes any other circle .
+We deduce that ( 145 ) But from ( 144 ) we can as in S 24 , thab , ; so thab ( 145 ) may be written , But if be the adius of the common orthogonal circle , we have , by S133 , Hence we have ; ( 146 ) which result may also be written ; ( 147 ) where may be defined as the areal coordinates of the pole of the circle ( 4 ) with respect to the triangle formed by the poles of the circles .
+Thus , if be the triangle , the pole of ( 4 ) , then As a particular case of ( 147 ) , let be a point , say , then being the centres of , and being a point on the circle which cuts them orthogonally , we shall have , or more generally , bein the pole of a circle which , with , has a common orthogonal circle , .
+Orthogonal Systems.\mdash ; SS137-139 .
+137 .
+Four circles may be said to form an orthogonal system if each one cuts the other three orthogonally .
+It is clear that the pole of any one of four such circles must be the orthocentre of triangle formed by the poles of the other three .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLhS AND SPHERES .
+Let be such a system , then if be any other circles we Dlllst have from the equation ; ( 148 ) whence we have as particular cases ( ii .
+) where denotes any circle , radius ; ( iii .
+) ( iv .
+) where denotes any great circle ; ; . . . . .
+( 149 ) so that one of the circles must be imaginary .
+138 .
+If the circles form a system not having a comnjon orthogonal circle , we may find four other circles , say , such that each of the latter is orthogonal to three of the former .
+One such system may be called the " " orthogonal system\ldquo ; of the other .
+Let denote any two circles , since we shall have ; ( 150 ) whence we obtain as particular cases , ( 151 ) and , denoting any small circle , 139 .
+The system of circles may be called a " " \ldquo ; system , if cut ] in the points .
+Then denoting any circles we have by the equation .
+( 152 ) If denote { he arc between we have as a particular case , . . . .
+( 153 ) Circles touching one cmother.\mdash ; SS 140-144 .
+140 .
+If the four circles touch one another externally , we shall have from the equation ; whence ( 154 ) 141 .
+We may also easily extend the formulae ( 39 ) and ( 40 ) in S31 .
+Thus , let two circles be described , with angular radii , and let another circle radius be described touching these internally , having its pole on their common diameter .
+Let be a circle touching this circle internally , and externally ; and let a series of circles \amp ; c. be described touching externally and the preceding one in the series ; and let the radii of these ciroles be \amp ; c. We shall have , since and touch ; whence , exactly as in S MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+So that ( 155 ) Similarly if \amp ; c. be a series of circles touching and one another externally , and touching the common diameter of , we shall find .
+( 156 ) 142 .
+Since , we infer from S32 that if the four circles are all touched by another circle externally , then we must have being the angle of intersection of the circles .
+This formula must be slightly modified if the tangent circle does not touch them all externally : if , for instance , the circles have contact with the tangent circle of opposite nature , then must be replaced by 143 .
+If this condition be satisfied the radius of the circle touching the circles may be easily found by means of S 138 .
+Thus , let the orthogonal system of be ; and let the contact be external in each case .
+Then since shall have .
+( L57 ) .
+If the system of circles be that four other circles can be drawn to touch them all , symmetrically , say let each of the latter touch one of the former internally and the others externally ; , let ( 5 ) touch externally : then since where denote aIly other circles , we have ; whence as a particular case , .
+( 158 ) An example of this would .
+be , when are the inscribed and escribed circles of a spherical triangle , and are the corresponding nine-points circles .
+CHAPTER III .
+\mdash ; CIRCLES ECTED W A SPHERICAL TRIANGLE .
+Regarding a spherical triangle as formed by the arcs of three small circles , ' most of the theorems concerning the three species of circles , connected with a triangle formed by great circle-arcs , be readily extended .
+It will be seen that there is a much greater resemblance than there is between the corresponding formulae for plane triangles formed by arcs of circles and lines .
+We shadl suppose that the circles intersect in the points , the former points lying within the formed by arcs joining the poles of the circles ; and we will call the angles of the triangle , R\mdash ; a , ; then the formulae for any other of the eight triangles which make up the whole figure may be at once written down by changing two of the angles into their supplements .
+We shall use to denote angular radii of ] circles , and to denote the angular radius of their orthogonal circle .
+The Circurn-circle of Triangle.\mdash ; SS145 , 146 .
+145 .
+If denote the circle which passes through the points , the points of intersection of the circles ; and if ( 4 ) denote the orthogonal circle of the system , we shall have , since exactly as in S39 , But where is the radius of the sphere , and denotes the volume of the tetrahedron formed by the poles of the circles and the centre of the sphere .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+Hence we obtain ; or if be the angle of intersection of the circle PQR with the orthogonal circle to , we may write 146 .
+Again , if , 1 , , \amp ; c. , denote the minors of , 1 , \amp ; c. , in , we shall have , as in S39 , ( 160 ) But ; hence ; whence may be deduced , s.cos , .
+( 161 ) where lf the three given circles are great circles , then the imaginary circle will be their orthogonal circle , in this case equation ( 160 ) reduces to , ; the ordinary formula for finding the radius of the circum-circle of a spherical triangle The Inscribed Escribed Circles of Triangle.\mdash ; SS147 , 148 . .
+If the inscribed and escribed circles of the triangle PQR cut the orthogonal circle at angles , we have , as in S43 , . .
+( 162 ) . .
+where s.cos .
+In these formulae has been written for , and so , if the given iangle be an ordinary spherical triangle , must be replaced by ; thus the above formulae correspond , in the case of an ordinary spherical triangle , to the ] cob ; Ncot where .
+In our present , the radii will be given by formulae similar to .
+( 163 ) 1 , , cos7 , 148 .
+In exactly the same way as in S45 we may show that , associated with every triangle , there are eight circles analogous to the nine-points circle of a plane triangle , each of them touching four of the circles , which touch the sides of the spherical triangle ; that is , taking any one of the eight associated triangles formed by three circles , say , the inscribed and escribed circles are touched by another circle .
+If this circle cut the orthogonal circle of the triangle at the angle , we shall have , as in S 46 , , ( 164 ) MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+and we also infer , from S46 , that this circle ; the sides of the triangle PQR at the angles Comparing equation ( 164 ) th equation ( 161 ) we see that if the circle PQR cut the orthogonal circle at the angle , then .
+Whence we infer that in a spherical triangle formed by great circle arcs , the radius of the nine-points circle , and the radius of the circum-circle , are connected by the formula R. In the case of a general spherical triangle , this is replaced by the formula where are the radii of the analogous circles connected with the triangle , and the radu of the corresponding circles connected with bhe inverse triangle , with respect to the orthogonal circle of the triangle .
+CHAPTER -COORDINATES .
+Definition .
+\mdash ; SS 149-151 .
+149 .
+Given any system of circles , say , on the surface of a sphere , then any circle ( great or small ) , or any point , is completely determinate when its powers with respect to the system are known , provided that this system be not a system having a common orthogonal circle .
+If then be any point , we may define the coordinates of referred to the system as any multiples , the same or different , of the powers of with respect to these circles ; thus denoting the coordinates of by ( xyzw ) , then being any constant multiples , we may take Since , and , we see at once that the coordinates of.any point must satisfy a homogeneous quadric relation , viz. , and a non-homogeneous linear relation , The former is called the equation of the Absolute , and will be usually denoted by , and then the latter may be written or ; where ' as usual , means the partial differential coefficient of with respect to being afterwards.put for , and where is some constant .
+150 .
+If be any small circle , we may define the coordinates of with respect to the system as constant multiples of the powers ; thus , denoting them by , we will take ; having the same values as in S149 .
+Since , we see that the coordinates of any small circle must satisfy the nonhomogeneous linear relation .
+( 165 ) 151 .
+If , however , be a great circle , we shall have , since , the homogeneous linear lelation , , ( 166 ) and the non-homogeneous quadric relation , . . . . . .
+( 167 ) The Circle.\mdash ; SS 152-157 .
+152 .
+If be any point on the circle whose coordinates are , we shall have by the equation since . . . . .
+( f68 ) Thus the equation of a small circle is of the first degree .
+It follows that the equation of the first degree , say MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+will represent in general a small spherical circle , whose coordinates are given by , . . . . .
+( 169 ) by equation ( 165 ) .
+153 .
+Given any two circles whose coordinates are , their power is given by or ; ( 170 ) and the radius of the circle will consequently be given by , . . . . . .
+( 171 ) 154 .
+It follows that the radius of the circle will be given by ; . . . .
+( 172 ) , Mtan2 where and where , 1 , , \amp ; c. , are the coefficients in the equation of the absolute , so that 155 .
+Again , the power of the circle with respect to the circle is clearly giy-en by ( 173 ) 156 .
+And further , the power of the two circles , will be given by ; ( 174 ) where .
+Whence , if the two circles cut at an angle , we have ; ( 175 ) where 157 .
+The coordinates of , the inlaginary circle at infinity , are evidently ; and the equation of this circle is ; ( 176 ) its radius is equal to The , 159 .
+158 .
+The equation of the first degree will represent a great circle on the sphere , when ; . . . . . .
+( 177 ) .
+R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+and if this condition be satisfied , its coordinates will be given by , ( 178 ) by equation ( 167 ) , where has the same meaning as in S156 , and where 159 .
+The power of the great circle with respect to the small circle is given by as in S155 .
+But if the equation represent a great circle , then the power of arly other circle with respect to it is .
+( 179 ) rfhe angle between two great circles whose equations are given is the same as that given by equation ( 175 ) .
+The Point.\mdash ; SS 160-162 .
+160 .
+The power of the point ( xyzw ) with respect to the circle is equal to or ; according as the equation represents a small circle or a great circle .
+16 ] .
+The power of two points ( xyzw ) , is , by equation ( 168 ) , given by ; which , since may be written . .
+( 180 ) 162 .
+If be the radius of the sphere , and any three points , we have by equation ( 141 ) , ; and by S132 Hence , if , , be the coordinates of , referred to the system , we shall have V(ABC ) ; ( 181 ) where Coordinate Systems of Reference.\mdash ; SS163 , 164 .
+163 .
+There are two convenient systems of reference : four ituaUy orthotomic circles , called the orthogonal system ; ( ii .
+) two orthogonal circles and their two points of intersection , called the semi-orthogonal system .
+A particular case of the former would be three great circles cutting orthogonally and the imaginary circle at infinity .
+If the system be an orthogonal system , we shall find it most convenient to take equal respectively to cotangents of the radii of the circles .
+So that the equation of the absolute will be ; and referring to S137 , we see that we shall have and ; also we have , B. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+( ii .
+) If the system be a semi-orthogonal system , we may take , where are the radii of the circles , their common ohord .
+We shall have by S149 , ; and also 164 .
+By S128 , if two circles be inverted with respect to any point ( O ) on the sphere , then the expression is unaltered .
+Hence , if ( xyzw ) be the coordinates of any point referred to a system , and ( XYZW ) be the coordinates of the inverse point , with respect to any point ( O ) , referred to the inverse system with respect to the same point , we must have ; and if be the coordinates of any circle , the coordinates of the corresponding ) circle referred to the new system will be , S : S being some constants .
+CHAPTER V. GENERAL EQUATION 0F THE SECOND ] IN POWERCOORDINATES .
+of the \mdash ; S165 , 165 .
+The most general form of the equation of the second degree may be written , ( 182 ) ' being the coordinates of a point , and therefore satisfying the equation of the absolute , which is also of the second degree ; it follows , then , that the general equation of the second degree contains only eight arbitrary constants .
+Let be any point on the curve , and let the Cartesian coordinates of referred to rectangular axes through the centre of the sphere be ; and let be the radius of the sphere , then by S125 we see that we may put Substituting for in equation ( 182 ) , we see that the curve in question is the curve of intersection of the surfaces and and being homogeneous expressions of the first and secondegree respectively in .
+So that the curve is the complete intersection of a sphere with a quadric surface , and therefore may be called a " " spheri-quadric.\ldquo ; These curves have been vely studied .
+CASEY calls them sphero-quartics Cyclides and Sphero-quartics , \ldquo ; ( 1871 ) .
+' Phil. Trans vol. 161 ) .
+DARBOUX calls them spherical cyclics ( ' Sir un Class remarquable de Courbes et de Surfaces Algebriques , ' 1873 ) .
+Mr. H. M. JEFFERY ( ' London Math. Soc. Proc vol. 20 , 1885 , p. 102 ) has proposed to call them spherocyclides .
+The name spheri-quadric is due to Professor CAYLEY .
+Equation to Tangent at any Point.\mdash ; SS166-171 .
+166 .
+Let be the coordinates of any circle touching the spheri-quadric at the point ( x'y'z'w ' ) , then being the equation of the absolute , we must have And hence we must have ' ( 183 ) where is indeterminate .
+Hence every circle which touches the curve at the point has its equation of the form .
+( 184 ) MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+167 .
+To determine the equation of the tangent ( i.e. , tangent great circle ) to the curve at the point , we must determine in equation ( 184 ) , so that the equation may be satisfied by the coordinates of the circle at infinity .
+Thus the equation of the tangent is ( 185 ) 168 .
+The circle given by equations ( 18S ) or ( 184 ) will touch the curve at the point if i.e. , if satisfy the quartic equation where denotes the Hessian of We infer then that there are , in general , four systems of bitangent circles , each circle belonging to a particular system cutting a certain circle orthogonally ; the coordinates of these four circles being proportional to the minors of the constituents of any row of the above determinants , corresponding to the four ] of 169 .
+If the coordinates of a bitangent circle satisfy the condition the circle is a great circle ; there will , in general , be eight such great circles , two belonging to each system of bitangent circles .
+170 .
+If the coordinates of a bitangent circle satisfy the equation.of the absolute , the circle reduces to a point and corresponds to a focus of a plane bicircular quartic\mdash ; there are clearly sixteen such foci , four on eaoh of the circles which cut the bitangent systems orthogonally .
+Dr. CASEY Cyclides and Sphero-Quartics\ldquo ; ) calls these single-foci .
+171 .
+It is clear that , if by any linear transformation of coordinates the equations become respectively , then the same value of which satisfies must also satisfy Hence the coefficients of powers of in the equation ( 1@6 ) are invariants .
+Equation of the Normal at any Point.\mdash ; SS172-174 .
+172 .
+Let ) be the coordinates of any circle which cuts the curve orthogonally at the point ( x'y'z'w ' ) , then we must have . . . .
+for all values of 173 .
+It follows that the coordinates of the normal ( i.e. , great circle ) at ( x'y'z'vf ) must satisfy Hence the equation of the normal is .
+( 188 ) ' ' ' o ' ' ' 174 .
+From equation ( 187 ) we can deduce MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND S PHERES .
+If then be so chosen that , say , then the circle cuts orthogonally in each of the four points in which it meets it ; we see at once that must satisfy the equation which is the same equation as in S168 ; the coordinates of the four orthogonal circles corresponding to the four values of , being proportional to the minors of the determinant .
+Tloe Principal Circles.\mdash ; SS175-179 .
+175 .
+The four orthogonal circles found in the last article are usually called the principal circles of the curve .
+By S168 , we see that a spheri-quadric is the envelope of a series of circles which cut one of the principal circles orthogonally , and it is evident by inversion that the curve must be anallagmatic , i.e. , its own inverse with respect to each of its four principal circles ; also each point in which a principal circle cuts a spheri-quadric must be a cyclic point on the curve ; there are in general sixteen such points .
+Again , the double great circle tangents are the tangents which be drawn from the poles of the principal circles .
+176 .
+It is easily proved , as in S81 , that any two circles corresponding to different values of given by , cut orthogonally ; hence , if the four roots of the discriminatin quartic be different there are four principal circles which are mutually orthotomic , and the poles of these circles must be such that the arc joining any two is perpendicular to the arc joining the remaimng two .
+177 .
+If the roots of are all different , then we can reduce the equation to the form the system of reference being the four principal circles ; and being roots of the discriminating quartic .
+178 .
+If two roots of the quartic are equal , then taking the two principal circles corresponding to the two other values of , and any other circles forming with them an orthogonal system , as circles of reference , we can reduce the equation to the form and , exactly as in S 83 , we see that if one of the two circles be imaginary , then the discriminating quartic can have two equal roots only when in which case the equation reduces to which represents two imaginary circles .
+But if be both real , then by taking for system of reference the two principal circles , and their two points of intersection we can show that the equation may be reduced to the form the equation of the absolute being A spheri-quadric represented by an equation of this form has a finite node , viz. , the point 179 .
+Now , let us suppose the discriminating quartic to have three equal roots , then , as in S84 , we can show that if we take as system of reference the principal circle ( x ) corresponding to the unequal root , the node , and the circle ( y ) , passing through , cutting ( x ) orthogonally , and passing through the other point , in which ( x ) cuts the curve : the equation ma , be reduced to the form The point is clearly a cusp , the circle being the cuspidal edge .
+Observation.\mdash ; If we suppose two of our circles of reference to be great circles , the curves degenerate into sphero-conics .
+As from S 128 , it is clear that inversion is merely equivalent to a linear transformation , nodal and cuspidal spheri-quadrics are the inverse curves of sphero-conics .
+\mdash ; CLASSIFICATION OF SPHERI-QUADRICS .
+The method followed in Part I. for the classification of bicircular quartioe is not suited for a systematic classification of spheri-quadrics , for which see CASEY , " " On Cyclides and Sphero-Quartics , \ldquo ; chap .
+xi .
+In this memoir it is only proposed to discuss the chief properties of the curves , following the order of chap .
+vii .
+, Part Spheri-quadric .
+\mdash ; SS 180 .
+The equation of the curve is of the form and the equation of the absolute may be taken as ; .
+R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+where the coordinates of the circle at lnity are being the radii of the principal circles .
+181 .
+The coordinates of any circle touching the curve at the point ( x'y'z'w ' ) must be proportional to The equation to the tangent at the point will be , .
+The equation to the normal at the point will be , . . . . .
+( 190 ) 182 .
+The systems of bitangent circles will be given by , and the coordinates of the single foci will be given by , ( 192 ) The curve has also six double foci ( see CASEY , ' Cyclides S]30 ) , and thus the twenty-eight points of intersection of the eight common tangents of the curve al1 the circle at infinity are accounted for .
+183 .
+From the form .
+of the equations ( 192 ) , it follows that all curves given by , ( 193 ) must be confocal with the curve Subtracting these equations , we have Hence the curves cut orthogonally at their common points .
+And since equation ( 193 ) may be regarded as a quadratic in , we infer that through any point on a sphere two spheri-quadrics can be drawn confocal with a given spheri-quadric , and these two cut orthogonally .
+184 .
+We may prove exactly , as in S 123 , that the coordinates of the osculating circle at any point on the curve will be proportional to ' . . . . .
+( 194 ) and if be the radius of curvature at the point we shall have by S154 , ' .
+( 195 ) If one of the principal circles is a great circle , the corresponding foci may coincide with the centres of one of the other principal circles ; in this case the curve has been called by CASEY a ' sphero-Cartesian.\ldquo ; Thus suppose , and let one of the foci on coincide with the centre of the circle whose radius is coordi- nates of this point are \mdash ; ; and the necessary condition that the curve MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+may represent a " " Cartesian\ldquo ; is given by .
+( 196 ) .\mdash ; SS 185 .
+The equation of the curve is of the form the equation of the ) being ; where the oordinates of the circle at infinity are being the radii of the two principal circIes , and the arc between their points of intersection .
+186 .
+The coordinates of any circle which touches the curve at the point ( x'y'z'w ' ) are given by equation of the tangent at the point will be , .
+( 197 ) The equation of the normal at ( x'y'z'w ' ) will be , . . .
+( 198 ) , by ' , 187 .
+The systems of bitangent will be given by MR. B. LACHLAN ON SySTEMS OF CIROLES AND SPHERES .
+and the coordinates of the foci by ( 200 ) I88 .
+From the of these equations we see that every curve whose equation is of the form is confocal with the curve ; and subtracting we have Hence two such curves intersect orthogonally .
+We infer that through any point on a sphere two spheri-quadrics can be drawn confocal with a given nodal-spheri-quadric ; these curves will cut orthogonally .
+189 .
+If and the coefficients in the equation satisfy the relation , ( 201 ) then one of the foci on the principal circle coincides with the centre of the other principal circle , and the curve becomes a Cart , esian , having a third node .
+Cuspidal \mdash ; SS 190-192 .
+190 .
+The equation of the curve is of the form the system of reference being the principal circle , the circle orthogonal to it through the cusp and the other point , in which the principal circle cuts the curve , the cusp and the other point common to the two circles .
+If be the radii of the circles , the arc between their points of intersection , we may take the equation of the absolute as the coordinates of the circle at infinity being MR. .
+LACHLAN ON TEMS OF CIRCLES AND SPHERES .
+191 .
+The coordinates of any circle which touches the curve at the point must satisfy The equation of the tangent at will be , ( 202 ) The equation of the normal at ( x'y'z'w ' ) will be , . . . . .
+192 .
+The system of bitangent circles is given by . . . . . . . .
+( 204 ) The focus of the curve is given by .
+( 205 ) Equation of Spheri-quadric to three Circles to one of its Principal Circles.\mdash ; SS193-198 .
+193 .
+Let be one of the principal circles of a spheri-quadric ; then if are any three circles orthogonal to , the equation of the spheri-quadric must be of the form and the equation of absolute will also be of the same form .
+Hence , by subtraction , we have for the equation of the spheri-quadric , . . . . .
+( 206 ) and this is a form to which the equation of any spheri-quadric can be reduced .
+194 .
+We shall find it convenient to suppose the coordinates ( xyz ) to be equal to the powers of a point with respect to the three circles of reference ; then by S136 , equation ( 147 ) , the equation any circle orthogonal to will be given by , . . . . . .
+( 207 ) where proportional to the triangular coordinates of the pole of the circle referred to the triangle formed by the poles of the circles .
+Suppose , now , the circle given by ( 206 ) to be a bitangent circle of the spheriquadric ( 205 ) , then we must have . . . . . .
+( 208 ) Hence it follows that the poles of all bitangent circles belonging to the same system lie on a sphero-conic ; or again , the spheri-quadric ( 205 ) is the envelope of circles whose poles lie on ( 208 ) , and ] cut a given circle orthogonally .
+195 .
+If the circles are the other three principal circles of the curve ( 205 ) , we know that the equation of the curve is of the form hence the equation of the sphero-conic is Thus the sphero-conic corresponding to one principal circle is self-conjugate to the triangle formed by the poles of the other three principal ] 196 .
+Again , in the case of a nodal-spheri-quadric the equation of the curve referred to its other principal circle , and the two points in which its two principal circles intersect , is of the form so that the equation of the sphero-conic must be Thus the sphero-conic must pass through the node .
+197 .
+Let be any two bitangent circles , ( x ) the circle which passes through their four points of contact ; the equation of the curve takes the form MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHER S. and the sphero-conic be given by As a particular case , we may suppose to be the pair of great circles which can be drawn from the pole of ( w ) to have double contact with the curve , and then it follows that the centre of the sphero-conic coincides with the centre of the circle which passes through the points of contact of these double tangents : i.e. , the centre of the sphero-conic coincides with the centre of the polar circle of the centre of ?
+with respect to the spheri-quadric .
+198 .
+Taking for circles of reference any three bitangent circles orthogonal to , the equation of the curve takes the form and the equation of the sphero-conic becomes Hence , if be any point on the curve , three foci on the same principal circle , then . . . . . .
+( 209 ) Or , again , if the curve is a sphero-Cartesian , so that the sphero-conic becomes a circle , then being the centres of any three bitangent circles of the system , a point on the curve ; the tangents from to these circles ; we have , . . .
+( 210 ) being the sides of the triangle ABC .
+PART III .
+TEMS OF CHAPTER I.\mdash ; GENERAL SYSTEMS 0F The Power of two Spheres .
+199 .
+The power of two spheres is the square of the distance between their centres less the sum of the of their radii .
+Thus if any two spheres be denoted by 2 ) we shall have : where denotes their power , their radii , their angle of intersection , the distance between their centres .
+The definition is due to DARBOUX Annals de l'Ecole Normale Superieure , ' vol. 1 , lS72 ) ; it is also given in a paper to be found in CLIFFORD'S ' Mathematical Papers , ' p. 332 ; the date of which paper is assigned by the editor as 1868 ( see note on p. 332 ) .
+200 .
+If the equations of two spheres be ; we have at once for their power . . . . . .
+( 211 ) Extending the definition given in S4 , the power of a sphere and a plane may be defined as twice the perpendicular distance of bhe centre from the plane ; thus the power of the sphere and the plane will be . . . . . .
+( 212 ) And the power of two planes may be defined as twice the cosine of the angle between them .
+Also if denote the plane at infinity , any sphere , or point ( considered as a sphere of indefinitely small radius ) , we shall have ; and if be any plane , ; and also 201 .
+If we take the inverse spheres , with respect to a sphere whose centre is the origin and radius , of the spheres ; we see at once , that the power of the inverse spheres is connected with the power of the original spheres by the formula ; MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHLRES .
+whence we deduce at once , denoting the spheres by , and the inverse spheres by ( O ) denoting the origin .
+And generally , if denote either spheres , points , or plames , we infer that the expression is unaltered by inverting on the point ( O ) .
+Theorems.\mdash ; SS202-205 .
+202 .
+If we have a system of six spheres , say , their powers with respect to any other system of six spheres , say , are connected by the relation For if we multiply together the matrices 1 , we have at once the equation , , 1 , 1 ; . . . .
+( 21S ) a relation which is clearly true when any of the spheres are replaced by planes , or points , or the plane at infinity .
+203 .
+An important case is when the plane at infinity is a member of both systems of spheres ; thus taking the two systems as , , we have ; whence , if the radii of the spheres be all different from zero , and they cut at angles \amp ; c. , we have ( 214 ) ' ' ' 204 .
+If we have two systems of five spheres each , say , , then we have , 1 and hence we see that , .
+( 215 ) MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+205 .
+Again we have 1 , ; . . . . .
+( 216 ) where denotes the volume of the tetrahedron , whose vertices are the centres of the spheres .
+Again , let be the common point of the spheres ( 1 , 2 , , then if be denoted by the symbol ( 4 ) we have Thus , if be a common point of the system ( 1 , 2 , s ) , .
+( 217 ) CHAPTER II .
+SPECfAL SYSTEMS OF SPHERES .
+Sphere Cutting Four given Spheres Orthogonally.\mdash ; SS206-208 .
+206 .
+Let denote the sphere which cuts the four given spheres orthogonally ; then , since we have ; whence , by equation ( 216 ) , Hence the radius of the sphere is given by ( 218 ) 207 .
+If the radii of the spheres be all zero , and the sides of the tetrahedron be denoted by , we have at once , ' ; where Hence the radius of the sphere circumscribing a tetrahedron is equal to ( 219 ) where V denotes the lume of the tetrahedron , which agrees with the known value TODHUNTER , Spherical Trig .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+208 .
+If the four spheres meet in a point , the sphere which cuts them orthogonally will be coincident with this point , and so the radius must be zero .
+Hence , if the system have a common point , we must have .
+( 220 ) Five having Common Orthogonal Sphere .
+209 .
+Suppose the system of spheres have a common orthogonal sphere , say ; then , denoting any other sphere , the equation leads at once to the condition ; ( 221 ) which is the necessary and sufficient condition that the system may have a common orthogonal sphere .
+Similarly , if denote any other system of spheres , we should have , since ; and hence 210 .
+It is easy to prove , that if the system of spheres be such that the condition ( 221 ) is satisfied , then any four of them will be connected with any four other spheres by the relation 211 Suppose now ( x ) to denote any sphere , the equation gives us ; applying the theorem of , we have , 1 .
+But if denote the radius of the common orthogonal sphere , we have by equation ( 218 ) ; and tbus our equation becomes .
+Thus , if any five spheres have a common orthogonal sphere , and the tetrahedral coordinates of the centre of one of them , ( 5 ) say , referred to the tetrahedron formed by the centres of the other four , be , @ , then the powers of any other sphere are connected by the relation . . . . . .
+( 222 ) As a particular case , if be the centres of , any point on the sphere cutting these orthogonally , and be any other point , , , S being the tetrahedral coordinates of referred to ABCD .
+Orthogonal Systems of Spheres .
+\mdash ; SS212-214 .
+212 .
+Five spheres may be said to form an orthogonal system if they cut one another orthogonally .
+It is clear that the centres of any four must form a tetrahedron , such that the perpendiculars from the angular points on the opposite faces meet in a point , viz. , the centre of the fifth .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+If the system be denoted by , then denoting any other spheres , we have , since the formula or if the radii of the spheres be , we ( 223 ) From this we can deduce at once the formulae\mdash ; ( 224 ) where denotes any sphere .
+Also ( 225 ) where denotes any plane .
+Again , taking and as coinoiding with the plane at infinity , we have , since ; ( 226 ) whence we see that one of the five spheres is imaginary .
+213 .
+If any system of spheres , say , be given , then the five spheres , each of which is orthogonal to four of the given system , form a system , say , which may be called the " " orthogonal\ldquo ; system of the former .
+If denote any other spheres , the equation gives us ; ' which may be written .
+( 227 ) Hence denoting any sphere , radius ( 228 ) Or again , if denote any plane , ( 229 ) Also , taking and as coinciding with the plane at infinity , .
+( 280 ) A particular case would be any five points in space , and the five spheres circumscribing the five tetrahedra ; thus by equation ( 230 ) we see that the sum of the squares of the reciproca]s of the tangents from each of five points to the spheres passing .
+through the remaining four is zero .
+214 .
+A system of three spheres and their two points of intersection constitube an important system , which may be called a ' semi-orthogonal ' ' system .
+Denoting the three spheres by , and their points of intersection by , then if denote any other spheres , the equation .
+R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+becomes ; which may be written .
+( 231 ) Denoting the radu of the spheres by , and the distance between their common points by , we have\mdash ; if denote any sphere , radius ; ( 232 ) if denote any plane , ( 233 ) Also , taking and as coincident with the plane at infinity , ( 231 ) becomes tonching one 215 .
+If the system of spheres touch each other ] , the equation MJJC'CCLXXXVI .
+4 becomes , ' ' 1 , 1 , 1 , 1 , 1 1 , 1 , -1 , 1 , 1 ' 1 , 1 , 1 , -1 , 1 ' , 1 , 1 , 1 , 1 , -1 which may be written ; ( 235 ) or I6 .
+If the spheres have a common tangent sphere , which we will denote by , then the equation gives us 1 , ; ' where the positive or negative sign is to be taken with any expression , such as according as the spheres have contact with ( x ) of the same or opposite kind .
+Now if we write , in which will denote the length of the common tangent of the two spheres ) , ' direct\ldquo ; if the positive sign is to be taken , ' ' indirect\ldquo ; if the negative sign is to be taken ; then we can deduce at once from this equation the equation of condition , due to Dr. CASEY , MR. R. LACHLAN ON SYSTEMS OF CIRCLFS AND SPHERES .
+, , ( 236 ) f- , which must be satisfied if the spheres all touch the same sphere .
+Supposing this condition satisfied , the radius of the tangent sphere is easily found thus .
+Let denote the system of spheres orthogonal to the then by equation ( 228 ) we have ; hence , ( 237 ) where the radii \amp ; c. are to be taken with the positive or tive s , according as the contact is external or internal .
+CHAPTER III .
+-SPHERES CONNECTED W1TH A SYSTEM 0F FOUR SPHERES .
+In this chapter it is proposed to extend a few of the results arrived at Chapter IV .
+, Part I. The formulae for the spheres which pass through the points of intersection of four spheres , and also for the spheres which touch four spheres , will be seen to be exactly analogous to those proved for circles passing through the points of intersection of , and touching three given circles .
+In the case of a tetrahedron there does not seem to be any sphere analogous to the nine-points circle of a triangle ; special system of spheres will , however , be mentioned , which have a sphere touching their tangent spheres , but even here there is no formula , ) ecting the radius of this sphere with that of the corresponding sphere circumscribing the tetrahedron formed by the four spheres , analogous to the formula , connecting the radius of the nine-points circle of a triangle with its circumcircle .
+Spheres cutting Spheres at given Angles.\mdash ; SS 217-219 .
+217 .
+Let the given spheres be denoted by , and let their orthogonal sphere be denoted by the symbol ( 5 ) .
+Let denote any sphere cutting at the angles ; and let cut at the angle From the equation we may deduce ; whence we have \mdash ; 1 . . . .
+( 238 ) Let denote the radius of the sphere , then by the equation we have ; , 3 , 4 , , 3 , , 4 , MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND RES .
+or , , 3 , 4 ' ' .
+( 239 ) , \mdash ; 1 , , 1 , \mdash ; 1 , , 1 , , \mdash ; 1 , , 4 , 1 , , 2 , , 3 , \mdash ; 1 We infer , then , that two spheres can be to cut the given spheres at the angles , or else at angles supplementary to them .
+If the two spheres cut at the same angles , they cut the orthogonal sphere at supplementary angles , and versed ; and evidently one is the inverse of the with respect to the orthogonal sphere .
+Denoting their radii by we have and ( 240 ) where are independent of .
+We see at once , then , that the two spheres will be real , coincident , or imaginary , according as is positive , zero , or negative .
+But by equation ( 218 ) we see that the sign of is opposite to that of ; i.e. , opposite to the sign of , ccs Hence , by equation , the two spheres which cut at the angles will be real , coincident , or imaginary , according as the expression is positive , zero , or negative ; i.e. , according as is positive , zero , or negative .
+218 .
+It is evident that eight pairs of spheres can be drawn to cut the four given spheres at angles whose cosines are .
+If we denote the radii of these pairs by ; \amp ; c. , we have by equation ( 240 ) Hence we have the relation .
+( 241 ) ' 1 , \mdash ; 1 , 1 , 1 , 1 , \mdash ; 1 , 1 , 1 1 , 1 , \mdash ; 1 , 1 , 1 , 1 , \mdash ; 1 , 1 1 , 1 , 1 , \mdash ; 1 , 1 , 1 , 1 , -1 1 , 1 , 1 , \mdash ; 1 , \mdash ; 1 , \mdash ; 1 , -1 219 .
+In the case of a tetrahedron formed by four planes , the orthogonal sphere becomes the plane at infinity ; and so the pair of spheres which cut the faces at angles coincide .
+Thus eight spheres can be drawn cutting the faces of a tetrahedron at angles equal or supplemental to ; and their radu are connected by the set of equations ' . . .
+( 242 ) 1 , 1 , \mdash ; 1 , 1 , 1 , 1 , \mdash ; 1 , 1 1 , 1 , 1 , \mdash ; 1 , 1 , 1 , 1 , \mdash ; 1 1 , 1 , 1 .
+1 , \mdash ; 1 , \mdash ; 1 , \mdash ; 1 , \mdash ; 1 MR. R. LACHLAN ON SYSTEMS O CIRCLES AND SPHERES .
+A particular case is that of the eight tangent spheres , i.e. , one inscribed , four escribed to one face , three escribed to bwo faces , of a tetrahedron .
+The Spheres scribing the Formed by Spheres .
+, 221 .
+220 .
+Let the four given spheres be denoted by , .
+orthogonal sphere by the symbol ( 5 ) .
+It is evident that eight pairs of spheres be drawn .
+be the four points in which they intersect , which lie within the tetrahedron formed by the centre of the spheres .
+Let denote the sphere circumscribing PQRS .
+We have by equation ( 220 ) , Hence , by a theorem of determinants , But since we have or .
+( 243 ) Also since we have .
+( 244 ) But by equation ( 218 ) , ; and by equation ( 217 ) , ; we deduce then from ( 243 ) , that ; i.e. , denoting the radius of the sphere , and its angle of intersection with ( 5 ) by If be without the tetrahedron formed by the centres of the spheres the sign of must be changed , and thus the powers of the spheres with respect to the sphere orthogonal to can be written down .
+Also we can easily deduce from ( 244 ) , the equation , . . .
+( 246 ) where \amp ; c. are the minors of , \amp ; c. in the determinant Thus , and thus the sign of , is positive or negative according as is within or without the tetrahedron formed by the centres of the spheres .
+221 .
+The system of spheres is orthogonal to the system , and we get some interesting theorems by aid of S213 .
+Thus , by equation ( 230 ) , we have .
+( 247 ) And if denote the sphere passing through , the inverse points of with respect to ( 5 ) , we have But since are inverse with respect to ( 5 ) , ; MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+hence ; .
+( 248 ) or the sum of the reciprocals of the squares of the tangents from the points of intersection of four spheres to the spheres is equal to the reciprocal of the square of the radius of the sphere which cuts them orthogonally .
+Again , from equation ( 228 ) , ; or if ( x ) cut at angles , we have ( 249 ) Tloe Spheres which oiven Spheres .
+223 .
+222 .
+Let the given spheres be denoted by , their orthogonal sphere by ( 5 ) .
+Then denoting any sphere which touches them , we shall have by the equation ; by taking the expression , \amp ; c. , with different signs , we obtain the eight values of corresponding to the eight pairs of tangent spheres .
+The radii are given at once by the formula Thus , if be the radius of the sphere touching externally , and bc the angle at which it cuts the orthogonal sphere , we have ( 251 ) 223 .
+There is no analogous theorem , in general , to FEUERBACH'S theorem .
+In the case , however , when the given spheres cut at angles such that ; it may be shown that two spheres touching the given spheres , all externally , and the eight spheres touching three externally , or three internally , may be divided into two groups of five , each sphere of either group touching a certain other sphere .
+Thus , let the tangent spheres be denoted by , let denote the sphere which touches them .
+Suppose touches internally , and externally .
+From the equation we deduce A where By taking for , 1 , 2 , 3 , 4 , 5 in succession , can find , and then substituting in the equation obtained by putting for , we find the required condition .
+By equation we find at once , ; MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+Taking with the , we have Hence and Substituting , we must have or The coefflcient of and choosing the signs of , so as to make this vanish , we can ] show that this condition is satisfied .
+Thus if denote the spheres for which , and if denote the spheres for which , and if denote the other spheres , we see that the groups have each a common tangent sphere , which bouches or in the opposite sense to , \amp ; c. CHAPTER \mdash ; POWER-COORDINATES .
+S224-227 .
+224 .
+Since a sphere , plane , or point is completely determinate when its powers known with respect to any five spheres not having a common orthogonal sphere , we may define the coordinates of a point ( sphere or plane ) , referred to such a system of spheres , as multiples , the same or different , of the powers of the point with respect to them .
+Thus if ) be the coordinates of any point , whose C.artesian coordinates are , we shall have proportional to where ( abc ) is the centre of the sphere of reference , .
+the adius .
+Thus ( xyzw ) are quadric functions of a particular form of the Cartesian coordinates of the centres of the spheres of reference .
+We shall find it convenient to restrict the use of to denote the coordinates of a point ; the coordinates of a sphere will be denoted by ; and the coordinates of a plane by .
+225 .
+Let us denote the system of reference by ; then if be the coordinates of point , we see that , denoting as usual the plane at infinity , so that , then , since , the coordinates of must satisfy a homogeneous quadric elation nd a non-homogeneous linear relation Let us suppose the coordinates of efined by the equations Then the quadric relation which must satisfy is .
+R. , ACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+' ' ' This is called the equation of the : we will denote it by , ( 253 ) where , \amp ; c. ; and then the linear relation which ( xyzw ) must satisfy , may be expressed thus .
+( 254 ) 226 .
+If be the coordinates of any sphere , , we see that , since the coordinates of must satisfy a non-homogeneous linear relation which may be written .
+( 255 ) 227 .
+Again , if denote any plane whose coordinates are , since , we see that the coordinates of must satisfy a linear homogeneous equation and .
+non-homogeneous quadric relation , viz. , which may be written ( 256 ) and II which may be or . . . . . . . .
+( 257 ) The Sphere .
+S228-231 . .
+Let be any point on the sphere whose coordinates are , then since , and we see that the equation of the sphere is ; and hence the general equation of the first degree , will , in general , represent a sphere , whose coordinates are given by , . . . .
+( 258 ) by equation ( 255 ) .
+229 .
+Given any two spheres , their power is , since given by .
+( 259 ) MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHLRES .
+In particular the radius of the sphere will be given by 230 .
+Hence the radius of the sphere is given by , .
+( 261 ) where We shall find it ient to denote the bordered Hessian of by ; and suppose the coefficients so determined that we may express equation ( 261 ) . . . . .
+( 262 ) 231 .
+The power of the sphere with respect to the sphere is clearly given by ( 263 ) and the power of the two spheres is clearly given by .
+And so the angle of intersection of the spheres will be given by The Plane.\mdash ; .S232-235 .
+232 .
+If be any plane , ( xyzw ) any point on it , we have at once , since But by ( 256 ) ; hence the equation will represent a plane when .
+( 265 ) And if this condition be satisfied , we have to determine its coordinates , , ( 266 ) where is defined by equation ( 262 ) .
+233 .
+The power of the sphere and the plane is given by ; therefore ( 267 ) 234 .
+The angle of intersection of the planes will be given by .
+( 268 ) MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES . .
+The coordinates of the plane at infinity are clearly , and so the equation of the plane at infinity is The .\mdash ; SS236-238 .
+236 .
+The power of the point with respect to the surface win be equal to ' if the surface is a sphere , and will be equal to if the surface is a plane .
+237 .
+The power of the two points , ( x'y'z'w'v ' ) wilI be given by Hence , since the distance @ between the two points will be given by . . . .
+( 269 ) 238 .
+Let be any four points , then by equation ( 216 ) we have for the volume of the tetrahedron formed by them , and by S204 , If then the coordinates of referred to ( 1 , 2 , ; 3 , 4 , 5 ) be , we see that we shall have ( 270 ) where Coordinate of \mdash ; SS 2.39 .
+The most conyenient system of reference is five spheres which are mutually orthotomic : this may be called the orthogonal system .
+If are the radii of five such spheres , it is simplest to take , the , coordinates of the plane at infinity , as inversely proportional to them .
+In this case we shall have , by S212 , . . . . .
+( 271 ) Thus the angle between the spheres will be given by 240 .
+It is , however , very often convenient to take as the system of reference three spheres cutting orthogonally , and their two points of intersection .
+And then if be the radii of the spheres , the distance between their points of intersection , it is simplest to take , the coordinates of the plane at infinity , as inversely proportional to : so that we shall have by S 214 , ; ( 272 ) so that the angle between the spheres will be give1l by MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+60.3 CHAPTER V.\mdash ; GENERAL EQUATTON 0F THE SECQND DEGREE 1N POWER-COORDINATES .
+Nature of the Surface.\mdash ; SS241 , 242 .
+241 .
+The most general equation of the second degree in power-coordinates may be written and since the coordinates of any point must satisfy the equation of the absolute , which is also of the degree , we see that this equation contains only 14 constants .
+Now denoting Cartesian coordinates of a point , can express the powercoordinates ( xyzw ) of the point as linear functions of , X , , 1 ; and if we substitute for ) , the equation becomes of form where is of the first degree , of the second degree in ; this equation has 14 constants , and represents a surface having the circle at infinity as a nodal curve , and is usually called a cyclide .
+It thus appears , is a form to which the equation of every cyclide can be reduced : 242 .
+It is also evident that , since the equation of every plane is isfied by the coordinates of the plane at infinity , the surface will represent a cubic surface and the plane at infinity , if the equation be satisfied by the coordinates of the plane at infinity .
+Such surfaces been called cubic cyclides they intersect the plane at in the imaginaly circle , , also a straight line .
+at 243 .
+If be the coordinates of any sphere touching the eyelide at the point ( x'y'z'w'v ' ) , we must have And thus the equation of any tangent sphere is of the form , Hence the equation of the plane at the point is .
+( 274 ) 244 .
+The sphere given by the equation ' will clearly touch the cyclide at the point if in which case must satisfy the quintic , ( 275 ) where denotes the Hessian of We infer , then , that there are in general five systems of bitangent spheres of a cyclide ; i.e. , of the whole number of tangent spheres at any point of the surface five touch the surface elsewhere .
+Moreover it is evident that the system of bitangent spheres corresponding to a particular root of ( 275 ) all a certain fixed sphere orthogonally , the coordinates of this sphere being proportional to the minors of constituents of any row in the determinant .
+245 .
+If the coordinates of a bitangent sphere satisfy the absolute , i. e. , if the radius of the sphere be indefinitely small , the sphere may be considered as a focus .
+It is evident that the foci belonging to any system of bitangents will form a curve of the second degree on the corresponding orthogonal sphere .
+Such a curve will be a spheriquadric .
+246 .
+If the coordinates of a bitangent sphere satisfy the condition , for a plane , the corresponding equation will represent a double tangent plane ; and its coordinates .
+R. LACHLAN ON SYSTEMS OF CIRCLES AND S. must satisfy an equation of the second degree , and thus we shall have a double tangent oone corresponding to each system of bitangent spheres , the vertex of the cone being the centre of the sphere which cuts the particular system of bitangents orthogon lly .
+247 .
+Again , it is clear that if by any transformation the equation of the surface becomes , and the equation of the absolute , then the same value of satisfies must also satisfy ; and hence the coefficients of the powers of in the equation are invariants .
+Equation of at Point.\mdash ; SS 248-250 .
+248 .
+Let be the coordinates of any sphere which cuts the surface orthogonally at the point ( x'y'z'w'v ' ) , we must have for all values of It follows that if be any plane containing the normal to the cyclide at the point ( x'y'z'w'v ' ) , we must have 249 .
+If we take as our system of reference an orthogonal system of spheres , , then , by forming equations to planes containing normal at and passing through the centres of the spheres of reference , we easily obtain for the equations of the normal , . . . .
+( 277 ) 250 .
+Again , from ( 277 ) , we see that if a sphere cut the cyclide normally at the point , we must have If then be chosen , so that MR. R. LACHLAN ON SYSTEMS OF CIli CLES AND say , then the sphere will cnt the cyclide orthogonally at every point of its curve of intersection .
+We see at once that must satisfy the equation and thus there are five such spheres ; and the coordinates of the sphere which corresponds to a particular value of are proportional to the minors of the constituents of any row in the determinant .
+These spheres are evidently the same as those which were mentioned in S244 , as orthogonal to the five systems of bitangent spheres .
+We can easily prove by similar process to that in S , that any two of these spheres cut orthogonally .
+They may be called the principal spheres of the surface .
+The Principal Spheres:\mdash ; SS 251 , 252 .
+251 .
+By S244 , we see that at every on the surface of a cyclide can be drawn a tangent sphere cutting one of the principal spheres orthogonally , and touching the surface elsewhere ; and ) it follows that the surface must be its own inverse with respect to each principal sphere .
+Hence these species of surfaces have been called by MOUTARD matic surfaces , and the principal spheres have been called by CASEY the spheres of inversion .
+We have seen that the principal spheres cut the cyclide orthogonally , and it is evident that at points along the curve of section the corresponding bitangent sphere will not touch the cyclide elsewhere , but the curve of section will be a line of curvature on the cyclide .
+252 .
+If a lide have a node , then , by the principle of inversion , this node must lie on each principal sphere ; and thus in this case there can be but three principal spheres , and the node will be one of their points of intersection .
+If a cyclide have two nodes , they must be the two points of ' of the three principal spheres , and any other two spheres forming with these an prthogonal system may be regarded as principal spheres ; this case corresponding to that of a quadric of revolution .
+Similarly if the cyclide have four nodes they occur in pairs , and lie on the only principal sphere ; but if we denote the nodes by ; and the principal sphere by ; then any pair of spheres orthogonal to and passing through which with any pair orthogonal to and passing through , make up an orthogonal system , may be considered as principal spheres .
+But if a cyclide have three nodes , then there are only three principal spheres .
+There are also cyclides with only two , and with only one principal sphere .
+MR. R. LACHLAN ON SYSTEMS OF AND SPHERES .
+Reduction of the Equation to its Simplest Form.\mdash ; SS253-255 .
+253 .
+We have seen that the number of principal spheres is the same as the of roots of the discriminating quintic .
+Thus in general there are five principal spheres , and have seen that these cut orthogonally , and it clear that if we take these spheres as our system of reference , we can express the equation of the cyclide in the form* ; and we might expect , perhaps , that this equation would still be the simplest form , when two or more roots of the equation are equal .
+But five orthogonal spheres cannot be all real , one must be imaginary ; and we shall find that if one of the principal spheres corresponding to the unequal roots is imaginary , then this form is the simplest form of the equation ; but if all the spheres corresponding to the unequal roots are real it is not the simplest form .
+254 .
+Let us suppose that two of the roots of are equal ; then , taking for our system of reference the three principal spheres , say corresponding to the unequal roots , and any two other spheres forming with them an orthogonal system , we can at once reduce the equation of the surface to the form ; : the discriminating quintic is which can only have equal roots provided ; i. e. , supposing is real .
+Thus , supposing one of the three spheres to be imaginary , so that must be real , the equation can be reduced to the form or since the equation of the absolute is the equation of the cyclide can be put in the form ; and we see that each of the points common to is a node ; thus the has two nodes ; and , moreover , any two spheres which with make up an orthogonal system may be taken as principal spheres .
+Similarly , if the sphere ( x ) be imaginary , and the discriminating quintic has two pairs of equal roots , the equation can be reduced to the form ; equation of a cyclide wfis first given in this form by CASFCY ( 18/ 1 ) ] .
+, 1886 .
+and we see that each of the points , and , are nodes ; this surface is therefore quadrinodal .
+Let us now suppose that each of the spheres is real , so that the coefficient must be imaginary .
+It is simplest to take for system of reference the three principal spheres and their two points of intersection , so that the equation of the absolute is The equation becomes now which has equal roots if either or , so that the equation may be reduced to the form ; or by means of the absolute to the form The surface represented by this equation has only three principal spheres and it has one node , viz. , Similarly , if the discriminating quintic have two pairs of equal roots , and the sphere correspond to the unequal root , we can show that being real , the equation can be reduced to the form ; which represents a surface having three nodes , viz. , the point ( w ) and the points common to the spheres being such that they form with an orthogonal system .
+255 .
+Let us now suppose that three of the roots of the quintic are equal .
+Taking for spheres of reference corresponding to the remaining roots , and any other spheres forming with an orthogonal system , then the equation of the surface must take the form and the equation of the absolute the form ; so that the discriminating quintic becomes MR. R. LACHLAN ON SYSTEMS OF CIBCLES AND SPHERES .
+This can only have equal roots if the coefficients are real , and then we must have In this case one of the spheres must be imagina1y , and so the equation reduces to which clearly represents two spheres .
+Similarly , if the quintic has four equal roots .
+and be imaginary , the equation will reduce to which represents the imaginary sphere Let us now suppose the spheres to be real , then let us take any sphere cutting them orthogonally , and let be the two points of intersection of : so that the equation of the absolute is citnd the discriminating quintic becomes ; which can only have equal roots provided that ; and then the equation takes the form By taking , tead of , the sphere , this equation may clearly be reduced to the form The surface represented by this equation has the point for a : if or is zero , the node is a Again , if the equation has four equal roots and the sphere corresponding to the remaining root is real : let us take this sphere as , and let us take for our system of reference any two spheres and the two points in which the spheres intersect , so that the system is semi-orthogonal : then the equation of the surface must be of the form ; .
+R. LACHLAN ON SYSTEMS OF CIRCLES AND SpHERES .
+and since the absolute is of the form the discriminating quintic becomes This can only have .
+equal roots if Thus the equation can be reduced to the form This may also be written ; and by suitably choosing for spheres of reference instead of this equation can evidently be reduced to the form The point is a node on the surface : it is in general a cnic-node ; but if it is a binode , and if it is a unode .
+Thus there are four distinct forms of cyclides : their equations can be reduced to one of the four ( A. ) ; the absolute being There are five principal spheres : if there are two nodes , and if there are four nodes .
+( B. ) the.absolute being This is the general inverse of a quadric surface : there are three principal spheres and one cnic-node .
+If there are three cnic-nodes , this is the inverse of a quadric of revolution .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+Gll the absolute being This surface has two principal spheres and a binode .
+If there will be two other nodes .
+( D. ) the absolute bein This surface has only one principal sphere a cnic-node .
+Also , since the general equation represents a cubic cyclide , when it is satisfied by the coordinates of the plane at infinity , it follows that the equation of a cubic cyclide can always be reduced to one of the four forms given above .
+CHAPTER 0F CYCLIDES .
+Cyclides have been classified by DARBOUX and CASEY to the nature of the focal quadrics .
+We shall find it more convenient here to discuss the different forms of cyclides in order , according to the number of different roots which the discriminating quintic has .
+We have seen that there are four distinct fornns to which the equation of a cyclide may be reduced ; it is proposed to discuss briefly the different species represented by similar equations , and a few of their properties .
+A. The General Cyclide.\mdash ; SS256-264 .
+256 .
+The equation of the surface is of the form the equation of the absolute being ; and the coordinates of the plane at infinity , i.e. , the of the radii of the five principal spheres .
+257 .
+The coordinates of any tangent sphere at the point must satisfy Hence the equation to the tangent plane at the point ( x'y'z'w'v ' ) is , ( 278 ) and the equations to the normal at the point ( x'y'z'w'v ' ) are , by ' , . . . . . .
+( 279 ) 258 .
+The five systems of bitangent spheres are given by : ; ( 280 ) and the five systems of foca,1 spheri-quadrics by ( 281 ) and similar equations .
+These curves have evidently , for their principal circles on the sphere , the circles in which the sphere cnts the other principal spheres of the surface .
+259 .
+From the form of the equations of the focal curves , it is clear that any surface represented by the equation ( 282 ) MR. R. LACHLAN ON SYSTHiMS OF [ RCLES AND SPHERES .
+has the same principal spheres and the same focal curves as the surface ; and subtractin , we have and therefore the spheres whose coordinates are respectively proportional to ; and ' ; cut orthogonally ; but these spheres evidently touch the surfaces at a common point ; hence , confocal cyclides cut orthogonally .
+And since the above equation ( 282 ) is a cubic in , it follows that through any point can be drawn three cyclides confocal with a given cyclide , and these surfaces cut orthogonally .
+Or , again , let us determine so that ( 282 ) represents a cubic cyclide ; then we see that three cubic cyclides can , in general , be drawn having the same focal curves as a given quartic cyclide , and these cubic cyclides cut orthogonally .
+Or , if the given cyclide is a cubic cyclide , three quartic cyclides can be drawn with the same focal curves through any point ; and two other cubic cyclides can also be drawn with the same focal curves .
+260 .
+Let be any sphere ; this will cut orthogonal]y one of the bitangent spheres at the point ( x'y'z'w'v ' ) of the surface if Hence , given any sphere , a series of bitangent spheres belonging to any system can be drawn , cutting orthogonally , their points of contact lying on the curve in which the cyclide is cut by the sphere which may be called the polar sphere of with respect to the cyclide .
+There are five such polar spheres for any sphere , each cutting one of the principal spheres orthogonally , and each one clearly intersects in points lying on the sphere ; i.e. .
+the fiv , polar spheres of any sphere have with a common radical plane .
+261 .
+If , then the equation of the cyclide may be written It has clearly two cnic-nodes : the points common to ; and we have seen in S254 that one of these spheres is imaginary .
+Also , the surface has three distinct principal spheres ; but any pair of orthogonal spheres cutting orthogonally may clearly be considered as principal spheres .
+The case corresponds to that of a quadric of revolution .
+The coordinates of a bitangent sphere at the point must satisfy the equations There only three systems of bitangent spheres , viz.:\mdash ; ( 283 ) The focal curves on the principal spheres will be circles ; they are given by ( 284 ) 262 .
+Again , if , we have seen that the cyclide has four cnic-nodes , and one principal sphere , which is imaginary .
+There is one system of bitangent spheres , given by .
+( 285 ) . .
+Let us suppose now the radius of one of the principal spheres to be infinite , say ; the corresponding focal curve is a plane bicircular quartic , its equation being ( 286 ) MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+And this plane must clearly pass through the centres of the other spheres .
+Suppose now this curve to represent a circular cubic , then .
+( 287 ) The curve then passes through the centres of the principal spheres ; and since these points will then satisfy the condition of being foci , the imaginary circle at infinity must be a cuspidal edge on the cyclide .
+A cyclide of this nature is called a Cartesian .
+264 .
+If the coefficients of the equation are connected by the relation the surface represents a cubic cyclide .
+Regarding this as the general cubic cyclide , we see that it passes through the centres of its five principal spheres .
+The equation of the tangent plane at the centre of the sphere , being ; ( 288 ) which is clearly parallel to the plane Thus the tangent planes to the cyclide at the centres of its five principal spheres are all parallel , and they may be regarded as the five tangent planes to the cubic from the line at infinity on the surface .
+( B. ) General Nodal yclide .
+\mdash ; SS 265-271 .
+265 .
+We have seen in S 253 , that the equation of a cyclide having one node can be expressed in the form The system of reference being three orthogonal spheres and their two points of intersection : so that the equation of the absolute is ; Mfl .
+B. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+the coordir)ates of the plane at infinity being , where are the radii of , and the distance between .
+The point is a cnic-node .
+266 .
+The coordinates any tangent sphere at the point must satisfy So that the equation of the tangent plane at .any point is ; ( 289 ) and the equations of the normal at are . . . . . .
+( 290 ) , by ' , ' 267 .
+The three systems of bitangent spheres are given by : ; ; ; ( 291 ) ; the focal curves are given by : ; ; ( 292 ) and similar equations .
+Thus the focal curves are nodal spheri-quadrics on bhe three principal spheres .
+MR. ON OF CIRCLES AND SPHERES .
+26@ .
+From the form of the equations of the focal curves we infer that all surfaces represented by the equation are confocal with the surface and we infer that given any cyclide having one cnic-node , through any point other cyclides can be drawn having the same node and the same focal curves : and these cyclides cut orthogonally .
+We also see , by choosing so that that three cubic cychdes can be drawn having the same node and focal curves as a given nodal quartic cyclide .
+269 .
+If we have , we have seen that the equation represents a trinodal cyclide , being one node : its equation may also be written or where is a sphere passing through the other nodes , but in this case the equation of the absolute will not be so simple .
+Taking the first form of the equation we see that the system of bitangent spheres is given by ; ; ( 298 ) and the corresponding focal curve by ; , ( 294 ) which is a circle on the principal sphere 270 .
+If one of the principal spheres , say , become a plane , the corresponding focal curve is a plane noda ] bicircular quartic , and if it pass through the centres of the other two principal spheres , we have 5 and if this be satisfied the surface has the circle at infinity for a cuspidal edge ; and so may be called a nodal-Cartesian .
+271 .
+If the coefficients in the equation are connected by the relation the surface represents a nodal circular cubic .
+It clearly passes through the centres of the three principal spheres , and the tangent planes at these points are parallel to the plane ; and so the tangent planes at the centres of the principal spheres are the tangent planes drawn from the line at infinity on the surface .
+( C. ) Cyclides having .\mdash ; SS272-276 .
+272 .
+The general equation of a cydide having two principal spheres and a binode can , by S254 , be expressed in the form ; the system of reference being the two principal spheres and the sphere ( z ) passing through the node , and cutting orthogonally in the points , the equation of the absolute being and the coordinates of the plane at infinity 273 .
+The coordinates of any tangent sphere at the point ( x'y'z'w'v ' ) , must satisfy The equation of the tangent plane at the point ( x'y'z'w'v ' ) will be .
+( 296 ) MR. R. LACHLAN ON SYSTEMS OF AND SPHERES .
+The equations of the normals will be . . . . . .
+ax ' , 274 .
+The two systems of bitangent spheres are given by ; ( 298 ) ; and focal curves are given by ; and ( 299 ) ; 275 .
+Let us suppose the sphere to be of infinite radius , then the corresponding focal curve will pass through the centre of the principal sphere , when \mdash ; \mdash ; ; ( 300 ) and then the surface will represent a Cartesian having a binode .
+276 .
+The surface will represent a cubic cyclide , having a binode when In this case the surface passes through the centres of the two principal spheres , and the tangents at these points are parallel to the plane and so are the tangent planes drawn through the line at infinity on the surface .
+MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+D. Nodal Cyclides , with One Principal Sphere.\mdash ; SS277-280 .
+277 .
+If the cyclide have only one principal sphere , we have seen , in S255 , that its equation may be reduced to the form where is the principal sphere , the node , and two other spheres cutting and each other orthogonally , and cutting in the points .
+The equation of the absolute being and the coordinates of the plane at infinity ; we have seen that the node is in general a cnic-node ; but it is a binode if , and a unode if 278 .
+The coordinates of any tangent sphere at the point satisfy The equation of the tangent plane at ( x'y'z'w'v ' ) will be .
+( 301 ) The equations of the normal at ( x'y'z'w'v ' ) are .
+( 302 ) 279 .
+The system of bitangent spheres is given by , ( 303 ) .and the corresponding focal curve is given by , ( 304 ) R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+Z@O .
+If the surface represented by the equation be a cubic surface , which passes through the centre of the principal sphere , the tangent at which point is parallel to the plane and tefore passes through the line On the surface at infinity .
+MISCELLAN OUS THEOREMS .
+Equation of Cyclide referred to Spheres to Princi ) SS281-285 .
+281 .
+Let the system of spheres ( xyzw ) be such that is a principal sphere of a cyclide ; then its equation must take the form and if be orthogonal to the system ( xyzw ) , then the equation of the absolute must also be of the form Hence , by subtraction , we see that the equation of a cyclide can always be written in the form ; .
+{ 305 the system of reference being four spheres , points or planes orthogonal to a principal sphere .
+Now , the equation of any sphere orthogonal to this same principal sphere is of the form , . . . . .
+( 306 ) where , by S211 , equation ( 222 ) , , Smust be proportional to the tetrahedral coordinates of the centre of the sphere , referred to the tetrahedron formed by the centres of ( xyzw ) , provided that ( xyzw ) the coordinates any point the powers of the point with respect to the system .
+Suppose now that the sphere given by ( 306 ) is a bitangent sphere of , then clearly we must have .
+( 307 ) , @ , @ , Hence the locus of the centres of all bitangent spheres of the system orthogonal to is the quadric surface given by ( 307 ) .
+This surface is caUed by CASEY the " " focal quadric We see that the focal curve on the principal sphere is the curve of intersection of the sphere with the focal quadric .
+282 .
+The surface ( 305 ) is a cubic cyclide , if it is satisfied by the coordinates of the plane at infinity ; it follows that when this is the case the quadric ( 307 ) is touched by the plane at infinity , and , therefore , the focal quadrics of cubic cyclides are paraboloids .
+283 .
+If we take for our spheles of reference the other four principal spheres , the equation of the cyclide takes the form and then the focal quadric is given ; so that the tetrahedron formed by the centres of any four principal spheres of a cyclide is self-conjugate with respect to the focal quadric corresponding to the fifth .
+284 .
+In the case of a Cartesian , he focal quadrics must be spheres : hence , if be the centres of four bitangent spheres which we will take for our spheres of reference , then since the focal quadric must be of the form where are the sides of the tetrahedron ABCD , the equation of the cyclide will be ; . . . . .
+( 308 ) MR. R. LACHLAN ON SYSTEMS OF CIRCLES AND SPHERES .
+where ( xyzw ) are the squares of the tangsnts from any point on the surface , to the four bitangent spheres .
+285 .
+By S260 we can draw a series of bitangent spheres belonging to each system orthogonally to any sphere , and the points of contact of each series lie on a sphere which cuts the principal sphere belonging to that series of bitangent spheres orthogonally , and may be called the sphere of the given sphere with respect to the cyclide .
+Now let be an three bitangent spheres cutting a fixed sphere orthogonally , and let be the corresponding polar sphere of , the equation of the cyclide must take the form and the corresponding focal quadric will be Thus the polar of the centre of with respect to the quadric is the plane passing through the centres of As a particular case we may suppose replaced by the centre of the principal sphere , so that become double tangent planes ; the plane S0 is now at an fioite distance , and so we see that the centre of the polar of the centre of the principal sphere with respect to the cyclide is also the centre of the corresponding focal quadric .
+And also the asymptotic cone of the quadric cuts orthogonally the double tangent cone from the centre of the corresponding principal sphere .
+to a Cyclide from any .
+\mdash ; SS286 , 287 .
+286 .
+The problem of drawing normals to a cyclido has been extensiyely discussed by DARBOUX ( ' Sir un Class remarquable de Courbes et de Surfaces Algebriques .
+' Note XI To find the number of normals which can be drawn from any point he proceeds thus : Let be any tangent sphere to the cyclide then since we have the equations and Now suppose then substituting and eliminating , we have clearly an equation of the twelfth degree in ; hence we infer that twelve spheres can be drawn through the circle common to the spheres S to touch the cyclide .
+We may deduce from this that through any straight line can be drawn twelve tangent planes to the cyclide , or a cyclide is in general of the twelfth class .
+And , again , taking proportional to respectively , we see that twelve spheres can be drawn to touch the cyclide , having their centres coincident with the point ( xyzw ) .
+Hence twelve.normak can be drawn to the cyclide from any point .
+287 .
+In S257 , equations ( 279 ) give the normal ai the point ( x'y'z'w'v ' ) of the cyclide and we infer that the feet of the normals from the point ( x'y'z'w'v ' ) lie on the cubic surfaces : , , . . . .
+( 309 ) Now , being the equation of the absolute referred to any system of spheres , any three cyclides ; let us form the discriminating quintic of ; then we can so choose the ratios : that three of the roots of this quintic shall be zero ; and thus the equation will represent two spheres .
+To determine the ratios we obtain three equations of the fifth , fourth , and third degrees respectively .
+Hence through the common points of three cyclides a pair of ) can be drawn in sixty ways .
+Let us suppose now that certain of the feet of the tvvelve normals from th point ( x'y'z'w'v ' ) lie on the ) then the rest must lie on another sphere which we may denote by MR. R. LACHLAN ON AND S. and then it must be possible so to choose that the equation , ( 310 ) shall be identical with any one of the cubic cyclides given by ( 308 ) .
+We have at once then Consequently through the feet of the twelve normals from ) can be drawn a spheres , such that being the coordinates of one of them , ' ' ' ' must be proportional to the coordinates of the other .
+Also equation ( 310 ) must represent a cubic : hence we must have So that if the given surface is a cubic cyclide , one of these spheres on which the feet of the normals lie must be of infinite radius .
+

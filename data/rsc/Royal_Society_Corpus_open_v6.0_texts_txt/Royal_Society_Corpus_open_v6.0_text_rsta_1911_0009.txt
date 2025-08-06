@@ -1,0 +1,858 @@
+]\gt ; [ 307 ] IX .
+The Approximate Arithmetical Solution by Finite Di.fferences of Physical Problems involving Differential Equations , with an Application to the Stresses in a Masonry Dam .
+L. F. RICHARDSON , King 's College , mbridge .
+Cornrnunicated by Dr. R. T. GLAZEBROOK , F.R. Received ( in revised form ) Noyember 2 , 1909 , \mdash ; Read January 13 , 1910 .
+S1 .
+INTRODUCTION.\mdash ; S10 .
+The object of this paper is to develop methods whereby the differential equations of physics may be applied more freely than hitherto in the approximate form of difference equations to problems concerning irregular bodies .
+Though very different in method , it is in purpose a continuation of a former paper by the author , on a " " Freehand Graphic Way of Determinin Stream Lines and Equipotentials\ldquo ; ( ' Phil. Mag February , 1908 ; also 'Proc .
+Physical Soc London , vol. xxi And all that was there said , as to the need for new methods , may be taken to apply here also .
+In brief , analytical methods are the foundation of the whole subject , and in practice they are the most accurate when they will work , but in the integration of partial equations , with reference to irregular-shaped boundaries , their field of application is very limited .
+Both for engineering and for many of the less exact sciences , such as biology , there is a demand for rapid methods , easy to be understood and applicable to unusual equations and irregular bodies .
+If they can be accurate , so much the better ; but 1 per cent. would suffice for many purposes .
+It is hoped that the methods put forward in this paper will help to supply this demand .
+The equations considered in any detail are only a few of the commoner ones occurring in physical mathematics , namely : equation ; the oscillation equations and ; and the equation But the methods employed are not limited to these equations .
+The Number of Independent Variables.\mdash ; In the examples treated in the paper this never exceeds two .
+The extension to three variables is , however , perfectly obvious .
+One has only to let the third variable be represented by the number of the page of a book of tracing paper .
+The operators are extended quite simply , and the same ( 467 .
+) 24.5.10 methods of successive approximation apply .
+But , of course , the labour would be greatly increased .
+S .
+Finite differences have , in themselves , but little importance to the student of matter and ether .
+They are here regarded simply as a makeshift for infinitesimals ; and the understanding is always that we will eventually make the differences so small that the errors due to their finite size will be less than the errors of experiment or practical working , and may therefore be disregarded .
+That it is possible to make them small enough without much labour is illustrated by examples given hereafter .
+In quence of this point of view , the notation employed for finite differences is very similar to that for infinitesimal differences .
+Thus and are differential operators , ] S and 6 are the corresponding finite difference operators .
+The oftoccurring symbol is represented in finite differences by The differences employed are " " central differences that is to say , they are considered as existing at the centre of the group of co-ordinate points from which they are derived .
+In this respect the notation differs from that used and defended by BOOLE ( ' Calculus of Finite Differences , ' Art .
+14 ) , in which is considered to exist at one end of the set of quantities which contribute to its value .
+The differencing operator S and averager are defined by S . . . . .
+( 1 ) , . . . . .
+( 2 ) , where is the co-ordinate diflerence .
+SHEPPARD shows that , S , and combine with one another according to the ordinary rules of algebra .
+In this paper the differential coefficient will be approximately represented when is even by at the tabular points , and by half-way between the tabular points .
+That is to say , these difference ratios are taken in place of the differential coefficients , and the error caused by so doing is left for consideration until after the difference equation has been solved .
+When is odd , the symbolic expressions given above for at tabular and at half-way points are simply interchanged .
+The representation is closer when the averager need not be intro- duced .
+Partial differential coefficients are represented by the difference ratios found by performing the above operations with and S for each independent variable in turn .
+It will be convenient to have the representation of some of the commonest differential coefficients set forth explicitly .
+Lot be a function of and , and let lines be ruled on the plane parallel to the axes at equal distances , of and , so as to divide the surface into a number of equal squares each of side units .
+Let the arithmetical value of at the centre point of each square be written down in the square , forming a table of double entry .
+* W. F. SHEPPARD , " " Central-Difference Formulae ' Proc. Lond. Math. Soc vol. xxxi .
+, p. 460 .
+BY FINITE DIFFERENCES OF PHYSICAL PROBLEIMS , ETC .
+Let , , \amp ; c. , for example , represent these numerical values at the co-ordinate points , \amp ; c. , reckoned from the centre of an arbitrarily chosen square as origin .
+Then at any tabular poin will be represented by , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , Thus is the sum of the four nearest neighbours minus four times the value at the point considered .
+will be represented by and Halfway between two tabular points , say at will be represented by { ( 10)-(00 ) } .
+In the centre of four tabular values , , at will be represented by A point at which the difference equation obtaining throughout the body has to bs satisfied will be called a body-point .
+There must be enough known values of the integral on the boundary side of any body-point to make the said difference equation completely determinate .
+Thus for there must be at least one layer of points with known values of on all sides of any body-point , at least two layers .
+It will be seen in S4 that at re-entrant angles a may have sufficient known values outside it and yet not be a body-point , because the body-equation is not to be satisfied there .
+A point at which the body-equation is not satisfied , but at which there is a value of which enters into the system of body-equations by way of the boundary-conditions will be called a boundary-point .
+The values of any function of position at these two classes of points will be distinguished as body values and boundary values , or synonymously as body-numbers and boundary-numbers .
+Problems are divided into two main classes according as the integral can or cannot be stepped out from a part of the boundary .
+They are discussed in and S3 respectively .
+S12 .
+due to Finite Differences.\mdash ; Having solved an equation using the simple expressions of S for the differential coefficients , it remains to enquire how much in error the integral may be .
+A rule of apparently universal application is to take smaller co-ordinate differences and repeat the integration ; and , if necessary , extrapolate in the manner explained below .
+It is known*that when central differences are used , the expansions of the differential coefficients of a function in terms of its differences contain only alternate powers of the co-ordinate difference .
+The same is true for partial differential coefficients and for products of differential coefficients .
+Consequently the error of the representation of any differential expression by central differences is of the form terms in higher powers of , where \amp ; c. , are independent of Next , as to the error of the finite-difference-integral .
+This is the infinitesimal integral of a differential equation having the error , \amp ; c. Let be the integral of the correct equation .
+Then , if we write terms in higher powers of , it follows that a differential expression of any order and degree for differs from the corresponding one for by ( a function of the differential coefficients of and of ) terms in \amp ; c. , provided only that is independent of the co-ordinates .
+identifying with it follows that : the errors of the and of any differential expressions derived from it , due to using the simple central differences of S instead of differential coefficients , are of the form , \amp ; c. Consequently , if the equation be integrated for several different values of extrapolation on the supposition that the error is of this form will give numbers very close to the infinitesimal integral .
+When is small enough the error is simply * W. F. SHEPPARD , " " Central-Difference Formulae ' Proc. Lond. Math. Soc vol. xxxi .
+( 1899 ) .
+[ Note added January 21 , 1910.\mdash ; It is assumed that the -ordinate axes in the tables which are compared are parallel , for the error al a fixed point and for a fixed value of may depend on the direction of the axes.1 BY FINITE DIFFERENCES OF PHYSICAL PROBLEMS , ETC .
+proportional to .
+Pecu]iarities present themselves on the boundary , but it is easy to see that errors will be of the form , \amp ; c. , provided that in passing from one table to another each part is either kept infinitesimally correct , or else is worked by differences whose size in the one table bears a constant ratio to that in the other .
+An extrapolation can only be made where the tabular points of the several tables coincide with one another .
+It is conceivable that in the future some method will be found of defining a continuous function in terms of the discrete body and boundary values , so that this continuous function shall have an error of the form , \amp ; c. , everywhere .
+Extrapolation would then be possible everywhere .
+An excellent illustration is afforded by Lord RAYLEIGH'S account of the vibration of a stretched string of beads Sound , .
+He gives the frequency of the fundamental for the same mass per unit length concentrated in various numbers of beads .
+This is reproduced below in the table .
+The co-ordinate difference is inversely as one plus the number of beads , not counting beads at the fixed ends .
+Ratio orequency that otrbciooenranusdiotsnaus string bring o The degree of constancy of the last line shows that if we found the frequency for one bead and for three , then extrapolation , on the assumption that the error is proportional to , would give us the frequency for the continuous string to about one part in 1000 ; which is as near as we could get by twenty beads and no extrapolation .
+While extrapolation from the exact solutions for four beads and for nine would leave an error of only one in 50,000 .
+Other examples of extrapolation will be found in S31 .
+S 2 .
+Procedure when the Conditions allow the to be out from Part of the Boundary .
+82-by-step arithmetical methods of solving ordinary difference ttions have long been employed for the calculation of interest and annuities .
+Recently their application to differential equations has been very greatly improved by the introduction of rules allied to those for apploximate quadrature .
+The papers referred to RUNG , " " Uber die numerische Auflosung von Differentialgleichungen 'Math .
+Ann Bd .
+46 .
+Leipzig , 1895 .
+W. F. , " " A Method for Exbending the Accuracy of Mathematical Tables ' Proc. Lond. Math. Soc XXXI .
+KARL HEUN , " " Never methode sir approximativen Integration der DifferentiaIgleiohungen einer ingi einderlich , ' Zeitschrift Math. .
+Phys No. 45 , 1900 .
+KUTrA , " " Beitrag iherungsweisen Integration totaler Differentialgleichen ' ZeitMath . .
+Phys No. 46 , 1901 .
+Further GANZ , in a paper " " ber die numerische Auflosung von partiellen Differentialgleichungen ' Zeitscbrifb Matl ] . .
+Phys No. 48 , 1903 , has extended the methods of RUNG , HEUN , and KUTTA to partial tions of the type considered in this section .
+Those of the first order he turns into the form and rbing from a boundary , where q ) is a given function of , he expands this function as a power series of and integrates step by step in the direction .
+The results he gives of remarkable accuracy .
+It is less accurate , but simpler , to work entirely by arithmetic in the illustrated in S2 2 below .
+A simple Process its Possibihty.\mdash ; For ordinary equations the necessary and sufficient condition is that , for an order equation , the integral and all its first differential coefficients should be given at the boundary .
+This is almost obvious at first sight .
+The complications in the following arise entirely from having to attend to the correct of the differences\mdash ; an important thing in practice .
+Let the equation be .
+Then if all the quantities of which is a function are given at , we can calculate at .
+Now , representing differentials by simple central differences , draw up a table in columns .
+The subscripts denote distance from . . . . .
+difference is centred at values of halfway between those for the difference of next lower order .
+Then , beginning with , each difference is added to the one of next lower order and the sum written down in the colunm of the lower order one , step after it .
+This process gives a table with a diagonal boundary .
+The next value of is found the difference equation and the process is repeated .
+The diHerence equation is satisfied at those values of where the highest difference is tabulated .
+These processes involve moving certain differences through a step of at the start and when the difference equation .
+Except for and this is done by .
+Note that this is a central formula with respect to the step - to .
+For and the motion of is accomplished by * Reyised Apri120 , 1910 .
+BY FINITE RENCES OF PHYSICAL writing ebraic symbols for the unknown yalues of and finding them from , and from the given difference equation simultaneously .
+On the other hand if any of the first differential coefficients are unknown at the summation from column to column across the table cannot be carried out , and so the step method is impossible .
+The conditions for stepwise ration of partial equations are not so simple and require investigation .
+S22 .
+As an example of ) integration , let us take the equation for diffusion in a tube , .
+In the first place , if is a solution of , then is a solution of the given equation .
+So we need only concern ourselves with , and the results will apply to bodies of any linear dimensions and any uniform diffusivity .
+Let us suppose the boundary conditions are : when for all values of for all values of when ; in fact the familiar case of a uniformly heated slab , the faces of which suddenly cooled .
+The method of this example is so simple that it can hardly be novel .
+It is introduced to show how easy it sometimes is to obtain approximate integrals by arithmetic of equations usually treated by complex analysis .
+We draw up a table with a row for each of and a column at every of .
+( The reason for making the time step small will appear later , S321 .
+) The given boundary values are next inserted .
+TABLE I. FoURIER .
+Scorrect b Errors .
+Tn .
+the equation we must be careful to equate values of , which are centered at the same point .
+This causes a little difficulty at starting .
+When let the values of be , as indicated in Table I. Then if the difference equation be satisfied at , it takes the form of 5 simultaneous equations involving .
+Solving these equations , we find the numbers given in the column .
+Having got over this rather troublesome first step , we can find the rest much more simply by centering all differences on the columns , \amp ; c. , and deducing each number from the two preceding columns .
+The errors resulting from the above process may be found by comparison with the Fourier solution .
+This series has been computed when , and the numbers so found are given the table .
+It is seen that the step VOL. CCX.\mdash ; A. 3 ] 4 MR. L. F. RICHARDSON : APPROXIMATE ARITHMETICAL SOLUTION method gives a fair general view of the temperature corresponding to a given time and position , and it can , of course , be employed with equal facility when the boundary temperatures vary in almost any assigned manner , including cases that would be difficult or impossible by the Fourier method .
+S3 .
+It frequently that the integral only be determined with reference to the whole , as , for example , in the calculation of the electrostatic potential at all points of a region when its value is given over the conducting oundaries .
+Here the diflerential equation is of the second order , and the first space rates of its integral are not given on the boundary , so that the step-method is inapplicable .
+The following S 3 contains an account of two methods for solving problems of the type indicated .
+S .
+The Nature of the Problem.\mdash ; Let there be body-points and boundary-points in the region considered .
+Then the differential equation , to be satisfied in the body , is approximately represented at any body-point by an algebraic equation connecting the body value there with the surrounding values .
+This algebraic equation will be of the first , second , or higher degree , according as the differential equation is of the first , second , or in the function of position and its erentials .
+Formin this equation at every body-point , we have a system of simultaneous integral equations between unknowns .
+To make the problem deterlninate , the boundary conditions must therefore supply independent relations , involving the boundary values .
+The rules governing the arrangement of these boundary equations , so as best to TABLE II .
+esent the given infinitesimal boundary conditions , have not yet been elal ) orated .
+In certain cases a choice of ways is open , as in the following example : Let the body equation be , where is a given function of position , and the boundary condition , where is an / arbitrary function of position on the boundary .
+Let the body values of be denoted , , and the boundary values by \amp ; c. Then in the annexed Table II .
+we are at liberty to choose between two alternative approximations .
+For we may take as values of on the boundary .
+, , .
+And as values of So that we have one boundary condition for each .
+Or else we may suppose the corner slightly bevelled , so that , while the above relations still hold for and we now have at the corner .
+Here enters as one variable .
+Also and only enter the body equations when combined in the form .
+We no longer seek to determine and separately , but merely their average , which is the value of just outside the corner , By FINITE DIFFERENCES OF PHYSICAL PROBLEMS , ETC .
+so that there is still one boundary equation for each boundary variable which we seek to determine separately .
+We have just considered a angle of 90 degrees .
+By examining the remaining five angles possible with two co-ordinates , namely , 45 , 135 , 225 , 270 , 315 degrees , one may convince oneself that with a dosed it is always possible to arrange to have just as many boundary equations as boundary unknowns .
+It is in some cases necessary to suppose the corner slightly bevelled and to replace certain 's by their averages .
+The representation of the boundary condition when both and are giyen at each point will be considered in ) theory of the dam .
+When the infinitesimal boundary conditions are such as to make the problem determinate , it will be assumed that we and therefore do , represent them by a set of boundary equations equal in number to the boundary unknowns .
+If any be discovered in which this is impossible , it will be an exception to the rest of S3 .
+S .
+The finite difference problem being thus made determinate the most direct way of finding the integral is to solve the simultaneous for the body and values of the inte .
+To take an example : one pair of opposite edges of a square at the other pair Inside 1 1 1 everywhere .
+Find side the square .
+Now by symmetry the values of on the 0.5 diagonals will be everywhere .
+In fact , we need only consider of the area of the square ; all the rest follows from it .
+Taking finite ceIltre of differences , Table III .
+0.5 is drawn up with the given boundary and diagonal numbers in edge of square .
+their proper places and for the unknown body values .
+Now as the finite difference expression for givell i S has to vanish at all body-points , we have arelation between each of the letters to and its four nearest neighbours .
+The solution of these six simultaneous equations was accomplished in an hour and gave the following results:\mdash ; \mdash ; - By finite differences By Errors due to finita differences The numbers for infinitesimal rences were obtained from sech mx mz , the separate terms of which satisfy at all points , and when and by their addition make when .
+Adding up the series at these six points took 3 hours .
+It is seen that the greatest error is per cent. of the range of potential between the side and diagonal .
+Further , if we take co-ordinate differences of twice this size , leaying only one unknown in the same position in the square as here occupies , its value is easily found to be .
+Extrapolatin as in S we find for infinitesimal differences at this point , and this is only per cent. in error .
+To correct the other values we should have to halye the co-ordinate difference instead of doubling it , and this would require much more work .
+As a second example of the use of simultaneous integral equations , let us take the determination of the gravest period of of thin square with edges clarnped .
+It is known ( LOVE'S 'Elasticity , ' ed. 1906 , p. 469 ) that the displacement normal to the plate is of the form , and satisfies the equation , where is as a function of the elastic constants , the thickness and the density .
+Now let us form a table such as ( IV .
+) to represent W. In this table is measured from the plane of the clamped boundary .
+The differential equation , when turned into finite differences , becomes a set of simultaneous equations , connecting each in turn of the unknown body values with its twelve nearest neighbours .
+As the boundary numbers are all zero there are no constant terms in these equations , and they are only consistent when the determinant of the coefficients of vanishes .
+There are a number of values of which cause the determinant to vanish , and of these the smallest is that By FINITE ) NCES OF PHYSICAL , FTC .
+belonging to the grayest mode of vibration .
+Let be the ) integral for a square of unit side .
+Then will bear a similar relation to a square of side and to a new constant .
+Then ' so that is independent of the length of side of the square .
+It will be interesting to notice how this constant converges towards a limit as the TABLE IV .
+number of co-ordinate differences in the side of the square is The configuration chosen was increased .
+one in which the sides of the square are at 45 degrees to the rows and columns of the table .
+This gives a sharper boundary than the parallel arrangement . ?
+reduces the rnumber of unknowns .
+The symmetry of the gravest mode As well as the arrangement in Table IV .
+, two smaller ones were also considered , namely , those formed by cutting off in turn / its first and second outer layers .
+was calculated in each case from the determinant , by approximation where necessary .
+Collected results:\mdash ; Side of square for the gravest modc .
+405 0000* We may attempt a closer approximation by ) in is inversely as the square of the number of co-ordinate differences the side of the square , in accordance with S .
+From the 1st and 2nd values extraI ) olatio gives .
+And from the 2nd and 3rd .
+Or , if we assume that the error is of the form and extrapolate from for the three values of , we find .
+The way in which the values of converge * Revised figures , March , 1910 .
+indicates that this last one can hardly be more than 1 in 1000 in error .
+The precise analytical theory of the vibrations of a square plate with clamped edges does not appear to be given anywhere , but we may obtain an upper limit to by the method " " S89 .
+Assuming we have when this becomes , which is greater than obtained by finite differences .
+S .
+Successive proximation to the .\mdash ; Having illustrated the use of simultaneous integral equations , let us pass on to methods which have this property in common : that starting from a table of numbers , correct at the boundary , but otherwise merely as near as one can guess , one proceeds by definite methods to modify this table and thereby to cause it to approach without limit towards the true finite-difference Conditions.\mdash ; The following methods of approximation have up to the present been applied only to a limited class of equations satisfying the conditions given below .
+Let be an arbitrary function of position having body values , , , and boundary values , , .
+Let the differential equation to be solved be where is a differential operator , together with such boundary conditions as make the problem determinate .
+Let be approximately represented by the finite difference operator , so that the body equations are , , . . . . .
+( 1 ) .
+Then in order that the following justification of the approximation method may apply , it will be shown in the Appendix that and the boundary-equations must be linear ; and the body-and boundary-equations must be the condition that a certain positive homogeneous quadratic function V of , , is a complete minimum .
+Also , though otherwise arbitrary , is limited on the boundary to be the difference of two functions of position both of which satisfy the said -conditions .
+Under these circumstances can be expressed in the form is an of , which satisfies the same boundary-conditions as being a positive constant , the sign before being the same as that of in .
+The proof of this fact and of various other properties of the 's will be deferred to the Appendix .
+The 's may be called the principal or normal modes of vibration of the system .
+is analogous to potential energy .
+Some of the * I am indebted to Prof. A. E. H. LovE for pointing out this method and for giving me the numerical result for a square .
+BY FINITE DIFFERENCES OF PHYSICAL PROBLEMS , ETC .
+commoner possible forms of will be in the table on p. 354 .
+As well as the equation , the equation ( a given function of the co-Ol.dinates ) , and the equation may be treated by these successive-approximation- methods .
+They will be discussed in order .
+S321 .
+The Equation .\mdash ; The approximation process proceeds as follows .
+Let be the correct finite-difference .
+Let be a function ( that is a table of numbers ) satisfying the correct boundary-conditions , but arbitrary as to its body values .
+Next calculate the body-values of by means of . . . . .
+( 1 ) where is a number to be fixed ; and fill such boundary-values of will the same boundary-conditions as .
+The succeeding steps each of the . . . . .
+( 2 ) for the body values , and by the boundary values , is made to satisfy the correct boundary condition .
+These are matters of simple arithmetic .
+It will be shown that by the judicious choice of , : it is possible to make nearer to than was .
+For since is linear and we have from ( 2 ) . . . . . . .
+( 3 ) .
+Now it is shown in the ndix that ( may be expanded in a series of integrals of . . . . . . . . .
+( 4 ) .
+Put . . . . . . . . .
+( 5 ) .
+Then by ( 4 ) And therefore by ( 3 ) .
+( 6 ) .
+Proceeding in the same manner after operations we arriye at ( 7 ) .
+A measure of the deyiation of two functions from one another which is used in the theory of Least Squares is the sum of the weighted squares of their differenc .
+On the same principle let us measure the error of by . . . . . . .
+( 8 ) , where stands for a summation over the body points and I is a certain one-signed nctio of position .
+( See Appendix .
+) Squaring both sides of ( 7 ) , multiplying by I and making the summation , we have by a property of the 's ( see Appendix , equations ( 31 ) and ( 32 ) ) ( 9 ) .
+Now it has been found that by a judicious choice of , , , the quantity may be made small for all possible values of ( Thus fig. 1 shows this done for a set of seyen .
+This graph was arrived at by trial .
+) The error of may therefore be made small in comparison with that of .
+This is possible because the values of lie in a finite range ; corresponding to the fact that there are only a finite number of terms in the series .
+A similar process will not work with the infinite series of sines , Bessel functions and other infinitesimal rals of .
+In choosing , , , a diagram of the kind shown in figs. 1 and 2 is a great help .
+In this we take for the abscissa a variable which takes in turn the values , , , and as we consider .
+( 10 ) .
+The value of at the ratio of the amplitude of the vibration in the final approximation to its amplitude in the initial guess .
+The individual factors in represent straight lines , all cutting the vertical axis at and the horizontal axis at the points , , .
+By bringing any adjacent pair and closer together the values of corresponding to the range of between and are diminished , provided that the other 's remain fixed .
+It follows that by judiciously the 's along the horizontal axis and by taking a sufficient number of sncl ] points ( that is of approximations ) the successive maxima and minima of can ) made all less , in absolute value , than any finite quantity however small .
+When this is done I being equal by ( 9 ) to whero is the value of at must be less than .
+That is to say , the ratio of the error of the last approximation to that of the initial guess , being is less than , and can be made very small .
+A knowledge of , , is not necessary , but it is necessary to know the limits within which they range , or limits enclosin these .
+For the lower limit we require an estimate of , which in the dynamical application is the square of the frequency of the gravest mode of vibration multiplied by a constant depending on density and elasticity .
+It is usually sufficiently close to take some boundary such as a rectangle or a sector of a circle , for which the frequency is known , and which fits in a rough way the irregular boundary under consideration .
+BY FINITE DIFFERENCES OF PHYSICAL PROBLEMS , ETC .
+Next , to find the upper limit , it is always possible to proceed as follows :Make a guess at , that is to say , write down as sharply oscillatory a set of numbers as possible for the body values , such for example as Table V. when extended to fill the region , and add to it such boundary V. values as will satisfy the boundary equations .
+Call this guess .
+Then , \amp ; c. Now operate on with many times in succession , and after each operation readjust the boundary values so as to satisfy the boundary equations .
+By this process the coefficient of is increased relatively to the coefficients of the other 's in the expansion of the resulting table , because is the reatest of the .
+So that the table approaches a multiple of .
+From it is easy to find .
+In any case a rough approximation to suffices .
+When the boundary values vanish this labour is unnecessary , for then cannot exceed ( see Appendix ) the greatest value of pertaining to an integral of with the given size of co-ordinate differences , and with vanishing at infinity ; and this value of depends only on the form of , and may be calculated once for all .
+It will be denoted by .
+Thus when considerations of symmetry show that the most oscillatory integral is Table V. extended similarly in all directions , and from this we find Having thus found limits between which , , must lie , it remains to choose the 's so as to make small for all value of in this range .
+In practice this has been done by drawing the graph of for arbitrary 's and altering them or adding new ones until the maxima and minima of the curve were all sufficiently small .
+Figs. 1 and 2 are graphs of , representing two approximation processes requiring equal amounts of arithmetical labour .
+In fig. 1 the 's are distributed over a wide range.ae In fig. 2 all seven 's are made equal to .
+The curves show that these distributed 's reduce the amplitudes corresponding to a wide range of to less than one-enth of their original value .
+On the other hand the 's concentrated at reduce the amplitudes in the neighbourhood of much more perfectly , but leave the 's of graver period less affected .
+The allowable type of curve for will depend on what is to be done with the integral of when obtained .
+If its space-rates are required it more important to abolish the modes of vibration having the largest values of than it would be if volume integrals alone were needed .
+When the ratio of is large , as in large tables , it is difficult to remove by the processes indicated by figs. 1 and 2 .
+For example if and if the boundary is a square of ten co-ordinate differences side , which vanishes , then 's having the lowest values of will not differ greatly * The advantage of ibuting the 's fairly uniformly was pointed out to me by Prof. A. E. H. LOVE .
+VOL. CCX . .
+2 from , and for these .
+So that the ratios of , \amp ; c. , to when set in order of size will run , \amp ; c , , up to nearly unity .
+Referring to fig. 1 it is seen that the seven approximations would reduce the amplitudes of , \amp ; c. , in the ratios , \amp ; c. , the rest never exceeding and averaging about Of course continued approximation would gradually reduce the amplitude of , but Curves illustrating the process of approximation .
+in cases like these it may be well to make a uess at the form of , to estimate as in Appendix , equation ( 33 ) , to find an approximation to the amplitude in by the Fourier method ( see Appendix , equations ( 29 ) and ( 22 ) ) , and so to remove the greater part of the first term of the series before the approximations are begun .
+This has been done in the problem of the dam , S4 .
+We have so far supposed , , unknown .
+If any one of these be known , then making ) will entirely remove from the series .
+This process may sometimes be useful for removing the gravest modes of vibration , \amp ; c. Since the value of is independent of the order in which its factors are multiplied together , it follows that the result of of a series of operations of the type depends on the initial guess and on the values of the but not on the order in which the 's are taken .
+The application of this result to practice is slightly limited because the number of significant figures retained necessarily limited .
+In out an approximation-process with a set of 's designed to make small , it is frequently only at the last stage that the predicted improvement BY FINITE DIFFERENCES OF PHYSICAL PROBLEMS , ETC .
+appears in the table .
+The intermediate stages may be wildly irregular if the of decided upon are used in ascending order of magnitude .
+If , on the contrary , the descending order is pursued the table tends to improve more regularly .
+S322 .
+The Equation , where is completely known Function of Position \mdash ; This can be treated in the same way as , except that the tions must now be of the form ( 1 ) , for , since , this may be written . . . . .
+( 2 ) , which is the same as ( 3 ) of S S323 .
+The equation ( 1 ) , together with homogeneous boundary equations such as . . . . .
+( 2 ) , where are the boundary values , the body values and the 's are given numbers .
+is now written in place of because ( 4 ) of S3 is defined as satisfying equation ( 1 ) of this section .
+We will suppose that both and have to be determined .
+As equations ( 2 ) contain no terms independent of the , it follows that when these expressions for the 's are substituted in the body-equations the latter become homogeneous , and are only consistent for the particular values..of which we have already denoted by , .
+Further , on account of this homogeneity , any multiple of an integral satisfies the correct boundary conditions .
+Such a possibility does not arise with , for as contains no adjustable constant such as it has no integral save , unless the boundary equations contain a term independent of the .
+And if they do contain such a term , any multiple of an integral fails to satisfy them .
+Thus , in the theory of membranes , if we put , and for the small displacement of the membrane from a fixed plane , then in the case of the membrane at rest , and is given at the boundary , its values there bein , On the other hand , for the vibrations of the membrane the boundary condition is commonly corresponding vanishing To return to the general form of : let be the integral desired ; , the initial guess and successive approximations to .
+The that any multiple of an integral is itself an integral allows us to put for the body-points of , . .
+, ( 3 ) , which is more general than ( 2 ) of S321 by reason of the factor .
+The boundary values of are filled in so as to satisfy the boundary equations .
+Now can be imagined as expanded in the unknown series . . . . .
+( 4 ) .
+On the diagram of and ( see fig. 3 ) equation ( 3 ) means that the straight line Fig. 3 .
+representing a single process of approximation may now be drawn in any way instead of having to pass through By suitably choosing lines all of which pass through , we can reduce the amplitudes of every in the series except that of , which is left unaltered .
+See , for example , fig. 3 , where has been given the particular value .
+To choose these lines we must know at any rate apploximately .
+For the first step an approxinuatio to is therefore calculated from in the way described in the Appendix equation ( 38 ) .
+Denote it by .
+For the succeeding steps \amp ; c. , are calculated similarly from \amp ; c. By Appendix equation ( 33 ) the errors in are reduced more rapidly than those of P. The success of the method will depend on the original guess , when expanded as , being free from 's having nearly equal to S .
+Error in the Integral Due to Incomplete .\mdash ; A general guide here is the approximation process itself If , for example , this has been such as to diminish the amplitudes of all the 's to less than of their former values , and if , for all that , has not changed by nine times the permissible error , we may conclude that the process has been carried far enough .
+* *April , 1910.\mdash ; This is probable but not certain .
+Thus if 99 becomes 9 the at does not chang- .
+but it is not therefore xero , BY FINITE DIFFERENCES OF PHYSICAL PROBLEMS , ETC .
+Again , from the size and distribution of combined with a knowledge of various integrals of , a rough estimate of the errors in can frequently be made .
+Again for certain equations*the method of contour integration applied to a circle affords a check on the value of at its centre .
+This method is very rapid , and it is particularly advantageous when applied to a circle enclosing many body values , for then a repetition of the approximation process would be correspondingly tedious .
+S .
+Routine of Approximation.\mdash ; Time and Cost.\mdash ; To anyone setting out on a problem I offer the following experience as a guide in forming estimat , es:\mdash ; It was found convenient to enter certain stages on a table with large squares , each divided into compartments .
+Thus for TABLE .
+quares ihown iquare.termediate stages areann tuantities iefer t paid rates for the operation of about pence per co-ordinate point , being the number of digits .
+The chief trouble to the computers has been the intermixture of plus and minus signs .
+As to the rate of working , one of the quickest boys averaged 2,000 operations per week , for numbers of three digits , those done wrong being discounted .
+S33 .
+Relative Merits of Simultaneous Equations and of Successive Approximation.\mdash ; The method of simultaneous equations may be applied to differential equations of any order and degree .
+It gives results which are exact for finite differences .
+It is necessary in discussions as to the existence and properties of the integrals of difference equations .
+But for actually calculating the integrals the labour becomes very great as the number of unknowns increases , and is of a sort which a clerk will not easily do .
+Large numbers of digits have to be dealt with , and a single mistake generally throws the result altogether out .
+The successive approximation methods of S32 have only been applied to a limited class of linear equations .
+The results are not exact even for finite differences .
+But the bulk of the work can be done by clerks who need not understand algebra or calculus .
+Small and infrequent mistakes , or taking only a small number of digits , do not prevent one arriving at a fairly correct result .
+Nevertheless , it has been found best to have everything worked in duplicate .
+The method of successive approximation to the surface reminds one of the manufacture of plane metallic surfaces .
+The initial form of the surface is arbitrary in both cases .
+The essential things in both cases are a method of ting the work at any stage , a tool with which to alter the surface and judgment in using it .
+Methods of testing the arithmetic have been described in S above .
+Our These include ) .
+See a paper by BOGGIO , ' , Fortschritte Math 1900 , p. 740 . .
+L. F. RICHARDSON : APPROXIMATE ARITHMETICAL SOLUTION tools and the Fourier method of removing principal modes of vibration may be compared to automatic grinding machines .
+The use of the handscraping tool corresponds to the adjustment of the numbers according to the judgment of the operator .
+Tbis is always permissible .
+S34 .
+The treatment of may be illustrated by the following hypothetical example:\mdash ; Suppose we were to set out to determine the field due to a rotating mass of gravitating fluid of known shape , the gravitational potential would have to vanish at infinity .
+But to be determinable by the methods of S3 the potential would have to be given over some boundary which could be included in the sheet of paper upon which its values were written .
+We might , for example , assume the potential at the edge of the paper equal to that due to the given mass of the liquid concentrated at its given centre of gravity , and find the figure of equilibrium on this hypothesis .
+( See treatment of base of dam in S4 .
+) S4 .
+The problem of of the stresses in masonry has been chosen as a final example for two reasons : ( 1 ) Its practical interest arising out of the great expense and productiveness of these structures and the destruction of life and property should they burst ; ( 2 ) Its simplicity in that we have to determine a single quantity as a function of two co-ordinates only .
+The methods developed are suitable for finding the stresses , not in dams only , but in a prism or cylinder of any section , acted upon by any distribution of surface stress which is normal to the axis of the prism , when the surface stress is given , provided that the shifts parallel to the axis are zero .
+S is devoted to theorems relating to any shape of contour .
+the special contour of the dam is introduced .
+The discussion that follows is founded upon two papers in the Drapers ' Company Research Memoirs ( Dulau and Co. ) : ( 1 ) " " On some Disrcgarded Points in the Stability of Masonry Dams by L. W. ATCHERLEY and KARL PEARSON , F.R.S. , 1904 .
+( 2 ) " " An Study of the Stresses in Masonry Dams by KARL PEARSON , F.R.S. , and A. F. POLLARD , assisted by C. W. WIIEEN and L. F. RICIIARDSON , 1907 .
+I also owe some ideas , e.g. , the use of equipollent loads in the base , to suggestions thrown out by Prof PEARSON in the course of conversation .
+In these papers the dam is regarded as a prismatic-shaped body of indefinite length , so that the problem may be discussed in terms of two co-ordinates and lying in the vertical cross-section of the prism .
+The sluices are ignored\mdash ; a serious omission .
+S .
+Prof PEARSON and his collaborators lay much emphasis upon our ignorance as to the real conditions at the of the and the consequent inapplicability of analysis based upon special assumptions at the base , such as linear , parabolic , or quartic distribution of shear .
+Admitting this ignorance , there seems to me one assumption more reasoI ] able than any of the others , namely , that the dam may be BY DIFFERENCES OF PHySICAL PROBLEMS , ETC .
+regarded as a ridge upon the surface of a very slab of rock which , the dam , forms one homogeneous isotropic elastic system ; together with the further assumption that this substratum suflered from no internal stress before the dam was built , except , of course , that due to its own weight .
+The consideration of the results that follow these assumptions will be continued in S below .
+S .
+Conventions to Syrnbols.\mdash ; The axis vertically }vards .
+The X axis horizontally directed from the water towards the tail .
+, the angle which a line makes with the axis , to be reckoned positive when the rotation is from the axis to the X axis through 27 and so onwards .
+The stresses and positive when they pull adjacent portions of the material together , and therefore the shear positive when the lower portion is pulling the upper towards the tail .
+and distances along the outwardly directed normal to the masonry and rock and along the boundary drawn to the right of it .
+and the normal and tangential stresses on the surface related to and in the same way that and are related to and and the cosines of the angles which the outwardly drawn normal makes with the X and axes respectively .
+S413 .
+Position of the Origin.\mdash ; PEARSON and POLLARD ( p. 37 ) take this at the join of the front and the top .
+It will be more convenient in what follows to take it vertically below this point at the level of the surface of our hypothetical ) of bed rock .
+This is done throughout .
+The water surface stands at , and the pressure due to it is accordingly , where is the density of the water .
+S414 .
+Specific Constants of the Masonry and Rock.\mdash ; Following PEARSON and POLLARD I take the density times that of water ( p. 29 ) and POISSON'S ratio as ( p. 33 ) .
+S415 .
+Units.\mdash ; Distances are reckoned in metres .
+Forces in metric tons , each equal to the weight of a cubic of water .
+Consequently the weight of unit volume of water is equal to unity .
+And S .
+Equations to be ) .
+\mdash ; The stresses may be expressed in terms of a inrrleb scalar which satisfies . . . . .
+( I ) thus ( 2 ) , ( 3 ) ( 4 ) .
+The surface equations then become under the water .
+On the air surface the left-hand sides of these are zero .
+Here is the tangent of the angle which the surface , drawn to the right , makes with the axis .
+We shall require the surface stresses in terms of the space-rates of along the arc and normal .
+The theory of stress functions is fully discussed by Mr. J. H. MICHELL in 'Proc .
+London Math. Soc Vol. XXI .
+; on p. 110 we find the required transformation , which expressed in our notation reads as follows:\mdash ; ' These equations refer to a weightless solid , hence the suffix .
+To complete them we must add the stress after transforming it to components about the normal and arc .
+This gives ' ( 6 ) , ( 7 ) .
+S417 .
+The Size of the Darn.\mdash ; Suppose we have determined for a dam of a particular shape filled to a certain fraction of its height with water .
+Let us say .
+We wish to find the stresses in a dam times as big every way and containing times the height of water .
+Try .
+Then , and would all be times their former values at corresponding points of the surface , but the constant terms in the surface conditions , due to the water pressure and weight of masonry , are now times their former values at corresponding points .
+Consequently is the form of appropriate to a dam times the size of the one for which was determined , and the stresses in the former will be everywhere times as great .
+For convenience in calculating , we will suppose that the co-ordinate difference , SxSz , is equal to the unit of length , unless otherwise stated .
+The result can afterwards be applied to a dam of any size .
+S .
+Simple Concerning the Density of the Masonry.\mdash ; If the reservoir be empty , and is the integral for density , then is the integral for density , for it still satisfies the body equation and also the surface equations ( 6 ) and ( 7 ) , since both and vanish , so that the calculation of one integral suffices for all sizes and densities , if it be multiplied by the proper constants .
+Now when the reservoir is full we may take account of any density by means of two independent integrals .
+Let us calculate for reservoir empty and density and for reservoir full and density , then the proper stress-function for reservoir BY FINITE DIFFERENCES OF PHYSICAL PROBLEhlS , ETC .
+.329 full and density will be , for , on account of linearity , the solutions of in turn when added together satisfy .
+Here is the normal stress due to the water pressure of a full reservoir , and and are the same when the reservoir is empty , that is zero .
+The above is the method of PEARSON and POLLARD ( p. 28 ) translated into stress-function symbolism .
+It shows us how to find the stresses for a full reservoir sustained by masonry of any density by calculating in detail two cases only .
+In this paper the case of full reservoir and density is the only one treated .
+S .
+Integration of Surface Equations.\mdash ; We see from equations ( 6 ) and ( 7 ) that if the shape of the boundary and the stresses upon it are given , then starting at a point , and assuming initial values of , and , we can find a double row of values of a round the boundary by straightforward integration .
+The initial values of , and are not significant , for they depend only on the arbitrary function , which may be added to any distribution of without affecting the stresses .
+The only outstanding uncertainty is at a sharp corner where becomes infinite .
+Prof PEARSON has shown that at a sharp re-entrant corner the stress may become infinite History Elasticity , .
+In view of this it appeared possible that the boundary strip would be indeterminate at the corners , and the following investigation was made to settle the question .
+As it is a question of infinity , the finite forces , and in the immediate neighbourhood of the corner may be neglected , leaving simply ( 8 ) , ( 9 ) .
+Now let us suppose that the trace of the boundary 011 the plane is a circle at the corner , with the intention of making the radius indefinitely small after integration , on integrating equations ( s ) and ( 9 ) with constant it is found , after some work , that . . . . . . . .
+( 10 ) is the complete integral , , and being arbitrary constants .
+Now suppose that , the angle turned through , increased from to .
+Then it can be shown from ( 10 ) that ( 11 ) , ( 12 ) .
+VOL. CCX.\mdash ; A. 2 It is remarkable that the changes in and depend on the angle turned through , but not upon the sharpness of the corner , as evidenced by the absence of from ( 11 ) and ( 12 ) .
+These equations are the conditions that the tangent planes of the surface just before and just after the corner shall be parallel to ono another .
+Thus the boundary strip of can be integrated independently of the body equation S .
+The following theorem about the total changes in , and over any length of boundary affords a useful check on the integration of equations ( 6 ) and ( 7 ) .
+Let AB be any part of the boundary .
+Cut off in imagination a portion of the solid by horizontal and vertical lines through A and meeting in D. It will be assumed at first that AB does not intersect AD , DB , except at A and B. Now apply to AD a normal stress and to BD a normal stress , arranged in amount and distribution so as to balance the forces acting on the boundary AB , together with the weight of the portion ABD .
+Let the weight be acting in a line distant from and let the stresses on the real surface AB be equivalent to a force X , acting through , together with a couple , The forces X , are to be reckoned positive they are directed out of the solid .
+As the body ABD is in equilibrium are single valued , and if there are no infinite stresses they will be continuous .
+The changes along AB can , therefore , be obtained by integrating along AD and DB .
+To balance the horizontal and vertical forces and , where is if AB is above AD and in the reverse condition .
+Now , and , there results and .
+Also , since the forces on AD , DB are purely normal , is constant along DA and is constant along .
+Therefore , remembering that by ( 11 ) and ( 12 ) are continuous at the corners , we see that and .
+( 13 ) , ( 14 ) , where is the length .
+These are the required total changes in and Lastly , to balance the moments about , we must have By FINITE DIFFERENCES OF PHYSICAL PROBLEMS , ETC .
+where are the -ordinates of , and where is if AB is to the left of and if they are reversed .
+rate by parts , then Substitute the values of the stresses and where is the length .
+Or , since by ( 13 ) and ( 14 ) .
+( 15 ) , a useful formula .
+When the boundary of the solid intersects AD , ) , as does the line in the , then draw horizontal and vertical lines to a figure enclosing the boundary .
+Apply the stresses to FH instead of AD and to LK instead of , leaving the rest of AFHJKLB unstressed .
+These stresses must balance the surface forces as before , and now the whole weight of the solid enclosed ) etween AFJLB and the boundary .
+On account of the change in level from AD to KJ or BL the term in is different , and this term being integrated along FJ and LB has the effect of subtracting the weight of AFJLBD that of the solid part .
+Consequently we may integrate along AD , DB and keep everything else as before , Fig 6 provided we replace by , where follows the boundary curve .
+Similarly in ( 15 ) we must replace by S .
+In order to simplify the arithmetic , the surface of the dam of the form chosen has been represented by straight lines , either horizontal vertical , or at 45 degrees .
+It is one of the peculiar advantages of successive approximation methods that a simple case like this comes in conveniently as the first stage of the solution for any rather different boundary .
+Table of equations when the surfaces are horizontal ) , or ( fig. 6 ) , deduced from equations above:\mdash ; Ttl [ A RE HORIZO , V E RTICAL , OR I I Fig. 6 .
+The rather complicated conditions on the sloping surfaces require special reduction to finite differences .
+Suppose the flank runs through a set of values of as in Table VI .
+, then at the point5 , may be taken as as Therefore the surface condition becomes ( 13 ) .
+TABLE TABLE 00 01 In a similar way , at the point , 5 the second surface condition becomes ( 14 ) .
+The conditions on the front may be transformed in a similar way if necessary .
+BY NNITE DIFFERENCES OF PHySICAL PROBLEIsIS , ETC .
+We proceed to show that the natural way of turning a corner in finite diffel.ences is consistent with ( 11 ) and ( 12 ) .
+Take , for example , the COl.ner in VII .
+representing the tail rising vertically from the base .
+On the horizontal , the equations are taken along the line midway between the two boundary layers .
+When we come to the corner we may cithel continue this process and so determine , or else we take at Either process leads to at , but olte fixes while the other leaves it arbitrary .
+Again we get at , either by taking at , or else by taking and and , as holding at the middle of the two columns .
+We may expect that when is determined by the boundal'y equations a sharp corner is represented .
+When is not so determined , a corner bevelled by the line In the absence of the foregoing analysis these ways of turning the corner would ABLE VIII .
+have seemed tempting but risky .
+But we face shall see that they really do correspond to / the analytical way .
+For , on the horizontal / bed , we have / and the angle turned through is Therefore , from ( 11 ) and ( 12 ) and on the tail above the corner should have the values and respectively .
+And these are exactly what we find in the finite difference table for the first diflerences .
+, suppose the tail rises at 45 degrees to the ) along the horizontal the value at may be obtained by to hold at the , that is to , at the corner .
+The other numbers on the sloping surface were obtained by and ( 14 ) alternately , left have ; so that equations ( 11 ) and ( 12 ) give us and , for and on the slope just above the corner .
+And these identical first differences of the table when Ss and Sq are giyen their ) and , respectively .
+S Possible Solution.\mdash ; Now that ho to integrate the boundary conditions , the analogy with ates u , s. .
+it is known Elasticity , that a crhtless 1 ) ) plane and unacted upon by surface forces except at the edges , the displacement normal to the plate satisfies the equation , the edge conditions being such as to make the displacement purely normal to the undeformed plane and and being co-ordinates in this plane .
+So that if a sheet of thin steel ' ' ferrotyps\ldquo ; is taken and fixed at the edges in such a way as to make a double layer of values of there equal to the of the boundary conditions of the dam , then the displacement u ) elsewhere would also be equal to the integral of the complete system of equations for the dam .
+The principal stresses in the dam are then equal to the principal curvatures of the plate .
+For a method of measuring them , see two letters to ' Engineering , ' October 25 and November 1 , 1907 .
+Whenever one has to solve the equation , the form assumed by a piece of postcard bent in the fingers will be worth considering .
+As an accurate experimental method this would have the advantage over those of PEARSON and of WILSON and GORE , that displacements are applied instead of forces , and that the resulting displacement to be measured may be larger than theirs were . .
+To return to the Conditions at the Base of the Dam.\mdash ; Prof PEARSON pointed out to me that the effect of the stresses in the base of the dam , at a istance where the base of the dam subtends but a small angle , will be the same as that of any other statically equivalent system over the base , in particular to the force-at-a-point found by compoundin the pressure of the water acting through the centre of pressure with the weight of the dam acting its centre of gravity .
+We may therefore , in imagination , remoye the dam , leaving a horizontal plane with this force acting at a point , the pressure of the water in front and no pressure behind .
+Suppose we had the distribution corresponding to this system of surface forces .
+Then the corresponding double set of values of at a considerable distance from the dam will differ exceedingly little the true values , and if we keep them fixed and write in the upper SUl.face values 011 the dam we may ad .
+just the numbers inside by successive approximation to satisfy , and the result will then be exceedingly close to the true integral the ] of the dam .
+This is what has been done .
+From the linearity of and of the stress equations , it follows that if the stresses correspollding to a number of solutions of , when added , give the true stress , then the stresses derived from the sum of all these solutions will also be correct .
+With the aim of providing distributions of in the bedrock which shall enable engineers to solve " " Dam Problem\ldquo ; for any shape of dam boundary , I have sidered the actual distribution of in the bedrock as made up of the three following parts , which must be added in the proper proportions as described below:\mdash ; The term .
+This gives , and so combines with the stress due to the weight of the bedrock to make ( ii .
+) In a weightless bedrock .
+The stress function , due to a point force in any direction at the origin .
+BY FINITE DIFFERENCES OF PHYSICAL ( iii .
+) The stress function in a weightless medium , when on the surface from to , and from to The stretch is made to vanish at by making in that ion .
+At the stresses due to ( ii .
+) will vanish , and therefore so will also the correspondin .
+Consequently , if we add together any multiples of the 's specified in , ( ii .
+) , and ( iii .
+) , we have at.x when the rock has its density ( iii .
+) is to be so placed that its origin is at the meet of tlJe front and surface .
+( ii .
+) is to have the point of application of the forces placed where the resultant of the water pressure and weight of the dam cuts the plane It will be necessary to consider distributions and in some detail .
+We are indebted to Mr. J. H. MICHELL for both of them .
+( See 'Proc .
+Lond. Math. Soc 1901 .
+) First , .
+For a point force of unit gnitude acting on the straight bounda1y at the origin of the polar co-ordinates .
+The stress function is given by , and the force is in the positive direction of the line from which is measured .
+The stresses are as follows:\mdash ; ( 19 ) , ( 20 ) , ( 21 ) .
+Next , Stress Function due to the .\mdash ; MICHELL shows that if unit normal pressure be applied along a finite length of a straight boundary of an otherwise unlimited plate in which the sideways stretch vanishes , then the form of the stress function is . . . . .
+( 22 ) , where and are polar co-ordinates centred A and , and AB is the initial line .
+He further ) that the axes of principal stress at any point are the bisectors of the angle APB , and that if this angle is equal to magnitudes of the principal stresses are along the internal bisector . . . . . .
+( 23 ) , along the external bisector . . . . . .
+( 24 ) .
+We want the limit of in the neighbourhood of one end B the other end is removed to an infinite distance .
+Let the origin of our co-ordinates coincide with B. Then let A be at a very great distance .
+Now remove the infinite but stressless and we being equal to in the notation of .
+On the upper surface .
+Therefore the trac , tion is equal to It should , of course , be negative for a pressure .
+Therefore we will write ( 25 ) .
+I have also arrived at this result by an independent method .
+We nnust next consider the stretch .
+For on the surface a great way in front or behind the dam one would expect to vanish on account of the uniformity of the surface pressure .
+Now in solution for a finite loaded portion AB all the stresses vanish at an distance , and therefore the stretches also .
+But when moves off to infinity we find from ( 25 ) , after differentiation , that sin .
+Here vanishes when , that is , behind the tail .
+But llot when in front , under the water .
+S detailed wor.king for particulcvr shape of contour .
+S .
+The chosen for investigation is shown in fig. 7 .
+It was the best representation of the Assuan dam , as drawn in PEARSON'S papers , which I was able Fig. 7 .
+Contour chosen for investigation .
+to obtain with so few as six co-ordinate differences to the height , without interpolation on the boundary .
+As a real structure it would be liable to crack at the points opposite the re-entrant angles on the flank , somewhat as the unfortunate Bouzey danl did , but that tendency will not affect the stresses lower down , with reference to which has given warning , and to which attention will here be directed .
+Th height , , is 6 metres .
+The area of the cross-section the line , By FINITE DIFFERENCES OF PHYSTCAL PROBLEMS , ETC .
+, is square metres .
+And this , at a density of , gives a mass of metric tons above the rock surface per slice 1 metre thick .
+The centre of this mass was found by graphical construction to be at the point The total horizontal thrust of the water on the same slice is tons .
+In dividing the forces acting on the structure into lake pressure and a force - , after the manner of S , I have considered the lake to extend right up to the vertical face .
+This leaves a force of ton acting upwards near the corner , due to the beyel diminishing the depth of water just there to be included in the force at a point .
+In finding the force at a poin , the total horizontal thrust of the water of 18 tons acting through a poin of the height of the dam from its top , is compounded with the weight of tons acting through the centre of mass and with the toll acting upwards near the corner .
+The resultant of tons strikes the base at an angle , the tangent of which is at a point the co-ordinates of which are .
+If there had been a pronounced curve at the bottom of the front it would have been necessary to use a link polygon to find the load point of the horizontal S .
+Taking six co-ordinate di.fferences in the height the surface conditions were integrated by equations ( 13 ) , ( 14 ) , \amp ; c. A difficulty arose at top .
+For the dam there being only one co-ordinate difference thick , that is , being expressed by three columns of numbers only , the four boundary conditions cannot arily be simul- taneously satisfied .
+It was avoided by making the total change in over the base equal to the total downward force , and by making the total change in over the base equal to the horizontal thrust of the water , and then integrating the boundary strips separately from in front and behind , and making one-valued where they met at the top .
+On the lower boundary was made equal to the sum of the following four parts:\mdash ; For the lake pressure , the values of , found directly from the co-ordinates and .
+They are given in Table IX .
+( ii .
+) For the force at a point , found from the factors and , measured on a large sheet of scale paper .
+is also given in Table IX .
+They may be of use to anyone re-working the problem for a dam of a different shape .
+( iii .
+) A linear function added to the aboye two in order to make the sum agree with the values of on the air surface behind the dam .
+It would have been simpler to have altered the surface values to make them agree with the base , but I did not think of that in time .
+This linear function is most conyeniently specified by its first differences , which are , and by the fact that it vanishes where the point-force cuts .
+These first differences were calculated from the first space-rates of the expression and norlnal to , and were used to calculate the linear function .
+( iy .
+) Finally , - was calculated and added .
+calculation more exactly 1 340 .
+VOL. CCX .
+, 2 X The sum of these four functions of position is given Table X. Its lake and ower boundary oforce components h been checked by plotting curves and recalculating any number which did not lie smoothly in the series .
+In this way an error of could be detected , and therefore probably does not exist .
+The multiplications were made with a 20-inch a slide rule .
+Altogether I ex- pect the " " standard deviation\ldquo ; of the errors in the lower boundary values is or less .
+The initial body values .
+assumed may theoretically be arbitrary , but of course ) the approximation process need not be so long if they are near to the correct inte- ) .
+gral .
+In this case the initial body values were made equal to the sum of the four functions , the linear function of ( iii .
+) above , and - in the region below .
+The numbers were read from graphs in a very rough way .
+Above the initial body values were simply guesses .
+Thepreliminarystagesir of approximation were full of did not completely succeed experimental processes which and are not worth describing , BY FINITE DDIFFERENCE OF PHYSICAL PROBROBL , ETC .
+3.39 Q ) ' ' r ' S especially as the arithmetic was somewhat faulty .
+Let us start with the table as left by them and call it Next the processes recommended in S321 were adhered to .
+The table being large it was thought best to remove and from by making guesses at the form of and , calculating their coefficients and by the Fourier process and then subtracting .
+Of course is defined so that , where denotes a summation over the body-points , whereas the guess is an approximation to , where is an unknown constant .
+For , and for zero boundary values of the 's the general equations of the appendix give Now .
+Therefore .
+Therefore In the right-hand side only appears in the combination , so when this is can be calculated at each point .
+A rough check on the accuracy of the guesses at and may be obtained by comparing the values of and obtained from them , namely , and , with the corresponding quantities in infinitesimals for simpler geometrical figures of the same area .
+The area of this smaller dam table is 113 square units .
+And for a rectangle as broad as long the formula of S gives , while for a circular plate clamped at the edges principal vibration with a single circular node has ( RAYLEIGH , ' Theory of Sound , ' S221A ) .
+It is possible that what TABLE XI .
+has been called above was really Finally the table was given four approximations of the type where was 10 , 30 , 50 , and 64 in turn .
+These numbers were chosen because they gave a good " " curve of ratio of final to .
+initial amplitude The result is shown in Table X. From it the stresses can easily be calculated .
+The values of which should vanis.h are given there also .
+S4221 .
+Interaction of Body Surface Equations .
+Bevelling of Angle at Front.\mdash ; It has been shown in S419 above that the given stresses on the upper surfacs determine a double layer of values of covering this surface .
+At almost all points of the double boundary layer it is impossible to evaluate because one or more of the values of involved is lacking , so that over the surface must be determined by the surface condition only .
+The only exceptions are near a re-entrant angle .
+For example , at the points where or in the BY FINITE DIFFERENCES OF PHYSICAL PROBLEMS , ETC .
+Table XI .
+sufficient surrounding numbers exist to determine completely .
+We might therefore determine and at these points by the body equation .
+But then we should be left with a boundary strip indicating a considerable amount of bevelling .
+Or we may go to the other extreme , and determine in the chequer marked by assuming the surface equation to hold at the angle .
+I take it the boundary strip would then represent a perfectly sharp right angle .
+On these grounds I suppose that the case actually studied , in which and are determined by the surface equations and by the body equation , represents an angle with the slight amount of bevelling caused by joining the points and .
+This was not realized till about the 10th approximation , when Mr. BORCHAmD pointed out some inconsistency .
+It was corrected along with other errors in the boundary conditions , and all final numbers refer to the bevelled angle as just stated .
+S4222 .
+Error due to Point-Force been substituted for the Actual Distribution.\mdash ; We see from Table X. that the actual distribution of stress differs from the assumed point-force in being spread out well over the base .
+We may form some estimate of the order of the error involved by comparing the stresses over the lower boundary due to a vertical point-force with the same due to a statically equivalent pressure spread uniformly over the base .
+MICHELL'S stress function enables us to do this .
+( See equations ( 22 ) , For when the point on the lower boundary is vertically below the centre of the stressed surface , the total force is proportional to the stressed area , which is equal to .
+So that if the total force is to be constantly unity as the area alters , the stress function must be equal to .
+By ( 23 ) and ( 24 ) the principal stresses at are terms in terms in In the limit when the force is at a point we have , and these reduce to and zero .
+In the case of a point on the lower boundary , eight units below the level of the rock surface , the base of the dam subtends an angle of about radius .
+Then : that is to say , the errors in the stresses at the lower boundary , due to substituting a point-force for this statically equivalent pressure , spread uniformly over the whole width of the base , are about 2 per cent. of the greater of the two principal stresses at the lower boundary .
+This uniform spreading is not , of course , exactly what has happened in the approximation process , but it is sufficiently similar for the question at issue ( see Table X The correct lake stresses and the correct upper boundary will tend to swamp this cent. , which is therefore quite negligible .
+$ .
+Errors due to Incomplete Approximation.\mdash ; The values of given in Table X. for the last approximation look as though they consisted chiefly of a principal mode of vibration which had a single nodal line sloping parallel to the flank of the dam across the middle of the table .
+For this mode of vibration will be considerably greater than for the gravest .
+mode which has ; it will probably be as great as unity .
+Then the errors in must be roughly equal to .
+If we imagine the tabulated values of smoothed to eliminate all vibrations , except the one with the single nodal line already referred to , and if we then take second differences of the smoothed , these second differences will be the errors in the stresses .
+It is easy to see that they will be less than unity .
+S the Differences.\mdash ; Some notion of the error due to having so few as -ordinate differences in the base of the dam may be formed from the error in found from the equation , for the gravest mode of a square of seven differences to the diagonal .
+This is shown in S31 to be 13 per cent. It was therefore thought desirable to halve the differences and reapproximate .
+Body values half-way between those of the smaller table were filled in by interpolation .
+Since the boundary formerly lay half-way between two sets of numbers , a set of interpolated values now lies directly upon it , and consequently the surface conditions resolve themselves into relations between the three outermost layers of numbers instead of the two outermost as before .
+S4231 .
+The Method of .\mdash ; After some preliminary experiments , the numbers just inside the boundary were corrected by taking and after each approximation the numbers just outside the boundary were corrected so as to keep equal to , calculated analytically .
+The following values of were taken in turn : 10 , 30 , 50 , 64 , and again 2 , 5 , 20 , 40 , 40 , 50 , 60 .
+These numbers were chosen , as all such have been , because they gave a suitable curve of reduction of amplitudes .
+S .
+An analytic integration of the boundary conditions was carried out , using equations ( 6 ) , ( 7 ) together with ( 11 ) , ( 12 ) at the corners , and starting from , behind the tail of the dam , as in the small table .
+The expressions deduced for and are given in a schedule .
+Values of calculated from them were set down in their places on the boundary , and the first difference across the boundary was made equal to .
+These numerical values may be seen in Table XII .
+They have been carefully checked at a number of points by the theorem about total changes given in S , and have been found to be correct to or less .
+The exact values of obtained from the boundary have been compared on with those found from the point-force and lake pressure in the bedrock\mdash ; a quite satisfactory agreement .
+By FINITE DIFFERENCES OF PHYSICAL PROBLEMS , ETC .
+S .
+Various adjustments were necessal.y .
+First , because the coarse-difference table has on its upper boundary numbers calculated stepwise by finite differences , and these are not quite the same as the infinitesimal values .
+Consequen lie , the infiniZS283233 I57I3 S06 3732 tesimally correct upper boundary of the fine-difference table did not at first fit the lower part derived from the coarse-difference table .
+A correction to the coarse- difference table was therefore calculated , which , if added to it , would have made its BY FINITE DIFFERENCES OF PHySICAL PROBLEMS , upper boundary infinitesimally correct as regards , when the value of was found by interpolation* ( appeared to be neal enough ah.eady ) .
+And this correction was used to bring the lower boundary of the fine-difference table into harmony with its upper boundary .
+Its greatest value in the region of the erence table was 15 .
+Secondly , a principal mode of tion , having maximum value and , roughly , was left in the top of the dam not completely elnoved by the approximation with .
+It moved by .
+Thirdly , a number of slips in the arithmetic had to be corrected .
+The result of these processes is shown in Table XII .
+S4234 .
+Errors Due to ) nation .
+a justification of the body values of Table XII .
+, I propose to consider the final distribution of belonging to them , and llot the process by which they were obtained , for owing to errors and experiments this process was long and complicated .
+Let us imagine the distribution of given in Table XII .
+, to be expanded in the series , where is an of , and has and ( normal ) on the boundary .
+Then the error in is .
+An inspection of shows that it changes sign many times in a small area .
+Hence it obviously contains the principal modes of vibration for which is large .
+The greatest value , namely , , is about 64 , so for this the error in will be of .
+The greatest value of is seen to be , corresponding to an error of in .
+If this had been distributed all over with alternate and \mdash ; signs the corresponding error in the stresses would be .
+This is appreciable , but not serious .
+The mean value of , formed by squaring , adding , and taking the square root , would be much smaller than , and the error in the stresses due to the presence of the higher modes of vibration , \amp ; c. , will be correspondingly less than Next , as to the gravest mode : it is possible that may be prominent in the error in , and yet obscured in by the presence of , since is a small fraction of .
+We can estimate it very roughly by means of ] theorem that at the centre of a circle an arbitrary function differs from an integral of which coincides with it , as to value and normal space rate , everywhere the circumference , by the integral over the interior of the circle of the product , say , where is the radius of the circle .
+The integration has been effected with sufficient accuracy by drawing contours of on tracing paper and laying it over Table XII .
+, and then adding up the values of situated between each pair of contours .
+* The internal distribution of this correction was calculated by contonr integration applied to freeband graphs in a way which the author hopes to publish shortly .
+VOL. CCX .
+\mdash ; A. 2 The following results have been found : \mdash ; is the excess at the centre of the tabulated number over an integral of ) , which has the same value and radial space rate on the cumference .
+is twice the previous column divided by square of radius .
+The corresponding errors in the stresses cannot be determined easily .
+As a very rough guide to them , take the second differences coefficient at the centre of the circle measured along a diameter with co-ordinate difference equal to the radius , that is -(twice error at centre ) radius ) .
+These XIII .
+differences are also tabulated and are seen to rities at the angles of 135 degrees on the Upper .\mdash ; There are three alt , ernative ways of treating the relation 00 between the body and boundary equations at the re-entrant angles .
+( See Table XIII .
+) ( a ) The number is determined so as to satisfy , and does not enter into the boundary equations at all .
+( 10 ) is derived Body from by means of the value of reglon , half-way between them .
+Also ( 11 ) i@ derived from ( -11 ) in a similar way .
+This is the procedure which has been adopted in calculating Table XII .
+( b ) The number ( 10 ) is determined so as to satisfy but it also enters By FINITE DIFFERENCES OF PHYSICAL PROBLEMS , ETC .
+S47 into the boundary equations , in that the average of ( 11 ) and ( 10 ) is derived from the average of and by means of the value of at the centre of the four points where these values are situated .
+is derived from ( -11 ) by means of the value of half-way between them and ( 21 ) is simiiarly derived from ( 12 ) .
+But is derived by at and is also derived from ( 10 ) by at 00 , where in the latter is normal to the line joining 01 and 00 .
+Thus ( -10 ) and ( 0-1 ) are both connected to ( 10 ) , and are no longer independent .
+It is therefore impossible to satisfy the body equations completely .
+Large values of may appear at and 0-1 .
+In some work by this method , now rejected , the approximation was so arranged that these of tended to become equal and TABLE XIV .
+opposite .
+The reason for choosing ( a ) was that the system ( c ) gave large illations in the stresses near the corners , oscillations for which it was difficult to find any physical reason ; ( b ) gave extraordinary oscillations in the shears on the boundary , but smooth curves of stress .
+To confirm this choice the co-ordinate differences have been altered so that the boundary lies half-way between two tabular numbers .
+The ambiguities now disappear .
+Thus , at the hind toe it is found on stepping out the integral of boundary equations that we have zero values , as in Tables X. and XIV .
+, whatever be the size of the co-ordinate difference .
+Thell at the corner .
+Therefore Now test Table XII .
+to see whether it gives the same result .
+At the hind toe , and , which is satisfactory .
+At the front toe a more elaborate check has been made by means of a new table with smaller co-ordinate differences , .
+This is Table XV .
+It was prepared as ollows :First , the number of digits in the values of , near the corner , were reduced by taking instead , so that and have identical seconddifferences .
+Next , curves were plotted showing the variation of along lines parallel to the co-ordinate axes .
+Values of were read from the curves at the new points required .
+These values provided the boundary numbers of Table , on the side of it which is in the middle of the dam .
+They also provided the initial body values , which are given in parentheses in Table XV .
+The boundary numbers on the masonry-water surface were , however , not obtained by interpolation from Table XII .
+, but instead from the infinitesimal integral of the boundary conditions .
+Each of them derived the value of at the nearest point on the masonry-water surfaoe by adding or subtracting the value of at that point , multiplied by the distance to that point .
+The final body values of were arrived at by the process which has been compared to hand-scraping in S3 above .
+They are justified by the very small TABLE XV .
+7O values of belonging to them .
+They are given to three of decimals merely in order to get smooth curves of stress .
+The interpolated boundary values may well be in error , so that the third decimal has no real significance .
+The stresses deduced from this table are shown in two cases in figs. 8 and 9 .
+It is seen that the sharp oscillations revealed in the stress by the fine differences are passed over by the coarse rences .
+The relation between the stresses near the front toe is , however , not consistent with the proportionality of the error to .
+This indicates that the assumptions which have been made as to boundary conditions have not been quite consistent with one another .
+* Nevertheless , the scheme adopted with is to be * Or that the term in in the error cannot be neglected .
+PHYSICAL PROBLEMS , .
+3 Fig. 8 .
+Vertical stress on for a units high .
+shonld ] \mdash ; Fig. 9 .
+Shear on for a dam 6 nnits high .
+) .
+I , .
+I I I { l ) istoncy WIt@ fou nd tO be .
+, , OI1 Ill $t v$1( H of V. : IH 11 II ) ] ) ' I II I { I I Il II II I II I IH II III I I II 1 I Il , { IH in ( ' lil , { I I II II { 1 4 I lIki ' II H. It II :\mdash ; It Il I14 , 4 I1 4 ; I I $ ; $I [ ( .
+Il $l t it $I , HH which ; Xl / X. Il in 1 ) Il I I H. Il II in tt I { Il I ' I I , I , ' , , II A , W. II , , $LI1 NHON , thItl . . .
+I 1110 cal ; ( IltlViCO in ) ooks ; By FINITE DIFFERENCES OF PHYSICAL to Prof. A. E. H. LOVE for several yital improvements which were introduced on re-writing the paper , especially for the suggestion of the theory in the Appendix ; also to Prof. LARMOR , Prof SAMPSON , and Dr. R. T. GLAZEBROOK for much valuable criticism .
+APPENDIX.\mdash ; Properties of the Modes In the theory of the approximation process we have assumed that\mdash ; ( i ) An arbitrary function can be expanded in form f , where is an integral of , and satisfies the same boundary condition as does .
+( ii ) That the are real , all of one sign , and lie in a finite range .
+( iii ) That a certain one-signed function of position I can be found such that , where denotes a summation over the body points .
+It will now first be shown that if the system of difference equations satisfies certain conditions , then the simultaneous equations ( 1 ) are equivalent to , ( 2 ) , where V is a homogeneous quadratic function of .
+Next , it will be shown that the desired properties ( i ) , ( ii ) , ( iii ) can be deduced from the existerlce of No attempt will be made to determine whether the properties ( i ) and ( ii ) can hold under more general circumstances when V does exist .
+However , exists for so wide a range of physical problems that it is well worth considering .
+Conditions of xistence of V. \mdash ; As equations ( 1 ) are to be equivalent to equations ( 2 ) it must be possible to find a set of numbers , such that for ( 3 ) .
+And then , since is independent of the order of the tiations , . . . . .
+( 4 ) dynamical analogy which is the sis of this section was pointed to mc by of .
+A. .
+H. LOVE .
+It has been introdtlced by POCKELS in his book ' Uber die GIeichung , ' So also RAYLEIGH , ' Sound , ' vol. I , chap .
+The boundary values in equations ( 1 ) are supposed to have been exprcssed in terms of the body values by the boundary condition .
+As to the property ( iii ) .
+note that by considcring the cocfficicnts of the in the , it is easy to show that these sums are equal if , and only if , the reciprocal relation ( 4 ) .
+And if they are equal , then , so that when is not equal to .
+But the reciprocal relation ( 4 ) is necessary to the existence of for every pair .
+This is the condition that the body equations can be derived from a single function as in ( 2 ) .
+The numbers , may be regarded as the body values of a function of position .
+It will be denoted by I and called the " " unifying factor because it allows all the body equations to be expressed in terms of a single function V. For the sake of a transformation , which will be introduced later , V must be quadratic and homogeneous , and therefore both body and boundary equations must be linear and homogeneous .
+Thus let . . . . .
+( 5 ) .
+And let the boundary equations be . . . . .
+where the , and 's are constants , most of which will commonly be zero .
+In many physical problems we havs the integral given on the boundary .
+This corresponds to a term , independent of the , in each of the equations represented by ( 6 ) .
+However , it is not which we wish to expand in the form , but the difference between the and an arbitrary function satisfying same boundary conditions .
+In the terms cancel .
+Thus we are only here concerned with functions having boundary equations which are linear and homogeneous in the Next , equation ( 4 ) leads to the following relations between the coefficients of ( 5 ) and ( 6 ) :\mdash ; . . . . .
+( 7 ) for every pair and , making at most equations .
+Now it is customary in physical mathematics to treat body and boundary conditions separately .
+Let us adopt the same course here and treat only the case in which ( 7 ) splits into two parts , namely , . . . . .
+( 8 ) to be satisfied within the body region , and ( 9 ) to be satisfied on the boundary .
+In the centre of a sufficiently large table ( 7 ) reduces to ( 8 ) even in the most general case , for there the 's and 's vanish .
+Stated in words , means that the body equations must be able to be brought into forms such that if each pair of points in the table be taken in turn , then the integral at the first point of the pair , enters into the body equation at the BY FINITE DIFFERENCES OF PHYSICAL PROBLEIsIS , ETC .
+second , with the same coefficient that the value of at the second enters into the body equation at the first .
+For example , if , are spaced in order at equal intervals along the X axis , and if , then and ( 7 ) is satisfied when the 's are simply unity .
+But if , then , so that is , while , so it is impossible to find a unifying factor .
+Next , as to .
+A particular condition in which these sums become identical is if where is an arbitrary number , independent of the By ( 6 ) this equation implies that . . . . . .
+( 10 ) .
+Equation ( 10 ) states that the boundary values will satisfy their part of ( 4 ) if every boundary number is formed as follows : Take each body-point .
+Multiply the of there by the unifying factor and by the coefficient of the said boundary number in at this point .
+Sum this product for all body points and multiply the total by a number independent of the body values .
+This is not the most general way of satisfying ( 9 ) , but it is a common one in physical problems .
+Thus , for example , if the equation to be solved is , a boundary condition of frequent occurrence is to have given , and therefore .
+This corresponds to Another common condition is , where is an element of the normal to the boundary .
+Then a boundary number will either be equal to a bodynumber or to a weighted meari of two neighbouring body-numbers ; in eithel case , in which all but one or two of the 's will vanish .
+Lastly , it will be necessary in what follows that V should be of one sign for all values of , will be so if is of the same for every Whence , by ( 3 ) , ( 5 ) , and ( 6 ) , } must be of the same sign for every . . . . . . . . . .
+( 11 ) .
+As before , we will treat only the case in which the boundary and body equations satisfy this separately , so that eyery and every have all the same sign .
+For simplicity we will take V as positive . . . . . . . . . .
+( 12 ) .
+Then has the same sign as .
+Further , as the sign of the operator does not affect the solution of the equations we may alter it itrarily , and we will for simplicity suppose it chosen at each so as to make positive ( 13 ) .
+The will then also be positive . . . . . . . . . . . . .
+( 14 ) .
+For convenience , a table is added giving the forms of I and for some common forms of .
+These were taken by analogy from finitesimals , and afterwards verified by trial .
+Thus for we have , where is the vector operator Nabla and an element ofvolume .
+On expressing in orthogonal curvilinear co-ordinates and varying , it is found that SV S. .
+I. surface VOL. CCX . .
+2 integral , where the unifying factor I is equal to minus the ratio of the volume of the elementary co-ordinate block to the product denotes a summation for every difference which involves a body-number directly ( that is not by way of boundary equations ( 6 ) ) .
+In the following table the co-ordinate difference is supposed constant each co-ordinate separately:\mdash ; Note that the averager occurs in but not in V. Having now set out the conditions of existence of V in a form in which they can easily be applied to test any operator given with unifying factor and boundary conditions , let us pass on to deduce the ) r.operties of the principal modes of vibration from the existence of V. Let . . . . .
+( 15 ) , then . . . . . . . .
+( 16 ) , and by ( 14 ) is essentially positive , Now V and being real quadratic forms in the same variables , one of which , , is * Simply putting 6 for in the infinitesimal V does not give the finite-difference V except in special cases.\mdash ; April , 1910 .
+By FINITE DIFFERENCES OF PHYSICAL , ETC .
+definite , be transformed to real sums of squares of new variables A hich are real linear functions of Thus . . . . .
+( 17 ) , . . . . .
+( 18 ) , being the values of which cause the vanishing of the determinant whose element is . . . . . .
+( 19 ) .
+But by ( 3 ) and ( 16 ) this element is And the of the determinant is , therefore , the condition that the body equations . . . . .
+( 20 ) should have an integral other than zero .
+The integrals thus defined as to body values by ( 20 ) have already been denoted by , The determinant being of the degree in vanishes for values of .
+Sinc'e one of the forms , , is definite these roots are all real ( KRONECKER , .
+cit and since both and are positive are all positive . . . . .
+( 21 ) .
+Now let the coefficients in the transformation of and V be the 's defined by ( 22 ) .
+Then differentiating ( 17 ) and ( 18 ) by and using ( 22 ) ( 23 ) , ( 24 ) , for .
+Now if we limit the hitherto arbitrary 's by making all the ( A) 's vanish except , then . . . . .
+( 25 ) , ( 26 ) , " " Definite\ldquo ; here means : one-signed and vanishing only when all vanish .
+KRONECKER , quoted by OMWICH , 'Cambridge Tracts Mathematics , ' No. 3 , also by WEBSTIIR , 'Dynamics , ' Appcndix 2 .
+so that under this limitation .
+Now if is defined as related to in the way as , is related to , that is by equation ( 6 ) then operating on both sides of ( 25 ) with , we have .
+Substituting in ( 26 ) . . . . .
+( 27 ) .
+Thus it appears that the 's and , as defined by ( 22 ) and by ( 6 ) , are the body and boundary values of the integrals Equation ( 23 ) is therefore equivalent to the statement that an arbitrary function may be expanded in the series . . . . .
+( 28 ) as to its body points , and as and the 's must all satisfy the same boundary condition the same expansion holds good on the boundary also .
+Analogous to this in infinitesimals , and for a special form of , are the expansions of functions in series of sines , Bessel functions , spherical harmonics , and other integrals of Equations ( 22 ) mean that to determine the coefficient of any principal mode of vibration in the expansion of an arbitrary function we must multiply the arbitrary function by this mode of vibration and by the unifying factor , and add up the products at the body points only .
+This is analogous to the well-known Fourier method of determining coefficients .
+Squaring .
+equation ( 23 ) , multiplying by and summing over the body points and using ( 15 ) and ( 17 ) , we find which mean the same as and ( 30 ) .
+The above proof holds good even if any of are equal to one another .
+This completes the properties of the 's which we require .
+It remains to consider some approximations to Since by ( 17 ) and ( 18 ) . . . . .
+( 31 ) , The transformation of 's to 's resembles an orthogonal transformation of co-ordinates in that there are two other relations similar to ( 29 ) and ( 30 ) .
+These are found by squaring ( 22 ) and using ( 17 ) and ( 15 ) .
+They are .
+The first means that the sum of the squares of the of the ?
+harmonics at the body point is .
+The second meils that if we take each incipal modc of vibration , form the product of its values at two fixed body points , then add up these products for the modes , their sum is zero .
+il , 1910 .
+BY FINITE DIFFERENCES PROBLEMS , ETC .
+it follows that when then , and when differs slightly from then will differ from by a small quantity of the second order ( RAYLEIGH , '.Theory of Sound , ' S88 ) .
+In S a guess is made at , and is then calculated roughly as The special values for any region are included between the greatest and least of the pertaining to any region , which includes the former region when the boundary values of both regions .
+vanish .
+For let , the integral of for the smaller region , be set round about with noughts until a larger boundary is reached .
+The conditions for the existence of a function V will then be satisfied for the larger region .
+quantities belonging to the larger region be distinguished by dashes .
+Then by ( 28 ) may be expanded in the form , where the 's are constants .
+Now by ( 31 ) , when the body values have the values given by Also , by ( 15 ) , since the added squares are zero .
+Also , by ( 3 ) , is equal to both and so that and V ' can only differ by terms independent of , .
+But there are no other variables in V ' .
+Therefore V ' and Now , expanding and by ( 17 ) and ( 18 ) , And therefore lies between the greatest and least of the .
+If , however , the boundary values do not vanish then when the 's are regarded as independent of the 's during the differentiation , whereas same quantity when V is expressed as a function of the 's entirely , and a more detailed examination that need not lie between the greatest and least values of for an enclosing boundary with zero boundary values .
+However , is necessarily finite , for it is the root of a rational integral function with finite coefficients .
+

@@ -1,0 +1,129 @@
+]\gt ; - On Non-harmonic Trigonometrical Series .
+By Prof. W. H. YOUNG , Sc. D. , F.R.S. ( Received January 31 , 1918 .
+) S1 .
+In preceding communications I have indicated the important sequences for the theory of series of functions of the consideration of what I have called Restricted Fourier series .
+This is due to the fact that a large proportion of the series actually employed in analysis can be replaced , to a first approximation , by trigonometrical series of the harmonic type .
+This is the case , for example , with series of endre coefficients , and with series of Bessel functions of rational order .
+There are , however , classes of series which can only be approximated to by non-harmonic trigonometrical series .
+This is , for example , case with series of Bessel functions of irrational order .
+The typical term of the trigonometrical series is no longer , where is an integer , but , where , however , successive values of tend to differ by a constant quantity , which may , of course , without loss of generality , be taken to be unity .
+* We are thus led to attempt to apply to series of the } ) where is irrational , the considerations exposed in our discussion of Restricted Fourier series .
+The object of the present communication is to show in what manner this step in what may be called the new theory of the convergence of series of functions may be taken .
+The fundamental theorem obtained is the following : THEOREM.\mdash ; If the trigonometrical series , ( 1 ) is such that ( i ) its second integrated series converges uniformly to at the point the individual term tends to zero , , theJb the * The conclusions thus obtained refer primarily to the internal points of the ntervals associated with the series .
+There is , however , usually no difficulty in extending them to such end-points as are not singular points for which the asymptotic trigonometric approximation fails .
+Thus , in the case of Bessel series , it is only the origin which is to be excepted ; at the point the series is subject to the same laws at points in the interior of .
+238 Prof. W. H. Young .
+upper and lower functions of original series at are independent 3 of the behaviour of series outside arbitrary small rhood ling point Norcover , if the poind innternal to a completely open interval in which tlnj intof an ntegral , the for convergence of the at the point are same as those of the series of a function ( jqual to ) ( dmost in the neighbourhood question , thrwise rbitrary .
+I do in the present note , enter into the quest , ion of expanding a function in a series , but must refer my readers to a communication on this subject to be made elsewhere .
+Yet I may say that , in this respect also , the series in question behave , in the interior of an interyal of length , in the same manner as harmonic series , provided allowed to all negative , as all positive , integral values .
+For generality this latter assumption is made in the present paper , though in the applications we have in view it is sufficient to suppose to be positive and zero only .
+* S2 .
+When is rational , a suitable change of the variable reduces the series to a harmonic series .
+There are , therefore , essentially only two cases to be discussed , that in which is zero , that in which is irrational .
+The former case I have eady considered at length in a communication to the London Mathematical Society .
+For the convenience of my readers I propose in the present note to indicate briefly the nature of the argument employed , and at the same time to slightly extend the scope in the sense of the general enunciation of the preceding article .
+This seems desirable in view of the fact that the iven below for the irrational case does not apply as it stands when .
+is zero .
+AUXILIARY THEOBElI .
+and is the ntegral of intjgral of an integral in the dosed zero -points of nterval , then ( I ) rovided only .
+* The omission of the negative indices in the present paper would only impair the heorelical generality of the result .
+In the general theory of the series their omission leads of course to a serious restriction on the nature of the function which can be represented by such a series .
+In fact , the elegance and simplicity of the theory and the analogy with Fourier series all disappear .
+It is worth noting , however , that the cosine and sine series require to be considered separately .
+" " On Restricted Fourier Series and the Convergence of Power Series 1917 .
+On Non-harmonic Series .
+I may then be expanded in the form pu , in the closed interval .
+This series will then converge absolutely and uniformly , and the first derived series will converge uniformly to , while the second derived series converges boundedly , the sum-function being in equal to .
+These sum-functions have therefore bounded variation in .
+We may , accordingly , in the following calculations , first perform the differentiation under the integral sign and then substitute 4 these series term-by-term for their sum-functions .
+We have , and therefore , writing , and using twice ation by parts , S which is easily shown to tend to zero , since is convergent , and .
+This proves the theorem .
+COR.\mdash ; If in place of the condition have the pair of ions , the convergence of our expression ( I ) to its limit zero is uniform .
+In this case , moreover , integration by parts being no longer needed , it is sufficient to assume that is the integral of an integral , vanishing at the origin .
+S3 .
+Using this auxiliary theorem we at once have the following:\mdash ; THEORgM.\mdash ; The upper and functions at the point of the second derived series of the Fourier series of a function , depend only the nature of ) VOL. Prof. W. H. Young .
+: in an arbitrary small neighbourhood enclosing the point considered , provided merely the individual , of the second derived series , terld to zero as In fact , summing the Fourier series in the usual way , we get for the partial summation of our series the following expressions:\mdash ; Using the auxiliary theorem , and giving to the expression in the interval , the required result at once follows , the upper and lower functions being thus seen to be the upper and lower limits , as , of where is an arbitrary function , which is the integral of an integral of an integral in , and has the value at the origin and Se at the point S4 .
+Using the corollary of S2 we have a corresponding theorem , in which , since the first derived series is now a Fourier series , we may perform one of the differentiations under the integral sign , and write for the expression whose limits have to be considered where S 5 .
+If in addition is the integral of an integral in some interval , however small , surrounding the point considered , we may perform the remaining differentiation under the integral .
+By the Theorem of Riemann-Lebesgue , the part of our expression involving the arbitrary function vanishes when , and we are left with an expression formally the same as for a Fourier series .
+The series itself has at the same time become an ordinary restricted Fourier series or R. F. series .
+We have thus obtained as a corollary to the theorem of S4 , the result already given by me in the paper quoted .
+S6 .
+If in the auxiliary theorem of S2 we take the interval in place of , we may take either nu or as a factor of the integrand , since , being an even function , the new terms introduced are all zero .
+Moreover , if , we need not demand more of than that should integral integral the values at , and being unrestricted .
+On -harmonic Trigonometrical Series .
+Similarly we can take for interval of an integration any interval , since the integral expressing may equally well be taken tohave these limits , provided we divide by an irrelevant numerical faotor .
+Now suppose to be zero , except in the open interval where 2 .
+Then since is the integral of an integral in is also zero , except in the same open interval .
+Thus in the corollary to theorem ( S2 ) , we may take the interral of integration to be in place of , provided in is the integral of an integral , and moreover , in ( I ) we macos in place of sin nu .
+Also , if , the factor may evidently be replaced by , and therefore we may write S7 .
+In the auxiliary theorem and corollary , as well as in S6 , we may replace the differentiation sign d by the factor , in virtue of the following calculation , provided is an integral are zero at the limits of since , when we diffel'entiate once , the part due to the limits of integration is zero , as , and when we differentiate a second time the part due to the limits of integration is zero , since .
+Thus our expression becomes The first of these integrals vanishes , when , by the Theorem of Riemann-Lebesgue .
+The second , when integrated by parts , becomes 242 Prof. W. H. Young .
+which vanishes , when , by the Theorem of since and are both integrals , and therefore is summable .
+The same form of argument applies when is replaced by Thus This proves the required result .
+S8 .
+In the form given to our theorem in S7 , the student of Riemann will recognise the close connection of our auxiliary theorem with what Riemann calls his Third Theorem on Trigonometrical Series .
+* Clearing the enunciation of restrictions which are now seen to have been unnecessary , the theorem is as follows:\mdash ; RIEMANN'S THIRD THlBOREM.\mdash ; If in the function is the integral of an integral , and if and are both zero at and , then the integral , where and the coefficients satisfy the conditions Here is not necessarily , as it was in our auxiliary theorem , an By the argument of S7 we may , in Riemann 's Theorem , replace the factor by the sign of differentiation S9 .
+We now proceed to indicate how the extended form of Riemann 's Third Theorem , applicable to our non-harmonic series , may be obtained .
+We first remark that Riemann has proved that the series where assumes all positive and negative integral numbers except a finite ( fixed ) number in the neighbourhood of zero , and in the neighbourhood of determined by the inequalities * B. Riemann , " " Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe ' Ges .
+Werke , ' pp. 248-261 ( 1864 ) .
+It is not even necessary that should be bounded .
+On rmonic TSeries .
+has a sum which , as , remains bounded .
+In fact , if we divide the whole infinite straight line up into parts of right and left from the origin and form the lower summation with respect to these intervals of function , from to , omibting the intervals and , the 's being supposed each , we get a summation which contains every , .
+over the same intervals .
+Putting in the values corresponding to the limits of integration and dividing by , we easily see that we get a quantity which remains bounded as This proves the required result , which may be expressed by saying that remains bounded as , the summation being made for all positive and negative values of , omitting a finite number on each side of the vatues and S10 .
+The enunciation of the theorem is as follows:\mdash ; \mdash ; If in the function is the integral of an integrat , and if are both zero at and , then , where , provided , and the series converges uniformly .
+We shall prove the theorem for , the proof for is similar .
+Since the series converges uniformly , we may replace in I by its equivalent series .
+We thus get I expressed by means of a series ( ) , whose generic term is Prof. W. H. Young .
+If is not an integer , or , being an integer , is not , we may write this where we have integrated by parts twice , and used the condition Also if Thus we see that the generic term of is numerically where denotes , for fixed , the greatest of the quantities assuming all positive integral values such that Such a greatest quantity exists , since , by the theorem of RiemannLebesgue , these quantities tend to zero as .
+By the same theorem , varying with , as it does in , the integral in the expression tends to zero , when , however may vary , unless remains finite ; while , if remains finite , and therefore .
+Thus , however varies in the expression for , we have Also , the individual terms of tend to zero as by the same reasoning , therefore the omission of any finite number of them , fixed as varies , will not affect our result .
+Let us omit a finite number greater than unity on each side of the and the quantity , the value will then , if an integer , be eliminated , and we shall certainly have What remains of will then , by what has been shown , be numerically On Non-harmonic Trigonor netrical 1 the summation being made for all positive and negative integers , except a finite number on each side of the values of and As pointed out in S 9 , this summation is bounded as , therefore , since , our expression tends to zero as .
+This proves the theorem .
+COR .
+, in addition to the conditions of the theorem , is an integral , This follows at once by S7 .
+Here one of the differentiations may be performed under the integral sign .
+S11 .
+Similarly , if , instead of , we have , where we have corresponding results with in place of .
+S 12 .
+If , the results of SS 10 and 11 both hold , thus , , which , when we suppress the , is the form adopted by Riemann , and constitutes the exact generalisation of his Third Theorem , and coincides with it when we put In this case , when , the condition as to uniform convergence is satisfied of itself .
+Moreover , now an integral , for we may write its expansion in the form where , for instance , is the integrated series of a Fourier series , since the squares of the coefficients of rx and rx in its derived series form a convergent series .
+Thus , and similarly , and , converge to integrals , whence also is an integral , as was stated .
+The corollary of S10 therefore holds .
+S 13 .
+We now require certain lemmas , of which the proof can be easily supplied by the reader .
+These replace in the theory of non-harmonic series the well known normal properties possessed by and , where is an integral .
+They are accordingly fundamental in the development of the theory of non-harmonic trigonometrical series , to which reference was made in the introduction .
+246 Prof. W. H. Young .
+LEMMA \mdash ; If and are different integers , positive , negative , or zero , and if , the vatue of the integral LEMMA \mdash ; If and are integers , positive , negative , or zero , such that is not zero , and if , the value of the integral is S14 .
+From these Lemmas we have at once , by subtraction and addition , the following formulae :\mdash ; , ( II ) , .
+( III ) S 15v .
+Now consider the series .
+( 1 ) As before we suppose that the second rated series converges uniformly , and denote its sum-function by ) .
+In particular this will be the case if and are bounded functions of We have then , ( 2 ) the series converging uniformly .
+We may , therefore , multiply both sides by , or by , and integrate term-by-term .
+Using the formula II , we then get S and therefore , for On ( 3 ) Similarly , for Hence , since ' for the ) ) of the series ( 1 ) , .
+( 4 ) S16 .
+The proof of the result stated in the introduction once We see by S15 that the upper and lower functions of ) are , an irrelevant factor , equal to the upper lower limits , helt , of the expression* In treating this expression the first step is to introduce , in ) of , a function , defined as equal to having at the the value 2 while its differential zero there .
+In this function is to ) the integral of an integral , same left and right hand differential coefficients at the point and is otherwise snbject to no conditions .
+* We work here with , whereas in the introduction it is does not affect the result .
+VOL. XCV . .
+X Hence , in otlr investigation , we ) replace I by if is a repeated , we may in the secono1 and third terms perform the repeated differentiation under the integral sign .
+ince is bounded , the last term then tends to zero by the Theorem of Riemann-Lebesgue .
+The second term will then require further consideration , it is the important term , as it leads to the identification of our theory with the Fourier theory .
+The first term we treat as follows : we introduce a new function defined as equal to , having at the origin zero for its vnlue , and for the value of its differential coefficient .
+This function , when suitably filled in from to , satisfies the conditions imposed on in the extended form of 's Third Theorenl .
+Hence , omitting the factor our first may be replaced by the following : On rmonic TSeries .
+The last three terms tend to zero by the TIIeorem of Riemaun-Lebssgue , since repeated differentiation under the sign of integration in is allow- able , and the functions , and uuity are all bounded .
+The first term by of S15 is equal to and , therefore , by hypothesis , tends to zero .
+-inserting the factor hitherto negJected we are thus , in the case when is the integral of an integral in , left with the expression Now , and is therefore bounded iu the neighbourhood of the origin .
+By the Theorem of Riemanu-Lebesgue , therefore , multip y and from to , the integral tends to zero as .
+Thus we may replace our expression by the Fourier expression S This proves the theorem in this case .
+In the enetal case the terms we are left with depend only on the values of and in , which proves the theorem .
+COR .
+' the upper and lower functions of the upper and lower limits of where is the integral of an integral in and has the value at the origin and at , while its differential coefficient is zero at the origin and , and is arbitrary .
+VOL. XCV .
+

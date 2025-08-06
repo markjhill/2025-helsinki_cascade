@@ -1,0 +1,43 @@
+The following paper was read:"On Differential Transformation and the Reversion of Serieses .
+" By J. J. SYLVESTER , Esq. , F.R.S. Received January 25 , 1855 .
+With a view to its publication in the Proceedings of the Society , I take occasion to communicate the result of my investigations , as far as they have yet extended , into the general theory of differential transformations , containing a complete and general solution of the important problem of expanding a given partial differential coefficient of a function in respect of one system of independent variables in terms of the partial differential coefficients thereof , in respect to a second system of independent variables , each respectively given as explicit functions of the first set .
+This question may be shown to be exactly coincident with that of the reversion of simultaneous serieses proposed by Jacobi , which may be thus stated : given ( n+l ) quantities , each expressed by rational infinite serieses as functions of n others ; required to express any one of the first set in a rational infinite series in terms of the other n of the same set .
+This question has only been resolved by Jacobi for a particular case ; the result hereunder given for the transformation of differential coefficients contains the solution of the general question .
+My method of investigation is entirely different from that adopted by the great Jacobi , and I hope in a short time to be able to lay it in a complete form before the Society , and probably to add a solution of the still more general question comprising the reversion of serieses as a particular case , viz. the question of expressing any one of n quantities connected by m equations in terms of any ( n-m ) others of the same .
+Let there be any number of variables , say u , v , w , of which x , y , z , .
+are given functions , it is required to expand ( )f dgd -h ( dx)\ die ) dz)a in terms of the partial differential coefficients of , x , , z in respect of u , v , w. Form the determinant dx dx dx du dv dw die die die du ' dv dw dz dz dz du dv dw which call J. The required expansion will contain in each term an integer numerical coefficient , a power of j , one factor of the form Id\P vd\q / d'd\du ) kdv)\dw'j and other factors of the form _d d " laV ' d~ ( Yd ( dyk ) ( p ) kduJ\dv}\dwJ\du)\dv)\dw a y " d\_'V " f ad , , ' Let the latter class of factors be distinguished into two sets , those where l+m+n=l , li.i =0 m=O n=-\ or IO= m=l n--0 or 1=0 nm=0 n=1/ which I shall call uni-differential factors , and those in which l+m +n7 1 , which I shall call pluri-differential factors .
+First , then , as to the form of the general term abstracting from the numerical coefficient and the uni-differential factors ( except of course so far as they enter into J ) .
+This will be as follows:-/ d\'2 / d\'m/ d\17'i f d\21l/ d\2112/ d\21 / d\ell / d\ e , nl / d\e12 tWd { v ) d dw)\ du ) ( Tv -)( *'"d ) dw ) dvd dw l d\112 d 'm2f d 12 l d\Il / dd\e2 , n2 d\e2n2 du d , dw du dw dv di Xd ^1 d q/ dr/ X3 / d I/ d d/ d\P , 'd\/ dy 1 subject to the limitations about to be expressed .
+Call l +Qll+.,..-l =LI1 +13+ ... + 13=L 3 , and form the analogous quantities Ml , M2 , M3 ; N2 , N2 , N3 .
+Then we must have L1+L +L 3+M +M3+N+ M +N N , +p+g+r =f +g h+e , +e+e3 ; and as the sum of any group of indices I , m , n must he not less than 2 , we have f+-g h+el +e2d-e3+p+q+2^r , not less than 2e , +2e , +2e3 , so that e , + e-23 e3 must not exceed f+g+h +p + r ; furthermore , p -+ q+r must not exceed f+ g+ hI ; and finally , *w-f g+h+el ?
+e2+e3 .
+w f-44g 4h 2 e. 1 .
+We may first take e+ e2 e=E , giving to E in succession all integer values from f+g hto 2f+ 2g +2h , and find all possible solutions of this equation with permutations between the values of Ie , e2 , e3 .
+2 .
+We may then take p+ q-+r=s , giving s in succession all integer values from 1 to f+ g+ h , and find all possible solutions of this equation with permutations betweenf , g , h. 3 .
+We may then take L+M+N-f+g+h + ?
+E--s , and find all the values of L , M , N , with permutations allowable between the values of L , M , N. 4 .
+We may then take L , +L2 +L3 =L M+ M2+ M3=M N1 +N2 +N3=N , and solve these several equations in every way possible , with permutations as before .
+5 .
+We must take 'l , + l+ +el .
+e , =L 'm +2m +..+ elm , =Ml 'l +2n l+ e. N1 12 -l , ... .
+e2l , ' , L Im-m ... .
+eem2-M2 1n2+ 2n e2n2=N2 11 3+23 ... .
+e31I3 m 3+m3 ... .
+e3ms-M 'n1 3 3+n3 e3n=N and solve in every possible manner these equations , but without admitting permutations between the values of 11 , ... ell , , or between the values of the members of the other of the third sets taken eachper se , and subject to the condition that every such sum as 'li + mi+ in must be greater than unity .
+Every possible system of values of these nine sets will furnish a corresponding pluri-differential part to the general term .
+Next , as to the uni-differential part , we may form the quantity / die dz die dz\ldy dz d ddz\lfdy dz die dz\V\dv dw dw dvJ\dw du du dw } du dv dv dwJ ( dz dx dz d\ dz dx dz dx d dz dx dd dz dx\Y dv dw dw dv dw du du dw\du dvdv dw ( dx die dx dyX/ dx die dx die \ 3dx die dx dyya dv dw dw dv/ dw du du dw du dv dv dw 3 where X+A+ X3 =L+p P1 +P2+3=M+q Vl + v2+ V3sN+r .
+These equations are to be solved in every possible manner with permutations between the members of the X set , the a set , and the v set .
+Finally , we have to consider the numerical coefficient .
+To give a perfect representation of this , we must ascertain what identities exist in the factors of the pluri-differential part .
+Let us suppose that one set of operators upon x is repeated 0 , times , another times , and so on , giving rise to the powers 0 , , 02 , ... ..0 in the x line .
+Similarly , form 1 , , ... p from the y line , and 41 , 2 ... Y from the z line .
+Then the numerical part of the general term will be I(X1+ PI+ V1)nH2(X2+ 2+ H2)H(X3 + M/ + V3 ) HnXl , n[Jul 1n^nX2nP2 FvnX2fns3P3 1n1,3 n(L4+p)n(M4M )U(N+r ) n'/ n'ml nlnHlal mHnan ... . .
+1 1n2nlm2 12 2u2n2 1112 11 " M22 ... . .
+2 nII'llllm3 'n31n:311i2m3I1m2n3 ... J D Ho , no. .
+n. On1 , n 2. .
+n on 1 2i n ... ny where in general IIm means 1.2.3 ... m : as regards D , it is the following determinant , viz. N , +p1 +V Vvv L3 Ms N3 v X2 2++V2 v12 M2 N2 v vi 3 +3 +v3 I , M M , N , X , Xs X3 L , +L2 L3+p wi P2 P3 v MN+M2 +Ms v , ^2 V3 w N , +N2+N3+r The result , for greater brevity , has been set out in the above pages for the case of - , a function of three variables , but the reader can have no difficulty in extending the statement to any number .
+In the case of a single variable , the formula can easily be identified with that given by Burman 's law .
+It is noticeable that the determrinant above written is of the form Apqr + Bpq + Cqr + Dqrp + Eipe + Fq + Gr , the part independent of p , q , r being easily seen to vanish .
+Moreover , A , B , C , D , E , F , G , H are all essentially positive , so that D can only vanish ( except for p=0 , r=O , q=0 ) by virtue of one condition at least more than the number of the variables .
+

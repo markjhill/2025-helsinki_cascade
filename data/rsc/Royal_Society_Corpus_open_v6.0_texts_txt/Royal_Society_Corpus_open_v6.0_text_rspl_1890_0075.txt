@@ -1,0 +1,107 @@
+Prof. G. H. Darwin .
+[ Jan. 29 , January 29 , 1891 .
+Sir WILLIAM THOMSON , D.C.L. , LL. D. , President , in the Chair .
+The Presents received were laid on the table , and thanks ordered for them .
+The Bakerian Lecture was delivered as follows :\#151 ; Bakerian Lecture.\#151 ; On Tidal Prediction .
+" By G. H. Darwin , F.R.S. , PIranian Professor and Fellow of Trinity College , Cambridge .
+Received December 16 , 1890 .
+( Abstract .
+) At most places in the North Atlantic the prediction of high and low water is fairly easy , because there is hardly any diurnal tide .
+This abnormality makes it sufficient to have a table of the mean fortnightly inequality in the height and interval after lunar transit , supplemented by tables of corrections for the declinations and parallaxes of the disturbing bodies .
+But when there is a large diurnal inequality , as is commonly the case in other seas , the heights and intervals , .
+after the upper and lower lunar transits , are widely different ; the two halves of each lunation differ much in their characters , and the season of the year has great influence .
+Thus simple tables , such as are applicable in the absence of diurnal tide , are of no avail .
+The tidal information supplied by the Admiralty for such places consists of rough means of the rise and interval at spring and neap , modified by the important warning that the tide is affected by diurnal inequality .
+Information of this kind affords scarcely any indication of the time and height of high and low water on any given day , and must , I should think , be almost useless .
+This is the present state of affairs at many ports of some importance , but at others a specially constructed tide-table for each day of each year is published in advance .
+A special tide-table is clearly the best sort of information for the sailor , but the heavy expense of prediction and publication is rarely incurred except at ports of first-rate commercial importance .
+There is not , to my knowledge , any arithmetical method in use of computing a special tide table which does not involve much work and expense .
+The admirable tide-predicting instrument of the Indian On Tidal Prediction .
+' 1891 .
+] Government renders the prediction comparatively cheap , yet the instrument can hardly be deemed available for the whole world , and the cost of publication is so considerable that the instrument cannot , or at least will not , be used for many ports at remote places .
+It is not impossible , too , that national pride may deter the -naval authorities of other nations from sending to London for their predictions , \#166 ; although the instrument may , I believe , be used on the payment of certain fees .
+The object , then , of the present paper is to show how a general tide table , applicable for all time , may be given in such a form that any one with an elementary knowledge of the Nautical Almanac may , in a few minutes , compute two or three tides for the days on which they are required .
+The tables are also such that a special tide-1 table for any year may be computed with comparatively little trouble .
+Any tide-table necessarily depends on the tidal constants of the particular port for which it is designed , and it is supposed in the paper that the constants are given in the harmonic system , and are derived from the reduction of tidal observations .
+Where the obser-j .
+vation has been by tide-gauge , the process of reduction is that | explained in the Report to the British Association for 1883 , but where i the observations are only taken at high and low water , a different 4 process becomes necessary .
+I have given in a previous paper a scheme of reduction in these cases.* At ports not of first-rate commercial importance observation has I rarely been by tide-gauge , and thus it is exactly at those ports , where | the method of this paper may prove most useful , that we are deprived t of the ordinary method of harmonic analysis .
+On this account I I regard the previous paper as preliminary to the present one , although | the two are logically independent of one another .
+In the harmonic method the complete expression for the height of ^ water at any time consists of a number of terms , each of which ^ involves some or all of the mean longitudes of moon , sun , lunar and \#163 ; solar perigees ; there are also certain corrections , depending on the longitude of the moon 's node .
+The variability of the height of water \#163 ; depends principally on the mean longitudes of the moon and the sun and to a subordinate degree on the longitude of lunar perigee and | node , for the solar perigee is sensibly fixed .
+There are , therefore , i two principal variables , and two subordinate ones .
+This statement . .
+suggests the construction of a table of double entry for the variability of tide due to the principal variables , and of correctional " , tables for the subordinate ones ; and this is the plan developed in the T paper .
+The mean longitudes of the moon and sun are not , however , convenient as variables , and accordingly the principal variables in the * ' Roy .
+Soc. Proc. , ' 1890 , vol. 48 , p. 278 .
+On Tidal Prediction .
+[ Jan. 29 , tables are the time of moon 's transit and the time of year ; whiW the subordinate variables are the moon 's parallax and the longitude of her node .
+The tide-table , then , consists of the interval after moon 's transit and height of high and low water , together with nodal and parallactic corrections , computed for every 20m of moon 's transit , and for about every ten days in the year .
+Each table serves for the two times of year at which the sun 's longitude differs by 180 ' , and they may be used without interpolation .
+The nodal correctional terms consist of two times and of two heights , which are to be multiplied by the cosine and sine of the longitude of the moon 's node , to give the total nodal corrections to the interval and height .
+The parallactic correc-tional terms consist of a time and a height , which are to be multi-plied by the excess above , or defect below 57 ' of the moon 's parallax at moon 's transit to give the total parallactic corrections to the interval and height .
+I had hoped that less elaborate tables might have sufficed , but it appeared that , at a station with very large diurnal inequality , the changes during the lunation , and with the time of year , in the interval and height are so abrupt and so great , that short tables would give very inaccurate results , unless used with elaborate interpolations .
+It is out of the question to suppose that a ship 's captain would or could carry out these interpolations , and it is therefore proposed to throw the whole of that work on to the computer of the table .
+Such a paper as this can only be deemed complete when an example has been worked out to test the accuracy of the tidal prediction , and when rules for the arithmetical processes have been drawn up , forming a complete code of instructions to the computer .
+The port of Aden was chosen for the example , because its tides are more complex and apparently irregular than those of any other place which , as far as X know , has been thoroughly treated .
+The arithmetic of the example was long , and was re-arranged many times .
+An ordinary computer is said to work best when he is ignorant of the meaning of his work , but in this kind of tentative work a satisfactory arrangement cannot be attained without a full compre-hension of the reason of the method .
+I was therefore fortunate in securing the enthusiastic assistance of Mr. J. W. F. Allnutt , and I owe him my warm thanks for the laborious computations he has carried out .
+After computing fully half the original table , he made a comparison for the whole of 1889 of our predictions with those of the Indian Government .
+Without going into the details of this comparison , it may be mentioned that the probable error of the discrepancy between the two tables was 9m in time , and 1-2 inches in the height a alS " water\#187 ; ^at there were reasons to expect some systematic difference between the two calculations , and that all the considerable 1891 .
+] Presents .
+errors of time fall on those very small rises of water which are of frequent occurrence at Aden .
+3 I have made two other comparisons , one with the Indian predictions j of 1887 , and the other with actuality of 1884 .
+In the latter case , when - a few very small tides were omitted , the probable error was 7m in the time , and 1*4 inches in height .
+It is concluded from these compari-i gons that , with good values for the tidal constants , the tables lead to l excellent predictions , even better than are required for nautical pur-jj poses .
+It is probable that this method may be applied to ports of second-rate importance , where there are not sufficient data for very accurate i determination of the tidal constants .
+Suggestions are made for very I large abridgment of the tables in such cases , accompanied , of course , by loss of accuracy .
+The question of how far to go in each oase must depend on a i variety of circumstances .
+The most important consideration is , I !
+fear , likely to be the amount of money which can be expended on 1 computation and printing ; and after this will come the trustworthi-I ness of the tidal constants , and the degree of desirability of an accu-f rate tide-table .
+The aim of the paper has been to give the tables in I a simple form , and if , as seems certain , the mathematical capacity of I an ordinary ship 's captain will suffice for the use of the tables , whether in full or abridged , I have attained the principal-object in view .
+Presents , January 29 , 1891.- Transactions. .
+Albany:\#151 ; New York State Museum of Natural History .
+Bulletin .
+Nos. 7-10 .
+8vo .
+Albany 1889-90 .
+The Museum .
+Amsterdam:\#151 ; Koninklijke Akademie van Wetenschappeu .
+Ver-slagen en Mededeelingen .
+Afd .
+Natuurkunde .
+Heel VI .
+8vo .
+Amsterdam 1889 .
+The Academy .
+Baltimore:\#151 ; Johns Hopkins University .
+Circulars .
+Vol. X. Nos. 83-84 .
+4to .
+Baltimore 1890 ; Studies from the Biological Laboratory .
+Vol. IV .
+No. 7 .
+8vo- 1890 ; Studies in Historical and Political Science .
+Series 8 .
+Nos. 5\#151 ; 12 .
+8vo .
+Baltimore 1890 ; Annual Report of the University .
+1890 .
+8vo._ Baltimore .
+The University .
+Peabody Institute .
+Annual Report .
+1890 .
+8vo .
+Baltimore .
+The Institute .
+Basel:\#151 ; Naturforschende Gesellschaft .
+Verhandlungen .
+Bd .
+IX .
+Heft 1 .
+8vo .
+Basel 1890 .
+The Society .
+

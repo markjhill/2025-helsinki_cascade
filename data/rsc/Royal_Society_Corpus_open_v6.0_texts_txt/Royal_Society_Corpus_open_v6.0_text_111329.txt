@@ -1,0 +1,43 @@
+XVII .
+" On Autopolar Polyedra .
+" By the Rev. THOMAS P. KIRKMAN , M.A. Communicated by ARTHUR CAYLEY , Esq. , F.R.S. Received June 19 , 1856 .
+( Abstract .
+) An autopolar polyedron is such , that any type or description that can be given of it remains unaltered , when summits are put for faces , and faces for summits .
+To every / -gon B in it corresponds a / 3-ace b ( or summit b of 3 edges ) , which may be called the pole of that,3-gon ; and to every edge AB , between the a-gon A and the 3-gon B , corresponds an edge ab , between the a-ace a and the / 3-ace b. Two such edges are called a gamic pair , or pair of gamics .
+The enumeration of autopolar p-edra is here entered upon as a step towards the determination of the number of p-edra .
+The theorems following are established , and shown to be of importance for the solution of the general problem .
+THEOREM I.-No polyedron , not a pyramid , has every edge both in a triangle and in a triace .
+Def. An edge of a polyedron is said to convanesce , when its two summits run into one ; and it is said to evanesce , when its two faces revolve into one .
+An edge ( AB ) is said to be convanescible , when neither of the faces A and B is a triangle , and ( AB ) joins two summits which have not two collateral faces , one in either summit , besides A and B. An edge ( ab ) is said to be evanescible , when neither a nor 6 is a triace , and the two faces about ( ab ) are not , one in either , in two collateral summits , besides a and 6 .
+THEOREM II.-Every polyedron , not a pyramid , has either a convanescible or an evanescible edge .
+THEOREM III.-Any p-edral q-acron , not a pyramid , can be reduced by the vanishing of an edge , either to a ( pl)-edral q-acron , or to a p-edral ( q-l)-acron .
+By such a reduction of a p-edral q-acron P to P ' , of Pt to P " , &amp;c. , P can be shown to be generable from a certain pyramid fI ; by which it is meant that in is the highest-ranked pyramid to which P can by such reduction be reduced .
+Hereby it is evident that the problem of enumeration of the x-edra is brought down to this : to determine how many ( r+m)-edra are generable from the r-edral pyramid .
+The autopolars so generable are first considered , as the heteropolars are obtained by combination and selection of those operations with which the theory of the autopolars makes us acquainted .
+Autopolarity is of three kinds , nodal , enodal , and utral .
+Every even-based pyramid is nodally autopolar ; i. e. it cannot but have two nodal summits .
+For example , the 5-edral and 7-edral pyramids have the signatures of their faces and summits thus arranged,1234 123456 4321 654321 ' the upper line showing the triangles , and the lower the triaces about the base , which as well as its pole the vertex , is signed zero .
+The two triaces in the triangle 5 are 3 and 2 ; the two triangles in the triace 1 are 6 and 1 in the 7-edron , and 4 and 1 in the 5-edron .
+The nodal summits and faces are 3 and 1 in the 5-edron , and 4 and 1 in the 7-edron .
+No other mode of autopolar signature is possible in these .
+Every odd-based pyramid is utrally autopolar .
+The 6-edral and 8-edral pyramids may receive either of the signatures following:-12345 1234567 54321 765432 1 12345 1234567 45123 5671234 the first of which lines exhibits nodal faces and summits 31 and 41 , while in the second every triangle is opposite its polar triace , and no face or summit is nodal .
+No pyramid is enodally autopolar , i. e. capable of only enodal signature .
+If we draw a 7-gon whose summits are 1234567 , and then the dotted lines 73 and 75 , and next taking three points in it , complete the 5-gon 34089 , and join 93 , 92 , 81 , 87 , 06 , 05 , 04 , we can sign the faces thus:045=1 , 506=2 , 6087=3 , 781=4 , 1892=5 , 293=6 , 39804=7 , 2371=0 , 3754=8 , 567=9 .
+The type now represents an enodally autopolar 10-edron , in which no pair of gamics meet each other , or can by any autopolar arrangement be made to meet .
+The 18 edges of the solid are well represented thus , the odd places in a quadruplet showing summits , and the even , faces:1520 2630 3748 4158 5269 6379 7410 0783 8795 0251 0362 8473 8514 9625 9736 0147 3870 5978 The gamic pairs stand together , and no quadruplet exhibits fewer than four numbers .
+A nodally autopolar must always be , and a utrally autopolar may always be so signed , that two pairs of gamics shall exhibit in each quadruplet a duad of the form aa .
+In the above type it is observable that every duad , as 15 , occurs four times .
+The same thing is to be seen in every autopolar type of edges .
+If we make use of the closed 10-gon 1239804567 , as directed in a paper " On the Representation of Polyedra , " in the 146th volume of the Transactions of the Royal Society , a paradigm of this 10-edron can be written out , exhibiting to the eye all the faces , summlits , angles , and edges of the figure .
+The problems following are next proposed and solved .
+To find the number of autopolar ( r + 2)-edra generable from the ( r +1)-edral pyramid .
+The answer is , ( r &gt; 3 ) , ( r2-3r)4,.+(r2-3r+ 2)4._2+ ( r2-2r-3).2rj , where the circulator s =1 or =0 as r is or is not =sm .
+To determine the number of autopolar ( r + 3)-edra generable from the ( r +1 )-edral pyramid .
+The solution is , ( r &gt; 3 ) , 2 { r4 -6r3+112-36r+ 24+9r2.2 +(r3+29r+60)2r , o(r.-4)2(r- ?
+7)2 .
+( r-5)2 Hence it appears that there is one autopolar 6-edron , not a pyramid , and five autopolar 7-edra besides the 7-edral pyramid , viz. three generable from the 6-edral and two from the 5-edral pyramid .
+The problem of enumeration of the x-edra may , by a slight extension of the meaning of partition , be stated thus : to determine the k-partitions of a pyramid ; and this depends on the problem , to find the k-partitions of a polygon , and on this , which is nearly the same question , to find the k-partitions of a pencil .
+By the k-partitions of a p-gon is meant the number of ways in which k lines can be drawn not one to cross another , and terminated either by the angles of the polygon , or by points assumed upon its sides or within its areas so as to break up the system of one face and p summits into a system of 1+h faces and p+i summits , where h+i=k ; it being understood that if a point be assumed within the area , three lines at least shall meet in it , and if on a side , one segment of it shall be counted among the k lines .
+The number of k-partitions proper , for which i=0 , or of ways in which k-diagonals can be drawn none crossing another , ispk[1.(_p3)kl-1 Ck+~l.( +2 which is also the number of ways in which a pencil ofp rays can be broken up into p+k pencils , by the addition of k lines , each one connecting two pencils .
+

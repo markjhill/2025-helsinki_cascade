@@ -1,0 +1,375 @@
+Dynamical Problems regarding Elastic Spheroidal Shells and Spheroids of Incompressible Liquid .
+By Professor W. THOMSON , LL. D. , FI..S .
+Received August 22 , -Read November 27 , 1862 .
+1 .
+THE theory of elastic solids in equilibrium presents the following general problem : A solid of any shape being given , and displacements being arbitrarily produced or forces arbitrarily applied over its whole bounding surface , it is required to find the displacement of every point of its substance .
+The chief object of the present communication is to show the solution of this problem for the case of a shell consisting of isotropic elastic material , and bounded by two concentric spherical surfaces , with the natural restriction that the whole alteration of figure is very small .
+2 .
+Let the centre of the spherical surfaces be taken as origin , and let x , y , z be the rectangular coordinates of any particle of the solid , in its undisturbed position , and x+M , y+3 , z+y the coordinates of the same particle when the whole is in equilibrium under the given superficial disturbing action .
+Then , by the known equations of equilibrium of elastic solids , we have ( d'2a+d ^+ &amp; 2)L dIla dpdy d. ( 1 ) Id2y d2y d2y\ .
+d / a d/ d-\ m- In and n denoting the two coefficients of elasticity , which may be called respectively the elasticity of volume , and the rigidity .
+A demonstration of these equations , with definitions of the coefficients , will be found in § 71 of an Appendix to the present communication .
+3 .
+For brevity let d+ , ... . .
+d2 dx 'dy ' dz ' ( 2 ) so that 6 shall denote the cubic dilatation at the point ( x , y , z ) of the solid .
+Also , for d2 d2 d2 brevity , let the operation d-2+y2+d2 be denoted by V2 .
+Then the preceding equations become 2 nV2 + am =O , nv2I+m O , ... ... ... . .
+( 3 ) nv2+y +m =O .
+PROBLEMiS REGARDING 4 .
+In certain cases , especially the ideal one of an incompressible elastic solid , the following notation is more convenient:p the mean normal pressure per unit of area on all sides of any small portion of the solid , round the point x , y , z. Then ( below , § 21 ) p= -(m-13 )(+ .
+die J ) ; .
+( 4 ) and the equations of equilibrium become m dp .
+m-3n dx iV213 m dp=0 ... ... ... ( 5 ) -3ndy--o m-in dz 5 .
+If the solid were incompressible , we should have mn=oo and dxa +^ eddz which must be taken instead of ( 4 ) , and , along with ( 5 ) , would constitute the four differential equations required for the four unknown functions a , 3 , r , p. 6 .
+To solve the general equations ( 3 ) or ( 5 ) , take d ' of the first , y of the second , and dof the third ; and add .
+We have thus ( n+M)V2b=O , ... ... ... . .
+( 6 ) or , which is in general sufficient , V2= o ... ... ... ... . .
+( 7 ) If , now , an appropriate solution of this equation for w is found , the three equations ( 3 ) may be solved by known methods , the first of them for a , the second for 3 , and the third for y , the arbitrary part of the solution in each case being merely a solution of the equation V2u=0 .
+These arbitrary parts must be determined so as to fulfil equation ( 2 ) and the prescribed surface conditions .
+The complete particular determination of w cannot , however , in most cases be effected without regard to a , 3 , y ; and the order of procedure which has been indicated is only convenient for determining the proper forms for general solutions of the equations .
+7 .
+First , then , to solve the equation in S generally , we may use a theorem belonging to the foundation of LAPLACE'S remarkable analysis of the attraction of spheroids , which may be enunciated as follows .
+If the equation V23=0 is satisfied for every point between two concentric spheres of * See Professor STOKEs 's paper " &lt; On the Friction of Fluids in Motion , and the Equilibrium and Motion of Elastic Solids , " Cambridge Philosophical Society 's Transactions , April , 1845 .
+SPIlEROIDS OF INCOMPRESSIBLE LIQUID .
+585 radii a ( greater ) and a ' ( less ) , the value of 6 for any point of this space , at distance r from the centre , may be expressed by the double series Vo +VI +V2 + &amp;c. +V'r-l+V'r-3'+V , r-5+ &amp;c. , of which the first part converges at least as rapidly as the geometrical progression a ( ) ( a ) and the second at least as rapidly as -if V , , V ' denote homogeneous functions of x , y , z of the order i , each satisfying , continuously , for all values of x , y , z , the equation V2V=O .
+A proof of this proposition is given in TIOMSON and TAIT'S 'Natural Philosophy , ' chap .
+i. Appendix B. It is also there shown , what Irbelieve has been hitherto overlooked , that Vi , VI , as above defined , cannot but be rational and integral , if i is any positive integer .
+8 .
+To avoid circumlocution , we shall call any homogeneous function of ( x , y , z ) which satisfies the equation V2V=( a " spherical harmonic function , " or , more shortly , a " spherical harmonic .
+" Thus V , and V ' , as defined in § 7 , are spherical harmonics of degree or order i ; and VXrl , being also a solution of V2V=O , is a spherical harmonic of degree -(i+1 ) .
+We shall sometimes call the latter a spherical harmonic of inverse order i. Thus ui being any spherical harmonic of integral degree i , and therefore necessarily a rational integral function of this degree , utr-2i1 ' is a spherical harmonic of degree ( i+ 1 ) , or of inverse order i. If we put-(i+l)= ' and denote this last function by &lt; j , then we have p^r -2j I=u ; and thus it appears that the relation between a spherical harmonic of positive degree i and of negative degree j is reciprocal .
+The general ( well known ) proposition on which this depends is that if Vi is any homogeneous function of ( x , y , z ) of degree i , positive or negative , integral or fractional , VYr-21- ' is also a solution of the equation V2V=O ( see THOMSON and TAIT'S ' Natural Philosophy , ' chap .
+i. Appendix B. ) .
+A spherical harmonic of integral whether positive or negative degree , satisfying the differential equation continuously for all values of the variables , will be called an " entire spherical harmonic , " because such functions are suited for the solution of acoustical and other physical problems regarding entire spheres or entire spherical shells .
+A spherical harmonic function of ( x , y , z ) will be called a " spherical surface-harmonic " when the point ( x , y , z ) lies anywhere on a spherical surface having its centre at the origin of coordinates .
+A spherical surface-harmonic is therefore a function of two variables , angular coordinates of a point on a spherical surface .
+If Y , denote such a function of order i , positive and integral , then Y , ri and Yir-i " ' are what we now call simply spherical harmonics ; but sometimes we shall call them , by way of distinction , " spherical solid harmonics .
+" Functions Yi , or spherical surface-harmonics of integral orders , have been generally called " LAPLACE'S coefficients " by English writers .
+9 .
+From the theorem enunciated in § 7 , we see that the general solution of our problem , so far as 6 is concerned , is this : S= )(Vi+Vr2-1 ) ... ... ... .
+( 8 ) 10 .
+Now because the equation V2=0O is linear , it follows that differential coefficients of any solution , with reference to x , y , z , or linear functions of such differential coefficients , are also solutions .
+Hence the terms V , and Vr-2i- ' , of S , give harmonics of dc da da the degrees i-1 and ( i+2 ) , in d- , T ' d. To solve equations ( 3 ) we have therefore only to solve V2W=- , , where q,5 denotes an entire spherical harmonic of any positive or negative degree , n. Trying U=Ar2 , which is obviously the right form , we have Vu , =A{r2V2P+ 4 ( x d+y +Z ) p.+ V2(r2 ) } dx die dz ) @+n ( ) } But , because &lt; ? .
+is a homogeneous function of x , y , z of degree n , and because it is a spherical harmonic , V24p , = 0 .
+We have also V2(r2 ) = 6 , by differentiation .
+Hence V2u=A .
+2(2n+ 3)n , d and therefore the complete solution of the equation V2 ^l 2(2n+3 ) where V denotes any solution of the equation V2VY=0 .
+Hence , by taking for , the terms of dabove referred to ( § 10 ) , and giving n its proper value , i-1 , or -(i+2 ) , for each term as the case may be , we find , for the complete solution of ( 3 ) , the following:=I+vrb2"-'.2+ ( V.-Vr21 d )},. .
+( 9 ) n.2(2i+ 1 ) die ) } r y={wi+w , -r212mr 1)d(V2i- ) where uj , ' , I vi , vi , uw , w denote six harmonics , each of degree i. 12 .
+But in order that these formulae may express the solution of the original equations ( 1 ) , the functions u , v , &amp;c. must be related to the functions V so as to satisfy equations ( 2 ) and ( 3 ) .
+Now , taking account of the following formula , d2 dci d 2dM\d d ?
+ddd dxr dx +dy dyf + dz-( dz ) d=+ dr 2 )+r =2 which becomes simply 2ii ?
+if &lt; i is a spherical harmonic of any degree i ( whether positive or negative , integral or fractional ) , we derive from ( 9 ) by differentiation , and selection of terms of order i , and of order inverse i ( or degree -i1 ) , da+d -+ L &gt; =j { fj++ , r 2i-1 + [ iVm +(+ I)V , r ] } + die dz nm+ ?
+( 2i 1 ) +(+l)T-where , for brevity , we put =du , , dv .
+dwi+ dx + die dz and. .
+( 10 ) 2id(ui-lr2i1 ) d(vir-2i+1)+d(wi-lr ) .
+Hence , to satisfy ( 2 ) and ( 8 ) , nT-+.~(2i+l ) 1 ) and m(2i+ 1 ) from which we find Vi= n(2i + 1 ) ( 2n+m)i+n i __ fX l. .
+, .
+, ... ..(11 ) I. , iv va I } Using these in ( 9 ) , we conclude aG-2 io Zi I+ bi-1 2 dx L(2n )i ?
+n ( 2n+m)i+n+mi J _yi=o IX +V ' ?
+i+_1 dr +_ rr2 I ( I 2 ) P-= +o l+ -l _ 2rL2 d ( 2n+m)i+n ( 2n+m)i4+n+]m '( ) r7=_ --.i i+ +fz 2+ L(n ?
+r ( r2lr"+m)-i n+m ] 7-^=0 ^.n^2 dz L(2n+nm)i+n ( 2ni+m)i+n+mJ for a complete solution of the general equations ( 1 ) , the equations of equilibrium of an isotropic elastic solid .
+The circumstances for which this solution is appropriate will be understood when the general proposition of § 7 is duly considered .
+14 .
+It remains to show how the harmonics , vI , wi , v , t2 , w , are to be determined so as to satisfy the superficial conditions .
+Let us first suppose these to be that the displacement of every point of the bounding surface is given arbitrarily .
+Let 2A , I 5B , 2I , Ci be the harmonic series f , expressing the three components of the displacement at any point of the outer surface of the shell , and 2A ' , B ' , C2 the corresponding expressions for the given condition of the inner surface .
+Thus the surface-equations of condition to be fulfilled are a=2Ai , I ... ... o ... ... ( 13 ) r=a ' ( 3=2B ' , where a and a ' denote the radii of the outer and inner surfaces respectively , and A , , Bi , Ci , A ' , B ' , C ' spherical surface-harmonics of the order i. 15 .
+Now collecting from the series ( 12 ) of § 13 , which constitute the general expressions for ac , , y , those terms which , being either solid spherical harmonics of degrees i and -i--1 or such functions multiplied by r , give , at the boundary , surface-harmonics of the order i , and equating the terms of this order on the two sides of equations ( 13 ) , we have * For the case i=O , the terms._pi_l , wU_ may be omitted ; but their full interpretation would be to express a displacement without deformation .
+Thus u._ , being of degree -1 , cannot but be where A is a constant ; and therefore u r-2it+l becomes A when i=0 .
+t That is , series of terms each of which is a spherical surface-harmonic of integral order i. That any function ; arbitrarily given over an entire spherical surface , may be so expressed , is a well-known theorem .
+A demonstration of it is given in THoxsor and TAIr'S ' Natural Philosophy , ' chap .
+i. Appendix B , ?
+s. tr-2t-1 mr2 dr i+l _ tr-2il I =Ai when r=a , 2 Ldal(2n+m)i+3n+m ( 2n+m)i-n 1=A ' when r=a ' , v+ r -2iIm+r2 dF ir2+l r=Bi when r= C , 2 die L(2n+m)i+3n+m ( 2n+-m)i-n l -BC when r=a , -2 _mr2 d[ +ir-2 1=Cj when r=a , dzL(2n+m)i+3n+m ( 2n+m)i-nJC when r=a ' .
+16 .
+These six equations would suffice to determine the six harmonics u , , vi , wl , ut v , Wt , if ii+1 and 41-l were known .
+For , since each of those six functions is a homogeneous function of x , y , z of order i , each of them divided by ri is a function of angular coordinates relative to the centre , and independent of r ; and therefore if , for instance , we denote ui by r"i and lu , by riW ' , we have two unknown quantities a and a ' to be determined by the two equations of condition relative to oa for the outer and the inner surface .
+These equations may be written as follows , if we further denote d+I+l by rI , and d ri2I+ ) by r`'i ' , because these are homogeneous functions of the orders i and i-1 respectively : gaTgfl+l-_A , a+l + mal2i+3 ma2 ; a + 2[(2n+m)i+3n+m ] 2[(2n2+m)i-n]1 +++2i+3 ma2 mail _+l ma &lt; 2 [ ( 2n+m)i+3n+m ] 2 [ ( 2n+ m)i-n ] " Resolving these equations for and -a ' , and returning to the original notation instead of W , ' , a , t ' r= * a2i+13 a2i+1 ' ' ?
++ ( aa')i+ 1 ( aiA -a'iAi)ri ( aa)2i+ ( a2--a'2 ) Mi+2 +d ( aa)2 ( a2 a2i )2l r2i+ a22i+1 -at2i+1 where , for brevity , m 1+2=2[(2n+m)i+3n+m ] '(16 ) i-22[(2n+m)i-n ] J Introducing , also for brevity , the following notation , g _ai+Ai-ai+1Ai a2i+ld a2i+l 1 ( 17 ) , _( and )i1(aiA'-adiA , ) a2i ' 1 -2i+l +1 a2i+3a[2i+3 a2-a1 m Ri+2-2+ 1 _al2+1 Mi+2 1 3 ; -2 -2i+ 1 _1 2i+v1 M i-2 ) _W^^ ) , ^MV-^^-1)^ ''/ # ( 18 ) ( aa )2i+l1 a2_a+2 ) ( aa)2(a 2i-l-a2i1 ) ( 18 ) ii+2a2i+l_a2i+R Mi+2 t-2a-i+ll-al2i+l 2 tj MDCCCLXIIIaa .
+4Laii+ " MI)CCCLXITI .
+4L we have the expressions for z and u , given below .
+Dealing with the equations of condition relative to f3 and y , and introducing an abbreviated notation Bi B ' , C , , CG corresponding to ( 17 ) , we find similar expressions for vi , v , wi , w , as follows:= wt^+ 2 fd+l-^d(54t-l l ) r2i1 qv = r+ ^ -X*-/ " dWi+ l2i l ) i+t , j= gri i+2dxd ^ 8i-2 d(LIx r2i 41 v^ =kr"-h%i+2 -dxy ?
+die v'w+ d4 , i+1 _ , d(4V r2i-)r| Vi=il-fi+2 die i-2 die , i=a C , rt fid+i+l d(+t'_lr2iytl ) 12i+2 z-2 dz. .
+( 19 ) .
+The functions 4 , and 4 , ' being expressed in terms of the data of the problem by equations ( 22 ) , ( 23 ) , ( 17 ) , ( 18 ) , ( 16 ) , we have only to use ( 19 ) and ( 20 ) in ( 12 ) to find the following expression of the complete solution:{=z 2 , +r^jr ' +(1C-B r2ig 3-Mir2 ) d-( }i+lr2i3 ) { = i+tri l+(M-( ( 2i+3 , -M , r2 ) d -(^R+r M)d( j ( 24 ) y =Xf4r'+ e , r+ ( 1iWr"2'3M.r2 ) -l_ ( ^2i+5+^M'r2)d(+ir22i ) } 19 .
+This solution leads immediately , through an extreme case of its application , to the solution of the general problem for a plate of elastic substance between two infinite parallel planes:-Given the displacement of every point of its surface , required the displacement of any interior point .
+For if we give infinite values to a and a ' , and keep a-a ' finite , the spherical shell becomes an infinite plane plate .
+20 .
+It is , however , less easy to deduce the result in this way from the solution for the spherical shell , than to apply directly the general method of § 6 to the case of the infinite plane plate .
+We shall return to this subject ( § 31 , below ) , when the details of the investigation will be sufficiently indicated .
+21 .
+A very important part of the general problem proposed in § 1 remains to be considered , -that in which not the displacement , but the arbitrarily applied force , is given all over the surface .
+To express the surface-equations of condition for such data , we must use the formulae expressing the stress ( or force of elasticity ) in any part of an elastic solid in terms of the strain ( or deformation ) of the substance .
+These are dx / die \ dz dp / 4I d &amp; \ Q=(m+n)d +(mn ) z dX7 ; ( 25 ) R=(m+n)d+(-n ) a. ( 25 ) ^dp die \ / ) +d a daJ dS =n(+)T=n ( s+ ) U=nk( + ) ; where P , Q , R are the normal tractions ( which when negative are pressures ) on the faces of a unit cube respectively perpendicular to the lines of reference OX , OY , OZ , and S , T , U the tangential forces along the faces respectively parallel , and in the directions in these planes respectively perpendicular , to OX , OY , OZ ( see Appendix , § 70 ) .
+22 .
+In terms of these we have the following expressions for the components F , G , H of the force on a unit area perpendicular to any line whose direction cosines aref , g , h:F =Pf +Ug+Th,1 G= Uf+Qg+Sh , ... ( 26 ) H=Tf+Sg +h J ( see " Elements of a Mathematical Theory of Elasticity , " Philosophical Transactions for 1856 , p. 481 ) .
+23 .
+Using the expressions ( 25 ) in ( 26 ) , we find F=(m-+n ) ( d ?
++ df ?
+d Ic\+ d+ +dx , .
+( 27 ) F'=(m-n ) ( d y+ 'Y +ndd Z+ dig + dz h ) +n(TZf drYx+ d* and symmetrical expressions for G and H. 24 .
+If now we suppose f , g , h to denote the direction-cosines of the normal at any point x , y , z of the surface of an elastic solid , the surface condition , when force , not displacement , is given , will be expressed by equating F , G , H respectively to three functions of the coordinates of a point in the surface , quite arbitrary except in so far as they must balance one another in order that equilibrium in the body may be possible ; and therefore they must fulfil the following integral equations:jFdfQ=O , = SSGdQ=O0 , SHd2=O , ... ... . .
+i ( 28 ) , f(Hy-Gz)dQ==0 , ( Fz-Hx)d= 0 , SS(Gx-Fy)=0,. .
+( 29 ) where dQ denotes an element of the surface at the point ( x , y , z ) , and the double integrals include the whole surface of application of the forces F , G , H. 25 .
+For our case of the spherical shell , with origin of coordinates at its centre , we have f= 9= ^ ; h. ( 30 ) and the last triple term in the expression ( 27 ) for F may be conveniently written thus:n d(ax y +yz)_ n ( 31 ) r dx r. Then , for brevity , putting G ?
+2pt+ pie +7Z= ; g ... .
+e ee e ( 32 ) and ddd d( xd + +y +d =rdr ( 33 ) dx * die dz dWr where d prefixed to any function of , y , z will denote its rate of variation per unit of length in the radial direction ; and using ( 2 ) of § 3 , we have , by ( 30 ) and the symmetrical equations for G and H , Fr=(m-n)*.x+n{(r d--l)+d } , Gr=-(m-n)6.- , ,+n r-^-l)3+ },..(34 ) 26 .
+It is to be remarked that these equations express such functions of ( v , y , z ) , the coordinates of any point P of the solid , that F.w , G. x , H. w are the three components of the force transmitted across an infinitely small area w perpendicular to OP , while , for any point of either the outer or the inner bounding spherical surface , Fw , Gw , Hw are the three components of the force applied to an infinitely small element w of this surface .
+27 .
+To reduce the surface-equations of condition derived from these expressions to harmonic equations , let us consider homogeneous terms of degree i of the complete solution , which we shall denote by a , , j3 , yi , and let 4s-* , ; , denote the corresponding terms of the other functions .
+Thus we have Fr ={(m-n)1-x+n(-1)+n d , Gr= ?
+{ ( eM-n)^_ , Y+n(- ) l3+ } .
+* ... .
+** ( 35 ) Hr=8{(m-n ) ^+jz in(t-l)yr , +n dZi+ } , 28 .
+The second of the three terms of order i in these equations , when the general solution of § 13 is used , become at the boundary each explicitly the sum of two surface harmonics of orders i and i-2 respectively .
+To bring the other parts of the expressions to similar forms , it is convenient that we should first express ; +j in terms of the general solution ( 12 ) of § 13 , by selecting the terms of algebraic degree i. Thus we have ^==:^.,. .
+dJ ?
+al , .
+* .
+&lt; ... ( 36 ) OiG -2[(2n-i+m)i-n-m ] dxi '36 ) and symmetrical expressions for Pi and yi , from which we find Mix J p,0 Jriz =+ I -tx + vJ + -wiz-2 ( 2n + m)i-n-m ] Hence , by the proper formulae [ see ( 42 ) below ] for reduction to harmonics , 2i+1 ( 2i-1)[m(i-1)-2n1 r2+ }(37 ) -2i+ l{ ~2[(2n+m)i-n-m ] r-i+ ** ( 37J where Rp _r §§d(U , r-2i-1 ) 1d(v)r 2i+d(Wir2i-1 ' ( 8 ) i^ + dx + dz ( 3 ) and ( as before assumed in § 12 ) du* dvi dwi Also , by ( 11 ) of § 12 , or directly from ( 36 ) by differentiation , we have n(2i-1 ) ?
+.* ... ( 40 ) p:^(2n +m)i-n-m * Substitutitg these expressions for -i1 , ci , and t ; in ( 35 ) , we find *PFr-elr *-l .
+n(2i-l 1)[(m-2n)i+2m+ ?
+n ] n[2i(i-l)m-(2i-1)n ] 2di-lI n di+l Fr= l(t )Ui)Uj(2i+1)[(nm+2n)i-m-n ] i--(2i+1)[(m+2n)i-m-n ] 2i+1 dd J( ) This is reduced to the required harmonic form by the obviously proper formula , -i= ?
+{ rdW(Air ) } - ... ... .
+( 42 ) dx dx Thus , and dealing similarly with the expressions for Gr and Hr , we have , finally , Fr =1 ) 2(i-l -2(i2)M .
+r2d r2i+ , --r+ ) d2+I , _n ( b ) ij dxpid dx 2i ?
+1 d| Gr=n:${(-l)vi-2(i-2)M-E-r2-t_El 1 ( 4)i+l Hlr=nf{(i-l)wi-2(--2)Mir dz -E +d 2i+l d where [ as above , ( 16 ) of § 16 .
+] 1m Mi= 2 ( m-2n)i-m--n ' and now further ... ... .
+( 44 ) Ei ( m-2n)i+2m+n i ( 2i 1 ) [ ( m+2 n)i-m-n ] 29 .
+To express the surface conditions by harmonic equations , let us suppose the superficial values of F , G , H to be given as follows : F =jA , ,1 G=-Bi , 5when r= a , H=Ci , J and ( 45 ) F -=:A ' , G=-B ' , Swhen r=a ' , H= O:.J where A , , Bi , Ci , A ' , Bi , C$ denote surface harmonics of order i. Now the terms of algebraic degree i , exhibited in the preceding expressions ( 43 ) for Fr , Gr , Hr , become , at either of the concentric spherical surfaces , sums of surface harmonics of orders i and i-2 , when i is positive , and of orders -i-i and -i-3 when i is negative .
+Hence , selecting all the terms which lead to surface harmonics of order i , and equating to the proper terms of the data ( 45 ) , we have ( --l^(i +2 ) 2iMi+2 , r2ddr +zii+l)M ?
+^^i 1r_1 -d(ilr -2i+ ' ) E___ r ld(+ 2r ) 1 2d ; i+l d-i A A ' when r=a ' , -E dx --r dx 2i ?
++I dx dx ) and symmetrical equations relative to y and z. 30 These equations might be dealt with exactly as formerly with the equations ( 15 ) of § 15 .
+But the following order of proceeding is more convenient .
+Commencing with the first of the surface equations ( 46 ) , multiplying it by ( attending to the degree of each term , and taking advantage of the principle that , if 4 be any homogeneous function of x , y , z , of degree t , the function of angular coordinates , or of the ratios x : y:z , which it becomes at the spherical surface r=a , is the same as ( r ) 4 ' for any value of r , we have ( ( j ) 2t+l ?
+/7it2.Mi+22d4 + / r\ 2i+1 d4 ?
+it( 2)Q 2 du^1 +2(i+l^ .
++ , M ( )(1)u , i-+ 2-M1d(4 .
+dx ( t+1)M +2(r)-Ai d( ) ( 47 ) a -E2id(+i-2i I 2i_d(_i_2r21i+3 ) 1 dpi +Ir 2i+1 dp-i a _-Eirit dx -Ei-l 2 F+IL dx ) La dxJ where the second member , and each term of the first member , is now a homogeneous function of degree i , of x , y , z ( being in fact a solid spherical harmonic of degree and order i ) .
+Taking 7d of this , and and of the two symmetrical equations , adding , taking into account equations ( 38 ) and ( 39 ) , and taking advantage of the equation V2V=O for the solid harmonic functions concerned , we have n{i-1 +(2i+1 )iEj]+ , _ -2(4 })a 2i-'r2i-1p_j-2(i+1)(2i+1)iM_i+j nr[i-l+(zt+l^lC^ , -z(itl)o-.'-^(J".p _ , ^ n(t2i^ -l IY ( 48 ) 1 d(Airi ) d(Biri ) d(Ciri )( a dx + dy + dz J Again , multiplying ( 47 ) by ar2r 2 1 ' , and taking r2itd-3 of the result , dealing similarly with the two symmetrical equations , and adding , we have 4 _i+2-(2i+ 1)(i+1)Ei ) i]( A-2+2i(i+)(2i+ )Mi+2i+ , }l r2i+3{d(Air--1 ) + d(Bir-i-1 ) d(Cir-1 ) } ( 49 ) W ?
+2 dx + die + dz Changing i into i-2 in this equation , we have a2(-t 2)a-2pi_l-[i ( 2i-3)(i-l)E-+ , ] ( a ) +2(i-2)(i-1)(2i-3)Mi , }1 } } ( 50 ) r2 d(Ai2r-i+l ) d(Bi.2ril ) d(Ci_2rz ) -i a dx + die + dz J Precisely similar equations , derived from the inner surface condition of the shell , are obtained by changing a , A , B , C into a ' , A ' , B ' , C ' .
+We thus have ( 48 ) , ( 50 ) , and the two corresponding equations for the inner surface , in all four equations , to determine the four unknown functions .
+, ,l -_i , P-1 , Vp-i , in terms of the data which appear in the second members .
+The equations being simple algebraic equations , we may regard these four functions as explicitly determined .
+In other words , we may suppose p , and A , i known for every positive or negative integral value of i. Then equation ( 47 ) , the two equations symmetrical with it , and the others got by changing A , a , &amp;c. into A ' , a ' , &amp;c. , give ui , vi , wi explicitly in terms of known functions , and the expressions ( 36 ) for oc , pi , yi complete the solution of the problem .
+31 .
+The solution for the infinite plane plate is of course included in the general solution for the spherical shell , as remarked above for the case in which surface displacements , not surface forces , were given ; but , as in that case , it will be simpler and practically easier to work out the problem ab initio , taking advantage of the appropriate Fourier forms .
+The relative ease of the independent investigation is indeed still greater in the case in which the surface forces are given than in the other case , since the general expressions for the surface forces assume simple forms when the surface is plane , and require no such transformation as that which we have found necessary , and which has constituted the special difficulty of the problem , when the surface was spherical .
+The problem of the plane plate presents many questions of remarkable interest and practical importance ; and although the object and limits of the present paper preclude any detailed investigation of special cases , we may make a short digression to work out the general solution .
+32 .
+Let the origin of coordinates be taken in one side of the plate and the axis OX perpendicular to it .
+Then , according to the general expressions ( 25 ) of § 21 , the three components of the force per unit of area , in or parallel to either side of the plate , are respectively parallel to OX , P=(n+n ) d+(i-n)(d+ dz ) , parallel to OY , U=n. .
+( 51 ) parallel to OZ , T =n( + ) The surface condition to be fulfilled is that each of these functions shall have an arbitrarily given value at every point of each infinite plane side of the plate .
+33 .
+From the indications of § 6 above , it is easily seen that the following assumptions are correct for a general solution of the equations of internal equilibrium , and convenient for the application at present proposed , =U +Xd , df ( y=W+X dz whereu , v , wt , and p0 denote functions of( .
+, y , z ) which each fulfil the equation V2V=O .
+From these , by differentiation , and by taking v2p=0 into account , we have dot d3 dAy du dv dw dp dX Idydzdy z or =++ if ( 52 ) du dv dw +'-dic+dydz ' and b be used with the same signification as above ( § 2 ) .
+Also , by differentiation and application of the equations V2u= 0 , V2 dO , we find V= x2 , V2=2dxdy , V2=2dz Hence , to satisfy the general equations of internal equilibrium ( 3 ) of § 3 , we must have dfp m d= m+f 2n ' Hence the general solution becomes mx p^ ... ..mx dS.dx .
+( 53 ) V m+2n die mx dS+dx m+ 2n dz , where u , v , w are any functions whatever which satisfy the general equation V2V=0 , and 4 is given by ( 52 ) ; and where , further , it must be understood that S4tdx must be so assigned as to satisfy the equation V2V=0O , which 4 itself satisfies by virtue of ( 52 ) .
+34 .
+The general form of the solution of V2V=0 , convenient for the present application , is clearly ( sin sin where p , s , t are three constants subject to the equation P2=2+t2 .
+If now we suppose , as a particular case , the surface condition to be that P==A sin ( sy ) sin ( tz ) , U=B cos ( sy ) sin ( tz ) , )when x=0 , T=C sin ( sy ) cos ( tz ) , and ... .
+( 54 ) P=A ' sin ( sy ) sin ( tz ) , U=B'cos ( sy ) sin ( tz ) , when x=a , I T=C ' sin ( sy ) cos ( tz ) , where A , B , C , A ' , B ' , C ' are six given constants , we must clearly have u=(f-+f ' sin ( sy ) sin ( tz ) , v=(g+S ) cos ( sy ) sin ( tz ) , 1 ( 55 ) w=(As-PX+ ' ) sin ( sy ) cos ( tz ) , where f , g , fh , , g ' , h ' are six constants to be determined by six linear equations obtained directly from ( 54 ) , ( 51 ) , ( 53 ) , ( 52 ) , ( 55 ) .
+But , by proper interchanges of sines and cosines , we have in ( 54 ) a representation of the general terms of the series or of the definite integrals , representing , according to FOURIER'S principles , the six arbitrary functions , whether periodic or non-periodic , by which P , U , T are given over each of the two infinite plane sides .
+Hence the solution thus indicated is complete .
+35 .
+To complete the theory of the equilibrium of an elastic spheroidal shell , we must now suppose every point of the solid substance to be urged by a given force .
+The problem thus presented will be reduced to that already solved , by the following simple investigation .
+36 .
+Let X , Y , Z be the components of the force per unit of volume on the substance at any point x , y , z. ( That is to say , let qX , qY , gqZ be the three components of the actual force on a volume , infinitely small in all its dimensions , enclosing the point ( r , y , z ) .
+Not to unnecessarily limit the problem , we must suppose X , Y , Z to be each an absolutely arbitrary function of x , Y , z. 37 .
+When we remember that x , y , z are the coordinates of the undisturbed position of any point of the substance , and differ by the infinitely small quantities a , ( , y from the actual coordinates of the same point of the substance in the body disturbed by the applied forces , we perceive that Xdxt+Ydy+Zdz need not be the differential of a function of three independent variables .
+It actually will not be a complete differential if the case be that of the interior kinetic equilibrium of a rigid body starting from rest under the influence of given constant forces applied to its surface , and having for their resultant a couple in a plane perpendicular to a principal axis .
+Nor will Xdx+Ydy+Zdz be a complete differential in the interior of a steel barmagnet held at rest under the influence of an electric current directed through one half of its length , as we perceive when we consider FARADAY'S beautiful experiment showing rotation to supervene in this case when the magnet is freed from all mechanical constraint .
+38 .
+The equations of elastic equilibrium are of course now nV + m=-X1 %V2P+M =-Y , da ( 56 ) nV2y+m d-Z.= Let r , a denote some three particular solutions of the equations V2zrX 1 V2= Y , ... ... ... .
+( 57 ) V2.Z .
+These , Ir , p , o , we may regard as known functions , being derivable from X , Y , Z by known methods ( THOMSON and TAIT'S 'Natural Philosophy , ' chap .
+vi .
+) .
+Then , if we assume n P-n=P , , ... ( 58 ) and +dp , ,. .
+( 59 ) d+ Tdy dz '* ' / ( 59 the equations ( 56 ) of interior equilibrium become d72I^ m dE nV2cm , +mn = -dx ' T7 % + dx nm dx/ f nV2 , +m =-dl d d.** .
+( 60 ) d d=.(60dy ) _ dS , m d^ nV27r+mZ=I n dz ) where | is a known function given by the equation ?
+d= + da .
+( 61 ) Now , as we verify in a moment by differentiation , equations ( 59 ) and ( 60 ) are satisfied by mdv F'n(m ?
+n ) dxW -m d4 in(m+ n)-dy'.(62 ) Y=n(m-+n ) dz if 5 is some particular solution of .
+V.= ... ... ... ... e(63 ) Hence ( 58 ) , ( 57 ) , ( 62 ) , ( 63 ) , ( 61 ) express a particular solution of ( 56 ) .
+39 .
+We conclude that the general solution of ( 56 ) may be expressed thus:1/ m d\ ( 3 5M d)+snl.+ ... . ?
+( 64 ) where =V-2Y , _ '7-2Z , ?
+* e ... ... . ?
+( 65 ) = 1V--2 ( + +d according to an abbreviated notation , which explains itself sufficiently ; and 'a , 'j , 'y denote a general solution of the equations d / d'ce d'3 1d'y\ nV1 +mrr6dno ( + die +dz ) y ' I2V"IPm die + dz Vd / d ' d d 'd ' &lt; y\ _ nV"m die d+ die + dz ) ( 66 ) nV27 +m ( +4z + )+ 0 .
+40 .
+This solution is applicable of course to an elastic body of any shape .
+It enables us to determine the displacement of every point of it when any given force is applied to every point of its interior , and either displacements or forces are given over the whole surface , if we can solve the general problem for the same shape of body with arbitrary superficial data , but no force on the interior parts .
+For 'a , '3 , 'y are determined by the solution of this problem , to be worked out with the given arbitrary superficial functions modified by the subtraction from them of terms due to the parts of a , 3 , y which are explicitly shown in terms of data by equations ( 64 ) and ( 65 ) .
+41 .
+Hence the problem of § 35 is completely solved , -whether we have displacements given over each of the two concentric spherical bounding surfaces , when the solution of 9§ 14-18 determines 'a , / , 'y ; or forces given over the boundary , when the solution of §§ 26-30 is available .
+In the former case the superficial values of the functions 11 m d-\ nts m+ndxc 1/ m d\ nt( m+n dy ' I/ m d-\ n1( m+ndz known from equations ( 65 ) , must be subtracted from the arbitrary functions given as the superficial values of a , 3 , y , and the residues , expressed in surface-harmonic series by the known method , will be the harmonic expressions for the superficial values of ' , ' , 'y .
+In the latter case , we must first substitute those known functions !
+-Q-.mn d , ) , &amp;c. , instead of a , 3 , y respectively in ( 34 ) , and the values of Fr , Gr , Hr thus found must be subtracted from the given arbitrary functions representing the true superficial values of Fr , Gr , Hr .
+The remainders , which we may denote by 'Fr , 'Gr , 'Hr , must then be reduced to harmonic series , as in ( 45 ) , and used according to the investigation of § 30 , to determine 'z , '3 , y. 42 .
+The general solution ( 64 ) and the expression just indicated for the terms to be subtracted from the data so as to find 'Fr , 'Gr , 'Hr , becomes much simplified when , as in some of the most important practical applications , Xdxf+Ydy+Zdz is a complete differential .
+Thus let dW dW dW -X= y d ... ( 67 ) W denoting any function of x , y , z. Then , assuming , as we may do according to ( 65 ) , d V-2W , die X -dz V-2WJ we have by differentiating , &amp;c. , dx die +dzW ' and therefore =(V-2W ... ... ... ... ( 68 ) Hence the solution ( 64 ) becomes @m+n dx+ ' =m+n die + ' * TITMhSON ON DYNAMICAL PROBLEMS REGARDING Thus for Fr , and the symmetrical expressions , we have Fr =m+n{(mn)Wx+2nrd , }+'Fr , I Hr= I{(m-n)Wz +2nrl d } +'Hr .
+43 .
+These expressions become further simplified if W is a homogeneous function of any positive or negative integral or fractional order i+1 , in which case we shall denote it by W , + , .
+For 9 will be a homogeneous function of order 4i+3 , and d , of order i+2 .
+Hence d dd r dr Z =(iS+2 ) de * Hence the preceding become Fr m+ -(m n)Wi+l x+2n(i+2 ) d4x +'Fr , Gr= m { ( m-n)Wi+ , y+2n(i+2)j } +'Gr , I.(72 ) Hr= { ( -)Wi+l Z+n(i+2 ) } +Hr .
+44 .
+These expressions are the more readily reduced to the harmonic forms proper for working out the solution , if the interior force potential , Wj , + , is itself a harmonic function .
+We then have ( § 10 ) 1 2w d\1 I I2dWi+ ( l -2(2i+5 ) S dx-2i+5 'V ' i+2 dx and ... .
+( 73 ) Wil=2I+1 dW _ri+ d(Wfi+lrW r2i-32 w , +^^.= 3r dx dx fJ which give Fr=_J{m+(i+ )n 2dW m(2i+5)-n 25 d(W+jr-i- ) F-r=m+n 2i+3 dx ( 2i+3)(2i+5)r dx +'Fr , * Hence , for the case in which W is a spherical harmonic , the preceding equations give the proper harmonic expressions for 'Fr , 'Gr , 'Hr at the outer and inner bounding surfaces , for determining ' , '3 , 't by the method of §§ 28-30 .
+Thus , using all the same notations , with the exception of 'a , '3 , , IF , G , 'H , instead of a , 3 , y , F , G , H , and , for the present , supposing i+1 to be positive* , we have the complete harmonic expressions of 'F , 'G , 'H , each in two terms , of orders i 'and i+2 respectively .
+Hence the A , A ' , &amp;c. of ( 45 ) are given by the following equations : A_ Aj= m+(i+l)n , idWi+j ail+ afi ( 2i+3)(m+n ) dx Bi _ Bi __ m+(i+l)n ridWi+l +1^a'+ ( 2i+3)(m ?
+n ) die CA= CA_ m+(i+l)n r_dW1j a^+l ai+1 ( 2i+ +3)(mi+n ) dz d ( , _ ... . .
+( 7 .
+) AB+2A B+2_ ( 2i+5)m-n ri+3 d(W , r-2i-3 ) a+ -a'+1 ( 2ii+3)(2i+5)(m+n ) dx B , +2_ Bi+2 ( 2i+5)m-n r+3sd(Wi+ r-2i-3 ) ; a+1 are +is ( 2i+ 3)(2i + 5)(mf n ) dz n C2 , z C 2.+Z .
+( 2i+5)m-n ry+3 d(W " +1r-2i-3 ) 46 .
+The functions derived from A , B , , Ci , , &amp;c. , which are required for formulae ( 48 ) and ( 49 ) , are therefore as follows:d(Airi ) d(Biri ) d(Cri ) dx die ' dz v9 d(Airi-1 ' ) d(B , r- ' ) d(Ci , r'1 ) _(i+1)(2i+1)[m+(i+l)n ] ai1 ' dx + die dz ( 2i+3)(m+n).2+3 VV'i+1i d(A , i2ri+2 ) d(Bi+2ri+2 ) d(C+2r+2 ) _ ( i+ 2)[(2i+5)m-n ] +l ( dx + die ~dy ( 2i+3)(m+n ) a ++lj | d(A , +2r-B-3 ) d(Bi+2r-i-3 ) d(C+ 2ri3 ) d " t die dz v J1 with the corresponding expressions relative to A ' , B1 , C0 , &amp;c. , obtained simply by changing a into a ' .
+Hence by ( 48 ) and ( 50 ) , and the two corresponding equations for the inner surface , we infer that each of the four functions i-l , 4'-t -l p_ , vanishes .
+By the same equations , with i changed into i+2 , we obtain expressions , all of one harmonic form , direct or reciprocal , as follows , for the four functions of order i+1:* As we shall not in the present paper consider particularly any case of a shell influenced by centres of force in the hollow space within it , which alone could give a potential Wi+d of negative degree , we need not write any of the expressions in forms convenient for mading i+1 negative .
+ia Kl +ljr-2i-3Wi+1 , ( 78 ) pi+i =L+XWHi+ , + 4-i-2= lr -2i-3-Wi+l 5 Kil , K+1 , Li1 , LLi , which need not be here explicitly expressed , being four constants obtained from the solution of four simple algebraic equations .
+Lastly , by the four equations with ( i+4 ) instead of i , we find that 4i+3 , X-i-4 ) i+3 ) v-i-4 all vanish .
+Using these results for 4 and p in ( 47 ) , we see that each of the functions u must be a harmonic dWi+ , d(Wj+1r-2i-3 ) congruent with either d or dx Hence , by using ( 78 ) in ( 38 ) and ( 39 ) we find -L+ dWi+l W -Ki+1 2i-1 dWi+l ( 2i+1)(i+1 ) dx ' d(2i+l)(i+l ) dx ' -Ki+l r+2t d(Wi+lr-2i-3 ) 2i-L3 ( W+r ) .
+$+2(2i+5)(i+2 ) dx -i-3(2i+5)(i+2 ) dx and symmetrical expressions for v and w. Finally , using these expressions , ( 79 ) and ( 78 ) , in ( 36 ) , and the result in ( 69 ) with ( 73 ) , we arrive at an explicit solution of the problem in the following remarkably simple form:= ( i+1 dW.+ , j d(W+lr-2i-3 ) dx+l i+l dx =e dWi+l,4_ d(Wi+ , r-2i-3 ) ( 80 ) 4dWi ' iL+e d(W+lr-2i-3 ) r=( &amp; ' Id dz I where -p __Li+lI+K'+lr-2i 11 _I Ki+l 1 " +1 ' ( i+l)(2i+1)\2(2i+3)(m +n ) 2 ( m+2n)i+m+3n '( e. Q1= Ki+lr2i+5 + L+1 + 8r2i5 2 K ' l 1 ) i+1 ( i+2)(2i + 5 ) +(2i+3)(2i+5)(m+n ) 2 ( m+2n)i+2m+3nJ 47 .
+In conclusion , let us consider the case of a solid sphere .
+For this we have +-i-2=0 , and p-_-2=0 , as we see at once from the character of the problem , or as we find by putting a'=0 in the four equations by which in § 46 we have seen that Ki+l , K+1 , Li+ , L+1 are to be determined .
+Then , by ( 48 ) , with i changed into i+2 , and by ( 49 ) , we find ( i+2)[(m+2n)i +m+ 3n][m(2i+5)-n ] W. ( 2i + 3)n{m[2(i+2)2+1]-n(2i+3)}(m+n ) i+l v ( 82 ) ( i+ 1)2(2i+1)[m(i+3)n ] 2in{m[2(i+ 2)2+1 ] -n(2i+3 ) } i+ * The coefficients of Wi , , in these expressions are the values which we must take for K , ij and Li+ , respectively in ( 81 ) ; and therefore , after reductions which show ( m+n ) as a factor of the numerator of each fraction in which it appears at first as a factor of the denominator , we have ( i+ l)[m(i+3)-n ] , ]a'2 [ ( i+2)(2iA-5)m(2i+3)n]r2 i+= 2n { m[2 ( i + 2)2 1]-n(2i+3)j } 2n(2i+3){m[2(i +2)2 +1]-n(2i+3 ) } rf ( 83 ) XE'U -(i+ l)mr2i+5 eil .
+n(2i+3){ m[2(i+f 2)2+13]-n(2i+3 ) } These , substituted in ( 80 ) , give expressions for ca , 3 , y which constitute a complete and explicit solution of the problem .
+It is easy to verify this result , by testing that ( 56 ) ( with -X=--dWi v &amp;c. ) is satisfied for every point of the solid , and that equations ( 34 ) give F=0 , G=0 , H= 0 at the bounding surface , r=a .
+48 .
+The case of i=1 is , as we shall immediately see , of high importance .
+For it the preceding expressions , ( 83 ) and ( 80 ) , become 10(4m-n)a 2+(21m-5n)r2 2 e210n(19m-5n ) / __ 4mr7 210lOn(19m5n ) dW d(2 r- ) .
+( 84 ) 3 dM r2 ?
+Id(T,2 r-5 ) 2dy 2 die edW2 + , ( dW2 )- ' 2 dz 2 dz 49 .
+As an example of the application of §§'45-48 , let us suppose a spherical shell or solid sphere to be equilibrated under the influence of masses collected in two fixed external points* , and each attracting according to the inverse square of its distance .
+Let the two masses M , M ' be in the axis OX ; and , P being the pointwhose xIr MM coordinates are x , y , z , let PM=D , PM'=D ' .
+Let also OM=c , OM , 'c ' .
+/ Then , if m , m ' denote the tro masses , for equilibrium we must have m_m ' c2 d2 The potential at P , due to the two masses , will be F+Wy or , according to the notation of § 42 , with , besides , w taken to denote the mass of unit volume of the elastic solid , -W="(m+ m ) .
+The known forms in the elementary theory of spherical harmonics give immediately the development of this in a converging infinite series of solid harmonic terms .
+We have only then to apply the solution of §§ 45 , 46 to each term , to obtain a series expressing the required solution .
+50 .
+We may work out this result explicitly for the case in which both masses are very distant ; and for simplicity we shall suppose one of them infinitely more distant than the other ; that is to say , we shall suppose it to exercise merely a constant balancing force on the substance of the shell .
+We shall then have precisely the same bodily disturbing force as that which the earth experiences from the moon alone , or from the sun alone .
+51 .
+Referring to the diagram and notation of § 49 , we have ll{1+X+X2-T2 ?
++z2 ) } D -c { 1+c c } if we neglect higher powers of c , Y , c than the square ; and c c ' neglecting all higher powers of , y , Z. Hence , taking account of the relation m =m required for equilibrium , we have , for the disturbance potential , _ -("2 _I Y2_ 1,2\2 an irrelevant constant being omitted from the expression which § 49 would give .
+This being a : harmonic of the second degree , we may use it for Wi+ , putting i=1 in the formulae of § 47 , and thus solve the problem of finding the deformation of a homogeneous spherical shell under the influence of a distant attracting mass and a uniform balancing force .
+I hope , in a future communication to the Royal Society , to show the application of this result to the case of the lunar and solar influence on a body such as the earth is assumed to be by many geologists-that is to say , a solid crust , constituting a spheroidal shell , of some thickness less than 100 miles , with its interior filled with liquid .
+The untenability of this hypothesis is , however , sufficiently demonstrated by the considerations adduced in a previous communication ( " On the Rigidity of the Earth , " read May 8 , 1862 ) , in which the following explicit solution of the problem for a homogeneous solid sphere only is used .
+Using the expression of § 51 for W2 , we have dW2 m\ dW ' , m dWV2 m die $3 YW , dz -+C3 Z ' d(W2r5 ) m ( 2-|y'-_z2)* ( 85 ) CX -+ ?
+C3 -7 2 d(W2r- ) 3m ( 2 _y2-z_2)y d(W2r-5 ) m ( 2x2'-2y"_z2)z die c3 r7 dz C3 r7 W. These formulae being substituted for the differential coefficients which appear in ( 84 ) , we have algebraic expressions for the displacement of any point of the solid .
+The condition of the body being symmetrical about the axis of x , we may conveniently assume y==ycosp , ( z=ysinp , P2 + y2 2 ; so that we shall have ( as we see by the preceding expressions ) P=== , cos &lt; , y=( sin p , and ( I will denote the component displacement perpendicular to OX .
+If , further , we assume x=r , =r cosD , y=r sin 0 , the expressions ( 84 ) for the component displacements , with ( 85 ) used in them , give rnA3 I M=w-1{-2re+3 ( 2 ( 5 cos2 O-3)Jcos d , ( 86 ) =wM2 r(2 + 32 + ( 5 cos2 --l)Jsin .
+The values given in ( 84 ) for ( 2 and ( ?
+are to be used for any internal point , at a distance r from the centre , in these equations ( 86 ) , and thus we have the simplest possible expression for the required displacement of any point of the solid .
+53 .
+If we resolve the displacement along and perpendicular to the radius , and consider only the radial component , we see that the series of concentric spherical surfaces of the undisturbed globe become spheroids of revolution in the distorted body .
+The elongation of the axial radius , obtained by putting 0=0 and taking the value of , is double the shortening of the equatorial radius , obtained by putting 0=2i and taking the value of p ; which we might have inferred from the fact , shown by the general equations ( 80 ) above , that there can be no alteration of volume on the whole within any one of these surfaces .
+The expression for the excess of the axial above the equatorial 2 r4 racdius is +9 which , if we substitute for e2 and C'2 their values by ( 84 ) , becomes 3m 2(4m-n)a2-(3m- ?
+n)r2 c3 10n(19m-5n ) r 2m 5 If in this we take r=a , and m=oo , it becomes 3c 19n r3 , which is the result used in § 34 of the paper on the Rigidity of the Earth , preceding the present in the Transactions .
+54 .
+In the case of '=O , the result of § 18 takes the extremely simple form r , qs i. m(a-r2 ) d-i ) ~P~ka1/ i Va +2ai[n(2i-l1)+ n(i-l ) ] dx -f { / r\ .
+m(a2-r2 ) i- ) *** ( 8 7Y { Cia ) + 2ai[n(2i-l)+m(i-1 ) ] dz yJ i [ n(2i1 ) ?
+m(i1 ) ] dz where _d(Air)+ d(Bir ) d(Ciri ) dx die dz This expresses the displacement at any point within a solid sphere of radius a , when its surface is displaced in a given manner ( fAi , S Bi , C ) .
+And merely by making i negative we have , in the same formula , the solution of the same problem for an infinite solid with a hollow spherical space every point of the surface of which is displaced to a given distance in a given direction .
+These solutions are obtained directly , with great ease , by the method of §§ 6-15 , or are easily proved by direct verification , without any of the intricacy of analysis inevitable when , as in the general investigations with which we commenced , a shell bounded by two concentric spherical surfaces is the subject .
+[ Added since the reading of the Paper .
+] §§ 55 to 58 .
+Oscillations of a Liquid Sphere .
+55 .
+Let V be the gravitation potential at any point P(x , y , z ) , and i the height of the surface ( or radial component of its displacement ) from the mean spherical surface at a point E in the radius through P. Then , if h=S , +S2+ .
+* * .
+In these 4'xpa = 3g , ... ... ... ... i ( 90 ) if g denote the force of gravity at the surface , due to the mean sphere , of radius a. 56 .
+Now for infinitely small motions the ordinary kinetic equations give dp / du dV\ dp ( dv dV\ d / dw dV\ d^dt d die d die Jd dz~~ gdt z ) ; * *z ( 91 ) where g is the mass per unit of volume ; u , v , w the component velocities through the fixed point P at time t ; and p the fluid pressure .
+Hence , possible non-periodic motions being omitted , tudx+vdy+wdz is a complete differential ; and , denoting it by p , d we have C-p v ) ... ... . .
+d ( 92 ) 57 .
+To find the surface conditions , -first , since the pressure has a constant value , n , at the free surface , p=g ?
+h+ll whenr=a , ... ... ... ( 93 ) the variations of gravity depending on the variations of figure being of course neglected in the infinitely small term gh .
+And , since dt is the radial component of the velocity at E , we have , when r=a , 7_ 77 7Zx a(p ya apdf an. .
+r dxSr die r dz-dt .
+' .
+( 94 ) Now since , the fluid being incompressible , V 2=0 , p may be expanded in a series of solid harmonic functions ; let / r.\ i , N ... ... . .
+( 95 ) where c(D , O2 , ... are surface harmonics .
+Hence , as the successive terms are homogeneous functions of the coordinates ( x , y , z ) , of degrees 1 , 2 , &amp;c. , r dx+ rly ?
+dzr i( ' ... . .
+( 96 ) and therefore , by ( 88 ) and ( 94 ) , dS , I dt -a harmonic function of the time which we find to represent ( D , .
+Using this solution in ( 97 ) and ( 88 ) , we see that if the surface be normally displaced according to a spherical harmonic of order i , and left to itself , the resulting motion gives rise to a simple harmonic variation of the normal displacement , having for period 2z/ ~a 2i+1 , 25 g 2i(i1 ) that is , the period of a common pendulum of length ( 2i§ 1)a It is worthy of remark that the period of vibration thus calculated is the same for the same density of liquid , whatever be the dimensions of the globe .
+For the case of i=2 , or an ellipsoidal deformation , the length of the isochronous pendulum becomes 4-a , or one and a quarter times the earth 's radius , for a homogeneous liquid globe of the same mass and diameter as the earth ; and therefore for this case , or for any homogeneous liquid globe of about 5times the density of water , the half-period is 47m 12s , which is the result stated in the paper " On the Rigidity of the Earth " ( § 3 ) , preceding the present in the Transactions .
+AppuNDIX , §§ 59-71.-General Theory of the ENquilibrium of an Elastic Solid .
+59 .
+Let a solid composed of matter fulfilling no condition of isotropy in any part , and not homogeneous from part to part , be given of any shape , unstrained , and let every point of its surface be altered in position to a given distance in a given direction .
+It is required to find the displacement of every point of its substance in equilibrium .
+Let x , y , z be the coordinates of any particle , P , of the substance in its undisturbed position , and x+ ) , y+ , Z+y its coordinates when displaced in the manner specified ; that is to say , let a , 3 , y be the components of the required displacement .
+Then , if for brevity we put A / dol , Vj2 22A ( d)+l +(+ j ) ( 100 ) / dfd dr ' ?
+a die dz+ die +1 )d dyy +1 ) , dz dg\dzT.d CI ol ' -t-df df_ bd +1 +)+ dz+ 1 / dac Jda do / die X d. dyi these six quantities A , B , C , a , 6 , c , as is known * , thoroughly determine the strain experienced by the substance infinitely near the particle P ( irrespectively of any rotation it may experience ) , in the following manner:* TroMsox and TATn 's 'Natural Philosophy , ' § 190 ( e ) and § 181 ( 5 ) .
+610 Let I , a , g be the undisturbed coordinates of a particle infinitely near P , relatively to axes through P parallel to those of x , y , z respectively ; and let E , , , , ?
+, be the coordinates , relative still to axes through P , when the solid is in its strained condition .
+Then ( 101 ) and therefore all particles which in the strained state lie on a spherical surface are , in the unstrained state , on the ellipsoidal surface , Ag2+B2+ C2+ 2ar +2b ?
++2c= r2 .
+This , as is well known , completely defines the homogeneous strain of the matter in the neighbourhood of P. 61 .
+Hence the thermo-dynamic principles by which , in a paper on the Thermoelastic Properties of Matter in the first Number of the 'Quarterly Mathematical Journal ' ( April 1855 ) , GREEN'S dynamical theory of elastic solids was demonstrated as part of the modern dynamical theory of heat , show that if w. dxdydz denote the work required to alter an infinitely small undisturbed volume , dxdydz , of the solid , into its disturbed condition , when its temperature is kept constant , we must have w =f(A , B , C , a , b , c ) ... ... ... .
+( 102 ) where denotes a positive function of the six elements , which vanishes when A-1 , B-l , C-l , a , b , c each vanish .
+And if W denote the whole work required to produce the change actually experienced by the whole solid , we have W= SSSwdxdydz , ... ... ... .
+( 103 ) where the triple integral is extended through the space occupied by the undisturbed .
+solid .
+62 .
+The position assumed by every particle in the interior of the solid will be such as to make this a minimum , subject to the condition that every particle of the surface takes the position given to it , this being the elementary condition of stable equilibrium .
+Hence , by the method of variation , W -=SSSiwdxdydz -0 .
+But , exhibiting only terms depending on Bo , we have ... . .
+* ( 104 ) dw dac 1 dw dc dw cddl dac w= A d\ +1 )+ db dz + dc die dx -dwdca dwdao dw/ doa 1{ d sd\ + l2dB die + da dz + dc\dx1 JJ die ( rdw de dw dot dw / do\ dsot +2d dzda die +db +)}d + &amp;c. Hence , integrating by parts , and observing that 6a , 68 , wy vanish at the limiting surface , we have W =-SJJJSSd + dQ+dR )t + &amp; .}. .
+( 105 ) where for brevity P , Q , R denote the factors of d drespectively , in the preceding expression .
+In order that 8W may vanish , the factors of ca , 63 , By in the expression now found for it must each vanish ; and hence we have , as the equations of equilibrium , d ( dw/ d , dw da dw dt dwx 2dA Tdx X 1 ?
+db dz dcIjy d2 dw da dw da dw d11 y-TB d+ Tie Te+ &amp; +1 J..* T ( 106 ) d dw dclZ dwd dakwd , dl v &amp;c. &amp; C. , of which the second and third , not exhibited , may be written down merely by attending to the symmetry .
+63 .
+From the property of w that it is necessarily positive when there is any strain , it follows that there must be some distribution of strain through the interior which shall make SSSwdxdydz the leastpossible , subject to the prescribed surface condition , and therefore that the solution of equations ( 106 ) , subject to this condition , is possible .
+If , whatever be the nature of the solid as to difference of elasticity in different directions , in any part , and as to heterogeneousness from part to part , and whatever be the extent of the change of form and dimensions to which it is subjected , there cannot be any internal configuration of unstable equilibrium , or consequently any but one of stable equilibrium , with the prescribed surface displacemenit and no disturbing force on the interior , then , besides being always positive , w must be such a function of A , B , &amp;c. that there can be only one solution of the equations .
+This is obviously the case when the unstrained solid is homogeneous .
+64 .
+It is easy to include , in a general investigation similar to the preceding , the effects of any force on the interior substance , such as we have considered particularly for a spherical shell , of homogeneous isotropic matter , in §§ 35-46 above .
+It is also easy to adapt the general investigation to superficial data of force , instead of displacement .
+65 .
+Whatever be the general form of the function f for any part of the substance , since it is always positive it cannot change in sign when A-I , B-1 , C-1 , a , , c have their signs changed ; and therefore for infinitely small values of these quantities it must be a homogeneous quadratic function of them with constant coefficients .
+( And it may be useful to observe that for all values of the variables A , B , &amp;c. , it must therefore be expressible in the same form , with varying coefficients , each of which is always finite , for 612 all values of the variables .
+) Thus , for infinitely small strains , we have GREEN'i theory of elastic solids , founded on a homogeneous quadratic function of the components of strain , expressing the work required to produce it .
+Putting A-1=2e , B-1=2f , C-1=2g , ... ... ( 107 ) and denoting by j(e , e ) , ( f , f ) , ... ( e , f ) , ... ( e , a ) , ... the coefficients , we have w={(e , e)e2+(ff)f2+(g , g)g +(a , a)a2 +(b , b)b +(c , c)c2 } +(e , f ) of +(e , g)eg +(e , a)ea +(e , b)eb +(e , c)ec +(f , g)fg+(f a)fa+(f , b)fb +(f , )fc ( 108 ) +(9 , a)ga +(g , b)gb +(g , c)gc +(a , b)ab + ( a , c)ac + ( b , c)6 The twenty-one coefficients in this expression constitute the twenty-one coefficients of elasticity , which GREEN first showed to be proper and essential for a complete theory of the dynamics of an elastic solid subjected to infinitely small strains .
+66 .
+When the strains are infinitely small , the products dw d , dw d ' &amp;c. are each dA dx db dz infinitely small , of the second order .
+We therefore omit them ; and then , attending to ( 107 ) , we reduce ( 106 ) to d dw d dw d dw d dxe die dc dz dbe d 'd dw d dw d dw ( 109 d^Tc~E+ dy'df+ , dTY ' **** * It is now easy to prove directly , for the case of infinitely small strains , that the solution of the equations of interior equilibrium , whether for a heterogeneous or a homogeneous solid , subject to the prescribed surface condition , is unique .
+For let a , / 3 , y be components of displacement fulfilling the equations , and let a ' , 3 ' , y ' denote any other functions of ( x , y , z ) having the same surface values as a , / 3 , y , and let e ' , f',. .
+, .
+w denote functions depending on them in the same way as e , f , ... , w depend on a , / 3 , y. Thus , by TAYLOR'S theorem , dw dw dw dw , dw dw dw , wI-w.-d ( e-e)+ df ( f-f)+dg ( -)+ -da(a-a ) + db ( '- &amp; ) + ( -c ) + H , where H denotes the same homogeneous quadratic function of e'-e , &amp;c. that w is of e , &amp;c. If for e'-e , &amp;c. we substitute their values by ( 111 ) , this becomes dw d( -d-ta ) dw d(o*'a ) dw d(a'a ) W-1We dx + dz +dC die +c+1 Multiplying by dxdydz , integrating by parts , observing that c ' -a ' , 3'-/ 3 , y'vanish at the bounding surface , and taking account of ( 109 ) , we find simply SSS(w-w)dxdydz SSS Hddydz ... . .
+( 112 ) But H is essentially positive .
+Therefore every other interior condition than that specified by ( ca , / 3 , y ) , provided only it has the same bounding surface , requires a greater amount of work than w to produce it : and the excess is equal to the work that would be required to produce , from a state of no displacement , such a displacement as superimposed on ( a , / 3 , y ) would produce the other .
+And inasmuch as ( ac , 3 , y ) fulfil only the conditions of satisfying ( 1-10 ) and having the given surface values , it follows that no other than one solution can fulfil these conditions .
+68 .
+But ( as has been remarked by Professor STOKES to the author ) when the surface data are of force , not of displacement , or when force acts from without , on the interior substance of the body , the solution is not in general unique , and there may be configurations of unstable equilibrium , even with infinitely small displacement .
+For instance , let part of the body be composed of a steel bar magnet ; and let a magnet be held outside in the same line , and with a pole of the same name in its end nearest to one end of the inner magnet .
+The equilibrium will be unstable , and there will be positions of stable equilibrium with the inner bar slightly inclined to the line of the outer bar , unless the rigidity of the rest of the body exceed a certain limit .
+69 .
+Recurring to the general problem , in which the strains are not supposed infinitely small , we see that , if the solid is isotropic in every part , the function of A , B , C , a , b , c which expresses w must be merely a function of the roots of the equation* ( A2)(B2)(Cr2)-a2(Ar2)-b2(B_2)-c2(C -2)+ 2abc 0 .
+( 113 ) which ( that is the positive values of ' ) are the ratios of elongation along the principal axes of the strain-ellipsoid .
+It is unnecessary here to enter on the analytical expression of this condition .
+For the case of A-I , B-1 , C-1 , a , b , c , each infinitely small , it obviously requires that ( e e)=(f , f)=(y , 9 ) ; ( f , q)=( , e)=(e , f ) ; ( a , a)=(b , )=(c , ) ; 1 ( e , a)=(f , b)=(g , c)=O0 ; ( b , c)=( , a)=(a , )= ; .
+( 114 ) ( e , b)=(e , c)=(f , c)=(f , a)=(g , a)=(g , b)=0 .
+Thus the twenty-one coefficients are reduced to three(e , e ) , which we may denote by the single letter 1 , Vf , g)l X tl , 3 ( a a ) , , , , a n. It is clear that this is necessary and sufficient for ensuring cubic isotropys-that is to say , perfect equality of elastic properties with reference to the three rectangular directions OX , OY , OZ .
+But for spherical isotropy , or complete isotropy with reference to all directions through the substance , it is further necessary that -=2n , ... ... ... . .
+( 115 ) as is easily proved analytically by turning two of the axes of coordinates in their own plane through 450 ; or geometrically by examining the nature of the strain represented by any one of the elements a , b , c ( a " simple shear " ) and comparing it with the resultant of c , andfz -e ( which is also a simple shear ) .
+It is convenient now to put Z+Z3=2m ; so that =-m+n , 13=m-n ; . .
+* .
+( 116 ) and thus the expression for the potential energy per unit of volume becomes 2w =m(eff+g)2+n(e2+f2+g-2fg-2ge2ef+a§ 6+ c2 ) ... ( 117 ) Using this in ( 108 ) , and substituting for e , f , g , a , b , c their values by ( 111 ) , we find immediately , for the equations of internal equilibrium , equations the same as ( 1 ) of § 2 .
+70 .
+To find the mutual force exerted across any surface within the solid , as expressed by ( 26 ) of § 22 , we have clearly , by considering the works done respectively by P , Q , R , S , T , U ( § 21 ) on any infinitely small change of figure or dimensions in the solid , P wdw dw dw dw dw _ dw / p=- , Q=dW R=d S= T1=--U de df dg da do de Hence , for an isotropic solid , ( 117 ) gives the expression ( 25 ) of § 21 , which we have used above .
+71 .
+To interpret the coeffcients m and n in connexion with elementary ideas as to the elasticity of the solid ; first let a=b=c=0 , and --ef=g= !
+; in other words , let the substance experience a uniform dilatation , in all directions , producing an expansion of volume from 1 to 1 + .
+In this case ( 117 ) becomes w=(m- , JM )62 ; 6156 and we have dw d-w =(m-3n)B .
+Hence ( m--ln)k is the normal force per unit area of its surface required to keep any portion of the solid expanded to the amount specified by Z. Thus m-in measures the elastic force called out by , or the elastic resistance against , change of volume : and viewed as a coefficient of elasticity , it may be called the elasticity of volume .
+What is commonly called the " compressibility " is measured by _ m In And let next e=f=g=b=c=0 ; which gives w==-na2 ; and , by ( 118 ) , S=na .
+This shows that the tangential force per unit area required to produce an infinitely small shear* , amounting to a , is na .
+Hence n measures the innate power with which the body resists change of shape , and returns to its original shape when force has been applied to change it ; that is to say , it measures the rigidity of the substance .
+[ NOTE added , December 1863 ] .
+Since this paper was communicated to the Royal Society , the author has found that the solution of the most difficult of the problems dealt with in it , which is the determination of the effect produced on a spherical shell by a prescribed application of force to its outer and inner surfaces , had previously been given by LAMiS in a paper published in LIOUVILLE'S Journal for 1854 , under the title " Memoir sir l'fquilibre l'elasticite des enveloppes spheriques .
+" In the same paper LAME shows how to take into account the effect of internal force , but does not solve the problem thus presented except for the simple cases of uniform gravity and of centrifugal force .
+The form in which the analysis has been applied in the present paper is very different from that chosen by LAME ( who uses throughout polar coordinates ) ; but the principles are essentially the same , being merely those of spherical harmonic analysis , applied to problems presenting peculiar and novel difficulties .
+

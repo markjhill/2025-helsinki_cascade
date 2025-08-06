@@ -1,0 +1,244 @@
+On the Theory of the Elliptic l'ranscendents .
+By JAMES IVORY , A.I. F.R.S. Instit .
+Reg. Sc. Paris , et Soc. Reg. Sc. Gottin .
+, Corresp .
+Read June 9 , 1831 .
+TIIE branch of the integral calculus which treats of elliptic transcendents originated in the researches of FAGNANI , an Italian geometer of eminence .
+He discovered that two arcs of the periphery of a given ellipse may be determined in many ways , so that their difference shall be equal to an assignable straight line ; and he proved that any arc of the lemniscata , like that of a circle , may be multiplied any number of times , or may be subdivided into any number of equal parts , by finite algebraic equations .
+These are particular results ; and it was the discoveries of EULER that enabled geometers to advance to the investigation of the general properties of the elliptic functions .
+An integral in finite terms deduced by that geometer from an equation between the differentials of two similar transcendent quantities not separately integrable , led immediately to an algebraic equation between the amplitudes of three elliptic functions , of which one is the sum , or the difference , of the other two .
+This sort of integrals , therefore , could now be added or subtracted in a manner analogous to circular arcs , or logarithms ; the amplitude of the sum , or of the difference , being expressed algebraically by means of the amplitudes of the quantities added or subtracted .
+What FAGNANI had accomplished with respect to the arcs of the leinniscata , which are expressed by a particular elliptic integral , EULER extended to all transcendents of the same class .
+To multiply a function of this kind , or to subdivide it into equal parts , was reduced to solving an algebraic equation .
+In general , all the properties of the elliptic transcendents , in which the modulus remains res unchanged , are deducible from the discoveries of EULER .
+LANDEN enlarged our knowledge of this kind of functions , and made a useful addition to analysis , by showing that the arcs of the hyperbola may be reduced , by a proper transformation , to those of the ellipse .
+Every part of analysis is indebted to LAGRANGE , who enriched this particular branch with a general method for changing an elliptic function into another having a different modulus , a process which greatly facilitates the numerical calculation of this class of integrals .
+An elliptic function lies between an arc of the circle on one hand , and a logarithm on the other , approaching indefinitely to the first when the modulus is diminished to zero , and to the second when the modulus is augmented to unit , its other limit .
+By repeatedly applying the transformation of LAGRANGE , we may compute either a scale of decreasing moduli reducing the integral to a circular arc , or a scale of increasing moduli bringing it continually nearer to a logarithm .
+The approximation is very elegant and simple , and attains the end proposed with great rapidity .
+The discoveries that have been mentioned occurred in the general cultivation of analysis ; but LEGENDRE has bestowed much of his attention and study upon this particular branch of the integral calculus .
+He distributed the elliptic functions in distinct classes , and reduced them to a regular theory .
+In a M6moire sir les Transcendantes Elliptiques , published in 1793 , and in his Exercices de Calcul Int6gral , which appeared in 1817 , he has developed many of their properties entirely new ; investigated the easiest methods of approximating to their values ; computed numerical tables to facilitate their application ; and exemplified their use in some interesting problems of geometry and mechanics .
+In a publication so late as 1825 , the author , returning to the same subject , has rendered his theory still more perfect , and made many additions to it which further researches had suggested .
+In particular we find a new method of making an elliptic function approach as near as we please to a circular arc , or to a logarithm , by a scale of reduction very different from that of which LAGRANGE is the author , the only one before known .
+This step in advance would unavoidably have conducted to a more extensive theory of this kind of integrals , which , nearly about the same time , was being discovered by the researches of other geometers .
+M. ABEL of Christiana , and M. JACOBI of Konigsberg , entirely changed the aspect of this branch of analysis by the extent and importance of their discoveries .
+The first of these geometers , whom , to the great loss of science , a premature death cut off in the beginning of a career of the highest expectations , happily conceived the idea of expressing the amplitude of an elliptic function in terms of the function itself .
+By this procedure the sines and cosines of the amplitudes become periodical quantities like the sines and cosines of circular arcs ; and analogy immediately points out many new and useful properties which it would be difficult to deduce by any other mode of investigation .
+This new way of considering the subject struck out by M. ABEL , not only disclosed to him some interesting and original views , but it conducted him to the general and recondite theorems which , without his knowledge , had been previously discovered by the geometer of Konigsberg .
+M. JACOBI , following in his researches a different method from M. ABEL , proved that an elliptic function may be transformed innumerable ways into another similar function to which it bears constantly the same proportion .
+In the solution of this problem the modulus and the amplitude sought are deduced from the like given quantities , " by equations which depend upon the division into an odd number of equal parts of the definite integral , having its amplitude equal to 90 ?
+; and , as any odd number may be chosen at pleasure , the number of transformations is unlimited .
+In consequence of this discovery , an elliptic function can have its modulus augmented or diminished according to an infinite number of different scales .
+The new process for effecting the same reduction discovered by LEGENDRE in 1825 , is only the most simple case of the extensive theorem of M. JACOBI ; and , although the older transformation of LAGRANGE is no part of the same theorem , it bears to it a close resemblance in every respect .
+Such is the principal addition made to this branch of analysis by M. JACOBI ; but the new methods of investigation introduced by him and M. ABEL , open a wide field of collateral research , which probably will long continue to furnish matter for exercising the ingenuity of mathematicians .
+But it seldom happens that an inventor arrives by the shortest road at the results which he has created , or explains them in the simplest manner .
+The demonstrations of M. JACOBI require long and complicated calculations ; and it can hardly be said that the train of deduction leads naturally to the truths which are proved , or presents all the conclusions which the theory embraces in a connected point of view .
+The theorem does not comprehend the transformation of LAGRANGE , which must be separately demonstrated .
+This is an imperfection of no great moment ; but it is always satisfactory to contemplate a theory in its full extent , and to deduce all the connected truths from the same principles .
+On a careful examination it will be found that the sines or cosines of the amplitudes used in the transformations are analogous to the sines or cosines of two circular arcs , one of which is a multiple of the other ; insomuch that the former quantities are changed into the latter when the modulus is supposed to vanish in the algebraic expressions .
+We may therefore transfer to the elliptic transcendent the same methods of investigation that succeed in the circle .
+When this procedure is followed , there is no need to distinguish between an odd and an even number ; the demonstrations are shortened , ; and the difficulties are mostly removed by the close analogy between the two cases .
+It is in this point of view that the subject is treated in this paper , in which it is proposed to demonstrate the principal theorems without going into the detail of the applications .
+1 .
+Elliptic functions of the first kind are of this form * , viz. p. dp J ^/ i -k sin2 pP d4d oJ O1 hM sin2+ the arcs &lt; p and + being the amplitudes , and the quantities k and h , which are always less than unit , the moduli of the functions .
+For the sake of abridging , I shall denote the foregoing integrals by K ( , p ) and H ( 4 ) , the prefixes K and H having reference to the moduli k and h ; and , for the definite integral between the amplitudes 0 and I shall use indiscriminately either K( a ) and H ( j- ) , or , more simply , K and H. The general equation to be investigated is the following , I--dp { 3 r d1 I 1-h2 sini P J/ 1-k2 ksin " ( 1 ) 3 being a constant quantity equal to the first ratio of the nascent arcs / and ( .
+If we admit that this is a possible equation , and suppose that when 4 is successively equal to the arcs of the series , q 7r 7r o , - , 2 , 32 &amp;c. , p attains the respective values , 0 , A , X2I X3 3 &amp;c. ; we shall have , H= 3K ( xA ) , 2H=K ( ) , 3H=3K ( 3 ) , &amp;c. ; and consequently , K ( 2 ) =2K ( ) , K ( X3 ) 3K ( X1 ) , &amp;c. Thus the arcs 2 , X3 , &amp;c. are the amplitudes of the multiples of the function K ( x1 ) , which itself remains indeterminate .
+We may therefore suppose pXK ( X ) =K ( ) , p representing any integer number ; and , in consequence , we shall have 12 32 K(kl ) K , K(k ) K , K( , ) K. 1-p p..p Any proposed number being assumed for p , we may determine the amplitudes 7 X2 , 3 , &amp;c. by the theory for the multiplication and subdivision of elliptic functions : but as the equations to be solved are complicated and impracticable , the arcs XA , X2 , &amp;c. may be treated as known quantities without any attempt to compute them .
+An elliptic function becomes equal to the arc of its amplitude , when the modulus vanishes : and in this case the arcs AX , X2 , x3 &amp;c. are obtained by the 1 ir subdivision of the quadrant of the circle , and are respectively equal to .
+2 7r 3srp* p " 2 c ' Having made these observations , we shall for the present dismiss all consideration of the equation to be demonstrated , and turn our attention to investigate two variable arcs 4b and p , such that the first shall have the successive values , 0 , 2X 3 X , &amp;c. 2 z2 when the second becomes respectively equal to the several known amplitudes , 0 , kl X21 X3 , &amp;c. 2 .
+As we shall have occasion to refer to the formulas for the addition and subtraction of elliptic functions , it will be convenient to premise them .
+Let a and b represent any two amplitudes , and put K ( a ) +K ( b ) K ( s ) K ( a)K ( b ) =K ( K ) : then , according to the formulas of EULER , sin cos b_ i Ic sin b cos a sin bi sin2 a sin S --* 1 sin a sins b sin a cos b V^i k sin2 b cos a sin b V1 -k sin2 a Sin a , = I / F " sin ' a sin ' b From these we immediately deduce , sin2 a -sin2 b sin sin = -k2 sin a sin2 b ( A ) It may be observed that if a= X , b= Xn ; then s = ; n +n , n= Xn : for it is obvious that K ( .
+) +K ( k ) = ( m + n ) K ( x1 ) =K ( m +n ) K ( xm ) K ( x ) = ( m n)K ( 1 ) K ( XK n ) 3 .
+In order to avail ourselves of the analogy between the elliptic functions and the arcs of a circle , we must take that view of the matter first suggested by M. ABEL .
+Let u. =foK J " 0V k1 -c sin,2 K then , as u is a variable quantity depending upon the amplitude p , reciprocally this latter quantity will depend upon the first ; which dependence we shall express in this manner , &lt; = amplitude of u=A u , sin p sin A u. For the sake of abridging , let w= K ; so that ?
+2 , 2 , X3 , &amp;c. will be the p respective amplitudes of w , 2 c , 3 o , &amp;c. ; and xp = amplitude of p= amp .
+of K= 90 ?
+; and z2p = amp .
+of 2pa= amp .
+of 2K= 180 ? .
+From the nature of the integral , it follows that when u receives an addition equal to 2pw or 2 K , the amplitude of u will be increased by 1800 .
+To the indeterminate quantity u let there be added the several even multiples of w less than 2 p ; and let us consider the sines of the amplitudes of the functions so formed , viz. sin A u , sin A ( u +2 w ) , sin A ( u +4 ) , ... .
+sin A ( u +2p 2 ) : in this series , if we substitute in place of u , the successive quantities u+2 w , u+4 w , u+6 co , &amp;c. , the same sines will constantly recur in periodical order , abstracting from the change of sign when an amplitude becomes greater than 180 ?
+, or than a multiple of 180 ? .
+Thus , if we put u+2w in place of u , the second term of the foregoing series will stand first , and the last term will be sin A ( u + 2p )= sin A ( u ) .
+In like manner , if u+4w be substituted for u , the third term of the series will stand first , and the two last terms will be -sin A u , sin A ( u +2 w ) ; and so on .
+Let us now put y =sin Awe sin A ( 3 w ) X sin A ( 5 w ) ... .
+X sin A ( 2p -w ) or , which is the same thing , y= sin xl X sin 3X sin 5 ... .
+X sin 2p_- ; and further , let us assume , sin Aux sin A(u +2 cv ) A(x sinA + 4 ... .
+x sinA(u + 2p w-2 co ) ^=Y~~~~ y'e ~~~~~~~ ( B ) In this expression , if we substitute for u , the several odd multiples of X in succession , viz. w , 3 w , 5o , 7 , &amp;c. it follows , from what has been said , that the products in the numerator will always be the same , and equal to the denominator , but that their signs will change alternately as the successive quantities are substituted .
+Thus , when any odd multiple ( 2 n+ 1 ) X is substituted for u in the expression ( B ) , the value ofy is always +1 or 1 , according as ( 2 n+ 1 ) o holds an odd or an even rank in the series of the odd multiples of w. On the other hand , when u is zero , or equal to 2no any even multiple of W , we shall have y= 0 , one of the factors of the numerator necessarily vanishing ; for in a sequence of the even multiples of &lt; o , of which the number is p , there must be one equal to 2p , , or to a multiple of 2p o ; and therefore when *u 2n w , one of the factors must be the sine of an amplitude equal to 1800 or to a multiple of 180 ? .
+Further , let oz be substituted for u in the expression ( B ) , z being less than u ; then , sin A ( w -z ) sin A(3wz ) ... .
+sin A ( 2 po -w -z ) 7 Now , in the numerator , the partial products , of the first and last factors , of the second and last but one , and so on , are as follows : sin A( z ) sin A ( 2p ww z ) = ( w )sin A ( sin A ( w z ) , sinA ( 3 z ) sin A ( 2pw 3w z ) sin A ( 3 z ) sin A ( 3 + ) , ) &amp;c. to which we must add the single factor sin A ( p w z ) , when p is an odd number .
+All the partial products , it will be observed , have the same value whether z be positive or negative ; and they are all greatest , when z= 0 , as will readily appear from what is proved in ? ?
+2 .
+Wherefore y has the same value and the same sign , when u is at equal distances from the limits 0 and 2 w ; and it attains its greatest magnitude , equal to 1 , when u W. And , if we substitute ( 2 n+ 1 ) z for u , this substitution will not change the foregoing factors , but only their order , and the sign of their product , which sign , while u is contained between the limits 2 nw and 2n0+2 w , will be + or - , according as ( 2 n+ 1 ) 0 holds an odd or an even rank in the series of the odd multiples of w. We may now conclude , from what has been proved , that y , in the expression ( B ) , represents the sine of an arc 4c , which increases from zero with the elliptic function u , and coincides with the successive terms of the series , 0 , - , 2 j- , 3 -- , &amp;c. ad infinitum , at the same time that u attains the values , 0 , ws , 2w3 w , &amp;c. ad infinitum , or , when the amplitude of u becomes equal to the several known arcs , 0 , x , X2 , 3 , &amp;c. ad infinitum : and further , that there is but one value of y , or of sin 4 , between the two consecutive terms mX -r and ( m + 1 ) X -- , for any given value of u between the limits m and ( m + 1 ) w , or for any given amplitude between the arcs AM and An + 1 .
+4 .
+In what has been proved , p may be either an odd or an even number but we must now distinguish between the two cases , in like manner as it is necessary to do when we investigate the sine of a multiple of a circular arc .
+Representing the amplitude of u by p , we shall have , u=K ( p ) , and sin p= sin A u. When p is odd , there will be an even number of factors after the first in the numerator of the expression of y or sin 4 ; and any one of these , as sin A ( u +2n w ) , will have another , namely , sin A ( u +2pw2n w ) sin A ( 2 n u ) , answering to it ; and the product of this pair of factors , viz. sin A ( u +2n w ) X sin A ( 2 nw 4 ) , will be found by the formula ( A ) of 2 , observing that sin a= sin A ( 2 n w ) = sin X2 , sin b= sin Au= sin p , sin s= sin A ( 2 n w+ u ) , sin o= sin ( 2 n u ) : thus we have , sin ' !
+-sinn sin A ( + 2 n ) sin A &lt; u +2p -2 nw ) -- , 1 -k -sin sin in Wherefore , by taking in all the factors and writing z for sin p , we shall obtain , sin x -s sin s4 % zz sin iApI z2 sy ' 1k1 z2 sin2 A2 1kz sin A4 ' 1 --ki z sinA sin A The expression of y , viz. y= sin. sin A3 .
+sin ... sin.p 1 , may be written in this form , y= sin2 X. sin2 X3 .
+sin2 ?
+.5 ... .sin2 i omitting the factor sin Xp = 1 : wherefore , if we assume , _ sin2 X. sin2 A4 .
+sin2 A ... sin2 A_ sin2 A1 .
+sin2 A3 .
+sin2 As. .
+, sin , 2 we shall have , p being an odd number , z2 z,2 22 1 --sin t_p%l 1sin 9A si n " AA4 sn ; -l ( s2 sin , -l -^^-/ .
+ll z~sin~ ~'1 sin"p 1 ~sin= P3z- .
+1 / c2Z'sjn2V 1ka zsn 1kzsn .
+( 2 ) When p is an even number , if we leave out the first factor in the numerator of the expression of y or sin 4 , there will remain an odd number of factors , that which occupies the middle place , being sin A ( u +p c ) : and any factor , as sin A ( u +2n w ) , between the first and the middle one , will have another , viz. sin A ( u + 2p 2 nw ) , corresponding to it after the middle one ; and the product of this pair of factors will be obtained as before , viz. sin " A2 n sin2 &lt; sin A ( u +2n w ) sin A ( u +2p2n w ) =i sin " A , n sin p. / \ *r/ l-P si.2.S With regard to the middle factor , we shall have , in the formulas of ? ?
+2 , sin a= sin A ( p w ) = sin 90 ?
+, sin b= sin Au= sin p , sin s= sin A ( u p w ) ; and sinA(u+pw)= COS A ( u , V 1k sin2p p Wherefore , by proceeding as before , we shall have , p being an even number , zz zVi S sink / -Z v'-zn s ing sn .
+A sin2 -Ap Sin / i-k _zs sins g2 z1 --Z2 sinx '1 -k z2 sin X2p -2 ( 3 3-sin2 A2 .
+sin Ax4 .
+sin A6 ... .
+sin2 p2 sn in eA sin2 As ... .
+sin in2 Ap i1 In both the formulas ( 2 ) and ( 3 ) , it is obvious that 3 is the quotient of the product of the sines of all the even amplitudes , ?
+2 , 4,5 &amp;c. between the limits 0 and 180 ?
+, divided by the product of the sines of all the odd amplitudes , x1 , X3 , &amp;c. contained between the same limits .
+The general expression of 3 , common to the two cases , is therefore as follows , sin A2 .
+sin A4 .
+sin. A6 .
+sin 2.p 23 sin x. sin.si3 , sin A. .
+sin p 1(4 ) In the formula ( 2 ) let P and R stand for the products of the binomials in the numerator and denominator ; then , sin , = ; and , COSR 1 9-P cos24= --= -RT--The numerator of this expression is a rational function of 2 , and it will vanisl whenever cos2 , = 0 , or sin2 4'= , that is , when z2 is equal to sin2 X2 , + 41 2n+1 being any odd number less than 2 p. Suppose that 2n+1 is any odd number less than p , the numerator of the value of cos2 4 will be divisible by ( -s , + I ) ' and also by ( s ; n2 a2 ; and as these binomials are\L , ssin 2n+l I\ sln2p 2n lequal , it will be divisible by their product ( 1 sin + ) ; and , p being itself an odd number , to the double divisors there must be added the single one ( 1 in|-A ) =1 z2 .
+The numerator is therefore divisible by the product , z2 2 z2 )2 / 2( 2 ) .
+( 1 siA ) * ( 1 sinmA ) ** * divisible by the double divisor ( 1Si .
+) , 2n+1 being any odd number less than p ; and in this case when p is an even number , all the divisors are double .
+Wherefore the product ( 1 -a ( \2 )( ( 1$ i.)2 g ) ... .(1 0( ' sin2 2Z 22 sin"j %]"'( -si AP ^/ ' will divide the numerator of the value of cos2 1 ; and it will be identical to it , because both the expressions have the same dimensions .
+Thus we obtain , p being an even number , 1 sin sin ' sin Ap -1 .
+c_ls1 --=sin %.- .
+( 6 ) coS 4i1 -4^c 1 sin1 kl sin2 sn , -2 From the equations ( 2 ) and ( 5 ) we deduce , 11 -1-t Sine % si n " %A s inA s2p1 tan , w - .
+r 1-in " sini 1 -sin p but it will readily appear that sine p tan2 p ~sin2 A , _ tan2 A , sin2 ?
+tanp sin2A2n 1 tan2 A , +1 wherefore we obtain , p being an odd number , tan2 p tan _p tan2 tanlC=ptan~ 1 tan , tan2 A4 tan"2 A -1 tan " q5 tan2 i tan2 , ( 7 1_ .
+1 -1 -tan " A1 tan2 XA tan Ap 2 And in a similar manner we deduce from the equations ( 3 ) and ( 6 ) , p being an even number , tan2 4 tan2 $ tan " p ~tan41= ta tan 1ttan1ln-2 8 tant tan ttan tan " 4 tan " ( 111 -1 1 tan2A1 a12 ' 1 tan 2 tanw2 1 X , tann A3 tan2 A tan2 tan r1 The formulas ( 2 ) , ( 5 ) , ( 7 ) , in which p is an odd number , are those used in the theorems of M. JACOBI ; the other three , ( 3 ) , ( 6 ) , and ( 8 ) , have been added here .
+All the formulas will be true in the circle , if we make k= 0 , and derive the arcs X1 , 2 , &amp;c. from the subdivision of the quadrant , in like manner as they have been obtained from the subdivision of the definite integral k ( 2 ) The coefficient ( is the expression of the first ratio of the nascent arcs a4nd ap and it is equal to p in the circle .
+All the formulas are , however , imperfect in one respect : they all suppose that the amplitudes Xl , &amp;c. , derived from the subdivision of the definite integral k( ) , are known .
+By means of these amplitudes , the general solution of the problem has been deduced from a particular case : but the formulas cannot be considered as complete till all the coefficients have been expressed in functions of the modulus k ; and , with respect to this point , the researches of analysts have not yet been entirely successful .
+5 .
+Having now investigated the relation between the arcs n and p , we have next to demonstrate that the equation ( 1 ) is true when these amplitudes are substituted in it , and a proper value is assigned to the indeterminate modulus h ; but this requires some preparation , in order to avoid complicated operations .
+First , p being an odd number , we have , sin ; -= A , cos , ~1 Q ; R , P , Q , representing the rational binomial products in the denominators and numerators of the equations ( 2 ) and ( 5 ) : we therefore obtain , 2 R2= 2 2P2+ ( 1-_ ) Q2 .
+This equation has been found on the supposition that z is less than 1 ; but , as it contains no radical quantities , it will be true for all values of z. We may therefore substitute A for z ; and , in the resulting equation , the symbol z will still represent a quantity unrestricted in its value .
+Now , the substitution of for z being made , we shall obtain , R2 ( 32 h2 p2 = ( 1 -2 z2 ) R'2 , in which expression R and P denote the same functions of z as before , and the values of the new symbols h and R ' are as follows , hI = kP sin4 X1 .
+sin4 3 .
+sin4 x. sin4 xp_ 2 , R ' = ( 1 k2 z2sin2 X1 ) ( 1 -k k2 z sin2 3 ) ... ( 1 -k2 z2 sin2 Xp 2 ) .
+We thus have jR2 _ P2 Z p2_2 Q }C Vu.23zP2V ( C ) V^/ R2_ h2 2 pV 1k _2 2 .
+R. Secondly , when p is an even number , R , P , Q will stand for the rational binomial products in the denominators and numerators of the equations ( 3 ) and ( 6 ) : thus. .
+l--hzgr p.i Q sin )=c cos= i--kz* R consequently ( 1 k2 2 ) R2 = 32 z2 ( 1 2 ) P2 + Q2 .
+And if in this equation we substitute pc in place of z , we shall obtain this result , ( 1 k2 z2 ) R2 = 32 z2 ( 1 z2 ) P2 + R'2 R and P representing the same functions of z as before , and the new symbols h and R ' standing for these values , h= kP .
+sin4 X1. .
+s x3 .
+sin4 5S ... sin4 xx R'= ( 1k2 2 sin2 ) ( 1k2 22 sin2 3 ) ... ( 1-2 Z2 sin2 _ .
+From what has been proved we now have 7(1 ck2 z2 ) R2 2 ( 1t -2 ) == Q , / ( 1 kz2 2 ) R2 -32 h2 z2(1 -2 ) P2 R= RJ To these formulas we must add the following principle of analysis , on which the demonstration we have in view mainly turns .
+Let V and U denote rational functions of z : we shall have this identical equation , d. ( 1 d.(V aU ) d.(V+ a U ) dz U2 =-(V+aU ) -(V U ( V a U ) V ) } from which it follows , that every double binomial factor either of V+a U , or of Va IJ , is a simple binomial factor of dz U2 ; and further , if V+ aU and Va U have no common divisor , that every double binomial factor of ( V +a U ) X ( Va U ) = V2 a2 U2 , is a simple binomial factor of dz 6 .
+The differential of the equation ( 1 ) may now be readily demonstrated , supposing that 3 has the value investigated in ? ?
+4 , and h , the value assigned to it in ? ?
+5 .
+And first when p is an odd number , we obtain from the equation ( 2 ) , sin =Rz= sin p : and with these values the equation ( 1 ) will become R2 { 'pi dr VaR .
+, J 1 v/ ( R2 p2 ) ( R2 hz2P2 ' 1.1_ 2 : and , on account of the formulas ( C ) , QR '-_ Q. RI 1 Now it is evident that R+ f. zP and R. z P , have no common divisor : for , as R contains only the even powers of z , and zP only the odd powers , if 1+cz be a factor of R + .
+zP , 1cz will necessarily be a factor of R- .
+zP .
+Wherefore , according to what has been proved above , every double binomial factor of R2 P2 Z2 P2 , that is , every factor of Q , will be a factor of the function in the numerator of the left side of the last equation .
+In the very same manner it is proved that every double binomial factor of R2 P2 h2 Z2 P2 , that is , every factor of R ' , will be a factor of the same function .
+Wherefore the numerator of the left side of the last equation is divisible by the product QX R ' in the denominator ; and , as both the expressions have the same dimensions and the same absolute term , they are identical ; which verifies the equation .
+Wherefore the equation ( 1 ) is demonstrated when p is an odd number .
+Secondly , when p is an even number , we have by equation ( 3 ) , sin sin and the differential of equation ( 1 ) will become by substitution , ( k -zR.d ___ _ P\ dz V/ k^ 2z5 .
+RJ ^V ... .
+R - : ' z1 -e/ and , on account of the formulas ( D)I ( 1 k"~z.)R ( z1 P ) ~v ' ( 1-k 2z ) R2 , / { 2lVr_ .
+p\ --'* _ .
+v^ ui _:. .
+_ Q. ' =2 1-k22 It will be proved , by the like reasoning as before , that the numerator of the left side of this equation is divisible by the product in the denominator .
+Now if we perform the differentiation indicated , we shall find , d( ) S=(2 z2 4P ) PR+ z ( 1 -z2 ) ( 1 k2z2 ) R2 -(1-2R2 ZV1 ze p ) S dz ( II v)Ri~ 4 --P\ P-)S _ and it is evident that all the rational factors of the left side of this last formula , and consequently all the factors of Qx RW , will be factors of S. By substitution the differential equation ( 1 ) will now become SQ x , which is manifestly verified : for , as QX R ' divides S , and the two expressions have the same dimensions and the same absolute term , they are identical .
+The equation ( 1 ) is therefore demonstrated when p is an even number .
+7 .
+The transformation expressed by the equation , , .
+dj _ dp J hsin ' V-I ks in 'p has now been demonstrated for any number whether odd or even , the constant 3 being determined by the formula ( 4 ) , and the modulus h by the special formulas in ? ?
+5 , or , generally without distinguishing whether p is odd or even , by this formula , h= k. ( sin zX sin x3 sin 5 ... sin X2 , -_ )2 , ( 9 ) the sines multiplied together being those of all the odd amplitudes less than 180 ? .
+The relation between the variable amplitudes 3 and p is expressed by the several equations in ? ?
+4 .
+In order to render the solution of the problem more complete , it may be proper to add a useful method of computing the amplitude , .
+In ? ?
+5 we have obtained this equation , R2 = 32 2 z2 + ( 1 2 ) Q2 And , if we represent by N and M the products of the binomials in the numerator and denominator of the equation ( 7 ) , we shall have tatan pN tan P=M x2 Let x= tan p , then z2 = sin2 = 1-- ; and , observing that Xy za tan2 An sin2-A ( ~ --X2- ) it will readily appear that lxN _-M P x= - , Ip Z _1 .
+Q---F ( 1 +)2 ( 1 + X2 ) These values being substituted in the foregoing equation , we get M2 + P2 x2 N2 = ( 1 + x2)P .
+R2 : MRv .
+IVORY ON THE THEORY OF THE ELLIPTIC TRANSCENDENTS .
+And if R be transformed into a function of x2 , we shall obtain M2 + P2 x2N2 = ( 1 + x2 ) ( 1 + c2 x2)2 ( 1 + c42 2)2 ... ( 1 + c2 p.2)2 , the new symbol c2 , being determined by this formula , c2 1-k2sin2 X2 .
+The last equation may be resolved into these two , M+ xN -l = ( 1 +1 ) ( 1 + ( ( 1 + c=p_2 ( / 1)2 , M p^xN / -i = ( 1 -xJ/ 1 ) ( 1 -c2x^/ -1)2 ... .
+( 1 Cp .
+J1)2 : the second of which being divided by the first , there will result , 1 tan+ ^/ 1 1 -+ 2 ^/ 1+ cc / V c_ex 'Now u being an arc of a circle , we have this well known formula , 11/ fI -tanu -t/ -1 2 -I tan uu=2_x1 Xlo ( l + tanim T:/ -1 wherefore , if we take the logarithms of the factors of the foregoing expressions and substitute the equivalent circular arcs , we shall obtain , p being an odd number , =p +2 4+'2 24 --+2 ( P ... 2 pp-1 , ( 10 ) the arc ( 2n being determined by the equation , tan ; 2=-c2 X tan p. When p is an even number , we have this equation in ? ?
+5 , ( 1 -k2 z2 ) R2 =2 z2 ( 1 2 ) P2 + Q2 .
+And , using N and M to denote the products of the binomials in the numerator and denominator of the equation ( 8 ) , we have tail tantan N By the substitution of -Vfor z as before , it will be found that , syzVl-.z2p= sN N , Q= M ( 1 + 2)(1 +x 4 ) 21 2~Wherefore we have , M2 + 2,2 N2 = ( 1 + x2)P ( 1 k2 z2 ) R2 ; and by converting ( 1 / 2 2 ) .
+R2 into a function of x2 , we get M2 +2 2N2 = ( 1 + x2 ) ( 1 + k'2 2 ) ( 1 + c22 2)2..(1 + c2 X2)2 , k'2 =11 21 2 sin2 2 .
+By treating this equation as before , we get 1 -tan + ^-1 ' 1--x 1 / 1 x -c/ I1\2 x. 1+ tanf 4/ -1 1+x V/ 1+ klx / - !
+1 + c2x V/ and from this we deduce , p being an even number , ,k =(+P+ P2 + P4 * the modulus h , being less than the modulus h. Continuing the like operations , we can pass along a scale of decreasing moduli , till we arrive at one which , being as small as we please , will make the function F ( k , p ) approach to a circular arc as near as may be required .
+If we wish to apply the same theorem to reduce the given function F ( h , q ) to a logarithm , through a scale of increasing moduli , the process is not so direct .
+For , in the first place , the greater modulus k is not immediately deducible from the less h , by means of the formulas that have been investigated ; and , in the second place , the amplitude p cannot be found when 4 .
+is given without solving an equation of p dimensions .
+The theorem is , no doubt , mathematically sufficient for effecting the reduction ; but the operations required are practically impossible , except in a few cases when p is a small number .
+But the ingenuity of M. JACOBI has provided a remedy for this inconvenience by a new transformation , which we shall now briefly explain , as it discloses a new set of remarkable properties of the elliptic functions .
+If we put y= tan ~ , x= tan p , h'2 1 h2 , k2 =1 k2 , the differential of the equation ( 1 ) will assume this form , die gdx +/ 1 + y. 1+ hi 2y2 + 4/ 1 .
+1+ kV2:'x2 and , for solving this equation , we shall have by the formula ( 7 ) , p being an odd number , 2i t2 m2 1-1-1 tann 4 tan2 1 ta tan p1 y=X---xX ___ tan2 A , tan23 tan xp-2 But if this value of y solve the differential equation , it will still solve it , if we change + x2 and + y2 into x2 and y2 ; for it is obvious that , if the expression of y make the two sides of the equation identical in one case , it will necessarily make them identical in the other case .
+Wherefore the equation die dax / i '1 -y .
+1 h'y2 ~ 1 .
+1k x2 ' will have for its solution .
+Xs x x. y =+ tan +l tan2 4 tan I tan2 Ai tanr A3 tans Api In this equation the values of y and x are between 0 and + 1 , which limits they both attain at the same time .
+If we make x=+ 1 , and attend to the value of 3 , we shall find y=+ 1 .
+Let y= sin , x= sin o : then the integral of the differential equation will be F ( h , ) =F ( ' , o ) sin2 " sinl Cr sin a sin Xr= _ sina X tan2 A tan A4 1 tan2A1 ( 12 ) sin T sinra~ x _ .
+-/ ( 12_ sinG yX. .
+sin"2 ' sin " s ' sin2 ( ltan1 +l tan ' A3 tan2 -p J the amplitudes ' and a increasing together from zero , and becoming equal to one another at 90 ?
+, and at every multiple of 90 ? .
+A property of considerable importance in this theory , results from the comparison of the equations ( 1 ) and ( 12 ) .
+Recalling the notations before used , viz. K=F ( k , 2- ) and H=F ( h , - ) , we obtain from what has already been said in ? ?
+1 , pXH=3 X K : and if we put similarly K ' =F ( k , j ) and H=F ( h , , and observe that in the equations ( 12 ) , r and a are equal to 90 ?
+at the same time , we shall have , H ' = K ' .
+By combining the two equations , we readily obtain , first , H1KH -H -p*K ; =PK ; ( 13 ) and secondly , K ' 1 H1 K ' 3/ 3'=p ; KI H ; =p '(14 ) For any number p , the first of the formulas ( 13 ) determines h , and the second determines 3 , when k is given .
+Both the formulas involve transcendent quantities ; they are nevertheless of great practical utility in this theory ; and they express succinctly the conditions necessary , in order that the transformations in the equations ( 1 ) and ( 12 ) take place .
+A little attention will show that the formulas ( 14 ) and ( 13 ) are entirely similar , the quantities 3 ' , h ' , k ' occupying the same places in the first , that ( 3 , k , h do in the other .
+From this we learn that the equations ( 1 ) and ( 12 ) will still be true if we change 3 , k , h for 3 ' , h ' , k ' , respectively .
+Thus we have , F ( k ' , ) ' = ( ' F ( h ' , p ) , ( 15 ) the letters , and p , it need hardly be noticed , although used on a former occasion , here express simply the variable amplitudes of the related functions .
+If therefore we divide H ' =F ( h , ) into p equal parts , and put h pj h3 , &amp;c. , for the respective amplitudes of 1H ' , -H ' , I- ' , &amp;c. ; we shall have by the formulas ( 4 ) and ( 9 ) , sln p sinsf*3 ... .sm 1v -2 , sin l , sin , p,3 sin _l( k ' = h'sin sin ... .
+sin -p1 ) I The multipliers 3 and , ' being similar functions , the first of the amplitudes U , , A2 ) 13 , &amp;c. , and the other of the amplitudes l , , iP2 ' ) P3 , &amp;c. , the equation 3(3 ' = p , expresses a curious property of those functions .
+And , in like manner , if we change 3 , k , h , respectively for ( ' , h ' , k ' in the equation ( 12 ) ; or , which is the same thing , if we derive an equation from ( 15 ) in the same manner that ( 12 ) was obtained from ( 1 ) , we shall get F(k , )= 'F ( h , ) , sin sin"sin sin sin ^sin ?
+r=z(sinaX ?
+ta.n tt2 tan4 1 , tan2 p-1 &gt; ( 17 ) sin sx sin -sin X sin2 " c sin2 sin ' " C +tan^ 1 +an23 +t an23 tan2-2 J Although , in the investigations of this ?
+, we have supposed that p is an odd number , yet it is obvious that they will succeed equally when p is an even number , the formula ( 8 ) being used instead of ( 7 ) .
+The analysis by which the equation ( 12 ) , of which those that follow are consequences , has been deduced from the equation ( 1 ) , is precisely that by which the expression of a circular arc is made to pass into a logarithm so that the whole of this analytical theory rests on one principle , namely , the analogy which an elliptic function bears to a circular arc and to a logarithm , which are its extreme limits .
+10 .
+Of the transformations in the last ?
+, the principal one is contained in the formulas ( 17 ) , which constitute what is called the second theorem of M. JACOBI .
+One of its chief uses is to supply the defect of the first theorem by furnishing a direct process for reducing an elliptic function to a logarithm , through a scale of increasing moduli .
+In the function F ( h , , ) , the modulus h being given , we know h ' ( = V/ i h2 ) named the complement of h for the sake of abridging ; we shall therefore obtain the amplitudes l , 2 &amp;c. , by the subdivision of the function H ' =F ( h , ) ; we next compute the quantities ' and k ' by the formulas ( 16 ) ; and , the amplitude a being given , we deduce from the formulas ( 17 ) , the amplitude r , which will satisfy the equation , F ( h= , )F ( ) , the modulus k of the new function being greater than h , because the comple meant k ' is less than the complement h ' .
+Taking now k ' the complement of k , we deduce from it , by means of the formulas ( 16 ) and ( 17 ) , the three quantities ( 3/ , k1 , T , in like manner as r ' ) k ' r were deduced from h ' ; and we shall have these equations , F ( k , ) = , ' F ( ?
+k , r , ) ; F ( h , o ) = , XF ( k , r ) ; the modulus k , being greater than k , because the complement k , ' is less than k ' .
+The like operations being continued , we shall at length arrive at a modulus k , as near the limit 1 as may be required .
+Another use of the second theorem , when combined with the first , is to find any multiple of an elliptic function , or any aliquot part of it .
+By the first theorem , we have F ( h , )= F( , , ) ; and by the second , making = in the equations ( 17 ) , F ( , )='F ( h ; and , by combining the two equations , observing that 3'= p , we get F ( k , )= F ( k , ) .
+If p be an odd number , the amplitudes are obtained by the formulas ( 2 ) and ( 17 ) , viz. 1-n2q sin2p Sins1 -sin xsin 4= sin X 1-C~ sin. S. .
+1-sinsin , -i:1 ksin p s2 sin2 X1 -+ sin , s -1 sin " + sing q , tansin + tan"1 +1 sin , s sin x sin.sin +tan tl tan2p 2 When a multiple is required , we pass directly , by means of the two equations , from the given amplitude p to r which is sought .
+In the case of an aliquot part , the amplitude r being given , the solution of the second equation , of which p is the dimensions , will determine sin , / ; and the amplitude p which is sought , will then be found by solving the first equation , which is also of p dimensions .
+From the nature of the second equation , it has only one real root , and p,1 impossible roots , for every real value of sin I ; and therefore it follows from the first equation , that the amplitude &lt; P of the function-F ( k , r ) admits in all of p2 values , of which only p values are real quantities , and the rest impossible .
+Ifp be an even number , the expression of sin 4 ' will contain radical quantities , but instead of it we may take the value of tan 4 in the formula ( 8 ) ; and the two equations for the amplitudes will be , tan2 p tan2 4 a.tan'nJ= j3 tan tan2 1 tan2 p _2 tan ; 1 tan2 A1 tan2Ap 1 tan &amp; A , tan &amp; 3 1 tan &amp; ?
+psinsin 2t sinf= ? ?
+3sin + tan2 s + .
+tanip 2 sin ' sin sin &amp; 2 1i 2 +- , 1tan2it1 tani 13 +tanyp 1 from which the same general properties may be deduced , as when p is an odd number .
+We have now demonstrated , as was proposed , the principal and leading points of this theory , for which we are indebted to M. JACOBI .
+For the subordinate details , and for many curious and important collateral researches that have been suggested by the new views laid open in this branch of analysis , we must refer to M. JACOBI'S own work , to the papers of M. ABEL , and to the writings of LEGENDRE .
+We shall conclude this paper by applying the formulas that have been investigated to two particular instances , taking for p the most simple values , namely 2 and 3 .
+Example 1 .
+Supposing p= 2 .
+By the formulas ( 3 ) and ( 6 ) we have these equations between the amplitudes A and p , z being = sin p , * Ox i7 a C61 -Sins xl sin ^4/ -cos / --kz wherefore I k2 z2 2=2 ( 1 z2 ) + ( 1 _sin A ) and 12 ( 2 s= _ _in 2= k2 .
+sin4X , ; sins A We now get 1 kr2 =1 k2 ; 3=1 -+ k ; sin2 -1 + k. Also , by the formula ( 9 ) , ko1kh k2 sin4 = ( 1 + k ) = from which we deduce ( 1 + h ) ( 1 + k ' ) = 2 .
+The equation ( 1 ) , viz. F ( h , ) )= F(k , ) , may now be put in one or other of these two forms , F+(k , ) FF ( k. , p ) 2F ( h , ~ ) , F ( h , ) ) = ( 1 + k ' ) F ( k , p ) : by the first we pass from the greater modulus k to the less h ; and by the second , from the less modulus h to the greater k. In the first of the two cases we must derive the amplitude 4 from p : and , for this purpose we immediately obtain from the formula ( 11 ) , tan ( 4 )= k ' tan p. Wherefore , if k hh , h , 2 , &amp;c. represent a series of decreasing moduli , of which the complements are , k , h ' , h ' , h2 ' , &amp;c. the successive quantities being derived from one another by these formulass 1 k ' -v 1-h ' 1 -hi nh=l+ / + h= 2 -= + &amp; C and , if we likewise deduce a series of amplitudes in this manner ; tan ( / , )= k ' tan &lt; tan ( 41 4 ) = h ' tan , tan ( 42 h4 ) = I ' tan .
+4I , &amp;c. we shall have these successive transformations , by which the value of the given function F ( k , p ) is made to approach indefinitely to the arc of a circle , Il+h '2F ( k , )2hF ( hI , )F ( k , , ) =++F ( h , -l ) 22 F(Jp ) 222^ F('h , 2 ) , &amp;c. In the second case , when we would pass from the less modulus h to the greater t , the amplitude q must be deduced from 4 .
+For this purpose we have sin C/ 3 1 -_z s sin p cos cos4/ z -Ss sin2 sin2 Ax sin 2 q~ but p=~ + ; cos p sin = 2 ; and 1 -2 sin2 == cos 2 : wherefore , sin , sin 2 qp cos cos 2 p ; and , sin ( 2 )h sin. Wherefore if the quantities , h k , ki , kk2 , &amp;c. represent a series of increasing moduli derived from one another by these equations , 111 -k -1 +h kt 1+ hk k1i + kl 2 &amp; c. ; and further , if the amplitudes - , , p , p , P2 , &amp;c. be deduced from the formulas , sin ( 2 p 4 ) =h sin 4 , sin ( 2 ( p p ) =k sin p , sin ( 2 P2 ?
+1 ) = ki sin l : &amp;c. we shall have these transformations in which the successive moduli tend to the limit 1 , F(h , )(+ k ) F ( k ) , F ( h , )= ( 1 ) k ) ( 1 + k1 ) F ( k , 1 ) , F ( h , )= ( 1 + k ' ) ( 1 + kl ' ) ( 1 + k2 ) F ( k2 , P2 ) , &amp;c. Example 2 .
+Supposing p= 3 .
+By the formulas ( 2 ) and ( 5 ) we have these equations between the amplitudes 4 and p , 3(l sin2 1 sin " A sin , ~ C^ ==-knos -2Sin 1 sin ; c " =1 z2 i_2 zsin A wherefore , ( 1-k2 2 sin2 2)2 z2 ( 1+ ( 1 -_ 2 ) ( ii % ] )2 from which we get 22 sin2 2= i+1 2 , ],4 sin4.2 = sin4 A^1 +s in " ' sn sin " A , P~ _sin2 A Now , observing that sing~ = sin A , we obtain by equating the values of k4 sin4.2 , L_ 1^ 1\2 12 ( 1-13 ) sin2A +2 ) sin A1 sin Ax from which we deduce R l2 1 IV -sin A1 In order to simplify the formulas I shall put si + s : then ( =1+2 ? ?
+1 ts X. , and sin2 2= 3 sin2 1= ( 1+ ) , : and , having substituted these values in the first of the foregoing equations , we shall get , ?
+4 +2 32 '2 g k/ 2 == 0 This equation may be resolved by the usual method into the two following quadratic factors , 3 -4 k2 K4 22 +_ ( 1 + / 1_ )_ +4,2 _ =2_ 0 , 2+ ( 1 --i ) + / ?J2 +4 k , = 0 .
+The second of these equations has two impossible roots : the first h.as two real roots , one being negative and foreign to the question , and the other positive , which solves the problem .
+Thus s has only one value , which may be constructed geometrically , but the algebraic expression of it need not be written down .
+We have next to derive the amplitude 4 from P. We readily obtain from the foregoing biquadratic equation , ( 1 + )y ( I E ) --1+2E and hence , 1k sins 2= q-2 .
+And the formula ( 10 ) will determine 4 ' when p is given .
+Finally , therefore , we have these determinations , 3-= 1+ 2 , h = ( l+P)tan I tan tn ; I F(k ) +2 IXF( ) , the modulus h being less than k3 .
+By repeating the like operations , a succession of moduli rapidly decreasing may be formed , by means of which the given elliptic function will be reduced to a circular arc as near as may be irequire d. 3c 2
+

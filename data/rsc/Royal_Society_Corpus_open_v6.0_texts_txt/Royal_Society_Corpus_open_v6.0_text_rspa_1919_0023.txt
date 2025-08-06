@@ -1,0 +1,193 @@
+]\gt ; Solutions of Poisson 's 's Equations .
+For a uniform strut whose moment of inertia is only 1/ 4 that at the midsection of the above strut Hence by tapering the strut to a moment of inertia at the tip equal to 1/ 4 that at the central seition , the strength has been reduced by 16 per cent. The variation in strength does appear to be greatly affected by moderate tapering .
+The last formula , therefore , should cover most practical cases .
+Solutions 's Eq Part I.\mdash ; By LZONAltD BAIISTO , C.B.E. Part II.\mdash ; By ARTHUR BERRY , M.A. , Fellow of King 's College , Cambridge .
+Received In course of a preliminary investigation of fluid motion when viscosity is taken into account , it was found that a solution of Laplace 's equation was obtained in very general form .
+The solution gives exact analytical expressions where the conditions of the problem admit of exact solution , but the chief claim to notice arises frolu the extremely general character of the method if graphical and mechanical integration are employed .
+The problem has been approached from the ineering standpoint , and the absence of any proof of the convergency of the series developed will immediately be evident to the mathematician .
+The justification by trial in particular cases is all that is attempted at the present moment , but in those cases the result is wholly satisfactory .
+For the analytical solution of the problems I am indebted to Mr. Arthur Berry who has added a second part to this paper , and has generally acted as helpful critic .
+For single closed boundaries of any shape , or for a combination of separate boundaries , the problem of finding a function which satisfies either Poisson 's or 's equation , admits of direct attack for the region inside a single boundary or between boundaries if there be more than one .
+For the region outside a single boundary there is a further condition to be satisfied infinitely far from the boundary .
+The problems arising in calculating the torsion of solid or hollow cylinders , the flexure of beams , and the motion of an inviscid fluid round a cylinder 458 Messrs. L. Bairstow and A. Berry .
+Two-dimensional are covered by the new analysis .
+The functions developed appear to belong to the class called ' ' Green 's functions and are special to the boundary or boundaries involved in any particular problem .
+The nearest approach to the degree of generality now attained is to be found in the application of soap films to problems of torsion and flexure .
+An account of that method iven by Griffith and Taylor in a paper read before the Institution of Mechanical Engineers in December , 1917 .
+visible representation is given which may often be translated directly into an expression of the strain in a cylinder or beam .
+All problems which may be solved by the use of soap films may also be solved by the new analytical method , which is further capable of attacking problems where the soap film is unsuitable .
+The basic theorem used is given in Lamb 's ' Hydrodynamics , ' and in Love 's ' Elasticity ' as due to Green .
+In the language of hydrodynamics the theorem states that " " any irrotational acyclic fluid motion can be reproduced by an appropriate choice of simple sources round the fixed boundaries The more general statement given in the works referred to is not required in the present application .
+The strength of the sources corresponding with given boundaries is determined by the solution of an integral equation .
+In the case double boundaries simultaneous equations are solved .
+The general form of Poisson 's equations in two dimensions is , ( 1 ) where is a known function , and where or has a known value at every point on the fixed boundaries .
+It is known from the theory of attractions that a particular ltegral of ( 1 ) is given by , ( 2 ) where is the distance from the point at which is to be determined to : the point .
+It is then permissible to consider the equation ( 3 ) as the general case with the boundary values of either or given .
+Equation ( 3 ) can be solved in terms of sources on the boundaries if the motion is acyclic , and if an extension to cylic motions is required , this can be attained by the introduction of artificial barriers as has been pointed out by Lamb .
+The extension will not receive further notice in this paper .
+To find the source distribution round a single boundary , fig. 1 , it is : necessary to build up the effect of a number of elementary sources .
+At Solutions of Poisson 's and the elementary source adds to the stream function amount , and hence , ( 4 ) where the integral is taken all round the boundary .
+is a function of ( fig. 1 ) , and is indeterminate to the extent of a constant .
+the independent variable to by partial integra ion , so that .
+( 5 ) If be not discontinuous at the limits , the expression limits to a constant , and without loss of enerality w may write .
+( 6 ) Now consider equation ( 6 ) when the point lies on a fixed boundary .
+The integral can be divided into two parts , one of which is equal to and the other is , where is the of the at P. The positive direction is to the right when standing on the boundary facing into the enclosed region .
+The particular feature of the ] lere referred to is seen by considering the limiting conditions as approaches the boundary from outside .
+Equation ( 6 ) becomes .
+( 7 ) Had the point been inside the boundary the explession corresponding with ( 7 ) would have been 460 Messrs. L. Bairstow and A. Berry .
+Two-dimensional Equations ( 7 ) and ( 8 ) are integral equations , of which the solutions are , ( 9 ) and , ( 10 ) the two series being extended indefinitely .
+Each integral is taken for travelling round the boundary , ' the radius vector traversing only angle .
+The double integral signifies the operation repeated on the result of the first .
+If the series is convergent the solution is easily checked by substitution of ( 9 ) and ( 10 ) in the original equations ( 7 ) and ( 8 ) .
+An examination of the terms of ( 9 ) will show that the first integral is an average value of on the boundary .
+The second integral is an average of the same kind on the results of the first integration , the base on which the is taken being the angular position of all points relative to ( fig. 1 ) .
+The result in the particular cases tried is that the successive integrals tend to become independent of the position of but are not equal to zero .
+If , as an example , we assume that is constant and equal to equation ( 9 ) becomes ( 11 ) and the series is not convergent .
+There is , however , no objection to the expansion of in the solution of equation ( 3 ) , and the difficulty shown in ( 11 ) is then emoved .
+No physical explanation of the meaning of in the hydrodynamical problem is given , but the existence of a constant residue does not introduce any difficulties in numerical computation , as it is automatically evaluated in the successive integrals on the assumption that it exists .
+First of the Use of ( 8 ) .
+If an inviscid fluid be still at infinity , and a circular cylinder be moving through it with velocity , we have the boundary condition , ( 12 ) where is the radius of the cylinder and is measured from the centre of the cylinder , and is zero in the direction of motion .
+Applying equation 9 ) to ( 12 ) leads to , ( 13 ) Solutions of Poisson 's and Laplace 's Equations .
+and since , the integrals can be evaluated and found to be zero separately .
+We then find Va .
+( 14 ) The value of at any point not on the boundary is now found from the equation This integration prcsents no particular difficulties and leads to siu , ( 16 ) where and are polar co-ordinates measured from the centre of the cylinder and the direction of motion .
+This solution is of course well known .
+In the general of a boundary of any shape , the integrals in ( 9 ) and ( 10 ) cannot be obtained analytically .
+If graphical and mechanical integration are introduced they are always calculable , the degree of accuracy being fixed by the care bestowed on the arrangement of the work .
+As the examples now to be given are illustrative only , no attempt has been made to achieve more accuracy than is as an effective check on the convergence of the series .
+The remaining examples refer to the torsion of ] inders , and the equation to be solved is , ( 17 ) with the boundary relation const .
+( 18 ) : The Torsion of Etliptic Cylinder .
+The origin of co-ordinates was taken at the centre of the ellipse with the axis of along the major axis .
+The lengths of the semi-axes were 1 and .
+Points on a quadrant were marked , 1 , 2 , 3 , 10 to denote position ; point was at end of the minor axis and 10 at the end of major axis , the intermediate points having abscissae equal to one-tenth of their marking .
+The numerical values of the several terms of equation ( 10 ) are shown in Table I , and it will be noticed that the second integral has attained a value which is little different from at any point of the boundary .
+further integrals of the series would have this same constant value , and the series will be convergent if the constant of equation ( 18 ) is made equal to .
+Using this vaJue leads to Table II , which shows how very rapidly the series converges in this instance .
+The of , i.e. , the integral of the strengths of the sources on the elliptical boundary , is given 462 Messrs. L. Bairstow and A. Berry .
+the fifth column of Table II , and , for comparison , a column is given of the values computed analytically by Mr. Arthur Berry ( see Part II ) .
+The agreement is complete within the accuracy of the graphical calculation .
+Third Example : The Torsion of a C'ylinder of which tho Section that of an Air-screw Btade Section .
+The section of the cylinder is shown in fig. 2 .
+The origin has been taken near to the centre of area , and the points 1-11 were chosen arbitrarily .
+The figure gives only the shape , the values of at each of the points being given in Table III , column 2 .
+After three integrations , it appeared that the limiting constant value of the integrals was approximately , and , using this value for the boundary constant of ( 18 ) , the calculated value of successive terms of equation ( 10 ) are given in Table III .
+Table I.\mdash ; Elliptic Cylinder .
+Solutions of Poisson 's and 's Equations .
+Table II.\mdash ; Elliptic Cylindep .
+constant of integration in the analytical solution chosen to make this figur ; agree with that calculated graphically .
+Table III.\mdash ; Cylinder of which the Section is that of an Airscrew Blade Section .
+The convergence is not nearly so rapid as for the ellipse .
+The trend of the terms is clear , and it would be easy to guess an extension , and so approximate to the value of very rapidly .
+This is always permissible , since the repeated processes do not presume correctness of the previous work .
+The value of , calculated from the approximate value of , will have small errors in it , which will lead to a new problem with new boundary conditions .
+The importance of this possibility of approximate calculations is very great , since the extra care necessary for high accuracy can be introduced at a late stage of the computation .
+The calculations were made by Miss A. D. Betts , B.So .
+To the accuracy given in Tables I , II , and III , the graphical process is particularly simple , and each of the examples 2 and 3 can be solved in a 464 Messrs. L. Bairstow and A. Bsrry .
+Two-dimensional few hours by a mechanical draughtsman .
+Once has been determined with the desired degree of accuracy , it is possible to calculate at any point of the section .
+Usually the stresses are required , i.e. , and , and these may be estimated independently of .
+The mechanical operations for finding and are not so simple as for , but they present no particular difficulty .
+In the hydrodynamical simile used throughout this paper , the calculation of stress is equivalent to the calculation of the velocity of the inviscid fluid .
+Solution of Equation ( 3 ) on the Known .
+If represent variation normal to the boundary , the problem can be transformed by the use of Green 's theorem so as to reduce to that already solved .
+If be harmonic function , Gleen 's theorem leads to the equation , ( 19 ) where is the angle between the line PQ ( fig. 1 ) and some fixed datum , and is an element of length of the boundary .
+With the point on the fixed mdary , equation ( 19 ) becomes , ( 20 ) the ambiguity of sign corresponding with solutions for the regions external to and internal to the fixed boundary .
+If we now refer to equation ( 9 ) , it will be seen that it may be written as .
+( 21 ) Since right-hand side of ( 20 ) is known by hypothesis , a combination of and ( 21 ) leads to a determination of , and therefore to a solution of equation ( 3 ) , with known on the boundary .
+Extension of the Analysis to Double Double boundaries can be treated by an extension of equations ( 9 ) and ( 10 ) .
+The computation is of the same nature as before , but the number of integrals to be evaluated is greater .
+In developing the formulae , and will be used to denote the value of on the outer and inner boundaries respectively .
+It is necessary to have a notation which will indicate that the points and on one or other of the boundaries .
+has been used to mean that is Solutions of on the outer boundary , that Q is on the inner boundary .
+denotes that is on the outer , whilst refers to on the inner boundary .
+The notation does not lead to confusion with the limits of integration , since is always aken to traverse the boundary on which it lies .
+With the notation explained above , If be on the outer boundary , ( 22 ) becomes whilst for on the inner boundary ( 22 ) becomes .
+( 24 ) A usual boundary condition will be that and : are known functions except for additive constants .
+Equations ( 23 ) and ( 24 ) then constitute a pair of simultaneous integral equations from which to determine and They are solved as follows:\mdash ; Write for and substitute in ( 23 ) and ( 24 ) to get , ( 25 ) and .
+( 26 ) Now define b.y the relation , ( 27 ) , by an equation which identical in form with equation ( 6 ) , and which can be solved for , as previously indicated .
+Two equations are then left instead of ( 25 ) and ( 26 ) , and are .
+( 29 ) Since .
+has been determined by ) , we may look on the ] -hand side of ( 29 ) as known , and write equation ( 29 ) as 466 Messrs. L. Bairstow and A. Berry .
+Two-dimensional an equation of exactly the same form as ( 24 ) , and therefore suitable for similar treatment to ( 23 ) , , write , and substitute in equations ( 28 ) and ( 30 ) to get ( 31 ) ( 32 ) Define by the relation This completes a cycle of operations which can be repeated indefinitely .
+To see the repetition most symmetrically , write for , ( 34 ) when ( 31 ) becomes , ( 35 ) equation ( 32 ) becomes .
+( 36 ) These equations are essentially of the same form as ( 23 ) and ( 24 ) .
+The zero term of ( 36 ) implies a considerable reduction in the labour of computation and follows from the combination of the two terms of equation ( 29 ) into a single one in ( 30 ) .
+Had this not been done equation ( 36 ) would have had still more exactly the form of ( 24 ) .
+If , and , ( 37 ) so on in the repetitions of the process , then ( 38 ) The physical interpretation of the analysis in terms of fluid motion is not difficult and is given below:\mdash ; ( 1 ) Find the distribution of simple sources on the outer boundary which would give its correct value if the inner boundary did not exist ( equation 27 ) .
+( 2 ) Find the value of on the inner boundary due to the sources found by ( 1 ) .
+Add this value of to the value of on the inner boundary ( lefthand side of 29 ) .
+Solutions of Poisson 's 's Equations .
+( 3 ) Find the source system on the inner boundary which gives to on the inner boundary the combined value of : given by ( 2 ) , ignoring the existence of the outer boundary ( equation 33 ) .
+( 4 ) Find the value of on the outer boundary due to the sources of ( 3 ) .
+( 5 ) Find the source system on the outer boundary which eliminates the value of due to the sources on the inner boundary , ignoring the existence of the inner boundary in the calculation .
+This is really a repetition of ( 1 ) .
+Continue the processes until the various integrals become sensibly constant at each stage , and eliminate the constants as shown after equation ( 11 ) .
+( 6 ) Add the several solutions on the outer and inner boundaries respectively to the final values for the source system on the two boundaries .
+Fourth The torsion of a hollow circular cylinder is considered , the inner cylinder being circular but eccentric to the exterior surface .
+The radius of the outer cylinder was 5 and of the inner , the distance between their centres being unity .
+The origin of co-ordinates has been taken as the centre of the outer circle and the location of the points referred to in Table is given in terms of the angles 1neasured from the centres of the respective circles in the section of the cylinder .
+The points and 9 are those of greatest separation on the two circles and points 8 and 17 those of nearest approach on the line through the two centres .
+The angular separation of points on either boundary is The symmetry of the section about the line joining the centres of the circles makes it unnecessary to calculate integrals on both halves .
+The equation to be solved is with const .
+( 39 ) const .
+Griffith and Taylor in solving ( 39 ) by the soap film method found it necessary to introduce the condition that the conjugate function is to be single valued .
+The hydrodynamical analogy is that the motion between the boundaries shall be acyclic and this condition is automatically fulfilled in the present analysis .
+Since the centre of the outer circle has been taken as origin , is constant and .
+On the inner boundary ( 40 ) being the distance between the centres of the circles of the section and 468 Messrs. L. Bairstow and A. Berry .
+Two-dimensional the angle measured from the line the centres , using the centre of the inner circle to fix the axis of rotation of the vector .
+Table \mdash ; Hollow Shaft .
+Section made of two Eccentric Circles .
+Analytically , it is found that .
+( 41 ) and determined by gl'aphical and mechanical integration and are given in Table .
+It was clear at this that the series for and were both convergent with fair rapidity and the main object of the illustration was achieved .
+In order to get a rough approximation to and .
+remaining terms were estimated by observing that is.roughly one quarter of and that as a consequence will be one quarter of and so on .
+The values of and so obtained are given in Iable .
+An estimate of the residual error was then made by calculating and both of which should be constant .
+In both cases departures from constancy were observed and was calculated as the next approximation in a new Solutions of Poisson 's and Laplace 's Eqnations .
+series doubling and changing This gives a good indication of the errors in the first value of Mr. Arthur Berry has calculated and analytically , and the values are given in the last column of Table IV .
+The approach to these values by and is not so good as for the elliptic cylinder , but the estimate of shows that this approach could be improved rapidly by further calculation if any use were to be made of the results .
+From an engineer 's standpoint it is thought that the theorem is reasonably established and may be used with confidence in new problems , since answer obtained constitutes the necessary proof of yency .
+It is hoped that mathematicians will complete the work on their side .
+It appears from further theorem iven in Lamb 's ' Hydrodynamics ' that the equation may ibly be capable of solution ; the same lines as the present solution of Poisson 's equation , the elementary source being changed for the new equation .
+Part II.\mdash ; By ARTHLTR , Fellow of King 's College , S1 .
+At Mr. Bairstow 's request I have carried out the analytical work corresponding to his method of solution for cases of the torsion problem in which there is a known analytical solution , viz. , the elliptic cylinder and the hollow beam bounded by non-coaxial circular cylinders .
+We interpret the torsion function as the stream function of two-dimensional irrotational fluid motion , defined by , within a region corresponding to the section of the beam .
+In the case of a simply connected region we have to determine for the external space a continuous acyclic fluid motion defined by a velocity potential such that vanishes at infinity and rees with , save as to an additive constant , on the boundary .
+The integral , ( 1 ) taken round the boundary of the region being the angle which the radius * For a circular boundary the source system is equal to twice the boundary value of except for an additive constant , no matter what the source system may be .
+VOL. XCV.\mdash ; A. 470 Messrs. L. Bairstow and A. Berry .
+Two-dimensional vector from a variable point , , on the boundary to a given point , , in the interior of the region , makes with an arbitrary initial line ) is the stream function at due to a distribution of sources on the boundary of strength per unit length , and is known to agree with save for an additive constant .
+The sense of integration is the same as that in which is measured .
+In Mr. Bairstow 's notation For a doubly connected region we have similarly to determine for the extelnal space , so that vanishes at infinity , and agrees with save for an ditive constant on the outer boundary , and also for the internal space so that rees with save for an additive constant on the inner boundary , the fluid motions defilled by these metions being continuous and acyclic .
+The stream function at any point of the interior of the doubly connected region is then iven by , ( 2 ) where the two integrals are taken round the outer and inner boundaries respectively in the sense in which increases .
+In Mr. Bairstow 's notation In both cases , since by the conditions of the problem the sum of the strengths of the sources on either boundary is zero , the integrals are independent of the initial line from which is measured , but as is a cyclic function they are not independent of the point on the boundary at which the integration begins , so that each involves effectively an arbitrary constant of integration depending on the choice of the lower limit of the integral .
+The stream function calculated in this way will , in general , differ by a constant from the metion determined by other methods , e.g. , determined to satisfy the condition on one of the boundaries .
+This is a partial explanation of the fact that in Mr. Bairstow 's work it is necessary to add a constant in order to ensure the convergence of series which he uses .
+S2 .
+The Elliptic ylindcr .
+The semi-axes being , we can take , ( 3 ) where ) Solutions of Poisson 's 's Equations .
+since , are coujugate harmonic functions satisfying the continuity conditions , and on the boundary .
+Introducing elliptic co-ordinates d.efined by where and on the bomlday , we have .
+We can satisfy the conditions of the problem by choosing , ( 4 ) since this is a one-valued and continuous harmonic function which vanishes at nity and agrees with on the boundary .
+We now have so that , ( 5 ) the constant of integration being chosen so that vanishes with In the numerical case chosen by Mr. Bairstow , in which and the numerical values at the eleven points chosen by him are given by the Table : am indebted to Miss E. D. Lang , M.A. , for the calculation of this Table and of those in S3 .
+472 Messrs. L. Bairstow and A. Berry .
+-dimensional In this simple case it is easy to carry out analytically the successive steps of Mr. 's approximation .
+Take ) on the boundary .
+If is any point on the boundary which is fixed during the integration , we can put for any other point on the boundary being polar co-ordinates referred to as origin .
+Then and where is the initial value of when coincides with Now twice of the ellipse , and , similarly , .
+Hence since If now we drop the suffixes , we can write this integral for brevity in the form where Repeating the process , we have Since converges to a nstant limit .
+Solutions of Poisson 's and 's Equations .
+Since this limit is not zero , Mr. Bairstow 's series does not converge .
+As , however , any constant addition to produces the same addition to each of , I2 , , we have only to take for the torsion function , and we then obtain and the series then converges to the sum which agrees say as to an additive constant with the form ( 5 ) previously obtained for We thus see that the subtractive constant which appears in Mr. Bairstow 's arithmetical work is 41 ( , or in his numerical case agreeing closely with his result .
+S3 .
+Th ( Hollo Beam Circulctr solution of the torsion problenl has been given by Macdonald* in the form where , and represents the outer boundary , the inner .
+Writing thib for brevity , we have We can now take for the external region , since this is a continuous acyclic harmonic function , which ) at infinity and agrees with when For the internal region , , we can take , similarly , 'Cambridge Phil. Soc. Proc vol. 8 1893 ) ; Love 's " " Elasticity S222 , Ex. ( iii ) .
+474 Messrs. L. Baristow and A. Berry .
+-dimensional since this is a continuous acyclic harmonic function throughout the internal and agrees with when We now have on the outer boundary whence , choosing the constant of integration so that vanishes at the point , where the two circles are closest together , .
+( 6 ) Similarly , on the inner boundary ' .
+( 7 ) The torsion function which we have used corresponds to a twist about the origin of co-ordinates chosen , which is the point of intersection of the radical axis and line of centres , and differs by a constant from on either boundary .
+Mr. Bairstow 's torsion function corresponds to a twist about the centre of the outer circle , and differs by aconstant } from on either boundary , where refer to the centre of the outer circle as origin .
+In order to obtain Mr. Bairstow 's torsion function , we must therefore add to the term we can take where ( cosech ) is the radius of the outer circle , and are polar co-ordinates corresponding to We then have , Solutions of Poisson 's 's Equations .
+where , as before , the constant of integration has been chosen so as to make vanish when or Since For Mr. Bairstow 's problem we have therefore to take for the inner circle , as given by ( 7 ) , and for the outer circle the sum of the two functions given by ( 6 ) and ( 8 ) , or denoting these for distinction by and we take ' ( 9 ) The points on the outel numbered , 1 , 8 , correspond to , 3/ 8 , , , the corresponding values of iveu by , .
+For the inner circle we have formulae with instead of In Mr. Bairstow 's numerical case we have osech osech cobh whence The values of are then given by the tables .
+

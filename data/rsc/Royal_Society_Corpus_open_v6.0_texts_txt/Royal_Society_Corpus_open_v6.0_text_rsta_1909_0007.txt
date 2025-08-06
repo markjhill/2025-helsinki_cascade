@@ -1,0 +1,149 @@
+]\gt ; [ 15.3 ] VII .
+lemoir on the of the Partitions of Numbers.\mdash ; Part IV .
+On the Probability that the Candidate at an Election by Batlot may never at any time have Fewer Votes th an the One who is a Generalization of th ; Question ; and on if with other Questions Partition , Combination .
+By Malj P. A. MAcMAHON , F.R.S. Received July 15 , \mdash ; Read November 19 , 1908 .
+SECTION 1 .
+1 .
+CONSIDER a lattice in two sions , taking , for instance , one in which AB , BC are 7 and 5 segments in length respectively .
+It may be utilised for the study of permutations , combinations , and partitions in various ways , also for the study of certain questions in the theory of probabilities .
+" " line of route\ldquo ; through the lattice from A to may be traced by moving over horizontal segments ( segments ) in the direction AB , and over vertical segments ( segments ) in the direction BC in any order .
+Thus one line of route is ADEFGHIC .
+number of such lines of route is or , in general , if AB , BC } segments respectively , * See " " on the Theory of the Compositions of Numbers ' Phil. Trans , 1893 .
+VOL. CCIX .
+27 .
+MAJOR P. A. cMAHON : MEMOIR ON THE 3 .
+The line of route above depicted denotes a " " principal composition\ldquo ; of the bipartite number , and , in general , some principal composition of the bipartite number .
+4 .
+It also denotes the permutation of the letters in the product ; and , in general , some permutation of the letters in the product 5 .
+The line of route divides the lattice into two portions , each of which denotes the Sylvester-Ferrers graph of a partition of a unipartite number .
+Consider , for example , the portion of the lattice bounded by ADEFGHICB .
+We obtain the graph of a partition in two ways : ( i ) By a unit ( or node ) in the centre of each square contained in the bounded area ; thus denotes the partition 54111 , or .
+its of the number 12 .
+In general , we thus obtain a partition of some numbers into , or fewer , parts , the part magnitude ) eing limited not to exceed , and its conjugate a partition of some numbers into , or fewer , parts , the part being limited not to exceed Similarly the remaining portion of the lattice denotes some partition and its conjugate .
+( ii ) By placing a unit ( or node ) at the centre of each segment to the right hand of the points , I respectively ; thus denotes the partition 6522211 , or its conjugate 752221 of the number 19 .
+In general , we thus obtain a partition of some numbers into parts , the part magnitude being limited not to exceed , and its conjugate , a partition having for the highest part , the number of parts limited not to exceed The .
+portion of the lattice may be similarly interpreted .
+THEORY OF THE PARTITIONS OF NUMBERS .
+6 .
+The line of route also denotes the zig-zag graph of a composition of a unipartite number .
+For placing nodes at all points passed over by the line of route we obtain the graph of the composition 341122 , and also of three other compositions of the number Phil. Trans Series In general , we thus obtain four compositions of the unipartite number It will thus be noted that these four compositions of a unipartite define two pairs of partitions of unipartite numbers , and clearly every theorem in partitions can be made to give a corresponding theorem of compositions .
+This manifold interpretation of the line of route through a lattice must be borne in mind throughout the following inyestigation .
+7 .
+My object now is to show how certain questions of probability can be treated by means of the lattice .
+BERTRAND and DESIRE ' ANDRE ' *have discussed a question which they have stated in the following terms:\mdash ; " " Pierre et Paul sont soumis a un scrutin de ballottage ; contient bulletins fayorables a Pierre , favorables a Paul ; est plus grand que , Pierre sera elu .
+Quelle est la probabilite pour que , pendant le depouillement du scrutin , les bulletins sortent dans un ordre tel que Pierre no cesse pas un seul instant avoir 1avantage ?
+The probability is found by an ingenious method to be 8 .
+I discuss the question by drawing in the lattice the line making an angle of with the line AB .
+The problem of BERTRAND and ANDRE is seen to be 'Calcul des Probabilite 's , ' par J. BERTRAND , , 1888 .
+J. BERTRAND et D. ANDRE ' , 'Comptes Rendus de l'Acade'mie des Sciences , ' tome , p. 369 et 436 , , 1887 .
+" " Theories des Nombres tome 1 , EDOUARD LUCAS , ' Le Scrutin de ballottage ' ( pp. 83 , 84 , 164 ) .
+MAJOR P. A. MAcMAHON : MEMOIR ON THE identical with that of the lines of route which neither cross nor touch the line , for each such line of route gives a permutation of the letters in which is required by the conditions .
+I prefer in the first instance to alter the conditions of the problem so as to determine the probability that Pierre never at any instant has fewer votes than Paul .
+The lines of route to be enumerated are then those which do not cross , but which may touch the line AL .
+Owing to the different interpretations that may be given to the line of route many courses of procedure are open .
+I select that one which in the special graphs gives the partition and , in general , a partition having for the highest part and a number of parts not exceedin Regarding zero as an admissible part , let the parts of such a partition be ( in descending order ) These parts are subject to the conditions , , , , , : , , where We can perform the summation for all numbers satisfying the above conditions .
+9 .
+Suppose , the sum in question is the meaning of the symbol being that , after expansion in ascending powers of , all terms involving negative powers of are to be rejected , and that in the surviving terms are , each of them , to be put equal to unity .
+*See " " Memoir on the Theory of the rtitions of Numbers.\mdash ; Part II ' Phil. Trans , vol. 192 , 1899 .
+THEORY OF THE PARTITIONS OF NUMBEPffi .
+The quantity is at once eliminated and we obtain ; is now easily eliminated and we obtain To eliminate we require the easily established theorem Thence we reach the final result ' which shows in the clearest possible manner how the partitions are constructed .
+The denominator factors indicate that we may write down any partition composed of three parts ; the numerator terms show that we may add either 2 to the first part or simultaneously 2 to the first and 1 to the second part .
+We in that manner obtain every partition satisfyin the conditions , but the numerator ternl shows that certain partitions are in this manner obtained twice over .
+10 .
+As we are only concerned with the magnitude of the highest part and not at all with the weight of the partition , we may for the present purpose put , and consider the result as the one to generalise .
+11 .
+I write down the expression . .
+as the crude expression for the sum .
+We can immediately eliminate all the auxiliaries which have an even suffix and reach the expression MAJOR P. A. MAcMAHON : ON THE We now equloe the auxiliary theorem ; so that , eliminating , we reach and , eliminating .
+Note that for or this becomes the before obtained expression To eliminate , we have to substitute for the expressiou and then put , thus getting as the exlJl.ession to be substituted for in the numerator , which thus becomes This , for , is which may be written THEORy OF TH PARTITIONS OF NUMBERS .
+in a form showing its mode of derivation from We now see that , when , we get a form which may be written ; and then , when , the form is where the numerator of the function last written is Hence These relations are satisfied by so that the result of the summation is ; and there is no difficulty in showing that this in fact is equal to MAJOR P. A. IAHON : MOIR ON 12 .
+Hence } ) of rtitions having a highest part and parts , zero inch1ded as a ) iect to the given conditions as regards magnitude is which may be also written This , therefore , is the number of lines of route which do not cross the line AL .
+Hence the pl'obability that Pierre is never in a minority is 13 .
+From this probability , which call , is immediately derivable the probability discussed by BERTRAND and ANDRL ' , which call .
+For in the lattice is the probability that the line route passes through the point , and thence we find Other probability questions may be discussed in a similar manner , with the advantage that light is at the same time thrown upon several other problems of partitions , compositions , and combinations of unipartite and bipartite numbers .
+In the above investigation we have had before us partitions of unipartite numbers which have a given number of parts , a given highest part and parts which in addition satisfy certain inequalities .
+14 .
+If we had had before us the parallel theory of the compositions of unipartite numbers there would have been the composition in correspondence with the partition the weight and the number of parts would have been given and the parts , would have been subject to the inequalities : THEORY OF THE PARTITIONS OF NUMBERS .
+In the former case the partitions of highest part and parts ( zero not excluded ) are enumerated by In the latter the compositions of the number , having parts ( zero excluded because ) , are enumerated by .
+Ex. .
+for , we have the five compositions which satisfy the given inequalities .
+In this Section I have shown the connexion between a well-known question in probabilities and various other combinatorial questions in preparation for the generalization to which I now proceed in Section 2 .
+SECTION 2 .
+15 .
+In the Second Memoir on the Partitions of Numbers I broached the subject of the two-dimensional partitions of numbers .
+I start with any Sylvester-Ferrers graph of an ordinary one-dimensional partition\mdash ; say and I consider the parts of the partition to be placed at the nodes in suchwise that the numbers in the rows , read from est East , and also in the columns read from North to South , are in descending order of magnitude .
+Thus is a two-dimellsional partition of the number 35 .
+CCIX .
+The referred to contained some striking results in the theory , but the result as and verified in numerous stances remained unproved .
+The present paper is mainly concerned with the partitions into different parts placed at the nodes of any graph , and with the associated question in probabilities , generalization of that of Section 1 .
+Taking any graph of nodes and any different integers , the inquiry is as to the number of ways of placing the numbers at the nodes so that the descending orders in the rows and columns , as above defined , are in evidence .
+Consider in detail a simple case\mdash ; that of six different numbers at the nodes of the graph We find the 16 arrangements the second row of eight arrangements being the conjugates of those in the first row because the graph is self-conjugate .
+16 .
+The problem is immediately transformable into one concerned with the conditioned permutations of the six numbers in a line .
+Take , he form and suppose the six numbers to be written down in a line so that four descending orders are in evidence ; I say that there is a one-to-one correspondence between such permutations and the two-dimensional partitions under investigation .
+To see how this is , take any one of the 16 arrangements THEORY OF THE PARTITIONS OF NUMBERS .
+and taking each number in succession , in order from the highest to the lowest , write a letter , or , according as the number is in the first , second , or third row .
+Thus inning with 6 we write down , then for 5 , for 4 , for 3 , for 2 , and , lastly , for 1 , thus obtaining Now underneath the , 5 , 4 in order , the , 3 , 2 in order , and under , in accordance with the rows of the arrangement We thus obtain I say that is a permutation subject to the given conditions as defined the descending orders in the arrangement The 16 permutations corresponding to the 16 graph ements are To show that there are no other permutations it is sufficient to prove that one can pass back from a permutation to a graph in a unique manner .
+Thus take the permutation write 's under 6 , 5 , 4 ; 's under 3 , 2 ; and under 1:\mdash ; the ssion MAJOR P. A. cMAHON : MEMOIR ON THE indicates that 6 is in the first row corresponding to Hence the arrangement The transformation is quite general ; thus from we pass to a permutation in which the descending orders indicated by are in evidence .
+17 .
+The first question is the enumeration of the partitions where the graph and the set of unequal numbers are given .
+Let the raph contain , nodes in the successive rows , and for a given set of unequal numbers , let ( abc ; ) denote the number of partitions .
+Observe that above we found First we note that *Next take a graph of two rows .
+In any such graph Compare " " Problem des deux files de soldats ' Theories des Nombres , ' tome 1 , p. 86 , par EDOUARD LUCAS .
+THEORY OF THE PARTITIONS OF NUMBERS .
+if be the smallest number involved , the arrangements are of two types , or except when the rows contain the same number of nodes ; then there is the one type Hence , a moment 's consideration establishes the relations ( ab ; ) when , and Treating these as difference equations it is easy to obtain the result ; 18 .
+This case of two rows is worth a special .
+examination before proceeding to a greater number of rows .
+First consider the generating function of the numbers : If we expand we find that the general term after the first is and thence and exhibiting a remarkable property of Revertin to the difference equation , and observing that this last result may be written it is natural to suspect the law ( st ; ) where constant , and it is easy to establish it .
+For consider the graph The four lowest numbers at the nodes are ( i ) The last .
+four of the second row , ( ii ) The last of the first row and the last three of the second , ( iii ) The last two of both rows .
+Taking case ( ii ) , the nodes marked , the numbers may be 431 or 421 or 321 , and these arrangements are enumerated by ( 31 we see , by subtracting each number from the number 5 .
+Hence , in particular , ( 88 ) ( 66 and , in general , where constant .
+19 .
+Representation of as a Sum of Squares .
+Putting , we find the last term being or ascending as is even or uneven .
+Hence the identity THEORY OF THE PARTITIONS OF NUMBERS .
+the last term of the series being the square of or of 2 ' ascending as is even or uneven .
+The permutations enumerated by are those of numbers all different and subject to descending orders corresponding to the columns and the 2 rows .
+20 .
+Consider now other permutations such that whilst the row numbers are in descending order , exactly of the column pairs are not in descending order .
+Let be the number of such permutations .
+I propose to show that for all values of , from to Ex. , the permutations enumerated by 22 ; are 43 42 , ( 22 ; 1 ) are 32 , ( 22 ; 2 ) are 21 .
+To establish this theorem , since and we find The right-hand side of this identity is equal to , for it consists of terms , of which the first enumerates the permutations in which the pair is out of order , the second those in which the pair is out of order , and so on .
+Hence .
+Consider in general the arrangement where the pairs are in order and the pairs out of order .
+For this particular arrangement the enumeration is given ( 22 ; ) ( 83 ; ) ( 11 ; ) ( 11 ; ) Put The generating function to be considered is XYXY YXYX The X , in a product occurring alternately in all possible ways .
+This function is or or since Now and the coefficient of in the function is none other than ( aa ; ) .
+Hence ( aa ; ) a remarkable theorem .
+21 .
+I will now obtain the generating function for the numbers ( ab Since ( ; ) THEORY OF THE PARTITIONS OF NUMBERS .
+As yet we have assigned no meaning to ( ab ; ) when , but retaining such terms and adding to the term terms given by placing equal to zero , we obtain the suggestive redundant generating function in the expansion of which we require only those terms involving in which To eliminate terms containing we have merely to add and then we obtain We might also seek to remove those terms in for which , but for my present purpose the redundant form is quite as convenient and infinitely more suggestive .
+22 .
+The result leads to the observation that the number obtained is precisely that obtained in Section 1 for the number of arrangements of the letters in such that drawing a line between any two letters the number of 's to the left of the lin the number of 's to the left of the line .
+Also that is the solution of the probability question for electors .
+The one-to-one correspondence is easily established , for suppose *I have found that the reduced generating function is VOL. CCIX.\mdash ; A. is an arrangement enumerated by ( 53 I take the numbers 8 , 7 , 6 , 5 , 4 , 3 , 2 , 1 in descending order and write down when the number is in the first row and when it is in the second , thus a a and we now have an arrangement of the letters in such that , proceeding from left to right and stopping at any point , the number of 's met with is at least as large as the number of The result and correspondence are at once generalisable , for consider the arrangement we are led to the permutation of which is such that , in passing from left to right , we have at any instant ( i ) passed over at least as many 's as ( ii ) , , , , ( iii ) , , , , , , 's , , S 's .
+Hence , if in an election four candidates have ( these numbers being in descending order of magnitude ) supporters respectively , and at any instant they have respectively votes , the probability that always is and , in general , if the votes polled at any instant show invariably the final order of the candidates , we have a state of affairs of which the probability is !
+23 .
+From the result THEORY OF THE PARTITIONS OF NUMBERS .
+we find the analytical results , and the latter of these is not so far interpretable .
+Passing to three rows containing , and nodes respectively , it is seen that the smallest of the different numbers must be situated at the right-hand nodes of some row , unless such row contains as many nodes as the row beneath .
+Hence the difference equation , provided that ( abc ; ) when either or I find such a solution of the difference equation to be .
+This is only interpretable when but , relations which are useful for the manipulation of the functions .
+The sum ( abc ; ) with the inclusion of redundant terms I find to be an expression which is remarkably suggestive .
+MAJOR P. A. MAcMAHON : MEMOIR ON THE To lish\mdash ; the expression it is merely necessary to verify that the coefficient of ! ! ! ! ! ! ! !
+reduces to the value of above given .
+This is easy because it appears at once that ) , and are factors .
+It is easy now to conjecture the form of the general result .
+The truth of the generating function for ( abc ; ) is , perhaps , best seen by writing , where stands for 24 .
+I will now establish the result by showing that this expression satisfies the difference equation Writing the co-factors of the multinomial coefficients in and as and , respectively , THEORY OF THE PARTITIONS OF NUMBERS .
+we find To prove this relation I will show that any factor of is also a factor of First observe that is a factor of unless is equal to or Therefore consider merely The factors of which involve either or or both and are .
+Hence , disregarding a common factor , involves the factors and involves the factors Discarding common factors from these expressions we find that involves the factors and that involves the factors Hence involves a factor which by elimination of by means of the relation may be written , and this is at once seen to be zero .
+Hence contains as a factor .
+It therefore contains as a factor .
+It also contains another factor which is linear , and considerations of symmetry show it to be Hence the expression assumed for satisfies the difference equation , and is evidently the expression corresponding to the problem in hand .
+25 .
+We now observe that a redundant generating function , , an expression for the sum is The question in probabilities , here , I believe , solved for the first time , may be stated as lollows : THEORY OF THE PARTITIONS OF NUMBEPR If candidates at an election have voters in their favour respectively , where and if any instant , voters have recorded their votes in favour of the several candidates respectively , the probability that is .
+The interesting point is the connection of the problem with the theory of the two-dimensional partitions of any set of unequal numbers .
+The graph solution proves at once the remarkable theorem that if be the partition conjugate to a fact which it would be difficult to establish by pure algebra .
+In this case the corresponding probabilities are in the inverse ratio of to
+

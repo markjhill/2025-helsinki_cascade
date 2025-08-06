@@ -1,0 +1,200 @@
+]\gt ; [ 411 ] XI On the Series of STURM and LIOUVILLE , as Derived from a Pair of Fundamental Integral Equations instead of a Diferentiat Equation .
+A. C. DIXON , F.R. S. , Professor of Mathematics , Queen 's University , Belfast .
+Received Apri16 , \mdash ; Read May 11 , 1911 .
+Introduction .
+THE series of LIOUVILLE and STURM are generally treated by means of approximate solutions of the fundamental differential equation , these approximations being valid when certain functions involved in the differential equation have differential coefficients .
+The object of the present paper is to relax this restriction , and for this purpose integral equations are used in place of a differential equation , and an approximation is investigated ( SS4-11 ) depending on a fimction which is constant throughout each of a system of sub-intervals .
+In SS15-18 the results are applied , by help of HOBSON'S general convergence theorem , to that one of the Liouville series which is usually valid at the two ends of the fundamental interval , and in SS19-22 to the more general series discussed by me in ' Proc. L.M.S. , ' ser. 2 , vol. 3 , pp. 83-103 .
+A theorem analogous to that of VAL -POUSSIN on the series of squares of the Fourier constants is then proved ( SS28-25 ) by a method which I believe to be new .
+1 .
+The differential equation of LIOUVILLE and STURM is ( 1 ) and is equivalent to the pair of integral equations .
+( 2 ) The values of at the lower limit in these integrals are the two arbitrary constants of the complete primitive .
+In the theory of the equation ( 1 ) the known functions and the unknown function V are generally supposed to have differential coefficients ; no such assumption will be made in the present treatment of the equations ( 2 ) .
+All integrals will be taken according to LEBESGUE .
+AIso are supposed positive and real , and it is assumed that the integrals of exist .
+VOL. CCXI .
+30.11.11 2 .
+The equations ( 2 ) are somewhat simplified if we take variable , and with a change of notation they become .
+( 3 ) Here are known functions of being positive , and it is assumed that integrals of exist ; is a parameter independent of , and our first will be to find an approximate solution when is great , but not necessarily 3 .
+Values of satisfying ( 3 ) and such at , when , and be denoted by , ; if , when , and they denoted by , .
+If , when , then the become and have , according to the known theory of integral equations , a unique which must be , .
+Thus , it follows that , , , .
+Other important relations are , , and so on .
+4 .
+If a second pair of equations of the type ( 3 ) is taken where take the places of , we have .
+( 4 ) by the formula for integration by parts , and similarly ( 4 ) C. DIXON ON STURM-LIOUVILLE HARMONIC EXPANSIONS .
+so that ( 5 ) These integrals are indefinite , each carrying with it an additive constant to be determined by trial of some particular value of .
+The formula ( 5 ) includes a great variety of particular results of which many are well known in the theory of the equation ( 1 ) .
+For instance , take 1 ) , to be ) , so that ; by putting in turn we have , and similarly , and Again , taking , ( to be l ) , , we have ( 6 ) which is the formula to be used in the approxination .
+The right side of ( 6 ) is the error committed when is taken as equal to ) in it the term depending on turns out to be unimportant , while when the rest is numerically less than the square root of It will be our object to choose so that is small , while at the same time can be expressed in terms of known functions , and , in fact , the interval will be divided into small sub-intervals in each of which will be constant .
+Thus we need the following lemma:\mdash ; If is function limited this be so into finite of ) , and function ( 1 ) constant ' each subinterval can be so chosen is bitrarily .
+5 .
+To prove the lemma , let be the boundaries of ; take arithmetic means , , between them and let U. Let the values in for which form the set .
+nclose l in a set of intervals , not overlapping , and in a set , not overlapping , so that have a common part .
+Let the intervals of in descending order of length be , , and-take an integer such that .
+Let be the part of which is also in Put in , in , except where the value has been already assigned in , except at such points as belong to , , where the value has been already assigned , and , lastly , in the rest of the domain .
+Then in all parts of that are not in , that is in intervals whose sum is .
+Now and , therefore , Hence the points where form a set whose measure , and In this expression we may suppose and make n as great as we wish so that the whole is arbitrarily small .
+The most advantageous value for in each interval is the average of over the interval , for when is to be a constant in the interval the least value of ( fx-c)2 is given by putting .
+6 .
+The proof that has been given indicates a particular method of subdivision , say the method , but any other method , say , may also be used .
+To prove let PROF .
+A. C. DIXON ON HARMONIC EXPANSIONS .
+, be the points of a subdivision , according to , for which the value of the integral is Take a subdivision , according to , in which the sum of the intervals containing , , is : then in the other intervals of the value of is constant whether in or and the integral can therefore be made , while for the intervals containing , , the value of the integral is not more than Hence for the subdivision the integral can be made less than that is , arbitrarily small .
+Hence the subdivisions of may be take11 all equal , or according to any other method , provided that the greatest of them tends to zero .
+Moreover , the square of is less than and , therefore , is also made arbitrarily small .
+If is positive , then and is also arbitrarily small .
+We may , in fact , say that is arbitrarily small .
+This is the property that will be immediately useful .
+It may be extended to an unlimited function when and exist .
+For take a limited function which is equal to .
+when being a certain positive number , and is 1 for other values of may be so chosen that and both Then the function , constant in each of a system of can be so determined that Then , by help of the inequality , it follows that In the same way , if ( fx)2 exists , may be so determined that by help of the inequality 7 .
+Thus , for the purpose of approximation , we are to divide the domain of into sub-intervals , all tending to zero , and in each sub-interval put for a suitable mean among its values over the sub-interval , which may be conveniently caUed a local average of and denoted by .
+Suppose , then , that In each sub-interval are solutions of the equation and are , therefore , of the form .
+are constants through each sub-interval , but are changed at the passage from one to another .
+It is of great importance to ascertain whether they can increase or decrease indefinitely , and we shall now prove that they cannot if the total fluctuation of is uniformly limited , *that is , if the total fluctuation is always less than a fixed finite quantity at all stages of subdivision of the domain .
+8 .
+At every internal point of a sub-interval have differential and at the points of division their derivatives , upper and lower , on the same side are equal .
+* This does not imply that the total fluctuation of must be linked .
+For instance , may be 1 at all rational points and 2 at irrational points , then overywhere .
+PROF .
+A. C. DIXON ON STIJRM-LIOUVILLE HARMONIC EXPANSIONS .
+Since and the integral is a continuous function of , it follows that the discontinuity in equal to that in .
+Also has no discontinuity , being equal to Let the imaginary quantities conjugate to , be denoted by , , and let being positive .
+Also write for .
+Then in each subinterval Also , Hence , when , the value of is 2 , or , and that of its derivative is .
+At any discontinuity when is changed to ( both are real ) the derivative is multiplied by itself consists of two positive terms of which the first is unchanged while the second is multiplied by .
+Thus the effect on is to multiply it by a quantity between 1 and Now , if in any interval a function satisfies the equation and if at the beginning of that interval lies between A and , while lies between and sin where are real and positive , then these same statements must hold good throughout the interval .
+For suppose , then and are both functions satisfying the equation and at the beginning of the interval their values and derivatives are all positive ; it follows from the differential equation that the values and derivatives will increase , and therefore be positive throughout the interval .
+the first sub-interval must be and its derivative .
+At entrance to any later sub-interval of the this function and its derivative multiplied by quantities of which we know that each lies between 1 and where 7 is the ratio of increase in .
+Thus throughout all the sub-intervals , where are quantities lying between and , if we use to denote the VOL. CCXI . .
+3 product of all the factors and that of all the factors among the quantities If is of uniformly limited total fluctuation then and are limited , and so , therefore , are , Q. 9 .
+Now , and hence and are severally less than this .
+Also , the real part of is Hence and are both but sin Now cannot increase or decrease indefinitely , and therefore , if we do not allow to tend to zero , we have that and bear to ratios which are limited in both directions ; and this is true , both when the sub-intervals are increased in number and also when is increased indefinitely .
+In the same way it may be seen that the ratios of and to are limited in both directions .
+Wheu the argum nt shows that , and are limited above , but not below , and , in fact , we know that each of the four is capable of vanishing .
+10 .
+The colldition that should be of uniformly limited total fluctuation is necessary , for if it is not fulfilled may be indefinitely great or small , and it is conceivable that and , for instance , should become very small together , in the same way that a pendulum would be practically stopped if its velocity were suddenly reduced in a constant ratio at every passage through the lowest position and increased in the same ratio at every time of reaching one of the extreme positions , when , of course , the increase would be of no effect .
+11 .
+Hence if in ( 5 ) we take the limits to be and put , a local average of we have A. C. DIXON ON STURM-LIOUVILLE HARMONIC EXPANSIONS .
+Changing into , or into , or both , we have similarly ?
+These are expressions for the errors committed when are taken as the values of Let denote the upper boundary of the ratios of to for values of such that Let the symbol/ /denote equality in order of magnitude so that neans that the ratios are both limited .
+Then in the expressions for the four errors , since , , , are all at most , while , , , are all most .
+Hence such a product as at most , and is at most / where Also is supposed to be finite , and therefore is at most / sxp Thus the error in is at most / , and the same may be proved for the errors in ; also we may put for .
+Hence , at most and may be as small as we please .
+If we make we have so that in each of the four cases the error is of this order relatively to the true value .
+12 .
+Since do not depend on , the error produced by neglecting or altering is also of the order of in comparison with the true value .
+From ( 5 ) by putting , and making approach , we can deduce such results as , ( 8 ) thus proving that , have everywhere finite differential coefficients with respect to the complex variable .
+They are therefore holomorphic functions of all over the plane .
+13 .
+It is sometimes useful to know that and cannot tend to destroy each other in such an expression as , where is positive .
+To see this , begin at the other end of the interval .
+The argument of SS8 , 9 proves that the real part of is where is positive and limited both ways .
+In this put , and subtract from a multiple of the result of putting for in ( 7 ) .
+Since and V the real part of is thus found to be , wheoe are the values of at respectively .
+Since are positive , and are limited in both directions , ratio of to is also limited in both directions .
+Combining this with the results of S11 we have the following theorem :values of , , , and also where PROF .
+A. C. DIXON ON STURM-LIOUVILLE HARMONIC EXPANSIONS .
+positive constant , are all of the scvme ordeof magnitude , be of lower order unless tends to zero .
+14 .
+The values of , can be written down as follows:\mdash ; Let the successive intervals into which is divided be denoted by , , and the values of in those intervals respectively by also let Then ' where , , are all and refers to the ways of taking them .
+The product in the numerator of the fractional factor contains binomial factors .
+, , . . .
+It may , in fact , be verified that so that satisfy the differential equations assigned ; also , when the expressions reduce to the corresponding ones for intervals , and therefore are continuous throughout as functions of ; lastly , at the beginning of the second interval This completes the verification for , and V , may be treated similarly .
+The approximations generally used in the treatment of the equation ( 1 ) might be derived from these by neglecting all the terms except those in which that is , the terms which contain one or more of the factors , and in the two terms which are left putting Thus , for instance , would reduce to .
+This simplified form is clearly admissible uuless all the differences are small .
+15 .
+Now suppose to be limited both ways , and let where means the value of the function of the argument , and the integration in the -plane indicated by ( R ) is a circle of radius with centre at the origin , being such that this path does not pass through a point where is a symmetric function of for since is a holomorphic function of everywhere ( S12 ) .
+It will now be proved that satisfies the conditions of HOBSON'S convergence theorem ( ' Proc. L.M.S. , ' ser. 2 , vol. 6 , pp. 350-1 ) , that is\mdash ; ( 1 ) Its absolute value does not exceed a certain quantity for all values of such that and for all values of R. ( 2 ) exists for all values of such that and for each value of in the interval which does not lie between and ; this integral , moreover , is less than a positive number , independent of ( 3 ) when 16 .
+A change in the value of does not affect unless it llumb of zeros of enclosed by the circle : hence we may suppose the circle to cross the real axis on the positive side at a point , where is zero .
+Thus , at the point , and therefore also , are , since cannot tend to zero .
+Again ( S12 ) , ( 8 ) which is limited when is limited , whatever.the value of .
+A distance / can therefore be assigned such that within that distance of does not approach zero , but exceeds a certain fixed quantity independent of R. Beyond that distance from on the path it has been proved already ( S11 ) that so that this is now proved for the whole path .
+The numerator , so that the subject of integration in is , that is , at most .
+*We still take ; thus is limited for points within a distanco / ( or of T. PROF .
+A. C. DIXON ON STURM-LIOUVILLE HARMONIC EXPANSIONS .
+Also , except where is near its maximum , and in that part of the path the factor is so small that the contribution to the integral is negligible .
+Hence is at most / , that is , This is the first of HOBSON'S conditions .
+Again In the first term of this expression the first term of the subject of integration contains the factor , which !
+of the order of , that .
+at most when we take .
+Also as before and .
+Hence the contribution of this term at most , and the same is true of the second part of the first term .
+the other term the integral of is finite , the integration with respect to is over a finite range , so that these two elements do not the order of magnitude : the factor is of the order of , that is , at most , even when : the length of path in the -plane is .
+Hence the contribution of this term independently of if On account of the symmetry between and , like results can be deduced if Thus the second and third of HOBSON'S conditions fulfilled .
+17 .
+Again , so long as the value of is limited , and so is that of .
+Ftence the first term on the in ( 9 ) is limited , the integral of being .
+The second term has been found to tend to zero when is increased , and therefore is limited if , or similarly if WheIl a we may write so that is the sum of two terms , each limited , and is limited for all values of , R. This covers one of HOBSON'S further conditions ( S4 of his paper , p. 361 ) .
+It is not clear that the two integrals tend to definite limits when , but their difference does so , and , in fact ; if of the same .
+( 10 ) All the parts of this expression tend to zero when except which 18 .
+It is now possible to prove that if is continuous at of limited total in a neighbourhood of then .
+( 11 ) For ( 1 ) this holds when has a constant value ( S17 ) ; ( 2 ) The contribution to the integral from values of not lying between may be ignored , the values lying within the neighbourhood where is of limited total fluctuation ( HOBSON'S convergence theorem ) ; second value theorem , is monotone , where .
+In the last expression the second factor is finite ( S17 ) , while the first can be made as small as we please by taking small enough , if is supposed continuous .
+The same holds for the integral from to Thus if is of limited total fluctuation between and is , in fact , the sum of two functions which are monotone between those limits , and continuous at LimIl PROF .
+A. C. DIXON ON STURM-LIOUVILLE HARMONIC EXPANSIONS .
+where the last eight integrals all tend to zero when is increased without limit , and , therefore , ( 11 ) which was to be proved .
+From this result one of the expansions of STITRM and can be deduced considering the singularities of the of integration in , that is , values of for which When we have the same but for a constant factor , since ( 12 ) Also ( S12 ) , Hence , the residue of is - and we have the summation r.eferrin , g to the finite se ries of ; of ) taken in ascending order of ; thus is expanded series of functions satisfying ( 3 ) and.that nishes each of the extreme values ] .
+In order to investigate the validity of the expansion when we need to discuss which Here the only term of importance is the second part of the first , which has the value .
+From this it follows , in the same way , that the expansion holds good at the upper limit , and a like result call be proved when ; in each case it is supposed that is continuous and of limited total fluctuation the neighbourhood .
+The course of the proof , moreover , shows that the series is ) ' convergent so long as lies within an interval which is contained within another interval in whid ] is continuous and of limited total fluctuation .
+has been supposed that is limited both ways .
+When this is so , but the integrals of and exist , the argument still applies if we detach the ) CCXI. .
+31 and group it with in the integrations , that is , if we think of as the variable of ration in such expressions as and 19 .
+The same method can be applied when has the more general value where , are real constants , with the one proviso that when is , GH is positive or zero , so that the terms in involving cannot tend to destroy each other ( S13 ) .
+cannot vanish except for real values of if is zero or positive , condition which includes the proviso made .
+Thus it still follows that when , ( 14 ) the summation referring to all the values of for which , ( 15 ) these values being taken in scending order of magnitude .
+Sufficient conditions forth lidity of this expansion are those already stated , namely , that should be continuous at of limited total fluctuation within some neighbourhood containing as an internal point .
+The restrictions placed on the functions in the fundamental equations ( 3 ) are that\mdash ; ( i ) shall be positive ( ii ) The integrals of shall exist ( iii ) A local of shall logarithm of uniformly limited total for some method of division into sub-intervals of the fundamental domain For this and other results see ' Proc. L.M.S. , ' ser. 2 , vol. 3 , pp. 86-90 , and vol. 6 , p. 420 ; the former ssage contains a discussion of the case of equal roots .
+PROF .
+A. C. DIXON ON STURM-LIOUVILLE HARMONIC EXPANSIONS . .
+Here the term " " local average\ldquo ; means a function constant in each subinterval , and such that and tend to zero when the greatest of the sub-intervals does so .
+If is limited , may be the actual average of in each sub-interval .
+The expansions discussed by LIOUVILLE and STURM are those for which in the present notation Thus and since when the typical term may be written as a multiple of indifferently , that is , it satisfies the equations and is such that and when 20 .
+It may also be proved that if is continuous and is equal to the sum of the former series ( S18 ) , the new expansion holds also .
+if ] is the special function in which are zero , that is , the function denoted by in S15 , we have , after some reduction , -2 which , even in the unfavourable case when , is finite when , unless are each equal to one of the limiting values , 1 .
+Now the difference of the two expansions for is that is , for when the function to be expanded is constant , each of the expansions holds .
+In this expression the parts depending on are separately negligible by HOBSON'S theorem , except for values of between , and for such values is small and is finite .
+The whole is therefore arbitrarily small and , in fact , zero ; thus if the one expansion is valid for , so is the other , *provided that is continuous at 21 .
+Again , the error produced in one of the functions by neglecting or altering is relatively of the order of , and thus it follows that if are functions of the present type ( S19 ) the same except for a change in then is limited .
+Similarly , then , the expansibility of is not affected by a change in the value of in the fundamental integral equations ( 3 ) so long as exists and is continuous at 22 .
+In order that the more general expansion may hold at the limits , 1 , some further conditions are necessary .
+It does not seem worth while to discuss these in detail , but they are satisfied\mdash ; ( 1 ) When ; and ( 2 ) When and , this being case oi a periodic function expanded in a series of periodic terms , since ( 17 ) is the condition that functions , may satisfy the equations ( 3 ) and have the same values at both ends of the interval .
+On account of the periodicity there is no occasion to distinguish between the two end-points or between these and the other points of the domain .
+23 .
+It is known that the Fourier constants of a function are such as to give the least possible value to there is a similar theorem for the present expansious .
+The condition that there may be functions , ( x ) satisfying ( 3 ) and fulfilling the boundary conditions ( 1 ) , ( 1 ) ( 0 ) ( 18 ) , ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) ( 1 ) , ( 1 ) ( 0 ) *This ] and that of S21 were first given for the usual LIOUVILLE series by J. MERCER ( see ' Roy .
+vol. 84 , pp. 573-5 , ' Phil. Trans , vol. 211 , p. ON STURM-LIOUVILLE HARMONIC EXPANSIONS .
+429 reduces to ( 15 ) if is aroot of the equation .
+( 19 ) When is positive , , the two roots of ( 19 ) , are conjugate complex quantities , and they may still be considered so when and are real and equal .
+Let b two corresponding solutions of the fundamental equations ( 3 ) ; these are also conjugate .
+Let coefficients and be so determined that are conjugate for all values of , and that ( 20 ) is the least possible .
+Here the different values of satisfying the equation ( 15 ) and the corresponding values of are distinguished by suffixes .
+Thus the two factors in the subject of integration are conjugate imaginaries and the integral is essentially positive .
+From ( 5 ) , S4 , we have from ( 18 ) , since Similarly , for any unequal suffi-xes Hence it readily follows that ( 20 ) is a when while the general term in the expansion of ( S19 ) is with these values of , since it may be verified that when and therefore , by addition , is the same as but for a constant factor , since .
+( Compare ' Proc. L.M.S. , ' ser. 2 , vol. 5 , p. 473 .
+) 24 .
+The integral ( 20 ) may now be written a form which sbows that it decreases continually as .increases , and therefore to a limit when increases without limit .
+Also which shows that the integral ( 20 ) is equal to ( )2 if is so chosen that the path ( R ) encloses Since then the limit to which ( 20 ) tends when is indefinitely increased is the limit of - .
+( 21 ) 25 .
+From this form it is possible to prove that the limit is zero .
+First , let the domain be divided into intervals in each of which is constant .
+Then when are in the same interval the contribution to the integral ( 21 ) is zero .
+When are in different intervals , , has a ON STURM-LIOUVILLE HARMONIC EXPANSIONS .
+431 so long as those intervals do not change , and the corresponding part of the double integral is a constant multiple of In this expression take the terms of separately .
+Taking the coefficient of we have which is at most of the order long as .
+In this way it appears that the triple integral is at most of the order of , and the same result can be deduced when by putting in the place .
+Since the number of intervals is finite the whole expression ( 21 ) tends to zero when is increased indefinitely , and the integral ( 20 ) can be made as small as we please when is a function of the special type , constant in each of a system of sub-intervals .
+Now , let be unrestricted but real , 1 ) ( x ) a real function of the special type , and such an expression as .
+We have and it follows from SS5 , 6 that the first of these terms can be made arbitrarily small , if the integral of exists , by proper choice of the constant values of 1 ) and of the different sub-intervals .
+It has now also been proved that the second term can be diminished indefinitely by a proper choice of , and by taking great enough .
+Hence , or ( 20 ) , is also arbitrarily small .
+Now ( 20 ) has its minimum value for any given value of when have the values assigned in S23 , and this minimum value must tend to zero when is increased without limit .
+Hence the expoension of , found in S19 , may be written in where have the meanings assigned in S23 These values of are conjugate ginaries , are such as to possible value to that is , to The ralue of this integral , and th , er.efore also thxxt of tend to zero as is increased , if ( fx)2 exists .
+26 .
+The integral tends to zero when if , and thus it follows that To this expression the methods of Dr. J. MERCER ( ' Roy .
+Soc. Proc p. 573 , and ' Phil. Trans , vol. 211 , pp. 134 ff .
+) may be applied , but his idea of the bilateral limit cannot be used without some modification , since we have no reason to believe that even at a point of discontinuity where exist their mean is represented by the present expansions .
+

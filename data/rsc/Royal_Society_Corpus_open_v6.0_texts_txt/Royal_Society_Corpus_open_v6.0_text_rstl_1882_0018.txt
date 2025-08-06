@@ -1,0 +1,572 @@
+]\gt ; [ 783 ] XVII .
+Memoir the Theta-Functions , particu larly those of two variables .
+A. R. FORSYTII , B.A. , Fellow of Trinity College , Cambridge .
+by Professor A. AYLEY , LL. D. , F.R. Received December 9 , \mdash ; Read December 22 , 1881 .
+THE following paper is divided into four sections .
+Section I. deals with what may be called ROSENHAIN'S theory ; under the guidance of Professor H. J. S. SMITn'S paper on the single theta-functions ( in vol. .
+of London Math. Soc. Proc there is investigated a general theorem for the product of four double theta-functions with different characteristics and variables , the definition being the product being equal to the sum of 16 similar products ; and the equation is shown to include ) particular cases .
+Quadratic relations are established between the functions ; and the 15 quotients of all of them but one by that one are expressed in terms of two new variables , the between and the original variables being where and are perfectly determinate constants .
+The quadruple periodicity of the functions is investigated at the beginning of the section , and at the end definite-integral expressions for the periods are obtained .
+Section II .
+gives the expansions of all the functions ( i ) in trigonometrical series ; ( ii ) in ascending powers of and obtain the latter , use is made of a theorem there proved : PARTICULARLY THOSE OF TWO VARIABLES .
+INTRODUCTION .
+LITERATURE 0F THE SUBJECT .
+1 .
+The published investigations on the double ions may be conveniently divided into four classes:\mdash ; Those concerning the algebraical integrals of the equations where X , are of the form ; ( ii .
+) Those concerning the theta-functions , properl so-called , proceeding fronn the definitions and investigatin the relations which hold between functions of different ( and of the same ) arguments ; ( iii .
+) The tran sformation theory ; The applications to geometry , principally in reference to KUMMER'S 16-nodal quartic surface .
+2 .
+The principal papers For I. ABEL .
+His chief memoir is one occurring in the 'Memoires des Savans trangers , ' , 1841 ( but presented to the French Academy in 1826 ) , under the title " " sir un propri generale d'une class tres-etendue de fonctions traIJscendantes , \ldquo ; pp. 176 .
+; the particular case of is considered p. 260 .
+Several other papers , less important , on the transcendental lctions o. in the collected edition of his works .
+II .
+JACOBI .
+( a ) Considerationes generals de transcen dentibus Abelianis ' Crelle , ' .
+( 1832 ) , p. 394 ; ( ) " " De functionibus quadrupliciter periodicis quibus theoria transcendentium Abelianarum innititur 'Crelle , ' .
+xiii .
+( 1835 ) , ; ( ) " " Demonstratio nova theorematis Abeliani ' Crelle , ' .
+xxiv .
+( 1842 ) , p. 28 .
+III .
+RICHELOT .
+' Ueber die Integration eines merkwiirdigen systems Differentialgleichungen ' Crelle , ' .
+xxiii .
+, p. 354 .
+R. A. R. FORSYTH ON THE TIONS , IV .
+' A Memoir on the Double -Functions , \ldquo ; 'Crelle , ' .
+lxxxv .
+( 1878 ) , p. 214 ; ( ) " " On the Double -Functions , \ldquo ; 'Crelle , ' .
+lxxxvii .
+( 1879 ) , p. 74 ; ( 7 ) " " On the Addition of the Double -Functions , \ldquo ; 'Crelle , ' .
+lxxxviii .
+( 1880 ) , p. 74 .
+For ( ii .
+) I. ROSENHAIN .
+Yemoire sir les fonctions de deux variables et a quatre periodes Mem. des Save .
+Etr .
+, .
+xi .
+, p. 361 .
+This obtained the prize given by the Paris Academy of Sciences in 1846 .
+II .
+GoPEL .
+" " Theoriae transcendentium Abelianarum primi ordinis adumbratio levis ' Crelle , ' .
+xxxv .
+( 1847 ) , p. 277 .
+III .
+WEIERSTRASS .
+" " Sir Theory der Abelschen Functionen 'Crelle , ' .
+xlvii .
+( 1854 ) , p. 289 ; also .
+lii .
+( 1856 ) , p. 285 .
+Iy .
+RIEMANN .
+" " Theory der Abelschen Functionen ' Crelle , ' .
+liv .
+; Ges .
+Werke , p. 81 .
+V. CAYLEY .
+" " A Memoir on Single and Double Theta-Functions , \ldquo ; Phil. Trans. , 1881 .
+VI .
+BRIOSCHI .
+" " La relazione di GoPEL per funzioni iperellittiche d'ordine unque , \ldquo ; Ann. di Mat .
+, .
+( 1881 ) .
+For ( iii .
+) I. HERMIT .
+" " Sir la theory de la transformation des fonctions Abeliennes Comptes Rendus , 1855 ) .
+II .
+IGSBERGER .
+" " Ueber die Transformation der Abelschen Functionen erster Ordnung 'Crelle , ' .
+lxiv .
+, p. 17 ( 1865 ) .
+In this occurs part of the addition theorem ; " " Ueber die Transformation des zweiten Grades fur die Abelschen Functionen erster Ordnung 'Crelle , ' .
+lxvii .
+( 1866 ) , p. 58 ; a continuation of which , dealing the modular equations , occurs in the Math. Ann. , .
+( 1869 ) , p. 163 .
+For ( iv .
+) I. KUMMER .
+" " Ueber die algebraische \ldquo ; Berl .
+Abh .
+( 1866 ) .
+II .
+CAYLEY .
+" " On the Double metions in connexion with a 16nodal Quartic Surfaee ' Crelle , ' .
+lxxxiii .
+( 1877 ) , p. 210 ; " " On the 16-nodal Quartic Surface 'Crelle , ' .
+lxxxiv .
+( 1878 ) , p. 238 . .
+BORCHARDT .
+" " Ueber die Darstellung der Kummerschen Flache vierter mit sechzehn Knotenpunkten durch die Gopelsche biquadratische Relation zwische vier Theta-functionen mit zwei Variabeln ' Crelle , ' .
+lxxxiii .
+( 1877 ) , p. 234 .
+IV .
+WEBER .
+" " Ueber die Kummersche Flache vierter Ordnung 'Crelle , ' .
+lxxxiv .
+, p. 332 .
+PARTICULARLY THOSE OF TWO S. 3 .
+The general double theta-function is defined by the equation .
+( 1 ) in which are given integers ( afterwards taken to be each either zero or unity ) and is called the characteristic ; are the variables ; are known constants , called the parameters ; and the double summation extends to all positive and negative integral values ( including zero ) of and .
+To ensure the convergence of the doubly infirlite series it is necessary that the real part of should be negative for all real values and ; beyond this restriction , there is no limitation to the form or the values of and 4 .
+It follows at once from the definition that ( 2 ) ( 3 ) the variables being the same throughout .
+Hence there are , in all , sixteen distinct functions , obtained by assigning to the four numbers of the characteristic the values zero and unity and taking all possible combinations .
+Also from the definition ' ( 4 ) Hence there are ten even and six uneven functions , the latter being denoted by an asterisk in the foJlowing table , showing the correspondence between the notations that are used .
+The current-number notation adopted in this paper was chosen to coincide as closely as possible with of Professor ( with which it is almost identical as wiil be seen from the table ) and with ROSENHAIN'S notation ; that of WEIERSTRASS is given as quoted by KoNIGSBERGER .
+In the table denotes PARTICULARLY THOSE OF TWO VARIABLES .
+5 .
+In the general definition of substitute ( 5 ) ( 6 ) so that Obviously ( 7 ) so that and zero , zero and , form two pairs of actual periods , in and , for Since and the right-hand side is unaltered by writing for and for form a pair of quasi-periods for , conjugate in and .
+Again and the right-hand side is unaltered by writing for and for so that form another pair of quasi-periods for , conjugate in and This table exhibits the fonr pairs of conjugate periods in and ; one relation between them is immediately deduced , viz. : an equation which HERMIT makes fundamental in his transformation theory ( Comptes Bendus , ) The following equations , the relations for quarter and half period increase of the variables , are easily obtained:\mdash ; ( 8 ) ( 9 ) ( 10 ) ( 11 ) PARTICULARLY THOSE OF TWO VARIABLES .
+( 12 ) ( 13 ) ' ( 14 ) where , in the last formula , are integers , and the functions on the right hand side may be reduced by formulae ( 2 ) , ( 3 ) to functions in which the numbers of the characteristics differ from , respectively by less than 2 .
+This combination of periods in quotients is similal to the combination of real and imaginary periods in elliptic functions .
+Tloe product theorem .
+6 .
+We multiply four theta-functions such that each sum of the four corresponding numbers in the characteristics is even .
+Let such a product be denoted by ( 15 ) indicating that there are four functions having numbers with subscript indices 1 , 2 , 3 , 4 .
+Taking the general definition given in ( 1 ) for , let ( 16 ) which contain the assumption that are all even ; and ( 17 ) In the course of the proof the equivalent of the algebraical identities . . . . . .
+( 18 ) . . . .
+( 19 ) will be used .
+We have ( 20 ) where the summation is over all integral values of the 's and 's from to Using ( 18 ) , ( 19 ) , the indices on the right-hand side of ( 20 ) can be at once transformed ; and the following equations give these transformed values.\mdash ; . .
+PARTICULARLY THOSE OF TWO VARIABLES .
+The substitutionl of these in ( 20 ) gives ( 2 ] ) the summation bein taken for ] ] values of the 's and 's defined by the equations , i.e. , for all integral values which give integral values to the 's and .
+Now the difference between any two of the 's is even , so that they are there all even , or all uneven .
+Taking bhe first of these cases , let then since and similar expressions hold for it is sufficient that even .
+Taking the second case , let it is sufficient that uneven .
+With ding quantities substituted for the 's in the two cases exactly similar relations hold .
+Separate the terms in ( 21 ) and denote by .
+those in which even , and even ; .
+, , , , , , even , , , , , odd ; 23 .
+, , , , , , odd , .
+, , , even ; .
+, , , , , , odd , , : , , odd .
+Also write ; and , for shortness , let denote the general terms in respectively , so that . . . . . . . . . .
+( . . . . . .
+and ( 21 ) becomes Consider these four sums separately ; then where the summations on the right hand side are now taken without restriction for all integral values of the 's and 's between and ; and with similar removal of the restrictions on the values of and to which the summation extends Thus of sixteen double summations .
+But each of these double summations is the product of four double theta-functions : thus , in particular , PARTICULARLY THOSE OF TWO VARIABLES .
+term in .
+in ; general term in ; into at the expression of the product theorem is into into .
+( 23 ) .
+7 .
+product theorem does not comprise equations , as might be expected ; in defining it was assumed that the sums of the four , of the four , of the four , and of the four , were each even .
+Thus when , are known , , being limited to the values zero and unity , is also known ; and similarly for the other numbers .
+Hence the number of equations comprised is , is 4096 .
+8 .
+If any uniform increase or decrease be made in a set of corresponding numbers in the left-hand side ; the same increase or decrease occurs in the right-hand side ; thus if each of the 's be increased by unity , by unity also will each of the 's be increased .
+Hence , as immediate deductions from ( 23 ) , are obtained the following formulae , including as particular cases , many of ROSENHAIN'S formulae contained in the table at the end of his memoir .
+( 24 ) where on the side the variables are and , , ] , , , , , , ( 25 ) ( 26 ) ( 27 ) .
+To these must be added a set of four obtained by increasing each of the 's by and each of the 's by , conjugate quarter periods : by these substitutions ( 24 ) gives ( 28 ) .
+PARTICULARLY THOSE OF TWO VARIABLES .
+Another set of four is obtained by changing into and , , : thus ( 24 ) gives ( 29 ) ; and a fourth set of four from the same equations by increasing each of the 's and 's by respectively : ( 24 ) gives ( 30 ) .
+But as might be expected from formulae ( 8 ) and ( 9 ) with ( 17 ) , these equations ( 28 ) ( 29 ) and ( 30 ) could be obtained by uniform crease of the numbers and in the characteristics of ( 24 ) .
+9 .
+Let the value of a function when both the variables are zero be denoted by with the same subscript number as marks the function in the current-number notation ; for shortness , let be written and , , .
+Then the following equations are obtained from ( 23 ) by assigning suitable values to the numbers of the characteristics and to the bless .
+( i ) 3 ( ii ) ( iii ) ( iv ) ( v ) ( vi ) ( vii ) ( viii ) ( ix ) ( x ) These are not independent : thus , adding equations , equation ( i ) is obtained ; and simpler relations equivalent to these will be deduced later on .
+( xiii ) 3 ( xiv ) ( xvii ) ( xviii ) ( xxii ) ( xxiii ) xxiv ) ( xxvi ) . . . . . . . . . .
+( xxvui ) . . . . .
+( xxix ) 10 .
+By equations we have . . . . .
+( 31 ) . . . . .
+( 32 ) . . . . .
+( 33 ) giving six distinct expressions for ; and six can be obtained for each of the even functions in this form .
+By ( xi)-(xiv ) , . . .
+( 34 ) By xviii ) , . . .
+( 35 ) By ( xv ) , ( xvii ) , ( xix ) , ( xx ) , . . . .
+( 36 ) By ( xxi ) , ( xxii ) , and two others , . . . .
+( 37 ) PARTICtTLARLY THOSE OF TWO VARIABLES .
+By ( xxui ) , ( xxvi ) , and two others , . . . .
+( 38 ) By ( xxv ) , ( xxvi ) , and two others , . . .
+( 39 ) The first members of ( 34 ) , ( 36 ) , ( 37 ) are given by ROSENHAIN , in the paper already cited , in his formula ( 94 ) , and of ( 38 ) , ( S9 ) in his formula ( 99 ) ; but the second members are not noticed .
+The equivalents of ( xxvii ) , ( xxviii ) , ( xxix ) are given in his formulae ( 98 ) and ( 102 ) ; and of the following equations ( 40 ) , and , in ( 89 ) and ( 90 ) .
+11 .
+By making both the variables zero in ( 31 ) , , ( 33 ) there at once follow the equations . . . . .
+( 40 ) and the following are obtained from ( 2.3 ) , which agree with ROSENHAIN'S set except , in which his left-hand side is equivalent to , probably a misprint .
+It is worthy of remark that the sum or difference of the subscript numbers is the same for the same equation , which is also the case with many of the equations ( 31 ) .
+12 .
+Eliminating between ( 38 ) , ( 39 ) we have or by and Sirnilarly from the same equations By ( 35 ) , ( 86 ) ( 41 ) and therefore by ( 34 ) which give the squares of the uneven functions in terms of squares of the even functions .
+13 .
+Following ROSENHAIN ( 91 ) , put hence by ( ) ( 42 ) ; ; Then , , ( ) ( 43 ) \ldquo ; ( ) ( 44 ) .
+say ; ( 45 ) ( 46 ) ( 47 ) PARTICULARLY THOSE OF TWO VARIABLES .
+and from these the following expressions for the ratios of the 's are easily obtained : ( 48 ) .
+If now these be substituted in the equations of which ( 41 ) are a type , a set of algebraical identities is obtained ; in fact , putting being perfectly independent and from these and many others similar to these , all of which admit of immediate verification .
+14 .
+Two other equations , which will afterwards be useful , are by ( xxix ) . . . . .
+( 49 ) by ( xxviii ) . . . . . . .
+) .
+Connexion with the hyperelliptic integrals .
+15 .
+Taking the fifteen ratios obtained by dividing all the metions but one by that one , it follows from the relations already established as ( 31 ) , ( 32 ) , ( 33 ) , . .
+that any thirteen of them can be expressed in terms of the remaining two , or that all these ratios can be expressed in telms of two new variables .
+-arranging now the first parts of ( 34 ) , ( 36 ) , , and substituting for the 's in terms of the , we have ( 51 ) agreeing with ROSENHAIN ( 95 ) .
+Assuming as the new put then if .
+the equations ( 51 ) are satisfied if 16 .
+The other ratios involve irrationally ; thus to find , ROSENHAIN uses equations corresponding to ( xxvii ) , ( 38 ) , ( 39 ) , and eliminates between them , giving a quadratic in .
+Having obtained this , the expressions for the other functions follow by substituting for the ratios already found in the equations ( 31 ) ; and the complete system of expressions for the fifteen ratios is as follows , the sign being usually taken throughout ( see CAYLEY , 'Crelle , ' t. 88 , p. 81 ) : PARTICULARLY THOSE OF TWO VARIABLES .
+( 52 ) which correspond with ROSENHAIN'S formula ( 97 ) .
+17 .
+It is now necessary to find relations between and .
+Let where imply that , after the differential of the function has been taken , both the variables are to be put zero .
+Differentiating the equations ( 49 ) , ( 50 ) with regard to and then putting zero , and noticing that we have from ( 49 ) or ( 53 ) and similarly from ( 50 ) ( 54 ) .
+Differentiating the same equations with regard to and proceeding in the same manner we obtain PARTICULARLY THOSE OF TWO VARIABLES . .
+( 56 ) which correspond to ROSENHAIN'S ( 104 ) , ( 105 ) .
+Let ( 57 ) Substituting in ( 53 ) , ( 54 ) from ( 52 ) , where are functions of and of which will be afterwards seen to themselves functions of .
+From these , say ; Similarly If , then , we write the foregoing equations are satisfied , provided -A@ A'@ ' -A'@ -AS ' hence and therefore are determinate functions of .
+The equations ( 58 ) are the well-known equations for the hyperelliptic integrals of the first kind .
+On the expressions of the quarter-periods definite ntegrals .
+18 .
+Integrating ( 58 ) being constants : we proceed to find some integrals giving the values of the periods .
+19 .
+Let , so that all the uneven functions vanish ; then , by ( 52 ) , ; and hence ( ii .
+) Let ; referring to formula ( 8 ) the functions which vanish are seen to be ; and to ensure this so that PARTICULARLY THOSE OF TWO VARIABLES .
+( iii .
+) Let : the vanishing functions are ; hence , and ( iv .
+) Let pr ; : the vanishing fnnctions are ; hence , and Let : the vanishing functions are ; hence , and By the elimination of these ten equations reduce to the following eight:\mdash ; ( 59 ) ( 60 ) MR. A. R. FORSYTH ON THE rIONS , ( 62 ) .
+20 .
+Let Then And so that being determinate functions of .
+By eliminating from these equations it is obvious that satisfies a differential equation of the fourth order in as the independent variable .
+will satisfy a similar equation ; and hence also , equal to being functions will satisfy a linear differential equation in of the order .
+PARTICULARLY THOSE OF TWO VARIABLES .
+S09 SECTION II .
+21 .
+If be the general single theta-function , then [ This notation , since it is already in use , is adopted in preference to which would better agree with the definition of the double theta-function in ( 1 ) and with that of the " " \ldquo ; tuple function to be given later .
+] As is well known , there are three even functions and uneven ; these are ( even ) . . .
+( even ) , 1 . . .
+( even ) . . .
+uneven ) . . .
+and cn 22 .
+Writing in the ition of given in ( 1 ) we have the following series of expressions for the ( 64 ) alrd therefore ( 65 ) the parameters of being and , and of and , the same applying to the other single theta-functions of and of which occur below .
+( 66 ) ; and hence ( 67 ) . .
+( 68 ) ; and hence ( 69 ) .
+( 70 ) .
+Similarly , 1 ( 71 ) .
+( 72 ) .
+PARTICULARLY THOSE OF TWO VARIABLES . . .
+( 74 ) .
+( 75 ) .
+( 76 ) .
+( 77 ) .
+( 78 ) . . .
+( S0 ) .
+, 1 ( 81 ) .
+From these formulae many other double summations may be deduced : the following may be taken as specimens .
+( 88 ) .
+,1( ) . . . . .
+( 84 ) . . . . . . .
+( 85 ) .
+( 86 ) . . . . . . . . . . .
+( 87 ) .
+( 88 ) . . . . . . . . . . . . .
+( 89 ) .
+( 90 ) .
+PARTICULARLY THOSE OF TWO 24 .
+Writing , then . . . .
+which is , in effect , ROSENHAIN'S definition of the double theta-functions .
+Taking a particular case , Expanding by TAYLOR'S theorem and re-arranging , this gives The bracket in the first term , , second .
+, , , third ; , , , fourth , , \ldquo ; , the sign being or , and \mdash ; if or } .
+Since Hence .
+( 92 ) which may be expressed in the symbolical form .
+( 93 ) ; and it may be proved by an exactly similar process to hold for all functions , so that generally ( 94 ) the parameters of being ; and of 25 .
+The functions have already been distinguished by the oddness or evenness of ; this formula ( 94 ) enables us to verify the division of the even and uneven functions given in bhe table .
+The latter will be obtained by taking one of the single 's even and the other uneven ; and since there are three even and one uneven function .
+each of the yariables , there will be six uneyen functions , obtained by taking the uneven function of each variable with the three even functions of the other variable : hence there will be ten even functions , since there are 16 in all .
+PARTICULARLY THOSE OF TWO VARIABLLS .
+26 .
+The periodicity also easily follows .
+Since and all its differentials are periodical in and and all its in , we have . . . . .
+( 95 ) giving the two pairs of conjugate periods and and 27 .
+If be defined by the relation then it is known that Hence and therefore CCCLXXXlL MR. A. R. FORSYTH ON THE THErA-FUNCTIONS , that Similarly ( 96 ) .
+which give the two of conj quasi-periols , and and 28 .
+The verification of the expansions in doubly infinite series of sines and sines is easily effected : for .
+in ( 92 ) the expressions the , on the right hand side , of is which is right .
+the product theorem ( 23 ) .
+29 .
+The product theorem for single theta-functions , as given by Professor SnfiTll Lond. Proc. is , with the notation of Section I , ( 97 ) Now , using ( 94 ) , we have ljereforc ( 98 ) PARTICULARLY THOSE OF TWO By the values of X , we have hence ( 99 ) .
+means of ( 97 ) and the theorem for , an expression is obtained for , containing 16 terms ; substitute this in ( 9S ) and mspose the operator by ( 99 ) , and then , by ( 94 ) , express each term as the produc } of four and there will ] the theorem already given in ( 23 ) .
+the rential equations satisfied by 30 .
+From the theory of elliptic functions it is known that if are definite functions ; viz. : . . . . . .
+Also are given each as a function of ) other by the respective differential equations so that may be considered known , and , given by arly if I may be considered known .
+Sl .
+It is proved in CAYLEY'S 'Elliptic Functions , ' S 310 , that the general single theta-function the differential equation and so that ( 100 ) may be written in the form with respect to Now the general term in in ( 94 ) is a numerical multiple of or of so far as are concerned .
+Then [ first two terms ] PARTICULARLY THOSE OF and Hence and therefore also , the sum of the terms , satisfies the tion ( 102 ) or restoring the usual coefficient in the second term ( 10 : ; ) Sit ilarly satisfies ( 104 ) , ( 105 ) ; and from ( 94 ) it at once ] / ( 106 ) . .
+All these equations can be deduced from the general definition of , viz. : \mdash ; The equation ( 106 ) is lsly satisfied .
+Consider the general term in to obtain ( 102 ) ; it is a multiple of the coefficient being independent of .
+Now Ifencc ( 107 ) Also Multiplying ( 107 ) hout by and substituting the first term on the righthand side the value just found for , we have and hence , the sum of the terms , satisfies which is ( 102 ) .
+The quantity may be explicitly expressed in the terms of as follows .
+We have and PARTICULARLY THOSh1 OF TWO VARIABLES .
+Writing for and logarithmic differentials Differentiate again with regard to , and then put zero : But by ( 100 ) Hence so that now all the coefficients in ( 102 ) are known explicitly in terms of 1 ) .
+On the @3 .
+From the of we have with similar series for ubstituting these in the complete set of sixty equations of which ( 41 ) are the type , there will result algebraical identities in three quantities , 7 ' ( utually independent ) , corresponding to identities " " -series\ldquo ; in elliptic functions .
+As an example .
+, . . . . . . . . . . . . . . . .
+Also equations ( 42 ) , ) , ( 44 ) give for , in terms of ; and other identities are from the eqnation .
+34 .
+Let ; then being dlJy single theta-function where First , let be one of the three even functions : ting 2 times with respect to and then putting zero PARTICULARLY THOSE OF TWO VABIABLES .
+and therefore that is .
+( 108 ) .
+Now and thus , by ( 108 ) , ( 109 ) .
+( 110 ) .
+( 111 ) .
+Similarly , if .
+( 112 ) ( 113 ) ( 114 ) .
+Next , let be the uneven function ; differentiating the equation times with regard to and putting zero and therefore that is ( 115 ) .
+Now . .
+Hence ' Thus ( 115 ) gives ( 116 ) .
+Similarly .
+35 .
+Another form may be given to several of these formulae .
+Let Then and therefore , ( 119 ) , and .
+( 120 ) These formulae practically contain the expansions in powers of of the single thetafunctions ; restoring , these are PARTICULARLY THOSE OF TWO VARIABLES . . .
+( 121 ) .
+, 1 \mdash ; . .
+Expanding the cosines in the right-hand side of .
+and equating coefficients of we obtain which is easily deducible from and so verifies the above expansions .
+( 122 ) . .
+36 .
+By means of the same formulae it is possible to obtain expressions for all the constant coefficients which arise in the expansions of all the 's in powers of and Since by formula ( 4 ) it follows that ( 123 ) where the zero subscript in the differential coefficient implying that the variables are made to vanish after differentiation .
+Now Remembering that an uneven differential of an even function is an uneven function and that an even differential is an even function , we have Let . . . . . .
+( 124 ) , .
+( 125 ) .
+Then we have . . .
+( 126 ) , . . . . .
+( 127 ) , and ( 128 ) .
+The remaining formulae are obtained by an exactly similar process and are as follow . . .
+( 129 ) , where . . . . .
+( 130 ) , . . . . . .
+( 131 ) , and .
+PARTICULARLY THOSE OF TWO VARIABLES . . .
+( 133 ) , where ( 134 ) , ( 135 ) , and ( 136 ) . . .
+( 137 ) , where . . . . .
+( 138 ) , ( 139 ) , ( 140 ) .
+( 141 ) , where . . . . .
+( 142 ) , ( 14.3 ) , ( 144 ) . . . .
+( 145 ) , where . . . .
+( 146 ) , ( 147 ) , ( 148 ) , ( 149 ) . . .
+, . .
+, ( 150 ) , where . . . . . .
+( 151 ) , ( 152 ) , ( 153 ) . .
+( 154 ) , where . . . . .
+( 155 ) , ( 156 ) , ( 157 ) , P7 , ( 158 ) .
+PARTICULARLY THOSE OF TWO VARIABLES .
+( 159 ) , where ( 160 ) , ( 161 ) , ( 162 ) . . . . .
+( 163 ) , where ( 164 ) , ( 165 ) , ( 166 ) . . . . . .
+( 167 ) , where ( 168 ) , .
+( 169 ) , ( 170 ) , ( 171 ) .
+MR. A. R. FORSyTH ON THE THETA-FUNCTIONS , , where ( 173 ) , ( 174 ) , ( 175 ) , . . . .
+where .
+, , . .
+, . .
+( 178 ) , , ' ( 180 ) . . . . . . .
+( 181 ) , where .
+( 182 ) , ( 183 ) , ( 184 ) , .
+( 185 ) .
+PARTICULARLY THOSE OF TWO VARIABLES .
+( 186 ) , where ( 187 ) , , ( 188 ) , .
+( 189 ) , ( 190 ) .
+Lastly ( 191 ) , where . . . . .
+( 192 ) , ( 193 ) , ( 194 ) .
+37 .
+The formulae ( 42 ) , ( 43 ) , ( 44 ) give expressions for in terms of the ; and therefore , by the preceding , all the 's of S 13 can be expressed in terms of In fact , we have . . . . . .
+( 195 ) ( 196 ) ( 197 ) ( 198 ) ( 199 ) .
+( 200 ) .
+SECTION III .
+The Addition Theorem .
+38 .
+There is no addition theorem proper for the theta-functions , but the product of a theta-function of the sum of two variables by a theta-function of the difference of those variables can be expressed in terms of the functions of those variables .
+Thus with the previous notation for the single theta-functions , . . . . .
+( 201 ) , , . . . . .
+( 202 ) , , 1 ( 0 ) , 1 , 1 , 1 ( v ) ( 203 ) .
+, and Dividing the third of these by the first and substituting for the , there results the ordinary expression for ; and the division of the second by the first gives .
+The object of the present section is to obtain , by mean of the theorem ( 23 ) , the complete expression of the sum-and-difference theorem for the double theta-functions ; it be given by formulae similar to ( 2ol ) , ( 202 ) , ( 203 ) .
+39 .
+Some abbreviations in the notation are desirable ; in the subsequent formulae deno tes , , , ( 204 ) , , and , in order to simplify the first forms which are obtained from ( 23 ) , some subsidiary equations are ecessary .
+For example , writing down equations similar to in Section I. , but involving instead of , the following simpler relations are found to be their equivalent and include ( 31 ) , ( 32 ) , ( t33 ) as cases .
+PARTICULARLY S. and many of a similar form .
+57 .
+If there be four pairs of gtlments x such that then with the notation of the first section we have and the product theorem ( 23 ) will giye results similar to ( 205 ) , ( 206 ) , ) .
+As examples , if we put the equations to will be and so on ; and if the first equations of the sets corresponding to ( 206 ) , ( 207 ) will be respectively : 846 MR. A. R. roRSYTH ON THE THETA-FUNCTIONS , 58 .
+Again , if and in the general theorem we put then , and so for the others : and it is not difiicult to prove that , . .
+denoting . .
+, with other relations of the same kind between the theta-functions .
+SECTION The \ldquo ; lctions .
+59 .
+The general " " \ldquo ; tuple theta-functions is by the equation , . . .
+, . . . . .
+\ldquo ; . . .
+( 220 ) in which , .
+, .
+, are given integers ( afterwards taken to be either zero or unity ) and is called the characteristic ; , . . .
+, are the variables ; , .
+, , . .
+, , . .
+, , . .
+, are constants and are called the parameters ; and the " " \ldquo ; tuple summation extends to all positive and negative integral values from to ( including zero ) of , .
+, .
+To ensure the convergence of the series it is necessary that the real part of PARTICULARLY THOSE OF TWO VARIABLES .
+should be negative for all real values of the ; beyond this restriction the quantities are of any form or value whatever .
+60 .
+From the definition it at once follows that ( 221 ) the variables being the same throughout .
+Hence it is obvious that the number of distinct functions is .
+Also , . .
+, , . . .
+, ( 222 ) a formula which enables us to distinguish between even and uneven functions .
+For each of the expressions , as , zero value may arise in three ways , .
+: ; and a value unity arises in one way , ; and an uneven function will occur when the number of units the index is odd .
+Thus if denote the numbers of even and uneven functions respectively and therefore so that Periodicity .
+61 .
+Putting ( 223 ) where has in turn every value from 1 to , in the definition of there follow at once the distinct sets of actual periods for :\mdash ; and , . .
+, , . . .
+, , . .
+, , . . .
+, . .
+, , .
+, ( 224 ) .
+, .
+, , . .
+, By a method similar to that before used can be obtained the following set of quasiperiods :\mdash ; PARTICULARLY THOSE OF TWO VA RIABLES .
+and , . . .
+, , . . .
+, , . . .
+, , .
+, ( 225 ) .
+lo , . . .
+, , . . .
+, , . . .
+, , . . .
+, Product theorem .
+62 , We multiply four functions ( in which the variables are , .
+, , . . .
+, , .
+, , .
+, and the characteristics are and respectively , the sums of the four corresponding numbers being all even ) ; and we find that the product is the sum of products .
+Denote such a product by , . .
+, ( 226 ) Let in which for are to be substituted , in succession , the values 1 , 2 , 3 , .
+, .
+Then These , substituted in , give . . . . . .
+, . . . . . . . . . . . . . . . . . .
+( 227 ) the summation being taken for all values of the 's defined by the preceding equations .
+Now the difference between any two of the 's with the same suffix is even , so that all the 's with the same suffix are either even or uneven .
+In the former case let and it will be found that if the equations are satisfied even .
+In the latter case , let and then it will be necessary that uneven .
+PARTICULARLY THOSE OF TWO VARIABLES .
+Separate now the general term in ( 227 ) into parts corresponding to the particular cases of the values of the 's ( i.e. , whether they are even or uneven ) , and denote them as follows:\mdash ; when all the 's are even , and general term : when all the 's except the 's are even , and general term : all the 's except the are even , and general term : and so on ; also let of all the terms which have one set of 's uneven and all the rest even , of all the terms which have two sets of 's uneven and all the rest even , and so on ; making the number of distinct terms on right-hand side 1 in which no sets of are uneven in which one set is uneven in which two sets are uneven which three sets are uneven in which all the sets are uneven .
+: in all ; and then ( 228 ) .
+In this . . . . . . . . . . . . . . . . . . . . . . .
+' and similarly for the .
+Taking the terms in ( 228 ) separately we have . .
+( 229 ) in which and the summation on the right-hand side is taken for all values of the , without restriction , from to ; the factor is prefixed to the left-hand side because there would remain terms of the initial value of were the right-hand side written out at full length .
+Now term in , . . .
+, .
+, , , , , , . . .
+, , . .
+, and therefore , . .
+, , . .
+, , .
+, . . . . . . . . . . . . . .
+( 230 ) where in that expression on the right-hand side which has of the upper row of numbers in its characteristic of the form there will be independent terms , and these of course are the only ones to be included in the " " \ldquo ; tuple summation .
+Thus is equal to the sum of products of four functions , to each product being prefixed a positive sign .
+Again . .
+( 231 ) PARTICULARLY THOSE OF TWO VARIABLES .
+where in the third and fourth terms is not to take the value ; in the fifth term neither nor may take the value , and so on ; and all restrictions on the values of the 's have been removed .
+In the expression the number of negative terms will be ; , half the terms will be affected with a negative sign .
+Now term in , . . .
+, , , , , , . . .
+, X , and so for the others : thus , .
+, , .
+, , , . . . . . . . .
+( 232 ) an equal number of terms being affected with a positive and with a negative sign ; the rule by which it is applied will shortly be pointed out .
+Similarly , . .
+, , . .
+, , . .
+, ( 233 ) half the terms , as in , being affected with a negative sign .
+Proceeding in this manner , ( 228 ) gives of products of four functions . . .
+( 234 ) .
+63 .
+Each of these products is affected with a positive or negative sign , determined by the following rule ( Rule I. ) ; and it has this sign modified by being multiphed , according to another rule II by a definite power of negative unity .
+Taking the first term , viz.:\mdash ; , . .
+, the characteristics for the remaining similar products may be written down as follows : for the upper rows take all possible combinations of , . . .
+, , . . .
+, by selecting one from each bracketed pair ; and similarly , for the lower rows , from , . . .
+, , . . .
+, Defining that number in the lower row of the characteristic as " " corresponding\ldquo ; with another in the upper row ( and vice versa ) when the two have the same suffix , the following are the rules above referred Rule I. If , in the typical characteristic of any product , there be an odd number of pairs of corresponding numbers such that each member of a pair differs by unity from the member holding the same position in the first term , .
+: in , . .
+, then to that product is prefixed a negative sign ; but if there be an even number of such pairs , a positive sign must be prefixed .
+( As in the algebraical expression of the theorem the numbers will be of the form and not of the form , which might by formula ( 220 ) cause a difference of sign , the above rule is perfectly determinate ) .
+Rule II .
+To find the index of in order to prefix the proper power of ( \mdash ; 1 ) to a product , there must be taken the sum of the numbers in the upper rows of the characteristics of the four functions in the first term , viz. : in , . . .
+, corresponding to those in the lower row which hold the same position as the numbers , differing from them by unity , in the lower row of the typical characteristic of the product .
+PARTICULARLY THOSE OF TWO VARIABLES .
+85.5 ( Since it has been assumed that even for all values of which occur , no imaginary quantities are introduced ) .
+Thus , as a term on the right-hand side , there will be , . .
+, where The coefficient of in the index of -1 is , by Rule II .
+, since the numbers are all that differ by unity from those in the first term , and the sum of the numbers which correspond to , .
+, , . .
+, , . .
+, , . .
+, in the four functions in that is .
+and a sign is prefixed , by Rule I. , because there is an odd number of pairs of ) ding numbers\mdash ; , each member of which differs by unity from the members of the similarly situated pairs in the first term .
+So another term will be , . .
+, , . . .
+, . .
+, .
+, ; and the sign and coefficient of any term may be written down from an inspection of its characteristic .
+64 .
+As it has been proved that every number in the characteristic is either zero or unity , and the assumption has been made that the sum of any four similarly situated numbers in the characteristics of the four functions is even , the general product theorem comprises , i.e. , , particular cases , the variables being still left perfectly general .
+65 .
+In a manner similar to that adopted in Section I. the following formulae are obtainable :\mdash ; .
+A. R. FORSYTH ON THE THETA-FUNCTION@ , ( 235 ) same expression with written for throughout the variables on the left-hand side being , . .
+, . .
+, . .
+and the variables on the right-hand side being , .
+, , .
+, , .
+, , .
+, Again - . .
+( 236 ) same expression with written for and for throughout except for , for which write ; the variables being as in ( 235 ) ] equation ( 236 ) is equivalent to equations by substituting in succession , 2 , 3 , . . .
+, ; and a summation indicated by implies that is to have every integer value 1 , 2 , 3 , . .
+, , except .
+Again PARTICULARLY THOSE OF TWO .
+( 237 ) [ same expression with written for and for throughout , except for for which write respectively ; the valiables being as in ( 235 ) ] in which are to have in succession the values 1 , 2 , 3 , . .
+, , ( but never the same value together ) ; and implies summation for every value of in 1 , 2 , 3 , . .
+, ?
+; except , and .
+Thus the equation comprises cases .
+66 .
+From an inspection of these equations , is seen that the lower row in the characteristic of each term is the same throughout the same side of the same equation ; and this holds throughout the system of equations of which the above are examples .
+To write down the equation in which of the numbers in the lower row on the righthand side differ by unity from , .
+, , ( and which is therefore an equation ising cases ) , take that group of terms in the general product theorem having this lower row for the common lower row of the characteristic and multiply the group by where has already been defined and implies that summation is to be taken for those values of which have their numbers in the lower row of the characteristic of the form ; this is the right-hand side of the equation .
+To obtain the left-hand side the coefficient ' is dropped , as well as all the units in the numbers , . .
+; and are substituted .
+Thus to a term of the form . . .
+' , . . .
+, on the right-hand side , there will on the ) side be a term of the form . .
+67 .
+By increasing each variable ( and therefore also X , from its definition ) by the quarter quasi-period in any set of conjugate quasi-periods , and taking all combinations of these ( amounting in number to ) , each equation of the above system of equations gives rise to further equations .
+The reason of this is that each function is periodic with the exception of a factor and therefore a product on the -band side is periodic with the exception of a factor PARTICULARLY OF TWO VARIABLES .
+whiIe the corresponding factor on the right-hand side is and these are equal in virtue of the relation As an example , by the substitutions for , . .
+, for , , ( 235 ) gives ( 238 ) .
+same expression with written throughout for respectively The same remark with regard to ( 238 ) may be made here as at the end of 68 .
+We obviously have from the definition , . . .
+, ( 239 ) where are functions of the orders respectively , and ( 240 ) .
+Putting all the numbers in the characteristic of zero , we have ' , . . .
+, . . .
+Expanding and arranging , this gives . .
+( 241 ) ( 242 ) , ( 243 ) , where the double summation in the index implies that are to have every value 1 , 2 , 3 . .
+, ( but never the same value together ) ; and .
+The theorem for the general function is , . .
+, , ( 244 ) .
+PARTICULARLY THOSE OF TWO 69 .
+Since satisfies the general differential equation and the general term in , so far as concerns , is a numerical multiple of it follows , exactly as in Section II .
+, that satisfies equations of the form ( 245 ) .
+That this is satisfied can be verified by means of the definition of ; and the same is true of the equations of the type ( 246 ) all satisfied by 70 .
+Expressions for the constant terms in the even functions and for all coefficients in the expansions of all the functions in powers of the 's may be obtained as Noticing that being either zero unity , both unity same time ) we have ( 247 ) where ( 248 ) and in the summation are not to have the same value together .
+This gives the constant term in all those even functions in the characteristics of which no two corresponding numbers are unity at the same time .
+Similarly if we put ( 249 ) where in the summation take all the values 1 , 2 , 3 , . . .
+, , except and together , then in which has all values except .
+This formula gives the constant terms for all those even functions in the characteristics of which , but no other corresponding numbers are unity at the same time ; and since may be any whatever of the suffixes , this formula comprises constants .
+The above will suffice to dicate how all the constants may be obtained .
+NOTE.\mdash ; Since the above memoir was written I have seen a paper by Professor H. J. S. SMITH Lond. Math. Proc. in which the results of SS6 , 62 , and 63 are given in an equivalent but somewhat different and more concise form .
+[ Sept. 29 , 1882 .
+]
+

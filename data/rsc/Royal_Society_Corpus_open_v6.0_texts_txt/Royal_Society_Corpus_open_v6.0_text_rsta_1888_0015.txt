@@ -1,0 +1,1196 @@
+]\gt ; XV .
+Invariants , } ivatives associated with Linear Diff'erential Equations .
+A. R. FOBSYTH , M.A. , F.R.S. , Fellow of Trinity College , Ccnnbridge .
+Received January 7 , \mdash ; Read January 12 , 1888 .
+THE present Memoir deals with a set of invariants and covariants of linear differential equations of general order .
+The set is proved to be complete , that is to say , every covariantive function of the same type can be expressed as a function of the members of the set , the only operations necessary for this expression being a]gebraical operations .
+The transformations , to which the differential equations are subjected , are supposed to be the most general consistent with the maintenance of their order and their linear character ; they are , linear transformation of the dependent variable and arbitrary transformations of the independent variable .
+The covariantive property of the functions considered is constituted by the condition that , when the same functions are formed for the transformed equation , they are equal to the functions for the original equation , save as to a factor of the form , where and are the two independent variables .
+The memoir , with the exception of a single and rather important digression , is occupied solely with investigations of the forms of the functions , of their interdependence , and of methods of construction .
+The earlier part deals chiefly with the synthetic derivation of the functions , the later part with their analytic derivation .
+Tables of the functions have not been calculated ; in most cases the expressions of the functions are given in their forms as associated with the differential equation when it is taken in an implicitly general canonical form , and only in very few cases are functions given in connexion with an explicitly general form .
+Within these limits the subject of the memoir has been strictly confined ; there is not , for instance , any attempt at classification of differelltial equations of the same order as discriminated by forms and values of invariants or covariants .
+The contents of the memoir are as follows:\mdash ; The first section gives references to previous writers on the subject , viz. , COCKLE , LAGUERRE , BRIOSCHI , MALET , and HALPHEN ; and , in particular , some of the results obtained by HALPHEN in his well-known essay and in a subsequent memoir are stated .
+It appears that previous results are confined to invariants , and that , with the exception of two special invariants of the general equation , the invariants obtained are not derived for equations of order higher than the fourth .
+In order to connect my results with those previously obtained , there is giveu at the end of the section a very short statement of the kinds of covariantive functions which are here introduced .
+In the second section there are given the general relabions between the coefficients of a linear equation before and after it is subjected to the most general transformation .
+From these relations the value of the invariant is deduced ; a method is indicated which leads to the values of ; and it is proved that , for the first general form of differential equation adopted , there are fundamental invariants , each of which consists of two palts : a part linear in the coefficients their derivatives ; ( ii .
+) a part , not linear , every term of which contains at least one factor which is either the algebraic coefficient of the term next but one below the highest in order in the differential equation , or is a derivative of that algebraic coefficient .
+A canonical form of the differential equation is adopted , the reduction to which is possible by the solution of an equation of the second order ; for this canonical form the second part of each of the fundamental invariants vanishes .
+Finally , the expression of invariants in their canonical form is given .
+In the third section two processes of deducing invariants from those already found are obtained , called the quadriderivative and the Jacobian ; and it is proved that all the algebraically independent invariants which can be deduced by ] ) processes may be arranged in classes according to their degrees in the coefficients of the differential equation .
+The first class is constituted by the priminvaliants of the second section ; the second class contains quadriderivatives of these priminvariants and independent Jacobians ; and each succeeding class contains proper invariants .
+In the course of the section several propositions are proved which lead to this selection of proper invariants .
+In the fourth section it is shown , by the application of CLEBSCH'S theorems as to the classes of variables which arise in colmexion with the concomitants of algebraical quantics in any number of variables , that there are in all dependent variables , associated with the original dependent variable of the differential equation , and distinct in character from one another .
+The complete set of dependent variables are subject to similar linear transformations ; and at the end of the section some properties of the linear equations satisfied by them are inferred .
+In the fifth section the quadriderivative and Jacobian processes are applied to the dependent variables , original and associate , which possess the invariantive property ; and it is proved that there are two classes of independent covariants , viz. , those which involve each one depelldent variable and its derivatives only , and those which are Jacobians of a single invariant and each of the dependent variables in turn .
+limitation on the former class , according as they are considered associated with a rential equation or a differential .
+quantic , is pointed out ; and a symbolical difl'erential expression is obtained for each of the proper derived invariants and derived covariants .
+In the sixth section some illustrations of the theorems already proved are given , RIVATIVES ASSOCIATED WITH LINEAR FERENTIAL EQUATIONS 370 by applying them to equations of the lowest orders .
+When they are applied to the equation of the second order , they give the theorems aJready obtained by KUMMER and SCHWARZ .
+When they are applied to the equation of the third order , the canonical form of which is binomial and which has a single priminvariant , the adjoint equation is derived ; and the case of a vanishing priminvariant is discussed from two points of view .
+The quotient-equation of the cubic , that is , the differential equation satisfied by the quotient of two linearly independent solutions of the cubic , is worked out ; and the primitive of the cubic is deduced from a supposed knowledge of two special solutions of this quotient-equation , in form which is the analogue of the corresponding results for the quadratic .
+In this connexion the cubic quotient- derivative occurs , corresponding to the Schwarzian tive ; it is one of a series of similar functions .
+For the equation of the fourth order two canonical forms are giver .
+one being the special case of the general canonical form , the other being a more direct analogue of the canonical form of an algebraic binary quartic .
+The quotient-equation is deduced and some properties are proved ; and the quartic } , is obtained .
+Finally , the two associate equations of the quartic are given ; and there is a verification that all the priminvariants ( and hence all the concomitants ) of associate equations are expressible in terms of the invariants ( and hence of the covariants ) of the quartic .
+The seventh section is really a digression from the main subject of the memoir ; some of the properties of the quotient-derivatives of odd order are therein investigated , the two principal relations being that which is consequent on the general quotient transformation of the dependent and the independent variables , and that which gives the homographic transformation of both variables .
+These quotient-derivatives have some connexion with reciprocants ; but , on account of the restriction on the subject of the memoir , there is here no investigation of that connexion .
+Quotient-derivatives of even order are obtained from different forms of linear equations ; and a relation between the two kinds of derivatives is indicated .
+The eighth and last section is mainly devoted to a proof of the functional completeness of the concomitants of the second , third , and fifth sections .
+There is a homographic transformation of the independent variable , which ' one canonical form into another ; and the method of infinitesimal variation is used in connexion with this transformation to obtain the characteristic linear partial differential equations satisfied by any concomitant .
+They are found to be two in number ; one of them is an equation which determines the form of a concomitant , the other determines the index of the concomitant when its form is known .
+These characteristic equations are first applied to deduce the coyariants which involve the original variable , and next to deduce the invariants derived from ; and simplified forms of the invariants and covariants of higher grade are obtained .
+Finally , there is given a general proof , founded on the theory of linear partial differential equations , *that *This method has already been applied by Mr. HAMMOND to the corresponding proposition in the theory of binary quantics ; see ' Amer .
+Journ. Math vol. 5 , 1882 , pp. every concomitant can be expressed as an algebraical function of the concomitants which have already been , and that their aggregate is therefore functionally complete .
+The following is a tabular index of the contents of the paragraphs of the Memoir:\mdash ; SLCT . .
+Analogybetween transformations of algebraical equations and of differential equations .
+4 .
+Results of MALET and COCKLE on seminvariants of differential equations .
+5 .
+Invariants given by LAGUERRE and BRIOSCHI .
+6 , 7 .
+HALPHEN'S results in his memoirs of 1880 and 1883 .
+8 .
+Difference of canonical form chosen by HALPHEN from that in this memoir .
+9 , 10 .
+Statement of the aggregate of invariantive functions . .
+II.\mdash ; II , 12 .
+General transformation of a linear differential equation .
+13 .
+The invariant due to LAGUERRE and BRIOSCHI .
+14 .
+Definition of index of invariant .
+15-17 .
+Dimension-number and homogeneity of invariants .
+18 .
+Proper invariants .
+19 , 20 .
+Method of infinitesimal variation ; modification of relations of S11 .
+21-25 .
+The invariants 26 .
+Number of non-composite linear independent invariants .
+27 , 28 .
+Form of the linear invariants .
+29 , 30 .
+Canonical form of differential equation .
+31 .
+General value of for this canonical form .
+32 .
+Summary of results of section .
+SECT .
+III.\mdash ; 33 , 34 .
+Quadrinvariants ; the quadriderivative process .
+35 , 36 .
+Jacobians ; aggregate of proper quadrinvariants .
+37 .
+Invariants of the quartic .
+38-40 .
+Proper cubinvariants .
+41-43 ; 44 .
+Proper quartinvariants .
+45 .
+Proposition relating to Jacobians .
+46 .
+General conclusion as to quartinvariants .
+47 .
+Proper quintinvariants .
+48 .
+General propositions .
+49 .
+Aggregate of derived invariants .
+50 .
+Semi-canonical form of invariants .
+51 .
+Finahty of results .
+SECT .
+IV.\mdash ; 52 .
+LAGItANGE'S " " equation adjointe\ldquo ; of the equation of order 53 , 54 .
+Sets of variables subject to same linear transformation .
+55 .
+CLEBSCH'S theorem on classes of variables in algebraical quantics .
+56 .
+Application of CLEBSCH'S theorem to sets of variables .
+57 , 68 .
+Selection of those variables which are also subject to functional transformation .
+59 .
+Dependent variables associate with original dependent variable .
+60 .
+Digression on invariants .
+61 , 62 .
+Inferences as to the variables and the linear equations satisfied by them .
+SECT . .
+Derived identical covariants in the original variable .
+66 .
+Limitation on their number when associated with a differential equation .
+67 .
+Restricted limitation on their number when associated with a differential quantio .
+68 .
+Derived identical covariants in the associate variables .
+69 .
+Mixed Jacobians .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+381 SECT . .
+General propositions relating to dependence of mixed covariants .
+( cont .
+) 71 .
+Inference as to covariants which involve only the original of the dependent variables .
+72 , 73 .
+Mixed covariants involving the associate variables .
+74 .
+Aggregate of covariants .
+75-78 .
+Limitation on number of identical covariants for quartic and quintio .
+79 .
+Symbolical expression for Jacobian derivatives .
+SECT . .
+Application to equation of second order .
+81 .
+Reduction of cubic to canonical form .
+82 .
+The " " adjoint\ldquo ; equation of the cubic .
+83 , 84 .
+Simple integrable forms of the cubic .
+85 .
+Quotient-equation for the cubic .
+86 .
+Primitive of the cubic when two particular ] utions of its quotient-equation are 87 .
+Case of vanishing priminvariant ; cubic quotient-derivative .
+88 .
+Particular integrable case of cubic .
+89 .
+Primitive of oubic when only one solution of quotient-equation is known .
+90 .
+Special equation in Schwarzian derivatives .
+91 .
+Reduction of quartic to general canonical form .
+92 , 93 .
+Alternative canonical form of the quartic .
+94 .
+Quotient-equation for the quartic . .
+Primitive of the quotient-equation when three solutions are known .
+96 .
+Quartic quotient-derivative .
+97 .
+Primitive of quartic when three solutions of its quotient-equation are known .
+98-100 .
+Case of vanishing invariants .
+101 .
+Solution of qnartic indicated when only one solution of its quartic equation is known .
+102 .
+Adjoint-equation of the quartic .
+103 .
+Self-adjoint associate equation of the quartic .
+104 .
+Form of this equation when the priminvariant of the quartic vanishes , with a particular example .
+105 .
+General form of the self-adjoint associate equation .
+106 .
+Determinantal relation among the self-complementary variables .
+107 .
+Verification of the theorem that all the priminvariants of the -adjoint associate equation are invariants of the original quartic .
+108 .
+Other associate equations .
+109 .
+Theorems relating to the general equation of order SECT . .
+Quotient-derivatives of successive odd orders .
+111 .
+Quotient-derivatives and reciprocants .
+112 , 113 .
+Law of transformation of vanishing quotient-derivatives ; converse not necessarily true .
+114-117 .
+Transformation of quotient-derivatives for homographic variation of independent variable .
+118 .
+Illustration of limitation on converse of S112 .
+119 .
+Derivation of quotient-derivatives of even order .
+120 .
+The hyper-linear quotient-derivative .
+121 .
+The hyper-quadratic quotient-derivative .
+122 .
+Scheme of quotient-derivatives of successive odd orders .
+123 .
+Relation between derivatives of odd and of even orders .
+SECV .
+VIII. .
+Reproduction of canonical form of differential equation for homographic transformation of the independent variable .
+382 MR. A. R. FORSyTH ON INVARIANTS , COVARIANTS , AND QUOTIENTSECT .
+VIII .
+, 126 .
+Reduction of this transformation by method of infinitesimal variation .
+( cont .
+) 127-129 .
+Characteristic form-equation and index-equation satisfied by concomitauts .
+130 .
+Deductions from these characteristic equations .
+131 .
+Application to identical covariants .
+132 , 133 .
+Simplification of ' ' proper\ldquo ; identical covariants .
+134 .
+Application to derived invariants .
+135 , 136 .
+Application to the Jacobian of a priminvariant and a derived invariant associated with that priminvariant .
+137 .
+Proof that the set of concomitants obtained in SS , III .
+, .
+are functionally complete .
+138 .
+General limitation in the number of identical covariants associated with a differential equation .
+SECTION I. HISTORICAL INTRODUCTION .
+1 .
+Similarity in properties of differential equations and of algebraical equations has long been of great value , both in the development of the theory and in the indication of methods of practical solution of the former equations .
+In recent years a great extension of this similarity has been made by the discovery of certain functions associated with linear differential equations which are analogous to the invariants of algebraical quantics ; and , principally owing to the investigations of M. HALPHEN , this extension has had an important influence on the theory of cubic and quartic equations and on the recognition of fresh integrable forms of equations .
+2 .
+The most general modification of the form of an algebraical equation , without causing any change in its order , is that which arises by the application of TSCHIRNHAUSEN'S transformation ; the effect of it is that , by the satisfaction of certain subsidiary equations , the coefficients of terms in the transformed equation are evanescent , and these terms are therefore annihilated .
+There exist in the transforming relation a number of constants , taken in the first instance to be arbitrary , and subsequently determined by the subsidiary equations , which , however , do not in cases of high order always admit of possible algebraical solution ; and the two simplest cases are those in which the transforming relation is lineo-linear and lineo .
+quadratic .
+Now , in the case of linear differential equations , transformed without change of order , there is an exact analogue of the lineo-linear relation just mentioned , whereby the term involving the differential coefficient of order next to the highest is made to disappear .
+If and denote the independent and the dependent variables respectively , the relation is of the form where is a new dependent variab ] and determined by an equation of the first DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+383 order .
+The analogue of the lineo-quadratic relation apparently does not exist ; but another equally effective transformation of the equation is possible , being that whereby the independent variable is changed .
+And , by a proper transformation to a new variable , concurrently with the former change of the dependent variable , though with a different multiplier , it is possible to remove the terms which involve the two differential coefficients of order next below the highest which occurs .
+This has been known for some time , having been pointed out , first apparently ( in 1876 ) by COCKLE , and afterwards ( in 1879 ) , independently , by LAGUERRE .
+3 .
+Here would seem to be the limit in this regard to the analogy between braical and differential equations ; but within the limit there are striking properties in common .
+It is well known that when the proper lineo-linear transformation is applied to an algebraical equation so as to remove the term next to the highest , the remaining coefficients are the algebraical coefficients of the leading terms of HERMITE'S covariants associated with the quantic which is the sinister of the equation ; and these coefficients are therefore seminvariants .
+An exactly similar property holds for differential equations , but its full recognition has only been gradual .
+The following are , so far as I can discover , the chief references to this part of the subject , and , though a chronological order is avoided , they will serve to indicate the development .
+4 .
+In a memoir entitled ' ' On a Class of Invariants *Professor MALET obtained , and applied to the solution of special questions connected with the cubic and quartic , two classes of seminvariants of differential equations ; one of these is invariantive for change of the dependent variable , the other for change of the independent variable .
+And though , to obtain the form of the latter he has used the two kinds of transformation successively , he has not apparently obtained in a direct form functions which possess the invariantive property for both transformations .
+Soon after the appearance of this paper , and in connexion with it , .
+HABLEY proved that Professor MALET had been anticipated by Sir JAMES COCKLE , who had in several memoirs ( exact references are given by Mr. HARLEY ) given in forms , sometimes explicit and sometimes implicit , the leading results obtained by Professor MALET relating to the seminvariants of the two classes .
+At the end of his paper .
+HARLEY states that , in a recent letter , Sir JAMES COCKLE had suggested the possibility of forming " " ultra-critical\ldquo ; functions , i.e. , functions invariantive for both transformations effected concurrently .
+5 .
+In this last suggestion , which is not stated to have been worked out to a definite issue , Sir JAMES COCKLE has been anticipated by M. LAGUERRE , who in two notes gave what is here called the fundamental invariant of the cubic , but without any * Phil Trans 1882 , pp. 751-776 .
+" " Professor MALET'S Classes of Invariants identified with Sir ] COCKLE'S Criticoids ' Roy .
+Soc. Proc vol. 38 , 1884 , pp. 44-57 .
+" " Sir les equations differentielles lineaires du troisieme ordre ' Comptes Rendus , ' vol. 88 , 1879 , pp. 116-119 : " " Sir quelques invariants des equations differentielles ires , \ldquo ; ibid. , pp. 224-227 .
+indication of his method of obtaining it ; he also gave the first of the two classes of seminvariants .
+Almost immediately after the appearance of these notes Professor BRIOSCHI communicated in a letter to M. LAGUERRE a method of obtaining the invariantive results and of extending them , which , applied to the cubic and quartic , led to explicit expressions for the invariants of both equations ; and the invariantive property of the functions is constituted by the relation that if be the function for the original equation with coefficients , and be the same function for the transformed equation with coefficients , an equation of the form is satisfied .
+There is a premature conclusion as to the permanence of form of these functions for equations of all orders , the corrected expression of which is given later in the present memoir ( S28 ) .
+6 .
+The two notes of M. LAGUERRE and the letter of Professor BRIOSCHI are the suggestive starting point of M. HALPHEN'S investigations in invariants , which occupy part of his extremely valuable memoir .
+So far as the invariants , theory of forms , are concerned , the leading investigations are contained in the third chapter .
+He there points out the functional identity of the invariants of LAGUERRE and BRIOSCHI with functions previously ( in July , 1878 ) obtained by himself ; the connexion between absolute and relative invariants is derived priori ; and the necessary limitation on the form of invariants arising from homogeneity in weight is deduced .
+A method is indicated , potentially suitable for the formation of invariants , by connecting the general linear equation with the linear equation of the second order ; the fundamental invariant of weight 3\mdash ; the same as for the cubic\mdash ; is derived and its permanence of form for equations of all orders is , except this and the invariant of weight 4 for the quartic , no others are calculated .
+In fact , the method involves extremely difficult analysis for any but the simplest cases ; and even for the invariant of weight .3 an invariantive property of LAGBANGE'S " " equation adjointe\ldquo ; is used in addition .
+The rest of the memoir is devoted to the application of these results .
+For this purpose , the author takes his general differential equation in a nite canonical form so chosen that the term of order next to the highest does not appear and the invariant of weight 3 is unity\mdash ; two relations which suffice to determine the new independent variable and the multiplier of the dependent variable .
+The applications , leading to most important deductions , chiefly concern the general * " " Sir les equations differentielles lineaires 'Bulletin de la Societe Mathemat .
+de France , ' vol. 7 , 1879 , pp. 105-108 .
+" " Memoir sir la reduction des equations differentielles lineaires aux forms integrables 'Memoires des Savants Etrangers , ' vol. 28 , No. 1 , 301 pp. ( Grand Prix des Sciences Mathemahques , annee 1880 ; publishod 1882 ) .
+In his Doctor 's Thesis ' Sir les invariants differentiels .
+' Paris , 1878 .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+385 cubic and a limited form of the quartic for which the invariant of weight 3 ishe identically , and in the case of which the new independent yariable is determined by taking the fundamental invariant of weight 4 to be unity ; in the notation of this memoir such a quartic would assume the binomial form 7 .
+In a subsequent memoir , .
+HALPHEN considers the general quartic and its invariants , which he identifies with the differential invariants of tortuous curves .
+And he deduces from the two fimdamental invariants notation numerical factor the series of invariants , which are the successive " " Jacobian derivatives\ldquo ; herein obtained .
+The following investigations were completed before I knew aJly of the details of this last-quoted memoir by M. HALPHEN , my starting point having been M. BRIOSCHI'S letter ; and , though the results reJating to the form of the Jacobian series for the quartic thus anticipated by four years , it does not seem necessary to modify the investigations which relate to the equation of general order possessing fundamental invariants .
+8 .
+The great advantage of the canonical form chosen by M. HALPHEN is that a given equation can be reduced to it by means of differential equations of soluble form of the first order only\mdash ; that is , their dependent variables can be explicitly determined as functions of the independent variable , though the functions may not be evaluable in known forms ; but there is an attendant disadvantage from the point of view of the invariants that their expressions , even for the canonical form , remain complicated .
+In preference to M. form I choose that from which the two terms of order next to the highest are absent , and the reduction to which is always possible by the solution of a linear diiterential equation of the second order .
+The great advantage of this , as the canonical form , is that , when the invariants \mdash ; at iirst called fundamental and subsequently priminvariants on accotlrlt of the property about to be mentioned\mdash ; are constructed for this form , they are purely linear functions of its coefficients and their derivatives , with the further essential property that the expression of each is independent of the order of the equation , so that , in fact , each is an invariant of every equation of order not less than its index .
+9 .
+The number of these priminvariants is ; from them there are constructed the series of what have been called derived ariants , which include Jacobiall and quadriderivative functions ; and in the aggregate only those are retained which are proper or non-composite .
+All these functions are invariants .
+There is then indicated a set of dependent variables sociated with the dependent variable of the given equation , the last one of which set is ) variable in * ' Sir les invariants des dilfercntielles line'aires du quatrielne ordre 'Acta Math vol. 3 , 1883 , pp. 325-380 .
+MR. A. R. FORSYTH ON INVARIANTS , COVARIANTS , AND QUOTIIiNT " " equation adjointe\ldquo ; of LAGRANGE ; they are all transformable by a substibution similar to that which transforms the original dependent variable , viz. , multiplication by some power of ; and they possess the property that all combinations of them , similar to those by which they are constructed , are expressible explicitly in terms of variables of the set .
+From this set of dependent variables there are deduced functions of them and their differential coefficients possessing the invariantive property ; and , again , from the aggregate all composite functions are excluded .
+These functions are entitled identical coyariants .
+Finally there is obtained a third class of functions possessing the invsriantive property , and involving in their expressions the dependent variables and the coefficients of the differential equation ; and those functions are excluded from the aggregate , which can be algebraically compounded by means of functions occurring earlier in the class , of invariants , and of identical coyariants .
+These functions are entitled mixed variants .
+For purposes of simplicity and of distinction between these classes of functions there is an advantage in considering , as the ground form , a differential quantic ( being the sinister of the differential equation ) rather than the differential equation itself ; for , in the case of identical covariants of order equal to and greater than that of the equation satisfied by the variable in question , they can by means of the equation be changed into mixed covariants .
+It is necessary to mention this both here and later when the functions occur ; but , beyond this mention , further notice is not taken of the possible fusion of the two classes of functions .
+10 .
+The general aggregate of concomitants of the differential equation is taken as including these three classes of functions , and later in the memoir it is shown to be complete ; and the expression of every function is only implicitly general , .
+that is , it is given in connexion with the canonical form of the equation .
+A few of the priminvariants oflowest index are given for a semi-canonical form , but these are the only exceptions .
+Again , my aim has been the investigation of invariantive forms from the purely algebraical or functional point of view , and not from the geometrical ; I have nowhere in this part adverted to SYLVESTER'S .
+The identity of some classes of the latter with HALPHEN'S Differential Invariants is known* , and thus the three species of covariantive functions constituted by Differential Invariants , Reciprocants , and Invariants of Differential Quantics have known points of connexion .
+The discovery of further relations between them would be of great interest and value .
+*SYLVESTER , " " On the Method of Reciprocants as containing an exhaustive theory of the Singularities of \ldquo ; ' Nature , ' vol. 33 , 1886 , p. 227 .
+IVES ASSOCIATED WITH LINEAR ] EQUATJONS .
+387 SECTION II .
+OF A LINEAR DIFFERENTIAL EQUATION .
+Transformation of the Differential Equation .
+11 .
+The general linear differential equation of the order is of the form where , . .
+are functions of ; by the substitution , and subseque1lt division throughout by , it is changed to where , . .
+are seminvariants of the former equation .
+Similarly , an equation which determines another dependent variable as a function of another independent variable may be written in the form Suppose now that these dependent variables are so connected the relation . . . . .
+is satisfied , bein some function of .
+In order that may be transformable into , must be some function of ; and when this is the case there will be a number of equations , evidently in number , connecting , and the two sets of coefficients and , which may be obtained as follows .
+The actual substitution of for in ( 1 ) gives In this equation it is necessary to change the independent variable from to , in order to compare it with ( ii ) .
+We have* where Limit , when , of and . . . . . . . .
+( 2 ) .
+It at once follows that , writing I for and denoting differential coefficients sometimes by dashes ( chiefly when there are powers higher than unity ) and sometimes by Roman numeral indices , we have coefficient of in i. e. , in . . . . .
+( 3 ) .
+Substituting now in the semi-transformed equation , we immediately find the coefficient of !
+to be with the symbolical interpretations .
+But the present form of the equation must be effectively the same as the coefficients of corresponding derivatives of must therefore be proportional to one another .
+In the transformed equation the coefficient of is ( here , so that and are the only values for terms in the ) , or the coefficient of is !
+; that is , it is .
+Hence we have * SCHLoNILCH , ' Vorlesungen uber einzelne Theile der hoheren Analysis ' Auflage , 1879 ) , p. 5 .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+389 or , what is the same thin Now , let ( 4 ) symbolically , then the coefficient of in the foregoing expression is the summation extending to those values of that leave the same throughout , that is , the coefficient is ; and , therefore , When is changed into and the quantities are introduced from ( 3 ) , this takes the form . . . . . .
+( iii .
+) .
+If it were desirable the summation on the right-hand side might be extended to bhe value , for vanishes if 12 .
+The only place where , as yet , the zero value of has been admitted is in the definition of , but no essential use of that value has been made ; now , however , it will be found that the removal of the terms involving and from and ( ii .
+) materially simplifies the analysis .
+Writing ( iii .
+in detail for the lowest values of and using the condition , we have in succession . . . . .
+( 5 ) , ( 6 ) , ( 7 ) , and so on , the number of equations being 13 .
+The first .\mdash ; In the particular cases of and , BRIOSCHI has shown that there is a function of the coefficients such that remarking that the invariantive forms remain the same for differential equations of higher order ; and HALPHEN has , for the general equation , obtained this invariant by another process .
+Before passing to more general investigations it is easy to see that result follows from equations ( 5 ) , ( 6 ) , ( 7 ) ; and the deduction of it requires modifications of those equations which are subsequently of great use .
+We have , from ( 4 ) , ; and from ( 3 ) while , generally , so that ( 5 ) now is . . . . .
+( 5 ) , an integrated form of which will be subsequently taken .
+Writing with BRIOSCHI ( 8 ) , we have , ; Again , ; by means of which ( 6 ) changes to , which , on substitution for and , reduces to ( 6 ) .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+39 ] Similarly ; ; By means of these ( 7 ) changes to , reducing on substitution for to ( 7 ) .
+Equa{ions(6 ) and ( 7 ) agree with the equations given by BRIOSCHI for the case of the cubic and that of the quartic ; the elimination of between them is in process precisely similar to that in those special cases , and it leads to the result 14 .
+It appears from this investigation and from the results of BRIOSCHI and HALPHEN that there are rational integral functions of the coefficients of the differential equation and their derivatives such that , when the same function is formed for the transformed differential equation , the two functions are equal save a.s to an integral positive power of .
+These functions are called invariants ; the exponent of the power of may be called the index of the invariant .
+Dimen , non-Number ; Homogeneity .
+15 .
+The index of an invariant can easily be settled by the following considerations .
+We can assign to each coefficient of the differential equation a certain number , called for this purpose its dimension-number , suggested by the similarity with the theory of dimensions of homogeneous functions .
+* For the present the dent variable will * This process is practically identical with M. HALPHEN'S nation of weight ; see above , Historical Introduction , S6 .
+MR. A. R. FORSYTH ON INVARIANTS , COVARIANTS , AND QUOTIENTnot have a definite number assigned to it , but will have associated with it an arbitrary number ; to we assign a number , to a number , and so up to , to which is assigned .
+Now , if to we assign a number the number assignable to is , and is , therefore , the same for all values of for all terms in the differential lation ; itnd , consistently with these arraIjgements , the number to be assigned to is In exactly the same way and by the same rules we can similarly assign numbers to the coefficients and derivatives of these coefficients , and , as before , leave the number rrned to the dependent variable arbitrary .
+16 .
+If now an ntive function of the kind spoken of in the last paragraph be denoted by when formed from the coefficients , and therefore by when rmed from the coefficients , the invariantive relation is of the form .
+equation of this form can exist only if Every term on one has : according to the foregoing assignation of numbers , one and the same dimension-number , and similarly for every term on the other side ; and ( ii .
+) The two sides have the same dimension-number for the variable , and the same dimension-number for the variable The first of these conditions requires a certain kind of homogeneity in the function , examples of which will immediately be given ; the second of the conditions determines the index .
+For let be the dimension-number of , which may be written ; then is also the of , these two numbers being respective multiples of the units implicitly assigned to and respectively .
+Consistently with the assignation of dimension-numbers , the quantity must be considered having a number assigned to it in virtue of its dependence on a number \mdash ; 1 assigned to it in virtue of its dependence on .
+Hence the -dimension-number of is , and its x-dimension-number is , while the corresponding numbers of are respectiyely and .
+The second of the conditions requires both of which are satisfied by .
+Hence the invariantive functions are such that , where is a function of the coefficients and their derivatives such that every term in the fimction has one and the same number 17 .
+The following examples will illustrate these general explanations .
+The quanDERIVATIVES ASSOCIATED WITH LINECAR DIFFERENTIAL EQUATIONS .
+393 tities which have a dimeusion-number\mdash ; 3 are and , and therefore the general form of is ( the coefficients A , .
+being constants throughout ) ; those which a dimensionnumber\mdash ; 4 are , and therefor the general form of is ; those which have a dimension-number are Po , , and , and therefore the general form of , is ; and so on .
+18 .
+It is evident that the product of two functions , is a function of the type .
+A composite function of this kind , resoluble into the product of two ctions with lower indices , will not be considered as properly associated with the dimensionnumber - ( The functions will be supposed ranged in order ) increasing index , and a composite function may thus be considered as included in the aggregate of earlier functions .
+The method of determination of the invariants will appear to be practically founded on the solution of a tial drential equation of the first order , as is usual with all invariantive functions of any nature ; and , as would be expected when the most general possible of is adopted so as to determine the assumed constants , composite functions of index will occur associated with undeterminable arbitrary constallts .
+For simplicity of calculation , it would therefore appear desirable to exclude from all terms which occur nctively in the aggregate , but owing to the form of the implicit partial differential equation to be satisfied this is not completely possible ; what proves to be possible , as will be seen later , for the adequate determination of a non-composite function is that terms , .
+, and terms , of course , of the number - , involving as factors either or some derivative of or combinations of them , alone need be considered .
+We now proceed to what is practically the formation of the partial differential equation , deriving it by a generalisation of the ordinary method of infinitesimal variation which is used to obtain the characteristic differential equations satisfied by concomitants of algebraical quantics .
+The general characteristic equation is not explicitly given on account of its complicated form ; it is implicitly given in all tho particular cases , and its principal use is to obtain the numerical coefficients of the different functions of the Coefficient Relations ( IIf .
+) .
+19 .
+By integration of equation ( 5 ) , we have constant ; since the equations ( iii ) are homogeneous in the dimensions of , this constant may be taken of any arbitrary value other than zero , and so we may write . . . . .
+( iv ) .
+With the form of equation ( ii ) dopted , this is the only equation which helps to determine and ; and therefore we may consider as arbitrary and , when an arbitrary value is assigned , is determinate .
+We therefore assume , . . . . .
+( 9 ) where , an infinitesimal constant , is to be considered so small that squares and higher powers may be neglected , and is an arbitrary non-constant function of .
+From this it at once folows that , . . . . .
+( 10 ) and , for values of greater than unity , ; while from ( 10 ) and ( iv ) it follows that , . . . . .
+( 11 ) and Hence ; ; and by ( 4 ) , for values of greater than unity , say .
+Also by ( 3 ) we have * The functions are shown by this process to be invariants only for an infinitesimal , but otherwise perfectly general , tlansformation ; but the immediate purpose is to obtain the numerical coefficients and not to prove the property of general invariance , which , otherwise knowIl , could be derived by the principle of cumulative variations .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+395 coefficient of in ; and therefore while for values of greater than When all these values are substituted in ( iii .
+) , it becomes ; and , therefore , dividing each side by the coefficient of and retaining only first powers of , we have , ( 12 ) after a slight reduction .
+This equation is true for the values , 3 , . . .
+, ; and particular cases , to be used immediately , are 20 .
+But for our present purpose we require , not merely the expressions ( 12 ) for the coefficients in terms of , but also expressions for the derivatives of differe of the Q. Writing ( 12 ) in the form so that we may , to the order of small quantities retained , differentiate with regard to or indifferently , we have But as before ( S11 ) we have where coefficient of in . .
+Now we have ; that is , to the first order of small quantities , and similarly for the differential coefficients 01 higher orders ; whence coefficient of in and , therefore , while , for values of greater than When these values are substituted , the equation for ' becomes DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+397 and , therefore , .
+It will be noticed that the coefficient of the first term is .
+The quantity , which has a dimension number - , will be multiplied by in the invariantive equation , i.e. , by ; and the first term in the of the two will thus be .
+The correctness of this result furnishes a slight indirect verification of ( 13 ) .
+As particular examples of ( 13 ) , corresponding to those of ( 12 ) , we have ; : ; ; \mdash ; ; \mdash ; 21 .
+We now proceed to construct the functions ; the value of has already ( S13 ) been found , and may be taken in the form ( 14 ) Calculation of the Invariants 22 .
+The The most general form possible is and the invariantive equation is DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL IONS .
+399 Now and the values of the remaining quantities have already been given ; when they are substituted in the equation and the factor - is removed , the equation becomes which is satisfied identically , provided .
+Hence , taking A to be unity , we have , ( 15 ) which practically agrees with BRIOSCHI'S function for the value the order of the equation in connexion with which the function is obtained .
+23 .
+The invariant The most general form possible is Proceeding exactly as in the last case , it is easily found that the conditions necessary for the identical satisfaction of the invariantive relation are .
+And , therefore , taking A to be unity as before , we have \mdash ; .
+( 16 ) 24 .
+The invariant The most general form possible is Proceeding as before , it is found that the necessary conditions are These conditions leave two constants undetermined ; they may be taken to be Aand L. When the values of the others are substituted , it appears that the part of the function involving can be expressed in the form that is , a composite invariant of index 6 . .
+As no new function is thereby determined , we omit it by making zero ; and then , taking A to be unity , we have ( 17 ) .
+25 .
+The invariant Proceeding as in the last three cases from the most general form , we are led to a number of relations among the assumed constants which leave two of these constants undetermined .
+When all the other constants have their values in terms of these two substituted , it is found that the aggregate of the terms involving one of the constants DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+401 can be expressed in the form is , a composite invariant of index 7 .
+this is not a new function , it is omitted , as in the case of ; and the quantity which involves the other constant is then \mdash ; ( 18 ) .
+Invariants such as these which have one part linear in the coefficients of the differential equation will , for brevity , be called linear invariants .
+General Form of Linear riants ; Form of Equation .
+26 .
+The last few results suggest a general deduction , which can be derived directly from the equations ( iii .
+) , as to the general form of linear invariants .
+From those equations we have so that , terms involving , . . .
+; whence , by ( 8 ) , terms involving , . .
+Thus , fu1lction involving , . .
+, and , therefore , \mdash ; function involving , . .
+Combining these two , we have \mdash ; function involving ) , , . . .
+MR. A. R. FORSyTH ON INVARIANTS , COVARIANTS , AND QUOTIENTProceeding in this way and remembering the analogy of the simpler cases of , we be able to gradually reduce the highest index which occurs on the right-hand side ; but the terms will become more complicated , owing to the successive differen- tiations that take place .
+Now the form of the result to which we are to attain is known , being an invariantive relation ; the successive operations carried out in the way indicated always decrease the highest index on the right-hand side and will never re-introduce a coefficient already eliminated ; hence , the result attainable from the foregoing starting point is unique , and we are therefore led to he conclusion:\mdash ; a single non-composite linear for each index from 3 to , and , therefore , there ) all linear 27 .
+But , , as the successive steps in the gradual reduction are taken , differential coefficients of of various orders will enter as factors with , . .
+and differential coefficients of these , the function on the right-hand side being always an function of and its derivatives .
+Now , for the latter , we could substitute from equations like ( 6 ) and ( 7 ) , and others which have not been given ; but every derivative of can be obtained from ( 6 ) and from equations deduced from it alone by differentiation .
+In that case there would be introduced into the terms containing , . .
+and and its derivatiyes factors of the form or powers of or derivatives of , or combinations of these ; with the result that , when all the operations are completed so as to leave the invariantive equation , the non-linear terms in will each contain at least one factor which is either or a power of or a differential coefficient of .
+Hence each of the non-composite linear independent invariants consists of two parts : A part which is linear in the coefficients and differential coefficients of these quantities , each term having the proper dimension-number ; ( b ) A part which is of the second and higher degrees in these quantities , each term having the proper dimension-number , and every term having at least one factor which is either or some derivative of These general conclusions are evidently satisfied in the case of the linear invariants already obtained .
+28 .
+It will be proved immediately that t , he numerical coefficients in the linear part are independent of , the order of the equation ; those of the non-linear part are not independent of , as may be seen from the special cases already discussed .
+Hence the linear part is the same for equations of all orders not less than the index of the invariant , but the non-linear part varies from one equation to another ; and therefore BRIOSCHI'S remark made a propos of for the cubic and quartio and of for the quartic " " que ces forms invariantives restent les memes pour les equations differentielles d'ordre superieur\ldquo ; applies on to the linear part .
+DERIVATIVES ASSOCTATED WITH LINEAR ERENTIAL EQUATIONS .
+403 Canonical Form of Equation of the 29 .
+The conclusion as to the form of the inyariants gests that a form of the differential equation might be adopted which would give to the invariants an expression considerably simplified .
+If it were possible to take to be zero ( and this possibility will be proved immediately ) , then , the function is formed from the coefficients of the transformed equation ( ii .
+) , the non-iinear part of the function will cease to appear because every term in this part contains a vanishing factor ; the part that remains constitutes the whole of the invariant .
+Hence , for the differential equation , thus transformed , the inyariant is a purely linear function of its coefficients , and , in this linear form , the invariant is determinate when once the numerical coefficients are obtained .
+30 .
+In order to obtain the transformed differentiaI equation , the invariants for which have this simple form , we return to the original equations of transformation .
+By them , considered as applied to equation , there were two quantities at our disposal , viz. , and .
+One relation between them has already been assumed in deducing the equation ( 5 ) or ; and any other may be taken to completely determine them , provided it does not violate that already adopted .
+Such a relation which is permissible is to suppose the quantities and eady subject to ( iv .
+) , to be quantities which will make the coefficient of in ( ii .
+) zero , that is , make Hence , by ( 6 ) , we must have where , by ( 8 ) , If we write the equation which determines is transformed into ( 19 ) ; and then we may write ( 20 ) .
+Hence , by the solution of a linear differential equation of the seconLd order , as ( 19 ) , the two terms of orders next belo the can be oved from a linear tial equation of any order .
+* This modified form may be called the canonical form of the differential equation .
+*This result has already been referred .
+to , as a general statement ( S 2 ) ; the exact references are\mdash ; COCKLE , ' Quarterly Journal of Mathematics , ' vol. 14 , 1876 , p. 346 , for the cubic ; LAGUERRE , ' Comptcs Rendus , ' vol. 88 , 1879 , p. 226 , for the general jation .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+405 ( iii .
+) In , where and , the terms involving are ; ( iv .
+) In the term involving is When these quantities are substituted and the coefficients of corresponding terms are compared , the satisfaction of the equation requires the following relations:\mdash ; @L The last equation determines , the coefficient of , which is not required for our present purpose , because this term , though linear , will not occur in the canonical form .
+The other equations give Hence , taking to be unity and passing to the canonical form , we obtain the noncomposite linear invariant of index in the form , DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+407 so that is independent of therefore any invariant of an equation in its canonical form is.also an invariant of all equations of higher orders when in their canonical forms .
+SECTION III .
+DERIVED INVARIANTS 0F A LINEAR DIFFERENTIAL riants .
+33 .
+We are now in a position to construct an infinite number of invariants which are linearly independent ( and also algebraically independent ) of one another ; they are , in the first instance , functionally derived om the invariants obtained in the last section , which may , therefore , be called the fundamental invariants or the priminvariants of the equation .
+The method of obtaining the first set of new invariants is that adopted by BRIOSCHI for the cubic .
+With the notation already adopted , we have for the general priminvariant , and thence by ( 8 ) , after taking logarithmio differentials , and , therefore , also Substituting in ( 6 ) and writing we have , so that is a new invariant with index 2 derived from the priminvariant ; and from every priminvariant such an invariant can be derived .
+Now , when the equat.ion is taken in the canonical form , the value of is ; DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+409 whence , after logarithmic differentiation , ; and , the foregoing quantity is , as stated , an invariant of index unity .
+Taking it in an integral form , we have as a new invariant , . . . . .
+of index ; from the similarity of its form with the Jacobian of two binary quantics , it will be called the cobjan of and .
+As we have already seen , quadriderivatives of composite functions are composite functions when Jacobians are retained .
+36 .
+The number of Jacobians which we need to retain as independent of one another is diminished by the two following results:\mdash ; ( A ) If either of two functions be composite , their Jacobian is composite .
+For , taking , we have a composite function .
+( B ) Of the Jacobians , 1 derived from the priminvariants only are a]gebraically independent ; for between the three which are derivable from any three priminvariants we evidently have a rel tion Hence the independent Jacobians , as well as the ative functions , 1 , are all of the second degree in the coefficients of the differential equation , and may therefore be called quadrinvariants .
+And from the foregoing it follows that the aggregate of " " proper i.e. , non-composite , quadrinvariants is composed of two sets , which are ( i ) the quadriderivative functions given by ( vi .
+) ; ( ii ) the Jacobians , 1 given by ( vii .
+) , of which ] are algebraically independent of one another .
+37 .
+The simplest example that occurs is in the case of the quartic equation of which the canonical form is There are two priminvaricmts , viz.:\mdash ; ; and there are three proper quadrinvariants , viz. :\mdash ; And if we choose we can replace any one of these by a linear combination which includes that one ; thus we could replace by , the value of which is Independently of the special application to the deduction of quadrinvariants , the preceding analysis shows that , when a number of invariants are given , there are two offorrning new , the driderivative process and the Jacobian process .
+Cubinvariants .
+38 .
+We now proceed to apply these methods to obtain the proper invariants of the third .
+The quadriderivative process will not produce any invariants of this degree when applied to any of the invariants already obtained ; and , therefore , all that remains for us to do , remembering proposition ( A ) of S 36 , is to form the Jacobians of the priminvariants with the proper quadrinvariants .
+39 .
+First , the Jacobian of any with proper quadrinvariant which is itself a Jacobian is composite For , if denote the Jacobian of and , 1 , we have But *This is the exact parallel of a well-known proposition in the theory of algebraical forms ; see ' Theory der binaren aIgebraischen Formen , ' p. 117 .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+411 and therefore Hence it follows the Jacobian under consideration can be constructed from priminvariants and proper quadrinvariants ; it is , therefore , a composite function , and must be omitted from the aggregate of proper cubinvariants .
+40 .
+There thus remain only the Jacobians of the priminvariants with the quadriderivative quadrinvariants , and of these the total number is .
+But , denoting the Jacobian of ( by , we have so that ; and , therefore , when any invariant is considered as given , any other of this type , derived through , 1 and so involving the same , can be expressed in terms of and of invariants of earlier classes ; and hence out of the functions derived through , 1 it is necessary to retain only one of them .
+This being so , it appears natural to retain that function , which has , and is the Jacobian of and of the priminvariant , with which , 1 is associated .
+Denoting it by , 2 , we have , . . . .
+( viii .
+) with index ; the number of these functions is , and their aggregate constitutes the aggregate of independent proper cubinvariants .
+But it should be remembered that there are other proper cubinvariants , which fortheir expression require some one at least of this aggTegate .
+The proper cubinvariant will be said to be associated 41 .
+We now pass to the consideration of the invariants of the fourth degree which can be obtained by the methods hitherto adopted .
+The most obvious instances of composite quartinvariants are those constituted by ( i ) products of priminvariants by cubinvariants proper and composite , and ( ii ) products and powers of the second degree of proper quadrinvariants ; while proper quartinvariants are to be sought among ( a ) Jacobians of priminyariants with proper cubinvariants , the Jacobians of priminants with composite cubinvariants being composite functions , by ( A ) ; ( ) Jacobians of proper quadrinvariants with proper quadrinvariants ; ( ) Quadriderivative functions of quadrinvariants , proper and composite .
+These must be considered in turn .
+42 .
+First , for ; we denote the Jacobian of and by , so that ; and , therefore , Hence follows that , when one of the functions is known , all the other quartinvariant Jacobians derived through the same cubinvariant are expressible in terms of that one function and of ihyariants of lower degree ; and , as in S40 , the invariants of this type can be resolved into classes , in each of which classes only one function need be retained .
+As before , we choose from the class derived through that function which is the Jacobian of and ; and , denoting it by , we have , . . . . .
+( ix .
+) a proper quartinvariant with index .
+The number of these proper quartinvariants is ; and , in particular , the invariant will be said to be associated with the priminvariant When is expressed in terms of and its atives alone , a simpler invariant can be obtained by taking a linear combination of and ; there is , however , no apparent at present in taking such a combination as a canonical form , and there is the present disadvantage of the law of formation .
+The modifications will be indicated later ( S134 ) .
+43 .
+Second , for ( ) ; there are three cases which occur , viz. :\mdash ; ( a ) The combination of a Jacobian , 1 with a Jacobian , 1 ; ( b ) , , , , , , , 1 with a quadriderivative , 1 ; ( c ) , , , , quadriderivative , 1 , , , , , 1 .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERF , NTIAL EQUATIONS .
+413 Now , in S39 we have seen that the Jacobian of and , 1 is given by a result enunciated for case in which ( there ) is supposed a priminvariant , though , in the proof , no such limitation was introduced .
+This may be applied to the consideration of ( a ) by writing , 1 ; the functions , 1 and , 1 are then cubinvariants ( composite , moreover ) , and therefore can be expressed in terms of invariants of the first three classes .
+Thus from no proper quartinvariants arise .
+The same formula be applied to the consideration of ( b ) by writing , 1 ; the functions , 1 and , 1 are cubinvariants ( composite , moreover , if and differ from ) and so can be expressed in terms of invariants of the first three classes .
+Thus from ( b ) no proper quartinvariants arise .
+These two results can also be deduced as follows .
+For we take and a cubinvariant ; from which Now the right-hand side is the of a quadrinvariant and a cubinvariant , and therefore is composite .
+Similarly , for ( b ) we take , and from which The right-hand side , as before , is the product of a quadrinvariant and a ; and therefore is composite .
+The last method may be applied to ( c ) also , and leads to a similar result ; for , taking we have i.e. , the product of a quadrinvariant and a oubinvariant .
+Hence is composite , and therefore from ( c ) no proper quartinvariants arise .
+Combining these results , we see that the class furnishes no proper quartinvariants .
+44 .
+Befol.e passing on to the class ( ) , it may be remarked that the results of the last article are particular examples of a more general proposition , viz. :\mdash ; The Jacobian of an invariant of degree and an invariant of degree , where and are greater than unity , is a composite invariant , that is , it can be expressed in terms of invariants the degree of each of which is less than For , calling the two invariants and ( of indices and respectively ) , their Jacobian , and the Jacobian of and \mdash ; an invariant of degree and therefore of degree less than \mdash ; we have and therefore ; that is , equal to the product of an invariant of degree and an invariant of degree ; and therefore is expressible in terms of invariants all of degree less than its own .
+45 .
+Third , for ( ) ; since it follows from S34 that the quadriderivative function of a composite function is itself composite , provided the proper Jacobians of composing functions be considered as a prior class , we see that the quadriderivative of a composite quadrinvariant is a composite quartinvariant ; and , therefore , any proper quartinvariants that occur in the present class will enter as either the quadriderivative of a quadrinvariant of the type , 1 ; or ( b ) , , , , , , , , , 1 Denoting the function in ( a ) by , we have Also and it is not difficult to prove that so that is composite , for it can be algebraically expressed in terms of invariants of the first three degrees .
+Thus among the functions there will be no proper quartinvariant .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATJONS .
+415 For ( b ) , one of the simplest methods is to introduce the function and then , by S34 , it follows that the quadriderivative of , 1 is composite if that of be composite , for the Jacobian of and is expressible in terms of lnvariants of the first three degrees .
+Since is of index unity , its quadriderivative is Now ( S39 ) the Jacobian of a priminvariant and , 1 can be expressed in ter1ns of mvariants of the first two degrees , and , therefore , the Jacobian of a priminvariant and can be expressed in terms of invariants of the first two degrees ; consequently , the Jacobian of a priminvariant and of can be expressed in telms of invariants of the first three degrees at most .
+But so that .
+Hence , ; and therefore is composite .
+Hence also , the quadriderivative of , 1 is composite , so that there is no proper quartinvariant among the functions ( b ) .
+Combining ourresults , we see that the class furnishes no proper quartinvariants .
+46 .
+The general conclusion in regard to proper quartinvariants is therefore the following : There are independent and proper , and these are given by ( ix .
+) ; other derived by these methods are either composed of invariants of the three former classes , or , if proper , can be expressed in terms of inof the three former classes of one or more of the dependent proper ricmts .
+Invariants of Higher Degrees .
+47 .
+The investigation of the proper quintinvariants proceeds on similar lines to that for the quartinvariants .
+It is easy to see that , in forming the Jacobians of may be remarked , as worthy of note , that is the Schwarzian derivative with regard to of the absolute invariant .
+and for all values of and , the same limitations on the mutual independence of the functions so derived exist as in SS 40 and 42 ; and hence of this type there are proper and independent quintinvariants given by , . . .
+( ) the remaining proper quintinvariants being expressible in terms of the functions , 4 and of invariants of the first four classes .
+48 .
+By means of some of the results obtained we can show that all the invariants , obtainable by any of the methods hitherto used or by any combination of them , are expressible in terms of these different classes in succession of proper invariants associated with the priminvariants .
+For ( i ) These proper invariants of any class are obtained by forming the fitting Jacobians of the proper invariants of the class next preceding and the priminvariants ; ( ii ) By proposition ( A ) of S36 and the theorem of S44 , it follows that all other Jacobians are composite ; ( iii ) By the analysis of S45 it follows that quadriderivatiye of any Jacobian is composite , if we retain as representative invariants the successive Jacobians of proper invariants .
+Now , after , 1 , all the proper invariants , 2 , , 3 , . .
+are Jacobians , and therefore quadriderivative functions formed from them are composite , a result already proved in S45 for , 1 ; and thus the quadriderivative operation applied to any proper invariant will produce only a composite invariant .
+( iv ) It is sy to see that , if we take any proper invariant of a class higher than the first and from it , considered as a fundamental variant , construct the same functions as , 2 , , 3 , .
+are of , all the resulting invariants will be composite .
+For , considering in particular the cubiderivative function of corresponding to , 2 , it will be the Jacobian of the invariant and of the quadriderivative of that invariant ; this quadriderative will in general come under the head of those considered in ( iii ) , and therefore will be composite ; but in any case the theorem of S44 shows that the function will be composite , since is of a degree higher the first .
+Similarly for all the other functions .
+It therefore follows that the operations , similar to those whereby the invariants , 1 , , 2 , , are constructed from , only lead to composite invariants when applied to proper invariants of any class beyond the first , and that the only operation which can lead to proper invariants is the Jacobian , and even that operation only produces proper invariants of any degree when applied to the invariants and the respective proper invariants of the preceding degree associated with 49 .
+The general conclusion as to the derived invariants is as follows:\mdash ; It is convenient to range the derived invariants in classes ; all the invariants in any one class are , when the differential equation is taken in its canonical form , homogeneous in the coefficients of the equation their derivatives ; and the degree of any DERIVATIVES ASSOCIATED WITH LINLAR DIFFLRENTTAL EQUATIONS .
+] class taken to be the common degree of all the invariants of the class .
+In class the invariants are of two kinds , , composite , these being exprcssible in terms of invariants of earlier classes ; and proper , these not being expressible in such terms .
+The number of proper invariants in ny class above the second is ; but only of this number are quite independent of one another , and the remaining proper invariants of the class can be expressed in terms of one ( or more ) of the independent proper invariants and of invariants of lower classes .
+And the following are the proper invariants of the classes in succession:\mdash ; First , the priminvariants , .
+, , .
+, , each of which is linear in the coefficients of the differential equation , supposed reduced to its canonical form , and their derivatives ; the index of each invariant is the same as its subscript number ; Second , ( i ) the quffiriderivative functions which in number and are independent of one another ; the index of , 1 is ( ii ) the Jacobians of index , but only of these are independent , and the remainder can be expressed in terms of these , properly chosen , and of priminvariants .
+The two kinds of proper invariants in this class are algebraically independent of one another ; Third , there independent cubinvariants given by of index , and there are proper cubinvariants dependent on the foregoing ; Fourth , there are independent quartinvariants given by of index , and there are proper but dependent quartinvariants ; and , generally , the class contains independent proper invariants given by . . . . .
+of index ?
+, and also proper but dependent invariants .
+And all the invariants of the class , for every value of ; are of degree .
+in the coefficients of the differential equation and their derivatives .
+50 .
+In this connexion two points remain to be noticed .
+It has already ( S7 ) been remarked that M. HALPHEN has , for the quartic , derived a series of invariants from DERIVATIVES ASSOCJATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+419 SECTION ASSOCIATE EQUATIONS AND DEPENDENT VARIABLES .
+LAGRANGE'S " " Equation djointe 52 .
+It was proved by LAGRANGE , *that in connexion with every linear differential equation there exists another linear equation of the same order , and that a knowledge of the primitive of either is sufficient to lead to the of the other .
+Let , , be special and linearly independent solutions of the equation ; then is an integrating factor .
+For , since , satisfy the equation separately , the quantities can be found in terms of them ; and , when these values of are substituted and the equation is then muloiplied by , it takes the form , , . . .
+, , , . . .
+, , . . .
+, , , .
+, , But an integrating factor of the equation satisfies the relation * Miscellanea ensia , ' vol. 3 , 1762 ; 'ffluvres , ' vol. 1 , p. 471 Solution de differents problems de calcul integral as can be seen at once by multiplying ) foregoing equation by and integrating by parts .
+This is LAGRANGE'S associate equation equation adjointe ; it is of the same order as the original equation ; and its special and independent integrals may be taken to be the determinants each of constituents given by It is well-known that the rangian associate .
+the associate is the equation ; it is evident that , if either be in its canonical form , the other is so also .
+It will now appear that the equation is only one of a set of equations , and its variable onIy one of a set of dependent variables , associated with the original equation .
+Sets of subject to the same Combination .
+53 .
+The special integrals constitute a fundamental system of integrals , and each of the members , .
+, of any other fundamental system is a linear function of the fornler set , so that in effect a change from one fundamental system to another is only a linear transformation of the dependent variables concerned .
+( There is here no question of the necessary modifications of fundamental systems owing to the presence of " " singular\ldquo ; values of the independent variable ) .
+This transformation may be represented by , where is a constant matrix with a non-vanishing determinant .
+But this applies not only to the dependent variables , but also to their derivatives of all orders , so that we have for any value of .
+And , if we retain this equation for values , 1 , 2 , .
+, of the index , we shall have in all sets of variables subject to the same linear transformation ; and these variables are linearly independent of one another , since for the satisfaction of the differential equation we need the nth differential coefficients of the quantities , which have been specially excluded .
+DERIVATIVES ASSOCIATED WITH FERENTIAL EQUATIONS .
+421 54 .
+Since the quantities are linearly independent of one another , they may be looked upon as the coordinates of a point a manifoldness of dimensions ; and , if we assume the same linear independence of the derivatives of all the orders up to the inclusive ( which is equivalent to an assumption that no linear function of the quantities with constant coefficients is equal to a rational integral algebraical function of order less than \mdash ; an assumption justifiabl with general coefficients , though not necessarily so in an particular case ) , then each of the sets of derivatives , each set being constituted by those of the same order , may be looked upon as the coordinates of a point in a manifoldness of dimensions .
+And , since the law of linear transformation is the for all the sets , all these points be taken as belonging to the same manifoldness .
+There are thus different and independent sets of cogredient variables connected with the single manifoldness of dimensions .
+55 .
+In the theory of the concomitants of algebraical quantics of any order in the variables of a manifoldness of dimensions , it is necessary to consider all tho possible classes of variables which can enter into the expressions of these concomitants .
+CLEBSCH* has proved that there are in different classes of variables which thus need to be considered , and that , if , .
+, , . .
+, ; , . . .
+, be sets of cogredient variables , the several classes are constituted by nlinors of varying orders of the ninant ( itself an idenbical covariant ) those of one class minors of one and the same order .
+The variables of any class are linearly , but not algebraically , independent of one another , except in the case of the first class , constituted by minors of order unity , and the last class , constituted by minors of order ( the complementaries of those of the first class ) , in each of which classes the variables are quite independent of one another .
+And all similar combinations of variables are expressible in terms of variables actually included in the classes .
+56 .
+In connexion with our differential equation we have obtained different and algebraically independent sets of cogredient variables ; the functional derivation of the sets , one from another in succession , by the process of differentiation has been excluded from any interference their algebraical independence .
+We already have one class of variables , viz. , , . .
+, analogous to the first class of algebraical variables , and another class of variables , . .
+, analogous to the class of algebraical variables ; and the relation * Ueber eine Fundamentalaufgabe der Invariantenbheorie ' Gottingen , dlungeIl , ' vol. 17 , 1872 .
+MR. A. R. FORSYTH ON INVARIANTS , COVARIANTS , AND QUOTIENTwhich is satisfied , is precisely the same , the corresponding relation between the similar variables helping to define the higher class CLEBSCH , .
+Hence , from the point of view of purely algebraical forms , we inrer that the suitable algebraLcal combinations of the sets of riables , which have arisen in connexion with the differential equation , are the minors of varying orders of the determinant ' which determinant , as we know , is a non-evanescent constant ; and these variables may be ranged in classes , which for the present may be called linear , bilinear , tri- linear Combinations functionally Invariantive .
+57 .
+Now , after having obtained the merely algebraical result , it is necessary to take account of functional dependence of the sets due to differential derivation .
+In the case of the algebraical quantics , it is a matter of indifference which set of minors of the first order be taken to constitute the first class of variables , which set of minors of the second order be taken to constitute the second class , and so on ; thus for the second class the same kind of variable is obtained by taking the ( xy ) minors , as by taking the ( yz ) minors , or the ( xz ) mino.rs .
+But a difference arises in the case of the occurring in connexion with the differential equation .
+There are sets of linear variables distinct in character from one another ; for , .
+, are special integrals of an equation quite different from the original equation , though they are subject to the same law of linear transformation as , . .
+, .
+There are sets of bilinear variables distinct in character ; thus ' ' are three distinct variables of this class , subject to the same law of linear transformation ; and so on for the higher classes .
+58 .
+Most of these , however , will be excluded .
+These forms of variables have been suggested in connexion with the theory of linear transformations , for which transformations algebraical concomitants involving them are covariantive .
+The invariants DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+423 considered in the earlier part of this memoir have possessed their invariantive property for functional transformation ; and , efore , if forms involving the dependent variables are to be in an aggregate of concomitants together with the invariants , these forms must have the same inyariantive property for such functional transformation .
+In this gregate of the variables themselves will be included ; and , therefore , we must select from the foregoing algebraical combinations those which have the invariantive property of reprodtlclng themselves , save as to a power of , after transformation .
+Of the sets of linear variables constituted by the several sets of quantities quantities , and so on , only the first set has the property of being reproduced by the new variable , save as to a power of ; and we already know that , if be the new dependent variable , then the relation is , by , . . . . . . . . .
+Of the sets of bilinear variables , each set containing variables , only a single one has the invariantive property of self-reproduction , save as to a power of ; and this single one is the set constituted by the variables of the type This statement , which leads to the retention of the single set and the exclusion of all the remainder , can be at once verified by making substitutions of the type ( xii .
+) ; and the result of the substitution on the typical variable of the present class is that , if denote the original bilinear variable and the transformed bilinear variable ' then we have . . . . .
+( xiii .
+) .
+Similarly of the sets of trilinear variables , each set being constituted by corresponding minors of the third order , there is only one set of which each variable has the functional invariantive property ; and a typical variable of the set to be retained is The relation of transformation is . . . . .
+( xiv .
+where is the corresponding transformed trilinear variable .
+And in general of the !
+sets of -linear variables , each set being constituted by corresponding minors of the order , there is only one which has variables possessed of the fumctional invariantive property , and of this a typical variable is ' ' . .
+, ' .
+, where as } ) efore y denotes .
+If denote the same -linear variable associated with the ansformed equation , the law of transformation is . . .
+( xv .
+) .
+The last set of variables is that for which ; and the typical variable of the set is the variable of LAGRANGE'S " " equation adjointe Associate Variables .
+59 .
+Hence there are , in all , sets of variables ; all the variables in any one set are particular and linearly independent solutions of a differential equation the dependent variable of which is a typical variable of the set .
+Hence , connected with the given differential equation , there are other differential equations ; these may be called the associate equations .
+The new dependent variables , derived by definite laws of formation , may be called the associate dependent variables , and , calling them in turns the associate variables of the first , second , .
+, rank , the rential equation of which the dependent variable is the associate of the rank is linear and of order ! ! .
+For the functional transformation of the original dependent variable given by ( xii .
+) the law of transformation of the associate variable of the rank is given by ( xv .
+) ; and , if we call two lanks complementary when the sum of their orders is , then associate variables of complementary rank are transformed by the same relation , since for such variables the index of the factor power of has the same value .
+The associate dependent variables may therefore be ran ged in pairs of complementary DERIVA T ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+425 rank ; in the case when is even there is one dependent of self-complementary rank .
+Each pair has the index of the factor power of different from that for any other pair .
+The simplest case of this arrangement is that which combines in a pair the original variable and the variable of the " " adjoint\ldquo ; equation of LAGPANGE ; and the two dependent variables have the same functional transformation .
+Since is thus a covariant for the transformation , HALPHEN infers that the invariants of the equation satisfied by are invariants of the original equation , and he has used this proposition to construct ( see S 6 ) .
+Reference to 60 .
+Before proceeding further with the associate variables , there is one point which may be considered conveniently here .
+The quantities , . .
+, , from which the associate variables are constructed , are , all of them , covariants with the same index ; and , in particular , the associate of the first rank is in each case the Jacobian of two of these covariants .
+Now , when we were considering invariants we were led to new invariants by forming the Jacobian of any two ; and ) there is suggested a new means of forming invariants , if , , for three , which by involution to suitable powers can be made to have the same index , we form the same function as the associates of the second rank are for the special values of the original variable .
+It may , however , be easily proved that such invariants are composite .
+For let be three such invariants with the same index they might ; then the new function Let denote the quadriderivative of ; then and similarly for the others , so that after substitution for '\fnof ; mCX''we have , X But the determinant on the right-hand side is But the determinant on the right-hand side is But the determinant on the right-hand side is But the determinant on the right-hand side is ' ' and ence can be expressed in terms of the invariants which have been retained as fundamental and of proper derived invariants .
+Thus , in the case of the invariantive combination suggested by the associate variable of the second rank , only composite invariants are obtained ; the result is general for all the invariantive combinations thus suggested .
+Combinations of the Variables .
+61 .
+Consider now the complete set of dependent variables , viz. , the original variable and the associate variables , as a fundamental set .
+Any one of them satisfies a linear differential equation of determinate order ; and with it , as an original dependent variable , there will be associated a number of new dependent variables , in number less than the order of the equation , and functionally derived from it in the same manner as preceding a ve been derived from Taking a few mple cases , consider first that of the associate of the first rank and let so that , are particular solutions of the equation whose dependent variable is the associate of the first rank .
+One of the set of variables , associate of the first rank with , is ' and is , therefore , expressible in terms of associates of the original variable one of the set of variables , associate of the second rank with , is DERIVATIVES ASSOCIATED WITH LINEAR ERENTfAL EQUATIONS .
+427 where ' and similarly for ; hence it is expressible in terms of associates of the original variable As a last example , consider the set of variables associate of the first rank with ; one of variables may with oing notation be written\mdash ; and this easily proved to be again expressible in terms of associates of the variable 62 .
+From these particular results and the preceding investigations the following inferences may be drawn:\mdash ; ( 1 .
+) The system of associate variables , constituted by , .
+, , is functionally complete ; that is to say , the variables in the systems associate with any one of them ( derived from that one by the functional operations of the type which led to , .
+) are , variables , expressible in terms of combinations of particular associates of the original variable ; in the formation of these combinations it may be necessary to introduce functions of the coefficients of the original equation .
+Hence , as typical dependent variables , the associates of the variables associate with may be looked upon as expressible in terms of the variables associate with , the necessary combinations of which are only multiplicative and additive ; and they therefore introduce no new associate variables .
+( 2 .
+) Invariants of associate equations are all of them invariants of the original equation ; the complete converse of this may not be affirmed .
+( 3 .
+) Differential equations in associate variables of complementary rank are mutually " " adjoint The last inference is suggested by the following considerations :When we construct the equation adjoint to the equation , of which the dependent variable is and order ! !
+, the process can be performed in a manner similar to LAGRANGE'S adopted in S52 .
+The integrating factor , which is the dependent variable of the adjoint equation required , can be constructed as a functional determinant of special solutions of the equation , in number one less than the order of the equation .
+For the special integrating factor , onding to that of S52 , let the particular solution omitted from the determinantal ) ression be the functional determinant of , .
+, .
+When , in the integrating factor , deternJinant substitution takes place for the particular solutions in terms of the quantities , it appears that the determinant is of dimensions in each of the quantities , .
+, and of an additional unit dimension in each of the quantities , .
+, .
+Since the functional determinant of , . .
+, is a constant , the part of the factor dependent on the dimensions in the quantities , .
+, may be expected to be a constant ; the later part may be expected to be a functional determinant of , . .
+, This last is a special value of the dependent variable of complementary rank , and is the conjugate of the dependent variable omitted in the construction of the integrating factor .
+Hence it may be that the variable of the differential equation , adjoint to that in , shall have as its variable I do not propose to attempt to give here , however , a rigid investigation of the inferencesjust suggested .
+The equation of lowest order for which an adjoint exists is the cubic ; after the formation of this adjoint equation , which will be effected later ( S82 ) in connexion with the investigation of some questions about the cubic , the identity of the covariants of the two equations will be evident .
+Similarly for the case of the quartic ( SS102-107 ) .
+SECTION IDENTICAL AND MIXED COVARIANTS .
+63 .
+In the last section a set of dependent variables , . .
+, has been obtained which are algebraically independent of one another , and each of which possesses the same invariantive property as the fundamental invariants ; and , just as was the case with the invariants , we can , by using the methods employed in Section III .
+, deduce other covariants from each of these dependent variables alone , from combinations of them with one another , and from combinations of them with the invariants .
+As it is desired to retain only those functions which are not composite , selection must be made as before .
+The of the functions will be destitute of one of the characteristics of the invariants ; their indices depend on the order of the differential equation , and the number expressing this order enters into the numerical coefficients , so that these new covariantive functions vary from one equation to another .
+Identical riants in the Original 64 .
+In this class are included all those functions possessing the invariantive property , and involving the dependent variables alone or their derivatives , but not the coefficients of the differential equation , when taken in its canonical form ; on which account they may be called identical , or absolute .
+Beginning with the original dependent variable , we have DERIVATIV ASSOCIATED WITH LINEAR EQUATIONS .
+429 so that we may consider as a covariant of index \mdash ; . .
+in the same manner as in S33 , it is easily found that which at once gives a new invariantive form .
+When the transformed equation is in its canonical form , so that vanishes , the new covariant is with index 2 ; or we may write ' . . . . .
+of index .
+This is the quadriderivative of 65 .
+There are thus two covariants and ; from them as fundamental covariants we can deduce the series ) successive Jacobians .
+the covariant next in degree is ( S40 ) - or say it is . . . . .
+( xvu .
+) with index .
+The next is . . . . .
+( xviii .
+) with index \mdash ; ; and so on .
+And the covariant in the complete succession is . . .
+( xix .
+) index \mdash ; .
+By means of the propos.itions used for the invariants it is easy to see that this series constitutes the aggregate of proper covariants involving alone ; for all others , obtained by combinations and by the application of the functional operations to combinations other than those which give results ( xvi.)-(xix .
+) , are , by those propositions , proved to composite .
+66 .
+The number of terms in this succession of identical covariants is given by values of from 2 to , so that the succession includes , besides terms , . .
+, .
+When the value is assigned to , the resulting covariant is one which involves , and which can , therefore , by means of the differential equation satisfied by , be transformed so as no longer to involve this differential coefficient .
+It will then involve derivatives of of order less than , and also the seminvariant coefficients ; such a covariant will be called a mixed covariant , because its expression depends partly on the variable and partly on the coefficients .
+Further , every successive covariant derived by the Jacobian process can be similarly transformed , and will then become a mixed covariant .
+There will be some limitation on the number of ndependent covariants of the mixed type thus obtained ; for the elements , so far as concerns the dependent variable , are only in number , being , . .
+, , and elimination of these quantities among more than mixed covariants will lead to relations involving covariants and functions of the coefficients of the differential equation only .
+From the fact that the quantities , which occur in the result of the elimination , and are not tions of the coefficients , are covariantive , it is priori probable that such functions of the coefficients as enter are invariants of the differential equation , or combine with the variables to constitute mixed covariants .
+For example , in the case of the cubic equation , which is its canonical form , and has for its priminvariant , it is easy to show in general so that , when ; and there are , therefore , no proper identical covariants involving alone , except and for the cubic .
+The corresponding investigations , which must be defelTed until the mixed covariants are obtained , are given in S76 for the quartic , in S77 for the quintic ; and the general investigation for an equation of any order is indicated in S 67 .
+In the case when there is given , not a differential equation , but a differential quantic of the form and we are seeking the identical covariants for the transformation which changes this quantic to DERIVATIVES ASSOCIATED WITH LINEAR ]ERENTIAL EQUATIONS .
+431 save as to a power of , the number of the covariants of this type is ( with the reservation of S77 ) unlimited ; and in the case when the second form is the canonical form , so and vanish , all the covariants thus obtained for this form of quantic are purely identical , that is , they do not involve the coefficients Q. Identical Covariants in the Associate , Variables .
+68 .
+Two kinds of identical covariants are possible .
+First , there are those which involve only a single one of the set of dependent variables ; the aggregate of these , for each of the associate variables , is similar to that just given for the original dependent variable .
+Second , there are those which involve more than a single one of the set of dependent variables , and which , therefore , may be called simultaneous ; but it will appear ( see S72 ) that this class need not be retained , for they can all be derived from proper invariants and covariants by purely algebraical processes of multiplication and the like .
+Hence the former class alone requires to be retained .
+To find all the covariants depending on the associate variable of general rank the process is the same as before ; we take the variable in connexion with the normal form of the fundamental differential equation and , denoting it as in by with index \mdash ; , we find a quadriderivative function which is covariantive , or say , . . . . .
+( xx .
+) with index .
+When the series of Jacobians of and the functions V are formed in succession , they are found to be , . . .
+, . . .
+( xxii .
+) and the general term in the succession is . . . .
+( xxiii .
+) The index of the covariant ( np \mdash ; p2\mdash ; 2 ) .
+The number of covariants in the succession is ( with a reservation similar to that in S77 , infinite when the associate is regarded as the variable of an umretained associated differerrtial quantic ; DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+433 the others can be expressed in terms of that one and of invariants .
+For from the proper invariant there is derived the proper mixed covariant so that which verifies the statement .
+( ii ) When the successive identical covariants , . .
+are taken instead of , new covariants are obtained by forming the Jacobians of these covariants and the invariants .
+All such covariants are composite .
+For , taking with index equal to \mdash ; , and denoting the Jacobian of and by , we have ; and we have so that whence is a composite covariant .
+Hence this class of covariants must not be included in the aggregate of proper .
+( See also S39 .
+) ( iii ) It is unnecessary to form the series of successive Jacobians from and as fUndamental covariants ; for the of and is composite , and , therefore , all subsequent Jacobians are composite .
+To prove the statement , denoting this Jacobian by , we have after substitution .
+But so that and , therefore , is composite .
+( See also S39 .
+) ( iv ) Similarly the Jacobian of and any invariant of index is composite ; for , it by V , it is easy to show that whence it follows that V is composite .
+In the same way it may be proved that the Jacobian of and is composite .
+( See also S43 .
+) 71 .
+The general result , therefore , is that all the covariants , which can be obtained by the methods used , are expressible in terms of the identical covariants , .
+and of the mixed covariants of the first order ; all of these are proper , i.e. , they cannot be expressed in terms of invariants and covariants of earlier rank , but all the mixed covariants can be expressed in terms of any one of them and of invariants .
+Mixed Covariants in the Associate 72 .
+The aggregate of mixed covariants , which involve in their expressions only a single associate variat ) , is for each associate composed similarly to the corresponding aggregate in the original variable ; and all the covariants , which can be obtained.by the methods employed , can be expressed in terms of the identical covariants , .
+, and of mixed covariants of the first order .
+These mixed covariants are proper , but they can all be expressed terms of any one of them , and of invariants .
+By retaining as proper covariants one at least of these mixed covariants of the first order in each of the associate dependent variables , we are enabled to dispense with the simultaneous identical covariants ( S68 ) as being composite .
+For the simplest simultaneous identical covariant is the Jacobian of two of the dependent variables , and ; and it is easily proved that so that this Jacobian is composite .
+The application of the analysis of S60 ( which shows that the invariant function obtained by constructing a function for invariants , similar to them in the same way as is to u ) to covariantive combinations of more than two of associate variables taken simultaneously shows that such combinations can be expressed in terms of tho covariants already obtained , and are therefore composite .
+73 .
+It has been shown , in ( iii ) of S70 , that successive Jacobians of , and are ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+composite ; the same holds of those formed with and .
+For , denoting the first of such Jacobians by , we have whence by means of the expression for , in ( iii ) of S70 , which is a composite covariant , it follows that But the simultaneous identical covariant on the right hand side is composite ; hence is composite .
+So for the others in succession .
+Lastly , as in ( iv .
+) , the Jacobian of any two mixed covariants of the first order in any variables is composite .
+For taking it is easy to show that It has just been proved that the second factor on the right hand side is composite ; and therefore is composite .
+It follows , from all these results and the propositions proved in S48 , that all the simultaneous identical covariants are composite .
+74 .
+The general conclusion as to the aggregate of covariantive concomitants is thus : The aggregate of proper concomitants associated with a differential quantic or a differential equation is composed of three classes\mdash ; ( A. ) INVARIANTS , being functions of the coefficients of the quantic or equation ; ( B. ) IDENTICAL COVARIANTS , functions of the dependent variable and its derivatives ( which when of sufficiently high order change into mixed covariants if associated with a differential equation ) ; and ( ii .
+) functions of the associate dependent variables and their derivatives ; but any function involving more than one dependent variable is composite ; ( C. ) MIXED COVARIANTS , being functions of the dependent variables , original and associate ( bu6 not involving more than one dependent variable ) , and of the invariants and their derivatives .
+And when the complete set of non-composite invariants , and the complete set of non-composite identical covariants in each of the dependent variables are retaiued , the independent non-composite mixed covariants consist only of Jacobians of the first order of any one invariant , and each of ) dependent variables in turn .
+on Number of Identical 75 .
+The following gives the limitation on the number of proper identical covariants in original variable when the equation is a quartic ; and when there is given a quantic , not an equation , of the fourth order the reservation mentioned in S67 is here indicated .
+For the general equation the first few identical covariants in their present forms ' 76 .
+Taking first the case of the quartic equation we have as covariants of this equation from which whence from the differential equation DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS 437 Hence , , ; so is expressible in terms of invariants and covariants already retained .
+And .
+this relation between the invariants and covariants , viz. , is practically the same as the differential equation , which may thus be considered as replaced by a relation between its invariants and covariants .
+77 .
+Taking now the case of the quantic of the fourth order , viz. , ( which we are entitled to include among the aggregate of invariants and covariants , its index being ) , we find , just as in the case of the equation , ; so that can be expressed in terms of the invariants and covariants and of .
+If , then , be included as a fundamental covariant , and , in consequence of this inclusion , all the proper derivatives from it be also included , then we have and all subsequent identical covariants expressible in terms of the covariants of the system thus increased .
+But if , on the other hand , the quantic ( and derivatives from it ) be not included , then the number of the identical proper covariants may be taken as unlimited ; and and all its derivatives are composite in terms of the invariants and covariants .
+This is the reservation referred to in S67 .
+78 .
+Taking , as a last example , the quantic , viz. , ( with for the equation ) , we have and therefore so that \mdash ; by ( 16 ) in its canonical form .
+And by ( 15 ) we have and in the canonical form of , so that Hence \mdash ; \mdash ; \mdash ; by ( iv .
+) and ( xxiv .
+) ; and , therefore , From the existence of this covariant relation , inferences to the number of identical covariants may be derived similar to those made in the case of the quartic .
+Symbolical Expressions for Successive Jacobian Derivatives .
+79 .
+A very simple symbolical form can be given to the covariants , obtained by continued application of the Jacobian prccess from two fundamental concomitants .
+* also HALPHEN , ' Acta Math vol. 3 , p. 333 .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+439 First for the case of the derived invariants , we may take ( xi .
+) as a representative , viz.:\mdash ; To transform this we write\mdash ; so that Hence , .
+Ifthen we write\mdash ; this equation comes to be , and therefore or by re-substituting we have the symbolical form for the derived invariants .
+Similarly , for the identical covariants , it may be proved that and that Corresponding expressions may easily be found for the mixed covariants .
+SECTION APPLICATION To EQUATIONS LOWEST ORDERS .
+Equation of the Second Order .
+80 .
+For the equation of the second order there are no invariants .
+So far as concerns the reduction of the equation to a normal form , it is at once evident that , by a literal application of the result in S30 , the equation would be reduced to the form by the solution of a linear equation of the second order .
+There is thus no simplifica ' tion or advantage in the reduction , for the original equation of the second order might as well be solved , the subsidialy equation being , in fact , identical with the original .
+* But it is interesting to notice how the well-known theory of the solution of the equation of the second order is contained in the general results .
+In the case of , we have , by ( iv .
+) , By the transformation the equation is transformed to provided ( 21 ) be determined by the equation The two independent solutions of the transformed equation may be taken to be 1 and ; and he , nce the two solutions of the -equation are and And is now the quotient of two solutions of the original equation .
+This result may be compared with the result of ] ying T transformation to the general algebraical quadratic equation .
+See my ' Differential Equations , ' p. 92 .
+DERIVAT]VES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+441 Equation of the Third Order .
+81 .
+The general results tained in S30 show that , by the solution of bhe equation is transformed to , ( 22 ) where and ; and , if we write , the equation determining is The form ( 22 ) is the canonical form of the cubic .
+82 .
+First , if the solution of ( 22 ) be known , then that of ( 23 ) can be derived from it , and conversely .
+For let be three special and linearly independent solutions of ( 22 ) ; then we have where A is a determinate constant .
+Introducing a new quantity , defined by the equation we Hence three linearly independent solutions of ( 28 ) are , and , say respectively .
+This proves the first part of the proposition ; and for the converse we have so that , if the solution of ( 23 ) be known , then that of ( 22 ) can be derived .
+It is evident from the method of formation of ( 23 ) that it is the " " adjoint\ldquo ; of ( 22 ) , see S52 ; the fundamental invariant is the same for the two equations , the change of sign not affecting the invariantive property .
+We thus have a verification of the proposition ( 2 ) of S62 .
+83 .
+Second , one immediately integrable form of the equation ( 22 ) occurs when being a constant , for the primitive is where are the roots of the equation .
+Another occurs when in which case the primitive is expressible in terms of BESSEL'S functions .
+84 .
+A third case , mentioned by BRIOSCHI , occurs when vanishes ; we may then take so that and therefore or , which is practically equivalent to a general quadratic relation Since vanishes , we have for the uncanonical equation ; and , there fore , three linearly independent integTals of LOMMEL , ' Mathemat .
+Annalen , ' vol. 2 , pp. 624-635 , but without any notice of the adjoint relation between the equations of odd order considered .
+DERIVATIVES ASSOCIATED WITH LINEAR RENTIAL EQUATIONS .
+443 being , are given by where is determined by the equation Between any three linearly independent integrals there subsists a homogeneous quadratic relation .
+The Quotient-Equation for the Cnbic .
+8 By this is to be understood the differential equation satisfied by the quotient of two solutions of ( 22 ) .
+Since every solution of the fundamental equation ] icitly contains , in linear and homogeneous form , three arbitrary constants , such a quotient will implicitly contain five independent arbitrary constants ; and the differential equation which it satisfies will therefore be of the fifth order .
+Let and be any two solutions and their quotient , so that Then , by ( 22 ) , we have .
+; and , therefore , When this equation is differentiated and substitution is made for , it follows that ; and another differentiation and substitution give When are eliminated between these three equations , we have , ( 24 ) the equation required , evidentl.y the fifth order .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL LQUATIONS .
+445 gives , i. e. , As we are seeking the values of special integrals , it will suffice to obtain them in as simple a form as possible .
+Since may not be a constant , we therefore take and the corresponding values of are ; and consequently , which rees with the former result .
+* In this case the quotient-equation is . . . . .
+( 25 ) , and the primitive of this equation is ( 26 ) .
+The function on the and side of ( 25 ) will be called the quotient-derivative associated with the cubic , or , more shortly , the cubic quotient-derivative ; the corre- spondin function for the equation of the second order , viz. , which is , being a multiple of the Schwarzian derivative , may be called the quadratic quotient-derivative .
+The consideration of these derivatives , and of others of higher order .
+will be resumed later ; but it may be mentioned that , if denote the Schwarzian derivative , and respectively the quadratic and the cubic qu\amp ; Obar ; tient-derivatives , en , and the equation ( 24 ) is .
+88 .
+A particular case referred to by MALET is at once reducible to one of the cases considered in S83 ; for , supposing so that vanishes , we have and , therefore , *The result would similarly follow , if were taken in its general form .
+'Phil .
+Trans MR. A. R. FORSYTH ON INVARIANTS , COyARIANTS , AND QUOTIENTThus the quotient-equation becomes and therefore , be not zero , it is given by which is practically the first integrable case of S83 .
+89 .
+The integration of the original differential equation , as given in S86 , depends on the supposed knowledge of two special solutions of the equation ( 24 ) ; and the formulae are , for the cubic , the analogues of those quoted in S80 for the quadratic .
+It is not , however , necessary to suppose two special solutions known in order to obtain the primitive ; this primitive can be derived from a knowledge of a single special solution .
+For we have and therefore ; whence we may infer or and ; and an expression for can be deduced by the ordinary method , for two particular solutions of the cubic are known .
+Similarly , from the single solution of the quotient-equation we old have ' ' and an expression for can be deduced by the ordinary method .
+90 .
+In connexion with the equation regarded as an equation of the second order determining , a result , which is rather curious from the analytical point of vi-ew , can be obtained .
+Denoting by the DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+447 quotient of two solutions of this equation of the second order , and taking one of these solutions to be , we have , by the application of a well-known formula , But , by the result quoted in S80 , we have ; so that a combination of the results obtained gives the solution of the equation in which is Equation of the Fourth Order .
+91 .
+The general results obtained in S30 show that , by the solution of the equation is transformed to ( 27 ) , where and ; and , if we write , the equation determining is The form ( 27 ) is a canonical form of the quartic in conformity with the general canonical form ; and the quartic can be reduced to this form by the solution of a linear equation of the second order .
+92 .
+But the equation ( 27 ) is not the only simpler form , consistent with complete generality , to which the original equation can be reduced ; the following transformation presents a close analogy with the reduction of an a]gebraical binary quartic to its canonical form .
+From previous investigations we know that , when the substitution is applied to the original equation , it becomes where , if denote , we have , \mdash ; ( these three being equivalent to two independent equations ) , and The quantity is at our disposal ; and , if we choose it , not as before in a way to make vanish , but so as to make vanish , then the differential equation is , ( 28 ) which is an alternative canonical form of the general quartic .
+The tion which determines is then or , writing , so that , this is a linear cubic with its priminvariant .
+Hence , by the solution of a linear cubic , the general quartic can be reduced to the canonical form ( 28 ) ; the , new .
+independent variable is , where is any integral of this cu- equation ; and .
+the of the canonical form are then given by the equations DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL .
+449 or and ; and the dependent variables are connected by the relation 93 .
+There are many special cases of these forms depending on simpler analysis ; thus , one of such cases is that wherein the priminvariant vanishes , and then form ( 27 ) comes to be binomial , while in ( 28 ) the coefficient is constant .
+The two forms ( 27 ) and ( 28 ) are practically the alternative normal forms of the quartic ; it is not possible by this method to reduce the general equation to the binomial form for such a reduction requires that the coefficients of shall all vanish\mdash ; three conditions which cannot , in general , be satisfied by proper determination of the multiplier A and the independent variable .
+In the case of all the which have been chosen the general assumption has been made that it is desirable to remove from the equation the term of order next to the highest ; for any equation , in which this might not be done , other forms could be obtained , but the analysis of Section II .
+shows that those forms adopted have the advantage of being most easily obtained .
+It may be remarked that , for the reduction of any equation to the canonical form adopted , the subsidiary equations are all of order less than that of the equation to be transformed .
+The Qnotient-Equation for the Quartic .
+94 .
+The differential equation satisfied by the ient of two solutions of the quartic must be of order 7 , since each of the solutions contains implicitly four constants in linear and homogeneous form .
+Taking and as two particular solutions of the equation in its canonical form , and denoting their quotient by , we have ; proceeding as in the corresponding case for the cubic , the following equation is obtained , viz. :\mdash ; , and thence , by continued differentiatio1l and substitution , ( 29 ) .
+The determinantal equation which results from the elimination , between these four equations , of the four quantities is the equation required ; it is evidently of the seventh order .
+95 .
+Had the initial quotient relation been taken , the equation in would have been the same as the equation in ; and similarly for an initial relation .
+Hence it is to be inferred that , if be three particular solutions of the -equation , its primitive is 96 .
+In particular , if in the original equation , so that the two priminvariants vanish , the equation which determines is ( 30 ) , the left-hand side of which may be called the quartic quotient-derivative .
+Special solutions of the original differential equation are now so that ; and , therefore , the primitive of the equation ( 80 ) is DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+451 ( 31 ) .
+The generalisation to the case of the equation of order is so obvious as to render it unnecessary to give the forms of the equations explicitly .
+97 .
+Suppose now that three of the quotient-equation equivalent to ( 29 ) are given , as in S95 ; then we have , by the first of those equations , and therefore ' or , what is the same thing , Hence , writing Hence , writin Hence , writin Hence , writin Hence , writin Hence , writin Hence , writin we have constant , sca that we may take ( 32 ) ; and the primitive of the general equation is It is evident that no one of the quantities may be constant , nor may any two of them have a constant ratio .
+98 .
+It has already appeared , in S96 , that , if the two priminvariants vanish , then relations for the transformed , and therefore for the untransformed , equations hold .
+( It should be remarked that these are not the most general pair of quadratic relations ; in fact , interpreted geometrically , they represent a pair of quadrics which by their intersection determine a ortuous cubic .
+) We now proceed to prove the converse\mdash ; that , if two quadratic relations of the oing type hold , then the priminvariants vanish .
+the four solutions of the equation in the form the relations given are equivalent to the new relations When these values are substituted in , it becomes Since any constant factor may be absorbed into the particular solutions we may take we have When in the latter we substitute , and from the resulting equation we subtract the , multiplied by , the new equation is which , by the substitution of the value of , changes to or , since is not , we have We therefore take ; the four solutions become 1 , ; hence and are both zero , and the priminvariants vanish .
+DERIVATIVES ASSOCIATED WITH LINEAR ]ERENTIAL EQUATIONS .
+45.3 99 .
+In the case of the alternative normal form ( 28 ) for the quartic , the quotientequation is , as before , of the seventh order ; and , if be three special solutions of we have for , and therefore or , since these determinants are independent of , we have a result the same in form as before constant .
+The results for this normal form , which correspond to those given in SS95 , 97 , are the same as are there given .
+100 .
+For both forms it appears that , when the two priminvariants vanish , four solutions are given by ; hence the prirnitive of the equation the priminvariants of which vanish , is where is determined by 101 .
+But , as in the case of the cubic , it was not necessary to know more than a single solution of the quotient-equation in order to obtain more than one solution of the original equation , so in the case of the quartic the knowledge of a single special solution of the quotient-equation , not a constant , is sufficient to give two special solutions .
+For , if be such as to satisfy the quotient-equation , we can from the first three equations of ( 29 ) find t , he value of explicitly and thence ; the value of is then known being .
+Similarly , from a knowledge of two solutions of the quotient-equation , three solutions of the differential equation can be explicitly obtained , and he fourth can be derived .
+A of the Qnartic .
+102 .
+The associate equations are two in number .
+One of these has a dependent variable of the type . . . .
+( 33 ) , of which there are four distinct values , so that the equation is of the fourth order .
+The equation is , in fact , by that is , . . . .
+( 34 ) .
+The nts of this are ( a ) ( ) or , since change of sign does not affect the invariantive character , the invariants for the adjoint equation are the same as for the original equation . .
+The other of the associate equations has a dependent variab ] of the type . . . . .
+( 35 ) , of which there are six linearly distinct values , connected .
+however , by a permanent bilinear relation For the variable given by ( 35 ) and the quantities as satisfying ( 27 ) , it is easy to prove that , and thence that DERIVATIVES ASSOCIATED WITH LINEAR NTIAL EQUATIONS .
+455 104 .
+In the case when the invariant vanishes , so that the quartic is canonically binomial , the equation in is linear and of the fifth order only , *being and there is , therefore , a linear homogeneous relation among the six quantities The constants in this relation depend partly on the choice of the fundamental system of integrals , partly on the invariant , ; e.g. , for the equation we may take \ldquo ; where the indices all being roots of ; and the linear relation is then Multiplying the equation by , it can be integrated once , with the result where A is a determinate constant .
+This constant depends , like those before , partly on the choice of fundamental integrals and partly on the invariant ; and it changes from one quantity to another .
+Recurring to the particular example , we have say ; and , substituting , we find $ HALPREN , 'Acta Math vol. 8 , p. 329 .
+or , Similarly , we should find 105 .
+In the case of the general quartic ( for which does not vaalish ) the differential equation for is ; or , expanded and rearranged , it is When the covariants and are introduced , this is ( 36 ) .
+106 .
+A first inference from this equation ( 36 ) is that where is a determinate constant depending on the selection of the original funda mental system of integrals .
+107 .
+Next , the substitution ( 37 ) changes ( 36 ) into ( 38 ) , where , after long and laborious analysis depending largely upon continued application of the theorems of Section IIL as to the values of the successive derived invariants , it may be proved that DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL .
+457 Let the priminvariants of this associate sextic be denoted by ; and let the Jacobian proper covariant of the quartic\mdash ; be denoted by .
+Then for we have ( 39 ) , that is , is an invariant of the original quartic .
+Again , we have by ( 15 ) of S22 the invariant given by for in the present case ; and it is not difficult to prove that , when the foregoing values of are substituted , the value of is ( 40 ) .
+I give below the values of and , founded on ( 16 ) and ( 17 ) of SS23 , 24 ; the analysis is long for each of them , but , as it is of a character precise]y similar to that for , it is not reproduced here .
+The value of is ( 41 ) , and the value of is MR. , B. FORSYTH ON INVARIANTS , COyARIANTS , AND QUOTIENT\mdash ; . . . . .
+( 42 ) .
+These values show that all the priminvariants ( and therefore all the derived invariants ) of the associate sextic are included in the invariants of the original quartic ; and since the variable of the sextic is covariantive , and is among the covariants of the given equation , it follows that all the covariants , identical and mixed , of the associate sextic are composed of covariants and invariants of the original quartic .
+Hence , the theorems are verified for the lin ear quartic .
+108 .
+There are many other equations possessing coyariantive properties similar to those in the associate variables ; among such equations are those , for instance , which have their dependent variables composed of one or more than one of the aggregate of dependent variables , original and associate .
+Thus the equation , which has for its dependent variable the square of the dependent variable of the equation of order ? ?
+, is of order , and all its invariants are invariants of the original equation ; and the reduction of such an equation , when obtained , to its canonical form will be very similar to the reduction to its canonical form of the associate equation which has , for its dependent variable , the variable associate of the first rank of the equation of order .
+Thus , for instance , if we write where it is easy to prove that the equation in is ; and the verification that the priminvariants ( and therefore all the concomitants ) of this equation are included among the invariants of the quartic would proceed on lines very similar to those of the verification for the quartic .
+109 .
+For the general differential equation of order , the equation satisfied by the quotient of two solutions is of order ; a knowledge of special solutions .
+, gives the primitive in the form and leads to the derivation of particular solutions of the original differential equation in the form where DERIVATIVES ASSOOIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+459 And in the case when . .
+the degenerate form of is easily proved to be .
+so that we may take As in SS 87 , 98 , it would be proved that and that all the priminvariants vanish .
+It is not proposed to consider here what are the possible methods of forming for the general equation of order the a , ssociate equations in the different variables , nor therefore to verify , as was done in S 107 for the quartic , the general theorems enunciated in S62 .
+SECTION The Derivatives of Odd Order .
+110 .
+Writing down the series of quantities with binomial numerical coefficients and forming determinant squares as above , viz , the first element of the first line only ; the first two elements of the two lines after bhe first one ; the first three elements of the three lines after the first two ; the first four elements of the four lines after the first three ; and so on , we obtain the series of quotient-derivatives connected with the linear equations of successive orders .
+The first*of these functions , viz. , , is the linear quotient-derivative ; in conformity with the notation used for the remaining functions , it will be denoted by Then ( 43 ) is the differential equation satisfied by the quotient of two solutions of the equation and the primitive of the equation ( 43 ) is ( 43 ) where A and are constants .
+The second of these functions , viz. :\mdash ; is the quadratic quotient-derivative ( S87 ) ; it will be denoted by .
+Then . . . . . .
+( 44 ) is the differential equation satisfied by the quotient of two solutions of the equation and the primitive of the equation ( 44 ) is , where the coefficients A and are constants .
+The third of these functions , viz. :\mdash ; * This function is inserted merely to make the enumeration complete .
+DERIVA TIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+461 is the cubic quotient-derivative ( S87 ) ; it will be denoted by .
+Then . . . . . . . . . . .
+( 45 ) is the differential equation satisfied by the quotient of two solutions of the equation and the primitive of the equation ( 45 ) is , where the quantities A and are constants .
+Similarly , in general , the nth of these functions is the ntic quotient-derivative , which will be denoted by .
+Then . . . . .
+( 46 ) is the differential equation satisfied by the quotient of two solutions of the equation and the primitive of the equation ( 46 ) is , where the quantities A and are constants.* The equation ( 46 ) is of order , of course non-linear , though it is of the first degree ; its primitive involves effectively 2 arbitrary independent constants .
+111 .
+In the case of the quadratic derivative , the primitive of the equation ( 44 ) , obtained by equating the derivative to zero , is symmetrical function of the variables in and .
+Regarded in.this light , the variables in the equation may be interchanged , so that the equation implies the equation * This result was given by CAPT .
+MAcMAHON in a note , unknown to me at the time of reading of this memoir , in the ' Philosophical Magazine ' for June , 1887 , p. 542 .
+and the one derivative is a factor of the other ; in fact , we have the relation On account of this property the function is called by SYLVESTER a reciprocant .
+In the case of derivatives associated with equations of order higher than the second , the primitive of the differential equation , which is obtained by equating the derivative to zero , is not symmetrical in regard to the dependent and independent variables ; they may not therefore be interchanged , and hence these derivatives are not reciprocants of any of the known types .
+It is elsewhere*shown that the connexion between the two classes of functions is constituted by the propert , that the quotient-derivatives are combinations of homographic reciprocants , such combinations being , however , i]legitimate for the preservation of reciprocal invariance .
+of the 112 .
+By means , however , of the primitives of the derivative equations , relations are easily obtained which suggest some of the transformations of the derivatives .
+For , taking the most general change possible , viz. , of both the dependent and the independent variables , suppose ( i ) that and are connected by the equivalent relations ( 46 ) and , ( ii ) that and are connected by the equivalent relations and and ( iii ) that and are connected by the equivalent relations and Then the algebraical relation between and is where ; and the differential relation is consequently * Homographic Invariants and Quotient-Derivatives.\ldquo ; 'Messenger of Mathematics , ' vol. 17 , 1888 , pp. 154-192 .
+DERIVATIVES ASSOCIATED WITH LINEAR NTIAL EQUATIONS .
+463 Hence we have the result that , if then where .
+113 .
+But , on the other hand , while the algebraical relation between and involves the proper number of arbitrary constants , they are not in general equivalent to independent constants ; for , by the method of construction of all the constants which enter into its expression are composed of the other independent arbitrary constants , a number in general less than .
+There is therefore not , in general , a justification for an extension of the result so as to include its converses in the form that , if any three of the derivative equations be satisfied , the fourth is satisfied ; and it is only when there are certain coefficient-limitations on the form of as an algebraical function of that the converse can be asserted .
+An illustration will be given in S 118 .
+114 .
+The simplest case which occurs is that in which and ; for then , and the deduction to be made is that , if then where , . .
+, are constants .
+The converse is also true ; for in homographic transformations an interchange of the transformed variables leaves the functional character of the transformation unaltered .
+Since then these homographic transformations do not alter the order of the derivative equation , we are led to investigate the modification caused by them in the derivative itself .
+Considering then , the ntic derivative , let us find the effect of a homographic change of the independent variable given by , in CAYLEY'S notation .
+Now , as in S11 , we have where coefficient of in . . . . . . .
+in ; so that , writing and we have Hence 115 .
+The method of reduction of the determinant transformed by the substitution of this last relation is conveniently indicated by the reduction of the cubic derivative .
+Denoting , . .
+as before by , . .
+and dsldx , , . .
+by , . .
+, we have Multiply the second and third columns by and respectively and add to the first , choosing and so that and no longer occur in the first constituent of that column ; it wil ] be found that and have disappeared from the other constituents .
+The value of is , of is .
+Multiply the third column by and add to the second , choosing so that no longer occurs in the first constituent of the new second column ; it will be found that , for the value of of has disappeared altogether ffom the second column ; and we have DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+465 Treating the rows of the new determinant iri the same way as the columns of the old were treated , we find In the right-hand side a factor can be taken from the first column , from the second , from the third ; and then from the first row , from the second , from the third , giving as the power of the sum ; so that or ( 47 ) .
+116 .
+The result of the reduction of the ntic derivative is ( 48 ) .
+The method is similar to that used for the cubic derivative .
+Thus the numerical factors which determine the algebraical muItiples of the second , third , fourth , .
+columns , to be added to the first in order to remove all differential coefficients of order lower than , are respectively , , . .
+; the numerical factors which determine the algebraical multiples of the third , fourth , fifth , .
+columns , to be added to the second in order to remove all differential coefficients of order lower than , are respectively , , , .
+; the numerical factors which determine the algebraical multiples of the fourth , fifth , sixth , . .
+colurnns , to be added to the third in order to remove all differential of order lower than , are respectively , , . .
+; the corresponding multipliers for the modification of the fourth column are , , , . . .
+; and so on .
+117 .
+By somewhat similar work it may be proved that ( 49 ) , and the combination of ( 48 ) and ( 49 ) gives which is the formula of transformation for the simultaneous homographic transformation of the dependent and the independent variables .
+118 .
+The following simple case wiIl sufficiently serve to illustrate the kind of limitation , which prevents the converse of the proposition of S 112 from being , in general , true .
+From the general proposition it follows that if and , x$0 , then The question then arises : What are the conditions to be satisfied in order that may be a necessary consequence of and Taking the two latter as given , we may replace them by an integral algebraical equation : . . . . .
+( 50 ) , the two fractions being the values of , corresponding to the two derivative equations .
+And , if it is to be necessary that then this algebraical equation ( 50 ) must be equivalent to one or more equations of the form ( 51 ) Hence , when the value of given by ( 51 ) is substituted in ( 50 ) , it must become an identity ; the conditions for which are DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+467 six equations , apparently , and really five equations involving the ratios of the four quantities , S , so that two conditions must be satisfied among the constants of equation ( 50 ) .
+We at once find , and therefore the two necessary conditions are Assuming these conditions to be satisfied ) denoting the common value of the three functions by , we have To find the value of the ratios : : Swe write , @ , so that are the quantities to be determined .
+The first of them can at once be obtained from ; and the second from .
+From the first three equations we have for any value of .
+It follows that ; and similarly from the second three that [ It may be remarked that these are the types of the equations which would have been obtained if substituting for in terms of from ( 51 ) had taken place in ( 50 ) ] .
+Hence is determined by It may be noticed , though the fact is not directly connected with the present investigation , at the equation ( 50 ) is , if rendered a non-fractional equation , apparently the most general quadrato-quadratic relation between and .
+But , as a matter of fact , in order that the most general quadrato-quadratic relation of the form may be expressible in the form ( 50 ) , the condition must be satisfied .
+The proof of this is easy , as is likewise the verification that the coefficients of the non-fractional equivalent of ( 50 ) satisfy the condition .
+Derivatives of Even Order .
+119 .
+All the derivatives which have hitherto occurred have had the order of the highest differential coefficient of the dependent variable entering into their expression an odd integer , and the reason of this is that the dependent variable is the quotient of two solutions of a linear differential equation having its right-hand member zero , so that each solution contains implicitly in homogeneous form arbitrary independent constants , and the quotient of the two therefore implicit]y contains arbitrary independent constants .
+Hence the differential equation satisfied by the quotient is of order But , if we take the quotient of two solutions of the equation ( where is not zero ) , these solutions are no longer linearly homogeneous in the implicit constan.ts , and the quotient will therefore contain implicitly independent arbitrary constants .
+Hence the quotient-equations will be of even order ; and likewibe the quotient-derivatives , if they exist .
+DERIVATIVES ASSOCLATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+469 By the transformations of S11 the foregoing equation becomes where and , in order to make the term in disappear , the relation has been adopted ; hence we have The variable is at our disposal ; and , though in the general theory a choice of fundamentally more effective than the can be made ( as was done in SS29 , 30 ) , yet , our present aim being the deduction of the quotient-derivatives , we shall here assume that is so chosen as to make V a constant , a choice which appears to render most simple the required deduction .
+We then have and the equation takes the form Let be the quotient of two solutions , say and , of this differential equation , so that Then the differential equation satisfied by is of order ; and it can be obtained in a manner similar to that employed in SS85 , 94 .
+The quotient-derivatives will be obtained for correspondingly limited forms of differential equations , viz. , those in which tho left-hand side is constituted by a single term , which is that of highest order in the differential nt .
+120 .
+I.\mdash ; For the equation of the first order we have , since , the equation or Differentiation of this gives ; hence or , if we take a new variable , this may be written ( 52 ) .
+Now from the original equation we have at once and therefore ; this relation , in which A and ( and from the point of view of ( 52 ) also ) are arbitrary constants , is the primitive of the equation ( 52 ) .
+It evidently contains two independent arbitrary constants .
+The linear derivative was , being connected with the linear equation ; the new derivative which is connected with the less simple form of linear equation , will be called the hyperlinear derivative .
+121 .
+Bxample II.\mdash ; For the equation of the second order we at once have , by double differentiation of the equation , the relation Successive differentiations of this and substitution for give RIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+471 Hence the equation satisfied by is The quotient-derivative for the present case\mdash ; it will be called the hyperquadratic derivative\mdash ; is obtained by selecting from the left-hand side of the quotient-equation the terms independent of and and by writing for ; thus it is ; and then . . . . .
+( 53 ) is the.quotient-equation when is zero .
+But in that case where , so that , where , from the point of view of ( 53 ) , are arbitrary constants , is the primitive of ( 53 ) , containing four independent arbitrary constants .
+122 .
+Proceeding in this manner we obtain for similar linear equations of successive order a series of derivatives in each of which the order of the highest differential coefficient entering is an even integer ; and their form is indicated in the following scheme , similar to that of S110 .
+The hyperlinear derivative is obtained by forming the indicated determinant from the first two elements of the first two rows ; the hyperquadratic derivative is similarly obtained from the first three elements of the three rows after the first ; the hypercubic derivative similarly from the first four elements of , , , the four rows next after the first two ; and so on .
+And the primitive of the hyper-ntic derivative equation . . . . .
+is .
+, where from the point of view of the derivative equation ( 54 ) the constants are arbitrary .
+Relation between the Derivatives of Even and of Odd Order .
+123 .
+In the integration of the derivative equations the following connexion between the two sets of derivatives is of interest .
+Let be the equation in the derivative ofodd order , , and the equation in the hyper-ntic derivative of even order ; their pnmitives are of the form and DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+473 respectively , where all the constants are arbitrary .
+Hence , from the point of view of an integral equation , we may write where , and so is an arbitrary constant .
+It therefore follows that is a general first integral of Again from the point of view of an integral equation , the value of , being , so that it is an arbitrary constant ; hence is a general first integral of Combining these results , we see that is a general second integral of where Similarly is a general fourth integral of the same equation , where ; and so on .
+Similar results are obtainable for the equation which involves the derivative of even order .
+SECTION VIII .
+CHARACTERISTIC EQUATIONS SATISFJED BY CANONICAL FORMS 0F INVARIANTS AND COVARIANTS .
+Reproduction of Form . .
+When the differential equation of order is taken in its canonical form and is tl.ansformed so as to have a new dependent variable and a new independent variable , then , from the investigation in S12 , it folows that , if we take ( 55 ) , the new equation will be without the term in ; and , from the investigation in S30 , it follows that , if be determined by the equation the new equation will be without the term in , that is , the new equation is in its canonical form .
+The last equation gives ( 56 ) , where are the constants ; and the equations ( 55 ) and ( 56 ) give the relations by which a canonical form of differential equation can be transformed into a canonical form .
+125 .
+As we are proceeding to investigate , by the method of infinitesimal variation , the partial differential equations which are satisfied by the concomitants in their normal forms , it will be convenient to adopt the process of S19 and make nearly equal to Thus , taking in ( 56 ) the determining conditions , where is so that its square may be neglected , we have DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+475 and all higher derivatives are zero to the order of small quantities retained .
+We now have . . . .
+( 57 ) .
+Now , by S114 , it follows that for the relation ( 56 ) , where , in the present case , and Hence , to the order of small quantities retained , it is necessary to consider on the right-hand side of the transforming formula only the terms arising from , and ; and thus Applying these equivalent operators to ( 57 ) , we have ( 58 ) .
+Similarly , if be the associate variable of rank and index , and if be the same transformed associate , we have ( 59 ) .
+Again , if be an invariant of index , and if be its transformed value , so that , we have ( 60 ) .
+126 .
+Now , in discussing invariants and covariants in their canonical forms as solutions of partial differential equations , we may , so far as they are functions of the coefficients of the original differential equation , cease to consider them as explicit functions of these quantities , and can consider them as functions of the priminvariants and of ential coefficients of the priminvariants ; for each of the coefficients can be expressed uniquely in this last form .
+Thus we have and so on .
+Form-Equation of 127 .
+We may therefore define the most general covariant possible when in its canonical form as a function of ( i ) the dependent variables , original and associate , and of their differential coefficients , and of ( ii ) the priminvariants and their differential coefficients , which is such that , when the same function is formed for the transformed differential equation in its canonical form , the relation ( 61 ) is satisfied , being the index , and the bracketted numerical exponents denoting differentiation of corresponding order with regard to the respective independent variables .
+128 .
+As an example , sufficiently indicative of the general case , consider identical covariants which are functiona of and its derivatives alone , so that we may write .
+DERIVATIVES WITH LINEAR EQUATIONS .
+477 Substituting for , . . .
+from ( 58 ) , .and expanding with a retention of terms up to the first order , we have , as the additive part of which is given by those terms arising in connexion with Combining these and comparing the two sides , we find that the finite term on each side is ; and the remaining conditions therefore are Reverting to the original variables and , we may write these equations in the forms ( 62 ) .
+The latter of these two equations determines the form of a covariant ; the former determines its index 129 .
+The process of obtaining the differential equations satisfied by the function of ( 61 ) is similar to the foregoing ; and the result of the work is that the general concomitant of index satisfies the equation ( xxvi .
+) , which may be called the index-equaf , ion , and also satisfies the equation ( xxvii .
+) , which may be called the form-equation .
+The equations ( 62 ) are at once seen to be particular cases of ( xxvi .
+) and ( xxvii .
+) for concomitants , which involve and its derivatives alone .
+For the identical covariants in each of the associate triables there are pairs of equations exactly similar to ( 62 ) ; and the equations which determine the invariants are ( 63 ) .
+130 .
+The index-equation involves operations the only effect of the apphcation of which is a change in the numerical coefficients of the various terms in the concomitant to which they are applied .
+The form-equation involves operations which replace any derivative of an element of the function by the derivative of that element of order next lower ; and , if the aggregate of the orders of the various derivatives entering into the composition of any term be called the of that term , the effect of the operations in the form-equation is to replace such a term by a set of terms of grade less by unity .
+From the facts that both the characteristic equations satisfied by a concomitant are linear and that the algebraico-differential operations which occur in them leave a term unaltered in order in the variables and degree in the invariants , coupled with the preceding conclusion as to the modification of the grade of the term , we can derive the inference that every concomitant , if not irreducible , can be resolved into sums and products of irreducible concomitants each of which has the property of being an aggregate of terms such that , for the aggregate , the orders of the different terms in the dependent variables are separately the same throughout , the degree in any invariant is the same throughout , the dimension-number for every term is the same , and the grade of every term is the same .
+For instance , is a concomitant of index ; the different terms are resoluble into products of concomitants each of which has the preceding properties .
+Hence for every irreducible concomitant there are three kinds of numbers which are characteristic , viz. , the separate orders in the different dependent variables , the separate degrees in the different invariants , and the grade of the concomitant ; and a knowledge of these numbers gives the dimension-number , and thence the index , of the concomitant .
+Applications of the Equations .
+131 .
+I.\mdash ; The identical covariants which functions of In order to obtain all such identical covariants , it is necessary to obtain the most iRlVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+general solution of the equations ( 62 ) .
+For this purpose , proceeding by the ordinary method , we have to obtain a series of integrals of the subsidiary equations Now integrals of these are so that by the theory of partial differential equations the most general of the form-equation in ( 62 ) is function of The number of independent integrals of the subsidiary equations necessary for the construction of this most general solution is the same as the highest order of differentiation that occurs ; of the integrals when freed , by means of preceding from all but one of its arbitrary constants itself furnishes a solution of the formequation\mdash ; a conclusion from the ordinary theo1y of partial equations of this type .
+With each new derivative of of higher order supposed to occur in the concomitant , there is a new subsidiary equation ; and consequently a single new integral is which must of course include in its expression this new derivative .
+The earlier investigations show how to such a function ; for , by taking the Jacobian of and the derived covariant what has hitherto been the derivative of highest order , we obtain a fumction which involves the new derivative , is invariantive , and so will furnish the new integral of the subsidiary equations .
+It thus appears that any identical covariant which involves at the highest the derivative of can be expressed in the form ; and , as this result is true for all the values of that can occur , we the conclusion that the series of successive covariants already given is a complete series , that is , any identical covariant can be expressed as an algebraical function of terms of the series .
+132 .
+These fundamental functions of the series which come after are not , however , in their simplest form ; they can be replaced by others , necessarily their algebraical equivalent and involving the proper derivatives of , but of lower order in the variables .
+In fact , if the grade of the fundamental covariant be an even integer and equal to , the covariant may be taken in the form ; the tution of this quantity , which must be a solution of the differential formequation , leads to the condition so that ! ! ! !
+' since is unity ; and this is true for , 2 , . .
+, , so that is determinate and can replace .
+For instance , and this is functionally the same as reduced , for it is easy to verify that The index of is evidently , which should , therefore , be the value of in the index-equation of ; and the substitution of and comparison of coefficients of gives which is true for all values of , so that this value of the index-equation is satisfied .
+133 .
+But when the fundamental covariant is to involve an odd derivative of as its highest , so that the grade is to be an odd integer , say ( which is the case with ) , we may not take to be of order in so low as the second ; for , with an arrangement of terms similar to that in , the last of them would be of the type .
+When substitution takes place in the form-equation , this term gives rise to a term which will not occur in connexion with any other term in , and , therefore , for the satisfaction of the equation , would have a vanishing numerical coefficient .
+The other numerical coefficients would similarly vanish , and the assumed form of would be evanesoent .
+The simplest of is one which is of the third order in , being a numerical multiple of the Jacobian of and ; we take as this form .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+481 This is an invariant , and so is a solution cf the equation ( as will be verified immediately in connexion with a cognate case ) ; and it involves the derivation of As the function next in succession we take , which has already been found .
+It is not difficult to see that differs from by a resoluble function .
+Replacing now the quantities , . .
+by the functions , we can enunciate the result of S131 in the form : Every identical covariant , which is a function of and its derivatives alone , can be expressed as an algebraica ] function of , .
+134 .
+Example II.\mdash ; The derived riants which are functions of The form-equation for these invariants is ; and in order to obtain the most general solution of tlus equation it is necessary to obtain a proper number of integrals of the associated subsidiary equations Integrals of these involving derivatives of in successive orders are When we proceed to construct the general solution of the equation by modifying these integrals so that each may contain only a single constant , the right-hand sides are the successive invariants derived from , or are a]gebraically equivalent to them ; and thus the required general value of is function of The derived invariants , which arise in successive formation after , are not in their simplest forms ; they can be reduced in a manner similar to that adopted for the reduction of the identical covariants .
+They form , however , a complete series of functions , that is , any invariant which is a function of and derivatives of can be expressed algebraically in terms of the elements of the complete series .
+As in preceding case of identical covariants , the derived invariant is of even grade ; and the invariant , can be replaoed by ( which is functionally equivalent to it ) , where . . . . .
+the coefficients , .
+, being given by the equation The derived invariant is of odd grade ; and the simplest functional equivalent is an invariant of the third degree in given by Similarly for the derived invariants which are functions of and its derivatives alone .
+The simplified functional equivalent of is where ; and the corresponding simplified functional equivalent of is So far as regards the index-equation , the first of ( 63 ) , for these functions , we at once have , after substitution , the value for in connexion with and the value for in connexion with It has been assumed in both of these examples that the Jacobian is an invariant ; it is interesting to verify this in connexion with the differential equations .
+135 .
+Exarnple III.\mdash ; The of derived invariant and the priminvariant .
+Let be a derived invariant of , and therefore a function of , and its differential coefficients alone ; let be the degree of in , and let be its grade .
+Then the index of is DfiBIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL TIONS .
+' Let denote the operator of the form-equation , so that ( 64 ) ; and let denote the operator of the index-equation so that . . . . . . . .
+( 65 ) .
+Since is homogeneous of degree in the quantities , we have When this is multiplied by , and subtracted from ( 64 ) , then ; so that , if we denote by the operator we have ( 66 ) , which may be called the grade-equation of 136 .
+Denoting by the Jacobian of and , we have The index of is , so that it has to be shown that satisfies the two equations ; and it follows from these that For the first of these equations , we have , and therefore .
+But , by ( 64 ) , and , therefore , and so on .
+Hence , We now have . . .
+( 67 ) .
+and so that and therefore satisfies the form-equation .
+Again , DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+485 Now , by ( 65 ) , so that and , therefore , for all values of Hence , . . . . . . . . .
+( 68 ) .
+We now have and therefore satisfies the index-equation .
+The fact that the invariant satisfies the form-equation is the justification of the statement made earlier ( S131 ) , that the application of the Jacobian operation enables us to obtain the successive integrals of the subsidiary equations necessary for the construction of the general solution .
+Functional Completeness of the Set of Concomitants .
+137 .
+A set of concomitants will be considered functionally complete when any concomitant whatever can be expressed as an algebraical function of members of the set ; and this we shall prove to hold of the aggregate of invariants and covariants which been obtained in Sections II .
+, III .
+, V. Let a concomitant have as elements entering into its expression , . .
+, , where is less than . . .
+, , for values 2 , 3 , . .
+, of , where is less than , . .
+, , for values 3 , 4 , . .
+, of ) there is no restriction on the value of .
+Such a concomitant satisfies a formequation given by ( xxvii .
+) ; the equation ( xxvi .
+) is satisfied when the form of is known , the index alone being therefrom determined .
+Now , in the form-equation the number of partial differential coefficients of ( including , .
+, , .
+, , .
+, which do not explicitly occur , but which may be considered as present with zero algebraical coefficients ) is the terms implying differentiation dependent on . . . . . . . . . . . . .
+Hence the total number of partial differential coefficients of is ; all the partial differential coefficients in the , with regard to quantities other than those supposed to occur in , vanish .
+In order to obtain the most general solution possible as a value of involving the quantities which occur , we form , according to the usual rule , the necessary subsidiary equations by means of fractions involving differentials ; the number of these fractions , excluding the fraction , is the same as the number of partial differential coefficients of in the linear equation , and , therefore , the number of independent subsidiary equations , being one less than the number of fractions , is To construct the general function we therefore require independent integrals of these subsidiary equations .
+Now of invariantive functions , which have the properties of bein independent of one another and of involving in the aggregate all the specified quantities and individually at least one of the quantities , and from each of which , on account of these properties , independent integrals of the present subsidiary equations can be constructed after the manner of SS131 and 134 , we have the following : DERIVATIVES ASSOCIATED WITH LINEAR NTIAL EQUATIONS .
+487 ( i ) The identical covariants in , giyen by , . .
+, ( or their functional equivalents , reduced as in SS 132 , 133 ) .
+( ii ) The identical covariants in , given by , . .
+, , ( or their similarly reduced functional equivalents ) .
+This is the case for each of the associate variables , . .
+, ( iii ) The derived invariants involving alone and given by ,1 , , . .
+, .
+This is the case for each of the priminvariants .
+, ( iv ) The mutually independent bilinear Jacobians ; as a set of algebraically independent functions , retained after the indications of SS36 , 72 , we take the Jacobian of with each of the quantities , . .
+, .
+, .
+The total number of these is , i.e. , it is Hence the total number of algebraically independent concomitants , involving the specified quantities and obtained by our earlier methods , is ; and from each of them an integral can be constructed , which is independent of ] the other integrals .
+From the first three of the classes we have already had examples of the method of construction of integrals ; as an example of the last class , we may take the subsidia , ry equation Previous integrals are , so that an integral of the equation which appears is that is , or , what is the same thing , It may also be remarked that , while the class ( i ) of functions constitutes the set of integrals derived from the fractions alone in the subsidiary equations , the class ( ii ) constitutes the separate sets from the fractions in each of the other associate variables taken individually and alone , and the class ( iii ) constitutes the set from the .
+A. R. FORSYIH ON lNVARIANTS , COVARIANTS , AND QUOTIENTfractions in the priminvariants alone , the part played by the class ( iv ) is in making equal to one another the individual fractions in these three principal sets .
+We thus have , by means of the functions previously obtained , the full number of subsidiary integrals necessary to construct the most general solution of the formequation ; and it follows that any concomitant can be algebraically expressed in terms of the concomitants previously given .
+Hence the aggregate of the concomitants ( or their simplified algebraical equivalents ) , btainable by the quadriderivative and Jacobian operations from the priminvariants and the dependent variables , is functionally complete .
+Limitation in the Number of Identical 138 .
+This for particular cases has already ( SS 76-78 ) been indicated ; without entering at present on the details of the general case , it will be sufficient to obtain the general result , which , by means of the result of S 132 , can be simplified .
+In fact , , of grade , can be replaced by a function the first term of which is either or , according as the grade is even or odd ; and our present purpose will be effected by showing that , which will include both cases , is covariantive .
+For , since the differential equation is permanently true , we ] have a covariant , if be a covariant .
+Now , as has been implicitly proved in the last paragraph , this covariant is expressible in terms of invariants and covariants already obtained , the identical covariant of highest grade in such an expression being ; and the expression is therefore an equivalent for .
+On the other hand , viewed as an identical covariant , differs from case even ) by an aggregate of terms each of which can be resolved into factors of lower grade ; and therefore , since the aggregate is covariantive , on the hypothesis of the covariantive property of , it is expressible in terms of identical covariants of lower grade .
+comparison of the two expressions thus obtained for gives in terms of covariants of lower grade , so that , is reducible ; and all succeeding identical covariants are also reducible .
+DERIVATIVES ASSOCIATED WITH LINEAR DIFFERENTIAL EQUATIONS .
+489 It is necessary , then , to show that is covariantive ; if it be so , it must have its index equal to , and so the relation must be satisfied .
+Now , by ( 58 ) , we have and therefore , by ( 57 ) , showing the covariantive nature of the function .
+A similar conclusion as to limitation of number holds with regard to the identical covariants in the associate variables .
+.\mdash ; A.
+

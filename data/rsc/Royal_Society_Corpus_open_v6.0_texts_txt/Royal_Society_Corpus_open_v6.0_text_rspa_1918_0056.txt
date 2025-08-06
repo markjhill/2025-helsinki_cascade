@@ -1,0 +1,137 @@
+]\gt ; On the Coefficients in the Expansions of Certain Moclular Functions .
+By G. H. HARDY , F.R.S. , and S. RAMANUJAN , F.R.S. ( Received July 2 , 1918 .
+) 1 .
+A very large proportion of the most interesting arithmetical functions \mdash ; of the functions , for example , which occur in the theory of partitions , the theory of the divisors of numbers , or the theory of the representation o.f numbers by sums of squares\mdash ; occur as the coefficients in the expansions of elliptic modular functions in powers of the variable .
+All of these functions have a restl'icted region of.existence , the unit circle being a " " natural boundary\ldquo ; or line of essential singularities .
+The most important of them , such as the functions* are regular inside the unit circle ; and many , such as the functions and , have the additional property of having no zeros inside the circle , so their reciprocals are also regulal ' .
+In a series of recent we have applied a new method to the study of these arithmetical functions .
+Our aim has been to express them as series which exhibit explicitly their order of magnitude , and the genesis of their irregular variations as creases .
+We find , for example , for , the * We follow , in general , the notation of Tannery and Molk 's E16ments de la theory des fonctions elliptiques .
+' Tannery and Molk , however , write 16 in place of the more usual G. H. Hardy and S. Ramanujan , " " Un formule asymptotique pour le nombre des partitions de ' Comptes Rendus , ' January 2 , 1917 ; G. H. Hardy and S. Ramanujan , " " Asymptotic Formulae in Combinatory Analysis ' Proc. Londou Math. Soc ( 2 ) , vol. 17 , pp. 76-115 ( 1918 ) ; S. Ramanujan , " " On Certain Trigonometrical Sums and their Applications in the Theory of Numbers ' Trans. Camb .
+Phil. Soc vol. 22 , pp. 259-276 ( 1918 ) ; G. H. Hardy , ( On the Expression of a Number as the Sum of any Number of Squares , and in Particular of Five or Seven 'Proc .
+National Acad. of Sciences , ' 4 , pp. .
+fficients in the Expansions of Certain Functions .
+145 number of unrestricted partitions of , and for , the number of representations of as the sum of an even number of squares , the series where ) and ) , and ; ( 1 , and our methods enable us to write down similar formulae for a very large variety of other alithmetical functions .
+The study of series such as raises a number of interesting problems , some of which appear to be exceedingly difficult .
+The first purpose for which they are intended is that of obtaining approximations to the functions with which they are associated .
+Sometimes they give also an exact representation of the functions , and sometimes they do not .
+Thus the sum of the series is equal to if is 4 , 6 , or 8 , but not in any other case .
+The series enables us , by stopping after an appropriate number of terms , to tind approximations to of quite startling accuracy : six terms of the series ooive , a number of 13 figures , with an error of .
+But we have never been able to prove that the sum of the series is exactly , nor even that it is convergent .
+There is one class of series , of the same general character as or , which lends itself to comparatively simple treatment .
+These series arise when the generating modular function or satisfies an equation , where is a positive integer , and behaves , inside the unit circle , like a rational function ; that is to say , possesses no singularities but poles .
+The simplest examples of such functions are the reciprocals of the functions ( 1 , 3 and .
+The coefficients in their expansions are integral , but possess otherwise no particular arithmetical interest .
+The results , however , are very remarkable from the point of view of and it is , in any case , well worth while , in view of the many arithmetical applications of this type of series , to study in detail any example in which the results can be obtained by comparatively simple analysis .
+We begin by proving a general theorem ( Theorem 1 ) concerning the expression of a modular function with poles as a series of partial fractions .
+146 Messrs. G. H. Hardy and S. amanujan .
+Coefficients in the This series is ( as appears in Theorem 2 ) ' Poincar6 's series\ldquo ; : what our theorem asserts is , in effect , that the sum of a certain Poincare 's series is the only function which satisfies certain conditions .
+It would , no , be possible to obtain this result as a corollary from propositions in the general theory of automorphic functions ; but we thought it best to give an independent proof , is interesting in itself and demands no knowledge of this theory .
+2 .
+THEOREM T.\mdash ; Suppose that regula : for , has no ularities save poles ?
+oithin the ?
+mit cirde , and satisfies the functional being a vositive integjrintegers such that ad-bc Therb is a of at a pole of , if if the sum of the scries ( 2 , is The proof requires certain geometrical preliminaries .
+3 .
+The half-plane , which corresponds to the inside of the circle in the plane of , is divided up , by the substitutions of the modular boroup , into a series of triangles whose sides are arcs of oircles and whose angles are , and One of these , which is called the polygon , has its vertices at the points , and .
+, where and its sides are parts of the unit circle and the lines Suppose that is the 'Farey 's series ' of order , that is to say the aggregate of the rational fractions between and 1 , whose denominators are not greater than , arranged in order of magnitude , that and where , are two adjacent terms the series .
+We shall consider what regions in the -plane correspond to in the -plane , when It is for many purposes necessary to divide each triangle into two , whose angles are , and ; but this further sub-division is not required for our present purpose .
+For the detailed theory of the modular gronp , see Klein-Fricke , ' Vorlesungen iiber die Theory der Elliptischen Modulfunklionen , ' 1890-1892 .
+fig. 1 .
+first and last terms are 0/ 1 and 1/ 1 .
+A brief account of the properties of 's series is given in S4 , 2 of our paper ( 2 ) .
+Expansions of Certain Modular Functions .
+Both of these substitutions belong to the modular group , since The points , in the -plane correspond to FIG. 1 .
+in the -plane .
+Thus the lines R(T)S , correspond to semicircles described on the segments .
+respectively as diameters .
+Similarly the upper half of the unit circle corresponds to a semicircle on the segment The polygon corresponds to the region bounded by these three semicircles .
+In particular , the right-hand edge of corresponds to a circular arc stretching from ( where it cuts the real axis at right angles ) to the point corresponding to Similarly we find that the substitution correlates to l ) a bounded by semicircles on the segments In particular , the left-hand edge of corresponds to a circular arc from to the point .
+These two arcs , meeting at the point , form a continuous path , connecting and , every point of which corresponds , 148 Messrs. G. H. Hardy and S. Ramanujan .
+Coefficients in the in virtue of one or other of the substitutions and , to a point on one of the rectilinear boundaries of P. * region shaded ontally corresponds to for the substitution , that shaded vertically for the substitution .
+The thickest lines show the path ; the line of medium thickness shows the semicircle which corresponds ( for either substitution ) to the unit semicircle in the plane of T. The large incomplete semicircle passes through Performing a similar construction for every pair of adjacent fractions of , we obtain a continuous path from to .
+This path , and its reflexion in the imaginaryaxis , give a continuous path from to which we shall denote by .
+To corresponds a path in the -plane , which we call is a closed path , formed entirely by arcs of circles which cut the unit circle at right angles .
+Since ' the path from to is always passing from left to right , and its length is less than twice that of the semicircle on , , than .
+The total length of is less than ; and , since the length of is less than .
+Finally , we observe that the maximum distance of from the real axis is less than half the maximum distance between two adjacent terms of , and so less than Hence tends uniformly to the real axis , and to the unit circle , when * Fig. 2 illustrates the case in which .
+These fractions are adjacent in and , but not in See Lemma 4 , 22 of our paper 2 ) .
+Bxpansions of Certain Modular Functions .
+4 .
+The function can have but a finite number of poles in ; we suppose , for simplicity , that none of them lie on the boundary .
+There is then a constant such that on the boundary of P. We now consider the integral where and the contour of integration is .
+By Cauchy 's Theorem , the integral is equal to where is a residue of at a pole of inside To prove our theorem , then , we have merely to show that the integral tends to zero when Let and be the left-and right-hand parts of , and and corresponding arcs of .
+The length of is , as we have seen , less than , and that of than .
+Further , we have , on Thus the contribution of to the integral is numerically less than , where is independent of ; and the whole integral is numerically less than where the summation extends to all pairs of adjacent terms of When is fixed and , the number of terms of whose denominators are less than is a function of only , say .
+If is one of these , and is adjacent to it , and so .
+Thus the terms of in which either or is less than contribute less than .
+The remaining terms contribute less than Hence the sum is less than Strictly speaking , is not defined at the points where meets the unit circle , and we should integrate round a path just inside and proceed to the limit .
+The point is trivial , as , in virtue of the functional equation , tends to zero when approach a cusp of from inside .
+We suppose large enough to ensure that lies inside See our paper ( 2 ) , 150 Messrs. G. H. Hardy and S. Ramanujan .
+Coefficients in the and it is plain that , by choice of first and then , this may be made as small as we please .
+Thus tends to zero and the theorem is proved .
+It should be observed that must , for the present at any rate , be interpreted as meaning the limit of the sum of terms corresponding to poles inside ; we have not established the absolute convergence of the series .
+We supposed that no pole of lies on the boundary of P. This restriction , however , is in no way essential ; if it is not satisfied , we have only to select our\ldquo ; fundamental polygon\ldquo ; somewhat differently .
+The theorem is consequently true independently of any such restriction .
+So far we have supposed .
+It is plain that , if , the same reasoning proves that 5 .
+Suppose in particular that has one pole only , and that a simple pole at , with residue A. The complete system of poles is then given by .
+If and are fixed , and is one pair of solutions of ad\mdash ; bc , the complete system of solutions is , where is an integer .
+To each pair correspond an infinity of poles in the plane of ; but these poles correspond to two different poles only in the plane of , viz. the positive and ative signs corresponding to even and odd values of respectively .
+It is to be observed , moreover , that different pairs may give rise to the same pole The residue of for is , in virtue of the functional equation , ; and the residue of for is Thus the sum of the terms of our series which correspond to the poles is We thus obtain : THEOREM one pole only in , viz. , simple pole at residue , and , then Expans.ions of Certain Functions .
+pair of of ixtcnding over all pairs ( , which giv/ risc to distiJ of .
+If of the is If has several poles in , of course , will be the sum of a number of series such as .
+Incidentally , we may observe that it now appears that the series in question are absolutely convergent .
+6 .
+As an example , we select the function .
+say , where xqS It is evident that is always an integer ; the of the first 13 coefficients are ; so that is a number of 33 ures .
+By means of the formula* , we find that .
+The value of is 6 .
+The poles of correspond to the values of which make equal to , 2 , or 12 .
+It is easily verified that these values are given by the general formula , * All the formulae which we quote are given in Tannery and Molk 's Tables ; see in particular Tables XXXVI ( 3 ) , , XCVI , CX ( 3 ) .
+A full account of the problem of finding when is given will be found in Tannery and Molk , On donne ou ; trouver ou 152 Messrs. G. H. Hardy and S. Ramanujan .
+Coefficients in the so that The value of is In order to determine A we observe that The series in curly brackets is the function called by 1008 where Here , so that Hence we find that where Another expression for is where We have still to consider more closely the values of and , over which the summation is effected .
+Let us fix , and suppose that is a pair of positive solutions of the equation .
+This pair gives rise to a systenl of eight solutions , .
+But it is obvious that , if we change the signs of both and , we do not affect the aggregate of values of .
+Thus we need only consider the four pairs .
+If or is zero , or if , these four pairs reduce to two .
+It is easily verified that , if leads to the pair of poles , It will be observed that in this case is on the boundary of ; see the concluding remarks of S4 .
+As it happens , lies on that edge of ( the circular edge ) which was not used in the construction of , so that our analysis is applicable as it stands .
+S. Ramanujan , " " On Certain Arithmetical Functions .
+Camb .
+Phil. Soc. , vol. 22 , pp. 159-184 ( p. 163 ) .
+Ramanujan , , p. 164 .
+S Ramanujan , , p. 163 .
+Bxpansions of Modular Functions .
+then and each lead to , where is the conjugate of Thus , in general and the solutions derived from it lead to four distinct poles , viz. , and .
+These four reduce to two in two cases , when is real , so that , and when is purely imaginary , so that .
+It is easy to see that the first case can occur only when and the second when If we take ; and .
+If we take ; and .
+The corresponding terms in our series If is greater than 2 , and is the sum of two coprime squares and , it gives rise to terms There is , of course , a similar pair of terms corresponding to every other distinct representation of as a sum of squares .
+Thus finally we obtain the following result : THEOREM \mdash ; If ohere 1480 , is the conjugate of .
+The applies to every pair of coprimw positive numbers and , such that , however , only When and are given , we can always choose and so that If is real , we have and simultaneously : whence If is purely imaginary , we have ad-bc whence This is only possible if and , whence VOL. XCV.\mdash ; A. 154 Coefficients in the nsions of Certain Functions .
+being counted as distinct if they correspond to independent representations of as a sum of .
+If , th the sum of the series is 7 .
+It follows that say .
+Here is the sum of two coprime squares , so that where is or 1 and 5 , 13 , 17 , are the primes of the form ; and the first few values of are , arc tan2 ) , ( arc tan5 ) .
+The approximations to the coefficients given by the formula are exceedingly remarkable .
+Dividing by , and taking , 1 , 2 , 3 , 6 , and 12 , we find the following results : ( 0 ) ( 1 ) ( 2 ) ( 3 ) ( 6 ) ( 12 ) An alternative expression for is by means of which may be calculated with great accuracy .
+* To five places we have , which is very nearly equal to * Gauss , 'Werke , ' vol. 3 , pp. 418-419 , gives the values of various powers of to a large number of figures .
+Light ttered by Gases : its Polarisabion and lntensity .
+155 It is easy to see directly that lies between the coefficients of in the expansions of and so that The function has very remarkable properties .
+It is an integral function of , whose maximum modulus is less than a constant multiple of .
+It is equal to , an integer , when , a positiye integer ; and to zero when But we must reserve the discussion of these peculiarities for some other occasion .
+The Light Scattered by Gases : its Intensity .
+By the Hon. R. J. STRUTT , ] , Professor of Physics , Imperial South Kensington .
+( Received July 5 , 1918 .
+) [ PLATE 2 .
+] S1 .
+xamination of the Scattered liight for ompleteness of Polarisation .
+The present investigation is a development in various directions of that described in ' Proc. Roy .
+Soc , vol. 94 , p. 453 ( 1918 ) .
+It is there shown that the light scattered by air and other gases in the direction perpendicular to the beam is almost completely polarised .
+It is of importance to determine whether or not the polarisation of the scattered light at right angles to the beam is absolutely complete .
+Sky is by no means completely polarised , but in that case the incident is not all in one direction : for , besides direct sunlight , light from other parts of the sky and from the earth 's surface contributes to the scattering from any given element of volume .
+The question is whether , apart from these complications , the polarisation would be complete .
+This cannot be decided by observations on the sky , but the laboratory methods now described allow of its investigation , not only in air , but in other gases also .
+

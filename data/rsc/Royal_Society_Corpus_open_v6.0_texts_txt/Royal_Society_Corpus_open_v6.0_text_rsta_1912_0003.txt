@@ -1,0 +1,304 @@
+]\gt ; [ 75 ] II .
+Memoir on the Theory of the Partitions Numbers.\mdash ; Part V. Partitions in Two-dimensionat Space .
+By Major P. A. MAcMAHON , , D.Sc .
+, F.lt .
+Received December 31 , 1910 , \mdash ; Read lary 2 , 1911 .
+Introduction .
+IN previous I have broached the question of the two-dimensional pal.titions of numbers\mdash ; or , say , the partitions in a plane\mdash ; without , however , succeeded in establishing certain conjectured formulas of enumeration .
+The ' of such partitions are placed at the nodes of a complete , or of an incomplete , lattice in two dimensions , in such wise that descending order of magnitude is in evidence in each horizontal row of nodes and in each vertical column .
+No decided advance was made in regard to the complete lattice , and the qu.estion of the incomplete lattice is considered for the first time in the present paper .
+I return to the subject because I am now able to throw amount of fresh light upon the problem , and have succeeded in most of the difficulties which surround it .
+In fact , I am now to show how the functions may be constructed in respect of any lattice , complete or incomplete , in forms which are free from redundant terms .
+I have not succeeded , so far , in giving a general algebraic expression to the functions , but , in the case of the complete lattice , I have shown that an assumption as to form , consistent with all results that have been arrived at in particular cases , leads at once to the expression that has been for so long the conjectured result .
+For the complete lattice of two rows , and for the incomplete lattice of two rows , the results have been obtained without any assumption in regard to form , and must be regarded as rigidly established .
+Before proceeding to explain the new method of research which enables this paper to make a notable advance , I must hasten to correct an error which I had not detected at the time a former paper was written .
+It will be remembered that partitions in a plane are such that there is a graphical " " Memoir 011 the Theory of the Partitions of Numbers ' Phil. Trans. Roy .
+Soc , 1896 , vol. 187 , pp. 619-673 ; 1899 , vol. 192 , pp. 351-401 ; 1905 , vol. 205 , pp. 37-59 .
+( 473 .
+) 27.4.11 representation by nodes upon a three-dimensional lattice , just as for partitions on a line there is a graphical representation by nodes upon a two-dimensional lattice .
+ft is convenient to replace these nodes by units , and to regard partitions on a line as being in one-to-one correspondence with partitions in a plane when the part magnitude of such is restricted to be not greater than unity ; thus , instead of saying with FERRERS that is a graphical representation of the line partition 321 , I regard the plane partition of units as being in one-to-one COl.respondence with the lin partition .
+Just so the plane partition is graphically represented by piles of nodes perpendicular to the plane of the paper , say or we may replace the nodes by units , and say that it is in one-to-one correspondence with a space partition , the part magnitude being restricted to unity .
+The plane partition arises by projection of the space partition upon one of the co-ordinate planes , just as the line partition arises by projection of the plane partition , with which it is in correspondence , upon one of the co-ordinate axes .
+Every two-dimensional graph of nodes may be interpreted either by rows or by columns , and plane partition of mits may be projected in two ways .
+The graphs in solido admit of one , , three , or six readings .
+In previous papers I omitted to notice that a three-dimensional graph may admit of two readings .
+The omission came to my notice when I was trying to verify that the number of partitions of in the numbers of rows and columns , and also the part magnitude , being unrestricted is given by the coefficient of in the ascending expansion of the algebraic fraction THEORY OF THE PARTITIONS OF NUMBERS .
+I counted , as far as weight 16 , the numbers of the partitions by separately counting those whose graphs possess one , three , and six readings .
+At weight 13 discrepancy appeared , because of that weigt there are only two graphs which have one reading , and , on the assumption that the remaining graphs could be read in either three or six ways , it was clear that the number of the partitions must be ; but the coefficients of in the supposed generating function found to be 2485 , which is .
+It thus became clear either that the reasoning from the graphs was wrong , or that the generating function was at fault .
+The discrepancy was cleared up by the discovery that at weight 13 graphs with two readings present themselves for the first time .
+The simplest of these is 211 of weight 13 .
+The property possessed by these partitions is that the successive rows are the conjugates of the successive columns without being identical with them ; that is to say , that the successive rows are not to be self-conjugate titions .
+Thus , 331 , 211 , 2 are conjugates of 322 , 31 , 11 respectively .
+The reading of the corresponding three-dimensional graph in the six modes gives either 211 or 31 .
+The separate enumeration of these forms is a matter for future enquiry .
+Art .
+1 .
+Turning now to the substance of this communication , I shall introduce a new plan of procedure which is applicable when the places for the parts of the partitions are given by the nodes of two-dimensional lattices , which may be complete or incomplete .
+In every case I suppose the part magnitude to be not greater than and when the lattice is complete , I suppose it to have rows and columns .
+The generating function which gives by the coefficients of the number of the partitions of of the nature considered will be denoted by GF .
+In the excellent notation of CAYL F and SYLVESTER I shall denote the algebraic expression by ( s ) , employing Clarendon type for the letter , and thus by ( 1 ) and by , using always the Clarendon type in order to differentiate such notation from that in which between the brackets the ordinary Roman type is employed ; the latter will , in general , denote integers , ] , the case may be .
+The notation is perfect for the purpose in hand , because it merely exhibits and concentrates attention upon the exponent , which is the essential part of the expression , and the only part that in many cases it is necessary to handle algebraically .
+Further , in several instances , identities involving such expressions in MAJOR P. A. cMAHON : MEMOIR ON THE Clarendon type call be transformed into identities involving Roman type by simply changing the type in the bracketed ; this ensues because the fractions in Clarendon equal to in Roman in the limit when is equal to unity .
+Art .
+2 .
+esentation b three-dimensional lattice shows that the generating function GF is unaltered by any permutation of the let.ters The subjoined notation is designed to show clearly the six alternative expressions of the generating function , arising from this circumstance , which it is a principal object of this paper to establish .
+Thus , write It is to GF Art .
+3 .
+Every known particular case agrees with these formulae , but only two general results have been established prior to this paper .
+One is the well-known case of partitions on a line , viz. :\mdash ; ' THEORY OF OF NUIsIBERS .
+the other is that given in Part II .
+of this Memoir , and also by FORSYTH , GF LN generating function may be regarded as enumerating partitions\mdash ; ( i ) At the nodes of a lattice of 2 rows and columns ( or of rows and 2 columns ) the part magnitude unrestricted ; ( ii ) At the nodes of a lattice which has the number of rows estricted , columns the number of columns equal to and the part restricted to rows be } 2 .
+The found result shows that the number of partitions of ) is equal to the number of ways of composing with one kind of unity , two kinds of twos , two kinds of threes , two kinds of one kind of but all attempts to establish a one-to-one correspondence have failed .
+Had this proved to have been feasible it have ) extended to the similar eHults for GF where Art .
+4 .
+The } ) ) to question in an earlier of Memoir , also iled to establish general results , recourse has been had to a suggested by .
+of Memoir , * and a considerable advance has been made .
+In that paper I considered the number of different ways in which umbers can be placed at the nodes of a lattice , complete or incomplete , the number of nodes being and nun mbers being placed in such wise that descending order of magnitude is in evidence in each from West to East and in each column from North to South .
+In the paper quoted I showed that if the rows involve , , respectively , where , of course , , the number of of , the different numbers at the nodes is , * ' Memoir on the Theory of the Partitions of Nnmbcrs ' Phil. , 1908 , vol. ) ] MAJOR P. A. MAcMAHON : MEMOIR ON THE where and the product has reference to every pair of numbers drawn from the succession , , This result will be found to furnish an important key to the solution of the problems before us .
+It is possible , by the method employed , to consider the generating functions for partitions at the nodes of an incomplete lattice , and I shall use GF to denote that which has reference to a lattice whose successive rows involve , nodes , respectiyely , the part magnitude being restricted by the number .
+In this notation may alternately be written GF or GF , wherein will denote rows each of nodes .
+I derive from every lattice , complete or incomplete , a lattice-function of , and this function depends , like the generating function , not only upon the specification of the lattice , but also upon the number which limits the part magnitude .
+I denote this function by or by , according as the lattice is complete or incomplete .
+In cases where no confusion can arise , I simply write for brevity .
+Art .
+5 .
+I will now explain the formation of the functions and ; and then establish the fundamental propositions In the next place I will explain the formation of the functions and and establish the fundamental propositions GF ; Art .
+6 .
+Consider an incomplete lattice having 3 , 2 , 1 nodes in the rows respectively , and let any six different integers ( say the first six ) be placed in any manner at the nodes in such wise that descending order of magnitude is in evidence in each row and each column ; such an arrangement may be Let the Greek letters be associated with the first , second , and third rows , respectively , and consider each number in the lattice in succession in descending order of magnitude .
+Thus , beginning with 6 : since it is in the first row I commence a succession of Greek letters with ; passing to 5 , since it is in the second row , I follow with ; then 4 gives , since it is in the third row ; then 3 gives ; and finally 1 gives In this way I obtain a permutation of the letters in , where the exponents 3 , 2 , 1 enumerate the nodes in the successive rows of the lattice .
+This permutation possesses the property:\mdash ; " " If a dividing line be made between any two adjacent letters of the permutation , the succession of letters to the left of the dividing line is like the whols permutation , such that occurs at least as often as at least as often as ; in other words , the numbers which specify the occurrences of are in descending order of magnitude In fact , if the process of forming the Greek letter succession ( or permutation ) be arrested at any point , the lattice numbers that have been dealt with occupy a set of nodes which also constitute a lattice , complete or incomplete .
+It follows , of course , that the first letter of the permutation must be .
+The lattice arrangement of numbers recoverable from the permutation , for it is merely necessary to write the numbers in descending order underneath the letters when we see that the successive lattice rows are indicated by the letters , respectively , The process is thus unique , and there will be as many different Greek letter permutations having the properties above specified as of arrangements of unequal numbers at the nodes of the lattice having the specified descending orders .
+Every Greek letter permutation can be separated into groups , each of which contains letters in alphabetical order ; in the case before us this is accomplished by two dividing lines each of which separates a letter from one which follows it , but is prior to it in alphabetical order .
+I aesociate , a power of with each permutation by taking for the exponent a sum of numbers , where denotes the dividing line has letters to the left of it .
+Thus in the above instance , and the associated power of is VOL. CCXI.\mdash ; A. MAJOR P. A. MAcMAHON : MEMOIR ON THE Every one of the arrangements of the different integers at the nodes of the lattice will thus have a power of associated with it , and taking the sum of them all I obtain the lattice function Art .
+7 .
+I will set out at length the formation of .
+632 641 642 641 .
+643 642 643 so that It is obvious that this process can be carried out in respect of any lattice , complete or incomplete , and that the number of different Greek letters involved will be equal to the number of rows .
+Art .
+8 .
+To show the connexion between such a lattice function and the corre .
+sponding generating of partitions at the nodes of the lattice I proceed as follows:\mdash ; We have to establish the relation As the simplest possible case ( with a trivial exception ) consider the complete lattice of 2 rows and 2 columns and any numbers , equal or unequal , to be placed at the four nodes in such wise that THEORY OF THE PARTITIONS OF NUMBERS .
+there is descending order of magnitude in both rows and in both columns ; say that the numbers are subject to the conditions It is clear that we must either have ( i ) or ( ii ) ; and that these two systems do not overlap .
+If ( i ) obtains we may perform the summation by writing , where are arbitrary positive integers , zero included ; the sum is thus ; and since may each of them assume all values ranging from zero to infinity , the sum is clearly ; if , on the other hand , the parts of the partition have such values that ( ii ) obtains , we may write and we have the sum which is equal to By addition we have ; and it will be noted that , derived , as above , from the lattice arrangements The fact is that the alternatives ( i ) and ( ii ) exist there are two lattice arrangements of unequal numbers , and the signs of equality and inequality are arranged in ( i ) and ( ii ) so that the required sum may be separated into two nonoverlapping systems in correspondence with the lattice arrangements .
+The fact that in ( ii ) , being a letter prior to in alphabetical order , is in direot correspondence with the Greek letter permutation , in which a preoedes an which is prior to it in alphabetical order .
+Moreover , occurring in the second place in the condition ( ii ) , clearly contributes the integer 2 to the exponent .
+Thus the numerator finally determined is necessarily the lattice function found by the specified rules .
+Art .
+9 .
+Next take a case which is not quite so simple where ; the associated lattice arrangements and the Greek letter permutations are yielding We have five non-overlapping systems ( i ) ( ii ) ( iii ) ( iv ) ( v ) wherein the positions occupied by the symbol are to be compared with the positions of the dividing lines in the corresponding Greek letter permutations .
+It is clear that the summations derived from the systems ( i ) , ( ii ) , ( iii ) , ( iv ) , ( v ) give powers of in the numerator of the generating function exactly corresponding to those which enter into the lattice function by the rules given .
+Hence ( 1 ) ( 2 ) ( 3 ) ( 4 ) .
+THEORY OF THE PARTITIONS OF NUMBERS .
+This short demonstration suffices to establish the general relations Art .
+10 .
+Remarkable properties of the lattice functions will present themselves as the investigation proceeds .
+A few observations may be usefully made at this point .
+In every case the zero power of presents itself in with that permutation of the Greek letters which is in alphabetical order .
+In the case of partitions on a line the lattice is a single row of nodes ; the Greek letter succession is composed entirely of the letter and the lattice function is unity .
+A most useful property arises simply from the definition of the function , .
+putting equal to unity we find that the sum of the coefficient is , a verification of constant service .
+I seek a representation of the lattice function that shall be a constant reminder of this enumerating function , and with this object in view I write the latter in the form and I then write ( 2 ) ( 3 ) .
+( 1 ) where the algebraic fraction on the dexter , which I term the outer lattice function , is ofJixed form , and the remaining algebraic factor IL , which I term the inner lattice function , has to be determined .
+The outer function reduces to the corresponding part of the arithmetical function when is put equal to unity ; under the same circumstances the inner function reduces to the sum of its own coefficients , viz. , to .
+There is a convenience in thus postulating the expression of an outer lattice function , because in every known result in regard to complete lattices the inner function turns out to be simply unity ; a principal object of this investigation is to establish that for the complete lattice the inner function is invariably unity .
+This is consistent with the result conjectured in Art .
+2 .
+In regard to incomplete lattices the inner function is unity in special cases .
+The determination of its form for the general incomplete lattice is apparently a very difficult matter , which is reserved for future consideration .
+Its actual form for the lattice of two unequal rows will be determined presently .
+Art .
+11 .
+There is also a vitally essential representation of the lattice function as a sum of sub-lattice functions , which forms a natural bridge from the function GF to the general function GF .
+When the lattice function was formed from the permutations of the Greek letters , every permutation had dividing lines where ranged from zero up to a maximum value , which has not yet been determined .
+That portion of the lattice function which is derived from those permutations which involve precisely dividing lines I name the sub-lattice function of order and write it , or simply if no confusion arises from the abbreviation .
+Thus In the elementary examples already dealt with , , It will be observed that is invariably unity .
+Art .
+12 .
+In terms of these sub-lattice functions I now define the new and more general lattice function .
+in which replaces .
+I write ; and also a general sub-lattice function L. THEORY OF THE PARTITIONS OF NUMBERS .
+Art .
+13 .
+The next step is to establish the fundamental relations GF ; GF We have to take account of the circumstance that the part magnitude is now restricted not to exceed .
+Take again the case , previously considered , of two rows and three columns .
+I recall the five distinct parts of the summation ( i ) givin ( iii ) ( iv ) ( V ) , , For the condition ( i ) we put from which it is clear that cannot exceed in magnitude ; hence the sum is the generating function of partitions on a line into parts not exceeding 6 in magnitude , and is therefore .
+Similarly in each of the cases ( ii ) , ( iii ) , ( iv ) , belonging to , we put , and it is clear that cannot exceed in magnitude ; the corresponding portion of the generating function is therefore .
+Finally , since in ( v ) we put we obtain a part of the generating function .
+Thence In general , when the lattice has nodes , we have a set of inequalities belonging to which give rise to the generating function ; and thus the above-given fundamental relations are established .
+Art .
+14 .
+The generating functions for two-dimensional partitions GF has been found in terms of lattice functions in the form .
+If we subtract these partitions from those enumerated by GF , we are left with those partitions which contain one part at least equal to or greater than I shall show how to determine directly the generating function for these in terms of lattice functions .
+To lead up to the proof , I will give an inductive proof of the theorem\mdash ; Taking the parts at nodes in one row the partitions which have a highest part equal to will be obtained by placing the part to the left of each of the partitions enumerated by GF .
+Hence the whole of the partitions which have one part at least equal or greater than are enumerated by GF and GF GF .
+THEORY OF THE PARTITIONS OF NUMBERS .
+@9 Assume the truth of the theorem in the case of GF for all values of ; then GF Putting ( 1 ) ( n\mdash ; 1 ) and , therefore , ( 1 ) ( n\mdash ; 1 ) ; thence ( 1 ) ( n\mdash ; 1 ) .
+Hence by induction .
+To generalize this method , I take a lattice which is complete but for the node at the left-hand top corner and first determine the generating function for partitions such that the descending order of magnitude is in evidence in each row and in each column .
+I take the number of rows to be , and the number of columns .
+A slight consideration shows that if L. be the sub-lattice function of order for the complete lattice , that of the VOL. CCXI .
+MAJOR P. A. cMAHON : MEMOIR ON THE deficient lattice now under consideration is ; hence , if the part magnitude be unrestricted , the generating function is ; and if the part magnitude be restricted not to exceed A simple example , that may be at once verified , is found by taking and the defective lattice Here and the generating functions are ; putting we obtain , verified by Now consider the partitions at the nodes of the complete lattice such that one part at least is equal to and no part exceeds .
+We obtain all such by placing the part at the node situated at the left-hand top corner and connecting with it all of the partitions at the nodes of the incomplete lattice , which are such that the part magnitude is restricted not to exceed in magnitude .
+We thus derive a generating funotion , ( 1 ) ( mn \mdash ; 1 ) and thence the generating function , which enumerates all partitions at the nodes of the complete lattice , which are such that each has one or more parts at least as great as , is OF THE PARTITIONS OF NUMBERS .
+and it is easy to verify that this expression added to the expression already found for GF is , in fact , equal.to that is , to GF .
+Art .
+15 .
+This main proposition involves the whole theory of the partitions at the nodes of an incomplete lattice ; it gives the true generating function without redundant terms , and this only needs examination and , where possible , simplification .
+Such simplification is apparently always possible when the lattice is complete .
+Moreover , there is the task of exhibiting as a product of outer and inner lattice functions of finding the algebraic expression of ; There is an important and quite general property of the lattice function which must now be explained .
+If a lattice be read by columns instead of by rows its specification changes from a partition to the conjugate partition , and it is a trivial remark that the generating function of partitions at the nodes is not altered .
+In fact , if the rows possess , , nodes and the columns , , nodes .
+Moreover , since the generating function is the quotient of the lattice function by an algebraic function which depends merely upon the number of nodes , it is clear that , , and being conjugate partitions .
+From the last written relation we find , . .
+Putting , herein , 2 , in succession , we establish that , and thence , proving that the sub-lattice .
+functions also do not change in passing from a lattice to the conjugate lattice , As a rule , with some exceptions , the inner lattice function changes in passing from a lattice to its conjugate .
+Thus it will be found that IL ; 22221 IL ; 54 , ( 22221 ) and ( 54 ) being conjugate partitions .
+Exceptionally , if it be proved that the inner lattice function of a complete lattice is unity , the function obviously does not change on passing to the conjugate lattice .
+Another exception appears to be IL , and being conjugate partitions and there may be others .
+Art .
+16 .
+My next object is to obtain the lattice function for which appertains to a lattice of two unequal rows and to find the form of the inner lattice .
+function .
+The first step is to establish the relation .
+Consider the Greek letter succession , where The whole of the permutations derived from the lattice terminate in oue of the following ways since cannot occur more than times at the end of the permutation by reason of the fundamental property of a permutation .
+Permutations which terminate iu the where clearly give rise to a factor in the associated powers of ; the other factor will be due to all of the permutations of the succession which minate with ; that is to say , the other factor will be Hence , as was to be shown .
+Now assume the truth of the relation ORY OF THE PARTITIONS OF when , for all values of .
+Then The right-hand side has terms ; assume that the suln of the last terms may be written ( 1 ) ( 2 ) ( ) , an assumption which is obviously justified when ; then the sum of the last terms is ; and this on simplification proves to be , which is ajustification of the assumption .
+Hence the right-hand side of the expression of ( ; ab ) is , leaving out the first term , ; leading to ( 1 ) ( 2 ) .
+( 1 ) This result , being true when , is established universally .
+The outer function is of the required form , and the inner function is This leads to the new result and as a particular case , GF a result already known .
+Art .
+17 .
+The determination of presents difficulties , so that investigation proceeds in the path ofleast resistance .
+When the lattice is complete , ths Greek letter succession is conveniently taken to be It is clear that each permutation , that arises from the lattice , must terminate with ; hence this latter may be always deleted , and we find and the sub-lattice functions are also equal , but the inner lattice functions differ ; thus it will be found that IL but IL The Sub-lattice Functions .
+Art .
+18 .
+It is necessary to inquire as to the highest order of sub-lattice function that presents itself For a lattice of rows and columns I form the recta1lgular scheme where there are columns .
+Reading this parallel to the arrow ( inclined at 45 degrees ) , commencing with th9 left-hand top corner , I obtain the permutation This is the permutation which involves the maximum number of dividing lines and corresponds to the sub-lattice function of highest order ; the permutation is unique , yielding a single power of ; which is the sub-lattice fu1lction in question , The lines may be counted .
+THEORY OF THE -tRTITIONS OF NUMBERS .
+Since and are conjugate partitions , we may take without loss of generality .
+The number of dividing lines is .
+Hence we have sub-lattice functions of all orders from zero to .
+It will be obseryed that the permutation , above written , possesses symmetry in that it is unchanged by writing for and inverting the order .
+The same method is applicable to the determination of the maximum number of dividing lines appertaining to permutations derived from an incomplete lattice .
+Thus , if the letters be the reading parallel to the arrow gives The highest order of sub-lattice functions when the letters are will be found to have higher and lower limits and respectively , the actual value depending upon the magnitudes of , , .
+The lower limit is the actual value when the lattice is complete .
+Art .
+19 .
+The next point is the determination of the expression of , or of as it may be also written .
+The dividing lines occur in groups\mdash ; ( i ) In groups , containing 1 , 2 , , lines respectively ; ( ii ) In groups , each containing lines ; ( iii ) In groups , containing , , 2 , 1 lines respectively .
+Let the exponent of sought be , corresponding to ( i ) , ( ii ) , and ( iii ) , respectively .
+1 .
+to terms , , .
+to terms , mn .
+to terms , .
+MAJOR P. A. cMAHON : ON THE Whence ; and If , in the succession we fix upon any dividing line and arrange the letters to the right of it in alphabetical order , thus obliterating the lines to the right of the one fixed upon , we obtain a permutation involving ( suppose ) lines which yields t the lowest power that occurs in the sub-lattice function of order .
+When the lattice is complete we may , in any derived permutation , write for and invert the order , and we thus obtain another permutation belonging to the same sub-lattice function as the former .
+For a succession in the former becomes by the stated operations , where in the latter ; and if is the letter from the left of the former permutation , is the mn-kth letter from the left of the latter .
+Hence , if the power of given by the former permutation be that given by the latter is Thus , for every term in , there is a corresponding Hence we may say that is centrically symmetrical both as regards the powers of and the coefficients .
+If be the lowest power of in , determined as aboye , the highest power of will be mns-e .
+Ex. , ; and it will be noted that in and ; in and ; in and ; occur in pairs , whilst the theorem is clearly verified in and in The result of writing for in is the acquisition of the factor by Art .
+20 .
+Let and be the least and greatest exponents of that occur in the expression of .
+Consider again the permutation ; THEORY OF THE PARTITIONS OF NUMBERS .
+is the exponent of due to the dividing lines when only the first lines from the left are retained , the letters to the right of the line being arranged in alphabetical order .
+If we know that .
+What is the relation between and To obtain we must clearly obliterate the last lines on the right and arrange the affected letters in alphabetical order .
+Since the number of letters is mn , if for we retain lines which giye we must for reject lines of power values Hence mn ; and from the symmetry of the permutation we find also ; so that ; an interesting result which foreshadows the theorem The circumstance that the lattice function , when the lattice is complete , involves to the power , which is the greatest exponent of that occurs in the function , is consistent with the inner function being simply unity .
+Art .
+21 .
+I will now investigate an expression for .
+Suppose that a certain power of arises therein from the conjunction , where , and let the Greek letter succession be A ) where in the space A there is any suitable succession of letters in ascending order ( of subscripts ) to , and in the space any suitable succession such that the subscripts are in ascending order from The least power of is obtained when in the space A there is the succession This gives the term The greatest power arises when in the space A is ; and this gives the term VOL. CCXI .
+It must be remembered , in assigning these successions to the space , that only one dividing line is to be in the whole permutation , and that the latter must possess the fundamental property which is the attribute of all such .
+Writing the above succession .
+, we have to determine all of the successions ranging from to that may be placed between and the dividing line in order to form an succession involving Since , , is a succession of numbers in ascending order we are clearly concerned with the whole of the partitions at the points of a one-row lattice of nodes which are such that the part magnitude lies between and zero .
+If be one such partition Denote by that portion of which is associated with the conjunction ; then \mdash ; 1 ( ) ( 1 ) ( 2 ) leading to ( 1 ) ( 2 ) Put herein , then , for a constant value of ; and , consequently , giving all values from 1 to ( 1 ) ( 2 ) ( 8 ) \mdash ; 1 ( ) .
+( n ) ( 1 ) ( 2 ) ( m ) THEORY OF THE PARTITIONS OF NUMBERS .
+Art .
+22 .
+It is not , I think , immediately obvious that this series can be effe , ctively summed .
+That this is , in fact , the case appears when the problem is looked at fro1iL another point of view .
+I shall show that for suppose that the permutation gives rise to the term , where is a one-row partition of .
+The part to the left of the dividing line may be as small as , and the part to the right as small as ; hence has values ranging from 2 to ; the partition has parts limited in magnitude to and in number to ; and if there were no deductions from the total of partitions the value of would be ; but there must be deductions , because every partition of the form must be absent ; for the corresponding succession ofletters is ; and a dividing line cannot be placed after this ccession because every letter prior to has appeared to the left of .
+Of these omitted partitions there is one , and only one , of each weight , viz. :\mdash ; For Hence we must subtract ; and Since , we have also MAJOR P. A. MAcMAHON : MEMOIR ON THE T'he Fundamental Relation .
+Art .
+23 .
+We must now examine the fundamental relation for brevity , where and .
+When a partition enumerated by GF is represented graphically by nodes in three dimensions , we see that the nodes form a portion of a parallelopiped of nodes , the sides having nodes respectively ; the unoccupied nodes graphically represent another partition of the number lmn-w if the former partition be of the number .
+Hence , if GF be , we have ( writing Co as short for coefficient ) , Co in equal to Co in or equal to Co in .
+From which it appears that , and this property may be directly verified in the fundamental relation by means of the formulae ; .
+From another point of view we may suppose the nodes of the lattice of rows and columns to be all occupied by parts , zero being taken as a part , and then if we diminish each part by , we obtain a partition of the negative integer into negative parts , ; the effect upon the generating function is alternatively to substitute for or to divide it by .
+It will be noted that in this respect possesses the same property as GF .
+The numerator function has the factor which stands as a determined factor of the generating function .
+Writing ; involving or bracket factors .
+THEORY OF THE PARTITIONS OF NUMBERS .
+I observe at this point that the substitution of for converts the factor into , so that it is unchanged except as to sign and a power of pres .
+Art .
+24 .
+Some particular cases of the fundamental relation are instructive .
+Thus GF when Observe that , showing that is a factor of the numerator .
+It appears that in general is a factor of the numerator .
+Thus GF and since when Art .
+25 .
+I have arriyed at the expression for GF in the following manner .
+We have , and 1 determine L. from the Greek letter succession ; for suppose and a succession to be .
+where may have all integer ( including zero ) values subject to the conditions ; A proper permutation with three dividing lines is thus secured , and we have to perform the summation which is the expression of .
+But I have shown in Part IL of this Memoir that subject to the stated conditions is GF .
+In general I thus establish that ; so that I am able to write ; the expression of is thus made to depend upon the expression of GF where have all values such that Now assume so that GF , ( 1 ) ( 2 ) ( 1 ) or GF It is easy to show that , , are each of them factors of the right-hand side ; the remaining factor is free from , and is , in fact , the lattice function .
+Giving to the special value zero , we readily find thence ( 1 ) as was to be shown .
+THEORY OF THE PARTITIONS OF NUMBERS .
+This proo rests upon the assumption that the law can be shown to hold for GF for all values of from to , and for all values of .
+Now suppose the law to hold for GF for all values of inferior to ; then it obviously holds for GF for all values of inferior to , and thence , as has just been proved , it holds for GF ; but the law does hold when or 1 , and thence by induction the law holds in general .
+This method of proof seems to be of application only when , for then only can the function be identified with a form GF where the sum of is less thaIl n Art .
+26 .
+I turn again to the relation GF in order to establish relations between the functions GF and the sub-lattice functions .
+The relation , as it stands , exhibits GF as a linear function of the sub-lattice functions , but giving the special values , 1 , 2 , in succession , we obtain GF GF , GF GF and thence GF GF , ( 1 ) ( 2 ) - , . .
+( 1 ) ( k ) ( 1 ) , when , the series may be continued , ; ( 1 ) and for values of ranging from to mn , GF ( 1 ) the series terms ; but , when GF GF GF , the series having terms .
+Art .
+27 .
+We have thus a number of difference equations satisfied by the functions GF , and we can now show that if GF for all values of not exceeding mn , the law is true universally .
+For is of the form where the coefficients are functions of independent of Then ; from which it appears that is of degree mn in , at most , and hence , when , since we have ; but it has been shown that GF GF THEORY OF THE PARTITION OF NUMBERS .
+Assume that GF when does not exceed mn ; then putting in our equations , we find that GF ; and thence by induction when Art .
+28 .
+I now write the fundamental relation GF in the form GF ' where and assume that GF is a product of powers of factors of the two types , or , ( s ) , where the powers may be positive or negative integers .
+I thus write .
+, leading to Now therefore and ; therefore and Putting herein Hence GF and on the assumption as to form the main theorem is established .
+VOL. CCXI .
+Art .
+29 .
+We may now obtain properties of the lattice functions\mdash ; For , in the relation put and observe that .
+We find ; and is unaltered to a factor pres .
+Hence the identity . .
+putting we find exhibiting an property of the functions .
+From the relation we find , giving the values , ] , 2 , in succession , THEORY OF THE PARTITIONS OF NUMBERS .
+The relations between the yield remarkable ebrai c identities .
+So far I have established a new method for discussion of these questions of the arrangements of numbers , and have made some progress with the simplification of the fundamental expression arrived at for the generating function .
+I have further shown the great probability of the outer lattice function } ) the whole lattice function whenever the lattice is complete .
+Before this can be rigidly established , I believe that a further study of the theory of the incomplete lattice will be necessary .
+Froln many particular incomplete lattices that have already been worked out this investigation promises well , and I hope in due course to lay the results beforc the Society .
+POSTSCRIPT .
+There is analogous theory which is concerned with the totality of the permutations of We thus obtain permutation functions which possess properties .
+The functions also arise from the theory of partitions .
+Suppose that we desire the number of two-dimensional partitions of a numbel such that the nodes of the lattice descending order of part magnitude is in evidence each row but in each column .
+It is immediately evident the generating function of such at the nodes of a lattice which contains , , in the successive rows is ' whether the numbers , , ) in .
+order of magllitude or not .
+This fact enables us to determine lattice ] )-lattice functions from the whole of the permutations of the letters we may suppose the nents p to be in of nitude and establishes also that nctio ns ) ] , , in the product We may proceed in exactly the same manner as when the estricted permutations were under view .
+Taking the lattice corresponding to and arranging 6 different numbers in any way so that descending order is in evidence in the rows we have arrangement figured and the corresponding Greek-letter succession , yielding a portion of the generating function .
+For the whole of the permutations derived as above from the lattice which are , in fact , the whole of the permutations of we derive a permutation function PF , such that the generating function sought is PF ' and this we know otherwise to have the value Hence and , in general , an expression which is to be compared with the number which enumerates the permutations of the letters in .
+The former becomes equal to the latter when When the part magnitude is limited by the number , the enumerating generating function of the partition is but , from previous work , if is the sub-permutation function derived from the permutations possessing dividing lines , this generating function is also ( 1 ) where Phil. Trans. .
+Equating the two expressions for the generating function , and giving the values , 1 , 2 , in succession , we find the relations ( 1 ) ( 2 ) \amp ; c. from which the general expression for is readily obtainable .
+IHEORY O THE PARTITiONS OF NUMBERS .
+Putting for a complete lattice , we find ( 1 ) ( s ) A simplification , when , is interesting ; for then In fact , more generally it will be found that An interesting verification is supplied by a result in a previous paper .
+* It was therein shown that the number of permutations of the letters composing the product which have dividing lines , is the coefficient of in the expansion of the product From this expression I derive a function of , viz. , .
+, and therein the coefficient of is readily shown to be as already obtained .
+When the lattice is complete the functions .
+possess elegant properties , just as when the permutations are restricted .
+* ' Memoir on Theory of the Compositions of \ldquo ; ' Phil. Trnns , 1893 , Art .
+24 .
+JOR P. A. cMAHON : OF THE PARTITIONS OF NUMBERS .
+For , in the identity substitute for and we find that the left-hand side is merely multiplied by , whilst on the right hand the coefficient of is multiplied by .
+An identity thence arises , and putting therein , 1 , 2 , in succession , the relations giving very noteworthy algebraical identities .
+

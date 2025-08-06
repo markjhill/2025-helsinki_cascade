@@ -1,0 +1,79 @@
+II .
+" On the Construction of Life-Tables ; illustrated by a New Life-Table of the Healthy Districts of England .
+" By WILLIAM FAR , M.D. , F.R.S. , Superintendent of the Statistical Department , General Register-Office .
+Received March 17 , 1859 .
+( Abstract .
+) The Transactions of the Royal Society contain the first Life-Table : it was constructed by Halley , who discovered its remarkable properties , and illustrated some of its applications .
+With better data improved methods have been found out , and the form has been extended so as to facilitate the solution of various questions .
+In deducing the English Life-Tables from the National Returns , I have had occasion to try various methods of construction ; and I now propose to describe briefly the nature of the Life-Table , to lay down a simple method of construction , to describe an extension of its form , and to illustrate this by a new Table representing the vitality of the healthiest part of the population of England .
+The Life-Table is an instrument of investigation ; it may be called a biometer , for it gives the exact measure of the duration of life under given circumstances .
+Such a Table has to be constructed for each district and for each profession , to determine their degrees of salubrity .
+To multiply these constructions , then , it is necessary to lay down rules , which , while they involve a minimum amount of arithmetical labour , will yield results as correct as can be obtained in the present state of our observations .
+A Life-Table represents a generation of men passing through time ; and time under this aspect , dating from birth , is called age .
+In the first column of a Life-Table age is expressed in years , commencing at 0 ( birth ) , and proceeding to 100 or to 110 years , the extreme limit of observed lifetime .
+Annexed is an outline of the two primary series of the Life-Table , representing the surviving at each year of age ( 14 ) , and the first differences representing the dying ( die ) , in annual intervals of age .
+Age .
+Dying .
+Living .
+Age , Dying .
+Living .
+X. d , .
+lx .
+x. da .
+lx .
+0 10,295 100,000 40 618 63,756 1 3,005 89,705 50 722 57,203 2 1,885 86,700 60 1123 48,855 3 1,305 84,815 70 1825 34,278 4 1,051 83,510 80 1803 14,971 5 847 82,459 90 555 2,265 10 347 79,525 100 19 46 20 552 75,600 106 11 30 598 69,792 The Table may be read thus : of 100,000 children born , 10,295 die in the first year , 89,705 survive .
+It will be observed that , upon the hypothesis that the annual births equal the annual deaths in number , and that the law of mortality remains invariable , the series of the living ( l , ) can be constructed from the series of numbers ( d ) representing the dying , or from the numbers dying at different ages , as returned in the parish registers .
+That course was adopted by Halley , and afterwards by Dr. Price , in constructing the Northampton Table .
+But the hypothesis of an invariable annual number of births equalling the deaths has never been verified by observation , and consequently tables on the plan of Halley 's are often exceedingly erroneous .
+In the healthiest districts of England the births were 29,715 , the deaths 17,469 annually : a Table constructed upon that plan , like Dr. Price 's , makes the mean lifetime-or as it is sometimes called , the expectation of life-for Northampton , 25 years , while the mean lifetime by a correct Northampton Table is 38 years .
+It is shown by a diagram that if age ( x ) is represented by the abscissas , the numbers living ( 6 , ) will be represented by the ordinates of a curve .
+De Moivre constructed this curve by assuming that the series l is from the age 12 to 86 , in arithmetical progression ; decreasing thus , 74 , 73 , 72 ... 3 , 2 , 1 , 0 .
+By another hypothesis , the rate of mortality is assumed to decrease or to increase in geometrical progression at different rates in different periods of life ; and it is found that this hypothesis represents the results deduced from the observed facts approximatively .
+As v , the velocity , expresses a ratio , so m , the rate of mortality , is the ratio of the number dying to the number living in a unit of time .
+Now if y represent the living at a definite age , and r the rate at which the mortality increases at that point of age , then mrf will be the rate of mortality after the lapse of z units of time .
+The decrement of y in an infinitely short time will be dy=ymrZdz .
+This was pointed out by Mr. Gompertz , and Mr. Edmonds subsequently extended the theory .
+This expression can be integrated , and the final equation of the corrected integral is y=l].O ; where X is put for the common logarithm , and k for its modulus .
+Either of the hypotheses gives a close approximation to the exact result , within short intervals of time ; and the results by the two hypotheses agree at the principal ages after 20 , when they can be fairly tested .
+Thus , if the rate of mortality in any year of age ( x to x+ 1 ) is m , then 1 +-m : , m : : : 1 1-2 .
+22 +l-,1-Mm It is here assumed that mn is known ; and putting p , for 1-2m t IoJ-~ [ + I:m ' we have p , l , l+l ; and have thus the means of passing from the numbers living at the age x to the numbers living at the age x+ 1 .
+But upon the other hypothesis , y , being = 1 , then P v=Y =10 OX Upon the two hypotheses , Xp20= -19966528 by the one , and 1T9966527 by the other ; Xp40=19956263 by the one hypothesis , and 1'9956264 by the other .
+At 80 there is some divergence .
+I have adopted the latter hypothesis generally ; but the other hypothesis is at some of the earlier ages preferred .
+I have only adopted these hypotheses within the safe limits of a single year in determining eleven values of Xp , which I have afterwards interpolated by the method of finite differences ; thus assuming that the third difference was constant .
+This gives , I conceive , as near an approximation as we can obtain in the present state of the observations .
+p , is the first difference of the series X4l ; and consequently it can be constructed by four orders of differences , on the assumption that no error of consequence is caused by assuming that within given limits the fourth difference is constant .
+Healthy Districts .
+( 1 ) Sum of the Living in every year , ( 1 ) The Years which the Persons Sum of the Numbers Population , and of the Living of Dyingin each Persons Born and Living or the every age ( x ) and seg Dying in each _land upwards will live ; Age .
+year ofat each age ( x ) , Living in each year upwards to the last and upwards will live 0-1 , 1-2 , &amp;c. at each age .
+from x to the last age of age age in the Table , also e le the in the Table .
+0--1 , 1-2 , &amp;c. ( 2 ) the Years which ( 2 ) the Years which they the personas C(1 ) have lived over x. will live .
+d.~~~--_ I d. dx .
+Ix .
+Lx .
+Px .
+Qx .
+YQ .
+X. 0| 10,295 100,000 4,951,908 92,611 4,899,665 166,209,701 01 3,005 89,705 4,851,908 88,202 4,807,054 161,356,341 12E 1,885 86,700 4,762,203 85,758 4,718,852 156,593,388 231 31,305 84,815 4,675,503 84,162 4,633,094 151,917,415 34i 1,051 83,510 4,590,688 82,985 4,548,932 147,326,402 4 Mean After-lifetime .
+Persons .
+Males .
+Females .
+Age .
+C_arlisled .
+wEngland , 63 Healthy Swedenat England .
+Dstrct.hy 1838--44 .
+Districts .
+Districts .
+England .
+Districts .
+0 39 41 49 ... 40 49 42 49 20 41 40 43 38 40 43 41 43 40 28 27 30 25 27 29 28 30 60 14 14 15 13 14 15 14 16 80 656455561 1 The new Life-Tables consist of three sections , the first representing persons , the second males , and the third females , each section consisting of six columns .
+On the opposite page is an extract from the first of the sectional Tables .
+The properties of these columns are described , and a collection of useful formulas is added .
+The curious and useful properties of the new column y are illustrated .
+The mean annual mortality in England was at the rate of 22 in 1000 ; but in eighteen districts the mortality ranged from 28 to 36 in 1000 , and in sixty-four districts the mortality ranged from 15 to 16 and 17 in 1000 ; in the other districts it was at intermediate rates .
+The Table has been constructed from sixty-three of the districts in which the mortality did not exceed 17 in 1000 .
+Halley first pointed out some of the financial applications of the Life-Table , and the new Table shows that the mean duration of life among large classes of the population exceeds considerably the expectations of life deduced from the ordinary Tables .
+The science of public health has been developed since Halley 's day ; and here a new application of the Life-Table is found .
+If we ascertain at what rate a generation of men die away under the least unfavourable existing circumstances , we obtain a standard by which the loss of life under other circumstances is measured ; and this I have endeavoured to accomplish in the New Life-Table .
+And recollecting that the science of public health was almost inaugurated in England by a former President of this Society , who crowned the sanitary discoveries of Captain Cook , I feel assured that the Society will receive with favour this imperfect attempt to supply sanitary inquirers with a scientific instrument .
+

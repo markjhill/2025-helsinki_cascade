@@ -1,0 +1,556 @@
+]\gt ; Current Measurement .
+By W. E. SUMPNER , D.Sc .
+, M.I.E.E. ( Communicated by Professor J. Perry , F.R.S. Received October 5 , 1907 , \mdash ; Read January 16 , 1908 , \mdash ; Received in revised form January 21 , 1908 .
+) Part I.\mdash ; The Mathematical Relationships of Cyclic Quantities 311 II.\mdash ; The Action of a Cyclic Magnetic Field on a Movable Coil conveying a Current of the same Frequency 316 III.\mdash ; The Theory of Shunt Magnet Instruments 320 \mdash ; Expcrimental Verification 327 The lack of precision of measurements with alternate currents , as compaled with those using direc6 currents , is mainly due to the relative sensitiveness of the instruments available for such tests .
+The fact that the turning moment acting on the moving system depends in one case on the square of the current and in the other on the first power of the current , readily explains the high ratio between the currents needed to cause the minimum measurable deflection in the two cases , but this ratio is , nevertheless , most when a numerical comparison is actually made on some fair basis .
+The only likely way at present of improving alternate current instruments is to use iron cored electromagnets to increase the strength of the magnetic field .
+I have found that the difficulties due varying permeability and hysteresis of the iron can be avoided by exciting the in shunt .
+It proves possible , with careful design , construct an electromagnet whose flux is connected with the exciting voltage by a strict mathematical law involving no variable physical properties like permeability , etc. Such an electromagnet is eminently suited for purposes .
+The theoretical and experimental study of instruments constructed on this principle has brought out certain novel points which are set forth in the present paper .
+The first part discusses the mathematical relations of cyclic quantities having a common fundamental period , and constitutes a development of a method already published .
+* This method is the only one known to me which is independent of assumptions in regard to the wave form of the quantities dealt with .
+The usual methods , which are based on the erroneous assumptions of sine law wave form , are not any simpler in working , and are most ) when the accuracy of new results has to be critically examined .
+All alternate current measurements refer to mean squares or to mean products , and the natural method of obtaining the connections between 'Roy .
+Soc. Proc vol. 61 , 1897 .
+Alternate Measurement .
+such squares and products is to study the properties of quadratic functions of the variables .
+The earliest instance of this in alternate current theory was in connection with the " " three voltmeter method * Such processes lead to a very simple form of calculus appropriate to cyclic quantities .
+The theory of the action of an alternating magnetic field on a movable coil conveying a current of the same frequency is discussed in the second part of the paper ; and the application of such theory to shunt magnet instruments is given in the third part .
+The final portion deals with experimental verification .
+Part I.\mdash ; THE MATHEMATICAL BELATIONSHIPS OF CYCLIC QUANTITIES .
+We shall use heavy letters such as , to denote single valued cyclic functions of the variable , and the corresponding letters in lighter type , , to denote the square root of mean square values of respectively .
+A we define as the agnitude of , and will be a constant as regards .
+The mean value of the product of two quantities such as will be represented by , so that Any cyclic quantity A must either have its mean value zero , when it may be described as alternating , or it must consist of the sum of two parts , one of which is stendy and the other alternating .
+With few exceptions the quantities occurring in actual alternate current problems are alternating in the above sense .
+The differential coefficient of any cyclic quantity is necessarily .
+The integral of a cyclic quantity is not met with unless its mean or steady value is zero .
+and as this integral will in most actual cases also have zero mean value it will be as nite quantity as that of a differential coefficient .
+The product of two cyclic quantities such as a and a current A consists in general of two portions , one of which is steady and the other alternating .
+These parts correspond precisely with the scalar and vector products of two vectors .
+Whatever cyclic quantities A and may be if we consider the meaIl values of the two identical expressions we see that these mean values can only be zero when A is proportional to for each instant of the cycle , and also that we can always find a such that ( 1 ) The value of determined from this equation may be defined as the ph * .
+Soc. Proc vol. 49 , March , 1891 .
+Dr. W. E. Sumpner .
+[ Jan. 21 , differ of the quantities A and B. These quantities will be said to be in phase when is zero , and this can only happen when the ratio of A to is independent of the time .
+They will be said to be in quadrature when is zero , that is , when the mean product of A and is zero .
+For any two quantities A and it is always possible to consider either of them , say , as the sum of two quantities the first of which is in phase with A and the second in quadrature with it , for we can so define that ( 2 ) where is a quantity , independent of time , which we can so choose that and A are in .quadrature .
+It ] follows that the nitudes of the three quantities in ( 2 ) can be denoted by the fths of the three sides of a triangle , and that the angle between any two sides of this triangle is the phase difference of the corresponding quantities .
+The mode of proof merely involves the process of multiplying the equation by some cyclic quantity and taking means .
+By successive application of this process , it is possible to establish the following theorem:\mdash ; one of a ' of known cyclic quantities , however differcnt these be in cravj form ?
+, can be expressed as linear function of an equal number other cydic quantities , these latter bein , such that the melxn square of each is unity and the product of any two is zero .
+Thus , if there are cyclic quantities , we can always find other cyclic quanties , , each of which is of unit magnitude , each two of which are in quadrature , and which are sucl ] as to satisfy the identities ( 3 ) where is the magnitude of , and where ( 4 ) for every value of from 1 to The quantities are perfectly determined by the magnitudes and phase differences of the quantities A. Indeed , is the phase difference between and , so that if the system of equations ( 3 ) has been established as far as , say , , the quantities are known ; the differences between and can be calculated , determining ; the equation for , constituting the definition of , can then be used to show that is in quadrature with each of the quantities ; equation ( 4 ) determines ; and so on .
+1908 .
+] Alternate Currenb If three quantities , , A2 , , of different wave form , together with linear functions of these quantities , comprise all the cyclic functions which have to be considered , it is possible , as previously show represent the nitudes and phase relationships of all such quantities by a vector drawn in three dimensions .
+This is not possible when four independent wave forms are involved , but in all cases it is possible to establish the system of equations ( 3 ) and ( 4 ) .
+Important alternate current problems involve so many quantities , and the relationship between these is so complicated by the effects of varying permeability , hysteresis , egular wave , etc. , that mathematically accurate representation is impossible with a simpler system of equations than is indicated in ( 3 ) .
+In practice , however , great simplification results from two considerations .
+In the first place , the quantities involved may be very numerous , it is only necessary , as a rule , to consider the mutual relations of two or three of them at any one time , and it is in general possible to construct the vector .
+actually needed for this purpose .
+In the second place , the figure can in all cases be reduced to a two-dimensioned figure by projection , as illustrated by figs. 1 , 2 , and 3 below .
+quantity involved can be reduced to one of the forms where and are cyclic quantities in quadrature , the same for the quantities , and where each quantity is in quadrature both with and .
+The projection of , denoted by , is It is possible to represent all the quantities , by vectors in a plane , and it is always true that ( 5 ) The plane figure so constructed will in most cases meet all requirements .
+It is frequently necessary to consider quantities like and , such that one is the differential coefficient of the other .
+Newton 's notation may be conveniently used , not only for the instantaneous values , but also for the corresponding magnitudes , since the latter are constants as regards time , so that no ambiguity can arise .
+If A and are any two cyclic quantities , it will be readily seen that ( 6 ) ' Roy .
+Soc. Proc vol. 6 ] , p. 465 .
+VOL. LXXX.\mdash ; A. Dr. W. E. Sumpner .
+[ Jan. 21 , It follows from ( 2 ) , that for any two quantities and A we can so choose that a right-angled vector triangle is denoted by the equation ( i ) From this we have ( ii ) and ( ui ) The represented by ( iii ) is the projection of that denoted by ( ii ) on the piane determined by ( i ) or by , and .
+By making use of ( 5 ) , it can be seen that the plane vectors involved in the ve equations are represented , as in fig. 1 , by two similar right-angled triangles with corresponding sides perpendicular .
+It follows ( 7 ) If and A are any two cyclic quantities represented by vectors in a plane , the vector projections of and on the same plane will be obtained by turning each of the vectors and A through a right angle in the same sense , and by increasing their magnitudes in proportion .
+We might similarly represent , , and by vectors in a plane , and project on to this plane vectors denoting , and , and also those denoting , and epresenting the projected vectors by the suffix mity , we have fig. 2 , consisting of three similar righ - will be represented by a vector in the same direction as , but drawn in the opposite sense to , that which lepresents will also be true of the vectors and , etc. Of course , the actual nitude of will bear to that of a ratio which is dependent on the wave form of , and this ratio will not necessarily be the same as that of the magnitudes of and , two other 1908 .
+] Alternate quantities related in the same way .
+Indeed , this ratio is not the same for and as it is for and , except in the special case in which each follows the simple sine law denoted by In other cases it can easily be established by aid of the theorems denoted and ( 6 ) that 8 ) It is also easy to show that and where is in quadrature with both and , and the ) rojection of on the plane containing and Part \mdash ; THE ACTION or A CYCLIC NETIC FIELD ] CONVEYING A OF THE If be the current a coil , flux through which is ( the flux per turn multiplied by the number of turns ) , and if be an } displacement , the corresponding torque will be given by ( 10 ) If the current and the flux are steady , the torque due to their lnteraction convenient rule Maxwell , will be so directed as to tend to increase , provided we consider as positive threading ) coil in the anle direction as the flux due to the curl.ent C. If we choose a particular direction round the coil as positive for , this fixes the positive direction of , and the direction of , which is to be conDr .
+W. E. Sumpner .
+[ Jan. 21 , sidered positive , is that corresponding with such a displacement that increases with the displacement .
+If the current and the flux are alternating , the above statements are still true at any instant , but it does not follow that the average or steady value of is such as to turn the coil so as to increase the magnitude of , that is to say , so as to increase the square root of the time average of .
+The mean value of the product determining will be zero when and are in quadrature , and will as the phase difference alters from just below , to just above , right angle .
+If is entirely due to , that is , if , where is the selfinductance of the coi ] , we have ( 11 ) and is positive , that is , is so directed that the displacement it tends to produce is such as to increase L This torque always exists whatever may be the cause of the current , but , in the cases we shall have to consider , it is so small as to be negligible .
+We shall in all cases assume that the magnetic field , though varying with the time , has a fixed mode of distribution in space , or that the induction density at any point is the product of a vector function determined by the position of the point and not dependent on the time , and a scalar metion of the time , the same for all points in the field .
+In other words , we shall assume that the fluxes through any two coils placed anywhere in the field are always in the same phase , though the of each flux depends on the configuration of the coil , and on the co-ordinates determining its position .
+Alternate currents of commercial frequencies vary so slowly that this assump- tion justifiable , except in a few cases in which the variable permeability and hysteresis of iron prevent the medium from having a fixed magnetic character , and cause the flux distribution to alter for different netising currents .
+If the position of the coil is completely determined by , we have , on the above assumptions , where depends solely on and depends solely on the time .
+Thus or ( 12 ) CF .
+1908 .
+] Alternate Current surement .
+Thus the mean value , or the steady part , of , which we shall denote by , is given by ( 13 ) ; and this equation must be true in all cases .
+Now if the current is , due to the electromotive force induced by the time rate of change of the coil flux , the torque which results will depend on the nature of the circuit this coil .
+Suppose this circuit to be metallically closed , and to have a resistance and self-inductance , we then have ( 14 ) Multiply this by and take means .
+We get ; but if we multiply the same equation by and take means , we get or , using ( 6 ) , By these two derived equations , we get , on dividing by Hence , substituting in ( 13 ) , we get ( 15 ) From this it follows is negative , or ( 16 ) A dosed conducting circnit having placed in magnetic field noill to set itself so as to decrease to a ) the magnitude of the flux it rrocmds .
+The forces tending to displace the coil vanish if is zero or igible , but they are not simply proportional to , since is inversely proportional to the impedance of the coil .
+Suppose in the next place that the circuit of the coil is closed through a condenser of capacity K. If the resistance of the circuit is , the current induced by the field will , under ordinary circumstances , be so small that is negligible in comparison with .
+Under these conditions , if is the of the condenser we find , after paying due regard to , that , and whence Dr. W. E. Sumpner .
+[ Jan. 21 , so that , using ( 13 ) , we have in this case ( 17 ) where is the voltage induced in the circuit by the field ; thus T. is necessarily positive , or we have ( 18 ) If a coil whose circuit is closed through a condenser be placed in rnating mqnetic field , it wilt tend to move so as to increase to a maximum the magnitude of the flnx it snrrocmds .
+It can be shown that ( 17 ) is accurate , even allowing for the resistance of the coil , though in this case the voltage of the condenser is not the same as the electromotive force induced by the field .
+Allowing for the resistallceR , it will be found that From these equations we obtain as in the previous case , while the power supplied to the circuit is and so that if is less than one cent. of , the values of and will differ by less than 1 in 10,000 .
+Now let us suppose we have constructed an instrument for alternate current measurements , consisting of a movable coil placed in the intense alternating magnetic field due to an iron-cored electromagnet , and let us assume that the circuit of the coil includes a portion , external to the instru- ment , on which an alternating electromotive force is impressed .
+The torque acting on the coil will still be given by ( 13 ) , where is the flux through the coil due to the electromagnet , and where is the resultant current through the coil , due to all the impressed and reactive electromotive forces in the circuit .
+Let us assume iu the first place that the moving coil circuit is metallically closed , and that its resistance is and its self-inductance L. We then have for the moving coil current ( 19 ) Ihe solution of this is where 1908 .
+] A lternate so that the torque is , or where is the torque already calculated which depends on , and is independent of , while T2 is a torque due to the interaction of with current calculated from alone , without reference to , or to its reactive influence on the circuit .
+A similar argument applies to the case in which the coil is ] osed through a condenser .
+In this case we have the equations ( 20 ) and and we can pnt and , etc. , where the quantities the first suffix satisfy the equations ) is zero , and those with the second suffix satisfy the equations when is put equal to zero .
+As in the previous case , the torque on the moving coil will consist of two independent parts , one of which is solely due to , and the other of which is due to snd , where is solely due to E. In each case the importance or otherwise of can easily be tested in an actual instrument by simply arranging for to be zero .
+As shown later , can also be easily calculated from the formula .
+The method of superposition can be conveniently applied to alternate current problems provided , ( 1 ) the differential equations colmecting the and voltages are linear , and ( 2 ) the resistances , induction coefficients , capacities and other factors are independent , not only of the time , but also of the physical variables , such as current , , etc. Under these conditions it is easy to prove the following theorem:\mdash ; ( 21 ) If , etc. , be any impressed electromotive forces distributed in any manner the branches of any network of conductors , the current in any selected branch will be given at each instant by the equation where is the current calculated on the assumption that all the impressed electromotive forces are zero except , and similarly for , etc. The current in any branch is at every instant the sum of the currents which would be produced in that branch by each impressed elecCromotive force alone .
+Since the current in any branch can theoretically always be reduced to zero by inserting a suitable electromotive force into the branch , the above theorem may readily be used to prove that .
+Dr. W. E. Sumpner .
+[ Jan. 2 ] , ( 22 ) If the electromotive forces impressed on a network cause a difference of potential V between two given points of the network , and if these two points be afterwards joined by a wire possessing resistance and self ( but not mutual ) inductance , the current which will flow through the wire will be exactly what an electromotive force V would produce in a circuit consisting of the wire , and the network to which the wire is joined , assuming the other impressed electromotive forces removed from the network .
+The above theorems I have found serviceable in reasoning out the behaviour of conducting networks used for a number of tests made in connection with the present paper .
+The complete mathematical solution of the problems presented by such networks is , as a rule , impossible , owing to the unknown wave forms of the variables .
+For the purpose of an actual test the complete solution is not , as a rule , needed , while the particular relationship required can often be readily seen with the aid of the above theorems*without making any assumptions about wave form .
+Part III.\mdash ; THE OF SHUNT MAGNET INSTRUMENTS .
+Let be the resistance of the coil of an electromagnet subjected to a periodic voltage V , and let be the total number of lines of force enclosed by the winding , that is let be the product of the number of turns of the coil and the flux of lines through the core .
+Let be the current through the coil .
+We then have 23 ) For the cores of large transformers with closed magnetic circuits it is in some cases the fact that the magnitude of V is over one hundred thousand times as great as that of .
+For small magnetic circuits suitable for instruments of ordinary size the ratio will be much less , especially if an air gap is introduced to allow a coil to move across the field , but even in such cases I have found it possible with careful design to make this ratio exceed 250 for alternate currents having a frequency of 50 cycles per second .
+Let us for the present assume to be so small is ] ible compared with , or that the ratio of the resistance to the impedance of the coil is negligible .
+The relationship between the field and the exciting is then independent of the permeability of the core .
+Suppose the electromagnet to have a narrow air gap in which a coil can move , * The truth of ( 21 ) and ( 22 ) for direct urrent circuits has been long known .
+The latter theorem ( 22 ) is due to Thevenin , 'Comptes Rendus , ' 1888 , vol. 97 , p. 159 , and is often convenient .
+Theorem ( 21 ) for alternate current circuits , though not precisely stated , seems more or less indicated in one of Heaviside 's ' Electrical Papers , ' vol. 2 , pp. 294\mdash ; 296 .
+1908 .
+] Alternate Curren\ldquo ; Measurement .
+aeo as to turn about an axis , its position being completely specified by a deflection .
+Let be the flux enclosed by this coil for the deflection We assume strictly in phase with , so that 24 ) where depends on , but is independent of time .
+Hence , in ( 24 ) negligible , we have so that is the ratio of the voltage of the coil ( on open circuit ) to the applied voltage , and is a quantity which for any deflection can be measured , provided suitable voltmeters are available .
+Suppose the moving coil circuit be closed a condenser of capacity , and to have an electromotive force impressed upon it , or suppose the [ moving coil in series with the condenser K ) be applied to mains at potential , we then have , from ( 20 ) , assuming and ible , , where so that Hence ; and by ( 25 ) this is equal to For a voltmeter we can make the same as V , but we can apply it to the coil in either of two ways .
+Thus for a voltmeter This quantity is proportional to the torque , and hence this torque for a given value of and of simply depends on , so that the instrument can be calibrabed as a voltmeter .
+It is easily possible to make igible compared with unity , but in any case the factor only affects the 'calibration , and not the accuracy of the voltmeter .
+It readily follows from , remembering that is independent of , that 27 ) and so that the general expression ( 13 ) for the steady torque is the same as Dr. W. E. Sumpner .
+which in the case of the above voltmeter ( with negligible compared with unity ) becomes 29 ) Next assume moving coil circuit to be metallically closed through the secondary of a transformer the coils of which have a constant mutual inductance M. Suppose the primary coil of this ormer to be traversed by a current A. Let be the resistance of the moving ] circuit , but the present let us assume the self-inductance of this circuit ible .
+We then have RC , where Also by ( 25 ) and by ( 13 ) and ( 28 ) But so that 30 ) or is a measure of the power in watts associated the current A and the voltage V. The uity of sign merely implies that the secondary of the transformer can be connected up in two ways .
+Certain assumptions have been made in establishing the formulae ( 29 ) and ( 30 ) , and it remains to show what influence any error in these assumptions , has on the action of the instrument .
+I have already discussed the theory and construction of iron cored shunt magnet instruments , and described a rather long experimental investigation of theirbehaviour , in two papers published by the Institution of Electrical ( vols .
+34 and 36 ) .
+In one of these papers the theory of the voltmeter , and of its error , were very fully dealt with , and it will suffice to add here that these voltmeters are most satisfactory instruments .
+They need but a negligibly small current to work them , and are very sensitive , especially when constructed so as to have a weak control , and for use with an optical pointer .
+The theory of the wattmeter nlerits much fuller consideration .
+The properties of magnetic fields due to shunt excited electromagnets have a wider interest than that arising from the use of these magnets for a particular purpose , such as that of a voltmeter or a wattmeter .
+If a magnetic field can be caused and controlled by an applied voltage in accord1908 .
+] A lternate Current Measurement .
+ance with a strict mathematical law [ by which is meant a law which in essence involves no factors dependent upon the magnetic or other variable physical properties of the medium , and which , therefore , is independent of in these physical properties ] , such a field must be found sooner or later , for a variety of measuring purposes .
+more searching test can well be applied to such a field than an investigation of its action in connection with a wattmeter , for no other electrical instrumenb is required to work under such severe conditions .
+Its indications must be correct for all values of no than five variables , viz. , , volts , power frequency , and wave form .
+Moreover , while the deflecting forces corresponding with the power to be measured diminish with the power factor of the load , this is not the case with those corresponding .
+with the error of the instrument .
+The true power for a given current and voltage is proportional to , while the most important part of the error is to so that this actually increases as , and becomes relatively very important for low power factors .
+Now to determine we have , besides ( 28 ) , the equations ( 31 ) is the electrolmotive force in the secondary of transformer the primary of which is trave1sed by the main current A. For an air core transformer will be strictly proportional to .
+If the netic circuit of the transformer contains iron , the flux enclosed by the secondary coil will not be strictly proportional to , but we can always put ( see ( 2 ) ) ( 32 ) where is in quadrature with A and From the above equations ( 31 ) we can omit , since , as already ] lown ( 19 and 15 ) , we can calculate the part of due to separately .
+Its value will be where is calculated from or since and are in quadrature and the ratio of the magnitudes of and is very small , with sufficient accuracy .
+Hence the torque due to is ( 33 ) Dr. W. E Sumpner .
+[ Jan. 21 , a quantity determined by alone .
+It is not dependent on A or on the power factor of the load , nor is it dependent upou the frequency or wave form of , assuming is negligible .
+If we omit from equations ( 31 ) , these become 34 ) The above may be regarded as equations between vectors , and remembering ( 7 ) and the quadrature relationship of vectors like and , the complete figure can be easily indicated as in , where is the phase difference of the current A and the main , and the small phase errors of the instrument , which for the sake of clearness are greatly exaggerated in the figure , are denoted as follows:\mdash ; 30 ) , the angle between and V due to the resistance of the magnet coil .
+, , , , and , , self-inductance of the moving coil circuit .
+, , , , and , , hysteresis of the transformer core .
+These angles must each be made very small if the wattmeter is to be even approximately correct , so that we shall regard them as small quantities of the first order , and neglect their squares and products compared with unity .
+Hence it follows , with the aid of ( 34 ) , that to this degree of approximation or and that these magnitudes are the same as if , were all zero .
+Now the torque depends upon , that is upon FC where is the phase difference between and C. The nitudes and are the same as if the phase errors were zero .
+It will be seen from fig. 3 , assuming as a first approximation that all the vectors lie in one plane , that is the complement of the separating and , since is in quadrature with and F. Hence and , since all the phase errors are small , 36 ) where Hence , by 28 ) , ( 31 ) , and ( 33 ) , the complete expression for is 1908 .
+] Alternate Cnrrent where is given by the preceding equation and where , the true power in watts .
+In establishing the above , we have assumed that all the vectors of lie in one plane .
+This , in general , will not be the case , nor , indeed , as a rule , will a three-dimensioned figure suffice .
+But if all the angles are small quantities of the first order , it will be seen that the of any projected vector will bear to the of the corresponding vmprojected FIG. 3 .
+vector a ratio , where is a smaH quantity of the second order .
+Moreover , this will also be true of the projected values of the phase errors .
+Neglecting such quantities , the formula ( 37 ) is still accurate , as also ( 36 ) , the equation for , provided the latter is regarded as a vector equation , so that can never exceed , and must , in } eneral , be less than , the numerical sum of the separate phase errors .
+The full analytical investigation quite bears out these statements , but as its working involves much detail , and does not bring out any new point , it will be sufficient to Dr. W. E. Sumpner .
+[ Jan. 21 , indicate a shorter proof in which advantage is taken of the smallness of the fractions the phase errors .
+The value of must evidently be a function of , and the phase errors , and , hence , if we can neglect squares and products of the latter , we can , by Taylor 's theorem , expand and put where is the value of , assuming all the phase errors to be zero , and where do not involve these quantities .
+It only remains to determine the values of these coefficients , and it is clear that we find any one of them by assuming two of the quantities equal to zero , and solving the equations ( 34 ) so modified .
+It is easy to show that each coefficient can be expressed by the formula where is a positive quantity , which may be zero , which is always very small , and which , in fact , can nearly always be neglected .
+Thus , to find , the coefficient of , we put and each to zero in ( 34 ) , and have the equations ; ; and Thus .
+NA where is the between the vectors A and N. Referring to , it will be seen that though the vectors , V , and A may not lie in one plane , they can be properly represented in a three-dimensioned figure , and that cannot exceed , and must , in general , be less , or the ratio of to must be less than unity .
+Also the magnitudes and must be equal , since is small and is approximate]y perpendicular to .
+In other words , is independent of , and it readily follows that T. tall so that By a similar process the coefficients and may be obtained , and their values will be found to satisfy a formula .
+The result is to completely establish ( 36 ) and ( 37 ) with the limitation already stated in regard to the former equation ; that it be regarded as a vector 1908 .
+] Alternate Current ) ) equation , so that can never be greater , and nnust , in general , be less than Ghe numerical sum of , and Part A moving coil instrument , the istics already described , may be constructed of thin sheet iron stampings , as illustrated , in which shaded areas denote the in section .
+The magnetic circuit contains one air gap .
+To reduce the reluctance of bhis as much as possible , its section is increased ) the poles , that one almost surrounds the other as .
+The ] distance across [ he gap is reduced to the smallest value consistent with the free motion the moving coil .
+This coil is ular in shape , and turns about one FIG. 4 .
+FIG. 5 .
+of its long sides as an axis ( shown at O ) , the opposite side in the arc-shaped gap between the poles .
+A pointer OP is attached to the coil and reads on a suitable scale PS .
+The netic joints , indicated at , needed for constructional purposes , are made as as possible by building up successive stamp n , so as to overlap at the joints .
+The resistance of the netising coil of two dings , one on each limb ) is reduced by using as much metal in the coil as the available space allows .
+Such constructional features ensure two desirable results .
+The ratio of the resistance of the coil to its impedance is made small , and the ratio of the magnetic to the total magnetic flux is dinlinished as much as possible .
+The latter ratio cannot be assumed to be quite constant for different currents , so that , unless it is a small fraction , the Dr. W. E. Sumpner .
+[ Jan. flux density at a particular part of the air gaP may not always be sufficiently proportional to the total flux enclosed by the coil .
+The umenta actually made have been constructed to several designs , the earliest of which is indicated in fig. 4 .
+In none of these instruments has any adverse effect .
+due to variation of magnetic leakage been observed .
+But the instrument illustrated in is more likely to show such an effect than that illustrated in fig. 5 .
+The magnet of fig. 4 consists of two blocks of stampings with butt joints at , and measurement shows that while most of the netic flux through the centre limb crosses the narrow circular air gap in which the moving coil turns , an appreciable portion of the total flux leaks to the side limbs by longer air paths .
+In the magnet of } this leakage must bear a much smaller ratio to the total flux .
+The Inductance of the Moving Covl .
+If the field coil of such an be excited by an alternating voltage , and the coil be closed through a small resistance , this coil will be found to turn ( in accordance with ( 16 ) ) till the flux it encloses is as small as possible .
+Thus , in each of the cases represented in and 5 , the coil will turn towards the position Oa .
+By increasing the resistance of the moving coil circuit the force can be easily made negligible , since , very approximately , the torque is inversely proportional to the square of this resistance ( see ( 15 ) ) .
+If the moving coil is connected with ] the terminals of a condenser and the field magnet coil be excited , the moving coil will be found to turn so as enclose the greatest possible flux ( see ( 18 ) ) .
+For the case represented by fig. 5 the coil will turn to the position Oc , while for that represented by fig. 4 the coil will turn to the nearer of the two positions Oc , Oc ' .
+These effects are quite in accordance with the theory previously given , but do not indicate any special facts about the self-inductance of the moving coil .
+More information is obtainable on this point by testing the formula ( 11 ) where is the moving coil current and is the self-inductance of the coil .
+In order to test this formula , it is necessary to ] iminate the torque , due the interaction of the moving coil current , and the flux due to the current in the magnetising coil .
+This can be done by using currents of two different frequencies for the moving and field coils .
+Under these circumstances the only torque acting on the moving coil that given by the above formula , 1908 .
+] Alternate Current and by the movement of the coil we can thus find in which direction increases .
+Such tests were made upon an instrument constructed like fig. 5 .
+The urning moment was found to be so minute that the springs had -o bs removed , the current passed into the by means of fine vires exerting no appreciable contlol .
+The system had also to be )arefully balanced .
+The nl0yin3 coil contained 20 turns , and the maximum )urrent that could be safely passed through it was about ampere .
+The nagnetic force due to this current feeble ( the length of the iletic ircuit was about in ches , aIJd the force was spent mostly the ooap ) , so that the permeability of the iron was first test n-as made with the field unexcited and with the field coil open circuited .
+tn alternate current of ampere through the coil caused it to ttUin to a osition between Ob and Oc , about from Ob as actually in [ he position of maximum self-inductance would , theoretically , ) Oc the only magnetic circuit comprised the iron path from pole to pole the single between the poles .
+The self-inductance is , er , due to the local magnetic circuit crossing the air twice , once on side of the mov ing coil , and tlJis portion of the self-in ductance be 'reatest when the coil lies along Ob .
+Hence , umder the actual conditions , he position of maximum self-inductance must lie } Ob and ; as ndicated by the test .
+The field coil 2000 turns and a esistance of ohms ) was then electrically closed , either by a short circuit , by a small resistance , this latter consisting , in one case , of a ccumulator producing the field coil a current of about a quarter of amlaere , and , in another case , of the low resistance armature of au excited lternator applied direct to the field coil .
+An alternate current of ampere produced by a second alternator ) when passed through the coil caused latter in each of these cases to to the position Ob .
+That is to sa whenever the field magnet coil was electrically closed ( the total of -he circuit being in all cases small ) the position of maximum of he moving coil was Ob , whether the electromotive force impressed the field coil circuit was steady , alternating , or zero .
+Thus the -inductance of the coil was dependent upon the resistance of the ield coil circuit .
+To explain this , it must be remembered that a closed coil low resistance has , approximately , the effect of a perfectl conlucting sheet .
+If we assume the resistance of the field coil to , and the coil to be short circuited ( or what is mathematically equivalent if a be applied to it , the value of which is independent of current ) , it is theoretically impossible for the numl ) of lines of force enclosed by the coil to be in VOL. LXXX.\mdash ; A. 2 Dr. W. E. Sumpner .
+[ Jan. 21 , any way altered , unless there is an unbalanced electromotive force in the circuit , iu which case the rate of change of the flux must be such as to cause a reactive electromotive force exactly balancing that which is impressed .
+In such case the closure of the field coil circuit would perfectly control the flux the core , and this flux would be uninfluenced by the currents in a neighbouring circuit such as that of the moving coil .
+The theory of the instrument already given shows that it is necessary to carefully consider the inductance of the moving coil circuit .
+It is found possible to construct the instruments so that this inductance has no appreciable influence on the deflections .
+Such a result may , at first , seem unlikely .
+The inductance , directly or indirectly , affects the deflection in three ways .
+In the first place , the reactance causes a shift of phase of the moving coil current , and a resultant error similar to that which arises in a wattmeter of the ordinary dynamometer type .
+Next there is the torque fiven by the formula where is the moving coil current , and is the deflection .
+Fintdly , there is the torque due to inductive action given by ( 15 ) and ( 33 ) and or where is the electromagnet flux , travel.sing the coil , the value 04 which increases with the number of turns , and , therefore , with the selfinductance of this moving coil .
+Moreover , it is necessary to consider whether the moving coil can even said to have a true , i.e. , constant , self-inductance , for the coil is always in the close neighbourhood of iron masses whose induction density , and , therefore permeability , continually varying throughout the period .
+It must be borne in mind that the self-inductance of a coil is merely a coefficient , convenient when constant , for connecting the magnetising current with the magnetic flux resudting from it , and that what is necessarily associated with a nagnetising current is not a magnetic flux but a magnetising force .
+The current causes no flux if the circumstances are such that the force due to the current merely calls into existence , by reaction , an equal and opposite netising force .
+The case is analogous to that of the weight of a body which causes no acceleration in it when at rest on a table .
+If there is no extra flux due to the current in the coil , this coil be L908 .
+] A lternate Current as devoid of self-inductance .
+Such result is , in the } , true of he coils of a potential msformer .
+The variation of the secondary culrent not alter the flux th.ough the core , since this flux is essentially ontrolled by the primary voltage ; all that happens is a in the rimary current of such a character and amount as to exactly the hang in the magnetising force due to the ration of the secondary curl.ent .
+flux through the core , as ramnlatically in fig. 6 , consists of a lain portion threading both the prinnary and secondary coils and nd the best circuit , and also of two local , or uxes and , each of hich threads the of one coil only , and ach of which traverses a bad magnetic circuit the reluctance of hich is most entirely due to that of an air path and , therefore , esselltially constant .
+flux is determined by the primary , and is independent of the urrents in the coils and , but the flux is ictly proportional to the urrent in , while the flux is similarly proportional to the curlent in 4 one of the coils , say , is on open circuit , the of the other orresponds with a small flux strictly to the current , ether with a flux which , to the variable pel.meability of the iron , is lot proportional to the current .
+Under these conditions the self-inductance large but not constant .
+If , howevel , one of the coils , say , is ited b alternating voltage , the self-inductance of the coil is solely due to tlJe mall flux .
+This flux is proportional to the current , so )hateIlergy is not dissipated when the flux alternates , nnd the coil ] a colttant self-inductance in or ' the presence of iron masses .
+But nductance is vely lall , it is possible that under some circumstances it may be actually less than would be the case if the iron masses were relnovel .
+iron , with its controlled flux , dimini hes the flux resulting from the current in the secondary coil , since it } ) available for this flux .
+For instance , if the ) coil is wound in Dr. W. E. Sumpner .
+[ Jan. 21 , fig. 5 , so as to well cover the core , and the secondary consists of a few turns round the primary coil , the reluctance of the leakage path will , in such case , be so great that the secondary coil will be essentially devoid of selfinductance .
+By those accustomed to transformers , and similar apparatus , it is recognised* that the self-inductance of the coil arises from the leakage flux , and not from the main flux ; but I know of only one set of experimental tests in which the matter has been investigated .
+These tests were carried out at 's College , London , in 1892 , and are described in a report written by the late Dr. John Hopkinson for the house Company .
+The description in question is much more than an ordinary commercial report .
+It is a record of a searching experimental investigation on two transformers .
+the points examined was the instantaneous relationship of the fluxes and the coil currents .
+Unfortunately this investiryation has only been published in the technical so that it may be useful to state briefly the experimental result of interest here .
+Referring to fig. 6 , if VI and are the and the currents , and and the resistances of the primary and the secondary coils , we have with a similar equation for .
+The experiments showed that the leakage flux was proportional to the current AL for every instant of the period and for different nitudes of the current .
+This was proved by determining the values and wave-forms of the different quantities required by means of Joubert 's instantaneous contact lnethod , using a quadrant electrometer as indicator .
+The curves for and were separately determined in the usual manner .
+The curve for was obtained with the aid of an open circuit coil surrounding the flux , or by an equivalent method , and the curve for was obtained from the others by using the above equation .
+The curve for was then differentiated to get the lrve , and the latter was finally compared with the curve for .
+The two curves were found to coincide , and the comparison made was the more convincing because of the irregular and complicated shape of the curves .
+The tests were carried out As , for instance , in the much used ' ' short-circuit ' ' methods of testing alternate current machinery .
+The first of these short-circuit methods was pointed out by myself in 1892 in reference to the efficiency testing of transformers .
+See 'Proc .
+Inst. Elec .
+Engineers , ' vol. 21 , p. 741 .
+' Electrician , ' vol. 29 , June 24 July 1 , 1892 .
+I understand that most of the tests were actually carried out by ofessor E. Wilson , who has since published in the ' Electrician ' for February 15 and February 22 , 1895 , an account of some additional experiments which constitute furLher verification of some of the points here referred to .
+1908 .
+Alternate jIeasttrement .
+not only with the secondary coil open circuited , but also with different load currents taken from this coil .
+The value of was found proportional to , and that of was found proportional to A2 , at each instant , and under all circumstances , assuming constant voltage excitation of one of the coils .
+It follows that the self-inductance of the moving coil is due to the part of the flux through it , but not traversing the core surrounded by the field coil .
+In the case of the self-inductance will be greatest when the coil lies along Ob , and in that of fig. 4 the corresponding position will be but the self-inductance will be larger in the latter case owing to the leakage flux which passes through the moving coil , and traverses the closed iron magnetic circuit formed by the outer limbs of the magnet , without traversing the central core whose flux is controlled by the field coil circuit .
+In several cases the impedance ( and hence reactance ) of the field coil was tested experimentally and found to compare satisfactorily with that calculated from the dimensions of the boap , the reluctance of the iron part of the magnetic circuit being for the induction densities used in the tests .
+It was hence possible to deduce the reactance of a field coil the same number of turns as the moving coil .
+A quarter of this value will be the working reactance of the coil in the position Ob of fig. 5 , since the two halves of the air will be in parallel for one magnetic circuit and in series for the other .
+It was thus possible to calculate the approximate value of the inductance of the coil for diffel'ent values of , and to show that the values of , and of , were too small to aHect the accuracy of the instruments actually constructed .
+In some cases the value of was measured directly .
+This was not a simple matter .
+It was necessary to use an alternate current method .
+It was useless to attempt to compare the impedance of the coil with its ance , for these two quantities only differed by about one part in 5000 , since the reactance was only about 2 per cent. of the resistance .
+A bridge method was actually used , the coil to be tested forming one arm , the other three consisting of non-inductive resistances , two of which measured about 1000 ohms each .
+All the resistances were suitable for , and were used with , currents of about ampere .
+A pressure of 100 volts , at a frequency of , was applied to the bridge .
+The cross conductor was arranged to have a resistance of about 200 ohms to reduce errors , and contained an instrument capable of pressures as low as volt applied to this conductor .
+So far as I am aware , no instrument for alternating curl.ents is obtainable which is at all suitable for such a measurement .
+The voltage was measured after rectification by a suitable Dr. W. E. Sumpner [ Jan. 21 , commutator , *with the aid of a delicate galvanometer .
+To measure the minimum cross voltage it was necessary to make an extremely fine adjustment of the .
+This was obtained by means of a sliding contact on a potentiometer metres and of about 9 ohms resistance .
+The minimum cross voltage , divided by the current through the coil under test , gay the reactance of this coil .
+An instrument of the type indicated in fig. 5 was examined by the above method .
+The moving coil contained 20 and had a resistance ( including leads ) of 11 ohms .
+It was fixed in the position Ob and its reactance was tested when the field coil was ( i ) on open circuit , and ( ii ) on short circuit .
+The values measured were respectively and ohm a frequency of 50 cycles per second .
+The difference between these numbers is the part of bhe reactance due to the main magnetic circuit of the magnet , and its small value is attributable to the low permeability of the iron under the feeble fnetic forces to the coil current .
+A coil of 15 turns , wound round the yoke of the magnet , was also tested with currents of the same frequency .
+The resistance of this coil was ohm , and its reactance was found to be ohm with the field coil open circuited , and ohm with the field coil short circuited .
+The two coils were afterwards put in series ( opposing ) , and the reactance of the combination was found to be ohm for the field coil short circuited , and ohm for the field coil open circuited .
+The coils so connected were essentially non-inductive as ards their mutual magnetic circuit , so that the two above values should be equal to each other , and also to the sum of the numbers and found for the coils separately .
+This auxiliary coil was originally wound round the magnet for another purpose , being intended for use in series with the moving coil , and to be so connected that the voltages induced by the magnet in these coils opposed each other and balanced for a certain position of the moving coil .
+In this way the small error ( see ) and ( 33 ) ) due to the voltage induced in the moving coil circuit could be elinlinated or made negligible .
+The device was , however , found to be ] to the nificant amount of the error in question .
+A fixed auxiliary coil wound round the inner pole ( near the line Ob in fig. 5 ) might in special cases prove useful , since essentially it would serve to remove from the circuit of the moving coil not only the induced by the electromagnet , but also the self-inductance of the moving coil .
+* For the commutator and voltmeter methods here referred to , see " " The Measurement of Small Differences of Phase ' Phil. Mag Janualy , 1905 .
+They have been much used in connection with the present investigation for the determination of minute alternating voltages .
+1908 .
+] Measurement .
+S35 of Deflecting The residualmagnetism properties of an such as is indicated in fig. 4 or fig. 5 are most striking , but the distribution of the magnetism in the air gap must be the same , whatever current may be passing through the field coil .
+All the instruments were calibrated by direct current methods .
+steady current passed through the field coil and maintained constant , while observations were made of the deflections in rees due to various measured steady currents through the coil .
+The scale was made proportional to the current producing the corresponding deflection .
+The scale so obtained has been found in all cases accurate for alternate current use , being directly proportional for wattmeters , and proportional to the square of the volts for yoltmeters .
+The air gap is bounded by two sets of , those of each set circular edges of the LQame radius , so that with construction the air gap can be made very approximatel of the same radial distance everywhere , and the wattmeter scale almost exactly equally diyided .
+Tests have proved this to be the case .
+For the purpose of the formulae given above for the torque acting on the moving coil , tests were also made of the voltage induced in this coil by the alternating .
+For this purpose the alternating voltage on the coil kept constant , and the of the moving coil measured for differeIlt values of the deflection .
+The ratio of the latter voltage to the former is .
+The relation between and was foumd in all cases to be very approximately linear .
+the case of an instrument like 5 , increased as altered from Ooe to Oc , while , for an instrument like fig. 4 , passed through zero for some deflection denoted by Oa .
+The relation between and was so nearly linear that it was found sufficiently accurate for the purpose of an verification of the formulae for to take as the value of the alteration in for a in of ont ) radian , or .
+The formulae given are in absolute umits , so that the unit torque is one erg per radian .
+It is convenient to measure the rical quantities in commercial units , and the torque in " " gramlne centimetres so that the for must be multiplied by or approximately by 10,200 .
+One instrument tested had a field coil of 990 turns .
+The moving coil turns , and its working range was .
+This coil fixed at deflections of , and , and the measured values of expressed as were respectively , and .
+These values will be found to plot very well on a straight line , the slope of which corresponds with a rate of per cent. radian .
+Dr. W. E. Sumpner .
+[ Jan. 21 , Using for shortness to denote 10,200 , the above tests imply that is .
+Formulae ( 28 ) , ( 29 ) , and ( 30 ) for expressed in gramme-centimetres become respectively ( i ) ; ( ii ) ; ( iii ) W. The strength of the spring was first tested mechanically by acing a wire rider , weighing about 20 milligrammes , on the pointer at a measured distance from the axis , and carefully adjusting the instrument till the pointer and the axis were each horizontal , first with and then without , the rider .
+In this way the torque for deflection was measured as .
+cm .
+, corresponding with .
+cm .
+for .
+The instrument was then tested as a voltmeter with a standard condenser of microfarad for the moving coil circuit .
+A number of tests made for deflections near yielded as a mean result ) volts produced a deflection of .
+Substituting in the formula , we get gr. cm .
+for or .
+cm .
+for .
+A test on the instrument as a wattmeter on a noninduct.ive load , measuring the current and voltage with hot wire instruments , resulted in a deflection of for 94 volts and 18 amperes , or for 1692 watts , when the transformer was such that was approximately millihenry , and , the total resistance of the moving coil circuit , was ohm .
+These numbers , when substituted in the above formula , give .
+cm .
+for , or .
+cm .
+for .
+Thus the mechanical tests and those using formulae ( ii ) and ( iii ) yield values respectively and .
+cm .
+for a deflection of This instrument was afterwards altered .
+A moving coil of 44 turns replaced the original one of 20 turns and stronger controlling were used , the torque for measurin approximately .
+cm .
+The value of was not again measured , but it may be assumed to increase in proportion to tloe number of turns on the moving coil , and hence may be taken as 44/ 20 , or .
+Two transformers were successively used with this instrument , the resistance of the moving coil circuit being adjusted in each case till the instrument gave a deflection of exactly for 1000 watts .
+The values of for the two transformers were measured approximately as and millihenry .
+The corresponding resistances for the moving coil circuit were and ohms .
+On substituting in formula ( iii ) above the two values of the torque for work out to be and .
+cm .
+, or , for and .
+cm .
+When used as a voltmeter with a condenser of , the instrument gave a deflection of for a pressure of 97 volts .
+On in formula ( ii ) these .
+numbers will be found to correspond with a torque of .
+cm .
+for 1908 .
+] Alternate Current easurement .
+A test was also made using formula ( i ) in connection with an instrument referred to in subsequent tests ( see Table II ) .
+It was found that when 107 volts at a frequency of 52 were applied to the fixed coil and moving coil in series , the resultant deflection was .
+The value of found for this instrument was approximately 56 , and the torque required to deflect the spring was .
+cm .
+The field coil was such as to take : 90 milliamperes for a voltage of 200 when the frequency was 50 cycles per second , hence for 107 volts and 52 cycles per second the value of in ( i ) is ampere .
+The value of is such that , or is .
+Hence , is .
+cm .
+for , or .
+cm .
+for This result would have been nearer , the value found from the mechanical test , if allowance had been made for the phase difference between the magnetising current , and the resultant flux N. The angle , judging from measurements made on other instruments , is about , and though large enough to be fatal for a wattmeter having an electromagnet of the ordinary series , or current controlled type , is not such as to make differ more than 3 or 4 per cent. from unity .
+No attempt was made to prove exact coincidence between the mechanically and electrically measured values of the torque .
+The tests in question really constituted absolute measurements , and in order to carry them out properly it would have been necessary to most carefully check all the and subsidiary measurements , made use of .
+This was not done , since only an approximate verification was aimed at .
+Iany such tests were made on the various instruments constructed .
+The results above given are taken from the more concordant tests .
+The indications of the commercial instruments used were accepted without verification .
+Condenser The most serious error arising in the action of the wattmeter on circuits of low frequency and low power factor is that due to the resistance of the field coil .
+The self-inductance of the coil circuit tends to increase the effect of this error , not to compensate it .
+The voltage V applied to the field coil of resistance produces a current which magnetises the core and causes a reactive voltage or .
+These quantities are elated by the equation and in fig. 7 are represented respectively by the vectors , BO , and OP .
+If the number of turns on the field coil is the product can be represented to some other by BA drawn along BO , and is the number of ampere turns round the core needed to magnetise it to the extent represented by ) : Dr. W. E. Sumpner .
+[ Jan. 21 , reactive voltage U. The error of the instrument arises from the phase difference between and V , not from the fact that the magnitude of is less than that of V. The ratio between and independent of the current and the power factor , and is essentially the same for all voltages .
+In all cases it differs inappreciably unity , and any difference that exists is taken of in the standardisation of the instrument .
+For a given frequency the relationship between the total uetising ampere turns BA round core , and the reactive voltage OP is quite fixed by the netic circuit , even if there are several coils round the core traversed by independent currents .
+Suppose that in addition to the primary exciting coil already referred to there is a second winding of turns round the core , and that the terminals of this coil are joine to a condenser .
+The on the primary necessary to produce a ctive voltage due to the core , will now be given by where is the new current in the primary .
+Since is the total number of ampere turns necessary to produce the core , we have where is the condenser current .
+The current will necessal.ily be in quadrature with the core , since it in phase with , and hence 1908 .
+] A .339 will be represented by a vector , perpendicular to OP , lvl]ile its magnitude will be proportional to the capacity of the condenser applied to the secondary winding .
+Since the vectors BA and represent espectiyely , it follows that will represent and that if be drawn parallel to to meet in BI this vector will denote , while the vector will represent .
+By the capacity of the condenser attached to the secondary winding , the point may be made to reach the line OP at and even to cross it to , so that the phase difference between and can be ednced to zero and can be reyel.sed in until an of " " \ldquo ; it becomes an of " " lead It is thus possible by the use of a condenser of the capacity to compensate the phase error of the , but also the extra phase error due to the inductance of the coil circuit .
+The adjustmeJ ) lvill hold for different volt , but will only be exact for one frequency .
+is chase is needed in most cases , since one of the most stant properties of an nate crren t system of distribution is its frequency .
+In the case considered the of the line OP is from 100 to 200 the of OB , so that to a close approximation the lines , OP , etc. , are all of equal .
+Also the BOP does not mnch exceed right angle , and hence BA and are essentially equal .
+The angle is about , while the angle BPO is on about a quarter of a .
+If the fiekl coil of the be excited at constant voltage and frequency , the reactive can thus be arded as fixed , } the capacity 1 of the condenser applied to the secondary winding .
+For a zero value of the primary current will have a certain value represented by BA .
+For a particular value of the capacity , the primary current will be a minimum represented by , the line to some other scale the capacity .
+For any other capacity , represented by , the sponding primary current will be represented .
+Thus , if the be excited at constant voltage and frequency , rtnd measurements of the primary current be taken for various values of , the curve obtained by plotting the primary current or turns as ordinates , and the corresponding values of as bscissae , will be catenary-shaped with a minimunl ordinate for the capacity needed to compensate the phase error of the .
+Such curves are well known in connection with alternate current measurements .
+When suitable scales are chosen the curve must also be such that the ordinate is equal to when the abscissa is equal to in The value of obtained will be inversely proportional to the square of the current frequency used , since the ampere turns BA needed to produce a iverl reactive voltage will vary inyersely as the frequency , while the ampere Dr. W. E. Sumpner .
+[ Jan. .turns due to a capacity will be directly proportionaI to the frequency. .
+For a similar reason the capacity needed will be inversely proportional to the square of the number of turns used on the secondary winding .
+All these points have been fully verified by actual tests .
+The results given below in Table I and fig. 9 are taken from a set of testg made on an electromagnet provided with a moving coil , and connected up as a voltmeter of the magnetostatic type previously described .
+The connections of the coils are shown diagrammatically in .
+The field coil oonsisted of two coils of 500 turns each , the two coils being twin wound rouud the core so as to ensure that each coil enclosed the same flux .
+Ihese coils were permanently connected in series .
+The moving coil , , was connected to the terminals of one of the windings of 500 turns a condenser of microfarad capacity .
+core of the magnet was wound with an extra coil of 50 turns .
+The pointer was found to deflect to a certain mark on the scale when 80 volts were applied to 1000 turns ( or 40 volts turns ) .
+The deflection for a given voltage was the same for ordinary frequency of the used for the test .
+This deflection was utilised in the tests to adjust the reactive voltage of the core to a constant , value .
+Experiments were then made by passing an alternating current A amperes through the 50-turn coil .
+The current frequency was kept , constant at 80 cycles per second , and A was adjusted by means of suitable resistances until the pointer was steady at the mark on the scale , the curl'ent , being read by a hot wire ammeter .
+The values found for A for different .
+capacities of microfarads applied to the field coil of 1000 turns are given in the first two columns of Table I. A tbird column gives the corresponding values of or the ampere turns associated with the 50-turn coil .
+The value of was known with fair accuracy , and was due to various parallel combinations of condensers which had been tested by ballistic methods some months previously .
+The half microfarad condenser used with the : 1908 .
+] Alternate 500-turn coil for the moving coil circuit used a small netising c round the ] .
+The values eoiven represent the capacities actually connected with the 1000-turn coil , and these should be each increased by or microfarad to numbers proportional to the ampere turns due to the condenser currents .
+Table I. .
+8 FIG. 9 .
+Dr. W. E. Sumpner .
+S [ Jan. 21 , The results are shown plotted in fig. 9 .
+When the current A has its minimum value , reference to fig. 7 will show that A is in phase with the reactive .
+Hence the power wasted in the core may be obtained by multipJying the minimum number of ampere turns , 35 .
+by the voltage per turl } round the core .
+This power works out to be watts for 80-cycle circuits for the induction density corresponding with this frequency and volt per turn .
+The loss thus obtained agrees closely with other meastlrenlents which have been made ) the core losses of the electromagnet in question .
+A more convenient method of testing one of these instruments for the capacity needed for compensation is ( see fig. 10 ) simply to put the field coil .
+in series with the moving coil ? .
+and to apply various condensers to the ninals of the field coil only , when a constant voltage is lied to the two coils in series , the frequency being kept constant .
+The impedance of the moving coil is quite negligible compared with that of the field coil .
+Hence for constant and the reactive voltage ( fig. 7 ) is constant .
+The magnetic field , is in quadrature with is represented by a vector drawn along the line BK and is fixed both in phase and magnitude .
+The vector BA represents the field coil current , which in this case includes the condensel current , but the moving coil current is represented by , for a capacity ] to the field coil .
+Since the field is represented by a vector of constant length drawn along , the acting on the nloving coil will be represented by the projection of on or by .
+It will thus reverse in as the capncit increases through ] 1leeded for compensation , and , moreover , there will be a lineal connection betweell the capacity used and the coil torque as indicated the deflection on the calibrated wattmeter scale .
+The results given in , and plotted in fig. 11 , illustrate ono of many tests made on a number of instruments ) this method .
+1908 .
+] Table II .
+The voltage was kept constant at 107 volts and the frequency was vays adjusted approximately to 52 cycles per second , by means of a resonance frequency meter .
+is the capacity in microfarads shunted to the field magnet coil , and is the deflection of the in strument .
+The ative FIG. 11 .
+readings were obtained by reversing the connections of the coil .
+The instrument was the same as that referred to later in the tests on compensated wattmeters , the field winding consisting of foul coils in each coil containing 2000 turns .
+the plotted results it ) pears that is microfarads for a frequency of 52 , with Inicrof.arads for circuits of freqnency 50 .
+The ampere turns due to the condenser winding if the frequency is ) is 200 , and .
+will be This is approximately the value of for this frequency and , since tests showed that for 200 volts at 50 cycles per second alue of was Dr. W. E. Sumpner .
+: [ Jan. 21 , 90 milliamperes , corresponding with 180 ampere turns .
+The eement is satisfactory in view of the fact that the frequency was not adjusted with any special care .
+C'ompensated Wattmeters .
+The foregoing theory shows that a wattmeter of the type here considered , if correctly calibrated on non-inductive loads , will , when used on inductive loads , of power factor , give a reading denoting where is the true power in watts , and is the phase error of the instrument given by ( 36 ) .
+The wattmeter reads low for currents , and for leading currents in direct contrast to the behaviour of a wattmeter of the ordinary dynamometer type .
+When an additional coil is wound round the core and connected to the terminals of a condenser , the value of is given by the formula where is the phase angle corresponding with the condenser winding and which is proportional to the capacity of the condenser attached to this winding .
+The ratio of to will approximatel .
+be that of the ampere turns due to the condenser to the alnpere turns needed to magnetise the core .
+By using a suitable condenser it is possible to reduce to zero and even to reverse its sign , that is to make the wattmeter read high for lagging currents and low for leading currents , like an ordinary dynamometer wattmeter .
+This has been experimentally verified on several wattmeters the electromagnets of which differed rreatly in shape .
+The following results were obtained on a wattmeter having an shaped like that represented in fig. 5 .
+This instrument had been wound for use as a voltmeter .
+The onet was wound with four coils each of 2000 turns .
+Two of these coils were wound on each limb , one coil being completely wound on the bobbin before the of the other was commenced .
+The resistances of the four coils are 745 , , 715 , and ohms , the two lower resistances corresponding with the inner coils , and the others with the outer coils .
+With all four coils in parallel it was found that 200 volts produced a current of ampere when the current frequency was 50 , so that 180 ampere turns were needed to produce a flux density in the core corresponding with 10 turns per volt at 50 cycles per second , follows that the impedance of the winding is 2222 ohms at this frequency .
+The parallel resista1lce of all four coils is ohms .
+The two inner coils when in parallel measure ohms and the two outer coils puooas a Xq JDuI SWA aq$ sasvo amos pur i,1$s1Jt[0 ) uassa 8 pasn } epuoi ) aonpoJ ) Jo$ Jtio a Aq fxnpuooas oeauI p sa1Jas mIJd o passvd : ot JsmJoJsutJl axoo ue ?
+11aaq } ) auuoo 8 S$1 U0J1 ) J9mJojsut ?
+J$ eJnooti 1o ou mo5 ouIsnQ .
+[ T00 @utom sq os U0J1 puooas po auff OT dn SUJnt ?
+smqo uIaq 1 -uou } JJno So dn uuoo SatII dnooo edmoo rdnoi ) aq$ os suoo ) QmpuTA @ .
+; qmoo III SI JO Dr. W. E. Sumpner .
+; [ Jan. 21 , in parallel for the field coil , the values of , and are respectively , and per cent. The sum of these numbers is per cent. If the field coil consists only of the two outer coils in parallel , this number , owing to the increase of , becomes per cent. Tests of the uncompensated wattmeter on circuits of frequency 80 and for loads of power factor , have shown percentage errors given by the formula for values of in close agreement with the above numbers .
+An approximate value of the reactance of the moving coil can be obtained from the impedance of the 2000 turns of the field winding .
+This , for a frequency of 50 , is 2222 .
+The moving coil consisted of 40 turns .
+If the field coil contained only40 turns , the impedance would be or ohm .
+The moving coil , when in the central part of the gap , will have its reactance a maximum , and approximately equal to a quarter of the above value .
+It will thus be ohm for a frequency of 50 , or ohm for a frequency of 80 .
+Since the resistance of the moving-coil circuit is 118 ohms , the phase error due to the coil 's reacta1lce will be per cent. for 80 cycle circuits , and this will be its maximum value .
+As already stated , the total phase error is the vector sum , and is less than the numerical sum , of the different phase errors .
+I have generally found that the value of , experimentally deduced from tests of the wattmeter on inductive loads , agrees well with that calculated from adding the separate phase errors , when that due to the reactance of the moving coil is neglected .
+In order to test the iron-cored instrument as a compensated wattmeter , the outer coils were put in parallel , and used as the field winding , to which the voltage was applied , while the inner coils , also in parallel , were applied to the terminals of a condenser .
+The tests were made , using as a standard wattmeter a Mather Duddell instrument ( M.D.W. ) , constructed by Messrs. Paul .
+In order that the tests on ging current loads could be immediately succeeded by tests on leading current loads , and vice , the circuits were arranged as shown in fig. 12 .
+Two similar -phase , rigidly coupled so as to run together , generated two voltages and of the same frequency and approximately in quadrature .
+The magnitudes of and could be varied independently by adjusting the exciting currents of the two machines .
+The current A was produced by the voltage , and passed through ( i ) the primary of the current transformer of the I.C.W. ; ( ii ) the current coils of the M.D.W. ; ( iii ) a large non-inductive resistance of glow lamps ; and ( iv ) small adjustable carbon resistance .
+This current was approximately in 1908 .
+] Alternate Current Measnrement .
+phase with the voltage , but there was a slight angle of lag owing to the inductance of the coils in the circuit .
+The voltage V for the pressure coils of the two wattmeters was obtained from the mains , which were connected up to the two alternators with the aid of a reversing switch , B.S. , so arranged that , for one position of the switch , , and for the other position , .
+The vector figure is indicated in fig. 13 .
+The current A was in each case approximately out of phase with the voltage , leading for one position of the switch and for the other position .
+Its magnitude in the various tests varied from 7 to 9 amperes , in all cases adjusted by the carbon resistance CR till the M.D.W. was balanced .
+The voltage for one position of the switch was about 230 volts , and for the other about 200 volts .
+The frequency was in all cases adjusted to 80 cycles per second .
+The pressure circuit of the FIG. 12 .
+FIG. 13 . .
+contained a non-inductive resistance of 9000 ohms , which was sufficient to make this circuit essentially non-inductive for a frequency of 80 .
+One terminal of this resistance was connected to the main , so that the pressure coil of the M.D.W. had one of its ends joined directly to the main , and was thus at essentially the same potential as the current coil C. This precaution was found necessary to make negligible any electrostatic forces acting on the moving system of the M.D.W. , this moving system and delicately suspended .
+The constant of the M.D.W. had been carefully determined on a non-inductive load , using the same hot wire instruments to measure the and current as were afterwards employed to measure the same quantities for the inductive tests .
+The power factor of the load was determined in each case from the readings of the volts , amperes , and of the watts , as indicated by the hot wire instruments and the M.D.W. From the power factor the value of was deduced , this value Dr. W. E. Sumpner .
+[ Jan. 21 , being considered positive for ging currents and negative for ones .
+In Table , below , the first column shows the capacity in microfarads joined up to the two parallel connected inner coils wound round the electromagnet core .
+The reduced readings of the M.D.W. for a deflection of exactly on the I.C.W. are next given , arranged in three columns , in order to separate the lesults obtained with the three kinds of load corresponding with the voltage used .
+The last two columns show the value of the power factor as deduced from the readings of voltmeter , ammeter , and wattmeter , and the corresponding value of Table The results show that ( i ) the uncompensated instrument is moresensitive for leading currents than for lagging ones ; ( ii ) when a capacity of 2 microfarads is used the reverse is the case ; and that ( iii ) when a capacity of microfarad is used , the instrument is perfectly compensated for circuits of frequency 80 .
+It was easy to test the effect on the reading due to suddenly switching on the condenser ] , and there was no doubt , that for lagging currents switching on the condenser caused an increase of the deflection of the I.C.W. , while for leading currents the reverse effect took place .
+When the load was essentially non-inductive no effect due to. .
+switching on a condenser could be observed .
+This is only natural , since 1908 .
+] Alternate Current Measurement .
+when the error vanishes , whatever the value of .
+But though the nature of the effect due to the condenser current could thus be easily demonstrated , it needed a set of tests such as those indicated in Table to actually measure its amount .
+The numbers given are in each case the means of several observations , and only a few of the tests taken are iven .
+This more especially applies to the observation with microfarad .
+These were repeated many times , with the result that it was impossible to say under the actual conditions of test whether the I.C.W. was more , or was less , sensitive with load currents lagging than with load currents leading .
+It now only remains to show that the differences actually observed are in accordance with the error mula .
+FIG. 14 .
+The results given in Table are plotted in fig. 14 , abscissae representing values of and ordinates the corresponding wattmeter readings for the standard deflection of the I.C.W. These results are found to plot fairly closely on three lines , each having the ordinate for the zero value of .
+The resultant phase errors calculated from the slopes of the lines in fig. 15 will be found to be , and per cent. for values of respectively , equal to , 2 , and microfarads .
+Owing to the nature of the error formula , the mean value of can be best obtained numerically by taking the mean wattmeter reading and the corresponding mean value of for each set of tests , and , the results as indicated in Table denotes the ratio of the difference between the wattmeter readings to the corresponding difference between the tangents , while the ratio of to is the phase error .
+Now , as already shown , the calculated values of , and add up to Dr. W. E. Sumpner .
+[ Jan. 21 , Table per cent. , disregarding the self-inductance of the moving coil , which will increase the number by an amount less than per cent. This figure agrees closely with the phase error of per cent. as actually measured for The value of , or the shift in the value of , caused by applying condensers of and 2 microfarads to the secondary winding , will be seen from the tests to be per cent. and per cent. respectively .
+These numbers can readily be compared with the values calculable from the capacities .
+The value of alone , as shown by Table TII , is per cent. for an exciting winding of the two outer coils in parallel and for the frequency of 80 .
+Also , it was found that 180 ampere turns round the field winding produced a magnetic flux corresponding with volt per turn at a frequency of , and , therefore , with volt per turn at a frequency of 80 .
+The alternation of such a flux would induce in 2000 turns a pressure of 320 volts at the latter frequency .
+Assuming the wave form of the voltage approximately sinuous , as was the case in the actual a condenser of 1 microfarad applied to the 2000 turns under the conditions assumed would take a current of ampere , or ampere , corresponding with .332 ampere turns for the coil of 2000 turns .
+The value of for a condenser of 1 microfarad is , therefore , very approximately given by per cent. per cent. Hence , condensers of and 2 microfarads would , at the frequency of 80 assumed , produce values of , respectively equal to per cent. and per cent. , which are essentially the same as the values actually found .
+The testing conditions were such that the closeness of the agreement is of no special significance , but it will be apparent that within the limits of experimental error the action of the wattmeter corresponds exactly with the formula given for it .
+1908 .
+] Alternate Current Measurement .
+Conclusion .
+The foregoing tests were all made with alternate currents of the low frequencies usual in commerce , on instruments of the non-reflecting type , each having a moving system subject to the control of a strong spring .
+Few tests yet been made on reflecting instruments in which a weak control is used for the moving coil .
+Under such conditions much ) crreater sensitiyeness can naturally be secured , but , to causes already mentioned , the sensitiveness reached will not even then be comparable with that obtainable with the best direct current galvanometers .
+To measure very minute alternate currents or voltages it must ultimately prove necessary to use instruments of the heterostatic type .
+such purposes the shunt-excited elecCromagnet see1ns specially suited , and additional interest in consequence attaches to the foregoing examination of the behaviour of voltage-controlled letic fields .
+The precision of direct current measurements is mainly due to the use of null methods .
+Analogous methods have been ested , or can easily be devised , for alternate current testing .
+But such methods are not used .
+The advantage of a null method arises from the possibility of fully utilising the sensitiveness of an for the purpose of measuring or a small difference between two nearly equal quantities .
+It follows that when , as with alternate currents , instruments sufficiently sensitive to indicate such a difference do not exist , null methods are really of little value .
+In fact , when the testing voltmeter is such tlJat the deflection depends on the square of the voltage , a direct deflection method is sensitive than a balance method , the voltage tested is not large enough to over-deflect the instrument .
+By making use of bhe properties of separately excited -controlled fields it seems ible to construct voltmeters for alternate current working which are quite as sensitive as the corresponding direct current instruments , and which are also such tlJat the deflecting forces are proportional to the first power of the voltage tested .
+The special difficulties due to phase can be readily overcome , since it is easy to apply in succession to the field ccil two cves of known relative magnitude and phase .
+For the purpose of null methods the nitudcs of these need only be very roughly determined .
+The instruments yet made have been suitable only for low-frequency circuits .
+-frequency working special difficulties will arise , while others will disappear .
+For low frequencies the chief difficulty is to make igible the phase error , represented approximately by the ratio of resistance to impedance .
+For frequencies will become quite Current Measurement .
+negligible , but on the other hand , the phase error due to the inductance of the moving coil circuit , will become serious , as also possibly will eddy current effects in the core of the .
+Eddy currents in the core only affect the accuracy of the magnet in so far as they affect the value of , provided the core is so well laminated that the distribution of the magnetic field is the same for direct as for alternate currents .
+With very frequency currents the value of will be negligible , and , possibly , in some cases , there will be no need to use iron in the core , so that eddy currents will not occur .
+The increase of the inductance phase error for high frequencies is more serious , but on the other hand it is possible to compensate it , not only for one but for all frequencies , by means of the condenser winding .
+It can readily be shown that while varies inversely as the frequency , the ratio of to varies directly as the square of the frequency , so that is directly proportional to the frequency like Hence , it should prove possible by using a suitable condenser in conjunction with a special winding to neutralise the phase error of the instrument for all frequencies for which is negligible .
+

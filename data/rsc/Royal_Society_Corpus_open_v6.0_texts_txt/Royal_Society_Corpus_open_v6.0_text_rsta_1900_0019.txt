@@ -1,0 +1,833 @@
+]\gt ; INDEX SLIP .
+, G. Udny.\mdash ; On the Association of Attributes in Statistics : with Illustrations from the lVIaterial of the Childhood Society , \amp ; c. Phil. Trans. , vol. 194 , , pp. 257-319 .
+Children , Association of Defects in .
+YULE , G. U. Phil. Trans. , vol. 194 , 1900 , pp. 257-319 .
+Statistics , measurement of Association Yunn , G. U. Phil. Trans. , vol. 194 , 1900 , pp. 257-319 .
+[ 257 ] VIL On the Association of Attributes in Statistics : with lllustrations from the of the Childhood Society , G. UDNY YULE , formerly Assistant Professor of Applied thematics , University College , London .
+Communicated by Professor KARL PEARSON , F.R. Received October \mdash ; Read December 7 , 1899 .
+CONTENTS .
+Page .
+I.\mdash ; Introduction . . . .
+II.\mdash ; General relations .
+261 III.\mdash ; Association .
+270 \mdash ; Probable errors . . . . .
+283 .\mdash ; llustrations ( A ) , miscellaneous . . . . .
+288 , , ( B ) , Association of defects in Children and Adults .
+297 I. CTION .
+S1 .
+In the ordinary theory of statistical correlation , normal or otherwise , we are always supposed to be dealing with material susceptible of continuous variation , or at least of variation by a considerable number of discontinuous steps .
+The correlations of lengths or measurements on portions of the body form examples of the first kind ; of numbers of children in families , petals or other parts of flowers , are examples of the second .
+Certain practical cases arise , however , where either no variation is thinkable at all , or else is not measured or possibly measurable .
+We may class a number of individuals into deaf and not deaf , blind and not blin , imbecile and not imbecile , without attempting to go further ( although gradations of deafness , blindness , and imbecility occur ) , and demand on the basis of the enumeration a discussion of the association* of the three infirmities .
+Or again the data may be the mortality from some disease with and without the administration of , say , a new antitoxin , the statistics giving number who died to whom antitoxin was admimistered , to whom antitoxin was not administered ; \ldquo ; , , * To distingl it from the " " correlation\ldquo ; of continuous variables .
+VOL CXOIV .
+14.7.1900 number who did not die to whom antitoxin was not administered , to whom antitoxin was administered ; , , and from these data a discussion of the value of the cure is required .
+Here there is no scale of " " death\ldquo ; ; there may be a scale of ' ' antitoxin\ldquo ; if the dose varied , but not otherwise .
+S2 .
+Evidently such cases are of great importance , but the theory and means of handling them have received little attention from statisticians .
+Logicians have had a monopoly of the theory , but the superior interests of pure logic seem generally to have hindered them from developing it in a practical direction .
+The classical writings on the subject are , I suppose , those of DE MORGAN , *BooLE , and JEVONS .
+Without attempting to criticise the work of his predecessors , to both of whom he was of course greatly indebted , the method of the latter must be allowed to far exceed theirs in clearness and simplicity .
+BOOLE'S calculus of elective operators is highly complex in its working and necessitates the remembrance of many somewhat artificial rules ; JEVONS ' method is practically intuiti. .
+It is a matter of surprise to me that JEVONS never made any practical application of his method ( so far as I am aware ) during the decade or more that elapsed between the publication of his paper loc. and his death .
+The following is a brief explanation of his notation and method .
+S3 .
+The symbols \amp ; c. , are used to denote objects or individuals having the qualities , \amp ; c. The terms enclosed in.brackets thus\mdash ; ( A ) , ( B ) , ( C ) , \amp ; c. , denote the frequency of individuals possessed of the quality or qualities , or , or the total number of such individuals observed in the given " " universe of discourse.\ldquo ; S A compound term like AB denotes the class or group possessed of both qualities A and , and ( AB ) its frequency ; compound groups may occur with any number of specified qualities , i.e. ( ABC ) , ( ABCD ) , or ( BDKMN ) .
+Corresponding to each positive term there is a negative term which we shall denote by a small Greek \amp ; c. Thus signifies " " not A " " not and so on ; and , \amp ; c. , their frequencies .
+All symbols are used non-exclusively , A signifying objects having the quality A with or without others , and so on , consequently the frequency of any class can be expanded in terms of the frequencies of its sub-classes .
+'Formal Logic , ' chap .
+VIII .
+, " " On the Numerically Definite Syllogism 1847 .
+' Analysis of Logic , ' 1847 .
+'Laws of Thought , ' 1854 .
+" " On a General System of Numerically Definite Reasoning 'Memoirs of Manchester Literary and Philosophical Society , ' 1870 .
+Reprinted in ' Pure Logic and other Minor Works , ' Macmillan , 1890 .
+S I have used this convenient term of the logicians for the material discussed\ldquo ; throughout the paper .
+There seems no exact equivalent in ordinary statistical language .
+I have substituted small Greek letters for JEVONS ' italics .
+Italics are rather troublesome when reading , as one has to spell out a group like AbcDE , ' big , little , little , big , big E It is simpler to read .
+The Greek becomes more troublesome when many letters are wanted , .
+owing to the non-correspondence of the alphabets , but this is not often of consequence .
+OF ATTRIBUTES IN STATISTICS .
+Thus ABCD ) and also if ( U ) be the total frequency ( total number of observations , total number in the " " universe of discourse The whole of JEVONS ' method , so far as applied to purely numerical problems , depends on the use of equations of the above form , or the expansion of groups in terms of their sub-classes .
+S 4 .
+We shall adopt the following conventions .
+When requiring to distinguish the qualities denoted by English letters from those denoted by Greek , we shall call the former positive qualities , the latter .
+A group in which all the qualities specified are positive will be called a positive group , and conversely .
+A group specified by qualities ( positive or negative ) will be termed an nth order group .
+To distinguish the nth order groups in variables from nth order groups formed from a larger number of variables , we shall refer to the former as " " ultimate\ldquo ; groups .
+Two groups such that each quality in the one is the negative ( or contrc ) of each quality in the other will be termed contrary groups , and their frequencies contrary frequencies .
+Thus ABCD are pairs of contraries .
+The case where the frequencies of contrary groups are equal is of some importance .
+This will be called the case of " " equality of contraries Consider , for example , the case of normally correlated continuous variables .
+If A denote the class in which some quality is above the average , the class in which the same is below*average , and so on with \amp ; c. , then from the symmetry of the surface we must have * Logically " " not above average but we take the average as a mathematical point , so that there are no individuals with exactly average qualities .
+260 MR. G. UDNY YULE ON TIi , \amp ; .
+, ( AB ) , \amp ; .
+, , \amp ; .
+, and so on with groups of any order .
+I shall return later to this case and to the that .
+this equality of contraries produces .
+S5 .
+It may be noted at this point that may ften , be rapidly expanded by using ABC , \amp ; c. , as " " elective operators\ldquo ; in BoOLE'Ssense , and using the general law of multiplication of operators , with the special conditions UA i.e. , selecting out the universe of discourse , and then selecting out the 's from it , is the same thing as selecting out the 's at .
+once , and the " " index law\ldquo ; i.e. , repeating the operation of selecting out the 's has no effect on the objects included .
+To denote that the letters are being used as operators we will use square brackets .
+Thus or ( AB7 ) .
+We only mention the process it affords such a rapid and easy means of expansion .
+The results obtained by its use can always be obtainedat alittle greater length by an elementary process of step-by-step substitution .
+S6 .
+Before proceeding to the consideration of association a'nd so forth , it seems necessary to discuss somewhat fully the general relations subsisting between the frequencies of different groups , and the number of independent frequencies of any order .
+Suppose , for example , we are dealing with three attributes and their ries ) .
+Twelve second order and eight third order groups can be formed from these .
+It might appear then that if the frequencies of the second order groups were given , there would be a sufficient number of equations to determine the frequencies of the third order groups .
+As a matter of fact this is not so ; the twelve second order frequencies do not form independent data , and the question arises , How many are independent or , in general , how many independent ffequencies or groups are there in the order groups produced from variables I i.e. , how many oftheee / OF ATTRIBUTES IN STATISTICS .
+order ffequencies must be given ( nothing else being given ) in order that the remaining frequencies of the same order may be calculated ?
+These questions are considered in the next section ( II .
+) .
+In Section III .
+correlation or and its measurement are treated ; Section IV .
+deals with probable errors ; and in Section V. some arithmetical examples are given of the methods and results previously discussed .
+IL\mdash ; GENERAL RELATIONS .
+Number of Independent equencies .
+S7 .
+Before proceeding to the problem above described , , we will first prove the theorem\mdash ; " " The frequency of any group whatever can always be expressed entirely in terms of the ffequencies of the poritive groups of its own and lower orders , and the total frequency ( U ) .
+This theorem may most simply be proved by the method of multiplying operators as described in the introduction , replacing any negative operator like by A and multiplying out .
+We may , however , effect the reduction by step-by-step substitution .
+Thus .
+To take terms of the fourth order , for instance\mdash ; ( ABCD ) ABCD ) ( ABC8 ) ( ABC ) \mdash ; ( ABCD ) ( AB ) \mdash ; ( ABC ) \mdash ; ( ABD ) ABCD ) ABCD ) ABCD ) ( 1 ) .
+Evidently from the form of the last equation all the positive groups are required to express the frequency of an entirely negative group .
+S8 .
+Now to the problem\mdash ; " " To find the number of independent frequencies of mth order groups , the number of variables being .
+The number of positive groups of order is ( number of combinations of things . . . . .
+But the heorem of S7 the frequency of any group of the order can be expressed entirely in terms of the frequencies of positive groups .
+Therefore the number of independent order frequencies must be equal simply to the total number of positive groups of the mth and lower orders , including ( U ) , the group of order zero ; that is , equal to or " " The number of independent frequencies of the order in variables is equal to the sum of the first binomial coefficients This gives the following expressions for the number of independent frequencies of the second , third , fourth , and fifth orders\mdash ; Order 2nd 3rd 4th , , 5th .
+, , The total number of frequencies of any order is equal to the number of positive frequencies of that order ( see above ) multiplied by , since each letter , \amp ; c. , may be replaced by its negative , and this gives the folowing expressions for the second to fifth orders:\mdash ; Order 2nd 3rd , , 4th 5th \ldquo ; It is evident from these expressions that , in the general case , the frequencies of any order can never be expressed in terms of lower order frequencies .
+Table I. below gives the number of independent frequencies and the total number from to and to TABLE I. Number of Groups of the OF ATTRIBUTES IN STATISTICS .
+S9 .
+of Equality of Contraries .
+Before proceeding to the determination of the numbers of independent frequencies in this case , we shall first prove the following three theorems:\mdash ; Theorem L If equality of contraries subsist for frequencies of any given order , then it subsists for all lower orders .
+Theorem II .
+If equality of contraries subsist for any even order of frequencies , say , then it need not in general subsist for order .
+If , however , it be assumed to subsist for order , then the frequencies of this order can be expressed in terms of those of the lower order Theorem III .
+If equality of contraries subsist for any odd order of frequencies , say , then it must subsist also in frequencies of the next higher order 2 But frequencies of this higher order cannot be expressed in terms of those of order The first theorem may be very simply proved .
+S10 .
+Suppose we are given , for example , that equality of contraries subsists for frequencies of the fifth order ; then we have ( ABCDE ) ( aS ) ( as ) or adding ( ABCD ) S and so on .
+The expansions of contrary frequencies are in fact necessarily contrary themselves .
+S11 .
+Next for Theorem II .
+To take the simplest case , let us suppose equality of ntraries given for the second order frequencies .
+Take any third order group and expand it in terms of its contrary and second order frequencies .
+This may be done most elementarily step by step .
+Thus .
+: .
+Evidently no equality of contraries amongst second order groups will give us ( ABC ) .
+But if we assume this relation to hold we must have an equation which expresses the third order frequencies in terms of the second .
+Similarly if equality of contraries is to subsist amongst fifth order groups when it subsists amongst those of the fourth o1der , we must have 2 ( ABCDE ) ABCD)BCDE)aCDE ) . . .
+( 3 ) .
+AB the method of expansion used is evidently quite general , this proves Theorem II .
+MR. G. UDNY YULE ON ffiB OCIATION Equations ( 2 ) and ( 3 ) evidently quite special relations .
+The set of arbitrary frequencies in Table II .
+below is drawn up to illustrate the theorem thS case of TABLE II .
+second and third order frequencies .
+Column 4 gives a set of second order frequencies for which equality of contraries subsists , the numbers for this having been in other respects written down at random .
+These give the first order frequencies of Column 2 .
+If we now proceed to calculate the third order frequencies by equations of the above form , that is , using the figures of Column 4 , ( ABC ) we get a set of frequencies , Column 6 , for which equality of contraries subsists .
+If we take , however , an arbitrary value for ( ABC ) , say 15 ; and calculate the remaining frequencies of the same order from it , we get a set of third order frequencies ( Column 7 of Table II .
+) for which equality of contraries does not subsist , but which is equally consistent with the second order frequencies .
+S12 .
+Now apply precisely the same method to a group of the fourth order .
+We get finally ABCD ) .
+But if equality of contraries subsist for the third order groups , we have by the theorems of S11 , S10\mdash ; OF ATTRIBUTES IN STATISTICS .
+( ABCD ) i.e. , if contrary are equal in the of third order groups they equal in case offourth order groups .
+The method ofproofis again quite general in its application , s heorem I. is proved .
+I have thought it again worth while to illustrate the theorem numerically , and have drawn up Table III .
+for the purpose .
+A set of arbitrary fourth order frequencies ( set ( 1 ) , with contraries equal , was first written down , and from them the given set TABLE III .
+\ldquo ; , , ' , of third order frequencles calculated .
+Now our theorem tells us that the equality amongst the fourth orders depends solely on equality amongst the thirds ; so that we ought to be able to get any number of sets of fourth order possessing equality of contraries , and all consistent with the given set of third order .
+That this is so will be at once evident on trial .
+Take ( ABCD ) for instance .
+Then we have at once ( ABC ) \mdash ; ( ABCD ) ( ABS ) \mdash ; ( ABCS ) \mdash ; ( ABS ) giving ( ABCD ) VOL CXCIV . .
+2 Similarly all the other frequencies may be calculated , and we get set ( 2 ) .
+If we take ( ABCD ) we get .
+All three sets are consistent with the set of third order , and possess equality of contraries .
+The state of affairs is precisely the opposite of that illustrated by Table II .
+, where only one set of third order ffequencies could be obtained , consistent with the given set of the second order , and possessing equality of contraries .
+* It should be noted , however , that the possible number of fourth order sets in such a case as the present is not infinite , for certain limits are imposed by the fact that negative frequencies are impossible .
+Thus , if we take ( ABCD ) we have ( ABC8 ) or if ( ABCD ) ( ABCS ) ( ABS ) so ( ABCD ) must lie at all events between the limits 58 and 5 .
+S 13 .
+It follows from what we have proyed that a state of complete equality of , in which this state subsists for groups of all orders , is not and cannot be an artificial state created by choice of the points of division between A and and and so on , but must arise from some real and natural symmetry in the distribution of frequency .
+In dealing then with the next problem , to find the number of independent frequencies of any order in the case of complete equality of contraries , we must not rashly apply the formulae obtained ( by extrapolation , as it were ) to an empirical case in which we only know that the condition subsists for a few low orders .
+The general result we arrived at was that the number of independent frequencies of mth order in variables was given by the sum of the first terms of the series In this expression we may now strike out alternate terms commencing with , for these represent frequencies of odd order which can be expressed in terms of the next lower order of frequencies , and so do not give any independent .
+This leaves the series . .
+, *Note only noticed in reading Tables II .
+and III .
+in proof that the theorem holds " " If two sets of ultimate mth order frequencies are both consistent with a given set of order , the differences between corresponding pairs of order frequencies are numerically constant It is noted below ( pp. 272 , 273 ) that this holds for second order frequenoies .
+The theorem is proved at once by expanding the order frequencies in terms of the two sets of the order .
+OF ATTRIBUTES IN STATISTICS .
+and the number of independent frequencies of order in variables is equal to the sum of the first terms of this series .
+The number of independent equencies of order is of course equal to the number of independent frequencies of order These rules give the numbers in Table IV .
+below .
+TABLE IV .
+\mdash ; Complete Equality of Contraries .
+S14 .
+In the ( Phil. Trans. ' for 1898 a very striking theorem was given by Mr. W. F. SHEPPARD , *expressing the frequencies like ( AB ) , , \amp ; c. , in quadrants of the normal surface in terms of the coefficient of COlTelation r. Our equations like ( 2 ) in S11 , on p. 263 above , enable us at once to extend the use of this theorem to the case of three variables .
+Let us take two examples from the case of Heredity on the assumption of Galton 's Law .
+( 1 ) If the father and grandfather of a man are both above the average as egards any one character , what is the chance that he will be above the average ?
+The following are the correlation coefficients:\mdash ; Son and father Son and grandfather Father and grandfather . . . . .
+Mr. SHEPPARD'S theore then gives the following ' the frequencies per above and below average .
+above ) elow 2015 2015 2985 below 2740 2260 ae 2260 2740 The first scheme holding for father and grandfather as well as son and father .
+'Phil .
+Trans , vol. 192 , p. 101 .
+Now if .
+ABC for son , father , grandfather , and the capitals to denote " " above average Greek letters " " below average we want ( BC ) at once .
+From S11 , p. 263 , ( ABC ) chance required If only the father be known to be above average , chance of son being above average If , on the other hand , we ask what is the chance that the child will be above average if both the father and mother are so , we have , assuming the correlation with both parents to be the same , using for father , for mother , and assuming no assortative mating:\mdash ; ( ABC ) chance But if there be perfect assortative mating \mdash ; 2 ( ABC ) \mdash ; 2015 ( ABC ) chance Thus , if there be no assortative mating , a selection of father and mother is better than a selection of parent and grandparent ; but not so if there be assortative mating to any great extent .
+S15 .
+The relations that we have dealt with in the preceding pages have a general bearing on the theory of certain multiple integrals .
+If we imagine , as we have already done on several occasions , that the distribution of frequency is realy continuous and the points of division between A and and , \amp ; c. , arbitrarily fixed , then any ultimate frequency like ( ABCD ) , for example , is equivalent to the multiple integral expressing the total frequency contained within the four axes of the frequency surface -surface ) , taking each of these axes in either the positive or negativ , direction .
+Now we know that there are ultimate groups ( or multiple integrals of the above kind ) to be formed from variables , all of these groups being in the general case independent .
+Suppose the function expressing the distribution of frequency contain constants that remain in the expression , , for the le inbegral .
+Then we have the equations OF ATTRIBUTES IN rISTICS .
+aBCD or equations altogether .
+But if , we can express the constants in terms of the frequencies by means of the first equations , and then insert their values in the remaining equations , thus obtaining necessary relations between the frequencies .
+If the surface we are dealing with is symmetrical , there will be only independent ultimate groups , and must be less than if special relations are to subsist between the groups .
+Now this is the case in the normal surface itself The standard deviations will not appear in any of the multiple integrals , which must be functions solely of the correlation coefficients , \amp ; c. , and the total frequency .
+That is to say variables give constants that appear in the expressions for the total frequencies of the ultimate groups .
+This gives the following figures : There must therefore be one relation subsisting between the ultimate fourth order groups in normal correlation\mdash ; besides the mere equality of contrary frequencies\mdash ; five relations between the fifth order groups , sixteen between those of the sixth order , and so on .
+If we could find these relations the expression of fourth order frequencies in terms of third , sixth in terms of fifth , and so on , would cease to be indeterminate as in the general case of equality of contraries .
+Mr. SHEPPARD'S theorem could then be extended to the case of groups of any order in normal correlation , which would give results of great interest for calculating certain chances , , the chance of a man being above average when his father , father and grandfather , father , grandfather , and great-grandfather were above average .
+Finding myself quite unable to solve the above problem , I have handed it to Professor KARL PEARSON ; he informs me that the relations sought depend on equations between the area , sides , and angles of the generalised spherical triangle in hyper-space , but the problem has not yet been solved .
+It is curious that investigations into the theory of logic should lead to properties of hyper-spherical triangles or tetrahedra .
+III .
+ASSOCIATION .
+S16 .
+Two qualities or attributes , A and , are defined to be independent if the chance of finding them together is the product of the chances of finding either of them separately , i.e. , if ( AB ) ( A ) ( B ) ' or ( AB ) .
+This is , I think , the only legitimate test of dependence or independence\mdash ; association or non-association\mdash ; in the general case .
+S17 .
+Theorem .
+\mdash ; To show that if ( AB , ) then .
+Take the first equation of these three\mdash ; ( A ) , and so on for the others .
+So that if the chance of finding the two qualities together is the product of the chances of finding either of them separately , the chance of finding the one without the other is the chance of finding the one multiplied by the chance of not finding the other , and so on .
+Any one of the relations implies all the others .
+S18 .
+It at once from the above that if two attributes ( A ) and ( B ) are independent , the products of the contrary second order frequencies are equal , i.e. , ( AB ) , for each is equal to divided by .
+Not only so , but the converse is also true\mdash ; S 19 .
+If the cross-products are the are independent .
+Thus let ( AB ) .
+Now OF ATTRIBUTES IN STATISTICS Therefore ( ) ( ) ( AB ) ( AB ) .
+S Now it seems to me that one of the chief needs in handling statistics of the kind we are considering is some sort of " " coefficient of association which should take the place of the " " coeflicient of correlation\ldquo ; for continuous variables , and be a measure of the approach of association towards complete independence on the one hand and complete association on the other .
+Such a coefficient should\mdash ; ( 1 ) Be zero when the variables or attributes , are independent , and only when they are independent .
+( 2 ) It should be when , and only when , A and are completely associated , when either all 's are all 's are or all 's are all 's are or when both of these statements are true together , which can only be when .
+The three diagrams below illustrate the three cases which correspond to ( 3 ) It should be when , and only when , A and or and are completely associated , i. e. , when either all 's are all 's are all 's are all 's are *Note added \mdash ; It has times occurred to me as quite possible that I have limited myself too much in this section by defining the case of ' ' complete association\ldquo ; as equivalent simply to the logical case .
+An association coefficient of greater analytical convenience might have beer .
+obtained by defining attributes A and as completely associated only when all 's were all 's were A. The distinction of the logical case by a definite value of the association has , however , obvious conveniences .
+272 .
+MR. G. UDNY YULE ON THE ASSOCIATION or when both of these statements are true , which again can only be if .
+The three diagrams below illustrate these cases of negative association which correspond to ( AB ) ( AB ) S21 .
+The theorems just given show that ( 1 ) ( AB ) will serve as such a coefficient of association for-(1 ) When A and are independent the numerator is zero and therefore zero ; and conversely when is zero the variables are independent .
+( 2 ) When or , or both , ; and conversely when , or both .
+( 3 ) When or , or both , ; and conversely when ( AB ) or , or both .
+It is perfectly possible that other simple functions of the frequencies might be devised which should have the same properties , but at any rate will serve ; I do not wish to attach too great importance to the identical function employed .
+If we choose for such a purpose , however , its properties must be investigated .
+S22 .
+The numerator , or difference of the cross-products , has , as Professor KARL PEARSON has pointed out to me , a very simple and important physical meaning .
+It follows immediately from the equations used in S 19 for showing that when the crossproducts were eqnal A and were independent ; namely\mdash ; ( AB ) ; or if be the value ( AB ) would have if were zero ( AB ) OF ATTRIBUTES IN STATISTICS .
+That is to say , " " The excesses of ( AB ) and above and , and of and above and , are all equal , and equal to the ratio of the difference of the cross-products to the number of observations This theorem seems to me rather remarkable .
+I can find no similar relation for the sum of the cross- products so as to give a complete physical meaning to Q. S23 .
+Next let us determine any one of the second order frequencies , e.g. ( AB ) , in terms of and the first order frequencies .
+If we write ( 2 ) we have ( AB ) ( 3 ) .
+Now , whence ( AB)2 which is a quadratic for ( AB ) .
+Now let .
+( 4 ) , where may be called the surpluses of and .
+It follows that ( 5 ) and similarly for ( B ) and .
+In terms of these symbols the quadratic may be written whence ( 6 ) , .
+CXCIV.\mdash ; A. 2 or replacing by the original ( 7 ) .
+S24 .
+The question arises , what is the meaning of the alternative sign in the expression for ( AB ) ?
+One of the values given is , as a matter of fact , only a numerical solution , and is really impossible , so that the value of ( AB ) is not indeterminate .
+We may write ( 7 ) in the form ( 8 ) , and must be less than 1 and greater than The product of the two values given by the sign is If be negative this is negative , and so the lower value is negative or impossible ; we must consequently use the sign .
+On the other hand , if we subtract 1 from each value above and again the product , it is and this is negative if be positive ; hence of the values is.greater than unity .
+When is positive we must therefore use the \mdash ; sign to the radical .
+If , one of the roots is unity and the other greater or less , according as .
+Thus , if we have for ( AB ) ( AB ) or , , ( AB ) or ( B ) .
+If is on the other hand , one root is zero ( AB ) or . .
+The values of all four groups are as follows , the first sign of the radical to be used when is positive:\mdash ; ( AB ) OF ATTRIBUTES IN STATISTICS .
+If , i.e. , if equality of contraries subsist amongst the first and second order groups , we have ( AB ) ( 9 ) .
+The following short table gives the values of and for different values of Q. The values of and corresponding to negative 's are the reciprocals of those corresponding to the positive values:\mdash ; Association and lation .
+S26 .
+The theorem already referred to , due to Mr. W. F. SHEPPARD , forms a connecting link between BRAVAIS ' coefficient of correlation and the association coefficient in the case of normal correlation .
+If the divisions between A and and , \amp ; c. , are the means of the corresponding variables 'Phil .
+, 1898 , vol. 162 , p. 101 .
+MR. G. IiDNY Y ON TliE ASSOCIATION .
+( 10 ) where as before .
+The figures below corresponding values of and is always slightly in excess of ?
+, the greatest difference being rather more than 1 for S27 .
+In the general case the value of is necessarily a function of the position of the origin , or of the arbitrary axes which are chosen for dividing A from and from .
+The evaluation of for any pair of axes in the case of normal correlation , depends on that of certain definite integrals which have not yet been tabulated .
+To get some idea of the general character of the dependence I have calculated the value of for every possible pair of axes in the annexed ( observed ) frequency table ; the frequencies*being the small figures , and the values of those entered in heavy type at each origin .
+An inspection of the table will show that is a minimum for axes near the mean of the whole table , and a maximum for origins near the limits .
+At the extreme boundary the values vary suddenly and erratically , owing to the necessary discontinuity of the observed frequencies , and here we may get values for the association .
+In other parts of the table , however , negative values only occur in most exceptional positions , and appear to be due to accidental irregularities .
+The sign of agrees with that of the correlation coefficient over almost the whole table .
+S28 .
+It does not seem possible to obtain for a function that shall not vary with the position of the axes in the general case , so long , at all events , as we adhere to certain conditions of symmetry for the function that seem to me almost necessary .
+It may perhaps be possible for a strictly normal frequency distribution .
+* There is some slight error , possibly due to copying , in the ncies of the table , as the totals of rows and columns occasionally contain odd quarters , whereas they should only co1nain odd halves .
+I do not think this is of any practical consequence .
+ATTRIBUTES STATISTICS .
+r- : There is one case , and one only , where is independent of the axes chosen , and that is where the variables are strictly independent .
+Let be the elementaryfrequencies corresponding to of variables , and let , be the frequency of the pair .
+Then , if the variables are strictly independent , we must have in every case being the total number of observations .
+Therefore , summing over any one quadrant , whatever the position of the axes , NS or ( AB ) and so on , so that is zero for all .
+It is impossible to create an artificial association , out of real independence , by mere choice of special axes .
+This is a most important limitation .
+At the same time it must be borne in mind that where the variables are not independent , as in the table on p. 277 , may be changed in sign or rendered vanishingly small by the choice of special ( possibly exceptional ) axes .
+* The whole subject of the connection between correlation and association demands further investigation , as it bristles with difficulties and possibilities of .
+In some practical cases there seems no doubt that the signs of and would be different , and , indeed , the physical meaning attached to their interpretation .
+In the present paper , however , I do not deal further with the subject . .
+also the example of assortative mating according to stature from Mr. GALTON'S 'Natural Selection , ' p. 82 .
+OF ATTRIBUTES IN STATISTICS .
+Partial and Associations between Groups of Attributes .
+S29 .
+In the value of , as written in equation ( 1 ) , p. 272 , the " " Universe of Discourse\ldquo ; is understood , not expressed .
+If " " \ldquo ; represent , say , deafness , and \ldquo ; blindness , we are probably dealing with the association of these infirmities within at most one nation , e.g. , English , or even one sex of the nation , e.g. , English men .
+Letters are not given to represent that the universe is so limited , it bein generally obvious from the context , but if we take English , .
+men , we can write ( 11 ) , adding the letters DE to every group .
+Such a coefficient of association will be termed a partial coefficient , as guished from the total coefficient of equation ( 1 ) .
+We may speak of partial coefficients of the 1st , 2nd , . . . .
+nth orders , according as the universe is limited by the specification of 1 , 2 , 3 attributes .
+These partial and total coefficients of association correspond roughly in their nature to partial and total coefficients of correlation .
+In the latter case , however , we limit the universe by specifying that in all members of the universe variable shall have the fixed magnitude ; in the former case we only specify that shall exceed or be less than The following notation for coefficients of association seems concise and convenient .
+The total association between A and we shall denote by AB between two vertical thus .
+The partial association in the universe of , CD 's , CS 's , or 's we shall denote by CS , IABICS S 30 .
+The number of possible partial coefficients becomes very high as soon as we go beyond four or five variables .
+Supposing attributes re given , we can form partial coefficients of the nth order any one of attributes .
+For we can form different uIliverses with attributes , and choose attributes out of , in different ways .
+But the number of possible pairs of attributes is , and therefore the total number of possible partial coefficients of the nth order , These expressions give the following figures:\mdash ; .
+S31 .
+But besides these partial coefficients there are others that we may form , where we deal with the association between two groups of qualities or attributes , or between a single attribute and a group .
+These coefficients arise naturally out of the total coefficients ; for in any total coefficient a single letter may realy represent an aggregate of qualities that we may more completely denote by a group of letters .
+Thus A may represent deaf-mubism , imbecility , and the association between deaf-mutism and imbecility ; but if we amplify the notation and use deaffiess , dumbness , imbecility , the association between deaf-mutism and imbecility will be represented by ( 12 ) .
+This is quite distinct from .
+The latter measures the association between A and in a group of individuals all possessing C. The former measures the association between and the compound attribute AB .
+A more general form of.association coefficient is such a " " group coefficient\ldquo ; with the universe specified , i.e. , a partial group coefficient .
+For example ( 13 ) .
+The Method of Serial Chances .
+S32 .
+There is a very common method of handling such associations as we have here to deal with , more especially where it is desired to discuss the association of some one attribute A with a series of others \amp ; c. The chances , \amp ; c. , are simply tabulated in order of magnitude , and the attribute X for which the chance of X being , or , is greatest is held to be the \ldquo ; most important cause of The method seems to have been first brought forward , as a definite statistical method , by QUBTELET , in a pamphlet published in 1832 , ' Sir la possibilit6 de mesurer OF ATTRIBUTES IN STATISTICS .
+l'influence des causes qui modifient les elemens sociau it is either explicitly or implicitly used.in most statistical discussions of causation .
+To take an example from QUBTELET'S pamphlet , I give below a table of the chances of condemnation of various categories of prisoners in the French Assize Courts during the years 1825-30 .
+Here A must stand for condemnation , for the various attributes of the accused ( superior education , being a woman , being a man , \amp ; c The chances tabulated are then , , \amp ; c. , except No. 8 , which is .
+QUETELET went further than a of the simple chances , and used as a measure of the " " degree of influence\ldquo ; of the cause the function ( 14 ) , these measures being given in the second column .
+S33 .
+Now from the work in S22 , p. 272 , we have at once ( ) ( 15 ) , ( U ) ( B ) so that if , A and are certainly positively associated , and if negatively associated .
+It does not follow , however , that if , A and are more closely associated than A and C. If we write and if are the values of the functions for AB and , then It is entitled ' Lettre a M. Willerme de l'Institut de Franco Bruxelles , 1832 .
+( Royal Statistical Society 's Library.\mdash ; Tracts , S. 4 , vol. 6 .
+) VOL CXCIV .
+; .
+( 16 ) , being the surplus ratios for , and C. Hence if the right-hand side is certainly less than unity , and or That is to say , if the surplus ratios of and are the when ; but if they are not , this result does not follow .
+We can , then , only refer to equation ( 16 ) .
+QIIETELET'S function is for this purpose the same , in effect ; as he only divides the difference of the chances by .
+We may write his function in the form ( 17 ) .
+S34 .
+Now it seems to me that association coefficients and QUETELET'S functions , or chances like \amp ; c. , roughly correspond in their uses to correlation coefficients and regressions .
+The correlation coefficient is a symmetrical function of the variables , ranging between , and is zero when the variables are independent .
+The association coefficient is a symmetrical function of the attributes , ranging between , and is zero when the attributes are unassociated .
+The regressions are zero when the correlation coefficient is zero , but are not symmetrical functions of the variables ; they depend on the values of the standard deviations as well as the correlation ; and even if the regression of on be greater than the regression of on , it does not follow that unless The QUETELET functions ( or simply differences of the chances ) are zero when the association coefficient is zero , but are not symmetrical functions of the variables ; they depend on the values of the surplus ratios as well as the association ; and even if for AB be greater than for AC or , it does not follow that unless .
+Finally the regressions of on , \amp ; c. , may be said to measure the ' relative degrees of influence\ldquo ; of unit alterations in , \amp ; c. , on , just as QUETELET takes his function to measure the ' ' relative degrees of influence\ldquo ; of , \amp ; c. , on A. Thus , referring to the table given ( p. 281 ) , he remarks , " " on voit par la qu'une instruction superieure exerce un influence cinq fois plus grande que l'avantage femme since848 is some five or more times062 .
+I confess I do not altogether like QUETELET'S function , as there does not seem to me any point in this sort of case in dividing by , or in our previous notation .
+If was in one case.9 and in another 45 , it seems absurd to count an attribute that raises by 05 in either case , half as effective in the former case as the latter ; one would rather consider it more effective in the former case .
+OF ATTRIBUTES IN STATISTICS .
+S35 .
+I do not profess to have given in the foregoing pages more than an outline of the theory of the case with which the statistician has to deal ; in stronger hands it could probably be carried much further .
+The method I have suggested has the advantage of bringing the case of association somewhat into line with that of correlation ; assimilating the method and conceptions of the case of association to those of the better known field .
+The statistician has to handle problems of peculiar difficulty , where the association may have any value .
+The logician demands before he will consent to infer , and limits himself to this special and elementary case .
+At the opposite pole to that of the logician we may imagine a " " logic of independence where is always zero\mdash ; a case hardly less artificial and quite as interesting as the converse , but one where inference is frequently impossible .
+\mdash ; PROBABLE ERRORS .
+S36 .
+Let be the frequency of any one group of any order , and let be the total frequency observed .
+Also let .
+Then the standard deviation of or is at once given by . . . . .
+( 1 ) .
+The S.D. of the frequency is times this .
+S37 .
+Now consider the frequencies of two groups and let us find the correlation between errors in their frequencies .
+We must here consider two different cases , ( 1 ) where we are dealing with two ultimate groups , e.g. , ( AB ) , or ( ABC ) , or ( ABC ) where we are dealing with the two non-ultimate groups , e.g. , ( A ) ( B ) , or ( AB ) ( AC ) , or ( AB ) ( CD ) .
+CASE 1 .
+Ultirnate Groups.\mdash ; Let be the two frequencies , their ratios to N. Suppose to undergo an increment ; there is then a total decrement to be spread over the remaining groups in proportion to their frequencies , the sum of the 's being constant and equal to unity .
+Therefore ( 2 ) .
+Let be the correlation coefficient between errors in and Then the above equation gives us or for groups ( 3 ) .
+Hence ( 4 ) , an expression that we shall frequently require .
+S38 .
+CASE 2 .
+Non-ultimate Groups.\mdash ; Let A and be the groups , to take the simplest case only , which is all we at present require .
+Then , or , dividing by , say . . . .
+( 5 ) .
+Squaring ( 6 ) .
+Substitute for in terms of the first order frequencies , and also for in the first bracket .
+Then we have ( 7 ) , or for when these are non-ultimate groups .
+( 8 ) .
+Now if the attributes AB are independent , so that if the attributes are unassociated errors in their frequencies are uncorrelated .
+On the other hand , errors in the frequencies will be perfectly correlated if ( AB ) or else which is more than is necessary for complete association the groups are ultimate we see from equation ( 3 ) that errors in their frequencies are always correlated , unless , indeed , the frequency of one of the groups be vanishingly small .
+S39 .
+We may now proceed to find the probable errors or standard errors of and Q. Let be the values of for any four groups forming a tetrad , e.g. , let ABCDE ) aBCDE ) Then for this tetrad ( equation ( 2 ) , p. 273 ) is given by OF ATTRIBUTES IN STATISTICS .
+( 9 ) .
+We may write the above Hence , if or is zero , , and ; if or is zero , , and S40 .
+To take next , the standard error of which can be derived at once from that of @ ( 10 ) .
+Transform by substituting for ( 11 ) .
+This again becomes apparently infinite if one of the 's vanishes , but whichever of the 's is zero .
+So that the probable error of the association coefficient , like that of the coefficient of correlation , vanishes at the limiting values In the case of equality of contraries we may express the error of as a function of only ( vide equation 9 , p. 275 ) , viz. , ( 12 ) .
+The standard error of the correlation coefficient is simply so the S.D. of is the greater ( for equal numerical values of and r ) by the fraction on the right .
+The value of this fraction is given below:\mdash ; Ratio of Standard Error of to Standard Error of ( for numerical values of and ) .
+For corresponding values of and , however , the probable error of is less , not greater , than that of , i.e. , if we form and for the same material the probable error of the former constant is the smallest .
+The table on p. 276 , S26 , gives corresponding values of the two coefficients , and these are repeated below with their probable errors : In determining the value of the probable error of we have , however , implicitly assumed that the dividing points between A and \amp ; c. , were fixed and not liable to * In both these tables the value used for the probable error of corresponds to the determination of by the product-sum method .
+By any other method , e.g. , Mr. W. F. SHEPPARD'S , the probable error is greater , and this would increase the divergence between and , as regards reliability , in the last table .
+OF ATTRIBUTES IN STATISTICS .
+error .
+If the dividing points be taken to be the means , this is not so , and the probable error of would be increased .
+S41 .
+The standard error of the surplus ratio comes very simply ( 13 ) , so that the probable error of is the smaller the larger S42 .
+It remains to determine the correlations between errors in surplus ratios and between errors in surplus ratio and errors in association .
+The first problem proceeds exactly as in the case of finding the correlation between errors in two nonultimate groups ( p. 284 , equations ( 5 ) ) .
+( AB ) or say where are the surplus rations of A and B. Proceeding as in the preyious case ( 14 ) .
+( 15 ) .
+Whence ( 16 ) .
+These regressions are positive if A and be positively associated .
+Thus if A be , for example , genius in father , genius in son , and , if in a sample of the population there be found to be a surplus of genius differing from the average by , then we should expect to find in the sons of the sample a surplus .
+, where .
+S 1 . .
+S43 .
+To proceed to find the correlation of errors in and , say , If Therefore ( 17 ) , that is to say , there is no correlation between errors in association and errors in surplus .
+Although we were to select out of the whole population a particular group with an abnormally large surplus ratio for any one attribute , we would not expect any definite divergence from the normal in the associations of that attribute observed within the group .
+Of course all the expressions we have given above are for standard errors ; the values of the probable errors will be obtained by multiplying them by the constant 674489 .
+V.\mdash ; ILLUSTRATIONS .
+A. Miscellaneous .
+( 1 .
+) Small-pox attack rate and vaccination .
+( 2 .
+) Examples from Mr. GALTON'S " " Natural Inheritance\ldquo ; :\mdash ; Assortative mating according to temper .
+Association of temper in fraternities .
+Inheritance of artistic faculty .
+Assortative mating according to stature .
+( 3 .
+) Examples from DARWIN'S " " Cross and Self Fertilisation\ldquo ; :\mdash ; Cross fertilisation of parentage and tallness of offspring .
+Pure self fertilisation and crossing of flowers on same plant .
+( A ) .
+Misceltaneous .
+Smal-pox and vaccination .
+At the very commencement of this paper death-rates , with and without the administration of an antitoxin , were suggested as affording suitable examples of\ldquo ; association Death-rates by small-pox amongst the vaccinated and unvaccinated would form such OF ATTRIBUTES IN STATISTICS .
+an instance , but the figures I found most suitable to my purpose are attack-rates\mdash ; not death-rates .
+The following table gives the ( percentage small-pox attack rate , in houses actually invaded by smatl-pox , of persons under and over 10 years of age , five towns in which small-pox epidemioe have recently occurred .
+Sheffield Warrington .
+Dewsbury Leicester .
+Gloucester .
+From these data we can work out the association between " " lack of vaccination\ldquo ; and " " attack for children and persons over 10 years of age .
+If we call attack nonvaccination\ldquo ; , the data given are 100 and 100 ; subtracting each percentage , we get 100 and 100 .
+Thus for the coefficient of association in Sheffield for children we have where we have divided through numerator and denominator of the ordinary expression for by , leaving its value unaltered .
+This seems rather an interesting case , as the form in which the data are presented does not give the surplus ratio for non-vaccination , i.e. , the ratio of non-vaccination to vaccinated , but does give the association coefficient Q. The whole series of , values are given below , and form a striking additiOn to the previous table .
+The association between non-vaccination and attack is very high indeed for young to \mdash ; but drops sharply to Association between Non-vaccination and Attack in Infected * I havo takenthe table from Mr. NOEL A. HUMPHREY'S paper , ' Vaccination and Small-Pox Statistics ' Journal Royal Statistical Soc vol. 60 .
+It is quoted by him from the 'Final of the Vaccination Commission , ' p. 66 .
+VOL. OXCIV .
+5 ( owing presumably to the waning protection of the vaccination m- in iubcy ) in the older age group .
+The constancy of the association in towns with widely different attack rates is a point worthy of notice .
+Sheffield , Warringon , and ester exhibit practically identical associations , although the attack rates vary from to and to Not having the original figures for these cases I cannot state the probable errors .
+S From Mr- GALTON'S " " Natural Inheritance Assortative Mating according to Temper.\mdash ; On p. 231 of " " Natural Inheritance\ldquo ; Mr. GALTON gives the data , based on 111 marriages:\mdash ; . .
+Good-tempered husbands with pered wives 24 per cent. Bad-tempered , , good-tempered , , 31 Good-tempered , , , , , , 22 Bad-tempered , , bad-tempered , , 23 , Here for the association between temper in husband and wife , i.e. , on the whole badtempered husbands have good-tempered wives , and vice versed .
+But the probable error of the association so that only very slight stress can be laid on the sign of the association .
+The advantage of having the whole question of the association thus compressed into one figure , with a definite probable error , is here very clearly marked .
+Comparing the actual figures with the distribution in the case of no association , Mr. GALTON concluded " " that the figures taken from observation run as closely with those derived through calculation as could be expected ffom the smaU number of observations * S46 .
+Association of Temper in Fraternities.\mdash ; On p. 235 of " " Natural Inheritance\ldquo ; Mr. GALTON gives , in the same investigation , data for the association of temper in a fraternity ( group of brothers and sisters ) .
+Thus in sixty-six ffaternities of three members there were eleven cases reported in which all were good-tempered ; fifteen in which one was good and two bad ; twenty-one in which one was bad and two good ; and eight in which.all were bad .
+From data of this kind I formed all the possible pairs ( permutations .
+Thus in the above case , using for good , for bad , I find the number of pairs as below:\mdash ; This conclusion is in part affected by a slight error ( owing to accumulation ) in the " " non-associated\ldquo ; figures given .
+The constant ) difference between the and iated .
+, frequencies is 2 cent. to the unit .
+OF ATTRIBUTES IN STATISTICS .
+Getting out the number of in the same way for fraternities of all the sizes given , I find the totals:\mdash ; Good-good . . . . .
+330 pairs .
+Good-bad and bad-good 255 , , each .
+Bad-bad . . . . .
+454 .
+This value seems rather low ; the fraternal correlation of 4 should correspond to an association of about 49 , or more as the axes of division are not taken through the medians .
+S47 .
+Inheritance ofArtistic eulty-.-- Natural Inher.itance- , \ldquo ; p. ) \mdash ; The data are :\mdash ; Number of artistic children with artistic parentage 296 non-artistic parentage .
+173 , , non-artistic children- with artistic , , .
+372 non-artistic parentage 666 , We have called the parentage artistic where either parent is so entered .
+Mr. GALTON : S table does not separate the sexes .
+The above is consequently a kind of ' ' mid-parentage\ldquo ; inheritance table .
+The association coefficient is The correlation.of offspring with mid-parent is to an association \mdash ; or remarkably close to the above ; but the close agreement must be more or less accidental .
+As we have seen ( p. 276 , and example ) , shifting the axes of division of a correlation surface towards the extremities of the surface , so as to increase or decrease the ratio of each attribute , increases the association between them .
+This ought to have -made the association somewhat higher in the present case , as there only 4 artistic children to 1038 non-artistic , or .
+It is interesting MR. G. UDNY YULE ON THE ocIATION to note that apparently , from Mr. GALTON'S figures , there is a negative mehtion between the artistic character of parentage and fertility ; thus : When both parents are artistic , number of children to ffaternity is 49@ one parent is , , , , , , , , neither , , , , , , , , , , This would not , however , affect the association between artistic faculty of parentage offspring , as increasing or decreasing the frequencies 296 and 372 in any constant ratio would not alter the ratio of the cross-products .
+The interest lies in the fact that artistic faculty is apparently a heritable attribute associated ( negatively ) with fertility , and hence ( as Professor PEARSON has pointed out ) would tend to disappear in the absence of opposing causes .
+S48 .
+Assortative Mating according to Stature.\mdash ; I give this example as an instance of the fact that the association between attributes depends very largely , in some cases , on what I have called the choice of axes , i.e. , the strictness of definition of the attribute .
+The following are the data giving the number of observed cases in which a , medium , or short husband was mated with a tall , medium , or short wife Natural Inheritance p. 206 ) .
+Now , if we take the dividing point between the " " tall\ldquo ; or " " fairly tall and " " fairly short\ldquo ; or\ldquo ; short\ldquo ; to be ( 1 ) between tall and medium , ( 2 ) between medium and short , we get the following data : OF ATTRIBUTES IN STATISTICS .
+In the first case In the second Thus the first case gives a positive , the second a negative association between stature of husband and stature of wife , in both cases the value of is greater than its probable error , and the difference between the two 's is more than twice the probable error of the difference .
+I think the above change of sign implies that while tallness in husband is associated with tallness in wife , ( extreme ) shortness is not associated with ( extreme ) shortness .
+Thus 30 per cent. of the tall husbands have tall wives , but only 20 per cent. of the short husbands have short wives ; 36 per cent. of the tall wives have tall husbands , but only 18 per cent. of the short wives have short husbands .
+While it appears at first sight an unsatisfactory characteristic of association that its sign may depend on the axes chosen , I believe that this is not really the case .
+On the contrary , such changes of sign may call attention to important physical realities , masked by the application ( possibly ) of the " " rectilinear\ldquo ; theory of correlation , to cases where it gives a result of a somewhat crudely average character .
+Where only one average sort of result is similarly desired for the association I think the lines of division between A and , and so on , should be taken through the means or medians .
+S DARWIN'S " " Cross and Self Fertilisation of Plants The attributes , the association of which is here discussed , are " " crossing of parentage\ldquo ; and " " tallness of height\ldquo ; in plants .
+Thus , the one attribute is really invariable ; the parentage must be either crossed or self-fertilised\mdash ; since asexual propagation is excluded .
+The other , however , really variable , and hence , in accordance with the preceding remarks , the point of division between tallness and shortness is best taken at the mean .
+In many of the species the number experimented on by DARWIN is too small to give any reliable coefficient of association .
+I have therefore picked out only a few of the species for which most data were available and investigated them , to see whether there were any reliable differences between the associations observed for different species , and as a rough ground for comparison I have pooled together the results for the thirty-eight different species for which there were sufficient data , and worked out the association for the total .
+The data are given in the table below .
+The " " average height\ldquo ; referred to is the average height of cross and self-fertilised plants taken all together ; if their numbers were unequal the cross and self-fertilised were averaged separately , and the mean of the two averages taken .
+Different generations are also all pooled together for each species , but each of the tables in the book ( different generations or experiments ) was averaged separately , and the heights in it referred to its own averages .
+* * For other details I must refer to the book itself .
+Thus , in some tables a pot of " " crowded plants in The associations I find for the whole mass and for the five species chosen are Number of plants .
+Whole series .
+1094 Ipomea purpurea .
+Petunia violacea Reseda lutea . . .
+Reseda odorata . . . .
+Lobetia fulgens . . . .
+Are these differences significant ?
+Taking successive differences down the table from onwards I find Probable error Difference .
+of difference .
+Petunia viotacea and Reseda lutea 090 tutea and Reseda odorata 25 184 Reseda and fulgens .
+20 184 and for the extreme difference viotacea and 61 155 These figures can leave no doubt , I think , that specific differences do exist as regards closeness of association between crossing and vigour of even in species all normally cross fertilised .
+The difference between Ipomea purpurea or , and Lobelia fulgens is certainly significant , and not only so but each successive difference in the above short table is greater than its probable error .
+It must be remembered that we are dealing with a different point to that noted by DARWIN ; he is dealing with the amount of the difference between crossed and self fertilised offspring ; we are measuring the approach towards absoluteness of the law that there is a constant difference .
+The law is much less permits of many more individual with some species than with others .
+A curious point is the significant difference between the wild and cultivated species of Reseda .
+The difference may possibly be due to the cultivated character of R. odorata , but certainly need not be , as the two first species on the list in which the association between height and crossing is 9 are both cultivated species foreign to England .
+Reseda odorata was also erratic in its behaviour as regards self sterility ( cf. " " Cross and Self Fertilisation p. 119 and pp.336-9 ) , some plants being highly self fertile , others quite self sterile .
+The offspring of highly and slightly self fertile plants were , however , equally vigorous .
+In the table on p. 295 I have entered the sign of the association in the column on the left ; as I have stated , the probable errors are so large that it seems misleading to give ' which only the tallest of each lot was measured , is included .
+In other cases I have pooled outdoor-grown plants with plants in pots , taking the average height separately as above , and so on .
+OF ATTRIBUTES IN STATISTICS .
+Association between Cross Fertilisation and Tallness of Height ( CHARLES DARWIN , ' Cross and Self Fertilisation the amounts in all cases .
+In six cases of the thirty-eight the sign is negative , and in three cases the association is zero .
+S50 .
+There is another interesting point of the same investigation in which the present method will enable us to state clearly the quantitative result and its probable error .
+This is the question whether fertilisation of a flower with pollen ffom another flower on the same plant is any better than strict self-fertilisation .
+DARWIN came to the conclusion that in only one of the five species tried\mdash ; Digitalis purpurea\mdash ; was there any sensible advantage in crossing different flowers .
+The point was a difficulty , as there should be an advantage , though a slight one , on his theory that the benefit of cross-fertilisation arises from differences in the general constitution of flowers crossed .
+In only three of the five species tried are the numerical data given in the form required for the present method .
+They run as below:\mdash ; Thus , in the case of lpomea purpurea , the association is distinctly negative\mdash ; crossing with another flower of the plant was worse than pure self-fertilisation\mdash ; but in both the other cases it is positive .
+Mimulus , it is true , offers somewhat doubtful evidence ( two experiments having given conflicting results ) , but the coefficient of association is almost twice its probable error .
+The foxglove certainly exhibits far the highest and most significant association .
+Two out of the three species give a positive result , and if all the species are pooled together the result is positive .
+The fact is we are looking , in all probabihty , for a very small association , and extensive experiments may be necessary to render its existence certain .
+Taking the above results together , I should certainly they gave evidence on the whole of a positive association .
+The odds against the negative association in the case of Ipomea oocurring as a purely OF ATTRIBUTES IN STATISTICS .
+chance deviation ffom the positive would be , roughly , twenty-one to four , or say five to one only\mdash ; not overwhelming odds by any means .
+As in the general case of complete crossing versus self-fertilisation , the differences between species are , however , almost certainly significant .
+It may be true that " " crossing of different flowers on the same plant is always , on the average , better than pure self-fertilisation , \ldquo ; but the closeness with which the law holds good will vary in different species .
+VI .
+continued .
+( B. ) The of Defects in Children and Adults .
+S 51 .
+The material on which the following investigation is based is drawn almost wholly from the " " Report on the Scientific Study of the Mental and Physical conditions of hildhood , issued by a committee with representatives from the British Medical Association , the British Association , the Charity Organization Society , \amp ; c. Before 1892 the same work was in the hands of other committees of those bodies , and in 1897 , " " Childhood Society\ldquo ; was formed to carry it on .
+Two series of investigations have been made under these committees , the first from 1888-91 , the second from 1892-94 .
+As I understand , the whole of the observations in the first period , and the great majority of them in the second , have been made by Dr. FRANCIS WARNER .
+For the complete description of the method of observation , \amp ; c. , I must refer to the report itself .
+A very large number of schools were visited ( Board Schools , Poor Law Schools , Voluntary Schools , \amp ; c. , most , but not all , in London ) , and the children in them examined individually for the presence or absence of certain defects , of which the main classes were ( using Dr. WARNER'S notation ) .
+A. Defects in development of the body or its parts ; in size , form , or of parts .
+B. nerre ; certain abnormal actions , movements , and balances .
+C. Low nutrition , as indicated by the child being thin , pale , or delicate .
+D. Mental dullness .
+The teachers ' report as to mental ability was added to the record of each child registered , and those stated to be below the average in ability for school work were registered as " " Dull These main classes of defects observed were the same in both investigations , in each of which 50,000 children were observed .
+The returns given are , however , somewhat more detailed for the later investigation , the material being sub-divided , for instance , into school standards .
+I have used material from both .
+S52 .
+The whole of this mass of observations was made , as stated , on children not * Published by the Committee , Parks Museum , Margaret Street .
+Price ffiport ; pp. 12-13 .
+A fuller description of the signs is given on pp. 13-16 and pp. 72 .
+cxc1v .
+older than fourteen years or so .
+For purposes of comparison , and in order to be able to follow the association of defects from childhood to old age , I have made some use of the material available in the Census .
+* This consists of the numbers of those who are blind , deaf and dumb , or mentally deranged , and the numbers of those suffering from combinations of these defects ; the sexes are separated and the numbers in different age groups are given .
+The figures are very unreliable in the early groups , especially for " " mental derangement , \ldquo ; but so far as I know they are the only figures of the kind published .
+I have not used the age group at all , and the others appear to give much the sort of associations one would expect , quite comparable with those given by the results of Dr. WARNER'S investigations .
+S53 .
+The case to be treated is by no means a simple one .
+Suppose a certain group of young children to be observed at some time and the frequencies of an combinations of certain defects noted ; let the survivors be again observed after a lapse of years , and the defects be again noted .
+Changes in the relative frequencies and the associations observed between defects will have taken place for three reasons\mdash ; ( 1 ) Because some of those originally observed have died ; ( 2 ) Because some have outgrown or lost certain defects ; ( 3 ) Because others have acquired defects .
+We have taken the case as referring to children , but the first and third causes of change are equally , or more , effective in the case of adults .
+Now if the observations were made as supposed , and a record kept of the same individuals , the effect of each change could be distinguished .
+Those who had either lost or acquired during the intervening period could be struck out of both series ; the resulting changes would be due to selection only , and so on .
+But unfortunately this is not the case in any published statistics of which I am aware , even in the Childhood Committee's\ldquo ; work , where such a procedure might well have been adopted .
+All that is given is that a certain group , closely centered round a * Census of 1891 , vol. 3 , Tables 15 , 16 , .
+lvii .
+; 1881 , vol. 3 , Tables 14 , 15 , .
+In the Census of 1871 the numbers with combinations of defects are not given , so the material is not available for the present purpose .
+In the Census of 1881 those who are ' Idiot or Imbecile " " are distinguished from the " " Insane , \ldquo ; lboth in the first and second order groups , and I have made some use of this ( cf. below , p. 312 ) .
+In 1891 those ' Mentally Deranged from Childhood\ldquo ; and ' Blind from Childhood\ldquo ; are distinguished from others , but the same distinction is not continued where these defects are combined with others .
+The notation of the Census is not clear : by the courtesy of the Registrar-General I am informed that " " Blind\ldquo ; indudes Blind.and Dumb and so on ; but ' Blind and Dumb\ldquo ; does not include " " Blind , Dumb , and Mentally Deranged i.e. , the quencies given are ( A ) ( B ) ) ABC ) .
+This should be made clear in a future Census .
+Cf .
+remarks in the Census Reports for 1881 : General Report , p. 68 .
+I speak of ' ' defects\ldquo ; as they form our subject matter , but the reasoning applies to attributes of any kind .
+I would define a defect , tentatively , as an attribute the possessors of which have a death-rate above normal , but I do not know that this applies to all , e.g. , of the defects noted by Dr. WABNER .
+OF ATTRIBUTES IN STATISTICS .
+certain age , has certain percentages of defectives and exhibits certain associations between defects .
+Another group , of another mean age , has different percentages of defects and different associations .
+Such differences are due to all three of the above causes of change acting together , superposed in general on wholly unknown initial differences between the groups , due either to their being differently gathered samples , or to a secular change taking place in the population .
+It becomes , then , impossible to separate , except conjecturally and in a more or less tentative manner , the effects of selection from those of growth\mdash ; including under this term all processes of change that take place in the individual .
+S54 .
+Let be the four second-order frequencies observed for any pair of defects for an early age , and let be the frequencies at alater age in the same individuals , or in an older age group of the same population .
+Then if Q. be the association coefficients for the two groups , the values of the corresponding ratio of the cross products if or Let Then so long as If we are dealing with a population subjected solely to selection , are the survival rates for the four classes ; the quantities we may ] the " " survival figures\ldquo ; for the three classes , and the condition may be written That is , if the survival figure for the class with two defects be less than the product of the survival figures for the singly defective classes , the association will decrease .
+A priori I could not say whether this condition should hold or not ; it appears possible that selection might either decrease or increase association .
+Practically the condition does seem to hold , , as mentioned above , the evidence is not complete nor certain , for we cannot , amongst present data , find a single case in which change is certainly due to selection alone without other causes .
+When we are comparing one age group with another of the same population the * Below p. 312-315 .
+'s are no longer , of course , simple survival rates , and may be greater than unity .
+This is notably the case for instance with such defects as increase rapidly in old age , , blindness or mental derangement .
+S55 .
+Let us turn now to the consideration of Dr. WARNER'S materiak .
+In Table below I give the associations observed between the six possible pairs of defects in the two successive investigations , together with the probable errors of the association coefficients .
+At the bottom of the table are given the percentages of the children , observed with given defects , or , and with any defect or combination of defects .
+* The associations observed are on the whole very markedly lower in the second investigation , and the percentages of children with given defects are smaller ( except for dullness ) , but owing to the lower association the total percentage of defective children has risen , in the case of the girls , from to per cent. TABLE I.\mdash ; Comparison of the Association Coefficients in the Investigations of 1888-91 and 1892-94 .
+A. Development Defects .
+B. Nerve Signs .
+C. Low Nutrition .
+D. Mental Dullness .
+The associations are , however , all high ( very high compared with most coefficients of organic correlation with which one has to deal ) , ranging ffom784 to 952 .
+I.e. , the figure is 100 .
+OF ATTRIBUTES IN STATISTICS .
+S56 .
+The differences between the associations cannot probably be , at present at all events , assigned to any definite cause or any definite difference in the material observed .
+We would expect to find differences of association in different groups , just as we find differences between the correlation coefficient for different local races , without our being able to say with certainty how these differences have come about .
+In many cases the differences are certainly real , as they are large compared with the probable errors of the differences\mdash ; three to eight times the probable errors .
+That considerable differences exist between different classes of schools , not only in the proportions of defective children but in the associations between defects , is shown by Table II .
+( based on Table 19 of the Report ) , and consequently the divergence between the results of the two investigations may be due to the different classes of schools observed .
+Such differences between schools may in their turn be partly or wholly due to differences of age or nationality between the children .
+The effects of age we deal with below ( pp. 309 , et seq. ) ; the differences between nationalities*are illustrated by Table TII .
+( based on Tables 27 , 28 of the Report ) , showing the associations for English , Jews , and Irish:\mdash ; S57 .
+These two tables suggested to me at first sight an apparent law\mdash ; that ciations were on the whole higher where populations were healthier or less defective .
+If we take Table II .
+, 4 of the 6 associations in Poor Law schools are greater than those in Industrial schools ; 4 of the associations in Homes and Orphanages are greater than those of the Poor Law schools , equality subsisting in one of the remaining cases ; and 5 of the.associations in Elementary schools are greater than those in Homes and Orphanages , taking the schools in order of healthiness .
+The case is not so marked for girls , and we must note that for them the Homes and Orphanages are more defective than Poor Law schools .
+In Table III .
+for the boys , Jews are more defective than English , and Irish than Jews ; the Jews are less associated than English in 4 cases of the 6 , and the Irish less associated than the Jews in 4 cases our of 6 also .
+But again the case breaks down for girls .
+English girls are more defective than Jewish girls , but their associations are less in just 3 out of the 6 cases ; Irish girls are more defective than English , but their associations are actually greater in the majority of cases .
+If we compare in this way only those cases that are adjacent in the order of defectiveness we get TABLE II.\mdash ; Boys .
+Girls .
+Associations greater where defectiveness less in 12 cases , in 9 cases .
+less or equal , , , , , , 6 , , 9 , TABLE III.\mdash ; Associations greater where defectiveness less in 8 less or equal , , , , , , 4 .
+, 7 \ldquo ; It must be noted that they were all Lmdon children OF ATTRIBUTES IN STATISTICS .
+TABLE III.\mdash ; Illustrating the Variation in Associati.ons between Defects in different Nationalities ( 1892-94 ) .
+A. Development Defects .
+B. Nerve Signs .
+C. Low Nutrition .
+D. Dullness .
+Thus the statistics of the girls do not at all support the first impression given by the figures for boys , and the whole of Table I. is directly adverse to any such hypothesis .
+In 10 cases out of the 12 of that table the associations are smaller in the second investigation , but in 6 cases out of 8 the proportions of defects are also smaller .
+Finally , it must be remembered that the theorem given on p. 288 in the section on Probable Errors does not lead us to expect apriori any correlation between degree of association and degree of defectlveness , and we must therefore demand pretty clear proof of the existence of such an empirical relation .
+The facts shown below that women are at once less defective and more highly associated than men , and that partial coefficients of association in undefective universes are higher than total coefficients , and much higher than partial coefficients in defective unlverses ( Tables IV .
+and V , pp. 306-307 ) , may be said to bring some support to such a hypothesis , but other explanations are here possible .
+The fact that the association decreases throughout life , as far as we can judge from present material , while defectiveness also decreases in later childhood ( cf. below , p. 310 ) is against it .
+Thus I do not think we can accept the hypothesis without wider evidence ; I have mentioned it as it occurred to me , and would probably occur to others , as covering certain of the facts presented .
+S 58 .
+The foregoing figures of Tables I.-III .
+show that all the defects dealt with by Dr. WARNER are associated to a high degree , though this degree varies somewhat in different groups of material .
+The question now arises , can we investigate further the nature of the association between A and or and ?
+Suppose the hypothesis to be put forward , for example , that nutrition was the cause of both def.ects in development and nerve signs , and that we only found the latter occurring together because they were both generally present in cases of low nutrition ; could this hypothesis be tested ?
+It could be proved at once by forming the partial coefficient .
+If this were small the hypothesis would be confirmed , as we would be shown that on excluding all cases of , A and ceased to be associated .
+If , on the other hand , were stil large , even though slightly smaller than , the hypothesis could only be partially true or be a partial explanation .
+The partial coefficients in undefective or negative universes thus play the same sort of part in checking interpretations as partial coefficients of correlation .
+Partial associations in positive or mixed universes give further information ; if , for instance , CD , \amp ; c. , be all of the same order of magnitude as , it is evident that the presence of continues to be a bad symptom\mdash ; to render A more even when , \amp ; c. , are already present .
+If , on the other hand , these associations are small , or zero within the limits of probable error , the piling up of symptom on symptom , or defect on defect , ceases to make the case any worse .
+S 59 .
+Now in the present case we have four defects to handle .
+These give 6 total coefficients ; 12 first-order coefficients with negative and 12 with positive universes ; 6 second-order coefficients with wholly negative , 12 with partially positive , and 6 with wholly positive universes\mdash ; or 54 altogether ( excluding what I have called " " group coefficients I did not think it worth while to calculate all these , and have confined myself to the total and second-order partial coefficients .
+These are given in Table IV .
+for boys and Table V. for girls .
+As well as working out the associations for children of all ages , I have divided each sex into three groups : Infants , Standards I. to IIL , and Standards IV .
+to Extra VIL ( material in Report , Table 21 ) .
+This serves for two purposes : first , to check signs , \amp ; c. , as given in the " " all \ldquo ; column ; secondly , to give some idea of change of association with age , purpose for which no other material is available in the Repor * A table is given ( Table 22 of the Report ) showing the frequency of defective groups , but the number of lmdefective children ) not given , nor the number of children observed at each age .
+This makes the useless for discussing the associations of defects in normal children .
+The importance of the OF ATTRIBUTES IN STATISTICS .
+S60 .
+Comparing first the partial coefficients with negative universes , S , \amp ; c. , with the total coefficients , we see that in every case , without exception , the partial coefficient is greater than the total .
+Hence it cannot be true that any one 01 the defects noted is , or is even indicative of , a necessary connecting link between any other two .
+That low nutrition brings on at once development defects and nerve signs , or development defects and dullness , so that we find these pairs associated is , for instance a hypothesis that may be partly true but is insufficient to explain the facts observed .
+Dr. hypothesis that " " the connecting link between defects of body and defective mental action is the defect of brain which may be known by observation of ' abnormal nerve-signs seems to me equally untenable ; it may be so in some cases , but on the other hand the " " connecting link\ldquo ; may be a defect of brain not indicated by abnormal nerve signs , or not a defect of brain at all .
+The demonstration of a necessary connecting link X between A and would , it seems to me , only be complete when was shown to be small compared with ; the demonstration that either or or or had to be present as a connecting link would only be complete if were shown to be small ( zero within the limits of error ) .
+Now S , AC S , \amp ; c. , are not small but even larger than \amp ; c. , hence , BD , \amp ; c. , cannot be necessary even as alternative connecting links or symptoms of such links in the way described above ; the case must be much more complex and depend on a much greater variety of conditions than those described by the four classes of defects noted .
+The followfigures show further how little the absence of nerve signs affects the chance of an individual with development defects being mentally dull ; on Dr. WARNER'S hypothesis should be small compared with Chance of.individual being dull who exhibits development defects Ditto , but no nerve signs .
+Ditto , but neither nerve signs nor low nutrition .
+S61 .
+Turning next to the partial coefficients with wholly or partly defective universes ( i.e. , associations in groups of which every member possesses either one or two defects in addition to the possible two of which the associations are considered ) , we see that the great majority are small and many even negative .
+The probable errors are , however , high , since the material is small when we are confined to those who are defective , so one cannot always lay great stress .
+on the sign .
+In three eases omission is apparently unrecognised , as the last Report issued ( 1899 ) only gives more such figures ; thiw seems to me waste of time and money .
+*Report , p. 1$ .
+VOL exav .
+TABLE IV.\mdash ; Showing the Associations between Defects for Boys , for different Groups of Standards , and for all Ages together .
+( 1892-94 investigation .
+) A. Development Defects .
+B. Nerve Signs .
+C. Low Nutrition .
+D. Mental Duhesa I.-IIL 11,482 * ' All ' includoe those in Standard and in no Standard not included in the other oolumna \mdash ; .
+OF ATTRIBUTES IN STATISTICS .
+TABLE V.\mdash ; Showing the Associations between Defects for Girls , for different Groups of Standards , and for Ages together .
+( 1892-94 investigation .
+) A. Development Defects .
+B. Nerve Signs .
+C. Low Nutrition .
+D. Mental Dullness .
+' ' All ages\ldquo ; includes those in Standard and in no Standard not included in the other columns .
+MR G. UDNY YULB ON rn lATlON at least , however , if not in four , the negative sign appears to be certainly significant ; I refer to the partial associations of A and which cases the twenty-four coefficients for both sexes are negative : and the one partial coefficient , seven out of the eight examples of which are negative , the one positive value Girls , Standard being only of its The first case is the most general and remarkable , but in both it will be noted we are dealing with an association of nerve signs .
+As might be conjectured from the generality of the sign , and are also negative , i.e. , when individuak exhibit either low nutrition or mental dullness , or both , the presence of nerve signs lessens the probability of development defects being present and , versed .
+This case is most remarkable , and the following figures , showing the chance of an individual exhibiting development defects ( or nerve signs ) when he exhibits nerve signs ( or development defects ) , and so on , illustrate it further .
+Multiplied by 100 the chances can , of course , be read as percentages , i.e. , 50 per cent. of 's are , but only 42 per cent. of BC 's are ( for the boys ) , and so on .
+A. Development Defects .
+B. Nerve Signs .
+C. Low Nutrition .
+D. Dullness .
+In every case the presence of is antagonistic to that of A when either or is present ; and A is similarly antagonistic to B. I am quite unable to suggest any possible explanation of this , but so unexpected a result ought to.throw some light on the physiological relations between the signs observed .
+It is particularly ourious to note that A and are negatively associated in the presence of either of two defects so apparently different as mental dullness and low nutrition .
+point seems to be worth further investigation by the committee .
+* *Note , E. B. SHULDHAM writes to me follows : My experience with boys at the farm schools was that many of the boys who had left poor homes in London .
+with insufflcient feeding suffered from suppuration of the cervical glands a few weeks after their removal Bisley , alsoto a bhange for the better in food , clothing , and shelter .
+After a prolonged residence at Bisley the glandular enlargements lessened , and the suppuration ceased This is interesting for comparison with the above , as we have here or rRlBUTES l 8TATISTIC@ .
+Change of Association with Age .
+S62 . .
+gather from Table XXV .
+of the Report that the average age of the " " Infants\ldquo ; would be three or four years , Standards I.-III .
+about seven years , and Standards IV.-Ex .
+VII .
+eleven or twelve .
+It is unsatisfactory not having a clear classification of the children by age pure and simple , as a classification of Standards must imply an uncertain amount of selection by mental capacity .
+It is a curious point that Standards I.-III .
+exhibit a higher percentage of defects , with the exception of cases of low nutrition , than either the " " Infants\ldquo ; or Standards .
+The percentages are given in for each separate Standard in Table VI .
+below , and in every defect there is a rise in frequency on passing from the TABLE VI.\mdash ; Showing the percentages of Children with given Defects and with any Defect in the different Standards .
+( 1892-94 investigation .
+) A. Development Defects .
+B. Nerve Signs .
+C. Low Nutrition .
+D. Mental Dullness .
+defe .
+" " All ages\ldquo ; includes those in Standard and in no Standard .
+group of " " Infants to Standard I.\mdash ; in most cases a considerable rise , the percentages of nerve signs more than doubling , and the percentages of development defects for an apparently negative association between ' suppuration\ldquo ; and ' low nutrition\ldquo ; in the case of boys of poor physique .
+Dr. SHULDHAM also states that the late Mr. H. JONES , for many years Superintendent of the boys at Bisley , noticed the fact that those boys who did not take green vegetables with their food night-blindness , which ceased when he insisted on their taking green food regularly for some weeks .
+This suggests that further inquiry as to nutrition and eyesight might be of a good deal of interest .
+MR. G. UDNY YULB ON Tr oclATloN boys increasing by half ; the percentage of dull also increases largely .
+One can only conclude that these defects , whether inherited or not , are not " " innate\ldquo ; in the simple sense of being observable at .
+birth or during early infancy ; possibly they may be brought on in part by the school attendance itself , a theory which would account for the sudden rise after\ldquo ; Infancy or rather early childhood .
+As for the subsequent decreases in the percentages of all defects , I am inclined to attribute them , in part at all events , to the selection by capacity that must take place .
+This would reduce the percentage of " " mentally dull and , owing to the association between defects , would also reduce indirectly the percentages of those with other defects .
+A proportion of the decrease one would expect to take place from natural selection , but probably a small proportion .
+We have , in fact , selective mortality , selection by mental capacity , and growth ( change in the individual ) , an acting together as causes of change\mdash ; and very probably also initial differences between the groups from which the older and younger children sprang\mdash ; precisely as was indicated in the previous discussion on pp. 299-300 .
+S63 .
+In the association coefficients there is , however , no irregularity in the group Standards I.-III .
+; the most cursory inspection of Tables IV .
+and V. shows that the total coefficients and partial coefficients with negative universes decrease when we pass from " " Infants\ldquo ; to the next group , and again ffom Standards I.-IIL to the next group .
+The changes in partial associations with positive or defective universes are not so obvious , partly , no doubt , because these coefficients are small and have large probable errors , but the majority of the changes are in the same direction .
+Table VIL shows the total number of changes in either direction .
+Thus comparing Standards I.III .
+with\ldquo ; Infants we see that in the case of the boys all the total associations and all the partials with negative universes have decreased ; of the partial associations in defective universes 8 only decreased while 10 have increased .
+Taking all cases together there are 88 decreases to 32 increases , but if we cut out the partiak 22 decreases to 2 increases only .
+However we take it there is overwhelming evidence that association in general decreases as age advances .
+S64 .
+That this is a law of pretty general application seems to be borne out by the entirely different class of statistics drawn from the English Census .
+* In Table VIIL are given the associations derived from these figures between blindness and dumbness , blindness and mental derangement , and dumbness and mental derangement .
+The figures do not run quite regularly , but the associations for the age group 5\mdash ; 15 are , in every case , greater than the " " all-ages\ldquo ; associations , and if we draw curves showing the change of association during life the downward trend is quite obvious ( curves of figs. 1 , 2 , 3 , p. 314 ) .
+Such decrease is again not , of course , the result of selection alone but of selectiv6 mortality , growth ( change in the individual ) , and initial differences in the childpopulations ffom which the successive age groups were formed .
+That changes in .
+on p. OF ATTRIBUTES IN STATISTICS .
+individual will ease association is obvious in the case of such a defect as blindness , which may be brought on by accident , cataract , or other causes having no bearing on mental derangement or dumbness .
+It is not obvious , however , why the association between blindness and mental derangement should be much smaller than the association between blindness and dumbness in the later age groups .
+S65 .
+The question of what would be the effect of selection alone\mdash ; or whether it would have any regular effect in one direction\mdash ; is , however , a most interesting one .
+TABLR VII.\mdash ; Showing the Number of Cases in which the Association Coefficient decreased or increased on passing ffom one group of .Standards to the next .
+There is a great majority of decreases .
+( Note.\mdash ; Two coefficients that remained constant from one Standard group to the next have been entered as creasing .
+) The fact that partial associations in undefective universes are higher than total associations , combined with my first impression ( unjustified I think ) that associations were , on the whole , higher iri the healthier groups , led me at first to believe that the effect of selection would be to increase associations .
+I still cannot help thinking that this is practically , as it is formally , possible , it being remembered that association will decrease or increase simply according as being the survival rates in the four classes AB , \amp ; c. S66 .
+We have no material , as already stated , for testing the effit of selection with any absolute certainty .
+The greater number of the ded and dumb , however , possess their defect from birth early childhoot and the same holds good for imbeciles or idiots as distinct from the insane .
+Benoe the ciation between deaf-mutism and imbecility wm be affected by selection leetive mortality ) to a large extent , at all events , as compared with those that were given in Table VIII .
+The necessary data for discussing the association in this case are given in the English Census for 1881 ( loc. cit. , note on p. 298 ) , and the results are tabulated in Table IX .
+The figures for males show a steady and continuous decrease in association , without a break ; for females there is , on the whole , a decrease , but it is less regular .
+* Taking both sexes together , I think the decrease in association is rather greater for dumbness and imbecility than for dumbness and mental derangement .
+Thus Table IX .
+seems to point to selection causing of association .
+This is the only evidence we have of at all a direct character , and so its results should be accepted pending the production of anything better .
+At the same time the material is obviously not unimpeachable , and an endeavour should be made to get reliable statistics for the special purpose .
+Differences between the Sexes .
+S67 .
+The differences exhibited by the sexes as regards association are so marked that they can hardly have failed to have struck the reader of the foregoing tables .
+In an immense majority of cases the association is greater for females than for males -dealing only with the total associations that is to say .
+This is true for all divisions of one material , and for the Census defects as well as for those dealt with by Dr. WARNER .
+The evidence is collected in Table X. , which is based entirely on the preceding tables .
+In 87 cases out of 101 , or 86 per cent. , the associations are greater for females than for males .
+There seems some indication of a decrease in the difference with advancing age ; thus in Standards .-Ex .
+VII .
+the females are only greatest in 3 cases of 6 .
+In the age groups over 25 , ling Tables VII .
+and IX .
+together , the females only exceed in 71 per cent. of the cases , or 15 out of 21 , instead of 86 per cent. , or 18 out of 21 .
+S68 .
+Besides being more highly associated , women are also in general defective than men .
+They exhibit a smaler percentage of individuals with development defects , nerve signs , or mental dullness , but a slightly higher percentag , with low * It will be noted that the age groups are not the same as in the last case , the figures being more coarsely in the 1881 Census .
+Professor PEARSON informs me that unpublished material in his hands goes to show that correla decreases with age ; theoretically also he would expect tion to decrease correlation .
+This .
+in accord vitb evidence for males .
+OF ATTRIBUTES IN STATISTICS .
+VOL. CXCIV .
+\mdash ; A. 2 @14 MR. G. UDNY YULE ON THE OCIATlON Diagrams Illustrating the Change in Association of Defects dunng Life ( Table VIII es es es ln years .
+OF ATTRIBUTES IN STATISTICS .
+TABLE IX.\mdash ; Showing the Association between Imbecility or Idiocy and Deaf-mutism for both Sexes and successive Age Groups ; and the proportion per 100,000 of Imbeciles and Deaf-mutes .
+nutritio In the case of Census defects(Tables VIII .
+and IX the proportion per 100,000 living at all ages is less for females in blindness , deaf-mutism , and imbecility , but greater females in the case of general mental derangement .
+Comparing the separate age groups the proportion per 100,000living at each age is least for females in every case at age groups under tweMy-five .
+In the older age groups , on the other hand , in the cases of mental derangement and imbecility , the females show the greater proportion of defectives .
+Thus at first sight it would appear that the female , though at first a greatly superior animal to the male , was liable to break down mentally at a much more rapid rate and at an earlier age .
+This , however , would probably be a fallacious conclusion ; it is pointed out in the Census Report for 1881 that the death-rate for male lunatics is known to be very much higher than for female almost half as high again in fact .
+Hence the greater portion per 1000living at the later age groups may , either entirely or to a large extent , be simply due to accumulation .
+There is apparently no evidence that the case-rate is greater for females at , he higher age groups .
+Thus , so far as we can say at present , the female may remain the less defective ahimal throughout life .
+S 69 .
+Summarising the general conclusions , I have shown good ground for accepting as general laws that females are more highly associated than males , and that *Cf .
+Table VI .
+, p. 54 , for a comparison in each separate Standard .
+General Report , pp. 66-67 According to the returns of the Lunacy Commissioners from 1872 to 1881 inclusively , the mean annual death-rate among the male insane was per cent. of the average daily on the register , while the death-rate of the females was per cent. The recovery rate of the males woe per cent. , and that the females per \ldquo ; TABLE X.\mdash ; Showing the number of Cases in which the Association between Defects greater for Males and greater Total associations only .
+associations are greater for the young than the old .
+I have not , however , been able to say with certainty whether the decrease in association was due to growth ( change in the individual ) aided by selection , or growth opposed by selection .
+The only available evidence suggested that selection acted in the same direction as growth .
+The total associations between defects were always high , except in some cases for the very old , but the partial associations for defective univexses were in most cases low , and in some cases even certainly negative .
+The partial .
+associations for undefective universes were , on the other hand , higher than the total coefficients , a facli which I held to imply that no one of the defects recorded was necessary as a connecting link between any other pair .
+S70 .
+During the course of the present investigation I have naturally been led to study pretty thoroughly the " " Report\ldquo ; of the Committee on Childhood , and the papers Dr. WARNER , bearing on the same subject , in the ' Journal of the Royal Statistical Society'\mdash ; papers which first drew my attention to the need of a theoretical study of the whole subject of association .
+I may be pardoned , then , for offering some suggestions as to the work of the Cowmittee as regards both OF ATTRIBUTES IN STATISTICS .
+of publication or arrangement of its results , and the directions in which ture work might possibly be undertaken .
+To deal with the questions of arrangement , \amp ; c. , first .
+I suggest that the notation might with great advantage be altered to the notation of , such as I have used .
+The shortcomings of a notation which has to represent the simple -order frequency by are ious .
+Next , I have noticed that the arrangement of frequencies is very irregular in the report .
+Where the ultimate fourth-order frequencies ( Dr. WARNER'S Primary\ldquo ; groups ) alone are given it quite clear , but where more are given he data are seldom complete , and groups of the same order are not kept together .
+As an example of the way in which I think frequencies ought to be given I append a table giving the general results of the investigation .
+If so much space could not be spared , I think the statement of the fourth-order frequencies is quite sufficient , as the others can be so readily calculated from the As regards future work , I find myself unable to follow at all the remarks made by the Committee on p. 5 of the " " Report\ldquo ; ( the italics are mine ) " " A very valuable addendum to vital statistics might be obtained by ] up the history of certain cases recorded , by subsequent periodical inspections , but as this is beyond the power of the present Committee , it can only be suggested as one among many other directions in which enquiry may be pushed in the hands of official ommissions The Childhood , as I gather from its Reports , contmuing the work of inspecting children in schools , and why it should be " " beyond heir power\ldquo ; to reinspect a few large schools year by year is by no means obvious .
+They are at present ( in the last Reports , for 1898-99 ) issuing statistics of the frequencies of different groups of defects for different ages .
+As I have already pointed out ( note on p. 304 ) these statistics are rendered almost worthless by the omission of the frequency the number of undefective each age , only those who were defective having apparently been noted .
+Even if the material were , however , complete , it would not enable us to distinguish between changes due to selection and changes due to growth , nor consequently to state what are the effects of these agencies each by itself .
+Nothing but observance of one group of individuals year by year can do this , and there seems little more difficulty in this than in the work already being carried out . .
+It is surely futile to expect a Royal Commission on the subject .
+It would , in fact , be more appropriate for a body , specially created for the " " Scientific Study\ldquo ; of childhood , to take up an investigation of the greatest scientific interest but probably of little immediate practical use .
+I would most strongly urge the * There appear to be a good many misprints in the Report , many of the frequencies being in disagreement with those given for the ultimat6 Primary groups .
+I have generally assumed the " " primary\ldquo ; frequencies to be correct .
+British Association Reports , 1898 , p. 691 ; 1899 , TABLE showing the Frequencies of all Groups of Defecta All Ago\amp ; ( 1892-94 investigation .
+) lmportance of such reinspections of the same children on the Childhood Society and the Committee of the British Association that corresponds with it .
+As a further subject , I suggest the question as to the hereditary character of these defects\mdash ; development defects , nerve signs , low nutrition , and mental dullness \mdash ; not necessarily by studying the parents , which would probably be a difficult matter , but by noting pairs of brothers .
+Suppose a large number of groups of brothers*\mdash ; " " fraternities\ldquo ; \mdash ; to be noted for some defect , say ; reckon for each * Or , of course , sisters ; or brothers and sisters , ' siblings\ldquo ; as Professor PXhRSON bproposed to call them , since we have no modern English word for members of the out regard to sex .
+OF ATTRIBUTES IN STATISTICS .
+fraternity the number of AA , , and pairs , as in the example on " " Temper in Fraternities p. 291 , and tabulate the total number of such separate pairs as in that example .
+These numbers give the association between brothers at once .
+A certain portion of such fraternal association might be due to similarity of environment for the brothers , if the defects observed were much affected by this .
+I do not see how the home-environment could be allowed for , but it could be tested whether the environment of school had any such effect .
+Take from a considerable number\mdash ; say 100\mdash ; different schools a series of samples , say 50 or 100 children ffom each .
+Each of these groups forms what we may call a " " community\ldquo ; or group subjected to common conditions , as opposed to the fraternity .
+Find the association between members of the Community in just the same way as the association between members of the Fraternity .
+This would give a measure of the effect of environment as opposed to inheritance .
+Possibly this might be done with the material now in the hands of the Society .
+

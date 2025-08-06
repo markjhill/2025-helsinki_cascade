@@ -1,0 +1,177 @@
+III .
+" On the Orders and Genera of Quadratic Forms containing more than three Indeterminates .
+" By H. J. STEPHEN SMITH , M.A. , F.R.S. , Savilian Professor of Geometry in the University of Oxford.-Second Notice .
+Received October 30 , 1867 .
+The principles upon which quadratic forms are distributed into orders and genera have been indicated in a former notice ( Proceedings of the Royal Society , vol. xiii .
+p. 199 ) .
+Some further results relating to the same subject are contained in the present communication .
+I. The Definition of the Orders and Genera .
+Retaining , with some exceptions to which we shall now direct attention , the notation and nomenclature of the former notice , we represent by fa primitive quadratic form containing n indeterminates , of which the matrix is 11 j ; 11 byf , / , f ... .the fundamental concomitants off1 , of which the last is the contravariant .
+The matrices of these concomitants are the matrices derived from the matrix off , so that the first coefficients off2 , f , ... 2X2 3X3 in--1 X -lfn_ , , are respectively the determinants Ai , j| , I..,3. .
+Ai , j l , takein with their proper signs .
+The discriminant of fl , i. e. the determinant of the matrix IAi I , which is supposed to be different from zero , and which is to be taken with its proper sign , is represented by v7 , .
+The greatest common divisors of the minors of the orders n--1 , n-2 , ... 2 , 1 in the same matrix are denoted by Vnp VnV2 , V , of which the last is a unit ; we shall presently attribute signs to each of these greatest common divisors .
+The quotients Un .7n-1 , n- .
+Vn2 , 2 Vn-1 Vn-2 Vn-2 Vn-3 V1 1 which are always integral , we represent by I_ , In _ , ... I , ; so that Vk , Vk-i The numbers I1 , I,. .
+I , _ 1 are the first , second , ... .
+last invariants of the form f , and remain unchanged when/ f is transformed by any substitution of which the determinant is unity and the coefficients integral numbers .
+Forms which have the same invariants have of course the same discriminant ; but ( if the number of indeterminates is greater than two ) forms which have the same discriminant do not necessarily have the same invariants ; for example , the quaternary forms x21 + x2 + 2x,2 6x2 , 2+ x2 ++3 12 2 have the same diserminant 12 , but their invariants I1 , I2 , 13 are respectively 1 , 2 , 3 , and 1 , 1 , 12 .
+As forms which have the same discriminant , but different invariants , do not necessarily have any close relation to one another , we shall not employ the discriminant in the classification of qua197 1867 .
+] but we shall regard the infinite number of forms , which have the same invariants , as corresponding , in the general theory , to the infinite number of forms which have the same determinant , in the theory of binary quadratic forms .
+If the index of inertia of the form f is k , i. e. if f1 can be transformed by a substitution of which the coefficients are real into a sum of l positive and n-k negative squares , we attribute to the invariant Ik the sign - , and to every other invariant the sign + .
+Thus the numbers V1 , V2 ... .
+Va are allpositive ; Vk+l , Vi+2 , .
+V. .
+are alternately negative and positive , so that the discriminant V , , is of the same sign as ( -)n-k , as it ought to be .
+This convention with respect to the signs of the invariants will enable us to comprehend in the same formulae the theory of the generic characters of forms of any index of inertia .
+We shall , however , suppose that the index of inertia is at least 1 , i. e. we shall exclude negative definite forms .
+The invariants of a positive definite form are all positive ; and the index of inertia of any indefinite form , of which the invariants are given , is always indicated by the ordinal index of its negative invariant .
+We shall represent by D the product --1 x -I , X -I X ... , the last factor being -I_ , , or -I , _ according as n is even or uneven .
+Iff Oi=-fi the forms 01 , 02 , 03,. .
+, _nare the primitive concomitants , and the last the primitive contravariant , of f , or 0 , ; each one of them is either uneven , i. e. properly primitive , or even , i. e. improperly primitive .
+Two forms , which have the same invariants , are said to belong to the same order when the corresponding primitive concomitants of the two forms are alike uneven or alike even .
+When the invariants are all uneven , and the number of the indeterminates is also uneven , there is but one order , none of the primitive concomitants being in this case even .
+Again , when the invariants are all uneven , and the number n of the indeterminates is even , there is either one order or two , according as D_ -1 , or =+1 , mod 4 ; for in both cases there is an order in which all the primitive concomitants are uneven , and in the latter case , besides this uneven order , there is an even order , in which these forms are alternately even and uneven , the two extreme forms 0~ and 0n_1 being even .
+In the general case , when the invariants have any values even or uneven , if Ii is even , 0i cannot be even ; again , if Ii is one of a sequence of an even number of uneven invariants , preceded and followed by even invariants , 0i cannot be even .
+But if there be a sequence of an uneven number of uneven invariants Ii , i+P. .
+Ii+2j , preceded and followed by even invariants , the sequence of primitive concomitants i , i+p ... Oi+2j are all uneven if 0 .
+is uneven , and are alternately even and uneven if 0i is even ; a sequence of forms or invariants may consist of a single form or invariant .
+We attribute the value 0 to the symbols Io and I , , the value 1 to the symbols 00 and 0 , ; thus the invariant I1 198 [ Dec. 5 , is always to be regarded as preceded by an even invariant , and In_l as followed by an even invariant ; similarly the forms 06 and 8 , _ , are to be regarded as respectively preceded and followed by uneven forms .
+Two even forms cannot be consecutive in the series 0. .
+O. , _ The preceding observations enable us to assign all the orders which may exist for any given invariants ; if the series of invariants I , 1 ... I. .
+, I_ present w different sequences each consisting of an uneven number of uneven invariants , preceded and followed by even invariants , there are 2 ' assignable orders .
+These orders , in general , all exist ; there are , however , the following exceptions to this statement:(1 ) If , the number of indeterminates being even and equal to 2v , D is uneven , there is an assignable order in which the concomitants 01 , 02. .
+0f , _ are alternately even and uneven .
+But , as has been already said , this order does not exist if D =-1- , mod 4 ; and , if the invariants are all squares , it does not exist , even if D= 1 , mod 4 , unless the equation v ( v ) k(k--1 ) ( - ) 2 =(-1 ) 2 ( in which k is the index of inertia ) is also satisfied .
+( 2 ) If , the number of indeterminates being uneven and equal to 2v 1 , D is uneven , and I21 even , there is again an assignable order in which the concomitants 0 ... 02 are alternately even and uneven .
+But , when I2v is the double of a square , and the other invariants are squares , this order does not exist unless the equation ( --1)(L2-1 ) = ( 1 ) k(-k ) ( in which k is still the index of inertia ) is satisfied .
+The reciprocal case ( that obtained by changing Is and s0 into I , _ , , and 0n- , , for every value of s from 0 to n ) presents a similar exception , which it is not necessary to enunciate separately .
+The generic characters of the form 0 , or , more properly of the system of concomitant forms 1 , 02 ) ... 0 , _ , , so far as they depend on uneven primes dividing the invariants , have been already defined in the former notice , and the definition need not be repeated here .
+These characters we shall term the principal generic characters of the system .
+When the invariants and primitive concomitants are all uneven , the principal characters are the only generic characters , with the exception of a certain character , which we shall define hereafter , and of which the value is not independent of the principal characters .
+In other cases , the forms of the concomitant system may acquire generic characters with respect to 4 or 8 : these we shall term supplementary .
+What supplementary characters exist in any given case may always be ascertained by applying the following rules .
+In their enunciation we represent by Ii the greatest uneven divisor of Ii taken with the same sign as Ii , by / Pi the exponent of the highest power of 2 contained in IJ , increased by 1 if one of the two forms j_1 , 0 l , is even , and by 2 if both those forms are even ; we suppose 0 &lt; i &lt; n. 199 : 0.-I I. If p , i2 , O , has the character ( 1)2 oi-II .
+If ?
+i 3 , Oi , in addition to the character ( -1 ) 2 , has also the chasi-1 racter(-1 ) s ?
+III .
+If / -= 1 , and also pi : &gt; 2 , pi+l 2 , 0i ( which , as well as Oi_ and Oi+l , is necessarily uneven ) has the character oi-1 oi-1 s-1i ( -1 ) 8 or(-)W-according as ( -l1 )~ , i_l-1 ) + 2(i+--1 ) = ( _-1)i ( +1 ) , or =(1)(I'j-1 ) .
+It will be observed that ( by I ) the forms Oi-_ and Oi-l have the characOi_-1-1 0i+1 -1 ters ( -1 ) 2 and(-l ) 2 .
+IV .
+If p , = 0 , and also t , i-l 2 , til &gt; 2 , Oi , if uneven , has the characOi-i ter ( -1 ) , or no character at all , according as ( -1 ) 2(Oi-12)+(0i+-i=(_ ) ?
+( I)-1 ) or ( l)2(I+l ) No even concomitant has any supplementary character .
+But if 0 .
+is an even concomitant , the uneven forms preceding and following it have , by I , the characters i_-1-1 Oi+4l-1 ( -1 ) 2 , and(-1 ) 2 ?
+These characters are not independent but are connected by the equation ( -_1)2( ?
+i-l-)+ ( i+l-l)=(l1 ) ( I+l ) .
+Thus if Ii , Ii+l , .
+Ii+ 2 is a sequence of an uneven number of uneven invariants preceded and followed by even invariants , and corresponding to a sequence of alternately even and uneven concomitants 0 , Oi1 ... Oi+2j the character , mod 4 , of every uneven form of this sequence , and of the next following form Oi+2+ , , , is determined by the character of the form Oi_1 .
+We have , in fact , if s= 1 , 2 , ... j +1 , 4~ ( 0Q * ) s121IixJi+2 x * lowing definition is requisite in order to explain the nature of these simultaneous characters .
+If I an , is a matrix of the type n-1 x n , of which the determinants are not all zero , and if mk represent the value acquired by Ok , when we attribute to the indeterminates of that form the values of the determinants i=l , 2,..k ; j= , 2,..n , taken in the same order in which the determinants of any k horizontal rows of the matrix Ix { l are taken in forming the matrix of 0 , , the numbers mn , m , ... mn_I are said to be simultaneously represented by the forms 0 , 2s *. .
+_on-l .
+Let 0i+1 ... Oi+i , be a sequence of i ' uneven concomitants , i+l ' P1i+2 , ... ?
+i+if being 0 , or 1 , but pi and ii+i , +l being greater than 1 ; the uneven numbers simultaneously represented by i+p , Oi+2 , ... Oi+i , are all such as to render the unit s=i+i ' s=i+i ' s=i-+ti ' 02_ .
+i ( ^-l)(0Si-l ) X ; +(Ifl)(0~1 ) S , sJ ( _ , &gt; , =.(-1"l ) $:s+l x(-i)s=i+i ~~~(-1 ) i+ X ( _ l)s_=+1 8X(l)i+ 8 ( which we shall symbolize by 4 , ( i , i ' ) ) , equal to + 1 , or else are all such as to render that unit equal to --1 .
+We therefore attribute to the sequence of forms Oi+ ... Oi+i , the simultaneous character 4 , ( i , i')=+I , or , ( i , i ' ) =1 , according as the former or latter of those equations is satisfied .
+If i'= , the sequence consists of but one form , so that the character 4 ( i , i ' ) ceases to be a simultaneous character ; in fact , if / i+ , =1 , it coincides with the supplementary character attributable to O , by III .
+; if pi+ = ?
+0 , it either becomes nugatory ( i. e. identically equal to +1 , irrespective of the value of mi+1 ) , or it coincides with the supplementary character of Oi+ , , according as that form ( by IV .
+) has not or has a supplementary character .
+The complex of all the particular characters ( principal , supplementary , and simultaneous ) constitutes the complete character of the system of concomitants 01 , 02 , .
+0-1 Not every complete generic character , assignable a priori , corresponds to actually existing forms , but only such characters as satisfy a certain condition of possibility .
+This condition is expressed by the equation s=n-l of X ( O , n-I)x II -+1 , ... .
+( A ) in which , if Os is an even form , we understand by the symbol ) the quadratic character with respect to I , of the half of any number , prime to I , , which is represented by 0 , .
+The unit b ( 0 , n1 ) is formed in the same 1867 .
+] 201 way as the unit 4 , ( i , i ' ) : we may omit , however , from the exponent of --1 in its expression every term into which an even form enters ; if , for example , 0Q is an even form , that exponent contains the terms..2 222 and no other term into which UO enters ; but p/ =O , and the coefficient of ; ( 0sl ) is even ; so that Os disappears from the expression of the unit - ) ( 0 , n-l ) .
+It will thus be seen that the equation ( A ) involves only generic characters ( principal , supplementary , or simultaneous ) of the concomitant system : that equation therefore expresses a relation which the complete character must satisfy .
+In using these formulae , we must attend to the significations which we have assigned to the symbols To , I , .
+oo , and 0 , .
+Thus 0--1 00o-L ( -1)-2 =l=(--1 ) 8 , P &gt; 3 , etc. We shall conclude this part of our subject with the two theorems:(i ) Every gen us , of which the character satisfies the condition of possibility , actually exists .
+( ii ) Two forms , of the same invariarts , of the same order , and of the same genus are transformable , each into the other , by rational linear substitutions of which the determinants are units , and in which the denominators of the coefficients are prime to any given number .
+The first of these theorems shows that the condition of possibility is sufficient as well as necessary ; the second establishes the completeness of the enumeration of ordinal and generic characters .
+II .
+Determination of the Weight of a given Genus of Definite Forms .
+It has been shown by Gauss , in the digression on ternary forms in the fifth section of the Disquisitiones Arithmetice , ' that the solution of the problems " to obtain all the representations of a given binary form , or of a given number , by a given ternary form , " depends on the solution of the problem " to determine whether two given ternary forms are equivalent , and , if they are , to obtain all the transformations of either of them into the other .
+" Similarly the solution of the problem " to obtain all the representations of a given quadratic form of i indeterminates ( i= 1 , 2 , ... n--1 ) by a given form of n indeterminates " depends on the solution of the problem of equivalence for quadratic forms of n indeterminates .
+The following proposition is here .
+of primary importance:"If the foi 'm ?
+, ofn-i indeterminates and of the invariants 1 , , I , ... 1T , _ , ,3 MI _ , , is capable of primiitive representation by the form 00 , of n indeterminates , and of the invariants , , , _ I2_ then -L^-_ X n_-2 ( where n-.2 is the primitive contravariant of is ) is a quadratic residue of M. " [ Dec. 5 , The converse is true , subject to certain limitations:"If M is prime to I , ,_ , and not negative except when I , ,_ is negative , and if -I , _1 x _-2 , is a quadratic residue of M , % , is capable of primitive representation by i. " " If , in addition , M is prime to I , _-2 there is always either one or two genera of forms of the invariants ( Ii , 12,. .
+M I_-2 ) capable of primitive representation by forms of a given genus of the invariants ( Ii , I2 , .
+I , _ , , Ii ) , ; and if there are two genera capable of such representation , they are of different orders .
+" These theorems are especially useful in the theory of definite forms , to which , for the remainder of this paper , we shall confine our attention .
+In the case of such forms we understand by the weight of a form the reciprocal of the number of its positive automorphics , by the weight of a class the weight of any form representing the class ; the weight of a genus , or order , is the sum of the weights of the classes contained in the genus or order ; the weight of a representation of a number by a form is the weight of the representing form ; the weight of a representation of a form by a form is the product of the weights of the representing and represented forms .
+Let r denote a system of forms , representatives of a given genus of the invariants 11 , 2,. .
+I , J_ ; let M be a number divisible by p different uneven primes , none of which divide any of the invariants , and let M be uneven or unevenly even , according as the contravariants of the forms P are uneven or even ; we then have the theorem"The sum of the weights of the representations of M by the contravariants of the forms r , is 24 , times the weight of the single genus , or the two genera , of invariants I1 , 2 ... AMI-_ , , which admit of representation by the forms T. " The method which this theorem may serve to indicate supplies a solution of the problem " to determine the weight of a given genus of definite forms of n indeterminates , and of the invariants I 1 , 1. .
+I , _ , ... ' We shall represent the weight of the given genus by the formula s=2A W= v 2+i X Il .
+x(B ) x B2 ? ?
+1xH If s(n-s ) s8=-1 uwhen n is uneven and equal to 2 ) , + 1 , and by the formula S =1 gr 1\ m / v when n is even and equal to 2 ; and we shall consider separately the factors of which these formulae are composed .
+00 ( i ) In the infinite series ( )1 ( which enters into the expression of W only when the number of indeterminates is even ) D still represents the product ( --1)YIXI3x. .
+X 2-1 , and the summation extends to all uneven values of m , which are prime to D , from 1 to oo .
+The sum of this infinite series can in every case be obtained in a finite form by the methods employed by Dirichlet ( in the 21st volume of Crelle 's Journal ) and by Cauchy ( in the 17th volume of the Memoires de l'Academie des Sciences , p. 679 ) .
+As the result of the summation does not seem to have been given , we shall present it here in one of many various forms which it may assume .
+Let D , represent the quotient obtained by dividing D by its greatest square divisor ; let q be any uneven prime dividing D , but ot D , , and letYV=-D=-I , the sign of summation extending to all not D1 , and let V=~7\ go/ mi values of m prime to 2D1 ; we then have the equation I V1 .
+D\ 1II Ini-3 xY .
+To obtain the value of V , let A represent the positive value of D , , so that A=D , when v is even , and A=--D when v is uneven .
+Also let.2o+ 12 + I. 22cf1 .
+11 .
+2 , --3.3 .
+11 .
+42 +(l ) H. 2c1 ~(^ )= 22-1+n2I--1 222 , ,4r " h. 2a2.fl-- , 2.rl.2(7v-1 It X2 &lt; r-4+ .
+f+(f)\Y I. 2wc1 o2 fl.2-4 .
+ff._1 l4.3 2..T 2o-2p2-3 ' where p1 , / 3 , ... are the fractions of Bernoulli , so that Fk(x ) is the function s8=--I which , when x is an integral number , is equivalent to the sum 1 s. s=1 Then , if e=(-1l)(^"2 ) , or ( -1)"(V+ ) , according as v is even or uneven , the value of eV is ( 1 ) when D1 -1 , mod 4 , , x I\ xxI Fv-l( ( 2 ) in every other case , 2V-1 1 Xs4 I v-l4S A the summation I extending to every integral value of s inferior to A and nt 4A prime to A , the summation extending to every integral value of s inferior to 4A , and prime to 4A .
+The formula ( 1 ) is inapplicable when A=D= 1 ; but in this case v is even , and the sum of the series 1S1 is known .
+7rv mY , s.=n-i ?
+s(n-s ) ( ii ) The factor IH I requires no explanation ; it is rational s=_ when n is uneven , and is a multiple of VA when n is even .
+( iii ) The factor B , , is determined by the equations B2.v=iP XX-1 X PX X *..2-3 ) B2+-1= X13X x. 2AVx x , where 0 , / 3,. .
+are again the fractions of Bernoulli , so that f3- , -ia etc. ( iv ) The factors ( i ) and ( ii ) depend only on the invariants and on the number of the indeterminates , the factor ( iii ) only on the number of indeterminates .
+These factors are therefore the same for all genera of the invariants 1 , I2 , ... In .
+But the two remaining factors involve , or may involve , certain of the generic characters , and are therefore not always the same for all genera .
+In the factor II .
+X( ) the sign of multiplication extends to every uneven prime &lt; , dividing any one or more of the invariants I , , I2 , ... .
+In-1 : it will suffice therefore to define the function X(s ) , which depends on only one of those primes .
+Let i1 , i2 , ... be the indices of all the invariants which are divisible by a ; let these indices be arranged in order of magnitude , beginning with 0 and ending with n ( because Io and In may be considered as divisible by .
+) .
+The positive differences i , +l--is we shall term intervals .
+By the moiety of any whole number a we understand 2a when a is even , 4 ( a1 ) when a is uneven .
+Let Ks be the moiety of the interval isl+-i , s ; when that interval is even , let the barred symbol Ks represent the product ( 1l)KsIjl+ x I+ ... x I_l+i + and let r(Ks)=1+Q DS XOi')l .
+Lastly , let a(h ) represent the s=7h/ 1\ product I l(-l 2 ) ; let a be the moiety of n-I , and / u the number of the invariants I , , I2 , ... In , , which are divisible by B. Then X(a ) is the integral function of e , defined by the equation x( )= x n. r( ) ) when n is uneven , and by the equation x( ) Sx-( ) x.r()x 1_-(C 1I when n is even .
+If D is divisible by , the symbol ( ) is zero .
+In both formulae the sign of multiplication 1I extends to every value of Ks or i- ; the value +1 is , as before , to be attributed to the symbols 0o and 0 , , ( v ) Each factor X(a ) of the product 11 .
+X(3 ) thus depends on an uneven prime 8 dividing the invariants , on the indices of the invariants divisible by 8 , on the principal generic characters with respect to 8 , and on the quadratic characters with respect to a of the invariants not divisible by a. The remaining factor 4n may be said to depend on the relation of the concomitants and invariants to the prime 2 and its powers .
+The determination of this factor presents no theoretical difficulty ; but on account of the multiplicity of the cases to be considered , we shall confine ourselves in this place to the two cases in which the invariants are all uneven .
+( A ) When the invariants are all uneven , and the given genus is of an uneven order , let S , , represent the unit ( --1)7h ( 0 , n--1 ) , where +(0 , n-1 ) is the simultaneous character of the given genus , and h is determined by the equation 4h=(I1i)(12+ 1 ) + ( I2l)(II3 + 1 ) + ( Il3)(121+ 1 ) +(2I~)(111315+ )+ ... .
++( ... In-4 In_--1)( ... .
+In_-3 In-1+ 1 ) .
+The value of ; , , then is ( 1 ) if n=4A , 2 1[22+ ( -l ) ] , or 1 , according as D=l , or -1 , mod 4 ; ( 2 ) if n=4X+2 , [ 2022A+ ( )A^J , , or 1 according as D)- , or _--1 , mod 4 ; ( 3 ) if z= 4X+1 , [ 22^02+ ( -1 ) ^ ] ; l22x ( 4 ) if n=4X+3 , 1D-22 , +12 + ( I1)X 2 ( B ) When the invariants are all uneven , and the given genus of an even order , so that n =2 v is even , the value of , , is 2XX 1-2 f\ It is easy to apply these general formule to particular examples ; but our imperfect knowledge of quadratic forms containing many indeterminates , renders it practically impossible to test the results by any independent process .
+The demonstrations are simple in principle , but require attention to a great number of details with respect to which it is very easy to fall 206 [ Dec. 5 , into error .
+As soon as they can be put into a convenient form , they shall be submitted to the Royal Society .
+Eisenstein has observed that , when the number of indeterminates does not surpass eight , there is but one class of quadratic forms of the discriminant 1 , but that , when the number of indeterminates surpasses eight , there is always more than one such class .
+This observation is in accordance with our general formulae , except that they imply the existence of an improperly primitive class of eight indeterminates and of the dis criminant 1 .
+The theorems which have been given by Jacobi , Eisenstein , and recentl3 in great profusion by I. Liouville , relating to the representation of numbers by four squares and other simple quadratic forms , appear to be deducible by a uniform method from the principles indicated in this paper .
+So also are the theorems relating to the representation of numbers by six and eight squares , which are implicitly contained in the developments given by Jacobi in the 'Fundamenta Nova .
+' As the series of theorems relating to the representation of numbers by sums of squares ceases , for the reason assigned by Eisenstein , when the number of squares surpasses eight , it is of some importance to complete it .
+The only cases which have not been fully considered are those of five and seven squares .
+The principal theorems relating to the case of five squares have indeed been given by Eisenstein ( Crelle 's Journal , vol. xxxv .
+p. 368 ) ; but he has considered only those numbers which are not divisible by any square .
+We shall here complete his enunciation of those theorems , and shall add the corresponding theorems for the case of seven squares .
+We attend only to primitive representations .
+Let A represent a number not divisible by any square , a2 an uneven square , a any exponent .
+By s(4 a2A ) , 4(4a2A ) , we denote the number of representations of 4a &amp; 2A by five and seven squares respectively ; by Q5(42A2Q ) , Q7(4a-2A ) , we represent the products 5x25Mxn [ l -()-2 X ) the sign of multiplication In extending to every prime dividing El , but not dividing A ; we then have the formulae ( A ) for five squares .
+( 1 ) If Ai- , mod 4 , 5(4^ " ) = 0,15(42A ) X ( 7 X 4)(s- ) , where , if A l , mod 8 , ?
+7-12 ; if A-5 , mod 8 , 1==28 or 20 , according as ( 1=0 , or:- &gt; 0 .
+If , however , A=I , we are to replace ?
+, XE by 2 .
+( 2 ) In every other case , 4A/ A\ a , ( 40i2A ) =Q((4lA ) X1Xh ( )s(s--4D ) , where r=1 , or 2 , according as a=0 , or a &gt; O. ( B ) for seven squares .
+( 1 ) If A-3 , mod 4 , 47(4C%2AA ) = Q(4 )A 1X s(-A)(2s-A ) , where , =30 , if a=0 , A-3 , mod 8 ; x== X 37 , if a=0 , A 7 , mod 8 ; r= ?
+X 140 , if a &gt; 0 .
+( 2 ) In every other case , 4A/ --A\ ( 42A)= Q 2(4a AXXA ( --(s(-2A)(s-4A ) , where ?
+= ?
+, or y5 , according as a= 0 , or a &gt; O. A 4A The sums , and 2 in these formulia are easily reduced ( by distinguish1 1 ing different linear forms of the number A ) to others more readily calculated ( see the note of Eiseiistein , to which we have already referred ) ; but in the present notice we have preferred to retain them in the form in which they first present themselves .
+We shall conclude this paper by calling attention to a class of theorems which have a certain resemblance to the important results established by M. Kronecker for binary quadratic forms .
+Let ~ F4(M ) Let 44 represent the weight of the quaternary classes of the invariants [ 1 , 1 , M ] ; I Fl .
+( the weight of the senary classes of the invariants [ 1 , 1 , 1 , 1 , M ] , then 2. .
+1)-d+ F4(M ) + 2F , ( M -12 ) + 2 , ( M22 ) ... =( 1 ) 2 F , ( 2M ) + 2F , ( 2M12 ) + 2F(2M-22 ) + ... = d3 .
+In the first of these formula M is any unevenly even number , or any number -3 , mod 4 ; in the second M is any uneven number : the series in both are to be continued as long as the numbers M-s2 , or 2M--s2 , are positive ; d is any uneven divisor of M. The origin of these formulme ( which may serve as examples of many others ) is exactly analogous to that which M. Kronecker has pointed out as characteristic of the more elementary of the two classes into which his formulae are naturally divided .
+Whether , for forms of four and six indeterminates , similar formulae exist comparable to the less elementary formulae of M. Kronecker , and whether , for forms containing more than six indeterminates , such formulae exist at all , are questions well worthy of the attention of arithmeticians .
+208 [ Dec. 5 ,
+

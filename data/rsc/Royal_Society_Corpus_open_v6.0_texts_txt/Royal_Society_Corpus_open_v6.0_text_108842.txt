@@ -1,0 +1,187 @@
+On TSCHIRNHAUSEN'S Transformation .
+By ARTHUR CAYLEY , Es2 .
+, F.R.S. Received November 7 , -Read December 5 , 1861 .
+THE memoir of M. HERMIT , " Sir quelques th4oremes d'algebre et la resolution de l'equation du quatrieme degre , " contains a very important theorem in relation to TSCHIRNHAUSEN'S Transformation of an equation f(x ) =0 into another of the same degree in y , by means of the substitution y=px , where ox is a rational and integral function of x. In fact , considering for greater simplicity a quartic equation , ( a , b , c , d , eXx , 1)4-0 , M. HERMIT gives to the equation y=--x the following form , y=aT+(ax+b)B+(ax2+4bx+6c)C+(ax3+4b2+6cx+4d)D ( I write B , C , D in the place of his T , , T , , T2 ) , and he shows that the transformed equation in y has the following property : viz. , every function of the coefficients which , expressed as a function of a , 5 , c , d , e , T , B , C , D , does not contain T , is an invariant , that is , an invariant of the two quantics ( a , b , c , d , ejX , Y)4 , ( B , C , D)Y , -X)2 .
+This comes to saying that if T be so determined that in the equation for y the coefficient of the second term ( y3 ) shall vanish , the other coefficients will be invariants ; or if , in the function of y which is equated to zero , we consider y as an absolute constant , the function of y will be an invariant of the two quantics .
+It is easy to find the value of T ; this is in fact given by the equation O=aT+ 3B+3cC+dD ; and we have thence for the value of y , y=(ax+b)B+(a2+ 4bx+ 3c)C +(a3 + 4bx2+ 6cx+3d)D ; so that for this value of y the function of y which equated to zero gives the transformed equation will be an invariant of the two quantics .
+It is proper to notice that in the last-mentioned expression for y , all the coefficients except those of the term in a ?
+, or bB+3cC0+3dD , are those of the binomial ( 1 , 1)4 , whereas the excepted coefficients are those of the binomial ( 1 , 1)3 ; this suffices to show what the expression for y is in the general case .
+I have in the two papers , " Note sir la Transformation de TsCHIRNHAUSEN , " j and " Deuxieme Note sir la Transformation de TSCHIRNHAUSEN , " t obtained the transformed C Comptes Rendus , t. xlvi .
+p. 961 ( 1858 ) .
+t CmELE , t. lviii .
+pp. 259 and 263 ( 1861 ) .
+equations for the ctbic and quartic equations ; and by means of a grant from the Government Grant Fund , I have been enabled to procure the calculation , by Messrs. DAVIS and OTTER , under my superintendence , of the transformed equation for the quintic equation .
+The several results are given in the present memoir ; and for greater completeness , I reproduce the demonstration which I have given in the former of the above-mentioned two Notes , of the general property , that the function of y is an invariant .
+At the end of the memoir I consider the problem of the reduction of the general quintic equation to Mr. JERRARD'S form x52-ax-+b=O .
+Considering for simplicity the foregoing two equations ( a , b , c , d , eXx , 1)4=0 , = ( ax+6)B+(ax2+ 4x+ 3c)C+(axz+4b 2+6 x+ 3d)D ; let the second of these be represented by y==V , the transformed equation in y is ( yVI))(-v2)(yV3)(yV ) = 0 , where V1 , V2 , V3 , V4 are what V becomes upon substituting therein for x the roots x , x2 , x3 , x4 of the quartic equation respectively .
+Considering y as a constant , the conditions to be satisfied in order that the function in y may be an invariant are that this function shall be reduced to zero by each of the two operators a , b+2baa+ 3C+3+ 4da , -(Dmc +2CNa ) , 46ba+3'^j+2da , ^+eba -(2CaD+BbC ) : These conditions will be satisfied if each of the factors y-V1 , &amp;c. has the property in question ; that is , if y-V , or ( what is the same thing ) if V , supposing that x denotes therein a root of the quartic equation , is reduced to zero by each of the two operators .
+Considering the first operator , which for shortness I represent by A-(Dmc+2CB ) , in order to obtain AV we require the value of Ax .
+To find it , operating with A on the quartic equation , we have ( a , 6 , c , dx , 1)3Ax+(a 6 , c , dXx , 1)3=0 , or Ax=--1 .
+In AV , the part which depends on the variation of Ax then is -aB +(2ax4b)C+ ( 3a2-8bx6c)D , and the other part of AV is at once found to be +aJB+(4ax-+66)C+(4ax2+ 12x+ 9c)D ; whence , adding , AV = 2(a+ )C+ + ( ax2 +4+ 3c)D , and this is precisely equal to ( Dac+2Ca)V ; so that V is reduced to zero by the operator A-(D)c+2C3B ) .
+562 TSCHItIRNHtAUSEN'S TRANSFORMATION .
+Similarly , if the second operator is represented by V-(2CbD+B6c ) , then we have ( a , b , c , dXx , 1)3vx+x(b , c , d , e3xr , 1)3=0 , which by means of the equation ( a , b , c , d , e(x , 1)4-0 is reduced to Vx=x2 .
+Hence in W the part depending on the variation of x is ax2B + ( 2ax3+ 4b62)C +(3ax4+ 8bx3+ 6cx2)D , and the other part of W is at once found to be ( 46x+ 3c)B+(4bx2+12cx+ 6d)C+(4bx'+12cx2+12dx+ 3e)D ; and , adding , the coefficient of D vanishes on account of the quartic equation , and we have VV=(ax2+ 4b+ 3c)B +2(ax3+4bx2+ 6cx+ 3d)C , which is precisely equal to ( 2C3D+BZc)V , so that V is reduced to zero by the operator V-(2C3D+Bb ) , which completes the demonstration ; and the demonstration in the general case is precisely similar .
+In the case of the cubic equation we have ( ~ , b , c , d'x , 1)3= 0 , y=(acx+b)B+(ax2+ 36x+ 2c)C ; and writing the second equation in the form ( y-bB-2cC)+x( --aB-3bC)+x2( -aC)=0 , multiplying by x and reducing by the cubic equation , we have dC +x(y-B+ cC)+x2( aB)=O , and repeating the process , dB +x( 3cB+ dC)+x2(y+2bB+cC)=0 ; or , what is the same thing , we have the system of equations ( y--B-2cC , aB-36C , -aC 31 , x , X2)=0 , dC , ybB+ cC , --a B dB 3cB+ dC , y+2bB+cC and the resulting equation in y is of course that formed by equating to zero the determinant formed out of the matrix in this equation .
+The developed expression is ( 1 , 0 , c , , 1)3=0 , 563 where B2 BC C2 11r_ " ac +1 ad +1 bd +1 Y -=6 b2 -1 be --1 2 -_1 +-1 +1 +1 I ~~ I- ' B3 B2C BC " C3 +1 abd +3 acd -3 ad2 -1 -3 aC2 -6 b2d +6 bed +3 +2 b2 +3 bC2 -3 c3 -2 +3 +6 +6 -3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~_ _ The sum of the coefficients in each column should here and elsewhere in the present memoir be equal to zero , and I have by way of verification annexed to each column the sums ( + a number ) of the positive and negative coefficients .
+The coefficients C , 29 , and therefore the function in y , are invariants of the two forms , ( a , b , c , d(X , Y)3 , ( B , CIY , -X ) ; or in the present case , where there are only two coefficients B , C , the coefficients C ; , f , and therefore also the function in y , are covariants of the single form ( a , b , c , d(B , C)3 , considering therein ( B , C ) as the facients .
+It may be remarked that in the present case , assumning the invariance of the function in y , we may obtain the transformed equation in a very simple manner by writing in the first instance C=O , this gives ( a , b , c , d(x , 1)3=0 , y=(ax+b)B , and thence ( a , b , c , dCybB , aB)3=0 ; or developing , y3+ 3y(acb2)B2+ ( a2d3abc 2b3)B3= 0 , where the expressions for the coefficients are to be completed by the consideration that these coeficients are covariants of the form ( a , b , c , dXB , C)3 .
+But it is only in the case in hand of a cubic equation that the transformed equation can be obtained in this manner .
+In the case of a quartic equation , we have ( a , b , c , d , ex , 1)4=0 , y =(ax+)B+ b ( ax2+ 46x+ 3c)C+ ( a3+ 4b2 + 6cx+ 3d)D , and these give the system of equations ( y-bB--3cC-3dD , -aB--4bC--6cD , -aC-4bD , --aD , , , X)=0 , eD , y-bB-30cC+ dD , aB-4bC , aC eC , 4dC+ ?
+eD , ybB+3cC+ diD , aB eB , 4dB-+ eC , 6cB+4dC+ eD , y+3bB+3cC+dD and the transformed equation is therefore found by equating to zero the determinant formed out of the matrix contained in this equation .
+The developed result , which was obtained by a different process in the 'Deuxieme Note ' above referred to , is where B2 BC , * BD2_ C2 CD ac +3 ad +6 ae +2 +1 be +6 e +3 C= 2 -3 be -6 b -d 2 +8 ed -6 d2 -3 ] -7 ; -:/ 3 j ?
+6 +2+9+6 + ?
+3 B3 , B2C B2ID BC2 BCD C3 BDC2 C2D D3 ac2 a2d| +1 ae +1 abe +1 +4 ad " --6 -4 ade -1 4 ae2 -1 be2 --1 ' abe i-3 abd -+2 aed -3 ; -12 b2e +6 4 bed +3 121 bde de c +3 6 +2 ae2 --9 b2d + ' +8 bed bd2 -2-8 c2e -+9 d3 -2b2c +6 be2 ' c"d cd2 -6 , 3 +-9 -+3 ?
++12 + ?
+6 +4 +34+1 ?
+39 - ?
+3 i B4 : BC !
+B 1B2C2 B..iB2CD BC3 BaD2 BC2D C4 a3e +1 aSbe +8 a2ee +12'6 a2de wO 4 a2e2 + 24 +1 a2bd , -4 aed-12 a 12 a abce +60 12 abde -16 + 20-16 a eVI2 C a*b2d -20 b a2e 8 +30l ad2d -72 + 16i ae2e i +36 + 36 -18 : ab2c +6 ae2 +36 i abed +12 -48 acd +36 i , + 36 aed2 ' -18 wo+ 48 ' b4 --3 bc -12 ac3 we +54 b3e -36 + 48 b2ce -18 eo &gt; + 48 ' b 'd 4i-48 bed +12 -192 2d 2 +14 -160 ^ 62:2 .
+~+18 : ' be'3.:q+108 bc2d .
++108 -144 ' c4 ?
+' .
+-~+ 81 +7 44 +24 +102 + -108 +2-08 +52 +164 ?
+178 BCD2 CB3 C2 .
+CD3 D4 abea &lt; 4 ace2 +12 6 ade2 +8 ae +1 aede +60 -12 ad2e 8 +30 bee2 -12 bde2 -4 ad3 ' -36 + 48 : b2e2 : -12 w bd2e 5 --20 ce2 ie we bde -72 16 bed +12 -48 cid + +36 !
+ed2e ' +6 be +36 + 36 bd -4 -48 ed ' -12 d4 -3 bed2 +12 -192 c'e .
++54 cd .
++108 ed +18 +108 +208 +24 +102 ?
+44 +7 565 ( 10 , o0 , , 1 ) =o , write U ' = aB2+ 4BC+c(2BD + 4C)+ 4dCD+eD2 , H'=(ac2b2)B2+2(adb)BC+(ae2d+ c2)BD+ 4(bd-c2)C2 +2(be -d)CD+(ce d")D2 ; and I represent by p ' the expression which has just been found for -.T .
+These functions , IJ ' , H ' , ( D ' , are invariants of the two forms ( a , b , c , d , eXX , Y)4 .
+( B , C , D)Y , -X)2 ; we have , moreover , the invariants ae4b-d+ 3c2 , ace--ad--b2e+2bcd-c3 , which I represent as usual by I , J , and the invariant BD--C2 , which I represent by 0 ' .
+This being so , we have = 6H'2IQ ' , ( D =IU'2H + I0'2 + 12J 'U ' + 21O'H ' , the last of which may be verified as follows:-viz .
+writing a=e=l , b=d=-0 , c= , it becomes ( 1 + 32){B2+( 2BD+4CC2 ) D2 } 3{0B2+(1 +2)BD402C2+D2}2 +(1+ 32)2(BD -C2)2 + 12(03)(BD C2){ B2+ ( 1 + 02)BD-402C2 + D2 } -JB4 +B3C ( 120 ) +B2Cc ( 6+540 ) +B2D2 ( 2 +3602 ) +BC2 D(4 +362 ) +B4 ( 1-1802+814 ) +C2D2 ( 6 +543 ) +C3D ( 120 ) +D4 , which is an identical equation .
+The expression for the invariant I ( quadrinvariant ) of the function ( 1 , 0 , OC , , ( C , y 1)4 is 6+3( !
+C)2 , or ( + 3(H'--I0)e2 , viz. it is IU/ 23H2+ I120'2+12JO'U-'+2O1'1 ' + 3HI'2+I22 -2IT'H ' , or finally , it is IU'2+ I'2+l12J ?
+' ' , 566 which is equal to I [ ( IUJ'+6J'')2+(I3'-27J2 ) ? ?
+2 ] ; so that the condition in order that this invariant may be equal to zero is IU'+ [ 6J+ 2(I3-27J2 ) ] ' 0 , which agrees with a result of M. HE , RMITE'S .
+There should , I think , be an identical equation of the form JU'2-IU'2HI'+ 4Hl3 +M ?
+I= c12 , which would serve to express the square of the invariant ( V in terms of the other invariants U ' , H ' , O ' , I , J ; but assuming that such an equation exists , the form of the factor M remains to be ascertained .
+The invariant J ( cubinvariant ) of the form ( 1 , 0 , C , 1B , ( @y , 1)4 contains P'2 , and it would be necessary to make use of the identical equation just referred to in order to reduce it to its simplest form ; and ( this being so ) I have not sought for the expression of the cubinvariant of ( 1 , 0 , ?
+, , 4(y , 1)4 .
+For the quintic we have the equations ( a , &amp; , , d , e , f x , 1)5=0 , y=(a +b)B +(ax2+5bx +4c)C +(ax3+ 52+ 10cx-+6d)D + ( ax4+ 5b6x +10cxq2 +10dx+ 4e)E , and this leads to the system of equations ( y--bB--4cC-6dD-4eE , -aB-5bC--lOcD-lOdE , aC5bD-10cE , fE , y-bB-4cC6cD+ eE , -aB--5bC--10cD fD , 5eD+ fE , y-bB-4cC+ 4dDeE , fC , 5eC+ fD , lOdC+ 5eD+ fE , ; B , 5eB+ fC , OdB+5eC+ fD aD-5bE , -aE ):1 , , x , x2 , x34 ) =0 , aC-5bD , -aD -aB5bC , -aC y-bB+ 6cC+4dDeE , aB 10cB+10dC+ 5eD+ fE , y+4bB+6cC+4dD+eE and the transformed equation is obtained by equating to zero the determinant formed out of the matrix contained in this equation .
+NIDCCCLXII .
+41 567 The determinant in question was calculated by the formula Div .
+D =-12 .
+345 1 +13.245 2 -14.235 3 +15.234 4 -23.145 5 +24.135 6 -25.134 7 -34.125 8 +35.124 9 -45.123 10 , where the duadic symbols refer to the first and fift:h columns , viz. 12 is the determinant formed out of the lines 1 and 2 of these columns , and so for the other like symbols ; and the triadic symbols refer to the second , third , and fourth columns , viz. 345 is the determinant formed out of the lines 3 , 4 , 5 of these columns , and so for the other like symbols .
+The ten divisions were separately calculated .
+It is to be noticed that these divisions other than 4 and 6 correspond to each other in pairs , while each of the divisions 4 and 6 corresponds to itself , as thus : Div .
+1 , -10 2 , 9 3 , 7 5 , 8 4 , 4 6 , 6 , viz. if in the place of y ; a , b , c , d , e , f ; B , C , D , E , we write -y ; f , e , d , c , b , a ; E , D , C , B , then division 1 becomes division 10 with its sign reversed , and so for divisions 2 and 9 , 3 and 7 , 5 and 8 ; while each of the divisions 4 and 6 is unaltered , except that the sign is reversed .
+But the corresponding divisions were each of them calculated , and the property in question was used as a verification .
+Another very convenient verification , which was employed for the several divisions , was obtained by putting a=b=c=d=e=f=B=C=D=E=l , upon which supposition the determinant becomes 568 y --6 , -1 61 6 , 1 16 , y+10 , 1 1 , 6 , 16 , and the values of the ten divisions respectively are y5 , y4 , y3 yy 6 , 16 , 26 , 1 , 0 , -96 , -288 , -576 , -544 , 0 , 26 , +544 , 16 , +576 , 6 , +288 , 1 , 0 , 0 , 0 , + 4608 , + 6144 , + 3584 , -28672 , 0 , 0 , + 3584 , 0 , + 6144 , +4608 , 0 , 16 , y+15 1 -24576 -16384 -24576 000 +24576 0 +16384 +24576 0A verification similar to this was in fact employed at each step of the calculation of a division : viz. in forming a product such as ( XX+ pie + &amp;c. )(X'X+f'Y+ &amp;c. ) , where A , 5 , &amp;c. , X ; , p,. .
+&amp;c. are numerical coefficients , and X , Y , &amp;c. are monomial products of a , b , c , d , e , f and B , C , D , E , the sum of the numerical coefficients of the product is ( hf+p4 &amp;c. )(/ +p/ + &amp; G. ) .
+It was of course necessary to employ such verifications , as a test of the correctness of the several divisions , before proceeding to collect them together , but the collection itself affords an exceedingly good ultimate verification .
+The following is an exemplification : the terms in y which involve the product BCDE are obtained by the collection of the corresponding terms in the ten divisions , as follows : 12345678 BCDE.+ +5 a2f2 30 abef 980 acdf 280 ace2 180 ad2e 280 b2df 825 b2e2 180 bc2f 740 bed bd3 c3e C2d2 + + ) ++E 1|2 49-16 80 + 200 80 .
+60 2+ 20+ +184+ 8060- ; + + 1-2 25 +100 2 20 +184 ++1 25 +100 80 60 14 148 440 60 440 825 60 740 9 10 2 16 +200 60 +1+ 49 + 80 + 80 ?
+1750=0.+10 +122 +18-1228+ 76+48:+182+ 76+122+210 =+1228 42 y-15 , 1 , 1 , 1 , -26 , y-10 , 6 , 6 , 123456789 10 569 TSCHIRNHlAUSEN'S TRANSFORMATION .
+where it may be remarked that the greater part , but not all , of the component coefficients are divisible by 5 .
+I soon observed in the process of summing the ten divisions that all the resulting coefficients should be divisible by O ( the only exception is as to the terms in y ?
+which contain B5 , C5 , D5 , and E5 respectively ) , and the circumstance that they are so in each particular instance is as far as it goes a verification , which , however , only applies to those of the component coefficients which are not themselves divisible by 5 .
+But it was known a priori ( I will presently show how this is so ) that the sum of the resulting coefficients should be equal to zero , and that they are so in fact is a verification as to all the coefficients .
+The foregoing specimen term BCDE is one which remains unaltered when B , C , D , E are changed into E , D , C , B ; and on making the further change a , b , c , d , e , f iitof , e , d , c , b , a , the coefficient of BCDE remains , as it should do , unaltered ; this is a verification of the coefficients of the terms ace2 , b2df ; ad2e , bc2f ; which are respectively interchanged by the substitution in question , but not of the other terms a2f2 , abef , acdf , b2e2 , bedf , which are respectively unaltered by the substitution .
+I did not employ what would have been another convenient verification of the several divisions , viz. the comparison of their values on putting therein a=b=c=d=e=f=l , with the corresponding values as calculated independently from the determinant y-B-4C-6D-E , B-5C-O1D-1OE , C5D-10E , E , yB-4C6D+ E , B5C-10D D , 5D+ E , yB4C+ 4D+ E , C 5C+ D , 10C+ 5D+ E , B , 5B+ C 10B+ 5C+ D D-5E , -E C5D D B5C , -C yB+ 6C+4D+ E , B 10B+10C+5D+ E , y+4B+6C+4D+E The calculation of the ten divisions of this determinant would however itself have been a work of some labour .
+The last-mentioned determinant is =y5 ; in fact , equating it to zero , we have the transformed equation corresponding to the system of equations ( 1 , 1 , l 1 , 1 , l , lx , 1)5o , y=(x+l)B+(x2 +5x+4)C+(xS+5x2+10 +6)D+(X4+5 Ox+10O+10+ 4)E .
+But the first of these equations is ( x+1)5=0 , and the second is y=(x+l){B+(x+4)C+(x2+ 4x+6)D+(x3+4S2+6x+4)E } , so that for each of the five equal roots x=--1 , we have y=-0 , or the transformed equation in y is ys0 .
+570 And since upon writing a=6=c=d=e=f=l the transformed equation becomes y5=0 , it is clear that in the coefficient of any monomial product of B , C , D , E , the sum of the numerical coefficients of the several monomial products of a , 6 , c , d , e , f must be =0 , which is the property above referred to as affording a verification of the calculated expression of the transformed equation .
+The final result is that the equations ( aC , b , c , d. , e , fj , 1)--0 , y= ( ax + b)B +(ax2+5b + 4c)C +(ax3+5bx2+10cx + Gd)D +(ax4+5bx3+10lcx2+10dx+4e)E give for the transformed equation in y ( 1 , o , , ) =0 , where B2 BC BD C2 BE CD CE D2 DE E2 ac +-2 ad +6 ae +4 +2 af +11 +1f +4 +2 cf +6 df +2 ' ( C= b2 -2 be -6 bd -4'+10 be -1 +15 ce -4 +10 de -6 e2 -2 c2 .
+-12 d -16 d2 .
+-12 ?
++2 +6 +-4 +12 +1 +16 ?
+4 ?
+12 +6 +21 B3 B2C B2D BC2 B2E BCD C3 BCE BD2 C2D a2d +2 a2e +4 a2f +1 +1 abf +1 +10 +3 acf w+6+4 abe -6 abd +2 abe +3 +19 ace --4 84 ade -12 -22 46 61 ' +b3 +4 ac2 --24 acd v. -52 ad2 c -48 -20 b2f +8+4+ 20 '5 ' ba b62c +18 b2d --4 +20 b2e +3 +30 +25 bce +4 +20 + 70 bc2 .
++12 6cd +16 -20 bd"2 8 80 c3. .
++ 16 c2d + 32 +6 +2 +4 +452 +4 +56 +44 +12 +30 +126 BDE IC2E CD2 BE2 CDE 1)3 CE2 D2E ' DE2 E3 adf 64 aef -1 -10 3 af2 --1 -1 f2 4 cf2 _-2 ae2 84 20 bdf +4+8+4 bef -3 -19 ecef 2 def +6 bcf +12 +22 + 46 be2 -3 -30 -25 cdf ea .
++52f d'f +24 e3 -4_ bde 4 -20 70 c2f +48 +20 ce2 +4 -201 de2 -18 c2e +8+ 80 cde -16 20 d2e -12 cd2 32 1d -16 +12 |+30 t126 +4 +56 +44 +4 ?
+52 +24 +6 w~~~~~~~~~~~i , jr jrS$ f~ i9 571 a*e +1 af +1 abf +2+9 a2cf +6+ 10 2 adf +12 6c4 abd -4 a2e +7 ace +20 -22 ade 61 10 ae2 -12 10 20 +5 a22 cw aced -16 a2d2 -24 wo~ ab2f-5 17 +29 abef +28 + 38 + 48 +6 abhc .
++6 ab2d-22 a`Be -18 + 31 abce +8+ 96 92 abde -36 -86 8 50 b4 --3 abc2 +48 abed +32 56 abd2 2 , -144 + 40 acee +32 +100 + 72 ' 64 bce -18 ac3 w , ) + 96 ac2d tco +128 +-128 acd2 w 24 +144 + 160 bd --1270 be 3 -105 +75 63 -28 14 +60 + 25 b22 + 12 b2cd .
++ 16 -360 b2ce +4 70 -240 +50 b::be3 .
++ !
+.19,2 b2d2 ?
++ 52 -440 o beed .
++ -384 --320 c4 .
++192 II IAo -L IA L Ai 1A II CIltA IA Inn tLA B2DE BC2E BCD2 C3D B2E2 BCDE l , t z~ , ujI z , , -.I BD3 C3E C2D2 T , { I 2- .
+u I ?
+, ,a U..T -J.r so BCE2 BD2E C2DE CD3 a2ef +557+ 1a2f2 +1111a -f2 +557+1 abdf 8+ 92 8 36 abef 564 -425 acef 8+ 92 8 36 abe2 -29 67 + 15 25 adf + 20 +196 + 28 + 28 80 adyf +60 + 12 + 72 20 acf ' +-60 + 12 + 72 20 lace2 -14 56 +100 28 +0 ade2-42 54 78+190 acde -12 + 36 +196 + 2-8 lad2e .
+36 68 + 60 336 2ef -29 67 + 15 ad3 C3 E 72 +240 b2df -14 56 28 +100 + 10Cbedf -12 + 36 +196 + 28 b2cf -42 54 + 78 +190 jb2e '1 12 -165 75 75 wo bce2 +26 -110 -510 50 b2de q.`+26 -110 -510 50 bc2f .
+36 + 60 68 + 336 bde +96 60 -280 beee + 96 60 -280 bed .
++148 -140 -140 940 c3f 72 +240 bed2 .
++296 560 bd3 +128 .
+128-0 c-de .
++296 -560 d. .
++512 e 1 .
+8 120. .
+51 e2d2 + 592 -4-01-4Q-_ -_L_ .
+- ; ' ... I ?
+-j4-07l 4-^ 4-I3.1 64 4 L1 I-14 1 2LQQ .
+4Li1 w -o-651 -l"11 BDE2 C2E2 CD2E BE3 CDE2 D3E !
+acf2 +12 -6 4 adf2 + 6+ 10 21aef2 +2+9 af3 +1 bf3 +1 adef +28 + 38 + 48 +6 aef 5+ 17 9 bdf2 +20 22 be2 +7 cef --4 ae3 -28 14 + 60 + 25 be/ 2 6 18 10 be2f -18 + 31 cdf2 --16d22 w by22 -12 + 10 20 +5 bdef +8+ 96 92 c2f2 -24 two ce2f -22 de:2 +6 beef -36 86 88-50 be3 -3 -105 + 75 def +-32 56 d2ef +48 e4 -3 bd2f +32 +100 + 72 64 c eef .
+-144 + 40 ce --12 70 de3 -18 bde 2+4 70 -240 + 50 cd9f .
+128 +128 df .
++ 96 c2df .
+24 +144 +160 ede2 + .
+16 -360 d2e2 .
++ 12 ece2 q5+ 9 -440 t d3e +192 ede2e +384 -320 d( .
+'. .
+q+192 ' +54 +148 572 B4 B3C T " I CE3 D2E2 DE31 li ) .
+I 1.11,111 .
+I i. . ?
+i. .
+tI IIvvVF/ A I1 IjIrx / V UJ I. Vj|I __ iI ~i~V~~{ IIII _L~ , j , j jF ZJLI I fWlI Iuvvj| I 2svl 1| JI NVW JL*I i -roll ?
+_76 +200 ? ?
+708 + 438 ?
+14 +267 -464 +56 +7 _r_DuV _I r_~I , I -rj.o a4f +1 a3bf + 15 a3cf + 30 10 a3df + 20 10 a3be 5 a3ce 20 a3de 30 wO a3e2 -20 o coa a3cd co a3d2 2 a2b2f 15 +100 a2bef -30 +320 60 a2b2d +10 a2b2e 55 a2bce -100 -190 a2bde +30 -360 + 50 a2bc2 c a2bcd + 80 a2bd2 +120 co a2c2e o -400 + 120 ab3c -10 a2C3 c.a a2c2d o +160 aacd2 w +480 ; c b5 +4 ab3d + 70 ab3e + 55 -260 ab3f +15 --140 + 340 ab2c2 -120 ab2cd 80 +540 ab2ce -20 -440 -1020 b4c + 30 abc3 co -480 ab2d2 +960 100 b4d + 20 +200 abc2d -w-640 + 960 b32 .
+60 ac4 we 640 b4e +5 +300 500 bcd .
+80 +1900 b23. .
+-1040 , ,.- , _I..w .
++225 +10ooo 1I B3DE B2C2E B2CD2 +5 30 +220 -400 +180 40 +185 -300 + 60 cXO C ?
+3 coo +120 80 5+ 30 40 + 40 +1070 -1145 940 + 1020 320 + 160 + 650 520 *5+ 60 + 380 200 180 640 + 25 +1640 -4380 +3960 -2000 + 480 620 + 2900 100 -1320 e ?
+70 +2060 ?
+3370 BC3D +5 130 380 + 400 + 300 + 380 + 125 + 940 1140 1200 2080 + 960 + 800 3500 2600 + 14800 7680 C5 1+ 25 + 80 100 CM3 250 360 + 1000 cC3 + 960 -1600 + 750 300 I+4800 -2304 +680 ?
+1570 ?
+8920 +6895 +810 +2970 +9445 +18710 ?
+7615 B3E2 B2CDE B2D3 BC3E + 15 60 + 240 240 30 + 1380 -2820 +1980 -1200 + 240 cov + 240 + 975 60 660 ID 10 + 200 + 100 300 90 640 500 +1540 +1000 -3000 +1440 + 120 + 500 400 + 600 560 )25 )+ 80 200 + 200 )+ 70 1+ 260 360 -300 -560 I+ 240 +2000 --2125 --1060 +3700 -1920 .
+I BC2D C4D C-210 210 180 + 600 ctn + 1920 + 450 -3180 +1080 -8160 +5040 -1800 Cm +1620 + 2700 + 9600 -5400 -4080 + 51 + 30 ; + 120 ' 150 125 1180 + 500 + 1500 240 + 3120 4800 + 500 + 21001 6500 4800 +17600 7680 B2CE2 B2D2E BC2DE BCD3 a2ef2 a2def a2e3 abcef abeef abd2f abde2 ac2df ac2e2 acd2e ad4 b3ef b2cdf b2ce2 b2d2e bec3 bc2de bcd3 c4e c3d2 50 + 110 80 + 80 520 + 700 190 400 + 280 Co3 Cv03 + 70 + 80 200 70 460 + 460 + 620 + 200 -2000 +1080 Cod ++++++ 160+ 43020 70 440 + 650 420 *++ 10 50 340 + 160 400 c+ 20 + 380 760 200 + 2840 2000 6440 + 4320 500 -2240 + 2750 + 7400 + 1800 -10200 + 2720 40 620 1240 2140 1720 2240 2520 200 5320 2950 4800 3240 2040 + 5070 80+ 70 11080 + 5201+ 460 160430 700460 + 400-200 + 20 + 440 + 80 + 200 + 190620 280 + 2000 + 70'650 -1080 t+ 420 * Upon writing ( B , C , D , E)=(x3 , y2 , ,y2 , y3 ) , the foregoing values of ( 5 , 1 , 0 , 4 become covariants of the quintic ( a , b , c , d , e , f x , y).5 In fact we have =2(Tab .
+No. 15 ) , =5 L2(Tab .
+No. 18 ) , 5- ?
+= ( Tab. No. 13)2(Tab .
+No. 14)-3(Tab .
+No. 15)2,.F= ( Tab. No. 13)2(Tab .
+No. 17)-2(Tab .
+No. 15)(Tab .
+No. 18 ) , where the Tables referred to are those of my Fifth Memoir on Quantics , Tab. No. 13 being the quintic itself .
+This is a further verification of the foregoing result .
+I will conclude by showing how the formula may be applied to the reduction of the general quintic equation to Mr. JERRARD'S form x5'+a+b=0 .
+It was long ago remarked by Professor SYLVESTER that TSCHIRNHAUSEN'S Transformation , in its original form , gave the means of effecting this reduction .
+In fact , if the transforming equation be y=~+/ 3xr S++x 3+gx+4 , then the equation in y is of the form ( , 3 , ; , D , ,yy , 1 ) =0 , where S , ( ) , , ( , f are , in regard to , P , y , y , S , of the degrees 1 , 2 , 3 , 4 , 5 respectively .
+And by assuming , say ca linear function of , 3 , y , s , we may make B=0 , and we have then C , ID , 1,.IF functions of the degrees 2 , 3 , 4 , 5 respectively of the quantities p3 , , s , s : and these can be determined by means of a quadric equation and a cubic equation in such raanner that C =0 , =0 , in which case the equation in y will be of the required form .
+For considering P , y , t , s as the coordinates of a point in space , the equations C= 0 , _=0 will be the equations of a quadric surface and a cubic surface respectively , and if 3 , ry , 6 , be the coordinates of a point on the curve of intersection , the required conditions will be satisfied .
+And by combining with the equation of this the quadric surface , the equation of any tangent plane thereto ( or by the different process which is made use of in the sequel ) , we may , by means of a quadric equation , find a generating line of the quadric surface , and then , by means of a cubic equation , a point of intersection of this line with the cubic surface , i. e. a point the coordinates whereof give the required values 3 , y , s , s. And similarly for the new form of TSCHIRNHAUSEN S Transformation ; the only difference being that , starting with an equation in y which contains the four arbitrary quantities B , C , D , E , we obtain in the first instance an equation ( 1 , 0 , C , 13 , C , JflC , 1)5=0 wanting the second term .
+And then B , C , D , E are to be so determined that C=0 , 3=-0 .
+To proceed with the reduction , I write the foregoing value of C in the form 25=( 4ac42 , 6ad6be , 4ae4bd afbe ( B , C , D , E)2 , 6ad-6bc , 4ae+20bd-24c2 , af+5lbe-16cd , 4bf-4ce 4ae--4bd , af+15be -16cd , 4bf+20ce-24d , 6cf--Gde fbe , 4be ce , 6cf6de , 4df-4e2 which for shortness may be represented by 5I=( a , h , g , 1 XB , C , D , E2 ) h , b , f , m g , f , c , n 1 , m , n , p or say 25 =(nXB , C , D , E)2 .
+Now , by a formula in my memoir " On the Automorphic Linear Transformation of a Bipartite Quadric Function* , " if T denote any skew symmetric matrix of the order 4 , then if ( B , C , D , E)=(-'(R-T)(R+T)- ' C ' , D ' E ' ) , in which formula fl-1 , fi--T , ( f2+T)- ' , Ql are all matrices which are to be compounded together into a single matrix , we have identically ( nQB , C , D , E)2=(7XB ' , C ' , D ' , E')2 .
+Let Q denote the determinant I n+T , then the terms of the matrix ( nl+T ) ) ' are respectively divided by Q , and we may write ( + TIE )'= .
+Q( ?
+2+T)- , where Q(fl+T)-l is the matrix obtained from the matrix ( fl+T)- ' by multiplying each term by Q , the terms of Q(+2+T)- ' being thus rational and integral functions of the terms of the matrix ( f-+T ) .
+Hence if , instead of the before-mentioned relation between ( B , C , D , E ) and ( B , C ' , D ' , E ' ) , we assume ( B , C , D , E)=(n-'(-TY)Q(f1+T)-nXB ' , , C ' , D ' ) , we find ( n:B , C , D , E)2=Q2(nX(B ' , C ' , Dr , E')2 .
+And if the matrix r is such that we have Q=O , i. e. Det .
+( + TIE )=O ( which is a quadric relation between the terms of the skew matrix , that is , each term is contained therein in the first and second powers only ) , then the equation becomes ( f(B , C , D , E)2=O .
+It is clear that this can only be the case in consequence of the coefficients of transformation in the equation ( B , C , D , E)=(2-1(2-T)Q(2Q+T)-1'XB ' , C , D ' , E ' ) being such that there shall exist at least two linear relations between the quantities ( B , , , D , E ) , and I assume ( without stopping to prove it ) that they are such that the number of such linear relations is in fact two .
+That is , the last-mentioned equation establishes between the quantities ( B , C , D , E ) two linear relations , in virtue whereof X Philosophical Transactions , vol. cxlviii .
+( 1858 ) , see p. 44 .
+576 C-=0 .
+And this being so , we may , without loss of generality , write D'=0 , E'=0 , or put ( B , C , D , E)=(2Q-'(Q-T)Q(Q+T)-'Q~B ' , C ' , 0 , ) ; so that B , C , D , E are linear functions of B ' , C ' , such that C(=0 .
+And then substituting these values for ( B , C , D , E ) , we find ta cubic function of B ' , C ' ; so that , putting 3=0 , we have a cubic equation to determine the ratio B ' : C ' .
+The foregoing reasoning presents no real difficulty , but it is expressed by means of a very condensed notation , and it may be proper to illustrate it by the case of the quadric function x2+y2+z2 .
+Considering the equations -=(1 +X2-_'-~')x+ 2(x)y+ 2(x^+ ) ' , y= 2( , x/ + )x'+(1X2+a2p)y+ 2(y -)'Z z= 2(p~p)'+ 2(C+)y'+( --X2-2+v2)z , these equations , if the expressions for x , y , z had been divided by 1+X2+p2+jP , would have given x2 +y2+ z2 =x2 +y ' +z12 .
+Hence they actually do give o2+y2+Z2=(1 +X2+(i2+ v2)2(X'2+y 2+z'2 ) ; or if 1 +X+22+V2=o0 , they give X2 +y2 + Z2= 0 .
+But if 1 +k2+y2+-2=0 , then l+x-2-2-_ : 2(Xt-P ) : 2(Xy+p ) = 2(x , + ) : 1-X2+ , -y,2 : 2(Epy-x ) =2(vxpc ) : 2( pie +x ) : l j^1 2+y2 ; so that we have x y : z=l+X2-p2a---02 : 2(p+v ) : 2(yv-p ) , which is the same result as would have been found by writing Y=-z'=O , and which comes to saying that x , y , z are not independent , but are connected by two linear relations .
+The equation Det .
+( fn+T)=0 , written at length , will be a , h-- , g+a , 1 +X =0 , h+r , b , f-g , m+p g-a , f +g , c , n+v l--x , m-- , n- , p where X , ) , v , ?
+, a , ' are the arbitrary constituents of the skew matrix ; or developing , this is ahg1hbfmgfcn1 mn p 577 +( be f2 , fg -ch , hf -bg , mg-nh , fm -bn , -fn +cm 7 ) , 5 , y , , , , ))2 fg -ch , ca -g2 , gh-af , -gl +an , nh -f , gn-cl hf -bg , gh -af , ab-h2 , hi -am , -hm+bl , f -mg mg-nh , fm--bn , -fn +cm , ap -12 , ph --m , pg-ln -gl +an , nh -f , gn-cl , ph-lm , bp-m2 , pf -mn hi -am , -hm+bl , If -mg , pg In , pf -mn , cp-n2 +(a+ y7+)2 =0 , the first term whereof , substituting for ( a , b , c , f , g , h , 1 , m , n , p ) their values , is in fact equal to the discriminant a4f+ &amp;c. of the quintic ( a , b , c , d , e , fXX , Y)5 .
+There is no loss of generality in putting all but two of the quantities ( x , , v , g , , r ) equal to zero ; in fact this leaves in the formulae a single arbitrary quantity , which is the right number , since the ratios B : C : D : E have to satisfy only the two conditions ( ; =0 , g=-0 .
+ADDITION , NOV .
+10 , 1862 .
+I take the opportunity of remarking , with reference to my memoir " On a New Auxiliary Equation in the Theory of Equations of the Fifth Order* , " that I recently discovered that the auxiliary equation there considered is in fact due to JACOBI , who , in his paper , " 6 Observatiunculke ad theoriam aequationum pertinentes j , " under the heading " Observatio de aequatione sexti gradus ad quam aequationes quinti gradus revocari possunt , " gives the theory , and observes that the equation is of the form 06+a2 4+a4 2 ?
++a6= 32V/ o~P , and mentions that the value of a2 is easily found to be ( I adapt his notation to the denumerate form ( a , b , c , d , e , fv , 1)5=0 ) =40ae--16bd +62 ( this ought , however , to be divided by -2 ) , but that the values of a4 , a6 " paullo ampliores calculos poscunt .
+" The value of the coefficient in question is correctly obtained ( page 270 of my memoir ) in the form -C2 +2(-16ae+4bd--c2 ) + 12ae ; but the reduced value is given in two places ( page 271 ) as equal to -32 ae , this should be -20 ae , J+ 8sb , , , +8 d , 3c2 , , , 3c .
+The last-mentioned correct value was used in obtaining the coefficient for the standard form , which coefficient is given correctly , page 274 .
+

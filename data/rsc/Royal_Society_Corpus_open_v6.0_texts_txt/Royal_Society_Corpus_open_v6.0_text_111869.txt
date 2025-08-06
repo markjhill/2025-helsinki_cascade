@@ -1,0 +1,33 @@
+1 .
+" On Systems of Linear Indeterminate Equations and Congruences .
+" By H. J. SMTEP IN SMITI , Esq. , M.A. , Fellow and Mathematical Lecturer of Balliol College , Oxford .
+Communicated by Professor J. J. SYLVESTER .
+Received January 17 , 1861 .
+( Abstract .
+) The present communication relates to the theory of the solution , in positive and negative integral numbers , of systems of linear indeterminate equations , having integral coefficients .
+In connexion with this theory , a solution is also given of certain problems relating to rectangular matrices , composed of integral numbers , which are of frequent use in the higher arithmetic .
+Of this kind are the two following:1 .
+" Given ( in integral numbers ) the values of the determinants of any rectangular matrix of given dimensions , to find all the matrices , the constituents of which are integers , and the determinants of which have those given values .
+2 .
+" Given any rectangular matrix , the determinants of which have a given number D for their greatest common divisor , to find all the supplementary matrices , which , with the given matrix , form square matrices , of which the determinant is D. " A solution of particular , but still very important cases of these two problems , has been already given by M. Hermit .
+The method by which in this paper their general solution has been obtained , depends on an elementary , but apparently fertile principle in the theory of indeterminate linear systems ; viz. that if m be the index of indeterminateness of such a system ( i. e. the excess of the number of indeterminates above the number of really independent equations ) , it is always possible to assign a set of m solutions , such that the determinants of the matrix formed by them shall admit of no common divisor but unity .
+Such a set of solutions is termed afundamental set , and possesses the characteristic property , that every other solution of the system can be integrally expressed by means of the solutions contained in it .
+A set of independent solutions is one in which the determinants of the matrix have a finite common divisor , i. e. are not all zero .
+The theory of independent and fundamental sets of solutions in some respects resembles that of independent and fundamental systems of units in Lejeune Dirichlet 's celebrated generalization of the solution of the Pellian equation .
+By the aid of the same principle of fundamental sets , the following criterion is obtained for the resolubility or irresolubility of indeterminate linear systems .
+" s A linear system is or is not resoluble in integral numbers , according as the greatest common divisor of the determinants of the matrix of the system is or is not equal to the corresponding greatest common divisor of its augmented matrix .
+" [ The matrix of a linear system of equations is , of course , the rectangular matrix formed by the coefficients of the indeterminates ; the augmented matrix is the matrix derived from that matrix , by adding to it a vertical column composed of the absolute terms of the equations .
+] A system of linear congruences may , of course , be regarded as a system of linear indeterminate equations of a particular form ; and the criterion for its resolubility or irresolubility is implicitly contained in that just given for any indeterminate system .
+But this criterion may be expressed in a form in which its relation to the modulus is very clearly seen , Let Az , xi +Ai , z2x+ 2. .
++ Ai , , = At , ,+i , mod M , i=l1 , 2 , 3 , ... n represent a system of congruences ; let us denote by V , , V-1,. .
+Up Vo , the greatest common divisors of the determinant , first minors , &amp;c. , of the matrix of the system [ so that , in fact , V. is the determinant itself , Vi the greatest common divisor of the coefficients A/ j , and Vo=1 ] ; by D , , D , _ , ... D , Do the corresponding numbers for the augmented matrix ; let also ~ and di respectively represent the greatest common divisors of M with V--L , and of M Vi-I with - ; and put m= x d , _-x. .
+x. X. x,. .
+Then the necessary and sufficient condition for the resolubility of the system is m==- ; and when this condition is satisfied , the number of solutions is precisely m. The demonstration of this result ( which seems to exhaust the theory of these systems ) is obtained by means of the following theorem : " If IA f represent any square matrix in integral numbers , W , its determinant , Vn-b , Vn-2,. .
+V71 Vo the greatest common divisors of its successive orders of minors , it is always possible to assign two unit-matrices 11all and 11t11 , of the same dimensions as IjAII , and satisfying the equation 1 , O , 0 ?
+0 0 , , 0 , ?
+0 .
+Vn-1 0 , on 0V -3 0 , 0 , o , 0 , VI ^0 The following result ( among many which may be deduced from this transformation of a square matrix ) admits of frequent applications : " If D be the greatest common divisor of the determinants of the matrix of any system of n independent linear equations ; of the Dn sets of values ( incongruous mod .
+D ) that may be attributed to the absolute terms of the equations , the system is resoluble for Dn- , and irresoluble for Dn-l ( D1-l ) .
+" As an example of the use that may be made of this result , it is shown , in conclusion , that it supplies an immediate demonstration of a fundamental principle in the general theory of complex integral numbers , composed of the root of any irreducible equation , having its first coefficient unity , and all its coefficients integral ; viz. that the number of incongruous residues , for any modulus , is always represented by the norm of the modulus .
+A demonstration of this principle has , however , already been given in the ' Quarterly Journal of Pure and Applied Mathematics , ' in a paper signed Lanavicensis ; to whom , therefore , the honour of priority in this inquiry is due .
+

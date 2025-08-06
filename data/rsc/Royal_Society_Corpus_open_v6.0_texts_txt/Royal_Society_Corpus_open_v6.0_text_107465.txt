@@ -1,0 +1,261 @@
+IX .
+On circulating functions , and on the integration of a class of equations of finite d/ fferences into which they enter as coeficients .
+By John F. W. Herschel , Esq. F. R. S. Read February 19 , 1818 .
+( 1 ) .
+So much has been written on the subject of recurring series , and the equations of differences from which they arise , that we can now expect little more to be added to their theory .
+This is not the case with the class of series , and their corresponding equations I propose to consider in the following pages , which bear a great analogy to the other , and include them as a particular case : I mean , series in which the same relation between a certain number of successive terms recurs periodically ; the terms so related being separated by others connected by relations similar in their general analytical form , but modified by a variation in the constant or variable coefficients which enter into the equations expressing them .
+Such series have , I believe , never yet been considered as a class : particular cases have very frequently occurred in the course of analytical investigations , and have then been treated by peculiar considerations of such a description as to give a very uninviting air to their theory , but no general view has hitherto been taken of their nature , and no uniform train of analytical artifices been exposed by whose aid they may be subjected to the same modes of treatment as those of the ordinary kind .
+( X ) .
+Let us imagine a series of quantities Uo , UI ) U2 &amp; C. produced from one another by the following regular law , Uo = Zu , eu:= a , o2b , z u. .
+ai,93 =24= bus3 &amp;c. It is evident then that , were the coefficients a , b , equal , the series would be a recurring one of the simplest kind , viz. a geometric progression , and might be represented by a single equation of differences of the first order ' .
+1 aum , If this , however , be not the case , the series will consist of two distinct geometric progressions , the terms of which alternate with one another , thus u= uo uz = abu0 u4 = a2u &amp; e u= au , o u3 =ahbuo u ba2 &amp;c. It would seem then that no single equation of differences of the first order could comprehend all the terms of this series , so as to pass uninterruptedly from one to the other ; and were this really the case , the method which has hlitherto been always followed , of actually resolving it into the distinct series of which it consists , and instituting a separate process for the odd and the even values of x , so as to get the two equations of differences ut2x + -a==.*z and u2 +2=bu2+ would be the only course we could pursue .
+That this , however , is not the case , at least in the instance before us , is evident , if we consider that both these equations are included in the equation of the second order , ux + : ab.u .
+the first integral of which will be an equation of the first order comprehending the whole extent of the series , provided the constant be properly determined by the equation u au .
+At all events however several inconveniences embarrass this method .
+It is entirely at variance with the uniformity which ought to reign throughout all analytical operations , thus to descend into arithmetical details in the outset of symbolic investigation , and to vary our processes according to the numerical form of the quantities concerned .
+If we would avoid this by having recourse to an equation of a higher order including all the separate cases , we are required either to seize at once , by an undirected effort of intellect , on the relation which connects the terms periodically equidistant , or to go through some preparatory process to discover it , which for the most part will be found very troublesome .
+Moreover , it demands the actual formation of certain terms to determine the constants , which are not ( as will hereafter appear ) necessary .
+It is true that in the very simple case I have just stated , these inconveniences , though really existing , are not felt .
+If we take one a little more complicated , they will speedily form a prominent part of the difficulty .
+Suppose the law of formation of the terms of a series were , for instance , as follows : ti , M +2 UQ U3 = b8 } +3 4= ? ?
+4+ .
+, uz _ .
+au , " Uo , u3 bt + u , u4 cu3b + u : , Ua5 = au , + tu3 , u6 = bu5 + 3U6,4 U7 = cu6 + 3U , &amp;c. it would be necessary to divide the whole investigation into six cases , and to integrate six several equations of differences , U6x + z= au6.x+ l+ 6x , U6x+3bu6x+* u6x+ z+ x , &amp;c. and after all , the general term of the series would not be obtained , but merely the several general terms of six other series which , interlaced , as it were , one with the other , form the series in question ; which is in fact much the same way 1t4p of proceeding as it would be to consider the series of natural numbers as consisting of several other arithmetical progressions such as i. .
+47 10. .
+13 .
+&amp;c. 2..5 .
+8 ... i. &amp; 4 c. 3. .
+6 .
+9 ? ?
+12 1. .
+i5 &amp; c. the general terms of which are respectively 3x- , 3xI , 3x , united into one , the general term of which is x. It is interesting then to discover some analytical artifice which shall obviate these inconveniences , by conmprehending the whole extent of these and similar series in one single equation , whose order shall be no higher than is absolutely indispensible ; which shall require no preparatory investigation to obtain it ; nor the actual calculation of any superfluous terms for the determination of the constants in its integral ; and , finally , whose integration shall lead to an expression in functions of the index x , such that the substitution of the natural progression of numbers in succession for x shall produce all the terms of the series in their order .
+Such an artifice , or train of artifices , I shall now proceed to explain .
+They turn upon a theorem familiar to every algebraist , but which does not seem to have been yet applied to all the uses of which it is susceptible .
+( s ) .
+Let us then represent by S ( n ) the function x++ ( + &amp;c. n , 3 , % &amp;c. being the several roots of the equation zn1 o. If we have occasion to denote other functions similarly composed of the roots of other equations zP-=o , q--1 =o , &amp;c. they will therefore be represented as follows 147 ( p)_ s+"+ &amp;c. sq)__ Itx &amp;c. +P+ &amp; ?
+, S_ x. pq but when only one quantity n is under consideration , we shall , for convenience , omit the superior index ( n ) and write the function thus ax +/ x+ &amp; C. S= -t 1 nI* .
+I , I 7.v cX^ ngxq- &amp; c ; .
+Let us also denote by p n ) the function ax .
+S ?
++ b. S(:+ , c S( + ... .
+k.S(n)+ , X ' St , ~2--n-e -.- .
+x x- .
+X omitting , in like manner , the superior index ( n ) and writing it PX when only one quantity n is considered .
+Here we suppose a , b , &amp;c. , to represent any given functions of x and constant quantities .
+The functions Sx and Px are possessed then of the following properties .
+( 4 ) .
+Sx is unity whenever x is a multiple of n : in all other cases , S= o. This is a well known property of the roots of unity .
+Hence , some one of the functions x , I S ?
+_. .
+** * c. x , x1 l3. .
+o--,. .
+x n+ is necessarily a multiple of n. If the coefficients a , b , &amp;c. be all constant , or if P-a x S= +b .
+Sx +. .
+k Sx-n+ and we give to x the several values o , 1 , 2 , 3 , 4 , &amp; C. to infinity , in succession , the first n values of P , will be in their order , a , b c , *.* k after which the same set of quantities will be reproduced in the same order by continuing the substitution , and so on to infinity .
+The function P. may be called in this case a circulatz'gfunction , and the same name ( with less propriety however ) may be extended to the case when the coeiiecnts are variable .
+The system of coefficients a , , c , ... ... .
+k may be called a period .
+Hence if the terms of a series be in rotation a , b , c , ... k a , b , &amp; c the general term will be truly represented by P , or a S. +b S_ + and f if they coincide in rotation with the valaes of n functions ax b , &amp; c* thus : aVo b^ , C2 , ... k , _ , ,a , , b+ , &amp;c. the general term will be , $S + b. S_ , I + ... .
++S ( 5 ) .
+Any function , however complicated , of x , Sx , Sx , , ... .
+S. is reducible to the form P Le+ x = , ,. .
+sx Let &lt; P(X)==f S S , ... .
+S.1 eI ?
+JIn -i n + , be the proposed function .
+If then x be of the form mn , or a multiple of n , we , have SX =i , and the rest zero , therefore in this c as , ( r( ) =f n , o , o , ... o 1A99 If x be of the form mn + l , or if x1 be a multiple of n , we have in like manner qp(x)== f x , o , 11i,. .
+0.o and so on .
+If then we take a=f{x , ,o , o , , ... o}be e ?
+e m ?
+?o ? ? ?
+= .
+f , o , o , o , .
+o. .
+the whole series of values of p(x ) will coincide , term by term , to infinity , with the corresponding values of Px = a , .
+S. + b. S_ + ... .
+kSx_ + , and therefore p(x ) = P. , integer values of x only being considered .
+For example , a-a S a.S_ + s , *** x by Mr. BABBAGE in the Philosophical Transactions for 1816 ) and let us consider the symmetrical function f { Sxs , _ ... ..Sx-n+Then , by the nature of the roots of unity as demonstrated in most treatises on algebra , we have S,.=S =S = &amp;c. ___x_n x 2fl S x-S -n+ Sl= &amp;c. and so on .
+If then x be changed to x-+1 , the above function will become f ?
+sX-n+ * * , ( 7 ) .
+If P denote any circulating function with constait coefficients , as aS , + bS_ + ... SkstI Then , ist , =P= P_ n &amp;c. and 2dly , f{ Pz P_X *..* Pv 4_ n+1 } I " } For in the expression of P write successively x , x X , x , .
+, ... n for S , and we have ( since Sx = SX &amp;c. ) P =aS + bS + ... ... * SP =aS + bS2 + ... ..kS e a ? .
+_,.(:s -S+ ... .
+Pne_n+x =S rr-t a +a ek and lastly Px =a S , +b Sx_ + k. -k S , _+ , = Px .
+Any function then , symmetrical relative to all the first members of the equations ( A ) will , by reason of the circulating form of their second members be also symmetrical relative to Sx , S_ , ... .
+S. _n , whence by the last proposition the truth of this becomes evident .
+For example P ) PWe rw Pe-a+i tp .
+b.* o. k Px+ P_ + ' , .
+Px._++b+ " ke ... .
+( 8 ) .
+We are now prepared to proceed to the integration of circulating equations , and to determine by that means the general terms of such series as depend on them .
+The manner of reducing the law of a series of this kind into an equation will be rendered evident by a simple instance .
+Suppose this law to be as follows:* This example is selected as having actually occurred in an enquiry of another ntature .
+152 U , au , + o , u3 = 6b + u , , u4 =_ au3 + u2 , U5sbu4 + U , &amp; C. The period of the coefficients of the second terms of all these equations being a , b , if we take S. to represent the sum of the xth powers of the roots of z =1 o , the circulating function a S , +b SS_ , will express the general term of the series a , b , a , b , &amp;c. and the equation u= ( a S+b S-_ , ) u_+ uwill coincide in succession with each of the given ones , by giving x every integer value from z to infinity .
+This then is the equation of the series , which it only remains to integrate .
+To this end assume uICr " = U ; &gt; O/ aS+b Sv Q V.X / Px lx=vx Va SxT+Sx , = % .
+v/ Px putting P for aSt + bS__ .
+Then , by ( 7 ) we have P_2=PX and the equation becomes , by substitution,.X VL-P.P,.X */ PX-_ .
+' vx+ v"./ P , that is , v. = V'Px .
+, P ' + v_ , but , A/ P _ PXI being a symmetrical function of P , and P _ .
+is by ( 7 ) invariable , and equal to 1/ aV whence we have v= i/ a b. v , , , 4v .
+, an ordinary equation with constant coefficients , and consequently integrable by the usual methods .
+Similar considerations will enable us to arrive at the equations of all periodical series , and we shall therefore confine our attention to the equations alone , in the most extended form of which they are susceptible .
+( 9 ) .
+Given the circulating equation u , + ZP , t uX+ : zP *I ux-.zmP u no. IP _+ X X'. .
++ x ... X 2 " ZP m where 'TP , 2P , , &amp; c , are any circulating functions , with either constant or variable coefficients , the period of their circulation being the same in each , and equal to n ; to integrate it Assume uz-A .
+S % , + 'A .
+Sx. .
+nA .
+SS-n + Then we have..X IX -I SOAX X SX-X X u,1=A , , Sx+'A _ .
+S.s_.+ ... .
+AX , , , S , + , ---""2 snA_. .
+S+A .
+SnAxz +.Sx A. -ZA , .
+SX+ I and so on ; and supposing X Px a , Sx +IbSxlb S , ,+ *l Sxn+ , I &amp;c. we shall have by ( 5 ) , U~_ .
+IP= .
+A , ,.S , +4 .
+_'A,.S .
+, _+ ... ... -x* a ? ?
+Ax_ u9+ bS OOx*an**9 1-L K-IA S similarly , '* IA_ U. 2P =x Zax1 -IAx .
+, Sx + ZbA_ ... .
+S. k. n-ZA Sx _t &amp; c &amp;c. The equation then will become by substitution O S4 Av + aKA,.+ Z -'Aa , +.A. .
+ma.t-tnm+TIA.~ M+la +S { 2A , +b 'A ' + Zb b , AxA , + ... ... mb9 , .
+n-m+zA_m+bx } + .
+be the case , when the progression nA , n'XAZ ... 'A is exhausted , instead of going on to write -'Ax , A-Ax , we must begin over again with nAx &amp;c. and so continue in regular rotation as often as may be necessary .
+Now to determine these functions , let each term be separately made to vanish , and a system of equations will be obtained as follows : 2A.+a ' .
+" Ax_ , .
+, n-+A_= " ' + , ; ( A+lbn .
+JrA_+ , A +. .
+mbx .
+" x-+2A m -b , _-m l ; ( C ) eXi** ***X Xc * * its general form ) it will be sufficient to state that the final equation for determining nAx will be of the form nA .
++mn+'H,.H nAx+mn--n+2.- , + mH , nA I , ; ( D ) 'HF- , 2H , &amp;c. and I being certain known functions of x. The integrable cases of this equation ( which is an ordinary one of finite differences , and although of the mx ntb order reducible by a very obvious substitution to the mtb ) are for the most part those in which all the functions 'Px , , XP $ ... mp are circulating functions with constant coefficients , while m+ p , may be of any form whatever , variable or constant .
+In these cases then the proposed circulating equation is integrable , and they comprise nearly all which are of any real utility in the present state of analysis .
+The complete integral of the equation ( D ) involves m.n arbitrary constants ; and , since by means of the system ( C ) all the other unknown functions IAX , ZAx ... ... IAX may be expressed by linear combinations of tA and its successive values , these constants will be involved in each of the several terms of which u consists .
+But as their number exceeds what is necessary for expressing the complete integral of the proposed , whose order is only m , there must exist equations of relation between them to the number of ( n- ) .
+m , or else some of them must coalesce into one , by some peculiarity in the composition of these functions .
+But any such relations may be directly investigated by substituting the value of u with all its superfluous constants in the proposed equation , and causing the result to vanish , It will be worth while , 56 ' however , to examine the integrable cases above alluded to rather more minutely .
+If we leave out the consideration of the last term m+ 'P which is allowable , because by the well known theory of linear equations , the part of the integral dependent on the last term can be supplied afterwards , we have I= o , and the rest of the coefficients of the equation ( D ) constant .
+Denoting them then by 'H , H , ... .mH , and supposing 6 , A , y , &amp;c. to be the roots of mIH --2 mH -:Z mz+ H.z. + H..z 4. .
+H=o let us take s to represent the function ( n/ )+(xV4 )+ ( v ) &amp;c. m and the integral of the equation nA+ m+ I. A mn-n + * ... .H may be universally expressed as follows : xA , = S , { 'C,.s -C,.ns_+3C , I.^^ ... ..Mer.^^+4 + SX , IC , .
+s+2C , s_ ... ... ... ... ... S mn+n e ?
+* .
+** * ?
+e*e+S n+I C. X +C we may neglect in the expression of 'Ax all those terms which have not S for a multiplier ; in that of 2A , , all but those multiplied by S_ ; and so on .
+This is a simplification of considerable moment , and will enable us in any assigned case to dispense with the troublesome and complicated process of determining 'Ar , &amp;c. by elimination from ( C ) after nA is obtained .
+In fact , if we suppose ( * ) 'Ax = Sx 'C , I S+ 2Cx Sx , + -* , -m +n}x =s_ , { S , 'C. .
+iSn4 , C2S .
+S , n + , .
+MC2SX m4 &amp;c. the relation between the constants which enter into these expressions may be assigned by merely substituting them in the equations ( C ) , and after writing for s its value SF ( " 7f)x + ( nV/ )x+ &amp;c. } and for s , , } s2 &amp;c. their values .
+' { 4 ' '+'+ &amp;c. , &amp;c. equating the coefficients of each separate term ( " vy ) ' , ( " ii ) ' , &amp;c. to zero .
+This will give mxn equations of relation between the constants , but it will be found that m of them are necessary consequences of the others , in virtue of the equations ( m in number ) In these equations the constants 'Cl C1 , &amp;c. 1C2 , &amp;c. are not intended to represent the same with those in the expression above given for nAx which are denoted by the same letters , They are functions of them , whose form it is .
+of no mToment to enquire , it being sufficient for our purpose , that the one system of coInstants consists of an equal number with the other , viz. mx n. +X H. '..+ .
+H-=o m+'H .
+m-x + ... .
+mH = o , &amp;c. The above mentioned equations are therefore equivalent only to ( n ) .
+m distinct ones , which as we have already seen , is the number of relations which ought to subsist between them .
+Hence then , all the constants except those which remain arbitrary may be eliminated from the expression of u and the result will be the complete integral required .
+( io ) .
+Having thus determined the value of u , when the last term of the proposed equation , or m+ px is zero , if we would then extend the integration to cases where it has any given form , the usual theory of linear equations will afford the requisite formula , and their application will be attended with no other embarrassment than what may arise from the integration of explicit functions of the forms ?
+Sx f ( x ) and ; PJ.f(x ) Into this part of the subject , however , we need not enter at any length , because it may be avoided by pursuing the process originally laid down in ( 9 ) without neglecting the last term .
+We shall confine ourselves to the remark , that both the above expressions are reducible to the form ax .
+Sx + bx. S I +. .
+k S_n +l and to the developement of one interesting case , viz. that in which f(x ) = i , or the function to be integrated is simply SI .
+Let us then denote : S by u % , and it is remarkable that in the determination of u , all the ordinary methods are unavailing .
+It is true that since S. is of the form 1.59 ax ^+ x++ &amp;c. n the direct integration of each term will give 1= M+ + &amp;c. }+ C but the peculiar values of o , 3 , &amp;c. ( the roots of unity ) render this expression useless .
+Neither is it of any service to regard S as the general term of a recurring series whose equation is S S.x+n x for the general expression of the sum of such a series becomes illusory when applied to this particular case .
+We shall be successful , however , if we regard ux as originating from an equation of differences Au- , = Sx , or ux ux -S and treat it as a particular case of the equation integrated in ( 9 ) .
+Thus if we assume u ='Ax .
+Sx + 2.SX+ *. .
+now such a one presents itself at once , viz. 'Ax because n we have obviously n+= i. Hence then we obtain 2A nX 1ZAX t+ 3AX ---n 1 and so on , from which we obtain for the general value of uu= Const. + 'A , .
+S , +A ... ..A , x. S8_f , = Const.+{S , +S^.+ ... S , _ }g+i ) 1rs{ Sx + S_ " i + ? ? ?
+Sx-n+ }( l ) { o. S + , X ; X+ s_I+ ?
+* obtained : a proposition which seems likely to be of some service in the theory of numbers .
+The same expression may also be obtained by the following considerations .
+If x be a multiple of n , the integer part of n will evidently be represented by x ; if x be of the form nn zin + i , or a multiple of n increased by unity , the same integer part will be represented by xI ; if of the form in +a by _"2and so on .
+If then we can devise such a function f(x ) , that when x= in we shall have f(x ) = o , when x= in +f i , f(x ) = 1 , when x= in + 2 , f(x ) = 2 , and so on , i being any integer whatever , it is evident that x -/ w ) n will represent in general the integer part of n. Now o. S( ?
+) + 1 .
+s. ) , + .
+S + ... .
+) .
+, is such a function .
+I thought it right to mention this , because the observation of this fact ( so deduced ) was among the first things which led me to the general consideration of circulating equations in the form I have here presented it .
+( 11 ) .
+The next case I propose to consider is that of circulating equations , in which the period of circulation is not the same in all the , coefficients .
+This , however , will not detain us long .
+Suppose .
++p ( .
+u+ P(P ) .
+U- .
++* *.** p( ) = p( ) X coeficients of which , taken in their order , form r subordinate periods within it , each consisting of the n coefficients of p(n ) .
+Thus suppose n= 2 , and N=6 then P(2 ) ax .
+S(Z)+ b.S( ?
+, -x )= ai ' bX.m-I a-Sx6 +$ ) ~bx + S(6)6 + a , Xbt .
+Ssx6 6)S +x s+ 6 The identity of these two expressions is easily recognised : when x is a multiple of 6 , and therefore of 2 , they both reduce themselves to a ; when x-i is such a multiple , tob b ; when x -is a multiple of 6 , x is also one of o , and therefore x is so ; consequently both functions reduce thenselves to a , and so on for every form of x , Thus every coefficient of the proposed equation may be reduced to one whose period of circulation is N ; and this being done , the equation comes under the general form integrated in ( 9 ) .
+The second series whose law is stated in Art .
+( 2 ) leads to an equation of this kind .
+In fact the equation --(a S(3)+ b S(3)2+ c S(3 ) u_ ( S ?
+) +_S U_ o coincides in succession with the whole series of equations there assigned ; and if we write instead of the coefficients of this , the following , a S(6 ) bS(6 ) +cS(6 C 56 ) ( ) + bS(6 ) +c S(6 ) x x-X B -2 X X3 x-4 ?
+-5 S(6 ) + 6 ) X+ M S6 ) 2 + : S6)3 +as ( 6 ) +3 s(6 ) X P--X ?
+X2 ' 'X-3 SX-4 6xthey are reduced to a common period of circulation , and the equation may then be integrated as above .
+It remains to consider equations with more than one independent variable whose coefficients are circulating functions .
+163 ( 12 ) .
+A circulating function with two independent variables may have a double period of circulation , and may in general be represented thus : p(m , n)_ o0 , o ) Sm S a ' ?
+o ) S(m ) S(n ) + a(0 ?
+' ) S(m ' S(n ) + Xj y x , yx{ x. , j -iy -X , y Y. ?
+m)+ a- % , sLnsi ) C(m( + a(m I ) gm)m+I.~~~ ... ... .-jI -m+ i-+I I one with three may have a triple one , and its expression will be p(m , n , r ) _ a(o , 0 , ) S(m ) S ; n ) S(r ) + a(1,0 , o ) s(m ) Sn ) S(r ) ( + &amp; c x , yY , Zx y , XXY X , J y , I Yand so on , and these functions possess general properties analogous to those of one variable .
+To avoid complication we will confine ourselves to the case of two variables , a similar mode of treatment being applicable to any number .
+First then , any function whatever of x , y , S(m ) , S( ) , &amp;c. and their successive values is reducible to the form P(m , n ) x , y and thus the sums , products , quotients , or powers of two or more such functions are reducible to a single one , as in the case of one variable .
+2dly .
+Any symmetrical function whatever of the values p(m , n ) p(m , n ) p(m , n ) p(m n ) x , y , -x-- , is y '* Px e * .
+*..e * tion .
+These properties are easily demonstrated as in the case of a single independent variable , and by their aid all circulating equations of partial differences may be cleared of their circulating form .
+( 13 ) .
+Let the proposed equation of partial differences be u + , y. ) P( , rmn ) u l , 4 .
+( o , x ) Pm n ) +.y 1 ( ?
+)PXs(m( n ) x1 ( ?
+S 3)p(m , t ) p ( m ( r-i , s-I ) p(m , , n ) .
+_ry , = P(,3 ) x , x r , s x , y To integrate it , we assume A(o , ) .
+Ao ) S ?
+( s )+ A( " , ) S5m ) S(n ) A(xO 1 ) S(m ) S(n ) x , y = - , xy x , y X* s XY , yX yx , y s ... ... ... ... .* 7* +A(m , ~/ ' ) S(m ) sI8 X~~ , y ~ -m +I Y+n 1 and supposing the general representation of any one of the coefficients as ( r s)p(m n ) to be x , y ( r s ) ( o,0 ) S(m ) S(n)-+(r , s ) ( Ih o ) S(m ) S(n))+(r , s)a ( o , i ) S(m)S ) t &amp; c x , yxy X , X --Iy X , yX --i Then , if the above expression be substituted for ux in the proposed equation , it becomes = Sx .
+{ A"x S(.x , A(M-I , ) y ( ?
+, .
+A )x , y+ &amp;c. a(0 , ) } S s(m)S A { ?
+aA( ) + I ?
+( ) .
+A( , ?
+a + ( , ) .
+o ) I+ &amp;c. I ) .
+S(m ) S(n ) I ( o , ) .
+A ( m1-l).9 ( o , l ) a , [ ) &amp;c. .
+ss X.* *X+ *I. .
+)+ X &amp; .
+~X } S.(M ) S(n ) s A(mi , n-.i ) , ,o ) ( m-i , n-i ) A(m-z , n-)_ &amp;c. _a(m- , n_ ) r ^-m+i ^-1t+rl .
+1+ aY It will be unnecessary to enter into the detail of the process of elimination in this case ; it is always practicable , and leads to a final equation with constant coefficients , when those of the circulating functions which enter into the proposed , equation are constant , just as in the case of one variable .
+( 14 ) .
+I am unwilling to occupy the pages of the Philosophical Transactions with examples of the application of the processes here delivered to the various problems in the pure and mixed mathematics where they afford either a remarkable simplicity in the result , or great neatness in the investigation .
+Such instances occur frequently in the evaluation of continued fractions and other similar functions where the denominators ( or other elements ) recur in a certain order .
+A variety of complicated questions relative to the simultaneous employment of capital in different mercantile transactions , can scarcely be treated with perspicuity in any other way , and other instances will readily suggest themselves to the reader whose experience in enquiries of this nature has led him to feel the inconvenience which these pages are designed to obviate .
+I will therefore merely subjoin one example of the integration of a circulating equation of the second order , with constant coefficients , by way of illustration of the methods themselves .
+Suppose then we have u ( aS + bS )u + ( S S ) =0 Xx X-l-SIX ( S +XI ' --/ --2 where S is 1 the sum of the xtb powers of the roots of x2 1-1 o assume u =A .
+S+ B. S Xnd we get by substitution and we get by substitution i66 o-S AB--aB +aA l+AS.fB-bA +/ 3B } whence we find A+ -A aB x ?
+x ?
+XIz x-I !
+B+ B+=bA The first of these gives BjA + , + ?
+A , ; ( E ) which substituted in the second mulltilied by a produces A+ ( + -~ab)A^_ +a 3A o or , A+ ( ab i3 ) A+-+A at+ Ao This equation corresponds to the equation ( D ) of the foregoing articles , and if we take p and q such that ( _-p ) ( e _q ) =-(ab ~ |S ) + / 3 , we shall have for the complete value of Ax ( F ) +S.- .
+C ( p +)+C ( p -q + qXZ ) } ?
++ st_{ ~ .
+( +++ q)+( +q ) } This expression substituted in ( E ) will give the value of B , but as it is sufficiently evident that the expression so obtained , as well as the value of u thence derived , will all have the same form , the constanits only difiering , we may at once suppose u equal to the second miember of ( F ) and determine the relations between C , ,C ' c , C ' by substituting it in the proposed equation .
+This gives the following four equations of condition among the constants .
+( +C(+)(C + c)(+ ) -1 a +)= ( C + ?
+, )( .
++ )-p( )=o ( C + )(1 + )-( + F ) o( +C)( + ) + -c + ) =o Ci 4q1 167 Eliminating ( c + ) from the two first of these , and ( c + -- ) from the two last we find p ( C +pV )p -4a-+ B =o p~ .
+( c +3~ ) .
+{ , ( ab---~)F + np } =o 4* ( C + ) .
+{ q _ ( ab~ ~ ) q ' + } =o but the values of p and q are such by hypothesis , that the latter factors of these equations vanish separately of themselves : the equations are therefore verified independently of CI C ' any particular values of C+p or C + , which therefore remain arbitrary .
+C and C ' then being arbitrarily assumed , and c , and c ' determined from the above equations , which give c pq ( p+t q'+ pq +)+ C ' .
+( pq - ) a.pq .
+( 1p + q ) c= c{ ( { ( q ?
++i+ e+ q ) } c. rpq , ) .
+( q6 ) a.pq ( p + q ) the second member of the equation ( F ) will be the complete value of u , and it will be noticed that we have pq = -/ , p( +q= abi( + p ) ( P + q ) = -Vt -+ q- ) + 2pq whence the whole is readily reduced to functions of the proposed coefficients a , b , a , R. JOHN F. W. HERSCHEL .
+Slough , Nov. 1817 .
+168
+

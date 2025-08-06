@@ -1,0 +1,122 @@
+IX .
+On the General Resolution of Algebraical Equations .
+by Edward Waring , M. D. F. R. S. and of the Institute of Bononia , Lucasian Professor of Mathematics in the University of Cambridge .
+Read Jan. 28 , 1779 .
+IN the year 1757 I sent some papers to the Royal Society , which papers were printed in the year 1759 , and copies of them delivered to several persons ; these papers somewhat corrected , with the addition of a second part on the properties of curve lines , were published in the year 1762 .
+In the years 1767 , 1768 and 1769 I printed , and published in the beginning of the year 1770 , the same papers with additions and emendations under the title of Meditationes Algebraicae .
+In these papers were contained , with many other inventions , the most general resolution of algebraical equations known , as it contains the resolution of every algebraical equation , of which the general resolution has been given , viz. the resolution of quadratic , cubic and biquadratic , the resolution of Mr. DE MOIVRE'S and Mr. BEROUT'S ( since published ) equations ; it discovers the resolution of an equation of n dimensions , of which the n roots are given , and also deduces innumerable equations of n dimensions , which contain n1 independent coefficients .
+From whence it seems probable , that this new method of mine may contain the most general resolution of algebraical equations that ever has , or , perhaps , ever will be invented .
+The general resolution is x= an~p + bn~p2 + cn~p3 + du~p4 ... .
++rn~pn-3 + sn~pn-2 + tn~pn-1 + A/ n , if the equation be xn Axn-1 + Bxn-2 Cxn-3 + Dxn-4 &amp;c. = 0 .
+I shall add the resolution of some particular equations from this method , and then subjoin the equation to which x= an~p + bn~p2 + cn~p3 + &amp;c. is the general resolution .
+1 .
+Let the resolution be x= a3~p + b3~p2 , and the correspondent equation free from radicals will be found x3-3abpx-a3p-b3p2 = 0 .
+Let x3 Px Q=0 be a cubic equation whose resolution is required , which suppose the same as the equation found above , and consequently their correspondent terms equal , i. e. P= 3abp and Q= a3p + b3p2 , whence p= P/ 3ab , which value being substituted for p in the second equation , there results Q= Pa2/ 3b + bp2 9a2 .
+In this equation for a or b may be assumed unity , or any other quantity whatever , and there will result an equation of the formula of a quadratic from which the other b or a may be found , whence from the equation ( p= P/ 3ab ) p may be deduced , and consequently the resolution of the cubic required .
+In the same manner for p may be assumed any quantity whatever , and in the equation Q= a3p + b3p2 for b substitute its value P/ 3ap , or for a its value P/ 3bp , and there result the equations Q= a3p + P3/ 27a3p , and Q= P3/ 27b3p2 + b3p2 , which have the formula of a quadratic , from which may be deduced the resolution of the cubic required .
+2 .
+Let the resolution assumed be x= a4~p + b4~p2 + c4~p3 ; exterminate the irrational quantities , and there results the equation x4 ( 2b2 + 4ac ) px2 4(a2bp + bc2p2 ) x a4p + b4p2 c4p3 + 2a2c2p2 4ab2cp2 = 0 ; suppose p= 1 , and the given equation x4 + qx2 rx +s= 0 , let the correspondent terms of the given and resulting equations be respectively made equal to each other , and there result the three equations 2b2 + 4ac = -q , 4b ( a2 + c2 ) = r , and a4 b4 + c4 2a2c2 + 4ab2c = -s ; reduce these equations into one , so that the unknown quantities a and c may be exterminated , and there results the equation 4b6 + 2qb4 + ( q2/ 4 s ) b2 r2/ 16=0 of the formula of a cubic , from which the unknown quantity b may be found , which being substituted for its value ( b ) in the preceding equations , from the equations thence ensuing may be found the unknown quantities a and c , and consequently the resolution of the given biquadratic x4 + qx2 rx +s= 0 .
+From the same principles can be deduced different resolutions of the above-mentioned biquadratic x4 + qx2 rx +s= 0 .
+3 I. Let x= a2n~p + b2n~p2 , then will the equation free from radicals be x2n 2bnpxn n/ 1.2 .
+2nbn-1 a2pxn-1 nx n2-1/ 1.2.3.4 x 2nbn-2 a4pxn-2 nx n-1 x n2-4/ 1.2.3.4.5.6 x 2nbn-3 a6pxn-3 n.n2 1.n2 4.n2 9/ 1.2.3.4.5.6.7.8 x2n bn-4 a8 p xn-4 ... ... .
+n.n2 1x n2 4x n2 9.n2 16 ... n2 n2 2/ 1.2.3.4.5.6.7 ... .2n 2x 2na2n-2 bpx=anp-bnp2~ This equation may be deduced from the following principles .
+Let ~ , ~ , ~ , ~ , ~ , &amp;c. be the 2n roots of the equation z2n 1= 0 , then ( by Prop. XXIII .
+of my Meditat .
+Algebraicae ) the equation free from radicals will be the product of the following quantities ( x a~2n~p b~2 2n~p2 ) ( x a~2r~p b~2 2n~p2 ) ( x a~2n~p b~2 2n~p2 ) ( x a~2n~p b~2 2n~p2 ) ( x a~2n~p b~2 2n~p2 ) &amp;c. = 0 : multiply these quantities into each other , and from the resulting product , by Prob. III .
+of the Meditat .
+Algebr .
+easily can be deduced the equation free from radicals which was to be found .
+3 .
+II .
+Let x=a 2n+1~p +b 2n+1~p2 , then will the correspondent equation free from radicals be x2n+1 2n +1 bn apxn n.n + 1/ 1.2.3 x 2n +1 bn-1 a3pxn-1 nx n2 1xn+ 2/ 1.2.3.4.5 x 2n +1 bn-2 a5pxn-2 nx n2 1x n2 4xn+ 3/ 1.2.3.4.5.6.7 x 2n +1 bn 3 a1 pxn-3 n.n2 1.n2 4.n2 9.n + 4/ 1.2.3.4.5.6.7.8.9 x 2n +1 bn-4 a9 pxn-4- ... .
+n.n2 1.n2 4.n2 9.n2 16 ... n2 n22x 2n 1/ 1.2.3.4.5.6.7.8.9 ... .2n 1 2n +1 ba2n-1 px = a2n +1p+ b2n +1 p2 .
+This may be derived from the same principles as the preceding .
+3 .
+III .
+In general let the equation be x= am~p + bm~p2 , then will the equation free from radicals become xm mam-2 bpx m. m-3/ 2 am-4 b2px2 m. m-4/ 2 .
+m-5/ 3 am-6 b3 px3 m. m-5/ 2 .
+m-6/ 3 .
+m-7/ 4 am-8 b4 px4-m .
+m-6/ 2 .
+m-7/ 3 .
+m-8/ 4 .
+m-9/ 5 am-10 b5 px6 &amp;c. = am p~ bm p2 ; if m denotes an even number , it will be bm p2 , but if an odd number , it will be + bm p2 .
+4 .
+I. Let n denote an odd number , and x= an~p + bn ~ p3 , then will xn-p ( nan-3 bx2 + n.n-5/ 2 an-6 b2 x4 + n. n-7/ 2 .
+n-8/ 3 an-9 b3 x5 + n.n-9/ 2 .
+n-10/ 3 .
+n-11/ 4 an-12 b4 x8 + n. n-11/ 2 .
+n-12/ 3 .
+n-13/ 4 .
+n-14/ 5 an-15b5x10 + n.n-13/ 2.n-14/ 3.n-15/ 4.n-16/ 5.n-17/ 6 an-18 b6 x12 + n. n-~5/ 2.n-16/ 3.n-17/ 4.n-18/ 5.n-19/ 6.n-20/ 7 an-21 b7x14 + &amp;c. ) = p2 ( nan-3/ 2 bn+1/ 2 x-1/ 22 x n.n-5/ 2.n-7/ 3 an-9/ 2 bn+3/ 2 x3 + 1/ 24 x n.n-7/ 2.n-9/ 3.n-11/ 4.n-13/ 5 an-15/ 2 bn+5/ 2 x5 1/ 26 x n.n-9/ 2.n-11/ 3.n-13/ 4.n-15/ 5.n-17/ 6.n-19/ 7 an-21/ 2 bn+7/ 2 x7 + 1/ 28 x n.n-11/ 2.n-13/ 3.n-15/ 4.n-17/ 5.n-19/ 6.n-21/ 7.n-23/ 8.n-25/ 9 an-27/ 2 bn+9/ 2 x9 &amp;c. ) = anp + bnp3 .
+The quantity ~ p2 denotes +p2 if n-3/ 4 is a whole number , otherwise p2 .
+4 .
+II .
+Let n denote an even number , and x as before = an~p + bn~p3 , then will xn p ( nan-3 bx2 + n.n-5/ 2 an-6 b2x4 + n.n-7/ 2.n-8/ 3 an-9b3x6 + n.n-9/ 2.n-10/ 3.n-11/ 4 an-12 b4x8 + n.n-11/ 2 .
+n-12/ 3.n-13/ 4.n-14/ 5 an-15 b5x10 + &amp;c. ) ~ p2 ( 1/ 2 n.n-4/ 2 an-6/ 2 bn+2/ 2 x2 1/ 23 x n.n-6/ 2.n-8/ 3.n-10/ 4 an-12/ 2 bn+4/ 2 x4 + 1/ 25 x n.n-8/ 2.n-10/ 3.n-12/ 4.n-14/ 5 .
+n-16/ 6 an-18/ 2 bn+6/ 2 x6 1/ 27 x n.n-10/ 2.n-12/ 3.n-14/ 4.n-16/ 5.n-18/ 6.n-20/ 7.n-23/ 8 an-24/ 2 bn+8/ 2 x8 + &amp;c. ) = anp + bnp3 ~ 2an/ 2 bn/ 2 p2 .
+The quantities ~ p2 and ~ 2an/ 2 bn/ 2 p2 denote + p2 , and + 2an/ 2 bn/ 2 p2 , if n-2/ 4 is a whole number , otherwise they denote p2 and 2an/ 2 bn/ 2 p2 respectively .
+5 .
+I. Let x=an~p + bn~pn-1 , and n an odd number , then will xn nabpxn-2 + n.n-3/ 2 a2b2p2 xn-4 n.n-4/ 2.n-5/ 3 .
+a3b3p3 xn-6 + n.n-5/ 2 n-6/ 3.n-7/ 4 a4b4p4xn-8 &amp;c. = anp+bnpn-1 .
+5 .
+II .
+Let x=an~p+bn~pn-1 , and n an even number , then will xn nabpxn-2 + n.n-3/ 2 a2b2p2xn-4 n. n-4/ 2 .
+n-5/ 3 a3b3p3xn-0 + n. n-5/ 2 .
+n-6/ 3 .
+n-7/ 4 a4b4p4xn-8 &amp;c. = anp ~ 2an/ 2bn/ 2pn/ 2 + bnpn-1 ; it will be + 2an/ 2bn/ 2pn/ 2 if n= 4r + 2 ; but 2an/ 2 bn/ 2 pn/ 2 if n= 4r .
+6 .
+I. Let x=an~p+bn~pn-2 , and n an odd number , which has not the number 3 for a divisor , then will xn na2bpxn-3 + n.n-5/ 2a4b2p2xn-6 n.n-7/ 2.n-8/ 3 a6b3p3xn-9 + n.n-9/ 2.n-10/ 3.n-11/ 4 a8b4p4xn-12 n.n-11/ 2.n-12/ 3.n-13/ 4.n-14/ 5 a10b5p5xn-15 + n.n-13/ 2.nx14/ 3.n-15/ 4.n-16/ 5.n-17/ 6 a12b6p6xn-6 &amp;c. ( to m terms , where m is the number either equal to , or the least greater than n/ 3 ) abn+1/ 2pn-1/ 2 ( nxn-3/ 2 + 1/ 4n .
+n-5/ 2.n-7/ 3 a2bpxn-9/ 2 + 1/ 24 n.n-7/ 2.n-9/ 3.n-11/ 4.n-13/ 5 a4b2p2xn-15/ 2 + 1/ 26 x n. n-9/ 2 .
+n-11/ 3.n-13/ 4.n-15/ 5.n-17/ 6.n-19/ 7 a6b3p3xn-21/ 2 + 1/ 2~ x n. n-11/ 2.n-13/ 3.n-15/ 4 .
+n-17/ 5.n-19/ 6.n-21/ 7.n-23/ 8.n-25/ 9 a8b4p4xn-27/ 2 + &amp;c. ) =A= anp+ bnpn-2 .
+Let n be an odd number divisible by 3 , then will the above-mentioned quantity =A= anp+bnpn-2 + 3an/ 3b2n/ 3p2n/ 3-1 + 3a2n/ 3bn/ 3pn/ 3 .
+6 .
+II .
+Let n be an even number , not divisible by 3 , then will xn na2bpxn-3 + n. n-5/ 2 a4b2p2xn-6 n.n-7/ 2.n-8/ 3 a6b3p3xn-9 + n. n-9/ 2.n-10/ 3.n-11/ 4 a8b4p4xn-12 n. n-11/ 2.n-12/ 3.n-13/ 4 .
+n-14/ 5 a10b5p5xn-15 + n. n-13/ 2.n-14/ 3.n-15/ 4.n-16/ 5.n-17/ 6 a12b6p6xn-18 &amp;c. to m terms as before bn/ 2pn/ 2-1 ( 2xn/ 2 + 1/ 2n .
+n-4/ 2 a2bpxn/ 2-3 + 1/ 23 x n. n-6/ 2.n-8/ 3.n-10/ 4 a4b2p2xn/ 2-6 + 1/ 25 x n. n-8/ 2.n-10/ 3 .
+n-12/ 4.n-14/ 5.n-16/ 6 a6b3p3xn/ 2-9 +1/ 27 x n. n-10/ 2.n-12/ 3.n-14/ 4.n-16/ 5.n-18/ 6 .
+n-20/ 7.n-22/ 8 a8b4p4xn/ 2 -12 + &amp;c. ) =A= anp-bnpn-2 .
+Let n be an even number divisible by 3 , then will the above-mentioned quantity A=anp bnpn-2 3a2n/ 3bn/ 3pn/ 3 + 3an/ 3b2n/ 3p2n/ 3-1 .
+In all the preceding cases n , m and r denote whole affirmative numbers .
+These equations may be deduced in the same manner as is before given in Case 3.1 ; or can be demonstrated by writing in the equation free from radicals for the different powers of x their values deduced from the given equation x= am~p + bm~pn .
+To render the solution general , it may not be improper to subjoin the subsequent .
+LEMM A. 1 .
+Let ~ , ~ , ~ , ~ , ~ , ~ , &amp;c. be the respective roots of the equation zn 1= 0 ; then will ~m + ~m + ~m + ~m + ~m + &amp;c. =0 , unless n=m , or n is a divisor of m , in which case ~m + ~m + ~m + ~m + ~m + &amp;c. = n. 2 .
+The sum of all quantities of the following kind ~m~r + ~r~m + ~m~r + ~r~m + ~m~r + ~r~m + ~m~r + &amp;c. will be = 0 ; unless n be either equal to , or a divisor of m+ r , in which case the sum above-mentioned will be = -n ; except n be either equal to m or r , or a divisor of them , in which case the sum will be n2 n ; but if m=r , then in the former case will the above-mentioned sum = -n/ 2 , and in the latter = n2-n/ 2 .
+3 .
+The sum of all quantities of this kind ~m~r~s~t &amp;c. + ~r~m~s~t &amp;c. + ~m~r~t~s &amp;c. + ~r~s~m~t &amp;c. + &amp;c. will be = 0 , unless n be either equal to r+m+s+t &amp;c. or a divisor of it .
+Let ~ be the number of indices m , r , s , t , &amp;c. and n be either equal to m+r+s+t + &amp;c. or a divisor of it , but n be neither equal to , nor a divisor of the sum of any two , three , four , ... ~-3 , ~-2 or ~-1 of the abovementioned mentioned quantities ; then will the sum above-mentioned == 1.2 3.4 ... ~-2.~-1 x n ; where it will be + , if ~ be an odd number ; otherwise - .
+In this case , if a indices be m , b indices be r , c indices be s , d indices be t , &amp;c. then will the above-mentioned sum == 1.2 3.4 ... ~-2 x ~-1/ 1.2.3..a x 1.2.3..b x 1.2.3..c x 1.2.3..d x &amp;c. x n. Let n be either equal to , or a divisor of the sum of any number ~ ( less than ~ ) of the above-mentioned quantities m , r , s , t , &amp;c. and consequently either equal to , ~ a divisor of the sum of the ( ~-~ ) remaining quantities : find the sum of all possible quantities of this kind 1.2.3..~-2 x ~-1 x 1.2.3..~-~-2 x ~-~-1 x n2 , which sum call A. Let n be either equal to , or a divisor of the sum of any number ( ~ ) of the above-mentioned quantities m , r , s , t , &amp; c ; and also equal to , or a divisor of the sum of any number ( ~ ' ) of the remaining quantities , and consequently it will be either equal to , or a divisor of , the sum of the ( ~-~'-~ ) remaining quantities ; then find the sum of all possible quantities of this sort 1.2.3..~-2 x ~-1 x 1.2.3..~'-2 x ~'-1 x 1.2.3..~-~-~-2 x~-~'-~-1 x n3 , which sum call B. In the same manner let n be either equal to , or a divisor of the sum of any number ( ~ ) of the above-mentioned~ tioned quantities m , r , s , t , &amp; c ; and similarly let n be either equal to , or a divisor of the sum of any number ( ~ ' ) of the remaining quantities ; and also let n be either equal to , or a divisor of the sum of any number ( ~ ' ' ) of the remaining quantities ; then will n be either equal to , or a divisor of the sum of the ( ~-~-~'-~ ' ' ) remaining quantities : find the sum of all quantities of this sort 1.2.3..~-2 x ~-1 x 1.2.3..~'-2 x ~'-1 x 1.2.3..~''-2 x ~''-1 x 1.2.3..~-~-~'-~''-2 x ~-~-~'-~''-1 x n4 , which sum call C ; and so on ; then will the above-mentioned sum ~m~r~s~t &amp;c. + ~r~m~s~t &amp;c. + ~m~r~t~s &amp;c. + ~r~s~m~t &amp;c. + &amp;c. == ( 1.2.3..~-2 x ~-1 xnA+BC+D &amp;c. ) where it will be + if ~ be an odd number , otherwise - .
+In this case , if a indices be m , b indices be r , c indices be s , d indices be t , &amp;c. then will the above-mentioned sun == 1.2.3..~-2 x ~-1.n A+BC+D &amp;c. / 1.2.3..a x 1.2.3..b x 1.2.3..c x 1.2.3..d x &amp;c. .
+7 .
+Let ~ , ~ , ~ , ~ , ~ , &amp;c. be the roots of the equation z~-1 = 0 , and the resolution be x=an~p + bn~p2 + cn~p3 + dn~p4 ... . .
++ hn~p~ ... + kn~p~ ... .
++ ln~p~ ... + qn~p~ ... .
++ rn~p~ ... .
++ sn~pn-4 + tm~pn-3 + vn~pn-2 + un~pn-1 ; then will the different values of x be respectively an~p x~+ bn~p2 x ~2 + cn~p3 x ~3 + dn~p4 x ~4 ... .
++ hn~p~ x ~~ ... + kn~p~ x ~~ ... ... + sn~pn-4 x ~n-4 + tn~pn-3 x ~n-3 + vn~pn-~ x ~n-2 + un~pn-1 x ~~-1 ; an~p x~+ bn~p2 x ~2 + cn~p3 x ~3 + dn~p4 x ~4 ... + hn~p~ x ~~ ... + kn~p~ x ~~ ... ... + sn~pn-4 x ~n-4 + tn~pn-3 x ~n-3 + vn~pn-2 x ~n-2 + un~pn-1 x ~n-1 ; an~p x~+ bn~p2 x ~2 + cn~p3 x ~3 + dn~p4 x ~4 ... + hn~p~ x ~~ ... + kn~p~ x ~~ ... ... + sn~pn-4 x ~n-4 + tn~pn-3 x ~n-3 + vn~pn-2 x ~n-2 + un~pn-1 x ~n-1 ; an~p x~+ bn~p2 x ~2 + cn~p3 x ~3 + dn~p4 x ~4 ... + hn~p~ x ~~ ... + kn~p~ x ~~ ... ... + sn~pn-4 x ~n-4 + tn~pn-3 x ~n-3 + vn~pn-2 x ~n-2 + un~pn-1 x ~n-1 ; &amp;c. &amp;c. &amp;c. &amp;c. and consequently the sum of the values or roots , which is the coefficient of the second term of the equation sought , will be an~p x~+~+~+~+ &amp;c. ( o ) + bn~p2 x ~2 + ~2 + ~2 + ~2 + &amp;c. ( o ) + cn~p3 x ~3 + ~3 + ~3 + ~3 + &amp;c. ( o ) + ... .
++vn~pn-2 x ~n-2 + ~n-2 + ~n-2 + ~n-2 + &amp;c. ( o ) + un~pn-1 x ~n-1 + ~n-1 + ~n-1 + ~n-1 + &amp;c. ( o ) = 0 .
+The sum of the products of every two of the values or roots , which is the coefficient of the third term of the equation sought , will be a2 n~p2 x ~~ + ~~ + ~~ + ~~ + ~~ + ~~ + &amp;c. ( o ) + abn~p3 x ~~2 + ~~2 + ~~2 + ~~2 + ~~2 + ~~2 + ~~2 + ~~2 + &amp;c. ( o ) , and in general all the terms will be 0 , unless axuxpx ~~n-1 + ~~n-1 + ~~n-1 + ~~n-1 + ~~n-1 + ~~n-1 + ~~n-1 + ~~n-1 + ~~n-1 + ~~n-1 + ~~n-1 + ~~n-1 + &amp;c. ( -n ) +bxvxpx ~2~n-2 + ~2~n-2 + ~2~n-2 + ~2~n-2 + ~2~n-2 + ~2~n-2 + ~2~n-2 + ~2~n-2 + ~2~n-2 + ~2~n-2 + &amp;c. ( -n ) + ctp x ~3~n-3 + ~3~n-3 + ~3~n-3 + ~3~n-3 + ~3~n-3 + ~3~n-3 + ~3~n-3 + ~3~n-3 + ~3~n-3 + ~3~n-3 + &amp;c. ( -n ) + dsp x ~4~n-4 + ~4~n-4 + ~4~n-4 + ~4~n-4 ~4~n-4 + ~4~n-4 + &amp;c. ( -n ) + &amp;c. = -np ( au + by + ct + ds + &amp;c. ) If n= 2~ , then will the coefficient of b2p be n/ 2 , i.e. the above-mentioned coefficient will be np ( au + by + ct + ds + ... .+ 1/ 2h2 ) .
+The sum of the contents of every three of the above-mentioned values or roots , which is the coefficient of the fourth term of the equation required , will bea3n~p3 x ~~~ + ~~~ + ~~~ + ~~~ + &amp; c , ( o ) + a2bn~p4 x ~~~2 + ~~~2 + ~~~2 + ~~~2 + &amp;c. ( o ) + &amp;c. + a2vn~pn x ~~~n-2 + ~~~n-2 + ~~~n-2 + ~~~n-2 + ~~~n-2 + &amp;c. ( 1.2.n/ 1.2 ) + abtn~pn x ~~2~n-3 + ~~2~n-3 + ~~2~n-3 + ~~2~n-3 + ~~2~n-3 + ~~2~n-3 + ~~2~n-3 &amp;c. ( 1.2.n ) + &amp; c ; and in general all the terms ( unless the quantity n~p0 contained in the term have this formula n~pn = p , or n~p2n = p2 ) will be = 0 ; let the general term be denoted by hlkn~p~+~+~ x ~~~~~~ + ~~~~~~ + ~~~~~~ + ~~~~~~ + ~~~~~~ + ~~~~~~ + ~~~~~~ + &amp;c. first let ~+~+~ neither be equal to n or 2n , then will the term above-mentioned = 0 ; if it be equal to n or 2n , then will the term be 1.2 xnx hklp or 1.2nhklp2 .
+If two of the three indexes ~ , ~ , ~ be equal to each other , then divide the above-mentioned term by 1.2 ; if the three indexes be equal , i. e. ~=~=~ , divide it by 1.2.3 : find all quantities of this kind where ~+~+~ either is equal to n or 2n , and add all the term from thence derived , and call the sum of them A. The sum of the contents of every four of the values or roots above-mentioned , which is the coefficient of the fourth term of the equation required , will be a4n~p4 x ~~~~ + ~~~~ + &amp;c. ( o ) + a3bn~p5 x ~~~~2 + ~~~2~ + ~~2~~ + ~2~~~ + &amp;c. ( o ) + &amp; c : let hklq~p~+~+~+~ x ~~~~~~~~ + ~~~~~~~~ + ~~~~~~~~ + ~~~~~~~~ + ~~~~~~~~ + ~~~~~~~~ + ~~~~~~~~ + &amp;c. denote a general term ; this term will be = 0 , unless ~+~+~+~ either =n or 2n or 3n ; in which case the term will be either 1.2.3nhklqp or 1.2.3nhklqp2 or 1.2.3nhklqp3 ; unless ~+~=~+~=n , when the abovementioned term will be ( 1.2.3n n2 ) hklqp2 ; in this case if ~=~ , and consequently ~=~ , then it will be ( 1.2.3n 1.2n2 ) hklqp2 ; but if ~=~=~=~=n/ 2 , then will the term be ( 1.2.3n 3n2 ) hklqp2 .
+In all these cases , if two of the indexes ~ , ~ , ~ , ~ be equal , then must the term given above be divided by 1.2 ; if three , by 1.2.3 ; if four , by 1.2.3.4 ; and lastly if two are equal to each other , and the two remaining indexes equal to each other , but not to the former two , then must the term aforesaid be divided by 1.2.1.2 .
+Find the sum of all the possible terms of this kind , which call B. In the same manner from the preceding Lemma may be found the aggregates of the contents of every five , six , seven , &amp;c. roots or values multiplied into each other , which call respectively C , D , E , &amp; c ; then will the equation required be xn * np ( au+by+ct+ds+ &amp;c. ) xn-2Axn-3 + Bxn-4 Cxn-5 + Dxn-6 &amp;c. = 0 .
+From the same principles may be deduced the most general reduction yet known of equations to others of inferior dimensions , e. g. Let ( X ) xn + ( A + am~p + bm~p2 + cm~p3 + ... + sm~pm-2 + tm~pm-1 ) xn-1 + ( B + a~m~p + b~m~p2 + ... + s~m~pm-2 + t~m~pm-1 ) xn-2 + ( c + a~m~p + b~m~p2 + &amp;c. ) xn-3 + &amp;c. = 0 ; let ~ , ~ , ~ , ~ , &amp;c. be the respective roots of the equation zm-~ = 0 , then , from the principles before given , may be formed the different values of the equation X , which being multiplied into each other from the propositions beforementioned of the Meditationes Algebraicae , may be deduced an equation of nm dimensions free from radicals , whose root is x , and which contains mn unknown quantities A , a , b , c , &amp;c. B , a~ , b~ , c~ , &amp;c. c , a~ , b~ , c~ , &amp; p : for one , two or more of these unknown quantities may be assumed any quantities whatever , and thence may be deduced equations of mn dimensions , which may be reduced to equations xn + ( A + am~p + bm~p2 + cm~p3 + &amp;c. ) xn-1 + &amp;c. =0 of n dimensions .
+In the same manner may be assumed equations , which involve m~p , m~p2 , ... , m~pm-1 ; r~Q , r~Q2 , r~Q3 , ... r~Qr-1 ; s~~ , s~~2 , s~~3 , ... .
+, s~~s-1 , &amp; c ; and from so reducing them as to exterminate the irrational quantities , may often be derived equations whose resolutions or reductions are known .
+The method of transforming algebraical equations into others , whose roots bear any assignable algebraical ( but not exponential ) relation to the roots of a given algebraical equation first published by me in the papers sent to the Royal Society , and afterwards in the year 1760 ; and thirdly in my Miscellanea Analytica ; and lastly in the Meditationes Algebraicae , and since published by Mr. LE GRANGE in the Berlin Acts , is perhaps ( ~ Mr. LE GRANGE observes ) more general than Mr~ HUDDE'S , or any transformation yet invented ; it is very useful in the resolution of numerous problems ; and further has this peculiar advantage over all other transformations yet invented , that it often easily discovers some of the first terms of the equation required , from which many elegant Theorems may be derived .
+In the works above-mentioned , viz. Miscell .
+Analyt .
+Medit .
+Algeb .
+&amp;c. are given some problems serving to this transformation ; the first of which is a series , which from the coefficients of a given algebraical equation ( xn pxn-1 + qxn-2 - &amp;c. = 0 ) finds the sum of any power of the roots ( viz. ~m + ~m + ~m + ~m + &amp;c. where ~ , ~ , ~ , ~ , &amp;c. denote the roots of the given equation ) , the law of which series was published by me many years before that it was given by Mr. EULER .
+The third Problem often mentioned in this paper is an elegant and useful series for finding the sum of quantities of the following kind , viz. ~m~r~s~t , &amp;c. + ~r~m~s~t , &amp;c. + ~s~m~r~t &amp;c. + ~t~m~r~s &amp;c. + ~m~t~r~s &amp; c + .
+&amp;c. Mr. EULER gave the following resolution , x= n~~ + n~~ + n~~ + n~~ + &amp;c. where ~ , ~ , ~ , ~ , &amp;c. denote the roots of an equation of n-1 dimensions vn-1 pvn-2 + qvn-3 &amp;c. = 0 .
+It is evident , that in this case the equation whose root is x will have nn-1 dimensions ; for let the roots of the equation zn-1 =0 be denoted by ~ , ~ , ~ , ~ , &amp;c. then will the quantity n~~ have the n following values ~ ~n~~ , ~n~~ , ~n~~ , &amp;c. and the same may be affirmed of the quantities n~~ , n~~ , n~~ , &amp;c. and consequently the quantity n~~ + n~~ will have nxn different values ; and in the same manner the root x= n~~ + n~~ + n~~ + n~~ + may be proved to contain nxnxnxnx &amp;c. = nn-1 roots , and consequently in this resolution , in equations of superior dimensions , the number of independent coefficients ( n-1 ) will be very few in proportion to the number of dimensions nn-1 , or ( if we respect its formula)~ nn-2 of the resulting equation .
+Let n= 3 , and the equation resulting will rise to an equation of nine dimensions , which has the formula of a cubic ; for let x= 3~~ + 3~~ =a one root , then will -1 +~ -3/ 2 a &amp; -1 ~ -3/ 2 a be two other of the nine roots , and consequently the roots will be x3 a3 x x3 b3 x x3 c3 = 0 , which has the formula of a cubic : and in general the above-mentioned equation of nn-1 dimensions will , for the same reason , have the formula of an equation of nn-2 dimensions .
+Let the resolution be x= 2~~ + 2~~ + 2~~ + 2~~ + &amp;c. where ~ , ~ , ~ , ~ , &amp;c. denote the roots of an equation xn-1 pxn-2 + qxn-3 &amp;c. =0 of ( n-1 ) dimensions , then will the resulting equation free from radicals , whose root is x , rise to 2n-1 dimensions ; but as every affirmative tive has a negative root equal to it , it will have the formula of an equation of 2n-2 dimensions .
+rxm rxm Let the resolution be of this formula x= ~~ + ~~ + rxm rxm ~~ + &amp;c. if ~ , ~ , ~ , ~ , &amp;c. be considered as the r power of the roots of an equation of s dimensions , then will the resulting equation , of which the resolution is given , rise only to an equation of the formula of ms-1 dimensions .
+In the year 1762 I published some reasons , for which this method could not extend to the general resolution of algebraical equations .
+

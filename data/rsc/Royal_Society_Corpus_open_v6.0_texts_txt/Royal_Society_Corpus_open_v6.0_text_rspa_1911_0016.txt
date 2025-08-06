@@ -1,0 +1,129 @@
+]\gt ; On the Fourier of a Function .
+By W. H. YOUNG , Sc. D. , F.R.S. ( Received December 10 , 1910 , \mdash ; Read January 26 , 1911 .
+) S1 .
+Considerable ress has been made lately in the study of the properties of the constants in a Fourier series , using this term in the most general sense possible consistent with the extended definition of integration due to Lebesgue .
+Thus we now know that these coefficients necessarily under all circumstances have the unique limit zero , the integer denoting their place in the series increases indefinitely , and that the same is true if we substitute for that integer any other quantity which increases without limit .
+Further , we know that the series whose general term is where is the typical coefficient of the sine terms , always converges , and we are able to write its suln .
+That the series whose general term is , where is the typical coefficient of the cosine } , converges when the origin is an internal point of an interval throughout hich the function has bounded variation , and that accordingly the series whose general term is , ConV , is an immediate consequence of known results .
+Should the function have its square we knowS that the series eneral term is converges , and we can write down its sum .
+We can also sum the series of the products of the Fourier coefficients of two such functions .
+From the property that converges , we can that the series and ) , necessarily converge absolutely .
+Again , making use of a theorem recently proved we integrate the Fourier series of any summable function , after multiplying it term term by any function of bounded variation , with .
+certainty that we shall obtain the same as if the Fourier series converged to the function to which it corresponds , and such term-by-term integration were allowable .
+Choosing for the function of bounded variation in question various simple B. Riemann , " " Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe S 10 , 'Ges .
+Werke , ' 2nd edition , 1854 , p. 254 ; H. Lebesgue , ' Lecons sir les series triques 1906 , p. 61 .
+H. Lebesgue , , S53 , p. 102 .
+function is , in accordance with the usage now accepted , said to be summable when it possesses a Lebesgue proper or improper .
+This has superseded the nomenclature in Hobson 's ' Treatise on the Theory of Functions of a Rsal Variable .
+' S P. Faton , ' Series trigonometriques et ries de Taylor ' Acta .
+Matb 1905 , vol. 30 , pp. W. H. Young , " " On the Integration of Fourier Series 1910 , presented to the L.M.S. On the Fourier Constants of Function .
+functions we shall obtain the sums of a number of series involving the Fourier coefficients of any summable function .
+By using the other theorems .
+in the paper last cited we obtain other results of a less general character .
+In the present note I propose to employ the theorems of that paper to prove the following properties of the coefficients:\mdash ; ( 1 ) WhatevetI be the nature of umnlable function , provided only that in the neighbourhood of the origin it is of bounded variation , then not only as is obvious the series of the , but also the series of the , is convergent when the individual terms of the series are divided by any the same positive power , however small , of the integer denoting the place of the coefficient in the Fourier series ; further , the sums of the series are expressible as simple integrals .
+* ( 2 ) Whatever be the ature of the summable ction f , proyided only that in the hbourhood of the origin its square is summable , the same property holds , so long as the in dex of the power of the is greater than ; the sums of the series are of the same form as in ( 1 ) .
+( 3 ) If in the neighbourhood of the origin we can only assert that the function is bounded , the statement remains true if we interpret the terms " " convergence\ldquo ; and " " sum\ldquo ; both in the Cesaro sense .
+( 4 ) If in the hbourhood of the one of the three conditions holds , while in the rest of the interval possesses a Harnack-Lebesgue integral , the corresponding statement is true , if we interpret the terms " " convergence\ldquo ; and " " sum\ldquo ; in the Cesaro sense .
+The Fourier series is then a generalised one .
+Closely associated with the first of these four statements is the following which is also proved below:\mdash ; ( 1 bis ) Whatever be the nature of the sumlnable function , provided that in some interval containing the origin the function is summable , the series whose general term is , is convergent ; if , on the other hand , for some value of the constant , the function is summable in some interval containing the origin , the series whose general term is , is convergent ; in both cases it is to be supposed that in the rest of the the function is summable .
+Moreover , the formulae for the sums have ) same form as in ( 1 ) .
+The first part of the statement ( 1 bis ) just made contains a , sult which seems to have a special interest of its own .
+As is well known , the series See below S3 , formulae I and II ; S6 , formula III ; S6 , formula ; SS7 and 8 .
+Dr. W. H. Young .
+[ Dec. 10 , whose general term is converges , and has for its sum when is a function of bounded variation .
+The result in question is what may accordingly be called the companion result , namely , ) the series whose general term is converges , and has for its sum , provided only that this integral exists .
+Here it must be ] ected that has been made periodic in the usual way , so that the integral in question certainly exists between any limits of integration which do not contain the origin between them ; thus the only limitation of the nature of the function rolates to the neighbourhood of the origin .
+The results have all been stated with reference to the coefficients and not to the Fourier series itself .
+It should , however , be hardly necessary to remark that , by transforming the origin , we obtain corresponding results relating to the Fourier series itself , and to very important , up to the present almost entirely ecGed , companion series , from it by interchanging the coefficientis of the sine and cosine terms , and the sign of the latter .
+In particular we have in this way the sum of the companion series , when a certain function is summable ; we cau also find the function of which this series is the Fourier series in an important class of cases , in which we know it to be a Fourier series .
+I reserve for subsequent publication the further development of this remark .
+In conclusion I would add that the formulae obtained may be generalised in a variety of ways by means of the theorems here utilised .
+The present paper , however , contains the complete solution , within the limits proposed , of the problep with which we started , thus illustrating the usefulness of the theorems in the paper so frequently quoted .
+S2 .
+Denote by the function which is zero at the extremities of the interval , and which , inside this interval , is equal to the expression while , outside this interval , such values are to be assigned to as to make it periodic , with period Denote by the function from by changing into .
+evidently and are summable , have their squares summable , are bounded , or of bounded variation , in a neighbourhood containing the origin , if possesses these respective properties .
+urther , since and are both zero , it is clear that the *S9 , formula 1910 .
+] On the Fourier Constants of a Function .
+indefinite integrals of will all be periodic , and accordingly oscillate finitely as the upper limit of integration approaches infinity .
+Again , as we have just seen , the Fourier series corresponding to and will be deficient of constant term .
+Moreover , where is a constant .
+Also ] Similarly , S3 .
+We first consider the case where has bounded variation in the neighbourhood of the origin , and the index of the power to which the integer is raised lies between zero and unity , the extreme values not included .
+Put , where , and consider the integral Except in the neighbourhood of the origin , is a function of bounded variation in the whole infinite interval , and has , as increases indefinitely , the unique limit zero .
+Moreover , ) is such that is a periodic function of which oscillates finitely in the whole infinite interval Hence , by the extension to infinity of the theorem cited in S1 , is the sum of the series of integrals got by integrating , between the limits and infinity , the successive terms of the Fourier series of , after having previously multiplied them by .
+Next consider .
+In the interval of integration is summable , while has bounded variation , provided our choice of has been a suitable one , which we may suppose to be the case .
+To this integral we may apply the theorem already cited in its simple form , so that we see that it is equal to the sum of the series of integrals got by integrating between the limits and the successive terms of the Fourier series of , after having previously multiplied them by Adding the two results so obtained , and bearing in mind that the Fourier iseries of has no sine terms , we have VOL LXXXY .
+Dr. W. H. Young .
+[ Dec. 10 , Similarly Hence , since we know that , when and Sq , we get cos Similarly S4 .
+Before going on to obtain the corresponding formulae when is not internal to the interval , we remark that the results above obtained are obviously true , mutatis , when near the origin is respectively bounded , or has its square summable .
+In the former case the above argument is unaffected , provided only we interpret the words\ldquo ; sum\ldquo ; and\ldquo ; convergence\ldquo ; of a series in the Cesaro manner .
+In fact , the reasoning for the interval applies , as before , as all that was required of in that intelval was that it should be summable in every finite portion of it .
+As regards the interval , the theorem used is still applicable , as is shown in the paper quoted , with the proviso in question .
+If , on the other hand , all we know of , and therefore of and in the neighbourhood of the origin , is that its square is summable , we need the summability of the square of in the interval .
+This requires to be greater than .
+With this understanding , therefore , our results are .
+still true .
+If , finally , we only know of near or that it possesses a Harnack-Lebesgue integral , the corresponding portion of the integrals will in general only conyerge in the Cesaro way .
+* Hence in this case , even if is of bounded variation near the origin , the final series can only be summed in general in the Cesaro way .
+S5 .
+Let us now make the hypothesis that is unity .
+By the theory of the integration of Fourier series , we have , if , , denote any definite integrals of , const .
+const .
+" " On the Integration of Fourier Series S7 .
+1910 .
+] On the Fourier Constants of Function .
+The first equation gives us no information , the second equation tells us that .
+const . .
+Here the summation must be supposed performed in the Cesaro manner , when the Fourier series is a generalised one .
+* This result is due to Lebesgue , in the case when the Fourier series is an ordinary one .
+S6 .
+To obtain the sum of the series whose general term is , we must adopt a different method .
+require to use the fact that , in the neighbourhood of the origin , has , under all the circumstances supposed , its square summable .
+On the other hand.the function has , except in the neighbourhood of the origin , bounded variation throughout the interval .
+In the neighbourhood of ths origin it has its square summable\mdash ; in fact , Therefore , Hence , also , the square of the function in question , .
+, is less than a summable function .
+Thus the interval can be broken up into two parts , in one of which one of the two functions and is of bounded variation and the other is summable , while in the remaining part both the functions have their squares summable .
+Applying , therefore , the theorems already referred to , to these separate portions , and adding the results , we get , ( IV ) since the generic Fourier constant of the is Here we have assumed to be summable .
+If , in any portion of the interval , it have only a Harnack-Lebesgue integral , the argument still applies , provided we sum the series in the Cesaro way .
+S7 .
+Since the function corresponding to an integrated Fourier series is an integral , it is , of course , a continuous function , and belongs also , a fortiori , to the class of functions whose square is summable .
+Accordingly , * W. H. Young , " " On the Conditions that a Trigonometrical Series should have the Fourier Form 1910 .
+Supplementary Note .
+Presented to the London Mathematical D. Bernoulli , ' Petrop .
+N. Comm 1772 .
+See Hobson 's ' Theory of Functions of a Beal Variable , ' p. 639 .
+Dr. W. H. Young .
+[ Dec. 10 , the method of S6 enables us to sum the series , whose general terms are respectively where and are the Fourier constants of any summable function whatever .
+The formulae , of course , closely resemble that obtained at the conclusion of that article .
+On the other hand , the series whose general terms are where , and are the Fourier constants of any summable function whatever , are obtained by mere repetition of the process employed in S5 , their sums having a form which closely resembles that of the series summed in that article .
+S8 .
+The case in which is greater than unity , and not an integer , alone remains to be considered .
+The method to be adopted is obvious .
+We have only to apply to the integrated series the reasoning of S3 , with this simplffication , that the function to which the Fourier series corresponds , being now an integral of , or of , as the case may be , is certainly of bounded variation in the case of an ordinary Fourier series , and at least continuous in the case of a generalised Fourier series in every finite interval , so that no special hypothesis is needed .
+The formulae are easily obtained .
+S9 .
+To write down ( by request ) the formula referred to in SS7 and 8 , it is convenient to use the following notation:\mdash ; so on .
+We then have the following formulae , which are those given in S5 and the analogous formulae referred to at the end of S7:\mdash ; nx , 1910 .
+] On the of Function .
+, thus , thus , thus , thus and so on .
+The formula obtained in S6 , S may evidently be written Similarly , without any restriction on , with the notation just ] ained , bearing in mind that , we have the analogous formulae referred to at the beginning of S7:\mdash ; and so on .
+Dr. W. H. Young .
+tDec .
+The formula referred to in S8 , in which , are then as follows:\mdash ; ' and so on .
+S10 .
+We now assume that is summable in an interval containing the origin , and proceed to prove the results ( 1 bis ) of the introduction .
+Since is , by a summable function , so is , Also is a function of bounded variation in any finite interval .
+Hence , using the theorem so often quoted , and denoting the integral ] nx\amp ; , we have ; 1 so that , in particular , the series on the right-hand side converges .
+Now the summation on the right-hand side of the preceding equation is the unique limit when increases indefinitely of the following:\mdash ; 1910 .
+] On the Fourier of Function .
+But Hence ( 1 ) becomes for in ( 2 ) the second and third terms on the right vanish when we proceed to the limit , since and the Fourier coefficients of a summable function , have zero as unique limit when increases indefinitely , while the integrals by which they are multiplied are always numerically less than But , by the usual argument , S .
+( 4 ) Hence , adding ( 3 ) and ( 4 ) , and using the fact that , we have which may , if is summable , be written in the form ( V ) S11 .
+A slight modification of the argument used in the preceding article enables us to show that our formulae ( 1 ) and hold on the new hypothesis of the introduction , lying , as before , in the open interval .
+In formula ( 2 ) we require to be summable in the neighbourhood of the origin , while in formula ( I ) the condition is that should for some value of the constant be summable in the neighbourhood of the origin .
+To prove this we work with the factor , instead of , and arrive , by the same reasoning as in S10 , at the equation corresponding to ( 3 ) , viz. :\mdash ; Adding to this the equation corresponding to ( 4 ) , we get , as before , nx .
+( II ) Again in like manner , , ( 1 ) On the Fourier Function .
+where and therefore Hence the summation on the right-hand side of the equation ( 1 ) , just written down , is the unique limit when increases indefinitely of one half of the following expression:\mdash ; .
+( 3 ) Hence , using ( 2 ) , we get from ( 1 ) the following equation:\mdash ; since the second and third terms on the right-hand side of ( 3 ) have , as increases indefinitely , the unique limit zero , and being the Fourier coefficients of a summable function .
+But , by the usual argument , Adding the last two equations , we get , as in S3 , the required result:\mdash ; S
+

@@ -1,0 +1,841 @@
+On a General Method in Dynamics ; by which the Study of the &gt; Motions of allfree Systems of attracting or repelling Points is reduced to the Search and Differentiation of one central Relation , or characteristic Function .
+By WILLIAM ROWAN HAMILTON , Jlember of several scientific Societies in the British Dominions , and of the American Academy of Arts and Sciences , Andrews ' Professor of Astronomy in the University of Dublin , and Royal Astronomer of Ireland .
+Communicated by Captain BEAUFORT , R.N. F.R.S. Received April 1 , -Read April 10 , 1834 .
+Introductory Remarks .
+THE theoretical development of the laws of motion of bodies is a problem of such interest and importance , that it has engaged the attention of all the most enlinent mathematicians , since the invention of dynamics as a mathematical science by GALILEO , and especially since the wonderful extension which was given to that science by NEWTON .
+Among the successors of those illustrious men , LAGRANGE has perhaps done more than any other analyst , to give extent and harmony to such deductive researches , by showing that the most varied consequences respecting the motions of systems of bodies may be derived from one radical formula ; the beauty of the method so suiting the dignity of the results , as to make of his great work a kind of scientific poem .
+But the science of force , or of power acting by law in space and time , has undergone already another revolution , and has become already more dynanmic , by having almost dismissed the conceptions of solidity and cohesion , and those other material ties , or geometrically imaginable conditions , which LAGRANGE SO happily reasoned on , and by tending more and more to resolve all connexions and actions of bodies into attractions and repulsions of points : and while the science is advancing thus in one direction by the improvement of physical views , it may advance in another direction also by the invention of mathematical methods .
+And the method proposed in the present essay , for the deductive study of the motions of attracting or repelling systems , will perhaps be received with indulgence , as an attempt to assist in carrying forward so high an inquiry .
+In the methods commonly employed , the determination of the motion of a free point in space , under the influence of accelerating forces , depends on the integration of three equations in ordinary differentials of the second order ; and the deterInination of the motions of a system of free points , attracting or repelling one another , depends on the integration of a system of such equations , in number threefold the number of the attracting or repelling points , unless we previously diminish by unity this latter number , by considering only relative motions .
+Thus , in the solar system , when we consider only the mutual attractions of the sun and of the ten known planets , the determination of the motions of the latter about the former is reduced , by the usual methods , to the integration of a system of thirty ordinary differential equations of the second order , between the coordinates and the time ; or , by a transformation of LAGRANGE , to the integration of a system of sixty ordinary differential equations of the first order , between the time and the elliptic elements : by which integrations , the thirty varying coordinates , or the sixty varying elements , are to be found as functions of the time .
+In the method of the present essay , this problem is reduced to the search and differentiation of a single function , which satisfies two partial differential equations of the first order and of the second degree : and every other dynamical problem , respecting the motions of any system , however numerous , of attracting or repelling points , ( even if we suppose those points restricted by any conditons of connexion consistent with the law of living force , ) is reduced , in like manner , to the study of one central function , of which the form marks out and characterizes the properties of the moving system , and is to be determined by a pair of partial differential equations of the first order , combined with some siple e considerations .
+The difficulty is therefore at least transferred from the integration of many equations of one class to the integration of to of another : an even i iteofnt should be thought that no practical facility is gained , yet an intellectual pleasure may result from the reduction of the roast complex and , probably , of all researches respecting the forces and motions of body , to the study of one characteristic function* , the unfolding of one central relation .
+The present essay does not pretend to treat fully of this extensive subject , -a task which may require the labours of many years and many minds ; but only to suggest the thought and propose the path to others .
+Although , therefore , the method may be used in the most varied dynamical researches , it is at present only applied to the orbits and perturbations of a system with any laws of attraction or repulsion , and with one predominant mass or centre of predominant energy ; and only so far , even in this one research , as appears sufficient to make the principle itself understood .
+It may be mentioned here , that this dynamical principle is only another form of that idea which has already been applied to optics in the Theory of systems of racys and that an intention of applying it to the motions of systems of bodies was announced f at the publication of that theory .
+And besides the idea itself , the manner of calculation also , which has been thus exemplified in the sciences of optics and dynamics , seems not confined to those two sciences , but capable of other applications ; and the peculiar combination which it involves , of the principles of variations with those of partial differentials , for the determination and use of an important class of integrals , may constitute , when it shall be matured by the future labours of mathematicians , a separate branch of analysis .
+WILLIAM R. HAMILTON .
+Observatory , Dublin , March 1834 .
+Integration of the Equations of Motion of a System , characteristic Function .
+of such Motion , and Law of varying Action .
+1 .
+The known differential equations of motion of a system of free points , repelling or attracting one another according to any functions of their distances , and not disturbed by any foreign force , may be comprised in the following formula : .
+m ( x x +y " y +z " z ) = U ... ... .
+( 1 .
+) In this formula the sign of summation 2 extends to all the points of the system ; m is , for any one such point , the constant called its mass ; x " , y " , z " , are its component accelerations , or the second differential coefficients of its rectangular coordinates x , y , z , taken with respect to the time ; x , by , 6 z , are any arbitrary infinitesimal displacements which the point can be imagined to receive in the same ' three rectangular directions ; and $U is the infinitesimal variation corresponding , of a function U of the masses and mutual distances of the several points of the system , of whicth the form depends on the laws of their mutual actions , by the equation U= .
+m mf ( r ) , ... ... ... ( 2 .
+) r being the distance between any two points m , m , , and the function f ( r ) being such that its derivative or differential coefficientf ' ( r ) expresses the law of their repulsion , being negative in the case of attraction .
+The function which has been here called U , may be named the force-function of a system : it is of great utility in theoretical mechanics , into which it was introduced by LAGRANGE , and it furnishes the following elegant forms for the differential equations of motion , included in the formula ( 1 .
+) : mx U , , 8U , U ) 11 _U n_1 _8U o a ?
+myi , ; '2= -Y ; * ... m n-b ... * .
+( 3 .
+) a 8U aU a , U the second members of these equations being the partialn differential coefficients of the second meinbers of these equations being the partial differential coefficients of 249 the first order of the function U. But notwithstanding the elegance and simplicity of this known manne of stating the prin cipal problem of dynamics , the difficulty of solving that problem , or even of expressing its solution , has hitherto appeared insuperable ; so that only seven interlnediate integrals , or integrals of the first order , with as many arbitrary constants , have hitherto been found for these general equations of motion of a system of n points , instead of 3n intermediate and 3n final integrals , involving ultimately 6n constants ; nor has any integral been found which does not need to be integrated again .
+No general solution has been obtained assigning ( as a complete solution ought to do ) 3n relations between the n masses m , m2 , ... mn the 3n varying coordinates x1 , yw , z1 , ... xn in , z , , the varying time t , and the 6n initial data of the problem , namely , the initial coordinates a , b1 , cl , ... a b , c , and their initial rates of increase , a , b ' , c ' , ... .a ' , b , c the quantities called here initial being those which correspond to the arbitrary origin of time .
+It is , however , possible ( as we shall see ) to express these long-sought relations by the partial differential coefficients of a new central or radical function , to the search and employment of which the difficiulty of mathematical dynamics becomes henceforth reduced .
+2 .
+If we put for abridgement T=-2 .
+m(22.+ y ... ... . .
++ ( 4 .
+) so that 2T denotes , as in the Mecanique Analytique , the whole living force of the system ; ( x ' , y ' , z ' , being here , according to the analogy of our foregoing notation , the rectangular components of velocity of the point m , or the first differential coefficients of its coordinates taken with respect to the time ; ) an easy and well known combination of the differential equations of motion , obtained by changing in the formula ( 1 .
+) the variations to the differentials of the coordinates , may be expressed in the following manner , dT=dU , ... ... ... ... .
+( 5 .
+) and gives , by integration , the celebrated law of living force , under the form T=U + H ... ... ... ... ( 6 .
+) In this expression , which is one of the seven kinown integrals already mentioned , the quantity H is independent of the time , and does not alter in the passage of the points of the system from one set of positions to another .
+We have , for example , an initial equation of the same form , corresponding to the origin of time , which may I)e written thus , To=Uo+It ... ... ... ... .
+( 7 .
+) The quantity LI may , however , receive any arbitrary increment whatever , when we pass in thought from a system moving in one way , to the same system moving in another , with the same dynamical relations between the accelerations and positions of its points , but with different initial data ; but the increment of H , thus obtained , 250 is evidently connected with the analogous increments of the functions T and U , by the relation AT=AU+AIH,. .
+( 8 .
+) which , for the case of infinitesimal variations , may conveniently be written thus , T-U+ H ... .
+; ... . .
+( 9 .
+) and this last relation , when multiplied by d t , and integrated , conducts to an important result .
+For it thus becomes , by ( 4 .
+) and ( 1 .
+) , f 2 .
+m ( d x. x ' -+ die .
+y ' +d z. 3 z ' ) = f , .
+m ( dx ' .
+8 x+ dy ' .
+y+ dz ' .
+z ) +f H.dt , ... . .
+( 10 .
+) that is , by the principles of the calculus of variations , V= 2.m(x ' x +y'Sy+ z'8z ) 2 .
+m(a ' a+b'Sb +c'c ) +t H,. .
+( A. ) if we denote by V the integral V =f.m n(x ' dx +y'dy + z 'd z ) =f 2Td , ... ... .
+( B. ) namely , the accumulated living force , called often the action of the system , from its initial to its final position .
+If , then , we consider ( as it is easy to see that we may ) the action V as a function of the initial and final coordinates , and of the quantity H , we shall have , by ( A. ) , the following groups of equations ; first , the group , 8V , a V,1 x=I , ; ; --= ^mxnnn[ sV a SV ' 8V , r 8= my ; y1 2m2Y2 ; ' 8my 8V , SV , V , Zl= mlzl ; Z:-2 z'n ; *** '=m Z Secondly , the group , -h =Il ; m= .
+b2a2 .
+bn a , 8V _ 8V V --= bla l ; sa -2 ; ''-n b 8V , V 6 8V nn=i C ; 1 ' = d-_I 12 ; = in ; ci -an C'1 ; a Cn nn and finally , the equation , 8a V8 H. e. .
+( C. ) I 0 .
+e. ( D. ) ... ... ( E. ) So that if this function V were known , it would only remain to eliminate H between the 3n+1 equations ( C. ) and ( E. ) , in order to obtain all the 3n intermediate integrals , or between ( D. ) and ( E. ) to obtain all the 3n final integrals of the differential equations of motion ; that is , ultimately , to obtain the 3n sought relations between 2.51 the 3n varying coordinates and the time , involving also the masses and the 6n initial data above mentioned ; the discovery of which relations would be ( as we have said ) the general solution of the general problem of dynamics .
+We have , therefore , at least reduced that general problemr to the search and differentiation of a single function V , which we shall call on this account the CHARACTERISTIC FUNCTION of motion of a system ; and the equation ( A. ) , expressing the fundamental law of its variation , we shall call the equation of the characteristicfunction , or the LAW OF VARYING ACTION .
+3 .
+To show more clearly that the action or accumulated living force of a system , or in other words , the integral of the product of the living force by the element of the time , may be regarded as a function of the 6n+1 quantities already mentioned , namely , of the initial and final coordinates , and of the quantity H , we may observe , that whatever depends on the manner and time of motion of the system may be considered as such a function ; because the initial form of the law of living force , when combined with the 3n known or unknown relations between the time , the initial data , and the varlying coordinates , will always furnish 3n+1 relations , known or unknown , to connect the time and the initial components of velocities with the initial and final coordinates , and with H. Yet from not having formed the conception of the action as afiinction of this kind , the consequences that have been here deduced from the formula ( A. ) for the variation of that definite integral , appear to have escaped the notice of LAGRANGE , and of the other illustrious analysts who have written on theoretical mechanics ; although they were in possession of a formula for the variation of this integral not greatly differing from ours .
+For although LAGRANGE and others , in treating of the motion of a system , have shown that the variation of this definite integral vanishes when the extreme coordinates and the constant II are given , they appear to have deduced from this result only the well known law of least action ; namely , that if the points or bodies of a system be imagined to move from a given set of initial to a given set of final positions , not as they do nor evein as they could move consistently with the general dynamical laws or differential equations of motion , but so as not to violate any supposed geometrical connexions , nor that one dynamincal relation between velocities and configurations which constitutes the law of living force and if , besides , this geometrically imaginable , but dynamically impossible motion , be made to differ infinitely little from the actual manner of motion of the system , between the given extreme positions ; then the varied value of the definite integral called action , or the accumulated living force of the system in the motion thus imagined , will differ infinitely less from the actual value of that integral .
+But when this well known law of least , or as it might be better called , of stationary action , is applied to the determination of the actual motion of a system , it serves only to form , by the rules of the calculus of variations , the differential equations of motion of the second order , which can always be otherwise found .
+It seems , therefore , to be with reason that LAGRANGE , LAPLACE , and POISSON have spoken lightly of the utility of this principle in the present state of dynamics .
+A different estimate , perhaps , will be formed of that 252 other principle which has been introduced in the present paper , under the name of the law of varying action , in which we pass from an actual motion to another motion dynamically possible , by varying the extreme positions of the system , and ( in general ) the quantity H , and which serves to express , by means of a single function , not the mere differential equations of motion , but their intermediate and their final integrals .
+Verfications of the foregoing Integrals .
+4 .
+A verification , which ought not to be neglected , and at the same time an illustration of this new principle , may be obtained by deducing the known differential equations of motion from our system of intermediate integrals , and by showing the consistence of these again with our final integral system .
+As preliminary to such verification , it is useful to observe that the final equation ( 6 .
+) of living for ?
+ce , when combined with the system ( C. ) , takes this new form , 11V / 8 VX2 fA 22 )2 + ) +(\ I 2}=U+I ; .* diate integral system ( C. ) , ( E. ) , or even from a part of that system , namely , from the group ( C. ) , when combined with the equation ( F. ) .
+For we thus obtain d aV VFa SV .
+W MI1 a1t 1*28 '2x+_ +n +Xi --1x __ IV8 8V 8 , 'V , IV 8V 8s V iV ' vi+ { QV)2QV)2QV)2}aUH)J + ai t ha tz 2 is'1 , ' zn x1 wsbzn 1 aV 8sv 1 8V a8V I+V 0-V 'A imln Sl2l + wne mig dxe , by di fSe n in , * d aV ud xaV tVd aV =Id -t 8x -ml ; 1 d-t 8x 2 ; ' ' ' dt 8x nxd 8V d aV d ( V dt aY , -de t 1 , y dt yx nnd 8V d 8V d 8aV __._dt _-azn dt u,1 nn for the second group , d aV d AV d aV _ ; ^ , ,-0 ; - ; ( .
+) dt aa dt aa2 'd and aV dV ad 8V dt ab dt b2 = ; d 8V d 0 ; d aV dt Sc ; dt c ; dt c and finally , for the last equation , d 8V dt .
+H=l 1..* .
+a ( K. ) By combining the equations ( C. ) with their differentials ( H. ) , and with the relation ( F. ) , we deduced , in the foregoing number , the known equations of motion ( 3 .
+) ; and we are now to show the consistence of the same intermediate integrals ( C. ) with the group of differentials ( I. ) , which have been deduced from the final integrals .
+The first equation of the group ( I. ) may be developed thus : 2VV 2 , W alx+ 2al ax2 Ta+a VaX +YlaaI y +Y2ay+'.+Yn8a ... . .
+( 14 .
+) a2 V aL 'V , V+ Z'l a+Z aala +6 aaaaz J and the others may be similarly developed .
+In order , therefore , to show that they are satisfied by the group ( C. ) , it is sufficient to prove that the following equations are true , a 1( / ayV\2 / aV\2 / aV\2 aa / a\ 2 / av\2 / av\ 2 -8 +(jy 1 ' ( )+ ( 8V)2 } , ... ... .
+( L. ) =8 c we took its variation with respect to the final coordinates , and so obtained results which agreed with the known equations of motion , and which may be thus collected , a8 1r / aV2 ayVx2 , aV\2 Ua Xi mux xi , xx , 8I f/ v\2 aV\2 / aV\2 to the expression a1/ aV2 a / aV\2 / W \2 and this , when developed , agrees with the equation ( K. ) , which is a new verification of the consistence of our foregoing results .
+Nor would it have been much more difficult , by the help of the foregoing principles , to have integrated directly our integrals of the first order , ; and so to have deduced in a different way our final integral system .
+6 .
+It may be considered as still another verification of our own general integral equations , to show that they include not only the known law of living force , or the integral expressing that law , but also the six other known integrals of the first order , which contain the law of motion of the centre of gravity , and the law of description of areas .
+For this purpose , it is only necessary to observe that it evidently follows from the conception of our characteristic function V , that this function depends on the initial and final positions of the attracting or repelling points of a system , not as referred to any foreign standard , but only as compared with one another ; and therefore that this function will not vary , if without n aking any real change in either initial or final configuration , or in the relation of these to each other , we alter at once motion , whether of translation or of rotation .
+Now by considering three coordinate translations , we obtain the three following partial differesntial equations of the first order , which the function V must satisfy , av VI 2^-0 .
+6V V 13 x + ... ... ... . .
+V 8V and by considering three coordinate rotations , we obtain these three other relations between the partial differential coefficients of the same order of the same characteristic function , 256 &gt; , Z8V av aV _]\ ^/ SV xV\ , bb 8a J-V\ , 2 ( y 13z -z jic ) +2 ( b jw ) = ?
+* ** %^ / sV av\ , ^ / , Sv av\ -y +b - .
+=0 ( P. ) 0 ~-y+j b ---c --0 ; ... ... .
+( P. ) ( v/ 8V V/ ( V aV\ -2x --x +~ c0 --a =0 ; and if we change the final coefficients of V to the final components of mornenturn , and the initial coefficients to the initial components taken negatively , according to the dynamical properties of this function expressed by the integrals ( C. ) and ( D. ) , we shall change these partial differential equations ( 0 .
+) ( P. ) , to the following,.m ' =.wma ' ; 2 .
+my ' =.mb ' ; .
+mz ' =.c'. .
+( 15 .
+) and .
+m ( xy ' y ' ) = .
+m ( a b ' b a ' ) ; 1 2 .
+mz ( y z'zy ' ) =.n ( b c ' c b ' ) ; ( 16 .
+) .
+m ( z xx z ' ) = .
+m ( c a !
+a c ' ) .
+J In this manner , therefore , we can dedace from the properties of our characteristic function the six other known integrals above mentioned , in addition to that seventh which contains the law of living force , and which assisted in the discoveiy of our method .
+Introduction of relative or polar Coordinates , or other marks of position of ( Systez .
+7 .
+The property of our characteristic function , by which it depends only on the internal or mutual relations between the positions initial and final of the points of an attracting or repelling system , suggests an advantage in employing internal or relative coordinates ; and from the analogy of other applications of algebrlaical inethods to researches of a geometrical kind , it may be expected that polar and other marks of position will also often be found useful .
+Supposing , therefore , that the 3n final coordinates 1y z. .
+system , but being now considered as a function of ' ... ' ?
+, , involving also the masses , and in general 'h ... 3 n , and obtained by substituting for the quantities x ' y z ' their values of the form ( 20 .
+) in the equation of definition T-E.m ( xM.2 + yr2 + z2 ) .
+( 4 .
+) In like manner we find this transformation for the sum ( 18 .
+) , ... ... +T o0"e ( 24 .
+) E.rna(a'a + 6'bb + c'c ) =S el el-+ e e2+ ... + .
+( 24 .
+) The law of varying action , or the formula ( A. ) , becomes therefore , when expressed by the present more general coordinates or marks of position , V= .
+_- .
+s et H , ... ..t .
+( Q. ) and instead of the groups ( C. ) and ( D. ) , into which , along with the equation ( E. ) , this law resolved itself before , it gives now these other groups , VT aV vTavTI 1 ; n= / 2 S n ... ... .
+( St. ) and _v To V To sV _ To .
+^ i]^ , j ^e , ilo X. .
+( S. ) e---~--'---ei ea ' ' 8es ' 8et ' el The quantities e e2 ... e and e ' , e ... e ' are now the initial data respecting the manner of motion of the system ; and the 3n final integrals , connecting these 6n initial data , and the n masses , with the time t , and with the 3n final or varying quantities , 2 ... . .
+s , which mark the varying positions of the n moving points of the system , are now to be obtained by eliminating the auxiliary constant HI between the 3n -+1 equations ( S. ) and ( E. ) ; while the 3n intermediate integrals , or integrals of the first order , which connect the same varying marks of position and their first differential coefficients with the time , the masses , and the initial marks of position , are the result of elimination of the same auxiliary constant H between the equations ( R. ) and ( E. ) .
+Our fundamental formula , and intermediate and final integrals , can therefore be very simply expressed with any new sets of coordinates ; and the partial differential equations ( F. ) ( G. ) , which our characteristic function V must satisfy , and which are , as we have said , essential in the theory of that function , can also easily be expressed with any such transformed coordinates , by merely combining the final and initial expressions of the law of living force , T= U+ H , ... ... ( 6 .
+) rr =T U0 + , ... ... .
+( 7 .
+) with the new groups ( R. ) and ( S. ) .
+For this purpose we must now consider the funce tion U , of the masses and mutual distances of the several points of the system , as depending on the new marks of position n , ; 2. .
+n , ; and the analogous function U0 , as depending similarly on the initial quantities el e2 ... er .
+; we must also suppose 259 aT aT aT that T is expressed ( as it may ) as a function of its own coefficients a , , * , .
+n..Sn which will always be , with respect to these , homogeneous of the second dimension , and may also involve explicitly the quantities ; 12 ... . .
+, ; and that To is expressed as a similar function of its coefficients T. T. ; o that e'Kl/ e ' ' ' ' ; etat0 T-F^ =T F1= ( aT , are T ) } !
+&gt; o- ?
+se , ?
+s_ ; 2,3. .
+ToF ___ o ... ... . .
+( 25 .
+) and that then these coefficients of T and To are changed to their values ( R. ) and ( S. ) , so as to give , instead of ( F. ) and ( G. ) , two other transformed equations , namely , ( aV aV SF ( 8 .
+)=U , -- ... ... ( T. ) and , on account of the homogeneity and dimension of T. , Fs ) =U0 +11 ... ( U. ) 8 .
+Nor is there any difficulty in deducing analogous transformations for the known differential equations of motion of the second order , of any system of free points , by taking the variation of the new form ( T. ) of the law of living force , and by attending to the dynamical meanings of the coefficients of our characteristic function .
+For if we observe that the final living force 2 T , when considered as a function of ; 7 * 2 .
+e ; 3 and of 'l 2 ... n,5 is necessarily homogeneous of the second dimension with respect to the latter set of variables , and must therefore satisfy the condition 32~ T 57 1s+ 4*2 +t+ **+ ; 8 8t I**** *. .
+( 26 .
+) we shall perceive that its total variation , 8r Ta 8T 8 , TT 6~T = -8^ ?
+^ + %i , + + ... + 843 aT aT aT ( 27 .
+) a t. a. .
+( 2 .
+) _T [ l+ 8+ W+* * and therefore that the total variation of the new partial differential equation ( T. ) may be thus written , b/ AT3 r\ TT : 6Il6= 6 ... ( V. ) in which , if we observe that '=d t , and that the quantities of the form v are the only ones which vary with the time , we shall see that 8V ( dVd 6V d8V )d aV 2 ' * ' -8^n =:dt 8e'+ dt 8H ' H because the identical equation d dV =d~V gives , when developed , ( Y.d ?
+* de ) J+rd v.dH ( 29 .
+) .
+( 30 .
+) = ( d. 8d e ) +dVH -I d-an.8vq-d-~e.8e +-daH .
+H. J Decomposing , therefore , the expression ( V. ) , for the variation of half the living force , into as many separate equations as it contains independent variations , we obtain , not only the equation d V. d.V. 5.* .
+( K. ) which had already presented itsel- , and the group which had already presented itself , and the group d aV d aV d aV dt e ae ?
+O dtt a e2 = ?
+' ' *.6 .
+e* *e which might have been at once obtained by differentiation from the final but also a group of 3n other equations of the form dV aT Udt8= ' ... ... which give , by the intermediate integrals ( R. ) , dTT uT I dt 8~y -8 ~ : * '. .
+( W. ) integrals ( S. ) , ( X. ) i'om the properties of our characteristic function .
+And if we were to suppose ( as it has often been thought convenient and even necessary to do , ) that the n points of a system are not entirely free , nor subject only to their own mutual attractions or repulsions , but connected by any geometrical conditions , and influenced by any foreign agencies , consistent with the law of conservation of living force so that the number of independent marks of position should be now less numerous , and the forcefunction U less simple than before ; it might still be proved , by a reasoning very similar to the foregoing , that on these suppositions also ( which , however , the dynamical spirit is tending more and more to exclude , ) the accumulated living force or action V of the system is a characteristic motion-function of the kind already explained having the same law and formula of variation , which are susceptible of the same transformations ; obliged to satisfy in the same way a final and an initial relation between its partial differential coefficients of the first order ; conducting , by the variation of one of these two relations , to the same canonical forms assigned by LAGRANGE for the differential equations of motion ; and furnishing , on the same principles as before , their intermediate and their final integrals .
+To those imaginable cases , indeed , in which the law of living force no longer holds , our method also would not apply ; but it appears to be the growing ' conviction of the perisons who have meditated the most profoundly on the mathematical dynamics of the universe , that these are cases suggested by insufficient views of the mutual actions of body .
+9 .
+It results from the foregoing remarks , that in order to apply our method of the characteristic function to any problem of dynamics respecting any moving system , the known law of living force is to be combined with our law of varying action ; and that the general expression of this latter law is to be obtained in the following manner .
+We are first to express the quantity T , namely , the half of the living force of the system , aa function ( which will always be homogeneous of the second dimension , ) of the differential coefficient tesr rates of increase '1a , t &amp;c. , of any rectangular coordinates , or other marks of position of the system : we are next to take the variation the variations of those rates , g2 , &amp;c. , to the variations ; 1 , ' 2 , &amp;c. , of the marks of position themselves ; and then to subtract the initial from the final value of the result , and to equate the remnainider to V -t H. A slight consideration will show that this general rule or process for obtaining the variation of the characteristic function V , is applicable even when the marks of position 1 , 2 , &amp;c. , are not all independent of each other ; which will happen when they have been made , from any motive of convenience , more numerous than the rectangular coordinates of the several points of the system .
+For if we suppose that the 3n rectangular coordinates X y1 zl ... x Y , n z , have been expressed by any transformation as functions of 3n+k other marks of position , , .
+k which must therefore be connected by k equations of condition , 262 Comparing the two expressions ( 33 .
+) and ( 34 .
+) , we find by ( 36 .
+) the relations aT aTa 4T ) 4( Ta ~T ( 1T % 8T _/ ST\ ( , T ) ST ) gi 3(ST a82 )n a 82 a':=n 1+ ' , ++ " 3 +2 ** + ST / 8T\+t .
+T A^i , / 8+1 T _]_ ... _ which give , by ( 32 .
+) , 8X j , 8 T,2+ + , ST n nl + '12 a 2 = ( T + 81 +21 +. .
++xV=T+a LI + A2 ++a P. .
+8a,2 + , k 3_ak),2 , ) +1a2+ ( C ' .
+) aV / aT + , k % Sn3 a)J3 )sn+--k +k+sn+k and BV are To(/ ) 1 Pk/ ) by which a esu such as 2 .
+is added to ( in the second member of the formula aV __ aT o i. Aa +a ae1 ksac'2)l Z+ A[+ Alae+Akke , vsn+k en +k++ A2 k an k besides the old equation ( E. ) .
+The analogous introduction of multipliers in the canonical forms of LAGRANGE , for the differential equations of motion of the second ordert , au by which a sum such as ' .
+; is added to in the second member of the formula ( Y. ) , is also easily justified on the principles of the present essay .
+Separation of the relative motion of a system from the motion of its centre of gravity ; characteristic function for such relative motion , and law of its variation .
+10 .
+As an example of the foregoing transformations , and at the same time as an important application , we shall now introduce relative coordinates , x , y , z , , r eferred to an internal origin x , y , , z , ; that is , we shall put X. = x.i + x , Yi = Yi Y+= + ... ( 40 .
+) and in like manner ai = a , i -a , , bi bi + hb , i c , c ; ... ... .
+( 41 .
+) together with the differentiated expressions X , .
+i+xyi Yi +Y 1ij +.1 .
+' I ( 42 .
+) and a ' ' = a ' , a= ' b ' = b ' , + = , c ' = c ' + c ' ... ... ( 43 .
+) Introducing the expressions ( 42 .
+) for the rectanguilar components of velocity , we find that the value given by ( 4 .
+) for the living force 2 T , decomposes itself into the three following parts , 2T= 2 .
+m ( x ' + y2 t+ z 2 ) = 2 .
+m ( x'2 + yl + z,2 ) +2 ( x'2 , .
+m x ' , + y ' , , 2 .
+my ' , + z ' , , .
+m z ' , ) + ( x',2 + yl ' + z't , ; ) 2 m ; ( 44 .
+) 265 if then we establish , as we may , the three equations of condition , m. m =O , x. my , .
+m= 0 , ... ... .
+( 45 .
+) which give by ( 40 .
+) , Z.mx Z.my Z.mz -Zm '~ y " Zm '/ =m S ... ... ... ( 46 .
+) x11 = m ; m YIu =m %= ; ' , .
+** *e Xee(46 .
+) so that x , , y , , z,1 are now the coordinates of the point which is called the centre of gravity of the system , we may reduce the function T to the form T=T+ T , , , ... ... .(47 .
+) in which T= 2.m ( x ' , +y ' + , , ... ... ... ... ( 48 .
+) and T , ,= ( ' , ,2 + y/ + ' , , m ... ... ... ... ... ( 49 .
+) By this known decomposition , the whole living force 2 3T of the system is resolved into the two parts 2 T , and 2 T , , of which the former , 2 T , , may be called the relative living force , being that which results solely from the relative velocities of the points of the system , in their motions about their common centre of gravity x , , y , , , , ; while the latter part , 2 T , , , results only from the absolute motion of that centre of gravity in space , and is the same as if all the masses of the system were united in that common centre .
+At the same time , the law of living force , T=U+ H , ( 6 .
+) , resolves itself by the law of motion of the centre of gravity into the two following separate equations , T , = U+ H , , ... ... ... .
+( 50 .
+) and T , ,= H , , ; ... ... . .
+( 51 .
+) I-I , and H , , being two new constants independent of the time t , and such that their sum H , + H , , = H. ( 52 .
+) And we may in like manner decompose the action , or accumulated living force V , which is equal to the definite integral.jlt 2Td t , into the two following analogous parts , V , + V , , , ... ... ... .
+( E. ) determined by the two equations , V , t 2T , dt , ... ... ... ... ... ( F ' .
+) and V , ft 2 , , dt ... ... ... ... ( Gi .
+) The last equation gives by ( 51 .
+) , V,2I-I , ,t ... ... ... ... ... . .
+( 53 .
+) a result which , by the law of motion of the-centre of gravity , may be thus expressed , V , , = ( X , a , ,)2 + ( y , ,b , ,)2 ( , , -c , ,)2 .
+2 IHl , , w : ... .
+( H ' .
+) 266 b , c , , being the initial coordinates of the centre of gravity , so that.-m a b. m m ' ''Ma = , ir = ' =.). .
+( 54 .
+) And for the variation 6V of the whole function V , the rule of the last number gives + ( x ' , , ad , a , , + y ' , , y , , ' , , b b , , z ' , , + , c , c , ) m ) +t + .
+m + .
+mS y , M +X32 .
+m z , + A1 2 .
+mS a , +A2 mS b , A3 -M .
+m c , ; J while the variation of the part V , , , determined by the equation ( H ' .
+) , is easily shown to be equivalent to the part V V , , =( 'S , a ' , S a , + , + y , , , , b ' , ,+ .
+' , , z , , c , , c , , ) Im+t H , ; .
+( Kl .
+) the variation of the other part V , may therefore be thus expressed , sV = .
+m( ' , , a ' a , +y- , y , -b ' , b ' , , c , c , ) +t~ Hi+X,.1 m. m +3M .
++m2yqYm 3 , .
+( LZ .
+) + A1 2 .
+m Sa , + A2 + .
+m b , : A3 .
+and it resolves itself into the following separate expressions , in which the part V , is considered as a function of the 6n+1 quantities x , y , z a , bi c. H , , of which , however , only 6 n5 are really independent : first group , 8V w+X J 'n-m x +x .
+x m , , +1 1 ; * in IMn = ?
+t+a VI a VI gM= mi y,1 + A2 i* * .
+in = mA n , ?
++. .
+( ?
+ii .
+) av = , Z a. .
+r z'i ' l ; +3M ' 8xI 11 = ?
+i Z1 + 3 ; we have , by differentiating these conditions,.mx r-0 , 2 .
+my ' , =O , 2.m : zI 0 , ... .* ( 56 .
+) and therefore and.m a ' =-O,.mb ' , =0 , .
+c ' , ; xh = Xi I. =__yM I X3 S_ ' 2^ i ~X ?
+9 " I - ... .
+- ' *. .
+&amp; .
+( 57 .
+) * .
+* .
+* ( 58 .
+) 8V ' S-Hi ' Al m Sn A= b ' 2:mC I Av , 5m A3 X. ^--^OT. .
+( 59 .
+) 11 .
+As an example of the determination of these multipliers , we may suppose that the part V , , of the whole action V , has been expressed , before differentiation , as a function of H , , and of these other 6n -6 independent quantities xI x , 2l , SJA -1 n I1 ' z21Z , n = , ~I : Yz2 Z , -2 , ** % -Zm =** *# , * , " -i n^ Xs--1 1 ^-1 , =n = L-,1 and ^i~ a= , a a , -2 oq , a.i , - , a , - , il b , b , = , b,2 b , , = , * * , _ , B- , = , .
+, ( 61 .
+) CA , n =r= =C .
+, , -1-c , ,n = n ; that is3 of the differences only of the centrobaric coordinates ; or , in other words , as a function of the coordinates ( initial and final ) of nI points of the system , referred to the n^ point , as an internal or moveable origin : because the centrobaric coordinates Y z , ahb , , macy themselves , by the equations of condition , be expressed as functions of these , namely , SmS _ X. m-d in li m ke ri nm and in like manner , a4r =-i - ; m a , : Sm 'S 2.mf3 2.my , b^ , i = Pi Xm c Xm in which we are to observe , that the six quantities , ,3 r must be considered as separately vanishing .
+When V , has been thus expressed as a function of the centrobaric coordinates , involving their differences only , it will evidently satisfy the six partial differential equations , a sV , a V , '-O ( p ' =0 =o , = o , 6 aa ab a6 - ?
+; ( 60 .
+) after this preparation , therefore , of the function V , , the six multipliers determined by ( 58 .
+) and ( 59 .
+) will vanish , so that we shall have x1 =02 = , = 0 , 3= 0 , A= 0 , A2 , A = ... .
+and the groups ( M ' .
+) and ( N ' .
+) will reduce themselves to the two following : 8V , , V , V , j v , V , *V , imma Im y , ; 2X 1y2 ; ... i ; a Vi-- ' m Z , ; * *l '-m zn ; ' I2 and , - ... . .
+=--m , a ' , ,~ ; [ aA= -m1l ; -m a2 ; .1 a ma1Ma '2 =ma in ; 8_V , _8V , 8aV , =.-_ b Vt ?
+b__ -bV a bl --ml ; m2 Br2 --mnb n , ; V va V , 8 V , .
+-mc .
+11 ; -m2 C2 ; mnlcn , ll cn .
+, ( 64 .
+) ( Ql .
+) ( R1 .
+) analogous in all respects to the groups ( C. ) and ( D. ) .
+We find , therefore , for the relative motion of a system about its own centre of gravity , equations of the same form as those which we had obtained before for the absolute motion of the same system of points in space .
+And we see that in investigating such relative motion only , it is useful to confine ourselves to the part V , of our whole characteristic function , that is , to the relative action of the system , or accumulated living force of the motion about the centre of gravity ; and to consider this part as the characteristic function of such relative motion , in a sense analogous to that which has been already explained .
+This relative action , or part V , , may , however , be otherwise expressed , and even in an infinite variety of ways , on account of the six equations of condition which connect the 6n centrobaric coordinates ; and every different preparation of its form will give a different set of values for the six multipliers xl x2 ?
+3 A1 A2 A3 .
+For example , we inight eliminate , by a previous preparation , the six centrobaric coordinates of the point m. from the expression of VI , so as to make this expression involve only the centrobaric coordinates of the other n1 points of the system , and then we should have av_ O , _ Oo V-o , V ... ( ax 10 a 0 ?
+a o'l 0 ab 5 c But to give an example of its application , let us resume the problem already mentioned , namely to express 6 V , by means of the 6 n5 independent variations 6j 6 .
+%s a. / i 8.i 8 H , .
+For this purpose we shall employ a known transformation of the relative living force 2 T , , multiplied by the sum of the masses of the system , namely the following : 2T , 2= m. m { ( .
+-m m)f( k2+ ( '-i ( k)2 + ( i-k)2 } ... ( 67 .
+) the sign of summation E extending , in the second member , to all the combinations of points two by two , which can be formed without repetition .
+This transformation gives , by ( 66 .
+) , 2T , mm n , .
+m ( 2 _ 2+ I2+ f2 ) + m , { ( , M ) + ( ' Ik )2 + ( ' .
+, )2 } ; ?
+( 68 .
+) the sign of summation 2 , extending only to the first n1 points of the system .
+Applying , therefore , our general rule or law of varying relative action , and observing that the 6n6 internal coordinates jg ac 3y are independent , we find the following new expression : +V , = t= H , m + { .
+'i ( !
+i 6( -C ) + ( ' 1 )(8nk + ( ' Y'i })1 -+- .
+m ' Q',.mimk { ( , -'k ) ( - : ) ( t'-k ) ( W-3 ) t ( '--'k ) ( , ) ) }(W .
+) 7n m 8iMk { ( Vik Ok k ) ( W si )k ) + ( 3 ( i3k ) ( ki- ?
+) + ( i ; 4 ) ( yi ) which gives , besides the equation ( 01 .
+) , the following groups : =. .
+m( ' ' ) =m / 's !
+n.V-mi )._m ) rYVI ni XIMV C_ _I m M.m ~i a^ .
+m.( , -- , - ' , , and.-v -m ' .
+t::'= ?
+t.m ( i- , ' ) =-Xm M 8aV iZ .
+mm 'm results which may be thus summed up : 2N 2 ... * ( XI .
+) .
+V1= t H1+ m+I -ytt ) lim:/ s 2w*/ ^S .
+C II ( Z1 .
+) +.(2m w. , ma s+ m,.3 , m + .
+, m. y ) , and might have been otherwise deduced by our rule , from this other known transformation of T , , T= 1 .
+m , , ( ( t , ~ , ) t:m ' ) ' + ( Xia ' ) + ( , m t).(69 .
+) T , =- .
+, mq q ... '~a ... ... ... . .
+' ' And to obtain , with any set of internal or relative marks of position , the two partial differential equations which the characteristic function V , of relative motion must satisfy , and which offer ( as we shall find ) the chief means of discovering its form , namely , the equations analogous to those marked ( F. ) and ( G. ) , we have only to eliminate the rates of increase of the marks of position of the system , which determine the final and initial components of the relative velocities of its points , by the law of varying relative action , from the final and initial expressions of the law of relative living force ; namely , from the following equations : T , =U +H- , ... ... ... ... ... ... ( 50 .
+) and To=Uo+ H , ... ... ... . .
+, ... ... . .
+( 70 .
+) The law of areas , or the property respecting rotation which was expressed by the partial differential equations ( P. ) , will also always admit of being expressed in relative coordinates , and will assist in discovering the form of the characteristic function V , ; by showing that this function involves only such internal coordinates ( in number 6n 9 ) as do not alter by any common rotation of all points final and initial , round the centre of gravity , or round any other internal origin ; that origin being treated as fixed , and the quantity H , as constant , in determining the effects of this rotation .
+The general problem of dynamics , respecting the motions of a free system of n points attracting or repelling one another , is therefore reduced , in the last analysis , by the method of the present essay , to the research and differentiation of a function V , depending on 6n9 internal or relative coordinates , and on the quantity II , , and satisfying a pair of partial differential equations of the first order and second degree ; in integrating which equations , we are to observe , that at the assumed origin of the motion , namely at the moment when t= 0 , the final or variable coordinates are equal to their initial values , and the partial differential coefficient ~-H vanishes ; and , that at a moment infinitely little distant , the differential alterations of the coordinates have ratios connected with the other partial differential coefficients of the characteristic function V , , by the law of varying relative action .
+It may be here observed , that , 272 although the consideration of the point , called usually the centre of gravity , is very simply suggested by the process of the tenth number , yet this internal centre is even more simply indicated by our early corollaries from the law of varying action ; which show that the components of relative final velocities , in any system of attracting or repelling points , may be expressed by the differences of quantities of the form Im a , I av~ V -- : and therefore that in calculating these relative velocities , it is advanm y'rm Iz nz tageons to introduce the final sums nm x , 2 my , 2m z , and , for an analogous reason , the initial sums 2m a , Im b , 2m c , among the marks of the extreme positions of the system , in the expression of the characteristic function V ; because , in differentiating that expression for the calculation of relative velocities , those sums may be treated as constant .
+On Systems of two Points , in general ; Characteristic Fiunction of the motion of anm , Binary System .
+13 .
+To illustrate the foregoing principles , which extend to any free system of points , however numerous , attracting or repelling one another , let us now consider , in particular , a system of two such points .
+For such a system , the known force-function U becomes , by ( 2 .
+) , U=m 2f ( r ) , ... ... ... . .
+( 71 .
+) r being the mutual distance r= S(x ( -Xi )2 + ( 1-y 2)2 +(zl -z ) , .
+( 72 .
+) between the two points mi , m2 , and f ( r ) being a function of this distance such that its derivative or differential coefficient.f ( r ) expresses the law of their repulsion or attraction , according as it is positive or negative .
+The known differential equations of motion , of the second order , are now , by ( 1 .
+) , comprised in the following formula : m1 ( W'l B X1 +y"l $Y1 + z"1 1 ) ++ M2 ( '2 2 +yY"2 tY2 + " 2 w 22 ) = ml 2 ( r ) ; .
+( 73 .
+) they are therefore , separately , If(r ) y f(r ) Z " f(r ) 1 ~f'tl : ~t 1"1I m2 axl 'l = ` a y1 = m-2 n2 aIn af ( ) " z af(r ) zf ( r ) t ( 74 .
+X. , ^2 I2= " 21 8a 2 a1 * The problem of integrating these equations consists in proposing to assign , by their means , six relations between the time t , the masses mn m2 , the six varying coordinates x1Y1 zI X Y2 z2 , and their initial values and initial rates of increase a , bl cb a2 b2 c2 a'1 b'l c'l a'2 b'2 .
+If we knew these six final integrals , and combined them with the initial form of the law of living force , or of the known intermediate integral ( 75 .
+) 273 m ( x , I2 + y212 + Z)12 ) +i m2 ( Z22 +:22 + z'22 ) = mnl f ( r ) + ; 1 .
+that is , with the following formula , Mz1 ( a'12 + b'12 + C12 ) + } m2 ( a'22 + b22 + d22 ) = _1 m2f(r0 ) + H , .
+( 76 .
+) in which ro is the initial distance ro = V/ ( ai -a2)2 + ( b b2 ) +2 ( c.-'c2)2 , ... . .
+( 77 .
+) and H is a constant quantity , introduced by integration ; we could , by the combination of these seven relations , determine the time t , and the six initial components of velocity a'1 b'l c , a'2 bV c ' , as functions of the twelve final and initial coordinates 't Yl z1 x2 Y2 z2 al b cl a2 b2 c2 , and of the quantity H , ( involving also the masses : ) we could therefore determine whatever else depends on the manner and time of motion of this system of two points , as a function of the same extreme coordinates and of the same quantity H. In particular , we could determine the action , or accumulated living force of the system , namely , V= m , / '+'+ '1 ) t+ 2o ' ( 22 +Y+y2)d t , .
+( A2 .
+) as a function of those thirteen quantities 1yz2 y2 X2 a , b , cl a2 b2 C2 H : and might then calculate the variation of this function , V= av 1 , l + av , 1 Y+ aZ+ y , ZV2 + ?
+v , , +v jZ21 aaab aal+ av a2+ a. ( 1B2 .
+) +a a , l 8ba b , +a c , $1V a. +sb6 bT 2+ F,2C , vI+ mH H. But the essence of our method consists in forming previously the expression of this variation , by our law of varying action , namely , 6V= m1 ( x,1 x1 a ' a1 + y ' , Syl bl b+ zl zl c'l )1+ m2 ( x2 222 a2 +2 Y2 b'2 + y'22 2 c'2 2 c2 ) } .
+( C2 .
+) +t H ; and in considering V as a characteristic function of the mnotion , from the form of which may be deduced all the intermediate and all the final integrals of the known differential equations , by resolving the expression ( C2 .
+) into the following separate groups , ( included in ( C. ) and ( D. ) , ) aV , V a8V _ qm\ , 6M = m , yMI , _ .
+m l , I..t.Y v ... , 1 .
+( D2 .
+) a8%2 ' 2 , a=m Y2)y ' a= m2 z2 ; ] and 8V 8V 8V 1d , v_ a , m ' ml _l b,1 1t aV aV VI a- , =2 2 , = -2 , q2 =2 2 ' J ; 274 besides this other equation , which had occurred before , V= t. .
+( E. ) By this new method , the difficulty of integrating the six known equations of motion of the second order ( 74 .
+) , is reduced to the search and differentiation of a single function V ; and to find the form of this function , we are to employ the following pair of partial differential equations of the first order : 1 / sv 2 / sv\2 / yV 21 rtV\2 sv2 v 2l i vxJ+ ( \)y 2+( ' } + V2 +,2 + j2 } = m1m2f ( r ) +H , ... ... ... ... ... ..(F2 .
+) ZL aVW 2 ( W a 2\ + +Qm J_ V+ ( V2Y .
+2 m , aLV nr V ?
+rV J bT I/ +a2\a a.\a J J2 -m mir2f ( r0 ) + , ... ... .(G2 .
+) combined with some simple considerations .
+And it easily results from the principles already laid down , that the integral of this paimr of equations , adapted to the present question , is V= / ( x , ,a , ,)2 + ( , b , , ) + ( z , , ^ , )2 .
+* , / 2H1 , ( mn + mi ) + m , +m a2 +j dr ) ; + , ^Fm.(* &amp; +X^'* ... ... ... ... .(HP .
+) in which x , , y , , z , , a , , b , , c , , denote the coordinates , final and initial , of the centre of gravity of the system , m , x +m2 X2 m , y1 .
++ m2y2 I_ 11 z+ n2 Z2 -1 m , 4iln + m2 ml + m2 '11 'm + m2 , a , + ma b m , b , +m2b2 c , c , + mr.c2 ml+-m +m m,2 'mnJ and S is the angle between the final and initial distances r , r0 : we have also put for abridgement\/ 2 ( m +2 ) ( f ( )+ ml ) .
+( 79 .
+) the upper or the lower sign to be used , according as the distance r is increasing or decreasing ; and have introduced three auxiliary quantities hi , H , , I , , , to be determined by this condition , ( 72 .
+) combined with the two following , mn , + Jr _ H , i2( , + , + ( t , , --c , ,)I .
+( / z , b , ,)2 VQ)H -- , +H , , ?
+II ; .
+275 which auxiliary quantities , although in one view they are functions of the twelve extreme coordinates , are yet to be treated as constant in calculating the three definite integrals , or limits of sums of numerous small elements , jr fdr , t fAdr , J 1 dr .
+The form ( 1H12 .
+) , for the characteristic function of a binary system , may be regarded as a central or radical relation , which includes the whole theory of the motion of such a system ; so that all the details of this motion may be deduced from it by the application of our general method .
+But because the theory of binary systems has been brought to great perfection already , by the labours of former writers , it may suffice to give briefly here a few instances of such deduction .
+14 .
+The form ( H2 .
+) , for the characteristic function of a binary system involves explicitly , when e is changed to its value ( 79 .
+) , the twelve quantities x , , y , , , , a , , b , , cr ro h H , I--I , ( besides the masses m1 m2 which are always considered as given ; ) its variation may therefore be thus expressed : zV T1 SY Y+ 8X a ?
+v + , a. a , , + bbb , +b cv+ aVr +a ro +ahh+s avr -I , + w v ~ .
+( Ll .
+In this expression , if we put for abridgement x -= / ( Q_o Hi ( m , + -)2 ) ( x , .
+-a , )+ ( u , z , , ) + ( zc ) ' ... .
+we shall have aV A( ab )8V V -a xi , ( i -a , , ) y ( -y , , , b , , ) , 811 11 a. a X(a , ,x , ) , bi =X ( b , ,y , , ) , c= X ( c ) ; J and if we put o0 = +\/ 2 ( m + m2 ) ( f(r ) + m ) -rkg , ml 721 712l .
+( 80.). .
+( M2 ) .
+0 .
+~~~~(8 1 .
+) the sign of the radical being determined by the same rule as that of s , av mm2 gVm mg o=V m_ m , ml h are m~+ m2 ' +m +m ' m , + m2 we shall have ... ( N2 .
+) besides , by the equations of condition ( I2 .
+) , ( K2 .
+) , we have 8V - , ... ... ... ( 02 .
+) and aV _ aV rdr mH .
+IHI 'o ~~-LII1r H , + H , + , = H. ( P2 .
+) '276 The expression ( L2 .
+) may therefore be thus transformed : V=k { ( x , a ) ( a , xa , ) ( , , , , ) + ( y , ,b , , ) + ( zc , , ) ( z , , c , , ) +m , +2 ( gBr--g0 ro + ht ) +J..H ; . .
+( Q2 .
+) and may be resolved by our general method into twelve separate expressions for the final and initial components of velocities , namely , -1v + %_mQh/ )+m+ml ?
+Gy I II A M2 ar a I , _1 8V _ , -a)+ , + 8r h ( 1 ) 1-frl ~ 8-m~l + m2 ~ ) ml + m2 V 8 .
+hi , m1Am 8r a+ &gt; **RZ 2-me 8^=m(+M+ha zS2J I26 yI+ m ?
+I + M2 zV-g1 _1V_ z2-~ mz~ m , +mm+ma_ ml _z Z m ; z2m+ + andc)+ m1-jand -aI VA m2 r3@ aml '=ml+ m ( Yu b/ ) + +(77o b -h b* , -mz , 6b , ~O , $ ?
+:-- , - .
+6+m,2 + ( # fb , +a m aj -b ' -1 ( , , c ) + mo , ( h t-_ J __r ml ( T / 8 , X ' ( x m ?
+... ... a. c=m CM Ml + meI ( .
+c , , ) II+ Me T ? ?
+8ci ~ c , / | -laV +'/ 20 , _-18aV _Aa r)+ ml ( ro a8 which gives by ( K2 .
+) , and by ( 79 .
+) , ( 80 .
+) , t+ ma tH 9g - .
+= ... ... .
+t* * h , H , H , , , by the three conditions ( 12 .
+) ( T2 .
+) ( TJ2 .
+) .
+Thus , if we observe that the distances r , ro , and the included angle depend only on relative coordinates , which may be thus denoted , X2 =1 Y2 == v , z2= ( 82 ) al - ' a2 l b- , 2= c2= &gt; , we obtain by easy combinations the three following intermediate integrals for the centre of gravity of the system : X ' t =-XI =a^ , y 'l t -= ybll , z'II t = , ... ... .
+( 83 .
+) and the three following final integrals , a ' , ,t x , -a , b ' , t-yb , , ct = t.c , ... ... . .
+( 84 .
+) expressing the well-known law of the rectilinear and uniform motion of that centre .
+We obtain also the three following intermediate integrals for the relative motion of one point of the system about the other : are a8 a ... ... ... ... ... 5 .
+) ara 8 .
+and the three following final integrals , =e0o1--6 , j =t ao8ro = go 0-j ( 86 .
+) in which the auxiliary quantities h , H , , are to be determined by ( 12 .
+) which the dependence of r , ro , 9 , on a , v , P , , 3 , y , is expressed by equations : r= de +2+ 2o = ro 2_a + , .
+rro cos a-S + +.3 -+ ... If then we put , for abridgement , hh igo A-=q+ B =sC= +ri tan )~r ^rro sin F r0 r%2 tan e we shall have these three intermediate integrals , =t-A--B , ='-Ah-Bt , =-A--By , ... 'and these three final integrals , o'=B--C , tS'-=B~-C =B-Cy , '.=.B. .
+) ( T. ) , and in the following ... ( 87.). .
+( 88 .
+) ... ( 89 .
+) ... ( 90 .
+) i278 ha8 roa -8 ; '= go h ; of the equations of relative motion .
+These integrals give , ' g7~ =o p ' _ ( 3 =B( 3t ) , ~'--F-=-'--'-B(-- , ) ... ( *. .
+),.(91 .
+) _ ~ , =2 -'-c y'y =B(y - ) , and ( ( ' -f ' ) +E ( p / Y rP ' ) + ) ( r ' a. ' ) 0= ... ( 92 .
+) they contain therefore the known law of equable description of areas , and the law of a plane .
+relative orbit .
+If we take for simplicity this plane for the plane j , , the quantities C 'y 7 will vanish ; and we may put , |=r cos 8 , n=r sin 8 , = 0 , ( 93 .
+) a= ro cos o , r= ro0sin 0 , ) yand ' =r'cos0 -'rsin8 , s'= r'sin0+ a'reos8 , ~'=0 , = r ' cos 60 'o ro sin 0 , J3 ' = r ' sin 0+ 'o r cos 0 , r ' = O , 9 the angles 8 00 being counted from some fixed line in the plane , and being such that their difference ... ... ... ... ..(95 .
+) These values give ' - ' = r2 a , 3-',8 = ro20 ' , e -=rrosin , ... .
+( 96 .
+) and therefore , by ( 88 .
+) and ( 91 ) , rr o ; ... ... ... ... ... ... ( 97 .
+) the quantity ih is therefore the constant areal velocity in the relative motion of the system ; a result which is easily seen to be independent of the directions of the three rectangular coordinates .
+The same values , ( 93 .
+) , ( 94 .
+) , give Mcos + sin = r , V'cosd + sin = r ' , acosO +(8sinO = rocosS , 9x cos 8O +3 sin 61 = ro , c ' cos + 13 ' sin O= rto , cosdo + sin8 =r cos , ( 98 ) and therefore , by the intermediate and final integrals , ( 89 .
+) , ( 90 .
+) , 7 , r'0 ; ... ... ... ... ... ( 99 .
+) results which evidently agree with the condition ( T2 .
+) , and which give by ( 79 .
+) and ( 81 .
+) , for all directions of coordinates , ,r2 + .
+2 ( ml + m2)f ( r ) = L ... ( 100 .
+) + 2(m + m2)f ( rO ) 2 H , ( + ) ; the other auxiliary quantity HI , is therefore also a constant , independent of the time , and enters as such into the constant part in the expression for ( r2 + 72 the square of the relative velocity .
+The equation of condition ( I2 ) , connecting these two con2 o2 279 stants h , H , , with the extreme lengths of the radius vector r , and with the angle a described by this radius in revolving from its initial to its final direction , is the equation of the plane relative orbit ; and the other equation of condition ( T2 .
+) , connecting the same two constants with the same extreme distances and with the time , gives the law of the velocity of mutual approach or recess .
+We may remark that the part V , of the whole characteristic function V , which represents the relative action and determines the relative motion in the system , namely , V , -=-^ ( hm +:mr ) ... ... ... ... .
+( V2 .
+) may be put , by ( I2 .
+) , under the form m12 i -hag dr ( W2 ) VI -m , +r * ... ... .
+The characteristic function V , of relative motion may now be expressed as follows -/ m+ _)-C 1.d ; ... ... . .
+w v~ A=~~l mzm~ *p+/ *.d r ; ... . .
+*(A3 .
+) in which p is to be considered as a function of the extreme radii vectores r , r , and of their included angle 3 , involving also the quantity a , or the connected quantity H , and determined by the condition + dr 2= / 21 ' *-* .
+* ... . .
+( B3 .
+) Jr rp ap -that is , by the derivative of the formula ( A3 .
+) , taken with respect to p : the upper sign being taken in each expression when the distance r is increasing , and the lower sign when that distance is diminishing , and the quantity p being treated 'as constant in calculating the two definite integrals .
+It results from the foregoing remarks , that this quantity p is constant also in the sense of being independent of the time , so as not to vary in the course of the motion ; and that the condition ( B3 .
+) , connecting this constant with r ro a a , is the equation of the plane relative orbit ; which is therefore ( as it has long been known to be ) an ellipse , hyperbola , or parabola , according as the constant a is positive , negative , or zero , the origin of r being always a focus of the curve , and p being the semiparameter .
+It results also , that the time of motion may be thus expressed : sV e aa V , t a= ... ... ... , .
+( C , .
+) and therefore thus : ?
+dr f _ ' _ ; _.2 ; ... ... ... . .
+( ... ) Vra rwhich latter is a known expression .
+Confining ourselves at present to the case a &gt; 0 , and introducing the known auxiliary quantities called excentricity and excentric anomaly , namely , e\/ . .
+( 103 .
+) and -i a-r ) C-os " 7 ' ... ... ... ... ( 104 .
+) which give / 2arr2pa = aesin , ... ... ... ( 105 .
+) v being considered as continually increasing with the time and therefore , as is well known , r=a( ecos v ) , r0 =a ( e cos v ) , 1 =2tan-{}-2tan { \/ ta }e I v.106 .
+) a=2tan{V1 1 tan -j2 ttan tan -e 4V/ 1 efo 281 and at =\/ - .
+( v-v-esin v+ esin ) ; ... ... ... ( 107 .
+) we find that this expression for the characteristic function of relative motion , _mm^ M -f\r a/ V adeduced from ( A3 .
+) and ( B3 .
+) , may be transformed as follows : V , =m m2m ( w0 +e sin v -e sin):. .
+( .
+) in which the excentricity e , and the final and initial excentric anomalies v , uv , are to be considered as functions of the final and initial radii r , rl , and of the included angle 3 , determined by the equations ( 106 .
+) .
+The expression ( F3 .
+) may be thus written : V , = 2n2 v/ ( v , + e , sin v ) , .
+( G3 .
+) if we put , for abridgement , to 4t+ UJ = V0ne , =e cos 2 ; * ( 108 .
+) for the complete determination of the characterstic function of the e present relative motion , it remains therefore to determine the two variables v , and e , , as functions of r r0 S , or of some other set of quantities which mark the shape and sie of the plane triangle bounded by the final and initial elliptic radii vectores and by the elliptic chord .
+For this purpose it is convenient to introduce this elliptic chord itself , which we shall call + r. , so that = r2 + r22rr0cos ; ... ... ( 109 .
+) because this chord may be expressed as a function of the two variables v , , e , , ( involving also the mean distance a , ) as follows .
+The value ( 106 .
+) for the angle a , that is , by ( 95 .
+) , for 0 8 , gives d-2tanl { nl+.tanlt-J -2tanl^ { tan-t=a -2={reos ( O-)-rocoS ( go-)}2 +{rsin ( O --z)-ro Sin ( _w)}2 = a2 { ( cos v -cos vo)2 + ( 1 e2 ) ( sin v sin v0)2 } =4a2smin V2 { sin - ) +(1 -e2)cos ( J =4a2 ( l -e,2 ) sin V,2 : we may also consider r as having the same sign with sin , , if we consider it as alternately positive and negative , in the successive elliptic periods or revolutions , beginning with the initial position .
+Besides if we denote by a the sum of the two elliptic radii vectores , final and initial , so that = r+ ro , ... ... ... ... ( 113 .
+) we shall have , with our present abridgements , =2a ( 1 e , cos , ) ; ... .
+( 114 .
+) the variables v , e , are therefore functions of o , r , a , and consequently the characteristic function V , is itself a function of those three quantities .
+We may therefore put m+m**** * in which we are to observe that tr = J02 + 22 + g2 + Aj +2+ v2.1 I = ?
++/ ( o)2 + ( -0)2 + ( t y)2 .
+By this comparison we are brought back to the general integral equations of the relative motion of a binary system , ( 89 .
+) and ( 90 .
+) ; but we have now the following particular values for the coefficients A , B , C : A=I at 11wI N3 A= --+ TB =C , C= + r ; .
+( N3 .
+) * ?
+' 'W T ro ' and with respect to the three partial differential coefficients , a , - , a we have the 8-a , ~-4T , Fe have the following relation between them : w 8w 8w wa+ O+r = , ... ... ... ... ... ( 03 .
+) the function w being homogeneous of the dimension } with respect to the three quantities a , o. , ; we have also , by ( 13 .
+) , Sw .
+/ u sinul w _* / I ( P/ -e .
+e V , COso , ' rVa 'cos VI e , ' and therefore ao are T azv 2 W2 a_ 42 3 from which may be deduced the following remarkable expressions : 8w aZ\2_ 4/ j1 ( R3 .
+) - ; F~ -a J These expressions will be found to be important in the application of the present method to the theory of elliptic motion .
+16 .
+We shall not enter , on this occasion , into any details of such application ; but we may remark , that the circumstance of the characteristic function involving only the elliptic chord and the sum of the extreme radii , ( besides the mean distance and the sum of the masses , ) affords , by our general method , a new proof of the wellknown theorem that the elliptic time also depends on the same chord and sum of radii ; and gives a new expression for the law of this dependence , namely , t =a they subtend also equal angles at the other .
+Reciprocally , if any plane curve posess this property , when referred to a fixed point in its own plane , which may be taken as the origin of polar coordinates r , , the curve must satisfy the following equation in mixed differences : / 49\I di cotan )A -(A + 2 ) ... ... ... ( 115 .
+) which may be brought to the following form , f+ = ... ... ... ... ... .
+( 116 .
+) and therefore gives , by integration , pr =1 + ecos ( 0 _ ) ; ... ... ... w* .
+) ( 117 ) the curve is , consequently , a conic section , and the fixed point is one of its foci .
+The properties of parabolic are included as limiting cases in those of elliptic motion , and may be deduced from them by making H , O , or a = ; , ... ... . .
+( 1 ) and therefore the characteristic function w and the time t , in parabolic as well as in elliptic motion , are functions of the chord and of the sum of the radii .
+By thus making a infinite in the foregoing expressions , we find , for parabolic motion , the partial differential equations awe Bto awe 4 .
+/ S_ w aO\2 4p a ; ' rT/ =~+-\a~f , .
+( 1- ) and in fact the parabolic form of the simplified characteristic function w may easily be shown to be 'w --=2 , J ( ^s,.f~'..+../ .
+' ) , ?
+..(U3 .
+) being , as before , the chord , and m the sum of the radii ; while the analogous limit of the expression ( S3 .
+) , for the time , is t ^{ -- ' ( -r ) } : ... ... . .
+( V3 .
+) which latter is a known expression .
+The formulae ( K3 .
+) and ( IL .
+) , to the comparison of which we have reduced the study of elliptic motion , extend to hyperbolic motion also ; and in any binary system , with NEWTON'S law of attraction , the simplified characteristic function w may be expressed by the definite integral w= / d ( -d-i : ... ... . .
+( X3 .
+) provided that , within the extent of these integrations , the radical does not vanish nor become infinite .
+When this condition is not satisfied , we may still express the simplified characteristic function w , and the time t , by the following analogous integrals : Awi_ d-a ... ... .
+( Y. ) and t = ?
+( ) d ... .
+( Zi .
+) in which we have put for abridgement r '+ T O , _-2T 2 ' , 2 ** . ?
+* ** component accelerations of the three points mi m2 n3 , or the second differential coefficients of their coordinates , taken with respect to the time .
+To integrate these equations is to assign , by their means , nine relations between the time t , the three masses n mn2 m23 , the nine varying coordinates x1 y , zi y/ 2 Z2 X3 y z3 , and their nine initial values and nine initial rates of increase , which may be thus denoted , a , b1 c a2 b2 c3 b3,3 a ' / 1 1 1/ /2 '2 a3 13 cb 3 .
+The known intermediate integral containing the law of living force , namely , mi2+ y12 ++m+m+ y2 +)+ m3 ( X + 32 + 13 ) ( 124 .
+) =m m , ( l ' a ) +m m3/ ( l " 8 ) +m M/ 2 " 8 ) +_ H , gives the following initial relation : ^m , W+V^+^)+^m,1 +1 -ml ( 112 + b12 + C12 ) + m2 ( a 2+22+ 2+ 2 ) + m3 ( 32 +b32+ ) ( 125 .
+) = ti m ( 2 ) + m1i m3 , ( 1 ' ) + m2 m3f , / o ' )+ H , in which fot ' 2 , o0( ' s ) , fo2 ) , are composed of the initial coordinates , in the same manner asf( " 2 ) j ' 8)f( , s ) are composed of the final coordinates .
+If then we knew the nine final integrals of the equations of motion of this ternary system , and combined them with the initial form ( 125 .
+) of the law of living force , we should have ten relations to detrmine the ten quantities t a'1 1 , C1 a'2 b2 C'2 3b c3 nameleY , the time and the nine initial components of the velocities of the three points , as functions of the nine final and nine initial coordinates , and of the quantity H , involving also the masses we could therefore determine whatever else depends on the manner and time of motion of the system , from its initial to its final , position , as a function of the same extreme coordinates , and of H. In particular , we could determine the action V , or the accumulated living force of the system , namely , v=n ( 2 + y12 + 2+z2 ) dt+ n 22+ 22 2 ) dt + Jd .
+( A4 .
+) + 93 , ( X32 + 32 + 32)df J as a function of these nineteen quantities , x1 y1 x2 y12 Z2 x3 yI z3 a1 bl C1 a2 b2 ca a3 63 c3 H ; and might then calculate the variation of this function , W=v xi~+ ayl 1+ zl ~ z1 + al al + 8b b+ ba eC1 %V ~ViVVVV+2 +2 aV2 + 22Y + 8a +2 + b2 +2+8c 8V 8V.V , V IV V ( B4 ' ) +3 Y+ 3+ I3 + ^- !
+3+ y^ 3 + , c3 +~7 H. 2r2 2 287 But the law of varying action gives , previously , the following expression for this variation : IV = m1 ( -1 x( l al +y yal+1Y ~ 'bl bl +z'l zl -c Cl ) + m2 ( 2 Xz -a'2 a2 + Y ' Y b'2 b2 + z'2 z2 '2 ) c2 ) ( C4 .
+) + mW ( X3 3 a3 + y3 Y3 b3 b3+3z3 c'3 c3 ) +t H ; and shows , therefore , that the research of all the intermediate and all the final integral equations , of motion of the system , may be reduced , reciprocally , to the search and differentiation of this one characteristic function V ; because if we knew this one function , we should have the nine intermediate integrals of the known differential equations , under the forms -V ?
+, W S^ ?
+2^2'2==a ... . .
+( D4 .
+) -X == rin ' , Yi= , mn by , l= Z-m c ' , 2Z ?
+Xp 2 aV,8V T , a , V and the nine final integrals under the forms av ml av m1V/ S/ saa =1 f,1 3b\ =c=l da , ,b V_8 mVa'2 -m8b ' -=-82 c1 , , i , .
+( E42 1= -m2 a2 , m2 b2 , c8 m2 Md2 , .
+m at VIbVa -a m3a bs =-m3 b3 , 3 ( '3E ) the auxiliary constant H being to be eliminated , and the time t introduced , by this other equation , which has often occurred in this essay , aV tH M. * ... ( E. ) The same law of varying action suggests also a method of investigating the fornl of this characteristic function V , not requiring the previous integration of the known equations of motion ; namely , the integration of a pair of partial differential equations connected with the law of living force ; which are , \1(~ ) ] ( + ) =mlmj1'l + m1m3fl ' +2m3f 'm+ H , 1f ( a8 V ( a V\\2 )I(V2 a\2 / 8 V\ +m 3 +a 8Y8 +at Z3 =MJ +MIM3f + 213 M3f and 1t2'-"~l / 8 V\2 { 8 V\2 av 1v X ria sv\e av2a V\2 ' ( 1 , 2 ) ( 1 , 3 ) ( 2,3 ) +'{m +V + } mm2f , +mlm3fI +m2 ?
+z31o +H.J 288 And to diminish the difficulty of thus determining the function V , which depends on 18 coordinates , we may separate it , by principles already explained , into a part V , , depending only on the motion of the centre of gravity of the system , and determined by the formula ( HI .
+) , and another part V , , depending only on the relative motions of the points of the system about this internal centre , and equal to the accumulated living force , connected with this relative motion only .
+In this manner the difficulty is reduced to determining the relative action V , ; and if we introduce the relative coordinates ~1 = X1 X3 ' -1 = Y1 Y3,. .
+( 2 X2 X3 , 2= Y2 Y3 ' 2 -2 - ; 3 and 1a a= a3 , I= bl b3 = Cl(1C3 2= a3 , 32 b2 b3 , 72 -C2C3 we easily find , by the principles of the tenth and following numbers , that the function V , may be considered as depending only on these relative coordinates , and on a quantity H , analogous to H ( besides the masses of the system ) ; and that it must satisfy two partial differential equations , analogous to ( F4 .
+) and ( G4 .
+) , namely , { ( V)2 +$ t+ ( V ) }+{ ( Y+)2a +(2+ 2 } _| ( !
+73 a)+(X +- ) + ( 2 + )V } &gt; ( I14 ) +_z m32 , B V,1 8(2 2 ) , ( 2 , ~ , 3 V , -_ m nm2f(l ' 2)+ ml m3f(1 ' )+ In2 m3f(2'3 ) + H , ; J and 1( / 8V1X2 a { 8VJ 2+ VA 12 ] 1V v } 26 V , \2 a VIV 22 2I m vlV , aV , \2 'V , a2 V , +V , '2 M sps yl " t " 6 y\ ; ( 14 .
+) m= ml m2/ ( '2 ) + ml m3fo(l ' )s+ nz2 '3 f(2 ' )+ I-I , : the law of the variation of this function being , by ( Z1 .
+) , $V , = t1E , + m1 ( M 11i+ 4181 p13'31 + &lt; 1i1 r'lr ) + mn2(2 ( 2a+2 '2 2 't 2P+ '2 2 Y'2 72 ) ) ( ml'+lt2V2 ) ( nzMl1 +m2t2 ) ( n1i'1 +Mr2a'2 ) ( MIz1 +sm2 ) j ( K4 .
+) 'm , :+m ; + ( n 11 + n1m2'2 ) ( mnh l +m28i2 ) ( ml '1 +"m23'2 ) ( mil il + m2 f32 ) 1++ ( mr 'l + ml2 ' ) ( mil+ m2 2 ) ( ml ll '+ m2 '2 ) ( ml y1 + m2 72 ) J which resolves itself in the same manner as before into the six intermediate and six final integrals of relative motion , namely , into the following equations : 289 wI == f__ in , m. , _8 xa , s=^ mg *I18l 1 ?
+8i +Is2 7 ? ?
+1l $ m1l + +,8 mV .
+m ?
+Me 22__ I1 + JI T11 *`T t _ ?
+W\ , T *1 1 i " +m2 ml8 2M -w2 Me +n2 m , 48_M T , + m , rj + m , ' 1 , ; l Il + min-9 5 ; ) M1 lV " 1 m +m2+ er_ -J -1 V_ m+ml2+m8i ' ( tL 1^ S a^ 1e+3IM M_ _3 m1"1 m m1 2 +m3 nm ; -2 a+m2+m3 and - , l , _2r1 a ; ri ml 61 sa-l + Mn +m S= V1 2_l+ inet +mJ -1 aV ' , + mml t 1 .
+, .
+-.I aV , mtn , , + m. 9yal qanv t_i V- , are vi di which nrust be combined with our oold formulat peundent of the time , and do not vary in the course of the moteion but it s required by the spirit of our method , that in deducing the absolute action or original character isticl function V from the two parts V , and V , rp we should consider these two parts H and of the ot rginal quantity H. as functions involving each the nlne initial and the following expressions for the partial differential nts of the first order of V taken wionsth respect ghto the coordinates and of H bng drned by the to con . ?
+vI .
+V.i , =H + H , + H ... =- .
+- .
+~++HHH ( N4.)However it reults from these conditions , that in taking the variation of the whole the following expressions e sfor the partial differential coffiieentt of the fist order of VS order , n with respet to the other coordinates .
+Substituting the expressions in the uations of the ( O. ) , amely , in the llowin the equations of the form ( O. ) , mely , in the ' following 290 v av __ __ av av v Z1 +^ " r 8a3+ ++ a , 0 8V 8V 8V 8V 8V 8V Y+ 8++ 8y + 8 , + b , + o , ( ) VVV 8V aV W Z+ + 8z+ 6a +~ + 3 , we find that these equations become identical , because V8 V.l +a V'0 ' , aV , VU ZV C T^ +T^ 0T8+ T ?
+T^ +*C = ?
+' .
+' ' ( Q4 .
+) But substituting , in like manner , the expressions ( 04 .
+) in the equations of the form ( P. ) , of which the first is , for a ternary system , + a-+ + a-v2+ b : 38 ; J and observing that we have 8V , VI , V , , V , x"~:y , -Y " , , + a , , -b , ,a ... ... ( S4 .
+) along with two other analogous conditions , we find that the part V , or the characteristic function of relative motion of the ternary system , must satisfy the three following conditions , involving its partial differential coefficients of the first order and in the first degree,.-8s eV , eV , v , asv , av , av , I 0-1 i -^ 1+ 2F -2 : + al + -3l a+ 2o= i1 818 sv , sv y , n ^v 8v av8 vIv , av W , a V , o1 s , s , 61y Y8 a2 , II ( TP .
+) which show that this function can depend only on the shape and size of a pentagon , not generally plane , formed by the point m3 considered as fixed , and by the initial and final positions of the other two points mr and m2 ; for example , the pentagon , of which the corners are , in order , m3 ( ml ) ( m2 ) mn ml ; ( ml ) , and ( m2 ) denoting the initial positions of the points mi and mn2 , referred to m3 as a fixed origin .
+The shape and size of this pentagon may be determined by the ten mutual distances of its five points , that is , by the five sides and five diagonals , which may be thus denoted : m3 ( ml ) = / Vs7 ( ml ) ( m2 ) ) =2 ( 8= , / 3 , mm2l = / ,4 , ml m3.= / s ) m13 ( m2 ) = ^/ d , ( mt1 ) m2 = / d2 , ( m2 ) mi = , / d , m2 m3 = / m4 , ( m , )=/ d5 ; J the values of s ... d5 as functions of the twelve relative coordinates being they may therefore be expressed as functions of nine independent quantities ; for example , of four lines and five angles , r(1 ) r0(1 ) r(2 ) ro(2 ) , ( 1 ) 00(l ) ( 2 , ) 0 o(2 ) 6 , on which they depend as follows : ( 1 ) 2 $1 ~ ( ) 2= ro(1 ) 2+ r(2 ) 2_2 ro(1 ) rO(2 ) ( cos 0(1 ) cos 0o(2 ) + sin 0o(1 ) sin 00(2 ) cos ) , s3 = r(2 ) + r(2 ) 2_ 2 ) ro(2 ) CO ( 0(2 ) _ 00(2 ) ) .
+4= r( ) 2r ( l)2 2 r(2 ) ( 1 ) ( cos ( 1 ) cos 0( ) + sin 0( ' ) sin 0(2 ) COS ) , _r ( l)2 Is --r ) 9 ( 2 ) 2j ( 131 .
+) d " -ro l o(2 ) 22 n d2 = r( 2+ r( ) 22 r( ) r0(1 ) ( cos 0(2 ) cos ot ' ) + sin ( 2 ) sin 0o(1 ) cos ) ) , d. = r(2 ) 2+ r(1 ) 22 r(2 ) r(1 ) ( cos o(2 ) cos 0(l ) + sin 0o(2 ) sin 0(1 ) cos ' ) , e -r / 4 , d5 = r( ) 2+ ro ) -2 r( ) r0( ) cos ( 0(1 ) ( 1 ) ) , the two line-symbols r(1 ) r(2 ) denoting , for abridgement , the same two final radii vectores which were before denoted by r( ' s ) r(2 3 ) , and ro(1 ) r(2 ) representing the initial values of these radii ; while 0(1 ) 0(2 ) do( ) 0(2 ) are angles made by these four radii , with the line of intersection of the two planes ro( ) r( ro(2 ) r , ( 2 ) and i is the inclination of those two planes to each other .
+We may therefore consider the characteristic function V , of relative motion , for any ternary system , as depending only on these latter lines and angles , along with the quantity H , .
+The reasoning which it has been thought useful to develope here , for any system of three points , attracting or repelling one another according to any functions of their distances , was alluded to , under a more general form , in the twelfth number of this essay ; and shows , for example , that the characteristic function of relative motion in a system of four such points , depends on the shape and size of a heptagon , and therefore only on the mutual distances of its seven corners , which are in number 7x6 = ) 21 , but are connected by six equations of condition , leaving only fifteen independent .
+It is easy to extend these remarks to any multiple system .
+General method of improving an approximate expression for the Characteristic Function of motion of a System in any problem of Dynamics .
+19 .
+The partial differential equation ( F. ) , which the characteristic function V must satisfy , in every dynamical question , may receive some useful general transformations , by the separation of this function V into any two parts + V2 ... ... ... ... ... ... .(U .
+For if we establish , for abridgement , the two following equations of definition , " l="Q\ ' U/ 1 ( Uv , )2 + 8VI y4y+ ( fVy2)^ 1T 3I 1(( 2+ ( ~2V+ W2.* ... ... . .
+( V4 .
+) T-2 + .
+I\Z2 +r analogous to the relation T=2 .
+' d-\~z/ ' ... ... ... ( W- , which served to teansform the law of living force into the partial differential euation ( F. ) ; we shall have , by ( U4 .
+) , T= T , + TI/ aV , aV2 +vi aV = vi _ 2i .
+( X4 )m T--T+ 2+2 ax aA -y ay Tz -J dt. .
+x. and this expression may be further transfor-med by the help of the formula ( C. ) , or by the law of varying action .
+For that law gives the following symbolic equation , ~iequation ( F. ) , y yC , ( y. ) the symbols in both members being prefixed sto any one function of the varying coorhave that property , and may be expressed by the definite -2e inte ( 4 .
+) expression U generally , ifas we employmay , that the principles of the seventh nber , and introduce have that property , and may be expressed by the definite integ2ral , ( whether they be the rectangular coordinates themselves , or any funotions of them , we shall have T=F( , ( v , + ) , ... ... ... ... ( C5 .
+) d my ehay te to fgeo d , .
+and may establish by analogy the two following equations of definition , 294 = F( 8V , 8V1 SVI l1 16 1S^ , * S ?
+3 .
+TF V,2 V,2 ... 2 , ( 'v2 a n2 a nv 2 ^-*^SS^'* , ... Jl IJ the function F being always rational and integer , and homogeneous dimension ; and being therefore such that ( besides other properties ) 8T 8T 8V1,._.8V ?
++ an a T2 a n3 V_ aT T1 av+_ 1p ^l 8+ 1 and 6 T2 V2 a8 T 8Va 81a aT2 a V ' a ' aT2 aV2 +2 +2 6W21 aT ... .
+a8 8n. .
+( D5 .
+) of the second ... ( E5 .
+) aT1 sa T2 an3 a1 v'2 , %-V ?
++ b % , .
+88%n srg .
+( F5 .
+) ( G5 .
+) aT 2 Ta V2 ' aVs 2* * =f(T-T)d ... ... ... ... ( K5 .
+) though this is not , like ( B5 .
+) , a perfectly rigorous expression for the remaining part of the function .
+And in calculating this integral ( K5 , ) , for the improvement of an approximation V1 , we may employ the following analogous approximations to the rigorous formulae ( D. ) and ( E. ) , 6V , 6V , 8Vi , V , , ai .
+= ml a ; .a = -I m2a'. .
+I= --m are ; alV , , 8V 8V b= ; b -m b2 ; ab=n b ; ( 5 .
+8V 1 6V , 8 , V~ 2 2n cC= ml c ; a =b m22 ; ... -n m c ; J and .
+M t ; ... ... .
+5 ... M5 .
+) or with any other marks of final and initial position , ( instead of rectangtular coordinates , ) the following approximate forms of the rigorous equations ( S. ) , sVI , _ ro aV , To _ To T v-0 ___ ( N5 .
+) a elea e2 6 eP2'1 aee3n ae'.n together with the formula ( M5 .
+) ; by which new formulae the manner of motion of the system is approximately though not rigorously expressed .
+It is easy to extend these remarks to problems of relative motion , and to show that in such problems we have the rigorous transformation V,2 =- ' ( T , T + T ) d t , ... ... ... ( 05 .
+) and the approximate expression V12 =J ( T , -T,1 ) d t , ... ... ... ... ( P. ) V , a being any approximate value of the function V , of relative motion , and V , being the correction of this value ; and T,1 , T,2 , being homogeneous functions of the second dimension , composed of the partial differential coefficients of these two parts V , , V12 , in the same way as T , is composed of the coefficients of the whole function V , .
+These general remarks may usefully be illustrated by a particular but extensive application .
+Application of theforegoing method to the case of a Ternary or Multiple System , with any laws of attraction or repulsion , and with one predominant mass .
+20 .
+The value ( 68 .
+) , for the relative living force 2 T , of a system , reduces itself successively to the following parts , 2 T/ 1 ) , 2 T(2 ) , ... 2 T/ ( -l ) , when we suppose that 296 all the n1 first masses vanish , with the exception of each successively ; namely , to the part 2 T , ( ) m , mn ( 't12 +2+ '12 ) ... ... . .
+( 132 .
+) when only ml , m. , do not vanish ; the part 2T , / 2 = ma2m .
+( ,22 + 22 + m22 ) , ... .
+' ( 133 .
+) m2 +m , when all but m2 , m , , vanish ; and so on , as far as the part 2 T(n-1 ) n ( 12 ++2 ) , ... ( 134 .
+) M +m n_X +2 n-i n which remains , when only the two last masses are retained .
+The sum of these n1 parts is not , in general , equal to the whole relative living force 2 T , of the system , with all the n masses retained ; but it differs little from that whole when the first ni masses are small in comparison with the last mass Mn ; for the rigorous value of this difference is , by ( 68 .
+) , and by ( 132 .
+) ( 133 .
+) ( 134 .
+) , 2T2 TJ ' 2 T , ( -. .
+2T ( 2 , ( T(1 T ) +2 ( T , ' ) T , ).+ - ... ( T , ( T ) , .
+( 135 .
+) mn T , mn ( r I Mn ?
++ .
+m , mk { ( 'k)2 +( ik)2 + ( &lt; 'i t , )2 } an expiression which is small of the second order when the n1 first masses are small of the first order .
+If , then , we denote by V , ( 2 ) , ... V , ( -1 ' ) , the relative actions , or accumulated relative living forces , such as they would be in the n1 binary systems , ( m m , m ) , ( m2 n , ) , ... ( m , n m , ) , without the perturbations of the other small masses of the entire multiple system of n points ; so that V , f2 T ; ( ) dt v , ( 2 =vt 2 T , ) dt , ... V , ( ) = t2 T1 dt , ( Q5 .
+) the perturbations being neglected in calculating these n1 definite integrals ; we shall have , as an approximate value for the whole relative action V , of the system , the sum V,1 of its values for these separate binary systems , V V(l )+ V( ) + ... + ... .
+( R. ) This sum , by our theory of binary systems , may be otherwise expressed as follows : V -(n s( )r mnf1 rn_l mn rWn VIl f ) m ... .wo.r .
+a ml m n+ mn ms q ' inn * ' n-1 +n ' if we put for abridgement 297 w()=(I &amp; ( )+ &gt; ( I^'(l ( 1 =h ( ) +1 ( 2 ) d r , ... ( T , .
+) ( n-1 ) ( n= -1 ) -+ ) ^-1 ) dr(n ) Jwh + ) In this expression , rW =)= ?
+\f2(mI + mj1 , f + 2g ( 1 ) | , rn ) -1 2 ( n-n f+ imn)f g ) +2h ~_ i r('),. .
+, being abridged expressions for the distances r( ' ) , .
+r(l ) , and ( 1 ) , .
+nf(n-l ) , being abridgements for the functions ( ' ),. .
+/ f( - ' ) , of these distances , of which the derivatives , according as they are negative or positive , express the laws of attraction or repulsion : we have also introduced 2n2 auxiliary quantities h(l ) g( ) ... h('-1 ) g(n-l ) to be eliminated or determined by the following equations of condition : o=S Jo( ' ) ?
+7 h(l ) dr , 0=:n(2 ) +y:(2 ) r , ( 2 ) o=^ ' ' ' +j'b ^^dr ^** ( v5 .
+) ( n , .
+, ,n-1 ) r1(--l ) o( , ) ah( ) d and J(1 ) 7rt ) )r 2 ) r(2 ) * *J n. ( W ) 01t 8 w0( " ) 8 ( 2 ) 6 K(n1 ) .
+g(T ) g(2).*. .
+respectively with the initial distances corresponding , namely , r( , ... r 1T ) .
+The variation of the sum V , is , by ( S5 .
+) , ml mn a w(l ) m m. W(8 ) m.- , mm 5 ?
+-1 ) Ma m+m '++ m , _+ + m. .
+( n ) in which , by the equations of condition , we may treat all the auxiliary quantities h(l ) g( ' ) ... h( ) g((-l ) as constant , if H , be considered as given : so that the part of this variation S V,1 , which depends on the variations of the final relative coordinates , may be put under the form , -I mlm ( nw(l)w _ m,1+mn / 82( + i.^ tZ , , , ,vl = m'+mi ( 1 ta + ~aU ?
+7 71 + ^ .
+( K.)1 M2 3 ?
+n n ( 2 ) ^+ t(2 ) + , t &gt; ( 2 ) + M2mnt 7 2+ tt2+ -8 2 t.2 " ( A6 .
+) +. .
+mn-1r_ / + Tn-1 ) W+V(n(+1 ) _ 8t)( ?
+-1)\ ++( n+-1 ( ; n_l.l)-1 )+ -Jn By the equations ( T5 .
+) ( U5 .
+) , or by the theory of binary systems , we have , rigorously , ,(pw1 ) , ,l , ( ) 2( )+ ( 1 ) ) +2 ( mn + Mn)f '+2 ( ) ; ( / 8(2)2 / 8 ?
+( ( 2)\2 / W2 ) 2 ( ( 2 ) + ( 2 ) w{ , ) +)+ 8Y 2= ( m2 + Mn- ) f2 g , ( B6 a E ?
+-\~l ( n-1^ , / ( w^-^Y / w^-13 ^_ ) 2 ?
+_I ) , ( I-w )+ ( _-~ ) +2 &lt; =2 ( mn-l + mn ) f -)+ g ; and the rigorous law of relative living force for the whole multiple system , is T , =-U + H ... ... ... ( 50 .
+) in which U= m , ( mlf ) + m2f2 ) + ... + m , _ f-ln 1 ) ) +,.mi Mt'(i'k ) ( C6 .
+) and Iz 1I 1 a , V , I 2 a6 VI 2a+ +T , = n ( +)(li)+ Q2(+2+ t)2()2 Im , I IE , W av+ tefo , ?
+)c+ th We have therefore , by changing in this last expression the coefficients of the characteristic function V , to those of its first part Vl , I and by attending to the foregoing equations , Ta --na * , .
+mif( H , +m .
+im ( m_(i ) e* &gt; w )+swa ( k)\ mn+ mif ?
+l. +Mk i ak ojk ^ and consequently +m(m +2 m_ )W(i ) a ( k ) a ( i ) 6a(k ) azW(i ) ) } ( k ( F6 ) T , -T-= ^^ J ( mn + ^ ?
++min ( MS + mk ) I The general transformation of the foregoing number gives therefore , rigorously , for the remaining part V,2 of the characteristic function V , of relative motion of the multiple system , the equation r/ awe ( i ) s(k ) W(i ) 8 ( k ) a ( i ) w(k)6 V,2 t T,2 dt + +,.mm 7 f(i k ) -Md 6id t ; ( G6 .
+) ' 0i ?
+-(mn +m ) mn+ -n ) n and , approximately , the expression V2 =~ , .
+m kI ml{ V+ i+ , t7 + 'c ' ) } dt ... ( H6 .
+) with which last expression we may combine the following approximate formulae belonging in rigour to binary systems only , a ^(I ) =a8 ( i ) .
+( i)= ( ')ai(-).^= .
+* * .
+or thus : W -(r(l2)/ ?8-f(1 ) sf - .
+( ( 1 ) 4 f( ) if w ot f +S2-87+2 dt-+^ s^1 / sto ) , zt(l)( , )6 twO(l ) , So(^ , .
+8( ) m3 @2 + -s ++21+ f-32 1+ 72 y ) , or finally , w= ?
+a(/ ' +2 + , ) -a +2 1xa / t 8W(2 ) ( 2 ) ( 2 ) f(2)\ ( 2 ) t( ( -m3~ 2++ 2G + 81 +8+ 1..+ ++ In general , for a multiple system , we may put V,2.= mi mk ; W ... ( W. ) and approximately , W(ik ) =Tf ( f(ik ) +fi sf(i ) f(i)dt m ( k 1'T ki k+ 8 .
++ TMk + Pk ai +k 8Yi or W(i'k ) f/ kt ( .
+( i , k ) + Ji + k , J)+ - ) kti( tW(k ) " ( k ) s o(k ) , ( k ) ? ?
+7(k ) 1 ) ( T. m ( / 8k 8+ , s yan + +i 8M+i ak3 8)3 Rigorous transition from the theory of Binary to that of Multiple Systems , by means of the disturbing part of the whole Characteristic Function ; and approximate expressionsfor the perturbations .
+21 .
+The three equations ( K6 .
+) when the auxiliary constant g(i ) is eliminated by the formula ( L6 .
+) , are rigorously ( by our theory ) the three final integrals of the three known equations of the second order ( M6 .
+) , for the relative motion of the binary system ( mi m ) ; and give , for such a system , the three varying relative coordinates i zi ^ , as functions of their initial values and initial rates of increase -i Pi y. a'i .
+' .
+ry and of the time t. In like manner the three equations ( I6 .
+) , when g(i ) is eliminated by ( L6 .
+) , are rigorously the three intermediate integrals of the same known differential equations of motion of the same binary system .
+These integrals , however , cease to be rigorous when we introduce the perturbations of the relative motion of this partial or binary system ( m mn ) , arising from the attractions or repulsions of the other points mk , of the whole proposed multiple system ; but they may be corrected and rendered rigorous by employing the remaining part V,2 of the whole characteristic function of relative motion V , , along with the principal part or approximate value V , .
+The equations ( XI .
+) ( Y ' .
+) of the twelfth number , give rigorously i v , i 8 avi aVi V IVa V L , a ) + , _ -- , n~ __ 'L _ , 'I+ ; e ( v6 .
+) ma otJi 1n a^ 8a np iMIn yi and therefore , by ( A6 .
+) , 6y ~e8 1 ~Va 1va V/ ' ~w(i ) lma ~wM 1a V_a Va ( W6 T^"%^t^+^ 8 , a = , 8+ n , ex and similarly ~a(i)c mk Bt(k ) 1 av 1 VI a ~~ iajZ mk +ma 8k +1 mk 8i +i8a i^-^^sZt &gt; ^mk 6L tla~(k ) f 6V , f6 V , ( rx^i.k 8 , ( i ) m 8( ) 8V 8V -i 11 ' r+ m= 8^ 8-yi 8y the sign of summation E2 , referring only to the disturbing inasses mk , to the exclusion of mi and mnt ; and these equations ( W6 .
+) ( X6 .
+) are the rigorous formulae , corresponding to the approximate relations ( 16 .
+) ( K6 .
+) .
+In likle manner , the formula ( L6 .
+) for the time of motion in a binary system , which is only an approximation when the system is considered as multple , may be rigorously corrected for perturbation by adding to it an analogous term deduced from the disturbing part V,2 of the whole characteristic ftnction ; that is , by changing it to the following : t ( i ) + * , *. .
+* ** = -Pi ( 1i tYi , 'v i , 13 0a ) 0 ) '7 P2 ( i ) , ( 3dP rV il , ( , r'D thj .
+=P3(aiO , il , ,Yi &gt; , ,a'il Pl i , t ) ; we shall know that the following relations are rigorously and identically true , &amp; 6 { 4 a( 8 r( ?
+t( )a W( 0 ) a(1 i , i , , pi 2a api*Y_ SQ / &gt; at(i ) W(i ) S(it ) ( i ) ti = i.38 i8i E ) a8g ( i ) ( A7 .
+) ( B7 .
+) and consequently that these relations will still be rigorously true when we substitute for the four coefficients of w(i ) their rigorous values ( X. ) and ( Z6 .
+) for the case of a multiple system .
+We may thus retain in rigour for any multiple system the final integrals ( A7 .
+) of the motion of a binary system , if only we add to the initial components ?
+( 3 ' , r ' of relative velocity , and to the time t the following perturbational terms : A p~ mMk a w ?
+( k ) ^Vi 32k~ m3nn sPEe iS -Ac g ' mk +Na ( 1 co8I av ?
+AM1 , kt ia 8(k )v8 ( kV 2 II.fi + i+ 8r + , n82i M1k + Mn / In in i and IJ ( C7 .
+) ( D7 .
+) ... ... ... ... .
+In the same way , if the theory of binary systems , or the elimination of g( ' ) between the four equations ( 16 .
+) ( L6 .
+) , has given three intermediate integrals , of the form = 4 , ( , , .
+, a. , ) .
+, , , t ) , ) wle can conclude that the following equations are rigorous and identical , *Si = 41 , , ^ a , o , , fi , VP i ) 2B2 2~~32~ ( F. ) 303 and must therefore be still true , when , in passing to a multiple system , we change the coefficients of w( ) to their rigorous values ( W6 .
+) -(Z6 .
+) .
+The three intermediate integrals ( E7 .
+) of the motion of a binary system may therefore be adapted rigorously to the case of a multiple system , by first adding to the time t the perturbational term ( D7 .
+) , and afterwards adding to the resulting values of the final components of relative velocity the terms Mk a w(lC ) 1 , a V1 a___ I ' mk+mn 4c mi i m , 18 mk awe ( k ) 1i V12 +a2 Vl2 Ai J'mk + mnn 8km 8i ain 8i I ( G7 .
+) mk 8$(k ) +1 Iv + VI2 ix ' , : m n , , .
+%j +mi +a ; mI + .
+22 .
+To derive now , from these rigorous results , some useful approximate expressions , we shall neglect , in the peirturbations , the terms which are of the second orlder , with respect to the small masses of the system , and with respect to the constant 2 H , of relative living force , which is easily seen to be small of the same order as the masses : and then the perturbations of the coordinates , deduced by the method that has been explained , become A z= Aa ( .
+a 4A i+ !
+' i 1+^t t , A yi = a-i d'i , + 3-r-a [ 3'+i + ---A Y'i tA t , l 8i ++7 ti it in which we may employ , instead of the rigorous values ( C7 .
+) for following approximate values : t , , S ~ , f(k ) 1 '\7 A siai =T oa + mi ai Mn 6 Ak ii a aj II m , + Mni 6p .
+A pt ' mk W(k ) 1_ Vl2 Ayi =-mi +m V( r mn $Tm k mi ayi ' , ... .
+( H7 .
+) A ci , A PI , A y'i , the ... . .
+( Fe .
+) To calculate the four coefficients a V,2 a Vi2 a VI12 a 12 ~-i ' s/ 3 , 7i ' H~ ' which enter into the values ( 17 .
+) ( D7 .
+) , we may consider V,2 , by ( R6 .
+) ( T6 .
+) , and by the theory of binary systems , as a function of the initial and final relative coordinates , and initial components of relative velocities , involving also expressly the time t , and the 304..O n 2 auxiliary quantities of the form g(k ) ; and then we are to consider those initial components and auxiliary quantities and the time , as depending themselves on the initial and final coordinates , and on H , .
+But it is not difficult to prove , by the foregoing principles , that when t and g(k ) are thus considered , their variations are , in the present order of approximation , ; j. in s\-g/ g+ 8 H , gt= - .
+t( 2 ) 1**** * ... ( K7 .
+) and ( k)w ) _I tag ) ]). .
+' ( L( .
+) the sign of variation , referring only to the initial and final coordinates ; and also that 2 ( i ) a 82 wg(i ) ajz2 w(i ) Fi , y ag(i ) i. .
+_ .
+_ ( M7 .
+" g(i ) , at a_aisg(i ) ali Pi sg(i ) aPi ' yia g(i)8 'i along with two other analogous relations between the coefficients of the two other coordinates ni ) , ( ) ; from which it follows that t and g( ) , and therefore 'cck ky k , may be treated as constant , in taking the variation of the disturbing part V,2 , for the purpose of calculating the perturbations ( H7 .
+) : and that the terms involving At are destroyed by other terms .
+We may therefore put simply i qS -j i+i A , A &amp; i = A It may also be easily shown , that 84 82 .
+8t Bor 8 .
+808^ 84 8 &lt; 8C 8i i8 pi i8fi^ 8 ( Q. ) with other analogous equations : the perturbation of the coordinate 6 may therefore be thus expressed , af 8taR ( it k ) 8t ai , R R(i .
+, ) k Ae , y^ R(k " ) af 8 R(i , k ) l A=-----$Jfr -r dt / 'bs pgR(kt ) t8R( ) o t , ?
+0 7~~~ i0i~CF ... ... .
+( R7 .
+) and the perturbations of the two other coordinates may be expressed in an analogous manner .
+It results from the same principles , that in taking the first differentials of these perturbatons ( R7 .
+) , the integrals may be treated as constant ; and therefore that we may either represent the change of place of the disturbed point mi , in its relative orbit about m , , by altering a little the initial components of velocity without altering the initial position , and then employing the rules of binary systems ; or calculate at once the perturbations of place and of velocity , by employing the same rules , and altering at once the initial position and initial velocity .
+If we adopt the former of these two methods , we are to employ the expressions ( 07 .
+) , which may be thus summed up , A ^=2 , ,m ^--4/ R('")d , A1 -=i- .
+dR( )dt ; A^ V Mk , v , 0000000* ~~~(8 ' .
+) and if we adopt the latter method , we are to make , .
+R(id A ~R(i k ) 1 oA &lt; = , ,mo k dt , dA=,.m -dt , 8 Ri , k ) , R ( Ji , k ) A= E,1 .
+dt ?
+a 7 de , A r3 =- , 2 .
+mk fd dt , k. 8td tn A ri-^ mX / t 8R( ' ) , k , ( ?
+17 .
+) The latter was the method of LAGRANGE : the former is suggested more immediaely by the principles of the present essay .
+306 General introduction of the Time , into the expression of the Characteristic Function in any dynamical problem .
+23 .
+Before we conclude this sketch of our general method in dynamics , it will be proper to notice briefly a transformation of the characteristic function , which may be used in all applications .
+This transformation consists in putting , generally , V=t H+ S , ... ... ... ... ... ... .
+( U7 .
+) and considering the part S , namely , the definite integral S =t ( T +U ) dt , ... ... ... ... ... ..(V7 .
+) as a function of the initial and final coordinates and of the time , of which the variation is , by our law of varying action , S= dt+ 1.m'(x'x-aa + y ' yb'b + z ' z c ' ; c). .
+( W7 .
+) The partial differential coefficients of the first order of this auxiliary function S , are hence , eS S =--H ; ... ... ... ... ... ... .
+( XI .
+) 8 , as -mi y i , Bzi = mi , za ... ... a ( y7 .
+) and 6S_ , $I 6S as as as(Z aa_ Pm , a ~ , ab = c.-m , i , , ?
+= , c ... ... ... These last expressions ( Z7 .
+) , are forms for the final integrals of motion of any system , corresponding to the result of elimination of H between the equations ( D. ) and ( E. ) ; and the expressions ( Y7 .
+) are forms for the intermediate integrals , more convenient in many respects than the forms already employed .
+24 .
+The limits of the present essay do not permit us here to develope the consequences of these new expressions .
+We can only observe , that the auxiliary function S must satisfy the two following equations , in partial differentials of the first order , analogous to , and deduced from , the equations ( F. ) and ( G. ) : as Ca i s\ 2/ s\2 / s\ , -1.4 ++U ( A8s.+( ... ( ) and aS I f/ sS\2 aS\2 a/ s\2 6+G 2m $ Eaa + b)+ q } 3 ?
+* .
+: ( Bs .
+) and that to correct an approximate value SI of S , in the integration of these equations , or to find the remaining part S. , if S=S S , , ... ... s ... .
+( C , ) we may employ the symbolic equation 307 d -8 I1 S a8 S a8 S a^ dt--=t +-- ; ... ... ... ( Ds .
+) dt t m\x xyy az } which gives , rigorously , -dSU ~+X u ' +ky ) +kz ) S ... . .
+( E8 .
+) if we establish by analogy the definition U , =-+ .
+- ; { ( ; ) +( ) + ( ... . .
+( Fs .
+) a-st I ax + ay ( as ) and therefore approximately S2 , =(u-U)t , ... ... ... ... . .
+, .
+( G. ) the parts S1 S2 being chosen so as to vanish with the time .
+These remarks may all be extended easily , so as to embrace relative and polar coordinates , and other marks of position , and offer a new and better way of investigating the orbits and perturbations of a system , by a new and better form of the function and method of this Essay .
+March 29 , 1834 .
+308
+

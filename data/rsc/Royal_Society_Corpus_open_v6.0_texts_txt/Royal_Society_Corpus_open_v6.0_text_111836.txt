@@ -1,0 +1,116 @@
+" Report of a Committee appointed by the Council to examine the Calculating Machine of M. SCHEUTZ .
+" Inserted for the information of the Fellows by order of the President and Council* .
+The various applications of mathematics to physical questions , or to the transactions of common life , continually require the computation of numerical results .
+At one time isolated results have to be calculated from particular formulae ; at another it is required to calculate a series of values of the same analytical formula ; in other words , to tabulate a function .
+It is only in the latter case that different instances have so much in common as to permit of the application of general methods irrespective of the particular function to be calculated .
+But even in the tabulating of functions one or other of two objects may be kept in view .
+At one time a result may be arrived at expressed in a complicated , perhaps transcendental , formula , and the mathematician may desire to know merely the general progress of the function .
+In such a case it will be sufficient to calculate values at rather wide intervals , and the mode of calculation must depend upon the peculiar function .
+But at other times functions present themselves which are of such common occurrence , or of such practical importance , that it is desirable to tabulate them for values of the variable increasing by small steps .
+In these cases general methods of interpolation come into use : it is sufficient to perform the calculations directly for comparatively wide intervals of the variable , and the intervening values of the function can be supplied by the mere addition of differences .
+It is well known that Mr. Babbage was the first person who conceived the idea of performing all these systems of additions mechanically , and thereby saving both the mental labour and the risk of error attending their calculation in the ordinary way .
+This idea was actually carried out , and resulted in the invention of his Difference Engine .
+The engine , so far as it has yet been executed , was constructed at the public expense , and is now deposited in the Museum of King 's College , London .
+The part constructed contains 19 digits and 3 orders of differences ; and as all the essential movements are comprised in this part , a more extended engine would consist merely of the same memlers oftener repeated , and would not involve any additional difficulty of construction .
+It was part of Mr. Babbage 's original design that machinery for printing off the results calculated should be included in his engine , and some of the mechanism for this purpose was actually executed .
+The portion placed in King 's College contains machinery for calculating only .
+It does not fall within the province of this report to do more than mention the Analytical Engine subsequently invented by Mr. Babbage , as the machine of M. Scheutz is a Difference Engine , and nothing more .
+A full account of the principles and action of Mr. Babbage 's Difference Engine , but without any details of its mechanism , was published in the ' Edinburgh Review ' for April to July , 1834 .
+It was , as we are informed , the perusal of this paper which induced M. Scheutz to set about the invention of modes of mechanically executing the necessary changes .
+The result was the completion of the present engine , which has now for some time been in the apartments of the Royal Society .
+In this machine M. Scheutz has followed the general ideas of Mr. Babbage in the distribution of digits and differences , and in particular in throwing back the differences at every alternate order one stage , from whence results the possibility of acting simultaneously on all the odd and on all the even differences , and thereby making the machine advance one stage by two addition-motions only ; whereas otherwise as many separate addition-motions would have been necessary as there were orders of differences retained .
+But the mechanism by which the additions and carriages are effected in the machine of M. Scheutz is different from that of Mr. Babbage .
+The engine is also provided with mechanism for printing , or rather for furnishing stereotype plates of the calculated results .
+As M. Scheutz has taken out a patent for his engine , it will be unnecessary to give a detailed description of the machinery , which may be obtained in the specification , a copy of which has been presented to the Royal Society .
+It will be sufficient to give an idea of its general construction and extent with a view of estimating its powers .
+The machine takes in the function to be tabulated and the first four orders of differences , each to fifteen digits .
+Of these only the first eight ( in the case of the function itself ) are printed , the others being reserved to guard against errors arising from decimal places left out .
+The places of the digits are represented by fifteen vertical spindles , around which , but not usually connected with which , are placed horizontal wheels in five separate tiers .
+Each wheel has its circumference divided into ten equal parts , and is marked with the digits 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 .
+In the normal state of the machine the numbers on the wheels of the highest tier represent the function ( u ) to be tabulated , and those on the tiers below represent respectively Au _1 , A2u_ , , A3u_2 , and A4U2__ In each case the digits by which these numbers are represented run from left to right , as in pri n't .
+The mechanism is such , that by turning a handle continuously in one direction an indefinite succession of movements is produced which are alternately backwards and forwards .
+The effect of the forward motion is , that the numbers on the third and the fifth tiers ( or as they may conveniently be called the A2 and A4 tiers ) add themselves respectively to those on the tiers above , altering thereby the positions of the wheels of the A1 and A3 tiers , while the wheels of the A2 and A4 tiers remain at rest ; and the backward motion does for the A ' and A3 tiers what the forward motion does for the A2 and A4 tiers .
+Thus the numbers on the several tiers will be as follows : At first ... ... ... ... .
+u^ Au_ , _1 A2u I A3U -2 A a-2 ; After the forward motion ... u Au , A2^_i A3u_-1 A4u X2 ; After the complete motion. .
+u , +1 Au , A2Ux A3U.TA43tg-1 A4'ul_ , in the last term being written instead of A4U_2 , which is allowable , since the fourth differences are supposed to be constant .
+Hence the effect of the complete motion , consisting of one forward and one backward motion , is to make all the numbers advance one stage ; and therefore by continuing to turn the handle the numbers U , + , Ux+2 ?
+, u+3 &amp;c. , will be calculated in succession .
+According as these numbers are calculated they are impressed , by the action of the machine itself , on a plate of lead , by means of steel punches , while a numerator at the same time impresses beside them the values of the argument ; x. These plates are afterwards taken out , and stamped on an easily fusible alloy just on the point of solidifying , and thus are obtained stereotype plates of the calculated results , fit for printing from .
+In retaining a given number of decimals , it is usual to add one to the last figure if the first digit left out be 5 or a higher number .
+This is effected in the machine in the simplest possible manner , namely by placing the cog which occasions the carriages from the ninth to the eighth place in the highest tier in such a position that the carriage takes place when the ninth wheel changes from 4 to 5 , instead of from 9 to 0 .
+The principle of the machine is not of course dependent upon the circumstance that the radix of the scale of notation commonly employed has the particular value 10 ; and it would be as easy to construct a machine adapted to the senary or duodenary as to the denary scale .
+Not only so , but the machine actually constructed admits of being changed very readily from the denary to the senary scale , or rather to a mixture of the denary and senary scales , which is required in tabulating degrees , minutes , and seconds .
+For this purpose it is sufficient to take off the ordinary figure-wheels from those spindles which are to count by sixes , and put on spare wheels which are provided , adapted to the senary scale .
+The machine works with the greatest freedom and smoothness .
+The parts move with the utmost facility , in fact , quite loosely .
+On this account no amount of dust which it would reasonably be expected to receive in any moderate time seems likely to interfere with its action .
+Besides , it can easily be taken to pieces and examined , if need be .
+Those motions which are not the direct consequences of the revolution of the handle acting through a train of rigid bodies are performed in consequence of gravity , no springs being employed in the whole construction except two , the office of which is quite subordinate .
+When the parts are moved , they remain in their new places either from their weight or from friction , there being nothing to disturb them .
+This circumstance , which renders a wilful derangement of the machine exceedingly easy , permits of great simplicity and consequent cheapness of construction ; nor does the machine seem likely to get out of order if reasonable care be taken of it .
+T'he machine is competent to tabulate to any ; extent a function whose fourth differences are constant , so long as the expression of the numerical value of the function does not involve more than eight digits .
+The most general form of such a function is of course t+br+c +dx3 ... ... .
+( 1 ) Were the machine restricted to such functions , its use would be limited indeed ; its utility must of course depend on its being applicable to functions in general , which , except in singular cases , may be expressed within a limited range of values of the variable x by a function of the above form .
+To estimate the capacities of the machine , or rather of a difference engine in general , whatever may be its particular construction , it will be necessary to investigate how soon the quantities neglected begin to tell in the result .
+Now these quantities are of two kinds ; first , the fifth and higher differences ; secondly , the decimals of the fifteenth place .
+The effect of these may be examined separately .
+We may always suppose the first spindle to represent the first place of decimals , since it will only be necessary to multiply or divide by some power of 10 should that not be the case .
+Suppose the machine set for u , , and its first four differences ( or to speak more exactly , the differences AuX_1 , A2u , _ , Asu A4/ u_2 ) , and worked n periods , so as to give what ought to be u+ , , , We have v +-u+ n AizX+ n ' * n-a + ( 2 ) ; n nIn ? ? ?
+?=U+ ... + 1 + .
+&amp; U ... ( 2 ) ; and since the machine would give + , ,+ exactly if the fourth differences were constant , the error ( E ) will be n.n-l.n--2.n-3.n-4 n.n-1.n--2.n-3.n--4.n-5 T1 .
+2.3.4.5 aut i-1.2.3.4.5.6 The first term in this expression will usually be the most important ; and for practical purposes the expression may be still further simplified .
+If n be tolerably large , the product n.n.n-2 .
+n-3 .
+n-4 may be replaced without material error by the fifth power of the arithmetic mean of the factors , or by ( n-2)5 .
+Again , if y be the variable of which u is a function , x being merely the numeral marking the number of increments of y , each equal to k , we shall have near enough 5A --k5 d5u so that E J-(n_2)ik5 du 120 2)7 In expressing a number to eight decimal places , we are always liable to an error which may amount to 5 in the ninth place , Hence 10-9x5 may be regarded as the greatest allowable error , though in truth the error should not be allowed to amount to this , if we wish to have the last figure true to the nearest decimal .
+Equating then E to 10-9 x 5 , we find / 0000006\ 1 i=2 +d 2j ; eaa ( 3 ) which gives the greatest number n of times the machine may be worked without stopping and fresh setting , so far as the limitation depends on the cause of error now under consideration .
+The increment of y during the action of the machine , which is equal to nk , or to ( n--2)k nearly , n being large compared with 2 , is therefore nearly independent of the closeness or wideness of the intervals for which the value of the function is required , a given range , so to speak , of the function being taken in .
+Hence , so far as this cause of limitation is concerned , the utility of the machine will be proportional to the closeness of the intervals for which it is desired to tabulate the function .
+Let u ?
+now consider the effect of the decimals omitted , retaining A3u_ A4a^_d 412 t , and not A t , , tsu , Ah , ihA4 ' that are given correctly ; but the inaccuracy thus arising in the estimation of the error committed by leaving out the fifth , &amp;c. diffecrenecs will plainly be insignificant .
+only four orders of differences , since the effect of omitting the fifth and higher orders has been already investigated .
+Let E1 , E2 , E3 , E4 be the errors left in the first , second , third , and fourth differences in setting the machine .
+Then in the same manner as before these may without sensible error be regarded as the errors in Au , , A9u , A3S , , A4U , , although they are really the errors in Au , _ , &amp;c. , and we shall have for the error ( E ) in uZ+n En+ n-1 , n. nn-2 , --n.n.n--2.n-3 = -E : oTE ___ _Z E3+E 4 -1 1- .
+1.2 2 1.2.3 1.2.3 .
+4 or , replacing the products as before , E=^nE 3+ ( n-E2+ ( n-lE , +4 ( --)4E. .
+( 4 ) If each of the quantities E1 , E2 , E3 , E4 be liable to be as great as 10~6x 5 , the last term in this expression will be the most important if n be considerably greater than 4 .
+Equating this term to 10-9 x 5 , the greatest allowable error in E , we find n= ( 24 x 10- ) n= 126 nearly , so that the machine may be worked about 100 times without fresh setting .
+In practice the limitation may be even less than this ; for it may happen that A4u , is smaller , perhaps much smaller , than 10-16 x 5 , in which case the limitation will depend upon the absolute value of A4u or the possible value 10-16 x5 of E3 , as the case may be .
+Should the restriction arise from the latter cause , we get by equating the third term in the second member of ( 4 ) to 10-9x5 , n-=392 nearly .
+To illustrate these limitations by an example , suppose that it was required to make a table of sines to every minute .
+In this case we have u=siny , k= 7r 0002909 , cd5u os 180 x d60 Putting for this last differential coefficient its greatest value unity , and substituting in ( 3 ) , we get n=196 nearly .
+The fourth difference is very nearly equal to --kc sin y , which may contain figures in the fifteenth place , so that n =-126 is about the greatest allowable value of n in consequence of the restriction arising from decimals lef , out , which in this example is what limits the working .
+Should the intervals be a good deal wider than 1 ' , as 5 ' , it would then be the omission of fifth differences that would impose the limit , for the greatest allowable range on this account would be nearly the same as before , or about 3 ?
+, which would contain only thirty-six values to be calculated .
+Should it happen that both causes of error were about equally restrictive , it must be remembered that the corresponding errors in u would be comparable with one another , and might be added together ; and in this case it may easily be shown that 126 x 2-4 , or 106 nearly , is somewhat inferior to the greatest allowable value of n. Should eight figures not be required to be retained , but seven , six , or five be sufficient , the last one , two , or three of the first eight spindles might be used for calculating instead of printing ; and since the greatest allowable value of n , so far as depends on omission of decimals , varies nearly as the fourth root of the greatest allowable error in z , that value would be increased in the ratio of 1 to the fourth root of 10 , or 100 , or 1000 , and from 126 would become 224 , or 398 , or 708 .
+The greatest allowable value of n as regards the omission of fifth differences would increase in a somewhat slower ratio , since it varies nearly as the fifth root of the greatest allowable error in u. If , for example , it were 196 , it would become 311 , or 492 , or 780 .
+The above is a fair specimen of the application of the machine .
+The particular function chosen is , it is true , a familiar one , which has been long since tabulated , but it is not the worse fitted for an example on that account .
+It may be seen at once how much mental labour and risk of error is saved by the use of such a machine , when tables have to be calculated to close intervals .
+The whole exertion of mind is confined to calculating the function and its differences at wide intervals , say for every 100th or 60th number to be tabulated , and setting the machine .
+Even this exertion ( except so far as relates to the setting , which is easy , ) might be reduced to one half , if desired , by setting the machine to calculate backwards as well as forwards .
+In order to give in succession the numbers u , , U+1 , 2 ... the machine has to be set to ux Aux-1 ZAx -^ u-2 A4-2 , or to %u AD-lu~ .
+A2D-'ul , AsD--2yu A4D-2D , D denoting as usual the operation 1 -A .
+In order to give in succession the numbers u , ux_1 , u_2 , ... the machine would simply have to be set to u A'D-lu , A'D'-'u , 'D'-2 AU DA4D-2 , if D'u be used to denote u _ , and At to denote D'-1 .
+But D'=D- ' , and AI=D'-1=D--1D-1 D A , so that the required numbers are U , --AZ ADIEU -A3D-1 A4D-2U or u8 -CAux ACzA3ux-1 4u X-2 ' Hence the numbers on the top , A2 , and A4 tiers are the same as for the forward calculation , while those on the A and A3 tiers are the arithmetical complements of the numbers found on those tiers after the machine has made one complete movement in calculating forwards from u , , The printing part , however , is not adapted to such a change : the numbers would be printed off correctly , but in a wrong order ; so that unless some reversing movement were introduced into the printing part , the printed results would only serve to set types from .
+In the example chosen above , and in similar cases , the differences required for setting the machine would be calculated from their mathematical expressions .
+It might , however , be required to tabulate for small intervals a function which had been given by observation for larger ones , or to tabulate a mathematical function of so complicated a form that the differences could not be got directly without great trouble .
+In such a case there would be no difficulty ; the differences for the smaller intervals would first have to be calculated from those for the larger ones by formule in finite differences , and then the setting and working of the machine would proceed as before .
+It must be confessed , however , that except in the case of mathematical tables like those of sines , cosines , logarithms , &amp;c. , it is not ordinarily required to tabulate functions to intervals at all approaching , in closeness , to those in the example selected .
+Hence it is mainly , as it seems to us , in the computation of mathematical tables that the machine of M. Scheutz would come into use .
+The most important of such tables have long since been calculated ; but various others could be suggested which it might be worth while to construct , could it be done with such ease and cheapness as would be afforded by the use of the machine .
+It has been suggested to us too , and we think with good reason , that the machine would be very useful even for the mere reprinting of old tables , because it could calculate and print more quickly than a good compositor could set the types , and that without risk of error .
+G. G. STOKES .
+W. H. MILLER .
+C. WHEATSTONE .
+R. WILLIS .
+P.S. Some time since , I received from Mr. Babbage , to whom I had written for information on one point connected with his machine , a letter , written subsequently to his first answer , in which he said that he had forgotten to mention an addition to his machine which enabled it to calculate a function when the last differences , instead of being constant , were dependent on the functions then under calculation in the other parts of the machine , provided the coefficients of the variable part were small enough to be expressed by a moderate number of digits .
+This was especially designed for the calculation of astronomical tables , where a difficulty occurs in the application of a machine with constant differences , arising from the circumstance that in the case of functions of short period the omitted differences soon become sensible even though the coefficients be but small .
+Mr. Babbage did not then recollect that this contrivance was accessible to the public , but in a subsequent letter he pointed out that such was the case .
+The following is an extract from this letter:"1st .
+The portion at Somerset House contains axes specially prepared for what ( at this instant ) I recollect to have familiarly called ' eating its own tail .
+' " 2nd .
+The drawings contain the modes of governing those axes in the finished engine .
+" These are public property , and open daily to public inspection , which I suppose must be considered as publication .
+On referring to the 9th Bridgewater Treatise , second edition , I find ( p. 34 )
+

@@ -1,0 +1,449 @@
+On the Theory of Probabilities .
+By GEORGE BOOLE , F.R.S. , Professor of Mathematics in Queen 's College , Cork .
+Received June 19 , -Read June 19 , 1862 .
+THIS paper has for its object the investigation of the general analytical conditions of a Method for the solution of Questions in the Theory of Probabilities , which was proposed by me in a work entitled " An Investigation of the Laws of Thought " ( London , Walton and Maberly , 1854 ) .
+The application of this method to particular problems has been illustrated in the work referred to , and yet more fully in a 'Memoir on the Combination of Testimonies and of Judgments ' published in the Transactions of the Royal Society of Edinburgh ( vol. xxi .
+Part 4 ) .
+Some observations , too , on the general character of the solutions to which the method leads , founded upon induction from particular cases , were contained in the original treatise , and the outlines , still in some measure conjectural , of their general theory were given in an Appendix to the Memoir .
+But the complete development of that theory was attended with anlalytical difficulties which I have only lately succeeded in overcoming .
+It involves discussions relating to the properties of a certain functional determinant , and to the possible solutions of a system of algebraic equations of peculiar form-discussions which will , I trust , be thought to possess a value , as contributions to Mathematical Analysis , independent of their present application .
+As concerns the nature of the problems to which the method is applicable , it may be stated that they are such that the numerical elements , both given and sought , are the probabilities of events or states of things the definitions of which , and the connexions of which , are capable of expression by logical propositions .
+There is ground for believing that all questions whatever involving probability are ultimately reducible to this general form .
+This point , however , I do not purpose to discuss here .
+It has been already in some degree considered in the Memoir referred to .
+In order to explain more fully the necessity for the present investigation , it will be requisite to state the fundamental principles upon which the method in question rests .
+There are only two of them which can possibly afford matter for discussion .
+1st .
+The expression in language of the data of a problem in the Theory of Probabilities is to a certain extent arbitrary , because it depends upon the extenlt of meaning of the primary simple terms employed to express the events the conceptions of which .
+it involves .
+But the choice of simple terms is , if we consider it with respect to our absolute power of choice , arbitrary .
+Any complex combination of events can be contemplated as a single whole in thought , and expressed by a single term .
+The invention of new simple terms to express what was before expressed by a combination of terms is a normal phenomenon in the growth of language .
+Now the first principle upon which the method rests is the following : Principle I.-The different forms which a problem may be made to assume by different elections with respect to the simple terms of its expression are mutually equivalent .
+For instance , if the following data were given , The probability of rain isp , The probability of rain with snow is q , the form which the problem would assume in a language in which there was no word for snow , but in which the combination of snow with rain was called sleet , would be The probability of rain is p , The probability of sleet is q , with the added condition , expressed as a logical proposition , that sleet always implies rain .
+And this as a statement of the data would , it is affirmed , be equivalent to the former statement .
+If these were the data of an actual problem , the event of which the probability is sought would require similar translation .
+I desire to guard here against a possible misapprehension .
+I have said that the choice of simple terms , if considered with respect to our power of choice , is arbitrary .
+I do not mean by this to affirm that the actual growth of language is arbitrary .
+We know that it is far otherwise .
+Unity of sensuous impression in the early stages of its growth , unity of thought in the latter , seems to govern the invention and introduction of simple terms .
+It has indeed been said that there is a Xoyoc in the constitution of things of which language in its varied forms is the human reflexion , but never without the inseparable human element of choice and voluntary power .
+It is then affirmed that whatever the grounds of fitness or propriety ( and the existence of such grounds is fully conceded ) may be , which have governed the actual choice of the simple terms of language , those grounds have nothing whatever to do with the calculation of probability .
+This depends upon the information contained in the data , informa tion supposed to be derived from actual experience , or at least to be of such a nature that experience might have furnished it .
+The different forms in which a problem is capable of being expressed , though differing in consequence of the different arbitrary elections which are possible with respect to its simple terms , are not independent of each other .
+They are connected together by the Laws of Thought , and pass one into the other by the processes of the Calculus of Logic , which is an organized expression of those Laws .
+Among these forms there is one which presents exclusive advantages .
+It is that in which those events , however originally expressed , the probabilities of which constitute the data , are assumed as the simple events of the problem , and expressed by logical symbols corresponding to the simple terms of ordinary language ; .
+the event of which the probability is sought being also expressed logically by means of the same symbols .
+The Calculus of Logic enables us to do this , determining at the same time in an explicit form , i. e. in a form capable of expression in ordinary language by definite logical propositions , ; the connexion which exists among all the events in question-a connexion which in the original form of the data was only implied .
+This leads us to the statement of the second Principle of the Method .
+Princzple II.-When the data have been translated into probabilities of events connected by conditions logical in form and explicitly known , the problem may be constructed from a scheme of corresponding ideal events which are free , and of which the probabilities are such that when they ( the ideal events ) are restricted by the same conditions as the events in the data , their calculated probabilities will become the same as the given probabilities of the events in the data .
+To take a material illustration : the problem , in the form to which it is reduced by the Calculus of Logic in accordance with Principle I. , might be represented by the supposition of an urn containing balls distinguished by certain properties , e. g. by colour , as white or not white , by form , as round or not round , by material , as ivory or not ivory , and by the supposition that , while these properties enter into every conceivable combination , all the balls in which certain combinations are found are attached by strings to the sides of the urn , so that only the balls in which the remaining combinations are realized can be drawn .
+Suppose , further , that the probabilities of drawing under the actual conditions a white ball , a round ball , an ivory ball , &amp;c. are given , and the probability of drawing a free ball fully defined with respect to the above elements of distinction is required .
+The principle affirmed is that we must proceed as if the balls were all free , and with probabilities such that the calculated probability of drawing any one of the balls which under the previous supposition are free , would be the same as under that supposition it is given to be .
+Confining ourselves to the above material case , I remark , that the supposed mode of solution represents , 1st , a possible order of things ; 2ndly , an order of things in which lno preference is given to any one combination over any other which falls under the same category , or mode of thought .
+All the procedure of the theory of probabilities is founded upon the mental construction of the problem from some hypothesis , either , 1st , of events known to be independent ; or , 2ndly , of events of the connexion of which we are totally ignorant ; so that , upon the ground of this ignorance , we can again construct a scheme of alternatives all equally probable , and distinguished merely as favouring or not favouring the event of which the probability is sought .
+In doing this we are not at liberty to proceed arbitrarily .
+We are subject , first , to the formal Laws of Thought , which determine the possible conceivable combinations ; secondly , to that principle , more easily conceived than explained , which has been differently expressed as the " c principle of sufficient reason , " the " principle of the equal distribution of knowledge or ignorance* , " and the " principle of order .
+" We do not know that the distribution of properties in the actual urn is the same as it is conceived to be in the ideal urn of free balls , but the hypothesis that it is so , involves an equal distribution of our actual knowledge , and enables us to construct the problem from ultimate hypotheses which reduce it to a calculation of combinations .
+I pass from the particular and material to the general problem .
+In the form to which this is brought by the Calculus of Logic , the probabilities are those of events of which certain combinations are , as a logical consequence of the original definitions of those events , impossible .
+It might , at first sight , appear that this establishes a fundamental difference between this problem and that of the urn , in which certain combinations are prevented from issuing by a material hindrance .
+In the one case the restriction appears as logically necessary , in the other as only actual .
+Upon this I remark , that the data of the problem in its ultimate reduced form might result from the same kind of dependence as in the actual data ; that they , in fact , would thus result if the mind of the observer were capable of contemplating , and were in a position to contemplate , each of the events in this ultimate translated form simply as a whole , and of recording , through an approximately infinite series of observations , what combinations of those wholes come into being , and what do not , in the actual universe .
+What appears as necessary in the translated data would now appear as actual-as a result of observation ; what is impossible would be received as non-existent .
+The question is , then , whether the difference between the conception of what is impossible from involving a logical contradiction , and the conception of what in the actual constitution of things never exists , is of a kind to affect expectation .
+I do not hesitate to say that it is not .
+We are concerned with events in so far as they are capable of happening or not happening , of combining or not combining ; but we are not concerned with the reasons in virtue of which they happen or do not happen , combine or do not combine .
+If we went beyond this , we should enter upon a metaphysical question to which I presume that no answer can , upon rational grounds , be given , viz. upon the question whether , when two things or events are in the actual constitution of things incapable of happening together , it would , if our knowledge were sufficiently extended , be found that the resulting conceptions of them were logically inconsistent .
+I have but one further observation on Principle II .
+to make .
+It is that in the general problem we are not called upon to interpret the ideal events .
+The whole procedure is , like every other procedure of abstract thought , formal .
+We do not say that the ideal events exist , but that the events in the translated form of the actual problem are to be considered to have such relations with respect to happening or not happening as a certain system of ideal events would have if conceived first as free , and then subjected , without their freedom being otherwise affected , to relations formally agreeing with those to which the events in the translated problem are subject .
+tion through arbitrary hypotheses , coupled with the assumption that any result thus obtained is necessarily the true one .
+The application of the principle employed in the text , and founded upon the general theorem of development in Logic , I hold to be not arbitrary .
+228 We are now able to explain more clearly the nature of the analytical investigation which will follow .
+Let p , , p , ... n ?
+represent the probabilities given in the data .
+As these will in general not be the probabilities of unconnected events , they will be subject to other conditions than that of being positive proper fractions , viz. to other conditions beside pl &gt; ?
+, E 20 ?
+* * probabilities of the alternatives which it involves , we shall have a system of equations connecting X , / , v , &amp;c. with p , , p2 , ... _p , the probabilities supposed given .
+Again , X , , ... , as probabilities , are subject to the conditions x-0 , ,0 , yO0 , ... &amp;c. , and , as alternatives mutually excluding each other , to the condition X+/ +v+ ... =1 , or the condition x~+v+ ... l1 , according as the alternatives in question together make up certainty or not .
+Thus we have a system consisting of equations and inequations from which X , ^ , v , &amp;c. must be eliminated .
+To effect this elimination we must determine as many of the quantities X , p , v ... as possible from the equations , substitute their values in the inequations , and then eliminate the remainder of the quantities X , F , , v ... by means of the theorem that if we have simultaneously xa , X , a2 , ... Xb , then we have the system of conditions of which the type is ac representing any one of the set a , , a , ... am , and bj any one of the set bl , 62 , ... b. Thus there are mn conditions in all .
+This method is illustrated in the following problem , in the expression and solution of which it is to be noticed , that when in the Calculus of Logic an event is represented by x , the event which consists in its not happening is denoted by 1--x , or for brevity by x ; that when two events are represented by x and y , their concurrence is denoted by xy , the happening of the first without the second by xy , and so on .
+Problem .
+Given that the probability of the concurrence of the events x and y isp , of the events y and z , q , and of the events z and x , r. Required the conditions to which p , q , and r must be subject in order that the above data may be consistent with a possible experience .
+Resolving the events xy , yz , xz into the possible alternations out of which they are formed , let us write Prob. xyz=x , Prob. xyz= , Prob. xyz=v , Prob. Hyz= .
+Then we have the equations X+=P , X+= , + +=r , together with the inequations x0O , 40O , v0 , gO0 , X+p+v+P+ 1 .
+From the equations we find =p--X .
+, s=g-- .
+, v=r-- , which , substituted in the inequations , give x &gt; O , p--X0O , qO 0 , r-%-xO0 p+g+r-2x &lt; l ; 230 and it only remains to eliminate X. Now from the above , 2c , x &lt; X Acr , x 0 , x &gt; 2 P+ therefore -pO , q=O , r &gt; O , _p+q+r-l1 =p+q+r-1 -p+q+r--1 &gt; ^ 2 9 ' &gt; 2 , r &gt; 2 The last three conditions are reducible to the simpler form , p g+r-1 , q r+p-1 , r , p+g-1 .
+Such are the conditions of possible experience in the data .
+Suppose , for instance , it was affirmed as a result of medical statistics that , in twofifths of a number of cases of disease of a certain character , two symptoms x and y were observed ; in two-thirds of the cases the symptoms y and z were observed ; and in fourfifths of the cases the symptoms z and x were observed ; so that , the number of cases observed being large , we might on a future outbreak of the disease consider the fractions W3 , and Aas the probabilities of recurrence of the particular combinations of the symptoms x , y , and z observed .
+The above formule would show that the evidence was contradictory .
+For , representing the respective fractions byp , q , and r , the condition p &gt; q+r--1 is not satisfied .
+( Edinburgh Memoir .
+) In applying the above method to the a priori limitation of questions in the theory of probabilities , it will be necessary to represent the probability sought by a single letter u , and treat this as if it were one of the numerical data .
+The resolution of the event of which the probability is sought into alternatives belonging to the same scheme as those of the events in the data gives us a new equation , which must be combined with the equations involving p , q , r , &amp;c. The elimination of X , / , y , &amp;c. then determines not only the conditions of possible experience limitingp , q , r , but also the conditions which u must satisfy a priori , whatever method for its actual determination may be employed .
+Thus , if from the foregoing data it were required to determine the a priori limits of Prob. xyz , i. e. of the probability of the conjunction of the events x , y , z , we should have as the additional equation and therefore , after elimination of , X , v , Mb-p ^=c , u br , -0_ _p+q+r-1 the conditions required .
+It will , however , in most of the following investigations suffice to consider the conditions of possible experience in the data alone , because it will be shown that when these are satisfied the corresponding conditions for the probability sought , when its value is determined by the method of the following section , will also be satisfied .
+231 Statement of the Method for the Solution of Questions in the Theory of Probabilities .
+For the general demonstration of this method the reader is referred to the 'Laws of Thought , ' chap .
+xvii .
+For the purpose of the analytical investigation the statement of the method will suffice .
+Let s , t , v , &amp;c. represent the events of which the probabilities are given , p , q , r , &amp;c. those probabilities , and w the event of which the probability is sought ; then , whatever the definitions of s , t ... and w may be , and whatever connecting relations may exist , it is always possible by the Calculus of Logic to determine the logical dependence of w upon s , t , &amp;c. in the following most general form , viz. w=A+OB+ ?
+C+ D. Here A , B , C , D are logical combinations of the events s , t , &amp;c. , and the connexion in which these stand to the event w and to each other is the following : A expresses those combinations of s , t , &amp;c. which are entirely included in w , i. e. which cannot happen without our being permitted to say that w happens .
+B represents those combinations which may happen but are not included under w ; so that when they happen we may say that w does not happen .
+C represents those combinations the happening of which leaves us in doubt whether w happens or not .
+D those combinations the happening of which would involve logical contradiction .
+It follows from the above that the translated form of the problem is Given Prob. s=p , Prob. t=q , Prob. v=r , &amp;c. , s , t , v ... being regarded as events subject to the explicit logical condition A+B+C=1 .
+Required the probability ui of the event of which the logical expression is w=A+C ; and it is shown ( Laws of Thought , p. 265 ) , upon grounds essentially the same as those expressed in Principles I. and II .
+of this paper , that the solution of the problem is involved in the following algebraic equations , viz. VVA+ cC p= v , ... ... . .
+( .
+) in which the functions V , V , , Vt ... are formed in the following manner , viz.,1st .
+V is derived from A+B+C without change of form by interpreting s , t , &amp;c. no longer as logical symbols , but as symbols of quantity .
+They represent the probabilities of the ideal events of Principle II .
+2ndly .
+V , is the sum of those terms in V which contain s as a factor , V , the sum of those which contain t as a factor , &amp;c. The quantity c is an arbitrary constant , admitting of any value between 0 and 1 .
+To effect the solution , the quantities s , t , &amp;c. are to be eliminated from the system ( I. ) , and u then determined as a function of p , q , r ... and c. The arbitrary constant c may not appear in the final result , because the developed form of w may not contain any terms affected with the symbol ? .
+When such terms do appear , the constant c admits of an interpretation indicating what new data are required to make the solution definite .
+It is proper here to observe that the conditions of possible experience can be determined as well from the 'translated ' as from the original form of the problem .
+That the results will agree is evident a priori , but it may be desirable to point out the analytical connexion of the two processes .
+I will take the example just considered , and then offer some general remarks on the subject .
+Representing the events xy , yz , zx by s , t , v , the translated data would be found to be Prob. s=p , Prob. t= , Prob. v=r , s , t , and v being connected by the explicit logical condition stv+st8 + ?
+s t+v+stit=1 .
+It is easily shown that the first member of this equation represents the sum of those combinations of the events s , t , v , with respect to happening or failing , which involve no logical contradiction .
+If , then , we represent under the above condition Prob. stv= ' , Prob. stF=t ' , Prob. ~tv=v ' , Prob. stv=e ' , we shall have ; qq_ , ,'S=g I lI '0 , p , 'O , &gt; , , This system of equations and inequations agrees with that employed in the previous solution , if we only make , A=t- , p= ^ , vf=g , g ?
+=V so that the elimination of X ' , i , , V g ' will lead to the same results as before .
+In general it may be observed that each combination of s , t , v which is possible without logical contradiction , gives , on substituting for s , t , v ... their expressions in the simple terms of the original problem , either a single combination of those simple terms , or a sum of such combinations ; but the same combination of those simple terms will not arise from two different combinations of s , t ... It is clear from this that the systems of united equations and inequations arising in the two forms of the problem will be related in the following manner , viz. For each positive quantity V ' in the one set , there will exist either a single positive quantity ?
+, or a sum of such quantities XI+-k+ &amp;c. in the other ; but each such sum is inseparable , and the elements it is composed of are distinct from those of any other sum arising from any other of the quantities X ' ... It is evident , then , that the final results of elimination will be the same .
+The same formal processes which eliminate single quan* Laws of Thought , p. 267 .
+tities in the one case , will eliminate the corresponding single quantities , or sums of single quantities , in the other .
+Simplification of the General Equations for the Solution of Questions in the Theory of Probabilities .
+Let us express the system ( I. ) in the form Vs Vt V= , -y= , &amp;c. , A+cC and let us suppose the quantities p , ... .
+( and therefore s , t ... ) to be n in number .
+Then all the terms in V will be composed of products of s , t ... s , t ... , each term involving either s or s , either t or t , &amp;c. , but not the combinations ss , tt , &amp;c. Each term is therefore homogeneous and of the nth degree .
+It follows , therefore , that if we divide the numerator and denominator of each of the first members of the above system by st v ... , and then make stv =---X -= -2 -=-:X3 , &amp;c. , Stv and if at the same time we , for symmetry , change p , q , r ... into p1 , p2 , ... p , , the system will assume the following form , VI V2 W V ='i , =V2i ... V-=Ps A+cC _ ---V--~ in which V , A , C are formed from their former values by suppressing s , t , v , &amp;c. , or , which is the same thing , changing each of them into unity , and then changing s , t , v ... into x1 , x2 , x , ... , while V , consists of those terms of V which contain 1 , V2 of those which contain x2 , and so on .
+In its new form V is a rational and entire function of x1 , X2 , ... e x , not involving powers of those quantities , and with all its coefficients equal to unity .
+Again , as s , t , &amp;c. are from the theory of their origin required to be positive proper fractions , x , , x , , ... x are , from the nature of their connexion with s , t ... , required to be positive quantities .
+And it is sufficient that x x , , ... xn be determinable as positive quantities in order that s , t ... may be determinable as positive fractions .
+Now we shall proceed to show that xl , x2 , ... x. are determinable as positive quantities precisely when pl , p2 , ... p7 , satisfy the conditions of possible experience .
+We shall further show , as a consequence of this , that the value of the probability sought , when determined by the General Rule , will , under the same conditions , lie within such limits as if it were itself given by the same experience .
+In the order of this proof , we shall first demonstrate the theorems of pure Analysis upon which the conclusions depend , then in a distinct section make the particular application .
+234 Analytical Theorems relating to Functional Determinants and Systems of Algebraic Equations .
+A symmetrical determinant may be conveniently expressed in the form A1 A,2 ... A , ; A2 A2. .
+A ... A ( I. ) A"i A , 2 * ?
+An the conditions of symmetry being Ai==A , ji A..=Aj .
+It is desirable to employ fixed language in referring to this .
+We shall therefore call the quantities A , , A2 ... .A the 'principal elements , ' and the diagonal series of terms which they form the 'principal diagonal .
+' The elements A. , when i andj differ , we shall call 'subordinate elements .
+' The element Ai , together with all the subordinate elements which occur upon the same horizontal or vertical line of the determinant , we shall designate the 'i-system of elements .
+' Lastly , in comparing two rows or two columns of elements together , those elements will be said to correspond which occupy the same numerical place in their respective rows or columns .
+The following Lemma will next be established .
+Lemma.-A symmetrical determinant expressed in the form ( I. ) will be unaltered in value , if from each subordinate element of its i-system we subtract the corresponding element of its j-system multiplied by a quantity A , which is invariable for the same system , and for the principal element Ai substitute A , -2xAij+x2Aj .
+It is known that a determinant vanishes if two of its lines or columns are identical , and it is known as a consequence of this that if from a particular line or column of a determinant the corresponding elements of another line or column , multiplied each by the same constant , are subtracted , the determinant is unaltered in value .
+From the ith line of the above symmetrical determinant subtract , term by term , k times the jth line , and then from the ith column of the resulting determinant subtract x times the jth column .
+As respects any subordinate element , the result will obviously accord with the statement in the Lemma .
+But the element A , will be successively converted into Ait -Aji ( Ai-Aji)-2A , zj-AAj ) .
+The last expression , since Aj , =A0 , is reducible to Ai--24A0 , +X2Aj .
+Upon this property the demonstration of the following general proposition will be founded .
+PROPOSITION I. Let the symmetrical determinant ( I. ) possess the following properties , viz.:2 2 235 1st .
+That all its elements are linear homogeneous rational functions of certain qzantities a , b , c , &amp;c. , unlimited in number .
+2ndly .
+That if the coefficients of any one of these quantities a in the elements of any particular line or column taken in order are c , C,2 ... MO , and in any other line or column 319 , 32,. .
+Pn , then these two series of quantities are respectively proportional .
+3rdly .
+That the principal terms A , , A , , ... An are positive , i. e. thtt the coefficients of all the quantities a , b , c , &amp;c. which appear in these terms are positive .
+Then the developed determinant will be itself positive , and will consist of products of the quantities a , b , c , &amp;c. without powers , each product affected by a positive sign .
+First , it may be observed that any letter a of the set a , b , c ... which appears in the subordinate term A , j will appear in both the principal terms A , , Aj .
+For let m be the coefficient of a in Ai , and therefore also in Aji ; let I be the coefficient of a in Ai , and n its coefficient in A1 .
+Thus to the elements A , , Aji in the i-column correspond Af .
+, Aj in thej-column .
+Hence , by the definition of the determinant , I : m : : m : , m2= ln , which implies that neither I nor n vanishes , so that a appears in Ai and Aj .
+Secondly , we shall show that the determinant can , without alteration of its final developed value , be reduced to a form in which any letter a of the system a , b , c ... shall appear in only one system of elements , and therefore only in the principal term of that system , since every subordinate term is common to two systems .
+Let us suppose a to be contained in two at least of the systems of elements , and for convenience of expression , let these be the 1-system and the n-system .
+Let , then , cM , 2 , ... M be the successive coefficients of a in A1 , A1 , ... Anl , and therefore , by definition of the determinant , h1 , 2 , ... X , its coefficients in A1 , An , ... An. Any of the quantities c , , 2 ... ' may be 0 .
+But by the Lemma above demonstrated the determinant may , without alteration of value , be reduced to the following form , viz.:Al , A12 , ... Ajn--Ai A21 , A2 , " .
+A2-xA ... 2 ... ( B. ) AnlXA1 , A2XA12 ... An2kXAn +x2A , Now in the determinant thus transformed the quantity a will no longer occur in the z-system .
+This is obvious with respect to the subordinate elements of that system .
+With respect to the principal element , we observe that the coefficient of a is in A , , equal to.l , in A ' , , equal to XcG , , in A. , equal to XX a , or k2a , whence the coefficient of a in An-2x , ,-+ ?
+2A , is equal to 0 .
+236 Thus a has been eliminated from the n-system , and as the process has not affected any elements but those which belong to the n-system , it will not affect the relations under which a enters into the other systems .
+Consider then any other quantity b in the set a , b , c , then by hypothesis the coefficients of b in any line or column of elements A , l , Ai2,. .
+Ai , or Ai , A2,. .
+An may be represented by 1iP , I^iP2,.1 JAI , l / 32,. .
+013 being an arbitrary set of quantities which are the same for all lines or columns , while i differs for different lines or columns , and vanishes for those in which b does not enter .
+It is to be noted that as Ai=Aj , we have in general PiPj=PjPi , while as the principal elements of the determinant ( I. ) are positive , we have always f3^iP=a positive quantity .
+Now reverting to the derived determinant ( B. ) , we see that its ith line or column of elements will be An , Ai2 , ... Ai--Ati , and its jth line or column Aji , Aj2. .
+Ajn -Aj5 supposing i and j to be both less than n. In these lines or columns the successive coefficients of b will therefore be t,1 ) pIt(3s2 ... 04 ^jn-Xp4j8i , which stand to each other in the constant ratio pi : pj .
+Now let j=n .
+The coefficients of b in the nth line or column of ( B. ) are obviously { n31 -AMi , p , , JnP2IP 2* principal elements , viz. in A , --XA , i and A , --XAi , .
+Then , by what has already been proved , L : M::M : N,. .
+M= LN ; but L is positive ; therefore N is so , and the principal element in question consists wholly of positive terms .
+The above demonstration shows that the elimination of a from the n-system produces a new determinant equivalent to the original one , and in which the characters noted in the original one still remain .
+Should a occur in any other system or systems of elements of the new determinant beside the 1-system , it can , by repetitions of the same process , be eliminated thence .
+Ultimately , then , it will only remain in the 1-system , and therefore only in the principal term of that system .
+Again , as it enters that term in the first degree , it follows that the developed determinant will involve only the first power of a. Hence , as a may represent any of the quantities a , b , c , ... , it is seen that no powers , but only products of these quantities , will appear in the developed determinant .
+Let us represent the determinant , after the elimination of a from all the elements but A , , in the form Al B12. .
+Bl B21 C2. .
+C. 2 Now let ahl represent that term in A1 which involves a. Then the portion of the determinant which involves a will be C2 ... C2 ah1 .
+Cn2 ... Cn .
+And here it is to be observed that ah1 is positive , while the new determinant to which it is attached as a coefficient possesses all the characters of the old one .
+This determinant we can therefore transform in the same way , so as to eliminate any other letter 6 from all but a single principal element , which we shall suppose to contain it in a term bh2 .
+That portion of the original determinant which involves ab will therefore assume the form D3 ... D3 abhlh. .
+D 3 ... D. Ultimately , then , as the result of such processes continued , the portion of the original determinant which involves any particular combination of n letters selected from a , b , c ... will consist of the product of a series of positive terms , each of which has appeared in some residual principal element .
+Every such combination being positive , it follows that the determinant itself consists solely of positive terms .
+238 If V be any rational entire function of the n variables x , , x ... , but involving no powers of those variables above thefirst , and if , further , all the different terms of V have positive signs , then the determinant -V V1 V2 ... V 'V1 V1 V 12 *** Vln V2 21 V2 * Therefore by the last proposition the developed determinant will consist of products ( without powers higher than the first ) of different terms of V , and the coefficients of all such products will be positive .
+Therefore the determinant will be expressible as a rational entire function of xi , 2 , ... with positive coefficients .
+The rapidity with which the complexity of the determinant increases as the number of variables increases is remarkable .
+For example , if n=2 and V--axy+bx+cy+ 'd , the determinant is axy-Fy+bxcyqd axy+ bx axycy axy + bx axy+bx axy axy+-cy axy axy+cy ; and its calculated value will be found to be abcxfy2 + abdx2y + acdxy2 +bc dxy , consisting of four positive terms .
+But if n=3 and V=axyz + byz + cxz + dxy+ ex+ +g+h the developed determinant will consist of fifty-eight positive terms .
+Its calculated value will be found in the Memoir on Testimonies and Judgments .
+PROPOSITION III .
+The functions V , V , , V , , ... being defined as above , if V be complete inform , i. e. if it consist of all the terms which according to definition it can contain , each with a positive coefficient , then the system of equations V , v2 v v=- , v =P2~ =.--v=2 ?
+* ? ? .
+( 1 .
+) will , when 2 , p2P , ... v are proper fractions , admit of one solution , and only one , inpositive values of x , , X , x , .
+We shall show , first , that the above proposition is true when n=l , secondly , that on the hypothesis that it is true for n-1 variables , it is true for n variables .
+Hence it will follow that it is true generally .
+Suppose n=1 .
+Then V=ax+b , whence the system ( 1 .
+) reduces to the single equation ax , axl +=b12 bp , =a(l -P ) whence , since a and b are positive , and p is a positive fraction , x , is positive .
+Thus the proposition is true when n=1 .
+Now , let x= 0 , and let x2 , x3 ... x , be determined to satisfy the last n-i equations of the system ( 1 .
+) .
+These n-1 equations will , when x=_0 , form a system of the same 240 nature with respect to the n--1 variables x. , x ... x* , as ( 1 .
+) is with respect to the n variables x1 , x2 , ... Tx .
+This will be at once seen by taking any particular example .
+Hence by hypothesis x2 , x3 ... ; , will be determinable as positive quantities , and their values substituted in the first member of the first equation of ( 1 .
+) will reduce it to the form Ax1 Ax , +BA and B being finite and positive .
+Hence the function V will become 0 .
+Secondly , let any finite positive value be assigned to x , .
+The last n-1 equations of the system ( 1 .
+) will again form a system of the same nature as before , and will by hypothesis determine a set of finite positive values for 2 , x , ... x. These values again substiV tuted in y , will give to it again the form Ax1 Ax + B ' A and B being finite and positive .
+Hence as x , is finite and positive , will be a positive fraction .
+Lastly , let x , be infinite .
+Still the last n-1 equations of the system ( 1 .
+) will assume V , the same form as before .
+Determining thence x2 , x3 ... x* , and substituting in - , we have V , Ax , V Ax1 + B ' in which A and B are finite and positive and x , is infinite .
+Hence =l .
+It is seen then that as x , varies from 0 to infinity , x , , x ... xa being at the same time always by hypothesis determined to satisfy the last n-1I equations of the system ( 1 .
+) , the function V , v will vary from 0 through positive fractional values to unity .
+It is manifest , too , that it varies continuously .
+If then it vary by continuous increase , it will once , and only once in its change , become equal to ji , and the whole , system of equations thus be satisfied together .
+I shall show that it does vary by continuous increase .
+If it vary continuously from 0 to 1 and not by continuous increase , it must in the course of its variation assume at least once a maximum or minimum value .
+Let us then seek the condition of possibility of Vi V=a maximum or minimum , the variables being subject to the relations Y =1p2 ?
+v ? ?
+V =--pn Here , proceeding in the usual way by differentiation , we have VdV -V , dV VdV , --VdV_ VdVn-V , dV V2 02 *0 .
+V2 =0 ' ~~4DcccLxiI .
+2K~~~:0 241 2K or dV dV , dV , dVn V Vi-V= V " - ?
+' n Let the common value of these fractions be represented by --dt , then we have a system , of n+1 equations of which the first is Vdt+dV=O , while the % others are of the type , dt+V , =o .
+0 The complete system , therefore , on effecting the total differentiations , becomes Vdt + dx,..d + d=O , dVx dxV dVn Vndt + d$ 7.+7* da n=O Now from the nature of the function V we have dV Vi dVt Vi dVi Vj dxi -x ' dxi~-x ' dxj x ' so that the above equations become dxl dx , dxc Vdt +V7 +v 2 .
++v -=o Vidt+V O+ Tv2d+v2l , +v2,. .
+-+v , .
+=oxi Xi X xiV V , V24 , V But we have already seen ( Prop. II .
+) that the first member of this equation is essentially positive for positive values of x , , x2. .
+x. Hence the function V varies by continuous increase , and on the hypothesis that the proposition to be proved is true for ln-l variables , it is true for n variables .
+Therefore , connecting this with the former result , the proposition is true universally .
+PROPOSITION IV .
+IfJV be an incomplete fnction some of the terms belonging to the complete form being iwanting , but the terms present having their coefjicients positive , it will in general be necessary not only that the quantities p , p2,. .
+pn should be positive fractions , but also that they should satisfy certain inequations of the form al1+a2p2 ... .
++apw+bO , in order that the system V , V V ?
+.1 .
+vP-- , 2 ... =p ... . .
+) may admit of a solution in positive values of x , , x2 ... x. For let Ax x xt ... be any term in V , A being a constant which is positive in all the terms , but which may be different in the different terms .
+Suppose that in V , there exist e terms like the above , and let the several ratios of these terms to V be denoted by AX , I2 ... Xe .
+Then the ith equation of the system ( 1 .
+) will become X+..+..4 +-p,.^ ?
+* * ... ... .
+( 2 .
+) and the system ( 1 .
+) will be converted into a system of n equationis of this nature .
+We will suppose that there exist m distinct quantities of the nature of XI , X ... .
+X , e in the first members of this transformed system , and we will represent these by , , X , ... Xm .
+Then , if these constitute all the ratios of the separate terms of V to V itself , we have a new equation , 41+X2**+7m=1 *** * ?
+the same hypothesis , when one or more of the variables x , , x2.- .
+x , is wholly absent from that system .
+Thus if x , were a common factor of all the terms of V , it would divide out from the numerators and denominators of the system , which would thus become a system of n simultaneous equations connecting the n-1 variables x , x3 ... .
+Considered with reference to these variables , therefore , the equations of the system would not be independent .
+All resulting inequations will be capable of expression under the one general form , ap1+ap2 * _P +a2pn+bO5O the coefficients a , , a , ... a. and 6 being positive , negative , or vanishing , numerical constants .
+For any inequation which presents itself in the form alp , +a2 , ... 2 +a ; , +bl may be transformed into - , p. .
+-a+1-b .
+Again , the general inequation a , p , +a22 , ... +atnpn+b &gt; 0 determines an inferior limit of p , when a , is positive , and a superior limit of p , when a , is negative .
+For in the former case we have f1 , a\ P1( , ( apl ... alpn a ) the second member of which is an inferior limit of p , ; and it will be observed that the calculated value of this member may be positive , as there is no general restriction on the signs of a2 , ... a , 6 .
+In the latter case , changing a , into -al , and observing that a , is positive , we have p a2 pa'n pi &lt; d2 ?
+P^3. .
++5pn+ , 1111 the second member of which is a superior limit of p , .
+Lastly , the final system of inequations is totally independent of the numerical value of the coefficients of V. The only restriction is that these coefficients are positive .
+PROPOSITION V. Let V be incomplete in form ; then , provided that the equations v , V2 Un V=P 1 , , * ... ... ( 1 .
+) tree independent with respect to the quantities x , , x2 , ... x. , and that the inequations of condition deducible by the last proposition are satisfied , the equations will admit of one solution , and only one , in positivefinite values of x , , xl , ... x , .
+The proof of this proposition will , in its general character , resemble the proof of 244 Proposition III .
+It will be shown that when we assign to x any value between the limits 0 and infinity , the quantities x,2 x ... x* , will admit of determination from the last n-1 equations of the system as positive finite quantities , and the function ^ will receive a value falling within the limits assigned by Proposition IV .
+to the quantity p ; that when x , is equal to 0 or infinity , x , x , ... x , will admit of determination either as positive finite quantities , or as limits ( O and oo ) of such quantities ; and that these values togetea value oincidinggether will gve to a valuth the highest of the inferior , or lowest of the superior limits of p2 , as determined by Proposition IV .
+; that when x1 varies from 0 to oo , x , , x ... x being determined as above , V will vary by continuous increase from the highest of the inferior to the lowest of the superior limits ofp , , and once in its variation become equal to pi .
+Thus the truth of the proposition for n variables will flow necessarily from its assumed truth for n-1 variables .
+And on this ground it will be shown that it may ultimately be reduced to a direct dependence upon Proposition III .
+In the system ( 1 .
+) let x , receive any finite positive value , and let V by the substitution of this value become U ; the last n-1 equations of ( 1 .
+) will thus assume the form U2 U3 Un -U=P2y u l=P u ... ... . .
+( 2 .
+) in which the quantities p2 , P3,..p satisfy the conditions to which the direct application of Proposition IV .
+to this reduced system of equations would lead .
+For what is important to notice in the change from V to U is , that any two terms in V which differ only in that one contains x , and the other does not , reduce to a single term in U. The effect of the change upon the primary system of equations and inequations formed in the application of Proposition IV .
+to the system ( 1 .
+) is the following:1st .
+The equation between XA , A ... derived from the first equation of ( 1 .
+) will be annulled .
+2ndly .
+In the remaining equations connecting Xi , X , ... some pairs of those quantities may be replaced by single quantities , with corresponding changes in the inequations .
+Thus if XA+XA be replaced by p , the inequations A &gt; 10 , A2 &gt; will be replaced by what they before implied , viz. [ FO .
+But these changes do not affect the truth of the ; elations , or introduce any new relations .
+They cannot , therefore , lead to any new final conditions .
+The conditions connecting 2 , - ... , p in accordance with Proposition IV .
+in the system ( 2 .
+) , must have been already involved in the equations connecting , P2 ... p , in the system ( 1 .
+) .
+Hence by hypothesis the system ( 2 .
+) gives one set of positive finite values of 245 x2 , x ... x corresponding to the assumed positive finite value of x , .
+And these values .
+Vi together make together make Va positive proper fraction .
+We may notice that , representing V under the form Ax , Ax1+B ' V it cannot be that either A or B is wanting so as to reduce V to the value 0 or 1 .
+For if A were wanting , V would not contain x at all , as by hypothesis it does ; and if B were wanting , V would contain x , in every term .
+Thus x , would divide out from the system ( 1 .
+) , which would thus become a system of n equations between n-1 variables , and would cease to be independent , as by hypothesis it is .
+But when.x= 0 , or x= infinity , the form of V , considered as a function of x2 , x3 ... x , will not generally be the same as in the case last considered ; and the conditions connecting P2 , p3 , ... pn will no longer be such that we can affirm the possibility of deducing from the last n-1 equations of the system ( 1 .
+) , as transformed , positive finite values of '^2 , X35 * ... XnO The theory of this case depends upon a remarkable transformation .
+The most general form of the inequations of condition connecting p , p2 , ... p. , as determined by Proposition IV .
+, is alp+a2p2 ... +a , +6b ... . .
+( 3 .
+) Hence , from the nature of the system ( 1 .
+) , it follows that the function alVl+V + V+bV ... .
+* b. .
+( 4 .
+) must consist wholly of positive terms .
+Therefore V must consist of terms which would either appear in the development of the above function with positive signs , or not appear in it at all .
+Let Axr xx , t ... be any term of V. Then , as the coefficient of this term in ( 4 .
+) would be arA+asA +atA ... + A , and as A is positive , we have are +aS+at ... +b 0 , a general condition which determines not what terms have actually entered , but what could alone possibly have entered into the constitution of V. From the system ( 1 .
+) we have alVl + a2V * .
+Tl E TiEEORY OF PROBABILITIES .
+which has the peculiarity that for every term Ax x , t ... which appears in the numerator H the particular condition a , a+a , t ... +b &gt; 0 is satisfied .
+Let K be the aggregate of those terms in V for which the remaining particular condition a++a+a. .
++b=O is satisfied .
+Then V=H+K .
+If we now substitute ( 5 .
+) in place of the first equation of the system ( 1 .
+) and then write H+K for V , H1+K , for Vi , &amp;c. , the system becomes converted into the following one , viz. H H- , + K , H K+KS HK +K EI =+ K-=a---+/ , ' ... .
+a , S+ K P= 2H+K HKi==Pn ( 6 ) Now let us transform the above equations by assuming ag Xe= x y2 , x3=x T3al ... . .
+=xlny , The general type of these equations is ai ai Xi=xI yi , and it includes the particular case of i=l , provided that we suppose , as we shall do , -/ 1 .
+Then representing , as before , any term of V by Ax , x , x ... , we have +as.+ats+a ... Ax , x , xt ... =Axi al yg y~ IS ... Let this substitution be made in the different terms both of the numerators and deno-minators of the fractions which form the first members of the above system , and then b let each numerator and denominator be multiplied by xi ' .
+The result will be the same : as if for each term AXr xs $ .
+* .
+in numerator or denominator we substituted the term are +a+as. .
++b Ax , al , ygryYt ... In considering the effect of this .
+transformation we will first suppose a , positive , and afterwards suppose it negative .
+Case 1 ; the coefficient a , positive .
+Here , since for all the terms in H and in H2 , .
+H ... H. we have are +a+at ... + b. a , &gt; 0 all such terms in the transformed equations will be affected with positive powers of x , .
+And since for all terms in K , K , , ... K , we have are +as+ at ... += 0l a , s will be free from x all such terms in the transformed equations will be free from x , 247 Now let a 1p+ap2 ... --a+ +b=0 .
+This , as a , is positive , is to suppose that pl coincides with one of its own inferior limits .
+We must suppose this to be the highest of those limits , as otherwise some of the other limiting conditions would be violated .
+Now , since all the terms in H are affected with positive powers of x1 , while those in K do not contain x1 , the first equation of the system ( 6 .
+) will be satisfied by x , =O , provided that the remaining n-1 equations give finite positive values for Y2 ... y. .
+But the vanishing of x , reduces these equations to the form K2 K3 K. =P2 ) -K=3 ... ... ... ( 7 .
+) It is therefore necessary to show that 2 p3 p. '.p , in this system are actually subject to the conditions to which the application of the method of Proposition IV .
+to the system itself would lead .
+The n quantities p , p ... pn are by hypothesis subject to the conditions furnished by the application of the method of Proposition IV .
+to the original system ( 1 .
+) .
+In applying this method each of the original equations yields an equation of the form 1+X2IX ... .
+; ... ... ... .
+( 8 .
+) and to the equations thus formed are added the inequations 7 1+XA .
++Xmn &lt; , having reference to the whole system of original equations .
+Xl , X2 ... X. having reference to the whole system of original equations .
+Now the satisfaction of the equation H_ H+Kby the value x =0 , involves the vanishing of all those quantities of the system xI , ... x , m which are derived from terms in V that are also found in H. Hence the X quantities that do not vanish are those derived from terms in V which appear in K. Again , the condition ap +a2p2** +. .
+p , +b= shows that the system of equations of which ( 8 .
+) is the type are not independent .
+They must , under the particular circumstances of the case , be such that the above equation shall be derivable from them .
+Hence one of these equations may be rejected .
+If we reject the first , viz. the one which contains p , , and then reduce the others by making the X quantities which are not derived from K to vanish , the system typified by ( 8 .
+) evidently reduces to the system which we should have to employ if we applied the method of Proposition IV .
+directly to the system of n-1 equations ( 7 .
+) .
+Hence the quantities P2 , p3 ... _p , satisfy the final conditions to which that application would lead , and therefore by hypothesis the equations ( 7 .
+) admit of solution by a single system of finite positive values of,2 y3,. .
+y. Now in general ai " .
+a O1 .
+248 Hence since x , =0 and y , is finite and positive for all values of i from 2 to n , we see that xi will be 0 for all values of i for which a , is positive , finite and positive for all values of i for which ai is 0 , and infinite for all values of i for which ai is negative .
+Case 2 ; the coefficient ai negative .
+Here the inequation of condition ( 3 .
+) must be supposed to determine the lowest of the superior limits ofp , , and therefore when p , coincides with that limit we have a , p , + a2p. .
++-a .
+n +p b -0 .
+The transformations remaining formally the same as before , the following results will present themselves .
+The terms in H and in H2 , H3 ... H , will be affected with negative instead of positive powers of x , .
+Hence the same determination of y2 , y3. .
+y. from the last n-1 equations of ( 6 .
+) , which before followed from the assumption x , =0 , will now follow from the assumption x , = oo , which at the same time satisfies the first equation of ( 6 .
+) .
+The equation i Xi= -lyi shows , since a , is here negative and x , infinite , that xi will be infinite for those values of i for which a , is negative , finite for those values of i for which at is 0 , nothing for those values of i for which ai is positive .
+In all these cases the values 0 and oo appear as limits of finite positive values .
+This results from the connexion of the second member of the first equation of the system ( 6 .
+) with the condition ( 3 .
+) .
+Lastly , as the incompleteness of form of V only causes certain terms of the developed determinant of Proposition II .
+to vanish , but leaves the signs of the terms which remain positive , it follows that as x , varies from 0 to infinity , x , , x , ... x being always determined by the last n-1 equations of ( 1 .
+) , the function V1 will vary by continuous increase between the limits above investigated , viz. from the highest inferior to the lowest superior limit of pl. Once , therefore , in its progress it becomes equal to p , and all the equations are satisfied together .
+The above reasoning establishes rigorously that if the proposition is true for n-1 variables , it is true for n variables .
+It remains then to consider the limiting case of n=I .
+Here , however , only the complete form of V , viz. V--ax+b , leads to a definite value of x , and this , as has been seen , is finite and positive .
+If we give to V the particular form V , ax , the equation V-=p becomes ax =2P , orp=l , which determines p , but leaves x indefinite .
+If we employ the other particular form V=b , we obtain no equation whatever , and here again x is indefinite .
+But as the reducing transformations are all definite , the above indefinite forms cannot present themselves in the last stage of the problem when the original equations are independent and admit of definite solution .
+The proposition is therefore established .
+APPLICATION .
+The general system of algebraic equations upon which the solution of questions in the theory of probabilities depends , is a particular case of that discussed in Proposition V. Its peculiarityis , that all the coefficients which appear in the function V are equal to unity .
+The conditions of possible experience , as determined by the method , agree with the conditions shown in Proposition IV .
+to be necessary , and in Proposition V. to be sufficient , in order that x , x2 ... x may be determinable as positive finite quantities .
+For in both cases the quantities AX , X2 , &amp;c. correspond to the different terms in V , and in both cases the equations among those quantities depend simply on the forms of the functions V , , V2 ... V. , and therefore ultimately on the form of V , irrespectively of the values of the positive coefficients of V. In both cases the systems of inequations are the same .
+It follows , therefore , that precisely when the data represent a possible experience , the probabilities of the ideal events from which in the process of solution the problem is mentally constructed admit of determination as positive proper fractions .
+Again , as the process for determining the a priori limits of the probability sought rests ultimately upon the assumption that the ratio of any term or partial aggregate of terms in V to V itself is a positive fraction , and as this assumption is satisfied when x1 , 2 ... x. are positive quantities , it follows that the calculated value of the probability sought will always lie within the limits which it would have had if determined by observation from the same experience as the data .
+But though the test last mentioned is one which must necessarily be satisfied by a true method , it is of infinitely less theoretical importance than that from which it is derived , viz. the test which consists in the absolute connexion between possibility in the data and formal consistency in the method .
+As the conclusions of Propositions IV .
+and V. depend upon the form of the function V and the fact that its coefficients are positive , it follows that if in the application of the method to questions of probability we substituted any other positive values for unity in the coefficients of V , leaving the rest of the process as before , we should still be able to determine x , , x , ... x as positive quantities , or as limits of such , and the altered value of the probability sought would still be consistent with the experience from which the data are supposed to be derived .
+It would , however , properly speaking , be a value of interpolation , not a probability .
+I will close with a few remarks upon the general nature f th method , and of the solutions to which it leads .
+1st .
+The probability determined is not precisely of the same nature as the probabilities given .
+For the data are supposed to be derived from experience ; and therefore , on the supposition that the future will resemble the past , the events of which the probabilities are given will in the long run recur with a frequency proportioned to their probability .
+But the probability determined is always an intellectual rather than a material probability .
+We cannot affirm that in the long run an event will occur with a frequency proportional to its calculated probability ; but we can affirm that it is more likely to occur with this than with any other precise degree of frequency ; that if it do not occur with this degree of frequency , the data are in some measure one.sided .
+At the same time the limits of possible deviation are determined..2ndly .
+General solutions obtained by the method do sometimes , but not always , admit* of being verified by other methods .
+I believe that this is solely because it is not often possible to solve the problem by other methods without introducing hypotheses which are of the nature of additional data , and , in effect , limit the problem .
+Every general solution , however , admits of a number of particular verifications by necessary consequence from the theorems established in this paper .
+3rdly .
+It has been seen that a calculated probability is not necessarily a definite numerical value .
+It may be of the form A+cC , in which c is an arbitrary positive fraction .
+Here it is implied that the probability admits of any value between A and A+C .
+If , further , A-0 and C= 1 , it is implied that the probability may have any value between 0 and 1 , -is therefore quite indefinite .
+This would really arise if we applied the method to a case in which the event of which the probability is sought had absolutely no connexion with those of which the probabilities are given .
+Hence in the present theory the numerical expression for the probability of an event about which we are totally ignorant is not - , but ct .
+Hence , also , when all the probabilities given are measured by 1 , it is not to be concluded ( upon the ground of e nihilo nihil ) that the probability sought will also be 2 .
+4thly .
+While extending the real power of the theory of probabilities , the method tends in some cases to diminish the apparent value of its results .
+For all problems in which the data admit of logical expression can be solved by it ; but the resulting solutions , founded upon the bare data , may be of an indeterminate character , in place of the determinate results to which ordinary methods , aided by hypotheses not really involved in the data , lead .
+This is the case with the problem of the combination of different grounds of belief or opinion .
+The general solution is indefinite .
+In two limiting cases , however , it assumes a definite form ; one of these , which agrees with the formula generally accepted , representing the extreme cumulative force of testimonies , the other the mean weight of judgments .
+Both these , however , occur as limiting cases , and they can only be applied with confidence under extreme circumstances , such as probably never occur in human affairs .
+( Edinburgh Memoir , pp. 630-645 .
+) 5thly .
+I have , in effect , remarked that there is reason to suppose that all questions in the theory of probabilities can ultimately be reduced to questions in which the immediate subjects of probability are logical , i. e. involve no other essential relations than those of genus and species , whole and part .
+This is a question of theoretical rather than of practical interest .
+For instance , whether the formula of the arithmetical mean , which is the basis othe theory of astronomical observations , is self-evident , or whether it rests upon an ultimate logical basis , or whether , as I am inclined to believe , it may lawfully be regarded in either of these distinct but not conflicting lights , the superstructure remains the same .
+
