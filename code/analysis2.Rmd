@@ -98,6 +98,17 @@ if (nrow(author_comms) > 0) {
   cat("Community memberships:\n")
   print(author_comms)
 }
+
+p6 <- network_data %>%
+  filter(node_type == "author", !is.na(all_time_communities), all_time_communities != 0) %>%
+  count(all_time_communities) %>%
+  ggplot(aes(x = reorder(factor(all_time_communities), -n), y = n)) +
+  geom_col(fill = "red") +
+  labs(title = "Authors by Community (All-Time)", 
+       x = "Community", y = "Number of Authors") +
+  theme_minimal()
+
+print(p6)
 ```
 
 ```{r corpus_overview}
@@ -109,7 +120,6 @@ cat("Corpus docvar names:", paste(names(docvars(rsc_corpus)), collapse = ", "), 
 
 ## Authors
 
-
 ```{r author_stats}
 
 # Display author summary stats
@@ -119,6 +129,35 @@ cat("Single-author documents:", sum(docvars(rsc_corpus)$author_count == 1), "\n"
 cat("Multi-author documents:", sum(docvars(rsc_corpus)$author_count > 1), "\n")
 cat("Max authors per document:", max(docvars(rsc_corpus)$author_count), "\n")
 cat("Min authors per document:", min(docvars(rsc_corpus)$author_count), "\n") # Some documents have no author infomration
+
+# Documents by authorship
+p4 <- docvars(rsc_corpus)$author_count %>%
+  data.frame(author_count = .) %>%
+  count(author_count) %>%
+  ggplot(aes(x = author_count, y = n)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +  
+  labs(title = "Distribution of Author Count per Document",
+       x = "Number of Authors", y = "Number of Documents") +
+  theme_minimal()
+
+p5 <- data.frame(
+  decade = docvars(rsc_corpus)$decade,
+  is_multi_author = docvars(rsc_corpus)$is_multi_author
+) %>%
+  group_by(decade, is_multi_author) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  ggplot(aes(x = decade, y = count, fill = is_multi_author)) +
+  geom_col(position = "dodge", alpha = 0.7) +
+  labs(
+    title = "Single vs Multi-Author Documents by Decade", 
+    x = "Decade", y = "Number of Documents",
+    fill = "Multi-Author"
+  ) +
+  theme_minimal()
+
+print(p4)
+print(p5)
 ```
 
 ## Topics
