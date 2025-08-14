@@ -1,0 +1,322 @@
+---
+title: "Helsinki CASCADE Workshop Royal Society Corpus Text Analysis"
+author: "Mark Hill"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+```
+
+# Royal Society Corpus Analysis
+
+## Load Required Libraries
+
+```{r libraries}
+library(quanteda)
+library(quanteda.textplots)
+library(quanteda.textstats)
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(stringr)
+library(purrr)
+library(DT)
+library(plotly)
+```
+
+## Data Loading
+
+### Load Metadata
+
+```{r load-metadata}
+# Load metadata
+df <- read.csv("../data/rsc/Royal_Society_Corpus_open_v6.0_meta.tsv", 
+               sep = "\t", 
+               stringsAsFactors = FALSE)
+
+# Display basic information about the metadata
+cat("Metadata dimensions:", nrow(df), "rows x", ncol(df), "columns\n")
+cat("Date range:", min(df$year, na.rm = TRUE), "-", max(df$year, na.rm = TRUE), "\n")
+cat("Document types:", paste(unique(df$type), collapse = ", "), "\n")
+
+# Display first few rows
+head(df) %>% DT::datatable(options = list(scrollX = TRUE))
+```
+
+### Extract Document IDs for File Matching
+
+```{r extract-ids}
+# Using ID to pull file names (Royal_Society_Corpus_open_v6.0_text_{id}.txt)
+
+# Display sample of IDs
+df %>% 
+  select(id) %>% 
+  head(10) %>%
+  DT::datatable()
+```
+
+### Load Text Files
+
+```{r load-texts}
+# Define text directory
+text_dir <- "../data/rsc/Royal_Society_Corpus_open_v6.0_texts_txt/"
+
+# Function to safely read text files
+read_text_safe <- function(doc_id) {
+  file_path <- file.path(text_dir, paste0("Royal_Society_Corpus_open_v6.0_text_", doc_id, ".txt"))
+  
+  if (file.exists(file_path)) {
+    tryCatch({
+      readLines(file_path, warn = FALSE) %>% paste(collapse = "\n")
+    }, error = function(e) {
+      warning(paste("Error reading file for ID", doc_id, ":", e$message))
+      NA_character_
+    })
+  } else {
+    warning(paste("File not found for ID", doc_id))
+    NA_character_
+  }
+}
+
+# Load texts for all documents
+cat("Loading text files...\n")
+df$text <- map_chr(df$id, read_text_safe, .progress = TRUE)
+
+# Check loading success
+successful_loads <- sum(!is.na(df$text))
+cat("Successfully loaded", successful_loads, "out of", nrow(df), "text files\n")
+
+# Remove rows where text loading failed (optional)
+df_complete <- df[!is.na(df$text), ]
+cat("Working with", nrow(df_complete), "complete documents\n")
+```
+
+## Data Preprocessing and Corpus Creation
+
+```{r create-corpus}
+# Create quanteda corpus
+rsc_corpus <- corpus(df_complete$text, 
+                     docnames = df_complete$id)
+
+# Add metadata to corpus
+docvars(rsc_corpus) <- df_complete %>% 
+  select(-text) %>%  # Remove text column to avoid duplication
+  rename(doc_id = id)
+
+# Display corpus summary
+print(rsc_corpus)
+```
+
+## Subsetting Framework
+
+### Helper Functions for Subsetting
+
+```{r subsetting-functions}
+# Function to subset corpus by date range
+subset_by_date <- function(corpus, start_year = NULL, end_year = NULL, 
+                          decade = NULL, century = NULL) {
+  
+  if (!is.null(decade)) {
+    # If decade specified (e.g., 1900 for 1900s)
+    start_year <- decade
+    end_year <- decade + 9
+  }
+  
+  if (!is.null(century)) {
+    # If century specified (e.g., 19 for 1900s)
+    start_year <- century * 100
+    end_year <- (century * 100) + 99
+  }
+  
+  if (!is.null(start_year) || !is.null(end_year)) {
+    if (is.null(start_year)) start_year <- min(docvars(corpus, "year"), na.rm = TRUE)
+    if (is.null(end_year)) end_year <- max(docvars(corpus, "year"), na.rm = TRUE)
+    
+    subset_docs <- docvars(corpus, "year") >= start_year & 
+                   docvars(corpus, "year") <= end_year & 
+                   !is.na(docvars(corpus, "year"))
+    
+    return(corpus_subset(corpus, subset_docs))
+  }
+  
+  return(corpus)
+}
+
+# Function to subset corpus by document type
+subset_by_type <- function(corpus, doc_types) {
+  if (!missing(doc_types)) {
+    subset_docs <- docvars(corpus, "type") %in% doc_types
+    return(corpus_subset(corpus, subset_docs))
+  }
+  return(corpus)
+}
+
+# Function to subset corpus by primary topic
+subset_by_topic <- function(corpus, topics, topic_threshold = NULL) {
+  if (!missing(topics)) {
+    subset_docs <- docvars(corpus, "primaryTopic") %in% topics
+    
+    # Optional: filter by topic percentage threshold
+    if (!is.null(topic_threshold)) {
+      subset_docs <- subset_docs & 
+                     docvars(corpus, "primaryTopicPercentage") >= topic_threshold
+    }
+    
+    return(corpus_subset(corpus, subset_docs))
+  }
+  return(corpus)
+}
+
+# Function to subset corpus by journal
+subset_by_journal <- function(corpus, journals) {
+  if (!missing(journals)) {
+    subset_docs <- docvars(corpus, "jrnl") %in% journals
+    return(corpus_subset(corpus, subset_docs))
+  }
+  return(corpus)
+}
+
+# General subsetting function that combines all criteria
+subset_corpus <- function(corpus, 
+                         start_year = NULL, end_year = NULL, 
+                         decade = NULL, century = NULL,
+                         doc_types = NULL, 
+                         topics = NULL, topic_threshold = NULL,
+                         journals = NULL) {
+  
+  result <- corpus
+  result <- subset_by_date(result, start_year, end_year, decade, century)
+  result <- subset_by_type(result, doc_types)
+  result <- subset_by_topic(result, topics, topic_threshold)
+  result <- subset_by_journal(result, journals)
+  
+  return(result)
+}
+```
+
+### Example Subsetting Operations
+
+```{r subsetting-examples}
+# Example 1: Subset by decade (1900s)
+corpus_1900s <- subset_corpus(rsc_corpus, decade = 1900)
+cat("1900s corpus:", ndoc(corpus_1900s), "documents\n")
+
+# Example 2: Subset by document type (articles only)
+corpus_articles <- subset_corpus(rsc_corpus, doc_types = "article")
+cat("Articles only:", ndoc(corpus_articles), "documents\n")
+
+# Example 3: Subset by topic (Physics-related)
+physics_topics <- c("Atomic Physics", "Thermodynamics", "Fluid Dynamics")
+corpus_physics <- subset_corpus(rsc_corpus, topics = physics_topics)
+cat("Physics topics:", ndoc(corpus_physics), "documents\n")
+
+# Example 4: Combined subsetting (1900s physics articles)
+corpus_1900s_physics <- subset_corpus(rsc_corpus, 
+                                     decade = 1900, 
+                                     doc_types = "article",
+                                     topics = physics_topics)
+cat("1900s physics articles:", ndoc(corpus_1900s_physics), "documents\n")
+```
+
+## Data Exploration
+
+### Overview Statistics
+
+```{r data-overview}
+# Create summary statistics
+overview_stats <- df_complete %>%
+  summarise(
+    total_documents = n(),
+    date_range = paste(min(year, na.rm = TRUE), "-", max(year, na.rm = TRUE)),
+    unique_journals = n_distinct(jrnl),
+    unique_authors = n_distinct(author),
+    total_pages = sum(pages, na.rm = TRUE),
+    total_sentences = sum(sentences, na.rm = TRUE),
+    total_tokens = sum(tokens, na.rm = TRUE)
+  )
+
+print(overview_stats)
+```
+
+### Distribution by Key Variables
+
+```{r distributions}
+# Documents by decade
+p1 <- df_complete %>%
+  ggplot(aes(x = decade)) +
+  geom_bar(fill = "steelblue", alpha = 0.7) +
+  labs(title = "Documents by Decade", 
+       x = "Decade", y = "Number of Documents") +
+  theme_minimal()
+
+# Documents by type
+p2 <- df_complete %>%
+  count(type) %>%
+  ggplot(aes(x = reorder(type, n), y = n)) +
+  geom_col(fill = "forestgreen", alpha = 0.7) +
+  coord_flip() +
+  labs(title = "Documents by Type", 
+       x = "Document Type", y = "Number of Documents") +
+  theme_minimal()
+
+# Top primary topics
+p3 <- df_complete %>%
+  count(primaryTopic, sort = TRUE) %>%
+  head(10) %>%
+  ggplot(aes(x = reorder(primaryTopic, n), y = n)) +
+  geom_col(fill = "darkorange", alpha = 0.7) +
+  coord_flip() +
+  labs(title = "Top 10 Primary Topics", 
+       x = "Primary Topic", y = "Number of Documents") +
+  theme_minimal()
+
+print(p1)
+print(p2)
+print(p3)
+```
+
+### Available Categories for Subsetting
+
+```{r available-categories}
+# Create reference tables for subsetting options
+cat("=== AVAILABLE SUBSETTING OPTIONS ===\n\n")
+
+cat("DECADES:\n")
+sort(unique(df_complete$decade)) %>% print()
+
+cat("\nDOCUMENT TYPES:\n")
+table(df_complete$type) %>% print()
+
+cat("\nJOURNALS:\n")
+table(df_complete$jrnl) %>% print()
+
+cat("\nTOP PRIMARY TOPICS (with counts):\n")
+df_complete %>% 
+  count(primaryTopic, sort = TRUE) %>% 
+  head(15) %>%
+  print()
+
+cat("\nDATE RANGE:\n")
+cat("From:", min(df_complete$year, na.rm = TRUE), 
+    "to", max(df_complete$year, na.rm = TRUE), "\n")
+```
+
+## Summary
+
+This framework provides:
+
+1. **Data Loading**: Metadata and text files are loaded and linked
+2. **Corpus Creation**: A quanteda corpus with all metadata attached
+3. **Flexible Subsetting**: Functions to subset by:
+   - Date ranges (years, decades, centuries)
+   - Document types
+   - Primary topics (with optional confidence thresholds)
+   - Journals
+   - Any combination of the above
+
+4. **Reference Information**: Clear overview of available categories for subsetting
+
+The `subset_corpus()` function allows for flexible combinations of criteria, making it easy to create targeted analyses of specific document collections.
+
+Next steps would be to add the network information and then develop specific text analysis functions that can be applied to any subset of the corpus.

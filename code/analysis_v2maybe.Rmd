@@ -1,0 +1,720 @@
+---
+title: "Royal Society Corpus Text Analysis"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      cache = TRUE, fig.width = 10, fig.height = 6)
+```
+
+# Royal Society Corpus Analysis
+
+## Load Required Libraries
+
+```{r libraries}
+library(quanteda)
+library(quanteda.textplots)
+library(quanteda.textstats)
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(stringr)
+library(purrr)
+library(DT)
+library(plotly)
+```
+
+## Data Loading
+
+### Load Metadata
+
+```{r load-metadata}
+# Load metadata
+df <- read.csv("C:\\Users\\markj\\onedrive_cloud\\coding\\GitHub\\2025-helsinki_cascade\\data\\rsc\\Royal_Society_Corpus_open_v6.0_meta.tsv", 
+               sep = "\t", 
+               stringsAsFactors = FALSE)
+
+# Display basic information about the metadata
+cat("Metadata dimensions:", nrow(df), "rows x", ncol(df), "columns\n")
+cat("Date range:", min(df$year, na.rm = TRUE), "-", max(df$year, na.rm = TRUE), "\n")
+cat("Document types:", paste(unique(df$type), collapse = ", "), "\n")
+
+# Display first few rows
+head(df) %>% DT::datatable(options = list(scrollX = TRUE))
+```
+
+### Check Document IDs
+
+```{r check-ids}
+# The file ID is simply the id column from metadata
+# Files are named: Royal_Society_Corpus_open_v6.0_text_{id}.txt
+
+# Display sample of IDs
+df %>% 
+  select(id) %>% 
+  head(10) %>%
+  DT::datatable()
+```
+
+### Load Text Files
+
+```{r load-texts}
+# Define text directory
+text_dir <- "C:\\Users\\markj\\OneDrive - King's College London\\coding\\GitHub\\2025-helsinki_cascade\\data\\rsc\\Royal_Society_Corpus_open_v6.0_texts_txt\\"
+
+# Function to safely read text files
+read_text_safe <- function(doc_id) {
+  file_path <- file.path(text_dir, paste0("Royal_Society_Corpus_open_v6.0_text_", doc_id, ".txt"))
+  
+  if (file.exists(file_path)) {
+    tryCatch({
+      readLines(file_path, warn = FALSE) %>% paste(collapse = "\n")
+    }, error = function(e) {
+      warning(paste("Error reading file for ID", doc_id, ":", e$message))
+      NA_character_
+    })
+  } else {
+    warning(paste("File not found for ID", doc_id))
+    NA_character_
+  }
+}
+
+# Load texts for all documents
+cat("Loading text files...\n")
+df$text <- map_chr(df$id, read_text_safe, .progress = TRUE)
+
+# Check loading success
+successful_loads <- sum(!is.na(df$text))
+cat("Successfully loaded", successful_loads, "out of", nrow(df), "text files\n")
+
+# Remove rows where text loading failed (optional)
+df_complete <- df[!is.na(df$text), ]
+cat("Working with", nrow(df_complete), "complete documents\n")
+```
+
+## Network and Community Data
+
+```{r load-network-data}
+# Load network/community data - keep this completely separate from corpus
+network_data <- read.csv("C:\\Users\\markj\\onedrive_cloud\\coding\\GitHub\\2025-helsinki_cascade\\data\\rsc\\multi_temporal_communities.csv")
+
+cat("Network data dimensions:", nrow(network_data), "rows x", ncol(network_data), "columns\n")
+cat("Authors in network data:", sum(network_data$node_type == "author", na.rm = TRUE), "\n")
+
+# Display sample of network data
+head(network_data) %>% DT::datatable(options = list(scrollX = TRUE))
+```
+
+## Author Information Processing
+
+```{r process-authors}
+# Function to clean and split author strings
+process_authors <- function(author_string) {
+  if (is.na(author_string) || author_string == "") {
+    return(character(0))
+  }
+  
+  # Split by | and clean up
+  authors <- str_split(author_string, "\\|")[[1]]
+  authors <- str_trim(authors)  # Remove leading/trailing whitespace
+  authors <- authors[authors != ""]  # Remove empty strings
+  
+  return(authors)
+}
+
+# Process all author strings
+df_complete$authors_list <- map(df_complete$author, process_authors)
+
+# Create additional useful author variables
+df_complete$author_count <- map_int(df_complete$authors_list, length)
+df_complete$first_author <- map_chr(df_complete$authors_list, ~ ifelse(length(.x) > 0, .x[1], NA_character_))
+df_complete$is_multi_author <- df_complete$author_count > 1
+
+# Display author processing results
+cat("Author processing summary:\n")
+cat("Documents with authors:", sum(df_complete$author_count > 0), "\n")
+cat("Single-author documents:", sum(df_complete$author_count == 1), "\n")
+cat("Multi-author documents:", sum(df_complete$author_count > 1), "\n")
+cat("Max authors per document:", max(df_complete$author_count), "\n")
+
+# Show examples of author processing
+author_examples <- df_complete %>%
+  select(id, author, author_count, first_author, is_multi_author) %>%
+  head(10)
+
+print("Author processing examples:")
+DT::datatable(author_examples, options = list(scrollX = TRUE))
+```
+
+## Community Analysis Functions (Operating on Separate Network Data)
+
+```{r community-functions}
+# Function to get authors from specific communities in a time slice
+get_authors_from_communities <- function(communities, time_slice = "all_time_communities") {
+  
+  authors_in_communities <- network_data %>%
+    filter(node_type == "author") %>%
+    filter(.data[[time_slice]] %in% communities) %>%
+    pull(node_id)
+  
+  return(authors_in_communities)
+}
+
+# Function to get community membership for specific authors
+get_author_communities <- function(authors, time_slice = "all_time_communities") {
+  
+  author_communities <- network_data %>%
+    filter(node_type == "author", node_id %in% authors) %>%
+    select(node_id, community = !!sym(time_slice)) %>%
+    filter(!is.na(community))
+  
+  return(author_communities)
+}
+
+# Function to determine best time slice for a given year
+get_best_time_slice <- function(year) {
+  if (is.na(year)) return("all_time_communities")
+  
+  time_slices <- list(
+    "slice_1650_1699" = c(1650, 1699),
+    "slice_1675_1724" = c(1675, 1724),
+    "slice_1700_1749" = c(1700, 1749),
+    "slice_1725_1774" = c(1725, 1774),
+    "slice_1750_1799" = c(1750, 1799),
+    "slice_1775_1824" = c(1775, 1824),
+    "slice_1800_1849" = c(1800, 1849),
+    "slice_1825_1874" = c(1825, 1874),
+    "slice_1850_1899" = c(1850, 1899),
+    "slice_1875_1924" = c(1875, 1924)
+  )
+  
+  for (slice_name in names(time_slices)) {
+    slice_range <- time_slices[[slice_name]]
+    if (year >= slice_range[1] && year <= slice_range[2]) {
+      return(slice_name)
+    }
+  }
+  
+  return("all_time_communities")
+}
+
+# Function to subset corpus based on community membership
+subset_corpus_by_communities <- function(corpus, communities, time_slice = "all_time_communities", 
+                                       match_any_author = TRUE) {
+  
+  # Get authors from these communities
+  target_authors <- get_authors_from_communities(communities, time_slice)
+  
+  if (length(target_authors) == 0) {
+    warning("No authors found in specified communities for time slice: ", time_slice)
+    return(corpus_subset(corpus, rep(FALSE, ndoc(corpus))))
+  }
+  
+  # Find documents with these authors
+  if (match_any_author) {
+    # Document matches if ANY author is in target communities
+    subset_docs <- map_lgl(docvars(corpus, "authors_list"), function(doc_authors) {
+      any(doc_authors %in% target_authors)
+    })
+  } else {
+    # Document matches if ALL authors are in target communities
+    subset_docs <- map_lgl(docvars(corpus, "authors_list"), function(doc_authors) {
+      all(doc_authors %in% target_authors)
+    })
+  }
+  
+  return(corpus_subset(corpus, subset_docs))
+}
+
+# Examples of using network data functions
+cat("=== NETWORK DATA EXAMPLES ===\n")
+
+# Show available communities
+all_time_communities <- unique(network_data$all_time_communities[!is.na(network_data$all_time_communities)])
+cat("Available communities (all-time):", paste(sort(all_time_communities), collapse = ", "), "\n")
+
+# Example: Get authors from community 1
+comm1_authors <- get_authors_from_communities(1, "all_time_communities")
+cat("Authors in community 1:", length(comm1_authors), "\n")
+if (length(comm1_authors) > 0) {
+  cat("First few authors:", paste(head(comm1_authors, 3), collapse = ", "), "\n")
+}
+
+# Example: Get community info for specific authors
+example_authors <- c("Sir William Ramsay, K. C. B., F. R. S.", "Professor C. Niven, F. R. S.")
+author_comms <- get_author_communities(example_authors, "all_time_communities")
+if (nrow(author_comms) > 0) {
+  cat("Community memberships:\n")
+  print(author_comms)
+}
+```
+
+## Data Preprocessing and Corpus Creation
+
+```{r create-corpus}
+# Create quanteda corpus
+rsc_corpus <- corpus(df_complete$text, 
+                     docnames = df_complete$id)
+
+# Add metadata to corpus (including processed author information)
+corpus_metadata <- df_complete %>% 
+  select(-text) %>%  # Remove text column to avoid duplication
+  rename(doc_id = id)
+
+docvars(rsc_corpus) <- corpus_metadata
+
+# Display corpus summary
+print(rsc_corpus)
+
+# Check that author lists are properly stored
+cat("\nAuthor information in corpus:\n")
+cat("Sample author lists:\n")
+head(docvars(rsc_corpus, "authors_list"), 3)
+```
+
+## Subsetting Framework
+
+### Helper Functions for Subsetting
+
+```{r subsetting-functions}
+# Function to subset corpus by date range
+subset_by_date <- function(corpus, start_year = NULL, end_year = NULL, 
+                          decade = NULL, century = NULL) {
+  
+  if (!is.null(decade)) {
+    # If decade specified (e.g., 1900 for 1900s)
+    start_year <- decade
+    end_year <- decade + 9
+  }
+  
+  if (!is.null(century)) {
+    # If century specified (e.g., 19 for 1900s)
+    start_year <- century * 100
+    end_year <- (century * 100) + 99
+  }
+  
+  if (!is.null(start_year) || !is.null(end_year)) {
+    if (is.null(start_year)) start_year <- min(docvars(corpus, "year"), na.rm = TRUE)
+    if (is.null(end_year)) end_year <- max(docvars(corpus, "year"), na.rm = TRUE)
+    
+    subset_docs <- docvars(corpus, "year") >= start_year & 
+                   docvars(corpus, "year") <= end_year & 
+                   !is.na(docvars(corpus, "year"))
+    
+    return(corpus_subset(corpus, subset_docs))
+  }
+  
+  return(corpus)
+}
+
+# Function to subset corpus by document type
+subset_by_type <- function(corpus, doc_types) {
+  if (!is.null(doc_types) && length(doc_types) > 0) {
+    subset_docs <- docvars(corpus, "type") %in% doc_types
+    return(corpus_subset(corpus, subset_docs))
+  }
+  return(corpus)
+}
+
+# Function to subset corpus by primary topic
+subset_by_topic <- function(corpus, topics, topic_threshold = NULL) {
+  if (!is.null(topics) && length(topics) > 0) {
+    subset_docs <- docvars(corpus, "primaryTopic") %in% topics
+    
+    # Optional: filter by topic percentage threshold
+    if (!is.null(topic_threshold)) {
+      subset_docs <- subset_docs & 
+                     docvars(corpus, "primaryTopicPercentage") >= topic_threshold
+    }
+    
+    return(corpus_subset(corpus, subset_docs))
+  }
+  return(corpus)
+}
+
+# Function to subset corpus by journal
+subset_by_journal <- function(corpus, journals) {
+  if (!is.null(journals) && length(journals) > 0) {
+    subset_docs <- docvars(corpus, "jrnl") %in% journals
+    return(corpus_subset(corpus, subset_docs))
+  }
+  return(corpus)
+}
+
+# Function to subset corpus by authors
+subset_by_authors <- function(corpus, authors, match_type = "any") {
+  if (!is.null(authors) && length(authors) > 0) {
+    if (match_type == "any") {
+      # Documents where any of the specified authors appear
+      subset_docs <- map_lgl(docvars(corpus, "authors_list"), function(doc_authors) {
+        any(authors %in% doc_authors)
+      })
+    } else if (match_type == "all") {
+      # Documents where all specified authors appear
+      subset_docs <- map_lgl(docvars(corpus, "authors_list"), function(doc_authors) {
+        all(authors %in% doc_authors)
+      })
+    } else if (match_type == "first") {
+      # Documents where the first author is one of the specified authors
+      subset_docs <- docvars(corpus, "first_author") %in% authors
+    }
+    
+    return(corpus_subset(corpus, subset_docs))
+  }
+  return(corpus)
+}
+
+# Function to subset corpus by author count
+subset_by_author_count <- function(corpus, min_authors = NULL, max_authors = NULL, 
+                                  single_author = NULL, multi_author = NULL) {
+  subset_docs <- rep(TRUE, ndoc(corpus))
+  
+  if (!is.null(min_authors)) {
+    subset_docs <- subset_docs & docvars(corpus, "author_count") >= min_authors
+  }
+  
+  if (!is.null(max_authors)) {
+    subset_docs <- subset_docs & docvars(corpus, "author_count") <= max_authors
+  }
+  
+  if (!is.null(single_author) && single_author) {
+    subset_docs <- subset_docs & docvars(corpus, "author_count") == 1
+  }
+  
+  if (!is.null(multi_author) && multi_author) {
+    subset_docs <- subset_docs & docvars(corpus, "author_count") > 1
+  }
+  
+  return(corpus_subset(corpus, subset_docs))
+}
+
+# Function to subset corpus by community
+subset_by_community <- function(corpus, communities, time_slice = "all_time_communities", 
+                               match_any_author = TRUE) {
+  return(subset_corpus_by_communities(corpus, communities, time_slice, match_any_author))
+}
+
+# General subsetting function that combines all criteria
+subset_corpus <- function(corpus, 
+                         start_year = NULL, end_year = NULL, 
+                         decade = NULL, century = NULL,
+                         doc_types = NULL, 
+                         topics = NULL, topic_threshold = NULL,
+                         journals = NULL,
+                         authors = NULL, author_match_type = "any",
+                         min_authors = NULL, max_authors = NULL,
+                         single_author = NULL, multi_author = NULL,
+                         communities = NULL, time_slice = "all_time_communities",
+                         match_any_author = TRUE,
+                         debug = FALSE) {
+  
+  result <- corpus
+  if (debug) cat("Starting with", ndoc(result), "documents\n")
+  
+  result <- subset_by_date(result, start_year, end_year, decade, century)
+  if (debug) cat("After date filtering:", ndoc(result), "documents\n")
+  
+  result <- subset_by_type(result, doc_types)
+  if (debug) cat("After type filtering:", ndoc(result), "documents\n")
+  
+  result <- subset_by_topic(result, topics, topic_threshold)
+  if (debug) cat("After topic filtering:", ndoc(result), "documents\n")
+  
+  result <- subset_by_journal(result, journals)
+  if (debug) cat("After journal filtering:", ndoc(result), "documents\n")
+  
+  result <- subset_by_authors(result, authors, author_match_type)
+  if (debug) cat("After author filtering:", ndoc(result), "documents\n")
+  
+  result <- subset_by_author_count(result, min_authors, max_authors, single_author, multi_author)
+  if (debug) cat("After author count filtering:", ndoc(result), "documents\n")
+  
+  # Handle community subsetting separately using network data
+  if (!is.null(communities)) {
+    result <- subset_by_community(result, communities, time_slice, match_any_author)
+    if (debug) cat("After community filtering:", ndoc(result), "documents\n")
+  }
+  
+  return(result)
+}
+```
+
+### Debug Data Issues
+
+```{r debug-data}
+# Let's check what's in our corpus docvars
+cat("=== DEBUGGING CORPUS DATA ===\n")
+cat("Total documents in corpus:", ndoc(rsc_corpus), "\n")
+cat("Corpus docvar names:", paste(names(docvars(rsc_corpus)), collapse = ", "), "\n\n")
+
+# Check decade values
+decade_values <- docvars(rsc_corpus, "decade")
+cat("Unique decade values:", paste(sort(unique(decade_values)), collapse = ", "), "\n")
+cat("Number of 1900 decade docs:", sum(decade_values == 1900, na.rm = TRUE), "\n\n")
+
+# Check document types
+type_values <- docvars(rsc_corpus, "type")
+cat("Unique document types:", paste(unique(type_values), collapse = ", "), "\n")
+cat("Number of article docs:", sum(type_values == "article", na.rm = TRUE), "\n\n")
+
+# Check topics
+topic_values <- docvars(rsc_corpus, "primaryTopic")
+cat("Unique topics (first 10):", paste(sort(unique(topic_values))[1:10], collapse = ", "), "\n")
+physics_topics <- c("Atomic Physics", "Thermodynamics", "Fluid Dynamics")
+cat("Physics topics found:", paste(physics_topics[physics_topics %in% unique(topic_values)], collapse = ", "), "\n")
+cat("Number of physics docs:", sum(topic_values %in% physics_topics, na.rm = TRUE), "\n\n")
+
+# Check multi-author
+multi_author_values <- docvars(rsc_corpus, "is_multi_author")
+cat("Multi-author documents:", sum(multi_author_values, na.rm = TRUE), "\n")
+cat("Author count range:", min(docvars(rsc_corpus, "author_count"), na.rm = TRUE), 
+    "to", max(docvars(rsc_corpus, "author_count"), na.rm = TRUE), "\n\n")
+```
+
+### Test Individual Subsetting Functions
+
+```{r test-individual-functions}
+cat("=== TESTING INDIVIDUAL SUBSETTING FUNCTIONS ===\n")
+
+# Test date subsetting directly
+test_1900s <- subset_by_date(rsc_corpus, decade = 1900)
+cat("Direct decade subsetting (1900s):", ndoc(test_1900s), "documents\n")
+
+# Test type subsetting directly
+test_articles <- subset_by_type(rsc_corpus, "article")
+cat("Direct type subsetting (articles):", ndoc(test_articles), "documents\n")
+
+# Test topic subsetting directly
+test_physics <- subset_by_topic(rsc_corpus, physics_topics)
+cat("Direct topic subsetting (physics):", ndoc(test_physics), "documents\n")
+
+# Test author count subsetting directly
+test_multi_author <- subset_by_author_count(rsc_corpus, multi_author = TRUE)
+cat("Direct multi-author subsetting:", ndoc(test_multi_author), "documents\n")
+```
+
+### Example Subsetting Operations with Debugging
+
+```{r subsetting-examples}
+# Example 1: Subset by decade (1900s) with debugging
+cat("=== DEBUGGING SUBSET_CORPUS FUNCTION ===\n")
+corpus_1900s <- subset_corpus(rsc_corpus, decade = 1900, debug = TRUE)
+cat("1900s corpus:", ndoc(corpus_1900s), "documents\n\n")
+
+# Example 2: Subset by document type (articles only) with debugging
+corpus_articles <- subset_corpus(rsc_corpus, doc_types = "article", debug = TRUE)
+cat("Articles only:", ndoc(corpus_articles), "documents\n\n")
+
+# Example 3: Multi-author documents with debugging
+corpus_multi_author <- subset_corpus(rsc_corpus, multi_author = TRUE, debug = TRUE)
+cat("Multi-author documents:", ndoc(corpus_multi_author), "documents\n\n")
+
+# Let's also test the other examples without debug for cleaner output
+# Example 4: Subset by topic (Physics-related)
+physics_topics <- c("Atomic Physics", "Thermodynamics", "Fluid Dynamics")
+corpus_physics <- subset_corpus(rsc_corpus, topics = physics_topics)
+cat("Physics topics:", ndoc(corpus_physics), "documents\n")
+
+# Example 5: Combined subsetting (1900s physics articles)
+corpus_1900s_physics <- subset_corpus(rsc_corpus, 
+                                     decade = 1900, 
+                                     doc_types = "article",
+                                     topics = physics_topics)
+cat("1900s physics articles:", ndoc(corpus_1900s_physics), "documents\n")
+
+# Example 6: Documents by specific authors
+example_authors <- c("Sir William Ramsay, K. C. B., F. R. S.", "Professor C. Niven, F. R. S.")
+corpus_by_authors <- subset_corpus(rsc_corpus, authors = example_authors)
+cat("Documents by example authors:", ndoc(corpus_by_authors), "documents\n")
+
+# Example 7: Documents from specific communities (using separate network data)
+example_communities <- c(1, 2)
+corpus_communities_alltime <- subset_corpus(rsc_corpus, communities = example_communities)
+cat("Documents from communities 1 & 2 (all-time):", ndoc(corpus_communities_alltime), "documents\n")
+
+# Example 8: Community analysis for specific time period
+corpus_communities_1900s <- subset_corpus(rsc_corpus, communities = c(1, 2), 
+                                         time_slice = "slice_1875_1924")
+cat("Documents from communities 1 & 2 (1875-1924 slice):", ndoc(corpus_communities_1900s), "documents\n")
+
+# Example 9: Get authors from specific communities first, then analyze
+authors_comm1 <- get_authors_from_communities(communities = 1, time_slice = "all_time_communities")
+cat("Authors in community 1:", length(authors_comm1), "authors\n")
+if (length(authors_comm1) > 0) {
+  corpus_comm1_authors <- subset_corpus(rsc_corpus, authors = authors_comm1[1:min(3, length(authors_comm1))])
+  cat("Documents by first 3 authors from community 1:", ndoc(corpus_comm1_authors), "documents\n")
+}
+```
+
+## Data Exploration
+
+### Overview Statistics
+
+```{r data-overview}
+# Create summary statistics
+overview_stats <- df_complete %>%
+  summarise(
+    total_documents = n(),
+    date_range = paste(min(year, na.rm = TRUE), "-", max(year, na.rm = TRUE)),
+    unique_journals = n_distinct(jrnl),
+    unique_authors = n_distinct(author),
+    total_pages = sum(pages, na.rm = TRUE),
+    total_sentences = sum(sentences, na.rm = TRUE),
+    total_tokens = sum(tokens, na.rm = TRUE)
+  )
+
+print(overview_stats)
+```
+
+### Distribution by Key Variables
+
+```{r distributions}
+# Documents by decade
+p1 <- df_complete %>%
+  ggplot(aes(x = decade)) +
+  geom_bar(fill = "steelblue", alpha = 0.7) +
+  labs(title = "Documents by Decade", 
+       x = "Decade", y = "Number of Documents") +
+  theme_minimal()
+
+# Documents by type
+p2 <- df_complete %>%
+  count(type) %>%
+  ggplot(aes(x = reorder(type, n), y = n)) +
+  geom_col(fill = "forestgreen", alpha = 0.7) +
+  coord_flip() +
+  labs(title = "Documents by Type", 
+       x = "Document Type", y = "Number of Documents") +
+  theme_minimal()
+
+# Top primary topics
+p3 <- df_complete %>%
+  count(primaryTopic, sort = TRUE) %>%
+  head(10) %>%
+  ggplot(aes(x = reorder(primaryTopic, n), y = n)) +
+  geom_col(fill = "darkorange", alpha = 0.7) +
+  coord_flip() +
+  labs(title = "Top 10 Primary Topics", 
+       x = "Primary Topic", y = "Number of Documents") +
+  theme_minimal()
+
+# Documents by authorship
+p4 <- df_complete %>%
+  ggplot(aes(x = author_count)) +
+  geom_bar(fill = "purple", alpha = 0.7, binwidth = 1) +
+  labs(title = "Distribution of Author Count per Document", 
+       x = "Number of Authors", y = "Number of Documents") +
+  theme_minimal()
+
+# Single vs multi-author over time
+p5 <- df_complete %>%
+  group_by(decade, is_multi_author) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  ggplot(aes(x = decade, y = count, fill = is_multi_author)) +
+  geom_col(position = "dodge", alpha = 0.7) +
+  labs(title = "Single vs Multi-Author Documents by Decade", 
+       x = "Decade", y = "Number of Documents",
+       fill = "Multi-Author") +
+  theme_minimal()
+
+# Community distributions
+p6 <- network_data %>%
+  filter(node_type == "author", !is.na(all_time_communities)) %>%
+  count(all_time_communities) %>%
+  ggplot(aes(x = reorder(factor(all_time_communities), n), y = n)) +
+  geom_col(fill = "red", alpha = 0.7) +
+  coord_flip() +
+  labs(title = "Authors by Community (All-Time)", 
+       x = "Community", y = "Number of Authors") +
+  theme_minimal()
+
+print(p1)
+print(p2)
+print(p3)
+print(p4)
+print(p5)
+print(p6)
+```
+
+### Available Categories for Subsetting
+
+```{r available-categories}
+# Create reference tables for subsetting options
+cat("=== AVAILABLE SUBSETTING OPTIONS ===\n\n")
+
+cat("DECADES:\n")
+sort(unique(df_complete$decade)) %>% print()
+
+cat("\nDOCUMENT TYPES:\n")
+table(df_complete$type) %>% print()
+
+cat("\nJOURNALS:\n")
+table(df_complete$jrnl) %>% print()
+
+cat("\nTOP PRIMARY TOPICS (with counts):\n")
+df_complete %>% 
+  count(primaryTopic, sort = TRUE) %>% 
+  head(15) %>%
+  print()
+
+cat("\nNETWORK/COMMUNITY DATA (separate dataset):\n")
+cat("Total authors in network data:", sum(network_data$node_type == "author"), "\n")
+cat("Unique communities (all-time):", 
+    length(unique(network_data$all_time_communities[!is.na(network_data$all_time_communities)])), "\n")
+
+cat("\nLARGEST COMMUNITIES (by author count):\n")
+network_data %>%
+  filter(node_type == "author", !is.na(all_time_communities)) %>%
+  count(all_time_communities, sort = TRUE) %>%
+  head(10) %>%
+  print()
+
+cat("\nAUTHOR INFORMATION (in corpus):\n")
+cat("Total unique authors:", length(unique(unlist(df_complete$authors_list))), "\n")
+cat("Average authors per document:", round(mean(df_complete$author_count), 2), "\n")
+cat("Single-author documents:", sum(df_complete$author_count == 1), "\n")
+cat("Multi-author documents:", sum(df_complete$author_count > 1), "\n")
+
+cat("\nMOST PROLIFIC AUTHORS:\n")
+all_authors <- unlist(df_complete$authors_list)
+author_counts <- table(all_authors)
+sort(author_counts, decreasing = TRUE)[1:10] %>% print()
+
+cat("\nDATE RANGE:\n")
+cat("From:", min(df_complete$year, na.rm = TRUE), 
+    "to", max(df_complete$year, na.rm = TRUE), "\n")
+```
+
+## Summary
+
+This framework provides:
+
+1. **Data Loading**: Metadata and text files are loaded and linked
+2. **Separate Network Data**: Community/network information kept as separate dataset
+3. **Author Processing**: Multi-author documents handled properly with author lists
+4. **Corpus Creation**: A quanteda corpus with all metadata attached
+5. **Flexible Subsetting**: Functions to subset by:
+   - Date ranges (years, decades, centuries)
+   - Document types
+   - Primary topics (with optional confidence thresholds)
+   - Journals
+   - Authors (with various matching options)
+   - Author counts (single/multi-author)
+   - Communities (using separate network data)
+   - Any combination of the above
+
+6. **Community Analysis**: Functions to query the separate network dataset and use results to subset the corpus
+7. **Debugging Tools**: Sections to identify any subsetting issues
+8. **Reference Information**: Clear overview of available categories for subsetting
+
+The `subset_corpus()` function allows for flexible combinations of criteria, making it easy to create targeted analyses of specific document collections. The network data remains logically separate but can be used to identify authors from specific communities for corpus subsetting.
+
+Next steps would be to develop specific text analysis functions that can be applied to any subset of the corpus.
