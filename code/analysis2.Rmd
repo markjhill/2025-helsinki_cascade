@@ -266,11 +266,11 @@ cat("Direct topic subsetting (physics):", ndoc(test_physics), "documents\n")
 test_multi_author <- subset_by_author_count(rsc_corpus, multi_author = TRUE)
 cat("Direct multi-author subsetting:", ndoc(test_multi_author), "documents\n")
 ```
-### Example Subsetting Operations with Debugging
+### Example Subsetting Operations
 
 ```{r subsetting-examples}
-# Example 1: Subset by decade (1900s) with debugging
-cat("=== DEBUGGING SUBSET_CORPUS FUNCTION ===\n")
+# Example 1: Subset by decade (1900s) with debugging to show how filtering is working
+
 corpus_1900s <- subset_corpus(rsc_corpus, decade = 1900, debug = TRUE)
 cat("1900s corpus:", ndoc(corpus_1900s), "documents\n\n")
 
@@ -323,9 +323,8 @@ if (length(authors_comm1) > 0) {
 
 **Research Questions Possible**: What are the most common concepts discussed by the Royal Society overall?
 
+
 ```{r baseline-analysis}
-cat("=== ANALYSIS 1: ALL TEXT (NO METADATA SUBSETTING) ===\n")
-cat("Question: What are the dominant concepts in Royal Society publications?\n\n")
 
 # Create basic corpus for analysis (full dataset)
 full_corpus <- rsc_corpus
