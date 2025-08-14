@@ -41,6 +41,13 @@ library(stringr)
 library(purrr)
 library(DT)
 library(plotly)
+
+custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof", "#151",
+                  "#183", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
+                  "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
+                  "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
+                  "another", "professor",
+                  letters)
 ```
 
 
@@ -235,16 +242,6 @@ p2 <- type_values %>%
 print(p2)
 ```
 
-
-```{r}
-custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof", "#151",
-                  "#183", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
-                  "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
-                  "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
-                  "another", "professor",
-                  letters)
-```
-
 # Test Individual Subsetting Functions
 
 EXPLAIN HOW FUNCTION WORKS
@@ -324,17 +321,11 @@ if (length(authors_comm1) > 0) {
 **Research Questions Possible**: What are the most common concepts discussed by the Royal Society overall?
 
 
+
 ```{r baseline-analysis}
 
 # Create basic corpus for analysis (full dataset)
 full_corpus <- rsc_corpus
-
-# Basic corpus overview
-cat("Corpus Overview:\n")
-cat("Total documents:", ndoc(full_corpus), "\n")
-cat("Total tokens:", sum(ntoken(full_corpus)), "\n")
-cat("Date range:", min(docvars(full_corpus, "year"), na.rm = TRUE), "to", 
-    max(docvars(full_corpus, "year"), na.rm = TRUE), "\n\n")
 
 # Create tokens and remove stopwords
 full_tokens <- tokens(full_corpus, remove_punct = TRUE, remove_numbers = TRUE, 
