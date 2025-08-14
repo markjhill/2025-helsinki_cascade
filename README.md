@@ -9,6 +9,12 @@ This workshop constrasts different computational approaches to the analysis of t
 
 [The Royal Society Corpus](https://fedora.clarin-d.uni-saarland.de/rsc_v6/)
 
+**Notes**
+
+For the "type" of document see the table below:
+
+"abstract, acknowledgement, addendum, appendix, article, astronomical, observation, bibliography, bill of mortality, biography, book review, catalogue, corrigenda, discussion, editorial, errata, experiment, index, lecture, letter, list, magnetical observation, meteorological observation, notes, obituary, preface, report, speech and symposium." (Menzel et al., p. 11)
+
 **Citations**
 
 Fischer, Stefan, Jörg Knappen, Katrin Menzel, and Elke Teich. 2020. “The Royal Society Corpus 6.0: Providing 300+ Years of Scientific Writing for Humanistic Study.” In Proceedings of the 12th Language Resources and Evaluation Conference, 794–802. Marseille, France: European Language Resources Association. https://www.aclweb.org/anthology/2020.lrec-1.99.
