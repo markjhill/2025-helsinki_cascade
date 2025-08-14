@@ -46,7 +46,7 @@ custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "pro
                   "#183", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
                   "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
                   "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
-                  "another", "professor",
+                  "another", "professor", "roy", "soc",
                   letters)
 ```
 
@@ -110,7 +110,7 @@ p6 <- network_data %>%
   filter(node_type == "author", !is.na(all_time_communities), all_time_communities != 0) %>%
   count(all_time_communities) %>%
   ggplot(aes(x = reorder(factor(all_time_communities), -n), y = n)) +
-  geom_col(fill = "red") +
+  geom_col() +
   labs(title = "Authors by Community (All-Time)", 
        x = "Community", y = "Number of Authors") +
   theme_minimal()
@@ -339,23 +339,23 @@ full_dfm <- dfm(full_tokens)
 
 # Most frequent terms
 cat("Top 20 Most Frequent Terms (All Documents):\n")
-topfeatures(full_dfm, 20) %>% print()
+topfeatures(full_dfm, 50) %>% print()
 
 # Most frequent bigrams
 full_bigrams <- tokens_ngrams(full_tokens, n = 2) %>% dfm()
 cat("\nTop 10 Most Frequent Bigrams:\n")
-topfeatures(full_bigrams, 10) %>% print()
+topfeatures(full_bigrams, 50) %>% print()
 
-cat("\n" , rep("=", 60), "\n")
+
 ```
 
 # 2. Temporal Metadata: Historical Evolution
 
 **Research Questions Enabled**: How did scientific concepts evolve over time? When did new terminology emerge?
 
+Comparing language in the 18th and 19th centuries.
+
 ```{r temporal-analysis}
-cat("=== ANALYSIS 2: TEMPORAL COMPARISON (1700s vs 1800s) ===\n")
-cat("Question: How did scientific vocabulary change between the 19th and 20th centuries?\n\n")
 
 # Create temporal subsets
 corpus_1700s <- subset_corpus(rsc_corpus, start_year = 1700, end_year = 1799)
@@ -426,7 +426,6 @@ if(sum(stringr::str_detect(featnames(dfm_1800s), "electron")) > 0) {
   kwic(tokens_1800s, top_emerging_word, window = 5) %>% head(5) 
 }
 
-cat("\n" , rep("=", 60), "\n")
 ```
 
 # 3. Network/Community Metadata: Intellectual Communities
@@ -434,8 +433,7 @@ cat("\n" , rep("=", 60), "\n")
 **Research Questions Enabled**: How do different scholarly communities use language differently? What concepts are community-specific vs. shared?
 
 ```{r network-analysis}
-cat("=== ANALYSIS 3: COMMUNITY COMPARISON ===\n")
-cat("Question: How do different intellectual communities discuss scientific concepts?\n\n")
+
 
 # NB: Community zero represents isolates - needs to be dropped!
 # Get the largest communities for meaningful comparison
@@ -510,7 +508,7 @@ if(ndoc(corpus_comm1) > 0 && ndoc(corpus_comm2) > 0) {
   cat("Insufficient documents in one or both communities for comparison.\n")
 }
 
-cat("\n" , rep("=", 60), "\n")
+
 ```
 
 # 4. Topical Metadata: Disciplinary Language
@@ -518,8 +516,6 @@ cat("\n" , rep("=", 60), "\n")
 **Research Questions Enabled**: How do different fields use scientific language? What terminology is field-specific?
 
 ```{r topic-analysis}
-cat("=== ANALYSIS 4: TOPICAL COMPARISON ===\n")
-cat("Question: How does scientific language differ between research areas?\n\n")
 
 # Find the most common topics for comparison
 common_topics <- df_complete %>%
@@ -597,7 +593,6 @@ topfeatures(topic1_bigrams, 8) %>% print()
 cat("\nTop Bigrams in", common_topics[2], ":\n")
 topfeatures(topic2_bigrams, 8) %>% print()
 
-cat("\n" , rep("=", 60), "\n")
 ```
 
 # 5. Authorship Metadata: Individual vs Collaborative Work
@@ -605,8 +600,6 @@ cat("\n" , rep("=", 60), "\n")
 **Research Questions Enabled**: How does collaboration affect scientific language? Do single authors write differently than teams?
 
 ```{r authorship-analysis}
-cat("=== ANALYSIS 5: AUTHORSHIP COMPARISON (Single vs Multi-Author) ===\n")
-cat("Question: How does scientific language differ between individual and collaborative work?\n\n")
 
 # Create authorship-based subsets
 corpus_single <- subset_corpus(rsc_corpus, single_author = TRUE)
@@ -665,7 +658,6 @@ auth_keyness %>%
   head(10) %>% 
   print()
 
-cat("\n" , rep("=", 60), "\n")
 ```
 
 # 6. Combined Metadata: Complex Questions
@@ -673,8 +665,6 @@ cat("\n" , rep("=", 60), "\n")
 **Research Questions Enabled**: How do multiple metadata dimensions interact? What happens when we layer different contextual factors?
 
 ```{r combined-analysis}
-cat("=== ANALYSIS 6: COMBINED METADATA (Topic + Time) ===\n")
-cat("Question: How did language in a specific field evolve over time?\n\n")
 
 # Example: How did physics language change from 1800s to 1900s?
 physics_topics <- c("Atomic Physics", "Thermodynamics", "Fluid Dynamics", "Electricity")
@@ -743,44 +733,39 @@ if(length(available_physics) > 0) {
   cat("No physics topics found in available data\n")
 }
 
-cat("\n" , rep("=", 60), "\n")
 ```
 
 # Summary: What We've Learned
 
-```{r summary}
-cat("=== METHODOLOGICAL SUMMARY ===\n\n")
+1. BASELINE (No Metadata): Only reveals general vocabulary patterns
+Limitation: No context for interpretation
 
-cat("1. BASELINE (No Metadata): Only reveals general vocabulary patterns\n")
-cat("   - Limitation: No context for interpretation\n\n")
+2. TEMPORAL METADATA: Enables historical analysis
+New questions: When did concepts emerge? How did language evolve?
 
-cat("2. TEMPORAL METADATA: Enables historical analysis\n") 
-cat("   - New questions: When did concepts emerge? How did language evolve?\n\n")
+3. NETWORK METADATA: Reveals social dimensions of knowledge
+New questions: How do communities differ? What language is shared vs. specialized?
 
-cat("3. NETWORK METADATA: Reveals social dimensions of knowledge\n")
-cat("   - New questions: How do communities differ? What language is shared vs. specialized?\n\n")
+4. TOPICAL METADATA: Shows disciplinary differences
+New questions: How do fields use language differently? What is field-specific?
 
-cat("4. TOPICAL METADATA: Shows disciplinary differences\n")
-cat("   - New questions: How do fields use language differently? What is field-specific?\n\n")
+5. AUTHORSHIP METADATA: Reveals collaborative effects
+New questions: How does collaboration affect language? Individual vs. team patterns?
 
-cat("5. AUTHORSHIP METADATA: Reveals collaborative effects\n")
-cat("   - New questions: How does collaboration affect language? Individual vs. team patterns?\n\n")
+6. COMBINED METADATA: Enables complex, nuanced questions
+New questions: How do multiple factors interact? Layered contextual analysis
 
-cat("6. COMBINED METADATA: Enables complex, nuanced questions\n")
-cat("   - New questions: How do multiple factors interact? Layered contextual analysis\n\n")
+KEY INSIGHT: Metadata doesn't just provide context—it fundamentally determines
+what research questions are possible to ask and answer.
 
-cat("KEY INSIGHT: Metadata doesn't just provide context—it fundamentally determines\n")
-cat("what research questions are possible to ask and answer.\n\n")
+Always consider what metadata dimensions are available in your
+corpus and how they could enable different analytical approaches.
 
-cat("For students: Always consider what metadata dimensions are available in your\n")
-cat("corpus and how they could enable different analytical approaches.\n")
-```
-
-# Student Exercise Template
+# Exercise Template
 
 ```{r exercise-template, eval=FALSE}
-# TEMPLATE FOR STUDENT ANALYSIS
-# Students can modify these parameters to explore different questions:
+# TEMPLATE FOR EXERCISE ANALYSIS
+# Modify these parameters to explore different questions:
 
 # Choose your comparison:
 my_decade1 <- 1850  # or any decade
