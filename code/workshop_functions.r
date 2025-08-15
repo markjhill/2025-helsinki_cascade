@@ -1,4 +1,38 @@
-# Functions for analysing data
+# Universal Functions for analysing corpus and DFM data
+# These functions work with both quanteda corpus and DFM objects
+
+# Helper function to detect object type and get docvars
+get_docvars <- function(obj) {
+  if (inherits(obj, "corpus")) {
+    return(docvars(obj))
+  } else if (inherits(obj, "dfm")) {
+    return(docvars(obj))
+  } else {
+    stop("Object must be a quanteda corpus or dfm")
+  }
+}
+
+# Helper function to get document count
+get_ndoc <- function(obj) {
+  if (inherits(obj, "corpus")) {
+    return(ndoc(obj))
+  } else if (inherits(obj, "dfm")) {
+    return(ndoc(obj))
+  } else {
+    stop("Object must be a quanteda corpus or dfm")
+  }
+}
+
+# Helper function to subset objects
+subset_object <- function(obj, logical_vector) {
+  if (inherits(obj, "corpus")) {
+    return(corpus_subset(obj, logical_vector))
+  } else if (inherits(obj, "dfm")) {
+    return(dfm_subset(obj, logical_vector))
+  } else {
+    stop("Object must be a quanteda corpus or dfm")
+  }
+}
 
 # Function to get authors from specific communities in a time slice
 get_authors_from_communities <- function(communities, time_slice = "all_time_communities") {
@@ -22,35 +56,8 @@ get_author_communities <- function(authors, time_slice = "all_time_communities")
   return(author_communities)
 }
 
-# # Function to determine best time slice for a given year
-# get_best_time_slice <- function(year) {
-#   if (is.na(year)) return("all_time_communities")
-#   
-#   time_slices <- list(
-#     "slice_1650_1699" = c(1650, 1699),
-#     "slice_1675_1724" = c(1675, 1724),
-#     "slice_1700_1749" = c(1700, 1749),
-#     "slice_1725_1774" = c(1725, 1774),
-#     "slice_1750_1799" = c(1750, 1799),
-#     "slice_1775_1824" = c(1775, 1824),
-#     "slice_1800_1849" = c(1800, 1849),
-#     "slice_1825_1874" = c(1825, 1874),
-#     "slice_1850_1899" = c(1850, 1899),
-#     "slice_1875_1924" = c(1875, 1924)
-#   )
-#   
-#   for (slice_name in names(time_slices)) {
-#     slice_range <- time_slices[[slice_name]]
-#     if (year >= slice_range[1] && year <= slice_range[2]) {
-#       return(slice_name)
-#     }
-#   }
-#   
-#   return("all_time_communities")
-# }
-
-# Function to subset corpus based on community membership
-subset_corpus_by_communities <- function(corpus, communities, time_slice = "all_time_communities", 
+# Function to subset corpus/dfm based on community membership
+subset_corpus_by_communities <- function(obj, communities, time_slice = "all_time_communities", 
                                          match_any_author = TRUE) {
   
   # Get authors from these communities
@@ -58,144 +65,154 @@ subset_corpus_by_communities <- function(corpus, communities, time_slice = "all_
   
   if (length(target_authors) == 0) {
     warning("No authors found in specified communities for time slice: ", time_slice)
-    return(corpus_subset(corpus, rep(FALSE, ndoc(corpus))))
+    return(subset_object(obj, rep(FALSE, get_ndoc(obj))))
   }
+  
+  # Get document variables
+  obj_docvars <- get_docvars(obj)
   
   # Find documents with these authors
   if (match_any_author) {
     # Document matches if ANY author is in target communities
-    subset_docs <- map_lgl(docvars(corpus, "authors_list"), function(doc_authors) {
+    subset_docs <- map_lgl(obj_docvars$authors_list, function(doc_authors) {
       any(doc_authors %in% target_authors)
     })
   } else {
     # Document matches if ALL authors are in target communities
-    subset_docs <- map_lgl(docvars(corpus, "authors_list"), function(doc_authors) {
+    subset_docs <- map_lgl(obj_docvars$authors_list, function(doc_authors) {
       all(doc_authors %in% target_authors)
     })
   }
   
-  return(corpus_subset(corpus, subset_docs))
+  return(subset_object(obj, subset_docs))
 }
 
-# Function to subset corpus by date range
-subset_by_date <- function(corpus, start_year = NULL, end_year = NULL, 
+# Function to subset corpus/dfm by date range
+subset_by_date <- function(obj, start_year = NULL, end_year = NULL, 
                            decade = NULL, century = NULL) {
   
-  if (!is.null(decade)) {
-    # If decade specified (e.g., 1900 for 1900s)
-    start_year <- decade
-    end_year <- decade + 9
-  }
+  obj_docvars <- get_docvars(obj)
+  subset_docs <- rep(TRUE, get_ndoc(obj))
   
-  if (!is.null(century)) {
-    # If century specified (e.g., 19 for 1900s)
-    start_year <- century * 100
-    end_year <- (century * 100) + 99
-  }
-  
+  # Filter by year range
   if (!is.null(start_year) || !is.null(end_year)) {
-    if (is.null(start_year)) start_year <- min(docvars(corpus, "year"), na.rm = TRUE)
-    if (is.null(end_year)) end_year <- max(docvars(corpus, "year"), na.rm = TRUE)
+    if (is.null(start_year)) start_year <- min(obj_docvars$year, na.rm = TRUE)
+    if (is.null(end_year)) end_year <- max(obj_docvars$year, na.rm = TRUE)
     
-    subset_docs <- docvars(corpus, "year") >= start_year & 
-      docvars(corpus, "year") <= end_year & 
-      !is.na(docvars(corpus, "year"))
-    
-    return(corpus_subset(corpus, subset_docs))
+    subset_docs <- subset_docs & 
+      obj_docvars$year >= start_year & 
+      obj_docvars$year <= end_year & 
+      !is.na(obj_docvars$year)
   }
   
-  return(corpus)
-}
-
-# Function to subset corpus by document type
-subset_by_type <- function(corpus, doc_types) {
-  if (!is.null(doc_types) && length(doc_types) > 0) {
-    subset_docs <- docvars(corpus, "type") %in% doc_types
-    return(corpus_subset(corpus, subset_docs))
+  # Filter by decade
+  if (!is.null(decade)) {
+    subset_docs <- subset_docs & obj_docvars$decade %in% decade
   }
-  return(corpus)
+  
+  # Filter by century using existing century docvar
+  if (!is.null(century)) {
+    subset_docs <- subset_docs & obj_docvars$century %in% century
+  }
+  
+  return(subset_object(obj, subset_docs))
 }
 
-# Function to subset corpus by primary topic
-subset_by_topic <- function(corpus, topics, topic_threshold = NULL) {
+# Function to subset corpus/dfm by document type
+subset_by_type <- function(obj, doc_types) {
+  if (!is.null(doc_types) && length(doc_types) > 0) {
+    obj_docvars <- get_docvars(obj)
+    subset_docs <- obj_docvars$type %in% doc_types
+    return(subset_object(obj, subset_docs))
+  }
+  return(obj)
+}
+
+# Function to subset corpus/dfm by primary topic
+subset_by_topic <- function(obj, topics, topic_threshold = NULL) {
   if (!is.null(topics) && length(topics) > 0) {
-    subset_docs <- docvars(corpus, "primaryTopic") %in% topics
+    obj_docvars <- get_docvars(obj)
+    subset_docs <- obj_docvars$primaryTopic %in% topics
     
     # Optional: filter by topic percentage threshold
     if (!is.null(topic_threshold)) {
       subset_docs <- subset_docs & 
-        docvars(corpus, "primaryTopicPercentage") >= topic_threshold
+        obj_docvars$primaryTopicPercentage >= topic_threshold
     }
     
-    return(corpus_subset(corpus, subset_docs))
+    return(subset_object(obj, subset_docs))
   }
-  return(corpus)
+  return(obj)
 }
 
-# Function to subset corpus by journal
-subset_by_journal <- function(corpus, journals) {
+# Function to subset corpus/dfm by journal
+subset_by_journal <- function(obj, journals) {
   if (!is.null(journals) && length(journals) > 0) {
-    subset_docs <- docvars(corpus, "jrnl") %in% journals
-    return(corpus_subset(corpus, subset_docs))
+    obj_docvars <- get_docvars(obj)
+    subset_docs <- obj_docvars$jrnl %in% journals
+    return(subset_object(obj, subset_docs))
   }
-  return(corpus)
+  return(obj)
 }
 
-# Function to subset corpus by authors
-subset_by_authors <- function(corpus, authors, match_type = "any") {
+# Function to subset corpus/dfm by authors
+subset_by_authors <- function(obj, authors, match_type = "any") {
   if (!is.null(authors) && length(authors) > 0) {
+    obj_docvars <- get_docvars(obj)
+    
     if (match_type == "any") {
       # Documents where any of the specified authors appear
-      subset_docs <- map_lgl(docvars(corpus, "authors_list"), function(doc_authors) {
+      subset_docs <- map_lgl(obj_docvars$authors_list, function(doc_authors) {
         any(authors %in% doc_authors)
       })
     } else if (match_type == "all") {
       # Documents where all specified authors appear
-      subset_docs <- map_lgl(docvars(corpus, "authors_list"), function(doc_authors) {
+      subset_docs <- map_lgl(obj_docvars$authors_list, function(doc_authors) {
         all(authors %in% doc_authors)
       })
     } else if (match_type == "first") {
       # Documents where the first author is one of the specified authors
-      subset_docs <- docvars(corpus, "first_author") %in% authors
+      subset_docs <- obj_docvars$first_author %in% authors
     }
     
-    return(corpus_subset(corpus, subset_docs))
+    return(subset_object(obj, subset_docs))
   }
-  return(corpus)
+  return(obj)
 }
 
-# Function to subset corpus by author count
-subset_by_author_count <- function(corpus, min_authors = NULL, max_authors = NULL, 
+# Function to subset corpus/dfm by author count
+subset_by_author_count <- function(obj, min_authors = NULL, max_authors = NULL, 
                                    single_author = NULL, multi_author = NULL) {
-  subset_docs <- rep(TRUE, ndoc(corpus))
+  obj_docvars <- get_docvars(obj)
+  subset_docs <- rep(TRUE, get_ndoc(obj))
   
   if (!is.null(min_authors)) {
-    subset_docs <- subset_docs & docvars(corpus, "author_count") >= min_authors
+    subset_docs <- subset_docs & obj_docvars$author_count >= min_authors
   }
   
   if (!is.null(max_authors)) {
-    subset_docs <- subset_docs & docvars(corpus, "author_count") <= max_authors
+    subset_docs <- subset_docs & obj_docvars$author_count <= max_authors
   }
   
   if (!is.null(single_author) && single_author) {
-    subset_docs <- subset_docs & docvars(corpus, "author_count") == 1
+    subset_docs <- subset_docs & obj_docvars$author_count == 1
   }
   
   if (!is.null(multi_author) && multi_author) {
-    subset_docs <- subset_docs & docvars(corpus, "author_count") > 1
+    subset_docs <- subset_docs & obj_docvars$author_count > 1
   }
   
-  return(corpus_subset(corpus, subset_docs))
+  return(subset_object(obj, subset_docs))
 }
 
-# Function to subset corpus by community
-subset_by_community <- function(corpus, communities, time_slice = "all_time_communities", 
+# Function to subset corpus/dfm by community
+subset_by_community <- function(obj, communities, time_slice = "all_time_communities", 
                                 match_any_author = TRUE) {
-  return(subset_corpus_by_communities(corpus, communities, time_slice, match_any_author))
+  return(subset_corpus_by_communities(obj, communities, time_slice, match_any_author))
 }
 
 # General subsetting function that combines all criteria
-subset_corpus <- function(corpus, 
+subset_corpus <- function(obj, 
                           start_year = NULL, end_year = NULL, 
                           decade = NULL, century = NULL,
                           doc_types = NULL, 
@@ -208,32 +225,37 @@ subset_corpus <- function(corpus,
                           match_any_author = TRUE,
                           debug = FALSE) {
   
-  result <- corpus
-  if (debug) cat("Starting with", ndoc(result), "documents\n")
+  result <- obj
+  if (debug) cat("Starting with", get_ndoc(result), "documents\n")
   
   result <- subset_by_date(result, start_year, end_year, decade, century)
-  if (debug) cat("After date filtering:", ndoc(result), "documents\n")
+  if (debug) cat("After date filtering:", get_ndoc(result), "documents\n")
   
   result <- subset_by_type(result, doc_types)
-  if (debug) cat("After type filtering:", ndoc(result), "documents\n")
+  if (debug) cat("After type filtering:", get_ndoc(result), "documents\n")
   
   result <- subset_by_topic(result, topics, topic_threshold)
-  if (debug) cat("After topic filtering:", ndoc(result), "documents\n")
+  if (debug) cat("After topic filtering:", get_ndoc(result), "documents\n")
   
   result <- subset_by_journal(result, journals)
-  if (debug) cat("After journal filtering:", ndoc(result), "documents\n")
+  if (debug) cat("After journal filtering:", get_ndoc(result), "documents\n")
   
   result <- subset_by_authors(result, authors, author_match_type)
-  if (debug) cat("After author filtering:", ndoc(result), "documents\n")
+  if (debug) cat("After author filtering:", get_ndoc(result), "documents\n")
   
   result <- subset_by_author_count(result, min_authors, max_authors, single_author, multi_author)
-  if (debug) cat("After author count filtering:", ndoc(result), "documents\n")
+  if (debug) cat("After author count filtering:", get_ndoc(result), "documents\n")
   
   # Handle community subsetting separately using network data
   if (!is.null(communities)) {
     result <- subset_by_community(result, communities, time_slice, match_any_author)
-    if (debug) cat("After community filtering:", ndoc(result), "documents\n")
+    if (debug) cat("After community filtering:", get_ndoc(result), "documents\n")
   }
   
   return(result)
+}
+
+# Convenience wrapper functions for backward compatibility
+subset_dfm <- function(dfm, ...) {
+  subset_corpus(dfm, ...)
 }

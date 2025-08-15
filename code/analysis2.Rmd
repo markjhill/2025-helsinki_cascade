@@ -467,6 +467,15 @@ if (length(authors_comm1) > 0) {
 }
 ```
 
+Finally, once a corpus is subset, you can examine the documents that remain.
+
+```{r corpus_docs}
+corpus_comm1_authors
+
+full_text_test <- as.character(corpus_comm1_authors)[3]   # get the third document
+cat(full_text_test) # print the whole thing
+```
+
 # Analysing Text
 
 For this portion of the workbook we will use the Quantitative Text Analysis(QTA)/Natural Language Processing(NLP) library Quanteda.
@@ -484,15 +493,20 @@ test_dfm <- tokens(test_corpus) %>%
 # And let's look at it
 print(test_dfm)
 ```
-It is the frequency and relationship of these features (tokens, words) that is central to NLP. We will, therefore, be analysing DFMs which are quantitative representation of our documents - figuratively "bags of words."
+It is the frequency and relationship of these features (tokens, words) that is central to NLP. We will, therefore, be analysing DFMs which are quantitative representation of our documents - figuratively "bags of words." *N.B.* This also means that the human-readable text is no longer there. If you want to read a document you will need to go back to the corpus object.
 
-To do this, we first need to construct our DFM from the RSC.
+For example, it becomes easy (and computationally less difficult) to identify the most frequent words (or other features):
+
+```{r test_mfw}
+topfeatures(test_dfm)
+```
+
+It is, therefore, a DFM of the RSC that we will analyse going forward. However, to do this we first need to construct it.
+
+*N.B.:* this can take a few minutes, depending on computational resources. An already constructed DFM can be loaded by commenting out code:
 
 ```{r construct_dfm}
-# Note - this can take a a few minutes. An already constructed DFM can be loaded with the following commented out code:
-
-# rsc_dfm <- readRDS()
-
+# rsc_dfm <- readRDS("../data/rsc_dfm.RDS")
 
 start_time <- Sys.time()
 
@@ -506,10 +520,41 @@ rsc_tokens <- tokens(rsc_corpus, remove_punct = TRUE, remove_numbers = TRUE,
 rsc_dfm <- dfm(rsc_tokens)
 
 end_time <- Sys.time()
-cat("Total time taken to tokenise and createa DFM:", end_time-start_time)
+cat("Total time taken to tokenise and create DFM:")
+print(end_time-start_time)
 
 #saveRDS(rsc_dfm, file = "../data/rsc_dfm.RDS")
 ```
+
+And now we can begin to analyse the text.
+
+```{r rsc_dfm_and_mff}
+topfeatures(rsc_dfm, n = 50)
+```
+
+However, we can quickly see that many of these "words" are not meaningful. We therefore may also want to create our own constum stopword list.
+
+```{r updating_dfm}
+######################################
+# A custom list of stopwords (and symbols).
+# YOU MAY WANT TO UPDATE THIS TO ADD AND/OR REMOVE WORDS AS YOU ANALYSE DATA YOURSELF
+######################################
+
+custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof", "#151",
+                  "#183", "#169", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
+                  "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
+                  "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
+                  "another", "professor", "roy", "soc", "first", "part", "much", "given",
+                  "great", "now", "must", "thus", "therefore", "seen", "however", "amp", 
+                  "second", "taken", "without", "many", "well", "f.r.s.", "table", "ii",
+                  "iii", "iv", "v", "vi", "vii", "viii", "ix", "mdash", "figs",
+                  letters)
+
+rsc_dfm <- dfm_remove(rsc_dfm,  pattern = custom_stopwords)
+
+topfeatures(rsc_dfm, n = 50)
+```
+You can recreate (or reload) the DFM at any point if you think you've removed too many.
 
 ## 1. Baseline: Text Without Metadata Context
 
@@ -525,45 +570,22 @@ This baseline represents the starting point for any text analysis -- but also de
 
 ```{r baseline-analysis}
 
-# Tokenise corpus, while removing punctuation, numbers, symbols, and stopwords as well as lowercasing everything
-rsc_tokens <- tokens(rsc_corpus, remove_punct = TRUE, remove_numbers = TRUE, 
-                      remove_symbols = TRUE) %>%
-  tokens_tolower() %>%
-  tokens_remove(stopwords("english"))
-
-# Document-feature matrix
-rsc_full_dfm <- dfm(rsc_tokens)
-
 # Most frequent terms
 cat("Top 20 Most Frequent Terms (All Documents):\n")
-topfeatures(full_dfm, 50) %>% print()
+topfeatures(rsc_dfm, 50) %>% print()
 
-# Most frequent bigrams
-full_bigrams <- tokens_ngrams(full_tokens, n = 2) %>% dfm()
+# Most frequent n-grams
+rsc_bigrams <- rsc_tokens %>%
+  tokens_remove(c(custom_stopwords)) %>%
+  tokens_ngrams(n = 2) %>% 
+  dfm()
 cat("\nTop 10 Most Frequent Bigrams:\n")
-topfeatures(full_bigrams, 50) %>% print()
+topfeatures(rsc_bigrams, 50) %>% print()
 
 
 ```
 
-
-```{r updating_dfm}
-######################################
-# A custom list of stopwords (and symbols).
-# YOU MAY WANT TO UPDATE THIS TO ADD AND/OR REMOVE WORDS AS YOU ANALYSE DATA YOURSELF
-######################################
-
-custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof", "#151",
-                  "#183", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
-                  "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
-                  "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
-                  "another", "professor", "roy", "soc",
-                  letters)
-
-```
-
-
-# 2. Temporal Metadata: Historical Evolution
+## 2. Temporal Metadata: Historical Evolution
 
 **Research Questions Enabled**: How did scientific concepts evolve over time? When did new terminology emerge?
 
@@ -571,33 +593,22 @@ Comparing language in the 18th and 19th centuries.
 
 ```{r temporal-analysis}
 
-# Create temporal subsets
-corpus_1700s <- subset_corpus(rsc_corpus, start_year = 1700, end_year = 1799)
-corpus_1800s <- subset_corpus(rsc_corpus, start_year = 1800, end_year = 1899)
+# Create by century
+dfm_1700s <- subset_corpus(rsc_dfm, century = 1700)
+dfm_1800s <- subset_corpus(rsc_dfm, century = 1800)
+
+# # Create or by start and end year
+# dfm_1700s <- subset_corpus(rsc_dfm, start_year = 1700, end_year = 1799)
+# dfm_1800s <- subset_corpus(rsc_dfm, start_year = 1800, end_year = 1899)
 
 # Overview of temporal subsets
 cat("\n1700s Corpus:\n") 
-cat("Documents:", ndoc(corpus_1700s), "\n")
-cat("Tokens:", sum(ntoken(corpus_1700s)), "\n\n")
+cat("Documents:", ndoc(dfm_1700s), "\n")
+cat("Tokens:", sum(ntoken(dfm_1700s)), "\n\n")
 
 cat("\n1800s Corpus:\n")
-cat("Documents:", ndoc(corpus_1800s), "\n")
-cat("Tokens:", sum(ntoken(corpus_1800s)), "\n")
-
-# Process tokens for both periods
-tokens_1800s <- tokens(corpus_1800s, remove_punct = TRUE, remove_numbers = TRUE) %>%
-  tokens_tolower() %>%
-  tokens_remove(stopwords("english")) %>%
-  tokens_remove(custom_stopwords)
-
-tokens_1700s <- tokens(corpus_1700s, remove_punct = TRUE, remove_numbers = TRUE) %>%
-  tokens_tolower() %>%
-  tokens_remove(stopwords("english")) %>%
-  tokens_remove(custom_stopwords)
-
-# Create DFMs
-dfm_1800s <- dfm(tokens_1800s)
-dfm_1700s <- dfm(tokens_1700s)
+cat("Documents:", ndoc(dfm_1800s), "\n")
+cat("Tokens:", sum(ntoken(dfm_1800s)), "\n")
 
 # Compare top terms
 cat("\nTop 15 Terms in 1700s:\n")
@@ -605,50 +616,96 @@ topfeatures(dfm_1700s, 15) %>% print()
 
 cat("Top 15 Terms in 1800s:\n")
 topfeatures(dfm_1800s, 15) %>% print()
+```
 
-# Look for terms that became more prominent in 1800s
-# Simple frequency comparison (normalized by corpus size)
-freq_1700s <- textstat_frequency(dfm_1700s) %>%
-  mutate(rel_freq_1700s = frequency / sum(ntoken(corpus_1700s))) %>%
-  select(feature, rel_freq_1700s)
+This is quite insightful at first glance, but top features alone only tell us so much. What about less frequent, but completely new words? For that we can look at relative frequency (keyness).
 
-freq_1800s <- textstat_frequency(dfm_1800s) %>% 
-  mutate(rel_freq_1800s = frequency / sum(ntoken(corpus_1800s))) %>%
-  select(feature, rel_freq_1800s)
+```{r relative_freq}
 
-# Find terms that increased dramatically
-freq_comparison <- merge(freq_1700s, freq_1800s, by = "feature", all = TRUE)
-freq_comparison[is.na(freq_comparison)] <- 0
-freq_comparison$ratio <- freq_comparison$rel_freq_1800s / (freq_comparison$rel_freq_1700s + 0.0001)
+# Compare 1700s vs 1800s using keyness analysis
+# This is statistically rigorous and much simpler than manual frequency ratios
 
-cat("\nTerms that became much more frequent in 1800s (ratio > 3):\n")
-freq_comparison %>%
-  filter(rel_freq_1700s > 0.0001, ratio > 3) %>%
-  arrange(desc(ratio)) %>%
-  head(10)
+# Combine the DFMs and add period labels
+combined_dfm <- rbind(dfm_1700s, dfm_1800s)
+docvars(combined_dfm, "period") <- c(rep("1700s", ndoc(dfm_1700s)),
+                                     rep("1800s", ndoc(dfm_1800s)))
 
-top_emerging_word <- freq_comparison %>%
-    filter(rel_freq_1700s > 0.0001, ratio > 3) %>%
-    arrange(desc(ratio)) %>%
-    head(1)
+# Calculate keyness (target = TRUE means 1800s vs 1700s)
+keyness_results <- textstat_keyness(combined_dfm, 
+                                    target = docvars(combined_dfm, "period") == "1800s")
 
-top_emerging_word <- top_emerging_word$feature
+# Terms that became much more prominent in 1800s
+cat("\nTerms most distinctive of 1800s (became much more frequent):\n")
+keyness_results %>% 
+  filter(chi2 > 0) %>% 
+  arrange(desc(chi2)) %>% 
+  head(10) %>% 
+  print()
 
-# KWIC analysis for an emerging term
-if(sum(stringr::str_detect(featnames(dfm_1800s), "electron")) > 0) {
-  cat("\nKeyword in Context:", top_emerging_word, "in 1800s texts:\n")
-  kwic(tokens_1800s, top_emerging_word, window = 5) %>% head(5) 
-}
+# Terms that were more characteristic of 1700s (declined in 1800s)
+cat("\nTerms most distinctive of 1700s (declined in 1800s):\n")
+keyness_results %>% 
+  filter(chi2 < 0) %>% 
+  arrange(chi2) %>% 
+  head(10) %>% 
+  print()
 
 ```
 
-# 3. Network/Community Metadata: Intellectual Communities
+### Interpreting Temporal Results: Look for:
 
-**Research Questions Enabled**: How do different scholarly communities use language differently? What concepts are community-specific vs. shared?
+- Emerging terminology: New scientific concepts that appeared in the 1800s
+- Declining usage: 18th-century terms that became less common
+- Persistent concepts: Terms that remained important across both periods
+
+This analysis can reveal scientific developments like the emergence of electromagnetic theory, advances in chemistry, or new measurement techniques.
+
+Quite useful! So here's another example:
+
+```{r freq_function}
+# # Create or by start and end year
+dfm_1600s <- subset_corpus(rsc_dfm, start_year = 1600, end_year = 1700)
+dfm_1700s <- subset_corpus(rsc_dfm, start_year = 1700, end_year = 1799)
+
+# Combine the DFMs and add period labels
+combined_dfm <- rbind(dfm_1600s, dfm_1700s)
+docvars(combined_dfm, "subset_") <- c(rep("1600s", ndoc(dfm_1600s)),
+                                     rep("1700s", ndoc(dfm_1700s)))
+
+# Calculate keyness (target = TRUE means 1600s vs 1600s)
+keyness_results <- textstat_keyness(combined_dfm, 
+                                    target = docvars(combined_dfm, "subset_") == "1700s")
+
+# Terms that became much more prominent in 1700s
+cat("\nTerms most distinctive of 1700s (became much more frequent):\n")
+keyness_results %>% 
+  filter(chi2 > 0) %>% 
+  arrange(desc(chi2)) %>% 
+  head(10) %>% 
+  print()
+
+# Terms that were more characteristic of 1600s (declined in 1800s)
+cat("\nTerms most distinctive of 1600s (declined in 1800s):\n")
+keyness_results %>% 
+  filter(chi2 < 0) %>% 
+  arrange(chi2) %>% 
+  head(10) %>% 
+  print()
+
+```
+
+## 3. Network/Community Metadata: Intellectual Communities
+
+**Research Questions Enabled:**
+
+- How do different scholarly communities use language differently?
+- What concepts are community-specific vs. shared across scientific networks?
+- How do intellectual networks influence the spread of terminology?
+- Which communities serve as bridges between different scientific domains?
+
+**Methodological Insight:** Network metadata reveals the social structure underlying scientific knowledge production. Different communities of scientists may develop distinct vocabularies, research methods, or ways of describing phenomena—even when studying related topics.
 
 ```{r network-analysis}
-
-
 # NB: Community zero represents isolates - needs to be dropped!
 # Get the largest communities for meaningful comparison
 large_communities <- network_data %>%
@@ -661,8 +718,8 @@ large_communities <- network_data %>%
 cat("Analyzing communities:", paste(large_communities, collapse = ", "), "\n\n")
 
 # Create community-based subsets
-corpus_comm1 <- subset_corpus(rsc_corpus, communities = large_communities[1])
-corpus_comm2 <- subset_corpus(rsc_corpus, communities = large_communities[2])
+dfm_comm1 <- subset_corpus(rsc_dfm, communities = large_communities[1])
+dfm_comm2 <- subset_corpus(rsc_dfm, communities = large_communities[2])
 
 # Overview of community subsets
 cat("Community", large_communities[1], "Corpus:\n")
@@ -673,100 +730,77 @@ cat("\nCommunity", large_communities[2], "Corpus:\n")
 cat("Documents:", ndoc(corpus_comm2), "\n") 
 cat("Tokens:", sum(ntoken(corpus_comm2)), "\n\n")
 
-if(ndoc(corpus_comm1) > 0 && ndoc(corpus_comm2) > 0) {
-  # Process tokens for both communities
-  tokens_comm1 <- tokens(corpus_comm1, remove_punct = TRUE, remove_numbers = TRUE) %>%
-    tokens_tolower() %>%
-    tokens_remove(stopwords("english")) %>%
-    tokens_remove(custom_stopwords)
-  
-  tokens_comm2 <- tokens(corpus_comm2, remove_punct = TRUE, remove_numbers = TRUE) %>%
-    tokens_tolower() %>%
-    tokens_remove(stopwords("english")) %>%
-    tokens_remove(custom_stopwords)
-  
-  # Create DFMs
-  dfm_comm1 <- dfm(tokens_comm1)
-  dfm_comm2 <- dfm(tokens_comm2)
-  
-  # Compare vocabularies
-  cat("Top 15 Terms in Community", large_communities[1], ":\n")
-  topfeatures(dfm_comm1, 15) %>% print()
-  
-  cat("\nTop 15 Terms in Community", large_communities[2], ":\n")
-  topfeatures(dfm_comm2, 15) %>% print()
-  
-  # Find community-distinctive terms using keyness
-  combined_dfm <- rbind(dfm_comm1, dfm_comm2)
-  docvars(combined_dfm, "community") <- c(rep(paste("Community", large_communities[1]), ndoc(dfm_comm1)),
-                                          rep(paste("Community", large_communities[2]), ndoc(dfm_comm2)))
-  
-  # Calculate keyness
-  keyness_results <- textstat_keyness(combined_dfm, 
-                                      target = docvars(combined_dfm, "community") == paste("Community", large_communities[1]))
-  
-  cat("\nTerms most distinctive of Community", large_communities[1], ":\n")
-  keyness_results %>% 
-    filter(chi2 > 0) %>% 
-    arrange(desc(chi2)) %>% 
-    head(10) %>% 
-    print()
-  
-  cat("\nTerms most distinctive of Community", large_communities[2], ":\n")
-  keyness_results %>% 
-    filter(chi2 < 0) %>% 
-    arrange(chi2) %>% 
-    head(10) %>% 
-    print()
-} else {
-  cat("Insufficient documents in one or both communities for comparison.\n")
-}
+# Compare vocabularies
+cat("Top 15 Terms in Community", large_communities[1], ":\n")
+topfeatures(dfm_comm1, 15) %>% print()
+
+cat("\nTop 15 Terms in Community", large_communities[2], ":\n")
+topfeatures(dfm_comm2, 15) %>% print()
+```
+
+And, again, we can turn to keyness to explore differences - but this time between communities active over the same time period.
+
+```{r keyness_community}
+# Find community-distinctive terms using keyness
+combined_dfm <- rbind(dfm_comm1, dfm_comm2)
+docvars(combined_dfm, "subset") <- c(rep("subset1", ndoc(dfm_comm1)),
+                                        rep("subset2", ndoc(dfm_comm2)))
+
+# Calculate keyness
+keyness_results <- textstat_keyness(combined_dfm, 
+                                  target = docvars(combined_dfm, "subset") == "subset1")
+
+cat("\nTerms most distinctive of Community", large_communities[1], ":\n")
+keyness_results %>% 
+  filter(chi2 > 0) %>% 
+  arrange(desc(chi2)) %>% 
+  head(10) %>% 
+  print()
+
+cat("\nTerms most distinctive of Community", large_communities[2], ":\n")
+keyness_results %>% 
+  filter(chi2 < 0) %>% 
+  arrange(chi2) %>% 
+  head(10) %>% 
+  print()
 
 
 ```
 
-# 4. Topical Metadata: Disciplinary Language
+### Interpreting Community Results: The keyness analysis reveals:
 
-**Research Questions Enabled**: How do different fields use scientific language? What terminology is field-specific?
+- Community-specific vocabularies: Terms that strongly characterise each intellectual network
+- Disciplinary boundaries: How different scientific domains maintain distinct languages
+- Methodological differences: Communities may prefer different research approaches or instruments
+- Theoretical orientations: Distinct ways of conceptualising similar phenomena
+
+These differences reflect how scientific communities develop their own research traditions, methodological preferences, and ways of understanding the natural world.
+
+## 4. Topical Metadata: Disciplinary Language
+
+**Research Questions Enabled:**
+
+- How do different scientific fields use language distinctively?
+- What terminology is field-specific vs. shared across disciplines?
+- How do interdisciplinary boundaries manifest in language use?
+- Which fields are more specialized vs. more accessible in their terminology?
+
+Disciplinary Context: The Royal Society period (1665-1920) predates modern academic departments, so these topic classifications reflect how language may reflect undefined disciplinary boundaries. This could provide insight into the historical organisation and/or emergence of scientific knowledge before the professionalisation and specialisation that characterises modern science.
 
 ```{r topic-analysis}
 
-# Find the most common topics for comparison
-common_topics <- df_complete %>%
-  count(primaryTopic, sort = TRUE) %>%
-  filter(!is.na(primaryTopic)) %>%
-  head(4) %>%
-  pull(primaryTopic)
-
-cat("Analyzing topics:", paste(common_topics[1:2], collapse = " vs "), "\n\n")
-
 # Create topic-based subsets (using first two most common topics)
-corpus_topic1 <- subset_corpus(rsc_corpus, topics = common_topics[1])
-corpus_topic2 <- subset_corpus(rsc_corpus, topics = common_topics[2])
+dfm_topic1 <- subset_corpus(rsc_dfm, topics = "Biology 2")
+dfm_topic2 <- subset_corpus(rsc_dfm, topics = "Astronomy")
 
 # Overview of topic subsets
-cat(common_topics[1], "Corpus:\n")
-cat("Documents:", ndoc(corpus_topic1), "\n")
-cat("Tokens:", sum(ntoken(corpus_topic1)), "\n")
+cat("Subset 1:\n")
+cat("Documents:", ndoc(dfm_topic1), "\n")
+cat("Tokens:", sum(ntoken(dfm_topic1)), "\n")
 
-cat("\n", common_topics[2], "Corpus:\n")
-cat("Documents:", ndoc(corpus_topic2), "\n")
-cat("Tokens:", sum(ntoken(corpus_topic2)), "\n\n")
-
-# Process tokens for both topics
-tokens_topic1 <- tokens(corpus_topic1, remove_punct = TRUE, remove_numbers = TRUE) %>%
-  tokens_tolower() %>%
-  tokens_remove(stopwords("english")) %>%
-  tokens_remove(custom_stopwords)
-
-tokens_topic2 <- tokens(corpus_topic2, remove_punct = TRUE, remove_numbers = TRUE) %>%
-  tokens_tolower() %>%
-  tokens_remove(stopwords("english")) %>%
-  tokens_remove(custom_stopwords)
-
-# Create DFMs
-dfm_topic1 <- dfm(tokens_topic1)
-dfm_topic2 <- dfm(tokens_topic2)
+cat("Subset 2:\n")
+cat("Documents:", ndoc(dfm_topic2), "\n")
+cat("Tokens:", sum(ntoken(dfm_topic2)), "\n\n")
 
 # Compare vocabularies
 cat("Top 15 Terms in", common_topics[1], ":\n")
@@ -796,18 +830,44 @@ topic_keyness %>%
   arrange(chi2) %>% 
   head(10) %>% 
   print()
-
-# Bigram analysis for topics
-topic1_bigrams <- tokens_ngrams(tokens_topic1, n = 2) %>% dfm()
-topic2_bigrams <- tokens_ngrams(tokens_topic2, n = 2) %>% dfm()
-
-cat("\nTop Bigrams in", common_topics[1], ":\n")
-topfeatures(topic1_bigrams, 8) %>% print()
-
-cat("\nTop Bigrams in", common_topics[2], ":\n")
-topfeatures(topic2_bigrams, 8) %>% print()
-
 ```
+
+And keyness
+
+```{r keyness_topics}
+# Find community-distinctive terms using keyness
+combined_dfm <- rbind(dfm_topic1, dfm_topic2)
+docvars(combined_dfm, "subset") <- c(rep("subset1", ndoc(dfm_topic1)),
+                                        rep("subset2", ndoc(dfm_topic2)))
+
+# Calculate keyness
+keyness_results <- textstat_keyness(combined_dfm, 
+                                  target = docvars(combined_dfm, "subset") == "subset1")
+
+cat("\nTerms most distinctive of subset1:\n")
+keyness_results %>% 
+  filter(chi2 > 0) %>% 
+  arrange(desc(chi2)) %>% 
+  head(10) %>% 
+  print()
+
+cat("\nTerms most distinctive of subset2:\n")
+keyness_results %>% 
+  filter(chi2 < 0) %>% 
+  arrange(chi2) %>% 
+  head(10) %>% 
+  print()
+```
+
+
+## Interpreting Topical Results: Look for:
+
+- Technical vocabularies: Specialised terminology unique to each field
+- Methodological language: Different approaches to investigation and measurement
+- Theoretical frameworks: How fields conceptualise and explain phenomena
+- Cross-field terminology: Concepts that bridge disciplines vs. field-specific jargon
+
+This analysis may reveal how scientific disciplines maintain their distinctiveness through language while also sharing common ground where fields intersect.
 
 # 5. Authorship Metadata: Individual vs Collaborative Work
 
