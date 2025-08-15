@@ -1,6 +1,6 @@
 ---
 title: "Royal Society Corpus: How Metadata Enables Different Research Questions"
-author: "PhD Workshop Example"
+author: "Mark J. Hill"
 date: "`r Sys.Date()`"
 output: 
   html_document:
@@ -15,22 +15,10 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE,
                       cache = TRUE, fig.width = 10, fig.height = 6)
 ```
 
-# Introduction: Metadata as Research Infrastructure
+```{r libraries_data_etc}
 
-This analysis demonstrates how different types of metadata enable fundamentally different research questions in text analysis. We'll use the Royal Society Corpus to show how temporal, network, topical, and authorship metadata each unlock new analytical possibilities.
+# Required libraries
 
-**Key Learning Goal**: Understanding that your research questions are fundamentally shaped and limited by the metadata available in your corpus.
-
-## Load libraries and data
-
-The data below was constructed using load_and_prepare_data.Rmd
-
-It includes:
-- rsc_corpus: full corpus with metadata
-- network_data: separate network/community dataset
-- subset_corpus(): function for flexible subsetting
-
-```{r libraries}
 library(quanteda)
 library(quanteda.textplots)
 library(quanteda.textstats)
@@ -42,18 +30,15 @@ library(purrr)
 library(DT)
 library(plotly)
 
-custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof", "#151",
-                  "#183", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
-                  "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
-                  "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
-                  "another", "professor", "roy", "soc",
-                  letters)
-```
+# The data below was constructed using data/data_prep/load_and_prepare_data.Rmd
 
+# It includes:
+# - rsc_corpus: full corpus with metadata
+# - network_data: separate network/community dataset constructed out of co-authorship using igraph
+# - subset_corpus(): a function for flexible subsetting
 
-```{r load-dependencies}
 # Load RSC corpus
-rsc_corpus <- readRDS("../data/rsc_corpus.RDS")
+rsc_corpus <- readRDS("../data/rsc_corpus.RDS") # This is moderately large - around 450MB in memory
 
 # Load network/community data
 network_data <- read.csv("../data/rsc/multi_temporal_communities.csv")
@@ -63,14 +48,82 @@ cat("Authors in network data:", sum(network_data$node_type == "author", na.rm = 
 
 # Load helper functions for subsetting/analysing data
 source("workshop_functions.R")
+
+######################################
+# A custom list of stopwords (and symbols).
+# YOU MAY WANT TO UPDATE THIS TO ADD AND/OR REMOVE WORDS AS YOU ANALYSE DATA YOURSELF
+######################################
+
+custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof", "#151",
+                  "#183", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
+                  "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
+                  "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
+                  "another", "professor", "roy", "soc",
+                  letters)
 ```
+
+# Introduction: Metadata as Research Infrastructure
+
+This analysis demonstrates how different types of metadata enable fundamentally different research questions in text analysis. We use the Royal Society Corpus (RSC) to show how temporal, network, topical, and authorship metadata each unlock new analytical possibilities that would be impossible without such structured information.
+
+## About the Royal Society Corpus
+
+The (Royal Society Corpus)[https://fedora.clarin-d.uni-saarland.de/rsc_v6/] is a digital collection of scientific texts published by the Royal Society of London from 1665 to 1920. This corpus represents over 250 years of scientific discourse in English, making it an ideal laboratory for studying the evolution of scientific language, concepts, and communities.
+
+An overview can be found in: Menzel, K., Knappen, J., & Teich, E. (2021). Generating linguistically relevant metadata for the Royal Society Corpus. Research in Corpus Linguistics, 9(1), 1–18. https://doi.org/10.32714/ricl.09.01.02
+
+### Knowing your data (the RSC):
+
+**Temporal depth**: Spans the Scientific Revolution through the early 20th century
+**Institutional coherence**: All texts from a single prestigious scientific institution
+**Scientific significance**: Documents major discoveries and paradigm shifts in science
+
+but also:
+
+**Rich metadata**: Beyond just publication dates, includes author information, topics, and document types
+
+### Key corpus statistics:
+
+- 17520 (`r length(rsc_corpus)`) articles and papers
+- Multiple document types (articles, abstracts, reviews, proceedings)
+- Post facto topic classifications (topic modelling)
+- Author attribution and co-authorship networks
+- Standardised temporal metadata
+
+## The Central Argument: Metadata Shapes Possible Questions
+
+The key goal from this workbook is to show how research questions are fundamentally shaped and limited by the metadata available in your dataset. Each type of metadata opens up entirely new analytical possibilities:
+
+- Without metadata: Only basic frequency and vocabulary analysis
+- With temporal metadata: Historical evolution, emergence patterns, diachronic change
+- With authorship metadata: Collaboration patterns, individual vs. collective discourse
+- With topical metadata: Disciplinary differences, field-specific language
+- With network metadata: Community detection, intellectual influence, social aspects of knowledge
+
+And, of course, these lenses can be combined in various ways to conduct more and more complex analyses (although they all start from/are built on simple and understandable starting points).
+
+**N.B.**: This principle applies far beyond historical corpora—whether analysing social media posts, legal documents, news articles, or any text collection. The available metadata determines what questions you can meaningfully investigate.
 
 # Data overviews
 
- "slice_1650_1699"        
- [5] "slice_1675_1724"         "slice_1700_1749"         "slice_1725_1774"         "slice_1750_1799"        
- [9] "slice_1775_1824"         "slice_1800_1849"         "slice_1825_1874"         "slice_1850_1899"        
-[13] "slice_1875_1924"      
+Before analysis, we need to understand the structure and scope of our data. This section provides descriptive overviews of both the textual corpus and the network metadata.
+
+## Network/Community Data: Mapping Scientific Collaboration
+
+The network data represents the social structure of Royal Society. It was created by:
+
+- Building a bipartite network: Authors connected to publications
+- Projecting to author-author networks: Authors linked through co-authorship
+- Community detection: Using the Louvain algorithm to identify stable relationships (1000 times per time period)
+- Temporal slicing: Creating overlapping 50-year windows with 25-year steps (slices overlap with neighbors to capture gradual transitions)
+
+The aim of this approach is to reveal how scientists cluster into research communities, which can then be investigated on their own, or analysed and measured to see how they evolve over time. 
+
+The time slices are:
+
+slice_1650_1699, slice_1675_1724, slice_1700_1749, slice_1725_1774, slice_1750_1799, slice_1775_1824, slice_1800_1849, slice_1825_1874, slice_1850_1899, slice_1875_1924
+
+*The network data was constructed with code/data_prep/creating_communities.r.*
 
 ```{r network_overview}
 # Netowrk/community data
@@ -88,8 +141,7 @@ for(slice_col in slice_cols) {
 }
 
 # Communities by entire dataset
-per_time_slicecommunities <- unique(network_data[!is.na(network_data)])
-cat("Available communities (for the entire time period):", length(all_time_communities), "\n")
+cat("Existing communities (for the entire time period):", length(unique(network_data$all_time_communities)), "\n")
 
 # Example: Get authors from community 1
 comm1_authors <- get_authors_from_communities(1, "all_time_communities")
@@ -118,14 +170,74 @@ p6 <- network_data %>%
 print(p6)
 ```
 
+## Corpus Overview
+
+The Royal Society Corpus contains the full text of scientific publications along with rich metadata.
+
+Understanding this structure is essential for designing meaningful analyses.
+
+Metadata is saved in the corpus object, and can be accessed with docvars(rsc_corpus)$METADATA.
+
 ```{r corpus_overview}
 cat("Total documents in corpus:", ndoc(rsc_corpus), "\n")
 cat("Corpus docvar names:", paste(names(docvars(rsc_corpus)), collapse = ", "), "\n\n")
-
-
 ```
+The metadata saved in the corpus includes: 
 
-## Authors
+**Document Identification & Bibliographic Info**
+
+- doc_id: Unique identifier for each document in the corpus
+- issn: International Standard Serial Number for the journal/publication
+- title: Title of the scientific paper/article
+- fpage/lpage: First page and last page numbers where the article appears
+- year: Publication year
+- volume: Journal volume number
+- journal and jrnl: Name of the Royal Society publication, along with an abbreviated/shortened version
+- author: Author(s), seperated by a | (pipe)
+
+**Document Properties**
+
+- type: Type of publication (article, abstract, review, proceedings, etc.)
+- language: Language of publication
+- pages: Total number of pages in the document
+- sentences: Number of sentences in the full text
+- tokens: Number of individual words/tokens in the full text
+
+**Temporal Classifications**
+
+- decade: Which decade the document was published (1650s, 1660s, 1670s, etc.)
+- period: The 50-year period the document was published (1650, 1700, 1750, etc.)
+- century: Which century (1600, 1700, 1800, 1900)
+
+**Digital Infrastructure**
+
+- corpusBuild: Version or build number of the corpus compilation
+- doiLink: URL link to the Digital Object Identifier
+- doi: The actual DOI string
+- visualizationLink: Link to any digital visualizations of the document
+- jstorLink: Link to JSTOR database entry (if available)
+
+**Content Structure**
+
+- hasAbstract: Boolean indicating whether the document has an abstract
+- isAbstractOf: If this document IS an abstract, what it's an abstract of
+
+**Topic Classifications**
+
+- primaryTopic: Main subject classification (computationally assigned)
+- primaryTopicPercentage: Confidence/percentage/theta/θ for primary topic assignment
+- secondaryTopic: Secondary subject classification
+- secondaryTopicPercentage: Confidence/percentage/theta/θ for secondary topic
+
+**Authorship Analysis**
+
+- authors_list: Complete list of all authors (saved as a list)
+- author_count: Number of authors on the paper
+- is_multi_author: Boolean flag for whether it has multiple authors
+
+### Authors
+
+Understanding collaboration patterns helps us interpret later analyses of how single vs. multi-author works differ linguistically.
 
 ```{r author_stats}
 
@@ -167,8 +279,9 @@ print(p4)
 print(p5)
 ```
 
-## Topics
+### Topics
 
+The RSC includes topic classifications that reveal the disciplinary structure of early modern science. These categories may reflect how scientific knowledge was organized in different historical periods.
 
 ```{r topic_overview}
 # Check topics
@@ -179,11 +292,10 @@ cat("Unique primary topics (first 10):", paste(sort(unique(topic_values))[1:10],
 # cat("Number of physics docs:", sum(topic_values %in% physics_topics, na.rm = TRUE), "\n\n")
 
 secondary_topic_values <- docvars(rsc_corpus, "secondaryTopic")
-cat("Unique secondary topics (first 10):", paste(sort(unique(secondart_topic_values))[1:10], collapse = ", "), "\n")
+cat("Unique secondary topics (first 10):", paste(sort(unique(secondary_topic_values))[1:10], collapse = ", "), "\n")
 
 # Combine counts for both topic types
-topic_counts <- df_complete %>%
-  data.frame(primaryTopic = topic_values,
+topic_counts <- data.frame(primaryTopic = topic_values,
              secondaryTopic = secondary_topic_values) %>%
   tidyr::pivot_longer(cols = c(primaryTopic, secondaryTopic),
                       names_to = "TopicType", values_to = "Topic") %>%
@@ -201,7 +313,9 @@ p3 <- topic_counts %>%
 print(p3)
 ```
 
-## Years
+### Temporal Distribution
+
+The temporal distribution shows how the Royal Society's publication patterns changed over three centuries, reflecting broader changes in scientific communication and institutional growth.
 
 ```{r time_overview}
 # Check decade values
@@ -221,6 +335,8 @@ print(p1)
 ```
 
 ## Publication types
+
+Different document types serve different functions in scientific communication, from formal research articles to brief communications and abstracts.
 
 ```{r Publication_type_overviews}
 # Check document types
@@ -242,9 +358,46 @@ p2 <- type_values %>%
 print(p2)
 ```
 
-# Test Individual Subsetting Functions
+## Mixing perspectives
 
-EXPLAIN HOW FUNCTION WORKS
+And, of course, we can look at one data type from the perspective of another. In this case, what were the types of documnets published over time.
+
+```{r mixing_data}
+# Documents by decade, stacked by type
+p1_stacked <- data.frame(
+  decade = docvars(rsc_corpus, "decade"),
+  type = docvars(rsc_corpus, "type")
+) %>%
+  ggplot(aes(x = decade, fill = type)) +
+  geom_bar(alpha = 0.7) +
+  labs(title = "Documents by Decade (Stacked by Type)", 
+       subtitle = "Shows how publication types evolved over time",
+       x = "Decade", y = "Number of Documents",
+       fill = "Document Type") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print(p1_stacked)
+```
+
+# Understanding the Subsetting Functions
+
+The power of metadata-driven analysis lies in our ability to create focused subsets for comparison. The helper functions in this workshop allow flexible filtering by any combination of metadata dimensions.
+
+## How the Subsetting Works
+
+The subset_corpus() function acts as a master controller that can filter by:
+
+- Temporal criteria: Specific years, decades, or date ranges
+- Document types: Articles, abstracts, proceedings, etc.
+- Topics: Primary or secondary subject classifications
+- Authorship patterns: Single vs. multi-author works
+- Network communities: Authors from specific intellectual communities
+- Individual authors: Works by named scientists
+
+This flexibility enables complex, multi-dimensional comparisons that would be impossible with text alone.
+
+## Test Individual Subsetting Functions
 
 ```{r test-individual-functions}
 # Test date subsetting directly
@@ -256,14 +409,21 @@ test_articles <- subset_by_type(rsc_corpus, "article")
 cat("Direct type subsetting (articles):", ndoc(test_articles), "documents\n")
 
 # Test topic subsetting directly
-test_physics <- subset_by_topic(rsc_corpus, physics_topics)
-cat("Direct topic subsetting (physics):", ndoc(test_physics), "documents\n")
+test_biology <- subset_by_topic(rsc_corpus, "Biology 1")
+cat("Direct topic subsetting (biology):", ndoc(test_biology), "documents\n")
+
+# Or create lists of topics
+test_topics <- unique(docvars(rsc_corpus)$primaryTopic[grep("biology", docvars(rsc_corpus)$primaryTopic, ignore.case = TRUE)])
+test_topics_list <- subset_by_topic(rsc_corpus, test_topics)
+cat("Direct topic subsetting for", test_topics, ":", ndoc(test_topics_list), "documents\n")
 
 # Test author count subsetting directly
 test_multi_author <- subset_by_author_count(rsc_corpus, multi_author = TRUE)
 cat("Direct multi-author subsetting:", ndoc(test_multi_author), "documents\n")
 ```
-### Example Subsetting Operations
+## Example Subsetting Operations
+
+These examples demonstrate the building blocks for all subsequent analyses. Each represents a different way of slicing the corpus to address specific research questions.
 
 ```{r subsetting-examples}
 # Example 1: Subset by decade (1900s) with debugging to show how filtering is working
@@ -278,14 +438,17 @@ cat("Articles only:", ndoc(corpus_articles), "documents\n\n")
 # Example 3: Multi-author documents with debugging
 corpus_multi_author <- subset_corpus(rsc_corpus, multi_author = TRUE, debug = TRUE)
 cat("Multi-author documents:", ndoc(corpus_multi_author), "documents\n\n")
+```
 
-# Let's also test the other examples without debug for cleaner output
+Here are some more other examples without debug for cleaner output.
+
+```{r subsetting_more_examples}
 # Example 4: Subset by topic (Physics-related)
-physics_topics <- c("Atomic Physics", "Thermodynamics", "Fluid Dynamics")
+physics_topics <- c("Atomic Physics")
 corpus_physics <- subset_corpus(rsc_corpus, topics = physics_topics)
 cat("Physics topics:", ndoc(corpus_physics), "documents\n")
 
-# Example 5: Combined subsetting (1900s physics articles)
+# Example 5: Combined subsetting (1900s + physics + articles)
 corpus_1900s_physics <- subset_corpus(rsc_corpus, 
                                      decade = 1900, 
                                      doc_types = "article",
@@ -307,7 +470,7 @@ corpus_communities_1900s <- subset_corpus(rsc_corpus, communities = c(1, 2),
                                          time_slice = "slice_1875_1924")
 cat("Documents from communities 1 & 2 (1875-1924 slice):", ndoc(corpus_communities_1900s), "documents\n")
 
-# Example 9: Get authors from specific communities first, then analyze
+# Example 9: Get authors from specific communities first
 authors_comm1 <- get_authors_from_communities(communities = 1, time_slice = "all_time_communities")
 cat("Authors in community 1:", length(authors_comm1), "authors\n")
 if (length(authors_comm1) > 0) {
@@ -318,7 +481,13 @@ if (length(authors_comm1) > 0) {
 
 # 1. Baseline: Text Without Metadata Context
 
-**Research Questions Possible**: What are the most common concepts discussed by the Royal Society overall?
+**The question we can ask**: What are the most common concepts and patterns discussed by the Royal Society overall?
+
+**What this may reveal**: Basic vocabulary, general themes, and surface-level patterns in scientific discourse across the entire corpus (multi-topic) and time period (multi-century).
+
+**Critical limitation**: Without metadata, we have no context for interpretation. We can see what scientists wrote about, but not when, who wrote it, why certain terms appear together, or how usage patterns changed over time.
+
+This baseline represents the starting point for any text analysis—but also demonstrates why metadata is essential for meaningful interpretation.
 
 
 
