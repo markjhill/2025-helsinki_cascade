@@ -48,18 +48,6 @@ cat("Authors in network data:", sum(network_data$node_type == "author", na.rm = 
 
 # Load helper functions for subsetting/analysing data
 source("workshop_functions.R")
-
-######################################
-# A custom list of stopwords (and symbols).
-# YOU MAY WANT TO UPDATE THIS TO ADD AND/OR REMOVE WORDS AS YOU ANALYSE DATA YOURSELF
-######################################
-
-custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof", "#151",
-                  "#183", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
-                  "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
-                  "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
-                  "another", "professor", "roy", "soc",
-                  letters)
 ```
 
 # Introduction: Metadata as Research Infrastructure
@@ -479,32 +467,72 @@ if (length(authors_comm1) > 0) {
 }
 ```
 
-# 1. Baseline: Text Without Metadata Context
+# Analysing Text
+
+For this portion of the workbook we will use the Quantitative Text Analysis(QTA)/Natural Language Processing(NLP) library Quanteda.
+
+Quanteda (and many/most NLP packages) work with objects called Document Feature Matrices (or Document Term Matrices). These are, essentially, *very* large spreadsheets where every row represents a document and every column is a word (of all the words) in all of the documents. A toy example:
+
+```{r toy_dfm}
+# Create a corpus - just like the RSC - of three simple sentences
+test_corpus <- corpus(c("I like cats", "Cats are nice", "I am happy"))
+
+# Create document feature matrix of our corpus
+test_dfm <- tokens(test_corpus) %>%
+  dfm()
+
+# And let's look at it
+print(test_dfm)
+```
+It is the frequency and relationship of these features (tokens, words) that is central to NLP. We will, therefore, be analysing DFMs which are quantitative representation of our documents - figuratively "bags of words."
+
+To do this, we first need to construct our DFM from the RSC.
+
+```{r construct_dfm}
+# Note - this can take a a few minutes. An already constructed DFM can be loaded with the following commented out code:
+
+# rsc_dfm <- readRDS()
+
+
+start_time <- Sys.time()
+
+# Tokenise corpus, while removing punctuation, numbers, symbols, and stopwords as well as lowercasing everything
+rsc_tokens <- tokens(rsc_corpus, remove_punct = TRUE, remove_numbers = TRUE, 
+                      remove_symbols = TRUE) %>%
+  tokens_tolower() %>%
+  tokens_remove(stopwords("english"))
+
+# Document-feature matrix
+rsc_dfm <- dfm(rsc_tokens)
+
+end_time <- Sys.time()
+cat("Total time taken to tokenise and createa DFM:", end_time-start_time)
+
+#saveRDS(rsc_dfm, file = "../data/rsc_dfm.RDS")
+```
+
+## 1. Baseline: Text Without Metadata Context
 
 **The question we can ask**: What are the most common concepts and patterns discussed by the Royal Society overall?
 
 **What this may reveal**: Basic vocabulary, general themes, and surface-level patterns in scientific discourse across the entire corpus (multi-topic) and time period (multi-century).
 
-**Critical limitation**: Without metadata, we have no context for interpretation. We can see what scientists wrote about, but not when, who wrote it, why certain terms appear together, or how usage patterns changed over time.
+**Critical limitation**: Without metadata, we have little context for interpretation. We can see what scientists and researchers wrote about, but not when, who wrote it, why certain terms appear together, or how usage patterns changed over time.
 
-This baseline represents the starting point for any text analysis—but also demonstrates why metadata is essential for meaningful interpretation.
+This baseline represents the starting point for any text analysis -- but also demonstrates why metadata is essential for meaningful interpretation.
 
-
+**N.B.**: This is a moderately large dataset. Creating and analying the text computationally can take a bit of time. It's not at the point where high performance computing is necessary, but it may take a few minutes on a laptop.
 
 ```{r baseline-analysis}
 
-# Create basic corpus for analysis (full dataset)
-full_corpus <- rsc_corpus
-
-# Create tokens and remove stopwords
-full_tokens <- tokens(full_corpus, remove_punct = TRUE, remove_numbers = TRUE, 
+# Tokenise corpus, while removing punctuation, numbers, symbols, and stopwords as well as lowercasing everything
+rsc_tokens <- tokens(rsc_corpus, remove_punct = TRUE, remove_numbers = TRUE, 
                       remove_symbols = TRUE) %>%
   tokens_tolower() %>%
-  tokens_remove(stopwords("english")) %>%
-  tokens_remove(custom_stopwords)
+  tokens_remove(stopwords("english"))
 
 # Document-feature matrix
-full_dfm <- dfm(full_tokens)
+rsc_full_dfm <- dfm(rsc_tokens)
 
 # Most frequent terms
 cat("Top 20 Most Frequent Terms (All Documents):\n")
@@ -517,6 +545,23 @@ topfeatures(full_bigrams, 50) %>% print()
 
 
 ```
+
+
+```{r updating_dfm}
+######################################
+# A custom list of stopwords (and symbols).
+# YOU MAY WANT TO UPDATE THIS TO ADD AND/OR REMOVE WORDS AS YOU ANALYSE DATA YOURSELF
+######################################
+
+custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof", "#151",
+                  "#183", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
+                  "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
+                  "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
+                  "another", "professor", "roy", "soc",
+                  letters)
+
+```
+
 
 # 2. Temporal Metadata: Historical Evolution
 
