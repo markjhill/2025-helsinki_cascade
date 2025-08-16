@@ -1,0 +1,1147 @@
+---
+title: "Royal Society Corpus: How Metadata Enables Different Research Questions"
+author: "Mark J. Hill"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      cache = TRUE, fig.width = 10, fig.height = 6)
+```
+
+```{r libraries_data_etc}
+
+# Required libraries
+
+library(quanteda)
+library(quanteda.textplots)
+library(quanteda.textstats)
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(stringr)
+library(purrr)
+library(DT)
+library(plotly)
+
+# The data below was constructed using data/data_prep/load_and_prepare_data.Rmd
+
+# It includes:
+# - rsc_corpus: full corpus with metadata
+# - network_data: separate network/community dataset constructed out of co-authorship using igraph
+# - subset_corpus(): a function for flexible subsetting
+
+# Load RSC corpus
+rsc_corpus <- readRDS("../data/rsc_corpus.RDS") # This is moderately large - around 450MB in memory
+
+# Load network/community data
+network_data <- read.csv("../data/rsc/multi_temporal_communities.csv")
+
+cat("Network data dimensions:", nrow(network_data), "rows x", ncol(network_data), "columns\n")
+cat("Authors in network data:", sum(network_data$node_type == "author", na.rm = TRUE), "\n")
+
+# Load helper functions for subsetting/analysing data
+source("workshop_functions.R")
+```
+
+# Introduction: Metadata as Research Infrastructure
+
+This analysis demonstrates how different types of metadata enable fundamentally different research questions in text analysis. We use the Royal Society Corpus (RSC) to show how temporal, network, topical, and authorship metadata each unlock new analytical possibilities that would be impossible without such structured information.
+
+## About the Royal Society Corpus
+
+The Royal Society Corpus (https://fedora.clarin-d.uni-saarland.de/rsc_v6/) is a digital collection of scientific texts published by the Royal Society of London from 1665 to 1920. This corpus represents over 250 years of scientific discourse in English, making it an ideal laboratory for studying the evolution of scientific language, concepts, and communities.
+
+An overview can be found in: Menzel, K., Knappen, J., & Teich, E. (2021). Generating linguistically relevant metadata for the Royal Society Corpus. Research in Corpus Linguistics, 9(1), 1–18. https://doi.org/10.32714/ricl.09.01.02
+
+### Knowing your data (the RSC):
+
+- **Temporal depth**: Spans the Scientific Revolution through the early 20th century
+- **Institutional coherence**: All texts from a single prestigious scientific institution
+- **Scientific significance**: Documents major discoveries and paradigm shifts in science
+- **Rich metadata**: Beyond just publication dates, includes author information, topics, and document types
+
+### Key corpus statistics:
+
+- 17520 (`r length(rsc_corpus)`) articles and papers
+- Multiple document types (articles, abstracts, reviews, proceedings)
+- Post facto topic classifications (topic modelling)
+- Author attribution and co-authorship networks
+- Standardised temporal metadata
+
+## The Central Argument: Metadata Shapes Possible Questions
+
+The key goal from this workbook is to show how research questions are fundamentally shaped and limited by the metadata available in your dataset. Each type of metadata opens up entirely new analytical possibilities:
+
+- Without metadata: Only basic frequency and vocabulary analysis
+- With temporal metadata: Historical evolution, emergence patterns, diachronic change
+- With authorship metadata: Collaboration patterns, individual vs. collective discourse
+- With topical metadata: Disciplinary differences, field-specific language
+- With network metadata: Community detection, intellectual influence, social aspects of knowledge
+
+And, of course, these lenses can be combined in various ways to conduct more and more complex analyses (although they all start from/are built on simple and understandable starting points).
+
+**N.B.**: This principle applies far beyond historical corpora—whether analysing social media posts, legal documents, news articles, or any text collection. The available metadata determines what questions you can meaningfully investigate.
+
+# Data overviews
+
+Before analysis, we need to understand the structure and scope of our data. This section provides descriptive overviews of both the textual corpus and the network metadata.
+
+## Network/Community Data: Mapping Scientific Collaboration
+
+The network data represents the social structure of Royal Society. It was created by:
+
+- Building a bipartite network: Authors connected to publications
+- Projecting to author-author networks: Authors linked through co-authorship
+- Community detection: Using the Louvain algorithm to identify stable relationships (1000 times per time period)
+- Temporal slicing: Creating overlapping 50-year windows with 25-year steps (slices overlap with neighbors to capture gradual transitions)
+
+The aim of this approach is to reveal how scientists cluster into research communities, which can then be investigated on their own, or analysed and measured to see how they evolve over time. 
+
+The time slices are:
+
+slice_1650_1699, slice_1675_1724, slice_1700_1749, slice_1725_1774, slice_1750_1799, slice_1775_1824, slice_1800_1849, slice_1825_1874, slice_1850_1899, slice_1875_1924
+
+*The network data was constructed with code/data_prep/creating_communities.r.*
+
+```{r network_overview}
+# Netowrk/community data
+cat("Network data dimensions:", nrow(network_data), "rows x", ncol(network_data), "columns\n")
+cat("Authors in network data:", sum(network_data$node_type == "author", na.rm = TRUE), "\n")
+
+# Show available communities
+slice_cols <- grep("slice_1", names(network_data))
+for(slice_col in slice_cols) {
+  cat("Time slice for:", names(network_data[slice_col]), "\n")
+  slice_communities <- unique(network_data[,slice_col])
+  slice_communities <- slice_communities[-c(which(is.na(slice_communities)))] # Remove NAs
+  slice_communities <- slice_communities[-c(which(slice_communities == 0))] # Remove 0 which represents isolates
+  cat("Total communities for timeslice:", length(slice_communities), "\n")
+}
+
+# Communities by entire dataset
+cat("Existing communities (for the entire time period):", length(unique(network_data$all_time_communities)), "\n")
+
+# Example: Get authors from community 1
+comm1_authors <- get_authors_from_communities(1, "all_time_communities")
+cat("Authors in community 1:", length(comm1_authors), "\n")
+if (length(comm1_authors) > 0) {
+  cat("First few authors:", paste(head(comm1_authors, 3), collapse = ", "), "\n")
+}
+
+# Example: Get community info for specific authors
+example_authors <- c("Sir William Ramsay, K. C. B., F. R. S.", "Professor C. Niven, F. R. S.")
+author_comms <- get_author_communities(example_authors, "all_time_communities")
+if (nrow(author_comms) > 0) {
+  cat("Community memberships:\n")
+  print(author_comms)
+}
+
+p6 <- network_data %>%
+  filter(node_type == "author", !is.na(all_time_communities), all_time_communities != 0) %>%
+  count(all_time_communities) %>%
+  ggplot(aes(x = reorder(factor(all_time_communities), -n), y = n)) +
+  geom_col() +
+  labs(title = "Authors by Community (All-Time)", 
+       x = "Community", y = "Number of Authors") +
+  theme_minimal()
+
+print(p6)
+```
+
+## Corpus Overview
+
+The Royal Society Corpus contains the full text of scientific publications along with rich metadata.
+
+Understanding this structure is essential for designing meaningful analyses.
+
+Metadata is saved in the corpus object, and can be accessed with docvars(rsc_corpus)$METADATA.
+
+```{r corpus_overview}
+cat("Total documents in corpus:", ndoc(rsc_corpus), "\n")
+cat("Corpus docvar names:", paste(names(docvars(rsc_corpus)), collapse = ", "), "\n\n")
+```
+The metadata saved in the corpus includes: 
+
+**Document Identification & Bibliographic Info**
+
+- doc_id: Unique identifier for each document in the corpus
+- issn: International Standard Serial Number for the journal/publication
+- title: Title of the scientific paper/article
+- fpage/lpage: First page and last page numbers where the article appears
+- year: Publication year
+- volume: Journal volume number
+- journal and jrnl: Name of the Royal Society publication, along with an abbreviated/shortened version
+- author: Author(s), seperated by a | (pipe)
+
+**Document Properties**
+
+- type: Type of publication (article, abstract, review, proceedings, etc.)
+- language: Language of publication
+- pages: Total number of pages in the document
+- sentences: Number of sentences in the full text
+- tokens: Number of individual words/tokens in the full text
+
+**Temporal Classifications**
+
+- decade: Which decade the document was published (1650s, 1660s, 1670s, etc.)
+- period: The 50-year period the document was published (1650, 1700, 1750, etc.)
+- century: Which century (1600, 1700, 1800, 1900)
+
+**Digital Infrastructure**
+
+- corpusBuild: Version or build number of the corpus compilation
+- doiLink: URL link to the Digital Object Identifier
+- doi: The actual DOI string
+- visualisationLink: Link to any digital visualisations of the document
+- jstorLink: Link to JSTOR database entry (if available)
+
+**Content Structure**
+
+- hasAbstract: Boolean indicating whether the document has an abstract
+- isAbstractOf: If this document IS an abstract, what it's an abstract of
+
+**Topic Classifications**
+
+- primaryTopic: Main subject classification (computationally assigned)
+- primaryTopicPercentage: Confidence/percentage/theta/θ for primary topic assignment
+- secondaryTopic: Secondary subject classification
+- secondaryTopicPercentage: Confidence/percentage/theta/θ for secondary topic
+
+**Authorship Analysis**
+
+- authors_list: Complete list of all authors (saved as a list)
+- author_count: Number of authors on the paper
+- is_multi_author: Boolean flag for whether it has multiple authors
+
+### Authors
+
+Understanding collaboration patterns helps us interpret later analyses of how single vs. multi-author works differ linguistically.
+
+```{r author_stats}
+
+# Display author summary stats
+
+cat("Documents with authors:", sum(docvars(rsc_corpus)$author_count > 0), "\n")
+cat("Single-author documents:", sum(docvars(rsc_corpus)$author_count == 1), "\n")
+cat("Multi-author documents:", sum(docvars(rsc_corpus)$author_count > 1), "\n")
+cat("Max authors per document:", max(docvars(rsc_corpus)$author_count), "\n")
+cat("Min authors per document:", min(docvars(rsc_corpus)$author_count), "\n") # Some documents have no author infomration
+
+# Documents by authorship
+p4 <- docvars(rsc_corpus)$author_count %>%
+  data.frame(author_count = .) %>%
+  count(author_count) %>%
+  ggplot(aes(x = author_count, y = n)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +  
+  labs(title = "Distribution of Author Count per Document",
+       x = "Number of Authors", y = "Number of Documents") +
+  theme_minimal()
+
+p5 <- data.frame(
+  decade = docvars(rsc_corpus)$decade,
+  is_multi_author = docvars(rsc_corpus)$is_multi_author
+) %>%
+  group_by(decade, is_multi_author) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  ggplot(aes(x = decade, y = count, fill = is_multi_author)) +
+  geom_col(position = "dodge", alpha = 0.7) +
+  labs(
+    title = "Single vs Multi-Author Documents by Decade", 
+    x = "Decade", y = "Number of Documents",
+    fill = "Multi-Author"
+  ) +
+  theme_minimal()
+
+print(p4)
+print(p5)
+```
+
+### Topics
+
+The RSC includes topic classifications that reveal the disciplinary structure of early modern science. These categories may reflect how scientific knowledge was organised in different historical periods.
+
+```{r topic_overview}
+# Check topics
+topic_values <- docvars(rsc_corpus, "primaryTopic")
+cat("Unique primary topics (first 10):", paste(sort(unique(topic_values))[1:10], collapse = ", "), "\n")
+# physics_topics <- c("Atomic Physics", "Thermodynamics", "Fluid Dynamics")
+# cat("Physics topics found:", paste(physics_topics[physics_topics %in% unique(topic_values)], collapse = ", "), "\n")
+# cat("Number of physics docs:", sum(topic_values %in% physics_topics, na.rm = TRUE), "\n\n")
+
+secondary_topic_values <- docvars(rsc_corpus, "secondaryTopic")
+cat("Unique secondary topics (first 10):", paste(sort(unique(secondary_topic_values))[1:10], collapse = ", "), "\n")
+
+# Combine counts for both topic types
+topic_counts <- data.frame(primaryTopic = topic_values,
+             secondaryTopic = secondary_topic_values) %>%
+  tidyr::pivot_longer(cols = c(primaryTopic, secondaryTopic),
+                      names_to = "TopicType", values_to = "Topic") %>%
+  count(TopicType, Topic, sort = TRUE)
+
+
+p3 <- topic_counts %>%
+  ggplot(aes(x = reorder(Topic, n), y = n, fill = TopicType)) +
+  geom_col(position = position_dodge()) +
+  coord_flip() +
+  labs(title = "Top Primary and Secondary Topics", 
+       x = "Topic", y = "Number of Documents", fill = "Topic Type") +
+  theme_minimal()
+
+print(p3)
+```
+
+### Temporal Distribution
+
+The temporal distribution shows how the Royal Society's publication patterns changed over three centuries, reflecting broader changes in scientific communication and institutional growth.
+
+```{r time_overview}
+# Check decade values
+decade_values <- docvars(rsc_corpus, "decade")
+cat("Unique decade values:", paste(sort(unique(decade_values)), collapse = ", "), "\n")
+
+# Documents by decade
+p1 <- decade_values %>%
+  data.frame(decade = decade_values) %>%
+  ggplot(aes(x = decade)) +
+  geom_bar(fill = "steelblue", alpha = 0.7) +
+  labs(title = "Documents by Decade", 
+       x = "Decade", y = "Number of Documents") +
+  theme_minimal()
+
+print(p1)
+```
+
+### Publication types
+
+Different document types serve different functions in scientific communication, from formal research articles to brief communications and abstracts.
+
+```{r Publication_type_overviews}
+# Check document types
+type_values <- docvars(rsc_corpus, "type")
+cat("Unique document types:", paste(unique(type_values), collapse = ", "), "\n")
+cat("Number of article docs:", sum(type_values == "article", na.rm = TRUE), "\n\n")
+
+# Documents by type
+p2 <- type_values %>%
+  data.frame(type = type_values) %>%
+  count(type) %>%
+  ggplot(aes(x = reorder(type, n), y = n)) +
+  geom_col(fill = "forestgreen", alpha = 0.7) +
+  coord_flip() +
+  labs(title = "Documents by Type", 
+       x = "Document Type", y = "Number of Documents") +
+  theme_minimal()
+
+print(p2)
+```
+
+### Mixing perspectives
+
+And, of course, we can look at one data type from the perspective of another. In this case, what were the types of documnets published over time.
+
+```{r mixing_data}
+# Documents by decade, stacked by type
+p1_stacked <- data.frame(
+  decade = docvars(rsc_corpus, "decade"),
+  type = docvars(rsc_corpus, "type")
+) %>%
+  ggplot(aes(x = decade, fill = type)) +
+  geom_bar(alpha = 0.7) +
+  labs(title = "Documents by Decade (Stacked by Type)", 
+       subtitle = "Shows how publication types evolved over time",
+       x = "Decade", y = "Number of Documents",
+       fill = "Document Type") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print(p1_stacked)
+```
+
+# Understanding the Subsetting Functions
+
+The power of metadata-driven analysis lies in our ability to create focused subsets for comparison. The helper functions in this workshop allow flexible filtering by any combination of metadata dimensions.
+
+## How the Subsetting Works
+
+The subset_corpus() function acts as a master controller that can filter by:
+
+- Temporal criteria: Specific years, decades, or date ranges
+- Document types: Articles, abstracts, proceedings, etc.
+- Topics: Primary or secondary subject classifications
+- Authorship patterns: Single vs. multi-author works
+- Network communities: Authors from specific intellectual communities
+- Individual authors: Works by named scientists
+
+This flexibility enables complex, multi-dimensional comparisons that would be impossible with text alone.
+
+## Test Individual Subsetting Functions
+
+```{r test-individual-functions}
+# Test date subsetting directly
+test_1900s <- subset_by_date(rsc_corpus, decade = 1900)
+cat("Direct decade subsetting (1900s):", ndoc(test_1900s), "documents\n")
+
+# Test type subsetting directly
+test_articles <- subset_by_type(rsc_corpus, "article")
+cat("Direct type subsetting (articles):", ndoc(test_articles), "documents\n")
+
+# Test topic subsetting directly
+test_biology <- subset_by_topic(rsc_corpus, "Biology 1")
+cat("Direct topic subsetting (biology):", ndoc(test_biology), "documents\n")
+
+# Or create lists of topics
+test_topics <- unique(docvars(rsc_corpus)$primaryTopic[grep("biology", docvars(rsc_corpus)$primaryTopic, ignore.case = TRUE)])
+test_topics_list <- subset_by_topic(rsc_corpus, test_topics)
+cat("Direct topic subsetting for", test_topics, ":", ndoc(test_topics_list), "documents\n")
+
+# Test author count subsetting directly
+test_multi_author <- subset_by_author_count(rsc_corpus, multi_author = TRUE)
+cat("Direct multi-author subsetting:", ndoc(test_multi_author), "documents\n")
+```
+## Example Subsetting Operations
+
+These examples demonstrate the building blocks for all subsequent analyses. Each represents a different way of slicing the corpus to address specific research questions.
+
+```{r subsetting-examples}
+# Example 1: Subset by decade (1900s) with debugging to show how filtering is working
+
+corpus_1900s <- subset_corpus(rsc_corpus, decade = 1900, debug = TRUE)
+cat("1900s corpus:", ndoc(corpus_1900s), "documents\n\n")
+
+# Example 2: Subset by document type (articles only) with debugging
+corpus_articles <- subset_corpus(rsc_corpus, doc_types = "article", debug = TRUE)
+cat("Articles only:", ndoc(corpus_articles), "documents\n\n")
+
+# Example 3: Multi-author documents with debugging
+corpus_multi_author <- subset_corpus(rsc_corpus, multi_author = TRUE, debug = TRUE)
+cat("Multi-author documents:", ndoc(corpus_multi_author), "documents\n\n")
+```
+
+Here are some more other examples without debug for cleaner output.
+
+```{r subsetting_more_examples}
+# Example 4: Subset by topic (Physics-related)
+physics_topics <- c("Atomic Physics")
+corpus_physics <- subset_corpus(rsc_corpus, topics = physics_topics)
+cat("Physics topics:", ndoc(corpus_physics), "documents\n")
+
+# Example 5: Combined subsetting (1900s + physics + articles)
+corpus_1900s_physics <- subset_corpus(rsc_corpus, 
+                                     decade = 1900, 
+                                     doc_types = "article",
+                                     topics = physics_topics)
+cat("1900s physics articles:", ndoc(corpus_1900s_physics), "documents\n")
+
+# Example 6: Documents by specific authors
+example_authors <- c("Sir William Ramsay, K. C. B., F. R. S.", "Professor C. Niven, F. R. S.")
+corpus_by_authors <- subset_corpus(rsc_corpus, authors = example_authors)
+cat("Documents by example authors:", ndoc(corpus_by_authors), "documents\n")
+
+# Example 7: Documents from specific communities (using separate network data)
+example_communities <- c(1, 2)
+corpus_communities_alltime <- subset_corpus(rsc_corpus, communities = example_communities)
+cat("Documents from communities 1 & 2 (all-time):", ndoc(corpus_communities_alltime), "documents\n")
+
+# Example 8: Community analysis for specific time period
+corpus_communities_1900s <- subset_corpus(rsc_corpus, communities = c(1, 2), 
+                                         time_slice = "slice_1875_1924")
+cat("Documents from communities 1 & 2 (1875-1924 slice):", ndoc(corpus_communities_1900s), "documents\n")
+
+# Example 9: Get authors from specific communities first
+authors_comm1 <- get_authors_from_communities(communities = 1, time_slice = "all_time_communities")
+cat("Authors in community 1:", length(authors_comm1), "authors\n")
+if (length(authors_comm1) > 0) {
+  corpus_comm1_authors <- subset_corpus(rsc_corpus, authors = authors_comm1[1:min(3, length(authors_comm1))])
+  cat("Documents by first 3 authors from community 1:", ndoc(corpus_comm1_authors), "documents\n")
+}
+```
+
+Finally, once a corpus is subset, you can examine the documents that remain.
+
+```{r corpus_docs}
+corpus_comm1_authors
+
+full_text_test <- as.character(corpus_comm1_authors)[3]   # get the third document
+cat(full_text_test) # print the whole thing
+```
+
+# Analysing Text
+
+For this portion of the workbook we will use the Quantitative Text Analysis(QTA)/Natural Language Processing(NLP) library Quanteda.
+
+Quanteda (and many/most NLP packages) work with objects called Document Feature Matrices (or Document Term Matrices). These are, essentially, *very* large spreadsheets where every row represents a document and every column is a word (of all the words) in all of the documents. A toy example:
+
+```{r toy_dfm}
+# Create a corpus - just like the RSC - of three simple sentences
+test_corpus <- corpus(c("I like cats", "Cats are nice", "I am happy"))
+
+# Create document feature matrix of our corpus
+test_dfm <- tokens(test_corpus) %>%
+  dfm()
+
+# And let's look at it
+print(test_dfm)
+```
+It is the frequency and relationship of these features (tokens, words) that is central to NLP. We will, therefore, be analysing DFMs which are quantitative representation of our documents - figuratively "bags of words." *N.B.* This also means that the human-readable text is no longer there. If you want to read a document you will need to go back to the corpus object.
+
+For example, it becomes easy (and computationally less difficult) to identify the most frequent words (or other features):
+
+```{r test_mfw}
+topfeatures(test_dfm)
+```
+
+It is, therefore, a DFM of the RSC that we will analyse going forward. However, to do this we first need to construct it.
+
+*N.B.:* this can take a few minutes, depending on computational resources. An already constructed DFM can be loaded by commenting out code:
+
+```{r construct_dfm}
+# rsc_dfm <- readRDS("../data/rsc_dfm.RDS")
+
+start_time <- Sys.time()
+
+# Tokenise corpus, while removing punctuation, numbers, symbols, and stopwords as well as lowercasing everything
+rsc_tokens <- tokens(rsc_corpus, remove_punct = TRUE, remove_numbers = TRUE, 
+                      remove_symbols = TRUE) %>%
+  tokens_tolower() %>%
+  tokens_remove(stopwords("english"))
+
+# Document-feature matrix
+rsc_dfm <- dfm(rsc_tokens)
+
+end_time <- Sys.time()
+cat("Total time taken to tokenise and create DFM:")
+print(end_time-start_time)
+
+#saveRDS(rsc_dfm, file = "../data/rsc_dfm.RDS")
+```
+
+And now we can begin to analyse the text.
+
+```{r rsc_dfm_and_mff}
+topfeatures(rsc_dfm, n = 50)
+```
+
+However, we can quickly see that many of these "words" are not meaningful. We therefore may also want to create our own constum stopword list.
+
+```{r updating_dfm}
+######################################
+# A custom list of stopwords (and symbols).
+# YOU MAY WANT TO UPDATE THIS TO ADD AND/OR REMOVE WORDS AS YOU ANALYSE DATA YOURSELF
+######################################
+
+custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof", "#151",
+                  "#183", "#169", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
+                  "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
+                  "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
+                  "another", "professor", "roy", "soc", "first", "part", "much", "given",
+                  "great", "now", "must", "thus", "therefore", "seen", "however", "amp", 
+                  "second", "taken", "without", "many", "well", "f.r.s.", "table", "ii",
+                  "iii", "iv", "v", "vi", "vii", "viii", "ix", "mdash", "figs", "yet",
+                  "doth", "hath", "saith", "tho", "thro", "ditto",
+                  letters)
+
+rsc_dfm <- dfm_remove(rsc_dfm,  pattern = custom_stopwords)
+
+topfeatures(rsc_dfm, n = 50)
+```
+You can recreate (or reload) the DFM at any point if you think you've removed too many.
+
+## 1. Baseline: Text Without Metadata Context
+
+**The question we can ask**: What are the most common concepts and patterns discussed by the Royal Society overall?
+
+**What this may reveal**: Basic vocabulary, general themes, and surface-level patterns in scientific discourse across the entire corpus (multi-topic) and time period (multi-century).
+
+**Critical limitation**: Without metadata, we have little context for interpretation. We can see what scientists and researchers wrote about, but not when, who wrote it, why certain terms appear together, or how usage patterns changed over time.
+
+This baseline represents the starting point for any text analysis -- but also demonstrates why metadata is essential for meaningful interpretation.
+
+**N.B.**: This is a moderately large dataset. Creating and analying the text computationally can take a bit of time. It's not at the point where high performance computing is necessary, but it may take a few minutes on a laptop.
+
+```{r baseline-analysis}
+
+# Most frequent terms
+cat("Top 20 Most Frequent Terms (All Documents):\n")
+topfeatures(rsc_dfm, 50) %>% print()
+
+# Most frequent n-grams
+rsc_bigrams <- rsc_tokens %>%
+  tokens_remove(c(custom_stopwords)) %>%
+  tokens_ngrams(n = 2) %>% 
+  dfm()
+cat("\nTop 10 Most Frequent Bigrams:\n")
+topfeatures(rsc_bigrams, 50) %>% print()
+
+
+```
+
+## 2. Temporal Metadata: Historical Evolution
+
+**Research Questions Enabled**: How did scientific concepts evolve over time? When did new terminology emerge?
+
+Comparing language in the 18th and 19th centuries.
+
+```{r temporal-analysis}
+
+# Create by century
+dfm_1700s <- subset_corpus(rsc_dfm, century = 1700)
+dfm_1800s <- subset_corpus(rsc_dfm, century = 1800)
+
+# # Create or by start and end year
+# dfm_1700s <- subset_corpus(rsc_dfm, start_year = 1700, end_year = 1799)
+# dfm_1800s <- subset_corpus(rsc_dfm, start_year = 1800, end_year = 1899)
+
+# Overview of temporal subsets
+cat("\n1700s Corpus:\n") 
+cat("Documents:", ndoc(dfm_1700s), "\n")
+cat("Tokens:", sum(ntoken(dfm_1700s)), "\n\n")
+
+cat("\n1800s Corpus:\n")
+cat("Documents:", ndoc(dfm_1800s), "\n")
+cat("Tokens:", sum(ntoken(dfm_1800s)), "\n")
+
+# Compare top terms
+cat("\nTop 15 Terms in 1700s:\n")
+topfeatures(dfm_1700s, 15) %>% print()
+
+cat("Top 15 Terms in 1800s:\n")
+topfeatures(dfm_1800s, 15) %>% print()
+```
+
+This is quite insightful at first glance, but top features alone only tell us so much. What about less frequent, but completely new words? For that we can look at relative frequency (keyness).
+
+```{r relative_freq}
+
+# Compare 1700s vs 1800s using keyness analysis
+# This is statistically rigorous and much simpler than manual frequency ratios
+
+# Combine the DFMs and add period labels
+combined_dfm <- rbind(dfm_1700s, dfm_1800s)
+docvars(combined_dfm, "period") <- c(rep("1700s", ndoc(dfm_1700s)),
+                                     rep("1800s", ndoc(dfm_1800s)))
+
+# Calculate keyness (target = TRUE means 1800s vs 1700s)
+keyness_results <- textstat_keyness(combined_dfm, 
+                                    target = docvars(combined_dfm, "period") == "1800s")
+
+# Terms that became much more prominent in 1800s
+cat("\nTerms most distinctive of 1800s (became much more frequent):\n")
+keyness_results %>% 
+  filter(chi2 > 0) %>% 
+  arrange(desc(chi2)) %>% 
+  head(10) %>% 
+  print()
+
+# Terms that were more characteristic of 1700s (declined in 1800s)
+cat("\nTerms most distinctive of 1700s (declined in 1800s):\n")
+keyness_results %>% 
+  filter(chi2 < 0) %>% 
+  arrange(chi2) %>% 
+  head(10) %>% 
+  print()
+
+```
+
+### Interpreting Temporal Results: 
+
+The most intuitive measurements here are n_target and n_reference. This is how many more times the word (feature) appears in one subset than the other. In this case, temperature occurs almost 30x more frequently (38399/1291). That is a strong effect size.
+
+Additionally, chi2 is a statistical measurement the greater it is, the stronger the association between the things you're looking at. In this case temperature with a chi2 of > 5000 is an extremely strong association. In other words, it would be unlikely for temperature to have been in one subset that many times more often than the other by chance. The p value reports whether the chi2 is statistically significant.
+
+When exploring the features:
+
+Look for:
+
+- Emerging terminology: E.g., new scientific concepts that appeared in the 1800s
+- Declining usage: How certain 18th-century terms that became less common
+- Persistent concepts: Terms that remained important across both periods
+
+This analysis can reveal scientific developments like the emergence of electromagnetic theory, advances in chemistry, or new measurement techniques.
+
+Quite useful! So here's another example:
+
+```{r freq_function}
+# # Create or by start and end year
+dfm_1600s <- subset_corpus(rsc_dfm, start_year = 1600, end_year = 1700)
+dfm_1700s <- subset_corpus(rsc_dfm, start_year = 1700, end_year = 1799)
+
+# Combine the DFMs and add period labels
+combined_dfm <- rbind(dfm_1600s, dfm_1700s)
+docvars(combined_dfm, "subset_") <- c(rep("1600s", ndoc(dfm_1600s)),
+                                     rep("1700s", ndoc(dfm_1700s)))
+
+# Calculate keyness (target = TRUE means 1600s vs 1600s)
+keyness_results <- textstat_keyness(combined_dfm, 
+                                    target = docvars(combined_dfm, "subset_") == "1700s")
+
+# Terms that became much more prominent in 1700s
+cat("\nTerms most distinctive of 1700s (became much more frequent):\n")
+keyness_results %>% 
+  filter(chi2 > 0) %>% 
+  arrange(desc(chi2)) %>% 
+  head(10) %>% 
+  print()
+
+# Terms that were more characteristic of 1600s (declined in 1700s)
+cat("\nTerms most distinctive of 1600s (declined in 1700s):\n")
+keyness_results %>% 
+  filter(chi2 < 0) %>% 
+  arrange(chi2) %>% 
+  head(10) %>% 
+  print()
+
+```
+
+## 3. Topical Metadata: Disciplinary Language
+
+**Research Questions Enabled:**
+
+- How do different scientific fields use language distinctively?
+- What terminology is field-specific vs. shared across disciplines?
+- How do interdisciplinary boundaries manifest in language use?
+- Which fields are more specialised vs. more accessible in their terminology?
+
+Disciplinary Context: The Royal Society period (1665-1920) predates modern academic departments, so these topic classifications reflect how language may reflect undefined disciplinary boundaries. This could provide insight into the historical organisation and/or emergence of scientific knowledge before the professionalisation and specialisation that characterises modern science.
+
+```{r topic-analysis}
+
+# Create topic-based subsets (using first two most common topics)
+dfm_topic1 <- subset_corpus(rsc_dfm, topics = "Biology 2")
+dfm_topic2 <- subset_corpus(rsc_dfm, topics = "Astronomy")
+
+# Overview of topic subsets
+cat("Subset 1:\n")
+cat("Documents:", ndoc(dfm_topic1), "\n")
+cat("Tokens:", sum(ntoken(dfm_topic1)), "\n")
+
+cat("Subset 2:\n")
+cat("Documents:", ndoc(dfm_topic2), "\n")
+cat("Tokens:", sum(ntoken(dfm_topic2)), "\n\n")
+
+# Compare vocabularies
+cat("Top 15 Terms in subset 1:\n")
+topfeatures(dfm_topic1, 15) %>% print()
+
+cat("Top 15 Terms in subset 2:\n")
+topfeatures(dfm_topic2, 15) %>% print()
+# 
+# # Calculate distinctive terms
+# combined_topic_dfm <- rbind(dfm_topic1, dfm_topic2)
+# docvars(combined_topic_dfm, "subset") <- c(rep("subset1", ndoc(dfm_topic1)),
+#                                           rep("subset2", ndoc(dfm_topic2)))
+# 
+# topic_keyness <- textstat_keyness(combined_topic_dfm, 
+#                                   target = docvars(combined_topic_dfm, "subset") == "subset1")
+# 
+# cat("\nTerms most distinctive of", common_topics[1], ":\n")
+# topic_keyness %>% 
+#   filter(chi2 > 0) %>% 
+#   arrange(desc(chi2)) %>% 
+#   head(10) %>% 
+#   print()
+# 
+# cat("\nTerms most distinctive of", common_topics[2], ":\n")
+# topic_keyness %>% 
+#   filter(chi2 < 0) %>% 
+#   arrange(chi2) %>% 
+#   head(10) %>% 
+#   print()
+```
+
+And keyness
+
+```{r keyness_topics}
+# Find community-distinctive terms using keyness
+combined_dfm <- rbind(dfm_topic1, dfm_topic2)
+docvars(combined_dfm, "subset") <- c(rep("subset1", ndoc(dfm_topic1)),
+                                        rep("subset2", ndoc(dfm_topic2)))
+
+# Calculate keyness
+keyness_results <- textstat_keyness(combined_dfm, 
+                                  target = docvars(combined_dfm, "subset") == "subset1")
+
+cat("\nTerms most distinctive of subset1:\n")
+keyness_results %>% 
+  filter(chi2 > 0) %>% 
+  arrange(desc(chi2)) %>% 
+  head(10) %>% 
+  print()
+
+cat("\nTerms most distinctive of subset2:\n")
+keyness_results %>% 
+  filter(chi2 < 0) %>% 
+  arrange(chi2) %>% 
+  head(10) %>% 
+  print()
+```
+
+
+### Interpreting Topical Results
+
+Look for:
+
+- Technical vocabularies: Specialised terminology unique to each field
+- Methodological language: Different approaches to investigation and measurement
+- Theoretical frameworks: How fields conceptualise and explain phenomena
+- Cross-field terminology: Concepts that bridge disciplines vs. field-specific jargon
+
+This analysis may reveal how scientific disciplines maintain their distinctiveness through language while also sharing common ground where fields intersect.
+
+## 4. Authorship Metadata: Individual vs Collaborative Work
+
+**Research Questions Enabled**: 
+
+- How does collaboration affect scientific language and argumentation?
+- Do single authors write differently than research teams?
+- What linguistic patterns emerge in collaborative vs. individual work?
+- How does authorship structure relate to the complexity or certainty of scientific claims?
+
+Historical Context: The transition from single-author to multi-author publications represents a major shift in how scientific knowledge is produced. In the Royal Society period, most work was still individual, making this an ideal dataset for studying this transition.
+
+```{r authorship-analysis}
+
+# Create authorship-based subsets
+dfm_single <- subset_corpus(rsc_dfm, single_author = TRUE)
+dfm_multi <- subset_corpus(rsc_dfm, multi_author = TRUE)
+
+# Overview of authorship subsets
+cat("Single-Author Corpus:\n")
+cat("Documents:", ndoc(dfm_single), "\n")
+cat("Tokens:", sum(ntoken(dfm_single)), "\n")
+
+cat("\nMulti-Author Corpus:\n")
+cat("Documents:", ndoc(dfm_multi), "\n")
+cat("Tokens:", sum(ntoken(dfm_multi)), "\n\n")
+
+# Compare vocabularies
+cat("Top 15 Terms in Single-Author Papers:\n")
+topfeatures(dfm_single, 15) %>% print()
+
+cat("\nTop 15 Terms in Multi-Author Papers:\n")
+topfeatures(dfm_multi, 15) %>% print()
+
+# Distinctive language
+combined_auth_dfm <- rbind(dfm_single, dfm_multi)
+docvars(combined_auth_dfm, "authorship") <- c(rep("Single", ndoc(dfm_single)),
+                                              rep("Multi", ndoc(dfm_multi)))
+
+auth_keyness <- textstat_keyness(combined_auth_dfm, 
+                                 target = docvars(combined_auth_dfm, "authorship") == "Single")
+
+cat("\nTerms most distinctive of Single-Author papers:\n")
+auth_keyness %>% 
+  filter(chi2 > 0) %>% 
+  arrange(desc(chi2)) %>% 
+  head(10) %>% 
+  print()
+
+cat("\nTerms most distinctive of Multi-Author papers:\n")
+auth_keyness %>% 
+  filter(chi2 < 0) %>% 
+  arrange(chi2) %>% 
+  head(10) %>% 
+  print()
+
+```
+
+### Interpreting Authorship Results:
+
+Consider:
+
+- Personal vs. collective voice: How does individual vs. collaborative authorship affect scientific rhetoric?
+- Certainty and hedging: Do collaborative works show more cautious language?
+- Methodological complexity: Are multi-author works more methodologically sophisticated?
+- Institutional language: How do collaboration patterns affect references to institutions, equipment, or resources?
+
+In all of these cases, *this might be an interesting area where stopwords are not dropped.* The patterns that emerge may reveal how the social organisation of scientific work influences the language used to communicate findings and arguments.
+
+## 5. Combined Metadata: Complex Questions
+
+**Research Questions Enabled**: 
+
+- How do multiple metadata dimensions interact to shape scientific discourse?
+- What happens when we layer temporal, topical, and social factors together?
+- How can we trace the evolution of specific scientific communities or disciplines?
+- What complex patterns emerge only when combining different types of context?
+
+*Methodological Power:* This represents the full potential of metadata-driven analysis—the ability to ask complex, multi-faceted questions that would be impossible with any single dimension of context.
+
+Example Applications:
+
+- Tracking how specific scientific communities evolved their language over time
+- Comparing how different fields adopted new terminology during the same period
+- Analysing how collaboration patterns vary across disciplines and historical periods
+- Investigating how major scientific discoveries propagated through different networks
+
+```{r combined-analysis}
+
+# Example: How did physics language change from 1800s to 1900s?
+physics_topics <- c("Atomic Physics", "Thermodynamics", "Fluid Dynamics", "Electricity")
+
+# Create combined subsets
+dfm_phys_1800s <- subset_corpus(rsc_dfm, 
+                              topics = physics_topics,
+                              start_year = 1800, end_year = 1899)
+
+dfm_phys_1900s <- subset_corpus(rsc_dfm,
+                              topics = physics_topics, 
+                              start_year = 1900, end_year = 1920)
+
+cat(physics_topics, "in 1800s:\n")
+cat("Documents:", ndoc(dfm_phys_1800s), "\n")
+
+cat("\n", physics_topics, "in 1900s:\n")
+cat("Documents:", ndoc(dfm_phys_1900s), "\n\n")
+
+cat("Top terms in", physics_topics, "1800s:\n")
+topfeatures(dfm_phys_1800s, 10) %>% print()
+
+cat("\nTop terms in", physics_topics, "1900s:\n")
+topfeatures(dfm_phys_1900s, 10) %>% print()
+
+# Find evolving terminology
+combined_phys_dfm <- rbind(dfm_phys_1800s, dfm_phys_1900s)
+docvars(combined_phys_dfm, "subset") <- c(rep("subset1", ndoc(dfm_phys_1800s)),
+                                          rep("subset2", ndoc(dfm_phys_1900s)))
+
+phys_keyness <- textstat_keyness(combined_phys_dfm,
+                                 target = docvars(combined_phys_dfm, "subset") == "subset2")
+
+cat("\nTerms that became more prominent in", physics_topics, "by 1900s:\n")
+phys_keyness %>%
+  filter(chi2 > 0) %>%
+  arrange(desc(chi2)) %>%
+  head(8) %>%
+  print()
+
+```
+
+## Advanced Combined Analysis Ideas:
+
+- Community Evolution: Track how specific intellectual communities changed their research focus over time
+- Cross-Field Diffusion: Study how terminology spreads from one discipline to another
+- Collaboration and Innovation: Examine whether collaborative works introduce new concepts faster than individual works
+
+## 6. Network/Community Metadata: Intellectual Communities
+
+**Research Questions Enabled:**
+
+- How do different scholarly communities use language differently?
+- What concepts are community-specific vs. shared across scientific networks?
+- How do intellectual networks influence the spread of terminology?
+- Which communities serve as bridges between different scientific domains?
+
+**Methodological Insight:** Network metadata reveals the social structure underlying scientific knowledge production. Different communities of scientists may develop distinct vocabularies, research methods, or ways of describing phenomena—even when studying related topics.
+
+```{r network-analysis}
+# NB: Community zero represents isolates - needs to be dropped!
+# Get the largest two communities for comparison
+large_communities <- network_data %>%
+  filter(all_time_communities != 0) %>%
+  filter(node_type == "author", !is.na(all_time_communities)) %>%
+  count(all_time_communities, sort = TRUE) %>%
+  head(2) %>%
+  pull(all_time_communities)
+
+cat("Analysing communities:", paste(large_communities, collapse = ", "), "\n\n")
+
+# Subset DFM by YEARS and AUTHORS
+
+# Create community-based subsets
+dfm_comm1 <- subset_corpus(rsc_dfm, communities = large_communities[1])
+dfm_comm2 <- subset_corpus(rsc_dfm, communities = large_communities[2])
+
+# Overview of community subsets
+cat("Community", large_communities[1], "Corpus:\n")
+cat("Documents:", ndoc(dfm_comm1), "\n")
+cat("Tokens:", sum(ntoken(dfm_comm1)), "\n")
+
+cat("\nCommunity", large_communities[2], "Corpus:\n")
+cat("Documents:", ndoc(dfm_comm2), "\n") 
+cat("Tokens:", sum(ntoken(dfm_comm2)), "\n\n")
+
+# Compare vocabularies
+cat("Top 15 Terms in Community", large_communities[1], ":\n")
+topfeatures(dfm_comm1, 15) %>% print()
+
+cat("\nTop 15 Terms in Community", large_communities[2], ":\n")
+topfeatures(dfm_comm2, 15) %>% print()
+```
+
+And, again, we can turn to keyness to explore differences - but this time between communities active over the same time period.
+
+```{r keyness_community}
+# Find community-distinctive terms using keyness
+combined_dfm <- rbind(dfm_comm1, dfm_comm2)
+docvars(combined_dfm, "subset") <- c(rep("subset1", ndoc(dfm_comm1)),
+                                        rep("subset2", ndoc(dfm_comm2)))
+
+# Calculate keyness
+keyness_results <- textstat_keyness(combined_dfm, 
+                                  target = docvars(combined_dfm, "subset") == "subset1")
+
+cat("\nTerms most distinctive of Community", large_communities[1], ":\n")
+keyness_results %>% 
+  filter(chi2 > 0) %>% 
+  arrange(desc(chi2)) %>% 
+  head(10) %>% 
+  print()
+
+cat("\nTerms most distinctive of Community", large_communities[2], ":\n")
+keyness_results %>% 
+  filter(chi2 < 0) %>% 
+  arrange(chi2) %>% 
+  head(10) %>% 
+  print()
+
+
+```
+
+### Interpreting Community Results
+
+Keyness reveals:
+
+- Community-specific vocabularies: Terms that strongly characterise each intellectual network
+- Disciplinary boundaries: How different scientific domains maintain distinct languages
+- Methodological differences: Communities may prefer different research approaches or instruments
+- Theoretical orientations: Distinct ways of conceptualising similar phenomena
+
+These differences reflect how scientific communities develop their own research traditions, methodological preferences, and ways of understanding the natural world.
+
+### Communities step 2
+
+We are also able to look at who the people are that make up these communities, what they wrote, and what they wrote about.
+
+```{r community_details}
+# NB: Community zero represents isolates - needs to be dropped!
+# Get the largest communities for meaningful comparison
+slice_communities <- network_data %>%
+  filter(slice_1725_1774 != 0) %>%
+  filter(node_type == "author", !is.na(slice_1725_1774)) %>%
+  count(slice_1725_1774, sort = TRUE) %>%
+  #head(5) %>%
+  pull(slice_1725_1774)
+
+# Create community-based subsets (chose 6 and 8 for illustrative purposes)
+dfm_comm1 <- subset_corpus(rsc_dfm, communities = slice_communities[6], time_slice = "slice_1725_1774")
+dfm_comm2 <- subset_corpus(rsc_dfm, communities = slice_communities[8], time_slice = "slice_1725_1774")
+
+# Overview of community subsets
+cat("Community", large_communities[1], "Corpus:\n")
+cat("Documents:", ndoc(dfm_comm1), "\n")
+cat("Tokens:", sum(ntoken(dfm_comm1)), "\n")
+
+cat("\nCommunity", large_communities[2], "Corpus:\n")
+cat("Documents:", ndoc(dfm_comm2), "\n") 
+cat("Tokens:", sum(ntoken(dfm_comm2)), "\n\n")
+
+# Compare vocabularies
+cat("Top 15 Terms in Community", large_communities[1], ":\n")
+topfeatures(dfm_comm1, 25) %>% print()
+
+cat("\nTop 15 Terms in Community", large_communities[2], ":\n")
+topfeatures(dfm_comm2, 25) %>% print()
+
+# The titles of five random documents
+cat("The titles of five random documents\n")
+docvars(dfm_comm1)$title[c(sample(c(1:ndoc(dfm_comm1)), 5))]
+docvars(dfm_comm2)$title[c(sample(c(1:ndoc(dfm_comm1)), 5))]
+
+# The (computationally assigned) topics for documents in the communities
+cat("The (computationally assigned) topics for documents in the communities\n")
+sort(table(docvars(dfm_comm1)$primaryTopic), decreasing = TRUE)
+sort(table(docvars(dfm_comm2)$primaryTopic), decreasing = TRUE)
+
+# The top 5 authors in each community
+cat("The top 5 authors in each community\n")
+sort(table(unlist(docvars(dfm_comm1)$authors_list)), decreasing = TRUE)[1:5]
+sort(table(unlist(docvars(dfm_comm2)$authors_list)), decreasing = TRUE)[1:5]
+
+```
+
+# Summary
+
+What we've tried to demonstrate
+
+**1. Baseline (No Metadata Context):**
+
+Capability: Reveals general vocabulary patterns and surface-level themes
+Critical Limitation: No interpretive context—we see patterns but cannot explain them
+
+**2. Temporal metadata:**
+
+New Capabilities: Historical analysis, tracking conceptual evolution, identifying emergence/decline patterns
+Research Questions Unlocked: When did concepts emerge? How did language evolve? What disappeared over time?
+
+**3. Topics:**
+
+New Capabilities: Disciplinary analysis, field-specific vocabularies, interdisciplinary boundary detection
+Research Questions Unlocked: How do fields use language differently? What terminology is discipline-specific? Where do fields overlap?
+
+**4. Authorship:**
+
+New Capabilities: Collaboration analysis, individual vs. collective discourse patterns, social organisation effects
+Research Questions Unlocked: How does collaboration affect language? Do teams write differently than individuals? How does social structure influence content?
+
+**5. Combining metadata:**
+
+New Capabilities: Complex, multi-dimensional analysis, interaction effects, layered contextual investigation
+Research Questions Unlocked: How do multiple factors interact? What emerges only from combined analysis? How do different contexts layer together?
+
+**6. Network data:**
+
+New Capabilities: Social analysis of knowledge, community-specific language patterns, intellectual network mapping
+Research Questions Unlocked: How do scholarly communities differ? What language is shared vs. specialised? How do networks influence terminology?
+
+## The Key Claim
+
+**Metadata fundamentally determines what research questions are possible to ask and answer when using text.**
+
+Each type of metadata creates new analytical possibilities. This principle extends far beyond historical corpora:
+
+- Social Media Analysis: Timestamps, user profiles, location data, network connections
+- News Corpora: Publication dates, outlets, authors, topics, geographic focus
+- Legal Documents: Court levels, case types, dates, jurisdictions, outcomes
+- Corporate Communications: Department, hierarchy level, meeting types, project codes
+- Academic Literature: Disciplines, citation networks, author affiliations, venue types
+
+## Implications for Text Analysis
+
+- **1. Research Design:** Always begin by cataloging available metadata and considering what questions each dimension enables
+- **2. Data Collection:** Invest heavily in metadata acquisition as it's potentially more valuable than additional raw text
+- **3. Analytical Strategy:** Design analysis plans that start with basic questions and allow for the addition of dimensions progressively
+- **4. Interpretation:** Context from metadata is essential for moving from pattern detection to meaningful explanation
+- **5. Reproducibility:** Document metadata schemas and subsetting criteria as carefully as analytical procedures
+
+# Exercise Template
+
+```{r exercise-template, eval=FALSE}
+# TEMPLATE FOR EXERCISE ANALYSIS
+# Modify these parameters to explore different questions:
+
+# Step 1: Choose your comparison:
+my_decade1 <- 1850  # or any decade
+my_decade2 <- 1900  # or any decade  
+my_topic <- "Geology"  # or any available topic
+my_community <- 1  # or any available community
+
+# Step 2: Create your subsets:
+my_dfm1 <- subset_corpus(rsc_dfm, decade = my_decade1, topics = my_topic)
+my_dfm2 <- subset_corpus(rsc_dfm, decade = my_decade2, topics = my_topic)
+
+# Step 3: Analyse and compare (top features, keyness)
+
+# Reflection questions for yourself:
+# 1. What research question does your comparison address?
+# 2. How did the metadata enable this specific question?
+# 3. What would be impossible to answer without this metadata?
+# 4. What additional metadata would enable even more interesting questions?
+```
