@@ -71,7 +71,7 @@ An overview can be found in: Menzel, K., Knappen, J., & Teich, E. (2021). Genera
 - **Scientific significance**: Documents major discoveries and paradigm shifts in science
 - **Rich metadata**: Beyond just publication dates, includes author information, topics, and document types
 
-### Key corpus statistics:
+### Key corpus statistics
 
 - 17520 (`r length(rsc_corpus)`) articles and papers
 - Multiple document types (articles, abstracts, reviews, proceedings)
@@ -79,7 +79,7 @@ An overview can be found in: Menzel, K., Knappen, J., & Teich, E. (2021). Genera
 - Author attribution and co-authorship networks
 - Standardised temporal metadata
 
-## The Central Argument: Metadata Shapes Possible Questions
+### The Central Argument: Metadata Shapes Possible Questions
 
 The key goal from this workbook is to show how research questions are fundamentally shaped and limited by the metadata available in your dataset. Each type of metadata opens up entirely new analytical possibilities:
 
@@ -93,7 +93,7 @@ And, of course, these lenses can be combined in various ways to conduct more and
 
 **N.B.**: This principle applies far beyond historical corpora—whether analysing social media posts, legal documents, news articles, or any text collection. The available metadata determines what questions you can meaningfully investigate.
 
-# Data overviews
+# Data overview
 
 Before analysis, we need to understand the structure and scope of our data. This section provides descriptive overviews of both the textual corpus and the network metadata.
 
@@ -474,7 +474,7 @@ Finally, once a corpus is subset, you can examine the documents that remain.
 corpus_comm1_authors
 
 full_text_test <- as.character(corpus_comm1_authors)[3]   # get the third document
-cat(full_text_test) # print the whole thing
+# cat(full_text_test) # print the whole thing - uncomment to see
 ```
 
 # Analysing Text
@@ -512,7 +512,7 @@ It is, therefore, a DFM of the RSC that we will analyse going forward. However, 
 start_time <- Sys.time()
 
 # Tokenise corpus, while removing punctuation, numbers, symbols, and stopwords as well as lowercasing everything
-rsc_tokens <- tokens(rsc_corpus, remove_punct = TRUE, remove_numbers = TRUE, 
+rsc_tokens <- tokens(rsc_corpus, remove_punct = TRUE, remove_numbers = TRUE,
                       remove_symbols = TRUE) %>%
   tokens_tolower() %>%
   tokens_remove(stopwords("english"))
@@ -541,8 +541,11 @@ However, we can quickly see that many of these "words" are not meaningful. We th
 # YOU MAY WANT TO UPDATE THIS TO ADD AND/OR REMOVE WORDS AS YOU ANALYSE DATA YOURSELF
 ######################################
 
-custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof", "#151",
-                  "#183", "#169", "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
+all_issues <- paste0("#" )
+
+custom_stopwords <- c(paste0("#", 1:999), 
+                  "fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof",
+                  "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
                   "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
                   "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
                   "another", "professor", "roy", "soc", "first", "part", "much", "given",
@@ -553,7 +556,7 @@ custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "pro
                   "thereof", "whether", "whereof", "self", "author", "nearly", "tab",
                   "letter", "till", "likewise", "saw", "book", "numb", "wherein", "sorts",
                   "publisher", "books", "make", "concerning", "things", "like",
-                  "unto", "discourse", "divers",
+                  "unto", "discourse", "divers", "407-481",
                   letters)
 
 rsc_dfm <- dfm_remove(rsc_dfm,  pattern = custom_stopwords)
@@ -593,7 +596,7 @@ topfeatures(rsc_bigrams, 50) %>% print()
 
 ## 2. Temporal Metadata: Historical Evolution
 
-**Research Questions Enabled**: How did scientific concepts evolve over time? When did new terminology emerge?
+**Research Questions**: How did scientific concepts evolve over time? When did new terminology emerge?
 
 Comparing language in the 18th and 19th centuries.
 
@@ -658,7 +661,7 @@ keyness_results %>%
 
 ```
 
-### Interpreting Temporal Results: 
+### Interpreting Temporal Results
 
 The most intuitive measurements here are n_target and n_reference. This is how many more times the word (feature) appears in one subset than the other. In this case, temperature occurs almost 30x more frequently (38399/1291). That is a strong effect size.
 
@@ -710,7 +713,7 @@ keyness_results %>%
 
 ## 3. Topical Metadata: Disciplinary Language
 
-**Research Questions Enabled:**
+**Research Questions:**
 
 - How do different scientific fields use language distinctively?
 - What terminology is field-specific vs. shared across disciplines?
@@ -764,7 +767,7 @@ topfeatures(dfm_topic2, 15) %>% print()
 #   print()
 ```
 
-And keyness
+And keyness:
 
 ```{r keyness_topics}
 # Find community-distinctive terms using keyness
@@ -791,7 +794,6 @@ keyness_results %>%
   print()
 ```
 
-
 ### Interpreting Topical Results
 
 Look for:
@@ -803,84 +805,19 @@ Look for:
 
 This analysis may reveal how scientific disciplines maintain their distinctiveness through language while also sharing common ground where fields intersect.
 
-## 4. Authorship Metadata: Individual vs Collaborative Work
 
-**Research Questions Enabled**: 
+## 4. Combining Metadata
 
-- How does collaboration affect scientific language and argumentation?
-- Do single authors write differently than research teams?
-- What linguistic patterns emerge in collaborative vs. individual work?
-- How does authorship structure relate to the complexity or certainty of scientific claims?
+When multiple perspectives are brought together one can ask more complex questions. For example:
 
-Historical Context: The transition from single-author to multi-author publications represents a major shift in how scientific knowledge is produced. In the Royal Society period, most work was still individual, making this an ideal dataset for studying this transition.
-
-```{r authorship-analysis}
-
-# Create authorship-based subsets
-dfm_single <- subset_corpus(rsc_dfm, single_author = TRUE)
-dfm_multi <- subset_corpus(rsc_dfm, multi_author = TRUE)
-
-# Overview of authorship subsets
-cat("Single-Author Corpus:\n")
-cat("Documents:", ndoc(dfm_single), "\n")
-cat("Tokens:", sum(ntoken(dfm_single)), "\n")
-
-cat("\nMulti-Author Corpus:\n")
-cat("Documents:", ndoc(dfm_multi), "\n")
-cat("Tokens:", sum(ntoken(dfm_multi)), "\n\n")
-
-# Compare vocabularies
-cat("Top 15 Terms in Single-Author Papers:\n")
-topfeatures(dfm_single, 15) %>% print()
-
-cat("\nTop 15 Terms in Multi-Author Papers:\n")
-topfeatures(dfm_multi, 15) %>% print()
-
-# Distinctive language
-combined_auth_dfm <- rbind(dfm_single, dfm_multi)
-docvars(combined_auth_dfm, "authorship") <- c(rep("Single", ndoc(dfm_single)),
-                                              rep("Multi", ndoc(dfm_multi)))
-
-auth_keyness <- textstat_keyness(combined_auth_dfm, 
-                                 target = docvars(combined_auth_dfm, "authorship") == "Single")
-
-cat("\nTerms most distinctive of Single-Author papers:\n")
-auth_keyness %>% 
-  filter(chi2 > 0) %>% 
-  arrange(desc(chi2)) %>% 
-  head(10) %>% 
-  print()
-
-cat("\nTerms most distinctive of Multi-Author papers:\n")
-auth_keyness %>% 
-  filter(chi2 < 0) %>% 
-  arrange(chi2) %>% 
-  head(10) %>% 
-  print()
-
-```
-
-### Interpreting Authorship Results:
-
-Consider:
-
-- Personal vs. collective voice: How does individual vs. collaborative authorship affect scientific rhetoric?
-- Certainty and hedging: Do collaborative works show more cautious language?
-- Methodological complexity: Are multi-author works more methodologically sophisticated?
-- Institutional language: How do collaboration patterns affect references to institutions, equipment, or resources?
-
-In all of these cases, *this might be an interesting area where stopwords are not dropped.* The patterns that emerge may reveal how the social organisation of scientific work influences the language used to communicate findings and arguments.
-
-## 5. Combined Metadata: Complex Questions
-
-**Research Questions Enabled**: 
+**Research Questions**: 
 
 - How do multiple metadata dimensions interact to shape scientific discourse?
 - What happens when we layer temporal, topical, and social factors together?
 - How can we trace the evolution of specific scientific communities or disciplines?
 - What complex patterns emerge only when combining different types of context?
 
-*Methodological Power:* This represents the full potential of metadata-driven analysis—the ability to ask complex, multi-faceted questions that would be impossible with any single dimension of context.
+**Methodological Strength(s):** This represents the full potential of metadata-driven analysis—the ability to ask complex, multi-faceted questions that would be impossible with any single dimension of context.
 
 Example Applications:
 
@@ -932,22 +869,202 @@ phys_keyness %>%
 
 ```
 
-### Advanced Combined Analysis Ideas:
+### Further Ideas
 
 - Community Evolution: Track how specific intellectual communities changed their research focus over time
 - Cross-Field Diffusion: Study how terminology spreads from one discipline to another
 - Collaboration and Innovation: Examine whether collaborative works introduce new concepts faster than individual works
 
+## 5. Text as variable
+
+In the previous sections, we used metadata to subset text and compare different groups. Now we flip the approach: we use text patterns to investigate the metadata itself. This represents a fundamental shift in analytical perspective—instead of asking "How do different groups use language?", we ask "What can language patterns tell us about historical, social, or institutional phenomena?"
+
+Research Questions Enabled:
+
+When did specific scientific concepts or terms first emerge and spread?
+Which authors were most central to developing particular fields or ideas?
+How can we trace the diffusion of ideas through scientific communities?
+What can linguistic patterns reveal about the social organisation of science?
+
+Methodological Insight: Text becomes a lens for understanding broader patterns in scientific history, authorship, and knowledge production. We treat word usage, terminology evolution, and linguistic patterns as evidence for historical processes.
+
+### 5.1 Temporal Emergence: When Did Scientific Concepts Appear?
+
+Rather than comparing predefined time periods, we can trace when specific terms entered scientific discourse and how their usage evolved.
+
+```{r text_as_var}
+# Track emergence of key scientific terms
+electricity_usage <- track_term_over_time(rsc_dfm, "electricity")
+temperature_usage <- track_term_over_time(rsc_dfm, "temperature") 
+evolution_usage <- track_term_over_time(rsc_dfm, "evolution")
+
+# Display emergence patterns
+cat("Electricity usage over time:\n")
+print(electricity_usage)
+
+cat("\nTemperature usage over time:\n")
+print(temperature_usage)
+
+cat("\nEvolution usage over time:\n")
+print(evolution_usage)
+
+# Visualise concept emergence
+library(ggplot2)
+
+plot_concept_emergence <- function(usage_data, term_name) {
+  ggplot(usage_data, aes(x = time_period)) +
+    geom_line(aes(y = usage_rate), color = "blue", size = 1) +
+    geom_point(aes(y = usage_rate), color = "blue", size = 2) +
+    geom_line(aes(y = document_penetration * 100), color = "red", size = 1, linetype = "dashed") +
+    geom_point(aes(y = document_penetration * 100), color = "red", size = 2) +
+    scale_y_continuous(
+      name = "Usage Rate (per 1000 words)",
+      sec.axis = sec_axis(~./100, name = "Document Penetration (%)")
+    ) +
+    labs(
+      title = paste("Emergence and Spread of '", term_name, "'", sep = ""),
+      subtitle = "Blue = usage intensity, Red = breadth of adoption",
+      x = "Decade"
+    ) +
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+}
+
+plot_concept_emergence(electricity_usage, "electricity")
+plot_concept_emergence(temperature_usage, "temperature")
+plot_concept_emergence(evolution_usage, "evolution")
+
+
+```
+
+#### Interpreting Emergence Patterns
+
+- Usage Rate: How intensively is a term used when it appears (occurrences per 1000 words)
+- Document Penetration: How widely distributed is the term across different papers
+
+Things one can look for:
+
+- Sudden emergence: Terms that appear rarely then spike dramatically
+- Gradual adoption: Concepts that slowly gain acceptance over decades
+- Early vs. late adoption: Whether terms start in specialist contexts then spread
+- Peak and decline: Whether certain concepts become less central over time
+
+### 5.2 Authorial Expertise: Who Were the Key Figures for Specific Topics?
+
+Instead of comparing predefined author groups, we can identify which authors were most central to specific scientific concepts or fields.
+
+```{r text_as_var2}
+# Find key authors for different scientific concepts
+electricity_authors <- find_key_authors_for_term(rsc_dfm, "electricity", min_usage = 3)
+temperature_authors <- find_key_authors_for_term(rsc_dfm, "temperature", min_usage = 5)
+magnetic_authors <- find_key_authors_for_term(rsc_dfm, "magnetic", min_usage = 3)
+
+cat("Top authors discussing 'electricity':\n")
+print(head(electricity_authors, 10))
+
+cat("\nTop authors discussing 'temperature':\n")
+print(head(temperature_authors, 10))
+
+cat("\nTop authors discussing 'magnetic' phenomena:\n")
+print(head(magnetic_authors, 10))
+
+# Cross-reference with known historical figures
+# (This would be where domain knowledge becomes valuable)
+cat("\nUsage intensity shows how central a concept was to an author's work\n")
+cat("(total mentions / total words written * 1000)\n")
+```
+
+### 5.3 Lexical Innovation: Tracking the Introduction of Technical Vocabulary
+
+We can identify when new technical terms first appeared and trace their adoption patterns.
+
+```{r text_var3}
+# Find terminology that emerged in different centuries
+innovations_1800s <- find_period_innovations(
+  rsc_dfm, 
+  early_period = c(1600, 1650, 1700), 
+  late_period = c(1800, 1850), 
+  time_var = "century"
+)
+
+innovations_1900s <- find_period_innovations(
+  rsc_dfm,
+  early_period = c(1600, 1700, 1800),
+  late_period = c(1900),
+  time_var = "century"
+)
+
+cat("Top 20 lexical innovations appearing in 1800s:\n")
+print(head(innovations_1800s, 20))
+
+cat("\nTop 20 lexical innovations appearing in 1900s:\n")
+print(head(innovations_1900s, 20))
+
+# Focus on high-frequency innovations (likely important concepts)
+cat("\nHigh-frequency innovations in 1800s (used > 20 times):\n")
+innovations_1800s %>% 
+  filter(docs_using  > 20) %>%
+  head(20)
+
+cat("\nHigh-frequency innovations in 1900s (used > 20 times):\n")
+innovations_1900s %>% 
+  filter(docs_using  > 20) %>%
+  head(20)
+
+```
+
+### 5.4 Diffusion Patterns: How Ideas Spread Through Scientific Networks
+
+We can use text patterns to understand how concepts moved between different scientific communities or topics.
+
+```{r text_var4}
+# Track how key concepts spread across topics
+electricity_by_topic <- track_concept_diffusion(rsc_dfm, "electricity", "primaryTopic")
+temperature_by_topic <- track_concept_diffusion(rsc_dfm, "temperature", "primaryTopic")
+
+cat("'Electricity' usage across primary topics:\n")
+print(head(electricity_by_topic, 10))
+
+cat("\n'Temperature' usage across primary topics:\n")
+print(head(temperature_by_topic, 10))
+
+# Visualise cross-topic diffusion
+plot_topic_diffusion <- function(diffusion_data, term_name, top_n = 8) {
+  diffusion_data %>%
+    filter(total_usage > 0) %>%
+    slice_head(n = top_n) %>%
+    ggplot(aes(x = reorder(group, usage_rate), y = usage_rate)) +
+    geom_col(fill = "steelblue", alpha = 0.7) +
+    coord_flip() +
+    labs(
+      title = paste("Usage of '", term_name, "' Across Topics", sep = ""),
+      subtitle = "Rate per 1000 words in each topic area",
+      x = "Primary Topic",
+      y = "Usage Rate (per 1000 words)"
+    ) +
+    theme_minimal()
+}
+
+plot_topic_diffusion(electricity_by_topic, "electricity")
+plot_topic_diffusion(temperature_by_topic, "temperature")
+```
+
+### Text as Evidence for Broader Phenomena
+
+This approach demonstrates how textual patterns can serve as evidence for historical, social, and intellectual processes. Rather than treating text as the object of study, we use it as a lens for understanding the metadata itself.
+
+We can use this to generate empirically-grounded hypotheses about historical processes that can then be investigated using traditional historical methods—creating a productive dialogue between computational and humanistic approaches to understanding the past.
+
 ## 6. Network/Community Metadata: Intellectual Communities
 
-**Research Questions Enabled:**
+**Research Questions:**
 
 - How do different scholarly communities use language differently?
 - What concepts are community-specific vs. shared across scientific networks?
 - How do intellectual networks influence the spread of terminology?
 - Which communities serve as bridges between different scientific domains?
 
-**Methodological Insight:** Network metadata reveals the social structure underlying scientific knowledge production. Different communities of scientists may develop distinct vocabularies, research methods, or ways of describing phenomena—even when studying related topics.
+**Methodological Strenght(s):** Network metadata reveals the social structure underlying scientific knowledge production. Different communities of scientists may develop distinct vocabularies, research methods, or ways of describing phenomena—even when studying related topics.
 
 ```{r network-analysis}
 # NB: Community zero represents isolates - needs to be dropped!
@@ -1024,7 +1141,7 @@ Keyness reveals:
 
 These differences reflect how scientific communities develop their own research traditions, methodological preferences, and ways of understanding the natural world.
 
-### Communities step 2
+### Community Makeup
 
 We are also able to look at who the people are that make up these communities, what they wrote, and what they wrote about.
 
@@ -1043,19 +1160,19 @@ dfm_comm1 <- subset_corpus(rsc_dfm, communities = slice_communities[6], time_sli
 dfm_comm2 <- subset_corpus(rsc_dfm, communities = slice_communities[8], time_slice = "slice_1725_1774")
 
 # Overview of community subsets
-cat("Community", large_communities[1], "Corpus:\n")
+cat("Community", slice_communities[6], "Corpus:\n")
 cat("Documents:", ndoc(dfm_comm1), "\n")
 cat("Tokens:", sum(ntoken(dfm_comm1)), "\n")
 
-cat("\nCommunity", large_communities[2], "Corpus:\n")
+cat("\nCommunity", slice_communities[8], "Corpus:\n")
 cat("Documents:", ndoc(dfm_comm2), "\n") 
 cat("Tokens:", sum(ntoken(dfm_comm2)), "\n\n")
 
 # Compare vocabularies
-cat("Top 15 Terms in Community", large_communities[1], ":\n")
+cat("Top 15 Terms in Community", slice_communities[6], ":\n")
 topfeatures(dfm_comm1, 25) %>% print()
 
-cat("\nTop 15 Terms in Community", large_communities[2], ":\n")
+cat("\nTop 15 Terms in Community", slice_communities[8], ":\n")
 topfeatures(dfm_comm2, 25) %>% print()
 
 # The titles of five random documents
@@ -1075,194 +1192,25 @@ sort(table(unlist(docvars(dfm_comm2)$authors_list)), decreasing = TRUE)[1:5]
 
 ```
 
-And let's plot these networks
+And let's plot these networks:
 
 ```{r}
-# Turn docvars list-column into long edgelist: author <-> document
-make_bipartite_edges <- function(dfm_comm) {
-  tibble(
-    doc = docnames(dfm_comm),
-    authors = docvars(dfm_comm)$authors_list
-  ) %>%
-    unnest(authors) %>%
-    mutate(type = "author")
-}
-
 edges_comm1 <- make_bipartite_edges(dfm_comm1)
 edges_comm2 <- make_bipartite_edges(dfm_comm2)
-
-plot_bipartite <- function(edges, comm_id) {
-  # Build igraph object
-  g <- graph_from_data_frame(edges %>% select(authors, doc), directed = FALSE)
-  
-  # Identify node types: author = TRUE, doc = FALSE
-  V(g)$type <- V(g)$name %in% edges$authors
-  
-  # Plot
-  ggraph(g, layout = "bipartite") +
-    geom_edge_link(alpha = 0.4) +
-    geom_node_point(aes(color = as.factor(type)), size = 3) +
-    geom_node_text(aes(label = name), size = 2, repel = TRUE) +
-    scale_color_manual(values = c("red", "steelblue"), labels = c("Document", "Author")) +
-    theme_void() +
-    ggtitle(paste("Bipartite network for Community", comm_id))
-}
 
 plot_bipartite(edges_comm1, slice_communities[6])
 plot_bipartite(edges_comm2, slice_communities[8])
 
-plot_coauthors <- function(edges, comm_id) {
-  g_bip <- graph_from_data_frame(edges %>% select(authors, doc), directed = FALSE)
-  V(g_bip)$type <- V(g_bip)$name %in% edges$authors
-  
-  # Project onto author–author network
-  # Get both projections and select the one with authors
-  projections <- bipartite_projection(g_bip)
-  
-  # Check which projection contains authors (should be the one with type = TRUE)
-  author_nodes <- V(g_bip)$name[V(g_bip)$type == TRUE]
-  
-  # Select the projection that contains author nodes
-  if (all(V(projections$proj1)$name %in% author_nodes)) {
-    g_proj <- projections$proj1
-  } else {
-    g_proj <- projections$proj2
-  }
-  
-  # Only plot if there are edges (co-authorships exist)
-  if (ecount(g_proj) > 0) {
-    ggraph(g_proj, layout = "fr") +
-      geom_edge_link(alpha = 0.4, aes(width = weight)) +
-      geom_node_point(size = 3, color = "steelblue") +
-      geom_node_text(aes(label = name), size = 2.5, repel = TRUE) +
-      theme_void() +
-      ggtitle(paste("Co-author network for Community", comm_id))
-  } else {
-    # Handle case where no co-authorships exist
-    ggplot() + 
-      annotate("text", x = 0, y = 0, label = "No co-authorships in this community", size = 5) +
-      theme_void() +
-      ggtitle(paste("Co-author network for Community", comm_id))
-  }
-}
-
 plot_coauthors(edges_comm1, slice_communities[6])
 plot_coauthors(edges_comm2, slice_communities[8])
-
-plot_coauthors_with_topics <- function(dfm_comm, edges, comm_id) {
-  g_bip <- graph_from_data_frame(edges %>% select(authors, doc), directed = FALSE)
-  V(g_bip)$type <- V(g_bip)$name %in% edges$authors
-  
-  # Project onto author–author network
-  projections <- bipartite_projection(g_bip)
-  author_nodes <- V(g_bip)$name[V(g_bip)$type == TRUE]
-  
-  if (all(V(projections$proj1)$name %in% author_nodes)) {
-    g_proj <- projections$proj1
-  } else {
-    g_proj <- projections$proj2
-  }
-  
-  # Only proceed if there are edges
-  if (ecount(g_proj) > 0) {
-    # Create author-topic mapping
-    doc_topics <- tibble(
-      doc = docnames(dfm_comm),
-      topic = docvars(dfm_comm)$primaryTopic
-    )
-    
-    # Join with edges to get author-topic relationships
-    author_topics <- edges %>%
-      left_join(doc_topics, by = "doc") %>%
-      group_by(authors) %>%
-      # Get most common topic for each author, or concatenate multiple topics
-      summarise(
-        primary_topic = names(sort(table(topic), decreasing = TRUE))[1],
-        topic_count = n_distinct(topic),
-        all_topics = paste(unique(topic), collapse = ", "),
-        .groups = 'drop'
-      )
-    
-    # Add topic information to vertices
-    vertex_data <- tibble(name = V(g_proj)$name) %>%
-      left_join(author_topics, by = c("name" = "authors"))
-    
-    V(g_proj)$primary_topic <- vertex_data$primary_topic
-    V(g_proj)$topic_count <- vertex_data$topic_count
-    V(g_proj)$all_topics <- vertex_data$all_topics
-    
-    # Create color palette for topics
-    unique_topics <- unique(vertex_data$primary_topic)
-    topic_colors <- rainbow(length(unique_topics))
-    names(topic_colors) <- unique_topics
-    
-    ggraph(g_proj, layout = "fr") +
-      geom_edge_link(alpha = 0.4, aes(width = weight)) +
-      geom_node_point(aes(color = primary_topic, size = topic_count), alpha = 0.8) +
-      geom_node_text(aes(label = name), size = 2.5, repel = TRUE) +
-      scale_color_manual(values = topic_colors, name = "Primary Topic") +
-      scale_size_continuous(name = "Topic Diversity", range = c(3, 8)) +
-      theme_void() +
-      ggtitle(paste("Co-author network with Topics for Community", comm_id)) +
-      theme(legend.position = "right")
-  } else {
-    ggplot() + 
-      annotate("text", x = 0, y = 0, label = "No co-authorships in this community", size = 5) +
-      theme_void() +
-      ggtitle(paste("Co-author network with Topics for Community", comm_id))
-  }
-}
 
 plot_coauthors_with_topics(dfm_comm1, edges_comm1, slice_communities[6])
 plot_coauthors_with_topics(dfm_comm2, edges_comm2, slice_communities[8])
 ```
 
-
 # Summary
 
-What we've tried to demonstrate
-
-**1. Baseline (No Metadata Context):**
-
-Capability: Reveals general vocabulary patterns and surface-level themes
-Critical Limitation: No interpretive context—we see patterns but cannot explain them
-
-**2. Temporal metadata:**
-
-New Capabilities: Historical analysis, tracking conceptual evolution, identifying emergence/decline patterns
-Research Questions Unlocked: When did concepts emerge? How did language evolve? What disappeared over time?
-
-**3. Topics:**
-
-New Capabilities: Disciplinary analysis, field-specific vocabularies, interdisciplinary boundary detection
-Research Questions Unlocked: How do fields use language differently? What terminology is discipline-specific? Where do fields overlap?
-
-**4. Authorship:**
-
-New Capabilities: Collaboration analysis, individual vs. collective discourse patterns, social organisation effects
-Research Questions Unlocked: How does collaboration affect language? Do teams write differently than individuals? How does social structure influence content?
-
-**5. Combining metadata:**
-
-New Capabilities: Complex, multi-dimensional analysis, interaction effects, layered contextual investigation
-Research Questions Unlocked: How do multiple factors interact? What emerges only from combined analysis? How do different contexts layer together?
-
-**6. Network data:**
-
-New Capabilities: Social analysis of knowledge, community-specific language patterns, intellectual network mapping
-Research Questions Unlocked: How do scholarly communities differ? What language is shared vs. specialised? How do networks influence terminology?
-
-## The Key Claim
-
-**Metadata fundamentally determines what research questions are possible to ask and answer when using text.**
-
-Each type of metadata creates new analytical possibilities. This principle extends far beyond historical corpora:
-
-- Social Media Analysis: Timestamps, user profiles, location data, network connections
-- News Corpora: Publication dates, outlets, authors, topics, geographic focus
-- Legal Documents: Court levels, case types, dates, jurisdictions, outcomes
-- Corporate Communications: Department, hierarchy level, meeting types, project codes
-- Academic Literature: Disciplines, citation networks, author affiliations, venue types
+What we've tried to demonstrate here is that **metadata can fundamentally determines what research questions are possible to ask and answer when using text.** Each type of metadata creates new analytical possibilities (or lenses). 
 
 ## Implications for Text Analysis
 
@@ -1271,6 +1219,45 @@ Each type of metadata creates new analytical possibilities. This principle exten
 - **3. Analytical Strategy:** Design analysis plans that start with basic questions and allow for the addition of dimensions progressively
 - **4. Interpretation:** Context from metadata is essential for moving from pattern detection to meaningful explanation
 - **5. Reproducibility:** Document metadata schemas and subsetting criteria as carefully as analytical procedures
+
+## Practical Implications and strategies for your research
+
+### Two general approaches
+
+**Exploratory Data Analysis (EDA)**
+
+- Start simple: basic frequency analysis
+- Build Complexity by layering different metadata dimensions
+- Ask bigger questions (maybe… research questions) as you develop an understanding of your data and the substantive context
+
+**Start with your research question(s)**
+
+- Guided by domain expertise
+- What do you want to know?
+- What metadata would enable that analysis?
+- Work backwards from question to data requirements
+
+### Concluding notes
+
+**Metadata is not optional**
+
+- Determines analytical possibilities
+- Invest time in understanding (and enriching) metadata
+
+**Layer your analysis**
+
+- Begin with simple, single-dimensional analyses
+- Gradually combine metadata types for richer insights
+- Each combination unlocks new research possibilities
+
+**Document structure can be metadata**
+
+Even without explicit categories, text structure provides context, e.g.:
+
+- Network analysis from co-occurrence patterns
+- Temporal patterns from publication sequences
+- Topic modeling to categorise document 
+- Text itself (tokens) can be used to understand metadata
 
 # Exercise Template
 
@@ -1296,3 +1283,74 @@ my_dfm2 <- subset_corpus(rsc_dfm, decade = my_decade2, topics = my_topic)
 # 3. What would be impossible to answer without this metadata?
 # 4. What additional metadata would enable even more interesting questions?
 ```
+
+
+<!-- # EXTRA -->
+
+<!-- ## Authorship Metadata: Individual vs Collaborative Work -->
+
+<!-- **Research Questions Enabled**:  -->
+
+<!-- - How does collaboration affect scientific language and argumentation? -->
+<!-- - Do single authors write differently than research teams? -->
+<!-- - What linguistic patterns emerge in collaborative vs. individual work? -->
+<!-- - How does authorship structure relate to the complexity or certainty of scientific claims? -->
+
+<!-- Historical Context: The transition from single-author to multi-author publications represents a major shift in how scientific knowledge is produced. In the Royal Society period, most work was still individual, making this an ideal dataset for studying this transition. -->
+
+<!-- ```{r authorship-analysis} -->
+
+<!-- # Create authorship-based subsets -->
+<!-- dfm_single <- subset_corpus(rsc_dfm, single_author = TRUE) -->
+<!-- dfm_multi <- subset_corpus(rsc_dfm, multi_author = TRUE) -->
+
+<!-- # Overview of authorship subsets -->
+<!-- cat("Single-Author Corpus:\n") -->
+<!-- cat("Documents:", ndoc(dfm_single), "\n") -->
+<!-- cat("Tokens:", sum(ntoken(dfm_single)), "\n") -->
+
+<!-- cat("\nMulti-Author Corpus:\n") -->
+<!-- cat("Documents:", ndoc(dfm_multi), "\n") -->
+<!-- cat("Tokens:", sum(ntoken(dfm_multi)), "\n\n") -->
+
+<!-- # Compare vocabularies -->
+<!-- cat("Top 15 Terms in Single-Author Papers:\n") -->
+<!-- topfeatures(dfm_single, 15) %>% print() -->
+
+<!-- cat("\nTop 15 Terms in Multi-Author Papers:\n") -->
+<!-- topfeatures(dfm_multi, 15) %>% print() -->
+
+<!-- # Distinctive language -->
+<!-- combined_auth_dfm <- rbind(dfm_single, dfm_multi) -->
+<!-- docvars(combined_auth_dfm, "authorship") <- c(rep("Single", ndoc(dfm_single)), -->
+<!--                                               rep("Multi", ndoc(dfm_multi))) -->
+
+<!-- auth_keyness <- textstat_keyness(combined_auth_dfm,  -->
+<!--                                  target = docvars(combined_auth_dfm, "authorship") == "Single") -->
+
+<!-- cat("\nTerms most distinctive of Single-Author papers:\n") -->
+<!-- auth_keyness %>%  -->
+<!--   filter(chi2 > 0) %>%  -->
+<!--   arrange(desc(chi2)) %>%  -->
+<!--   head(10) %>%  -->
+<!--   print() -->
+
+<!-- cat("\nTerms most distinctive of Multi-Author papers:\n") -->
+<!-- auth_keyness %>%  -->
+<!--   filter(chi2 < 0) %>%  -->
+<!--   arrange(chi2) %>%  -->
+<!--   head(10) %>%  -->
+<!--   print() -->
+
+<!-- ``` -->
+
+<!-- ### Interpreting Authorship Results: -->
+
+<!-- Consider: -->
+
+<!-- - Personal vs. collective voice: How does individual vs. collaborative authorship affect scientific rhetoric? -->
+<!-- - Certainty and hedging: Do collaborative works show more cautious language? -->
+<!-- - Methodological complexity: Are multi-author works more methodologically sophisticated? -->
+<!-- - Institutional language: How do collaboration patterns affect references to institutions, equipment, or resources? -->
+
+<!-- In all of these cases, *this might be an interesting area where stopwords are not dropped.* The patterns that emerge may reveal how the social organisation of scientific work influences the language used to communicate findings and arguments. -->

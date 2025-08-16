@@ -259,3 +259,317 @@ subset_corpus <- function(obj,
 subset_dfm <- function(dfm, ...) {
   subset_corpus(dfm, ...)
 }
+
+# Function to track term usage over time
+track_term_over_time <- function(dfm, term, time_var = "decade") {
+  
+  # Get document-level counts for the term
+  term_counts <- dfm[, term]
+  
+  # Extract metadata for time grouping  
+  time_data <- docvars(dfm, time_var)
+  
+  # Create summary by time period
+  usage_by_time <- data.frame(
+    time_period = time_data,
+    term_count = as.numeric(term_counts),
+    doc_length = ntoken(dfm)
+  ) %>%
+    group_by(time_period) %>%
+    summarise(
+      total_occurrences = sum(term_count),
+      documents_using_term = sum(term_count > 0),
+      total_documents = n(),
+      total_tokens = sum(doc_length),
+      usage_rate = total_occurrences / total_tokens * 1000, # per 1000 words
+      document_penetration = documents_using_term / total_documents,
+      .groups = 'drop'
+    ) %>%
+    filter(!is.na(time_period))
+  
+  return(usage_by_time)
+}
+
+# Function to identify key authors for specific terms/concepts
+find_key_authors_for_term <- function(dfm, term, min_usage = 2) {
+  
+  # Check if term exists in the DFM
+  if (!term %in% colnames(dfm)) {
+    cat("Term '", term, "' not found in corpus vocabulary\n", sep = "")
+    return(data.frame(
+      author = character(0),
+      total_term_usage = numeric(0),
+      total_words_written = numeric(0),
+      papers_using_term = numeric(0),
+      usage_intensity = numeric(0)
+    ))
+  }
+  
+  # Get term counts by document - properly handle quanteda DFM
+  term_counts <- as.numeric(dfm[, term])
+  
+  # Get author information
+  author_data <- docvars(dfm)
+  
+  # Create data frame with all documents
+  all_docs_data <- data.frame(
+    doc_id = docnames(dfm),
+    term_count = term_counts,
+    doc_length = ntoken(dfm),
+    stringsAsFactors = FALSE
+  )
+  
+  # Filter to documents that actually use the term
+  docs_with_term <- all_docs_data[all_docs_data$term_count > 0, ]
+  
+  if (nrow(docs_with_term) == 0) {
+    cat("No documents found using term '", term, "'\n", sep = "")
+    return(data.frame(
+      author = character(0),
+      total_term_usage = numeric(0),
+      total_words_written = numeric(0),
+      papers_using_term = numeric(0),
+      usage_intensity = numeric(0)
+    ))
+  }
+  
+  # Get corresponding author information for these documents
+  doc_indices <- match(docs_with_term$doc_id, docnames(dfm))
+  relevant_authors_list <- author_data$authors_list[doc_indices]
+  
+  # Expand to individual authors (handling multi-author papers)
+  author_rows <- list()
+  
+  for (i in 1:nrow(docs_with_term)) {
+    current_authors <- relevant_authors_list[[i]]
+    
+    if (length(current_authors) > 0 && !is.null(current_authors)) {
+      for (author in current_authors) {
+        if (!is.na(author) && author != "" && nchar(trimws(author)) > 0) {
+          author_rows[[length(author_rows) + 1]] <- data.frame(
+            author = trimws(author),
+            term_count = docs_with_term$term_count[i],
+            doc_length = docs_with_term$doc_length[i],
+            stringsAsFactors = FALSE
+          )
+        }
+      }
+    }
+  }
+  
+  # Combine all author rows
+  if (length(author_rows) > 0) {
+    all_author_data <- do.call(rbind, author_rows)
+    
+    # Aggregate by author
+    author_term_usage <- all_author_data %>%
+      group_by(author) %>%
+      summarise(
+        total_term_usage = sum(term_count),
+        total_words_written = sum(doc_length),
+        papers_using_term = n(),
+        usage_intensity = total_term_usage / total_words_written * 1000,
+        .groups = 'drop'
+      ) %>%
+      filter(total_term_usage >= min_usage) %>%
+      arrange(desc(total_term_usage))
+    
+    return(author_term_usage)
+  } else {
+    cat("No valid authors found for term '", term, "'\n", sep = "")
+    return(data.frame(
+      author = character(0),
+      total_term_usage = numeric(0),
+      total_words_written = numeric(0),
+      papers_using_term = numeric(0),
+      usage_intensity = numeric(0)
+    ))
+  }
+}
+
+
+# Function to find terms that appeared in specific time periods
+find_period_innovations <- function(dfm, early_period, late_period, time_var = "decade") {
+  
+  # Subset to time periods
+  early_dfm <- dfm[docvars(dfm, time_var) %in% early_period, ]
+  late_dfm <- dfm[docvars(dfm, time_var) %in% late_period, ]
+  
+  # Get vocabulary for each period
+  early_vocab <- colnames(early_dfm)[colSums(early_dfm) > 0]
+  late_vocab <- colnames(late_dfm)[colSums(late_dfm) > 0]
+  
+  # Find innovations (terms that appear in late period but not early)
+  innovations <- setdiff(late_vocab, early_vocab)
+  
+  # Calculate usage statistics for innovations in late period
+  innovation_stats <- colSums(late_dfm[, innovations, drop = FALSE])
+  innovation_docs <- colSums(late_dfm[, innovations, drop = FALSE] > 0)
+  
+  innovation_summary <- data.frame(
+    term = names(innovation_stats),
+    total_usage = innovation_stats,
+    docs_using = innovation_docs,
+    usage_per_doc = innovation_stats / innovation_docs
+  ) %>%
+    arrange(desc(total_usage))
+  
+  return(innovation_summary)
+}
+
+# Function to track concept usage across topics/communities
+track_concept_diffusion <- function(dfm, term, grouping_var) {
+  
+  # Get term usage and grouping data
+  term_counts <- dfm[, term]
+  groups <- docvars(dfm, grouping_var)
+  doc_lengths <- ntoken(dfm)
+  
+  # Calculate usage by group
+  diffusion_data <- data.frame(
+    group = groups,
+    term_count = as.numeric(term_counts),
+    doc_length = doc_lengths
+  ) %>%
+    filter(!is.na(group)) %>%
+    group_by(group) %>%
+    summarise(
+      total_usage = sum(term_count),
+      docs_with_term = sum(term_count > 0),
+      total_docs = n(),
+      total_words = sum(doc_length),
+      usage_rate = total_usage / total_words * 1000,
+      penetration_rate = docs_with_term / total_docs,
+      .groups = 'drop'
+    ) %>%
+    arrange(desc(usage_rate))
+  
+  return(diffusion_data)
+}
+
+# Turn docvars list-column into long edgelist: author <-> document
+make_bipartite_edges <- function(dfm_comm) {
+  tibble(
+    doc = docnames(dfm_comm),
+    authors = docvars(dfm_comm)$authors_list
+  ) %>%
+    unnest(authors) %>%
+    mutate(type = "author")
+}
+
+plot_bipartite <- function(edges, comm_id) {
+  # Build igraph object
+  g <- graph_from_data_frame(edges %>% select(authors, doc), directed = FALSE)
+  
+  # Identify node types: author = TRUE, doc = FALSE
+  V(g)$type <- V(g)$name %in% edges$authors
+  
+  # Plot
+  ggraph(g, layout = "bipartite") +
+    geom_edge_link(alpha = 0.4) +
+    geom_node_point(aes(color = as.factor(type)), size = 3) +
+    geom_node_text(aes(label = name), size = 2, repel = TRUE) +
+    scale_color_manual(values = c("red", "steelblue"), labels = c("Document", "Author")) +
+    theme_void() +
+    ggtitle(paste("Bipartite network for Community", comm_id))
+}
+
+
+plot_coauthors <- function(edges, comm_id) {
+  g_bip <- graph_from_data_frame(edges %>% select(authors, doc), directed = FALSE)
+  V(g_bip)$type <- V(g_bip)$name %in% edges$authors
+  
+  # Project onto author–author network
+  # Get both projections and select the one with authors
+  projections <- bipartite_projection(g_bip)
+  
+  # Check which projection contains authors (should be the one with type = TRUE)
+  author_nodes <- V(g_bip)$name[V(g_bip)$type == TRUE]
+  
+  # Select the projection that contains author nodes
+  if (all(V(projections$proj1)$name %in% author_nodes)) {
+    g_proj <- projections$proj1
+  } else {
+    g_proj <- projections$proj2
+  }
+  
+  # Only plot if there are edges (co-authorships exist)
+  if (ecount(g_proj) > 0) {
+    ggraph(g_proj, layout = "fr") +
+      geom_edge_link(alpha = 0.4, aes(width = weight)) +
+      geom_node_point(size = 3, color = "steelblue") +
+      geom_node_text(aes(label = name), size = 2.5, repel = TRUE) +
+      theme_void() +
+      ggtitle(paste("Co-author network for Community", comm_id))
+  } else {
+    # Handle case where no co-authorships exist
+    ggplot() + 
+      annotate("text", x = 0, y = 0, label = "No co-authorships in this community", size = 5) +
+      theme_void() +
+      ggtitle(paste("Co-author network for Community", comm_id))
+  }
+}
+
+plot_coauthors_with_topics <- function(dfm_comm, edges, comm_id) {
+  g_bip <- graph_from_data_frame(edges %>% select(authors, doc), directed = FALSE)
+  V(g_bip)$type <- V(g_bip)$name %in% edges$authors
+  
+  # Project onto author–author network
+  projections <- bipartite_projection(g_bip)
+  author_nodes <- V(g_bip)$name[V(g_bip)$type == TRUE]
+  
+  if (all(V(projections$proj1)$name %in% author_nodes)) {
+    g_proj <- projections$proj1
+  } else {
+    g_proj <- projections$proj2
+  }
+  
+  # Only proceed if there are edges
+  if (ecount(g_proj) > 0) {
+    # Create author-topic mapping
+    doc_topics <- tibble(
+      doc = docnames(dfm_comm),
+      topic = docvars(dfm_comm)$primaryTopic
+    )
+    
+    # Join with edges to get author-topic relationships
+    author_topics <- edges %>%
+      left_join(doc_topics, by = "doc") %>%
+      group_by(authors) %>%
+      # Get most common topic for each author, or concatenate multiple topics
+      summarise(
+        primary_topic = names(sort(table(topic), decreasing = TRUE))[1],
+        topic_count = n_distinct(topic),
+        all_topics = paste(unique(topic), collapse = ", "),
+        .groups = 'drop'
+      )
+    
+    # Add topic information to vertices
+    vertex_data <- tibble(name = V(g_proj)$name) %>%
+      left_join(author_topics, by = c("name" = "authors"))
+    
+    V(g_proj)$primary_topic <- vertex_data$primary_topic
+    V(g_proj)$topic_count <- vertex_data$topic_count
+    V(g_proj)$all_topics <- vertex_data$all_topics
+    
+    # Create color palette for topics
+    unique_topics <- unique(vertex_data$primary_topic)
+    topic_colors <- rainbow(length(unique_topics))
+    names(topic_colors) <- unique_topics
+    
+    ggraph(g_proj, layout = "fr") +
+      geom_edge_link(alpha = 0.4, aes(width = weight)) +
+      geom_node_point(aes(color = primary_topic, size = topic_count), alpha = 0.8) +
+      geom_node_text(aes(label = name), size = 2.5, repel = TRUE) +
+      scale_color_manual(values = topic_colors, name = "Primary Topic") +
+      scale_size_continuous(name = "Topic Diversity", range = c(3, 8)) +
+      theme_void() +
+      ggtitle(paste("Co-author network with Topics for Community", comm_id)) +
+      theme(legend.position = "right")
+  } else {
+    ggplot() + 
+      annotate("text", x = 0, y = 0, label = "No co-authorships in this community", size = 5) +
+      theme_void() +
+      ggtitle(paste("Co-author network with Topics for Community", comm_id))
+  }
+}
