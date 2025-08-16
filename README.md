@@ -5,6 +5,10 @@
 
 This workshop constrasts different computational approaches to the analysis of text and the types of relationships and patterns they uncover ([Antti Kanner](https://www.utu.fi/en/people/antti-kanner) and [Mark J. Hill](https://markjhill.github.io/))
 
+A knitted version of the workbook for this session is available within the repo and at the following link: [https://raw.githack.com/markjhill/2025-helsinki_cascade/main/code/Workshop-Exploring_RSC.html](https://raw.githack.com/markjhill/2025-helsinki_cascade/main/code/Workshop-Exploring_RSC.html).
+
+The slides for the workshop are available at the following link: **TO BE ADDED**.
+
 **Data**
 
 [The Royal Society Corpus](https://fedora.clarin-d.uni-saarland.de/rsc_v6/)
