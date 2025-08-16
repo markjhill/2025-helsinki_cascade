@@ -29,6 +29,10 @@ library(stringr)
 library(purrr)
 library(DT)
 library(plotly)
+library(igraph)
+library(ggraph)
+library(tidyr)
+
 
 # The data below was constructed using data/data_prep/load_and_prepare_data.Rmd
 
@@ -545,7 +549,11 @@ custom_stopwords <- c("fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "pro
                   "great", "now", "must", "thus", "therefore", "seen", "however", "amp", 
                   "second", "taken", "without", "many", "well", "f.r.s.", "table", "ii",
                   "iii", "iv", "v", "vi", "vii", "viii", "ix", "mdash", "figs", "yet",
-                  "doth", "hath", "saith", "tho", "thro", "ditto",
+                  "doth", "hath", "saith", "tho", "thro", "ditto", "f.r.s", "gt",
+                  "thereof", "whether", "whereof", "self", "author", "nearly", "tab",
+                  "letter", "till", "likewise", "saw", "book", "numb", "wherein", "sorts",
+                  "publisher", "books", "make", "concerning", "things", "like",
+                  "unto", "discourse", "divers",
                   letters)
 
 rsc_dfm <- dfm_remove(rsc_dfm,  pattern = custom_stopwords)
@@ -569,7 +577,7 @@ This baseline represents the starting point for any text analysis -- but also de
 ```{r baseline-analysis}
 
 # Most frequent terms
-cat("Top 20 Most Frequent Terms (All Documents):\n")
+cat("Top 50 Most Frequent Terms (All Documents):\n")
 topfeatures(rsc_dfm, 50) %>% print()
 
 # Most frequent n-grams
@@ -577,7 +585,7 @@ rsc_bigrams <- rsc_tokens %>%
   tokens_remove(c(custom_stopwords)) %>%
   tokens_ngrams(n = 2) %>% 
   dfm()
-cat("\nTop 10 Most Frequent Bigrams:\n")
+cat("Top 50 Most Frequent Bigrams:\n")
 topfeatures(rsc_bigrams, 50) %>% print()
 
 
@@ -924,7 +932,7 @@ phys_keyness %>%
 
 ```
 
-## Advanced Combined Analysis Ideas:
+### Advanced Combined Analysis Ideas:
 
 - Community Evolution: Track how specific intellectual communities changed their research focus over time
 - Cross-Field Diffusion: Study how terminology spreads from one discipline to another
@@ -1066,6 +1074,82 @@ sort(table(unlist(docvars(dfm_comm1)$authors_list)), decreasing = TRUE)[1:5]
 sort(table(unlist(docvars(dfm_comm2)$authors_list)), decreasing = TRUE)[1:5]
 
 ```
+
+And let's plot these networks
+
+```{r}
+# Turn docvars list-column into long edgelist: author <-> document
+make_bipartite_edges <- function(dfm_comm) {
+  tibble(
+    doc = docnames(dfm_comm),
+    authors = docvars(dfm_comm)$authors_list
+  ) %>%
+    unnest(authors) %>%
+    mutate(type = "author")
+}
+
+edges_comm1 <- make_bipartite_edges(dfm_comm1)
+edges_comm2 <- make_bipartite_edges(dfm_comm2)
+
+plot_bipartite <- function(edges, comm_id) {
+  # Build igraph object
+  g <- graph_from_data_frame(edges %>% select(authors, doc), directed = FALSE)
+  
+  # Identify node types: author = TRUE, doc = FALSE
+  V(g)$type <- V(g)$name %in% edges$authors
+  
+  # Plot
+  ggraph(g, layout = "bipartite") +
+    geom_edge_link(alpha = 0.4) +
+    geom_node_point(aes(color = as.factor(type)), size = 3) +
+    geom_node_text(aes(label = name), size = 2, repel = TRUE) +
+    scale_color_manual(values = c("red", "steelblue"), labels = c("Document", "Author")) +
+    theme_void() +
+    ggtitle(paste("Bipartite network for Community", comm_id))
+}
+
+plot_bipartite(edges_comm1, slice_communities[6])
+plot_bipartite(edges_comm2, slice_communities[8])
+
+plot_coauthors <- function(edges, comm_id) {
+  g_bip <- graph_from_data_frame(edges %>% select(authors, doc), directed = FALSE)
+  V(g_bip)$type <- V(g_bip)$name %in% edges$authors
+  
+  # Project onto author–author network
+  # Get both projections and select the one with authors
+  projections <- bipartite_projection(g_bip)
+  
+  # Check which projection contains authors (should be the one with type = TRUE)
+  author_nodes <- V(g_bip)$name[V(g_bip)$type == TRUE]
+  
+  # Select the projection that contains author nodes
+  if (all(V(projections$proj1)$name %in% author_nodes)) {
+    g_proj <- projections$proj1
+  } else {
+    g_proj <- projections$proj2
+  }
+  
+  # Only plot if there are edges (co-authorships exist)
+  if (ecount(g_proj) > 0) {
+    ggraph(g_proj, layout = "fr") +
+      geom_edge_link(alpha = 0.4, aes(width = weight)) +
+      geom_node_point(size = 3, color = "steelblue") +
+      geom_node_text(aes(label = name), size = 2.5, repel = TRUE) +
+      theme_void() +
+      ggtitle(paste("Co-author network for Community", comm_id))
+  } else {
+    # Handle case where no co-authorships exist
+    ggplot() + 
+      annotate("text", x = 0, y = 0, label = "No co-authorships in this community", size = 5) +
+      theme_void() +
+      ggtitle(paste("Co-author network for Community", comm_id))
+  }
+}
+
+plot_coauthors(edges_comm1, slice_communities[6])
+plot_coauthors(edges_comm2, slice_communities[8])
+```
+
 
 # Summary
 
