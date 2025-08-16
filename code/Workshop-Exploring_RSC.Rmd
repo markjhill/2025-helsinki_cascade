@@ -982,8 +982,8 @@ We can identify when new technical terms first appeared and trace their adoption
 # Find terminology that emerged in different centuries
 innovations_1800s <- find_period_innovations(
   rsc_dfm, 
-  early_period = c(1600, 1650, 1700), 
-  late_period = c(1800, 1850), 
+  early_period = c(1600, 1700), 
+  late_period = c(1800), 
   time_var = "century"
 )
 
