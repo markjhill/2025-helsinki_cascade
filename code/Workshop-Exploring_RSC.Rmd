@@ -961,7 +961,7 @@ large_communities <- network_data %>%
 
 cat("Analysing communities:", paste(large_communities, collapse = ", "), "\n\n")
 
-# Subset DFM by YEARS and AUTHORS
+# Subset DFM by YEARS and AUTHORS 
 
 # Create community-based subsets
 dfm_comm1 <- subset_corpus(rsc_dfm, communities = large_communities[1])
@@ -1148,6 +1148,73 @@ plot_coauthors <- function(edges, comm_id) {
 
 plot_coauthors(edges_comm1, slice_communities[6])
 plot_coauthors(edges_comm2, slice_communities[8])
+
+plot_coauthors_with_topics <- function(dfm_comm, edges, comm_id) {
+  g_bip <- graph_from_data_frame(edges %>% select(authors, doc), directed = FALSE)
+  V(g_bip)$type <- V(g_bip)$name %in% edges$authors
+  
+  # Project onto author–author network
+  projections <- bipartite_projection(g_bip)
+  author_nodes <- V(g_bip)$name[V(g_bip)$type == TRUE]
+  
+  if (all(V(projections$proj1)$name %in% author_nodes)) {
+    g_proj <- projections$proj1
+  } else {
+    g_proj <- projections$proj2
+  }
+  
+  # Only proceed if there are edges
+  if (ecount(g_proj) > 0) {
+    # Create author-topic mapping
+    doc_topics <- tibble(
+      doc = docnames(dfm_comm),
+      topic = docvars(dfm_comm)$primaryTopic
+    )
+    
+    # Join with edges to get author-topic relationships
+    author_topics <- edges %>%
+      left_join(doc_topics, by = "doc") %>%
+      group_by(authors) %>%
+      # Get most common topic for each author, or concatenate multiple topics
+      summarise(
+        primary_topic = names(sort(table(topic), decreasing = TRUE))[1],
+        topic_count = n_distinct(topic),
+        all_topics = paste(unique(topic), collapse = ", "),
+        .groups = 'drop'
+      )
+    
+    # Add topic information to vertices
+    vertex_data <- tibble(name = V(g_proj)$name) %>%
+      left_join(author_topics, by = c("name" = "authors"))
+    
+    V(g_proj)$primary_topic <- vertex_data$primary_topic
+    V(g_proj)$topic_count <- vertex_data$topic_count
+    V(g_proj)$all_topics <- vertex_data$all_topics
+    
+    # Create color palette for topics
+    unique_topics <- unique(vertex_data$primary_topic)
+    topic_colors <- rainbow(length(unique_topics))
+    names(topic_colors) <- unique_topics
+    
+    ggraph(g_proj, layout = "fr") +
+      geom_edge_link(alpha = 0.4, aes(width = weight)) +
+      geom_node_point(aes(color = primary_topic, size = topic_count), alpha = 0.8) +
+      geom_node_text(aes(label = name), size = 2.5, repel = TRUE) +
+      scale_color_manual(values = topic_colors, name = "Primary Topic") +
+      scale_size_continuous(name = "Topic Diversity", range = c(3, 8)) +
+      theme_void() +
+      ggtitle(paste("Co-author network with Topics for Community", comm_id)) +
+      theme(legend.position = "right")
+  } else {
+    ggplot() + 
+      annotate("text", x = 0, y = 0, label = "No co-authorships in this community", size = 5) +
+      theme_void() +
+      ggtitle(paste("Co-author network with Topics for Community", comm_id))
+  }
+}
+
+plot_coauthors_with_topics(dfm_comm1, edges_comm1, slice_communities[6])
+plot_coauthors_with_topics(dfm_comm2, edges_comm2, slice_communities[8])
 ```
 
 
