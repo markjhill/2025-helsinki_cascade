@@ -541,8 +541,6 @@ However, we can quickly see that many of these "words" are not meaningful. We th
 # YOU MAY WANT TO UPDATE THIS TO ADD AND/OR REMOVE WORDS AS YOU ANALYSE DATA YOURSELF
 ######################################
 
-all_issues <- paste0("#" )
-
 custom_stopwords <- c(paste0("#", 1:999), 
                   "fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof",
                   "also", "upon", "one", "two", "three", "four", "five", "six", "seven",

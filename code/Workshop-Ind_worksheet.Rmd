@@ -1,0 +1,582 @@
+---
+title: "Royal Society Corpus - Analysis Worksheet"
+author: "Mark J. Hill"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries_data_etc}
+
+# Required libraries
+
+library(quanteda)
+library(quanteda.textplots)
+library(quanteda.textstats)
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(stringr)
+library(purrr)
+library(DT)
+library(plotly)
+library(igraph)
+library(ggraph)
+library(tidyr)
+
+# Load RSC corpus - this isn't loaded by default, but can be if you want to look at raw documents
+# rsc_corpus <- readRDS("../data/rsc_corpus.RDS") # This is moderately large - around 450MB in memory
+
+# Load RSC DFM
+rsc_dfm <- readRDS("../data/rsc_dfm.RDS")
+
+# Load network/community data
+network_data <- read.csv("../data/rsc/multi_temporal_communities.csv")
+
+# Load helper functions for subsetting/analysing data
+source("workshop_functions.R")
+```
+
+```{r perp_dfm}
+######################################
+# A custom list of stopwords (and symbols).
+# YOU MAY WANT TO UPDATE THIS TO ADD AND/OR REMOVE WORDS AS YOU ANALYSE DATA YOURSELF
+######################################
+
+custom_stopwords <- c(paste0("#", 1:999), 
+                  "fig", "page", "pp", "vol", "etc", "viz", "mr", "dr", "prof",
+                  "also", "upon", "one", "two", "three", "four", "five", "six", "seven",
+                  "eight", "nine", "ten", "may", "can", "+", "-", "~", "=", "^",
+                  "per" ,"cent", "royal", "society", "phil", "trans", "8vo", "|", "results",
+                  "another", "professor", "roy", "soc", "first", "part", "much", "given",
+                  "great", "now", "must", "thus", "therefore", "seen", "however", "amp", 
+                  "second", "taken", "without", "many", "well", "f.r.s.", "table", "ii",
+                  "iii", "iv", "v", "vi", "vii", "viii", "ix", "mdash", "figs", "yet",
+                  "doth", "hath", "saith", "tho", "thro", "ditto", "f.r.s", "gt",
+                  "thereof", "whether", "whereof", "self", "author", "nearly", "tab",
+                  "letter", "till", "likewise", "saw", "book", "numb", "wherein", "sorts",
+                  "publisher", "books", "make", "concerning", "things", "like",
+                  "unto", "discourse", "divers", "407-481",
+                  letters)
+
+rsc_dfm <- dfm_remove(rsc_dfm,  pattern = custom_stopwords)
+```
+
+# Royal Society Corpus - Investigation Worksheet
+
+## Part 1: Choosing Your Focus
+
+### Exercise 1.1: Pick Your Entry Point
+
+Choose ONE of the following starting points for your investigation:
+
+**Option A: Start with a term/concept that interests you**
+
+```{r 1.1a}
+my_term <- "______"  # <-- FILL IN (e.g., "atom", "evolution", "electricity", etc.)
+
+# Check if your term exists
+my_term %in% colnames(rsc_dfm)
+
+# If FALSE, search for related terms/lemmas/stems - this may identify other words of interest:
+grep("____", colnames(rsc_dfm), value = TRUE, ignore.case = TRUE)[1:30]
+```
+
+
+**Option B: Start with a time period that interests you**
+
+```{r 1.1b}
+my_start_year <- ____  # <-- FILL IN
+my_end_year <- ____    # <-- FILL IN
+
+# How many documents in your period?
+my_period_dfm <- subset_by_date(rsc_dfm, start_year = my_start_year, end_year = my_end_year)
+ndoc(my_period_dfm)
+```
+
+**Option C: Start with a scientific community**
+
+```{r 1.1b}
+# First, explore what communities exist and what they study
+
+# Choose a time slice to explore:
+# Options: "all_time_communities" or one of the slices: slice_1650_1699, slice_1675_1724, slice_1700_1749, slice_1725_1774, slice_1750_1799, slice_1775_1824, slice_1800_1849, slice_1825_1874, slice_1850_1899, slice_1875_1924
+
+my_time_slice <- "all_time_communities"  # <-- CHANGE IF DESIRED
+
+# See community sizes in your chosen time slice
+network_data %>%
+  filter(node_type == "author") %>%
+  filter(!is.na(!!sym(my_time_slice)) & !!sym(my_time_slice) != 0) %>%
+  group_by(!!sym(my_time_slice)) %>%
+  summarise(n_authors = n()) %>%
+  arrange(desc(n_authors)) %>%
+  head(20)
+
+# Now explore what different communities actually study
+# This will help you choose meaningfully
+for(comm_num in c(_, _, _, _, _)) {  # <-- CHANGE: Suggested to choose a handful of the largest communities like: c(8, 54, 15, 2)
+  comm_test <- subset_by_community(rsc_dfm, 
+                                   communities = comm_num,
+                                   time_slice = my_time_slice)
+  if(ndoc(comm_test) > 10) {  # Only show communities with substantial documents
+    cat("\n--- Community", comm_num, "---\n")
+    cat("Documents:", ndoc(comm_test), "\n")
+    
+    # Show main topics
+    topics <- table(docvars(comm_test)$primaryTopic) %>% 
+      sort(decreasing = TRUE) %>% 
+      head(3)
+    cat("Top topics:", paste(names(topics), collapse = ", "), "\n")
+    
+    # Show distinctive terms
+    cat("Key terms:", paste(names(topfeatures(comm_test, 10)), collapse = ", "), "\n")
+    
+    # Show time range
+    years <- range(docvars(comm_test)$year, na.rm = TRUE)
+    cat("Active:", years[1], "-", years[2], "\n")
+  }
+}
+
+# Based on the above exploration, choose a community that interests you
+my_community <- ___  # <-- NOW PICK AN INFORMED COMMUNITY NUMBER
+```
+
+## Part 2: Explore Your Choice
+
+### Exercise 2.1: If You Chose a TERM (Option A)
+
+```{r 2.1a}
+# When does your term first appear and how does it grow?
+term_history <- track_term_over_time(rsc_dfm, my_term, time_var = "decade")
+
+# Plot it
+ggplot(term_history, aes(x = time_period, y = usage_rate)) +
+  geom_line() +
+  geom_point() +
+  theme_minimal()
+
+# Who were the key users over all time?
+all_authors <- find_key_authors_for_term(rsc_dfm, my_term, min_usage = 1)
+
+# Add proportion of total usage
+total_usage <- sum(rsc_dfm[, my_term])
+all_authors$proportion_of_total <- (all_authors$total_term_usage / total_usage) * 100
+
+# Sort by proportion
+all_authors <- all_authors %>% arrange(desc(proportion_of_total))
+head(all_authors, 10)
+
+##########
+#N.B. this is not weighted by time period. This can (and likely will) bias results towards eras with more publications in general. 
+# Therefore, it may be useful to investigate by specific decades (or other time periods).
+##########
+
+# Find the peak decade for your term
+specific_decade <- term_history$time_period[which.max(term_history$usage_rate)]
+
+# Or choose a decade based on the visualisation
+specific_decade <- ____
+
+print(paste("Peak usage:", specific_decade)) # If you want to look at a specific decade you can edit "specific_decade".
+
+# Now subset the DFM to this peak decade to investigate further
+specific_decade_dfm <- subset_by_date(rsc_dfm, decade = specific_decade)
+
+# Who were the key users during the peak?
+peak_authors <- find_key_authors_for_term(specific_decade_dfm, my_term, min_usage = 1)
+head(peak_authors, 10)
+```
+
+**What might explain why your term peaked when it did?**
+
+**Who are some of the historical actors reported as central to the term? (Try the Oxford Dictionary of National Biography or Wikipedia).**
+
+_Your interpretation:_
+
+```{r 2.1b}
+# What other terms co-occur with yours during the peak?
+
+# First get documents using your term
+term_docs <- specific_decade_dfm[as.numeric(specific_decade_dfm[, my_term]) > 0, ]
+
+# Get top features from those documents (N.B.: you may see your term in this list).
+topfeatures(term_docs, 30)
+```
+
+**Are there related terms that are meaningful?**
+
+**Are any of the other terms with investigating as well?***
+
+_Your interpretation:_
+
+### Exercise 2.2: If You Chose a TIME PERIOD (Option B)
+
+```{r 2.2}
+# What distinguishes your time period?
+
+# Compare it to an earlier period (edit as necessary - below takes 50 years prior to your chosen era)
+other_era_start_year <- my_start_year - 50
+other_era_end_year <- my_start_year - 1
+
+earlier_dfm <- subset_by_date(rsc_dfm, 
+                              start_year = other_era_start_year,
+                              end_year = other_era_end_year)
+
+# Find innovations - terms that appear in your period but not earlier
+innovations <- find_period_innovations(rsc_dfm,
+                                       early_period = (my_start_year - 50):(my_start_year - 1),
+                                       late_period = my_start_year:my_end_year,
+                                       time_var = "year")
+head(innovations, n = 20) # change n to see more, or view the innovations DF.
+
+# Pick one innovation to investigate further
+interesting_innovation <- "______"  # <-- CHOOSE FROM THE LIST ABOVE
+
+# Who introduced this innovation?
+innovation_authors <- find_key_authors_for_term(my_period_dfm, interesting_innovation)
+head(innovation_authors)
+```
+
+_Your interpretation:_
+
+### Exercise 2.3: If You Chose a COMMUNITY (Option C)
+
+```{r 2.3}
+# Get the DFM for your community
+comm_dfm <- subset_by_community(rsc_dfm, 
+                                communities = my_community,
+                                time_slice = my_time_slice)
+print(paste("Documents in community:", ndoc(comm_dfm)))
+
+# If you chose all_time_communities, see temporal evolution
+if(my_time_slice == "all_time_communities") {
+  # When was this community active?
+  comm_timeline <- docvars(comm_dfm) %>%
+    group_by(decade) %>%
+    summarise(n_docs = n()) %>%
+    arrange(decade)
+  
+  ggplot(comm_timeline, aes(x = decade, y = n_docs)) +
+    geom_col() +
+    theme_minimal() +
+    labs(title = paste("Community", my_community, "activity over time"))
+} else {
+  # For specific time slices, show year-by-year detail
+  comm_years <- docvars(comm_dfm) %>%
+    group_by(year) %>%
+    summarise(n_docs = n()) %>%
+    arrange(year)
+  
+  ggplot(comm_years, aes(x = year, y = n_docs)) +
+    geom_col() +
+    theme_minimal() +
+    labs(title = paste("Community", my_community, "annual output"))
+}
+
+# Analyze authorship patterns in this community
+author_stats <- docvars(comm_dfm) %>%
+  unnest(authors_list) %>%
+  group_by(authors_list) %>%
+  summarise(
+    n_papers = n(),
+    years_active = paste(min(year, na.rm = TRUE), "-", max(year, na.rm = TRUE)),
+    main_topics = paste(unique(primaryTopic)[1:min(3, length(unique(primaryTopic)))], collapse = ", ")
+  ) %>%
+  arrange(desc(n_papers))
+
+cat("\nMost prolific authors in this community:\n")
+head(author_stats, 10)
+
+# Look at collaboration patterns
+collab_stats <- docvars(comm_dfm) %>%
+  summarise(
+    single_author_pct = sum(author_count == 1, na.rm = TRUE) / n() * 100,
+    avg_authors = mean(author_count, na.rm = TRUE),
+    max_collaboration = max(author_count, na.rm = TRUE)
+  )
+cat("\nCollaboration patterns:\n")
+print(collab_stats)
+
+# Find terms that distinguish this community from others
+# Compare against the full corpus
+comm_features <- topfeatures(comm_dfm, 100)
+overall_features <- topfeatures(rsc_dfm, 100)
+
+# Terms prominent in community but not overall
+distinctive_terms <- names(comm_features)[!names(comm_features) %in% names(overall_features)]
+cat("\nTerms distinctive to this community (not in top 100 overall):\n")
+print(distinctive_terms[1:20])
+
+# Document types in this community
+doc_types <- table(docvars(comm_dfm)$type) %>% 
+  prop.table() %>% 
+  sort(decreasing = TRUE)
+cat("\nDocument type distribution:\n")
+print(round(doc_types * 100, 1))
+```
+
+_Your interpretation:_
+
+## Part 3: Deepen Your Investigation
+
+### Exercise 3.1: Add Another Dimension
+
+```{r 3.1}
+# Now ADD a second filter to narrow your investigation
+
+# If you started with a TERM, add a time constraint:
+if(exists("my_term")) {
+  focused_dfm <- subset_by_date(rsc_dfm, 
+                                decade = peak_decade)  # or choose your own
+  
+  # How does your term's usage vary by document type in this period?
+  for(dtype in unique(docvars(focused_dfm)$type)) {
+    type_subset <- subset_by_type(focused_dfm, dtype)
+    if(ndoc(type_subset) > 0 && my_term %in% colnames(type_subset)) {
+      usage <- sum(type_subset[, my_term]) / sum(ntoken(type_subset)) * 1000
+      cat(dtype, ":", round(usage, 3), "per 1000 words\n")
+    }
+  }
+}
+
+# If you started with TIME, add a topic constraint:
+if(exists("my_period_dfm")) {
+  # What are the main topics in your period?
+  table(docvars(my_period_dfm)$primaryTopic) %>% sort(decreasing = TRUE) %>% head(10)
+  
+  my_topic <- "______"  # <-- CHOOSE ONE
+  
+  focused_dfm <- subset_by_topic(my_period_dfm, topics = my_topic)
+  print(paste("Documents about", my_topic, "in your period:", ndoc(focused_dfm)))
+  
+  # What are the key terms for this topic in your period?
+  topfeatures(focused_dfm, 20)
+}
+
+# If you started with COMMUNITY, add a term search:
+if(exists("comm_dfm")) {
+  # Pick a term from the distinctive terms you found
+  comm_term <- "______"  # <-- CHOOSE FROM YOUR TOP FEATURES
+  
+  # How does this community's usage compare to overall?
+  comm_usage <- sum(comm_dfm[, comm_term]) / sum(ntoken(comm_dfm)) * 1000
+  overall_usage <- sum(rsc_dfm[, comm_term]) / sum(ntoken(rsc_dfm)) * 1000
+  
+  cat("Community usage:", round(comm_usage, 3), "per 1000 words\n")
+  cat("Overall usage:", round(overall_usage, 3), "per 1000 words\n")
+  cat("Ratio:", round(comm_usage / overall_usage, 2), "x\n")
+}
+```
+
+### Exercise 3.2: Look for Patterns
+
+```{r 3.2}
+# Create your double-filtered subset from above
+# Name it focused_dfm if you haven't already
+
+# Examine collaboration patterns in your focused set
+if(exists("focused_dfm")) {
+  collab_stats <- docvars(focused_dfm) %>%
+    summarise(
+      avg_authors = mean(author_count, na.rm = TRUE),
+      single_author_pct = sum(author_count == 1, na.rm = TRUE) / n() * 100,
+      max_authors = max(author_count, na.rm = TRUE)
+    )
+  print(collab_stats)
+  
+  # Find the most connected authors in your subset
+  edges <- make_bipartite_edges(focused_dfm)
+  
+  author_connections <- edges %>%
+    group_by(authors) %>%
+    summarise(n_papers = n()) %>%
+    arrange(desc(n_papers)) %>%
+    head(10)
+  
+  print(author_connections)
+}
+```
+
+## Part 4: Comparative Analysis
+
+### Exercise 4.1: Compare Against a Baseline
+
+```{r 4.1}
+# Create a comparison group that differs in ONE dimension from your focused set
+
+# If you focused on a specific term + time, compare different time
+# If you focused on a community + term, compare different community  
+# If you focused on time + topic, compare different topic
+
+comparison_dfm <- subset_corpus(rsc_dfm,
+                                _______ = _______,  # <-- CHANGE ONE PARAMETER
+                                _______ = _______,  # <-- KEEP THIS THE SAME
+                                debug = FALSE)
+
+print(paste("Comparison set:", ndoc(comparison_dfm), "documents"))
+
+# Compare vocabularies
+focused_top <- names(topfeatures(focused_dfm, 100))
+comparison_top <- names(topfeatures(comparison_dfm, 100))
+
+# What's unique to your focused set?
+unique_to_focused <- setdiff(focused_top, comparison_top)
+print("Distinctive to focused set:")
+print(unique_to_focused[1:20])
+
+# What's unique to comparison?
+unique_to_comparison <- setdiff(comparison_top, focused_top)
+print("Distinctive to comparison set:")
+print(unique_to_comparison[1:20])
+```
+
+**What do these vocabulary differences tell you?**
+_Your interpretation:_
+
+### Exercise 4.2: Track Evolution
+
+```{r 4.2}
+# If your investigation involves a term, track its meaning change
+if(exists("my_term")) {
+  # Get documents using the term from different periods
+  decades_to_compare <- c(peak_decade - 20, peak_decade, peak_decade + 20)
+  
+  for(dec in decades_to_compare) {
+    dec_dfm <- subset_by_date(rsc_dfm, decade = dec)
+    term_docs <- dec_dfm[as.numeric(dec_dfm[, my_term]) > 0, ]
+    
+    if(ndoc(term_docs) > 0) {
+      cat("\nDecade", dec, "- Co-occurring terms:\n")
+      # Remove the term itself from the list
+      top_cooccur <- topfeatures(term_docs, 11)
+      top_cooccur <- top_cooccur[names(top_cooccur) != my_term]
+      print(head(top_cooccur, 10))
+    }
+  }
+}
+
+# If your investigation involves a community, track its evolution
+if(exists("my_community")) {
+  # Look at the community in different time slices
+  for(time_slice in c("c1665_1750_communities", "c1750_1850_communities", 
+                      "c1850_1950_communities", "c1950_2015_communities")) {
+    
+    slice_dfm <- subset_by_community(rsc_dfm, 
+                                     communities = my_community,
+                                     time_slice = time_slice)
+    if(ndoc(slice_dfm) > 0) {
+      cat("\n", time_slice, ":\n")
+      cat("Documents:", ndoc(slice_dfm), "\n")
+      cat("Top terms:", paste(names(topfeatures(slice_dfm, 5)), collapse = ", "), "\n")
+    }
+  }
+}
+```
+
+## Part 5: Build Your Narrative
+
+### Exercise 5.1: Synthesize Your Findings
+
+Based on your investigations above, write a brief research narrative:
+
+**1. What I investigated:**
+_Describe your starting point and why you chose it:_
+
+**2. How I narrowed my focus:**
+_Explain your filtering decisions:_
+
+**3. Key patterns I found:**
+_List 3-5 main findings:_
+
+**4. Comparison insights:**
+_What did comparing against other sets reveal?_
+
+**5. Change over time:**
+_What evolution did you observe?_
+
+### Exercise 5.2: Generate a Research Question
+
+```{r 5.2}
+# Based on your exploration, formulate a specific research question
+# Then design an analysis to address it
+
+# MY RESEARCH QUESTION:
+# _____________________________________
+
+# Analysis to address this question:
+research_dfm <- subset_corpus(rsc_dfm,
+                             ______ = ______,  # <-- YOUR CRITERIA
+                             ______ = ______,
+                             ______ = ______,
+                             debug = TRUE)
+
+# Your analysis code here:
+
+
+
+
+```
+
+### Exercise 5.3: Create a Visualization
+
+```{r 5.3}
+# Design a visualization that best communicates your main finding
+# Modify one of these templates:
+
+# OPTION 1: Time series comparison
+# data_for_plot <- data.frame(
+#   decade = _____,
+#   value = _____,
+#   group = _____
+# )
+# ggplot(data_for_plot, aes(x = decade, y = value, color = group)) +
+#   geom_line() +
+#   theme_minimal() +
+#   labs(title = "Your Title")
+
+# OPTION 2: Network visualization
+# if(ndoc(research_dfm) < 100) {  # Only for small sets
+#   edges <- make_bipartite_edges(research_dfm)
+#   plot_coauthors(edges, "Your Research Network")
+# }
+
+# OPTION 3: Feature comparison
+# [Your visualization code]
+
+
+
+```
+
+## Part 6: Extend Your Investigation
+
+### Exercise 6.1: What's Missing?
+
+```{r 6.1}
+# Identify what you couldn't investigate with the current data/methods
+
+# Try to find documents that SHOULD contain your phenomenon but don't
+# For example, papers that should use a term but don't:
+
+if(exists("my_term")) {
+  # Find papers in relevant topic that DON'T use the term
+  relevant_topic <- "______"  # <-- CHOOSE BASED ON YOUR INVESTIGATION
+  
+  topic_dfm <- subset_by_topic(rsc_dfm, topics = relevant_topic)
+  no_term_dfm <- topic_dfm[as.numeric(topic_dfm[, my_term]) == 0, ]
+  
+  print(paste("Papers about", relevant_topic, "NOT using", my_term, ":", ndoc(no_term_dfm)))
+  
+  # When do these papers occur?
+  table(docvars(no_term_dfm)$decade) %>% sort() %>% tail(10)
+}
+```
+
+**What questions remain unanswered?**
+_Your thoughts:_
+
+**What additional data would you need?**
+_Your wish list:_
