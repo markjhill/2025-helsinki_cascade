@@ -7,7 +7,7 @@ This workshop contrasts different computational approaches to the analysis of te
 
 A knitted version of the workbook for this session is available within the repo and at the following link: [https://raw.githack.com/markjhill/2025-helsinki_cascade/main/code/Workshop-Exploring_RSC.html](https://raw.githack.com/markjhill/2025-helsinki_cascade/main/code/Workshop-Exploring_RSC.html).
 
-The slides for the workshop are available at the following link: **TO BE ADDED**.
+The slides for the workshop are available at the following link: [https://docs.google.com/presentation/d/1c99V4pzsb2bp2m81xHwZExunHvZgiSqWvqudPgN5Pxw/edit?usp=sharing](https://docs.google.com/presentation/d/1c99V4pzsb2bp2m81xHwZExunHvZgiSqWvqudPgN5Pxw/edit?usp=sharing)
 
 **Data**
 
